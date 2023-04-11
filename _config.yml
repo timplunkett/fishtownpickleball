@@ -24,12 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Pickleball in Fishtown!
 baseurl: ""
 url: "https://fishtownpickleball.com"
-theme: minimal
+theme: slate
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
-theme: slate
 plugins:
   - jekyll-feed
 
