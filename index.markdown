@@ -4,6 +4,7 @@
 
 layout: default
 ---
+<h2>Sign-up on Discord for info on how to join us!</h2>
 <section class="embed--discord">
   {% include discord-widget.html %}
 </section>
