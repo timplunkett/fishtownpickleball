@@ -4,9 +4,9 @@
 
 layout: default
 ---
-      <section class="embed--discord">
-        {% include discord-widget.html %}
-      </section>
-      <section class="embed--instagram">
-        {% include instagram-widget.html %}
-      </section>
+<section class="embed--discord">
+  {% include discord-widget.html %}
+</section>
+<section class="embed--instagram">
+  {% include instagram-widget.html %}
+</section>
