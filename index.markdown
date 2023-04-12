@@ -5,9 +5,9 @@
 layout: default
 ---
 <h2>Sign-up on Discord for info on how to join us!</h2>
-<section class="embed--discord">
+<section class="embed embed--discord">
   {% include discord-widget.html %}
 </section>
-<section class="embed--instagram">
+<section class="embed embed--instagram">
   {% include instagram-widget.html %}
 </section>

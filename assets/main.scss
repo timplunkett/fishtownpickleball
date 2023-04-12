@@ -1,0 +1,11 @@
+---
+---
+@import "minima";
+
+.embed {
+  display: flex;
+  justify-content: center;
+}
+.embed .discord-widget {
+  min-width: 40vw;
+}
