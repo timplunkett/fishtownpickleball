@@ -37,7 +37,7 @@ const discordWidget = (($) => {
         const widgetElement = $(".discord-widget")[0];
         $(widgetElement).attr("version", version);
         const defaultInnerHtml =
-          '<ul class="discord-tree"></ul><p class="discord-users-online"></p><p class="discord-join"></p><div class="discord-fade"></div>';
+          '<ul class="discord-tree"></ul><p class="discord-join"></p><div class="discord-fade"></div>';
         let treeElement;
 
         if (p.title !== false) {
@@ -68,15 +68,13 @@ const discordWidget = (($) => {
           return;
         }
 
-        const usersElement = $(".discord-users-online")[0];
         const joinElement = $(".discord-join")[0];
 
         let discordJoin = "";
         if (d.instant_invite !== "null") {
-          discordJoin = `<a href="${d.instant_invite}" target="_blank">Join Server</a>`;
+          discordJoin = `<a href="${d.instant_invite}" target="_blank">Join Discord</a>`;
         }
 
-        usersElement.innerHTML = `Users Online: ${d.presence_count}`;
         if (p.join) {
           joinElement.innerHTML = discordJoin;
         } else {
