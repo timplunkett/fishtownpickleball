@@ -7,7 +7,10 @@
   justify-content: center;
 }
 .embed .discord-widget {
-  min-width: min(40vw, 540px);
+  min-width: 326px;
+  max-width: 540px;
+  width: calc(100% - 2px);
+  margin: 0;
 }
 
 footer * {
