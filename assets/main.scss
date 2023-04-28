@@ -6,12 +6,6 @@
   display: flex;
   justify-content: center;
 }
-.embed .discord-widget {
-  min-width: 326px;
-  max-width: 540px;
-  width: calc(100% - 2px);
-  margin: 0;
-}
 
 footer * {
   margin: 0 !important;
@@ -36,4 +30,7 @@ footer * {
 
 .cta--signup {
   text-align: center;
+}
+.cta--signup a {
+  font-weight: bold;
 }

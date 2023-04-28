@@ -4,10 +4,10 @@
 
 layout: default
 ---
-<h2 class="cta cta--signup">Sign-up on Discord for info on how to join us!</h2>
-<section class="embed embed--discord">
-  {% include discord-widget.html %}
-</section>
+<h2 class="cta cta--signup">
+  <a href="https://discordapp.com/invite/TRf9XjYhG6" target="_blank">Sign up here!</a>
+</h2>
+
 <section class="embed embed--instagram">
   {% include instagram-widget.html %}
 </section>
