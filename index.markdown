@@ -9,7 +9,7 @@ layout: default
     {{site.description}} We welcome adults of all skill levels and backgrounds.
   </p>
   <h2 class="cta cta--signup">
-    <a href="https://discordapp.com/invite/TRf9XjYhG6" target="_blank" rel="noopener noreferrer">Join the Club on Discord</a>
+    <a href="https://discord.gg/Ck4ezGeXdz" target="_blank" rel="noopener noreferrer">Join the Club on Discord</a>
   </h2>
   <p>
     Pickleball game sign-ups, court locations, and times are organized using Discord, a free voice, video, and text chat app. Unfamiliar with Discord? <a href="https://discord.com/safety/360044149331-what-is-discord" target="_blank" rel="noopener noreferrer">Learn more about what Discord is and how it works</a>.
