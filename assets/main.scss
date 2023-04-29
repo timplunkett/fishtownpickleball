@@ -2,6 +2,24 @@
 ---
 @import "minima";
 
+// Header styles.
+.site-header {
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-logo {
+    height: 4em;
+    margin: 1em 1em 1em 0;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
 .main .section {
   margin-bottom: 2em;
 }
