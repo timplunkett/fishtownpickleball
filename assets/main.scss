@@ -2,11 +2,24 @@
 ---
 @import "minima";
 
+.main .section {
+  margin-bottom: 2em;
+}
+
 .embed {
   display: flex;
   justify-content: center;
 }
 
+// CTAs
+.cta--signup {
+  text-align: center;
+}
+.cta--signup a {
+  font-weight: bold;
+}
+
+// Footer styles
 footer * {
   margin: 0 !important;
   padding: 0 !important;
@@ -28,9 +41,3 @@ footer * {
   text-align: right;
 }
 
-.cta--signup {
-  text-align: center;
-}
-.cta--signup a {
-  font-weight: bold;
-}

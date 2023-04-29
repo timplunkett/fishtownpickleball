@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fishtown Pickleball
-email: admin@fishtownpickleball.com
+title: Fishtown Pickleball Club
+email: admin at fishtownpickleball.com
+tagline: Since 2021
 description: >- # this means to ignore newlines until "baseurl:"
-  Pickleball in Fishtown!
+  Recreational pickleball games in and around the Fishtown neighborhood of Philadelphia.
 baseurl: ""
 url: "https://fishtownpickleball.com"
 theme: minima
+logo: assets/logo.png
 
 # Build settings
 plugins:

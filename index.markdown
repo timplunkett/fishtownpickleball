@@ -4,10 +4,34 @@
 
 layout: default
 ---
-<h2 class="cta cta--signup">
-  <a href="https://discordapp.com/invite/TRf9XjYhG6" target="_blank">Sign up here!</a>
-</h2>
+^ Add logo to header, use an h1
+  <h1>
+    Fishtown Pickleball Club
+  </h1>
 
-<section class="embed embed--instagram">
-  {% include instagram-widget.html %}
+<section class="main">
+  <section class="section section__about">
+    <p>
+      {{site.description}} We welcome adults of all skill levels and backgrounds.
+    </p>
+    <h2 class="cta cta--signup">
+      <a href="https://discordapp.com/invite/TRf9XjYhG6" target="_blank" rel="noopener noreferrer">Join the Club on Discord</a>
+    </h2>
+    <p>
+      Pickleball game sign-ups, court locations, and times are organized using Discord, a free voice, video, and text chat app. Unfamiliar with Discord? <a href="https://discord.com/safety/360044149331-what-is-discord" target="_blank" rel="noopener noreferrer">Learn more about what Discord is and how it works</a>.
+    </p>
+  </section>
+  <section class="section section__instagram">
+    <h3>
+      Follow us on Instagram
+    </h3>
+    <div class="embed embed--instagram">
+      {% include instagram-widget.html %}
+    </div>
+  </section>
 </section>
+
+<ul>
+  <li>Add zipcodes for seo?</li>
+  <li>obscure the email address</li>
+</ul>
