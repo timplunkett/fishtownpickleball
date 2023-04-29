@@ -4,11 +4,6 @@
 
 layout: default
 ---
-^ Add logo to header, use an h1
-  <h1>
-    Fishtown Pickleball Club
-  </h1>
-
 <section class="main">
   <section class="section section__about">
     <p>
@@ -22,7 +17,7 @@ layout: default
     </p>
   </section>
   <section class="section section__instagram">
-    <h3>
+    <h3 class="cta cta--signup">
       Follow us on Instagram
     </h3>
     <div class="embed embed--instagram">
@@ -30,8 +25,3 @@ layout: default
     </div>
   </section>
 </section>
-
-<ul>
-  <li>Add zipcodes for seo?</li>
-  <li>obscure the email address</li>
-</ul>
