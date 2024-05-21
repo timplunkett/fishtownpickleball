@@ -178,12 +178,12 @@ document.getElementById('rating--form').addEventListener('submit', (e) => {
   const data = new FormData(e.target);
   // Combine the flat results into a structured array keyed by level.
   const results = {};
-  data.entries().forEach(([key, entry]) => {
+  for (const [key, entry] of data.entries()) {
     if (!results[key]) {
       results[key] = [];
     }
     results[key].push(entry);
-  });
+  }
 
   // Remove all levels without 5 or more attributes checked.
   for (const result in results) {
