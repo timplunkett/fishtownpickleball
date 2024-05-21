@@ -59,3 +59,30 @@ footer * {
 .footer-col-3 {
   text-align: right;
 }
+
+// Rating styles.
+@media only screen and (min-width:768px) {
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .rating--results {
+    margin-top: -2em;
+  }
+}
+.rating--results {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  text-align: center;
+}
+.rating--result {
+  display: block;
+  font-size: 2em;
+}
+
+.questions {
+  display: none;
+  margin-bottom: 1em;
+}
