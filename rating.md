@@ -150,14 +150,15 @@ title: Rating Quiz
 </div>
 
 <script type="text/javascript">
-const levels = [
-  'newbie',
-  'beginner',
-  'novice',
-  'intermediate',
-  'advanced',
-  'expert',
-];
+const levelsMap = {
+  'newbie': 'Newbie (2.0)',
+  'beginner': 'Beginner (2.5)',
+  'novice': 'Novice (3.0)',
+  'intermediate': 'Intermediate (3.5)',
+  'advanced': 'Advanced (4.0)',
+  'expert': 'Expert (4.5+)',
+};
+const levels = Object.keys(levelsMap);
 
 // Make the first level visible.
 document.querySelector('.questions').style.display = 'block';
@@ -201,7 +202,7 @@ document.getElementById('rating--form').addEventListener('submit', (e) => {
   // If the first level without any attributes was already visible, that is
   // the final result.
   if (key === 'expert' || levels.indexOf(key) + visible < levels.length) {
-    displayResult(key);
+    displayResult(levelsMap[key]);
   }
   else {
     // Show the next section.
