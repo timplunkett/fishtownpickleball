@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: levels
-title: Pickleball Skill Level
+title: Skill Level
 ---
 # Find your pickleball skill level
 <p>This pickleball skill level assessment is anonymous. In progress and completed results are not saved. You are encouraged to re-take this skill level assessment periodically and to update your result in Discord when it changes.</p>
