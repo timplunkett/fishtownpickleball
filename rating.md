@@ -143,7 +143,7 @@ title: Rating Quiz
   </div>
 
   <div class="button button--next">
-    <input type="submit" name="op" value="Next" />
+    <input type="submit" name="op" value="Continue" />
   </div>
 </form>
 <div class="rating--results"></div>
