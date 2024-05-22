@@ -1,16 +1,17 @@
 ---
 layout: default
-permalink: rating
-title: Pickleball Skill Level Self-Evaluation
+permalink: levels
+title: Pickleball Pickling Level
 ---
 # Find your pickleball skill level
-
+<p>This pickleball skill level assessment is anonymous. In progress and completed results are not saved. You are encouraged to re-take this skill level assessment periodically and to update your result in Discord when it changes.</p>
 <div class="description">
-  Below is a series of questions to self-evaluate your current pickleball skill
-  level. Select the checkbox for each statement that you confidently believe
-  describes your pickleball ability. The results are private and are not saved.
-  Once you are given a pickle-type, please got to your discord profile to save
-  it here.
+  <p>How it works:</p>
+  <ol>
+    <li>Check the checkbox for each skill statement you confidently believe describes your current pickleball ability.</li>
+    <li>Continue through the statements until your selection result in a pickle type.</li>
+    <li>Once you receive a pickle type result, please copy it, and go to your <a href="">discord profile</a> to add it.</li>
+  </ol>
 </div>
 <div class="rating">
 <form id="rating--form">
