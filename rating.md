@@ -1,10 +1,17 @@
 ---
 layout: default
 permalink: rating
-title: Rating Quiz
+title: Pickleball Skill Level Self-Evaluation
 ---
-# Your Pickleball Rating
+# Find your pickleball skill level
 
+<div class="description">
+  Below is a series of questions to self-evaluate your current pickleball skill
+  level. Select the checkbox for each statement that you confidently believe
+  describes your pickleball ability. The results are private and are not saved.
+  Once you are given a pickle-type, please got to your discord profile to save
+  it here.
+</div>
 <div class="rating">
 <form id="rating--form">
   <div class="questions questions--newbie">
