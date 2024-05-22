@@ -151,12 +151,12 @@ title: Rating Quiz
 
 <script type="text/javascript">
 const levelsMap = {
-  'newbie': 'Newbie (2.0)',
-  'beginner': 'Beginner (2.5)',
-  'novice': 'Novice (3.0)',
-  'intermediate': 'Intermediate (3.5)',
-  'advanced': 'Advanced (4.0)',
-  'expert': 'Expert (4.5+)',
+  'newbie':       'Cucumber', // 2.0,
+  'beginner':     'Gherkin', // 2.5,
+  'novice':       'Sweet Pickle', // 3.0,
+  'intermediate': 'Bread and Butter', // 3.5,
+  'advanced':     'Dill', // 4.0,
+  'expert':       'Sour Pickle', // 4.5+,
 };
 const levels = Object.keys(levelsMap);
 
