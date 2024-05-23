@@ -3,7 +3,7 @@ layout: default
 permalink: levels
 title: Skill Level
 ---
-# Find your pickleball skill level
+# Find your skill level
 <div class="description">
   <p>
     This pickleball skill level assessment is anonymous. In progress and completed results are not saved.
