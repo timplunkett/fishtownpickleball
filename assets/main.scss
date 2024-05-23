@@ -2,6 +2,32 @@
 ---
 @import "minima";
 
+// Color variables.
+--color-black: #000000;
+--color-green-pickle: #87C537;
+--color-green-lime: #DFEFC8;
+
+// General styles.
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.button {
+  padding: 0.5em;
+}
+
+.button--primary {
+  background-color: var(--color-green-pickle);
+  border: 1px solid var(--color-black);
+  color:  var(--color-black);
+
+  &:hover {
+    background-color: var(--color-green-lime);
+  }
+}
+
 // Header styles.
 .site-header {
 
