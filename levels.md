@@ -3,7 +3,7 @@ layout: default
 permalink: levels
 title: Skill Level
 ---
-# Find your pickleball skill level
+# Find your skill level
 <div class="description">
   <p>
     This pickleball skill level assessment is anonymous. In progress and completed results are not saved.
@@ -154,7 +154,7 @@ title: Skill Level
   </div>
 </form>
 <div class="level--results">
-  <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span> there.</span></p>
+  <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span>.</span></p>
 </div>
 </div>
 
