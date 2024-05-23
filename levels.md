@@ -150,7 +150,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
   </form>
 
   <div class="level--results">
-    <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span>.</span></p>
+    <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Go to the <a href="https://discord.com/channels/976127414549770320" target="_blank" rel="nofollow">"Channels and Roles" section of Discord</a> and select <span class="level-result"></span>.</span></p>
   </div>
 </div>
 
