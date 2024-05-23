@@ -5,14 +5,13 @@ title: Skill Level
 ---
 # Find your pickleball skill level
 <div class="description">
-  <p><em>This pickleball skill level assessment is anonymous. In progress and completed results are not saved.</em></p>
-  <ol>
-    <li>Check the checkbox for each statement you confidently believe describes your current skills.</li>
-    <li>Continue through the statements until your selection results in a pickle type.</li>
-    <li>Once you receive a pickle type, go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> to select it there.</li>
-    <li>You are encouraged to re-take this periodically and to update your result in Discord.</li>
-  </ol>
+  <p>
+    This pickleball skill level assessment is anonymous. In progress and completed results are not saved.
+    You are encouraged to re-take this periodically and to update your result in Discord.
+  </p>
 </div>
+<hr />
+<h2>Select all that describe your current skills:</h2>
 <div class="rating">
 <form id="rating--form">
   <div class="questions questions--newbie">
@@ -154,7 +153,9 @@ title: Skill Level
     <input type="submit" name="op" value="Continue" />
   </div>
 </form>
-<div class="rating--results"></div>
+<div class="rating--results">
+  <p><span class="rating--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="rating--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span> there.</span></p>
+</div>
 </div>
 
 <script type="text/javascript">
@@ -175,9 +176,8 @@ document.querySelector('.questions').style.display = 'block';
  * Displays a rating to the user.
  */
 const displayResult = (rating) => {
-  const message = `<span class="rating--message">Your rating is</span> <span class="rating--result">${rating}</span>`;
-  document.querySelector('.rating--results').innerHTML = message;
-  document.querySelector('.rating--result').scrollIntoView();
+  document.querySelectorAll('.level-result').forEach(result => result.innerHTML = rating);
+  document.querySelector('.rating--results').style.display = 'block';
 };
 
 document.getElementById('rating--form').addEventListener('submit', (e) => {
@@ -218,8 +218,8 @@ document.getElementById('rating--form').addEventListener('submit', (e) => {
     nextLevel.style.display = 'block';
     // Set focus to the first input of the new section.
     nextLevel.querySelector('input').focus();
-    // Clear any previously displayed results.
-    document.querySelector('.rating--results').innerHTML = '';
+    // Hide any previously displayed results.
+    document.querySelector('.rating--results').style.display = 'none';
   }
 
 });
