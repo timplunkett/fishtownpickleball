@@ -4,14 +4,14 @@ permalink: levels
 title: Skill Level
 ---
 # Find your skill level
-<div class="description">
-  <p>
-    This pickleball skill level assessment is anonymous. In progress and completed results are not saved.
-    You are encouraged to re-take this periodically and to update your result in Discord.
-  </p>
-</div>
-<hr />
-<h2>Select all that describe your current skills:</h2>
+This pickleball skill level assessment is anonymous and results are not saved.
+
+You are encouraged to re-take this periodically and to update your result in Discord.
+
+***
+
+## Select all that describe your current skills:
+
 <div class="level">
 <form id="level--form">
   <div class="questions questions--newbie">
