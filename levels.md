@@ -12,8 +12,8 @@ title: Skill Level
 </div>
 <hr />
 <h2>Select all that describe your current skills:</h2>
-<div class="rating">
-<form id="rating--form">
+<div class="level">
+<form id="level--form">
   <div class="questions questions--newbie">
     <div class="question">
       <input name="newbie" type="checkbox" value="1" />
@@ -153,8 +153,8 @@ title: Skill Level
     <input type="submit" name="op" value="Continue" />
   </div>
 </form>
-<div class="rating--results">
-  <p><span class="rating--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="rating--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span> there.</span></p>
+<div class="level--results">
+  <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Go to the <a href="https://discord.com/channels/976127414549770320/customize-community" target="_blank" rel="nofollow">customization section of Discord</a> and select <span class="level-result"></span> there.</span></p>
 </div>
 </div>
 
@@ -173,14 +173,14 @@ const levels = Object.keys(levelsMap);
 document.querySelector('.questions').style.display = 'block';
 
 /**
- * Displays a rating to the user.
+ * Displays a level to the user.
  */
-const displayResult = (rating) => {
-  document.querySelectorAll('.level-result').forEach(result => result.innerHTML = rating);
-  document.querySelector('.rating--results').style.display = 'block';
+const displayResult = (level) => {
+  document.querySelectorAll('.level-result').forEach(result => result.innerHTML = level);
+  document.querySelector('.level--results').style.display = 'block';
 };
 
-document.getElementById('rating--form').addEventListener('submit', (e) => {
+document.getElementById('level--form').addEventListener('submit', (e) => {
   e.preventDefault();
 
   const data = new FormData(e.target);
@@ -219,7 +219,7 @@ document.getElementById('rating--form').addEventListener('submit', (e) => {
     // Set focus to the first input of the new section.
     nextLevel.querySelector('input').focus();
     // Hide any previously displayed results.
-    document.querySelector('.rating--results').style.display = 'none';
+    document.querySelector('.level--results').style.display = 'none';
   }
 
 });
