@@ -1,25 +1,12 @@
 ---
 ---
 @import "minima";
-
-// Header styles.
-.site-header {
-
-  .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .site-logo {
-    height: 4em;
-    margin: 1em 1em 1em 0;
-  }
-
-  h1 {
-    margin-bottom: 0;
-  }
-}
+@import "variables";
+@import "button";
+@import "header";
+@import "cta";
+@import "footer";
+@import "levels";
 
 .main .section {
   margin-bottom: 2em;
@@ -30,59 +17,11 @@
   justify-content: center;
 }
 
-// CTAs
-.cta--signup {
-  text-align: center;
-}
-.cta--signup a {
-  font-weight: bold;
+p {
+  margin-bottom: 1em;
 }
 
-// Footer styles
-footer * {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: none !important;
-}
-.footer-col-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.footer-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30vw;
-  float: none;
-}
-.footer-col-3 {
-  text-align: right;
+hr {
+  margin: 0 1em 1em;
 }
 
-// Rating styles.
-@media only screen and (min-width:768px) {
-  .rating {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  .rating--results {
-    margin-top: -2em;
-  }
-}
-.rating--results {
-  line-height: 1.5em;
-  font-size: 1.25em;
-  text-align: center;
-}
-.rating--result {
-  display: block;
-  font-size: 1.5em;
-}
-
-.questions {
-  display: none;
-  margin-bottom: 2em;
-}

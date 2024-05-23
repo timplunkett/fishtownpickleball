@@ -1,0 +1,18 @@
+// Header styles.
+.site-header {
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .site-logo {
+    height: 4em;
+    margin: 1em 1em 1em 0;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
