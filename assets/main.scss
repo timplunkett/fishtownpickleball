@@ -61,31 +61,27 @@ footer * {
 }
 
 // Rating styles.
-@media only screen and (min-width:768px) {
-  .rating {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-  }
-  .rating--results {
-    margin-top: -2em;
-  }
-}
 .rating--results {
-  line-height: 1.5em;
-  font-size: 1.25em;
+  display: none;
+  margin-top: 1em;
   text-align: center;
 }
-.rating--result {
+.rating--message {
   display: block;
   font-size: 1.5em;
+}
+.level-result {
+  font-style: italic;
 }
 
 .questions {
   display: none;
-  margin-bottom: 2em;
+  margin: 1em 0;
 }
 .description {
   margin-bottom: 1em;
+}
+
+hr {
+  margin: 0 1em 1em;
 }
