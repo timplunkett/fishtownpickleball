@@ -21,11 +21,11 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="first-2" name="first" type="checkbox" value="2" />
-        <label for="first-2">I usually get my serves "in"</label>
+        <label for="first-2">I <em>usually</em> get my serves "in"</label>
       </div>
       <div class="question">
         <input id="first-3" name="first" type="checkbox" value="3" />
-        <label for="first-3">I usually let the return of serve bounce</label>
+        <label for="first-3">I <em>usually</em> let the return of serve bounce</label>
       </div>
       <div class="question">
         <input id="first-4" name="first" type="checkbox" value="4" />
@@ -59,7 +59,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="second-5" name="second" type="checkbox" value="5" />
-        <label for="second-5">I can usually hit backhand shots when I need to</label>
+        <label for="second-5">I can <em>usually</em> hit backhand shots when I need to</label>
       </div>
       <div class="question">
         <input id="second-6" name="second" type="checkbox" value="6" />
@@ -77,7 +77,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="third-3" name="third" type="checkbox" value="3" />
-        <label for="third-3">I sometimes try to hit a 3rd shot drop shot</label>
+        <label for="third-3">I <em>sometimes</em> try to hit a 3rd shot drop shot</label>
       </div>
       <div class="question">
         <input id="third-4" name="third" type="checkbox" value="4" />
@@ -99,15 +99,15 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="fourth-2" name="fourth" type="checkbox" value="2" />
-        <label for="fourth-2">I often finish the point when my opponent gives me an opening</label>
+        <label for="fourth-2">I <em>often</em> finish the point when my opponent gives me an opening</label>
       </div>
       <div class="question">
         <input id="fourth-3" name="fourth" type="checkbox" value="3" />
-        <label for="fourth-3">I am usually consistent with drop shots and dink shots</label>
+        <label for="fourth-3">I am <em>usually</em> consistent with drop shots and dink shots</label>
       </div>
       <div class="question">
         <input id="fourth-4" name="fourth" type="checkbox" value="4" />
-        <label for="fourth-4">I almost always play at the non-volley line</label>
+        <label for="fourth-4">I <em>almost always</em> play at the non-volley line</label>
       </div>
       <div class="question">
         <input id="fourth-5" name="fourth" type="checkbox" value="5" />
@@ -121,23 +121,23 @@ You are encouraged to re-take this periodically and to update your result in Dis
     <div class="questions questions--fifth">
       <div class="question">
         <input id="fifth-1" name="fifth" type="checkbox" value="1" />
-        <label for="fifth-1">I can consistently convert a hard shot to a soft shot</label>
+        <label for="fifth-1">I can <em>consistently</em> convert a hard shot to a soft shot</label>
       </div>
       <div class="question">
         <input id="fifth-2" name="fifth" type="checkbox" value="2" />
-        <label for="fifth-2">I am almost always patient &amp; wait for the opening</label>
+        <label for="fifth-2">I am <em>almost always</em> patient &amp; wait for the opening</label>
       </div>
       <div class="question">
         <input id="fifth-3" name="fifth" type="checkbox" value="3" />
-        <label for="fifth-3">I rarely make unforced errors</label>
+        <label for="fifth-3">I <em>rarely</em> make unforced errors</label>
       </div>
       <div class="question">
         <input id="fifth-4" name="fifth" type="checkbox" value="4" />
-        <label for="fifth-4">I consistently use power &amp; finesse to my advantage</label>
+        <label for="fifth-4">I <em>consistently</em> use power &amp; finesse to my advantage</label>
       </div>
       <div class="question">
         <input id="fifth-5" name="fifth" type="checkbox" value="5" />
-        <label for="fifth-5">I can easily sustain a rally of 40 or more shots</label>
+        <label for="fifth-5">I can <em>easily</em> sustain a rally of 40 or more shots</label>
       </div>
       <div class="question">
         <input id="fifth-6" name="fifth" type="checkbox" value="6" />
