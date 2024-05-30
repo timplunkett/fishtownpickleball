@@ -6,7 +6,7 @@
     <img class="site-logo" src="{{site.logo | relative_url}}" />
     <h1><a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
 
-    {%- if false and page_paths and page_paths.size != 0 -%}
+    {%- if page_paths and page_paths.size != 0 -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
