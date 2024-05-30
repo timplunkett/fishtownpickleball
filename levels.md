@@ -10,7 +10,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
 
 ***
 
-## Select all that describe your current skills:
+## Select all of the statements that apply:
 
 <div class="level">
   <form id="level--form">
@@ -47,11 +47,11 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="second-2" name="second" type="checkbox" value="2" />
-        <label for="second-2">I am working on getting my serves &amp; return of serves deeper</label>
+        <label for="second-2">I've worked on getting my serves &amp; return of serves deeper</label>
       </div>
       <div class="question">
         <input id="second-3" name="second" type="checkbox" value="3" />
-        <label for="second-3">I am working on getting my dinks shallower/lower</label>
+        <label for="second-3">I've worked on getting my dinks shallower/lower</label>
       </div>
       <div class="question">
         <input id="second-4" name="second" type="checkbox" value="4" />
@@ -63,7 +63,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="second-6" name="second" type="checkbox" value="6" />
-        <label for="second-6">I'm trying to add more power or softness to my game</label>
+        <label for="second-6">I've worked on adding more power or softness to my game</label>
       </div>
     </div>
     <div class="questions questions--third">
