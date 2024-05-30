@@ -4,7 +4,7 @@ const levelsMap = {
   'third':  'Sweet Pickle', // 3.0,
   'fourth': 'Bread and Butter', // 3.5,
   'fifth':  'Dill', // 4.0,
-  'final':  'Sour Pickle', // 4.5+,
+  'final':  'Spicy Pickle', // 4.5+,
 };
 const levels = Object.keys(levelsMap);
 
