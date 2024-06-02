@@ -19,6 +19,33 @@ const displayResult = (level) => {
   document.querySelector('.level--results').style.display = 'block';
 };
 
+/**
+ * Toggles questions.
+ */
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('admin') !== null) {
+  const levelButton = document.getElementById('level-show-all');
+  levelButton.style.display = 'block';
+  levelButton.addEventListener('click', (e) => {
+    if (e.currentTarget.innerText === 'Show all') {
+      document.querySelectorAll('.questions').forEach(q => {
+        if (q.style.display !== 'block') {
+          q.classList.add('temporarily-shown');
+          q.style.display = 'block';
+        }
+      });
+      e.currentTarget.innerText = 'Hide all';
+    }
+    else {
+      document.querySelectorAll('.questions.temporarily-shown').forEach(q => {
+        q.style.display = 'none';
+        q.classList.remove('temporarily-shown');
+      });
+      e.currentTarget.innerText = 'Show all';
+    }
+  });
+}
+
 document.getElementById('level--form').addEventListener('submit', (e) => {
   e.preventDefault();
 

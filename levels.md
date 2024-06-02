@@ -10,7 +10,10 @@ You are encouraged to re-take this periodically and to update your result in Dis
 
 ***
 
-## Select all of the statements that apply:
+<div class="level-header">
+  <h2>Select all of the statements that apply:</h2>
+  <button id="level-show-all">Show all</button>
+</div>
 
 <div class="level">
   <form id="level--form">
