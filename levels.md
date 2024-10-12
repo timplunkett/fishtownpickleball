@@ -140,7 +140,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="fifth-5" name="fifth" type="checkbox" value="5" />
-        <label for="fifth-5">I can <em>easily</em> sustain a rally of 40 or more shots</label>
+        <label for="fifth-5">I have a <a href="https://www.dupr.com" target="_blank" rel="nofollow">DUPR</a> rating of at least 4.4</label>
       </div>
       <div class="question">
         <input id="fifth-6" name="fifth" type="checkbox" value="6" />
