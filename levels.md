@@ -140,11 +140,11 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="fifth-5" name="fifth" type="checkbox" value="5" />
-        <label for="fifth-5">I have a <a href="https://www.dupr.com" target="_blank" rel="nofollow">DUPR</a> rating of at least 4.4</label>
+        <label for="fifth-5">I have competed in tournaments at the 4.5 level or higher</label>
       </div>
       <div class="question">
-        <input id="fifth-6" name="fifth" type="checkbox" value="6" />
-        <label for="fifth-6">I have competed in tournaments at the 4.5 level or higher</label>
+        <label for="dupr">My <a href="https://www.dupr.com" target="_blank" rel="nofollow">DUPR</a> rating is:</label>
+        <input id="dupr" name="dupr" type="text" />
       </div>
     </div>
     <div class="button button--next">

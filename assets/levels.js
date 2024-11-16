@@ -1,3 +1,4 @@
+const spicyLevel = 4.4;
 const levelsMap = {
   'first':  'Cucumber', // 2.0,
   'second': 'Gherkin', // 2.5,
@@ -53,6 +54,9 @@ document.getElementById('level--form').addEventListener('submit', (e) => {
   // Combine the flat results into a structured array keyed by level.
   const results = {};
   for (const [key, entry] of data.entries()) {
+    if (key === 'dupr' && !isNaN(entry) && entry >= spicyLevel) {
+      results['fifth'].push(entry);
+    }
     if (!results[key]) {
       results[key] = [];
     }
