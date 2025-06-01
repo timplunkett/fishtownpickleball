@@ -72,11 +72,11 @@ You are encouraged to re-take this periodically and to update your result in Dis
     <div class="questions questions--third">
       <div class="question">
         <input id="third-1" name="third" type="checkbox" value="1" />
-        <label for="third-1">I know almost all of the "special case" rules</label>
+        <label for="third-1">My serves are <em>almost always</em> deep</label>
       </div>
       <div class="question">
         <input id="third-2" name="third" type="checkbox" value="2" />
-        <label for="third-2">My serves &amp; returns are almost always deep</label>
+        <label for="third-2">I can <em>consistently</em> hit a deep return of serve to either opponent</label>
       </div>
       <div class="question">
         <input id="third-3" name="third" type="checkbox" value="3" />
@@ -88,11 +88,11 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <input id="third-5" name="third" type="checkbox" value="5" />
-        <label for="third-5">I have a wide variety of shots in my arsenal</label>
+        <label for="third-5">I'm comfortable using a variety of shots to adapt to my opponent</label>
       </div>
       <div class="question">
         <input id="third-6" name="third" type="checkbox" value="6" />
-        <label for="third-6">I actively work with my partner to win the point</label>
+        <label for="third-6">I work with my partner to get up to the kitchen line after my team serves</label>
       </div>
     </div>
     <div class="questions questions--fourth">
