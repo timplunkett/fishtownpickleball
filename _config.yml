@@ -27,6 +27,8 @@ baseurl: ""
 url: "https://fishtownpickleball.com"
 theme: minima
 logo: assets/logo.png
+header_pages:
+  - levels.md
 
 # Build settings
 plugins:
