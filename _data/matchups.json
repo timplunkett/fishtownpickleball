@@ -1,0 +1,1405 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "matchupId": "7fbb7d53-d68d-4629-b564-756e31947000",
+      "weekNumber": 1,
+      "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "homePoints": 666,
+      "awayPoints": 519,
+      "endResult": "home",
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-17T19:30:00",
+      "homeName": "Picholas Cage",
+      "awayName": "License to Dill",
+      "awayTeam": {
+        "$id": "3",
+        "teamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+        "teamName": "License to Dill",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "club": {
+          "$id": "4",
+          "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+          "name": "Bounce Pickleball Club - Philly",
+          "logo": "BouncePickleballClubPhilly",
+          "color": "#1db2dc",
+          "website": "https://www.bouncepb.com/",
+          "facebook": "https://www.facebook.com/bouncepickleball",
+          "instagram": "https://www.instagram.com/bounce.pickleball",
+          "twitter": null,
+          "youtube": null,
+          "address": "913 Wallace St, Philadelphia, PA ",
+          "phone": "(267) 807-1232",
+          "divisions": {
+            "$id": "5",
+            "$values": []
+          }
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "6",
+        "teamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+        "teamName": "Picholas Cage",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "7",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "8",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "9",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "10",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 27,
+      "awayWins": 5,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 3,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "11",
+      "matchupId": "1d22eb79-3a0d-45e2-b90c-acf383187ab0",
+      "weekNumber": 1,
+      "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "homePoints": 678,
+      "awayPoints": 547,
+      "endResult": "home",
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-17T19:30:00",
+      "homeName": "Balls of Fury",
+      "awayName": "Baggers",
+      "awayTeam": {
+        "$id": "12",
+        "teamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+        "teamName": "Baggers",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "13",
+        "teamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+        "teamName": "Balls of Fury",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "14",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "15",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "16",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "17",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 25,
+      "awayWins": 7,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 4,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "18",
+      "matchupId": "e96939a2-fc64-48a8-83df-490e4dcbb9ef",
+      "weekNumber": 2,
+      "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "homePoints": 622,
+      "awayPoints": 611,
+      "endResult": "home",
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-24T19:30:00",
+      "homeName": "Baggers",
+      "awayName": "Kitchen Nightmares",
+      "awayTeam": {
+        "$id": "19",
+        "teamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+        "teamName": "Kitchen Nightmares",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "20",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "21",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "22",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "23",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 18,
+      "awayWins": 14,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 5,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "24",
+      "matchupId": "2ce48089-a81e-4f13-a5a1-9f0726ebdaeb",
+      "weekNumber": 2,
+      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "homePoints": 629,
+      "awayPoints": 578,
+      "endResult": "home",
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-24T19:30:00",
+      "homeName": "License to Dill",
+      "awayName": "Balls of Fury",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "25",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "26",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "27",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "28",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 20,
+      "awayWins": 12,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 2,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "29",
+      "matchupId": "678fec6e-4439-4c16-9d1d-cf311485a408",
+      "weekNumber": 3,
+      "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-01T19:30:00",
+      "homeName": "Kitchen Nightmares",
+      "awayName": "Balls of Fury",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "19"
+      },
+      "awayClub": {
+        "$id": "30",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "31",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "32",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "33",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 2,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "34",
+      "matchupId": "e2c36ff6-ccf5-4b6f-8680-dd9b938a2a3b",
+      "weekNumber": 3,
+      "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-01T19:30:00",
+      "homeName": "Baggers",
+      "awayName": "Picholas Cage",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "35",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "36",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "37",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "38",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 1,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "39",
+      "matchupId": "ce1406e1-a718-49a5-87a1-93786d9dd6b7",
+      "weekNumber": 4,
+      "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-08T19:30:00",
+      "homeName": "Kitchen Nightmares",
+      "awayName": "License to Dill",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "19"
+      },
+      "awayClub": {
+        "$id": "40",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "41",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "42",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "43",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 3,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "44",
+      "matchupId": "93215edd-5bfc-4b9e-b1fa-a1ef9b8a3c24",
+      "weekNumber": 4,
+      "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-08T19:30:00",
+      "homeName": "Balls of Fury",
+      "awayName": "Picholas Cage",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "45",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "46",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "47",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "48",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "49",
+      "matchupId": "0b87f5fc-12fe-44d9-b8cb-6b7cf632c9c1",
+      "weekNumber": 5,
+      "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-15T19:30:00",
+      "homeName": "Picholas Cage",
+      "awayName": "Kitchen Nightmares",
+      "awayTeam": {
+        "$ref": "19"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "50",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "51",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "52",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "53",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 5,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "54",
+      "matchupId": "0cef505a-dc49-4f71-8cf5-d9646e62bd52",
+      "weekNumber": 5,
+      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-15T19:30:00",
+      "homeName": "License to Dill",
+      "awayName": "Baggers",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "55",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "56",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "57",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "58",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 4,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "59",
+      "matchupId": "219085d9-c5fb-4a68-a1d1-1f2292b19f0e",
+      "weekNumber": 6,
+      "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-22T19:30:00",
+      "homeName": "Baggers",
+      "awayName": "Balls of Fury",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "60",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "61",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "62",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "63",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 2,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "64",
+      "matchupId": "dab7dac5-95bb-4916-9a85-2282d3fc0a77",
+      "weekNumber": 6,
+      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-22T19:30:00",
+      "homeName": "License to Dill",
+      "awayName": "Picholas Cage",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "65",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "66",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "67",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "68",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 1,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "69",
+      "matchupId": "56832461-fd6a-4a43-bb9a-d0973f9f1ed2",
+      "weekNumber": 7,
+      "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-29T19:30:00",
+      "homeName": "Balls of Fury",
+      "awayName": "License to Dill",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "70",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "71",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "72",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "73",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 3,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "74",
+      "matchupId": "1242fc1c-278c-4d3f-a89e-f2b5dd7979f8",
+      "weekNumber": 7,
+      "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-29T19:30:00",
+      "homeName": "Kitchen Nightmares",
+      "awayName": "Baggers",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "19"
+      },
+      "awayClub": {
+        "$id": "75",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "76",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "77",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "78",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 4,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "79",
+      "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
+      "weekNumber": 8,
+      "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-05T19:30:00",
+      "homeName": "Kitchen Nightmares",
+      "awayName": "Picholas Cage",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "19"
+      },
+      "awayClub": {
+        "$id": "80",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "81",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "82",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "83",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 1,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "84",
+      "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
+      "weekNumber": 8,
+      "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-05T19:30:00",
+      "homeName": "Baggers",
+      "awayName": "License to Dill",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "85",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "86",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "87",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "88",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 3,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "89",
+      "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
+      "weekNumber": 9,
+      "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-12T19:30:00",
+      "homeName": "Balls of Fury",
+      "awayName": "Kitchen Nightmares",
+      "awayTeam": {
+        "$ref": "19"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "90",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "91",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "92",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "93",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 5,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "94",
+      "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
+      "weekNumber": 9,
+      "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-12T19:30:00",
+      "homeName": "Picholas Cage",
+      "awayName": "Baggers",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "95",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "96",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "97",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "98",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 4,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "99",
+      "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
+      "weekNumber": 10,
+      "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-19T19:30:00",
+      "homeName": "Picholas Cage",
+      "awayName": "Balls of Fury",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "100",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "101",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "102",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "103",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 2,
+      "address": "913 Wallace St, Philadelphia, PA"
+    },
+    {
+      "$id": "104",
+      "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
+      "weekNumber": 10,
+      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-19T19:30:00",
+      "homeName": "License to Dill",
+      "awayName": "Kitchen Nightmares",
+      "awayTeam": {
+        "$ref": "19"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "105",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "106",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "107",
+        "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
+        "name": "Bounce Pickleball Club - Philly",
+        "logo": "BouncePickleballClubPhilly",
+        "color": "#1db2dc",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "108",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 5,
+      "address": "913 Wallace St, Philadelphia, PA"
+    }
+  ]
+}
