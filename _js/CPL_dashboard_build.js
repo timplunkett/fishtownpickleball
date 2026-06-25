@@ -59,7 +59,7 @@ async function getJSON(url) {
 // ----- main ------------------------------------------------------------------
 async function main() {
   console.log("Fetching season matchups …");
-  const feed = await getJSON(`${BASE}/divisions/${DIVISION}/matchups`);
+  const feed = window.matchupData;
   const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult); // endResult null = unplayed
   console.log(`  ${matchups.length} scheduled, ${completed.length} completed.`);
@@ -76,8 +76,9 @@ async function main() {
   };
 
   for (const mu of completed) {
-    process.stdout.write(`Fetching match wk${mu.weekNumber} ${mu.homeName} vs ${mu.awayName} … `);
-    const d = await getJSON(`${BASE}/divisions/${DIVISION}/matchups/${mu.matchupId}`);
+    console.log(`Fetching match wk${mu.weekNumber} ${mu.homeName} vs ${mu.awayName} … `);
+    const match = window.matchupDetails.find(item => item.matchupId === mu.matchupId);
+    const d = match ? match.details : null;
     const M = d.matchup;
     const homeId = M.homeTeamId, awayId = M.awayTeamId;
     TEAMNAME[homeId] = M.homeName; TEAMNAME[awayId] = M.awayName;
@@ -163,8 +164,9 @@ async function main() {
   // league rank + dupr id from the players endpoint
   console.log("Fetching division players (rankings) …");
   let rankByName = {};
+
   try {
-    const pj = await getJSON(`${BASE}/divisions/${DIVISION}/players`);
+    const pj = window.playerList;
     const list = firstValues(pj) || [];
     for (const p of list) {
       const key = norm(`${p.firstName} ${p.lastName}`);
@@ -218,13 +220,15 @@ async function main() {
   }
 
   let template;
+  /*
   if (process.env.CPL_TEMPLATE && fs.existsSync(process.env.CPL_TEMPLATE)) {
     template = fs.readFileSync(process.env.CPL_TEMPLATE, "utf8");
   } else if (fs.existsSync(TEMPLATE)) {
     template = fs.readFileSync(TEMPLATE, "utf8");
   } else {
+    */
     template = Buffer.from(TEMPLATE_B64, "base64").toString("utf8");
-  }
+  //}
   if (!template.includes("const DATA = __DATA__;"))
     throw new Error("template.html is missing the `const DATA = __DATA__;` placeholder");
   const html = template.replace("const DATA = __DATA__;", "const DATA = " + JSON.stringify(DATA) + ";");
@@ -235,4 +239,4 @@ async function main() {
   teamArr.forEach((t, i) => console.log(`   #${i + 1} ${t.name}  ${t.w}-${t.l}  games ${t.gw}-${t.gl}  (${t.diff >= 0 ? "+" : ""}${t.diff})`));
 }
 
-main().catch(e => { console.error("\nBuild failed:", e.message); process.exit(1); });
+main().catch(e => { console.error("\nBuild failed:", e.message); });
