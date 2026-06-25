@@ -23,11 +23,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch Latest Matchups
-        run: node fetch-data.js
-
-      - name: Build Standings Dashboard HTML
-        run: node cpl/CPL_dashboard_build.js
+      - name: Execute Core CPL Engine Pipeline
+        run: node cpl/run-pipeline.js
 
       - name: Commit and Push changes
         run: |
