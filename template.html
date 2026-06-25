@@ -1,0 +1,282 @@
+<!DOCTYPEDOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>League Standings — Bounce Pickleball</title>
+<style>
+  :root{
+    --bg:#0e1116;--panel:#161b22;--panel2:#1c232d;--line:#2a323d;
+    --txt:#e6edf3;--mut:#8b97a6;--accent:#1db2dc;--win:#19d39a;--loss:#e5534b;
+    --gold:#e8c66b;--radius:14px;--shadow:0 8px 24px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#15303a 0%,var(--bg) 55%);
+    color:var(--txt);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;padding:0 0 80px}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+  header{padding:34px 0 8px}
+  .kicker{color:var(--accent);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+  h1{margin:.25em 0 .1em;font-size:28px;letter-spacing:-.02em}
+  .sub{color:var(--mut);font-size:14px}
+  h2{font-size:18px;letter-spacing:-.01em;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
+  h2 .tag{font-size:11px;color:var(--mut);font-weight:500;letter-spacing:.04em}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+
+  table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+  th,td{padding:9px 10px;text-align:right;white-space:nowrap}
+  th:first-child,td:first-child,th.l,td.l{text-align:left}
+  thead th{background:var(--panel2);color:var(--mut);font-size:11px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;cursor:pointer;user-select:none;position:sticky;top:0;border-bottom:1px solid var(--line)}
+  thead th:hover{color:var(--txt)}
+  thead th.sorted{color:var(--accent)}
+  tbody tr{border-bottom:1px solid rgba(42,50,61,.6)}
+  tbody tr:hover{background:rgba(29,178,220,.06)}
+  tbody td{font-size:13.5px}
+  .pos{display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border-radius:6px;
+    background:var(--panel2);color:var(--mut);font-weight:700;font-size:11px;margin-right:8px}
+  .pos.g1{background:var(--gold);color:#1a1407}.pos.g2{background:#c9d1d9;color:#161b22}.pos.g3{background:#cd7f32;color:#1a0f06}
+  .pf{font-weight:700}
+  .pos-diff{color:var(--win)}.neg-diff{color:var(--loss)}
+  .me{background:rgba(232,198,107,.12)!important;box-shadow:inset 3px 0 0 var(--gold)}
+  .me td:first-child{font-weight:800}
+  .teamdot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:7px;vertical-align:middle}
+  .lgrank{color:var(--mut);font-weight:700}
+
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 12px}
+  input,select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:9px;
+    padding:8px 12px;font-size:13px;outline:none}
+  input:focus,select:focus{border-color:var(--accent)}
+  input{min-width:200px}
+  .hint{color:var(--mut);font-size:12px;margin-left:auto}
+  .scroll{overflow-x:auto}
+
+  .teams{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+  @media(max-width:920px){.teams{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.teams{grid-template-columns:1fr}}
+  .tcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow);position:relative}
+  .tcard .seed{position:absolute;top:12px;right:12px;font-size:11px;color:var(--mut);font-weight:700}
+  .tcard h3{margin:0 0 2px;font-size:15px}
+  .tcard .rec{font-size:22px;font-weight:800;letter-spacing:-.02em}
+  .tcard .rec small{font-size:12px;color:var(--mut);font-weight:600}
+  .tcard .pts{color:var(--mut);font-size:12px;margin-top:6px}
+  .tcard .d{font-weight:700}
+  footer{color:var(--mut);font-size:12px;text-align:center;margin-top:46px;border-top:1px solid var(--line);padding-top:18px}
+
+  .pname{cursor:pointer;border-bottom:1px dotted var(--mut)}
+  .pname:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .overlay{position:fixed;inset:0;background:rgba(4,8,12,.66);backdrop-filter:blur(2px);
+    display:flex;align-items:flex-start;justify-content:center;padding:48px 16px;z-index:50;overflow:auto}
+  .overlay[hidden]{display:none}
+  .modal{background:var(--panel);border:1px solid var(--line);border-radius:16px;max-width:720px;width:100%;
+    box-shadow:0 24px 60px rgba(0,0,0,.5);position:relative;padding:24px}
+  .x{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--mut);font-size:26px;cursor:pointer;line-height:1}
+  .x:hover{color:var(--txt)}
+  .mh-name{font-size:22px;font-weight:800;letter-spacing:-.01em}
+  .mh-sub{color:var(--mut);font-size:13px;margin-top:3px}
+  .mh-stats{display:flex;gap:22px;flex-wrap:wrap;margin:16px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+  .mh-stat .n{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}
+  .mh-stat .l{font-size:10.5px;color:var(--mut);letter-spacing:.05em;margin-top:1px}
+  .mlog{width:100%;border-collapse:collapse;margin-top:14px;font-variant-numeric:tabular-nums}
+  .mlog th,.mlog td{padding:8px 9px;font-size:12.5px;text-align:right;border-bottom:1px solid rgba(42,50,61,.6);white-space:nowrap}
+  .mlog th{color:var(--mut);font-size:10.5px;text-transform:uppercase;letter-spacing:.04em}
+  .mlog th.l,.mlog td.l{text-align:left}
+  .res-W{color:var(--win);font-weight:700}.res-L{color:var(--loss);font-weight:700}
+  .mnote{color:var(--mut);font-size:11.5px;margin:14px 0 0;line-height:1.5}
+  .gtitle{margin:22px 0 0;font-size:14px;font-weight:700;display:flex;align-items:baseline;gap:10px}
+  .gtitle span{font-size:11px;color:var(--mut);font-weight:500}
+  .glog tr.wkrow td{background:var(--panel2);color:var(--accent);font-weight:700;font-size:11px;
+    text-transform:uppercase;letter-spacing:.04em;padding:7px 9px}
+  .glog td{font-size:12.5px}
+  .pill{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:999px;letter-spacing:.03em}
+  .t-mixed{background:rgba(29,178,220,.16);color:#7fd6ee}
+  .t-female{background:rgba(231,116,200,.16);color:#f0a6e0}
+  .t-male{background:rgba(120,180,120,.16);color:#a9e0a0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Bounce Pickleball League • Philadelphia</div>
+    <h1>Division Standings &amp; Player Stats</h1>
+    <p class="sub" id="sub"></p>
+  </header>
+
+  <h2>Team Standings <span class="tag">by match record, then point differential</span></h2>
+  <div class="teams" id="teams"></div>
+
+  <h2>Player Leaderboard <span class="tag" id="plabel"></span></h2>
+  <div class="controls">
+    <input id="search" placeholder="Search player…" autocomplete="off">
+    <select id="team"></select>
+    <select id="gender">
+      <option value="">All genders</option>
+      <option value="Male">Men</option>
+      <option value="Female">Women</option>
+    </select>
+    <select id="minq">
+      <option value="0">Any games</option>
+      <option value="1" selected>Played ≥1 game</option>
+      <option value="6">Played ≥6 games</option>
+    </select>
+    <span class="hint">Click a name for match history • click a column to sort</span>
+  </div>
+  <div class="panel scroll">
+    <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<div id="overlay" class="overlay" hidden>
+  <div class="modal">
+    <button class="x" id="mx" aria-label="Close">&times;</button>
+    <div id="mhead"></div>
+    <div id="mbody"></div>
+  </div>
+</div>
+
+<script>
+const DATA = __DATA__;
+const TCOLOR={"Picholas Cage":"#e8c66b","License to Dill":"#7fd6ee","Balls of Fury":"#e5534b",
+  "Baggers":"#1db2dc","Kitchen Nightmares":"#19d39a"};
+const ME="";  // no player highlighted
+
+document.getElementById('sub').textContent =
+  `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
+document.getElementById('foot').textContent =
+  `Live from the Bounce league API • division 3e9b6a58 • Weeks ${DATA.meta.weeks}, ${DATA.meta.matchesPlayed} completed matches. ` +
+  `“PF/PA” are the league’s recorded points for/against; +/- is their difference. Win% = game wins ÷ games played.`;
+
+document.getElementById('teams').innerHTML = DATA.teams.map((t,i)=>{
+  const d=t.diff>=0?`<span class="pos-diff">+${t.diff}</span>`:`<span class="neg-diff">${t.diff}</span>`;
+  return `<div class="tcard" style="border-top:3px solid ${TCOLOR[t.name]}">
+    <div class="seed">#${i+1}</div><h3>${t.name}</h3>
+    <div class="rec">${t.w}–${t.l} <small>match${t.w+t.l!==1?'es':''}</small></div>
+    <div class="pts">Games <b style="color:var(--txt)">${t.gw}–${t.gl}</b></div>
+    <div class="pts">PF ${t.pf} • PA ${t.pa} • <span class="d">${d}</span></div></div>`;
+}).join('');
+
+const teamSel=document.getElementById('team');
+teamSel.innerHTML='<option value="">All teams</option>'+DATA.teams.map(t=>`<option>${t.name}</option>`).join('');
+
+const COLS=[
+  ["name","Player","l"],["team","Team","l"],["leagueRank","Lg Rank","r"],["matches","M","r"],["gamesPlayed","GP","r"],
+  ["wl","W–L","r"],["winPct","Win%","r"],["pointsWon","PF","r"],["totalPointsAgainst","PA","r"],
+  ["diff","+/–","r"],["ppg","PPG","r"],["mixed","Mixed","r"],["gender","Same-gender","r"],["clutch","Clutch","r"],
+];
+let sortKey="winPct", sortDir=-1;
+
+const head=document.getElementById('head');
+head.innerHTML=COLS.map(c=>`<th data-k="${c[0]}" class="${c[2]==="l"?"l ":""}${c[0]===sortKey?"sorted":""}">${c[1]}</th>`).join('');
+head.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+  const k=th.dataset.k;
+  if(k===sortKey) sortDir*=-1; else {sortKey=k; sortDir=(k==="leagueRank")?1:-1;}
+  render();
+});
+
+function val(p,k){
+  if(k==="wl") return p.wins*1000-p.losses;
+  if(k==="mixed") return p.mixedWins;
+  if(k==="gender") return p.genderWins;
+  if(k==="clutch") return p.clutchWins;
+  return p[k];
+}
+function cell(p,k){
+  if(k==="name") return `<span class="pname" data-name="${p.name.replace(/"/g,'&quot;')}">${p.name}${p.name===ME?' ★':''}</span>`;
+  if(k==="team") return `<span class="teamdot" style="background:${TCOLOR[p.team]}"></span>${p.team}`;
+  if(k==="wl") return `<b>${p.wins}</b>–${p.losses}`;
+  if(k==="diff") return p.diff>=0?`<span class="pos-diff">+${p.diff}</span>`:`<span class="neg-diff">${p.diff}</span>`;
+  if(k==="pointsWon") return `<span class="pf">${p.pointsWon}</span>`;
+  if(k==="mixed") return `${p.mixedWins}–${p.mixedLosses}`;
+  if(k==="gender") return `${p.genderWins}–${p.genderLosses}`;
+  if(k==="clutch") return `${p.clutchWins}–${p.clutchLosses}`;
+  if(k==="leagueRank") return p.leagueRank!=null?`<span class="lgrank">#${p.leagueRank}</span>`:'—';
+  if(k==="winPct"||k==="ppg") return p[k].toFixed(1);
+  return p[k];
+}
+
+function render(){
+  const q=document.getElementById('search').value.toLowerCase();
+  const tf=teamSel.value, gf=document.getElementById('gender').value, mq=+document.getElementById('minq').value;
+  let rows=DATA.players.filter(p=>
+    (!q||p.name.toLowerCase().includes(q)) && (!tf||p.team===tf) && (!gf||p.gender===gf) && p.gamesPlayed>=mq);
+  rows.sort((a,b)=>{
+    let av=val(a,sortKey),bv=val(b,sortKey);
+    if(typeof av==="string"){av=av.toLowerCase();bv=bv.toLowerCase();return av<bv?-sortDir:av>bv?sortDir:0;}
+    return (av-bv)*sortDir || b.winPct-a.winPct;
+  });
+  head.querySelectorAll('th').forEach(th=>th.classList.toggle('sorted',th.dataset.k===sortKey));
+  document.getElementById('body').innerHTML = rows.map((p,i)=>{
+    const meCls=p.name===ME?' class="me"':'';
+    const rk=`<span class="pos${sortKey==='winPct'&&sortDir===-1&&i<3?' g'+(i+1):''}">${i+1}</span>`;
+    return `<tr${meCls}>`+COLS.map((c,ci)=>{
+      const al=c[2]==="l"?' class="l"':'';
+      return `<td${al}>${ci===0?rk:''}${cell(p,c[0])}</td>`;
+    }).join('')+`</tr>`;
+  }).join('');
+  document.getElementById('plabel').textContent=`${rows.length} shown`;
+}
+['search','team','gender','minq'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+render();
+
+function openPlayer(name){
+  const p=DATA.players.find(x=>x.name===name); if(!p) return;
+  const sign=v=>(v>=0?'+':'')+v;
+  document.getElementById('mhead').innerHTML=`
+    <div class="mh-name">${p.name}${p.name===ME?' ★':''}</div>
+    <div class="mh-sub"><span class="teamdot" style="background:${TCOLOR[p.team]}"></span>${p.team} • ${p.gender==='Male'?'Men':'Women'} • season totals</div>
+    <div class="mh-stats">
+      <div class="mh-stat"><div class="n">${p.wins}–${p.losses}</div><div class="l">RECORD</div></div>
+      <div class="mh-stat"><div class="n">${p.winPct.toFixed(0)}%</div><div class="l">WIN RATE</div></div>
+      <div class="mh-stat"><div class="n">${p.pointsWon}</div><div class="l">POINTS FOR</div></div>
+      <div class="mh-stat"><div class="n ${p.diff>=0?'pos-diff':'neg-diff'}">${sign(p.diff)}</div><div class="l">DIFF</div></div>
+      <div class="mh-stat"><div class="n">${p.matches}</div><div class="l">MATCH${p.matches!==1?'ES':''}</div></div>
+    </div>`;
+  const rows=p.log.map(g=>`
+    <tr>
+      <td class="l">Wk ${g.week}</td>
+      <td class="l"><span class="teamdot" style="background:${TCOLOR[g.opp]}"></span>${g.homeAway==='H'?'vs':'@'} ${g.opp}</td>
+      <td><b>${g.w}</b>–${g.l}</td>
+      <td>${g.pf}–${g.pa}</td>
+      <td>${g.mx[0]}–${g.mx[1]}</td>
+      <td>${g.gn[0]}–${g.gn[1]}</td>
+      <td>${g.cl[0]}–${g.cl[1]}</td>
+      <td class="res-${g.teamRes}">${g.teamRes} ${g.teamGW}–${g.teamGL}</td>
+    </tr>`).join('');
+  const TLAB={mixed:["MIX","t-mixed"],female:["W","t-female"],male:["M","t-male"]};
+  let glog="", lastWk=null;
+  (p.games||[]).forEach(g=>{
+    if(g.wk!==lastWk){ lastWk=g.wk; glog+=`<tr class="wkrow"><td colspan="5" class="l">Week ${g.wk} • vs ${g.opp}</td></tr>`; }
+    const [lab,cls]=TLAB[g.t]||["",""];
+    glog+=`<tr>
+      <td class="l"><span class="pill ${cls}">${lab}</span></td>
+      <td class="l">${g.with}</td>
+      <td class="l">${g.vs[0]} / ${g.vs[1]}</td>
+      <td class="${g.w?'res-W':'res-L'}">${g.f}–${g.a}</td>
+      <td class="${g.w?'res-W':'res-L'}">${g.w?'W':'L'}</td>
+    </tr>`;
+  });
+  document.getElementById('mbody').innerHTML=`
+    <table class="mlog"><thead><tr>
+      <th class="l">Week</th><th class="l">Opponent</th><th>Ind. W–L</th><th>Pts F–A</th>
+      <th>Mixed</th><th>Same-gen</th><th>Clutch</th><th>Team result</th>
+    </tr></thead><tbody>${rows}</tbody></table>
+    <div class="gtitle">Game-by-game log <span>${(p.games||[]).length} games • actual final scores</span></div>
+    <table class="mlog glog"><thead><tr>
+      <th class="l">Type</th><th class="l">Partner</th><th class="l">Opponents</th><th>Score</th><th>Result</th>
+    </tr></thead><tbody>${glog}</tbody></table>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women’s • <b>M</b> men’s.</p>`;
+  document.getElementById('overlay').hidden=false;
+}
+document.getElementById('body').addEventListener('click',e=>{
+  const el=e.target.closest('.pname'); if(el) openPlayer(el.dataset.name);
+});
+const overlay=document.getElementById('overlay');
+function closeM(){overlay.hidden=true;}
+document.getElementById('mx').onclick=closeM;
+overlay.addEventListener('click',e=>{if(e.target===overlay)closeM();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeM();});
+</script>
+</body>
+</html>
