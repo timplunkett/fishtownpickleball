@@ -10,6 +10,9 @@ on:
 
   workflow_dispatch: # Allows you to trigger this manually from GitHub anytime
 
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
