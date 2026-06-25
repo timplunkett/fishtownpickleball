@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const OUT = path.join(__dirname, '../index.html');
-const TEMPLATE = path.join(__dirname, '../../template.html');
+const OUT = path.join(__dirname, '../../cpl/index.html');
+const TEMPLATE = path.join(__dirname, '../template.html');
 
 const round1 = n => Math.round(n * 10) / 10;
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
@@ -21,7 +21,7 @@ async function compileDashboardHtml() {
   console.log('\n--- Phase 2: Processing Stats & Building View ---');
   console.log('Loading local JSON caches from disk...');
 
-  const dataDir = path.join(__dirname, '../../_data');
+  const dataDir = path.join(__dirname, '../data');
   const feed = JSON.parse(fs.readFileSync(path.join(dataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));

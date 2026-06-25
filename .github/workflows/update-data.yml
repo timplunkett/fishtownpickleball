@@ -24,11 +24,11 @@ jobs:
           node-version: 20
 
       - name: Execute Core CPL Engine Pipeline
-        run: node cpl/run-pipeline.js
+        run: node _cpl/run-pipeline.js
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add _data/ cpl/
+          git add _cpl/ cpl/
           git diff-index --quiet HEAD || (git commit -m "bot(CPL): Automated weekly dashboard compile" && git push)

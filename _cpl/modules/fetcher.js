@@ -46,7 +46,7 @@ async function downloadLatestApiData() {
   );
 
   // Path resolution up to root directory from cpl/modules/ folder
-  const dataDir = path.join(__dirname, '../../_data');
+  const dataDir = path.join(__dirname, '../data');
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
