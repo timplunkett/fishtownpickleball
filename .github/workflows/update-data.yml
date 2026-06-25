@@ -1,0 +1,33 @@
+name: Weekly Data Update
+
+on:
+  schedule:
+    # Wednesday at 11:00 PM Eastern (Thursday 3:00 AM UTC)
+    - cron: '0 3 * * 4'
+
+    # Thursday at 11:00 AM Eastern (Thursday 3:00 PM UTC)
+    - cron: '0 15 * * 4'
+
+  workflow_dispatch: # Allows you to trigger this manually from GitHub anytime
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch Latest Matchups
+        run: node fetch-data.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add _data/matchups.json
+          git diff-index --quiet HEAD || (git commit -m "bot(CPL): Automated matchup update" && git push)
