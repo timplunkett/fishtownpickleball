@@ -27,7 +27,7 @@ jobs:
         run: node fetch-data.js
 
       - name: Build Standings Dashboard HTML
-        run: node CPL_dashboard_build.js
+        run: node cpl/CPL_dashboard_build.js
 
       - name: Commit and Push changes
         run: |
