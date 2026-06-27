@@ -38,6 +38,19 @@
   .pos.g1{background:var(--gold);color:#1a1407}.pos.g2{background:#c9d1d9;color:#161b22}.pos.g3{background:#cd7f32;color:#1a0f06}
   .pf{font-weight:700}
   .pos-diff{color:var(--win)}.neg-diff{color:var(--loss)}
+  .rating{font-weight:700}.prov{color:var(--mut);cursor:help}
+  .confwrap{display:inline-flex;align-items:center;gap:7px;justify-content:flex-end;cursor:help}
+  .confbar{width:46px;height:6px;border-radius:3px;background:var(--panel2);overflow:hidden;flex:none}
+  .confbar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--loss),var(--gold),var(--win))}
+  .confnum{color:var(--mut);font-size:12px;font-variant-numeric:tabular-nums;min-width:30px}
+  .explainer{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:0 0 14px;overflow:hidden}
+  .explainer summary{cursor:pointer;padding:12px 16px;font-weight:700;font-size:13px;color:var(--accent);list-style:none;user-select:none}
+  .explainer summary::-webkit-details-marker{display:none}
+  .explainer summary::before{content:"▸ ";color:var(--mut)}
+  .explainer[open] summary::before{content:"▾ "}
+  .explainer .body{padding:2px 18px 16px;color:var(--mut);font-size:13px;line-height:1.6;max-width:760px}
+  .explainer .body b{color:var(--txt)}
+  .explainer .body .pos-diff,.explainer .body .neg-diff{font-weight:700}
   .me{background:rgba(232,198,107,.12)!important;box-shadow:inset 3px 0 0 var(--gold)}
   .me td:first-child{font-weight:800}
   .teamdot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:7px;vertical-align:middle}
@@ -102,10 +115,31 @@
     <p class="sub" id="sub"></p>
   </header>
 
-  <h2>Team Standings <span class="tag">by match record, then point differential</span></h2>
+  <h2>Team Standings <span class="tag">by match record, then game record, then point differential</span></h2>
   <div class="teams" id="teams"></div>
 
-  <h2>Player Leaderboard <span class="tag" id="plabel"></span></h2>
+  <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
+  <details class="explainer">
+    <summary>How the Rating works</summary>
+    <div class="body">
+      <p><b>Rating</b> estimates the net points per game you add versus a league-average player, after adjusting
+      for <b>who you played with and against</b>. Think of it as a swap test: keep your partner and opponents fixed,
+      replace you with a generic average player, and the rating is how much the scoreline changes.
+      <b>0</b> is average, <span class="pos-diff">+</span> is above average, <span class="neg-diff">−</span> is below.
+      Since games go to 11/15/21, a swing of ±3 per game is large.</p>
+      <p>It isn't raw point differential. Pile up a big margin alongside a strong partner against weak opponents and the
+      model <b>credits the partner and discounts the weak opposition</b> — so your number lands lower than the scoreline.
+      Win a tight one with a weak partner against strong opponents and it can rate <b>higher</b> than the score suggests.</p>
+      <p>The whole league is solved at once, and <b>recomputed from scratch every update</b>. Everyone's rating depends on
+      everyone else's, so results are <b>retroactive</b>: lose to an unknown who later turns out strong, and that loss is
+      automatically re-credited as "a loss to a strong player" — no new game required. Beat someone who later proves weak,
+      and the win quietly loses value.</p>
+      <p>The <b>Conf</b> column is how much of each rating is driven by real game evidence rather than the
+      average-player starting assumption (technically, the share of variance the data has resolved). It rises as a player
+      logs more games against well-connected opponents. Early-season numbers sit in the middle and <b>move a lot</b> —
+      read a <span class="pos-diff">+3.0 at 68%</span> as far more settled than the same rating at 45%.</p>
+    </div>
+  </details>
   <div class="controls">
     <input id="search" placeholder="Search player…" autocomplete="off">
     <select id="team"></select>
@@ -146,7 +180,9 @@ document.getElementById('sub').textContent =
   `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
 document.getElementById('foot').textContent =
   `Live from the Bounce league API • division 3e9b6a58 • Weeks ${DATA.meta.weeks}, ${DATA.meta.matchesPlayed} completed matches. ` +
-  `“PF/PA” are the league’s recorded points for/against; +/- is their difference. Win% = game wins ÷ games played.`;
+  `“PF/PA” are the league’s recorded points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
+  `Rating is a ridge-regularized adjusted plus-minus: each player’s net points per game above an average player, ` +
+  `controlling for partner and opponent strength. The “Conf” column shows how much of each rating is backed by real game evidence (0–100%) — early-season ratings are low-confidence and will shift as more games are played.`;
 
 document.getElementById('teams').innerHTML = DATA.teams.map((t,i)=>{
   const d=t.diff>=0?`<span class="pos-diff">+${t.diff}</span>`:`<span class="neg-diff">${t.diff}</span>`;
@@ -161,7 +197,7 @@ const teamSel=document.getElementById('team');
 teamSel.innerHTML='<option value="">All teams</option>'+DATA.teams.map(t=>`<option>${t.name}</option>`).join('');
 
 const COLS=[
-  ["name","Player","l"],["team","Team","l"],["leagueRank","Lg Rank","r"],["matches","M","r"],["gamesPlayed","GP","r"],
+  ["name","Player","l"],["team","Team","l"],["rating","Rating","r"],["conf","Conf","r"],["leagueRank","Lg Rank","r"],["matches","M","r"],["gamesPlayed","GP","r"],
   ["wl","W–L","r"],["winPct","Win%","r"],["pointsWon","PF","r"],["totalPointsAgainst","PA","r"],
   ["diff","+/–","r"],["ppg","PPG","r"],["mixed","Mixed","r"],["gender","Same-gender","r"],["clutch","Clutch","r"],
 ];
@@ -176,6 +212,8 @@ head.querySelectorAll('th').forEach(th=>th.onclick=()=>{
 });
 
 function val(p,k){
+  if(k==="rating") return p.rating==null?-Infinity:p.rating;
+  if(k==="conf") return p.confidence;
   if(k==="wl") return p.wins*1000-p.losses;
   if(k==="mixed") return p.mixedWins;
   if(k==="gender") return p.genderWins;
@@ -191,6 +229,16 @@ function cell(p,k){
   if(k==="mixed") return `${p.mixedWins}–${p.mixedLosses}`;
   if(k==="gender") return `${p.genderWins}–${p.genderLosses}`;
   if(k==="clutch") return `${p.clutchWins}–${p.clutchLosses}`;
+  if(k==="rating"){
+    if(p.rating==null) return '—';
+    const s=(p.rating>=0?'+':'')+p.rating.toFixed(1);
+    return `<span class="rating ${p.rating>=0?'pos-diff':'neg-diff'}" title="${p.ratingGames} games">${s}</span>`;
+  }
+  if(k==="conf"){
+    if(p.rating==null) return '—';
+    const title=`${p.confidence}% confidence — share of this rating driven by real game evidence (${p.matches} matchup${p.matches!==1?'s':''}, ${p.ratingGames} games) vs. the average-player prior`;
+    return `<span class="confwrap" title="${title}"><span class="confbar"><i style="width:${p.confidence}%"></i></span><span class="confnum">${p.confidence}%</span></span>`;
+  }
   if(k==="leagueRank") return p.leagueRank!=null?`<span class="lgrank">#${p.leagueRank}</span>`:'—';
   if(k==="winPct"||k==="ppg") return p[k].toFixed(1);
   return p[k];
