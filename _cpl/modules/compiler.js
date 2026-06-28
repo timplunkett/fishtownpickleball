@@ -113,6 +113,23 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
     beta[i] = s;
   }
 
+  // Strength of schedule: game-weighted average rating of each player's
+  // partners and opponents, on the same points/game scale as the rating.
+  const partnerSum = new Array(n).fill(0), partnerN = new Array(n).fill(0);
+  const oppSum = new Array(n).fill(0), oppN = new Array(n).fill(0);
+  const addContext = (selfId, partnerId, oppA, oppB) => {
+    const i = idx[selfId];
+    partnerSum[i] += beta[idx[partnerId]]; partnerN[i] += 1;
+    oppSum[i] += beta[idx[oppA]] + beta[idx[oppB]]; oppN[i] += 2;
+  };
+  for (const row of rows) {
+    const [p0, p1] = row.plus, [m0, m1] = row.minus;
+    addContext(p0, p1, m0, m1);
+    addContext(p1, p0, m0, m1);
+    addContext(m0, m1, p0, p1);
+    addContext(m1, m0, p0, p1);
+  }
+
   const out = {};
   ids.forEach((id, i) => {
     const conf = Math.max(0, Math.min(1, 1 - lambda * inv[i][i]));
@@ -120,6 +137,8 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
       rating: Math.round(beta[i] * 10) / 10,
       ratingGames: gamesPlayedCount[id],
       confidence: Math.round(conf * 100),
+      strengthOfPartners: partnerN[i] ? Math.round(partnerSum[i] / partnerN[i] * 10) / 10 : null,
+      strengthOfOpponents: oppN[i] ? Math.round(oppSum[i] / oppN[i] * 10) / 10 : null,
     };
   });
   return out;
@@ -255,6 +274,8 @@ async function compileDashboardHtml() {
     P.rating = ratings[pid] ? ratings[pid].rating : null;
     P.ratingGames = ratings[pid] ? ratings[pid].ratingGames : 0;
     P.confidence = ratings[pid] ? ratings[pid].confidence : 0;
+    P.strengthOfPartners = ratings[pid] ? ratings[pid].strengthOfPartners : null;
+    P.strengthOfOpponents = ratings[pid] ? ratings[pid].strengthOfOpponents : null;
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
     playerArr.push(P);
