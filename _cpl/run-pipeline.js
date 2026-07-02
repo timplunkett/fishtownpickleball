@@ -7,7 +7,7 @@ async function runPipeline() {
     // 1. Fetch from Azure APIs and cache raw JSON files to _data/
     await downloadLatestApiData();
 
-    // 2. Load the cached files, compute stats, and write cpl/index.html
+    // 2. Load the cached files, compute stats, and write cpl/data.js
     await compileDashboardHtml();
 
     console.log("\n🚀 CPL Pipeline completed successfully!");
