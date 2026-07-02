@@ -17,6 +17,133 @@ function firstValues(obj) {
   return null;
 }
 
+// --- Ridge-regularized Adjusted Plus-Minus (APM) player ratings -------------
+// Each doubles game becomes one equation: (myPair) - (theirPair) ~= pointMargin.
+// We solve for a per-player rating = net points/game contributed vs. an average
+// player, AFTER controlling for who they played with and against. Ridge (L2)
+// regularization toward zero both (a) handles the small early-season sample by
+// shrinking thin-evidence players toward average, and (b) resolves the rank
+// deficiency inherent to +1/-1 plus-minus design matrices (the all-ones vector
+// is otherwise in the null space). Larger LAMBDA = more shrinkage toward 0.
+const RIDGE_LAMBDA = 4;
+
+// Invert an n x n matrix via Gauss-Jordan elimination with partial pivoting.
+// Used here on (XᵀX + λI), which ridge keeps well-conditioned. We need the full
+// inverse (not just a single solve) so we can read its diagonal for the
+// per-player confidence score.
+function invertMatrix(A) {
+  const n = A.length;
+  // Augment [A | I] and reduce the left block to the identity.
+  const M = A.map((row, i) => {
+    const aug = row.slice();
+    for (let j = 0; j < n; j++) aug.push(i === j ? 1 : 0);
+    return aug;
+  });
+  for (let col = 0; col < n; col++) {
+    let piv = col;
+    for (let r = col + 1; r < n; r++) {
+      if (Math.abs(M[r][col]) > Math.abs(M[piv][col])) piv = r;
+    }
+    if (Math.abs(M[piv][col]) < 1e-12) continue; // ridge should prevent singularity
+    [M[col], M[piv]] = [M[piv], M[col]];
+    const pivVal = M[col][col];
+    for (let c = 0; c < 2 * n; c++) M[col][c] /= pivVal;
+    for (let r = 0; r < n; r++) {
+      if (r === col) continue;
+      const factor = M[r][col];
+      if (factor === 0) continue;
+      for (let c = 0; c < 2 * n; c++) M[r][c] -= factor * M[col][c];
+    }
+  }
+  return M.map(row => row.slice(n)); // the right block is A⁻¹
+}
+
+// Build the design from completed matchups' individual games and return
+// { [playerId]: { rating, ratingGames, confidence } }.
+//   rating      = ridge-APM net points/game vs. an average player.
+//   ratingGames = games contributing to the fit.
+//   confidence  = 0..100, the fraction of the estimate driven by real game
+//                 evidence rather than the average-player prior. Derived from
+//                 the posterior variance: conf_i = 1 - λ·[(XᵀX + λI)⁻¹]_ii.
+//                 (Data only ever shrinks variance below the prior 1/λ, so this
+//                 is guaranteed to land in [0, 1].)
+function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
+  // Collect one row per game: +1 home pair, -1 away pair, target = home margin.
+  const rows = []; // each: { plus: [id,id], minus: [id,id], margin }
+  const gamesPlayedCount = {};
+  for (const mu of completed) {
+    const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
+    const d = match ? match.details : null;
+    if (!d) continue;
+    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
+    for (const g of games) {
+      const h1 = g.homePlayerId1, h2 = g.homePlayerId2, a1 = g.awayPlayerId1, a2 = g.awayPlayerId2;
+      if (!h1 || !h2 || !a1 || !a2) continue;
+      if (g.homeScore == null || g.awayScore == null) continue;
+      rows.push({ plus: [h1, h2], minus: [a1, a2], margin: g.homeScore - g.awayScore });
+      for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
+    }
+  }
+
+  const ids = Object.keys(gamesPlayedCount);
+  const idx = {};
+  ids.forEach((id, i) => { idx[id] = i; });
+  const n = ids.length;
+  if (!n) return {};
+
+  // Normal equations: (XᵀX + λI) β = Xᵀy, accumulated without materializing X.
+  const AtA = Array.from({ length: n }, () => new Array(n).fill(0));
+  const Atb = new Array(n).fill(0);
+  for (const row of rows) {
+    const signed = [[row.plus[0], 1], [row.plus[1], 1], [row.minus[0], -1], [row.minus[1], -1]];
+    for (const [idI, sI] of signed) {
+      const i = idx[idI];
+      Atb[i] += sI * row.margin;
+      for (const [idJ, sJ] of signed) AtA[i][idx[idJ]] += sI * sJ;
+    }
+  }
+  for (let i = 0; i < n; i++) AtA[i][i] += lambda;
+
+  // β = (XᵀX + λI)⁻¹ Xᵀy, and confidence from the inverse's diagonal.
+  const inv = invertMatrix(AtA);
+  const beta = new Array(n).fill(0);
+  for (let i = 0; i < n; i++) {
+    let s = 0;
+    for (let j = 0; j < n; j++) s += inv[i][j] * Atb[j];
+    beta[i] = s;
+  }
+
+  // Strength of schedule: game-weighted average rating of each player's
+  // partners and opponents, on the same points/game scale as the rating.
+  const partnerSum = new Array(n).fill(0), partnerN = new Array(n).fill(0);
+  const oppSum = new Array(n).fill(0), oppN = new Array(n).fill(0);
+  const addContext = (selfId, partnerId, oppA, oppB) => {
+    const i = idx[selfId];
+    partnerSum[i] += beta[idx[partnerId]]; partnerN[i] += 1;
+    oppSum[i] += beta[idx[oppA]] + beta[idx[oppB]]; oppN[i] += 2;
+  };
+  for (const row of rows) {
+    const [p0, p1] = row.plus, [m0, m1] = row.minus;
+    addContext(p0, p1, m0, m1);
+    addContext(p1, p0, m0, m1);
+    addContext(m0, m1, p0, p1);
+    addContext(m1, m0, p0, p1);
+  }
+
+  const out = {};
+  ids.forEach((id, i) => {
+    const conf = Math.max(0, Math.min(1, 1 - lambda * inv[i][i]));
+    out[id] = {
+      rating: Math.round(beta[i] * 10) / 10,
+      ratingGames: gamesPlayedCount[id],
+      confidence: Math.round(conf * 100),
+      strengthOfPartners: partnerN[i] ? Math.round(partnerSum[i] / partnerN[i] * 10) / 10 : null,
+      strengthOfOpponents: oppN[i] ? Math.round(oppSum[i] / oppN[i] * 10) / 10 : null,
+    };
+  });
+  return out;
+}
+
 async function compileDashboardHtml() {
   console.log('\n--- Phase 2: Processing Stats & Building View ---');
   console.log('Loading local JSON caches from disk...');
@@ -135,12 +262,20 @@ async function compileDashboardHtml() {
     console.warn("⚠️ League rank extraction encountered anomalies:", e.message);
   }
 
+  // Ridge-APM ratings: partner/opponent-adjusted net points per game.
+  const ratings = computeRatings(completed, matchupDetailsJson);
+
   const playerArr = [];
-  for (const P of players.values()) {
+  for (const [pid, P] of players.entries()) {
     P.winPct = P.gamesPlayed ? round1(100 * P.wins / P.gamesPlayed) : 0;
     P.diff = P.pointsWon - P.totalPointsAgainst;
     P.ppg = P.gamesPlayed ? round1(P.pointsWon / P.gamesPlayed) : 0;
     P.leagueRank = rankByName[norm(P.name)] ?? null;
+    P.rating = ratings[pid] ? ratings[pid].rating : null;
+    P.ratingGames = ratings[pid] ? ratings[pid].ratingGames : 0;
+    P.confidence = ratings[pid] ? ratings[pid].confidence : 0;
+    P.strengthOfPartners = ratings[pid] ? ratings[pid].strengthOfPartners : null;
+    P.strengthOfOpponents = ratings[pid] ? ratings[pid].strengthOfOpponents : null;
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
     playerArr.push(P);
@@ -148,8 +283,8 @@ async function compileDashboardHtml() {
   playerArr.sort((a, b) => (b.winPct - a.winPct) || (b.diff - a.diff));
 
   const teamArr = [...teams.values()];
-  for (const t of teamArr) t.diff = t.pf - t.pa;
-  teamArr.sort((a, b) => (b.w - a.w) || (b.diff - a.diff));
+  for (const t of teamArr) { t.diff = t.pf - t.pa; t.gameDiff = t.gw - t.gl; }
+  teamArr.sort((a, b) => (b.w - a.w) || (b.gameDiff - a.gameDiff) || (b.diff - a.diff));
 
   const weeks = [...weeksSeen].sort((a, b) => a - b);
   const weekLabel = weeks.length ? (weeks[0] === weeks[weeks.length - 1] ? `${weeks[0]}` : `${weeks[0]}-${weeks[weeks.length - 1]}`) : "";
