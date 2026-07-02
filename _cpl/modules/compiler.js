@@ -60,7 +60,7 @@ async function compileDashboardHtml() {
 
     const home = { id: homeId, name: M.homeName, points: M.homePoints, gw: hgw };
     const away = { id: awayId, name: M.awayName, points: M.awayPoints, gw: agw };
-    const homeWon = M.homePoints > M.awayPoints;
+    const homeWon = M.endResult === 'home';
 
     ensureTeam(home.name); ensureTeam(away.name);
     teams.get(home.name).pf += home.points; teams.get(home.name).pa += away.points;
