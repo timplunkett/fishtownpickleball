@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const OUT = path.join(__dirname, '../../cpl/index.html');
-const TEMPLATE = path.join(__dirname, '../template.html');
+const OUT = path.join(__dirname, '../../cpl/data.js');
 
 const round1 = n => Math.round(n * 10) / 10;
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
@@ -297,20 +296,8 @@ async function compileDashboardHtml() {
     },
   };
 
-  if (!fs.existsSync(TEMPLATE)) {
-    throw new Error(`Critical Dependency Missing: Unable to locate layout template at: ${TEMPLATE}`);
-  }
-
-  let template = fs.readFileSync(TEMPLATE, "utf8");
-  const html = template.replace("const DATA = __DATA__;", "const DATA = " + JSON.stringify(DATA) + ";");
-
-  const outDir = path.dirname(OUT);
-  if (!fs.existsSync(outDir)){
-      fs.mkdirSync(outDir, { recursive: true });
-  }
-
-  fs.writeFileSync(OUT, html);
-  console.log(`✓ Dashboard written safely to route target: ${OUT}`);
+  fs.writeFileSync(OUT, "const DATA = " + JSON.stringify(DATA) + ";");
+  console.log(`✓ data.js written to ${OUT}`);
 }
 
 module.exports = { compileDashboardHtml };
