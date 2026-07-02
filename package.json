@@ -1,0 +1,23 @@
+{
+  "name": "fishtownpickleball",
+  "private": true,
+  "scripts": {
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint cpl/app.js _cpl/**/*.js",
+    "lint:fix": "npm run lint:eslint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timplunkett/fishtownpickleball.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timplunkett/fishtownpickleball/issues"
+  },
+  "homepage": "https://github.com/timplunkett/fishtownpickleball#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^17.7.0"
+  }
+}
