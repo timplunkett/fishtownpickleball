@@ -14,7 +14,8 @@
     <p class="sub" id="sub"></p>
   </header>
 
-  <h2>Team Standings <span class="tag">by match record, then game record, then point differential</span></h2>
+  <div id="mainview">
+  <h2>Team Standings <span class="tag">by match record, then game record, then point differential • click a team for its page</span></h2>
   <div class="teams" id="teams"></div>
 
   <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
@@ -61,6 +62,17 @@
   <div class="panel scroll">
     <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
   </div>
+
+  <h2>Top Duos <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span></h2>
+  <div class="panel scroll">
+    <table id="duotbl"><thead><tr>
+      <th class="l">#</th><th class="l">Pair</th><th class="l">Team</th><th>Together</th><th>W–L</th>
+      <th>Synergy</th><th>Actual/g</th><th>Expected/g</th>
+    </tr></thead><tbody id="duobody"></tbody></table>
+  </div>
+  </div><!-- /mainview -->
+
+  <div id="teamview" hidden></div>
 
   <footer id="foot"></footer>
 </div>

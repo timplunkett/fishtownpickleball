@@ -26,6 +26,16 @@ function firstValues(obj) {
 // is otherwise in the null space). Larger LAMBDA = more shrinkage toward 0.
 const RIDGE_LAMBDA = 4;
 
+// A forfeit/walkover is recorded as a token 1-0 score (no real pickleball game
+// ends with the winner under 11). These reflect attendance, not play, so they
+// are excluded from the rating; standings/records still count them.
+const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
+
+// Teammate-pair chemistry tuning: shrinkage strength and the minimum shared
+// games before a pair is surfaced.
+const PAIR_K = 4;
+const PAIR_MIN = 3;
+
 // Invert an n x n matrix via Gauss-Jordan elimination with partial pivoting.
 // Used here on (XᵀX + λI), which ridge keeps well-conditioned. We need the full
 // inverse (not just a single solve) so we can read its diagonal for the
@@ -79,6 +89,7 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
       const h1 = g.homePlayerId1, h2 = g.homePlayerId2, a1 = g.awayPlayerId1, a2 = g.awayPlayerId2;
       if (!h1 || !h2 || !a1 || !a2) continue;
       if (g.homeScore == null || g.awayScore == null) continue;
+      if (isForfeit(g)) continue; // walkovers measure attendance, not play
       rows.push({ plus: [h1, h2], minus: [a1, a2], margin: g.homeScore - g.awayScore });
       for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
     }
@@ -141,6 +152,63 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
     };
   });
   return out;
+}
+
+// Teammate-pair "chemistry": how much a pair over/under-performs the result
+// their four individual ratings predict. Per game, residual = actual margin -
+// expected margin (from ratings). Synergy is the shrunk average residual,
+// Σresidual / (n + PAIR_K), which pulls thin-sample pairs toward 0.
+// Returns { duos: [...n>=PAIR_MIN, sorted...], partnersByPid: { pid: [{...}] } }.
+function computePairSynergy(completed, matchupDetailsJson, ratings) {
+  const rOf = pid => (ratings[pid] ? ratings[pid].rating : 0);
+  const nameOf = {}, teamOf = {};
+  const acc = {}; // "idA|idB" -> { a, b, n, sumRes, sumAct, sumExp, w }
+
+  for (const mu of completed) {
+    const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
+    const d = match ? match.details : null;
+    if (!d) continue;
+    const M = d.matchup;
+    const teamNameById = { [M.homeTeamId]: M.homeName, [M.awayTeamId]: M.awayName };
+    for (const p of (d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) {
+      nameOf[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+      teamOf[p.playerId] = teamNameById[p.teamId] || null;
+    }
+    for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
+      if (g.homeScore == null || g.awayScore == null || isForfeit(g)) continue;
+      const H = [g.homePlayerId1, g.homePlayerId2], A = [g.awayPlayerId1, g.awayPlayerId2];
+      if (H.concat(A).some(x => !x)) continue;
+      const expH = (rOf(H[0]) + rOf(H[1])) - (rOf(A[0]) + rOf(A[1]));
+      const actH = g.homeScore - g.awayScore;
+      const record = (pair, act, exp) => {
+        const [a, b] = pair.slice().sort();
+        const e = acc[`${a}|${b}`] || (acc[`${a}|${b}`] = { a, b, n: 0, sumRes: 0, sumAct: 0, sumExp: 0, w: 0 });
+        e.n++; e.sumRes += act - exp; e.sumAct += act; e.sumExp += exp; if (act > 0) e.w++;
+      };
+      record(H, actH, expH);
+      record(A, -actH, -expH);
+    }
+  }
+
+  const entries = Object.values(acc).map(e => ({
+    a: nameOf[e.a], b: nameOf[e.b], team: teamOf[e.a],
+    n: e.n, w: e.w, l: e.n - e.w,
+    synergy: Math.round(e.sumRes / (e.n + PAIR_K) * 10) / 10,
+    avgActual: Math.round(e.sumAct / e.n * 10) / 10,
+    avgExpected: Math.round(e.sumExp / e.n * 10) / 10,
+    aId: e.a, bId: e.b,
+  }));
+  const duos = entries.filter(e => e.n >= PAIR_MIN).sort((x, y) => y.synergy - x.synergy);
+
+  const partnersByPid = {};
+  for (const e of entries) {
+    if (e.n < PAIR_MIN) continue;
+    (partnersByPid[e.aId] = partnersByPid[e.aId] || []).push({ name: e.b, n: e.n, synergy: e.synergy });
+    (partnersByPid[e.bId] = partnersByPid[e.bId] || []).push({ name: e.a, n: e.n, synergy: e.synergy });
+  }
+  for (const pid of Object.keys(partnersByPid)) partnersByPid[pid].sort((x, y) => y.synergy - x.synergy);
+
+  return { duos, partnersByPid };
 }
 
 async function compileDashboardHtml() {
@@ -244,7 +312,7 @@ async function compileDashboardHtml() {
         P.games.push({
           wk: M.weekNumber, opp: oppTeam, t: g.matchType,
           with: id2name[partner] || "", vs: [id2name[o1] || "", id2name[o2] || ""],
-          f: my, a: their, w: my > their ? 1 : 0,
+          f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
         });
       }
     }
@@ -263,6 +331,8 @@ async function compileDashboardHtml() {
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
   const ratings = computeRatings(completed, matchupDetailsJson);
+  // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
+  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -275,6 +345,7 @@ async function compileDashboardHtml() {
     P.confidence = ratings[pid] ? ratings[pid].confidence : 0;
     P.strengthOfPartners = ratings[pid] ? ratings[pid].strengthOfPartners : null;
     P.strengthOfOpponents = ratings[pid] ? ratings[pid].strengthOfOpponents : null;
+    P.partners = partnersByPid[pid] || [];
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
     playerArr.push(P);
@@ -285,11 +356,64 @@ async function compileDashboardHtml() {
   for (const t of teamArr) { t.diff = t.pf - t.pa; t.gameDiff = t.gw - t.gl; }
   teamArr.sort((a, b) => (b.w - a.w) || (b.gameDiff - a.gameDiff) || (b.diff - a.diff));
 
+  // Team power: games-weighted average of a roster's player ratings, ranked.
+  const rosterRatings = {};
+  for (const P of playerArr) {
+    if (P.rating == null) continue;
+    (rosterRatings[P.team] = rosterRatings[P.team] || []).push(P);
+  }
+  for (const t of teamArr) {
+    const ps = rosterRatings[t.name] || [];
+    let wsum = 0, w = 0;
+    for (const P of ps) { const g = P.ratingGames || 0; wsum += P.rating * g; w += g; }
+    t.power = w ? Math.round(wsum / w * 10) / 10 : null;
+  }
+  [...teamArr].filter(t => t.power != null).sort((a, b) => b.power - a.power)
+    .forEach((t, i) => { t.powerRank = i + 1; });
+
+  // Full match list (completed + scheduled) and per-team format splits, for the
+  // team pages: match history by week, upcoming schedule, mixed/men's/women's.
+  const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
+  const nameById = {};
+  for (const e of matchupDetailsJson) {
+    for (const p of (e.details && e.details.matchupPlayerStats && e.details.matchupPlayerStats.$values) || []) {
+      nameById[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+    }
+  }
+  const fmt = {};
+  const ensureFmt = n => fmt[n] || (fmt[n] = { mixed: [0, 0], male: [0, 0], female: [0, 0] });
+  const matches = [];
+  for (const m of matchups) {
+    const d = detailById.get(m.matchupId);
+    const complete = !!m.endResult;
+    const rec = { week: m.weekNumber, home: m.homeName, away: m.awayName, time: m.scheduledTime || null, complete };
+    if (complete && d) {
+      let hgw = 0, agw = 0;
+      const glist = [];
+      for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
+        const homeWin = g.homeScore > g.awayScore;
+        homeWin ? hgw++ : agw++;
+        if (["mixed", "male", "female"].includes(g.matchType)) {
+          ensureFmt(m.homeName)[g.matchType][homeWin ? 0 : 1]++;
+          ensureFmt(m.awayName)[g.matchType][homeWin ? 1 : 0]++;
+        }
+        glist.push({
+          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        });
+      }
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
+    }
+    matches.push(rec);
+  }
+  for (const t of teamArr) t.fmt = fmt[t.name] || { mixed: [0, 0], male: [0, 0], female: [0, 0] };
+
   const weeks = [...weeksSeen].sort((a, b) => a - b);
   const weekLabel = weeks.length ? (weeks[0] === weeks[weeks.length - 1] ? `${weeks[0]}` : `${weeks[0]}-${weeks[weeks.length - 1]}`) : "";
 
   const DATA = {
-    players: playerArr, teams: teamArr,
+    players: playerArr, teams: teamArr, duos, matches,
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,

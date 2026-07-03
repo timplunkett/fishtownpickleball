@@ -42,9 +42,11 @@ const HTML_ESCAPE_MAP = Object.freeze({
 
 const elements = {
   body: getRequiredElement('body'),
+  duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
   head: getRequiredElement('head'),
+  mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
   modalBody: getRequiredElement('mbody'),
   modalClose: getRequiredElement('mx'),
@@ -55,6 +57,7 @@ const elements = {
   subhead: getRequiredElement('sub'),
   team: getRequiredElement('team'),
   teams: getRequiredElement('teams'),
+  teamView: getRequiredElement('teamview'),
 };
 
 let sortKey = DEFAULT_SORT.key;
@@ -80,6 +83,13 @@ function isMissing(value) {
 
 function getTeamColor(teamName) {
   return TEAM_COLORS[teamName] ?? 'var(--accent)';
+}
+
+function slugify(name) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 function formatSignedValue(value, digits) {
@@ -114,12 +124,13 @@ function renderSummary() {
 function renderTeams() {
   elements.teams.innerHTML = DATA.teams
     .map((team, index) => `
-      <div class="tcard" style="border-top:3px solid ${getTeamColor(team.name)}">
+      <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
         <div class="seed">#${index + 1}</div>
         <h3>${escapeHtml(team.name)}</h3>
         <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
         <div class="pts">Games <b class="txt-strong">${team.gw}–${team.gl}</b></div>
         <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
+        <div class="go">View team →</div>
       </div>
     `)
     .join('');
@@ -366,11 +377,40 @@ function sosNarrative(player) {
     `partners (${formatSignedValue(player.strengthOfPartners, 1)}).${tail}`;
 }
 
+function renderPartnerChip(partner, className) {
+  return `
+    <span class="pchip" data-name="${escapeHtml(partner.name)}">
+      <b>${escapeHtml(partner.name)}</b>
+      <span class="${className}">${formatSignedValue(partner.synergy, 1)}</span>
+      <span class="mut">(${partner.n}g)</span>
+    </span>
+  `;
+}
+
+function renderPartnersLine(player) {
+  const partners = player.partners || [];
+
+  if (partners.length === 0) {
+    return '';
+  }
+
+  const best = partners[0];
+  const worst = partners[partners.length - 1];
+  let markup = `<div class="mh-partners"><span class="pl">Chemistry</span> best ${renderPartnerChip(best, 'pos-diff')}`;
+
+  if (partners.length > 1 && worst !== best) {
+    markup += ` &nbsp;•&nbsp; toughest fit ${renderPartnerChip(worst, 'neg-diff')}`;
+  }
+
+  return `${markup}</div>`;
+}
+
 function renderModalHeader(player) {
   const genderLabel = player.gender === 'Male' ? 'Men' : 'Women';
   const ratingClass = player.rating >= 0 ? 'pos-diff' : 'neg-diff';
   const diffClass = player.diff >= 0 ? 'pos-diff' : 'neg-diff';
   const narrative = !isMissing(player.rating) ? `<p class="mh-narr">${sosNarrative(player)}</p>` : '';
+  const partnersLine = renderPartnersLine(player);
 
   return `
     <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
@@ -390,6 +430,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
     </div>
     ${narrative}
+    ${partnersLine}
   `;
 }
 
@@ -425,13 +466,19 @@ function renderGameLogRows(player) {
     }
 
     const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    const resultClass = game.w ? 'res-W' : 'res-L';
+    const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
+    const partnerCell = game.ff
+      ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
+      : escapeHtml(game.with);
+    const opponentCell = game.ff ? '' : `${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}`;
     gameLog += `
-      <tr>
+      <tr${game.ff ? ' class="ffrow"' : ''}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
-        <td class="l">${escapeHtml(game.with)}</td>
-        <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
-        <td class="${game.w ? 'res-W' : 'res-L'}">${game.f}–${game.a}</td>
-        <td class="${game.w ? 'res-W' : 'res-L'}">${game.w ? 'W' : 'L'}</td>
+        <td class="l">${partnerCell}</td>
+        <td class="l">${opponentCell}</td>
+        <td class="${resultClass}">${game.f}–${game.a}</td>
+        <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}</td>
       </tr>
     `;
   }
@@ -473,7 +520,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating.</p>
   `;
 }
 
@@ -536,23 +583,268 @@ function handleEscapeKey(event) {
   }
 }
 
+function renderDuos() {
+  const rows = (DATA.duos || [])
+    .map((duo, index) => {
+      const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
+      const rankClass = index < 3 ? ` g${index + 1}` : '';
+      return `
+        <tr class="duorow" data-name="${escapeHtml(duo.a)}">
+          <td class="l"><span class="pos${rankClass}">${index + 1}</span></td>
+          <td class="l">${escapeHtml(duo.a)} <span class="amp">&amp;</span> ${escapeHtml(duo.b)}</td>
+          <td class="l"><span class="teamdot" style="background:${getTeamColor(duo.team)}"></span>${escapeHtml(duo.team ?? '')}</td>
+          <td>${duo.n}</td>
+          <td><b>${duo.w}</b>–${duo.l}</td>
+          <td><span class="rating ${synergyClass}">${formatSignedValue(duo.synergy, 1)}</span></td>
+          <td>${formatSignedValue(duo.avgActual, 1)}</td>
+          <td class="mut">${formatSignedValue(duo.avgExpected, 1)}</td>
+        </tr>
+      `;
+    })
+    .join('');
+
+  elements.duoBody.innerHTML =
+    rows ||
+    '<tr><td colspan="8" class="l mut" style="padding:16px">Not enough shared games yet — duos appear once a pair has played 3+ games together.</td></tr>';
+}
+
+function formatMatchDate(iso) {
+  if (!iso) {
+    return '';
+  }
+
+  const date = new Date(iso);
+
+  if (Number.isNaN(date.getTime())) {
+    return iso;
+  }
+
+  const day = date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+  const time = date.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' });
+  return `${day} · ${time}`;
+}
+
+function renderTeamMatchBlock(match, teamName) {
+  const homeSide = match.home === teamName;
+  const usPoints = homeSide ? match.homePoints : match.awayPoints;
+  const themPoints = homeSide ? match.awayPoints : match.homePoints;
+  const usGames = homeSide ? match.homeGW : match.awayGW;
+  const themGames = homeSide ? match.awayGW : match.homeGW;
+  const opponent = homeSide ? match.away : match.home;
+  const won = usGames > themGames;
+
+  const gameRows = (match.games || [])
+    .map((game) => {
+      const usPlayers = homeSide ? game.h : game.a;
+      const themPlayers = homeSide ? game.a : game.h;
+      const usScore = homeSide ? game.hs : game.as;
+      const themScore = homeSide ? game.as : game.hs;
+      const win = usScore > themScore;
+      const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+      const resultClass = win ? 'res-W' : 'res-L';
+      return `
+        <tr${game.ff ? ' class="ffrow"' : ''}>
+          <td class="l"><span class="pill ${className}">${label}</span></td>
+          <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(usPlayers.join(' & '))}</td>
+          <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
+          <td class="${resultClass}">${usScore}–${themScore}</td>
+          <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}</td>
+        </tr>
+      `;
+    })
+    .join('');
+
+  return `
+    <div class="wk-block">
+      <div class="wk-head">
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span class="${won ? 'res-W' : 'res-L'}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
+      </div>
+      <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b></div>
+      <details>
+        <summary>Game-by-game (${(match.games || []).length})</summary>
+        <table class="mlog glog">
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th></tr></thead>
+          <tbody>${gameRows}</tbody>
+        </table>
+      </details>
+    </div>
+  `;
+}
+
+function renderTeamPage(team) {
+  const color = getTeamColor(team.name);
+  const rank = DATA.teams.findIndex((candidate) => candidate.name === team.name) + 1;
+  const roster = DATA.players
+    .filter((player) => player.team === team.name)
+    .sort((a, b) => (b.rating ?? -99) - (a.rating ?? -99));
+  const duos = DATA.duos.filter((duo) => duo.team === team.name);
+  const history = DATA.matches
+    .filter((match) => match.complete && (match.home === team.name || match.away === team.name))
+    .sort((a, b) => a.week - b.week);
+  const upcoming = DATA.matches
+    .filter((match) => !match.complete && (match.home === team.name || match.away === team.name))
+    .sort((a, b) => a.week - b.week);
+  const powerClass = isMissing(team.power) ? '' : (team.power >= 0 ? 'pos-diff' : 'neg-diff');
+
+  const rosterRows = roster
+    .map((player) => `
+      <tr>
+        <td class="l">${renderCell(player, 'name')}</td>
+        <td>${renderCell(player, 'rating')}</td>
+        <td>${renderCell(player, 'conf')}</td>
+        <td>${renderCell(player, 'soo')}</td>
+        <td>${renderCell(player, 'sop')}</td>
+        <td>${renderCell(player, 'wl')}</td>
+        <td>${player.winPct.toFixed(0)}%</td>
+        <td>${player.gamesPlayed}</td>
+      </tr>
+    `)
+    .join('');
+
+  const formatCard = (label, record) => {
+    const [wins, losses] = record;
+    const total = wins + losses;
+    const pct = total ? Math.round((100 * wins) / total) : 0;
+    return `<div class="fmt-card"><div class="l">${label}</div><div class="v">${wins}–${losses}</div><div class="p">${pct}% game wins</div></div>`;
+  };
+
+  const duosMarkup = duos.length
+    ? `<div class="duolist">${duos
+        .map((duo) => `
+          <div class="d">
+            <span><b>${escapeHtml(duo.a)}</b> &amp; <b>${escapeHtml(duo.b)}</b> <span class="mut">(${duo.w}–${duo.l}, ${duo.n}g)</span></span>
+            <span class="${duo.synergy >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(duo.synergy, 1)}</span>
+          </div>
+        `)
+        .join('')}</div>`
+    : '<div class="mut" style="font-size:13px">No duos with 3+ games together yet.</div>';
+
+  const upcomingMarkup = upcoming.length
+    ? upcoming
+        .map((match) => {
+          const homeSide = match.home === team.name;
+          const opponent = homeSide ? match.away : match.home;
+          return `<div class="up-row"><span class="op">Week ${match.week} • ${homeSide ? 'vs' : '@'} <b>${escapeHtml(opponent)}</b></span><span class="dt">${formatMatchDate(match.time)}</span></div>`;
+        })
+        .join('')
+    : '<div class="mut" style="font-size:13px;padding:4px 0">No upcoming matches scheduled.</div>';
+
+  const historyMarkup = history.length
+    ? history.map((match) => renderTeamMatchBlock(match, team.name)).join('')
+    : '<div class="mut" style="font-size:13px">No completed matches yet.</div>';
+
+  elements.teamView.innerHTML = `
+    <a class="backlink" href="#">← All standings</a>
+    <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
+      <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
+      <div class="team-meta">
+        <span><b>#${rank}</b> in standings</span>
+        <span>Record <b>${team.w}–${team.l}</b></span>
+        <span>Games <b>${team.gw}–${team.gl}</b></span>
+        <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
+        <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${DATA.teams.length})</span></span>
+      </div>
+    </div>
+    <div class="team-section">
+      <h3>Game-type splits <span class="tag">team game record by format</span></h3>
+      <div class="fmt-cards">${formatCard('Mixed', team.fmt.mixed)}${formatCard("Men's", team.fmt.male)}${formatCard("Women's", team.fmt.female)}</div>
+    </div>
+    <div class="team-section">
+      <h3>Roster <span class="tag">${roster.length} players • click a name for detail</span></h3>
+      <div class="panel scroll"><table><thead><tr>
+        <th class="l">Player</th><th>Rating</th><th>Conf</th><th>Opp Str</th><th>Partner Str</th><th>W–L</th><th>Win%</th><th>GP</th>
+      </tr></thead><tbody>${rosterRows}</tbody></table></div>
+    </div>
+    <div class="team-section">
+      <h3>Best duos <span class="tag">chemistry on this roster (3+ games)</span></h3>
+      ${duosMarkup}
+    </div>
+    <div class="team-section">
+      <h3>Match history <span class="tag">by week</span></h3>
+      ${historyMarkup}
+    </div>
+    <div class="team-section">
+      <h3>Upcoming</h3>
+      ${upcomingMarkup}
+    </div>
+  `;
+  elements.mainView.hidden = true;
+  elements.teamView.hidden = false;
+  elements.subhead.textContent = `${team.name} — team page`;
+  window.scrollTo(0, 0);
+}
+
+function showMainView() {
+  elements.teamView.hidden = true;
+  elements.mainView.hidden = false;
+  renderSummary();
+  window.scrollTo(0, 0);
+}
+
+function handleRoute() {
+  const routeMatch = (window.location.hash || '').match(/^#team\/(.+)$/);
+
+  if (routeMatch) {
+    const slug = decodeURIComponent(routeMatch[1]);
+    const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
+
+    if (team) {
+      renderTeamPage(team);
+      return;
+    }
+  }
+
+  showMainView();
+}
+
+function handleTeamCardClick(event) {
+  const card = event.target.closest('.tcard');
+
+  if (card?.dataset.team) {
+    window.location.hash = `#team/${card.dataset.team}`;
+  }
+}
+
+function handleDuoClick(event) {
+  const row = event.target.closest('.duorow');
+
+  if (row?.dataset.name) {
+    openPlayer(row.dataset.name);
+  }
+}
+
+function handlePartnerChipClick(event) {
+  const chip = event.target.closest('.pchip');
+
+  if (chip?.dataset.name) {
+    openPlayer(chip.dataset.name);
+  }
+}
+
 function initialize() {
   renderSummary();
   renderTeams();
   renderTeamFilterOptions();
   renderTableHead();
+  renderDuos();
 
   elements.head.addEventListener('click', handleColumnSort);
-  elements.body.addEventListener('click', handlePlayerClick);
+  document.addEventListener('click', handlePlayerClick);
+  elements.teams.addEventListener('click', handleTeamCardClick);
+  elements.duoBody.addEventListener('click', handleDuoClick);
+  elements.modalHead.addEventListener('click', handlePartnerChipClick);
   elements.modalClose.addEventListener('click', closeModal);
   elements.overlay.addEventListener('click', handleOverlayClick);
   document.addEventListener('keydown', handleEscapeKey);
+  window.addEventListener('hashchange', handleRoute);
 
   ['search', 'team', 'gender', 'minq'].forEach((id) => {
     getRequiredElement(id).addEventListener('input', render);
   });
 
   render();
+  handleRoute();
 }
 
 initialize();
