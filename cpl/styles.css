@@ -505,6 +505,8 @@ tbody td {
 
 .mlog {
   margin-top: 14px;
+  display: block;
+  overflow-x: auto;
 }
 
 .mlog th,
@@ -587,5 +589,13 @@ tbody td {
 @media (max-width: 520px) {
   .teams {
     grid-template-columns: 1fr;
+  }
+
+  .overlay {
+    padding: 16px 8px;
+  }
+
+  .modal {
+    padding: 16px 12px;
   }
 }
