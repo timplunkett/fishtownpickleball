@@ -648,6 +648,7 @@ tbody td {
 
 .tcard {
   cursor: pointer;
+  padding-bottom: 30px; /* reserve a strip for the hover affordance */
   transition: transform 0.12s;
 }
 
@@ -657,15 +658,22 @@ tbody td {
 
 .tcard .go {
   position: absolute;
-  right: 12px;
-  bottom: 10px;
+  right: 10px;
+  bottom: 8px;
+  padding: 2px 8px;
   color: var(--mut);
   font-size: 11px;
+  font-weight: 600;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
   opacity: 0;
+  transition: opacity 0.12s;
 }
 
 .tcard:hover .go {
   color: var(--accent);
+  border-color: var(--accent);
   opacity: 1;
 }
 

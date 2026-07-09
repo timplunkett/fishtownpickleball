@@ -583,8 +583,22 @@ function handleEscapeKey(event) {
   }
 }
 
+function getFilteredDuos() {
+  const query = elements.search.value.trim().toLowerCase();
+  const teamFilter = elements.team.value;
+
+  return (DATA.duos || []).filter(
+    (duo) =>
+      (!teamFilter || duo.team === teamFilter) &&
+      (!query ||
+        duo.a.toLowerCase().includes(query) ||
+        duo.b.toLowerCase().includes(query)),
+  );
+}
+
 function renderDuos() {
-  const rows = (DATA.duos || [])
+  const duos = getFilteredDuos();
+  const rows = duos
     .map((duo, index) => {
       const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
       const rankClass = index < 3 ? ` g${index + 1}` : '';
@@ -603,9 +617,13 @@ function renderDuos() {
     })
     .join('');
 
+  const emptyMessage =
+    elements.team.value || elements.search.value.trim()
+      ? 'No duos with 3+ games together match the current filter.'
+      : 'Not enough shared games yet — duos appear once a pair has played 3+ games together.';
+
   elements.duoBody.innerHTML =
-    rows ||
-    '<tr><td colspan="8" class="l mut" style="padding:16px">Not enough shared games yet — duos appear once a pair has played 3+ games together.</td></tr>';
+    rows || `<tr><td colspan="8" class="l mut" style="padding:16px">${emptyMessage}</td></tr>`;
 }
 
 function formatMatchDate(iso) {
@@ -839,6 +857,10 @@ function initialize() {
   document.addEventListener('keydown', handleEscapeKey);
   window.addEventListener('hashchange', handleRoute);
 
+  // The Team filter and search box also drive the Top Duos table; gender and
+  // min-games apply to the player table only (they don't affect pairs).
+  getRequiredElement('team').addEventListener('input', renderDuos);
+  getRequiredElement('search').addEventListener('input', renderDuos);
   ['search', 'team', 'gender', 'minq'].forEach((id) => {
     getRequiredElement(id).addEventListener('input', render);
   });
