@@ -649,7 +649,7 @@ function renderTeamMatchBlock(match, teamName) {
   const usGames = homeSide ? match.homeGW : match.awayGW;
   const themGames = homeSide ? match.awayGW : match.homeGW;
   const opponent = homeSide ? match.away : match.home;
-  const won = usGames > themGames;
+  const won = homeSide === (match.result === 'home');
 
   const gameRows = (match.games || [])
     .map((game) => {

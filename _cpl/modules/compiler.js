@@ -386,7 +386,7 @@ async function compileDashboardHtml() {
   for (const m of matchups) {
     const d = detailById.get(m.matchupId);
     const complete = !!m.endResult;
-    const rec = { week: m.weekNumber, home: m.homeName, away: m.awayName, time: m.scheduledTime || null, complete };
+    const rec = { result: m.endResult, week: m.weekNumber, home: m.homeName, away: m.awayName, time: m.scheduledTime || null, complete };
     if (complete && d) {
       let hgw = 0, agw = 0;
       const glist = [];
