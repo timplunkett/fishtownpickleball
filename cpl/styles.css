@@ -580,6 +580,266 @@ tbody td {
   background: rgb(120 180 120 / 16%);
 }
 
+.mut,
+.amp {
+  color: var(--mut);
+}
+
+/* Forfeit tags in game logs */
+.ffrow {
+  opacity: 0.6;
+}
+
+.ff-tag {
+  padding: 1px 6px;
+  color: var(--mut);
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: help;
+}
+
+/* Partner-chemistry chips in the player modal */
+.mh-partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin: 10px 0 0;
+  color: var(--mut);
+  font-size: 13px;
+}
+
+.mh-partners .pl {
+  margin-right: 4px;
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.pchip {
+  padding: 2px 9px;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.pchip:hover {
+  border-color: var(--accent);
+}
+
+.pchip b {
+  color: var(--txt);
+  font-weight: 700;
+}
+
+/* Top Duos table + team-card affordances */
+.duorow {
+  cursor: pointer;
+}
+
+.duorow:hover {
+  background: rgb(29 178 220 / 6%);
+}
+
+.tcard {
+  cursor: pointer;
+  padding-bottom: 30px; /* reserve a strip for the hover affordance */
+  transition: transform 0.12s;
+}
+
+.tcard:hover {
+  transform: translateY(-2px);
+}
+
+.tcard .go {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  padding: 2px 8px;
+  color: var(--mut);
+  font-size: 11px;
+  font-weight: 600;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  opacity: 0;
+  transition: opacity 0.12s;
+}
+
+.tcard:hover .go {
+  color: var(--accent);
+  border-color: var(--accent);
+  opacity: 1;
+}
+
+/* Team pages */
+.backlink {
+  display: inline-block;
+  margin: 6px 0 2px;
+  color: var(--mut);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.backlink:hover {
+  color: var(--accent);
+}
+
+.team-hero {
+  padding: 12px 0 2px;
+}
+
+.team-hero h2 {
+  display: block;
+  margin: 0.15em 0;
+  font-size: 26px;
+}
+
+.team-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-top: 4px;
+  color: var(--mut);
+  font-size: 13px;
+}
+
+.team-meta b {
+  color: var(--txt);
+}
+
+.team-section {
+  margin-top: 26px;
+}
+
+.team-section h3 {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.team-section h3 .tag {
+  font-weight: 500;
+}
+
+.fmt-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 540px;
+}
+
+.fmt-card {
+  padding: 12px 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.fmt-card .l {
+  color: var(--mut);
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.fmt-card .v {
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.fmt-card .p {
+  color: var(--mut);
+  font-size: 12px;
+}
+
+.wk-block {
+  margin-bottom: 12px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.wk-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  font-weight: 700;
+  background: var(--panel2);
+}
+
+.match-summary {
+  padding: 10px 14px 4px;
+  color: var(--mut);
+  font-size: 13px;
+}
+
+.match-summary b {
+  color: var(--txt);
+}
+
+.wk-block details {
+  padding: 0 14px 12px;
+}
+
+.wk-block summary {
+  padding: 6px 0;
+  color: var(--accent);
+  font-size: 12.5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.up-row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 9px 12px;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(42 50 61 / 60%);
+}
+
+.up-row:last-child {
+  border-bottom: none;
+}
+
+.up-row .op {
+  color: var(--txt);
+}
+
+.up-row .dt {
+  color: var(--mut);
+}
+
+.duolist {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 640px;
+}
+
+.duolist .d {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 8px 12px;
+  font-size: 13px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
 @media (max-width: 920px) {
   .teams {
     grid-template-columns: repeat(2, 1fr);
@@ -588,6 +848,10 @@ tbody td {
 
 @media (max-width: 520px) {
   .teams {
+    grid-template-columns: 1fr;
+  }
+
+  .fmt-cards {
     grid-template-columns: 1fr;
   }
 
