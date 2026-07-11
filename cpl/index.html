@@ -18,6 +18,9 @@
   <h2>Team Standings <span class="tag">by match record, then game record, then point differential • click a team for its page</span></h2>
   <div class="teams" id="teams"></div>
 
+  <h2>Head-to-Head <span class="tag">game record &amp; net point differential by week • click a cell for the team page</span></h2>
+  <div class="grid-wrap" id="grid-host"></div>
+
   <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
   <details class="explainer">
     <summary>How the Rating works</summary>
@@ -61,6 +64,11 @@
   </div>
   <div class="panel scroll">
     <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
+  </div>
+
+  <h2>Rating Distribution <span class="tag">every rated player • hover a dot • click to open • dot opacity = confidence</span></h2>
+  <div class="panel swarm-panel">
+    <div class="swarm-host" id="swarm-host"></div>
   </div>
 
   <h2>Top Duos <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span></h2>
