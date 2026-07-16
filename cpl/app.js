@@ -60,6 +60,13 @@ const elements = {
   teamView: getRequiredElement('teamview'),
 };
 
+// Build a name → rating lookup from DATA (data.js loads before app.js).
+const playerRatingByName = Object.fromEntries(
+  DATA.players
+    .filter((p) => p.rating != null)
+    .map((p) => [p.name, p.rating]),
+);
+
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
 
@@ -453,6 +460,33 @@ function renderMatchLogRows(player) {
     .join('');
 }
 
+// Returns the expected scoring margin for pair [nameA, nameB] vs [nameC, nameD]
+// (positive = [A,B] favoured), or null when any player lacks a rating.
+function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
+  const rA = playerRatingByName[nameA];
+  const rB = playerRatingByName[nameB];
+  const rC = playerRatingByName[nameC];
+  const rD = playerRatingByName[nameD];
+  if (rA == null || rB == null || rC == null || rD == null) return null;
+  return (rA + rB) - (rC + rD);
+}
+
+// Returns a small HTML pill showing whether the result matched the expectation.
+// `expectedMargin` is from computeExpectedOutcome (positive = this pair favoured).
+// `won` is whether this pair won the game.
+function renderExpectationTag(expectedMargin, won) {
+  if (expectedMargin === null || expectedMargin === 0) return '';
+  const favoured = expectedMargin > 0;
+  const diff = Math.abs(expectedMargin).toFixed(1);
+  if ((favoured && won) || (!favoured && !won)) {
+    return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
+  }
+  if (!favoured && won) {
+    return ` <span class="exp-tag exp-upset" title="Upset win — overcame a ${diff} pt/game pair-rating deficit">↑</span>`;
+  }
+  return ` <span class="exp-tag exp-drop" title="Upset loss — despite a ${diff} pt/game pair-rating advantage">↓</span>`;
+}
+
 function renderGameLogRows(player) {
   let gameLog = '';
   let lastWeek = null;
@@ -472,13 +506,17 @@ function renderGameLogRows(player) {
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
       : escapeHtml(game.with);
     const opponentCell = game.ff ? '' : `${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}`;
+    const expectedMargin = game.ff
+      ? null
+      : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
+    const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : ''}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
-        <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}</td>
+        <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
       </tr>
     `;
   }
@@ -520,7 +558,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 
@@ -660,13 +698,17 @@ function renderTeamMatchBlock(match, teamName) {
       const win = usScore > themScore;
       const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
       const resultClass = win ? 'res-W' : 'res-L';
+      const expectedMargin = game.ff
+        ? null
+        : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
+      const expectTag = renderExpectationTag(expectedMargin, win);
       return `
         <tr${game.ff ? ' class="ffrow"' : ''}>
           <td class="l"><span class="pill ${className}">${label}</span></td>
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(usPlayers.join(' & '))}</td>
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
-          <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}</td>
+          <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
         </tr>
       `;
     })

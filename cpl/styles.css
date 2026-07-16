@@ -602,6 +602,33 @@ tbody td {
   cursor: help;
 }
 
+/* Expected-outcome indicators in game logs */
+.exp-tag {
+  padding: 1px 5px;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  border-radius: 999px;
+  cursor: help;
+}
+
+.exp-met {
+  color: var(--mut);
+  border: 1px solid var(--line);
+}
+
+.exp-upset {
+  color: var(--gold);
+  background: rgb(232 198 107 / 10%);
+  border: 1px solid rgb(232 198 107 / 40%);
+}
+
+.exp-drop {
+  color: #f0843a;
+  background: rgb(240 132 58 / 10%);
+  border: 1px solid rgb(240 132 58 / 40%);
+}
+
 /* Partner-chemistry chips in the player modal */
 .mh-partners {
   display: flex;
