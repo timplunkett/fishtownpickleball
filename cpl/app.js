@@ -569,7 +569,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${matchRows}</tbody>
     </table>
-    <div class="gtitle">Game-by-game log <span>${gameCount} games • actual final scores${upsetLine}</span></div>
+    <div class="gtitle">Game-by-game log <span>${gameCount} games${upsetLine}</span></div>
     <table class="mlog glog">
       <thead>
         <tr>
