@@ -604,10 +604,13 @@ tbody td {
 
 /* Expected-outcome indicators in game logs */
 .exp-tag {
+  display: inline-block;
+  min-width: 2.8em;
   padding: 1px 5px;
   font-size: 9.5px;
   font-weight: 800;
   letter-spacing: 0.03em;
+  text-align: center;
   border-radius: 999px;
   cursor: help;
 }
@@ -618,15 +621,15 @@ tbody td {
 }
 
 .exp-upset {
-  color: var(--gold);
-  background: rgb(232 198 107 / 10%);
-  border: 1px solid rgb(232 198 107 / 40%);
+  color: var(--win);
+  background: rgb(25 211 154 / 10%);
+  border: 1px solid rgb(25 211 154 / 40%);
 }
 
 .exp-drop {
-  color: #f0843a;
-  background: rgb(240 132 58 / 10%);
-  border: 1px solid rgb(240 132 58 / 40%);
+  color: var(--loss);
+  background: rgb(229 83 75 / 10%);
+  border: 1px solid rgb(229 83 75 / 40%);
 }
 
 /* Partner-chemistry chips in the player modal */
