@@ -475,9 +475,10 @@ function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
 // `expectedMargin` is from computeExpectedOutcome (positive = this pair favoured).
 // `won` is whether this pair won the game.
 function renderExpectationTag(expectedMargin, won) {
-  if (expectedMargin === null || expectedMargin === 0) return '';
+  if (expectedMargin === null) return '';
   const favoured = expectedMargin > 0;
   const diff = Math.abs(expectedMargin).toFixed(1);
+  if (diff === '0.0') return '';
   if ((favoured && won) || (!favoured && !won)) {
     return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
   }
