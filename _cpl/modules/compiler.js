@@ -159,7 +159,7 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
 // expected margin (from ratings). Synergy is the shrunk average residual,
 // Σresidual / (n + PAIR_K), which pulls thin-sample pairs toward 0.
 // Returns { duos: [...n>=PAIR_MIN, sorted...], partnersByPid: { pid: [{...}] } }.
-function computePairSynergy(completed, matchupDetailsJson, ratings) {
+function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid = {}) {
   const rOf = pid => (ratings[pid] ? ratings[pid].rating : 0);
   const nameOf = {}, teamOf = {};
   const acc = {}; // "idA|idB" -> { a, b, n, sumRes, sumAct, sumExp, w }
@@ -191,7 +191,7 @@ function computePairSynergy(completed, matchupDetailsJson, ratings) {
   }
 
   const entries = Object.values(acc).map(e => ({
-    a: nameOf[e.a], b: nameOf[e.b], team: teamOf[e.a],
+    a: nameOf[e.a], b: nameOf[e.b], team: homeTeamByPid[e.a] || homeTeamByPid[e.b] || teamOf[e.a],
     n: e.n, w: e.w, l: e.n - e.w,
     synergy: Math.round(e.sumRes / (e.n + PAIR_K) * 10) / 10,
     avgActual: Math.round(e.sumAct / e.n * 10) / 10,
@@ -331,8 +331,14 @@ async function compileDashboardHtml() {
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
   const ratings = computeRatings(completed, matchupDetailsJson);
+  // Build a map of player ID -> primary (non-sub) team from the player roster so
+  // that intra-league subs are attributed to their home team in the duos table.
+  const homeTeamByPid = {};
+  for (const p of (firstValues(playerListJson) || [])) {
+    if (!p.isSub && p.playerId && p.teamName) homeTeamByPid[p.playerId] = p.teamName;
+  }
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings);
+  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
