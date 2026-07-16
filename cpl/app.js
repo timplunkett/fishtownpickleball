@@ -493,10 +493,10 @@ function renderUpsetSummary(upsetWins, upsetLosses) {
   if (!upsetWins && !upsetLosses) return '';
   const parts = [];
   if (upsetWins) {
-    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&thinsp;${upsetWins}`);
+    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&nbsp;${upsetWins}`);
   }
   if (upsetLosses) {
-    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">↓</span>&thinsp;${upsetLosses}`);
+    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">↓</span>&nbsp;${upsetLosses}`);
   }
   return ` • ${parts.join('&ensp;')}`;
 }
