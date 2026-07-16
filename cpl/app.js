@@ -478,8 +478,7 @@ function renderExpectationTag(expectedMargin, won) {
   if (expectedMargin === null) return '';
   const favoured = expectedMargin > 0;
   const diff = Math.abs(expectedMargin).toFixed(1);
-  if (diff === '0.0') return '';
-  if ((favoured && won) || (!favoured && !won)) {
+  if ((diff === '0.0') || (favoured && won) || (!favoured && !won)) {
     return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
   }
   if (!favoured && won) {
