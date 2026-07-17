@@ -946,7 +946,7 @@ function renderResultsGrid() {
     <div class="entry ${entry.win ? 'win' : 'loss'}">
       <div class="wk">Wk ${entry.week}</div>
       <div class="res">${entry.win ? 'W' : 'L'}</div>
-      <div class="sc">${entry.gf}–${entry.ga} games</div>
+      <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
       <div class="pd ${entry.pd >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.pd)}</div>
     </div>`;
 
@@ -969,7 +969,7 @@ function renderResultsGrid() {
           return `<td class="played ${className}" data-team="${slugify(row)}">${list.map(entryHtml).join('')}</td>`;
         })
         .join('');
-      return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span>${escapeHtml(row)}</th>${cells}</tr>`;
+      return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
     })
     .join('');
 

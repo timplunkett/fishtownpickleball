@@ -1103,3 +1103,52 @@ tbody td {
   color: var(--txt);
   font-size: 13px;
 }
+
+/* Head-to-head grid: full team names on desktop, short names on mobile */
+.grid-wrap th.row .abbr {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .grid-wrap th.row .full,
+  .grid-wrap .gword {
+    display: none;
+  }
+
+  .grid-wrap th.row .abbr {
+    display: inline;
+  }
+
+  .grid-wrap table {
+    border-spacing: 3px;
+  }
+
+  .grid-wrap th {
+    padding: 4px 2px;
+    font-size: 10px;
+  }
+
+  .grid-wrap td {
+    width: auto;
+    padding: 3px 1px;
+  }
+
+  .grid-wrap .gdot {
+    width: 7px;
+    height: 7px;
+    margin-right: 4px;
+  }
+
+  .grid-wrap .entry .wk {
+    font-size: 8px;
+  }
+
+  .grid-wrap .entry .res {
+    font-size: 11px;
+  }
+
+  .grid-wrap .entry .sc,
+  .grid-wrap .entry .pd {
+    font-size: 9px;
+  }
+}
