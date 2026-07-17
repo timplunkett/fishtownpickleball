@@ -198,7 +198,8 @@ function getSortValue(player, key) {
 
 function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
-  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>`;
+  const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
+  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -445,9 +446,9 @@ function renderMatchLogRows(player) {
   return player.log
     .map(
       (game) => `
-        <tr>
-          <td class="l">Wk ${game.week}</td>
-          <td class="l"><span class="teamdot" style="background:${getTeamColor(game.opp)}"></span>${game.homeAway === 'H' ? 'vs' : '@'} ${escapeHtml(game.opp)}</td>
+        <tr${game.sub ? ' class="subrow"' : ''}>
+          <td class="l">Wk ${game.week}${game.sub ? ` <span class="sub-tag" title="Intra-league sub — not counted in match totals">sub</span>` : ''}</td>
+          <td class="l"><span class="teamdot" style="background:${getTeamColor(game.opp)}"></span>${game.homeAway === 'H' ? 'vs' : '@'} ${escapeHtml(game.opp)}${game.sub && game.subFor ? ` <span class="mut">(for ${escapeHtml(game.subFor)})</span>` : ''}</td>
           <td><b>${game.w}</b>–${game.l}</td>
           <td>${game.pf}–${game.pa}</td>
           <td>${game.mx[0]}–${game.mx[1]}</td>
@@ -508,8 +509,11 @@ function renderGameLogRows(player) {
   for (const game of player.games || []) {
     if (game.wk !== lastWeek) {
       lastWeek = game.wk;
+      const subNote = game.sub && game.subFor
+        ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
+        : '';
       gameLog += `
-        <tr class="wkrow"><td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}</td></tr>
+        <tr class="wkrow"><td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
@@ -525,7 +529,7 @@ function renderGameLogRows(player) {
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
     gameLog += `
-      <tr${game.ff ? ' class="ffrow"' : ''}>
+      <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
@@ -582,7 +586,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 
@@ -714,6 +718,10 @@ function renderTeamMatchBlock(match, teamName) {
   const won = homeSide === (match.result === 'home');
 
   let upsetWins = 0, upsetLosses = 0;
+  const matchSubs = new Set(match.subs || []);
+  const formatSubAwarePlayers = (names) => names
+    .map((n) => n + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
+    .join(' &amp; ');
   const gameRows = (match.games || [])
     .map((game) => {
       const usPlayers = homeSide ? game.h : game.a;
@@ -734,7 +742,7 @@ function renderTeamMatchBlock(match, teamName) {
       return `
         <tr${game.ff ? ' class="ffrow"' : ''}>
           <td class="l"><span class="pill ${className}">${label}</span></td>
-          <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(usPlayers.join(' & '))}</td>
+          <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
           <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>

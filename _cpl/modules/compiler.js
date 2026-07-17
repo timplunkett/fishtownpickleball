@@ -236,6 +236,13 @@ async function compileDashboardHtml() {
     return teams.get(name);
   };
 
+  // Build a map of player ID -> primary (non-sub) team from the player roster so
+  // that intra-league subs are attributed to their home team in player records.
+  const homeTeamByPid = {};
+  for (const p of (firstValues(playerListJson) || [])) {
+    if (!p.isSub && p.playerId && p.teamName) homeTeamByPid[p.playerId] = p.teamName;
+  }
+
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
@@ -267,20 +274,28 @@ async function compileDashboardHtml() {
     const id2name = {};
     for (const p of ps) id2name[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
 
+    // Build per-match lookups for intra-league subs: set of IDs and map to guest team name.
+    const subPids = new Set();
+    const subForByPid = {};
+    for (const p of ps) {
+      if (p.isSub && p.gamesPlayed) { subPids.add(p.playerId); subForByPid[p.playerId] = TEAMNAME[p.teamId]; }
+    }
+
     for (const p of ps) {
       if (!p.gamesPlayed) continue;
       const pid = p.playerId;
       if (!players.has(pid)) {
         players.set(pid, {
           name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
-          team: TEAMNAME[p.teamId], matches: 0,
+          team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
+          outsideSub: !homeTeamByPid[pid],
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
         });
       }
       const P = players.get(pid);
-      P.matches++;
+      if (!p.isSub) P.matches++;
       P.gamesPlayed += p.gamesPlayed; P.wins += p.wins; P.losses += p.losses;
       P.pointsWon += p.pointsWon; P.totalPointsAgainst += p.totalPointsAgainst;
       P.mixedWins += p.mixedWins; P.mixedLosses += p.mixedLosses;
@@ -296,6 +311,7 @@ async function compileDashboardHtml() {
         mx: [p.mixedWins, p.mixedLosses], gn: [p.genderWins, p.genderLosses],
         cl: [p.clutchWins, p.clutchLosses],
         teamRes: teamWon ? "W" : "L", teamGW: mine.gw, teamGL: opp.gw,
+        sub: p.isSub ? 1 : 0, subFor: p.isSub ? TEAMNAME[p.teamId] : null,
       });
     }
 
@@ -313,6 +329,7 @@ async function compileDashboardHtml() {
           wk: M.weekNumber, opp: oppTeam, t: g.matchType,
           with: id2name[partner] || "", vs: [id2name[o1] || "", id2name[o2] || ""],
           f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
+          sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
         });
       }
     }
@@ -331,12 +348,6 @@ async function compileDashboardHtml() {
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
   const ratings = computeRatings(completed, matchupDetailsJson);
-  // Build a map of player ID -> primary (non-sub) team from the player roster so
-  // that intra-league subs are attributed to their home team in the duos table.
-  const homeTeamByPid = {};
-  for (const p of (firstValues(playerListJson) || [])) {
-    if (!p.isSub && p.playerId && p.teamName) homeTeamByPid[p.playerId] = p.teamName;
-  }
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
   const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid);
 
@@ -381,10 +392,15 @@ async function compileDashboardHtml() {
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
   const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
   const nameById = {};
+  // Build a name and sub-player lookup across all match details for the team page.
+  const subNamesByMatchupId = {};
   for (const e of matchupDetailsJson) {
+    const subs = [];
     for (const p of (e.details && e.details.matchupPlayerStats && e.details.matchupPlayerStats.$values) || []) {
       nameById[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+      if (p.isSub) subs.push(norm(`${p.firstName} ${p.lastName}`));
     }
+    if (subs.length) subNamesByMatchupId[e.matchupId] = subs;
   }
   const fmt = {};
   const ensureFmt = n => fmt[n] || (fmt[n] = { mixed: [0, 0], male: [0, 0], female: [0, 0] });
@@ -409,7 +425,7 @@ async function compileDashboardHtml() {
           a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
         });
       }
-      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist, subs: subNamesByMatchupId[m.matchupId] || [] });
     }
     matches.push(rec);
   }
