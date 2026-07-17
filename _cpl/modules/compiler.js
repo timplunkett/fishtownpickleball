@@ -288,6 +288,7 @@ async function compileDashboardHtml() {
         players.set(pid, {
           name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
           team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
+          outsideSub: !homeTeamByPid[pid],
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],

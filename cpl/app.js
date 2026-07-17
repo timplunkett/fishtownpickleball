@@ -198,7 +198,8 @@ function getSortValue(player, key) {
 
 function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
-  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>`;
+  const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
+  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${subTag}`;
 }
 
 function renderTeamCell(teamName) {
