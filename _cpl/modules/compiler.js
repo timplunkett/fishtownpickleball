@@ -278,7 +278,7 @@ async function compileDashboardHtml() {
     const subPids = new Set();
     const subForByPid = {};
     for (const p of ps) {
-      if (p.isSub) { subPids.add(p.playerId); subForByPid[p.playerId] = TEAMNAME[p.teamId]; }
+      if (p.isSub && p.gamesPlayed) { subPids.add(p.playerId); subForByPid[p.playerId] = TEAMNAME[p.teamId]; }
     }
 
     for (const p of ps) {
