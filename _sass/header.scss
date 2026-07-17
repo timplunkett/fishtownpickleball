@@ -16,3 +16,15 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    .site-logo {
+      height: 3em;
+    }
+
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+}
