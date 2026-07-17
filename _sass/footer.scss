@@ -19,15 +19,3 @@ footer * {
 .footer-col-3 {
   text-align: right;
 }
-
-@media screen and (max-width: 600px) {
-  .footer-col {
-    width: 100%;
-    text-align: center;
-    padding: 0.5em 0 !important;
-  }
-
-  .footer-col-3 {
-    text-align: center;
-  }
-}
