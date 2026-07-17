@@ -718,6 +718,21 @@ function formatMatchDate(iso) {
   return `${day} · ${time}`;
 }
 
+// Compact date (e.g. "Jul 15") for the grid's next-matchup markers.
+function formatShortDate(iso) {
+  if (!iso) {
+    return '';
+  }
+
+  const date = new Date(iso);
+
+  if (Number.isNaN(date.getTime())) {
+    return '';
+  }
+
+  return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
 function renderTeamMatchBlock(match, teamName) {
   const homeSide = match.home === teamName;
   const usPoints = homeSide ? match.homePoints : match.awayPoints;
@@ -942,12 +957,29 @@ function renderResultsGrid() {
     results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week });
   });
 
+  // Each team's next scheduled opponent, marked in that team's row.
+  const upcoming = {};
+  (DATA.matches || []).filter((match) => !match.complete).forEach((match) => {
+    [[match.home, match.away], [match.away, match.home]].forEach(([team, opponent]) => {
+      if (!upcoming[team] || match.week < upcoming[team].week) {
+        upcoming[team] = { opponent, week: match.week, time: match.time };
+      }
+    });
+  });
+
   const entryHtml = (entry) => `
     <div class="entry ${entry.win ? 'win' : 'loss'}">
       <div class="wk">Wk ${entry.week}</div>
       <div class="res">${entry.win ? 'W' : 'L'}</div>
       <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
       <div class="pd ${entry.pd >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.pd)}</div>
+    </div>`;
+
+  const nextHtml = (info) => `
+    <div class="entry next">
+      <div class="wk">Wk ${info.week}</div>
+      <div class="res">NEXT</div>
+      <div class="sc">${escapeHtml(formatShortDate(info.time))}</div>
     </div>`;
 
   const headRow = `<tr><th></th>${teams
@@ -962,11 +994,21 @@ function renderResultsGrid() {
             return '<td class="self"></td>';
           }
           const list = results[row][col].sort((a, b) => a.week - b.week);
-          if (list.length === 0) {
+          const next = upcoming[row] && upcoming[row].opponent === col ? upcoming[row] : null;
+          if (list.length === 0 && !next) {
             return '<td class="empty">—</td>';
           }
-          const className = list.length > 1 ? 'multi' : (list[0].win ? 'win' : 'loss');
-          return `<td class="played ${className}" data-team="${slugify(row)}">${list.map(entryHtml).join('')}</td>`;
+          const total = list.length + (next ? 1 : 0);
+          let className;
+          if (total > 1) {
+            className = 'multi';
+          } else if (list.length === 1) {
+            className = list[0].win ? 'win' : 'loss';
+          } else {
+            className = 'upcoming';
+          }
+          const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
+          return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
         })
         .join('');
       return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
@@ -974,7 +1016,7 @@ function renderResultsGrid() {
     .join('');
 
   elements.gridHost.innerHTML = `<table>${headRow}${bodyRows}</table>
-    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
+    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
 }
 
 function computeSwarmLayout(players, geometry) {

@@ -922,6 +922,9 @@ tbody td {
 }
 
 .grid-wrap table {
+  /* Size to content so the row-header column doesn't absorb the leftover
+     width and push the cells away from the team names. */
+  width: auto;
   border-collapse: separate;
   border-spacing: 4px;
   font-size: 13px;
@@ -972,6 +975,22 @@ tbody td {
 }
 
 .grid-wrap td.empty {
+  color: var(--mut);
+}
+
+/* Next scheduled matchup: neutral, sits where a second meeting would. */
+.grid-wrap td.upcoming {
+  background: var(--panel2);
+  border-style: dashed;
+}
+
+.grid-wrap .entry.next .res {
+  color: var(--mut);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+}
+
+.grid-wrap .entry.next .sc {
   color: var(--mut);
 }
 
@@ -1119,13 +1138,21 @@ tbody td {
     display: inline;
   }
 
+  /* Stretch to the viewport and use a fixed layout so the five opponent
+     columns stay equal width and the whole grid fits without scrolling. */
   .grid-wrap table {
+    width: 100%;
     border-spacing: 3px;
+    table-layout: fixed;
   }
 
   .grid-wrap th {
     padding: 4px 2px;
     font-size: 10px;
+  }
+
+  .grid-wrap th.row {
+    width: 58px;
   }
 
   .grid-wrap td {
