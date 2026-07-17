@@ -9,7 +9,7 @@ const TEAM_COLORS = Object.freeze({
 });
 const HIGHLIGHTED_PLAYER = '';
 const EMPTY_VALUE = '—';
-const DEFAULT_SORT = Object.freeze({ key: 'winPct', direction: -1 });
+const DEFAULT_SORT = Object.freeze({ key: 'rating', direction: -1 });
 const COLUMNS = Object.freeze([
   { key: 'name', label: 'Player', align: 'left' },
   { key: 'team', label: 'Team', align: 'left' },
