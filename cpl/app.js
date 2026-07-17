@@ -294,14 +294,14 @@ function getFilteredPlayers() {
   const query = elements.search.value.trim().toLowerCase();
   const teamFilter = elements.team.value;
   const genderFilter = elements.gender.value;
-  const minimumGames = Number(elements.minGames.value);
+  const minimumMatches = Number(elements.minGames.value);
 
   return DATA.players.filter(
     (player) =>
       (!query || player.name.toLowerCase().includes(query)) &&
       (!teamFilter || player.team === teamFilter) &&
       (!genderFilter || player.gender === genderFilter) &&
-      player.gamesPlayed >= minimumGames,
+      player.matches >= minimumMatches,
   );
 }
 
