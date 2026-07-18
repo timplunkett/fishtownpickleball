@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DEFAULT_OUT = path.join(__dirname, '../../cpl/data.js');
+const OUT = path.join(__dirname, '../../cpl/data.js');
 
 const round1 = n => Math.round(n * 10) / 10;
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
@@ -211,18 +211,16 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
   return { duos, partnersByPid };
 }
 
-async function compileDashboardHtml(options = {}) {
-  const outputPath = options.outputPath || DEFAULT_OUT;
+async function compileDashboardHtml() {
   console.log('\n--- Phase 2: Processing Stats & Building View ---');
   console.log('Loading local JSON caches from disk...');
 
   const dataDir = path.join(__dirname, '../data');
   const feed = JSON.parse(fs.readFileSync(path.join(dataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8"));
+  const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
 
-  const defaultMatchups = (feed.$values || firstValues(feed) || []);
-  const matchups = Array.isArray(options.matchupsOverride) ? options.matchupsOverride : defaultMatchups;
-  const matchupDetailsJson = Array.isArray(options.matchupDetailsOverride) ? options.matchupDetailsOverride : JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
+  const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult);
   console.log(`Processing stats for ${completed.length} completed matches.`);
 
@@ -237,12 +235,6 @@ async function compileDashboardHtml(options = {}) {
     if (!teams.has(name)) teams.set(name, { name, w: 0, l: 0, pf: 0, pa: 0, gw: 0, gl: 0 });
     return teams.get(name);
   };
-
-  // Seed all scheduled teams so every team appears in standings even before their first match.
-  for (const mu of matchups) {
-    if (mu.homeName) ensureTeam(mu.homeName);
-    if (mu.awayName) ensureTeam(mu.awayName);
-  }
 
   // Build a map of player ID -> primary (non-sub) team from the player roster so
   // that intra-league subs are attributed to their home team in player records.
@@ -450,8 +442,8 @@ async function compileDashboardHtml(options = {}) {
     },
   };
 
-  fs.writeFileSync(outputPath, "const DATA = " + JSON.stringify(DATA) + ";");
-  console.log(`✓ data.js written to ${outputPath}`);
+  fs.writeFileSync(OUT, "const DATA = " + JSON.stringify(DATA) + ";");
+  console.log(`✓ data.js written to ${OUT}`);
 }
 
 module.exports = { compileDashboardHtml };
