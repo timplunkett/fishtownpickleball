@@ -953,6 +953,7 @@ tbody td {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
+  overflow: clip;
 }
 
 .grid-wrap td.played {
@@ -964,14 +965,22 @@ tbody td {
   border-style: dashed;
 }
 
+.grid-wrap td.win-multi,
 .grid-wrap td.win {
-  background: rgb(25 211 154 / 14%);
-  border-color: rgb(25 211 154 / 40%);
+  border-color: color-mix(in srgb, var(--win) 40%, transparent);
+}
+.grid-wrap td.win-multi .entry.win,
+.grid-wrap td.win {
+  background: color-mix(in srgb, var(--win) 14%, transparent);
 }
 
+.grid-wrap td.loss-multi,
 .grid-wrap td.loss {
-  background: rgb(229 83 75 / 13%);
-  border-color: rgb(229 83 75 / 38%);
+  border-color: color-mix(in srgb, var(--loss) 40%, transparent);
+}
+.grid-wrap td.loss-multi .entry.loss,
+.grid-wrap td.loss {
+  background: color-mix(in srgb, var(--loss) 14%, transparent);
 }
 
 .grid-wrap td.empty {
@@ -995,7 +1004,8 @@ tbody td {
 }
 
 .grid-wrap .entry {
-  padding: 2px 0;
+  padding: 12px 0 6px;
+  margin: -10px -4px -4px;
 }
 
 .grid-wrap .entry + .entry {

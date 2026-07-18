@@ -1000,12 +1000,13 @@ function renderResultsGrid() {
           }
           const total = list.length + (next ? 1 : 0);
           let className;
-          if (total > 1) {
-            className = 'multi';
-          } else if (list.length === 1) {
+          if (list.length === 1) {
             className = list[0].win ? 'win' : 'loss';
           } else {
             className = 'upcoming';
+          }
+          if (total > 1) {
+            className += '-multi';
           }
           const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
           return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
