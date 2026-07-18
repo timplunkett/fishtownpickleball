@@ -219,10 +219,10 @@ async function compileDashboardHtml(options = {}) {
   const dataDir = path.join(__dirname, '../data');
   const feed = JSON.parse(fs.readFileSync(path.join(dataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8"));
-  const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
 
   const defaultMatchups = (feed.$values || firstValues(feed) || []);
   const matchups = Array.isArray(options.matchupsOverride) ? options.matchupsOverride : defaultMatchups;
+  const matchupDetailsJson = Array.isArray(options.matchupDetailsOverride) ? options.matchupDetailsOverride : JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
   const completed = matchups.filter(m => m.endResult);
   console.log(`Processing stats for ${completed.length} completed matches.`);
 
@@ -237,6 +237,12 @@ async function compileDashboardHtml(options = {}) {
     if (!teams.has(name)) teams.set(name, { name, w: 0, l: 0, pf: 0, pa: 0, gw: 0, gl: 0 });
     return teams.get(name);
   };
+
+  // Seed all scheduled teams so every team appears in standings even before their first match.
+  for (const mu of matchups) {
+    if (mu.homeName) ensureTeam(mu.homeName);
+    if (mu.awayName) ensureTeam(mu.awayName);
+  }
 
   // Build a map of player ID -> primary (non-sub) team from the player roster so
   // that intra-league subs are attributed to their home team in player records.
