@@ -4,7 +4,8 @@
   "scripts": {
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint cpl/app.js _cpl/**/*.js",
-    "lint:fix": "npm run lint:eslint -- --fix"
+    "lint:fix": "npm run lint:eslint -- --fix",
+    "generate:test-data": "node _cpl/generate-test-data.js"
   },
   "repository": {
     "type": "git",

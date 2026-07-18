@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const OUT = path.join(__dirname, '../../cpl/data.js');
+const DEFAULT_OUT = path.join(__dirname, '../../cpl/data.js');
 
 const round1 = n => Math.round(n * 10) / 10;
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
@@ -211,7 +211,8 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
   return { duos, partnersByPid };
 }
 
-async function compileDashboardHtml() {
+async function compileDashboardHtml(options = {}) {
+  const outputPath = options.outputPath || DEFAULT_OUT;
   console.log('\n--- Phase 2: Processing Stats & Building View ---');
   console.log('Loading local JSON caches from disk...');
 
@@ -220,7 +221,8 @@ async function compileDashboardHtml() {
   const playerListJson = JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
 
-  const matchups = (feed.$values || firstValues(feed) || []);
+  const defaultMatchups = (feed.$values || firstValues(feed) || []);
+  const matchups = Array.isArray(options.matchupsOverride) ? options.matchupsOverride : defaultMatchups;
   const completed = matchups.filter(m => m.endResult);
   console.log(`Processing stats for ${completed.length} completed matches.`);
 
@@ -442,8 +444,8 @@ async function compileDashboardHtml() {
     },
   };
 
-  fs.writeFileSync(OUT, "const DATA = " + JSON.stringify(DATA) + ";");
-  console.log(`✓ data.js written to ${OUT}`);
+  fs.writeFileSync(outputPath, "const DATA = " + JSON.stringify(DATA) + ";");
+  console.log(`✓ data.js written to ${outputPath}`);
 }
 
 module.exports = { compileDashboardHtml };
