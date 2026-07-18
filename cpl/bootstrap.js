@@ -21,9 +21,5 @@
 
   const loadApp = () => loadScript('app.js');
 
-  loadScript(selected, loadApp, () => {
-    if (selected !== 'data.js') {
-      loadScript('data.js', loadApp);
-    }
-  });
+  loadScript(selected, loadApp, () => loadScript('data.js', loadApp));
 })();
