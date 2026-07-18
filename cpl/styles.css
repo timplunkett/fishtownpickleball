@@ -915,3 +915,277 @@ tbody td {
     padding: 16px 12px;
   }
 }
+
+/* Head-to-head results grid */
+.grid-wrap {
+  overflow-x: auto;
+}
+
+.grid-wrap table {
+  /* Size to content so the row-header column doesn't absorb the leftover
+     width and push the cells away from the team names. */
+  width: auto;
+  border-collapse: separate;
+  border-spacing: 4px;
+  font-size: 13px;
+}
+
+.grid-wrap th {
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.grid-wrap th.col {
+  text-align: center;
+}
+
+.grid-wrap th.row {
+  text-align: left;
+}
+
+.grid-wrap td {
+  width: 98px;
+  padding: 5px 3px;
+  text-align: center;
+  vertical-align: middle;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: clip;
+}
+
+.grid-wrap td.played {
+  cursor: pointer;
+}
+
+.grid-wrap td.self {
+  background: repeating-linear-gradient(45deg, transparent, transparent 5px, var(--panel2) 5px, var(--panel2) 10px);
+  border-style: dashed;
+}
+
+.grid-wrap td.win-multi,
+.grid-wrap td.win {
+  border-color: color-mix(in srgb, var(--win) 40%, transparent);
+}
+.grid-wrap td.win-multi .entry.win,
+.grid-wrap td.win {
+  background: color-mix(in srgb, var(--win) 14%, transparent);
+}
+
+.grid-wrap td.loss-multi,
+.grid-wrap td.loss {
+  border-color: color-mix(in srgb, var(--loss) 40%, transparent);
+}
+.grid-wrap td.loss-multi .entry.loss,
+.grid-wrap td.loss {
+  background: color-mix(in srgb, var(--loss) 14%, transparent);
+}
+
+.grid-wrap td.empty {
+  color: var(--mut);
+}
+
+/* Next scheduled matchup: neutral, sits where a second meeting would. */
+.grid-wrap td.upcoming {
+  background: var(--panel2);
+  border-style: dashed;
+}
+
+.grid-wrap .entry.next .res {
+  color: var(--mut);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+}
+
+.grid-wrap .entry.next .sc {
+  color: var(--mut);
+}
+
+.grid-wrap .entry {
+  padding: 12px 0 6px;
+  margin: -10px -4px -4px;
+}
+
+.grid-wrap .entry + .entry {
+  margin-top: 3px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+}
+
+.grid-wrap .entry .wk {
+  color: var(--mut);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.grid-wrap .entry .res {
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.grid-wrap .entry.win .res {
+  color: var(--win);
+}
+
+.grid-wrap .entry.loss .res {
+  color: var(--loss);
+}
+
+.grid-wrap .entry .sc {
+  color: var(--mut);
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.grid-wrap .entry .pd {
+  font-size: 10px;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.grid-wrap .gdot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.grid-cap {
+  max-width: 780px;
+  margin: 8px 2px 0;
+  color: var(--mut);
+  font-size: 11.5px;
+  line-height: 1.5;
+}
+
+.grid-cap b {
+  color: var(--txt);
+}
+
+/* Rating distribution beeswarm */
+.swarm-panel {
+  padding: 14px 16px;
+  overflow: visible;
+}
+
+.swarm-host {
+  position: relative;
+}
+
+.swarm-host svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.swarm-dot {
+  cursor: pointer;
+}
+
+.swarm-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 8px 2px 0;
+  color: var(--mut);
+  font-size: 12px;
+}
+
+.swarm-legend span {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.swarm-legend i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+}
+
+.swarm-tip {
+  position: absolute;
+  z-index: 5;
+  padding: 7px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.swarm-tip b {
+  color: var(--txt);
+  font-size: 13px;
+}
+
+/* Head-to-head grid: full team names on desktop, short names on mobile */
+.grid-wrap th.row .abbr {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .grid-wrap th.row .full,
+  .grid-wrap .gword {
+    display: none;
+  }
+
+  .grid-wrap th.row .abbr {
+    display: inline;
+  }
+
+  /* Stretch to the viewport and use a fixed layout so the five opponent
+     columns stay equal width and the whole grid fits without scrolling. */
+  .grid-wrap table {
+    width: 100%;
+    border-spacing: 3px;
+    table-layout: fixed;
+  }
+
+  .grid-wrap th {
+    padding: 4px 2px;
+    font-size: 10px;
+  }
+
+  .grid-wrap th.row {
+    width: 58px;
+  }
+
+  .grid-wrap td {
+    width: auto;
+    padding: 3px 1px;
+  }
+
+  .grid-wrap .gdot {
+    width: 7px;
+    height: 7px;
+    margin-right: 4px;
+  }
+
+  .grid-wrap .entry .wk {
+    font-size: 8px;
+  }
+
+  .grid-wrap .entry .res {
+    font-size: 11px;
+  }
+
+  .grid-wrap .entry .sc,
+  .grid-wrap .entry .pd {
+    font-size: 9px;
+  }
+}

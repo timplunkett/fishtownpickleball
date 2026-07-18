@@ -45,6 +45,7 @@ const elements = {
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
+  gridHost: getRequiredElement('grid-host'),
   head: getRequiredElement('head'),
   mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
@@ -55,10 +56,19 @@ const elements = {
   playerCount: getRequiredElement('plabel'),
   search: getRequiredElement('search'),
   subhead: getRequiredElement('sub'),
+  swarmHost: getRequiredElement('swarm-host'),
   team: getRequiredElement('team'),
   teams: getRequiredElement('teams'),
   teamView: getRequiredElement('teamview'),
 };
+
+const TEAM_ABBR = Object.freeze({
+  'Balls of Fury': 'Fury',
+  Baggers: 'Baggers',
+  'License to Dill': 'Dill',
+  'Picholas Cage': 'Cage',
+  'Kitchen Nightmares': 'KN',
+});
 
 // Build a name → rating lookup from DATA (data.js loads before app.js).
 const playerRatingByName = Object.fromEntries(
@@ -708,6 +718,21 @@ function formatMatchDate(iso) {
   return `${day} · ${time}`;
 }
 
+// Compact date (e.g. "Jul 15") for the grid's next-matchup markers.
+function formatShortDate(iso) {
+  if (!iso) {
+    return '';
+  }
+
+  const date = new Date(iso);
+
+  if (Number.isNaN(date.getTime())) {
+    return '';
+  }
+
+  return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
 function renderTeamMatchBlock(match, teamName) {
   const homeSide = match.home === teamName;
   const usPoints = homeSide ? match.homePoints : match.awayPoints;
@@ -921,17 +946,211 @@ function handlePartnerChipClick(event) {
   }
 }
 
+function renderResultsGrid() {
+  const teams = DATA.teams.map((team) => team.name);
+  const abbr = (name) => TEAM_ABBR[name] || name;
+  const results = {};
+  teams.forEach((row) => { results[row] = {}; teams.forEach((col) => { results[row][col] = []; }); });
+  (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
+    const homeWon = match.result === 'home';
+    results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week });
+    results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week });
+  });
+
+  // Each team's next scheduled opponent, marked in that team's row.
+  const upcoming = {};
+  (DATA.matches || []).filter((match) => !match.complete).forEach((match) => {
+    [[match.home, match.away], [match.away, match.home]].forEach(([team, opponent]) => {
+      if (!upcoming[team] || match.week < upcoming[team].week) {
+        upcoming[team] = { opponent, week: match.week, time: match.time };
+      }
+    });
+  });
+
+  const entryHtml = (entry) => `
+    <div class="entry ${entry.win ? 'win' : 'loss'}">
+      <div class="wk">Wk ${entry.week}</div>
+      <div class="res">${entry.win ? 'W' : 'L'}</div>
+      <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
+      <div class="pd ${entry.pd >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.pd)}</div>
+    </div>`;
+
+  const nextHtml = (info) => `
+    <div class="entry next">
+      <div class="wk">Wk ${info.week}</div>
+      <div class="res">NEXT</div>
+      <div class="sc">${escapeHtml(formatShortDate(info.time))}</div>
+    </div>`;
+
+  const headRow = `<tr><th></th>${teams
+    .map((col) => `<th class="col"><span class="gdot" style="background:${getTeamColor(col)}"></span>${escapeHtml(abbr(col))}</th>`)
+    .join('')}</tr>`;
+
+  const bodyRows = teams
+    .map((row) => {
+      const cells = teams
+        .map((col) => {
+          if (row === col) {
+            return '<td class="self"></td>';
+          }
+          const list = results[row][col].sort((a, b) => a.week - b.week);
+          const next = upcoming[row] && upcoming[row].opponent === col ? upcoming[row] : null;
+          if (list.length === 0 && !next) {
+            return '<td class="empty">—</td>';
+          }
+          const total = list.length + (next ? 1 : 0);
+          let className;
+          if (list.length === 1) {
+            className = list[0].win ? 'win' : 'loss';
+          } else {
+            className = 'upcoming';
+          }
+          if (total > 1) {
+            className += '-multi';
+          }
+          const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
+          return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
+        })
+        .join('');
+      return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
+    })
+    .join('');
+
+  elements.gridHost.innerHTML = `<table>${headRow}${bodyRows}</table>
+    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
+}
+
+function computeSwarmLayout(players, geometry) {
+  const { xScale, cy, top, bottom, radius } = geometry;
+  const minDist = 2 * radius + 1; // required center-to-center distance between dots
+  const nodes = players
+    .slice()
+    .sort((a, b) => a.rating - b.rating)
+    .map((player) => ({ player, x: xScale(player.rating), y: cy }));
+  const placed = [];
+  const overlaps = (x, y) => placed.some((other) => {
+    const dx = other.x - x;
+    const dy = other.y - y;
+    return dx * dx + dy * dy < minDist * minDist;
+  });
+  nodes.forEach((node) => {
+    // Scan outward from the centre line in 1px steps for the closest free slot.
+    let best = cy;
+    for (let offset = 0; offset <= (bottom - top) / 2; offset += 1) {
+      const candidates = offset === 0 ? [cy] : [cy - offset, cy + offset];
+      const slot = candidates.find((y) => y >= top + radius && y <= bottom - radius && !overlaps(node.x, y));
+      if (slot !== undefined) {
+        best = slot;
+        break;
+      }
+    }
+    node.y = best;
+    placed.push(node);
+  });
+  return placed;
+}
+
+function renderBeeswarm() {
+  const players = DATA.players.filter((player) => player.rating != null);
+  const W = 720, H = 250, left = 34, right = 34, top = 14, bottom = 40;
+  const cy = (top + (H - bottom)) / 2;
+  const domainMin = -5, domainMax = 5;
+  const xScale = (value) => left + ((value - domainMin) / (domainMax - domainMin)) * (W - left - right);
+  const radius = 5.4;
+  const placed = computeSwarmLayout(players, { xScale, cy, top, bottom: H - bottom, radius });
+
+  let gridlines = '';
+  for (let tick = -4; tick <= 4; tick += 1) {
+    const x = xScale(tick);
+    const zero = tick === 0;
+    gridlines += `<line x1="${x}" y1="${top}" x2="${x}" y2="${H - bottom}" stroke="var(--line)" stroke-width="${zero ? 1.4 : 1}"${zero ? '' : ' stroke-dasharray="2 4"'} opacity="${zero ? 0.9 : 0.5}"/>`;
+    gridlines += `<text x="${x}" y="${H - bottom + 18}" text-anchor="middle" font-size="11" fill="var(--mut)">${tick > 0 ? '+' : ''}${tick}</text>`;
+  }
+  const avgLabel = `<text x="${xScale(0)}" y="${H - bottom + 33}" text-anchor="middle" font-size="10.5" fill="var(--mut)">league average</text>`;
+  const axisLabel = `<text x="${W - right}" y="${top - 3}" text-anchor="end" font-size="10.5" fill="var(--mut)">Rating (net points / game)</text>`;
+
+  const dots = placed
+    .map((node) => {
+      const { player } = node;
+      const opacity = (0.5 + 0.5 * (player.confidence / 100)).toFixed(2);
+      return `<circle class="swarm-dot" data-name="${escapeHtml(player.name)}" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
+    })
+    .join('');
+
+  const legend = DATA.teams
+    .map((team) => `<span><i style="background:${getTeamColor(team.name)}"></i>${escapeHtml(team.name)}</span>`)
+    .join('');
+
+  elements.swarmHost.innerHTML = `
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Distribution of player ratings, one dot per player, colored by team">
+      ${gridlines}${avgLabel}${axisLabel}${dots}
+    </svg>
+    <div class="swarm-legend">${legend}</div>
+    <div class="swarm-tip" id="swarm-tip"></div>`;
+}
+
+function handleGridClick(event) {
+  const cell = event.target.closest('td.played');
+  if (cell?.dataset.team) {
+    window.location.hash = `#team/${cell.dataset.team}`;
+  }
+}
+
+function handleSwarmClick(event) {
+  const dot = event.target.closest('.swarm-dot');
+  if (dot?.dataset.name) {
+    openPlayer(dot.dataset.name);
+  }
+}
+
+function handleSwarmOver(event) {
+  const dot = event.target.closest('.swarm-dot');
+  const tip = document.getElementById('swarm-tip');
+  if (!dot || !tip) {
+    return;
+  }
+  const player = DATA.players.find((candidate) => candidate.name === dot.dataset.name);
+  if (!player) {
+    return;
+  }
+  const ratingColor = player.rating >= 0 ? 'var(--win)' : 'var(--loss)';
+  tip.innerHTML =
+    `<b>${escapeHtml(player.name)}</b><br>` +
+    `<span style="color:${ratingColor};font-weight:700">${formatSignedValue(player.rating, 1)}</span> pts/game · ${player.confidence}% conf<br>` +
+    `<span style="color:var(--mut)">${escapeHtml(player.team)}</span>`;
+  const host = elements.swarmHost.getBoundingClientRect();
+  const rect = dot.getBoundingClientRect();
+  tip.style.left = `${rect.left - host.left + rect.width / 2}px`;
+  tip.style.top = `${rect.top - host.top - tip.offsetHeight - 8}px`;
+  tip.style.opacity = '1';
+}
+
+function handleSwarmOut(event) {
+  if (event.target.closest('.swarm-dot')) {
+    const tip = document.getElementById('swarm-tip');
+    if (tip) {
+      tip.style.opacity = '0';
+    }
+  }
+}
+
 function initialize() {
   renderSummary();
   renderTeams();
+  renderResultsGrid();
   renderTeamFilterOptions();
   renderTableHead();
   renderDuos();
+  renderBeeswarm();
 
   elements.head.addEventListener('click', handleColumnSort);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
+  elements.gridHost.addEventListener('click', handleGridClick);
   elements.duoBody.addEventListener('click', handleDuoClick);
+  elements.swarmHost.addEventListener('click', handleSwarmClick);
+  elements.swarmHost.addEventListener('mouseover', handleSwarmOver);
+  elements.swarmHost.addEventListener('mouseout', handleSwarmOut);
   elements.modalHead.addEventListener('click', handlePartnerChipClick);
   elements.modalClose.addEventListener('click', closeModal);
   elements.overlay.addEventListener('click', handleOverlayClick);
