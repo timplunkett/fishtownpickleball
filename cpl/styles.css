@@ -556,13 +556,6 @@ tbody td {
   color: var(--gold);
 }
 
-.glog tr.wkrow-projected td.projected-match-label {
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-align: center;
-}
-
 .glog td {
   font-size: 12.5px;
 }
