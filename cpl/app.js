@@ -498,6 +498,19 @@ function renderExpectationTag(expectedMargin, won) {
   return ` <span class="exp-tag exp-drop" title="Upset loss — despite a ${diff} pt/game pair-rating advantage">↓</span>`;
 }
 
+function describeProjectedOutcome(expectedMargin) {
+  if (expectedMargin === null) {
+    return { resultClass: 'mut', label: '—' };
+  }
+  if (expectedMargin > 0) {
+    return { resultClass: 'res-W', label: `Proj W (${formatSignedValue(expectedMargin, 1)})` };
+  }
+  if (expectedMargin < 0) {
+    return { resultClass: 'res-L', label: `Proj L (${formatSignedValue(expectedMargin, 1)})` };
+  }
+  return { resultClass: 'mut', label: 'Even (0.0)' };
+}
+
 // Returns an inline HTML fragment summarising upset wins/losses for a set of
 // games, e.g. "• ↑ 2  ↓ 1". Returns '' when there are no upsets to report.
 function renderUpsetSummary(upsetWins, upsetLosses) {
@@ -538,6 +551,7 @@ function renderGameLogRows(player) {
       ? null
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
+    const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
@@ -545,6 +559,7 @@ function renderGameLogRows(player) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${projection.resultClass}">${projection.label}</td>
       </tr>
     `;
   }
@@ -592,11 +607,12 @@ function renderModalBody(player) {
           <th class="l">Opponents</th>
           <th>Score</th>
           <th>Result</th>
+          <th>Projection</th>
         </tr>
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based: <b>Proj W/L</b> is the expected winner and the value in parentheses is expected pair-rating margin (pts/game); <b>Even</b> means neutral. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 
