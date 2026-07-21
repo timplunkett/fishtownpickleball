@@ -569,19 +569,19 @@ function describeProjectedOutcome(expectedMargin) {
 }
 
 // Returns an inline HTML fragment summarising expected and upset outcomes for
-// rated games, e.g. "• exp 3  ↑ 2  ↓ 1". Returns '' when there are no rated
+// rated games, e.g. "• ↑ 2  ↓ 1  exp 3". Returns '' when there are no rated
 // games to report.
 function renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses) {
   if (!expectedOutcomes && !upsetWins && !upsetLosses) return '';
   const parts = [];
-  if (expectedOutcomes) {
-    parts.push(`<span class="exp-tag exp-met" title="Expected outcomes (rating-based favorite won)">exp</span>&nbsp;${expectedOutcomes}`);
-  }
   if (upsetWins) {
     parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&nbsp;${upsetWins}`);
   }
   if (upsetLosses) {
     parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">↓</span>&nbsp;${upsetLosses}`);
+  }
+  if (expectedOutcomes) {
+    parts.push(`<span class="exp-tag exp-met" title="Expected outcomes (rating-based favorite won)">exp</span>&nbsp;${expectedOutcomes}`);
   }
   return ` • ${parts.join('&ensp;')}`;
 }
