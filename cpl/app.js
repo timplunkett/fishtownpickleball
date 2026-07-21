@@ -722,7 +722,15 @@ function renderModalBody(player) {
   `;
 }
 
-function openPlayer(name) {
+function showModal() {
+  elements.overlay.hidden = false;
+}
+
+function hideModal() {
+  elements.overlay.hidden = true;
+}
+
+function showPlayerModal(name) {
   const player = DATA.players.find((candidate) => candidate.name === name);
 
   if (!player) {
@@ -731,11 +739,19 @@ function openPlayer(name) {
 
   elements.modalHead.innerHTML = renderModalHeader(player);
   elements.modalBody.innerHTML = renderModalBody(player);
-  elements.overlay.hidden = false;
+  showModal();
+}
+
+function openPlayer(name) {
+  window.location.hash = `#player/${slugify(name)}`;
 }
 
 function closeModal() {
-  elements.overlay.hidden = true;
+  if ((window.location.hash || '').startsWith('#player/')) {
+    history.back();
+  } else {
+    hideModal();
+  }
 }
 
 function handleColumnSort(event) {
@@ -1086,14 +1102,28 @@ function showMainView() {
 }
 
 function handleRoute() {
-  const routeMatch = (window.location.hash || '').match(/^#team\/(.+)$/);
+  const hash = window.location.hash || '';
+  const teamMatch = hash.match(/^#team\/(.+)$/);
+  const playerMatch = hash.match(/^#player\/(.+)$/);
 
-  if (routeMatch) {
-    const slug = decodeURIComponent(routeMatch[1]);
+  hideModal();
+
+  if (teamMatch) {
+    const slug = decodeURIComponent(teamMatch[1]);
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
 
     if (team) {
       renderTeamPage(team);
+      return;
+    }
+  }
+
+  if (playerMatch) {
+    const slug = decodeURIComponent(playerMatch[1]);
+    const player = DATA.players.find((candidate) => slugify(candidate.name) === slug);
+
+    if (player) {
+      showPlayerModal(player.name);
       return;
     }
   }
