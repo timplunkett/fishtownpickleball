@@ -733,6 +733,14 @@ function renderModalBody(player) {
   `;
 }
 
+function showModal() {
+  elements.overlay.hidden = false;
+}
+
+function hideModal() {
+  elements.overlay.hidden = true;
+}
+
 function showPlayerModal(name) {
   const player = DATA.players.find((candidate) => candidate.name === name);
 
@@ -742,7 +750,7 @@ function showPlayerModal(name) {
 
   elements.modalHead.innerHTML = renderModalHeader(player);
   elements.modalBody.innerHTML = renderModalBody(player);
-  elements.overlay.hidden = false;
+  showModal();
 }
 
 function openPlayer(name) {
@@ -753,7 +761,7 @@ function closeModal() {
   if ((window.location.hash || '').startsWith('#player/')) {
     history.back();
   } else {
-    elements.overlay.hidden = true;
+    hideModal();
   }
 }
 
@@ -1116,12 +1124,13 @@ function handleRoute() {
   const teamMatch = hash.match(/^#team\/(.+)$/);
   const playerMatch = hash.match(/^#player\/(.+)$/);
 
+  hideModal();
+
   if (teamMatch) {
     const slug = decodeURIComponent(teamMatch[1]);
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
 
     if (team) {
-      elements.overlay.hidden = true;
       renderTeamPage(team);
       return;
     }
@@ -1137,7 +1146,6 @@ function handleRoute() {
     }
   }
 
-  elements.overlay.hidden = true;
   showMainView();
 }
 
