@@ -722,7 +722,7 @@ function renderModalBody(player) {
   `;
 }
 
-function openPlayer(name) {
+function showPlayerModal(name) {
   const player = DATA.players.find((candidate) => candidate.name === name);
 
   if (!player) {
@@ -734,8 +734,16 @@ function openPlayer(name) {
   elements.overlay.hidden = false;
 }
 
+function openPlayer(name) {
+  window.location.hash = `#player/${slugify(name)}`;
+}
+
 function closeModal() {
-  elements.overlay.hidden = true;
+  if ((window.location.hash || '').startsWith('#player/')) {
+    history.back();
+  } else {
+    elements.overlay.hidden = true;
+  }
 }
 
 function handleColumnSort(event) {
@@ -1086,18 +1094,32 @@ function showMainView() {
 }
 
 function handleRoute() {
-  const routeMatch = (window.location.hash || '').match(/^#team\/(.+)$/);
+  const hash = window.location.hash || '';
+  const teamMatch = hash.match(/^#team\/(.+)$/);
+  const playerMatch = hash.match(/^#player\/(.+)$/);
 
-  if (routeMatch) {
-    const slug = decodeURIComponent(routeMatch[1]);
+  if (teamMatch) {
+    const slug = decodeURIComponent(teamMatch[1]);
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
 
     if (team) {
+      elements.overlay.hidden = true;
       renderTeamPage(team);
       return;
     }
   }
 
+  if (playerMatch) {
+    const slug = decodeURIComponent(playerMatch[1]);
+    const player = DATA.players.find((candidate) => slugify(candidate.name) === slug);
+
+    if (player) {
+      showPlayerModal(player.name);
+      return;
+    }
+  }
+
+  elements.overlay.hidden = true;
   showMainView();
 }
 
