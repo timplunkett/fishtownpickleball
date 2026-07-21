@@ -32,6 +32,11 @@ const GAME_TYPE_LABELS = Object.freeze({
   female: ['W', 't-female'],
   male: ['M', 't-male'],
 });
+const RESULT_CLASS = Object.freeze({
+  win: 'res-W',
+  loss: 'res-L',
+  neutral: 'mut',
+});
 const HTML_ESCAPE_MAP = Object.freeze({
   '&': '&amp;',
   '<': '&lt;',
@@ -117,6 +122,10 @@ function formatSignedValue(value, digits) {
 function formatDiffSpan(value) {
   const className = value >= 0 ? 'pos-diff' : 'neg-diff';
   return `<span class="${className}">${formatSignedValue(value)}</span>`;
+}
+
+function getWinLossClass(won) {
+  return won ? RESULT_CLASS.win : RESULT_CLASS.loss;
 }
 
 function pluralize(count, singular, plural = `${singular}s`) {
@@ -498,6 +507,44 @@ function renderExpectationTag(expectedMargin, won) {
   return ` <span class="exp-tag exp-drop" title="Upset loss — despite a ${diff} pt/game pair-rating advantage">↓</span>`;
 }
 
+function describeProjectedOutcome(expectedMargin) {
+  if (expectedMargin === null) {
+    return {
+      outcome: 'unrated',
+      resultClass: RESULT_CLASS.neutral,
+      marginLabel: EMPTY_VALUE,
+      resultLabel: '—',
+      displayLabel: '—',
+    };
+  }
+  const marginLabel = formatSignedValue(expectedMargin, 1);
+  if (expectedMargin > 0) {
+    return {
+      outcome: 'win',
+      resultClass: RESULT_CLASS.win,
+      marginLabel,
+      resultLabel: 'Proj W',
+      displayLabel: `Proj W (${marginLabel})`,
+    };
+  }
+  if (expectedMargin < 0) {
+    return {
+      outcome: 'loss',
+      resultClass: RESULT_CLASS.loss,
+      marginLabel,
+      resultLabel: 'Proj L',
+      displayLabel: `Proj L (${marginLabel})`,
+    };
+  }
+  return {
+    outcome: 'tie',
+    resultClass: RESULT_CLASS.neutral,
+    marginLabel,
+    resultLabel: 'Even',
+    displayLabel: 'Even (0.0)',
+  };
+}
+
 // Returns an inline HTML fragment summarising upset wins/losses for a set of
 // games, e.g. "• ↑ 2  ↓ 1". Returns '' when there are no upsets to report.
 function renderUpsetSummary(upsetWins, upsetLosses) {
@@ -512,7 +559,32 @@ function renderUpsetSummary(upsetWins, upsetLosses) {
   return ` • ${parts.join('&ensp;')}`;
 }
 
-function renderGameLogRows(player) {
+function getProjectedPlayerGames(player) {
+  const projectedGames = [];
+  for (const match of DATA.matches || []) {
+    if (match.complete || !(match.games || []).length) continue;
+    for (const game of match.games || []) {
+      const playerOnHomeSide = game.h?.includes(player.name);
+      const playerOnAwaySide = game.a?.includes(player.name);
+      if (!playerOnHomeSide && !playerOnAwaySide) continue;
+      const usPlayers = playerOnHomeSide ? game.h : game.a;
+      const themPlayers = playerOnHomeSide ? game.a : game.h;
+      const partner = usPlayers[0] === player.name ? usPlayers[1] : usPlayers[0];
+      projectedGames.push({
+        wk: match.week,
+        opp: playerOnHomeSide ? match.away : match.home,
+        t: game.t,
+        with: partner || '',
+        vs: [themPlayers[0] || '', themPlayers[1] || ''],
+        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+      });
+    }
+  }
+  projectedGames.sort((a, b) => a.wk - b.wk);
+  return projectedGames;
+}
+
+function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
 
@@ -523,12 +595,12 @@ function renderGameLogRows(player) {
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
       gameLog += `
-        <tr class="wkrow"><td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
+        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
     const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-    const resultClass = game.w ? 'res-W' : 'res-L';
+    const resultClass = getWinLossClass(game.w);
     const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
     const partnerCell = game.ff
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
@@ -538,6 +610,7 @@ function renderGameLogRows(player) {
       ? null
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
+    const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
@@ -545,6 +618,31 @@ function renderGameLogRows(player) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
+      </tr>
+    `;
+  }
+
+  for (const game of projectedGames) {
+    if (game.wk !== lastWeek) {
+      lastWeek = game.wk;
+      gameLog += `
+        <tr class="wkrow wkrow-projected">
+          <td colspan="6" class="l"><span class="mut">(projected)</span> Week ${game.wk} • vs ${escapeHtml(game.opp)}</td>
+        </tr>
+      `;
+    }
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    const projection = describeProjectedOutcome(game.expectedMargin);
+    gameLog += `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(game.with)}</td>
+        <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
+        <td class="mut">${EMPTY_VALUE}</td>
+        <td class="mut">Pending</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
   }
@@ -553,9 +651,11 @@ function renderGameLogRows(player) {
 }
 
 function renderModalBody(player) {
+  const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
-  const gameRows = renderGameLogRows(player);
+  const gameRows = renderGameLogRows(player, projectedGames);
   const gameCount = (player.games || []).length;
+  const projectedCount = projectedGames.length;
 
   let upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
@@ -583,7 +683,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${matchRows}</tbody>
     </table>
-    <div class="gtitle">Game-by-game log <span>${gameCount} games${upsetLine}</span></div>
+    <div class="gtitle">Game-by-game log <span>${gameCount} games${projectedCount ? ` + ${projectedCount} projected` : ''}${upsetLine}</span></div>
     <table class="mlog glog">
       <thead>
         <tr>
@@ -592,11 +692,12 @@ function renderModalBody(player) {
           <th class="l">Opponents</th>
           <th>Score</th>
           <th>Result</th>
+          <th>Projection</th>
         </tr>
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based: <b>Proj W/L</b> is the expected winner and the value in parentheses is expected pair-rating margin (pts/game); <b>Even</b> means neutral. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 
@@ -755,7 +856,7 @@ function renderTeamMatchBlock(match, teamName) {
       const themScore = homeSide ? game.as : game.hs;
       const win = usScore > themScore;
       const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-      const resultClass = win ? 'res-W' : 'res-L';
+      const resultClass = getWinLossClass(win);
       const expectedMargin = game.ff
         ? null
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
@@ -782,13 +883,76 @@ function renderTeamMatchBlock(match, teamName) {
     <div class="wk-block">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
-        <span class="${won ? 'res-W' : 'res-L'}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
+        <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${upsetLine}</div>
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
           <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th></tr></thead>
+          <tbody>${gameRows}</tbody>
+        </table>
+      </details>
+    </div>
+  `;
+}
+
+function renderPendingTeamMatchBlock(match, teamName) {
+  const homeSide = match.home === teamName;
+  const opponent = homeSide ? match.away : match.home;
+  const scheduledTime = formatMatchDate(match.time);
+  const gameCount = (match.games || []).length;
+
+  if (!gameCount) {
+    return `
+      <div class="wk-block pending-match">
+        <div class="wk-head">
+          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+          <span class="mut">${scheduledTime || 'TBD'}</span>
+        </div>
+        <div class="match-summary">Lineups have not been posted yet.</div>
+      </div>
+    `;
+  }
+
+  let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
+  const gameRows = (match.games || []).map((game) => {
+    const usPlayers = homeSide ? game.h : game.a;
+    const themPlayers = homeSide ? game.a : game.h;
+    const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
+    const projection = describeProjectedOutcome(expectedMargin);
+    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+    if (projection.outcome === 'win') projectedWins++;
+    if (projection.outcome === 'loss') projectedLosses++;
+    if (projection.outcome === 'tie') projectedTies++;
+    if (projection.outcome === 'unrated') unrated++;
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    return `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
+        <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
+        <td class="${resultClass}">${projection.marginLabel}</td>
+        <td class="${resultClass}">${projection.resultLabel}</td>
+      </tr>
+    `;
+  }).join('');
+
+  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
+  const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
+
+  return `
+    <div class="wk-block pending-match">
+      <div class="wk-head">
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span class="mut">${scheduledTime || 'TBD'}</span>
+      </div>
+      <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+      <details>
+        <summary>Projected game-by-game (${gameCount})</summary>
+        <table class="mlog glog">
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
@@ -845,13 +1009,7 @@ function renderTeamPage(team) {
     : '<div class="mut" style="font-size:13px">No duos with 3+ games together yet.</div>';
 
   const upcomingMarkup = upcoming.length
-    ? upcoming
-        .map((match) => {
-          const homeSide = match.home === team.name;
-          const opponent = homeSide ? match.away : match.home;
-          return `<div class="up-row"><span class="op">Week ${match.week} • ${homeSide ? 'vs' : '@'} <b>${escapeHtml(opponent)}</b></span><span class="dt">${formatMatchDate(match.time)}</span></div>`;
-        })
-        .join('')
+    ? upcoming.map((match) => renderPendingTeamMatchBlock(match, team.name)).join('')
     : '<div class="mut" style="font-size:13px;padding:4px 0">No upcoming matches scheduled.</div>';
 
   const historyMarkup = history.length
@@ -889,7 +1047,7 @@ function renderTeamPage(team) {
       ${historyMarkup}
     </div>
     <div class="team-section">
-      <h3>Upcoming</h3>
+      <h3>Pending matchups <span class="tag">scheduled + projected game lines when available</span></h3>
       ${upcomingMarkup}
     </div>
   `;

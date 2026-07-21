@@ -426,6 +426,17 @@ async function compileDashboardHtml() {
         });
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist, subs: subNamesByMatchupId[m.matchupId] || [] });
+    } else if (d) {
+      const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
+        .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
+        .map((g) => ({
+          t: g.matchType,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        }));
+      if (pendingGames.length) {
+        Object.assign(rec, { games: pendingGames });
+      }
     }
     matches.push(rec);
   }
