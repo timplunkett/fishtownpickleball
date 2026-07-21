@@ -796,6 +796,86 @@ function renderTeamMatchBlock(match, teamName) {
   `;
 }
 
+function renderPendingTeamMatchBlock(match, teamName) {
+  const homeSide = match.home === teamName;
+  const opponent = homeSide ? match.away : match.home;
+  const scheduledTime = formatMatchDate(match.time);
+  const gameCount = (match.games || []).length;
+
+  if (!gameCount) {
+    return `
+      <div class="wk-block pending-match">
+        <div class="wk-head">
+          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+          <span class="mut">${scheduledTime || 'TBD'}</span>
+        </div>
+        <div class="match-summary">Lineups have not been posted yet.</div>
+      </div>
+    `;
+  }
+
+  let projectedWins = 0, projectedLosses = 0, unrated = 0;
+  const gameRows = (match.games || []).map((game) => {
+    const usPlayers = homeSide ? game.h : game.a;
+    const themPlayers = homeSide ? game.a : game.h;
+    const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
+    const resultClass = expectedMargin == null ? '' : (expectedMargin >= 0 ? 'res-W' : 'res-L');
+    let resultLabel = '—';
+    let marginLabel = EMPTY_VALUE;
+    let tag = '';
+
+    if (expectedMargin == null) {
+      unrated++;
+    } else {
+      marginLabel = formatSignedValue(expectedMargin, 1);
+      if (expectedMargin > 0) {
+        projectedWins++;
+        resultLabel = 'Proj W';
+        tag = ' <span class="exp-tag exp-upset" title="Projected win based on pair ratings">fav</span>';
+      } else if (expectedMargin < 0) {
+        projectedLosses++;
+        resultLabel = 'Proj L';
+        tag = ' <span class="exp-tag exp-drop" title="Projected loss based on pair ratings">dog</span>';
+      } else {
+        projectedWins++;
+        resultLabel = 'Even';
+        tag = ' <span class="exp-tag exp-met" title="Evenly rated matchup">even</span>';
+      }
+    }
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    return `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
+        <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
+        <td class="${resultClass}">${marginLabel}</td>
+        <td class="${resultClass}">${resultLabel}${tag}</td>
+      </tr>
+    `;
+  }).join('');
+
+  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}</b>`;
+  const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
+
+  return `
+    <div class="wk-block pending-match">
+      <div class="wk-head">
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span class="mut">${scheduledTime || 'TBD'}</span>
+      </div>
+      <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+      <details>
+        <summary>Projected game-by-game (${gameCount})</summary>
+        <table class="mlog glog">
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
+          <tbody>${gameRows}</tbody>
+        </table>
+      </details>
+    </div>
+  `;
+}
+
 function renderTeamPage(team) {
   const color = getTeamColor(team.name);
   const rank = DATA.teams.findIndex((candidate) => candidate.name === team.name) + 1;
@@ -845,13 +925,7 @@ function renderTeamPage(team) {
     : '<div class="mut" style="font-size:13px">No duos with 3+ games together yet.</div>';
 
   const upcomingMarkup = upcoming.length
-    ? upcoming
-        .map((match) => {
-          const homeSide = match.home === team.name;
-          const opponent = homeSide ? match.away : match.home;
-          return `<div class="up-row"><span class="op">Week ${match.week} • ${homeSide ? 'vs' : '@'} <b>${escapeHtml(opponent)}</b></span><span class="dt">${formatMatchDate(match.time)}</span></div>`;
-        })
-        .join('')
+    ? upcoming.map((match) => renderPendingTeamMatchBlock(match, team.name)).join('')
     : '<div class="mut" style="font-size:13px;padding:4px 0">No upcoming matches scheduled.</div>';
 
   const historyMarkup = history.length
@@ -889,7 +963,7 @@ function renderTeamPage(team) {
       ${historyMarkup}
     </div>
     <div class="team-section">
-      <h3>Upcoming</h3>
+      <h3>Pending matchups <span class="tag">scheduled + projected game lines when available</span></h3>
       ${upcomingMarkup}
     </div>
   `;
