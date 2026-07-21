@@ -632,6 +632,7 @@ function renderGameLogRows(player, projectedGames = []) {
       ? null
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
+    const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
@@ -639,7 +640,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
-        <td class="mut">${EMPTY_VALUE}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
   }
@@ -718,7 +719,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. The Projection column is rating-based and shows pre-game expectations for pending games only: <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations (or margin was &lt;1.0 pt); <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations (or margin was &lt;1.0 pt); <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating.</p>
   `;
 }
 
@@ -881,6 +882,7 @@ function renderTeamMatchBlock(match, teamName) {
       const expectedMargin = game.ff
         ? null
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
+      const projection = describeProjectedOutcome(expectedMargin);
       if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
         if (expectedMargin < 0 && win) upsetWins++;
         if (expectedMargin > 0 && !win) upsetLosses++;
@@ -893,6 +895,7 @@ function renderTeamMatchBlock(match, teamName) {
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
           <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
+          <td class="${projection.resultClass}">${projection.displayLabel}</td>
         </tr>
       `;
     })
@@ -910,7 +913,7 @@ function renderTeamMatchBlock(match, teamName) {
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
-          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th></tr></thead>
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
