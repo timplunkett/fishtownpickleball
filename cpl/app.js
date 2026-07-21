@@ -569,19 +569,22 @@ function describeProjectedOutcome(expectedMargin) {
 }
 
 // Returns an inline HTML fragment summarising expected and upset outcomes for
-// rated games, e.g. "• ↑ 2  ↓ 1  exp 3". Returns '' when there are no rated
-// games to report.
-function renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses) {
-  if (!expectedOutcomes && !upsetWins && !upsetLosses) return '';
+// rated games, e.g. "• exp W 2  exp L 1  ups W 1  ups L 1". Returns '' when
+// there are no rated games to report.
+function renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses) {
+  if (!expectedWins && !expectedLosses && !upsetWins && !upsetLosses) return '';
   const parts = [];
+  if (expectedWins) {
+    parts.push(`<span class="exp-tag exp-met" title="Expected wins (rating-based favorite won)">exp W</span>&nbsp;${expectedWins}`);
+  }
+  if (expectedLosses) {
+    parts.push(`<span class="exp-tag exp-met" title="Expected losses (rating-based underdog lost)">exp L</span>&nbsp;${expectedLosses}`);
+  }
   if (upsetWins) {
-    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&nbsp;${upsetWins}`);
+    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">ups W</span>&nbsp;${upsetWins}`);
   }
   if (upsetLosses) {
-    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">↓</span>&nbsp;${upsetLosses}`);
-  }
-  if (expectedOutcomes) {
-    parts.push(`<span class="exp-tag exp-met" title="Expected outcomes (rating-based favorite won)">exp</span>&nbsp;${expectedOutcomes}`);
+    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">ups L</span>&nbsp;${upsetLosses}`);
   }
   return ` • ${parts.join('&ensp;')}`;
 }
@@ -684,7 +687,7 @@ function renderModalBody(player) {
   const gameCount = (player.games || []).length;
   const projectedCount = projectedGames.length;
 
-  let expectedOutcomes = 0, upsetWins = 0, upsetLosses = 0;
+  let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
     if (game.ff) continue;
     const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
@@ -693,11 +696,13 @@ function renderModalBody(player) {
       upsetWins++;
     } else if (em > 0 && game.w === 0) {
       upsetLosses++;
+    } else if (game.w === 1) {
+      expectedWins++;
     } else {
-      expectedOutcomes++;
+      expectedLosses++;
     }
   }
-  const upsetLine = renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
     <table class="mlog">
@@ -891,7 +896,7 @@ function renderTeamMatchBlock(match, teamName) {
   const opponent = homeSide ? match.away : match.home;
   const won = homeSide === (match.result === 'home');
 
-  let expectedOutcomes = 0, upsetWins = 0, upsetLosses = 0;
+  let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   const matchSubs = new Set(match.subs || []);
   const formatSubAwarePlayers = (names) => names
     .map((n) => n + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
@@ -914,8 +919,10 @@ function renderTeamMatchBlock(match, teamName) {
           upsetWins++;
         } else if (expectedMargin > 0 && !win) {
           upsetLosses++;
+        } else if (win) {
+          expectedWins++;
         } else {
-          expectedOutcomes++;
+          expectedLosses++;
         }
       }
       const expectTag = renderExpectationTag(expectedMargin, win);
@@ -932,7 +939,7 @@ function renderTeamMatchBlock(match, teamName) {
     })
     .join('');
 
-  const upsetLine = renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
     <div class="wk-block">
