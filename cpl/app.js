@@ -500,15 +500,40 @@ function renderExpectationTag(expectedMargin, won) {
 
 function describeProjectedOutcome(expectedMargin) {
   if (expectedMargin === null) {
-    return { resultClass: 'mut', label: '—' };
+    return {
+      outcome: 'unrated',
+      resultClass: 'mut',
+      marginLabel: EMPTY_VALUE,
+      resultLabel: '—',
+      displayLabel: '—',
+    };
   }
+  const marginLabel = formatSignedValue(expectedMargin, 1);
   if (expectedMargin > 0) {
-    return { resultClass: 'res-W', label: `Proj W (${formatSignedValue(expectedMargin, 1)})` };
+    return {
+      outcome: 'win',
+      resultClass: 'res-W',
+      marginLabel,
+      resultLabel: 'Proj W',
+      displayLabel: `Proj W (${marginLabel})`,
+    };
   }
   if (expectedMargin < 0) {
-    return { resultClass: 'res-L', label: `Proj L (${formatSignedValue(expectedMargin, 1)})` };
+    return {
+      outcome: 'loss',
+      resultClass: 'res-L',
+      marginLabel,
+      resultLabel: 'Proj L',
+      displayLabel: `Proj L (${marginLabel})`,
+    };
   }
-  return { resultClass: 'mut', label: 'Even (0.0)' };
+  return {
+    outcome: 'tie',
+    resultClass: 'mut',
+    marginLabel,
+    resultLabel: 'Even',
+    displayLabel: 'Even (0.0)',
+  };
 }
 
 // Returns an inline HTML fragment summarising upset wins/losses for a set of
@@ -584,7 +609,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
-        <td class="${projection.resultClass}">${projection.label}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
   }
@@ -606,7 +631,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
         <td class="mut">${EMPTY_VALUE}</td>
         <td class="mut">Pending</td>
-        <td class="${projection.resultClass}">${projection.label}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
   }
@@ -884,25 +909,12 @@ function renderPendingTeamMatchBlock(match, teamName) {
     const usPlayers = homeSide ? game.h : game.a;
     const themPlayers = homeSide ? game.a : game.h;
     const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-    const resultClass = expectedMargin == null ? '' : (expectedMargin > 0 ? 'res-W' : (expectedMargin < 0 ? 'res-L' : 'mut'));
-    let resultLabel = '—';
-    let marginLabel = EMPTY_VALUE;
-
-    if (expectedMargin == null) {
-      unrated++;
-    } else {
-      marginLabel = formatSignedValue(expectedMargin, 1);
-      if (expectedMargin > 0) {
-        projectedWins++;
-        resultLabel = 'Proj W';
-      } else if (expectedMargin < 0) {
-        projectedLosses++;
-        resultLabel = 'Proj L';
-      } else {
-        projectedTies++;
-        resultLabel = 'Even';
-      }
-    }
+    const projection = describeProjectedOutcome(expectedMargin);
+    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+    if (projection.outcome === 'win') projectedWins++;
+    if (projection.outcome === 'loss') projectedLosses++;
+    if (projection.outcome === 'tie') projectedTies++;
+    if (projection.outcome === 'unrated') unrated++;
 
     const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
     return `
@@ -910,8 +922,8 @@ function renderPendingTeamMatchBlock(match, teamName) {
         <td class="l"><span class="pill ${className}">${label}</span></td>
         <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
         <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
-        <td class="${resultClass}">${marginLabel}</td>
-        <td class="${resultClass}">${resultLabel}</td>
+        <td class="${resultClass}">${projection.marginLabel}</td>
+        <td class="${resultClass}">${projection.resultLabel}</td>
       </tr>
     `;
   }).join('');
