@@ -525,7 +525,32 @@ function renderUpsetSummary(upsetWins, upsetLosses) {
   return ` • ${parts.join('&ensp;')}`;
 }
 
-function renderGameLogRows(player) {
+function getProjectedPlayerGames(player) {
+  const projectedGames = [];
+  for (const match of DATA.matches || []) {
+    if (match.complete || !(match.games || []).length) continue;
+    for (const game of match.games || []) {
+      const playerOnHomeSide = game.h?.includes(player.name);
+      const playerOnAwaySide = game.a?.includes(player.name);
+      if (!playerOnHomeSide && !playerOnAwaySide) continue;
+      const usPlayers = playerOnHomeSide ? game.h : game.a;
+      const themPlayers = playerOnHomeSide ? game.a : game.h;
+      const partner = usPlayers[0] === player.name ? usPlayers[1] : usPlayers[0];
+      projectedGames.push({
+        wk: match.week,
+        opp: playerOnHomeSide ? match.away : match.home,
+        t: game.t,
+        with: partner || '',
+        vs: [themPlayers[0] || '', themPlayers[1] || ''],
+        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+      });
+    }
+  }
+  projectedGames.sort((a, b) => a.wk - b.wk);
+  return projectedGames;
+}
+
+function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
 
@@ -536,7 +561,7 @@ function renderGameLogRows(player) {
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
       gameLog += `
-        <tr class="wkrow"><td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
+        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
@@ -564,13 +589,37 @@ function renderGameLogRows(player) {
     `;
   }
 
+  for (const game of projectedGames) {
+    if (game.wk !== lastWeek) {
+      lastWeek = game.wk;
+      gameLog += `
+        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)} <span class="mut">(projected)</span></td></tr>
+      `;
+    }
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    const projection = describeProjectedOutcome(game.expectedMargin);
+    gameLog += `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(game.with)}</td>
+        <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
+        <td class="mut">${EMPTY_VALUE}</td>
+        <td class="mut">Pending</td>
+        <td class="${projection.resultClass}">${projection.label}</td>
+      </tr>
+    `;
+  }
+
   return gameLog;
 }
 
 function renderModalBody(player) {
+  const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
-  const gameRows = renderGameLogRows(player);
+  const gameRows = renderGameLogRows(player, projectedGames);
   const gameCount = (player.games || []).length;
+  const projectedCount = projectedGames.length;
 
   let upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
@@ -598,7 +647,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${matchRows}</tbody>
     </table>
-    <div class="gtitle">Game-by-game log <span>${gameCount} games${upsetLine}</span></div>
+    <div class="gtitle">Game-by-game log <span>${gameCount} games${projectedCount ? ` + ${projectedCount} projected` : ''}${upsetLine}</span></div>
     <table class="mlog glog">
       <thead>
         <tr>
@@ -612,7 +661,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based: <b>Proj W/L</b> is the expected winner and the value in parentheses is expected pair-rating margin (pts/game); <b>Even</b> means neutral. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based: <b>Proj W/L</b> is the expected winner and the value in parentheses is expected pair-rating margin (pts/game); <b>Even</b> means neutral. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 
