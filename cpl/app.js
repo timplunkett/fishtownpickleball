@@ -34,7 +34,9 @@ const GAME_TYPE_LABELS = Object.freeze({
 });
 const RESULT_CLASS = Object.freeze({
   win: 'res-W',
+  slightWin: 'res-slight-W',
   loss: 'res-L',
+  slightLoss: 'res-slight-L',
   neutral: 'mut',
 });
 const HTML_ESCAPE_MAP = Object.freeze({
@@ -518,7 +520,17 @@ function describeProjectedOutcome(expectedMargin) {
     };
   }
   const marginLabel = formatSignedValue(expectedMargin, 1);
-  if (expectedMargin > 0) {
+  const absMargin = Math.abs(expectedMargin);
+  if (absMargin < 1.0) {
+    return {
+      outcome: 'tie',
+      resultClass: RESULT_CLASS.neutral,
+      marginLabel,
+      resultLabel: 'Even',
+      displayLabel: `Even (${marginLabel})`,
+    };
+  }
+  if (expectedMargin > 2.5) {
     return {
       outcome: 'win',
       resultClass: RESULT_CLASS.win,
@@ -527,7 +539,16 @@ function describeProjectedOutcome(expectedMargin) {
       displayLabel: `Proj W (${marginLabel})`,
     };
   }
-  if (expectedMargin < 0) {
+  if (expectedMargin > 0) {
+    return {
+      outcome: 'win',
+      resultClass: RESULT_CLASS.slightWin,
+      marginLabel,
+      resultLabel: 'Slight W',
+      displayLabel: `Slight W (${marginLabel})`,
+    };
+  }
+  if (expectedMargin < -2.5) {
     return {
       outcome: 'loss',
       resultClass: RESULT_CLASS.loss,
@@ -537,11 +558,11 @@ function describeProjectedOutcome(expectedMargin) {
     };
   }
   return {
-    outcome: 'tie',
-    resultClass: RESULT_CLASS.neutral,
+    outcome: 'loss',
+    resultClass: RESULT_CLASS.slightLoss,
     marginLabel,
-    resultLabel: 'Even',
-    displayLabel: 'Even (0.0)',
+    resultLabel: 'Slight L',
+    displayLabel: `Slight L (${marginLabel})`,
   };
 }
 
@@ -697,7 +718,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based: <b>Proj W/L</b> is the expected winner and the value in parentheses is expected pair-rating margin (pts/game); <b>Even</b> means neutral. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
   `;
 }
 

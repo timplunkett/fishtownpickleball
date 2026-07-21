@@ -338,10 +338,18 @@ tbody td {
   font-weight: 700;
 }
 
+.res-slight-W {
+  color: color-mix(in srgb, var(--win) 55%, var(--mut));
+}
+
 .neg-diff,
 .res-L {
   color: var(--loss);
   font-weight: 700;
+}
+
+.res-slight-L {
+  color: color-mix(in srgb, var(--loss) 55%, var(--mut));
 }
 
 .confwrap {
