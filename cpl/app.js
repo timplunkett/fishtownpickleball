@@ -618,7 +618,10 @@ function renderGameLogRows(player, projectedGames = []) {
     if (game.wk !== lastWeek) {
       lastWeek = game.wk;
       gameLog += `
-        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)} <span class="mut">(projected)</span></td></tr>
+        <tr class="wkrow wkrow-projected">
+          <td class="l projected-match-label">Projected</td>
+          <td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)} <span class="mut">(projected)</span></td>
+        </tr>
       `;
     }
 

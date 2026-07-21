@@ -551,6 +551,18 @@ tbody td {
   background: var(--panel2);
 }
 
+.glog tr.wkrow-projected td {
+  background: rgb(232 198 107 / 14%);
+  color: var(--gold);
+}
+
+.glog tr.wkrow-projected td.projected-match-label {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
 .glog td {
   font-size: 12.5px;
 }
