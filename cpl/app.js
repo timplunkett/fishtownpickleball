@@ -814,15 +814,14 @@ function renderPendingTeamMatchBlock(match, teamName) {
     `;
   }
 
-  let projectedWins = 0, projectedLosses = 0, unrated = 0;
+  let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
   const gameRows = (match.games || []).map((game) => {
     const usPlayers = homeSide ? game.h : game.a;
     const themPlayers = homeSide ? game.a : game.h;
     const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-    const resultClass = expectedMargin == null ? '' : (expectedMargin >= 0 ? 'res-W' : 'res-L');
+    const resultClass = expectedMargin == null ? '' : (expectedMargin > 0 ? 'res-W' : (expectedMargin < 0 ? 'res-L' : 'mut'));
     let resultLabel = '—';
     let marginLabel = EMPTY_VALUE;
-    let tag = '';
 
     if (expectedMargin == null) {
       unrated++;
@@ -831,15 +830,12 @@ function renderPendingTeamMatchBlock(match, teamName) {
       if (expectedMargin > 0) {
         projectedWins++;
         resultLabel = 'Proj W';
-        tag = ' <span class="exp-tag exp-upset" title="Projected win based on pair ratings">fav</span>';
       } else if (expectedMargin < 0) {
         projectedLosses++;
         resultLabel = 'Proj L';
-        tag = ' <span class="exp-tag exp-drop" title="Projected loss based on pair ratings">dog</span>';
       } else {
-        projectedWins++;
+        projectedTies++;
         resultLabel = 'Even';
-        tag = ' <span class="exp-tag exp-met" title="Evenly rated matchup">even</span>';
       }
     }
 
@@ -850,12 +846,12 @@ function renderPendingTeamMatchBlock(match, teamName) {
         <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
         <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
         <td class="${resultClass}">${marginLabel}</td>
-        <td class="${resultClass}">${resultLabel}${tag}</td>
+        <td class="${resultClass}">${resultLabel}</td>
       </tr>
     `;
   }).join('');
 
-  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}</b>`;
+  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
   const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
 
   return `
