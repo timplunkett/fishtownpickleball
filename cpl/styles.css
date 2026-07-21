@@ -257,8 +257,6 @@ td {
   white-space: nowrap;
 }
 
-th:first-child,
-td:first-child,
 th.l,
 td.l {
   text-align: left;
@@ -533,6 +531,11 @@ tbody td {
 .mlog th {
   font-size: 10.5px;
   letter-spacing: 0.04em;
+}
+
+.mlog th.l,
+.mlog td.l {
+  text-align: left;
 }
 
 .gtitle {
