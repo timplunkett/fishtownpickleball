@@ -32,6 +32,11 @@ const GAME_TYPE_LABELS = Object.freeze({
   female: ['W', 't-female'],
   male: ['M', 't-male'],
 });
+const RESULT_CLASS = Object.freeze({
+  win: 'res-W',
+  loss: 'res-L',
+  neutral: 'mut',
+});
 const HTML_ESCAPE_MAP = Object.freeze({
   '&': '&amp;',
   '<': '&lt;',
@@ -117,6 +122,10 @@ function formatSignedValue(value, digits) {
 function formatDiffSpan(value) {
   const className = value >= 0 ? 'pos-diff' : 'neg-diff';
   return `<span class="${className}">${formatSignedValue(value)}</span>`;
+}
+
+function getWinLossClass(won) {
+  return won ? RESULT_CLASS.win : RESULT_CLASS.loss;
 }
 
 function pluralize(count, singular, plural = `${singular}s`) {
@@ -502,7 +511,7 @@ function describeProjectedOutcome(expectedMargin) {
   if (expectedMargin === null) {
     return {
       outcome: 'unrated',
-      resultClass: 'mut',
+      resultClass: RESULT_CLASS.neutral,
       marginLabel: EMPTY_VALUE,
       resultLabel: '—',
       displayLabel: '—',
@@ -512,7 +521,7 @@ function describeProjectedOutcome(expectedMargin) {
   if (expectedMargin > 0) {
     return {
       outcome: 'win',
-      resultClass: 'res-W',
+      resultClass: RESULT_CLASS.win,
       marginLabel,
       resultLabel: 'Proj W',
       displayLabel: `Proj W (${marginLabel})`,
@@ -521,7 +530,7 @@ function describeProjectedOutcome(expectedMargin) {
   if (expectedMargin < 0) {
     return {
       outcome: 'loss',
-      resultClass: 'res-L',
+      resultClass: RESULT_CLASS.loss,
       marginLabel,
       resultLabel: 'Proj L',
       displayLabel: `Proj L (${marginLabel})`,
@@ -529,7 +538,7 @@ function describeProjectedOutcome(expectedMargin) {
   }
   return {
     outcome: 'tie',
-    resultClass: 'mut',
+    resultClass: RESULT_CLASS.neutral,
     marginLabel,
     resultLabel: 'Even',
     displayLabel: 'Even (0.0)',
@@ -591,7 +600,7 @@ function renderGameLogRows(player, projectedGames = []) {
     }
 
     const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-    const resultClass = game.w ? 'res-W' : 'res-L';
+    const resultClass = getWinLossClass(game.w);
     const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
     const partnerCell = game.ff
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
@@ -847,7 +856,7 @@ function renderTeamMatchBlock(match, teamName) {
       const themScore = homeSide ? game.as : game.hs;
       const win = usScore > themScore;
       const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-      const resultClass = win ? 'res-W' : 'res-L';
+      const resultClass = getWinLossClass(win);
       const expectedMargin = game.ff
         ? null
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
@@ -874,7 +883,7 @@ function renderTeamMatchBlock(match, teamName) {
     <div class="wk-block">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
-        <span class="${won ? 'res-W' : 'res-L'}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
+        <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${upsetLine}</div>
       <details>
