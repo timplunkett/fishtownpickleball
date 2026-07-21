@@ -498,9 +498,10 @@ function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
 // `won` is whether this pair won the game.
 function renderExpectationTag(expectedMargin, won) {
   if (expectedMargin === null) return '';
+  const absMargin = Math.abs(expectedMargin);
   const favoured = expectedMargin > 0;
-  const diff = Math.abs(expectedMargin).toFixed(1);
-  if ((diff === '0.0') || (favoured && won) || (!favoured && !won)) {
+  const diff = absMargin.toFixed(1);
+  if (absMargin < 1.0 || (favoured && won) || (!favoured && !won)) {
     return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
   }
   if (!favoured && won) {
@@ -631,7 +632,6 @@ function renderGameLogRows(player, projectedGames = []) {
       ? null
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
-    const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
@@ -639,7 +639,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
-        <td class="${projection.resultClass}">${projection.displayLabel}</td>
+        <td class="mut">${EMPTY_VALUE}</td>
       </tr>
     `;
   }
@@ -682,7 +682,7 @@ function renderModalBody(player) {
   for (const game of player.games || []) {
     if (game.ff) continue;
     const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
-    if (em === null || em === 0) continue;
+    if (em === null || Math.abs(em) < 1.0) continue;
     if (em < 0 && game.w === 1) upsetWins++;
     if (em > 0 && game.w === 0) upsetLosses++;
   }
@@ -718,7 +718,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. The Projection column is rating-based and shows pre-game expectations for pending games only: <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations (or margin was &lt;1.0 pt); <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating.</p>
   `;
 }
 
@@ -881,7 +881,7 @@ function renderTeamMatchBlock(match, teamName) {
       const expectedMargin = game.ff
         ? null
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-      if (expectedMargin !== null && expectedMargin !== 0) {
+      if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
         if (expectedMargin < 0 && win) upsetWins++;
         if (expectedMargin > 0 && !win) upsetLosses++;
       }
