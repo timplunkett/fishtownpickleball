@@ -499,9 +499,10 @@ function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
 function renderExpectationTag(expectedMargin, won) {
   if (expectedMargin === null) return '';
   const absMargin = Math.abs(expectedMargin);
+  if (absMargin < 1.0) return '';
   const favoured = expectedMargin > 0;
   const diff = absMargin.toFixed(1);
-  if (absMargin < 1.0 || (favoured && won) || (!favoured && !won)) {
+  if ((favoured && won) || (!favoured && !won)) {
     return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
   }
   if (!favoured && won) {
@@ -719,7 +720,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations (or margin was &lt;1.0 pt); <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
