@@ -568,11 +568,15 @@ function describeProjectedOutcome(expectedMargin) {
   };
 }
 
-// Returns an inline HTML fragment summarising upset wins/losses for a set of
-// games, e.g. "• ↑ 2  ↓ 1". Returns '' when there are no upsets to report.
-function renderUpsetSummary(upsetWins, upsetLosses) {
-  if (!upsetWins && !upsetLosses) return '';
+// Returns an inline HTML fragment summarising expected and upset outcomes for
+// rated games, e.g. "• exp 3  ↑ 2  ↓ 1". Returns '' when there are no rated
+// games to report.
+function renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses) {
+  if (!expectedOutcomes && !upsetWins && !upsetLosses) return '';
   const parts = [];
+  if (expectedOutcomes) {
+    parts.push(`<span class="exp-tag exp-met" title="Expected outcomes (rating-based favorite won)">exp</span>&nbsp;${expectedOutcomes}`);
+  }
   if (upsetWins) {
     parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&nbsp;${upsetWins}`);
   }
@@ -640,7 +644,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
-        <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${resultClass} l">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
         <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
@@ -680,15 +684,20 @@ function renderModalBody(player) {
   const gameCount = (player.games || []).length;
   const projectedCount = projectedGames.length;
 
-  let upsetWins = 0, upsetLosses = 0;
+  let expectedOutcomes = 0, upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
     if (game.ff) continue;
     const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     if (em === null || Math.abs(em) < 1.0) continue;
-    if (em < 0 && game.w === 1) upsetWins++;
-    if (em > 0 && game.w === 0) upsetLosses++;
+    if (em < 0 && game.w === 1) {
+      upsetWins++;
+    } else if (em > 0 && game.w === 0) {
+      upsetLosses++;
+    } else {
+      expectedOutcomes++;
+    }
   }
-  const upsetLine = renderUpsetSummary(upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses);
 
   return `
     <table class="mlog">
@@ -714,7 +723,7 @@ function renderModalBody(player) {
           <th class="l">Partner</th>
           <th class="l">Opponents</th>
           <th>Score</th>
-          <th>Result</th>
+          <th class="l">Result</th>
           <th>Projection</th>
         </tr>
       </thead>
@@ -866,7 +875,7 @@ function renderTeamMatchBlock(match, teamName) {
   const opponent = homeSide ? match.away : match.home;
   const won = homeSide === (match.result === 'home');
 
-  let upsetWins = 0, upsetLosses = 0;
+  let expectedOutcomes = 0, upsetWins = 0, upsetLosses = 0;
   const matchSubs = new Set(match.subs || []);
   const formatSubAwarePlayers = (names) => names
     .map((n) => n + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
@@ -885,8 +894,13 @@ function renderTeamMatchBlock(match, teamName) {
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
       const projection = describeProjectedOutcome(expectedMargin);
       if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
-        if (expectedMargin < 0 && win) upsetWins++;
-        if (expectedMargin > 0 && !win) upsetLosses++;
+        if (expectedMargin < 0 && win) {
+          upsetWins++;
+        } else if (expectedMargin > 0 && !win) {
+          upsetLosses++;
+        } else {
+          expectedOutcomes++;
+        }
       }
       const expectTag = renderExpectationTag(expectedMargin, win);
       return `
@@ -895,14 +909,14 @@ function renderTeamMatchBlock(match, teamName) {
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
-          <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
+          <td class="${resultClass} l">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
           <td class="${projection.resultClass}">${projection.displayLabel}</td>
         </tr>
       `;
     })
     .join('');
 
-  const upsetLine = renderUpsetSummary(upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedOutcomes, upsetWins, upsetLosses);
 
   return `
     <div class="wk-block">
@@ -914,7 +928,7 @@ function renderTeamMatchBlock(match, teamName) {
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
-          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th><th>Projection</th></tr></thead>
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th class="l">Result</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
