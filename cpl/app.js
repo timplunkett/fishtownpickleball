@@ -575,16 +575,16 @@ function renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses
   if (!expectedWins && !expectedLosses && !upsetWins && !upsetLosses) return '';
   const parts = [];
   if (expectedWins) {
-    parts.push(`<span class="exp-tag exp-met" title="Expected wins (rating-based favorite won)">exp W</span>&nbsp;${expectedWins}`);
+    parts.push(`<span class="exp-tag exp-upset" title="Expected wins (rating-based favorite won)">${expectedWins} exp W</span>`);
   }
   if (expectedLosses) {
-    parts.push(`<span class="exp-tag exp-met" title="Expected losses (rating-based underdog lost)">exp L</span>&nbsp;${expectedLosses}`);
+    parts.push(`<span class="exp-tag exp-drop" title="Expected losses (rating-based underdog lost)">${expectedLosses} exp L</span>`);
   }
   if (upsetWins) {
-    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">ups W</span>&nbsp;${upsetWins}`);
+    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">${upsetWins} ups W</span>`);
   }
   if (upsetLosses) {
-    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">ups L</span>&nbsp;${upsetLosses}`);
+    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">${upsetLosses} ups L</span>`);
   }
   return ` • ${parts.join('&ensp;')}`;
 }
