@@ -985,6 +985,7 @@ tbody td {
 .grid-wrap td.win {
   border-color: color-mix(in srgb, var(--win) 40%, transparent);
 }
+.grid-wrap td.split-multi .entry.win,
 .grid-wrap td.win-multi .entry.win,
 .grid-wrap td.win {
   background: color-mix(in srgb, var(--win) 14%, transparent);
@@ -994,6 +995,7 @@ tbody td {
 .grid-wrap td.loss {
   border-color: color-mix(in srgb, var(--loss) 40%, transparent);
 }
+.grid-wrap td.split-multi .entry.loss,
 .grid-wrap td.loss-multi .entry.loss,
 .grid-wrap td.loss {
   background: color-mix(in srgb, var(--loss) 14%, transparent);
