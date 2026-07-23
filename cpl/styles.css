@@ -1003,6 +1003,14 @@ tbody td {
   color: var(--mut);
 }
 
+/* Split record (e.g. 1–1): highlight each entry by its own result. */
+.grid-wrap td.split-multi .entry.win {
+  background: color-mix(in srgb, var(--win) 14%, transparent);
+}
+.grid-wrap td.split-multi .entry.loss {
+  background: color-mix(in srgb, var(--loss) 14%, transparent);
+}
+
 /* Next scheduled matchup: neutral, sits where a second meeting would. */
 .grid-wrap td.upcoming {
   background: var(--panel2);

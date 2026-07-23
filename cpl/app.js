@@ -1234,10 +1234,18 @@ function renderResultsGrid() {
           }
           const total = list.length + (next ? 1 : 0);
           let className;
-          if (list.length === 1) {
-            className = list[0].win ? 'win' : 'loss';
-          } else {
+          if (list.length === 0) {
             className = 'upcoming';
+          } else {
+            const wins = list.filter((e) => e.win).length;
+            const losses = list.length - wins;
+            if (wins > losses) {
+              className = 'win';
+            } else if (losses > wins) {
+              className = 'loss';
+            } else {
+              className = 'split';
+            }
           }
           if (total > 1) {
             className += '-multi';
@@ -1251,7 +1259,7 @@ function renderResultsGrid() {
     .join('');
 
   elements.gridHost.innerHTML = `<table>${headRow}${bodyRows}</table>
-    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
+    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
 }
 
 function computeSwarmLayout(players, geometry) {
