@@ -24,12 +24,37 @@ function firstValues(obj) {
 // shrinking thin-evidence players toward average, and (b) resolves the rank
 // deficiency inherent to +1/-1 plus-minus design matrices (the all-ones vector
 // is otherwise in the null space). Larger LAMBDA = more shrinkage toward 0.
+//
+// Games are weighted so the fit emphasizes:
+// - recency (newer weeks slightly higher weight),
+// - certainty (games involving more-established players carry more signal),
+// - leverage (once a match is effectively decided, remaining games are downweighted).
 const RIDGE_LAMBDA = 4;
+const RECENCY_FLOOR_WEIGHT = 0.85;
+const UNCERTAINTY_FLOOR_WEIGHT = 0.8;
+const LOW_LEVERAGE_WEIGHT = 0.9;
+const GAMES_PER_ROUND = 4;
 
 // A forfeit/walkover is recorded as a token 1-0 score (no real pickleball game
 // ends with the winner under 11). These reflect attendance, not play, so they
 // are excluded from the rating; standings/records still count them.
 const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
+
+const toFiniteNumber = (value) => {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : null;
+};
+
+const roundFromGameNumber = gameNumber => {
+  const n = toFiniteNumber(gameNumber);
+  return n == null ? null : Math.floor(n / GAMES_PER_ROUND) + 1;
+};
+
+const shouldDownweightFollowingGames = (round, homeWins, awayWins) => {
+  if (round == null) return false;
+  const leaderWins = Math.max(homeWins, awayWins);
+  return (round <= 6 && leaderWins >= 16) || (round === 7 && leaderWins >= 17);
+};
 
 // Teammate-pair chemistry tuning: shrinkage strength and the minimum shared
 // games before a pair is surfaced.
@@ -78,20 +103,41 @@ function invertMatrix(A) {
 //                 is guaranteed to land in [0, 1].)
 function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
   // Collect one row per game: +1 home pair, -1 away pair, target = home margin.
-  const rows = []; // each: { plus: [id,id], minus: [id,id], margin }
+  // Track per-game metadata for weighting.
+  const rows = []; // each: { plus: [id,id], minus: [id,id], margin, week, leverageWeight }
   const gamesPlayedCount = {};
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
     if (!d) continue;
-    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
+    const games = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
+      .slice()
+      .sort((a, b) => (toFiniteNumber(a.gameNumber) ?? 0) - (toFiniteNumber(b.gameNumber) ?? 0));
+    let homeWins = 0;
+    let awayWins = 0;
+    let downweightFollowing = false;
     for (const g of games) {
       const h1 = g.homePlayerId1, h2 = g.homePlayerId2, a1 = g.awayPlayerId1, a2 = g.awayPlayerId2;
-      if (!h1 || !h2 || !a1 || !a2) continue;
-      if (g.homeScore == null || g.awayScore == null) continue;
-      if (isForfeit(g)) continue; // walkovers measure attendance, not play
-      rows.push({ plus: [h1, h2], minus: [a1, a2], margin: g.homeScore - g.awayScore });
-      for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
+      const validPlayers = !!(h1 && h2 && a1 && a2);
+      const hasScore = g.homeScore != null && g.awayScore != null;
+      const leverageWeight = downweightFollowing ? LOW_LEVERAGE_WEIGHT : 1;
+      if (validPlayers && hasScore && !isForfeit(g)) {
+        rows.push({
+          plus: [h1, h2],
+          minus: [a1, a2],
+          margin: g.homeScore - g.awayScore,
+          week: toFiniteNumber(mu.weekNumber),
+          leverageWeight,
+        });
+        for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
+      }
+      if (!hasScore) continue;
+      if (g.homeScore > g.awayScore) homeWins++;
+      else if (g.awayScore > g.homeScore) awayWins++;
+      if (!downweightFollowing) {
+        const round = roundFromGameNumber(g.gameNumber);
+        if (shouldDownweightFollowingGames(round, homeWins, awayWins)) downweightFollowing = true;
+      }
     }
   }
 
@@ -101,44 +147,80 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
   const n = ids.length;
   if (!n) return {};
 
-  // Normal equations: (XᵀX + λI) β = Xᵀy, accumulated without materializing X.
-  const AtA = Array.from({ length: n }, () => new Array(n).fill(0));
-  const Atb = new Array(n).fill(0);
-  for (const row of rows) {
-    const signed = [[row.plus[0], 1], [row.plus[1], 1], [row.minus[0], -1], [row.minus[1], -1]];
-    for (const [idI, sI] of signed) {
-      const i = idx[idI];
-      Atb[i] += sI * row.margin;
-      for (const [idJ, sJ] of signed) AtA[i][idx[idJ]] += sI * sJ;
-    }
-  }
-  for (let i = 0; i < n; i++) AtA[i][i] += lambda;
+  const weeks = rows.map(r => r.week).filter(w => w != null);
+  const minWeek = weeks.length ? Math.min(...weeks) : null;
+  const maxWeek = weeks.length ? Math.max(...weeks) : null;
 
-  // β = (XᵀX + λI)⁻¹ Xᵀy, and confidence from the inverse's diagonal.
-  const inv = invertMatrix(AtA);
-  const beta = new Array(n).fill(0);
-  for (let i = 0; i < n; i++) {
-    let s = 0;
-    for (let j = 0; j < n; j++) s += inv[i][j] * Atb[j];
-    beta[i] = s;
-  }
+  const recencyWeight = (week) => {
+    if (week == null || minWeek == null || maxWeek == null || minWeek === maxWeek) return 1;
+    const t = (week - minWeek) / (maxWeek - minWeek);
+    return RECENCY_FLOOR_WEIGHT + (1 - RECENCY_FLOOR_WEIGHT) * t;
+  };
+
+  const uncertaintyWeight = (row, confidenceByPid) => {
+    if (!confidenceByPid) return 1;
+    const confs = row.plus.concat(row.minus)
+      .map(id => confidenceByPid[id])
+      .filter(v => typeof v === "number");
+    if (!confs.length) return 1;
+    const avgConf = confs.reduce((s, v) => s + v, 0) / confs.length;
+    return UNCERTAINTY_FLOOR_WEIGHT + (1 - UNCERTAINTY_FLOOR_WEIGHT) * (avgConf / 100);
+  };
+
+  const solveWeighted = (confidenceByPid = null) => {
+    // Normal equations: (XᵀWX + λI) β = XᵀWy, accumulated without materializing X.
+    const AtA = Array.from({ length: n }, () => new Array(n).fill(0));
+    const Atb = new Array(n).fill(0);
+    const rowWeights = new Array(rows.length).fill(1);
+    rows.forEach((row, rowIx) => {
+      const w = recencyWeight(row.week) * (row.leverageWeight || 1) * uncertaintyWeight(row, confidenceByPid);
+      rowWeights[rowIx] = w;
+      const signed = [[row.plus[0], 1], [row.plus[1], 1], [row.minus[0], -1], [row.minus[1], -1]];
+      for (const [idI, sI] of signed) {
+        const i = idx[idI];
+        Atb[i] += w * sI * row.margin;
+        for (const [idJ, sJ] of signed) AtA[i][idx[idJ]] += w * sI * sJ;
+      }
+    });
+    for (let i = 0; i < n; i++) AtA[i][i] += lambda;
+    const inv = invertMatrix(AtA);
+    const beta = new Array(n).fill(0);
+    for (let i = 0; i < n; i++) {
+      let s = 0;
+      for (let j = 0; j < n; j++) s += inv[i][j] * Atb[j];
+      beta[i] = s;
+    }
+    return { inv, beta, rowWeights };
+  };
+
+  // Pass 1: recency + leverage.
+  const firstPass = solveWeighted();
+  const pass1ConfidenceByPid = {};
+  ids.forEach((id, i) => {
+    const conf = Math.max(0, Math.min(1, 1 - lambda * firstPass.inv[i][i]));
+    pass1ConfidenceByPid[id] = Math.round(conf * 100);
+  });
+
+  // Pass 2: add uncertainty weighting based on pass-1 confidence.
+  const { inv, beta, rowWeights } = solveWeighted(pass1ConfidenceByPid);
 
   // Strength of schedule: game-weighted average rating of each player's
   // partners and opponents, on the same points/game scale as the rating.
   const partnerSum = new Array(n).fill(0), partnerN = new Array(n).fill(0);
   const oppSum = new Array(n).fill(0), oppN = new Array(n).fill(0);
-  const addContext = (selfId, partnerId, oppA, oppB) => {
+  const addContext = (selfId, partnerId, oppA, oppB, w) => {
     const i = idx[selfId];
-    partnerSum[i] += beta[idx[partnerId]]; partnerN[i] += 1;
-    oppSum[i] += beta[idx[oppA]] + beta[idx[oppB]]; oppN[i] += 2;
+    partnerSum[i] += beta[idx[partnerId]] * w; partnerN[i] += w;
+    oppSum[i] += (beta[idx[oppA]] + beta[idx[oppB]]) * w; oppN[i] += 2 * w;
   };
-  for (const row of rows) {
+  rows.forEach((row, rowIx) => {
     const [p0, p1] = row.plus, [m0, m1] = row.minus;
-    addContext(p0, p1, m0, m1);
-    addContext(p1, p0, m0, m1);
-    addContext(m0, m1, p0, p1);
-    addContext(m1, m0, p0, p1);
-  }
+    const w = rowWeights[rowIx] || 1;
+    addContext(p0, p1, m0, m1, w);
+    addContext(p1, p0, m0, m1, w);
+    addContext(m0, m1, p0, p1, w);
+    addContext(m1, m0, p0, p1, w);
+  });
 
   const out = {};
   ids.forEach((id, i) => {

@@ -142,8 +142,10 @@ function renderSummary() {
     `Live from the Bounce league API • division 3e9b6a58 • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
-    `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
-    `game above an average player, controlling for partner and opponent strength. The ` +
+    `Rating is a weighted ridge adjusted plus-minus: each player's net points per ` +
+    `game above an average player, controlling for partner and opponent strength. ` +
+    `Newer games and games with lower opponent uncertainty get more weight, while ` +
+    `low-leverage late games in effectively decided matches are slightly downweighted. The ` +
     `"Conf" column shows how much of each rating is backed by real game evidence ` +
     `(0–100%) — early-season ratings are low-confidence and will shift as more ` +
     `games are played.`;
