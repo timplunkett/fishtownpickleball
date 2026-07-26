@@ -27,13 +27,10 @@ function firstValues(obj) {
 //
 // Games are weighted so the fit emphasizes:
 // - recency (newer weeks slightly higher weight),
-// - certainty (games involving more-established players carry more signal),
-// - leverage (once a match is effectively decided, remaining games are downweighted).
+// - certainty (games involving more-established players carry more signal).
 const RIDGE_LAMBDA = 4;
 const RECENCY_FLOOR_WEIGHT = 0.85;
 const UNCERTAINTY_FLOOR_WEIGHT = 0.8;
-const LOW_LEVERAGE_WEIGHT = 0.9;
-const GAMES_PER_ROUND = 4;
 
 // A forfeit/walkover is recorded as a token 1-0 score (no real pickleball game
 // ends with the winner under 11). These reflect attendance, not play, so they
@@ -43,17 +40,6 @@ const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
 const toFiniteNumber = (value) => {
   const n = Number(value);
   return Number.isFinite(n) ? n : null;
-};
-
-const roundFromGameNumber = gameNumber => {
-  const n = toFiniteNumber(gameNumber);
-  return n == null ? null : Math.floor(n / GAMES_PER_ROUND) + 1;
-};
-
-const shouldDownweightFollowingGames = (round, homeWins, awayWins) => {
-  if (round == null) return false;
-  const leaderWins = Math.max(homeWins, awayWins);
-  return (round <= 6 && leaderWins >= 16) || (round === 7 && leaderWins >= 17);
 };
 
 // Teammate-pair chemistry tuning: shrinkage strength and the minimum shared
@@ -104,40 +90,25 @@ function invertMatrix(A) {
 function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
   // Collect one row per game: +1 home pair, -1 away pair, target = home margin.
   // Track per-game metadata for weighting.
-  const rows = []; // each: { plus: [id,id], minus: [id,id], margin, week, leverageWeight }
+  const rows = []; // each: { plus: [id,id], minus: [id,id], margin, week }
   const gamesPlayedCount = {};
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
     if (!d) continue;
-    const games = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
-      .slice()
-      .sort((a, b) => (toFiniteNumber(a.gameNumber) ?? 0) - (toFiniteNumber(b.gameNumber) ?? 0));
-    let homeWins = 0;
-    let awayWins = 0;
-    let downweightFollowing = false;
+    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
     for (const g of games) {
       const h1 = g.homePlayerId1, h2 = g.homePlayerId2, a1 = g.awayPlayerId1, a2 = g.awayPlayerId2;
-      const validPlayers = !!(h1 && h2 && a1 && a2);
-      const hasScore = g.homeScore != null && g.awayScore != null;
-      const leverageWeight = downweightFollowing ? LOW_LEVERAGE_WEIGHT : 1;
-      if (validPlayers && hasScore && !isForfeit(g)) {
-        rows.push({
-          plus: [h1, h2],
-          minus: [a1, a2],
-          margin: g.homeScore - g.awayScore,
-          week: toFiniteNumber(mu.weekNumber),
-          leverageWeight,
-        });
-        for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
-      }
-      if (!hasScore) continue;
-      if (g.homeScore > g.awayScore) homeWins++;
-      else if (g.awayScore > g.homeScore) awayWins++;
-      if (!downweightFollowing) {
-        const round = roundFromGameNumber(g.gameNumber);
-        if (shouldDownweightFollowingGames(round, homeWins, awayWins)) downweightFollowing = true;
-      }
+      if (!h1 || !h2 || !a1 || !a2) continue;
+      if (g.homeScore == null || g.awayScore == null) continue;
+      if (isForfeit(g)) continue; // walkovers measure attendance, not play
+      rows.push({
+        plus: [h1, h2],
+        minus: [a1, a2],
+        margin: g.homeScore - g.awayScore,
+        week: toFiniteNumber(mu.weekNumber),
+      });
+      for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
     }
   }
 
@@ -173,7 +144,7 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
     const Atb = new Array(n).fill(0);
     const rowWeights = new Array(rows.length).fill(1);
     rows.forEach((row, rowIx) => {
-      const w = recencyWeight(row.week) * (row.leverageWeight || 1) * uncertaintyWeight(row, confidenceByPid);
+      const w = recencyWeight(row.week) * uncertaintyWeight(row, confidenceByPid);
       rowWeights[rowIx] = w;
       const signed = [[row.plus[0], 1], [row.plus[1], 1], [row.minus[0], -1], [row.minus[1], -1]];
       for (const [idI, sI] of signed) {
@@ -193,7 +164,7 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
     return { inv, beta, rowWeights };
   };
 
-  // Pass 1: recency + leverage.
+  // Pass 1: recency weighting.
   const firstPass = solveWeighted();
   const pass1ConfidenceByPid = {};
   ids.forEach((id, i) => {
