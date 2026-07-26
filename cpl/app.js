@@ -86,6 +86,7 @@ const playerRatingByName = Object.fromEntries(
 
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
+let hashSetByApp = false;
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
@@ -759,12 +760,17 @@ function showPlayerModal(name) {
 }
 
 function openPlayer(name) {
+  hashSetByApp = true;
   window.location.hash = `#player/${slugify(name)}`;
 }
 
 function closeModal() {
   if ((window.location.hash || '').startsWith('#player/')) {
-    history.back();
+    if (hashSetByApp) {
+      history.back();
+    } else {
+      window.location.hash = '';
+    }
   } else {
     hideModal();
   }
