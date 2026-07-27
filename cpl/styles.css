@@ -257,8 +257,6 @@ td {
   white-space: nowrap;
 }
 
-th:first-child,
-td:first-child,
 th.l,
 td.l {
   text-align: left;
@@ -338,10 +336,18 @@ tbody td {
   font-weight: 700;
 }
 
+.res-slight-W {
+  color: color-mix(in srgb, var(--win) 55%, var(--mut));
+}
+
 .neg-diff,
 .res-L {
   color: var(--loss);
   font-weight: 700;
+}
+
+.res-slight-L {
+  color: color-mix(in srgb, var(--loss) 55%, var(--mut));
 }
 
 .confwrap {
@@ -527,6 +533,11 @@ tbody td {
   letter-spacing: 0.04em;
 }
 
+.mlog th.l,
+.mlog td.l {
+  text-align: left;
+}
+
 .gtitle {
   display: flex;
   gap: 10px;
@@ -549,6 +560,11 @@ tbody td {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   background: var(--panel2);
+}
+
+.glog tr.wkrow-projected td {
+  background: rgb(232 198 107 / 14%);
+  color: var(--gold);
 }
 
 .glog td {
@@ -969,6 +985,7 @@ tbody td {
 .grid-wrap td.win {
   border-color: color-mix(in srgb, var(--win) 40%, transparent);
 }
+.grid-wrap td.split-multi .entry.win,
 .grid-wrap td.win-multi .entry.win,
 .grid-wrap td.win {
   background: color-mix(in srgb, var(--win) 14%, transparent);
@@ -978,6 +995,7 @@ tbody td {
 .grid-wrap td.loss {
   border-color: color-mix(in srgb, var(--loss) 40%, transparent);
 }
+.grid-wrap td.split-multi .entry.loss,
 .grid-wrap td.loss-multi .entry.loss,
 .grid-wrap td.loss {
   background: color-mix(in srgb, var(--loss) 14%, transparent);
@@ -1005,7 +1023,7 @@ tbody td {
 
 .grid-wrap .entry {
   padding: 12px 0 6px;
-  margin: -10px -4px -4px;
+  margin: -12px -4px -4px;
 }
 
 .grid-wrap .entry + .entry {

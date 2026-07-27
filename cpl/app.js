@@ -15,9 +15,9 @@ const COLUMNS = Object.freeze([
   { key: 'team', label: 'Team', align: 'left' },
   { key: 'rating', label: 'Rating', align: 'right' },
   { key: 'conf', label: 'Conf', align: 'right' },
-  { key: 'soo', label: 'Opp Str', align: 'right' },
-  { key: 'sop', label: 'Partner Str', align: 'right' },
-  { key: 'leagueRank', label: 'Lg Rank', align: 'right' },
+  { key: 'soo', label: 'Opp <br>Str', align: 'right' },
+  { key: 'sop', label: 'Partner <br>Str', align: 'right' },
+  { key: 'leagueRank', label: 'Lg <br>Rank', align: 'right' },
   { key: 'matches', label: 'M', align: 'right' },
   { key: 'gamesPlayed', label: 'GP', align: 'right' },
   { key: 'wl', label: 'W–L', align: 'right' },
@@ -31,6 +31,13 @@ const GAME_TYPE_LABELS = Object.freeze({
   mixed: ['MIX', 't-mixed'],
   female: ['W', 't-female'],
   male: ['M', 't-male'],
+});
+const RESULT_CLASS = Object.freeze({
+  win: 'res-W',
+  slightWin: 'res-slight-W',
+  loss: 'res-L',
+  slightLoss: 'res-slight-L',
+  neutral: 'mut',
 });
 const HTML_ESCAPE_MAP = Object.freeze({
   '&': '&amp;',
@@ -79,6 +86,7 @@ const playerRatingByName = Object.fromEntries(
 
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
+let hashSetByApp = false;
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
@@ -117,6 +125,10 @@ function formatSignedValue(value, digits) {
 function formatDiffSpan(value) {
   const className = value >= 0 ? 'pos-diff' : 'neg-diff';
   return `<span class="${className}">${formatSignedValue(value)}</span>`;
+}
+
+function getWinLossClass(won) {
+  return won ? RESULT_CLASS.win : RESULT_CLASS.loss;
 }
 
 function pluralize(count, singular, plural = `${singular}s`) {
@@ -487,9 +499,11 @@ function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
 // `won` is whether this pair won the game.
 function renderExpectationTag(expectedMargin, won) {
   if (expectedMargin === null) return '';
+  const absMargin = Math.abs(expectedMargin);
+  if (absMargin < 1.0) return '';
   const favoured = expectedMargin > 0;
-  const diff = Math.abs(expectedMargin).toFixed(1);
-  if ((diff === '0.0') || (favoured && won) || (!favoured && !won)) {
+  const diff = absMargin.toFixed(1);
+  if ((favoured && won) || (!favoured && !won)) {
     return ' <span class="exp-tag exp-met" title="Result matched the rating-based expectation">exp</span>';
   }
   if (!favoured && won) {
@@ -498,21 +512,110 @@ function renderExpectationTag(expectedMargin, won) {
   return ` <span class="exp-tag exp-drop" title="Upset loss — despite a ${diff} pt/game pair-rating advantage">↓</span>`;
 }
 
-// Returns an inline HTML fragment summarising upset wins/losses for a set of
-// games, e.g. "• ↑ 2  ↓ 1". Returns '' when there are no upsets to report.
-function renderUpsetSummary(upsetWins, upsetLosses) {
-  if (!upsetWins && !upsetLosses) return '';
+function describeProjectedOutcome(expectedMargin) {
+  if (expectedMargin === null) {
+    return {
+      outcome: 'unrated',
+      resultClass: RESULT_CLASS.neutral,
+      marginLabel: EMPTY_VALUE,
+      resultLabel: '—',
+      displayLabel: '—',
+    };
+  }
+  const marginLabel = formatSignedValue(expectedMargin, 1);
+  const absMargin = Math.abs(expectedMargin);
+  if (absMargin < 1.0) {
+    return {
+      outcome: 'tie',
+      resultClass: RESULT_CLASS.neutral,
+      marginLabel,
+      resultLabel: 'Even',
+      displayLabel: `Even (${marginLabel})`,
+    };
+  }
+  if (expectedMargin > 2.5) {
+    return {
+      outcome: 'win',
+      resultClass: RESULT_CLASS.win,
+      marginLabel,
+      resultLabel: 'Proj W',
+      displayLabel: `Proj W (${marginLabel})`,
+    };
+  }
+  if (expectedMargin > 0) {
+    return {
+      outcome: 'win',
+      resultClass: RESULT_CLASS.slightWin,
+      marginLabel,
+      resultLabel: 'Slight W',
+      displayLabel: `Slight W (${marginLabel})`,
+    };
+  }
+  if (expectedMargin < -2.5) {
+    return {
+      outcome: 'loss',
+      resultClass: RESULT_CLASS.loss,
+      marginLabel,
+      resultLabel: 'Proj L',
+      displayLabel: `Proj L (${marginLabel})`,
+    };
+  }
+  return {
+    outcome: 'loss',
+    resultClass: RESULT_CLASS.slightLoss,
+    marginLabel,
+    resultLabel: 'Slight L',
+    displayLabel: `Slight L (${marginLabel})`,
+  };
+}
+
+// Returns an inline HTML fragment summarising expected and upset outcomes for
+// rated games, e.g. "• exp W 2  exp L 1  ups W 1  ups L 1". Returns '' when
+// there are no rated games to report.
+function renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses) {
+  if (!expectedWins && !expectedLosses && !upsetWins && !upsetLosses) return '';
   const parts = [];
+  if (expectedWins) {
+    parts.push(`<span class="exp-tag exp-upset" title="Expected wins (rating-based favorite won)">${expectedWins} exp W</span>`);
+  }
+  if (expectedLosses) {
+    parts.push(`<span class="exp-tag exp-drop" title="Expected losses (rating-based underdog lost)">${expectedLosses} exp L</span>`);
+  }
   if (upsetWins) {
-    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">↑</span>&nbsp;${upsetWins}`);
+    parts.push(`<span class="exp-tag exp-upset" title="Upset wins (won despite a pair-rating deficit)">${upsetWins} ups W</span>`);
   }
   if (upsetLosses) {
-    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">↓</span>&nbsp;${upsetLosses}`);
+    parts.push(`<span class="exp-tag exp-drop" title="Upset losses (lost despite a pair-rating advantage)">${upsetLosses} ups L</span>`);
   }
   return ` • ${parts.join('&ensp;')}`;
 }
 
-function renderGameLogRows(player) {
+function getProjectedPlayerGames(player) {
+  const projectedGames = [];
+  for (const match of DATA.matches || []) {
+    if (match.complete || !(match.games || []).length) continue;
+    for (const game of match.games || []) {
+      const playerOnHomeSide = game.h?.includes(player.name);
+      const playerOnAwaySide = game.a?.includes(player.name);
+      if (!playerOnHomeSide && !playerOnAwaySide) continue;
+      const usPlayers = playerOnHomeSide ? game.h : game.a;
+      const themPlayers = playerOnHomeSide ? game.a : game.h;
+      const partner = usPlayers[0] === player.name ? usPlayers[1] : usPlayers[0];
+      projectedGames.push({
+        wk: match.week,
+        opp: playerOnHomeSide ? match.away : match.home,
+        t: game.t,
+        with: partner || '',
+        vs: [themPlayers[0] || '', themPlayers[1] || ''],
+        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+      });
+    }
+  }
+  projectedGames.sort((a, b) => a.wk - b.wk);
+  return projectedGames;
+}
+
+function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
 
@@ -523,12 +626,12 @@ function renderGameLogRows(player) {
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
       gameLog += `
-        <tr class="wkrow"><td colspan="5" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
+        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
     const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-    const resultClass = game.w ? 'res-W' : 'res-L';
+    const resultClass = getWinLossClass(game.w);
     const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
     const partnerCell = game.ff
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
@@ -538,13 +641,39 @@ function renderGameLogRows(player) {
       ? null
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
+    const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         <td class="l"><span class="pill ${className}">${label}</span></td>
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
-        <td class="${resultClass}">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${resultClass} l">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
+      </tr>
+    `;
+  }
+
+  for (const game of projectedGames) {
+    if (game.wk !== lastWeek) {
+      lastWeek = game.wk;
+      gameLog += `
+        <tr class="wkrow wkrow-projected">
+          <td colspan="6" class="l"><span class="mut">(projected)</span> Week ${game.wk} • vs ${escapeHtml(game.opp)}</td>
+        </tr>
+      `;
+    }
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    const projection = describeProjectedOutcome(game.expectedMargin);
+    gameLog += `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(game.with)}</td>
+        <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
+        <td class="mut">${EMPTY_VALUE}</td>
+        <td class="mut">Pending</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}</td>
       </tr>
     `;
   }
@@ -553,19 +682,28 @@ function renderGameLogRows(player) {
 }
 
 function renderModalBody(player) {
+  const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
-  const gameRows = renderGameLogRows(player);
+  const gameRows = renderGameLogRows(player, projectedGames);
   const gameCount = (player.games || []).length;
+  const projectedCount = projectedGames.length;
 
-  let upsetWins = 0, upsetLosses = 0;
+  let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
     if (game.ff) continue;
     const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
-    if (em === null || em === 0) continue;
-    if (em < 0 && game.w === 1) upsetWins++;
-    if (em > 0 && game.w === 0) upsetLosses++;
+    if (em === null || Math.abs(em) < 1.0) continue;
+    if (em < 0 && game.w === 1) {
+      upsetWins++;
+    } else if (em > 0 && game.w === 0) {
+      upsetLosses++;
+    } else if (game.w === 1) {
+      expectedWins++;
+    } else {
+      expectedLosses++;
+    }
   }
-  const upsetLine = renderUpsetSummary(upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
     <table class="mlog">
@@ -583,7 +721,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${matchRows}</tbody>
     </table>
-    <div class="gtitle">Game-by-game log <span>${gameCount} games${upsetLine}</span></div>
+    <div class="gtitle">Game-by-game log <span>${gameCount} games${projectedCount ? ` + ${projectedCount} projected` : ''}${upsetLine}</span></div>
     <table class="mlog glog">
       <thead>
         <tr>
@@ -591,16 +729,25 @@ function renderModalBody(player) {
           <th class="l">Partner</th>
           <th class="l">Opponents</th>
           <th>Score</th>
-          <th>Result</th>
+          <th class="l">Result</th>
+          <th>Projection</th>
         </tr>
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. <b>exp</b> = result matched the rating-based expectation; <b>↑</b> = upset win (overcame a pair-rating deficit); <b>↓</b> = upset loss (pair had a rating advantage). Tags appear only when all four players have a rating.</p>
+    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
-function openPlayer(name) {
+function showModal() {
+  elements.overlay.hidden = false;
+}
+
+function hideModal() {
+  elements.overlay.hidden = true;
+}
+
+function showPlayerModal(name) {
   const player = DATA.players.find((candidate) => candidate.name === name);
 
   if (!player) {
@@ -609,11 +756,24 @@ function openPlayer(name) {
 
   elements.modalHead.innerHTML = renderModalHeader(player);
   elements.modalBody.innerHTML = renderModalBody(player);
-  elements.overlay.hidden = false;
+  showModal();
+}
+
+function openPlayer(name) {
+  hashSetByApp = true;
+  window.location.hash = `#player/${slugify(name)}`;
 }
 
 function closeModal() {
-  elements.overlay.hidden = true;
+  if ((window.location.hash || '').startsWith('#player/')) {
+    if (hashSetByApp) {
+      history.back();
+    } else {
+      window.location.hash = '';
+    }
+  } else {
+    hideModal();
+  }
 }
 
 function handleColumnSort(event) {
@@ -742,7 +902,7 @@ function renderTeamMatchBlock(match, teamName) {
   const opponent = homeSide ? match.away : match.home;
   const won = homeSide === (match.result === 'home');
 
-  let upsetWins = 0, upsetLosses = 0;
+  let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   const matchSubs = new Set(match.subs || []);
   const formatSubAwarePlayers = (names) => names
     .map((n) => n + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
@@ -755,13 +915,21 @@ function renderTeamMatchBlock(match, teamName) {
       const themScore = homeSide ? game.as : game.hs;
       const win = usScore > themScore;
       const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
-      const resultClass = win ? 'res-W' : 'res-L';
+      const resultClass = getWinLossClass(win);
       const expectedMargin = game.ff
         ? null
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-      if (expectedMargin !== null && expectedMargin !== 0) {
-        if (expectedMargin < 0 && win) upsetWins++;
-        if (expectedMargin > 0 && !win) upsetLosses++;
+      const projection = describeProjectedOutcome(expectedMargin);
+      if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
+        if (expectedMargin < 0 && win) {
+          upsetWins++;
+        } else if (expectedMargin > 0 && !win) {
+          upsetLosses++;
+        } else if (win) {
+          expectedWins++;
+        } else {
+          expectedLosses++;
+        }
       }
       const expectTag = renderExpectationTag(expectedMargin, win);
       return `
@@ -770,25 +938,89 @@ function renderTeamMatchBlock(match, teamName) {
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
-          <td class="${resultClass}">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
+          <td class="${resultClass} l">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
+          <td class="${projection.resultClass}">${projection.displayLabel}</td>
         </tr>
       `;
     })
     .join('');
 
-  const upsetLine = renderUpsetSummary(upsetWins, upsetLosses);
+  const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
     <div class="wk-block">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
-        <span class="${won ? 'res-W' : 'res-L'}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
+        <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${upsetLine}</div>
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
-          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th>Result</th></tr></thead>
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th class="l">Result</th><th>Projection</th></tr></thead>
+          <tbody>${gameRows}</tbody>
+        </table>
+      </details>
+    </div>
+  `;
+}
+
+function renderPendingTeamMatchBlock(match, teamName) {
+  const homeSide = match.home === teamName;
+  const opponent = homeSide ? match.away : match.home;
+  const scheduledTime = formatMatchDate(match.time);
+  const gameCount = (match.games || []).length;
+
+  if (!gameCount) {
+    return `
+      <div class="wk-block pending-match">
+        <div class="wk-head">
+          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+          <span class="mut">${scheduledTime || 'TBD'}</span>
+        </div>
+        <div class="match-summary">Lineups have not been posted yet.</div>
+      </div>
+    `;
+  }
+
+  let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
+  const gameRows = (match.games || []).map((game) => {
+    const usPlayers = homeSide ? game.h : game.a;
+    const themPlayers = homeSide ? game.a : game.h;
+    const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
+    const projection = describeProjectedOutcome(expectedMargin);
+    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+    if (projection.outcome === 'win') projectedWins++;
+    if (projection.outcome === 'loss') projectedLosses++;
+    if (projection.outcome === 'tie') projectedTies++;
+    if (projection.outcome === 'unrated') unrated++;
+
+    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+    return `
+      <tr>
+        <td class="l"><span class="pill ${className}">${label}</span></td>
+        <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
+        <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
+        <td class="${resultClass}">${projection.marginLabel}</td>
+        <td class="${resultClass}">${projection.resultLabel}</td>
+      </tr>
+    `;
+  }).join('');
+
+  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
+  const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
+
+  return `
+    <div class="wk-block pending-match">
+      <div class="wk-head">
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span class="mut">${scheduledTime || 'TBD'}</span>
+      </div>
+      <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+      <details>
+        <summary>Projected game-by-game (${gameCount})</summary>
+        <table class="mlog glog">
+          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
@@ -845,13 +1077,7 @@ function renderTeamPage(team) {
     : '<div class="mut" style="font-size:13px">No duos with 3+ games together yet.</div>';
 
   const upcomingMarkup = upcoming.length
-    ? upcoming
-        .map((match) => {
-          const homeSide = match.home === team.name;
-          const opponent = homeSide ? match.away : match.home;
-          return `<div class="up-row"><span class="op">Week ${match.week} • ${homeSide ? 'vs' : '@'} <b>${escapeHtml(opponent)}</b></span><span class="dt">${formatMatchDate(match.time)}</span></div>`;
-        })
-        .join('')
+    ? upcoming.map((match) => renderPendingTeamMatchBlock(match, team.name)).join('')
     : '<div class="mut" style="font-size:13px;padding:4px 0">No upcoming matches scheduled.</div>';
 
   const historyMarkup = history.length
@@ -889,7 +1115,7 @@ function renderTeamPage(team) {
       ${historyMarkup}
     </div>
     <div class="team-section">
-      <h3>Upcoming</h3>
+      <h3>Pending matchups <span class="tag">scheduled + projected game lines when available</span></h3>
       ${upcomingMarkup}
     </div>
   `;
@@ -907,14 +1133,28 @@ function showMainView() {
 }
 
 function handleRoute() {
-  const routeMatch = (window.location.hash || '').match(/^#team\/(.+)$/);
+  const hash = window.location.hash || '';
+  const teamMatch = hash.match(/^#team\/(.+)$/);
+  const playerMatch = hash.match(/^#player\/(.+)$/);
 
-  if (routeMatch) {
-    const slug = decodeURIComponent(routeMatch[1]);
+  hideModal();
+
+  if (teamMatch) {
+    const slug = decodeURIComponent(teamMatch[1]);
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
 
     if (team) {
       renderTeamPage(team);
+      return;
+    }
+  }
+
+  if (playerMatch) {
+    const slug = decodeURIComponent(playerMatch[1]);
+    const player = DATA.players.find((candidate) => slugify(candidate.name) === slug);
+
+    if (player) {
+      showPlayerModal(player.name);
       return;
     }
   }
@@ -1000,10 +1240,18 @@ function renderResultsGrid() {
           }
           const total = list.length + (next ? 1 : 0);
           let className;
-          if (list.length === 1) {
-            className = list[0].win ? 'win' : 'loss';
-          } else {
+          if (list.length === 0) {
             className = 'upcoming';
+          } else {
+            const wins = list.filter((e) => e.win).length;
+            const losses = list.length - wins;
+            if (wins > losses) {
+              className = 'win';
+            } else if (losses > wins) {
+              className = 'loss';
+            } else {
+              className = 'split';
+            }
           }
           if (total > 1) {
             className += '-multi';
@@ -1017,7 +1265,7 @@ function renderResultsGrid() {
     .join('');
 
   elements.gridHost.innerHTML = `<table>${headRow}${bodyRows}</table>
-    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
+    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
 }
 
 function computeSwarmLayout(players, geometry) {
