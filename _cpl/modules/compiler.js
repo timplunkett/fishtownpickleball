@@ -396,9 +396,13 @@ async function compileDashboardHtml() {
   const subNamesByMatchupId = {};
   for (const e of matchupDetailsJson) {
     const subs = [];
-    for (const p of (e.details && e.details.matchupPlayerStats && e.details.matchupPlayerStats.$values) || []) {
+    const players = (e.details && e.details.matchupPlayerStats && e.details.matchupPlayerStats.$values) || [];
+    // Collect the set of player IDs that appear as regular (non-sub) roster members in this matchup.
+    const rosterPids = new Set(players.filter(p => !p.isSub).map(p => p.playerId));
+    for (const p of players) {
       nameById[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
-      if (p.isSub) subs.push(norm(`${p.firstName} ${p.lastName}`));
+      // Only mark as sub if not also listed as a regular roster member in the same matchup.
+      if (p.isSub && !rosterPids.has(p.playerId)) subs.push(norm(`${p.firstName} ${p.lastName}`));
     }
     if (subs.length) subNamesByMatchupId[e.matchupId] = subs;
   }
