@@ -97,7 +97,7 @@
       "awayWins": 5,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
+      "homePodRanking": 2,
       "awayPodRanking": 4,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -182,7 +182,7 @@
       "awayWins": 7,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
+      "homePodRanking": 1,
       "awayPodRanking": 3,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -326,7 +326,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 2,
+      "awayPodRanking": 1,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -393,7 +393,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 5,
-      "awayPodRanking": 2,
+      "awayPodRanking": 1,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -460,7 +460,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 3,
-      "awayPodRanking": 1,
+      "awayPodRanking": 2,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -593,8 +593,8 @@
       "awayWins": 16,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 2,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -660,7 +660,7 @@
       "awayWins": 11,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
+      "homePodRanking": 2,
       "awayPodRanking": 5,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -795,7 +795,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 3,
-      "awayPodRanking": 2,
+      "awayPodRanking": 1,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -862,7 +862,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 1,
+      "awayPodRanking": 2,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -871,9 +871,9 @@
       "weekNumber": 7,
       "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
       "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 637,
+      "awayPoints": 584,
+      "endResult": "home",
       "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
       "awayLineupLocked": false,
       "homeLineupLocked": false,
@@ -924,11 +924,11 @@
       },
       "division": null,
       "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
+      "homeWins": 21,
+      "awayWins": 11,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
+      "homePodRanking": 1,
       "awayPodRanking": 4,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -1063,7 +1063,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 5,
-      "awayPodRanking": 1,
+      "awayPodRanking": 2,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
@@ -1196,7 +1196,7 @@
       "awayWins": 0,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
+      "homePodRanking": 1,
       "awayPodRanking": 5,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -1263,7 +1263,7 @@
       "awayWins": 0,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
+      "homePodRanking": 2,
       "awayPodRanking": 3,
       "address": "913 Wallace St, Philadelphia, PA"
     },
@@ -1330,8 +1330,8 @@
       "awayWins": 0,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
       "address": "913 Wallace St, Philadelphia, PA"
     },
     {
