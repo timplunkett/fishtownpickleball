@@ -99,7 +99,7 @@
         "awayWins": 5,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 2,
+        "homePodRanking": 3,
         "awayPodRanking": 4,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -136,7 +136,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -19.29,
+            "strengthOfOpponent": -19.2917,
             "ranking": 31
           },
           {
@@ -202,7 +202,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -39.465,
+            "strengthOfOpponent": -39.4667,
             "ranking": 2
           },
           {
@@ -301,8 +301,8 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -8.3914,
-            "ranking": 26
+            "strengthOfOpponent": -8.3929,
+            "ranking": 27
           },
           {
             "$id": "18",
@@ -433,7 +433,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -12.2729,
+            "strengthOfOpponent": -12.2743,
             "ranking": 32
           },
           {
@@ -466,7 +466,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -13.4267,
+            "strengthOfOpponent": -13.4367,
             "ranking": 13
           },
           {
@@ -565,7 +565,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -29.89,
+            "strengthOfOpponent": -29.8917,
             "ranking": 25
           },
           {
@@ -631,7 +631,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -9.5829,
+            "strengthOfOpponent": -9.5843,
             "ranking": 12
           },
           {
@@ -697,7 +697,7 @@
             "genderPPG": 17.25,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.4114,
+            "strengthOfOpponent": 2.4143,
             "ranking": 11
           },
           {
@@ -730,7 +730,7 @@
             "genderPPG": 12,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 23.1567,
+            "strengthOfOpponent": 23.1617,
             "ranking": 24
           },
           {
@@ -763,7 +763,7 @@
             "genderPPG": 16.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 27.2413,
+            "strengthOfOpponent": 27.2425,
             "ranking": 54
           },
           {
@@ -829,7 +829,7 @@
             "genderPPG": 12.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 41.2183,
+            "strengthOfOpponent": 41.22,
             "ranking": 57
           },
           {
@@ -863,7 +863,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "35",
@@ -928,7 +928,7 @@
             "genderPPG": 16.5,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 15.3975,
+            "strengthOfOpponent": 15.3988,
             "ranking": 37
           },
           {
@@ -994,7 +994,7 @@
             "genderPPG": 16.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 24.2863,
+            "strengthOfOpponent": 24.2875,
             "ranking": 46
           },
           {
@@ -1060,7 +1060,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 25.17,
+            "strengthOfOpponent": 25.1733,
             "ranking": 40
           },
           {
@@ -1093,7 +1093,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 14.1014,
+            "strengthOfOpponent": 14.1029,
             "ranking": 34
           },
           {
@@ -1816,7 +1816,7 @@
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 1,
-        "awayPodRanking": 3,
+        "awayPodRanking": 2,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -1852,7 +1852,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 16.77,
+            "strengthOfOpponent": 16.7733,
             "ranking": 19
           },
           {
@@ -1885,7 +1885,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 42.6367,
+            "strengthOfOpponent": 42.6483,
             "ranking": 71
           },
           {
@@ -1918,7 +1918,7 @@
             "genderPPG": 15.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 12.8829,
+            "strengthOfOpponent": 12.8871,
             "ranking": 14
           },
           {
@@ -1951,7 +1951,7 @@
             "genderPPG": 13.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 28.15,
+            "strengthOfOpponent": 28.1483,
             "ranking": 56
           },
           {
@@ -1984,7 +1984,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 28.535,
+            "strengthOfOpponent": 28.5367,
             "ranking": 58
           },
           {
@@ -2017,7 +2017,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 21.5267,
+            "strengthOfOpponent": 21.53,
             "ranking": 61
           },
           {
@@ -2083,7 +2083,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 3.2929,
+            "strengthOfOpponent": 3.2943,
             "ranking": 10
           },
           {
@@ -2116,7 +2116,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 18.8633,
+            "strengthOfOpponent": 18.8617,
             "ranking": 29
           },
           {
@@ -2215,7 +2215,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.0943,
+            "strengthOfOpponent": 6.13,
             "ranking": 6
           },
           {
@@ -2248,7 +2248,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 15.4943,
+            "strengthOfOpponent": 15.4986,
             "ranking": 47
           },
           {
@@ -2281,7 +2281,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -37.0983,
+            "strengthOfOpponent": -37.105,
             "ranking": 4
           },
           {
@@ -2347,7 +2347,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -32.5017,
+            "strengthOfOpponent": -32.5033,
             "ranking": 16
           },
           {
@@ -2380,7 +2380,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -19.61,
+            "strengthOfOpponent": -19.6183,
             "ranking": 28
           },
           {
@@ -2413,7 +2413,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -10.87,
+            "strengthOfOpponent": -10.8717,
             "ranking": 45
           },
           {
@@ -2479,7 +2479,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -23.8886,
+            "strengthOfOpponent": -23.8929,
             "ranking": 1
           },
           {
@@ -2545,7 +2545,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -35.9667,
+            "strengthOfOpponent": -35.9617,
             "ranking": 22
           },
           {
@@ -2578,7 +2578,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -0.5843,
+            "strengthOfOpponent": -0.6,
             "ranking": 20
           },
           {
@@ -2611,7 +2611,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.79,
+            "strengthOfOpponent": -18.805,
             "ranking": 44
           },
           {
@@ -2644,7 +2644,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -4.4886,
+            "strengthOfOpponent": -4.4929,
             "ranking": 41
           },
           {
@@ -2677,7 +2677,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -10.2129,
+            "strengthOfOpponent": -10.2243,
             "ranking": 9
           }
         ]
@@ -3300,7 +3300,7 @@
         "awayWins": 14,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 3,
+        "homePodRanking": 2,
         "awayPodRanking": 5,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -3370,8 +3370,8 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 2.7333,
-            "ranking": 35
+            "strengthOfOpponent": 2.7083,
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -3403,8 +3403,8 @@
             "genderPPG": 18.5,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 16.585,
-            "ranking": 27
+            "strengthOfOpponent": 16.48,
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -3436,7 +3436,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 8.6686,
+            "strengthOfOpponent": 8.6514,
             "ranking": 33
           },
           {
@@ -3502,7 +3502,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 22.295,
+            "strengthOfOpponent": 22.2388,
             "ranking": 30
           },
           {
@@ -3535,7 +3535,7 @@
             "genderPPG": 18.75,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 15.4714,
+            "strengthOfOpponent": 15.44,
             "ranking": 43
           },
           {
@@ -3601,7 +3601,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -5.1767,
+            "strengthOfOpponent": -5.325,
             "ranking": 17
           },
           {
@@ -3634,7 +3634,7 @@
             "genderPPG": 17.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 26.1963,
+            "strengthOfOpponent": 26.1625,
             "ranking": 49
           },
           {
@@ -3667,7 +3667,7 @@
             "genderPPG": 13.75,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 36.2413,
+            "strengthOfOpponent": 36.2388,
             "ranking": 65
           },
           {
@@ -3733,7 +3733,7 @@
             "genderPPG": 17.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 27.1967,
+            "strengthOfOpponent": 27.1733,
             "ranking": 62
           },
           {
@@ -3865,7 +3865,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -16.37,
+            "strengthOfOpponent": -16.3514,
             "ranking": 14
           },
           {
@@ -3898,7 +3898,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 0.7883,
+            "strengthOfOpponent": 0.8117,
             "ranking": 56
           },
           {
@@ -3997,7 +3997,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -27.8013,
+            "strengthOfOpponent": -27.77,
             "ranking": 7
           },
           {
@@ -4030,7 +4030,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -22.5025,
+            "strengthOfOpponent": -22.4463,
             "ranking": 10
           },
           {
@@ -4063,7 +4063,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -24.3375,
+            "strengthOfOpponent": -24.2863,
             "ranking": 29
           },
           {
@@ -4096,7 +4096,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.8067,
+            "strengthOfOpponent": -15.685,
             "ranking": 15
           },
           {
@@ -4129,7 +4129,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -9.735,
+            "strengthOfOpponent": -9.6833,
             "ranking": 48
           },
           {
@@ -4162,7 +4162,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -26.6763,
+            "strengthOfOpponent": -26.6175,
             "ranking": 6
           },
           {
@@ -4195,7 +4195,7 @@
             "genderPPG": 14.5,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": -7.77,
+            "strengthOfOpponent": -7.74,
             "ranking": 47
           }
         ]
@@ -5021,7 +5021,7 @@
             "genderWins": 3,
             "genderLosses": 0,
             "strengthOfOpponent": 0.5483,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "18",
@@ -6439,7 +6439,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.665,
+            "strengthOfOpponent": 12.635,
             "ranking": 60
           },
           {
@@ -6473,7 +6473,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 35
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -6505,8 +6505,8 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 14.1629,
-            "ranking": 27
+            "strengthOfOpponent": 14.0929,
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -6538,7 +6538,7 @@
             "genderPPG": 19.25,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 10.61,
+            "strengthOfOpponent": 10.6086,
             "ranking": 33
           },
           {
@@ -6637,7 +6637,7 @@
             "genderPPG": 16,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 13.87,
+            "strengthOfOpponent": 13.8629,
             "ranking": 43
           },
           {
@@ -6670,7 +6670,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 5.05,
+            "strengthOfOpponent": 5.048,
             "ranking": 21
           },
           {
@@ -6703,7 +6703,7 @@
             "genderPPG": 16.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 8.4667,
+            "strengthOfOpponent": 8.36,
             "ranking": 17
           },
           {
@@ -6736,7 +6736,7 @@
             "genderPPG": 17,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 16.385,
+            "strengthOfOpponent": 16.3713,
             "ranking": 49
           },
           {
@@ -6802,7 +6802,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 6.04,
+            "strengthOfOpponent": 6.0171,
             "ranking": 42
           },
           {
@@ -6868,7 +6868,7 @@
             "genderPPG": 14.75,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 26.1914,
+            "strengthOfOpponent": 26.1871,
             "ranking": 50
           },
           {
@@ -6934,7 +6934,7 @@
             "genderPPG": 17,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.4763,
+            "strengthOfOpponent": 0.47,
             "ranking": 59
           },
           {
@@ -6967,7 +6967,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -20.6825,
+            "strengthOfOpponent": -20.685,
             "ranking": 16
           },
           {
@@ -7000,7 +7000,7 @@
             "genderPPG": 17,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -5.0643,
+            "strengthOfOpponent": -5.0114,
             "ranking": 28
           },
           {
@@ -7099,7 +7099,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -23.9088,
+            "strengthOfOpponent": -23.8975,
             "ranking": 1
           },
           {
@@ -7198,7 +7198,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -17.5163,
+            "strengthOfOpponent": -17.4813,
             "ranking": 20
           },
           {
@@ -7231,7 +7231,7 @@
             "genderPPG": 19,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": -12.2914,
+            "strengthOfOpponent": -12.2729,
             "ranking": 44
           },
           {
@@ -7264,7 +7264,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -12.5613,
+            "strengthOfOpponent": -12.5013,
             "ranking": 41
           },
           {
@@ -7297,7 +7297,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -10.7017,
+            "strengthOfOpponent": -10.635,
             "ranking": 9
           }
         ]
@@ -7920,8 +7920,8 @@
         "awayWins": 14,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 3,
-        "awayPodRanking": 2,
+        "homePodRanking": 2,
+        "awayPodRanking": 3,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -7957,7 +7957,7 @@
             "genderPPG": 18.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 1.6567,
+            "strengthOfOpponent": 1.6533,
             "ranking": 19
           },
           {
@@ -8089,7 +8089,7 @@
             "genderPPG": 16.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 13.36,
+            "strengthOfOpponent": 13.3583,
             "ranking": 58
           },
           {
@@ -8122,7 +8122,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 10.1667,
+            "strengthOfOpponent": 10.165,
             "ranking": 61
           },
           {
@@ -8155,7 +8155,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -2.55,
+            "strengthOfOpponent": -2.5483,
             "ranking": 7
           },
           {
@@ -8188,7 +8188,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -3.6343,
+            "strengthOfOpponent": -3.6257,
             "ranking": 10
           },
           {
@@ -8221,7 +8221,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 7.5167,
+            "strengthOfOpponent": 7.5133,
             "ranking": 29
           },
           {
@@ -8254,7 +8254,7 @@
             "genderPPG": 17.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 3.2229,
+            "strengthOfOpponent": 3.2871,
             "ranking": 15
           },
           {
@@ -8287,7 +8287,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 11.4817,
+            "strengthOfOpponent": 11.4917,
             "ranking": 48
           },
           {
@@ -8320,7 +8320,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -10.16,
+            "strengthOfOpponent": -10.1086,
             "ranking": 6
           },
           {
@@ -8353,7 +8353,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 2.5643,
+            "strengthOfOpponent": 2.5814,
             "ranking": 47
           },
           {
@@ -8386,7 +8386,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.545,
+            "strengthOfOpponent": -2.5467,
             "ranking": 31
           },
           {
@@ -8419,7 +8419,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -1.3543,
+            "strengthOfOpponent": -1.3786,
             "ranking": 8
           },
           {
@@ -8485,7 +8485,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -3.7683,
+            "strengthOfOpponent": -3.7667,
             "ranking": 23
           },
           {
@@ -8551,8 +8551,8 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.59,
-            "ranking": 26
+            "strengthOfOpponent": 2.5529,
+            "ranking": 27
           },
           {
             "$id": "31",
@@ -8584,7 +8584,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.5417,
+            "strengthOfOpponent": -15.5533,
             "ranking": 5
           },
           {
@@ -8617,7 +8617,7 @@
             "genderPPG": 17.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -5.3767,
+            "strengthOfOpponent": -5.3733,
             "ranking": 52
           },
           {
@@ -8650,7 +8650,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.3867,
+            "strengthOfOpponent": -2.3833,
             "ranking": 51
           },
           {
@@ -8683,7 +8683,7 @@
             "genderPPG": 18,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 11.7914,
+            "strengthOfOpponent": 11.7543,
             "ranking": 32
           },
           {
@@ -8815,7 +8815,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -8.0967,
+            "strengthOfOpponent": -8.0917,
             "ranking": 25
           },
           {
@@ -8881,7 +8881,7 @@
             "genderPPG": 19.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -8.3771,
+            "strengthOfOpponent": -8.4214,
             "ranking": 12
           },
           {
@@ -9574,7 +9574,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 16.0983,
+            "strengthOfOpponent": 16.11,
             "ranking": 60
           },
           {
@@ -9607,8 +9607,8 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -6.3367,
-            "ranking": 35
+            "strengthOfOpponent": -6.32,
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -9640,8 +9640,8 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.4175,
-            "ranking": 27
+            "strengthOfOpponent": -2.4938,
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -9739,7 +9739,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -2.7557,
+            "strengthOfOpponent": -2.7743,
             "ranking": 30
           },
           {
@@ -9772,7 +9772,7 @@
             "genderPPG": 19.5,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 10.3057,
+            "strengthOfOpponent": 10.3043,
             "ranking": 43
           },
           {
@@ -9805,7 +9805,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -0.8143,
+            "strengthOfOpponent": -0.8214,
             "ranking": 21
           },
           {
@@ -9871,7 +9871,7 @@
             "genderPPG": 14.5,
             "genderWins": 0,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.98,
+            "strengthOfOpponent": 0.9667,
             "ranking": 49
           },
           {
@@ -9904,7 +9904,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 9.5914,
+            "strengthOfOpponent": 9.5886,
             "ranking": 65
           },
           {
@@ -9970,7 +9970,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.9033,
+            "strengthOfOpponent": -2.92,
             "ranking": 62
           },
           {
@@ -10003,7 +10003,7 @@
             "genderPPG": 15.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 6.2029,
+            "strengthOfOpponent": 6.2157,
             "ranking": 50
           },
           {
@@ -10069,7 +10069,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -22.8033,
+            "strengthOfOpponent": -22.7983,
             "ranking": 24
           },
           {
@@ -10102,7 +10102,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -2.9117,
+            "strengthOfOpponent": -2.8933,
             "ranking": 54
           },
           {
@@ -10135,7 +10135,7 @@
             "genderPPG": 19.25,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -10.2886,
+            "strengthOfOpponent": -10.2843,
             "ranking": 18
           },
           {
@@ -10168,7 +10168,7 @@
             "genderPPG": 15.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 3.9683,
+            "strengthOfOpponent": 3.9567,
             "ranking": 57
           },
           {
@@ -10201,8 +10201,8 @@
             "genderPPG": 18.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 0.7971,
-            "ranking": 36
+            "strengthOfOpponent": 0.8014,
+            "ranking": 35
           },
           {
             "$id": "32",
@@ -10234,7 +10234,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -1.97,
+            "strengthOfOpponent": -1.9717,
             "ranking": 53
           },
           {
@@ -10267,7 +10267,7 @@
             "genderPPG": 17.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.3286,
+            "strengthOfOpponent": 2.3557,
             "ranking": 37
           },
           {
@@ -10333,7 +10333,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -13.6083,
+            "strengthOfOpponent": -13.5867,
             "ranking": 46
           },
           {
@@ -10465,7 +10465,7 @@
             "genderPPG": 15.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 11.9767,
+            "strengthOfOpponent": 11.9717,
             "ranking": 67
           },
           {
@@ -10531,7 +10531,7 @@
             "genderPPG": 16.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.8243,
+            "strengthOfOpponent": 2.8657,
             "ranking": 38
           }
         ]
@@ -11155,7 +11155,7 @@
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 1,
-        "awayPodRanking": 2,
+        "awayPodRanking": 3,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -11191,7 +11191,7 @@
             "genderPPG": 17.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 4.7014,
+            "strengthOfOpponent": 4.7029,
             "ranking": 31
           },
           {
@@ -11224,7 +11224,7 @@
             "genderPPG": 17.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 3.1929,
+            "strengthOfOpponent": 3.1957,
             "ranking": 8
           },
           {
@@ -11356,8 +11356,8 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -0.8486,
-            "ranking": 26
+            "strengthOfOpponent": -0.8429,
+            "ranking": 27
           },
           {
             "$id": "18",
@@ -11455,7 +11455,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -2.765,
+            "strengthOfOpponent": -2.7633,
             "ranking": 51
           },
           {
@@ -11554,7 +11554,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -22.585,
+            "strengthOfOpponent": -22.5833,
             "ranking": 3
           },
           {
@@ -11653,7 +11653,7 @@
             "genderPPG": 19,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 9.5733,
+            "strengthOfOpponent": 9.575,
             "ranking": 55
           },
           {
@@ -11686,7 +11686,7 @@
             "genderPPG": 18.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": -0.51,
+            "strengthOfOpponent": -0.5029,
             "ranking": 12
           },
           {
@@ -11719,7 +11719,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 30.3733,
+            "strengthOfOpponent": 30.3717,
             "ranking": 66
           },
           {
@@ -11785,7 +11785,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 13.2114,
+            "strengthOfOpponent": 13.2086,
             "ranking": 59
           },
           {
@@ -11818,7 +11818,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -11.3917,
+            "strengthOfOpponent": -11.3933,
             "ranking": 16
           },
           {
@@ -11851,7 +11851,7 @@
             "genderPPG": 17.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -10.0983,
+            "strengthOfOpponent": -10.105,
             "ranking": 28
           },
           {
@@ -11917,7 +11917,7 @@
             "genderPPG": 15.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 26.205,
+            "strengthOfOpponent": 26.2083,
             "ranking": 64
           },
           {
@@ -11950,7 +11950,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -11.8529,
+            "strengthOfOpponent": -11.8629,
             "ranking": 1
           },
           {
@@ -12049,7 +12049,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -4.2957,
+            "strengthOfOpponent": -4.2986,
             "ranking": 20
           },
           {
@@ -12771,7 +12771,7 @@
         "awayWins": 11,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 2,
+        "homePodRanking": 3,
         "awayPodRanking": 5,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -12842,7 +12842,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 35
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -12874,8 +12874,8 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -12.0786,
-            "ranking": 27
+            "strengthOfOpponent": -12.18,
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -12907,7 +12907,7 @@
             "genderPPG": 13.75,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 6.1614,
+            "strengthOfOpponent": 6.1214,
             "ranking": 33
           },
           {
@@ -12940,7 +12940,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 56.5267,
+            "strengthOfOpponent": 56.5317,
             "ranking": 72
           },
           {
@@ -12973,7 +12973,7 @@
             "genderPPG": 17.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -3.0014,
+            "strengthOfOpponent": -3.05,
             "ranking": 30
           },
           {
@@ -13039,7 +13039,7 @@
             "genderPPG": 12,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 22.0883,
+            "strengthOfOpponent": 22.0967,
             "ranking": 21
           },
           {
@@ -13072,7 +13072,7 @@
             "genderPPG": 15.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 3.5829,
+            "strengthOfOpponent": 3.4514,
             "ranking": 17
           },
           {
@@ -13138,7 +13138,7 @@
             "genderPPG": 14,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 39.55,
+            "strengthOfOpponent": 39.5517,
             "ranking": 65
           },
           {
@@ -13204,7 +13204,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 61.1217,
+            "strengthOfOpponent": 61.105,
             "ranking": 62
           },
           {
@@ -13270,7 +13270,7 @@
             "genderPPG": 15.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -30.2583,
+            "strengthOfOpponent": -30.2283,
             "ranking": 31
           },
           {
@@ -13336,7 +13336,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -62.4567,
+            "strengthOfOpponent": -62.4583,
             "ranking": 2
           },
           {
@@ -13369,7 +13369,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -46.4717,
+            "strengthOfOpponent": -46.475,
             "ranking": 23
           },
           {
@@ -13402,7 +13402,7 @@
             "genderPPG": 18.25,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 11.8986,
+            "strengthOfOpponent": 11.9457,
             "ranking": 68
           },
           {
@@ -13436,7 +13436,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 26
+            "ranking": 27
           },
           {
             "$id": "32",
@@ -13468,7 +13468,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -35.5283,
+            "strengthOfOpponent": -35.5333,
             "ranking": 5
           },
           {
@@ -13567,7 +13567,7 @@
             "genderPPG": 14.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 4.91,
+            "strengthOfOpponent": 4.9914,
             "ranking": 32
           },
           {
@@ -13600,7 +13600,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -5.2371,
+            "strengthOfOpponent": -5.1457,
             "ranking": 13
           },
           {
@@ -13633,7 +13633,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -48.1633,
+            "strengthOfOpponent": -48.1483,
             "ranking": 3
           },
           {
@@ -13699,7 +13699,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -44.9767,
+            "strengthOfOpponent": -44.985,
             "ranking": 25
           },
           {
@@ -13765,7 +13765,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -4.5071,
+            "strengthOfOpponent": -4.4271,
             "ranking": 12
           },
           {
@@ -14422,7 +14422,7 @@
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 4,
-        "awayPodRanking": 3,
+        "awayPodRanking": 2,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -14524,7 +14524,7 @@
             "genderPPG": 18.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": -7.5829,
+            "strengthOfOpponent": -7.5886,
             "ranking": 14
           },
           {
@@ -14557,7 +14557,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.0433,
+            "strengthOfOpponent": 20.04,
             "ranking": 56
           },
           {
@@ -14590,7 +14590,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 4.5388,
+            "strengthOfOpponent": 4.5375,
             "ranking": 58
           },
           {
@@ -14623,7 +14623,7 @@
             "genderPPG": 13.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 21.3417,
+            "strengthOfOpponent": 21.3383,
             "ranking": 61
           },
           {
@@ -14656,7 +14656,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -16.855,
+            "strengthOfOpponent": -16.86,
             "ranking": 7
           },
           {
@@ -14689,7 +14689,7 @@
             "genderPPG": 20,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -17.18,
+            "strengthOfOpponent": -17.1913,
             "ranking": 10
           },
           {
@@ -14722,7 +14722,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -3.0475,
+            "strengthOfOpponent": -3.0525,
             "ranking": 29
           },
           {
@@ -14788,7 +14788,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 15.9067,
+            "strengthOfOpponent": 15.895,
             "ranking": 48
           },
           {
@@ -14854,7 +14854,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 5.7457,
+            "strengthOfOpponent": 5.7329,
             "ranking": 47
           },
           {
@@ -14887,7 +14887,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -17.3367,
+            "strengthOfOpponent": -17.3283,
             "ranking": 11
           },
           {
@@ -14920,7 +14920,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.5133,
+            "strengthOfOpponent": -15.51,
             "ranking": 24
           },
           {
@@ -14953,7 +14953,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.2517,
+            "strengthOfOpponent": 2.255,
             "ranking": 54
           },
           {
@@ -14986,7 +14986,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -4.5086,
+            "strengthOfOpponent": -4.4986,
             "ranking": 18
           },
           {
@@ -15053,7 +15053,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "31",
@@ -15085,7 +15085,7 @@
             "genderPPG": 17.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -1.8583,
+            "strengthOfOpponent": -1.8567,
             "ranking": 53
           },
           {
@@ -15118,7 +15118,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 2.8467,
+            "strengthOfOpponent": 2.8533,
             "ranking": 37
           },
           {
@@ -15184,7 +15184,7 @@
             "genderPPG": 16.5,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 21.2357,
+            "strengthOfOpponent": 21.2429,
             "ranking": 46
           },
           {
@@ -15250,7 +15250,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -22.5083,
+            "strengthOfOpponent": -22.5033,
             "ranking": 40
           },
           {
@@ -15283,7 +15283,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 4.6886,
+            "strengthOfOpponent": 4.6986,
             "ranking": 34
           },
           {
@@ -15382,7 +15382,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 13.18,
+            "strengthOfOpponent": 13.1886,
             "ranking": 38
           }
         ]
@@ -16005,7 +16005,7 @@
         "awayWins": 12,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 3,
+        "homePodRanking": 2,
         "awayPodRanking": 1,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -16108,7 +16108,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -9.55,
+            "strengthOfOpponent": -9.5443,
             "ranking": 14
           },
           {
@@ -16141,7 +16141,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 3.9983,
+            "strengthOfOpponent": 4.0033,
             "ranking": 56
           },
           {
@@ -16174,7 +16174,7 @@
             "genderPPG": 17.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 13.6433,
+            "strengthOfOpponent": 13.6483,
             "ranking": 58
           },
           {
@@ -16240,7 +16240,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.8671,
+            "strengthOfOpponent": -2.8629,
             "ranking": 7
           },
           {
@@ -16273,7 +16273,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.2414,
+            "strengthOfOpponent": -7.2314,
             "ranking": 10
           },
           {
@@ -16306,7 +16306,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.6517,
+            "strengthOfOpponent": 6.6533,
             "ranking": 29
           },
           {
@@ -16339,7 +16339,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.9771,
+            "strengthOfOpponent": -7.9214,
             "ranking": 15
           },
           {
@@ -16372,7 +16372,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 0.485,
+            "strengthOfOpponent": 0.4733,
             "ranking": 48
           },
           {
@@ -16405,7 +16405,7 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -5.7933,
+            "strengthOfOpponent": -5.75,
             "ranking": 6
           },
           {
@@ -16438,7 +16438,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -6.7867,
+            "strengthOfOpponent": -6.785,
             "ranking": 47
           },
           {
@@ -16471,7 +16471,7 @@
             "genderPPG": 15.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -10.1917,
+            "strengthOfOpponent": -10.1933,
             "ranking": 4
           },
           {
@@ -16537,7 +16537,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 0.3467,
+            "strengthOfOpponent": 0.325,
             "ranking": 16
           },
           {
@@ -16603,7 +16603,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 0.88,
+            "strengthOfOpponent": 0.8817,
             "ranking": 45
           },
           {
@@ -16636,7 +16636,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.0383,
+            "strengthOfOpponent": 6.0417,
             "ranking": 64
           },
           {
@@ -16735,7 +16735,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.0114,
+            "strengthOfOpponent": 5.9757,
             "ranking": 22
           },
           {
@@ -16768,7 +16768,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 9.7071,
+            "strengthOfOpponent": 9.6943,
             "ranking": 20
           },
           {
@@ -16801,7 +16801,7 @@
             "genderPPG": 16.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -4.0533,
+            "strengthOfOpponent": -4.0583,
             "ranking": 44
           },
           {
@@ -16834,7 +16834,7 @@
             "genderPPG": 14.25,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 11.5157,
+            "strengthOfOpponent": 11.49,
             "ranking": 41
           },
           {
@@ -16867,7 +16867,7 @@
             "genderPPG": 20.25,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -0.1157,
+            "strengthOfOpponent": -0.1357,
             "ranking": 9
           }
         ]
@@ -17491,7 +17491,7 @@
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 4,
-        "awayPodRanking": 2,
+        "awayPodRanking": 3,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -17593,7 +17593,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -48.7883,
+            "strengthOfOpponent": -48.7817,
             "ranking": 2
           },
           {
@@ -17626,7 +17626,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -34.7783,
+            "strengthOfOpponent": -34.7767,
             "ranking": 23
           },
           {
@@ -17692,8 +17692,8 @@
             "genderPPG": 18.25,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.1071,
-            "ranking": 26
+            "strengthOfOpponent": 0.1043,
+            "ranking": 27
           },
           {
             "$id": "18",
@@ -17725,7 +17725,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -50.2583,
+            "strengthOfOpponent": -50.2533,
             "ranking": 5
           },
           {
@@ -17857,7 +17857,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -6.98,
+            "strengthOfOpponent": -6.9883,
             "ranking": 13
           },
           {
@@ -17923,7 +17923,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -5.635,
+            "strengthOfOpponent": -5.6367,
             "ranking": 63
           },
           {
@@ -18121,7 +18121,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 12.2283,
+            "strengthOfOpponent": 12.2333,
             "ranking": 24
           },
           {
@@ -18187,7 +18187,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 4.6643,
+            "strengthOfOpponent": 4.6671,
             "ranking": 18
           },
           {
@@ -18254,7 +18254,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "35",
@@ -18286,7 +18286,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 22.12,
+            "strengthOfOpponent": 22.1183,
             "ranking": 53
           },
           {
@@ -18319,7 +18319,7 @@
             "genderPPG": 19.5,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 10.1129,
+            "strengthOfOpponent": 10.1143,
             "ranking": 37
           },
           {
@@ -18352,7 +18352,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 48.845,
+            "strengthOfOpponent": 48.8433,
             "ranking": 70
           },
           {
@@ -18385,7 +18385,7 @@
             "genderPPG": 18.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 18.5133,
+            "strengthOfOpponent": 18.515,
             "ranking": 46
           },
           {
@@ -18517,7 +18517,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 54.43,
+            "strengthOfOpponent": 54.4217,
             "ranking": 67
           },
           {
@@ -19243,7 +19243,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 11.4786,
+            "strengthOfOpponent": 11.4771,
             "ranking": 11
           },
           {
@@ -19342,7 +19342,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 15.0529,
+            "strengthOfOpponent": 15.0543,
             "ranking": 18
           },
           {
@@ -19375,7 +19375,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.7083,
+            "strengthOfOpponent": 6.7067,
             "ranking": 57
           },
           {
@@ -19408,8 +19408,8 @@
             "genderPPG": 17.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 8.4817,
-            "ranking": 36
+            "strengthOfOpponent": 8.485,
+            "ranking": 35
           },
           {
             "$id": "18",
@@ -19474,7 +19474,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 16.4129,
+            "strengthOfOpponent": 16.4114,
             "ranking": 37
           },
           {
@@ -19936,7 +19936,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 7.5867,
+            "strengthOfOpponent": 7.5883,
             "ranking": 64
           },
           {
@@ -19969,7 +19969,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -19.8843,
+            "strengthOfOpponent": -19.8914,
             "ranking": 1
           },
           {
@@ -20035,7 +20035,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -6.6471,
+            "strengthOfOpponent": -6.64,
             "ranking": 22
           },
           {
@@ -20134,7 +20134,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -14.5517,
+            "strengthOfOpponent": -14.555,
             "ranking": 41
           },
           {
@@ -20167,7 +20167,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.09,
+            "strengthOfOpponent": -18.0883,
             "ranking": 9
           }
         ]
@@ -20700,9 +20700,9 @@
         "weekNumber": 7,
         "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
         "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
+        "homePoints": 517,
+        "awayPoints": 652,
+        "endResult": "away",
         "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
         "awayLineupLocked": false,
         "homeLineupLocked": false,
@@ -20786,12 +20786,12 @@
         },
         "division": null,
         "region": null,
-        "homeWins": 0,
-        "awayWins": 0,
+        "homeWins": 8,
+        "awayWins": 24,
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 5,
-        "awayPodRanking": 3,
+        "awayPodRanking": 2,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -20860,8 +20860,8 @@
             "genderPPG": 16,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 26.27,
-            "ranking": 35
+            "strengthOfOpponent": 26.2633,
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -20879,22 +20879,22 @@
             "wins": 2,
             "losses": 5,
             "winRate": 28.57,
-            "pointsWon": 100,
+            "pointsWon": 101,
             "totalPointsAgainst": 143,
-            "pointsPerGame": 14.29,
-            "totalPointDifferential": -43,
-            "averagePointDifferential": -6.14,
+            "pointsPerGame": 14.43,
+            "totalPointDifferential": -42,
+            "averagePointDifferential": -6,
             "clutchWins": 2,
             "clutchLosses": 0,
             "clutchWinRate": 100,
-            "mixedPPG": 10.75,
+            "mixedPPG": 11,
             "mixedWins": 0,
             "mixedLosses": 4,
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 17.8529,
-            "ranking": 27
+            "strengthOfOpponent": 17.7243,
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -20959,7 +20959,7 @@
             "genderPPG": 10,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 51.055,
+            "strengthOfOpponent": 51.06,
             "ranking": 72
           },
           {
@@ -20992,7 +20992,7 @@
             "genderPPG": 15,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 25.1257,
+            "strengthOfOpponent": 25.0571,
             "ranking": 30
           },
           {
@@ -21025,7 +21025,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.5514,
+            "strengthOfOpponent": 12.4629,
             "ranking": 43
           },
           {
@@ -21058,7 +21058,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 2.5383,
+            "strengthOfOpponent": 2.4917,
             "ranking": 21
           },
           {
@@ -21077,21 +21077,21 @@
             "wins": 3,
             "losses": 4,
             "winRate": 42.86,
-            "pointsWon": 124,
+            "pointsWon": 125,
             "totalPointsAgainst": 125,
-            "pointsPerGame": 17.71,
-            "totalPointDifferential": -1,
-            "averagePointDifferential": -0.14,
+            "pointsPerGame": 17.86,
+            "totalPointDifferential": 0,
+            "averagePointDifferential": 0,
             "clutchWins": 1,
             "clutchLosses": 1,
             "clutchWinRate": 50,
-            "mixedPPG": 15,
+            "mixedPPG": 15.33,
             "mixedWins": 1,
             "mixedLosses": 2,
             "genderPPG": 19.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.0571,
+            "strengthOfOpponent": 5.88,
             "ranking": 17
           },
           {
@@ -21157,7 +21157,7 @@
             "genderPPG": 10.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 47.885,
+            "strengthOfOpponent": 47.8817,
             "ranking": 65
           },
           {
@@ -21190,7 +21190,7 @@
             "genderPPG": 17.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 15.9667,
+            "strengthOfOpponent": 15.9283,
             "ranking": 42
           },
           {
@@ -21223,7 +21223,7 @@
             "genderPPG": 16,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 23.6633,
+            "strengthOfOpponent": 23.67,
             "ranking": 62
           },
           {
@@ -21289,7 +21289,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -29.925,
+            "strengthOfOpponent": -29.9333,
             "ranking": 19
           },
           {
@@ -21355,7 +21355,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -11.6614,
+            "strengthOfOpponent": -11.5529,
             "ranking": 14
           },
           {
@@ -21388,7 +21388,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -14.815,
+            "strengthOfOpponent": -14.81,
             "ranking": 56
           },
           {
@@ -21487,7 +21487,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -42.77,
+            "strengthOfOpponent": -42.7538,
             "ranking": 7
           },
           {
@@ -21520,7 +21520,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -19.4763,
+            "strengthOfOpponent": -19.4088,
             "ranking": 10
           },
           {
@@ -21553,7 +21553,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -38.5,
+            "strengthOfOpponent": -38.495,
             "ranking": 29
           },
           {
@@ -21573,10 +21573,10 @@
             "losses": 3,
             "winRate": 57.14,
             "pointsWon": 125,
-            "totalPointsAgainst": 124,
+            "totalPointsAgainst": 125,
             "pointsPerGame": 17.86,
-            "totalPointDifferential": 1,
-            "averagePointDifferential": 0.14,
+            "totalPointDifferential": 0,
+            "averagePointDifferential": 0,
             "clutchWins": 1,
             "clutchLosses": 1,
             "clutchWinRate": 50,
@@ -21586,7 +21586,7 @@
             "genderPPG": 17,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -6.4043,
+            "strengthOfOpponent": -6.24,
             "ranking": 15
           },
           {
@@ -21639,10 +21639,10 @@
             "losses": 1,
             "winRate": 87.5,
             "pointsWon": 166,
-            "totalPointsAgainst": 115,
+            "totalPointsAgainst": 116,
             "pointsPerGame": 20.75,
-            "totalPointDifferential": 51,
-            "averagePointDifferential": 6.38,
+            "totalPointDifferential": 50,
+            "averagePointDifferential": 6.25,
             "clutchWins": 0,
             "clutchLosses": 1,
             "clutchWinRate": 0,
@@ -21652,7 +21652,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -23.04,
+            "strengthOfOpponent": -22.9288,
             "ranking": 6
           },
           {
@@ -21685,7 +21685,7 @@
             "genderPPG": 15.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -8.365,
+            "strengthOfOpponent": -8.3233,
             "ranking": 47
           }
         ]
@@ -21829,7 +21829,7 @@
               "homePlayerId2": "5c5c0d00-e20c-456e-b53e-890845310916",
               "awayPlayerId1": "b104bb38-14f6-40b1-8666-faf327d5f415",
               "awayPlayerId2": "7dbbd17e-9bc8-440d-a09c-dcbe4da688bd",
-              "homeScore": 10,
+              "homeScore": 11,
               "awayScore": 21,
               "gameNumber": 9,
               "matchType": "mixed",
@@ -22011,8 +22011,8 @@
               "homePlayerId2": "aa63d50a-88e6-4de7-9592-1546f21d8648",
               "awayPlayerId1": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
               "awayPlayerId2": "775b540e-c0e6-4810-9547-fcdfe94548c7",
-              "homeScore": 22,
-              "awayScore": 20,
+              "homeScore": 24,
+              "awayScore": 22,
               "gameNumber": 22,
               "matchType": "male",
               "lastChangeCode": "away  "
@@ -22151,10 +22151,10 @@
         "$id": "73",
         "homeTeam": {
           "$id": "74",
-          "totalPointsWon": 514,
-          "averagePointsPerGame": 16.06,
-          "totalPointDifferential": -136,
-          "averagePointDifferential": -4.25,
+          "totalPointsWon": 517,
+          "averagePointsPerGame": 16.16,
+          "totalPointDifferential": -135,
+          "averagePointDifferential": -4.22,
           "totalWins": 8,
           "winPercentage": 25,
           "mixedWins": 2,
@@ -22167,10 +22167,10 @@
         },
         "awayTeam": {
           "$id": "75",
-          "totalPointsWon": 650,
-          "averagePointsPerGame": 20.31,
-          "totalPointDifferential": 136,
-          "averagePointDifferential": 4.25,
+          "totalPointsWon": 652,
+          "averagePointsPerGame": 20.38,
+          "totalPointDifferential": 135,
+          "averagePointDifferential": 4.22,
           "totalWins": 24,
           "winPercentage": 75,
           "mixedWins": 14,
@@ -22309,7 +22309,7 @@
         "playoffs": false,
         "playoffGame": null,
         "homePodRanking": 5,
-        "awayPodRanking": 2,
+        "awayPodRanking": 3,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -22379,7 +22379,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 35
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -22412,7 +22412,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 27
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -22973,7 +22973,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 26
+            "ranking": 27
           },
           {
             "$id": "32",
@@ -23347,7 +23347,7 @@
           "$values": [
             {
               "$id": "45",
-              "lineupId": "34945fb7-54d3-40e6-a15d-1f5889be4618",
+              "lineupId": "7c01eb13-7292-49bb-a492-45db70dedbee",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23361,7 +23361,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "cdf68bb4-6ba2-4c0d-a70f-32a2900f2421",
+              "lineupId": "c3d3e75b-6e30-4a9d-a39b-647c523f682e",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23375,7 +23375,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "f6807c69-14a4-4953-a913-098dd368ebd6",
+              "lineupId": "e714ad43-a554-4cd3-a868-d89fe31dcd25",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23389,7 +23389,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "c88cdea2-d30d-4366-a4b6-05f98fd87c7f",
+              "lineupId": "114cb218-b438-4141-b026-416a53be1db2",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23403,7 +23403,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "0ffcd562-e2d0-47d3-b422-8f2547130df6",
+              "lineupId": "7bac79e0-fdd0-4fec-ad4c-1ae10164fb94",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23417,7 +23417,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "328d8756-1e5b-482a-8a43-254cebff8201",
+              "lineupId": "137d7fc3-ae99-4b26-9f15-53c0c4a1e520",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23431,7 +23431,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "667bad06-905f-4c22-9357-17c6a1151760",
+              "lineupId": "687bb639-3727-414d-9226-9f24387b5f18",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23445,7 +23445,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "49807fde-2656-4e8b-9a07-f0569763ba77",
+              "lineupId": "f5e474bf-16f5-4752-9096-481813c2481a",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23459,7 +23459,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "d44bf0e7-b0a2-4219-87a0-7ccfcadad00d",
+              "lineupId": "c64f8bca-ffc7-49b9-bf58-91209a164ec3",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23473,7 +23473,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "8042479b-2db0-4145-8b3f-75a70dc016b4",
+              "lineupId": "195774b1-6698-4b6e-9b72-d21e2b8b23d2",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23487,7 +23487,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "8038cb3b-5338-406e-b461-e7da6e9f1307",
+              "lineupId": "ce094e2b-f762-4d88-9083-7f317d351cc5",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23501,7 +23501,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "7c86bd33-80a3-4176-8277-da43795f5411",
+              "lineupId": "092c0395-8377-4f2c-a9f2-477a14724a54",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23515,7 +23515,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "5efe8155-eb9f-419b-8b44-52e3b21c481a",
+              "lineupId": "755cd118-1a96-4027-a11d-cc81b5ec38af",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23529,7 +23529,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "c56f31ca-dc55-493a-b34f-6ab07a64e233",
+              "lineupId": "fc422b3d-2c03-4cb2-985a-f9b53c9ba00a",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23543,7 +23543,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "6cf2f802-8a77-4ac3-aad0-176fcddf8c87",
+              "lineupId": "5d07a8b7-60a2-4a34-9b14-5246cac2be30",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23557,7 +23557,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "e28809a9-35cc-422e-9c05-482d5451d88c",
+              "lineupId": "80d80f0a-96fd-42a2-ad06-883ac62b1089",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23571,7 +23571,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "a27fad52-f511-4a0d-a2e7-ba57551f4645",
+              "lineupId": "8d5d65f4-b7a5-479a-ab99-4fd4df912c33",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23585,7 +23585,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "ba4b256e-7e73-4d9b-b81d-bd2b2464901b",
+              "lineupId": "d2fd567d-92ab-4957-a9dc-c3d4bb0790c5",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23599,7 +23599,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "fd14d3a2-cac3-4a0e-8a6c-dc1acf272944",
+              "lineupId": "7b38d8c6-c7a8-4324-9f79-7cdc58bb32bd",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23613,7 +23613,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "dd5d1ca8-52b3-4c26-8a75-d200512aab2c",
+              "lineupId": "ffbddd9f-1657-4d2b-a92c-acfbd10241b8",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23627,7 +23627,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "83b01692-8295-4419-acef-8afa35e82c7d",
+              "lineupId": "734f9fca-497f-4c09-b309-675e7cf6f229",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23641,7 +23641,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "7811f556-1b8e-4401-bee4-cf49942ae6b7",
+              "lineupId": "4928963b-de03-43db-ba47-4bbd0f60aa01",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23655,7 +23655,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "f91a0ce5-9ee0-428b-b120-70cdf6136001",
+              "lineupId": "b4f49834-4cb5-4800-9004-4e85fec72629",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23669,7 +23669,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "74c52e89-b942-43ea-b5c9-55f5e568f681",
+              "lineupId": "49e3be2b-cc01-45d2-a905-a897db024d2a",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23683,7 +23683,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "ddf05d51-7932-4379-bd82-a3f66234c640",
+              "lineupId": "51696b93-2b7c-4471-b891-685c2d2ad8d4",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23697,7 +23697,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "8a174f36-c98b-44cd-9c7f-b479500a6d1e",
+              "lineupId": "9dd507f0-9d31-4519-a583-dbcccce9eb88",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23711,7 +23711,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "888cfece-fe70-47ab-b5c9-8ca961ae8d84",
+              "lineupId": "577db69f-b0f0-4fb3-aa2d-f85db356f1f9",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23725,7 +23725,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "b7b3304a-0fe1-4a49-a82e-adf2dd416dd1",
+              "lineupId": "1477168d-bee1-490a-9126-4dc7011009d3",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23739,7 +23739,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "19cb1b27-3c2f-4538-b53d-c6ad56e51d3e",
+              "lineupId": "3a1353ab-931a-4606-988a-b03bc3f57921",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23753,7 +23753,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "43c0a8a6-e099-42cb-8e4f-3802fda76d81",
+              "lineupId": "e88040b8-84c3-4447-ba75-e739c5a4ef9d",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23767,7 +23767,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "d250745e-1bdf-478c-94cf-6e55998d07a3",
+              "lineupId": "10e644f6-0f2b-4496-a5b7-8c13cabab7f5",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23781,7 +23781,7 @@
             },
             {
               "$id": "76",
-              "lineupId": "0f9371eb-3bf2-4be5-987f-8cc5247b7f65",
+              "lineupId": "a2645ac4-a0af-4072-90b8-a38d7dfba16b",
               "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -23935,7 +23935,7 @@
         "awayWins": 0,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 3,
+        "homePodRanking": 2,
         "awayPodRanking": 4,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -24567,7 +24567,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "31",
@@ -24908,7 +24908,7 @@
           "$values": [
             {
               "$id": "43",
-              "lineupId": "2ca153fa-aef7-4583-b49a-8df6add0d945",
+              "lineupId": "5a8800dd-8a4e-4024-859e-2b3e490de6eb",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24922,7 +24922,7 @@
             },
             {
               "$id": "44",
-              "lineupId": "4af41b0e-ad0f-47d1-990d-98356c9d7932",
+              "lineupId": "5324c3d9-3504-44fd-82da-6e2d762e5f40",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24936,7 +24936,7 @@
             },
             {
               "$id": "45",
-              "lineupId": "0de28570-b973-46b2-8d86-f53bc6d66e87",
+              "lineupId": "49dbc98a-95c8-40c2-9d6e-7ef78ae7e007",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24950,7 +24950,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "4ffc4fea-bdc2-4f1e-a3ed-9c8a452975c5",
+              "lineupId": "446953b1-ca3d-47e2-b214-903cf3a1c2d3",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24964,7 +24964,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "65005613-e1b5-4a49-afe6-19b2cde10a32",
+              "lineupId": "8602aae6-62b4-4aff-9a1a-299851c33bab",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24978,7 +24978,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "5e32329a-5cce-4c81-9d97-68b903f8d4a7",
+              "lineupId": "3c82e914-2193-4559-ac06-c7a8c54278be",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -24992,7 +24992,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "60ab3f40-c37f-4b3c-a772-5f2c024c5da2",
+              "lineupId": "aeb8e6ed-0280-4d48-88fb-48d69e1ada14",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25006,7 +25006,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "e5f29068-4aaf-46bb-848f-3aa1e18e8ae7",
+              "lineupId": "d4be3d9e-1080-4861-9334-748fdf180f27",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25020,7 +25020,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "b51be87f-1c66-4689-8df0-95c7e5d6551e",
+              "lineupId": "30e05f27-6c40-4fd1-95aa-7f826edc1f98",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25034,7 +25034,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "184b07c1-7e2f-4154-afb2-ec000aa502b4",
+              "lineupId": "ca1561ce-ab50-4dd4-b87e-8821c74ac062",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25048,7 +25048,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "e4ccf441-649a-49ea-8dad-051efdfac6ed",
+              "lineupId": "4e653ae1-3a09-42e3-a291-a823d88d953b",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25062,7 +25062,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "01c94fbe-ec19-487b-aca8-a81da99fe637",
+              "lineupId": "461d44b5-479e-44c7-a35f-8452f9d82e45",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25076,7 +25076,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "838ef960-66c3-4697-bcd0-cd49fe1081c8",
+              "lineupId": "560df2e2-8a23-4d02-b0d4-56304a8b23b4",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25090,7 +25090,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "f5bf71de-3e0c-44fd-b1b4-6891c3974fc2",
+              "lineupId": "39fe6a1c-d72a-4c32-bf2e-e123bf2ebcc6",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25104,7 +25104,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "6824f4ae-8d4e-4e0a-b66e-f31de29e342d",
+              "lineupId": "39811b27-3ec4-4ea2-9a78-d3e2e6f26899",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25118,7 +25118,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "8dcdd0d8-e869-43f1-9585-ea44046c8c3b",
+              "lineupId": "9b4249d0-065c-4f5a-b89c-a9740cd2b2fd",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25132,7 +25132,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "471cf454-b915-4848-9ab1-a8b8639a891f",
+              "lineupId": "76d2857c-be79-4cf5-bc23-fff6fa3fc8cb",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25146,7 +25146,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "9f5d6211-f9c5-40ef-90dc-c13c0c07e515",
+              "lineupId": "8e8b0656-e325-4a64-8d9e-c5ec41d61e72",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25160,7 +25160,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "d7f8d079-8697-40b1-8841-96e0a70d93d6",
+              "lineupId": "04be91c2-7801-47d5-9f28-6308c384955a",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25174,7 +25174,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "3d306698-1953-426f-9e57-4a647afa64af",
+              "lineupId": "7b7c84fc-e200-4a9a-bbe8-88288f8c7cce",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25188,7 +25188,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "a5fe73a1-59ca-4d21-82b2-21461b4c4285",
+              "lineupId": "12de7292-e997-401f-8298-9e43122cc7be",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25202,7 +25202,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "59c6c720-c9e0-4f9f-a846-0f225469902f",
+              "lineupId": "7c5c19a3-9f77-450a-ab72-f2381fdc0742",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25216,7 +25216,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "aab97bf0-4c7e-4423-93dd-edf632cad495",
+              "lineupId": "4c31f270-eb48-46b7-a40d-3ab238f9aa88",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25230,7 +25230,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "ce2e0032-8eef-4e44-94ff-1d853f2b3f79",
+              "lineupId": "95b3ac7b-b5b9-47d7-b816-c48d00f35622",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25244,7 +25244,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "a9e2b1e8-f749-421e-a1a3-de4346b49ec3",
+              "lineupId": "de9683d3-7172-4417-b3bf-e13a70606395",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25258,7 +25258,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "f3c2a76c-6465-4bfe-9936-f150412085c7",
+              "lineupId": "aff8cd57-d503-4d16-a677-73f9e8dcad40",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25272,7 +25272,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "87992546-e859-465d-8841-9c4717bcf789",
+              "lineupId": "d2663b39-ef0a-480d-bfa0-4e92a544fe60",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25286,7 +25286,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "00140835-576b-4b99-86f4-5bf65e2d45a7",
+              "lineupId": "50619bd1-3edc-4efe-b563-9ba52965ca28",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25300,7 +25300,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "4fca66f6-da81-47ba-8d8a-f37ca064937f",
+              "lineupId": "a177d5f2-ff8e-4e98-ade5-c84730fcef45",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25314,7 +25314,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "7af93596-9843-4300-90be-a193347a1474",
+              "lineupId": "3ec7f744-b414-4422-afea-a59524775062",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25328,7 +25328,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "a5b4fa03-2f30-4464-8b89-9b379f000b97",
+              "lineupId": "d2ee8a5c-cace-48af-a4b7-93b6df35dba2",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25342,7 +25342,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "aca43657-6ed9-4d42-84fd-c4fb84b66325",
+              "lineupId": "0a97a0de-b1ad-451f-a58b-0369ed14f4bd",
               "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -25567,7 +25567,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 35
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -25600,7 +25600,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 27
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -26403,7 +26403,7 @@
           "$values": [
             {
               "$id": "41",
-              "lineupId": "fcb095fc-3e80-404f-988d-1b28167bbd64",
+              "lineupId": "6eaf25f7-fd15-4056-981a-68113391e019",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26417,7 +26417,7 @@
             },
             {
               "$id": "42",
-              "lineupId": "c3bac796-340d-4f05-883b-a4454ce515f1",
+              "lineupId": "3c54b598-4f80-469e-acc2-35982b00f462",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26431,7 +26431,7 @@
             },
             {
               "$id": "43",
-              "lineupId": "5377643d-0356-43f9-8313-6788b8d92bcf",
+              "lineupId": "36a09633-34f1-448c-9f90-6e3a7ac9fe61",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26445,7 +26445,7 @@
             },
             {
               "$id": "44",
-              "lineupId": "0474f5a4-d59f-464f-b18a-d857583168ec",
+              "lineupId": "b1721410-a454-40dd-975e-f2aa6ec87e02",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26459,7 +26459,7 @@
             },
             {
               "$id": "45",
-              "lineupId": "ce6f62ae-5971-400e-8fbb-80311216a426",
+              "lineupId": "a8c4dd05-c752-4f58-89e3-74cf336e5997",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26473,7 +26473,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "deb15a5e-695b-457f-a302-e14ee1aa02c0",
+              "lineupId": "41049e60-9126-4a6a-ade8-2a651b188c99",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26487,7 +26487,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "74754355-1366-4dcb-8602-7baf162cf3ab",
+              "lineupId": "cd311bb4-eda5-431c-a41e-57676341fb8e",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26501,7 +26501,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "38b4231b-cfd8-4b82-be7f-15e51063b377",
+              "lineupId": "d71809d1-4647-49bc-b650-f34ca628a9c1",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26515,7 +26515,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "58dea080-d144-4671-a43b-15c9a52c91e1",
+              "lineupId": "097e5294-f750-4aed-b36f-0e13ba488efc",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26529,7 +26529,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "29ab58ca-5187-4e82-bdd5-066a3ea5e74f",
+              "lineupId": "a1d79093-ceff-48b8-b9bc-763b39617a93",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26543,7 +26543,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "a6ceb650-fa88-4e7f-ac18-14de4f5b726b",
+              "lineupId": "efd90e99-14db-413d-93d5-70797fbf9a95",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26557,7 +26557,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "44078535-ef02-4620-926e-f532cd0d20aa",
+              "lineupId": "c5edbea5-0395-4d49-b907-5697446c0d2d",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26571,7 +26571,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "67c25f5f-a1f8-4831-ad6e-e4f4fc64cc4b",
+              "lineupId": "31819fe0-6aa8-41aa-94ec-58d1a4469584",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26585,7 +26585,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "8394d7c5-f3fa-4ab0-869a-9766fdde01ef",
+              "lineupId": "1e7e6abd-22d8-48a0-8d3f-44ab4c6b4e45",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26599,7 +26599,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "633226ed-e0f2-4ac2-919d-861c1c080931",
+              "lineupId": "574dabda-4c01-44d1-8761-ddd415ee2e3d",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26613,7 +26613,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "e0df72f4-5019-40f1-9d85-903d74fe168d",
+              "lineupId": "d60658e7-6770-4dff-bb06-18eacb6fdfb4",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26627,7 +26627,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "4b7c7f7e-df01-47e5-b74d-2726e4730ed6",
+              "lineupId": "adbb75f3-c364-4194-b880-75113fd3e998",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26641,7 +26641,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "95af7131-618a-4c6d-97a4-e1ea67bd86c8",
+              "lineupId": "183b7747-cbdf-4b20-a8db-5a8fa82804b6",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26655,7 +26655,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "3f72c598-cf83-41c6-850b-d043892b7047",
+              "lineupId": "2e643f09-981f-4c5c-a255-0098872d8a72",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26669,7 +26669,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "4891aff5-c926-4630-a5da-4a54951f8650",
+              "lineupId": "aa34e6e6-459a-4361-b84f-f55bc865dfb8",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26683,7 +26683,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "575847ab-4d18-4657-a982-c22b50023758",
+              "lineupId": "4d359dd1-4069-4484-badc-fa7160173d87",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26697,7 +26697,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "a6f395da-914a-4637-994a-d7bc62fdd08c",
+              "lineupId": "3f06669f-51c8-4f42-a02e-1fe718c92e45",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26711,7 +26711,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "743469e7-433f-41b8-97b6-824560befbba",
+              "lineupId": "1be7d263-41c1-4deb-8476-bbb2281e91f9",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26725,7 +26725,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "1548dce8-3607-40c2-962c-f3b195e9a91c",
+              "lineupId": "df1328ce-e94e-42bc-864c-a1ba6b1bfd1f",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26739,7 +26739,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "346152a1-2232-4b5a-b5df-af5e69e0f19a",
+              "lineupId": "0c57bacd-7557-4ff8-9011-8e67959a5ed1",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26753,7 +26753,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "5cac6363-364f-44f8-9684-c459d1debe0c",
+              "lineupId": "6f3cd7c6-4f46-4b4b-a991-6da55ce59bff",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26767,7 +26767,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "05d6583c-0226-481e-a377-0571edae767b",
+              "lineupId": "436edbb7-380c-446f-901c-1049796d2144",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26781,7 +26781,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "92eb8411-245a-4729-acbb-f79aba9f3292",
+              "lineupId": "ae09b526-1853-4ea7-ad4c-7df7aa2e6c44",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26795,7 +26795,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "b4a2c123-eea5-4e6a-a4f4-3d005ab9aee4",
+              "lineupId": "c3de6d48-8c3e-4e28-87f1-4344f0ddbf38",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26809,7 +26809,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "a6714810-b78d-4f5b-ba6b-4ea260be6643",
+              "lineupId": "35b3c15f-55e4-48bd-8c7c-d90a260d952e",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26823,7 +26823,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "c54072f1-8898-40c3-abdb-90bd9cdbbb92",
+              "lineupId": "c4c05a73-133d-452a-9f88-4826d2a0256d",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26837,7 +26837,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "f81fc5d9-98c1-4025-b24e-fd9020893a37",
+              "lineupId": "942de668-9485-4c57-a837-784db93fe9b0",
               "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -26991,8 +26991,8 @@
         "awayWins": 0,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 2,
-        "awayPodRanking": 3,
+        "homePodRanking": 3,
+        "awayPodRanking": 2,
         "address": "913 Wallace St, Philadelphia, PA"
       },
       "matchupPlayerStats": {
@@ -27623,7 +27623,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 26
+            "ranking": 27
           },
           {
             "$id": "31",
@@ -27997,7 +27997,7 @@
           "$values": [
             {
               "$id": "44",
-              "lineupId": "621694cd-1bc3-409b-a1b5-7928c4711b98",
+              "lineupId": "d8a53851-b710-4bd9-a3ea-4bbe1bc7649d",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28011,7 +28011,7 @@
             },
             {
               "$id": "45",
-              "lineupId": "32fbe6da-c029-47a8-a64d-53d9e9b22b41",
+              "lineupId": "1a517f39-ed56-4dc4-a01f-1d60968d1c2e",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28025,7 +28025,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "ef718dab-4340-4674-8a25-d67b52850f2a",
+              "lineupId": "05f9de2a-ceac-48ea-aeac-07f76de57b51",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28039,7 +28039,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "1c6614cc-d996-4308-8ad7-e1f33c7973b3",
+              "lineupId": "3320f1c5-30c6-4910-9f75-895225f42167",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28053,7 +28053,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "80cc603d-fa66-4bf5-91df-324a2d32ce49",
+              "lineupId": "f10729fb-8f8d-4a4b-8431-94f58ce0d22a",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28067,7 +28067,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "d0e17d81-967d-4a18-8404-d12fd707376a",
+              "lineupId": "2caeaee8-e643-4154-abe1-188deb49958e",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28081,7 +28081,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "cb2d06f2-2707-4ed0-bc66-8b08260067bc",
+              "lineupId": "230e96c7-2266-4a6a-b176-69a3c35c1a7b",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28095,7 +28095,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "311c3f94-c538-4616-9392-8821a4d239b5",
+              "lineupId": "a602f51e-84a7-4c43-a194-305abe39429c",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28109,7 +28109,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "aa079bdc-6b50-435c-b938-47da5b160571",
+              "lineupId": "7385e018-a5ee-4011-b69b-9ea1218e0204",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28123,7 +28123,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "0360cc7f-72da-48a7-9859-633f400e521d",
+              "lineupId": "41b03d59-9d62-461f-a431-71ebe15a0401",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28137,7 +28137,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "6b5f50ef-3506-488a-b58a-ae5702a87ab4",
+              "lineupId": "03d3ba04-f122-4819-8604-909d112abbcc",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28151,7 +28151,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "ef392452-6522-4db1-bfbc-2a3f55848e98",
+              "lineupId": "07a07796-a015-4f6c-b73f-df37aaa02bac",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28165,7 +28165,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "5a465a7e-4fcd-4517-8e09-30da0717771d",
+              "lineupId": "8ebb3141-f2d7-4fce-b91f-032bbc2daf07",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28179,7 +28179,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "09f45f26-f23f-4091-aadd-2bbad7f24b9a",
+              "lineupId": "c9597cbe-b86a-4a82-86ce-ece441a17e91",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28193,7 +28193,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "1db9675f-4480-43ce-8c08-ef066119da3e",
+              "lineupId": "324483c7-2714-42d7-b523-43ea3701e66b",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28207,7 +28207,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "74f84634-abaa-4d0b-879d-6cf09d41f10d",
+              "lineupId": "b85d4541-eafc-44d0-9755-1ff2b084c503",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28221,7 +28221,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "484c4c98-1b8e-4bf3-9fa3-c7163b25c82c",
+              "lineupId": "74cecf73-b32a-4d2f-be0e-c8ae411fb4c8",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28235,7 +28235,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "a8e70b5a-8957-42f8-a2d7-1ce7ad39bf12",
+              "lineupId": "7733096d-38a5-41cc-8b2f-9e654715be3a",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28249,7 +28249,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "c5429de0-6cf7-4e46-b777-da438331a424",
+              "lineupId": "4b574cf9-56e7-46ce-a0ce-48909e88af9d",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28263,7 +28263,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "c670db0a-b3fc-4602-a85a-e56e766cf8ab",
+              "lineupId": "14a02e23-8925-41c4-9ca2-4026df1b5aea",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28277,7 +28277,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "df78b67b-18de-403b-bd1c-847fea486c1a",
+              "lineupId": "e7ca73f8-28fb-4482-8b57-65bab9e7304c",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28291,7 +28291,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "270229e6-c4fc-4925-852e-9f97bd698f5a",
+              "lineupId": "a9e4fab3-60ac-40a0-8cce-b0fa72bf9420",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28305,7 +28305,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "5b2b3303-5213-45c1-90be-dafd84ccf5db",
+              "lineupId": "242ec266-7638-4190-b138-dd31c65abb1e",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28319,7 +28319,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "f6252d2e-5ef9-4842-8b92-319f78a07ee2",
+              "lineupId": "21a91608-d55d-4d69-b0ef-0351232f4827",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28333,7 +28333,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "d6f872f5-287b-41dc-af2e-b1f83ba62f39",
+              "lineupId": "218283df-a326-47d6-87b3-dfa24198a90e",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28347,7 +28347,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "dffbff1b-163a-4522-b5b5-25979c4ef9d5",
+              "lineupId": "bc103830-c307-4bcc-a411-e2d95f9323a3",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28361,7 +28361,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "a976106e-ae06-47db-9927-533be667a5eb",
+              "lineupId": "1f7ea332-dc8a-448a-906d-70f49624f27c",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28375,7 +28375,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "26a1e76b-4186-4f1d-a14a-289d12ea482a",
+              "lineupId": "5f810b60-0a24-4f44-8027-c02d81192acf",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28389,7 +28389,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "d2295312-0079-44ca-9412-acdb6f0d5d41",
+              "lineupId": "a3d5ebeb-8260-412f-a042-c80b0994f272",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28403,7 +28403,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "297536f7-2f2e-4b7a-a15a-eb6941b8ab5c",
+              "lineupId": "f4622489-6fbd-4c67-a784-5e1bcfbe732e",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28417,7 +28417,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "7d27a162-a6f4-4c8d-8817-175307e7de20",
+              "lineupId": "8f2bcdf7-5025-4977-9c0e-2ff6dd1ae021",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28431,7 +28431,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "ac3965bb-b59d-4d55-a0d2-caf9a2811c78",
+              "lineupId": "146005e4-6759-4bcb-9514-1d0731f08454",
               "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -28585,7 +28585,7 @@
         "awayWins": 0,
         "playoffs": false,
         "playoffGame": null,
-        "homePodRanking": 2,
+        "homePodRanking": 3,
         "awayPodRanking": 1,
         "address": "913 Wallace St, Philadelphia, PA"
       },
@@ -28788,7 +28788,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 26
+            "ranking": 27
           },
           {
             "$id": "18",
@@ -29591,7 +29591,7 @@
           "$values": [
             {
               "$id": "44",
-              "lineupId": "5e255c23-9bb9-42cd-b106-aacb67887b2f",
+              "lineupId": "9ee5067f-17a9-41ac-8b41-13e0eaabd0e4",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29605,7 +29605,7 @@
             },
             {
               "$id": "45",
-              "lineupId": "3abdc58f-1556-4a15-8af5-05fffd342ab7",
+              "lineupId": "d0e693ae-11af-4cbe-92b1-ce10d316d7ae",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29619,7 +29619,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "b8b6311d-65b1-4868-83c9-17905cea18e1",
+              "lineupId": "36a59aa1-a9e2-4824-9ce7-015ac83562b6",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29633,7 +29633,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "eed4d6e6-6ffe-4579-9410-baa18e1ee6c9",
+              "lineupId": "205dae61-756a-4f73-a80c-b05addd90fb0",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29647,7 +29647,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "7f677559-cc19-4d42-9f9e-7cbad5bdc25f",
+              "lineupId": "5a336173-3303-4c8b-b4d9-b18776789427",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29661,7 +29661,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "a33456bb-a828-4e23-b509-a7234c6ca395",
+              "lineupId": "acaaf2bb-238b-4e21-9ee7-090117550faa",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29675,7 +29675,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "e556e07d-cf1a-4be8-b951-1d5990c074c2",
+              "lineupId": "73ab6942-fe80-40af-bf4c-587b84fc565c",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29689,7 +29689,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "ff7242df-c8ef-425f-8dab-0836ab736e27",
+              "lineupId": "b2545b02-40c6-41bf-bec2-d9a92e0114fa",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29703,7 +29703,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "cba2ffae-4b0c-4e56-95c6-407ddf8866d3",
+              "lineupId": "1b072e21-5d3b-4467-a26e-d05f34d95329",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29717,7 +29717,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "4ba2e92b-679b-4a15-a56c-b5314683077e",
+              "lineupId": "10505789-fd12-4df3-bebe-67c1ad22c848",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29731,7 +29731,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "1983690e-d9b3-4ced-a033-ab1b010ac989",
+              "lineupId": "8be6add8-fdae-4f20-b363-3a833807fcce",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29745,7 +29745,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "463fe76a-a47a-4775-b9ab-553415d53d0a",
+              "lineupId": "b7ef611a-c83f-4184-801f-a27e717247b0",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29759,7 +29759,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "1c7b608c-97e2-4282-aba2-42b67b05500c",
+              "lineupId": "d63d01e0-8333-41d3-b0d2-45200fc86556",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29773,7 +29773,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "3c4cc7fb-784f-4803-a53d-abc9bbacfa07",
+              "lineupId": "98714dc3-11b1-41f9-b699-9e6f839cce9c",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29787,7 +29787,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "1034900e-6466-4e6e-991b-489a8cbc5631",
+              "lineupId": "cb0ae6eb-5cb2-4a9e-9c37-fbdce43e84e3",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29801,7 +29801,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "d1a8c3e9-d1ed-45b1-a95b-439468ee0962",
+              "lineupId": "4ed00d90-031e-41e1-8e5f-fae7336bc4b5",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29815,7 +29815,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "e40b72d8-b31c-4414-a22a-449b78def835",
+              "lineupId": "12c0e1e3-ecdc-42ab-acb4-8c8c8aeb12d1",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29829,7 +29829,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "d107b1f9-de46-4317-945e-2c0a36b94db3",
+              "lineupId": "8ada5454-f23d-4eca-9870-e000331ebead",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29843,7 +29843,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "87551f2a-18d6-4513-a70e-3eaac95c00ea",
+              "lineupId": "dbc7fc6a-9113-4c0c-9a19-41f00eea2da1",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29857,7 +29857,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "84a5524b-316f-406c-9687-1a565f29235d",
+              "lineupId": "044f2b64-92f1-44a8-a660-a22fe0ca5ea5",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29871,7 +29871,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "d9c6e99d-3f28-4d32-82fe-505f438780b8",
+              "lineupId": "040de4f9-dab0-4b52-93ea-b9820a67d336",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29885,7 +29885,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "8884c0f9-02a2-4eb4-ac35-5ce4bcd97f1d",
+              "lineupId": "091c709c-e5f4-4528-9002-85151510ef4b",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29899,7 +29899,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "0af7abe6-7386-4cf0-a81a-d44a3f46ae58",
+              "lineupId": "52c896d2-49e9-4c6e-9378-851a22417944",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29913,7 +29913,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "39b8322b-699b-4566-a501-71ef0a849e79",
+              "lineupId": "68445cb4-f39c-49ac-8da5-4f11a2110cbc",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29927,7 +29927,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "c59ed717-1866-4496-b258-219fae917089",
+              "lineupId": "88d544dc-e430-4dbe-b906-9df6119fc5f5",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29941,7 +29941,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "62f553ec-aaa5-481d-9b0e-dd60804e75f6",
+              "lineupId": "c60d1710-4bc8-41cd-994f-840ae0772541",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29955,7 +29955,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "fbc1d2d3-9971-422a-ba21-129b0c7dfa31",
+              "lineupId": "cca9191d-fa12-4df4-a4f1-4482cbc459cc",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29969,7 +29969,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "eb7a5c57-9d54-4e0c-8d83-da4733862fc2",
+              "lineupId": "40f2cf61-0b46-42fd-ae65-cd2d842310bc",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29983,7 +29983,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "b261fb3a-210a-4d84-906e-eb940d2e7888",
+              "lineupId": "cdffa451-eb4b-48a4-b9be-6b15d3307406",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29997,7 +29997,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "383a4c22-dcbd-49a7-87e4-f1d12792feea",
+              "lineupId": "b05e7c51-65aa-4cd9-8020-0d09e4bc4a62",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30011,7 +30011,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "44e52448-ce9c-4d76-bb63-aeab18b60749",
+              "lineupId": "ec92cb68-af94-4121-8463-62a47064ba39",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30025,7 +30025,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "51e81ac3-ff2d-47c7-ab4c-5ae4fc9ee58e",
+              "lineupId": "1e39fe0d-a947-4021-a794-20bc545ef128",
               "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30250,7 +30250,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 35
+            "ranking": 36
           },
           {
             "$id": "14",
@@ -30283,7 +30283,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 27
+            "ranking": 26
           },
           {
             "$id": "15",
@@ -30844,7 +30844,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 36
+            "ranking": 35
           },
           {
             "$id": "32",
@@ -31185,7 +31185,7 @@
           "$values": [
             {
               "$id": "44",
-              "lineupId": "c2ef68fe-7f1d-48b7-9fd2-765ac285bccf",
+              "lineupId": "ade3e011-6e0e-4c80-acf3-86b546e3efe6",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31199,7 +31199,7 @@
             },
             {
               "$id": "45",
-              "lineupId": "a2b6c964-7a6b-4395-8c5b-76fab08bfd29",
+              "lineupId": "7e8f367f-6745-45be-9fd8-2e4db1bcfe59",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31213,7 +31213,7 @@
             },
             {
               "$id": "46",
-              "lineupId": "b2a5917d-b631-45c3-92df-b74ee9e54f10",
+              "lineupId": "66bf5df5-812b-4352-91d3-204b464130ec",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31227,7 +31227,7 @@
             },
             {
               "$id": "47",
-              "lineupId": "6d353f35-dd15-4d5b-9622-2ff4af55c0f3",
+              "lineupId": "2a899635-e3fd-41b8-b8a4-dda12f94fc9f",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31241,7 +31241,7 @@
             },
             {
               "$id": "48",
-              "lineupId": "7cf48bfc-dfb0-400c-a7d9-4c56e7203f8b",
+              "lineupId": "88266831-f3fa-43c7-a07a-788a0401c5e1",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31255,7 +31255,7 @@
             },
             {
               "$id": "49",
-              "lineupId": "4e0e5a02-8eb0-4540-8a0c-285794ed4ec3",
+              "lineupId": "0880a170-e42f-4db3-ae0e-a961d635bd99",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31269,7 +31269,7 @@
             },
             {
               "$id": "50",
-              "lineupId": "2cd43db0-8d02-4b76-8913-61887ee6e562",
+              "lineupId": "47c27138-3780-42dc-9fdd-92bf22858514",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31283,7 +31283,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "47dbec7b-37c1-42fd-bb6f-21f0bd236ae8",
+              "lineupId": "0cb16acf-1138-45b5-952d-c7dd119f4842",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31297,7 +31297,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "37fd3704-9c53-4f64-8a87-4a6f47dd7a40",
+              "lineupId": "e3bb40a4-d980-496c-8e6d-efb5c3811688",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31311,7 +31311,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "3ea4ab94-2fc7-4ed0-9612-6ba5b6eebe8d",
+              "lineupId": "e3cf0bc2-f4fd-40f8-8127-6430600169ba",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31325,7 +31325,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "5bb430a6-1782-4dc7-b589-6c6e881e553f",
+              "lineupId": "7ba78dd8-008f-4aa4-a56d-9a63beffb4be",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31339,7 +31339,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "f1d1d7f0-bf72-4a1c-a5f4-b486e377d910",
+              "lineupId": "b52e1124-c14a-4caf-9037-55d17bbdb0a8",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31353,7 +31353,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "d0a627be-6862-4df0-a0b4-6e09ba62ee90",
+              "lineupId": "1033ed47-6296-4de0-bce5-bb9e62f5bfdb",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31367,7 +31367,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "618543db-3f85-4586-ad37-f5d033df3e45",
+              "lineupId": "a44e3eaa-f6db-4e96-8d2e-a34cfc8950e4",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31381,7 +31381,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "3ac4a510-e629-4c19-9f10-ee020b18eeb0",
+              "lineupId": "936ae567-da45-487e-8f76-70fa660b37bf",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31395,7 +31395,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "4eac252a-d293-41c6-8b21-3ae571e4b1f3",
+              "lineupId": "8e1d8106-632b-4d81-b09f-fc58a1e05260",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31409,7 +31409,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "a93eb773-e9ad-4d3b-aae3-8cb247c30792",
+              "lineupId": "ba81d011-1edd-4cd0-918a-6e9ac4f6426b",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31423,7 +31423,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "d9583105-c471-4af2-8e54-3be0fdf690ab",
+              "lineupId": "83c291e0-1d1b-4330-b505-3add9036bead",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31437,7 +31437,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "ef65e951-868f-4e18-92c7-6b80ef4438ca",
+              "lineupId": "0f555b4e-4b5b-4f6e-9071-29c8cf616bad",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31451,7 +31451,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "25ea9d26-f758-4354-ab30-53a1992607fc",
+              "lineupId": "b8f5ae83-ad14-4252-8dfb-193e7c2bde53",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31465,7 +31465,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "8fddd784-b7e6-4db3-91c8-9d6ae4037966",
+              "lineupId": "30db28ce-4abf-490c-89ed-4326920b2a8a",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31479,7 +31479,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "7c006e1d-9ef9-4ccd-a53a-2c64ca31bd29",
+              "lineupId": "6d26fc57-ee85-44d8-bfd9-047acbf36b5c",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31493,7 +31493,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "bdbc6adb-a643-4ba2-8a30-90a1e76e336f",
+              "lineupId": "04586753-3cc9-4501-a527-c8fb92b20c1c",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31507,7 +31507,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "81685506-2ea0-44c1-91bc-de942c7b9643",
+              "lineupId": "42e9911e-8aad-4812-a182-4cbeba0e6b1d",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31521,7 +31521,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "5eeda38e-7937-4d3b-9269-2c9c45e096c0",
+              "lineupId": "61890f8d-bd76-4b93-9f29-29dc5564f24e",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31535,7 +31535,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "a213e278-d924-46e4-a187-e7f10f5fae81",
+              "lineupId": "51877d3c-8985-41bb-83d4-4c22f0dee1f1",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31549,7 +31549,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "a1faf3da-7c10-4def-a9d4-02b6c9045ef2",
+              "lineupId": "f658a464-ccdf-4211-aa1a-7e6326d4a165",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31563,7 +31563,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "c674cbec-48cf-4e40-8705-1362652b336f",
+              "lineupId": "f71c3290-29e0-425c-bd2a-3e9c0e19ef58",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31577,7 +31577,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "114627b4-1538-442f-be14-60fa8a999ff5",
+              "lineupId": "9d0e3e50-a226-4875-a424-f6d9a0be5a60",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31591,7 +31591,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "c9e8e7d7-b4b8-4eea-958f-c61d4f250eb4",
+              "lineupId": "9e235255-8c6d-4b25-8078-362c47eb8c1d",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31605,7 +31605,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "2afbeb92-dec2-48d8-8dd3-7843e25d2deb",
+              "lineupId": "56967f5d-f72d-464f-a544-be0035aa2baa",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31619,7 +31619,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "465eddfc-09b6-4eaa-9f4b-eaf38254b0ae",
+              "lineupId": "e9c637ac-dbbe-41b0-b5b8-f86378f13181",
               "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
               "homePlayerId1": null,
               "homePlayerId2": null,
