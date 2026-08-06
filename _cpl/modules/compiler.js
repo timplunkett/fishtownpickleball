@@ -154,6 +154,39 @@ function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
   return out;
 }
 
+function computeWeeklyRatingHistory(completed, matchupDetailsJson, playersById) {
+  const weeks = [...new Set(completed.map((matchup) => matchup.weekNumber))].sort((a, b) => a - b);
+  const historyByPid = {};
+
+  for (const week of weeks) {
+    const snapshotRatings = computeRatings(
+      completed.filter((matchup) => matchup.weekNumber <= week),
+      matchupDetailsJson,
+    );
+    const ratedPlayers = Object.entries(snapshotRatings)
+      .sort(([pidA, ratingA], [pidB, ratingB]) => (
+        (ratingB.rating - ratingA.rating) ||
+        (ratingB.confidence - ratingA.confidence) ||
+        (ratingB.ratingGames - ratingA.ratingGames) ||
+        (playersById.get(pidA)?.name || '').localeCompare(playersById.get(pidB)?.name || '')
+      ));
+
+    ratedPlayers.forEach(([pid, snapshot], index) => {
+      (historyByPid[pid] = historyByPid[pid] || []).push({
+        week,
+        rating: snapshot.rating,
+        confidence: snapshot.confidence,
+        rank: index + 1,
+        ratingGames: snapshot.ratingGames,
+        strengthOfPartners: snapshot.strengthOfPartners,
+        strengthOfOpponents: snapshot.strengthOfOpponents,
+      });
+    });
+  }
+
+  return { historyByPid, weeks };
+}
+
 // Teammate-pair "chemistry": how much a pair over/under-performs the result
 // their four individual ratings predict. Per game, residual = actual margin -
 // expected margin (from ratings). Synergy is the shrunk average residual,
@@ -348,6 +381,7 @@ async function compileDashboardHtml() {
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
   const ratings = computeRatings(completed, matchupDetailsJson);
+  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, matchupDetailsJson, players);
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
   const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid);
 
@@ -362,6 +396,7 @@ async function compileDashboardHtml() {
     P.confidence = ratings[pid] ? ratings[pid].confidence : 0;
     P.strengthOfPartners = ratings[pid] ? ratings[pid].strengthOfPartners : null;
     P.strengthOfOpponents = ratings[pid] ? ratings[pid].strengthOfOpponents : null;
+    P.ratingHistory = historyByPid[pid] || [];
     P.partners = partnersByPid[pid] || [];
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
@@ -454,6 +489,7 @@ async function compileDashboardHtml() {
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
+      ratingHistoryWeeks,
     },
   };
 
