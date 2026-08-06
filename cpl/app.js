@@ -654,12 +654,13 @@ function renderRatingHistorySection(player) {
     .map((snapshot, index) => {
       const previousSnapshot = index > 0 ? history[index - 1] : null;
       const diff = previousSnapshot == null ? null : snapshot.rating - previousSnapshot.rating;
+      const roundedDiff = diff == null ? null : Math.round(diff * 10) / 10;
       const rankCell = snapshot.rank == null ? EMPTY_VALUE : `#${snapshot.rank}`;
       return `
         <div class="rhist-row">
           <div class="wk">Wk ${snapshot.week}</div>
           <div class="val ${snapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(snapshot.rating, 1)}</div>
-          <div class="df ${diff == null ? '' : diff >= 0 ? 'pos-diff' : 'neg-diff'}">${diff == null ? EMPTY_VALUE : formatSignedValue(diff, 1)}</div>
+          <div class="df ${roundedDiff == null || roundedDiff === 0 ? 'mut' : roundedDiff > 0 ? 'pos-diff' : 'neg-diff'}">${roundedDiff == null || roundedDiff === 0 ? EMPTY_VALUE : formatSignedValue(roundedDiff, 1)}</div>
           <div class="rk">${rankCell}</div>
           <div class="cf">${snapshot.confidence}%</div>
         </div>
