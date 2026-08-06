@@ -368,12 +368,19 @@ async function compileDashboardHtml() {
     }
   }
 
+  let rankByPid = {};
   let rankByName = {};
   try {
     const list = firstValues(playerListJson) || [];
     for (const p of list) {
       const key = norm(`${p.firstName} ${p.lastName}`);
-      if (p.ranking != null) rankByName[key] = p.ranking;
+      if (p.ranking == null) continue;
+      if (p.playerId && (rankByPid[p.playerId] == null || !p.isSub)) {
+        rankByPid[p.playerId] = p.ranking;
+      }
+      if (rankByName[key] == null || !p.isSub || p.ranking < rankByName[key]) {
+        rankByName[key] = p.ranking;
+      }
     }
   } catch (e) {
     console.warn("⚠️ League rank extraction encountered anomalies:", e.message);
@@ -390,7 +397,7 @@ async function compileDashboardHtml() {
     P.winPct = P.gamesPlayed ? round1(100 * P.wins / P.gamesPlayed) : 0;
     P.diff = P.pointsWon - P.totalPointsAgainst;
     P.ppg = P.gamesPlayed ? round1(P.pointsWon / P.gamesPlayed) : 0;
-    P.leagueRank = rankByName[norm(P.name)] ?? null;
+    P.leagueRank = rankByPid[pid] ?? rankByName[norm(P.name)] ?? null;
     P.rating = ratings[pid] ? ratings[pid].rating : null;
     P.ratingGames = ratings[pid] ? ratings[pid].ratingGames : 0;
     P.confidence = ratings[pid] ? ratings[pid].confidence : 0;
