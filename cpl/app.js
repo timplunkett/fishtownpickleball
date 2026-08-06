@@ -541,7 +541,7 @@ function renderRatingTrendChart(player, history) {
 
   const W = 640;
   const H = 180;
-  const left = 34;
+  const left = 46;
   const right = 12;
   const top = 14;
   const bottom = 34;
@@ -555,6 +555,12 @@ function renderRatingTrendChart(player, history) {
   };
   const yScale = (rating) => top + ((domainMax - rating) / (domainMax - domainMin)) * (H - top - bottom);
   const zeroY = yScale(0).toFixed(1);
+  const yTicks = Array.from({ length: 5 }, (_, index) => {
+    if (index === 4) {
+      return domainMax;
+    }
+    return domainMin + ((domainMax - domainMin) * index) / 4;
+  });
   const historyByWeek = new Map(history.map((snapshot) => [snapshot.week, snapshot]));
   const segments = [];
   let currentSegment = [];
@@ -599,6 +605,16 @@ function renderRatingTrendChart(player, history) {
       `;
     })
     .join('');
+  const yAxisMarkup = yTicks
+    .map((tick) => {
+      const y = yScale(tick).toFixed(1);
+      const isZero = Math.abs(tick) < 0.05;
+      return `
+        <line x1="${left}" y1="${y}" x2="${W - right}" y2="${y}" stroke="var(--line)" stroke-width="${isZero ? 1.3 : 1}"${isZero ? '' : ' stroke-dasharray="2 4"'} opacity="${isZero ? 0.8 : 0.35}"/>
+        <text x="${left - 8}" y="${(Number(y) + 3.5).toFixed(1)}" text-anchor="end" font-size="10.5" fill="var(--mut)">${formatSignedValue(Math.round(tick * 10) / 10, 1)}</text>
+      `;
+    })
+    .join('');
   const lastSnapshot = history[history.length - 1];
   const lastX = xScale(lastSnapshot.week).toFixed(1);
   const lastY = yScale(lastSnapshot.rating).toFixed(1);
@@ -611,7 +627,8 @@ function renderRatingTrendChart(player, history) {
 
   return `
     <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Player rating by week">
-      <line x1="${left}" y1="${zeroY}" x2="${W - right}" y2="${zeroY}" stroke="var(--line)" stroke-width="1.3"/>
+      ${yAxisMarkup}
+      <line x1="${left}" y1="${top}" x2="${left}" y2="${H - bottom}" stroke="var(--line)" stroke-width="1.1"/>
       ${tickMarkup}
       ${lineMarkup}
       ${dotMarkup}
