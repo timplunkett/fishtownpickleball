@@ -513,6 +513,95 @@ tbody td {
   line-height: 1.55;
 }
 
+.mtrend {
+  margin-top: 18px;
+  padding: 16px;
+  background: rgb(18 25 34 / 72%);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.mtrend-chart {
+  margin-top: 10px;
+}
+
+.mtrend-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.mtrend-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.mtrend-summary > div {
+  padding: 10px 11px;
+  background: var(--panel2);
+  border: 1px solid rgb(42 50 61 / 70%);
+  border-radius: 10px;
+}
+
+.mtrend-summary .lab {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--mut);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.mtrend-summary b {
+  font-size: 15px;
+}
+
+.rhist-head,
+.rhist-row {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) 72px 72px 64px;
+  gap: 10px;
+  align-items: center;
+}
+
+.rhist-head {
+  margin-top: 12px;
+  padding: 0 2px 6px;
+  color: var(--mut);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.rhist {
+  display: grid;
+  gap: 6px;
+}
+
+.rhist-row {
+  padding: 8px 10px;
+  font-size: 12.5px;
+  background: rgb(8 12 16 / 20%);
+  border: 1px solid rgb(42 50 61 / 55%);
+  border-radius: 10px;
+}
+
+.rhist-row .wk,
+.rhist-row .rk,
+.rhist-row .cf {
+  color: var(--mut);
+}
+
+.rhist-row .val,
+.rhist-row .df {
+  font-weight: 700;
+}
+
 .mlog {
   margin-top: 14px;
   display: block;
@@ -929,6 +1018,20 @@ tbody td {
 
   .modal {
     padding: 16px 12px;
+  }
+
+  .mtrend {
+    padding: 13px;
+  }
+
+  .mtrend-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .rhist-head,
+  .rhist-row {
+    grid-template-columns: 58px minmax(0, 1fr) 56px 56px 52px;
+    gap: 8px;
   }
 }
 

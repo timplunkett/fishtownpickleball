@@ -83,6 +83,24 @@ const playerRatingByName = Object.fromEntries(
     .filter((p) => p.rating != null)
     .map((p) => [p.name, p.rating]),
 );
+const currentRatingRankByName = Object.fromEntries(
+  DATA.players
+    .filter((player) => player.rating != null)
+    .slice()
+    .sort((playerA, playerB) => (
+      (playerB.rating - playerA.rating) ||
+      (playerB.confidence - playerA.confidence) ||
+      (playerB.ratingGames - playerA.ratingGames) ||
+      playerA.name.localeCompare(playerB.name)
+    ))
+    .map((player, index) => [player.name, index + 1]),
+);
+const ratingHistoryWeeks = Array.isArray(DATA.meta.ratingHistoryWeeks) && DATA.meta.ratingHistoryWeeks.length
+  ? DATA.meta.ratingHistoryWeeks
+  : (() => {
+      const match = String(DATA.meta.weeks || '').match(/(\d+)(?!.*\d)/);
+      return match ? [Number(match[1])] : [];
+    })();
 
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
@@ -133,6 +151,32 @@ function getWinLossClass(won) {
 
 function pluralize(count, singular, plural = `${singular}s`) {
   return count === 1 ? singular : plural;
+}
+
+function getPlayerRatingHistory(player) {
+  if (Array.isArray(player.ratingHistory) && player.ratingHistory.length) {
+    return player.ratingHistory;
+  }
+
+  const fallbackWeek = ratingHistoryWeeks[ratingHistoryWeeks.length - 1];
+  if (player.rating == null || fallbackWeek == null) {
+    return [];
+  }
+
+  return [{
+    week: fallbackWeek,
+    rating: player.rating,
+    confidence: player.confidence,
+    rank: currentRatingRankByName[player.name] ?? null,
+    ratingGames: player.ratingGames,
+    strengthOfPartners: player.strengthOfPartners,
+    strengthOfOpponents: player.strengthOfOpponents,
+  }];
+}
+
+function getLatestRatingSnapshot(player) {
+  const history = getPlayerRatingHistory(player);
+  return history.length ? history[history.length - 1] : null;
 }
 
 function renderSummary() {
@@ -441,6 +485,13 @@ function renderModalHeader(player) {
   const diffClass = player.diff >= 0 ? 'pos-diff' : 'neg-diff';
   const narrative = !isMissing(player.rating) ? `<p class="mh-narr">${sosNarrative(player)}</p>` : '';
   const partnersLine = renderPartnersLine(player);
+  const latestRatingSnapshot = getLatestRatingSnapshot(player);
+  const divisionRankStat = latestRatingSnapshot?.rank == null
+    ? ''
+    : `<div class="mh-stat"><div class="n">#${latestRatingSnapshot.rank}</div><div class="l">DIV RANK</div></div>`;
+  const leagueRankStat = isMissing(player.leagueRank)
+    ? ''
+    : `<div class="mh-stat"><div class="n">#${player.leagueRank}</div><div class="l">LG RANK</div></div>`;
 
   return `
     <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
@@ -458,9 +509,183 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.pointsWon}</div><div class="l">POINTS FOR</div></div>
       <div class="mh-stat"><div class="n ${diffClass}">${formatSignedValue(player.diff)}</div><div class="l">DIFF</div></div>
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
+      ${divisionRankStat}
+      ${leagueRankStat}
     </div>
     ${narrative}
     ${partnersLine}
+  `;
+}
+
+function renderRatingTrendChart(player, history) {
+  const weeks = ratingHistoryWeeks.length ? ratingHistoryWeeks : history.map((snapshot) => snapshot.week);
+  if (!weeks.length) {
+    return '';
+  }
+
+  const ratings = history.map((snapshot) => snapshot.rating).filter((rating) => rating != null);
+  if (!ratings.length) {
+    return '';
+  }
+
+  let domainMin = Math.min(...ratings, 0);
+  let domainMax = Math.max(...ratings, 0);
+  if (domainMin === domainMax) {
+    domainMin -= 1;
+    domainMax += 1;
+  } else {
+    const pad = Math.max(0.5, (domainMax - domainMin) * 0.2);
+    domainMin -= pad;
+    domainMax += pad;
+  }
+
+  const W = 640;
+  const H = 180;
+  const left = 46;
+  const right = 12;
+  const top = 14;
+  const bottom = 34;
+  const firstWeek = weeks[0];
+  const lastWeek = weeks[weeks.length - 1];
+  const xScale = (week) => {
+    if (firstWeek === lastWeek) {
+      return (left + (W - right)) / 2;
+    }
+    return left + ((week - firstWeek) / (lastWeek - firstWeek)) * (W - left - right);
+  };
+  const yScale = (rating) => top + ((domainMax - rating) / (domainMax - domainMin)) * (H - top - bottom);
+  const yTicks = Array.from({ length: 5 }, (_, index) => {
+    if (index === 4) {
+      return domainMax;
+    }
+    return domainMin + ((domainMax - domainMin) * index) / 4;
+  });
+  const historyByWeek = new Map(history.map((snapshot) => [snapshot.week, snapshot]));
+  const segments = [];
+  let currentSegment = [];
+
+  for (const week of weeks) {
+    const snapshot = historyByWeek.get(week);
+    if (!snapshot) {
+      if (currentSegment.length) {
+        segments.push(currentSegment.join(' '));
+        currentSegment = [];
+      }
+      continue;
+    }
+    currentSegment.push(`${xScale(week).toFixed(1)},${yScale(snapshot.rating).toFixed(1)}`);
+  }
+  if (currentSegment.length) {
+    segments.push(currentSegment.join(' '));
+  }
+
+  const lineMarkup = segments
+    .map((points) => `<polyline fill="none" stroke="${getTeamColor(player.team)}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" points="${points}"/>`)
+    .join('');
+  const dotMarkup = history
+    .map((snapshot, index) => {
+      const cx = xScale(snapshot.week).toFixed(1);
+      const cy = yScale(snapshot.rating).toFixed(1);
+      const radius = index === history.length - 1 ? 5 : 4;
+      const rankLabel = snapshot.rank == null ? '' : ` • #${snapshot.rank}`;
+      return `
+        <circle cx="${cx}" cy="${cy}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 30%)" stroke-width="1.2">
+          <title>Week ${snapshot.week}: ${formatSignedValue(snapshot.rating, 1)}${rankLabel} • ${snapshot.confidence}% confidence</title>
+        </circle>
+      `;
+    })
+    .join('');
+  const tickMarkup = weeks
+    .map((week) => {
+      const x = xScale(week).toFixed(1);
+      return `
+        <line x1="${x}" y1="${top}" x2="${x}" y2="${H - bottom}" stroke="var(--line)" stroke-dasharray="2 4" opacity="0.45"/>
+        <text x="${x}" y="${H - 11}" text-anchor="middle" font-size="11" fill="var(--mut)">W${week}</text>
+      `;
+    })
+    .join('');
+  const yAxisMarkup = yTicks
+    .map((tick) => {
+      const y = yScale(tick).toFixed(1);
+      const isZero = Math.abs(tick) < 0.05;
+      return `
+        <line x1="${left}" y1="${y}" x2="${W - right}" y2="${y}" stroke="var(--line)" stroke-width="${isZero ? 1.3 : 1}"${isZero ? '' : ' stroke-dasharray="2 4"'} opacity="${isZero ? 0.8 : 0.35}"/>
+        <text x="${left - 8}" y="${(Number(y) + 3.5).toFixed(1)}" text-anchor="end" font-size="10.5" fill="var(--mut)">${formatSignedValue(Math.round(tick * 10) / 10, 1)}</text>
+      `;
+    })
+    .join('');
+  const lastSnapshot = history[history.length - 1];
+  const lastX = xScale(lastSnapshot.week).toFixed(1);
+  const lastY = yScale(lastSnapshot.rating).toFixed(1);
+  const labelYOffset = Number(lastY) > ((H - bottom + top) / 2) ? -10 : 16;
+  const currentLabel = `
+    <text x="${lastX}" y="${(Number(lastY) + labelYOffset).toFixed(1)}" text-anchor="middle" font-size="11" font-weight="700" fill="${getTeamColor(player.team)}">
+      ${formatSignedValue(lastSnapshot.rating, 1)}
+    </text>
+  `;
+
+  return `
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Player rating by week">
+      ${yAxisMarkup}
+      <line x1="${left}" y1="${top}" x2="${left}" y2="${H - bottom}" stroke="var(--line)" stroke-width="1.1"/>
+      ${tickMarkup}
+      ${lineMarkup}
+      ${dotMarkup}
+      ${currentLabel}
+    </svg>
+  `;
+}
+
+function renderRatingHistorySection(player) {
+  const history = getPlayerRatingHistory(player);
+  if (!history.length) {
+    return '';
+  }
+
+  const firstSnapshot = history[0];
+  const latestSnapshot = history[history.length - 1];
+  const change = latestSnapshot.rating - firstSnapshot.rating;
+  const changeClass = change >= 0 ? 'pos-diff' : 'neg-diff';
+  const currentRank = latestSnapshot.rank == null ? EMPTY_VALUE : `#${latestSnapshot.rank}`;
+  const trendSummary = history.length > 1
+    ? `Change since Wk ${firstSnapshot.week}`
+    : 'Current snapshot';
+  const rows = history
+    .map((snapshot, index) => {
+      const previousSnapshot = index > 0 ? history[index - 1] : null;
+      const diff = previousSnapshot == null ? null : snapshot.rating - previousSnapshot.rating;
+      const roundedDiff = diff == null ? null : Math.round(diff * 10) / 10;
+      const rankCell = snapshot.rank == null ? EMPTY_VALUE : `#${snapshot.rank}`;
+      return `
+        <div class="rhist-row">
+          <div class="wk">Wk ${snapshot.week}</div>
+          <div class="val ${snapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(snapshot.rating, 1)}</div>
+          <div class="df ${roundedDiff == null || roundedDiff === 0 ? 'mut' : roundedDiff > 0 ? 'pos-diff' : 'neg-diff'}">${roundedDiff == null || roundedDiff === 0 ? EMPTY_VALUE : formatSignedValue(roundedDiff, 1)}</div>
+          <div class="rk">${rankCell}</div>
+          <div class="cf">${snapshot.confidence}%</div>
+        </div>
+      `;
+    })
+    .join('');
+
+  return `
+    <section class="mtrend">
+      <div class="gtitle">Rating by week <span>cumulative through each week • rank = among rated players in this division</span></div>
+      <div class="mtrend-chart">${renderRatingTrendChart(player, history)}</div>
+      <div class="mtrend-summary">
+        <div><span class="lab">Current</span><b class="${latestSnapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(latestSnapshot.rating, 1)}</b></div>
+        <div><span class="lab">Rank</span><b>${currentRank}</b></div>
+        <div><span class="lab">${trendSummary}</span><b class="${changeClass}">${formatSignedValue(change, 1)}</b></div>
+      </div>
+      <div class="rhist-head">
+        <span>Week</span>
+        <span>Rating</span>
+        <span>Diff</span>
+        <span>Rank</span>
+        <span>Conf</span>
+      </div>
+      <div class="rhist">${rows}</div>
+    </section>
   `;
 }
 
@@ -687,6 +912,7 @@ function renderModalBody(player) {
   const gameRows = renderGameLogRows(player, projectedGames);
   const gameCount = (player.games || []).length;
   const projectedCount = projectedGames.length;
+  const ratingHistorySection = renderRatingHistorySection(player);
 
   let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
@@ -706,6 +932,7 @@ function renderModalBody(player) {
   const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
+    ${ratingHistorySection}
     <table class="mlog">
       <thead>
         <tr>
@@ -735,7 +962,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
+    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
