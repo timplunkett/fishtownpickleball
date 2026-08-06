@@ -635,12 +635,15 @@ function renderRatingHistorySection(player) {
     ? `Change since Wk ${firstSnapshot.week}`
     : 'Current snapshot';
   const rows = history
-    .map((snapshot) => {
+    .map((snapshot, index) => {
+      const previousSnapshot = index > 0 ? history[index - 1] : null;
+      const diff = previousSnapshot == null ? null : snapshot.rating - previousSnapshot.rating;
       const rankCell = snapshot.rank == null ? EMPTY_VALUE : `#${snapshot.rank}`;
       return `
         <div class="rhist-row">
           <div class="wk">Wk ${snapshot.week}</div>
           <div class="val ${snapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(snapshot.rating, 1)}</div>
+          <div class="df ${diff == null ? '' : diff >= 0 ? 'pos-diff' : 'neg-diff'}">${diff == null ? EMPTY_VALUE : formatSignedValue(diff, 1)}</div>
           <div class="rk">${rankCell}</div>
           <div class="cf">${snapshot.confidence}%</div>
         </div>
@@ -660,6 +663,7 @@ function renderRatingHistorySection(player) {
       <div class="rhist-head">
         <span>Week</span>
         <span>Rating</span>
+        <span>Diff</span>
         <span>Rank</span>
         <span>Conf</span>
       </div>

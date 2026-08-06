@@ -563,7 +563,7 @@ tbody td {
 .rhist-head,
 .rhist-row {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr) 72px 64px;
+  grid-template-columns: 72px minmax(0, 1fr) 72px 72px 64px;
   gap: 10px;
   align-items: center;
 }
@@ -597,7 +597,8 @@ tbody td {
   color: var(--mut);
 }
 
-.rhist-row .val {
+.rhist-row .val,
+.rhist-row .df {
   font-weight: 700;
 }
 
@@ -1029,7 +1030,7 @@ tbody td {
 
   .rhist-head,
   .rhist-row {
-    grid-template-columns: 58px minmax(0, 1fr) 56px 52px;
+    grid-template-columns: 58px minmax(0, 1fr) 56px 56px 52px;
     gap: 8px;
   }
 }
