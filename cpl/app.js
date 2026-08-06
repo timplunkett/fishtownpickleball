@@ -554,7 +554,6 @@ function renderRatingTrendChart(player, history) {
     return left + ((week - firstWeek) / (lastWeek - firstWeek)) * (W - left - right);
   };
   const yScale = (rating) => top + ((domainMax - rating) / (domainMax - domainMin)) * (H - top - bottom);
-  const zeroY = yScale(0).toFixed(1);
   const yTicks = Array.from({ length: 5 }, (_, index) => {
     if (index === 4) {
       return domainMax;
