@@ -63,7 +63,7 @@ const elements = {
   gender: getRequiredElement('gender'),
   gridHost: getRequiredElement('grid-host'),
   head: getRequiredElement('head'),
-  kicker: getRequiredSelector('header .kicker'),
+  kicker: getRequiredElement('kicker'),
   mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
   modalBody: getRequiredElement('mbody'),
@@ -77,7 +77,7 @@ const elements = {
   team: getRequiredElement('team'),
   teams: getRequiredElement('teams'),
   teamView: getRequiredElement('teamview'),
-  title: getRequiredSelector('header h1'),
+  title: getRequiredElement('title'),
 };
 
 const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
@@ -123,14 +123,16 @@ function getRequiredElement(id) {
   return element;
 }
 
-function getRequiredSelector(selector) {
-  const element = document.querySelector(selector);
-
-  if (!element) {
-    throw new Error(`Missing required element: ${selector}`);
+function getCurrentDivision() {
+  const currentSlug = DATA.meta.divisionSlug;
+  if (currentSlug) {
+    const matchedDivision = DIVISIONS.find((division) => division.slug === currentSlug);
+    if (matchedDivision) {
+      return matchedDivision;
+    }
   }
 
-  return element;
+  return DIVISIONS[0] || null;
 }
 
 function escapeHtml(value) {
@@ -239,7 +241,7 @@ function getLatestRatingSnapshot(player) {
 }
 
 function renderDivisionSelector() {
-  const currentSlug = DATA.meta.divisionSlug || '3e9b6a58';
+  const currentSlug = getCurrentDivision()?.slug || '';
 
   elements.divisionSelect.innerHTML = DIVISIONS.map((div) => {
     const label = `${div.clubName} — ${div.divisionName}`;
@@ -257,20 +259,24 @@ function renderDivisionSelector() {
 }
 
 function renderHeader() {
-  const currentSlug = DATA.meta.divisionSlug || '3e9b6a58';
-  const currentDivision = DIVISIONS.find((division) => division.slug === currentSlug);
-  const clubName = DATA.meta.clubName || currentDivision?.clubName || 'Bounce Pickleball League';
-  const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || 'Division';
+  const currentDivision = getCurrentDivision();
+  const clubName = DATA.meta.clubName || currentDivision?.clubName;
+  if (!clubName) {
+    throw new Error('Missing clubName for current CPL dataset.');
+  }
+  const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || '';
+  const titlePrefix = divisionName ? `${divisionName} ` : '';
   elements.kicker.textContent = clubName;
-  elements.title.textContent = `${divisionName} Division Standings & Player Stats`;
+  elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
 }
 
 function renderSummary() {
+  const currentSlug = DATA.meta.divisionSlug || getCurrentDivision()?.slug || '';
   elements.subhead.textContent =
     `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
-    `Live from the Bounce league API • division ${DATA.meta.divisionSlug || '3e9b6a58'} • Weeks ${DATA.meta.weeks}, ` +
+    `Live from the Bounce league API • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
