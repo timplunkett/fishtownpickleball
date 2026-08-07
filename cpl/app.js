@@ -1,11 +1,11 @@
 'use strict';
 
 const TEAM_COLOR_PALETTE = Object.freeze([
-  '#e8c66b',
-  '#7fd6ee',
-  '#e5534b',
-  '#1db2dc',
-  '#19d39a',
+  '#1db2dc', // Blue
+  '#e5534b', // Red
+  '#19d39a', // Green
+  '#7fd6ee', // Light blue
+  '#e8c66b', // Yellow
 ]);
 const TEAM_COLORS = Object.freeze(Object.fromEntries(
   [...(Array.isArray(DATA.teams) ? DATA.teams : [])]
