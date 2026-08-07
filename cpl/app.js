@@ -8,10 +8,12 @@ const TEAM_COLOR_PALETTE = Object.freeze([
   '#19d39a',
 ]);
 const TEAM_COLORS = Object.freeze(Object.fromEntries(
-  (Array.isArray(DATA.teams) ? DATA.teams : []).map((team, index) => [
-    team.name,
-    TEAM_COLOR_PALETTE[index % TEAM_COLOR_PALETTE.length],
-  ]),
+  [...(Array.isArray(DATA.teams) ? DATA.teams : [])]
+    .sort((a, b) => (a?.name ?? '').localeCompare(b?.name ?? ''))
+    .map((team, index) => [
+      team.name,
+      TEAM_COLOR_PALETTE[index % TEAM_COLOR_PALETTE.length],
+    ]),
 ));
 const HIGHLIGHTED_PLAYER = '';
 const EMPTY_VALUE = '—';
