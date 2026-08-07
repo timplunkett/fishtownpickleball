@@ -3,7 +3,7 @@ import globals from 'globals';
 
 export default [
   {
-    ignores: ['cpl/data.js', 'node_modules/**', '_site/**', 'vendor/**'],
+    ignores: ['cpl/data.js', 'cpl/data-*.js', 'node_modules/**', '_site/**', 'vendor/**'],
   },
   {
     files: ['_cpl/**/*.js'],
@@ -25,6 +25,7 @@ export default [
       globals: {
         ...globals.browser,
         DATA: 'readonly',
+        DIVISIONS: 'readonly',
       },
     },
     rules: {

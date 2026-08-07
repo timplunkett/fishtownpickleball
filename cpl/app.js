@@ -49,6 +49,7 @@ const HTML_ESCAPE_MAP = Object.freeze({
 
 const elements = {
   body: getRequiredElement('body'),
+  divisionSelect: getRequiredElement('division-select'),
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
@@ -188,12 +189,30 @@ function getLatestRatingSnapshot(player) {
   return history.length ? history[history.length - 1] : null;
 }
 
+function renderDivisionSelector() {
+  const currentSlug = DATA.meta.divisionSlug || '3e9b6a58';
+
+  elements.divisionSelect.innerHTML = DIVISIONS.map((div) => {
+    const label = `${div.clubName} — ${div.divisionName}`;
+    const selected = div.slug === currentSlug ? ' selected' : '';
+    return `<option value="${div.slug}"${selected}>${escapeHtml(label)}</option>`;
+  }).join('');
+
+  elements.divisionSelect.addEventListener('change', () => {
+    const slug = elements.divisionSelect.value;
+    const url = new URL(window.location.href);
+    url.searchParams.set('d', slug);
+    url.hash = '';
+    window.location.href = url.toString();
+  });
+}
+
 function renderSummary() {
   elements.subhead.textContent =
     `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
-    `Live from the Bounce league API • division 3e9b6a58 • Weeks ${DATA.meta.weeks}, ` +
+    `Live from the Bounce league API • division ${DATA.meta.divisionSlug || '3e9b6a58'} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
@@ -1617,6 +1636,7 @@ function handleSwarmOut(event) {
 }
 
 function initialize() {
+  renderDivisionSelector();
   renderSummary();
   renderTeams();
   renderResultsGrid();
