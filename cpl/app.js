@@ -63,6 +63,7 @@ const elements = {
   gender: getRequiredElement('gender'),
   gridHost: getRequiredElement('grid-host'),
   head: getRequiredElement('head'),
+  kicker: getRequiredSelector('header .kicker'),
   mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
   modalBody: getRequiredElement('mbody'),
@@ -76,6 +77,7 @@ const elements = {
   team: getRequiredElement('team'),
   teams: getRequiredElement('teams'),
   teamView: getRequiredElement('teamview'),
+  title: getRequiredSelector('header h1'),
 };
 
 const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
@@ -116,6 +118,16 @@ function getRequiredElement(id) {
 
   if (!element) {
     throw new Error(`Missing required element: #${id}`);
+  }
+
+  return element;
+}
+
+function getRequiredSelector(selector) {
+  const element = document.querySelector(selector);
+
+  if (!element) {
+    throw new Error(`Missing required element: ${selector}`);
   }
 
   return element;
@@ -242,6 +254,15 @@ function renderDivisionSelector() {
     url.hash = '';
     window.location.href = url.toString();
   });
+}
+
+function renderHeader() {
+  const currentSlug = DATA.meta.divisionSlug || '3e9b6a58';
+  const currentDivision = DIVISIONS.find((division) => division.slug === currentSlug);
+  const clubName = DATA.meta.clubName || currentDivision?.clubName || 'Bounce Pickleball League';
+  const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || 'Division';
+  elements.kicker.textContent = clubName;
+  elements.title.textContent = `${divisionName} Division Standings & Player Stats`;
 }
 
 function renderSummary() {
@@ -1673,6 +1694,7 @@ function handleSwarmOut(event) {
 }
 
 function initialize() {
+  renderHeader();
   renderDivisionSelector();
   renderSummary();
   renderTeams();
