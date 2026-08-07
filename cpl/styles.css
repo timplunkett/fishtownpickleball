@@ -1095,7 +1095,7 @@ tbody td {
   width: 98px;
   padding: 5px 3px;
   text-align: center;
-  vertical-align: top;
+  vertical-align: middle;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -1105,6 +1105,12 @@ tbody td {
 .grid-wrap td.played {
   cursor: pointer;
   padding: 0;
+}
+
+.grid-wrap td.played.win-multi,
+.grid-wrap td.played.loss-multi,
+.grid-wrap td.played.split-multi {
+  vertical-align: top;
 }
 
 .grid-wrap td.self {
