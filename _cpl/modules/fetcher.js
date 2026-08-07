@@ -9,6 +9,10 @@ function slugForDivision(divisionId) {
   return divisionId.slice(0, 8);
 }
 
+function normalizeClubName(clubName) {
+  return (clubName || '').replaceAll(' Pickleball Club', '');
+}
+
 async function fetchDivisionData(divisionId) {
   const divBase = `${API_BASE}/divisions/${divisionId}`;
   const [matchupsRes, playersRes] = await Promise.all([
@@ -58,7 +62,7 @@ async function downloadLatestApiData() {
         slug: slugForDivision(div.divisionId),
         divisionId: div.divisionId,
         divisionName: div.divisionName.replace(/&amp;/g, '&'),
-        clubName: club.name,
+        clubName: normalizeClubName(club.name),
         clubId: club.clubId,
         isDefault: div.divisionId === DEFAULT_DIVISION_ID,
       });
