@@ -1,8 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const OUT = path.join(__dirname, '../../cpl/data.js');
-
 const round1 = n => Math.round(n * 10) / 10;
 const ratio = (wins, losses) => {
   const total = wins + losses;
@@ -248,14 +246,10 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
   return { duos, partnersByPid };
 }
 
-async function compileDashboardHtml() {
-  console.log('\n--- Phase 2: Processing Stats & Building View ---');
-  console.log('Loading local JSON caches from disk...');
-
-  const dataDir = path.join(__dirname, '../data');
-  const feed = JSON.parse(fs.readFileSync(path.join(dataDir, "matchups.json"), "utf8"));
-  const playerListJson = JSON.parse(fs.readFileSync(path.join(dataDir, "players.json"), "utf8"));
-  const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(dataDir, "matchupDetails.json"), "utf8"));
+function compileDivision(slug, divDataDir, outPath, divisionMeta) {
+  const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
+  const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
+  const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
 
   const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult);
@@ -508,12 +502,45 @@ async function compileDashboardHtml() {
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
-      ratingHistoryWeeks,
+      ratingHistoryWeeks, divisionSlug: slug,
+      ...(divisionMeta || {}),
     },
   };
 
-  fs.writeFileSync(OUT, "const DATA = " + JSON.stringify(DATA) + ";");
-  console.log(`✓ data.js written to ${OUT}`);
+  fs.writeFileSync(outPath, "const DATA = " + JSON.stringify(DATA) + ";");
+  console.log(`  ✓ data.js written to ${outPath}`);
+}
+
+async function compileDashboardHtml() {
+  console.log('\n--- Phase 2: Processing Stats & Building View ---');
+  const dataDir = path.join(__dirname, '../data');
+  const cplDir = path.join(__dirname, '../../cpl');
+
+  const divisionsPath = path.join(dataDir, 'divisions.json');
+  if (!fs.existsSync(divisionsPath)) {
+    throw new Error('divisions.json not found — run the fetcher first.');
+  }
+  const allDivisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
+
+  for (const div of allDivisions) {
+    const divDataDir = path.join(dataDir, div.slug);
+    if (!fs.existsSync(divDataDir)) {
+      console.warn(`  ⚠️ No data dir for ${div.slug} (${div.clubName}), skipping.`);
+      continue;
+    }
+    console.log(`\nCompiling: ${div.clubName} / ${div.divisionName} (${div.slug})`);
+    try {
+      const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
+      compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), {
+        clubName: div.clubName,
+        divisionName: div.divisionName,
+      });
+    } catch (err) {
+      console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
+    }
+  }
+
+  console.log('\n✓ Phase 2 complete.');
 }
 
 module.exports = { compileDashboardHtml };

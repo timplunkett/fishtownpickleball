@@ -39,6 +39,33 @@ header {
   padding: 34px 0 8px;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.division-selector-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.division-label {
+  color: var(--mut);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#division-select {
+  max-width: 280px;
+}
+
 h1 {
   margin: 0.25em 0 0.1em;
   font-size: 28px;

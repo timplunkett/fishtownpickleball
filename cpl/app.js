@@ -1,12 +1,20 @@
 'use strict';
 
-const TEAM_COLORS = Object.freeze({
-  'Picholas Cage': '#e8c66b',
-  'License to Dill': '#7fd6ee',
-  'Balls of Fury': '#e5534b',
-  Baggers: '#1db2dc',
-  'Kitchen Nightmares': '#19d39a',
-});
+const TEAM_COLOR_PALETTE = Object.freeze([
+  '#1db2dc', // Blue
+  '#e5534b', // Red
+  '#19d39a', // Green
+  '#7fd6ee', // Light blue
+  '#e8c66b', // Yellow
+]);
+const TEAM_COLORS = Object.freeze(Object.fromEntries(
+  [...(Array.isArray(DATA.teams) ? DATA.teams : [])]
+    .sort((a, b) => (a?.name ?? '').localeCompare(b?.name ?? ''))
+    .map((team, index) => [
+      team.name,
+      TEAM_COLOR_PALETTE[index % TEAM_COLOR_PALETTE.length],
+    ]),
+));
 const HIGHLIGHTED_PLAYER = '';
 const EMPTY_VALUE = '—';
 const DEFAULT_SORT = Object.freeze({ key: 'rating', direction: -1 });
@@ -49,6 +57,7 @@ const HTML_ESCAPE_MAP = Object.freeze({
 
 const elements = {
   body: getRequiredElement('body'),
+  divisionSelect: getRequiredElement('division-select'),
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
@@ -69,13 +78,9 @@ const elements = {
   teamView: getRequiredElement('teamview'),
 };
 
-const TEAM_ABBR = Object.freeze({
-  'Balls of Fury': 'Fury',
-  Baggers: 'Baggers',
-  'License to Dill': 'Dill',
-  'Picholas Cage': 'Cage',
-  'Kitchen Nightmares': 'KN',
-});
+const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
+  (Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name),
+));
 
 // Build a name → rating lookup from DATA (data.js loads before app.js).
 const playerRatingByName = Object.fromEntries(
@@ -122,6 +127,39 @@ function escapeHtml(value) {
 
 function isMissing(value) {
   return value === null || value === undefined;
+}
+
+function abbreviateTeamName(teamName) {
+  const normalizedName = String(teamName || '').trim();
+  const words = normalizedName.split(/[^A-Za-z0-9]+/).filter(Boolean);
+  if (!words.length) return normalizedName;
+  if (normalizedName.length <= 12) return normalizedName;
+  if (words.length === 1) return words[0].slice(0, 8);
+  return words.map((word) => word[0]).join('').toUpperCase().slice(0, 4);
+}
+
+function buildTeamAbbreviations(teamNames) {
+  const abbreviations = {};
+  const used = new Set();
+
+  teamNames.forEach((teamName) => {
+    let abbreviation = abbreviateTeamName(teamName) || String(teamName || '');
+    if (!used.has(abbreviation)) {
+      abbreviations[teamName] = abbreviation;
+      used.add(abbreviation);
+      return;
+    }
+
+    let attempt = 2;
+    while (used.has(`${abbreviation}${attempt}`)) {
+      attempt += 1;
+    }
+    abbreviation = `${abbreviation}${attempt}`;
+    abbreviations[teamName] = abbreviation;
+    used.add(abbreviation);
+  });
+
+  return abbreviations;
 }
 
 function getTeamColor(teamName) {
@@ -188,12 +226,30 @@ function getLatestRatingSnapshot(player) {
   return history.length ? history[history.length - 1] : null;
 }
 
+function renderDivisionSelector() {
+  const currentSlug = DATA.meta.divisionSlug || '3e9b6a58';
+
+  elements.divisionSelect.innerHTML = DIVISIONS.map((div) => {
+    const label = `${div.clubName} — ${div.divisionName}`;
+    const selected = div.slug === currentSlug ? ' selected' : '';
+    return `<option value="${div.slug}"${selected}>${escapeHtml(label)}</option>`;
+  }).join('');
+
+  elements.divisionSelect.addEventListener('change', () => {
+    const slug = elements.divisionSelect.value;
+    const url = new URL(window.location.href);
+    url.searchParams.set('d', slug);
+    url.hash = '';
+    window.location.href = url.toString();
+  });
+}
+
 function renderSummary() {
   elements.subhead.textContent =
     `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
-    `Live from the Bounce league API • division 3e9b6a58 • Weeks ${DATA.meta.weeks}, ` +
+    `Live from the Bounce league API • division ${DATA.meta.divisionSlug || '3e9b6a58'} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
@@ -1617,6 +1673,7 @@ function handleSwarmOut(event) {
 }
 
 function initialize() {
+  renderDivisionSelector();
   renderSummary();
   renderTeams();
   renderResultsGrid();
