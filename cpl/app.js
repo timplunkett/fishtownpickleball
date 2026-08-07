@@ -276,7 +276,7 @@ function renderSummary() {
     `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
-    `Live from the Bounce league API • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
+    `Live from the Cross Club API • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
