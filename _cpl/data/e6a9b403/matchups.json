@@ -1,0 +1,860 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "matchupId": "0afdecb9-8658-44eb-90a0-5e2a18de2ad7",
+      "weekNumber": 1,
+      "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "homePoints": 556,
+      "awayPoints": 642,
+      "endResult": "away",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-07T19:00:00",
+      "homeName": "Bash and Crash",
+      "awayName": "The Big Dill",
+      "awayTeam": {
+        "$id": "3",
+        "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+        "teamName": "The Big Dill",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "club": {
+          "$id": "4",
+          "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+          "name": "Dill Dinkers - Chantilly",
+          "logo": "DillDinkersChantilly",
+          "color": "#000000",
+          "website": "https://locations.dilldinkers.com/us/va/chantilly/metrotech-drive",
+          "facebook": "https://www.facebook.com/DillDinkersChantillyVA/",
+          "instagram": "https://www.instagram.com/dilldinkerschantillyva/",
+          "twitter": null,
+          "youtube": "https://www.youtube.com/@dilldinkers",
+          "address": "8300 Sudley Rd Unit A4, Manassas, VA",
+          "phone": "(571) 678-3465",
+          "divisions": {
+            "$id": "5",
+            "$values": []
+          }
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "6",
+        "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+        "teamName": "Bash and Crash",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "7",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "8",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "9",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "10",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 10,
+      "awayWins": 22,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 1,
+      "address": "Village Pickle, 1606 Village Market Blvd SE Ste C-115, Leesburg, VA"
+    },
+    {
+      "$id": "11",
+      "matchupId": "2cfe9330-ba6f-45bf-b7c7-acb97b62e9c9",
+      "weekNumber": 1,
+      "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "homePoints": 633,
+      "awayPoints": 577,
+      "endResult": "home",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-07T19:00:00",
+      "homeName": "Deadly Dinks",
+      "awayName": "Kitchen Ninjas",
+      "awayTeam": {
+        "$id": "12",
+        "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+        "teamName": "Kitchen Ninjas",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "13",
+        "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+        "teamName": "Deadly Dinks",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "14",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "15",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "16",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "17",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 22,
+      "awayWins": 10,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 3,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "18",
+      "matchupId": "1f938a1f-f07e-4f76-bf16-c2ce140434a5",
+      "weekNumber": 2,
+      "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "homePoints": 542,
+      "awayPoints": 588,
+      "endResult": "away",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-14T19:00:00",
+      "homeName": "Kitchen Ninjas",
+      "awayName": "The Big Dill",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "19",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "20",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "21",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "22",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 10,
+      "awayWins": 22,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 1,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "23",
+      "matchupId": "2c873059-92b9-4d88-835d-3f1b9c4acc2b",
+      "weekNumber": 3,
+      "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "homePoints": 659,
+      "awayPoints": 529,
+      "endResult": "home",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-21T19:00:00",
+      "homeName": "The Big Dill",
+      "awayName": "Deadly Dinks",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "24",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "25",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "26",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "27",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 22,
+      "awayWins": 10,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 2,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "28",
+      "matchupId": "3835bd1e-a2e1-4b54-9cc7-8ffd57586d51",
+      "weekNumber": 3,
+      "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "homePoints": 615,
+      "awayPoints": 629,
+      "endResult": "away",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-21T19:00:00",
+      "homeName": "Bash and Crash",
+      "awayName": "Kitchen Ninjas",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "29",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "30",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "31",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "32",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 14,
+      "awayWins": 18,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 3,
+      "address": "Village Pickle, 1606 Village Market Blvd SE Ste C-115, Leesburg, VA"
+    },
+    {
+      "$id": "33",
+      "matchupId": "5220ead3-f5da-4daa-9a69-b66b6931db45",
+      "weekNumber": 4,
+      "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "homePoints": 600,
+      "awayPoints": 570,
+      "endResult": "home",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-28T19:00:00",
+      "homeName": "The Big Dill",
+      "awayName": "Bash and Crash",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "34",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "35",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "36",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "37",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 17,
+      "awayWins": 15,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 4,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "38",
+      "matchupId": "999b5c0b-ae8c-4622-9b2d-c7ec1e8e2df0",
+      "weekNumber": 4,
+      "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "homePoints": 568,
+      "awayPoints": 624,
+      "endResult": "away",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-28T19:00:00",
+      "homeName": "Kitchen Ninjas",
+      "awayName": "Deadly Dinks",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "39",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "40",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "41",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "42",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 12,
+      "awayWins": 20,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 2,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "43",
+      "matchupId": "de4457ba-891f-4757-a795-027e0d5a0615",
+      "weekNumber": 5,
+      "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "homePoints": 552,
+      "awayPoints": 647,
+      "endResult": "away",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-04T19:00:00",
+      "homeName": "Bash and Crash",
+      "awayName": "Deadly Dinks",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "44",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "45",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "46",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "47",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 10,
+      "awayWins": 22,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 2,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "48",
+      "matchupId": "cc6acccb-fd43-4a96-b8e0-711a82172301",
+      "weekNumber": 5,
+      "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "homePoints": 619,
+      "awayPoints": 563,
+      "endResult": "home",
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-04T19:00:00",
+      "homeName": "The Big Dill",
+      "awayName": "Kitchen Ninjas",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "49",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "50",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "51",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "52",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 20,
+      "awayWins": 12,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 3,
+      "address": "Village Pickle, 1606 Village Market Blvd SE Ste C-115, Leesburg, VA"
+    },
+    {
+      "$id": "53",
+      "matchupId": "3ed565b4-5748-4323-b408-84ca0d5b9ecb",
+      "weekNumber": 5,
+      "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-09T17:00:00",
+      "homeName": "Deadly Dinks",
+      "awayName": "Bash and Crash",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "54",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "55",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "56",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "57",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 4,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "58",
+      "matchupId": "b821846c-3a91-4596-af2d-6a966dfebe95",
+      "weekNumber": 6,
+      "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-11T19:00:00",
+      "homeName": "Kitchen Ninjas",
+      "awayName": "Bash and Crash",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "59",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "60",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "61",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "62",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 4,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    },
+    {
+      "$id": "63",
+      "matchupId": "2aa56ce9-670b-44dd-90ff-b111cd2a17ef",
+      "weekNumber": 6,
+      "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-11T19:00:00",
+      "homeName": "Deadly Dinks",
+      "awayName": "The Big Dill",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "64",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "65",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "66",
+        "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
+        "name": "Dill Dinkers - Chantilly",
+        "logo": "DillDinkersChantilly",
+        "color": "#000000",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "67",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
+      "address": "13954 Metrotech Dr, Chantilly, VA 20151"
+    }
+  ]
+}

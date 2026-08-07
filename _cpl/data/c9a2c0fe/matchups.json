@@ -1,0 +1,1405 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "matchupId": "a2b3ce55-9472-4dcc-ad32-022f185e0464",
+      "weekNumber": 1,
+      "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "homePoints": 579,
+      "awayPoints": 558,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-24T19:00:00",
+      "homeName": "Ace Bandits",
+      "awayName": "Ace Rebels",
+      "awayTeam": {
+        "$id": "3",
+        "teamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+        "teamName": "Ace Rebels",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "club": {
+          "$id": "4",
+          "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+          "name": "Ace Pickleball Club - Moorestown / Voorhees",
+          "logo": "AcePickleballClubMoorestown",
+          "color": "#231F20",
+          "website": "https://www.acepickleballclub.com/moorestown-nj",
+          "facebook": "https://www.facebook.com/acepickleballclub.hq",
+          "instagram": "https://www.instagram.com/acepickleballclub",
+          "twitter": null,
+          "youtube": "https://www.youtube.com/@AcePickleballClub_llc",
+          "address": "1199 Nixon Dr, Moorestown, NJ",
+          "phone": "856-548-5430",
+          "divisions": {
+            "$id": "5",
+            "$values": []
+          }
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "6",
+        "teamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+        "teamName": "Ace Bandits",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "7",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "8",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "9",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "10",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 16,
+      "awayWins": 16,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 4,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "11",
+      "matchupId": "9a5973ee-6cc2-4c6b-ba84-b144cff2c4ad",
+      "weekNumber": 1,
+      "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "homePoints": 805,
+      "awayPoints": 580,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-06-24T19:00:00",
+      "homeName": "Kitchen Commanders",
+      "awayName": "Ace & Eights",
+      "awayTeam": {
+        "$id": "12",
+        "teamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+        "teamName": "Ace & Eights",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "homeTeam": {
+        "$id": "13",
+        "teamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+        "teamName": "Kitchen Commanders",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "14",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "15",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "16",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "17",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 17,
+      "awayWins": 15,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 2,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "18",
+      "matchupId": "72ba9446-8101-46f3-9fd1-a0c6ab401155",
+      "weekNumber": 2,
+      "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "homePoints": 535,
+      "awayPoints": 611,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-01T19:00:00",
+      "homeName": "Ace & Eights",
+      "awayName": "Ace Bandits",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "19",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "20",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "21",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "22",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 13,
+      "awayWins": 19,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "23",
+      "matchupId": "f810408b-d386-4915-bebf-ad22c02a631e",
+      "weekNumber": 2,
+      "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "homePoints": 636,
+      "awayPoints": 573,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-01T19:00:00",
+      "homeName": "ACE ACE Baby",
+      "awayName": "Kitchen Commanders",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$id": "24",
+        "teamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+        "teamName": "ACE ACE Baby",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "club": {
+          "$ref": "4"
+        },
+        "schedule": null,
+        "playerStats": null,
+        "statistics": null
+      },
+      "awayClub": {
+        "$id": "25",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "26",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "27",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "28",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 20,
+      "awayWins": 12,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 5,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "29",
+      "matchupId": "c909cb12-75ff-49b0-96c1-52aa7d799c56",
+      "weekNumber": 3,
+      "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "homePoints": 563,
+      "awayPoints": 622,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-08T19:00:00",
+      "homeName": "Ace Rebels",
+      "awayName": "Ace & Eights",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "30",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "31",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "32",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "33",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 13,
+      "awayWins": 19,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 2,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "34",
+      "matchupId": "1c9dd2d6-91e6-4bde-a45f-62857941d94b",
+      "weekNumber": 3,
+      "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "homePoints": 590,
+      "awayPoints": 554,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-08T19:00:00",
+      "homeName": "Ace Bandits",
+      "awayName": "ACE ACE Baby",
+      "awayTeam": {
+        "$ref": "24"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "35",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "36",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "37",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "38",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 16,
+      "awayWins": 16,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 3,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "39",
+      "matchupId": "7b8c790c-29ce-4092-8b11-973347b383fb",
+      "weekNumber": 4,
+      "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "homePoints": 590,
+      "awayPoints": 605,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-15T19:00:00",
+      "homeName": "Ace & Eights",
+      "awayName": "ACE ACE Baby",
+      "awayTeam": {
+        "$ref": "24"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "40",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "41",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "42",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "43",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 16,
+      "awayWins": 16,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 3,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "44",
+      "matchupId": "74418229-ee00-4e09-88ef-b62b18a1f64e",
+      "weekNumber": 4,
+      "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "homePoints": 614,
+      "awayPoints": 557,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-15T19:00:00",
+      "homeName": "Ace Rebels",
+      "awayName": "Kitchen Commanders",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "45",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "46",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "47",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "48",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 19,
+      "awayWins": 13,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 5,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "49",
+      "matchupId": "875f6443-6148-430c-bed3-22241796efe7",
+      "weekNumber": 5,
+      "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "homePoints": 571,
+      "awayPoints": 559,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-22T19:00:00",
+      "homeName": "ACE ACE Baby",
+      "awayName": "Ace Rebels",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "24"
+      },
+      "awayClub": {
+        "$id": "50",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "51",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "52",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "53",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 17,
+      "awayWins": 15,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 4,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "54",
+      "matchupId": "245a974f-2502-474c-b4ea-e6e969ee284f",
+      "weekNumber": 5,
+      "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "homePoints": 598,
+      "awayPoints": 641,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-22T19:00:00",
+      "homeName": "Kitchen Commanders",
+      "awayName": "Ace Bandits",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "55",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "56",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "57",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "58",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 13,
+      "awayWins": 19,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 1,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "59",
+      "matchupId": "2c8256db-93f3-4d7d-941b-1816d55e14c8",
+      "weekNumber": 6,
+      "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "homePoints": 561,
+      "awayPoints": 622,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-29T19:00:00",
+      "homeName": "Ace Bandits",
+      "awayName": "Ace & Eights",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "60",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "61",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "62",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "63",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 14,
+      "awayWins": 18,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 2,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "64",
+      "matchupId": "8af92124-667d-4a49-9835-a713702492f7",
+      "weekNumber": 6,
+      "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "homePoints": 613,
+      "awayPoints": 548,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-07-29T19:00:00",
+      "homeName": "Kitchen Commanders",
+      "awayName": "ACE ACE Baby",
+      "awayTeam": {
+        "$ref": "24"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "65",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "66",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "67",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "68",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 20,
+      "awayWins": 12,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 3,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "69",
+      "matchupId": "09b21a7e-0e69-4fea-8769-c20194c1e3c6",
+      "weekNumber": 8,
+      "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "homePoints": 595,
+      "awayPoints": 625,
+      "endResult": "away",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-03T19:00:00",
+      "homeName": "Ace Rebels",
+      "awayName": "Ace Bandits",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "70",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "71",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "72",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "73",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 13,
+      "awayWins": 19,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 1,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "74",
+      "matchupId": "8198cf57-d72d-4b72-a2de-f8fefedc07fe",
+      "weekNumber": 8,
+      "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "homePoints": 656,
+      "awayPoints": 503,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-03T19:00:00",
+      "homeName": "Ace & Eights",
+      "awayName": "Kitchen Commanders",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "75",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "76",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "77",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "78",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 26,
+      "awayWins": 6,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 5,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "79",
+      "matchupId": "56fd117b-e37e-4ad4-bbda-4d05605eec7e",
+      "weekNumber": 8,
+      "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "homePoints": 609,
+      "awayPoints": 595,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-05T19:00:00",
+      "homeName": "Ace Rebels",
+      "awayName": "ACE ACE Baby",
+      "awayTeam": {
+        "$ref": "24"
+      },
+      "homeTeam": {
+        "$ref": "3"
+      },
+      "awayClub": {
+        "$id": "80",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "81",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "82",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "83",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 18,
+      "awayWins": 14,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 4,
+      "awayPodRanking": 3,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "84",
+      "matchupId": "9180ea55-dd53-4657-9faa-a7cca5d078c4",
+      "weekNumber": 8,
+      "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "homePoints": 641,
+      "awayPoints": 609,
+      "endResult": "home",
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-05T19:00:00",
+      "homeName": "Ace Bandits",
+      "awayName": "Kitchen Commanders",
+      "awayTeam": {
+        "$ref": "13"
+      },
+      "homeTeam": {
+        "$ref": "6"
+      },
+      "awayClub": {
+        "$id": "85",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "86",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "87",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "88",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 20,
+      "awayWins": 12,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 5,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "89",
+      "matchupId": "5b6d5afb-e514-42fc-865c-5394f5677ae0",
+      "weekNumber": 9,
+      "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-12T19:00:00",
+      "homeName": "ACE ACE Baby",
+      "awayName": "Ace Bandits",
+      "awayTeam": {
+        "$ref": "6"
+      },
+      "homeTeam": {
+        "$ref": "24"
+      },
+      "awayClub": {
+        "$id": "90",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "91",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "92",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "93",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 1,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "94",
+      "matchupId": "dc5d4cb3-ddd6-4875-9156-e59b7f692248",
+      "weekNumber": 9,
+      "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-12T19:00:00",
+      "homeName": "Ace & Eights",
+      "awayName": "Ace Rebels",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "12"
+      },
+      "awayClub": {
+        "$id": "95",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "96",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "97",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "98",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 2,
+      "awayPodRanking": 4,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    },
+    {
+      "$id": "99",
+      "matchupId": "a7b8dcc4-9ede-4090-a651-11aafef30b9a",
+      "weekNumber": 10,
+      "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-19T19:00:00",
+      "homeName": "Kitchen Commanders",
+      "awayName": "Ace Rebels",
+      "awayTeam": {
+        "$ref": "3"
+      },
+      "homeTeam": {
+        "$ref": "13"
+      },
+      "awayClub": {
+        "$id": "100",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "101",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "102",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "103",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 5,
+      "awayPodRanking": 4,
+      "address": "700 Haddonfield-Berlin Rd #38, Voorhees Township, NJ"
+    },
+    {
+      "$id": "104",
+      "matchupId": "0f810b05-c514-488a-b580-27cc3efd98b9",
+      "weekNumber": 10,
+      "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
+      "awayLineupLocked": false,
+      "homeLineupLocked": false,
+      "scheduledTime": "2026-08-19T19:00:00",
+      "homeName": "ACE ACE Baby",
+      "awayName": "Ace & Eights",
+      "awayTeam": {
+        "$ref": "12"
+      },
+      "homeTeam": {
+        "$ref": "24"
+      },
+      "awayClub": {
+        "$id": "105",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "106",
+          "$values": []
+        }
+      },
+      "homeClub": {
+        "$id": "107",
+        "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
+        "name": "Ace Pickleball Club - Moorestown / Voorhees",
+        "logo": "AcePickleballClubMoorestown",
+        "color": "#231F20",
+        "website": null,
+        "facebook": null,
+        "instagram": null,
+        "twitter": null,
+        "youtube": null,
+        "address": null,
+        "phone": null,
+        "divisions": {
+          "$id": "108",
+          "$values": []
+        }
+      },
+      "division": null,
+      "region": null,
+      "homeWins": 0,
+      "awayWins": 0,
+      "playoffs": false,
+      "playoffGame": null,
+      "homePodRanking": 3,
+      "awayPodRanking": 2,
+      "address": "1199 Nixon Dr, Moorestown, NJ"
+    }
+  ]
+}
