@@ -1104,6 +1104,7 @@ tbody td {
 
 .grid-wrap td.played {
   cursor: pointer;
+  padding: 0;
 }
 
 .grid-wrap td.self {
@@ -1120,6 +1121,9 @@ tbody td {
 .grid-wrap td.win {
   background: color-mix(in srgb, var(--win) 14%, transparent);
 }
+.grid-wrap td.loss-multi .entry.win {
+  background: color-mix(in srgb, var(--win) 14%, transparent);
+}
 
 .grid-wrap td.loss-multi,
 .grid-wrap td.loss {
@@ -1128,6 +1132,9 @@ tbody td {
 .grid-wrap td.split-multi .entry.loss,
 .grid-wrap td.loss-multi .entry.loss,
 .grid-wrap td.loss {
+  background: color-mix(in srgb, var(--loss) 14%, transparent);
+}
+.grid-wrap td.win-multi .entry.loss {
   background: color-mix(in srgb, var(--loss) 14%, transparent);
 }
 
@@ -1139,6 +1146,7 @@ tbody td {
 .grid-wrap td.upcoming {
   background: var(--panel2);
   border-style: dashed;
+  padding: 0;
 }
 
 .grid-wrap .entry.next .res {
@@ -1153,12 +1161,11 @@ tbody td {
 
 .grid-wrap .entry {
   padding: 12px 0 6px;
-  margin: -12px -4px -4px;
+  margin: 0;
 }
 
 .grid-wrap .entry + .entry {
-  margin-top: 3px;
-  padding-top: 4px;
+  padding-top: 7px;
   border-top: 1px solid var(--line);
 }
 
