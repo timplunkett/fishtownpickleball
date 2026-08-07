@@ -1,12 +1,18 @@
 'use strict';
 
-const TEAM_COLORS = Object.freeze({
-  'Picholas Cage': '#e8c66b',
-  'License to Dill': '#7fd6ee',
-  'Balls of Fury': '#e5534b',
-  Baggers: '#1db2dc',
-  'Kitchen Nightmares': '#19d39a',
-});
+const TEAM_COLOR_PALETTE = Object.freeze([
+  '#e8c66b',
+  '#7fd6ee',
+  '#e5534b',
+  '#1db2dc',
+  '#19d39a',
+]);
+const TEAM_COLORS = Object.freeze(Object.fromEntries(
+  (Array.isArray(DATA.teams) ? DATA.teams : []).map((team, index) => [
+    team.name,
+    TEAM_COLOR_PALETTE[index % TEAM_COLOR_PALETTE.length],
+  ]),
+));
 const HIGHLIGHTED_PLAYER = '';
 const EMPTY_VALUE = '—';
 const DEFAULT_SORT = Object.freeze({ key: 'rating', direction: -1 });
@@ -70,13 +76,9 @@ const elements = {
   teamView: getRequiredElement('teamview'),
 };
 
-const TEAM_ABBR = Object.freeze({
-  'Balls of Fury': 'Fury',
-  Baggers: 'Baggers',
-  'License to Dill': 'Dill',
-  'Picholas Cage': 'Cage',
-  'Kitchen Nightmares': 'KN',
-});
+const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
+  (Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name),
+));
 
 // Build a name → rating lookup from DATA (data.js loads before app.js).
 const playerRatingByName = Object.fromEntries(
@@ -123,6 +125,39 @@ function escapeHtml(value) {
 
 function isMissing(value) {
   return value === null || value === undefined;
+}
+
+function abbreviateTeamName(teamName) {
+  const normalizedName = String(teamName || '').trim();
+  const words = normalizedName.split(/[^A-Za-z0-9]+/).filter(Boolean);
+  if (!words.length) return normalizedName;
+  if (normalizedName.length <= 12) return normalizedName;
+  if (words.length === 1) return words[0].slice(0, 8);
+  return words.map((word) => word[0]).join('').toUpperCase().slice(0, 4);
+}
+
+function buildTeamAbbreviations(teamNames) {
+  const abbreviations = {};
+  const used = new Set();
+
+  teamNames.forEach((teamName) => {
+    let abbreviation = abbreviateTeamName(teamName) || String(teamName || '');
+    if (!used.has(abbreviation)) {
+      abbreviations[teamName] = abbreviation;
+      used.add(abbreviation);
+      return;
+    }
+
+    let attempt = 2;
+    while (used.has(`${abbreviation}${attempt}`)) {
+      attempt += 1;
+    }
+    abbreviation = `${abbreviation}${attempt}`;
+    abbreviations[teamName] = abbreviation;
+    used.add(abbreviation);
+  });
+
+  return abbreviations;
 }
 
 function getTeamColor(teamName) {
