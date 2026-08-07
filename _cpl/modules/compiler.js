@@ -530,17 +530,11 @@ async function compileDashboardHtml() {
     }
     console.log(`\nCompiling: ${div.clubName} / ${div.divisionName} (${div.slug})`);
     try {
-      compileDivision(div.slug, divDataDir, path.join(cplDir, `data-${div.slug}.js`), {
+      const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
+      compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), {
         clubName: div.clubName,
         divisionName: div.divisionName,
       });
-      // Keep the legacy data.js for the default division for backward compat.
-      if (div.isDefault) {
-        compileDivision(div.slug, divDataDir, path.join(cplDir, 'data.js'), {
-          clubName: div.clubName,
-          divisionName: div.divisionName,
-        });
-      }
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
     }

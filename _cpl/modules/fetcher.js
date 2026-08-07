@@ -94,13 +94,6 @@ async function downloadLatestApiData() {
       fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(players, null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(matchupDetails, null, 2));
 
-      // Also keep the legacy flat files for the default division for backward compat.
-      if (div.isDefault) {
-        fs.writeFileSync(path.join(dataDir, 'matchups.json'), JSON.stringify(matchupsRaw, null, 2));
-        fs.writeFileSync(path.join(dataDir, 'players.json'), JSON.stringify(players, null, 2));
-        fs.writeFileSync(path.join(dataDir, 'matchupDetails.json'), JSON.stringify(matchupDetails, null, 2));
-      }
-
       console.log(`  ✓ Cached to data/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
