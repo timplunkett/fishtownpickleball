@@ -1095,7 +1095,7 @@ tbody td {
   width: 98px;
   padding: 5px 3px;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: top;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
