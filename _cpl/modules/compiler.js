@@ -4,6 +4,10 @@ const path = require('path');
 const OUT = path.join(__dirname, '../../cpl/data.js');
 
 const round1 = n => Math.round(n * 10) / 10;
+const ratio = (wins, losses) => {
+  const total = wins + losses;
+  return total ? wins / total : 0;
+};
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 
 function firstValues(obj) {
@@ -412,8 +416,16 @@ async function compileDashboardHtml() {
   playerArr.sort((a, b) => (b.winPct - a.winPct) || (b.diff - a.diff));
 
   const teamArr = [...teams.values()];
-  for (const t of teamArr) { t.diff = t.pf - t.pa; t.gameDiff = t.gw - t.gl; }
-  teamArr.sort((a, b) => (b.w - a.w) || (b.gameDiff - a.gameDiff) || (b.diff - a.diff));
+  for (const t of teamArr) {
+    t.diff = t.pf - t.pa;
+    t.gameDiff = t.gw - t.gl;
+  }
+  teamArr.sort((a, b) => (
+    ratio(b.w, b.l) - ratio(a.w, a.l) ||
+    ratio(b.gw, b.gl) - ratio(a.gw, a.gl) ||
+    (b.diff - a.diff) ||
+    a.name.localeCompare(b.name)
+  ));
 
   // Team power: games-weighted average of a roster's player ratings, ranked.
   const rosterRatings = {};

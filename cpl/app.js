@@ -140,6 +140,15 @@ function formatSignedValue(value, digits) {
   return `${value >= 0 ? '+' : ''}${number}`;
 }
 
+function formatWinPct(wins, losses) {
+  const total = wins + losses;
+  return total ? ((100 * wins) / total).toFixed(1) : '0.0';
+}
+
+function formatRecordWithPct(wins, losses) {
+  return `${wins}–${losses} (${formatWinPct(wins, losses)}%)`;
+}
+
 function formatDiffSpan(value) {
   const className = value >= 0 ? 'pos-diff' : 'neg-diff';
   return `<span class="${className}">${formatSignedValue(value)}</span>`;
@@ -201,7 +210,7 @@ function renderTeams() {
         <div class="seed">#${index + 1}</div>
         <h3>${escapeHtml(team.name)}</h3>
         <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
-        <div class="pts">Games <b class="txt-strong">${team.gw}–${team.gl}</b></div>
+        <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
         <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
         <div class="go">View team →</div>
       </div>
@@ -1287,9 +1296,7 @@ function renderTeamPage(team) {
 
   const formatCard = (label, record) => {
     const [wins, losses] = record;
-    const total = wins + losses;
-    const pct = total ? Math.round((100 * wins) / total) : 0;
-    return `<div class="fmt-card"><div class="l">${label}</div><div class="v">${wins}–${losses}</div><div class="p">${pct}% game wins</div></div>`;
+    return `<div class="fmt-card"><div class="l">${label}</div><div class="v">${formatRecordWithPct(wins, losses)}</div><div class="p">${formatWinPct(wins, losses)}% game wins</div></div>`;
   };
 
   const duosMarkup = duos.length
@@ -1318,7 +1325,7 @@ function renderTeamPage(team) {
       <div class="team-meta">
         <span><b>#${rank}</b> in standings</span>
         <span>Record <b>${team.w}–${team.l}</b></span>
-        <span>Games <b>${team.gw}–${team.gl}</b></span>
+        <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
         <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${DATA.teams.length})</span></span>
       </div>
