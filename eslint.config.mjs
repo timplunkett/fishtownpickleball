@@ -3,7 +3,7 @@ import globals from 'globals';
 
 export default [
   {
-    ignores: ['cpl/data.js', 'cpl/data-*.js', 'node_modules/**', '_site/**', 'vendor/**'],
+    ignores: ['cpl/local/data.js', 'cpl/local/data-*.js', 'cpl/travel/data.js', 'cpl/travel/data-*.js', 'node_modules/**', '_site/**', 'vendor/**'],
   },
   {
     files: ['_cpl/**/*.js'],
@@ -18,7 +18,7 @@ export default [
     },
   },
   {
-    files: ['cpl/app.js'],
+    files: ['cpl/local/app.js', 'cpl/travel/app.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'script',
@@ -27,6 +27,17 @@ export default [
         DATA: 'readonly',
         DIVISIONS: 'readonly',
       },
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+    },
+  },
+  {
+    files: ['cpl/local/bootstrap.js', 'cpl/travel/bootstrap.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'script',
+      globals: globals.browser,
     },
     rules: {
       ...js.configs.recommended.rules,

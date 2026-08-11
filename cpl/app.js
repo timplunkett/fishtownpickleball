@@ -71,6 +71,7 @@ const elements = {
   modalHead: getRequiredElement('mhead'),
   overlay: getRequiredElement('overlay'),
   playerCount: getRequiredElement('plabel'),
+  pod: getRequiredElement('pod'),
   search: getRequiredElement('search'),
   subhead: getRequiredElement('sub'),
   swarmHost: getRequiredElement('swarm-host'),
@@ -242,9 +243,10 @@ function getLatestRatingSnapshot(player) {
 
 function renderDivisionSelector() {
   const currentSlug = getCurrentDivision()?.slug || '';
+  const isTravel = DATA.meta.leagueType === 'travel';
 
   elements.divisionSelect.innerHTML = DIVISIONS.map((div) => {
-    const label = `${div.clubName} — ${div.divisionName}`;
+    const label = isTravel || !div.clubName ? div.divisionName : `${div.clubName} — ${div.divisionName}`;
     const selected = div.slug === currentSlug ? ' selected' : '';
     return `<option value="${div.slug}"${selected}>${escapeHtml(label)}</option>`;
   }).join('');
@@ -260,23 +262,31 @@ function renderDivisionSelector() {
 
 function renderHeader() {
   const currentDivision = getCurrentDivision();
-  const clubName = DATA.meta.clubName || currentDivision?.clubName;
-  if (!clubName) {
-    throw new Error('Missing clubName for current CPL dataset.');
-  }
+  const isTravel = DATA.meta.leagueType === 'travel';
+  const clubName = DATA.meta.clubName || currentDivision?.clubName || '';
   const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || '';
   const titlePrefix = divisionName ? `${divisionName} ` : '';
-  elements.kicker.textContent = clubName;
+  if (isTravel) {
+    const regionName = DATA.meta.regionName || 'Philadelphia';
+    elements.kicker.textContent = `Cross Club League • ${regionName}`;
+  } else {
+    if (!clubName) {
+      throw new Error('Missing clubName for current CPL dataset.');
+    }
+    elements.kicker.textContent = clubName;
+  }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
 }
 
 function renderSummary() {
   const currentSlug = DATA.meta.divisionSlug || getCurrentDivision()?.slug || '';
+  const isTravel = DATA.meta.leagueType === 'travel';
+  const leagueLabel = isTravel ? 'Cross Club League API' : 'Local League API';
   elements.subhead.textContent =
     `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
-    `Live from the Cross Club API • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
+    `Live from the ${leagueLabel} • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
@@ -287,18 +297,42 @@ function renderSummary() {
 }
 
 function renderTeams() {
-  elements.teams.innerHTML = DATA.teams
-    .map((team, index) => `
-      <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
-        <div class="seed">#${index + 1}</div>
-        <h3>${escapeHtml(team.name)}</h3>
-        <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
-        <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
-        <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
-        <div class="go">View team →</div>
-      </div>
-    `)
-    .join('');
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  if (podCount <= 1) {
+    elements.teams.innerHTML = DATA.teams
+      .map((team, index) => `
+        <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
+          <div class="seed">#${index + 1}</div>
+          <h3>${escapeHtml(team.name)}</h3>
+          <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
+          <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
+          <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
+          <div class="go">View team →</div>
+        </div>
+      `)
+      .join('');
+    return;
+  }
+  // Multiple pods: group teams by pod, show a pod header before each group,
+  // and seed within the pod rather than across the whole division.
+  const sections = [];
+  for (let p = 1; p <= podCount; p++) {
+    const podTeams = DATA.teams.filter((t) => t.pod === p);
+    const cards = podTeams
+      .map((team, index) => `
+        <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
+          <div class="seed">#${index + 1}</div>
+          <h3>${escapeHtml(team.name)}</h3>
+          <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
+          <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
+          <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
+          <div class="go">View team →</div>
+        </div>
+      `)
+      .join('');
+    sections.push(`<div class="pod-section"><h3 class="pod-heading">Pod ${p}</h3><div class="tgrid">${cards}</div></div>`);
+  }
+  elements.teams.innerHTML = sections.join('');
 }
 
 function renderTeamFilterOptions() {
@@ -308,6 +342,21 @@ function renderTeamFilterOptions() {
       (team) => `<option value="${escapeHtml(team.name)}">${escapeHtml(team.name)}</option>`,
     ),
   ].join('');
+}
+
+function renderPodFilterOptions() {
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  if (podCount <= 1) {
+    elements.pod.hidden = true;
+    return;
+  }
+  elements.pod.innerHTML = [
+    '<option value="">All pods</option>',
+    ...Array.from({ length: podCount }, (_, i) => i + 1).map(
+      (p) => `<option value="${p}">Pod ${p}</option>`,
+    ),
+  ].join('');
+  elements.pod.hidden = false;
 }
 
 function renderTableHead() {
@@ -452,6 +501,7 @@ function renderCell(player, key) {
 function getFilteredPlayers() {
   const query = elements.search.value.trim().toLowerCase();
   const teamFilter = elements.team.value;
+  const podFilter = Number(elements.pod.value) || 0;
   const genderFilter = elements.gender.value;
   const matchFilter = Number(elements.minGames.value);
 
@@ -459,6 +509,10 @@ function getFilteredPlayers() {
     (player) =>
       (!query || player.name.toLowerCase().includes(query)) &&
       (!teamFilter || player.team === teamFilter) &&
+      (!podFilter || (() => {
+        const t = DATA.teams.find((tm) => tm.name === player.team);
+        return t && t.pod === podFilter;
+      })()) &&
       (!genderFilter || player.gender === genderFilter) &&
       (matchFilter === 0 || (matchFilter === 1 ? player.matches === 1 : player.matches >= matchFilter)),
   );
@@ -1349,7 +1403,10 @@ function renderPendingTeamMatchBlock(match, teamName) {
 
 function renderTeamPage(team) {
   const color = getTeamColor(team.name);
-  const rank = DATA.teams.findIndex((candidate) => candidate.name === team.name) + 1;
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  const rankTeams = podCount > 1 ? DATA.teams.filter((t) => t.pod === team.pod) : DATA.teams;
+  const rank = rankTeams.findIndex((candidate) => candidate.name === team.name) + 1;
+  const rankLabel = podCount > 1 ? `#${rank} in Pod ${team.pod}` : `#${rank} in standings`;
   const roster = DATA.players
     .filter((player) => player.team === team.name)
     .sort((a, b) => (b.rating ?? -99) - (a.rating ?? -99));
@@ -1406,11 +1463,11 @@ function renderTeamPage(team) {
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
       <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
       <div class="team-meta">
-        <span><b>#${rank}</b> in standings</span>
+        <span><b>${rankLabel}</b></span>
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
-        <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${DATA.teams.length})</span></span>
+        <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${rankTeams.length})</span></span>
       </div>
     </div>
     <div class="team-section">
@@ -1504,14 +1561,21 @@ function handlePartnerChipClick(event) {
 }
 
 function renderResultsGrid() {
-  const teams = DATA.teams.map((team) => team.name);
+  const allTeams = DATA.teams.map((team) => team.name);
   const abbr = (name) => TEAM_ABBR[name] || name;
   const results = {};
-  teams.forEach((row) => { results[row] = {}; teams.forEach((col) => { results[row][col] = []; }); });
+  allTeams.forEach((row) => { results[row] = {}; allTeams.forEach((col) => { results[row][col] = []; }); });
   (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
     const homeWon = match.result === 'home';
     results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week });
     results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week });
+  });
+
+  // All pairs that appear anywhere in the schedule (played or upcoming).
+  const scheduledPairs = new Set();
+  (DATA.matches || []).forEach((match) => {
+    scheduledPairs.add(`${match.home}||${match.away}`);
+    scheduledPairs.add(`${match.away}||${match.home}`);
   });
 
   // Each team's next scheduled opponent, marked in that team's row.
@@ -1539,50 +1603,66 @@ function renderResultsGrid() {
       <div class="sc">${escapeHtml(formatShortDate(info.time))}</div>
     </div>`;
 
-  const headRow = `<tr><th></th>${teams
-    .map((col) => `<th class="col"><span class="gdot" style="background:${getTeamColor(col)}"></span>${escapeHtml(abbr(col))}</th>`)
-    .join('')}</tr>`;
+  const renderGridForTeams = (teams) => {
+    const headRow = `<tr><th></th>${teams
+      .map((col) => `<th class="col"><span class="gdot" style="background:${getTeamColor(col)}"></span>${escapeHtml(abbr(col))}</th>`)
+      .join('')}</tr>`;
 
-  const bodyRows = teams
-    .map((row) => {
-      const cells = teams
-        .map((col) => {
-          if (row === col) {
-            return '<td class="self"></td>';
-          }
-          const list = results[row][col].sort((a, b) => a.week - b.week);
-          const next = upcoming[row] && upcoming[row].opponent === col ? upcoming[row] : null;
-          if (list.length === 0 && !next) {
-            return '<td class="empty">—</td>';
-          }
-          const total = list.length + (next ? 1 : 0);
-          let className;
-          if (list.length === 0) {
-            className = 'upcoming';
-          } else {
-            const wins = list.filter((e) => e.win).length;
-            const losses = list.length - wins;
-            if (wins > losses) {
-              className = 'win';
-            } else if (losses > wins) {
-              className = 'loss';
-            } else {
-              className = 'split';
+    const bodyRows = teams
+      .map((row) => {
+        const cells = teams
+          .map((col) => {
+            if (row === col) {
+              return '<td class="self"></td>';
             }
-          }
-          if (total > 1) {
-            className += '-multi';
-          }
-          const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
-          return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
-        })
-        .join('');
-      return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
-    })
-    .join('');
+            const list = results[row][col].sort((a, b) => a.week - b.week);
+            const next = upcoming[row] && upcoming[row].opponent === col ? upcoming[row] : null;
+            if (list.length === 0 && !next) {
+              return scheduledPairs.has(`${row}||${col}`) ? '<td class="empty">—</td>' : '<td class="non-opp"></td>';
+            }
+            const total = list.length + (next ? 1 : 0);
+            let className;
+            if (list.length === 0) {
+              className = 'upcoming';
+            } else {
+              const wins = list.filter((e) => e.win).length;
+              const losses = list.length - wins;
+              if (wins > losses) {
+                className = 'win';
+              } else if (losses > wins) {
+                className = 'loss';
+              } else {
+                className = 'split';
+              }
+            }
+            if (total > 1) {
+              className += '-multi';
+            }
+            const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
+            return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
+          })
+          .join('');
+        return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
+      })
+      .join('');
 
-  elements.gridHost.innerHTML = `<table>${headRow}${bodyRows}</table>
-    <div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; cells stack both meetings once teams play home and away.</div>`;
+    return `<table>${headRow}${bodyRows}</table>`;
+  };
+
+  const cap = `<div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; hatched = not scheduled to meet. Cells stack both meetings once teams play home and away.</div>`;
+
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  if (podCount <= 1) {
+    elements.gridHost.innerHTML = `${renderGridForTeams(allTeams)}${cap}`;
+    return;
+  }
+
+  const sections = [];
+  for (let p = 1; p <= podCount; p++) {
+    const podTeams = DATA.teams.filter((t) => t.pod === p).map((t) => t.name);
+    sections.push(`<div class="grid-pod-section"><h3 class="pod-heading">Pod ${p}</h3>${renderGridForTeams(podTeams)}</div>`);
+  }
+  elements.gridHost.innerHTML = `${sections.join('')}${cap}`;
 }
 
 function computeSwarmLayout(players, geometry) {
@@ -1706,6 +1786,7 @@ function initialize() {
   renderTeams();
   renderResultsGrid();
   renderTeamFilterOptions();
+  renderPodFilterOptions();
   renderTableHead();
   renderDuos();
   renderBeeswarm();
@@ -1728,7 +1809,7 @@ function initialize() {
   // min-games apply to the player table only (they don't affect pairs).
   getRequiredElement('team').addEventListener('input', renderDuos);
   getRequiredElement('search').addEventListener('input', renderDuos);
-  ['search', 'team', 'gender', 'minq'].forEach((id) => {
+  ['search', 'team', 'pod', 'gender', 'minq'].forEach((id) => {
     getRequiredElement(id).addEventListener('input', render);
   });
 

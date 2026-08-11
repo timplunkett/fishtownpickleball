@@ -7,6 +7,125 @@ const ratio = (wins, losses) => {
   return total ? wins / total : 0;
 };
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+const escapeBootstrapString = value => String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+
+function buildBootstrapDivisionsLiteral(divisions) {
+  return divisions.map((division) => {
+    const entries = [
+      `slug: '${escapeBootstrapString(division.slug)}'`,
+      division.clubName ? `clubName: '${escapeBootstrapString(division.clubName)}'` : null,
+      `divisionName: '${escapeBootstrapString(division.divisionName)}'`,
+    ].filter(Boolean);
+
+    return `    { ${entries.join(', ')} }`;
+  }).join(',\n');
+}
+
+function buildBootstrapDatasetsLiteral(datasets) {
+  const entries = Object.entries(datasets).map(([datasetName, fileName]) => (
+    `    '${escapeBootstrapString(datasetName)}': '${escapeBootstrapString(fileName)}'`
+  ));
+
+  return entries.length
+    ? `{\n${entries.map((entry) => `      ${entry.trimStart()}`).join(',\n')}\n    }`
+    : '{}';
+}
+
+function buildBootstrapSource({
+  dashboardPath,
+  defaultSlug,
+  divisionsLiteral,
+  globalVar,
+  testDatasets,
+}) {
+  return `'use strict';
+
+(() => {
+  const DIVISIONS = Object.freeze([
+${divisionsLiteral}
+  ]);
+  const CONFIG = Object.freeze({
+    dashboardPath: '${dashboardPath}',
+    defaultSlug: '${defaultSlug}',
+    divisionsGlobal: '${globalVar}',
+    testDatasets: Object.freeze(${buildBootstrapDatasetsLiteral(testDatasets)}),
+  });
+  const KNOWN_SLUGS = new Set(DIVISIONS.map((division) => division.slug));
+  const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
+
+  function exposeDivisionsForLandingPage() {
+    window[CONFIG.divisionsGlobal] = DIVISIONS;
+  }
+
+  function isDashboardPage() {
+    return window.location.pathname.includes(CONFIG.dashboardPath);
+  }
+
+  function isLocalHost() {
+    return LOCAL_HOSTS.has(window.location.hostname);
+  }
+
+  function appendScript(src, onload, onerror) {
+    const script = document.createElement('script');
+    script.src = src;
+    script.async = false;
+    script.onload = onload || null;
+    script.onerror = onerror || null;
+    document.body.appendChild(script);
+  }
+
+  function loadApp() {
+    appendScript('../app.js');
+  }
+
+  function loadDataWithFallback(src) {
+    appendScript(src, loadApp, () => appendScript('data.js', loadApp));
+  }
+
+  function getRequestedDataset() {
+    return new URLSearchParams(window.location.search).get('dataset') || '';
+  }
+
+  function getRequestedDivision() {
+    return new URLSearchParams(window.location.search).get('d') || '';
+  }
+
+  function resolveDatasetFile() {
+    const requestedDataset = getRequestedDataset();
+    if (!requestedDataset || !isLocalHost()) return '';
+
+    return CONFIG.testDatasets[requestedDataset] || '';
+  }
+
+  function resolveDivisionDataFile() {
+    const requestedDivision = getRequestedDivision();
+    const slug = KNOWN_SLUGS.has(requestedDivision) ? requestedDivision : CONFIG.defaultSlug;
+
+    if (!slug) return '';
+
+    return slug === CONFIG.defaultSlug ? 'data.js' : \`data-\${slug}.js\`;
+  }
+
+  exposeDivisionsForLandingPage();
+
+  // This file is also loaded by /cpl/, where data/app relative paths are different.
+  if (!isDashboardPage()) return;
+
+  window.DIVISIONS = DIVISIONS;
+
+  const datasetFile = resolveDatasetFile();
+  if (datasetFile) {
+    loadDataWithFallback(datasetFile);
+    return;
+  }
+
+  const dataFile = resolveDivisionDataFile();
+  if (!dataFile) return;
+
+  loadDataWithFallback(dataFile);
+})();
+`;
+}
 
 function firstValues(obj) {
   if (!obj || typeof obj !== "object") return null;
@@ -256,7 +375,12 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const completed = matchups.filter(m => m.endResult);
   console.log(`Processing stats for ${completed.length} completed matches.`);
 
-  if (!completed.length) throw new Error("No completed matches recorded to construct dashboard rows.");
+  // Teams that appear in at least one scheduled or completed matchup — used to
+  // filter out placeholder entries (e.g. "Open Play") that exist in the player
+  // roster but will never actually compete against anyone.
+  const teamNamesWithMatchups = new Set(
+    matchups.flatMap(m => [m.homeName, m.awayName]).filter(Boolean),
+  );
 
   const TEAMNAME = {};
   const players = new Map();
@@ -268,14 +392,86 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     return teams.get(name);
   };
 
+  // When the season hasn't started yet, seed teams and players directly from
+  // the roster so the dashboard still shows something useful pre-season.
+  if (!completed.length) {
+    for (const p of (firstValues(playerListJson) || [])) {
+      if (!p.teamName || p.isSub || !teamNamesWithMatchups.has(p.teamName)) continue;
+      ensureTeam(p.teamName);
+      const pid = p.playerId;
+      if (!players.has(pid)) {
+        players.set(pid, {
+          name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
+          team: p.teamName, matches: 0, outsideSub: false,
+          gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
+          mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
+          clutchWins: 0, clutchLosses: 0, log: [], games: [],
+          winPct: 0, diff: 0, ppg: 0,
+          leagueRank: p.ranking ?? null,
+          rating: null, ratingGames: 0, confidence: 0,
+          strengthOfPartners: null, strengthOfOpponents: null,
+          ratingHistory: [], partners: [],
+        });
+      }
+    }
+    const teamArr = [...teams.values()].sort((a, b) => a.name.localeCompare(b.name));
+    for (const t of teamArr) { t.diff = 0; t.gameDiff = 0; t.fmt = { mixed: [0, 0], male: [0, 0], female: [0, 0] }; t.power = null; }
+    const playerArr = [...players.values()].sort((a, b) => a.name.localeCompare(b.name));
+    // Build the schedule from all matchups (none completed yet).
+    const matches = matchups.map(m => ({
+      result: m.endResult || null,
+      week: m.weekNumber,
+      home: m.homeName,
+      away: m.awayName,
+      time: m.scheduledTime || null,
+      complete: false,
+    }));
+    // Detect pods from the schedule even pre-season.
+    {
+      const podParent = {};
+      for (const m of matchups) {
+        if (m.homeName) podParent[m.homeName] = podParent[m.homeName] || m.homeName;
+        if (m.awayName) podParent[m.awayName] = podParent[m.awayName] || m.awayName;
+      }
+      const podFind = n => { while (podParent[n] !== n) { podParent[n] = podParent[podParent[n]]; n = podParent[n]; } return n; };
+      for (const m of matchups) {
+        if (m.homeName && m.awayName) {
+          const ra = podFind(m.homeName), rb = podFind(m.awayName);
+          if (ra !== rb) podParent[ra] = rb;
+        }
+      }
+      const podLabel = {};
+      let nextPod = 1;
+      for (const t of teamArr) {
+        const root = podFind(t.name);
+        if (!podLabel[root]) podLabel[root] = nextPod++;
+        t.pod = podLabel[root];
+      }
+      divisionMeta = { ...(divisionMeta || {}), podCount: nextPod - 1 };
+    }
+    const DATA = {
+      players: playerArr, teams: teamArr, duos: [], matches,
+      meta: {
+        matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
+        totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
+        ...(divisionMeta || {}),
+      },
+    };
+    fs.writeFileSync(outPath, "const DATA = " + JSON.stringify(DATA) + ";");
+    console.log(`  ✓ data.js written to ${outPath} (pre-season roster only)`);
+    return;
+  }
+
   // Build a map of player ID -> primary (non-sub) team from the player roster so
   // that intra-league subs are attributed to their home team in player records.
+  // Only map players whose team has actual matchups; players on placeholder teams
+  // (e.g. "Open Play") should not be treated as rostered league members.
   const homeTeamByPid = {};
   // Build a map of player ID -> static profile info (firstName, lastName, gender)
   // so matchupPlayerStats entries don't need to repeat those fields.
   const playerInfoById = {};
   for (const p of (firstValues(playerListJson) || [])) {
-    if (!p.isSub && p.playerId && p.teamName) homeTeamByPid[p.playerId] = p.teamName;
+    if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
     if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
   }
 
@@ -445,6 +641,48 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   [...teamArr].filter(t => t.power != null).sort((a, b) => b.power - a.power)
     .forEach((t, i) => { t.powerRank = i + 1; });
 
+  // Detect connected sub-groups (pods): teams that only ever play each other and
+  // never meet teams in another sub-group. Uses all matchups (completed + scheduled)
+  // so the pod structure is known before the season ends. Each team's `pod` field
+  // is a 1-based integer; podCount === 1 means a fully connected division.
+  {
+    const podParent = {};
+    const allTeamNames = new Set(matchups.flatMap(m => [m.homeName, m.awayName]).filter(Boolean));
+    for (const name of allTeamNames) podParent[name] = name;
+    const podFind = n => { while (podParent[n] !== n) { podParent[n] = podParent[podParent[n]]; n = podParent[n]; } return n; };
+    for (const m of matchups) {
+      if (m.homeName && m.awayName) {
+        const ra = podFind(m.homeName), rb = podFind(m.awayName);
+        if (ra !== rb) podParent[ra] = rb;
+      }
+    }
+    // Assign stable 1-based pod numbers ordered by first appearance in the sorted team list.
+    const podLabel = {};
+    let nextPod = 1;
+    for (const t of teamArr) {
+      const root = podFind(t.name);
+      if (!podLabel[root]) podLabel[root] = nextPod++;
+      t.pod = podLabel[root];
+    }
+    const podCount = nextPod - 1;
+    if (podCount > 1) {
+      console.warn(`  ⚠️  ${podCount} disconnected sub-groups (pods) found in this division.`);
+      for (let p = 1; p <= podCount; p++) {
+        const members = teamArr.filter(t => t.pod === p).map(t => t.name);
+        console.warn(`     Pod ${p}: ${members.join(', ')}`);
+      }
+      // Recompute powerRank within each pod so team pages show pod-relative rank.
+      for (let p = 1; p <= podCount; p++) {
+        [...teamArr].filter(t => t.pod === p && t.power != null)
+          .sort((a, b) => b.power - a.power)
+          .forEach((t, i) => { t.powerRank = i + 1; });
+      }
+    }
+    // Expose podCount in meta so the UI can render separate standings sections.
+    if (!divisionMeta) divisionMeta = {};
+    divisionMeta = { ...divisionMeta, podCount };
+  }
+
   // Full match list (completed + scheduled) and per-team format splits, for the
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
   const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
@@ -524,30 +762,64 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   console.log(`  ✓ data.js written to ${outPath}`);
 }
 
-async function compileDashboardHtml({ primaryOnly = false } = {}) {
-  console.log('\n--- Phase 2: Processing Stats & Building View ---');
-  const dataDir = path.join(__dirname, '../data');
-  const cplDir = path.join(__dirname, '../../cpl');
+async function compileDashboardHtml(league = 'local', { primaryOnly = false } = {}) {
+  console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
+  const dataSubdir = league === 'travel' ? 'data-travel' : 'data';
+  const dataDir = path.join(__dirname, '..', dataSubdir);
+  const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
+  const cplDir = path.join(__dirname, '../../cpl', league);
 
-  const divisionsPath = path.join(dataDir, 'divisions.json');
+  const divisionsPath = path.join(dataDir, divisionsFile);
   if (!fs.existsSync(divisionsPath)) {
-    throw new Error('divisions.json not found — run the fetcher first.');
+    throw new Error(`${divisionsFile} not found — run the fetcher first.`);
   }
   const allDivisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
 
-  const divisionsToCompile = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
-  for (const div of divisionsToCompile) {
+  if (!fs.existsSync(cplDir)) {
+    fs.mkdirSync(cplDir, { recursive: true });
+  }
+
+  // Write bootstrap.js with the current division list baked in.
+  // Sort divisions deterministically: local by clubName then divisionName; travel by divisionName (numeric).
+  const sortedDivisions = [...allDivisions].sort((a, b) => {
+    if (league === 'local') {
+      const clubCmp = (a.clubName || '').localeCompare(b.clubName || '');
+      if (clubCmp !== 0) return clubCmp;
+    }
+    return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
+  });
+ const defaultDiv = allDivisions.find(d => d.isDefault) || allDivisions[0];
+ const defaultSlug = defaultDiv ? defaultDiv.slug : '';
+ const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions);
+ const globalVar = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
+ const bootstrapSrc = buildBootstrapSource({
+   dashboardPath: `/cpl/${league}`,
+   defaultSlug: escapeBootstrapString(defaultSlug),
+   divisionsLiteral,
+   globalVar,
+   testDatasets: league === 'local'
+     ? { week1: 'data.test-week1.js', week6: 'data.test-week6.js' }
+     : {},
+ });
+ fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
+  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${globalVar} exposed).`);
+
+  for (const div of (primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions)) {
     const divDataDir = path.join(dataDir, div.slug);
     if (!fs.existsSync(divDataDir)) {
-      console.warn(`  ⚠️ No data dir for ${div.slug} (${div.clubName}), skipping.`);
+      const label = div.clubName ? `${div.clubName} / ` : '';
+      console.warn(`  ⚠️ No data dir for ${div.slug} (${label}${div.divisionName}), skipping.`);
       continue;
     }
-    console.log(`\nCompiling: ${div.clubName} / ${div.divisionName} (${div.slug})`);
+    const label = div.clubName ? `${div.clubName} / ` : '';
+    console.log(`\nCompiling: ${label}${div.divisionName} (${div.slug})`);
     try {
       const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
       compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), {
-        clubName: div.clubName,
+        clubName: div.clubName || '',
         divisionName: div.divisionName,
+        leagueType: league,
+        ...(league === 'travel' && div.regionName ? { regionName: div.regionName } : {}),
       });
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);

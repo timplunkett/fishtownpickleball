@@ -3,96 +3,96 @@
     "slug": "c9a2c0fe",
     "divisionId": "c9a2c0fe-d394-421a-8c81-4371dad10fc7",
     "divisionName": "3.75 & Under",
+    "isDefault": false,
     "clubName": "Ace - Moorestown / Voorhees",
-    "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
-    "isDefault": false
+    "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52"
   },
   {
     "slug": "d4ef2f74",
     "divisionId": "d4ef2f74-e7e3-4166-93fe-aa3ec9100eaf",
     "divisionName": "3.75 & Over",
+    "isDefault": false,
     "clubName": "Ace - Moorestown / Voorhees",
-    "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52",
-    "isDefault": false
+    "clubId": "78687b2a-1720-45a3-b575-2a47c38ccc52"
   },
   {
     "slug": "a40bd7e8",
     "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
     "divisionName": "3.5 - 4.0",
+    "isDefault": false,
     "clubName": "Bounce - Malvern",
-    "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-    "isDefault": false
+    "clubId": "b436597d-5783-4270-b6b2-6522dca640da"
   },
   {
     "slug": "b07de80e",
     "divisionId": "b07de80e-3b19-4095-a69d-8d0671b4e00b",
     "divisionName": "4.0 - 4.5",
+    "isDefault": false,
     "clubName": "Bounce - Malvern",
-    "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-    "isDefault": false
+    "clubId": "b436597d-5783-4270-b6b2-6522dca640da"
   },
   {
     "slug": "3e9b6a58",
     "divisionId": "3e9b6a58-8823-46d9-8f00-81d53e63f0eb",
     "divisionName": "3.5 - 4.0",
+    "isDefault": true,
     "clubName": "Bounce - Philly",
-    "clubId": "968920b5-e80c-4e12-a630-05d732a1370a",
-    "isDefault": true
+    "clubId": "968920b5-e80c-4e12-a630-05d732a1370a"
   },
   {
     "slug": "e6a9b403",
     "divisionId": "e6a9b403-ac2d-47f9-9857-d6ffe84d54f7",
     "divisionName": "3.25 - 3.99",
+    "isDefault": false,
     "clubName": "Dill Dinkers - Chantilly",
-    "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75",
-    "isDefault": false
+    "clubId": "54923eb9-b6e1-4199-a612-a500db6fef75"
   },
   {
     "slug": "fb4a73a2",
     "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
     "divisionName": "3.25 - 3.75",
+    "isDefault": false,
     "clubName": "Dill Dinkers - Hatboro",
-    "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-    "isDefault": false
+    "clubId": "68257264-66e8-4633-8505-7de7b023aafe"
   },
   {
     "slug": "b9b8230d",
     "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
     "divisionName": "3.25 & Under",
+    "isDefault": false,
     "clubName": "Flemington",
-    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-    "isDefault": false
+    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7"
   },
   {
     "slug": "eaa4c1dc",
     "divisionId": "eaa4c1dc-93ef-4fef-b419-c0ac9494eaf0",
     "divisionName": "4.0 & Over",
+    "isDefault": false,
     "clubName": "Flemington",
-    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-    "isDefault": false
+    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7"
   },
   {
     "slug": "edb788e6",
     "divisionId": "edb788e6-3058-4030-85f7-ea820c3d051d",
     "divisionName": "3.25 - 3.99",
+    "isDefault": false,
     "clubName": "Flemington",
-    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-    "isDefault": false
+    "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7"
   },
   {
     "slug": "c1b3f9c1",
     "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
     "divisionName": "3.25 - 3.99",
+    "isDefault": false,
     "clubName": "Robbinsville Pickle House",
-    "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-    "isDefault": false
+    "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d"
   },
   {
     "slug": "a85172dd",
     "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
     "divisionName": "4.0 - 4.99",
+    "isDefault": false,
     "clubName": "Robbinsville Pickle House",
-    "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-    "isDefault": false
+    "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d"
   }
 ]
