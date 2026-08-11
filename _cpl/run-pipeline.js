@@ -10,7 +10,7 @@ async function runPipeline() {
     await downloadLatestApiData({ primaryOnly });
 
     // 2. Load the cached files, compute stats, and write cpl/data.js
-    await compileDashboardHtml();
+    await compileDashboardHtml({ primaryOnly });
 
     console.log("\n🚀 CPL Pipeline completed successfully!");
   } catch (err) {
