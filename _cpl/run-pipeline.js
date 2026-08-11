@@ -2,10 +2,12 @@
 const { downloadLatestApiData } = require('./modules/fetcher');
 const { compileDashboardHtml } = require('./modules/compiler');
 
+const primaryOnly = process.argv.includes('--primary-only');
+
 async function runPipeline() {
   try {
     // 1. Fetch from Azure APIs and cache raw JSON files to _data/
-    await downloadLatestApiData();
+    await downloadLatestApiData({ primaryOnly });
 
     // 2. Load the cached files, compute stats, and write cpl/data.js
     await compileDashboardHtml();
