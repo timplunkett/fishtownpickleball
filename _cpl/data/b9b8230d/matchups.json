@@ -97,8 +97,8 @@
       "awayWins": 19,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
+      "homePodRanking": 3,
+      "awayPodRanking": 1,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -183,7 +183,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 3,
+      "awayPodRanking": 2,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -249,8 +249,8 @@
       "awayWins": 20,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -317,7 +317,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 1,
+      "awayPodRanking": 3,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -383,8 +383,8 @@
       "awayWins": 10,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
+      "homePodRanking": 3,
+      "awayPodRanking": 2,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -450,7 +450,7 @@
       "awayWins": 12,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
+      "homePodRanking": 1,
       "awayPodRanking": 4,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
@@ -517,8 +517,8 @@
       "awayWins": 17,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 3,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -584,7 +584,7 @@
       "awayWins": 16,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 3,
+      "homePodRanking": 2,
       "awayPodRanking": 4,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
@@ -651,7 +651,7 @@
       "awayWins": 13,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
+      "homePodRanking": 3,
       "awayPodRanking": 4,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
@@ -718,8 +718,8 @@
       "awayWins": 16,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
+      "homePodRanking": 1,
+      "awayPodRanking": 2,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -728,9 +728,9 @@
       "weekNumber": 7,
       "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
       "awayTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 624,
+      "awayPoints": 585,
+      "endResult": "home",
       "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
       "awayLineupLocked": false,
       "homeLineupLocked": false,
@@ -781,11 +781,11 @@
       },
       "division": null,
       "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
+      "homeWins": 20,
+      "awayWins": 12,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 2,
+      "homePodRanking": 1,
       "awayPodRanking": 4,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
@@ -795,9 +795,9 @@
       "weekNumber": 7,
       "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
       "awayTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 623,
+      "awayPoints": 558,
+      "endResult": "home",
       "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
       "awayLineupLocked": false,
       "homeLineupLocked": false,
@@ -848,12 +848,12 @@
       },
       "division": null,
       "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
+      "homeWins": 22,
+      "awayWins": 10,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
+      "homePodRanking": 2,
+      "awayPodRanking": 3,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -920,7 +920,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 3,
+      "awayPodRanking": 2,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -986,8 +986,8 @@
       "awayWins": 0,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
+      "homePodRanking": 3,
+      "awayPodRanking": 1,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -1054,7 +1054,7 @@
       "playoffs": false,
       "playoffGame": null,
       "homePodRanking": 4,
-      "awayPodRanking": 1,
+      "awayPodRanking": 3,
       "address": "1 Barbiche Drive, Flemington, NJ"
     },
     {
@@ -1120,8 +1120,8 @@
       "awayWins": 0,
       "playoffs": false,
       "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
+      "homePodRanking": 2,
+      "awayPodRanking": 1,
       "address": "1 Barbiche Drive, Flemington, NJ"
     }
   ]

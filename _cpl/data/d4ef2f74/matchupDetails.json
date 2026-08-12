@@ -169,7 +169,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -31.495,
+            "strengthOfOpponent": -31.5567,
             "ranking": 3
           },
           {
@@ -334,7 +334,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -19.8633,
+            "strengthOfOpponent": -19.87,
             "ranking": 1
           },
           {
@@ -367,7 +367,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 18.8543,
+            "strengthOfOpponent": 18.9671,
             "ranking": 51
           },
           {
@@ -466,7 +466,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 4.1271,
+            "strengthOfOpponent": 4.4329,
             "ranking": 23
           },
           {
@@ -499,7 +499,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -19.0767,
+            "strengthOfOpponent": -19.2417,
             "ranking": 46
           },
           {
@@ -598,7 +598,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 21.1386,
+            "strengthOfOpponent": 21.2471,
             "ranking": 50
           },
           {
@@ -631,7 +631,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -12.8017,
+            "strengthOfOpponent": -12.8533,
             "ranking": 58
           },
           {
@@ -664,7 +664,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -12.1417,
+            "strengthOfOpponent": -12.2433,
             "ranking": 14
           },
           {
@@ -697,7 +697,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -21.5233,
+            "strengthOfOpponent": -21.6567,
             "ranking": 25
           },
           {
@@ -730,7 +730,7 @@
             "genderPPG": 19.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 6.0129,
+            "strengthOfOpponent": 6.18,
             "ranking": 67
           },
           {
@@ -796,7 +796,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -5.7986,
+            "strengthOfOpponent": -5.8186,
             "ranking": 41
           },
           {
@@ -829,7 +829,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -17.8771,
+            "strengthOfOpponent": -17.99,
             "ranking": 8
           },
           {
@@ -1060,7 +1060,7 @@
             "genderPPG": 16.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -8.5671,
+            "strengthOfOpponent": -8.9843,
             "ranking": 52
           },
           {
@@ -1093,7 +1093,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 25.3733,
+            "strengthOfOpponent": 25.3167,
             "ranking": 54
           },
           {
@@ -1126,7 +1126,7 @@
             "genderPPG": 17.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 10.3867,
+            "strengthOfOpponent": 10.4467,
             "ranking": 39
           },
           {
@@ -1159,7 +1159,7 @@
             "genderPPG": 18,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 33.2833,
+            "strengthOfOpponent": 33.3433,
             "ranking": 57
           },
           {
@@ -1258,8 +1258,8 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 18.3683,
-            "ranking": 61
+            "strengthOfOpponent": 18.6833,
+            "ranking": 62
           },
           {
             "$id": "47",
@@ -1390,7 +1390,7 @@
             "genderPPG": 18.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 13.605,
+            "strengthOfOpponent": 13.705,
             "ranking": 31
           },
           {
@@ -1423,7 +1423,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -22.1157,
+            "strengthOfOpponent": -22.2243,
             "ranking": 4
           }
         ]
@@ -2083,7 +2083,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 16.4229,
+            "strengthOfOpponent": 16.43,
             "ranking": 44
           },
           {
@@ -2182,7 +2182,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.3938,
+            "strengthOfOpponent": -7.3925,
             "ranking": 29
           },
           {
@@ -2216,7 +2216,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -2281,7 +2281,7 @@
             "genderPPG": 18.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 17.6083,
+            "strengthOfOpponent": 17.6133,
             "ranking": 60
           },
           {
@@ -2347,7 +2347,7 @@
             "genderPPG": 18.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 11.0517,
+            "strengthOfOpponent": 11.0583,
             "ranking": 64
           },
           {
@@ -2380,7 +2380,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -0.575,
+            "strengthOfOpponent": -0.5813,
             "ranking": 11
           },
           {
@@ -2413,7 +2413,7 @@
             "genderPPG": 18.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 14.38,
+            "strengthOfOpponent": 14.3829,
             "ranking": 22
           },
           {
@@ -2446,7 +2446,7 @@
             "genderPPG": 19,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.4933,
+            "strengthOfOpponent": 0.495,
             "ranking": 34
           },
           {
@@ -2512,7 +2512,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": 5.905,
+            "strengthOfOpponent": 5.9013,
             "ranking": 18
           },
           {
@@ -2578,7 +2578,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -2.7263,
+            "strengthOfOpponent": -2.7238,
             "ranking": 19
           },
           {
@@ -2611,7 +2611,7 @@
             "genderPPG": 14.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 7.0188,
+            "strengthOfOpponent": 7.0263,
             "ranking": 49
           },
           {
@@ -2710,7 +2710,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -12.5914,
+            "strengthOfOpponent": -12.5957,
             "ranking": 15
           },
           {
@@ -2743,7 +2743,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.2114,
+            "strengthOfOpponent": -18.2171,
             "ranking": 5
           },
           {
@@ -2776,7 +2776,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -11.6183,
+            "strengthOfOpponent": -11.6167,
             "ranking": 45
           },
           {
@@ -2842,7 +2842,7 @@
             "genderPPG": 15.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": -9.18,
+            "strengthOfOpponent": -9.1788,
             "ranking": 7
           },
           {
@@ -2875,7 +2875,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -8.8683,
+            "strengthOfOpponent": -8.88,
             "ranking": 43
           },
           {
@@ -3007,7 +3007,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -8.6667,
+            "strengthOfOpponent": -8.67,
             "ranking": 32
           },
           {
@@ -3040,7 +3040,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 10.4838,
+            "strengthOfOpponent": 10.4775,
             "ranking": 53
           },
           {
@@ -3073,7 +3073,7 @@
             "genderPPG": 16.5,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": -3.5325,
+            "strengthOfOpponent": -3.5288,
             "ranking": 12
           },
           {
@@ -3865,7 +3865,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 15.3343,
+            "strengthOfOpponent": 15.3857,
             "ranking": 48
           },
           {
@@ -3898,7 +3898,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -13.1133,
+            "strengthOfOpponent": -13.1267,
             "ranking": 37
           },
           {
@@ -3931,7 +3931,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -16.1367,
+            "strengthOfOpponent": -16.0117,
             "ranking": 29
           },
           {
@@ -3965,7 +3965,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -3997,7 +3997,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -9.5557,
+            "strengthOfOpponent": -9.4543,
             "ranking": 10
           },
           {
@@ -4030,7 +4030,7 @@
             "genderPPG": 16.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 23.4517,
+            "strengthOfOpponent": 23.4367,
             "ranking": 60
           },
           {
@@ -4129,7 +4129,7 @@
             "genderPPG": 18.25,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -14.5686,
+            "strengthOfOpponent": -14.39,
             "ranking": 11
           },
           {
@@ -4162,7 +4162,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -12.6433,
+            "strengthOfOpponent": -12.655,
             "ranking": 22
           },
           {
@@ -4228,7 +4228,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -8.0014,
+            "strengthOfOpponent": -7.7586,
             "ranking": 26
           },
           {
@@ -4261,7 +4261,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -5.155,
+            "strengthOfOpponent": -5.04,
             "ranking": 18
           },
           {
@@ -4327,7 +4327,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -26.1567,
+            "strengthOfOpponent": -26.17,
             "ranking": 19
           },
           {
@@ -4393,7 +4393,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.0171,
+            "strengthOfOpponent": -15.0714,
             "ranking": 8
           },
           {
@@ -4459,7 +4459,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 0.6833,
+            "strengthOfOpponent": 0.5717,
             "ranking": 24
           },
           {
@@ -4492,7 +4492,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -2.0833,
+            "strengthOfOpponent": -2.065,
             "ranking": 17
           },
           {
@@ -4525,7 +4525,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 25.9383,
+            "strengthOfOpponent": 25.9483,
             "ranking": 66
           },
           {
@@ -4558,7 +4558,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 9.2386,
+            "strengthOfOpponent": 9.14,
             "ranking": 40
           },
           {
@@ -4624,7 +4624,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 15.2029,
+            "strengthOfOpponent": 14.7914,
             "ranking": 52
           },
           {
@@ -4657,7 +4657,7 @@
             "genderPPG": 12.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 19.4667,
+            "strengthOfOpponent": 19.4783,
             "ranking": 54
           },
           {
@@ -4723,7 +4723,7 @@
             "genderPPG": 14.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 28.565,
+            "strengthOfOpponent": 28.5767,
             "ranking": 57
           },
           {
@@ -4789,7 +4789,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.2814,
+            "strengthOfOpponent": 6.1529,
             "ranking": 21
           },
           {
@@ -4823,7 +4823,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 61
+            "ranking": 62
           },
           {
             "$id": "43",
@@ -4855,7 +4855,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -21.55,
+            "strengthOfOpponent": -21.5383,
             "ranking": 9
           },
           {
@@ -5713,7 +5713,7 @@
             "genderPPG": 14.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 48.0614,
+            "strengthOfOpponent": 48.0771,
             "ranking": 68
           },
           {
@@ -5779,7 +5779,7 @@
             "genderPPG": 15,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.3433,
+            "strengthOfOpponent": 20.35,
             "ranking": 47
           },
           {
@@ -5812,7 +5812,7 @@
             "genderPPG": 16.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 38.375,
+            "strengthOfOpponent": 38.38,
             "ranking": 65
           },
           {
@@ -5878,7 +5878,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 31.3957,
+            "strengthOfOpponent": 31.41,
             "ranking": 51
           },
           {
@@ -5944,7 +5944,7 @@
             "genderPPG": 11.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 34.5157,
+            "strengthOfOpponent": 34.5614,
             "ranking": 42
           },
           {
@@ -6010,7 +6010,7 @@
             "genderPPG": 15.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.4,
+            "strengthOfOpponent": 12.4067,
             "ranking": 46
           },
           {
@@ -6043,7 +6043,7 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 18.26,
+            "strengthOfOpponent": 18.28,
             "ranking": 63
           },
           {
@@ -6109,7 +6109,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 23.1671,
+            "strengthOfOpponent": 23.1743,
             "ranking": 50
           },
           {
@@ -6142,7 +6142,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 29.84,
+            "strengthOfOpponent": 29.845,
             "ranking": 58
           },
           {
@@ -6175,7 +6175,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 11.2683,
+            "strengthOfOpponent": 11.2817,
             "ranking": 14
           },
           {
@@ -6307,7 +6307,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -25.605,
+            "strengthOfOpponent": -25.6017,
             "ranking": 49
           },
           {
@@ -6340,7 +6340,7 @@
             "genderPPG": 19.25,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -23.3271,
+            "strengthOfOpponent": -23.3371,
             "ranking": 16
           },
           {
@@ -6406,7 +6406,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -31.2357,
+            "strengthOfOpponent": -31.2471,
             "ranking": 15
           },
           {
@@ -6505,7 +6505,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -39.2386,
+            "strengthOfOpponent": -39.2757,
             "ranking": 13
           },
           {
@@ -6538,7 +6538,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -38.0417,
+            "strengthOfOpponent": -38.0617,
             "ranking": 7
           },
           {
@@ -6571,7 +6571,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.545,
+            "strengthOfOpponent": -15.555,
             "ranking": 43
           },
           {
@@ -6703,7 +6703,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.035,
+            "strengthOfOpponent": -18.0433,
             "ranking": 32
           },
           {
@@ -6736,7 +6736,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.0017,
+            "strengthOfOpponent": -15.0133,
             "ranking": 53
           },
           {
@@ -6802,7 +6802,7 @@
             "genderPPG": 19.75,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -35.0986,
+            "strengthOfOpponent": -35.1257,
             "ranking": 6
           },
           {
@@ -6835,7 +6835,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -27.8717,
+            "strengthOfOpponent": -27.8783,
             "ranking": 2
           },
           {
@@ -7528,7 +7528,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.18,
+            "strengthOfOpponent": -15.3117,
             "ranking": 49
           },
           {
@@ -7561,7 +7561,7 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -15.705,
+            "strengthOfOpponent": -15.6983,
             "ranking": 16
           },
           {
@@ -7594,7 +7594,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -3.3229,
+            "strengthOfOpponent": -3.29,
             "ranking": 30
           },
           {
@@ -7660,7 +7660,7 @@
             "genderPPG": 18.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -11.44,
+            "strengthOfOpponent": -11.4043,
             "ranking": 5
           },
           {
@@ -7693,7 +7693,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.6133,
+            "strengthOfOpponent": -2.72,
             "ranking": 45
           },
           {
@@ -7726,7 +7726,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -16.1914,
+            "strengthOfOpponent": -15.9514,
             "ranking": 13
           },
           {
@@ -7759,7 +7759,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -40.7283,
+            "strengthOfOpponent": -40.7233,
             "ranking": 7
           },
           {
@@ -8023,7 +8023,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -28.0229,
+            "strengthOfOpponent": -27.8414,
             "ranking": 6
           },
           {
@@ -8056,7 +8056,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": -20.3417,
+            "strengthOfOpponent": -20.345,
             "ranking": 2
           },
           {
@@ -8089,7 +8089,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -18.1217,
+            "strengthOfOpponent": -18.19,
             "ranking": 27
           },
           {
@@ -8320,7 +8320,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 11.7829,
+            "strengthOfOpponent": 11.7529,
             "ranking": 40
           },
           {
@@ -8386,7 +8386,7 @@
             "genderPPG": 13.75,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 23.4,
+            "strengthOfOpponent": 23.0214,
             "ranking": 52
           },
           {
@@ -8419,7 +8419,7 @@
             "genderPPG": 14.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 32.8217,
+            "strengthOfOpponent": 32.8917,
             "ranking": 54
           },
           {
@@ -8452,7 +8452,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 21.5217,
+            "strengthOfOpponent": 21.5883,
             "ranking": 39
           },
           {
@@ -8485,7 +8485,7 @@
             "genderPPG": 13.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 28.51,
+            "strengthOfOpponent": 28.4933,
             "ranking": 57
           },
           {
@@ -8551,7 +8551,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 13.9457,
+            "strengthOfOpponent": 13.8171,
             "ranking": 21
           },
           {
@@ -8584,8 +8584,8 @@
             "genderPPG": 16.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.7117,
-            "ranking": 61
+            "strengthOfOpponent": 20.9533,
+            "ranking": 62
           },
           {
             "$id": "45",
@@ -8617,7 +8617,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 2.5467,
+            "strengthOfOpponent": 2.4783,
             "ranking": 9
           },
           {
@@ -8716,7 +8716,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 14.5917,
+            "strengthOfOpponent": 14.6967,
             "ranking": 31
           },
           {
@@ -8749,7 +8749,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.98,
+            "strengthOfOpponent": 2.9414,
             "ranking": 4
           }
         ]
@@ -9508,7 +9508,7 @@
             "genderPPG": 17.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": -0.8057,
+            "strengthOfOpponent": -0.8014,
             "ranking": 20
           },
           {
@@ -9541,7 +9541,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -6.6417,
+            "strengthOfOpponent": -6.635,
             "ranking": 47
           },
           {
@@ -9574,7 +9574,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 11.4967,
+            "strengthOfOpponent": 11.495,
             "ranking": 65
           },
           {
@@ -9607,7 +9607,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -18.1067,
+            "strengthOfOpponent": -18.105,
             "ranking": 1
           },
           {
@@ -9640,7 +9640,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 6.3167,
+            "strengthOfOpponent": 6.3267,
             "ranking": 51
           },
           {
@@ -9706,7 +9706,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 2.2729,
+            "strengthOfOpponent": 2.3171,
             "ranking": 42
           },
           {
@@ -9739,7 +9739,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 5.33,
+            "strengthOfOpponent": 5.3683,
             "ranking": 23
           },
           {
@@ -9970,7 +9970,7 @@
             "genderPPG": 17.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 1.7483,
+            "strengthOfOpponent": 1.7517,
             "ranking": 25
           },
           {
@@ -10036,7 +10036,7 @@
             "genderPPG": 16.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": -0.3714,
+            "strengthOfOpponent": -0.3586,
             "ranking": 35
           },
           {
@@ -10069,7 +10069,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 1.9,
+            "strengthOfOpponent": 1.8929,
             "ranking": 44
           },
           {
@@ -10102,7 +10102,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -1.4186,
+            "strengthOfOpponent": -1.4229,
             "ranking": 48
           },
           {
@@ -10168,7 +10168,7 @@
             "genderPPG": 19.25,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -11.7788,
+            "strengthOfOpponent": -11.7888,
             "ranking": 29
           },
           {
@@ -10202,7 +10202,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "37",
@@ -10234,7 +10234,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -4,
+            "strengthOfOpponent": -4.015,
             "ranking": 10
           },
           {
@@ -10333,7 +10333,7 @@
             "genderPPG": 17.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.7017,
+            "strengthOfOpponent": 20.7,
             "ranking": 64
           },
           {
@@ -10432,7 +10432,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.8367,
+            "strengthOfOpponent": 0.8333,
             "ranking": 34
           },
           {
@@ -10465,7 +10465,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -2.3613,
+            "strengthOfOpponent": -2.395,
             "ranking": 26
           },
           {
@@ -10531,7 +10531,7 @@
             "genderPPG": 18.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.5788,
+            "strengthOfOpponent": 0.5625,
             "ranking": 36
           },
           {
@@ -10564,7 +10564,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -1.6538,
+            "strengthOfOpponent": -1.6663,
             "ranking": 19
           }
         ]
@@ -11323,7 +11323,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.1857,
+            "strengthOfOpponent": -15.16,
             "ranking": 20
           },
           {
@@ -11356,7 +11356,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.9933,
+            "strengthOfOpponent": -18.9883,
             "ranking": 47
           },
           {
@@ -11422,7 +11422,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -45.3533,
+            "strengthOfOpponent": -45.345,
             "ranking": 1
           },
           {
@@ -11455,7 +11455,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.26,
+            "strengthOfOpponent": 12.2729,
             "ranking": 51
           },
           {
@@ -11521,7 +11521,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -0.3943,
+            "strengthOfOpponent": -0.3329,
             "ranking": 42
           },
           {
@@ -11554,7 +11554,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -45.1383,
+            "strengthOfOpponent": -45.1067,
             "ranking": 23
           },
           {
@@ -11587,7 +11587,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -35.6083,
+            "strengthOfOpponent": -35.6,
             "ranking": 46
           },
           {
@@ -11752,7 +11752,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -33.28,
+            "strengthOfOpponent": -33.27,
             "ranking": 14
           },
           {
@@ -11785,7 +11785,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -53.6233,
+            "strengthOfOpponent": -53.62,
             "ranking": 25
           },
           {
@@ -11851,7 +11851,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 2.7914,
+            "strengthOfOpponent": 2.8057,
             "ranking": 35
           },
           {
@@ -11917,7 +11917,7 @@
             "genderPPG": 15,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": -6.26,
+            "strengthOfOpponent": -6.2771,
             "ranking": 8
           },
           {
@@ -11950,7 +11950,7 @@
             "genderPPG": 19.75,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 17.25,
+            "strengthOfOpponent": 17.2143,
             "ranking": 56
           },
           {
@@ -12016,7 +12016,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -8.7914,
+            "strengthOfOpponent": -8.8014,
             "ranking": 17
           },
           {
@@ -12049,7 +12049,7 @@
             "genderPPG": 10,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 49.205,
+            "strengthOfOpponent": 49.1983,
             "ranking": 66
           },
           {
@@ -12115,7 +12115,7 @@
             "genderPPG": 12.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 33.3,
+            "strengthOfOpponent": 33.29,
             "ranking": 55
           },
           {
@@ -12247,7 +12247,7 @@
             "genderPPG": 15.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 31.5217,
+            "strengthOfOpponent": 31.515,
             "ranking": 57
           },
           {
@@ -12280,7 +12280,7 @@
             "genderPPG": 16.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 51.63,
+            "strengthOfOpponent": 51.6167,
             "ranking": 71
           },
           {
@@ -12313,7 +12313,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -1.9314,
+            "strengthOfOpponent": -1.99,
             "ranking": 21
           },
           {
@@ -12347,7 +12347,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 61
+            "ranking": 62
           },
           {
             "$id": "47",
@@ -12412,7 +12412,7 @@
             "genderPPG": 13.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 51.5233,
+            "strengthOfOpponent": 51.5083,
             "ranking": 70
           },
           {
@@ -12478,7 +12478,7 @@
             "genderPPG": 16.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 15.1217,
+            "strengthOfOpponent": 15.115,
             "ranking": 31
           },
           {
@@ -13237,7 +13237,7 @@
             "genderPPG": 17.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 7.8829,
+            "strengthOfOpponent": 7.89,
             "ranking": 37
           },
           {
@@ -13270,7 +13270,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -1.6263,
+            "strengthOfOpponent": -1.61,
             "ranking": 29
           },
           {
@@ -13304,7 +13304,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -13402,7 +13402,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -7.2767,
+            "strengthOfOpponent": -7.27,
             "ranking": 33
           },
           {
@@ -13501,7 +13501,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -8.7633,
+            "strengthOfOpponent": -8.7517,
             "ranking": 22
           },
           {
@@ -13534,7 +13534,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 1.4983,
+            "strengthOfOpponent": 1.5067,
             "ranking": 34
           },
           {
@@ -13567,7 +13567,7 @@
             "genderPPG": 18.75,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 13.1738,
+            "strengthOfOpponent": 13.1775,
             "ranking": 26
           },
           {
@@ -13633,7 +13633,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.7475,
+            "strengthOfOpponent": 12.7638,
             "ranking": 36
           },
           {
@@ -13666,7 +13666,7 @@
             "genderPPG": 18.75,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -6.9025,
+            "strengthOfOpponent": -6.8875,
             "ranking": 19
           },
           {
@@ -13765,7 +13765,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 0.4957,
+            "strengthOfOpponent": 0.49,
             "ranking": 30
           },
           {
@@ -13864,7 +13864,7 @@
             "genderPPG": 17.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 1.9033,
+            "strengthOfOpponent": 1.9,
             "ranking": 45
           },
           {
@@ -13897,7 +13897,7 @@
             "genderPPG": 18.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": -9.0129,
+            "strengthOfOpponent": -9.03,
             "ranking": 13
           },
           {
@@ -13930,7 +13930,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.9217,
+            "strengthOfOpponent": -15.9317,
             "ranking": 7
           },
           {
@@ -13963,7 +13963,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 10.1833,
+            "strengthOfOpponent": 10.1667,
             "ranking": 43
           },
           {
@@ -14095,7 +14095,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 3.5267,
+            "strengthOfOpponent": 3.5183,
             "ranking": 32
           },
           {
@@ -14128,7 +14128,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 13.92,
+            "strengthOfOpponent": 13.9,
             "ranking": 53
           },
           {
@@ -14194,7 +14194,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.3429,
+            "strengthOfOpponent": -15.3457,
             "ranking": 6
           },
           {
@@ -14260,7 +14260,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 7.2267,
+            "strengthOfOpponent": 7.2117,
             "ranking": 27
           }
         ]
@@ -15019,7 +15019,7 @@
             "genderPPG": 17.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 15.8643,
+            "strengthOfOpponent": 15.89,
             "ranking": 20
           },
           {
@@ -15085,7 +15085,7 @@
             "genderPPG": 12.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 15.8217,
+            "strengthOfOpponent": 15.8433,
             "ranking": 65
           },
           {
@@ -15118,7 +15118,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -8.3067,
+            "strengthOfOpponent": -8.295,
             "ranking": 1
           },
           {
@@ -15151,7 +15151,7 @@
             "genderPPG": 15.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 21.78,
+            "strengthOfOpponent": 21.8057,
             "ranking": 51
           },
           {
@@ -15217,7 +15217,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 23.5143,
+            "strengthOfOpponent": 23.5729,
             "ranking": 42
           },
           {
@@ -15250,7 +15250,7 @@
             "genderPPG": 15.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 16.0667,
+            "strengthOfOpponent": 16.105,
             "ranking": 23
           },
           {
@@ -15382,7 +15382,7 @@
             "genderPPG": 17.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.8117,
+            "strengthOfOpponent": 20.82,
             "ranking": 50
           },
           {
@@ -15448,7 +15448,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.9367,
+            "strengthOfOpponent": -7.9183,
             "ranking": 14
           },
           {
@@ -15481,7 +15481,7 @@
             "genderPPG": 14,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 8.9317,
+            "strengthOfOpponent": 8.945,
             "ranking": 25
           },
           {
@@ -15547,7 +15547,7 @@
             "genderPPG": 16,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 26.8057,
+            "strengthOfOpponent": 26.8257,
             "ranking": 35
           },
           {
@@ -15646,7 +15646,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 4.7083,
+            "strengthOfOpponent": 4.6867,
             "ranking": 30
           },
           {
@@ -15679,7 +15679,7 @@
             "genderPPG": 18.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.4114,
+            "strengthOfOpponent": -18.4343,
             "ranking": 15
           },
           {
@@ -15712,7 +15712,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -30.1743,
+            "strengthOfOpponent": -30.1971,
             "ranking": 5
           },
           {
@@ -15745,7 +15745,7 @@
             "genderPPG": 16.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 10.4867,
+            "strengthOfOpponent": 10.475,
             "ranking": 45
           },
           {
@@ -15778,7 +15778,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -20.2257,
+            "strengthOfOpponent": -20.2729,
             "ranking": 13
           },
           {
@@ -15811,7 +15811,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -24.8686,
+            "strengthOfOpponent": -24.9143,
             "ranking": 7
           },
           {
@@ -15877,7 +15877,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -3.0983,
+            "strengthOfOpponent": -3.1167,
             "ranking": 28
           },
           {
@@ -16075,7 +16075,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.7217,
+            "strengthOfOpponent": -15.7367,
             "ranking": 6
           },
           {
@@ -16108,7 +16108,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -19.7633,
+            "strengthOfOpponent": -19.7683,
             "ranking": 2
           },
           {
@@ -16141,7 +16141,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -15.3317,
+            "strengthOfOpponent": -15.3617,
             "ranking": 27
           }
         ]
@@ -16801,7 +16801,7 @@
             "genderPPG": 15.5,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 20.8271,
+            "strengthOfOpponent": 20.8171,
             "ranking": 44
           },
           {
@@ -16867,7 +16867,7 @@
             "genderPPG": 12,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 18.0829,
+            "strengthOfOpponent": 18.0729,
             "ranking": 37
           },
           {
@@ -16900,7 +16900,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -16.4333,
+            "strengthOfOpponent": -16.6383,
             "ranking": 29
           },
           {
@@ -16933,8 +16933,8 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 10.45,
-            "ranking": 62
+            "strengthOfOpponent": 10.44,
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -16999,7 +16999,7 @@
             "genderPPG": 12.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 13.4933,
+            "strengthOfOpponent": 13.3917,
             "ranking": 60
           },
           {
@@ -17098,7 +17098,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -18.71,
+            "strengthOfOpponent": -18.7257,
             "ranking": 11
           },
           {
@@ -17131,7 +17131,7 @@
             "genderPPG": 17.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": -4.1317,
+            "strengthOfOpponent": -4.185,
             "ranking": 22
           },
           {
@@ -17263,7 +17263,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -17.5767,
+            "strengthOfOpponent": -17.7767,
             "ranking": 36
           },
           {
@@ -17296,7 +17296,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -38.7767,
+            "strengthOfOpponent": -38.8333,
             "ranking": 19
           },
           {
@@ -17362,7 +17362,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -17.8971,
+            "strengthOfOpponent": -17.89,
             "ranking": 8
           },
           {
@@ -17560,7 +17560,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -5.1233,
+            "strengthOfOpponent": -5.0217,
             "ranking": 55
           },
           {
@@ -17626,7 +17626,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": 5.0543,
+            "strengthOfOpponent": 5.1114,
             "ranking": 54
           },
           {
@@ -17659,7 +17659,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 6.5783,
+            "strengthOfOpponent": 6.6317,
             "ranking": 39
           },
           {
@@ -17692,7 +17692,7 @@
             "genderPPG": 15.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 19.5383,
+            "strengthOfOpponent": 19.5933,
             "ranking": 57
           },
           {
@@ -17791,8 +17791,8 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 25.5467,
-            "ranking": 61
+            "strengthOfOpponent": 25.8517,
+            "ranking": 62
           },
           {
             "$id": "43",
@@ -17857,7 +17857,7 @@
             "genderPPG": 13,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 38.0367,
+            "strengthOfOpponent": 38.09,
             "ranking": 70
           },
           {
@@ -17890,7 +17890,7 @@
             "genderPPG": 16.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -5.6529,
+            "strengthOfOpponent": -5.6429,
             "ranking": 38
           },
           {
@@ -17956,7 +17956,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -21.0129,
+            "strengthOfOpponent": -21,
             "ranking": 4
           }
         ]
@@ -18649,7 +18649,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.2117,
+            "strengthOfOpponent": -15.2233,
             "ranking": 16
           },
           {
@@ -18715,7 +18715,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -19.1143,
+            "strengthOfOpponent": -19.0114,
             "ranking": 15
           },
           {
@@ -18748,7 +18748,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -12.5029,
+            "strengthOfOpponent": -12.4657,
             "ranking": 5
           },
           {
@@ -18814,7 +18814,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -17.7043,
+            "strengthOfOpponent": -17.4629,
             "ranking": 13
           },
           {
@@ -18847,7 +18847,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -23.6683,
+            "strengthOfOpponent": -23.545,
             "ranking": 7
           },
           {
@@ -18880,7 +18880,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -12.9683,
+            "strengthOfOpponent": -12.985,
             "ranking": 43
           },
           {
@@ -18913,7 +18913,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": -9.9757,
+            "strengthOfOpponent": -9.7971,
             "ranking": 28
           },
           {
@@ -19012,7 +19012,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -5.9217,
+            "strengthOfOpponent": -5.9383,
             "ranking": 32
           },
           {
@@ -19045,7 +19045,7 @@
             "genderPPG": 19,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -12.5417,
+            "strengthOfOpponent": -12.42,
             "ranking": 53
           },
           {
@@ -19177,7 +19177,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -17.5917,
+            "strengthOfOpponent": -17.6117,
             "ranking": 27
           },
           {
@@ -19342,7 +19342,7 @@
             "genderPPG": 18.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 8.6029,
+            "strengthOfOpponent": 8.56,
             "ranking": 17
           },
           {
@@ -19375,7 +19375,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 25.5033,
+            "strengthOfOpponent": 25.5183,
             "ranking": 66
           },
           {
@@ -19408,7 +19408,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 23.0143,
+            "strengthOfOpponent": 22.9171,
             "ranking": 40
           },
           {
@@ -19474,7 +19474,7 @@
             "genderPPG": 18,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 20.44,
+            "strengthOfOpponent": 20.0286,
             "ranking": 52
           },
           {
@@ -19507,7 +19507,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 16.715,
+            "strengthOfOpponent": 16.5983,
             "ranking": 54
           },
           {
@@ -19573,7 +19573,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 22.34,
+            "strengthOfOpponent": 22.3583,
             "ranking": 57
           },
           {
@@ -19639,7 +19639,7 @@
             "genderPPG": 17.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 12.1043,
+            "strengthOfOpponent": 11.9771,
             "ranking": 21
           },
           {
@@ -19673,7 +19673,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 61
+            "ranking": 62
           },
           {
             "$id": "45",
@@ -19705,7 +19705,7 @@
             "genderPPG": 18.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -1.45,
+            "strengthOfOpponent": -1.435,
             "ranking": 9
           },
           {
@@ -19771,7 +19771,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 9.0717,
+            "strengthOfOpponent": 9.0833,
             "ranking": 38
           },
           {
@@ -19804,7 +19804,7 @@
             "genderPPG": 14.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 10.0483,
+            "strengthOfOpponent": 10.0633,
             "ranking": 31
           },
           {
@@ -20596,7 +20596,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 5.5843,
+            "strengthOfOpponent": 5.5957,
             "ranking": 20
           },
           {
@@ -20662,7 +20662,7 @@
             "genderPPG": 16.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 23.51,
+            "strengthOfOpponent": 23.515,
             "ranking": 65
           },
           {
@@ -20695,7 +20695,7 @@
             "genderPPG": 19.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -22.345,
+            "strengthOfOpponent": -22.34,
             "ranking": 1
           },
           {
@@ -20728,7 +20728,7 @@
             "genderPPG": 18.25,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 2.7043,
+            "strengthOfOpponent": 2.7143,
             "ranking": 51
           },
           {
@@ -20827,7 +20827,7 @@
             "genderPPG": 17.66,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -0.3083,
+            "strengthOfOpponent": -0.2883,
             "ranking": 23
           },
           {
@@ -20926,7 +20926,7 @@
             "genderPPG": 19.25,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 27.9843,
+            "strengthOfOpponent": 27.9943,
             "ranking": 69
           },
           {
@@ -20959,7 +20959,7 @@
             "genderPPG": 18,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -2.4017,
+            "strengthOfOpponent": -2.41,
             "ranking": 50
           },
           {
@@ -20992,7 +20992,7 @@
             "genderPPG": 13.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 9.9933,
+            "strengthOfOpponent": 9.9967,
             "ranking": 58
           },
           {
@@ -21025,7 +21025,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 7.1271,
+            "strengthOfOpponent": 7.1471,
             "ranking": 14
           },
           {
@@ -21058,7 +21058,7 @@
             "genderPPG": 18,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 11.845,
+            "strengthOfOpponent": 11.8467,
             "ranking": 25
           },
           {
@@ -21190,7 +21190,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": 5.6757,
+            "strengthOfOpponent": 5.6657,
             "ranking": 48
           },
           {
@@ -21223,7 +21223,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": 10.0283,
+            "strengthOfOpponent": 10.025,
             "ranking": 37
           },
           {
@@ -21290,7 +21290,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "37",
@@ -21322,7 +21322,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -15.5071,
+            "strengthOfOpponent": -15.5271,
             "ranking": 10
           },
           {
@@ -21421,7 +21421,7 @@
             "genderPPG": 20,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 4.8483,
+            "strengthOfOpponent": 4.8517,
             "ranking": 64
           },
           {
@@ -21454,7 +21454,7 @@
             "genderPPG": 19.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -16.9533,
+            "strengthOfOpponent": -16.97,
             "ranking": 11
           },
           {
@@ -21553,7 +21553,7 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -15.0843,
+            "strengthOfOpponent": -15.1014,
             "ranking": 26
           },
           {
@@ -21619,7 +21619,7 @@
             "genderPPG": 20.25,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.3729,
+            "strengthOfOpponent": -7.3743,
             "ranking": 36
           },
           {
@@ -21652,7 +21652,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -11.675,
+            "strengthOfOpponent": -11.6883,
             "ranking": 19
           }
         ]
@@ -22345,7 +22345,7 @@
             "genderPPG": 18,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 28.0371,
+            "strengthOfOpponent": 28.0471,
             "ranking": 48
           },
           {
@@ -22378,7 +22378,7 @@
             "genderPPG": 17,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 22,
+            "strengthOfOpponent": 22.0071,
             "ranking": 37
           },
           {
@@ -22411,7 +22411,7 @@
             "genderPPG": 15.25,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 13.34,
+            "strengthOfOpponent": 13.3525,
             "ranking": 29
           },
           {
@@ -22445,7 +22445,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -22510,7 +22510,7 @@
             "genderPPG": 14.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 30.95,
+            "strengthOfOpponent": 30.955,
             "ranking": 60
           },
           {
@@ -22576,7 +22576,7 @@
             "genderPPG": 12.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 32.14,
+            "strengthOfOpponent": 32.1517,
             "ranking": 64
           },
           {
@@ -22675,7 +22675,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 19.4133,
+            "strengthOfOpponent": 19.4217,
             "ranking": 34
           },
           {
@@ -22708,7 +22708,7 @@
             "genderPPG": 18.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 20.9325,
+            "strengthOfOpponent": 20.935,
             "ranking": 26
           },
           {
@@ -22774,7 +22774,7 @@
             "genderPPG": 18.25,
             "genderWins": 0,
             "genderLosses": 4,
-            "strengthOfOpponent": 25.4563,
+            "strengthOfOpponent": 25.4725,
             "ranking": 36
           },
           {
@@ -22807,7 +22807,7 @@
             "genderPPG": 15.75,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 12.7238,
+            "strengthOfOpponent": 12.7313,
             "ranking": 19
           },
           {
@@ -22906,7 +22906,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -25.7783,
+            "strengthOfOpponent": -25.7917,
             "ranking": 30
           },
           {
@@ -22939,7 +22939,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -23.4543,
+            "strengthOfOpponent": -23.46,
             "ranking": 15
           },
           {
@@ -22972,7 +22972,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -26.5829,
+            "strengthOfOpponent": -26.5943,
             "ranking": 5
           },
           {
@@ -23071,7 +23071,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -18.9038,
+            "strengthOfOpponent": -18.915,
             "ranking": 7
           },
           {
@@ -23236,7 +23236,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -19.695,
+            "strengthOfOpponent": -19.7,
             "ranking": 32
           },
           {
@@ -23302,7 +23302,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -19.7,
+            "strengthOfOpponent": -19.7075,
             "ranking": 12
           },
           {
@@ -23335,7 +23335,7 @@
             "genderPPG": 21,
             "genderWins": 4,
             "genderLosses": 0,
-            "strengthOfOpponent": -24.0625,
+            "strengthOfOpponent": -24.0663,
             "ranking": 6
           },
           {
@@ -23368,7 +23368,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -37.03,
+            "strengthOfOpponent": -37.0367,
             "ranking": 2
           },
           {
@@ -23401,7 +23401,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -9.7863,
+            "strengthOfOpponent": -9.8025,
             "ranking": 27
           }
         ]
@@ -24094,7 +24094,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -26.9567,
+            "strengthOfOpponent": -27.0117,
             "ranking": 3
           },
           {
@@ -24193,7 +24193,7 @@
             "genderPPG": 18.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -4.23,
+            "strengthOfOpponent": -4.2267,
             "ranking": 47
           },
           {
@@ -24292,7 +24292,7 @@
             "genderPPG": 17,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 15.28,
+            "strengthOfOpponent": 15.4071,
             "ranking": 51
           },
           {
@@ -24325,7 +24325,7 @@
             "genderPPG": 17,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 10.78,
+            "strengthOfOpponent": 10.6783,
             "ranking": 59
           },
           {
@@ -24358,7 +24358,7 @@
             "genderPPG": 19.5,
             "genderWins": 2,
             "genderLosses": 2,
-            "strengthOfOpponent": 0.2457,
+            "strengthOfOpponent": -0.6186,
             "ranking": 42
           },
           {
@@ -24391,7 +24391,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": 1.1343,
+            "strengthOfOpponent": 0.3629,
             "ranking": 23
           },
           {
@@ -24424,7 +24424,7 @@
             "genderPPG": 19.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -22.3,
+            "strengthOfOpponent": -22.3067,
             "ranking": 46
           },
           {
@@ -24523,7 +24523,7 @@
             "genderPPG": 15,
             "genderWins": 1,
             "genderLosses": 3,
-            "strengthOfOpponent": 28.11,
+            "strengthOfOpponent": 28.1714,
             "ranking": 50
           },
           {
@@ -24556,7 +24556,7 @@
             "genderPPG": 18.66,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -7.0233,
+            "strengthOfOpponent": -7.075,
             "ranking": 58
           },
           {
@@ -24622,7 +24622,7 @@
             "genderPPG": 21,
             "genderWins": 3,
             "genderLosses": 0,
-            "strengthOfOpponent": -17.4383,
+            "strengthOfOpponent": -17.4883,
             "ranking": 25
           },
           {
@@ -24754,7 +24754,7 @@
             "genderPPG": 20.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -20.425,
+            "strengthOfOpponent": -20.3767,
             "ranking": 8
           },
           {
@@ -24853,7 +24853,7 @@
             "genderPPG": 18.33,
             "genderWins": 2,
             "genderLosses": 1,
-            "strengthOfOpponent": -12.4486,
+            "strengthOfOpponent": -12.5729,
             "ranking": 17
           },
           {
@@ -24886,7 +24886,7 @@
             "genderPPG": 18.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": 12.9083,
+            "strengthOfOpponent": 13.0083,
             "ranking": 66
           },
           {
@@ -24952,7 +24952,7 @@
             "genderPPG": 15.66,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 7.99,
+            "strengthOfOpponent": 7.9917,
             "ranking": 55
           },
           {
@@ -24967,25 +24967,25 @@
             "matchupId": "1dd2e6fd-a8a6-4e59-8644-73cd8c16270c",
             "isSub": false,
             "isEnabled": true,
-            "gamesPlayed": 7,
+            "gamesPlayed": 6,
             "wins": 2,
-            "losses": 5,
-            "winRate": 28.57,
-            "pointsWon": 126,
-            "totalPointsAgainst": 141,
+            "losses": 4,
+            "winRate": 33.33,
+            "pointsWon": 108,
+            "totalPointsAgainst": 120,
             "pointsPerGame": 18,
-            "totalPointDifferential": -15,
-            "averagePointDifferential": -2.14,
+            "totalPointDifferential": -12,
+            "averagePointDifferential": -2,
             "clutchWins": 1,
             "clutchLosses": 1,
             "clutchWinRate": 50,
             "mixedPPG": 17.66,
             "mixedWins": 0,
             "mixedLosses": 3,
-            "genderPPG": 18.25,
+            "genderPPG": 18.33,
             "genderWins": 2,
-            "genderLosses": 2,
-            "strengthOfOpponent": 9.89,
+            "genderLosses": 1,
+            "strengthOfOpponent": 10.3167,
             "ranking": 52
           },
           {
@@ -25018,7 +25018,7 @@
             "genderPPG": 15.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 9.8983,
+            "strengthOfOpponent": 9.885,
             "ranking": 54
           },
           {
@@ -25084,7 +25084,7 @@
             "genderPPG": 12.33,
             "genderWins": 0,
             "genderLosses": 3,
-            "strengthOfOpponent": 24.6033,
+            "strengthOfOpponent": 24.6517,
             "ranking": 57
           },
           {
@@ -25150,7 +25150,7 @@
             "genderPPG": 19.33,
             "genderWins": 1,
             "genderLosses": 2,
-            "strengthOfOpponent": -6.4143,
+            "strengthOfOpponent": -5.5343,
             "ranking": 21
           },
           {
@@ -25165,26 +25165,26 @@
             "matchupId": "1dd2e6fd-a8a6-4e59-8644-73cd8c16270c",
             "isSub": false,
             "isEnabled": true,
-            "gamesPlayed": 6,
+            "gamesPlayed": 7,
             "wins": 1,
-            "losses": 5,
-            "winRate": 16.67,
-            "pointsWon": 87,
-            "totalPointsAgainst": 122,
-            "pointsPerGame": 14.5,
-            "totalPointDifferential": -35,
-            "averagePointDifferential": -5.83,
+            "losses": 6,
+            "winRate": 14.29,
+            "pointsWon": 105,
+            "totalPointsAgainst": 143,
+            "pointsPerGame": 15,
+            "totalPointDifferential": -38,
+            "averagePointDifferential": -5.43,
             "clutchWins": 0,
             "clutchLosses": 0,
             "clutchWinRate": 0,
             "mixedPPG": 14.33,
             "mixedWins": 0,
             "mixedLosses": 3,
-            "genderPPG": 14.66,
+            "genderPPG": 15.5,
             "genderWins": 1,
-            "genderLosses": 2,
-            "strengthOfOpponent": 26.5283,
-            "ranking": 61
+            "genderLosses": 3,
+            "strengthOfOpponent": 24.6071,
+            "ranking": 62
           },
           {
             "$id": "47",
@@ -25348,7 +25348,7 @@
             "genderPPG": 20.5,
             "genderWins": 3,
             "genderLosses": 1,
-            "strengthOfOpponent": -30.9414,
+            "strengthOfOpponent": -31.0057,
             "ranking": 4
           }
         ]
@@ -25645,7 +25645,7 @@
               "homePlayerId1": "3207fd7d-1bc1-44df-a915-8eb4019821db",
               "homePlayerId2": "ccc68505-7ec7-474a-a96f-891b618d657e",
               "awayPlayerId1": "768c88bd-683d-4204-8124-a589c8028b6e",
-              "awayPlayerId2": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
+              "awayPlayerId2": "c76ff0cb-72a1-4e1f-978e-a7706ea5e406",
               "homeScore": 21,
               "awayScore": 18,
               "gameNumber": 20,
@@ -26141,7 +26141,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "17",
@@ -26999,7 +26999,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 61
+            "ranking": 62
           },
           {
             "$id": "43",
@@ -27175,7 +27175,7 @@
           "$values": [
             {
               "$id": "50",
-              "lineupId": "4ac06806-7235-4a80-a86d-e88d6b23e155",
+              "lineupId": "83885050-459d-42e8-b367-44531be30e9a",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27189,7 +27189,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "16e25e96-614c-4dac-a18c-84e77a59639f",
+              "lineupId": "f8666466-a51d-4f52-8024-9b747f517ea6",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27203,7 +27203,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "0dba734e-ffd2-49e7-9bbe-3d48420c59d0",
+              "lineupId": "b53b7913-7cb5-4961-a14d-64c05e42ab6d",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27217,7 +27217,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "c2134dc8-e799-4778-bc2d-c120dfc8fcc5",
+              "lineupId": "6a5c8f88-cc77-4bd7-8b6e-8a878c924571",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27231,7 +27231,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "c72ae59b-249a-450a-a985-fb19571b8b5a",
+              "lineupId": "1a8ed2ef-2081-4214-9cf7-0bef4c70e4a1",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27245,7 +27245,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "28b4d0ba-002b-44a9-a4ab-811eb2d49849",
+              "lineupId": "5e0a7673-0a6f-4ac1-8196-3ac8cceac5fb",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27259,7 +27259,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "a416eb88-f892-4e12-a5c8-1efebd638100",
+              "lineupId": "cf608a2f-7c98-420e-a52f-7d7f6dd0c0a7",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27273,7 +27273,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "ebb67a9e-5c58-42e4-82f8-c11c40b92eb8",
+              "lineupId": "e7820eeb-d631-497b-8327-346071274685",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27287,7 +27287,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "2ccfa63b-7d63-43bd-808f-ed6bdcef945e",
+              "lineupId": "d8c1e01f-d6df-47f5-8b6e-ec6e1f6333ae",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27301,7 +27301,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "5cb5abeb-cfd0-4cd8-ac6b-c2ed9c175d5e",
+              "lineupId": "d27d923d-034c-4c68-9682-11e61502c8a3",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27315,7 +27315,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "b1678723-bc9f-42a0-87dd-3305738ed66d",
+              "lineupId": "f6b71fd7-913c-483f-a755-13aad7fee768",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27329,7 +27329,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "e280663a-d872-4e86-bd6d-3d6af11d336f",
+              "lineupId": "f1749676-e3d2-4664-bca8-36fab0e8f4b2",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27343,7 +27343,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "46498a2e-0f7b-49bb-a5a8-ed6757a59afb",
+              "lineupId": "8f6d0416-5585-4f39-adab-e418d2a237c1",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27357,7 +27357,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "249e72c6-261b-4696-a802-fe53e8659d9a",
+              "lineupId": "1d30e798-bb0f-4a1e-8b65-67a698d891f0",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27371,7 +27371,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "ec1cb98e-656b-46ee-82d9-4222a5aa3e2c",
+              "lineupId": "47062b85-7724-481f-9f5d-e6026e81eb83",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27385,7 +27385,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "123bcda3-ddc5-43ed-9af4-dfb9cc9f3512",
+              "lineupId": "f9002c7d-118a-4867-a3b3-fd05ce5be938",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27399,7 +27399,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "cc02fb75-45b5-41a6-b612-c33957e38885",
+              "lineupId": "b385adf6-4a1c-427c-9035-8c172d46370c",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27413,7 +27413,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "f5fde30c-5c14-45fc-b0ce-8cea98efe28a",
+              "lineupId": "fc353095-d974-4deb-adee-1195be585fca",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27427,7 +27427,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "8232bcec-1e16-4eea-81c8-8605a0a5d45f",
+              "lineupId": "b17fb7b5-ede2-4678-b5b3-4ec722e09c6e",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27441,7 +27441,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "47e19048-21bb-4972-892a-445209fd51f3",
+              "lineupId": "c6374aa9-3bfa-4714-941a-cc70d2e34277",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27455,7 +27455,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "db947eef-aacd-419a-903a-aa12c2a1fdf4",
+              "lineupId": "96eafee2-26b2-421c-a5a4-dd6fc01062bd",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27469,7 +27469,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "26539b30-dce7-4ab0-8f34-b2838988a205",
+              "lineupId": "9d19c3e2-0663-47fe-9025-e79ab5bb369a",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27483,7 +27483,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "4affbfab-905e-415f-a7aa-f24a5b5130e2",
+              "lineupId": "57f2d668-c560-4a4b-a5bf-5257e5f0bd4f",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27497,7 +27497,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "3a5826f1-a027-43d2-b0da-f51496d2a546",
+              "lineupId": "75495a72-6dd0-49d2-b835-13916e8870eb",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27511,7 +27511,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "8eae8d30-5b76-4427-94fc-08e5243ec29f",
+              "lineupId": "f38629a9-bf62-4305-af8e-010c8b8c46ea",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27525,7 +27525,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "80dddd51-7fc0-4198-8264-2431b011c564",
+              "lineupId": "55b61b12-96e6-4cd1-808b-0a09f82ac86e",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27539,7 +27539,7 @@
             },
             {
               "$id": "76",
-              "lineupId": "4f4e0572-7098-4007-a7d8-919d072118dc",
+              "lineupId": "f41de58b-4273-448e-8bdb-9b737552197b",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27553,7 +27553,7 @@
             },
             {
               "$id": "77",
-              "lineupId": "067dcddc-595c-4702-9f6d-27daf987ee00",
+              "lineupId": "20b5088e-bdb7-42f3-b2c7-79f5185ffebf",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27567,7 +27567,7 @@
             },
             {
               "$id": "78",
-              "lineupId": "225cfbaa-517e-473a-bbf8-3ba7128e44cc",
+              "lineupId": "9dc5eae5-3772-4e6b-a645-2621b85506e6",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27581,7 +27581,7 @@
             },
             {
               "$id": "79",
-              "lineupId": "8d372edd-e649-407f-baf8-0eb2c310eaef",
+              "lineupId": "1a523c6f-83ba-4eff-9283-ce1b57cd2e72",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27595,7 +27595,7 @@
             },
             {
               "$id": "80",
-              "lineupId": "92ab13a3-cca1-48c3-a2d1-b8e3fab092f5",
+              "lineupId": "a9d36258-beb4-48d6-8a76-21e03c5c8aa5",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -27609,7 +27609,7 @@
             },
             {
               "$id": "81",
-              "lineupId": "3a5f7ea8-93e7-4d92-9f5c-1d1b97759358",
+              "lineupId": "7db52bd8-fb8f-4395-b31a-255a46b56b78",
               "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29033,7 +29033,7 @@
           "$values": [
             {
               "$id": "52",
-              "lineupId": "c53198fc-f7f2-48a7-b177-8fb0eedaee23",
+              "lineupId": "a5f81730-8bcd-4cf9-95cb-595288dfd979",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29047,7 +29047,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "eddb13f8-cff0-486c-b781-4b0f9c7e89ad",
+              "lineupId": "ce62db83-0347-4189-a107-d1abe42bf5ac",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29061,7 +29061,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "728a313d-0eee-47c0-a94d-57d67aea486d",
+              "lineupId": "270f120d-7549-4643-8d98-3a80348720aa",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29075,7 +29075,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "c72606df-a263-4e22-bf9a-d3f9b87b74ac",
+              "lineupId": "df06bec4-c33c-4bb2-8699-6226abaa0c28",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29089,7 +29089,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "d2d2c2a3-e92f-4efa-89b7-9868bca38d02",
+              "lineupId": "7cbc93bd-3ca8-4ac6-9a6d-5e10243a95a9",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29103,7 +29103,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "31664629-69f3-4e31-983d-65e93218f50a",
+              "lineupId": "c1711bca-d046-4029-9e80-c00eac14c64e",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29117,7 +29117,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "5267d708-4232-40a9-a16f-c91e50de985d",
+              "lineupId": "cee3bf6d-f6b3-488c-a6a0-ca4fbf620d19",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29131,7 +29131,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "db09c4a8-7bff-4956-80d3-7dcfa5c7302a",
+              "lineupId": "4cfc71b2-524e-4390-b03c-bfc544fe7754",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29145,7 +29145,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "7ffaea4a-2d35-4ef9-96a7-9fbbe1b87acc",
+              "lineupId": "636ab971-3dcd-46b2-8ee5-3ccf06adaf2d",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29159,7 +29159,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "9a0d1994-b8ce-41e7-82d7-de623fdadec0",
+              "lineupId": "6065ffb1-c807-42cd-8b25-0363ec63c489",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29173,7 +29173,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "e92719da-5e10-4206-81bc-ca6aed6771f9",
+              "lineupId": "8ffdb91e-3564-4bb6-8167-3def5f9dee0a",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29187,7 +29187,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "54af7ed0-418b-4083-b935-19057477edbb",
+              "lineupId": "9f5189b3-7b75-4b45-9f3f-0357a89c7424",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29201,7 +29201,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "942d2a4d-649c-497e-be3c-df2d45683ccd",
+              "lineupId": "2bc9e761-58f7-4c30-bf1e-f363da86f965",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29215,7 +29215,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "a6b5981e-edfb-4eb1-8c0f-f2b3729f11e2",
+              "lineupId": "282a8aea-369d-4445-8096-70cf448204dd",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29229,7 +29229,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "f40118ba-6e74-4af6-88db-9d027f9e1e72",
+              "lineupId": "28d48029-e345-4d53-bc20-568a8c726542",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29243,7 +29243,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "c8c15883-178e-4152-8120-c15a672262c7",
+              "lineupId": "82641a22-ed47-41f7-8fc8-6adfdca6ebaa",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29257,7 +29257,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "eb0c767b-823c-4820-babd-ae17e87bc925",
+              "lineupId": "31b165ed-1259-4e02-ba5b-1596303246b1",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29271,7 +29271,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "d3dd3536-37d8-4cb1-91c7-1b36b3f92e1c",
+              "lineupId": "e4d8728f-f8d1-4d1d-8419-513403dacec5",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29285,7 +29285,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "05f7b08b-7bb6-4425-9859-935d5f2bd9aa",
+              "lineupId": "98301711-a690-4af9-b6b1-5ce5c8d7a244",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29299,7 +29299,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "ae68b323-676c-43ed-857e-c0771e9168dd",
+              "lineupId": "b9e7eb7c-e99c-4747-ad67-beffdd2f8ed6",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29313,7 +29313,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "abc1cab9-5d51-4e3e-a204-6dc34dcb1209",
+              "lineupId": "b93d0318-96fa-4a43-a95b-e6f55734d7cd",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29327,7 +29327,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "a518b11c-5fb8-4f18-b071-51497b99d456",
+              "lineupId": "c1e41e06-7460-4c42-9e62-e2fe4ce5ca91",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29341,7 +29341,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "167eb255-73dd-4ba1-9fc6-dde3d93f084a",
+              "lineupId": "df272ca5-43eb-42bb-a5ee-ed7aad5eacd0",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29355,7 +29355,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "32abe9bf-5c4d-438c-96cf-2701d0829cdb",
+              "lineupId": "0cc8f202-9db3-4352-85b5-4e06b43673af",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29369,7 +29369,7 @@
             },
             {
               "$id": "76",
-              "lineupId": "6ff0138b-912c-4b47-953a-aa8ed06ef458",
+              "lineupId": "c1d35d66-3dc3-436f-8a40-d5613b05a882",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29383,7 +29383,7 @@
             },
             {
               "$id": "77",
-              "lineupId": "143d0108-edb7-4a83-b0bc-50b195c26687",
+              "lineupId": "f240ac64-9f97-4a32-a5a7-ea90560d6739",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29397,7 +29397,7 @@
             },
             {
               "$id": "78",
-              "lineupId": "041cc2c6-b176-4cd0-962b-9de6eeef175f",
+              "lineupId": "c1b48bd2-c024-46d6-97b4-1767572eb8ee",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29411,7 +29411,7 @@
             },
             {
               "$id": "79",
-              "lineupId": "d11ec082-f9bd-4615-b2bb-2b4f6a7d5383",
+              "lineupId": "e4277529-415f-474a-aef4-cea9c93d1d90",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29425,7 +29425,7 @@
             },
             {
               "$id": "80",
-              "lineupId": "60ecacdc-4a2d-4930-94a0-55c7003ee67d",
+              "lineupId": "8c1eca50-0223-4cc0-b76c-5dfb1b060e91",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29439,7 +29439,7 @@
             },
             {
               "$id": "81",
-              "lineupId": "e7d966b5-b4fe-49f7-9621-0aa160b87310",
+              "lineupId": "f789e5f7-6263-4857-80b9-c37492324b22",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29453,7 +29453,7 @@
             },
             {
               "$id": "82",
-              "lineupId": "734c917f-4004-470a-8a87-c4f4d2be3cab",
+              "lineupId": "d9af4374-e029-4490-82b3-e264410ba465",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29467,7 +29467,7 @@
             },
             {
               "$id": "83",
-              "lineupId": "6f1658e3-8a77-42f9-913d-0405eb557087",
+              "lineupId": "11746c60-e97c-42ae-8bf4-98444d44b3b5",
               "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -29518,7 +29518,30 @@
           "clutchWins": 0
         }
       },
-      "playerPositions": null
+      "playerPositions": {
+        "$id": "87",
+        "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
+        "homeMalePlayer1": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
+        "homeMalePlayer2": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
+        "homeMalePlayer3": "a861a127-253c-4cb2-a1d6-93a37558b93a",
+        "homeMalePlayer4": "463e1402-cc46-4152-9012-c4308a6dd9b4",
+        "homeMalePlayer5": "812b9580-5a00-44a9-a5ed-5d1046755718",
+        "homeFemalePlayer1": "8decf039-f1e5-4182-b3cf-6756789ae87a",
+        "homeFemalePlayer2": "f64b8044-4d67-413e-8d34-c1b9de570fcb",
+        "homeFemalePlayer3": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
+        "homeFemalePlayer4": "fda50f9c-6e7b-42de-a8fd-f7140995bd49",
+        "homeFemalePlayer5": "709c44fc-b254-4998-b6be-bd7461aee908",
+        "awayMalePlayer1": null,
+        "awayMalePlayer2": null,
+        "awayMalePlayer3": null,
+        "awayMalePlayer4": null,
+        "awayMalePlayer5": null,
+        "awayFemalePlayer1": null,
+        "awayFemalePlayer2": null,
+        "awayFemalePlayer3": null,
+        "awayFemalePlayer4": null,
+        "awayFemalePlayer5": null
+      }
     }
   },
   {
@@ -30451,7 +30474,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 62
+            "ranking": 61
           },
           {
             "$id": "37",
@@ -30825,7 +30848,7 @@
           "$values": [
             {
               "$id": "50",
-              "lineupId": "f87bfcd7-8857-451f-a992-b80d3cd99147",
+              "lineupId": "a8690e96-e421-4ba9-8e65-28cb60adc9bc",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30839,7 +30862,7 @@
             },
             {
               "$id": "51",
-              "lineupId": "16ee1090-dc7d-4611-b2c4-b2c621866e02",
+              "lineupId": "70a35d49-fc86-4142-ae8d-4f61b5a46728",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30853,7 +30876,7 @@
             },
             {
               "$id": "52",
-              "lineupId": "f1a9ed51-3d75-44ab-a844-635fd4c52a4d",
+              "lineupId": "8bb3bda0-4076-4708-9b71-46befbae872d",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30867,7 +30890,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "f3f0766d-8a9a-42e0-87e1-2b16e1ed602c",
+              "lineupId": "bf43f3d1-e282-41b4-9048-bd0947fbbaf4",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30881,7 +30904,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "7e86e4ca-e9d3-4fa7-a0a4-63b0a12f271b",
+              "lineupId": "f450e40e-f210-44d5-9ac3-5bd65afe1e1d",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30895,7 +30918,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "ac28aabf-9bb1-4810-bafb-094ad2f7e10c",
+              "lineupId": "1ddc2362-3204-4071-8347-c3657d2339ea",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30909,7 +30932,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "f87d3f80-d693-4b91-9681-a39054102f0a",
+              "lineupId": "368d67aa-f977-4a40-a734-a18b69b390ca",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30923,7 +30946,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "e94bcd9f-4856-45ed-867c-b7c3e445e86e",
+              "lineupId": "5f7e8c7e-fc15-4cea-8ac0-fc47fbfbd0e9",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30937,7 +30960,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "f231b59f-992c-4e95-a103-48093152f643",
+              "lineupId": "064bd442-9b84-474d-ac1b-9cea25744c86",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30951,7 +30974,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "67bac56d-2ebd-4434-a1b3-b2b4507e18ef",
+              "lineupId": "6eac818f-771d-4c30-92ae-f44c9b3699fe",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30965,7 +30988,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "9b41d985-f944-4761-9fb3-6f0ffda843af",
+              "lineupId": "b538e60c-e896-472a-9326-77bdc5949ec0",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30979,7 +31002,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "e71dbe22-b855-491d-9320-6109173b739e",
+              "lineupId": "a4f668d1-596b-4a35-a7fe-0eab5083e57c",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -30993,7 +31016,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "aea9a591-a7cb-454a-b561-f0bf2503649f",
+              "lineupId": "5aa04e47-b4f3-4326-8d3c-08730cb6249e",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31007,7 +31030,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "f670c327-0f35-4eed-b136-92d19c042fb7",
+              "lineupId": "0471c86c-749c-4807-8190-2e5d0655c76b",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31021,7 +31044,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "51e92055-140d-4693-b6f4-b80060d310be",
+              "lineupId": "9f6aeb12-e6d4-4fbd-8563-8da5ccb8a381",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31035,7 +31058,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "aad6ccc5-021f-4df4-b101-819b15fc3303",
+              "lineupId": "ee30d882-a78d-4b63-8d83-43877974e0c8",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31049,7 +31072,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "1f580b22-152c-48c6-9e7f-b8553a528194",
+              "lineupId": "9e31f9e9-1d6c-46d5-ba92-4d31f5b9d4e1",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31063,7 +31086,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "3fe7f381-e252-46a9-a7ba-132677f553ce",
+              "lineupId": "5b7b59c5-0bdb-48e9-8ae3-1f21a22f6f65",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31077,7 +31100,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "c73f6a36-0af1-4324-b6ea-cf9590d29b86",
+              "lineupId": "26036776-04f9-4e1f-830d-fab8179852fd",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31091,7 +31114,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "edf778dc-bfab-4b11-a88f-b89534ec7903",
+              "lineupId": "61c5e2ca-2a9f-4b14-b718-03ca3b1ba5c5",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31105,7 +31128,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "ed65ef95-12c3-4aac-ae82-09419412ba02",
+              "lineupId": "def44642-ff29-413a-bd7d-00bb47c53b71",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31119,7 +31142,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "c86d3164-8b5f-4c79-92af-2397a0e4dc03",
+              "lineupId": "ac0814ba-c4a5-4990-b9d5-ce86788a6824",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31133,7 +31156,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "16f6f044-ac63-42c3-a0cf-ef907eab3208",
+              "lineupId": "adc1591b-b820-4cbb-a550-9ad6050ca2d8",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31147,7 +31170,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "4016f94d-e1e5-4dcc-a951-137c6253252f",
+              "lineupId": "fea34d3e-e4f7-4166-b190-4a1887978d00",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31161,7 +31184,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "04ea9102-e05a-4e4d-b0ea-f285d20004d8",
+              "lineupId": "736c0cc8-3cb1-482d-a085-366d8561084f",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31175,7 +31198,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "7644cbe8-cde0-43a7-bd18-0d0b7f7ca599",
+              "lineupId": "ff1ecac6-216e-4abb-978f-a85a6caea851",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31189,7 +31212,7 @@
             },
             {
               "$id": "76",
-              "lineupId": "aa23c761-1fbb-4656-b776-5bbd7290c0e4",
+              "lineupId": "01e730ff-de32-473b-8289-a931ddac0f87",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31203,7 +31226,7 @@
             },
             {
               "$id": "77",
-              "lineupId": "0f554ed4-fb0a-48ce-a5e1-10924270cac5",
+              "lineupId": "3cdef01c-3f3e-40fb-839d-0c210b38f01d",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31217,7 +31240,7 @@
             },
             {
               "$id": "78",
-              "lineupId": "f1c9bc5f-c390-46a3-b89e-9286bd4fe145",
+              "lineupId": "9ae8a84e-6361-4e80-ae38-e0492227640e",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31231,7 +31254,7 @@
             },
             {
               "$id": "79",
-              "lineupId": "dda6a19b-3c73-4fab-80e0-8138575ec715",
+              "lineupId": "da0b8a24-9c5a-464f-bdb0-b7871ed5b103",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31245,7 +31268,7 @@
             },
             {
               "$id": "80",
-              "lineupId": "3dffecf2-771d-47fa-8189-946bc948584d",
+              "lineupId": "329b668e-c75f-4be5-8091-bccc1e92da48",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -31259,7 +31282,7 @@
             },
             {
               "$id": "81",
-              "lineupId": "7e806dfc-8158-4f72-b293-0fb70ad3f6b6",
+              "lineupId": "6d5a036c-1bbb-4a8f-b060-d187266fa8f6",
               "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32507,7 +32530,7 @@
             "genderWins": 0,
             "genderLosses": 0,
             "strengthOfOpponent": 0,
-            "ranking": 61
+            "ranking": 62
           },
           {
             "$id": "45",
@@ -32683,7 +32706,7 @@
           "$values": [
             {
               "$id": "52",
-              "lineupId": "45570c08-e938-4768-9291-c1a42a212e56",
+              "lineupId": "28fb0f0d-4a41-486b-ab8f-2f23bf69a09c",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32697,7 +32720,7 @@
             },
             {
               "$id": "53",
-              "lineupId": "04536376-8ed7-405e-b4a4-32cb5387a17e",
+              "lineupId": "db8fd19d-3eea-42dd-b5ca-aec30fe21802",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32711,7 +32734,7 @@
             },
             {
               "$id": "54",
-              "lineupId": "51fe1161-5786-438b-a419-14bdfbce3af8",
+              "lineupId": "529f6dc7-a361-42e7-a00b-17a0fba86b18",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32725,7 +32748,7 @@
             },
             {
               "$id": "55",
-              "lineupId": "7b2996da-ada9-4e89-9672-1ec4d3b4f97f",
+              "lineupId": "a3f70ef5-f10d-4459-8aaa-45d596f05cea",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32739,7 +32762,7 @@
             },
             {
               "$id": "56",
-              "lineupId": "c59691fa-d55c-4d7e-a608-17ca7bf51b51",
+              "lineupId": "aaddbd66-8da9-4e54-99ff-34aadaeceb47",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32753,7 +32776,7 @@
             },
             {
               "$id": "57",
-              "lineupId": "e2ad9fc2-7c8d-42c9-8fa0-fc62b222f2f7",
+              "lineupId": "83c88afa-56e2-429f-ad14-ad40ab20ede7",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32767,7 +32790,7 @@
             },
             {
               "$id": "58",
-              "lineupId": "1dc74a93-45d5-4d7f-9a28-3a79ab376284",
+              "lineupId": "db49bf82-f17c-48dd-99c8-24553e6f01a5",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32781,7 +32804,7 @@
             },
             {
               "$id": "59",
-              "lineupId": "031be1ca-cb95-4015-a23b-c985c0943492",
+              "lineupId": "4879e248-c9f0-4a5a-b3d6-bd18d46a5db9",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32795,7 +32818,7 @@
             },
             {
               "$id": "60",
-              "lineupId": "25f1793d-a022-44f1-9bd4-279af6097282",
+              "lineupId": "b93a6916-404d-4943-a6f1-939d6f06742b",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32809,7 +32832,7 @@
             },
             {
               "$id": "61",
-              "lineupId": "be8e0eb1-4113-45c1-8d71-0d61754d728a",
+              "lineupId": "c321090e-06ff-47ed-b221-8456e81869e6",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32823,7 +32846,7 @@
             },
             {
               "$id": "62",
-              "lineupId": "cae1dabc-6ce6-470c-807c-cce764eaf377",
+              "lineupId": "ecb530c8-003e-4e37-9aef-3443332619c3",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32837,7 +32860,7 @@
             },
             {
               "$id": "63",
-              "lineupId": "9d3bd2c5-e8c6-416a-9a81-e4dcab3162e4",
+              "lineupId": "a9fdb75f-1214-46d2-b666-6f1ecff8543e",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32851,7 +32874,7 @@
             },
             {
               "$id": "64",
-              "lineupId": "436f98dc-25dc-4021-a7b2-70abb4c281e0",
+              "lineupId": "870b4edb-fb99-48b8-8359-e2c56e01f0ac",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32865,7 +32888,7 @@
             },
             {
               "$id": "65",
-              "lineupId": "d2d93145-a7ae-493f-b84a-ceda45fe8fd9",
+              "lineupId": "e46d59c5-907e-4d70-95c7-bff4eef99cfb",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32879,7 +32902,7 @@
             },
             {
               "$id": "66",
-              "lineupId": "7dbc662f-b08f-494c-9b26-2b38f464a5a7",
+              "lineupId": "f23b3e46-5cd9-457f-9102-f4a21afae472",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32893,7 +32916,7 @@
             },
             {
               "$id": "67",
-              "lineupId": "54265a7f-f54b-486d-9056-11e3f8e4b1c1",
+              "lineupId": "3e3eac99-c159-4788-8ea2-8d30d2268d64",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32907,7 +32930,7 @@
             },
             {
               "$id": "68",
-              "lineupId": "995f5e87-e40d-47e2-a78b-15487fa26c42",
+              "lineupId": "b14b9a7f-cbbb-4447-b5be-d90c45e05ccc",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32921,7 +32944,7 @@
             },
             {
               "$id": "69",
-              "lineupId": "cc5708ec-4665-40bb-ac1d-a664333e184b",
+              "lineupId": "bb9938f0-3fd2-4c40-8f37-c0b828117c68",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32935,7 +32958,7 @@
             },
             {
               "$id": "70",
-              "lineupId": "7a2960d7-a8fa-4ac4-8160-ee55634f5692",
+              "lineupId": "fa55c06d-c21f-4b7a-b35c-bd554b3be616",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32949,7 +32972,7 @@
             },
             {
               "$id": "71",
-              "lineupId": "0a618692-7217-4e45-9a10-a582aaba4196",
+              "lineupId": "447b5919-ac0b-455e-9dce-90f6e5e654dc",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32963,7 +32986,7 @@
             },
             {
               "$id": "72",
-              "lineupId": "e9780ff5-4cfe-41e3-b570-3909dc7b240e",
+              "lineupId": "1b975b21-f811-4d23-9238-564798f1aac3",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32977,7 +33000,7 @@
             },
             {
               "$id": "73",
-              "lineupId": "639e318e-cb7f-4c87-96f9-c8fe9b4e2b16",
+              "lineupId": "49afa1e0-f6ac-4ba5-ad54-ce5f9b7fbd05",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -32991,7 +33014,7 @@
             },
             {
               "$id": "74",
-              "lineupId": "2b1501ef-4f87-47f3-b33d-55d5297d24db",
+              "lineupId": "696c6833-1edb-40e1-a3d1-894ddf4ab8fc",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33005,7 +33028,7 @@
             },
             {
               "$id": "75",
-              "lineupId": "4eb3b413-ead4-4a51-947b-87a09c3f5115",
+              "lineupId": "e920a9fe-76e2-44fb-b223-f2a720d5ad43",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33019,7 +33042,7 @@
             },
             {
               "$id": "76",
-              "lineupId": "36f5ac55-e7c9-43b5-9ce8-14546014f75f",
+              "lineupId": "6befce58-7059-48e2-9c2b-fba9ad4f251a",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33033,7 +33056,7 @@
             },
             {
               "$id": "77",
-              "lineupId": "93ddfc76-b53a-4baf-aa91-ac7a571fe9fb",
+              "lineupId": "22e260eb-3dd4-4c3d-a1e6-3d5dc96b0fde",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33047,7 +33070,7 @@
             },
             {
               "$id": "78",
-              "lineupId": "0e89040c-0b26-4aca-894a-17630fa6a8c7",
+              "lineupId": "91a421d3-4436-44c6-9686-255986a334ea",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33061,7 +33084,7 @@
             },
             {
               "$id": "79",
-              "lineupId": "f0de3c09-2733-478e-ac15-2d71fa4fd4fc",
+              "lineupId": "bb639aec-3786-4bba-9e85-c8597f6e701e",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33075,7 +33098,7 @@
             },
             {
               "$id": "80",
-              "lineupId": "ee9ea72d-cf6f-4ef8-bc39-99e33704d0d1",
+              "lineupId": "2712753e-b9ee-40e9-bef8-60a6ea0621a1",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33089,7 +33112,7 @@
             },
             {
               "$id": "81",
-              "lineupId": "ff452a28-f4f0-458b-ae3e-69ad3b50be5f",
+              "lineupId": "07c1d925-4399-44fa-ab73-74c7795d3e8f",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33103,7 +33126,7 @@
             },
             {
               "$id": "82",
-              "lineupId": "bf485765-96ae-4d36-8fd1-1bf302f0e91f",
+              "lineupId": "53115334-fcbf-40ef-a2b5-597c141ca7cd",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
@@ -33117,7 +33140,7 @@
             },
             {
               "$id": "83",
-              "lineupId": "fdb1f126-e0b2-496a-aa34-da77c06887c9",
+              "lineupId": "6b943d5d-5484-428c-b519-63c53e18a9a8",
               "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
               "homePlayerId1": null,
               "homePlayerId2": null,
