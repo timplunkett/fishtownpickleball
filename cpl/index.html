@@ -131,15 +131,23 @@
     font-weight: 700;
     margin-bottom: .45rem;
   }
-  .player-result-entries { display: flex; flex-direction: column; gap: .3rem; }
+  .player-result-entries { display: flex; flex-direction: column; }
   .player-result-entry {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: .5rem;
     font-size: .8rem;
-    color: var(--mut);
+    color: var(--txt);
     flex-wrap: wrap;
+    text-decoration: none;
+    padding: .6rem .5rem;
+    border-radius: 6px;
+    transition: background .12s;
+    margin: 0 -.5rem;
   }
+  .player-result-entry:hover,
+  .player-result-entry:focus-visible { background: rgb(255 255 255 / 5%); text-decoration: none; }
+  .player-result-entry:active { background: rgb(255 255 255 / 9%); }
   .league-badge {
     font-size: .65rem;
     font-weight: 700;
@@ -151,12 +159,7 @@
   }
   .league-badge.local { background: rgb(29 178 220 / 15%); color: var(--accent); }
   .league-badge.travel { background: rgb(25 211 154 / 15%); color: #19d39a; }
-  .player-result-entry a {
-    color: var(--txt);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .player-result-entry a:hover { text-decoration: underline; color: var(--accent); }
+  .player-result-entry .division-name { font-weight: 600; }
   .player-result-entry .team-name { color: var(--mut); }
 
   .finder-hint { font-size: .78rem; color: var(--mut); font-style: italic; text-align: center; }
@@ -283,8 +286,12 @@
     return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
   }
 
-  function divisionUrl(entry) {
-    return entry.league + '/?d=' + encodeURIComponent(entry.slug);
+  function slugify(name) {
+    return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function divisionUrl(entry, playerName) {
+    return entry.league + '/?d=' + encodeURIComponent(entry.slug) + '#player/' + slugify(playerName);
   }
 
   function renderResults(query) {
@@ -326,11 +333,11 @@
         if (e.club) locationParts.push(escapeHtml(e.club));
         locationParts.push(escapeHtml(e.division));
         var locationText = locationParts.join(' \u2014 ');
-        return '<div class="player-result-entry" role="listitem">' +
+        return '<a class="player-result-entry" href="' + escapeHtml(divisionUrl(e, name)) + '" role="listitem">' +
           '<span class="league-badge ' + badgeClass + '">' + badgeLabel + '</span>' +
-          '<a href="' + escapeHtml(divisionUrl(e)) + '">' + locationText + '</a>' +
+          '<span class="division-name">' + locationText + '</span>' +
           '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
-          '</div>';
+          '</a>';
       }).join('');
       return '<div class="player-result">' +
         '<div class="player-result-name">' + escapeHtml(name) + '</div>' +
