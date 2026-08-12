@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto');
 
 const API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
 const CLUBS_URL = `${API_BASE}/clubs`;
@@ -14,27 +13,12 @@ function normalizeClubName(clubName) {
   return (clubName || '').replaceAll(' Pickleball Club', '');
 }
 
-function stableLineupId(matchupId, lineup) {
-  const key = [
-    matchupId || '',
-    lineup.gameNumber ?? '',
-    lineup.matchType || '',
-    lineup.homePlayerId1 || '',
-    lineup.homePlayerId2 || '',
-    lineup.awayPlayerId1 || '',
-    lineup.awayPlayerId2 || '',
-  ].join('|');
-  const hex = crypto.createHash('sha1').update(key).digest('hex').slice(0, 32);
-  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
-}
-
 function normalizeVolatileLineupIds(detailData) {
   const lineups = detailData?.lineups?.lineups?.$values;
   if (!Array.isArray(lineups)) return detailData;
-  const matchupId = detailData?.matchup?.matchupId;
   for (const lineup of lineups) {
     if (!lineup) continue;
-    lineup.lineupId = stableLineupId(matchupId || lineup.matchupId, lineup);
+    delete lineup.lineupId;
   }
   return detailData;
 }
