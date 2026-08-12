@@ -23,7 +23,7 @@ const MATCHUP_KEEP = new Set([
 const PLAYER_KEEP = new Set([
   'playerId', 'firstName', 'lastName', 'gender', 'isCaptain', 'isSub', 'teamId', 'teamName',
   'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
-  'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
+  'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking', 'dupr',
 ]);
 
 const MATCHUP_DETAIL_MATCHUP_KEEP = new Set([
@@ -236,7 +236,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
 
       // Preserve any duprRating values from global_players.json (written by the DUPR workflow).
       const slimmed = slimPlayers(players);
-      const globalPlayersFile = path.join(dataDir, 'global_players.json');
+      const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
       if (fs.existsSync(globalPlayersFile)) {
         const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'));
         const duprMap = {};

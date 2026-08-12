@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 // --- Configuration ---
-const DATA_LOCAL_DIR = path.join(__dirname, 'data-local');
-const GLOBAL_PLAYERS_FILE = path.join(DATA_LOCAL_DIR, 'global_players.json');
-const DIVISIONS_FILE = path.join(DATA_LOCAL_DIR, 'divisions.json');
+const DATA_DIR = path.join(__dirname, 'data');
+const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
+const DIVISIONS_FILE = path.join(__dirname, 'data-local', 'divisions.json');
 const BATCH_SIZE = 5;       // Number of concurrent API requests per batch
 const BATCH_DELAY_MS = 300; // Delay in milliseconds between batches to prevent rate limits
 
@@ -88,7 +88,7 @@ function buildGlobalPlayers() {
   const globalPlayers = [];
 
   for (const div of divisions) {
-    const playersFile = path.join(DATA_LOCAL_DIR, div.slug, 'players.json');
+    const playersFile = path.join(__dirname, 'data-local', div.slug, 'players.json');
     if (!fs.existsSync(playersFile)) continue;
 
     const raw = JSON.parse(fs.readFileSync(playersFile, 'utf-8'));
