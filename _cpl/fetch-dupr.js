@@ -61,46 +61,14 @@ async function fetchDuprRating(duprId) {
 }
 
 /**
- * Reads all players from data-local/players.json and builds a deduplicated global player list.
- * Only identity + DUPR fields are kept; division-specific stats are not stored here.
- * Any existing duprRating values in global_players.json are preserved.
+ * Reads global_players.json (built by fetcher.js) and returns the player list.
+ * Any existing duprRating values are preserved.
  */
 function buildGlobalPlayers() {
-  const allPlayersFile = path.join(__dirname, 'data-local', 'players.json');
-  if (!fs.existsSync(allPlayersFile)) {
-    throw new Error(`players.json not found at ${allPlayersFile} — run the fetcher first.`);
+  if (!fs.existsSync(GLOBAL_PLAYERS_FILE)) {
+    throw new Error(`global_players.json not found at ${GLOBAL_PLAYERS_FILE} — run the fetcher first.`);
   }
-
-  const raw = JSON.parse(fs.readFileSync(allPlayersFile, 'utf-8'));
-  const allPlayers = raw.$values || [];
-
-  // Load any previously-fetched ratings from the existing global file.
-  const existingRatings = {};
-  if (fs.existsSync(GLOBAL_PLAYERS_FILE)) {
-    const existing = JSON.parse(fs.readFileSync(GLOBAL_PLAYERS_FILE, 'utf-8'));
-    for (const p of existing) {
-      if (p.playerId && p.duprRating != null) {
-        existingRatings[p.playerId] = p.duprRating;
-      }
-    }
-  }
-
-  const seen = new Set();
-  const globalPlayers = [];
-
-  for (const p of allPlayers) {
-    if (!p.playerId || seen.has(p.playerId)) continue;
-    seen.add(p.playerId);
-    globalPlayers.push({
-      playerId: p.playerId,
-      firstName: p.firstName,
-      lastName: p.lastName,
-      dupr: p.dupr || null,
-      duprRating: existingRatings[p.playerId] ?? null,
-    });
-  }
-
-  return globalPlayers;
+  return JSON.parse(fs.readFileSync(GLOBAL_PLAYERS_FILE, 'utf-8'));
 }
 
 async function run() {

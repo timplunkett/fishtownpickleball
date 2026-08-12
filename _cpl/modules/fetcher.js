@@ -270,10 +270,39 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
     }
   }
 
-  // Write a flat players.json with all players (including dupr) for use by the DUPR workflow.
-  if (league === 'local' && allPlayersFlat.length > 0) {
-    fs.writeFileSync(path.join(dataDir, 'players.json'), JSON.stringify({ $values: allPlayersFlat }, null, 2));
-    console.log(`\n✓ data-local/players.json written (${allPlayersFlat.length} players).`);
+  // Merge new players into global_players.json non-destructively.
+  // Existing entries (from other leagues or prior runs) and duprRating values are preserved.
+  if (allPlayersFlat.length > 0) {
+    const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
+    const existing = fs.existsSync(globalPlayersFile)
+      ? JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'))
+      : [];
+    const existingMap = {};
+    for (const p of existing) {
+      if (p.playerId) existingMap[p.playerId] = p;
+    }
+    for (const p of allPlayersFlat) {
+      if (!p.playerId) continue;
+      if (existingMap[p.playerId]) {
+        // Update identity + dupr fields but preserve any fetched duprRating.
+        existingMap[p.playerId].firstName = p.firstName;
+        existingMap[p.playerId].lastName = p.lastName;
+        existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
+      } else {
+        existingMap[p.playerId] = {
+          playerId: p.playerId,
+          firstName: p.firstName,
+          lastName: p.lastName,
+          dupr: p.dupr || null,
+          duprRating: null,
+        };
+      }
+    }
+    const merged = Object.values(existingMap);
+    const globalDataDir = path.join(__dirname, '..', 'data');
+    if (!fs.existsSync(globalDataDir)) fs.mkdirSync(globalDataDir, { recursive: true });
+    fs.writeFileSync(globalPlayersFile, JSON.stringify(merged, null, 2));
+    console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
   console.log('\n✓ Phase 1 complete.');
