@@ -1,0 +1,31 @@
+name: Update DUPR Ratings
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-dupr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch DUPR Ratings
+        run: node _cpl/fetch-dupr.js
+        env:
+          DUPR_ACCESS_TOKEN: ${{ secrets.DUPR_ACCESS_TOKEN }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add _cpl/data/players.json
+          git diff-index --quiet HEAD || (git commit -m "bot(DUPR): Update player DUPR ratings" && git push)
