@@ -13,6 +13,16 @@ function normalizeClubName(clubName) {
   return (clubName || '').replaceAll(' Pickleball Club', '');
 }
 
+function normalizeVolatileLineupIds(detailData) {
+  const lineups = detailData?.lineups?.lineups?.$values;
+  if (!Array.isArray(lineups)) return detailData;
+  for (const lineup of lineups) {
+    if (!lineup) continue;
+    delete lineup.lineupId;
+  }
+  return detailData;
+}
+
 async function fetchDivisionData(divisionId) {
   const divBase = `${API_BASE}/divisions/${divisionId}`;
   const [matchupsRes, playersRes] = await Promise.all([
@@ -32,7 +42,7 @@ async function fetchDivisionData(divisionId) {
       try {
         const detailRes = await fetch(`${divBase}/matchups/${matchup.matchupId}`);
         const detailData = await detailRes.json();
-        return { matchupId: matchup.matchupId, details: detailData };
+        return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
       } catch (err) {
         console.error(`⚠️ Failed fetching matchup ${matchup.matchupId}:`, err.message);
         return { matchupId: matchup.matchupId, details: null };
