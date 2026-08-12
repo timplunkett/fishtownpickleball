@@ -328,7 +328,7 @@
       var entries = byName[name];
       var entriesHtml = entries.map(function (e) {
         var badgeClass = e.league === 'travel' ? 'travel' : 'local';
-        var badgeLabel = e.league === 'travel' ? 'CCL' : 'Local';
+        var badgeLabel = e.league === 'travel' ? 'CPL' : 'Local';
         var locationParts = [];
         if (e.club) locationParts.push(escapeHtml(e.club));
         locationParts.push(escapeHtml(e.division));
