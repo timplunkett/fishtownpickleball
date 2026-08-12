@@ -21,7 +21,7 @@ const MATCHUP_KEEP = new Set([
 ]);
 
 const PLAYER_KEEP = new Set([
-  'playerId', 'firstName', 'lastName', 'gender', 'isCaptain', 'isSub', 'teamId', 'teamName',
+  'playerId', 'firstName', 'lastName', 'gender', 'dupr', 'duprRating', 'isCaptain', 'isSub', 'teamId', 'teamName',
   'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
   'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
 ]);
@@ -220,6 +220,8 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
 
   // Fetch data for each division.
   const divisionsToFetch = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
+  const allPlayersFlat = [];
+  const seenPlayerIds = new Set();
   for (const div of divisionsToFetch) {
     const label = div.clubName ? `${div.clubName} / ` : '';
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
@@ -233,13 +235,74 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
       fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(slimMatchups(matchupsRaw), null, 2));
-      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimPlayers(players), null, 2));
+
+      // Preserve any duprRating values from global_players.json (written by the DUPR workflow).
+      const slimmed = slimPlayers(players);
+      const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
+      if (fs.existsSync(globalPlayersFile)) {
+        const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'));
+        const duprMap = {};
+        for (const p of globalPlayers) {
+          if (p.playerId && p.duprRating != null) duprMap[p.playerId] = p.duprRating;
+        }
+        for (const p of (slimmed.$values || [])) {
+          p.duprRating = duprMap[p.playerId] ?? null;
+        }
+      } else {
+        for (const p of (slimmed.$values || [])) {
+          p.duprRating = null;
+        }
+      }
+      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimmed, null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
+
+      // Accumulate unique players for the flat players.json (used by the DUPR workflow).
+      for (const p of (players.$values || [])) {
+        if (p.playerId && !seenPlayerIds.has(p.playerId)) {
+          seenPlayerIds.add(p.playerId);
+          allPlayersFlat.push(p);
+        }
+      }
 
       console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
     }
+  }
+
+  // Merge new players into global_players.json non-destructively.
+  // Existing entries (from other leagues or prior runs) and duprRating values are preserved.
+  if (allPlayersFlat.length > 0) {
+    const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
+    const existing = fs.existsSync(globalPlayersFile)
+      ? JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'))
+      : [];
+    const existingMap = {};
+    for (const p of existing) {
+      if (p.playerId) existingMap[p.playerId] = p;
+    }
+    for (const p of allPlayersFlat) {
+      if (!p.playerId) continue;
+      if (existingMap[p.playerId]) {
+        // Update identity + dupr fields but preserve any fetched duprRating.
+        existingMap[p.playerId].firstName = p.firstName;
+        existingMap[p.playerId].lastName = p.lastName;
+        existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
+      } else {
+        existingMap[p.playerId] = {
+          playerId: p.playerId,
+          firstName: p.firstName,
+          lastName: p.lastName,
+          dupr: p.dupr || null,
+          duprRating: null,
+        };
+      }
+    }
+    const merged = Object.values(existingMap);
+    const globalDataDir = path.join(__dirname, '..', 'data');
+    if (!fs.existsSync(globalDataDir)) fs.mkdirSync(globalDataDir, { recursive: true });
+    fs.writeFileSync(globalPlayersFile, JSON.stringify(merged, null, 2));
+    console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
   console.log('\n✓ Phase 1 complete.');
