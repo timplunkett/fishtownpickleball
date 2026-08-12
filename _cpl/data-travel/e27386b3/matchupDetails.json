@@ -1,0 +1,1938 @@
+[
+  {
+    "matchupId": "a9090ce6-3786-4107-bf33-2ffe3daf2fdc",
+    "details": {
+      "matchup": {
+        "matchupId": "a9090ce6-3786-4107-bf33-2ffe3daf2fdc",
+        "weekNumber": 1,
+        "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Lehigh Valley",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "59386167-7230-44ae-879c-84c982b1e926",
+    "details": {
+      "matchup": {
+        "matchupId": "59386167-7230-44ae-879c-84c982b1e926",
+        "weekNumber": 1,
+        "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball HQ",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "12f5b6dd-c9dd-471d-8f62-054267114f06",
+    "details": {
+      "matchup": {
+        "matchupId": "12f5b6dd-c9dd-471d-8f62-054267114f06",
+        "weekNumber": 1,
+        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Monroe",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "d1a64519-db9a-40b0-9767-230ff673ec3f",
+    "details": {
+      "matchup": {
+        "matchupId": "d1a64519-db9a-40b0-9767-230ff673ec3f",
+        "weekNumber": 1,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "PickleRage Union County Net Ninjas"
+      }
+    }
+  },
+  {
+    "matchupId": "468ab374-b45a-409e-a943-440a8ef3f636",
+    "details": {
+      "matchup": {
+        "matchupId": "468ab374-b45a-409e-a943-440a8ef3f636",
+        "weekNumber": 1,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Pickle Juice Blackwood"
+      }
+    }
+  },
+  {
+    "matchupId": "4388e975-81ac-4af1-8c11-5b9ffec82b33",
+    "details": {
+      "matchup": {
+        "matchupId": "4388e975-81ac-4af1-8c11-5b9ffec82b33",
+        "weekNumber": 1,
+        "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle House",
+        "awayName": "Flemington"
+      }
+    }
+  },
+  {
+    "matchupId": "ada546b9-0c65-4d28-9dd0-642f51aeeef6",
+    "details": {
+      "matchup": {
+        "matchupId": "ada546b9-0c65-4d28-9dd0-642f51aeeef6",
+        "weekNumber": 1,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "Players Courtyard"
+      }
+    }
+  },
+  {
+    "matchupId": "8be6fc34-9844-4fdf-b129-a5c54ca26ae3",
+    "details": {
+      "matchup": {
+        "matchupId": "8be6fc34-9844-4fdf-b129-a5c54ca26ae3",
+        "weekNumber": 1,
+        "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Pandas",
+        "awayName": "Pickleball Kingdom Hillsborough"
+      }
+    }
+  },
+  {
+    "matchupId": "8a39b349-8354-4ee8-b74c-b269cdd40d7e",
+    "details": {
+      "matchup": {
+        "matchupId": "8a39b349-8354-4ee8-b74c-b269cdd40d7e",
+        "weekNumber": 1,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "b348eb5f-c3fc-4056-8717-d4a2466bf7c7",
+    "details": {
+      "matchup": {
+        "matchupId": "b348eb5f-c3fc-4056-8717-d4a2466bf7c7",
+        "weekNumber": 1,
+        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Dill Dinkers Hatboro",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "0435c542-f6ec-4331-884b-8c5876873f15",
+    "details": {
+      "matchup": {
+        "matchupId": "0435c542-f6ec-4331-884b-8c5876873f15",
+        "weekNumber": 2,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "PickleRage Union County Net Ninjas"
+      }
+    }
+  },
+  {
+    "matchupId": "c38afa52-6b71-46b2-8517-020e34ad028e",
+    "details": {
+      "matchup": {
+        "matchupId": "c38afa52-6b71-46b2-8517-020e34ad028e",
+        "weekNumber": 2,
+        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Monroe",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "9b8d6db4-d8ad-43b0-b044-0b992dfb4679",
+    "details": {
+      "matchup": {
+        "matchupId": "9b8d6db4-d8ad-43b0-b044-0b992dfb4679",
+        "weekNumber": 2,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "Bounce Tempest"
+      }
+    }
+  },
+  {
+    "matchupId": "1fad5a6f-9a6b-4663-89a2-5d06e35e5b26",
+    "details": {
+      "matchup": {
+        "matchupId": "1fad5a6f-9a6b-4663-89a2-5d06e35e5b26",
+        "weekNumber": 2,
+        "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hamilton",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "b7cac740-4574-4c54-b926-6d69d7abe509",
+    "details": {
+      "matchup": {
+        "matchupId": "b7cac740-4574-4c54-b926-6d69d7abe509",
+        "weekNumber": 2,
+        "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Pandas",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "36699606-ce52-4890-bb94-8bb2fea443a4",
+    "details": {
+      "matchup": {
+        "matchupId": "36699606-ce52-4890-bb94-8bb2fea443a4",
+        "weekNumber": 2,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "Open Play"
+      }
+    }
+  },
+  {
+    "matchupId": "fd942f52-de8e-4fa8-b4cd-b15ea9f6bbee",
+    "details": {
+      "matchup": {
+        "matchupId": "fd942f52-de8e-4fa8-b4cd-b15ea9f6bbee",
+        "weekNumber": 2,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "a965652a-29ee-465a-8f9f-c70b8ffab8bd",
+    "details": {
+      "matchup": {
+        "matchupId": "a965652a-29ee-465a-8f9f-c70b8ffab8bd",
+        "weekNumber": 2,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "80db0600-7281-47e6-bcb3-e15ef202cf02",
+    "details": {
+      "matchup": {
+        "matchupId": "80db0600-7281-47e6-bcb3-e15ef202cf02",
+        "weekNumber": 2,
+        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Philly",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "cddab8f1-f4cc-4859-9a0e-f05f44fec08a",
+    "details": {
+      "matchup": {
+        "matchupId": "cddab8f1-f4cc-4859-9a0e-f05f44fec08a",
+        "weekNumber": 2,
+        "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Tinton Falls",
+        "awayName": "Flemington"
+      }
+    }
+  },
+  {
+    "matchupId": "5f35a17f-295a-4538-861b-37eb52bfb90c",
+    "details": {
+      "matchup": {
+        "matchupId": "5f35a17f-295a-4538-861b-37eb52bfb90c",
+        "weekNumber": 4,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "96fa48a3-7814-43ba-81a9-643038a0f211",
+    "details": {
+      "matchup": {
+        "matchupId": "96fa48a3-7814-43ba-81a9-643038a0f211",
+        "weekNumber": 4,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "166714d9-96a9-475c-b538-bddb9ead9011",
+    "details": {
+      "matchup": {
+        "matchupId": "166714d9-96a9-475c-b538-bddb9ead9011",
+        "weekNumber": 4,
+        "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Lehigh Valley",
+        "awayName": "Bounce Philly"
+      }
+    }
+  },
+  {
+    "matchupId": "cd33b5e3-0af9-4910-b66e-61367759926d",
+    "details": {
+      "matchup": {
+        "matchupId": "cd33b5e3-0af9-4910-b66e-61367759926d",
+        "weekNumber": 4,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "3ddc858c-974f-46f5-8e68-72bed7525398",
+    "details": {
+      "matchup": {
+        "matchupId": "3ddc858c-974f-46f5-8e68-72bed7525398",
+        "weekNumber": 4,
+        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Monroe",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "777dd429-f072-480b-af7b-796ca117ce5f",
+    "details": {
+      "matchup": {
+        "matchupId": "777dd429-f072-480b-af7b-796ca117ce5f",
+        "weekNumber": 4,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "Open Play"
+      }
+    }
+  },
+  {
+    "matchupId": "a71d77cc-1005-47a5-88ad-8df07a8ae7e1",
+    "details": {
+      "matchup": {
+        "matchupId": "a71d77cc-1005-47a5-88ad-8df07a8ae7e1",
+        "weekNumber": 4,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "Picklr Newark"
+      }
+    }
+  },
+  {
+    "matchupId": "ce97eee0-3237-4575-b208-b0a977c535d6",
+    "details": {
+      "matchup": {
+        "matchupId": "ce97eee0-3237-4575-b208-b0a977c535d6",
+        "weekNumber": 4,
+        "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Downingtown",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "ba10bbb0-99d0-4752-b2bf-b43dbc290b67",
+    "details": {
+      "matchup": {
+        "matchupId": "ba10bbb0-99d0-4752-b2bf-b43dbc290b67",
+        "weekNumber": 4,
+        "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle House",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "613a5fdb-1be6-49cf-9921-de8edda44108",
+    "details": {
+      "matchup": {
+        "matchupId": "613a5fdb-1be6-49cf-9921-de8edda44108",
+        "weekNumber": 4,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "Pickle Juice Blackwood"
+      }
+    }
+  },
+  {
+    "matchupId": "57d29c64-3035-419b-bda1-ead773131d8a",
+    "details": {
+      "matchup": {
+        "matchupId": "57d29c64-3035-419b-bda1-ead773131d8a",
+        "weekNumber": 4,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "cbe95207-5b4b-435f-a4d4-786a528a5dc2",
+    "details": {
+      "matchup": {
+        "matchupId": "cbe95207-5b4b-435f-a4d4-786a528a5dc2",
+        "weekNumber": 5,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "Home Court"
+      }
+    }
+  },
+  {
+    "matchupId": "aa32b65d-06e1-4ebc-a516-92a3d26b1ab8",
+    "details": {
+      "matchup": {
+        "matchupId": "aa32b65d-06e1-4ebc-a516-92a3d26b1ab8",
+        "weekNumber": 5,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "354b2ad6-f2a3-4954-9c6a-05e6d9662ad6",
+    "details": {
+      "matchup": {
+        "matchupId": "354b2ad6-f2a3-4954-9c6a-05e6d9662ad6",
+        "weekNumber": 5,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "PickleRage Union County Net Ninjas"
+      }
+    }
+  },
+  {
+    "matchupId": "84b70026-6865-4af1-b091-12ad787b5fd8",
+    "details": {
+      "matchup": {
+        "matchupId": "84b70026-6865-4af1-b091-12ad787b5fd8",
+        "weekNumber": 5,
+        "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hamilton",
+        "awayName": "Bounce Philly"
+      }
+    }
+  },
+  {
+    "matchupId": "f3e3e1c0-fa31-48e3-a36e-1bb886132c01",
+    "details": {
+      "matchup": {
+        "matchupId": "f3e3e1c0-fa31-48e3-a36e-1bb886132c01",
+        "weekNumber": 5,
+        "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Downingtown",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "7a0544ab-2e1a-4265-b451-217bbe315a27",
+    "details": {
+      "matchup": {
+        "matchupId": "7a0544ab-2e1a-4265-b451-217bbe315a27",
+        "weekNumber": 5,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Players Courtyard"
+      }
+    }
+  },
+  {
+    "matchupId": "a3dfdf75-ba67-408b-9490-2937f2bb10f6",
+    "details": {
+      "matchup": {
+        "matchupId": "a3dfdf75-ba67-408b-9490-2937f2bb10f6",
+        "weekNumber": 5,
+        "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle House",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "836b3b63-c9ad-4a8d-bbf3-5765c25c50d9",
+    "details": {
+      "matchup": {
+        "matchupId": "836b3b63-c9ad-4a8d-bbf3-5765c25c50d9",
+        "weekNumber": 5,
+        "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Pandas",
+        "awayName": "Open Play"
+      }
+    }
+  },
+  {
+    "matchupId": "48fd9cdd-d117-42ed-9de9-8f7c08900d7f",
+    "details": {
+      "matchup": {
+        "matchupId": "48fd9cdd-d117-42ed-9de9-8f7c08900d7f",
+        "weekNumber": 5,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "aeb17df7-c8cb-408b-a68b-aa051ac93f09",
+    "details": {
+      "matchup": {
+        "matchupId": "aeb17df7-c8cb-408b-a68b-aa051ac93f09",
+        "weekNumber": 5,
+        "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Tinton Falls",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "c91503fc-6ad1-4cf9-a410-fdf1fbba85ca",
+    "details": {
+      "matchup": {
+        "matchupId": "c91503fc-6ad1-4cf9-a410-fdf1fbba85ca",
+        "weekNumber": 5,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "Picklr Newark"
+      }
+    }
+  },
+  {
+    "matchupId": "382221fa-9d61-49a8-8cfc-bfc980a62e88",
+    "details": {
+      "matchup": {
+        "matchupId": "382221fa-9d61-49a8-8cfc-bfc980a62e88",
+        "weekNumber": 7,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "Open Play"
+      }
+    }
+  },
+  {
+    "matchupId": "7679e853-10fe-4850-b9ec-d044b95f1316",
+    "details": {
+      "matchup": {
+        "matchupId": "7679e853-10fe-4850-b9ec-d044b95f1316",
+        "weekNumber": 7,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "0e63ab5e-ce96-463a-bb12-02061a12f4a4",
+    "details": {
+      "matchup": {
+        "matchupId": "0e63ab5e-ce96-463a-bb12-02061a12f4a4",
+        "weekNumber": 7,
+        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Philly",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "faf034ff-8229-4ae1-978b-32ad213f753c",
+    "details": {
+      "matchup": {
+        "matchupId": "faf034ff-8229-4ae1-978b-32ad213f753c",
+        "weekNumber": 7,
+        "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Tinton Falls",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "0ce9fa1a-2b6c-4a31-a8d9-5d351fcc7b23",
+    "details": {
+      "matchup": {
+        "matchupId": "0ce9fa1a-2b6c-4a31-a8d9-5d351fcc7b23",
+        "weekNumber": 7,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "Picklr Newark"
+      }
+    }
+  },
+  {
+    "matchupId": "118613bb-612d-45c7-b3a8-5dd1fb66f880",
+    "details": {
+      "matchup": {
+        "matchupId": "118613bb-612d-45c7-b3a8-5dd1fb66f880",
+        "weekNumber": 7,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "7b84c9a3-32ef-454a-94fc-ac94c24363b6",
+    "details": {
+      "matchup": {
+        "matchupId": "7b84c9a3-32ef-454a-94fc-ac94c24363b6",
+        "weekNumber": 7,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "c6e6a274-3097-415b-a4fe-b37e74fe74b7",
+    "details": {
+      "matchup": {
+        "matchupId": "c6e6a274-3097-415b-a4fe-b37e74fe74b7",
+        "weekNumber": 7,
+        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Dill Dinkers Hatboro",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "fff2070f-221d-47b3-83ab-b403b9d7986c",
+    "details": {
+      "matchup": {
+        "matchupId": "fff2070f-221d-47b3-83ab-b403b9d7986c",
+        "weekNumber": 7,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "8da72906-ffa4-4596-8487-dd327a6ff74c",
+    "details": {
+      "matchup": {
+        "matchupId": "8da72906-ffa4-4596-8487-dd327a6ff74c",
+        "weekNumber": 7,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Home Court"
+      }
+    }
+  },
+  {
+    "matchupId": "ff3f3fe8-9d36-40b8-b25d-fbe22baabc93",
+    "details": {
+      "matchup": {
+        "matchupId": "ff3f3fe8-9d36-40b8-b25d-fbe22baabc93",
+        "weekNumber": 7,
+        "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle House",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "1f470d95-5dfb-43c1-82d0-0d9374db1365",
+    "details": {
+      "matchup": {
+        "matchupId": "1f470d95-5dfb-43c1-82d0-0d9374db1365",
+        "weekNumber": 8,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "fb7c8513-5ae2-4211-9b58-30767d51e3aa",
+    "details": {
+      "matchup": {
+        "matchupId": "fb7c8513-5ae2-4211-9b58-30767d51e3aa",
+        "weekNumber": 8,
+        "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball HQ",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "1577416e-b682-4e31-9927-1761425d8cd6",
+    "details": {
+      "matchup": {
+        "matchupId": "1577416e-b682-4e31-9927-1761425d8cd6",
+        "weekNumber": 8,
+        "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hamilton",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "98e8c8a4-791d-4485-b9a3-1853f180c12d",
+    "details": {
+      "matchup": {
+        "matchupId": "98e8c8a4-791d-4485-b9a3-1853f180c12d",
+        "weekNumber": 8,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "Home Court"
+      }
+    }
+  },
+  {
+    "matchupId": "02e9bf75-cea1-4630-9f3b-19f9319d3e05",
+    "details": {
+      "matchup": {
+        "matchupId": "02e9bf75-cea1-4630-9f3b-19f9319d3e05",
+        "weekNumber": 8,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "b2c97190-8577-464c-874f-1b07234753a5",
+    "details": {
+      "matchup": {
+        "matchupId": "b2c97190-8577-464c-874f-1b07234753a5",
+        "weekNumber": 8,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "Pickleball Kingdom Hillsborough"
+      }
+    }
+  },
+  {
+    "matchupId": "ed14a4d0-a461-468f-9238-823742b898cd",
+    "details": {
+      "matchup": {
+        "matchupId": "ed14a4d0-a461-468f-9238-823742b898cd",
+        "weekNumber": 8,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "Bounce Philly"
+      }
+    }
+  },
+  {
+    "matchupId": "fb68202d-808e-4518-82c8-adb5ce9e647d",
+    "details": {
+      "matchup": {
+        "matchupId": "fb68202d-808e-4518-82c8-adb5ce9e647d",
+        "weekNumber": 8,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "Bounce Tempest"
+      }
+    }
+  },
+  {
+    "matchupId": "c112a27a-f906-4360-8773-d7ae2fda3a66",
+    "details": {
+      "matchup": {
+        "matchupId": "c112a27a-f906-4360-8773-d7ae2fda3a66",
+        "weekNumber": 8,
+        "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle House",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "06f95cd0-2207-4edc-9b3e-f02e5313a410",
+    "details": {
+      "matchup": {
+        "matchupId": "06f95cd0-2207-4edc-9b3e-f02e5313a410",
+        "weekNumber": 8,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "4d2ff660-b75d-4a5b-ae1b-f5cc0947bcfe",
+    "details": {
+      "matchup": {
+        "matchupId": "4d2ff660-b75d-4a5b-ae1b-f5cc0947bcfe",
+        "weekNumber": 8,
+        "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Downingtown",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "0a63bc22-bc71-4da9-8f28-39ae205dd522",
+    "details": {
+      "matchup": {
+        "matchupId": "0a63bc22-bc71-4da9-8f28-39ae205dd522",
+        "weekNumber": 9,
+        "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Lehigh Valley",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "6c225eff-bea5-49de-9075-6ac7608c1982",
+    "details": {
+      "matchup": {
+        "matchupId": "6c225eff-bea5-49de-9075-6ac7608c1982",
+        "weekNumber": 9,
+        "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball HQ",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "f77ee89d-c03a-44ff-947a-070ff5476f49",
+    "details": {
+      "matchup": {
+        "matchupId": "f77ee89d-c03a-44ff-947a-070ff5476f49",
+        "weekNumber": 9,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Flemington"
+      }
+    }
+  },
+  {
+    "matchupId": "a22e3cd2-c9e1-4ce7-9371-105272f43646",
+    "details": {
+      "matchup": {
+        "matchupId": "a22e3cd2-c9e1-4ce7-9371-105272f43646",
+        "weekNumber": 9,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "PickleRage Union County Net Ninjas"
+      }
+    }
+  },
+  {
+    "matchupId": "69b87206-6342-4d27-b8c4-1072b071cdad",
+    "details": {
+      "matchup": {
+        "matchupId": "69b87206-6342-4d27-b8c4-1072b071cdad",
+        "weekNumber": 9,
+        "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Downingtown",
+        "awayName": "Bounce Philly"
+      }
+    }
+  },
+  {
+    "matchupId": "f798fb97-c29b-4f96-85a0-1ce9523faaf9",
+    "details": {
+      "matchup": {
+        "matchupId": "f798fb97-c29b-4f96-85a0-1ce9523faaf9",
+        "weekNumber": 9,
+        "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Pandas",
+        "awayName": "Home Court"
+      }
+    }
+  },
+  {
+    "matchupId": "c5e81dcd-be12-43b7-b95f-50a7871a4002",
+    "details": {
+      "matchup": {
+        "matchupId": "c5e81dcd-be12-43b7-b95f-50a7871a4002",
+        "weekNumber": 9,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Bounce Tempest"
+      }
+    }
+  },
+  {
+    "matchupId": "cb64f393-970c-49a0-957f-7f68df3451f3",
+    "details": {
+      "matchup": {
+        "matchupId": "cb64f393-970c-49a0-957f-7f68df3451f3",
+        "weekNumber": 9,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "Players Courtyard"
+      }
+    }
+  },
+  {
+    "matchupId": "ff73b78c-6ebc-4160-b883-e9bdf6739b78",
+    "details": {
+      "matchup": {
+        "matchupId": "ff73b78c-6ebc-4160-b883-e9bdf6739b78",
+        "weekNumber": 9,
+        "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Tinton Falls",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "0f0f1b86-dadf-4ada-a972-f13bc21690f5",
+    "details": {
+      "matchup": {
+        "matchupId": "0f0f1b86-dadf-4ada-a972-f13bc21690f5",
+        "weekNumber": 9,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Pickleball Kingdom Hillsborough"
+      }
+    }
+  },
+  {
+    "matchupId": "e0019b87-e2a3-43e1-99c8-510400120b3a",
+    "details": {
+      "matchup": {
+        "matchupId": "e0019b87-e2a3-43e1-99c8-510400120b3a",
+        "weekNumber": 10,
+        "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball HQ",
+        "awayName": "Flemington"
+      }
+    }
+  },
+  {
+    "matchupId": "a59cf062-94bb-48a0-9025-08ecc038860e",
+    "details": {
+      "matchup": {
+        "matchupId": "a59cf062-94bb-48a0-9025-08ecc038860e",
+        "weekNumber": 10,
+        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Philly",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "9ceb3327-4954-4171-82a7-235acf4e2f70",
+    "details": {
+      "matchup": {
+        "matchupId": "9ceb3327-4954-4171-82a7-235acf4e2f70",
+        "weekNumber": 10,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "Pickleball Kingdom Hillsborough"
+      }
+    }
+  },
+  {
+    "matchupId": "43947552-3506-41de-9ec5-320131bf9b0a",
+    "details": {
+      "matchup": {
+        "matchupId": "43947552-3506-41de-9ec5-320131bf9b0a",
+        "weekNumber": 10,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "de86e2a1-13f5-4c46-8ecf-4dc1bb2c159a",
+    "details": {
+      "matchup": {
+        "matchupId": "de86e2a1-13f5-4c46-8ecf-4dc1bb2c159a",
+        "weekNumber": 10,
+        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Monroe",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "58eaec46-0826-4fae-8cac-4f5b8d2d37f6",
+    "details": {
+      "matchup": {
+        "matchupId": "58eaec46-0826-4fae-8cac-4f5b8d2d37f6",
+        "weekNumber": 10,
+        "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hamilton",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "632d8b2c-0517-4ea3-8fba-5686b9a201d1",
+    "details": {
+      "matchup": {
+        "matchupId": "632d8b2c-0517-4ea3-8fba-5686b9a201d1",
+        "weekNumber": 10,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "Bounce Tempest"
+      }
+    }
+  },
+  {
+    "matchupId": "22eb5c4c-708d-4cef-98f1-64e91ff65100",
+    "details": {
+      "matchup": {
+        "matchupId": "22eb5c4c-708d-4cef-98f1-64e91ff65100",
+        "weekNumber": 10,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "Players Courtyard"
+      }
+    }
+  },
+  {
+    "matchupId": "f52b5f7e-5bbd-4081-814e-bc050834f0a2",
+    "details": {
+      "matchup": {
+        "matchupId": "f52b5f7e-5bbd-4081-814e-bc050834f0a2",
+        "weekNumber": 10,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "6d7ae5de-e44a-482d-be47-db80d709324e",
+    "details": {
+      "matchup": {
+        "matchupId": "6d7ae5de-e44a-482d-be47-db80d709324e",
+        "weekNumber": 10,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "480f1d61-0fd4-40ee-b2b2-0d26446b401a",
+    "details": {
+      "matchup": {
+        "matchupId": "480f1d61-0fd4-40ee-b2b2-0d26446b401a",
+        "weekNumber": 12,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "b4521a81-2d1b-4e31-aa12-1ea96eb93fc7",
+    "details": {
+      "matchup": {
+        "matchupId": "b4521a81-2d1b-4e31-aa12-1ea96eb93fc7",
+        "weekNumber": 12,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "5fe0002b-00ad-451c-b117-4900ba79178f",
+    "details": {
+      "matchup": {
+        "matchupId": "5fe0002b-00ad-451c-b117-4900ba79178f",
+        "weekNumber": 12,
+        "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Juice Blackwood",
+        "awayName": "Dill Dinkers Hatboro"
+      }
+    }
+  },
+  {
+    "matchupId": "bce9793b-28c8-4d42-9d2b-80113733ef6e",
+    "details": {
+      "matchup": {
+        "matchupId": "bce9793b-28c8-4d42-9d2b-80113733ef6e",
+        "weekNumber": 12,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "Bounce Philly"
+      }
+    }
+  },
+  {
+    "matchupId": "e2c6e281-f902-4df6-94fd-ef47ff96ff0e",
+    "details": {
+      "matchup": {
+        "matchupId": "e2c6e281-f902-4df6-94fd-ef47ff96ff0e",
+        "weekNumber": 12,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Pickleball Kingdom Lehigh Valley"
+      }
+    }
+  },
+  {
+    "matchupId": "3b25ab05-785e-4901-abed-14e6cdf660c2",
+    "details": {
+      "matchup": {
+        "matchupId": "3b25ab05-785e-4901-abed-14e6cdf660c2",
+        "weekNumber": 13,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "cd38beef-660c-4449-b41a-303be870be86",
+    "details": {
+      "matchup": {
+        "matchupId": "cd38beef-660c-4449-b41a-303be870be86",
+        "weekNumber": 13,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "cc879f14-ee16-457f-8038-2e6a2c2fc124",
+    "details": {
+      "matchup": {
+        "matchupId": "cc879f14-ee16-457f-8038-2e6a2c2fc124",
+        "weekNumber": 13,
+        "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Newark",
+        "awayName": "Pickle Juice Blackwood"
+      }
+    }
+  },
+  {
+    "matchupId": "0887889d-baa6-4c18-9a07-6d5783b9d1f2",
+    "details": {
+      "matchup": {
+        "matchupId": "0887889d-baa6-4c18-9a07-6d5783b9d1f2",
+        "weekNumber": 13,
+        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Dill Dinkers Hatboro",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "ac78c6f8-9792-4c1d-85df-6fe9a3746522",
+    "details": {
+      "matchup": {
+        "matchupId": "ac78c6f8-9792-4c1d-85df-6fe9a3746522",
+        "weekNumber": 13,
+        "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Tinton Falls",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "0d1aa4be-c1f1-48be-a075-72f5408d25fd",
+    "details": {
+      "matchup": {
+        "matchupId": "0d1aa4be-c1f1-48be-a075-72f5408d25fd",
+        "weekNumber": 13,
+        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Philly",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "202e16c5-771e-44ed-903a-737eb701614b",
+    "details": {
+      "matchup": {
+        "matchupId": "202e16c5-771e-44ed-903a-737eb701614b",
+        "weekNumber": 13,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "Home Court"
+      }
+    }
+  },
+  {
+    "matchupId": "9b4456c4-0272-4c9d-bf91-a9e6fd059976",
+    "details": {
+      "matchup": {
+        "matchupId": "9b4456c4-0272-4c9d-bf91-a9e6fd059976",
+        "weekNumber": 13,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "b87a0b1c-1e16-4c13-adeb-acc6a4c79369",
+    "details": {
+      "matchup": {
+        "matchupId": "b87a0b1c-1e16-4c13-adeb-acc6a4c79369",
+        "weekNumber": 13,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Open Play"
+      }
+    }
+  },
+  {
+    "matchupId": "0a2a1fef-5719-43db-8fd3-ef71ba86e024",
+    "details": {
+      "matchup": {
+        "matchupId": "0a2a1fef-5719-43db-8fd3-ef71ba86e024",
+        "weekNumber": 13,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "a42b2015-57c6-4f59-b83a-3e750df8b923",
+    "details": {
+      "matchup": {
+        "matchupId": "a42b2015-57c6-4f59-b83a-3e750df8b923",
+        "weekNumber": 14,
+        "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Lehigh Valley",
+        "awayName": "Players Courtyard"
+      }
+    }
+  },
+  {
+    "matchupId": "bfd9a7ed-8b49-4ba9-a403-be103cccb1c7",
+    "details": {
+      "matchup": {
+        "matchupId": "bfd9a7ed-8b49-4ba9-a403-be103cccb1c7",
+        "weekNumber": 14,
+        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hillsborough",
+        "awayName": "Monroe"
+      }
+    }
+  },
+  {
+    "matchupId": "757a9f8d-0b2b-4b17-9370-c5e60533c534",
+    "details": {
+      "matchup": {
+        "matchupId": "757a9f8d-0b2b-4b17-9370-c5e60533c534",
+        "weekNumber": 14,
+        "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington",
+        "awayName": "PickleRage Union County Pandas"
+      }
+    }
+  },
+  {
+    "matchupId": "31961873-c95d-4fd5-b0fd-037621602959",
+    "details": {
+      "matchup": {
+        "matchupId": "31961873-c95d-4fd5-b0fd-037621602959",
+        "weekNumber": 14,
+        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Dill Dinkers Hatboro",
+        "awayName": "Bounce Tempest"
+      }
+    }
+  },
+  {
+    "matchupId": "1f000c95-eb84-4871-a265-313296477cf8",
+    "details": {
+      "matchup": {
+        "matchupId": "1f000c95-eb84-4871-a265-313296477cf8",
+        "weekNumber": 14,
+        "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Hamilton",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "60d447f7-731d-438d-8be7-33316025394d",
+    "details": {
+      "matchup": {
+        "matchupId": "60d447f7-731d-438d-8be7-33316025394d",
+        "weekNumber": 14,
+        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Philly",
+        "awayName": "Pickle Juice Blackwood"
+      }
+    }
+  },
+  {
+    "matchupId": "51063ddf-aa5f-4dcb-b7a0-3d03789c10de",
+    "details": {
+      "matchup": {
+        "matchupId": "51063ddf-aa5f-4dcb-b7a0-3d03789c10de",
+        "weekNumber": 14,
+        "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Downingtown",
+        "awayName": "Picklr Newark"
+      }
+    }
+  },
+  {
+    "matchupId": "8bbaa1f8-0d47-4486-8c43-52448f9f2688",
+    "details": {
+      "matchup": {
+        "matchupId": "8bbaa1f8-0d47-4486-8c43-52448f9f2688",
+        "weekNumber": 14,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "8f26feda-414f-406e-945e-6ebc735143a3",
+    "details": {
+      "matchup": {
+        "matchupId": "8f26feda-414f-406e-945e-6ebc735143a3",
+        "weekNumber": 14,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "31b29477-09a2-4d04-868e-7c4473168040",
+    "details": {
+      "matchup": {
+        "matchupId": "31b29477-09a2-4d04-868e-7c4473168040",
+        "weekNumber": 14,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "Pickleball HQ"
+      }
+    }
+  },
+  {
+    "matchupId": "58689771-aa12-4857-8b1b-c3ae994b75ba",
+    "details": {
+      "matchup": {
+        "matchupId": "58689771-aa12-4857-8b1b-c3ae994b75ba",
+        "weekNumber": 14,
+        "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Net Ninjas",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "7bc737f5-16d9-4b31-aec7-ab806c9865a7",
+    "details": {
+      "matchup": {
+        "matchupId": "7bc737f5-16d9-4b31-aec7-ab806c9865a7",
+        "weekNumber": 15,
+        "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+        "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball HQ",
+        "awayName": "Pickle House"
+      }
+    }
+  },
+  {
+    "matchupId": "943f1870-dab0-4479-a0c9-de4d576fe258",
+    "details": {
+      "matchup": {
+        "matchupId": "943f1870-dab0-4479-a0c9-de4d576fe258",
+        "weekNumber": 15,
+        "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+        "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Kingdom Lehigh Valley",
+        "awayName": "Pickleball Kingdom Hamilton"
+      }
+    }
+  },
+  {
+    "matchupId": "489b20bb-7fe8-4ce1-a1ad-00eb134396b1",
+    "details": {
+      "matchup": {
+        "matchupId": "489b20bb-7fe8-4ce1-a1ad-00eb134396b1",
+        "weekNumber": 15,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Picklr Newark"
+      }
+    }
+  },
+  {
+    "matchupId": "5fc3a430-10b4-4d62-9efe-05546aaa04ac",
+    "details": {
+      "matchup": {
+        "matchupId": "5fc3a430-10b4-4d62-9efe-05546aaa04ac",
+        "weekNumber": 15,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Pickleball Kingdom Tinton Falls"
+      }
+    }
+  },
+  {
+    "matchupId": "3a5711a4-99a4-49e5-bbea-2ff128421fa0",
+    "details": {
+      "matchup": {
+        "matchupId": "3a5711a4-99a4-49e5-bbea-2ff128421fa0",
+        "weekNumber": 15,
+        "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Home Court",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "daae5e02-0a74-483a-918e-34b316f07cab",
+    "details": {
+      "matchup": {
+        "matchupId": "daae5e02-0a74-483a-918e-34b316f07cab",
+        "weekNumber": 15,
+        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Monroe",
+        "awayName": "Flemington"
+      }
+    }
+  },
+  {
+    "matchupId": "84557703-29d8-4287-b347-394eaf065569",
+    "details": {
+      "matchup": {
+        "matchupId": "84557703-29d8-4287-b347-394eaf065569",
+        "weekNumber": 15,
+        "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+        "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "PickleRage Union County Pandas",
+        "awayName": "PickleRage Union County Net Ninjas"
+      }
+    }
+  },
+  {
+    "matchupId": "93d34f17-c82d-43f8-ae1a-46ac3a5aebf6",
+    "details": {
+      "matchup": {
+        "matchupId": "93d34f17-c82d-43f8-ae1a-46ac3a5aebf6",
+        "weekNumber": 15,
+        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+        "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Players Courtyard",
+        "awayName": "ACE Downingtown"
+      }
+    }
+  },
+  {
+    "matchupId": "7db3968f-6dca-452a-8059-ad56f4ebef23",
+    "details": {
+      "matchup": {
+        "matchupId": "7db3968f-6dca-452a-8059-ad56f4ebef23",
+        "weekNumber": 15,
+        "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Open Play",
+        "awayName": "Pickleball Kingdom Hillsborough"
+      }
+    }
+  },
+  {
+    "matchupId": "d75ff660-e4b6-4544-bc6f-cb65c554ec65",
+    "details": {
+      "matchup": {
+        "matchupId": "d75ff660-e4b6-4544-bc6f-cb65c554ec65",
+        "weekNumber": 15,
+        "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+        "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Tempest",
+        "awayName": "Pickle Juice Blackwood"
+      }
+    }
+  },
+  {
+    "matchupId": "75a05801-916f-4316-b15f-ce7bc287a526",
+    "details": {
+      "matchup": {
+        "matchupId": "75a05801-916f-4316-b15f-ce7bc287a526",
+        "weekNumber": 15,
+        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Dill Dinkers Hatboro",
+        "awayName": "Bounce Philly"
+      }
+    }
+  }
+]

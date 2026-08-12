@@ -1,0 +1,962 @@
+[
+  {
+    "matchupId": "7f4861e0-eb12-4319-853f-12ab2043e3fa",
+    "details": {
+      "matchup": {
+        "matchupId": "7f4861e0-eb12-4319-853f-12ab2043e3fa",
+        "weekNumber": 1,
+        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Blue",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
+    "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
+    "details": {
+      "matchup": {
+        "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
+        "weekNumber": 1,
+        "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Premiere",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "d46af40d-1fda-4106-80e4-a7d7f98f748c",
+    "details": {
+      "matchup": {
+        "matchupId": "d46af40d-1fda-4106-80e4-a7d7f98f748c",
+        "weekNumber": 1,
+        "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Boom",
+        "awayName": "Flemington Green"
+      }
+    }
+  },
+  {
+    "matchupId": "7bd0639b-6dc7-4397-a3a5-aeb8b9551172",
+    "details": {
+      "matchup": {
+        "matchupId": "7bd0639b-6dc7-4397-a3a5-aeb8b9551172",
+        "weekNumber": 1,
+        "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Place",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "2592b6ba-1b8d-4bf6-b2d4-e96bae13b53c",
+    "details": {
+      "matchup": {
+        "matchupId": "2592b6ba-1b8d-4bf6-b2d4-e96bae13b53c",
+        "weekNumber": 1,
+        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Moorestown",
+        "awayName": "Bounce Malvern Black"
+      }
+    }
+  },
+  {
+    "matchupId": "53e2bf4b-ba53-494d-b3f3-b10605356637",
+    "details": {
+      "matchup": {
+        "matchupId": "53e2bf4b-ba53-494d-b3f3-b10605356637",
+        "weekNumber": 2,
+        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Blue",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "dfe1feeb-3dfe-456c-a6f9-e66be8e29214",
+    "details": {
+      "matchup": {
+        "matchupId": "dfe1feeb-3dfe-456c-a6f9-e66be8e29214",
+        "weekNumber": 2,
+        "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Premiere",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "266428f7-c3c1-4f57-b4ef-1201e40311c7",
+    "details": {
+      "matchup": {
+        "matchupId": "266428f7-c3c1-4f57-b4ef-1201e40311c7",
+        "weekNumber": 2,
+        "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Black",
+        "awayName": "Flemington Green"
+      }
+    }
+  },
+  {
+    "matchupId": "393e6893-ef31-4aca-89c2-3ece6a2d7727",
+    "details": {
+      "matchup": {
+        "matchupId": "393e6893-ef31-4aca-89c2-3ece6a2d7727",
+        "weekNumber": 2,
+        "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Place",
+        "awayName": "Bounce Malvern Boom"
+      }
+    }
+  },
+  {
+    "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
+    "details": {
+      "matchup": {
+        "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
+        "weekNumber": 2,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
+    "matchupId": "5d977431-54ee-4327-9842-c83dc7dd6ea3",
+    "details": {
+      "matchup": {
+        "matchupId": "5d977431-54ee-4327-9842-c83dc7dd6ea3",
+        "weekNumber": 2,
+        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Moorestown",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "afc6ef60-af32-43f7-9f2b-d19a10b61214",
+    "details": {
+      "matchup": {
+        "matchupId": "afc6ef60-af32-43f7-9f2b-d19a10b61214",
+        "weekNumber": 4,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "711958d7-442f-4e07-80e4-14aa13c61d83",
+    "details": {
+      "matchup": {
+        "matchupId": "711958d7-442f-4e07-80e4-14aa13c61d83",
+        "weekNumber": 5,
+        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Blue",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "9b12387a-38e3-4144-8f24-9f7d0f5ad263",
+    "details": {
+      "matchup": {
+        "matchupId": "9b12387a-38e3-4144-8f24-9f7d0f5ad263",
+        "weekNumber": 5,
+        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Allstar Pickler",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
+    "details": {
+      "matchup": {
+        "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
+        "weekNumber": 5,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "90bd7661-0a2e-4648-833e-19964b97d8c6",
+    "details": {
+      "matchup": {
+        "matchupId": "90bd7661-0a2e-4648-833e-19964b97d8c6",
+        "weekNumber": 5,
+        "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Place",
+        "awayName": "Flemington Green"
+      }
+    }
+  },
+  {
+    "matchupId": "bae6d9bc-aa04-4320-aeec-a220d6a9bfd2",
+    "details": {
+      "matchup": {
+        "matchupId": "bae6d9bc-aa04-4320-aeec-a220d6a9bfd2",
+        "weekNumber": 5,
+        "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Black",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "f651f801-0d5f-44d9-a5a7-dafea4f7000e",
+    "details": {
+      "matchup": {
+        "matchupId": "f651f801-0d5f-44d9-a5a7-dafea4f7000e",
+        "weekNumber": 5,
+        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Moorestown",
+        "awayName": "Bounce Malvern Boom"
+      }
+    }
+  },
+  {
+    "matchupId": "ab4b7073-99d3-40f8-8736-513be3008d84",
+    "details": {
+      "matchup": {
+        "matchupId": "ab4b7073-99d3-40f8-8736-513be3008d84",
+        "weekNumber": 6,
+        "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Premiere",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
+    "matchupId": "538fca57-0994-42cf-9590-aba88bdbfbd5",
+    "details": {
+      "matchup": {
+        "matchupId": "538fca57-0994-42cf-9590-aba88bdbfbd5",
+        "weekNumber": 6,
+        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Blue",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "cb4a2110-d654-445d-99ad-ea285a86fda7",
+    "details": {
+      "matchup": {
+        "matchupId": "cb4a2110-d654-445d-99ad-ea285a86fda7",
+        "weekNumber": 6,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Flemington Green"
+      }
+    }
+  },
+  {
+    "matchupId": "45450df1-1172-4e5e-b5a4-05a026bfdf2a",
+    "details": {
+      "matchup": {
+        "matchupId": "45450df1-1172-4e5e-b5a4-05a026bfdf2a",
+        "weekNumber": 6,
+        "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Place",
+        "awayName": "ACE Moorestown"
+      }
+    }
+  },
+  {
+    "matchupId": "b81d4075-932c-48e3-ac5a-cdba7494ad01",
+    "details": {
+      "matchup": {
+        "matchupId": "b81d4075-932c-48e3-ac5a-cdba7494ad01",
+        "weekNumber": 6,
+        "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Boom",
+        "awayName": "Bounce Malvern Black"
+      }
+    }
+  },
+  {
+    "matchupId": "cd7c937e-7b3a-440a-9b4d-de146df2b090",
+    "details": {
+      "matchup": {
+        "matchupId": "cd7c937e-7b3a-440a-9b4d-de146df2b090",
+        "weekNumber": 6,
+        "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Stelton Sports",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "0f436c2e-cbe3-4c0b-bb92-7566f8c1f0c0",
+    "details": {
+      "matchup": {
+        "matchupId": "0f436c2e-cbe3-4c0b-bb92-7566f8c1f0c0",
+        "weekNumber": 8,
+        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Green",
+        "awayName": "ACE Moorestown"
+      }
+    }
+  },
+  {
+    "matchupId": "92bb3f19-8524-47da-8616-935f63b5667f",
+    "details": {
+      "matchup": {
+        "matchupId": "92bb3f19-8524-47da-8616-935f63b5667f",
+        "weekNumber": 8,
+        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Allstar Pickler",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "ad7f437f-b0a2-4a14-800d-a00bfb2b7e0d",
+    "details": {
+      "matchup": {
+        "matchupId": "ad7f437f-b0a2-4a14-800d-a00bfb2b7e0d",
+        "weekNumber": 8,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Bounce Malvern Boom"
+      }
+    }
+  },
+  {
+    "matchupId": "c43492e3-2007-47a5-830e-15be5b427943",
+    "details": {
+      "matchup": {
+        "matchupId": "c43492e3-2007-47a5-830e-15be5b427943",
+        "weekNumber": 8,
+        "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Stelton Sports",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "3f611280-1140-4e60-aebd-a378cbfa7573",
+    "details": {
+      "matchup": {
+        "matchupId": "3f611280-1140-4e60-aebd-a378cbfa7573",
+        "weekNumber": 8,
+        "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Black",
+        "awayName": "Pickle Place"
+      }
+    }
+  },
+  {
+    "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
+    "details": {
+      "matchup": {
+        "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
+        "weekNumber": 8,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
+    "matchupId": "e4f384ce-852f-425e-b369-81ec367782dd",
+    "details": {
+      "matchup": {
+        "matchupId": "e4f384ce-852f-425e-b369-81ec367782dd",
+        "weekNumber": 9,
+        "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Premiere",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "6cec4c8a-c931-4878-ad4e-b430c8768575",
+    "details": {
+      "matchup": {
+        "matchupId": "6cec4c8a-c931-4878-ad4e-b430c8768575",
+        "weekNumber": 9,
+        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Blue",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "1868e768-b2e9-49a6-a828-31e10441db92",
+    "details": {
+      "matchup": {
+        "matchupId": "1868e768-b2e9-49a6-a828-31e10441db92",
+        "weekNumber": 9,
+        "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickle Place",
+        "awayName": "Bounce Malvern Black"
+      }
+    }
+  },
+  {
+    "matchupId": "bff9c2db-660f-4e6a-95ae-37543e4e3dac",
+    "details": {
+      "matchup": {
+        "matchupId": "bff9c2db-660f-4e6a-95ae-37543e4e3dac",
+        "weekNumber": 9,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
+    "matchupId": "3f1a6403-4322-49e9-bd6e-5e1f0631b630",
+    "details": {
+      "matchup": {
+        "matchupId": "3f1a6403-4322-49e9-bd6e-5e1f0631b630",
+        "weekNumber": 9,
+        "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Boom",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "53e1bf0e-48ee-482d-93a7-b43bc11dc6d6",
+    "details": {
+      "matchup": {
+        "matchupId": "53e1bf0e-48ee-482d-93a7-b43bc11dc6d6",
+        "weekNumber": 9,
+        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Moorestown",
+        "awayName": "Flemington Green"
+      }
+    }
+  },
+  {
+    "matchupId": "4bd59a07-4d0e-4bc8-8be6-1a476dd5ce28",
+    "details": {
+      "matchup": {
+        "matchupId": "4bd59a07-4d0e-4bc8-8be6-1a476dd5ce28",
+        "weekNumber": 10,
+        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Green",
+        "awayName": "Bounce Malvern Boom"
+      }
+    }
+  },
+  {
+    "matchupId": "1f20f974-3457-40a0-86da-8a14e1820aec",
+    "details": {
+      "matchup": {
+        "matchupId": "1f20f974-3457-40a0-86da-8a14e1820aec",
+        "weekNumber": 10,
+        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Allstar Pickler",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
+    "matchupId": "c95742b7-f4f8-497d-8f07-dc86962e2c00",
+    "details": {
+      "matchup": {
+        "matchupId": "c95742b7-f4f8-497d-8f07-dc86962e2c00",
+        "weekNumber": 10,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Pickle Place"
+      }
+    }
+  },
+  {
+    "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
+    "details": {
+      "matchup": {
+        "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
+        "weekNumber": 10,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "bb085316-4a42-45e5-974f-8ad8c3d1a72f",
+    "details": {
+      "matchup": {
+        "matchupId": "bb085316-4a42-45e5-974f-8ad8c3d1a72f",
+        "weekNumber": 10,
+        "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Black",
+        "awayName": "ACE Moorestown"
+      }
+    }
+  },
+  {
+    "matchupId": "c27ac823-a502-4401-9d46-f803e16b21a7",
+    "details": {
+      "matchup": {
+        "matchupId": "c27ac823-a502-4401-9d46-f803e16b21a7",
+        "weekNumber": 10,
+        "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Stelton Sports",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
+    "matchupId": "2bdbc35a-59d4-46c4-9b03-7e576bad54ef",
+    "details": {
+      "matchup": {
+        "matchupId": "2bdbc35a-59d4-46c4-9b03-7e576bad54ef",
+        "weekNumber": 11,
+        "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Premiere",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
+    "matchupId": "11163321-55f3-4535-9257-c45bae22e5c6",
+    "details": {
+      "matchup": {
+        "matchupId": "11163321-55f3-4535-9257-c45bae22e5c6",
+        "weekNumber": 11,
+        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Green",
+        "awayName": "Pickle Place"
+      }
+    }
+  },
+  {
+    "matchupId": "74c11c15-c3ae-4a80-baa3-36272bf14355",
+    "details": {
+      "matchup": {
+        "matchupId": "74c11c15-c3ae-4a80-baa3-36272bf14355",
+        "weekNumber": 11,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "Bounce Malvern Black"
+      }
+    }
+  },
+  {
+    "matchupId": "aa0dfd8a-b453-4409-8e5a-4508dff7a55c",
+    "details": {
+      "matchup": {
+        "matchupId": "aa0dfd8a-b453-4409-8e5a-4508dff7a55c",
+        "weekNumber": 11,
+        "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Boom",
+        "awayName": "ACE Moorestown"
+      }
+    }
+  },
+  {
+    "matchupId": "1d0acd6b-0ac9-4021-b943-4f9b5ba3d0eb",
+    "details": {
+      "matchup": {
+        "matchupId": "1d0acd6b-0ac9-4021-b943-4f9b5ba3d0eb",
+        "weekNumber": 11,
+        "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Stelton Sports",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
+    "matchupId": "db763acc-5c6d-40a8-9526-81463029bfeb",
+    "details": {
+      "matchup": {
+        "matchupId": "db763acc-5c6d-40a8-9526-81463029bfeb",
+        "weekNumber": 11,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "dfcb6214-e014-4d00-9f9b-0bc81f84e37f",
+    "details": {
+      "matchup": {
+        "matchupId": "dfcb6214-e014-4d00-9f9b-0bc81f84e37f",
+        "weekNumber": 13,
+        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Allstar Pickler",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "81512055-3082-4525-8862-3dc745a57452",
+    "details": {
+      "matchup": {
+        "matchupId": "81512055-3082-4525-8862-3dc745a57452",
+        "weekNumber": 13,
+        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Green",
+        "awayName": "APC Garden State"
+      }
+    }
+  },
+  {
+    "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
+    "details": {
+      "matchup": {
+        "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
+        "weekNumber": 13,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
+    "matchupId": "d2539e89-48b6-40f5-903c-7a03c96d2309",
+    "details": {
+      "matchup": {
+        "matchupId": "d2539e89-48b6-40f5-903c-7a03c96d2309",
+        "weekNumber": 13,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "17da890a-c863-41a2-8b10-c49ea74374f0",
+    "details": {
+      "matchup": {
+        "matchupId": "17da890a-c863-41a2-8b10-c49ea74374f0",
+        "weekNumber": 13,
+        "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Black",
+        "awayName": "Bounce Malvern Boom"
+      }
+    }
+  },
+  {
+    "matchupId": "181de646-66f3-48ed-bb28-f8ece40aff83",
+    "details": {
+      "matchup": {
+        "matchupId": "181de646-66f3-48ed-bb28-f8ece40aff83",
+        "weekNumber": 13,
+        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "ACE Moorestown",
+        "awayName": "Pickle Place"
+      }
+    }
+  },
+  {
+    "matchupId": "75a7b708-958c-4bb5-9d8d-b04b25e7a442",
+    "details": {
+      "matchup": {
+        "matchupId": "75a7b708-958c-4bb5-9d8d-b04b25e7a442",
+        "weekNumber": 14,
+        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Allstar Pickler",
+        "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "c670ce83-5f53-4ad9-8754-bba062fb8b8d",
+    "details": {
+      "matchup": {
+        "matchupId": "c670ce83-5f53-4ad9-8754-bba062fb8b8d",
+        "weekNumber": 14,
+        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+        "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Flemington Green",
+        "awayName": "Bounce Malvern Black"
+      }
+    }
+  },
+  {
+    "matchupId": "e8bdef1a-3ea5-47ce-8f5f-4ba1d43ca222",
+    "details": {
+      "matchup": {
+        "matchupId": "e8bdef1a-3ea5-47ce-8f5f-4ba1d43ca222",
+        "weekNumber": 14,
+        "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "APC Garden State",
+        "awayName": "ACE Moorestown"
+      }
+    }
+  },
+  {
+    "matchupId": "877db34e-96f9-4462-a29e-0b98411e1796",
+    "details": {
+      "matchup": {
+        "matchupId": "877db34e-96f9-4462-a29e-0b98411e1796",
+        "weekNumber": 14,
+        "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Stelton Sports",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
+    "matchupId": "d692cb8b-809b-464e-941d-3ee482c75a45",
+    "details": {
+      "matchup": {
+        "matchupId": "d692cb8b-809b-464e-941d-3ee482c75a45",
+        "weekNumber": 14,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "698344ce-ed7b-44f8-ad6e-751b90535ca8",
+    "details": {
+      "matchup": {
+        "matchupId": "698344ce-ed7b-44f8-ad6e-751b90535ca8",
+        "weekNumber": 14,
+        "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+        "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Bounce Malvern Boom",
+        "awayName": "Pickle Place"
+      }
+    }
+  }
+]
