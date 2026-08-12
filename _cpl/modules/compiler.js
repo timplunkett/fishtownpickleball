@@ -194,7 +194,7 @@ function computeWeeklyRatingHistory(completed, matchupDetailsJson, playersById) 
 // expected margin (from ratings). Synergy is the shrunk average residual,
 // Σresidual / (n + PAIR_K), which pulls thin-sample pairs toward 0.
 // Returns { duos: [...n>=PAIR_MIN, sorted...], partnersByPid: { pid: [{...}] } }.
-function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid = {}) {
+function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid = {}, playerInfoById = {}) {
   const rOf = pid => (ratings[pid] ? ratings[pid].rating : 0);
   const nameOf = {}, teamOf = {};
   const acc = {}; // "idA|idB" -> { a, b, n, sumRes, sumAct, sumExp, w }
@@ -206,7 +206,8 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
     const M = d.matchup;
     const teamNameById = { [M.homeTeamId]: M.homeName, [M.awayTeamId]: M.awayName };
     for (const p of (d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) {
-      nameOf[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+      const info = playerInfoById[p.playerId] || {};
+      nameOf[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
       teamOf[p.playerId] = teamNameById[p.teamId] || null;
     }
     for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
@@ -270,8 +271,12 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   // Build a map of player ID -> primary (non-sub) team from the player roster so
   // that intra-league subs are attributed to their home team in player records.
   const homeTeamByPid = {};
+  // Build a map of player ID -> static profile info (firstName, lastName, gender)
+  // so matchupPlayerStats entries don't need to repeat those fields.
+  const playerInfoById = {};
   for (const p of (firstValues(playerListJson) || [])) {
     if (!p.isSub && p.playerId && p.teamName) homeTeamByPid[p.playerId] = p.teamName;
+    if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
   }
 
   for (const mu of completed) {
@@ -303,7 +308,10 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     (homeWon ? teams.get(away.name) : teams.get(home.name)).l++;
 
     const id2name = {};
-    for (const p of ps) id2name[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+    for (const p of ps) {
+      const info = playerInfoById[p.playerId] || {};
+      id2name[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+    }
 
     // Build per-match lookups for intra-league subs: set of IDs and map to guest team name.
     const subPids = new Set();
@@ -316,8 +324,9 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       if (!p.gamesPlayed) continue;
       const pid = p.playerId;
       if (!players.has(pid)) {
+        const info = playerInfoById[pid] || {};
         players.set(pid, {
-          name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
+          name: norm(`${info.firstName || ''} ${info.lastName || ''}`), gender: info.gender,
           team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
           outsideSub: !homeTeamByPid[pid],
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
@@ -388,7 +397,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const ratings = computeRatings(completed, matchupDetailsJson);
   const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, matchupDetailsJson, players);
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid);
+  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid, playerInfoById);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -448,9 +457,10 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     // Collect the set of player IDs that appear as regular (non-sub) roster members in this matchup.
     const rosterPids = new Set(players.filter(p => !p.isSub).map(p => p.playerId));
     for (const p of players) {
-      nameById[p.playerId] = norm(`${p.firstName} ${p.lastName}`);
+      const info = playerInfoById[p.playerId] || {};
+      nameById[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
       // Only mark as sub if not also listed as a regular roster member in the same matchup.
-      if (p.isSub && !rosterPids.has(p.playerId)) subs.push(norm(`${p.firstName} ${p.lastName}`));
+      if (p.isSub && !rosterPids.has(p.playerId)) subs.push(norm(`${info.firstName || ''} ${info.lastName || ''}`));
     }
     if (subs.length) subNamesByMatchupId[e.matchupId] = subs;
   }

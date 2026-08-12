@@ -17,9 +17,6 @@
         "$values": [
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -37,9 +34,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -57,9 +51,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -77,9 +68,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -97,9 +85,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -117,9 +102,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -137,9 +119,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -157,9 +136,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -177,9 +153,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -197,9 +170,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -217,9 +187,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -237,9 +204,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -257,9 +221,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -277,9 +238,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -297,9 +255,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -317,9 +272,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -337,9 +289,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -357,9 +306,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -377,9 +323,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -397,9 +340,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -417,9 +357,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -437,9 +374,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -457,9 +391,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -477,9 +408,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -497,9 +425,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -517,9 +442,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -537,9 +459,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 7,
@@ -557,9 +476,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -577,9 +493,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -597,9 +510,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -617,9 +527,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 6,
@@ -637,9 +544,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 6,
@@ -657,9 +561,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -677,9 +578,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -697,9 +595,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -717,9 +612,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -737,9 +629,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -757,9 +646,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -777,9 +663,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 7,
@@ -797,9 +680,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -817,9 +697,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 6,
@@ -837,9 +714,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -857,9 +731,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1223,9 +1094,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1243,9 +1111,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1263,9 +1128,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1283,9 +1145,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1303,9 +1162,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1323,9 +1179,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1343,9 +1196,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1363,9 +1213,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 7,
@@ -1383,9 +1230,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -1403,9 +1247,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1423,9 +1264,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1443,9 +1281,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 7,
@@ -1463,9 +1298,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1483,9 +1315,6 @@
           },
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1503,9 +1332,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1523,9 +1349,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1543,9 +1366,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1563,9 +1383,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1583,9 +1400,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -1603,9 +1417,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -1623,9 +1434,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1643,9 +1451,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -1663,9 +1468,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -1683,9 +1485,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -1703,9 +1502,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2069,9 +1865,6 @@
         "$values": [
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2089,9 +1882,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2109,9 +1899,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2129,9 +1916,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2149,9 +1933,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2169,9 +1950,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2189,9 +1967,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2209,9 +1984,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2229,9 +2001,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2249,9 +2018,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2269,9 +2035,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2289,9 +2052,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2309,9 +2069,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2329,9 +2086,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2349,9 +2103,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2369,9 +2120,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2389,9 +2137,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2409,9 +2154,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -2429,9 +2171,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2449,9 +2188,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2469,9 +2205,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2489,9 +2222,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2509,9 +2239,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2529,9 +2256,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -2549,9 +2273,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2569,9 +2290,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2589,9 +2307,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2609,9 +2324,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2629,9 +2341,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2649,9 +2358,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -2669,9 +2375,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2689,9 +2392,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2709,9 +2409,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2729,9 +2426,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -2749,9 +2443,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -2769,9 +2460,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -2789,9 +2477,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3155,9 +2840,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3175,9 +2857,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3195,9 +2874,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3215,9 +2891,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3235,9 +2908,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3255,9 +2925,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3275,9 +2942,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3295,9 +2959,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3315,9 +2976,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3335,9 +2993,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3355,9 +3010,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3375,9 +3027,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3395,9 +3044,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3415,9 +3061,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 7,
@@ -3435,9 +3078,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -3455,9 +3095,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3475,9 +3112,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 6,
@@ -3495,9 +3129,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3515,9 +3146,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3535,9 +3163,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3555,9 +3180,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 6,
@@ -3575,9 +3197,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3595,9 +3214,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3615,9 +3231,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3635,9 +3248,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3655,9 +3265,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3675,9 +3282,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3695,9 +3299,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3715,9 +3316,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -3735,9 +3333,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3755,9 +3350,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 6,
@@ -3775,9 +3367,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3795,9 +3384,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3815,9 +3401,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -3835,9 +3418,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 7,
@@ -3855,9 +3435,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -3875,9 +3452,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -3895,9 +3469,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4261,9 +3832,6 @@
         "$values": [
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4281,9 +3849,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -4301,9 +3866,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -4321,9 +3883,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4341,9 +3900,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4361,9 +3917,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4381,9 +3934,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -4401,9 +3951,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -4421,9 +3968,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -4441,9 +3985,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 6,
@@ -4461,9 +4002,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -4481,9 +4019,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4501,9 +4036,6 @@
           },
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -4521,9 +4053,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4541,9 +4070,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4561,9 +4087,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4581,9 +4104,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -4601,9 +4121,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4621,9 +4138,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4641,9 +4155,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4661,9 +4172,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -4681,9 +4189,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -4701,9 +4206,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4721,9 +4223,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4741,9 +4240,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4761,9 +4257,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -4781,9 +4274,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4801,9 +4291,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -4821,9 +4308,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -4841,9 +4325,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5207,9 +4688,6 @@
         "$values": [
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5227,9 +4705,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5247,9 +4722,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5267,9 +4739,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5287,9 +4756,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5307,9 +4773,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5327,9 +4790,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5347,9 +4807,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5367,9 +4824,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -5387,9 +4841,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5407,9 +4858,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5427,9 +4875,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5447,9 +4892,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5467,9 +4909,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5487,9 +4926,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5507,9 +4943,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5527,9 +4960,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5547,9 +4977,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5567,9 +4994,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5587,9 +5011,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5607,9 +5028,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5627,9 +5045,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5647,9 +5062,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5667,9 +5079,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5687,9 +5096,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5707,9 +5113,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5727,9 +5130,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5747,9 +5147,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5767,9 +5164,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5787,9 +5181,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5807,9 +5198,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -5827,9 +5215,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5847,9 +5232,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5867,9 +5249,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -5887,9 +5266,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5907,9 +5283,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5927,9 +5300,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -5947,9 +5317,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5967,9 +5334,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -5987,9 +5351,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6007,9 +5368,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6027,9 +5385,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -6047,9 +5402,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -6413,9 +5765,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -6433,9 +5782,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 8,
@@ -6453,9 +5799,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 7,
@@ -6473,9 +5816,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -6493,9 +5833,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -6513,9 +5850,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 6,
@@ -6533,9 +5867,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 7,
@@ -6553,9 +5884,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6573,9 +5901,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 6,
@@ -6593,9 +5918,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 6,
@@ -6613,9 +5935,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -6633,9 +5952,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6653,9 +5969,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6673,9 +5986,6 @@
           },
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -6693,9 +6003,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -6713,9 +6020,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6733,9 +6037,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -6753,9 +6054,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -6773,9 +6071,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -6793,9 +6088,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -6813,9 +6105,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6833,9 +6122,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6853,9 +6139,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -6873,9 +6156,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 8,
@@ -6893,9 +6173,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7259,9 +6536,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -7279,9 +6553,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7299,9 +6570,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7319,9 +6587,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7339,9 +6604,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7359,9 +6621,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7379,9 +6638,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7399,9 +6655,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7419,9 +6672,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7439,9 +6689,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7459,9 +6706,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7479,9 +6723,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -7499,9 +6740,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -7519,9 +6757,6 @@
           },
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7539,9 +6774,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7559,9 +6791,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7579,9 +6808,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -7599,9 +6825,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7619,9 +6842,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7639,9 +6859,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7659,9 +6876,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7679,9 +6893,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 7,
@@ -7699,9 +6910,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7719,9 +6927,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7739,9 +6944,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -7759,9 +6961,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7779,9 +6978,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -7799,9 +6995,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -7819,9 +7012,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -7839,9 +7029,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -7859,9 +7046,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8225,9 +7409,6 @@
         "$values": [
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8245,9 +7426,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8265,9 +7443,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -8285,9 +7460,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -8305,9 +7477,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -8325,9 +7494,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8345,9 +7511,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8365,9 +7528,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8385,9 +7545,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8405,9 +7562,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 6,
@@ -8425,9 +7579,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -8445,9 +7596,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -8465,9 +7613,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8485,9 +7630,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8505,9 +7647,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -8525,9 +7664,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8545,9 +7681,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -8565,9 +7698,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8585,9 +7715,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8605,9 +7732,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8625,9 +7749,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -8645,9 +7766,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8665,9 +7783,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -8685,9 +7800,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8705,9 +7817,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8725,9 +7834,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8745,9 +7851,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8765,9 +7868,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8785,9 +7885,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -8805,9 +7902,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8825,9 +7919,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -8845,9 +7936,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8865,9 +7953,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8885,9 +7970,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -8905,9 +7987,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -8925,9 +8004,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -8945,9 +8021,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -9311,9 +8384,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9331,9 +8401,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9351,9 +8418,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9371,9 +8435,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9391,9 +8452,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9411,9 +8469,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9431,9 +8486,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9451,9 +8503,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9471,9 +8520,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9491,9 +8537,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9511,9 +8554,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 8,
@@ -9531,9 +8571,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9551,9 +8588,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9571,9 +8605,6 @@
           },
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9591,9 +8622,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 6,
@@ -9611,9 +8639,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9631,9 +8656,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9651,9 +8673,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9671,9 +8690,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9691,9 +8707,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -9711,9 +8724,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9731,9 +8741,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9751,9 +8758,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9771,9 +8775,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -9791,9 +8792,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 7,
@@ -9811,9 +8809,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -9831,9 +8826,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -9851,9 +8843,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -9871,9 +8860,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9891,9 +8877,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -9911,9 +8894,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10277,9 +9257,6 @@
         "$values": [
           {
             "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
-            "firstName": "Kevin",
-            "lastName": "Wood",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 6,
@@ -10297,9 +9274,6 @@
           },
           {
             "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-            "firstName": "Frank",
-            "lastName": "Rivera",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -10317,9 +9291,6 @@
           },
           {
             "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-            "firstName": "Melinda",
-            "lastName": "Wood",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10337,9 +9308,6 @@
           },
           {
             "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-            "firstName": "Ian",
-            "lastName": "Bolden",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10357,9 +9325,6 @@
           },
           {
             "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-            "firstName": "Divakar",
-            "lastName": "Tailor",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -10377,9 +9342,6 @@
           },
           {
             "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-            "firstName": "Dhruva",
-            "lastName": "Poluru",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10397,9 +9359,6 @@
           },
           {
             "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-            "firstName": "Sapna",
-            "lastName": "Chordia",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10417,9 +9376,6 @@
           },
           {
             "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-            "firstName": "Karen",
-            "lastName": "Heier",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 7,
@@ -10437,9 +9393,6 @@
           },
           {
             "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-            "firstName": "Laura",
-            "lastName": "Lobb",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10457,9 +9410,6 @@
           },
           {
             "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
-            "firstName": "Ingrid",
-            "lastName": "Teasdale",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": true,
             "gamesPlayed": 7,
@@ -10477,9 +9427,6 @@
           },
           {
             "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-            "firstName": "Anshika",
-            "lastName": "Dubey",
-            "gender": "Female",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 6,
@@ -10497,9 +9444,6 @@
           },
           {
             "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-            "firstName": "Mike",
-            "lastName": "Piccirillo",
-            "gender": "Male",
             "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10517,9 +9461,6 @@
           },
           {
             "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-            "firstName": "Jessica",
-            "lastName": "Pimentel",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10537,9 +9478,6 @@
           },
           {
             "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
-            "firstName": "Mariah",
-            "lastName": "DeHaven",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -10557,9 +9495,6 @@
           },
           {
             "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
-            "firstName": "Gabriela",
-            "lastName": "Melideo",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -10577,9 +9512,6 @@
           },
           {
             "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-            "firstName": "Jessica",
-            "lastName": "Zepeda",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -10597,9 +9529,6 @@
           },
           {
             "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
-            "firstName": "Carmen",
-            "lastName": "Wise",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -10617,9 +9546,6 @@
           },
           {
             "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
-            "firstName": "Tanya",
-            "lastName": "SutanTanon",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -10637,9 +9563,6 @@
           },
           {
             "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-            "firstName": "Alfredo",
-            "lastName": "Arcila",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -10657,9 +9580,6 @@
           },
           {
             "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
-            "firstName": "Marie",
-            "lastName": "O’Grady",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -10677,9 +9597,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -10697,9 +9614,6 @@
           },
           {
             "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-            "firstName": "Sheree",
-            "lastName": "Bracco",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10717,9 +9631,6 @@
           },
           {
             "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-            "firstName": "Stuart",
-            "lastName": "Hagenlock",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -10737,9 +9648,6 @@
           },
           {
             "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-            "firstName": "Bryan",
-            "lastName": "Askins",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 8,
@@ -10757,9 +9665,6 @@
           },
           {
             "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
-            "firstName": "Andriana",
-            "lastName": "Solano",
-            "gender": "female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 8,
@@ -10777,9 +9682,6 @@
           },
           {
             "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
-            "firstName": "Koren",
-            "lastName": "DeHaven",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": true,
             "gamesPlayed": 0,
@@ -10797,9 +9699,6 @@
           },
           {
             "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-            "firstName": "Suzy",
-            "lastName": "Gay",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10817,9 +9716,6 @@
           },
           {
             "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-            "firstName": "Aurelio",
-            "lastName": "Roca",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10837,9 +9733,6 @@
           },
           {
             "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-            "firstName": "Caroline",
-            "lastName": "Mitchell",
-            "gender": "Female",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -10857,9 +9750,6 @@
           },
           {
             "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-            "firstName": "Andy",
-            "lastName": "Lubel",
-            "gender": "Male",
             "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11223,9 +10113,6 @@
         "$values": [
           {
             "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-            "firstName": "Lee Ann",
-            "lastName": "Houston",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11243,9 +10130,6 @@
           },
           {
             "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
-            "firstName": "Mark",
-            "lastName": "Thompson",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11263,9 +10147,6 @@
           },
           {
             "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-            "firstName": "Kathleen",
-            "lastName": "Kane",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11283,9 +10164,6 @@
           },
           {
             "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-            "firstName": "Scott",
-            "lastName": "Fujiwara",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11303,9 +10181,6 @@
           },
           {
             "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-            "firstName": "Hossam",
-            "lastName": "Hablas",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11323,9 +10198,6 @@
           },
           {
             "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
-            "firstName": "Carol",
-            "lastName": "Trujillo",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11343,9 +10215,6 @@
           },
           {
             "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-            "firstName": "Alessandra",
-            "lastName": "Cheretis",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11363,9 +10232,6 @@
           },
           {
             "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-            "firstName": "Damon",
-            "lastName": "Cerrone",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11383,9 +10249,6 @@
           },
           {
             "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-            "firstName": "Krista",
-            "lastName": "DiVenere",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11403,9 +10266,6 @@
           },
           {
             "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-            "firstName": "Sue",
-            "lastName": "Cerrone",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11423,9 +10283,6 @@
           },
           {
             "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
-            "firstName": "Dawn",
-            "lastName": "Danner",
-            "gender": "Female",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11443,9 +10300,6 @@
           },
           {
             "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-            "firstName": "Luis",
-            "lastName": "Rodriguez",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11463,9 +10317,6 @@
           },
           {
             "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-            "firstName": "Gary",
-            "lastName": "Steffer",
-            "gender": "Male",
             "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11483,9 +10334,6 @@
           },
           {
             "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-            "firstName": "Katrina",
-            "lastName": "Koons",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11503,9 +10351,6 @@
           },
           {
             "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
-            "firstName": "Elliot",
-            "lastName": "Hoang",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11523,9 +10368,6 @@
           },
           {
             "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-            "firstName": "Tracey",
-            "lastName": "Lawson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11543,9 +10385,6 @@
           },
           {
             "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
-            "firstName": "Colette",
-            "lastName": "Johnson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11563,9 +10402,6 @@
           },
           {
             "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
-            "firstName": "Linda",
-            "lastName": "Rabin",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11583,9 +10419,6 @@
           },
           {
             "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
-            "firstName": "Denise",
-            "lastName": "Vance Noelle",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11603,9 +10436,6 @@
           },
           {
             "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
-            "firstName": "Bob",
-            "lastName": "Post",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11623,9 +10453,6 @@
           },
           {
             "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
-            "firstName": "Jacqueline",
-            "lastName": "Tirona",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11643,9 +10470,6 @@
           },
           {
             "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-            "firstName": "Jacques",
-            "lastName": "Beaudry-Losique",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11663,9 +10487,6 @@
           },
           {
             "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-            "firstName": "Mica",
-            "lastName": "Gray",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11683,9 +10504,6 @@
           },
           {
             "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
-            "firstName": "Seth",
-            "lastName": "Blackwell",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11703,9 +10521,6 @@
           },
           {
             "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
-            "firstName": "Min",
-            "lastName": "Cho",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11723,9 +10538,6 @@
           },
           {
             "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-            "firstName": "John",
-            "lastName": "Koons",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11743,9 +10555,6 @@
           },
           {
             "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-            "firstName": "Merwynn",
-            "lastName": "Pagdanganan ",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11763,9 +10572,6 @@
           },
           {
             "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
-            "firstName": "Joanne",
-            "lastName": "Gryski",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 8,
@@ -11783,9 +10589,6 @@
           },
           {
             "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
-            "firstName": "John",
-            "lastName": "Carlson",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11803,9 +10606,6 @@
           },
           {
             "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
-            "firstName": "Gregory",
-            "lastName": "Scheyer",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11823,9 +10623,6 @@
           },
           {
             "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
-            "firstName": "Bharti",
-            "lastName": "Smith",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11843,9 +10640,6 @@
           },
           {
             "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
-            "firstName": "Joe",
-            "lastName": "Carpenter",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11863,9 +10657,6 @@
           },
           {
             "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-            "firstName": "Susanne",
-            "lastName": "Katz",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11883,9 +10674,6 @@
           },
           {
             "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-            "firstName": "Joey",
-            "lastName": "Penvari",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 0,
@@ -11903,9 +10691,6 @@
           },
           {
             "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-            "firstName": "Anne",
-            "lastName": "Nagy",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11923,9 +10708,6 @@
           },
           {
             "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-            "firstName": "Saurabh",
-            "lastName": "Kohli",
-            "gender": "Male",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": false,
             "gamesPlayed": 8,
@@ -11943,9 +10725,6 @@
           },
           {
             "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
-            "firstName": "Mary",
-            "lastName": "Carlson",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
@@ -11963,9 +10742,6 @@
           },
           {
             "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
-            "firstName": "Leslie",
-            "lastName": "Bartnik",
-            "gender": "Female",
             "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
             "isSub": true,
             "gamesPlayed": 0,
