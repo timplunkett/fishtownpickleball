@@ -89,7 +89,12 @@ function slimMatchupDetails(details) {
     if (d.lineups) {
       const lineupArr = d.lineups?.lineups?.$values || d.lineups?.$values || d.lineups;
       if (Array.isArray(lineupArr)) {
-        slimmed.lineups = { lineups: { $values: lineupArr.map(l => pickKeys(l, LINEUP_KEEP)) } };
+        const slimLineups = lineupArr
+          .map(l => pickKeys(l, LINEUP_KEEP))
+          .filter(l => l.homePlayerId1 || l.homePlayerId2 || l.awayPlayerId1 || l.awayPlayerId2);
+        if (slimLineups.length) {
+          slimmed.lineups = { lineups: { $values: slimLineups } };
+        }
       }
     }
 
