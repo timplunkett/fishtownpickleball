@@ -34,7 +34,7 @@ async function fetchDuprRating(duprId) {
     const response = await fetch(url, {
       method: 'POST',
       headers: {
-        'Authorization': `******
+        "Authorization": `Bearer ${ACCESS_TOKEN}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(payload),
