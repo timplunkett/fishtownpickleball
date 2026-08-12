@@ -764,7 +764,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
 
 async function compileDashboardHtml(league = 'local', { primaryOnly = false } = {}) {
   console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
-  const dataSubdir = league === 'travel' ? 'data-travel' : 'data';
+  const dataSubdir = league === 'travel' ? 'data-travel' : 'data-local';
   const dataDir = path.join(__dirname, '..', dataSubdir);
   const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
   const cplDir = path.join(__dirname, '../../cpl', league);
@@ -833,7 +833,7 @@ function buildPlayerIndex() {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
   const leagueConfigs = [
-    { league: 'local', dataSubdir: 'data', divisionsFile: 'divisions.json' },
+    { league: 'local', dataSubdir: 'data-local', divisionsFile: 'divisions.json' },
     { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
   ];
 

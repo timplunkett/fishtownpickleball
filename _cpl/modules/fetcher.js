@@ -156,7 +156,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
   console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
 
   const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
-  const dataSubdir = league === 'travel' ? 'data-travel' : 'data';
+  const dataSubdir = league === 'travel' ? 'data-travel' : 'data-local';
   const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
 
   // Fetch all clubs/divisions to build the division manifest.
