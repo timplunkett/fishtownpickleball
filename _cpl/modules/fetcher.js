@@ -29,6 +29,16 @@ const MATCHUP_DETAIL_MATCHUP_KEEP = new Set([
   'homePoints', 'awayPoints', 'endResult', 'homeName', 'awayName', 'weekNumber',
 ]);
 
+// Per-matchup player stat entries: only matchup-specific stats + identity keys.
+// Static profile fields (firstName, lastName, gender) are omitted here because
+// they never change and are already stored in players.json.
+const MATCHUP_PLAYER_STATS_KEEP = new Set([
+  'playerId', 'isSub', 'teamId',
+  'gamesPlayed', 'wins', 'losses', 'pointsWon', 'totalPointsAgainst',
+  'clutchWins', 'clutchLosses', 'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses',
+  'ranking',
+]);
+
 const LINEUP_KEEP = new Set([
   'homePlayerId1', 'homePlayerId2', 'awayPlayerId1', 'awayPlayerId2',
   'homeScore', 'awayScore', 'matchType', 'matchupId',
@@ -61,11 +71,18 @@ function slimMatchupDetails(details) {
 
     if (d.matchup) slimmed.matchup = pickKeys(d.matchup, MATCHUP_DETAIL_MATCHUP_KEEP);
 
-    if (d.matchupPlayerStats) {
+    const isCompleted = !!(d.matchup && d.matchup.endResult);
+    if (d.matchupPlayerStats && isCompleted) {
+      // For completed matchups, keep only players who actually participated.
+      // Players with gamesPlayed == 0 contributed nothing and are never used.
       const arr = d.matchupPlayerStats.$values || d.matchupPlayerStats;
-      const slimArr = Array.isArray(arr) ? arr.map(p => pickKeys(p, PLAYER_KEEP)) : [];
+      const slimArr = Array.isArray(arr)
+        ? arr.map(p => pickKeys(p, MATCHUP_PLAYER_STATS_KEEP)).filter(p => p.gamesPlayed)
+        : [];
       slimmed.matchupPlayerStats = { $values: slimArr };
     }
+    // For upcoming matchups (no endResult), matchupPlayerStats is omitted: all
+    // stats are zero, and player names are resolved from players.json instead.
 
     if (d.lineups) {
       const lineupArr = d.lineups?.lineups?.$values || d.lineups?.$values || d.lineups;
