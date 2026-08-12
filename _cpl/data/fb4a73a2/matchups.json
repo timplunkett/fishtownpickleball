@@ -1,8 +1,6 @@
 {
-  "$id": "1",
   "$values": [
     {
-      "$id": "2",
       "matchupId": "9f0abcac-3016-4c4a-8c87-15f385439df1",
       "weekNumber": 1,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
@@ -10,99 +8,11 @@
       "homePoints": 528,
       "awayPoints": 652,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-01T19:30:00",
       "homeName": "Kiss My Ace",
-      "awayName": "Dink Responsibly",
-      "awayTeam": {
-        "$id": "3",
-        "teamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "teamName": "Dink Responsibly",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "club": {
-          "$id": "4",
-          "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-          "name": "Dill Dinkers - Hatboro",
-          "logo": "DillDinkersHatboro",
-          "color": "#8bc54f",
-          "website": "https://dilldinkers.com/",
-          "facebook": "https://www.facebook.com/dilldinkers/",
-          "instagram": "https://www.instagram.com/dilldinkers_hatboro_pa/",
-          "twitter": null,
-          "youtube": "https://www.youtube.com/@dilldinkers",
-          "address": "354 South Warminster Rd, Hatboro, PA",
-          "phone": "(267) 888-3465",
-          "divisions": {
-            "$id": "5",
-            "$values": []
-          }
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "6",
-        "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "teamName": "Kiss My Ace",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "7",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "8",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "9",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "10",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 7,
-      "awayWins": 25,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Dink Responsibly"
     },
     {
-      "$id": "11",
       "matchupId": "ee36918f-a14f-405e-9535-b8bac300da12",
       "weekNumber": 1,
       "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
@@ -110,84 +20,11 @@
       "homePoints": 584,
       "awayPoints": 636,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-01T19:30:00",
       "homeName": "Court Jesters",
-      "awayName": "Baby Got Backhand",
-      "awayTeam": {
-        "$id": "12",
-        "teamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "teamName": "Baby Got Backhand",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "13",
-        "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "teamName": "Court Jesters",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "14",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "15",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "16",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "17",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 12,
-      "awayWins": 20,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Baby Got Backhand"
     },
     {
-      "$id": "18",
       "matchupId": "63ea69ef-b8f1-4c39-ad06-a38983eea308",
       "weekNumber": 2,
       "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
@@ -195,66 +32,11 @@
       "homePoints": 595,
       "awayPoints": 544,
       "endResult": "home",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-08T19:30:00",
       "homeName": "Dink Responsibly",
-      "awayName": "Court Jesters",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "19",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "20",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "21",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "22",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Court Jesters"
     },
     {
-      "$id": "23",
       "matchupId": "366d1104-e4dc-48c6-9d2d-d8257dd87474",
       "weekNumber": 2,
       "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
@@ -262,66 +44,11 @@
       "homePoints": 610,
       "awayPoints": 550,
       "endResult": "home",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-08T19:30:00",
       "homeName": "Baby Got Backhand",
-      "awayName": "Kiss My Ace",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "24",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "25",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "26",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "27",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Kiss My Ace"
     },
     {
-      "$id": "28",
       "matchupId": "36aeb219-c694-46b8-94a2-56ea2f8277b9",
       "weekNumber": 3,
       "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
@@ -329,66 +56,11 @@
       "homePoints": 588,
       "awayPoints": 530,
       "endResult": "home",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-15T19:30:00",
       "homeName": "Court Jesters",
-      "awayName": "Kiss My Ace",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "29",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "30",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "31",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "32",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Kiss My Ace"
     },
     {
-      "$id": "33",
       "matchupId": "0148709f-4ef7-44fb-95c3-ef914160dcc5",
       "weekNumber": 3,
       "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
@@ -396,66 +68,11 @@
       "homePoints": 665,
       "awayPoints": 561,
       "endResult": "home",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-15T19:30:00",
       "homeName": "Baby Got Backhand",
-      "awayName": "Dink Responsibly",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "34",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "35",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "36",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "37",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 24,
-      "awayWins": 8,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Dink Responsibly"
     },
     {
-      "$id": "38",
       "matchupId": "feeef72d-eed6-47ac-95ff-77795931afdc",
       "weekNumber": 4,
       "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
@@ -463,66 +80,11 @@
       "homePoints": 596,
       "awayPoints": 599,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-22T19:30:00",
       "homeName": "Dink Responsibly",
-      "awayName": "Kiss My Ace",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "39",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "40",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "41",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "42",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 16,
-      "awayWins": 16,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Kiss My Ace"
     },
     {
-      "$id": "43",
       "matchupId": "80bffb93-4b76-463e-8188-c3f7d8040ac6",
       "weekNumber": 4,
       "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
@@ -530,66 +92,11 @@
       "homePoints": 542,
       "awayPoints": 651,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-22T19:30:00",
       "homeName": "Court Jesters",
-      "awayName": "Baby Got Backhand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "44",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "45",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "46",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "47",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 9,
-      "awayWins": 23,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Baby Got Backhand"
     },
     {
-      "$id": "48",
       "matchupId": "da1d0afc-41ed-40cb-9a4f-2625db0229c0",
       "weekNumber": 5,
       "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
@@ -597,66 +104,11 @@
       "homePoints": 568,
       "awayPoints": 605,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-29T19:30:00",
       "homeName": "Court Jesters",
-      "awayName": "Dink Responsibly",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "49",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "50",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "51",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "52",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 16,
-      "awayWins": 16,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Dink Responsibly"
     },
     {
-      "$id": "53",
       "matchupId": "91ff0170-0e36-415f-ac40-2e84c7ed5e1d",
       "weekNumber": 5,
       "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
@@ -664,66 +116,11 @@
       "homePoints": 643,
       "awayPoints": 535,
       "endResult": "home",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-29T19:30:00",
       "homeName": "Baby Got Backhand",
-      "awayName": "Kiss My Ace",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "54",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "55",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "56",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "57",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 25,
-      "awayWins": 7,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Kiss My Ace"
     },
     {
-      "$id": "58",
       "matchupId": "3d353eca-c9e0-4bd3-bb7c-02e8689765f7",
       "weekNumber": 6,
       "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
@@ -731,66 +128,11 @@
       "homePoints": 574,
       "awayPoints": 598,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-05T19:30:00",
       "homeName": "Dink Responsibly",
-      "awayName": "Baby Got Backhand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "59",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "60",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "61",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "62",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 15,
-      "awayWins": 17,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Baby Got Backhand"
     },
     {
-      "$id": "63",
       "matchupId": "4f865894-ddee-46aa-83ff-192d42e9671d",
       "weekNumber": 6,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
@@ -798,66 +140,11 @@
       "homePoints": 538,
       "awayPoints": 656,
       "endResult": "away",
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-05T19:30:00",
       "homeName": "Kiss My Ace",
-      "awayName": "Court Jesters",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "64",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "65",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "66",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "67",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 6,
-      "awayWins": 26,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Court Jesters"
     },
     {
-      "$id": "68",
       "matchupId": "962cd027-e846-4fa4-a3b5-9d47bfc5e0ad",
       "weekNumber": 7,
       "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
@@ -865,66 +152,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Baby Got Backhand",
-      "awayName": "Court Jesters",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "69",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "70",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "71",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "72",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Court Jesters"
     },
     {
-      "$id": "73",
       "matchupId": "5646746f-96fe-498e-8a95-e8a60fc235c4",
       "weekNumber": 7,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
@@ -932,66 +164,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Kiss My Ace",
-      "awayName": "Dink Responsibly",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "74",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "75",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "76",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "77",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Dink Responsibly"
     },
     {
-      "$id": "78",
       "matchupId": "d6eda1d4-c297-4744-a965-6445c02305ff",
       "weekNumber": 8,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
@@ -999,66 +176,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Kiss My Ace",
-      "awayName": "Baby Got Backhand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "79",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "80",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "81",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "82",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 1,
-      "address": "354 S Warminster Rd, Hatboro, PA"
+      "awayName": "Baby Got Backhand"
     },
     {
-      "$id": "83",
       "matchupId": "1d15511b-b969-4370-ad7c-ad4a4f6c3629",
       "weekNumber": 8,
       "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
@@ -1066,63 +188,9 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "fb4a73a2-b6e9-4ed4-9a6e-f547537b4dbf",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Dink Responsibly",
-      "awayName": "Court Jesters",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "84",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "85",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "86",
-        "clubId": "68257264-66e8-4633-8505-7de7b023aafe",
-        "name": "Dill Dinkers - Hatboro",
-        "logo": "DillDinkersHatboro",
-        "color": "#8bc54f",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "87",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "1180 Church Rd, Lansdale, PA"
+      "awayName": "Court Jesters"
     }
   ]
 }

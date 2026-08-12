@@ -1,8 +1,6 @@
 {
-  "$id": "1",
   "$values": [
     {
-      "$id": "2",
       "matchupId": "c7c8d950-24f8-4b3b-b32b-328c8a4248ed",
       "weekNumber": 1,
       "homeTeamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
@@ -10,99 +8,11 @@
       "homePoints": 604,
       "awayPoints": 594,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-16T19:30:00",
       "homeName": "Kitchen Renegades",
-      "awayName": "Big Dink Energy",
-      "awayTeam": {
-        "$id": "3",
-        "teamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
-        "teamName": "Big Dink Energy",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "club": {
-          "$id": "4",
-          "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-          "name": "Bounce Pickleball Club - Malvern",
-          "logo": "BouncePickleballClubMalvern",
-          "color": "#1db2dc",
-          "website": "https://www.bouncepb.com/",
-          "facebook": "https://www.facebook.com/bouncepickleball",
-          "instagram": "https://www.instagram.com/bounce.pickleball",
-          "twitter": null,
-          "youtube": null,
-          "address": "10 Morehall Road, Malvern PA",
-          "phone": "(484) 368-3074",
-          "divisions": {
-            "$id": "5",
-            "$values": []
-          }
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "6",
-        "teamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
-        "teamName": "Kitchen Renegades",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "7",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "8",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "9",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "10",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 17,
-      "awayWins": 15,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Big Dink Energy"
     },
     {
-      "$id": "11",
       "matchupId": "3fb6b0a2-3bd4-45ed-bdbf-4954418d74f1",
       "weekNumber": 1,
       "homeTeamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
@@ -110,84 +20,11 @@
       "homePoints": 613,
       "awayPoints": 510,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-16T19:30:00",
       "homeName": "The Bouncers",
-      "awayName": "The Dilluminati",
-      "awayTeam": {
-        "$id": "12",
-        "teamId": "eb947470-6265-4bc8-a28f-33376823469a",
-        "teamName": "The Dilluminati",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "13",
-        "teamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
-        "teamName": "The Bouncers",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "14",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "15",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "16",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "17",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Dilluminati"
     },
     {
-      "$id": "18",
       "matchupId": "43d406bc-0f21-4d75-933e-895ac581c219",
       "weekNumber": 2,
       "homeTeamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
@@ -195,66 +32,11 @@
       "homePoints": 646,
       "awayPoints": 552,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-23T19:30:00",
       "homeName": "The Bouncers",
-      "awayName": "Kitchen Renegades",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "19",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "20",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "21",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "22",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 25,
-      "awayWins": 7,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Kitchen Renegades"
     },
     {
-      "$id": "23",
       "matchupId": "9bc0529d-e4fd-4d06-ae33-a0012f126952",
       "weekNumber": 2,
       "homeTeamId": "eb947470-6265-4bc8-a28f-33376823469a",
@@ -262,66 +44,11 @@
       "homePoints": 590,
       "awayPoints": 572,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-23T19:30:00",
       "homeName": "The Dilluminati",
-      "awayName": "Big Dink Energy",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "24",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "25",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "26",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "27",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 17,
-      "awayWins": 15,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Big Dink Energy"
     },
     {
-      "$id": "28",
       "matchupId": "5f4c497f-25cb-4e84-a4a6-650db8a51ff6",
       "weekNumber": 3,
       "homeTeamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
@@ -329,66 +56,11 @@
       "homePoints": 600,
       "awayPoints": 660,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-30T19:30:00",
       "homeName": "Kitchen Renegades",
-      "awayName": "The Dilluminati",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "29",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "30",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "31",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "32",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 13,
-      "awayWins": 19,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Dilluminati"
     },
     {
-      "$id": "33",
       "matchupId": "e264d89b-308c-4d8a-ba4f-ab0e4ab9ac88",
       "weekNumber": 3,
       "homeTeamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
@@ -396,66 +68,11 @@
       "homePoints": 535,
       "awayPoints": 628,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-30T19:30:00",
       "homeName": "Big Dink Energy",
-      "awayName": "The Bouncers",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "34",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "35",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "36",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "37",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 11,
-      "awayWins": 21,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Bouncers"
     },
     {
-      "$id": "38",
       "matchupId": "2aef6d0c-536a-418b-ace9-8c700b2c7046",
       "weekNumber": 4,
       "homeTeamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
@@ -463,66 +80,11 @@
       "homePoints": 571,
       "awayPoints": 673,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-07T19:30:00",
       "homeName": "Big Dink Energy",
-      "awayName": "Kitchen Renegades",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "39",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "40",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "41",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "42",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 6,
-      "awayWins": 26,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Kitchen Renegades"
     },
     {
-      "$id": "43",
       "matchupId": "59afb0e6-1776-4bed-ad91-9ff05f642de9",
       "weekNumber": 4,
       "homeTeamId": "eb947470-6265-4bc8-a28f-33376823469a",
@@ -530,66 +92,11 @@
       "homePoints": 655,
       "awayPoints": 543,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-07T19:30:00",
       "homeName": "The Dilluminati",
-      "awayName": "The Bouncers",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "44",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "45",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "46",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "47",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 25,
-      "awayWins": 7,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Bouncers"
     },
     {
-      "$id": "48",
       "matchupId": "a79d1cb7-cd67-4aaf-b410-5394eee22434",
       "weekNumber": 5,
       "homeTeamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
@@ -597,66 +104,11 @@
       "homePoints": 534,
       "awayPoints": 652,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-14T19:30:00",
       "homeName": "Big Dink Energy",
-      "awayName": "The Dilluminati",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "49",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "50",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "51",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "52",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 10,
-      "awayWins": 22,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 1,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Dilluminati"
     },
     {
-      "$id": "53",
       "matchupId": "87493535-c6ea-4638-8bf7-6b4335158379",
       "weekNumber": 5,
       "homeTeamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
@@ -664,66 +116,11 @@
       "homePoints": 571,
       "awayPoints": 677,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-14T19:30:00",
       "homeName": "Kitchen Renegades",
-      "awayName": "The Bouncers",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "54",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "55",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "56",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "57",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 6,
-      "awayWins": 26,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Bouncers"
     },
     {
-      "$id": "58",
       "matchupId": "c6282d99-5e68-45ef-a189-3fadce1d6564",
       "weekNumber": 6,
       "homeTeamId": "eb947470-6265-4bc8-a28f-33376823469a",
@@ -731,66 +128,11 @@
       "homePoints": 612,
       "awayPoints": 584,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-21T19:30:00",
       "homeName": "The Dilluminati",
-      "awayName": "Kitchen Renegades",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "59",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "60",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "61",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "62",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Kitchen Renegades"
     },
     {
-      "$id": "63",
       "matchupId": "39815415-22b6-4f63-b907-7ac86fed49c6",
       "weekNumber": 6,
       "homeTeamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
@@ -798,66 +140,11 @@
       "homePoints": 640,
       "awayPoints": 541,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-21T19:30:00",
       "homeName": "The Bouncers",
-      "awayName": "Big Dink Energy",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "64",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "65",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "66",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "67",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 22,
-      "awayWins": 10,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Big Dink Energy"
     },
     {
-      "$id": "68",
       "matchupId": "e576310d-0c1d-4ca4-a627-839dad4e867e",
       "weekNumber": 7,
       "homeTeamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
@@ -865,66 +152,11 @@
       "homePoints": 611,
       "awayPoints": 599,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-28T19:30:00",
       "homeName": "Kitchen Renegades",
-      "awayName": "Big Dink Energy",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "69",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "70",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "71",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "72",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 17,
-      "awayWins": 15,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Big Dink Energy"
     },
     {
-      "$id": "73",
       "matchupId": "a9ddc755-3c83-44a6-b34b-cc3d1e65646a",
       "weekNumber": 7,
       "homeTeamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
@@ -932,66 +164,11 @@
       "homePoints": 580,
       "awayPoints": 602,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-28T19:30:00",
       "homeName": "The Bouncers",
-      "awayName": "The Dilluminati",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "74",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "75",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "76",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "77",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 12,
-      "awayWins": 20,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Dilluminati"
     },
     {
-      "$id": "78",
       "matchupId": "0061cc1d-2328-4617-abdd-197143cebd43",
       "weekNumber": 8,
       "homeTeamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
@@ -999,66 +176,11 @@
       "homePoints": 586,
       "awayPoints": 617,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-04T19:30:00",
       "homeName": "The Bouncers",
-      "awayName": "Kitchen Renegades",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "79",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "80",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "81",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "82",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 15,
-      "awayWins": 17,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Kitchen Renegades"
     },
     {
-      "$id": "83",
       "matchupId": "b7239678-4001-46fd-873e-8ca64c687b96",
       "weekNumber": 8,
       "homeTeamId": "eb947470-6265-4bc8-a28f-33376823469a",
@@ -1066,133 +188,23 @@
       "homePoints": 637,
       "awayPoints": 597,
       "endResult": "home",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-04T19:30:00",
       "homeName": "The Dilluminati",
-      "awayName": "Big Dink Energy",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "84",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "85",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "86",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "87",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 18,
-      "awayWins": 14,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "Big Dink Energy"
     },
     {
-      "$id": "88",
       "matchupId": "2071aeac-76ce-4677-82b6-0e7f0a5406b0",
       "weekNumber": 9,
       "homeTeamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
       "awayTeamId": "eb947470-6265-4bc8-a28f-33376823469a",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
+      "homePoints": 592,
+      "awayPoints": 600,
+      "endResult": "away",
       "scheduledTime": "2026-08-11T19:30:00",
       "homeName": "Kitchen Renegades",
-      "awayName": "The Dilluminati",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "89",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "90",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "91",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "92",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Dilluminati"
     },
     {
-      "$id": "93",
       "matchupId": "56363f5b-2a39-421f-87a3-cad3e1370cef",
       "weekNumber": 9,
       "homeTeamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
@@ -1200,63 +212,9 @@
       "homePoints": 504,
       "awayPoints": 667,
       "endResult": "away",
-      "divisionId": "a40bd7e8-11d4-48f0-a298-4e7d6137fbf4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-11T19:30:00",
       "homeName": "Big Dink Energy",
-      "awayName": "The Bouncers",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "94",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "95",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "96",
-        "clubId": "b436597d-5783-4270-b6b2-6522dca640da",
-        "name": "Bounce Pickleball Club - Malvern",
-        "logo": "BouncePickleballClubMalvern",
-        "color": "#1db2dc",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "97",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 4,
-      "awayWins": 28,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "10 S Morehall Rd, Malvern, PA"
+      "awayName": "The Bouncers"
     }
   ]
 }

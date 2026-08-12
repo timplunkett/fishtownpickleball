@@ -1,8 +1,6 @@
 {
-  "$id": "1",
   "$values": [
     {
-      "$id": "2",
       "matchupId": "0051196e-af96-4ad8-913e-c8e90b473c64",
       "weekNumber": 1,
       "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
@@ -10,99 +8,11 @@
       "homePoints": 559,
       "awayPoints": 599,
       "endResult": "away",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-01T19:30:00",
       "homeName": "Smash-holes!",
-      "awayName": "The Three-Fives",
-      "awayTeam": {
-        "$id": "3",
-        "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "teamName": "The Three-Fives",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$id": "4",
-          "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-          "name": "Robbinsville Pickle House",
-          "logo": "RobbinsvillePickleHouse",
-          "color": "#f2734e",
-          "website": "https://robbinsvillepicklehouse.com/",
-          "facebook": "https://www.facebook.com/picklehousenj",
-          "instagram": "https://www.instagram.com/picklehousenj/",
-          "twitter": null,
-          "youtube": null,
-          "address": "153 W Manor Way, Robbinsville Twp, NJ ",
-          "phone": "(609) 322-5700",
-          "divisions": {
-            "$id": "5",
-            "$values": []
-          }
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "6",
-        "teamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "teamName": "Smash-holes!",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "7",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "8",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "9",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "10",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 13,
-      "awayWins": 19,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Three-Fives"
     },
     {
-      "$id": "11",
       "matchupId": "fda8e860-df07-4809-8529-d42ac40d9eaa",
       "weekNumber": 1,
       "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
@@ -110,84 +20,11 @@
       "homePoints": 481,
       "awayPoints": 675,
       "endResult": "away",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-01T19:30:00",
       "homeName": "Nets Gambit",
-      "awayName": "Hot Ballers!",
-      "awayTeam": {
-        "$id": "12",
-        "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "teamName": "Hot Ballers!",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "13",
-        "teamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "teamName": "Nets Gambit",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "14",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "15",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "16",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "17",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 5,
-      "awayWins": 27,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Hot Ballers!"
     },
     {
-      "$id": "18",
       "matchupId": "c6b06a3e-0dd7-4b9b-9a2a-3683274f9b25",
       "weekNumber": 2,
       "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
@@ -195,66 +32,11 @@
       "homePoints": 480,
       "awayPoints": 668,
       "endResult": "away",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-07T19:30:00",
       "homeName": "Nets Gambit",
-      "awayName": "Smash-holes!",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "19",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "20",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "21",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "22",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 5,
-      "awayWins": 27,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Smash-holes!"
     },
     {
-      "$id": "23",
       "matchupId": "486ee2eb-c567-4989-ad96-3b7923f3349e",
       "weekNumber": 2,
       "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
@@ -262,66 +44,11 @@
       "homePoints": 586,
       "awayPoints": 630,
       "endResult": "away",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-07T19:30:00",
       "homeName": "Hot Ballers!",
-      "awayName": "The Three-Fives",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "24",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "25",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "26",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "27",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 12,
-      "awayWins": 20,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Three-Fives"
     },
     {
-      "$id": "28",
       "matchupId": "2cb80451-f81e-4223-88a0-14ab81e1cb20",
       "weekNumber": 3,
       "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
@@ -329,66 +56,11 @@
       "homePoints": 581,
       "awayPoints": 547,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-15T19:30:00",
       "homeName": "Smash-holes!",
-      "awayName": "Hot Ballers!",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "29",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "30",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "31",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "32",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 19,
-      "awayWins": 13,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Hot Ballers!"
     },
     {
-      "$id": "33",
       "matchupId": "67c0ea2e-7e1e-41fb-a1f0-82ff6d121d11",
       "weekNumber": 3,
       "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
@@ -396,66 +68,11 @@
       "homePoints": 611,
       "awayPoints": 612,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-15T19:30:00",
       "homeName": "The Three-Fives",
-      "awayName": "Nets Gambit",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "34",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "35",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "36",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "37",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 17,
-      "awayWins": 15,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Nets Gambit"
     },
     {
-      "$id": "38",
       "matchupId": "143181e7-0b1c-41ff-99e1-1dcd5f1f398e",
       "weekNumber": 4,
       "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
@@ -463,66 +80,11 @@
       "homePoints": 602,
       "awayPoints": 577,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-22T19:30:00",
       "homeName": "The Three-Fives",
-      "awayName": "Smash-holes!",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "39",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "40",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "41",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "42",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Smash-holes!"
     },
     {
-      "$id": "43",
       "matchupId": "eaf771c2-c89f-41b9-a7cb-d98e2798311b",
       "weekNumber": 4,
       "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
@@ -530,66 +92,11 @@
       "homePoints": 645,
       "awayPoints": 544,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-22T19:30:00",
       "homeName": "Hot Ballers!",
-      "awayName": "Nets Gambit",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "44",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "45",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "46",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "47",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 24,
-      "awayWins": 8,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Nets Gambit"
     },
     {
-      "$id": "48",
       "matchupId": "4dcc60d3-bf10-4d6b-b6ef-373b16e2f343",
       "weekNumber": 5,
       "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
@@ -597,66 +104,11 @@
       "homePoints": 615,
       "awayPoints": 558,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-29T19:30:00",
       "homeName": "The Three-Fives",
-      "awayName": "Hot Ballers!",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "49",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "50",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "51",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "52",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 19,
-      "awayWins": 13,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Hot Ballers!"
     },
     {
-      "$id": "53",
       "matchupId": "a24d93de-31f8-4607-a896-be3c1337d9f9",
       "weekNumber": 5,
       "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
@@ -664,66 +116,11 @@
       "homePoints": 640,
       "awayPoints": 567,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-29T19:30:00",
       "homeName": "Smash-holes!",
-      "awayName": "Nets Gambit",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "54",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "55",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "56",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "57",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Nets Gambit"
     },
     {
-      "$id": "58",
       "matchupId": "e814758d-3e8a-48fc-aefe-38b5c7edf71f",
       "weekNumber": 6,
       "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
@@ -731,66 +128,11 @@
       "homePoints": 584,
       "awayPoints": 656,
       "endResult": "away",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-05T19:30:00",
       "homeName": "Hot Ballers!",
-      "awayName": "Smash-holes!",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "59",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "60",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "61",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "62",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 12,
-      "awayWins": 20,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Smash-holes!"
     },
     {
-      "$id": "63",
       "matchupId": "d2baaa3d-8708-48a2-b86b-d2c8aa73bf9f",
       "weekNumber": 6,
       "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
@@ -798,66 +140,11 @@
       "homePoints": 632,
       "awayPoints": 596,
       "endResult": "home",
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-05T19:30:00",
       "homeName": "Nets Gambit",
-      "awayName": "The Three-Fives",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "64",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "65",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "66",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "67",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 17,
-      "awayWins": 15,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Three-Fives"
     },
     {
-      "$id": "68",
       "matchupId": "1df907fb-0af9-4213-8faa-45ab691460d4",
       "weekNumber": 7,
       "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
@@ -865,66 +152,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "The Three-Fives",
-      "awayName": "Smash-holes!",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "69",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "70",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "71",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "72",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Smash-holes!"
     },
     {
-      "$id": "73",
       "matchupId": "b32d3c62-9396-4064-845d-d58b9a08a5d4",
       "weekNumber": 7,
       "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
@@ -932,66 +164,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Nets Gambit",
-      "awayName": "Hot Ballers!",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "74",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "75",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "76",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "77",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Hot Ballers!"
     },
     {
-      "$id": "78",
       "matchupId": "95161160-4846-429c-86d6-30b90f97e866",
       "weekNumber": 8,
       "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
@@ -999,66 +176,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Hot Ballers!",
-      "awayName": "The Three-Fives",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "79",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "80",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "81",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "82",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Three-Fives"
     },
     {
-      "$id": "83",
       "matchupId": "846c0107-9a93-4f8d-8542-97bbe06f7e06",
       "weekNumber": 8,
       "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
@@ -1066,63 +188,9 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "c1b3f9c1-2850-42bb-ba91-8c05694d9dc4",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Smash-holes!",
-      "awayName": "Nets Gambit",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "84",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "85",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "86",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "87",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Nets Gambit"
     }
   ]
 }

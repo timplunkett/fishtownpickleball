@@ -13,6 +13,71 @@ function normalizeClubName(clubName) {
   return (clubName || '').replaceAll(' Pickleball Club', '');
 }
 
+const MATCHUP_KEEP = new Set([
+  'matchupId', 'weekNumber', 'homeTeamId', 'awayTeamId', 'homePoints', 'awayPoints',
+  'endResult', 'scheduledTime', 'homeName', 'awayName',
+]);
+
+const PLAYER_KEEP = new Set([
+  'playerId', 'firstName', 'lastName', 'gender', 'isCaptain', 'isSub', 'teamId', 'teamName',
+  'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
+  'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
+]);
+
+const MATCHUP_DETAIL_MATCHUP_KEEP = new Set([
+  'matchupId', 'weekNumber', 'homeTeamId', 'awayTeamId',
+  'homePoints', 'awayPoints', 'endResult', 'homeName', 'awayName', 'weekNumber',
+]);
+
+const LINEUP_KEEP = new Set([
+  'homePlayerId1', 'homePlayerId2', 'awayPlayerId1', 'awayPlayerId2',
+  'homeScore', 'awayScore', 'matchType', 'matchupId',
+]);
+
+function pickKeys(obj, keepSet) {
+  const out = {};
+  for (const key of Object.keys(obj)) {
+    if (keepSet.has(key)) out[key] = obj[key];
+  }
+  return out;
+}
+
+function slimMatchups(raw) {
+  const arr = raw.$values || (raw.matchups && raw.matchups.$values) || raw;
+  if (!Array.isArray(arr)) return raw;
+  return { $values: arr.map(m => pickKeys(m, MATCHUP_KEEP)) };
+}
+
+function slimPlayers(raw) {
+  const arr = raw.$values || raw;
+  if (!Array.isArray(arr)) return raw;
+  return { $values: arr.map(p => pickKeys(p, PLAYER_KEEP)) };
+}
+
+function slimMatchupDetails(details) {
+  return details.map(({ matchupId, details: d }) => {
+    if (!d) return { matchupId, details: null };
+    const slimmed = {};
+
+    if (d.matchup) slimmed.matchup = pickKeys(d.matchup, MATCHUP_DETAIL_MATCHUP_KEEP);
+
+    if (d.matchupPlayerStats) {
+      const arr = d.matchupPlayerStats.$values || d.matchupPlayerStats;
+      const slimArr = Array.isArray(arr) ? arr.map(p => pickKeys(p, PLAYER_KEEP)) : [];
+      slimmed.matchupPlayerStats = { $values: slimArr };
+    }
+
+    if (d.lineups) {
+      const lineupArr = d.lineups?.lineups?.$values || d.lineups?.$values || d.lineups;
+      if (Array.isArray(lineupArr)) {
+        slimmed.lineups = { lineups: { $values: lineupArr.map(l => pickKeys(l, LINEUP_KEEP)) } };
+      }
+    }
+
+    return { matchupId, details: slimmed };
+  });
+}
+
 function normalizeVolatileLineupIds(detailData) {
   const lineups = detailData?.lineups?.lineups?.$values;
   if (!Array.isArray(lineups)) return detailData;
@@ -100,9 +165,9 @@ async function downloadLatestApiData() {
       const divDataDir = path.join(dataDir, div.slug);
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
-      fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(matchupsRaw, null, 2));
-      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(players, null, 2));
-      fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(matchupDetails, null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(slimMatchups(matchupsRaw), null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimPlayers(players), null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
 
       console.log(`  ✓ Cached to data/${div.slug}/`);
     } catch (err) {

@@ -1,8 +1,6 @@
 {
-  "$id": "1",
   "$values": [
     {
-      "$id": "2",
       "matchupId": "122f7b6e-414e-4b72-8ce4-7ccf2186dee7",
       "weekNumber": 1,
       "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
@@ -10,99 +8,11 @@
       "homePoints": 594,
       "awayPoints": 642,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-02T19:30:00",
       "homeName": "Paddle Taps",
-      "awayName": "Eagles Erne Empire ",
-      "awayTeam": {
-        "$id": "3",
-        "teamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "teamName": "Eagles Erne Empire ",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$id": "4",
-          "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-          "name": "Robbinsville Pickle House",
-          "logo": "RobbinsvillePickleHouse",
-          "color": "#f2734e",
-          "website": "https://robbinsvillepicklehouse.com/",
-          "facebook": "https://www.facebook.com/picklehousenj",
-          "instagram": "https://www.instagram.com/picklehousenj/",
-          "twitter": null,
-          "youtube": null,
-          "address": "153 W Manor Way, Robbinsville Twp, NJ ",
-          "phone": "(609) 322-5700",
-          "divisions": {
-            "$id": "5",
-            "$values": []
-          }
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "6",
-        "teamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "teamName": "Paddle Taps",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "7",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "8",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "9",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "10",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 14,
-      "awayWins": 18,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Eagles Erne Empire "
     },
     {
-      "$id": "11",
       "matchupId": "1b63678f-a1f0-4fcb-b2f3-845e82d07cce",
       "weekNumber": 1,
       "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
@@ -110,84 +20,11 @@
       "homePoints": 638,
       "awayPoints": 602,
       "endResult": "home",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-02T19:30:00",
       "homeName": "The Robbinsvilians",
-      "awayName": "Baggers, Sand",
-      "awayTeam": {
-        "$id": "12",
-        "teamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "teamName": "Baggers, Sand",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "13",
-        "teamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "teamName": "The Robbinsvilians",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "14",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "15",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "16",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "17",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Baggers, Sand"
     },
     {
-      "$id": "18",
       "matchupId": "b515858a-0dd8-4fe6-a81b-4c32491ecea0",
       "weekNumber": 2,
       "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
@@ -195,66 +32,11 @@
       "homePoints": 544,
       "awayPoints": 645,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-09T19:30:00",
       "homeName": "Eagles Erne Empire ",
-      "awayName": "Baggers, Sand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "19",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "20",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "21",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "22",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 8,
-      "awayWins": 24,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Baggers, Sand"
     },
     {
-      "$id": "23",
       "matchupId": "3c85ba89-d58e-49ab-82ba-cd0589d8d1a8",
       "weekNumber": 2,
       "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
@@ -262,66 +44,11 @@
       "homePoints": 577,
       "awayPoints": 615,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-09T19:30:00",
       "homeName": "Paddle Taps",
-      "awayName": "The Robbinsvilians",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "24",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "25",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "26",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "27",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 15,
-      "awayWins": 17,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Robbinsvilians"
     },
     {
-      "$id": "28",
       "matchupId": "3e71148b-32c6-447f-813d-3197fbd38c7f",
       "weekNumber": 3,
       "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
@@ -329,66 +56,11 @@
       "homePoints": 617,
       "awayPoints": 570,
       "endResult": "home",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-16T19:30:00",
       "homeName": "Baggers, Sand",
-      "awayName": "Paddle Taps",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "29",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "30",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "31",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "32",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 19,
-      "awayWins": 13,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Paddle Taps"
     },
     {
-      "$id": "33",
       "matchupId": "71607876-e8a6-4fc7-9f91-5ae4e8312d74",
       "weekNumber": 3,
       "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
@@ -396,66 +68,11 @@
       "homePoints": 632,
       "awayPoints": 560,
       "endResult": "home",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-16T19:30:00",
       "homeName": "The Robbinsvilians",
-      "awayName": "Eagles Erne Empire ",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "34",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "35",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "36",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "37",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 22,
-      "awayWins": 10,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Eagles Erne Empire "
     },
     {
-      "$id": "38",
       "matchupId": "4d5a2b30-a23e-44c0-a0c4-44f4b05e7a59",
       "weekNumber": 4,
       "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
@@ -463,66 +80,11 @@
       "homePoints": 607,
       "awayPoints": 669,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-23T19:30:00",
       "homeName": "Eagles Erne Empire ",
-      "awayName": "Paddle Taps",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "39",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "40",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "41",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "42",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 10,
-      "awayWins": 22,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Paddle Taps"
     },
     {
-      "$id": "43",
       "matchupId": "dc0df42b-29a0-4db9-8810-d08c0fffad3b",
       "weekNumber": 4,
       "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
@@ -530,66 +92,11 @@
       "homePoints": 659,
       "awayPoints": 593,
       "endResult": "home",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-23T19:30:00",
       "homeName": "Baggers, Sand",
-      "awayName": "The Robbinsvilians",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "44",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "45",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "46",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "47",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 21,
-      "awayWins": 11,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Robbinsvilians"
     },
     {
-      "$id": "48",
       "matchupId": "307de9d7-1652-44e5-82b6-56197c2cace7",
       "weekNumber": 5,
       "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
@@ -597,66 +104,11 @@
       "homePoints": 633,
       "awayPoints": 560,
       "endResult": "home",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-30T19:30:00",
       "homeName": "The Robbinsvilians",
-      "awayName": "Paddle Taps",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "49",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "50",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "51",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "52",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 22,
-      "awayWins": 10,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Paddle Taps"
     },
     {
-      "$id": "53",
       "matchupId": "aeb82c7d-323a-4e2b-98b2-f220a7b60142",
       "weekNumber": 5,
       "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
@@ -664,66 +116,11 @@
       "homePoints": 579,
       "awayPoints": 596,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-30T19:30:00",
       "homeName": "Baggers, Sand",
-      "awayName": "Eagles Erne Empire ",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "54",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "55",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "56",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "57",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 11,
-      "awayWins": 21,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Eagles Erne Empire "
     },
     {
-      "$id": "58",
       "matchupId": "7a5c3a45-b259-41be-8c60-41730203eed3",
       "weekNumber": 6,
       "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
@@ -731,66 +128,11 @@
       "homePoints": 514,
       "awayPoints": 677,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-06T19:30:00",
       "homeName": "Paddle Taps",
-      "awayName": "Baggers, Sand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "59",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "60",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "61",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "62",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 3,
-      "awayWins": 29,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Baggers, Sand"
     },
     {
-      "$id": "63",
       "matchupId": "8d82a75f-f7eb-4f56-9b54-d47c32b9e551",
       "weekNumber": 6,
       "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
@@ -798,66 +140,11 @@
       "homePoints": 545,
       "awayPoints": 630,
       "endResult": "away",
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-06T19:30:00",
       "homeName": "Eagles Erne Empire ",
-      "awayName": "The Robbinsvilians",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "64",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "65",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "66",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "67",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 11,
-      "awayWins": 21,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Robbinsvilians"
     },
     {
-      "$id": "68",
       "matchupId": "7ca44745-bb26-46ad-8567-29e602751702",
       "weekNumber": 7,
       "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
@@ -865,66 +152,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-13T19:30:00",
       "homeName": "The Robbinsvilians",
-      "awayName": "Baggers, Sand",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "69",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "70",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "71",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "72",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Baggers, Sand"
     },
     {
-      "$id": "73",
       "matchupId": "a32bbc0d-ed35-4f35-8bd6-2f5a10ffa3ae",
       "weekNumber": 7,
       "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
@@ -932,66 +164,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-13T19:30:00",
       "homeName": "Eagles Erne Empire ",
-      "awayName": "Paddle Taps",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "74",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "75",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "76",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "77",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Paddle Taps"
     },
     {
-      "$id": "78",
       "matchupId": "b872b12b-c9fb-4adb-b47f-298f162aa4a1",
       "weekNumber": 8,
       "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
@@ -999,66 +176,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-20T19:30:00",
       "homeName": "Paddle Taps",
-      "awayName": "The Robbinsvilians",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "79",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "80",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "81",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "82",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 1,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "The Robbinsvilians"
     },
     {
-      "$id": "83",
       "matchupId": "5b5d5d05-ca71-4891-a295-a60b4e9df733",
       "weekNumber": 8,
       "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
@@ -1066,63 +188,9 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "a85172dd-5ac6-49dd-a66e-a586282b2a20",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-20T19:30:00",
       "homeName": "Baggers, Sand",
-      "awayName": "Eagles Erne Empire ",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "84",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "85",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "86",
-        "clubId": "842bec9f-082d-4404-9b62-ea317ebc283d",
-        "name": "Robbinsville Pickle House",
-        "logo": "RobbinsvillePickleHouse",
-        "color": "#f2734e",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "87",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "153 W Manor Way, Robbinsville Twp, NJ 08691"
+      "awayName": "Eagles Erne Empire "
     }
   ]
 }
