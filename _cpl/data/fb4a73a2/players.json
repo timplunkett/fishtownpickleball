@@ -199,28 +199,6 @@
       "ranking": 9
     },
     {
-      "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
-      "firstName": "Carolyn",
-      "lastName": "Mako",
-      "gender": "Female",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-      "teamName": "Court Jesters",
-      "wins": 10,
-      "losses": 3,
-      "gamesPlayed": 13,
-      "pointsWon": 252,
-      "totalPointsAgainst": 207,
-      "clutchWins": 1,
-      "clutchLosses": 0,
-      "mixedWins": 3,
-      "mixedLosses": 3,
-      "genderWins": 7,
-      "genderLosses": 0,
-      "ranking": 10
-    },
-    {
       "playerId": "2580158f-1c0c-4a5a-8a0c-b48d2c1f0067",
       "firstName": "Scott",
       "lastName": "Gardo",
@@ -240,7 +218,7 @@
       "mixedLosses": 5,
       "genderWins": 13,
       "genderLosses": 7,
-      "ranking": 11
+      "ranking": 10
     },
     {
       "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
@@ -262,7 +240,7 @@
       "mixedLosses": 6,
       "genderWins": 8,
       "genderLosses": 3,
-      "ranking": 12
+      "ranking": 11
     },
     {
       "playerId": "8cbd2f67-4bd0-4641-a88a-e35ccccc711b",
@@ -284,7 +262,7 @@
       "mixedLosses": 5,
       "genderWins": 11,
       "genderLosses": 5,
-      "ranking": 13
+      "ranking": 12
     },
     {
       "playerId": "50f9c167-7ce1-42c3-953c-c0c1de8ce779",
@@ -306,7 +284,7 @@
       "mixedLosses": 5,
       "genderWins": 10,
       "genderLosses": 5,
-      "ranking": 14
+      "ranking": 13
     },
     {
       "playerId": "7b2a15bb-889c-4566-a201-1287ae3cad55",
@@ -328,7 +306,7 @@
       "mixedLosses": 6,
       "genderWins": 9,
       "genderLosses": 6,
-      "ranking": 15
+      "ranking": 14
     },
     {
       "playerId": "bdc98c78-ac6d-4d39-a7dc-9853dbb613b1",
@@ -350,7 +328,7 @@
       "mixedLosses": 4,
       "genderWins": 10,
       "genderLosses": 11,
-      "ranking": 16
+      "ranking": 15
     },
     {
       "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
@@ -372,7 +350,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 1,
-      "ranking": 17
+      "ranking": 16
     },
     {
       "playerId": "4ac1d282-9162-4012-8e5f-14e9c9236f15",
@@ -394,7 +372,7 @@
       "mixedLosses": 5,
       "genderWins": 10,
       "genderLosses": 7,
-      "ranking": 18
+      "ranking": 17
     },
     {
       "playerId": "02393ba1-f669-4704-87de-0d61a131ee75",
@@ -416,6 +394,28 @@
       "mixedLosses": 5,
       "genderWins": 8,
       "genderLosses": 3,
+      "ranking": 18
+    },
+    {
+      "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
+      "firstName": "Carolyn",
+      "lastName": "Mako",
+      "gender": "Female",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "wins": 10,
+      "losses": 3,
+      "gamesPlayed": 13,
+      "pointsWon": 252,
+      "totalPointsAgainst": 207,
+      "clutchWins": 1,
+      "clutchLosses": 0,
+      "mixedWins": 3,
+      "mixedLosses": 3,
+      "genderWins": 7,
+      "genderLosses": 0,
       "ranking": 19
     },
     {
@@ -507,28 +507,6 @@
       "ranking": 23
     },
     {
-      "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
-      "firstName": "Thania",
-      "lastName": "Padova",
-      "gender": "Female",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-      "teamName": "Kiss My Ace",
-      "wins": 6,
-      "losses": 2,
-      "gamesPlayed": 8,
-      "pointsWon": 158,
-      "totalPointsAgainst": 134,
-      "clutchWins": 2,
-      "clutchLosses": 0,
-      "mixedWins": 4,
-      "mixedLosses": 0,
-      "genderWins": 2,
-      "genderLosses": 2,
-      "ranking": 24
-    },
-    {
       "playerId": "21660a36-599f-4fde-8e76-cb23ff1313b7",
       "firstName": "Kerry",
       "lastName": "Jiang",
@@ -548,7 +526,7 @@
       "mixedLosses": 8,
       "genderWins": 8,
       "genderLosses": 10,
-      "ranking": 25
+      "ranking": 24
     },
     {
       "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -570,7 +548,7 @@
       "mixedLosses": 6,
       "genderWins": 5,
       "genderLosses": 9,
-      "ranking": 26
+      "ranking": 25
     },
     {
       "playerId": "e8598b52-28b9-41b0-9485-42efee80b3f3",
@@ -592,7 +570,7 @@
       "mixedLosses": 10,
       "genderWins": 8,
       "genderLosses": 13,
-      "ranking": 27
+      "ranking": 26
     },
     {
       "playerId": "cc1a90cf-8cc0-4cc5-b41f-27f7cab42b1e",
@@ -614,7 +592,7 @@
       "mixedLosses": 7,
       "genderWins": 7,
       "genderLosses": 8,
-      "ranking": 28
+      "ranking": 27
     },
     {
       "playerId": "c5bab0da-de53-4551-bfbe-620d61235c2d",
@@ -636,7 +614,7 @@
       "mixedLosses": 12,
       "genderWins": 10,
       "genderLosses": 10,
-      "ranking": 29
+      "ranking": 28
     },
     {
       "playerId": "fdf89c7e-792c-46bd-85b1-4159a12d586e",
@@ -658,6 +636,28 @@
       "mixedLosses": 10,
       "genderWins": 10,
       "genderLosses": 6,
+      "ranking": 29
+    },
+    {
+      "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
+      "firstName": "Thania",
+      "lastName": "Padova",
+      "gender": "Female",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
+      "teamName": "Kiss My Ace",
+      "wins": 6,
+      "losses": 2,
+      "gamesPlayed": 8,
+      "pointsWon": 158,
+      "totalPointsAgainst": 134,
+      "clutchWins": 2,
+      "clutchLosses": 0,
+      "mixedWins": 4,
+      "mixedLosses": 0,
+      "genderWins": 2,
+      "genderLosses": 2,
       "ranking": 30
     },
     {
@@ -903,28 +903,6 @@
       "ranking": 41
     },
     {
-      "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379",
-      "firstName": "Zach",
-      "lastName": "Derrick",
-      "gender": "Male",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-      "teamName": "Dink Responsibly",
-      "wins": 5,
-      "losses": 8,
-      "gamesPlayed": 13,
-      "pointsWon": 238,
-      "totalPointsAgainst": 249,
-      "clutchWins": 2,
-      "clutchLosses": 2,
-      "mixedWins": 3,
-      "mixedLosses": 3,
-      "genderWins": 2,
-      "genderLosses": 5,
-      "ranking": 42
-    },
-    {
       "playerId": "c5578bac-f973-49f9-8bfe-ff866cc4f275",
       "firstName": "Steve",
       "lastName": "Ciocco",
@@ -944,7 +922,7 @@
       "mixedLosses": 13,
       "genderWins": 7,
       "genderLosses": 13,
-      "ranking": 43
+      "ranking": 42
     },
     {
       "playerId": "cf2132fb-7e7d-4ead-82b0-2a444451413c",
@@ -966,7 +944,7 @@
       "mixedLosses": 13,
       "genderWins": 5,
       "genderLosses": 13,
-      "ranking": 44
+      "ranking": 43
     },
     {
       "playerId": "ad671476-9113-4cc0-a49f-e7fea7d81f10",
@@ -988,7 +966,7 @@
       "mixedLosses": 7,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 45
+      "ranking": 44
     },
     {
       "playerId": "07e276d3-773e-4a62-865e-4248969ec4d3",
@@ -1010,51 +988,29 @@
       "mixedLosses": 15,
       "genderWins": 6,
       "genderLosses": 10,
-      "ranking": 46
+      "ranking": 45
     },
     {
-      "playerId": "eee5fbd1-b320-4c9b-933e-58d380add794",
-      "firstName": "Deanna",
-      "lastName": "Romeo",
-      "gender": "Female",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-      "teamName": "Court Jesters",
-      "wins": 4,
-      "losses": 11,
-      "gamesPlayed": 15,
-      "pointsWon": 244,
-      "totalPointsAgainst": 301,
-      "clutchWins": 2,
-      "clutchLosses": 1,
-      "mixedWins": 1,
-      "mixedLosses": 6,
-      "genderWins": 3,
-      "genderLosses": 5,
-      "ranking": 47
-    },
-    {
-      "playerId": "b3d9070b-8036-402f-b0a1-23ae600f3410",
-      "firstName": "Michael",
-      "lastName": "Smith",
+      "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379",
+      "firstName": "Zach",
+      "lastName": "Derrick",
       "gender": "Male",
       "isCaptain": false,
-      "isSub": false,
+      "isSub": true,
       "teamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
       "teamName": "Dink Responsibly",
-      "wins": 4,
+      "wins": 5,
       "losses": 8,
-      "gamesPlayed": 12,
-      "pointsWon": 211,
-      "totalPointsAgainst": 235,
+      "gamesPlayed": 13,
+      "pointsWon": 238,
+      "totalPointsAgainst": 249,
       "clutchWins": 2,
-      "clutchLosses": 3,
-      "mixedWins": 2,
-      "mixedLosses": 4,
+      "clutchLosses": 2,
+      "mixedWins": 3,
+      "mixedLosses": 3,
       "genderWins": 2,
-      "genderLosses": 4,
-      "ranking": 48
+      "genderLosses": 5,
+      "ranking": 46
     },
     {
       "playerId": "c1af6941-a826-4930-9aac-4c13837754a8",
@@ -1076,6 +1032,50 @@
       "mixedLosses": 10,
       "genderWins": 1,
       "genderLosses": 12,
+      "ranking": 47
+    },
+    {
+      "playerId": "eee5fbd1-b320-4c9b-933e-58d380add794",
+      "firstName": "Deanna",
+      "lastName": "Romeo",
+      "gender": "Female",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "wins": 4,
+      "losses": 11,
+      "gamesPlayed": 15,
+      "pointsWon": 244,
+      "totalPointsAgainst": 301,
+      "clutchWins": 2,
+      "clutchLosses": 1,
+      "mixedWins": 1,
+      "mixedLosses": 6,
+      "genderWins": 3,
+      "genderLosses": 5,
+      "ranking": 48
+    },
+    {
+      "playerId": "b3d9070b-8036-402f-b0a1-23ae600f3410",
+      "firstName": "Michael",
+      "lastName": "Smith",
+      "gender": "Male",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
+      "teamName": "Dink Responsibly",
+      "wins": 4,
+      "losses": 8,
+      "gamesPlayed": 12,
+      "pointsWon": 211,
+      "totalPointsAgainst": 235,
+      "clutchWins": 2,
+      "clutchLosses": 3,
+      "mixedWins": 2,
+      "mixedLosses": 4,
+      "genderWins": 2,
+      "genderLosses": 4,
       "ranking": 49
     },
     {
@@ -1145,28 +1145,6 @@
       "ranking": 52
     },
     {
-      "playerId": "7f71eb00-0597-4783-b624-22e76ec1ad0a",
-      "firstName": "Michelle",
-      "lastName": "Cresta",
-      "gender": "Female",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-      "teamName": "Kiss My Ace",
-      "wins": 2,
-      "losses": 6,
-      "gamesPlayed": 8,
-      "pointsWon": 132,
-      "totalPointsAgainst": 156,
-      "clutchWins": 0,
-      "clutchLosses": 1,
-      "mixedWins": 2,
-      "mixedLosses": 2,
-      "genderWins": 0,
-      "genderLosses": 4,
-      "ranking": 53
-    },
-    {
       "playerId": "c3e8bfca-0071-4ddd-8366-0b4391b151d5",
       "firstName": "Jarid",
       "lastName": "Chan",
@@ -1186,6 +1164,28 @@
       "mixedLosses": 16,
       "genderWins": 0,
       "genderLosses": 16,
+      "ranking": 53
+    },
+    {
+      "playerId": "7f71eb00-0597-4783-b624-22e76ec1ad0a",
+      "firstName": "Michelle",
+      "lastName": "Cresta",
+      "gender": "Female",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
+      "teamName": "Kiss My Ace",
+      "wins": 2,
+      "losses": 6,
+      "gamesPlayed": 8,
+      "pointsWon": 132,
+      "totalPointsAgainst": 156,
+      "clutchWins": 0,
+      "clutchLosses": 1,
+      "mixedWins": 2,
+      "mixedLosses": 2,
+      "genderWins": 0,
+      "genderLosses": 4,
       "ranking": 54
     },
     {
@@ -1363,6 +1363,28 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 62
+    },
+    {
+      "playerId": "e3a5083d-9c55-4482-be06-647b8e86c504",
+      "firstName": "Sheree",
+      "lastName": "Ross",
+      "gender": "Female",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 63
     }
   ]
 }
