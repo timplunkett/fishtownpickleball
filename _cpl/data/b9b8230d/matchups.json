@@ -1,8 +1,6 @@
 {
-  "$id": "1",
   "$values": [
     {
-      "$id": "2",
       "matchupId": "f5d691a5-4577-442e-ae8d-3d7805a1ff89",
       "weekNumber": 1,
       "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
@@ -10,99 +8,11 @@
       "homePoints": 570,
       "awayPoints": 605,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-28T15:30:00",
       "homeName": "Pickle Bunch",
-      "awayName": "Spin Doctors",
-      "awayTeam": {
-        "$id": "3",
-        "teamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "teamName": "Spin Doctors",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "club": {
-          "$id": "4",
-          "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-          "name": "Flemington Pickleball Club",
-          "logo": "FlemingtonPickleballClub",
-          "color": "#4470c0",
-          "website": "https://flemingtonpickleball.com/",
-          "facebook": "https://www.facebook.com/profile.php?id=100063652177968#",
-          "instagram": "https://www.instagram.com/flemingtonpickleballclub",
-          "twitter": null,
-          "youtube": "https://www.youtube.com/@flemingtonpickleballclub1084",
-          "address": "1 Barbiche Drive, Flemington, NJ 08822",
-          "phone": "(908) 968-3087",
-          "divisions": {
-            "$id": "5",
-            "$values": []
-          }
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "6",
-        "teamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "teamName": "Pickle Bunch",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "7",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "8",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "9",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "10",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 13,
-      "awayWins": 19,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Spin Doctors"
     },
     {
-      "$id": "11",
       "matchupId": "29c1df86-a1b6-4870-908a-6827d0330248",
       "weekNumber": 1,
       "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
@@ -110,84 +20,11 @@
       "homePoints": 599,
       "awayPoints": 669,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-06-28T15:30:00",
       "homeName": "Ladies & Lords of Dinkingham",
-      "awayName": "Honeydrippers",
-      "awayTeam": {
-        "$id": "12",
-        "teamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "teamName": "Honeydrippers",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "homeTeam": {
-        "$id": "13",
-        "teamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "teamName": "Ladies & Lords of Dinkingham",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "club": {
-          "$ref": "4"
-        },
-        "schedule": null,
-        "playerStats": null,
-        "statistics": null
-      },
-      "awayClub": {
-        "$id": "14",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "15",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "16",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "17",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 10,
-      "awayWins": 22,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Honeydrippers"
     },
     {
-      "$id": "18",
       "matchupId": "7e3cb151-759b-4a65-bbcc-753a1eaae45a",
       "weekNumber": 3,
       "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
@@ -195,66 +32,11 @@
       "homePoints": 537,
       "awayPoints": 565,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-12T15:30:00",
       "homeName": "Honeydrippers",
-      "awayName": "Spin Doctors",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "19",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "20",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "21",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "22",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 12,
-      "awayWins": 20,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Spin Doctors"
     },
     {
-      "$id": "23",
       "matchupId": "56127642-e32b-49e4-ab1a-cbbc05979398",
       "weekNumber": 3,
       "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
@@ -262,66 +44,11 @@
       "homePoints": 555,
       "awayPoints": 585,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-12T15:30:00",
       "homeName": "Ladies & Lords of Dinkingham",
-      "awayName": "Pickle Bunch",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "24",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "25",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "26",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "27",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 16,
-      "awayWins": 16,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Pickle Bunch"
     },
     {
-      "$id": "28",
       "matchupId": "164ce1d0-b47b-4e19-8bbd-768c1250bf36",
       "weekNumber": 4,
       "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
@@ -329,66 +56,11 @@
       "homePoints": 641,
       "awayPoints": 580,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-19T15:30:00",
       "homeName": "Pickle Bunch",
-      "awayName": "Honeydrippers",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "29",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "30",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "31",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "32",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 22,
-      "awayWins": 10,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 2,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Honeydrippers"
     },
     {
-      "$id": "33",
       "matchupId": "50b95f82-e040-45da-895d-ca9d2cd276e8",
       "weekNumber": 4,
       "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
@@ -396,66 +68,11 @@
       "homePoints": 624,
       "awayPoints": 586,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-19T15:30:00",
       "homeName": "Spin Doctors",
-      "awayName": "Ladies & Lords of Dinkingham",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "34",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "35",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "36",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "37",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Ladies & Lords of Dinkingham"
     },
     {
-      "$id": "38",
       "matchupId": "4cb5e61b-22bd-4298-bb1b-4191d7fb9dd4",
       "weekNumber": 5,
       "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
@@ -463,66 +80,11 @@
       "homePoints": 624,
       "awayPoints": 605,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-26T15:30:00",
       "homeName": "Spin Doctors",
-      "awayName": "Pickle Bunch",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "39",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "40",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "41",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "42",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 15,
-      "awayWins": 17,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 3,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Pickle Bunch"
     },
     {
-      "$id": "43",
       "matchupId": "f78f41ab-e4d9-409e-ae6e-87683687f0d8",
       "weekNumber": 5,
       "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
@@ -530,66 +92,11 @@
       "homePoints": 603,
       "awayPoints": 590,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-07-26T15:30:00",
       "homeName": "Honeydrippers",
-      "awayName": "Ladies & Lords of Dinkingham",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "44",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "45",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "46",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "47",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 16,
-      "awayWins": 16,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 4,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Ladies & Lords of Dinkingham"
     },
     {
-      "$id": "48",
       "matchupId": "5aa616ed-1419-438d-a74e-50b79223855d",
       "weekNumber": 6,
       "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
@@ -597,66 +104,11 @@
       "homePoints": 656,
       "awayPoints": 620,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-02T15:30:00",
       "homeName": "Pickle Bunch",
-      "awayName": "Ladies & Lords of Dinkingham",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "49",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "50",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "51",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "52",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 19,
-      "awayWins": 13,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 4,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Ladies & Lords of Dinkingham"
     },
     {
-      "$id": "53",
       "matchupId": "a806114f-068e-49a6-888b-6c505b884376",
       "weekNumber": 6,
       "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
@@ -664,66 +116,11 @@
       "homePoints": 606,
       "awayPoints": 621,
       "endResult": "away",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-02T15:30:00",
       "homeName": "Spin Doctors",
-      "awayName": "Honeydrippers",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "54",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "55",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "56",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "57",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 16,
-      "awayWins": 16,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 2,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Honeydrippers"
     },
     {
-      "$id": "58",
       "matchupId": "a3c2ab81-e468-4d6d-a88d-544be4a29215",
       "weekNumber": 7,
       "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
@@ -731,66 +128,11 @@
       "homePoints": 624,
       "awayPoints": 585,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-09T15:30:00",
       "homeName": "Spin Doctors",
-      "awayName": "Ladies & Lords of Dinkingham",
-      "awayTeam": {
-        "$ref": "13"
-      },
-      "homeTeam": {
-        "$ref": "3"
-      },
-      "awayClub": {
-        "$id": "59",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "60",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "61",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "62",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 20,
-      "awayWins": 12,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 1,
-      "awayPodRanking": 4,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Ladies & Lords of Dinkingham"
     },
     {
-      "$id": "63",
       "matchupId": "417a6cd6-6abe-4d10-85ac-899c15ae9b2a",
       "weekNumber": 7,
       "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
@@ -798,66 +140,11 @@
       "homePoints": 623,
       "awayPoints": 558,
       "endResult": "home",
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-09T15:30:00",
       "homeName": "Honeydrippers",
-      "awayName": "Pickle Bunch",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "64",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "65",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "66",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "67",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 22,
-      "awayWins": 10,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 3,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Pickle Bunch"
     },
     {
-      "$id": "68",
       "matchupId": "ce01f128-d587-4032-8696-c7f25e378348",
       "weekNumber": 8,
       "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
@@ -865,66 +152,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-16T15:30:00",
       "homeName": "Ladies & Lords of Dinkingham",
-      "awayName": "Honeydrippers",
-      "awayTeam": {
-        "$ref": "12"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "69",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "70",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "71",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "72",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 2,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Honeydrippers"
     },
     {
-      "$id": "73",
       "matchupId": "f40e9d3c-7917-4eaf-8f06-d6a34a54ba85",
       "weekNumber": 8,
       "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
@@ -932,66 +164,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-16T15:30:00",
       "homeName": "Pickle Bunch",
-      "awayName": "Spin Doctors",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "6"
-      },
-      "awayClub": {
-        "$id": "74",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "75",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "76",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "77",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 3,
-      "awayPodRanking": 1,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Spin Doctors"
     },
     {
-      "$id": "78",
       "matchupId": "892d8349-43a0-44ef-8910-437a3ebe5737",
       "weekNumber": 9,
       "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
@@ -999,66 +176,11 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-23T15:30:00",
       "homeName": "Ladies & Lords of Dinkingham",
-      "awayName": "Pickle Bunch",
-      "awayTeam": {
-        "$ref": "6"
-      },
-      "homeTeam": {
-        "$ref": "13"
-      },
-      "awayClub": {
-        "$id": "79",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "80",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "81",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "82",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 4,
-      "awayPodRanking": 3,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Pickle Bunch"
     },
     {
-      "$id": "83",
       "matchupId": "6362c66e-bd3c-48d7-afc4-83a494cd3a23",
       "weekNumber": 9,
       "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
@@ -1066,63 +188,9 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "divisionId": "b9b8230d-97b9-4d21-a71e-8f2c2e3d6176",
-      "awayLineupLocked": false,
-      "homeLineupLocked": false,
       "scheduledTime": "2026-08-23T15:30:00",
       "homeName": "Honeydrippers",
-      "awayName": "Spin Doctors",
-      "awayTeam": {
-        "$ref": "3"
-      },
-      "homeTeam": {
-        "$ref": "12"
-      },
-      "awayClub": {
-        "$id": "84",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "85",
-          "$values": []
-        }
-      },
-      "homeClub": {
-        "$id": "86",
-        "clubId": "d15b2622-4e3b-4abc-be83-713fe2e4d6f7",
-        "name": "Flemington Pickleball Club",
-        "logo": "FlemingtonPickleballClub",
-        "color": "#4470c0",
-        "website": null,
-        "facebook": null,
-        "instagram": null,
-        "twitter": null,
-        "youtube": null,
-        "address": null,
-        "phone": null,
-        "divisions": {
-          "$id": "87",
-          "$values": []
-        }
-      },
-      "division": null,
-      "region": null,
-      "homeWins": 0,
-      "awayWins": 0,
-      "playoffs": false,
-      "playoffGame": null,
-      "homePodRanking": 2,
-      "awayPodRanking": 1,
-      "address": "1 Barbiche Drive, Flemington, NJ"
+      "awayName": "Spin Doctors"
     }
   ]
 }
