@@ -234,13 +234,13 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
 
       fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(slimMatchups(matchupsRaw), null, 2));
 
-      // Preserve any duprRating values previously written by the DUPR workflow.
+      // Preserve any duprRating values from global_players.json (written by the DUPR workflow).
       const slimmed = slimPlayers(players);
-      const existingPlayersFile = path.join(divDataDir, 'players.json');
-      if (fs.existsSync(existingPlayersFile)) {
-        const existing = JSON.parse(fs.readFileSync(existingPlayersFile, 'utf-8'));
+      const globalPlayersFile = path.join(dataDir, 'global_players.json');
+      if (fs.existsSync(globalPlayersFile)) {
+        const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'));
         const duprMap = {};
-        for (const p of (existing.$values || [])) {
+        for (const p of globalPlayers) {
           if (p.playerId && p.duprRating != null) duprMap[p.playerId] = p.duprRating;
         }
         for (const p of (slimmed.$values || [])) {
@@ -251,7 +251,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
           p.duprRating = null;
         }
       }
-      fs.writeFileSync(existingPlayersFile, JSON.stringify(slimmed, null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimmed, null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
 
       console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);

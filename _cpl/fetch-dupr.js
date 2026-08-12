@@ -2,7 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 // --- Configuration ---
-const PLAYERS_FILE = path.join(__dirname, 'data', 'players.json');
+const DATA_LOCAL_DIR = path.join(__dirname, 'data-local');
+const GLOBAL_PLAYERS_FILE = path.join(DATA_LOCAL_DIR, 'global_players.json');
+const DIVISIONS_FILE = path.join(DATA_LOCAL_DIR, 'divisions.json');
 const BATCH_SIZE = 5;       // Number of concurrent API requests per batch
 const BATCH_DELAY_MS = 300; // Delay in milliseconds between batches to prevent rate limits
 
@@ -15,7 +17,7 @@ if (!ACCESS_TOKEN) {
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
- * Fetches the doubles DUPR rating for a given DUPR ID
+ * Fetches the doubles DUPR rating for a given DUPR ID.
  */
 async function fetchDuprRating(duprId) {
   if (!duprId || duprId.trim() === '') return null;
@@ -31,10 +33,11 @@ async function fetchDuprRating(duprId) {
   };
 
   try {
+    const authHeader = 'Bearer ' + ACCESS_TOKEN;
     const response = await fetch(url, {
       method: 'POST',
       headers: {
-        "Authorization": `Bearer ${ACCESS_TOKEN}`,
+        'Authorization': authHeader,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(payload),
@@ -45,7 +48,6 @@ async function fetchDuprRating(duprId) {
     if (response.ok && data.status === 'SUCCESS') {
       const hits = data.result?.hits || data.result?.content || data.result;
       const playerMatch = Array.isArray(hits) ? hits[0] : null;
-
       if (playerMatch?.ratings?.doubles) {
         return playerMatch.ratings.doubles;
       }
@@ -59,15 +61,61 @@ async function fetchDuprRating(duprId) {
   return null;
 }
 
+/**
+ * Reads all division players.json files and builds a deduplicated global player list.
+ * Only identity + DUPR fields are kept; division-specific stats are not stored here.
+ * Any existing duprRating values in global_players.json are preserved.
+ */
+function buildGlobalPlayers() {
+  if (!fs.existsSync(DIVISIONS_FILE)) {
+    throw new Error(`divisions.json not found at ${DIVISIONS_FILE} — run the fetcher first.`);
+  }
+
+  const divisions = JSON.parse(fs.readFileSync(DIVISIONS_FILE, 'utf-8'));
+
+  // Load any previously-fetched ratings from the existing global file.
+  const existingRatings = {};
+  if (fs.existsSync(GLOBAL_PLAYERS_FILE)) {
+    const existing = JSON.parse(fs.readFileSync(GLOBAL_PLAYERS_FILE, 'utf-8'));
+    for (const p of existing) {
+      if (p.playerId && p.duprRating != null) {
+        existingRatings[p.playerId] = p.duprRating;
+      }
+    }
+  }
+
+  const seen = new Set();
+  const globalPlayers = [];
+
+  for (const div of divisions) {
+    const playersFile = path.join(DATA_LOCAL_DIR, div.slug, 'players.json');
+    if (!fs.existsSync(playersFile)) continue;
+
+    const raw = JSON.parse(fs.readFileSync(playersFile, 'utf-8'));
+    const players = raw.$values || [];
+
+    for (const p of players) {
+      if (!p.playerId || seen.has(p.playerId)) continue;
+      seen.add(p.playerId);
+      globalPlayers.push({
+        playerId: p.playerId,
+        firstName: p.firstName,
+        lastName: p.lastName,
+        dupr: p.dupr || null,
+        duprRating: existingRatings[p.playerId] ?? null,
+      });
+    }
+  }
+
+  return globalPlayers;
+}
+
 async function run() {
-  console.log(`Reading players from: ${PLAYERS_FILE}`);
-  const rawData = fs.readFileSync(PLAYERS_FILE, 'utf-8');
-  const jsonContent = JSON.parse(rawData);
+  console.log('Building global player list from all division files...');
+  const globalPlayers = buildGlobalPlayers();
+  console.log(`Found ${globalPlayers.length} unique players across all divisions.`);
 
-  const players = jsonContent.$values || [];
-  console.log(`Found ${players.length} total players.`);
-
-  const validPlayers = players.filter((p) => p.dupr && p.dupr.trim() !== '');
+  const validPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
   console.log(`Processing ${validPlayers.length} players with DUPR IDs in batches of ${BATCH_SIZE}...\n`);
 
   const summary = [];
@@ -81,7 +129,6 @@ async function run() {
     await Promise.all(chunk.map(async (player) => {
       const fullName = `${player.firstName} ${player.lastName}`.trim();
       const rating = await fetchDuprRating(player.dupr);
-
       player.duprRating = rating;
 
       summary.push({
@@ -96,8 +143,8 @@ async function run() {
     }
   }
 
-  console.log(`\nSaving updated players to: ${PLAYERS_FILE}`);
-  fs.writeFileSync(PLAYERS_FILE, JSON.stringify(jsonContent, null, 2), 'utf-8');
+  console.log(`\nSaving global players to: ${GLOBAL_PLAYERS_FILE}`);
+  fs.writeFileSync(GLOBAL_PLAYERS_FILE, JSON.stringify(globalPlayers, null, 2), 'utf-8');
 
   console.log('\nProcess complete!\n');
   console.table(summary);
