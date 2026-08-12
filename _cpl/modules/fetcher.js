@@ -1,9 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
-const CLUBS_URL = `${API_BASE}/clubs`;
-const DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
+const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
+const TRAVEL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api';
+const LOCAL_DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
+const TRAVEL_REGION_ID = 'ffc383dc-fd43-4afa-9310-920c4b0545f2';
+const TRAVEL_DEFAULT_DIVISION_ID = 'b7ca04e4-a9b8-4c10-8054-e58329d8dc49';
 
 function slugForDivision(divisionId) {
   return divisionId.slice(0, 8);
@@ -87,7 +89,12 @@ function slimMatchupDetails(details) {
     if (d.lineups) {
       const lineupArr = d.lineups?.lineups?.$values || d.lineups?.$values || d.lineups;
       if (Array.isArray(lineupArr)) {
-        slimmed.lineups = { lineups: { $values: lineupArr.map(l => pickKeys(l, LINEUP_KEEP)) } };
+        const slimLineups = lineupArr
+          .map(l => pickKeys(l, LINEUP_KEEP))
+          .filter(l => l.homePlayerId1 || l.homePlayerId2 || l.awayPlayerId1 || l.awayPlayerId2);
+        if (slimLineups.length) {
+          slimmed.lineups = { lineups: { $values: slimLineups } };
+        }
       }
     }
 
@@ -105,12 +112,21 @@ function normalizeVolatileLineupIds(detailData) {
   return detailData;
 }
 
-async function fetchDivisionData(divisionId) {
-  const divBase = `${API_BASE}/divisions/${divisionId}`;
+async function checkResponse(res, label) {
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new Error(`HTTP ${res.status} from ${label}: ${body.slice(0, 200)}`);
+  }
+}
+
+async function fetchDivisionData(apiBase, divisionId) {
+  const divBase = `${apiBase}/divisions/${divisionId}`;
   const [matchupsRes, playersRes] = await Promise.all([
     fetch(`${divBase}/matchups`),
     fetch(`${divBase}/players`),
   ]);
+  await checkResponse(matchupsRes, `${divBase}/matchups`);
+  await checkResponse(playersRes, `${divBase}/players`);
   const matchupsRaw = await matchupsRes.json();
   const players = await playersRes.json();
 
@@ -123,6 +139,7 @@ async function fetchDivisionData(divisionId) {
     matchupsArray.map(async (matchup) => {
       try {
         const detailRes = await fetch(`${divBase}/matchups/${matchup.matchupId}`);
+        await checkResponse(detailRes, `${divBase}/matchups/${matchup.matchupId}`);
         const detailData = await detailRes.json();
         return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
       } catch (err) {
@@ -135,47 +152,79 @@ async function fetchDivisionData(divisionId) {
   return { matchupsRaw, players, matchupDetails: individualDetails };
 }
 
-async function downloadLatestApiData({ primaryOnly = false } = {}) {
-  console.log('--- Phase 1: Fetching Remote API Data ---');
+async function downloadLatestApiData(league = 'local', { primaryOnly = false } = {}) {
+  console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
+
+  const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
+  const dataSubdir = league === 'travel' ? 'data-travel' : 'data';
+  const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
 
   // Fetch all clubs/divisions to build the division manifest.
   console.log('Fetching clubs/divisions manifest...');
-  const clubsRes = await fetch(CLUBS_URL);
-  const clubsRaw = await clubsRes.json();
-  const clubs = clubsRaw.$values || clubsRaw;
 
-  // Build a flat list of active divisions across all clubs.
   const allDivisions = [];
-  for (const club of clubs) {
-    const divs = (club.divisions && club.divisions.$values) || club.divisions || [];
+
+  if (league === 'travel') {
+    // Travel league: discover divisions via the /regions endpoint.
+    const regionsUrl = `${apiBase}/regions`;
+    const regionsRes = await fetch(regionsUrl);
+    await checkResponse(regionsRes, regionsUrl);
+    const regionsRaw = await regionsRes.json();
+    const regions = regionsRaw.$values || regionsRaw;
+    const region = regions.find(r => r.regionId === TRAVEL_REGION_ID);
+    if (!region) {
+      throw new Error(`Region ${TRAVEL_REGION_ID} not found in /regions response.`);
+    }
+    const divs = (region.divisions && region.divisions.$values) || region.divisions || [];
     for (const div of divs) {
       if (!div.active) continue;
       allDivisions.push({
         slug: slugForDivision(div.divisionId),
         divisionId: div.divisionId,
         divisionName: div.divisionName.replace(/&amp;/g, '&'),
-        clubName: normalizeClubName(club.name),
-        clubId: club.clubId,
-        isDefault: div.divisionId === DEFAULT_DIVISION_ID,
+        isDefault: div.divisionId === TRAVEL_DEFAULT_DIVISION_ID,
+        regionName: region.regionName || region.name || '',
       });
+    }
+  } else {
+    // Local league: discover divisions via /clubs.
+    const clubsUrl = `${apiBase}/clubs`;
+    const clubsRes = await fetch(clubsUrl);
+    await checkResponse(clubsRes, clubsUrl);
+    const clubsRaw = await clubsRes.json();
+    const clubs = clubsRaw.$values || clubsRaw;
+    for (const club of clubs) {
+      const divs = (club.divisions && club.divisions.$values) || club.divisions || [];
+      for (const div of divs) {
+        if (!div.active) continue;
+        allDivisions.push({
+          slug: slugForDivision(div.divisionId),
+          divisionId: div.divisionId,
+          divisionName: div.divisionName.replace(/&amp;/g, '&'),
+          isDefault: div.divisionId === LOCAL_DEFAULT_DIVISION_ID,
+          clubName: normalizeClubName(club.name),
+          clubId: club.clubId,
+        });
+      }
     }
   }
 
   // Path resolution up to root directory from _cpl/modules/
-  const dataDir = path.join(__dirname, '../data');
+  const dataDir = path.join(__dirname, '..', dataSubdir);
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  fs.writeFileSync(path.join(dataDir, 'divisions.json'), JSON.stringify(allDivisions, null, 2));
-  console.log(`✓ divisions.json written (${allDivisions.length} active divisions).`);
+  fs.writeFileSync(path.join(dataDir, divisionsFile), JSON.stringify(allDivisions, null, 2));
+  console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
   const divisionsToFetch = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
   for (const div of divisionsToFetch) {
-    console.log(`\nFetching division: ${div.clubName} / ${div.divisionName} (${div.slug})...`);
+    const label = div.clubName ? `${div.clubName} / ` : '';
+    console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
-      const { matchupsRaw, players, matchupDetails } = await fetchDivisionData(div.divisionId);
+      const { matchupsRaw, players, matchupDetails } = await fetchDivisionData(apiBase, div.divisionId);
 
       const matchupsArray = matchupsRaw.$values || (matchupsRaw.matchups && matchupsRaw.matchups.$values) || matchupsRaw;
       console.log(`  Found ${matchupsArray.length} matchups.`);
@@ -187,7 +236,7 @@ async function downloadLatestApiData({ primaryOnly = false } = {}) {
       fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimPlayers(players), null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
 
-      console.log(`  ✓ Cached to data/${div.slug}/`);
+      console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
     }

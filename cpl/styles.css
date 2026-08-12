@@ -104,6 +104,21 @@ footer {
   text-transform: uppercase;
 }
 
+.back-link {
+  display: inline-block;
+  color: var(--mut);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
 .sub {
   color: var(--mut);
   font-size: 14px;
@@ -169,6 +184,36 @@ select:focus {
 }
 
 .teams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+/* When pods are present, .teams becomes a column of .pod-section blocks,
+   each with its own .tgrid that mirrors the original .teams grid layout. */
+.pod-section {
+  grid-column: 1 / -1;
+}
+
+/* Per-pod sections inside the Head-to-Head grid host */
+.grid-pod-section {
+  margin-bottom: 24px;
+}
+
+.grid-pod-section:last-child {
+  margin-bottom: 0;
+}
+
+.pod-heading {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--mut);
+}
+
+.tgrid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 12px;
@@ -1028,10 +1073,16 @@ tbody td {
   .teams {
     grid-template-columns: repeat(2, 1fr);
   }
+  .tgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 520px) {
   .teams {
+    grid-template-columns: 1fr;
+  }
+  .tgrid {
     grid-template-columns: 1fr;
   }
 
@@ -1116,6 +1167,11 @@ tbody td {
 .grid-wrap td.self {
   background: repeating-linear-gradient(45deg, transparent, transparent 5px, var(--panel2) 5px, var(--panel2) 10px);
   border-style: dashed;
+}
+
+.grid-wrap td.non-opp {
+  background: repeating-linear-gradient(45deg, transparent, transparent 3px, var(--panel2) 3px, var(--panel2) 6px);
+  opacity: 0.45;
 }
 
 .grid-wrap td.win-multi {

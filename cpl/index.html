@@ -3,102 +3,183 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>League Standings — Bounce Pickleball</title>
-<link rel="stylesheet" href="styles.css">
+<title>CPL Standings — Fishtown Pickleball</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --line: #30363d;
+    --txt: #e6edf3;
+    --mut: #7d8590;
+    --accent: #1db2dc;
+    --radius: 14px;
+    --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--txt);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 2.25rem;
+    padding: 2.5rem 1.25rem;
+    background: radial-gradient(1000px 500px at 70% -5%, #15303a 0%, var(--bg) 60%);
+  }
+  .hero { text-align: center; }
+  .kicker {
+    font-size: .7rem; text-transform: uppercase; letter-spacing: .12em;
+    color: var(--mut); margin-bottom: .5rem;
+  }
+  h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -.03em; }
+
+  .panels { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; width: 100%; max-width: 720px; }
+
+  .panel {
+    flex: 1 1 280px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.6rem 1.75rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .panel-head h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: .25rem; }
+  .panel-head p { font-size: .8rem; color: var(--mut); line-height: 1.45; }
+
+  .select-wrap { position: relative; }
+  .select-wrap::after {
+    content: '';
+    position: absolute;
+    right: 11px; top: 50%; transform: translateY(-50%);
+    width: 0; height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid var(--mut);
+    pointer-events: none;
+    transition: border-top-color .15s;
+  }
+  .select-wrap:focus-within::after { border-top-color: var(--accent); }
+  select {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #1c2430;
+    color: var(--txt);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: .6rem 2rem .6rem .75rem;
+    font: inherit;
+    font-size: .875rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  select:hover { border-color: #4a5568; }
+  select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgb(29 178 220 / 20%); }
+  option { font-weight: 400; color: var(--txt); background: #1c2430; }
+
+  .panel-empty { font-size: .8rem; color: var(--mut); font-style: italic; }
+</style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="header-top">
-      <div class="kicker" id="kicker">Bounce Pickleball League • Philadelphia</div>
-      <div class="division-selector-wrap">
-        <label for="division-select" class="division-label">Division</label>
-        <select id="division-select"></select>
+  <div class="hero">
+    <div class="kicker">Fishtown Pickleball Club</div>
+    <h1>CPL League Standings</h1>
+  </div>
+
+  <div class="panels">
+    <div class="panel" id="travel-panel">
+      <div class="panel-head">
+        <h2>Cross Club League</h2>
+        <p>Divisions across all clubs</p>
       </div>
+      <div id="travel-select-host"></div>
     </div>
-    <h1 id="title">Division Standings &amp; Player Stats</h1>
-    <p class="sub" id="sub"></p>
-  </header>
 
-  <div id="mainview">
-  <h2>Team Standings <span class="tag">by match record, then game record, then point differential • click a team for its page</span></h2>
-  <div class="teams" id="teams"></div>
-
-  <h2>Head-to-Head <span class="tag">game record &amp; net point differential by week • click a cell for the team page</span></h2>
-  <div class="grid-wrap" id="grid-host"></div>
-
-  <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
-  <details class="explainer">
-    <summary>How the Rating works</summary>
-    <div class="body">
-      <p><b>Rating</b> estimates the net points per game you add versus a league-average player, after adjusting
-      for <b>who you played with and against</b>. Think of it as a swap test: keep your partner and opponents fixed,
-      replace you with a generic average player, and the rating is how much the scoreline changes.
-      <b>0</b> is average, <span class="pos-diff">+</span> is above average, <span class="neg-diff">−</span> is below.
-      Since games go to 11/15/21, a swing of ±3 per game is large.</p>
-      <p>It isn't raw point differential. Pile up a big margin alongside a strong partner against weak opponents and the
-      model <b>credits the partner and discounts the weak opposition</b> — so your number lands lower than the scoreline.
-      Win a tight one with a weak partner against strong opponents and it can rate <b>higher</b> than the score suggests.</p>
-      <p><b>Opp Str</b> and <b>Partner Str</b> make that context visible: each is the average rating of the opponents you
-      faced / partners you played with, on the same points/game scale (above 0 = stronger than league average). They explain
-      <i>why</i> a rating can diverge from a win-loss record — e.g. an undefeated player with high Partner Str and low Opp Str
-      had favorable conditions. Click any player for a plain-English summary.</p>
-      <p>The whole league is solved at once, and <b>recomputed from scratch every update</b>. Everyone's rating depends on
-      everyone else's, so results are <b>retroactive</b>: lose to an unknown who later turns out strong, and that loss is
-      automatically re-credited as "a loss to a strong player" — no new game required. Beat someone who later proves weak,
-      and the win quietly loses value.</p>
-      <p>The <b>Conf</b> column is how much of each rating is driven by real game evidence rather than the
-      average-player starting assumption (technically, the share of variance the data has resolved). It rises as a player
-      logs more games against well-connected opponents. Early-season numbers sit in the middle and <b>move a lot</b> —
-      read a <span class="pos-diff">+3.0 at 68%</span> as far more settled than the same rating at 45%.</p>
+    <div class="panel" id="local-panel">
+      <div class="panel-head">
+        <h2>Local Leagues</h2>
+        <p>Divisions within clubs</p>
+      </div>
+      <div id="local-select-host"></div>
     </div>
-  </details>
-  <div class="controls">
-    <input id="search" placeholder="Search player…" autocomplete="off">
-    <select id="team"></select>
-    <select id="gender">
-      <option value="">All genders</option>
-      <option value="Male">Men</option>
-      <option value="Female">Women</option>
-    </select>
-    <select id="minq">
-      <option value="0" selected>All matches</option>
-      <option value="1">Only 1 match</option>
-      <option value="2">Multiple matches</option>
-    </select>
-    <span class="hint">Click a name for match history • click a column to sort</span>
-  </div>
-  <div class="panel scroll">
-    <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
   </div>
 
-  <h2>Rating Distribution <span class="tag">every rated player • hover a dot • click to open • dot opacity = confidence</span></h2>
-  <div class="panel swarm-panel">
-    <div class="swarm-host" id="swarm-host"></div>
-  </div>
+<script src="local/bootstrap.js"></script>
+<script src="travel/bootstrap.js"></script>
+<script>
+(function () {
+  'use strict';
 
-  <h2>Top Duos <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span></h2>
-  <div class="panel scroll">
-    <table id="duotbl"><thead><tr>
-      <th class="l">#</th><th class="l">Pair</th><th class="l">Team</th><th>Together</th><th>W–L</th>
-      <th>Synergy</th><th>Actual/g</th><th>Expected/g</th>
-    </tr></thead><tbody id="duobody"></tbody></table>
-  </div>
-  </div><!-- /mainview -->
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
 
-  <div id="teamview" hidden></div>
+  // Extract the leading number from a division name for numeric sort (e.g. "3.25 - 3.99" → 3.25).
+  function divisionSortKey(name) {
+    var m = String(name).match(/[\d.]+/);
+    return m ? parseFloat(m[0]) : Infinity;
+  }
 
-  <footer id="foot"></footer>
-</div>
+  function buildLocalSelect(divisions) {
+    var host = document.getElementById('local-select-host');
+    if (!divisions || !divisions.length) {
+      host.innerHTML = '<p class="panel-empty">No divisions available.</p>';
+      return;
+    }
+    var optsHtml = '<option value="" disabled selected>Select a division…</option>' +
+      divisions.map(function (div) {
+        var label = escapeHtml((div.clubName || '') + ' \u2014 ' + div.divisionName);
+        return '<option value="' + escapeHtml(div.slug) + '">' + label + '</option>';
+      }).join('');
+    var wrap = document.createElement('div');
+    wrap.className = 'select-wrap';
+    var sel = document.createElement('select');
+    sel.setAttribute('aria-label', 'Select a local league division');
+    sel.innerHTML = optsHtml;
+    sel.addEventListener('change', function () {
+      window.location.href = 'local/?d=' + encodeURIComponent(sel.value);
+    });
+    wrap.appendChild(sel);
+    host.appendChild(wrap);
+  }
 
-<div id="overlay" class="overlay" hidden>
-  <div class="modal">
-    <button class="x" id="mx" aria-label="Close">&times;</button>
-    <div id="mhead"></div>
-    <div id="mbody"></div>
-  </div>
-</div>
+  function buildTravelSelect(divisions) {
+    var host = document.getElementById('travel-select-host');
+    if (!divisions || !divisions.length) {
+      host.innerHTML = '<p class="panel-empty">No divisions available yet.</p>';
+      return;
+    }
+    var sorted = divisions.slice().sort(function (a, b) {
+      return divisionSortKey(a.divisionName) - divisionSortKey(b.divisionName);
+    });
+    var opts = '<option value="" disabled selected>Select a division…</option>' +
+      sorted.map(function (div) {
+        return '<option value="' + escapeHtml(div.slug) + '">' + escapeHtml(div.divisionName) + '</option>';
+      }).join('');
+    var wrap = document.createElement('div');
+    wrap.className = 'select-wrap';
+    var sel = document.createElement('select');
+    sel.setAttribute('aria-label', 'Select a cross club league division');
+    sel.innerHTML = opts;
+    sel.addEventListener('change', function () {
+      window.location.href = 'travel/?d=' + encodeURIComponent(sel.value);
+    });
+    wrap.appendChild(sel);
+    host.appendChild(wrap);
+  }
 
-<script src="bootstrap.js"></script>
+  buildLocalSelect(window.LOCAL_DIVISIONS || []);
+  buildTravelSelect(window.TRAVEL_DIVISIONS || []);
+}());
+</script>
 </body>
 </html>

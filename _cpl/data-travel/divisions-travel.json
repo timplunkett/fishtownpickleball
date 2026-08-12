@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "2edc44e7",
+    "divisionId": "2edc44e7-4fac-4dfb-9ef0-16e6d356b99c",
+    "divisionName": "4.0 (50+)",
+    "isDefault": false,
+    "regionName": ""
+  },
+  {
+    "slug": "e27386b3",
+    "divisionId": "e27386b3-c482-4533-a8ae-22622e0c236e",
+    "divisionName": "3.0",
+    "isDefault": false,
+    "regionName": ""
+  },
+  {
+    "slug": "1e12eb3f",
+    "divisionId": "1e12eb3f-3aef-46c5-9484-3a7ba22e7e9a",
+    "divisionName": "3.0 (50+)",
+    "isDefault": false,
+    "regionName": ""
+  },
+  {
+    "slug": "a1413f3d",
+    "divisionId": "a1413f3d-5f4b-4ad4-b5cf-c21c7c8b7d66",
+    "divisionName": "4.0",
+    "isDefault": false,
+    "regionName": ""
+  },
+  {
+    "slug": "b7ca04e4",
+    "divisionId": "b7ca04e4-a9b8-4c10-8054-e58329d8dc49",
+    "divisionName": "3.5",
+    "isDefault": true,
+    "regionName": ""
+  },
+  {
+    "slug": "6619816f",
+    "divisionId": "6619816f-33c4-4a86-bcb3-f14054c38344",
+    "divisionName": "4.5",
+    "isDefault": false,
+    "regionName": ""
+  },
+  {
+    "slug": "c43b8608",
+    "divisionId": "c43b8608-245a-48bc-9a03-f3e094e5bf4a",
+    "divisionName": "3.5 (50+)",
+    "isDefault": false,
+    "regionName": ""
+  }
+]
