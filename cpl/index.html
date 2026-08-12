@@ -85,6 +85,81 @@
   option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
   .panel-empty { font-size: .8rem; color: var(--mut); font-style: italic; }
+
+  /* Player Finder */
+  .finder-panel {
+    width: 100%;
+    max-width: 720px;
+  }
+  .finder-input-wrap {
+    position: relative;
+  }
+  .finder-input-wrap svg {
+    position: absolute;
+    left: .75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--mut);
+    pointer-events: none;
+    flex-shrink: 0;
+  }
+  #player-search {
+    width: 100%;
+    background: #1c2430;
+    color: var(--txt);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: .6rem .75rem .6rem 2.25rem;
+    font: inherit;
+    font-size: .875rem;
+    outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  #player-search::placeholder { color: var(--mut); }
+  #player-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgb(29 178 220 / 20%); }
+
+  #player-results { display: flex; flex-direction: column; gap: .5rem; }
+
+  .player-result {
+    background: #1c2430;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: .75rem 1rem;
+  }
+  .player-result-name {
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom: .45rem;
+  }
+  .player-result-entries { display: flex; flex-direction: column; gap: .3rem; }
+  .player-result-entry {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    font-size: .8rem;
+    color: var(--mut);
+    flex-wrap: wrap;
+  }
+  .league-badge {
+    font-size: .65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    padding: .1em .45em;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .league-badge.local { background: rgb(29 178 220 / 15%); color: var(--accent); }
+  .league-badge.travel { background: rgb(25 211 154 / 15%); color: #19d39a; }
+  .player-result-entry a {
+    color: var(--txt);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .player-result-entry a:hover { text-decoration: underline; color: var(--accent); }
+  .player-result-entry .team-name { color: var(--mut); }
+
+  .finder-hint { font-size: .78rem; color: var(--mut); font-style: italic; text-align: center; }
 </style>
 </head>
 <body>
@@ -111,8 +186,25 @@
     </div>
   </div>
 
+  <div class="panel finder-panel">
+    <div class="panel-head">
+      <h2>Player Finder</h2>
+      <p>Search by name to see which leagues, divisions, and teams a player is on</p>
+    </div>
+    <div class="finder-input-wrap">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input type="search" id="player-search" placeholder="Type a player name…" autocomplete="off" spellcheck="false" aria-label="Search for a player">
+    </div>
+    <div id="player-results" role="list" aria-live="polite"></div>
+    <p class="finder-hint" id="finder-hint">Start typing to search across all leagues and divisions</p>
+  </div>
+
 <script src="local/bootstrap.js"></script>
 <script src="travel/bootstrap.js"></script>
+<script src="player-index.js"></script>
 <script>
 (function () {
   'use strict';
@@ -179,6 +271,82 @@
 
   buildLocalSelect(window.LOCAL_DIVISIONS || []);
   buildTravelSelect(window.TRAVEL_DIVISIONS || []);
+
+  // ── Player Finder ──────────────────────────────────────────────────────────
+
+  var searchInput = document.getElementById('player-search');
+  var resultsEl = document.getElementById('player-results');
+  var hintEl = document.getElementById('finder-hint');
+  var playerIndex = window.PLAYER_INDEX || [];
+
+  function normalize(s) {
+    return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+  }
+
+  function divisionUrl(entry) {
+    return entry.league + '/?d=' + encodeURIComponent(entry.slug);
+  }
+
+  function renderResults(query) {
+    var q = normalize(query);
+    if (!q) {
+      resultsEl.innerHTML = '';
+      hintEl.style.display = '';
+      hintEl.textContent = 'Start typing to search across all leagues and divisions';
+      return;
+    }
+
+    // Group entries by player name, filtering by query
+    var byName = Object.create(null);
+    var nameOrder = [];
+    for (var i = 0; i < playerIndex.length; i++) {
+      var entry = playerIndex[i];
+      var normalizedName = normalize(entry.name);
+      if (normalizedName.indexOf(q) === -1) continue;
+      if (!byName[entry.name]) {
+        byName[entry.name] = [];
+        nameOrder.push(entry.name);
+      }
+      byName[entry.name].push(entry);
+    }
+
+    hintEl.style.display = 'none';
+
+    if (!nameOrder.length) {
+      resultsEl.innerHTML = '<p class="panel-empty">No players found matching \u201c' + escapeHtml(query) + '\u201d.</p>';
+      return;
+    }
+
+    var html = nameOrder.map(function (name) {
+      var entries = byName[name];
+      var entriesHtml = entries.map(function (e) {
+        var badgeClass = e.league === 'travel' ? 'travel' : 'local';
+        var badgeLabel = e.league === 'travel' ? 'CCL' : 'Local';
+        var locationParts = [];
+        if (e.club) locationParts.push(escapeHtml(e.club));
+        locationParts.push(escapeHtml(e.division));
+        var locationText = locationParts.join(' \u2014 ');
+        return '<div class="player-result-entry" role="listitem">' +
+          '<span class="league-badge ' + badgeClass + '">' + badgeLabel + '</span>' +
+          '<a href="' + escapeHtml(divisionUrl(e)) + '">' + locationText + '</a>' +
+          '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
+          '</div>';
+      }).join('');
+      return '<div class="player-result">' +
+        '<div class="player-result-name">' + escapeHtml(name) + '</div>' +
+        '<div class="player-result-entries">' + entriesHtml + '</div>' +
+        '</div>';
+    }).join('');
+
+    resultsEl.innerHTML = html;
+  }
+
+  var debounceTimer = null;
+  searchInput.addEventListener('input', function () {
+    clearTimeout(debounceTimer);
+    var val = searchInput.value;
+    debounceTimer = setTimeout(function () { renderResults(val); }, 120);
+  });
 }());
 </script>
 </body>

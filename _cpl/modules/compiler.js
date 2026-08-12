@@ -829,4 +829,48 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false } = 
   console.log('\n✓ Phase 2 complete.');
 }
 
-module.exports = { compileDashboardHtml };
+function buildPlayerIndex() {
+  console.log('\n--- Building player index ---');
+  const rootDir = path.join(__dirname, '../..');
+  const leagueConfigs = [
+    { league: 'local', dataSubdir: 'data', divisionsFile: 'divisions.json' },
+    { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
+  ];
+
+  const entries = [];
+
+  for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
+    const dataDir = path.join(__dirname, '..', dataSubdir);
+    const divisionsPath = path.join(dataDir, divisionsFile);
+    if (!fs.existsSync(divisionsPath)) continue;
+
+    const divisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
+    for (const div of divisions) {
+      const playersPath = path.join(dataDir, div.slug, 'players.json');
+      if (!fs.existsSync(playersPath)) continue;
+
+      const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
+      const players = (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []);
+      for (const p of players) {
+        if (!p.firstName && !p.lastName) continue;
+        const entry = {
+          name: norm(`${p.firstName || ''} ${p.lastName || ''}`),
+          team: p.teamName || '',
+          division: div.divisionName,
+          slug: div.slug,
+          league,
+        };
+        if (div.clubName) entry.club = div.clubName;
+        entries.push(entry);
+      }
+    }
+  }
+
+  entries.sort((a, b) => a.name.localeCompare(b.name));
+
+  const outPath = path.join(rootDir, 'cpl', 'player-index.js');
+  fs.writeFileSync(outPath, `window.PLAYER_INDEX = ${JSON.stringify(entries)};`);
+  console.log(`✓ player-index.js written (${entries.length} player-division entries).`);
+}
+
+module.exports = { compileDashboardHtml, buildPlayerIndex };

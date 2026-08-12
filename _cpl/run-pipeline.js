@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { downloadLatestApiData } = require('./modules/fetcher');
-const { compileDashboardHtml } = require('./modules/compiler');
+const { compileDashboardHtml, buildPlayerIndex } = require('./modules/compiler');
 
 const primaryOnly = process.argv.includes('--primary-only');
 
@@ -21,13 +21,14 @@ async function runPipeline(league) {
 
 const arg = process.argv[2];
 if (arg === '--league=local' || arg === 'local') {
-  runPipeline('local');
+  runPipeline('local').then(() => buildPlayerIndex());
 } else if (arg === '--league=travel' || arg === 'travel') {
-  runPipeline('travel');
+  runPipeline('travel').then(() => buildPlayerIndex());
 } else {
   // Default: run both leagues sequentially.
   (async () => {
     await runPipeline('local');
     await runPipeline('travel');
+    buildPlayerIndex();
   })();
 }
