@@ -21,9 +21,9 @@ const MATCHUP_KEEP = new Set([
 ]);
 
 const PLAYER_KEEP = new Set([
-  'playerId', 'firstName', 'lastName', 'gender', 'isCaptain', 'isSub', 'teamId', 'teamName',
+  'playerId', 'firstName', 'lastName', 'gender', 'dupr', 'duprRating', 'isCaptain', 'isSub', 'teamId', 'teamName',
   'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
-  'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking', 'dupr',
+  'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
 ]);
 
 const MATCHUP_DETAIL_MATCHUP_KEEP = new Set([
