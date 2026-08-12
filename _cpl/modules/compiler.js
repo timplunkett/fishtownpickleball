@@ -524,7 +524,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   console.log(`  ✓ data.js written to ${outPath}`);
 }
 
-async function compileDashboardHtml() {
+async function compileDashboardHtml({ primaryOnly = false } = {}) {
   console.log('\n--- Phase 2: Processing Stats & Building View ---');
   const dataDir = path.join(__dirname, '../data');
   const cplDir = path.join(__dirname, '../../cpl');
@@ -535,7 +535,8 @@ async function compileDashboardHtml() {
   }
   const allDivisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
 
-  for (const div of allDivisions) {
+  const divisionsToCompile = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
+  for (const div of divisionsToCompile) {
     const divDataDir = path.join(dataDir, div.slug);
     if (!fs.existsSync(divDataDir)) {
       console.warn(`  ⚠️ No data dir for ${div.slug} (${div.clubName}), skipping.`);

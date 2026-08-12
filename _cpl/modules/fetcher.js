@@ -135,7 +135,7 @@ async function fetchDivisionData(divisionId) {
   return { matchupsRaw, players, matchupDetails: individualDetails };
 }
 
-async function downloadLatestApiData() {
+async function downloadLatestApiData({ primaryOnly = false } = {}) {
   console.log('--- Phase 1: Fetching Remote API Data ---');
 
   // Fetch all clubs/divisions to build the division manifest.
@@ -171,7 +171,8 @@ async function downloadLatestApiData() {
   console.log(`✓ divisions.json written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
-  for (const div of allDivisions) {
+  const divisionsToFetch = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
+  for (const div of divisionsToFetch) {
     console.log(`\nFetching division: ${div.clubName} / ${div.divisionName} (${div.slug})...`);
     try {
       const { matchupsRaw, players, matchupDetails } = await fetchDivisionData(div.divisionId);
