@@ -448,8 +448,13 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   // Full match list (completed + scheduled) and per-team format splits, for the
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
   const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
+  // Build nameById from the complete player roster (players.json) so it works
+  // even for upcoming matchups whose matchupPlayerStats has been omitted.
   const nameById = {};
-  // Build a name and sub-player lookup across all match details for the team page.
+  for (const [pid, info] of Object.entries(playerInfoById)) {
+    nameById[pid] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+  }
+  // Build sub-player lookup for completed matchups (names shown next to match results).
   const subNamesByMatchupId = {};
   for (const e of matchupDetailsJson) {
     const subs = [];
@@ -457,10 +462,8 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     // Collect the set of player IDs that appear as regular (non-sub) roster members in this matchup.
     const rosterPids = new Set(players.filter(p => !p.isSub).map(p => p.playerId));
     for (const p of players) {
-      const info = playerInfoById[p.playerId] || {};
-      nameById[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
       // Only mark as sub if not also listed as a regular roster member in the same matchup.
-      if (p.isSub && !rosterPids.has(p.playerId)) subs.push(norm(`${info.firstName || ''} ${info.lastName || ''}`));
+      if (p.isSub && !rosterPids.has(p.playerId)) subs.push(nameById[p.playerId] || p.playerId);
     }
     if (subs.length) subNamesByMatchupId[e.matchupId] = subs;
   }
