@@ -27,5 +27,5 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add _cpl/data-local/global_players.json
+          git add _cpl/data/global_players.json
           git diff-index --quiet HEAD || (git commit -m "bot(DUPR): Update player DUPR ratings" && git push)

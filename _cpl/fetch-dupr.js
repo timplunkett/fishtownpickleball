@@ -4,7 +4,6 @@ const path = require('path');
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
 const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
-const DIVISIONS_FILE = path.join(__dirname, 'data-local', 'divisions.json');
 const BATCH_SIZE = 5;       // Number of concurrent API requests per batch
 const BATCH_DELAY_MS = 300; // Delay in milliseconds between batches to prevent rate limits
 
@@ -62,16 +61,18 @@ async function fetchDuprRating(duprId) {
 }
 
 /**
- * Reads all division players.json files and builds a deduplicated global player list.
+ * Reads all players from data-local/players.json and builds a deduplicated global player list.
  * Only identity + DUPR fields are kept; division-specific stats are not stored here.
  * Any existing duprRating values in global_players.json are preserved.
  */
 function buildGlobalPlayers() {
-  if (!fs.existsSync(DIVISIONS_FILE)) {
-    throw new Error(`divisions.json not found at ${DIVISIONS_FILE} — run the fetcher first.`);
+  const allPlayersFile = path.join(__dirname, 'data-local', 'players.json');
+  if (!fs.existsSync(allPlayersFile)) {
+    throw new Error(`players.json not found at ${allPlayersFile} — run the fetcher first.`);
   }
 
-  const divisions = JSON.parse(fs.readFileSync(DIVISIONS_FILE, 'utf-8'));
+  const raw = JSON.parse(fs.readFileSync(allPlayersFile, 'utf-8'));
+  const allPlayers = raw.$values || [];
 
   // Load any previously-fetched ratings from the existing global file.
   const existingRatings = {};
@@ -87,24 +88,16 @@ function buildGlobalPlayers() {
   const seen = new Set();
   const globalPlayers = [];
 
-  for (const div of divisions) {
-    const playersFile = path.join(__dirname, 'data-local', div.slug, 'players.json');
-    if (!fs.existsSync(playersFile)) continue;
-
-    const raw = JSON.parse(fs.readFileSync(playersFile, 'utf-8'));
-    const players = raw.$values || [];
-
-    for (const p of players) {
-      if (!p.playerId || seen.has(p.playerId)) continue;
-      seen.add(p.playerId);
-      globalPlayers.push({
-        playerId: p.playerId,
-        firstName: p.firstName,
-        lastName: p.lastName,
-        dupr: p.dupr || null,
-        duprRating: existingRatings[p.playerId] ?? null,
-      });
-    }
+  for (const p of allPlayers) {
+    if (!p.playerId || seen.has(p.playerId)) continue;
+    seen.add(p.playerId);
+    globalPlayers.push({
+      playerId: p.playerId,
+      firstName: p.firstName,
+      lastName: p.lastName,
+      dupr: p.dupr || null,
+      duprRating: existingRatings[p.playerId] ?? null,
+    });
   }
 
   return globalPlayers;

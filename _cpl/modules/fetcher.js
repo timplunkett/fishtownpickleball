@@ -220,6 +220,8 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
 
   // Fetch data for each division.
   const divisionsToFetch = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
+  const allPlayersFlat = [];
+  const seenPlayerIds = new Set();
   for (const div of divisionsToFetch) {
     const label = div.clubName ? `${div.clubName} / ` : '';
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
@@ -254,10 +256,24 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
       fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimmed, null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
 
+      // Accumulate unique players for the flat players.json (used by the DUPR workflow).
+      for (const p of (players.$values || [])) {
+        if (p.playerId && !seenPlayerIds.has(p.playerId)) {
+          seenPlayerIds.add(p.playerId);
+          allPlayersFlat.push(p);
+        }
+      }
+
       console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
     }
+  }
+
+  // Write a flat players.json with all players (including dupr) for use by the DUPR workflow.
+  if (league === 'local' && allPlayersFlat.length > 0) {
+    fs.writeFileSync(path.join(dataDir, 'players.json'), JSON.stringify({ $values: allPlayersFlat }, null, 2));
+    console.log(`\n✓ data-local/players.json written (${allPlayersFlat.length} players).`);
   }
 
   console.log('\n✓ Phase 1 complete.');
