@@ -48,14 +48,15 @@ async function fetchDuprRating(duprId) {
 
     if (response.status === 429) {
       console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || 'Request rate exceeded');
-      return { rating: null, rateLimited: true };
+      return { rating: null, numericId: null, rateLimited: true };
     }
 
     if (response.ok && data.status === 'SUCCESS') {
       const hits = data.result?.hits || data.result?.content || data.result;
       const playerMatch = Array.isArray(hits) ? hits[0] : null;
       if (playerMatch?.ratings?.doubles) {
-        return { rating: playerMatch.ratings.doubles, rateLimited: false };
+        const numericId = playerMatch.id ?? playerMatch.playerId ?? null;
+        return { rating: playerMatch.ratings.doubles, numericId, rateLimited: false };
       }
     } else {
       console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || data.status);
@@ -64,7 +65,7 @@ async function fetchDuprRating(duprId) {
     console.error(`[ERROR] Network error for DUPR ID ${duprId}:`, err.message);
   }
 
-  return { rating: null, rateLimited: false };
+  return { rating: null, numericId: null, rateLimited: false };
 }
 
 /**
@@ -93,17 +94,22 @@ async function run() {
 
   for (const player of validPlayers) {
     if (player.duprRating != null) {
-      if (!player.duprLastFetchedFor) player.duprLastFetchedFor = player.dupr;
-      if (player.duprLastFetchedFor === player.dupr) {
-        duprCache.set(player.dupr, player.duprRating);
+      if (!player.duprNumericId) {
+        // Legacy migration: treat duprLastFetchedFor match as cached, but force re-fetch to get numeric ID
+        if (player.duprLastFetchedFor && player.duprLastFetchedFor === player.dupr) {
+          duprCache.set(player.dupr, player.duprRating);
+        }
+      } else {
+        duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
       }
     }
   }
 
   const playersToFetch = validPlayers.filter((p) => {
     if (p.duprRating == null) return true;
-    if (!p.duprLastFetchedFor) return false;
-    return p.duprLastFetchedFor !== p.dupr;
+    if (p.duprNumericId) return false;
+    // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
+    return true;
   });
 
   console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
@@ -127,24 +133,29 @@ async function run() {
     console.log(`Processing ${i + 1} of ${playersToFetch.length}: ${fullName} (${player.dupr})`);
 
     if (duprCache.has(player.dupr)) {
-      const cachedRating = duprCache.get(player.dupr);
+      const cached = duprCache.get(player.dupr);
+      const cachedRating = typeof cached === 'object' ? cached.rating : cached;
+      const cachedNumericId = typeof cached === 'object' ? cached.numericId : null;
       player.duprRating = cachedRating;
-      player.duprLastFetchedFor = player.dupr;
+      player.duprNumericId = cachedNumericId;
+      delete player.duprLastFetchedFor;
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': cachedNumericId ?? '—',
         'Fetched Rating': cachedRating,
       });
       continue;
     }
 
-    const { rating, rateLimited } = await fetchDuprRating(player.dupr);
+    const { rating, numericId, rateLimited } = await fetchDuprRating(player.dupr);
 
     if (rateLimited) {
       consecutive429s += 1;
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': '—',
         'Fetched Rating': 'NR (429)',
       });
       if (consecutive429s >= MAX_CONSECUTIVE_429) {
@@ -156,13 +167,15 @@ async function run() {
       consecutive429s = 0;
       if (rating != null) {
         player.duprRating = rating;
-        player.duprLastFetchedFor = player.dupr;
-        duprCache.set(player.dupr, rating);
+        player.duprNumericId = numericId;
+        delete player.duprLastFetchedFor;
+        duprCache.set(player.dupr, { rating, numericId });
       }
 
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': numericId ?? '—',
         'Fetched Rating': rating !== null ? rating : 'NR',
       });
     }
