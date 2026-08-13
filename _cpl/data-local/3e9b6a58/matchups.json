@@ -209,9 +209,9 @@
       "weekNumber": 9,
       "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
       "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 615,
+      "awayPoints": 602,
+      "endResult": "home",
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Picholas Cage",
       "awayName": "Baggers"
