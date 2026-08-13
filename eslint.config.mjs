@@ -18,7 +18,7 @@ export default [
     },
   },
   {
-    files: ['cpl/local/app.js', 'cpl/travel/app.js'],
+    files: ['cpl/app.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'script',
