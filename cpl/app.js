@@ -496,9 +496,10 @@ function renderCell(player, key) {
         ? EMPTY_VALUE
         : `<span class="lgrank">#${player.leagueRank}</span>`;
     case 'dupr':
-      return isMissing(player.duprRating)
-        ? EMPTY_VALUE
-        : player.duprRating.toFixed(2);
+      if (isMissing(player.duprRating)) return EMPTY_VALUE;
+      return player.duprNumericId
+        ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(player.duprNumericId)}" target="_blank" rel="nofollow">${player.duprRating.toFixed(3)}</a>`
+        : player.duprRating.toFixed(3);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -666,7 +667,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
       ${divisionRankStat}
       ${leagueRankStat}
-      ${isMissing(player.duprRating) ? '' : `<div class="mh-stat"><div class="n">${player.duprRating.toFixed(2)}</div><div class="l">DUPR</div></div>`}
+      ${isMissing(player.duprRating) ? '' : `<div class="mh-stat"><div class="n">${player.duprNumericId ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(player.duprNumericId)}" target="_blank" rel="nofollow">${player.duprRating.toFixed(3)}</a>` : player.duprRating.toFixed(3)}</div><div class="l">DUPR</div></div>`}
     </div>
     ${narrative}
     ${partnersLine}

@@ -15,23 +15,21 @@ if (!ACCESS_TOKEN) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/**
- * Fetches the doubles DUPR rating for a given DUPR ID.
- */
-async function fetchDuprRating(duprId) {
-  if (!duprId || duprId.trim() === '') {
-    return { rating: null, rateLimited: false };
-  }
+function getPlayerMatch(data) {
+  const hits = data.result?.hits || data.result?.content || data.result;
+  return Array.isArray(hits) ? hits[0] : null;
+}
 
+async function searchPlayer(query, filter = null) {
   const url = 'https://api.dupr.gg/player/v1.0/search';
   const payload = {
-    query: duprId,
-    filter: { duprId },
+    query,
     page: 0,
     pageSize: 10,
     limit: 1,
     sort: { order: 'ASC', parameter: 'RELEVANCE' },
   };
+  if (filter) payload.filter = filter;
 
   try {
     const authHeader = 'Bearer ' + ACCESS_TOKEN;
@@ -46,25 +44,58 @@ async function fetchDuprRating(duprId) {
 
     const data = await response.json().catch(() => ({}));
 
-    if (response.status === 429) {
-      console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || 'Request rate exceeded');
-      return { rating: null, rateLimited: true };
+    if (response.status === 429) return { playerMatch: null, rateLimited: true };
+    if (!response.ok || data.status !== 'SUCCESS') {
+      return { playerMatch: null, rateLimited: false, error: data.message || data.status || response.statusText };
     }
-
-    if (response.ok && data.status === 'SUCCESS') {
-      const hits = data.result?.hits || data.result?.content || data.result;
-      const playerMatch = Array.isArray(hits) ? hits[0] : null;
-      if (playerMatch?.ratings?.doubles) {
-        return { rating: playerMatch.ratings.doubles, rateLimited: false };
-      }
-    } else {
-      console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || data.status);
-    }
+    return { playerMatch: getPlayerMatch(data), rateLimited: false };
   } catch (err) {
-    console.error(`[ERROR] Network error for DUPR ID ${duprId}:`, err.message);
+    return { playerMatch: null, rateLimited: false, error: err.message };
+  }
+}
+
+/**
+ * Fetches the doubles DUPR rating for a given DUPR ID.
+ */
+async function fetchDuprRating(duprId, existingNumericId = null) {
+  if (!duprId || duprId.trim() === '') {
+    return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
   }
 
-  return { rating: null, rateLimited: false };
+  const primary = await searchPlayer(duprId, { duprId });
+  if (primary.rateLimited) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
+    return { rating: null, numericId: null, rateLimited: true };
+  }
+  if (primary.playerMatch) {
+    const numericId = primary.playerMatch.id ?? existingNumericId ?? null;
+    const rating = primary.playerMatch.ratings?.doubles ?? null;
+    return { rating, numericId, rateLimited: false };
+  }
+
+  if (primary.error) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, primary.error);
+  }
+
+  if (existingNumericId != null) {
+    const numericId = Number(existingNumericId);
+    console.warn(`[WARN] No player match for DUPR ID ${duprId}; retrying with numeric ID ${existingNumericId}.`);
+    const fallback = await searchPlayer(String(existingNumericId), Number.isFinite(numericId) ? { id: numericId } : null);
+    if (fallback.rateLimited) {
+      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
+      return { rating: null, numericId: null, rateLimited: true };
+    }
+    if (fallback.playerMatch) {
+      const numericId = fallback.playerMatch.id ?? existingNumericId;
+      const rating = fallback.playerMatch.ratings?.doubles ?? null;
+      return { rating, numericId, rateLimited: false };
+    }
+    if (fallback.error) {
+      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}):`, fallback.error);
+    }
+  }
+
+  return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
 }
 
 /**
@@ -93,17 +124,19 @@ async function run() {
 
   for (const player of validPlayers) {
     if (player.duprRating != null) {
-      if (!player.duprLastFetchedFor) player.duprLastFetchedFor = player.dupr;
-      if (player.duprLastFetchedFor === player.dupr) {
-        duprCache.set(player.dupr, player.duprRating);
+      if (!player.duprNumericId) {
+        // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
+      } else {
+        duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
       }
     }
   }
 
   const playersToFetch = validPlayers.filter((p) => {
     if (p.duprRating == null) return true;
-    if (!p.duprLastFetchedFor) return false;
-    return p.duprLastFetchedFor !== p.dupr;
+    if (p.duprNumericId) return false;
+    // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
+    return true;
   });
 
   console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
@@ -127,24 +160,29 @@ async function run() {
     console.log(`Processing ${i + 1} of ${playersToFetch.length}: ${fullName} (${player.dupr})`);
 
     if (duprCache.has(player.dupr)) {
-      const cachedRating = duprCache.get(player.dupr);
+      const cached = duprCache.get(player.dupr);
+      const cachedRating = typeof cached === 'object' ? cached.rating : cached;
+      const cachedNumericId = typeof cached === 'object' ? cached.numericId : null;
       player.duprRating = cachedRating;
-      player.duprLastFetchedFor = player.dupr;
+      player.duprNumericId = cachedNumericId;
+      delete player.duprLastFetchedFor;
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': cachedNumericId ?? '—',
         'Fetched Rating': cachedRating,
       });
       continue;
     }
 
-    const { rating, rateLimited } = await fetchDuprRating(player.dupr);
+    const { rating, numericId, rateLimited } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
 
     if (rateLimited) {
       consecutive429s += 1;
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': '—',
         'Fetched Rating': 'NR (429)',
       });
       if (consecutive429s >= MAX_CONSECUTIVE_429) {
@@ -154,15 +192,21 @@ async function run() {
       }
     } else {
       consecutive429s = 0;
+      if (numericId != null) {
+        player.duprNumericId = numericId;
+      }
       if (rating != null) {
         player.duprRating = rating;
-        player.duprLastFetchedFor = player.dupr;
-        duprCache.set(player.dupr, rating);
+        delete player.duprLastFetchedFor;
+      }
+      if (numericId != null || rating != null) {
+        duprCache.set(player.dupr, { rating, numericId });
       }
 
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
+        'Numeric ID': numericId ?? '—',
         'Fetched Rating': rating !== null ? rating : 'NR',
       });
     }

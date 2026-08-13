@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CPL Standings — Fishtown Pickleball</title>
+<link rel="stylesheet" href="styles.css">
 <style>
   :root {
     --bg: #0d1117;
@@ -15,7 +16,6 @@
     --radius: 14px;
     --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: var(--font);
     background: var(--bg);
@@ -130,7 +130,21 @@
     font-size: .9rem;
     font-weight: 700;
     margin-bottom: .45rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
   }
+  .player-result-dupr {
+    font-size: .72rem;
+    font-weight: 600;
+    color: var(--mut);
+  }
+  .player-result-dupr a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .player-result-dupr a:hover { text-decoration: underline; }
   .player-result-entries { display: flex; flex-direction: column; }
   .player-result-entry {
     display: flex;
@@ -306,29 +320,32 @@
       return;
     }
 
-    // Group entries by player name, filtering by query
-    var byName = Object.create(null);
-    var nameOrder = [];
+    // Group entries by player identity (name + DUPR numeric ID), filtering by query.
+    // Players sharing the same name but having different DUPR IDs are treated as distinct people.
+    var byKey = Object.create(null);
+    var keyOrder = [];
     for (var i = 0; i < playerIndex.length; i++) {
       var entry = playerIndex[i];
       var normalizedName = normalize(entry.name);
       if (normalizedName.indexOf(q) === -1) continue;
-      if (!byName[entry.name]) {
-        byName[entry.name] = [];
-        nameOrder.push(entry.name);
+      var playerKey = entry.name + (entry.duprNumericId ? '|' + entry.duprNumericId : '');
+      if (!byKey[playerKey]) {
+        byKey[playerKey] = [];
+        keyOrder.push(playerKey);
       }
-      byName[entry.name].push(entry);
+      byKey[playerKey].push(entry);
     }
 
     hintEl.style.display = 'none';
 
-    if (!nameOrder.length) {
+    if (!keyOrder.length) {
       resultsEl.innerHTML = '<p class="panel-empty">No players found matching \u201c' + escapeHtml(query) + '\u201d.</p>';
       return;
     }
 
-    var html = nameOrder.map(function (name) {
-      var entries = byName[name];
+    var html = keyOrder.map(function (key) {
+      var entries = byKey[key];
+      var name = entries[0].name;
       var entriesHtml = entries.map(function (e) {
         var badgeClass = e.league === 'travel' ? 'travel' : 'local';
         var badgeLabel = e.league === 'travel' ? 'CPL' : 'Local';
@@ -342,8 +359,19 @@
           '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
           '</a>';
       }).join('');
+      // Use the first entry that has DUPR data
+      var duprEntry = entries.find(function (e) { return e.duprRating != null; });
+      var duprHtml = '';
+      if (duprEntry) {
+        var rating = duprEntry.duprRating.toFixed(3);
+        duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
+          (duprEntry.duprNumericId
+            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprEntry.duprNumericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
+            : escapeHtml(rating)) +
+          '</span>';
+      }
       return '<div class="player-result">' +
-        '<div class="player-result-name">' + escapeHtml(name) + '</div>' +
+        '<div class="player-result-name">' + escapeHtml(name) + duprHtml + '</div>' +
         '<div class="player-result-entries">' + entriesHtml + '</div>' +
         '</div>';
     }).join('');

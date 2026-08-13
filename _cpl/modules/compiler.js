@@ -372,7 +372,9 @@ function loadDuprByPid() {
   const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
   const map = {};
   for (const p of globalPlayers) {
-    if (p.playerId && p.duprRating != null && p.duprRating != 'NR') map[p.playerId] = Number(p.duprRating);
+    if (p.playerId && p.duprRating != null && p.duprRating != 'NR') {
+      map[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null };
+    }
   }
   return map;
 }
@@ -423,7 +425,9 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           rating: null, ratingGames: 0, confidence: 0,
           strengthOfPartners: null, strengthOfOpponents: null,
           ratingHistory: [], partners: [],
-          duprRating: duprByPid[pid] ?? null,
+          dupr: p.dupr,
+          duprRating: duprByPid[pid]?.rating ?? null,
+          duprNumericId: duprByPid[pid]?.numericId ?? null,
         });
       }
     }
@@ -541,7 +545,8 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
-          duprRating: duprByPid[pid] ?? null,
+          duprRating: duprByPid[pid]?.rating ?? null,
+          duprNumericId: duprByPid[pid]?.numericId ?? null,
         });
       }
       const P = players.get(pid);
@@ -851,6 +856,21 @@ function buildPlayerIndex() {
     { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
   ];
 
+  // Build a playerId → { duprRating, duprNumericId } lookup from global_players.json
+  const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
+  const duprByPlayerId = new Map();
+  if (fs.existsSync(globalPlayersPath)) {
+    const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
+    for (const gp of globalPlayers) {
+      if (gp.playerId && gp.duprRating != null) {
+        duprByPlayerId.set(gp.playerId, {
+          duprRating: Number(gp.duprRating),
+          duprNumericId: gp.duprNumericId ?? null,
+        });
+      }
+    }
+  }
+
   const entries = [];
 
   for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
@@ -875,6 +895,11 @@ function buildPlayerIndex() {
           league,
         };
         if (div.clubName) entry.club = div.clubName;
+        const dupr = p.playerId ? duprByPlayerId.get(p.playerId) : null;
+        if (dupr) {
+          entry.duprRating = dupr.duprRating;
+          if (dupr.duprNumericId) entry.duprNumericId = dupr.duprNumericId;
+        }
         entries.push(entry);
       }
     }
