@@ -423,6 +423,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           rating: null, ratingGames: 0, confidence: 0,
           strengthOfPartners: null, strengthOfOpponents: null,
           ratingHistory: [], partners: [],
+          dupr: p.dupr,
           duprRating: duprByPid[pid] ?? null,
         });
       }
