@@ -26,6 +26,7 @@ const COLUMNS = Object.freeze([
   { key: 'soo', label: 'Opp <br>Str', align: 'right' },
   { key: 'sop', label: 'Partner <br>Str', align: 'right' },
   { key: 'leagueRank', label: 'Lg <br>Rank', align: 'right' },
+  { key: 'dupr', label: 'DUPR', align: 'right' },
   { key: 'matches', label: 'M', align: 'right' },
   { key: 'gamesPlayed', label: 'GP', align: 'right' },
   { key: 'wl', label: 'W–L', align: 'right' },
@@ -112,6 +113,8 @@ const ratingHistoryWeeks = Array.isArray(DATA.meta.ratingHistoryWeeks) && DATA.m
 
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
+let rosterSortKey = 'rating';
+let rosterSortDirection = -1;
 let hashSetByApp = false;
 
 function getRequiredElement(id) {
@@ -398,6 +401,8 @@ function getSortValue(player, key) {
       return player.genderWins;
     case 'clutch':
       return player.clutchWins;
+    case 'dupr':
+      return isMissing(player.duprRating) ? Number.NEGATIVE_INFINITY : player.duprRating;
     default:
       return player[key];
   }
@@ -490,6 +495,10 @@ function renderCell(player, key) {
       return isMissing(player.leagueRank)
         ? EMPTY_VALUE
         : `<span class="lgrank">#${player.leagueRank}</span>`;
+    case 'dupr':
+      return isMissing(player.duprRating)
+        ? EMPTY_VALUE
+        : player.duprRating.toFixed(2);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -657,6 +666,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
       ${divisionRankStat}
       ${leagueRankStat}
+      ${isMissing(player.duprRating) ? '' : `<div class="mh-stat"><div class="n">${player.duprRating.toFixed(2)}</div><div class="l">DUPR</div></div>`}
     </div>
     ${narrative}
     ${partnersLine}
@@ -1407,15 +1417,14 @@ function renderPendingTeamMatchBlock(match, teamName) {
   `;
 }
 
-function renderTeamPage(team) {
+function renderTeamPage(team, { scroll = true } = {}) {
   const color = getTeamColor(team.name);
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
   const rankTeams = podCount > 1 ? DATA.teams.filter((t) => t.pod === team.pod) : DATA.teams;
   const rank = rankTeams.findIndex((candidate) => candidate.name === team.name) + 1;
   const rankLabel = podCount > 1 ? `#${rank} in Pod ${team.pod}` : `#${rank} in standings`;
   const roster = DATA.players
-    .filter((player) => player.team === team.name)
-    .sort((a, b) => (b.rating ?? -99) - (a.rating ?? -99));
+    .filter((player) => player.team === team.name);
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
   const history = DATA.matches
     .filter((match) => match.complete && (match.home === team.name || match.away === team.name))
@@ -1425,11 +1434,41 @@ function renderTeamPage(team) {
     .sort((a, b) => a.week - b.week);
   const powerClass = isMissing(team.power) ? '' : (team.power >= 0 ? 'pos-diff' : 'neg-diff');
 
-  const rosterRows = roster
+  const rosterColumns = [
+    { key: 'name', label: 'Player', align: 'left' },
+    { key: 'rating', label: 'Rating' },
+    { key: 'dupr', label: 'DUPR' },
+    { key: 'conf', label: 'Conf' },
+    { key: 'soo', label: 'Opp Str' },
+    { key: 'sop', label: 'Partner Str' },
+    { key: 'wl', label: 'W–L' },
+    { key: 'winPct', label: 'Win%' },
+    { key: 'gamesPlayed', label: 'GP' },
+  ];
+
+  const sortedRoster = roster.slice().sort((a, b) => {
+    const va = getSortValue(a, rosterSortKey);
+    const vb = getSortValue(b, rosterSortKey);
+    if (typeof va === 'string' && typeof vb === 'string') {
+      return va.toLowerCase().localeCompare(vb.toLowerCase()) * rosterSortDirection;
+    }
+    return (va - vb) * rosterSortDirection;
+  });
+
+  const rosterHeaderCells = rosterColumns.map(({ key, label, align }) => {
+    const classes = [];
+    if (align === 'left') classes.push('l');
+    if (key === rosterSortKey) classes.push('sorted');
+    const classAttr = classes.length ? ` class="${classes.join(' ')}"` : '';
+    return `<th data-rk="${key}"${classAttr}>${label}</th>`;
+  }).join('');
+
+  const rosterRows = sortedRoster
     .map((player) => `
       <tr>
         <td class="l">${renderCell(player, 'name')}</td>
         <td>${renderCell(player, 'rating')}</td>
+        <td>${renderCell(player, 'dupr')}</td>
         <td>${renderCell(player, 'conf')}</td>
         <td>${renderCell(player, 'soo')}</td>
         <td>${renderCell(player, 'sop')}</td>
@@ -1482,8 +1521,8 @@ function renderTeamPage(team) {
     </div>
     <div class="team-section">
       <h3>Roster <span class="tag">${roster.length} players • click a name for detail</span></h3>
-      <div class="panel scroll"><table><thead><tr>
-        <th class="l">Player</th><th>Rating</th><th>Conf</th><th>Opp Str</th><th>Partner Str</th><th>W–L</th><th>Win%</th><th>GP</th>
+      <div class="panel scroll"><table id="roster-table"><thead><tr>
+        ${rosterHeaderCells}
       </tr></thead><tbody>${rosterRows}</tbody></table></div>
     </div>
     <div class="team-section">
@@ -1502,7 +1541,21 @@ function renderTeamPage(team) {
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
   elements.subhead.textContent = `${team.name} — team page`;
-  window.scrollTo(0, 0);
+
+  document.getElementById('roster-table')?.querySelector('thead')?.addEventListener('click', (event) => {
+    const th = event.target.closest('th[data-rk]');
+    if (!th) return;
+    const key = th.dataset.rk;
+    if (key === rosterSortKey) {
+      rosterSortDirection *= -1;
+    } else {
+      rosterSortKey = key;
+      rosterSortDirection = key === 'name' ? 1 : -1;
+    }
+    renderTeamPage(team, { scroll: false });
+  });
+
+  if (scroll) window.scrollTo(0, 0);
 }
 
 function showMainView() {
@@ -1527,6 +1580,8 @@ function handleRoute() {
     const player = DATA.players.find((candidate) => slugify(candidate.name) === playerSlug);
 
     if (team) {
+      rosterSortKey = 'rating';
+      rosterSortDirection = -1;
       renderTeamPage(team);
       if (player) {
         showPlayerModal(player.name);
@@ -1540,6 +1595,8 @@ function handleRoute() {
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
 
     if (team) {
+      rosterSortKey = 'rating';
+      rosterSortDirection = -1;
       renderTeamPage(team);
       return;
     }

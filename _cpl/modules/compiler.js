@@ -366,10 +366,22 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
   return { duos, partnersByPid };
 }
 
+function loadDuprByPid() {
+  const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
+  if (!fs.existsSync(globalPlayersPath)) return {};
+  const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
+  const map = {};
+  for (const p of globalPlayers) {
+    if (p.playerId && p.duprRating != null && p.duprRating != 'NR') map[p.playerId] = Number(p.duprRating);
+  }
+  return map;
+}
+
 function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
+  const duprByPid = loadDuprByPid();
 
   const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult);
@@ -411,6 +423,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           rating: null, ratingGames: 0, confidence: 0,
           strengthOfPartners: null, strengthOfOpponents: null,
           ratingHistory: [], partners: [],
+          duprRating: duprByPid[pid] ?? null,
         });
       }
     }
@@ -528,6 +541,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
+          duprRating: duprByPid[pid] ?? null,
         });
       }
       const P = players.get(pid);
