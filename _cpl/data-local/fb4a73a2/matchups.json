@@ -161,9 +161,9 @@
       "weekNumber": 7,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
       "awayTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 564,
+      "awayPoints": 629,
+      "endResult": "away",
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Kiss My Ace",
       "awayName": "Dink Responsibly"
