@@ -291,6 +291,9 @@
   }
 
   function divisionUrl(entry, playerName) {
+    if (entry.team) {
+      return entry.league + '/?d=' + encodeURIComponent(entry.slug) + '#team/' + slugify(entry.team) + '/player/' + slugify(playerName);
+    }
     return entry.league + '/?d=' + encodeURIComponent(entry.slug) + '#player/' + slugify(playerName);
   }
 

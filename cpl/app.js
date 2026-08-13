@@ -1138,6 +1138,12 @@ function openPlayer(name) {
 }
 
 function closeModal() {
+  const teamPlayerMatch = (window.location.hash || '').match(/^#team\/([^/]+)\/player\/.+$/);
+  if (teamPlayerMatch) {
+    window.location.hash = `#team/${teamPlayerMatch[1]}`;
+    return;
+  }
+
   if ((window.location.hash || '').startsWith('#player/')) {
     if (hashSetByApp) {
       history.back();
@@ -1508,10 +1514,26 @@ function showMainView() {
 
 function handleRoute() {
   const hash = window.location.hash || '';
+  const teamPlayerMatch = hash.match(/^#team\/([^/]+)\/player\/(.+)$/);
   const teamMatch = hash.match(/^#team\/(.+)$/);
   const playerMatch = hash.match(/^#player\/(.+)$/);
 
   hideModal();
+
+  if (teamPlayerMatch) {
+    const teamSlug = decodeURIComponent(teamPlayerMatch[1]);
+    const playerSlug = decodeURIComponent(teamPlayerMatch[2]);
+    const team = DATA.teams.find((candidate) => slugify(candidate.name) === teamSlug);
+    const player = DATA.players.find((candidate) => slugify(candidate.name) === playerSlug);
+
+    if (team) {
+      renderTeamPage(team);
+      if (player) {
+        showPlayerModal(player.name);
+      }
+      return;
+    }
+  }
 
   if (teamMatch) {
     const slug = decodeURIComponent(teamMatch[1]);
