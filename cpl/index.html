@@ -320,29 +320,32 @@
       return;
     }
 
-    // Group entries by player name, filtering by query
-    var byName = Object.create(null);
-    var nameOrder = [];
+    // Group entries by player identity (name + DUPR numeric ID), filtering by query.
+    // Players sharing the same name but having different DUPR IDs are treated as distinct people.
+    var byKey = Object.create(null);
+    var keyOrder = [];
     for (var i = 0; i < playerIndex.length; i++) {
       var entry = playerIndex[i];
       var normalizedName = normalize(entry.name);
       if (normalizedName.indexOf(q) === -1) continue;
-      if (!byName[entry.name]) {
-        byName[entry.name] = [];
-        nameOrder.push(entry.name);
+      var playerKey = entry.name + (entry.duprNumericId ? '|' + entry.duprNumericId : '');
+      if (!byKey[playerKey]) {
+        byKey[playerKey] = [];
+        keyOrder.push(playerKey);
       }
-      byName[entry.name].push(entry);
+      byKey[playerKey].push(entry);
     }
 
     hintEl.style.display = 'none';
 
-    if (!nameOrder.length) {
+    if (!keyOrder.length) {
       resultsEl.innerHTML = '<p class="panel-empty">No players found matching \u201c' + escapeHtml(query) + '\u201d.</p>';
       return;
     }
 
-    var html = nameOrder.map(function (name) {
-      var entries = byName[name];
+    var html = keyOrder.map(function (key) {
+      var entries = byKey[key];
+      var name = entries[0].name;
       var entriesHtml = entries.map(function (e) {
         var badgeClass = e.league === 'travel' ? 'travel' : 'local';
         var badgeLabel = e.league === 'travel' ? 'CPL' : 'Local';
