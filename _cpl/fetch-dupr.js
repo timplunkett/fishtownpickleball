@@ -4,8 +4,8 @@ const path = require('path');
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
 const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
-const BATCH_SIZE = 5;       // Number of concurrent API requests per batch
-const BATCH_DELAY_MS = 300; // Delay in milliseconds between batches to prevent rate limits
+const REQUEST_DELAY_MS = 800; // Delay between DUPR API calls
+const MAX_CONSECUTIVE_429 = 3;
 
 const ACCESS_TOKEN = process.env.DUPR_ACCESS_TOKEN;
 if (!ACCESS_TOKEN) {
@@ -19,7 +19,9 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  * Fetches the doubles DUPR rating for a given DUPR ID.
  */
 async function fetchDuprRating(duprId) {
-  if (!duprId || duprId.trim() === '') return null;
+  if (!duprId || duprId.trim() === '') {
+    return { rating: null, rateLimited: false };
+  }
 
   const url = 'https://api.dupr.gg/player/v1.0/search';
   const payload = {
@@ -42,13 +44,18 @@ async function fetchDuprRating(duprId) {
       body: JSON.stringify(payload),
     });
 
-    const data = await response.json();
+    const data = await response.json().catch(() => ({}));
+
+    if (response.status === 429) {
+      console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || 'Request rate exceeded');
+      return { rating: null, rateLimited: true };
+    }
 
     if (response.ok && data.status === 'SUCCESS') {
       const hits = data.result?.hits || data.result?.content || data.result;
       const playerMatch = Array.isArray(hits) ? hits[0] : null;
       if (playerMatch?.ratings?.doubles) {
-        return playerMatch.ratings.doubles;
+        return { rating: playerMatch.ratings.doubles, rateLimited: false };
       }
     } else {
       console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || data.status);
@@ -57,7 +64,7 @@ async function fetchDuprRating(duprId) {
     console.error(`[ERROR] Network error for DUPR ID ${duprId}:`, err.message);
   }
 
-  return null;
+  return { rating: null, rateLimited: false };
 }
 
 /**
@@ -71,41 +78,104 @@ function buildGlobalPlayers() {
   return JSON.parse(fs.readFileSync(GLOBAL_PLAYERS_FILE, 'utf-8'));
 }
 
+function saveGlobalPlayers(players, reason = 'progress') {
+  fs.writeFileSync(GLOBAL_PLAYERS_FILE, JSON.stringify(players, null, 2), 'utf-8');
+  console.log(`Saved global players (${reason}).`);
+}
+
 async function run() {
   console.log('Building global player list from all division files...');
   const globalPlayers = buildGlobalPlayers();
   console.log(`Found ${globalPlayers.length} unique players across all divisions.`);
 
   const validPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
-  console.log(`Processing ${validPlayers.length} players with DUPR IDs in batches of ${BATCH_SIZE}...\n`);
+  const duprCache = new Map();
+
+  for (const player of validPlayers) {
+    if (player.duprRating != null) {
+      if (!player.duprLastFetchedFor) player.duprLastFetchedFor = player.dupr;
+      if (player.duprLastFetchedFor === player.dupr) {
+        duprCache.set(player.dupr, player.duprRating);
+      }
+    }
+  }
+
+  const playersToFetch = validPlayers.filter((p) => {
+    if (p.duprRating == null) return true;
+    if (!p.duprLastFetchedFor) return false;
+    return p.duprLastFetchedFor !== p.dupr;
+  });
+
+  console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
+  console.log(`Processing ${playersToFetch.length} new/changed DUPR IDs with ${REQUEST_DELAY_MS}ms pacing...\n`);
 
   const summary = [];
+  let consecutive429s = 0;
+  let shouldStop = false;
 
-  for (let i = 0; i < validPlayers.length; i += BATCH_SIZE) {
-    const chunk = validPlayers.slice(i, i + BATCH_SIZE);
-    const batchNum = Math.floor(i / BATCH_SIZE) + 1;
-    const totalBatches = Math.ceil(validPlayers.length / BATCH_SIZE);
-    console.log(`Processing batch ${batchNum} of ${totalBatches}...`);
+  const persistAndExit = (signal) => {
+    console.warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
+    saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
+    process.exit(130);
+  };
+  process.once('SIGINT', persistAndExit);
+  process.once('SIGTERM', persistAndExit);
 
-    await Promise.all(chunk.map(async (player) => {
-      const fullName = `${player.firstName} ${player.lastName}`.trim();
-      const rating = await fetchDuprRating(player.dupr);
-      player.duprRating = rating;
+  for (let i = 0; i < playersToFetch.length; i += 1) {
+    const player = playersToFetch[i];
+    const fullName = `${player.firstName} ${player.lastName}`.trim();
+    console.log(`Processing ${i + 1} of ${playersToFetch.length}: ${fullName} (${player.dupr})`);
+
+    if (duprCache.has(player.dupr)) {
+      const cachedRating = duprCache.get(player.dupr);
+      player.duprRating = cachedRating;
+      player.duprLastFetchedFor = player.dupr;
+      summary.push({
+        Name: fullName,
+        'DUPR ID': player.dupr,
+        'Fetched Rating': cachedRating,
+      });
+      continue;
+    }
+
+    const { rating, rateLimited } = await fetchDuprRating(player.dupr);
+
+    if (rateLimited) {
+      consecutive429s += 1;
+      summary.push({
+        Name: fullName,
+        'DUPR ID': player.dupr,
+        'Fetched Rating': 'NR (429)',
+      });
+      if (consecutive429s >= MAX_CONSECUTIVE_429) {
+        console.warn(`\n[WARN] Hit ${MAX_CONSECUTIVE_429} consecutive 429 responses; stopping early.`);
+        shouldStop = true;
+        break;
+      }
+    } else {
+      consecutive429s = 0;
+      if (rating != null) {
+        player.duprRating = rating;
+        player.duprLastFetchedFor = player.dupr;
+        duprCache.set(player.dupr, rating);
+      }
 
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
         'Fetched Rating': rating !== null ? rating : 'NR',
       });
-    }));
+    }
 
-    if (i + BATCH_SIZE < validPlayers.length) {
-      await sleep(BATCH_DELAY_MS);
+    if (i + 1 < playersToFetch.length) {
+      await sleep(REQUEST_DELAY_MS);
     }
   }
 
   console.log(`\nSaving global players to: ${GLOBAL_PLAYERS_FILE}`);
-  fs.writeFileSync(GLOBAL_PLAYERS_FILE, JSON.stringify(globalPlayers, null, 2), 'utf-8');
+  saveGlobalPlayers(globalPlayers, shouldStop ? 'early stop' : 'complete run');
+  process.removeListener('SIGINT', persistAndExit);
+  process.removeListener('SIGTERM', persistAndExit);
 
   console.log('\nProcess complete!\n');
   console.table(summary);
