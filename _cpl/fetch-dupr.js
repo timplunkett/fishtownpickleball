@@ -54,9 +54,10 @@ async function fetchDuprRating(duprId) {
     if (response.ok && data.status === 'SUCCESS') {
       const hits = data.result?.hits || data.result?.content || data.result;
       const playerMatch = Array.isArray(hits) ? hits[0] : null;
-      if (playerMatch?.ratings?.doubles) {
+      if (playerMatch) {
         const numericId = playerMatch.id ?? null;
-        return { rating: playerMatch.ratings.doubles, numericId, rateLimited: false };
+        const rating = playerMatch.ratings?.doubles ?? null;
+        return { rating, numericId, rateLimited: false };
       }
     } else {
       console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || data.status);
@@ -162,10 +163,14 @@ async function run() {
       }
     } else {
       consecutive429s = 0;
+      if (numericId != null) {
+        player.duprNumericId = numericId;
+      }
       if (rating != null) {
         player.duprRating = rating;
-        player.duprNumericId = numericId;
         delete player.duprLastFetchedFor;
+      }
+      if (numericId != null || rating != null) {
         duprCache.set(player.dupr, { rating, numericId });
       }
 

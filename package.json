@@ -10,7 +10,8 @@
     "build:travel": "node _cpl/run-pipeline.js travel",
     "compile": "node _cpl/compile.js",
     "compile:local": "node _cpl/compile.js local",
-    "compile:travel": "node _cpl/compile.js travel"
+    "compile:travel": "node _cpl/compile.js travel",
+    "dupr:missing-numeric": "node _cpl/find-missing-dupr-numeric-ids.js"
   },
   "repository": {
     "type": "git",
