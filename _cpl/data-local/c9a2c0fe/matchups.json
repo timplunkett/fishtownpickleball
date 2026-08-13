@@ -197,9 +197,9 @@
       "weekNumber": 9,
       "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
       "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 608,
+      "awayPoints": 583,
+      "endResult": "home",
       "scheduledTime": "2026-08-12T19:00:00",
       "homeName": "ACE ACE Baby",
       "awayName": "Ace Bandits"
