@@ -130,7 +130,21 @@
     font-size: .9rem;
     font-weight: 700;
     margin-bottom: .45rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
   }
+  .player-result-dupr {
+    font-size: .72rem;
+    font-weight: 600;
+    color: var(--mut);
+  }
+  .player-result-dupr a {
+    color: var(--mut);
+    text-decoration: none;
+  }
+  .player-result-dupr a:hover { text-decoration: underline; }
   .player-result-entries { display: flex; flex-direction: column; }
   .player-result-entry {
     display: flex;
@@ -342,8 +356,19 @@
           '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
           '</a>';
       }).join('');
+      // Use the first entry that has DUPR data
+      var duprEntry = entries.find(function (e) { return e.duprRating != null; });
+      var duprHtml = '';
+      if (duprEntry) {
+        var rating = duprEntry.duprRating.toFixed(2);
+        duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
+          (duprEntry.duprNumericId
+            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprEntry.duprNumericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
+            : escapeHtml(rating)) +
+          '</span>';
+      }
       return '<div class="player-result">' +
-        '<div class="player-result-name">' + escapeHtml(name) + '</div>' +
+        '<div class="player-result-name">' + escapeHtml(name) + duprHtml + '</div>' +
         '<div class="player-result-entries">' + entriesHtml + '</div>' +
         '</div>';
     }).join('');

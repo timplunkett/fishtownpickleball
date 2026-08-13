@@ -852,6 +852,21 @@ function buildPlayerIndex() {
     { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
   ];
 
+  // Build a playerId → { duprRating, duprNumericId } lookup from global_players.json
+  const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
+  const duprByPlayerId = new Map();
+  if (fs.existsSync(globalPlayersPath)) {
+    const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
+    for (const gp of globalPlayers) {
+      if (gp.playerId && gp.duprRating != null) {
+        duprByPlayerId.set(gp.playerId, {
+          duprRating: Number(gp.duprRating),
+          duprNumericId: gp.duprNumericId ?? null,
+        });
+      }
+    }
+  }
+
   const entries = [];
 
   for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
@@ -876,6 +891,11 @@ function buildPlayerIndex() {
           league,
         };
         if (div.clubName) entry.club = div.clubName;
+        const dupr = p.playerId ? duprByPlayerId.get(p.playerId) : null;
+        if (dupr) {
+          entry.duprRating = dupr.duprRating;
+          if (dupr.duprNumericId) entry.duprNumericId = dupr.duprNumericId;
+        }
         entries.push(entry);
       }
     }
