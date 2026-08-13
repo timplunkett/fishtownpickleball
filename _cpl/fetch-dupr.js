@@ -15,23 +15,21 @@ if (!ACCESS_TOKEN) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/**
- * Fetches the doubles DUPR rating for a given DUPR ID.
- */
-async function fetchDuprRating(duprId) {
-  if (!duprId || duprId.trim() === '') {
-    return { rating: null, rateLimited: false };
-  }
+function getPlayerMatch(data) {
+  const hits = data.result?.hits || data.result?.content || data.result;
+  return Array.isArray(hits) ? hits[0] : null;
+}
 
+async function searchPlayer(query, filter = null) {
   const url = 'https://api.dupr.gg/player/v1.0/search';
   const payload = {
-    query: duprId,
-    filter: { duprId },
+    query,
     page: 0,
     pageSize: 10,
     limit: 1,
     sort: { order: 'ASC', parameter: 'RELEVANCE' },
   };
+  if (filter) payload.filter = filter;
 
   try {
     const authHeader = 'Bearer ' + ACCESS_TOKEN;
@@ -46,27 +44,57 @@ async function fetchDuprRating(duprId) {
 
     const data = await response.json().catch(() => ({}));
 
-    if (response.status === 429) {
-      console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || 'Request rate exceeded');
-      return { rating: null, numericId: null, rateLimited: true };
+    if (response.status === 429) return { playerMatch: null, rateLimited: true };
+    if (!response.ok || data.status !== 'SUCCESS') {
+      return { playerMatch: null, rateLimited: false, error: data.message || data.status || response.statusText };
     }
-
-    if (response.ok && data.status === 'SUCCESS') {
-      const hits = data.result?.hits || data.result?.content || data.result;
-      const playerMatch = Array.isArray(hits) ? hits[0] : null;
-      if (playerMatch) {
-        const numericId = playerMatch.id ?? null;
-        const rating = playerMatch.ratings?.doubles ?? null;
-        return { rating, numericId, rateLimited: false };
-      }
-    } else {
-      console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, data.message || data.status);
-    }
+    return { playerMatch: getPlayerMatch(data), rateLimited: false };
   } catch (err) {
-    console.error(`[ERROR] Network error for DUPR ID ${duprId}:`, err.message);
+    return { playerMatch: null, rateLimited: false, error: err.message };
+  }
+}
+
+/**
+ * Fetches the doubles DUPR rating for a given DUPR ID.
+ */
+async function fetchDuprRating(duprId, existingNumericId = null) {
+  if (!duprId || duprId.trim() === '') {
+    return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
   }
 
-  return { rating: null, numericId: null, rateLimited: false };
+  const primary = await searchPlayer(duprId, { duprId });
+  if (primary.rateLimited) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
+    return { rating: null, numericId: null, rateLimited: true };
+  }
+  if (primary.playerMatch) {
+    const numericId = primary.playerMatch.id ?? existingNumericId ?? null;
+    const rating = primary.playerMatch.ratings?.doubles ?? null;
+    return { rating, numericId, rateLimited: false };
+  }
+
+  if (primary.error) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, primary.error);
+  }
+
+  if (existingNumericId != null) {
+    console.warn(`[WARN] No player match for DUPR ID ${duprId}; retrying with numeric ID ${existingNumericId}.`);
+    const fallback = await searchPlayer(String(existingNumericId));
+    if (fallback.rateLimited) {
+      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
+      return { rating: null, numericId: null, rateLimited: true };
+    }
+    if (fallback.playerMatch) {
+      const numericId = fallback.playerMatch.id ?? existingNumericId;
+      const rating = fallback.playerMatch.ratings?.doubles ?? null;
+      return { rating, numericId, rateLimited: false };
+    }
+    if (fallback.error) {
+      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}):`, fallback.error);
+    }
+  }
+
+  return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
 }
 
 /**
@@ -146,7 +174,7 @@ async function run() {
       continue;
     }
 
-    const { rating, numericId, rateLimited } = await fetchDuprRating(player.dupr);
+    const { rating, numericId, rateLimited } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
 
     if (rateLimited) {
       consecutive429s += 1;
