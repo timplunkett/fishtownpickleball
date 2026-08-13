@@ -78,8 +78,9 @@ async function fetchDuprRating(duprId, existingNumericId = null) {
   }
 
   if (existingNumericId != null) {
+    const numericId = Number(existingNumericId);
     console.warn(`[WARN] No player match for DUPR ID ${duprId}; retrying with numeric ID ${existingNumericId}.`);
-    const fallback = await searchPlayer(String(existingNumericId));
+    const fallback = await searchPlayer(String(existingNumericId), Number.isFinite(numericId) ? { id: numericId } : null);
     if (fallback.rateLimited) {
       console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
       return { rating: null, numericId: null, rateLimited: true };
