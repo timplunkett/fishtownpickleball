@@ -118,7 +118,15 @@
   #player-search::placeholder { color: var(--mut); }
   #player-search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgb(29 178 220 / 20%); }
 
-  #player-results { display: flex; flex-direction: column; gap: .5rem; }
+  #player-results {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-height: min(52vh, 460px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
 
   .player-result {
     background: #1c2430;
