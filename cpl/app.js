@@ -1082,7 +1082,7 @@ function renderOtherLeaguesSummary(player) {
 
   if (!others.length) return '';
 
-  const rootPath = currentLeague === 'travel' ? '../' : '../../';
+  const rootPath = '../';
   const rows = others.map((entry) => {
     const badgeClass = entry.league === 'travel' ? 'travel' : 'local';
     const badgeLabel = entry.league === 'travel' ? 'CPL' : 'Local';
