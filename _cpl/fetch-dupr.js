@@ -55,13 +55,7 @@ async function fetchDuprRating(duprId) {
       const hits = data.result?.hits || data.result?.content || data.result;
       const playerMatch = Array.isArray(hits) ? hits[0] : null;
       if (playerMatch?.ratings?.doubles) {
-        // Log all top-level keys the first time so we can identify the numeric ID field
-        if (fetchDuprRating._loggedKeys !== true) {
-          fetchDuprRating._loggedKeys = true;
-          console.log('[DEBUG] playerMatch keys:', Object.keys(playerMatch));
-          console.log('[DEBUG] playerMatch sample:', JSON.stringify(playerMatch, null, 2));
-        }
-        const numericId = playerMatch.id ?? playerMatch.playerId ?? playerMatch.memberId ?? playerMatch.userId ?? null;
+        const numericId = playerMatch.id ?? null;
         return { rating: playerMatch.ratings.doubles, numericId, rateLimited: false };
       }
     } else {
