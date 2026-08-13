@@ -197,9 +197,9 @@
       "weekNumber": 9,
       "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
       "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 638,
+      "awayPoints": 611,
+      "endResult": "home",
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Balls of Fury",
       "awayName": "Kitchen Nightmares"
