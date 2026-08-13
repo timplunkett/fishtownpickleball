@@ -1063,6 +1063,44 @@ function renderGameLogRows(player, projectedGames = []) {
   return gameLog;
 }
 
+function renderOtherLeaguesSummary(player) {
+  const index = window.PLAYER_INDEX;
+  if (!Array.isArray(index) || !index.length) return '';
+
+  const currentSlug = DATA.meta.divisionSlug || '';
+  const currentLeague = DATA.meta.leagueType || '';
+
+  // Match by DUPR numeric ID when available, fall back to exact name match.
+  const others = index.filter((entry) => {
+    const sameSlug = entry.slug === currentSlug && entry.league === currentLeague;
+    if (sameSlug) return false;
+    if (player.duprNumericId && entry.duprNumericId) {
+      return entry.duprNumericId === player.duprNumericId;
+    }
+    return entry.name === player.name;
+  });
+
+  if (!others.length) return '';
+
+  const rootPath = '../';
+  const rows = others.map((entry) => {
+    const badgeClass = entry.league === 'travel' ? 'travel' : 'local';
+    const badgeLabel = entry.league === 'travel' ? 'CPL' : 'Local';
+    const locationParts = [];
+    if (entry.club) locationParts.push(escapeHtml(entry.club));
+    locationParts.push(escapeHtml(entry.division));
+    const locationText = locationParts.join(' — ');
+    const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}#team/${slugify(entry.team)}/player/${slugify(player.name)}`;
+    return `<a class="other-league-entry" href="${escapeHtml(href)}">` +
+      `<span class="league-badge ${badgeClass}">${badgeLabel}</span>` +
+      `<span class="other-league-location">${locationText}</span>` +
+      `<span class="other-league-team">\u00b7 ${escapeHtml(entry.team)}</span>` +
+      `</a>`;
+  }).join('');
+
+  return `<div class="other-leagues"><span class="other-leagues-label">Also plays in</span>${rows}</div>`;
+}
+
 function renderModalBody(player) {
   const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
@@ -1087,8 +1125,10 @@ function renderModalBody(player) {
     }
   }
   const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
+  const otherLeaguesSummary = renderOtherLeaguesSummary(player);
 
   return `
+    ${otherLeaguesSummary}
     ${ratingHistorySection}
     <table class="mlog">
       <thead>
