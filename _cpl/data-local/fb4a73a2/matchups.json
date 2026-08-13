@@ -149,9 +149,9 @@
       "weekNumber": 7,
       "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
       "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 614,
+      "awayPoints": 630,
+      "endResult": "home",
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Baby Got Backhand",
       "awayName": "Court Jesters"
