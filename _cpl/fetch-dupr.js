@@ -95,10 +95,7 @@ async function run() {
   for (const player of validPlayers) {
     if (player.duprRating != null) {
       if (!player.duprNumericId) {
-        // Legacy migration: treat duprLastFetchedFor match as cached, but force re-fetch to get numeric ID
-        if (player.duprLastFetchedFor && player.duprLastFetchedFor === player.dupr) {
-          duprCache.set(player.dupr, player.duprRating);
-        }
+        // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
       } else {
         duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
       }
