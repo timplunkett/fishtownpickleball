@@ -360,7 +360,7 @@
       var duprEntry = entries.find(function (e) { return e.duprRating != null; });
       var duprHtml = '';
       if (duprEntry) {
-        var rating = duprEntry.duprRating.toFixed(2);
+        var rating = duprEntry.duprRating.toFixed(3);
         duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
           (duprEntry.duprNumericId
             ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprEntry.duprNumericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
