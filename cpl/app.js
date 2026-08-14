@@ -1985,6 +1985,13 @@ function initialize() {
   elements.head.addEventListener('click', handleColumnSort);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
+  elements.teamView.addEventListener('click', (event) => {
+    if (event.target.closest('.backlink')) {
+      event.preventDefault();
+      routeSetByApp = true;
+      setRouteInUrl({ team: '', player: '' });
+    }
+  });
   elements.gridHost.addEventListener('click', handleGridClick);
   elements.duoBody.addEventListener('click', handleDuoClick);
   elements.swarmHost.addEventListener('click', handleSwarmClick);
