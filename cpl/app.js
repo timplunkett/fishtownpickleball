@@ -115,7 +115,7 @@ let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
 let rosterSortKey = 'rating';
 let rosterSortDirection = -1;
-let hashSetByApp = false;
+let routeSetByApp = false;
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
@@ -189,6 +189,88 @@ function slugify(name) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '');
+}
+
+function parseLegacyHashRoute(hashValue) {
+  const hash = hashValue || '';
+  const teamPlayerMatch = hash.match(/^#team\/([^/]+)\/player\/(.+)$/);
+  if (teamPlayerMatch) {
+    return {
+      team: decodeURIComponent(teamPlayerMatch[1]),
+      player: decodeURIComponent(teamPlayerMatch[2]),
+    };
+  }
+
+  const teamMatch = hash.match(/^#team\/(.+)$/);
+  if (teamMatch) {
+    return {
+      team: decodeURIComponent(teamMatch[1]),
+      player: '',
+    };
+  }
+
+  const playerMatch = hash.match(/^#player\/(.+)$/);
+  if (playerMatch) {
+    return {
+      team: '',
+      player: decodeURIComponent(playerMatch[1]),
+    };
+  }
+
+  return { team: '', player: '' };
+}
+
+function getRouteFromLocation() {
+  const url = new URL(window.location.href);
+  const team = url.searchParams.get('team') || '';
+  const player = url.searchParams.get('player') || '';
+  if (team || player) {
+    return { team, player };
+  }
+  return parseLegacyHashRoute(url.hash);
+}
+
+function setRouteInUrl(route, { replace = false } = {}) {
+  const url = new URL(window.location.href);
+  if (route.team) {
+    url.searchParams.set('team', route.team);
+  } else {
+    url.searchParams.delete('team');
+  }
+  if (route.player) {
+    url.searchParams.set('player', route.player);
+  } else {
+    url.searchParams.delete('player');
+  }
+  url.hash = '';
+  const nextUrl = url.toString();
+  const currentUrl = window.location.href;
+  if (nextUrl === currentUrl) {
+    handleRoute();
+    return;
+  }
+  if (replace) {
+    history.replaceState(null, '', nextUrl);
+  } else {
+    history.pushState(null, '', nextUrl);
+  }
+  handleRoute();
+}
+
+function migrateLegacyHashRoute() {
+  const url = new URL(window.location.href);
+  if (!url.hash) return;
+  if (url.searchParams.get('team') || url.searchParams.get('player')) return;
+  const legacyRoute = parseLegacyHashRoute(url.hash);
+  if (!legacyRoute.team && !legacyRoute.player) return;
+  if (legacyRoute.team) {
+    url.searchParams.set('team', legacyRoute.team);
+  }
+  if (legacyRoute.player) {
+    url.searchParams.set('player', legacyRoute.player);
+  }
+  url.hash = '';
+  history.replaceState(null, '', url.toString());
 }
 
 function formatSignedValue(value, digits) {
@@ -1090,7 +1172,7 @@ function renderOtherLeaguesSummary(player) {
     if (entry.club) locationParts.push(escapeHtml(entry.club));
     locationParts.push(escapeHtml(entry.division));
     const locationText = locationParts.join(' — ');
-    const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}#team/${slugify(entry.team)}/player/${slugify(player.name)}`;
+    const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}&team=${encodeURIComponent(slugify(entry.team))}&player=${encodeURIComponent(slugify(player.name))}`;
     return `<a class="other-league-entry" href="${escapeHtml(href)}">` +
       `<span class="league-badge ${badgeClass}">${badgeLabel}</span>` +
       `<span class="other-league-location">${locationText}</span>` +
@@ -1184,26 +1266,27 @@ function showPlayerModal(name) {
 }
 
 function openPlayer(name) {
-  hashSetByApp = true;
-  window.location.hash = `#player/${slugify(name)}`;
+  routeSetByApp = true;
+  const currentRoute = getRouteFromLocation();
+  setRouteInUrl({
+    team: currentRoute.team || '',
+    player: slugify(name),
+  });
 }
 
 function closeModal() {
-  const teamPlayerMatch = (window.location.hash || '').match(/^#team\/([^/]+)\/player\/.+$/);
-  if (teamPlayerMatch) {
-    window.location.hash = `#team/${teamPlayerMatch[1]}`;
+  const route = getRouteFromLocation();
+  if (route.player) {
+    if (routeSetByApp) {
+      routeSetByApp = false;
+      history.back();
+      return;
+    }
+    setRouteInUrl({ team: route.team || '', player: '' }, { replace: true });
     return;
   }
 
-  if ((window.location.hash || '').startsWith('#player/')) {
-    if (hashSetByApp) {
-      history.back();
-    } else {
-      window.location.hash = '';
-    }
-  } else {
-    hideModal();
-  }
+  hideModal();
 }
 
 function handleColumnSort(event) {
@@ -1607,18 +1690,16 @@ function showMainView() {
 }
 
 function handleRoute() {
-  const hash = window.location.hash || '';
-  const teamPlayerMatch = hash.match(/^#team\/([^/]+)\/player\/(.+)$/);
-  const teamMatch = hash.match(/^#team\/(.+)$/);
-  const playerMatch = hash.match(/^#player\/(.+)$/);
+  const route = getRouteFromLocation();
 
   hideModal();
 
-  if (teamPlayerMatch) {
-    const teamSlug = decodeURIComponent(teamPlayerMatch[1]);
-    const playerSlug = decodeURIComponent(teamPlayerMatch[2]);
+  if (route.team) {
+    const teamSlug = route.team;
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === teamSlug);
-    const player = DATA.players.find((candidate) => slugify(candidate.name) === playerSlug);
+    const player = route.player
+      ? DATA.players.find((candidate) => slugify(candidate.name) === route.player)
+      : null;
 
     if (team) {
       rosterSortKey = 'rating';
@@ -1631,21 +1712,8 @@ function handleRoute() {
     }
   }
 
-  if (teamMatch) {
-    const slug = decodeURIComponent(teamMatch[1]);
-    const team = DATA.teams.find((candidate) => slugify(candidate.name) === slug);
-
-    if (team) {
-      rosterSortKey = 'rating';
-      rosterSortDirection = -1;
-      renderTeamPage(team);
-      return;
-    }
-  }
-
-  if (playerMatch) {
-    const slug = decodeURIComponent(playerMatch[1]);
-    const player = DATA.players.find((candidate) => slugify(candidate.name) === slug);
+  if (route.player) {
+    const player = DATA.players.find((candidate) => slugify(candidate.name) === route.player);
 
     if (player) {
       showPlayerModal(player.name);
@@ -1660,7 +1728,8 @@ function handleTeamCardClick(event) {
   const card = event.target.closest('.tcard');
 
   if (card?.dataset.team) {
-    window.location.hash = `#team/${card.dataset.team}`;
+    routeSetByApp = true;
+    setRouteInUrl({ team: card.dataset.team, player: '' });
   }
 }
 
@@ -1857,7 +1926,8 @@ function renderBeeswarm() {
 function handleGridClick(event) {
   const cell = event.target.closest('td.played');
   if (cell?.dataset.team) {
-    window.location.hash = `#team/${cell.dataset.team}`;
+    routeSetByApp = true;
+    setRouteInUrl({ team: cell.dataset.team, player: '' });
   }
 }
 
@@ -1900,6 +1970,7 @@ function handleSwarmOut(event) {
 }
 
 function initialize() {
+  migrateLegacyHashRoute();
   renderHeader();
   renderDivisionSelector();
   renderSummary();
@@ -1923,7 +1994,10 @@ function initialize() {
   elements.modalClose.addEventListener('click', closeModal);
   elements.overlay.addEventListener('click', handleOverlayClick);
   document.addEventListener('keydown', handleEscapeKey);
-  window.addEventListener('hashchange', handleRoute);
+  window.addEventListener('popstate', () => {
+    routeSetByApp = false;
+    handleRoute();
+  });
 
   // The Team filter and search box also drive the Top Duos table; gender and
   // min-games apply to the player table only (they don't affect pairs).
