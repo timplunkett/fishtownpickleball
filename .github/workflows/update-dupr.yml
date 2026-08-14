@@ -2,6 +2,11 @@ name: Update DUPR Ratings
 
 on:
   workflow_dispatch:
+    inputs:
+      bypass_cache:
+        description: 'Bypass the rating cache and re-fetch all players from the DUPR API'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -19,7 +24,7 @@ jobs:
           node-version: 20
 
       - name: Fetch DUPR Ratings
-        run: node _cpl/fetch-dupr.js
+        run: node _cpl/fetch-dupr.js ${{ inputs.bypass_cache == true && '--bypass-cache' || '' }}
         env:
           DUPR_ACCESS_TOKEN: ${{ secrets.DUPR_ACCESS_TOKEN }}
 

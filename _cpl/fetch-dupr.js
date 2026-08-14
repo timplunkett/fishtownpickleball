@@ -115,6 +115,8 @@ function saveGlobalPlayers(players, reason = 'progress') {
 }
 
 async function run() {
+  const bypassCache = process.argv.includes('--bypass-cache');
+
   console.log('Building global player list from all division files...');
   const globalPlayers = buildGlobalPlayers();
   console.log(`Found ${globalPlayers.length} unique players across all divisions.`);
@@ -122,22 +124,28 @@ async function run() {
   const validPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
   const duprCache = new Map();
 
-  for (const player of validPlayers) {
-    if (player.duprRating != null) {
-      if (!player.duprNumericId) {
-        // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
-      } else {
-        duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
+  if (bypassCache) {
+    console.log('Cache bypass enabled — all players will be re-fetched from the DUPR API.');
+  } else {
+    for (const player of validPlayers) {
+      if (player.duprRating != null) {
+        if (!player.duprNumericId) {
+          // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
+        } else {
+          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
+        }
       }
     }
   }
 
-  const playersToFetch = validPlayers.filter((p) => {
-    if (p.duprRating == null) return true;
-    if (p.duprNumericId) return false;
-    // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
-    return true;
-  });
+  const playersToFetch = bypassCache
+    ? validPlayers
+    : validPlayers.filter((p) => {
+        if (p.duprRating == null) return true;
+        if (p.duprNumericId) return false;
+        // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
+        return true;
+      });
 
   console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
   console.log(`Processing ${playersToFetch.length} new/changed DUPR IDs with ${REQUEST_DELAY_MS}ms pacing...\n`);
