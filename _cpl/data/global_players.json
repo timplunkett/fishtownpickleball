@@ -2628,7 +2628,7 @@
     "firstName": "Deborah",
     "lastName": "Chapman",
     "dupr": "GWOMEV",
-    "duprRating": 2.599,
+    "duprRating": "2.599",
     "duprNumericId": 5313040704
   },
   {
@@ -2988,7 +2988,7 @@
     "firstName": "Bryan",
     "lastName": "Askins",
     "dupr": "6779XQ",
-    "duprRating": "4.099",
+    "duprRating": "4.138",
     "duprNumericId": 6714171919
   },
   {
@@ -3188,7 +3188,7 @@
     "firstName": "Jessica",
     "lastName": "Zepeda",
     "dupr": "EWWR9E",
-    "duprRating": "3.492",
+    "duprRating": "3.526",
     "duprNumericId": 5008521418
   },
   {
@@ -3196,7 +3196,7 @@
     "firstName": "Krista",
     "lastName": "DiVenere",
     "dupr": "EGLQ0V",
-    "duprRating": "3.166",
+    "duprRating": "3.159",
     "duprNumericId": 6790740024
   },
   {
@@ -3452,7 +3452,7 @@
     "firstName": "Aurelio",
     "lastName": "Roca",
     "dupr": "8KE4Q8",
-    "duprRating": "4.179",
+    "duprRating": "4.139",
     "duprNumericId": 4762427977
   },
   {
@@ -3468,7 +3468,7 @@
     "firstName": "Andriana",
     "lastName": "Solano",
     "dupr": "N75P66",
-    "duprRating": "3.061",
+    "duprRating": "3.017",
     "duprNumericId": 6196819642
   },
   {
@@ -4012,7 +4012,7 @@
     "firstName": "ren",
     "lastName": "mortara",
     "dupr": "7DV6D4",
-    "duprRating": "2.971",
+    "duprRating": "2.976",
     "duprNumericId": 7155359816
   },
   {
@@ -4028,7 +4028,7 @@
     "firstName": "Anthony",
     "lastName": "Leone",
     "dupr": "ZZNQ5L",
-    "duprRating": "3.260",
+    "duprRating": "3.275",
     "duprNumericId": 7776250106
   },
   {
@@ -4540,7 +4540,7 @@
     "firstName": "Bill",
     "lastName": "Brandt",
     "dupr": "16KEGK",
-    "duprRating": "3.719",
+    "duprRating": "3.738",
     "duprNumericId": 5358696569
   },
   {
@@ -4684,7 +4684,7 @@
     "firstName": "Art",
     "lastName": "Muth",
     "dupr": "3VRE07",
-    "duprRating": "3.902",
+    "duprRating": "3.911",
     "duprNumericId": 6949035928
   },
   {
@@ -5340,7 +5340,7 @@
     "firstName": "Mike",
     "lastName": "Fuchs",
     "dupr": "RZDJQZ",
-    "duprRating": "4.265",
+    "duprRating": "4.092",
     "duprNumericId": 4652379612
   },
   {
@@ -6852,7 +6852,7 @@
     "firstName": "Derek",
     "lastName": "Livingston",
     "dupr": "XJWPG5",
-    "duprRating": "3.824",
+    "duprRating": "3.772",
     "duprNumericId": 5760996055
   },
   {
@@ -7851,7 +7851,7 @@
     "firstName": "Steven",
     "lastName": "Fernandez",
     "dupr": "1QW5JD",
-    "duprRating": 5.11,
+    "duprRating": "5.110",
     "duprNumericId": 8490041694
   },
   {
@@ -13411,7 +13411,7 @@
     "firstName": "Brady",
     "lastName": "Schwartzberg",
     "dupr": "OWEYK7",
-    "duprRating": "3.800",
+    "duprRating": "3.802",
     "duprNumericId": 4831106493
   },
   {
@@ -14291,7 +14291,7 @@
     "firstName": "Duy",
     "lastName": "Duong",
     "dupr": "LW24ZK",
-    "duprRating": "3.946",
+    "duprRating": "4.048",
     "duprNumericId": 4977602151
   },
   {
@@ -15147,7 +15147,7 @@
     "firstName": "Brad",
     "lastName": "Mandry",
     "dupr": "8JP64M",
-    "duprRating": "3.819",
+    "duprRating": "3.822",
     "duprNumericId": 4818336004
   },
   {
@@ -15363,7 +15363,7 @@
     "firstName": "Bill",
     "lastName": "Nguyen",
     "dupr": "PKW2PZ",
-    "duprRating": 3.976,
+    "duprRating": "3.976",
     "duprNumericId": 5748352150
   },
   {
@@ -15547,7 +15547,7 @@
     "firstName": "Michael",
     "lastName": "Plumeri",
     "dupr": "PKX5YX",
-    "duprRating": "3.790",
+    "duprRating": "3.792",
     "duprNumericId": 6238020603
   },
   {
@@ -17459,7 +17459,7 @@
     "firstName": "Sergio",
     "lastName": "Fasciano",
     "dupr": "9P5XKJ",
-    "duprRating": "2.869",
+    "duprRating": "2.925",
     "duprNumericId": 6135815407
   },
   {
@@ -18027,7 +18027,7 @@
     "firstName": "Jun",
     "lastName": "Li",
     "dupr": "NY94P7",
-    "duprRating": "3.523",
+    "duprRating": "3.499",
     "duprNumericId": 4349584143
   },
   {
@@ -18035,7 +18035,7 @@
     "firstName": "Yolanda",
     "lastName": "Li",
     "dupr": "7D49D0",
-    "duprRating": "3.523",
+    "duprRating": "3.499",
     "duprNumericId": 8584215263
   },
   {
