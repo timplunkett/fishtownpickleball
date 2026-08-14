@@ -203,8 +203,10 @@
     }
 
     #player-results {
-      max-height: none;
-      overflow: visible;
+      max-height: min(56svh, 420px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: .4rem;
