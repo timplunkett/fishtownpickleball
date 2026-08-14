@@ -198,9 +198,13 @@
       padding: 1rem;
     }
 
+    .finder-panel {
+      min-height: max(60svh, 420px);
+    }
+
     #player-results {
-      max-height: min(46svh, 360px);
-      overflow-y: auto;
+      max-height: none;
+      overflow: visible;
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: .4rem;
