@@ -49,7 +49,7 @@
     gap: 1rem;
   }
 
-  .panel-head h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: .25rem; }
+  .panel-head h2 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .25rem; }
   .panel-head p { font-size: .8rem; color: var(--mut); line-height: 1.45; }
 
   .select-wrap { position: relative; }
@@ -185,6 +185,49 @@
   .player-result-entry .team-name { color: var(--mut); }
 
   .finder-hint { font-size: .78rem; color: var(--mut); font-style: italic; text-align: center; }
+
+  @media (max-width: 640px) {
+    body {
+      min-height: 100svh;
+      justify-content: flex-start;
+      gap: 1.25rem;
+      padding: 1rem .75rem 1.5rem;
+    }
+
+    .panel {
+      padding: 1rem;
+    }
+
+    .finder-panel {
+      min-height: max(60svh, 420px);
+    }
+
+    #player-results {
+      max-height: min(56svh, 420px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: .4rem;
+      background: #151c27;
+      margin-top: .5rem;
+    }
+
+    .player-result {
+      padding: .65rem .75rem;
+    }
+
+    .player-result-entry {
+      align-items: flex-start;
+      padding: .55rem .4rem;
+      margin: 0 -.4rem;
+    }
+
+    .player-result-entry .team-name {
+      width: 100%;
+    }
+  }
 </style>
 </head>
 <body>
