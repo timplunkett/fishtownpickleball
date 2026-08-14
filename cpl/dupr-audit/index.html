@@ -84,6 +84,7 @@
   </section>
 </div>
 
+<script src="../dupr-ratings.js"></script>
 <script>
 (function () {
   'use strict';
@@ -210,7 +211,9 @@
     var rule = DIVISION_RULES[slug];
     var league = rule.leaguePath === 'travel' ? 'Travel' : 'Local';
     var division = rule.division.replace(/^(?:Travel|Local)\s*•\s*/, '');
+    var duprRatings = window.DUPR_RATINGS || {};
     return (Array.isArray(data.players) ? data.players : []).map(function (player) {
+      var dupr = player.playerId ? duprRatings[player.playerId] : null;
       return {
         name: player.name,
         team: player.team || '',
@@ -218,8 +221,8 @@
         division: division,
         slug: slug,
         gender: normalizeGender(player.gender),
-        duprRating: player.duprRating,
-        duprNumericId: player.duprNumericId,
+        duprRating: dupr ? dupr.rating : null,
+        duprNumericId: dupr ? dupr.numericId : null,
         min: rule.min,
         max: rule.max,
         leaguePath: rule.leaguePath,

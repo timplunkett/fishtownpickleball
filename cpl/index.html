@@ -283,6 +283,7 @@
 <script src="local/bootstrap.js"></script>
 <script src="travel/bootstrap.js"></script>
 <script src="player-index.js"></script>
+<script src="dupr-ratings.js"></script>
 <script>
 (function () {
   'use strict';
@@ -392,7 +393,7 @@
       var entry = playerIndex[i];
       var normalizedName = normalize(entry.name);
       if (normalizedName.indexOf(q) === -1) continue;
-      var playerKey = entry.name + (entry.duprNumericId ? '|' + entry.duprNumericId : '');
+      var playerKey = entry.name + (entry.playerId ? '|' + entry.playerId : '');
       if (!byKey[playerKey]) {
         byKey[playerKey] = [];
         keyOrder.push(playerKey);
@@ -424,14 +425,16 @@
           (e.isSub ? ' <span class="sub-tag" title="Sub \u2014 not a rostered team member">sub</span>' : '') +
           '</a>';
       }).join('');
-      // Use the first entry that has DUPR data
-      var duprEntry = entries.find(function (e) { return e.duprRating != null; });
+      // Use the first entry that has a playerId with DUPR data
+      var duprRatings = window.DUPR_RATINGS || {};
+      var duprEntry = entries.find(function (e) { return e.playerId && duprRatings[e.playerId] != null; });
       var duprHtml = '';
       if (duprEntry) {
-        var rating = duprEntry.duprRating.toFixed(3);
+        var duprData = duprRatings[duprEntry.playerId];
+        var rating = duprData.rating.toFixed(3);
         duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
-          (duprEntry.duprNumericId
-            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprEntry.duprNumericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
+          (duprData.numericId
+            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprData.numericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
             : escapeHtml(rating)) +
           '</span>';
       }

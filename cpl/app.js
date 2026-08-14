@@ -87,6 +87,7 @@ const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
 ));
 
 // Build a name → rating lookup from DATA (data.js loads before app.js).
+const DUPR_RATINGS = window.DUPR_RATINGS || {};
 const playerRatingByName = Object.fromEntries(
   DATA.players
     .filter((p) => p.rating != null)
@@ -484,7 +485,7 @@ function getSortValue(player, key) {
     case 'clutch':
       return player.clutchWins;
     case 'dupr':
-      return isMissing(player.duprRating) ? Number.NEGATIVE_INFINITY : player.duprRating;
+      return isMissing(DUPR_RATINGS[player.playerId]?.rating) ? Number.NEGATIVE_INFINITY : DUPR_RATINGS[player.playerId].rating;
     default:
       return player[key];
   }
@@ -578,10 +579,10 @@ function renderCell(player, key) {
         ? EMPTY_VALUE
         : `<span class="lgrank">#${player.leagueRank}</span>`;
     case 'dupr':
-      if (isMissing(player.duprRating)) return EMPTY_VALUE;
-      return player.duprNumericId
-        ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(player.duprNumericId)}" target="_blank" rel="nofollow">${player.duprRating.toFixed(3)}</a>`
-        : player.duprRating.toFixed(3);
+      if (isMissing(DUPR_RATINGS[player.playerId]?.rating)) return EMPTY_VALUE;
+      return DUPR_RATINGS[player.playerId].numericId
+        ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(DUPR_RATINGS[player.playerId].numericId)}" target="_blank" rel="nofollow">${DUPR_RATINGS[player.playerId].rating.toFixed(3)}</a>`
+        : DUPR_RATINGS[player.playerId].rating.toFixed(3);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -749,7 +750,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
       ${divisionRankStat}
       ${leagueRankStat}
-      ${isMissing(player.duprRating) ? '' : `<div class="mh-stat"><div class="n">${player.duprNumericId ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(player.duprNumericId)}" target="_blank" rel="nofollow">${player.duprRating.toFixed(3)}</a>` : player.duprRating.toFixed(3)}</div><div class="l">DUPR</div></div>`}
+      ${isMissing(DUPR_RATINGS[player.playerId]?.rating) ? '' : `<div class="mh-stat"><div class="n">${DUPR_RATINGS[player.playerId].numericId ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(DUPR_RATINGS[player.playerId].numericId)}" target="_blank" rel="nofollow">${DUPR_RATINGS[player.playerId].rating.toFixed(3)}</a>` : DUPR_RATINGS[player.playerId].rating.toFixed(3)}</div><div class="l">DUPR</div></div>`}
     </div>
     ${narrative}
     ${partnersLine}
@@ -1152,12 +1153,12 @@ function renderOtherLeaguesSummary(player) {
   const currentSlug = DATA.meta.divisionSlug || '';
   const currentLeague = DATA.meta.leagueType || '';
 
-  // Match by DUPR numeric ID when available, fall back to exact name match.
+  // Match by playerId when available, fall back to exact name match.
   const others = index.filter((entry) => {
     const sameSlug = entry.slug === currentSlug && entry.league === currentLeague;
     if (sameSlug) return false;
-    if (player.duprNumericId && entry.duprNumericId) {
-      return entry.duprNumericId === player.duprNumericId;
+    if (player.playerId && entry.playerId) {
+      return entry.playerId === player.playerId;
     }
     return entry.name === player.name;
   });

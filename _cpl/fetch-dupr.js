@@ -4,6 +4,7 @@ const path = require('path');
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
 const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
+const DUPR_RATINGS_FILE = path.join(__dirname, '..', 'cpl', 'dupr-ratings.js');
 const REQUEST_DELAY_MS = 800; // Delay between DUPR API calls
 const MAX_CONSECUTIVE_429 = 3;
 
@@ -114,7 +115,21 @@ function saveGlobalPlayers(players, reason = 'progress') {
   console.log(`Saved global players (${reason}).`);
 }
 
+function writeDuprRatingsJs(players) {
+  const ratings = {};
+  for (const p of players) {
+    if (p.playerId && p.duprRating != null && p.duprRating !== 'NR') {
+      ratings[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null };
+    }
+  }
+  const content = `window.DUPR_RATINGS = ${JSON.stringify(ratings)};`;
+  fs.writeFileSync(DUPR_RATINGS_FILE, content, 'utf-8');
+  console.log(`Saved dupr-ratings.js (${Object.keys(ratings).length} players with ratings).`);
+}
+
 async function run() {
+  const bypassCache = process.argv.includes('--bypass-cache');
+
   console.log('Building global player list from all division files...');
   const globalPlayers = buildGlobalPlayers();
   console.log(`Found ${globalPlayers.length} unique players across all divisions.`);
@@ -122,22 +137,28 @@ async function run() {
   const validPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
   const duprCache = new Map();
 
-  for (const player of validPlayers) {
-    if (player.duprRating != null) {
-      if (!player.duprNumericId) {
-        // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
-      } else {
-        duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
+  if (bypassCache) {
+    console.log('Cache bypass enabled — all players will be re-fetched from the DUPR API.');
+  } else {
+    for (const player of validPlayers) {
+      if (player.duprRating != null) {
+        if (!player.duprNumericId) {
+          // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
+        } else {
+          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
+        }
       }
     }
   }
 
-  const playersToFetch = validPlayers.filter((p) => {
-    if (p.duprRating == null) return true;
-    if (p.duprNumericId) return false;
-    // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
-    return true;
-  });
+  const playersToFetch = bypassCache
+    ? validPlayers
+    : validPlayers.filter((p) => {
+        if (p.duprRating == null) return true;
+        if (p.duprNumericId) return false;
+        // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
+        return true;
+      });
 
   console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
   console.log(`Processing ${playersToFetch.length} new/changed DUPR IDs with ${REQUEST_DELAY_MS}ms pacing...\n`);
@@ -149,6 +170,7 @@ async function run() {
   const persistAndExit = (signal) => {
     console.warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
     saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
+    writeDuprRatingsJs(globalPlayers);
     process.exit(130);
   };
   process.once('SIGINT', persistAndExit);
@@ -218,6 +240,7 @@ async function run() {
 
   console.log(`\nSaving global players to: ${GLOBAL_PLAYERS_FILE}`);
   saveGlobalPlayers(globalPlayers, shouldStop ? 'early stop' : 'complete run');
+  writeDuprRatingsJs(globalPlayers);
   process.removeListener('SIGINT', persistAndExit);
   process.removeListener('SIGTERM', persistAndExit);
 

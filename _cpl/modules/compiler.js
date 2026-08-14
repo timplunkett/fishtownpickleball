@@ -474,8 +474,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           strengthOfPartners: null, strengthOfOpponents: null,
           ratingHistory: [], partners: [],
           dupr: p.dupr,
-          duprRating: duprByPid[pid]?.rating ?? null,
-          duprNumericId: duprByPid[pid]?.numericId ?? null,
+          playerId: pid,
         });
       }
     }
@@ -593,8 +592,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
-          duprRating: duprByPid[pid]?.rating ?? null,
-          duprNumericId: duprByPid[pid]?.numericId ?? null,
+          playerId: pid,
         });
       }
       const P = players.get(pid);
@@ -904,18 +902,14 @@ function buildPlayerIndex() {
     { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
   ];
 
-  // Build a playerId → { duprRating, duprNumericId } lookup from global_players.json
+  // Build a playerId → { dupr } lookup from global_players.json for canonical player deduplication.
   const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
   const duprByPlayerId = new Map();
   if (fs.existsSync(globalPlayersPath)) {
     const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
     for (const gp of globalPlayers) {
-      if (gp.playerId && gp.duprRating != null) {
-        duprByPlayerId.set(gp.playerId, {
-          dupr: gp.dupr ?? null,
-          duprRating: Number(gp.duprRating),
-          duprNumericId: gp.duprNumericId ?? null,
-        });
+      if (gp.playerId && gp.dupr) {
+        duprByPlayerId.set(gp.playerId, { dupr: gp.dupr });
       }
     }
   }
@@ -945,14 +939,10 @@ function buildPlayerIndex() {
           division: div.divisionName,
           slug: div.slug,
           league,
+          playerId: p.playerId || null,
         };
         if (div.clubName) entry.club = div.clubName;
         if (p.isSub) entry.isSub = true;
-        const dupr = p.playerId ? duprByPlayerId.get(p.playerId) : null;
-        if (dupr) {
-          entry.duprRating = dupr.duprRating;
-          if (dupr.duprNumericId) entry.duprNumericId = dupr.duprNumericId;
-        }
         entries.push(entry);
       }
     }
