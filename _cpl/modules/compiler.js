@@ -137,6 +137,49 @@ function firstValues(obj) {
   return null;
 }
 
+function normalizeDuprCode(value) {
+  return String(value || '').trim().toUpperCase();
+}
+
+function shouldPreferRosterPlayer(candidate, current, duprByPid) {
+  if (!!candidate.isSub !== !!current.isSub) return !candidate.isSub;
+
+  const candidateGames = Number(candidate.gamesPlayed) || 0;
+  const currentGames = Number(current.gamesPlayed) || 0;
+  if (candidateGames !== currentGames) return candidateGames > currentGames;
+
+  const candidateGlobalDupr = normalizeDuprCode(duprByPid[candidate.playerId]?.dupr);
+  const currentGlobalDupr = normalizeDuprCode(duprByPid[current.playerId]?.dupr);
+  const candidateMatchesGlobal = candidateGlobalDupr && normalizeDuprCode(candidate.dupr) === candidateGlobalDupr;
+  const currentMatchesGlobal = currentGlobalDupr && normalizeDuprCode(current.dupr) === currentGlobalDupr;
+  if (candidateMatchesGlobal !== currentMatchesGlobal) return candidateMatchesGlobal;
+
+  const candidateRank = Number(candidate.ranking);
+  const currentRank = Number(current.ranking);
+  const candidateHasRank = Number.isFinite(candidateRank);
+  const currentHasRank = Number.isFinite(currentRank);
+  if (candidateHasRank !== currentHasRank) return candidateHasRank;
+  if (candidateHasRank && candidateRank !== currentRank) return candidateRank < currentRank;
+
+  return false;
+}
+
+function selectCanonicalRosterPlayers(players, duprByPid = {}) {
+  const byNameAndTeam = new Map();
+  const list = Array.isArray(players) ? players : [];
+  for (const p of list) {
+    const name = norm(`${p.firstName || ''} ${p.lastName || ''}`);
+    const teamName = String(p.teamName || '').trim();
+    if (!name || !teamName) continue;
+    const key = `${name.toLowerCase()}|${teamName.toLowerCase()}`;
+    const existing = byNameAndTeam.get(key);
+    if (!existing || shouldPreferRosterPlayer(p, existing, duprByPid)) {
+      byNameAndTeam.set(key, p);
+    }
+  }
+  return [...byNameAndTeam.values()];
+}
+
 // --- Ridge-regularized Adjusted Plus-Minus (APM) player ratings -------------
 // Each doubles game becomes one equation: (myPair) - (theirPair) ~= pointMargin.
 // We solve for a per-player rating = net points/game contributed vs. an average
@@ -373,7 +416,11 @@ function loadDuprByPid() {
   const map = {};
   for (const p of globalPlayers) {
     if (p.playerId && p.duprRating != null && p.duprRating != 'NR') {
-      map[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null };
+      map[p.playerId] = {
+        dupr: p.dupr ?? null,
+        rating: Number(p.duprRating),
+        numericId: p.duprNumericId ?? null,
+      };
     }
   }
   return map;
@@ -384,6 +431,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
   const duprByPid = loadDuprByPid();
+  const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid);
 
   const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult);
@@ -409,7 +457,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   // When the season hasn't started yet, seed teams and players directly from
   // the roster so the dashboard still shows something useful pre-season.
   if (!completed.length) {
-    for (const p of (firstValues(playerListJson) || [])) {
+    for (const p of rosterPlayers) {
       if (!p.teamName || p.isSub || !teamNamesWithMatchups.has(p.teamName)) continue;
       ensureTeam(p.teamName);
       const pid = p.playerId;
@@ -487,7 +535,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   // Build a map of player ID -> static profile info (firstName, lastName, gender)
   // so matchupPlayerStats entries don't need to repeat those fields.
   const playerInfoById = {};
-  for (const p of (firstValues(playerListJson) || [])) {
+  for (const p of rosterPlayers) {
     if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
     if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
   }
@@ -593,7 +641,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   let rankByPid = {};
   let rankByName = {};
   try {
-    const list = firstValues(playerListJson) || [];
+    const list = rosterPlayers;
     for (const p of list) {
       const key = norm(`${p.firstName} ${p.lastName}`);
       if (p.ranking == null) continue;
@@ -864,6 +912,7 @@ function buildPlayerIndex() {
     for (const gp of globalPlayers) {
       if (gp.playerId && gp.duprRating != null) {
         duprByPlayerId.set(gp.playerId, {
+          dupr: gp.dupr ?? null,
           duprRating: Number(gp.duprRating),
           duprNumericId: gp.duprNumericId ?? null,
         });
@@ -884,7 +933,10 @@ function buildPlayerIndex() {
       if (!fs.existsSync(playersPath)) continue;
 
       const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
-      const players = (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []);
+      const players = selectCanonicalRosterPlayers(
+        (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []),
+        Object.fromEntries(duprByPlayerId.entries()),
+      );
       for (const p of players) {
         if (!p.firstName && !p.lastName) continue;
         const entry = {
