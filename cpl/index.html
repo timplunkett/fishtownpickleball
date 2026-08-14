@@ -49,7 +49,7 @@
     gap: 1rem;
   }
 
-  .panel-head h2 { font-size: 1.05rem; font-weight: 700; margin-bottom: .25rem; }
+  .panel-head h2 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .25rem; }
   .panel-head p { font-size: .8rem; color: var(--mut); line-height: 1.45; }
 
   .select-wrap { position: relative; }
@@ -199,8 +199,13 @@
     }
 
     #player-results {
-      max-height: none;
-      overflow: visible;
+      max-height: min(46svh, 360px);
+      overflow-y: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: .4rem;
+      background: #151c27;
+      margin-top: .5rem;
     }
 
     .player-result {
