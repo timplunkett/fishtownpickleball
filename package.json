@@ -11,6 +11,7 @@
     "compile": "node _cpl/compile.js",
     "compile:local": "node _cpl/compile.js local",
     "compile:travel": "node _cpl/compile.js travel",
+    "dupr:fetch": "node --env-file=.env _cpl/fetch-dupr.js",
     "dupr:missing-numeric": "node _cpl/find-missing-dupr-numeric-ids.js"
   },
   "repository": {
