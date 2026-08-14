@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DUPR Bracket Audit — CPL</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  .audit-wrap { max-width: 1200px; margin: 0 auto; padding: 20px 16px 40px; }
+  .audit-head h1 { margin: 8px 0 6px; }
+  .audit-sub { color: var(--mut); margin: 0 0 12px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 12px 0 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+  .card .k { color: var(--mut); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+  .card .v { font-size: 26px; font-weight: 700; margin-top: 4px; }
+  .card.over .v { color: #ff9b66; }
+  .card.under .v { color: #8ab4ff; }
+  .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin: 8px 0 16px; }
+  .controls label { display: block; font-size: 12px; color: var(--mut); margin: 0 0 4px; }
+  .controls select { width: 100%; }
+  .scroll { overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+  .audit-table { width: 100%; border-collapse: collapse; min-width: 980px; }
+  .audit-table th, .audit-table td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; font-size: 14px; }
+  .audit-table th { color: var(--mut); font-weight: 600; position: sticky; top: 0; background: #131a24; white-space: nowrap; }
+  .audit-table th.sortable { cursor: pointer; user-select: none; }
+  .audit-table th.sorted { color: var(--txt); }
+  .audit-table tr:last-child td { border-bottom: 0; }
+  .sev-over { color: #e04040; font-weight: 700; }
+  .sev-over.sev-soft { color: #ff9b66; font-weight: 400; }
+  .sev-under { color: #8ab4ff; font-weight: 700; }
+  .sev-under.sev-soft { font-weight: 400; }
+  .audit-link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--mut); }
+  .audit-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .muted { color: var(--mut); }
+  .empty { padding: 14px; color: var(--mut); }
+  .legend { font-size: 12px; color: var(--mut); margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="audit-wrap">
+  <a class="back-link" href="../">← CPL</a>
+  <header class="audit-head">
+    <div class="kicker">CPL • Philadelphia</div>
+    <h1>DUPR Bracket Audit</h1>
+    <p class="audit-sub">Players whose DUPR is outside the expected division bracket across travel and local leagues.</p>
+  </header>
+
+  <div class="cards" id="cards"></div>
+
+  <div class="controls">
+    <div>
+      <label for="league-filter">League</label>
+      <select id="league-filter"><option value="all">All leagues</option></select>
+    </div>
+    <div>
+      <label for="division-filter">Division</label>
+      <select id="division-filter"><option value="all">All divisions</option></select>
+    </div>
+    <div>
+      <label for="gender-filter">Gender</label>
+      <select id="gender-filter"><option value="all">All genders</option></select>
+    </div>
+    <div>
+      <label for="team-filter">Team</label>
+      <select id="team-filter"><option value="all">All teams</option></select>
+    </div>
+  </div>
+
+  <section>
+    <h2>Above bracket</h2>
+    <div class="legend" id="legend-above"></div>
+    <div class="scroll"><table class="audit-table" id="above-table"></table></div>
+  </section>
+
+  <section style="margin-top:20px;">
+    <h2>Below bracket</h2>
+    <div class="legend" id="legend-below"></div>
+    <div class="scroll"><table class="audit-table" id="below-table"></table></div>
+  </section>
+
+  <section style="margin-top:20px;">
+    <h2>Missing DUPR rating</h2>
+    <div class="scroll"><table class="audit-table" id="missing-table"></table></div>
+  </section>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var TRAVEL_DIVISION_RULES = {
+    e27386b3: { division: 'Travel • 3.0', min: 3.000, max: 3.500, file: '../travel/data-e27386b3.js', leaguePath: 'travel' },
+    '1e12eb3f': { division: 'Travel • 3.0 (50+)', min: 3.000, max: 3.500, file: '../travel/data-1e12eb3f.js', leaguePath: 'travel' },
+    b7ca04e4: { division: 'Travel • 3.5', min: 3.500, max: 4.000, file: '../travel/data.js', leaguePath: 'travel' },
+    c43b8608: { division: 'Travel • 3.5 (50+)', min: 3.500, max: 4.000, file: '../travel/data-c43b8608.js', leaguePath: 'travel' },
+    a1413f3d: { division: 'Travel • 4.0', min: 4.000, max: 4.500, file: '../travel/data-a1413f3d.js', leaguePath: 'travel' },
+    '2edc44e7': { division: 'Travel • 4.0 (50+)', min: 4.000, max: 4.500, file: '../travel/data-2edc44e7.js', leaguePath: 'travel' },
+    '6619816f': { division: 'Travel • 4.5', min: 4.500, max: Infinity, file: '../travel/data-6619816f.js', leaguePath: 'travel' },
+  };
+  var LOCAL_DIVISIONS = [
+    { slug: '3e9b6a58', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0', file: '../local/data.js' },
+    { slug: 'd4ef2f74', clubName: 'Ace - Moorestown / Voorhees', divisionName: '3.75 & Over', file: '../local/data-d4ef2f74.js' },
+    { slug: 'c9a2c0fe', clubName: 'Ace - Moorestown / Voorhees', divisionName: '3.75 & Under', file: '../local/data-c9a2c0fe.js' },
+    { slug: 'a40bd7e8', clubName: 'Bounce - Malvern', divisionName: '3.5 - 4.0', file: '../local/data-a40bd7e8.js' },
+    { slug: 'b07de80e', clubName: 'Bounce - Malvern', divisionName: '4.0 - 4.5', file: '../local/data-b07de80e.js' },
+    { slug: 'e6a9b403', clubName: 'Dill Dinkers - Chantilly', divisionName: '3.25 - 3.99', file: '../local/data-e6a9b403.js' },
+    { slug: 'fb4a73a2', clubName: 'Dill Dinkers - Hatboro', divisionName: '3.25 - 3.75', file: '../local/data-fb4a73a2.js' },
+    { slug: 'edb788e6', clubName: 'Flemington', divisionName: '3.25 - 3.99', file: '../local/data-edb788e6.js' },
+    { slug: 'b9b8230d', clubName: 'Flemington', divisionName: '3.25 & Under', file: '../local/data-b9b8230d.js' },
+    { slug: 'eaa4c1dc', clubName: 'Flemington', divisionName: '4.0 & Over', file: '../local/data-eaa4c1dc.js' },
+    { slug: 'c1b3f9c1', clubName: 'Robbinsville Pickle House', divisionName: '3.25 - 3.99', file: '../local/data-c1b3f9c1.js' },
+    { slug: 'a85172dd', clubName: 'Robbinsville Pickle House', divisionName: '4.0 - 4.99', file: '../local/data-a85172dd.js' }
+  ];
+  var DIVISION_RULES = Object.assign({}, TRAVEL_DIVISION_RULES, buildLocalDivisionRules());
+
+  var sortState = { key: 'delta', direction: -1 };
+  var DELTA_EMPHASIS_THRESHOLD = 0.050;
+  var outliers = [];
+  var missing = [];
+
+  function parseDivisionRange(divisionName) {
+    var text = String(divisionName || '').trim();
+    var rangeMatch = text.match(/^(\d+(?:\.\d+)?)\s*[–-]\s*(\d+(?:\.\d+)?)$/);
+    if (rangeMatch) {
+      return { min: Number(rangeMatch[1]), max: Number(rangeMatch[2]) };
+    }
+
+    var overMatch = text.match(/^(\d+(?:\.\d+)?)\s*&\s*over$/i);
+    if (overMatch) {
+      return { min: Number(overMatch[1]), max: Infinity };
+    }
+
+    var underMatch = text.match(/^(\d+(?:\.\d+)?)\s*&\s*under$/i);
+    if (underMatch) {
+      return { min: 0, max: Number(underMatch[1]) };
+    }
+
+    return null;
+  }
+
+  function buildLocalDivisionRules() {
+    return LOCAL_DIVISIONS.reduce(function (rules, division) {
+      var range = parseDivisionRange(division.divisionName);
+      if (!range) return rules;
+      rules[division.slug] = {
+        division: 'Local • ' + division.clubName + ' • ' + division.divisionName,
+        min: range.min,
+        max: range.max,
+        file: division.file,
+        leaguePath: 'local',
+      };
+      return rules;
+    }, {});
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, function (character) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character];
+    });
+  }
+
+  function expectedBracketText(row) {
+    if (!Number.isFinite(row.max)) return row.min.toFixed(3) + '+';
+    return row.min.toFixed(3) + '–' + (row.max - 0.001).toFixed(3);
+  }
+
+  function duprCell(row) {
+    if (row.duprRating == null) return '<span class="muted">—</span>';
+    var label = row.duprRating.toFixed(3);
+    if (!row.duprNumericId) return label;
+    return '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(row.duprNumericId) + '" target="_blank" rel="nofollow">' + label + '</a>';
+  }
+
+  function parseDataScript(scriptText) {
+    var prefix = 'const DATA = ';
+    var start = scriptText.indexOf(prefix);
+    if (start === -1) return null;
+    var jsonText = scriptText.slice(start + prefix.length).trim();
+    if (jsonText.endsWith(';')) jsonText = jsonText.slice(0, -1);
+    return JSON.parse(jsonText);
+  }
+
+  function normalizeGender(value) {
+    var g = String(value || '').trim();
+    return g || 'Unknown';
+  }
+
+  function slugify(value) {
+    return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function divisionUrl(row) {
+    return '../' + encodeURIComponent(row.leaguePath) + '/?d=' + encodeURIComponent(row.slug);
+  }
+
+  function teamUrl(row) {
+    if (!row.team) return divisionUrl(row);
+    return divisionUrl(row) + '&team=' + encodeURIComponent(slugify(row.team));
+  }
+
+  function playerUrl(row) {
+    return teamUrl(row) + '&player=' + encodeURIComponent(slugify(row.name));
+  }
+
+  function linkCell(label, href) {
+    return '<a class="audit-link" href="' + escapeHtml(href) + '">' + escapeHtml(label) + '</a>';
+  }
+
+  function buildRowsFromDataset(slug, data) {
+    var rule = DIVISION_RULES[slug];
+    var league = rule.leaguePath === 'travel' ? 'Travel' : 'Local';
+    var division = rule.division.replace(/^(?:Travel|Local)\s*•\s*/, '');
+    return (Array.isArray(data.players) ? data.players : []).map(function (player) {
+      return {
+        name: player.name,
+        team: player.team || '',
+        league: league,
+        division: division,
+        slug: slug,
+        gender: normalizeGender(player.gender),
+        duprRating: player.duprRating,
+        duprNumericId: player.duprNumericId,
+        min: rule.min,
+        max: rule.max,
+        leaguePath: rule.leaguePath,
+        isSub: Boolean(player.isSub || player.outsideSub),
+      };
+    });
+  }
+
+  function splitRows(rows) {
+    var outlierRows = [];
+    var missingRows = [];
+
+    rows.forEach(function (row) {
+      if (row.isSub) return;
+      if (row.duprRating == null) {
+        missingRows.push(row);
+        return;
+      }
+
+      var upperInclusive = Number.isFinite(row.max) ? row.max - 0.001 : Infinity;
+      if (row.duprRating > upperInclusive) {
+        row.status = 'above';
+        row.statusLabel = 'Above';
+        row.statusPriority = 2;
+        row.delta = row.duprRating - upperInclusive;
+        outlierRows.push(row);
+        return;
+      }
+
+      if (row.duprRating < row.min) {
+        row.status = 'below';
+        row.statusLabel = 'Below';
+        row.statusPriority = 1;
+        row.delta = row.min - row.duprRating;
+        outlierRows.push(row);
+      }
+    });
+
+    return { outlierRows: outlierRows, missingRows: missingRows };
+  }
+
+  function getSortValue(row, key) {
+    if (key === 'name' || key === 'team' || key === 'league' || key === 'division' || key === 'statusLabel' || key === 'gender') {
+      return String(row[key] || '').toLowerCase();
+    }
+    if (key === 'expected') {
+      return row.min;
+    }
+    if (key === 'duprRating') {
+      return row.duprRating == null ? Number.NEGATIVE_INFINITY : row.duprRating;
+    }
+    if (key === 'delta') {
+      return row.delta == null ? Number.NEGATIVE_INFINITY : row.delta;
+    }
+    if (key === 'statusPriority') {
+      return row.statusPriority || 0;
+    }
+    return row[key];
+  }
+
+  function compareRows(a, b) {
+    var va = getSortValue(a, sortState.key);
+    var vb = getSortValue(b, sortState.key);
+    if (typeof va === 'string' && typeof vb === 'string') {
+      return va.localeCompare(vb) * sortState.direction;
+    }
+    return ((va - vb) * sortState.direction) || ((b.delta - a.delta) || a.name.localeCompare(b.name));
+  }
+
+  function selectedValue(id) {
+    var element = document.getElementById(id);
+    return element ? element.value : 'all';
+  }
+
+  function getFilteredOutliers() {
+    var league = selectedValue('league-filter');
+    var division = selectedValue('division-filter');
+    var gender = selectedValue('gender-filter');
+    var team = selectedValue('team-filter');
+
+    return outliers.filter(function (row) {
+      return (league === 'all' || row.league === league) &&
+        (division === 'all' || row.slug === division) &&
+        (gender === 'all' || row.gender === gender) &&
+        (team === 'all' || row.team === team);
+    });
+  }
+
+  function renderCards(filteredAbove, filteredBelow) {
+    var cards = document.getElementById('cards');
+    if (!cards) return;
+    var shownTotal = filteredAbove.length + filteredBelow.length;
+    cards.innerHTML = [
+      '<div class="card over"><div class="k">Above bracket (shown)</div><div class="v">' + filteredAbove.length + '</div></div>',
+      '<div class="card under"><div class="k">Below bracket (shown)</div><div class="v">' + filteredBelow.length + '</div></div>',
+      '<div class="card"><div class="k">Outliers (shown)</div><div class="v">' + shownTotal + '</div></div>',
+      '<div class="card"><div class="k">Missing DUPR (all)</div><div class="v">' + missing.length + '</div></div>',
+    ].join('');
+  }
+
+  function renderLegend(id, count, label) {
+    var legend = document.getElementById(id);
+    if (!legend) return;
+    legend.textContent = count + ' ' + label + ' entries shown • click any column header to sort';
+  }
+
+  function header(label, key, sortable) {
+    if (!sortable) return '<th>' + label + '</th>';
+    var sorted = sortState.key === key;
+    var arrow = sorted ? (sortState.direction === 1 ? ' ↑' : ' ↓') : '';
+    return '<th class="sortable' + (sorted ? ' sorted' : '') + '" data-sort="' + key + '">' + label + arrow + '</th>';
+  }
+
+  function renderOutlierTable(tableId, filtered, emptyText) {
+    var table = document.getElementById(tableId);
+    if (!table) return;
+
+    if (!filtered.length) {
+      table.innerHTML = '<tbody><tr><td class="empty">' + escapeHtml(emptyText) + '</td></tr></tbody>';
+      return;
+    }
+
+    var rows = filtered.slice().sort(compareRows);
+    var body = rows.map(function (row) {
+      var statusClass = row.status === 'above' ? 'sev-over' : 'sev-under';
+      if (row.delta < DELTA_EMPHASIS_THRESHOLD) statusClass += ' sev-soft';
+      return '<tr>' +
+        '<td>' + linkCell(row.name, playerUrl(row)) + '</td>' +
+        '<td>' + linkCell(row.team || '—', teamUrl(row)) + '</td>' +
+        '<td>' + escapeHtml(row.league) + '</td>' +
+        '<td>' + linkCell(row.division, divisionUrl(row)) + '</td>' +
+        '<td>' + escapeHtml(row.gender) + '</td>' +
+        '<td>' + expectedBracketText(row) + '</td>' +
+        '<td>' + duprCell(row) + '</td>' +
+        '<td class="' + statusClass + '">' + row.delta.toFixed(3) + '</td>' +
+      '</tr>';
+    }).join('');
+
+    table.innerHTML = '<thead><tr>' +
+      header('Player', 'name', true) +
+      header('Team', 'team', true) +
+      header('League', 'league', true) +
+      header('Division', 'division', true) +
+      header('Gender', 'gender', true) +
+      header('Expected DUPR', 'expected', true) +
+      header('DUPR', 'duprRating', true) +
+      header('Delta', 'delta', true) +
+      '</tr></thead><tbody>' + body + '</tbody>';
+  }
+
+  function renderMissingTable() {
+    var table = document.getElementById('missing-table');
+    if (!table) return;
+
+    if (!missing.length) {
+      table.innerHTML = '<tbody><tr><td class="empty">No missing DUPR ratings in travel data.</td></tr></tbody>';
+      return;
+    }
+
+    var rows = missing.slice().sort(function (a, b) {
+      return a.name.localeCompare(b.name) || a.division.localeCompare(b.division);
+    });
+
+    var body = rows.map(function (row) {
+      return '<tr>' +
+        '<td>' + linkCell(row.name, playerUrl(row)) + '</td>' +
+        '<td>' + linkCell(row.team || '—', teamUrl(row)) + '</td>' +
+        '<td>' + escapeHtml(row.league) + '</td>' +
+        '<td>' + linkCell(row.division, divisionUrl(row)) + '</td>' +
+        '<td>' + escapeHtml(row.gender) + '</td>' +
+        '<td>' + expectedBracketText(row) + '</td>' +
+      '</tr>';
+    }).join('');
+
+    table.innerHTML = '<thead><tr>' +
+      '<th>Player</th>' +
+      '<th>Team</th>' +
+      '<th>League</th>' +
+      '<th>Division</th>' +
+      '<th>Gender</th>' +
+      '<th>Expected DUPR</th>' +
+      '</tr></thead><tbody>' + body + '</tbody>';
+  }
+
+  function populateFilters() {
+    var leagueSelect = document.getElementById('league-filter');
+    var divisionSelect = document.getElementById('division-filter');
+    var genderSelect = document.getElementById('gender-filter');
+    var teamSelect = document.getElementById('team-filter');
+    if (!leagueSelect || !divisionSelect || !genderSelect || !teamSelect) return;
+
+    var leagues = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.league; }))).sort();
+    leagueSelect.innerHTML = '<option value="all">All leagues</option>' + leagues.map(function (league) {
+      return '<option value="' + escapeHtml(league) + '">' + escapeHtml(league) + '</option>';
+    }).join('');
+    var slugs = Object.keys(DIVISION_RULES);
+    divisionSelect.innerHTML = '<option value="all">All divisions</option>' + slugs.map(function (slug) {
+      return '<option value="' + slug + '">' + escapeHtml(DIVISION_RULES[slug].division) + '</option>';
+    }).join('');
+
+    var genders = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.gender; }))).sort();
+    genderSelect.innerHTML = '<option value="all">All genders</option>' + genders.map(function (gender) {
+      return '<option value="' + escapeHtml(gender) + '">' + escapeHtml(gender) + '</option>';
+    }).join('');
+
+    var teams = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.team; })))
+      .filter(function (team) { return team; })
+      .sort();
+    teamSelect.innerHTML = '<option value="all">All teams</option>' + teams.map(function (team) {
+      return '<option value="' + escapeHtml(team) + '">' + escapeHtml(team) + '</option>';
+    }).join('');
+  }
+
+  function renderAll() {
+    var filtered = getFilteredOutliers();
+    var filteredAbove = filtered.filter(function (row) { return row.status === 'above'; });
+    var filteredBelow = filtered.filter(function (row) { return row.status === 'below'; });
+    renderCards(filteredAbove, filteredBelow);
+    renderLegend('legend-above', filteredAbove.length, 'above-bracket');
+    renderLegend('legend-below', filteredBelow.length, 'below-bracket');
+    renderOutlierTable('above-table', filteredAbove, 'No above-bracket players match the selected filters.');
+    renderOutlierTable('below-table', filteredBelow, 'No below-bracket players match the selected filters.');
+    renderMissingTable();
+  }
+
+  function attachEvents() {
+    ['division-filter', 'league-filter', 'gender-filter', 'team-filter'].forEach(function (id) {
+      var element = document.getElementById(id);
+      if (element) {
+        element.addEventListener('change', renderAll);
+      }
+    });
+
+    ['above-table', 'below-table'].forEach(function (tableId) {
+      var table = document.getElementById(tableId);
+      if (!table) return;
+      table.addEventListener('click', function (event) {
+        var th = event.target.closest('th[data-sort]');
+        if (!th) return;
+        var key = th.dataset.sort;
+        if (sortState.key === key) {
+          sortState.direction *= -1;
+        } else {
+          sortState.key = key;
+          sortState.direction = key === 'name' || key === 'team' || key === 'league' || key === 'division' || key === 'gender' ? 1 : -1;
+        }
+        renderAll();
+      });
+    });
+  }
+
+  function loadAllDatasets() {
+    var entries = Object.keys(DIVISION_RULES).map(function (slug) {
+      return { slug: slug, file: DIVISION_RULES[slug].file };
+    });
+
+    return Promise.all(entries.map(function (entry) {
+      return fetch(entry.file)
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error('Failed to load ' + entry.file + ': ' + response.status);
+          }
+          return response.text();
+        })
+        .then(function (text) {
+          var parsed = parseDataScript(text);
+          if (!parsed) throw new Error('Could not parse ' + entry.file);
+          return buildRowsFromDataset(entry.slug, parsed);
+        });
+    })).then(function (groups) {
+      return groups.flat();
+    });
+  }
+
+  loadAllDatasets()
+    .then(function (rows) {
+      var split = splitRows(rows);
+      outliers = split.outlierRows;
+      missing = split.missingRows;
+      outliers.sort(function (a, b) {
+        return (b.statusPriority - a.statusPriority) || (b.delta - a.delta) || a.name.localeCompare(b.name);
+      });
+      populateFilters();
+      attachEvents();
+      renderAll();
+    })
+    .catch(function (error) {
+      ['above-table', 'below-table'].forEach(function (tableId) {
+        var table = document.getElementById(tableId);
+        if (table) {
+          table.innerHTML = '<tbody><tr><td class="empty">Failed to load audit data: ' + escapeHtml(error.message) + '</td></tr></tbody>';
+        }
+      });
+    });
+}());
+</script>
+</body>
+</html>
