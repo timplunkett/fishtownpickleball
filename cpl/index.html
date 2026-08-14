@@ -185,6 +185,38 @@
   .player-result-entry .team-name { color: var(--mut); }
 
   .finder-hint { font-size: .78rem; color: var(--mut); font-style: italic; text-align: center; }
+
+  @media (max-width: 640px) {
+    body {
+      min-height: 100svh;
+      justify-content: flex-start;
+      gap: 1.25rem;
+      padding: 1rem .75rem 1.5rem;
+    }
+
+    .panel {
+      padding: 1rem;
+    }
+
+    #player-results {
+      max-height: none;
+      overflow: visible;
+    }
+
+    .player-result {
+      padding: .65rem .75rem;
+    }
+
+    .player-result-entry {
+      align-items: flex-start;
+      padding: .55rem .4rem;
+      margin: 0 -.4rem;
+    }
+
+    .player-result-entry .team-name {
+      width: 100%;
+    }
+  }
 </style>
 </head>
 <body>
