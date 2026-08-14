@@ -421,6 +421,7 @@
           '<span class="league-badge ' + badgeClass + '">' + badgeLabel + '</span>' +
           '<span class="division-name">' + locationText + '</span>' +
           '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
+          (e.isSub ? ' <span class="sub-tag" title="Sub \u2014 not a rostered team member">sub</span>' : '') +
           '</a>';
       }).join('');
       // Use the first entry that has DUPR data
