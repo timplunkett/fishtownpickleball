@@ -947,6 +947,7 @@ function buildPlayerIndex() {
           league,
         };
         if (div.clubName) entry.club = div.clubName;
+        if (p.isSub) entry.isSub = true;
         const dupr = p.playerId ? duprByPlayerId.get(p.playerId) : null;
         if (dupr) {
           entry.duprRating = dupr.duprRating;
