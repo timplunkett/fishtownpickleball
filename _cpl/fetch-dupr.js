@@ -4,6 +4,7 @@ const path = require('path');
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
 const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
+const DUPR_RATINGS_FILE = path.join(__dirname, '..', 'cpl', 'dupr-ratings.js');
 const REQUEST_DELAY_MS = 800; // Delay between DUPR API calls
 const MAX_CONSECUTIVE_429 = 3;
 
@@ -114,6 +115,18 @@ function saveGlobalPlayers(players, reason = 'progress') {
   console.log(`Saved global players (${reason}).`);
 }
 
+function writeDuprRatingsJs(players) {
+  const ratings = {};
+  for (const p of players) {
+    if (p.playerId && p.duprRating != null && p.duprRating !== 'NR') {
+      ratings[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null };
+    }
+  }
+  const content = `window.DUPR_RATINGS = ${JSON.stringify(ratings)};`;
+  fs.writeFileSync(DUPR_RATINGS_FILE, content, 'utf-8');
+  console.log(`Saved dupr-ratings.js (${Object.keys(ratings).length} players with ratings).`);
+}
+
 async function run() {
   const bypassCache = process.argv.includes('--bypass-cache');
 
@@ -157,6 +170,7 @@ async function run() {
   const persistAndExit = (signal) => {
     console.warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
     saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
+    writeDuprRatingsJs(globalPlayers);
     process.exit(130);
   };
   process.once('SIGINT', persistAndExit);
@@ -226,6 +240,7 @@ async function run() {
 
   console.log(`\nSaving global players to: ${GLOBAL_PLAYERS_FILE}`);
   saveGlobalPlayers(globalPlayers, shouldStop ? 'early stop' : 'complete run');
+  writeDuprRatingsJs(globalPlayers);
   process.removeListener('SIGINT', persistAndExit);
   process.removeListener('SIGTERM', persistAndExit);
 
