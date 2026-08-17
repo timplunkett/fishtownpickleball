@@ -21,7 +21,7 @@ const MATCHUP_KEEP = new Set([
 ]);
 
 const PLAYER_KEEP = new Set([
-  'playerId', 'firstName', 'lastName', 'gender', 'dupr', 'duprRating', 'isCaptain', 'isSub', 'teamId', 'teamName',
+  'playerId', 'firstName', 'lastName', 'gender', 'dupr', 'isCaptain', 'isSub', 'teamId', 'teamName',
   'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
   'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
 ]);
@@ -236,23 +236,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
 
       fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(slimMatchups(matchupsRaw), null, 2));
 
-      // Preserve any duprRating values from global_players.json (written by the DUPR workflow).
       const slimmed = slimPlayers(players);
-      const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
-      if (fs.existsSync(globalPlayersFile)) {
-        const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'));
-        const duprMap = {};
-        for (const p of globalPlayers) {
-          if (p.playerId && p.duprRating != null) duprMap[p.playerId] = p.duprRating;
-        }
-        for (const p of (slimmed.$values || [])) {
-          p.duprRating = duprMap[p.playerId] ?? null;
-        }
-      } else {
-        for (const p of (slimmed.$values || [])) {
-          p.duprRating = null;
-        }
-      }
       fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimmed, null, 2));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
 
