@@ -84,7 +84,7 @@
     "firstName": "Tina",
     "lastName": "Zhao",
     "dupr": "ELY52V",
-    "duprRating": "3.173",
+    "duprRating": "3.119",
     "duprNumericId": 5179755261
   },
   {
@@ -116,7 +116,7 @@
     "firstName": "Anthony",
     "lastName": "Strazzeri",
     "dupr": "PW60NX",
-    "duprRating": "3.215",
+    "duprRating": "3.665",
     "duprNumericId": 6671778434
   },
   {
@@ -196,7 +196,7 @@
     "firstName": "Lisa",
     "lastName": "Pinder",
     "dupr": "8EJMOV",
-    "duprRating": "3.176",
+    "duprRating": "3.265",
     "duprNumericId": 5675827358
   },
   {
@@ -460,7 +460,7 @@
     "firstName": "Colette",
     "lastName": "McGarrity",
     "dupr": "Z4DRLL",
-    "duprRating": "NR",
+    "duprRating": "2.000",
     "duprNumericId": 8330145384
   },
   {
@@ -644,7 +644,7 @@
     "firstName": "Benji",
     "lastName": "Berry",
     "dupr": "N74R02",
-    "duprRating": "3.740",
+    "duprRating": "3.942",
     "duprNumericId": 5997857503
   },
   {
@@ -1108,7 +1108,7 @@
     "firstName": "Jacob",
     "lastName": "Alpert",
     "dupr": "Z9VWRP",
-    "duprRating": "3.340",
+    "duprRating": "3.381",
     "duprNumericId": 7093926430
   },
   {
@@ -1555,7 +1555,7 @@
     "playerId": "34ec3f29-ddb8-41e4-91a0-3ab69dbea771",
     "firstName": "Laura",
     "lastName": "Amato",
-    "dupr": "JJPQNO",
+    "dupr": "GWYJWX",
     "duprRating": "2.825",
     "duprNumericId": 7472792956
   },
@@ -2596,7 +2596,7 @@
     "firstName": "Brian",
     "lastName": "Cook",
     "dupr": "K562ZK",
-    "duprRating": "3.607",
+    "duprRating": "3.690",
     "duprNumericId": 5612879926
   },
   {
@@ -2627,7 +2627,7 @@
     "playerId": "6c27f09f-99d8-46e0-bd7f-d50809759eff",
     "firstName": "Deborah",
     "lastName": "Chapman",
-    "dupr": "GWOMEV",
+    "dupr": "7z2qp9",
     "duprRating": "2.599",
     "duprNumericId": 5313040704
   },
@@ -3052,7 +3052,7 @@
     "firstName": "Bob",
     "lastName": "Post",
     "dupr": "2qmzn7",
-    "duprRating": "3.534",
+    "duprRating": "3.513",
     "duprNumericId": 7184067726
   },
   {
@@ -3132,7 +3132,7 @@
     "firstName": "Mica",
     "lastName": "Gray",
     "dupr": "XOXDZ4",
-    "duprRating": "3.700",
+    "duprRating": "3.703",
     "duprNumericId": 7743229672
   },
   {
@@ -3180,7 +3180,7 @@
     "firstName": "Luis",
     "lastName": "Rodriguez",
     "dupr": "V2PRY6",
-    "duprRating": "3.661",
+    "duprRating": "3.652",
     "duprNumericId": 6723368714
   },
   {
@@ -3196,7 +3196,7 @@
     "firstName": "Krista",
     "lastName": "DiVenere",
     "dupr": "EGLQ0V",
-    "duprRating": "3.159",
+    "duprRating": "3.173",
     "duprNumericId": 6790740024
   },
   {
@@ -3236,7 +3236,7 @@
     "firstName": "Alessandra",
     "lastName": "Cheretis",
     "dupr": "W6VR6G",
-    "duprRating": "3.081",
+    "duprRating": "3.069",
     "duprNumericId": 6029630916
   },
   {
@@ -3324,7 +3324,7 @@
     "firstName": "Dawn",
     "lastName": "Danner",
     "dupr": "VXZY07",
-    "duprRating": "3.266",
+    "duprRating": "3.206",
     "duprNumericId": 4314006492
   },
   {
@@ -3468,7 +3468,7 @@
     "firstName": "Andriana",
     "lastName": "Solano",
     "dupr": "N75P66",
-    "duprRating": "3.017",
+    "duprRating": "3.002",
     "duprNumericId": 6196819642
   },
   {
@@ -4052,7 +4052,7 @@
     "firstName": "Apparao",
     "lastName": "Avancha",
     "dupr": "V67WE5",
-    "duprRating": "3.277",
+    "duprRating": "3.144",
     "duprNumericId": 7756704316
   },
   {
@@ -4580,7 +4580,7 @@
     "firstName": "Anthony",
     "lastName": "Fallet",
     "dupr": "V4DKZ7",
-    "duprRating": "4.180",
+    "duprRating": "4.258",
     "duprNumericId": 6784613125
   },
   {
@@ -4612,7 +4612,7 @@
     "firstName": "Thomas",
     "lastName": "Connolly",
     "dupr": "1NKDKN",
-    "duprRating": "4.663",
+    "duprRating": "4.651",
     "duprNumericId": 7824527893
   },
   {
@@ -5946,7 +5946,7 @@
   {
     "playerId": "1448a485-6172-48af-96e0-f4876e9c5268",
     "firstName": "Rakshit",
-    "lastName": "Maddur Gopinath",
+    "lastName": "Maddur gopinath",
     "dupr": "QXZWQD",
     "duprRating": "4.021",
     "duprNumericId": 7398367868
@@ -5977,7 +5977,7 @@
   },
   {
     "playerId": "44864b51-f901-4470-a6bd-891495ffd132",
-    "firstName": "Varun Krishna Reddy",
+    "firstName": "Varun",
     "lastName": "Gurram",
     "dupr": "ZD4PMW",
     "duprRating": "3.737",
@@ -6972,7 +6972,7 @@
     "firstName": "Brooke",
     "lastName": "OBrien",
     "dupr": "YX9QMD",
-    "duprRating": "3.658",
+    "duprRating": "3.590",
     "duprNumericId": 6796279957
   },
   {
@@ -7121,7 +7121,7 @@
   },
   {
     "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
-    "firstName": "DANA",
+    "firstName": "Dana",
     "lastName": "Sun",
     "dupr": "ZNMRMW",
     "duprRating": "3.510",
@@ -7132,7 +7132,7 @@
     "firstName": "Shaoyi",
     "lastName": "Sun",
     "dupr": "ODVKQ2",
-    "duprRating": "3.690",
+    "duprRating": "3.758",
     "duprNumericId": 8448474522
   },
   {
@@ -7347,7 +7347,7 @@
     "firstName": "Kordell",
     "lastName": "Alexander",
     "dupr": "2PPKR7",
-    "duprRating": "3.505",
+    "duprRating": "3.360",
     "duprNumericId": 6588622553
   },
   {
@@ -7643,7 +7643,7 @@
     "firstName": "James",
     "lastName": "Cooper",
     "dupr": "RWLGDD",
-    "duprRating": "3.413",
+    "duprRating": "3.418",
     "duprNumericId": 7261979254
   },
   {
@@ -7850,7 +7850,7 @@
     "playerId": "03101043-a42b-4c1a-bfaa-5889abe8af30",
     "firstName": "Steven",
     "lastName": "Fernandez",
-    "dupr": "1QW5JD",
+    "dupr": "RXQX9Z",
     "duprRating": "5.110",
     "duprNumericId": 8490041694
   },
@@ -8099,7 +8099,7 @@
     "firstName": "Ismael",
     "lastName": "Hernandez",
     "dupr": "0ZJP4Q",
-    "duprRating": "3.482",
+    "duprRating": "3.477",
     "duprNumericId": 8531097553
   },
   {
@@ -8483,7 +8483,7 @@
     "firstName": "Catherine",
     "lastName": "Malabanan",
     "dupr": "16OP7E",
-    "duprRating": "3.221",
+    "duprRating": "3.270",
     "duprNumericId": 8522860032
   },
   {
@@ -8491,7 +8491,7 @@
     "firstName": "Trisha",
     "lastName": "Marion",
     "dupr": "ZZ6MGP",
-    "duprRating": "2.591",
+    "duprRating": "3.037",
     "duprNumericId": 7844842186
   },
   {
@@ -8723,7 +8723,7 @@
     "firstName": "Anthony",
     "lastName": "Oliver",
     "dupr": "99Z297",
-    "duprRating": "3.658",
+    "duprRating": "3.743",
     "duprNumericId": 8118845155
   },
   {
@@ -8779,7 +8779,7 @@
     "firstName": "Rosellen",
     "lastName": "Perlowitz",
     "dupr": "8GZNJM",
-    "duprRating": "3.461",
+    "duprRating": "3.402",
     "duprNumericId": 5805410435
   },
   {
@@ -9179,7 +9179,7 @@
     "firstName": "Nicole",
     "lastName": "Tarallo",
     "dupr": "Z4ODYM",
-    "duprRating": "3.346",
+    "duprRating": "3.423",
     "duprNumericId": 6459044422
   },
   {
@@ -9891,7 +9891,7 @@
     "firstName": "Jackie",
     "lastName": "Coneeny",
     "dupr": "G5G2RD",
-    "duprRating": "3.020",
+    "duprRating": "3.123",
     "duprNumericId": 5257535616
   },
   {
@@ -10018,7 +10018,7 @@
     "playerId": "63811fd7-7206-48a8-a427-4463da0fc4f8",
     "firstName": "Arthur Gary",
     "lastName": "Dellostritto",
-    "dupr": "0XPEYQ",
+    "dupr": "OXPEYQ",
     "duprRating": "NR",
     "duprNumericId": 8357324153
   },
@@ -10499,7 +10499,7 @@
     "firstName": "Michele",
     "lastName": "Iacono",
     "dupr": "JJ62V4",
-    "duprRating": "3.247",
+    "duprRating": "3.429",
     "duprNumericId": 4630495270
   },
   {
@@ -10563,7 +10563,7 @@
     "firstName": "Caroline",
     "lastName": "Kinlin",
     "dupr": "0YMWRG",
-    "duprRating": "3.162",
+    "duprRating": "3.228",
     "duprNumericId": 4573331398
   },
   {
@@ -10835,7 +10835,7 @@
     "firstName": "Marie Walsh",
     "lastName": "McCarty",
     "dupr": "Q52G60",
-    "duprRating": "3.043",
+    "duprRating": "3.273",
     "duprNumericId": 7163948828
   },
   {
@@ -11859,7 +11859,7 @@
     "firstName": "Christina",
     "lastName": "Zumbo-Zerega",
     "dupr": "4ZEVNV",
-    "duprRating": "3.067",
+    "duprRating": "3.091",
     "duprNumericId": 5146599322
   },
   {
@@ -11931,7 +11931,7 @@
     "firstName": "Alex",
     "lastName": "Bey",
     "dupr": "WXXOQG",
-    "duprRating": "3.902",
+    "duprRating": "3.951",
     "duprNumericId": 6333551315
   },
   {
@@ -11963,7 +11963,7 @@
     "firstName": "Jordan",
     "lastName": "Brochin",
     "dupr": "G5Y26G",
-    "duprRating": "4.048",
+    "duprRating": "4.044",
     "duprNumericId": 8019300894
   },
   {
@@ -11987,7 +11987,7 @@
     "firstName": "Jeremy",
     "lastName": "Buckley",
     "dupr": "35ZWRL",
-    "duprRating": "4.243",
+    "duprRating": "4.250",
     "duprNumericId": 6192967285
   },
   {
@@ -12011,7 +12011,7 @@
     "firstName": "Andres",
     "lastName": "Cardona",
     "dupr": "17YLDM",
-    "duprRating": "3.981",
+    "duprRating": "3.827",
     "duprNumericId": 5244806609
   },
   {
@@ -12019,7 +12019,7 @@
     "firstName": "Carly",
     "lastName": "Cebek",
     "dupr": "EWW2OM",
-    "duprRating": "3.873",
+    "duprRating": "3.903",
     "duprNumericId": 6886419178
   },
   {
@@ -12179,7 +12179,7 @@
     "firstName": "Shangjia",
     "lastName": "Dong",
     "dupr": "55D74R",
-    "duprRating": "3.954",
+    "duprRating": "4.008",
     "duprNumericId": 8201192722
   },
   {
@@ -12187,7 +12187,7 @@
     "firstName": "Janelle",
     "lastName": "Donnian",
     "dupr": "VX6M9E",
-    "duprRating": "4.002",
+    "duprRating": "4.018",
     "duprNumericId": 8017142488
   },
   {
@@ -12235,7 +12235,7 @@
     "firstName": "Kimberly",
     "lastName": "Ercolino",
     "dupr": "G5ZM4G",
-    "duprRating": "3.139",
+    "duprRating": "3.136",
     "duprNumericId": 4481127709
   },
   {
@@ -12483,7 +12483,7 @@
     "firstName": "Matthew",
     "lastName": "Hopkins",
     "dupr": "7D0770",
-    "duprRating": "4.343",
+    "duprRating": "4.303",
     "duprNumericId": 6376092234
   },
   {
@@ -12627,7 +12627,7 @@
     "firstName": "Se Jun",
     "lastName": "Kim",
     "dupr": "QXXEQ4",
-    "duprRating": "4.187",
+    "duprRating": "4.268",
     "duprNumericId": 6211979646
   },
   {
@@ -12640,7 +12640,7 @@
   },
   {
     "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
-    "firstName": "Alex",
+    "firstName": "Alexander",
     "lastName": "King",
     "dupr": "G5ZLQX",
     "duprRating": "4.119",
@@ -12739,7 +12739,7 @@
     "firstName": "Brian",
     "lastName": "Landau",
     "dupr": "GGLYDQ",
-    "duprRating": "3.989",
+    "duprRating": "4.010",
     "duprNumericId": 6120349248
   },
   {
@@ -12755,7 +12755,7 @@
     "firstName": "Sarah",
     "lastName": "Landis",
     "dupr": "V75Q27",
-    "duprRating": "3.981",
+    "duprRating": "3.927",
     "duprNumericId": 7644993638
   },
   {
@@ -12763,7 +12763,7 @@
     "firstName": "Alexa",
     "lastName": "Laniado",
     "dupr": "X247G2",
-    "duprRating": "4.088",
+    "duprRating": "4.112",
     "duprNumericId": 7880462983
   },
   {
@@ -12915,7 +12915,7 @@
     "firstName": "Matthew",
     "lastName": "Marletta",
     "dupr": "YXD7G4",
-    "duprRating": "4.462",
+    "duprRating": "4.482",
     "duprNumericId": 7833425138
   },
   {
@@ -12995,7 +12995,7 @@
     "firstName": "Alexis",
     "lastName": "Milak",
     "dupr": "XO625R",
-    "duprRating": "3.647",
+    "duprRating": "3.654",
     "duprNumericId": 5981103214
   },
   {
@@ -13027,7 +13027,7 @@
     "firstName": "Joseph",
     "lastName": "Mizrahi",
     "dupr": "V79LGP",
-    "duprRating": "3.936",
+    "duprRating": "3.971",
     "duprNumericId": 6433978588
   },
   {
@@ -13211,7 +13211,7 @@
     "firstName": "Lawanakorn",
     "lastName": "Powad",
     "dupr": "MYPKQV",
-    "duprRating": "4.017",
+    "duprRating": "4.028",
     "duprNumericId": 4382785429
   },
   {
@@ -13259,7 +13259,7 @@
     "firstName": "Wyatt",
     "lastName": "Read",
     "dupr": "RZX0PE",
-    "duprRating": "3.927",
+    "duprRating": "3.908",
     "duprNumericId": 6770118038
   },
   {
@@ -13323,7 +13323,7 @@
     "firstName": "Aadhar",
     "lastName": "Rohila",
     "dupr": "L2Z5OZ",
-    "duprRating": "4.391",
+    "duprRating": "4.414",
     "duprNumericId": 8412985769
   },
   {
@@ -13331,7 +13331,7 @@
     "firstName": "Ethan",
     "lastName": "Rosen",
     "dupr": "K5PNQY",
-    "duprRating": "4.012",
+    "duprRating": "3.998",
     "duprNumericId": 4463935364
   },
   {
@@ -13379,7 +13379,7 @@
     "firstName": "Rodney",
     "lastName": "Sanchez",
     "dupr": "Z99XLD",
-    "duprRating": "3.882",
+    "duprRating": "3.892",
     "duprNumericId": 7763010659
   },
   {
@@ -13555,7 +13555,7 @@
     "firstName": "Pranav",
     "lastName": "Tailor",
     "dupr": "RYEJKN",
-    "duprRating": "4.341",
+    "duprRating": "4.345",
     "duprNumericId": 6296278163
   },
   {
@@ -13579,7 +13579,7 @@
     "firstName": "Kaleigh",
     "lastName": "Tierney",
     "dupr": "NYKXG2",
-    "duprRating": "4.184",
+    "duprRating": "4.200",
     "duprNumericId": 7208505771
   },
   {
@@ -13659,7 +13659,7 @@
     "firstName": "Jen",
     "lastName": "Vorel",
     "dupr": "8G6D7G",
-    "duprRating": "4.392",
+    "duprRating": "4.395",
     "duprNumericId": 5961981656
   },
   {
@@ -13739,7 +13739,7 @@
     "firstName": "William",
     "lastName": "Ye",
     "dupr": "760J7M",
-    "duprRating": "4.376",
+    "duprRating": "4.377",
     "duprNumericId": 6723191246
   },
   {
@@ -13963,7 +13963,7 @@
     "firstName": "Armand",
     "lastName": "Bigornia",
     "dupr": "DYYYLM",
-    "duprRating": "3.502",
+    "duprRating": "3.503",
     "duprNumericId": 8264841890
   },
   {
@@ -14003,7 +14003,7 @@
     "firstName": "Keith",
     "lastName": "Brittingham",
     "dupr": "KO67KK",
-    "duprRating": "3.446",
+    "duprRating": "3.441",
     "duprNumericId": 5824277864
   },
   {
@@ -14275,7 +14275,7 @@
     "firstName": "Dede",
     "lastName": "Dolkar",
     "dupr": "J5Q5ND",
-    "duprRating": "3.582",
+    "duprRating": "3.559",
     "duprNumericId": 6867594024
   },
   {
@@ -14403,7 +14403,7 @@
     "firstName": "Gabriel",
     "lastName": "Ferraro",
     "dupr": "0QNVXN",
-    "duprRating": "3.649",
+    "duprRating": "4.078",
     "duprNumericId": 5536472814
   },
   {
@@ -14739,7 +14739,7 @@
     "firstName": "Jayadeep Reddy",
     "lastName": "Kamireddy",
     "dupr": "K5KOP6",
-    "duprRating": "3.741",
+    "duprRating": "3.878",
     "duprNumericId": 8367214881
   },
   {
@@ -14755,7 +14755,7 @@
     "firstName": "Jennifer",
     "lastName": "Kasnadi",
     "dupr": "764ME0",
-    "duprRating": "3.422",
+    "duprRating": "3.431",
     "duprNumericId": 6271851851
   },
   {
@@ -14955,7 +14955,7 @@
     "firstName": "Magnolia",
     "lastName": "Lau",
     "dupr": "17YMP5",
-    "duprRating": "3.369",
+    "duprRating": "3.370",
     "duprNumericId": 8408869282
   },
   {
@@ -15275,7 +15275,7 @@
     "firstName": "Dylan",
     "lastName": "Mich",
     "dupr": "ME5O4O",
-    "duprRating": "3.826",
+    "duprRating": "4.081",
     "duprNumericId": 4898663428
   },
   {
@@ -15362,7 +15362,7 @@
     "playerId": "205b26e9-e90c-4da9-a58b-4aad708d68df",
     "firstName": "Bill",
     "lastName": "Nguyen",
-    "dupr": "PKW2PZ",
+    "dupr": "6667OE",
     "duprRating": "3.976",
     "duprNumericId": 5748352150
   },
@@ -15411,7 +15411,7 @@
     "firstName": "Leah",
     "lastName": "ONeill",
     "dupr": "LVRN5K",
-    "duprRating": "3.305",
+    "duprRating": "3.339",
     "duprNumericId": 4890371253
   },
   {
@@ -15483,7 +15483,7 @@
     "firstName": "Savan",
     "lastName": "Patel",
     "dupr": "7J5V2M",
-    "duprRating": "3.625",
+    "duprRating": "3.601",
     "duprNumericId": 6974610449
   },
   {
@@ -15523,7 +15523,7 @@
     "firstName": "Timothy",
     "lastName": "Phillippe",
     "dupr": "DNXZ24",
-    "duprRating": "3.843",
+    "duprRating": "3.826",
     "duprNumericId": 6995667098
   },
   {
@@ -15587,7 +15587,7 @@
     "firstName": "Nicki",
     "lastName": "Ray",
     "dupr": "N7G5JW",
-    "duprRating": "3.962",
+    "duprRating": "3.941",
     "duprNumericId": 6895805574
   },
   {
@@ -15851,7 +15851,7 @@
     "firstName": "Leah",
     "lastName": "Stup",
     "dupr": "WXKZ0G",
-    "duprRating": "4.027",
+    "duprRating": "4.088",
     "duprNumericId": 5564736696
   },
   {
@@ -15891,7 +15891,7 @@
     "firstName": "Reggie",
     "lastName": "Tiglao",
     "dupr": "DYY9QX",
-    "duprRating": "3.799",
+    "duprRating": "3.769",
     "duprNumericId": 7257185718
   },
   {
@@ -15899,7 +15899,7 @@
     "firstName": "Dylan",
     "lastName": "Tjio",
     "dupr": "55WRPP",
-    "duprRating": "3.435",
+    "duprRating": "3.516",
     "duprNumericId": 5756596402
   },
   {
@@ -15915,7 +15915,7 @@
     "firstName": "Nico",
     "lastName": "Torres",
     "dupr": "5EJMKP",
-    "duprRating": "3.288",
+    "duprRating": "3.163",
     "duprNumericId": 5055206741
   },
   {
@@ -16283,7 +16283,7 @@
     "firstName": "Zach",
     "lastName": "Bowe",
     "dupr": "NYYZPZ",
-    "duprRating": "5.006",
+    "duprRating": "4.951",
     "duprNumericId": 8119522611
   },
   {
@@ -16363,7 +16363,7 @@
     "firstName": "Jordan",
     "lastName": "Denish",
     "dupr": "170055",
-    "duprRating": "5.083",
+    "duprRating": "5.142",
     "duprNumericId": 7624744832
   },
   {
@@ -16427,7 +16427,7 @@
     "firstName": "Noah",
     "lastName": "Goding",
     "dupr": "0QPRJG",
-    "duprRating": "4.352",
+    "duprRating": "4.301",
     "duprNumericId": 6984733263
   },
   {
@@ -16435,7 +16435,7 @@
     "firstName": "Arianna",
     "lastName": "Haresign",
     "dupr": "DWLVR4",
-    "duprRating": "4.642",
+    "duprRating": "4.581",
     "duprNumericId": 6019004681
   },
   {
@@ -16467,7 +16467,7 @@
     "firstName": "Kara",
     "lastName": "Infante",
     "dupr": "YG97XD",
-    "duprRating": "4.591",
+    "duprRating": "4.547",
     "duprNumericId": 4544609113
   },
   {
@@ -16531,7 +16531,7 @@
     "firstName": "Ashwin",
     "lastName": "Korde",
     "dupr": "3ZD09L",
-    "duprRating": "4.493",
+    "duprRating": "4.485",
     "duprNumericId": 5533431819
   },
   {
@@ -16563,7 +16563,7 @@
     "firstName": "Zachary",
     "lastName": "Lessner",
     "dupr": "3OG5P2",
-    "duprRating": "4.576",
+    "duprRating": "4.627",
     "duprNumericId": 7236449682
   },
   {
@@ -16611,7 +16611,7 @@
     "firstName": "Nick",
     "lastName": "Meale",
     "dupr": "3Y509G",
-    "duprRating": "5.260",
+    "duprRating": "5.460",
     "duprNumericId": 5896599337
   },
   {
@@ -16675,7 +16675,7 @@
     "firstName": "Elysia",
     "lastName": "Price",
     "dupr": "894KN7",
-    "duprRating": "4.277",
+    "duprRating": "4.357",
     "duprNumericId": 5629310606
   },
   {
@@ -16811,7 +16811,7 @@
     "firstName": "Chris",
     "lastName": "Tabeling",
     "dupr": "3P472M",
-    "duprRating": "4.776",
+    "duprRating": "4.855",
     "duprNumericId": 6376151969
   },
   {
@@ -16851,7 +16851,7 @@
     "firstName": "Alexander",
     "lastName": "Tong",
     "dupr": "3OOP72",
-    "duprRating": "5.173",
+    "duprRating": "5.218",
     "duprNumericId": 6673696543
   },
   {
@@ -16891,7 +16891,7 @@
     "firstName": "Austin",
     "lastName": "Williams",
     "dupr": "G5XWQG",
-    "duprRating": "4.583",
+    "duprRating": "4.584",
     "duprNumericId": 8342298638
   },
   {
@@ -17115,7 +17115,7 @@
     "firstName": "Nate",
     "lastName": "Brochin",
     "dupr": "X2KLD4",
-    "duprRating": "3.647",
+    "duprRating": "3.640",
     "duprNumericId": 8448539795
   },
   {
@@ -17235,7 +17235,7 @@
     "firstName": "Johnson",
     "lastName": "Chang",
     "dupr": "674XKD",
-    "duprRating": "3.988",
+    "duprRating": "4.013",
     "duprNumericId": 8241888001
   },
   {
@@ -17979,7 +17979,7 @@
     "firstName": "Mark",
     "lastName": "Lederman",
     "dupr": "WXXQWL",
-    "duprRating": "3.597",
+    "duprRating": "3.600",
     "duprNumericId": 4822780912
   },
   {
@@ -18123,7 +18123,7 @@
     "firstName": "Roberto",
     "lastName": "Marcillo",
     "dupr": "8GYZ4D",
-    "duprRating": "3.867",
+    "duprRating": "3.877",
     "duprNumericId": 5311493320
   },
   {
@@ -18571,7 +18571,7 @@
     "firstName": "Peter",
     "lastName": "Shen",
     "dupr": "YGWYQG",
-    "duprRating": "3.762",
+    "duprRating": "3.765",
     "duprNumericId": 6077080860
   },
   {
@@ -18635,7 +18635,7 @@
     "firstName": "Aaron",
     "lastName": "Smith",
     "dupr": "W6KXKL",
-    "duprRating": "3.575",
+    "duprRating": "3.650",
     "duprNumericId": 8173019369
   },
   {
@@ -18771,7 +18771,7 @@
     "firstName": "Robert",
     "lastName": "Toledo",
     "dupr": "3YKKOK",
-    "duprRating": "3.936",
+    "duprRating": "3.913",
     "duprNumericId": 4438225184
   },
   {
@@ -18867,7 +18867,7 @@
     "firstName": "Ronald",
     "lastName": "Wong",
     "dupr": "9PQ0LK",
-    "duprRating": "2.983",
+    "duprRating": "3.104",
     "duprNumericId": 4343586407
   },
   {
@@ -18944,8 +18944,8 @@
   },
   {
     "playerId": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
-    "firstName": "yang",
-    "lastName": "ruan",
+    "firstName": "Yang",
+    "lastName": "Ruan",
     "dupr": "JZ2ZJD",
     "duprRating": "3.980",
     "duprNumericId": 5248995127
@@ -18987,7 +18987,7 @@
     "firstName": "Leo",
     "lastName": "Wong",
     "dupr": "G576KD",
-    "duprRating": "3.315",
+    "duprRating": "3.392",
     "duprNumericId": 6111890100
   },
   {
@@ -19005,5 +19005,292 @@
     "dupr": "V7OJEE",
     "duprRating": "3.299",
     "duprNumericId": 8254503697
+  },
+  {
+    "playerId": "c929f42d-6fd4-4034-888e-ad456cda3063",
+    "firstName": "Kathleen",
+    "lastName": "Dougherty",
+    "dupr": "8D0YRL",
+    "duprRating": null
+  },
+  {
+    "playerId": "462f3a15-22ed-4fa3-b698-78678a5d6966",
+    "firstName": "Natasha",
+    "lastName": "de Carvalho",
+    "dupr": "84GQDM",
+    "duprRating": null
+  },
+  {
+    "playerId": "476c99a2-15e5-4e99-8471-7c2b6394faa3",
+    "firstName": "Hal",
+    "lastName": "Golden",
+    "dupr": "8EKGE8",
+    "duprRating": null
+  },
+  {
+    "playerId": "6412a5fc-5f1f-4dcf-a1b9-c1838eeabec9",
+    "firstName": "Karen",
+    "lastName": "Moliver",
+    "dupr": "89KZGK",
+    "duprRating": null
+  },
+  {
+    "playerId": "f160fd0d-11cd-4dd5-865b-0c92d2583949",
+    "firstName": "Vineet",
+    "lastName": "Agarwala",
+    "dupr": "EVNJ4O",
+    "duprRating": null
+  },
+  {
+    "playerId": "f59307d0-0495-421c-8cee-28c2e2b56bcf",
+    "firstName": "Brian",
+    "lastName": "Criscuolo",
+    "dupr": "X0PPM2",
+    "duprRating": null
+  },
+  {
+    "playerId": "42dcd48a-d88f-422d-8a1e-8ea74ba52440",
+    "firstName": "Emily",
+    "lastName": "Fowler",
+    "dupr": "VXVN67",
+    "duprRating": null
+  },
+  {
+    "playerId": "ac299e7b-727b-439c-9f99-1bb4b1a5a6a9",
+    "firstName": "Rodney",
+    "lastName": "Godwin",
+    "dupr": "XOOD05",
+    "duprRating": null
+  },
+  {
+    "playerId": "5dd85d77-40ad-476d-a1a4-90dfcfed61a9",
+    "firstName": "Giang",
+    "lastName": "Nguyen",
+    "dupr": "5EZGM0",
+    "duprRating": null
+  },
+  {
+    "playerId": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
+    "firstName": "Steve",
+    "lastName": "Nuguid",
+    "dupr": "QPMP2D",
+    "duprRating": null
+  },
+  {
+    "playerId": "9b11aeff-377e-48f3-9770-14388ac96b68",
+    "firstName": "Luan",
+    "lastName": "Vo",
+    "dupr": "944LKJ",
+    "duprRating": null
+  },
+  {
+    "playerId": "fcedde03-815a-4405-9065-c0a473654b8c",
+    "firstName": "Darren",
+    "lastName": "Zheng",
+    "dupr": "Z4QDPP",
+    "duprRating": null
+  },
+  {
+    "playerId": "5481b1c1-9e1f-4a36-8674-9677bed7a8cb",
+    "firstName": "Jonathan",
+    "lastName": "Capeci",
+    "dupr": "6ZZM0Q",
+    "duprRating": null
+  },
+  {
+    "playerId": "9a0d5103-b8d7-4b5b-a890-59a6ec5fb115",
+    "firstName": "Wen",
+    "lastName": "Chang",
+    "dupr": "6K47WQ",
+    "duprRating": null
+  },
+  {
+    "playerId": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
+    "firstName": "Matthew",
+    "lastName": "Colasanto",
+    "dupr": "P5VJQX",
+    "duprRating": null
+  },
+  {
+    "playerId": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
+    "firstName": "Maryann",
+    "lastName": "Colella",
+    "dupr": "3ZPLVL",
+    "duprRating": null
+  },
+  {
+    "playerId": "6df1fd0f-6b38-4538-a53b-c4d141e604bc",
+    "firstName": "Nancy",
+    "lastName": "Hornback",
+    "dupr": "JMEXP4",
+    "duprRating": null
+  },
+  {
+    "playerId": "edaf31af-06d9-4f4c-a073-0876969e3cea",
+    "firstName": "Eileen",
+    "lastName": "Killeen",
+    "dupr": "1NMGD6",
+    "duprRating": null
+  },
+  {
+    "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84",
+    "firstName": "YaYuan",
+    "lastName": "Lien",
+    "dupr": "PKLQZX",
+    "duprRating": null
+  },
+  {
+    "playerId": "cb1a0db3-dc7b-4516-9269-3ccb10e4febf",
+    "firstName": "Kenny",
+    "lastName": "Mayerhofer",
+    "dupr": "4LMD4M",
+    "duprRating": null
+  },
+  {
+    "playerId": "6f4df2db-2114-4c90-b889-b969317403c7",
+    "firstName": "Scott",
+    "lastName": "Rothschild",
+    "dupr": "PWZZ2M",
+    "duprRating": null
+  },
+  {
+    "playerId": "2f212831-0629-494e-90b0-d16fc59fc666",
+    "firstName": "Dan",
+    "lastName": "Sweetman",
+    "dupr": "562XLL",
+    "duprRating": null
+  },
+  {
+    "playerId": "4be24db4-ce32-40fa-bd9d-1900b731a602",
+    "firstName": "Qiao",
+    "lastName": "Yang",
+    "dupr": "EVNKDO",
+    "duprRating": null
+  },
+  {
+    "playerId": "e5f01707-981e-4780-8468-116c5e15f873",
+    "firstName": "Kurt",
+    "lastName": "Henson",
+    "dupr": "X29MN4",
+    "duprRating": null
+  },
+  {
+    "playerId": "14c024ce-7dc7-4c38-8c17-3467871220b6",
+    "firstName": "Charley",
+    "lastName": "Ma",
+    "dupr": "OZE2D2",
+    "duprRating": null
+  },
+  {
+    "playerId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
+    "firstName": "Eric",
+    "lastName": "Padernilla",
+    "dupr": "V24ZRJ",
+    "duprRating": null
+  },
+  {
+    "playerId": "1ea6675e-89bb-4917-bcb4-0c02a3be8416",
+    "firstName": "Parth",
+    "lastName": "Patel",
+    "dupr": "3XZKOR",
+    "duprRating": null
+  },
+  {
+    "playerId": "7a065026-7a09-4cbc-a998-e65ae5542136",
+    "firstName": "Lady",
+    "lastName": "Alvarado",
+    "dupr": "YG4N9G",
+    "duprRating": null
+  },
+  {
+    "playerId": "8deca1b3-e530-4424-b4e2-f220bb3beacd",
+    "firstName": "VINOTH",
+    "lastName": "Baburao Venkatakrishnan",
+    "dupr": "0ZKR7Q",
+    "duprRating": null
+  },
+  {
+    "playerId": "4a7ff0ee-289b-4ab2-833f-8af1a7f34353",
+    "firstName": "Diane",
+    "lastName": "Fischetti",
+    "dupr": "16EY4E",
+    "duprRating": null
+  },
+  {
+    "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
+    "firstName": "Varun",
+    "lastName": "Kabaria",
+    "dupr": "L2JOD6",
+    "duprRating": null
+  },
+  {
+    "playerId": "9e7f633d-5cea-4462-b486-61612f133de4",
+    "firstName": "Jennifer",
+    "lastName": "Kline",
+    "dupr": "0ZWEEG",
+    "duprRating": null
+  },
+  {
+    "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67",
+    "firstName": "Prashanth",
+    "lastName": "Koshy",
+    "dupr": "306LVQ",
+    "duprRating": null
+  },
+  {
+    "playerId": "82beb69d-fdf5-4102-a1f8-612ce0049782",
+    "firstName": "Utkarsh",
+    "lastName": "Patel",
+    "dupr": "PKZE4M",
+    "duprRating": null
+  },
+  {
+    "playerId": "9ea48ad1-b5f4-4a2c-a687-400dae5fe86b",
+    "firstName": "Kristina",
+    "lastName": "Salomia",
+    "dupr": "2Q7WG9",
+    "duprRating": null
+  },
+  {
+    "playerId": "c8d0efa3-d55c-4c90-a7f1-181f045702d0",
+    "firstName": "Corie",
+    "lastName": "Stone",
+    "dupr": "X2ZJ75",
+    "duprRating": null
+  },
+  {
+    "playerId": "589a4aec-d9fc-48b1-8914-58b7b6d4d7e5",
+    "firstName": "Christy",
+    "lastName": "Zhang",
+    "dupr": "57YOJL",
+    "duprRating": null
+  },
+  {
+    "playerId": "9c41a810-1be6-4e08-8a29-51558c29cb86",
+    "firstName": "Dylan",
+    "lastName": "Ashbach",
+    "dupr": "RDW6DE",
+    "duprRating": null
+  },
+  {
+    "playerId": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f",
+    "firstName": "Nicholas",
+    "lastName": "Lugo",
+    "dupr": "EG5VGM",
+    "duprRating": null
+  },
+  {
+    "playerId": "b09b11f8-dd86-4252-88d0-f33fb4496237",
+    "firstName": "Gioia",
+    "lastName": "Pisano",
+    "dupr": "3ZPVVL",
+    "duprRating": null
+  },
+  {
+    "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
+    "firstName": "Stephane",
+    "lastName": "Sabathiet",
+    "dupr": "V750ME",
+    "duprRating": null
   }
 ]
