@@ -7,6 +7,13 @@ const LOCAL_DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
 const TRAVEL_REGION_ID = 'ffc383dc-fd43-4afa-9310-920c4b0545f2';
 const TRAVEL_DEFAULT_DIVISION_ID = 'b7ca04e4-a9b8-4c10-8054-e58329d8dc49';
 
+// Serialize to JSON using literal UTF-8 characters rather than \uXXXX escapes.
+function jsonStringify(data) {
+  return JSON.stringify(data, null, 2).replace(/\\u([0-9a-f]{4})/gi, (_, code) =>
+    String.fromCharCode(parseInt(code, 16))
+  );
+}
+
 function slugForDivision(divisionId) {
   return divisionId.slice(0, 8);
 }
@@ -215,7 +222,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  fs.writeFileSync(path.join(dataDir, divisionsFile), JSON.stringify(allDivisions, null, 2));
+  fs.writeFileSync(path.join(dataDir, divisionsFile), jsonStringify(allDivisions));
   console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
@@ -234,11 +241,11 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
       const divDataDir = path.join(dataDir, div.slug);
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
-      fs.writeFileSync(path.join(divDataDir, 'matchups.json'), JSON.stringify(slimMatchups(matchupsRaw), null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'matchups.json'), jsonStringify(slimMatchups(matchupsRaw)));
 
       const slimmed = slimPlayers(players);
-      fs.writeFileSync(path.join(divDataDir, 'players.json'), JSON.stringify(slimmed, null, 2));
-      fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), JSON.stringify(slimMatchupDetails(matchupDetails), null, 2));
+      fs.writeFileSync(path.join(divDataDir, 'players.json'), jsonStringify(slimmed));
+      fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), jsonStringify(slimMatchupDetails(matchupDetails)));
 
       // Accumulate unique players for the flat players.json (used by the DUPR workflow).
       for (const p of (players.$values || [])) {
@@ -285,7 +292,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
     const merged = Object.values(existingMap);
     const globalDataDir = path.join(__dirname, '..', 'data');
     if (!fs.existsSync(globalDataDir)) fs.mkdirSync(globalDataDir, { recursive: true });
-    fs.writeFileSync(globalPlayersFile, JSON.stringify(merged, null, 2));
+    fs.writeFileSync(globalPlayersFile, jsonStringify(merged));
     console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
