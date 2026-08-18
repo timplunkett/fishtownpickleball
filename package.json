@@ -8,6 +8,7 @@
     "build": "node _cpl/run-pipeline.js",
     "build:local": "node _cpl/run-pipeline.js local",
     "build:travel": "node _cpl/run-pipeline.js travel",
+    "build:due": "node _cpl/run-pipeline.js --refresh-mode",
     "compile": "node _cpl/compile.js",
     "compile:local": "node _cpl/compile.js local",
     "compile:travel": "node _cpl/compile.js travel",
