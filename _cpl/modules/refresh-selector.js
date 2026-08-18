@@ -154,14 +154,16 @@ function selectDueDivisionSlugs(league, options) {
     });
   }
 
-  console.log(`\n${league.toUpperCase()} schedule-derived refresh summary (timezone: ${options.timezone}):`);
+  console.log(`\n${league.toUpperCase()} due-refresh summary`);
+  console.log(`  Timezone: ${options.timezone}`);
+  console.log(`  Divisions evaluated: ${rows.length}`);
   for (const row of rows) {
-    console.log(
-      `  ${row.selected ? '[SELECT]' : '[SKIP]  '} ${row.slug} (${row.name}) ` +
-      `weekday=${row.primaryWeekday} counts=${row.weekdayCounts} reason=${row.reason}`,
-    );
+    console.log(`\n  ${row.selected ? '✓ SELECT' : '• SKIP'} ${row.name} (${row.slug})`);
+    console.log(`    Primary day: ${row.primaryWeekday}`);
+    console.log(`    Day counts:  ${row.weekdayCounts}`);
+    console.log(`    Reason:      ${row.reason}`);
   }
-  console.log(`  Selected ${selected.length} / ${rows.length} divisions.\n`);
+  console.log(`\n  Selected divisions: ${selected.length} / ${rows.length}\n`);
 
   return selected;
 }

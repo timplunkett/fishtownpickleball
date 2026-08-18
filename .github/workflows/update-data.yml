@@ -41,7 +41,11 @@ jobs:
             REFRESH_MODE="due"
           fi
           echo "Running pipeline with refresh mode: ${REFRESH_MODE}"
-          node _cpl/run-pipeline.js --refresh-mode="${REFRESH_MODE}"
+          if [ "${REFRESH_MODE}" = "due" ]; then
+            node _cpl/run-pipeline.js --refresh-mode
+          else
+            node _cpl/run-pipeline.js
+          fi
 
       - name: Commit and Push changes
         run: |

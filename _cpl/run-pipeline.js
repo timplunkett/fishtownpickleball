@@ -25,9 +25,8 @@ function parseArgs(argv) {
       out.primaryOnly = true;
     } else if (arg.startsWith('--league=')) {
       out.league = arg.split('=')[1];
-    } else if (arg.startsWith('--refresh-mode=')) {
-      const value = arg.split('=')[1];
-      if (value === 'due' || value === 'full') out.refreshMode = value;
+    } else if (arg === '--refresh-mode') {
+      out.refreshMode = 'due';
     } else if (arg.startsWith('--timezone=')) {
       out.timezone = arg.split('=')[1] || DEFAULT_TIMEZONE;
     } else if (arg.startsWith('--results-window-hours=')) {
