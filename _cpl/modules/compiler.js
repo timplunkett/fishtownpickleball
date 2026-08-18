@@ -827,7 +827,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   console.log(`  ✓ data.js written to ${outPath}`);
 }
 
-async function compileDashboardHtml(league = 'local', { primaryOnly = false } = {}) {
+async function compileDashboardHtml(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
   console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
   const dataSubdir = league === 'travel' ? 'data-travel' : 'data-local';
   const dataDir = path.join(__dirname, '..', dataSubdir);
@@ -869,7 +869,15 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false } = 
  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
   console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${globalVar} exposed).`);
 
-  for (const div of (primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions)) {
+  const divisionSlugSet = Array.isArray(divisionSlugs) ? new Set(divisionSlugs) : null;
+  const divisionsToCompile = allDivisions.filter((div) => {
+   if (primaryOnly && !div.isDefault) return false;
+   if (divisionSlugSet && !divisionSlugSet.has(div.slug)) return false;
+   return true;
+  });
+  console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
+
+  for (const div of divisionsToCompile) {
     const divDataDir = path.join(dataDir, div.slug);
     if (!fs.existsSync(divDataDir)) {
       const label = div.clubName ? `${div.clubName} / ` : '';

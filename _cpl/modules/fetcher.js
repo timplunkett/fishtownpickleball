@@ -159,7 +159,7 @@ async function fetchDivisionData(apiBase, divisionId) {
   return { matchupsRaw, players, matchupDetails: individualDetails };
 }
 
-async function downloadLatestApiData(league = 'local', { primaryOnly = false } = {}) {
+async function downloadLatestApiData(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
   console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
 
   const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
@@ -226,7 +226,13 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false } =
   console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
-  const divisionsToFetch = primaryOnly ? allDivisions.filter(d => d.isDefault) : allDivisions;
+  const divisionSlugSet = Array.isArray(divisionSlugs) ? new Set(divisionSlugs) : null;
+  const divisionsToFetch = allDivisions.filter((div) => {
+    if (primaryOnly && !div.isDefault) return false;
+    if (divisionSlugSet && !divisionSlugSet.has(div.slug)) return false;
+    return true;
+  });
+  console.log(`Preparing to fetch ${divisionsToFetch.length} / ${allDivisions.length} divisions.`);
   const allPlayersFlat = [];
   const seenPlayerIds = new Set();
   for (const div of divisionsToFetch) {

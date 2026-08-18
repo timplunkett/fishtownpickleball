@@ -2,11 +2,16 @@ name: Weekly Data Update
 
 on:
   schedule:
-    # Wednesday at 11:00 PM Eastern (Thursday 3:00 AM UTC)
-    - cron: '0 3 * * 4'
-    # Thursday at 11:00 AM Eastern (Thursday 3:00 PM UTC)
-    - cron: '0 15 * * 4'
+    # Frequent due-only refreshes (every 6 hours).
+    - cron: '0 */6 * * *'
+    # Weekly full safety refresh (Sunday 9:00 AM UTC).
+    - cron: '0 9 * * 0'
   workflow_dispatch:
+    inputs:
+      refresh_mode:
+        description: "Refresh mode: due (division-gated) or full (all divisions)"
+        required: false
+        default: "full"
 
 permissions:
   contents: write
@@ -24,7 +29,19 @@ jobs:
           node-version: 20
 
       - name: Execute Core CPL Engine Pipeline
-        run: node _cpl/run-pipeline.js
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_REFRESH_MODE: ${{ github.event.inputs.refresh_mode }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            REFRESH_MODE="${MANUAL_REFRESH_MODE:-full}"
+          elif [ "${EVENT_SCHEDULE}" = "0 9 * * 0" ]; then
+            REFRESH_MODE="full"
+          else
+            REFRESH_MODE="due"
+          fi
+          echo "Running pipeline with refresh mode: ${REFRESH_MODE}"
+          node _cpl/run-pipeline.js --refresh-mode="${REFRESH_MODE}"
 
       - name: Commit and Push changes
         run: |
