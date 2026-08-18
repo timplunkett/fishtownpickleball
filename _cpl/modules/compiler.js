@@ -434,6 +434,15 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const duprByPid = loadDuprByPid();
   const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid);
 
+  const playoffMatchupsPath = path.join(divDataDir, "playoffMatchups.json");
+  const playoffMatchupDetailsPath = path.join(divDataDir, "playoffMatchupDetails.json");
+  const playoffFeed = fs.existsSync(playoffMatchupsPath)
+    ? JSON.parse(fs.readFileSync(playoffMatchupsPath, "utf8"))
+    : null;
+  const playoffMatchupDetailsJson = fs.existsSync(playoffMatchupDetailsPath)
+    ? JSON.parse(fs.readFileSync(playoffMatchupDetailsPath, "utf8"))
+    : [];
+
   const matchups = (feed.$values || firstValues(feed) || []);
   const completed = matchups.filter(m => m.endResult);
   console.log(`Processing stats for ${completed.length} completed matches.`);
@@ -515,10 +524,11 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       divisionMeta = { ...(divisionMeta || {}), podCount: nextPod - 1 };
     }
     const DATA = {
-      players: playerArr, teams: teamArr, duos: [], matches,
+      players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       meta: {
         matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
+        hasPlayoffs: false,
         ...(divisionMeta || {}),
       },
     };
@@ -814,12 +824,51 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const weeks = [...weeksSeen].sort((a, b) => a - b);
   const weekLabel = weeks.length ? (weeks[0] === weeks[weeks.length - 1] ? `${weeks[0]}` : `${weeks[0]}-${weeks[weeks.length - 1]}`) : "";
 
+  // Build the playoffs list from playoff matchups if available.
+  const playoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
+  const playoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
+  const playoffs = [];
+  for (const m of playoffMatchups) {
+    const d = playoffDetailById.get(m.matchupId);
+    const complete = !!m.endResult;
+    const rec = {
+      result: m.endResult || null, round: m.weekNumber, home: m.homeName, away: m.awayName,
+      time: m.scheduledTime || null, complete,
+      homeSeed: m.homePodRanking ?? null, awaySeed: m.awayPodRanking ?? null,
+    };
+    if (complete && d) {
+      let hgw = 0, agw = 0;
+      const glist = [];
+      for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
+        const homeWin = g.homeScore > g.awayScore;
+        homeWin ? hgw++ : agw++;
+        glist.push({
+          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        });
+      }
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
+    } else if (d) {
+      const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
+        .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
+        .map((g) => ({
+          t: g.matchType,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        }));
+      if (pendingGames.length) Object.assign(rec, { games: pendingGames });
+    }
+    playoffs.push(rec);
+  }
+
   const DATA = {
-    players: playerArr, teams: teamArr, duos, matches,
+    players: playerArr, teams: teamArr, duos, matches, playoffs,
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
       ratingHistoryWeeks, divisionSlug: slug,
+      hasPlayoffs: playoffs.length > 0,
       ...(divisionMeta || {}),
     },
   };

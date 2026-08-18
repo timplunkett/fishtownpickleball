@@ -1588,6 +1588,29 @@
       "ranking": 69
     },
     {
+      "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028",
+      "firstName": "Simon ",
+      "lastName": "George ",
+      "gender": "Male",
+      "dupr": "EGRLDV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 70
+    },
+    {
       "playerId": "51bdcef1-a7ae-49f0-a18a-be681d55cd52",
       "firstName": "Tim",
       "lastName": "Jordan",
@@ -1608,7 +1631,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 70
+      "ranking": 71
     },
     {
       "playerId": "9b1a8682-541b-40fa-9353-882b07a6b405",
@@ -1631,7 +1654,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 71
+      "ranking": 72
     }
   ]
 }

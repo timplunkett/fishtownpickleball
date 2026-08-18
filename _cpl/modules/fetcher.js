@@ -28,6 +28,12 @@ const MATCHUP_KEEP = new Set([
   'endResult', 'scheduledTime', 'homeName', 'awayName',
 ]);
 
+const PLAYOFF_MATCHUP_KEEP = new Set([
+  'matchupId', 'weekNumber', 'homeTeamId', 'awayTeamId', 'homePoints', 'awayPoints',
+  'endResult', 'scheduledTime', 'homeName', 'awayName',
+  'homePodRanking', 'awayPodRanking', 'playoffGame',
+]);
+
 const PLAYER_KEEP = new Set([
   'playerId', 'firstName', 'lastName', 'gender', 'dupr', 'isCaptain', 'isSub', 'teamId', 'teamName',
   'wins', 'losses', 'gamesPlayed', 'pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses',
@@ -66,6 +72,12 @@ function slimMatchups(raw) {
   const arr = extractValues(raw);
   if (!Array.isArray(arr)) return raw;
   return { $values: arr.map(m => pickKeys(m, MATCHUP_KEEP)) };
+}
+
+function slimPlayoffMatchups(raw) {
+  const arr = extractValues(raw);
+  if (!Array.isArray(arr)) return raw;
+  return { $values: arr.map(m => pickKeys(m, PLAYOFF_MATCHUP_KEEP)) };
 }
 
 function slimPlayers(raw) {
@@ -129,14 +141,17 @@ async function checkResponse(res, label) {
 
 async function fetchDivisionData(apiBase, divisionId) {
   const divBase = `${apiBase}/divisions/${divisionId}`;
-  const [matchupsRes, playersRes] = await Promise.all([
+  const [matchupsRes, playersRes, playoffMatchupsRes] = await Promise.all([
     fetch(`${divBase}/matchups`),
     fetch(`${divBase}/players`),
+    fetch(`${divBase}/matchups?playoffs=true`),
   ]);
   await checkResponse(matchupsRes, `${divBase}/matchups`);
   await checkResponse(playersRes, `${divBase}/players`);
+  await checkResponse(playoffMatchupsRes, `${divBase}/matchups?playoffs=true`);
   const matchupsRaw = await matchupsRes.json();
   const players = await playersRes.json();
+  const playoffMatchupsRaw = await playoffMatchupsRes.json();
 
   const matchupsArray = extractValues(matchupsRaw);
   if (!Array.isArray(matchupsArray)) {
@@ -157,7 +172,24 @@ async function fetchDivisionData(apiBase, divisionId) {
     })
   );
 
-  return { matchupsRaw, players, matchupDetails: individualDetails };
+  const playoffMatchupsArray = extractValues(playoffMatchupsRaw);
+  const playoffIndividualDetails = Array.isArray(playoffMatchupsArray) && playoffMatchupsArray.length
+    ? await Promise.all(
+        playoffMatchupsArray.map(async (matchup) => {
+          try {
+            const detailRes = await fetch(`${divBase}/matchups/${matchup.matchupId}`);
+            await checkResponse(detailRes, `${divBase}/matchups/${matchup.matchupId}`);
+            const detailData = await detailRes.json();
+            return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
+          } catch (err) {
+            console.error(`⚠️ Failed fetching playoff matchup ${matchup.matchupId}:`, err.message);
+            return { matchupId: matchup.matchupId, details: null };
+          }
+        })
+      )
+    : [];
+
+  return { matchupsRaw, players, matchupDetails: individualDetails, playoffMatchupsRaw, playoffMatchupDetails: playoffIndividualDetails };
 }
 
 async function downloadLatestApiData(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
@@ -234,19 +266,25 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
     const label = formatDivisionLabel(div);
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
-      const { matchupsRaw, players, matchupDetails } = await fetchDivisionData(apiBase, div.divisionId);
+      const { matchupsRaw, players, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(apiBase, div.divisionId);
 
       const matchupsArray = extractValues(matchupsRaw);
       console.log(`  Found ${matchupsArray.length} matchups.`);
+      const playoffMatchupsArray = extractValues(playoffMatchupsRaw);
+      if (playoffMatchupsArray && playoffMatchupsArray.length) {
+        console.log(`  Found ${playoffMatchupsArray.length} playoff matchups.`);
+      }
 
       const divDataDir = path.join(dataDir, div.slug);
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
       fs.writeFileSync(path.join(divDataDir, 'matchups.json'), jsonStringify(slimMatchups(matchupsRaw)));
+      fs.writeFileSync(path.join(divDataDir, 'playoffMatchups.json'), jsonStringify(slimPlayoffMatchups(playoffMatchupsRaw)));
 
       const slimmed = slimPlayers(players);
       fs.writeFileSync(path.join(divDataDir, 'players.json'), jsonStringify(slimmed));
       fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), jsonStringify(slimMatchupDetails(matchupDetails)));
+      fs.writeFileSync(path.join(divDataDir, 'playoffMatchupDetails.json'), jsonStringify(slimMatchupDetails(playoffMatchupDetails)));
 
       // Accumulate unique players for the flat players.json (used by the DUPR workflow).
       for (const p of (players.$values || [])) {
