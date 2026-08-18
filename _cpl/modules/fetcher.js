@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { extractValues, filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
 
 const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
 const TRAVEL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api';
@@ -62,7 +63,7 @@ function pickKeys(obj, keepSet) {
 }
 
 function slimMatchups(raw) {
-  const arr = raw.$values || (raw.matchups && raw.matchups.$values) || raw;
+  const arr = extractValues(raw);
   if (!Array.isArray(arr)) return raw;
   return { $values: arr.map(m => pickKeys(m, MATCHUP_KEEP)) };
 }
@@ -137,7 +138,7 @@ async function fetchDivisionData(apiBase, divisionId) {
   const matchupsRaw = await matchupsRes.json();
   const players = await playersRes.json();
 
-  const matchupsArray = matchupsRaw.$values || (matchupsRaw.matchups && matchupsRaw.matchups.$values) || matchupsRaw;
+  const matchupsArray = extractValues(matchupsRaw);
   if (!Array.isArray(matchupsArray)) {
     throw new Error(`Matchups data invalid for division ${divisionId}.`);
   }
@@ -163,8 +164,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
 
   const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
-  const dataSubdir = league === 'travel' ? 'data-travel' : 'data-local';
-  const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
+  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
 
   // Fetch all clubs/divisions to build the division manifest.
   console.log('Fetching clubs/divisions manifest...');
@@ -226,22 +226,17 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
-  const divisionSlugSet = Array.isArray(divisionSlugs) ? new Set(divisionSlugs) : null;
-  const divisionsToFetch = allDivisions.filter((div) => {
-    if (primaryOnly && !div.isDefault) return false;
-    if (divisionSlugSet && !divisionSlugSet.has(div.slug)) return false;
-    return true;
-  });
+  const divisionsToFetch = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
   console.log(`Preparing to fetch ${divisionsToFetch.length} / ${allDivisions.length} divisions.`);
   const allPlayersFlat = [];
   const seenPlayerIds = new Set();
   for (const div of divisionsToFetch) {
-    const label = div.clubName ? `${div.clubName} / ` : '';
+    const label = formatDivisionLabel(div);
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
       const { matchupsRaw, players, matchupDetails } = await fetchDivisionData(apiBase, div.divisionId);
 
-      const matchupsArray = matchupsRaw.$values || (matchupsRaw.matchups && matchupsRaw.matchups.$values) || matchupsRaw;
+      const matchupsArray = extractValues(matchupsRaw);
       console.log(`  Found ${matchupsArray.length} matchups.`);
 
       const divDataDir = path.join(dataDir, div.slug);

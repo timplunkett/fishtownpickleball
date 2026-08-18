@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
 
 const round1 = n => Math.round(n * 10) / 10;
 const ratio = (wins, losses) => {
@@ -829,9 +830,8 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
 
 async function compileDashboardHtml(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
   console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
-  const dataSubdir = league === 'travel' ? 'data-travel' : 'data-local';
+  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
   const dataDir = path.join(__dirname, '..', dataSubdir);
-  const divisionsFile = league === 'travel' ? 'divisions-travel.json' : 'divisions.json';
   const cplDir = path.join(__dirname, '../../cpl', league);
 
   const divisionsPath = path.join(dataDir, divisionsFile);
@@ -869,22 +869,17 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
   console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${globalVar} exposed).`);
 
-  const divisionSlugSet = Array.isArray(divisionSlugs) ? new Set(divisionSlugs) : null;
-  const divisionsToCompile = allDivisions.filter((div) => {
-   if (primaryOnly && !div.isDefault) return false;
-   if (divisionSlugSet && !divisionSlugSet.has(div.slug)) return false;
-   return true;
-  });
+  const divisionsToCompile = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
 
   for (const div of divisionsToCompile) {
     const divDataDir = path.join(dataDir, div.slug);
     if (!fs.existsSync(divDataDir)) {
-      const label = div.clubName ? `${div.clubName} / ` : '';
-      console.warn(`  ⚠️ No data dir for ${div.slug} (${label}${div.divisionName}), skipping.`);
-      continue;
+     const label = formatDivisionLabel(div);
+     console.warn(`  ⚠️ No data dir for ${div.slug} (${label}${div.divisionName}), skipping.`);
+     continue;
     }
-    const label = div.clubName ? `${div.clubName} / ` : '';
+    const label = formatDivisionLabel(div);
     console.log(`\nCompiling: ${label}${div.divisionName} (${div.slug})`);
     try {
       const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
@@ -906,8 +901,8 @@ function buildPlayerIndex() {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
   const leagueConfigs = [
-    { league: 'local', dataSubdir: 'data-local', divisionsFile: 'divisions.json' },
-    { league: 'travel', dataSubdir: 'data-travel', divisionsFile: 'divisions-travel.json' },
+    { league: 'local', ...getLeagueDataConfig('local') },
+    { league: 'travel', ...getLeagueDataConfig('travel') },
   ];
 
   // Build a playerId → { dupr } lookup from global_players.json for canonical player deduplication.
