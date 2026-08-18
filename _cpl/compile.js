@@ -14,9 +14,9 @@ async function compile(league) {
 }
 
 const arg = process.argv[2];
-if (arg === '--league=local' || arg === 'local') {
+if (arg === 'local') {
   compile('local').then(() => buildPlayerIndex());
-} else if (arg === '--league=travel' || arg === 'travel') {
+} else if (arg === 'travel') {
   compile('travel').then(() => buildPlayerIndex());
 } else {
   // Default: compile both leagues sequentially.

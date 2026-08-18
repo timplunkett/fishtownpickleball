@@ -23,8 +23,6 @@ function parseArgs(argv) {
       out.league = arg;
     } else if (arg === '--primary-only') {
       out.primaryOnly = true;
-    } else if (arg.startsWith('--league=')) {
-      out.league = arg.split('=')[1];
     } else if (arg === '--refresh-mode') {
       out.refreshMode = 'due';
     } else if (arg.startsWith('--timezone=')) {
