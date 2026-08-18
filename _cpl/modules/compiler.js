@@ -873,13 +873,12 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
 
   for (const div of divisionsToCompile) {
+    const label = formatDivisionLabel(div);
     const divDataDir = path.join(dataDir, div.slug);
     if (!fs.existsSync(divDataDir)) {
-     const label = formatDivisionLabel(div);
-     console.warn(`  ⚠️ No data dir for ${div.slug} (${label}${div.divisionName}), skipping.`);
-     continue;
+      console.warn(`  ⚠️ No data dir for ${div.slug} (${label}${div.divisionName}), skipping.`);
+      continue;
     }
-    const label = formatDivisionLabel(div);
     console.log(`\nCompiling: ${label}${div.divisionName} (${div.slug})`);
     try {
       const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
