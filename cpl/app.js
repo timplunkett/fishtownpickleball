@@ -72,6 +72,7 @@ const elements = {
   modalHead: getRequiredElement('mhead'),
   overlay: getRequiredElement('overlay'),
   playerCount: getRequiredElement('plabel'),
+  playoffsHost: getRequiredElement('playoffs-host'),
   pod: getRequiredElement('pod'),
   search: getRequiredElement('search'),
   subhead: getRequiredElement('sub'),
@@ -1542,6 +1543,136 @@ function renderPendingTeamMatchBlock(match, teamName) {
   `;
 }
 
+function renderPlayoffs() {
+  const playoffs = DATA.playoffs || [];
+  const hasPlayoffs = DATA.meta && DATA.meta.hasPlayoffs;
+
+  if (!hasPlayoffs || !playoffs.length) {
+    elements.playoffsHost.hidden = true;
+    return;
+  }
+
+  // Group by round (weekNumber stored as 'round' in the compiled data).
+  const byRound = new Map();
+  for (const m of playoffs) {
+    const r = m.round || 1;
+    if (!byRound.has(r)) byRound.set(r, []);
+    byRound.get(r).push(m);
+  }
+  const rounds = [...byRound.keys()].sort((a, b) => a - b);
+
+  const renderPlayoffMatch = (m) => {
+    const complete = m.complete;
+    const homeSeedLabel = m.homeSeed != null ? `<span class="pseed">#${m.homeSeed}</span> ` : '';
+    const awaySeedLabel = m.awaySeed != null ? `<span class="pseed">#${m.awaySeed}</span> ` : '';
+    const scheduledTime = formatMatchDate(m.time);
+
+    if (!complete) {
+      const gameCount = (m.games || []).length;
+      if (!gameCount) {
+        return `
+          <div class="wk-block pending-match">
+            <div class="wk-head">
+              <span>${homeSeedLabel}${escapeHtml(m.home)} vs ${awaySeedLabel}${escapeHtml(m.away)}</span>
+              <span class="mut">${scheduledTime || 'TBD'}</span>
+            </div>
+            <div class="match-summary">Lineups have not been posted yet.</div>
+          </div>`;
+      }
+      let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
+      const gameRows = (m.games || []).map((game) => {
+        const expectedMargin = computeExpectedOutcome(game.h[0], game.h[1], game.a[0], game.a[1]);
+        const projection = describeProjectedOutcome(expectedMargin);
+        const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+        if (projection.outcome === 'win') projectedWins++;
+        if (projection.outcome === 'loss') projectedLosses++;
+        if (projection.outcome === 'tie') projectedTies++;
+        if (projection.outcome === 'unrated') unrated++;
+        const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+        return `
+          <tr>
+            <td class="l"><span class="pill ${className}">${label}</span></td>
+            <td class="l">${escapeHtml(game.h.join(' / '))}</td>
+            <td class="l">${escapeHtml(game.a.join(' / '))}</td>
+            <td class="${resultClass}">${projection.marginLabel}</td>
+            <td class="${resultClass}">${projection.resultLabel}</td>
+          </tr>`;
+      }).join('');
+      const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
+      const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
+      return `
+        <div class="wk-block pending-match">
+          <div class="wk-head">
+            <span>${homeSeedLabel}${escapeHtml(m.home)} vs ${awaySeedLabel}${escapeHtml(m.away)}</span>
+            <span class="mut">${scheduledTime || 'TBD'}</span>
+          </div>
+          <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+          <details>
+            <summary>Projected game-by-game (${gameCount})</summary>
+            <table class="mlog glog">
+              <thead><tr><th class="l">Type</th><th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Exp margin</th><th>Projection</th></tr></thead>
+              <tbody>${gameRows}</tbody>
+            </table>
+          </details>
+        </div>`;
+    }
+
+    const homeWon = m.result === 'home';
+    const winnerClass = getWinLossClass(true);
+    const loserClass = getWinLossClass(false);
+    const gameRows = (m.games || []).map((game) => {
+      const homeWin = game.hs > game.as;
+      const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
+      return `
+        <tr${game.ff ? ' class="ffrow"' : ''}>
+          <td class="l"><span class="pill ${className}">${label}</span></td>
+          <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(game.h.join(' / '))}</td>
+          <td class="l">${game.ff ? '' : escapeHtml(game.a.join(' / '))}</td>
+          <td class="${homeWin ? winnerClass : loserClass}">${game.hs}–${game.as}</td>
+          <td class="${homeWin ? winnerClass : loserClass} l">${homeWin ? 'Home W' : 'Away W'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}</td>
+        </tr>`;
+    }).join('');
+
+    return `
+      <div class="wk-block">
+        <div class="wk-head">
+          <span>${homeSeedLabel}<b class="${homeWon ? winnerClass : ''}">${escapeHtml(m.home)}</b> vs ${awaySeedLabel}<b class="${homeWon ? '' : winnerClass}">${escapeHtml(m.away)}</b></span>
+          <span class="${homeWon ? winnerClass : loserClass}">${homeWon ? escapeHtml(m.home) : escapeHtml(m.away)} WON ${homeWon ? m.homeGW : m.awayGW}–${homeWon ? m.awayGW : m.homeGW}</span>
+        </div>
+        <div class="match-summary">Match points <b>${m.homePoints}–${m.awayPoints}</b> • Games <b>${m.homeGW}–${m.awayGW}</b></div>
+        <details>
+          <summary>Game-by-game (${(m.games || []).length})</summary>
+          <table class="mlog glog">
+            <thead><tr><th class="l">Type</th><th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Score</th><th class="l">Result</th></tr></thead>
+            <tbody>${gameRows}</tbody>
+          </table>
+        </details>
+      </div>`;
+  };
+
+  const roundLabels = rounds.length === 1
+    ? ['Playoffs']
+    : rounds.map((r, i) => {
+        if (i === rounds.length - 1) return 'Championship';
+        if (i === rounds.length - 2) return 'Semifinals';
+        return `Round ${r}`;
+      });
+
+  const sectionsHtml = rounds.map((r, i) => {
+    const matchesHtml = byRound.get(r).map(renderPlayoffMatch).join('');
+    return `
+      <div class="playoff-round">
+        <h3 class="playoff-round-label">${roundLabels[i]}</h3>
+        ${matchesHtml}
+      </div>`;
+  }).join('');
+
+  elements.playoffsHost.innerHTML = `
+    <h2>Playoffs <span class="tag">knockout bracket</span></h2>
+    <div class="playoff-bracket">${sectionsHtml}</div>`;
+  elements.playoffsHost.hidden = false;
+}
+
 function renderTeamPage(team, { scroll = true } = {}) {
   const color = getTeamColor(team.name);
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
@@ -1557,6 +1688,10 @@ function renderTeamPage(team, { scroll = true } = {}) {
   const upcoming = DATA.matches
     .filter((match) => !match.complete && (match.home === team.name || match.away === team.name))
     .sort((a, b) => a.week - b.week);
+  const playoffMatches = (DATA.playoffs || [])
+    .filter((match) => match.home === team.name || match.away === team.name)
+    .sort((a, b) => (a.round || 1) - (b.round || 1))
+    .map((m) => ({ ...m, week: m.round }));
   const powerClass = isMissing(team.power) ? '' : (team.power >= 0 ? 'pos-diff' : 'neg-diff');
 
   const rosterColumns = [
@@ -1628,6 +1763,14 @@ function renderTeamPage(team, { scroll = true } = {}) {
     ? history.map((match) => renderTeamMatchBlock(match, team.name)).join('')
     : '<div class="mut" style="font-size:13px">No completed matches yet.</div>';
 
+  const playoffMarkup = playoffMatches.length
+    ? playoffMatches.map((match) =>
+        match.complete
+          ? renderTeamMatchBlock(match, team.name)
+          : renderPendingTeamMatchBlock(match, team.name)
+      ).join('')
+    : null;
+
   elements.teamView.innerHTML = `
     <a class="backlink" href="#">← All standings</a>
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
@@ -1662,6 +1805,11 @@ function renderTeamPage(team, { scroll = true } = {}) {
       <h3>Pending matchups <span class="tag">scheduled + projected game lines when available</span></h3>
       ${upcomingMarkup}
     </div>
+    ${playoffMarkup ? `
+    <div class="team-section">
+      <h3>Playoffs <span class="tag">knockout bracket</span></h3>
+      ${playoffMarkup}
+    </div>` : ''}
   `;
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
@@ -1976,6 +2124,7 @@ function initialize() {
   renderDivisionSelector();
   renderSummary();
   renderTeams();
+  renderPlayoffs();
   renderResultsGrid();
   renderTeamFilterOptions();
   renderPodFilterOptions();

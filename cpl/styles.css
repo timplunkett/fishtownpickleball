@@ -1460,3 +1460,45 @@ tbody td {
     font-size: 9px;
   }
 }
+
+/* ─── Playoffs section ─────────────────────────────────────────────── */
+#playoffs-host h2 {
+  margin-top: 32px;
+}
+
+.playoff-bracket {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.playoff-round {
+  flex: 1 1 280px;
+  min-width: 260px;
+}
+
+.playoff-round-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--mut);
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.pseed {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--mut);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 0 4px;
+  margin-right: 2px;
+  vertical-align: middle;
+  line-height: 1.6;
+}
