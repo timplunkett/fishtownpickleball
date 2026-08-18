@@ -2094,6 +2094,29 @@
       "ranking": 91
     },
     {
+      "playerId": "c929f42d-6fd4-4034-888e-ad456cda3063",
+      "firstName": "Kathleen",
+      "lastName": "Dougherty",
+      "gender": "Female",
+      "dupr": "8D0YRL",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
+      "teamName": "The Young Guns",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 92
+    },
+    {
       "playerId": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
       "firstName": "Harriet",
       "lastName": "Levin",
@@ -2114,7 +2137,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 92
+      "ranking": 93
     },
     {
       "playerId": "545fe5ef-8c22-454d-b251-1c26ef5b4151",
@@ -2137,7 +2160,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 93
+      "ranking": 94
     },
     {
       "playerId": "97f2b250-2030-4296-be61-63cffb17043b",
@@ -2160,7 +2183,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 94
+      "ranking": 95
     },
     {
       "playerId": "30c66392-1494-4e99-a538-b3f06dda6681",
@@ -2183,7 +2206,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 95
+      "ranking": 96
     }
   ]
 }

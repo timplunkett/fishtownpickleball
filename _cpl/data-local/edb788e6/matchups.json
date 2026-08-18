@@ -221,9 +221,9 @@
       "weekNumber": 10,
       "homeTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
       "awayTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 622,
+      "awayPoints": 583,
+      "endResult": "home",
       "scheduledTime": "2026-08-17T19:30:00",
       "homeName": "Pickleball Addicts",
       "awayName": "Dinking Around"
