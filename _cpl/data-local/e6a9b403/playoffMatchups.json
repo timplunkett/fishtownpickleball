@@ -1,0 +1,19 @@
+{
+  "$values": [
+    {
+      "matchupId": "8775164b-9ee9-4f92-9e59-2a92ace5a1ec",
+      "weekNumber": 4,
+      "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-18T19:00:00",
+      "homeName": "The Big Dill",
+      "awayName": "Deadly Dinks",
+      "playoffGame": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    }
+  ]
+}

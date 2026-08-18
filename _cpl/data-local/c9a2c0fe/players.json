@@ -209,7 +209,7 @@
     },
     {
       "playerId": "5f2e3f29-7b61-4d23-ba5a-23bfe5eac362",
-      "firstName": "Tina",
+      "firstName": "Tinglan",
       "lastName": "Zhao",
       "gender": "Female",
       "dupr": "ELY52V",
@@ -1862,6 +1862,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 81
+    },
+    {
+      "playerId": "c037ad35-3550-447f-af7f-f62674d0c1ac",
+      "firstName": "Amy",
+      "lastName": "Moore",
+      "gender": "Female",
+      "dupr": "8GJXEQ",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "teamName": "ACE ACE Baby",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 82
     }
   ]
 }
