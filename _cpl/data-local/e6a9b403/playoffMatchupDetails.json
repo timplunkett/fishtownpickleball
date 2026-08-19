@@ -2,17 +2,6 @@
   {
     "matchupId": "8775164b-9ee9-4f92-9e59-2a92ace5a1ec",
     "details": {
-      "matchup": {
-        "matchupId": "8775164b-9ee9-4f92-9e59-2a92ace5a1ec",
-        "weekNumber": 4,
-        "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "The Big Dill",
-        "awayName": "Deadly Dinks"
-      },
       "lineups": {
         "lineups": {
           "$values": [

@@ -2,17 +2,6 @@
   {
     "matchupId": "dd0d8243-fecb-4bc4-a837-223d251c1a1b",
     "details": {
-      "matchup": {
-        "matchupId": "dd0d8243-fecb-4bc4-a837-223d251c1a1b",
-        "weekNumber": 1,
-        "homeTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "awayTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "homePoints": 590,
-        "awayPoints": 588,
-        "endResult": "home",
-        "homeName": "Pickleball Bandits",
-        "awayName": "Summer Heat"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -688,17 +677,6 @@
   {
     "matchupId": "083851f1-5dbd-4ac6-83ea-ddc8cc964bf5",
     "details": {
-      "matchup": {
-        "matchupId": "083851f1-5dbd-4ac6-83ea-ddc8cc964bf5",
-        "weekNumber": 1,
-        "homeTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "awayTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "homePoints": 553,
-        "awayPoints": 623,
-        "endResult": "away",
-        "homeName": "Summer Smasher",
-        "awayName": "Kitchen Nightmare"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1340,17 +1318,6 @@
   {
     "matchupId": "dc4ce000-7159-4ad9-a85c-261e9eed97ba",
     "details": {
-      "matchup": {
-        "matchupId": "dc4ce000-7159-4ad9-a85c-261e9eed97ba",
-        "weekNumber": 2,
-        "homeTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "awayTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "homePoints": 605,
-        "awayPoints": 617,
-        "endResult": "away",
-        "homeName": "Kitchen Nightmare",
-        "awayName": "Summer Heat"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2026,17 +1993,6 @@
   {
     "matchupId": "bfcc4d37-d1ca-47a0-a456-5228a74ea8ed",
     "details": {
-      "matchup": {
-        "matchupId": "bfcc4d37-d1ca-47a0-a456-5228a74ea8ed",
-        "weekNumber": 2,
-        "homeTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "awayTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "homePoints": 652,
-        "awayPoints": 577,
-        "endResult": "home",
-        "homeName": "Summer Smasher",
-        "awayName": "Pickleball Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2712,17 +2668,6 @@
   {
     "matchupId": "27a53860-0848-491d-aa62-1dd2a3c3bda5",
     "details": {
-      "matchup": {
-        "matchupId": "27a53860-0848-491d-aa62-1dd2a3c3bda5",
-        "weekNumber": 3,
-        "homeTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "awayTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "homePoints": 590,
-        "awayPoints": 644,
-        "endResult": "away",
-        "homeName": "Summer Heat",
-        "awayName": "Summer Smasher"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3398,17 +3343,6 @@
   {
     "matchupId": "d6c4d811-cd81-4da0-93df-bc585e5c7c9c",
     "details": {
-      "matchup": {
-        "matchupId": "d6c4d811-cd81-4da0-93df-bc585e5c7c9c",
-        "weekNumber": 3,
-        "homeTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "awayTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "homePoints": 599,
-        "awayPoints": 622,
-        "endResult": "home",
-        "homeName": "Pickleball Bandits",
-        "awayName": "Kitchen Nightmare"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4067,17 +4001,6 @@
   {
     "matchupId": "9d18a2d7-d792-4e77-9ef9-13260987c1fc",
     "details": {
-      "matchup": {
-        "matchupId": "9d18a2d7-d792-4e77-9ef9-13260987c1fc",
-        "weekNumber": 4,
-        "homeTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "awayTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "homePoints": 559,
-        "awayPoints": 667,
-        "endResult": "away",
-        "homeName": "Summer Heat",
-        "awayName": "Pickleball Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4753,17 +4676,6 @@
   {
     "matchupId": "478300aa-4011-4ba1-a2fa-7f43f4ca9cdc",
     "details": {
-      "matchup": {
-        "matchupId": "478300aa-4011-4ba1-a2fa-7f43f4ca9cdc",
-        "weekNumber": 4,
-        "homeTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "awayTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "homePoints": 641,
-        "awayPoints": 581,
-        "endResult": "home",
-        "homeName": "Kitchen Nightmare",
-        "awayName": "Summer Smasher"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5422,17 +5334,6 @@
   {
     "matchupId": "c2b26614-0bf2-44c4-b955-1e09490fb92d",
     "details": {
-      "matchup": {
-        "matchupId": "c2b26614-0bf2-44c4-b955-1e09490fb92d",
-        "weekNumber": 5,
-        "homeTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "awayTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "homePoints": 580,
-        "awayPoints": 643,
-        "endResult": "away",
-        "homeName": "Pickleball Bandits",
-        "awayName": "Summer Smasher"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6108,17 +6009,6 @@
   {
     "matchupId": "86eec701-bd5e-431b-bcd1-40b930ce5536",
     "details": {
-      "matchup": {
-        "matchupId": "86eec701-bd5e-431b-bcd1-40b930ce5536",
-        "weekNumber": 5,
-        "homeTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "awayTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "homePoints": 612,
-        "awayPoints": 571,
-        "endResult": "home",
-        "homeName": "Summer Heat",
-        "awayName": "Kitchen Nightmare"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6794,17 +6684,6 @@
   {
     "matchupId": "dad08667-dc0b-4517-a011-46d0efdd7b0b",
     "details": {
-      "matchup": {
-        "matchupId": "dad08667-dc0b-4517-a011-46d0efdd7b0b",
-        "weekNumber": 6,
-        "homeTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "awayTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "homePoints": 643,
-        "awayPoints": 571,
-        "endResult": "home",
-        "homeName": "Summer Smasher",
-        "awayName": "Summer Heat"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7480,17 +7359,6 @@
   {
     "matchupId": "1a50a637-a618-456f-b721-dc57f2b5f514",
     "details": {
-      "matchup": {
-        "matchupId": "1a50a637-a618-456f-b721-dc57f2b5f514",
-        "weekNumber": 6,
-        "homeTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "awayTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "homePoints": 635,
-        "awayPoints": 598,
-        "endResult": "home",
-        "homeName": "Kitchen Nightmare",
-        "awayName": "Pickleball Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8166,17 +8034,6 @@
   {
     "matchupId": "d96c37af-a2f7-4430-8b1d-2cda8a1de822",
     "details": {
-      "matchup": {
-        "matchupId": "d96c37af-a2f7-4430-8b1d-2cda8a1de822",
-        "weekNumber": 7,
-        "homeTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "awayTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "homePoints": 673,
-        "awayPoints": 501,
-        "endResult": "home",
-        "homeName": "Summer Smasher",
-        "awayName": "Kitchen Nightmare"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8818,17 +8675,6 @@
   {
     "matchupId": "1dd2e6fd-a8a6-4e59-8644-73cd8c16270c",
     "details": {
-      "matchup": {
-        "matchupId": "1dd2e6fd-a8a6-4e59-8644-73cd8c16270c",
-        "weekNumber": 7,
-        "homeTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "awayTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "homePoints": 593,
-        "awayPoints": 587,
-        "endResult": "home",
-        "homeName": "Pickleball Bandits",
-        "awayName": "Summer Heat"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9504,17 +9350,6 @@
   {
     "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
     "details": {
-      "matchup": {
-        "matchupId": "f398a9ea-962c-4b7e-a333-3ca0bf945c4d",
-        "weekNumber": 8,
-        "homeTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "awayTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "homePoints": 642,
-        "awayPoints": 594,
-        "endResult": "home",
-        "homeName": "Kitchen Nightmare",
-        "awayName": "Summer Heat"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10190,17 +10025,6 @@
   {
     "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
     "details": {
-      "matchup": {
-        "matchupId": "652485c1-e2ca-44fc-babd-8743a5a7a829",
-        "weekNumber": 8,
-        "homeTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "awayTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "homePoints": 629,
-        "awayPoints": 529,
-        "endResult": "home",
-        "homeName": "Summer Smasher",
-        "awayName": "Pickleball Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10875,34 +10699,10 @@
   },
   {
     "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
-    "details": {
-      "matchup": {
-        "matchupId": "5affc335-6212-4a72-a602-cf5dab4bce17",
-        "weekNumber": 9,
-        "homeTeamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
-        "awayTeamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Bandits",
-        "awayName": "Kitchen Nightmare"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
-    "details": {
-      "matchup": {
-        "matchupId": "452bacb8-8c98-42cf-921e-eee8b6ecce5d",
-        "weekNumber": 9,
-        "homeTeamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
-        "awayTeamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Summer Heat",
-        "awayName": "Summer Smasher"
-      }
-    }
+    "details": {}
   }
 ]

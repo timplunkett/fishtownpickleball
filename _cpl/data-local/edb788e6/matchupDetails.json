@@ -2,17 +2,6 @@
   {
     "matchupId": "ae5d6b27-14a6-4d33-96da-62d5c41649b9",
     "details": {
-      "matchup": {
-        "matchupId": "ae5d6b27-14a6-4d33-96da-62d5c41649b9",
-        "weekNumber": 1,
-        "homeTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "awayTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "homePoints": 593,
-        "awayPoints": 586,
-        "endResult": "home",
-        "homeName": "Summer of Slam",
-        "awayName": "Dinking Around"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -688,17 +677,6 @@
   {
     "matchupId": "791127f3-0ab6-46ab-8e2e-dda7f41772c5",
     "details": {
-      "matchup": {
-        "matchupId": "791127f3-0ab6-46ab-8e2e-dda7f41772c5",
-        "weekNumber": 2,
-        "homeTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "awayTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "homePoints": 570,
-        "awayPoints": 619,
-        "endResult": "away",
-        "homeName": "The Mighty Dinks",
-        "awayName": "Pickleball Addicts"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1357,17 +1335,6 @@
   {
     "matchupId": "0068e57b-0e93-4fcb-8b4b-78dc9e0a399e",
     "details": {
-      "matchup": {
-        "matchupId": "0068e57b-0e93-4fcb-8b4b-78dc9e0a399e",
-        "weekNumber": 3,
-        "homeTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "awayTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "homePoints": 573,
-        "awayPoints": 610,
-        "endResult": "away",
-        "homeName": "Power Picklers",
-        "awayName": "The Mighty Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2009,17 +1976,6 @@
   {
     "matchupId": "e5ab4a26-6638-4b29-9781-d1ec3c3e3c6f",
     "details": {
-      "matchup": {
-        "matchupId": "e5ab4a26-6638-4b29-9781-d1ec3c3e3c6f",
-        "weekNumber": 3,
-        "homeTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "awayTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "homePoints": 617,
-        "awayPoints": 574,
-        "endResult": "home",
-        "homeName": "Pickleball Addicts",
-        "awayName": "Summer of Slam"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2661,17 +2617,6 @@
   {
     "matchupId": "94c5d584-4642-490e-8c2f-edb3da46a89b",
     "details": {
-      "matchup": {
-        "matchupId": "94c5d584-4642-490e-8c2f-edb3da46a89b",
-        "weekNumber": 4,
-        "homeTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "awayTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "homePoints": 583,
-        "awayPoints": 632,
-        "endResult": "away",
-        "homeName": "Dinking Around",
-        "awayName": "Pickleball Addicts"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3296,17 +3241,6 @@
   {
     "matchupId": "39c9bdeb-6a30-4a62-b655-32ca44057eed",
     "details": {
-      "matchup": {
-        "matchupId": "39c9bdeb-6a30-4a62-b655-32ca44057eed",
-        "weekNumber": 4,
-        "homeTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "awayTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "homePoints": 668,
-        "awayPoints": 518,
-        "endResult": "home",
-        "homeName": "Summer of Slam",
-        "awayName": "Power Picklers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3965,17 +3899,6 @@
   {
     "matchupId": "9e92f351-a8c2-4635-980d-58e52558176b",
     "details": {
-      "matchup": {
-        "matchupId": "9e92f351-a8c2-4635-980d-58e52558176b",
-        "weekNumber": 5,
-        "homeTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "awayTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "homePoints": 628,
-        "awayPoints": 520,
-        "endResult": "home",
-        "homeName": "Pickleball Addicts",
-        "awayName": "Power Picklers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4634,17 +4557,6 @@
   {
     "matchupId": "bf501edb-2326-4082-af81-fbdc1a3e26b0",
     "details": {
-      "matchup": {
-        "matchupId": "bf501edb-2326-4082-af81-fbdc1a3e26b0",
-        "weekNumber": 5,
-        "homeTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "awayTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "homePoints": 540,
-        "awayPoints": 624,
-        "endResult": "away",
-        "homeName": "Dinking Around",
-        "awayName": "The Mighty Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5320,17 +5232,6 @@
   {
     "matchupId": "567bb936-7c87-4084-8ffa-28fa9c61f02e",
     "details": {
-      "matchup": {
-        "matchupId": "567bb936-7c87-4084-8ffa-28fa9c61f02e",
-        "weekNumber": 6,
-        "homeTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "awayTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "homePoints": 623,
-        "awayPoints": 640,
-        "endResult": "away",
-        "homeName": "Power Picklers",
-        "awayName": "Dinking Around"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6006,17 +5907,6 @@
   {
     "matchupId": "5501da7a-c0e1-469d-89ff-a981cc1c59f0",
     "details": {
-      "matchup": {
-        "matchupId": "5501da7a-c0e1-469d-89ff-a981cc1c59f0",
-        "weekNumber": 6,
-        "homeTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "awayTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "homePoints": 632,
-        "awayPoints": 546,
-        "endResult": "home",
-        "homeName": "The Mighty Dinks",
-        "awayName": "Summer of Slam"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6675,17 +6565,6 @@
   {
     "matchupId": "9531e39e-d224-42fa-9fff-4f943db4f59e",
     "details": {
-      "matchup": {
-        "matchupId": "9531e39e-d224-42fa-9fff-4f943db4f59e",
-        "weekNumber": 7,
-        "homeTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "awayTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "homePoints": 596,
-        "awayPoints": 636,
-        "endResult": "away",
-        "homeName": "Summer of Slam",
-        "awayName": "Pickleball Addicts"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7361,17 +7240,6 @@
   {
     "matchupId": "acc63ba6-4771-43bf-93d0-a98fe47e369e",
     "details": {
-      "matchup": {
-        "matchupId": "acc63ba6-4771-43bf-93d0-a98fe47e369e",
-        "weekNumber": 7,
-        "homeTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "awayTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "homePoints": 669,
-        "awayPoints": 594,
-        "endResult": "home",
-        "homeName": "The Mighty Dinks",
-        "awayName": "Dinking Around"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8013,17 +7881,6 @@
   {
     "matchupId": "cd2de156-8d22-45ad-9a63-09c267b3b3b7",
     "details": {
-      "matchup": {
-        "matchupId": "cd2de156-8d22-45ad-9a63-09c267b3b3b7",
-        "weekNumber": 7,
-        "homeTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "awayTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "homePoints": 663,
-        "awayPoints": 533,
-        "endResult": "home",
-        "homeName": "The Mighty Dinks",
-        "awayName": "Power Picklers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8699,17 +8556,6 @@
   {
     "matchupId": "fc8d40df-8fa3-4fff-934e-31f3f4b0a7a8",
     "details": {
-      "matchup": {
-        "matchupId": "fc8d40df-8fa3-4fff-934e-31f3f4b0a7a8",
-        "weekNumber": 8,
-        "homeTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "awayTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "homePoints": 598,
-        "awayPoints": 600,
-        "endResult": "away",
-        "homeName": "Pickleball Addicts",
-        "awayName": "The Mighty Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9351,17 +9197,6 @@
   {
     "matchupId": "d981c357-fddd-4081-9a5f-0805ca988ec0",
     "details": {
-      "matchup": {
-        "matchupId": "d981c357-fddd-4081-9a5f-0805ca988ec0",
-        "weekNumber": 8,
-        "homeTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "awayTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "homePoints": 581,
-        "awayPoints": 621,
-        "endResult": "away",
-        "homeName": "Dinking Around",
-        "awayName": "Summer of Slam"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10003,17 +9838,6 @@
   {
     "matchupId": "06dcffb2-f69e-44fa-839f-c166678a154f",
     "details": {
-      "matchup": {
-        "matchupId": "06dcffb2-f69e-44fa-839f-c166678a154f",
-        "weekNumber": 8,
-        "homeTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "awayTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "homePoints": 552,
-        "awayPoints": 621,
-        "endResult": "away",
-        "homeName": "Power Picklers",
-        "awayName": "Pickleball Addicts"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10655,17 +10479,6 @@
   {
     "matchupId": "851c7884-83ad-4116-a786-e91d331444ea",
     "details": {
-      "matchup": {
-        "matchupId": "851c7884-83ad-4116-a786-e91d331444ea",
-        "weekNumber": 9,
-        "homeTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "awayTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "homePoints": 607,
-        "awayPoints": 634,
-        "endResult": "away",
-        "homeName": "Dinking Around",
-        "awayName": "Power Picklers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -11341,17 +11154,6 @@
   {
     "matchupId": "20f54a3d-b42b-4191-9632-e3d2a8376714",
     "details": {
-      "matchup": {
-        "matchupId": "20f54a3d-b42b-4191-9632-e3d2a8376714",
-        "weekNumber": 9,
-        "homeTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "awayTeamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
-        "homePoints": 678,
-        "awayPoints": 622,
-        "endResult": "home",
-        "homeName": "Summer of Slam",
-        "awayName": "The Mighty Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -12010,17 +11812,6 @@
   {
     "matchupId": "5164c8bf-86f0-4340-bf1b-ff5f1c2565d1",
     "details": {
-      "matchup": {
-        "matchupId": "5164c8bf-86f0-4340-bf1b-ff5f1c2565d1",
-        "weekNumber": 10,
-        "homeTeamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
-        "awayTeamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
-        "homePoints": 622,
-        "awayPoints": 583,
-        "endResult": "home",
-        "homeName": "Pickleball Addicts",
-        "awayName": "Dinking Around"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -12628,17 +12419,6 @@
   {
     "matchupId": "941a3b0c-7893-41ac-a87e-a939192fb887",
     "details": {
-      "matchup": {
-        "matchupId": "941a3b0c-7893-41ac-a87e-a939192fb887",
-        "weekNumber": 10,
-        "homeTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
-        "awayTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Power Picklers",
-        "awayName": "Summer of Slam"
-      },
       "lineups": {
         "lineups": {
           "$values": [

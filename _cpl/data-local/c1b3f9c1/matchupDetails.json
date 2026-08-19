@@ -2,17 +2,6 @@
   {
     "matchupId": "0051196e-af96-4ad8-913e-c8e90b473c64",
     "details": {
-      "matchup": {
-        "matchupId": "0051196e-af96-4ad8-913e-c8e90b473c64",
-        "weekNumber": 1,
-        "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "awayTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "homePoints": 559,
-        "awayPoints": 599,
-        "endResult": "away",
-        "homeName": "Smash-holes!",
-        "awayName": "The Three-Fives"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -654,17 +643,6 @@
   {
     "matchupId": "fda8e860-df07-4809-8529-d42ac40d9eaa",
     "details": {
-      "matchup": {
-        "matchupId": "fda8e860-df07-4809-8529-d42ac40d9eaa",
-        "weekNumber": 1,
-        "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "awayTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "homePoints": 481,
-        "awayPoints": 675,
-        "endResult": "away",
-        "homeName": "Nets Gambit",
-        "awayName": "Hot Ballers!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1306,17 +1284,6 @@
   {
     "matchupId": "c6b06a3e-0dd7-4b9b-9a2a-3683274f9b25",
     "details": {
-      "matchup": {
-        "matchupId": "c6b06a3e-0dd7-4b9b-9a2a-3683274f9b25",
-        "weekNumber": 2,
-        "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "awayTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "homePoints": 480,
-        "awayPoints": 668,
-        "endResult": "away",
-        "homeName": "Nets Gambit",
-        "awayName": "Smash-holes!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1958,17 +1925,6 @@
   {
     "matchupId": "486ee2eb-c567-4989-ad96-3b7923f3349e",
     "details": {
-      "matchup": {
-        "matchupId": "486ee2eb-c567-4989-ad96-3b7923f3349e",
-        "weekNumber": 2,
-        "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "awayTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "homePoints": 586,
-        "awayPoints": 630,
-        "endResult": "away",
-        "homeName": "Hot Ballers!",
-        "awayName": "The Three-Fives"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2627,17 +2583,6 @@
   {
     "matchupId": "2cb80451-f81e-4223-88a0-14ab81e1cb20",
     "details": {
-      "matchup": {
-        "matchupId": "2cb80451-f81e-4223-88a0-14ab81e1cb20",
-        "weekNumber": 3,
-        "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "awayTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "homePoints": 581,
-        "awayPoints": 547,
-        "endResult": "home",
-        "homeName": "Smash-holes!",
-        "awayName": "Hot Ballers!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3279,17 +3224,6 @@
   {
     "matchupId": "67c0ea2e-7e1e-41fb-a1f0-82ff6d121d11",
     "details": {
-      "matchup": {
-        "matchupId": "67c0ea2e-7e1e-41fb-a1f0-82ff6d121d11",
-        "weekNumber": 3,
-        "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "awayTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "homePoints": 611,
-        "awayPoints": 612,
-        "endResult": "home",
-        "homeName": "The Three-Fives",
-        "awayName": "Nets Gambit"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3948,17 +3882,6 @@
   {
     "matchupId": "143181e7-0b1c-41ff-99e1-1dcd5f1f398e",
     "details": {
-      "matchup": {
-        "matchupId": "143181e7-0b1c-41ff-99e1-1dcd5f1f398e",
-        "weekNumber": 4,
-        "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "awayTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "homePoints": 602,
-        "awayPoints": 577,
-        "endResult": "home",
-        "homeName": "The Three-Fives",
-        "awayName": "Smash-holes!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4617,17 +4540,6 @@
   {
     "matchupId": "eaf771c2-c89f-41b9-a7cb-d98e2798311b",
     "details": {
-      "matchup": {
-        "matchupId": "eaf771c2-c89f-41b9-a7cb-d98e2798311b",
-        "weekNumber": 4,
-        "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "awayTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "homePoints": 645,
-        "awayPoints": 544,
-        "endResult": "home",
-        "homeName": "Hot Ballers!",
-        "awayName": "Nets Gambit"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5269,17 +5181,6 @@
   {
     "matchupId": "4dcc60d3-bf10-4d6b-b6ef-373b16e2f343",
     "details": {
-      "matchup": {
-        "matchupId": "4dcc60d3-bf10-4d6b-b6ef-373b16e2f343",
-        "weekNumber": 5,
-        "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "awayTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "homePoints": 615,
-        "awayPoints": 558,
-        "endResult": "home",
-        "homeName": "The Three-Fives",
-        "awayName": "Hot Ballers!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5938,17 +5839,6 @@
   {
     "matchupId": "a24d93de-31f8-4607-a896-be3c1337d9f9",
     "details": {
-      "matchup": {
-        "matchupId": "a24d93de-31f8-4607-a896-be3c1337d9f9",
-        "weekNumber": 5,
-        "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "awayTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "homePoints": 640,
-        "awayPoints": 567,
-        "endResult": "home",
-        "homeName": "Smash-holes!",
-        "awayName": "Nets Gambit"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6607,17 +6497,6 @@
   {
     "matchupId": "e814758d-3e8a-48fc-aefe-38b5c7edf71f",
     "details": {
-      "matchup": {
-        "matchupId": "e814758d-3e8a-48fc-aefe-38b5c7edf71f",
-        "weekNumber": 6,
-        "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "awayTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "homePoints": 584,
-        "awayPoints": 656,
-        "endResult": "away",
-        "homeName": "Hot Ballers!",
-        "awayName": "Smash-holes!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7242,17 +7121,6 @@
   {
     "matchupId": "d2baaa3d-8708-48a2-b86b-d2c8aa73bf9f",
     "details": {
-      "matchup": {
-        "matchupId": "d2baaa3d-8708-48a2-b86b-d2c8aa73bf9f",
-        "weekNumber": 6,
-        "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "awayTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "homePoints": 632,
-        "awayPoints": 596,
-        "endResult": "home",
-        "homeName": "Nets Gambit",
-        "awayName": "The Three-Fives"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7911,17 +7779,6 @@
   {
     "matchupId": "1df907fb-0af9-4213-8faa-45ab691460d4",
     "details": {
-      "matchup": {
-        "matchupId": "1df907fb-0af9-4213-8faa-45ab691460d4",
-        "weekNumber": 7,
-        "homeTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "awayTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "homePoints": 563,
-        "awayPoints": 641,
-        "endResult": "away",
-        "homeName": "The Three-Fives",
-        "awayName": "Smash-holes!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8546,17 +8403,6 @@
   {
     "matchupId": "b32d3c62-9396-4064-845d-d58b9a08a5d4",
     "details": {
-      "matchup": {
-        "matchupId": "b32d3c62-9396-4064-845d-d58b9a08a5d4",
-        "weekNumber": 7,
-        "homeTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "awayTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "homePoints": 563,
-        "awayPoints": 619,
-        "endResult": "away",
-        "homeName": "Nets Gambit",
-        "awayName": "Hot Ballers!"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9197,34 +9043,10 @@
   },
   {
     "matchupId": "95161160-4846-429c-86d6-30b90f97e866",
-    "details": {
-      "matchup": {
-        "matchupId": "95161160-4846-429c-86d6-30b90f97e866",
-        "weekNumber": 8,
-        "homeTeamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-        "awayTeamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Hot Ballers!",
-        "awayName": "The Three-Fives"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "846c0107-9a93-4f8d-8542-97bbe06f7e06",
-    "details": {
-      "matchup": {
-        "matchupId": "846c0107-9a93-4f8d-8542-97bbe06f7e06",
-        "weekNumber": 8,
-        "homeTeamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-        "awayTeamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Smash-holes!",
-        "awayName": "Nets Gambit"
-      }
-    }
+    "details": {}
   }
 ]

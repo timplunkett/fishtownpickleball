@@ -2,17 +2,6 @@
   {
     "matchupId": "0afdecb9-8658-44eb-90a0-5e2a18de2ad7",
     "details": {
-      "matchup": {
-        "matchupId": "0afdecb9-8658-44eb-90a0-5e2a18de2ad7",
-        "weekNumber": 1,
-        "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "homePoints": 556,
-        "awayPoints": 642,
-        "endResult": "away",
-        "homeName": "Bash and Crash",
-        "awayName": "The Big Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -671,17 +660,6 @@
   {
     "matchupId": "2cfe9330-ba6f-45bf-b7c7-acb97b62e9c9",
     "details": {
-      "matchup": {
-        "matchupId": "2cfe9330-ba6f-45bf-b7c7-acb97b62e9c9",
-        "weekNumber": 1,
-        "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "homePoints": 633,
-        "awayPoints": 577,
-        "endResult": "home",
-        "homeName": "Deadly Dinks",
-        "awayName": "Kitchen Ninjas"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1323,17 +1301,6 @@
   {
     "matchupId": "1f938a1f-f07e-4f76-bf16-c2ce140434a5",
     "details": {
-      "matchup": {
-        "matchupId": "1f938a1f-f07e-4f76-bf16-c2ce140434a5",
-        "weekNumber": 2,
-        "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "homePoints": 542,
-        "awayPoints": 588,
-        "endResult": "away",
-        "homeName": "Kitchen Ninjas",
-        "awayName": "The Big Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1941,17 +1908,6 @@
   {
     "matchupId": "2c873059-92b9-4d88-835d-3f1b9c4acc2b",
     "details": {
-      "matchup": {
-        "matchupId": "2c873059-92b9-4d88-835d-3f1b9c4acc2b",
-        "weekNumber": 3,
-        "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "homePoints": 659,
-        "awayPoints": 529,
-        "endResult": "home",
-        "homeName": "The Big Dill",
-        "awayName": "Deadly Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2576,17 +2532,6 @@
   {
     "matchupId": "3835bd1e-a2e1-4b54-9cc7-8ffd57586d51",
     "details": {
-      "matchup": {
-        "matchupId": "3835bd1e-a2e1-4b54-9cc7-8ffd57586d51",
-        "weekNumber": 3,
-        "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "homePoints": 615,
-        "awayPoints": 629,
-        "endResult": "away",
-        "homeName": "Bash and Crash",
-        "awayName": "Kitchen Ninjas"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3211,17 +3156,6 @@
   {
     "matchupId": "5220ead3-f5da-4daa-9a69-b66b6931db45",
     "details": {
-      "matchup": {
-        "matchupId": "5220ead3-f5da-4daa-9a69-b66b6931db45",
-        "weekNumber": 4,
-        "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "homePoints": 600,
-        "awayPoints": 570,
-        "endResult": "home",
-        "homeName": "The Big Dill",
-        "awayName": "Bash and Crash"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3829,17 +3763,6 @@
   {
     "matchupId": "999b5c0b-ae8c-4622-9b2d-c7ec1e8e2df0",
     "details": {
-      "matchup": {
-        "matchupId": "999b5c0b-ae8c-4622-9b2d-c7ec1e8e2df0",
-        "weekNumber": 4,
-        "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "homePoints": 568,
-        "awayPoints": 624,
-        "endResult": "away",
-        "homeName": "Kitchen Ninjas",
-        "awayName": "Deadly Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4481,17 +4404,6 @@
   {
     "matchupId": "de4457ba-891f-4757-a795-027e0d5a0615",
     "details": {
-      "matchup": {
-        "matchupId": "de4457ba-891f-4757-a795-027e0d5a0615",
-        "weekNumber": 5,
-        "homeTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "awayTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "homePoints": 552,
-        "awayPoints": 647,
-        "endResult": "away",
-        "homeName": "Bash and Crash",
-        "awayName": "Deadly Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5133,17 +5045,6 @@
   {
     "matchupId": "cc6acccb-fd43-4a96-b8e0-711a82172301",
     "details": {
-      "matchup": {
-        "matchupId": "cc6acccb-fd43-4a96-b8e0-711a82172301",
-        "weekNumber": 5,
-        "homeTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "awayTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "homePoints": 619,
-        "awayPoints": 563,
-        "endResult": "home",
-        "homeName": "The Big Dill",
-        "awayName": "Kitchen Ninjas"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5785,17 +5686,6 @@
   {
     "matchupId": "3ed565b4-5748-4323-b408-84ca0d5b9ecb",
     "details": {
-      "matchup": {
-        "matchupId": "3ed565b4-5748-4323-b408-84ca0d5b9ecb",
-        "weekNumber": 5,
-        "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "homePoints": 636,
-        "awayPoints": 601,
-        "endResult": "home",
-        "homeName": "Deadly Dinks",
-        "awayName": "Bash and Crash"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6420,17 +6310,6 @@
   {
     "matchupId": "b821846c-3a91-4596-af2d-6a966dfebe95",
     "details": {
-      "matchup": {
-        "matchupId": "b821846c-3a91-4596-af2d-6a966dfebe95",
-        "weekNumber": 6,
-        "homeTeamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
-        "awayTeamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
-        "homePoints": 579,
-        "awayPoints": 624,
-        "endResult": "away",
-        "homeName": "Kitchen Ninjas",
-        "awayName": "Bash and Crash"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7072,17 +6951,6 @@
   {
     "matchupId": "2aa56ce9-670b-44dd-90ff-b111cd2a17ef",
     "details": {
-      "matchup": {
-        "matchupId": "2aa56ce9-670b-44dd-90ff-b111cd2a17ef",
-        "weekNumber": 6,
-        "homeTeamId": "dfa52310-7561-495a-935b-139b3ad5967d",
-        "awayTeamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
-        "homePoints": 621,
-        "awayPoints": 596,
-        "endResult": "home",
-        "homeName": "Deadly Dinks",
-        "awayName": "The Big Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {

@@ -2,17 +2,6 @@
   {
     "matchupId": "f5d691a5-4577-442e-ae8d-3d7805a1ff89",
     "details": {
-      "matchup": {
-        "matchupId": "f5d691a5-4577-442e-ae8d-3d7805a1ff89",
-        "weekNumber": 1,
-        "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "awayTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "homePoints": 570,
-        "awayPoints": 605,
-        "endResult": "away",
-        "homeName": "Pickle Bunch",
-        "awayName": "Spin Doctors"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -620,17 +609,6 @@
   {
     "matchupId": "29c1df86-a1b6-4870-908a-6827d0330248",
     "details": {
-      "matchup": {
-        "matchupId": "29c1df86-a1b6-4870-908a-6827d0330248",
-        "weekNumber": 1,
-        "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "awayTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "homePoints": 599,
-        "awayPoints": 669,
-        "endResult": "away",
-        "homeName": "Ladies & Lords of Dinkingham",
-        "awayName": "Honeydrippers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1238,17 +1216,6 @@
   {
     "matchupId": "7e3cb151-759b-4a65-bbcc-753a1eaae45a",
     "details": {
-      "matchup": {
-        "matchupId": "7e3cb151-759b-4a65-bbcc-753a1eaae45a",
-        "weekNumber": 3,
-        "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "awayTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "homePoints": 537,
-        "awayPoints": 565,
-        "endResult": "away",
-        "homeName": "Honeydrippers",
-        "awayName": "Spin Doctors"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1873,17 +1840,6 @@
   {
     "matchupId": "56127642-e32b-49e4-ab1a-cbbc05979398",
     "details": {
-      "matchup": {
-        "matchupId": "56127642-e32b-49e4-ab1a-cbbc05979398",
-        "weekNumber": 3,
-        "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "awayTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "homePoints": 555,
-        "awayPoints": 585,
-        "endResult": "away",
-        "homeName": "Ladies & Lords of Dinkingham",
-        "awayName": "Pickle Bunch"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2491,17 +2447,6 @@
   {
     "matchupId": "164ce1d0-b47b-4e19-8bbd-768c1250bf36",
     "details": {
-      "matchup": {
-        "matchupId": "164ce1d0-b47b-4e19-8bbd-768c1250bf36",
-        "weekNumber": 4,
-        "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "awayTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "homePoints": 641,
-        "awayPoints": 580,
-        "endResult": "home",
-        "homeName": "Pickle Bunch",
-        "awayName": "Honeydrippers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3143,17 +3088,6 @@
   {
     "matchupId": "50b95f82-e040-45da-895d-ca9d2cd276e8",
     "details": {
-      "matchup": {
-        "matchupId": "50b95f82-e040-45da-895d-ca9d2cd276e8",
-        "weekNumber": 4,
-        "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "awayTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "homePoints": 624,
-        "awayPoints": 586,
-        "endResult": "home",
-        "homeName": "Spin Doctors",
-        "awayName": "Ladies & Lords of Dinkingham"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3761,17 +3695,6 @@
   {
     "matchupId": "4cb5e61b-22bd-4298-bb1b-4191d7fb9dd4",
     "details": {
-      "matchup": {
-        "matchupId": "4cb5e61b-22bd-4298-bb1b-4191d7fb9dd4",
-        "weekNumber": 5,
-        "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "awayTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "homePoints": 624,
-        "awayPoints": 605,
-        "endResult": "away",
-        "homeName": "Spin Doctors",
-        "awayName": "Pickle Bunch"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4379,17 +4302,6 @@
   {
     "matchupId": "f78f41ab-e4d9-409e-ae6e-87683687f0d8",
     "details": {
-      "matchup": {
-        "matchupId": "f78f41ab-e4d9-409e-ae6e-87683687f0d8",
-        "weekNumber": 5,
-        "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "awayTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "homePoints": 603,
-        "awayPoints": 590,
-        "endResult": "home",
-        "homeName": "Honeydrippers",
-        "awayName": "Ladies & Lords of Dinkingham"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5031,17 +4943,6 @@
   {
     "matchupId": "5aa616ed-1419-438d-a74e-50b79223855d",
     "details": {
-      "matchup": {
-        "matchupId": "5aa616ed-1419-438d-a74e-50b79223855d",
-        "weekNumber": 6,
-        "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "awayTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "homePoints": 656,
-        "awayPoints": 620,
-        "endResult": "home",
-        "homeName": "Pickle Bunch",
-        "awayName": "Ladies & Lords of Dinkingham"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5683,17 +5584,6 @@
   {
     "matchupId": "a806114f-068e-49a6-888b-6c505b884376",
     "details": {
-      "matchup": {
-        "matchupId": "a806114f-068e-49a6-888b-6c505b884376",
-        "weekNumber": 6,
-        "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "awayTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "homePoints": 606,
-        "awayPoints": 621,
-        "endResult": "away",
-        "homeName": "Spin Doctors",
-        "awayName": "Honeydrippers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6318,17 +6208,6 @@
   {
     "matchupId": "a3c2ab81-e468-4d6d-a88d-544be4a29215",
     "details": {
-      "matchup": {
-        "matchupId": "a3c2ab81-e468-4d6d-a88d-544be4a29215",
-        "weekNumber": 7,
-        "homeTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "awayTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "homePoints": 624,
-        "awayPoints": 585,
-        "endResult": "home",
-        "homeName": "Spin Doctors",
-        "awayName": "Ladies & Lords of Dinkingham"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6953,17 +6832,6 @@
   {
     "matchupId": "417a6cd6-6abe-4d10-85ac-899c15ae9b2a",
     "details": {
-      "matchup": {
-        "matchupId": "417a6cd6-6abe-4d10-85ac-899c15ae9b2a",
-        "weekNumber": 7,
-        "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "awayTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "homePoints": 623,
-        "awayPoints": 558,
-        "endResult": "home",
-        "homeName": "Honeydrippers",
-        "awayName": "Pickle Bunch"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7588,17 +7456,6 @@
   {
     "matchupId": "ce01f128-d587-4032-8696-c7f25e378348",
     "details": {
-      "matchup": {
-        "matchupId": "ce01f128-d587-4032-8696-c7f25e378348",
-        "weekNumber": 8,
-        "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "awayTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "homePoints": 528,
-        "awayPoints": 640,
-        "endResult": "away",
-        "homeName": "Ladies & Lords of Dinkingham",
-        "awayName": "Honeydrippers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8223,17 +8080,6 @@
   {
     "matchupId": "f40e9d3c-7917-4eaf-8f06-d6a34a54ba85",
     "details": {
-      "matchup": {
-        "matchupId": "f40e9d3c-7917-4eaf-8f06-d6a34a54ba85",
-        "weekNumber": 8,
-        "homeTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "awayTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "homePoints": 588,
-        "awayPoints": 557,
-        "endResult": "home",
-        "homeName": "Pickle Bunch",
-        "awayName": "Spin Doctors"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8857,34 +8703,10 @@
   },
   {
     "matchupId": "892d8349-43a0-44ef-8910-437a3ebe5737",
-    "details": {
-      "matchup": {
-        "matchupId": "892d8349-43a0-44ef-8910-437a3ebe5737",
-        "weekNumber": 9,
-        "homeTeamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
-        "awayTeamId": "0d998abe-d110-42eb-938a-943c11a2e402",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Ladies & Lords of Dinkingham",
-        "awayName": "Pickle Bunch"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "6362c66e-bd3c-48d7-afc4-83a494cd3a23",
-    "details": {
-      "matchup": {
-        "matchupId": "6362c66e-bd3c-48d7-afc4-83a494cd3a23",
-        "weekNumber": 9,
-        "homeTeamId": "4b80b60f-b120-4258-b992-9d17584ef997",
-        "awayTeamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Honeydrippers",
-        "awayName": "Spin Doctors"
-      }
-    }
+    "details": {}
   }
 ]

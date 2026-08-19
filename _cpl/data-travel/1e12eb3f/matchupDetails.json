@@ -1,114 +1,31 @@
 [
   {
     "matchupId": "f251412f-6584-48a0-afea-105e0a994ff3",
-    "details": {
-      "matchup": {
-        "matchupId": "f251412f-6584-48a0-afea-105e0a994ff3",
-        "weekNumber": 1,
-        "homeTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Colts Neck Racquet Club",
-        "awayName": "PKLD"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "764d1f8d-9b6a-4560-90a3-2549d7776476",
-    "details": {
-      "matchup": {
-        "matchupId": "764d1f8d-9b6a-4560-90a3-2549d7776476",
-        "weekNumber": 1,
-        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Players Courtyard",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "bd021992-ffcb-43df-83a6-8a3cefded688",
-    "details": {
-      "matchup": {
-        "matchupId": "bd021992-ffcb-43df-83a6-8a3cefded688",
-        "weekNumber": 1,
-        "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "awayTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Prime Time",
-        "awayName": "Pickleball Kingdom Hamilton Strikers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9ade9ca9-3811-4ec7-bd28-a51249d0d95e",
-    "details": {
-      "matchup": {
-        "matchupId": "9ade9ca9-3811-4ec7-bd28-a51249d0d95e",
-        "weekNumber": 1,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "Pickleball Palace Black"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "88799998-401e-4b82-a4a0-a8e3a8e21fe2",
-    "details": {
-      "matchup": {
-        "matchupId": "88799998-401e-4b82-a4a0-a8e3a8e21fe2",
-        "weekNumber": 1,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Life Time Red Bank"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "fd9db859-69ad-45af-b094-df802f97996f",
-    "details": {
-      "matchup": {
-        "matchupId": "fd9db859-69ad-45af-b094-df802f97996f",
-        "weekNumber": 1,
-        "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Dinkers",
-        "awayName": "Monroe"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e861a439-4779-4746-a2b2-f123a0c52c74",
     "details": {
-      "matchup": {
-        "matchupId": "e861a439-4779-4746-a2b2-f123a0c52c74",
-        "weekNumber": 1,
-        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Hatboro",
-        "awayName": "Jersey Devil"
-      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -439,2002 +356,502 @@
   },
   {
     "matchupId": "1af13f99-f2fd-4844-b836-e98ce6fff6ac",
-    "details": {
-      "matchup": {
-        "matchupId": "1af13f99-f2fd-4844-b836-e98ce6fff6ac",
-        "weekNumber": 1,
-        "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Blue",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "7d66b13b-3aff-4c57-a1ed-ea75b1b8d834",
-    "details": {
-      "matchup": {
-        "matchupId": "7d66b13b-3aff-4c57-a1ed-ea75b1b8d834",
-        "weekNumber": 1,
-        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Allstar Pickler",
-        "awayName": "Picklr Fair Lawn"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e2185c88-6a4a-4083-8849-222b0e8fac8a",
-    "details": {
-      "matchup": {
-        "matchupId": "e2185c88-6a4a-4083-8849-222b0e8fac8a",
-        "weekNumber": 1,
-        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE Moorestown",
-        "awayName": "Mercer Bucks"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d1e47dfb-40e3-4b4d-88b1-76deae9792f6",
-    "details": {
-      "matchup": {
-        "matchupId": "d1e47dfb-40e3-4b4d-88b1-76deae9792f6",
-        "weekNumber": 1,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Bounce Philly"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "50160ac8-9952-472d-ad0f-ad103cb2da8a",
-    "details": {
-      "matchup": {
-        "matchupId": "50160ac8-9952-472d-ad0f-ad103cb2da8a",
-        "weekNumber": 1,
-        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Green",
-        "awayName": "Flemington Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "dd3bd6f9-d248-49fe-a8a6-0805a8551c3a",
-    "details": {
-      "matchup": {
-        "matchupId": "dd3bd6f9-d248-49fe-a8a6-0805a8551c3a",
-        "weekNumber": 2,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "Pickleball Palace Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "01e231ea-cc58-42fe-88d2-6199bacd0eca",
-    "details": {
-      "matchup": {
-        "matchupId": "01e231ea-cc58-42fe-88d2-6199bacd0eca",
-        "weekNumber": 2,
-        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Players Courtyard",
-        "awayName": "Forward"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "261f4efc-17ac-47bc-9794-68c335bc10a6",
-    "details": {
-      "matchup": {
-        "matchupId": "261f4efc-17ac-47bc-9794-68c335bc10a6",
-        "weekNumber": 2,
-        "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Newport",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "855d7fcf-f3ca-46f0-be9b-fd0cb742c9ea",
-    "details": {
-      "matchup": {
-        "matchupId": "855d7fcf-f3ca-46f0-be9b-fd0cb742c9ea",
-        "weekNumber": 2,
-        "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Dinkers",
-        "awayName": "One Love"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9df2be99-9ae9-4dde-8063-16482d20a9bb",
-    "details": {
-      "matchup": {
-        "matchupId": "9df2be99-9ae9-4dde-8063-16482d20a9bb",
-        "weekNumber": 2,
-        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Philly",
-        "awayName": "Dill Dinkers Hatboro"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b11a9bae-98d8-4bc1-b66a-8380c1ab25f0",
-    "details": {
-      "matchup": {
-        "matchupId": "b11a9bae-98d8-4bc1-b66a-8380c1ab25f0",
-        "weekNumber": 2,
-        "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "awayTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Mercer Bucks",
-        "awayName": "Pickleball Kingdom Hamilton Prime Time"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "64a41451-df88-42ce-b4f6-e2566de7133a",
-    "details": {
-      "matchup": {
-        "matchupId": "64a41451-df88-42ce-b4f6-e2566de7133a",
-        "weekNumber": 2,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "885dc953-6bc0-4075-8a02-75b93b32b35d",
-    "details": {
-      "matchup": {
-        "matchupId": "885dc953-6bc0-4075-8a02-75b93b32b35d",
-        "weekNumber": 2,
-        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "awayTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Allstar Pickler",
-        "awayName": "Premiere Aces"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "2a41c679-1e31-42a4-baf3-9152943be6ae",
-    "details": {
-      "matchup": {
-        "matchupId": "2a41c679-1e31-42a4-baf3-9152943be6ae",
-        "weekNumber": 2,
-        "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "awayTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Life Time Red Bank",
-        "awayName": "Colts Neck Racquet Club"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "c5117498-9a54-415a-a630-7047e30667f5",
-    "details": {
-      "matchup": {
-        "matchupId": "c5117498-9a54-415a-a630-7047e30667f5",
-        "weekNumber": 2,
-        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Monroe",
-        "awayName": "PKLD"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "1d930206-4964-4fe0-9036-cf51d1bffbd8",
-    "details": {
-      "matchup": {
-        "matchupId": "1d930206-4964-4fe0-9036-cf51d1bffbd8",
-        "weekNumber": 2,
-        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Blue",
-        "awayName": "ACE Moorestown"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "8869b7b6-959a-47fa-b229-ff2b2cc2b207",
-    "details": {
-      "matchup": {
-        "matchupId": "8869b7b6-959a-47fa-b229-ff2b2cc2b207",
-        "weekNumber": 2,
-        "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Strikers",
-        "awayName": "Flemington Green"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "17d7e0c4-6950-403f-b11b-a1f00fff5cc3",
-    "details": {
-      "matchup": {
-        "matchupId": "17d7e0c4-6950-403f-b11b-a1f00fff5cc3",
-        "weekNumber": 4,
-        "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "awayTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PickleRage Union County",
-        "awayName": "Pickleball Palace Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "714b568a-8799-481d-8238-cdb1150ce2a4",
-    "details": {
-      "matchup": {
-        "matchupId": "714b568a-8799-481d-8238-cdb1150ce2a4",
-        "weekNumber": 4,
-        "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Devil",
-        "awayName": "Dill Dinkers Hatboro"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "47fb7ade-f256-45f7-b17e-523a072f5b48",
-    "details": {
-      "matchup": {
-        "matchupId": "47fb7ade-f256-45f7-b17e-523a072f5b48",
-        "weekNumber": 4,
-        "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Black",
-        "awayName": "Pickleball Kingdom Hillsborough"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f45b28c9-403a-40a7-a2a8-761b7d618d6c",
-    "details": {
-      "matchup": {
-        "matchupId": "f45b28c9-403a-40a7-a2a8-761b7d618d6c",
-        "weekNumber": 4,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "48419276-68de-439d-9570-c678d0e871ad",
-    "details": {
-      "matchup": {
-        "matchupId": "48419276-68de-439d-9570-c678d0e871ad",
-        "weekNumber": 4,
-        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Philly",
-        "awayName": "Forward"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b674c917-5c0e-4138-8a71-3408235386e8",
-    "details": {
-      "matchup": {
-        "matchupId": "b674c917-5c0e-4138-8a71-3408235386e8",
-        "weekNumber": 4,
-        "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Malvern",
-        "awayName": "Players Courtyard"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "7a49f409-5871-4008-88c0-36472849d934",
-    "details": {
-      "matchup": {
-        "matchupId": "7a49f409-5871-4008-88c0-36472849d934",
-        "weekNumber": 5,
-        "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PKLD",
-        "awayName": "Life Time Red Bank"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b64a65f6-417b-4f08-b9ec-5065f68be2d8",
-    "details": {
-      "matchup": {
-        "matchupId": "b64a65f6-417b-4f08-b9ec-5065f68be2d8",
-        "weekNumber": 5,
-        "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Devil",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b1d040d1-4ef1-4c97-a91d-846431bcb362",
-    "details": {
-      "matchup": {
-        "matchupId": "b1d040d1-4ef1-4c97-a91d-846431bcb362",
-        "weekNumber": 5,
-        "homeTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Colts Neck Racquet Club",
-        "awayName": "Premiere Dinkers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "986ba9b7-c6a6-4140-aa6b-86106036c98e",
-    "details": {
-      "matchup": {
-        "matchupId": "986ba9b7-c6a6-4140-aa6b-86106036c98e",
-        "weekNumber": 5,
-        "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Prime Time",
-        "awayName": "ACE Moorestown"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "8e016d32-41fa-47d7-b88e-93b522b7033e",
-    "details": {
-      "matchup": {
-        "matchupId": "8e016d32-41fa-47d7-b88e-93b522b7033e",
-        "weekNumber": 5,
-        "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Newport",
-        "awayName": "Forward"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "74251dea-a7ac-4646-b97c-acea5e22efa1",
-    "details": {
-      "matchup": {
-        "matchupId": "74251dea-a7ac-4646-b97c-acea5e22efa1",
-        "weekNumber": 5,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Monroe"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3cd93a38-3fdb-4ac0-a954-e0ce747f7cfc",
-    "details": {
-      "matchup": {
-        "matchupId": "3cd93a38-3fdb-4ac0-a954-e0ce747f7cfc",
-        "weekNumber": 5,
-        "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Aces",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "ec25465c-314b-454e-82dc-0eef9a68963d",
-    "details": {
-      "matchup": {
-        "matchupId": "ec25465c-314b-454e-82dc-0eef9a68963d",
-        "weekNumber": 5,
-        "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Mercer Bucks",
-        "awayName": "Flemington Green"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "764084c2-1925-4eaa-b7ce-11a45241716c",
-    "details": {
-      "matchup": {
-        "matchupId": "764084c2-1925-4eaa-b7ce-11a45241716c",
-        "weekNumber": 5,
-        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Philly",
-        "awayName": "Players Courtyard"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "1c15a430-d1a6-4621-9880-ec78bb74f243",
-    "details": {
-      "matchup": {
-        "matchupId": "1c15a430-d1a6-4621-9880-ec78bb74f243",
-        "weekNumber": 5,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "Pickleball Palace Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "4504242a-6cab-45dd-b3f8-e3e74113ffc1",
-    "details": {
-      "matchup": {
-        "matchupId": "4504242a-6cab-45dd-b3f8-e3e74113ffc1",
-        "weekNumber": 5,
-        "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Black",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "5ed30f3a-edca-443e-842c-ffa5a7b4fc90",
-    "details": {
-      "matchup": {
-        "matchupId": "5ed30f3a-edca-443e-842c-ffa5a7b4fc90",
-        "weekNumber": 5,
-        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "awayTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Blue",
-        "awayName": "Pickleball Kingdom Hamilton Strikers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "cd38f36e-bc71-4ce5-8622-5bd8d0db7de2",
-    "details": {
-      "matchup": {
-        "matchupId": "cd38f36e-bc71-4ce5-8622-5bd8d0db7de2",
-        "weekNumber": 6,
-        "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Aces",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a09aeb5d-bf1e-4438-b72c-6328aba36d76",
-    "details": {
-      "matchup": {
-        "matchupId": "a09aeb5d-bf1e-4438-b72c-6328aba36d76",
-        "weekNumber": 6,
-        "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Prime Time",
-        "awayName": "Flemington Green"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "db022494-600d-424e-a58f-7f4cdcbadb22",
-    "details": {
-      "matchup": {
-        "matchupId": "db022494-600d-424e-a58f-7f4cdcbadb22",
-        "weekNumber": 6,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Colts Neck Racquet Club"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "bc63ea89-5c6d-4c8f-bbbf-9ab292764afa",
-    "details": {
-      "matchup": {
-        "matchupId": "bc63ea89-5c6d-4c8f-bbbf-9ab292764afa",
-        "weekNumber": 6,
-        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Hatboro",
-        "awayName": "Bounce Philly"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "63840915-ed29-4f0c-9269-e347ec80c783",
-    "details": {
-      "matchup": {
-        "matchupId": "63840915-ed29-4f0c-9269-e347ec80c783",
-        "weekNumber": 6,
-        "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PKLD",
-        "awayName": "Premiere Dinkers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "becdb258-9b0c-46ab-b97b-fdc26e82b24c",
-    "details": {
-      "matchup": {
-        "matchupId": "becdb258-9b0c-46ab-b97b-fdc26e82b24c",
-        "weekNumber": 6,
-        "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PickleRage Union County",
-        "awayName": "Picklr Fair Lawn"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a9a9f257-8b7a-455c-8cc4-d43a01158716",
-    "details": {
-      "matchup": {
-        "matchupId": "a9a9f257-8b7a-455c-8cc4-d43a01158716",
-        "weekNumber": 6,
-        "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Blue",
-        "awayName": "Pickleball Kingdom Hillsborough"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "c52e8c1d-1275-4fe3-985c-e65d5b96c66e",
-    "details": {
-      "matchup": {
-        "matchupId": "c52e8c1d-1275-4fe3-985c-e65d5b96c66e",
-        "weekNumber": 6,
-        "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Malvern",
-        "awayName": "Dill Dinkers Newport"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "c6973e64-5e7f-4e55-aced-9538f5017980",
-    "details": {
-      "matchup": {
-        "matchupId": "c6973e64-5e7f-4e55-aced-9538f5017980",
-        "weekNumber": 6,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Players Courtyard"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "fa31add3-5c40-4c31-a25f-a062566d9520",
-    "details": {
-      "matchup": {
-        "matchupId": "fa31add3-5c40-4c31-a25f-a062566d9520",
-        "weekNumber": 6,
-        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Monroe",
-        "awayName": "Life Time Red Bank"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e1f03c41-23eb-4c5a-a711-a4709905bd2c",
-    "details": {
-      "matchup": {
-        "matchupId": "e1f03c41-23eb-4c5a-a711-a4709905bd2c",
-        "weekNumber": 6,
-        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Blue",
-        "awayName": "Mercer Bucks"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "2c108a09-e642-46b9-bf50-2179f7c5e8b9",
-    "details": {
-      "matchup": {
-        "matchupId": "2c108a09-e642-46b9-bf50-2179f7c5e8b9",
-        "weekNumber": 8,
-        "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Dinkers",
-        "awayName": "Life Time Red Bank"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3411723e-36d9-4e63-a898-96360f329f09",
-    "details": {
-      "matchup": {
-        "matchupId": "3411723e-36d9-4e63-a898-96360f329f09",
-        "weekNumber": 8,
-        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Players Courtyard",
-        "awayName": "Bounce Philly"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "624d0846-66d8-4b04-8d03-c5a7a107892d",
-    "details": {
-      "matchup": {
-        "matchupId": "624d0846-66d8-4b04-8d03-c5a7a107892d",
-        "weekNumber": 8,
-        "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PKLD",
-        "awayName": "One Love"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "80e7e155-88aa-46a8-ba27-c65c6a049196",
-    "details": {
-      "matchup": {
-        "matchupId": "80e7e155-88aa-46a8-ba27-c65c6a049196",
-        "weekNumber": 8,
-        "homeTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Colts Neck Racquet Club",
-        "awayName": "Monroe"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3e37cb0e-c3f4-4b5b-824a-e09a71b4cbdb",
-    "details": {
-      "matchup": {
-        "matchupId": "3e37cb0e-c3f4-4b5b-824a-e09a71b4cbdb",
-        "weekNumber": 8,
-        "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "awayTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PickleRage Union County",
-        "awayName": "Premiere Aces"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "6f477516-a4fa-4c96-8cd2-a453cf530c60",
-    "details": {
-      "matchup": {
-        "matchupId": "6f477516-a4fa-4c96-8cd2-a453cf530c60",
-        "weekNumber": 8,
-        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Allstar Pickler",
-        "awayName": "Pickleball Palace Black"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "0b7840f0-dbe9-4cd2-b338-eef2555197e6",
-    "details": {
-      "matchup": {
-        "matchupId": "0b7840f0-dbe9-4cd2-b338-eef2555197e6",
-        "weekNumber": 8,
-        "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Malvern",
-        "awayName": "Jersey Devil"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a67c9587-3216-4b4f-bc95-0072a0ec4abe",
-    "details": {
-      "matchup": {
-        "matchupId": "a67c9587-3216-4b4f-bc95-0072a0ec4abe",
-        "weekNumber": 8,
-        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Green",
-        "awayName": "ACE Moorestown"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "ed777926-1839-4550-a879-1d5256e343f2",
-    "details": {
-      "matchup": {
-        "matchupId": "ed777926-1839-4550-a879-1d5256e343f2",
-        "weekNumber": 8,
-        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "awayTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Blue",
-        "awayName": "Pickleball Kingdom Hamilton Prime Time"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a96e9d91-93af-4422-be0e-502c7c09f217",
-    "details": {
-      "matchup": {
-        "matchupId": "a96e9d91-93af-4422-be0e-502c7c09f217",
-        "weekNumber": 8,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Dill Dinkers Newport"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9fb6cd1e-4e64-4b07-8163-a99a8d966e9c",
-    "details": {
-      "matchup": {
-        "matchupId": "9fb6cd1e-4e64-4b07-8163-a99a8d966e9c",
-        "weekNumber": 8,
-        "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Strikers",
-        "awayName": "Mercer Bucks"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "5a3a52db-9c70-4b01-8fdf-c4a90c40f92c",
-    "details": {
-      "matchup": {
-        "matchupId": "5a3a52db-9c70-4b01-8fdf-c4a90c40f92c",
-        "weekNumber": 8,
-        "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Blue",
-        "awayName": "Picklr Fair Lawn"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3ab340de-c964-4c0b-914f-340d16fd5a71",
-    "details": {
-      "matchup": {
-        "matchupId": "3ab340de-c964-4c0b-914f-340d16fd5a71",
-        "weekNumber": 9,
-        "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Aces",
-        "awayName": "Pickleball Palace Black"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "5d42a7d3-b7e5-459e-94f4-368e6d14cf05",
-    "details": {
-      "matchup": {
-        "matchupId": "5d42a7d3-b7e5-459e-94f4-368e6d14cf05",
-        "weekNumber": 9,
-        "homeTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Colts Neck Racquet Club",
-        "awayName": "Life Time Red Bank"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "956e84fe-8cf2-4b0b-a3ab-67f34ae68ca5",
-    "details": {
-      "matchup": {
-        "matchupId": "956e84fe-8cf2-4b0b-a3ab-67f34ae68ca5",
-        "weekNumber": 9,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "Picklr Fair Lawn"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "c60a962c-3257-4d79-b571-8aa2276da608",
-    "details": {
-      "matchup": {
-        "matchupId": "c60a962c-3257-4d79-b571-8aa2276da608",
-        "weekNumber": 9,
-        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Hatboro",
-        "awayName": "Players Courtyard"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "8fa352f8-cdbf-4398-87db-9e79026d13e7",
-    "details": {
-      "matchup": {
-        "matchupId": "8fa352f8-cdbf-4398-87db-9e79026d13e7",
-        "weekNumber": 9,
-        "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PKLD",
-        "awayName": "Monroe"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e0a11bf0-7e1f-491d-95bf-a0582ac9530a",
-    "details": {
-      "matchup": {
-        "matchupId": "e0a11bf0-7e1f-491d-95bf-a0582ac9530a",
-        "weekNumber": 9,
-        "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Prime Time",
-        "awayName": "Mercer Bucks"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "31358ad0-de34-4041-b39d-d2c15bbdaf2d",
-    "details": {
-      "matchup": {
-        "matchupId": "31358ad0-de34-4041-b39d-d2c15bbdaf2d",
-        "weekNumber": 9,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Premiere Dinkers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f9f9620b-b63e-4159-b2c1-065a7a8b248c",
-    "details": {
-      "matchup": {
-        "matchupId": "f9f9620b-b63e-4159-b2c1-065a7a8b248c",
-        "weekNumber": 9,
-        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Allstar Pickler",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "cb6a5b13-b659-4e3e-b158-783d323e1e35",
-    "details": {
-      "matchup": {
-        "matchupId": "cb6a5b13-b659-4e3e-b158-783d323e1e35",
-        "weekNumber": 9,
-        "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Malvern",
-        "awayName": "Forward"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d8df2e19-c369-4f9c-9f48-10840e4dc54f",
-    "details": {
-      "matchup": {
-        "matchupId": "d8df2e19-c369-4f9c-9f48-10840e4dc54f",
-        "weekNumber": 9,
-        "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Devil",
-        "awayName": "Dill Dinkers Newport"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "64e011d1-ada4-49f6-9686-97d9517898c9",
-    "details": {
-      "matchup": {
-        "matchupId": "64e011d1-ada4-49f6-9686-97d9517898c9",
-        "weekNumber": 9,
-        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE Moorestown",
-        "awayName": "Flemington Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "1d6eeae4-dfc7-4902-b4e8-d3333185ff08",
-    "details": {
-      "matchup": {
-        "matchupId": "1d6eeae4-dfc7-4902-b4e8-d3333185ff08",
-        "weekNumber": 9,
-        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "awayTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Green",
-        "awayName": "Pickleball Kingdom Hamilton Strikers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f0f6af68-b8a2-4152-8e50-253ecb7d882c",
-    "details": {
-      "matchup": {
-        "matchupId": "f0f6af68-b8a2-4152-8e50-253ecb7d882c",
-        "weekNumber": 10,
-        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Hatboro",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "ea28a704-b804-4ceb-bd1c-5dcb7eaf5b2a",
-    "details": {
-      "matchup": {
-        "matchupId": "ea28a704-b804-4ceb-bd1c-5dcb7eaf5b2a",
-        "weekNumber": 10,
-        "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Newport",
-        "awayName": "Bounce Philly"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f3f8ce07-eaff-4b87-a54e-6feeee2d5d2a",
-    "details": {
-      "matchup": {
-        "matchupId": "f3f8ce07-eaff-4b87-a54e-6feeee2d5d2a",
-        "weekNumber": 10,
-        "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Devil",
-        "awayName": "Players Courtyard"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "283119ec-1dbb-4a2b-9117-a3455964b685",
-    "details": {
-      "matchup": {
-        "matchupId": "283119ec-1dbb-4a2b-9117-a3455964b685",
-        "weekNumber": 10,
-        "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "awayTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Dinkers",
-        "awayName": "Colts Neck Racquet Club"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "cc361cf6-8b0e-46dd-a8b9-d7b8a7eed4b1",
-    "details": {
-      "matchup": {
-        "matchupId": "cc361cf6-8b0e-46dd-a8b9-d7b8a7eed4b1",
-        "weekNumber": 10,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "095dd2ba-c892-46e7-b692-b3dc4544f00a",
-    "details": {
-      "matchup": {
-        "matchupId": "095dd2ba-c892-46e7-b692-b3dc4544f00a",
-        "weekNumber": 10,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "Pickleball Palace Black"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3e305eb9-f31f-4ee6-b5c2-123e2d823c98",
-    "details": {
-      "matchup": {
-        "matchupId": "3e305eb9-f31f-4ee6-b5c2-123e2d823c98",
-        "weekNumber": 10,
-        "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Life Time Red Bank",
-        "awayName": "PKLD"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e3386433-8f1d-4429-9921-4bb93c80eb06",
-    "details": {
-      "matchup": {
-        "matchupId": "e3386433-8f1d-4429-9921-4bb93c80eb06",
-        "weekNumber": 10,
-        "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "awayTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Blue",
-        "awayName": "Premiere Aces"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3245b3fc-333a-4bf9-98dc-76d62c051133",
-    "details": {
-      "matchup": {
-        "matchupId": "3245b3fc-333a-4bf9-98dc-76d62c051133",
-        "weekNumber": 10,
-        "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Strikers",
-        "awayName": "Flemington Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "244785e4-ba66-4065-9e31-909abb33474c",
-    "details": {
-      "matchup": {
-        "matchupId": "244785e4-ba66-4065-9e31-909abb33474c",
-        "weekNumber": 10,
-        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "awayTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE Moorestown",
-        "awayName": "Pickleball Kingdom Hamilton Prime Time"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "51973709-186d-4e57-9be7-d0d64e3855f4",
-    "details": {
-      "matchup": {
-        "matchupId": "51973709-186d-4e57-9be7-d0d64e3855f4",
-        "weekNumber": 10,
-        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Green",
-        "awayName": "Mercer Bucks"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e9870507-750b-4b71-a483-f41fa927935a",
-    "details": {
-      "matchup": {
-        "matchupId": "e9870507-750b-4b71-a483-f41fa927935a",
-        "weekNumber": 10,
-        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Monroe",
-        "awayName": "One Love"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "7212bef8-5c25-40ff-ae85-353664d48e22",
-    "details": {
-      "matchup": {
-        "matchupId": "7212bef8-5c25-40ff-ae85-353664d48e22",
-        "weekNumber": 11,
-        "homeTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Colts Neck Racquet Club",
-        "awayName": "One Love"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "70f14e6d-3e35-4aa0-9024-6fd51fa03ae0",
-    "details": {
-      "matchup": {
-        "matchupId": "70f14e6d-3e35-4aa0-9024-6fd51fa03ae0",
-        "weekNumber": 11,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "Premiere Aces"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f48c2300-ab26-47e8-85ea-899c311f2847",
-    "details": {
-      "matchup": {
-        "matchupId": "f48c2300-ab26-47e8-85ea-899c311f2847",
-        "weekNumber": 11,
-        "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Devil",
-        "awayName": "Forward"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9bc2d87a-e85c-46e2-96e8-9dbb76ee2666",
-    "details": {
-      "matchup": {
-        "matchupId": "9bc2d87a-e85c-46e2-96e8-9dbb76ee2666",
-        "weekNumber": 11,
-        "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Dinkers",
-        "awayName": "PKLD"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f5630dca-99b2-484a-a4b9-e428950b4289",
-    "details": {
-      "matchup": {
-        "matchupId": "f5630dca-99b2-484a-a4b9-e428950b4289",
-        "weekNumber": 11,
-        "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Newport",
-        "awayName": "Dill Dinkers Hatboro"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "424fa491-d5c8-4874-b59c-20fe2d372ea9",
-    "details": {
-      "matchup": {
-        "matchupId": "424fa491-d5c8-4874-b59c-20fe2d372ea9",
-        "weekNumber": 11,
-        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Philly",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "79de6971-f1e5-4afe-81ba-49c889b296dd",
-    "details": {
-      "matchup": {
-        "matchupId": "79de6971-f1e5-4afe-81ba-49c889b296dd",
-        "weekNumber": 11,
-        "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Mercer Bucks",
-        "awayName": "Flemington Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "968de477-42fb-459f-b265-b7be616005d1",
-    "details": {
-      "matchup": {
-        "matchupId": "968de477-42fb-459f-b265-b7be616005d1",
-        "weekNumber": 11,
-        "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Black",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "2082fd34-ef7a-4a65-be18-803e2cc5dc6a",
-    "details": {
-      "matchup": {
-        "matchupId": "2082fd34-ef7a-4a65-be18-803e2cc5dc6a",
-        "weekNumber": 11,
-        "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "awayTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Allstar Pickler",
-        "awayName": "Pickleball Palace Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a147c666-0c68-4a60-b015-c44dd9db9999",
-    "details": {
-      "matchup": {
-        "matchupId": "a147c666-0c68-4a60-b015-c44dd9db9999",
-        "weekNumber": 11,
-        "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Life Time Red Bank",
-        "awayName": "Monroe"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "0f4e5d7a-108b-4a53-98c2-2c9d027a2f4b",
-    "details": {
-      "matchup": {
-        "matchupId": "0f4e5d7a-108b-4a53-98c2-2c9d027a2f4b",
-        "weekNumber": 11,
-        "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "awayTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Green",
-        "awayName": "Pickleball Kingdom Hamilton Prime Time"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d4548452-9437-4a2d-99a6-8a6f3bfa9e1b",
-    "details": {
-      "matchup": {
-        "matchupId": "d4548452-9437-4a2d-99a6-8a6f3bfa9e1b",
-        "weekNumber": 11,
-        "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Strikers",
-        "awayName": "ACE Moorestown"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "8e621584-1efc-49df-8c5b-5d480f2a4362",
-    "details": {
-      "matchup": {
-        "matchupId": "8e621584-1efc-49df-8c5b-5d480f2a4362",
-        "weekNumber": 13,
-        "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Prime Time",
-        "awayName": "Flemington Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "f6a1d4ab-3b15-49f3-8c2f-dd975f5338a5",
-    "details": {
-      "matchup": {
-        "matchupId": "f6a1d4ab-3b15-49f3-8c2f-dd975f5338a5",
-        "weekNumber": 13,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "PKLD"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "8c454f2c-62d5-4e90-b387-f1252dc6814e",
-    "details": {
-      "matchup": {
-        "matchupId": "8c454f2c-62d5-4e90-b387-f1252dc6814e",
-        "weekNumber": 13,
-        "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Aces",
-        "awayName": "Picklr Fair Lawn"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "133bea0c-0f5a-409f-8e41-f2a85068e6dd",
-    "details": {
-      "matchup": {
-        "matchupId": "133bea0c-0f5a-409f-8e41-f2a85068e6dd",
-        "weekNumber": 13,
-        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Players Courtyard",
-        "awayName": "Dill Dinkers Newport"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d7fbc309-29e5-4042-b9a0-fd07303d8c61",
-    "details": {
-      "matchup": {
-        "matchupId": "d7fbc309-29e5-4042-b9a0-fd07303d8c61",
-        "weekNumber": 13,
-        "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hillsborough",
-        "awayName": "PickleRage Union County"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9c9a6644-2fd1-4edd-8622-8663d5b12ca0",
-    "details": {
-      "matchup": {
-        "matchupId": "9c9a6644-2fd1-4edd-8622-8663d5b12ca0",
-        "weekNumber": 13,
-        "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Philly",
-        "awayName": "Jersey Devil"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d0abb899-efc9-4dde-ae54-978286e5e640",
-    "details": {
-      "matchup": {
-        "matchupId": "d0abb899-efc9-4dde-ae54-978286e5e640",
-        "weekNumber": 13,
-        "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "awayTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Mercer Bucks",
-        "awayName": "Pickleball Kingdom Hamilton Strikers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "cb8d99ef-6b5f-458c-9e13-fadcd76059fa",
-    "details": {
-      "matchup": {
-        "matchupId": "cb8d99ef-6b5f-458c-9e13-fadcd76059fa",
-        "weekNumber": 13,
-        "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Life Time Red Bank",
-        "awayName": "Premiere Dinkers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "21921f5f-a2e6-4b21-ac30-7f9b813c8ed9",
-    "details": {
-      "matchup": {
-        "matchupId": "21921f5f-a2e6-4b21-ac30-7f9b813c8ed9",
-        "weekNumber": 13,
-        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE Moorestown",
-        "awayName": "Flemington Green"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "075cf09a-589e-42cb-8cfc-baef0ed9432d",
-    "details": {
-      "matchup": {
-        "matchupId": "075cf09a-589e-42cb-8cfc-baef0ed9432d",
-        "weekNumber": 13,
-        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "awayTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Monroe",
-        "awayName": "Colts Neck Racquet Club"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "4b3d109b-e934-433e-9d5f-d3a4acaeac92",
-    "details": {
-      "matchup": {
-        "matchupId": "4b3d109b-e934-433e-9d5f-d3a4acaeac92",
-        "weekNumber": 13,
-        "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "awayTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Black",
-        "awayName": "Pickleball Palace Blue"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "daa7dc36-297d-4949-86fd-e3ae65a601ef",
-    "details": {
-      "matchup": {
-        "matchupId": "daa7dc36-297d-4949-86fd-e3ae65a601ef",
-        "weekNumber": 13,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Dill Dinkers Hatboro"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b50af696-3215-44a5-b9a7-07589feee57e",
-    "details": {
-      "matchup": {
-        "matchupId": "b50af696-3215-44a5-b9a7-07589feee57e",
-        "weekNumber": 14,
-        "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Hatboro",
-        "awayName": "Dill Dinkers Newport"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a2962cb2-239f-4085-8ab6-8742afacb678",
-    "details": {
-      "matchup": {
-        "matchupId": "a2962cb2-239f-4085-8ab6-8742afacb678",
-        "weekNumber": 14,
-        "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Premiere Aces",
-        "awayName": "Pickleball Kingdom Hillsborough"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "258d46ab-75e7-4ada-ab47-bb7eb942a30c",
-    "details": {
-      "matchup": {
-        "matchupId": "258d46ab-75e7-4ada-ab47-bb7eb942a30c",
-        "weekNumber": 14,
-        "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PickleRage Union County",
-        "awayName": "Pickleball Palace Black"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "6544fb80-9b46-434b-93c3-febf98fc2815",
-    "details": {
-      "matchup": {
-        "matchupId": "6544fb80-9b46-434b-93c3-febf98fc2815",
-        "weekNumber": 14,
-        "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-        "awayTeamId": "8a14842b-05c1-4244-9e3f-b1d4e3840c3e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PKLD",
-        "awayName": "Colts Neck Racquet Club"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "52383967-851b-4168-aae0-5e46184a550e",
-    "details": {
-      "matchup": {
-        "matchupId": "52383967-851b-4168-aae0-5e46184a550e",
-        "weekNumber": 14,
-        "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Blue",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "539ac712-170b-4a67-bf83-735eb29663ce",
-    "details": {
-      "matchup": {
-        "matchupId": "539ac712-170b-4a67-bf83-735eb29663ce",
-        "weekNumber": 14,
-        "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-        "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Mercer Bucks",
-        "awayName": "ACE Moorestown"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "a80030b3-01b7-4e22-92a6-107547dd5348",
-    "details": {
-      "matchup": {
-        "matchupId": "a80030b3-01b7-4e22-92a6-107547dd5348",
-        "weekNumber": 14,
-        "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Bounce Malvern",
-        "awayName": "Bounce Philly"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "943deba8-1743-4cc3-8759-3e83eaddc090",
-    "details": {
-      "matchup": {
-        "matchupId": "943deba8-1743-4cc3-8759-3e83eaddc090",
-        "weekNumber": 14,
-        "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-        "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Life Time Red Bank",
-        "awayName": "One Love"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "28018a6c-1a31-4fec-b3b8-25b24a613f8b",
-    "details": {
-      "matchup": {
-        "matchupId": "28018a6c-1a31-4fec-b3b8-25b24a613f8b",
-        "weekNumber": 14,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Jersey Devil"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "292e0337-41b3-4a12-b62c-4a4cdf66990b",
-    "details": {
-      "matchup": {
-        "matchupId": "292e0337-41b3-4a12-b62c-4a4cdf66990b",
-        "weekNumber": 14,
-        "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "awayTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Kingdom Hamilton Strikers",
-        "awayName": "Pickleball Kingdom Hamilton Prime Time"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "b4d9c687-67fa-41b3-9b94-6a5844148d03",
-    "details": {
-      "matchup": {
-        "matchupId": "b4d9c687-67fa-41b3-9b94-6a5844148d03",
-        "weekNumber": 14,
-        "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Flemington Blue",
-        "awayName": "Flemington Green"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "720112dc-4d14-487b-8e41-c85d6a520f18",
-    "details": {
-      "matchup": {
-        "matchupId": "720112dc-4d14-487b-8e41-c85d6a520f18",
-        "weekNumber": 14,
-        "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Monroe",
-        "awayName": "Premiere Dinkers"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "5c545fbb-7880-4078-be1b-2a32aecae96c",
-    "details": {
-      "matchup": {
-        "matchupId": "5c545fbb-7880-4078-be1b-2a32aecae96c",
-        "weekNumber": 15,
-        "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "PickleRage Union County",
-        "awayName": "Allstar Pickler"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "e25c3e0c-3d2f-4347-ad1b-51986bb05efd",
-    "details": {
-      "matchup": {
-        "matchupId": "e25c3e0c-3d2f-4347-ad1b-51986bb05efd",
-        "weekNumber": 15,
-        "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-        "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dill Dinkers Newport",
-        "awayName": "Jersey Devil"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "d680759b-5b2a-4d90-b2fe-89ead66fa9ee",
-    "details": {
-      "matchup": {
-        "matchupId": "d680759b-5b2a-4d90-b2fe-89ead66fa9ee",
-        "weekNumber": 15,
-        "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-        "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Players Courtyard",
-        "awayName": "Dill Dinkers Hatboro"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "4ac48425-d133-4f92-b6b5-b12f44cdf796",
-    "details": {
-      "matchup": {
-        "matchupId": "4ac48425-d133-4f92-b6b5-b12f44cdf796",
-        "weekNumber": 15,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "Pickleball Kingdom Hillsborough"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "9f3f71c6-144b-41fc-b583-4fd5338d5d53",
-    "details": {
-      "matchup": {
-        "matchupId": "9f3f71c6-144b-41fc-b583-4fd5338d5d53",
-        "weekNumber": 15,
-        "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-        "awayTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace Black",
-        "awayName": "Premiere Aces"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "cb5cf06f-f211-470c-81c9-8ad2b4e52a46",
-    "details": {
-      "matchup": {
-        "matchupId": "cb5cf06f-f211-470c-81c9-8ad2b4e52a46",
-        "weekNumber": 15,
-        "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-        "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Forward",
-        "awayName": "Bounce Malvern"
-      }
-    }
+    "details": {}
   },
   {
     "matchupId": "3b633003-f7b6-4396-a808-e7220961637d",
-    "details": {
-      "matchup": {
-        "matchupId": "3b633003-f7b6-4396-a808-e7220961637d",
-        "weekNumber": 15,
-        "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-        "awayTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE Moorestown",
-        "awayName": "Pickleball Kingdom Hamilton Strikers"
-      }
-    }
+    "details": {}
   }
 ]

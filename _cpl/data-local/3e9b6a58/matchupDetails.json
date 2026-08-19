@@ -2,17 +2,6 @@
   {
     "matchupId": "7fbb7d53-d68d-4629-b564-756e31947000",
     "details": {
-      "matchup": {
-        "matchupId": "7fbb7d53-d68d-4629-b564-756e31947000",
-        "weekNumber": 1,
-        "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "homePoints": 666,
-        "awayPoints": 519,
-        "endResult": "home",
-        "homeName": "Picholas Cage",
-        "awayName": "License to Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -671,17 +660,6 @@
   {
     "matchupId": "1d22eb79-3a0d-45e2-b90c-acf383187ab0",
     "details": {
-      "matchup": {
-        "matchupId": "1d22eb79-3a0d-45e2-b90c-acf383187ab0",
-        "weekNumber": 1,
-        "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "homePoints": 678,
-        "awayPoints": 547,
-        "endResult": "home",
-        "homeName": "Balls of Fury",
-        "awayName": "Baggers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1357,17 +1335,6 @@
   {
     "matchupId": "e96939a2-fc64-48a8-83df-490e4dcbb9ef",
     "details": {
-      "matchup": {
-        "matchupId": "e96939a2-fc64-48a8-83df-490e4dcbb9ef",
-        "weekNumber": 2,
-        "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "homePoints": 622,
-        "awayPoints": 611,
-        "endResult": "home",
-        "homeName": "Baggers",
-        "awayName": "Kitchen Nightmares"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2009,17 +1976,6 @@
   {
     "matchupId": "2ce48089-a81e-4f13-a5a1-9f0726ebdaeb",
     "details": {
-      "matchup": {
-        "matchupId": "2ce48089-a81e-4f13-a5a1-9f0726ebdaeb",
-        "weekNumber": 2,
-        "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "homePoints": 629,
-        "awayPoints": 578,
-        "endResult": "home",
-        "homeName": "License to Dill",
-        "awayName": "Balls of Fury"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2695,17 +2651,6 @@
   {
     "matchupId": "678fec6e-4439-4c16-9d1d-cf311485a408",
     "details": {
-      "matchup": {
-        "matchupId": "678fec6e-4439-4c16-9d1d-cf311485a408",
-        "weekNumber": 3,
-        "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "homePoints": 567,
-        "awayPoints": 617,
-        "endResult": "away",
-        "homeName": "Kitchen Nightmares",
-        "awayName": "Balls of Fury"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3330,17 +3275,6 @@
   {
     "matchupId": "e2c36ff6-ccf5-4b6f-8680-dd9b938a2a3b",
     "details": {
-      "matchup": {
-        "matchupId": "e2c36ff6-ccf5-4b6f-8680-dd9b938a2a3b",
-        "weekNumber": 3,
-        "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "homePoints": 610,
-        "awayPoints": 613,
-        "endResult": "home",
-        "homeName": "Baggers",
-        "awayName": "Picholas Cage"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4016,17 +3950,6 @@
   {
     "matchupId": "ce1406e1-a718-49a5-87a1-93786d9dd6b7",
     "details": {
-      "matchup": {
-        "matchupId": "ce1406e1-a718-49a5-87a1-93786d9dd6b7",
-        "weekNumber": 4,
-        "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "homePoints": 623,
-        "awayPoints": 605,
-        "endResult": "away",
-        "homeName": "Kitchen Nightmares",
-        "awayName": "License to Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4702,17 +4625,6 @@
   {
     "matchupId": "93215edd-5bfc-4b9e-b1fa-a1ef9b8a3c24",
     "details": {
-      "matchup": {
-        "matchupId": "93215edd-5bfc-4b9e-b1fa-a1ef9b8a3c24",
-        "weekNumber": 4,
-        "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "homePoints": 618,
-        "awayPoints": 616,
-        "endResult": "home",
-        "homeName": "Balls of Fury",
-        "awayName": "Picholas Cage"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5388,17 +5300,6 @@
   {
     "matchupId": "0b87f5fc-12fe-44d9-b8cb-6b7cf632c9c1",
     "details": {
-      "matchup": {
-        "matchupId": "0b87f5fc-12fe-44d9-b8cb-6b7cf632c9c1",
-        "weekNumber": 5,
-        "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "homePoints": 613,
-        "awayPoints": 548,
-        "endResult": "home",
-        "homeName": "Picholas Cage",
-        "awayName": "Kitchen Nightmares"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6074,17 +5975,6 @@
   {
     "matchupId": "0cef505a-dc49-4f71-8cf5-d9646e62bd52",
     "details": {
-      "matchup": {
-        "matchupId": "0cef505a-dc49-4f71-8cf5-d9646e62bd52",
-        "weekNumber": 5,
-        "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "homePoints": 634,
-        "awayPoints": 607,
-        "endResult": "home",
-        "homeName": "License to Dill",
-        "awayName": "Baggers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6743,17 +6633,6 @@
   {
     "matchupId": "219085d9-c5fb-4a68-a1d1-1f2292b19f0e",
     "details": {
-      "matchup": {
-        "matchupId": "219085d9-c5fb-4a68-a1d1-1f2292b19f0e",
-        "weekNumber": 6,
-        "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "homePoints": 644,
-        "awayPoints": 569,
-        "endResult": "home",
-        "homeName": "Baggers",
-        "awayName": "Balls of Fury"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7429,17 +7308,6 @@
   {
     "matchupId": "dab7dac5-95bb-4916-9a85-2282d3fc0a77",
     "details": {
-      "matchup": {
-        "matchupId": "dab7dac5-95bb-4916-9a85-2282d3fc0a77",
-        "weekNumber": 6,
-        "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "homePoints": 626,
-        "awayPoints": 637,
-        "endResult": "away",
-        "homeName": "License to Dill",
-        "awayName": "Picholas Cage"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8115,17 +7983,6 @@
   {
     "matchupId": "56832461-fd6a-4a43-bb9a-d0973f9f1ed2",
     "details": {
-      "matchup": {
-        "matchupId": "56832461-fd6a-4a43-bb9a-d0973f9f1ed2",
-        "weekNumber": 7,
-        "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "homePoints": 637,
-        "awayPoints": 584,
-        "endResult": "home",
-        "homeName": "Balls of Fury",
-        "awayName": "License to Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8801,17 +8658,6 @@
   {
     "matchupId": "1242fc1c-278c-4d3f-a89e-f2b5dd7979f8",
     "details": {
-      "matchup": {
-        "matchupId": "1242fc1c-278c-4d3f-a89e-f2b5dd7979f8",
-        "weekNumber": 7,
-        "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "homePoints": 517,
-        "awayPoints": 652,
-        "endResult": "away",
-        "homeName": "Kitchen Nightmares",
-        "awayName": "Baggers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9470,17 +9316,6 @@
   {
     "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
     "details": {
-      "matchup": {
-        "matchupId": "33db9e1d-064d-42f9-a1a8-04d8174e8bbc",
-        "weekNumber": 8,
-        "homeTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "homePoints": 643,
-        "awayPoints": 565,
-        "endResult": "home",
-        "homeName": "Kitchen Nightmares",
-        "awayName": "Picholas Cage"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10139,17 +9974,6 @@
   {
     "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
     "details": {
-      "matchup": {
-        "matchupId": "f02396ad-5c22-49af-832e-26ccd4be20a1",
-        "weekNumber": 8,
-        "homeTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "awayTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-        "homePoints": 593,
-        "awayPoints": 593,
-        "endResult": "away",
-        "homeName": "Baggers",
-        "awayName": "License to Dill"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10825,17 +10649,6 @@
   {
     "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
     "details": {
-      "matchup": {
-        "matchupId": "887f3282-2aee-4901-88e4-54587129a517",
-        "weekNumber": 9,
-        "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-        "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-        "homePoints": 638,
-        "awayPoints": 611,
-        "endResult": "home",
-        "homeName": "Balls of Fury",
-        "awayName": "Kitchen Nightmares"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -11477,17 +11290,6 @@
   {
     "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
     "details": {
-      "matchup": {
-        "matchupId": "bb7b59da-a8d2-459d-9a89-a34761a60fae",
-        "weekNumber": 9,
-        "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-        "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
-        "homePoints": 615,
-        "awayPoints": 602,
-        "endResult": "home",
-        "homeName": "Picholas Cage",
-        "awayName": "Baggers"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
