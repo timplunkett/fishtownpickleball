@@ -1078,7 +1078,31 @@ function getProjectedPlayerGames(player) {
     }
   }
   projectedGames.sort((a, b) => a.wk - b.wk);
-  return projectedGames;
+
+  const playoffProjected = [];
+  for (const match of DATA.playoffs || []) {
+    if (match.complete || !(match.games || []).length) continue;
+    for (const game of match.games || []) {
+      const playerOnHomeSide = game.h?.includes(player.name);
+      const playerOnAwaySide = game.a?.includes(player.name);
+      if (!playerOnHomeSide && !playerOnAwaySide) continue;
+      const usPlayers = playerOnHomeSide ? game.h : game.a;
+      const themPlayers = playerOnHomeSide ? game.a : game.h;
+      const partner = usPlayers[0] === player.name ? usPlayers[1] : usPlayers[0];
+      playoffProjected.push({
+        wk: match.round || 1,
+        opp: playerOnHomeSide ? match.away : match.home,
+        t: game.t,
+        with: partner || '',
+        vs: [themPlayers[0] || '', themPlayers[1] || ''],
+        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+        isPlayoff: true,
+      });
+    }
+  }
+  playoffProjected.sort((a, b) => a.wk - b.wk);
+
+  return [...projectedGames, ...playoffProjected];
 }
 
 function renderGameLogRows(player, projectedGames = []) {
@@ -1120,12 +1144,15 @@ function renderGameLogRows(player, projectedGames = []) {
     `;
   }
 
+  let lastIsPlayoff = false;
   for (const game of projectedGames) {
-    if (game.wk !== lastWeek) {
+    if (game.wk !== lastWeek || (game.isPlayoff || false) !== lastIsPlayoff) {
       lastWeek = game.wk;
+      lastIsPlayoff = game.isPlayoff || false;
+      const weekLabel = game.isPlayoff ? `Playoffs` : `Week ${game.wk}`;
       gameLog += `
         <tr class="wkrow wkrow-projected">
-          <td colspan="6" class="l"><span class="mut">(projected)</span> Week ${game.wk} • vs ${escapeHtml(game.opp)}</td>
+          <td colspan="6" class="l"><span class="mut">(projected)</span> ${weekLabel} • vs ${escapeHtml(game.opp)}</td>
         </tr>
       `;
     }
