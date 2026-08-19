@@ -2,17 +2,6 @@
   {
     "matchupId": "2e0bcf6f-170c-491d-9eb5-abac66f63146",
     "details": {
-      "matchup": {
-        "matchupId": "2e0bcf6f-170c-491d-9eb5-abac66f63146",
-        "weekNumber": 1,
-        "homeTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "awayTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "homePoints": 584,
-        "awayPoints": 624,
-        "endResult": "away",
-        "homeName": "Ackley's Aces",
-        "awayName": "Color Coordinated Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -637,17 +626,6 @@
   {
     "matchupId": "6b00ad6c-1288-4627-8b0f-b609a5a6c75f",
     "details": {
-      "matchup": {
-        "matchupId": "6b00ad6c-1288-4627-8b0f-b609a5a6c75f",
-        "weekNumber": 1,
-        "homeTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "awayTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "homePoints": 641,
-        "awayPoints": 588,
-        "endResult": "home",
-        "homeName": "Draft Day Disasters",
-        "awayName": "The Dill Inquents"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1272,17 +1250,6 @@
   {
     "matchupId": "0cd62dfd-1782-429d-9fe7-0e9e6a754bf3",
     "details": {
-      "matchup": {
-        "matchupId": "0cd62dfd-1782-429d-9fe7-0e9e6a754bf3",
-        "weekNumber": 2,
-        "homeTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "awayTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "homePoints": 614,
-        "awayPoints": 559,
-        "endResult": "home",
-        "homeName": "Color Coordinated Chaos",
-        "awayName": "The Dill Inquents"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1958,17 +1925,6 @@
   {
     "matchupId": "a9f40d79-c761-437f-9707-a3c383746c86",
     "details": {
-      "matchup": {
-        "matchupId": "a9f40d79-c761-437f-9707-a3c383746c86",
-        "weekNumber": 2,
-        "homeTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "awayTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "homePoints": 633,
-        "awayPoints": 573,
-        "endResult": "home",
-        "homeName": "Ackley's Aces",
-        "awayName": "Draft Day Disasters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2593,17 +2549,6 @@
   {
     "matchupId": "972c79e9-9c15-40f8-81ee-53889447c789",
     "details": {
-      "matchup": {
-        "matchupId": "972c79e9-9c15-40f8-81ee-53889447c789",
-        "weekNumber": 3,
-        "homeTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "awayTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "homePoints": 636,
-        "awayPoints": 566,
-        "endResult": "home",
-        "homeName": "Color Coordinated Chaos",
-        "awayName": "Ackley's Aces"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3228,17 +3173,6 @@
   {
     "matchupId": "ef653ff7-cd7e-49dd-b1e4-fd0e4ab657c7",
     "details": {
-      "matchup": {
-        "matchupId": "ef653ff7-cd7e-49dd-b1e4-fd0e4ab657c7",
-        "weekNumber": 3,
-        "homeTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "awayTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "homePoints": 594,
-        "awayPoints": 630,
-        "endResult": "away",
-        "homeName": "The Dill Inquents",
-        "awayName": "Draft Day Disasters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3863,17 +3797,6 @@
   {
     "matchupId": "e0fd972f-9645-41a4-985e-eaee2fe7e8a2",
     "details": {
-      "matchup": {
-        "matchupId": "e0fd972f-9645-41a4-985e-eaee2fe7e8a2",
-        "weekNumber": 4,
-        "homeTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "awayTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "homePoints": 595,
-        "awayPoints": 639,
-        "endResult": "away",
-        "homeName": "The Dill Inquents",
-        "awayName": "Color Coordinated Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4549,17 +4472,6 @@
   {
     "matchupId": "bba96753-3c07-4185-8108-8b90a68f3b06",
     "details": {
-      "matchup": {
-        "matchupId": "bba96753-3c07-4185-8108-8b90a68f3b06",
-        "weekNumber": 4,
-        "homeTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "awayTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "homePoints": 628,
-        "awayPoints": 608,
-        "endResult": "home",
-        "homeName": "Draft Day Disasters",
-        "awayName": "Ackley's Aces"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5201,17 +5113,6 @@
   {
     "matchupId": "f6f17239-bde3-49fd-b8b5-b039f1550492",
     "details": {
-      "matchup": {
-        "matchupId": "f6f17239-bde3-49fd-b8b5-b039f1550492",
-        "weekNumber": 5,
-        "homeTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "awayTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "homePoints": 599,
-        "awayPoints": 612,
-        "endResult": "away",
-        "homeName": "Draft Day Disasters",
-        "awayName": "Color Coordinated Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5870,17 +5771,6 @@
   {
     "matchupId": "3aabea63-dc5c-45cf-8a7c-f43a2f4a2640",
     "details": {
-      "matchup": {
-        "matchupId": "3aabea63-dc5c-45cf-8a7c-f43a2f4a2640",
-        "weekNumber": 5,
-        "homeTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "awayTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "homePoints": 629,
-        "awayPoints": 575,
-        "endResult": "home",
-        "homeName": "The Dill Inquents",
-        "awayName": "Ackley's Aces"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6539,17 +6429,6 @@
   {
     "matchupId": "952a9256-e2cb-452a-bc53-85b988522ceb",
     "details": {
-      "matchup": {
-        "matchupId": "952a9256-e2cb-452a-bc53-85b988522ceb",
-        "weekNumber": 6,
-        "homeTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "awayTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "homePoints": 553,
-        "awayPoints": 585,
-        "endResult": "away",
-        "homeName": "Ackley's Aces",
-        "awayName": "Color Coordinated Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7174,17 +7053,6 @@
   {
     "matchupId": "c7376ae1-ba5b-4660-a542-ee25f6969d30",
     "details": {
-      "matchup": {
-        "matchupId": "c7376ae1-ba5b-4660-a542-ee25f6969d30",
-        "weekNumber": 6,
-        "homeTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "awayTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "homePoints": 639,
-        "awayPoints": 580,
-        "endResult": "home",
-        "homeName": "Draft Day Disasters",
-        "awayName": "The Dill Inquents"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7792,17 +7660,6 @@
   {
     "matchupId": "33ed1585-26ca-495c-b41b-4f8463c3f623",
     "details": {
-      "matchup": {
-        "matchupId": "33ed1585-26ca-495c-b41b-4f8463c3f623",
-        "weekNumber": 7,
-        "homeTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "awayTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "homePoints": 625,
-        "awayPoints": 570,
-        "endResult": "home",
-        "homeName": "Color Coordinated Chaos",
-        "awayName": "Draft Day Disasters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8444,17 +8301,6 @@
   {
     "matchupId": "262665e5-1744-4109-8df6-b4277200bc5b",
     "details": {
-      "matchup": {
-        "matchupId": "262665e5-1744-4109-8df6-b4277200bc5b",
-        "weekNumber": 7,
-        "homeTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "awayTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "homePoints": 579,
-        "awayPoints": 621,
-        "endResult": "away",
-        "homeName": "The Dill Inquents",
-        "awayName": "Ackley's Aces"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9113,17 +8959,6 @@
   {
     "matchupId": "24f2f7d6-1432-4ee7-9e0f-6790c0a0158a",
     "details": {
-      "matchup": {
-        "matchupId": "24f2f7d6-1432-4ee7-9e0f-6790c0a0158a",
-        "weekNumber": 8,
-        "homeTeamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
-        "awayTeamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
-        "homePoints": 613,
-        "awayPoints": 623,
-        "endResult": "home",
-        "homeName": "Color Coordinated Chaos",
-        "awayName": "The Dill Inquents"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9782,17 +9617,6 @@
   {
     "matchupId": "50305d06-4ac2-4798-b5b8-8dff7a2aeb7c",
     "details": {
-      "matchup": {
-        "matchupId": "50305d06-4ac2-4798-b5b8-8dff7a2aeb7c",
-        "weekNumber": 8,
-        "homeTeamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
-        "awayTeamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
-        "homePoints": 647,
-        "awayPoints": 584,
-        "endResult": "home",
-        "homeName": "Ackley's Aces",
-        "awayName": "Draft Day Disasters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {

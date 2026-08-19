@@ -2,17 +2,6 @@
   {
     "matchupId": "b0caec64-a92b-48cf-829d-7954246838a9",
     "details": {
-      "matchup": {
-        "matchupId": "b0caec64-a92b-48cf-829d-7954246838a9",
-        "weekNumber": 1,
-        "homeTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "awayTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "homePoints": 556,
-        "awayPoints": 610,
-        "endResult": "away",
-        "homeName": "Shrinky Dinks",
-        "awayName": "The Young Guns"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -688,17 +677,6 @@
   {
     "matchupId": "70234114-2bb5-4247-946b-89d3a326aca9",
     "details": {
-      "matchup": {
-        "matchupId": "70234114-2bb5-4247-946b-89d3a326aca9",
-        "weekNumber": 1,
-        "homeTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "awayTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "homePoints": 594,
-        "awayPoints": 643,
-        "endResult": "away",
-        "homeName": "Kitchen Chaos",
-        "awayName": "Baby Got Backhands"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1374,17 +1352,6 @@
   {
     "matchupId": "7d1ec25f-1592-4c4e-907a-131136aaeac2",
     "details": {
-      "matchup": {
-        "matchupId": "7d1ec25f-1592-4c4e-907a-131136aaeac2",
-        "weekNumber": 2,
-        "homeTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "awayTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "homePoints": 637,
-        "awayPoints": 573,
-        "endResult": "home",
-        "homeName": "The Young Guns",
-        "awayName": "Kitchen Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2060,17 +2027,6 @@
   {
     "matchupId": "2ab6d52a-42cb-4e6c-9d18-a89b63c9b5de",
     "details": {
-      "matchup": {
-        "matchupId": "2ab6d52a-42cb-4e6c-9d18-a89b63c9b5de",
-        "weekNumber": 2,
-        "homeTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "awayTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "homePoints": 631,
-        "awayPoints": 609,
-        "endResult": "home",
-        "homeName": "Drop it Like it's Hot",
-        "awayName": "Shrinky Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2746,17 +2702,6 @@
   {
     "matchupId": "2874f2af-090f-41c8-9738-46bb35d868be",
     "details": {
-      "matchup": {
-        "matchupId": "2874f2af-090f-41c8-9738-46bb35d868be",
-        "weekNumber": 3,
-        "homeTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "awayTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "homePoints": 634,
-        "awayPoints": 634,
-        "endResult": "away",
-        "homeName": "Kitchen Chaos",
-        "awayName": "Drop it Like it's Hot"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3432,17 +3377,6 @@
   {
     "matchupId": "bd010002-1ea1-4653-a2ea-56f9284a01cf",
     "details": {
-      "matchup": {
-        "matchupId": "bd010002-1ea1-4653-a2ea-56f9284a01cf",
-        "weekNumber": 3,
-        "homeTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "awayTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "homePoints": 609,
-        "awayPoints": 607,
-        "endResult": "away",
-        "homeName": "Baby Got Backhands",
-        "awayName": "The Young Guns"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4118,17 +4052,6 @@
   {
     "matchupId": "7f99cbaf-cc1e-45dd-8741-2877d4934aa0",
     "details": {
-      "matchup": {
-        "matchupId": "7f99cbaf-cc1e-45dd-8741-2877d4934aa0",
-        "weekNumber": 4,
-        "homeTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "awayTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "homePoints": 582,
-        "awayPoints": 602,
-        "endResult": "away",
-        "homeName": "The Young Guns",
-        "awayName": "Drop it Like it's Hot"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4804,17 +4727,6 @@
   {
     "matchupId": "87cc1546-339b-48c6-828c-fd33a4cbd8e1",
     "details": {
-      "matchup": {
-        "matchupId": "87cc1546-339b-48c6-828c-fd33a4cbd8e1",
-        "weekNumber": 4,
-        "homeTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "awayTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "homePoints": 638,
-        "awayPoints": 611,
-        "endResult": "home",
-        "homeName": "Baby Got Backhands",
-        "awayName": "Shrinky Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5490,17 +5402,6 @@
   {
     "matchupId": "f6dab469-ab7b-4473-a485-40a99b00f3ab",
     "details": {
-      "matchup": {
-        "matchupId": "f6dab469-ab7b-4473-a485-40a99b00f3ab",
-        "weekNumber": 5,
-        "homeTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "awayTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "homePoints": 609,
-        "awayPoints": 615,
-        "endResult": "away",
-        "homeName": "Drop it Like it's Hot",
-        "awayName": "Baby Got Backhands"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6176,17 +6077,6 @@
   {
     "matchupId": "b3bc3921-6541-4f1d-8f0d-473b3d735be5",
     "details": {
-      "matchup": {
-        "matchupId": "b3bc3921-6541-4f1d-8f0d-473b3d735be5",
-        "weekNumber": 5,
-        "homeTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "awayTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "homePoints": 600,
-        "awayPoints": 588,
-        "endResult": "home",
-        "homeName": "Shrinky Dinks",
-        "awayName": "Kitchen Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6862,17 +6752,6 @@
   {
     "matchupId": "85102a79-cb3f-4316-ab89-caefa9c0efb3",
     "details": {
-      "matchup": {
-        "matchupId": "85102a79-cb3f-4316-ab89-caefa9c0efb3",
-        "weekNumber": 6,
-        "homeTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "awayTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "homePoints": 590,
-        "awayPoints": 645,
-        "endResult": "away",
-        "homeName": "Kitchen Chaos",
-        "awayName": "The Young Guns"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7548,17 +7427,6 @@
   {
     "matchupId": "1800a5d1-e371-479d-bbad-dcbea72e281c",
     "details": {
-      "matchup": {
-        "matchupId": "1800a5d1-e371-479d-bbad-dcbea72e281c",
-        "weekNumber": 6,
-        "homeTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "awayTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "homePoints": 572,
-        "awayPoints": 551,
-        "endResult": "home",
-        "homeName": "Shrinky Dinks",
-        "awayName": "Drop it Like it's Hot"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8234,17 +8102,6 @@
   {
     "matchupId": "86d84d5b-0c8f-4cae-aaf0-d76adc8ddd3d",
     "details": {
-      "matchup": {
-        "matchupId": "86d84d5b-0c8f-4cae-aaf0-d76adc8ddd3d",
-        "weekNumber": 7,
-        "homeTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "awayTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "homePoints": 622,
-        "awayPoints": 571,
-        "endResult": "home",
-        "homeName": "The Young Guns",
-        "awayName": "Shrinky Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8920,17 +8777,6 @@
   {
     "matchupId": "0df91876-f023-4153-a70b-e22d2c580173",
     "details": {
-      "matchup": {
-        "matchupId": "0df91876-f023-4153-a70b-e22d2c580173",
-        "weekNumber": 7,
-        "homeTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "awayTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "homePoints": 606,
-        "awayPoints": 581,
-        "endResult": "away",
-        "homeName": "Baby Got Backhands",
-        "awayName": "Kitchen Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9606,17 +9452,6 @@
   {
     "matchupId": "6155da85-593f-4838-901f-260970402881",
     "details": {
-      "matchup": {
-        "matchupId": "6155da85-593f-4838-901f-260970402881",
-        "weekNumber": 8,
-        "homeTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "awayTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "homePoints": 558,
-        "awayPoints": 652,
-        "endResult": "away",
-        "homeName": "Kitchen Chaos",
-        "awayName": "Shrinky Dinks"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10292,17 +10127,6 @@
   {
     "matchupId": "3bec0769-c545-4e28-a0e8-3c3628e9bfc4",
     "details": {
-      "matchup": {
-        "matchupId": "3bec0769-c545-4e28-a0e8-3c3628e9bfc4",
-        "weekNumber": 8,
-        "homeTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "awayTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "homePoints": 574,
-        "awayPoints": 576,
-        "endResult": "away",
-        "homeName": "Baby Got Backhands",
-        "awayName": "Drop it Like it's Hot"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10978,17 +10802,6 @@
   {
     "matchupId": "3bb65b11-d1b1-409f-a34d-12ca871fe075",
     "details": {
-      "matchup": {
-        "matchupId": "3bb65b11-d1b1-409f-a34d-12ca871fe075",
-        "weekNumber": 9,
-        "homeTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "awayTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "homePoints": 574,
-        "awayPoints": 615,
-        "endResult": "away",
-        "homeName": "The Young Guns",
-        "awayName": "Baby Got Backhands"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -11664,17 +11477,6 @@
   {
     "matchupId": "e2ed9193-88da-4c93-8083-97cb3ef4a347",
     "details": {
-      "matchup": {
-        "matchupId": "e2ed9193-88da-4c93-8083-97cb3ef4a347",
-        "weekNumber": 9,
-        "homeTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "awayTeamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
-        "homePoints": 627,
-        "awayPoints": 630,
-        "endResult": "home",
-        "homeName": "Drop it Like it's Hot",
-        "awayName": "Kitchen Chaos"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -12350,17 +12152,6 @@
   {
     "matchupId": "d25d260d-b335-425a-bd1a-8f679ef55b76",
     "details": {
-      "matchup": {
-        "matchupId": "d25d260d-b335-425a-bd1a-8f679ef55b76",
-        "weekNumber": 10,
-        "homeTeamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
-        "awayTeamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Shrinky Dinks",
-        "awayName": "Baby Got Backhands"
-      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -12692,17 +12483,6 @@
   {
     "matchupId": "79132dd8-73f0-4585-a09b-92c6122181b6",
     "details": {
-      "matchup": {
-        "matchupId": "79132dd8-73f0-4585-a09b-92c6122181b6",
-        "weekNumber": 10,
-        "homeTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
-        "awayTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Drop it Like it's Hot",
-        "awayName": "The Young Guns"
-      },
       "lineups": {
         "lineups": {
           "$values": [

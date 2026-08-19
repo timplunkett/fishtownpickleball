@@ -2,17 +2,6 @@
   {
     "matchupId": "a2b3ce55-9472-4dcc-ad32-022f185e0464",
     "details": {
-      "matchup": {
-        "matchupId": "a2b3ce55-9472-4dcc-ad32-022f185e0464",
-        "weekNumber": 1,
-        "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "homePoints": 579,
-        "awayPoints": 558,
-        "endResult": "home",
-        "homeName": "Ace Bandits",
-        "awayName": "Ace Rebels"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -688,17 +677,6 @@
   {
     "matchupId": "9a5973ee-6cc2-4c6b-ba84-b144cff2c4ad",
     "details": {
-      "matchup": {
-        "matchupId": "9a5973ee-6cc2-4c6b-ba84-b144cff2c4ad",
-        "weekNumber": 1,
-        "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "homePoints": 805,
-        "awayPoints": 580,
-        "endResult": "home",
-        "homeName": "Kitchen Commanders",
-        "awayName": "Ace & Eights"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1340,17 +1318,6 @@
   {
     "matchupId": "72ba9446-8101-46f3-9fd1-a0c6ab401155",
     "details": {
-      "matchup": {
-        "matchupId": "72ba9446-8101-46f3-9fd1-a0c6ab401155",
-        "weekNumber": 2,
-        "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "homePoints": 535,
-        "awayPoints": 611,
-        "endResult": "away",
-        "homeName": "Ace & Eights",
-        "awayName": "Ace Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2009,17 +1976,6 @@
   {
     "matchupId": "f810408b-d386-4915-bebf-ad22c02a631e",
     "details": {
-      "matchup": {
-        "matchupId": "f810408b-d386-4915-bebf-ad22c02a631e",
-        "weekNumber": 2,
-        "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "homePoints": 636,
-        "awayPoints": 573,
-        "endResult": "home",
-        "homeName": "ACE ACE Baby",
-        "awayName": "Kitchen Commanders"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2695,17 +2651,6 @@
   {
     "matchupId": "c909cb12-75ff-49b0-96c1-52aa7d799c56",
     "details": {
-      "matchup": {
-        "matchupId": "c909cb12-75ff-49b0-96c1-52aa7d799c56",
-        "weekNumber": 3,
-        "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "homePoints": 563,
-        "awayPoints": 622,
-        "endResult": "away",
-        "homeName": "Ace Rebels",
-        "awayName": "Ace & Eights"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3381,17 +3326,6 @@
   {
     "matchupId": "1c9dd2d6-91e6-4bde-a45f-62857941d94b",
     "details": {
-      "matchup": {
-        "matchupId": "1c9dd2d6-91e6-4bde-a45f-62857941d94b",
-        "weekNumber": 3,
-        "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "homePoints": 590,
-        "awayPoints": 554,
-        "endResult": "home",
-        "homeName": "Ace Bandits",
-        "awayName": "ACE ACE Baby"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4050,17 +3984,6 @@
   {
     "matchupId": "7b8c790c-29ce-4092-8b11-973347b383fb",
     "details": {
-      "matchup": {
-        "matchupId": "7b8c790c-29ce-4092-8b11-973347b383fb",
-        "weekNumber": 4,
-        "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "homePoints": 590,
-        "awayPoints": 605,
-        "endResult": "away",
-        "homeName": "Ace & Eights",
-        "awayName": "ACE ACE Baby"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4736,17 +4659,6 @@
   {
     "matchupId": "74418229-ee00-4e09-88ef-b62b18a1f64e",
     "details": {
-      "matchup": {
-        "matchupId": "74418229-ee00-4e09-88ef-b62b18a1f64e",
-        "weekNumber": 4,
-        "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "homePoints": 614,
-        "awayPoints": 557,
-        "endResult": "home",
-        "homeName": "Ace Rebels",
-        "awayName": "Kitchen Commanders"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5422,17 +5334,6 @@
   {
     "matchupId": "875f6443-6148-430c-bed3-22241796efe7",
     "details": {
-      "matchup": {
-        "matchupId": "875f6443-6148-430c-bed3-22241796efe7",
-        "weekNumber": 5,
-        "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "homePoints": 571,
-        "awayPoints": 559,
-        "endResult": "home",
-        "homeName": "ACE ACE Baby",
-        "awayName": "Ace Rebels"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6108,17 +6009,6 @@
   {
     "matchupId": "245a974f-2502-474c-b4ea-e6e969ee284f",
     "details": {
-      "matchup": {
-        "matchupId": "245a974f-2502-474c-b4ea-e6e969ee284f",
-        "weekNumber": 5,
-        "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "homePoints": 598,
-        "awayPoints": 641,
-        "endResult": "away",
-        "homeName": "Kitchen Commanders",
-        "awayName": "Ace Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6794,17 +6684,6 @@
   {
     "matchupId": "2c8256db-93f3-4d7d-941b-1816d55e14c8",
     "details": {
-      "matchup": {
-        "matchupId": "2c8256db-93f3-4d7d-941b-1816d55e14c8",
-        "weekNumber": 6,
-        "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "homePoints": 561,
-        "awayPoints": 622,
-        "endResult": "away",
-        "homeName": "Ace Bandits",
-        "awayName": "Ace & Eights"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7480,17 +7359,6 @@
   {
     "matchupId": "8af92124-667d-4a49-9835-a713702492f7",
     "details": {
-      "matchup": {
-        "matchupId": "8af92124-667d-4a49-9835-a713702492f7",
-        "weekNumber": 6,
-        "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "homePoints": 613,
-        "awayPoints": 548,
-        "endResult": "home",
-        "homeName": "Kitchen Commanders",
-        "awayName": "ACE ACE Baby"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8166,17 +8034,6 @@
   {
     "matchupId": "09b21a7e-0e69-4fea-8769-c20194c1e3c6",
     "details": {
-      "matchup": {
-        "matchupId": "09b21a7e-0e69-4fea-8769-c20194c1e3c6",
-        "weekNumber": 8,
-        "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "homePoints": 595,
-        "awayPoints": 625,
-        "endResult": "away",
-        "homeName": "Ace Rebels",
-        "awayName": "Ace Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8852,17 +8709,6 @@
   {
     "matchupId": "8198cf57-d72d-4b72-a2de-f8fefedc07fe",
     "details": {
-      "matchup": {
-        "matchupId": "8198cf57-d72d-4b72-a2de-f8fefedc07fe",
-        "weekNumber": 8,
-        "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "homePoints": 656,
-        "awayPoints": 503,
-        "endResult": "home",
-        "homeName": "Ace & Eights",
-        "awayName": "Kitchen Commanders"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9538,17 +9384,6 @@
   {
     "matchupId": "56fd117b-e37e-4ad4-bbda-4d05605eec7e",
     "details": {
-      "matchup": {
-        "matchupId": "56fd117b-e37e-4ad4-bbda-4d05605eec7e",
-        "weekNumber": 8,
-        "homeTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "awayTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "homePoints": 609,
-        "awayPoints": 595,
-        "endResult": "home",
-        "homeName": "Ace Rebels",
-        "awayName": "ACE ACE Baby"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10224,17 +10059,6 @@
   {
     "matchupId": "9180ea55-dd53-4657-9faa-a7cca5d078c4",
     "details": {
-      "matchup": {
-        "matchupId": "9180ea55-dd53-4657-9faa-a7cca5d078c4",
-        "weekNumber": 8,
-        "homeTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "awayTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "homePoints": 641,
-        "awayPoints": 609,
-        "endResult": "home",
-        "homeName": "Ace Bandits",
-        "awayName": "Kitchen Commanders"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -10893,17 +10717,6 @@
   {
     "matchupId": "5b6d5afb-e514-42fc-865c-5394f5677ae0",
     "details": {
-      "matchup": {
-        "matchupId": "5b6d5afb-e514-42fc-865c-5394f5677ae0",
-        "weekNumber": 9,
-        "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "awayTeamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
-        "homePoints": 608,
-        "awayPoints": 583,
-        "endResult": "home",
-        "homeName": "ACE ACE Baby",
-        "awayName": "Ace Bandits"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -11562,17 +11375,6 @@
   {
     "matchupId": "dc5d4cb3-ddd6-4875-9156-e59b7f692248",
     "details": {
-      "matchup": {
-        "matchupId": "dc5d4cb3-ddd6-4875-9156-e59b7f692248",
-        "weekNumber": 9,
-        "homeTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "homePoints": 661,
-        "awayPoints": 518,
-        "endResult": "home",
-        "homeName": "Ace & Eights",
-        "awayName": "Ace Rebels"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -12248,17 +12050,6 @@
   {
     "matchupId": "a7b8dcc4-9ede-4090-a651-11aafef30b9a",
     "details": {
-      "matchup": {
-        "matchupId": "a7b8dcc4-9ede-4090-a651-11aafef30b9a",
-        "weekNumber": 10,
-        "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
-        "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Kitchen Commanders",
-        "awayName": "Ace Rebels"
-      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -12590,17 +12381,6 @@
   {
     "matchupId": "0f810b05-c514-488a-b580-27cc3efd98b9",
     "details": {
-      "matchup": {
-        "matchupId": "0f810b05-c514-488a-b580-27cc3efd98b9",
-        "weekNumber": 10,
-        "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
-        "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "ACE ACE Baby",
-        "awayName": "Ace & Eights"
-      },
       "lineups": {
         "lineups": {
           "$values": [

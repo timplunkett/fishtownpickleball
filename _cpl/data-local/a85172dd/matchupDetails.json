@@ -2,17 +2,6 @@
   {
     "matchupId": "122f7b6e-414e-4b72-8ce4-7ccf2186dee7",
     "details": {
-      "matchup": {
-        "matchupId": "122f7b6e-414e-4b72-8ce4-7ccf2186dee7",
-        "weekNumber": 1,
-        "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "awayTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "homePoints": 594,
-        "awayPoints": 642,
-        "endResult": "away",
-        "homeName": "Paddle Taps",
-        "awayName": "Eagles Erne Empire "
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -688,17 +677,6 @@
   {
     "matchupId": "1b63678f-a1f0-4fcb-b2f3-845e82d07cce",
     "details": {
-      "matchup": {
-        "matchupId": "1b63678f-a1f0-4fcb-b2f3-845e82d07cce",
-        "weekNumber": 1,
-        "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "awayTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "homePoints": 638,
-        "awayPoints": 602,
-        "endResult": "home",
-        "homeName": "The Robbinsvilians",
-        "awayName": "Baggers, Sand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1357,17 +1335,6 @@
   {
     "matchupId": "b515858a-0dd8-4fe6-a81b-4c32491ecea0",
     "details": {
-      "matchup": {
-        "matchupId": "b515858a-0dd8-4fe6-a81b-4c32491ecea0",
-        "weekNumber": 2,
-        "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "awayTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "homePoints": 544,
-        "awayPoints": 645,
-        "endResult": "away",
-        "homeName": "Eagles Erne Empire ",
-        "awayName": "Baggers, Sand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2043,17 +2010,6 @@
   {
     "matchupId": "3c85ba89-d58e-49ab-82ba-cd0589d8d1a8",
     "details": {
-      "matchup": {
-        "matchupId": "3c85ba89-d58e-49ab-82ba-cd0589d8d1a8",
-        "weekNumber": 2,
-        "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "awayTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "homePoints": 577,
-        "awayPoints": 615,
-        "endResult": "away",
-        "homeName": "Paddle Taps",
-        "awayName": "The Robbinsvilians"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2729,17 +2685,6 @@
   {
     "matchupId": "3e71148b-32c6-447f-813d-3197fbd38c7f",
     "details": {
-      "matchup": {
-        "matchupId": "3e71148b-32c6-447f-813d-3197fbd38c7f",
-        "weekNumber": 3,
-        "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "awayTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "homePoints": 617,
-        "awayPoints": 570,
-        "endResult": "home",
-        "homeName": "Baggers, Sand",
-        "awayName": "Paddle Taps"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3415,17 +3360,6 @@
   {
     "matchupId": "71607876-e8a6-4fc7-9f91-5ae4e8312d74",
     "details": {
-      "matchup": {
-        "matchupId": "71607876-e8a6-4fc7-9f91-5ae4e8312d74",
-        "weekNumber": 3,
-        "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "awayTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "homePoints": 632,
-        "awayPoints": 560,
-        "endResult": "home",
-        "homeName": "The Robbinsvilians",
-        "awayName": "Eagles Erne Empire "
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4084,17 +4018,6 @@
   {
     "matchupId": "4d5a2b30-a23e-44c0-a0c4-44f4b05e7a59",
     "details": {
-      "matchup": {
-        "matchupId": "4d5a2b30-a23e-44c0-a0c4-44f4b05e7a59",
-        "weekNumber": 4,
-        "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "awayTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "homePoints": 607,
-        "awayPoints": 669,
-        "endResult": "away",
-        "homeName": "Eagles Erne Empire ",
-        "awayName": "Paddle Taps"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4770,17 +4693,6 @@
   {
     "matchupId": "dc0df42b-29a0-4db9-8810-d08c0fffad3b",
     "details": {
-      "matchup": {
-        "matchupId": "dc0df42b-29a0-4db9-8810-d08c0fffad3b",
-        "weekNumber": 4,
-        "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "awayTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "homePoints": 659,
-        "awayPoints": 593,
-        "endResult": "home",
-        "homeName": "Baggers, Sand",
-        "awayName": "The Robbinsvilians"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5405,17 +5317,6 @@
   {
     "matchupId": "307de9d7-1652-44e5-82b6-56197c2cace7",
     "details": {
-      "matchup": {
-        "matchupId": "307de9d7-1652-44e5-82b6-56197c2cace7",
-        "weekNumber": 5,
-        "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "awayTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "homePoints": 633,
-        "awayPoints": 560,
-        "endResult": "home",
-        "homeName": "The Robbinsvilians",
-        "awayName": "Paddle Taps"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6074,17 +5975,6 @@
   {
     "matchupId": "aeb82c7d-323a-4e2b-98b2-f220a7b60142",
     "details": {
-      "matchup": {
-        "matchupId": "aeb82c7d-323a-4e2b-98b2-f220a7b60142",
-        "weekNumber": 5,
-        "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "awayTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "homePoints": 579,
-        "awayPoints": 596,
-        "endResult": "away",
-        "homeName": "Baggers, Sand",
-        "awayName": "Eagles Erne Empire "
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6743,17 +6633,6 @@
   {
     "matchupId": "7a5c3a45-b259-41be-8c60-41730203eed3",
     "details": {
-      "matchup": {
-        "matchupId": "7a5c3a45-b259-41be-8c60-41730203eed3",
-        "weekNumber": 6,
-        "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "awayTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "homePoints": 514,
-        "awayPoints": 677,
-        "endResult": "away",
-        "homeName": "Paddle Taps",
-        "awayName": "Baggers, Sand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7395,17 +7274,6 @@
   {
     "matchupId": "8d82a75f-f7eb-4f56-9b54-d47c32b9e551",
     "details": {
-      "matchup": {
-        "matchupId": "8d82a75f-f7eb-4f56-9b54-d47c32b9e551",
-        "weekNumber": 6,
-        "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "awayTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "homePoints": 545,
-        "awayPoints": 630,
-        "endResult": "away",
-        "homeName": "Eagles Erne Empire ",
-        "awayName": "The Robbinsvilians"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8047,17 +7915,6 @@
   {
     "matchupId": "7ca44745-bb26-46ad-8567-29e602751702",
     "details": {
-      "matchup": {
-        "matchupId": "7ca44745-bb26-46ad-8567-29e602751702",
-        "weekNumber": 7,
-        "homeTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "awayTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "homePoints": 548,
-        "awayPoints": 611,
-        "endResult": "away",
-        "homeName": "The Robbinsvilians",
-        "awayName": "Baggers, Sand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8716,17 +8573,6 @@
   {
     "matchupId": "a32bbc0d-ed35-4f35-8bd6-2f5a10ffa3ae",
     "details": {
-      "matchup": {
-        "matchupId": "a32bbc0d-ed35-4f35-8bd6-2f5a10ffa3ae",
-        "weekNumber": 7,
-        "homeTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "awayTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "homePoints": 646,
-        "awayPoints": 556,
-        "endResult": "home",
-        "homeName": "Eagles Erne Empire ",
-        "awayName": "Paddle Taps"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9402,17 +9248,6 @@
   {
     "matchupId": "b872b12b-c9fb-4adb-b47f-298f162aa4a1",
     "details": {
-      "matchup": {
-        "matchupId": "b872b12b-c9fb-4adb-b47f-298f162aa4a1",
-        "weekNumber": 8,
-        "homeTeamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
-        "awayTeamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Paddle Taps",
-        "awayName": "The Robbinsvilians"
-      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -9743,18 +9578,6 @@
   },
   {
     "matchupId": "5b5d5d05-ca71-4891-a295-a60b4e9df733",
-    "details": {
-      "matchup": {
-        "matchupId": "5b5d5d05-ca71-4891-a295-a60b4e9df733",
-        "weekNumber": 8,
-        "homeTeamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
-        "awayTeamId": "ccc54310-d461-4def-a361-ee2124ab293b",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Baggers, Sand",
-        "awayName": "Eagles Erne Empire "
-      }
-    }
+    "details": {}
   }
 ]

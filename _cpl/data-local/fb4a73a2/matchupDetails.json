@@ -2,17 +2,6 @@
   {
     "matchupId": "9f0abcac-3016-4c4a-8c87-15f385439df1",
     "details": {
-      "matchup": {
-        "matchupId": "9f0abcac-3016-4c4a-8c87-15f385439df1",
-        "weekNumber": 1,
-        "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "awayTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "homePoints": 528,
-        "awayPoints": 652,
-        "endResult": "away",
-        "homeName": "Kiss My Ace",
-        "awayName": "Dink Responsibly"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -671,17 +660,6 @@
   {
     "matchupId": "ee36918f-a14f-405e-9535-b8bac300da12",
     "details": {
-      "matchup": {
-        "matchupId": "ee36918f-a14f-405e-9535-b8bac300da12",
-        "weekNumber": 1,
-        "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "awayTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "homePoints": 584,
-        "awayPoints": 636,
-        "endResult": "away",
-        "homeName": "Court Jesters",
-        "awayName": "Baby Got Backhand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -1340,17 +1318,6 @@
   {
     "matchupId": "63ea69ef-b8f1-4c39-ad06-a38983eea308",
     "details": {
-      "matchup": {
-        "matchupId": "63ea69ef-b8f1-4c39-ad06-a38983eea308",
-        "weekNumber": 2,
-        "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "homePoints": 595,
-        "awayPoints": 544,
-        "endResult": "home",
-        "homeName": "Dink Responsibly",
-        "awayName": "Court Jesters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2026,17 +1993,6 @@
   {
     "matchupId": "366d1104-e4dc-48c6-9d2d-d8257dd87474",
     "details": {
-      "matchup": {
-        "matchupId": "366d1104-e4dc-48c6-9d2d-d8257dd87474",
-        "weekNumber": 2,
-        "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "awayTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "homePoints": 610,
-        "awayPoints": 550,
-        "endResult": "home",
-        "homeName": "Baby Got Backhand",
-        "awayName": "Kiss My Ace"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -2695,17 +2651,6 @@
   {
     "matchupId": "36aeb219-c694-46b8-94a2-56ea2f8277b9",
     "details": {
-      "matchup": {
-        "matchupId": "36aeb219-c694-46b8-94a2-56ea2f8277b9",
-        "weekNumber": 3,
-        "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "awayTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "homePoints": 588,
-        "awayPoints": 530,
-        "endResult": "home",
-        "homeName": "Court Jesters",
-        "awayName": "Kiss My Ace"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -3381,17 +3326,6 @@
   {
     "matchupId": "0148709f-4ef7-44fb-95c3-ef914160dcc5",
     "details": {
-      "matchup": {
-        "matchupId": "0148709f-4ef7-44fb-95c3-ef914160dcc5",
-        "weekNumber": 3,
-        "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "awayTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "homePoints": 665,
-        "awayPoints": 561,
-        "endResult": "home",
-        "homeName": "Baby Got Backhand",
-        "awayName": "Dink Responsibly"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4050,17 +3984,6 @@
   {
     "matchupId": "feeef72d-eed6-47ac-95ff-77795931afdc",
     "details": {
-      "matchup": {
-        "matchupId": "feeef72d-eed6-47ac-95ff-77795931afdc",
-        "weekNumber": 4,
-        "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "awayTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "homePoints": 596,
-        "awayPoints": 599,
-        "endResult": "away",
-        "homeName": "Dink Responsibly",
-        "awayName": "Kiss My Ace"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -4702,17 +4625,6 @@
   {
     "matchupId": "80bffb93-4b76-463e-8188-c3f7d8040ac6",
     "details": {
-      "matchup": {
-        "matchupId": "80bffb93-4b76-463e-8188-c3f7d8040ac6",
-        "weekNumber": 4,
-        "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "awayTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "homePoints": 542,
-        "awayPoints": 651,
-        "endResult": "away",
-        "homeName": "Court Jesters",
-        "awayName": "Baby Got Backhand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -5371,17 +5283,6 @@
   {
     "matchupId": "da1d0afc-41ed-40cb-9a4f-2625db0229c0",
     "details": {
-      "matchup": {
-        "matchupId": "da1d0afc-41ed-40cb-9a4f-2625db0229c0",
-        "weekNumber": 5,
-        "homeTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "awayTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "homePoints": 568,
-        "awayPoints": 605,
-        "endResult": "away",
-        "homeName": "Court Jesters",
-        "awayName": "Dink Responsibly"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6057,17 +5958,6 @@
   {
     "matchupId": "91ff0170-0e36-415f-ac40-2e84c7ed5e1d",
     "details": {
-      "matchup": {
-        "matchupId": "91ff0170-0e36-415f-ac40-2e84c7ed5e1d",
-        "weekNumber": 5,
-        "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "awayTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "homePoints": 643,
-        "awayPoints": 535,
-        "endResult": "home",
-        "homeName": "Baby Got Backhand",
-        "awayName": "Kiss My Ace"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -6743,17 +6633,6 @@
   {
     "matchupId": "3d353eca-c9e0-4bd3-bb7c-02e8689765f7",
     "details": {
-      "matchup": {
-        "matchupId": "3d353eca-c9e0-4bd3-bb7c-02e8689765f7",
-        "weekNumber": 6,
-        "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "awayTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "homePoints": 574,
-        "awayPoints": 598,
-        "endResult": "away",
-        "homeName": "Dink Responsibly",
-        "awayName": "Baby Got Backhand"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -7429,17 +7308,6 @@
   {
     "matchupId": "4f865894-ddee-46aa-83ff-192d42e9671d",
     "details": {
-      "matchup": {
-        "matchupId": "4f865894-ddee-46aa-83ff-192d42e9671d",
-        "weekNumber": 6,
-        "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "homePoints": 538,
-        "awayPoints": 656,
-        "endResult": "away",
-        "homeName": "Kiss My Ace",
-        "awayName": "Court Jesters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8115,17 +7983,6 @@
   {
     "matchupId": "962cd027-e846-4fa4-a3b5-9d47bfc5e0ad",
     "details": {
-      "matchup": {
-        "matchupId": "962cd027-e846-4fa4-a3b5-9d47bfc5e0ad",
-        "weekNumber": 7,
-        "homeTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "homePoints": 614,
-        "awayPoints": 630,
-        "endResult": "home",
-        "homeName": "Baby Got Backhand",
-        "awayName": "Court Jesters"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -8801,17 +8658,6 @@
   {
     "matchupId": "5646746f-96fe-498e-8a95-e8a60fc235c4",
     "details": {
-      "matchup": {
-        "matchupId": "5646746f-96fe-498e-8a95-e8a60fc235c4",
-        "weekNumber": 7,
-        "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "awayTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "homePoints": 564,
-        "awayPoints": 629,
-        "endResult": "away",
-        "homeName": "Kiss My Ace",
-        "awayName": "Dink Responsibly"
-      },
       "matchupPlayerStats": {
         "$values": [
           {
@@ -9470,17 +9316,6 @@
   {
     "matchupId": "d6eda1d4-c297-4744-a965-6445c02305ff",
     "details": {
-      "matchup": {
-        "matchupId": "d6eda1d4-c297-4744-a965-6445c02305ff",
-        "weekNumber": 8,
-        "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
-        "awayTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Kiss My Ace",
-        "awayName": "Baby Got Backhand"
-      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -9811,18 +9646,6 @@
   },
   {
     "matchupId": "1d15511b-b969-4370-ad7c-ad4a4f6c3629",
-    "details": {
-      "matchup": {
-        "matchupId": "1d15511b-b969-4370-ad7c-ad4a4f6c3629",
-        "weekNumber": 8,
-        "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
-        "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Dink Responsibly",
-        "awayName": "Court Jesters"
-      }
-    }
+    "details": {}
   }
 ]
