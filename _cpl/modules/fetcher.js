@@ -40,11 +40,6 @@ const PLAYER_KEEP = new Set([
   'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses', 'ranking',
 ]);
 
-const MATCHUP_DETAIL_MATCHUP_KEEP = new Set([
-  'matchupId', 'weekNumber', 'homeTeamId', 'awayTeamId',
-  'homePoints', 'awayPoints', 'endResult', 'homeName', 'awayName', 'weekNumber',
-]);
-
 // Per-matchup player stat entries: only matchup-specific stats + identity keys.
 // Static profile fields (firstName, lastName, gender) are omitted here because
 // they never change and are already stored in players.json.
@@ -90,8 +85,6 @@ function slimMatchupDetails(details) {
   return details.map(({ matchupId, details: d }) => {
     if (!d) return { matchupId, details: null };
     const slimmed = {};
-
-    if (d.matchup) slimmed.matchup = pickKeys(d.matchup, MATCHUP_DETAIL_MATCHUP_KEEP);
 
     const isCompleted = !!(d.matchup && d.matchup.endResult);
     if (d.matchupPlayerStats && isCompleted) {

@@ -366,8 +366,7 @@ function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPi
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
     if (!d) continue;
-    const M = d.matchup;
-    const teamNameById = { [M.homeTeamId]: M.homeName, [M.awayTeamId]: M.awayName };
+    const teamNameById = { [mu.homeTeamId]: mu.homeName, [mu.awayTeamId]: mu.awayName };
     for (const p of (d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) {
       const info = playerInfoById[p.playerId] || {};
       nameOf[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
@@ -555,10 +554,9 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     const d = match ? match.details : null;
     if (!d) continue;
 
-    const M = d.matchup;
-    const homeId = M.homeTeamId, awayId = M.awayTeamId;
-    TEAMNAME[homeId] = M.homeName; TEAMNAME[awayId] = M.awayName;
-    weeksSeen.add(M.weekNumber);
+    const homeId = mu.homeTeamId, awayId = mu.awayTeamId;
+    TEAMNAME[homeId] = mu.homeName; TEAMNAME[awayId] = mu.awayName;
+    weeksSeen.add(mu.weekNumber);
 
     const ps = (d.matchupPlayerStats && d.matchupPlayerStats.$values) || [];
     const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
@@ -566,9 +564,9 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     let hgw = 0, agw = 0;
     for (const g of games) (g.homeScore > g.awayScore ? hgw++ : agw++);
 
-    const home = { id: homeId, name: M.homeName, points: M.homePoints, gw: hgw };
-    const away = { id: awayId, name: M.awayName, points: M.awayPoints, gw: agw };
-    const homeWon = M.endResult === 'home';
+    const home = { id: homeId, name: mu.homeName, points: mu.homePoints, gw: hgw };
+    const away = { id: awayId, name: mu.awayName, points: mu.awayPoints, gw: agw };
+    const homeWon = mu.endResult === 'home';
 
     ensureTeam(home.name); ensureTeam(away.name);
     teams.get(home.name).pf += home.points; teams.get(home.name).pa += away.points;
@@ -618,7 +616,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       const opp = (p.teamId === homeId) ? away : home;
       const teamWon = (mine === home) ? homeWon : !homeWon;
       P.log.push({
-        week: M.weekNumber, opp: opp.name, homeAway: (mine === home) ? "H" : "A",
+        week: mu.weekNumber, opp: opp.name, homeAway: (mine === home) ? "H" : "A",
         w: p.wins, l: p.losses, gp: p.gamesPlayed, pf: p.pointsWon, pa: p.totalPointsAgainst,
         mx: [p.mixedWins, p.mixedLosses], gn: [p.genderWins, p.genderLosses],
         cl: [p.clutchWins, p.clutchLosses],
@@ -638,7 +636,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         const P = players.get(me);
         if (!P) continue;
         P.games.push({
-          wk: M.weekNumber, opp: oppTeam, t: g.matchType,
+          wk: mu.weekNumber, opp: oppTeam, t: g.matchType,
           with: id2name[partner] || "", vs: [id2name[o1] || "", id2name[o2] || ""],
           f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
           sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
