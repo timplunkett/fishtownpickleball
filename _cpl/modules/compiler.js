@@ -142,7 +142,47 @@ function normalizeDuprCode(value) {
   return String(value || '').trim().toUpperCase();
 }
 
-function shouldPreferRosterPlayer(candidate, current, duprByPid) {
+function getDivisionBracket(divisionMeta) {
+  const divisionName = String(divisionMeta?.divisionName || '').trim();
+  if (!divisionName) return null;
+
+  if (divisionMeta?.leagueType === 'travel') {
+    const ratingMatch = divisionName.match(/^(\d+(?:\.\d+)?)/);
+    if (!ratingMatch) return null;
+    const min = Number(ratingMatch[1]);
+    return { min, max: min >= 4.5 ? Infinity : min + 0.5 };
+  }
+
+  const rangeMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*[–-]\s*(\d+(?:\.\d+)?)$/);
+  if (rangeMatch) {
+    return { min: Number(rangeMatch[1]), max: Number(rangeMatch[2]) };
+  }
+
+  const overMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*&\s*over$/i);
+  if (overMatch) {
+    return { min: Number(overMatch[1]), max: Infinity };
+  }
+
+  const underMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*&\s*under$/i);
+  if (underMatch) {
+    return { min: 0, max: Number(underMatch[1]) };
+  }
+
+  return null;
+}
+
+function getDivisionFitDistance(player, duprByPid, divisionBracket) {
+  if (!divisionBracket) return null;
+  const rating = Number(duprByPid[player.playerId]?.rating);
+  if (!Number.isFinite(rating)) return null;
+
+  const upperInclusive = Number.isFinite(divisionBracket.max) ? divisionBracket.max - 0.001 : Infinity;
+  if (rating < divisionBracket.min) return divisionBracket.min - rating;
+  if (rating > upperInclusive) return rating - upperInclusive;
+  return 0;
+}
+
+function shouldPreferRosterPlayer(candidate, current, duprByPid, divisionBracket) {
   if (!!candidate.isSub !== !!current.isSub) return !candidate.isSub;
 
   const candidateGames = Number(candidate.gamesPlayed) || 0;
@@ -155,6 +195,13 @@ function shouldPreferRosterPlayer(candidate, current, duprByPid) {
   const currentMatchesGlobal = currentGlobalDupr && normalizeDuprCode(current.dupr) === currentGlobalDupr;
   if (candidateMatchesGlobal !== currentMatchesGlobal) return candidateMatchesGlobal;
 
+  const candidateFit = getDivisionFitDistance(candidate, duprByPid, divisionBracket);
+  const currentFit = getDivisionFitDistance(current, duprByPid, divisionBracket);
+  const candidateHasFit = Number.isFinite(candidateFit);
+  const currentHasFit = Number.isFinite(currentFit);
+  if (candidateHasFit !== currentHasFit) return candidateHasFit;
+  if (candidateHasFit && candidateFit !== currentFit) return candidateFit < currentFit;
+
   const candidateRank = Number(candidate.ranking);
   const currentRank = Number(current.ranking);
   const candidateHasRank = Number.isFinite(candidateRank);
@@ -165,16 +212,17 @@ function shouldPreferRosterPlayer(candidate, current, duprByPid) {
   return false;
 }
 
-function selectCanonicalRosterPlayers(players, duprByPid = {}) {
+function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = null) {
   const byNameAndTeam = new Map();
   const list = Array.isArray(players) ? players : [];
+  const divisionBracket = getDivisionBracket(divisionMeta);
   for (const p of list) {
     const name = norm(`${p.firstName || ''} ${p.lastName || ''}`);
     const teamName = String(p.teamName || '').trim();
     if (!name || !teamName) continue;
     const key = `${name.toLowerCase()}|${teamName.toLowerCase()}`;
     const existing = byNameAndTeam.get(key);
-    if (!existing || shouldPreferRosterPlayer(p, existing, duprByPid)) {
+    if (!existing || shouldPreferRosterPlayer(p, existing, duprByPid, divisionBracket)) {
       byNameAndTeam.set(key, p);
     }
   }
@@ -431,7 +479,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
   const duprByPid = loadDuprByPid();
-  const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid);
+  const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid, divisionMeta);
 
   const playoffMatchupsPath = path.join(divDataDir, "playoffMatchups.json");
   const playoffMatchupDetailsPath = path.join(divDataDir, "playoffMatchupDetails.json");
@@ -979,6 +1027,7 @@ function buildPlayerIndex() {
       const players = selectCanonicalRosterPlayers(
         (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []),
         Object.fromEntries(duprByPlayerId.entries()),
+        { divisionName: div.divisionName, leagueType: league },
       );
       for (const p of players) {
         if (!p.firstName && !p.lastName) continue;
