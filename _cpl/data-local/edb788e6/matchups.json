@@ -233,9 +233,9 @@
       "weekNumber": 10,
       "homeTeamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
       "awayTeamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 543,
+      "awayPoints": 624,
+      "endResult": "away",
       "scheduledTime": "2026-08-18T19:30:00",
       "homeName": "Power Picklers",
       "awayName": "Summer of Slam"
