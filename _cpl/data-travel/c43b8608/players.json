@@ -3985,7 +3985,7 @@
       "lastName": "Lederman",
       "gender": "Male",
       "dupr": "WXXQWL",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "teamName": "Pickleball Palace",
