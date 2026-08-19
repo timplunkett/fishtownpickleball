@@ -999,14 +999,17 @@ function buildPlayerIndex() {
     { league: 'travel', ...getLeagueDataConfig('travel') },
   ];
 
-  // Build a playerId → { dupr } lookup from global_players.json for canonical player deduplication.
+  // Build a playerId → { dupr, rating } lookup from global_players.json for canonical player deduplication.
   const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
   const duprByPlayerId = new Map();
   if (fs.existsSync(globalPlayersPath)) {
     const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
     for (const gp of globalPlayers) {
       if (gp.playerId && gp.dupr) {
-        duprByPlayerId.set(gp.playerId, { dupr: gp.dupr });
+        duprByPlayerId.set(gp.playerId, {
+          dupr: gp.dupr,
+          rating: gp.duprRating != null && gp.duprRating !== 'NR' ? Number(gp.duprRating) : null,
+        });
       }
     }
   }
