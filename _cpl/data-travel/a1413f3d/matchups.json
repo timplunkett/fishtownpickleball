@@ -73,18 +73,6 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
-      "matchupId": "828f2de6-1b21-48e1-a32f-9413f32ccd77",
-      "weekNumber": 1,
-      "homeTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-27T19:30:00",
-      "homeName": "Ballers Philly",
-      "awayName": "Pickle House"
-    },
-    {
       "matchupId": "21089518-bae7-4040-9de2-9f613547dcea",
       "weekNumber": 1,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
@@ -145,6 +133,18 @@
       "awayName": "Pickle Place"
     },
     {
+      "matchupId": "828f2de6-1b21-48e1-a32f-9413f32ccd77",
+      "weekNumber": 1,
+      "homeTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Ballers Philly",
+      "awayName": "Pickle House"
+    },
+    {
       "matchupId": "5c94d77e-3114-4d8d-aea5-a15794433d33",
       "weekNumber": 2,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
@@ -183,14 +183,14 @@
     {
       "matchupId": "103f05bb-c74f-40a4-9c8e-462c6b076b4d",
       "weekNumber": 2,
-      "homeTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "awayTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-03T19:30:00",
-      "homeName": "Ballers Philly",
-      "awayName": "APC Garden State"
+      "homeName": "APC Garden State",
+      "awayName": "Ballers Philly"
     },
     {
       "matchupId": "c0c0792a-cb7c-447a-a774-4cd9cf041398",
@@ -855,14 +855,14 @@
     {
       "matchupId": "2033dce4-e8f4-47ae-929f-20d9f56a5829",
       "weekNumber": 8,
-      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "awayTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "homeTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-08T19:30:00",
-      "homeName": "APC Garden State",
-      "awayName": "Ballers Philly"
+      "homeName": "Ballers Philly",
+      "awayName": "APC Garden State"
     },
     {
       "matchupId": "fa6afd4b-e17a-42a7-ad4d-2cf345bc4337",

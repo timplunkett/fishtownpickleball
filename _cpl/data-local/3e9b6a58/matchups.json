@@ -215,30 +215,6 @@
       "scheduledTime": "2026-08-12T19:30:00",
       "homeName": "Picholas Cage",
       "awayName": "Baggers"
-    },
-    {
-      "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
-      "weekNumber": 10,
-      "homeTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
-      "awayTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-19T19:30:00",
-      "homeName": "Picholas Cage",
-      "awayName": "Balls of Fury"
-    },
-    {
-      "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
-      "weekNumber": 10,
-      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
-      "awayTeamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-19T19:30:00",
-      "homeName": "License to Dill",
-      "awayName": "Kitchen Nightmares"
     }
   ]
 }

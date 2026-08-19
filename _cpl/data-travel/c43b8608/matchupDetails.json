@@ -16,22 +16,6 @@
     }
   },
   {
-    "matchupId": "d2c97f4a-3af3-48e4-9ed1-67a3a80e9cf1",
-    "details": {
-      "matchup": {
-        "matchupId": "d2c97f4a-3af3-48e4-9ed1-67a3a80e9cf1",
-        "weekNumber": 1,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Premiere"
-      }
-    }
-  },
-  {
     "matchupId": "57f4130e-e785-47ca-913f-b9a87db02702",
     "details": {
       "matchup": {
@@ -128,6 +112,22 @@
     }
   },
   {
+    "matchupId": "d2c97f4a-3af3-48e4-9ed1-67a3a80e9cf1",
+    "details": {
+      "matchup": {
+        "matchupId": "d2c97f4a-3af3-48e4-9ed1-67a3a80e9cf1",
+        "weekNumber": 1,
+        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "One Love",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
     "matchupId": "9d5ddfff-3dbe-4bc6-ab96-fe44edcd6b29",
     "details": {
       "matchup": {
@@ -192,6 +192,22 @@
     }
   },
   {
+    "matchupId": "a8595c53-3eb8-4b60-b93a-6b6f64f68366",
+    "details": {
+      "matchup": {
+        "matchupId": "a8595c53-3eb8-4b60-b93a-6b6f64f68366",
+        "weekNumber": 2,
+        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+        "awayTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Picklr Fair Lawn",
+        "awayName": "Montville Dragons"
+      }
+    }
+  },
+  {
     "matchupId": "e4fda9a3-fc9f-486c-acac-6b8bedc89054",
     "details": {
       "matchup": {
@@ -236,22 +252,6 @@
         "endResult": null,
         "homeName": "Stelton Sports",
         "awayName": "One Love"
-      }
-    }
-  },
-  {
-    "matchupId": "a8595c53-3eb8-4b60-b93a-6b6f64f68366",
-    "details": {
-      "matchup": {
-        "matchupId": "a8595c53-3eb8-4b60-b93a-6b6f64f68366",
-        "weekNumber": 2,
-        "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-        "awayTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Picklr Fair Lawn",
-        "awayName": "Montville Dragons"
       }
     }
   },
@@ -848,22 +848,6 @@
     }
   },
   {
-    "matchupId": "3d075fbc-4b53-48f9-ad49-0641f09e2ad6",
-    "details": {
-      "matchup": {
-        "matchupId": "3d075fbc-4b53-48f9-ad49-0641f09e2ad6",
-        "weekNumber": 9,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Pickleball Kingdom Tinton Falls"
-      }
-    }
-  },
-  {
     "matchupId": "6b0a4213-72ca-469f-b095-081ba9329df1",
     "details": {
       "matchup": {
@@ -924,6 +908,22 @@
         "endResult": null,
         "homeName": "Home Court",
         "awayName": "Pickleball Palace"
+      }
+    }
+  },
+  {
+    "matchupId": "3d075fbc-4b53-48f9-ad49-0641f09e2ad6",
+    "details": {
+      "matchup": {
+        "matchupId": "3d075fbc-4b53-48f9-ad49-0641f09e2ad6",
+        "weekNumber": 9,
+        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+        "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "One Love",
+        "awayName": "Pickleball Kingdom Tinton Falls"
       }
     }
   },
@@ -1024,22 +1024,6 @@
     }
   },
   {
-    "matchupId": "c7003a21-a343-4ace-a6f4-e5916e2fd908",
-    "details": {
-      "matchup": {
-        "matchupId": "c7003a21-a343-4ace-a6f4-e5916e2fd908",
-        "weekNumber": 10,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Pickleball Kingdom Hillsborough"
-      }
-    }
-  },
-  {
     "matchupId": "0d5f53b9-9e39-420a-9b43-463f3111c031",
     "details": {
       "matchup": {
@@ -1100,6 +1084,22 @@
         "endResult": null,
         "homeName": "PCKLRAMA",
         "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "c7003a21-a343-4ace-a6f4-e5916e2fd908",
+    "details": {
+      "matchup": {
+        "matchupId": "c7003a21-a343-4ace-a6f4-e5916e2fd908",
+        "weekNumber": 10,
+        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+        "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "One Love",
+        "awayName": "Pickleball Kingdom Hillsborough"
       }
     }
   },
@@ -1408,22 +1408,6 @@
     }
   },
   {
-    "matchupId": "24288c44-f089-4202-96d3-191e4f532b7a",
-    "details": {
-      "matchup": {
-        "matchupId": "24288c44-f089-4202-96d3-191e4f532b7a",
-        "weekNumber": 14,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Stelton Sports"
-      }
-    }
-  },
-  {
     "matchupId": "2794d488-1124-45a6-9d98-2fe2d3cbe8ce",
     "details": {
       "matchup": {
@@ -1504,6 +1488,22 @@
     }
   },
   {
+    "matchupId": "24288c44-f089-4202-96d3-191e4f532b7a",
+    "details": {
+      "matchup": {
+        "matchupId": "24288c44-f089-4202-96d3-191e4f532b7a",
+        "weekNumber": 14,
+        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+        "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "One Love",
+        "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
     "matchupId": "9922106f-4030-435d-b08a-39fd14cab81e",
     "details": {
       "matchup": {
@@ -1580,22 +1580,6 @@
         "endResult": null,
         "homeName": "Flemington",
         "awayName": "Picklr Newtown"
-      }
-    }
-  },
-  {
-    "matchupId": "d977011f-e280-43b1-8797-f214f14b98a7",
-    "details": {
-      "matchup": {
-        "matchupId": "d977011f-e280-43b1-8797-f214f14b98a7",
-        "weekNumber": 15,
-        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "One Love",
-        "awayName": "Monroe"
       }
     }
   },
@@ -1692,6 +1676,22 @@
         "endResult": null,
         "homeName": "Stelton Sports",
         "awayName": "Premiere"
+      }
+    }
+  },
+  {
+    "matchupId": "d977011f-e280-43b1-8797-f214f14b98a7",
+    "details": {
+      "matchup": {
+        "matchupId": "d977011f-e280-43b1-8797-f214f14b98a7",
+        "weekNumber": 15,
+        "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+        "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "One Love",
+        "awayName": "Monroe"
       }
     }
   }

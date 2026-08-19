@@ -1,3 +1,34 @@
 {
-  "$values": []
+  "$values": [
+    {
+      "matchupId": "b01b768e-f2c3-4322-b4a9-7a151787fc18",
+      "weekNumber": 1,
+      "homeTeamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "awayTeamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-19T19:30:00",
+      "homeName": "Balls of Fury",
+      "awayName": "Picholas Cage",
+      "playoffGame": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    },
+    {
+      "matchupId": "215fa556-2178-4ff3-8d1e-c6102343a952",
+      "weekNumber": 1,
+      "homeTeamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "awayTeamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-19T19:30:00",
+      "homeName": "License to Dill",
+      "awayName": "Baggers",
+      "playoffGame": 2,
+      "homePodRanking": 3,
+      "awayPodRanking": 4
+    }
+  ]
 }

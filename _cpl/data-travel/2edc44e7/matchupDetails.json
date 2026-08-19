@@ -80,6 +80,22 @@
     }
   },
   {
+    "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
+    "details": {
+      "matchup": {
+        "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
+        "weekNumber": 2,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Allstar Pickler"
+      }
+    }
+  },
+  {
     "matchupId": "53e2bf4b-ba53-494d-b3f3-b10605356637",
     "details": {
       "matchup": {
@@ -144,22 +160,6 @@
     }
   },
   {
-    "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
-    "details": {
-      "matchup": {
-        "matchupId": "99e97f36-a640-4da5-9049-7277b9ea7233",
-        "weekNumber": 2,
-        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-        "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace",
-        "awayName": "Allstar Pickler"
-      }
-    }
-  },
-  {
     "matchupId": "5d977431-54ee-4327-9842-c83dc7dd6ea3",
     "details": {
       "matchup": {
@@ -192,6 +192,22 @@
     }
   },
   {
+    "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
+    "details": {
+      "matchup": {
+        "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
+        "weekNumber": 5,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Jersey Pickleball Club"
+      }
+    }
+  },
+  {
     "matchupId": "711958d7-442f-4e07-80e4-14aa13c61d83",
     "details": {
       "matchup": {
@@ -220,22 +236,6 @@
         "endResult": null,
         "homeName": "Allstar Pickler",
         "awayName": "Stelton Sports"
-      }
-    }
-  },
-  {
-    "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
-    "details": {
-      "matchup": {
-        "matchupId": "41c21441-9551-41e9-8d93-01d7c51c1af4",
-        "weekNumber": 5,
-        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-        "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace",
-        "awayName": "Jersey Pickleball Club"
       }
     }
   },
@@ -416,6 +416,22 @@
     }
   },
   {
+    "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
+    "details": {
+      "matchup": {
+        "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
+        "weekNumber": 8,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Flemington Blue"
+      }
+    }
+  },
+  {
     "matchupId": "ad7f437f-b0a2-4a14-800d-a00bfb2b7e0d",
     "details": {
       "matchup": {
@@ -460,22 +476,6 @@
         "endResult": null,
         "homeName": "Bounce Malvern Black",
         "awayName": "Pickle Place"
-      }
-    }
-  },
-  {
-    "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
-    "details": {
-      "matchup": {
-        "matchupId": "bf2f7ef7-6bd4-4db8-b59b-f4dea8f9585d",
-        "weekNumber": 8,
-        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace",
-        "awayName": "Flemington Blue"
       }
     }
   },
@@ -592,6 +592,22 @@
     }
   },
   {
+    "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
+    "details": {
+      "matchup": {
+        "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
+        "weekNumber": 10,
+        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Pickleball Palace",
+        "awayName": "Premiere"
+      }
+    }
+  },
+  {
     "matchupId": "1f20f974-3457-40a0-86da-8a14e1820aec",
     "details": {
       "matchup": {
@@ -620,22 +636,6 @@
         "endResult": null,
         "homeName": "APC Garden State",
         "awayName": "Pickle Place"
-      }
-    }
-  },
-  {
-    "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
-    "details": {
-      "matchup": {
-        "matchupId": "7d7b8695-9cb1-4575-b382-235b8af0e314",
-        "weekNumber": 10,
-        "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-        "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Pickleball Palace",
-        "awayName": "Premiere"
       }
     }
   },
@@ -800,22 +800,6 @@
     }
   },
   {
-    "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
-    "details": {
-      "matchup": {
-        "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
-        "weekNumber": 13,
-        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-        "homePoints": 0,
-        "awayPoints": 0,
-        "endResult": null,
-        "homeName": "Jersey Pickleball Club",
-        "awayName": "Flemington Blue"
-      }
-    }
-  },
-  {
     "matchupId": "d2539e89-48b6-40f5-903c-7a03c96d2309",
     "details": {
       "matchup": {
@@ -828,6 +812,22 @@
         "endResult": null,
         "homeName": "Pickleball Palace",
         "awayName": "Stelton Sports"
+      }
+    }
+  },
+  {
+    "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
+    "details": {
+      "matchup": {
+        "matchupId": "8fb8a9ed-eb8d-4879-9db6-4b80c8176c22",
+        "weekNumber": 13,
+        "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+        "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+        "homePoints": 0,
+        "awayPoints": 0,
+        "endResult": null,
+        "homeName": "Jersey Pickleball Club",
+        "awayName": "Flemington Blue"
       }
     }
   },
