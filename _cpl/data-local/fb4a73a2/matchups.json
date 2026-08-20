@@ -173,9 +173,9 @@
       "weekNumber": 8,
       "homeTeamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
       "awayTeamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 515,
+      "awayPoints": 641,
+      "endResult": "away",
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Kiss My Ace",
       "awayName": "Baby Got Backhand"

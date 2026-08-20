@@ -233,9 +233,9 @@
       "weekNumber": 10,
       "homeTeamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
       "awayTeamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 527,
+      "awayPoints": 618,
+      "endResult": "away",
       "scheduledTime": "2026-08-19T19:00:00",
       "homeName": "ACE ACE Baby",
       "awayName": "Ace & Eights"
