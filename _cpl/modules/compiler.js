@@ -10,6 +10,25 @@ const ratio = (wins, losses) => {
 const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
 const escapeBootstrapString = value => String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
 
+function isGenderedTravelDivisionName(name) {
+  return /\b(women'?s?|men'?s?)\b/i.test(String(name || ''));
+}
+
+function formatTravelDivisionLabel(name) {
+  const text = String(name || '').trim();
+  const match = text.match(/^(\d+(?:\.\d+)?)\s+(women'?s?|men'?s?)$/i);
+  if (!match) return text;
+  return `${match[2]} ${match[1]}`;
+}
+
+function getTravelDivisionSortKey(name) {
+  const text = formatTravelDivisionLabel(name);
+  const ratingMatch = text.match(/(\d+(?:\.\d+)?)/);
+  const rating = ratingMatch ? Number(ratingMatch[1]) : Number.POSITIVE_INFINITY;
+  const genderedRank = isGenderedTravelDivisionName(text) ? 1 : 0;
+  return { rating, genderedRank, text: text.toLowerCase() };
+}
+
 function buildBootstrapDivisionsLiteral(divisions) {
   return divisions.map((division) => {
     const entries = [
@@ -940,11 +959,19 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   }
 
   // Write bootstrap.js with the current division list baked in.
-  // Sort divisions deterministically: local by clubName then divisionName; travel by divisionName (numeric).
+  // Sort divisions deterministically:
+  // - local by clubName then divisionName
+  // - travel by numeric bracket, then regular before gendered, then name
   const sortedDivisions = [...allDivisions].sort((a, b) => {
     if (league === 'local') {
       const clubCmp = (a.clubName || '').localeCompare(b.clubName || '');
       if (clubCmp !== 0) return clubCmp;
+    } else if (league === 'travel') {
+      const aKey = getTravelDivisionSortKey(a.divisionName);
+      const bKey = getTravelDivisionSortKey(b.divisionName);
+      if (aKey.genderedRank !== bKey.genderedRank) return aKey.genderedRank - bKey.genderedRank;
+      if (aKey.rating !== bKey.rating) return aKey.rating - bKey.rating;
+      return aKey.text.localeCompare(bKey.text, undefined, { numeric: true });
     }
     return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
   });

@@ -4,6 +4,7 @@ const { extractValues, filterDivisions, formatDivisionLabel, getLeagueDataConfig
 
 const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
 const TRAVEL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api';
+const TRAVEL_GENDER_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api';
 const LOCAL_DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
 const TRAVEL_REGION_ID = 'ffc383dc-fd43-4afa-9310-920c4b0545f2';
 const TRAVEL_DEFAULT_DIVISION_ID = 'b7ca04e4-a9b8-4c10-8054-e58329d8dc49';
@@ -197,27 +198,42 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   const allDivisions = [];
 
   if (league === 'travel') {
-    // Travel league: discover divisions via the /regions endpoint.
-    const regionsUrl = `${apiBase}/regions`;
-    const regionsRes = await fetch(regionsUrl);
-    await checkResponse(regionsRes, regionsUrl);
-    const regionsRaw = await regionsRes.json();
-    const regions = regionsRaw.$values || regionsRaw;
-    const region = regions.find(r => r.regionId === TRAVEL_REGION_ID);
-    if (!region) {
-      throw new Error(`Region ${TRAVEL_REGION_ID} not found in /regions response.`);
+    // Travel league: discover divisions via the /regions endpoint from both travel APIs.
+    const travelApiBases = [TRAVEL_API_BASE, TRAVEL_GENDER_API_BASE];
+    const divisionsById = new Map();
+
+    for (const sourceApiBase of travelApiBases) {
+      const regionsUrl = `${sourceApiBase}/regions`;
+      const regionsRes = await fetch(regionsUrl);
+      await checkResponse(regionsRes, regionsUrl);
+      const regionsRaw = await regionsRes.json();
+      const regions = regionsRaw.$values || regionsRaw;
+      const region = regions.find(r => r.regionId === TRAVEL_REGION_ID);
+      if (!region) {
+        throw new Error(`Region ${TRAVEL_REGION_ID} not found in /regions response.`);
+      }
+      const divs = (region.divisions && region.divisions.$values) || region.divisions || [];
+      for (const div of divs) {
+        if (!div.active) continue;
+        const existing = divisionsById.get(div.divisionId);
+        const next = {
+          slug: slugForDivision(div.divisionId),
+          divisionId: div.divisionId,
+          divisionName: div.divisionName.replace(/&amp;/g, '&'),
+          isDefault: div.divisionId === TRAVEL_DEFAULT_DIVISION_ID,
+          regionName: region.regionName || region.name || '',
+          apiBase: sourceApiBase,
+        };
+        if (existing) {
+          existing.isDefault = existing.isDefault || next.isDefault;
+          if (!existing.regionName && next.regionName) existing.regionName = next.regionName;
+        } else {
+          divisionsById.set(div.divisionId, next);
+        }
+      }
     }
-    const divs = (region.divisions && region.divisions.$values) || region.divisions || [];
-    for (const div of divs) {
-      if (!div.active) continue;
-      allDivisions.push({
-        slug: slugForDivision(div.divisionId),
-        divisionId: div.divisionId,
-        divisionName: div.divisionName.replace(/&amp;/g, '&'),
-        isDefault: div.divisionId === TRAVEL_DEFAULT_DIVISION_ID,
-        regionName: region.regionName || region.name || '',
-      });
-    }
+
+    allDivisions.push(...divisionsById.values());
   } else {
     // Local league: discover divisions via /clubs.
     const clubsUrl = `${apiBase}/clubs`;
@@ -259,7 +275,8 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
     const label = formatDivisionLabel(div);
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
-      const { matchupsRaw, players, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(apiBase, div.divisionId);
+      const divisionApiBase = div.apiBase || apiBase;
+      const { matchupsRaw, players, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(divisionApiBase, div.divisionId);
 
       const matchupsArray = extractValues(matchupsRaw);
       console.log(`  Found ${matchupsArray.length} matchups.`);

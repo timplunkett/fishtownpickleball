@@ -85,37 +85,15 @@
 </div>
 
 <script src="../dupr-ratings.js"></script>
+<script src="../local/bootstrap.js"></script>
+<script src="../travel/bootstrap.js"></script>
 <script>
 (function () {
   'use strict';
 
-  var TRAVEL_DIVISION_RULES = {
-    e27386b3: { division: 'Travel • 3.0', min: 3.000, max: 3.500, file: '../travel/data-e27386b3.js', leaguePath: 'travel' },
-    '1e12eb3f': { division: 'Travel • 3.0 (50+)', min: 3.000, max: 3.500, file: '../travel/data-1e12eb3f.js', leaguePath: 'travel' },
-    b7ca04e4: { division: 'Travel • 3.5', min: 3.500, max: 4.000, file: '../travel/data.js', leaguePath: 'travel' },
-    c43b8608: { division: 'Travel • 3.5 (50+)', min: 3.500, max: 4.000, file: '../travel/data-c43b8608.js', leaguePath: 'travel' },
-    a1413f3d: { division: 'Travel • 4.0', min: 4.000, max: 4.500, file: '../travel/data-a1413f3d.js', leaguePath: 'travel' },
-    '2edc44e7': { division: 'Travel • 4.0 (50+)', min: 4.000, max: 4.500, file: '../travel/data-2edc44e7.js', leaguePath: 'travel' },
-    '6619816f': { division: 'Travel • 4.5', min: 4.500, max: Infinity, file: '../travel/data-6619816f.js', leaguePath: 'travel' },
-  };
-  var LOCAL_DIVISIONS = [
-    { slug: '3e9b6a58', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0', file: '../local/data.js' },
-    { slug: 'd4ef2f74', clubName: 'Ace - Moorestown / Voorhees', divisionName: '3.75 & Over', file: '../local/data-d4ef2f74.js' },
-    { slug: 'c9a2c0fe', clubName: 'Ace - Moorestown / Voorhees', divisionName: '3.75 & Under', file: '../local/data-c9a2c0fe.js' },
-    { slug: 'a40bd7e8', clubName: 'Bounce - Malvern', divisionName: '3.5 - 4.0', file: '../local/data-a40bd7e8.js' },
-    { slug: 'b07de80e', clubName: 'Bounce - Malvern', divisionName: '4.0 - 4.5', file: '../local/data-b07de80e.js' },
-    { slug: 'e6a9b403', clubName: 'Dill Dinkers - Chantilly', divisionName: '3.25 - 3.99', file: '../local/data-e6a9b403.js' },
-    { slug: 'fb4a73a2', clubName: 'Dill Dinkers - Hatboro', divisionName: '3.25 - 3.75', file: '../local/data-fb4a73a2.js' },
-    { slug: 'edb788e6', clubName: 'Flemington', divisionName: '3.25 - 3.99', file: '../local/data-edb788e6.js' },
-    { slug: 'b9b8230d', clubName: 'Flemington', divisionName: '3.25 & Under', file: '../local/data-b9b8230d.js' },
-    { slug: 'eaa4c1dc', clubName: 'Flemington', divisionName: '4.0 & Over', file: '../local/data-eaa4c1dc.js' },
-    { slug: 'c1b3f9c1', clubName: 'Robbinsville Pickle House', divisionName: '3.25 - 3.99', file: '../local/data-c1b3f9c1.js' },
-    { slug: 'a85172dd', clubName: 'Robbinsville Pickle House', divisionName: '4.0 - 4.99', file: '../local/data-a85172dd.js' }
-  ];
-  var DIVISION_RULES = Object.assign({}, TRAVEL_DIVISION_RULES, buildLocalDivisionRules());
-
   var sortState = { key: 'delta', direction: -1 };
   var DELTA_EMPHASIS_THRESHOLD = 0.050;
+  var DEFAULT_DIVISION_SLUGS = { local: '3e9b6a58', travel: 'b7ca04e4' };
   var outliers = [];
   var missing = [];
 
@@ -139,20 +117,46 @@
     return null;
   }
 
+  function parseTravelDivisionRange(divisionName) {
+    var match = String(divisionName || '').trim().match(/^(\d+(?:\.\d+)?)/);
+    if (!match) return null;
+    var min = Number(match[1]);
+    return { min: min, max: min >= 4.5 ? Infinity : min + 0.5 };
+  }
+
+  function buildTravelDivisionRules() {
+    return (Array.isArray(window.TRAVEL_DIVISIONS) ? window.TRAVEL_DIVISIONS : []).reduce(function (rules, division) {
+      var range = parseTravelDivisionRange(division.divisionName);
+      if (!range) return rules;
+      rules[division.slug] = {
+        division: 'Travel • ' + division.divisionName,
+        min: range.min,
+        max: range.max,
+        leaguePath: 'travel',
+      };
+      return rules;
+    }, {});
+  }
+
   function buildLocalDivisionRules() {
-    return LOCAL_DIVISIONS.reduce(function (rules, division) {
+    return (Array.isArray(window.LOCAL_DIVISIONS) ? window.LOCAL_DIVISIONS : []).reduce(function (rules, division) {
       var range = parseDivisionRange(division.divisionName);
       if (!range) return rules;
       rules[division.slug] = {
         division: 'Local • ' + division.clubName + ' • ' + division.divisionName,
         min: range.min,
         max: range.max,
-        file: division.file,
         leaguePath: 'local',
       };
       return rules;
     }, {});
   }
+
+  function buildDivisionRules() {
+    return Object.assign({}, buildTravelDivisionRules(), buildLocalDivisionRules());
+  }
+
+  var DIVISION_RULES = buildDivisionRules();
 
   function escapeHtml(value) {
     return String(value).replace(/[&<>"']/g, function (character) {
@@ -179,6 +183,13 @@
     var jsonText = scriptText.slice(start + prefix.length).trim();
     if (jsonText.endsWith(';')) jsonText = jsonText.slice(0, -1);
     return JSON.parse(jsonText);
+  }
+
+  function resolveDivisionDataFile(slug, leaguePath) {
+    if (DEFAULT_DIVISION_SLUGS[leaguePath] === slug) {
+      return '../' + encodeURIComponent(leaguePath) + '/data.js';
+    }
+    return '../' + encodeURIComponent(leaguePath) + '/data-' + encodeURIComponent(slug) + '.js';
   }
 
   function normalizeGender(value) {
@@ -475,22 +486,19 @@
   }
 
   function loadAllDatasets() {
-    var entries = Object.keys(DIVISION_RULES).map(function (slug) {
-      return { slug: slug, file: DIVISION_RULES[slug].file };
-    });
-
-    return Promise.all(entries.map(function (entry) {
-      return fetch(entry.file)
+    return Promise.all(Object.keys(DIVISION_RULES).map(function (slug) {
+      var file = resolveDivisionDataFile(slug, DIVISION_RULES[slug].leaguePath);
+      return fetch(file)
         .then(function (response) {
           if (!response.ok) {
-            throw new Error('Failed to load ' + entry.file + ': ' + response.status);
+            throw new Error('Failed to load ' + file + ': ' + response.status);
           }
           return response.text();
         })
         .then(function (text) {
           var parsed = parseDataScript(text);
-          if (!parsed) throw new Error('Could not parse ' + entry.file);
-          return buildRowsFromDataset(entry.slug, parsed);
+          if (!parsed) throw new Error('Could not parse ' + file);
+          return buildRowsFromDataset(slug, parsed);
         });
     })).then(function (groups) {
       return groups.flat();
