@@ -301,6 +301,17 @@
     return m ? parseFloat(m[0]) : Infinity;
   }
 
+  function isGenderedTravelDivision(name) {
+    return /\b(women'?s?|men'?s?)\b/i.test(String(name || ''));
+  }
+
+  function formatTravelDivisionLabel(name) {
+    var text = String(name || '').trim();
+    var m = text.match(/^(\d+(?:\.\d+)?)\s+(women'?s?|men'?s?)$/i);
+    if (!m) return text;
+    return m[2] + ' ' + m[1];
+  }
+
   function buildLocalSelect(divisions) {
     var host = document.getElementById('local-select-host');
     if (!divisions || !divisions.length) {
@@ -331,11 +342,17 @@
       return;
     }
     var sorted = divisions.slice().sort(function (a, b) {
-      return divisionSortKey(a.divisionName) - divisionSortKey(b.divisionName);
+      var keyA = divisionSortKey(a.divisionName);
+      var keyB = divisionSortKey(b.divisionName);
+      var genderA = isGenderedTravelDivision(a.divisionName) ? 1 : 0;
+      var genderB = isGenderedTravelDivision(b.divisionName) ? 1 : 0;
+      if (genderA !== genderB) return genderA - genderB;
+      if (keyA !== keyB) return keyA - keyB;
+      return String(a.divisionName || '').localeCompare(String(b.divisionName || ''), undefined, { numeric: true });
     });
     var opts = '<option value="" disabled selected>Select a division…</option>' +
       sorted.map(function (div) {
-        return '<option value="' + escapeHtml(div.slug) + '">' + escapeHtml(div.divisionName) + '</option>';
+        return '<option value="' + escapeHtml(div.slug) + '">' + escapeHtml(formatTravelDivisionLabel(div.divisionName)) + '</option>';
       }).join('');
     var wrap = document.createElement('div');
     wrap.className = 'select-wrap';
