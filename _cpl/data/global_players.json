@@ -19625,7 +19625,7 @@
   {
     "playerId": "4a188481-bbb3-4d7b-b507-89f74d58af12",
     "firstName": "Paige",
-    "lastName": "Smith",
+    "lastName": "Rebecca Smith",
     "dupr": "4V4Y6G",
     "duprRating": "3.856",
     "duprNumericId": 8149537797
@@ -19739,6 +19739,328 @@
     "firstName": "Edwin",
     "lastName": "Garcia",
     "dupr": "G72M0X",
+    "duprRating": null
+  },
+  {
+    "playerId": "3a9ee2e5-e88b-4b96-932d-dc09dbfa001d",
+    "firstName": "Craig",
+    "lastName": "Batten",
+    "dupr": "8DOPJM",
+    "duprRating": null
+  },
+  {
+    "playerId": "1f3700d5-63e4-495e-92c1-1248224ed61d",
+    "firstName": "David",
+    "lastName": "McIntyre",
+    "dupr": "1NMGOW",
+    "duprRating": null
+  },
+  {
+    "playerId": "20f0fb60-8e60-448c-b971-40fb6e7fca23",
+    "firstName": "Line",
+    "lastName": "Barlow",
+    "dupr": "67GJ0E",
+    "duprRating": null
+  },
+  {
+    "playerId": "07881006-c083-4729-8424-410aeee08940",
+    "firstName": "Anne",
+    "lastName": "Buckley",
+    "dupr": "67RPGE",
+    "duprRating": null
+  },
+  {
+    "playerId": "ee6add19-54b8-42db-b4ea-81ea6c1ec00a",
+    "firstName": "Jaerene",
+    "lastName": "Medeiros",
+    "dupr": "M9Y94V",
+    "duprRating": null
+  },
+  {
+    "playerId": "611e6c5a-d294-40b0-bf75-afbca58b145a",
+    "firstName": "Crizle",
+    "lastName": "Ong",
+    "dupr": "R4VPVQ",
+    "duprRating": null
+  },
+  {
+    "playerId": "2f50700d-74d4-426f-85c9-b894f72096f0",
+    "firstName": "Rachael",
+    "lastName": "Osetkowski",
+    "dupr": "VLKMLE",
+    "duprRating": null
+  },
+  {
+    "playerId": "c56ab685-5c55-4437-98a6-7a9b8c95895d",
+    "firstName": "Rashmi",
+    "lastName": "Patade",
+    "dupr": "JPNQ5M",
+    "duprRating": null
+  },
+  {
+    "playerId": "519426b7-932a-4dd5-9865-ebaadb3d226d",
+    "firstName": "Rob",
+    "lastName": "Stever",
+    "dupr": "7DK24M",
+    "duprRating": null
+  },
+  {
+    "playerId": "771ab070-5ea6-4b8f-ba6b-b42a50712034",
+    "firstName": "Yawen",
+    "lastName": "Zhang",
+    "dupr": "Y59EVP",
+    "duprRating": null
+  },
+  {
+    "playerId": "f704be9a-6fb6-4107-bc74-423326f9e46e",
+    "firstName": "Karen",
+    "lastName": "Austin",
+    "dupr": "66LMDK",
+    "duprRating": null
+  },
+  {
+    "playerId": "93c5b40e-d4ff-4fc5-b7fa-de1e6a82110b",
+    "firstName": "Alex",
+    "lastName": "Chang",
+    "dupr": "LZQ0NJ",
+    "duprRating": null
+  },
+  {
+    "playerId": "c92ae5b3-6059-4c8a-ac04-fe0cbd1eb47c",
+    "firstName": "Vivian",
+    "lastName": "Funchion",
+    "dupr": "8EQDWW",
+    "duprRating": null
+  },
+  {
+    "playerId": "4d244e17-5296-404e-b826-a70de60cfb14",
+    "firstName": "Jill",
+    "lastName": "Honicker",
+    "dupr": "1QYNE0",
+    "duprRating": null
+  },
+  {
+    "playerId": "e25b79a2-a054-4642-a926-1499e0768832",
+    "firstName": "Norm",
+    "lastName": "Jones",
+    "dupr": "YGL0YK",
+    "duprRating": null
+  },
+  {
+    "playerId": "4b2fda63-a536-4730-9140-4a372b1726e9",
+    "firstName": "Paul",
+    "lastName": "Mcalary",
+    "dupr": "DNPZ4M",
+    "duprRating": null
+  },
+  {
+    "playerId": "8d5bd62d-d038-491c-a8c1-1f276a0ed0dc",
+    "firstName": "Matt",
+    "lastName": "McNulty",
+    "dupr": "V42755",
+    "duprRating": null
+  },
+  {
+    "playerId": "dfb719fa-b0aa-436f-868b-0130018d36c6",
+    "firstName": "Lisa",
+    "lastName": "Miller",
+    "dupr": "W5JERM",
+    "duprRating": null
+  },
+  {
+    "playerId": "5db691c2-51e1-4500-a9e7-60c0f303f6d0",
+    "firstName": "Michael",
+    "lastName": "Ross",
+    "dupr": "Y45DRP",
+    "duprRating": null
+  },
+  {
+    "playerId": "b76b0425-e8ac-48b3-aa4e-cbb462179fbe",
+    "firstName": "Donna",
+    "lastName": "Shabinaw",
+    "dupr": "NYW9MZ",
+    "duprRating": null
+  },
+  {
+    "playerId": "db7a2656-a6f9-4a16-a9b6-2edcbd009e55",
+    "firstName": "Feng",
+    "lastName": "Zhang",
+    "dupr": "PW6LGX",
+    "duprRating": null
+  },
+  {
+    "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+    "firstName": "Elliott",
+    "lastName": "Albanese",
+    "dupr": "8DM5ZY",
+    "duprRating": null
+  },
+  {
+    "playerId": "1591fbbb-7191-49bc-bc26-e936af3f947c",
+    "firstName": "Vinay shankar",
+    "lastName": "Galla",
+    "dupr": "EG669W",
+    "duprRating": null
+  },
+  {
+    "playerId": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
+    "firstName": "Taylor",
+    "lastName": "Lambe",
+    "dupr": "V2OM6E",
+    "duprRating": null
+  },
+  {
+    "playerId": "12db11ed-c342-47ec-8fed-44745a35dbdb",
+    "firstName": "Luiza",
+    "lastName": "Scarlatti",
+    "dupr": "WNPZXG",
+    "duprRating": null
+  },
+  {
+    "playerId": "b124018b-e1df-4535-b68f-6bcf67579a24",
+    "firstName": "Melanie",
+    "lastName": "Shapsis",
+    "dupr": "G052ZM",
+    "duprRating": null
+  },
+  {
+    "playerId": "d6b1f30d-fc49-4927-9868-73955559d98a",
+    "firstName": "Joreen",
+    "lastName": "Sun",
+    "dupr": "PWJQMQ",
+    "duprRating": null
+  },
+  {
+    "playerId": "7f44421c-476c-4857-99ed-3376b32289ca",
+    "firstName": "Michael",
+    "lastName": "Vincent",
+    "dupr": "EGV7VO",
+    "duprRating": null
+  },
+  {
+    "playerId": "2ce6aa6c-0900-43f9-9595-78170be6d514",
+    "firstName": "Gwyneth",
+    "lastName": "Geressy",
+    "dupr": "2DJPO4",
+    "duprRating": null
+  },
+  {
+    "playerId": "545f9968-fc0a-420b-ba42-db16c6e1f884",
+    "firstName": "Tayon",
+    "lastName": "Hart",
+    "dupr": "RYPO2Z",
+    "duprRating": null
+  },
+  {
+    "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29",
+    "firstName": "Nancy",
+    "lastName": "Luyando",
+    "dupr": "ODKPZ2",
+    "duprRating": null
+  },
+  {
+    "playerId": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
+    "firstName": "Susie",
+    "lastName": "McConaghy",
+    "dupr": "1NPVG2",
+    "duprRating": null
+  },
+  {
+    "playerId": "57b87cca-b8c5-4868-a8c2-8848f441497b",
+    "firstName": "Jim",
+    "lastName": "Nelson",
+    "dupr": "OZNWY2",
+    "duprRating": null
+  },
+  {
+    "playerId": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+    "firstName": "Shawn",
+    "lastName": "Nisse",
+    "dupr": "X29PG5",
+    "duprRating": null
+  },
+  {
+    "playerId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
+    "firstName": "Allan",
+    "lastName": "Orchard",
+    "dupr": "KYDZK7",
+    "duprRating": null
+  },
+  {
+    "playerId": "8f4ef30f-10b9-4ef4-b8d1-098be63d84fb",
+    "firstName": "Sydney",
+    "lastName": "Peterson",
+    "dupr": "LP44Z6",
+    "duprRating": null
+  },
+  {
+    "playerId": "b0a69f00-753c-4ced-959d-d659dbb4a700",
+    "firstName": "Moe",
+    "lastName": "Phanhnong",
+    "dupr": "J5KZ4W",
+    "duprRating": null
+  },
+  {
+    "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
+    "firstName": "Vince",
+    "lastName": "Abate",
+    "dupr": "8E6JM8",
+    "duprRating": null
+  },
+  {
+    "playerId": "d195dff9-7f38-402c-8164-44640f89c3fa",
+    "firstName": "Bruno",
+    "lastName": "Casino",
+    "dupr": "PWZPGX",
+    "duprRating": null
+  },
+  {
+    "playerId": "931df78f-b759-497d-ba8d-be7d3f41f668",
+    "firstName": "Conor",
+    "lastName": "Landrigan",
+    "dupr": "2L40ER",
+    "duprRating": null
+  },
+  {
+    "playerId": "53cc1790-d8b9-4b64-a8b3-6e10b2eeb131",
+    "firstName": "HELEN",
+    "lastName": "LIU",
+    "dupr": "YX4JKD",
+    "duprRating": null
+  },
+  {
+    "playerId": "7b2e1bed-f387-48de-a028-bdde357bb3af",
+    "firstName": "Matthew",
+    "lastName": "Matro",
+    "dupr": "GGRPWV",
+    "duprRating": null
+  },
+  {
+    "playerId": "3383dc77-6aed-499b-ac62-cefafa3b8e90",
+    "firstName": "TODD",
+    "lastName": "BARON",
+    "dupr": "V4VY4P",
+    "duprRating": null
+  },
+  {
+    "playerId": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
+    "firstName": "Isabella",
+    "lastName": "Chernin",
+    "dupr": "3LMPXJ",
+    "duprRating": null
+  },
+  {
+    "playerId": "6600b9f3-d27b-4772-8308-5636ac646776",
+    "firstName": "Pedro",
+    "lastName": "Oliveira",
+    "dupr": "OREVM7",
+    "duprRating": null
+  },
+  {
+    "playerId": "f32137a7-e7f0-4891-8691-81732f3db7f5",
+    "firstName": "Matt",
+    "lastName": "Stone",
+    "dupr": "8D7554",
     "duprRating": null
   }
 ]
