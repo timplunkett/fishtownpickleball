@@ -1358,6 +1358,29 @@
       "ranking": 59
     },
     {
+      "playerId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
+      "firstName": "Charles",
+      "lastName": "Buzad",
+      "gender": "Male",
+      "dupr": "67JY5D",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 60
+    },
+    {
       "playerId": "c8377da1-9b71-4b72-95d2-7cb88f9aa1d0",
       "firstName": "Bruce",
       "lastName": "Chmara",
@@ -1378,7 +1401,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 60
+      "ranking": 61
     },
     {
       "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379",
@@ -1401,7 +1424,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 61
+      "ranking": 62
     },
     {
       "playerId": "67a7d5b3-d92d-45bb-b497-dc1ad9eb5891",
@@ -1424,7 +1447,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 62
+      "ranking": 63
     },
     {
       "playerId": "120218cc-4d95-488b-898c-dd207375ebec",
@@ -1447,7 +1470,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 63
+      "ranking": 64
     },
     {
       "playerId": "3149a20b-28d9-47ff-b429-2140f5e817b3",
@@ -1470,7 +1493,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 64
+      "ranking": 65
+    },
+    {
+      "playerId": "813470f2-6efd-44e2-87b0-c373c5ecacfd",
+      "firstName": "John",
+      "lastName": "Romeo",
+      "gender": "Male",
+      "dupr": "0QJQE4",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 66
     }
   ]
 }

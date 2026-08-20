@@ -221,9 +221,9 @@
       "weekNumber": 10,
       "homeTeamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
       "awayTeamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 641,
+      "awayPoints": 596,
+      "endResult": "home",
       "scheduledTime": "2026-08-19T19:00:00",
       "homeName": "Kitchen Commanders",
       "awayName": "Ace Rebels"
