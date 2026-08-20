@@ -450,10 +450,11 @@
       if (duprEntry) {
         var duprData = duprRatings[duprEntry.playerId];
         var rating = duprData.rating.toFixed(3);
+        var ratingDisplay = duprData.provisional ? escapeHtml(rating) + '<sup title="Provisional rating">*</sup>' : escapeHtml(rating);
         duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
           (duprData.numericId
-            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprData.numericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
-            : escapeHtml(rating)) +
+            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprData.numericId) + '" target="_blank" rel="nofollow">' + ratingDisplay + '</a>'
+            : ratingDisplay) +
           '</span>';
       }
       return '<div class="player-result">' +
