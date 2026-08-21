@@ -498,8 +498,9 @@ function getSortValue(player, key) {
 
 function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
+  const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
-  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${subTag}`;
+  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}${captainTag}</span>${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -737,9 +738,10 @@ function renderModalHeader(player) {
   const duprStat = isMissing(DUPR_RATINGS[player.playerId]?.rating)
     ? ''
     : `<div class="mh-stat"><div class="n">${renderDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
+  const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `
-    <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
+    <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}${captainTag}</div>
     <div class="mh-sub">
       <span class="teamdot" style="background:${getTeamColor(player.team)}"></span>
       ${escapeHtml(player.team)} • ${genderLabel} • season totals
