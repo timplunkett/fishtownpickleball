@@ -58,6 +58,7 @@ const HTML_ESCAPE_MAP = Object.freeze({
 
 const elements = {
   body: getRequiredElement('body'),
+  captain: getRequiredElement('captain'),
   divisionSelect: getRequiredElement('division-select'),
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
@@ -601,6 +602,7 @@ function getFilteredPlayers() {
   const podFilter = Number(elements.pod.value) || 0;
   const genderFilter = elements.gender.value;
   const matchFilter = Number(elements.minGames.value);
+  const captainFilter = elements.captain.value;
 
   return DATA.players.filter(
     (player) =>
@@ -611,6 +613,7 @@ function getFilteredPlayers() {
         return t && t.pod === podFilter;
       })()) &&
       (!genderFilter || player.gender === genderFilter) &&
+      (!captainFilter || player.isCaptain) &&
       (matchFilter === 0 || (matchFilter === 1 ? player.matches === 1 : player.matches >= matchFilter)),
   );
 }
@@ -2194,7 +2197,7 @@ function initialize() {
   // min-games apply to the player table only (they don't affect pairs).
   getRequiredElement('team').addEventListener('input', renderDuos);
   getRequiredElement('search').addEventListener('input', renderDuos);
-  ['search', 'team', 'pod', 'gender', 'minq'].forEach((id) => {
+  ['search', 'team', 'pod', 'gender', 'captain', 'minq'].forEach((id) => {
     getRequiredElement(id).addEventListener('input', render);
   });
 
