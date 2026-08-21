@@ -69,7 +69,7 @@ function extractRating(playerMatch) {
   const ratings = playerMatch.ratings;
   if (ratings?.doubles != null) {
     const provisional = ratings.provisionalRatings?.doublesRating ?? null;
-    return { rating: provisional, provisional: provisional != null };
+    return { rating: provisional ?? ratings.doubles, provisional: provisional != null };
   }
   return { rating: null, provisional: false };
 }

@@ -172,8 +172,9 @@
   function duprCell(row) {
     if (row.duprRating == null) return '<span class="muted">—</span>';
     var label = row.duprRating.toFixed(3);
-    if (!row.duprNumericId) return label;
-    return '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(row.duprNumericId) + '" target="_blank" rel="nofollow">' + label + '</a>';
+    var display = row.duprProvisional ? escapeHtml(label) + '<sup title="Provisional rating">*</sup>' : escapeHtml(label);
+    if (!row.duprNumericId) return display;
+    return '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(row.duprNumericId) + '" target="_blank" rel="nofollow">' + display + '</a>';
   }
 
   function parseDataScript(scriptText) {
@@ -234,6 +235,7 @@
         gender: normalizeGender(player.gender),
         duprRating: dupr ? dupr.rating : null,
         duprNumericId: dupr ? dupr.numericId : null,
+        duprProvisional: dupr ? (dupr.provisional ?? false) : false,
         min: rule.min,
         max: rule.max,
         leaguePath: rule.leaguePath,

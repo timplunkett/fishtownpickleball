@@ -280,6 +280,14 @@ function formatSignedValue(value, digits) {
   return `${value >= 0 ? '+' : ''}${number}`;
 }
 
+function formatDuprRating(duprData) {
+  const label = escapeHtml(duprData.rating.toFixed(3));
+  const display = duprData.provisional ? label + '<sup title="Provisional rating">*</sup>' : label;
+  return duprData.numericId
+    ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(duprData.numericId)}" target="_blank" rel="nofollow">${display}</a>`
+    : display;
+}
+
 function formatWinPct(wins, losses) {
   const total = wins + losses;
   return total ? ((100 * wins) / total).toFixed(1) : '0.0';
@@ -581,11 +589,7 @@ function renderCell(player, key) {
         : `<span class="lgrank">#${player.leagueRank}</span>`;
     case 'dupr':
       if (isMissing(DUPR_RATINGS[player.playerId]?.rating)) return EMPTY_VALUE;
-      var rating = DUPR_RATINGS[player.playerId].rating.toFixed(3);
-      var ratingDisplay = DUPR_RATINGS[player.playerId].provisional ? escapeHtml(rating) + '<sup title="Provisional rating">*</sup>' : escapeHtml(rating);
-      return DUPR_RATINGS[player.playerId].numericId
-        ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(DUPR_RATINGS[player.playerId].numericId)}" target="_blank" rel="nofollow">${ratingDisplay}</a>`
-        : ratingDisplay;
+      return formatDuprRating(DUPR_RATINGS[player.playerId]);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -734,8 +738,9 @@ function renderModalHeader(player) {
   const leagueRankStat = isMissing(player.leagueRank)
     ? ''
     : `<div class="mh-stat"><div class="n">#${player.leagueRank}</div><div class="l">LG RANK</div></div>`;
-  const rating = DUPR_RATINGS[player.playerId]?.rating.toFixed(3);
-  const ratingDisplay = DUPR_RATINGS[player.playerId]?.provisional ? escapeHtml(rating) + '<sup title="Provisional rating">*</sup>' : escapeHtml(rating);
+  const duprStat = isMissing(DUPR_RATINGS[player.playerId]?.rating)
+    ? ''
+    : `<div class="mh-stat"><div class="n">${formatDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
 
   return `
     <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
@@ -755,7 +760,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
       ${divisionRankStat}
       ${leagueRankStat}
-      ${isMissing(DUPR_RATINGS[player.playerId]?.rating) ? '' : `<div class="mh-stat"><div class="n">${DUPR_RATINGS[player.playerId].numericId ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(DUPR_RATINGS[player.playerId].numericId)}" target="_blank" rel="nofollow">${ratingDisplay}</a>` : ratingDisplay}</div><div class="l">DUPR</div></div>`}
+      ${duprStat}
     </div>
     ${narrative}
     ${partnersLine}
