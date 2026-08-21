@@ -184,9 +184,14 @@
     var prefix = 'const DATA = ';
     var start = scriptText.indexOf(prefix);
     if (start === -1) return null;
-    var jsonText = scriptText.slice(start + prefix.length).trim();
+    var remainder = scriptText.slice(start + prefix.length);
+    var jsonLineEnd = remainder.indexOf(';\n');
+    var jsonText = jsonLineEnd === -1 ? remainder.trim() : remainder.slice(0, jsonLineEnd);
     if (jsonText.endsWith(';')) jsonText = jsonText.slice(0, -1);
-    return JSON.parse(jsonText);
+    var data = JSON.parse(jsonText);
+    var asOfMatch = scriptText.match(/DATA\.meta\.asOf\s*=\s*("[^"]*")\s*;/);
+    if (asOfMatch && data && data.meta) data.meta.asOf = JSON.parse(asOfMatch[1]);
+    return data;
   }
 
   function resolveDivisionDataFile(slug, leaguePath) {
