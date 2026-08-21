@@ -112,7 +112,7 @@
 
     var underMatch = text.match(/^(\d+(?:\.\d+)?)\s*&\s*under$/i);
     if (underMatch) {
-      return { min: 0, max: Number(underMatch[1]) };
+      return { min: 2, max: Number(underMatch[1]) };
     }
 
     return null;
