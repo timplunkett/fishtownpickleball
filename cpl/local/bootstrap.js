@@ -49,7 +49,8 @@
   }
 
   function loadApp() {
-    appendScript('../app.js');
+    const loadAppScript = () => appendScript('../app.js');
+    appendScript('../dupr-format.js', loadAppScript, loadAppScript);
   }
 
   function loadDataWithFallback(src) {
