@@ -65,20 +65,30 @@ async function searchPlayer(query, filter = null) {
 /**
  * Fetches the doubles DUPR rating for a given DUPR ID.
  */
+function extractRating(playerMatch) {
+  const confirmedRaw = playerMatch.ratings?.doubles ?? null;
+  const confirmed = typeof confirmedRaw === 'string' && confirmedRaw.trim().toUpperCase() === 'NR'
+    ? null
+    : confirmedRaw;
+  const provisional = playerMatch.ratings?.provisionalRatings?.doublesRating ?? null;
+  const rating = confirmed ?? provisional;
+  return { rating, provisional: rating != null && confirmed == null };
+}
+
 async function fetchDuprRating(duprId, existingNumericId = null) {
   if (!duprId || duprId.trim() === '') {
-    return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
+    return { rating: null, provisional: false, numericId: existingNumericId ?? null, rateLimited: false };
   }
 
   const primary = await searchPlayer(duprId, { duprId });
   if (primary.rateLimited) {
     console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
-    return { rating: null, numericId: null, rateLimited: true };
+    return { rating: null, provisional: false, numericId: null, rateLimited: true };
   }
   if (primary.playerMatch) {
     const numericId = primary.playerMatch.id ?? existingNumericId ?? null;
-    const rating = primary.playerMatch.ratings?.doubles ?? null;
-    return { rating, numericId, rateLimited: false };
+    const { rating, provisional } = extractRating(primary.playerMatch);
+    return { rating, provisional, numericId, rateLimited: false };
   }
 
   if (primary.error) {
@@ -91,19 +101,19 @@ async function fetchDuprRating(duprId, existingNumericId = null) {
     const fallback = await searchPlayer(String(existingNumericId), Number.isFinite(numericId) ? { id: numericId } : null);
     if (fallback.rateLimited) {
       console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
-      return { rating: null, numericId: null, rateLimited: true };
+      return { rating: null, provisional: false, numericId: null, rateLimited: true };
     }
     if (fallback.playerMatch) {
       const numericId = fallback.playerMatch.id ?? existingNumericId;
-      const rating = fallback.playerMatch.ratings?.doubles ?? null;
-      return { rating, numericId, rateLimited: false };
+      const { rating, provisional } = extractRating(fallback.playerMatch);
+      return { rating, provisional, numericId, rateLimited: false };
     }
     if (fallback.error) {
       console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}):`, fallback.error);
     }
   }
 
-  return { rating: null, numericId: existingNumericId ?? null, rateLimited: false };
+  return { rating: null, provisional: false, numericId: existingNumericId ?? null, rateLimited: false };
 }
 
 /**
@@ -126,7 +136,7 @@ function writeDuprRatingsJs(players) {
   const ratings = {};
   for (const p of players) {
     if (p.playerId && p.duprRating != null && p.duprRating !== 'NR') {
-      ratings[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null };
+      ratings[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
     }
   }
   const content = `window.DUPR_RATINGS = ${JSON.stringify(ratings)};`;
@@ -152,7 +162,7 @@ async function run() {
         if (!player.duprNumericId) {
           // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
         } else {
-          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId });
+          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId, provisional: player.duprProvisional ?? false });
         }
       }
     }
@@ -192,8 +202,10 @@ async function run() {
       const cached = duprCache.get(player.dupr);
       const cachedRating = typeof cached === 'object' ? cached.rating : cached;
       const cachedNumericId = typeof cached === 'object' ? cached.numericId : null;
+      const cachedProvisional = typeof cached === 'object' ? (cached.provisional ?? false) : false;
       player.duprRating = cachedRating;
       player.duprNumericId = cachedNumericId;
+      player.duprProvisional = cachedProvisional;
       delete player.duprLastFetchedFor;
       summary.push({
         Name: fullName,
@@ -204,7 +216,7 @@ async function run() {
       continue;
     }
 
-    const { rating, numericId, rateLimited } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
+    const { rating, provisional, numericId, rateLimited } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
 
     if (rateLimited) {
       consecutive429s += 1;
@@ -226,10 +238,11 @@ async function run() {
       }
       if (rating != null) {
         player.duprRating = rating;
+        player.duprProvisional = provisional;
         delete player.duprLastFetchedFor;
       }
       if (numericId != null || rating != null) {
-        duprCache.set(player.dupr, { rating, numericId });
+        duprCache.set(player.dupr, { rating, numericId, provisional });
       }
 
       summary.push({

@@ -285,6 +285,7 @@
 <script src="travel/bootstrap.js"></script>
 <script src="player-index.js"></script>
 <script src="dupr-ratings.js"></script>
+<script src="dupr-format.js"></script>
 <script>
 (function () {
   'use strict';
@@ -449,11 +450,8 @@
       var duprHtml = '';
       if (duprEntry) {
         var duprData = duprRatings[duprEntry.playerId];
-        var rating = duprData.rating.toFixed(3);
         duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
-          (duprData.numericId
-            ? '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(duprData.numericId) + '" target="_blank" rel="nofollow">' + escapeHtml(rating) + '</a>'
-            : escapeHtml(rating)) +
+          window.formatDuprRating(duprData) +
           '</span>';
       }
       return '<div class="player-result">' +

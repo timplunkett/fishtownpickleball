@@ -87,6 +87,7 @@
 <script src="../dupr-ratings.js"></script>
 <script src="../local/bootstrap.js"></script>
 <script src="../travel/bootstrap.js"></script>
+<script src="../dupr-format.js"></script>
 <script>
 (function () {
   'use strict';
@@ -171,9 +172,11 @@
 
   function duprCell(row) {
     if (row.duprRating == null) return '<span class="muted">—</span>';
-    var label = row.duprRating.toFixed(3);
-    if (!row.duprNumericId) return label;
-    return '<a href="https://dashboard.dupr.com/dashboard/player/' + encodeURIComponent(row.duprNumericId) + '" target="_blank" rel="nofollow">' + label + '</a>';
+    return window.formatDuprRating({
+      rating: row.duprRating,
+      provisional: row.duprProvisional,
+      numericId: row.duprNumericId,
+    });
   }
 
   function parseDataScript(scriptText) {
@@ -234,6 +237,7 @@
         gender: normalizeGender(player.gender),
         duprRating: dupr ? dupr.rating : null,
         duprNumericId: dupr ? dupr.numericId : null,
+        duprProvisional: dupr ? (dupr.provisional ?? false) : false,
         min: rule.min,
         max: rule.max,
         leaguePath: rule.leaguePath,
