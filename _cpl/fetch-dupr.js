@@ -71,7 +71,7 @@ async function searchPlayer(query, filter = null) {
  */
 function extractRating(playerMatch) {
   const confirmedRaw = playerMatch.ratings?.doubles ?? null;
-  const confirmed = typeof confirmedRaw === 'string' && confirmedRaw.trim().toUpperCase() === 'NR'
+  const confirmed = isNrRating(confirmedRaw)
     ? null
     : confirmedRaw;
   const provisional = playerMatch.ratings?.provisionalRatings?.doublesRating ?? null;
