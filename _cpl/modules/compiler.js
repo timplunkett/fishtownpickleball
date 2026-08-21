@@ -156,6 +156,28 @@ function firstValues(obj) {
   return null;
 }
 
+function writeDataScript(outPath, data) {
+  const asOf = data && data.meta ? data.meta.asOf : undefined;
+  const divisionSlug = data && data.meta ? data.meta.divisionSlug : undefined;
+  const scriptData = {
+    ...data,
+    meta: { ...((data && data.meta) || {}) },
+  };
+  delete scriptData.meta.asOf;
+  const lines = [
+    '(function () {',
+    `  const DATA = ${JSON.stringify(scriptData)};`,
+  ];
+  if (asOf != null) lines.push(`  DATA.meta.asOf = ${JSON.stringify(asOf)};`);
+  lines.push('  window.DATA = DATA;');
+  lines.push('  window.CPL_DATASETS = window.CPL_DATASETS || {};');
+  if (divisionSlug != null && divisionSlug !== '') {
+    lines.push(`  window.CPL_DATASETS[${JSON.stringify(divisionSlug)}] = DATA;`);
+  }
+  lines.push('})();');
+  fs.writeFileSync(outPath, `${lines.join('\n')}\n`);
+}
+
 function normalizeDuprCode(value) {
   return String(value || '').trim().toUpperCase();
 }
@@ -597,7 +619,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         ...(divisionMeta || {}),
       },
     };
-    fs.writeFileSync(outPath, "const DATA = " + JSON.stringify(DATA) + ";");
+    writeDataScript(outPath, DATA);
     console.log(`  ✓ data.js written to ${outPath} (pre-season roster only)`);
     return;
   }
@@ -937,7 +959,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     },
   };
 
-  fs.writeFileSync(outPath, "const DATA = " + JSON.stringify(DATA) + ";");
+  writeDataScript(outPath, DATA);
   console.log(`  ✓ data.js written to ${outPath}`);
 }
 
