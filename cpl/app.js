@@ -281,11 +281,7 @@ function formatSignedValue(value, digits) {
 }
 
 function formatDuprRating(duprData) {
-  const label = escapeHtml(duprData.rating.toFixed(3));
-  const display = duprData.provisional ? label + '<sup title="Provisional rating">*</sup>' : label;
-  return duprData.numericId
-    ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(duprData.numericId)}" target="_blank" rel="nofollow">${display}</a>`
-    : display;
+  return window.formatDuprRating(duprData);
 }
 
 function formatWinPct(wins, losses) {
