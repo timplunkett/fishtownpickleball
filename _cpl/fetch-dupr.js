@@ -66,7 +66,10 @@ async function searchPlayer(query, filter = null) {
  * Fetches the doubles DUPR rating for a given DUPR ID.
  */
 function extractRating(playerMatch) {
-  const confirmed = playerMatch.ratings?.doubles ?? null;
+  const confirmedRaw = playerMatch.ratings?.doubles ?? null;
+  const confirmed = typeof confirmedRaw === 'string' && confirmedRaw.trim().toUpperCase() === 'NR'
+    ? null
+    : confirmedRaw;
   const provisional = playerMatch.ratings?.provisionalRatings?.doublesRating ?? null;
   const rating = confirmed ?? provisional;
   return { rating, provisional: rating != null && confirmed == null };
