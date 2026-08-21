@@ -280,7 +280,7 @@ function formatSignedValue(value, digits) {
   return `${value >= 0 ? '+' : ''}${number}`;
 }
 
-function formatDuprRating(duprData) {
+function renderDuprRating(duprData) {
   return window.formatDuprRating(duprData);
 }
 
@@ -585,7 +585,7 @@ function renderCell(player, key) {
         : `<span class="lgrank">#${player.leagueRank}</span>`;
     case 'dupr':
       if (isMissing(DUPR_RATINGS[player.playerId]?.rating)) return EMPTY_VALUE;
-      return formatDuprRating(DUPR_RATINGS[player.playerId]);
+      return renderDuprRating(DUPR_RATINGS[player.playerId]);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -736,7 +736,7 @@ function renderModalHeader(player) {
     : `<div class="mh-stat"><div class="n">#${player.leagueRank}</div><div class="l">LG RANK</div></div>`;
   const duprStat = isMissing(DUPR_RATINGS[player.playerId]?.rating)
     ? ''
-    : `<div class="mh-stat"><div class="n">${formatDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
+    : `<div class="mh-stat"><div class="n">${renderDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
 
   return `
     <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
