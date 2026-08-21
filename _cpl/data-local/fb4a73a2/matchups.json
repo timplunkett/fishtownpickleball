@@ -185,9 +185,9 @@
       "weekNumber": 8,
       "homeTeamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
       "awayTeamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 660,
+      "awayPoints": 567,
+      "endResult": "home",
       "scheduledTime": "2026-08-19T19:30:00",
       "homeName": "Dink Responsibly",
       "awayName": "Court Jesters"
