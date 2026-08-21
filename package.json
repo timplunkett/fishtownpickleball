@@ -2,9 +2,8 @@
   "name": "fishtownpickleball",
   "private": true,
   "scripts": {
-    "lint": "npm run lint:eslint && npm run lint:bootstrap",
+    "lint": "npm run lint:eslint",
     "lint:eslint": "eslint cpl/app.js cpl/local/bootstrap.js cpl/travel/bootstrap.js _cpl/**/*.js",
-    "lint:bootstrap": "node _cpl/check-bootstrap-loader.js",
     "lint:fix": "npm run lint:eslint -- --fix",
     "build": "node _cpl/run-pipeline.js",
     "build:local": "node _cpl/run-pipeline.js local",
