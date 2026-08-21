@@ -442,6 +442,7 @@
           '<span class="league-badge ' + badgeClass + '">' + badgeLabel + '</span>' +
           '<span class="division-name">' + locationText + '</span>' +
           '<span class="team-name">\u00b7 ' + escapeHtml(e.team || '') + '</span>' +
+          (e.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '') +
           (e.isSub ? ' <span class="sub-tag" title="Sub \u2014 not a rostered team member">sub</span>' : '') +
           '</a>';
       }).join('');

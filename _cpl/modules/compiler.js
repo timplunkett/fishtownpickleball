@@ -561,7 +561,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       if (!players.has(pid)) {
         players.set(pid, {
           name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
-          team: p.teamName, matches: 0, outsideSub: false,
+          team: p.teamName, matches: 0, outsideSub: false, isCaptain: !!p.isCaptain,
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
@@ -629,11 +629,13 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   // Only map players whose team has actual matchups; players on placeholder teams
   // (e.g. "Open Play") should not be treated as rostered league members.
   const homeTeamByPid = {};
+  const captainTeamByPid = {};
   // Build a map of player ID -> static profile info (firstName, lastName, gender)
   // so matchupPlayerStats entries don't need to repeat those fields.
   const playerInfoById = {};
   for (const p of rosterPlayers) {
     if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
+    if (!p.isSub && p.isCaptain && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) captainTeamByPid[p.playerId] = p.teamName;
     if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
   }
 
@@ -686,6 +688,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
           name: norm(`${info.firstName || ''} ${info.lastName || ''}`), gender: info.gender,
           team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
           outsideSub: !homeTeamByPid[pid],
+          isCaptain: false,
           gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
           mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
           clutchWins: 0, clutchLosses: 0, log: [], games: [],
@@ -770,6 +773,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     P.strengthOfOpponents = ratings[pid] ? ratings[pid].strengthOfOpponents : null;
     P.ratingHistory = historyByPid[pid] || [];
     P.partners = partnersByPid[pid] || [];
+    P.isCaptain = captainTeamByPid[pid] === P.team;
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
     playerArr.push(P);
@@ -1093,6 +1097,7 @@ function buildPlayerIndex() {
           playerId: p.playerId || null,
         };
         if (div.clubName) entry.club = div.clubName;
+        if (p.isCaptain) entry.isCaptain = true;
         if (p.isSub) entry.isSub = true;
         entries.push(entry);
       }

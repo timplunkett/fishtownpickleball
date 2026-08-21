@@ -58,6 +58,7 @@ const HTML_ESCAPE_MAP = Object.freeze({
 
 const elements = {
   body: getRequiredElement('body'),
+  captain: getRequiredElement('captain'),
   divisionSelect: getRequiredElement('division-select'),
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
@@ -498,8 +499,9 @@ function getSortValue(player, key) {
 
 function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
+  const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
-  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${subTag}`;
+  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${captainTag}${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -600,6 +602,7 @@ function getFilteredPlayers() {
   const podFilter = Number(elements.pod.value) || 0;
   const genderFilter = elements.gender.value;
   const matchFilter = Number(elements.minGames.value);
+  const captainFilter = elements.captain.value;
 
   return DATA.players.filter(
     (player) =>
@@ -610,6 +613,7 @@ function getFilteredPlayers() {
         return t && t.pod === podFilter;
       })()) &&
       (!genderFilter || player.gender === genderFilter) &&
+      (!captainFilter || player.isCaptain) &&
       (matchFilter === 0 || (matchFilter === 1 ? player.matches === 1 : player.matches >= matchFilter)),
   );
 }
@@ -737,9 +741,10 @@ function renderModalHeader(player) {
   const duprStat = isMissing(DUPR_RATINGS[player.playerId]?.rating)
     ? ''
     : `<div class="mh-stat"><div class="n">${renderDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
+  const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `
-    <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}</div>
+    <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}${captainTag}</div>
     <div class="mh-sub">
       <span class="teamdot" style="background:${getTeamColor(player.team)}"></span>
       ${escapeHtml(player.team)} • ${genderLabel} • season totals
@@ -2192,7 +2197,7 @@ function initialize() {
   // min-games apply to the player table only (they don't affect pairs).
   getRequiredElement('team').addEventListener('input', renderDuos);
   getRequiredElement('search').addEventListener('input', renderDuos);
-  ['search', 'team', 'pod', 'gender', 'minq'].forEach((id) => {
+  ['search', 'team', 'pod', 'gender', 'captain', 'minq'].forEach((id) => {
     getRequiredElement(id).addEventListener('input', render);
   });
 
