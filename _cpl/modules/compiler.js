@@ -52,10 +52,10 @@ function buildBootstrapDatasetsLiteral(datasets) {
 }
 
 function buildBootstrapSource({
+  divisionsLiteral,
   dashboardPath,
   defaultSlug,
-  divisionsLiteral,
-  globalVar,
+  divisionsGlobal,
   testDatasets,
 }) {
   return `'use strict';
@@ -67,23 +67,22 @@ ${divisionsLiteral}
   const CONFIG = Object.freeze({
     dashboardPath: '${dashboardPath}',
     defaultSlug: '${defaultSlug}',
-    divisionsGlobal: '${globalVar}',
+    divisionsGlobal: '${divisionsGlobal}',
     testDatasets: Object.freeze(${buildBootstrapDatasetsLiteral(testDatasets)}),
   });
-  const KNOWN_SLUGS = new Set(DIVISIONS.map((division) => division.slug));
+  if (typeof window.initCplBootstrap !== 'function') {
+    throw new Error('bootstrap-runtime.js must load before bootstrap.js');
+  }
+  window.initCplBootstrap({ divisions: DIVISIONS, config: CONFIG });
+})();
+`;
+}
+
+function buildBootstrapRuntimeSource() {
+  return `'use strict';
+
+(() => {
   const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
-
-  function exposeDivisionsForLandingPage() {
-    window[CONFIG.divisionsGlobal] = DIVISIONS;
-  }
-
-  function isDashboardPage() {
-    return window.location.pathname.includes(CONFIG.dashboardPath);
-  }
-
-  function isLocalHost() {
-    return LOCAL_HOSTS.has(window.location.hostname);
-  }
 
   function appendScript(src, onload, onerror) {
     const script = document.createElement('script');
@@ -94,55 +93,55 @@ ${divisionsLiteral}
     document.body.appendChild(script);
   }
 
+  function isLocalHost() {
+    return LOCAL_HOSTS.has(window.location.hostname);
+  }
+
+  function getQueryParam(name) {
+    return new URLSearchParams(window.location.search).get(name) || '';
+  }
+
   function loadApp() {
-    appendScript('../app.js');
+    const loadAppScript = () => appendScript('../app.js');
+    appendScript('../dupr-format.js', loadAppScript, loadAppScript);
   }
 
   function loadDataWithFallback(src) {
     appendScript(src, loadApp, () => appendScript('data.js', loadApp));
   }
 
-  function getRequestedDataset() {
-    return new URLSearchParams(window.location.search).get('dataset') || '';
-  }
-
-  function getRequestedDivision() {
-    return new URLSearchParams(window.location.search).get('d') || '';
-  }
-
-  function resolveDatasetFile() {
-    const requestedDataset = getRequestedDataset();
+  function resolveDatasetFile(config) {
+    const requestedDataset = getQueryParam('dataset');
     if (!requestedDataset || !isLocalHost()) return '';
-
-    return CONFIG.testDatasets[requestedDataset] || '';
+    return config.testDatasets[requestedDataset] || '';
   }
 
-  function resolveDivisionDataFile() {
-    const requestedDivision = getRequestedDivision();
-    const slug = KNOWN_SLUGS.has(requestedDivision) ? requestedDivision : CONFIG.defaultSlug;
-
+  function resolveDivisionDataFile(divisions, config) {
+    const requestedDivision = getQueryParam('d');
+    const knownSlugs = new Set(divisions.map((division) => division.slug));
+    const slug = knownSlugs.has(requestedDivision) ? requestedDivision : config.defaultSlug;
     if (!slug) return '';
-
-    return slug === CONFIG.defaultSlug ? 'data.js' : \`data-\${slug}.js\`;
+    return slug === config.defaultSlug ? 'data.js' : \`data-\${slug}.js\`;
   }
 
-  exposeDivisionsForLandingPage();
+  window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
+    window[config.divisionsGlobal] = divisions;
 
-  // This file is also loaded by /cpl/, where data/app relative paths are different.
-  if (!isDashboardPage()) return;
+    // This bootstrap also runs on /cpl/, where data/app relative paths are different.
+    if (!window.location.pathname.includes(config.dashboardPath)) return;
 
-  window.DIVISIONS = DIVISIONS;
+    window.DIVISIONS = divisions;
 
-  const datasetFile = resolveDatasetFile();
-  if (datasetFile) {
-    loadDataWithFallback(datasetFile);
-    return;
-  }
+    const datasetFile = resolveDatasetFile(config);
+    if (datasetFile) {
+      loadDataWithFallback(datasetFile);
+      return;
+    }
 
-  const dataFile = resolveDivisionDataFile();
-  if (!dataFile) return;
-
-  loadDataWithFallback(dataFile);
+    const dataFile = resolveDivisionDataFile(divisions, config);
+    if (!dataFile) return;
+    loadDataWithFallback(dataFile);
+  };
 })();
 `;
 }
@@ -975,21 +974,23 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     }
     return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
   });
- const defaultDiv = allDivisions.find(d => d.isDefault) || allDivisions[0];
- const defaultSlug = defaultDiv ? defaultDiv.slug : '';
- const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions);
- const globalVar = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
- const bootstrapSrc = buildBootstrapSource({
-   dashboardPath: `/cpl/${league}`,
-   defaultSlug: escapeBootstrapString(defaultSlug),
-   divisionsLiteral,
-   globalVar,
-   testDatasets: league === 'local'
-     ? { week1: 'data.test-week1.js', week6: 'data.test-week6.js' }
-     : {},
- });
- fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
-  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${globalVar} exposed).`);
+  const defaultDiv = allDivisions.find((d) => d.isDefault) || allDivisions[0];
+  const defaultSlug = defaultDiv ? defaultDiv.slug : '';
+  const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions);
+  const divisionsGlobal = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
+  const bootstrapSrc = buildBootstrapSource({
+    dashboardPath: `/cpl/${league}`,
+    defaultSlug: escapeBootstrapString(defaultSlug),
+    divisionsLiteral,
+    divisionsGlobal,
+    testDatasets: league === 'local'
+      ? { week1: 'data.test-week1.js', week6: 'data.test-week6.js' }
+      : {},
+  });
+  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
+  const runtimePath = path.join(__dirname, '../../cpl/bootstrap-runtime.js');
+  fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
+  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${divisionsGlobal} exposed).`);
 
   const divisionsToCompile = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);

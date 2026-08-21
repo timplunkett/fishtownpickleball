@@ -19,78 +19,8 @@
     divisionsGlobal: 'TRAVEL_DIVISIONS',
     testDatasets: Object.freeze({}),
   });
-  const KNOWN_SLUGS = new Set(DIVISIONS.map((division) => division.slug));
-  const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
-
-  function exposeDivisionsForLandingPage() {
-    window[CONFIG.divisionsGlobal] = DIVISIONS;
+  if (typeof window.initCplBootstrap !== 'function') {
+    throw new Error('bootstrap-runtime.js must load before bootstrap.js');
   }
-
-  function isDashboardPage() {
-    return window.location.pathname.includes(CONFIG.dashboardPath);
-  }
-
-  function isLocalHost() {
-    return LOCAL_HOSTS.has(window.location.hostname);
-  }
-
-  function appendScript(src, onload, onerror) {
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = false;
-    script.onload = onload || null;
-    script.onerror = onerror || null;
-    document.body.appendChild(script);
-  }
-
-  function loadApp() {
-    const loadAppScript = () => appendScript('../app.js');
-    appendScript('../dupr-format.js', loadAppScript, loadAppScript);
-  }
-
-  function loadDataWithFallback(src) {
-    appendScript(src, loadApp, () => appendScript('data.js', loadApp));
-  }
-
-  function getRequestedDataset() {
-    return new URLSearchParams(window.location.search).get('dataset') || '';
-  }
-
-  function getRequestedDivision() {
-    return new URLSearchParams(window.location.search).get('d') || '';
-  }
-
-  function resolveDatasetFile() {
-    const requestedDataset = getRequestedDataset();
-    if (!requestedDataset || !isLocalHost()) return '';
-
-    return CONFIG.testDatasets[requestedDataset] || '';
-  }
-
-  function resolveDivisionDataFile() {
-    const requestedDivision = getRequestedDivision();
-    const slug = KNOWN_SLUGS.has(requestedDivision) ? requestedDivision : CONFIG.defaultSlug;
-
-    if (!slug) return '';
-
-    return slug === CONFIG.defaultSlug ? 'data.js' : `data-${slug}.js`;
-  }
-
-  exposeDivisionsForLandingPage();
-
-  // This file is also loaded by /cpl/, where data/app relative paths are different.
-  if (!isDashboardPage()) return;
-
-  window.DIVISIONS = DIVISIONS;
-
-  const datasetFile = resolveDatasetFile();
-  if (datasetFile) {
-    loadDataWithFallback(datasetFile);
-    return;
-  }
-
-  const dataFile = resolveDivisionDataFile();
-  if (!dataFile) return;
-
-  loadDataWithFallback(dataFile);
+  window.initCplBootstrap({ divisions: DIVISIONS, config: CONFIG });
 })();
