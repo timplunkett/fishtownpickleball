@@ -85,7 +85,6 @@
 </div>
 
 <script src="../dupr-ratings.js"></script>
-<script src="../data-script-loader.js"></script>
 <script src="../bootstrap-runtime.js"></script>
 <script src="../local/bootstrap.js"></script>
 <script src="../travel/bootstrap.js"></script>
@@ -212,6 +211,17 @@
 
   function linkCell(label, href) {
     return '<a class="audit-link" href="' + escapeHtml(href) + '">' + escapeHtml(label) + '</a>';
+  }
+
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.onload = function () { resolve(src); };
+      script.onerror = function () { reject(new Error('Failed to load ' + src)); };
+      document.body.appendChild(script);
+    });
   }
 
   function buildRowsFromDataset(slug, data) {
@@ -483,21 +493,13 @@
   }
 
   function loadAllDatasets() {
+    window.CPL_DATASETS = window.CPL_DATASETS || {};
     return Promise.all(Object.keys(DIVISION_RULES).map(function (slug) {
       var file = resolveDivisionDataFile(slug, DIVISION_RULES[slug].leaguePath);
-      return fetch(file)
-        .then(function (response) {
-          if (!response.ok) {
-            throw new Error('Failed to load ' + file + ': ' + response.status);
-          }
-          return response.text();
-        })
-        .then(function (text) {
-          if (typeof window.parseCplDataScript !== 'function') {
-            throw new Error('Data script loader is unavailable');
-          }
-          var parsed = window.parseCplDataScript(text);
-          if (!parsed) throw new Error('Could not parse ' + file);
+      return loadScript(file)
+        .then(function () {
+          var parsed = window.CPL_DATASETS[slug];
+          if (!parsed) throw new Error('Could not load dataset for ' + file);
           return buildRowsFromDataset(slug, parsed);
         });
     })).then(function (groups) {

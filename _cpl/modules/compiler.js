@@ -158,13 +158,23 @@ function firstValues(obj) {
 
 function writeDataScript(outPath, data) {
   const asOf = data && data.meta ? data.meta.asOf : undefined;
+  const divisionSlug = data && data.meta ? data.meta.divisionSlug : undefined;
   const scriptData = {
     ...data,
     meta: { ...((data && data.meta) || {}) },
   };
   delete scriptData.meta.asOf;
-  const lines = [`const DATA = ${JSON.stringify(scriptData)};`];
-  if (asOf != null) lines.push(`DATA.meta.asOf = ${JSON.stringify(asOf)};`);
+  const lines = [
+    '(function () {',
+    `  const DATA = ${JSON.stringify(scriptData)};`,
+  ];
+  if (asOf != null) lines.push(`  DATA.meta.asOf = ${JSON.stringify(asOf)};`);
+  lines.push('  window.DATA = DATA;');
+  lines.push('  window.CPL_DATASETS = window.CPL_DATASETS || {};');
+  if (divisionSlug != null && divisionSlug !== '') {
+    lines.push(`  window.CPL_DATASETS[${JSON.stringify(divisionSlug)}] = DATA;`);
+  }
+  lines.push('})();');
   fs.writeFileSync(outPath, `${lines.join('\n')}\n`);
 }
 
