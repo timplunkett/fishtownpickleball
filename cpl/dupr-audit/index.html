@@ -85,6 +85,7 @@
 </div>
 
 <script src="../dupr-ratings.js"></script>
+<script src="../data-script-loader.js"></script>
 <script src="../bootstrap-runtime.js"></script>
 <script src="../local/bootstrap.js"></script>
 <script src="../travel/bootstrap.js"></script>
@@ -178,20 +179,6 @@
       provisional: row.duprProvisional,
       numericId: row.duprNumericId,
     });
-  }
-
-  function parseDataScript(scriptText) {
-    var prefix = 'const DATA = ';
-    var start = scriptText.indexOf(prefix);
-    if (start === -1) return null;
-    var remainder = scriptText.slice(start + prefix.length);
-    var jsonLineEnd = remainder.indexOf(';\n');
-    var jsonText = jsonLineEnd === -1 ? remainder.trim() : remainder.slice(0, jsonLineEnd);
-    if (jsonText.endsWith(';')) jsonText = jsonText.slice(0, -1);
-    var data = JSON.parse(jsonText);
-    var asOfMatch = scriptText.match(/DATA\.meta\.asOf\s*=\s*("[^"]*")\s*;/);
-    if (asOfMatch && data && data.meta) data.meta.asOf = JSON.parse(asOfMatch[1]);
-    return data;
   }
 
   function resolveDivisionDataFile(slug, leaguePath) {
@@ -506,7 +493,10 @@
           return response.text();
         })
         .then(function (text) {
-          var parsed = parseDataScript(text);
+          if (typeof window.parseCplDataScript !== 'function') {
+            throw new Error('Data script loader is unavailable');
+          }
+          var parsed = window.parseCplDataScript(text);
           if (!parsed) throw new Error('Could not parse ' + file);
           return buildRowsFromDataset(slug, parsed);
         });
