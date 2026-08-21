@@ -23,6 +23,10 @@ if (!ACCESS_TOKEN) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+function isNrRating(value) {
+  return typeof value === 'string' && value.trim().toUpperCase() === 'NR';
+}
+
 function getPlayerMatch(data) {
   const hits = data.result?.hits || data.result?.content || data.result;
   return Array.isArray(hits) ? hits[0] : null;
@@ -146,6 +150,7 @@ function writeDuprRatingsJs(players) {
 
 async function run() {
   const bypassCache = process.argv.includes('--bypass-cache');
+  const bypassNrCache = process.argv.includes('--bypass-cache-nr');
 
   console.log('Building global player list from all division files...');
   const globalPlayers = buildGlobalPlayers();
@@ -156,11 +161,15 @@ async function run() {
 
   if (bypassCache) {
     console.log('Cache bypass enabled — all players will be re-fetched from the DUPR API.');
+  } else if (bypassNrCache) {
+    console.log('NR cache bypass enabled — players with current "NR" ratings will be re-fetched from the DUPR API.');
   } else {
     for (const player of validPlayers) {
       if (player.duprRating != null) {
         if (!player.duprNumericId) {
           // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
+        } else if (bypassNrCache && isNrRating(player.duprRating)) {
+          // Explicit bypass for stale NR cache entries
         } else {
           duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId, provisional: player.duprProvisional ?? false });
         }
@@ -172,6 +181,7 @@ async function run() {
     ? validPlayers
     : validPlayers.filter((p) => {
         if (p.duprRating == null) return true;
+        if (bypassNrCache && isNrRating(p.duprRating)) return true;
         if (p.duprNumericId) return false;
         // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
         return true;
