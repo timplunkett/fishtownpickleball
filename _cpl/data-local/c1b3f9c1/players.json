@@ -208,6 +208,29 @@
       "ranking": 9
     },
     {
+      "playerId": "ed26c838-1086-4f82-93a0-07e49ca65df9",
+      "firstName": "John",
+      "lastName": "Sarinick",
+      "gender": "Male",
+      "dupr": "35WZKR",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 26,
+      "losses": 13,
+      "gamesPlayed": 39,
+      "pointsWon": 769,
+      "totalPointsAgainst": 664,
+      "clutchWins": 9,
+      "clutchLosses": 5,
+      "mixedWins": 13,
+      "mixedLosses": 6,
+      "genderWins": 13,
+      "genderLosses": 7,
+      "ranking": 10
+    },
+    {
       "playerId": "65ceb6a3-c5b6-4264-a138-d4ef761e47c6",
       "firstName": "Amanda",
       "lastName": "Herrera",
@@ -228,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 10
+      "ranking": 11
     },
     {
       "playerId": "2dd97210-f5b8-4645-b400-a2611539cca8",
@@ -251,29 +274,6 @@
       "mixedLosses": 6,
       "genderWins": 14,
       "genderLosses": 9,
-      "ranking": 11
-    },
-    {
-      "playerId": "ed26c838-1086-4f82-93a0-07e49ca65df9",
-      "firstName": "John",
-      "lastName": "Sarinick",
-      "gender": "Male",
-      "dupr": "35WZKR",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-      "teamName": "Hot Ballers!",
-      "wins": 25,
-      "losses": 14,
-      "gamesPlayed": 39,
-      "pointsWon": 764,
-      "totalPointsAgainst": 669,
-      "clutchWins": 9,
-      "clutchLosses": 5,
-      "mixedWins": 13,
-      "mixedLosses": 6,
-      "genderWins": 12,
-      "genderLosses": 8,
       "ranking": 12
     },
     {
@@ -415,29 +415,6 @@
       "ranking": 18
     },
     {
-      "playerId": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
-      "firstName": "Neil",
-      "lastName": "Dedhia",
-      "gender": "Male",
-      "dupr": "L5L7YQ",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
-      "teamName": "Smash-holes!",
-      "wins": 27,
-      "losses": 24,
-      "gamesPlayed": 51,
-      "pointsWon": 995,
-      "totalPointsAgainst": 927,
-      "clutchWins": 9,
-      "clutchLosses": 13,
-      "mixedWins": 16,
-      "mixedLosses": 11,
-      "genderWins": 11,
-      "genderLosses": 13,
-      "ranking": 19
-    },
-    {
       "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
       "firstName": "Lizz",
       "lastName": "Dunn",
@@ -458,6 +435,29 @@
       "mixedLosses": 1,
       "genderWins": 3,
       "genderLosses": 0,
+      "ranking": 19
+    },
+    {
+      "playerId": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
+      "firstName": "Neil",
+      "lastName": "Dedhia",
+      "gender": "Male",
+      "dupr": "L5L7YQ",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
+      "teamName": "Smash-holes!",
+      "wins": 27,
+      "losses": 24,
+      "gamesPlayed": 51,
+      "pointsWon": 995,
+      "totalPointsAgainst": 927,
+      "clutchWins": 9,
+      "clutchLosses": 13,
+      "mixedWins": 16,
+      "mixedLosses": 11,
+      "genderWins": 11,
+      "genderLosses": 13,
       "ranking": 20
     },
     {
@@ -530,29 +530,6 @@
       "ranking": 23
     },
     {
-      "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
-      "firstName": "Luis",
-      "lastName": "Guzman",
-      "gender": "Male",
-      "dupr": "RWZY4Q",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-      "teamName": "Hot Ballers!",
-      "wins": 22,
-      "losses": 19,
-      "gamesPlayed": 41,
-      "pointsWon": 774,
-      "totalPointsAgainst": 775,
-      "clutchWins": 12,
-      "clutchLosses": 7,
-      "mixedWins": 11,
-      "mixedLosses": 9,
-      "genderWins": 11,
-      "genderLosses": 10,
-      "ranking": 24
-    },
-    {
       "playerId": "c3902bc0-35a6-490d-9909-6f19b1224b99",
       "firstName": "Danielle",
       "lastName": "Kuti",
@@ -573,6 +550,29 @@
       "mixedLosses": 12,
       "genderWins": 13,
       "genderLosses": 7,
+      "ranking": 24
+    },
+    {
+      "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
+      "firstName": "Luis",
+      "lastName": "Guzman",
+      "gender": "Male",
+      "dupr": "RWZY4Q",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 22,
+      "losses": 19,
+      "gamesPlayed": 41,
+      "pointsWon": 774,
+      "totalPointsAgainst": 775,
+      "clutchWins": 12,
+      "clutchLosses": 7,
+      "mixedWins": 11,
+      "mixedLosses": 9,
+      "genderWins": 11,
+      "genderLosses": 10,
       "ranking": 25
     },
     {
@@ -668,29 +668,6 @@
       "ranking": 29
     },
     {
-      "playerId": "04f601ae-9ac0-4f6a-8665-aa54e2a34fe9",
-      "firstName": "Gavin",
-      "lastName": "Jordan",
-      "gender": "Male",
-      "dupr": "9DZMLJ",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
-      "teamName": "The Three-Fives",
-      "wins": 15,
-      "losses": 16,
-      "gamesPlayed": 31,
-      "pointsWon": 568,
-      "totalPointsAgainst": 581,
-      "clutchWins": 2,
-      "clutchLosses": 6,
-      "mixedWins": 7,
-      "mixedLosses": 8,
-      "genderWins": 8,
-      "genderLosses": 8,
-      "ranking": 30
-    },
-    {
       "playerId": "4464f477-6545-4e8f-8893-af53a8eeefb5",
       "firstName": "Ross",
       "lastName": "Bienstock",
@@ -711,6 +688,29 @@
       "mixedLosses": 8,
       "genderWins": 9,
       "genderLosses": 13,
+      "ranking": 30
+    },
+    {
+      "playerId": "04f601ae-9ac0-4f6a-8665-aa54e2a34fe9",
+      "firstName": "Gavin",
+      "lastName": "Jordan",
+      "gender": "Male",
+      "dupr": "9DZMLJ",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
+      "teamName": "The Three-Fives",
+      "wins": 14,
+      "losses": 17,
+      "gamesPlayed": 31,
+      "pointsWon": 563,
+      "totalPointsAgainst": 586,
+      "clutchWins": 2,
+      "clutchLosses": 6,
+      "mixedWins": 7,
+      "mixedLosses": 8,
+      "genderWins": 7,
+      "genderLosses": 9,
       "ranking": 31
     },
     {
@@ -769,17 +769,17 @@
       "isSub": false,
       "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
       "teamName": "The Three-Fives",
-      "wins": 18,
-      "losses": 19,
+      "wins": 17,
+      "losses": 20,
       "gamesPlayed": 37,
-      "pointsWon": 668,
-      "totalPointsAgainst": 712,
+      "pointsWon": 663,
+      "totalPointsAgainst": 717,
       "clutchWins": 10,
       "clutchLosses": 6,
       "mixedWins": 8,
       "mixedLosses": 11,
-      "genderWins": 10,
-      "genderLosses": 8,
+      "genderWins": 9,
+      "genderLosses": 9,
       "ranking": 34
     },
     {
@@ -1243,6 +1243,29 @@
       "ranking": 54
     },
     {
+      "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028",
+      "firstName": "Simon ",
+      "lastName": "George ",
+      "gender": "Male",
+      "dupr": "EGRLDV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 4,
+      "losses": 2,
+      "gamesPlayed": 6,
+      "pointsWon": 116,
+      "totalPointsAgainst": 110,
+      "clutchWins": 2,
+      "clutchLosses": 0,
+      "mixedWins": 3,
+      "mixedLosses": 0,
+      "genderWins": 1,
+      "genderLosses": 2,
+      "ranking": 55
+    },
+    {
       "playerId": "f7291419-bff5-4195-9c1e-78bad893b11d",
       "firstName": "AJ",
       "lastName": "Donnelly",
@@ -1263,29 +1286,6 @@
       "mixedLosses": 13,
       "genderWins": 4,
       "genderLosses": 13,
-      "ranking": 55
-    },
-    {
-      "playerId": "ac049c23-359d-4508-8bc1-274a7276239c",
-      "firstName": "Morgan",
-      "lastName": "Valencia King",
-      "gender": "Male",
-      "dupr": "G5Z54D",
-      "isCaptain": false,
-      "isSub": false,
-      "teamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
-      "teamName": "Nets Gambit",
-      "wins": 5,
-      "losses": 30,
-      "gamesPlayed": 35,
-      "pointsWon": 576,
-      "totalPointsAgainst": 710,
-      "clutchWins": 1,
-      "clutchLosses": 12,
-      "mixedWins": 2,
-      "mixedLosses": 15,
-      "genderWins": 3,
-      "genderLosses": 15,
       "ranking": 56
     },
     {
@@ -1312,6 +1312,29 @@
       "ranking": 57
     },
     {
+      "playerId": "ac049c23-359d-4508-8bc1-274a7276239c",
+      "firstName": "Morgan",
+      "lastName": "Valencia King",
+      "gender": "Male",
+      "dupr": "G5Z54D",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
+      "teamName": "Nets Gambit",
+      "wins": 5,
+      "losses": 30,
+      "gamesPlayed": 35,
+      "pointsWon": 576,
+      "totalPointsAgainst": 710,
+      "clutchWins": 1,
+      "clutchLosses": 12,
+      "mixedWins": 2,
+      "mixedLosses": 15,
+      "genderWins": 3,
+      "genderLosses": 15,
+      "ranking": 58
+    },
+    {
       "playerId": "c0c21535-f157-4c5c-9c5d-d3a66ed4b10b",
       "firstName": "Anna",
       "lastName": "Arcaro",
@@ -1332,7 +1355,7 @@
       "mixedLosses": 14,
       "genderWins": 4,
       "genderLosses": 14,
-      "ranking": 58
+      "ranking": 59
     },
     {
       "playerId": "0aaad47b-2fee-4602-9689-1a866cb31119",
@@ -1355,7 +1378,7 @@
       "mixedLosses": 8,
       "genderWins": 4,
       "genderLosses": 5,
-      "ranking": 59
+      "ranking": 60
     },
     {
       "playerId": "0ab36799-35fe-4fca-9e5f-9d3f679b0b6e",
@@ -1378,7 +1401,7 @@
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 2,
-      "ranking": 60
+      "ranking": 61
     },
     {
       "playerId": "ffd29340-40ba-4a85-a922-f93075d9b0df",
@@ -1401,7 +1424,7 @@
       "mixedLosses": 17,
       "genderWins": 2,
       "genderLosses": 17,
-      "ranking": 61
+      "ranking": 62
     },
     {
       "playerId": "c88d4242-d33b-43dc-9b08-cbbe8664129b",
@@ -1424,7 +1447,7 @@
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 3,
-      "ranking": 62
+      "ranking": 63
     },
     {
       "playerId": "60adfa52-c615-4ad3-b165-26941f955a56",
@@ -1447,7 +1470,7 @@
       "mixedLosses": 2,
       "genderWins": 1,
       "genderLosses": 2,
-      "ranking": 63
+      "ranking": 64
     },
     {
       "playerId": "7cf43262-2d33-4f82-afba-bf0294000c56",
@@ -1470,29 +1493,6 @@
       "mixedLosses": 16,
       "genderWins": 2,
       "genderLosses": 17,
-      "ranking": 64
-    },
-    {
-      "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028",
-      "firstName": "Simon ",
-      "lastName": "George ",
-      "gender": "Male",
-      "dupr": "EGRLDV",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
-      "teamName": "Hot Ballers!",
-      "wins": 3,
-      "losses": 3,
-      "gamesPlayed": 6,
-      "pointsWon": 111,
-      "totalPointsAgainst": 115,
-      "clutchWins": 2,
-      "clutchLosses": 0,
-      "mixedWins": 3,
-      "mixedLosses": 0,
-      "genderWins": 0,
-      "genderLosses": 3,
       "ranking": 65
     },
     {
@@ -1657,6 +1657,75 @@
       "ranking": 72
     },
     {
+      "playerId": "9a7a589a-396f-426f-b146-9b71ccc8492e",
+      "firstName": "Deborah",
+      "lastName": "Brown",
+      "gender": "Female",
+      "dupr": "W6N47Y",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
+      "teamName": "The Three-Fives",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 73
+    },
+    {
+      "playerId": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
+      "firstName": "Krystal",
+      "lastName": "Johnson",
+      "gender": "Female",
+      "dupr": "2LPM09",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 74
+    },
+    {
+      "playerId": "4f98756a-9726-48fe-a241-2579f96eee16",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "gender": "Male",
+      "dupr": "W6ZJPL",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 75
+    },
+    {
       "playerId": "51bdcef1-a7ae-49f0-a18a-be681d55cd52",
       "firstName": "Tim",
       "lastName": "Jordan",
@@ -1677,7 +1746,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 73
+      "ranking": 76
     },
     {
       "playerId": "9b1a8682-541b-40fa-9353-882b07a6b405",
@@ -1700,7 +1769,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 74
+      "ranking": 77
+    },
+    {
+      "playerId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5",
+      "firstName": "Jen",
+      "lastName": "Ogorzat",
+      "gender": "Female",
+      "dupr": "559PXR",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
+      "teamName": "The Three-Fives",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 78
     }
   ]
 }

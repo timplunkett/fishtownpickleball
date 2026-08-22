@@ -73,7 +73,7 @@
       "awayName": "Jersey Devil"
     },
     {
-      "matchupId": "b8123e43-336a-48c3-903c-f9d5135557b7",
+      "matchupId": "ca6c3b8c-0d49-4dc4-9145-9514ba75a0d6",
       "weekNumber": 2,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
@@ -85,55 +85,7 @@
       "awayName": "Pickle House"
     },
     {
-      "matchupId": "7c7f8a8e-ab6c-4ccf-a78b-05dcd370b03a",
-      "weekNumber": 2,
-      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-02T19:30:00",
-      "homeName": "Dill Dinkers Hatboro Aces",
-      "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "39a56011-c722-4260-a3ca-3893bfe60997",
-      "weekNumber": 2,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-02T19:30:00",
-      "homeName": "Home Court",
-      "awayName": "Monroe"
-    },
-    {
-      "matchupId": "1ef29ef6-505f-4f15-8237-60982d586ab3",
-      "weekNumber": 2,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-02T19:30:00",
-      "homeName": "Jersey Devil",
-      "awayName": "Dill Dinkers Hatboro The Factory"
-    },
-    {
-      "matchupId": "cb07ba4a-f9c8-4124-aab2-c74222df647d",
-      "weekNumber": 2,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-02T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Flemington"
-    },
-    {
-      "matchupId": "66b53f13-9a2b-4126-af2a-f0fa0edc9198",
+      "matchupId": "31214951-7907-4abb-b857-8f9e2e8d6587",
       "weekNumber": 2,
       "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
@@ -145,19 +97,55 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "f20e3310-7556-4c05-9b24-0ee3a1fa1b61",
-      "weekNumber": 3,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "matchupId": "9474d96f-855b-46ae-9a07-91f1aaf0e11f",
+      "weekNumber": 2,
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-09-09T19:00:00",
-      "homeName": "Monroe",
-      "awayName": "Pickle House"
+      "scheduledTime": "2026-09-02T19:30:00",
+      "homeName": "Home Court",
+      "awayName": "Monroe"
     },
     {
-      "matchupId": "4a46bbf3-0749-4ad3-96ca-776deab98eaf",
+      "matchupId": "5e784f8a-5127-415d-849d-9f5bc27eb532",
+      "weekNumber": 2,
+      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-02T19:30:00",
+      "homeName": "Dill Dinkers Hatboro Aces",
+      "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "b3327da9-8265-45a2-80f8-a4984fe69cf6",
+      "weekNumber": 2,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-02T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Flemington"
+    },
+    {
+      "matchupId": "11d5a92a-bda6-4282-99ea-c4c4f2eef1cd",
+      "weekNumber": 2,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-02T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Dill Dinkers Hatboro The Factory"
+    },
+    {
+      "matchupId": "3a14c2c8-5110-45f3-8401-66d617303544",
       "weekNumber": 3,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
@@ -169,19 +157,19 @@
       "awayName": "Jersey Pickleball Club"
     },
     {
-      "matchupId": "d6f14ca3-6523-4964-9aa6-616c49de291c",
+      "matchupId": "918b4508-c201-4e73-b465-7c794ad6bd24",
       "weekNumber": 3,
-      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-09-09T19:30:00",
-      "homeName": "Dill Dinkers Hatboro Aces",
-      "awayName": "Dill Dinkers Hatboro The Factory"
+      "scheduledTime": "2026-09-09T19:00:00",
+      "homeName": "Monroe",
+      "awayName": "Pickle House"
     },
     {
-      "matchupId": "33ca22d0-2e11-451b-b316-75b629cff66b",
+      "matchupId": "f3020c51-5d74-48f7-8f58-178b806939a3",
       "weekNumber": 3,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -193,7 +181,19 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "e9f74174-5ed3-4ae5-980a-8073c1e93824",
+      "matchupId": "94eba804-1b0b-4f06-a3d3-96b07945a98a",
+      "weekNumber": 3,
+      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-09T19:30:00",
+      "homeName": "Dill Dinkers Hatboro Aces",
+      "awayName": "Dill Dinkers Hatboro The Factory"
+    },
+    {
+      "matchupId": "f7eac52e-d7d8-4e63-890a-cf5553363d5f",
       "weekNumber": 3,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
@@ -205,7 +205,7 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "519d055e-b77a-4fec-9273-fdd8ce7f9116",
+      "matchupId": "b5ac5fca-32ac-4d5f-ac14-f340c46480d2",
       "weekNumber": 3,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
@@ -217,7 +217,7 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "673f24af-44b7-4435-b308-8ecb887f9815",
+      "matchupId": "1cf33277-d963-49c5-86ff-c54ad71fc775",
       "weekNumber": 4,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -229,19 +229,7 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "acb0a4b7-d927-4959-ac14-377e69118239",
-      "weekNumber": 4,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-16T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Jersey Pickleball Club"
-    },
-    {
-      "matchupId": "95e75a1e-b794-4442-95a0-8989855d3337",
+      "matchupId": "3da9845c-5f09-494a-868c-00701aca8733",
       "weekNumber": 4,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
@@ -253,19 +241,7 @@
       "awayName": "Dill Dinkers Hatboro The Factory"
     },
     {
-      "matchupId": "cea34e24-ab84-43cf-8794-92aa0f9954b3",
-      "weekNumber": 4,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-16T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Jersey Devil"
-    },
-    {
-      "matchupId": "1ff35bef-d85e-4689-8f01-e64a3af65bb2",
+      "matchupId": "62e11210-a71e-46ab-b232-3a3785aac794",
       "weekNumber": 4,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -277,7 +253,31 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "d3beff6b-0236-4b0e-984b-fde48c6fe093",
+      "matchupId": "de879b69-1275-4579-8428-58b307e50dd3",
+      "weekNumber": 4,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-16T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "7cfb9d43-5d16-4b46-a031-88b3aba4cbb5",
+      "weekNumber": 4,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-16T19:30:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Jersey Devil"
+    },
+    {
+      "matchupId": "eba5a35c-b334-4ff6-b3e1-b80ba95edec9",
       "weekNumber": 4,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
@@ -289,7 +289,7 @@
       "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
-      "matchupId": "9795003a-5c6b-491d-aad6-817994a71925",
+      "matchupId": "4badaa1a-6c08-47c2-842d-ff08c544678c",
       "weekNumber": 5,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -301,7 +301,7 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "fde30a84-d367-45cb-b568-049a38598c74",
+      "matchupId": "80da403e-7b4e-47f7-8313-1f9b8e1729f6",
       "weekNumber": 5,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
@@ -313,19 +313,7 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "60cc4e54-422e-4cd2-a5f5-31b13e2aea9d",
-      "weekNumber": 5,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-23T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "90c3854a-989e-49b8-a122-37104f2f03c4",
+      "matchupId": "5041b95f-3b36-45e5-8ac7-59d0f97f81e6",
       "weekNumber": 5,
       "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
@@ -337,7 +325,19 @@
       "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
-      "matchupId": "44703ad3-f732-4449-b39c-95c1865fc87d",
+      "matchupId": "552bd53d-e9f8-4e90-9e53-9b9577d5ea97",
+      "weekNumber": 5,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-23T19:30:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "39e357bf-accb-4231-9c47-dcb0cc38bf78",
       "weekNumber": 5,
       "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -349,7 +349,7 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "1b92a3d5-3c2a-4822-9c81-e925d86324b2",
+      "matchupId": "eb4ef922-a09a-4c40-8257-feb0591c41a2",
       "weekNumber": 5,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
@@ -361,8 +361,80 @@
       "awayName": "Jersey Devil"
     },
     {
-      "matchupId": "3806b0bf-fd84-4369-9422-0d3744a04b52",
-      "weekNumber": 7,
+      "matchupId": "2ce6ca5d-ea15-4c05-b459-269d98c68788",
+      "weekNumber": 5,
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T09:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "ACE Moorestown"
+    },
+    {
+      "matchupId": "fdc310ca-d3ce-4dc8-9c38-6e4f4548e483",
+      "weekNumber": 5,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T09:00:00",
+      "homeName": "Flemington",
+      "awayName": "Bounce Malvern"
+    },
+    {
+      "matchupId": "a0bfcd90-9800-437b-9ed3-932e9ec0d6a7",
+      "weekNumber": 5,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T09:00:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Dill Dinkers Hatboro Aces"
+    },
+    {
+      "matchupId": "974ce242-c2b1-4e80-9a1f-9dd4e6054d7c",
+      "weekNumber": 5,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T09:00:00",
+      "homeName": "Pickle House",
+      "awayName": "Dill Dinkers Hatboro The Factory"
+    },
+    {
+      "matchupId": "66f5d7b5-d460-4817-9c19-511fa32361f9",
+      "weekNumber": 5,
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T18:00:00",
+      "homeName": "Home Court",
+      "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "504704bb-7a6f-4a64-95af-c771807d5f18",
+      "weekNumber": 5,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T18:00:00",
+      "homeName": "Monroe",
+      "awayName": "Jersey Devil"
+    },
+    {
+      "matchupId": "436acf1e-604c-4952-8e18-4c7eb48927b0",
+      "weekNumber": 6,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "homePoints": 0,
@@ -373,44 +445,8 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "ef0f48fa-73c7-4150-8301-58a1b0fbf143",
-      "weekNumber": 7,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "af3ec3a5-0a86-4fce-8b3c-8c96c6d2139c",
-      "weekNumber": 7,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Home Court"
-    },
-    {
-      "matchupId": "48d0c3e7-75d9-4ce0-8f82-bcda650ccd1b",
-      "weekNumber": 7,
-      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Dill Dinkers Hatboro The Factory",
-      "awayName": "Flemington"
-    },
-    {
-      "matchupId": "4fc9fc55-b699-4d3e-a43f-d41f1a96f741",
-      "weekNumber": 7,
+      "matchupId": "85901a66-30c1-4df5-8d08-13e79b8bc048",
+      "weekNumber": 6,
       "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "homePoints": 0,
@@ -421,8 +457,44 @@
       "awayName": "Jersey Devil"
     },
     {
-      "matchupId": "ead67261-f0d6-4c22-a7f6-35569ba30bef",
-      "weekNumber": 8,
+      "matchupId": "1d6adfc6-cd6f-44c9-b991-164c5c526a7f",
+      "weekNumber": 6,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-30T19:30:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Home Court"
+    },
+    {
+      "matchupId": "5d4523bf-a117-4429-bab9-918b7091c660",
+      "weekNumber": 6,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-30T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "851ba231-ab44-4b83-96e6-a8f67d8e16fa",
+      "weekNumber": 6,
+      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-30T19:30:00",
+      "homeName": "Dill Dinkers Hatboro The Factory",
+      "awayName": "Flemington"
+    },
+    {
+      "matchupId": "d5a4b600-8577-4c06-a500-ac88f7186cd8",
+      "weekNumber": 7,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "homePoints": 0,
@@ -433,8 +505,8 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "b9c36eff-969b-4541-9f76-3efaa32d9873",
-      "weekNumber": 8,
+      "matchupId": "1b061f22-fbc4-42ff-a59f-3fd50a4c071a",
+      "weekNumber": 7,
       "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "homePoints": 0,
@@ -445,32 +517,8 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "2d553d83-8ed2-42fd-9dec-772fabdc94b4",
-      "weekNumber": 8,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-07T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Flemington"
-    },
-    {
-      "matchupId": "bcdda8d3-2abe-44f7-9596-922dda1be3db",
-      "weekNumber": 8,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-07T19:30:00",
-      "homeName": "Bounce Philly",
-      "awayName": "ACE Moorestown"
-    },
-    {
-      "matchupId": "f398fdbd-88aa-49e8-afcc-d58ada0e93ea",
-      "weekNumber": 8,
+      "matchupId": "9b225d14-6529-41b7-ae5f-86d7fd2910ad",
+      "weekNumber": 7,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "homePoints": 0,
@@ -481,20 +529,32 @@
       "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
-      "matchupId": "1a42944f-1b80-41ad-95fe-594a8901b24f",
-      "weekNumber": 9,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "matchupId": "baf759b4-ee1f-4b96-85c4-a04bb3fe9342",
+      "weekNumber": 7,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-10-14T19:00:00",
-      "homeName": "Flemington",
-      "awayName": "Jersey Pickleball Club"
+      "scheduledTime": "2026-10-07T19:30:00",
+      "homeName": "Bounce Philly",
+      "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "17402b33-607e-4bde-ac4b-a859df7f7633",
-      "weekNumber": 9,
+      "matchupId": "e473ae56-3f3f-4a62-bc96-bbf82b499548",
+      "weekNumber": 7,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-07T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Flemington"
+    },
+    {
+      "matchupId": "0bc50587-9a8a-4d75-8737-bfafdbb7a503",
+      "weekNumber": 8,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "homePoints": 0,
@@ -505,8 +565,44 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "cf4ce72a-a2c3-41d5-98e8-20a91317714c",
-      "weekNumber": 9,
+      "matchupId": "897afd45-03db-4536-9f5b-f81d41e2017c",
+      "weekNumber": 8,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-14T19:00:00",
+      "homeName": "Flemington",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "95baa6e7-12c5-4c3e-9ca8-05e1b91dd987",
+      "weekNumber": 8,
+      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-14T19:30:00",
+      "homeName": "Dill Dinkers Hatboro The Factory",
+      "awayName": "Jersey Devil"
+    },
+    {
+      "matchupId": "7ad22172-dfa4-4f28-9a47-5ca0c54a4ae7",
+      "weekNumber": 8,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-14T19:30:00",
+      "homeName": "Bounce Philly",
+      "awayName": "Dill Dinkers Hatboro Aces"
+    },
+    {
+      "matchupId": "6958558c-9abe-4fbd-8e60-c6e3cd68ecaf",
+      "weekNumber": 8,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "homePoints": 0,
@@ -517,32 +613,8 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "c8aec0a7-93b4-4662-8636-8e15c36c3b2f",
-      "weekNumber": 9,
-      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-14T19:30:00",
-      "homeName": "Dill Dinkers Hatboro The Factory",
-      "awayName": "Jersey Devil"
-    },
-    {
-      "matchupId": "ad93dd38-3218-497e-b442-9207502115eb",
-      "weekNumber": 9,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-14T19:30:00",
-      "homeName": "Bounce Philly",
-      "awayName": "Dill Dinkers Hatboro Aces"
-    },
-    {
-      "matchupId": "93a92228-d86d-4d89-b5bf-9d03e8504f6c",
-      "weekNumber": 9,
+      "matchupId": "ccb3ef7a-4f8b-4a57-90e6-fb361a97f0dc",
+      "weekNumber": 8,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "homePoints": 0,
@@ -553,8 +625,20 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "cef99195-e8b2-4932-a751-8a94690c44b4",
-      "weekNumber": 10,
+      "matchupId": "f3f9032a-c9c0-45e4-8f29-344c2b588dd5",
+      "weekNumber": 9,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-21T19:00:00",
+      "homeName": "Flemington",
+      "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
+      "matchupId": "07e51d51-fd5e-417a-9e59-9426c7ad0db1",
+      "weekNumber": 9,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "homePoints": 0,
@@ -565,32 +649,8 @@
       "awayName": "Jersey Pickleball Club"
     },
     {
-      "matchupId": "a80bd36d-9abc-4f66-8fa8-a9beb5da9e2c",
-      "weekNumber": 10,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-21T19:00:00",
-      "homeName": "Flemington",
-      "awayName": "Pickleball Kingdom Hillsborough"
-    },
-    {
-      "matchupId": "e0468eb4-eb05-4c17-aa4a-3d35d830dd80",
-      "weekNumber": 10,
-      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-21T19:30:00",
-      "homeName": "Dill Dinkers Hatboro Aces",
-      "awayName": "Bounce Malvern"
-    },
-    {
-      "matchupId": "95b6d2e6-cf2f-43a5-bf4f-41b69612d787",
-      "weekNumber": 10,
+      "matchupId": "4fcc4895-5387-4344-ac61-0f452f496ace",
+      "weekNumber": 9,
       "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "homePoints": 0,
@@ -601,8 +661,8 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "489f5a6c-69d7-4165-8806-cf2f4919ea34",
-      "weekNumber": 10,
+      "matchupId": "f599cca3-771e-40e8-9f63-3ab84d663f2f",
+      "weekNumber": 9,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "homePoints": 0,
@@ -613,8 +673,8 @@
       "awayName": "Bounce Philly"
     },
     {
-      "matchupId": "93a3e1a2-434e-4651-9911-d21e0f06e45e",
-      "weekNumber": 10,
+      "matchupId": "5059130e-7cf6-427f-b8e9-7c50a5d80df4",
+      "weekNumber": 9,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "homePoints": 0,
@@ -625,8 +685,92 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "d5ebda87-2153-40c7-97e8-68ff1e6c7818",
-      "weekNumber": 12,
+      "matchupId": "09dea2bc-6253-4cde-a148-aa43a7e7796d",
+      "weekNumber": 9,
+      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-21T19:30:00",
+      "homeName": "Dill Dinkers Hatboro Aces",
+      "awayName": "Bounce Malvern"
+    },
+    {
+      "matchupId": "74c847be-1e37-4ea3-b064-6c47fb64d7a9",
+      "weekNumber": 9,
+      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T09:00:00",
+      "homeName": "Dill Dinkers Hatboro Aces",
+      "awayName": "Flemington"
+    },
+    {
+      "matchupId": "baaf80f3-9754-4874-b9d6-f228634ad74f",
+      "weekNumber": 9,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T09:00:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Home Court"
+    },
+    {
+      "matchupId": "94df0b2d-b27b-4fde-9e92-226432026a63",
+      "weekNumber": 9,
+      "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T12:00:00",
+      "homeName": "ACE Moorestown",
+      "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "1165ba80-c43a-4a58-be2d-4c124c9a5dfa",
+      "weekNumber": 9,
+      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T12:00:00",
+      "homeName": "Dill Dinkers Hatboro The Factory",
+      "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
+      "matchupId": "a2656be2-ce26-4832-a823-65ab27b59afb",
+      "weekNumber": 9,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T12:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "928ba301-350b-46af-97d7-e05fcd042525",
+      "weekNumber": 9,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T12:00:00",
+      "homeName": "Bounce Philly",
+      "awayName": "Monroe"
+    },
+    {
+      "matchupId": "7c1863d3-ca3b-4942-9f0d-5cde7c47460c",
+      "weekNumber": 10,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "homePoints": 0,
@@ -637,8 +781,8 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "f6935f06-e859-4eb9-b2d0-c067af28b6b7",
-      "weekNumber": 12,
+      "matchupId": "c2c7c147-99b1-48aa-a454-ba74195caedf",
+      "weekNumber": 10,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "homePoints": 0,
@@ -649,20 +793,8 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "270c94eb-12e9-4851-9a6a-0eec95cc155b",
-      "weekNumber": 12,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-28T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Pickle House"
-    },
-    {
-      "matchupId": "9f583824-ebde-4dcb-8b56-342a3b11c279",
-      "weekNumber": 12,
+      "matchupId": "5b414047-ee06-4eb1-a167-313b5f9694ad",
+      "weekNumber": 10,
       "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "homePoints": 0,
@@ -673,8 +805,8 @@
       "awayName": "Bounce Philly"
     },
     {
-      "matchupId": "f19ff5fc-11fa-44e7-9bfb-383f2b60f84c",
-      "weekNumber": 12,
+      "matchupId": "a57a1dc7-621d-4a51-9028-6eefa23b7c6c",
+      "weekNumber": 10,
       "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "homePoints": 0,
@@ -685,8 +817,20 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "5e0d3313-a268-42fb-b338-f6f4bd0ff121",
-      "weekNumber": 13,
+      "matchupId": "e4872350-4280-4d3e-b89a-cd427fcecfe9",
+      "weekNumber": 10,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-28T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "e20836e6-c07f-444d-b0ff-96ad88e467cd",
+      "weekNumber": 11,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "homePoints": 0,
@@ -697,8 +841,8 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "512232bb-ef63-41c3-8503-4ffb0f6bb0f5",
-      "weekNumber": 13,
+      "matchupId": "3bd4dcf2-f352-4acf-b821-82d017c2ca8d",
+      "weekNumber": 11,
       "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "homePoints": 0,
@@ -709,20 +853,8 @@
       "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
-      "matchupId": "f5066aa9-ce4f-40d4-9ea5-5db87c7f459a",
-      "weekNumber": 13,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-04T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Monroe"
-    },
-    {
-      "matchupId": "0ffd689e-ee57-4357-bbdf-6110cca20093",
-      "weekNumber": 13,
+      "matchupId": "f69ac1d4-b72e-40ce-95ed-9209922e054d",
+      "weekNumber": 11,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "homePoints": 0,
@@ -733,8 +865,8 @@
       "awayName": "Jersey Devil"
     },
     {
-      "matchupId": "b339e54d-341a-4359-a324-7a305f784e4b",
-      "weekNumber": 13,
+      "matchupId": "166d9e41-669d-4966-ae71-bf4af1f5e0d7",
+      "weekNumber": 11,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "homePoints": 0,
@@ -745,8 +877,20 @@
       "awayName": "Pickle House"
     },
     {
-      "matchupId": "ba5850c1-d8d4-43af-9aac-5181dc317095",
-      "weekNumber": 14,
+      "matchupId": "8b5968cb-453d-4646-acd0-f3005af68583",
+      "weekNumber": 11,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-04T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Monroe"
+    },
+    {
+      "matchupId": "f26f6134-3469-4c0e-970e-8464fbe9410b",
+      "weekNumber": 12,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "homePoints": 0,
@@ -757,20 +901,8 @@
       "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
-      "matchupId": "31798c9b-864c-4a3f-a83c-1752aa06a3d0",
-      "weekNumber": 14,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-11T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Home Court"
-    },
-    {
-      "matchupId": "a2ae9810-3fd9-44e6-9b59-2fa16a25ee32",
-      "weekNumber": 14,
+      "matchupId": "0adb3b26-2b89-4dda-8f9f-11f9e187dece",
+      "weekNumber": 12,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "homePoints": 0,
@@ -781,8 +913,20 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "1ba7f159-1c0e-4fe1-8ba5-ff75459d4f3b",
-      "weekNumber": 14,
+      "matchupId": "c3931725-b209-4b33-95d6-8d44050616ff",
+      "weekNumber": 12,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-11T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Home Court"
+    },
+    {
+      "matchupId": "91dfa7fe-b2ed-4d55-b6f4-eeb2ede97e39",
+      "weekNumber": 12,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "homePoints": 0,

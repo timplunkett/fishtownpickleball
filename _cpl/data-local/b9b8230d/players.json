@@ -1540,6 +1540,29 @@
       "genderWins": 0,
       "genderLosses": 4,
       "ranking": 67
+    },
+    {
+      "playerId": "6848f02a-1acc-47f8-8743-3525311031a9",
+      "firstName": "Kara",
+      "lastName": "Chubrik",
+      "gender": "Female",
+      "dupr": "G5OW7G",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
+      "teamName": "Spin Doctors",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 68
     }
   ]
 }
