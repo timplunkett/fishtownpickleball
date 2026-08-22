@@ -358,14 +358,17 @@ function renderHeader() {
   const clubName = DATA.meta.clubName || currentDivision?.clubName || '';
   const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || '';
   const titlePrefix = divisionName ? `${divisionName} ` : '';
+  const typicalDay = DATA.meta.typicalDay || null;
   if (isTravel) {
     const regionName = DATA.meta.regionName || 'Philadelphia';
-    elements.kicker.textContent = `Cross Club League • ${regionName}`;
+    elements.kicker.textContent = typicalDay
+      ? `Cross Club League • ${regionName} • ${typicalDay}`
+      : `Cross Club League • ${regionName}`;
   } else {
     if (!clubName) {
       throw new Error('Missing clubName for current CPL dataset.');
     }
-    elements.kicker.textContent = clubName;
+    elements.kicker.textContent = typicalDay ? `${clubName} • ${typicalDay}` : clubName;
   }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
 }
