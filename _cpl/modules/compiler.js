@@ -919,6 +919,10 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         });
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist, subs: subNamesByMatchupId[m.matchupId] || [] });
+    } else if (complete) {
+      // Details not yet available but the matchup is complete: include the score totals
+      // from the matchup record so the UI can display the result without showing "undefined".
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
       const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
         .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
