@@ -22465,5 +22465,19 @@
     "duprRating": 4.01,
     "duprNumericId": 7234448013,
     "duprProvisional": true
+  },
+  {
+    "playerId": "cb93ea73-1422-4b53-9665-41182caba8c8",
+    "firstName": "Sachin",
+    "lastName": "Pathare",
+    "dupr": "8K5RNY",
+    "duprRating": null
+  },
+  {
+    "playerId": "136b6979-e0f4-4af2-9f5e-949b8d4bf423",
+    "firstName": "Brian",
+    "lastName": "Rowan",
+    "dupr": "LVXVE5",
+    "duprRating": null
   }
 ]
