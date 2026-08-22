@@ -667,14 +667,13 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
-    if (!d) continue;
 
     const homeId = mu.homeTeamId, awayId = mu.awayTeamId;
     TEAMNAME[homeId] = mu.homeName; TEAMNAME[awayId] = mu.awayName;
     weeksSeen.add(mu.weekNumber);
 
-    const ps = (d.matchupPlayerStats && d.matchupPlayerStats.$values) || [];
-    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
+    const ps = d ? ((d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) : [];
+    const games = d ? ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) : [];
 
     let hgw = 0, agw = 0;
     for (const g of games) (g.homeScore > g.awayScore ? hgw++ : agw++);
