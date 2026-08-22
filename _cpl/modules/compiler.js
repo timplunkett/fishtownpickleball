@@ -514,6 +514,23 @@ function loadDuprByPid() {
   return map;
 }
 
+const DAY_NAMES = ['Sundays', 'Mondays', 'Tuesdays', 'Wednesdays', 'Thursdays', 'Fridays', 'Saturdays'];
+
+function computeTypicalDay(matchups) {
+  const dayCounts = {};
+  for (const m of matchups) {
+    if (!m.scheduledTime) continue;
+    const datePart = m.scheduledTime.split('T')[0];
+    if (!datePart || !/^\d{4}-\d{2}-\d{2}$/.test(datePart)) continue;
+    const [y, mo, d] = datePart.split('-').map(Number);
+    const dayIndex = new Date(Date.UTC(y, mo - 1, d)).getUTCDay();
+    dayCounts[dayIndex] = (dayCounts[dayIndex] || 0) + 1;
+  }
+  if (Object.keys(dayCounts).length === 0) return null;
+  const topDay = Object.entries(dayCounts).sort((a, b) => b[1] - a[1])[0][0];
+  return DAY_NAMES[topDay];
+}
+
 function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
@@ -616,6 +633,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
+        typicalDay: computeTypicalDay(matchups),
         ...(divisionMeta || {}),
       },
     };
@@ -914,24 +932,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const weeks = [...weeksSeen].sort((a, b) => a - b);
   const weekLabel = weeks.length ? (weeks[0] === weeks[weeks.length - 1] ? `${weeks[0]}` : `${weeks[0]}-${weeks[weeks.length - 1]}`) : "";
 
-  // Determine the typical day of the week by finding the most common day across
-  // all scheduled matchups. A division is labelled with a day even if a small
-  // minority of its matchups fall on a different day (e.g. makeup games).
-  const DAY_NAMES = ['Sundays', 'Mondays', 'Tuesdays', 'Wednesdays', 'Thursdays', 'Fridays', 'Saturdays'];
-  const dayCounts = {};
-  for (const m of matchups) {
-    if (!m.scheduledTime) continue;
-    const datePart = m.scheduledTime.split('T')[0];
-    if (!datePart || !/^\d{4}-\d{2}-\d{2}$/.test(datePart)) continue;
-    const [y, mo, d] = datePart.split('-').map(Number);
-    const dayIndex = new Date(Date.UTC(y, mo - 1, d)).getUTCDay();
-    dayCounts[dayIndex] = (dayCounts[dayIndex] || 0) + 1;
-  }
-  let typicalDay = null;
-  if (Object.keys(dayCounts).length > 0) {
-    const topDay = Object.entries(dayCounts).sort((a, b) => b[1] - a[1])[0][0];
-    typicalDay = DAY_NAMES[topDay];
-  }
+  const typicalDay = computeTypicalDay(matchups);
 
   // Build the playoffs list from playoff matchups if available.
   const playoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
