@@ -37,8 +37,6 @@ function parseArgs(argv) {
     } else if (arg.startsWith('--division=')) {
       const slug = arg.split('=')[1];
       if (slug) out.divisionSlugs = [slug];
-    } else if (/^[0-9a-f]{8}(-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})?$/i.test(arg)) {
-      out.divisionSlugs = [arg.slice(0, 8).toLowerCase()];
     }
   }
 
