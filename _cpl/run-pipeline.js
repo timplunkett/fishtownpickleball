@@ -16,6 +16,7 @@ function parseArgs(argv) {
     timezone: DEFAULT_TIMEZONE,
     resultsWindowHours: DEFAULT_RESULTS_WINDOW_HOURS,
     matchDurationHours: DEFAULT_MATCH_DURATION_HOURS,
+    divisionSlugs: null,
   };
 
   for (const arg of argv) {
@@ -33,6 +34,9 @@ function parseArgs(argv) {
     } else if (arg.startsWith('--match-duration-hours=')) {
       const value = Number(arg.split('=')[1]);
       if (Number.isFinite(value) && value > 0) out.matchDurationHours = value;
+    } else if (arg.startsWith('--division=')) {
+      const slug = arg.split('=')[1];
+      if (slug) out.divisionSlugs = [slug];
     }
   }
 
@@ -42,7 +46,10 @@ function parseArgs(argv) {
 async function runPipeline(league, options) {
   try {
     let divisionSlugs = null;
-    if (options.refreshMode === 'due') {
+    if (options.divisionSlugs) {
+      divisionSlugs = options.divisionSlugs;
+      console.log(`\n${league.toUpperCase()} refresh mode: single division (${divisionSlugs.join(', ')}).`);
+    } else if (options.refreshMode === 'due') {
       divisionSlugs = selectDueDivisionSlugs(league, options);
     } else {
       console.log(`\n${league.toUpperCase()} refresh mode: full (weekly safety refresh/manual backfill).`);
