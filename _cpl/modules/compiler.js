@@ -667,14 +667,13 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
-    if (!d) continue;
 
     const homeId = mu.homeTeamId, awayId = mu.awayTeamId;
     TEAMNAME[homeId] = mu.homeName; TEAMNAME[awayId] = mu.awayName;
     weeksSeen.add(mu.weekNumber);
 
-    const ps = (d.matchupPlayerStats && d.matchupPlayerStats.$values) || [];
-    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
+    const ps = d ? ((d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) : [];
+    const games = d ? ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) : [];
 
     let hgw = 0, agw = 0;
     for (const g of games) (g.homeScore > g.awayScore ? hgw++ : agw++);
@@ -920,6 +919,11 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         });
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist, subs: subNamesByMatchupId[m.matchupId] || [] });
+    } else if (complete) {
+      // Details not yet available but the matchup is complete: include the score totals
+      // from the matchup record so the UI can display the result without showing "undefined".
+      console.warn(`⚠️ Completed match ${m.matchupId} (${m.homeName} vs ${m.awayName}, week ${m.weekNumber}) has no detail data — game record will show 0–0. Re-run the fetcher to pick up missing scores.`);
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
       const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
         .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)

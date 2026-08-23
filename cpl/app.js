@@ -1944,6 +1944,7 @@ function renderResultsGrid() {
   const results = {};
   allTeams.forEach((row) => { results[row] = {}; allTeams.forEach((col) => { results[row][col] = []; }); });
   (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
+    if (!results[match.home] || !results[match.away]) return;
     const homeWon = match.result === 'home';
     results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week });
     results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week });
