@@ -101,9 +101,9 @@
       "weekNumber": 1,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 583,
+      "awayPoints": 636,
+      "endResult": "away",
       "scheduledTime": "2026-08-22T14:30:00",
       "homeName": "Allstar Pickler",
       "awayName": "Picklr Fair Lawn"

@@ -663,7 +663,94 @@
   },
   {
     "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
-    "details": {}
+    "details": {
+      "lineups": {
+        "lineups": {
+          "$values": [
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "58836d9c-6a12-4ed7-853f-dcee1e00dadd",
+              "awayPlayerId2": "f4cd45db-8d83-423a-8936-c7d7a3b0ffad",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "25aa47d0-76b8-48be-a5be-b1d33b423e82",
+              "awayPlayerId2": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
+              "awayPlayerId2": "d0db1fca-1182-4e0e-8d5c-980be84ac87f",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "88c57c1f-436b-4280-9bd7-75eafe496b70",
+              "awayPlayerId2": "de8e2a33-d691-4652-84ef-532b89f467bc",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "58836d9c-6a12-4ed7-853f-dcee1e00dadd",
+              "awayPlayerId2": "25aa47d0-76b8-48be-a5be-b1d33b423e82",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "f4cd45db-8d83-423a-8936-c7d7a3b0ffad",
+              "awayPlayerId2": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
+              "awayPlayerId2": "88c57c1f-436b-4280-9bd7-75eafe496b70",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            },
+            {
+              "matchupId": "8c6f0bd0-4a91-4793-9c78-e69ab73c1767",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "d13d6c03-eea2-44f3-a497-965b1e95ea83",
+              "awayPlayerId2": "d0db1fca-1182-4e0e-8d5c-980be84ac87f",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "male"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "matchupId": "fa1b26f2-f30c-49f5-8fb3-07eeea76d761",
