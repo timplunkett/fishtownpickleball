@@ -125,9 +125,9 @@
       "weekNumber": 1,
       "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
       "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 646,
+      "awayPoints": 558,
+      "endResult": "home",
       "scheduledTime": "2026-08-22T15:00:00",
       "homeName": "Forward",
       "awayName": "Bounce Philly"
