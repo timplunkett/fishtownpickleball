@@ -657,6 +657,13 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
   }
 
+  // Seed teams from all matchups (completed + scheduled) so teams that haven't
+  // played yet still appear in the standings with a 0-0 record.
+  for (const mu of matchups) {
+    if (mu.homeName) ensureTeam(mu.homeName);
+    if (mu.awayName) ensureTeam(mu.awayName);
+  }
+
   for (const mu of completed) {
     const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
     const d = match ? match.details : null;
