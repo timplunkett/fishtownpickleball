@@ -133,6 +133,23 @@ async function checkResponse(res, label) {
   }
 }
 
+async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
+  let lastErr;
+  for (let i = 0; i < retries; i++) {
+    if (i > 0) await new Promise(r => setTimeout(r, delayMs * i));
+    try {
+      const res = await fetch(url);
+      if (res.ok) return res;
+      const body = await res.text().catch(() => '');
+      lastErr = new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
+    } catch (err) {
+      lastErr = err;
+    }
+    console.warn(`  ↻ Retry ${i}/${retries - 1} for ${url} (${lastErr.message})`);
+  }
+  throw lastErr;
+}
+
 async function fetchDivisionData(apiBase, divisionId) {
   const divBase = `${apiBase}/divisions/${divisionId}`;
   const [matchupsRes, playersRes, playoffMatchupsRes] = await Promise.all([
@@ -154,13 +171,13 @@ async function fetchDivisionData(apiBase, divisionId) {
 
   const individualDetails = await Promise.all(
     matchupsArray.map(async (matchup) => {
+      const url = `${divBase}/matchups/${matchup.matchupId}`;
       try {
-        const detailRes = await fetch(`${divBase}/matchups/${matchup.matchupId}`);
-        await checkResponse(detailRes, `${divBase}/matchups/${matchup.matchupId}`);
+        const detailRes = await fetchWithRetry(url);
         const detailData = await detailRes.json();
         return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
       } catch (err) {
-        console.error(`⚠️ Failed fetching matchup ${matchup.matchupId}:`, err.message);
+        console.error(`⚠️ Failed fetching matchup ${matchup.matchupId} after retries:`, err.message);
         return { matchupId: matchup.matchupId, details: null };
       }
     })
@@ -170,13 +187,13 @@ async function fetchDivisionData(apiBase, divisionId) {
   const playoffIndividualDetails = Array.isArray(playoffMatchupsArray) && playoffMatchupsArray.length
     ? await Promise.all(
         playoffMatchupsArray.map(async (matchup) => {
+          const url = `${divBase}/matchups/${matchup.matchupId}`;
           try {
-            const detailRes = await fetch(`${divBase}/matchups/${matchup.matchupId}`);
-            await checkResponse(detailRes, `${divBase}/matchups/${matchup.matchupId}`);
+            const detailRes = await fetchWithRetry(url);
             const detailData = await detailRes.json();
             return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
           } catch (err) {
-            console.error(`⚠️ Failed fetching playoff matchup ${matchup.matchupId}:`, err.message);
+            console.error(`⚠️ Failed fetching playoff matchup ${matchup.matchupId} after retries:`, err.message);
             return { matchupId: matchup.matchupId, details: null };
           }
         })

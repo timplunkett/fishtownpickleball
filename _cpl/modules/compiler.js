@@ -922,6 +922,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     } else if (complete) {
       // Details not yet available but the matchup is complete: include the score totals
       // from the matchup record so the UI can display the result without showing "undefined".
+      console.warn(`⚠️ Completed match ${m.matchupId} (${m.homeName} vs ${m.awayName}, week ${m.weekNumber}) has no detail data — game record will show 0–0. Re-run the fetcher to pick up missing scores.`);
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
       const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
