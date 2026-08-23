@@ -22961,5 +22961,19 @@
     "duprRating": "2.730",
     "duprNumericId": 5815769457,
     "duprProvisional": false
+  },
+  {
+    "playerId": "36927aca-827a-4408-ab82-9dc0d06e2c8d",
+    "firstName": "Alicia",
+    "lastName": "Maguire",
+    "dupr": "8EP4EM",
+    "duprRating": null
+  },
+  {
+    "playerId": "81abfb04-0994-4144-9d27-5c37354151cf",
+    "firstName": "Guihua",
+    "lastName": "Zhang",
+    "dupr": "RZLV0D",
+    "duprRating": null
   }
 ]

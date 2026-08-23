@@ -53,9 +53,9 @@
       "weekNumber": 1,
       "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
       "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 574,
+      "awayPoints": 610,
+      "endResult": "away",
       "scheduledTime": "2026-08-22T13:00:00",
       "homeName": "One Love",
       "awayName": "Life Time Red Bank"
