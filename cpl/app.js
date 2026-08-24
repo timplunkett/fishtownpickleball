@@ -1455,6 +1455,7 @@ function renderTeamMatchBlock(match, teamName) {
   const usGames = homeSide ? match.homeGW : match.awayGW;
   const themGames = homeSide ? match.awayGW : match.homeGW;
   const opponent = homeSide ? match.away : match.home;
+  const provisionalLabel = match.provisional ? ' <span class="mut">(provisional)</span>' : '';
   const won = homeSide === (match.result === 'home');
 
   let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
@@ -1506,9 +1507,9 @@ function renderTeamMatchBlock(match, teamName) {
     <div class="wk-block">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
-        <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}</span>
+        <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}${provisionalLabel}</span>
       </div>
-      <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${upsetLine}</div>
+      <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${match.provisional ? ' • <span class="mut">Unverified</span>' : ''}${upsetLine}</div>
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
@@ -1677,9 +1678,9 @@ function renderPlayoffs() {
       <div class="wk-block">
         <div class="wk-head">
           <span>${homeSeedLabel}<b class="${homeWon ? winnerClass : ''}">${escapeHtml(m.home)}</b> vs ${awaySeedLabel}<b class="${homeWon ? '' : winnerClass}">${escapeHtml(m.away)}</b></span>
-          <span class="${homeWon ? winnerClass : loserClass}">${homeWon ? escapeHtml(m.home) : escapeHtml(m.away)} WON ${homeWon ? m.homeGW : m.awayGW}–${homeWon ? m.awayGW : m.homeGW}</span>
+          <span class="${homeWon ? winnerClass : loserClass}">${homeWon ? escapeHtml(m.home) : escapeHtml(m.away)} WON ${homeWon ? m.homeGW : m.awayGW}–${homeWon ? m.awayGW : m.homeGW}${m.provisional ? ' <span class="mut">(provisional)</span>' : ''}</span>
         </div>
-        <div class="match-summary">Match points <b>${m.homePoints}–${m.awayPoints}</b> • Games <b>${m.homeGW}–${m.awayGW}</b></div>
+        <div class="match-summary">Match points <b>${m.homePoints}–${m.awayPoints}</b> • Games <b>${m.homeGW}–${m.awayGW}</b>${m.provisional ? ' • <span class="mut">Unverified</span>' : ''}</div>
         <details>
           <summary>Game-by-game (${(m.games || []).length})</summary>
           <table class="mlog glog">
@@ -1946,8 +1947,8 @@ function renderResultsGrid() {
   (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
     if (!results[match.home] || !results[match.away]) return;
     const homeWon = match.result === 'home';
-    results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week });
-    results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week });
+    results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week, provisional: !!match.provisional });
+    results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week, provisional: !!match.provisional });
   });
 
   // All pairs that appear anywhere in the schedule (played or upcoming).
@@ -1969,7 +1970,7 @@ function renderResultsGrid() {
 
   const entryHtml = (entry) => `
     <div class="entry ${entry.win ? 'win' : 'loss'}">
-      <div class="wk">Wk ${entry.week}</div>
+      <div class="wk">Wk ${entry.week}${entry.provisional ? ' · Provisional' : ''}</div>
       <div class="res">${entry.win ? 'W' : 'L'}</div>
       <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
       <div class="pd ${entry.pd >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.pd)}</div>
