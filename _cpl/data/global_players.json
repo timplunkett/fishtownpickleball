@@ -7143,7 +7143,7 @@
   },
   {
     "playerId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f",
-    "firstName": "Timothy",
+    "firstName": "Tim",
     "lastName": "Bruno",
     "dupr": "3X055X",
     "duprRating": "4.103",
@@ -25656,5 +25656,40 @@
     "duprRating": "4.122",
     "duprNumericId": 6467736543,
     "duprProvisional": false
+  },
+  {
+    "playerId": "67b0e676-9779-4bcb-8c38-86f2c84e1d73",
+    "firstName": "Roseann",
+    "lastName": "Catania",
+    "dupr": "35YVL5",
+    "duprRating": null
+  },
+  {
+    "playerId": "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864",
+    "firstName": "Jill",
+    "lastName": "Lesnik",
+    "dupr": "3Y9541",
+    "duprRating": null
+  },
+  {
+    "playerId": "f607099c-35f9-448c-9077-1792b245f68e",
+    "firstName": "Yang",
+    "lastName": "Xu",
+    "dupr": "4L0DW2",
+    "duprRating": null
+  },
+  {
+    "playerId": "709ddeff-95a4-467e-8098-64cd1a332828",
+    "firstName": "Guy",
+    "lastName": "Ercol",
+    "dupr": "EL04MJ",
+    "duprRating": null
+  },
+  {
+    "playerId": "eaa86091-5879-48bf-8bd1-b0689f887818",
+    "firstName": "Yaoye",
+    "lastName": "li",
+    "dupr": "0Y6D7X",
+    "duprRating": null
   }
 ]
