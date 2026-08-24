@@ -621,16 +621,19 @@ function getFilteredPlayers() {
   );
 }
 
-function comparePlayers(playerA, playerB) {
-  const valueA = getSortValue(playerA, sortKey);
-  const valueB = getSortValue(playerB, sortKey);
+function comparePlayers(playerA, playerB, key = sortKey, direction = sortDirection) {
+  const valueA = getSortValue(playerA, key);
+  const valueB = getSortValue(playerB, key);
+  const winDiff = playerB.winPct - playerA.winPct;
 
-  if (typeof valueA === 'string' && typeof valueB === 'string') {
-    return valueA.toLowerCase().localeCompare(valueB.toLowerCase()) * sortDirection;
-  }
+  if (valueA === 'NR' && valueB === 'NR') return winDiff;
+  if (valueA === 'NR') return 1;
+  if (valueB === 'NR') return -1;
 
-  return (valueA - valueB) * sortDirection || playerB.winPct - playerA.winPct;
+  const diff = (valueA - valueB);
+  return (diff !== 0 ? diff : winDiff) * direction;
 }
+
 
 function renderRows(rows) {
   elements.body.innerHTML = rows
@@ -1747,14 +1750,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
     { key: 'gamesPlayed', label: 'GP' },
   ];
 
-  const sortedRoster = roster.slice().sort((a, b) => {
-    const va = getSortValue(a, rosterSortKey);
-    const vb = getSortValue(b, rosterSortKey);
-    if (typeof va === 'string' && typeof vb === 'string') {
-      return va.toLowerCase().localeCompare(vb.toLowerCase()) * rosterSortDirection;
-    }
-    return (va - vb) * rosterSortDirection;
-  });
+  const sortedRoster = roster.slice().sort((a, b) => comparePlayers(a, b, rosterSortKey, rosterSortDirection));
 
   const rosterHeaderCells = rosterColumns.map(({ key, label, align }) => {
     const classes = [];

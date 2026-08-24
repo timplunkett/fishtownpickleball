@@ -139,8 +139,9 @@ function saveGlobalPlayers(players, reason = 'progress') {
 function writeDuprRatingsJs(players) {
   const ratings = {};
   for (const p of players) {
-    if (p.playerId && p.duprRating != null && p.duprRating !== 'NR') {
-      ratings[p.playerId] = { rating: Number(p.duprRating), numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
+    if (p.playerId && p.duprRating != null) {
+      let rating = p.duprRating === 'NR' ? p.duprRating : Number(p.duprRating);
+      ratings[p.playerId] = { rating: rating, numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
     }
   }
   const content = `window.DUPR_RATINGS = ${JSON.stringify(ratings)};`;
