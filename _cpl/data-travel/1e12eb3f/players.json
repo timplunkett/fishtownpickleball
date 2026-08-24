@@ -3522,11 +3522,11 @@
     {
       "playerId": "4b2fda63-a536-4730-9140-4a372b1726e9",
       "firstName": "Paul",
-      "lastName": "Mcalary",
+      "lastName": "McAlary",
       "gender": "Male",
       "dupr": "DNPZ4M",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "teamName": "Bounce Philly",
       "wins": 3,

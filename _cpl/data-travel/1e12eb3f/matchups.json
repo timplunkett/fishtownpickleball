@@ -89,9 +89,9 @@
       "weekNumber": 1,
       "homeTeamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
       "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 533,
+      "awayPoints": 647,
+      "endResult": "away",
       "scheduledTime": "2026-08-22T14:00:00",
       "homeName": "Pickleball Palace Blue",
       "awayName": "PickleRage Union County"
