@@ -284,6 +284,26 @@ const RIDGE_LAMBDA = 4;
 // are excluded from the rating; standings/records still count them.
 const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
 
+function deriveProvisionalOutcome(details) {
+  const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
+  const slottedLineups = allLineups.filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2);
+  if (!slottedLineups.length) return null;
+
+  const hasUnscoredSlottedGame = slottedLineups.some((g) => !Number.isFinite(g.homeScore) || !Number.isFinite(g.awayScore));
+  if (hasUnscoredSlottedGame) return null;
+
+  let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
+  for (const g of slottedLineups) {
+    homePoints += g.homeScore;
+    awayPoints += g.awayScore;
+    if (g.homeScore > g.awayScore) homeGW++;
+    else awayGW++;
+  }
+
+  if (homeGW === awayGW) return null;
+  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: slottedLineups };
+}
+
 // Teammate-pair chemistry tuning: shrinkage strength and the minimum shared
 // games before a pair is surfaced.
 const PAIR_K = 4;
@@ -925,6 +945,27 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       console.warn(`⚠️ Completed match ${m.matchupId} (${m.homeName} vs ${m.awayName}, week ${m.weekNumber}) has no detail data — game record will show 0–0. Re-run the fetcher to pick up missing scores.`);
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
+      const provisional = deriveProvisionalOutcome(d);
+      if (provisional) {
+        const glist = provisional.games.map((g) => ({
+          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        }));
+        Object.assign(rec, {
+          complete: true,
+          provisional: true,
+          result: provisional.result,
+          homePoints: provisional.homePoints,
+          awayPoints: provisional.awayPoints,
+          homeGW: provisional.homeGW,
+          awayGW: provisional.awayGW,
+          games: glist,
+          subs: subNamesByMatchupId[m.matchupId] || [],
+        });
+        matches.push(rec);
+        continue;
+      }
       const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
         .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
         .map((g) => ({
@@ -971,6 +1012,26 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
     } else if (d) {
+      const provisional = deriveProvisionalOutcome(d);
+      if (provisional) {
+        const glist = provisional.games.map((g) => ({
+          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
+          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+        }));
+        Object.assign(rec, {
+          complete: true,
+          provisional: true,
+          result: provisional.result,
+          homePoints: provisional.homePoints,
+          awayPoints: provisional.awayPoints,
+          homeGW: provisional.homeGW,
+          awayGW: provisional.awayGW,
+          games: glist,
+        });
+        playoffs.push(rec);
+        continue;
+      }
       const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
         .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
         .map((g) => ({
