@@ -5,7 +5,7 @@
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint --no-warn-ignored cpl/app.js cpl/home.js cpl/local/bootstrap.js cpl/travel/bootstrap.js _cpl/**/*.js",
     "lint:fix": "npm run lint:eslint -- --fix",
-    "test": "node --test \"_cpl/test/*.test.js\"",
+    "test": "node --test _cpl/test/*.test.js",
     "build": "node _cpl/run-pipeline.js",
     "build:local": "node _cpl/run-pipeline.js local",
     "build:travel": "node _cpl/run-pipeline.js travel",
