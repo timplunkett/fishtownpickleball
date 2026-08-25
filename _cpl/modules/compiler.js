@@ -719,6 +719,9 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
   const runtimePath = path.join(__dirname, '../../cpl/bootstrap-runtime.js');
   fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
+  // The shared utils are UMD: the same file serves the pipeline via require()
+  // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
+  fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(__dirname, '../../cpl/shared.js'));
   console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${divisionsGlobal} exposed).`);
 
   const divisionsToCompile = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });

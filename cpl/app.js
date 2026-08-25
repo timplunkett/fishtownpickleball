@@ -48,13 +48,8 @@ const RESULT_CLASS = Object.freeze({
   slightLoss: 'res-slight-L',
   neutral: 'mut',
 });
-const HTML_ESCAPE_MAP = Object.freeze({
-  '&': '&amp;',
-  '<': '&lt;',
-  '>': '&gt;',
-  '"': '&quot;',
-  "'": '&#39;',
-});
+// Shared client utilities (cpl/shared.js loads before this file).
+const { escapeHtml, slugify, formatDuprRating } = window.CPLShared;
 
 const elements = {
   body: getRequiredElement('body'),
@@ -142,10 +137,6 @@ function getCurrentDivision() {
   return DIVISIONS[0] || null;
 }
 
-function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, (character) => HTML_ESCAPE_MAP[character]);
-}
-
 function isMissing(value) {
   return value === null || value === undefined;
 }
@@ -185,13 +176,6 @@ function buildTeamAbbreviations(teamNames) {
 
 function getTeamColor(teamName) {
   return TEAM_COLORS[teamName] ?? 'var(--accent)';
-}
-
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
 }
 
 function parseLegacyHashRoute(hashValue) {
@@ -279,10 +263,6 @@ function migrateLegacyHashRoute() {
 function formatSignedValue(value, digits) {
   const number = digits === undefined ? String(value) : value.toFixed(digits);
   return `${value >= 0 ? '+' : ''}${number}`;
-}
-
-function renderDuprRating(duprData) {
-  return window.formatDuprRating(duprData);
 }
 
 function formatWinPct(wins, losses) {
@@ -614,7 +594,7 @@ function renderCell(player, key) {
         : `<span class="lgrank">#${player.leagueRank}</span>`;
     case 'dupr':
       if (isMissing(DUPR_RATINGS[player.playerId]?.rating)) return EMPTY_VALUE;
-      return renderDuprRating(DUPR_RATINGS[player.playerId]);
+      return formatDuprRating(DUPR_RATINGS[player.playerId]);
     case 'winPct':
     case 'ppg':
       return player[key].toFixed(1);
@@ -772,7 +752,7 @@ function renderModalHeader(player) {
     : `<div class="mh-stat"><div class="n">#${player.leagueRank}</div><div class="l">LG RANK</div></div>`;
   const duprStat = isMissing(DUPR_RATINGS[player.playerId]?.rating)
     ? ''
-    : `<div class="mh-stat"><div class="n">${renderDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
+    : `<div class="mh-stat"><div class="n">${formatDuprRating(DUPR_RATINGS[player.playerId])}</div><div class="l">DUPR</div></div>`;
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `

@@ -281,38 +281,21 @@
     <p class="finder-hint" id="finder-hint">Start typing to search across all leagues and divisions</p>
   </div>
 
+<script src="shared.js"></script>
 <script src="bootstrap-runtime.js"></script>
 <script src="local/bootstrap.js"></script>
 <script src="travel/bootstrap.js"></script>
 <script src="player-index.js"></script>
 <script src="dupr-ratings.js"></script>
-<script src="dupr-format.js"></script>
 <script>
 (function () {
   'use strict';
 
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
-  }
-
-  // Extract the leading number from a division name for numeric sort (e.g. "3.25 - 3.99" → 3.25).
-  function divisionSortKey(name) {
-    var m = String(name).match(/[\d.]+/);
-    return m ? parseFloat(m[0]) : Infinity;
-  }
-
-  function isGenderedTravelDivision(name) {
-    return /\b(women'?s?|men'?s?)\b/i.test(String(name || ''));
-  }
-
-  function formatTravelDivisionLabel(name) {
-    var text = String(name || '').trim();
-    var m = text.match(/^(\d+(?:\.\d+)?)\s+(women'?s?|men'?s?)$/i);
-    if (!m) return text;
-    return m[2] + ' ' + m[1];
-  }
+  var escapeHtml = window.CPLShared.escapeHtml;
+  var divisionSortKey = window.CPLShared.divisionSortKey;
+  var isGenderedTravelDivision = window.CPLShared.isGenderedTravelDivisionName;
+  var formatTravelDivisionLabel = window.CPLShared.formatTravelDivisionLabel;
+  var slugify = window.CPLShared.slugify;
 
   function buildLocalSelect(divisions) {
     var host = document.getElementById('local-select-host');
@@ -382,10 +365,6 @@
     return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
   }
 
-  function slugify(name) {
-    return String(name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  }
-
   function divisionUrl(entry, playerName) {
     if (entry.team) {
       return entry.league + '/?d=' + encodeURIComponent(entry.slug) +
@@ -453,7 +432,7 @@
       if (duprEntry) {
         var duprData = duprRatings[duprEntry.playerId];
         duprHtml = '<span class="player-result-dupr">DUPR\u00a0' +
-          window.formatDuprRating(duprData) +
+          window.CPLShared.formatDuprRating(duprData) +
           '</span>';
       }
       return '<div class="player-result">' +

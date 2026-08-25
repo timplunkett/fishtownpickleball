@@ -84,11 +84,11 @@
   </section>
 </div>
 
+<script src="../shared.js"></script>
 <script src="../dupr-ratings.js"></script>
 <script src="../bootstrap-runtime.js"></script>
 <script src="../local/bootstrap.js"></script>
 <script src="../travel/bootstrap.js"></script>
-<script src="../dupr-format.js"></script>
 <script>
 (function () {
   'use strict';
@@ -160,11 +160,8 @@
 
   var DIVISION_RULES = buildDivisionRules();
 
-  function escapeHtml(value) {
-    return String(value).replace(/[&<>"']/g, function (character) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character];
-    });
-  }
+  var escapeHtml = window.CPLShared.escapeHtml;
+  var slugify = window.CPLShared.slugify;
 
   function expectedBracketText(row) {
     if (!Number.isFinite(row.max)) return row.min.toFixed(3) + '+';
@@ -173,7 +170,7 @@
 
   function duprCell(row) {
     if (row.duprRating == null) return '<span class="muted">—</span>';
-    return window.formatDuprRating({
+    return window.CPLShared.formatDuprRating({
       rating: row.duprRating,
       provisional: row.duprProvisional,
       numericId: row.duprNumericId,
@@ -190,10 +187,6 @@
   function normalizeGender(value) {
     var g = String(value || '').trim();
     return g || 'Unknown';
-  }
-
-  function slugify(value) {
-    return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   }
 
   function divisionUrl(row) {

@@ -76,8 +76,7 @@ function buildBootstrapRuntimeSource() {
   }
 
   function loadApp() {
-    const loadAppScript = () => appendScript('../app.js');
-    appendScript('../dupr-format.js', loadAppScript, loadAppScript);
+    appendScript('../app.js');
   }
 
   function loadDataWithFallback(src) {
