@@ -66,10 +66,34 @@
   buildTravelSelect(window.TRAVEL_DIVISIONS || []);
 
   // ── Player Finder ──────────────────────────────────────────────────────────
+  // The index (~250 KB of scripts) is only needed once someone actually
+  // searches, so it lazy-loads on first focus/keystroke in the search box.
 
   var searchInput = document.getElementById('player-search');
   var resultsEl = document.getElementById('player-results');
   var hintEl = document.getElementById('finder-hint');
+  var finderDataPromise = null;
+
+  function loadScript(src) {
+    return new Promise(function (resolve) {
+      var script = document.createElement('script');
+      script.src = src;
+      script.async = false;
+      script.onload = resolve;
+      script.onerror = resolve; // degrade: finder shows "no players found"
+      document.body.appendChild(script);
+    });
+  }
+
+  function ensureFinderData() {
+    if (!finderDataPromise) {
+      finderDataPromise = Promise.all([
+        loadScript('player-index.js'),
+        loadScript('dupr-ratings.js'),
+      ]);
+    }
+    return finderDataPromise;
+  }
 
   function normalize(s) {
     return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
@@ -88,7 +112,7 @@
 
   function renderResults(query) {
     var q = normalize(query);
-    var playerIndex = window.PLAYER_INDEX || [];
+    var playerIndex = window.CPLShared.getPlayerIndex();
     if (!q) {
       resultsEl.innerHTML = '';
       hintEl.style.display = '';
@@ -159,9 +183,12 @@
   }
 
   var debounceTimer = null;
+  searchInput.addEventListener('focus', function () { ensureFinderData(); });
   searchInput.addEventListener('input', function () {
     clearTimeout(debounceTimer);
     var val = searchInput.value;
-    debounceTimer = setTimeout(function () { renderResults(val); }, 120);
+    debounceTimer = setTimeout(function () {
+      ensureFinderData().then(function () { renderResults(val); });
+    }, 120);
   });
 }());

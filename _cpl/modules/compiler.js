@@ -764,6 +764,42 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   return { failedDivisions };
 }
 
+// Pack the player index with a string table: names, teams, divisions and even
+// playerIds repeat across divisions, so interning them cuts the file to a
+// fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
+// Entry layout: [name, team, division, slug, league(0=local,1=travel),
+//                playerId|-1, club|-1, flags(1=captain, 2=sub)] — all string-table indexes.
+function packPlayerIndex(entries) {
+  const strings = [];
+  const stringIndex = new Map();
+  const intern = (value) => {
+    if (value == null || value === '') return -1;
+    let index = stringIndex.get(value);
+    if (index === undefined) {
+      index = strings.length;
+      strings.push(value);
+      stringIndex.set(value, index);
+    }
+    return index;
+  };
+  const packed = entries.map((entry) => [
+    intern(entry.name),
+    intern(entry.team),
+    intern(entry.division),
+    intern(entry.slug),
+    entry.league === 'travel' ? 1 : 0,
+    intern(entry.playerId),
+    intern(entry.club),
+    (entry.isCaptain ? 1 : 0) | (entry.isSub ? 2 : 0),
+  ]);
+  return { s: strings, e: packed };
+}
+
+// Builds the cross-league outputs derived from every division's roster:
+// cpl/player-index.js (packed finder index) and cpl/dupr-audit/data.js
+// (precomputed audit rows, so the audit page no longer downloads every
+// division dataset). DUPR values are joined client-side from dupr-ratings.js,
+// which the DUPR workflow updates without recompiling.
 function buildPlayerIndex() {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
@@ -788,6 +824,7 @@ function buildPlayerIndex() {
   }
 
   const entries = [];
+  const auditRows = [];
 
   for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
     const dataDir = path.join(__dirname, '..', dataSubdir);
@@ -799,6 +836,7 @@ function buildPlayerIndex() {
       const playersPath = path.join(dataDir, div.slug, 'players.json');
       if (!fs.existsSync(playersPath)) continue;
 
+      const bracket = getDivisionBracket({ divisionName: div.divisionName, leagueType: league });
       const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
       const players = selectCanonicalRosterPlayers(
         (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []),
@@ -807,8 +845,9 @@ function buildPlayerIndex() {
       );
       for (const p of players) {
         if (!p.firstName && !p.lastName) continue;
+        const name = norm(`${p.firstName || ''} ${p.lastName || ''}`);
         const entry = {
-          name: norm(`${p.firstName || ''} ${p.lastName || ''}`),
+          name,
           team: p.teamName || '',
           division: div.divisionName,
           slug: div.slug,
@@ -819,6 +858,24 @@ function buildPlayerIndex() {
         if (p.isCaptain) entry.isCaptain = true;
         if (p.isSub) entry.isSub = true;
         entries.push(entry);
+
+        // Audit rows exist only for divisions whose name encodes a bracket.
+        // Subs are excluded here — the audit only ever reports rostered
+        // players. max: null encodes "no upper bound" (Infinity isn't JSON).
+        if (bracket && !p.isSub) {
+          auditRows.push({
+            name,
+            playerId: p.playerId || null,
+            team: p.teamName || '',
+            league,
+            division: div.clubName ? `${div.clubName} • ${div.divisionName}` : div.divisionName,
+            slug: div.slug,
+            gender: p.gender || '',
+            isSub: !!p.isSub,
+            min: bracket.min,
+            max: Number.isFinite(bracket.max) ? bracket.max : null,
+          });
+        }
       }
     }
   }
@@ -826,8 +883,17 @@ function buildPlayerIndex() {
   entries.sort((a, b) => a.name.localeCompare(b.name));
 
   const outPath = path.join(rootDir, 'cpl', 'player-index.js');
-  fs.writeFileSync(outPath, `window.PLAYER_INDEX = ${JSON.stringify(entries)};`);
-  console.log(`✓ player-index.js written (${entries.length} player-division entries).`);
+  fs.writeFileSync(outPath, `window.PLAYER_INDEX_PACKED = ${JSON.stringify(packPlayerIndex(entries))};\n`);
+  console.log(`✓ player-index.js written (${entries.length} player-division entries, packed).`);
+
+  const auditDir = path.join(rootDir, 'cpl', 'dupr-audit');
+  if (!fs.existsSync(auditDir)) fs.mkdirSync(auditDir, { recursive: true });
+  auditRows.sort((a, b) => a.name.localeCompare(b.name) || a.division.localeCompare(b.division));
+  fs.writeFileSync(
+    path.join(auditDir, 'data.js'),
+    `window.DUPR_AUDIT = ${JSON.stringify({ rows: auditRows }, null, 1)};\n`,
+  );
+  console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
 }
 
 module.exports = { compileDashboardHtml, buildPlayerIndex, selectCanonicalRosterPlayers, writeDataScript };

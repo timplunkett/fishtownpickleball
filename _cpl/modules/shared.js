@@ -95,6 +95,32 @@
       : display;
   }
 
+  // Decode the packed player index emitted by the compiler (string table +
+  // integer entries; see packPlayerIndex) into the plain entry objects the
+  // finder and dashboards consume. Unpacks once, then serves the cached array.
+  function getPlayerIndex() {
+    const root = globalThis;
+    if (Array.isArray(root.PLAYER_INDEX)) return root.PLAYER_INDEX;
+    const packed = root.PLAYER_INDEX_PACKED;
+    if (!packed || !Array.isArray(packed.e)) return [];
+    const s = (index) => (index === -1 ? '' : packed.s[index]);
+    root.PLAYER_INDEX = packed.e.map((entry) => {
+      const decoded = {
+        name: s(entry[0]),
+        team: s(entry[1]),
+        division: s(entry[2]),
+        slug: s(entry[3]),
+        league: entry[4] === 1 ? 'travel' : 'local',
+        playerId: entry[5] === -1 ? null : packed.s[entry[5]],
+      };
+      if (entry[6] !== -1) decoded.club = packed.s[entry[6]];
+      if (entry[7] & 1) decoded.isCaptain = true;
+      if (entry[7] & 2) decoded.isSub = true;
+      return decoded;
+    });
+    return root.PLAYER_INDEX;
+  }
+
   return {
     escapeHtml,
     decodeHtmlEntities,
@@ -105,5 +131,6 @@
     divisionSortKey,
     getTravelDivisionSortKey,
     formatDuprRating,
+    getPlayerIndex,
   };
 }));

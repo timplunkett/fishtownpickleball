@@ -84,84 +84,20 @@
   </section>
 </div>
 
-<script src="../shared.js"></script>
-<script src="../dupr-ratings.js"></script>
-<script src="../bootstrap-runtime.js"></script>
-<script src="../local/bootstrap.js"></script>
-<script src="../travel/bootstrap.js"></script>
+<script src="../shared.js" defer></script>
+<script src="../dupr-ratings.js" defer></script>
+<script src="data.js" defer></script>
 <script>
 (function () {
   'use strict';
 
   var sortState = { key: 'delta', direction: -1 };
   var DELTA_EMPHASIS_THRESHOLD = 0.050;
-  var DEFAULT_DIVISION_SLUGS = { local: '3e9b6a58', travel: 'b7ca04e4' };
   var outliers = [];
   var missing = [];
-
-  function parseDivisionRange(divisionName) {
-    var text = String(divisionName || '').trim();
-    var rangeMatch = text.match(/^(\d+(?:\.\d+)?)\s*[–-]\s*(\d+(?:\.\d+)?)$/);
-    if (rangeMatch) {
-      return { min: Number(rangeMatch[1]), max: Number(rangeMatch[2]) };
-    }
-
-    var overMatch = text.match(/^(\d+(?:\.\d+)?)\s*&\s*over$/i);
-    if (overMatch) {
-      return { min: Number(overMatch[1]), max: Infinity };
-    }
-
-    var underMatch = text.match(/^(\d+(?:\.\d+)?)\s*&\s*under$/i);
-    if (underMatch) {
-      return { min: 2, max: Number(underMatch[1]) };
-    }
-
-    return null;
-  }
-
-  function parseTravelDivisionRange(divisionName) {
-    var match = String(divisionName || '').trim().match(/^(\d+(?:\.\d+)?)/);
-    if (!match) return null;
-    var min = Number(match[1]);
-    return { min: min, max: min >= 4.5 ? Infinity : min + 0.5 };
-  }
-
-  function buildTravelDivisionRules() {
-    return (Array.isArray(window.TRAVEL_DIVISIONS) ? window.TRAVEL_DIVISIONS : []).reduce(function (rules, division) {
-      var range = parseTravelDivisionRange(division.divisionName);
-      if (!range) return rules;
-      rules[division.slug] = {
-        division: 'Travel • ' + division.divisionName,
-        min: range.min,
-        max: range.max,
-        leaguePath: 'travel',
-      };
-      return rules;
-    }, {});
-  }
-
-  function buildLocalDivisionRules() {
-    return (Array.isArray(window.LOCAL_DIVISIONS) ? window.LOCAL_DIVISIONS : []).reduce(function (rules, division) {
-      var range = parseDivisionRange(division.divisionName);
-      if (!range) return rules;
-      rules[division.slug] = {
-        division: 'Local • ' + division.clubName + ' • ' + division.divisionName,
-        min: range.min,
-        max: range.max,
-        leaguePath: 'local',
-      };
-      return rules;
-    }, {});
-  }
-
-  function buildDivisionRules() {
-    return Object.assign({}, buildTravelDivisionRules(), buildLocalDivisionRules());
-  }
-
-  var DIVISION_RULES = buildDivisionRules();
-
-  var escapeHtml = window.CPLShared.escapeHtml;
-  var slugify = window.CPLShared.slugify;
+  // Assigned in main() once the deferred shared.js has executed.
+  var escapeHtml;
+  var slugify;
 
   function expectedBracketText(row) {
     if (!Number.isFinite(row.max)) return row.min.toFixed(3) + '+';
@@ -175,13 +111,6 @@
       provisional: row.duprProvisional,
       numericId: row.duprNumericId,
     });
-  }
-
-  function resolveDivisionDataFile(slug, leaguePath) {
-    if (DEFAULT_DIVISION_SLUGS[leaguePath] === slug) {
-      return '../' + encodeURIComponent(leaguePath) + '/data.js';
-    }
-    return '../' + encodeURIComponent(leaguePath) + '/data-' + encodeURIComponent(slug) + '.js';
   }
 
   function normalizeGender(value) {
@@ -206,39 +135,30 @@
     return '<a class="audit-link" href="' + escapeHtml(href) + '">' + escapeHtml(label) + '</a>';
   }
 
-  function loadScript(src) {
-    return new Promise(function (resolve, reject) {
-      var script = document.createElement('script');
-      script.src = src;
-      script.async = false;
-      script.onload = function () { resolve(src); };
-      script.onerror = function () { reject(new Error('Failed to load ' + src)); };
-      document.body.appendChild(script);
-    });
-  }
-
-  function buildRowsFromDataset(slug, data) {
-    var rule = DIVISION_RULES[slug];
-    var league = rule.leaguePath === 'travel' ? 'Travel' : 'Local';
-    var division = rule.division.replace(/^(?:Travel|Local)\s*•\s*/, '');
+  // Rows are precomputed by the pipeline (data.js next to this page); only the
+  // DUPR values are joined here from dupr-ratings.js, which the DUPR workflow
+  // refreshes without recompiling divisions. An 'NR' rating counts as missing.
+  function buildRows() {
+    var source = (window.DUPR_AUDIT && window.DUPR_AUDIT.rows) || [];
     var duprRatings = window.DUPR_RATINGS || {};
-    return (Array.isArray(data.players) ? data.players : []).map(function (player) {
-      var dupr = player.playerId ? duprRatings[player.playerId] : null;
+    return source.map(function (row) {
+      var dupr = row.playerId ? duprRatings[row.playerId] : null;
+      var numericRating = dupr && dupr.rating != null && dupr.rating !== 'NR' ? Number(dupr.rating) : null;
       return {
-        name: player.name,
-        playerId: player.playerId || null,
-        team: player.team || '',
-        league: league,
-        division: division,
-        slug: slug,
-        gender: normalizeGender(player.gender),
-        duprRating: dupr ? dupr.rating : null,
+        name: row.name,
+        playerId: row.playerId || null,
+        team: row.team || '',
+        league: row.league === 'travel' ? 'Travel' : 'Local',
+        leaguePath: row.league,
+        division: row.division,
+        slug: row.slug,
+        gender: normalizeGender(row.gender),
+        duprRating: numericRating,
         duprNumericId: dupr ? dupr.numericId : null,
-        duprProvisional: dupr ? (dupr.provisional ?? false) : false,
-        min: rule.min,
-        max: rule.max,
-        leaguePath: rule.leaguePath,
-        isSub: Boolean(player.isSub || player.outsideSub),
+        duprProvisional: dupr ? (dupr.provisional || false) : false,
+        min: row.min,
+        max: row.max == null ? Infinity : row.max,
+        isSub: !!row.isSub,
       };
     });
   }
@@ -391,7 +311,7 @@
     if (!table) return;
 
     if (!missing.length) {
-      table.innerHTML = '<tbody><tr><td class="empty">No missing DUPR ratings in travel data.</td></tr></tbody>';
+      table.innerHTML = '<tbody><tr><td class="empty">No rostered players are missing a DUPR rating.</td></tr></tbody>';
       return;
     }
 
@@ -431,9 +351,15 @@
     leagueSelect.innerHTML = '<option value="all">All leagues</option>' + leagues.map(function (league) {
       return '<option value="' + escapeHtml(league) + '">' + escapeHtml(league) + '</option>';
     }).join('');
-    var slugs = Object.keys(DIVISION_RULES);
+    var divisionLabelsBySlug = {};
+    outliers.concat(missing).forEach(function (row) {
+      divisionLabelsBySlug[row.slug] = row.league + ' • ' + row.division;
+    });
+    var slugs = Object.keys(divisionLabelsBySlug).sort(function (a, b) {
+      return divisionLabelsBySlug[a].localeCompare(divisionLabelsBySlug[b]);
+    });
     divisionSelect.innerHTML = '<option value="all">All divisions</option>' + slugs.map(function (slug) {
-      return '<option value="' + slug + '">' + escapeHtml(DIVISION_RULES[slug].division) + '</option>';
+      return '<option value="' + escapeHtml(slug) + '">' + escapeHtml(divisionLabelsBySlug[slug]) + '</option>';
     }).join('');
 
     var genders = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.gender; }))).sort();
@@ -491,41 +417,27 @@
     });
   }
 
-  function loadAllDatasets() {
-    window.CPL_DATASETS = window.CPL_DATASETS || {};
-    return Promise.all(Object.keys(DIVISION_RULES).map(function (slug) {
-      var file = resolveDivisionDataFile(slug, DIVISION_RULES[slug].leaguePath);
-      return loadScript(file)
-        .then(function () {
-          var parsed = window.CPL_DATASETS[slug];
-          if (!parsed) throw new Error('Could not load dataset for ' + file);
-          return buildRowsFromDataset(slug, parsed);
-        });
-    })).then(function (groups) {
-      return groups.flat();
+  // Deferred scripts (shared.js, dupr-ratings.js, data.js) execute before
+  // DOMContentLoaded, so everything this needs is present by then.
+  function main() {
+    escapeHtml = window.CPLShared.escapeHtml;
+    slugify = window.CPLShared.slugify;
+    var split = splitRows(buildRows());
+    outliers = split.outlierRows;
+    missing = split.missingRows;
+    outliers.sort(function (a, b) {
+      return (b.statusPriority - a.statusPriority) || (b.delta - a.delta) || a.name.localeCompare(b.name);
     });
+    populateFilters();
+    attachEvents();
+    renderAll();
   }
 
-  loadAllDatasets()
-    .then(function (rows) {
-      var split = splitRows(rows);
-      outliers = split.outlierRows;
-      missing = split.missingRows;
-      outliers.sort(function (a, b) {
-        return (b.statusPriority - a.statusPriority) || (b.delta - a.delta) || a.name.localeCompare(b.name);
-      });
-      populateFilters();
-      attachEvents();
-      renderAll();
-    })
-    .catch(function (error) {
-      ['above-table', 'below-table'].forEach(function (tableId) {
-        var table = document.getElementById(tableId);
-        if (table) {
-          table.innerHTML = '<tbody><tr><td class="empty">Failed to load audit data: ' + escapeHtml(error.message) + '</td></tr></tbody>';
-        }
-      });
-    });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', main);
+  } else {
+    main();
+  }
 }());
 </script>
 </body>

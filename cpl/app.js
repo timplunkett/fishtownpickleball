@@ -58,7 +58,7 @@ const RESULT_CLASS = Object.freeze({
   neutral: 'mut',
 });
 // Shared client utilities (cpl/shared.js loads before this file).
-const { escapeHtml, slugify, formatDuprRating } = window.CPLShared;
+const { escapeHtml, slugify, formatDuprRating, getPlayerIndex } = window.CPLShared;
 
 const elements = {
   body: getRequiredElement('body'),
@@ -1292,7 +1292,7 @@ function renderGameLogRows(player, projectedGames = []) {
 }
 
 function renderOtherLeaguesSummary(player) {
-  const index = window.PLAYER_INDEX;
+  const index = getPlayerIndex();
   if (!Array.isArray(index) || !index.length) return '';
 
   const currentSlug = DATA.meta.divisionSlug || '';
