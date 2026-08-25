@@ -6,7 +6,6 @@ export default [
     ignores: [
       'cpl/local/data.js', 'cpl/local/data-*.js', 'cpl/local/detail.js', 'cpl/local/detail-*.js',
       'cpl/travel/data.js', 'cpl/travel/data-*.js', 'cpl/travel/detail.js', 'cpl/travel/detail-*.js',
-      '_cpl/fixtures/**',
       'cpl/shared.js', // generated copy of _cpl/modules/shared.js
       'node_modules/**', '_site/**', 'vendor/**',
     ],

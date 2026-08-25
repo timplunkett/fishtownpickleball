@@ -1,8 +1,6 @@
 'use strict';
 
 (() => {
-  const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
-
   function appendScript(src, onload, onerror) {
     const script = document.createElement('script');
     script.src = src;
@@ -10,10 +8,6 @@
     script.onload = onload || null;
     script.onerror = onerror || null;
     document.body.appendChild(script);
-  }
-
-  function isLocalHost() {
-    return LOCAL_HOSTS.has(window.location.hostname);
   }
 
   function getQueryParam(name) {
@@ -26,12 +20,6 @@
 
   function loadDataWithFallback(src) {
     appendScript(src, loadApp, () => appendScript('data.js', loadApp));
-  }
-
-  function resolveDatasetFile(config) {
-    const requestedDataset = getQueryParam('dataset');
-    if (!requestedDataset || !isLocalHost()) return '';
-    return config.testDatasets[requestedDataset] || '';
   }
 
   function resolveDivisionDataFile(divisions, config) {
@@ -49,12 +37,6 @@
     if (!window.location.pathname.includes(config.dashboardPath)) return;
 
     window.DIVISIONS = divisions;
-
-    const datasetFile = resolveDatasetFile(config);
-    if (datasetFile) {
-      loadDataWithFallback(datasetFile);
-      return;
-    }
 
     const dataFile = resolveDivisionDataFile(divisions, config);
     if (!dataFile) return;

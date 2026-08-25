@@ -340,8 +340,8 @@ function pluralize(count, singular, plural = `${singular}s`) {
 
 // Per-player detail (match log, game log, rating history, partners) ships in a
 // separate detail-*.js the compiler writes next to the data file, and is only
-// loaded once a player modal opens. Older datasets (test fixtures) inline the
-// detail on each player and have no meta.detailFile — those resolve instantly.
+// loaded once a player modal opens. A data file without meta.detailFile (a
+// stale copy cached mid-deploy) resolves instantly to a summary-only modal.
 let playerDetailsPromise = null;
 
 function loadPlayerDetailsScript() {

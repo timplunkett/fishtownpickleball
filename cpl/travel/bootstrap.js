@@ -17,7 +17,6 @@
     dashboardPath: "/cpl/travel",
     defaultSlug: "b7ca04e4",
     divisionsGlobal: "TRAVEL_DIVISIONS",
-    testDatasets: Object.freeze({}),
   });
   if (typeof window.initCplBootstrap !== 'function') {
     throw new Error('bootstrap-runtime.js must load before bootstrap.js');

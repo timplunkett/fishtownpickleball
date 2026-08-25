@@ -24,7 +24,6 @@ test('generated bootstrap source is valid JS and calls the runtime', () => {
     dashboardPath: '/cpl/local',
     defaultSlug: 'ab12cd34',
     divisionsGlobal: 'LOCAL_DIVISIONS',
-    testDatasets: { week1: '../../_cpl/fixtures/data.test-week1.js' },
   });
   let received = null;
   const context = { window: { initCplBootstrap: (payload) => { received = payload; } } };
@@ -32,7 +31,6 @@ test('generated bootstrap source is valid JS and calls the runtime', () => {
   assert.equal(received.config.defaultSlug, 'ab12cd34');
   assert.equal(received.config.divisionsGlobal, 'LOCAL_DIVISIONS');
   assert.equal(received.divisions[0].slug, 'ab12cd34');
-  assert.equal(received.config.testDatasets.week1, '../../_cpl/fixtures/data.test-week1.js');
 });
 
 test('generated runtime source parses and exposes initCplBootstrap', () => {

@@ -19,10 +19,6 @@
     dashboardPath: "/cpl/local",
     defaultSlug: "3e9b6a58",
     divisionsGlobal: "LOCAL_DIVISIONS",
-    testDatasets: Object.freeze({
-      "week1": "../../_cpl/fixtures/data.test-week1.js",
-      "week6": "../../_cpl/fixtures/data.test-week6.js"
-    }),
   });
   if (typeof window.initCplBootstrap !== 'function') {
     throw new Error('bootstrap-runtime.js must load before bootstrap.js');

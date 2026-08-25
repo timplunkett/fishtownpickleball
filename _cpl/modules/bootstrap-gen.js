@@ -15,22 +15,11 @@ function buildBootstrapDivisionsLiteral(divisions) {
   }).join(',\n');
 }
 
-function buildBootstrapDatasetsLiteral(datasets) {
-  const entries = Object.entries(datasets).map(([datasetName, fileName]) => (
-    `    ${JSON.stringify(datasetName)}: ${JSON.stringify(fileName)}`
-  ));
-
-  return entries.length
-    ? `{\n${entries.map((entry) => `      ${entry.trimStart()}`).join(',\n')}\n    }`
-    : '{}';
-}
-
 function buildBootstrapSource({
   divisionsLiteral,
   dashboardPath,
   defaultSlug,
   divisionsGlobal,
-  testDatasets,
 }) {
   return `'use strict';
 
@@ -42,7 +31,6 @@ ${divisionsLiteral}
     dashboardPath: ${JSON.stringify(dashboardPath)},
     defaultSlug: ${JSON.stringify(defaultSlug)},
     divisionsGlobal: ${JSON.stringify(divisionsGlobal)},
-    testDatasets: Object.freeze(${buildBootstrapDatasetsLiteral(testDatasets)}),
   });
   if (typeof window.initCplBootstrap !== 'function') {
     throw new Error('bootstrap-runtime.js must load before bootstrap.js');
@@ -56,8 +44,6 @@ function buildBootstrapRuntimeSource() {
   return `'use strict';
 
 (() => {
-  const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
-
   function appendScript(src, onload, onerror) {
     const script = document.createElement('script');
     script.src = src;
@@ -65,10 +51,6 @@ function buildBootstrapRuntimeSource() {
     script.onload = onload || null;
     script.onerror = onerror || null;
     document.body.appendChild(script);
-  }
-
-  function isLocalHost() {
-    return LOCAL_HOSTS.has(window.location.hostname);
   }
 
   function getQueryParam(name) {
@@ -81,12 +63,6 @@ function buildBootstrapRuntimeSource() {
 
   function loadDataWithFallback(src) {
     appendScript(src, loadApp, () => appendScript('data.js', loadApp));
-  }
-
-  function resolveDatasetFile(config) {
-    const requestedDataset = getQueryParam('dataset');
-    if (!requestedDataset || !isLocalHost()) return '';
-    return config.testDatasets[requestedDataset] || '';
   }
 
   function resolveDivisionDataFile(divisions, config) {
@@ -105,12 +81,6 @@ function buildBootstrapRuntimeSource() {
 
     window.DIVISIONS = divisions;
 
-    const datasetFile = resolveDatasetFile(config);
-    if (datasetFile) {
-      loadDataWithFallback(datasetFile);
-      return;
-    }
-
     const dataFile = resolveDivisionDataFile(divisions, config);
     if (!dataFile) return;
     loadDataWithFallback(dataFile);
@@ -121,7 +91,6 @@ function buildBootstrapRuntimeSource() {
 
 module.exports = {
   buildBootstrapDivisionsLiteral,
-  buildBootstrapDatasetsLiteral,
   buildBootstrapSource,
   buildBootstrapRuntimeSource,
 };
