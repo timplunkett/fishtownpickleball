@@ -18,16 +18,32 @@
     appendScript('../app.js');
   }
 
-  function loadDataWithFallback(src) {
-    appendScript(src, loadApp, () => appendScript('data.js', loadApp));
+  // Every division's data lives at data-<slug>.js. If the requested one 404s
+  // (listed in bootstrap.js but not yet compiled) fall back to the landing
+  // division so the dashboard renders something rather than staying blank.
+  function loadDataWithFallback(src, fallbackSrc) {
+    const onError = fallbackSrc && fallbackSrc !== src
+      ? () => appendScript(fallbackSrc, loadApp)
+      : null;
+    appendScript(src, loadApp, onError);
   }
 
-  function resolveDivisionDataFile(divisions, config) {
+  function dataFileFor(slug) {
+    return slug ? `data-${slug}.js` : '';
+  }
+
+  // No ?d= (or an unknown one) lands on config.landingSlug. That slug is baked
+  // into bootstrap.js, which is cached separately from this file — so if a
+  // browser pairs a stale bootstrap.js with this runtime and landingSlug is
+  // missing, fall through to the first division rather than rendering nothing.
+  function landingSlug(divisions, config) {
+    return config.landingSlug || (divisions[0] ? divisions[0].slug : '');
+  }
+
+  function resolveDivisionSlug(divisions, config) {
     const requestedDivision = getQueryParam('d');
     const knownSlugs = new Set(divisions.map((division) => division.slug));
-    const slug = knownSlugs.has(requestedDivision) ? requestedDivision : config.defaultSlug;
-    if (!slug) return '';
-    return slug === config.defaultSlug ? 'data.js' : `data-${slug}.js`;
+    return knownSlugs.has(requestedDivision) ? requestedDivision : landingSlug(divisions, config);
   }
 
   window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
@@ -38,8 +54,8 @@
 
     window.DIVISIONS = divisions;
 
-    const dataFile = resolveDivisionDataFile(divisions, config);
+    const dataFile = dataFileFor(resolveDivisionSlug(divisions, config));
     if (!dataFile) return;
-    loadDataWithFallback(dataFile);
+    loadDataWithFallback(dataFile, dataFileFor(landingSlug(divisions, config)));
   };
 })();

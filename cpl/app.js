@@ -108,7 +108,8 @@ const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
   (Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name),
 ));
 
-// Build a name → rating lookup from DATA (data.js loads before app.js).
+// Build a name → rating lookup from DATA (the division's data-<slug>.js loads
+// before app.js).
 // Game logs reference players by display name, so expectation math stays
 // name-keyed; identity-sensitive lookups (routes, ranks, modals) use playerId.
 const DUPR_RATINGS = window.DUPR_RATINGS || {};

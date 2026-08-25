@@ -13643,7 +13643,7 @@
   "divisionSlug": "3e9b6a58",
   "hasPlayoffs": true,
   "typicalDay": "Wednesdays",
-  "detailFile": "detail.js",
+  "detailFile": "detail-3e9b6a58.js",
   "clubName": "Bounce - Philly",
   "divisionName": "3.5 - 4.0",
   "leagueType": "local",

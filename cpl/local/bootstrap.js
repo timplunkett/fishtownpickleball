@@ -17,7 +17,7 @@
   ]);
   const CONFIG = Object.freeze({
     dashboardPath: "/cpl/local",
-    defaultSlug: "3e9b6a58",
+    landingSlug: "3e9b6a58",
     divisionsGlobal: "LOCAL_DIVISIONS",
   });
   if (typeof window.initCplBootstrap !== 'function') {

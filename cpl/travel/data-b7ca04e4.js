@@ -14170,7 +14170,7 @@
   "divisionSlug": "b7ca04e4",
   "hasPlayoffs": false,
   "typicalDay": "Wednesdays",
-  "detailFile": "detail.js",
+  "detailFile": "detail-b7ca04e4.js",
   "clubName": "",
   "divisionName": "3.5",
   "leagueType": "travel",

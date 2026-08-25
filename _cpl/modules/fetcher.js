@@ -7,9 +7,7 @@ const { decodeHtmlEntities } = require('./shared');
 const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
 const TRAVEL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api';
 const TRAVEL_GENDER_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api';
-const LOCAL_DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
 const TRAVEL_REGION_ID = 'ffc383dc-fd43-4afa-9310-920c4b0545f2';
-const TRAVEL_DEFAULT_DIVISION_ID = 'b7ca04e4-a9b8-4c10-8054-e58329d8dc49';
 
 function slugForDivision(divisionId) {
   return divisionId.slice(0, 8);
@@ -261,7 +259,7 @@ function mergeDetailsWithCache(freshDetails, cachedPath) {
   }
 }
 
-async function downloadLatestApiData(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
+async function downloadLatestApiData(league = 'local', { divisionSlugs = null } = {}) {
   console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
 
   const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
@@ -295,12 +293,10 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
           slug: slugForDivision(div.divisionId),
           divisionId: div.divisionId,
           divisionName: decodeHtmlEntities(div.divisionName),
-          isDefault: div.divisionId === TRAVEL_DEFAULT_DIVISION_ID,
           regionName: region.regionName || region.name || '',
           apiBase: sourceApiBase,
         };
         if (existing) {
-          existing.isDefault = existing.isDefault || next.isDefault;
           if (!existing.regionName && next.regionName) existing.regionName = next.regionName;
         } else {
           divisionsById.set(div.divisionId, next);
@@ -324,7 +320,6 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
           slug: slugForDivision(div.divisionId),
           divisionId: div.divisionId,
           divisionName: decodeHtmlEntities(div.divisionName),
-          isDefault: div.divisionId === LOCAL_DEFAULT_DIVISION_ID,
           clubName: normalizeClubName(club.name),
           clubId: club.clubId,
         });
@@ -342,7 +337,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
-  const divisionsToFetch = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
+  const divisionsToFetch = filterDivisions(allDivisions, { divisionSlugs });
   console.log(`Preparing to fetch ${divisionsToFetch.length} / ${allDivisions.length} divisions.`);
   const allPlayersFlat = [];
   const seenPlayerIds = new Set();
@@ -454,7 +449,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   } else {
     console.log('\n✓ Phase 1 complete.');
   }
-  return { failedDivisions };
+  return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
 }
 
 module.exports = { downloadLatestApiData, slugForDivision };

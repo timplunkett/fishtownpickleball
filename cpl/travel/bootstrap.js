@@ -15,7 +15,7 @@
   ]);
   const CONFIG = Object.freeze({
     dashboardPath: "/cpl/travel",
-    defaultSlug: "b7ca04e4",
+    landingSlug: "b7ca04e4",
     divisionsGlobal: "TRAVEL_DIVISIONS",
   });
   if (typeof window.initCplBootstrap !== 'function') {

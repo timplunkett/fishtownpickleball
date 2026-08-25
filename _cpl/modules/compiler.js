@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
+const { filterDivisions, formatDivisionLabel, getLandingSlug, getLeagueDataConfig } = require('./division-utils');
 const {
   normalizeName: norm,
   getTravelDivisionSortKey,
@@ -323,7 +323,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     };
     writeDataScript(outPath, DATA);
     writeDetailScript(detailOutPath, slug, detailByPid);
-    console.log(`  ✓ data.js written to ${outPath} (pre-season roster only)`);
+    console.log(`  ✓ ${path.basename(outPath)} written (pre-season roster only)`);
     return;
   }
 
@@ -685,10 +685,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
   writeDataScript(outPath, DATA);
   writeDetailScript(detailOutPath, slug, detailByPid);
-  console.log(`  ✓ data.js written to ${outPath} (+ ${path.basename(detailOutPath)})`);
+  console.log(`  ✓ ${path.basename(outPath)} written (+ ${path.basename(detailOutPath)})`);
 }
 
-async function compileDashboardHtml(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
+async function compileDashboardHtml(league = 'local', { divisionSlugs = null } = {}) {
   console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
   const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
   const dataDir = path.join(__dirname, '..', dataSubdir);
@@ -721,13 +721,12 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     }
     return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
   });
-  const defaultDiv = allDivisions.find((d) => d.isDefault) || allDivisions[0];
-  const defaultSlug = defaultDiv ? defaultDiv.slug : '';
+  const landingSlug = getLandingSlug(league, sortedDivisions);
   const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions);
   const divisionsGlobal = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
   const bootstrapSrc = buildBootstrapSource({
     dashboardPath: `/cpl/${league}`,
-    defaultSlug,
+    landingSlug,
     divisionsLiteral,
     divisionsGlobal,
   });
@@ -737,10 +736,11 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   // The shared utils are UMD: the same file serves the pipeline via require()
   // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
   fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(__dirname, '../../cpl/shared.js'));
-  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, default: ${defaultSlug}, window.${divisionsGlobal} exposed).`);
+  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, landing: ${landingSlug}, window.${divisionsGlobal} exposed).`);
 
-  const divisionsToCompile = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
+  const divisionsToCompile = filterDivisions(allDivisions, { divisionSlugs });
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
+  const matchedSlugs = divisionsToCompile.map((div) => div.slug);
 
   const failedDivisions = [];
   for (const div of divisionsToCompile) {
@@ -752,8 +752,8 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     }
     console.log(`\nCompiling: ${label}${div.divisionName} (${div.slug})`);
     try {
-      const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
-      const detailFile = div.isDefault ? 'detail.js' : `detail-${div.slug}.js`;
+      const outFile = `data-${div.slug}.js`;
+      const detailFile = `detail-${div.slug}.js`;
       // Mens/Womens divisions come from the /gender API leg: single-gender
       // rosters, no mixed play. The dashboard drops the mixed splits and the
       // gender filter when this is set.
@@ -783,7 +783,7 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   } else {
     console.log('\n✓ Phase 2 complete.');
   }
-  return { failedDivisions };
+  return { failedDivisions, matchedSlugs };
 }
 
 // Pack the player index with a string table: names, teams, divisions and even

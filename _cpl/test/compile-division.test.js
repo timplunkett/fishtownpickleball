@@ -84,8 +84,8 @@ function compileToObjects(t) {
   t.after(() => fs.rmSync(tmp, { recursive: true, force: true }));
   const dataDir = path.join(tmp, 'division');
   writeDivision(dataDir);
-  const outPath = path.join(tmp, 'data.js');
-  const detailPath = path.join(tmp, 'detail.js');
+  const outPath = path.join(tmp, 'data-testslug.js');
+  const detailPath = path.join(tmp, 'detail-testslug.js');
   compileDivision('testslug', dataDir, outPath, detailPath, {
     clubName: 'Test Club', divisionName: '3.5 - 4.0', leagueType: 'local',
   });
@@ -170,5 +170,5 @@ test('detail entries exist for players with history and are omitted otherwise', 
     assert.equal(player.log, undefined);
     assert.equal(player.games, undefined);
   }
-  assert.equal(data.meta.detailFile, 'detail.js');
+  assert.equal(data.meta.detailFile, 'detail-testslug.js');
 });

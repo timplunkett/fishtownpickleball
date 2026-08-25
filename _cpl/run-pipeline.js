@@ -7,11 +7,11 @@ const {
   DEFAULT_TIMEZONE,
   selectDueDivisionSlugs,
 } = require('./modules/refresh-selector');
+const { unmatchedDivisionSlugs } = require('./modules/division-utils');
 
 function parseArgs(argv) {
   const out = {
     league: null,
-    primaryOnly: false,
     refreshMode: 'full',
     timezone: DEFAULT_TIMEZONE,
     resultsWindowHours: DEFAULT_RESULTS_WINDOW_HOURS,
@@ -22,8 +22,6 @@ function parseArgs(argv) {
   for (const arg of argv) {
     if (arg === 'local' || arg === 'travel') {
       out.league = arg;
-    } else if (arg === '--primary-only') {
-      out.primaryOnly = true;
     } else if (arg === '--refresh-mode') {
       out.refreshMode = 'due';
     } else if (arg.startsWith('--timezone=')) {
@@ -35,8 +33,8 @@ function parseArgs(argv) {
       const value = Number(arg.split('=')[1]);
       if (Number.isFinite(value) && value > 0) out.matchDurationHours = value;
     } else if (arg.startsWith('--division=')) {
-      const slug = arg.split('=')[1];
-      if (slug) out.divisionSlugs = [slug];
+      const slug = arg.slice('--division='.length);
+      if (slug) out.divisionSlugs = [...(out.divisionSlugs || []), slug];
     }
   }
 
@@ -49,7 +47,7 @@ async function runPipeline(league, options) {
   let divisionSlugs = null;
   if (options.divisionSlugs) {
     divisionSlugs = options.divisionSlugs;
-    console.log(`\n${league.toUpperCase()} refresh mode: single division (${divisionSlugs.join(', ')}).`);
+    console.log(`\n${league.toUpperCase()} refresh mode: explicit divisions (${divisionSlugs.join(', ')}).`);
   } else if (options.refreshMode === 'due') {
     divisionSlugs = selectDueDivisionSlugs(league, options);
   } else {
@@ -57,16 +55,10 @@ async function runPipeline(league, options) {
   }
 
   // 1. Fetch from Azure APIs and cache raw JSON files to _data/
-  const fetchResult = await downloadLatestApiData(league, {
-    primaryOnly: options.primaryOnly,
-    divisionSlugs,
-  });
+  const fetchResult = await downloadLatestApiData(league, { divisionSlugs });
 
-  // 2. Load the cached files, compute stats, and write cpl/<league>/data.js
-  const compileResult = await compileDashboardHtml(league, {
-    primaryOnly: options.primaryOnly,
-    divisionSlugs,
-  });
+  // 2. Load the cached files, compute stats, and write cpl/<league>/data-<slug>.js
+  const compileResult = await compileDashboardHtml(league, { divisionSlugs });
 
   const failedDivisions = [
     ...(fetchResult?.failedDivisions || []),
@@ -77,17 +69,26 @@ async function runPipeline(league, options) {
   } else {
     console.log(`\n🚀 CPL Pipeline (${league}) completed successfully!`);
   }
-  return failedDivisions;
+  return {
+    failedDivisions,
+    matchedSlugs: [
+      ...(fetchResult?.matchedSlugs || []),
+      ...(compileResult?.matchedSlugs || []),
+    ],
+  };
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const leagues = options.league ? [options.league] : ['local', 'travel'];
   const failedDivisions = [];
+  const matchedSlugs = [];
 
   for (const league of leagues) {
     try {
-      failedDivisions.push(...await runPipeline(league, options));
+      const result = await runPipeline(league, options);
+      failedDivisions.push(...result.failedDivisions);
+      matchedSlugs.push(...result.matchedSlugs);
     } catch (err) {
       console.error(`\n❌ Pipeline execution failed (${league}):`, err.message);
       failedDivisions.push({ league, slug: '(pipeline)', name: `${league} pipeline`, error: err.message });
@@ -95,6 +96,14 @@ async function main() {
   }
 
   buildPlayerIndex();
+
+  // A typo'd --division slug would otherwise fetch and compile nothing while
+  // still exiting 0, which reads as "the data is up to date".
+  const unmatched = unmatchedDivisionSlugs(options.divisionSlugs, matchedSlugs);
+  if (unmatched.length) {
+    console.error(`\n❌ --division slug(s) not found in the ${leagues.join('/')} manifest: ${unmatched.join(', ')}`);
+    process.exitCode = 1;
+  }
 
   // Fail loudly: everything above still ran (partial data is preserved and
   // compiled), but the run must go red so a broken division can't rot
