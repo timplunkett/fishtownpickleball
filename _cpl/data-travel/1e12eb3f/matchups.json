@@ -41,9 +41,9 @@
       "weekNumber": 1,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 504,
+      "awayPoints": 664,
+      "endResult": "away",
       "scheduledTime": "2026-08-22T13:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Pickleball Palace Black"
@@ -65,9 +65,9 @@
       "weekNumber": 1,
       "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 590,
+      "awayPoints": 587,
+      "endResult": "home",
       "scheduledTime": "2026-08-22T13:00:00",
       "homeName": "Premiere Dinkers",
       "awayName": "Monroe"
@@ -193,6 +193,18 @@
       "awayName": "PickleRage Union County"
     },
     {
+      "matchupId": "7bd4a1a7-40b6-4b0e-b6da-4c8d1fa895a3",
+      "weekNumber": 2,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-29T14:00:00",
+      "homeName": "Monroe",
+      "awayName": "PKLD"
+    },
+    {
       "matchupId": "2880b02a-d1f9-4877-8a7b-65944aa8eb56",
       "weekNumber": 2,
       "homeTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
@@ -239,18 +251,6 @@
       "scheduledTime": "2026-08-29T14:30:00",
       "homeName": "Life Time Red Bank",
       "awayName": "Colts Neck Racquet Club"
-    },
-    {
-      "matchupId": "7bd4a1a7-40b6-4b0e-b6da-4c8d1fa895a3",
-      "weekNumber": 2,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-29T15:00:00",
-      "homeName": "Monroe",
-      "awayName": "PKLD"
     },
     {
       "matchupId": "d2f01bba-9440-4c6e-a17f-8f5f7f578ab1",

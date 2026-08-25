@@ -5,9 +5,9 @@
       "weekNumber": 1,
       "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 483,
+      "awayPoints": 426,
+      "endResult": "home",
       "scheduledTime": "2026-08-22T12:00:00",
       "homeName": "Flemington Blue",
       "awayName": "Allstar Pickler"
