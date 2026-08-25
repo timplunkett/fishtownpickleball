@@ -183,60 +183,82 @@ async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
   throw lastErr;
 }
 
-async function fetchDivisionData(apiBase, divisionId) {
+async function fetchJsonWithRetry(url) {
+  const res = await fetchWithRetry(url);
+  await checkResponse(res, url);
+  return res.json();
+}
+
+// Run `fn` over `items` with at most `limit` requests in flight, preserving
+// order. Keeps the burst against the API proxy bounded — a big division has
+// 40+ matchup-detail endpoints and firing them all at once invites 429s/5xx.
+const DETAIL_FETCH_CONCURRENCY = 6;
+async function mapWithConcurrency(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (next < items.length) {
+      const index = next++;
+      results[index] = await fn(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+// Fetch per-matchup details for a list of matchups. Failed fetches yield
+// { details: null } and are reported in `failures` so callers can decide
+// whether to fall back to previously cached data.
+async function fetchMatchupDetails(divBase, matchupsArray, label, failures) {
+  if (!Array.isArray(matchupsArray) || !matchupsArray.length) return [];
+  return mapWithConcurrency(matchupsArray, DETAIL_FETCH_CONCURRENCY, async (matchup) => {
+    const url = `${divBase}/matchups/${matchup.matchupId}`;
+    try {
+      const detailRes = await fetchWithRetry(url);
+      const detailData = await detailRes.json();
+      return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
+    } catch (err) {
+      console.error(`⚠️ Failed fetching ${label} ${matchup.matchupId} after retries:`, err.message);
+      failures.push(`${label} ${matchup.matchupId}: ${err.message}`);
+      return { matchupId: matchup.matchupId, details: null };
+    }
+  });
+}
+
+async function fetchDivisionData(apiBase, divisionId, detailFailures) {
   const divBase = `${apiBase}/divisions/${divisionId}`;
-  const [matchupsRes, playersRes, playoffMatchupsRes, teamsRes] = await Promise.all([
-    fetch(`${divBase}/matchups`),
-    fetch(`${divBase}/players`),
-    fetch(`${divBase}/matchups?playoffs=true`),
-    fetch(`${divBase}/teams`),
+  const [matchupsRaw, players, playoffMatchupsRaw, teamsRaw] = await Promise.all([
+    fetchJsonWithRetry(`${divBase}/matchups`),
+    fetchJsonWithRetry(`${divBase}/players`),
+    fetchJsonWithRetry(`${divBase}/matchups?playoffs=true`),
+    fetchJsonWithRetry(`${divBase}/teams`),
   ]);
-  await checkResponse(matchupsRes, `${divBase}/matchups`);
-  await checkResponse(playersRes, `${divBase}/players`);
-  await checkResponse(playoffMatchupsRes, `${divBase}/matchups?playoffs=true`);
-  await checkResponse(teamsRes, `${divBase}/teams`);
-  const matchupsRaw = await matchupsRes.json();
-  const players = await playersRes.json();
-  const playoffMatchupsRaw = await playoffMatchupsRes.json();
-  const teamsRaw = await teamsRes.json();
 
   const matchupsArray = extractValues(matchupsRaw);
   if (!Array.isArray(matchupsArray)) {
     throw new Error(`Matchups data invalid for division ${divisionId}.`);
   }
 
-  const individualDetails = await Promise.all(
-    matchupsArray.map(async (matchup) => {
-      const url = `${divBase}/matchups/${matchup.matchupId}`;
-      try {
-        const detailRes = await fetchWithRetry(url);
-        const detailData = await detailRes.json();
-        return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
-      } catch (err) {
-        console.error(`⚠️ Failed fetching matchup ${matchup.matchupId} after retries:`, err.message);
-        return { matchupId: matchup.matchupId, details: null };
-      }
-    })
-  );
-
+  const individualDetails = await fetchMatchupDetails(divBase, matchupsArray, 'matchup', detailFailures);
   const playoffMatchupsArray = extractValues(playoffMatchupsRaw);
-  const playoffIndividualDetails = Array.isArray(playoffMatchupsArray) && playoffMatchupsArray.length
-    ? await Promise.all(
-        playoffMatchupsArray.map(async (matchup) => {
-          const url = `${divBase}/matchups/${matchup.matchupId}`;
-          try {
-            const detailRes = await fetchWithRetry(url);
-            const detailData = await detailRes.json();
-            return { matchupId: matchup.matchupId, details: normalizeVolatileLineupIds(detailData) };
-          } catch (err) {
-            console.error(`⚠️ Failed fetching playoff matchup ${matchup.matchupId} after retries:`, err.message);
-            return { matchupId: matchup.matchupId, details: null };
-          }
-        })
-      )
-    : [];
+  const playoffIndividualDetails = await fetchMatchupDetails(divBase, playoffMatchupsArray, 'playoff matchup', detailFailures);
 
   return { matchupsRaw, players, teamsRaw, matchupDetails: individualDetails, playoffMatchupsRaw, playoffMatchupDetails: playoffIndividualDetails };
+}
+
+// A failed detail fetch must not clobber previously cached data with nulls:
+// keep the old cached entry for any matchup whose fresh fetch failed.
+function mergeDetailsWithCache(freshDetails, cachedPath) {
+  const failedIds = freshDetails.filter(d => !d.details).map(d => d.matchupId);
+  if (!failedIds.length || !fs.existsSync(cachedPath)) return freshDetails;
+  try {
+    const cachedById = new Map(
+      JSON.parse(fs.readFileSync(cachedPath, 'utf8')).map(d => [d.matchupId, d]),
+    );
+    return freshDetails.map(d => (!d.details && cachedById.get(d.matchupId)?.details ? cachedById.get(d.matchupId) : d));
+  } catch {
+    return freshDetails;
+  }
 }
 
 async function downloadLatestApiData(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
@@ -324,12 +346,14 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
   console.log(`Preparing to fetch ${divisionsToFetch.length} / ${allDivisions.length} divisions.`);
   const allPlayersFlat = [];
   const seenPlayerIds = new Set();
+  const failedDivisions = [];
   for (const div of divisionsToFetch) {
     const label = formatDivisionLabel(div);
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
       const divisionApiBase = div.apiBase || apiBase;
-      const { matchupsRaw, players, teamsRaw, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(divisionApiBase, div.divisionId);
+      const detailFailures = [];
+      const { matchupsRaw, players, teamsRaw, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(divisionApiBase, div.divisionId, detailFailures);
 
       const matchupsArray = extractValues(matchupsRaw);
       console.log(`  Found ${matchupsArray.length} matchups.`);
@@ -351,8 +375,19 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
 
       const slimmed = slimPlayers(players);
       fs.writeFileSync(path.join(divDataDir, 'players.json'), jsonStringify(slimmed));
-      fs.writeFileSync(path.join(divDataDir, 'matchupDetails.json'), jsonStringify(slimMatchupDetails(matchupDetails)));
-      fs.writeFileSync(path.join(divDataDir, 'playoffMatchupDetails.json'), jsonStringify(slimMatchupDetails(playoffMatchupDetails)));
+      const detailsPath = path.join(divDataDir, 'matchupDetails.json');
+      const playoffDetailsPath = path.join(divDataDir, 'playoffMatchupDetails.json');
+      fs.writeFileSync(detailsPath, jsonStringify(mergeDetailsWithCache(slimMatchupDetails(matchupDetails), detailsPath)));
+      fs.writeFileSync(playoffDetailsPath, jsonStringify(mergeDetailsWithCache(slimMatchupDetails(playoffMatchupDetails), playoffDetailsPath)));
+
+      if (detailFailures.length) {
+        failedDivisions.push({
+          league,
+          slug: div.slug,
+          name: `${label}${div.divisionName}`,
+          error: `${detailFailures.length} matchup detail fetch(es) failed (cached details kept where available): ${detailFailures.slice(0, 3).join('; ')}${detailFailures.length > 3 ? '; …' : ''}`,
+        });
+      }
 
       // Accumulate unique players for the flat players.json (used by the DUPR workflow).
       for (const p of (players.$values || [])) {
@@ -365,6 +400,12 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
       console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
+      failedDivisions.push({
+        league,
+        slug: div.slug,
+        name: `${label}${div.divisionName}`,
+        error: err.message,
+      });
     }
   }
 
@@ -403,7 +444,12 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
     console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
-  console.log('\n✓ Phase 1 complete.');
+  if (failedDivisions.length) {
+    console.error(`\n⚠️ Phase 1 finished with ${failedDivisions.length} failed division(s).`);
+  } else {
+    console.log('\n✓ Phase 1 complete.');
+  }
+  return { failedDivisions };
 }
 
 module.exports = { downloadLatestApiData, slugForDivision };

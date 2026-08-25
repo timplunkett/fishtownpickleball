@@ -680,6 +680,7 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   const divisionsToCompile = filterDivisions(allDivisions, { primaryOnly, divisionSlugs });
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
 
+  const failedDivisions = [];
   for (const div of divisionsToCompile) {
     const label = formatDivisionLabel(div);
     const divDataDir = path.join(dataDir, div.slug);
@@ -698,10 +699,21 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
       });
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
+      failedDivisions.push({
+        league,
+        slug: div.slug,
+        name: `${label}${div.divisionName}`,
+        error: err.message,
+      });
     }
   }
 
-  console.log('\n✓ Phase 2 complete.');
+  if (failedDivisions.length) {
+    console.error(`\n⚠️ Phase 2 finished with ${failedDivisions.length} failed division(s).`);
+  } else {
+    console.log('\n✓ Phase 2 complete.');
+  }
+  return { failedDivisions };
 }
 
 function buildPlayerIndex() {
