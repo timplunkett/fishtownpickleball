@@ -1966,10 +1966,12 @@ function renderTeamPage(team, { scroll = true } = {}) {
       <div class="fmt-cards">${formatCard('Mixed', team.fmt.mixed)}${formatCard("Men's", team.fmt.male)}${formatCard("Women's", team.fmt.female)}</div>
     </div>
     <div class="team-section">
-      <h3>Roster <span class="tag">${roster.length} players • click a name for detail</span></h3>
-      <div class="panel scroll"><table id="roster-table"><thead><tr>
+      <h3>Roster <span class="tag">${roster.length ? `${roster.length} players • click a name for detail` : 'not published'}</span></h3>
+      ${roster.length
+        ? `<div class="panel scroll"><table id="roster-table"><thead><tr>
         ${rosterHeaderCells}
-      </tr></thead><tbody>${rosterRows}</tbody></table></div>
+      </tr></thead><tbody>${rosterRows}</tbody></table></div>`
+        : '<div class="mut" style="font-size:13px">The league has not published a roster for this team.</div>'}
     </div>
     <div class="team-section">
       <h3>Best duos <span class="tag">chemistry on this roster (3+ games)</span></h3>

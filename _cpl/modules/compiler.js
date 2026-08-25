@@ -67,11 +67,15 @@ function splitPlayerDetails(playerArr) {
   const detailByPid = {};
   for (const player of playerArr) {
     const detail = {};
+    let hasContent = false;
     for (const key of PLAYER_DETAIL_KEYS) {
       detail[key] = player[key] || [];
+      if (detail[key].length) hasContent = true;
       delete player[key];
     }
-    if (player.playerId) detailByPid[player.playerId] = detail;
+    // Rostered players who haven't played yet have nothing to record; the
+    // dashboard treats a missing entry as empty.
+    if (player.playerId && hasContent) detailByPid[player.playerId] = detail;
   }
   return detailByPid;
 }
@@ -235,30 +239,57 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     return teams.get(name);
   };
 
+  // Player ID -> primary (non-sub) team from the roster, so intra-league subs
+  // are attributed to their home team in player records. Only players whose
+  // team has actual matchups: players on placeholder teams (e.g. "Open Play")
+  // are not rostered league members. This is the single source of truth for a
+  // player's team, including for players rostered on more than one.
+  const homeTeamByPid = {};
+  const captainTeamByPid = {};
+  // Player ID -> static profile info (firstName, lastName, gender) so
+  // matchupPlayerStats entries don't need to repeat those fields.
+  const playerInfoById = {};
+  for (const p of rosterPlayers) {
+    if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
+    if (!p.isSub && p.isCaptain && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) captainTeamByPid[p.playerId] = p.teamName;
+    if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
+  }
+
+  // A rostered player who hasn't logged a game yet: real identity, zeroed
+  // stats, no rating. Used pre-season and for teams whose first match hasn't
+  // been played while the rest of the division is under way.
+  const blankRosterPlayer = (p) => ({
+    name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
+    team: homeTeamByPid[p.playerId], matches: 0, outsideSub: false, isCaptain: !!p.isCaptain,
+    gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
+    mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
+    clutchWins: 0, clutchLosses: 0, log: [], games: [],
+    winPct: 0, diff: 0, ppg: 0,
+    leagueRank: p.ranking ?? null,
+    rating: null, ratingGames: 0, confidence: 0,
+    strengthOfPartners: null, strengthOfOpponents: null,
+    ratingHistory: [], partners: [],
+    playerId: p.playerId,
+  });
+
+  // Seed every rostered (non-sub) player on a team that actually has matchups.
+  // Players who go on to appear in matchupPlayerStats get their real stats
+  // merged over this; the rest stay 0-0 so their team page still has a roster.
+  // Skips duplicate roster rows for players listed on more than one team, so
+  // the team recorded here always matches homeTeamByPid.
+  const seedRosterPlayers = () => {
+    for (const p of rosterPlayers) {
+      if (!p.playerId || p.isSub) continue;
+      if (homeTeamByPid[p.playerId] !== p.teamName) continue;
+      ensureTeam(p.teamName);
+      if (!players.has(p.playerId)) players.set(p.playerId, blankRosterPlayer(p));
+    }
+  };
+
   // When the season hasn't started yet, seed teams and players directly from
   // the roster so the dashboard still shows something useful pre-season.
   if (!completed.length) {
-    for (const p of rosterPlayers) {
-      if (!p.teamName || p.isSub || !teamNamesWithMatchups.has(p.teamName)) continue;
-      ensureTeam(p.teamName);
-      const pid = p.playerId;
-      if (!players.has(pid)) {
-        players.set(pid, {
-          name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
-          team: p.teamName, matches: 0, outsideSub: false, isCaptain: !!p.isCaptain,
-          gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
-          mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
-          clutchWins: 0, clutchLosses: 0, log: [], games: [],
-          winPct: 0, diff: 0, ppg: 0,
-          leagueRank: p.ranking ?? null,
-          rating: null, ratingGames: 0, confidence: 0,
-          strengthOfPartners: null, strengthOfOpponents: null,
-          ratingHistory: [], partners: [],
-          dupr: p.dupr,
-          playerId: pid,
-        });
-      }
-    }
+    seedRosterPlayers();
     const teamArr = [...teams.values()].sort((a, b) => a.name.localeCompare(b.name));
     for (const t of teamArr) { t.diff = 0; t.gameDiff = 0; t.fmt = { mixed: [0, 0], male: [0, 0], female: [0, 0] }; t.power = null; }
     const playerArr = [...players.values()].sort((a, b) => a.name.localeCompare(b.name));
@@ -291,27 +322,14 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     return;
   }
 
-  // Build a map of player ID -> primary (non-sub) team from the player roster so
-  // that intra-league subs are attributed to their home team in player records.
-  // Only map players whose team has actual matchups; players on placeholder teams
-  // (e.g. "Open Play") should not be treated as rostered league members.
-  const homeTeamByPid = {};
-  const captainTeamByPid = {};
-  // Build a map of player ID -> static profile info (firstName, lastName, gender)
-  // so matchupPlayerStats entries don't need to repeat those fields.
-  const playerInfoById = {};
-  for (const p of rosterPlayers) {
-    if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
-    if (!p.isSub && p.isCaptain && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) captainTeamByPid[p.playerId] = p.teamName;
-    if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
-  }
-
   // Seed teams from all matchups (completed + scheduled) so teams that haven't
-  // played yet still appear in the standings with a 0-0 record.
+  // played yet still appear in the standings with a 0-0 record, and seed their
+  // rosters too — otherwise those teams' pages would show no players at all.
   for (const mu of matchups) {
     if (mu.homeName) ensureTeam(mu.homeName);
     if (mu.awayName) ensureTeam(mu.awayName);
   }
+  seedRosterPlayers();
 
   for (const mu of completed) {
     const d = detailById.get(mu.matchupId) || null;
@@ -888,4 +906,10 @@ function buildPlayerIndex() {
   console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
 }
 
-module.exports = { compileDashboardHtml, buildPlayerIndex, selectCanonicalRosterPlayers, writeDataScript };
+module.exports = {
+  compileDashboardHtml,
+  buildPlayerIndex,
+  compileDivision,
+  selectCanonicalRosterPlayers,
+  writeDataScript,
+};

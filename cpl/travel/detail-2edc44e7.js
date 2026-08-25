@@ -3313,147 +3313,6 @@
   ],
   "partners": []
  },
- "1f3700d5-63e4-495e-92c1-1248224ed61d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern Boom",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 118,
-    "pa": 106,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "mixed",
-    "with": "Katrina Mcintyre",
-    "vs": [
-     "Lindsay Duphily",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "mixed",
-    "with": "Katrina Mcintyre",
-    "vs": [
-     "Cindy Hu",
-     "Hal Golden"
-    ],
-    "f": 29,
-    "a": 27,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "Richard Demeuse",
-    "vs": [
-     "Jiang Jin",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "mixed",
-    "with": "Denise Richmond",
-    "vs": [
-     "Christine Dugan",
-     "Hal Golden"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "mixed",
-    "with": "Denise Richmond",
-    "vs": [
-     "Sandra Thompson",
-     "Sandro Stefanelli"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "Richard Demeuse",
-    "vs": [
-     "Hal Golden",
-     "Brett Kleger"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 49,
-    "rank": 38,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": []
- },
  "aaddf7e8-7ad2-4472-a8bd-89e6d5abc78c": {
   "log": [
    {
@@ -3591,6 +3450,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "1f3700d5-63e4-495e-92c1-1248224ed61d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 106,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Katrina Mcintyre",
+    "vs": [
+     "Lindsay Duphily",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Katrina Mcintyre",
+    "vs": [
+     "Cindy Hu",
+     "Hal Golden"
+    ],
+    "f": 29,
+    "a": 27,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Jiang Jin",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Christine Dugan",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Hal Golden",
+     "Brett Kleger"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 49,
+    "rank": 38,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []

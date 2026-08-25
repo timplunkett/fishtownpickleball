@@ -282,6 +282,147 @@
   ],
   "partners": []
  },
+ "12f33b3a-b4ea-4b31-affa-dc7917dce94b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 80,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Terri Pflueger",
+    "vs": [
+     "Michelle Cobos",
+     "David Burke"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Mike Hardy",
+    "vs": [
+     "Alex Glushek",
+     "David Burke"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Mike Hardy",
+    "vs": [
+     "David Burke",
+     "Barry Lerner"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Abby Viola",
+    "vs": [
+     "Jade Chin",
+     "Alex Lopez"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Terri Pflueger",
+    "vs": [
+     "Michelle Cobos",
+     "David Burke"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "David Burke",
+     "Barry Lerner"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.7,
+    "confidence": 42,
+    "rank": 7,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
  "e8434ae3-5d11-4d76-9e67-82f56d4f3db8": {
   "log": [
    {
@@ -434,147 +575,6 @@
     "rank": 38,
     "ratingGames": 7,
     "strengthOfPartners": 2,
-    "strengthOfOpponents": -1.2
-   }
-  ],
-  "partners": []
- },
- "12f33b3a-b4ea-4b31-affa-dc7917dce94b": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 80,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Terri Pflueger",
-    "vs": [
-     "Michelle Cobos",
-     "David Burke"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Mike Hardy",
-    "vs": [
-     "Alex Glushek",
-     "David Burke"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Mike Hardy",
-    "vs": [
-     "David Burke",
-     "Barry Lerner"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Abby Viola",
-    "vs": [
-     "Jade Chin",
-     "Alex Lopez"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Terri Pflueger",
-    "vs": [
-     "Michelle Cobos",
-     "David Burke"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Cory Mintz",
-    "vs": [
-     "David Burke",
-     "Barry Lerner"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.7,
-    "confidence": 42,
-    "rank": 7,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.2
    }
   ],
@@ -3432,147 +3432,6 @@
   ],
   "partners": []
  },
- "d060c2f3-016e-4260-97fc-d0cbea4415f5": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball HQ",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 121,
-    "pa": 94,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Kimberley Levins",
-    "vs": [
-     "Jillian Sorrentino",
-     "Jonathan Wong"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Zyanya Flores",
-    "vs": [
-     "Jaymie Vincelli",
-     "Jonathan Wong"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "James Cooper",
-    "vs": [
-     "David Abiog",
-     "Aseem Sharma"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Kimberley Levins",
-    "vs": [
-     "Jillian Sorrentino",
-     "Matthew Rafaniello"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "James Cooper",
-    "vs": [
-     "Aseem Sharma",
-     "Jonathan Wong"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Zyanya Flores",
-    "vs": [
-     "Diana Tabia",
-     "Jonathan Wong"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.8,
-    "confidence": 43,
-    "rank": 23,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
  "4032408a-b5eb-41c5-a865-fca764d688a5": {
   "log": [
    {
@@ -3710,6 +3569,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "d060c2f3-016e-4260-97fc-d0cbea4415f5": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball HQ",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 94,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Jillian Sorrentino",
+     "Jonathan Wong"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Zyanya Flores",
+    "vs": [
+     "Jaymie Vincelli",
+     "Jonathan Wong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "James Cooper",
+    "vs": [
+     "David Abiog",
+     "Aseem Sharma"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Jillian Sorrentino",
+     "Matthew Rafaniello"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "James Cooper",
+    "vs": [
+     "Aseem Sharma",
+     "Jonathan Wong"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Zyanya Flores",
+    "vs": [
+     "Diana Tabia",
+     "Jonathan Wong"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.8,
+    "confidence": 43,
+    "rank": 23,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -8710,131 +8710,6 @@
   ],
   "partners": []
  },
- "4e873e4f-16c8-4504-a702-941e045a7d3b": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "A",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 93,
-    "pa": 85,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Cassie Lou",
-    "vs": [
-     "Rosellen Perlowitz",
-     "Robert Paniti"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Jayson Lee",
-    "vs": [
-     "Marvin Lao",
-     "Andy Pineda"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Connie Tom",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Andy Pineda"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Cesar Alvarez",
-    "vs": [
-     "Robert Paniti",
-     "Andy Pineda"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Holly Siu",
-    "vs": [
-     "Alyssa Beattie",
-     "David Schwartz"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.5,
-    "confidence": 44,
-    "rank": 68,
-    "ratingGames": 5,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
  "371bb742-9ea6-464a-8c27-df8469b90a62": {
   "log": [
    {
@@ -8955,6 +8830,131 @@
     "rank": 64,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "4e873e4f-16c8-4504-a702-941e045a7d3b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 93,
+    "pa": 85,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Cassie Lou",
+    "vs": [
+     "Rosellen Perlowitz",
+     "Robert Paniti"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Jayson Lee",
+    "vs": [
+     "Marvin Lao",
+     "Andy Pineda"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Connie Tom",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Andy Pineda"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Cesar Alvarez",
+    "vs": [
+     "Robert Paniti",
+     "Andy Pineda"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Holly Siu",
+    "vs": [
+     "Alyssa Beattie",
+     "David Schwartz"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 44,
+    "rank": 68,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -11059,83 +11059,6 @@
   ],
   "partners": []
  },
- "7aaf5ebf-3b96-4c58-9c7d-ae33fb1b9d7c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball HQ",
-    "homeAway": "A",
-    "w": 1,
-    "l": 1,
-    "gp": 2,
-    "pf": 40,
-    "pa": 35,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Chris Alworth",
-    "vs": [
-     "Matthew Rafaniello",
-     "Darren Zheng"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Chris Alworth",
-    "vs": [
-     "David Abiog",
-     "Darren Zheng"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.1,
-    "confidence": 24,
-    "rank": 99,
-    "ratingGames": 2,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -1
-   }
-  ],
-  "partners": []
- },
  "a7416218-74a3-40c5-9327-97840c949fc4": {
   "log": [
    {
@@ -11273,6 +11196,83 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "7aaf5ebf-3b96-4c58-9c7d-ae33fb1b9d7c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball HQ",
+    "homeAway": "A",
+    "w": 1,
+    "l": 1,
+    "gp": 2,
+    "pf": 40,
+    "pa": 35,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Chris Alworth",
+    "vs": [
+     "Matthew Rafaniello",
+     "Darren Zheng"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Chris Alworth",
+    "vs": [
+     "David Abiog",
+     "Darren Zheng"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 24,
+    "rank": 99,
+    "ratingGames": 2,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -11841,6 +11841,115 @@
   ],
   "partners": []
  },
+ "86851415-5e99-413d-b521-cd3b3edc1137": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "H",
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 71,
+    "pa": 69,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Thuy Nguyen",
+    "vs": [
+     "Brittni Veyna",
+     "John Waggoner"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Briane Cornish",
+    "vs": [
+     "Jamie Walsh",
+     "Ryan Benetz"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Jason Nguyen",
+    "vs": [
+     "Josh Ruble",
+     "Colin Mackey"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Megan Quigley",
+    "vs": [
+     "Jamie Walsh",
+     "James Conroy"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 42,
+    "rank": 63,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
  "2be2d2b6-177e-4378-a33d-49005788a7fd": {
   "log": [
    {
@@ -11978,115 +12087,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": []
- },
- "86851415-5e99-413d-b521-cd3b3edc1137": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "H",
-    "w": 2,
-    "l": 2,
-    "gp": 4,
-    "pf": 71,
-    "pa": 69,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Thuy Nguyen",
-    "vs": [
-     "Brittni Veyna",
-     "John Waggoner"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Briane Cornish",
-    "vs": [
-     "Jamie Walsh",
-     "Ryan Benetz"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Jason Nguyen",
-    "vs": [
-     "Josh Ruble",
-     "Colin Mackey"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Megan Quigley",
-    "vs": [
-     "Jamie Walsh",
-     "James Conroy"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.6,
-    "confidence": 42,
-    "rank": 63,
-    "ratingGames": 4,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -12232,147 +12232,6 @@
   ],
   "partners": []
  },
- "fd9c829a-50de-40a1-8342-7a6afe0fc7b4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 111,
-    "pa": 111,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Freddy Li",
-    "vs": [
-     "Patricia Majowicz",
-     "Brian Perlowitz"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Eva Rodriguez",
-    "vs": [
-     "Alyssa Beattie",
-     "Rosellen Perlowitz"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jayson Lee",
-    "vs": [
-     "Alyssa Beattie",
-     "Marvin Lao"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Connie Tom",
-    "vs": [
-     "Alyssa Beattie",
-     "Rosellen Perlowitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Freddy Li",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Andy Pineda"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Eva Rodriguez",
-    "vs": [
-     "Rosellen Perlowitz",
-     "Emiliya Mizrahi"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.1,
-    "confidence": 46,
-    "rank": 89,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
  "fe90f290-74af-47c7-9711-ee0079260258": {
   "log": [
    {
@@ -12510,6 +12369,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "fd9c829a-50de-40a1-8342-7a6afe0fc7b4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 111,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Freddy Li",
+    "vs": [
+     "Patricia Majowicz",
+     "Brian Perlowitz"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Eva Rodriguez",
+    "vs": [
+     "Alyssa Beattie",
+     "Rosellen Perlowitz"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jayson Lee",
+    "vs": [
+     "Alyssa Beattie",
+     "Marvin Lao"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Connie Tom",
+    "vs": [
+     "Alyssa Beattie",
+     "Rosellen Perlowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Freddy Li",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Andy Pineda"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Eva Rodriguez",
+    "vs": [
+     "Rosellen Perlowitz",
+     "Emiliya Mizrahi"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 46,
+    "rank": 89,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -14475,131 +14475,6 @@
   ],
   "partners": []
  },
- "362cbda8-a78b-43bb-b653-1daef081ce2f": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 93,
-    "pa": 94,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "David Cartwright",
-    "vs": [
-     "Kerry Eskay",
-     "Carlos Echenique"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Connie Tom",
-     "Holly Siu"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Robert Paniti",
-    "vs": [
-     "Holly Siu",
-     "Brandon Agudelo"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Kerry Eskay",
-     "Holly Siu"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Patricia Majowicz",
-    "vs": [
-     "Kerry Eskay",
-     "Holly Siu"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.4,
-    "confidence": 38,
-    "rank": 76,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
  "c383dca8-551f-4776-90d7-7f57248d1680": {
   "log": [
    {
@@ -14721,6 +14596,131 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "362cbda8-a78b-43bb-b653-1daef081ce2f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 93,
+    "pa": 94,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "David Cartwright",
+    "vs": [
+     "Kerry Eskay",
+     "Carlos Echenique"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Connie Tom",
+     "Holly Siu"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Robert Paniti",
+    "vs": [
+     "Holly Siu",
+     "Brandon Agudelo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Kerry Eskay",
+     "Holly Siu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Patricia Majowicz",
+    "vs": [
+     "Kerry Eskay",
+     "Holly Siu"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.4,
+    "confidence": 38,
+    "rank": 76,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -14975,131 +14975,6 @@
   ],
   "partners": []
  },
- "b845549e-8d1c-4f75-8010-630a9fb9281d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Palace",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 94,
-    "pa": 101,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Rashmi Patade",
-    "vs": [
-     "Maggie Wang",
-     "Alan Weissman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Todd Woodard",
-    "vs": [
-     "Brian Seligson",
-     "Maxwell Winters"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Lili Zhang",
-    "vs": [
-     "Alexis Kerven",
-     "Jason Heiselman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Jeff Pzena",
-    "vs": [
-     "Brian Seligson",
-     "Andrew Kimmel"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Todd Woodard",
-    "vs": [
-     "Brian Seligson",
-     "Maxwell Winters"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.7,
-    "confidence": 44,
-    "rank": 58,
-    "ratingGames": 5,
-    "strengthOfPartners": -2.4,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
  "151dccc8-ebe2-4f25-a27c-11a6ba2bf363": {
   "log": [
    {
@@ -15221,6 +15096,131 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "b845549e-8d1c-4f75-8010-630a9fb9281d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 94,
+    "pa": 101,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rashmi Patade",
+    "vs": [
+     "Maggie Wang",
+     "Alan Weissman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Todd Woodard",
+    "vs": [
+     "Brian Seligson",
+     "Maxwell Winters"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Lili Zhang",
+    "vs": [
+     "Alexis Kerven",
+     "Jason Heiselman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Jeff Pzena",
+    "vs": [
+     "Brian Seligson",
+     "Andrew Kimmel"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Todd Woodard",
+    "vs": [
+     "Brian Seligson",
+     "Maxwell Winters"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 44,
+    "rank": 58,
+    "ratingGames": 5,
+    "strengthOfPartners": -2.4,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -15475,131 +15475,6 @@
   ],
   "partners": []
  },
- "bb6c579d-1627-4971-ad0f-4be65598d579": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 85,
-    "pa": 98,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "male",
-    "with": "Marvin Lao",
-    "vs": [
-     "Jayson Lee",
-     "Jimmy Tom"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Patricia Majowicz",
-    "vs": [
-     "Connie Tom",
-     "Carlos Echenique"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Connie Tom",
-     "Jimmy Tom"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "male",
-    "with": "Robert Paniti",
-    "vs": [
-     "Jimmy Tom",
-     "Cesar Alvarez"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Kellie Roshak",
-     "Freddy Li"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.1,
-    "confidence": 43,
-    "rank": 130,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
  "8ea3584b-11a3-4d0c-ace0-bce5bd3a00f1": {
   "log": [
    {
@@ -15721,6 +15596,131 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "bb6c579d-1627-4971-ad0f-4be65598d579": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 85,
+    "pa": 98,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "male",
+    "with": "Marvin Lao",
+    "vs": [
+     "Jayson Lee",
+     "Jimmy Tom"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Patricia Majowicz",
+    "vs": [
+     "Connie Tom",
+     "Carlos Echenique"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Connie Tom",
+     "Jimmy Tom"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "male",
+    "with": "Robert Paniti",
+    "vs": [
+     "Jimmy Tom",
+     "Cesar Alvarez"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Kellie Roshak",
+     "Freddy Li"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.1,
+    "confidence": 43,
+    "rank": 130,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -16478,147 +16478,6 @@
   ],
   "partners": []
  },
- "d17ff3de-7455-4efb-b1be-4c61b5acbdf2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 114,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Rosellen Perlowitz",
-    "vs": [
-     "Cassie Lou",
-     "Jimmy Tom"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "male",
-    "with": "David Schwartz",
-    "vs": [
-     "Cesar Alvarez",
-     "Brandon Agudelo"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Danica Bramschreiber",
-    "vs": [
-     "Holly Siu",
-     "Brandon Agudelo"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "male",
-    "with": "Andy Pineda",
-    "vs": [
-     "Jimmy Tom",
-     "Cesar Alvarez"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Rosellen Perlowitz",
-    "vs": [
-     "Kerry Eskay",
-     "Carlos Echenique"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "male",
-    "with": "Marvin Lao",
-    "vs": [
-     "Freddy Li",
-     "Carlos Echenique"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.3,
-    "confidence": 49,
-    "rank": 78,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": []
- },
  "a11d0ccc-a000-4582-bf88-f27df93e00d2": {
   "log": [
    {
@@ -16760,32 +16619,32 @@
   ],
   "partners": []
  },
- "0decf4d5-453b-41f8-b5f8-3ff5ba34237a": {
+ "d17ff3de-7455-4efb-b1be-4c61b5acbdf2": {
   "log": [
    {
     "week": 1,
-    "opp": "Bounce Tempest",
-    "homeAway": "A",
+    "opp": "PickleRage Union County Net Ninjas",
+    "homeAway": "H",
     "w": 2,
     "l": 4,
     "gp": 6,
-    "pf": 106,
-    "pa": 112,
+    "pf": 110,
+    "pa": 114,
     "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
+     1,
      2
     ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
     "sub": 0,
     "subFor": null
    }
@@ -16793,14 +16652,30 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Bounce Tempest",
+    "opp": "PickleRage Union County Net Ninjas",
     "t": "mixed",
-    "with": "Ryan Benetz",
+    "with": "Rosellen Perlowitz",
     "vs": [
-     "Briane Cornish",
-     "Thang Nguyen"
+     "Cassie Lou",
+     "Jimmy Tom"
     ],
-    "f": 19,
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "male",
+    "with": "David Schwartz",
+    "vs": [
+     "Cesar Alvarez",
+     "Brandon Agudelo"
+    ],
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -16809,44 +16684,12 @@
    },
    {
     "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "female",
-    "with": "Rebecca Woofter",
-    "vs": [
-     "Thuy Nguyen",
-     "Helen Goh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
+    "opp": "PickleRage Union County Net Ninjas",
     "t": "mixed",
-    "with": "Ryan Benetz",
+    "with": "Danica Bramschreiber",
     "vs": [
-     "Briane Cornish",
-     "Peter Lien"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "mixed",
-    "with": "James Conroy",
-    "vs": [
-     "Briane Cornish",
-     "Thang Nguyen"
+     "Holly Siu",
+     "Brandon Agudelo"
     ],
     "f": 18,
     "a": 21,
@@ -16857,32 +16700,48 @@
    },
    {
     "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "female",
-    "with": "Sophie O’Driscoll",
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "male",
+    "with": "Andy Pineda",
     "vs": [
-     "Briane Cornish",
-     "Juliana Berg"
+     "Jimmy Tom",
+     "Cesar Alvarez"
     ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
     "wk": 1,
-    "opp": "Bounce Tempest",
+    "opp": "PickleRage Union County Net Ninjas",
     "t": "mixed",
-    "with": "James Conroy",
+    "with": "Rosellen Perlowitz",
     "vs": [
-     "Megan Quigley",
-     "Peter Lien"
+     "Kerry Eskay",
+     "Carlos Echenique"
     ],
-    "f": 8,
+    "f": 19,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "male",
+    "with": "Marvin Lao",
+    "vs": [
+     "Freddy Li",
+     "Carlos Echenique"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -16891,12 +16750,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.4,
-    "confidence": 44,
-    "rank": 142,
+    "rating": 0.3,
+    "confidence": 49,
+    "rank": 78,
     "ratingGames": 6,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -17038,6 +16897,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
+ "0decf4d5-453b-41f8-b5f8-3ff5ba34237a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 106,
+    "pa": 112,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Ryan Benetz",
+    "vs": [
+     "Briane Cornish",
+     "Thang Nguyen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Rebecca Woofter",
+    "vs": [
+     "Thuy Nguyen",
+     "Helen Goh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Ryan Benetz",
+    "vs": [
+     "Briane Cornish",
+     "Peter Lien"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "James Conroy",
+    "vs": [
+     "Briane Cornish",
+     "Thang Nguyen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Sophie O’Driscoll",
+    "vs": [
+     "Briane Cornish",
+     "Juliana Berg"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "James Conroy",
+    "vs": [
+     "Megan Quigley",
+     "Peter Lien"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 44,
+    "rank": 142,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []

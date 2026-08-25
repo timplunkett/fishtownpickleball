@@ -28,7 +28,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Y5DLNK",
    "playerId": "fa858fcb-0eed-4ab9-94ea-efec4132e791"
   },
   {
@@ -58,7 +57,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0QOVK4",
    "playerId": "2912d9de-09e7-4b21-b93e-ae84f2f8fe93"
   },
   {
@@ -88,7 +86,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "1RENYM",
    "playerId": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56"
   },
   {
@@ -118,7 +115,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3VWP97",
    "playerId": "5db7fb50-d1a1-4c3f-8d61-34ca1947300c"
   },
   {
@@ -148,7 +144,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "VXGXVE",
    "playerId": "233811c2-7a6f-48f1-beb9-35c581eaf9d5"
   },
   {
@@ -178,7 +173,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0YMWRG",
    "playerId": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6"
   },
   {
@@ -208,7 +202,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "4LM9W6",
    "playerId": "2a233243-51cc-4a54-aaab-1297a41ce67a"
   },
   {
@@ -238,7 +231,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "ELJEME",
    "playerId": "aca67666-3f71-498b-9ef7-c24729d89030"
   },
   {
@@ -268,7 +260,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "2LNP4E",
    "playerId": "86d3ef72-f614-40a4-994d-836a87d21e9e"
   },
   {
@@ -298,7 +289,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "D9NPJL",
    "playerId": "3f0fc558-80e9-4e47-8ba7-95968d3c336e"
   },
   {
@@ -328,7 +318,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "NYY0QN",
    "playerId": "33f1ae41-08db-4067-b5f5-f9324faf93f0"
   },
   {
@@ -358,7 +347,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8J57YJ",
    "playerId": "63946930-2dca-489e-8158-028722c045f5"
   },
   {
@@ -388,7 +376,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3O5DLW",
    "playerId": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15"
   },
   {
@@ -418,7 +405,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3LXK2Z",
    "playerId": "0b40bb1c-5eb7-4684-a979-bb55ba7cf3e4"
   },
   {
@@ -448,7 +434,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8K24VK",
    "playerId": "3e72d2ad-b218-4f3e-b362-4286543ac449"
   },
   {
@@ -478,7 +463,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "ZZYZXW",
    "playerId": "aecabaca-f05b-489f-87d6-afacfd32295c"
   },
   {
@@ -508,7 +492,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "W50DGL",
    "playerId": "4fa43958-6eb0-4949-a48a-6f719f6b973f"
   },
   {
@@ -538,7 +521,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "PP5PVM",
    "playerId": "9d83f1a4-547c-43e9-85b3-cb5fa8391bff"
   },
   {
@@ -568,7 +550,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "GG596D",
    "playerId": "cc2a9e08-b163-4553-856f-c20895cb9930"
   },
   {
@@ -598,7 +579,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "DD4P5L",
    "playerId": "a188ab11-2879-4292-95dd-6bdd7858b7b9"
   },
   {
@@ -628,7 +608,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "LVZE55",
    "playerId": "fc2f208d-f6cc-4d5c-98d8-3f40e5856576"
   },
   {
@@ -658,7 +637,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "556JG5",
    "playerId": "288693fd-92c5-429d-8f1f-96206a0eb640"
   },
   {
@@ -688,7 +666,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "6NPD9Q",
    "playerId": "c7dd526f-b8fe-4172-977d-912044350954"
   },
   {
@@ -718,7 +695,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "X0EPE2",
    "playerId": "e81f3561-3e91-48aa-8430-f177ad30248b"
   },
   {
@@ -748,7 +724,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "QPP6KN",
    "playerId": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6"
   },
   {
@@ -778,7 +753,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "12YNN9",
    "playerId": "13baa9f0-6b36-49e8-b085-c8933cb044b2"
   },
   {
@@ -808,7 +782,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3Y5EEE",
    "playerId": "a10029d9-c75f-4a33-98cd-6173faa99ddc"
   },
   {
@@ -838,7 +811,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "4ERK6V",
    "playerId": "0b2f3e61-0d02-418c-8f96-b5238748091e"
   },
   {
@@ -868,7 +840,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "GWLK9Q",
    "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0"
   },
   {
@@ -898,7 +869,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "OZRV2L",
    "playerId": "b466c6a0-1ec9-4148-819b-972cc37ca5ec"
   },
   {
@@ -928,7 +898,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Y4P9MD",
    "playerId": "2ff1b895-1513-4eba-bfb9-3fc61a2d106a"
   },
   {
@@ -958,7 +927,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "99XZOK",
    "playerId": "9278b092-c3e6-4c05-a09a-998cbde410be"
   },
   {
@@ -988,7 +956,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "P5RQKG",
    "playerId": "15778391-96b7-4888-9d08-d63b96e104ca"
   },
   {
@@ -1018,7 +985,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "MEEGJV",
    "playerId": "406e8166-48fc-410b-99b2-5cbc3534fee3"
   },
   {
@@ -1048,7 +1014,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3XLOM4",
    "playerId": "0d736ba1-d552-490a-a21c-8aa58bec268e"
   },
   {
@@ -1078,7 +1043,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "V27Q66",
    "playerId": "a1b6d08e-816a-4e07-84f2-616a7050b00b"
   },
   {
@@ -1108,7 +1072,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "6ZDXGD",
    "playerId": "5f062913-9951-481b-8e1d-fee0093e68f2"
   },
   {
@@ -1138,7 +1101,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "G5G2RD",
    "playerId": "cee0559f-0285-4e86-9254-128f836efee8"
   },
   {
@@ -1168,7 +1130,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "YM7Q6G",
    "playerId": "d74868c1-242c-4230-8117-fbbd3c41e250"
   },
   {
@@ -1198,7 +1159,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "OZN6JP",
    "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b"
   },
   {
@@ -1228,7 +1188,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "QPWXM4",
    "playerId": "ff2e2bfb-12b9-4b51-abbd-8b868ce0f78e"
   },
   {
@@ -1258,7 +1217,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "5929L0",
    "playerId": "078bc1a3-2897-4dc0-ae17-26b349108047"
   },
   {
@@ -1288,7 +1246,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "MY4O5O",
    "playerId": "e9c2ebf6-88d5-485d-be0f-8c71488231ae"
   },
   {
@@ -1318,7 +1275,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Z94JJM",
    "playerId": "681fe702-3295-4dba-98a2-15e8aedc2873"
   },
   {
@@ -1348,7 +1304,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "7D5V2M",
    "playerId": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087"
   },
   {
@@ -1378,7 +1333,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "YGMJ5K",
    "playerId": "24c2ba9d-4af9-41c8-9a2c-ad9631349481"
   },
   {
@@ -1408,7 +1362,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "V7566P",
    "playerId": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc"
   },
   {
@@ -1438,7 +1391,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "ORWZ0P",
    "playerId": "b5c2a59a-34f6-4b86-ac00-0a2d46082870"
   },
   {
@@ -1468,7 +1420,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "N7N04Z",
    "playerId": "d324c1b4-fb13-47d4-b380-f8427448308a"
   },
   {
@@ -1498,7 +1449,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "GG2L5X",
    "playerId": "e8a46252-99c1-405e-857c-d52d9550717a"
   },
   {
@@ -1528,7 +1478,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "N7N5JZ",
    "playerId": "b3448785-cc93-4aed-9940-a4cc2e7a66d9"
   },
   {
@@ -1558,7 +1507,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3PZNNX",
    "playerId": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe"
   },
   {
@@ -1588,7 +1536,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "EGX49J",
    "playerId": "a6f156e3-7dfa-42ec-8c69-a73c25e55833"
   },
   {
@@ -1618,7 +1565,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "94YMDK",
    "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
   },
   {
@@ -1648,7 +1594,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "KY5XZY",
    "playerId": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f"
   },
   {
@@ -1678,7 +1623,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "DWPY66",
    "playerId": "35120cea-4ea8-48aa-aac2-e896e704a043"
   },
   {
@@ -1708,7 +1652,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "66RXJG",
    "playerId": "3665068b-4c6d-49b2-9cd4-e3148c984ec7"
   },
   {
@@ -1738,7 +1681,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "JPZ67D",
    "playerId": "9057a78b-0136-4bb6-92e9-508f621b51e1"
   },
   {
@@ -1768,7 +1710,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0Z4M42",
    "playerId": "c9f10502-3413-4189-87c9-d05ec7accae3"
   },
   {
@@ -1798,7 +1739,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "56EVQV",
    "playerId": "301def1b-f1d0-410c-aba8-13c15d2e091e"
   },
   {
@@ -1828,7 +1768,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Q5PDV5",
    "playerId": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308"
   },
   {
@@ -1858,7 +1797,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8JGMP4",
    "playerId": "fce6db61-c25e-4d8c-a774-6d32b85c92d8"
   },
   {
@@ -1888,7 +1826,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "D9MWGL",
    "playerId": "e84d93a0-c527-4a44-a896-ccc20d0ac474"
   },
   {
@@ -1918,7 +1855,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "G5X55D",
    "playerId": "cac68244-9c27-49bf-9354-1e9282427426"
   },
   {
@@ -1948,7 +1884,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "6ZDM2D",
    "playerId": "25c2cf33-ede0-4610-85d6-e08cddc05484"
   },
   {
@@ -1978,7 +1913,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "OZ6GK7",
    "playerId": "c132bfd5-ae12-478d-86bc-e483f85cb26a"
   },
   {
@@ -2008,7 +1942,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "LW2N0Z",
    "playerId": "0b60e384-c0c5-4859-883c-1183e79437e3"
   },
   {
@@ -2038,7 +1971,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0Q4EOG",
    "playerId": "c5c674c6-e1c9-4f4b-96bf-873e84931042"
   },
   {
@@ -2068,7 +2000,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "7KMQV5",
    "playerId": "de5f989a-61bd-45ff-8be9-1168a4ec65e7"
   },
   {
@@ -2098,7 +2029,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "QNYJ54",
    "playerId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73"
   },
   {
@@ -2128,7 +2058,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "WN904M",
    "playerId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c"
   },
   {
@@ -2158,7 +2087,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Z9PL7M",
    "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa"
   },
   {
@@ -2188,7 +2116,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "7DWNE0",
    "playerId": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6"
   },
   {
@@ -2218,7 +2145,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "L5K5DJ",
    "playerId": "ca92ce54-a58c-4bf2-a49b-125be4b376ba"
   },
   {
@@ -2248,7 +2174,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "V4J5GE",
    "playerId": "fc6e0ba7-6a7d-4303-89a7-0d56a6905e11"
   },
   {
@@ -2278,7 +2203,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "JZKLVJ",
    "playerId": "2a59237c-117d-426c-b266-1b968c1a56c0"
   },
   {
@@ -2308,7 +2232,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "LWK26Z",
    "playerId": "0e5a80ef-a9db-4089-841d-f3083efff2a6"
   },
   {
@@ -2338,7 +2261,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "94D6JV",
    "playerId": "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3"
   },
   {
@@ -2368,7 +2290,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "Q52G60",
    "playerId": "f7f80e1e-cebe-432b-9862-1120daaba26e"
   },
   {
@@ -2398,7 +2319,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "16YGQD",
    "playerId": "cb063892-906f-4769-8815-2a87da5bf426"
   },
   {
@@ -2428,7 +2348,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "LZ5V9K",
    "playerId": "4f9985c1-7c99-4816-9ddf-c45dc6dd9d7c"
   },
   {
@@ -2458,7 +2377,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "DYLGQL",
    "playerId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7"
   },
   {
@@ -2488,7 +2406,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "PKLLQE",
    "playerId": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0"
   },
   {
@@ -2518,7 +2435,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "94WEOR",
    "playerId": "294d9682-5231-4d0b-ab16-cf9f8bfb99bc"
   },
   {
@@ -2548,7 +2464,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "YG2ZPE",
    "playerId": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909"
   },
   {
@@ -2578,7 +2493,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "X2KDWR",
    "playerId": "16e36ab6-5591-4a2f-97cf-23be0e69c5ef"
   },
   {
@@ -2608,7 +2522,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "MYEJ5G",
    "playerId": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d"
   },
   {
@@ -2638,7 +2551,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "MEK6XO",
    "playerId": "481c21f0-8481-47e8-9eba-9ab21c167cf4"
   },
   {
@@ -2668,7 +2580,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "V4LJDJ",
    "playerId": "02318afc-9bde-4df3-a7b3-7f1d1da3186c"
   },
   {
@@ -2698,7 +2609,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3XOJ2X",
    "playerId": "c3649296-108a-4a74-ad2a-e045d2fdee4c"
   },
   {
@@ -2728,7 +2638,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "304QK4",
    "playerId": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81"
   },
   {
@@ -2758,7 +2667,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0YQ7RG",
    "playerId": "1aeb5726-1c67-4c13-8884-b35f0c5c854f"
   },
   {
@@ -2788,7 +2696,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "56K7PL",
    "playerId": "da7ce23d-f915-469e-9ec1-d820d55b3b22"
   },
   {
@@ -2818,7 +2725,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "1N9N92",
    "playerId": "f8a42c6f-43b2-4769-b0ed-a1d648353e04"
   },
   {
@@ -2848,7 +2754,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "PWDQYE",
    "playerId": "069b6990-9fae-4294-bf0a-2e428a9f763e"
   },
   {
@@ -2878,7 +2783,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3X0D25",
    "playerId": "d64631c2-5086-4d28-b93e-26c8661af87b"
   },
   {
@@ -2908,7 +2812,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "EGZ2LM",
    "playerId": "5e265a90-558b-4564-acd8-f358bab162a9"
   },
   {
@@ -2938,7 +2841,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "NRPJD6",
    "playerId": "067afbd0-d803-4eb0-b467-3af2930f18af"
   },
   {
@@ -2968,7 +2870,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "G0DVOM",
    "playerId": "f1291bb6-abec-48c1-9730-68eaeead8426"
   },
   {
@@ -2998,7 +2899,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "17J5QN",
    "playerId": "e8b48f4f-6d2d-4db7-a4c1-69ff3de72688"
   },
   {
@@ -3028,7 +2928,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "VXVXZ5",
    "playerId": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1"
   },
   {
@@ -3058,7 +2957,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "99M5KE",
    "playerId": "977d5afb-cd69-4327-9e27-4887259d384b"
   },
   {
@@ -3088,7 +2986,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "0Q475G",
    "playerId": "ea172a5a-d930-4f15-af1d-d792c4bd37a8"
   },
   {
@@ -3118,7 +3015,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "5EJQD0",
    "playerId": "bec84964-d6ad-4c96-8abb-2f204bd1e64b"
   },
   {
@@ -3148,7 +3044,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8DKG7X",
    "playerId": "153fa815-ce9c-4c36-8fce-c525887f05b1"
   },
   {
@@ -3178,7 +3073,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "EGYDRM",
    "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402"
   },
   {
@@ -3208,7 +3102,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "1RJ2DQ",
    "playerId": "d5bb6605-5ea8-42e6-8c85-03402664956d"
   },
   {
@@ -3238,7 +3131,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "QXQXVR",
    "playerId": "e204f8ea-5c0b-4182-8af0-f372a67c2132"
   },
   {
@@ -3268,7 +3160,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "6ZMMZK",
    "playerId": "fa88f51d-14cc-4f01-ace6-505565019abb"
   },
   {
@@ -3298,7 +3189,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "4QG6NK",
    "playerId": "0f84aab6-2ae2-4a0b-ba2f-cd31c57fa7d7"
   },
   {
@@ -3328,7 +3218,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "169KPD",
    "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f"
   },
   {
@@ -3358,7 +3247,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8K2NEQ",
    "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd"
   },
   {
@@ -3388,7 +3276,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "8DKXVX",
    "playerId": "56a497f1-828c-4bec-ad2f-1ed1add39788"
   },
   {
@@ -3418,7 +3305,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3Y655D",
    "playerId": "db4adc99-5a82-4911-90f5-3624fda60ee3"
   },
   {
@@ -3448,7 +3334,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "6KY0EE",
    "playerId": "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a"
   },
   {
@@ -3478,7 +3363,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "LVO9DQ",
    "playerId": "09ff18df-a4f9-4af7-808b-d8ceca5d1c57"
   },
   {
@@ -3508,7 +3392,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "56Q2EV",
    "playerId": "adcdbc67-29b2-4411-9d74-919d1c7abf0b"
   },
   {
@@ -3538,7 +3421,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "3OO9DE",
    "playerId": "92deb15a-86c4-4f82-8e0e-d95f7bb6cb68"
   },
   {
@@ -3568,7 +3450,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "WN7R7L",
    "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf"
   },
   {
@@ -3598,7 +3479,6 @@
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "dupr": "4E4XK2",
    "playerId": "e4d09d13-0fd5-4686-ac53-f4eb160b2045"
   }
  ],

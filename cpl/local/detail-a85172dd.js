@@ -19328,6 +19328,740 @@
    }
   ]
  },
+ "1c13f01f-aeb7-45db-9faf-a6567d22bb81": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Baggers, Sand",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 112,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "The Robbinsvilians",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 106,
+    "pa": 118,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Baggers, Sand",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 120,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "The Robbinsvilians",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 127,
+    "pa": 135,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Paddle Taps",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 112,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Maeve Mcgowan",
+     "Al Mancini"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Steph Wachino",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Tom Laiso",
+    "vs": [
+     "Nick Babinsky",
+     "Al Mancini"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Steph Wachino",
+     "Al Mancini"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Tom Laiso",
+    "vs": [
+     "Nick Babinsky",
+     "Al Mancini"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Michael Vollmer",
+    "vs": [
+     "Rakshit Maddur Gopinath",
+     "Varun Gurram"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Amanda Mcalister",
+     "Evan Woerner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Abhishekh Mehra",
+     "Lance Brown"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Craig Frame",
+    "vs": [
+     "Deepak Sunku",
+     "Evan Woerner"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Lissa Eagles",
+    "vs": [
+     "Margaret Robb",
+     "Chris Damato"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Tom Laiso",
+    "vs": [
+     "Deepak Sunku",
+     "Abhishekh Mehra"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Julie Randall",
+    "vs": [
+     "Eva Danieli",
+     "Abhishekh Mehra"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Michelle Friedman",
+     "Bennett Pereira"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Michelle Friedman",
+     "Thomas Ridolfi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Bennett Pereira",
+     "Thomas Ridolfi"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Michelle Friedman",
+     "Thomas Ridolfi"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Craig Frame",
+    "vs": [
+     "Dipen Bhatt",
+     "Varun Gurram"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baggers, Sand",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Varun Gurram",
+     "Thomas Ridolfi"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Emily Babinsky",
+     "Lance Brown"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Craig Frame",
+    "vs": [
+     "Evan Woerner",
+     "Lance Brown"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Margaret Robb",
+     "Lance Brown"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Lance Brown",
+     "Abhishekh Mehra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Nikhil Khasnis",
+    "vs": [
+     "Evan Woerner",
+     "Abhishekh Mehra"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "mixed",
+    "with": "Charlotte Healey",
+    "vs": [
+     "Emily Babinsky",
+     "Evan Woerner"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "The Robbinsvilians",
+    "t": "male",
+    "with": "Craig Frame",
+    "vs": [
+     "Evan Woerner",
+     "Lance Brown"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "mixed",
+    "with": "Julie Randall",
+    "vs": [
+     "Stephany Venuto",
+     "Christopher Venuto"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Tony Scharko"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "male",
+    "with": "Tom Laiso",
+    "vs": [
+     "Zach Hollmann",
+     "Christopher Venuto"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "mixed",
+    "with": "Perri Goldstein",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Christopher Venuto"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "male",
+    "with": "Tom Laiso",
+    "vs": [
+     "Zach Hollmann",
+     "Christopher Venuto"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Paddle Taps",
+    "t": "male",
+    "with": "Xavier Yandoli",
+    "vs": [
+     "Tony Scharko",
+     "Rajeeth Nadig"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 48,
+    "rank": 14,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 3,
+    "rating": 0.4,
+    "confidence": 67,
+    "rank": 28,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 4,
+    "rating": 0.5,
+    "confidence": 68,
+    "rank": 27,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "rating": 1.7,
+    "confidence": 76,
+    "rank": 9,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 6,
+    "rating": 1.5,
+    "confidence": 80,
+    "rank": 14,
+    "ratingGames": 25,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 7,
+    "rating": 1.4,
+    "confidence": 84,
+    "rank": 14,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 8,
+    "rating": 1.4,
+    "confidence": 84,
+    "rank": 21,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
+    "name": "Craig Frame",
+    "n": 4,
+    "synergy": 1.4
+   },
+   {
+    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
+    "name": "Sree Harsha Konduru",
+    "n": 4,
+    "synergy": 1.2
+   },
+   {
+    "pid": "13918154-3673-4dae-946a-2c2d4ac8863f",
+    "name": "Tom Laiso",
+    "n": 5,
+    "synergy": 0.4
+   },
+   {
+    "pid": "c314fe29-19de-4c08-956b-ae10493edcc8",
+    "name": "Perri Goldstein",
+    "n": 8,
+    "synergy": -0.1
+   },
+   {
+    "pid": "957ef2de-1e80-4ec9-b5cd-96d11bef6383",
+    "name": "Gabby Gonzalez",
+    "n": 3,
+    "synergy": -0.5
+   }
+  ]
+ },
  "9ec39678-a120-45de-b8a5-897b8cf900cd": {
   "log": [
    {
@@ -20261,740 +20995,6 @@
     "pid": "871e077e-f25b-4c8d-8a7b-871d22ebc3b5",
     "name": "Julie Randall",
     "n": 7,
-    "synergy": -0.5
-   }
-  ]
- },
- "1c13f01f-aeb7-45db-9faf-a6567d22bb81": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Baggers, Sand",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 117,
-    "pa": 112,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "The Robbinsvilians",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 106,
-    "pa": 118,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baggers, Sand",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 120,
-    "pa": 91,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "The Robbinsvilians",
-    "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 127,
-    "pa": 135,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Paddle Taps",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 116,
-    "pa": 112,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Gabby Gonzalez",
-    "vs": [
-     "Maeve Mcgowan",
-     "Al Mancini"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Steph Wachino",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Tom Laiso",
-    "vs": [
-     "Nick Babinsky",
-     "Al Mancini"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Steph Wachino",
-     "Al Mancini"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Tom Laiso",
-    "vs": [
-     "Nick Babinsky",
-     "Al Mancini"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Michael Vollmer",
-    "vs": [
-     "Rakshit Maddur Gopinath",
-     "Varun Gurram"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Amanda Mcalister",
-     "Evan Woerner"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Sree Harsha Konduru",
-    "vs": [
-     "Abhishekh Mehra",
-     "Lance Brown"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Craig Frame",
-    "vs": [
-     "Deepak Sunku",
-     "Evan Woerner"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Lissa Eagles",
-    "vs": [
-     "Margaret Robb",
-     "Chris Damato"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Tom Laiso",
-    "vs": [
-     "Deepak Sunku",
-     "Abhishekh Mehra"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Julie Randall",
-    "vs": [
-     "Eva Danieli",
-     "Abhishekh Mehra"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Gabby Gonzalez",
-    "vs": [
-     "Michelle Friedman",
-     "Bennett Pereira"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Gabby Gonzalez",
-    "vs": [
-     "Michelle Friedman",
-     "Thomas Ridolfi"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Sree Harsha Konduru",
-    "vs": [
-     "Bennett Pereira",
-     "Thomas Ridolfi"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Michelle Friedman",
-     "Thomas Ridolfi"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Craig Frame",
-    "vs": [
-     "Dipen Bhatt",
-     "Varun Gurram"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baggers, Sand",
-    "t": "male",
-    "with": "Sree Harsha Konduru",
-    "vs": [
-     "Varun Gurram",
-     "Thomas Ridolfi"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Emily Babinsky",
-     "Lance Brown"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Craig Frame",
-    "vs": [
-     "Evan Woerner",
-     "Lance Brown"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Margaret Robb",
-     "Lance Brown"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Sree Harsha Konduru",
-    "vs": [
-     "Lance Brown",
-     "Abhishekh Mehra"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Nikhil Khasnis",
-    "vs": [
-     "Evan Woerner",
-     "Abhishekh Mehra"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "mixed",
-    "with": "Charlotte Healey",
-    "vs": [
-     "Emily Babinsky",
-     "Evan Woerner"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "The Robbinsvilians",
-    "t": "male",
-    "with": "Craig Frame",
-    "vs": [
-     "Evan Woerner",
-     "Lance Brown"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "mixed",
-    "with": "Julie Randall",
-    "vs": [
-     "Stephany Venuto",
-     "Christopher Venuto"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Mira Sigal-Feldman",
-     "Tony Scharko"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "male",
-    "with": "Tom Laiso",
-    "vs": [
-     "Zach Hollmann",
-     "Christopher Venuto"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "mixed",
-    "with": "Perri Goldstein",
-    "vs": [
-     "Mira Sigal-Feldman",
-     "Christopher Venuto"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "male",
-    "with": "Tom Laiso",
-    "vs": [
-     "Zach Hollmann",
-     "Christopher Venuto"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Paddle Taps",
-    "t": "male",
-    "with": "Xavier Yandoli",
-    "vs": [
-     "Tony Scharko",
-     "Rajeeth Nadig"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 1.3,
-    "confidence": 48,
-    "rank": 14,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 3,
-    "rating": 0.4,
-    "confidence": 67,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 4,
-    "rating": 0.5,
-    "confidence": 68,
-    "rank": 27,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 5,
-    "rating": 1.7,
-    "confidence": 76,
-    "rank": 9,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 6,
-    "rating": 1.5,
-    "confidence": 80,
-    "rank": 14,
-    "ratingGames": 25,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 7,
-    "rating": 1.4,
-    "confidence": 84,
-    "rank": 14,
-    "ratingGames": 31,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 8,
-    "rating": 1.4,
-    "confidence": 84,
-    "rank": 21,
-    "ratingGames": 31,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
-    "name": "Craig Frame",
-    "n": 4,
-    "synergy": 1.4
-   },
-   {
-    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
-    "name": "Sree Harsha Konduru",
-    "n": 4,
-    "synergy": 1.2
-   },
-   {
-    "pid": "13918154-3673-4dae-946a-2c2d4ac8863f",
-    "name": "Tom Laiso",
-    "n": 5,
-    "synergy": 0.4
-   },
-   {
-    "pid": "c314fe29-19de-4c08-956b-ae10493edcc8",
-    "name": "Perri Goldstein",
-    "n": 8,
-    "synergy": -0.1
-   },
-   {
-    "pid": "957ef2de-1e80-4ec9-b5cd-96d11bef6383",
-    "name": "Gabby Gonzalez",
-    "n": 3,
     "synergy": -0.5
    }
   ]
