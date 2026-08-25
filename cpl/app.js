@@ -25,7 +25,6 @@ const TEAM_COLORS = Object.freeze(Object.fromEntries(
       TEAM_COLOR_PALETTE[index % TEAM_COLOR_PALETTE.length],
     ]),
 ));
-const HIGHLIGHTED_PLAYER = '';
 const EMPTY_VALUE = '—';
 const DEFAULT_SORT = Object.freeze({ key: 'rating', direction: -1 });
 const COLUMNS = Object.freeze([
@@ -601,10 +600,9 @@ function getSortValue(player, key) {
 }
 
 function renderPlayerName(player) {
-  const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
-  return `<a class="pname" href="${escapeHtml(playerHref(player))}" data-player="${escapeHtml(routeKeyForPlayer(player))}">${escapeHtml(player.name)}${highlighted}</a>${captainTag}${subTag}`;
+  return `<a class="pname" href="${escapeHtml(playerHref(player))}" data-player="${escapeHtml(routeKeyForPlayer(player))}">${escapeHtml(player.name)}</a>${captainTag}${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -740,7 +738,6 @@ function comparePlayers(playerA, playerB, key = sortKey, direction = sortDirecti
 function renderRows(rows) {
   elements.body.innerHTML = rows
     .map((player, index) => {
-      const rowClass = player.name === HIGHLIGHTED_PLAYER ? ' class="me"' : '';
       const rankClass =
         sortKey === 'winPct' && sortDirection === -1 && index < 3 ? ` g${index + 1}` : '';
       const rankMarkup = `<span class="pos${rankClass}">${index + 1}</span>`;
@@ -751,7 +748,7 @@ function renderRows(rows) {
         return `<td${classAttribute}>${prefix}${renderCell(player, key)}</td>`;
       }).join('');
 
-      return `<tr${rowClass}>${cells}</tr>`;
+      return `<tr>${cells}</tr>`;
     })
     .join('');
 
@@ -854,7 +851,7 @@ function renderModalHeader(player) {
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `
-    <div class="mh-name">${escapeHtml(player.name)}${player.name === HIGHLIGHTED_PLAYER ? ' ★' : ''}${captainTag}</div>
+    <div class="mh-name">${escapeHtml(player.name)}${captainTag}</div>
     <div class="mh-sub">
       <span class="teamdot" style="background:${getTeamColor(player.team)}"></span>
       ${escapeHtml(player.team)} • ${genderLabel} • season totals
@@ -2346,6 +2343,14 @@ function initialize() {
     event.preventDefault();
     handler(event);
   };
+  // "How the Rating works" links jump to the explainer and pop it open.
+  document.querySelectorAll('a[href="#rating-explainer"]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const explainer = document.getElementById('rating-explainer');
+      if (explainer) explainer.open = true;
+    });
+  });
+
   elements.head.addEventListener('keydown', activateOnKeydown(handleColumnSort));
   elements.gridHost.addEventListener('keydown', activateOnKeydown(handleGridClick));
   elements.duoBody.addEventListener('keydown', activateOnKeydown(handleDuoClick));
