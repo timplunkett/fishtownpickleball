@@ -1,0 +1,64 @@
+{
+  "$values": [
+    {
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "pod": "South"
+    },
+    {
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "pod": "North"
+    },
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "South"
+    },
+    {
+      "teamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "teamName": "Bounce Malvern Black",
+      "pod": "South"
+    },
+    {
+      "teamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+      "teamName": "Bounce Malvern Boom",
+      "pod": "South"
+    },
+    {
+      "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "teamName": "Flemington Blue",
+      "pod": "North"
+    },
+    {
+      "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "teamName": "Flemington Green",
+      "pod": "South"
+    },
+    {
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "pod": "North"
+    },
+    {
+      "teamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+      "teamName": "Pickle Place",
+      "pod": "South"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "North"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "North"
+    },
+    {
+      "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "teamName": "Stelton Sports",
+      "pod": "North"
+    }
+  ]
+}

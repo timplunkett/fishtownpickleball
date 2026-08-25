@@ -135,6 +135,14 @@ footer {
   letter-spacing: 0.04em;
 }
 
+/* The league's own pod for a team, shown next to the team name. Sections are
+   scheduling groups and can span several of these, so it reads as a separate note
+   rather than as the heading it sits under. */
+.pod-tag {
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
 .panel,
 .tcard,
 .explainer,

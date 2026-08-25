@@ -56,6 +56,44 @@ const LINEUP_KEEP = new Set([
   'homeScore', 'awayScore', 'matchType', 'matchupId',
 ]);
 
+// The API serializes with JSON.NET reference tracking: an object that has already
+// appeared in the payload is emitted as {"$ref":"12"} rather than repeated. Teams
+// embed each other through their schedules, so most top-level entries in /teams are
+// refs back to a copy nested inside an earlier team. Index every $id to resolve them.
+function indexById(node, index = new Map()) {
+  if (Array.isArray(node)) {
+    for (const item of node) indexById(item, index);
+    return index;
+  }
+  if (node && typeof node === 'object') {
+    if (node.$id != null) index.set(String(node.$id), node);
+    for (const value of Object.values(node)) indexById(value, index);
+  }
+  return index;
+}
+
+// The /teams payload is enormous — each team carries its full schedule, roster and
+// nested club records. The only thing we need from it is the pod the league has
+// assigned each team, published as a name (e.g. "Southeast") on team.statistics.pod.
+// "Overall" means the division isn't split; "TBD" means pods aren't drawn yet.
+function slimTeams(raw) {
+  const arr = extractValues(raw);
+  if (!Array.isArray(arr)) return raw;
+  const byId = indexById(raw);
+  const deref = node => (node && node.$ref != null ? byId.get(String(node.$ref)) : node);
+  return {
+    $values: arr.map(entry => {
+      const team = deref(entry) || {};
+      const stats = deref(team.statistics) || {};
+      return {
+        teamId: team.teamId ?? null,
+        teamName: team.teamName ?? null,
+        pod: stats.pod ?? null,
+      };
+    }),
+  };
+}
+
 function pickKeys(obj, keepSet) {
   const out = {};
   for (const key of Object.keys(obj)) {
@@ -152,17 +190,20 @@ async function fetchWithRetry(url, retries = 3, delayMs = 1000) {
 
 async function fetchDivisionData(apiBase, divisionId) {
   const divBase = `${apiBase}/divisions/${divisionId}`;
-  const [matchupsRes, playersRes, playoffMatchupsRes] = await Promise.all([
+  const [matchupsRes, playersRes, playoffMatchupsRes, teamsRes] = await Promise.all([
     fetch(`${divBase}/matchups`),
     fetch(`${divBase}/players`),
     fetch(`${divBase}/matchups?playoffs=true`),
+    fetch(`${divBase}/teams`),
   ]);
   await checkResponse(matchupsRes, `${divBase}/matchups`);
   await checkResponse(playersRes, `${divBase}/players`);
   await checkResponse(playoffMatchupsRes, `${divBase}/matchups?playoffs=true`);
+  await checkResponse(teamsRes, `${divBase}/teams`);
   const matchupsRaw = await matchupsRes.json();
   const players = await playersRes.json();
   const playoffMatchupsRaw = await playoffMatchupsRes.json();
+  const teamsRaw = await teamsRes.json();
 
   const matchupsArray = extractValues(matchupsRaw);
   if (!Array.isArray(matchupsArray)) {
@@ -200,7 +241,7 @@ async function fetchDivisionData(apiBase, divisionId) {
       )
     : [];
 
-  return { matchupsRaw, players, matchupDetails: individualDetails, playoffMatchupsRaw, playoffMatchupDetails: playoffIndividualDetails };
+  return { matchupsRaw, players, teamsRaw, matchupDetails: individualDetails, playoffMatchupsRaw, playoffMatchupDetails: playoffIndividualDetails };
 }
 
 async function downloadLatestApiData(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
@@ -293,7 +334,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
     try {
       const divisionApiBase = div.apiBase || apiBase;
-      const { matchupsRaw, players, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(divisionApiBase, div.divisionId);
+      const { matchupsRaw, players, teamsRaw, matchupDetails, playoffMatchupsRaw, playoffMatchupDetails } = await fetchDivisionData(divisionApiBase, div.divisionId);
 
       const matchupsArray = extractValues(matchupsRaw);
       console.log(`  Found ${matchupsArray.length} matchups.`);
@@ -307,6 +348,11 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
 
       fs.writeFileSync(path.join(divDataDir, 'matchups.json'), jsonStringify(slimMatchups(matchupsRaw)));
       fs.writeFileSync(path.join(divDataDir, 'playoffMatchups.json'), jsonStringify(slimPlayoffMatchups(playoffMatchupsRaw)));
+
+      const slimTeamList = slimTeams(teamsRaw);
+      fs.writeFileSync(path.join(divDataDir, 'teams.json'), jsonStringify(slimTeamList));
+      const podNames = [...new Set((slimTeamList.$values || []).map(t => t.pod).filter(Boolean))];
+      console.log(`  Found ${(slimTeamList.$values || []).length} teams (pods: ${podNames.join(', ') || 'none reported'}).`);
 
       const slimmed = slimPlayers(players);
       fs.writeFileSync(path.join(divDataDir, 'players.json'), jsonStringify(slimmed));

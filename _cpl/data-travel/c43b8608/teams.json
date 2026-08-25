@@ -1,0 +1,109 @@
+{
+  "$values": [
+    {
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
+      "teamName": "Dill Dinkers Lansdale",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
+      "teamName": "Montville Dragons",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
+      "teamName": "Montville Rocks",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "teamName": "One Love",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
+      "teamName": "PCKLRAMA",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "teamName": "Pickleball Kingdom Watchung",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "teamName": "PickleRage Union County",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "teamName": "Picklr Newark",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "teamName": "Stelton Sports",
+      "pod": "Southeast"
+    }
+  ]
+}

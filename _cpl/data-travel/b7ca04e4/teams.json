@@ -1,0 +1,164 @@
+{
+  "$values": [
+    {
+      "teamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "teamName": "ACE Downingtown",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "teamName": "Ballers Philly",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "teamName": "Bounce Tempest",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "teamName": "Delco Turf & Pickle",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "teamName": "Dill Dinkers Freehold",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "teamName": "Forward",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9998d601-16b1-4156-b976-12a64d545c84",
+      "teamName": "Jersey Devil Green",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "fc5381d3-0001-4cf0-a058-186d3b8bc9f3",
+      "teamName": "Jersey Devil Navy",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "13cf2b33-c643-4783-a330-da8e16e9cc59",
+      "teamName": "LBF Pickleball",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "teamName": "Open Play",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "teamName": "Pickle Juice Blackwood",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "teamName": "Pickleball Kingdom Lehigh Valley",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "teamName": "Pickleball Kingdom Watchung",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "66b2868d-5c48-432a-8cc2-9a55e07be5b2",
+      "teamName": "Picklr Exton",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
+      "teamName": "Picklr Manahawkin",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "teamName": "Picklr Newark",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "teamName": "PKLD",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "teamName": "Players Courtyard",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "TBD"
+    }
+  ]
+}

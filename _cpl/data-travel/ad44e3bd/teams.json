@@ -1,0 +1,54 @@
+{
+  "$values": [
+    {
+      "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "teamName": "Flemington Blue",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "teamName": "Flemington Green",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "teamName": "Life Time Red Bank",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "teamName": "Pickleball Lehigh Valley",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "teamName": "PKLD",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "TBD"
+    }
+  ]
+}

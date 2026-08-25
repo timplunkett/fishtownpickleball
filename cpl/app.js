@@ -391,6 +391,23 @@ function renderSummary() {
     `games are played.`;
 }
 
+// Standings sections follow the schedule — teams that actually play each other.
+// They borrow the league's pod name only when a pod contains a whole section;
+// otherwise they stay numbered, because a team's opponents would sit outside it.
+function podLabel(pod) {
+  const names = DATA.meta && DATA.meta.podNames;
+  const name = names && names[pod - 1];
+  return name || `Pod ${pod}`;
+}
+
+// The league's own pod for a team ("Southeast"), shown as a tag. Suppressed when
+// the section is already named after it, so the label isn't rendered twice.
+function reportedPodTag(team) {
+  const reported = team && team.reportedPod;
+  if (!reported || reported === podLabel(team.pod)) return '';
+  return `<span class="tag pod-tag">${escapeHtml(reported)}</span>`;
+}
+
 function renderTeams() {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
   if (podCount <= 1) {
@@ -398,7 +415,7 @@ function renderTeams() {
       .map((team, index) => `
         <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
           <div class="seed">#${index + 1}</div>
-          <h3>${escapeHtml(team.name)}</h3>
+          <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
@@ -417,7 +434,7 @@ function renderTeams() {
       .map((team, index) => `
         <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
           <div class="seed">#${index + 1}</div>
-          <h3>${escapeHtml(team.name)}</h3>
+          <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
@@ -425,7 +442,7 @@ function renderTeams() {
         </div>
       `)
       .join('');
-    sections.push(`<div class="pod-section"><h3 class="pod-heading">Pod ${p}</h3><div class="tgrid">${cards}</div></div>`);
+    sections.push(`<div class="pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3><div class="tgrid">${cards}</div></div>`);
   }
   elements.teams.innerHTML = sections.join('');
 }
@@ -441,15 +458,22 @@ function renderTeamFilterOptions() {
 
 function renderPodFilterOptions() {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
-  if (podCount <= 1) {
+  const reported = (DATA.meta && DATA.meta.reportedPods) || null;
+  // Filter on the league's own pods when it names them: that's the finer and more
+  // meaningful grouping, even where it cuts across the schedule sections. Divisions
+  // without reported pods fall back to filtering by section.
+  const options = reported && reported.length > 1
+    ? reported.map((name) => ({ value: name, label: name }))
+    : Array.from({ length: podCount }, (_, i) => ({ value: String(i + 1), label: podLabel(i + 1) }));
+
+  if (options.length <= 1) {
     elements.pod.hidden = true;
     return;
   }
+  elements.pod.dataset.mode = reported && reported.length > 1 ? 'reported' : 'section';
   elements.pod.innerHTML = [
     '<option value="">All pods</option>',
-    ...Array.from({ length: podCount }, (_, i) => i + 1).map(
-      (p) => `<option value="${p}">Pod ${p}</option>`,
-    ),
+    ...options.map(({ value, label }) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`),
   ].join('');
   elements.pod.hidden = false;
 }
@@ -602,7 +626,8 @@ function renderCell(player, key) {
 function getFilteredPlayers() {
   const query = elements.search.value.trim().toLowerCase();
   const teamFilter = elements.team.value;
-  const podFilter = Number(elements.pod.value) || 0;
+  const podFilter = elements.pod.value;
+  const podFilterMode = elements.pod.dataset.mode;
   const genderFilter = elements.gender.value;
   const matchFilter = Number(elements.minGames.value);
   const captainFilter = elements.captain.value;
@@ -613,7 +638,8 @@ function getFilteredPlayers() {
       (!teamFilter || player.team === teamFilter) &&
       (!podFilter || (() => {
         const t = DATA.teams.find((tm) => tm.name === player.team);
-        return t && t.pod === podFilter;
+        if (!t) return false;
+        return podFilterMode === 'reported' ? t.reportedPod === podFilter : t.pod === Number(podFilter);
       })()) &&
       (!genderFilter || player.gender === genderFilter) &&
       (!captainFilter || player.isCaptain) &&
@@ -1722,7 +1748,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
   const rankTeams = podCount > 1 ? DATA.teams.filter((t) => t.pod === team.pod) : DATA.teams;
   const rank = rankTeams.findIndex((candidate) => candidate.name === team.name) + 1;
-  const rankLabel = podCount > 1 ? `#${rank} in Pod ${team.pod}` : `#${rank} in standings`;
+  const rankLabel = podCount > 1 ? `#${rank} in ${escapeHtml(podLabel(team.pod))}` : `#${rank} in standings`;
   const roster = DATA.players
     .filter((player) => player.team === team.name);
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
@@ -1814,6 +1840,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
       <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
       <div class="team-meta">
         <span><b>${rankLabel}</b></span>
+        ${team.reportedPod ? `<span>Pod <b>${escapeHtml(team.reportedPod)}</b></span>` : ''}
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
@@ -2036,7 +2063,7 @@ function renderResultsGrid() {
   const sections = [];
   for (let p = 1; p <= podCount; p++) {
     const podTeams = DATA.teams.filter((t) => t.pod === p).map((t) => t.name);
-    sections.push(`<div class="grid-pod-section"><h3 class="pod-heading">Pod ${p}</h3>${renderGridForTeams(podTeams)}</div>`);
+    sections.push(`<div class="grid-pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3>${renderGridForTeams(podTeams)}</div>`);
   }
   elements.gridHost.innerHTML = `${sections.join('')}${cap}`;
 }
