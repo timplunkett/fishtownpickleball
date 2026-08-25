@@ -26461,8 +26461,10 @@
     "firstName": "Sarah",
     "lastName": "Nazario",
     "dupr": "8MM99V",
-    "duprRating": null,
-    "lastSeen": "2026-08-25"
+    "duprRating": "3.885",
+    "lastSeen": "2026-08-25",
+    "duprNumericId": 7189880268,
+    "duprProvisional": false
   },
   {
     "playerId": "1e83a359-47bb-49ae-bb0b-116dbd04ef74",
@@ -26470,6 +26472,7 @@
     "lastName": "Ferrante",
     "dupr": "WKX90G",
     "duprRating": null,
-    "lastSeen": "2026-08-25"
+    "lastSeen": "2026-08-25",
+    "duprNumericId": 7105790936
   }
 ]
