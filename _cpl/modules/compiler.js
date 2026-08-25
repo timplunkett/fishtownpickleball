@@ -1,150 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 const { filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
+const { normalizeName: norm, getTravelDivisionSortKey } = require('./shared');
+const { getDivisionBracket } = require('./brackets');
+const { assignPods } = require('./pods');
+const {
+  isForfeit,
+  deriveProvisionalOutcome,
+  computeRatings,
+  computeWeeklyRatingHistory,
+  computePairSynergy,
+} = require('./ratings');
+const {
+  escapeBootstrapString,
+  buildBootstrapDivisionsLiteral,
+  buildBootstrapSource,
+  buildBootstrapRuntimeSource,
+} = require('./bootstrap-gen');
 
 const round1 = n => Math.round(n * 10) / 10;
 const ratio = (wins, losses) => {
   const total = wins + losses;
   return total ? wins / total : 0;
 };
-const norm = s => (s || "").replace(/\s+/g, " ").trim().toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
-const escapeBootstrapString = value => String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-
-function isGenderedTravelDivisionName(name) {
-  return /\b(women'?s?|men'?s?)\b/i.test(String(name || ''));
-}
-
-function formatTravelDivisionLabel(name) {
-  const text = String(name || '').trim();
-  const match = text.match(/^(\d+(?:\.\d+)?)\s+(women'?s?|men'?s?)$/i);
-  if (!match) return text;
-  return `${match[2]} ${match[1]}`;
-}
-
-function getTravelDivisionSortKey(name) {
-  const text = formatTravelDivisionLabel(name);
-  const ratingMatch = text.match(/(\d+(?:\.\d+)?)/);
-  const rating = ratingMatch ? Number(ratingMatch[1]) : Number.POSITIVE_INFINITY;
-  const genderedRank = isGenderedTravelDivisionName(text) ? 1 : 0;
-  return { rating, genderedRank, text: text.toLowerCase() };
-}
-
-function buildBootstrapDivisionsLiteral(divisions) {
-  return divisions.map((division) => {
-    const entries = [
-      `slug: '${escapeBootstrapString(division.slug)}'`,
-      division.clubName ? `clubName: '${escapeBootstrapString(division.clubName)}'` : null,
-      `divisionName: '${escapeBootstrapString(division.divisionName)}'`,
-    ].filter(Boolean);
-
-    return `    { ${entries.join(', ')} }`;
-  }).join(',\n');
-}
-
-function buildBootstrapDatasetsLiteral(datasets) {
-  const entries = Object.entries(datasets).map(([datasetName, fileName]) => (
-    `    '${escapeBootstrapString(datasetName)}': '${escapeBootstrapString(fileName)}'`
-  ));
-
-  return entries.length
-    ? `{\n${entries.map((entry) => `      ${entry.trimStart()}`).join(',\n')}\n    }`
-    : '{}';
-}
-
-function buildBootstrapSource({
-  divisionsLiteral,
-  dashboardPath,
-  defaultSlug,
-  divisionsGlobal,
-  testDatasets,
-}) {
-  return `'use strict';
-
-(() => {
-  const DIVISIONS = Object.freeze([
-${divisionsLiteral}
-  ]);
-  const CONFIG = Object.freeze({
-    dashboardPath: '${dashboardPath}',
-    defaultSlug: '${defaultSlug}',
-    divisionsGlobal: '${divisionsGlobal}',
-    testDatasets: Object.freeze(${buildBootstrapDatasetsLiteral(testDatasets)}),
-  });
-  if (typeof window.initCplBootstrap !== 'function') {
-    throw new Error('bootstrap-runtime.js must load before bootstrap.js');
-  }
-  window.initCplBootstrap({ divisions: DIVISIONS, config: CONFIG });
-})();
-`;
-}
-
-function buildBootstrapRuntimeSource() {
-  return `'use strict';
-
-(() => {
-  const LOCAL_HOSTS = new Set(['', 'localhost', '127.0.0.1', '::1']);
-
-  function appendScript(src, onload, onerror) {
-    const script = document.createElement('script');
-    script.src = src;
-    script.async = false;
-    script.onload = onload || null;
-    script.onerror = onerror || null;
-    document.body.appendChild(script);
-  }
-
-  function isLocalHost() {
-    return LOCAL_HOSTS.has(window.location.hostname);
-  }
-
-  function getQueryParam(name) {
-    return new URLSearchParams(window.location.search).get(name) || '';
-  }
-
-  function loadApp() {
-    const loadAppScript = () => appendScript('../app.js');
-    appendScript('../dupr-format.js', loadAppScript, loadAppScript);
-  }
-
-  function loadDataWithFallback(src) {
-    appendScript(src, loadApp, () => appendScript('data.js', loadApp));
-  }
-
-  function resolveDatasetFile(config) {
-    const requestedDataset = getQueryParam('dataset');
-    if (!requestedDataset || !isLocalHost()) return '';
-    return config.testDatasets[requestedDataset] || '';
-  }
-
-  function resolveDivisionDataFile(divisions, config) {
-    const requestedDivision = getQueryParam('d');
-    const knownSlugs = new Set(divisions.map((division) => division.slug));
-    const slug = knownSlugs.has(requestedDivision) ? requestedDivision : config.defaultSlug;
-    if (!slug) return '';
-    return slug === config.defaultSlug ? 'data.js' : \`data-\${slug}.js\`;
-  }
-
-  window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
-    window[config.divisionsGlobal] = divisions;
-
-    // This bootstrap also runs on /cpl/, where data/app relative paths are different.
-    if (!window.location.pathname.includes(config.dashboardPath)) return;
-
-    window.DIVISIONS = divisions;
-
-    const datasetFile = resolveDatasetFile(config);
-    if (datasetFile) {
-      loadDataWithFallback(datasetFile);
-      return;
-    }
-
-    const dataFile = resolveDivisionDataFile(divisions, config);
-    if (!dataFile) return;
-    loadDataWithFallback(dataFile);
-  };
-})();
-`;
-}
 
 function firstValues(obj) {
   if (!obj || typeof obj !== "object") return null;
@@ -180,35 +58,6 @@ function writeDataScript(outPath, data) {
 
 function normalizeDuprCode(value) {
   return String(value || '').trim().toUpperCase();
-}
-
-function getDivisionBracket(divisionMeta) {
-  const divisionName = String(divisionMeta?.divisionName || '').trim();
-  if (!divisionName) return null;
-
-  if (divisionMeta?.leagueType === 'travel') {
-    const ratingMatch = divisionName.match(/^(\d+(?:\.\d+)?)/);
-    if (!ratingMatch) return null;
-    const min = Number(ratingMatch[1]);
-    return { min, max: min >= 4.5 ? Infinity : min + 0.5 };
-  }
-
-  const rangeMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*[–-]\s*(\d+(?:\.\d+)?)$/);
-  if (rangeMatch) {
-    return { min: Number(rangeMatch[1]), max: Number(rangeMatch[2]) };
-  }
-
-  const overMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*&\s*over$/i);
-  if (overMatch) {
-    return { min: Number(overMatch[1]), max: Infinity };
-  }
-
-  const underMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*&\s*under$/i);
-  if (underMatch) {
-    return { min: 0, max: Number(underMatch[1]) };
-  }
-
-  return null;
 }
 
 function getDivisionFitDistance(player, duprByPid, divisionBracket) {
@@ -269,254 +118,6 @@ function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = nu
   return [...byNameAndTeam.values()];
 }
 
-// --- Ridge-regularized Adjusted Plus-Minus (APM) player ratings -------------
-// Each doubles game becomes one equation: (myPair) - (theirPair) ~= pointMargin.
-// We solve for a per-player rating = net points/game contributed vs. an average
-// player, AFTER controlling for who they played with and against. Ridge (L2)
-// regularization toward zero both (a) handles the small early-season sample by
-// shrinking thin-evidence players toward average, and (b) resolves the rank
-// deficiency inherent to +1/-1 plus-minus design matrices (the all-ones vector
-// is otherwise in the null space). Larger LAMBDA = more shrinkage toward 0.
-const RIDGE_LAMBDA = 4;
-
-// A forfeit/walkover is recorded as a token 1-0 score (no real pickleball game
-// ends with the winner under 11). These reflect attendance, not play, so they
-// are excluded from the rating; standings/records still count them.
-const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
-
-function deriveProvisionalOutcome(details) {
-  const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
-  const slottedLineups = allLineups.filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2);
-  if (!slottedLineups.length) return null;
-
-  const hasUnscoredSlottedGame = slottedLineups.some((g) => !Number.isFinite(g.homeScore) || !Number.isFinite(g.awayScore));
-  if (hasUnscoredSlottedGame) return null;
-
-  let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
-  for (const g of slottedLineups) {
-    homePoints += g.homeScore;
-    awayPoints += g.awayScore;
-    if (g.homeScore > g.awayScore) homeGW++;
-    else awayGW++;
-  }
-
-  if (homeGW === awayGW) return null;
-  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: slottedLineups };
-}
-
-// Teammate-pair chemistry tuning: shrinkage strength and the minimum shared
-// games before a pair is surfaced.
-const PAIR_K = 4;
-const PAIR_MIN = 3;
-
-// Invert an n x n matrix via Gauss-Jordan elimination with partial pivoting.
-// Used here on (XᵀX + λI), which ridge keeps well-conditioned. We need the full
-// inverse (not just a single solve) so we can read its diagonal for the
-// per-player confidence score.
-function invertMatrix(A) {
-  const n = A.length;
-  // Augment [A | I] and reduce the left block to the identity.
-  const M = A.map((row, i) => {
-    const aug = row.slice();
-    for (let j = 0; j < n; j++) aug.push(i === j ? 1 : 0);
-    return aug;
-  });
-  for (let col = 0; col < n; col++) {
-    let piv = col;
-    for (let r = col + 1; r < n; r++) {
-      if (Math.abs(M[r][col]) > Math.abs(M[piv][col])) piv = r;
-    }
-    if (Math.abs(M[piv][col]) < 1e-12) continue; // ridge should prevent singularity
-    [M[col], M[piv]] = [M[piv], M[col]];
-    const pivVal = M[col][col];
-    for (let c = 0; c < 2 * n; c++) M[col][c] /= pivVal;
-    for (let r = 0; r < n; r++) {
-      if (r === col) continue;
-      const factor = M[r][col];
-      if (factor === 0) continue;
-      for (let c = 0; c < 2 * n; c++) M[r][c] -= factor * M[col][c];
-    }
-  }
-  return M.map(row => row.slice(n)); // the right block is A⁻¹
-}
-
-// Build the design from completed matchups' individual games and return
-// { [playerId]: { rating, ratingGames, confidence } }.
-//   rating      = ridge-APM net points/game vs. an average player.
-//   ratingGames = games contributing to the fit.
-//   confidence  = 0..100, the fraction of the estimate driven by real game
-//                 evidence rather than the average-player prior. Derived from
-//                 the posterior variance: conf_i = 1 - λ·[(XᵀX + λI)⁻¹]_ii.
-//                 (Data only ever shrinks variance below the prior 1/λ, so this
-//                 is guaranteed to land in [0, 1].)
-function computeRatings(completed, matchupDetailsJson, lambda = RIDGE_LAMBDA) {
-  // Collect one row per game: +1 home pair, -1 away pair, target = home margin.
-  const rows = []; // each: { plus: [id,id], minus: [id,id], margin }
-  const gamesPlayedCount = {};
-  for (const mu of completed) {
-    const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
-    const d = match ? match.details : null;
-    if (!d) continue;
-    const games = (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [];
-    for (const g of games) {
-      const h1 = g.homePlayerId1, h2 = g.homePlayerId2, a1 = g.awayPlayerId1, a2 = g.awayPlayerId2;
-      if (!h1 || !h2 || !a1 || !a2) continue;
-      if (g.homeScore == null || g.awayScore == null) continue;
-      if (isForfeit(g)) continue; // walkovers measure attendance, not play
-      rows.push({ plus: [h1, h2], minus: [a1, a2], margin: g.homeScore - g.awayScore });
-      for (const id of [h1, h2, a1, a2]) gamesPlayedCount[id] = (gamesPlayedCount[id] || 0) + 1;
-    }
-  }
-
-  const ids = Object.keys(gamesPlayedCount);
-  const idx = {};
-  ids.forEach((id, i) => { idx[id] = i; });
-  const n = ids.length;
-  if (!n) return {};
-
-  // Normal equations: (XᵀX + λI) β = Xᵀy, accumulated without materializing X.
-  const AtA = Array.from({ length: n }, () => new Array(n).fill(0));
-  const Atb = new Array(n).fill(0);
-  for (const row of rows) {
-    const signed = [[row.plus[0], 1], [row.plus[1], 1], [row.minus[0], -1], [row.minus[1], -1]];
-    for (const [idI, sI] of signed) {
-      const i = idx[idI];
-      Atb[i] += sI * row.margin;
-      for (const [idJ, sJ] of signed) AtA[i][idx[idJ]] += sI * sJ;
-    }
-  }
-  for (let i = 0; i < n; i++) AtA[i][i] += lambda;
-
-  // β = (XᵀX + λI)⁻¹ Xᵀy, and confidence from the inverse's diagonal.
-  const inv = invertMatrix(AtA);
-  const beta = new Array(n).fill(0);
-  for (let i = 0; i < n; i++) {
-    let s = 0;
-    for (let j = 0; j < n; j++) s += inv[i][j] * Atb[j];
-    beta[i] = s;
-  }
-
-  // Strength of schedule: game-weighted average rating of each player's
-  // partners and opponents, on the same points/game scale as the rating.
-  const partnerSum = new Array(n).fill(0), partnerN = new Array(n).fill(0);
-  const oppSum = new Array(n).fill(0), oppN = new Array(n).fill(0);
-  const addContext = (selfId, partnerId, oppA, oppB) => {
-    const i = idx[selfId];
-    partnerSum[i] += beta[idx[partnerId]]; partnerN[i] += 1;
-    oppSum[i] += beta[idx[oppA]] + beta[idx[oppB]]; oppN[i] += 2;
-  };
-  for (const row of rows) {
-    const [p0, p1] = row.plus, [m0, m1] = row.minus;
-    addContext(p0, p1, m0, m1);
-    addContext(p1, p0, m0, m1);
-    addContext(m0, m1, p0, p1);
-    addContext(m1, m0, p0, p1);
-  }
-
-  const out = {};
-  ids.forEach((id, i) => {
-    const conf = Math.max(0, Math.min(1, 1 - lambda * inv[i][i]));
-    out[id] = {
-      rating: Math.round(beta[i] * 10) / 10,
-      ratingGames: gamesPlayedCount[id],
-      confidence: Math.round(conf * 100),
-      strengthOfPartners: partnerN[i] ? Math.round(partnerSum[i] / partnerN[i] * 10) / 10 : null,
-      strengthOfOpponents: oppN[i] ? Math.round(oppSum[i] / oppN[i] * 10) / 10 : null,
-    };
-  });
-  return out;
-}
-
-function computeWeeklyRatingHistory(completed, matchupDetailsJson, playersById) {
-  const weeks = [...new Set(completed.map((matchup) => matchup.weekNumber))].sort((a, b) => a - b);
-  const historyByPid = {};
-
-  for (const week of weeks) {
-    const snapshotRatings = computeRatings(
-      completed.filter((matchup) => matchup.weekNumber <= week),
-      matchupDetailsJson,
-    );
-    const ratedPlayers = Object.entries(snapshotRatings)
-      .sort(([pidA, ratingA], [pidB, ratingB]) => (
-        (ratingB.rating - ratingA.rating) ||
-        (ratingB.confidence - ratingA.confidence) ||
-        (ratingB.ratingGames - ratingA.ratingGames) ||
-        (playersById.get(pidA)?.name || '').localeCompare(playersById.get(pidB)?.name || '')
-      ));
-
-    ratedPlayers.forEach(([pid, snapshot], index) => {
-      (historyByPid[pid] = historyByPid[pid] || []).push({
-        week,
-        rating: snapshot.rating,
-        confidence: snapshot.confidence,
-        rank: index + 1,
-        ratingGames: snapshot.ratingGames,
-        strengthOfPartners: snapshot.strengthOfPartners,
-        strengthOfOpponents: snapshot.strengthOfOpponents,
-      });
-    });
-  }
-
-  return { historyByPid, weeks };
-}
-
-// Teammate-pair "chemistry": how much a pair over/under-performs the result
-// their four individual ratings predict. Per game, residual = actual margin -
-// expected margin (from ratings). Synergy is the shrunk average residual,
-// Σresidual / (n + PAIR_K), which pulls thin-sample pairs toward 0.
-// Returns { duos: [...n>=PAIR_MIN, sorted...], partnersByPid: { pid: [{...}] } }.
-function computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid = {}, playerInfoById = {}) {
-  const rOf = pid => (ratings[pid] ? ratings[pid].rating : 0);
-  const nameOf = {}, teamOf = {};
-  const acc = {}; // "idA|idB" -> { a, b, n, sumRes, sumAct, sumExp, w }
-
-  for (const mu of completed) {
-    const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
-    const d = match ? match.details : null;
-    if (!d) continue;
-    const teamNameById = { [mu.homeTeamId]: mu.homeName, [mu.awayTeamId]: mu.awayName };
-    for (const p of (d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) {
-      const info = playerInfoById[p.playerId] || {};
-      nameOf[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
-      teamOf[p.playerId] = teamNameById[p.teamId] || null;
-    }
-    for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
-      if (g.homeScore == null || g.awayScore == null || isForfeit(g)) continue;
-      const H = [g.homePlayerId1, g.homePlayerId2], A = [g.awayPlayerId1, g.awayPlayerId2];
-      if (H.concat(A).some(x => !x)) continue;
-      const expH = (rOf(H[0]) + rOf(H[1])) - (rOf(A[0]) + rOf(A[1]));
-      const actH = g.homeScore - g.awayScore;
-      const record = (pair, act, exp) => {
-        const [a, b] = pair.slice().sort();
-        const e = acc[`${a}|${b}`] || (acc[`${a}|${b}`] = { a, b, n: 0, sumRes: 0, sumAct: 0, sumExp: 0, w: 0 });
-        e.n++; e.sumRes += act - exp; e.sumAct += act; e.sumExp += exp; if (act > 0) e.w++;
-      };
-      record(H, actH, expH);
-      record(A, -actH, -expH);
-    }
-  }
-
-  const entries = Object.values(acc).map(e => ({
-    a: nameOf[e.a], b: nameOf[e.b], team: homeTeamByPid[e.a] || homeTeamByPid[e.b] || teamOf[e.a],
-    n: e.n, w: e.w, l: e.n - e.w,
-    synergy: Math.round(e.sumRes / (e.n + PAIR_K) * 10) / 10,
-    avgActual: Math.round(e.sumAct / e.n * 10) / 10,
-    avgExpected: Math.round(e.sumExp / e.n * 10) / 10,
-    aId: e.a, bId: e.b,
-  }));
-  const duos = entries.filter(e => e.n >= PAIR_MIN).sort((x, y) => y.synergy - x.synergy);
-
-  const partnersByPid = {};
-  for (const e of entries) {
-    if (e.n < PAIR_MIN) continue;
-    (partnersByPid[e.aId] = partnersByPid[e.aId] || []).push({ name: e.b, n: e.n, synergy: e.synergy });
-    (partnersByPid[e.bId] = partnersByPid[e.bId] || []).push({ name: e.a, n: e.n, synergy: e.synergy });
-  }
-  for (const pid of Object.keys(partnersByPid)) partnersByPid[pid].sort((x, y) => y.synergy - x.synergy);
-
-  return { duos, partnersByPid };
-}
-
 function loadDuprByPid() {
   const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
   if (!fs.existsSync(globalPlayersPath)) return {};
@@ -551,182 +152,15 @@ function computeTypicalDay(matchups) {
   return DAY_NAMES[topDay];
 }
 
-// Pod values the league publishes when there is nothing meaningful to report:
-// "Overall" for an undivided division, "TBD" before the pods have been drawn.
-const PLACEHOLDER_POD_NAMES = new Set(['overall', 'tbd', 'n/a', 'none']);
-
-// Sections come from the schedule: connected sub-groups of teams that only ever
-// play each other and never meet teams in another sub-group. Uses all matchups
-// (completed + scheduled) so the structure is known before the season ends. This
-// is the grouping standings, seeding and the head-to-head grid all assume, because
-// it's the only one guaranteed to contain every matchup it's asked to display.
-function inferPodsFromSchedule(teamArr, matchups) {
-  const parent = {};
-  const seed = name => { if (name && !parent[name]) parent[name] = name; };
-  for (const m of matchups) { seed(m.homeName); seed(m.awayName); }
-  for (const t of teamArr) seed(t.name);
-  const find = n => { while (parent[n] !== n) { parent[n] = parent[parent[n]]; n = parent[n]; } return n; };
-  for (const m of matchups) {
-    if (m.homeName && m.awayName) {
-      const ra = find(m.homeName), rb = find(m.awayName);
-      if (ra !== rb) parent[ra] = rb;
-    }
-  }
-  // Number pods by first appearance in the (already sorted/ranked) team list.
-  const numberByRoot = {};
-  let next = 1;
-  const byTeam = new Map();
-  for (const t of teamArr) {
-    const root = find(t.name);
-    if (!numberByRoot[root]) numberByRoot[root] = next++;
-    byTeam.set(t.name, numberByRoot[root]);
-  }
-  return { byTeam, podCount: next - 1, podNames: null };
-}
-
-// The pod name the league reports per team in /teams. This is a regional label,
-// not a scheduling group — teams routinely play opponents in other pods — so it is
-// carried alongside the schedule sections rather than replacing them.
-// Returns null when any team is missing a usable pod.
-function podsFromApi(teamArr, podNameByTeam) {
-  if (!podNameByTeam || !podNameByTeam.size) return null;
-  const nameByTeam = new Map();
-  for (const t of teamArr) {
-    const raw = podNameByTeam.get(String(t.name).trim());
-    const name = typeof raw === 'string' ? raw.trim() : '';
-    if (!name || PLACEHOLDER_POD_NAMES.has(name.toLowerCase())) return null;
-    nameByTeam.set(t.name, name);
-  }
-  const podNames = [...new Set(nameByTeam.values())].sort((a, b) => a.localeCompare(b));
-  const numberByName = new Map(podNames.map((name, i) => [name, i + 1]));
-  const byTeam = new Map();
-  for (const [team, name] of nameByTeam) byTeam.set(team, numberByName.get(name));
-  return { byTeam, podCount: podNames.length, podNames };
-}
-
-// Group members by pod for logging/annotation, keyed by pod name when available.
-function podGroups({ byTeam, podNames }) {
-  const groups = {};
-  for (const [team, number] of byTeam) {
-    const key = (podNames && podNames[number - 1]) || `Pod ${number}`;
-    (groups[key] = groups[key] || []).push(team);
-  }
-  for (const members of Object.values(groups)) members.sort((a, b) => a.localeCompare(b));
-  return groups;
-}
-
-// Count matchups whose two teams sit in different reported pods. Zero means the
-// reported pods partition the schedule — nobody plays outside their pod.
-function countCrossPodMatchups({ byTeam }, matchups) {
-  let cross = 0;
-  for (const m of matchups) {
-    if (!m.homeName || !m.awayName) continue;
-    const home = byTeam.get(m.homeName), away = byTeam.get(m.awayName);
-    if (home == null || away == null) continue;
-    if (home !== away) cross++;
-  }
-  return cross;
-}
-
-// Reported pods sometimes arrive as lettered halves of one region ("Northeast A",
-// "Northeast B"). Map each to its shared base name, but only where every team in
-// that base sits in a single section — otherwise the collapsed name would describe
-// two different sections and stop identifying either.
-function collapsePodVariants(teamArr, reported) {
-  const baseOf = name => {
-    const match = /^(.*\S)\s+(?:[A-Za-z]|\d+)$/.exec(name);
-    return match ? match[1] : name;
-  };
-  const variantsByBase = new Map();
-  for (const name of reported.podNames) {
-    const base = baseOf(name);
-    if (!variantsByBase.has(base)) variantsByBase.set(base, []);
-    variantsByBase.get(base).push(name);
-  }
-  const collapsed = new Map();
-  for (const [base, variants] of variantsByBase) {
-    const sections = new Set(
-      teamArr.filter(t => variants.includes(t.reportedPod)).map(t => t.pod),
-    );
-    const collapsible = variants.length > 1 && sections.size === 1;
-    for (const name of variants) collapsed.set(name, collapsible ? base : name);
-  }
-  return collapsed;
-}
-
-// Label each section with the reported pods it actually contains, joined when it
-// spans more than one — a section holding Northeast A/B and Northwest A/B reads
-// "Northeast / Northwest". That stays honest about the span, where naming the
-// section after a single one of its pods would not. Sections that would end up
-// sharing a label are indistinguishable, so those divisions stay numeric.
-function labelSectionsFromReportedPods(teamArr, sections, reported) {
-  const collapsed = collapsePodVariants(teamArr, reported);
-  const names = [];
-  for (let p = 1; p <= sections.podCount; p++) {
-    const members = teamArr.filter(t => t.pod === p);
-    if (!members.length || members.some(t => !t.reportedPod)) return null;
-    names[p - 1] = [...new Set(members.map(t => collapsed.get(t.reportedPod) || t.reportedPod))]
-      .sort((a, b) => a.localeCompare(b))
-      .join(' / ');
-  }
-  return names.every(Boolean) && new Set(names).size === names.length ? names : null;
-}
-
-// Assign each team its section (`pod`, `podName`) plus the league's own label for it
-// (`reportedPod`). Mutates teamArr and returns the matching meta fields.
-function assignPods(teamArr, matchups, podNameByTeam) {
-  const sections = inferPodsFromSchedule(teamArr, matchups);
-  const reported = podsFromApi(teamArr, podNameByTeam);
-
-  for (const t of teamArr) {
-    t.pod = sections.byTeam.get(t.name) || 1;
-    t.reportedPod = reported ? reported.podNames[reported.byTeam.get(t.name) - 1] : null;
-  }
-
-  // Reported pods are a regional label, not a scheduling group: teams routinely play
-  // opponents in other pods. Sections therefore stay schedule-based, and take their
-  // label from every reported pod they contain rather than from any single one.
-  const crossPod = reported ? countCrossPodMatchups(reported, matchups) : 0;
-  const podNames = reported ? labelSectionsFromReportedPods(teamArr, sections, reported) : null;
-  for (const t of teamArr) t.podName = podNames ? podNames[t.pod - 1] : null;
-
-  const meta = {
-    podCount: sections.podCount,
-    podNames,
-    podSource: podNames ? 'api' : 'schedule',
-    reportedPods: reported ? reported.podNames : null,
-  };
-
-  if (sections.podCount > 1) {
-    console.warn(`  ⚠️  ${sections.podCount} pods in this division (labels: ${meta.podSource}).`);
-    for (const [label, members] of Object.entries(podGroups({ byTeam: sections.byTeam, podNames }))) {
-      console.warn(`     ${label}: ${members.join(', ')}`);
-    }
-  }
-
-  // Annotation only (never used to section the UI): the league's pods are a regional
-  // label and teams often play across them. Record how far apart the two groupings
-  // are so the difference stays reviewable in the build log and the emitted data.
-  if (reported && crossPod > 0) {
-    const scheduled = matchups.filter(m => m.homeName && m.awayName).length;
-    meta.podMismatch = {
-      crossPodMatchups: crossPod,
-      totalMatchups: scheduled,
-      reported: podGroups(reported),
-      schedule: podGroups({ byTeam: sections.byTeam, podNames: null }),
-    };
-    console.warn(`  ⚠️  ${reported.podCount} reported pods do not partition the schedule: ${crossPod}/${scheduled} matchups cross a pod boundary. Sections stay schedule-based and are labelled with every pod they span.`);
-  }
-
-  return meta;
-}
-
 function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
   const duprByPid = loadDuprByPid();
   const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid, divisionMeta);
+
+  // Detail records keyed by matchup for O(1) lookups everywhere below.
+  const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
 
   // Pod assignments as reported by the league's /teams endpoint, keyed by team name
   // (the only identifier the matchup feed and standings share). Missing file means
@@ -846,8 +280,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   }
 
   for (const mu of completed) {
-    const match = matchupDetailsJson.find(item => item.matchupId === mu.matchupId);
-    const d = match ? match.details : null;
+    const d = detailById.get(mu.matchupId) || null;
 
     const homeId = mu.homeTeamId, awayId = mu.awayTeamId;
     TEAMNAME[homeId] = mu.homeName; TEAMNAME[awayId] = mu.awayName;
@@ -960,10 +393,10 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
   }
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
-  const ratings = computeRatings(completed, matchupDetailsJson);
-  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, matchupDetailsJson, players);
+  const ratings = computeRatings(completed, detailById);
+  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, detailById, players);
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, matchupDetailsJson, ratings, homeTeamByPid, playerInfoById);
+  const { duos, partnersByPid } = computePairSynergy(completed, detailById, ratings, homeTeamByPid, playerInfoById);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -1030,7 +463,6 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
 
   // Full match list (completed + scheduled) and per-team format splits, for the
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
-  const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
   // Build nameById from the complete player roster (players.json) so it works
   // even for upcoming matchups whose matchupPlayerStats has been omitted.
   const nameById = {};
@@ -1339,4 +771,4 @@ function buildPlayerIndex() {
   console.log(`✓ player-index.js written (${entries.length} player-division entries).`);
 }
 
-module.exports = { compileDashboardHtml, buildPlayerIndex };
+module.exports = { compileDashboardHtml, buildPlayerIndex, selectCanonicalRosterPlayers, writeDataScript };
