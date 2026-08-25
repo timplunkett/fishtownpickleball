@@ -239,8 +239,8 @@ function computePairSynergy(completed, detailByMatchupId, ratings, homeTeamByPid
   const partnersByPid = {};
   for (const e of entries) {
     if (e.n < PAIR_MIN) continue;
-    (partnersByPid[e.aId] = partnersByPid[e.aId] || []).push({ name: e.b, n: e.n, synergy: e.synergy });
-    (partnersByPid[e.bId] = partnersByPid[e.bId] || []).push({ name: e.a, n: e.n, synergy: e.synergy });
+    (partnersByPid[e.aId] = partnersByPid[e.aId] || []).push({ pid: e.bId, name: e.b, n: e.n, synergy: e.synergy });
+    (partnersByPid[e.bId] = partnersByPid[e.bId] || []).push({ pid: e.aId, name: e.a, n: e.n, synergy: e.synergy });
   }
   for (const pid of Object.keys(partnersByPid)) partnersByPid[pid].sort((x, y) => y.synergy - x.synergy);
 

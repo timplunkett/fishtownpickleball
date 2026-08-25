@@ -84,13 +84,20 @@ const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
 ));
 
 // Build a name → rating lookup from DATA (data.js loads before app.js).
+// Game logs reference players by display name, so expectation math stays
+// name-keyed; identity-sensitive lookups (routes, ranks, modals) use playerId.
 const DUPR_RATINGS = window.DUPR_RATINGS || {};
 const playerRatingByName = Object.fromEntries(
   DATA.players
     .filter((p) => p.rating != null)
     .map((p) => [p.name, p.rating]),
 );
-const currentRatingRankByName = Object.fromEntries(
+const playersById = new Map(
+  DATA.players
+    .filter((player) => player.playerId)
+    .map((player) => [player.playerId, player]),
+);
+const currentRatingRankByPid = new Map(
   DATA.players
     .filter((player) => player.rating != null)
     .slice()
@@ -100,8 +107,22 @@ const currentRatingRankByName = Object.fromEntries(
       (playerB.ratingGames - playerA.ratingGames) ||
       playerA.name.localeCompare(playerB.name)
     ))
-    .map((player, index) => [player.name, index + 1]),
+    .map((player, index) => [player.playerId, index + 1]),
 );
+
+// The stable key a player is addressed by in URLs and data- attributes:
+// playerId when known, slugified name as the legacy fallback.
+function routeKeyForPlayer(player) {
+  return player.playerId || slugify(player.name);
+}
+
+// Resolve a ?player= value: playerId first, then legacy name-slug links.
+function findPlayerByRouteParam(param) {
+  if (!param) return null;
+  return playersById.get(param) ||
+    DATA.players.find((candidate) => slugify(candidate.name) === param) ||
+    null;
+}
 const ratingHistoryWeeks = Array.isArray(DATA.meta.ratingHistoryWeeks) && DATA.meta.ratingHistoryWeeks.length
   ? DATA.meta.ratingHistoryWeeks
   : (() => {
@@ -287,6 +308,49 @@ function pluralize(count, singular, plural = `${singular}s`) {
   return count === 1 ? singular : plural;
 }
 
+// Per-player detail (match log, game log, rating history, partners) ships in a
+// separate detail-*.js the compiler writes next to the data file, and is only
+// loaded once a player modal opens. Older datasets (test fixtures) inline the
+// detail on each player and have no meta.detailFile — those resolve instantly.
+let playerDetailsPromise = null;
+
+function loadPlayerDetailsScript() {
+  return new Promise((resolve) => {
+    if (!DATA.meta.detailFile) {
+      resolve();
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = DATA.meta.detailFile;
+    script.async = false;
+    script.onload = () => resolve();
+    script.onerror = () => resolve(); // degrade to summary-only modal
+    document.body.appendChild(script);
+  });
+}
+
+function mergePlayerDetails() {
+  const details = (window.CPL_DETAILS || {})[DATA.meta.divisionSlug];
+  if (!details) {
+    return;
+  }
+  for (const player of DATA.players) {
+    const detail = player.playerId ? details[player.playerId] : null;
+    if (!detail) continue;
+    player.log = detail.log || [];
+    player.games = detail.games || [];
+    player.ratingHistory = detail.ratingHistory || [];
+    player.partners = detail.partners || [];
+  }
+}
+
+function ensurePlayerDetails() {
+  if (!playerDetailsPromise) {
+    playerDetailsPromise = loadPlayerDetailsScript().then(mergePlayerDetails);
+  }
+  return playerDetailsPromise;
+}
+
 function getPlayerRatingHistory(player) {
   if (Array.isArray(player.ratingHistory) && player.ratingHistory.length) {
     return player.ratingHistory;
@@ -301,7 +365,7 @@ function getPlayerRatingHistory(player) {
     week: fallbackWeek,
     rating: player.rating,
     confidence: player.confidence,
-    rank: currentRatingRankByName[player.name] ?? null,
+    rank: currentRatingRankByPid.get(player.playerId) ?? null,
     ratingGames: player.ratingGames,
     strengthOfPartners: player.strengthOfPartners,
     strengthOfOpponents: player.strengthOfOpponents,
@@ -508,7 +572,7 @@ function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
-  return `<span class="pname" data-name="${escapeHtml(player.name)}">${escapeHtml(player.name)}${highlighted}</span>${captainTag}${subTag}`;
+  return `<span class="pname" data-player="${escapeHtml(routeKeyForPlayer(player))}">${escapeHtml(player.name)}${highlighted}</span>${captainTag}${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -711,7 +775,7 @@ function sosNarrative(player) {
 
 function renderPartnerChip(partner, className) {
   return `
-    <span class="pchip" data-name="${escapeHtml(partner.name)}">
+    <span class="pchip" data-player="${escapeHtml(partner.pid || partner.name)}">
       <b>${escapeHtml(partner.name)}</b>
       <span class="${className}">${formatSignedValue(partner.synergy, 1)}</span>
       <span class="mut">(${partner.n}g)</span>
@@ -953,7 +1017,7 @@ function renderRatingHistorySection(player) {
 }
 
 function renderMatchLogRows(player) {
-  return player.log
+  return (player.log || [])
     .map(
       (game) => `
         <tr${game.sub ? ' class="subrow"' : ''}>
@@ -1223,7 +1287,7 @@ function renderOtherLeaguesSummary(player) {
     if (entry.club) locationParts.push(escapeHtml(entry.club));
     locationParts.push(escapeHtml(entry.division));
     const locationText = locationParts.join(' — ');
-    const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}&team=${encodeURIComponent(slugify(entry.team))}&player=${encodeURIComponent(slugify(player.name))}`;
+    const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}&team=${encodeURIComponent(slugify(entry.team))}&player=${encodeURIComponent(entry.playerId || slugify(player.name))}`;
     return `<a class="other-league-entry" href="${escapeHtml(href)}">` +
       `<span class="league-badge ${badgeClass}">${badgeLabel}</span>` +
       `<span class="other-league-location">${locationText}</span>` +
@@ -1304,24 +1368,28 @@ function hideModal() {
   elements.overlay.hidden = true;
 }
 
-function showPlayerModal(name) {
-  const player = DATA.players.find((candidate) => candidate.name === name);
-
+function showPlayerModal(player) {
   if (!player) {
     return;
   }
 
-  elements.modalHead.innerHTML = renderModalHeader(player);
-  elements.modalBody.innerHTML = renderModalBody(player);
-  showModal();
+  ensurePlayerDetails().then(() => {
+    elements.modalHead.innerHTML = renderModalHeader(player);
+    elements.modalBody.innerHTML = renderModalBody(player);
+    showModal();
+  });
 }
 
-function openPlayer(name) {
+// `key` is a route key: playerId, a slugified name (legacy), or a display
+// name coming from name-only contexts like duo rows.
+function openPlayer(key) {
   routeSetByApp = true;
   const currentRoute = getRouteFromLocation();
+  const player = findPlayerByRouteParam(key) ||
+    DATA.players.find((candidate) => candidate.name === key);
   setRouteInUrl({
     team: currentRoute.team || '',
-    player: slugify(name),
+    player: player ? routeKeyForPlayer(player) : slugify(key),
   });
 }
 
@@ -1366,8 +1434,8 @@ function handleColumnSort(event) {
 function handlePlayerClick(event) {
   const nameElement = event.target.closest('.pname');
 
-  if (nameElement?.dataset.name) {
-    openPlayer(nameElement.dataset.name);
+  if (nameElement?.dataset.player) {
+    openPlayer(nameElement.dataset.player);
   }
 }
 
@@ -1403,7 +1471,7 @@ function renderDuos() {
       const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
       const rankClass = index < 3 ? ` g${index + 1}` : '';
       return `
-        <tr class="duorow" data-name="${escapeHtml(duo.a)}">
+        <tr class="duorow" data-player="${escapeHtml(duo.aId || duo.a)}">
           <td class="l"><span class="pos${rankClass}">${index + 1}</span></td>
           <td class="l">${escapeHtml(duo.a)} <span class="amp">&amp;</span> ${escapeHtml(duo.b)}</td>
           <td class="l"><span class="teamdot" style="background:${getTeamColor(duo.team)}"></span>${escapeHtml(duo.team ?? '')}</td>
@@ -1890,26 +1958,24 @@ function handleRoute() {
   if (route.team) {
     const teamSlug = route.team;
     const team = DATA.teams.find((candidate) => slugify(candidate.name) === teamSlug);
-    const player = route.player
-      ? DATA.players.find((candidate) => slugify(candidate.name) === route.player)
-      : null;
+    const player = findPlayerByRouteParam(route.player);
 
     if (team) {
       rosterSortKey = 'rating';
       rosterSortDirection = -1;
       renderTeamPage(team);
       if (player) {
-        showPlayerModal(player.name);
+        showPlayerModal(player);
       }
       return;
     }
   }
 
   if (route.player) {
-    const player = DATA.players.find((candidate) => slugify(candidate.name) === route.player);
+    const player = findPlayerByRouteParam(route.player);
 
     if (player) {
-      showPlayerModal(player.name);
+      showPlayerModal(player);
       return;
     }
   }
@@ -1929,16 +1995,16 @@ function handleTeamCardClick(event) {
 function handleDuoClick(event) {
   const row = event.target.closest('.duorow');
 
-  if (row?.dataset.name) {
-    openPlayer(row.dataset.name);
+  if (row?.dataset.player) {
+    openPlayer(row.dataset.player);
   }
 }
 
 function handlePartnerChipClick(event) {
   const chip = event.target.closest('.pchip');
 
-  if (chip?.dataset.name) {
-    openPlayer(chip.dataset.name);
+  if (chip?.dataset.player) {
+    openPlayer(chip.dataset.player);
   }
 }
 
@@ -2101,7 +2167,7 @@ function renderBeeswarm() {
     .map((node) => {
       const { player } = node;
       const opacity = (0.5 + 0.5 * (player.confidence / 100)).toFixed(2);
-      return `<circle class="swarm-dot" data-name="${escapeHtml(player.name)}" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
+      return `<circle class="swarm-dot" data-player="${escapeHtml(routeKeyForPlayer(player))}" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
     })
     .join('');
 
@@ -2127,8 +2193,8 @@ function handleGridClick(event) {
 
 function handleSwarmClick(event) {
   const dot = event.target.closest('.swarm-dot');
-  if (dot?.dataset.name) {
-    openPlayer(dot.dataset.name);
+  if (dot?.dataset.player) {
+    openPlayer(dot.dataset.player);
   }
 }
 
@@ -2138,7 +2204,7 @@ function handleSwarmOver(event) {
   if (!dot || !tip) {
     return;
   }
-  const player = DATA.players.find((candidate) => candidate.name === dot.dataset.name);
+  const player = findPlayerByRouteParam(dot.dataset.player);
   if (!player) {
     return;
   }

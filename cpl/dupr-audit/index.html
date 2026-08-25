@@ -199,7 +199,7 @@
   }
 
   function playerUrl(row) {
-    return teamUrl(row) + '&player=' + encodeURIComponent(slugify(row.name));
+    return teamUrl(row) + '&player=' + encodeURIComponent(row.playerId || slugify(row.name));
   }
 
   function linkCell(label, href) {
@@ -226,6 +226,7 @@
       var dupr = player.playerId ? duprRatings[player.playerId] : null;
       return {
         name: player.name,
+        playerId: player.playerId || null,
         team: player.team || '',
         league: league,
         division: division,

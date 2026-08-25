@@ -366,13 +366,14 @@
   }
 
   function divisionUrl(entry, playerName) {
+    var playerKey = entry.playerId || slugify(playerName);
     if (entry.team) {
       return entry.league + '/?d=' + encodeURIComponent(entry.slug) +
         '&team=' + encodeURIComponent(slugify(entry.team)) +
-        '&player=' + encodeURIComponent(slugify(playerName));
+        '&player=' + encodeURIComponent(playerKey);
     }
     return entry.league + '/?d=' + encodeURIComponent(entry.slug) +
-      '&player=' + encodeURIComponent(slugify(playerName));
+      '&player=' + encodeURIComponent(playerKey);
   }
 
   function renderResults(query) {
