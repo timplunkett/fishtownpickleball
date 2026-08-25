@@ -172,5 +172,7 @@ module.exports = {
   DEFAULT_MATCH_DURATION_HOURS,
   DEFAULT_RESULTS_WINDOW_HOURS,
   DEFAULT_TIMEZONE,
+  parseScheduledTime,
   selectDueDivisionSlugs,
+  summarizeDivisionSchedule,
 };
