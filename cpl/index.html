@@ -277,8 +277,8 @@
       </svg>
       <input type="search" id="player-search" placeholder="Type a player name…" autocomplete="off" spellcheck="false" aria-label="Search for a player">
     </div>
-    <div id="player-results" role="list" aria-live="polite"></div>
-    <p class="finder-hint" id="finder-hint">Start typing to search across all leagues and divisions</p>
+    <div id="player-results" role="list"></div>
+    <p class="finder-hint" id="finder-hint" aria-live="polite">Start typing to search across all leagues and divisions</p>
   </div>
 
 <script src="shared.js"></script>
@@ -401,12 +401,14 @@
       byKey[playerKey].push(entry);
     }
 
-    hintEl.style.display = 'none';
-
     if (!keyOrder.length) {
       resultsEl.innerHTML = '<p class="panel-empty">No players found matching \u201c' + escapeHtml(query) + '\u201d.</p>';
+      hintEl.textContent = 'No players found';
       return;
     }
+
+    // The hint doubles as the screen-reader live region for result counts.
+    hintEl.textContent = keyOrder.length + (keyOrder.length === 1 ? ' player found' : ' players found');
 
     var html = keyOrder.map(function (key) {
       var entries = byKey[key];

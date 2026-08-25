@@ -233,7 +233,10 @@ select:focus {
 
 .tcard {
   position: relative;
+  display: block;
   padding: 14px;
+  color: inherit;
+  text-decoration: none;
   border-radius: var(--radius-md);
 }
 
@@ -502,8 +505,22 @@ tbody td {
 }
 
 .pname {
+  color: inherit;
+  text-decoration: none;
   cursor: pointer;
   border-bottom: 1px dotted var(--mut);
+}
+
+/* Visible focus for the keyboard-operable controls. */
+.tcard:focus-visible,
+.pname:focus-visible,
+td.played:focus-visible,
+.duorow:focus-visible,
+.pchip:focus-visible,
+thead th:focus-visible,
+.swarm-dot:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .pname:hover,

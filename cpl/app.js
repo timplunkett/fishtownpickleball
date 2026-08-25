@@ -120,6 +120,27 @@ const currentRatingRankByPid = new Map(
     .map((player, index) => [player.playerId, index + 1]),
 );
 
+function isActivationKey(event) {
+  return event.key === 'Enter' || event.key === ' ';
+}
+
+// href for a team page that preserves the current division selection, so team
+// cards and grid cells are real links (middle-click / open-in-new-tab work).
+function teamHref(teamName) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('team', slugify(teamName));
+  url.searchParams.delete('player');
+  url.hash = '';
+  return `${url.pathname}${url.search}`;
+}
+
+function playerHref(player) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('player', routeKeyForPlayer(player));
+  url.hash = '';
+  return `${url.pathname}${url.search}`;
+}
+
 // The stable key a player is addressed by in URLs and data- attributes:
 // playerId when known, slugified name as the legacy fallback.
 function routeKeyForPlayer(player) {
@@ -467,14 +488,14 @@ function renderTeams() {
   if (podCount <= 1) {
     elements.teams.innerHTML = DATA.teams
       .map((team, index) => `
-        <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
+        <a class="tcard" href="${escapeHtml(teamHref(team.name))}" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
           <div class="seed">#${index + 1}</div>
           <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
           <div class="go">View team →</div>
-        </div>
+        </a>
       `)
       .join('');
     return;
@@ -486,14 +507,14 @@ function renderTeams() {
     const podTeams = DATA.teams.filter((t) => t.pod === p);
     const cards = podTeams
       .map((team, index) => `
-        <div class="tcard" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
+        <a class="tcard" href="${escapeHtml(teamHref(team.name))}" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
           <div class="seed">#${index + 1}</div>
           <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
           <div class="go">View team →</div>
-        </div>
+        </a>
       `)
       .join('');
     sections.push(`<div class="pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3><div class="tgrid">${cards}</div></div>`);
@@ -545,7 +566,8 @@ function renderTableHead() {
     }
 
     const classAttribute = classes.length > 0 ? ` class="${classes.join(' ')}"` : '';
-    return `<th data-k="${key}"${classAttribute}>${label}</th>`;
+    const ariaSort = key === sortKey ? (sortDirection === -1 ? 'descending' : 'ascending') : 'none';
+    return `<th scope="col" data-k="${key}" tabindex="0" aria-sort="${ariaSort}"${classAttribute}>${label}</th>`;
   }).join('');
 }
 
@@ -582,7 +604,7 @@ function renderPlayerName(player) {
   const highlighted = player.name === HIGHLIGHTED_PLAYER ? ' ★' : '';
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   const subTag = player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : '';
-  return `<span class="pname" data-player="${escapeHtml(routeKeyForPlayer(player))}">${escapeHtml(player.name)}${highlighted}</span>${captainTag}${subTag}`;
+  return `<a class="pname" href="${escapeHtml(playerHref(player))}" data-player="${escapeHtml(routeKeyForPlayer(player))}">${escapeHtml(player.name)}${highlighted}</a>${captainTag}${subTag}`;
 }
 
 function renderTeamCell(teamName) {
@@ -738,7 +760,9 @@ function renderRows(rows) {
 
 function updateSortedHeader() {
   elements.head.querySelectorAll('th').forEach((headerCell) => {
-    headerCell.classList.toggle('sorted', headerCell.dataset.k === sortKey);
+    const sorted = headerCell.dataset.k === sortKey;
+    headerCell.classList.toggle('sorted', sorted);
+    headerCell.setAttribute('aria-sort', sorted ? (sortDirection === -1 ? 'descending' : 'ascending') : 'none');
   });
 }
 
@@ -785,7 +809,7 @@ function sosNarrative(player) {
 
 function renderPartnerChip(partner, className) {
   return `
-    <span class="pchip" data-player="${escapeHtml(partner.pid || partner.name)}">
+    <span class="pchip" data-player="${escapeHtml(partner.pid || partner.name)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(partner.name)}'s player detail">
       <b>${escapeHtml(partner.name)}</b>
       <span class="${className}">${formatSignedValue(partner.synergy, 1)}</span>
       <span class="mut">(${partner.n}g)</span>
@@ -1370,12 +1394,45 @@ function renderModalBody(player) {
   `;
 }
 
+let lastFocusedElement = null;
+
 function showModal() {
+  lastFocusedElement = document.activeElement;
   elements.overlay.hidden = false;
+  elements.modalClose.focus();
 }
 
 function hideModal() {
+  if (elements.overlay.hidden) {
+    return;
+  }
   elements.overlay.hidden = true;
+  if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+    lastFocusedElement.focus();
+  }
+  lastFocusedElement = null;
+}
+
+// Keep Tab cycling inside the open modal.
+function handleModalKeydown(event) {
+  if (event.key !== 'Tab' || elements.overlay.hidden) {
+    return;
+  }
+  const focusables = elements.overlay.querySelectorAll(
+    'button, a[href], input, select, summary, [tabindex="0"]',
+  );
+  if (!focusables.length) {
+    return;
+  }
+  const first = focusables[0];
+  const last = focusables[focusables.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
 }
 
 function showPlayerModal(player) {
@@ -1445,6 +1502,7 @@ function handlePlayerClick(event) {
   const nameElement = event.target.closest('.pname');
 
   if (nameElement?.dataset.player) {
+    event.preventDefault(); // real href for middle-click; SPA routing for plain clicks
     openPlayer(nameElement.dataset.player);
   }
 }
@@ -1481,7 +1539,7 @@ function renderDuos() {
       const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
       const rankClass = index < 3 ? ` g${index + 1}` : '';
       return `
-        <tr class="duorow" data-player="${escapeHtml(duo.aId || duo.a)}">
+        <tr class="duorow" data-player="${escapeHtml(duo.aId || duo.a)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(duo.a)}'s player detail">
           <td class="l"><span class="pos${rankClass}">${index + 1}</span></td>
           <td class="l">${escapeHtml(duo.a)} <span class="amp">&amp;</span> ${escapeHtml(duo.b)}</td>
           <td class="l"><span class="teamdot" style="background:${getTeamColor(duo.team)}"></span>${escapeHtml(duo.team ?? '')}</td>
@@ -1841,7 +1899,8 @@ function renderTeamPage(team, { scroll = true } = {}) {
     if (align === 'left') classes.push('l');
     if (key === rosterSortKey) classes.push('sorted');
     const classAttr = classes.length ? ` class="${classes.join(' ')}"` : '';
-    return `<th data-rk="${key}"${classAttr}>${label}</th>`;
+    const ariaSort = key === rosterSortKey ? (rosterSortDirection === -1 ? 'descending' : 'ascending') : 'none';
+    return `<th scope="col" data-rk="${key}" tabindex="0" aria-sort="${ariaSort}"${classAttr}>${label}</th>`;
   }).join('');
 
   const rosterRows = sortedRoster
@@ -1937,9 +1996,12 @@ function renderTeamPage(team, { scroll = true } = {}) {
   elements.teamView.hidden = false;
   elements.subhead.textContent = `${team.name} — team page`;
 
-  document.getElementById('roster-table')?.querySelector('thead')?.addEventListener('click', (event) => {
+  const rosterHead = document.getElementById('roster-table')?.querySelector('thead');
+  const handleRosterSort = (event) => {
+    if (event.type === 'keydown' && !isActivationKey(event)) return;
     const th = event.target.closest('th[data-rk]');
     if (!th) return;
+    if (event.type === 'keydown') event.preventDefault();
     const key = th.dataset.rk;
     if (key === rosterSortKey) {
       rosterSortDirection *= -1;
@@ -1948,7 +2010,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
       rosterSortDirection = key === 'name' ? 1 : -1;
     }
     renderTeamPage(team, { scroll: false });
-  });
+  };
+  rosterHead?.addEventListener('click', handleRosterSort);
+  rosterHead?.addEventListener('keydown', handleRosterSort);
 
   if (scroll) window.scrollTo(0, 0);
 }
@@ -1997,6 +2061,7 @@ function handleTeamCardClick(event) {
   const card = event.target.closest('.tcard');
 
   if (card?.dataset.team) {
+    event.preventDefault(); // real href for middle-click; SPA routing for plain clicks
     routeSetByApp = true;
     setRouteInUrl({ team: card.dataset.team, player: '' });
   }
@@ -2098,7 +2163,7 @@ function renderResultsGrid() {
               className += '-multi';
             }
             const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
-            return `<td class="played ${className}" data-team="${slugify(row)}">${inner}</td>`;
+            return `<td class="played ${className}" data-team="${slugify(row)}" tabindex="0" role="link" aria-label="Open ${escapeHtml(row)} team page">${inner}</td>`;
           })
           .join('');
         return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
@@ -2177,7 +2242,7 @@ function renderBeeswarm() {
     .map((node) => {
       const { player } = node;
       const opacity = (0.5 + 0.5 * (player.confidence / 100)).toFixed(2);
-      return `<circle class="swarm-dot" data-player="${escapeHtml(routeKeyForPlayer(player))}" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
+      return `<circle class="swarm-dot" data-player="${escapeHtml(routeKeyForPlayer(player))}" tabindex="0" role="button" aria-label="Open ${escapeHtml(player.name)}'s player detail" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
     })
     .join('');
 
@@ -2271,7 +2336,21 @@ function initialize() {
   elements.modalHead.addEventListener('click', handlePartnerChipClick);
   elements.modalClose.addEventListener('click', closeModal);
   elements.overlay.addEventListener('click', handleOverlayClick);
+  elements.overlay.addEventListener('keydown', handleModalKeydown);
   document.addEventListener('keydown', handleEscapeKey);
+
+  // Keyboard activation for the click-driven interactive elements.
+  const activateOnKeydown = (handler) => (event) => {
+    if (!isActivationKey(event)) return;
+    if (!event.target.closest('[tabindex]')) return;
+    event.preventDefault();
+    handler(event);
+  };
+  elements.head.addEventListener('keydown', activateOnKeydown(handleColumnSort));
+  elements.gridHost.addEventListener('keydown', activateOnKeydown(handleGridClick));
+  elements.duoBody.addEventListener('keydown', activateOnKeydown(handleDuoClick));
+  elements.swarmHost.addEventListener('keydown', activateOnKeydown(handleSwarmClick));
+  elements.modalHead.addEventListener('keydown', activateOnKeydown(handlePartnerChipClick));
   window.addEventListener('popstate', () => {
     routeSetByApp = false;
     handleRoute();

@@ -342,10 +342,11 @@
   }
 
   function header(label, key, sortable) {
-    if (!sortable) return '<th>' + label + '</th>';
+    if (!sortable) return '<th scope="col">' + label + '</th>';
     var sorted = sortState.key === key;
     var arrow = sorted ? (sortState.direction === 1 ? ' ↑' : ' ↓') : '';
-    return '<th class="sortable' + (sorted ? ' sorted' : '') + '" data-sort="' + key + '">' + label + arrow + '</th>';
+    var ariaSort = sorted ? (sortState.direction === 1 ? 'ascending' : 'descending') : 'none';
+    return '<th scope="col" class="sortable' + (sorted ? ' sorted' : '') + '" data-sort="' + key + '" tabindex="0" aria-sort="' + ariaSort + '">' + label + arrow + '</th>';
   }
 
   function renderOutlierTable(tableId, filtered, emptyText) {
@@ -471,9 +472,11 @@
     ['above-table', 'below-table'].forEach(function (tableId) {
       var table = document.getElementById(tableId);
       if (!table) return;
-      table.addEventListener('click', function (event) {
+      var handleSort = function (event) {
+        if (event.type === 'keydown' && event.key !== 'Enter' && event.key !== ' ') return;
         var th = event.target.closest('th[data-sort]');
         if (!th) return;
+        if (event.type === 'keydown') event.preventDefault();
         var key = th.dataset.sort;
         if (sortState.key === key) {
           sortState.direction *= -1;
@@ -482,7 +485,9 @@
           sortState.direction = key === 'name' || key === 'team' || key === 'league' || key === 'division' || key === 'gender' ? 1 : -1;
         }
         renderAll();
-      });
+      };
+      table.addEventListener('click', handleSort);
+      table.addEventListener('keydown', handleSort);
     });
   }
 
