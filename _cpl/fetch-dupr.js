@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { jsonStringify } = require('./modules/json-utils');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -10,12 +11,6 @@ const MAX_CONSECUTIVE_429 = 3;
 
 const ACCESS_TOKEN = process.env.DUPR_ACCESS_TOKEN;
 
-// Serialize to JSON using literal UTF-8 characters rather than \uXXXX escapes.
-function jsonStringify(data) {
-  return JSON.stringify(data, null, 2).replace(/\\u([0-9a-f]{4})/gi, (_, code) =>
-    String.fromCharCode(parseInt(code, 16))
-  );
-}
 if (!ACCESS_TOKEN) {
   console.error('[ERROR] DUPR_ACCESS_TOKEN environment variable is not set.');
   process.exit(1);

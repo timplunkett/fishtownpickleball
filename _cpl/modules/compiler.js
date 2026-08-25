@@ -12,7 +12,6 @@ const {
   computePairSynergy,
 } = require('./ratings');
 const {
-  escapeBootstrapString,
   buildBootstrapDivisionsLiteral,
   buildBootstrapSource,
   buildBootstrapRuntimeSource,
@@ -666,7 +665,7 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
   const divisionsGlobal = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
   const bootstrapSrc = buildBootstrapSource({
     dashboardPath: `/cpl/${league}`,
-    defaultSlug: escapeBootstrapString(defaultSlug),
+    defaultSlug,
     divisionsLiteral,
     divisionsGlobal,
     testDatasets: league === 'local'

@@ -2,23 +2,22 @@
 // division list baked in at compile time) and cpl/bootstrap-runtime.js (the
 // shared loader they both call into).
 
-const escapeBootstrapString = value => String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
-
+// Division entries are emitted with JSON.stringify so any characters the API
+// sends (quotes, backslashes, even newlines) serialize into valid JS.
 function buildBootstrapDivisionsLiteral(divisions) {
   return divisions.map((division) => {
-    const entries = [
-      `slug: '${escapeBootstrapString(division.slug)}'`,
-      division.clubName ? `clubName: '${escapeBootstrapString(division.clubName)}'` : null,
-      `divisionName: '${escapeBootstrapString(division.divisionName)}'`,
-    ].filter(Boolean);
-
-    return `    { ${entries.join(', ')} }`;
+    const entry = {
+      slug: division.slug,
+      ...(division.clubName ? { clubName: division.clubName } : {}),
+      divisionName: division.divisionName,
+    };
+    return `    ${JSON.stringify(entry)}`;
   }).join(',\n');
 }
 
 function buildBootstrapDatasetsLiteral(datasets) {
   const entries = Object.entries(datasets).map(([datasetName, fileName]) => (
-    `    '${escapeBootstrapString(datasetName)}': '${escapeBootstrapString(fileName)}'`
+    `    ${JSON.stringify(datasetName)}: ${JSON.stringify(fileName)}`
   ));
 
   return entries.length
@@ -40,9 +39,9 @@ function buildBootstrapSource({
 ${divisionsLiteral}
   ]);
   const CONFIG = Object.freeze({
-    dashboardPath: '${dashboardPath}',
-    defaultSlug: '${defaultSlug}',
-    divisionsGlobal: '${divisionsGlobal}',
+    dashboardPath: ${JSON.stringify(dashboardPath)},
+    defaultSlug: ${JSON.stringify(defaultSlug)},
+    divisionsGlobal: ${JSON.stringify(divisionsGlobal)},
     testDatasets: Object.freeze(${buildBootstrapDatasetsLiteral(testDatasets)}),
   });
   if (typeof window.initCplBootstrap !== 'function') {
@@ -122,7 +121,6 @@ function buildBootstrapRuntimeSource() {
 }
 
 module.exports = {
-  escapeBootstrapString,
   buildBootstrapDivisionsLiteral,
   buildBootstrapDatasetsLiteral,
   buildBootstrapSource,

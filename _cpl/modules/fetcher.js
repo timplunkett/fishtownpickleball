@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const { extractValues, filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
+const { jsonStringify } = require('./json-utils');
+const { decodeHtmlEntities } = require('./shared');
 
 const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
 const TRAVEL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api';
@@ -8,13 +10,6 @@ const TRAVEL_GENDER_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/
 const LOCAL_DEFAULT_DIVISION_ID = '3e9b6a58-8823-46d9-8f00-81d53e63f0eb';
 const TRAVEL_REGION_ID = 'ffc383dc-fd43-4afa-9310-920c4b0545f2';
 const TRAVEL_DEFAULT_DIVISION_ID = 'b7ca04e4-a9b8-4c10-8054-e58329d8dc49';
-
-// Serialize to JSON using literal UTF-8 characters rather than \uXXXX escapes.
-function jsonStringify(data) {
-  return JSON.stringify(data, null, 2).replace(/\\u([0-9a-f]{4})/gi, (_, code) =>
-    String.fromCharCode(parseInt(code, 16))
-  );
-}
 
 function slugForDivision(divisionId) {
   return divisionId.slice(0, 8);
@@ -277,7 +272,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
         const next = {
           slug: slugForDivision(div.divisionId),
           divisionId: div.divisionId,
-          divisionName: div.divisionName.replace(/&amp;/g, '&'),
+          divisionName: decodeHtmlEntities(div.divisionName),
           isDefault: div.divisionId === TRAVEL_DEFAULT_DIVISION_ID,
           regionName: region.regionName || region.name || '',
           apiBase: sourceApiBase,
@@ -306,7 +301,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
         allDivisions.push({
           slug: slugForDivision(div.divisionId),
           divisionId: div.divisionId,
-          divisionName: div.divisionName.replace(/&amp;/g, '&'),
+          divisionName: decodeHtmlEntities(div.divisionName),
           isDefault: div.divisionId === LOCAL_DEFAULT_DIVISION_ID,
           clubName: normalizeClubName(club.name),
           clubId: club.clubId,
