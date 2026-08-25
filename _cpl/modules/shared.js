@@ -7,7 +7,7 @@
   } else {
     root.CPLShared = factory();
   }
-}(typeof self !== 'undefined' ? self : this, function () {
+}(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
 
   const HTML_ESCAPE_MAP = {

@@ -58,6 +58,35 @@ function writeDataScript(outPath, data) {
   fs.writeFileSync(outPath, `${lines.join('\n')}\n`);
 }
 
+// Per-player detail (match log, game log, rating history, partner chemistry)
+// is only needed when a player modal opens, so it ships as a separate script
+// the dashboard lazy-loads. Keyed by playerId under the division slug.
+const PLAYER_DETAIL_KEYS = ['log', 'games', 'ratingHistory', 'partners'];
+
+function splitPlayerDetails(playerArr) {
+  const detailByPid = {};
+  for (const player of playerArr) {
+    const detail = {};
+    for (const key of PLAYER_DETAIL_KEYS) {
+      detail[key] = player[key] || [];
+      delete player[key];
+    }
+    if (player.playerId) detailByPid[player.playerId] = detail;
+  }
+  return detailByPid;
+}
+
+function writeDetailScript(outPath, divisionSlug, detailByPid) {
+  const lines = [
+    '(function () {',
+    `  const DETAILS = ${JSON.stringify(detailByPid, null, 1)};`,
+    '  window.CPL_DETAILS = window.CPL_DETAILS || {};',
+    `  window.CPL_DETAILS[${JSON.stringify(divisionSlug)}] = DETAILS;`,
+    '})();',
+  ];
+  fs.writeFileSync(outPath, `${lines.join('\n')}\n`);
+}
+
 function normalizeDuprCode(value) {
   return String(value || '').trim().toUpperCase();
 }
@@ -154,7 +183,7 @@ function computeTypicalDay(matchups) {
   return DAY_NAMES[topDay];
 }
 
-function compileDivision(slug, divDataDir, outPath, divisionMeta) {
+function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta) {
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
@@ -244,6 +273,7 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     }));
     // Pods are known pre-season: the league reports them, and the schedule implies them.
     divisionMeta = { ...(divisionMeta || {}), ...assignPods(teamArr, matchups, podNameByTeam) };
+    const detailByPid = splitPlayerDetails(playerArr);
     const DATA = {
       players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       meta: {
@@ -251,10 +281,12 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
         typicalDay: computeTypicalDay(matchups),
+        detailFile: path.basename(detailOutPath),
         ...(divisionMeta || {}),
       },
     };
     writeDataScript(outPath, DATA);
+    writeDetailScript(detailOutPath, slug, detailByPid);
     console.log(`  ✓ data.js written to ${outPath} (pre-season roster only)`);
     return;
   }
@@ -613,6 +645,8 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
     playoffs.push(rec);
   }
 
+  const detailByPid = splitPlayerDetails(playerArr);
+
   const DATA = {
     players: playerArr, teams: teamArr, duos, matches, playoffs,
     meta: {
@@ -621,12 +655,14 @@ function compileDivision(slug, divDataDir, outPath, divisionMeta) {
       ratingHistoryWeeks, divisionSlug: slug,
       hasPlayoffs: playoffs.length > 0,
       typicalDay,
+      detailFile: path.basename(detailOutPath),
       ...(divisionMeta || {}),
     },
   };
 
   writeDataScript(outPath, DATA);
-  console.log(`  ✓ data.js written to ${outPath}`);
+  writeDetailScript(detailOutPath, slug, detailByPid);
+  console.log(`  ✓ data.js written to ${outPath} (+ ${path.basename(detailOutPath)})`);
 }
 
 async function compileDashboardHtml(league = 'local', { primaryOnly = false, divisionSlugs = null } = {}) {
@@ -694,7 +730,8 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     console.log(`\nCompiling: ${label}${div.divisionName} (${div.slug})`);
     try {
       const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
-      compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), {
+      const detailFile = div.isDefault ? 'detail.js' : `detail-${div.slug}.js`;
+      compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,

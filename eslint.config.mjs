@@ -3,7 +3,11 @@ import globals from 'globals';
 
 export default [
   {
-    ignores: ['cpl/local/data.js', 'cpl/local/data-*.js', 'cpl/travel/data.js', 'cpl/travel/data-*.js', 'node_modules/**', '_site/**', 'vendor/**'],
+    ignores: [
+      'cpl/local/data.js', 'cpl/local/data-*.js', 'cpl/local/detail.js', 'cpl/local/detail-*.js',
+      'cpl/travel/data.js', 'cpl/travel/data-*.js', 'cpl/travel/detail.js', 'cpl/travel/detail-*.js',
+      'node_modules/**', '_site/**', 'vendor/**',
+    ],
   },
   {
     files: ['_cpl/**/*.js'],
