@@ -107,10 +107,33 @@ function slimPlayoffMatchups(raw) {
   return { $values: arr.map(m => pickKeys(m, PLAYOFF_MATCHUP_KEEP)) };
 }
 
+// The API returns players in league-rank order, so one player's rank shift
+// reshuffles the whole array and buries the week's real changes in a diff of
+// moved blocks (a single rank change once moved 355 of 359 rows). Persist a
+// rank-independent order instead: playerId, which never changes for a person.
+// Rank itself is not lost — it stays in each row's `ranking` field.
+//
+// A player can hold more than one row in a division (rostered on one team,
+// listed as a sub on another), so the tiebreaks below make those rows
+// deterministic too. Sub rows sort first, leaving the rostered row last: the
+// compiler's team attribution (homeTeamByPid, rankByPid) keeps the last
+// non-sub row it sees, so this pins it to a stable choice rather than to
+// whichever row the API happened to rank lower that week.
+function comparePlayers(a, b) {
+  const aId = String(a.playerId || '');
+  const bId = String(b.playerId || '');
+  if (aId !== bId) return aId < bId ? -1 : 1;
+  if (!!a.isSub !== !!b.isSub) return a.isSub ? -1 : 1;
+  const aTeam = String(a.teamId || '');
+  const bTeam = String(b.teamId || '');
+  if (aTeam !== bTeam) return aTeam < bTeam ? -1 : 1;
+  return 0;
+}
+
 function slimPlayers(raw) {
   const arr = raw.$values || raw;
   if (!Array.isArray(arr)) return raw;
-  return { $values: arr.map(p => pickKeys(p, PLAYER_KEEP)) };
+  return { $values: arr.map(p => pickKeys(p, PLAYER_KEEP)).sort(comparePlayers) };
 }
 
 function slimMatchupDetails(details) {
@@ -452,4 +475,4 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
   return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
 }
 
-module.exports = { downloadLatestApiData, slugForDivision };
+module.exports = { downloadLatestApiData, slugForDivision, slimPlayers, comparePlayers };

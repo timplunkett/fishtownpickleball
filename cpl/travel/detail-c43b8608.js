@@ -314,163 +314,6 @@
   ],
   "partners": []
  },
- "ce26642b-bd69-4cbc-a478-95e060c2b0a8": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Montville Dragons",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 86,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Jhon Cifuentes",
-    "vs": [
-     "Denise Rempson",
-     "Jonathan Basa"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Yan Wang",
-    "vs": [
-     "Denise Rempson",
-     "Stephen Cordaro"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Bing Leng",
-    "vs": [
-     "Jemma Bucks",
-     "Karen Gallione"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Hongjie Liu",
-    "vs": [
-     "Janine Thompson",
-     "Jonathan Basa"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Vilayvanh Sysounthone",
-    "vs": [
-     "Karen Gallione",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Wallace Lee",
-    "vs": [
-     "Stella Ott",
-     "Lance Arlaus"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Joanne Rim",
-    "vs": [
-     "Jemma Bucks",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.7,
-    "confidence": 54,
-    "rank": 7,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.7
-   }
-  ],
-  "partners": []
- },
  "91f844b2-dd13-45a0-b66d-9b7ea751037a": {
   "log": [
    {
@@ -628,32 +471,32 @@
   ],
   "partners": []
  },
- "4f87890f-1940-405a-82a2-bd2d50b5bf21": {
+ "ce26642b-bd69-4cbc-a478-95e060c2b0a8": {
   "log": [
    {
     "week": 1,
-    "opp": "Picklr Newark",
-    "homeAway": "H",
-    "w": 6,
+    "opp": "Montville Dragons",
+    "homeAway": "A",
+    "w": 7,
     "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 68,
+    "gp": 7,
+    "pf": 147,
+    "pa": 86,
     "mx": [
      4,
      0
     ],
     "gn": [
-     2,
+     3,
      0
     ],
     "cl": [
-     0,
+     1,
      0
     ],
     "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamGW": 30,
+    "teamGL": 2,
     "sub": 0,
     "subFor": null
    }
@@ -661,15 +504,15 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Picklr Newark",
+    "opp": "Montville Dragons",
     "t": "mixed",
-    "with": "Charles Buzad",
+    "with": "Jhon Cifuentes",
     "vs": [
-     "Joy Perry",
-     "Mark Pleasanton"
+     "Denise Rempson",
+     "Jonathan Basa"
     ],
     "f": 21,
-    "a": 14,
+    "a": 7,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -677,15 +520,15 @@
    },
    {
     "wk": 1,
-    "opp": "Picklr Newark",
+    "opp": "Montville Dragons",
     "t": "mixed",
-    "with": "John Romeo",
+    "with": "Yan Wang",
     "vs": [
-     "Nancy Culley",
-     "Vincent Lamarco"
+     "Denise Rempson",
+     "Stephen Cordaro"
     ],
     "f": 21,
-    "a": 16,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -693,28 +536,28 @@
    },
    {
     "wk": 1,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "John Romeo",
-    "vs": [
-     "Joy Perry",
-     "Mark Pleasanton"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newark",
+    "opp": "Montville Dragons",
     "t": "female",
-    "with": "Jennifer Jones",
+    "with": "Bing Leng",
     "vs": [
-     "Nancy Culley",
-     "Gail Mackenzie"
+     "Jemma Bucks",
+     "Karen Gallione"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Dragons",
+    "t": "mixed",
+    "with": "Hongjie Liu",
+    "vs": [
+     "Janine Thompson",
+     "Jonathan Basa"
     ],
     "f": 21,
     "a": 15,
@@ -725,15 +568,15 @@
    },
    {
     "wk": 1,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Robert Alexander",
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Vilayvanh Sysounthone",
     "vs": [
-     "Gwen Leach",
-     "Vincent Lamarco"
+     "Karen Gallione",
+     "Janine Thompson"
     ],
     "f": 21,
-    "a": 5,
+    "a": 10,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -741,15 +584,31 @@
    },
    {
     "wk": 1,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Christina Pietrak",
+    "opp": "Montville Dragons",
+    "t": "mixed",
+    "with": "Wallace Lee",
     "vs": [
-     "Nancy Culley",
-     "Joy Perry"
+     "Stella Ott",
+     "Lance Arlaus"
     ],
     "f": 21,
-    "a": 9,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Joanne Rim",
+    "vs": [
+     "Jemma Bucks",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -759,12 +618,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 3.5,
-    "confidence": 45,
-    "rank": 3,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -1.6
+    "rating": 2.7,
+    "confidence": 54,
+    "rank": 7,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -922,6 +781,147 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "4f87890f-1940-405a-82a2-bd2d50b5bf21": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newark",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 68,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Charles Buzad",
+    "vs": [
+     "Joy Perry",
+     "Mark Pleasanton"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "John Romeo",
+    "vs": [
+     "Nancy Culley",
+     "Vincent Lamarco"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "John Romeo",
+    "vs": [
+     "Joy Perry",
+     "Mark Pleasanton"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Jennifer Jones",
+    "vs": [
+     "Nancy Culley",
+     "Gail Mackenzie"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Robert Alexander",
+    "vs": [
+     "Gwen Leach",
+     "Vincent Lamarco"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Christina Pietrak",
+    "vs": [
+     "Nancy Culley",
+     "Joy Perry"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.5,
+    "confidence": 45,
+    "rank": 3,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": []
@@ -17324,131 +17324,6 @@
   ],
   "partners": []
  },
- "98d93578-da83-40f7-ba1d-ac42a61c848c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 93,
-    "pa": 102,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "mixed",
-    "with": "Heidi Lipton",
-    "vs": [
-     "Stephanie Sozomenu",
-     "Carlos Colon"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Richie Nicholasi",
-    "vs": [
-     "Carlos Colon",
-     "Idris Nejumi"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "mixed",
-    "with": "Ericka Lyn Mayer",
-    "vs": [
-     "Eileen Clark",
-     "Thomas Licciardello"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jim Sintic",
-    "vs": [
-     "Joe Carrano",
-     "Thomas Licciardello"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "mixed",
-    "with": "Heidi Lipton",
-    "vs": [
-     "Raffaella Pernice",
-     "Idris Nejumi"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.2,
-    "confidence": 44,
-    "rank": 136,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
  "7b374f2a-8e98-445a-8ac1-f373be68f1e5": {
   "log": [
    {
@@ -17570,6 +17445,131 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "98d93578-da83-40f7-ba1d-ac42a61c848c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 93,
+    "pa": 102,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "mixed",
+    "with": "Heidi Lipton",
+    "vs": [
+     "Stephanie Sozomenu",
+     "Carlos Colon"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Richie Nicholasi",
+    "vs": [
+     "Carlos Colon",
+     "Idris Nejumi"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "mixed",
+    "with": "Ericka Lyn Mayer",
+    "vs": [
+     "Eileen Clark",
+     "Thomas Licciardello"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jim Sintic",
+    "vs": [
+     "Joe Carrano",
+     "Thomas Licciardello"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "mixed",
+    "with": "Heidi Lipton",
+    "vs": [
+     "Raffaella Pernice",
+     "Idris Nejumi"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 44,
+    "rank": 136,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -17949,131 +17949,6 @@
   ],
   "partners": []
  },
- "be327e7d-88f5-4531-b6b9-a2ff187578a4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "One Love",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 87,
-    "pa": 103,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "One Love",
-    "t": "male",
-    "with": "Carlos Colon",
-    "vs": [
-     "Kenneth Pickett",
-     "Richie Nicholasi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "One Love",
-    "t": "mixed",
-    "with": "Eileen Clark",
-    "vs": [
-     "Jenn Guerrini",
-     "Jim Sintic"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "One Love",
-    "t": "male",
-    "with": "Carlos Colon",
-    "vs": [
-     "John Dedeaux",
-     "Hal Greenspan"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "One Love",
-    "t": "mixed",
-    "with": "Stephanie Sozomenu",
-    "vs": [
-     "Jenn Guerrini",
-     "Jim Sintic"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "One Love",
-    "t": "mixed",
-    "with": "Raffaella Pernice",
-    "vs": [
-     "Heidi Lipton",
-     "Kenneth Pickett"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.4,
-    "confidence": 46,
-    "rank": 146,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": []
- },
  "442d80c7-8eaf-413b-b99b-7cdaddb08b7c": {
   "log": [
    {
@@ -18195,6 +18070,131 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "be327e7d-88f5-4531-b6b9-a2ff187578a4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "One Love",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 87,
+    "pa": 103,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "One Love",
+    "t": "male",
+    "with": "Carlos Colon",
+    "vs": [
+     "Kenneth Pickett",
+     "Richie Nicholasi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "One Love",
+    "t": "mixed",
+    "with": "Eileen Clark",
+    "vs": [
+     "Jenn Guerrini",
+     "Jim Sintic"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "One Love",
+    "t": "male",
+    "with": "Carlos Colon",
+    "vs": [
+     "John Dedeaux",
+     "Hal Greenspan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "One Love",
+    "t": "mixed",
+    "with": "Stephanie Sozomenu",
+    "vs": [
+     "Jenn Guerrini",
+     "Jim Sintic"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "One Love",
+    "t": "mixed",
+    "with": "Raffaella Pernice",
+    "vs": [
+     "Heidi Lipton",
+     "Kenneth Pickett"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 46,
+    "rank": 146,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -23144,6 +23144,131 @@
   ],
   "partners": []
  },
+ "7c31fae2-4ca2-47e5-a531-cdcbdb069c80": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Montville Rocks",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 68,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Montville Rocks",
+    "t": "mixed",
+    "with": "Stella Ott",
+    "vs": [
+     "Bing Leng",
+     "Hongjie Liu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Rocks",
+    "t": "male",
+    "with": "Cromwell Palomares",
+    "vs": [
+     "Wallace Lee",
+     "Jhon Cifuentes"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Rocks",
+    "t": "mixed",
+    "with": "Stella Ott",
+    "vs": [
+     "Bing Leng",
+     "Wallace Lee"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Rocks",
+    "t": "male",
+    "with": "Jonathan Basa",
+    "vs": [
+     "Jhon Cifuentes",
+     "Hongjie Liu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville Rocks",
+    "t": "male",
+    "with": "Lance Arlaus",
+    "vs": [
+     "Jhon Cifuentes",
+     "Jack Tran"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.5,
+    "confidence": 43,
+    "rank": 150,
+    "ratingGames": 5,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.8
+   }
+  ],
+  "partners": []
+ },
  "bc82cbed-1dfa-43fa-9cc5-1f12b6c4fe76": {
   "log": [
    {
@@ -23281,131 +23406,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
- },
- "7c31fae2-4ca2-47e5-a531-cdcbdb069c80": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Montville Rocks",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 68,
-    "pa": 105,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 2,
-    "teamGL": 30,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Montville Rocks",
-    "t": "mixed",
-    "with": "Stella Ott",
-    "vs": [
-     "Bing Leng",
-     "Hongjie Liu"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Rocks",
-    "t": "male",
-    "with": "Cromwell Palomares",
-    "vs": [
-     "Wallace Lee",
-     "Jhon Cifuentes"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Rocks",
-    "t": "mixed",
-    "with": "Stella Ott",
-    "vs": [
-     "Bing Leng",
-     "Wallace Lee"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Rocks",
-    "t": "male",
-    "with": "Jonathan Basa",
-    "vs": [
-     "Jhon Cifuentes",
-     "Hongjie Liu"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville Rocks",
-    "t": "male",
-    "with": "Lance Arlaus",
-    "vs": [
-     "Jhon Cifuentes",
-     "Jack Tran"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.5,
-    "confidence": 43,
-    "rank": 150,
-    "ratingGames": 5,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []

@@ -1527,7 +1527,7 @@ window.DUPR_AUDIT = {
   {
    "name": "Amanda Nguyen",
    "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
-   "team": "PickleRage Union County Pandas",
+   "team": "Pickleball HQ",
    "league": "travel",
    "division": "3.0",
    "slug": "e27386b3",
@@ -1539,7 +1539,7 @@ window.DUPR_AUDIT = {
   {
    "name": "Amanda Nguyen",
    "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
-   "team": "Pickleball HQ",
+   "team": "PickleRage Union County Pandas",
    "league": "travel",
    "division": "3.0",
    "slug": "e27386b3",
@@ -14607,7 +14607,7 @@ window.DUPR_AUDIT = {
   {
    "name": "Jamie Hahn",
    "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
-   "team": "Draft Day Disasters",
+   "team": "Ackley's Aces",
    "league": "local",
    "division": "Flemington • 4.0 & Over",
    "slug": "eaa4c1dc",
@@ -14619,7 +14619,7 @@ window.DUPR_AUDIT = {
   {
    "name": "Jamie Hahn",
    "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
-   "team": "Ackley's Aces",
+   "team": "Draft Day Disasters",
    "league": "local",
    "division": "Flemington • 4.0 & Over",
    "slug": "eaa4c1dc",

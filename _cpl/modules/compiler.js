@@ -199,6 +199,20 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const duprByPid = loadDuprByPid();
   const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid, divisionMeta);
 
+  // A player can hold several roster rows in one division — rostered on one team
+  // and subbing on others, occasionally rostered on two — each row carrying its
+  // own team, captaincy and league rank. Anywhere we need the one row that
+  // represents the player, resolve it with the same precedence the roster
+  // dedupe uses (rostered over sub, then games played, then rank), rather than
+  // taking whichever row arrived last: row order comes from the API's rank
+  // ordering, which reshuffles whenever anyone's rank moves.
+  const rosterBracket = getDivisionBracket(divisionMeta);
+  const claimCanonicalRow = (map, key, p) => {
+    if (!key) return;
+    const held = map[key];
+    if (!held || shouldPreferRosterPlayer(p, held, duprByPid, rosterBracket)) map[key] = p;
+  };
+
   // Detail records keyed by matchup for O(1) lookups everywhere below.
   const detailById = new Map(matchupDetailsJson.map(x => [x.matchupId, x.details]));
 
@@ -254,11 +268,20 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // Player ID -> static profile info (firstName, lastName, gender) so
   // matchupPlayerStats entries don't need to repeat those fields.
   const playerInfoById = {};
+  // A handful of players hold a rostered row on two teams at once. Pick the one
+  // where the league ranks them highest rather than whichever row happens to
+  // arrive last, so the attribution does not move when the roster file's order
+  // does. Rank ascends, so the lowest number is the best standing.
+  const homeRowByPid = {};
+  const captainRowByPid = {};
   for (const p of rosterPlayers) {
-    if (!p.isSub && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) homeTeamByPid[p.playerId] = p.teamName;
-    if (!p.isSub && p.isCaptain && p.playerId && p.teamName && teamNamesWithMatchups.has(p.teamName)) captainTeamByPid[p.playerId] = p.teamName;
     if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
+    if (p.isSub || !p.playerId || !p.teamName || !teamNamesWithMatchups.has(p.teamName)) continue;
+    claimCanonicalRow(homeRowByPid, p.playerId, p);
+    if (p.isCaptain) claimCanonicalRow(captainRowByPid, p.playerId, p);
   }
+  for (const [pid, p] of Object.entries(homeRowByPid)) homeTeamByPid[pid] = p.teamName;
+  for (const [pid, p] of Object.entries(captainRowByPid)) captainTeamByPid[pid] = p.teamName;
 
   // A rostered player who hasn't logged a game yet: real identity, zeroed
   // stats, no rating. Used pre-season and for teams whose first match hasn't
@@ -435,16 +458,35 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   let rankByName = {};
   try {
     const list = rosterPlayers;
+    // Each of a player's roster rows carries its own league rank — someone who
+    // subbed for two teams has two partial records, and the league ranks each.
+    // Report their best standing: the rostered row when there is one, else the
+    // strongest rank among the sub rows. Note this deliberately differs from
+    // claimCanonicalRow, which prefers the row with the most games played: that
+    // is the right question for "which team is this player on", but here the
+    // answer wanted is the player's best rank, per the rule this replaces.
+    //
+    // That old rule was "first row wins", which only landed on the best rank
+    // because the API handed us the file in rank order; it silently changed
+    // answer whenever anyone's rank shifted that order.
+    const claimBestRank = (map, key, p) => {
+      const rank = Number(p.ranking);
+      if (!key || !Number.isFinite(rank)) return;
+      const held = map[key];
+      const better = !held
+        || (held.isSub && !p.isSub)
+        || (held.isSub === !!p.isSub && rank < held.rank);
+      if (better) map[key] = { rank, isSub: !!p.isSub };
+    };
+    const bestRankByPid = {};
+    const bestRankByName = {};
     for (const p of list) {
-      const key = norm(`${p.firstName} ${p.lastName}`);
       if (p.ranking == null) continue;
-      if (p.playerId && (rankByPid[p.playerId] == null || !p.isSub)) {
-        rankByPid[p.playerId] = p.ranking;
-      }
-      if (rankByName[key] == null || !p.isSub || p.ranking < rankByName[key]) {
-        rankByName[key] = p.ranking;
-      }
+      if (p.playerId) claimBestRank(bestRankByPid, p.playerId, p);
+      claimBestRank(bestRankByName, norm(`${p.firstName} ${p.lastName}`), p);
     }
+    for (const [pid, v] of Object.entries(bestRankByPid)) rankByPid[pid] = v.rank;
+    for (const [name, v] of Object.entries(bestRankByName)) rankByName[name] = v.rank;
   } catch (e) {
     console.warn("⚠️ League rank extraction encountered anomalies:", e.message);
   }

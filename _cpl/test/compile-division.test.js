@@ -26,7 +26,7 @@ function matchupPlayer(id, teamId, stats) {
   };
 }
 
-function writeDivision(dir) {
+function writeDivision(dir, opts = {}) {
   fs.mkdirSync(dir, { recursive: true });
 
   const matchups = [
@@ -64,6 +64,7 @@ function writeDivision(dir) {
         matchupPlayer('a2', TEAMS.A, { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 16 }),
         matchupPlayer('b1', TEAMS.B, { gamesPlayed: 2, wins: 0, losses: 2, pointsWon: 16, totalPointsAgainst: 22 }),
         matchupPlayer('b2', TEAMS.B, { gamesPlayed: 2, wins: 0, losses: 2, pointsWon: 16, totalPointsAgainst: 22 }),
+        ...(opts.extraMatchupStats || []),
       ] },
       lineups: { lineups: { $values: [
         { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: 11, awayScore: 8, matchType: 'male', matchupId: 'm1' },
@@ -73,17 +74,20 @@ function writeDivision(dir) {
   }];
 
   fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({ $values: matchups }));
-  fs.writeFileSync(path.join(dir, 'players.json'), JSON.stringify({ $values: players }));
+  // Callers may append extra roster rows, and reorder the list to stand in for
+  // the API handing us the same roster in a different (rank-driven) order.
+  const rows = [...players, ...(opts.extraPlayers || [])];
+  fs.writeFileSync(path.join(dir, 'players.json'), JSON.stringify({ $values: opts.orderPlayers ? opts.orderPlayers(rows) : rows }));
   fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify(matchupDetails));
   fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: [] }));
   fs.writeFileSync(path.join(dir, 'playoffMatchupDetails.json'), JSON.stringify([]));
 }
 
-function compileToObjects(t) {
+function compileToObjects(t, opts = {}) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'cpl-compile-'));
   t.after(() => fs.rmSync(tmp, { recursive: true, force: true }));
   const dataDir = path.join(tmp, 'division');
-  writeDivision(dataDir);
+  writeDivision(dataDir, opts);
   const outPath = path.join(tmp, 'data-testslug.js');
   const detailPath = path.join(tmp, 'detail-testslug.js');
   compileDivision('testslug', dataDir, outPath, detailPath, {
@@ -171,4 +175,81 @@ test('detail entries exist for players with history and are omitted otherwise', 
     assert.equal(player.games, undefined);
   }
   assert.equal(data.meta.detailFile, 'detail-testslug.js');
+});
+
+// The league API returns players in rank order, so the roster file's row order
+// shifts whenever anyone's rank moves. Nothing the compiler reports may depend
+// on it. Each case below is compiled twice, with the rows reversed the second
+// time, and must give the same answer both ways.
+const bothOrders = (t, opts) => [
+  compileToObjects(t, opts).data,
+  compileToObjects(t, { ...opts, orderPlayers: (rows) => [...rows].reverse() }).data,
+];
+
+test('a player rostered on two teams is credited to the one they actually play for', (t) => {
+  // Cal Charlie also holds a roster row on Dinkers, but has played his games
+  // for Crushers. Row order must not decide which team claims him.
+  const extraPlayers = [
+    rosterPlayer('c1', 'Cal', 'Charlie', TEAMS.D, 'Dinkers', { ranking: 4, gamesPlayed: 0 }),
+  ];
+  for (const data of bothOrders(t, { extraPlayers })) {
+    const cal = data.players.filter((p) => p.name === 'Cal Charlie');
+    assert.equal(cal.length, 1, 'the player is not duplicated across both teams');
+    assert.equal(cal[0].team, 'Crushers');
+    assert.deepEqual(data.players.filter((p) => p.team === 'Dinkers').map((p) => p.name), ['Dan Delta']);
+  }
+});
+
+// Someone who subbed for two teams and is rostered on neither: two sub rows,
+// each with its own rank. They surface on the dashboard through their matchup
+// stats, as an outside sub.
+const SUBBED_TWICE = {
+  extraPlayers: [
+    rosterPlayer('x1', 'Sub', 'Twice', TEAMS.A, 'Aces', { isSub: true, ranking: 31, gamesPlayed: 4 }),
+    rosterPlayer('x1', 'Sub', 'Twice', TEAMS.B, 'Bandits', { isSub: true, ranking: 12, gamesPlayed: 9 }),
+  ],
+  extraMatchupStats: [
+    matchupPlayer('x1', TEAMS.A, { gamesPlayed: 2, wins: 1, losses: 1, pointsWon: 20, totalPointsAgainst: 18, isSub: true }),
+  ],
+};
+
+test('a player who only ever subbed reports their best league rank', (t) => {
+  // The better rank wins from either direction. This used to fall out of the
+  // API's rank ordering rather than being stated, so it silently changed
+  // whenever that order shifted.
+  for (const data of bothOrders(t, SUBBED_TWICE)) {
+    const subbed = data.players.find((p) => p.playerId === 'x1');
+    assert.ok(subbed, 'the outside sub appears on the dashboard');
+    assert.equal(subbed.leagueRank, 12);
+  }
+});
+
+test('a rostered row outranks a sub row for the reported league rank', (t) => {
+  // The sub row carries the better number, but the rostered row is the one that
+  // represents the player, so its rank is the one reported.
+  const extraPlayers = [
+    rosterPlayer('y1', 'Ros', 'Tered', TEAMS.A, 'Aces', { ranking: 40 }),
+    rosterPlayer('y1', 'Ros', 'Tered', TEAMS.B, 'Bandits', { isSub: true, ranking: 2 }),
+  ];
+  for (const data of bothOrders(t, { extraPlayers })) {
+    const player = data.players.find((p) => p.playerId === 'y1');
+    assert.equal(player.team, 'Aces', 'the rostered row still owns the player');
+    assert.equal(player.leagueRank, 40, 'the sub row does not supply the rank');
+  }
+});
+
+test('reversing the roster file changes no reported value', (t) => {
+  const [forward, reversed] = bothOrders(t, {
+    ...SUBBED_TWICE,
+    extraPlayers: [
+      ...SUBBED_TWICE.extraPlayers,
+      rosterPlayer('c1', 'Cal', 'Charlie', TEAMS.D, 'Dinkers', { ranking: 4, gamesPlayed: 0 }),
+      rosterPlayer('y1', 'Ros', 'Tered', TEAMS.A, 'Aces', { ranking: 40 }),
+      rosterPlayer('y1', 'Ros', 'Tered', TEAMS.B, 'Bandits', { isSub: true, ranking: 2 }),
+    ],
+  });
+  const byId = (d) => Object.fromEntries(d.players.map((p) => [p.playerId, p]));
+  assert.deepEqual(byId(forward), byId(reversed));
+  const byTeam = (d) => Object.fromEntries(d.teams.map((x) => [x.name, x]));
+  assert.deepEqual(byTeam(forward), byTeam(reversed));
 });
