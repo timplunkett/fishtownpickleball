@@ -6,6 +6,12 @@ on:
 permissions:
   contents: write
 
+# Shares the repo-write lock with the data-update workflow so the two can't
+# race each other's git push.
+concurrency:
+  group: cpl-repo-writes
+  cancel-in-progress: false
+
 jobs:
   update-dupr:
     runs-on: ubuntu-latest
@@ -28,4 +34,14 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add _cpl/data/global_players.json cpl/dupr-ratings.js
-          git diff-index --quiet HEAD || (git commit -m "bot(DUPR): Update player DUPR ratings" && git push)
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "bot(DUPR): Update player DUPR ratings"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt ${attempt} failed; retrying..."
+            sleep 5
+          done
+          exit 1

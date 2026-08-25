@@ -16,6 +16,12 @@ on:
 permissions:
   contents: write
 
+# Only one repo-writing workflow at a time: a slow due-run straddling the
+# weekly full run (or a manual dispatch) must queue, not race the git push.
+concurrency:
+  group: cpl-repo-writes
+  cancel-in-progress: false
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -29,6 +35,11 @@ jobs:
           node-version: 20
 
       - name: Execute Core CPL Engine Pipeline
+        id: pipeline
+        # The pipeline exits non-zero when any division failed but still writes
+        # everything that succeeded; continue so partial data gets committed,
+        # then fail the run afterwards.
+        continue-on-error: true
         env:
           EVENT_SCHEDULE: ${{ github.event.schedule }}
           MANUAL_REFRESH_MODE: ${{ github.event.inputs.refresh_mode }}
@@ -52,4 +63,22 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add _cpl/ cpl/
-          git diff-index --quiet HEAD || (git commit -m "bot(CPL): Automated weekly dashboard compile" && git push)
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "bot(CPL): Automated weekly dashboard compile"
+          # Another run may have pushed while this one was fetching; rebase and
+          # retry rather than failing the push.
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt ${attempt} failed; retrying..."
+            sleep 5
+          done
+          exit 1
+
+      - name: Fail run if pipeline reported errors
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "::error::The CPL pipeline reported failed divisions — see the pipeline step log."
+          exit 1
