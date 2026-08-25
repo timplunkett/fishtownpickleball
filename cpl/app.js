@@ -1,11 +1,21 @@
 'use strict';
 
+// Sized so the largest divisions (10+ teams) get a distinct color per team —
+// with the old 5-color palette the beeswarm legend showed duplicate colors.
+// Ordered so adjacent assignments stay high-contrast on the dark background.
 const TEAM_COLOR_PALETTE = Object.freeze([
   '#1db2dc', // Blue
   '#e5534b', // Red
   '#19d39a', // Green
-  '#7fd6ee', // Light blue
   '#e8c66b', // Yellow
+  '#b083f0', // Purple
+  '#ff9b66', // Orange
+  '#7fd6ee', // Light blue
+  '#f27fb2', // Pink
+  '#9ccc65', // Lime
+  '#4f8ff7', // Royal blue
+  '#d4a373', // Tan
+  '#66d9c8', // Teal
 ]);
 const TEAM_COLORS = Object.freeze(Object.fromEntries(
   [...(Array.isArray(DATA.teams) ? DATA.teams : [])]
