@@ -1,0 +1,29 @@
+{
+  "$values": [
+    {
+      "teamId": "d2a50a8f-768d-4eb4-92f6-225bbce72179",
+      "teamName": "Baby Got Backhands",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
+      "teamName": "Drop it Like it's Hot",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "ed9a00f9-86b6-4a3b-9750-71bebadd0ac2",
+      "teamName": "Kitchen Chaos",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "9ebd905b-7b75-4759-abce-7b0efe0beb9e",
+      "teamName": "Shrinky Dinks",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
+      "teamName": "The Young Guns",
+      "pod": "Overall"
+    }
+  ]
+}

@@ -12793,6 +12793,18 @@ window.DUPR_AUDIT = {
    "max": 4.5
   },
   {
+   "name": "Gray Ferrante",
+   "playerId": "1e83a359-47bb-49ae-bb0b-116dbd04ef74",
+   "team": "Pickle House",
+   "league": "travel",
+   "division": "3.0",
+   "slug": "e27386b3",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3,
+   "max": 3.5
+  },
+  {
    "name": "Greg August",
    "playerId": "ad2273bf-d15d-4687-b222-7db8cd6f3abd",
    "team": "The Mighty Dinks",
@@ -16527,7 +16539,7 @@ window.DUPR_AUDIT = {
   {
    "name": "Jill Lesnik",
    "playerId": "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864",
-   "team": "Pickle Place",
+   "team": "Pickleball Palace",
    "league": "travel",
    "division": "4.0 (50+)",
    "slug": "2edc44e7",
