@@ -420,6 +420,9 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
     for (const p of existing) {
       if (p.playerId) existingMap[p.playerId] = p;
     }
+    // Stamp every player seen in this run so stale entries (players who left
+    // the league seasons ago) can eventually be pruned by lastSeen date.
+    const seenStamp = new Date().toISOString().slice(0, 10);
     for (const p of allPlayersFlat) {
       if (!p.playerId) continue;
       if (existingMap[p.playerId]) {
@@ -427,6 +430,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
         existingMap[p.playerId].firstName = p.firstName;
         existingMap[p.playerId].lastName = p.lastName;
         existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
+        existingMap[p.playerId].lastSeen = seenStamp;
       } else {
         existingMap[p.playerId] = {
           playerId: p.playerId,
@@ -434,6 +438,7 @@ async function downloadLatestApiData(league = 'local', { primaryOnly = false, di
           lastName: p.lastName,
           dupr: p.dupr || null,
           duprRating: null,
+          lastSeen: seenStamp,
         };
       }
     }

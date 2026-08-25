@@ -707,8 +707,13 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     defaultSlug,
     divisionsLiteral,
     divisionsGlobal,
+    // Curated fixtures live outside the published cpl/ tree; the dataset
+    // switch is localhost-only, where the repo root is served directly.
     testDatasets: league === 'local'
-      ? { week1: 'data.test-week1.js', week6: 'data.test-week6.js' }
+      ? {
+          week1: '../../_cpl/fixtures/data.test-week1.js',
+          week6: '../../_cpl/fixtures/data.test-week6.js',
+        }
       : {},
   });
   fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
