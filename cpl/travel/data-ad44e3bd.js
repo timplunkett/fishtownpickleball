@@ -4281,6 +4281,7 @@
   "clubName": "",
   "divisionName": "3.25 Womens",
   "leagueType": "travel",
+  "singleGender": "Female",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",

@@ -53,6 +53,23 @@
     return /\b(women'?s?|men'?s?)\b/i.test(String(name || ''));
   }
 
+  // Divisions served by the /gender leg of the CPL API are single-gender: the
+  // roster is all-male or all-female and every game is same-gender doubles, so
+  // mixed and opposite-gender splits are dead weight in those divisions.
+  function isGenderApiBase(apiBase) {
+    return /\/gender\//.test(String(apiBase || ''));
+  }
+
+  // The gender a division name implies: "4.5 Mens" -> Male, "3.25 Womens" ->
+  // Female, anything else -> null. Women is tested first: "Womens" would also
+  // match the men pattern.
+  function travelDivisionGender(name) {
+    const text = String(name || '');
+    if (/women'?s?\b/i.test(text)) return 'Female';
+    if (/men'?s?\b/i.test(text)) return 'Male';
+    return null;
+  }
+
   // "3.5 Women's" -> "Women's 3.5"; non-gendered names pass through untouched.
   function formatTravelDivisionLabel(name) {
     const text = String(name || '').trim();
@@ -127,6 +144,8 @@
     slugify,
     normalizeName,
     isGenderedTravelDivisionName,
+    isGenderApiBase,
+    travelDivisionGender,
     formatTravelDivisionLabel,
     divisionSortKey,
     getTravelDivisionSortKey,

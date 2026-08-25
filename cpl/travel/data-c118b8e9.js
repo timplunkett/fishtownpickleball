@@ -7544,6 +7544,7 @@
   "clubName": "",
   "divisionName": "3.75 Mens",
   "leagueType": "travel",
+  "singleGender": "Male",
   "podCount": 2,
   "podNames": null,
   "podSource": "schedule",

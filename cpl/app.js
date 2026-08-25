@@ -27,6 +27,11 @@ const TEAM_COLORS = Object.freeze(Object.fromEntries(
 ));
 const EMPTY_VALUE = '—';
 const DEFAULT_SORT = Object.freeze({ key: 'rating', direction: -1 });
+// Mens/Womens divisions (the /gender leg of the API) are single-gender: every
+// game is same-gender doubles and no opposite-gender player is on a roster, so
+// the mixed splits are always 0–0 and the gender filter has one choice.
+// 'Male' | 'Female' | null.
+const SINGLE_GENDER = DATA.meta.singleGender || null;
 const COLUMNS = Object.freeze([
   { key: 'name', label: 'Player', align: 'left' },
   { key: 'team', label: 'Team', align: 'left' },
@@ -44,12 +49,23 @@ const COLUMNS = Object.freeze([
   { key: 'mixed', label: 'Mixed', align: 'right' },
   { key: 'gender', label: 'Gendr', align: 'right' },
   { key: 'clutch', label: 'Clutch', align: 'right' },
-]);
+  // Mixed is always 0–0 in a single-gender division and Gendr just repeats W–L.
+].filter(({ key }) => !(SINGLE_GENDER && (key === 'mixed' || key === 'gender'))));
 const GAME_TYPE_LABELS = Object.freeze({
   mixed: ['MIX', 't-mixed'],
   female: ['W', 't-female'],
   male: ['M', 't-male'],
 });
+// A single-gender division plays one game type, so the Type pill says the same
+// thing on every row: the header cell, the body cell and the week-row colspan
+// all shrink by one there.
+const GAME_TYPE_HEADER = SINGLE_GENDER ? '' : '<th class="l">Type</th>';
+const GAME_LOG_COLSPAN = SINGLE_GENDER ? 5 : 6;
+function renderGameTypeCell(gameType) {
+  if (SINGLE_GENDER) return '';
+  const [label, className] = GAME_TYPE_LABELS[gameType] || ['', ''];
+  return `<td class="l"><span class="pill ${className}">${label}</span></td>`;
+}
 const RESULT_CLASS = Object.freeze({
   win: 'res-W',
   slightWin: 'res-slight-W',
@@ -1056,8 +1072,7 @@ function renderMatchLogRows(player) {
           <td class="l"><span class="teamdot" style="background:${getTeamColor(game.opp)}"></span>${game.homeAway === 'H' ? 'vs' : '@'} ${escapeHtml(game.opp)}${game.sub && game.subFor ? ` <span class="mut">(for ${escapeHtml(game.subFor)})</span>` : ''}</td>
           <td><b>${game.w}</b>–${game.l}</td>
           <td>${game.pf}–${game.pa}</td>
-          <td>${game.mx[0]}–${game.mx[1]}</td>
-          <td>${game.gn[0]}–${game.gn[1]}</td>
+          ${SINGLE_GENDER ? '' : `<td>${game.mx[0]}–${game.mx[1]}</td><td>${game.gn[0]}–${game.gn[1]}</td>`}
           <td>${game.cl[0]}–${game.cl[1]}</td>
           <td class="res-${game.teamRes}">${game.teamRes} ${game.teamGW}–${game.teamGL}</td>
         </tr>
@@ -1233,11 +1248,10 @@ function renderGameLogRows(player, projectedGames = []) {
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
       gameLog += `
-        <tr class="wkrow"><td colspan="6" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
+        <tr class="wkrow"><td colspan="${GAME_LOG_COLSPAN}" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
-    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
     const resultClass = getWinLossClass(game.w);
     const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
     const partnerCell = game.ff
@@ -1251,7 +1265,7 @@ function renderGameLogRows(player, projectedGames = []) {
     const projection = describeProjectedOutcome(expectedMargin);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
-        <td class="l"><span class="pill ${className}">${label}</span></td>
+        ${renderGameTypeCell(game.t)}
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
@@ -1269,16 +1283,15 @@ function renderGameLogRows(player, projectedGames = []) {
       const weekLabel = game.isPlayoff ? `Playoffs` : `Week ${game.wk}`;
       gameLog += `
         <tr class="wkrow wkrow-projected">
-          <td colspan="6" class="l"><span class="mut">(projected)</span> ${weekLabel} • vs ${escapeHtml(game.opp)}</td>
+          <td colspan="${GAME_LOG_COLSPAN}" class="l"><span class="mut">(projected)</span> ${weekLabel} • vs ${escapeHtml(game.opp)}</td>
         </tr>
       `;
     }
 
-    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
     const projection = describeProjectedOutcome(game.expectedMargin);
     gameLog += `
       <tr>
-        <td class="l"><span class="pill ${className}">${label}</span></td>
+        ${renderGameTypeCell(game.t)}
         <td class="l">${escapeHtml(game.with)}</td>
         <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
         <td class="mut">${EMPTY_VALUE}</td>
@@ -1365,8 +1378,7 @@ function renderModalBody(player) {
           <th class="l">Opponent</th>
           <th>Ind. W–L</th>
           <th>Pts F–A</th>
-          <th>Mixed</th>
-          <th>Same-gen</th>
+          ${SINGLE_GENDER ? '' : '<th>Mixed</th><th>Same-gen</th>'}
           <th>Clutch</th>
           <th>Team result</th>
         </tr>
@@ -1377,7 +1389,7 @@ function renderModalBody(player) {
     <table class="mlog glog">
       <thead>
         <tr>
-          <th class="l">Type</th>
+          ${GAME_TYPE_HEADER}
           <th class="l">Partner</th>
           <th class="l">Opponents</th>
           <th>Score</th>
@@ -1387,7 +1399,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
+    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. ${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
@@ -1612,7 +1624,6 @@ function renderTeamMatchBlock(match, teamName) {
       const usScore = homeSide ? game.hs : game.as;
       const themScore = homeSide ? game.as : game.hs;
       const win = usScore > themScore;
-      const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
       const resultClass = getWinLossClass(win);
       const expectedMargin = game.ff
         ? null
@@ -1632,7 +1643,7 @@ function renderTeamMatchBlock(match, teamName) {
       const expectTag = renderExpectationTag(expectedMargin, win);
       return `
         <tr${game.ff ? ' class="ffrow"' : ''}>
-          <td class="l"><span class="pill ${className}">${label}</span></td>
+          ${renderGameTypeCell(game.t)}
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
@@ -1655,7 +1666,7 @@ function renderTeamMatchBlock(match, teamName) {
       <details>
         <summary>Game-by-game (${(match.games || []).length})</summary>
         <table class="mlog glog">
-          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th class="l">Result</th><th>Projection</th></tr></thead>
+          <thead><tr>${GAME_TYPE_HEADER}<th class="l">Our pair</th><th class="l">Opponents</th><th>Score</th><th class="l">Result</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
@@ -1693,10 +1704,9 @@ function renderPendingTeamMatchBlock(match, teamName) {
     if (projection.outcome === 'tie') projectedTies++;
     if (projection.outcome === 'unrated') unrated++;
 
-    const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
     return `
       <tr>
-        <td class="l"><span class="pill ${className}">${label}</span></td>
+        ${renderGameTypeCell(game.t)}
         <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
         <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
         <td class="${resultClass}">${projection.marginLabel}</td>
@@ -1718,7 +1728,7 @@ function renderPendingTeamMatchBlock(match, teamName) {
       <details>
         <summary>Projected game-by-game (${gameCount})</summary>
         <table class="mlog glog">
-          <thead><tr><th class="l">Type</th><th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
+          <thead><tr>${GAME_TYPE_HEADER}<th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
         </table>
       </details>
@@ -1771,10 +1781,9 @@ function renderPlayoffs() {
         if (projection.outcome === 'loss') projectedLosses++;
         if (projection.outcome === 'tie') projectedTies++;
         if (projection.outcome === 'unrated') unrated++;
-        const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
         return `
           <tr>
-            <td class="l"><span class="pill ${className}">${label}</span></td>
+            ${renderGameTypeCell(game.t)}
             <td class="l">${escapeHtml(game.h.join(' / '))}</td>
             <td class="l">${escapeHtml(game.a.join(' / '))}</td>
             <td class="${resultClass}">${projection.marginLabel}</td>
@@ -1793,7 +1802,7 @@ function renderPlayoffs() {
           <details>
             <summary>Projected game-by-game (${gameCount})</summary>
             <table class="mlog glog">
-              <thead><tr><th class="l">Type</th><th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Exp margin</th><th>Projection</th></tr></thead>
+              <thead><tr>${GAME_TYPE_HEADER}<th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Exp margin</th><th>Projection</th></tr></thead>
               <tbody>${gameRows}</tbody>
             </table>
           </details>
@@ -1805,10 +1814,9 @@ function renderPlayoffs() {
     const loserClass = getWinLossClass(false);
     const gameRows = (m.games || []).map((game) => {
       const homeWin = game.hs > game.as;
-      const [label, className] = GAME_TYPE_LABELS[game.t] || ['', ''];
       return `
         <tr${game.ff ? ' class="ffrow"' : ''}>
-          <td class="l"><span class="pill ${className}">${label}</span></td>
+          ${renderGameTypeCell(game.t)}
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(game.h.join(' / '))}</td>
           <td class="l">${game.ff ? '' : escapeHtml(game.a.join(' / '))}</td>
           <td class="${homeWin ? winnerClass : loserClass}">${game.hs}–${game.as}</td>
@@ -1826,7 +1834,7 @@ function renderPlayoffs() {
         <details>
           <summary>Game-by-game (${(m.games || []).length})</summary>
           <table class="mlog glog">
-            <thead><tr><th class="l">Type</th><th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Score</th><th class="l">Result</th></tr></thead>
+            <thead><tr>${GAME_TYPE_HEADER}<th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Score</th><th class="l">Result</th></tr></thead>
             <tbody>${gameRows}</tbody>
           </table>
         </details>
@@ -1963,7 +1971,11 @@ function renderTeamPage(team, { scroll = true } = {}) {
     </div>
     <div class="team-section">
       <h3>Game-type splits <span class="tag">team game record by format</span></h3>
-      <div class="fmt-cards">${formatCard('Mixed', team.fmt.mixed)}${formatCard("Men's", team.fmt.male)}${formatCard("Women's", team.fmt.female)}</div>
+      <div class="fmt-cards">${
+        SINGLE_GENDER === 'Male' ? formatCard("Men's", team.fmt.male)
+        : SINGLE_GENDER === 'Female' ? formatCard("Women's", team.fmt.female)
+        : `${formatCard('Mixed', team.fmt.mixed)}${formatCard("Men's", team.fmt.male)}${formatCard("Women's", team.fmt.female)}`
+      }</div>
     </div>
     <div class="team-section">
       <h3>Roster <span class="tag">${roster.length ? `${roster.length} players • click a name for detail` : 'not published'}</span></h3>
@@ -2313,6 +2325,8 @@ function initialize() {
   renderResultsGrid();
   renderTeamFilterOptions();
   renderPodFilterOptions();
+  // One gender in the division means the filter can only ever be a no-op.
+  elements.gender.hidden = Boolean(SINGLE_GENDER);
   renderTableHead();
   renderDuos();
   renderBeeswarm();

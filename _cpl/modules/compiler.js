@@ -1,7 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 const { filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
-const { normalizeName: norm, getTravelDivisionSortKey } = require('./shared');
+const {
+  normalizeName: norm,
+  getTravelDivisionSortKey,
+  isGenderApiBase,
+  travelDivisionGender,
+} = require('./shared');
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
 const {
@@ -749,11 +754,18 @@ async function compileDashboardHtml(league = 'local', { primaryOnly = false, div
     try {
       const outFile = div.isDefault ? 'data.js' : `data-${div.slug}.js`;
       const detailFile = div.isDefault ? 'detail.js' : `detail-${div.slug}.js`;
+      // Mens/Womens divisions come from the /gender API leg: single-gender
+      // rosters, no mixed play. The dashboard drops the mixed splits and the
+      // gender filter when this is set.
+      const singleGender = isGenderApiBase(div.apiBase)
+        ? travelDivisionGender(div.divisionName)
+        : null;
       compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,
         ...(league === 'travel' && div.regionName ? { regionName: div.regionName } : {}),
+        ...(singleGender ? { singleGender } : {}),
       });
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);

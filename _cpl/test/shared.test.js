@@ -35,6 +35,23 @@ test('travel sort key puts regular divisions before gendered, low before high', 
   assert.equal(keys[0].genderedRank, 0);
 });
 
+test('gender API base is detected, regular travel base is not', () => {
+  const base = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy';
+  assert.equal(shared.isGenderApiBase(`${base}/gender/v0/api`), true);
+  assert.equal(shared.isGenderApiBase(`${base}/v0/api`), false);
+  assert.equal(shared.isGenderApiBase(`${base}/local/v0/api`), false);
+  assert.equal(shared.isGenderApiBase(undefined), false);
+});
+
+test('travelDivisionGender reads the gender out of a division name', () => {
+  assert.equal(shared.travelDivisionGender('4.5 Mens'), 'Male');
+  assert.equal(shared.travelDivisionGender("3.5 Men's"), 'Male');
+  assert.equal(shared.travelDivisionGender('3.25 Womens'), 'Female');
+  assert.equal(shared.travelDivisionGender("3.5 Women's"), 'Female');
+  assert.equal(shared.travelDivisionGender('4.0'), null);
+  assert.equal(shared.travelDivisionGender('4.0 (50+)'), null);
+});
+
 test('formatDuprRating covers absent, plain, provisional and linked ratings', () => {
   assert.equal(shared.formatDuprRating(null), '—');
   assert.equal(shared.formatDuprRating({ rating: null }), '—');
