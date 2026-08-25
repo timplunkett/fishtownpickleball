@@ -41,9 +41,12 @@ function writeDataScript(outPath, data) {
     meta: { ...((data && data.meta) || {}) },
   };
   delete scriptData.meta.asOf;
+  // Indented JSON so a week's update touches a few lines instead of rewriting
+  // one giant line — git stores far smaller deltas for the 6-hourly bot
+  // commits. gzip flattens the extra whitespace on the wire.
   const lines = [
     '(function () {',
-    `  const DATA = ${JSON.stringify(scriptData)};`,
+    `  const DATA = ${JSON.stringify(scriptData, null, 1)};`,
   ];
   if (asOf != null) lines.push(`  DATA.meta.asOf = ${JSON.stringify(asOf)};`);
   lines.push('  window.DATA = DATA;');
