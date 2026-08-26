@@ -889,6 +889,9 @@ function buildPlayerIndex() {
 
   const entries = [];
   const auditRows = [];
+  // Division-level facts (label, league, bracket) live here keyed by slug
+  // instead of being repeated on all ~3k audit rows.
+  const auditDivisions = {};
 
   for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
     const dataDir = path.join(__dirname, '..', dataSubdir);
@@ -927,17 +930,20 @@ function buildPlayerIndex() {
         // Subs are excluded here — the audit only ever reports rostered
         // players. max: null encodes "no upper bound" (Infinity isn't JSON).
         if (bracket && !p.isSub) {
+          if (!auditDivisions[div.slug]) {
+            auditDivisions[div.slug] = {
+              division: div.clubName ? `${div.clubName} • ${div.divisionName}` : div.divisionName,
+              league,
+              min: bracket.min,
+              max: Number.isFinite(bracket.max) ? bracket.max : null,
+            };
+          }
           auditRows.push({
             name,
             playerId: p.playerId || null,
             team: p.teamName || '',
-            league,
-            division: div.clubName ? `${div.clubName} • ${div.divisionName}` : div.divisionName,
             slug: div.slug,
             gender: p.gender || '',
-            isSub: !!p.isSub,
-            min: bracket.min,
-            max: Number.isFinite(bracket.max) ? bracket.max : null,
           });
         }
       }
@@ -952,10 +958,14 @@ function buildPlayerIndex() {
 
   const auditDir = path.join(rootDir, 'cpl', 'dupr-audit');
   if (!fs.existsSync(auditDir)) fs.mkdirSync(auditDir, { recursive: true });
-  auditRows.sort((a, b) => a.name.localeCompare(b.name) || a.division.localeCompare(b.division));
+  const divisionLabel = (row) => (auditDivisions[row.slug] || {}).division || '';
+  auditRows.sort((a, b) => a.name.localeCompare(b.name) || divisionLabel(a).localeCompare(divisionLabel(b)));
+  const sortedDivisions = Object.fromEntries(
+    Object.keys(auditDivisions).sort().map((slug) => [slug, auditDivisions[slug]]),
+  );
   fs.writeFileSync(
     path.join(auditDir, 'data.js'),
-    `window.DUPR_AUDIT = ${JSON.stringify({ rows: auditRows }, null, 1)};\n`,
+    `window.DUPR_AUDIT = ${JSON.stringify({ divisions: sortedDivisions, rows: auditRows }, null, 1)};\n`,
   );
   console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
 }

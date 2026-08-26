@@ -138,27 +138,31 @@
   // Rows are precomputed by the pipeline (data.js next to this page); only the
   // DUPR values are joined here from dupr-ratings.js, which the DUPR workflow
   // refreshes without recompiling divisions. An 'NR' rating counts as missing.
+  // Division label, league and bracket are stored once per division in
+  // DUPR_AUDIT.divisions (keyed by slug) and flattened onto each row here.
   function buildRows() {
-    var source = (window.DUPR_AUDIT && window.DUPR_AUDIT.rows) || [];
+    var data = window.DUPR_AUDIT || {};
+    var source = data.rows || [];
+    var divisions = data.divisions || {};
     var duprRatings = window.DUPR_RATINGS || {};
     return source.map(function (row) {
       var dupr = row.playerId ? duprRatings[row.playerId] : null;
       var numericRating = dupr && dupr.rating != null && dupr.rating !== 'NR' ? Number(dupr.rating) : null;
+      var division = divisions[row.slug] || {};
       return {
         name: row.name,
         playerId: row.playerId || null,
         team: row.team || '',
-        league: row.league === 'travel' ? 'Travel' : 'Local',
-        leaguePath: row.league,
-        division: row.division,
+        league: division.league === 'travel' ? 'Travel' : 'Local',
+        leaguePath: division.league,
+        division: division.division || '',
         slug: row.slug,
         gender: normalizeGender(row.gender),
         duprRating: numericRating,
         duprNumericId: dupr ? dupr.numericId : null,
         duprProvisional: dupr ? (dupr.provisional || false) : false,
-        min: row.min,
-        max: row.max == null ? Infinity : row.max,
-        isSub: !!row.isSub,
+        min: division.min,
+        max: division.max == null ? Infinity : division.max,
       };
     });
   }
@@ -168,7 +172,7 @@
     var missingRows = [];
 
     rows.forEach(function (row) {
-      if (row.isSub) return;
+      // Subs never reach data.js — the pipeline filters them out.
       if (row.duprRating == null) {
         missingRows.push(row);
         return;
