@@ -2074,6 +2074,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Ashley Hyde",
+   "playerId": "1cb920b0-3fa7-418b-8240-daa87652e592",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Ashwin Korde",
    "playerId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee",
    "team": "Bounce Philly",
@@ -12252,6 +12259,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Kevin Smith",
+   "playerId": "a59960af-3245-4a35-8daf-f861c1feb605",
+   "team": "PCKLRAMA",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Kevin Sun",
    "playerId": "88c57c1f-436b-4280-9bd7-75eafe496b70",
    "team": "Pickleball Kingdom Hillsborough",
@@ -15014,6 +15028,13 @@ window.DUPR_AUDIT = {
    "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
    "team": "Kitchen Ninjas",
    "slug": "e6a9b403",
+   "gender": "Female"
+  },
+  {
+   "name": "Melissa Dardani",
+   "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530",
+   "team": "Flemington",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {

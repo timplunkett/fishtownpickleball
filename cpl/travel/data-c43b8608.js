@@ -13704,14 +13704,6 @@
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Palace",
-   "away": "Montville Rocks",
-   "time": "2026-09-26T09:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Allstar Pickler",
    "time": "2026-09-26T12:00:00",
@@ -13738,6 +13730,14 @@
    "week": 6,
    "home": "One Love",
    "away": "Picklr Newtown",
+   "time": "2026-09-26T15:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 6,
+   "home": "Pickleball Palace",
+   "away": "Montville Rocks",
    "time": "2026-09-26T15:00:00",
    "complete": false
   },

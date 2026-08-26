@@ -325,18 +325,6 @@
       "awayName": "Forward"
     },
     {
-      "matchupId": "c198934b-5bf6-4152-bac0-9808a68cdbfd",
-      "weekNumber": 4,
-      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-12T14:00:00",
-      "homeName": "Picklr Fair Lawn",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "aa49d1f6-e10e-4962-b5fe-c7235cf14f23",
       "weekNumber": 4,
       "homeTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
@@ -359,6 +347,18 @@
       "scheduledTime": "2026-09-12T14:30:00",
       "homeName": "Bounce Malvern",
       "awayName": "Players Courtyard"
+    },
+    {
+      "matchupId": "c198934b-5bf6-4152-bac0-9808a68cdbfd",
+      "weekNumber": 4,
+      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-12T14:30:00",
+      "homeName": "Picklr Fair Lawn",
+      "awayName": "Allstar Pickler"
     },
     {
       "matchupId": "221aa166-b083-483f-9f1d-b6f82fcca93e",

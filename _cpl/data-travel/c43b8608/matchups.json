@@ -493,18 +493,6 @@
       "awayName": "Picklr Fair Lawn"
     },
     {
-      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
-      "weekNumber": 6,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T09:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "Montville Rocks"
-    },
-    {
       "matchupId": "b46fd802-3c03-482b-bd79-a40a1f176718",
       "weekNumber": 6,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -551,6 +539,18 @@
       "scheduledTime": "2026-09-26T15:00:00",
       "homeName": "One Love",
       "awayName": "Picklr Newtown"
+    },
+    {
+      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
+      "weekNumber": 6,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-26T15:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "Montville Rocks"
     },
     {
       "matchupId": "cc98fd7e-33fb-4f9b-9d50-7580307194b3",

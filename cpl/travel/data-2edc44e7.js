@@ -7644,8 +7644,11 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Ron Skotarczak": "034ca84d-576b-41d0-ba1c-103104b1be1f",
   "Nancy Blank": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
+  "Anthony Wands": "1762a9ad-6493-4407-a0ce-de2de697c313",
+  "Marc Pellicane": "1c13f01f-aeb7-45db-9faf-a6567d22bb81",
   "Dan Loreti": "2ce4808a-9400-42cb-a756-fa8ecdf2a1eb",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",

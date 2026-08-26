@@ -85,6 +85,18 @@
       "awayName": "PKLD"
     },
     {
+      "matchupId": "07670a2e-dc1e-4e15-adf6-203d50a359ad",
+      "weekNumber": 2,
+      "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-03T12:00:00",
+      "homeName": "Picklr Newtown",
+      "awayName": "Premiere"
+    },
+    {
       "matchupId": "e66c6941-48d0-4d66-a877-4fe62eba4158",
       "weekNumber": 2,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
@@ -95,18 +107,6 @@
       "scheduledTime": "2026-09-03T12:00:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Life Time Red Bank"
-    },
-    {
-      "matchupId": "07670a2e-dc1e-4e15-adf6-203d50a359ad",
-      "weekNumber": 2,
-      "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-03T13:00:00",
-      "homeName": "Picklr Newtown",
-      "awayName": "Premiere"
     },
     {
       "matchupId": "9b04cc7d-b504-4c98-827b-98c663a54c10",
