@@ -1011,7 +1011,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 49,
-    "rank": 21,
+    "rank": 23,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.3
@@ -1168,7 +1168,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 18,
+    "rank": 20,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -1309,7 +1309,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 48,
-    "rank": 43,
+    "rank": 51,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -1490,6 +1490,352 @@
   ],
   "partners": []
  },
+ "5636cdc5-7a65-4202-abbb-5999eee35ab3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 161,
+    "pa": 116,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "David Bogatyrev",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Tayon Hart",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Kurt Skalamera",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "David Bogatyrev",
+     "Cory Mintz"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Cory Mintz",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "David Bogatyrev",
+     "Michael Dombrowiecki"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "John Coyle",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.7,
+    "confidence": 49,
+    "rank": 16,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.3
+   }
+  ],
+  "partners": []
+ },
+ "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 122,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "David Bogatyrev",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Tayon Hart",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "Tayon Hart",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Shawn Gold",
+     "Tayon Hart"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Jacob Rosengarten",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "Jason Mcmanmon",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Jason Mcmanmon",
+     "Tayon Hart"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.2,
+    "confidence": 54,
+    "rank": 30,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1.3
+   }
+  ],
+  "partners": []
+ },
  "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa": {
   "log": [
    {
@@ -1655,7 +2001,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 55,
-    "rank": 23,
+    "rank": 26,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1
@@ -1836,6 +2182,179 @@
   ],
   "partners": []
  },
+ "9a26eab9-96be-45e1-b380-2845a0e8e668": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 131,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "Jason Mcmanmon",
+     "Shawn Gold"
+    ],
+    "f": 30,
+    "a": 28,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "Kurt Skalamera",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "David Bogatyrev",
+     "Cory Mintz"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "David Bogatyrev",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Jason Mcmanmon",
+     "Tayon Hart"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 52,
+    "rank": 60,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": []
+ },
  "30ecad69-b82a-45aa-94c5-f0f7869a0d12": {
   "log": [
    {
@@ -2001,10 +2520,529 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 50,
-    "rank": 20,
+    "rank": 22,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "0e8c08b7-0e58-434b-8830-f37779f821dc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 158,
+    "pa": 133,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Tayon Hart",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Tayon Hart",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "John Coyle",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Shawn Gold",
+     "Tayon Hart"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Tayon Hart",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "Cory Mintz",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Jacob Rosengarten",
+     "Michael Dombrowiecki"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 53,
+    "rank": 82,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "2d37c246-0ab5-45ca-bb7b-c869e24452b5": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 162,
+    "pa": 137,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Jason Mcmanmon",
+     "Shawn Gold"
+    ],
+    "f": 30,
+    "a": 28,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "David Bogatyrev",
+     "Shawn Gold"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "John Coyle",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Jason Mcmanmon",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Jason Mcmanmon",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Tayon Hart",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "David Bogatyrev",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 55,
+    "rank": 34,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "39c75937-8a66-4688-85f8-6c547400e441": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 158,
+    "pa": 141,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Jacob Rosengarten",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "David Bogatyrev",
+     "Shawn Gold"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Michael Dombrowiecki",
+     "David Bogatyrev"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "Jason Mcmanmon",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "David Bogatyrev",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Jacob Rosengarten",
+     "Michael Dombrowiecki"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.3,
+    "confidence": 51,
+    "rank": 28,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -2315,7 +3353,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 50,
-    "rank": 84,
+    "rank": 96,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
@@ -2613,7 +3651,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 46,
-    "rank": 19,
+    "rank": 21,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.5
@@ -2754,7 +3792,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 73,
+    "rank": 84,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.5
@@ -3036,7 +4074,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 47,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.8
@@ -3177,7 +4215,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 49,
-    "rank": 52,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1
@@ -3318,7 +4356,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 64,
+    "rank": 74,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.5
@@ -3459,7 +4497,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 51,
-    "rank": 69,
+    "rank": 79,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -3584,7 +4622,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 40,
-    "rank": 38,
+    "rank": 45,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.8
@@ -3709,7 +4747,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 54,
+    "rank": 64,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -3834,7 +4872,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 65,
+    "rank": 75,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.6
@@ -4007,10 +5045,183 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 42,
+    "rank": 50,
     "ratingGames": 8,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "cd0eb94b-4d32-4ba9-bcdc-3fba205d90f0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 159,
+    "pa": 128,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Jacob Rosengarten",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Gary White",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Shawn Gold",
+     "David Bogatyrev"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jim Boy Baring",
+    "vs": [
+     "Michael Dombrowiecki",
+     "David Bogatyrev"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Matthew Schwartz",
+    "vs": [
+     "Jacob Rosengarten",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Nacio Marshall",
+    "vs": [
+     "Shawn Gold",
+     "Michael Dombrowiecki"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "Tayon Hart",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "John Coyle",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.8,
+    "confidence": 58,
+    "rank": 14,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -4180,7 +5391,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 52,
-    "rank": 40,
+    "rank": 47,
     "ratingGames": 8,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.7
@@ -4353,7 +5564,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 54,
-    "rank": 49,
+    "rank": 58,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1
@@ -4635,7 +5846,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 17,
+    "rank": 19,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -4808,7 +6019,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 54,
-    "rank": 67,
+    "rank": 77,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -4981,7 +6192,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 71,
+    "rank": 81,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -5138,7 +6349,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 51,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -1.3
@@ -5295,7 +6506,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 49,
-    "rank": 15,
+    "rank": 17,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.8
@@ -5609,7 +6820,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 52,
-    "rank": 61,
+    "rank": 71,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -5643,8 +6854,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -5661,8 +6872,8 @@
     "a": 25,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5677,8 +6888,8 @@
     "a": 23,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5693,8 +6904,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5709,8 +6920,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5725,8 +6936,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5741,8 +6952,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -5757,8 +6968,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -5766,7 +6977,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 54,
-    "rank": 74,
+    "rank": 85,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
@@ -5923,7 +7134,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 53,
-    "rank": 77,
+    "rank": 88,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -6064,7 +7275,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 52,
-    "rank": 29,
+    "rank": 35,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -6205,7 +7416,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 51,
+    "rank": 61,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1
@@ -6346,7 +7557,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 49,
-    "rank": 31,
+    "rank": 38,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -6487,7 +7698,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 57,
+    "rank": 67,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -6628,7 +7839,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 47,
-    "rank": 16,
+    "rank": 18,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -6769,7 +7980,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 72,
+    "rank": 83,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.8
@@ -6910,7 +8121,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 62,
+    "rank": 72,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -7051,7 +8262,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 56,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -7224,7 +8435,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 56,
-    "rank": 33,
+    "rank": 40,
     "ratingGames": 8,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.8
@@ -7397,7 +8608,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 45,
+    "rank": 53,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -7570,7 +8781,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 76,
+    "rank": 87,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.5
@@ -7743,7 +8954,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 52,
-    "rank": 68,
+    "rank": 78,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -7916,7 +9127,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 26,
+    "rank": 31,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -8089,7 +9300,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 45,
-    "rank": 22,
+    "rank": 25,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": -0.4
@@ -8262,7 +9473,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 37,
+    "rank": 44,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -8435,7 +9646,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 59,
+    "rank": 69,
     "ratingGames": 8,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
@@ -8608,7 +9819,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 59,
-    "rank": 44,
+    "rank": 52,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
@@ -8733,7 +9944,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 32,
+    "rank": 39,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -1
@@ -8858,7 +10069,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 45,
-    "rank": 48,
+    "rank": 56,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -9015,7 +10226,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 51,
-    "rank": 30,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -9172,7 +10383,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 55,
-    "rank": 82,
+    "rank": 94,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -9329,7 +10540,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 54,
-    "rank": 35,
+    "rank": 42,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.3
@@ -9486,7 +10697,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 52,
-    "rank": 105,
+    "rank": 120,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -9643,7 +10854,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 51,
-    "rank": 103,
+    "rank": 117,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -9784,7 +10995,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 28,
+    "rank": 33,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -9957,10 +11168,183 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 49,
-    "rank": 25,
+    "rank": 29,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
+ },
+ "b4af1ed9-5d7e-4212-a206-3c9a97b6958a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 146,
+    "pa": 142,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Tayon Hart",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Cory Mintz"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Shawn Gold",
+     "David Bogatyrev"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Joseph Lynskey",
+    "vs": [
+     "Tayon Hart",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Daniel Antonelli",
+    "vs": [
+     "Shawn Gold",
+     "Michael Dombrowiecki"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jason Feldman",
+    "vs": [
+     "David Bogatyrev",
+     "Michael Dombrowiecki"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Michael Mazzola",
+    "vs": [
+     "David Bogatyrev",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 56,
+    "rank": 106,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -10130,7 +11514,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 58,
+    "rank": 68,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.8
@@ -10303,7 +11687,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 53,
-    "rank": 50,
+    "rank": 59,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -10460,10 +11844,167 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 27,
+    "rank": 32,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 123,
+    "pa": 124,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Jim Boy Baring",
+     "Daniel Antonelli"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Jason Feldman",
+     "Nacio Marshall"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Jim Boy Baring",
+     "Daniel Antonelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Jim Boy Baring",
+     "Michael Mazzola"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Nacio Marshall",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Nacio Marshall",
+     "Jason Feldman"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Jim Boy Baring",
+     "Joseph Lynskey"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 51,
+    "rank": 36,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -10617,7 +12158,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 78,
+    "rank": 89,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.6
@@ -10774,7 +12315,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 63,
+    "rank": 73,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -10899,10 +12440,135 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 100,
+    "rank": 114,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.5
+   }
+  ],
+  "partners": []
+ },
+ "e2d70cc7-b655-43d5-a059-063bfe722001": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 99,
+    "pa": 96,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Gary White",
+     "Michael Mazzola"
+    ],
+    "f": 28,
+    "a": 30,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Jim Boy Baring",
+     "Michael Mazzola"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Nacio Marshall",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Matthew Schwartz",
+     "Joseph Lynskey"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Nacio Marshall",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 48,
+    "rank": 24,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -11024,7 +12690,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 44,
-    "rank": 91,
+    "rank": 103,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -11197,7 +12863,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 46,
+    "rank": 54,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.7
@@ -11370,7 +13036,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 111,
+    "rank": 126,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.2
@@ -11543,7 +13209,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 54,
-    "rank": 24,
+    "rank": 27,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.6
@@ -11716,7 +13382,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 57,
-    "rank": 70,
+    "rank": 80,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.6
@@ -11889,7 +13555,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 58,
-    "rank": 39,
+    "rank": 46,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -12062,7 +13728,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 56,
-    "rank": 80,
+    "rank": 92,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -12235,7 +13901,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 54,
-    "rank": 83,
+    "rank": 95,
     "ratingGames": 8,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.6
@@ -12408,7 +14074,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 59,
-    "rank": 66,
+    "rank": 76,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -12581,7 +14247,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 55,
-    "rank": 86,
+    "rank": 98,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.7
@@ -12754,7 +14420,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 57,
-    "rank": 79,
+    "rank": 91,
     "ratingGames": 8,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
@@ -12927,7 +14593,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 44,
-    "rank": 101,
+    "rank": 115,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -13100,7 +14766,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 55,
-    "rank": 104,
+    "rank": 119,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -13241,7 +14907,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 75,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -1.2
@@ -13382,7 +15048,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 53,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
@@ -13523,7 +15189,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 116,
+    "rank": 132,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1
@@ -13664,7 +15330,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 49,
-    "rank": 112,
+    "rank": 127,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -13805,7 +15471,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 44,
-    "rank": 90,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -13946,7 +15612,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 43,
-    "rank": 108,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.6
@@ -14087,7 +15753,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 51,
-    "rank": 89,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.6
@@ -14228,7 +15894,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 48,
-    "rank": 109,
+    "rank": 124,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -14385,7 +16051,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 53,
-    "rank": 55,
+    "rank": 65,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.1
@@ -14542,10 +16208,167 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 55,
-    "rank": 36,
+    "rank": 43,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 124,
+    "pa": 131,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jim Boy Baring",
+     "Daniel Antonelli"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Gary White",
+     "Daniel Antonelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Jim Boy Baring",
+     "Gary White"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Matthew Schwartz",
+     "Daniel Antonelli"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Jim Boy Baring",
+     "Joseph Lynskey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jim Boy Baring",
+     "Joseph Lynskey"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 51,
+    "rank": 49,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -14699,7 +16522,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 60,
+    "rank": 70,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.9
@@ -14856,7 +16679,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 52,
-    "rank": 41,
+    "rank": 48,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.1
@@ -15013,7 +16836,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 85,
+    "rank": 97,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -15170,7 +16993,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 50,
-    "rank": 98,
+    "rank": 112,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.5
@@ -15327,10 +17150,183 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 56,
-    "rank": 110,
+    "rank": 125,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "e77a59ee-8653-4d89-903c-75109d3f17c8": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 147,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Jason Feldman",
+     "Matthew Schwartz"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Jim Boy Baring",
+     "Michael Mazzola"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Nacio Marshall",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jim Boy Baring",
+     "Daniel Antonelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Jason Feldman",
+     "Gary White"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Jim Boy Baring",
+     "Gary White"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Nacio Marshall",
+     "Jason Feldman"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 55,
+    "rank": 57,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -15500,7 +17496,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 55,
-    "rank": 34,
+    "rank": 41,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.9
@@ -15673,7 +17669,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 49,
-    "rank": 117,
+    "rank": 133,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -15846,7 +17842,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 60,
-    "rank": 102,
+    "rank": 116,
     "ratingGames": 8,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -16019,7 +18015,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 49,
-    "rank": 97,
+    "rank": 111,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.2
@@ -16192,7 +18188,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 41,
-    "rank": 124,
+    "rank": 140,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.8
@@ -16365,7 +18361,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 59,
-    "rank": 123,
+    "rank": 139,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -16538,10 +18534,135 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 58,
-    "rank": 125,
+    "rank": 141,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "622cb64f-dd0c-4bff-8c19-81d287977c53": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 90,
+    "pa": 99,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Joseph Lynskey",
+     "Michael Mazzola"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Matthew Schwartz",
+     "Michael Mazzola"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Jim Boy Baring",
+     "Joseph Lynskey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 41,
+    "rank": 90,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -16679,7 +18800,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 113,
+    "rank": 128,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -16820,10 +18941,151 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 47,
-    "rank": 121,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "04000200-8214-42ff-9a0d-2189ffaccd42": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 90,
+    "pa": 122,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Matthew Schwartz",
+     "Jason Feldman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Jason Feldman",
+     "Gary White"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Matthew Schwartz",
+     "Daniel Antonelli"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Joseph Lynskey",
+     "Jason Feldman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Matthew Schwartz",
+     "Gary White"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.9,
+    "confidence": 50,
+    "rank": 110,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -16961,7 +19223,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 49,
-    "rank": 118,
+    "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -17118,7 +19380,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 53,
-    "rank": 96,
+    "rank": 109,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -17275,7 +19537,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 54,
-    "rank": 99,
+    "rank": 113,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -17432,7 +19694,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 51,
-    "rank": 88,
+    "rank": 100,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -17589,7 +19851,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 48,
-    "rank": 94,
+    "rank": 107,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -17746,10 +20008,167 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 54,
-    "rank": 126,
+    "rank": 142,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "9adf9c4e-91c0-4483-af44-9ad4a86a81ce": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 115,
+    "pa": 143,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Gary White",
+     "Michael Mazzola"
+    ],
+    "f": 28,
+    "a": 30,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Gary White",
+     "Daniel Antonelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Jim Boy Baring",
+     "Gary White"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jim Boy Baring",
+     "Michael Mazzola"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Matthew Schwartz",
+     "Michael Mazzola"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Matthew Schwartz",
+     "Gary White"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Matthew Schwartz",
+     "Gary White"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 47,
+    "rank": 118,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -17903,7 +20322,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 92,
+    "rank": 104,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.2
@@ -18060,7 +20479,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 52,
-    "rank": 120,
+    "rank": 136,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.1
@@ -18217,7 +20636,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 53,
-    "rank": 87,
+    "rank": 99,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.3
@@ -18374,7 +20793,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 53,
-    "rank": 115,
+    "rank": 130,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -18547,7 +20966,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 56,
-    "rank": 93,
+    "rank": 105,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -18720,7 +21139,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 54,
-    "rank": 107,
+    "rank": 122,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -18893,7 +21312,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 56,
-    "rank": 81,
+    "rank": 93,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.1
@@ -19066,7 +21485,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 45,
-    "rank": 122,
+    "rank": 138,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -19239,7 +21658,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 57,
-    "rank": 95,
+    "rank": 108,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.9
@@ -19412,7 +21831,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 54,
-    "rank": 127,
+    "rank": 145,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
@@ -19569,7 +21988,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 56,
-    "rank": 106,
+    "rank": 121,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -19710,7 +22129,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 45,
-    "rank": 114,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.7
@@ -19835,10 +22254,151 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 48,
-    "rank": 119,
+    "rank": 135,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "54d78d2c-c0d7-42c0-aef4-567311f2e51e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 87,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Jason Feldman",
+     "Matthew Schwartz"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Matthew Schwartz",
+     "Joseph Lynskey"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Joseph Lynskey",
+     "Michael Mazzola"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Jim Boy Baring",
+     "Gary White"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Jason Feldman",
+     "Daniel Antonelli"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 51,
+    "rank": 131,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -19976,10 +22536,151 @@
     "week": 1,
     "rating": -3.3,
     "confidence": 46,
-    "rank": 128,
+    "rank": 146,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "33feb337-f2ab-4e6d-819b-9535ec743685": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 78,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jason Feldman",
+     "Nacio Marshall"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Jason Feldman",
+     "Gary White"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Jason Feldman",
+     "Gary White"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Joseph Lynskey",
+     "Jason Feldman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Michael Mazzola",
+     "Daniel Antonelli"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Jason Feldman",
+     "Daniel Antonelli"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.9,
+    "confidence": 44,
+    "rank": 143,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -20133,10 +22834,167 @@
     "week": 1,
     "rating": -3.4,
     "confidence": 56,
-    "rank": 129,
+    "rank": 147,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "545f9968-fc0a-420b-ba42-db16c6e1f884": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 97,
+    "pa": 147,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     7
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Matthew Schwartz",
+     "Joseph Lynskey"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Matthew Schwartz",
+     "Jason Feldman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Matthew Schwartz",
+     "Joseph Lynskey"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Michael Mazzola",
+     "Daniel Antonelli"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Matthew Schwartz",
+     "Gary White"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3,
+    "confidence": 51,
+    "rank": 144,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
