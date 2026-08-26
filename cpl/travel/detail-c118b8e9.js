@@ -314,6 +314,570 @@
   ],
   "partners": []
  },
+ "5e42a5f7-22d1-4613-a829-b62121ddc704": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 85,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Keith Richard",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Xan Hong",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Aleks Mirkovic",
+     "Paul Chantler"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Paul Chantler",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Steppan Konoplev",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.3,
+    "confidence": 47,
+    "rank": 7,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "4a5131e4-a912-4913-8ff5-9281e53c6974": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 87,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Rick Olafsson",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Rick Olafsson",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Steppan Konoplev",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Keith Richard",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Ian Diamond",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 3,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Keith Richard",
+     "Bill Violette"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.2,
+    "confidence": 47,
+    "rank": 8,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 89,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Keith Richard",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Rick Olafsson",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andrew Mclean",
+    "vs": [
+     "Rick Olafsson",
+     "Steppan Konoplev"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Steppan Konoplev",
+     "Aleks Mirkovic"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Keith Richard",
+     "Bill Violette"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2,
+    "confidence": 48,
+    "rank": 12,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "c19e964a-d126-4e9f-9ce4-83c315f2f535": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 92,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Steppan Konoplev",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Xan Hong",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Rick Olafsson",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Steppan Konoplev",
+     "Keith Richard"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Rick Olafsson",
+     "Keith Richard"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Steppan Konoplev",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 47,
+    "rank": 10,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
  "870112b1-afc3-4ff6-b784-7f872210bf37": {
   "log": [
    {
@@ -447,7 +1011,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 49,
-    "rank": 17,
+    "rank": 21,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.3
@@ -604,7 +1168,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 14,
+    "rank": 18,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -745,7 +1309,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 48,
-    "rank": 37,
+    "rank": 43,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -1091,7 +1655,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 55,
-    "rank": 19,
+    "rank": 23,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1
@@ -1437,7 +2001,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 50,
-    "rank": 16,
+    "rank": 20,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -1751,7 +2315,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 50,
-    "rank": 71,
+    "rank": 84,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
@@ -1908,7 +2472,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 53,
-    "rank": 8,
+    "rank": 11,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.2
@@ -2049,7 +2613,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 46,
-    "rank": 15,
+    "rank": 19,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.5
@@ -2190,7 +2754,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 63,
+    "rank": 73,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.5
@@ -2331,10 +2895,433 @@
     "week": 1,
     "rating": 2.2,
     "confidence": 46,
-    "rank": 7,
+    "rank": 9,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "79bb5bba-c449-4cdd-948b-fb5f8efdaebb": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Steppan Konoplev",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Rick Olafsson",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Steppan Konoplev",
+     "Keith Richard"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Steppan Konoplev",
+     "Aleks Mirkovic"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Michael Johnson",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 50,
+    "rank": 47,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "a63211cf-31ed-448e-8c87-2aaaf8e84a7b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 116,
+    "pa": 95,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andrew Mclean",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Aleks Mirkovic",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Steppan Konoplev",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Keith Richard",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mathew Yang",
+    "vs": [
+     "Rick Olafsson",
+     "Aleks Mirkovic"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Michael Johnson",
+    "vs": [
+     "Ian Diamond",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 49,
+    "rank": 52,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "12ec758b-f05d-40ec-b082-a76f07cbe792": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 116,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Aleks Mirkovic",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Rick Olafsson",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Rick Olafsson",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Rick Olafsson",
+     "Aleks Mirkovic"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Arnold Poblete",
+    "vs": [
+     "Rick Olafsson",
+     "Keith Richard"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 45,
+    "rank": 64,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -2472,7 +3459,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 51,
-    "rank": 59,
+    "rank": 69,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -2597,7 +3584,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 40,
-    "rank": 32,
+    "rank": 38,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.8
@@ -2722,7 +3709,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 46,
+    "rank": 54,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -2847,7 +3834,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 56,
+    "rank": 65,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.6
@@ -3020,7 +4007,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 36,
+    "rank": 42,
     "ratingGames": 8,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -3193,7 +4180,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 52,
-    "rank": 34,
+    "rank": 40,
     "ratingGames": 8,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.7
@@ -3366,7 +4353,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 54,
-    "rank": 42,
+    "rank": 49,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1
@@ -3475,7 +4462,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 38,
-    "rank": 9,
+    "rank": 13,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -3648,7 +4635,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 13,
+    "rank": 17,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -3821,7 +4808,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 54,
-    "rank": 57,
+    "rank": 67,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -3994,7 +4981,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 61,
+    "rank": 71,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -4151,7 +5138,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 51,
-    "rank": 10,
+    "rank": 14,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -1.3
@@ -4308,7 +5295,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 49,
-    "rank": 11,
+    "rank": 15,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.8
@@ -4622,7 +5609,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 52,
-    "rank": 53,
+    "rank": 61,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -4779,7 +5766,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 54,
-    "rank": 64,
+    "rank": 74,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
@@ -4936,7 +5923,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 53,
-    "rank": 66,
+    "rank": 77,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -5077,7 +6064,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 52,
-    "rank": 25,
+    "rank": 29,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -5218,7 +6205,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 44,
+    "rank": 51,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1
@@ -5359,7 +6346,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 49,
-    "rank": 27,
+    "rank": 31,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -5500,7 +6487,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 49,
+    "rank": 57,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -5641,7 +6628,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 47,
-    "rank": 12,
+    "rank": 16,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -5782,7 +6769,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 62,
+    "rank": 72,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.8
@@ -5923,7 +6910,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 54,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -6064,7 +7051,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 48,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -6237,7 +7224,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 56,
-    "rank": 28,
+    "rank": 33,
     "ratingGames": 8,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.8
@@ -6410,7 +7397,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 39,
+    "rank": 45,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -6583,7 +7570,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 65,
+    "rank": 76,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.5
@@ -6756,7 +7743,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 52,
-    "rank": 58,
+    "rank": 68,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -6929,7 +7916,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 22,
+    "rank": 26,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -7102,7 +8089,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 45,
-    "rank": 18,
+    "rank": 22,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": -0.4
@@ -7275,7 +8262,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 31,
+    "rank": 37,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -7448,7 +8435,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 51,
+    "rank": 59,
     "ratingGames": 8,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
@@ -7621,10 +8608,135 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 59,
-    "rank": 38,
+    "rank": 44,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "2d439cdc-347e-4beb-9975-1b31bc46f2df": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 101,
+    "pa": 84,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Michael Johnson",
+    "vs": [
+     "Steppan Konoplev",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Steven Hummel",
+    "vs": [
+     "Rick Olafsson",
+     "Steppan Konoplev"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Paul Chantler",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Rick Olafsson",
+     "Ian Diamond"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 46,
+    "rank": 32,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -7746,7 +8858,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 45,
-    "rank": 41,
+    "rank": 48,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -7903,7 +9015,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 51,
-    "rank": 26,
+    "rank": 30,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -8060,7 +9172,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 55,
-    "rank": 69,
+    "rank": 82,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -8217,7 +9329,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 54,
-    "rank": 29,
+    "rank": 35,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.3
@@ -8374,7 +9486,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 52,
-    "rank": 89,
+    "rank": 105,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -8531,7 +9643,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 51,
-    "rank": 87,
+    "rank": 103,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -8672,7 +9784,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 24,
+    "rank": 28,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -8845,7 +9957,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 49,
-    "rank": 21,
+    "rank": 25,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
@@ -9018,7 +10130,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 50,
+    "rank": 58,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.8
@@ -9191,7 +10303,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 53,
-    "rank": 43,
+    "rank": 50,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -9348,7 +10460,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 23,
+    "rank": 27,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -9505,7 +10617,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 67,
+    "rank": 78,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.6
@@ -9662,10 +10774,135 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 55,
+    "rank": 63,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "4f98756a-9726-48fe-a241-2579f96eee16": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 99,
+    "pa": 92,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andrew Mclean",
+    "vs": [
+     "Steppan Konoplev",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Keith Richard",
+     "Ian Diamond"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Steppan Konoplev",
+     "Bill Violette"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Mike Leach",
+    "vs": [
+     "Ian Diamond",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Angelo Disipio",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.1,
+    "confidence": 45,
+    "rank": 100,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -9787,7 +11024,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 44,
-    "rank": 78,
+    "rank": 91,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -9960,7 +11197,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 40,
+    "rank": 46,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.7
@@ -10133,7 +11370,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 95,
+    "rank": 111,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.2
@@ -10306,7 +11543,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 54,
-    "rank": 20,
+    "rank": 24,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.6
@@ -10479,7 +11716,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 57,
-    "rank": 60,
+    "rank": 70,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.6
@@ -10652,7 +11889,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 58,
-    "rank": 33,
+    "rank": 39,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -10825,7 +12062,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 56,
-    "rank": 68,
+    "rank": 80,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -10998,9 +12235,182 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 54,
-    "rank": 70,
+    "rank": 83,
     "ratingGames": 8,
     "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "cb2183c7-8c7b-4ebf-93da-66aeabe13d3b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 140,
+    "pa": 159,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Steven Hummel",
+     "Jason Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jimmy Duong",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jimmy Duong",
+     "Gary Garretson"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Arnold Poblete",
+     "Mathew Yang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Steven Hummel",
+     "Alessio Muscara"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 59,
+    "rank": 66,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -11171,10 +12581,183 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 55,
-    "rank": 73,
+    "rank": 86,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "f006963a-4e8e-433d-8c9a-e278ac32ea9c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 133,
+    "pa": 154,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Mike Leach",
+     "Andrew Mclean"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Mike Leach",
+     "Mathew Yang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Jimmy Duong",
+     "Gary Garretson"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Steven Hummel",
+     "Jason Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Mike Leach",
+     "Mathew Yang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Angelo Disipio",
+     "Steven Hummel"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Angelo Disipio",
+     "Michael Johnson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 57,
+    "rank": 79,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -11344,7 +12927,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 44,
-    "rank": 86,
+    "rank": 101,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -11517,10 +13100,151 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 55,
-    "rank": 88,
+    "rank": 104,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "d4126276-6b83-42be-b943-9957df46992c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 115,
+    "pa": 104,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Rick Olafsson",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Keith Richard",
+     "Xan Hong"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Duong",
+    "vs": [
+     "Aleks Mirkovic",
+     "Keith Richard"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Michael Johnson",
+    "vs": [
+     "Keith Richard",
+     "Ian Diamond"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Michael Johnson",
+    "vs": [
+     "Steppan Konoplev",
+     "Bill Violette"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Alessio Muscara",
+    "vs": [
+     "Ian Diamond",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 3,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 47,
+    "rank": 75,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -11658,10 +13382,151 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 45,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "06a3741d-10e5-462b-ba95-aa997d4eb8ea": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 115,
+    "pa": 118,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Keith Richard",
+     "Xan Hong"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Aleks Mirkovic",
+     "Keith Richard"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Aleks Mirkovic",
+     "Paul Chantler"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andrew Mclean",
+    "vs": [
+     "Paul Chantler",
+     "Bill Violette"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jason Wu",
+    "vs": [
+     "Paul Chantler",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andrew Mclean",
+    "vs": [
+     "Rick Olafsson",
+     "Ian Diamond"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 47,
+    "rank": 116,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -11799,7 +13664,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 49,
-    "rank": 96,
+    "rank": 112,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -11940,7 +13805,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 44,
-    "rank": 77,
+    "rank": 90,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -12081,7 +13946,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 43,
-    "rank": 92,
+    "rank": 108,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.6
@@ -12222,7 +14087,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 51,
-    "rank": 76,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.6
@@ -12363,7 +14228,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 48,
-    "rank": 93,
+    "rank": 109,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -12520,7 +14385,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 53,
-    "rank": 47,
+    "rank": 55,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.1
@@ -12677,7 +14542,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 55,
-    "rank": 30,
+    "rank": 36,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
@@ -12834,7 +14699,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 52,
+    "rank": 60,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.9
@@ -12991,7 +14856,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 52,
-    "rank": 35,
+    "rank": 41,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.1
@@ -13148,7 +15013,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 72,
+    "rank": 85,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -13305,7 +15170,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 50,
-    "rank": 84,
+    "rank": 98,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.5
@@ -13462,10 +15327,183 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 56,
-    "rank": 94,
+    "rank": 110,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "088a0cec-3f4c-4100-afd4-33d4462dc7e3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 142,
+    "pa": 156,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Steven Hummel",
+     "Alessio Muscara"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Steven Hummel",
+     "Andrew Mclean"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Arnold Poblete",
+     "Mathew Yang"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Mike Leach",
+     "Mathew Yang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Arnold Poblete",
+     "Mathew Yang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.9,
+    "confidence": 55,
+    "rank": 34,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -13635,10 +15673,183 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 49,
-    "rank": 100,
+    "rank": 117,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "63eeb91c-2c9c-4dbe-8662-58fbb1d95092": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 132,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Steven Hummel",
+     "Jason Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Mike Leach",
+     "Mathew Yang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Michael Johnson",
+     "Mike Leach"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Steven Hummel",
+     "Alessio Muscara"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 60,
+    "rank": 102,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -13808,7 +16019,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 49,
-    "rank": 83,
+    "rank": 97,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.2
@@ -13981,10 +16192,356 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 41,
-    "rank": 106,
+    "rank": 124,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "e83b9a6f-83c6-4b66-a470-a0cae4f462df": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 116,
+    "pa": 161,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Mike Leach",
+     "Andrew Mclean"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Jimmy Duong",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Arnold Poblete",
+     "Mathew Yang"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Angelo Disipio",
+     "Michael Johnson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 59,
+    "rank": 123,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "f5a96445-7d1c-459b-8642-12a5d11554db": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 119,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Michael Johnson",
+     "Andrew Mclean"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Steven Hummel",
+     "Jason Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Michael Johnson",
+     "Mike Leach"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.9,
+    "confidence": 58,
+    "rank": 125,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -14122,7 +16679,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 97,
+    "rank": 113,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -14263,7 +16820,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 47,
-    "rank": 104,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.4
@@ -14404,7 +16961,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 49,
-    "rank": 101,
+    "rank": 118,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -14561,7 +17118,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 53,
-    "rank": 82,
+    "rank": 96,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -14718,7 +17275,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 54,
-    "rank": 85,
+    "rank": 99,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -14875,7 +17432,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 51,
-    "rank": 75,
+    "rank": 88,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -15032,7 +17589,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 48,
-    "rank": 81,
+    "rank": 94,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -15189,7 +17746,7 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 54,
-    "rank": 107,
+    "rank": 126,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -15346,7 +17903,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 79,
+    "rank": 92,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.2
@@ -15503,7 +18060,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 52,
-    "rank": 103,
+    "rank": 120,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.1
@@ -15660,7 +18217,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 53,
-    "rank": 74,
+    "rank": 87,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.3
@@ -15817,7 +18374,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 53,
-    "rank": 99,
+    "rank": 115,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -15990,7 +18547,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 56,
-    "rank": 80,
+    "rank": 93,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -16163,10 +18720,183 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 54,
-    "rank": 91,
+    "rank": 107,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "8f076d51-25ba-4203-97f8-12194ba5b001": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 136,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Michael Johnson",
+     "Andrew Mclean"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Steven Hummel",
+     "Andrew Mclean"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Angelo Disipio",
+     "Steven Hummel"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 56,
+    "rank": 81,
+    "ratingGames": 8,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -16336,10 +19066,183 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 45,
-    "rank": 105,
+    "rank": 122,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 134,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Steven Hummel",
+     "Alessio Muscara"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.9,
+    "confidence": 57,
+    "rank": 95,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -16509,7 +19412,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 54,
-    "rank": 108,
+    "rank": 127,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
@@ -16666,7 +19569,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 56,
-    "rank": 90,
+    "rank": 106,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -16807,7 +19710,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 45,
-    "rank": 98,
+    "rank": 114,
     "ratingGames": 6,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.7
@@ -16932,7 +19835,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 48,
-    "rank": 102,
+    "rank": 119,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.2
@@ -17073,7 +19976,7 @@
     "week": 1,
     "rating": -3.3,
     "confidence": 46,
-    "rank": 109,
+    "rank": 128,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -17230,7 +20133,7 @@
     "week": 1,
     "rating": -3.4,
     "confidence": 56,
-    "rank": 110,
+    "rank": 129,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.7

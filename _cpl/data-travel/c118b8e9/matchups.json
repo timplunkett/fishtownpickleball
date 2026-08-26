@@ -53,9 +53,9 @@
       "weekNumber": 1,
       "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
       "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 544,
+      "awayPoints": 663,
+      "endResult": "away",
       "scheduledTime": "2026-08-25T19:30:00",
       "homeName": "Dill Dinkers Newport",
       "awayName": "Picklr Newtown"
