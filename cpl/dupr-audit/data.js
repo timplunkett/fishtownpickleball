@@ -1561,6 +1561,18 @@ window.DUPR_AUDIT = {
    "max": 3.5
   },
   {
+   "name": "Amanda Quinn",
+   "playerId": "f1248cc3-96c3-4671-9b08-533d22eb710f",
+   "team": "Pickleball Palace",
+   "league": "travel",
+   "division": "4.0 (50+)",
+   "slug": "2edc44e7",
+   "gender": "Female",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
+  },
+  {
    "name": "Amanda Shannon",
    "playerId": "0f4c760b-2f8c-402d-b544-11902855b3fc",
    "team": "Forward",
@@ -4103,6 +4115,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3,
    "max": 3.5
+  },
+  {
+   "name": "Bob Castellano",
+   "playerId": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
+   "team": "Flemington Green",
+   "league": "travel",
+   "division": "4.0 (50+)",
+   "slug": "2edc44e7",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
   },
   {
    "name": "Bob Debarge",
