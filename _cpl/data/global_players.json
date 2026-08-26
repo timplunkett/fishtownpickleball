@@ -29171,8 +29171,10 @@
     "firstName": "Anthony",
     "lastName": "Wands",
     "dupr": "3PORQM",
-    "duprRating": null,
-    "lastSeen": "2026-08-26"
+    "duprRating": "4.071",
+    "duprNumericId": 5339025945,
+    "lastSeen": "2026-08-26",
+    "duprProvisional": false
   },
   {
     "playerId": "1f688eb7-dd8a-4b49-a2a5-98cac5782835",
