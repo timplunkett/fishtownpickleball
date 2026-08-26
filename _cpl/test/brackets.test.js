@@ -40,6 +40,21 @@ test('travel brackets span half a point, uncapped from 4.5', () => {
   );
 });
 
+test('50+ travel brackets are uncapped from 4.0', () => {
+  assert.deepEqual(
+    getDivisionBracket({ divisionName: '4.0 (50+)', leagueType: 'travel' }),
+    { min: 4, max: Infinity },
+  );
+  assert.deepEqual(
+    getDivisionBracket({ divisionName: '3.5 (50+)', leagueType: 'travel' }),
+    { min: 3.5, max: 4 },
+  );
+  assert.deepEqual(
+    getDivisionBracket({ divisionName: '3.0 (50+)', leagueType: 'travel' }),
+    { min: 3, max: 3.5 },
+  );
+});
+
 test('unparseable names yield null', () => {
   assert.equal(getDivisionBracket({ divisionName: 'Open Play', leagueType: 'local' }), null);
   assert.equal(getDivisionBracket({ divisionName: '', leagueType: 'travel' }), null);

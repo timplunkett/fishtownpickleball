@@ -190,7 +190,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Abram Lishansky",
@@ -478,7 +478,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Aimee Castellano",
@@ -850,7 +850,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Alex Lopez",
@@ -1090,7 +1090,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Alfredo Arcila",
@@ -1174,7 +1174,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Alicia Campbell",
@@ -1210,7 +1210,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Alina Allakhveranova",
@@ -1570,7 +1570,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Amanda Shannon",
@@ -1630,7 +1630,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Amy Farrell",
@@ -1654,7 +1654,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Amy Johnson",
@@ -2038,7 +2038,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Andrew Frey",
@@ -2578,7 +2578,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Ann Dunn",
@@ -3190,7 +3190,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Art Muth",
@@ -4150,7 +4150,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Bob Castellano",
@@ -4246,7 +4246,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Brad De Jesus",
@@ -4438,7 +4438,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Brandon Helicher",
@@ -4570,7 +4570,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Brian “Bubba” Falco",
@@ -4642,7 +4642,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Brian Kelly",
@@ -5026,7 +5026,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Butch Beri",
@@ -5386,7 +5386,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Carmina Lasam",
@@ -5410,7 +5410,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Carol Mastroianni",
@@ -5722,7 +5722,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Cesar Alvarez",
@@ -5830,7 +5830,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Chaoxia Cheng",
@@ -6262,7 +6262,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Chris Norton",
@@ -6550,7 +6550,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Christine Dugan",
@@ -6634,7 +6634,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Christine Papa",
@@ -6910,7 +6910,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Christy Beale",
@@ -7018,7 +7018,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Cindy Rossine",
@@ -7210,7 +7210,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Cole Neimetz",
@@ -7486,7 +7486,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Craig Batzar",
@@ -7726,7 +7726,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Cynthia Eisen",
@@ -7738,7 +7738,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Daisy Zhang",
@@ -8002,7 +8002,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Danica Bramschreiber",
@@ -8122,7 +8122,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Daniel Dechristopher",
@@ -8542,7 +8542,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Darren Ward",
@@ -8806,7 +8806,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "David Marchese",
@@ -8842,7 +8842,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "David Osborne",
@@ -9334,7 +9334,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Denise Richmond",
@@ -9454,7 +9454,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Derek Livingston",
@@ -9478,7 +9478,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Derek Lombardi",
@@ -10534,7 +10534,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Elliot Fishman",
@@ -10702,7 +10702,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Emil Pescatore",
@@ -10738,7 +10738,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Emily Babinsky",
@@ -11014,7 +11014,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Eric Luque",
@@ -11038,7 +11038,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Eric Moore",
@@ -11254,7 +11254,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Erik Reilly",
@@ -11314,7 +11314,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Erin Cheng",
@@ -11542,7 +11542,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Eva Danieli",
@@ -11662,7 +11662,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Evelyn Geating",
@@ -12370,7 +12370,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Gary Sidhu",
@@ -13066,7 +13066,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Gwen Leach",
@@ -13186,7 +13186,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Hal Greenspan",
@@ -13282,7 +13282,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Harriet Levin",
@@ -13402,7 +13402,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Heather Conger",
@@ -14494,7 +14494,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jaiveer Narwal",
@@ -14638,7 +14638,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "James Price",
@@ -14818,7 +14818,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jamila Sefiane",
@@ -14890,7 +14890,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jane Pascua",
@@ -14962,7 +14962,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Janice Aliberti",
@@ -14998,7 +14998,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Janine Kietrys",
@@ -15394,7 +15394,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jay Shah",
@@ -15646,7 +15646,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jeff Merten",
@@ -15790,7 +15790,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jeffrey Susskind",
@@ -15802,7 +15802,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jemma Bucks",
@@ -16174,7 +16174,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jennifer Sanchez",
@@ -16642,7 +16642,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jill Delpozzo",
@@ -16666,7 +16666,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jill Mundenar",
@@ -16702,7 +16702,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jillian Hart",
@@ -16762,7 +16762,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jim Kochanski",
@@ -16810,7 +16810,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jim Ritchie",
@@ -16930,7 +16930,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jimmy Shapiro",
@@ -16990,7 +16990,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jingwei Wu",
@@ -17062,7 +17062,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jiyun Yuh",
@@ -17542,7 +17542,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "John Dechristopher",
@@ -17650,7 +17650,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "John Gardler",
@@ -17806,7 +17806,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "John Pineda",
@@ -17830,7 +17830,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "John Pineda",
@@ -17950,7 +17950,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Johnny Deng",
@@ -18070,7 +18070,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jonathan Carter",
@@ -18154,7 +18154,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jonathan Gross",
@@ -18382,7 +18382,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Jorge Diaz Iii",
@@ -19210,7 +19210,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Juri Solano",
@@ -19450,7 +19450,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Karen Anthony",
@@ -19714,7 +19714,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Kate Siedell",
@@ -19750,7 +19750,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Katherine Maruyama",
@@ -20002,7 +20002,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Katy Taylor",
@@ -20134,7 +20134,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Keith Parker",
@@ -20314,7 +20314,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Kelly Feng",
@@ -20350,7 +20350,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Kelly Sacchetti",
@@ -20614,7 +20614,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Kerry Jiang",
@@ -21154,7 +21154,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Kristen Venditti",
@@ -21562,7 +21562,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Lance Brown",
@@ -21778,7 +21778,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Laura Sweet",
@@ -22054,7 +22054,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Leland Weinert",
@@ -22138,7 +22138,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Leonard Krenek",
@@ -22258,7 +22258,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Liangjie Zhu",
@@ -22270,7 +22270,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Lianhong Li",
@@ -22342,7 +22342,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Lincoln Jensen",
@@ -22546,7 +22546,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Linda Zhu",
@@ -22570,7 +22570,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Lindsay Henzes",
@@ -22894,7 +22894,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Liz Mooney",
@@ -23650,7 +23650,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Marc Friedman",
@@ -23674,7 +23674,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Marc Harden",
@@ -23842,7 +23842,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Margo Langer",
@@ -24682,7 +24682,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Marykristin Haskell",
@@ -25462,7 +25462,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Melanie Gibson",
@@ -25582,7 +25582,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Meredith Janeiro",
@@ -25618,7 +25618,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Mica Gray",
@@ -25714,7 +25714,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Michael Dombrowiecki",
@@ -25750,7 +25750,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Michael Finkelstein",
@@ -26098,7 +26098,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Michael Taylor",
@@ -27166,7 +27166,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Nancy Wu",
@@ -27238,7 +27238,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Nate Brochin",
@@ -28150,7 +28150,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Pam Mcdannell",
@@ -28258,7 +28258,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Patricia Costantini",
@@ -28570,7 +28570,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Paula Cuerquis",
@@ -29002,7 +29002,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Pranav Tailor",
@@ -29134,7 +29134,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Quincy Zhang",
@@ -29650,7 +29650,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Rebecca Mcginnis",
@@ -29902,7 +29902,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Richard Demeuse",
@@ -30382,7 +30382,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Robert Block",
@@ -30442,7 +30442,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Robert Finley",
@@ -30850,7 +30850,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Rosa Tenan",
@@ -30874,7 +30874,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Rosanna Neis",
@@ -30994,7 +30994,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Russ Colchamiro",
@@ -31186,7 +31186,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Ryo Inkyo",
@@ -31282,7 +31282,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Sal Garfi",
@@ -31378,7 +31378,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Samantha Adler",
@@ -31558,7 +31558,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Sandra Thompson",
@@ -31582,7 +31582,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Sandro Stefanelli",
@@ -31606,7 +31606,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Sandy Duarte",
@@ -31990,7 +31990,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Scott Auty",
@@ -32146,7 +32146,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Scott Rubin",
@@ -32494,7 +32494,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Shari Gagliardo",
@@ -32602,7 +32602,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Shawn Ganow",
@@ -33142,7 +33142,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Stacey Frank",
@@ -33166,7 +33166,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Stacy Ip-Mo",
@@ -33262,7 +33262,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Steph Wachino",
@@ -33394,7 +33394,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Stephany Venuto",
@@ -33586,7 +33586,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Steve Hong",
@@ -33610,7 +33610,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Steve Hong",
@@ -33742,7 +33742,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Steven Gregov",
@@ -33946,7 +33946,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Sulyn Kulick",
@@ -34006,7 +34006,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Susan Ackley",
@@ -34078,7 +34078,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Susan Goeckeler",
@@ -34342,7 +34342,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tami Mohney",
@@ -34450,7 +34450,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tara Kramer",
@@ -34474,7 +34474,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tara Oko",
@@ -34750,7 +34750,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tera Baccile",
@@ -35086,7 +35086,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Thuy Heng",
@@ -35194,7 +35194,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tim Dowd",
@@ -35494,7 +35494,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Todd Gelfand",
@@ -35530,7 +35530,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Todd Law",
@@ -35566,7 +35566,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Todd Woodard",
@@ -35662,7 +35662,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tom Laiso",
@@ -35710,7 +35710,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tom Matko",
@@ -35758,7 +35758,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Tomas Ruiz",
@@ -36442,7 +36442,7 @@ window.DUPR_AUDIT = {
    "gender": "Female",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Vicki Main",
@@ -36766,7 +36766,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Ward Greer",
@@ -37234,7 +37234,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Yishay Schacher",
@@ -37582,7 +37582,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Zhaohui Li",
@@ -37606,7 +37606,7 @@ window.DUPR_AUDIT = {
    "gender": "Male",
    "isSub": false,
    "min": 4,
-   "max": 4.5
+   "max": null
   },
   {
    "name": "Ziyu Huang",

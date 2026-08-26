@@ -9,7 +9,11 @@ function getDivisionBracket(divisionMeta) {
     const ratingMatch = divisionName.match(/^(\d+(?:\.\d+)?)/);
     if (!ratingMatch) return null;
     const min = Number(ratingMatch[1]);
-    return { min, max: min >= 4.5 ? Infinity : min + 0.5 };
+    // The top bracket of an age group is uncapped: 4.5 in the open divisions,
+    // 4.0 in the 50+ divisions.
+    const isSenior = /\(\s*50\s*\+\s*\)/.test(divisionName);
+    const ceiling = isSenior ? 4 : 4.5;
+    return { min, max: min >= ceiling ? Infinity : min + 0.5 };
   }
 
   const rangeMatch = divisionName.match(/^(\d+(?:\.\d+)?)\s*[–-]\s*(\d+(?:\.\d+)?)$/);
