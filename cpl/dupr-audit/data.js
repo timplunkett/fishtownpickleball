@@ -10057,13 +10057,8 @@ window.DUPR_AUDIT = {
    "name": "Jitendra Arora",
    "playerId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
    "team": "Pickle House",
-   "league": "travel",
-   "division": "3.75 Mens",
    "slug": "c118b8e9",
-   "gender": "Male",
-   "isSub": false,
-   "min": 3.75,
-   "max": 4.25
+   "gender": "Male"
   },
   {
    "name": "Jitendra Arora",
@@ -13342,6 +13337,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Ling Vance",
+   "playerId": "a946c053-1482-4e6f-b494-4df974218bb7",
+   "team": "LBF Pickleball",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Lingshan Hsieh",
    "playerId": "7fe3ca78-6219-4723-a8ad-49bce55b0238",
    "team": "Allstar Pickler",
@@ -14102,6 +14104,13 @@ window.DUPR_AUDIT = {
    "playerId": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
    "team": "Life Time Red Bank",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Marianna Telerman",
+   "playerId": "1839837f-46c6-4ae0-8150-add6abd2d1a0",
+   "team": "Jersey Pickleball Club",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

@@ -1693,18 +1693,6 @@
       "awayName": "Premiere"
     },
     {
-      "matchupId": "50bb6e49-155c-4b54-940d-7243f5826552",
-      "weekNumber": 9,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T09:00:00",
-      "homeName": "Pickle House",
-      "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
       "matchupId": "bc389b9d-7ad2-48d6-b2c5-d6f70c8fd488",
       "weekNumber": 9,
       "homeTeamId": "13cf2b33-c643-4783-a330-da8e16e9cc59",
@@ -1727,6 +1715,18 @@
       "scheduledTime": "2026-10-24T12:00:00",
       "homeName": "Picklr Newark",
       "awayName": "Dill Dinkers Hatboro"
+    },
+    {
+      "matchupId": "50bb6e49-155c-4b54-940d-7243f5826552",
+      "weekNumber": 9,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-24T12:00:00",
+      "homeName": "Pickle House",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "3d7b80f9-46b2-4f47-9342-818e863f0bd4",
