@@ -1,4 +1,4 @@
-window.PLAYER_INDEX_PACKED = {
+window.PLAYER_INDEX_TABLES = {
  "n": [
   "Aadhar Rohila",
   "Aaron Chan",

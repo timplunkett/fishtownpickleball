@@ -1041,7 +1041,12 @@ function buildPlayerIndex() {
   const outPath = path.join(rootDir, 'cpl', 'player-index.js');
   // levels=2: the five tables each start a line, and every row inside them gets
   // its own, so a roster change shows up as the handful of lines it actually is.
-  fs.writeFileSync(outPath, `window.PLAYER_INDEX_PACKED = ${expandJson(packPlayerIndex(entries), 2)};\n`);
+  // Named for its shape — a table per column — rather than reusing
+  // PLAYER_INDEX_PACKED, which held the single-string-table encoding this
+  // replaced. A shared.js cached from before the change reads only the name it
+  // knows, finds nothing there, and degrades to an empty finder instead of
+  // throwing on a shape it predates. See getPlayerIndex in modules/shared.js.
+  fs.writeFileSync(outPath, `window.PLAYER_INDEX_TABLES = ${expandJson(packPlayerIndex(entries), 2)};\n`);
   console.log(`✓ player-index.js written (${entries.length} player-division entries, packed).`);
 
   const auditDir = path.join(rootDir, 'cpl', 'dupr-audit');

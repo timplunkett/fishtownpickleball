@@ -63,9 +63,9 @@ test('formatDuprRating covers absent, plain, provisional and linked ratings', ()
   assert.match(linked, /4\.001/);
 });
 
-test('getPlayerIndex unpacks the division-table format and caches it', () => {
+test('getPlayerIndex unpacks the per-column table format and caches it', () => {
   delete globalThis.PLAYER_INDEX;
-  globalThis.PLAYER_INDEX_PACKED = {
+  globalThis.PLAYER_INDEX_TABLES = {
     n: ['Al One', 'Bo Two'],
     t: ['Team X', 'Team Z'],
     d: [['abcd1234', '3.5 - 4.0', 0, 'Club Y'], ['ef567890', '4.0', 1, '']],
@@ -89,11 +89,11 @@ test('getPlayerIndex unpacks the division-table format and caches it', () => {
   assert.equal(index[2].playerId, null, 'a missing id decodes as null, not as an empty string');
   assert.equal(shared.getPlayerIndex(), index, 'cached on second call');
   delete globalThis.PLAYER_INDEX;
-  delete globalThis.PLAYER_INDEX_PACKED;
+  delete globalThis.PLAYER_INDEX_TABLES;
 });
 
 // A browser can pair a cached player-index.js with a newer shared.js.
-test('getPlayerIndex still unpacks the previous string-table format', () => {
+test('getPlayerIndex still unpacks the shared string-table format', () => {
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_PACKED = {
     s: ['Al One', 'Team X', '3.5 - 4.0', 'abcd1234', 'pid-1', 'Club Y'],
@@ -167,4 +167,62 @@ test('buildDuprRatingIndex tolerates an empty or missing DUPR table', () => {
   assert.deepEqual(shared.buildDuprRatingIndex(IDS_BY_NAME, {}), {});
   assert.deepEqual(shared.buildDuprRatingIndex(IDS_BY_NAME, undefined), {});
   assert.deepEqual(shared.buildDuprRatingIndex(undefined, DUPR_TABLE), {});
+});
+
+// player-index.js and shared.js cache independently and nothing busts them, so
+// a returning visitor can hold one from either side of a deploy. The encodings
+// therefore live under separate globals: the one direction no code change can
+// rescue is a cached *old* shared.js meeting a *new* index, because that code
+// is already in the browser. It has to find nothing rather than a shape it
+// predates. (This is the failure that reached a browser once: the old decoder
+// read the new file and threw inside the player modal.)
+test('an index is invisible to a decoder that predates its shape', () => {
+  delete globalThis.PLAYER_INDEX;
+  globalThis.PLAYER_INDEX_TABLES = {
+    n: ['Al One'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '']], i: [], e: [[0, 0, 0, -1, 0]],
+  };
+  // Exactly what the shipped older shared.js does before it touches any field.
+  const seenByOldDecoder = globalThis.PLAYER_INDEX_PACKED;
+  assert.equal(!seenByOldDecoder || !Array.isArray(seenByOldDecoder.e), true,
+    'the old global stays unset, so the old guard returns [] instead of throwing');
+  assert.equal(shared.getPlayerIndex().length, 1, 'while the current decoder reads it');
+  delete globalThis.PLAYER_INDEX;
+  delete globalThis.PLAYER_INDEX_TABLES;
+});
+
+test('the per-column tables win when a stale index left the old global behind', () => {
+  delete globalThis.PLAYER_INDEX;
+  globalThis.PLAYER_INDEX_PACKED = { s: ['Stale', 'T', 'D', 'slug'], e: [[0, 1, 2, 3, 0, -1, -1, 0]] };
+  globalThis.PLAYER_INDEX_TABLES = {
+    n: ['Fresh'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '']], i: [], e: [[0, 0, 0, -1, 0]],
+  };
+  assert.equal(shared.getPlayerIndex()[0].name, 'Fresh');
+  delete globalThis.PLAYER_INDEX;
+  delete globalThis.PLAYER_INDEX_PACKED;
+  delete globalThis.PLAYER_INDEX_TABLES;
+});
+
+// An index that is present but unreadable has to cost the finder rows, not the
+// player modal that calls this. Anything the decoder would index into is
+// checked before it runs — a half-written or truncated file otherwise throws
+// from inside the map, which is what a malformed fixture did once.
+test('a packed index missing one of its tables degrades instead of throwing', () => {
+  const cases = {
+    'legacy entries with no string table': { PLAYER_INDEX_PACKED: { e: [[0, 0, 0, 0, 0, 0, 0, 0]] } },
+    'current entries with no tables at all': { PLAYER_INDEX_TABLES: { e: [[0, 0, 0, 0, 0]] } },
+    'current entries missing only the id table': {
+      PLAYER_INDEX_TABLES: { n: ['A'], t: ['B'], d: [['s', 'D', 0, '']], e: [[0, 0, 0, 0, 0]] },
+    },
+    'entry list that is not a list': { PLAYER_INDEX_TABLES: { n: [], t: [], d: [], i: [], e: 'nope' } },
+  };
+  for (const [label, globals] of Object.entries(cases)) {
+    delete globalThis.PLAYER_INDEX;
+    delete globalThis.PLAYER_INDEX_PACKED;
+    delete globalThis.PLAYER_INDEX_TABLES;
+    Object.assign(globalThis, globals);
+    assert.deepEqual(shared.getPlayerIndex(), [], label);
+  }
+  delete globalThis.PLAYER_INDEX;
+  delete globalThis.PLAYER_INDEX_PACKED;
+  delete globalThis.PLAYER_INDEX_TABLES;
 });

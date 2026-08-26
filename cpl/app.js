@@ -406,7 +406,9 @@ function loadScriptOnce(src) {
 // first paint. renderOtherLeaguesSummary already returns nothing when the index
 // is absent, so a modal opened before it arrives simply omits that row.
 function loadPlayerIndexScript() {
-  if (window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX) return Promise.resolve();
+  if (window.PLAYER_INDEX_TABLES || window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX) {
+    return Promise.resolve();
+  }
   return loadScriptOnce('../player-index.js');
 }
 

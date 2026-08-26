@@ -150,11 +150,11 @@
     return index;
   }
 
-  // Decode the packed player index emitted by the compiler (name, team and id
-  // tables, a division table, integer entries; see packPlayerIndex) into the
-  // plain entry objects the finder and dashboards consume. Unpacks once, then
-  // serves the cached array.
-  function unpackPlayerIndex(packed) {
+  // Decode the player index the compiler writes today — a table per column
+  // (names, teams, divisions, ids) plus integer entries pointing into them; see
+  // packPlayerIndex — into the plain entry objects the finder and dashboards
+  // consume. Unpacked once, then served from the cached array.
+  function unpackTableIndex(packed) {
     const pick = (list, index) => (index === -1 ? '' : list[index]);
     return packed.e.map((entry) => {
       const division = packed.d[entry[2]] || ['', '', 0, ''];
@@ -173,9 +173,9 @@
     });
   }
 
-  // The previous encoding, in case a browser pairs a cached player-index.js
-  // with a newer shared.js.
-  function unpackLegacyPlayerIndex(packed) {
+  // The encoding before it: one string table shared by every column. Kept for
+  // the browser that pairs a cached player-index.js with a newer shared.js.
+  function unpackStringTableIndex(packed) {
     const s = (index) => (index === -1 ? '' : packed.s[index]);
     return packed.e.map((entry) => {
       const decoded = {
@@ -193,14 +193,44 @@
     });
   }
 
+  // Every encoding of the index gets its own global, named for the shape it
+  // holds — PLAYER_INDEX_TABLES for the per-column tables written today,
+  // PLAYER_INDEX_PACKED for the single shared string table written before it.
+  //
+  // The names must differ because player-index.js and shared.js are separate
+  // files with separate caches and nothing busts them, so a returning visitor
+  // can hold one from before a deploy and one from after — the same skew
+  // bootstrap.js and bootstrap-runtime.js already guard against. One name
+  // covering two shapes breaks the direction no later fix can reach: a cached
+  // old shared.js reads whatever sits under the name it knows and throws inside
+  // the player modal, and code already in a browser cannot be corrected. Under
+  // its own name it finds nothing, falls through its own empty guard, and
+  // quietly drops the finder rows instead.
+  //
+  // Marking the format inside the payload would not do: the older code checks
+  // only that `e` is an array, which any of these shapes satisfies, so it would
+  // decode the new one regardless of what a version field said.
+  //
+  // So a new shape takes a new name describing it. There is no ordering here to
+  // keep up to date, and nothing to number.
+  const readsAs = (packed, tables) => (
+    !!packed && Array.isArray(packed.e) && tables.every((name) => Array.isArray(packed[name]))
+  );
+
   function getPlayerIndex() {
     const root = globalThis;
     if (Array.isArray(root.PLAYER_INDEX)) return root.PLAYER_INDEX;
-    const packed = root.PLAYER_INDEX_PACKED;
-    if (!packed || !Array.isArray(packed.e)) return [];
-    root.PLAYER_INDEX = Array.isArray(packed.s)
-      ? unpackLegacyPlayerIndex(packed)
-      : unpackPlayerIndex(packed);
+    // Each candidate is checked for every table its decoder will index into,
+    // not just for its entry list. Half a table is as unreadable as none, and
+    // what this owes the player modal is that an index it cannot read costs the
+    // finder rows rather than the whole modal.
+    if (readsAs(root.PLAYER_INDEX_TABLES, ['n', 't', 'd', 'i'])) {
+      root.PLAYER_INDEX = unpackTableIndex(root.PLAYER_INDEX_TABLES);
+    } else if (readsAs(root.PLAYER_INDEX_PACKED, ['s'])) {
+      root.PLAYER_INDEX = unpackStringTableIndex(root.PLAYER_INDEX_PACKED);
+    } else {
+      return [];
+    }
     return root.PLAYER_INDEX;
   }
 
