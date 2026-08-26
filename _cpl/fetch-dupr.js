@@ -27,8 +27,35 @@ function getPlayerMatch(data) {
   return Array.isArray(hits) ? hits[0] : null;
 }
 
+async function duprRequest(url, options = {}) {
+  try {
+    const response = await fetch(url, {
+      ...options,
+      headers: {
+        'Authorization': 'Bearer ' + ACCESS_TOKEN,
+        'Content-Type': 'application/json',
+      },
+    });
+
+    const data = await response.json().catch(() => ({}));
+
+    if (response.status === 429) return { data: null, rateLimited: true };
+    if (!response.ok || data.status !== 'SUCCESS') {
+      return { data: null, rateLimited: false, error: data.message || data.status || response.statusText };
+    }
+    return { data, rateLimited: false };
+  } catch (err) {
+    return { data: null, rateLimited: false, error: err.message };
+  }
+}
+
+/**
+ * Searches the DUPR player index. Note: the index only contains players whose
+ * account status is ACTIVE. Unclaimed / invitation-only profiles are absent from
+ * it entirely, so a zero-hit SUCCESS response does not mean the player is unknown
+ * to DUPR — see getPlayerByNumericId().
+ */
 async function searchPlayer(query, filter = null) {
-  const url = 'https://api.dupr.gg/player/v1.0/search';
   const payload = {
     query,
     page: 0,
@@ -36,29 +63,32 @@ async function searchPlayer(query, filter = null) {
     limit: 1,
     sort: { order: 'ASC', parameter: 'RELEVANCE' },
   };
+  // The endpoint rejects a payload with no filter (HTTP 400).
   if (filter) payload.filter = filter;
 
-  try {
-    const authHeader = 'Bearer ' + ACCESS_TOKEN;
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Authorization': authHeader,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payload),
-    });
+  const { data, rateLimited, error } = await duprRequest('https://api.dupr.gg/player/v1.0/search', {
+    method: 'POST',
+    body: JSON.stringify(payload),
+  });
+  if (rateLimited) return { playerMatch: null, rateLimited: true };
+  if (!data) return { playerMatch: null, rateLimited: false, error };
+  return { playerMatch: getPlayerMatch(data), rateLimited: false };
+}
 
-    const data = await response.json().catch(() => ({}));
-
-    if (response.status === 429) return { playerMatch: null, rateLimited: true };
-    if (!response.ok || data.status !== 'SUCCESS') {
-      return { playerMatch: null, rateLimited: false, error: data.message || data.status || response.statusText };
-    }
-    return { playerMatch: getPlayerMatch(data), rateLimited: false };
-  } catch (err) {
-    return { playerMatch: null, rateLimited: false, error: err.message };
-  }
+/**
+ * Reads a player profile directly by numeric ID — the same lookup the DUPR
+ * dashboard uses. Unlike search, this resolves INACTIVE / unclaimed profiles.
+ */
+async function getPlayerByNumericId(numericId) {
+  const { data, rateLimited, error } = await duprRequest(
+    `https://api.dupr.gg/player/v1.0/${numericId}`,
+    { method: 'GET' },
+  );
+  if (rateLimited) return { playerMatch: null, rateLimited: true };
+  if (!data) return { playerMatch: null, rateLimited: false, error };
+  const result = data.result;
+  const playerMatch = result && typeof result === 'object' && !Array.isArray(result) ? result : null;
+  return { playerMatch, rateLimited: false };
 }
 
 /**
@@ -74,45 +104,72 @@ function extractRating(playerMatch) {
   return { rating, provisional: rating != null && confirmed == null };
 }
 
+const MISS = (numericId = null) => ({ rating: null, provisional: false, numericId, rateLimited: false, found: false });
+const RATE_LIMITED = { rating: null, provisional: false, numericId: null, rateLimited: true, found: false };
+
+function resolveMatch(playerMatch, fallbackNumericId) {
+  const { rating, provisional } = extractRating(playerMatch);
+  return {
+    rating,
+    provisional,
+    numericId: playerMatch.id ?? fallbackNumericId ?? null,
+    rateLimited: false,
+    found: true,
+  };
+}
+
+/**
+ * Resolves a player's doubles rating.
+ *
+ * A known numeric ID is read directly, which is one request and — unlike the
+ * search index — keeps working if the player's account goes INACTIVE. Search is
+ * used only to discover a numeric ID we don't have yet, or to recover when a
+ * stored numeric ID no longer resolves.
+ */
 async function fetchDuprRating(duprId, existingNumericId = null) {
   if (!duprId || duprId.trim() === '') {
-    return { rating: null, provisional: false, numericId: existingNumericId ?? null, rateLimited: false };
-  }
-
-  const primary = await searchPlayer(duprId, { duprId });
-  if (primary.rateLimited) {
-    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
-    return { rating: null, provisional: false, numericId: null, rateLimited: true };
-  }
-  if (primary.playerMatch) {
-    const numericId = primary.playerMatch.id ?? existingNumericId ?? null;
-    const { rating, provisional } = extractRating(primary.playerMatch);
-    return { rating, provisional, numericId, rateLimited: false };
-  }
-
-  if (primary.error) {
-    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, primary.error);
+    return MISS(existingNumericId ?? null);
   }
 
   if (existingNumericId != null) {
-    const numericId = Number(existingNumericId);
-    console.warn(`[WARN] No player match for DUPR ID ${duprId}; retrying with numeric ID ${existingNumericId}.`);
-    const fallback = await searchPlayer(String(existingNumericId), Number.isFinite(numericId) ? { id: numericId } : null);
-    if (fallback.rateLimited) {
-      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
-      return { rating: null, provisional: false, numericId: null, rateLimited: true };
+    const direct = await getPlayerByNumericId(existingNumericId);
+    if (direct.rateLimited) {
+      console.warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
+      return RATE_LIMITED;
     }
-    if (fallback.playerMatch) {
-      const numericId = fallback.playerMatch.id ?? existingNumericId;
-      const { rating, provisional } = extractRating(fallback.playerMatch);
-      return { rating, provisional, numericId, rateLimited: false };
+    if (direct.playerMatch) {
+      const match = direct.playerMatch;
+      if (match.duprId && match.duprId !== duprId) {
+        console.warn(`[WARN] Profile ${existingNumericId} reports DUPR ID ${match.duprId}, expected ${duprId} — likely a merged account.`);
+      }
+      return resolveMatch(match, existingNumericId);
     }
-    if (fallback.error) {
-      console.warn(`[WARN] Failed numeric lookup for DUPR ID ${duprId} (${existingNumericId}):`, fallback.error);
+    if (direct.error) {
+      console.warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}):`, direct.error);
     }
+    console.warn(`[WARN] Profile ${existingNumericId} did not resolve; falling back to search for DUPR ID ${duprId}.`);
   }
 
-  return { rating: null, provisional: false, numericId: existingNumericId ?? null, rateLimited: false };
+  const search = await searchPlayer(duprId, { duprId });
+  if (search.rateLimited) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
+    return RATE_LIMITED;
+  }
+  if (search.playerMatch) {
+    return resolveMatch(search.playerMatch, existingNumericId);
+  }
+  if (search.error) {
+    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, search.error);
+  } else if (existingNumericId == null) {
+    // Zero-hit SUCCESS: either no such DUPR ID, or an unclaimed (INACTIVE)
+    // profile, which the search index omits. Without a numeric ID to read
+    // directly, the two are indistinguishable from here.
+    console.warn(`[WARN] No search match for DUPR ID ${duprId}; no numeric ID on file to read directly.`);
+  } else {
+    console.warn(`[WARN] No search match for DUPR ID ${duprId} either.`);
+  }
+
+  return MISS(existingNumericId ?? null);
 }
 
 /**
@@ -162,12 +219,10 @@ async function run() {
   } else {
     for (const player of validPlayers) {
       if (player.duprRating != null) {
-        if (!player.duprNumericId) {
+        if (!player.duprNumericId && !isNrRating(player.duprRating)) {
           // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
-        } else if (bypassNrCache && isNrRating(player.duprRating)) {
-          // Explicit bypass for stale NR cache entries
         } else {
-          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId, provisional: player.duprProvisional ?? false });
+          duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId ?? null, provisional: player.duprProvisional ?? false });
         }
       }
     }
@@ -177,7 +232,7 @@ async function run() {
     ? validPlayers
     : validPlayers.filter((p) => {
         if (p.duprRating == null) return true;
-        if (bypassNrCache && isNrRating(p.duprRating)) return true;
+        if (isNrRating(p.duprRating)) return bypassNrCache;
         if (p.duprNumericId) return false;
         // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
         return true;
@@ -222,7 +277,7 @@ async function run() {
       continue;
     }
 
-    const { rating, provisional, numericId, rateLimited } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
+    const { rating, provisional, numericId, rateLimited, found } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
 
     if (rateLimited) {
       consecutive429s += 1;
@@ -239,23 +294,29 @@ async function run() {
       }
     } else {
       consecutive429s = 0;
+      // A player who exists in DUPR but has no confirmed or provisional doubles
+      // rating is recorded as 'NR' so the cache can skip them on the next run.
+      // A failed lookup (found === false) stays null so it is retried.
+      const resolvedRating = rating != null ? rating : (found ? 'NR' : null);
+      const resolvedProvisional = rating != null ? provisional : false;
+
       if (numericId != null) {
         player.duprNumericId = numericId;
       }
-      if (rating != null) {
-        player.duprRating = rating;
-        player.duprProvisional = provisional;
+      if (resolvedRating != null) {
+        player.duprRating = resolvedRating;
+        player.duprProvisional = resolvedProvisional;
         delete player.duprLastFetchedFor;
       }
-      if (numericId != null || rating != null) {
-        duprCache.set(player.dupr, { rating, numericId, provisional });
+      if (numericId != null || resolvedRating != null) {
+        duprCache.set(player.dupr, { rating: resolvedRating, numericId, provisional: resolvedProvisional });
       }
 
       summary.push({
         Name: fullName,
         'DUPR ID': player.dupr,
         'Numeric ID': numericId ?? '—',
-        'Fetched Rating': rating !== null ? rating : 'NR',
+        'Fetched Rating': resolvedRating != null ? resolvedRating : 'not found',
       });
     }
 
