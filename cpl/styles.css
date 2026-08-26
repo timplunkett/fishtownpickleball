@@ -143,6 +143,13 @@ footer {
   white-space: nowrap;
 }
 
+/* The opponent's pod on a cross-pod schedule row. Accented rather than muted,
+   because the week reads as an ordinary divisional match until this says otherwise. */
+.cross-pod-tag {
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .panel,
 .tcard,
 .explainer,

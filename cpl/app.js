@@ -499,6 +499,19 @@ function reportedPodTag(team) {
   return `<span class="tag pod-tag">${escapeHtml(reported)}</span>`;
 }
 
+// A schedule row against a team from another pod otherwise reads like any other
+// week, so it names the opponent's pod. Only reported pods compare cleanly —
+// schedule sections can span several of them, which is the cross-pod case itself.
+function crossPodTag(teamName, opponentName) {
+  const teams = DATA.teams || [];
+  const ours = teams.find((team) => team.name === teamName);
+  const theirs = teams.find((team) => team.name === opponentName);
+  const ourPod = ours && ours.reportedPod;
+  const theirPod = theirs && theirs.reportedPod;
+  if (!ourPod || !theirPod || ourPod === theirPod) return '';
+  return ` • <span class="tag cross-pod-tag">Pod: ${escapeHtml(theirPod)}</span>`;
+}
+
 function renderTeams() {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
   if (podCount <= 1) {
@@ -1660,7 +1673,7 @@ function renderTeamMatchBlock(match, teamName) {
   return `
     <div class="wk-block">
       <div class="wk-head">
-        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
         <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}${provisionalLabel}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${match.provisional ? ' • <span class="mut">Unverified</span>' : ''}${upsetLine}</div>
@@ -1685,7 +1698,7 @@ function renderPendingTeamMatchBlock(match, teamName) {
     return `
       <div class="wk-block pending-match">
         <div class="wk-head">
-          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
           <span class="mut">${scheduledTime || 'TBD'}</span>
         </div>
         <div class="match-summary">Lineups have not been posted yet.</div>
