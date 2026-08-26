@@ -38,6 +38,21 @@ function firstValues(obj) {
   return null;
 }
 
+// Posted-but-unplayed lineups for a scheduled matchup, as the UI's `games`
+// shape. Games missing any of the four slots are dropped: a half-filled lineup
+// cannot be projected. Shared by the pre-season and in-season match builders so
+// upcoming schedules show lineups in both.
+function buildPendingGames(detail, nameById) {
+  const lineups = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
+  return lineups
+    .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
+    .map((g) => ({
+      t: g.matchType,
+      h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+      a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+    }));
+}
+
 function writeDataScript(outPath, data) {
   const asOf = data && data.meta ? data.meta.asOf : undefined;
   const divisionSlug = data && data.meta ? data.meta.divisionSlug : undefined;
@@ -283,6 +298,31 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   for (const [pid, p] of Object.entries(homeRowByPid)) homeTeamByPid[pid] = p.teamName;
   for (const [pid, p] of Object.entries(captainRowByPid)) captainTeamByPid[pid] = p.teamName;
 
+  // Player ID -> display name, built from the complete player roster
+  // (players.json) so it resolves upcoming matchups too, whose
+  // matchupPlayerStats has been omitted. Needed before the pre-season branch
+  // below, which also renders posted lineups.
+  const nameById = {};
+  for (const [pid, info] of Object.entries(playerInfoById)) {
+    nameById[pid] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+  }
+
+  // The reverse lookup, over the whole division roster — subs included, who are
+  // absent from DATA.players but do appear in lineups. Lineups identify players
+  // by name only, so this is what lets the dashboard join a lineup slot to the
+  // client-side DUPR table (kept out of the compiled data so the DUPR workflow
+  // can refresh ratings without a recompile). Names that two players share are
+  // dropped rather than guessed at: a wrong join would silently rate the wrong
+  // person.
+  const playerIdsByName = {};
+  const ambiguousNames = new Set();
+  for (const [pid, name] of Object.entries(nameById)) {
+    if (!name) continue;
+    if (playerIdsByName[name] && playerIdsByName[name] !== pid) ambiguousNames.add(name);
+    playerIdsByName[name] = pid;
+  }
+  for (const name of ambiguousNames) delete playerIdsByName[name];
+
   // A rostered player who hasn't logged a game yet: real identity, zeroed
   // stats, no rating. Used pre-season and for teams whose first match hasn't
   // been played while the rest of the division is under way.
@@ -321,20 +361,28 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     const teamArr = [...teams.values()].sort((a, b) => a.name.localeCompare(b.name));
     for (const t of teamArr) { t.diff = 0; t.gameDiff = 0; t.fmt = { mixed: [0, 0], male: [0, 0], female: [0, 0] }; t.power = null; }
     const playerArr = [...players.values()].sort((a, b) => a.name.localeCompare(b.name));
-    // Build the schedule from all matchups (none completed yet).
-    const matches = matchups.map(m => ({
-      result: m.endResult || null,
-      week: m.weekNumber,
-      home: m.homeName,
-      away: m.awayName,
-      time: m.scheduledTime || null,
-      complete: false,
-    }));
+    // Build the schedule from all matchups (none completed yet). Lineups are
+    // often posted well before the first match is played, so carry them through
+    // here too — otherwise every team's upcoming schedule reads "Lineups have
+    // not been posted yet" for the whole pre-season.
+    const matches = matchups.map(m => {
+      const rec = {
+        result: m.endResult || null,
+        week: m.weekNumber,
+        home: m.homeName,
+        away: m.awayName,
+        time: m.scheduledTime || null,
+        complete: false,
+      };
+      const pendingGames = buildPendingGames(detailById.get(m.matchupId), nameById);
+      if (pendingGames.length) rec.games = pendingGames;
+      return rec;
+    });
     // Pods are known pre-season: the league reports them, and the schedule implies them.
     divisionMeta = { ...(divisionMeta || {}), ...assignPods(teamArr, matchups, podNameByTeam) };
     const detailByPid = splitPlayerDetails(playerArr);
     const DATA = {
-      players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
+      players: playerArr, teams: teamArr, duos: [], matches, playoffs: [], playerIdsByName,
       meta: {
         matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
@@ -562,12 +610,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
   // Full match list (completed + scheduled) and per-team format splits, for the
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
-  // Build nameById from the complete player roster (players.json) so it works
-  // even for upcoming matchups whose matchupPlayerStats has been omitted.
-  const nameById = {};
-  for (const [pid, info] of Object.entries(playerInfoById)) {
-    nameById[pid] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
-  }
   // Build sub-player lookup for completed matchups (names shown next to match results).
   const subNamesByMatchupId = {};
   for (const e of matchupDetailsJson) {
@@ -632,13 +674,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         matches.push(rec);
         continue;
       }
-      const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
-        .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
-        .map((g) => ({
-          t: g.matchType,
-          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-        }));
+      const pendingGames = buildPendingGames(d, nameById);
       if (pendingGames.length) {
         Object.assign(rec, { games: pendingGames });
       }
@@ -698,13 +734,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         playoffs.push(rec);
         continue;
       }
-      const pendingGames = ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || [])
-        .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
-        .map((g) => ({
-          t: g.matchType,
-          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-        }));
+      const pendingGames = buildPendingGames(d, nameById);
       if (pendingGames.length) Object.assign(rec, { games: pendingGames });
     }
     playoffs.push(rec);
@@ -713,7 +743,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const detailByPid = splitPlayerDetails(playerArr);
 
   const DATA = {
-    players: playerArr, teams: teamArr, duos, matches, playoffs,
+    players: playerArr, teams: teamArr, duos, matches, playoffs, playerIdsByName,
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,

@@ -928,6 +928,16 @@ thead th:focus-visible,
   border: 1px solid rgb(229 83 75 / 40%);
 }
 
+/* Marks a projection standing on a DUPR estimate rather than on games played
+   in this division. Deliberately colourless: it qualifies the verdict beside
+   it, and must not read as a result of its own. */
+.exp-dupr {
+  min-width: 0;
+  color: var(--mut);
+  background: transparent;
+  border: 1px dashed var(--line);
+}
+
 /* Partner-chemistry chips in the player modal */
 .mh-partners {
   display: flex;

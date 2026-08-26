@@ -32,8 +32,9 @@ function writeDivision(dir, opts = {}) {
   const matchups = [
     {
       matchupId: 'm1', weekNumber: 1, homeTeamId: TEAMS.A, awayTeamId: TEAMS.B,
-      homeName: 'Aces', awayName: 'Bandits', homePoints: 22, awayPoints: 16,
-      endResult: 'home', scheduledTime: '2026-08-10T19:00:00',
+      homeName: 'Aces', awayName: 'Bandits',
+      homePoints: opts.preSeason ? 0 : 22, awayPoints: opts.preSeason ? 0 : 16,
+      endResult: opts.preSeason ? null : 'home', scheduledTime: '2026-08-10T19:00:00',
     },
     {
       matchupId: 'm2', weekNumber: 2, homeTeamId: TEAMS.C, awayTeamId: TEAMS.D,
@@ -55,10 +56,24 @@ function writeDivision(dir, opts = {}) {
     rosterPlayer('p1', 'Pat', 'Placeholder', 'team-open', 'Open Play'),
   ];
 
+  // Week 2 hasn't been played, but both captains have posted their lineups —
+  // one complete game, and one still missing a partner.
+  const pendingDetail = {
+    matchupId: 'm2',
+    details: {
+      matchup: { endResult: null },
+      matchupPlayerStats: { $values: [] },
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'c1', homePlayerId2: 'c2', awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
+        { homePlayerId1: 'c1', homePlayerId2: null, awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
+      ] } },
+    },
+  };
+
   const matchupDetails = [{
     matchupId: 'm1',
     details: {
-      matchup: { endResult: 'home' },
+      matchup: { endResult: opts.preSeason ? null : 'home' },
       matchupPlayerStats: { $values: [
         matchupPlayer('a1', TEAMS.A, { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 16 }),
         matchupPlayer('a2', TEAMS.A, { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 16 }),
@@ -67,11 +82,11 @@ function writeDivision(dir, opts = {}) {
         ...(opts.extraMatchupStats || []),
       ] },
       lineups: { lineups: { $values: [
-        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: 11, awayScore: 8, matchType: 'male', matchupId: 'm1' },
-        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: 11, awayScore: 8, matchType: 'male', matchupId: 'm1' },
+        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: opts.preSeason ? null : 11, awayScore: opts.preSeason ? null : 8, matchType: 'male', matchupId: 'm1' },
+        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: opts.preSeason ? null : 11, awayScore: opts.preSeason ? null : 8, matchType: 'male', matchupId: 'm1' },
       ] } },
     },
-  }];
+  }, pendingDetail];
 
   fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({ $values: matchups }));
   // Callers may append extra roster rows, and reorder the list to stand in for
@@ -175,6 +190,53 @@ test('detail entries exist for players with history and are omitted otherwise', 
     assert.equal(player.games, undefined);
   }
   assert.equal(data.meta.detailFile, 'detail-testslug.js');
+});
+
+// Posted lineups for an unplayed matchup drive the projections on a team's
+// upcoming schedule. Without them the UI can only say "Lineups have not been
+// posted yet", so they have to survive compilation whether or not the division
+// has any completed matches yet.
+const assertPostedLineups = (data) => {
+  const upcoming = data.matches.find((m) => m.week === 2);
+  assert.equal(upcoming.complete, false);
+  assert.equal(upcoming.games.length, 1, 'the lineup missing a partner is dropped');
+  assert.deepEqual(upcoming.games[0], {
+    t: 'male',
+    h: ['Cal Charlie', 'Cat Cortez'],
+    a: ['Dan Delta', 'Sam Sub'],
+  });
+};
+
+test('posted lineups reach an upcoming match mid-season', (t) => {
+  assertPostedLineups(compileToObjects(t).data);
+});
+
+test('posted lineups reach an upcoming match before the season starts', (t) => {
+  // Every match still unplayed takes the pre-season path, which used to build
+  // the schedule from the matchup feed alone and drop the lineups entirely.
+  const { data } = compileToObjects(t, { preSeason: true });
+  assert.equal(data.matches.every((m) => !m.complete), true, 'no match has been played');
+  assertPostedLineups(data);
+});
+
+// Lineups name players but don't identify them, so the dashboard joins them to
+// the client-side DUPR table through this map. It has to cover subs, who appear
+// in lineups but never in DATA.players.
+test('the name to player id map covers the whole roster, subs included', (t) => {
+  const { data } = compileToObjects(t);
+  assert.equal(data.playerIdsByName['Cal Charlie'], 'c1');
+  assert.equal(data.playerIdsByName['Sam Sub'], 's1', 'a sub is reachable even though they have no player row');
+  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false);
+});
+
+test('names held by two players are dropped from the id map rather than guessed', (t) => {
+  // Joining a shared name to whichever row came last would quietly attribute
+  // one player's DUPR to another. Better to leave both unrated.
+  const extraPlayers = [rosterPlayer('dupe', 'Cal', 'Charlie', TEAMS.D, 'Dinkers')];
+  for (const data of bothOrders(t, { extraPlayers })) {
+    assert.equal('Cal Charlie' in data.playerIdsByName, false);
+    assert.equal(data.playerIdsByName['Dan Delta'], 'd1', 'unambiguous names are unaffected');
+  }
 });
 
 // The league API returns players in rank order, so the roster file's row order

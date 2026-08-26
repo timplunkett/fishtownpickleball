@@ -92,3 +92,49 @@ test('getPlayerIndex accepts a legacy plain-array index', () => {
   assert.deepEqual(shared.getPlayerIndex(), [{ name: 'Legacy' }]);
   delete globalThis.PLAYER_INDEX;
 });
+
+// buildDuprRatingIndex converts DUPR onto the rating's points/game scale. The
+// centring is the load-bearing part: the numbers it returns get added to APM
+// ratings inside a pair total, and APM is measured against the average player
+// in the division, so an uncentred DUPR would be meaningless there.
+const DUPR_TABLE = {
+  'pid-low': { rating: 3.0 },
+  'pid-mid': { rating: 3.5 },
+  'pid-high': { rating: 4.0 },
+};
+const IDS_BY_NAME = { Low: 'pid-low', Mid: 'pid-mid', High: 'pid-high' };
+
+test('buildDuprRatingIndex centres a division on its own mean', () => {
+  const index = shared.buildDuprRatingIndex(IDS_BY_NAME, DUPR_TABLE);
+  assert.equal(index.Mid, 0, 'the division-average player rates as average');
+  assert.equal(index.High, +(0.5 * shared.DUPR_POINTS_PER_RATING).toFixed(1));
+  assert.equal(index.Low, -index.High, 'the spread is symmetric about the mean');
+});
+
+test('buildDuprRatingIndex measures relative standing, not absolute DUPR', () => {
+  // The same field shifted up a full point must produce the same ratings: a
+  // 4.0 is average in a 4.0 division, not two points/game above everyone.
+  const shifted = Object.fromEntries(
+    Object.entries(DUPR_TABLE).map(([id, entry]) => [id, { rating: entry.rating + 1 }]),
+  );
+  assert.deepEqual(
+    shared.buildDuprRatingIndex(IDS_BY_NAME, shifted),
+    shared.buildDuprRatingIndex(IDS_BY_NAME, DUPR_TABLE),
+  );
+});
+
+test('buildDuprRatingIndex skips players the DUPR table cannot rate', () => {
+  const index = shared.buildDuprRatingIndex(
+    { ...IDS_BY_NAME, Unlisted: 'pid-none', Unrated: 'pid-nr' },
+    { ...DUPR_TABLE, 'pid-nr': { rating: 'NR' } },
+  );
+  assert.equal('Unlisted' in index, false);
+  assert.equal('Unrated' in index, false);
+  assert.equal(Object.keys(index).length, 3, 'and they do not shift the mean');
+});
+
+test('buildDuprRatingIndex tolerates an empty or missing DUPR table', () => {
+  assert.deepEqual(shared.buildDuprRatingIndex(IDS_BY_NAME, {}), {});
+  assert.deepEqual(shared.buildDuprRatingIndex(IDS_BY_NAME, undefined), {});
+  assert.deepEqual(shared.buildDuprRatingIndex(undefined, DUPR_TABLE), {});
+});

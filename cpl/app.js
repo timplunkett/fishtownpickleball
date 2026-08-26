@@ -74,7 +74,7 @@ const RESULT_CLASS = Object.freeze({
   neutral: 'mut',
 });
 // Shared client utilities (cpl/shared.js loads before this file).
-const { escapeHtml, slugify, formatDuprRating, getPlayerIndex } = window.CPLShared;
+const { escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex } = window.CPLShared;
 
 const elements = {
   body: getRequiredElement('body'),
@@ -118,6 +118,28 @@ const playerRatingByName = Object.fromEntries(
     .filter((p) => p.rating != null)
     .map((p) => [p.name, p.rating]),
 );
+
+// DUPR converted onto the rating's points/game scale, for players with nothing
+// earned in this division yet. playerIdsByName spans the whole roster, subs
+// included; DATA.players does not, and subs do turn up in posted lineups, so
+// fall back to it only for datasets compiled before that map existed.
+const duprRatingByName = buildDuprRatingIndex(
+  DATA.playerIdsByName
+    || Object.fromEntries(DATA.players.filter((p) => p.playerId).map((p) => [p.name, p.playerId])),
+  DUPR_RATINGS,
+);
+
+// The rating to use for one player, preferring what they've earned in this
+// division. A player with no league games yet falls back to their DUPR, so a
+// lineup of newcomers still projects instead of showing a dash — at the cost of
+// resting on an outside number, which `estimated` flags for the UI.
+function resolvePlayerRating(name) {
+  const rating = playerRatingByName[name];
+  if (rating != null) return { rating, estimated: false };
+  const derived = duprRatingByName[name];
+  if (derived != null) return { rating: derived, estimated: true };
+  return null;
+}
 const playersById = new Map(
   DATA.players
     .filter((player) => player.playerId)
@@ -1095,20 +1117,34 @@ function renderMatchLogRows(player) {
     .join('');
 }
 
-// Returns the expected scoring margin for pair [nameA, nameB] vs [nameC, nameD]
-// (positive = [A,B] favoured), or null when any player lacks a rating.
+// The expected scoring margin for pair [nameA, nameB] vs [nameC, nameD] as
+// `{ margin, estimated }`: margin is positive when [A,B] are favoured and null
+// when any of the four has neither a league rating nor a DUPR to stand in for
+// one; estimated is true when at least one slot leaned on DUPR.
+const NO_EXPECTATION = Object.freeze({ margin: null, estimated: false });
+
 function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
-  const rA = playerRatingByName[nameA];
-  const rB = playerRatingByName[nameB];
-  const rC = playerRatingByName[nameC];
-  const rD = playerRatingByName[nameD];
-  if (rA == null || rB == null || rC == null || rD == null) return null;
-  return (rA + rB) - (rC + rD);
+  const ours = [nameA, nameB].map(resolvePlayerRating);
+  const theirs = [nameC, nameD].map(resolvePlayerRating);
+  const all = [...ours, ...theirs];
+  if (all.some((entry) => entry === null)) return NO_EXPECTATION;
+  const sum = (pair) => pair.reduce((total, entry) => total + entry.rating, 0);
+  return {
+    margin: Math.round((sum(ours) - sum(theirs)) * 10) / 10,
+    estimated: all.some((entry) => entry.estimated),
+  };
+}
+
+// A small pill marking a projection that rests on a DUPR stand-in rather than
+// on games played in this division.
+function renderEstimateTag(estimated) {
+  if (!estimated) return '';
+  return ' <span class="exp-tag exp-dupr" title="Estimated from DUPR — at least one player has no rating from this division yet">DUPR</span>';
 }
 
 // Returns a small HTML pill showing whether the result matched the expectation.
-// `expectedMargin` is from computeExpectedOutcome (positive = this pair favoured).
-// `won` is whether this pair won the game.
+// `expectedMargin` is the margin from computeExpectedOutcome (positive = this
+// pair favoured). `won` is whether this pair won the game.
 function renderExpectationTag(expectedMargin, won) {
   if (expectedMargin === null) return '';
   const absMargin = Math.abs(expectedMargin);
@@ -1124,61 +1160,39 @@ function renderExpectationTag(expectedMargin, won) {
   return ` <span class="exp-tag exp-drop" title="Upset loss — despite a ${diff} pt/game pair-rating advantage">↓</span>`;
 }
 
-function describeProjectedOutcome(expectedMargin) {
-  if (expectedMargin === null) {
+// Takes an expectation from computeExpectedOutcome and describes it for the
+// projection columns. Labels come back clean; `estimateTag` is the pill marking
+// a DUPR stand-in, left to the caller to place. Callers rendering a table where
+// every row is estimated say so once above it instead, rather than repeating an
+// identical pill down the column.
+function describeProjectedOutcome(expectation) {
+  const { margin, estimated } = expectation || NO_EXPECTATION;
+  if (margin === null) {
     return {
       outcome: 'unrated',
       resultClass: RESULT_CLASS.neutral,
+      estimated: false,
+      estimateTag: '',
       marginLabel: EMPTY_VALUE,
       resultLabel: '—',
       displayLabel: '—',
     };
   }
-  const marginLabel = formatSignedValue(expectedMargin, 1);
-  const absMargin = Math.abs(expectedMargin);
-  if (absMargin < 1.0) {
-    return {
-      outcome: 'tie',
-      resultClass: RESULT_CLASS.neutral,
-      marginLabel,
-      resultLabel: 'Even',
-      displayLabel: `Even (${marginLabel})`,
-    };
-  }
-  if (expectedMargin > 2.5) {
-    return {
-      outcome: 'win',
-      resultClass: RESULT_CLASS.win,
-      marginLabel,
-      resultLabel: 'Proj W',
-      displayLabel: `Proj W (${marginLabel})`,
-    };
-  }
-  if (expectedMargin > 0) {
-    return {
-      outcome: 'win',
-      resultClass: RESULT_CLASS.slightWin,
-      marginLabel,
-      resultLabel: 'Slight W',
-      displayLabel: `Slight W (${marginLabel})`,
-    };
-  }
-  if (expectedMargin < -2.5) {
-    return {
-      outcome: 'loss',
-      resultClass: RESULT_CLASS.loss,
-      marginLabel,
-      resultLabel: 'Proj L',
-      displayLabel: `Proj L (${marginLabel})`,
-    };
-  }
-  return {
-    outcome: 'loss',
-    resultClass: RESULT_CLASS.slightLoss,
+  const marginLabel = formatSignedValue(margin, 1);
+  const describe = (outcome, resultClass, label) => ({
+    outcome,
+    resultClass,
+    estimated,
+    estimateTag: renderEstimateTag(estimated),
     marginLabel,
-    resultLabel: 'Slight L',
-    displayLabel: `Slight L (${marginLabel})`,
-  };
+    resultLabel: label,
+    displayLabel: `${label} (${marginLabel})`,
+  });
+  if (Math.abs(margin) < 1.0) return describe('tie', RESULT_CLASS.neutral, 'Even');
+  if (margin > 2.5) return describe('win', RESULT_CLASS.win, 'Proj W');
+  if (margin > 0) return describe('win', RESULT_CLASS.slightWin, 'Slight W');
+  if (margin < -2.5) return describe('loss', RESULT_CLASS.loss, 'Proj L');
+  return describe('loss', RESULT_CLASS.slightLoss, 'Slight L');
 }
 
 // Returns an inline HTML fragment summarising expected and upset outcomes for
@@ -1202,6 +1216,36 @@ function renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses
   return ` • ${parts.join('&ensp;')}`;
 }
 
+// Rolls a pending match's per-game projections into the one-line summary above
+// the table, and decides how the DUPR estimate is disclosed. When every
+// projection rests on DUPR — the whole of week 1, before anyone has a league
+// rating — repeating the pill on each row says nothing that one note above the
+// table doesn't; the pill is reserved for the mixed case, where it marks which
+// rows in particular are standing on an outside number.
+function summarizeProjections(projections) {
+  let wins = 0, losses = 0, ties = 0, unrated = 0, estimated = 0;
+  for (const projection of projections) {
+    if (projection.outcome === 'win') wins++;
+    if (projection.outcome === 'loss') losses++;
+    if (projection.outcome === 'tie') ties++;
+    if (projection.outcome === 'unrated') unrated++;
+    if (projection.estimated) estimated++;
+  }
+  const projected = projections.length - unrated;
+  const allEstimated = projected > 0 && estimated === projected;
+  const parts = [`Projected games <b>${wins}–${losses}${ties ? `–${ties}` : ''}</b>`];
+  if (allEstimated) {
+    parts.push('<span class="mut" title="No player in this match has a rating from league play yet, so every projection is converted from DUPR">projected from DUPR</span>');
+  } else if (estimated) {
+    parts.push(`<span class="mut">${estimated} ${pluralize(estimated, 'game', 'games')} projected from DUPR</span>`);
+  }
+  if (unrated) parts.push(`${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings`);
+  return {
+    summary: parts.join(' • '),
+    rowTag: (projection) => (allEstimated ? '' : projection.estimateTag),
+  };
+}
+
 function getProjectedPlayerGames(player) {
   const projectedGames = [];
   for (const match of DATA.matches || []) {
@@ -1219,7 +1263,7 @@ function getProjectedPlayerGames(player) {
         t: game.t,
         with: partner || '',
         vs: [themPlayers[0] || '', themPlayers[1] || ''],
-        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+        expectation: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
       });
     }
   }
@@ -1241,7 +1285,7 @@ function getProjectedPlayerGames(player) {
         t: game.t,
         with: partner || '',
         vs: [themPlayers[0] || '', themPlayers[1] || ''],
-        expectedMargin: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+        expectation: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
         isPlayoff: true,
       });
     }
@@ -1272,11 +1316,11 @@ function renderGameLogRows(player, projectedGames = []) {
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
       : escapeHtml(game.with);
     const opponentCell = game.ff ? '' : `${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}`;
-    const expectedMargin = game.ff
-      ? null
+    const expectation = game.ff
+      ? NO_EXPECTATION
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
-    const expectTag = renderExpectationTag(expectedMargin, game.w === 1);
-    const projection = describeProjectedOutcome(expectedMargin);
+    const expectTag = renderExpectationTag(expectation.margin, game.w === 1);
+    const projection = describeProjectedOutcome(expectation);
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         ${renderGameTypeCell(game.t)}
@@ -1284,7 +1328,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
         <td class="${resultClass} l">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
-        <td class="${projection.resultClass}">${projection.displayLabel}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
       </tr>
     `;
   }
@@ -1302,7 +1346,7 @@ function renderGameLogRows(player, projectedGames = []) {
       `;
     }
 
-    const projection = describeProjectedOutcome(game.expectedMargin);
+    const projection = describeProjectedOutcome(game.expectation);
     gameLog += `
       <tr>
         ${renderGameTypeCell(game.t)}
@@ -1310,7 +1354,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
         <td class="mut">${EMPTY_VALUE}</td>
         <td class="mut">Pending</td>
-        <td class="${projection.resultClass}">${projection.displayLabel}</td>
+        <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
       </tr>
     `;
   }
@@ -1367,7 +1411,7 @@ function renderModalBody(player) {
   let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   for (const game of player.games || []) {
     if (game.ff) continue;
-    const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
+    const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]).margin;
     if (em === null || Math.abs(em) < 1.0) continue;
     if (em < 0 && game.w === 1) {
       upsetWins++;
@@ -1639,10 +1683,11 @@ function renderTeamMatchBlock(match, teamName) {
       const themScore = homeSide ? game.as : game.hs;
       const win = usScore > themScore;
       const resultClass = getWinLossClass(win);
-      const expectedMargin = game.ff
-        ? null
+      const expectation = game.ff
+        ? NO_EXPECTATION
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-      const projection = describeProjectedOutcome(expectedMargin);
+      const expectedMargin = expectation.margin;
+      const projection = describeProjectedOutcome(expectation);
       if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
         if (expectedMargin < 0 && win) {
           upsetWins++;
@@ -1662,7 +1707,7 @@ function renderTeamMatchBlock(match, teamName) {
           <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
           <td class="${resultClass} l">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
-          <td class="${projection.resultClass}">${projection.displayLabel}</td>
+          <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
         </tr>
       `;
     })
@@ -1706,31 +1751,32 @@ function renderPendingTeamMatchBlock(match, teamName) {
     `;
   }
 
-  let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
-  const gameRows = (match.games || []).map((game) => {
+  const projections = (match.games || []).map((game) => {
     const usPlayers = homeSide ? game.h : game.a;
     const themPlayers = homeSide ? game.a : game.h;
-    const expectedMargin = computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
-    const projection = describeProjectedOutcome(expectedMargin);
-    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
-    if (projection.outcome === 'win') projectedWins++;
-    if (projection.outcome === 'loss') projectedLosses++;
-    if (projection.outcome === 'tie') projectedTies++;
-    if (projection.outcome === 'unrated') unrated++;
+    return {
+      game,
+      usPlayers,
+      themPlayers,
+      projection: describeProjectedOutcome(
+        computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+      ),
+    };
+  });
+  const tally = summarizeProjections(projections.map((entry) => entry.projection));
 
+  const gameRows = projections.map(({ game, usPlayers, themPlayers, projection }) => {
+    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
     return `
       <tr>
         ${renderGameTypeCell(game.t)}
         <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
         <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
         <td class="${resultClass}">${projection.marginLabel}</td>
-        <td class="${resultClass}">${projection.resultLabel}</td>
+        <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
       </tr>
     `;
   }).join('');
-
-  const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
-  const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
 
   return `
     <div class="wk-block pending-match">
@@ -1738,7 +1784,7 @@ function renderPendingTeamMatchBlock(match, teamName) {
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
         <span class="mut">${scheduledTime || 'TBD'}</span>
       </div>
-      <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+      <div class="match-summary">${tally.summary}</div>
       <details>
         <summary>Projected game-by-game (${gameCount})</summary>
         <table class="mlog glog">
@@ -1786,33 +1832,31 @@ function renderPlayoffs() {
             <div class="match-summary">Lineups have not been posted yet.</div>
           </div>`;
       }
-      let projectedWins = 0, projectedLosses = 0, projectedTies = 0, unrated = 0;
-      const gameRows = (m.games || []).map((game) => {
-        const expectedMargin = computeExpectedOutcome(game.h[0], game.h[1], game.a[0], game.a[1]);
-        const projection = describeProjectedOutcome(expectedMargin);
+      const projections = (m.games || []).map((game) => ({
+        game,
+        projection: describeProjectedOutcome(
+          computeExpectedOutcome(game.h[0], game.h[1], game.a[0], game.a[1]),
+        ),
+      }));
+      const tally = summarizeProjections(projections.map((entry) => entry.projection));
+      const gameRows = projections.map(({ game, projection }) => {
         const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
-        if (projection.outcome === 'win') projectedWins++;
-        if (projection.outcome === 'loss') projectedLosses++;
-        if (projection.outcome === 'tie') projectedTies++;
-        if (projection.outcome === 'unrated') unrated++;
         return `
           <tr>
             ${renderGameTypeCell(game.t)}
             <td class="l">${escapeHtml(game.h.join(' / '))}</td>
             <td class="l">${escapeHtml(game.a.join(' / '))}</td>
             <td class="${resultClass}">${projection.marginLabel}</td>
-            <td class="${resultClass}">${projection.resultLabel}</td>
+            <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
           </tr>`;
       }).join('');
-      const projectedSummary = `Projected games <b>${projectedWins}–${projectedLosses}${projectedTies ? `–${projectedTies}` : ''}</b>`;
-      const unratedSummary = unrated ? ` • ${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings` : '';
       return `
         <div class="wk-block pending-match">
           <div class="wk-head">
             <span>${homeSeedLabel}${escapeHtml(m.home)} vs ${awaySeedLabel}${escapeHtml(m.away)}</span>
             <span class="mut">${scheduledTime || 'TBD'}</span>
           </div>
-          <div class="match-summary">${projectedSummary}${unratedSummary}</div>
+          <div class="match-summary">${tally.summary}</div>
           <details>
             <summary>Projected game-by-game (${gameCount})</summary>
             <table class="mlog glog">

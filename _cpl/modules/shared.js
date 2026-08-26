@@ -112,6 +112,44 @@
       : display;
   }
 
+  // Points/game of expected scoring margin per point of DUPR. Fitted by
+  // regressing the dashboard's APM rating on DUPR across every division with
+  // completed play, restricted to players with enough games that ridge
+  // shrinkage isn't flattening the slope (n≈580, R²≈0.39). Per-division slopes
+  // run 2.8–5.4, so this is a league-wide average and not a precise per-player
+  // conversion — projections built on it are labelled as estimates.
+  const DUPR_POINTS_PER_RATING = 3.8;
+
+  // Convert a division's DUPR ratings into stand-in APM ratings, keyed by
+  // display name, for players with no rating earned in the division yet.
+  //
+  // APM measures net points/game against an *average player in this division*,
+  // so DUPR has to be re-centred on the division's own mean before the two can
+  // be added together in a pair total — an absolute DUPR would put every player
+  // in a 3.0 division hundreds of points below every player in a 5.0 one.
+  // Centring on the mean is also what makes the regression slope the right
+  // multiplier: it predicts the conditional average APM at a given distance
+  // from the middle of the field, so the estimates are appropriately
+  // conservative for players far from it.
+  //
+  // `playerIdsByName` spans the whole roster including subs; `duprRatings` is
+  // the client-side DUPR table keyed by player id.
+  function buildDuprRatingIndex(playerIdsByName, duprRatings) {
+    const rated = [];
+    for (const name of Object.keys(playerIdsByName || {})) {
+      const entry = (duprRatings || {})[playerIdsByName[name]];
+      const dupr = entry ? Number(entry.rating) : NaN;
+      if (Number.isFinite(dupr)) rated.push([name, dupr]);
+    }
+    if (!rated.length) return {};
+    const mean = rated.reduce((total, pair) => total + pair[1], 0) / rated.length;
+    const index = {};
+    for (const [name, dupr] of rated) {
+      index[name] = Math.round((dupr - mean) * DUPR_POINTS_PER_RATING * 10) / 10;
+    }
+    return index;
+  }
+
   // Decode the packed player index emitted by the compiler (string table +
   // integer entries; see packPlayerIndex) into the plain entry objects the
   // finder and dashboards consume. Unpacks once, then serves the cached array.
@@ -150,6 +188,8 @@
     divisionSortKey,
     getTravelDivisionSortKey,
     formatDuprRating,
+    DUPR_POINTS_PER_RATING,
+    buildDuprRatingIndex,
     getPlayerIndex,
   };
 }));
