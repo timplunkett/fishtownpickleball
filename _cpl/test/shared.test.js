@@ -63,7 +63,37 @@ test('formatDuprRating covers absent, plain, provisional and linked ratings', ()
   assert.match(linked, /4\.001/);
 });
 
-test('getPlayerIndex unpacks the string-table format and caches it', () => {
+test('getPlayerIndex unpacks the division-table format and caches it', () => {
+  delete globalThis.PLAYER_INDEX;
+  globalThis.PLAYER_INDEX_PACKED = {
+    n: ['Al One', 'Bo Two'],
+    t: ['Team X', 'Team Z'],
+    d: [['abcd1234', '3.5 - 4.0', 0, 'Club Y'], ['ef567890', '4.0', 1, '']],
+    i: ['pid-1'],
+    e: [
+      [0, 0, 0, 0, 3], // captain + sub, local division with a club
+      [0, 1, 1, 0, 0], // same player in the travel division, no club, no flags
+      [1, 0, 0, -1, 0], // a player the roster has no id for
+    ],
+  };
+  const index = shared.getPlayerIndex();
+  assert.equal(index.length, 3);
+  assert.deepEqual(index[0], {
+    name: 'Al One', team: 'Team X', division: '3.5 - 4.0', slug: 'abcd1234',
+    league: 'local', playerId: 'pid-1', club: 'Club Y', isCaptain: true, isSub: true,
+  });
+  assert.deepEqual(index[1], {
+    name: 'Al One', team: 'Team Z', division: '4.0', slug: 'ef567890',
+    league: 'travel', playerId: 'pid-1',
+  });
+  assert.equal(index[2].playerId, null, 'a missing id decodes as null, not as an empty string');
+  assert.equal(shared.getPlayerIndex(), index, 'cached on second call');
+  delete globalThis.PLAYER_INDEX;
+  delete globalThis.PLAYER_INDEX_PACKED;
+});
+
+// A browser can pair a cached player-index.js with a newer shared.js.
+test('getPlayerIndex still unpacks the previous string-table format', () => {
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_PACKED = {
     s: ['Al One', 'Team X', '3.5 - 4.0', 'abcd1234', 'pid-1', 'Club Y'],

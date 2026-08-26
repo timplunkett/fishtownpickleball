@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const { jsonStringify } = require('./modules/json-utils');
+const { jsonStringify, expandJson } = require('./modules/json-utils');
+const { writeDuprShards } = require('./modules/dupr-outputs');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -189,16 +190,28 @@ function saveGlobalPlayers(players, reason = 'progress') {
 }
 
 function writeDuprRatingsJs(players) {
-  const ratings = {};
+  const byPlayerId = {};
   for (const p of players) {
     if (p.playerId && p.duprRating != null) {
       let rating = p.duprRating === 'NR' ? p.duprRating : Number(p.duprRating);
-      ratings[p.playerId] = { rating: rating, numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
+      byPlayerId[p.playerId] = { rating: rating, numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
     }
   }
-  const content = `window.DUPR_RATINGS = ${JSON.stringify(ratings)};`;
+  // Sorted by player id, so the committed file depends only on the ratings and
+  // not on the order global_players.json happens to be in. Without this, an
+  // upstream reshuffle rewrites every line and buries the real change.
+  const ratings = {};
+  for (const playerId of Object.keys(byPlayerId).sort()) ratings[playerId] = byPlayerId[playerId];
+  const content = `window.DUPR_RATINGS = ${expandJson(ratings)};\n`;
   fs.writeFileSync(DUPR_RATINGS_FILE, content, 'utf-8');
   console.log(`Saved dupr-ratings.js (${Object.keys(ratings).length} players with ratings).`);
+
+  // The league-wide table above serves the finder and the DUPR audit page, and
+  // stands in for a missing shard. Dashboard pages load only their own
+  // division's slice of it, so refresh those here too — otherwise a rating
+  // update would not reach a dashboard until the next compile.
+  const shards = writeDuprShards(path.join(__dirname, '..'), ratings);
+  console.log(`Saved ${shards} per-division DUPR shards.`);
 }
 
 async function run() {

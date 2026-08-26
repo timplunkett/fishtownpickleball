@@ -220,22 +220,30 @@ test('posted lineups reach an upcoming match before the season starts', (t) => {
 });
 
 // Lineups name players but don't identify them, so the dashboard joins them to
-// the client-side DUPR table through this map. It has to cover subs, who appear
-// in lineups but never in DATA.players.
-test('the name to player id map covers the whole roster, subs included', (t) => {
+// the client-side DUPR table by name. Rostered players carry their own id in
+// DATA.players; extraPlayerIds exists to cover the ones that don't — subs, who
+// appear in lineups but never get a player row.
+test('extraPlayerIds carries the roster names that have no player row', (t) => {
   const { data } = compileToObjects(t);
-  assert.equal(data.playerIdsByName['Cal Charlie'], 'c1');
-  assert.equal(data.playerIdsByName['Sam Sub'], 's1', 'a sub is reachable even though they have no player row');
-  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false);
+  assert.equal(data.extraPlayerIds['Sam Sub'], 's1');
+  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false, 'and that is the only place the sub appears');
 });
 
-test('names held by two players are dropped from the id map rather than guessed', (t) => {
+test('extraPlayerIds does not repeat players the roster already identifies', (t) => {
+  const { data } = compileToObjects(t);
+  assert.equal('Cal Charlie' in data.extraPlayerIds, false);
+  assert.equal(data.players.find((p) => p.name === 'Cal Charlie').playerId, 'c1', 'because the player row already says so');
+});
+
+test('names held by two players are dropped rather than guessed', (t) => {
   // Joining a shared name to whichever row came last would quietly attribute
-  // one player's DUPR to another. Better to leave both unrated.
-  const extraPlayers = [rosterPlayer('dupe', 'Cal', 'Charlie', TEAMS.D, 'Dinkers')];
+  // one player's DUPR to another. Better to leave them unrated. Cal Charlie
+  // holds a player row, so the collision has to be resolved before the row is
+  // written, not just filtered out of extraPlayerIds.
+  const extraPlayers = [rosterPlayer('dupe', 'Sam', 'Sub', TEAMS.A, 'Aces', { isSub: true })];
   for (const data of bothOrders(t, { extraPlayers })) {
-    assert.equal('Cal Charlie' in data.playerIdsByName, false);
-    assert.equal(data.playerIdsByName['Dan Delta'], 'd1', 'unambiguous names are unaffected');
+    assert.equal('Sam Sub' in data.extraPlayerIds, false);
+    assert.equal(data.extraPlayerIds['Pat Placeholder'], 'p1', 'unambiguous names are unaffected');
   }
 });
 

@@ -9,6 +9,8 @@ const {
 } = require('./shared');
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
+const { writeDuprShards } = require('./dupr-outputs');
+const { expandJson } = require('./json-utils');
 const {
   isForfeit,
   deriveProvisionalOutcome,
@@ -51,6 +53,21 @@ function buildPendingGames(detail, nameById) {
       h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
       a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
     }));
+}
+
+// Every rostered player already ships a name and a playerId inside
+// DATA.players, so emitting the whole name→id map again would duplicate the
+// roster for nothing — on a large travel division that repetition cost more
+// than the entire match schedule. Only the names with no player row survive:
+// subs, who never get one but do appear in posted lineups. The dashboard
+// rebuilds the full map by laying these over the players array.
+function selectExtraPlayerIds(playerArr, playerIdsByName) {
+  const named = new Set(playerArr.map((player) => player.name));
+  const extra = {};
+  for (const [name, playerId] of Object.entries(playerIdsByName)) {
+    if (!named.has(name)) extra[name] = playerId;
+  }
+  return extra;
 }
 
 function writeDataScript(outPath, data) {
@@ -314,6 +331,9 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // can refresh ratings without a recompile). Names that two players share are
   // dropped rather than guessed at: a wrong join would silently rate the wrong
   // person.
+  //
+  // Only the part of this the dashboard can't already derive gets emitted — see
+  // selectExtraPlayerIds.
   const playerIdsByName = {};
   const ambiguousNames = new Set();
   for (const [pid, name] of Object.entries(nameById)) {
@@ -382,7 +402,8 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     divisionMeta = { ...(divisionMeta || {}), ...assignPods(teamArr, matchups, podNameByTeam) };
     const detailByPid = splitPlayerDetails(playerArr);
     const DATA = {
-      players: playerArr, teams: teamArr, duos: [], matches, playoffs: [], playerIdsByName,
+      players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
+      extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
       meta: {
         matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
@@ -743,7 +764,8 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const detailByPid = splitPlayerDetails(playerArr);
 
   const DATA = {
-    players: playerArr, teams: teamArr, duos, matches, playoffs, playerIdsByName,
+    players: playerArr, teams: teamArr, duos, matches, playoffs,
+    extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
     meta: {
       matchesPlayed: completed.length, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
@@ -863,37 +885,71 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
 // fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
 // Entry layout: [name, team, division, slug, league(0=local,1=travel),
 //                playerId|-1, club|-1, flags(1=captain, 2=sub)] — all string-table indexes.
+// Packs the finder index, which is one row per (player, division) across every
+// league — the largest asset the site ships.
+//
+// A division's label, league and club are properties of the division, not of
+// the player, so they live in a table of ~22 rows that each entry points at
+// rather than being repeated thousands of times.
+//
+// playerId stays, even though the UUIDs are over half the compressed file.
+// Dropping them for a name slug was tried and reverted: the finder and the DUPR
+// audit both look ratings up by id, so removing the column forced a second,
+// name-keyed copy of every rating into the repo, and left the handful of
+// players who share a display name with no rating shown at all. One id-keyed
+// table that everything reads is worth more than the bytes.
 function packPlayerIndex(entries) {
-  const strings = [];
-  const stringIndex = new Map();
-  const intern = (value) => {
-    if (value == null || value === '') return -1;
-    let index = stringIndex.get(value);
-    if (index === undefined) {
-      index = strings.length;
-      strings.push(value);
-      stringIndex.set(value, index);
-    }
-    return index;
+  const table = () => {
+    const list = [];
+    const index = new Map();
+    return {
+      list,
+      intern: (value) => {
+        if (value == null || value === '') return -1;
+        let at = index.get(value);
+        if (at === undefined) {
+          at = list.length;
+          list.push(value);
+          index.set(value, at);
+        }
+        return at;
+      },
+    };
   };
+
+  const names = table();
+  const teams = table();
+  const ids = table();
+  // Keyed by slug: a division's other facts never vary within one.
+  const divisionKeys = [];
+  const divisionAt = new Map();
+  const divisionRow = (entry) => {
+    const key = `${entry.league}/${entry.slug}`;
+    let at = divisionAt.get(key);
+    if (at === undefined) {
+      at = divisionKeys.length;
+      divisionKeys.push([entry.slug, entry.division, entry.league === 'travel' ? 1 : 0, entry.club || '']);
+      divisionAt.set(key, at);
+    }
+    return at;
+  };
+
   const packed = entries.map((entry) => [
-    intern(entry.name),
-    intern(entry.team),
-    intern(entry.division),
-    intern(entry.slug),
-    entry.league === 'travel' ? 1 : 0,
-    intern(entry.playerId),
-    intern(entry.club),
+    names.intern(entry.name),
+    teams.intern(entry.team),
+    divisionRow(entry),
+    ids.intern(entry.playerId),
     (entry.isCaptain ? 1 : 0) | (entry.isSub ? 2 : 0),
   ]);
-  return { s: strings, e: packed };
+
+  return { n: names.list, t: teams.list, d: divisionKeys, i: ids.list, e: packed };
 }
 
 // Builds the cross-league outputs derived from every division's roster:
 // cpl/player-index.js (packed finder index) and cpl/dupr-audit/data.js
 // (precomputed audit rows, so the audit page no longer downloads every
-// division dataset). DUPR values are joined client-side from dupr-ratings.js,
-// which the DUPR workflow updates without recompiling.
+// division dataset), plus the DUPR tables each page shape needs. DUPR values
+// stay in their own files, which the DUPR workflow updates without recompiling.
 function buildPlayerIndex() {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
@@ -983,7 +1039,9 @@ function buildPlayerIndex() {
   entries.sort((a, b) => a.name.localeCompare(b.name));
 
   const outPath = path.join(rootDir, 'cpl', 'player-index.js');
-  fs.writeFileSync(outPath, `window.PLAYER_INDEX_PACKED = ${JSON.stringify(packPlayerIndex(entries))};\n`);
+  // levels=2: the five tables each start a line, and every row inside them gets
+  // its own, so a roster change shows up as the handful of lines it actually is.
+  fs.writeFileSync(outPath, `window.PLAYER_INDEX_PACKED = ${expandJson(packPlayerIndex(entries), 2)};\n`);
   console.log(`✓ player-index.js written (${entries.length} player-division entries, packed).`);
 
   const auditDir = path.join(rootDir, 'cpl', 'dupr-audit');
@@ -998,6 +1056,17 @@ function buildPlayerIndex() {
     `window.DUPR_AUDIT = ${JSON.stringify({ divisions: sortedDivisions, rows: auditRows }, null, 1)};\n`,
   );
   console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
+
+  // Keep a DUPR shard beside every division dataset. The DUPR refresh rewrites
+  // these too, so ratings still update without a recompile; doing it here as
+  // well is what guarantees a newly compiled division has one at all.
+  const ratingsPath = path.join(rootDir, 'cpl', 'dupr-ratings.js');
+  if (fs.existsSync(ratingsPath)) {
+    const scope = {};
+    new Function('window', fs.readFileSync(ratingsPath, 'utf8'))(scope);
+    const shards = writeDuprShards(rootDir, scope.DUPR_RATINGS || {});
+    console.log(`✓ ${shards} per-division DUPR shards written.`);
+  }
 }
 
 module.exports = {

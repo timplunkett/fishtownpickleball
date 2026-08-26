@@ -150,16 +150,34 @@
     return index;
   }
 
-  // Decode the packed player index emitted by the compiler (string table +
-  // integer entries; see packPlayerIndex) into the plain entry objects the
-  // finder and dashboards consume. Unpacks once, then serves the cached array.
-  function getPlayerIndex() {
-    const root = globalThis;
-    if (Array.isArray(root.PLAYER_INDEX)) return root.PLAYER_INDEX;
-    const packed = root.PLAYER_INDEX_PACKED;
-    if (!packed || !Array.isArray(packed.e)) return [];
+  // Decode the packed player index emitted by the compiler (name, team and id
+  // tables, a division table, integer entries; see packPlayerIndex) into the
+  // plain entry objects the finder and dashboards consume. Unpacks once, then
+  // serves the cached array.
+  function unpackPlayerIndex(packed) {
+    const pick = (list, index) => (index === -1 ? '' : list[index]);
+    return packed.e.map((entry) => {
+      const division = packed.d[entry[2]] || ['', '', 0, ''];
+      const decoded = {
+        name: pick(packed.n, entry[0]),
+        team: pick(packed.t, entry[1]),
+        division: division[1],
+        slug: division[0],
+        league: division[2] === 1 ? 'travel' : 'local',
+        playerId: entry[3] === -1 ? null : packed.i[entry[3]],
+      };
+      if (division[3]) decoded.club = division[3];
+      if (entry[4] & 1) decoded.isCaptain = true;
+      if (entry[4] & 2) decoded.isSub = true;
+      return decoded;
+    });
+  }
+
+  // The previous encoding, in case a browser pairs a cached player-index.js
+  // with a newer shared.js.
+  function unpackLegacyPlayerIndex(packed) {
     const s = (index) => (index === -1 ? '' : packed.s[index]);
-    root.PLAYER_INDEX = packed.e.map((entry) => {
+    return packed.e.map((entry) => {
       const decoded = {
         name: s(entry[0]),
         team: s(entry[1]),
@@ -173,6 +191,16 @@
       if (entry[7] & 2) decoded.isSub = true;
       return decoded;
     });
+  }
+
+  function getPlayerIndex() {
+    const root = globalThis;
+    if (Array.isArray(root.PLAYER_INDEX)) return root.PLAYER_INDEX;
+    const packed = root.PLAYER_INDEX_PACKED;
+    if (!packed || !Array.isArray(packed.e)) return [];
+    root.PLAYER_INDEX = Array.isArray(packed.s)
+      ? unpackLegacyPlayerIndex(packed)
+      : unpackPlayerIndex(packed);
     return root.PLAYER_INDEX;
   }
 

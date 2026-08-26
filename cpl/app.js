@@ -120,12 +120,14 @@ const playerRatingByName = Object.fromEntries(
 );
 
 // DUPR converted onto the rating's points/game scale, for players with nothing
-// earned in this division yet. playerIdsByName spans the whole roster, subs
-// included; DATA.players does not, and subs do turn up in posted lineups, so
-// fall back to it only for datasets compiled before that map existed.
+// earned in this division yet. The roster is rebuilt from the players array
+// plus extraPlayerIds, which carries only the names with no player row of their
+// own — subs, who don't appear in DATA.players but do appear in lineups.
 const duprRatingByName = buildDuprRatingIndex(
-  DATA.playerIdsByName
-    || Object.fromEntries(DATA.players.filter((p) => p.playerId).map((p) => [p.name, p.playerId])),
+  {
+    ...Object.fromEntries(DATA.players.filter((p) => p.playerId).map((p) => [p.name, p.playerId])),
+    ...(DATA.extraPlayerIds || {}),
+  },
   DUPR_RATINGS,
 );
 
@@ -383,19 +385,29 @@ function pluralize(count, singular, plural = `${singular}s`) {
 // stale copy cached mid-deploy) resolves instantly to a summary-only modal.
 let playerDetailsPromise = null;
 
-function loadPlayerDetailsScript() {
+function loadScriptOnce(src) {
   return new Promise((resolve) => {
-    if (!DATA.meta.detailFile) {
+    if (!src) {
       resolve();
       return;
     }
     const script = document.createElement('script');
-    script.src = DATA.meta.detailFile;
+    script.src = src;
     script.async = false;
     script.onload = () => resolve();
-    script.onerror = () => resolve(); // degrade to summary-only modal
+    script.onerror = () => resolve(); // degrade rather than block the modal
     document.body.appendChild(script);
   });
+}
+
+// The cross-league finder index is the largest asset on the site and the only
+// thing on a dashboard page that reads it is the "Also plays in" row inside a
+// player modal — so it rides along with the detail file rather than blocking
+// first paint. renderOtherLeaguesSummary already returns nothing when the index
+// is absent, so a modal opened before it arrives simply omits that row.
+function loadPlayerIndexScript() {
+  if (window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX) return Promise.resolve();
+  return loadScriptOnce('../player-index.js');
 }
 
 function mergePlayerDetails() {
@@ -415,7 +427,10 @@ function mergePlayerDetails() {
 
 function ensurePlayerDetails() {
   if (!playerDetailsPromise) {
-    playerDetailsPromise = loadPlayerDetailsScript().then(mergePlayerDetails);
+    playerDetailsPromise = Promise.all([
+      loadScriptOnce(DATA.meta.detailFile).then(mergePlayerDetails),
+      loadPlayerIndexScript(),
+    ]);
   }
   return playerDetailsPromise;
 }

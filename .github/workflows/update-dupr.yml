@@ -33,7 +33,10 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add _cpl/data/global_players.json cpl/dupr-ratings.js
+          # The per-division shards are what dashboard pages actually load, so
+          # leaving them out here would publish a ratings update that no
+          # dashboard ever sees.
+          git add _cpl/data/global_players.json cpl/dupr-ratings.js 'cpl/*/dupr-*.js'
           if git diff-index --quiet HEAD; then
             echo "No changes to commit."
             exit 0
