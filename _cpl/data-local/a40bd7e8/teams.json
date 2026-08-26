@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "0921fb7f-e383-4303-92a1-69b1d28b62f3",
+      "teamName": "Big Dink Energy",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "92a477be-ef7b-470d-9c13-7aa5327a8860",
+      "teamName": "Kitchen Renegades",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "217baefd-fd7e-4be8-8c1b-d79e2613ed7d",
+      "teamName": "The Bouncers",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "eb947470-6265-4bc8-a28f-33376823469a",
+      "teamName": "The Dilluminati",
+      "pod": "Overall"
+    }
+  ]
+}

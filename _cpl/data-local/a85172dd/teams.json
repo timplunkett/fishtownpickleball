@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "bb49a61b-1124-4f37-b3b8-a51272607290",
+      "teamName": "Baggers, Sand",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "ccc54310-d461-4def-a361-ee2124ab293b",
+      "teamName": "Eagles Erne Empire ",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "e13985ef-28c3-4ba8-b504-a706b0929c6f",
+      "teamName": "Paddle Taps",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "ae80b184-a5da-4bd0-9302-06a30f4a052c",
+      "teamName": "The Robbinsvilians",
+      "pod": "Overall"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "1c61d879-2baf-4105-9aab-6a9f1add88cf",
+      "teamName": "Bash and Crash",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "dfa52310-7561-495a-935b-139b3ad5967d",
+      "teamName": "Deadly Dinks",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "1c3a2d7c-4009-4cc5-a8a7-4ffc015241db",
+      "teamName": "Kitchen Ninjas",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "12c2ad96-5517-40b0-b7b1-7c4c60abd036",
+      "teamName": "The Big Dill",
+      "pod": "Overall"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$values": [
+    {
+      "teamId": "4778a3e6-2e3f-4994-89be-231cef8fbd26",
+      "teamName": "Baggers",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "788752a8-685a-4f95-bbc9-dd3636862a76",
+      "teamName": "Balls of Fury",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "d54d5a05-9eab-4640-bb1f-077247cdd6c3",
+      "teamName": "Kitchen Nightmares",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "72d5d45d-347b-4d8d-bea1-a834c051d2b1",
+      "teamName": "License to Dill",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "1ef6000c-4d56-434c-abbc-734996c56dff",
+      "teamName": "Picholas Cage",
+      "pod": "Overall"
+    }
+  ]
+}

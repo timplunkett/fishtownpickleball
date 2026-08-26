@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "0cb6b9f5-0e87-4d3a-acab-24a2bd2c56d0",
+      "teamName": "Kitchen Nightmare",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "9ffbb22e-92ef-436c-a71a-1cea575c4f2b",
+      "teamName": "Pickleball Bandits",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "304f9256-5094-4da9-8ed1-e2da40a2c9d6",
+      "teamName": "Summer Heat",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "d2c90273-7d97-4664-9988-3a24742c3cb2",
+      "teamName": "Summer Smasher",
+      "pod": "Overall"
+    }
+  ]
+}

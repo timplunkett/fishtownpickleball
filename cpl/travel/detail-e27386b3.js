@@ -415,7 +415,7 @@
     "week": 1,
     "rating": 2.7,
     "confidence": 42,
-    "rank": 8,
+    "rank": 9,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.2
@@ -556,7 +556,7 @@
     "week": 1,
     "rating": 2.5,
     "confidence": 40,
-    "rank": 11,
+    "rank": 12,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.1
@@ -713,7 +713,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 49,
-    "rank": 42,
+    "rank": 45,
     "ratingGames": 7,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.2
@@ -1104,7 +1104,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 49,
-    "rank": 15,
+    "rank": 16,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.7
@@ -1261,7 +1261,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 50,
-    "rank": 56,
+    "rank": 61,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.3
@@ -1386,7 +1386,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 46,
-    "rank": 35,
+    "rank": 38,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.6
@@ -1511,7 +1511,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 44,
-    "rank": 38,
+    "rank": 41,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
@@ -1636,7 +1636,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 46,
-    "rank": 43,
+    "rank": 46,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.4
@@ -1777,7 +1777,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 47,
-    "rank": 30,
+    "rank": 33,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.7
@@ -1902,7 +1902,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 45,
-    "rank": 60,
+    "rank": 66,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.6
@@ -2035,6 +2035,131 @@
   ],
   "partners": []
  },
+ "c868d44f-a501-4c1a-8d17-fd6e4a338308": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 82,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Holden Smith",
+    "vs": [
+     "Suzane Sullivan",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Patricia San Andres",
+     "Dhanesh Ghia"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Lanz Santos",
+    "vs": [
+     "Suzane Sullivan",
+     "Diahann Ouly"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Holden Smith",
+    "vs": [
+     "Patricia San Andres",
+     "Dhanesh Ghia"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "John Defilippo",
+    "vs": [
+     "Amanda Zhou",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.8,
+    "confidence": 42,
+    "rank": 8,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
  "6e5d2bb6-bf2e-4f06-a2f8-24af7eca9cf8": {
   "log": [
    {
@@ -2152,7 +2277,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 42,
-    "rank": 22,
+    "rank": 24,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.5
@@ -2277,7 +2402,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 94,
+    "rank": 106,
     "ratingGames": 5,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.2
@@ -2418,7 +2543,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 44,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -2495,7 +2620,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 26,
-    "rank": 96,
+    "rank": 108,
     "ratingGames": 2,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -2668,7 +2793,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 52,
-    "rank": 12,
+    "rank": 13,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.4
@@ -2841,7 +2966,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 53,
-    "rank": 45,
+    "rank": 48,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.6
@@ -3155,7 +3280,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 84,
+    "rank": 95,
     "ratingGames": 7,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.7
@@ -3312,7 +3437,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 53,
-    "rank": 46,
+    "rank": 49,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.8
@@ -3469,7 +3594,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 51,
-    "rank": 41,
+    "rank": 44,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.2
@@ -3610,7 +3735,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 49,
-    "rank": 17,
+    "rank": 18,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1.8
@@ -3751,7 +3876,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 49,
-    "rank": 23,
+    "rank": 25,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.7
@@ -3892,7 +4017,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 47,
-    "rank": 29,
+    "rank": 32,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.6
@@ -4033,7 +4158,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 33,
+    "rank": 36,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1
@@ -4174,10 +4299,151 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 49,
-    "rank": 36,
+    "rank": 39,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "5c79bec7-67d9-4d8b-beef-a6f423475522": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 94,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Taylor Newell",
+    "vs": [
+     "Patricia San Andres",
+     "Marcus Burritt"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Lanz Santos",
+    "vs": [
+     "Patricia San Andres",
+     "Robin Pagotto"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Esterlina Wiest",
+    "vs": [
+     "Sabiha Kermalli",
+     "Robin Pagotto"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Taylor Newell",
+    "vs": [
+     "Sabiha Kermalli",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Lanz Santos",
+    "vs": [
+     "Robin Pagotto",
+     "Diahann Ouly"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jasmine Nguyen",
+    "vs": [
+     "Suzane Sullivan",
+     "Diahann Ouly"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.7,
+    "confidence": 47,
+    "rank": 31,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -4315,7 +4581,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 44,
-    "rank": 21,
+    "rank": 23,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -4456,7 +4722,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 49,
-    "rank": 47,
+    "rank": 50,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -4597,7 +4863,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 43,
-    "rank": 55,
+    "rank": 59,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.1
@@ -4738,7 +5004,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 43,
-    "rank": 25,
+    "rank": 27,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -4879,7 +5145,7 @@
     "week": 1,
     "rating": 2.2,
     "confidence": 48,
-    "rank": 16,
+    "rank": 17,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.5
@@ -5020,10 +5286,151 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 90,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
+   }
+  ],
+  "partners": []
+ },
+ "9605152c-b88b-40bd-b870-e2ea577e376a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 117,
+    "pa": 94,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Jane Pascua",
+     "Taylor Newell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Adam Werwie",
+    "vs": [
+     "Taylor Newell",
+     "John Defilippo"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Amanda Zhou",
+    "vs": [
+     "Lanz Santos",
+     "John Defilippo"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Diahann Ouly",
+    "vs": [
+     "Jasmine Nguyen",
+     "Raymond Duong"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Tony Wong",
+    "vs": [
+     "John Defilippo",
+     "Taylor Newell"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Holden Smith",
+     "Taylor Newell"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 43,
+    "rank": 21,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -5161,7 +5568,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 49,
-    "rank": 76,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -5302,7 +5709,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 46,
-    "rank": 128,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.6
@@ -5443,7 +5850,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 46,
-    "rank": 51,
+    "rank": 54,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -5584,10 +5991,151 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 45,
-    "rank": 24,
+    "rank": 26,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "af1295ea-6786-47fd-8c51-dae10f13070a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 108,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     4,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Holden Smith",
+    "vs": [
+     "Victor Salicetti",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Maridel Ablaza",
+    "vs": [
+     "Patricia San Andres",
+     "Dhanesh Ghia"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Raymond Duong",
+    "vs": [
+     "Adam Werwie",
+     "Howie Knudson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Holden Smith",
+    "vs": [
+     "Victor Salicetti",
+     "Dhanesh Ghia"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Esterlina Wiest",
+    "vs": [
+     "Sabiha Kermalli",
+     "Dhanesh Ghia"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Raymond Duong",
+    "vs": [
+     "Adam Werwie",
+     "Howie Knudson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 44,
+    "rank": 79,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -5725,7 +6273,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 115,
+    "rank": 131,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.6
@@ -5975,7 +6523,7 @@
     "week": 1,
     "rating": 2.5,
     "confidence": 42,
-    "rank": 10,
+    "rank": 11,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
@@ -6100,7 +6648,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 47,
-    "rank": 59,
+    "rank": 64,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.6
@@ -6225,7 +6773,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 41,
-    "rank": 62,
+    "rank": 68,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.6
@@ -6350,7 +6898,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 45,
-    "rank": 19,
+    "rank": 20,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.4
@@ -6475,10 +7023,135 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 42,
-    "rank": 116,
+    "rank": 132,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "b43f9cca-12f6-4af2-bcb7-1b9debd7514a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 97,
+    "pa": 84,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Ismael Hernandez",
+    "vs": [
+     "Amanda Zhou",
+     "Victor Salicetti"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Ismael Hernandez",
+    "vs": [
+     "Robin Pagotto",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jane Pascua",
+    "vs": [
+     "Sabiha Kermalli",
+     "Robin Pagotto"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Patricia San Andres",
+     "Suzane Sullivan"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Sabiha Kermalli",
+     "Dhanesh Ghia"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 45,
+    "rank": 58,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -6648,7 +7321,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 52,
-    "rank": 32,
+    "rank": 35,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -6821,7 +7494,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 56,
-    "rank": 9,
+    "rank": 10,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.1
@@ -6930,7 +7603,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 36,
-    "rank": 26,
+    "rank": 28,
     "ratingGames": 4,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -1
@@ -7039,7 +7712,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 38,
-    "rank": 68,
+    "rank": 75,
     "ratingGames": 4,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.2
@@ -7196,7 +7869,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 51,
-    "rank": 97,
+    "rank": 109,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.7
@@ -7353,7 +8026,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 50,
-    "rank": 27,
+    "rank": 29,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.1
@@ -7510,7 +8183,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 53,
-    "rank": 112,
+    "rank": 128,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -7651,7 +8324,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 41,
-    "rank": 31,
+    "rank": 34,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.5
@@ -7792,7 +8465,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 49,
-    "rank": 18,
+    "rank": 19,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -7933,7 +8606,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 39,
-    "rank": 39,
+    "rank": 42,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.7
@@ -8074,7 +8747,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 50,
-    "rank": 98,
+    "rank": 110,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1
@@ -8215,7 +8888,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 47,
-    "rank": 20,
+    "rank": 22,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -8356,10 +9029,151 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 57,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "679d2999-1bf2-40ae-a420-9edf09aa8723": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 114,
+    "pa": 99,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Maridel Ablaza",
+    "vs": [
+     "Suzane Sullivan",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Victor Salicetti",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Ismael Hernandez",
+    "vs": [
+     "Victor Salicetti",
+     "Tony Wong"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Maridel Ablaza",
+    "vs": [
+     "Patricia San Andres",
+     "Dhanesh Ghia"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Victor Salicetti",
+     "Dhanesh Ghia"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Taylor Newell",
+    "vs": [
+     "Victor Salicetti",
+     "Marcus Burritt"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.8,
+    "confidence": 45,
+    "rank": 65,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -8497,7 +9311,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 48,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.1
@@ -8638,7 +9452,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 66,
+    "rank": 73,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.7
@@ -8779,7 +9593,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 43,
-    "rank": 71,
+    "rank": 80,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -8920,7 +9734,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 43,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.6
@@ -9061,7 +9875,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 127,
+    "rank": 144,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.7
@@ -9202,7 +10016,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 47,
-    "rank": 50,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -9343,7 +10157,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 102,
+    "rank": 114,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -9484,7 +10298,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 45,
-    "rank": 54,
+    "rank": 57,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
@@ -9625,7 +10439,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 53,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.9
@@ -9766,7 +10580,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 47,
-    "rank": 58,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.2
@@ -9891,7 +10705,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 42,
-    "rank": 78,
+    "rank": 89,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
@@ -10016,7 +10830,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 45,
-    "rank": 95,
+    "rank": 107,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.8
@@ -10141,7 +10955,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 42,
-    "rank": 44,
+    "rank": 47,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -10266,7 +11080,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 42,
-    "rank": 61,
+    "rank": 67,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -10391,7 +11205,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 41,
-    "rank": 73,
+    "rank": 82,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -10516,7 +11330,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 77,
+    "rank": 88,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
@@ -10641,7 +11455,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 42,
-    "rank": 122,
+    "rank": 138,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.6
@@ -10766,10 +11580,135 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 132,
+    "rank": 149,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "bd10ce5c-8ee4-4df1-a2f5-20b49a1a8b37": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 89,
+    "pa": 84,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jane Pascua",
+    "vs": [
+     "Patricia San Andres",
+     "Robin Pagotto"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "John Defilippo",
+    "vs": [
+     "Amanda Zhou",
+     "Marcus Burritt"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Maridel Ablaza",
+    "vs": [
+     "Suzane Sullivan",
+     "Diahann Ouly"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jane Pascua",
+    "vs": [
+     "Robin Pagotto",
+     "Diahann Ouly"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Patricia San Andres",
+     "Sabiha Kermalli"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 45,
+    "rank": 124,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -10891,10 +11830,135 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 39,
-    "rank": 110,
+    "rank": 126,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "262cf0be-4906-46fb-ab84-f4aa760bac58": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 84,
+    "pa": 89,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Esterlina Wiest",
+    "vs": [
+     "Amanda Zhou",
+     "Victor Salicetti"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Esterlina Wiest",
+    "vs": [
+     "Robin Pagotto",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Holden Smith",
+    "vs": [
+     "Victor Salicetti",
+     "Tony Wong"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Amanda Zhou",
+     "Adam Werwie"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Jasmine Nguyen",
+    "vs": [
+     "Robin Pagotto",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 42,
+    "rank": 179,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -11016,7 +12080,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 131,
+    "rank": 148,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -11141,7 +12205,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 44,
-    "rank": 150,
+    "rank": 169,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -11266,7 +12330,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 92,
+    "rank": 104,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -11423,7 +12487,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 51,
-    "rank": 87,
+    "rank": 99,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.6
@@ -11580,7 +12644,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 48,
-    "rank": 13,
+    "rank": 14,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.5
@@ -11737,7 +12801,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 50,
-    "rank": 144,
+    "rank": 163,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1
@@ -11894,7 +12958,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 43,
-    "rank": 120,
+    "rank": 136,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.2
@@ -12051,7 +13115,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 51,
-    "rank": 133,
+    "rank": 150,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -12192,10 +13256,260 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 89,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": []
+ },
+ "70422d8a-2761-48c4-ac68-ae5bfe532394": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 73,
+    "pa": 59,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Esterlina Wiest",
+     "Ismael Hernandez"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Marcus Burritt",
+    "vs": [
+     "Lanz Santos",
+     "John Defilippo"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Adam Werwie",
+    "vs": [
+     "Katelyn Carretas",
+     "Ismael Hernandez"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Tony Wong",
+    "vs": [
+     "Maridel Ablaza",
+     "John Defilippo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.8,
+    "confidence": 39,
+    "rank": 69,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "9fed5c28-a77a-444e-9812-2aad47084c7e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 118,
+    "pa": 105,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Jasmine Nguyen",
+     "Raymond Duong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Marcus Burritt",
+    "vs": [
+     "Taylor Newell",
+     "John Defilippo"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Howie Knudson",
+    "vs": [
+     "Raymond Duong",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Amanda Zhou",
+    "vs": [
+     "Katelyn Carretas",
+     "Ismael Hernandez"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Katelyn Carretas",
+     "Raymond Duong"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Howie Knudson",
+    "vs": [
+     "Raymond Duong",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1,
+    "confidence": 46,
+    "rank": 60,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -12333,7 +13647,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 69,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
@@ -12442,7 +13756,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 40,
-    "rank": 49,
+    "rank": 52,
     "ratingGames": 4,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.2
@@ -12615,7 +13929,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 53,
-    "rank": 40,
+    "rank": 43,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.4
@@ -12692,7 +14006,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 24,
-    "rank": 111,
+    "rank": 127,
     "ratingGames": 2,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1
@@ -12833,7 +14147,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 48,
-    "rank": 65,
+    "rank": 72,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.6
@@ -12974,7 +14288,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 48,
-    "rank": 64,
+    "rank": 71,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -13115,7 +14429,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 125,
+    "rank": 142,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
@@ -13256,7 +14570,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 75,
+    "rank": 85,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
@@ -13397,7 +14711,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 41,
-    "rank": 107,
+    "rank": 120,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.5
@@ -13538,7 +14852,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 48,
-    "rank": 135,
+    "rank": 154,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -13679,7 +14993,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 43,
-    "rank": 121,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.1
@@ -13788,10 +15102,151 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 42,
-    "rank": 72,
+    "rank": 81,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "9b7fad1a-a312-4d60-94e8-a1e138bb38fb": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 118,
+    "pa": 118,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Jasmine Nguyen",
+    "vs": [
+     "Sabiha Kermalli",
+     "Adam Werwie"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Suzane Sullivan",
+     "Victor Salicetti"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Adam Werwie",
+     "Howie Knudson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Jasmine Nguyen",
+    "vs": [
+     "Diahann Ouly",
+     "Marcus Burritt"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Suzane Sullivan",
+     "Adam Werwie"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Kevin Algarme",
+    "vs": [
+     "Adam Werwie",
+     "Howie Knudson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 45,
+    "rank": 87,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -13929,7 +15384,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 46,
-    "rank": 101,
+    "rank": 113,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -14070,10 +15525,151 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 100,
+    "rank": 112,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "42e86266-ff96-4961-8e27-adeac7084f59": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Marcus Burritt",
+    "vs": [
+     "Jane Pascua",
+     "Taylor Newell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Robin Pagotto",
+    "vs": [
+     "Jane Pascua",
+     "Lanz Santos"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Dhanesh Ghia",
+    "vs": [
+     "Maridel Ablaza",
+     "Kevin Algarme"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Dhanesh Ghia",
+    "vs": [
+     "Maridel Ablaza",
+     "Holden Smith"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Katelyn Carretas",
+     "Esterlina Wiest"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Katelyn Carretas",
+     "Lanz Santos"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 49,
+    "rank": 76,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -14211,10 +15807,292 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 142,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "08cb8582-4347-4694-9f58-7e479aa3b7a5": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 104,
+    "pa": 111,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Amanda Zhou",
+    "vs": [
+     "Esterlina Wiest",
+     "Ismael Hernandez"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Howie Knudson",
+    "vs": [
+     "Holden Smith",
+     "Kevin Algarme"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Katelyn Carretas",
+     "Raymond Duong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Tony Wong",
+    "vs": [
+     "Ismael Hernandez",
+     "Holden Smith"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Dhanesh Ghia",
+    "vs": [
+     "Kevin Algarme",
+     "Holden Smith"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Marcus Burritt",
+    "vs": [
+     "Holden Smith",
+     "Taylor Newell"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 46,
+    "rank": 153,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "7909f81b-3c87-4f6a-8476-50ae30e2ab4b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 117,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Adam Werwie",
+    "vs": [
+     "Jasmine Nguyen",
+     "Raymond Duong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Diahann Ouly",
+    "vs": [
+     "Jasmine Nguyen",
+     "Katelyn Carretas"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Robin Pagotto",
+    "vs": [
+     "Jane Pascua",
+     "Esterlina Wiest"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Howie Knudson",
+    "vs": [
+     "Jane Pascua",
+     "Taylor Newell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Dhanesh Ghia",
+    "vs": [
+     "Esterlina Wiest",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Katelyn Carretas",
+     "Lanz Santos"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 50,
+    "rank": 122,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -14352,7 +16230,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 48,
-    "rank": 119,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.1
@@ -14525,7 +16403,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 108,
+    "rank": 121,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.8
@@ -14666,7 +16544,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 49,
-    "rank": 114,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.8
@@ -14807,7 +16685,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 44,
-    "rank": 158,
+    "rank": 177,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -14964,7 +16842,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 49,
-    "rank": 28,
+    "rank": 30,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.4
@@ -15121,7 +16999,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 63,
+    "rank": 70,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -15278,7 +17156,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 51,
-    "rank": 79,
+    "rank": 90,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -15435,7 +17313,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 118,
+    "rank": 134,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.2
@@ -15592,7 +17470,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 45,
-    "rank": 70,
+    "rank": 78,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -15749,7 +17627,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 50,
-    "rank": 80,
+    "rank": 91,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -15906,7 +17784,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 126,
+    "rank": 143,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
@@ -16031,7 +17909,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 42,
-    "rank": 106,
+    "rank": 119,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -1
@@ -16156,7 +18034,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 38,
-    "rank": 86,
+    "rank": 97,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -16281,10 +18159,135 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 44,
-    "rank": 130,
+    "rank": 147,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "ff4f3e35-1472-444c-b4d0-aa381bbd12d1": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 89,
+    "pa": 90,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Jane Pascua",
+    "vs": [
+     "Patricia San Andres",
+     "Marcus Burritt"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "John Defilippo",
+    "vs": [
+     "Adam Werwie",
+     "Marcus Burritt"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Jane Pascua",
+    "vs": [
+     "Sabiha Kermalli",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "John Defilippo",
+    "vs": [
+     "Marcus Burritt",
+     "Tony Wong"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Holden Smith",
+    "vs": [
+     "Victor Salicetti",
+     "Marcus Burritt"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 39,
+    "rank": 83,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -16406,10 +18409,135 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 82,
+    "rank": 93,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "8621d525-134a-4647-a7bd-98c3a357cdc3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 96,
+    "pa": 98,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Raymond Duong",
+    "vs": [
+     "Sabiha Kermalli",
+     "Adam Werwie"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Katelyn Carretas",
+    "vs": [
+     "Sabiha Kermalli",
+     "Diahann Ouly"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Raymond Duong",
+    "vs": [
+     "Diahann Ouly",
+     "Marcus Burritt"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Ismael Hernandez",
+    "vs": [
+     "Robin Pagotto",
+     "Howie Knudson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jane Pascua",
+    "vs": [
+     "Suzane Sullivan",
+     "Diahann Ouly"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 43,
+    "rank": 151,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -16531,10 +18659,135 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 40,
-    "rank": 103,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "e3828158-4c75-4583-9a96-c00b2e01252f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 85,
+    "pa": 89,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Maridel Ablaza",
+     "Holden Smith"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Robin Pagotto",
+    "vs": [
+     "Esterlina Wiest",
+     "Ismael Hernandez"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Ismael Hernandez",
+     "Holden Smith"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Marcus Burritt",
+    "vs": [
+     "John Defilippo",
+     "Taylor Newell"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Amanda Zhou",
+    "vs": [
+     "Maridel Ablaza",
+     "John Defilippo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 45,
+    "rank": 117,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -16656,7 +18909,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 43,
-    "rank": 124,
+    "rank": 140,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -16781,10 +19034,135 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 67,
+    "rank": 74,
     "ratingGames": 5,
     "strengthOfPartners": -2.4,
     "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "7f49224e-d530-48a6-acc3-30d8b6357a82": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 91,
+    "pa": 99,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Jasmine Nguyen",
+     "Katelyn Carretas"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Lanz Santos",
+     "Maridel Ablaza"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Marcus Burritt",
+    "vs": [
+     "Jasmine Nguyen",
+     "Raymond Duong"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Robin Pagotto",
+    "vs": [
+     "Jane Pascua",
+     "Lanz Santos"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Suzane Sullivan",
+    "vs": [
+     "Jasmine Nguyen",
+     "Jane Pascua"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 42,
+    "rank": 141,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -16906,7 +19284,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 46,
-    "rank": 129,
+    "rank": 146,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -17031,7 +19409,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 43,
-    "rank": 85,
+    "rank": 96,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.4
@@ -17156,7 +19534,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 47,
-    "rank": 145,
+    "rank": 164,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -17281,7 +19659,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 43,
-    "rank": 146,
+    "rank": 165,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -17406,7 +19784,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 43,
-    "rank": 185,
+    "rank": 208,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
@@ -17579,7 +19957,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 55,
-    "rank": 178,
+    "rank": 199,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -17752,7 +20130,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 51,
-    "rank": 152,
+    "rank": 171,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.3
@@ -17893,7 +20271,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 45,
-    "rank": 104,
+    "rank": 116,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.1
@@ -18034,10 +20412,151 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 164,
+    "rank": 184,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "631b19a7-f176-4a1d-a7be-2fdf764b2dd6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Tony Wong",
+    "vs": [
+     "Maridel Ablaza",
+     "Holden Smith"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Katelyn Carretas",
+     "Raymond Duong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Diahann Ouly",
+    "vs": [
+     "Lanz Santos",
+     "Maridel Ablaza"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Katelyn Carretas",
+     "Esterlina Wiest"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Adam Werwie",
+    "vs": [
+     "Katelyn Carretas",
+     "Raymond Duong"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Diahann Ouly",
+    "vs": [
+     "Jasmine Nguyen",
+     "Jane Pascua"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 48,
+    "rank": 123,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -18175,7 +20694,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 46,
-    "rank": 83,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.8
@@ -18316,7 +20835,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 88,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.7
@@ -18457,7 +20976,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 44,
-    "rank": 159,
+    "rank": 178,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -18598,7 +21117,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 48,
-    "rank": 93,
+    "rank": 105,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1
@@ -18739,7 +21258,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 166,
+    "rank": 187,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -18880,7 +21399,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 46,
-    "rank": 34,
+    "rank": 37,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.4
@@ -19021,7 +21540,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 46,
-    "rank": 176,
+    "rank": 197,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.2
@@ -19162,7 +21681,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 99,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1
@@ -19303,7 +21822,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 48,
-    "rank": 175,
+    "rank": 196,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -19444,7 +21963,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 138,
+    "rank": 157,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1.4
@@ -19585,7 +22104,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 157,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -19726,7 +22245,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 41,
-    "rank": 147,
+    "rank": 166,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.5
@@ -19867,7 +22386,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 45,
-    "rank": 171,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.7
@@ -20024,7 +22543,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 53,
-    "rank": 117,
+    "rank": 133,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.1
@@ -20181,7 +22700,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 81,
+    "rank": 92,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -20338,10 +22857,119 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 113,
+    "rank": 129,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "9311307c-4c96-4876-9403-41a71e785c3a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 76,
+    "pa": 82,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Maridel Ablaza",
+     "Kevin Algarme"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Maridel Ablaza",
+     "Holden Smith"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Kevin Algarme",
+     "Holden Smith"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Esterlina Wiest",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Lehigh Valley"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.4,
+    "confidence": 35,
+    "rank": 98,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -20511,7 +23139,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 53,
-    "rank": 74,
+    "rank": 84,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -20620,7 +23248,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 40,
-    "rank": 181,
+    "rank": 204,
     "ratingGames": 4,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -20793,7 +23421,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 56,
-    "rank": 52,
+    "rank": 55,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
@@ -20902,7 +23530,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 143,
+    "rank": 162,
     "ratingGames": 4,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -21011,10 +23639,119 @@
     "week": 1,
     "rating": -2.6,
     "confidence": 41,
-    "rank": 192,
+    "rank": 215,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "a5e93c3d-2397-4974-b96c-035f5ec57152": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 57,
+    "pa": 76,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Taylor Newell",
+    "vs": [
+     "Adam Werwie",
+     "Marcus Burritt"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Lanz Santos",
+    "vs": [
+     "Amanda Zhou",
+     "Marcus Burritt"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Taylor Newell",
+    "vs": [
+     "Marcus Burritt",
+     "Tony Wong"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Maridel Ablaza",
+    "vs": [
+     "Amanda Zhou",
+     "Tony Wong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.7,
+    "confidence": 34,
+    "rank": 185,
+    "ratingGames": 4,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -21120,7 +23857,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 39,
-    "rank": 161,
+    "rank": 181,
     "ratingGames": 4,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.2
@@ -21245,7 +23982,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 44,
-    "rank": 105,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -21370,7 +24107,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 43,
-    "rank": 109,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.2
@@ -21495,7 +24232,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 140,
+    "rank": 159,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -21620,7 +24357,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 45,
-    "rank": 149,
+    "rank": 168,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -21745,7 +24482,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 44,
-    "rank": 177,
+    "rank": 198,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.2
@@ -21870,7 +24607,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 46,
-    "rank": 170,
+    "rank": 191,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -21995,7 +24732,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 35,
-    "rank": 162,
+    "rank": 182,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
@@ -22120,7 +24857,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 44,
-    "rank": 174,
+    "rank": 195,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
@@ -22245,7 +24982,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 44,
-    "rank": 186,
+    "rank": 209,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -22370,7 +25107,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 41,
-    "rank": 160,
+    "rank": 180,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -22495,7 +25232,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 41,
-    "rank": 167,
+    "rank": 188,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.2
@@ -22620,7 +25357,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 46,
-    "rank": 193,
+    "rank": 216,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.3
@@ -22745,7 +25482,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 39,
-    "rank": 182,
+    "rank": 205,
     "ratingGames": 5,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": 0.1
@@ -22870,7 +25607,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 42,
-    "rank": 196,
+    "rank": 219,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.4
@@ -23011,10 +25748,151 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 123,
+    "rank": 139,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "9564f996-6460-4bbd-b589-270545a1d4ef": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 98,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Jasmine Nguyen",
+    "vs": [
+     "Sabiha Kermalli",
+     "Diahann Ouly"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Raymond Duong",
+    "vs": [
+     "Suzane Sullivan",
+     "Victor Salicetti"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Ismael Hernandez",
+    "vs": [
+     "Amanda Zhou",
+     "Adam Werwie"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Esterlina Wiest",
+    "vs": [
+     "Patricia San Andres",
+     "Suzane Sullivan"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Raymond Duong",
+    "vs": [
+     "Suzane Sullivan",
+     "Adam Werwie"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Lanz Santos",
+    "vs": [
+     "Patricia San Andres",
+     "Sabiha Kermalli"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 48,
+    "rank": 200,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -23152,7 +26030,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 45,
-    "rank": 172,
+    "rank": 193,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -23293,7 +26171,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 49,
-    "rank": 163,
+    "rank": 183,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -23434,7 +26312,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 49,
-    "rank": 155,
+    "rank": 174,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
@@ -23575,7 +26453,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 46,
-    "rank": 154,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.9
@@ -23716,7 +26594,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 43,
-    "rank": 188,
+    "rank": 211,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -23873,7 +26751,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 137,
+    "rank": 156,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -24030,7 +26908,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 91,
+    "rank": 103,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.7
@@ -24187,7 +27065,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 51,
-    "rank": 153,
+    "rank": 172,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -24344,7 +27222,7 @@
     "week": 1,
     "rating": -2.6,
     "confidence": 52,
-    "rank": 191,
+    "rank": 214,
     "ratingGames": 7,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -24517,7 +27395,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 134,
+    "rank": 152,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -24578,10 +27456,135 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 16,
-    "rank": 151,
+    "rank": 170,
     "ratingGames": 1,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
+ "45973650-1f33-43dc-a0f1-1fce356962e0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 80,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Victor Salicetti",
+    "vs": [
+     "Holden Smith",
+     "Kevin Algarme"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Adam Werwie",
+    "vs": [
+     "Raymond Duong",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Jane Pascua",
+     "Taylor Newell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Robin Pagotto",
+    "vs": [
+     "Jasmine Nguyen",
+     "Ismael Hernandez"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Adam Werwie",
+    "vs": [
+     "Raymond Duong",
+     "Kevin Algarme"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 44,
+    "rank": 201,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -24719,7 +27722,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 47,
-    "rank": 169,
+    "rank": 190,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -24860,7 +27863,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 47,
-    "rank": 136,
+    "rank": 155,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.9
@@ -24969,7 +27972,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 38,
-    "rank": 148,
+    "rank": 167,
     "ratingGames": 4,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 1.6
@@ -25094,7 +28097,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 43,
-    "rank": 189,
+    "rank": 212,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1
@@ -25219,7 +28222,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 44,
-    "rank": 180,
+    "rank": 203,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -25344,7 +28347,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 139,
+    "rank": 158,
     "ratingGames": 5,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 1.5
@@ -25469,7 +28472,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 44,
-    "rank": 179,
+    "rank": 202,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.8
@@ -25594,7 +28597,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 42,
-    "rank": 187,
+    "rank": 210,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.3
@@ -25719,10 +28722,135 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 44,
-    "rank": 173,
+    "rank": 194,
     "ratingGames": 5,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "d2016fbf-e18d-4051-b3d2-18612ff2a5bf": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 68,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Patricia San Andres",
+    "vs": [
+     "Jane Pascua",
+     "Lanz Santos"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Tony Wong",
+    "vs": [
+     "Esterlina Wiest",
+     "Ismael Hernandez"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Sabiha Kermalli",
+    "vs": [
+     "Jane Pascua",
+     "Esterlina Wiest"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Diahann Ouly",
+    "vs": [
+     "Jane Pascua",
+     "Lanz Santos"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Howie Knudson",
+    "vs": [
+     "Jasmine Nguyen",
+     "Ismael Hernandez"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3.5,
+    "confidence": 42,
+    "rank": 223,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -25844,7 +28972,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 44,
-    "rank": 184,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.1
@@ -26001,7 +29129,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 53,
-    "rank": 141,
+    "rank": 160,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.3
@@ -26142,7 +29270,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 168,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1
@@ -26267,7 +29395,7 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 42,
-    "rank": 194,
+    "rank": 217,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.2
@@ -26424,7 +29552,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 48,
-    "rank": 183,
+    "rank": 206,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -26581,7 +29709,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 48,
-    "rank": 156,
+    "rank": 175,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.5
@@ -26722,7 +29850,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 190,
+    "rank": 213,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.1
@@ -26847,7 +29975,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 43,
-    "rank": 195,
+    "rank": 218,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.2
@@ -27004,7 +30132,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 48,
-    "rank": 165,
+    "rank": 186,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.6
@@ -27129,7 +30257,7 @@
     "week": 1,
     "rating": -3.5,
     "confidence": 44,
-    "rank": 199,
+    "rank": 222,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.7
@@ -27254,7 +30382,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 46,
-    "rank": 197,
+    "rank": 220,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.3
@@ -27379,7 +30507,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 44,
-    "rank": 198,
+    "rank": 221,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.6

@@ -7,7 +7,7 @@
    "team": "Flemington",
    "matches": 1,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 7,
    "wins": 7,
    "losses": 0,
@@ -3183,7 +3183,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 150,
+   "leagueRank": 151,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3212,7 +3212,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 142,
+   "leagueRank": 143,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3241,7 +3241,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 135,
+   "leagueRank": 136,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3270,7 +3270,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 130,
+   "leagueRank": 131,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3328,7 +3328,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 139,
+   "leagueRank": 140,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3357,7 +3357,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 126,
+   "leagueRank": 127,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3386,7 +3386,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 137,
+   "leagueRank": 138,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3415,7 +3415,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 156,
+   "leagueRank": 157,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3473,7 +3473,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 132,
+   "leagueRank": 133,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3502,7 +3502,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 127,
+   "leagueRank": 128,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3531,7 +3531,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 151,
+   "leagueRank": 152,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3560,7 +3560,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 153,
+   "leagueRank": 154,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3589,7 +3589,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 148,
+   "leagueRank": 149,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3618,7 +3618,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 128,
+   "leagueRank": 129,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3734,7 +3734,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 152,
+   "leagueRank": 153,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3763,7 +3763,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 147,
+   "leagueRank": 148,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3821,7 +3821,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 141,
+   "leagueRank": 142,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3850,7 +3850,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 136,
+   "leagueRank": 137,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 157,
+   "leagueRank": 158,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 162,
+   "leagueRank": 163,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3995,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 129,
+   "leagueRank": 130,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4053,13 +4053,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 155,
+   "leagueRank": 156,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a9df21e2-b62a-4af0-a793-80f0de708466"
+  },
+  {
+   "name": "Tim Dowd",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 125,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28"
   },
   {
    "name": "Vaughn Mcclelland",
@@ -4082,7 +4111,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 143,
+   "leagueRank": 144,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4111,7 +4140,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 125,
+   "leagueRank": 126,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4140,7 +4169,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 138,
+   "leagueRank": 139,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4169,7 +4198,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 145,
+   "leagueRank": 146,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4198,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 131,
+   "leagueRank": 132,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 144,
+   "leagueRank": 145,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4256,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 161,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4314,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 161,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 146,
+   "leagueRank": 147,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4366,8 +4395,8 @@
    "power": 0.6,
    "powerRank": 1,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southwest",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4396,8 +4425,8 @@
    "power": 0,
    "powerRank": 3,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southwest",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4426,8 +4455,8 @@
    "power": -0.1,
    "powerRank": 4,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4456,8 +4485,8 @@
    "power": 0.3,
    "powerRank": 1,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4486,8 +4515,8 @@
    "power": 0.1,
    "powerRank": 2,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4516,8 +4545,8 @@
    "power": -0.2,
    "powerRank": 5,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4546,8 +4575,8 @@
    "power": 0.2,
    "powerRank": 2,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4576,8 +4605,8 @@
    "power": -0.2,
    "powerRank": 5,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4606,8 +4635,8 @@
    "power": -0.3,
    "powerRank": 6,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4636,8 +4665,8 @@
    "power": 0,
    "powerRank": 3,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -4666,8 +4695,8 @@
    "power": 0,
    "powerRank": 4,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southwest",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4696,8 +4725,8 @@
    "power": -0.5,
    "powerRank": 6,
    "pod": 1,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
    "fmt": {
     "mixed": [
      0,
@@ -4725,8 +4754,8 @@
    "gameDiff": 0,
    "power": null,
    "pod": 2,
-   "reportedPod": null,
-   "podName": null,
+   "reportedPod": "North",
+   "podName": "North",
    "fmt": {
     "mixed": [
      0,
@@ -7558,14 +7587,6 @@
   {
    "result": null,
    "week": 2,
-   "home": "Jersey Devil",
-   "away": "Bounce Tempest",
-   "time": "2026-08-31T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 2,
    "home": "Dill Dinkers Freehold",
    "away": "Jersey Pickleball Club",
    "time": "2026-08-31T19:30:00",
@@ -7584,6 +7605,14 @@
    "week": 2,
    "home": "ACE Moorestown",
    "away": "Pickle House",
+   "time": "2026-08-31T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 2,
+   "home": "Jersey Devil",
+   "away": "Bounce Tempest",
    "time": "2026-08-31T19:30:00",
    "complete": false
   },
@@ -7638,14 +7667,6 @@
   {
    "result": null,
    "week": 5,
-   "home": "Jersey Devil",
-   "away": "Bounce Malvern",
-   "time": "2026-09-21T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
    "home": "Jersey Pickleball Club",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-21T19:30:00",
@@ -7680,6 +7701,14 @@
    "week": 5,
    "home": "Pickle House",
    "away": "Picklr Newtown",
+   "time": "2026-09-21T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 5,
+   "home": "Jersey Devil",
+   "away": "Bounce Malvern",
    "time": "2026-09-21T19:30:00",
    "complete": false
   },
@@ -8014,14 +8043,6 @@
   {
    "result": null,
    "week": 11,
-   "home": "Jersey Devil",
-   "away": "ACE Moorestown",
-   "time": "2026-11-02T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 11,
    "home": "Pickleball Kingdom Watchung",
    "away": "Jersey Pickleball Club",
    "time": "2026-11-02T19:30:00",
@@ -8048,6 +8069,14 @@
    "week": 11,
    "home": "Bounce Malvern",
    "away": "Pickle House",
+   "time": "2026-11-02T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
+   "home": "Jersey Devil",
+   "away": "ACE Moorestown",
    "time": "2026-11-02T19:30:00",
    "complete": false
   },
@@ -8120,7 +8149,7 @@
  "meta": {
   "matchesPlayed": 6,
   "weeks": "1",
-  "totalPlayers": 150,
+  "totalPlayers": 151,
   "ratingHistoryWeeks": [
    1
   ],
@@ -8133,12 +8162,63 @@
   "leagueType": "travel",
   "singleGender": "Male",
   "podCount": 2,
-  "podNames": null,
-  "podSource": "schedule",
-  "reportedPods": null
+  "podNames": [
+   "Southeast / Southwest",
+   "North"
+  ],
+  "podSource": "api",
+  "reportedPods": [
+   "North",
+   "Southeast",
+   "Southwest"
+  ],
+  "podMismatch": {
+   "crossPodMatchups": 18,
+   "totalMatchups": 78,
+   "reported": {
+    "Southwest": [
+     "Bounce Malvern",
+     "Bounce Tempest",
+     "Picklr Newtown"
+    ],
+    "North": [
+     "Dill Dinkers Freehold",
+     "Flemington",
+     "Jersey Pickleball Club",
+     "Monroe",
+     "Pickleball Kingdom Hillsborough",
+     "Pickleball Kingdom Watchung",
+     "Premiere"
+    ],
+    "Southeast": [
+     "ACE Moorestown",
+     "Jersey Devil",
+     "Pickle House"
+    ]
+   },
+   "schedule": {
+    "Pod 1": [
+     "ACE Moorestown",
+     "Bounce Malvern",
+     "Bounce Tempest",
+     "Jersey Devil",
+     "Pickle House",
+     "Picklr Newtown"
+    ],
+    "Pod 2": [
+     "Dill Dinkers Freehold",
+     "Flemington",
+     "Jersey Pickleball Club",
+     "Monroe",
+     "Pickleball Kingdom Hillsborough",
+     "Pickleball Kingdom Watchung",
+     "Premiere"
+    ]
+   }
+  }
  }
 };
-  DATA.meta.asOf = "2026-08-25";
+  DATA.meta.asOf = "2026-08-26";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

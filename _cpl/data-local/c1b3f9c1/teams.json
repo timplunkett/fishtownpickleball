@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "80b97373-6a97-4298-9bf3-dd561e7ca178",
+      "teamName": "Hot Ballers!",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "1f1e1fb6-3c63-4a68-9747-db4babc2c04a",
+      "teamName": "Nets Gambit",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "1e3de379-e4a3-413d-a56e-4b3d44dde769",
+      "teamName": "Smash-holes!",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "367a0f32-4fec-44ea-ba0c-b59814cfba9f",
+      "teamName": "The Three-Fives",
+      "pod": "Overall"
+    }
+  ]
+}

@@ -97,18 +97,6 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "ea3223bd-e4a1-4d29-aecf-f0c567bda555",
-      "weekNumber": 2,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-31T19:00:00",
-      "homeName": "Jersey Devil",
-      "awayName": "Bounce Tempest"
-    },
-    {
       "matchupId": "f3c22d2d-236f-4644-a8c4-4a3720c92900",
       "weekNumber": 2,
       "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
@@ -143,6 +131,18 @@
       "scheduledTime": "2026-08-31T19:30:00",
       "homeName": "ACE Moorestown",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "ea3223bd-e4a1-4d29-aecf-f0c567bda555",
+      "weekNumber": 2,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Bounce Tempest"
     },
     {
       "matchupId": "1c640b75-fd41-46be-9a5d-75185d05e1e2",
@@ -217,18 +217,6 @@
       "awayName": "Pickle House"
     },
     {
-      "matchupId": "9326c662-62b4-4025-a096-ab81e83aeb78",
-      "weekNumber": 5,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-21T19:00:00",
-      "homeName": "Jersey Devil",
-      "awayName": "Bounce Malvern"
-    },
-    {
       "matchupId": "0c458fc5-c385-4f4f-bf1a-1e1c86f2c62c",
       "weekNumber": 5,
       "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
@@ -287,6 +275,18 @@
       "scheduledTime": "2026-09-21T19:30:00",
       "homeName": "Pickle House",
       "awayName": "Picklr Newtown"
+    },
+    {
+      "matchupId": "9326c662-62b4-4025-a096-ab81e83aeb78",
+      "weekNumber": 5,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-21T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Bounce Malvern"
     },
     {
       "matchupId": "e538c4a9-07a3-43c9-861b-5757e32222ae",
@@ -781,18 +781,6 @@
       "awayName": "Bounce Tempest"
     },
     {
-      "matchupId": "26000505-c26a-46c8-8092-e9c4af06ab82",
-      "weekNumber": 11,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-02T19:00:00",
-      "homeName": "Jersey Devil",
-      "awayName": "ACE Moorestown"
-    },
-    {
       "matchupId": "e25de282-52ca-4955-b8e9-424bc20a458e",
       "weekNumber": 11,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
@@ -839,6 +827,18 @@
       "scheduledTime": "2026-11-02T19:30:00",
       "homeName": "Bounce Malvern",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "26000505-c26a-46c8-8092-e9c4af06ab82",
+      "weekNumber": 11,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-02T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "ACE Moorestown"
     },
     {
       "matchupId": "2cf35dd3-eb15-4697-9e2f-17b846ef639c",

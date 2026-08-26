@@ -1,0 +1,29 @@
+{
+  "$values": [
+    {
+      "teamId": "12040c34-86af-4b4c-a043-b6c374fbb0b5",
+      "teamName": "Dinking Around",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "1b2797eb-3f2b-433b-8012-88ccabe3d6fb",
+      "teamName": "Pickleball Addicts",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "5dcc9bb2-96fa-483d-9e63-624344adaae4",
+      "teamName": "Power Picklers",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "bdbc07bc-755a-4d1a-924e-50ebdeaabf7b",
+      "teamName": "Summer of Slam",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "dea0bfc8-ed6a-4165-bed1-c38b54cb1979",
+      "teamName": "The Mighty Dinks",
+      "pod": "Overall"
+    }
+  ]
+}

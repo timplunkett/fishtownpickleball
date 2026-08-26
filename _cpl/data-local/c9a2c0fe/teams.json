@@ -1,0 +1,29 @@
+{
+  "$values": [
+    {
+      "teamId": "51af4c5f-9d97-4679-82a5-d4a6fc2e1aa4",
+      "teamName": "Ace & Eights",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "c4a05fb8-7949-4146-8d8c-e3c83d6f8944",
+      "teamName": "ACE ACE Baby",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "36f3d95c-c3cc-42ac-b47c-a97dbef31f72",
+      "teamName": "Ace Bandits",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "d072cc24-b76b-40b8-ba1d-76b4f8f33b71",
+      "teamName": "Ace Rebels",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "18a5bece-3147-40ef-8082-8318a36aaa56",
+      "teamName": "Kitchen Commanders",
+      "pod": "Overall"
+    }
+  ]
+}

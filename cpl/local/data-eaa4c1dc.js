@@ -1510,7 +1510,7 @@
    "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968"
   },
   {
-   "name": "Bobby Castellano",
+   "name": "Bob Castellano",
    "gender": "Male",
    "team": "The Dill Inquents",
    "matches": 3,
@@ -1754,7 +1754,7 @@
    "bId": "dae62b8e-5f8e-4721-8f41-3218518d1e30"
   },
   {
-   "a": "Bobby Castellano",
+   "a": "Bob Castellano",
    "b": "Juliana Drinane",
    "team": "The Dill Inquents",
    "n": 5,
@@ -3081,7 +3081,7 @@
   },
   {
    "a": "John Fallone",
-   "b": "Bobby Castellano",
+   "b": "Bob Castellano",
    "team": "The Dill Inquents",
    "n": 4,
    "w": 0,
@@ -4403,7 +4403,7 @@
      ],
      "a": [
       "Josh Rito",
-      "Bobby Castellano"
+      "Bob Castellano"
      ]
     },
     {
@@ -4445,7 +4445,7 @@
      ],
      "a": [
       "Amy Johnson",
-      "Bobby Castellano"
+      "Bob Castellano"
      ]
     },
     {
@@ -4514,7 +4514,7 @@
       "Richard Demeuse"
      ],
      "a": [
-      "Bobby Castellano",
+      "Bob Castellano",
       "John Fallone"
      ]
     },
@@ -4571,7 +4571,7 @@
      ],
      "a": [
       "Juliana Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ]
     },
     {
@@ -4683,7 +4683,7 @@
      ],
      "a": [
       "Amy Johnson",
-      "Bobby Castellano"
+      "Bob Castellano"
      ]
     },
     {
@@ -4738,7 +4738,7 @@
       "Richard Demeuse"
      ],
      "a": [
-      "Bobby Castellano",
+      "Bob Castellano",
       "John Fallone"
      ]
     }
@@ -5738,7 +5738,7 @@
      "as": 24,
      "h": [
       "Tara Kramer",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Jillian Hart",
@@ -5794,7 +5794,7 @@
      "as": 21,
      "h": [
       "Bob Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Bill Brandt",
@@ -5850,7 +5850,7 @@
      "as": 21,
      "h": [
       "Tara Kramer",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Jillian Hart",
@@ -5892,7 +5892,7 @@
      "as": 21,
      "h": [
       "David Osborne",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Robbie Oddy",
@@ -5962,7 +5962,7 @@
      "as": 21,
      "h": [
       "Juliana Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Jillian Hart",
@@ -6018,7 +6018,7 @@
      "as": 21,
      "h": [
       "Bob Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Bill Brandt",
@@ -6074,7 +6074,7 @@
      "as": 21,
      "h": [
       "Juliana Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Jamie Hahn",
@@ -6116,7 +6116,7 @@
      "as": 21,
      "h": [
       "David Osborne",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Robbie Oddy",
@@ -6203,7 +6203,7 @@
      "as": 16,
      "h": [
       "Juliana Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Denise Richmond",
@@ -6258,7 +6258,7 @@
      "hs": 25,
      "as": 27,
      "h": [
-      "Bobby Castellano",
+      "Bob Castellano",
       "John Fallone"
      ],
      "a": [
@@ -6370,7 +6370,7 @@
      "hs": 19,
      "as": 21,
      "h": [
-      "Bobby Castellano",
+      "Bob Castellano",
       "John Fallone"
      ],
      "a": [
@@ -6427,7 +6427,7 @@
      "as": 22,
      "h": [
       "Juliana Drinane",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Denise Richmond",
@@ -6483,7 +6483,7 @@
      "as": 21,
      "h": [
       "Sean O'Connell",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Jamison Rowles",
@@ -6511,7 +6511,7 @@
      "as": 15,
      "h": [
       "Susan St. Pierre",
-      "Bobby Castellano"
+      "Bob Castellano"
      ],
      "a": [
       "Cally Kerrigan",
@@ -10832,7 +10832,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-25";
+  DATA.meta.asOf = "2026-08-26";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["eaa4c1dc"] = DATA;

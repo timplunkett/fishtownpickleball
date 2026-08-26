@@ -5,9 +5,9 @@
       "weekNumber": 1,
       "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 591,
+      "awayPoints": 616,
+      "endResult": "away",
       "scheduledTime": "2026-08-24T19:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "ACE Downingtown"

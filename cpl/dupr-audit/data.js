@@ -2751,6 +2751,18 @@ window.DUPR_AUDIT = {
   {
    "name": "Anthony Fallet",
    "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
+   "team": "Flemington Green",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
+  },
+  {
+   "name": "Anthony Fallet",
+   "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
    "team": "Flemington",
    "league": "travel",
    "division": "4.5 Mens",
@@ -3395,6 +3407,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.25,
    "max": 3.99
+  },
+  {
+   "name": "Aurora Lewis",
+   "playerId": "3fe06711-5561-47b8-ad95-382cd0bcff9a",
+   "team": "Home Court",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Female",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
   },
   {
    "name": "Aurora Lewis",
@@ -4129,6 +4153,18 @@ window.DUPR_AUDIT = {
    "max": 4.5
   },
   {
+   "name": "Bob Castellano",
+   "playerId": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
+   "team": "The Dill Inquents",
+   "league": "local",
+   "division": "Flemington • 4.0 & Over",
+   "slug": "eaa4c1dc",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": null
+  },
+  {
    "name": "Bob Debarge",
    "playerId": "e0d98c57-92dd-4719-ab14-3635205f3328",
    "team": "Monroe",
@@ -4163,18 +4199,6 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3,
    "max": 3.5
-  },
-  {
-   "name": "Bobby Castellano",
-   "playerId": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
-   "team": "The Dill Inquents",
-   "league": "local",
-   "division": "Flemington • 4.0 & Over",
-   "slug": "eaa4c1dc",
-   "gender": "Male",
-   "isSub": false,
-   "min": 4,
-   "max": null
   },
   {
    "name": "Bonnie Russo",
@@ -6095,6 +6119,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.5,
    "max": 4
+  },
+  {
+   "name": "Chris Damato",
+   "playerId": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
+   "team": "Pickle House",
+   "league": "travel",
+   "division": "4.5",
+   "slug": "6619816f",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4.5,
+   "max": null
   },
   {
    "name": "Chris Damato",
@@ -8293,6 +8329,18 @@ window.DUPR_AUDIT = {
    "max": 4.5
   },
   {
+   "name": "Danielle Collins",
+   "playerId": "be0c8a78-f94f-44a0-8c73-d922ccebca74",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Female",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
    "name": "Danielle Kane",
    "playerId": "2e70afa6-2efb-4f99-aa57-388b45aa31cb",
    "team": "ACE Moorestown",
@@ -10129,6 +10177,18 @@ window.DUPR_AUDIT = {
    "max": 4.25
   },
   {
+   "name": "Eden Paredes",
+   "playerId": "6feb852e-6d64-42d2-8135-3c625b7a0af3",
+   "team": "Bounce Malvern",
+   "league": "travel",
+   "division": "3.0 (50+)",
+   "slug": "1e12eb3f",
+   "gender": "Female",
+   "isSub": false,
+   "min": 3,
+   "max": 3.5
+  },
+  {
    "name": "Edrees Siddiqi",
    "playerId": "7210d098-aa54-482c-bda3-a660e2465760",
    "team": "Picklr Newark",
@@ -10139,6 +10199,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.5,
    "max": 4
+  },
+  {
+   "name": "Edward Verish",
+   "playerId": "bcbd0332-5104-40b6-a2a1-78fc174a0392",
+   "team": "Players Courtyard",
+   "league": "travel",
+   "division": "3.0 (50+)",
+   "slug": "1e12eb3f",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3,
+   "max": 3.5
   },
   {
    "name": "Edward Weinstein",
@@ -10963,6 +11035,18 @@ window.DUPR_AUDIT = {
    "league": "travel",
    "division": "4.0 (50+)",
    "slug": "2edc44e7",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
+  },
+  {
+   "name": "Eric Moore",
+   "playerId": "3e9c7207-43d5-42fe-b0d0-e726068a9c4a",
+   "team": "PCKLRAMA",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
    "gender": "Male",
    "isSub": false,
    "min": 4,
@@ -14219,6 +14303,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.75,
    "max": 4.25
+  },
+  {
+   "name": "Jacob Rosengarten",
+   "playerId": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
+   "team": "Monroe",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
   },
   {
    "name": "Jacob Rosengarten",
@@ -18025,6 +18121,18 @@ window.DUPR_AUDIT = {
    "max": 4.5
   },
   {
+   "name": "Jonathan Fossum",
+   "playerId": "03ebfc9e-7df6-479d-b7bb-00bafbf4192d",
+   "team": "Bounce Malvern",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
    "name": "Jonathan Goldner",
    "playerId": "5142be9e-adb4-4f40-8632-1f6daa6d824b",
    "team": "Pickle Place",
@@ -18629,12 +18737,12 @@ window.DUPR_AUDIT = {
    "playerId": "b8919b61-f5ef-4322-a5fd-51364c3e0fbc",
    "team": "Dill Dinkers Newport",
    "league": "travel",
-   "division": "3.75 Mens",
-   "slug": "c118b8e9",
+   "division": "3.0 (50+)",
+   "slug": "1e12eb3f",
    "gender": "Male",
    "isSub": false,
-   "min": 3.75,
-   "max": 4.25
+   "min": 3,
+   "max": 3.5
   },
   {
    "name": "Joshua Kim",
@@ -21267,6 +21375,18 @@ window.DUPR_AUDIT = {
   {
    "name": "Kyle Korman",
    "playerId": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+   "team": "PKLD",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
+   "name": "Kyle Korman",
+   "playerId": "d61a3828-6dfc-480a-b26a-534b0fe58268",
    "team": "Pickleball HQ",
    "league": "travel",
    "division": "3.75 Mens",
@@ -21803,6 +21923,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 0,
    "max": 3.75
+  },
+  {
+   "name": "Layla Darian",
+   "playerId": "77234c18-83ca-4180-8a45-181f7d347542",
+   "team": "Flemington Green",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Female",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
   },
   {
    "name": "Leah Greenstein",
@@ -23267,6 +23399,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 4,
    "max": 4.5
+  },
+  {
+   "name": "Madhu Raghunathan",
+   "playerId": "f008538f-037a-4850-ad1d-fd9108382a81",
+   "team": "Allstar Pickler",
+   "league": "travel",
+   "division": "3.75 Mens",
+   "slug": "c118b8e9",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.75,
+   "max": 4.25
   },
   {
    "name": "Maeve Mcgowan",
@@ -25400,6 +25544,18 @@ window.DUPR_AUDIT = {
    "division": "4.0",
    "slug": "a1413f3d",
    "gender": "Female",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
+  },
+  {
+   "name": "Memo Elgayar",
+   "playerId": "99ec5180-b829-4ef5-a2e7-4094f9483be4",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Male",
    "isSub": false,
    "min": 4,
    "max": 4.5
@@ -29111,6 +29267,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.25,
    "max": 3.75
+  },
+  {
+   "name": "Rachel Levkov",
+   "playerId": "067afbd0-d803-4eb0-b467-3af2930f18af",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Female",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
   },
   {
    "name": "Rachel Mcgowan",
@@ -32857,6 +33025,18 @@ window.DUPR_AUDIT = {
    "max": 4.5
   },
   {
+   "name": "Spencer Day",
+   "playerId": "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84",
+   "team": "Players Courtyard",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
    "name": "Sree Harsha Konduru",
    "playerId": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
    "team": "Pickle House",
@@ -34945,18 +35125,6 @@ window.DUPR_AUDIT = {
    "max": 3.5
   },
   {
-   "name": "Tidd Green",
-   "playerId": "52db6510-81e5-4ca3-ae64-1f0bbe677f93",
-   "team": "Montville",
-   "league": "travel",
-   "division": "3.5",
-   "slug": "b7ca04e4",
-   "gender": "Male",
-   "isSub": false,
-   "min": 3.5,
-   "max": 4
-  },
-  {
    "name": "Tiffany Kaleikini",
    "playerId": "1a22e8aa-6986-49b8-b97b-4811087295e7",
    "team": "Premiere",
@@ -35015,6 +35183,30 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 4,
    "max": 4.5
+  },
+  {
+   "name": "Tim Dowd",
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
+   "team": "Flemington Green",
+   "league": "travel",
+   "division": "4.0",
+   "slug": "a1413f3d",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4,
+   "max": 4.5
+  },
+  {
+   "name": "Tim Dowd",
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
+   "team": "Flemington",
+   "league": "travel",
+   "division": "4.5 Mens",
+   "slug": "cca69ab9",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4.5,
+   "max": null
   },
   {
    "name": "Tim Haresign",
@@ -35305,6 +35497,18 @@ window.DUPR_AUDIT = {
    "max": 3.5
   },
   {
+   "name": "Todd Green",
+   "playerId": "52db6510-81e5-4ca3-ae64-1f0bbe677f93",
+   "team": "Montville",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
    "name": "Todd Law",
    "playerId": "9b0fe5d7-4586-4629-8408-928794ca1c3b",
    "team": "Pickle Place",
@@ -35423,18 +35627,6 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.75,
    "max": 4.25
-  },
-  {
-   "name": "Tom Hadler",
-   "playerId": "c5d07eb6-d276-4503-a077-c092e89c2ae8",
-   "team": "Flemington Green",
-   "league": "travel",
-   "division": "4.0",
-   "slug": "a1413f3d",
-   "gender": "Male",
-   "isSub": false,
-   "min": 4,
-   "max": 4.5
   },
   {
    "name": "Tom Kresky",
@@ -35773,6 +35965,18 @@ window.DUPR_AUDIT = {
    "max": 3.99
   },
   {
+   "name": "Trevor Oakley",
+   "playerId": "ba6182a3-0d5e-4800-9306-db8757170c80",
+   "team": "Bounce Malvern",
+   "league": "travel",
+   "division": "3.5",
+   "slug": "b7ca04e4",
+   "gender": "Male",
+   "isSub": false,
+   "min": 3.5,
+   "max": 4
+  },
+  {
    "name": "Tricia Burdo",
    "playerId": "c1af6941-a826-4930-9aac-4c13837754a8",
    "team": "Kiss My Ace",
@@ -36095,6 +36299,18 @@ window.DUPR_AUDIT = {
    "isSub": false,
    "min": 3.5,
    "max": 4
+  },
+  {
+   "name": "Varun Prakash",
+   "playerId": "67dbfc4f-20f7-4299-bc2f-6cc70cf747ab",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "league": "travel",
+   "division": "4.5",
+   "slug": "6619816f",
+   "gender": "Male",
+   "isSub": false,
+   "min": 4.5,
+   "max": null
   },
   {
    "name": "Vaughn Lawrence",

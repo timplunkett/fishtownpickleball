@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "e8f790d2-8d37-433a-b648-ba36d1be9f8c",
+      "teamName": "Baby Got Backhand",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "f6f0ea2c-2bce-44a4-b613-04bc751900b9",
+      "teamName": "Court Jesters",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "d8edbc49-c866-4f43-b39b-42b6beb5f0d5",
+      "teamName": "Dink Responsibly",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "de6ba771-a7d8-4b3e-b733-646321e6ae57",
+      "teamName": "Kiss My Ace",
+      "pod": "Overall"
+    }
+  ]
+}

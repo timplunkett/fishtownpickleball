@@ -4235,7 +4235,7 @@
     "with": "Scott Rubin",
     "vs": [
      "Josh Rito",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 16,
@@ -4266,7 +4266,7 @@
     "t": "male",
     "with": "Scott Rubin",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -4299,7 +4299,7 @@
     "with": "Kristy Detore",
     "vs": [
      "Amy Johnson",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 13,
@@ -4314,7 +4314,7 @@
     "t": "male",
     "with": "Art Muth",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -4474,7 +4474,7 @@
     "t": "male",
     "with": "Art Muth",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 27,
@@ -4539,7 +4539,7 @@
     "with": "Cally Kerrigan",
     "vs": [
      "Susan St. Pierre",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 15,
     "a": 21,
@@ -5266,7 +5266,7 @@
     "with": "Bill Brandt",
     "vs": [
      "David Osborne",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 10,
@@ -5330,7 +5330,7 @@
     "with": "Bill Brandt",
     "vs": [
      "David Osborne",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 10,
@@ -7044,7 +7044,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Josh Rito",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 16,
@@ -7059,7 +7059,7 @@
     "t": "male",
     "with": "Richard Demeuse",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -7076,7 +7076,7 @@
     "with": "Kristy Detore",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 23,
     "a": 25,
@@ -7124,7 +7124,7 @@
     "with": "Denise Richmond",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 16,
     "a": 21,
@@ -7155,7 +7155,7 @@
     "t": "male",
     "with": "Art Muth",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -7188,7 +7188,7 @@
     "with": "Jamison Rowles",
     "vs": [
      "Sean O'Connell",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 23,
@@ -9274,7 +9274,7 @@
     "with": "Scott Rubin",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 16,
     "a": 21,
@@ -9322,7 +9322,7 @@
     "with": "Art Muth",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 22,
     "a": 24,
@@ -11096,7 +11096,7 @@
     "with": "Jillian Hart",
     "vs": [
      "Tara Kramer",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 24,
     "a": 26,
@@ -11112,7 +11112,7 @@
     "with": "Eric Berlinger",
     "vs": [
      "Bob Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 14,
@@ -11144,7 +11144,7 @@
     "with": "Robbie Oddy",
     "vs": [
      "David Osborne",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 10,
@@ -11176,7 +11176,7 @@
     "with": "Eric Berlinger",
     "vs": [
      "Bob Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -11208,7 +11208,7 @@
     "with": "Robbie Oddy",
     "vs": [
      "David Osborne",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 10,
@@ -11630,7 +11630,7 @@
     "with": "Art Muth",
     "vs": [
      "Amy Johnson",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 8,
@@ -11982,7 +11982,7 @@
     "with": "Scott Rubin",
     "vs": [
      "Sean O'Connell",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 23,
@@ -12551,7 +12551,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Bill Brandt",
      "Eric Berlinger"
@@ -12615,7 +12615,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Bill Brandt",
      "Eric Berlinger"
@@ -14597,7 +14597,7 @@
     "with": "Bill Brandt",
     "vs": [
      "Bob Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 14,
@@ -14613,7 +14613,7 @@
     "with": "Jillian Hart",
     "vs": [
      "Tara Kramer",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -14645,7 +14645,7 @@
     "with": "Jillian Hart",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -14661,7 +14661,7 @@
     "with": "Bill Brandt",
     "vs": [
      "Bob Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -14677,7 +14677,7 @@
     "with": "Jamie Hahn",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 13,
@@ -15753,7 +15753,7 @@
     "with": "Scott Rubin",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 23,
     "a": 25,
@@ -15785,7 +15785,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Amy Johnson",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 13,
@@ -16887,7 +16887,7 @@
     "with": "Kristen Soucie",
     "vs": [
      "Amy Johnson",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 8,
@@ -16950,7 +16950,7 @@
     "t": "male",
     "with": "Richard Demeuse",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -17094,7 +17094,7 @@
     "t": "male",
     "with": "Richard Demeuse",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 27,
@@ -17126,7 +17126,7 @@
     "t": "male",
     "with": "Scott Rubin",
     "vs": [
-     "Bobby Castellano",
+     "Bob Castellano",
      "John Fallone"
     ],
     "f": 21,
@@ -17143,7 +17143,7 @@
     "with": "Denise Richmond",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 22,
     "a": 24,
@@ -23439,7 +23439,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Robbie Oddy",
      "Bill Brandt"
@@ -23503,7 +23503,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Robbie Oddy",
      "Bill Brandt"
@@ -24329,7 +24329,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Susan St. Pierre",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 15,
     "a": 21,
@@ -26296,7 +26296,7 @@
     "with": "Eric Berlinger",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 13,
@@ -34609,7 +34609,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Cally Kerrigan",
      "Richard Demeuse"
@@ -35826,7 +35826,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Kristen Soucie",
      "Art Muth"
@@ -35874,7 +35874,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Kristy Detore",
      "Richard Demeuse"
@@ -37801,7 +37801,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Jillian Hart",
      "Bill Brandt"
@@ -37817,7 +37817,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Jillian Hart",
      "Eric Berlinger"
@@ -40149,7 +40149,7 @@
     "with": "Bill Brandt",
     "vs": [
      "Tara Kramer",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 24,
     "a": 26,
@@ -40181,7 +40181,7 @@
     "with": "Eric Berlinger",
     "vs": [
      "Tara Kramer",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -40213,7 +40213,7 @@
     "with": "Eric Berlinger",
     "vs": [
      "Juliana Drinane",
-     "Bobby Castellano"
+     "Bob Castellano"
     ],
     "f": 21,
     "a": 15,
@@ -41528,7 +41528,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Scott Rubin",
      "Richard Demeuse"
@@ -41576,7 +41576,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Art Muth",
      "Richard Demeuse"
@@ -41592,7 +41592,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Richard Demeuse",
      "Art Muth"
@@ -41624,7 +41624,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Art Muth",
      "Scott Rubin"
@@ -42068,7 +42068,7 @@
    },
    {
     "pid": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
-    "name": "Bobby Castellano",
+    "name": "Bob Castellano",
     "n": 4,
     "synergy": -1.1
    },
@@ -42277,7 +42277,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Kristy Detore",
      "Scott Rubin"
@@ -42373,7 +42373,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Jillian Hart",
      "Eric Berlinger"
@@ -42405,7 +42405,7 @@
     "wk": 3,
     "opp": "Draft Day Disasters",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Jamie Hahn",
      "Eric Berlinger"
@@ -42421,7 +42421,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Denise Richmond",
      "Scott Rubin"
@@ -42469,7 +42469,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "mixed",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Denise Richmond",
      "Art Muth"
@@ -42806,7 +42806,7 @@
   "partners": [
    {
     "pid": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
-    "name": "Bobby Castellano",
+    "name": "Bob Castellano",
     "n": 5,
     "synergy": 1.8
    },
@@ -43118,7 +43118,7 @@
     "wk": 2,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Scott Rubin",
      "Richard Demeuse"
@@ -44909,7 +44909,7 @@
     "wk": 4,
     "opp": "Color Coordinated Chaos",
     "t": "male",
-    "with": "Bobby Castellano",
+    "with": "Bob Castellano",
     "vs": [
      "Jamison Rowles",
      "Scott Rubin"

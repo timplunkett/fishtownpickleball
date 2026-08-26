@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "4b80b60f-b120-4258-b992-9d17584ef997",
+      "teamName": "Honeydrippers",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "dec1e42f-f2d0-4916-9dec-0df0638501c6",
+      "teamName": "Ladies & Lords of Dinkingham",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "0d998abe-d110-42eb-938a-943c11a2e402",
+      "teamName": "Pickle Bunch",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "c5ed1acf-c33f-4994-ac76-25a354479aca",
+      "teamName": "Spin Doctors",
+      "pod": "Overall"
+    }
+  ]
+}

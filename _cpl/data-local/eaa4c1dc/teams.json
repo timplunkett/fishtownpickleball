@@ -1,0 +1,24 @@
+{
+  "$values": [
+    {
+      "teamId": "6bb0eac9-e347-4729-87de-50a9742cf4d7",
+      "teamName": "Ackley's Aces",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "59fdc79c-d9dc-4b45-ae72-dad0ad003acc",
+      "teamName": "Color Coordinated Chaos",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "6e88ad99-ca75-4eaf-816b-dbbf15bcfb15",
+      "teamName": "Draft Day Disasters",
+      "pod": "Overall"
+    },
+    {
+      "teamId": "cb0bc062-a0e0-4b03-b0e9-76a046ae0f60",
+      "teamName": "The Dill Inquents",
+      "pod": "Overall"
+    }
+  ]
+}
