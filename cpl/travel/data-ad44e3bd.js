@@ -3600,6 +3600,35 @@
    "podName": "East / West"
   },
   {
+   "name": "Pickleball Kingdom Hillsborough",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": "West",
+   "podName": "East / West"
+  },
+  {
    "name": "Pickleball Kingdom Tinton Falls",
    "w": 0,
    "l": 0,
@@ -5737,13 +5766,14 @@
    "West"
   ],
   "podMismatch": {
-   "crossPodMatchups": 20,
+   "crossPodMatchups": 25,
    "totalMatchups": 65,
    "reported": {
     "West": [
      "Flemington Blue",
      "Flemington Green",
      "Montville",
+     "Pickleball Kingdom Hillsborough",
      "Pickleball Lehigh Valley"
     ],
     "East": [
@@ -5760,6 +5790,7 @@
      "Flemington Green",
      "Life Time Red Bank",
      "Montville",
+     "Pickleball Kingdom Hillsborough",
      "Pickleball Kingdom Tinton Falls",
      "Pickleball Lehigh Valley",
      "Picklr Newtown",
