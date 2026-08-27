@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { jsonStringify, expandJson } = require('./modules/json-utils');
 const { writeDuprShards } = require('./modules/dupr-outputs');
-const { sameDuprId } = require('./modules/dupr-warnings');
+const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules/dupr-warnings');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -19,6 +19,14 @@ if (!ACCESS_TOKEN) {
 }
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Logged live, exactly as before, and replayed after the summary table.
+const { messages: warnings, warn } = createWarningLog();
+
+function printWarningReport() {
+  const report = formatWarningReport(warnings);
+  if (report) console.warn(`\n${report}`);
+}
 
 function isNrRating(value) {
   return typeof value === 'string' && value.trim().toUpperCase() === 'NR';
@@ -136,40 +144,40 @@ async function fetchDuprRating(duprId, existingNumericId = null) {
   if (existingNumericId != null) {
     const direct = await getPlayerByNumericId(existingNumericId);
     if (direct.rateLimited) {
-      console.warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
+      warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}): Request rate exceeded`);
       return RATE_LIMITED;
     }
     if (direct.playerMatch) {
       const match = direct.playerMatch;
       // Case alone is not a mismatch — see sameDuprId().
       if (match.duprId && !sameDuprId(match.duprId, duprId)) {
-        console.warn(`[WARN] Profile ${existingNumericId} reports DUPR ID ${match.duprId}, expected ${duprId} — likely a merged account.`);
+        warn(`[WARN] Profile ${existingNumericId} reports DUPR ID ${match.duprId}, expected ${duprId} — likely a merged account.`);
       }
       return resolveMatch(match, existingNumericId);
     }
     if (direct.error) {
-      console.warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}):`, direct.error);
+      warn(`[WARN] Failed direct lookup for DUPR ID ${duprId} (${existingNumericId}):`, direct.error);
     }
-    console.warn(`[WARN] Profile ${existingNumericId} did not resolve; falling back to search for DUPR ID ${duprId}.`);
+    warn(`[WARN] Profile ${existingNumericId} did not resolve; falling back to search for DUPR ID ${duprId}.`);
   }
 
   const search = await searchPlayer(duprId, { duprId });
   if (search.rateLimited) {
-    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
+    warn(`[WARN] Failed lookup for DUPR ID ${duprId}: Request rate exceeded`);
     return RATE_LIMITED;
   }
   if (search.playerMatch) {
     return resolveMatch(search.playerMatch, existingNumericId);
   }
   if (search.error) {
-    console.warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, search.error);
+    warn(`[WARN] Failed lookup for DUPR ID ${duprId}:`, search.error);
   } else if (existingNumericId == null) {
     // Zero-hit SUCCESS: either no such DUPR ID, or an unclaimed (INACTIVE)
     // profile, which the search index omits. Without a numeric ID to read
     // directly, the two are indistinguishable from here.
-    console.warn(`[WARN] No search match for DUPR ID ${duprId}; no numeric ID on file to read directly.`);
+    warn(`[WARN] No search match for DUPR ID ${duprId}; no numeric ID on file to read directly.`);
   } else {
-    console.warn(`[WARN] No search match for DUPR ID ${duprId} either.`);
+    warn(`[WARN] No search match for DUPR ID ${duprId} either.`);
   }
 
   return MISS(existingNumericId ?? null);
@@ -261,9 +269,11 @@ async function run() {
   let shouldStop = false;
 
   const persistAndExit = (signal) => {
-    console.warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
+    warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
     saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
     writeDuprRatingsJs(globalPlayers);
+    // An interrupted run has no summary table, so this is the only replay it gets.
+    printWarningReport();
     process.exit(130);
   };
   process.once('SIGINT', persistAndExit);
@@ -303,7 +313,7 @@ async function run() {
         'Fetched Rating': 'NR (429)',
       });
       if (consecutive429s >= MAX_CONSECUTIVE_429) {
-        console.warn(`\n[WARN] Hit ${MAX_CONSECUTIVE_429} consecutive 429 responses; stopping early.`);
+        warn(`\n[WARN] Hit ${MAX_CONSECUTIVE_429} consecutive 429 responses; stopping early.`);
         shouldStop = true;
         break;
       }
@@ -348,6 +358,7 @@ async function run() {
 
   console.log('\nProcess complete!\n');
   console.table(summary);
+  printWarningReport();
 }
 
 run().catch((err) => {
