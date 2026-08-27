@@ -97,6 +97,7 @@ const elements = {
   pod: getRequiredElement('pod'),
   search: getRequiredElement('search'),
   subhead: getRequiredElement('sub'),
+  standingsView: getRequiredElement('standings-view'),
   swarmHost: getRequiredElement('swarm-host'),
   team: getRequiredElement('team'),
   teams: getRequiredElement('teams'),
@@ -206,6 +207,9 @@ let sortDirection = DEFAULT_SORT.direction;
 let rosterSortKey = 'rating';
 let rosterSortDirection = -1;
 let routeSetByApp = false;
+// 'cards' (pod-grouped) or 'table' (one division-wide ranking). Session-only —
+// every visit starts on the cards, which are the league's own framing.
+let standingsView = 'cards';
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
@@ -551,20 +555,24 @@ function crossPodTag(teamName, opponentName) {
   return ` • <span class="tag cross-pod-tag">Pod: ${escapeHtml(theirPod)}</span>`;
 }
 
-function renderTeams() {
-  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
-  if (podCount <= 1) {
-    elements.teams.innerHTML = DATA.teams
-      .map((team, index) => `
+function teamCard(team, rank) {
+  return `
         <a class="tcard" href="${escapeHtml(teamHref(team.name))}" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
-          <div class="seed">#${index + 1}</div>
+          <div class="seed">#${rank}</div>
           <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
           <div class="go">View team →</div>
         </a>
-      `)
+      `;
+}
+
+function renderTeamCards() {
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  if (podCount <= 1) {
+    elements.teams.innerHTML = DATA.teams
+      .map((team, index) => teamCard(team, index + 1))
       .join('');
     return;
   }
@@ -572,22 +580,97 @@ function renderTeams() {
   // and seed within the pod rather than across the whole division.
   const sections = [];
   for (let p = 1; p <= podCount; p++) {
-    const podTeams = DATA.teams.filter((t) => t.pod === p);
-    const cards = podTeams
-      .map((team, index) => `
-        <a class="tcard" href="${escapeHtml(teamHref(team.name))}" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
-          <div class="seed">#${index + 1}</div>
-          <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
-          <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
-          <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
-          <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
-          <div class="go">View team →</div>
-        </a>
-      `)
+    const cards = DATA.teams
+      .filter((t) => t.pod === p)
+      .map((team, index) => teamCard(team, index + 1))
       .join('');
     sections.push(`<div class="pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3><div class="tgrid">${cards}</div></div>`);
   }
   elements.teams.innerHTML = sections.join('');
+}
+
+// The pod column says the same thing the cards do: the schedule section the card
+// view groups by, plus the league's own regional label where the two differ. An
+// undivided division has a single section that names nothing, so there the
+// reported pod is the whole answer.
+function teamPodCell(team, podCount) {
+  if (podCount > 1) {
+    return `${escapeHtml(podLabel(team.pod))}${reportedPodTag(team)}`;
+  }
+  return team.reportedPod ? escapeHtml(team.reportedPod) : '';
+}
+
+// The card view seeds within a pod, which is what the schedule and playoffs run
+// on but leaves the division leader unstated. This view drops the pod grouping
+// and ranks every team against every other, keeping the pod as a column so the
+// two readings stay reconcilable. DATA.teams already arrives in division order.
+function renderTeamTable() {
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  const podCells = DATA.teams.map((team) => teamPodCell(team, podCount));
+  // A column every team answers the same way sorts nothing and explains nothing.
+  const showPod = new Set(podCells.filter(Boolean)).size > 1;
+  const podHead = showPod ? '<th scope="col" class="l">Pod</th>' : '';
+  const rows = DATA.teams
+    .map((team, index) => {
+      const podCell = showPod ? `<td class="l trow-pod">${podCells[index]}</td>` : '';
+      return `
+        <tr class="trow" data-team="${slugify(team.name)}">
+          <td class="l trow-seed">${index + 1}</td>
+          <td class="l trow-name">
+            <span class="teamdot" style="background:${getTeamColor(team.name)}"></span><a class="pname" href="${escapeHtml(teamHref(team.name))}">${escapeHtml(team.name)}</a>
+          </td>
+          ${podCell}
+          <td class="txt-strong">${team.w}–${team.l}</td>
+          <td>${formatRecordWithPct(team.gw, team.gl)}</td>
+          <td>${team.pf}</td>
+          <td>${team.pa}</td>
+          <td>${formatDiffSpan(team.diff)}</td>
+        </tr>
+      `;
+    })
+    .join('');
+  elements.teams.innerHTML = `
+    <div class="panel scroll stable-wrap">
+      <table class="stable">
+        <thead><tr>
+          <th scope="col" class="l">#</th>
+          <th scope="col" class="l">Team</th>
+          ${podHead}
+          <th scope="col">Matches</th>
+          <th scope="col">Games</th>
+          <th scope="col">PF</th>
+          <th scope="col">PA</th>
+          <th scope="col">+/−</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderTeams() {
+  elements.teams.classList.toggle('teams-table', standingsView === 'table');
+  if (standingsView === 'table') {
+    renderTeamTable();
+  } else {
+    renderTeamCards();
+  }
+}
+
+function renderStandingsViewToggle() {
+  elements.standingsView.querySelectorAll('button[data-view]').forEach((button) => {
+    const on = button.dataset.view === standingsView;
+    button.classList.toggle('on', on);
+    button.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+}
+
+function handleStandingsViewClick(event) {
+  const button = event.target.closest('button[data-view]');
+  if (!button || button.dataset.view === standingsView) return;
+  standingsView = button.dataset.view;
+  renderStandingsViewToggle();
+  renderTeams();
 }
 
 function renderTeamFilterOptions() {
@@ -2144,7 +2227,8 @@ function handleRoute() {
 }
 
 function handleTeamCardClick(event) {
-  const card = event.target.closest('.tcard');
+  // Cards and table rows both carry the slug, so one handler routes either view.
+  const card = event.target.closest('[data-team]');
 
   if (card?.dataset.team) {
     event.preventDefault(); // real href for middle-click; SPA routing for plain clicks
@@ -2395,6 +2479,7 @@ function initialize() {
   renderHeader();
   renderDivisionSelector();
   renderSummary();
+  renderStandingsViewToggle();
   renderTeams();
   renderPlayoffs();
   renderResultsGrid();
@@ -2409,6 +2494,7 @@ function initialize() {
   elements.head.addEventListener('click', handleColumnSort);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
+  elements.standingsView.addEventListener('click', handleStandingsViewClick);
   elements.teamView.addEventListener('click', (event) => {
     if (event.target.closest('.backlink')) {
       event.preventDefault();
