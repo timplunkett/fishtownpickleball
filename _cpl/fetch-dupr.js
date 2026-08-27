@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { jsonStringify, expandJson } = require('./modules/json-utils');
 const { writeDuprShards } = require('./modules/dupr-outputs');
+const { sameDuprId } = require('./modules/dupr-warnings');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -140,7 +141,8 @@ async function fetchDuprRating(duprId, existingNumericId = null) {
     }
     if (direct.playerMatch) {
       const match = direct.playerMatch;
-      if (match.duprId && match.duprId !== duprId) {
+      // Case alone is not a mismatch — see sameDuprId().
+      if (match.duprId && !sameDuprId(match.duprId, duprId)) {
         console.warn(`[WARN] Profile ${existingNumericId} reports DUPR ID ${match.duprId}, expected ${duprId} — likely a merged account.`);
       }
       return resolveMatch(match, existingNumericId);
