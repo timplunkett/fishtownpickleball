@@ -3753,7 +3753,361 @@
    "home": "Montville",
    "away": "Flemington Blue",
    "time": "2026-08-27T10:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Vera Wong",
+      "Janine Thompson"
+     ],
+     "a": [
+      "Kelly Bowers",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jess Cox",
+      "Joanne Rim"
+     ],
+     "a": [
+      "Jo Marie Holzhammer",
+      "Karen Veninger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ani Stone",
+      "Sonu Munshi"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Nancy Cook"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Hope Lo"
+     ],
+     "a": [
+      "Karen Waldon",
+      "Maureen Dazzo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ani Stone",
+      "Jess Cox"
+     ],
+     "a": [
+      "Nancy Cook",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Joanne Rim"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Kelly Bowers"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "San Yang",
+      "Sonu Munshi"
+     ],
+     "a": [
+      "Karen Waldon",
+      "Maureen Dazzo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ly Kim",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Meghan Klein",
+      "Peggy Matzen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jess Cox",
+      "Sonu Munshi"
+     ],
+     "a": [
+      "Maureen Dazzo",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Hope Lo"
+     ],
+     "a": [
+      "Kelly Bowers",
+      "Jessica Wormeck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vera Wong",
+      "Theresa Corderi"
+     ],
+     "a": [
+      "Nancy Cook",
+      "Karen Waldon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ly Kim",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Peggy Matzen",
+      "Karen Veninger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ani Stone",
+      "San Yang"
+     ],
+     "a": [
+      "Karen Waldon",
+      "Nancy Cook"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Hope Lo",
+      "Sonu Munshi"
+     ],
+     "a": [
+      "Karen Veninger",
+      "Kelly Bowers"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jess Cox",
+      "Janine Thompson"
+     ],
+     "a": [
+      "Peggy Matzen",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Theresa Corderi",
+      "Ly Kim"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Joanne Rim",
+      "Sonu Munshi"
+     ],
+     "a": [
+      "Nancy Cook",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vera Wong",
+      "San Yang"
+     ],
+     "a": [
+      "Karen Veninger",
+      "Maureen Dazzo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jess Cox",
+      "Hope Lo"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Peggy Matzen",
+      "Kelly Bowers"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ly Kim",
+      "Janine Thompson"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jess Cox",
+      "Ani Stone"
+     ],
+     "a": [
+      "Maureen Dazzo",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Hope Lo",
+      "Vera Wong"
+     ],
+     "a": [
+      "Peggy Matzen",
+      "Karen Waldon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Theresa Corderi",
+      "Joanne Rim"
+     ],
+     "a": [
+      "Kelly Bowers",
+      "Karen Veninger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janine Thompson",
+      "Vilayvanh Sysounthone"
+     ],
+     "a": [
+      "Karen Waldon",
+      "Karen Veninger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Theresa Corderi",
+      "Ly Kim"
+     ],
+     "a": [
+      "Peggy Matzen",
+      "Maureen Dazzo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ani Stone",
+      "San Yang"
+     ],
+     "a": [
+      "Kelly Bowers",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Joanne Rim",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Nancy Cook",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Hope Lo",
+      "Ani Stone"
+     ],
+     "a": [
+      "Kelly Bowers",
+      "Maureen Dazzo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janine Thompson",
+      "San Yang"
+     ],
+     "a": [
+      "Karen Veninger",
+      "Meghan Klein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vera Wong",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Nancy Cook",
+      "Peggy Matzen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Joanne Rim"
+     ],
+     "a": [
+      "Jessica Wormeck",
+      "Karen Waldon"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -4131,7 +4485,361 @@
    "home": "Picklr Newtown",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-08-27T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Esha Gajjar",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lori Wild",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Mcdannell",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suzi French",
+      "Heather Waters"
+     ],
+     "a": [
+      "Susana Palumbo",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Esha Gajjar",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lori Wild",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Tina Cros",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Chiti Joshi",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jacqueline Ho",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Debbie Pall",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suzi French",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Holli Lish",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Chiti Joshi",
+      "Lori Wild"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Esha Gajjar"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Deborah Muschio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sulyn Kulick",
+      "Holli Lish"
+     ],
+     "a": [
+      "Tina Cros",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Mcdannell",
+      "Heather Waters"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Esha Gajjar",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lori Wild",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suzi French",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Esha Gajjar",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Mcgowan",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lori Wild",
+      "Suzi French"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Heather Waters",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jacqueline Ho",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Esha Gajjar",
+      "Lori Wild"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suzi French",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Tina Cros",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lori Wild",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Corinne Palma"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Mcgowan",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Kathleen Lynch",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginie Boutin",
+      "Esha Gajjar"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sulyn Kulick",
+      "Heather Waters"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Debbie Pall"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -4707,7 +5415,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-26";
+  DATA.meta.asOf = "2026-08-27";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

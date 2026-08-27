@@ -14324,6 +14324,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Mark Vanarendonk",
+   "playerId": "7d118eb0-a3f3-4932-a637-1e9fcb986ff9",
+   "team": "Allstar Pickler",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Mark Waters",
    "playerId": "1baee0ad-faae-4c61-894a-a347710fdfea",
    "team": "APC Garden State",
@@ -15147,6 +15154,13 @@ window.DUPR_AUDIT = {
    "playerId": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Michael Barry",
+   "playerId": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
+   "team": "PickleRage Union County",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {
