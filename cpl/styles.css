@@ -16,6 +16,16 @@
   --shadow: 0 8px 24px rgb(0 0 0 / 35%);
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --page-padding: 18px;
+  /* Height of the sticky contents strip, measured and set by app.js. Anything
+     else that sticks to the top of the viewport, and anything a fragment link
+     scrolls to, has to clear it — and it wraps to two rows on a narrow screen,
+     so the number can't be a constant here. 0 until the strip exists. */
+  --toc-height: 0px;
+  /* Height of one section's sticky heading, set per section by app.js so the
+     column headers inside it stack below rather than behind it. Headings wrap
+     at different widths and hold different numbers of tags, so every section
+     gets its own value. */
+  --section-head-height: 0px;
 }
 
 * {
@@ -83,6 +93,186 @@ h2 {
   margin: 34px 0 12px;
   font-size: 18px;
   letter-spacing: -0.01em;
+}
+
+/* --- Major sections: contents strip and collapse toggles ------------------ */
+
+/* Sticky, so the way back up the page is always one click away — the reason the
+   sections at the bottom were unreachable in the first place. */
+.section-toc {
+  position: sticky;
+  top: 0;
+  /* Above the grid's own sticky headers (2–4) and the beeswarm tooltip (5),
+     below the player modal (50). */
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  align-items: center;
+  margin: 18px 0 0;
+  padding: 8px 0;
+  /* Translucent rather than flat var(--bg): at rest the body's radial gradient
+     is still visibly lighter than --bg behind the strip, and an opaque band
+     there reads as a seam. Blur keeps it legible once content scrolls under. */
+  background: rgb(14 17 22 / 86%);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.section-toc a {
+  padding: 4px 10px;
+  color: var(--txt);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.section-toc a:hover,
+.section-toc a:focus-visible {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* A collapsed section keeps its entry, dimmed — the link opens it on the way. */
+.section-toc a.toc-collapsed {
+  color: var(--mut);
+  background: none;
+  border-style: dashed;
+}
+
+.section-toc .toc-bulk,
+.section-toc .toc-top {
+  padding: 4px 10px;
+  color: var(--mut);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+/* Collapse all sits at the far end; Top leads, in the slot the "Jump to" label
+   used to hold — it is a destination like the rest of the strip, just the one
+   above every section. */
+.section-toc .toc-bulk {
+  margin-left: auto;
+}
+
+.section-toc .toc-bulk:hover,
+.section-toc .toc-top:hover {
+  color: var(--txt);
+  border-color: var(--accent);
+}
+
+.section-toc .toc-top:focus-visible,
+.section-toc .toc-bulk:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Clear of the sticky contents strip when a fragment link scrolls one into view. */
+.msec {
+  scroll-margin-top: calc(var(--toc-height) + 10px);
+}
+
+.msec .wk-block {
+  scroll-margin-top: calc(var(--toc-height) + 12px);
+}
+
+/* A team page has no contents strip, so its blocks only need breathing room. */
+#teamview .wk-block {
+  scroll-margin-top: 16px;
+}
+
+/* Each section's heading sticks below the contents strip, so the section you are
+   reading names itself the whole way down. Its sticky range is its own section,
+   so it hands over to the next heading rather than piling up. The bottom margin
+   becomes padding: a margin on a stuck element leaves a gap for content to show
+   through underneath it. */
+.msec > h2 {
+  position: sticky;
+  top: var(--toc-height);
+  /* Over the column headers below it (1–4), under the contents strip (10). */
+  z-index: 6;
+  margin-bottom: 0;
+  padding: 3px 0 11px;
+  background: rgb(14 17 22 / 90%);
+  backdrop-filter: blur(8px);
+}
+
+/* The heading text itself is the collapse control, so it has to keep looking
+   like the heading: the h2's own size and weight, with a marker in front. */
+.sec-toggle {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: 0;
+}
+
+.sec-toggle::before {
+  content: '▾';
+  color: var(--mut);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.msec.collapsed .sec-toggle::before {
+  content: '▸';
+}
+
+.sec-toggle:hover {
+  color: var(--accent);
+}
+
+.sec-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Nothing below it to leave room for. */
+.msec.collapsed > h2 {
+  padding-bottom: 3px;
+}
+
+/* Says which of a dozen identical match blocks a deep link landed on. */
+.fragment-flash {
+  animation: fragment-flash 1.8s ease-out;
+}
+
+@keyframes fragment-flash {
+  0%,
+  35% {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgb(29 178 220 / 45%);
+  }
+
+  100% {
+    border-color: var(--line);
+    box-shadow: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fragment-flash {
+    animation-duration: 0.01s;
+    border-color: var(--accent);
+  }
 }
 
 footer {
@@ -164,8 +354,110 @@ footer {
   border-radius: var(--radius-lg);
 }
 
-.scroll {
+/* Wrappers scroll sideways, as they always have. This is the default on purpose:
+   styles.css is shared with pages that never load the dashboard script — the
+   DUPR audit uses .scroll and has no app.js — so a table has to stay reachable
+   with no JavaScript at all. Note that overflow-y computes to auto alongside it,
+   making the wrapper a scroll container in both axes, and there is no height cap:
+   the wrapper is as tall as its content, so no vertical scrollbar can appear.
+   A box scrolling two ways inside a page scrolling one way is worse than the
+   problem it would solve. */
+.scroll,
+.grid-wrap {
   overflow-x: auto;
+}
+
+/* app.js marks the wrappers whose table does fit the page, which is what lets
+   their column header stick: a scroll container is what `position: sticky`
+   inside it resolves against, and this is the one thing that stops the wrapper
+   being one. The enhancement is opt-in, so nothing regresses without it. */
+.scroll.scroll-fits,
+.grid-wrap.scroll-fits {
+  overflow: visible;
+}
+
+/* Below the contents strip and the section heading, both measured by app.js. */
+.scroll.scroll-fits thead th,
+.grid-wrap.scroll-fits thead th {
+  position: sticky;
+  top: calc(var(--toc-height) + var(--section-head-height));
+}
+
+/* A wrapper still scrolling keeps its header in flow — sticky inside a box that
+   scrolls only sideways is displacement, not stickiness: the header would sit
+   the offset's distance down the table, over the first row of results. .float-head
+   below is what stays visible there. Nothing to undo here, because `thead th`
+   no longer positions itself. */
+
+/* The panel's rounded corners clipped the header bar while the wrapper had a
+   non-visible overflow. Without that clipping the bar has to round itself. */
+.scroll.scroll-fits thead th:first-child {
+  border-top-left-radius: var(--radius-lg);
+}
+
+.scroll.scroll-fits thead th:last-child {
+  border-top-right-radius: var(--radius-lg);
+}
+
+/* A mirrored column header for a table too wide to fit the page. Fixed, so it
+   needs no room in the layout and no ancestor can clip it, and shown only while
+   the real header has scrolled above the sticky ceiling. Its own overflow is
+   hidden and its scrollLeft is slaved to the wrapper's, so the columns track
+   the real ones sideways and a sticky row header inside it still pins left. */
+.float-heads {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4; /* below the section heading it sits under, and the strip above that */
+}
+
+/* Scrollable itself, and in both directions of sync with the wrapper: the
+   wrapper's own scrollbar is at the foot of a table that can be a thousand
+   pixels tall, so the header you are reading is the only handle within reach of
+   the columns you are trying to see. Its scrollbar is hidden — it would eat the
+   band and duplicate the one at the bottom of the table. */
+.float-head {
+  position: fixed;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  /* The page background, not the header's own. The grid is border-collapse:
+     separate with 4px of border-spacing, so there are gaps between its header
+     cells, and in the real grid those gaps show the page through them. Painting
+     the box in the header colour instead drew a lighter seam around every cell.
+     A .scroll table's header tiles its full width, so this is never visible
+     there. Opaque either way — the rows scrolling underneath must not show. */
+  background: var(--bg);
+  box-shadow: 0 6px 14px rgb(0 0 0 / 30%);
+}
+
+.float-head::-webkit-scrollbar {
+  display: none;
+}
+
+.float-head table {
+  /* Widths are copied cell by cell from the real header, so the mirror must
+     honour them rather than re-fitting to its own content. */
+  table-layout: fixed;
+}
+
+/* The .grid-wrap a mirrored grid header sits inside is there only to satisfy the
+   `.grid-wrap th…` rules that style those cells. It must not become a scrollport
+   of its own: the box outside it is what the mirror's scrollLeft and the sticky
+   row band below resolve against. Inherited from `.scroll, .grid-wrap` already,
+   and stated here because the whole arrangement depends on it. */
+.float-head .grid-wrap {
+  overflow: visible;
+}
+
+/* A mirrored grid keeps its corner cell pinned left, exactly as the real one
+   does — the box it is in is a horizontal scrollport, so the same declaration
+   works. Above the column band, which is above everything scrolling under it. */
+.float-head .grid-wrap thead th.row {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  background: var(--bg);
 }
 
 .controls {
@@ -429,9 +721,11 @@ td.l {
   text-align: left;
 }
 
+/* Stickiness lives with the wrapper rules above, which know whether this table
+   is inside a scroll container. z-index here so body rows pass underneath it
+   whichever way it is positioned. */
 thead th {
-  position: sticky;
-  top: 0;
+  z-index: 1;
   color: var(--mut);
   font-size: 11px;
   font-weight: 700;
@@ -1293,11 +1587,10 @@ thead th:focus-visible,
   }
 }
 
-/* Head-to-head results grid */
-.grid-wrap {
-  overflow-x: auto;
-}
-
+/* Head-to-head results grid. Its overflow is declared once, up with .scroll —
+   a second declaration here re-latched it as a scroll container behind the
+   .scroll-fits class, which turned the sticky offset on its column headers into
+   pure displacement and parked them over the first row of results. */
 .grid-wrap table {
   /* Size to content so the row-header column doesn't absorb the leftover
      width and push the cells away from the team names. */
@@ -1316,19 +1609,23 @@ thead th:focus-visible,
 
 /* Both header bands stick, so a 21-column matrix still says which team and which
    opponent a cell belongs to once it has been scrolled away from its edges. The
-   background is opaque because the cells scroll underneath, and the row header
-   outranks the column header at the corner where the two cross. */
+   backgrounds are opaque because the cells scroll underneath.
+   `top` comes from the wrapper rules; only the paint order belongs here — and
+   the order is column band over row band, with the corner over both, since a
+   row header scrolling upward now passes behind the column headers rather than
+   through them. */
 .grid-wrap thead th {
-  position: sticky;
-  top: 0;
-  z-index: 2;
+  z-index: 3;
   background: var(--bg);
 }
 
+/* The row header sticks left in a scrolling grid — that is the band this whole
+   arrangement exists for. In an unlatched wrapper there is no horizontal scroll
+   for it to resolve against, so it simply stays where it is. */
 .grid-wrap th.row {
   position: sticky;
   left: 0;
-  z-index: 3;
+  z-index: 2;
   text-align: left;
   background: var(--bg);
 }
@@ -1620,7 +1917,8 @@ thead th:focus-visible,
      the five or six opponents a grid held when it was written, unreadable at the
      18 and 21 the pods reach now (a 375px phone gave each column 15px). A cell
      has a floor below which it says nothing, so past that the grid has to be
-     wider than the screen and .grid-wrap's overflow-x has to carry it. The
+     wider than the screen and .grid-wrap's overflow-x has to carry it — which
+     on a phone it always will, so .scroll-fits never applies here. The
      sticky row header is what makes that scroll navigable. */
   .grid-wrap table {
     width: auto;
@@ -1667,10 +1965,8 @@ thead th:focus-visible,
 }
 
 /* ─── Playoffs section ─────────────────────────────────────────────── */
-#playoffs-host h2 {
-  margin-top: 32px;
-}
-
+/* The heading is a sibling in index.html now, styled with the other section
+   headings; only the bracket itself is rendered into #playoffs-host. */
 .playoff-bracket {
   display: flex;
   flex-wrap: wrap;

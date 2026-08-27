@@ -22,25 +22,50 @@
   </header>
 
   <div id="mainview">
-  <h2>Team Standings <span class="tag">by match record, then game record, then point differential • click a team for its page</span>
+  <nav class="section-toc" id="section-toc" aria-label="Jump to a section"></nav>
+
+  <section class="msec" id="team-standings">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="team-standings-body"><span class="sec-name">Team Standings</span></button>
+    <span class="tag">by match record, then game record, then point differential • click a team for its page</span>
     <div class="viewtoggle" id="standings-view" role="group" aria-label="Team standings view">
       <button type="button" data-view="cards" aria-pressed="true">Cards</button>
       <button type="button" data-view="table" aria-pressed="false">Table</button>
     </div>
   </h2>
-  <div class="teams" id="teams"></div>
+  <div class="msec-body" id="team-standings-body">
+    <div class="teams" id="teams"></div>
+  </div>
+  </section>
 
-  <div id="playoffs-host" hidden></div>
+  <section class="msec" id="playoffs" hidden>
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="playoffs-host"><span class="sec-name">Playoffs</span></button>
+    <span class="tag">knockout bracket</span>
+  </h2>
+  <div class="msec-body" id="playoffs-host"></div>
+  </section>
 
-  <h2>Head-to-Head <span class="tag">game record &amp; net point differential • click a cell for a team page</span>
+  <section class="msec" id="head-to-head">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="head-to-head-body"><span class="sec-name">Head-to-Head</span></button>
+    <span class="tag">game record &amp; net point differential • click a cell for that matchup</span>
     <div class="viewtoggle" id="grid-view" role="group" aria-label="Head-to-head view">
       <button type="button" data-gridview="weeks" aria-pressed="true">By week</button>
       <button type="button" data-gridview="matrix" aria-pressed="false">Matrix</button>
     </div>
   </h2>
-  <div class="grid-wrap" id="grid-host"></div>
+  <div class="msec-body" id="head-to-head-body">
+    <div class="grid-wrap" id="grid-host"></div>
+  </div>
+  </section>
 
-  <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
+  <section class="msec" id="player-leaderboard">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="player-leaderboard-body"><span class="sec-name">Player Leaderboard</span></button>
+    <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span>
+  </h2>
+  <div class="msec-body" id="player-leaderboard-body">
   <details class="explainer" id="rating-explainer">
     <summary>How the Rating works</summary>
     <div class="body">
@@ -89,19 +114,35 @@
   <div class="panel scroll">
     <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
   </div>
-
-  <h2>Rating Distribution <span class="tag">every rated player • hover a dot • click to open • dot opacity = confidence</span> <a class="tag" href="#rating-explainer">how the Rating works ↑</a></h2>
-  <div class="panel swarm-panel">
-    <div class="swarm-host" id="swarm-host"></div>
   </div>
+  </section>
 
-  <h2>Top Duos <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span></h2>
-  <div class="panel scroll">
-    <table id="duotbl"><thead><tr>
-      <th class="l">#</th><th class="l">Pair</th><th class="l">Team</th><th>Together</th><th>W–L</th>
-      <th>Synergy</th><th>Actual/g</th><th>Expected/g</th>
-    </tr></thead><tbody id="duobody"></tbody></table>
+  <section class="msec" id="rating-distribution">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="rating-distribution-body"><span class="sec-name">Rating Distribution</span></button>
+    <span class="tag">every rated player • hover a dot • click to open • dot opacity = confidence</span> <a class="tag" href="#rating-explainer">how the Rating works ↑</a>
+  </h2>
+  <div class="msec-body" id="rating-distribution-body">
+    <div class="panel swarm-panel">
+      <div class="swarm-host" id="swarm-host"></div>
+    </div>
   </div>
+  </section>
+
+  <section class="msec" id="top-duos">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="top-duos-body"><span class="sec-name">Top Duos</span></button>
+    <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span>
+  </h2>
+  <div class="msec-body" id="top-duos-body">
+    <div class="panel scroll">
+      <table id="duotbl"><thead><tr>
+        <th class="l">#</th><th class="l">Pair</th><th class="l">Team</th><th>Together</th><th>W–L</th>
+        <th>Synergy</th><th>Actual/g</th><th>Expected/g</th>
+      </tr></thead><tbody id="duobody"></tbody></table>
+    </div>
+  </div>
+  </section>
   </div><!-- /mainview -->
 
   <div id="teamview" hidden></div>

@@ -78,6 +78,45 @@ const {
   escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex, buildTeamAbbreviations,
 } = window.CPLShared;
 
+// Remembered view preferences: which sections you left collapsed, and which of
+// the two standings / head-to-head views you read in. Everything here is a
+// presentational choice you made about this page — no identifier, no personal
+// data, nothing shared with any other origin or sent anywhere — so it is
+// functional storage rather than tracking, and needs no consent banner under
+// GDPR or the ePrivacy directive. localStorage rather than a cookie for the same
+// reason: it never travels with a request.
+//
+// One key for the whole origin, deliberately not per division: a reader who
+// collapses Top Duos means it for the league, not for one division's page.
+const PREFS_STORAGE_KEY = 'cpl.ui.v1';
+
+function readPrefs() {
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(PREFS_STORAGE_KEY) || 'null');
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    // Private browsing, storage disabled by policy, or a value some older
+    // version wrote that no longer parses. The page works without it.
+    return {};
+  }
+}
+
+let prefs = readPrefs();
+
+function writePrefs(patch) {
+  prefs = { ...prefs, ...patch };
+  try {
+    window.localStorage.setItem(PREFS_STORAGE_KEY, JSON.stringify(prefs));
+  } catch {
+    // Quota or a blocked store. The choice still applies for this visit; it
+    // just won't survive it.
+  }
+}
+
+function collapsedSectionIds() {
+  return Array.isArray(prefs.collapsed) ? prefs.collapsed : [];
+}
+
 // Hand-written abbreviations, for the cases the algorithm gets right but reads
 // badly. `label` is the header form, `code` the cell chip; either may be given
 // alone. An override is applied before uniqueness is resolved, so the rest of
@@ -105,8 +144,10 @@ const elements = {
   overlay: getRequiredElement('overlay'),
   playerCount: getRequiredElement('plabel'),
   playoffsHost: getRequiredElement('playoffs-host'),
+  playoffsSection: getRequiredElement('playoffs'),
   pod: getRequiredElement('pod'),
   search: getRequiredElement('search'),
+  sectionToc: getRequiredElement('section-toc'),
   subhead: getRequiredElement('sub'),
   standingsView: getRequiredElement('standings-view'),
   swarmHost: getRequiredElement('swarm-host'),
@@ -196,14 +237,29 @@ function isActivationKey(event) {
   return event.key === 'Enter' || event.key === ' ';
 }
 
+// The fragment the page is currently showing, carried across in-page route
+// changes so opening and closing a player modal doesn't lose the match block a
+// team page was deep-linked to.
+function currentFragment() {
+  const raw = window.location.hash.slice(1);
+  if (!raw) return '';
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+}
+
 // href for a team page that preserves the current division selection, so team
 // cards and grid cells are real links (middle-click / open-in-new-tab work).
-function teamHref(teamName) {
+// `fragment` deep-links into the page: a head-to-head cell knows which match it
+// is about, and lands on that match's block rather than at the top of the team.
+function teamHref(teamName, fragment = '') {
   const url = new URL(window.location.href);
   url.searchParams.set('team', slugify(teamName));
   url.searchParams.delete('player');
-  url.hash = '';
-  return `${url.pathname}${url.search}`;
+  url.hash = fragment ? `#${fragment}` : '';
+  return `${url.pathname}${url.search}${url.hash}`;
 }
 
 function playerHref(player) {
@@ -238,9 +294,11 @@ let sortDirection = DEFAULT_SORT.direction;
 let rosterSortKey = 'rating';
 let rosterSortDirection = -1;
 let routeSetByApp = false;
-// 'cards' (pod-grouped) or 'table' (one division-wide ranking). Session-only —
-// every visit starts on the cards, which are the league's own framing.
-let standingsView = 'cards';
+// 'cards' (pod-grouped) or 'table' (one division-wide ranking). Cards are the
+// league's own framing and stay the default, but the choice is remembered: a
+// reader who prefers the flat ranking prefers it on the next division too, and
+// re-picking it on every page was the friction that outweighed the clean start.
+let standingsView = prefs.standingsView === 'table' ? 'table' : 'cards';
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
@@ -331,7 +389,7 @@ function setRouteInUrl(route, { replace = false } = {}) {
   } else {
     url.searchParams.delete('player');
   }
-  url.hash = '';
+  url.hash = route.hash ? `#${route.hash}` : '';
   const nextUrl = url.toString();
   const currentUrl = window.location.href;
   if (nextUrl === currentUrl) {
@@ -471,6 +529,514 @@ function getPlayerRatingHistory(player) {
 function getLatestRatingSnapshot(player) {
   const history = getPlayerRatingHistory(player);
   return history.length ? history[history.length - 1] : null;
+}
+
+// --- Major sections: collapse state, table of contents, fragment links -------
+//
+// The dashboard is five or six full-width sections deep, and the ones at the
+// bottom (Rating Distribution, Top Duos) were effectively undiscoverable — you
+// had to already know they were there to scroll that far. Each section now has
+// a stable id, a heading that collapses it, and an entry in a sticky table of
+// contents. Collapsing is what makes the whole page reachable without paging
+// through the Player Leaderboard.
+//
+// Sections are read out of the DOM rather than listed here: a new
+// <section class="msec"> with an id and a `.sec-name` heading gets a contents
+// entry and a collapse toggle by existing.
+
+function getSections() {
+  return [...elements.mainView.querySelectorAll('section.msec')];
+}
+
+function sectionLabel(section) {
+  const name = section.querySelector('.sec-name');
+  return (name && name.textContent.trim()) || section.id;
+}
+
+function isSectionCollapsed(section) {
+  return collapsedSectionIds().includes(section.id);
+}
+
+function applySectionState(section) {
+  const collapsed = isSectionCollapsed(section);
+  const toggle = section.querySelector('.sec-toggle');
+  const body = section.querySelector('.msec-body');
+  section.classList.toggle('collapsed', collapsed);
+  if (toggle) toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+  if (body) body.hidden = collapsed;
+}
+
+function setSectionCollapsed(section, collapsed) {
+  const ids = new Set(collapsedSectionIds());
+  if (collapsed) {
+    ids.add(section.id);
+  } else {
+    ids.delete(section.id);
+  }
+  writePrefs({ collapsed: [...ids] });
+  applySectionState(section);
+  renderSectionToc();
+  // The bulk button's label changes width, which can change how the strip
+  // wraps; and a body that was hidden a moment ago could not be measured for
+  // overflow, so its table needs re-measuring now that it is on screen.
+  refreshStickyLayout();
+}
+
+// The contents strip. A collapsed section still gets an entry — marked as such,
+// because a link that silently opens what it points at is friendlier than one
+// that vanishes when you put the section away.
+function renderSectionToc() {
+  const sections = getSections().filter((section) => !section.hidden);
+  if (!sections.length) {
+    elements.sectionToc.hidden = true;
+    elements.sectionToc.innerHTML = '';
+    return;
+  }
+  const links = sections.map((section) => {
+    const collapsed = isSectionCollapsed(section);
+    const className = collapsed ? ' class="toc-collapsed"' : '';
+    const title = collapsed ? ' title="Collapsed — opens when you jump to it"' : '';
+    return `<a href="#${section.id}"${className}${title}>${escapeHtml(sectionLabel(section))}</a>`;
+  }).join('');
+  const anyExpanded = sections.some((section) => !isSectionCollapsed(section));
+  const bulkAction = anyExpanded ? 'collapse' : 'expand';
+  const bulkLabel = anyExpanded ? 'Collapse all' : 'Expand all';
+  // The strip is sticky, so it is also the way back up — the header, the
+  // division selector and the summary all live above the first section and have
+  // no entry of their own.
+  elements.sectionToc.innerHTML =
+    '<button type="button" class="toc-top" data-toc-top="1" title="Back to the top of the page">↑ Top</button>' +
+    `${links}` +
+    `<button type="button" class="toc-bulk" data-bulk="${bulkAction}">${bulkLabel}</button>`;
+  elements.sectionToc.hidden = false;
+}
+
+// Back to the header, and to a URL with no fragment left in it — otherwise a
+// reload or a shared link would drop straight back to the section just left.
+function scrollToPageTop() {
+  const url = new URL(window.location.href);
+  if (url.hash) {
+    url.hash = '';
+    history.replaceState(null, '', url.toString());
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// --toc-height carries the strip's measured height to the stylesheet, which uses
+// it for scroll-margin and for anything else sticky at the top of the viewport.
+// Measured rather than assumed: the strip wraps to two rows on a narrow screen,
+// and it isn't on the page at all while a team page is showing.
+// The contents strip's height, kept so the scroll handler has it without
+// re-measuring. Each section's heading height goes onto the section as a custom
+// property instead, because it is the stylesheet that needs that one.
+const stickyOffsets = { toc: 0 };
+
+function syncStickyOffset() {
+  const visible = !elements.sectionToc.hidden && !elements.mainView.hidden;
+  const height = visible
+    ? Math.round(elements.sectionToc.getBoundingClientRect().height)
+    : 0;
+  stickyOffsets.toc = height;
+  document.documentElement.style.setProperty('--toc-height', `${height}px`);
+
+  // Each section's own heading height, so the column headers inside it stack
+  // below it rather than behind it. Set on the section, which is where the
+  // custom property has to live to be inherited by the table.
+  getSections().forEach((section) => {
+    const heading = section.querySelector('h2');
+    const headHeight = heading && !section.hidden && !isSectionCollapsed(section)
+      ? Math.round(heading.getBoundingClientRect().height)
+      : 0;
+    section.style.setProperty('--section-head-height', `${headHeight}px`);
+  });
+}
+
+// How far down the viewport the sticky bars reach above a given element: the
+// contents strip everywhere, plus the heading of the section it is in.
+//
+// Read off the heading's own rendered bottom rather than added up from the two
+// measured heights. It is exact, so there is no pair of rounded numbers to leave
+// a hairline of scrolling content showing between the heading and whatever sits
+// under it; and it stays right at the end of a section, where the heading
+// unsticks and rides up out of the way — anything anchored to it follows,
+// instead of hanging where the heading used to be.
+function stickyCeilingFor(element) {
+  const section = element.closest('section.msec');
+  const heading = section ? section.querySelector('h2') : null;
+  if (!heading) return stickyOffsets.toc;
+  return Math.max(stickyOffsets.toc, Math.round(heading.getBoundingClientRect().bottom));
+}
+
+// A table only needs a horizontal scroll container when it is actually wider
+// than the page. While it has one, that container — not the viewport — is what
+// `position: sticky` inside it resolves against, so a sticky column header can
+// only stick to a box that never scrolls vertically, i.e. not at all. Measuring
+// which wrappers really overflow and unlatching the rest is what lets their
+// headers stick under the contents strip, and it beats guessing a breakpoint:
+// whether the Player Leaderboard overflows depends on the window, the font and
+// how many columns the division has.
+function syncScrollWrappers() {
+  // Only the view on screen: a hidden one measures zero and would be filed as
+  // fitting, so both views get re-measured as they are shown.
+  const host = elements.mainView.hidden ? elements.teamView : elements.mainView;
+  host.querySelectorAll('.scroll, .grid-wrap').forEach((wrapper) => {
+    // Measured as it stands. scrollWidth reports overflowing content whether or
+    // not the wrapper is currently clipping, so the class never has to come off
+    // to take a reading — and it must not, because dropping a wrapper's overflow
+    // dismantles its scroll container and discards its scrollLeft. A table that
+    // is scrolling keeps the class it already has, so a resize, a sort, a
+    // collapse or a keystroke in the search box leaves the reader's column
+    // alone. The extra pixel absorbs sub-pixel table widths.
+    const fits = wrapper.scrollWidth <= wrapper.clientWidth + 1;
+    wrapper.classList.toggle('scroll-fits', fits);
+  });
+}
+
+// --- Mirrored column headers ------------------------------------------------
+//
+// A wrapper that has to scroll sideways is a scroll container, and a scroll
+// container is what `position: sticky` inside it resolves against — so its own
+// column header can never stick to the viewport, whatever offset it is given.
+// The alternative was to cap the wrapper's height so it scrolled vertically too
+// and the header had something to stick to, which works and is horrible: a box
+// scrolling in two directions inside a page scrolling in one.
+//
+// So the header is mirrored instead. A fixed copy is drawn at the sticky
+// ceiling while the real one is above it, with the real column widths copied
+// cell by cell and its scrollLeft slaved to the wrapper's. The page keeps one
+// scrollbar and the table keeps its full height.
+//
+// Only .scroll wrappers, which hold one table each. The head-to-head grid can
+// render several tables into one wrapper and carries a left-sticking row band of
+// its own; mirroring that is a bigger job than the header is worth, so a grid
+// too wide to fit keeps its header in flow, as it always did.
+const mirroredHeaders = [];
+let mirrorHost = null;
+let mirrorFrame = 0;
+
+function getMirrorHost() {
+  if (!mirrorHost) {
+    mirrorHost = document.createElement('div');
+    mirrorHost.className = 'float-heads';
+    document.body.appendChild(mirrorHost);
+  }
+  return mirrorHost;
+}
+
+function clearMirroredHeaders() {
+  mirroredHeaders.forEach((mirror) => {
+    mirror.wrapper.removeEventListener('scroll', scheduleMirrorPlacement);
+    mirror.box.remove();
+  });
+  mirroredHeaders.length = 0;
+}
+
+// Replays a click on the mirror onto the real header cell in the same column, so
+// whatever delegated handler owns that table — sorting the leaderboard, sorting
+// a roster — sees the click it expects. The mirror is a copy, not a control.
+function forwardMirrorClick(mirror, event) {
+  const cell = event.target.closest('th');
+  if (!cell) return;
+  const index = [...mirror.row.children].indexOf(cell);
+  const original = mirror.sourceRow.children[index];
+  if (original) original.click();
+}
+
+// Every table that needs a mirror: one per latched wrapper, except the
+// head-to-head grid, where a wrapper holds a table per pod section and each
+// needs its own. Keying on tables rather than wrappers is what lets the grid in
+// — two tables in one wrapper can never both be crossing the ceiling, so at
+// most one of their mirrors is ever showing.
+function mirrorTargets() {
+  const host = elements.mainView.hidden ? elements.teamView : elements.mainView;
+  return [...host.querySelectorAll('.scroll:not(.scroll-fits), .grid-wrap:not(.scroll-fits)')]
+    .flatMap((wrapper) => [...wrapper.querySelectorAll('table')]
+      .map((table) => ({ wrapper, table })));
+}
+
+function buildMirroredHeader({ wrapper, table }) {
+  const sourceRow = table.querySelector('thead tr');
+  if (!sourceRow || !sourceRow.children.length) return;
+
+  const box = document.createElement('div');
+  box.className = 'float-head';
+  box.hidden = true;
+  // A copy, not a second header: a screen reader should walk the real one once,
+  // not two identical column-header rows. tabindex="-1" below keeps the copy out
+  // of the tab order; this keeps it out of the accessibility tree.
+  box.setAttribute('aria-hidden', 'true');
+  // The grid's header cells are styled through `.grid-wrap th` descendant
+  // selectors — padding, border spacing, the row band's sticky left, and a
+  // phone's narrower version of all three. Reproducing those for the mirror
+  // would be a second copy to keep in step, so the mirror gets a `.grid-wrap` of
+  // its own to sit inside instead. On an inner element rather than on the box:
+  // that class also carries `overflow: visible`, and the box's own overflow is
+  // what both its scrollLeft and the sticky row band depend on.
+  let mount = box;
+  if (wrapper.classList.contains('grid-wrap')) {
+    const inner = document.createElement('div');
+    inner.className = 'grid-wrap';
+    box.appendChild(inner);
+    mount = inner;
+  }
+
+  const mirrorTable = document.createElement('table');
+  // The same classes, so the same CSS reaches the copied cells.
+  mirrorTable.className = table.className;
+  const head = document.createElement('thead');
+  const row = sourceRow.cloneNode(true);
+  // No duplicate ids, and no second set of tab stops: a keyboard user reaches
+  // the real header, which is the one that owns the behaviour.
+  row.removeAttribute('id');
+  row.querySelectorAll('[id]').forEach((node) => node.removeAttribute('id'));
+  row.querySelectorAll('[tabindex]').forEach((node) => node.setAttribute('tabindex', '-1'));
+  head.appendChild(row);
+  mirrorTable.appendChild(head);
+  mount.appendChild(mirrorTable);
+  getMirrorHost().appendChild(box);
+
+  const mirror = { wrapper, table, sourceRow, box, mirrorTable, row, syncing: false };
+  box.addEventListener('click', (event) => forwardMirrorClick(mirror, event));
+  wrapper.addEventListener('scroll', scheduleMirrorPlacement, { passive: true });
+  // The mirror scrolls the table, not just the other way round. Without this the
+  // only handle on a table's horizontal scroll is the scrollbar at the very
+  // bottom of it — a thousand pixels below the columns you are trying to reach —
+  // so the header you are looking at is made the handle. The guard is against
+  // the two nudging each other back and forth.
+  box.addEventListener('scroll', () => {
+    if (mirror.syncing) return;
+    mirror.syncing = true;
+    wrapper.scrollLeft = box.scrollLeft;
+    mirror.syncing = false;
+  }, { passive: true });
+  mirroredHeaders.push(mirror);
+}
+
+// The signature of what is currently mirrored: which wrappers, and the markup of
+// each header row. A filter or a re-sort replaces the table under the wrapper, so
+// the mirror has to be rebuilt when the header's own markup changes — a sort
+// moves the `sorted` class. Typing in the search box does not touch it, and
+// `render` runs on every keystroke, so the difference is worth checking: a
+// rebuild clones and re-measures, and this only re-measures.
+function mirrorSignature(targets) {
+  return targets.map(({ wrapper, table }, index) => {
+    const sourceRow = table.querySelector('thead tr');
+    return `${wrapper.id}/${index} ${sourceRow ? sourceRow.innerHTML : ''}`;
+  }).join('|');
+}
+
+let mirroredSignature = null;
+
+function rebuildMirroredHeaders() {
+  const targets = mirrorTargets();
+  const signature = mirrorSignature(targets);
+  if (signature === mirroredSignature && mirroredHeaders.length === targets.length) {
+    measureMirroredHeaders();
+    return;
+  }
+  clearMirroredHeaders();
+  targets.forEach(buildMirroredHeader);
+  mirroredSignature = signature;
+  measureMirroredHeaders();
+}
+
+// Widths and the box's own geometry, which change with a render or a resize but
+// not with a scroll. Kept apart from placement so a scroll frame does no more
+// layout reading than it has to.
+function measureMirroredHeaders() {
+  mirroredHeaders.forEach((mirror) => {
+    const { wrapper, sourceRow, box, mirrorTable, row } = mirror;
+    const wrapperRect = wrapper.getBoundingClientRect();
+    // ceil, not round: the header's bottom border lives inside the row's height,
+    // and the box clips, so half a pixel short of it shaves the border off.
+    const headHeight = Math.ceil(sourceRow.getBoundingClientRect().height);
+    mirror.headHeight = headHeight;
+    // The wrapper's content box, not its border box. The wrapper is a .panel with
+    // a 1px border, so the table starts a pixel inside the rect — mirroring the
+    // border box puts every column a pixel left of the real one and lets the
+    // mirror overhang the panel edge.
+    box.style.left = `${Math.round(wrapperRect.left + wrapper.clientLeft)}px`;
+    box.style.width = `${wrapper.clientWidth}px`;
+    // No height: the box wraps the mirror table, which reproduces the real
+    // table's top edge — including the border-spacing above and below the header
+    // row that the grid has and the other tables don't. Pinning the box to the
+    // header row's own height instead clipped the grid's cells against that
+    // spacing and let a strip of the rows beneath show through above them.
+
+    // Every source width read before any mirror width is written. Interleaving
+    // them makes each read flush the layout the previous write invalidated —
+    // sixteen forced layouts on the leaderboard rather than one.
+    const widths = [...sourceRow.children].map((cell) => cell.getBoundingClientRect().width);
+    const tableWidth = mirror.table.getBoundingClientRect().width;
+    [...row.children].forEach((cell, index) => {
+      if (index >= widths.length) return;
+      const width = `${widths[index]}px`;
+      cell.style.width = width;
+      cell.style.minWidth = width;
+      cell.style.maxWidth = width;
+    });
+    // The real table's own width, which under table-layout: fixed leaves the
+    // browser to account for whatever sits between the columns. Not the sum of
+    // them: the grid is border-collapse: separate with border-spacing, so its
+    // columns fall short of the table by every gap between them, and the
+    // difference would be redistributed across the columns as misalignment. An
+    // explicit width is also what beats the `table { width: 100% }` that would
+    // otherwise squeeze the mirror into the width of its box.
+    mirrorTable.style.width = `${tableWidth}px`;
+  });
+  placeMirroredHeaders();
+}
+
+// Shown only while the real header has passed above the ceiling and the table
+// has not yet scrolled clear of it — outside that window there is nothing to
+// mirror and a floating bar would be a lie.
+function placeMirroredHeaders() {
+  mirroredHeaders.forEach((mirror) => {
+    const { wrapper, table, box } = mirror;
+    const rect = table.getBoundingClientRect();
+    const ceiling = stickyCeilingFor(wrapper);
+    const headHeight = mirror.headHeight || 0;
+    const show = rect.top < ceiling && rect.bottom > ceiling + headHeight;
+    box.hidden = !show;
+    if (!show) return;
+    box.style.top = `${ceiling}px`;
+    // Not while the mirror is the one being dragged — it is already where the
+    // reader put it, and writing back mid-gesture fights them for it.
+    if (!mirror.syncing) box.scrollLeft = wrapper.scrollLeft;
+  });
+}
+
+function scheduleMirrorPlacement() {
+  if (!mirroredHeaders.length || mirrorFrame) return;
+  mirrorFrame = window.requestAnimationFrame(() => {
+    mirrorFrame = 0;
+    placeMirroredHeaders();
+  });
+}
+
+// Everything the sticky layers measure, in one call. Cheap, and called after
+// anything that changes what is on the page or how wide it is — the two view
+// toggles, a filter, a collapse, a route change, a window resize.
+function refreshStickyLayout() {
+  syncStickyOffset();
+  syncScrollWrappers();
+  rebuildMirroredHeaders();
+}
+
+function applyAllSectionStates() {
+  getSections().forEach(applySectionState);
+  renderSectionToc();
+  refreshStickyLayout();
+}
+
+function handleSectionToggleClick(event) {
+  const toggle = event.target.closest('.sec-toggle');
+  if (!toggle) return;
+  const section = toggle.closest('section.msec');
+  if (!section) return;
+  setSectionCollapsed(section, !isSectionCollapsed(section));
+}
+
+function handleTocClick(event) {
+  if (event.target.closest('.toc-top')) {
+    scrollToPageTop();
+    return;
+  }
+  const button = event.target.closest('.toc-bulk');
+  if (!button) return;
+  const collapse = button.dataset.bulk === 'collapse';
+  const ids = collapse ? getSections().filter((s) => !s.hidden).map((s) => s.id) : [];
+  writePrefs({ collapsed: ids });
+  applyAllSectionStates();
+}
+
+// A fragment link has to open whatever it points into before anything can
+// scroll to it: a collapsed section body and a closed <details> are both
+// display:none and have no position on the page. Applies to the contents strip,
+// to "how the Rating works ↑" (which sits in a section of its own and points
+// into the Player Leaderboard), and to a head-to-head cell landing on a match
+// block inside a team page.
+function revealFragmentTarget(id) {
+  const target = id ? document.getElementById(id) : null;
+  if (!target) return null;
+  // Both views keep their markup while hidden, so getElementById still finds a
+  // match block on a team page you have already left. It has no position to
+  // scroll to and no business being marked as where you arrived.
+  const owningView = target.closest('#mainview, #teamview');
+  if (owningView && owningView.hidden) return null;
+  const section = target.closest('section.msec');
+  if (section) {
+    // Sections only exist on the main view, so a #section fragment that arrives
+    // on a team-page URL points at something not on screen. Refusing it matters
+    // more than it looks: expanding a section is a write to the stored
+    // preferences, and a stale fragment must not quietly undo the reader's
+    // collapse choice for a section they can't even see.
+    if (section.hidden || elements.mainView.hidden) return null;
+    if (isSectionCollapsed(section)) setSectionCollapsed(section, false);
+  }
+  let details = target.tagName === 'DETAILS' ? target : target.closest('details');
+  while (details) {
+    details.open = true;
+    details = details.parentElement ? details.parentElement.closest('details') : null;
+  }
+  // A match block's own game-by-game, one level down rather than up. Arriving
+  // from a head-to-head cell you already read the score off the cell — the
+  // games are what you came for, so the block opens as well as scrolls.
+  if (target.classList.contains('wk-block')) {
+    const gameLog = target.querySelector('details');
+    if (gameLog) gameLog.open = true;
+  }
+  return target;
+}
+
+function navigateToFragment(id, { updateHash = true, smooth = true } = {}) {
+  const target = revealFragmentTarget(id);
+  if (!target) return false;
+  if (updateHash) {
+    const url = new URL(window.location.href);
+    url.hash = `#${id}`;
+    // replaceState, not pushState: jumping around the contents of one page
+    // shouldn't fill the back button with stops on the way.
+    history.replaceState(null, '', url.toString());
+  }
+  target.scrollIntoView({ block: 'start', behavior: smooth ? 'smooth' : 'auto' });
+  // A section heading is its own landmark; a match block deep inside a team page
+  // needs saying which one of a dozen identical-looking blocks you arrived at.
+  if (!target.classList.contains('msec')) {
+    target.classList.add('fragment-flash');
+    window.setTimeout(() => target.classList.remove('fragment-flash'), 1800);
+  }
+  return true;
+}
+
+function handleFragmentLinkClick(event) {
+  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+  const link = event.target.closest('a[href^="#"]');
+  if (!link) return;
+  const raw = link.getAttribute('href').slice(1);
+  if (!raw) return;
+  let id = raw;
+  try {
+    id = decodeURIComponent(raw);
+  } catch {
+    // A literal '%' in a fragment is not an escape sequence — use it as written.
+  }
+  if (navigateToFragment(id)) event.preventDefault();
+}
+
+// The fragment a page was opened with, applied once its content exists. The
+// browser can't do this itself: nothing on a dashboard page is in the document
+// when it parses the URL.
+function applyLocationFragment({ smooth = false } = {}) {
+  const raw = window.location.hash.slice(1);
+  if (!raw) return;
+  let id = raw;
+  try {
+    id = decodeURIComponent(raw);
+  } catch {
+    // See handleFragmentLinkClick.
+  }
+  navigateToFragment(id, { updateHash: false, smooth });
 }
 
 function renderDivisionSelector() {
@@ -661,6 +1227,9 @@ function renderTeams() {
   } else {
     renderTeamCards();
   }
+  // Cards and table are different widths, and only the table has a header to
+  // stick.
+  refreshStickyLayout();
 }
 
 function renderStandingsViewToggle() {
@@ -675,6 +1244,7 @@ function handleStandingsViewClick(event) {
   const button = event.target.closest('button[data-view]');
   if (!button || button.dataset.view === standingsView) return;
   standingsView = button.dataset.view;
+  writePrefs({ standingsView });
   renderStandingsViewToggle();
   renderTeams();
 }
@@ -925,6 +1495,9 @@ function render() {
   const rows = getFilteredPlayers().sort(comparePlayers);
   updateSortedHeader();
   renderRows(rows);
+  // A filter can change the widest cell in a column, and so whether the
+  // leaderboard still fits the page.
+  refreshStickyLayout();
 }
 
 function describeStrength(value, strongLabel, weakLabel) {
@@ -1630,6 +2203,7 @@ function openPlayer(key) {
   setRouteInUrl({
     team: currentRoute.team || '',
     player: player ? routeKeyForPlayer(player) : slugify(key),
+    hash: currentFragment(),
   });
 }
 
@@ -1641,7 +2215,7 @@ function closeModal() {
       history.back();
       return;
     }
-    setRouteInUrl({ team: route.team || '', player: '' }, { replace: true });
+    setRouteInUrl({ team: route.team || '', player: '', hash: currentFragment() }, { replace: true });
     return;
   }
 
@@ -1733,6 +2307,7 @@ function renderDuos() {
 
   elements.duoBody.innerHTML =
     rows || `<tr><td colspan="8" class="l mut" style="padding:16px">${emptyMessage}</td></tr>`;
+  refreshStickyLayout();
 }
 
 function formatMatchDate(iso) {
@@ -1766,7 +2341,15 @@ function formatShortDate(iso) {
   return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
 }
 
-function renderTeamMatchBlock(match, teamName) {
+// The id a match's block carries on either team's page. Built from the fixture
+// rather than from whose page it is, so one fragment works from both sides — a
+// head-to-head cell links to the opponent's page and needs the id to mean the
+// same thing there. `kind` keeps a playoff round 2 apart from week 2.
+function matchBlockId(match, kind = 'match') {
+  return `${kind}-w${match.week}-${slugify(match.home)}-vs-${slugify(match.away)}`;
+}
+
+function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   const homeSide = match.home === teamName;
   const usPoints = homeSide ? match.homePoints : match.awayPoints;
   const themPoints = homeSide ? match.awayPoints : match.homePoints;
@@ -1822,7 +2405,7 @@ function renderTeamMatchBlock(match, teamName) {
   const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
 
   return `
-    <div class="wk-block">
+    <div class="wk-block" id="${matchBlockId(match, kind)}">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
         <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}${provisionalLabel}</span>
@@ -1839,15 +2422,16 @@ function renderTeamMatchBlock(match, teamName) {
   `;
 }
 
-function renderPendingTeamMatchBlock(match, teamName) {
+function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   const homeSide = match.home === teamName;
   const opponent = homeSide ? match.away : match.home;
   const scheduledTime = formatMatchDate(match.time);
   const gameCount = (match.games || []).length;
+  const blockId = matchBlockId(match, kind);
 
   if (!gameCount) {
     return `
-      <div class="wk-block pending-match">
+      <div class="wk-block pending-match" id="${blockId}">
         <div class="wk-head">
           <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
           <span class="mut">${scheduledTime || 'TBD'}</span>
@@ -1885,7 +2469,7 @@ function renderPendingTeamMatchBlock(match, teamName) {
   }).join('');
 
   return `
-    <div class="wk-block pending-match">
+    <div class="wk-block pending-match" id="${blockId}">
       <div class="wk-head">
         <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
         <span class="mut">${scheduledTime || 'TBD'}</span>
@@ -1907,7 +2491,9 @@ function renderPlayoffs() {
   const hasPlayoffs = DATA.meta && DATA.meta.hasPlayoffs;
 
   if (!hasPlayoffs || !playoffs.length) {
-    elements.playoffsHost.hidden = true;
+    // The whole section goes, heading and all, so it stays out of the table of
+    // contents in the divisions that have no bracket.
+    elements.playoffsSection.hidden = true;
     return;
   }
 
@@ -2022,10 +2608,10 @@ function renderPlayoffs() {
       </div>`;
   }).join('');
 
-  elements.playoffsHost.innerHTML = `
-    <h2>Playoffs <span class="tag">knockout bracket</span></h2>
-    <div class="playoff-bracket">${sectionsHtml}</div>`;
-  elements.playoffsHost.hidden = false;
+  // The heading lives in index.html with the other section headings, so it gets
+  // the same collapse toggle and contents entry.
+  elements.playoffsHost.innerHTML = `<div class="playoff-bracket">${sectionsHtml}</div>`;
+  elements.playoffsSection.hidden = false;
 }
 
 function renderTeamPage(team, { scroll = true } = {}) {
@@ -2115,8 +2701,8 @@ function renderTeamPage(team, { scroll = true } = {}) {
   const playoffMarkup = playoffMatches.length
     ? playoffMatches.map((match) =>
         match.complete
-          ? renderTeamMatchBlock(match, team.name)
-          : renderPendingTeamMatchBlock(match, team.name)
+          ? renderTeamMatchBlock(match, team.name, { kind: 'playoff' })
+          : renderPendingTeamMatchBlock(match, team.name, { kind: 'playoff' })
       ).join('')
     : null;
 
@@ -2170,6 +2756,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
   elements.subhead.textContent = `${team.name} — team page`;
+  // No contents strip on a team page, so nothing has to clear one — but the
+  // roster table still needs measuring for overflow now that it is visible.
+  refreshStickyLayout();
 
   const rosterHead = document.getElementById('roster-table')?.querySelector('thead');
   const handleRosterSort = (event) => {
@@ -2189,14 +2778,25 @@ function renderTeamPage(team, { scroll = true } = {}) {
   rosterHead?.addEventListener('click', handleRosterSort);
   rosterHead?.addEventListener('keydown', handleRosterSort);
 
-  if (scroll) window.scrollTo(0, 0);
+  if (scroll) {
+    window.scrollTo(0, 0);
+    // A head-to-head cell arrives with the match it was about in the fragment.
+    // Only on a fresh navigation: a roster re-sort re-renders with scroll:false
+    // and must leave the reader where they were.
+    applyLocationFragment();
+  }
 }
 
 function showMainView() {
   elements.teamView.hidden = true;
   elements.mainView.hidden = false;
   renderSummary();
+  refreshStickyLayout();
   window.scrollTo(0, 0);
+  // Back to the top by default, but not over a fragment: closing a player modal
+  // that was opened from Top Duos returns here with #top-duos still in the URL,
+  // and the reader's place is the whole reason it was carried across.
+  applyLocationFragment();
 }
 
 function handleRoute() {
@@ -2284,7 +2884,7 @@ function gridSections() {
 // a team joined it, and one reading for the whole league is worth more than the
 // couple of columns a small pod saves. The matrix stays a click away.
 const DEFAULT_GRID_VIEW = 'weeks';
-let gridView = DEFAULT_GRID_VIEW;
+let gridView = prefs.gridView === 'matrix' ? 'matrix' : DEFAULT_GRID_VIEW;
 
 function renderResultsGrid() {
   const allTeams = DATA.teams.map((team) => team.name);
@@ -2293,8 +2893,9 @@ function renderResultsGrid() {
   (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
     if (!results[match.home] || !results[match.away]) return;
     const homeWon = match.result === 'home';
-    results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week, provisional: !!match.provisional });
-    results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week, provisional: !!match.provisional });
+    const matchId = matchBlockId(match);
+    results[match.home][match.away].push({ gf: match.homeGW, ga: match.awayGW, win: homeWon, pd: match.homePoints - match.awayPoints, week: match.week, provisional: !!match.provisional, matchId });
+    results[match.away][match.home].push({ gf: match.awayGW, ga: match.homeGW, win: !homeWon, pd: match.awayPoints - match.homePoints, week: match.week, provisional: !!match.provisional, matchId });
   });
 
   // All pairs that appear anywhere in the schedule (played or upcoming).
@@ -2309,7 +2910,7 @@ function renderResultsGrid() {
   (DATA.matches || []).filter((match) => !match.complete).forEach((match) => {
     [[match.home, match.away], [match.away, match.home]].forEach(([team, opponent]) => {
       if (!upcoming[team] || match.week < upcoming[team].week) {
-        upcoming[team] = { opponent, week: match.week, time: match.time };
+        upcoming[team] = { opponent, week: match.week, time: match.time, matchId: matchBlockId(match) };
       }
     });
   });
@@ -2347,13 +2948,18 @@ function renderResultsGrid() {
         pd: home ? match.homePoints - match.awayPoints : match.awayPoints - match.homePoints,
         time: match.time,
         provisional: !!match.provisional,
+        matchId: matchBlockId(match),
       });
     });
   });
 
-  // Only rostered teams have a page to open.
-  const teamLink = (name) => (ROSTERED_TEAMS.has(name)
-    ? `data-team="${slugify(name)}" tabindex="0" role="link" aria-label="Open ${escapeHtml(name)} team page"`
+  // Only rostered teams have a page to open. A cell that stands for exactly one
+  // fixture also carries that match's block id, so the click lands on the
+  // matchup itself — inside Match history or Pending matchups — rather than at
+  // the top of a team page the reader then has to scan for it.
+  const teamLink = (name, fragment = '') => (ROSTERED_TEAMS.has(name)
+    ? `data-team="${slugify(name)}"${fragment ? ` data-fragment="${escapeHtml(fragment)}"` : ''}`
+      + ` tabindex="0" role="link" aria-label="Open ${escapeHtml(name)} team page${fragment ? ' at this matchup' : ''}"`
     : '');
 
   // Row headers carry the abbreviation, not the full name. The row-header column
@@ -2450,7 +3056,7 @@ function renderResultsGrid() {
             // have no one opponent to point at; an opponent dropped from the
             // division has no page. Either way `played` comes off with the
             // link, since it is what makes a cell look clickable.
-            const link = entries.length === 1 ? teamLink(entries[0].opponent) : '';
+            const link = entries.length === 1 ? teamLink(entries[0].opponent, entries[0].matchId) : '';
             const cellClass = link ? `played ${className}` : className;
             const inner = entries.map((entry) => weekEntryHtml(entry, team)).join('');
             return `<td class="${cellClass}" ${link}>${inner}</td>`;
@@ -2505,7 +3111,15 @@ function renderResultsGrid() {
               className += '-multi';
             }
             const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
-            return `<td class="played ${className}" ${teamLink(row)}>${inner}</td>`;
+            // Home and away stacked in one cell are two fixtures with no single
+            // block to point at; one meeting, played or upcoming, has one.
+            let fragment = '';
+            if (list.length === 1 && !next) {
+              fragment = list[0].matchId;
+            } else if (!list.length && next) {
+              fragment = next.matchId;
+            }
+            return `<td class="played ${className}" ${teamLink(row, fragment)}>${inner}</td>`;
           })
           .join('');
         return `<tr>${rowHeader(row)}${cells}</tr>`;
@@ -2528,14 +3142,16 @@ function renderResultsGrid() {
 
   if (sections.length === 1 && !sections[0].heading) {
     elements.gridHost.innerHTML = `${renderForTeams(sections[0].teams)}${cap}`;
-    return;
+  } else {
+    elements.gridHost.innerHTML = sections
+      .map(({ heading, teams }) => (
+        `<div class="grid-pod-section"><h3 class="pod-heading">${escapeHtml(heading)}</h3>${renderForTeams(teams)}</div>`
+      ))
+      .join('') + cap;
   }
-
-  elements.gridHost.innerHTML = sections
-    .map(({ heading, teams }) => (
-      `<div class="grid-pod-section"><h3 class="pod-heading">${escapeHtml(heading)}</h3>${renderForTeams(teams)}</div>`
-    ))
-    .join('') + cap;
+  // By week is one column per week; the matrix is one per opponent. Which of
+  // them overflows the page is the whole question here.
+  refreshStickyLayout();
 }
 
 function renderGridViewToggle() {
@@ -2550,6 +3166,7 @@ function handleGridViewClick(event) {
   const button = event.target.closest('button[data-gridview]');
   if (!button || button.dataset.gridview === gridView) return;
   gridView = button.dataset.gridview;
+  writePrefs({ gridView });
   renderGridViewToggle();
   renderResultsGrid();
 }
@@ -2629,7 +3246,7 @@ function handleGridClick(event) {
   const cell = event.target.closest('td.played, th.row[data-team]');
   if (cell?.dataset.team) {
     routeSetByApp = true;
-    setRouteInUrl({ team: cell.dataset.team, player: '' });
+    setRouteInUrl({ team: cell.dataset.team, player: '', hash: cell.dataset.fragment || '' });
   }
 }
 
@@ -2688,8 +3305,14 @@ function initialize() {
   renderTableHead();
   renderDuos();
   renderBeeswarm();
+  // After renderPlayoffs, so the contents strip knows whether this division has
+  // a bracket section to list.
+  applyAllSectionStates();
 
   elements.head.addEventListener('click', handleColumnSort);
+  elements.mainView.addEventListener('click', handleSectionToggleClick);
+  elements.sectionToc.addEventListener('click', handleTocClick);
+  document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
   elements.standingsView.addEventListener('click', handleStandingsViewClick);
@@ -2719,13 +3342,9 @@ function initialize() {
     event.preventDefault();
     handler(event);
   };
-  // "How the Rating works" links jump to the explainer and pop it open.
-  document.querySelectorAll('a[href="#rating-explainer"]').forEach((link) => {
-    link.addEventListener('click', () => {
-      const explainer = document.getElementById('rating-explainer');
-      if (explainer) explainer.open = true;
-    });
-  });
+  // "How the Rating works" needs no handler of its own any more: it is an
+  // ordinary fragment link, and handleFragmentLinkClick opens the <details> and
+  // the collapsed section around it on the way.
 
   elements.head.addEventListener('keydown', activateOnKeydown(handleColumnSort));
   elements.gridHost.addEventListener('keydown', activateOnKeydown(handleGridClick));
@@ -2737,6 +3356,17 @@ function initialize() {
     handleRoute();
   });
 
+  // The strip wraps at narrow widths, so its height is a function of the
+  // viewport. ResizeObserver where it exists; the resize event is the fallback.
+  if (typeof window.ResizeObserver === 'function') {
+    new window.ResizeObserver(refreshStickyLayout).observe(elements.sectionToc);
+  }
+  // A resize changes which tables overflow whether or not the strip rewraps, so
+  // this listener is not a ResizeObserver fallback — it is needed either way.
+  window.addEventListener('resize', refreshStickyLayout);
+  // A mirrored header is fixed, so nothing moves it but this.
+  window.addEventListener('scroll', scheduleMirrorPlacement, { passive: true });
+
   // The Team filter and search box also drive the Top Duos table; gender and
   // min-games apply to the player table only (they don't affect pairs).
   getRequiredElement('team').addEventListener('input', renderDuos);
@@ -2746,6 +3376,8 @@ function initialize() {
   });
 
   render();
+  // Applies any fragment the page was opened with: handleRoute lands in either
+  // showMainView or renderTeamPage, and both re-apply it once they have content.
   handleRoute();
 }
 

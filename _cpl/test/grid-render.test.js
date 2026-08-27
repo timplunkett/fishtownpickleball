@@ -23,7 +23,8 @@ function makeElement(id) {
     open: false,
     dataset: {},
     classList: { toggle() {}, add() {}, remove() {}, contains: () => false },
-    style: {},
+    // Real elements always have these; app.js sets --toc-height through them.
+    style: { setProperty() {}, removeProperty() {}, getPropertyValue: () => '' },
     addEventListener() {},
     setAttribute() {},
     removeAttribute() {},
