@@ -29611,23 +29611,39 @@
     "firstName": "Jack",
     "lastName": "Peng",
     "dupr": "V75GZJ",
-    "duprRating": null,
-    "lastSeen": "2026-08-27"
+    "duprRating": "3.385",
+    "lastSeen": "2026-08-27",
+    "duprNumericId": 7785084489,
+    "duprProvisional": false
   },
   {
     "playerId": "7d118eb0-a3f3-4932-a637-1e9fcb986ff9",
     "firstName": "Mark",
     "lastName": "VanArendonk",
     "dupr": "3VE0G5",
-    "duprRating": null,
-    "lastSeen": "2026-08-27"
+    "duprRating": "3.676",
+    "lastSeen": "2026-08-27",
+    "duprNumericId": 8347778633,
+    "duprProvisional": false
   },
   {
     "playerId": "f34665bd-6866-415f-a498-21d7f69fb895",
     "firstName": "Wendy",
     "lastName": "Zukerberg",
     "dupr": "8EJE9M",
-    "duprRating": null,
-    "lastSeen": "2026-08-27"
+    "duprRating": "4.563",
+    "lastSeen": "2026-08-27",
+    "duprNumericId": 5108199621,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "1997e1b5-dfe2-4122-96f5-404f6f4c390d",
+    "firstName": "Michael",
+    "lastName": "Hougentogler",
+    "dupr": "66G650",
+    "duprRating": "NR",
+    "lastSeen": "2026-08-27",
+    "duprNumericId": 5403748569,
+    "duprProvisional": false
   }
 ]

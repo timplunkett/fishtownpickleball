@@ -15234,6 +15234,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Michael Hougentogler",
+   "playerId": "1997e1b5-dfe2-4122-96f5-404f6f4c390d",
+   "team": "Dill Dinkers Newport",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Michael Hsieh",
    "playerId": "df366b7b-3468-492e-ae2f-b7ad65d5439e",
    "team": "Picklr Fair Lawn",

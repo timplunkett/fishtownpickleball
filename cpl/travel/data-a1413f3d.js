@@ -13160,6 +13160,17 @@
      ]
     },
     {
+     "t": "female",
+     "h": [
+      "Michelle Friedman",
+      "Mickey Ma"
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Leah Oneill"
+     ]
+    },
+    {
      "t": "male",
      "h": [
       "Elliott Bauer",
@@ -13212,6 +13223,17 @@
      "a": [
       "Laura Kwasnoski",
       "Andres Cardona"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tessa Arendt",
+      "Jesse Martinez"
+     ],
+     "a": [
+      "Leah Oneill",
+      "Jeremy Buckley"
      ]
     },
     {
@@ -13283,6 +13305,17 @@
     {
      "t": "mixed",
      "h": [
+      "Tessa Arendt",
+      "Elliott Bauer"
+     ],
+     "a": [
+      "Leah Oneill",
+      "Matthew Hopkins"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Mickey Ma",
       "Nicolas Ha"
      ],
@@ -13300,6 +13333,17 @@
      "a": [
       "Laura Kwasnoski",
       "Carly Cebek"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michelle Friedman",
+      "Tessa Arendt"
+     ],
+     "a": [
+      "Leah Oneill",
+      "Kylie Moulin"
      ]
     },
     {
@@ -13355,6 +13399,28 @@
      "a": [
       "Carly Cebek",
       "Wyatt Read"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jess Glassman",
+      "Elliott Bauer"
+     ],
+     "a": [
+      "Leah Oneill",
+      "Vinay Shankar Galla"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mickey Ma",
+      "Cait Kearney"
+     ],
+     "a": [
+      "Carly Cebek",
+      "Leah Oneill"
      ]
     },
     {
@@ -13502,7 +13568,7 @@
     {
      "t": "mixed",
      "h": [
-      "Sherry Huang",
+      "Evelyn Du",
       "Charley Ma"
      ],
      "a": [
@@ -13513,7 +13579,7 @@
     {
      "t": "mixed",
      "h": [
-      "Susan Choo",
+      "Sherry Huang",
       "Alexander King"
      ],
      "a": [
@@ -13524,7 +13590,7 @@
     {
      "t": "mixed",
      "h": [
-      "Evelyn Du",
+      "Susan Choo",
       "Sean Majury"
      ],
      "a": [
@@ -13579,8 +13645,8 @@
     {
      "t": "mixed",
      "h": [
-      "Susan Choo",
-      "Charley Ma"
+      "Sarah Park",
+      "Alexander King"
      ],
      "a": [
       "Emily Su",
@@ -13590,8 +13656,8 @@
     {
      "t": "mixed",
      "h": [
-      "Sherry Huang",
-      "Alexander King"
+      "Evelyn Du",
+      "Charley Ma"
      ],
      "a": [
       "Erin Cheng",
@@ -13601,8 +13667,8 @@
     {
      "t": "mixed",
      "h": [
-      "Evelyn Du",
-      "Franklin Yiu"
+      "Susan Choo",
+      "Sean Majury"
      ],
      "a": [
       "Liana Rose",
@@ -13612,7 +13678,7 @@
     {
      "t": "mixed",
      "h": [
-      "Sarah Park",
+      "Sherry Huang",
       "Benjamin Chen"
      ],
      "a": [
@@ -13667,8 +13733,8 @@
     {
      "t": "mixed",
      "h": [
-      "Evelyn Du",
-      "Franklin Yiu"
+      "Susan Choo",
+      "Benjamin Chen"
      ],
      "a": [
       "Liana Rose",
@@ -13678,8 +13744,8 @@
     {
      "t": "mixed",
      "h": [
-      "Susan Choo",
-      "Alexander King"
+      "Evelyn Du",
+      "Sean Majury"
      ],
      "a": [
       "Erin Cheng",
@@ -13690,7 +13756,7 @@
      "t": "mixed",
      "h": [
       "Sherry Huang",
-      "Charley Ma"
+      "Alexander King"
      ],
      "a": [
       "Kelly Sacchetti",
@@ -13701,7 +13767,7 @@
      "t": "mixed",
      "h": [
       "Sarah Park",
-      "Benjamin Chen"
+      "Charley Ma"
      ],
      "a": [
       "Emily Su",
