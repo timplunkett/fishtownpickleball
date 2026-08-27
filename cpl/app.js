@@ -1039,19 +1039,83 @@ function applyLocationFragment({ smooth = false } = {}) {
   navigateToFragment(id, { updateHash: false, smooth });
 }
 
+// Both leagues' division lists are loaded on both dashboards (see the script
+// tags in index.html), keyed by the global each bootstrap exposes.
+const LEAGUE_GROUP_LABELS = Object.freeze({
+  TRAVEL_DIVISIONS: 'Cross Club League',
+  LOCAL_DIVISIONS: 'Local Leagues',
+});
+
+function currentLeagueDir() {
+  return DATA.meta.leagueType === 'travel' ? 'travel' : 'local';
+}
+
+function leagueDirOf(dashboardPath) {
+  return String(dashboardPath || '').split('/').filter(Boolean).pop() || '';
+}
+
+// One group per league, in the order the bootstraps registered. Falls back to
+// this league alone if the other bootstrap didn't load — a browser holding a
+// stale bootstrap-runtime.js that predates the registry still gets a working
+// selector, just without the cross-league half.
+function divisionSelectorGroups() {
+  const registered = Array.isArray(window.CPL_LEAGUES) ? window.CPL_LEAGUES : [];
+  const groups = registered
+    .filter((league) => Array.isArray(league.divisions) && league.divisions.length)
+    .map((league) => ({
+      label: LEAGUE_GROUP_LABELS[league.key] || league.key,
+      leagueDir: leagueDirOf(league.dashboardPath),
+      divisions: league.divisions,
+    }))
+    .filter((group) => group.leagueDir);
+  if (groups.some((group) => group.leagueDir === currentLeagueDir())) return groups;
+  return [{
+    label: LEAGUE_GROUP_LABELS[`${currentLeagueDir().toUpperCase()}_DIVISIONS`] || 'Divisions',
+    leagueDir: currentLeagueDir(),
+    divisions: DIVISIONS,
+  }];
+}
+
 function renderDivisionSelector() {
   const currentSlug = getCurrentDivision()?.slug || '';
-  const isTravel = DATA.meta.leagueType === 'travel';
+  const currentDir = currentLeagueDir();
+  const groups = divisionSelectorGroups();
 
-  elements.divisionSelect.innerHTML = DIVISIONS.map((div) => {
-    const label = isTravel || !div.clubName ? div.divisionName : `${div.clubName} — ${div.divisionName}`;
-    const selected = div.slug === currentSlug ? ' selected' : '';
-    return `<option value="${div.slug}"${selected}>${escapeHtml(label)}</option>`;
+  // A single group needs no heading — grouping two divisions of one league under
+  // one label is noise. Two leagues is the case the grouping exists for: it's
+  // what makes a Travel → Local switch possible without going back to /cpl.
+  const renderOptions = (group) => group.divisions.map((div) => {
+    const label = !div.clubName ? div.divisionName : `${div.clubName} — ${div.divisionName}`;
+    const selected = group.leagueDir === currentDir && div.slug === currentSlug ? ' selected' : '';
+    return `<option value="${group.leagueDir}:${div.slug}"${selected}>${escapeHtml(label)}</option>`;
   }).join('');
 
+  elements.divisionSelect.innerHTML = groups.length > 1
+    ? groups.map((group) => (
+        `<optgroup label="${escapeHtml(group.label)}">${renderOptions(group)}</optgroup>`
+      )).join('')
+    : renderOptions(groups[0]);
+
   elements.divisionSelect.addEventListener('change', () => {
-    const slug = elements.divisionSelect.value;
+    const [leagueDir, slug] = elements.divisionSelect.value.split(':');
+    if (!slug) return;
+    // Rewrite the pathname in place rather than resolving a relative URL: the
+    // scheme, host and file name all have to survive, so that this works from a
+    // file:// preview of index.html as well as from the served directory.
     const url = new URL(window.location.href);
+    const fileName = (/[^/]+\.html?$/i.exec(url.pathname) || [''])[0];
+    let dir = fileName ? url.pathname.slice(0, -fileName.length) : url.pathname;
+    if (!dir.endsWith('/')) dir += '/';
+    // The two dashboards are siblings, so crossing leagues swaps one segment.
+    if (leagueDir !== currentDir) dir = dir.replace(/[^/]+\/$/, `${leagueDir}/`);
+    url.pathname = `${dir}${fileName}`;
+    // A division switch is a switch to that division, not to whichever team of
+    // it happens to share a name with the team you were looking at, so ?team=
+    // and ?player= go. Carrying them opened a same-named team in the new
+    // division — a duplicate of the tab you were already on — or, with no match,
+    // left a dead ?team= trailing the URL. ?d= is the only parameter that
+    // survives, and it is the one being changed.
+    url.search = '';
     url.searchParams.set('d', slug);
     url.hash = '';
     window.location.href = url.toString();

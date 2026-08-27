@@ -79,6 +79,20 @@
   window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
     window[config.divisionsGlobal] = divisions;
 
+    // Every league that has loaded, in script order. Both dashboards load both
+    // bootstraps so the Division selector can list Cross Club and Local
+    // divisions together — this is how app.js finds the league it is not on,
+    // and the path to reach it. Registered before the dashboardPath check,
+    // because the whole point is the league that does not match.
+    window.CPL_LEAGUES = window.CPL_LEAGUES || [];
+    if (!window.CPL_LEAGUES.some((entry) => entry.key === config.divisionsGlobal)) {
+      window.CPL_LEAGUES.push({
+        key: config.divisionsGlobal,
+        dashboardPath: config.dashboardPath,
+        divisions,
+      });
+    }
+
     // This bootstrap also runs on /cpl/, where data/app relative paths are different.
     if (!window.location.pathname.includes(config.dashboardPath)) return;
 

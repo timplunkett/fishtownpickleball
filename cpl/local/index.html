@@ -160,6 +160,11 @@
 
 <script src="../shared.js" defer></script>
 <script src="../bootstrap-runtime.js" defer></script>
+<!-- Both league division lists load on both dashboards, so the Division selector
+     can offer Cross Club and Local divisions in one hierarchical menu. Only the
+     bootstrap whose dashboardPath matches this page loads a dataset; the other
+     just registers its divisions. Travel first, so it heads the menu. -->
+<script src="../travel/bootstrap.js" defer></script>
 <script src="bootstrap.js" defer></script>
 </body>
 </html>

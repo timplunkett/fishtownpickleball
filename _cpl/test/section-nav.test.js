@@ -988,3 +988,87 @@ test('a team href keeps the division and can carry a match fragment', () => {
   assert.ok(href.includes('team=bounce-philly-a'));
   assert.ok(href.endsWith('#match-w3-a-vs-b'));
 });
+
+// --- The division selector ------------------------------------------------
+
+test('both leagues appear as groups when both bootstraps have registered', () => {
+  const app = runApp({
+    leagues: [
+      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
+      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0' }] },
+    ],
+  });
+  const html = app.el('division-select').innerHTML;
+  assert.equal((html.match(/<optgroup/g) || []).length, 2);
+  assert.ok(html.includes('label="Cross Club League"'));
+  assert.ok(html.includes('label="Local Leagues"'));
+  // Travel heads the menu, matching the order of the panels on /cpl/.
+  assert.ok(html.indexOf('Cross Club League') < html.indexOf('Local Leagues'));
+  // The value carries the league, so the handler knows whether to change directory.
+  assert.ok(html.includes('value="travel:t1"'));
+  assert.ok(html.includes('value="local:l1"'));
+  // A local option still names its club.
+  assert.ok(html.includes('Bounce - Philly — 3.5 - 4.0'));
+});
+
+function switchDivision(app, value) {
+  app.el('division-select').value = value;
+  app.changeDivision();
+  return app.navigated[app.navigated.length - 1];
+}
+
+test('switching division within the league keeps the path and drops the team', () => {
+  const app = runApp({
+    search: '?d=old&team=some-team&player=42',
+    leagues: [
+      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
+      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
+    ],
+  });
+  const url = switchDivision(app, `${DATA_FILE.leg}:same-league-slug`);
+  assert.ok(url.includes(`/cpl/${DATA_FILE.leg}/`), `stayed off its own path: ${url}`);
+  assert.ok(url.includes('d=same-league-slug'));
+  assert.ok(!url.includes('team='), 'carried ?team= into the new division');
+  assert.ok(!url.includes('player='), 'carried ?player= into the new division');
+});
+
+test('switching to the other league swaps one path segment', () => {
+  const other = DATA_FILE.leg === 'travel' ? 'local' : 'travel';
+  const app = runApp({
+    search: '?d=old&team=some-team',
+    leagues: [
+      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
+      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
+    ],
+  });
+  const url = switchDivision(app, `${other}:x9`);
+  assert.ok(url.includes(`/cpl/${other}/`), `did not reach the other league: ${url}`);
+  assert.ok(!url.includes(`/cpl/${DATA_FILE.leg}/`), `left the old league in the path: ${url}`);
+  assert.ok(url.includes('d=x9'));
+  assert.ok(!url.includes('team='));
+});
+
+// A file:// preview has no directory index, so the file name has to survive both
+// the same-league and the cross-league case.
+test('a file:// preview keeps index.html when switching', () => {
+  const other = DATA_FILE.leg === 'travel' ? 'local' : 'travel';
+  const app = runApp({
+    pathname: `/Users/t/www/fishtownpickleball/cpl/${DATA_FILE.leg}/index.html`,
+    origin: 'file://',
+    leagues: [
+      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
+      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
+    ],
+  });
+  const same = switchDivision(app, `${DATA_FILE.leg}:s1`);
+  assert.ok(same.endsWith(`cpl/${DATA_FILE.leg}/index.html?d=s1`), same);
+  const across = switchDivision(app, `${other}:s2`);
+  assert.ok(across.endsWith(`cpl/${other}/index.html?d=s2`), across);
+});
+
+test('with only this league registered the selector is a flat list', () => {
+  const app = runApp();
+  const html = app.el('division-select').innerHTML;
+  assert.ok(!html.includes('<optgroup'), 'grouped a single league under one heading');
+  assert.ok(html.includes('<option'));
+});
