@@ -130,6 +130,25 @@ function runApp(dataFile, mutate) {
   };
 }
 
+// The abbreviation key is how the codes in the cells are read, so it has to stay
+// put while the grid scrolls sideways. It used to sit inside the scroller, which
+// slid it away at exactly the point you had scrolled far enough to need it — so
+// .grid-wrap wraps the table and nothing else, and the key and the caption are
+// siblings of it rather than children.
+function assertKeyOutsideScroller(html, label) {
+  const wrappers = html.split('<div class="grid-wrap">').slice(1);
+  assert.ok(wrappers.length > 0, `${label}: no scroll wrapper at all`);
+  wrappers.forEach((chunk) => {
+    const inside = chunk.slice(0, chunk.indexOf('</table></div>'));
+    assert.ok(!inside.includes('grid-key'), `${label}: the key is inside the scroller`);
+    assert.ok(!inside.includes('grid-cap'), `${label}: the caption is inside the scroller`);
+  });
+  // And each wrapper holds a table directly, so nothing else rides along.
+  wrappers.forEach((chunk) => {
+    assert.ok(chunk.startsWith('<table'), `${label}: the wrapper holds something other than a table`);
+  });
+}
+
 function divisionFiles() {
   return ['travel', 'local'].flatMap((leg) => {
     const dir = path.join(CPL, leg);
@@ -180,10 +199,13 @@ DIVISIONS.forEach(({ label, file }) => {
       `${label}: one by-week table per section`,
     );
 
+    assertKeyOutsideScroller(weeks, `${label}: by-week`);
+
     app.setView('matrix');
     const matrix = app.gridHost.innerHTML;
     assert.ok(matrix.includes('class="gmatrix"'), `${label}: no matrix table`);
     assert.ok(matrix.includes('grid-key'), `${label}: matrix needs the key too`);
+    assertKeyOutsideScroller(matrix, `${label}: matrix`);
 
     // No row header spells a team out: that is what set the first column's width.
     [['by-week', weeks], ['matrix', matrix]].forEach(([name, html]) => {

@@ -3166,7 +3166,10 @@ function renderResultsGrid() {
       (week) => (byTeamWeek[team][week] || []).map((entry) => entry.opponent),
     )));
 
-    return `<table class="gweeks"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table>${keyHtml(shown)}`;
+    // The wrapper holds the table and nothing else. The key has to sit outside
+    // it: it is how you read the codes in the cells, and inside the scroller it
+    // slid away exactly when you scrolled far enough to need it.
+    return `<div class="grid-wrap"><table class="gweeks"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table></div>${keyHtml(shown)}`;
   };
 
   const renderMatrixForTeams = (teams) => {
@@ -3223,7 +3226,7 @@ function renderResultsGrid() {
     // The matrix needs the key too now. Its column headers were decodable only
     // because the row headers spelled the same teams out in the same order, and
     // they no longer do.
-    return `<table class="gmatrix"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table>${keyHtml(teams)}`;
+    return `<div class="grid-wrap"><table class="gmatrix"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table></div>${keyHtml(teams)}`;
   };
 
   const matrixCap = `<div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; hatched = not scheduled to meet. Cells stack both meetings once teams play home and away.</div>`;
