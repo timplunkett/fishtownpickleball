@@ -664,6 +664,37 @@ test('landing on a section heading does not flash it', () => {
   assert.equal(standings.classList.contains('fragment-flash'), false);
 });
 
+// --- The standings table's Pod column --------------------------------------
+
+test('the standings table names the league\'s own pod, not the scheduling section', () => {
+  const app = runApp();
+  const { DATA, teamPodCell } = app.context;
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+
+  const reported = DATA.teams.filter((team) => team.reportedPod);
+  if (!reported.length) return; // this division publishes no pods
+
+  reported.forEach((team) => {
+    assert.equal(teamPodCell(team, podCount), team.reportedPod);
+  });
+
+  // Specifically not the section label, which can be a combination of several
+  // pods — "Northeast / Southeast / Southwest" — and describes nothing in a flat
+  // ranking with no sections in it.
+  const combined = reported.find((team) => app.context.podLabel(team.pod).includes(' / '));
+  if (combined) {
+    assert.notEqual(teamPodCell(combined, podCount), app.context.podLabel(combined.pod));
+  }
+});
+
+test('a team with no published pod falls back to the section label', () => {
+  const { teamPodCell, podLabel } = runApp().context;
+  const team = { pod: 1, reportedPod: null };
+  assert.equal(teamPodCell(team, 3), podLabel(1));
+  // One section means there is nothing to say.
+  assert.equal(teamPodCell(team, 1), '');
+});
+
 // --- Sticky layers ---------------------------------------------------------
 
 test('only a wrapper whose table overflows gets a horizontal scroller', () => {

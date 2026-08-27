@@ -1251,11 +1251,17 @@ function renderTeamCards() {
 // view groups by, plus the league's own regional label where the two differ. An
 // undivided division has a single section that names nothing, so there the
 // reported pod is the whole answer.
+// The Pod cell in the standings table. The cards are grouped into scheduling
+// sections and carry the section name as their own heading, so there the
+// league's pod is a tag next to the team. The table is one flat division-wide
+// ranking with no sections in it, so a section label describes nothing on
+// screen — and where a section spans several pods it reads as a combination
+// like "Northeast / Southeast / Southwest", which is the least useful string
+// available for a sortable column. The league's own pod is the fact worth a
+// column here; the section label only stands in where the league reported none.
 function teamPodCell(team, podCount) {
-  if (podCount > 1) {
-    return `${escapeHtml(podLabel(team.pod))}${reportedPodTag(team)}`;
-  }
-  return team.reportedPod ? escapeHtml(team.reportedPod) : '';
+  if (team.reportedPod) return escapeHtml(team.reportedPod);
+  return podCount > 1 ? escapeHtml(podLabel(team.pod)) : '';
 }
 
 // The card view seeds within a pod, which is what the schedule and playoffs run
