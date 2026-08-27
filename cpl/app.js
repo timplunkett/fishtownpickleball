@@ -237,6 +237,16 @@ function isActivationKey(event) {
   return event.key === 'Enter' || event.key === ' ';
 }
 
+// Team cards, player names and the "← All standings" link are real anchors with
+// real hrefs, routed in-page on a plain click. A modified click is the browser's
+// — open in a new tab, a new window, save — and preventing its default is how
+// "open ← All standings in a new tab" ended up duplicating the tab it was on.
+// (Middle-click fires auxclick, not click, so it was never affected.)
+function isPlainClick(event) {
+  return event.button === 0 &&
+    !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
+}
+
 // The fragment the page is currently showing, carried across in-page route
 // changes so opening and closing a player modal doesn't lose the match block a
 // team page was deep-linked to.
@@ -260,6 +270,18 @@ function teamHref(teamName, fragment = '') {
   url.searchParams.delete('player');
   url.hash = fragment ? `#${fragment}` : '';
   return `${url.pathname}${url.search}${url.hash}`;
+}
+
+// href for the division's main standings, with any team/player selection
+// dropped. The "← All standings" link used to be href="#", which read as "this
+// page" — so opening it in a new tab reproduced the team page it was trying to
+// leave. It needs a real destination, not just a click handler.
+function standingsHref() {
+  const url = new URL(window.location.href);
+  url.searchParams.delete('team');
+  url.searchParams.delete('player');
+  url.hash = '';
+  return `${url.pathname}${url.search}`;
 }
 
 function playerHref(player) {
@@ -1010,7 +1032,7 @@ function navigateToFragment(id, { updateHash = true, smooth = true } = {}) {
 }
 
 function handleFragmentLinkClick(event) {
-  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+  if (!isPlainClick(event)) return;
   const link = event.target.closest('a[href^="#"]');
   if (!link) return;
   const raw = link.getAttribute('href').slice(1);
@@ -2310,10 +2332,11 @@ function handleColumnSort(event) {
 }
 
 function handlePlayerClick(event) {
+  if (!isPlainClick(event)) return;
   const nameElement = event.target.closest('.pname');
 
   if (nameElement?.dataset.player) {
-    event.preventDefault(); // real href for middle-click; SPA routing for plain clicks
+    event.preventDefault(); // real href for new-tab clicks; SPA routing for plain ones
     openPlayer(nameElement.dataset.player);
   }
 }
@@ -2771,7 +2794,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
     : null;
 
   elements.teamView.innerHTML = `
-    <a class="backlink" href="#">← All standings</a>
+    <a class="backlink" href="${standingsHref()}">← All standings</a>
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
       <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
       <div class="team-meta">
@@ -2898,10 +2921,11 @@ function handleRoute() {
 
 function handleTeamCardClick(event) {
   // Cards and table rows both carry the slug, so one handler routes either view.
+  if (!isPlainClick(event)) return;
   const card = event.target.closest('[data-team]');
 
   if (card?.dataset.team) {
-    event.preventDefault(); // real href for middle-click; SPA routing for plain clicks
+    event.preventDefault(); // real href for new-tab clicks; SPA routing for plain ones
     routeSetByApp = true;
     setRouteInUrl({ team: card.dataset.team, player: '' });
   }
@@ -3381,6 +3405,7 @@ function initialize() {
   elements.teams.addEventListener('click', handleTeamCardClick);
   elements.standingsView.addEventListener('click', handleStandingsViewClick);
   elements.teamView.addEventListener('click', (event) => {
+    if (!isPlainClick(event)) return;
     if (event.target.closest('.backlink')) {
       event.preventDefault();
       routeSetByApp = true;

@@ -981,6 +981,14 @@ test('the contents strip offers Top', () => {
 
 // --- Query-string hygiene --------------------------------------------------
 
+test('the all-standings href drops the team and player it is leaving', () => {
+  const app = runApp({ search: '?d=abc123&team=some-team&player=42' });
+  const href = app.context.standingsHref();
+  assert.ok(href.includes('d=abc123'), 'lost the division');
+  assert.ok(!href.includes('team='), 'carried ?team= into the standings link');
+  assert.ok(!href.includes('player='), 'carried ?player= into the standings link');
+});
+
 test('a team href keeps the division and can carry a match fragment', () => {
   const app = runApp({ search: '?d=abc123' });
   const href = app.context.teamHref('Bounce Philly A', 'match-w3-a-vs-b');
