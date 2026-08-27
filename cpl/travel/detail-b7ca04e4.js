@@ -1,5 +1,178 @@
 (function () {
   const DETAILS = {
+ "9e7f633d-5cea-4462-b486-61612f133de4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 71,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Brian Kline",
+    "vs": [
+     "Elsie Koo",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Abeer Massoud",
+     "Allyson Fry"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Brian Kline",
+    "vs": [
+     "Tara Oko",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Allyson Fry",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Tom Draney",
+    "vs": [
+     "Abeer Massoud",
+     "Kevin Wan"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Angie Habib",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Tom Draney",
+    "vs": [
+     "Allyson Fry",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Abeer Massoud",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.9,
+    "confidence": 51,
+    "rank": 3,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -2.1
+   }
+  ],
+  "partners": []
+ },
  "b084b51a-054c-4a7f-b1a5-0cb26e4f669c": {
   "log": [
    {
@@ -165,7 +338,7 @@
     "week": 1,
     "rating": 3.5,
     "confidence": 54,
-    "rank": 3,
+    "rank": 4,
     "ratingGames": 8,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": -1.2
@@ -346,6 +519,352 @@
   ],
   "partners": []
  },
+ "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 88,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Abeer Massoud",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Tara Oko",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Elsie Koo",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Angie Habib",
+     "Abeer Massoud"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Elsie Koo",
+     "Peter Liang"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Angie Habib",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Abeer Massoud",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Abeer Massoud",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.7,
+    "confidence": 47,
+    "rank": 12,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -2.1
+   }
+  ],
+  "partners": []
+ },
+ "8632a302-90a3-4332-b4d1-fccc0f692e8e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 91,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Abeer Massoud",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Steven Koo",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Elsie Koo",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Brandon Pfeffer",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Tara Oko",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Brian Kline",
+    "vs": [
+     "Brandon Pfeffer",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Angie Habib",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Brian Kline",
+    "vs": [
+     "Kevin Wan",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.5,
+    "confidence": 54,
+    "rank": 5,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
  "de8e2a33-d691-4652-84ef-532b89f467bc": {
   "log": [
    {
@@ -511,10 +1030,356 @@
     "week": 1,
     "rating": 3.4,
     "confidence": 52,
-    "rank": 4,
+    "rank": 6,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.6
+   }
+  ],
+  "partners": []
+ },
+ "26ae3e1c-2dcf-4230-b108-314a476ec1ac": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 96,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Tom Draney",
+    "vs": [
+     "Angie Habib",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Abeer Massoud",
+     "Allyson Fry"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Tom Draney",
+    "vs": [
+     "Abeer Massoud",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Allyson Fry",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Tara Oko",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Tara Oko",
+     "Allyson Fry"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Angie Habib",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Allyson Fry",
+     "Tara Oko"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.5,
+    "confidence": 49,
+    "rank": 16,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": -1.5
+   }
+  ],
+  "partners": []
+ },
+ "cd1d7ac2-5447-4c21-9b25-3cd13e3457b3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 100,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Angie Habib",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Brian Kline",
+    "vs": [
+     "Kevin Wan",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Abeer Massoud",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Brian Kline",
+    "vs": [
+     "Steven Koo",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Abeer Massoud",
+     "Kevin Wan"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Kevin Wan",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Allyson Fry",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Brandon Pfeffer",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 53,
+    "rank": 23,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -668,7 +1533,7 @@
     "week": 1,
     "rating": 3,
     "confidence": 49,
-    "rank": 6,
+    "rank": 8,
     "ratingGames": 7,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -1
@@ -809,7 +1674,7 @@
     "week": 1,
     "rating": 3,
     "confidence": 42,
-    "rank": 7,
+    "rank": 9,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.2
@@ -950,7 +1815,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 43,
-    "rank": 12,
+    "rank": 15,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.3
@@ -1075,7 +1940,7 @@
     "week": 1,
     "rating": 2.5,
     "confidence": 41,
-    "rank": 13,
+    "rank": 17,
     "ratingGames": 5,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.9
@@ -1216,7 +2081,7 @@
     "week": 1,
     "rating": 3.3,
     "confidence": 48,
-    "rank": 5,
+    "rank": 7,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.7
@@ -1341,7 +2206,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 42,
-    "rank": 38,
+    "rank": 43,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -2
@@ -1466,7 +2331,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 40,
-    "rank": 34,
+    "rank": 39,
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.5
@@ -1607,7 +2472,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 48,
-    "rank": 48,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.1
@@ -1748,7 +2613,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 47,
-    "rank": 44,
+    "rank": 49,
     "ratingGames": 6,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1
@@ -1873,7 +2738,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 41,
-    "rank": 39,
+    "rank": 44,
     "ratingGames": 5,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.2
@@ -1982,7 +2847,7 @@
     "week": 1,
     "rating": 3,
     "confidence": 35,
-    "rank": 8,
+    "rank": 10,
     "ratingGames": 4,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.1
@@ -2107,7 +2972,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 44,
-    "rank": 54,
+    "rank": 60,
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.3
@@ -2216,7 +3081,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 36,
-    "rank": 73,
+    "rank": 79,
     "ratingGames": 4,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -2
@@ -2341,7 +3206,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 43,
-    "rank": 15,
+    "rank": 19,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -1.1
@@ -2466,10 +3331,356 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 45,
-    "rank": 21,
+    "rank": 26,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "418f9f50-d9f9-4806-bef5-5bd9763b240f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 113,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Elsie Koo",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Tom Draney",
+    "vs": [
+     "Kevin Wan",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jennifer Kline",
+    "vs": [
+     "Tara Oko",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Tom Draney",
+    "vs": [
+     "Steven Koo",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Angie Habib",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Brandon Pfeffer",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Tara Oko",
+     "Kevin Wan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Kevin Wan",
+     "Peter Liang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.2,
+    "confidence": 53,
+    "rank": 57,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "3a1b8dea-5723-4b6b-b73c-d951a1e442b3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 126,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Allyson Fry",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Steven Koo",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Kristina Salomia",
+    "vs": [
+     "Angie Habib",
+     "Kevin Wan"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Michael Fidelino",
+    "vs": [
+     "Brandon Pfeffer",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Elsie Koo",
+     "Peter Liang"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Tom Draney",
+    "vs": [
+     "Kevin Wan",
+     "Steven Koo"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Abeer Massoud",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Tom Draney",
+    "vs": [
+     "Brandon Pfeffer",
+     "Amr Shaheed"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 53,
+    "rank": 117,
+    "ratingGames": 8,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -2639,7 +3850,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 102,
+    "rank": 109,
     "ratingGames": 8,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": -0.8
@@ -2812,7 +4023,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 54,
-    "rank": 35,
+    "rank": 40,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -2985,7 +4196,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 75,
+    "rank": 81,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -3142,7 +4353,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 52,
-    "rank": 16,
+    "rank": 20,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.4
@@ -3299,7 +4510,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 50,
-    "rank": 42,
+    "rank": 47,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1
@@ -3456,7 +4667,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 33,
+    "rank": 38,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -3613,7 +4824,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 49,
-    "rank": 61,
+    "rank": 67,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.7
@@ -3770,7 +4981,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 54,
-    "rank": 24,
+    "rank": 29,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -3927,7 +5138,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 48,
-    "rank": 26,
+    "rank": 31,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -4084,7 +5295,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 57,
+    "rank": 63,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -4241,7 +5452,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 47,
-    "rank": 43,
+    "rank": 48,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -4382,7 +5593,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 48,
-    "rank": 27,
+    "rank": 32,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.2
@@ -4523,7 +5734,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 43,
-    "rank": 51,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.7
@@ -4664,7 +5875,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 48,
-    "rank": 18,
+    "rank": 22,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.6
@@ -4805,7 +6016,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 43,
-    "rank": 72,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1.5
@@ -4946,7 +6157,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 50,
-    "rank": 11,
+    "rank": 14,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -5087,7 +6298,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 51,
-    "rank": 17,
+    "rank": 21,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.3
@@ -5228,7 +6439,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 51,
-    "rank": 10,
+    "rank": 13,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.1
@@ -5369,7 +6580,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 114,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
@@ -5494,7 +6705,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 40,
-    "rank": 46,
+    "rank": 51,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -2.1
@@ -5619,7 +6830,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 44,
-    "rank": 87,
+    "rank": 93,
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.2
@@ -5744,7 +6955,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 38,
-    "rank": 29,
+    "rank": 34,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0
@@ -5869,7 +7080,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 106,
+    "rank": 113,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
@@ -5994,7 +7205,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 81,
+    "rank": 87,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -6119,7 +7330,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 80,
+    "rank": 86,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -6244,7 +7455,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 42,
-    "rank": 97,
+    "rank": 103,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.6
@@ -6369,7 +7580,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 105,
+    "rank": 112,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -6542,10 +7753,183 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 74,
+    "rank": 80,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "9ea48ad1-b5f4-4a2c-a687-400dae5fe86b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 133,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Allyson Fry",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Tara Oko",
+     "Elsie Koo"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Jonathan Bautista",
+    "vs": [
+     "Angie Habib",
+     "Kevin Wan"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Clarisse Espiritu",
+    "vs": [
+     "Angie Habib",
+     "Abeer Massoud"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Brian Kline",
+    "vs": [
+     "Angie Habib",
+     "Brandon Pfeffer"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Tara Oko",
+     "Allyson Fry"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "mixed",
+    "with": "Brian Kline",
+    "vs": [
+     "Tara Oko",
+     "Kevin Wan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "female",
+    "with": "Jordan Pirrello",
+    "vs": [
+     "Allyson Fry",
+     "Tara Oko"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 49,
+    "rank": 122,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -6715,7 +8099,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 52,
-    "rank": 63,
+    "rank": 69,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -1.2
@@ -6888,7 +8272,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 54,
-    "rank": 23,
+    "rank": 28,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -6997,7 +8381,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 40,
-    "rank": 40,
+    "rank": 45,
     "ratingGames": 4,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.7
@@ -7106,7 +8490,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 36,
-    "rank": 59,
+    "rank": 65,
     "ratingGames": 4,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.6
@@ -7279,7 +8663,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 54,
-    "rank": 90,
+    "rank": 96,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -7388,7 +8772,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 36,
-    "rank": 66,
+    "rank": 72,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -7497,7 +8881,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 34,
-    "rank": 89,
+    "rank": 95,
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -7811,7 +9195,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 49,
-    "rank": 20,
+    "rank": 25,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -7968,7 +9352,7 @@
     "week": 1,
     "rating": 2.8,
     "confidence": 49,
-    "rank": 9,
+    "rank": 11,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
@@ -8125,7 +9509,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 76,
+    "rank": 82,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.1
@@ -8282,7 +9666,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 52,
-    "rank": 52,
+    "rank": 58,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.3
@@ -8439,7 +9823,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 117,
+    "rank": 126,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -8596,7 +9980,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 49,
-    "rank": 143,
+    "rank": 153,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -8737,7 +10121,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 51,
-    "rank": 14,
+    "rank": 18,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -8878,7 +10262,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 131,
+    "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.6
@@ -9019,7 +10403,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 44,
-    "rank": 28,
+    "rank": 33,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -9160,7 +10544,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 45,
-    "rank": 30,
+    "rank": 35,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -9301,7 +10685,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 92,
+    "rank": 98,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -9442,7 +10826,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 56,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -9583,7 +10967,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 45,
-    "rank": 49,
+    "rank": 54,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -9724,7 +11108,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 46,
-    "rank": 86,
+    "rank": 92,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.9
@@ -9865,7 +11249,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 41,
-    "rank": 31,
+    "rank": 36,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
@@ -10006,7 +11390,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 93,
+    "rank": 99,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.2
@@ -10147,7 +11531,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 48,
-    "rank": 47,
+    "rank": 52,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -10288,7 +11672,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 32,
+    "rank": 37,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -10429,7 +11813,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 70,
+    "rank": 76,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -10602,7 +11986,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 51,
-    "rank": 41,
+    "rank": 46,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -10727,7 +12111,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 42,
-    "rank": 37,
+    "rank": 42,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1
@@ -10852,7 +12236,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 39,
-    "rank": 22,
+    "rank": 27,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -10977,7 +12361,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 82,
+    "rank": 88,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.1
@@ -11102,7 +12486,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 42,
-    "rank": 62,
+    "rank": 68,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.9
@@ -11227,7 +12611,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 44,
-    "rank": 25,
+    "rank": 30,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
@@ -11352,7 +12736,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 45,
-    "rank": 50,
+    "rank": 55,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -11477,7 +12861,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 94,
+    "rank": 100,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
@@ -11602,7 +12986,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 96,
+    "rank": 102,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -11727,7 +13111,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 108,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -11852,7 +13236,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 44,
-    "rank": 45,
+    "rank": 50,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -11977,7 +13361,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 58,
+    "rank": 64,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0
@@ -12102,7 +13486,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 42,
-    "rank": 84,
+    "rank": 90,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -12227,7 +13611,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 38,
-    "rank": 164,
+    "rank": 177,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -12352,7 +13736,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 107,
+    "rank": 114,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -12477,7 +13861,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 38,
-    "rank": 85,
+    "rank": 91,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
@@ -12602,7 +13986,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 126,
+    "rank": 135,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.6
@@ -12759,7 +14143,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 51,
-    "rank": 19,
+    "rank": 24,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
@@ -12916,7 +14300,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 45,
-    "rank": 53,
+    "rank": 59,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": -0.5
@@ -13073,7 +14457,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 118,
+    "rank": 127,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
@@ -13230,7 +14614,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 98,
+    "rank": 104,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.6
@@ -13387,7 +14771,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 50,
-    "rank": 148,
+    "rank": 159,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -13544,7 +14928,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 137,
+    "rank": 147,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.2
@@ -13701,7 +15085,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 49,
-    "rank": 169,
+    "rank": 182,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -13842,7 +15226,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 68,
+    "rank": 74,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.6
@@ -13983,7 +15367,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 47,
-    "rank": 36,
+    "rank": 41,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -14156,7 +15540,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 91,
+    "rank": 97,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.2
@@ -14297,7 +15681,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 69,
+    "rank": 75,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0
@@ -14438,7 +15822,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 64,
+    "rank": 70,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0
@@ -14579,7 +15963,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 42,
-    "rank": 88,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -14720,7 +16104,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 113,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.3
@@ -14861,7 +16245,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 47,
-    "rank": 77,
+    "rank": 83,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -14970,7 +16354,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 38,
-    "rank": 173,
+    "rank": 186,
     "ratingGames": 4,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -15111,7 +16495,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 120,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -15252,7 +16636,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 101,
+    "rank": 108,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -15393,7 +16777,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 115,
+    "rank": 124,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -15534,7 +16918,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 47,
-    "rank": 160,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.6
@@ -15675,7 +17059,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 47,
-    "rank": 78,
+    "rank": 84,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.2
@@ -15816,7 +17200,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 95,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -15989,7 +17373,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 52,
-    "rank": 152,
+    "rank": 164,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
@@ -16130,7 +17514,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 49,
-    "rank": 194,
+    "rank": 208,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -16287,7 +17671,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 67,
+    "rank": 73,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
@@ -16444,7 +17828,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 100,
+    "rank": 106,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -16601,7 +17985,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 52,
-    "rank": 55,
+    "rank": 61,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
@@ -16758,7 +18142,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 52,
-    "rank": 153,
+    "rank": 165,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -16915,7 +18299,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 130,
+    "rank": 139,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -17072,7 +18456,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 52,
-    "rank": 203,
+    "rank": 217,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1
@@ -17229,7 +18613,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 49,
-    "rank": 170,
+    "rank": 183,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.4
@@ -17386,7 +18770,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 48,
-    "rank": 190,
+    "rank": 204,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -17511,7 +18895,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 45,
-    "rank": 123,
+    "rank": 132,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
@@ -17636,7 +19020,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 42,
-    "rank": 129,
+    "rank": 138,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.4
@@ -17761,7 +19145,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 46,
-    "rank": 110,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.2
@@ -17886,7 +19270,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 41,
-    "rank": 141,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -18011,7 +19395,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 167,
+    "rank": 180,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -18136,7 +19520,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 39,
-    "rank": 142,
+    "rank": 152,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -18261,7 +19645,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 42,
-    "rank": 109,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -18386,7 +19770,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 41,
-    "rank": 112,
+    "rank": 120,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.1
@@ -18511,7 +19895,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 83,
+    "rank": 89,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -18636,7 +20020,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 43,
-    "rank": 196,
+    "rank": 210,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.1
@@ -18761,7 +20145,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 40,
-    "rank": 184,
+    "rank": 197,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
@@ -18886,7 +20270,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 44,
-    "rank": 146,
+    "rank": 157,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -19059,7 +20443,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 53,
-    "rank": 188,
+    "rank": 202,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -19200,7 +20584,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 50,
-    "rank": 60,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.5
@@ -19341,7 +20725,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 154,
+    "rank": 166,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.1
@@ -19482,7 +20866,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 124,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
@@ -19623,7 +21007,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 104,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.9
@@ -19764,7 +21148,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 43,
-    "rank": 162,
+    "rank": 175,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.1
@@ -19905,7 +21289,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 45,
-    "rank": 161,
+    "rank": 174,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.4
@@ -20046,7 +21430,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 103,
+    "rank": 110,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -20187,7 +21571,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 51,
-    "rank": 135,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -20328,7 +21712,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 46,
-    "rank": 155,
+    "rank": 167,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
@@ -20469,7 +21853,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 41,
-    "rank": 65,
+    "rank": 71,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1
@@ -20610,7 +21994,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 45,
-    "rank": 111,
+    "rank": 119,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -20751,7 +22135,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 79,
+    "rank": 85,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.2
@@ -20892,7 +22276,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 47,
-    "rank": 71,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.1
@@ -21033,7 +22417,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 171,
+    "rank": 184,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -21174,7 +22558,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 49,
-    "rank": 139,
+    "rank": 149,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.6
@@ -21315,7 +22699,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 133,
+    "rank": 142,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.4
@@ -21456,7 +22840,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 187,
+    "rank": 200,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -21597,7 +22981,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 175,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -21738,7 +23122,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 52,
-    "rank": 189,
+    "rank": 203,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.9
@@ -21895,7 +23279,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 45,
-    "rank": 122,
+    "rank": 131,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -22052,7 +23436,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 99,
+    "rank": 105,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.4
@@ -22209,7 +23593,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 52,
-    "rank": 165,
+    "rank": 178,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -22366,7 +23750,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 51,
-    "rank": 134,
+    "rank": 144,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.4
@@ -22523,7 +23907,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 127,
+    "rank": 136,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -22680,7 +24064,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 50,
-    "rank": 147,
+    "rank": 158,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.9
@@ -22837,7 +24221,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 172,
+    "rank": 185,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.8
@@ -22946,7 +24330,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 38,
-    "rank": 157,
+    "rank": 169,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -23055,7 +24439,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 38,
-    "rank": 151,
+    "rank": 163,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.1
@@ -23164,7 +24548,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 39,
-    "rank": 213,
+    "rank": 230,
     "ratingGames": 4,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -23337,7 +24721,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 49,
-    "rank": 197,
+    "rank": 211,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -23462,7 +24846,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 125,
+    "rank": 134,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
@@ -23587,7 +24971,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 43,
-    "rank": 140,
+    "rank": 150,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -23712,7 +25096,7 @@
     "week": 1,
     "rating": -0.6,
     "confidence": 42,
-    "rank": 136,
+    "rank": 146,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
@@ -23837,7 +25221,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 38,
-    "rank": 116,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.9
@@ -23962,7 +25346,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 176,
+    "rank": 189,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -24087,7 +25471,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 183,
+    "rank": 196,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -24212,7 +25596,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 42,
-    "rank": 168,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.1
@@ -24337,7 +25721,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 44,
-    "rank": 199,
+    "rank": 213,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.3
@@ -24462,7 +25846,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 44,
-    "rank": 149,
+    "rank": 161,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -24587,7 +25971,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 44,
-    "rank": 192,
+    "rank": 206,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.1
@@ -24712,7 +26096,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 150,
+    "rank": 162,
     "ratingGames": 5,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0
@@ -24837,7 +26221,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 47,
-    "rank": 198,
+    "rank": 212,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -24962,7 +26346,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 45,
-    "rank": 145,
+    "rank": 156,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -25087,7 +26471,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 45,
-    "rank": 195,
+    "rank": 209,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
@@ -25212,7 +26596,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 45,
-    "rank": 177,
+    "rank": 190,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -25337,7 +26721,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 41,
-    "rank": 163,
+    "rank": 176,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.4
@@ -25478,7 +26862,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 46,
-    "rank": 128,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1
@@ -25619,7 +27003,7 @@
     "week": 1,
     "rating": -2.6,
     "confidence": 48,
-    "rank": 208,
+    "rank": 225,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -25760,10 +27144,151 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 121,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "f3d6fe67-ef5d-46e9-84d2-e2a75c408bc7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 98,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Elsie Koo",
+    "vs": [
+     "Clarisse Espiritu",
+     "Kristina Salomia"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Jennifer Kline",
+     "Brian Kline"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Jordan Pirrello",
+     "Michael Fidelino"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Allyson Fry",
+    "vs": [
+     "Jordan Pirrello",
+     "Kristina Salomia"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Kevin Wan",
+    "vs": [
+     "Kristina Salomia",
+     "Brian Kline"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Allyson Fry",
+    "vs": [
+     "Jordan Pirrello",
+     "Kristina Salomia"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.2,
+    "confidence": 47,
+    "rank": 107,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -25901,9 +27426,150 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 49,
-    "rank": 144,
+    "rank": 154,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "dd6c56e0-9ff5-46ae-bc4a-0e7fa7cae5fa": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 89,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Brian Kline",
+     "Tom Draney"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Angie Habib",
+    "vs": [
+     "Kristina Salomia",
+     "Jonathan Bautista"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Jennifer Kline",
+     "Tom Draney"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Steven Koo",
+    "vs": [
+     "Jonathan Bautista",
+     "Tom Draney"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Tara Oko",
+    "vs": [
+     "Kristina Salomia",
+     "Brian Kline"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Peter Liang",
+    "vs": [
+     "Michael Fidelino",
+     "Brian Kline"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 49,
+    "rank": 155,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
    }
   ],
@@ -26042,7 +27708,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 159,
+    "rank": 171,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.4
@@ -26183,10 +27849,151 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 49,
-    "rank": 166,
+    "rank": 179,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.5
+   }
+  ],
+  "partners": []
+ },
+ "ccab801b-845c-4021-9ac9-146b1cdc1aef": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 74,
+    "pa": 124,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Kristina Salomia",
+     "Jonathan Bautista"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Jennifer Kline",
+     "Jordan Pirrello"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Elsie Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Jordan Pirrello"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Tara Oko",
+    "vs": [
+     "Jordan Pirrello",
+     "Kristina Salomia"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Steven Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Tom Draney"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Tara Oko",
+    "vs": [
+     "Jordan Pirrello",
+     "Kristina Salomia"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.8,
+    "confidence": 45,
+    "rank": 201,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
@@ -26340,7 +28147,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 158,
+    "rank": 170,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
@@ -26497,7 +28304,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 132,
+    "rank": 141,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
@@ -26654,7 +28461,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 186,
+    "rank": 199,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
@@ -26811,7 +28618,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 51,
-    "rank": 178,
+    "rank": 191,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -26968,9 +28775,166 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 51,
-    "rank": 119,
+    "rank": 128,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "c52386ce-a722-4da6-8838-4a28882a4e83": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 109,
+    "pa": 145,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Allyson Fry",
+    "vs": [
+     "Kristina Salomia",
+     "Jonathan Bautista"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Steven Koo",
+    "vs": [
+     "Jonathan Bautista",
+     "Michael Fidelino"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Tara Oko",
+    "vs": [
+     "Jennifer Kline",
+     "Brian Kline"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Jonathan Bautista",
+     "Michael Fidelino"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Angie Habib",
+    "vs": [
+     "Kristina Salomia",
+     "Brian Kline"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Peter Liang",
+    "vs": [
+     "Brian Kline",
+     "Michael Fidelino"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Jonathan Bautista",
+     "Tom Draney"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 49,
+    "rank": 143,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
    }
   ],
@@ -27125,7 +29089,7 @@
     "week": 1,
     "rating": -3,
     "confidence": 52,
-    "rank": 211,
+    "rank": 228,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -27282,7 +29246,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 138,
+    "rank": 148,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.5
@@ -27439,7 +29403,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 48,
-    "rank": 191,
+    "rank": 205,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1.8
@@ -27596,7 +29560,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 47,
-    "rank": 185,
+    "rank": 198,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.4
@@ -27721,7 +29685,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 180,
+    "rank": 193,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": -0.6
@@ -27814,7 +29778,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 29,
-    "rank": 182,
+    "rank": 195,
     "ratingGames": 3,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1
@@ -27907,7 +29871,7 @@
     "week": 1,
     "rating": -2.7,
     "confidence": 34,
-    "rank": 209,
+    "rank": 226,
     "ratingGames": 3,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
@@ -28064,7 +30028,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 174,
+    "rank": 187,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
@@ -28189,7 +30153,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 156,
+    "rank": 168,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -28314,7 +30278,7 @@
     "week": 1,
     "rating": -3,
     "confidence": 41,
-    "rank": 212,
+    "rank": 229,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.4
@@ -28439,7 +30403,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 40,
-    "rank": 193,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -28564,7 +30528,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 37,
-    "rank": 181,
+    "rank": 194,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.9
@@ -28673,10 +30637,151 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 40,
-    "rank": 210,
+    "rank": 227,
     "ratingGames": 4,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": []
+ },
+ "13da8b1a-a1ac-4d31-8ffd-ad6754a04671": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 87,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Clarisse Espiritu",
+     "Michael Fidelino"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Kevin Wan",
+    "vs": [
+     "Brian Kline",
+     "Tom Draney"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Jonathan Bautista",
+     "Michael Fidelino"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Tara Oko",
+    "vs": [
+     "Jordan Pirrello",
+     "Michael Fidelino"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Clarisse Espiritu",
+     "Jonathan Bautista"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Jonathan Bautista",
+     "Tom Draney"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.9,
+    "confidence": 47,
+    "rank": 160,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
@@ -28798,7 +30903,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 46,
-    "rank": 205,
+    "rank": 222,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.8
@@ -28939,7 +31044,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 43,
-    "rank": 200,
+    "rank": 214,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.9
@@ -29064,7 +31169,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 43,
-    "rank": 202,
+    "rank": 216,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.7
@@ -29205,7 +31310,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 45,
-    "rank": 206,
+    "rank": 223,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.3
@@ -29330,7 +31435,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 43,
-    "rank": 201,
+    "rank": 215,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.8
@@ -29471,7 +31576,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 48,
-    "rank": 204,
+    "rank": 218,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.5
@@ -29612,7 +31717,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 45,
-    "rank": 179,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.8
@@ -29753,10 +31858,151 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 44,
-    "rank": 207,
+    "rank": 224,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.6
+   }
+  ],
+  "partners": []
+ },
+ "be764ab0-026a-470d-a137-09b0d3caf629": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 72,
+    "pa": 126,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Peter Liang",
+    "vs": [
+     "Jordan Pirrello",
+     "Tom Draney"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Kevin Wan",
+    "vs": [
+     "Kristina Salomia",
+     "Jonathan Bautista"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Clarisse Espiritu",
+     "Kristina Salomia"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Kristina Salomia",
+     "Brian Kline"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Elsie Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Clarisse Espiritu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Peter Liang",
+    "vs": [
+     "Jordan Pirrello",
+     "Michael Fidelino"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 51,
+    "rank": 221,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": []
@@ -29878,10 +32124,167 @@
     "week": 1,
     "rating": -3.3,
     "confidence": 43,
-    "rank": 215,
+    "rank": 232,
     "ratingGames": 5,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
+ "41583f01-cdf1-4b22-8e2c-9d58bcad16d9": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 89,
+    "pa": 147,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Angie Habib",
+    "vs": [
+     "Jordan Pirrello",
+     "Tom Draney"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Jordan Pirrello",
+     "Tom Draney"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Steven Koo",
+    "vs": [
+     "Brian Kline",
+     "Tom Draney"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Elsie Koo",
+    "vs": [
+     "Clarisse Espiritu",
+     "Jonathan Bautista"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Brian Kline",
+     "Michael Fidelino"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Angie Habib",
+    "vs": [
+     "Jordan Pirrello",
+     "Michael Fidelino"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Kevin Wan",
+    "vs": [
+     "Michael Fidelino",
+     "Brian Kline"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 50,
+    "rank": 172,
+    "ratingGames": 7,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []
@@ -30035,7 +32438,7 @@
     "week": 1,
     "rating": -3.3,
     "confidence": 51,
-    "rank": 214,
+    "rank": 231,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.4
@@ -30192,10 +32595,465 @@
     "week": 1,
     "rating": -3.8,
     "confidence": 47,
-    "rank": 216,
+    "rank": 234,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "1ae6c582-2fb0-42ae-9f7b-2448c6c5e1da": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 56,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Elsie Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Brian Kline"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Brandon Pfeffer",
+    "vs": [
+     "Jonathan Bautista",
+     "Michael Fidelino"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Elsie Koo",
+    "vs": [
+     "Clarisse Espiritu",
+     "Michael Fidelino"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Peter Liang",
+    "vs": [
+     "Brian Kline",
+     "Tom Draney"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "male",
+    "with": "Kevin Wan",
+    "vs": [
+     "Jonathan Bautista",
+     "Tom Draney"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Allyson Fry",
+    "vs": [
+     "Jennifer Kline",
+     "Tom Draney"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3.5,
+    "confidence": 50,
+    "rank": 233,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 2.2
+   }
+  ],
+  "partners": []
+ },
+ "36a2b97b-af46-4bbf-a09d-31c0d7b9bee2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 74,
+    "pa": 147,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Clarisse Espiritu",
+     "Michael Fidelino"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Allyson Fry",
+    "vs": [
+     "Jennifer Kline",
+     "Jordan Pirrello"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Peter Liang",
+    "vs": [
+     "Jordan Pirrello",
+     "Tom Draney"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Angie Habib",
+    "vs": [
+     "Clarisse Espiritu",
+     "Kristina Salomia"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Kevin Wan",
+    "vs": [
+     "Jennifer Kline",
+     "Tom Draney"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Amr Shaheed",
+    "vs": [
+     "Clarisse Espiritu",
+     "Jonathan Bautista"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Elsie Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Clarisse Espiritu"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 52,
+    "rank": 220,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 2.5
+   }
+  ],
+  "partners": []
+ },
+ "fa1427f8-260f-46cf-b110-61520a82a66a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Manahawkin",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 70,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Steven Koo",
+    "vs": [
+     "Jennifer Kline",
+     "Brian Kline"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Tara Oko",
+    "vs": [
+     "Clarisse Espiritu",
+     "Kristina Salomia"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Steven Koo",
+    "vs": [
+     "Clarisse Espiritu",
+     "Michael Fidelino"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Allyson Fry",
+    "vs": [
+     "Jennifer Kline",
+     "Jordan Pirrello"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "mixed",
+    "with": "Peter Liang",
+    "vs": [
+     "Clarisse Espiritu",
+     "Jonathan Bautista"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Angie Habib",
+    "vs": [
+     "Jennifer Kline",
+     "Clarisse Espiritu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Manahawkin",
+    "t": "female",
+    "with": "Abeer Massoud",
+    "vs": [
+     "Jennifer Kline",
+     "Clarisse Espiritu"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.4,
+    "confidence": 47,
+    "rank": 219,
+    "ratingGames": 7,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 2.6
    }
   ],
   "partners": []

@@ -41,9 +41,9 @@
       "weekNumber": 1,
       "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
       "awayTeamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 416,
+      "awayPoints": 675,
+      "endResult": "away",
       "scheduledTime": "2026-08-26T19:30:00",
       "homeName": "Dill Dinkers Freehold",
       "awayName": "Picklr Manahawkin"
