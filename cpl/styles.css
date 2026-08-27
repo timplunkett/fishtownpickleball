@@ -1314,12 +1314,35 @@ thead th:focus-visible,
   white-space: nowrap;
 }
 
+/* Both header bands stick, so a 21-column matrix still says which team and which
+   opponent a cell belongs to once it has been scrolled away from its edges. The
+   background is opaque because the cells scroll underneath, and the row header
+   outranks the column header at the corner where the two cross. */
+.grid-wrap thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+}
+
+.grid-wrap th.row {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  text-align: left;
+  background: var(--bg);
+}
+
+.grid-wrap thead th.row {
+  z-index: 4;
+}
+
 .grid-wrap th.col {
   text-align: center;
 }
 
-.grid-wrap th.row {
-  text-align: left;
+.grid-wrap th.row[data-team] {
+  cursor: pointer;
 }
 
 .grid-wrap td {
@@ -1465,6 +1488,63 @@ thead th:focus-visible,
   color: var(--txt);
 }
 
+/* By-week grid: one column per week, so the width is the length of the season
+   however many teams the pod holds. Cells are narrower than the matrix's because
+   they carry a four-character opponent code rather than a team name. */
+.grid-wrap .gweeks td {
+  width: 74px;
+}
+
+/* No match that week. Distinct from the matrix's "not scheduled to meet"
+   hatching: an empty week is unremarkable, so it recedes rather than announcing
+   itself. */
+.grid-wrap .gweeks td.bye {
+  background: none;
+  border-style: dashed;
+  border-color: color-mix(in srgb, var(--line) 55%, transparent);
+}
+
+/* Two matches in one week, which a pod running a Saturday and a Sunday fixture
+   produces. No single opponent to point at, so the cell isn't a link. */
+.grid-wrap .gweeks td.win-multi,
+.grid-wrap .gweeks td.loss-multi,
+.grid-wrap .gweeks td.split-multi,
+.grid-wrap .gweeks td.upcoming-multi {
+  padding: 0;
+  vertical-align: top;
+}
+
+.grid-wrap .gweeks .entry .opp {
+  color: var(--txt);
+  letter-spacing: 0.02em;
+}
+
+.grid-wrap .gweeks .entry.next .opp {
+  color: var(--mut);
+}
+
+/* The opponent codes are only guessable next to the names they stand for, and in
+   this view the row headers no longer spell out every team in the grid. */
+.grid-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  max-width: 780px;
+  margin: 8px 2px 0;
+  color: var(--mut);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.grid-key .gkey-item {
+  white-space: nowrap;
+}
+
+.grid-key b {
+  color: var(--txt);
+  font-weight: 700;
+}
+
 /* Rating distribution beeswarm */
 .swarm-panel {
   padding: 14px 16px;
@@ -1529,27 +1609,22 @@ thead th:focus-visible,
   font-size: 13px;
 }
 
-/* Head-to-head grid: full team names on desktop, short names on mobile */
-.grid-wrap th.row .abbr {
-  display: none;
-}
-
+/* Head-to-head grid, narrow screens */
 @media (max-width: 560px) {
-  .grid-wrap th.row .full,
   .grid-wrap .gword {
     display: none;
   }
 
-  .grid-wrap th.row .abbr {
-    display: inline;
-  }
-
-  /* Stretch to the viewport and use a fixed layout so the five opponent
-     columns stay equal width and the whole grid fits without scrolling. */
+  /* Size to content and scroll. This used to stretch to the viewport with
+     table-layout: fixed, which divided the width by the column count — fine for
+     the five or six opponents a grid held when it was written, unreadable at the
+     18 and 21 the pods reach now (a 375px phone gave each column 15px). A cell
+     has a floor below which it says nothing, so past that the grid has to be
+     wider than the screen and .grid-wrap's overflow-x has to carry it. The
+     sticky row header is what makes that scroll navigable. */
   .grid-wrap table {
-    width: 100%;
+    width: auto;
     border-spacing: 3px;
-    table-layout: fixed;
   }
 
   .grid-wrap th {
@@ -1557,13 +1632,13 @@ thead th:focus-visible,
     font-size: 10px;
   }
 
-  .grid-wrap th.row {
-    width: 58px;
+  .grid-wrap td {
+    width: 64px;
+    padding: 3px 1px;
   }
 
-  .grid-wrap td {
-    width: auto;
-    padding: 3px 1px;
+  .grid-wrap .gweeks td {
+    width: 56px;
   }
 
   .grid-wrap .gdot {
@@ -1583,6 +1658,11 @@ thead th:focus-visible,
   .grid-wrap .entry .sc,
   .grid-wrap .entry .pd {
     font-size: 9px;
+  }
+
+  .grid-key {
+    gap: 1px 10px;
+    font-size: 10px;
   }
 }
 

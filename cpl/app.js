@@ -74,7 +74,17 @@ const RESULT_CLASS = Object.freeze({
   neutral: 'mut',
 });
 // Shared client utilities (cpl/shared.js loads before this file).
-const { escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex } = window.CPLShared;
+const {
+  escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex, buildTeamAbbreviations,
+} = window.CPLShared;
+
+// Hand-written abbreviations, for the cases the algorithm gets right but reads
+// badly. `label` is the header form, `code` the cell chip; either may be given
+// alone. An override is applied before uniqueness is resolved, so the rest of
+// the division moves around it. Keep this near-empty: an entry here is a claim
+// that this team is a special case, and every entry is one more thing to keep in
+// step with the league's own naming.
+const TEAM_ABBR_OVERRIDES = Object.freeze({});
 
 const elements = {
   body: getRequiredElement('body'),
@@ -84,6 +94,7 @@ const elements = {
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
   gridHost: getRequiredElement('grid-host'),
+  gridViewToggle: getRequiredElement('grid-view'),
   head: getRequiredElement('head'),
   kicker: getRequiredElement('kicker'),
   mainView: getRequiredElement('mainview'),
@@ -105,9 +116,29 @@ const elements = {
   title: getRequiredElement('title'),
 };
 
+// Scoped to the division rather than to each pod's grid. A pod-scoped pass would
+// be a little shorter, but every pod of a division renders on this one page, and
+// a team reading "HAMI" in one section and "KING" in the next is worse than a
+// character or two of width.
+//
+// Built over the schedule as well as the standings, because the two don't always
+// agree: 3.25 Womens has 13 matches against a team with no row in DATA.teams
+// (Pickleball Kingdom Hillsborough, which the league dropped from the division
+// without dropping its fixtures). The matrix never showed such a team — it only
+// ever drew pairs of rostered teams — but the by-week grid names each opponent
+// inside the cell, so an opponent missing here falls back to its full name and
+// takes the whole column with it.
 const TEAM_ABBR = Object.freeze(buildTeamAbbreviations(
-  (Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name),
+  [...new Set([
+    ...(Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name),
+    ...(DATA.matches || []).flatMap((match) => [match.home, match.away]),
+  ])].filter(Boolean),
+  TEAM_ABBR_OVERRIDES,
 ));
+
+// Teams with a row of their own. An opponent outside this set still gets a code
+// and a key entry, but no row and no link — there's no team page to open.
+const ROSTERED_TEAMS = new Set((Array.isArray(DATA.teams) ? DATA.teams : []).map((team) => team.name));
 
 // Build a name → rating lookup from DATA (the division's data-<slug>.js loads
 // before app.js).
@@ -237,37 +268,12 @@ function isMissing(value) {
   return value === null || value === undefined;
 }
 
-function abbreviateTeamName(teamName) {
-  const normalizedName = String(teamName || '').trim();
-  const words = normalizedName.split(/[^A-Za-z0-9]+/).filter(Boolean);
-  if (!words.length) return normalizedName;
-  if (normalizedName.length <= 12) return normalizedName;
-  if (words.length === 1) return words[0].slice(0, 8);
-  return words.map((word) => word[0]).join('').toUpperCase().slice(0, 4);
+function teamLabel(teamName) {
+  return (TEAM_ABBR[teamName] && TEAM_ABBR[teamName].label) || teamName;
 }
 
-function buildTeamAbbreviations(teamNames) {
-  const abbreviations = {};
-  const used = new Set();
-
-  teamNames.forEach((teamName) => {
-    let abbreviation = abbreviateTeamName(teamName) || String(teamName || '');
-    if (!used.has(abbreviation)) {
-      abbreviations[teamName] = abbreviation;
-      used.add(abbreviation);
-      return;
-    }
-
-    let attempt = 2;
-    while (used.has(`${abbreviation}${attempt}`)) {
-      attempt += 1;
-    }
-    abbreviation = `${abbreviation}${attempt}`;
-    abbreviations[teamName] = abbreviation;
-    used.add(abbreviation);
-  });
-
-  return abbreviations;
+function teamCode(teamName) {
+  return (TEAM_ABBR[teamName] && TEAM_ABBR[teamName].code) || teamName;
 }
 
 function getTeamColor(teamName) {
@@ -2253,9 +2259,35 @@ function handlePartnerChipClick(event) {
   }
 }
 
+// Every grid rendered on this page, in the order the sections appear. One entry
+// per pod, or a single entry for the whole division when it has no pods.
+function gridSections() {
+  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
+  if (podCount <= 1) {
+    return [{ heading: '', teams: DATA.teams.map((team) => team.name) }];
+  }
+  return Array.from({ length: podCount }, (_, index) => ({
+    heading: podLabel(index + 1),
+    teams: DATA.teams.filter((team) => team.pod === index + 1).map((team) => team.name),
+  })).filter((section) => section.teams.length);
+}
+
+// The matrix is one column per opponent, so its width is the pod size and its
+// area is the pod size squared — but a team meets only 7 or 8 opponents whatever
+// the pod size, so past a certain point most of that area is the hatching for
+// pairs that never meet. In the 21-team section of 3.5 (50+) it is 63% of the
+// cells. The by-week grid is one column per week instead, which is a constant,
+// and nearly every cell holds a match.
+//
+// By week is the default everywhere, not only where the matrix has outgrown the
+// page. Sizing the default to the pod meant the same section changed shape when
+// a team joined it, and one reading for the whole league is worth more than the
+// couple of columns a small pod saves. The matrix stays a click away.
+const DEFAULT_GRID_VIEW = 'weeks';
+let gridView = DEFAULT_GRID_VIEW;
+
 function renderResultsGrid() {
   const allTeams = DATA.teams.map((team) => team.name);
-  const abbr = (name) => TEAM_ABBR[name] || name;
   const results = {};
   allTeams.forEach((row) => { results[row] = {}; allTeams.forEach((col) => { results[row][col] = []; }); });
   (DATA.matches || []).filter((match) => match.complete).forEach((match) => {
@@ -2297,9 +2329,149 @@ function renderResultsGrid() {
       <div class="sc">${escapeHtml(formatShortDate(info.time))}</div>
     </div>`;
 
-  const renderGridForTeams = (teams) => {
-    const headRow = `<tr><th></th>${teams
-      .map((col) => `<th class="col"><span class="gdot" style="background:${getTeamColor(col)}"></span>${escapeHtml(abbr(col))}</th>`)
+  // Every match a team plays, keyed by team then week. A week can hold two: pods
+  // that run a Saturday and a Sunday fixture both count as the same week.
+  const byTeamWeek = {};
+  allTeams.forEach((team) => { byTeamWeek[team] = {}; });
+  (DATA.matches || []).forEach((match) => {
+    [[match.home, match.away, true], [match.away, match.home, false]].forEach(([team, opponent, home]) => {
+      if (!byTeamWeek[team]) return;
+      if (!byTeamWeek[team][match.week]) byTeamWeek[team][match.week] = [];
+      const played = !!match.complete;
+      byTeamWeek[team][match.week].push({
+        opponent,
+        played,
+        win: played ? (match.result === 'home') === home : null,
+        gf: home ? match.homeGW : match.awayGW,
+        ga: home ? match.awayGW : match.homeGW,
+        pd: home ? match.homePoints - match.awayPoints : match.awayPoints - match.homePoints,
+        time: match.time,
+        provisional: !!match.provisional,
+      });
+    });
+  });
+
+  // Only rostered teams have a page to open.
+  const teamLink = (name) => (ROSTERED_TEAMS.has(name)
+    ? `data-team="${slugify(name)}" tabindex="0" role="link" aria-label="Open ${escapeHtml(name)} team page"`
+    : '');
+
+  // Row headers carry the abbreviation, not the full name. The row-header column
+  // is `white-space: nowrap`, so a full name set its width for the whole table —
+  // "Pickleball Kingdom Tinton Falls" alone made 3.25 Womens scroll. The full
+  // name stays in the title, and the key below the grid spells every one out.
+  const rowHeader = (name) => (
+    `<th class="row" ${teamLink(name)} title="${escapeHtml(name)}"><span class="gdot" style="background:${getTeamColor(name)}"></span><span class="abbr">${escapeHtml(teamLabel(name))}</span></th>`
+  );
+
+  // Every code the section actually shows, spelled out. Built from what was
+  // rendered rather than from the team list, so an opponent with no row of its
+  // own is still decodable.
+  const keyHtml = (names) => {
+    const items = [...new Set(names)]
+      .sort((a, b) => teamCode(a).localeCompare(teamCode(b)))
+      .map((name) => `<span class="gkey-item"><b>${escapeHtml(teamCode(name))}</b> ${escapeHtml(name)}</span>`)
+      .join('');
+    return `<div class="grid-key">${items}</div>`;
+  };
+
+  // The earliest unplayed match for each team, so NEXT marks the one match it
+  // actually means. Every later fixture is dated but unlabelled — in this view
+  // the week column already puts them in order.
+  const nextUnplayed = {};
+  allTeams.forEach((team) => {
+    const pending = Object.keys(byTeamWeek[team] || {})
+      .map(Number)
+      .sort((a, b) => a - b)
+      .flatMap((week) => byTeamWeek[team][week].filter((entry) => !entry.played));
+    if (pending.length) nextUnplayed[team] = pending[0];
+  });
+
+  const weekEntryHtml = (entry, team) => {
+    const opponent = escapeHtml(entry.opponent);
+    const code = escapeHtml(teamCode(entry.opponent));
+    const provisional = entry.provisional ? ' · P' : '';
+    if (!entry.played) {
+      const imminent = nextUnplayed[team] === entry;
+      return `
+        <div class="entry next">
+          <div class="wk opp" title="${opponent}">${code}</div>
+          ${imminent ? '<div class="res">NEXT</div>' : ''}
+          <div class="sc">${escapeHtml(formatShortDate(entry.time))}</div>
+        </div>`;
+    }
+    return `
+      <div class="entry ${entry.win ? 'win' : 'loss'}">
+        <div class="wk opp" title="${opponent}${entry.provisional ? ' · provisional result' : ''}">${code}${provisional}</div>
+        <div class="res">${entry.win ? 'W' : 'L'}</div>
+        <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
+        <div class="pd ${entry.pd >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.pd)}</div>
+      </div>`;
+  };
+
+  // Rows are teams and columns are weeks, so the width is the length of the
+  // season however many teams share the grid. The opponent moves inside the
+  // cell, which is what the four-character code is for.
+  const renderWeeksForTeams = (teams) => {
+    const weeks = Array.from(new Set(
+      teams.flatMap((team) => Object.keys(byTeamWeek[team] || {}).map(Number)),
+    )).sort((a, b) => a - b);
+
+    if (!weeks.length) return '';
+
+    const headRow = `<tr><th class="row"></th>${weeks
+      .map((week) => `<th class="col" scope="col">Wk ${week}</th>`)
+      .join('')}</tr>`;
+
+    const bodyRows = teams
+      .map((team) => {
+        const cells = weeks
+          .map((week) => {
+            const entries = (byTeamWeek[team][week] || []).slice()
+              .sort((a, b) => String(a.time || '').localeCompare(String(b.time || '')));
+            if (!entries.length) return '<td class="bye"></td>';
+
+            const played = entries.filter((entry) => entry.played);
+            let className;
+            if (!played.length) {
+              className = 'upcoming';
+            } else {
+              const wins = played.filter((entry) => entry.win).length;
+              const losses = played.length - wins;
+              if (wins > losses) className = 'win';
+              else if (losses > wins) className = 'loss';
+              else className = 'split';
+            }
+            if (entries.length > 1) className += '-multi';
+
+            // The row already names this team, so the cell points at the
+            // opponent — one destination per cell rather than a whole row of
+            // links to the same page. Two matches in a week share a cell and
+            // have no one opponent to point at; an opponent dropped from the
+            // division has no page. Either way `played` comes off with the
+            // link, since it is what makes a cell look clickable.
+            const link = entries.length === 1 ? teamLink(entries[0].opponent) : '';
+            const cellClass = link ? `played ${className}` : className;
+            const inner = entries.map((entry) => weekEntryHtml(entry, team)).join('');
+            return `<td class="${cellClass}" ${link}>${inner}</td>`;
+          })
+          .join('');
+        return `<tr>${rowHeader(team)}${cells}</tr>`;
+      })
+      .join('');
+
+    // Opponents as well as rows: a team can face someone with no row here, from
+    // another section or dropped from the division mid-season.
+    const shown = teams.concat(teams.flatMap((team) => weeks.flatMap(
+      (week) => (byTeamWeek[team][week] || []).map((entry) => entry.opponent),
+    )));
+
+    return `<table class="gweeks"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table>${keyHtml(shown)}`;
+  };
+
+  const renderMatrixForTeams = (teams) => {
+    const headRow = `<tr><th class="row"></th>${teams
+      .map((col) => `<th class="col" scope="col"><span class="gdot" style="background:${getTeamColor(col)}"></span>${escapeHtml(teamLabel(col))}</th>`)
       .join('')}</tr>`;
 
     const bodyRows = teams
@@ -2333,30 +2505,53 @@ function renderResultsGrid() {
               className += '-multi';
             }
             const inner = list.map(entryHtml).join('') + (next ? nextHtml(next) : '');
-            return `<td class="played ${className}" data-team="${slugify(row)}" tabindex="0" role="link" aria-label="Open ${escapeHtml(row)} team page">${inner}</td>`;
+            return `<td class="played ${className}" ${teamLink(row)}>${inner}</td>`;
           })
           .join('');
-        return `<tr><th class="row"><span class="gdot" style="background:${getTeamColor(row)}"></span><span class="full">${escapeHtml(row)}</span><span class="abbr">${escapeHtml(abbr(row))}</span></th>${cells}</tr>`;
+        return `<tr>${rowHeader(row)}${cells}</tr>`;
       })
       .join('');
 
-    return `<table>${headRow}${bodyRows}</table>`;
+    // The matrix needs the key too now. Its column headers were decodable only
+    // because the row headers spelled the same teams out in the same order, and
+    // they no longer do.
+    return `<table class="gmatrix"><thead>${headRow}</thead><tbody>${bodyRows}</tbody></table>${keyHtml(teams)}`;
   };
 
-  const cap = `<div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; hatched = not scheduled to meet. Cells stack both meetings once teams play home and away.</div>`;
+  const matrixCap = `<div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; hatched = not scheduled to meet. Cells stack both meetings once teams play home and away.</div>`;
 
-  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
-  if (podCount <= 1) {
-    elements.gridHost.innerHTML = `${renderGridForTeams(allTeams)}${cap}`;
+  const weeksCap = `<div class="grid-cap">Read across a row: that team's season week by week — <b>opponent</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks a scheduled matchup. Blank = no match that week. Opponents are shown by the code in the key below each grid; a cell holds two entries where a pod plays twice in one week. Read down a column to see how the whole pod fared that week. Click a cell for that opponent's page, or a team name for its own.</div>`;
+
+  const renderForTeams = gridView === 'weeks' ? renderWeeksForTeams : renderMatrixForTeams;
+  const cap = gridView === 'weeks' ? weeksCap : matrixCap;
+  const sections = gridSections();
+
+  if (sections.length === 1 && !sections[0].heading) {
+    elements.gridHost.innerHTML = `${renderForTeams(sections[0].teams)}${cap}`;
     return;
   }
 
-  const sections = [];
-  for (let p = 1; p <= podCount; p++) {
-    const podTeams = DATA.teams.filter((t) => t.pod === p).map((t) => t.name);
-    sections.push(`<div class="grid-pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3>${renderGridForTeams(podTeams)}</div>`);
-  }
-  elements.gridHost.innerHTML = `${sections.join('')}${cap}`;
+  elements.gridHost.innerHTML = sections
+    .map(({ heading, teams }) => (
+      `<div class="grid-pod-section"><h3 class="pod-heading">${escapeHtml(heading)}</h3>${renderForTeams(teams)}</div>`
+    ))
+    .join('') + cap;
+}
+
+function renderGridViewToggle() {
+  elements.gridViewToggle.querySelectorAll('button[data-gridview]').forEach((button) => {
+    const on = button.dataset.gridview === gridView;
+    button.classList.toggle('on', on);
+    button.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+}
+
+function handleGridViewClick(event) {
+  const button = event.target.closest('button[data-gridview]');
+  if (!button || button.dataset.gridview === gridView) return;
+  gridView = button.dataset.gridview;
+  renderGridViewToggle();
+  renderResultsGrid();
 }
 
 function computeSwarmLayout(players, geometry) {
@@ -2429,7 +2624,9 @@ function renderBeeswarm() {
 }
 
 function handleGridClick(event) {
-  const cell = event.target.closest('td.played');
+  // Body cells in both views, plus the by-week row headers, which are the only
+  // way to reach the team a row is about once its cells point at its opponents.
+  const cell = event.target.closest('td.played, th.row[data-team]');
   if (cell?.dataset.team) {
     routeSetByApp = true;
     setRouteInUrl({ team: cell.dataset.team, player: '' });
@@ -2482,6 +2679,7 @@ function initialize() {
   renderStandingsViewToggle();
   renderTeams();
   renderPlayoffs();
+  renderGridViewToggle();
   renderResultsGrid();
   renderTeamFilterOptions();
   renderPodFilterOptions();
@@ -2503,6 +2701,7 @@ function initialize() {
     }
   });
   elements.gridHost.addEventListener('click', handleGridClick);
+  elements.gridViewToggle.addEventListener('click', handleGridViewClick);
   elements.duoBody.addEventListener('click', handleDuoClick);
   elements.swarmHost.addEventListener('click', handleSwarmClick);
   elements.swarmHost.addEventListener('mouseover', handleSwarmOver);

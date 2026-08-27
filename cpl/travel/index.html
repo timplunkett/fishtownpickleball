@@ -32,7 +32,12 @@
 
   <div id="playoffs-host" hidden></div>
 
-  <h2>Head-to-Head <span class="tag">game record &amp; net point differential by week • click a cell for the team page</span></h2>
+  <h2>Head-to-Head <span class="tag">game record &amp; net point differential • click a cell for a team page</span>
+    <div class="viewtoggle" id="grid-view" role="group" aria-label="Head-to-head view">
+      <button type="button" data-gridview="weeks" aria-pressed="true">By week</button>
+      <button type="button" data-gridview="matrix" aria-pressed="false">Matrix</button>
+    </div>
+  </h2>
   <div class="grid-wrap" id="grid-host"></div>
 
   <h2>Player Leaderboard <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span></h2>
