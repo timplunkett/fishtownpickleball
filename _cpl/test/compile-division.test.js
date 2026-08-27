@@ -88,7 +88,9 @@ function writeDivision(dir, opts = {}) {
     },
   }, pendingDetail];
 
-  fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({ $values: matchups }));
+  fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({
+    $values: [...matchups, ...(opts.extraMatchups || [])],
+  }));
   // Callers may append extra roster rows, and reorder the list to stand in for
   // the API handing us the same roster in a different (rank-driven) order.
   const rows = [...players, ...(opts.extraPlayers || [])];
@@ -169,6 +171,39 @@ test('seeding does not disturb the stats of players who played', (t) => {
   assert.equal(aces.w, 1);
   assert.equal(aces.l, 0);
   assert.equal(aces.gw, 2);
+});
+
+// The league marks every roster row isSub until a captain confirms the roster,
+// and a team can be scheduled for a full season in that state. Pre-season, this
+// used to leave the team out of the standings while its fixtures showed on every
+// opponent's page — 3.25 Womens shipped that way on 2026-08-27.
+test('a scheduled team with no confirmed roster is still in the division', (t) => {
+  const allSubRoster = [
+    rosterPlayer('e1', 'Eve', 'Echo', 'team-e', 'Echoes', { isSub: true }),
+    rosterPlayer('e2', 'Eli', 'Evans', 'team-e', 'Echoes', { isSub: true }),
+  ];
+  const fixture = {
+    matchupId: 'm3', weekNumber: 3, homeTeamId: TEAMS.A, awayTeamId: 'team-e',
+    homeName: 'Aces', awayName: 'Echoes', homePoints: 0, awayPoints: 0,
+    endResult: null, scheduledTime: '2026-08-24T19:00:00',
+  };
+
+  ['preSeason', 'inSeason'].forEach((phase) => {
+    const { data } = compileToObjects(t, {
+      preSeason: phase === 'preSeason',
+      extraPlayers: allSubRoster,
+      extraMatchups: [fixture],
+    });
+    const names = data.teams.map((team) => team.name);
+    assert.ok(names.includes('Echoes'), `${phase}: Echoes is scheduled but missing from teams`);
+    // Its subs are still not roster members, so the team has no players.
+    assert.equal(data.players.filter((p) => p.team === 'Echoes').length, 0, `${phase}: subs became roster`);
+    // And every team named in the schedule has a row.
+    const scheduled = new Set(data.matches.flatMap((m) => [m.home, m.away]));
+    scheduled.forEach((name) => {
+      assert.ok(names.includes(name), `${phase}: ${name} plays but has no row`);
+    });
+  });
 });
 
 test('subs and placeholder teams are excluded from rosters', (t) => {

@@ -378,6 +378,22 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // the roster so the dashboard still shows something useful pre-season.
   if (!completed.length) {
     seedRosterPlayers();
+    // The schedule decides who is in the division; the roster only decides who
+    // has a roster. A team can have fixtures and no rostered player: the league
+    // marks every row isSub until a captain confirms the roster, and
+    // seedRosterPlayers skips subs, so nothing above would name that team.
+    // 3.25 Womens went out that way — ten teams in the league's own team list
+    // and a full round robin scheduled, but Pickleball Kingdom Hillsborough
+    // missing from the standings while its thirteen fixtures showed on every
+    // opponent's page.
+    //
+    // In-season this is already how it works, further down: teams come from the
+    // matchups and the roster fills them in. Pre-season now matches, so the
+    // division doesn't gain a team the moment its first match is scored.
+    for (const mu of matchups) {
+      if (mu.homeName) ensureTeam(mu.homeName);
+      if (mu.awayName) ensureTeam(mu.awayName);
+    }
     const teamArr = [...teams.values()].sort((a, b) => a.name.localeCompare(b.name));
     for (const t of teamArr) { t.diff = 0; t.gameDiff = 0; t.fmt = { mixed: [0, 0], male: [0, 0], female: [0, 0] }; t.power = null; }
     const playerArr = [...players.values()].sort((a, b) => a.name.localeCompare(b.name));

@@ -53,7 +53,7 @@ function makeToggle(id, attribute, views) {
   return element;
 }
 
-function runApp(dataFile) {
+function runApp(dataFile, mutate) {
   const elements = new Map();
   const toggles = {
     'standings-view': makeToggle('standings-view', 'view', ['cards', 'table']),
@@ -99,6 +99,9 @@ function runApp(dataFile) {
 
   load(path.join(CPL, 'shared.js'));
   load(dataFile);
+  // Lets a test bend the data before app.js reads it, for shapes the compiler no
+  // longer emits but a stale cached data-*.js still can.
+  if (mutate) mutate(context.window.DATA);
   context.DATA = context.window.DATA;
   // Normally set by bootstrap-runtime.js from the leg's division list.
   const meta = context.DATA.meta || {};
@@ -293,19 +296,26 @@ test('NEXT marks one fixture per team, not every future one', () => {
   });
 });
 
-// 3.25 Womens schedules 13 matches against Pickleball Kingdom Hillsborough, which
-// has no row in DATA.teams. The matrix never showed it — it only drew pairs of
-// rostered teams — but the by-week grid names each opponent inside the cell, so
-// an opponent the abbreviator never saw arrived as its full 31-character name and
-// took the column with it.
+// The compiler now guarantees every scheduled team a row, so this shape should
+// not reach the client — see the pre-season branch in compiler.js and
+// "a scheduled team with no confirmed roster is still in the division". It is
+// still worth holding the client to it: data-*.js files are cached in browsers
+// across deploys, so a page can be handed a division compiled before that fix,
+// and the failure was ugly — the by-week grid names each opponent inside the
+// cell, and an opponent the abbreviator never saw arrived as its full
+// 31-character name and took the column with it.
 test('an opponent with no row of its own is still abbreviated', () => {
   const division = DIVISIONS.find(({ file }) => file.endsWith('data-ad44e3bd.js'));
   assert.ok(division, 'expected the 3.25 Womens division to be compiled');
-  const app = runApp(division.file);
   const stray = 'Pickleball Kingdom Hillsborough';
 
-  const rostered = app.context.DATA.teams.map((team) => team.name);
-  assert.ok(!rostered.includes(stray), 'fixture assumes this team has no row');
+  // Reproduce what the old compiler emitted: fixtures kept, row dropped.
+  const app = runApp(division.file, (DATA) => {
+    const before = DATA.teams.length;
+    DATA.teams = DATA.teams.filter((team) => team.name !== stray);
+    assert.equal(DATA.teams.length, before - 1, `${stray} is not in this division any more`);
+  });
+
   assert.ok(
     (app.context.DATA.matches || []).some((m) => m.home === stray || m.away === stray),
     'fixture assumes this team still has fixtures',
