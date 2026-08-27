@@ -173,6 +173,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 10,
+    "rating": 2.4,
+    "confidence": 54,
+    "rank": 10,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -332,147 +341,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": []
- },
- "98842749-0d7d-4b20-b78a-50c79d087699": {
-  "log": [
-   {
-    "week": 9,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 117,
-    "pa": 107,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Scott Kacelowicz",
-     "Andrew Cho"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jessica Pao",
-    "vs": [
-     "Jodi Evans",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Andrew Cho",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jessica Pao",
-    "vs": [
-     "Mary Callaghan",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Graham Heavenrich",
-    "vs": [
-     "Andrew Cho",
-     "Jeff Jensen"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 9,
-    "rating": -0.5,
-    "confidence": 52,
-    "rank": 53,
+    "week": 10,
+    "rating": 1.5,
+    "confidence": 56,
+    "rank": 23,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -1.4
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -923,6 +800,15 @@
     "ratingGames": 18,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 10,
+    "rating": 2.2,
+    "confidence": 77,
+    "rank": 14,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -930,7 +816,7 @@
     "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
     "name": "Vicki Main",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    }
   ]
  },
@@ -1512,6 +1398,15 @@
     "ratingGames": 24,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 10,
+    "rating": -1,
+    "confidence": 81,
+    "rank": 59,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": [
@@ -1519,13 +1414,13 @@
     "pid": "c7a0b075-272d-4427-98c0-02955690731f",
     "name": "James Price",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
     "name": "Christy Beale",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "e05f57f5-c898-404e-b86f-c2460cc23b06",
@@ -1537,13 +1432,13 @@
     "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
     "name": "Chris Norton",
     "n": 7,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
     "name": "Jane Meng",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -1870,6 +1765,15 @@
     "ratingGames": 12,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 10,
+    "rating": 1.1,
+    "confidence": 70,
+    "rank": 29,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": [
@@ -1877,7 +1781,7 @@
     "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
     "name": "Kathy Cripps",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
@@ -1895,7 +1799,2086 @@
     "pid": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
     "name": "Kim Mchugh",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
+   }
+  ]
+ },
+ "98842749-0d7d-4b20-b78a-50c79d087699": {
+  "log": [
+   {
+    "week": 9,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 117,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 111,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Scott Kacelowicz",
+     "Andrew Cho"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jessica Pao",
+    "vs": [
+     "Jodi Evans",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Andrew Cho",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jessica Pao",
+    "vs": [
+     "Mary Callaghan",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Andrew Cho",
+     "Jeff Jensen"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Barb Flynn",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Barb Flynn",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Jeff Zamorski",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Frank Fang",
+     "Matt Hancock"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 9,
+    "rating": -0.5,
+    "confidence": 52,
+    "rank": 53,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 10,
+    "rating": 0.2,
+    "confidence": 69,
+    "rank": 40,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
+    "name": "Harrison Bohrer",
+    "n": 4,
+    "synergy": 0.5
+   }
+  ]
+ },
+ "99779531-e32b-47d5-b580-171a74844d91": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 119,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 135,
+    "pa": 110,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 129,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     4,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 135,
+    "pa": 105,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 118,
+    "pa": 137,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 121,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Tera Baccile",
+     "Keith Goldberg"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jonathan Goldner",
+     "Keith Goldberg"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathy Cripps",
+     "Keith Goldberg"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jonathan Goldner",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jonathan Goldner",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathy Cripps",
+     "Jonathan Goldner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jonathan Goldner",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "David Marchese",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Claudya Elefante",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "David Marchese",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "David Marchese",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Claudya Elefante",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "David Marchese",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jingwei Wu",
+     "Sal Bwint"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jingwei Wu",
+     "Sal Bwint"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Tera Baccile",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "James Price",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Christy Beale",
+     "Chris Norton"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "James Price",
+     "Michael Finkelstein"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "James Price",
+     "Michael Finkelstein"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Christy Beale",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "James Price",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Claudya Elefante",
+     "Keith Goldberg"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Tejas Goculdas",
+     "Keith Goldberg"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Nam Barsh",
+     "Keith Goldberg"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Tejas Goculdas",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Tejas Goculdas",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Tejas Goculdas",
+     "Keith Goldberg"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Emily Ocasio",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jared Quereau",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathleen Dougherty",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jared Quereau",
+     "Harvey Mitchell"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jared Quereau",
+     "Harvey Mitchell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathleen Dougherty",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jared Quereau",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 46,
+    "rank": 18,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 3,
+    "rating": 2.1,
+    "confidence": 65,
+    "rank": 9,
+    "ratingGames": 14,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 4,
+    "rating": 2,
+    "confidence": 67,
+    "rank": 12,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "rating": 2.9,
+    "confidence": 75,
+    "rank": 3,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 6,
+    "rating": 2.6,
+    "confidence": 81,
+    "rank": 7,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 7,
+    "rating": 2.6,
+    "confidence": 81,
+    "rank": 8,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 8,
+    "rating": 2.4,
+    "confidence": 82,
+    "rank": 7,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 9,
+    "rating": 2.1,
+    "confidence": 84,
+    "rank": 14,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "rating": 2.1,
+    "confidence": 86,
+    "rank": 16,
+    "ratingGames": 42,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
+    "name": "Megan Harvey",
+    "n": 12,
+    "synergy": 1.4
+   },
+   {
+    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
+    "name": "Jeff Zamorski",
+    "n": 12,
+    "synergy": 0.4
+   },
+   {
+    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
+    "name": "Frank Fang",
+    "n": 12,
+    "synergy": -0.2
+   },
+   {
+    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
+    "name": "Erika Richards",
+    "n": 5,
+    "synergy": -1.9
+   }
+  ]
+ },
+ "c1c58200-c49c-4797-9c4a-cee408744794": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 103,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 117,
+    "pa": 99,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 86,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 72,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 120,
+    "pa": 103,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Sarah Ross",
+    "vs": [
+     "Vicki Main",
+     "Allison Hartman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Jessica Pao",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Priya Narahari",
+     "Jessica Pao"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Jessica Pao",
+     "Graham Heavenrich"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Priya Narahari",
+     "Harvey Mitchell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jessica Pao",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Sarah Ross",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Carolina Reese",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jodi Evans",
+    "vs": [
+     "Tera Baccile",
+     "Carolina Reese"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Carolina Reese",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Tera Baccile",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Carolina Reese",
+     "Christy Beale"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Marykristin Haskell",
+     "Debra Schlosser"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matt Enz",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Linda Zhu",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Sal Bwint",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matt Enz",
+    "vs": [
+     "Debra Schlosser",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Linda Zhu",
+     "Jenna Posner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Megan Harvey",
+     "Linda Zhu"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Erika Richards",
+     "Jenna Posner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Jenna Posner",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Evan Oneill",
+    "vs": [
+     "Erika Richards",
+     "Frank Fang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Jenna Posner",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Vicki Main",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vicki Main",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Vicki Main",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Allison Hartman",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jodi Evans",
+    "vs": [
+     "Vicki Main",
+     "Jessica Pao"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Sarah Ross",
+    "vs": [
+     "Kathy Cripps",
+     "Kim Bohrer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Kim Bohrer",
+     "Robert Block"
+    ],
+    "f": 32,
+    "a": 30,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Katherine Maruyama",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Tera Baccile",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Sarah Ross",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "rating": -0.6,
+    "confidence": 52,
+    "rank": 47,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 4,
+    "rating": 0.9,
+    "confidence": 67,
+    "rank": 28,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "rating": 0.2,
+    "confidence": 76,
+    "rank": 40,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "rating": 0.1,
+    "confidence": 76,
+    "rank": 38,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 7,
+    "rating": 0,
+    "confidence": 76,
+    "rank": 38,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 8,
+    "rating": 1.2,
+    "confidence": 81,
+    "rank": 26,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 9,
+    "rating": 3,
+    "confidence": 83,
+    "rank": 3,
+    "ratingGames": 30,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 10,
+    "rating": 3.1,
+    "confidence": 86,
+    "rank": 3,
+    "ratingGames": 36,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
+    "name": "Andrew Cho",
+    "n": 4,
+    "synergy": 1.7
+   },
+   {
+    "pid": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
+    "name": "Scott Kacelowicz",
+    "n": 6,
+    "synergy": 1.6
+   },
+   {
+    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
+    "name": "Taina Wesner",
+    "n": 6,
+    "synergy": -0.3
+   },
+   {
+    "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
+    "name": "Sarah Ross",
+    "n": 4,
+    "synergy": -1.8
+   },
+   {
+    "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
+    "name": "Jenn Smith",
+    "n": 3,
+    "synergy": -2.5
    }
   ]
  },
@@ -2623,6 +4606,15 @@
     "ratingGames": 32,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "rating": 1,
+    "confidence": 85,
+    "rank": 31,
+    "ratingGames": 32,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -2630,19 +4622,19 @@
     "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
     "name": "Vicki Main",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
     "name": "Allison Hartman",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
     "name": "Harvey Mitchell",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "5e52dba4-992f-4352-b538-d2534d423c80",
@@ -2651,14 +4643,14 @@
     "synergy": -0.4
    },
    {
-    "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
-    "name": "Harrison Bohrer",
-    "n": 4,
-    "synergy": -0.6
-   },
-   {
     "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
     "name": "Emily Ocasio",
+    "n": 4,
+    "synergy": -0.5
+   },
+   {
+    "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
+    "name": "Harrison Bohrer",
     "n": 4,
     "synergy": -0.6
    }
@@ -3862,6 +5854,15 @@
     "ratingGames": 56,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 10,
+    "rating": 4.5,
+    "confidence": 89,
+    "rank": 1,
+    "ratingGames": 56,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": [
@@ -3869,13 +5870,13 @@
     "pid": "c0851114-0611-4b02-9589-fd249179eabc",
     "name": "Jamila Sefiane",
     "n": 3,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
     "name": "Christine Dugan",
     "n": 6,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
@@ -3887,13 +5888,13 @@
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
     "name": "Tejas Goculdas",
     "n": 14,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "2b02f2fe-f8f7-42a7-bb36-d3f2322cec7c",
     "name": "Tracey Carney",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.4
    },
    {
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
@@ -3909,27 +5910,108 @@
    }
   ]
  },
- "99779531-e32b-47d5-b580-171a74844d91": {
+ "013a0ee8-d510-472a-b8fb-7d19b1d5dc31": {
   "log": [
    {
-    "week": 2,
-    "opp": "Shrinky Dinks",
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 122,
+    "pa": 133,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 97,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
     "homeAway": "H",
     "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 119,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 83,
     "mx": [
      3,
      0
     ],
     "gn": [
      3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 161,
+    "pa": 115,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
      1
     ],
     "cl": [
-     3,
+     0,
      1
     ],
     "teamRes": "W",
@@ -3937,223 +6019,19 @@
     "teamGL": 14,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 135,
-    "pa": 110,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 129,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     4,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 135,
-    "pa": 105,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 118,
-    "pa": 137,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
+    "wk": 1,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Megan Harvey",
+    "with": "Robert Block",
     "vs": [
-     "Tera Baccile",
-     "Keith Goldberg"
+     "Emily Ocasio",
+     "Andre Cristobal"
     ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jonathan Goldner",
-     "Keith Goldberg"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Kathy Cripps",
-     "Keith Goldberg"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jonathan Goldner",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jonathan Goldner",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Kathy Cripps",
-     "Jonathan Goldner"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jonathan Goldner",
-     "Keith Goldberg"
-    ],
-    "f": 19,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -4161,77 +6039,13 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Katherine Maruyama",
     "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "David Marchese",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Claudya Elefante",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "David Marchese",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "David Marchese",
-     "Sandro Stefanelli"
+     "Emily Ocasio",
+     "Allison Hartman"
     ],
     "f": 21,
     "a": 17,
@@ -4241,125 +6055,45 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
+    "wk": 1,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Megan Harvey",
+    "with": "Matthew Shusterman",
     "vs": [
-     "Claudya Elefante",
-     "David Marchese"
+     "Jessica Pao",
+     "Harrison Bohrer"
     ],
     "f": 21,
-    "a": 7,
+    "a": 13,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kim Mchugh",
     "vs": [
-     "David Marchese",
-     "Tejas Goculdas"
+     "Vicki Main",
+     "Jessica Pao"
     ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Taina Wesner",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 23,
+    "f": 13,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jingwei Wu",
-     "Sal Bwint"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jingwei Wu",
-     "Sal Bwint"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
+    "wk": 1,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Megan Harvey",
+    "with": "Matthew Shusterman",
     "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
+     "Jessica Pao",
+     "Graham Heavenrich"
     ],
     "f": 21,
     "a": 19,
@@ -4369,61 +6103,13 @@
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 1,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Megan Harvey",
+    "with": "Robert Block",
     "vs": [
-     "Tera Baccile",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "James Price",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Christy Beale",
-     "Chris Norton"
+     "Vicki Main",
+     "Harvey Mitchell"
     ],
     "f": 15,
     "a": 21,
@@ -4433,109 +6119,13 @@
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Frank Fang",
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Carolina Reese",
     "vs": [
-     "James Price",
-     "Michael Finkelstein"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "James Price",
-     "Michael Finkelstein"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Christy Beale",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "James Price",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Claudya Elefante",
-     "Keith Goldberg"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Tejas Goculdas",
-     "Keith Goldberg"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Nam Barsh",
-     "Keith Goldberg"
+     "Jessica Pao",
+     "Barb Flynn"
     ],
     "f": 18,
     "a": 21,
@@ -4545,13 +6135,221 @@
     "subFor": null
    },
    {
-    "wk": 9,
+    "wk": 5,
     "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Frank Fang",
+    "t": "female",
+    "with": "Madeleine Shusterman",
     "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
+     "Claudya Elefante",
+     "Christine Dugan"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Casey Jannetta",
+    "vs": [
+     "Sandra Thompson",
+     "Todd Law"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Nam Barsh",
+     "Sandra Thompson"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Casey Jannetta",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Sandra Thompson",
+     "Jean Rosenbaum"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Marykristin Haskell",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Ange Bradley",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Marykristin Haskell",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Marykristin Haskell",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Marykristin Haskell",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Kathy BernéT",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Nancy Blank",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
     ],
     "f": 21,
     "a": 15,
@@ -4561,47 +6359,95 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 10,
+    "opp": "Baby Got Backhands",
     "t": "mixed",
-    "with": "Megan Harvey",
+    "with": "Robert Block",
     "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
+     "Vanessa Zommi Kungne",
+     "Jeff Jensen"
     ],
-    "f": 8,
-    "a": 21,
+    "f": 30,
+    "a": 32,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
     "vs": [
-     "Tejas Goculdas",
-     "Keith Goldberg"
+     "Nancy Blank",
+     "Jenn Smith"
     ],
-    "f": 10,
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Jenn Smith",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nancy Blank",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Nancy Blank",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Taina Wesner",
+     "Jenn Smith"
+    ],
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -4611,102 +6457,120 @@
   ],
   "ratingHistory": [
    {
-    "week": 2,
-    "rating": 1.1,
-    "confidence": 46,
-    "rank": 18,
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 51,
+    "rank": 22,
     "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
    },
    {
-    "week": 3,
-    "rating": 2.1,
-    "confidence": 65,
-    "rank": 9,
-    "ratingGames": 14,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 4,
-    "rating": 2,
-    "confidence": 67,
-    "rank": 12,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.5,
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 54,
+    "rank": 34,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.2
    },
    {
+    "week": 3,
+    "rating": 0,
+    "confidence": 55,
+    "rank": 37,
+    "ratingGames": 7,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 4,
+    "rating": 0,
+    "confidence": 56,
+    "rank": 42,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.4
+   },
+   {
     "week": 5,
-    "rating": 2.9,
-    "confidence": 75,
-    "rank": 3,
-    "ratingGames": 21,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0.9
+    "rating": 0.4,
+    "confidence": 70,
+    "rank": 36,
+    "ratingGames": 13,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 6,
-    "rating": 2.6,
-    "confidence": 81,
-    "rank": 7,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0.7
+    "rating": 1.4,
+    "confidence": 77,
+    "rank": 24,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
    },
    {
     "week": 7,
-    "rating": 2.6,
-    "confidence": 81,
-    "rank": 8,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0.7
+    "rating": 2,
+    "confidence": 77,
+    "rank": 15,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 8,
-    "rating": 2.4,
-    "confidence": 82,
-    "rank": 7,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0.6
+    "rating": 1.8,
+    "confidence": 77,
+    "rank": 19,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 9,
-    "rating": 2.1,
-    "confidence": 84,
-    "rank": 14,
-    "ratingGames": 35,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 1
+    "rating": 1.9,
+    "confidence": 78,
+    "rank": 15,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 10,
+    "rating": 2.4,
+    "confidence": 83,
+    "rank": 9,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
    {
-    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
-    "name": "Megan Harvey",
-    "n": 10,
-    "synergy": 1.3
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 3,
+    "synergy": 1.6
    },
    {
-    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
-    "name": "Jeff Zamorski",
-    "n": 10,
-    "synergy": 0.3
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 6,
+    "synergy": 0.6
    },
    {
-    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
-    "name": "Frank Fang",
-    "n": 10,
-    "synergy": -0.2
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 3,
+    "synergy": 0.2
    },
    {
-    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
-    "name": "Erika Richards",
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
     "n": 4,
-    "synergy": -1.6
+    "synergy": -0.7
    }
   ]
  },
@@ -4817,6 +6681,33 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 115,
+    "pa": 109,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -5205,6 +7096,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Barb Flynn",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Kathy BernéT",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Frank Fang",
+     "Matt Hancock"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -5288,9 +7275,24 @@
     "ratingGames": 24,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 10,
+    "rating": -0.7,
+    "confidence": 84,
+    "rank": 54,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": [
+   {
+    "pid": "98842749-0d7d-4b20-b78a-50c79d087699",
+    "name": "Lincoln Jensen",
+    "n": 4,
+    "synergy": 0.5
+   },
    {
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
@@ -5298,728 +7300,16 @@
     "synergy": -0.1
    },
    {
-    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
-    "name": "Priya Narahari",
-    "n": 4,
-    "synergy": -0.6
-   },
-   {
     "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
     "name": "Allison Hartman",
-    "n": 3,
-    "synergy": -1.2
-   }
-  ]
- },
- "c1c58200-c49c-4797-9c4a-cee408744794": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 113,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 103,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 117,
-    "pa": 99,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 86,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 72,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Sarah Ross",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Jessica Pao",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Priya Narahari",
-     "Jessica Pao"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Jessica Pao",
-     "Graham Heavenrich"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Michael Taylor",
-    "vs": [
-     "Priya Narahari",
-     "Harvey Mitchell"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Jessica Pao",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Sarah Ross",
-    "vs": [
-     "Katherine Maruyama",
-     "Kathy Cripps"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Carolina Reese",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Jodi Evans",
-    "vs": [
-     "Tera Baccile",
-     "Carolina Reese"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Carolina Reese",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Michael Taylor",
-    "vs": [
-     "Tera Baccile",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Nancy Blank",
-    "vs": [
-     "Carolina Reese",
-     "Christy Beale"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Marykristin Haskell",
-     "Debra Schlosser"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matt Enz",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Linda Zhu",
-     "Debra Schlosser"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sal Bwint",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matt Enz",
-    "vs": [
-     "Debra Schlosser",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Linda Zhu",
-     "Jenna Posner"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Megan Harvey",
-     "Linda Zhu"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Jenna Posner",
-     "Matt Hancock"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Erika Richards",
-     "Jenna Posner"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Jenna Posner",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Evan Oneill",
-    "vs": [
-     "Erika Richards",
-     "Frank Fang"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Nancy Blank",
-    "vs": [
-     "Jenna Posner",
-     "Debra Schlosser"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Emily Ocasio",
-     "Allison Hartman"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Vicki Main",
-     "Graham Heavenrich"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Vicki Main",
-     "Graham Heavenrich"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Allison Hartman",
-     "Lincoln Jensen"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Jodi Evans",
-    "vs": [
-     "Vicki Main",
-     "Jessica Pao"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "rating": -0.6,
-    "confidence": 52,
-    "rank": 47,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 4,
-    "rating": 0.9,
-    "confidence": 67,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 5,
-    "rating": 0.2,
-    "confidence": 76,
-    "rank": 40,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 6,
-    "rating": 0.1,
-    "confidence": 76,
-    "rank": 38,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 7,
-    "rating": 0,
-    "confidence": 76,
-    "rank": 38,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 8,
-    "rating": 1.2,
-    "confidence": 81,
-    "rank": 26,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 9,
-    "rating": 3,
-    "confidence": 83,
-    "rank": 3,
-    "ratingGames": 30,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
-    "name": "Andrew Cho",
-    "n": 4,
-    "synergy": 2
-   },
-   {
-    "pid": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
-    "name": "Scott Kacelowicz",
-    "n": 5,
-    "synergy": 1.5
-   },
-   {
-    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
-    "name": "Taina Wesner",
     "n": 5,
     "synergy": -0.3
    },
    {
-    "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
-    "name": "Jenn Smith",
-    "n": 3,
-    "synergy": -2.3
+    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
+    "name": "Priya Narahari",
+    "n": 4,
+    "synergy": -0.6
    }
   ]
  },
@@ -6335,6 +7625,15 @@
     "ratingGames": 13,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "rating": 1.7,
+    "confidence": 72,
+    "rank": 21,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -6349,488 +7648,6 @@
     "name": "Robert Block",
     "n": 3,
     "synergy": 0
-   }
-  ]
- },
- "013a0ee8-d510-472a-b8fb-7d19b1d5dc31": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 122,
-    "pa": 133,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 119,
-    "pa": 97,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 83,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Emily Ocasio",
-     "Andre Cristobal"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Allison Hartman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Jessica Pao",
-     "Harrison Bohrer"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kim Mchugh",
-    "vs": [
-     "Vicki Main",
-     "Jessica Pao"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Jessica Pao",
-     "Graham Heavenrich"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Vicki Main",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Jessica Pao",
-     "Barb Flynn"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Madeleine Shusterman",
-    "vs": [
-     "Claudya Elefante",
-     "Christine Dugan"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Casey Jannetta",
-    "vs": [
-     "Sandra Thompson",
-     "Todd Law"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Nam Barsh",
-     "Sandra Thompson"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Casey Jannetta",
-    "vs": [
-     "Sandra Thompson",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kim Mchugh",
-    "vs": [
-     "Sandra Thompson",
-     "Jean Rosenbaum"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Marykristin Haskell",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Ange Bradley",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Marykristin Haskell",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Marykristin Haskell",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Marykristin Haskell",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Kathy BernéT",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 51,
-    "rank": 22,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 2,
-    "rating": -0.3,
-    "confidence": 54,
-    "rank": 34,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 3,
-    "rating": 0,
-    "confidence": 55,
-    "rank": 37,
-    "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 4,
-    "rating": 0,
-    "confidence": 56,
-    "rank": 42,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 5,
-    "rating": 0.4,
-    "confidence": 70,
-    "rank": 36,
-    "ratingGames": 13,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 6,
-    "rating": 1.4,
-    "confidence": 77,
-    "rank": 24,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 7,
-    "rating": 2,
-    "confidence": 77,
-    "rank": 15,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 8,
-    "rating": 1.8,
-    "confidence": 77,
-    "rank": 19,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 9,
-    "rating": 1.9,
-    "confidence": 78,
-    "rank": 15,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 5,
-    "synergy": 1.4
    }
   ]
  },
@@ -8032,6 +8849,15 @@
     "ratingGames": 56,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 10,
+    "rating": 4.1,
+    "confidence": 88,
+    "rank": 2,
+    "ratingGames": 56,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": [
@@ -8051,19 +8877,19 @@
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
     "name": "Nam Barsh",
     "n": 14,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
     "name": "Russell Cripps",
     "n": 6,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "aa802904-9a39-4b0e-ad2b-d1a1ea2fcc5b",
     "name": "David Marchese",
     "n": 6,
-    "synergy": -0.8
+    "synergy": -0.6
    },
    {
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
@@ -8576,26 +9402,35 @@
     "ratingGames": 21,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 10,
+    "rating": 1.9,
+    "confidence": 79,
+    "rank": 20,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
    {
-    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-    "name": "Harvey Mitchell",
-    "n": 4,
-    "synergy": 0.5
-   },
-   {
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0.4
+   },
+   {
+    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
+    "name": "Harvey Mitchell",
+    "n": 4,
+    "synergy": 0.3
    },
    {
     "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
     "name": "Vicki Main",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.8
    }
   ]
  },
@@ -9177,6 +10012,15 @@
     "ratingGames": 24,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 10,
+    "rating": -0.1,
+    "confidence": 81,
+    "rank": 46,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -9184,13 +10028,13 @@
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
@@ -9202,7 +10046,7 @@
     "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
     "name": "Vicki Main",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
@@ -9830,6 +10674,15 @@
     "ratingGames": 28,
     "strengthOfPartners": 2,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 10,
+    "rating": 1.4,
+    "confidence": 83,
+    "rank": 25,
+    "ratingGames": 28,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": [
@@ -10539,6 +11392,15 @@
     "ratingGames": 30,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 10,
+    "rating": 0.1,
+    "confidence": 84,
+    "rank": 42,
+    "ratingGames": 30,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": [
@@ -10552,1615 +11414,31 @@
     "pid": "c06ede91-f79c-483b-ae5e-34baae517dad",
     "name": "Debra Schlosser",
     "n": 3,
-    "synergy": 1.7
+    "synergy": 1.5
    },
    {
     "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
     "name": "Matt Hancock",
     "n": 6,
-    "synergy": 0.2
-   },
-   {
-    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
-    "name": "Kathy BernéT",
-    "n": 4,
-    "synergy": -0.4
+    "synergy": 0.4
    },
    {
     "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
     "name": "Kevin Basch",
     "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
-    "name": "Jenna Posner",
-    "n": 4,
-    "synergy": -2.3
-   }
-  ]
- },
- "77381bfa-76d6-45ca-ba7d-9dc142cacd32": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 119,
-    "pa": 108,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 120,
-    "pa": 117,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 111,
-    "pa": 102,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 111,
-    "pa": 116,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 109,
-    "pa": 121,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 133,
-    "pa": 114,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 101,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Jane Meng",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Christy Beale",
-     "Matthew Shusterman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jonathan Goldner",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Christy Beale",
-     "Robert Block"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jonathan Goldner",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Matthew Shusterman",
-     "Chris Norton"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Jennifer Land",
-     "Sandro Stefanelli"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Alex Fad",
-     "Saul Barsh"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "David Marchese",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Tracey Carney",
-     "Sandro Stefanelli"
-    ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "David Marchese",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Nam Barsh",
-     "Alex Fad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Peilei Cao",
-    "vs": [
-     "Allison Hartman",
-     "Jr Burrs"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Jon Wheel",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jacinth Chikkala",
-    "vs": [
-     "Jared Quereau",
-     "Jr Burrs"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Priya Narahari",
-     "Jr Burrs"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jacinth Chikkala",
-    "vs": [
-     "Jared Quereau",
-     "Jr Burrs"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Peilei Cao",
-    "vs": [
-     "Vicki Main",
-     "Jon Wheel"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jenna Posner",
-    "vs": [
-     "Mary Callaghan",
-     "Sal Bwint"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Matt Enz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jingwei Wu",
-     "Sal Bwint"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Sal Bwint"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jingwei Wu",
-     "Sal Bwint"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Matt Enz",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Kim Bohrer",
-     "Michael Finkelstein"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Robert Block",
-     "Matthew Shusterman"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "James Price",
-     "Michael Finkelstein"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Katherine Maruyama",
-     "Michael Finkelstein"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "James Price",
-     "Michael Finkelstein"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Tera Baccile",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Evan Oneill"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Mary Callaghan",
-     "Jingwei Wu"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Taina Wesner",
-     "Evan Oneill"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Evan Oneill",
-     "Sal Bwint"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Evan Oneill"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Evan Oneill"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Tracey Carney",
-     "Russell Cripps"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Jamila Sefiane",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Jamila Sefiane",
-     "Russell Cripps"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Sandro Stefanelli",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 1.2,
-    "confidence": 48,
-    "rank": 17,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 3,
-    "rating": 0.5,
-    "confidence": 64,
-    "rank": 27,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 4,
-    "rating": 0.9,
-    "confidence": 73,
-    "rank": 27,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 5,
-    "rating": 0.9,
-    "confidence": 78,
-    "rank": 27,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 6,
-    "rating": 0.6,
-    "confidence": 82,
-    "rank": 32,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 7,
-    "rating": 0.2,
-    "confidence": 82,
-    "rank": 35,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 8,
-    "rating": 0.8,
-    "confidence": 85,
-    "rank": 32,
-    "ratingGames": 37,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 9,
-    "rating": 1.1,
-    "confidence": 87,
-    "rank": 26,
-    "ratingGames": 43,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
-    "name": "Ed Gieske",
-    "n": 4,
-    "synergy": 1.8
-   },
-   {
-    "pid": "99779531-e32b-47d5-b580-171a74844d91",
-    "name": "Chris Fratinardo",
-    "n": 10,
-    "synergy": -0.2
-   },
-   {
-    "pid": "fd596225-797e-4125-876b-633dae2efc65",
-    "name": "Linda Zhu",
-    "n": 8,
-    "synergy": -0.3
+    "synergy": -0.4
    },
    {
     "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
     "name": "Kathy BernéT",
     "n": 4,
-    "synergy": -1.3
-   }
-  ]
- },
- "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 112,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
+    "synergy": -0.7
    },
    {
-    "week": 4,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 112,
-    "pa": 116,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 121,
-    "pa": 101,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 110,
-    "pa": 97,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Christine Dugan",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sal Bwint",
-    "vs": [
-     "Tracey Carney",
-     "David Marchese"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Tracey Carney",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Tracey Carney",
-     "David Marchese"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sal Bwint",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Jodi Evans",
-    "vs": [
-     "Tracey Carney",
-     "Jamila Sefiane"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Kathy Cripps",
-     "James Price"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Alex Fad",
-    "vs": [
-     "Christy Beale",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Kathy Cripps",
-     "Christy Beale"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Alex Fad",
-    "vs": [
-     "Kathy Cripps",
-     "Robert Block"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Jodi Evans",
-    "vs": [
-     "Kathy Cripps",
-     "Christy Beale"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Carolina Reese",
-     "Christy Beale"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Jamila Sefiane",
-     "Russell Cripps"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Tim Phelan",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Jamila Sefiane",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Tim Phelan",
-    "vs": [
-     "Jamila Sefiane",
-     "Saul Barsh"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Jodi Evans",
-    "vs": [
-     "Jamila Sefiane",
-     "Jennifer Land"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Sandra Thompson",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Linda Zhu",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Tim Phelan",
-    "vs": [
-     "Debra Schlosser",
-     "Ed Gieske"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Linda Zhu",
-     "Debra Schlosser"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Tim Phelan",
-    "vs": [
-     "Linda Zhu",
-     "Ed Gieske"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Linda Zhu",
-     "Debra Schlosser"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Jenna Posner",
-     "Debra Schlosser"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.4,
-    "confidence": 44,
-    "rank": 26,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 2,
-    "rating": -0.3,
-    "confidence": 47,
-    "rank": 36,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 3,
-    "rating": -0.3,
-    "confidence": 50,
-    "rank": 42,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 4,
-    "rating": -0.8,
-    "confidence": 66,
-    "rank": 51,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 5,
-    "rating": -0.6,
-    "confidence": 67,
-    "rank": 50,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 6,
-    "rating": -0.3,
-    "confidence": 68,
-    "rank": 45,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 7,
-    "rating": 0.4,
-    "confidence": 75,
-    "rank": 33,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 8,
-    "rating": -0.2,
-    "confidence": 80,
-    "rank": 46,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 9,
-    "rating": -0.5,
-    "confidence": 80,
-    "rank": 52,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
-    "name": "Taina Wesner",
+    "pid": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
+    "name": "Jenna Posner",
     "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
-    "name": "Jodi Evans",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
-    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
-    "name": "Tim Phelan",
-    "n": 4,
-    "synergy": -1
+    "synergy": -2
    }
   ]
  },
@@ -13004,6 +12282,15 @@
     "ratingGames": 37,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": 1,
+    "confidence": 87,
+    "rank": 30,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -13011,43 +12298,43 @@
     "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
     "name": "Matthew Shusterman",
     "n": 4,
-    "synergy": 1.6
+    "synergy": 1.5
    },
    {
     "pid": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
     "name": "Kim Mchugh",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
     "name": "Tera Baccile",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
     "name": "Robert Block",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.4
    },
    {
     "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
     "name": "Chris Norton",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
     "name": "Katherine Maruyama",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.4
    },
    {
     "pid": "c7a0b075-272d-4427-98c0-02955690731f",
     "name": "James Price",
     "n": 4,
-    "synergy": -2.4
+    "synergy": -2.2
    }
   ]
  },
@@ -13875,6 +13162,15 @@
     "ratingGames": 36,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 10,
+    "rating": -1.2,
+    "confidence": 85,
+    "rank": 62,
+    "ratingGames": 36,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": [
@@ -13882,7 +13178,7 @@
     "pid": "5e52dba4-992f-4352-b538-d2534d423c80",
     "name": "Jessica Pao",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
@@ -13900,626 +13196,13 @@
     "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
     "name": "Allison Hartman",
     "n": 5,
-    "synergy": -1
+    "synergy": -1.1
    },
    {
     "pid": "980c2469-2017-4943-bc0d-5c49f0526f85",
     "name": "Jon Wheel",
     "n": 4,
     "synergy": -1.6
-   }
-  ]
- },
- "27d8a10f-ee9b-467c-bf8c-4872ce63de90": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 117,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 103,
-    "pa": 90,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 121,
-    "pa": 92,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 107,
-    "pa": 113,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Carolina Reese",
-     "Matthew Shusterman"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Chris Norton",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Dan Ladislaw",
-     "Matthew Shusterman"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jessica Pao",
-    "vs": [
-     "Kim Bohrer",
-     "Matthew Shusterman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Dan Ladislaw",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Christy Beale",
-     "Chris Norton"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Mary Callaghan",
-     "Scott Kacelowicz"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Andrew Cho",
-     "Tim Phelan"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jessica Pao",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Taina Wesner",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Kathy Cripps",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Christy Beale",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Michael Finkelstein",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Christy Beale",
-     "Matthew Shusterman"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Michael Finkelstein",
-     "Matthew Shusterman"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jordan Demcher",
-    "vs": [
-     "James Price",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jessica Pao",
-    "vs": [
-     "Mary Callaghan",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Lincoln Jensen",
-    "vs": [
-     "Andrew Cho",
-     "Jeff Jensen"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.1,
-    "confidence": 45,
-    "rank": 19,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 2,
-    "rating": -0.1,
-    "confidence": 49,
-    "rank": 32,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 3,
-    "rating": 0.5,
-    "confidence": 64,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 4,
-    "rating": 0.5,
-    "confidence": 66,
-    "rank": 33,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 5,
-    "rating": 0.4,
-    "confidence": 66,
-    "rank": 37,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 6,
-    "rating": 0.4,
-    "confidence": 67,
-    "rank": 33,
-    "ratingGames": 12,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 7,
-    "rating": 0.9,
-    "confidence": 75,
-    "rank": 30,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 8,
-    "rating": 1.1,
-    "confidence": 76,
-    "rank": 29,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 9,
-    "rating": 0.6,
-    "confidence": 80,
-    "rank": 35,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-    "name": "Harvey Mitchell",
-    "n": 4,
-    "synergy": 1.7
-   },
-   {
-    "pid": "5e52dba4-992f-4352-b538-d2534d423c80",
-    "name": "Jessica Pao",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
-    "name": "Allison Hartman",
-    "n": 5,
-    "synergy": 0.1
-   },
-   {
-    "pid": "50d796da-0ac2-4f94-af29-212d7865f473",
-    "name": "Andre Cristobal",
-    "n": 4,
-    "synergy": 0.1
-   },
-   {
-    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
-    "name": "Vicki Main",
-    "n": 4,
-    "synergy": -1.5
    }
   ]
  },
@@ -14711,6 +13394,33 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 128,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -15499,6 +14209,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Kathy Cripps",
+     "Dan Ladislaw"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Kathy Cripps",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Sarah Ross",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Kathy Cripps",
+     "Kim Bohrer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -15582,20 +14404,23 @@
     "ratingGames": 49,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 10,
+    "rating": 2.4,
+    "confidence": 90,
+    "rank": 8,
+    "ratingGames": 56,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
    {
-    "pid": "23871699-a12b-4eb6-89cb-62fec790e3fb",
-    "name": "Michael Taylor",
-    "n": 9,
-    "synergy": 1.4
-   },
-   {
     "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
     "name": "Jingwei Wu",
-    "n": 8,
-    "synergy": 0.9
+    "n": 9,
+    "synergy": 1.2
    },
    {
     "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
@@ -15604,3306 +14429,28 @@
     "synergy": 0.9
    },
    {
+    "pid": "23871699-a12b-4eb6-89cb-62fec790e3fb",
+    "name": "Michael Taylor",
+    "n": 11,
+    "synergy": 0.6
+   },
+   {
     "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
     "name": "Nancy Blank",
-    "n": 4,
-    "synergy": 0.6
+    "n": 5,
+    "synergy": 0
    },
    {
     "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
     "name": "Vanessa Zommi Kungne",
-    "n": 5,
+    "n": 6,
     "synergy": -0.3
    },
    {
     "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
     "name": "Sarah Ross",
-    "n": 12,
-    "synergy": -0.8
-   }
-  ]
- },
- "8db75058-7f84-48bc-9a6c-e15a8fa1a71e": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 108,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 118,
-    "pa": 116,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     4
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 119,
-    "pa": 105,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 107,
-    "pa": 99,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Russell Cripps",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Tracey Carney",
-     "David Marchese"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Russell Cripps",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jodi Evans",
-    "vs": [
-     "Jennifer Land",
-     "Russell Cripps"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "David Marchese",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Jenna Posner",
-     "Frank Fang"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matt Enz",
-    "vs": [
-     "Matt Hancock",
-     "Ed Gieske"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Marykristin Haskell",
-     "Matt Hancock"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jodi Evans",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Russell Cripps",
-     "Todd Law"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Todd Law",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jodi Evans",
-    "vs": [
-     "Jennifer Land",
-     "Todd Law"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Michael Taylor",
-    "vs": [
-     "Sandro Stefanelli",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Jamila Sefiane",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jenn Smith",
-    "vs": [
-     "Debra Schlosser",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Matt Hancock",
-     "Ed Gieske"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jenn Smith",
-    "vs": [
-     "Debra Schlosser",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Evan Oneill",
-    "vs": [
-     "Frank Fang",
-     "Ed Gieske"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Linda Zhu",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.1,
-    "confidence": 44,
-    "rank": 5,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "rating": 1,
-    "confidence": 48,
-    "rank": 21,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 3,
-    "rating": 0.8,
-    "confidence": 50,
-    "rank": 21,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": -1.5
-   },
-   {
-    "week": 4,
-    "rating": 1,
-    "confidence": 51,
-    "rank": 25,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": -1.6
-   },
-   {
-    "week": 5,
-    "rating": 0.7,
-    "confidence": 68,
-    "rank": 32,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 6,
-    "rating": 0.3,
-    "confidence": 69,
-    "rank": 34,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 7,
-    "rating": -0.2,
-    "confidence": 76,
-    "rank": 42,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 8,
-    "rating": 0.2,
-    "confidence": 81,
-    "rank": 37,
-    "ratingGames": 24,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 9,
-    "rating": 0.2,
-    "confidence": 81,
-    "rank": 39,
-    "ratingGames": 24,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -1.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
-    "name": "Mary Callaghan",
-    "n": 3,
-    "synergy": 1.4
-   },
-   {
-    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
-    "name": "Tim Phelan",
-    "n": 6,
-    "synergy": 0.6
-   },
-   {
-    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
-    "name": "Jodi Evans",
-    "n": 3,
-    "synergy": -0.2
-   }
-  ]
- },
- "980c2469-2017-4943-bc0d-5c49f0526f85": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 99,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "week": 4,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 105,
-    "pa": 113,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Barb Flynn",
-    "vs": [
-     "Jenn Smith",
-     "Andrew Cho"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Barb Flynn",
-    "vs": [
-     "Mary Callaghan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Andrew Cho",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Allison Hartman",
-    "vs": [
-     "Mary Callaghan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Michael Taylor",
-     "Andrew Cho"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Scott Kacelowicz",
-     "Tim Phelan"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Barb Flynn",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Frank Fang",
-     "Matt Hancock"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Matt Hancock",
-     "Ed Gieske"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Barb Flynn",
-    "vs": [
-     "Jenna Posner",
-     "Matt Hancock"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jeff Zamorski",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Peilei Cao",
-     "Frank Fang"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "rating": 1.5,
-    "confidence": 50,
-    "rank": 16,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 4,
-    "rating": 1,
-    "confidence": 66,
-    "rank": 24,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 5,
-    "rating": 1.1,
-    "confidence": 67,
-    "rank": 23,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 6,
-    "rating": 0.9,
-    "confidence": 68,
-    "rank": 29,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 7,
-    "rating": 1,
-    "confidence": 68,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 8,
-    "rating": 0.9,
-    "confidence": 69,
-    "rank": 31,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 9,
-    "rating": 0.8,
-    "confidence": 69,
-    "rank": 32,
-    "ratingGames": 12,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": [
-   {
-    "pid": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
-    "name": "Barb Flynn",
-    "n": 4,
-    "synergy": 1.5
-   },
-   {
-    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
-    "name": "Andrew Neave",
-    "n": 4,
-    "synergy": -1.6
-   }
-  ]
- },
- "ecde54a3-2395-4a5b-8ccd-ffad7b992b07": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 118,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     4,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "week": 4,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 113,
-    "pa": 115,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sandra Thompson",
-    "vs": [
-     "Kathy BernéT",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Saul Barsh",
-    "vs": [
-     "Frank Fang",
-     "Kevin Basch"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Saul Barsh",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sandra Thompson",
-    "vs": [
-     "Kathy BernéT",
-     "Kevin Basch"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Tejas Goculdas",
-    "vs": [
-     "Jeff Zamorski",
-     "Matt Hancock"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 3,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Nam Barsh",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "James Price",
-     "Matthew Shusterman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Christy Beale",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Matthew Shusterman",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Kathy Cripps",
-     "Robert Block"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jodi Evans",
-    "vs": [
-     "Carolina Reese",
-     "Matthew Shusterman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Scott Kacelowicz",
-    "vs": [
-     "Matthew Shusterman",
-     "Robert Block"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "rating": 0.3,
-    "confidence": 49,
-    "rank": 30,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 4,
-    "rating": 0.4,
-    "confidence": 66,
-    "rank": 36,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 5,
-    "rating": 0.3,
-    "confidence": 68,
-    "rank": 38,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 6,
-    "rating": 0.2,
-    "confidence": 68,
-    "rank": 36,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 7,
-    "rating": -0.3,
-    "confidence": 69,
-    "rank": 46,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 8,
-    "rating": 0,
-    "confidence": 70,
-    "rank": 42,
-    "ratingGames": 12,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 9,
-    "rating": 0.1,
-    "confidence": 70,
-    "rank": 41,
-    "ratingGames": 12,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": []
- },
- "f8687730-86a2-4769-a38b-7c0269ee88f5": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 132,
-    "pa": 126,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 138,
-    "pa": 125,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 134,
-    "pa": 128,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 132,
-    "pa": 119,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 89,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 139,
-    "pa": 113,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 120,
-    "pa": 141,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Kathy Cripps",
-     "Jonathan Goldner"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jonathan Goldner",
-     "Keith Goldberg"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Tera Baccile",
-     "Jonathan Goldner"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Kathy Cripps",
-     "Keith Goldberg"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Keith Goldberg",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Tera Baccile",
-     "Keith Goldberg"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jonathan Goldner",
-     "Keith Goldberg"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Claudya Elefante",
-     "David Marchese"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "David Marchese",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Nam Barsh",
-     "David Marchese"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Claudya Elefante",
-     "Tejas Goculdas"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Tejas Goculdas",
-     "Alex Fad"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Tracey Carney",
-     "Tejas Goculdas"
-    ],
-    "f": 31,
-    "a": 29,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "David Marchese",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Julia Plein",
-     "Jared Quereau"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jacinth Chikkala",
-    "vs": [
-     "Jared Quereau",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Peilei Cao",
-    "vs": [
-     "Vicki Main",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Julia Plein",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Harvey Mitchell",
-     "Jon Wheel"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Priya Narahari",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jacinth Chikkala",
-    "vs": [
-     "Jared Quereau",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Michael Taylor",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Taina Wesner",
-     "Michael Taylor"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Christy Beale",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "James Price",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Tera Baccile",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Christy Beale",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Chris Norton",
-     "Robert Block"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Katherine Maruyama",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "James Price",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Mary Callaghan",
-     "Evan Oneill"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jingwei Wu",
-     "Evan Oneill"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Taina Wesner",
-     "Evan Oneill"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Jingwei Wu",
-     "Andrew Cho"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Jingwei Wu",
-     "Andrew Cho"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jingwei Wu",
-     "Evan Oneill"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Tejas Goculdas",
-     "Keith Goldberg"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Claudya Elefante",
-     "Tejas Goculdas"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Megan Harvey",
-    "vs": [
-     "Nam Barsh",
-     "Keith Goldberg"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Keith Goldberg",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Claudya Elefante",
-     "Keith Goldberg"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Fratinardo",
-    "vs": [
-     "Tejas Goculdas",
-     "Keith Goldberg"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -0.6,
-    "confidence": 46,
-    "rank": 40,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 3,
-    "rating": 0.6,
-    "confidence": 67,
-    "rank": 26,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 4,
-    "rating": 0.9,
-    "confidence": 76,
-    "rank": 26,
-    "ratingGames": 21,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 5,
-    "rating": 1.8,
-    "confidence": 80,
-    "rank": 13,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 6,
-    "rating": 2.3,
-    "confidence": 84,
-    "rank": 9,
-    "ratingGames": 35,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 7,
-    "rating": 2.5,
-    "confidence": 84,
-    "rank": 9,
-    "ratingGames": 35,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 8,
-    "rating": 2.9,
-    "confidence": 86,
-    "rank": 3,
-    "ratingGames": 42,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 9,
-    "rating": 2.7,
-    "confidence": 87,
-    "rank": 4,
-    "ratingGames": 49,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
-    "name": "Kevin Basch",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "99779531-e32b-47d5-b580-171a74844d91",
-    "name": "Chris Fratinardo",
-    "n": 10,
-    "synergy": 0.3
-   },
-   {
-    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
-    "name": "Matt Hancock",
-    "n": 3,
-    "synergy": 0.3
-   },
-   {
-    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
-    "name": "Megan Harvey",
     "n": 13,
-    "synergy": 0.1
-   },
-   {
-    "pid": "fd596225-797e-4125-876b-633dae2efc65",
-    "name": "Linda Zhu",
-    "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
-    "name": "Erika Richards",
-    "n": 9,
-    "synergy": -1.5
-   }
-  ]
- },
- "23871699-a12b-4eb6-89cb-62fec790e3fb": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 142,
-    "pa": 102,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 139,
-    "pa": 134,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     4
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 140,
-    "pa": 126,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 114,
-    "pa": 142,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 135,
-    "pa": 107,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 141,
-    "pa": 119,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Christine Dugan",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Sandro Stefanelli",
-     "Russell Cripps"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Tracey Carney",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 2,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Vicki Main",
-     "Andre Cristobal"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Priya Narahari",
-     "Andre Cristobal"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Vicki Main",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Harvey Mitchell",
-     "Jon Wheel"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Priya Narahari",
-     "Harvey Mitchell"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Katherine Maruyama",
-     "Keith Goldberg"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Keith Goldberg",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Tera Baccile",
-     "Keith Goldberg"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Katherine Maruyama",
-     "Dan Ladislaw"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Dan Ladislaw",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Tera Baccile",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Keith Goldberg",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Marykristin Haskell",
-     "Chris Fratinardo"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jeff Jensen",
-    "vs": [
-     "Jeff Zamorski",
-     "Matt Hancock"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Linda Zhu",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Christine Dugan",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Sal Bwint",
-    "vs": [
-     "Sandro Stefanelli",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Mara Boast",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Sarah Ross",
-    "vs": [
-     "Mara Boast",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jeff Jensen",
-    "vs": [
-     "Jared Quereau",
-     "Harrison Bohrer"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Taina Wesner",
-    "vs": [
-     "Vicki Main",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.6,
-    "confidence": 46,
-    "rank": 1,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 2,
-    "rating": 3.2,
-    "confidence": 52,
-    "rank": 1,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 3,
-    "rating": 2.8,
-    "confidence": 69,
-    "rank": 2,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 4,
-    "rating": 2.2,
-    "confidence": 76,
-    "rank": 6,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 5,
-    "rating": 1.3,
-    "confidence": 80,
-    "rank": 20,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 6,
-    "rating": 1.5,
-    "confidence": 81,
-    "rank": 21,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 7,
-    "rating": 2.1,
-    "confidence": 84,
-    "rank": 14,
-    "ratingGames": 35,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 8,
-    "rating": 2,
-    "confidence": 84,
-    "rank": 13,
-    "ratingGames": 35,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 9,
-    "rating": 2.3,
-    "confidence": 86,
-    "rank": 9,
-    "ratingGames": 42,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
-    "name": "Taina Wesner",
-    "n": 9,
-    "synergy": 1.4
-   },
-   {
-    "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
-    "name": "Sarah Ross",
-    "n": 12,
-    "synergy": 1.1
-   },
-   {
-    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
-    "name": "Jingwei Wu",
-    "n": 12,
-    "synergy": -0.2
+    "synergy": -0.5
    }
   ]
  },
@@ -19068,6 +14615,33 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 137,
+    "pa": 126,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -19744,6 +15318,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Kathy Cripps",
+     "Kim Bohrer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Katherine Maruyama",
+     "Dan Ladislaw"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Kathy Cripps",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Kathy Cripps",
+     "Dan Ladislaw"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -19827,2449 +15513,99 @@
     "ratingGames": 42,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 10,
+    "rating": 2.1,
+    "confidence": 88,
+    "rank": 15,
+    "ratingGames": 49,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": [
    {
-    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
-    "name": "Jingwei Wu",
-    "n": 12,
-    "synergy": 1.8
-   },
-   {
     "pid": "23871699-a12b-4eb6-89cb-62fec790e3fb",
     "name": "Michael Taylor",
-    "n": 12,
-    "synergy": 1.1
+    "n": 13,
+    "synergy": 1.3
+   },
+   {
+    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
+    "name": "Jingwei Wu",
+    "n": 14,
+    "synergy": 1.2
    },
    {
     "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
     "name": "Taina Wesner",
-    "n": 12,
-    "synergy": -0.8
+    "n": 13,
+    "synergy": -0.5
+   },
+   {
+    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
+    "name": "Vanessa Zommi Kungne",
+    "n": 4,
+    "synergy": -1.8
    },
    {
     "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
     "name": "Mary Callaghan",
     "n": 4,
-    "synergy": -1.8
+    "synergy": -1.9
    }
   ]
  },
- "12584e84-045d-4de1-8edc-7ccbcb1ee27a": {
+ "77381bfa-76d6-45ca-ba7d-9dc142cacd32": {
   "log": [
    {
-    "week": 1,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 143,
-    "pa": 106,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
     "week": 2,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 126,
-    "pa": 133,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 129,
-    "pa": 131,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
     "opp": "Shrinky Dinks",
     "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 135,
-    "pa": 114,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 127,
-    "pa": 127,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Kim Bohrer",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Katherine Maruyama",
-     "Kim Bohrer"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Christy Beale",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Katherine Maruyama",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Katherine Maruyama",
-     "Christy Beale"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andre Cristobal",
-    "vs": [
-     "Katherine Maruyama",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Katherine Maruyama",
-     "Christy Beale"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Tracey Carney",
-     "Andre Cristobal"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Nam Barsh",
-     "Jamila Sefiane"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Tracey Carney",
-     "Tejas Goculdas"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Nam Barsh",
-     "Andre Cristobal"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Nam Barsh",
-     "Tracey Carney"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Nam Barsh",
-     "Tracey Carney"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Claudya Elefante",
-     "Tejas Goculdas"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Nam Barsh",
-     "Jean Rosenbaum"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jacinth Chikkala",
-    "vs": [
-     "Claudya Elefante",
-     "Sandro Stefanelli"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Christine Dugan",
-     "Jean Rosenbaum"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Claudya Elefante",
-     "Nam Barsh"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Claudya Elefante",
-     "Nam Barsh"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Tera Baccile",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Katherine Maruyama",
-     "Kathy Cripps"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Tera Baccile",
-     "Michael Finkelstein"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Katherine Maruyama",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Katherine Maruyama",
-     "Tera Baccile"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Katherine Maruyama",
-     "Michael Finkelstein"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Katherine Maruyama",
-     "Tera Baccile"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Taina Wesner",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Jessica Pao",
-    "vs": [
-     "Mary Callaghan",
-     "Jodi Evans"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Mary Callaghan",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Mara Boast",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.6,
-    "confidence": 48,
-    "rank": 6,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 2,
-    "rating": 0.9,
-    "confidence": 67,
-    "rank": 22,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 3,
-    "rating": 1.5,
-    "confidence": 68,
-    "rank": 13,
-    "ratingGames": 14,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 4,
-    "rating": 2,
-    "confidence": 70,
-    "rank": 11,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 5,
-    "rating": 2.1,
-    "confidence": 70,
-    "rank": 10,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 6,
-    "rating": 1.8,
-    "confidence": 78,
-    "rank": 16,
-    "ratingGames": 21,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 7,
-    "rating": 2.3,
-    "confidence": 82,
-    "rank": 10,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 8,
-    "rating": 2.4,
-    "confidence": 82,
-    "rank": 8,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 9,
-    "rating": 2.5,
-    "confidence": 85,
-    "rank": 5,
-    "ratingGames": 35,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 1.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
-    "name": "Vicki Main",
-    "n": 4,
-    "synergy": 1.2
-   },
-   {
-    "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
-    "name": "Mara Boast",
-    "n": 6,
-    "synergy": 0.5
-   },
-   {
-    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-    "name": "Harvey Mitchell",
-    "n": 9,
-    "synergy": 0.2
-   },
-   {
-    "pid": "b1814193-753a-460b-8911-8722c57efb86",
-    "name": "Jared Quereau",
-    "n": 5,
-    "synergy": 0.1
-   },
-   {
-    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
-    "name": "Priya Narahari",
-    "n": 4,
-    "synergy": -0.6
-   }
-  ]
- },
- "d5aa92c7-71df-47c7-84fb-6710e1ed81e2": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 125,
-    "pa": 129,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 139,
-    "pa": 132,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 119,
-    "pa": 136,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 129,
-    "pa": 113,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 134,
-    "pa": 124,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Erika Richards",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jonathan Goldner",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Linda Zhu",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Linda Zhu",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Taina Wesner",
-     "Jodi Evans"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Jodi Evans"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Michael Taylor"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Marykristin Haskell",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Marykristin Haskell",
-     "Frank Fang"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Priya Narahari",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Emily Ocasio",
-     "Jared Quereau"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Vicki Main",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Priya Narahari"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Vicki Main",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Priya Narahari"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Nam Barsh",
-     "Sandra Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Christine Dugan",
-     "Tejas Goculdas"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nam Barsh",
-     "Christine Dugan"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nam Barsh",
-     "Christine Dugan"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -0.1,
-    "confidence": 51,
-    "rank": 31,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 3,
-    "rating": 0.1,
-    "confidence": 54,
-    "rank": 33,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 4,
-    "rating": 1.8,
-    "confidence": 71,
-    "rank": 14,
-    "ratingGames": 14,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 5,
-    "rating": 1.7,
-    "confidence": 72,
-    "rank": 15,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 6,
-    "rating": 1,
-    "confidence": 78,
-    "rank": 27,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 7,
-    "rating": 1.3,
-    "confidence": 83,
-    "rank": 24,
-    "ratingGames": 28,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 8,
-    "rating": 1.6,
-    "confidence": 85,
-    "rank": 22,
-    "ratingGames": 35,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 9,
-    "rating": 1.7,
-    "confidence": 86,
-    "rank": 18,
-    "ratingGames": 35,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 1.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
-    "name": "Katherine Maruyama",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 6,
-    "synergy": 0.6
-   },
-   {
-    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
-    "name": "Michael Finkelstein",
-    "n": 3,
-    "synergy": 0.4
-   },
-   {
-    "pid": "37a0fa2c-df0b-4d92-900b-a9f20f441ad8",
-    "name": "Keith Goldberg",
-    "n": 3,
-    "synergy": 0.1
-   },
-   {
-    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
-    "name": "Dan Ladislaw",
-    "n": 4,
-    "synergy": 0
-   },
-   {
-    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-    "name": "Kathy Cripps",
-    "n": 5,
-    "synergy": -1.6
-   }
-  ]
- },
- "5142be9e-adb4-4f40-8632-1f6daa6d824b": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 129,
-    "pa": 135,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "week": 5,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 142,
-    "pa": 125,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Erika Richards",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Shrinky Dinks"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Claudya Elefante",
-    "vs": [
-     "Stephanie Woomer",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Tejas Goculdas",
-    "vs": [
-     "Jim Darcangelo",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Nam Barsh",
-    "vs": [
-     "Madeleine Shusterman",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Jim Darcangelo",
-     "Casey Jannetta"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Jim Darcangelo",
-     "Casey Jannetta"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Claudya Elefante",
-    "vs": [
-     "Madeleine Shusterman",
-     "Jim Darcangelo"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   },
-   {
-    "wk": 5,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Tejas Goculdas",
-    "vs": [
-     "Jim Darcangelo",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Kitchen Chaos"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 1.4,
-    "confidence": 46,
-    "rank": 15,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 3,
-    "rating": 2,
-    "confidence": 52,
-    "rank": 11,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 4,
-    "rating": 2.1,
-    "confidence": 53,
-    "rank": 10,
-    "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 1.6
-   },
-   {
-    "week": 5,
-    "rating": 2.5,
-    "confidence": 69,
-    "rank": 7,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 6,
-    "rating": 2.2,
-    "confidence": 70,
-    "rank": 11,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 7,
-    "rating": 2.2,
-    "confidence": 70,
-    "rank": 12,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 8,
-    "rating": 2.3,
-    "confidence": 71,
-    "rank": 10,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 9,
-    "rating": 1.9,
-    "confidence": 71,
-    "rank": 16,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": []
- },
- "f3d99274-413c-4720-9c8d-1a71f9b2e717": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 131,
-    "pa": 120,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Erika Richards",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Megan Harvey",
-     "Peilei Cao"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Erika Richards",
-     "Jacinth Chikkala"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jared Quereau",
-    "vs": [
-     "Megan Harvey",
-     "Jacinth Chikkala"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Young Guns"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "rating": 2.5,
-    "confidence": 54,
-    "rank": 4,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 5,
-    "rating": 2.4,
-    "confidence": 55,
-    "rank": 8,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 6,
-    "rating": 2.7,
-    "confidence": 57,
-    "rank": 6,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 7,
-    "rating": 2.8,
-    "confidence": 57,
-    "rank": 5,
-    "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 1.9
-   },
-   {
-    "week": 8,
-    "rating": 2.5,
-    "confidence": 58,
-    "rank": 5,
-    "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 9,
-    "rating": 2.4,
-    "confidence": 58,
-    "rank": 8,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
- },
- "52c4a07c-503b-4413-b169-0ea86004eb5f": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 128,
-    "pa": 131,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Allison Hartman",
-     "Jr Burrs"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Julia Plein",
-     "Priya Narahari"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Vicki Main",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Jenna Posner",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Allison Hartman",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Jenna Posner",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Vicki Main",
-     "Jon Wheel"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Drop it Like it's Hot"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "rating": -0.3,
-    "confidence": 56,
-    "rank": 44,
-    "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 5,
-    "rating": -0.5,
-    "confidence": 57,
-    "rank": 49,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 6,
-    "rating": -0.6,
-    "confidence": 58,
-    "rank": 53,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 7,
-    "rating": -0.3,
-    "confidence": 58,
-    "rank": 47,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 8,
-    "rating": -0.3,
-    "confidence": 59,
-    "rank": 50,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 9,
-    "rating": -0.6,
-    "confidence": 59,
-    "rank": 55,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "ce58f563-e12a-466e-b741-cafc1bbbd0ad": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
     "w": 4,
     "l": 2,
     "gp": 6,
-    "pf": 122,
+    "pf": 119,
+    "pa": 108,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 120,
     "pa": 117,
     "mx": [
      1,
      2
     ],
     "gn": [
-     3,
-     0
+     2,
+     1
     ],
     "cl": [
-     3,
-     2
+     1,
+     3
     ],
     "teamRes": "W",
     "teamGW": 17,
@@ -22281,21 +15617,21 @@
     "week": 4,
     "opp": "The Young Guns",
     "homeAway": "A",
-    "w": 5,
-    "l": 1,
+    "w": 4,
+    "l": 2,
     "gp": 6,
-    "pf": 122,
-    "pa": 88,
+    "pf": 111,
+    "pa": 102,
     "mx": [
-     2,
-     1
+     1,
+     2
     ],
     "gn": [
      3,
      0
     ],
     "cl": [
-     1,
+     0,
      0
     ],
     "teamRes": "W",
@@ -22308,22 +15644,22 @@
     "week": 5,
     "opp": "Baby Got Backhands",
     "homeAway": "H",
-    "w": 2,
-    "l": 4,
+    "w": 4,
+    "l": 2,
     "gp": 6,
-    "pf": 112,
-    "pa": 111,
+    "pf": 111,
+    "pa": 116,
     "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
      1,
      2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
     ],
     "teamRes": "L",
     "teamGW": 15,
@@ -22338,19 +15674,19 @@
     "w": 2,
     "l": 4,
     "gp": 6,
-    "pf": 105,
-    "pa": 111,
+    "pf": 109,
+    "pa": 121,
     "mx": [
-     0,
-     3
+     1,
+     2
     ],
     "gn": [
-     2,
-     1
+     1,
+     2
     ],
     "cl": [
-     0,
-     1
+     1,
+     0
     ],
     "teamRes": "L",
     "teamGW": 13,
@@ -22362,71 +15698,93 @@
     "week": 8,
     "opp": "Baby Got Backhands",
     "homeAway": "A",
-    "w": 4,
+    "w": 5,
     "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 101,
+    "gp": 7,
+    "pf": 133,
+    "pa": 114,
     "mx": [
-     1,
-     2
+     3,
+     1
     ],
     "gn": [
-     3,
-     0
+     2,
+     1
     ],
     "cl": [
-     1,
-     1
+     2,
+     0
     ],
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 101,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 104,
+    "pa": 122,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
+    "wk": 2,
+    "opp": "Shrinky Dinks",
     "t": "mixed",
     "with": "Kathy BernéT",
     "vs": [
-     "Sandra Thompson",
-     "Alex Fad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Alex Fad",
-     "Saul Barsh"
+     "Jane Meng",
+     "Robert Block"
     ],
     "f": 21,
     "a": 19,
@@ -22436,205 +15794,13 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
+    "wk": 2,
+    "opp": "Shrinky Dinks",
     "t": "mixed",
     "with": "Linda Zhu",
     "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Tejas Goculdas",
-     "Alex Fad"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Sandro Stefanelli",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Frank Fang",
-    "vs": [
-     "Jon Wheel",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Priya Narahari",
-     "Jr Burrs"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Jon Wheel",
-     "Andrew Neave"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Jenna Posner",
-    "vs": [
-     "Barb Flynn",
-     "Jon Wheel"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Barb Flynn",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Jr Burrs",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Jenn Smith",
-     "Jeff Jensen"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Sal Bwint",
-     "Matt Enz"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Matt Enz",
-     "Jeff Jensen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Jenn Smith",
-     "Matt Enz"
+     "Christy Beale",
+     "Matthew Shusterman"
     ],
     "f": 19,
     "a": 21,
@@ -22644,61 +15810,29 @@
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
+    "wk": 2,
+    "opp": "Shrinky Dinks",
     "t": "male",
-    "with": "Jeff Zamorski",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Michael Taylor",
-     "Jeff Jensen"
+     "Jonathan Goldner",
+     "Robert Block"
     ],
     "f": 21,
-    "a": 8,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Mary Callaghan",
-     "Sal Bwint"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
+    "wk": 2,
     "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Ange Bradley",
+    "with": "Linda Zhu",
     "vs": [
-     "Kathy Cripps",
+     "Christy Beale",
      "Robert Block"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Ange Bradley",
-    "vs": [
-     "Kim Bohrer",
-     "Matthew Shusterman"
     ],
     "f": 16,
     "a": 21,
@@ -22708,436 +15842,16 @@
     "subFor": null
    },
    {
-    "wk": 6,
+    "wk": 2,
     "opp": "Shrinky Dinks",
     "t": "male",
-    "with": "Kevin Basch",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Robert Block",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Kim Bohrer",
-     "Matthew Shusterman"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Chris Norton",
+     "Jonathan Goldner",
      "Robert Block"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Michael Finkelstein",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Kevin Basch",
-    "vs": [
-     "Sal Bwint",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jenna Posner",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Sal Bwint",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Jenn Smith",
-     "Sal Bwint"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jenna Posner",
-    "vs": [
-     "Jenn Smith",
-     "Tim Phelan"
     ],
     "f": 21,
     "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Andrew Cho",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "rating": 0,
-    "confidence": 50,
-    "rank": 38,
-    "ratingGames": 6,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "rating": 2.2,
-    "confidence": 67,
-    "rank": 7,
-    "ratingGames": 12,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 5,
-    "rating": 1.7,
-    "confidence": 75,
-    "rank": 14,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 6,
-    "rating": 1.3,
-    "confidence": 80,
-    "rank": 25,
-    "ratingGames": 24,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 7,
-    "rating": 1,
-    "confidence": 80,
-    "rank": 27,
-    "ratingGames": 24,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 8,
-    "rating": 0.7,
-    "confidence": 83,
-    "rank": 36,
-    "ratingGames": 30,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 9,
-    "rating": 0.7,
-    "confidence": 84,
-    "rank": 34,
-    "ratingGames": 30,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": [
-   {
-    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
-    "name": "Kevin Basch",
-    "n": 5,
-    "synergy": 1.7
-   },
-   {
-    "pid": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
-    "name": "Jenna Posner",
-    "n": 3,
-    "synergy": 1.3
-   },
-   {
-    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
-    "name": "Jeff Zamorski",
-    "n": 3,
-    "synergy": 0.3
-   },
-   {
-    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
-    "name": "Ed Gieske",
-    "n": 6,
-    "synergy": 0.2
-   },
-   {
-    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
-    "name": "Kathy BernéT",
-    "n": 4,
-    "synergy": -0.1
-   },
-   {
-    "pid": "c06ede91-f79c-483b-ae5e-34baae517dad",
-    "name": "Debra Schlosser",
-    "n": 3,
-    "synergy": -2.2
-   }
-  ]
- },
- "8c307e80-6a67-476f-be7c-de3b1442b95a": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 122,
-    "pa": 107,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 112,
-    "pa": 118,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 87,
-    "pa": 111,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 103,
-    "pa": 113,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 122,
-    "pa": 108,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Ange Bradley",
-    "vs": [
-     "Kim Mchugh",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Ed Gieske",
-    "vs": [
-     "Robert Block",
-     "Matthew Shusterman"
-    ],
-    "f": 24,
-    "a": 22,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -23152,56 +15866,24 @@
      "Matthew Shusterman",
      "Chris Norton"
     ],
-    "f": 26,
-    "a": 24,
+    "f": 22,
+    "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
+    "wk": 3,
+    "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Ange Bradley",
+    "with": "Linda Zhu",
     "vs": [
-     "Kim Mchugh",
-     "Matthew Shusterman"
+     "Jennifer Land",
+     "Sandro Stefanelli"
     ],
-    "f": 17,
+    "f": 23,
     "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Keith Goldberg",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Jane Meng",
-     "Robert Block"
-    ],
-    "f": 27,
-    "a": 25,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -23211,7 +15893,7 @@
     "wk": 3,
     "opp": "Kitchen Chaos",
     "t": "male",
-    "with": "Frank Fang",
+    "with": "Kevin Basch",
     "vs": [
      "Alex Fad",
      "Saul Barsh"
@@ -23226,30 +15908,14 @@
    {
     "wk": 3,
     "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Debra Schlosser",
+    "t": "male",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Tracey Carney",
+     "David Marchese",
      "Sandro Stefanelli"
     ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Alex Fad",
-     "Saul Barsh"
-    ],
     "f": 21,
-    "a": 19,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -23259,13 +15925,13 @@
     "wk": 3,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Kathy BernéT",
+    "with": "Debra Schlosser",
     "vs": [
-     "Sandra Thompson",
-     "Alex Fad"
+     "Tracey Carney",
+     "Sandro Stefanelli"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 27,
+    "a": 29,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -23274,11 +15940,11 @@
    {
     "wk": 3,
     "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Debra Schlosser",
+    "t": "male",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Sandra Thompson",
-     "Saul Barsh"
+     "David Marchese",
+     "Sandro Stefanelli"
     ],
     "f": 21,
     "a": 17,
@@ -23290,14 +15956,206 @@
    {
     "wk": 3,
     "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Nam Barsh",
+     "Alex Fad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Peilei Cao",
+    "vs": [
+     "Allison Hartman",
+     "Jr Burrs"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
     "t": "male",
     "with": "Matt Hancock",
     "vs": [
-     "Sandro Stefanelli",
-     "Saul Barsh"
+     "Jon Wheel",
+     "Andrew Neave"
     ],
     "f": 21,
-    "a": 19,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jacinth Chikkala",
+    "vs": [
+     "Jared Quereau",
+     "Jr Burrs"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Priya Narahari",
+     "Jr Burrs"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jacinth Chikkala",
+    "vs": [
+     "Jared Quereau",
+     "Jr Burrs"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Peilei Cao",
+    "vs": [
+     "Vicki Main",
+     "Jon Wheel"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Mary Callaghan",
+     "Sal Bwint"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Matt Enz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jingwei Wu",
+     "Sal Bwint"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Sal Bwint"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jingwei Wu",
+     "Sal Bwint"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Matt Enz",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -23306,13 +16164,45 @@
    {
     "wk": 6,
     "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Kim Bohrer",
+     "Michael Finkelstein"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
     "t": "male",
-    "with": "Frank Fang",
+    "with": "Kevin Basch",
     "vs": [
      "Robert Block",
      "Matthew Shusterman"
     ],
     "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "James Price",
+     "Michael Finkelstein"
+    ],
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -23328,7 +16218,7 @@
      "Katherine Maruyama",
      "Michael Finkelstein"
     ],
-    "f": 7,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -23339,10 +16229,106 @@
     "wk": 6,
     "opp": "Shrinky Dinks",
     "t": "male",
-    "with": "Matt Hancock",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Robert Block",
-     "Matthew Shusterman"
+     "James Price",
+     "Michael Finkelstein"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Tera Baccile",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Evan Oneill"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Mary Callaghan",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Taina Wesner",
+     "Evan Oneill"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Evan Oneill",
+     "Sal Bwint"
     ],
     "f": 21,
     "a": 10,
@@ -23352,144 +16338,48 @@
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 8,
+    "opp": "Baby Got Backhands",
     "t": "mixed",
-    "with": "Ange Bradley",
+    "with": "Erika Richards",
     "vs": [
-     "Kathy Cripps",
-     "Robert Block"
+     "Vanessa Zommi Kungne",
+     "Evan Oneill"
     ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 19,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Evan Oneill"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
     "t": "mixed",
     "with": "Kathy BernéT",
     "vs": [
-     "Kathy Cripps",
-     "Matthew Shusterman"
+     "Tracey Carney",
+     "Russell Cripps"
     ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Michael Finkelstein",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Nancy Blank",
-     "Andrew Cho"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Matt Hancock",
-    "vs": [
-     "Sal Bwint",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Andrew Cho"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jenna Posner",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Jingwei Wu",
-     "Andrew Cho"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Linda Zhu",
-    "vs": [
-     "Mary Callaghan",
-     "Sal Bwint"
-    ],
-    "f": 11,
-    "a": 21,
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -23499,10 +16389,42 @@
     "wk": 9,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Ange Bradley",
+    "with": "Linda Zhu",
     "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
+     "Jamila Sefiane",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Tejas Goculdas",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jamila Sefiane",
+     "Russell Cripps"
     ],
     "f": 24,
     "a": 22,
@@ -23515,14 +16437,14 @@
     "wk": 9,
     "opp": "Kitchen Chaos",
     "t": "male",
-    "with": "Ed Gieske",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Russell Cripps",
-     "Sandro Stefanelli"
+     "Tejas Goculdas",
+     "Russell Cripps"
     ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 19,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -23536,327 +16458,6 @@
      "Sandro Stefanelli",
      "Saul Barsh"
     ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Ange Bradley",
-    "vs": [
-     "Jennifer Land",
-     "Sandro Stefanelli"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Keith Goldberg",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Erika Richards",
-    "vs": [
-     "Tracey Carney",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 0.9,
-    "confidence": 49,
-    "rank": 23,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 3,
-    "rating": -0.7,
-    "confidence": 66,
-    "rank": 48,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 4,
-    "rating": -1,
-    "confidence": 66,
-    "rank": 56,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 5,
-    "rating": -1.2,
-    "confidence": 67,
-    "rank": 61,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 6,
-    "rating": -1.5,
-    "confidence": 75,
-    "rank": 67,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 7,
-    "rating": -2,
-    "confidence": 75,
-    "rank": 73,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 8,
-    "rating": -2,
-    "confidence": 81,
-    "rank": 71,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 9,
-    "rating": -2,
-    "confidence": 84,
-    "rank": 72,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -1.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
-    "name": "Matt Hancock",
-    "n": 5,
-    "synergy": 1.7
-   },
-   {
-    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
-    "name": "Jeff Zamorski",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "0ea06752-4e43-4708-8d85-b0499137f61e",
-    "name": "Ange Bradley",
-    "n": 5,
-    "synergy": -0.2
-   },
-   {
-    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
-    "name": "Ed Gieske",
-    "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
-    "name": "Kathy BernéT",
-    "n": 3,
-    "synergy": -1.5
-   }
-  ]
- },
- "32a22b16-1052-4c22-bdf9-9b48a1d73c84": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 106,
-    "pa": 111,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 109,
-    "pa": 111,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 108,
-    "pa": 97,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Barb Flynn",
-     "Jon Wheel"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Taina Wesner",
-    "vs": [
-     "Priya Narahari",
-     "Jessica Pao"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Priya Narahari",
-     "Jessica Pao"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Andrew Cho",
-    "vs": [
-     "Barb Flynn",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
     "f": 21,
     "a": 11,
     "w": 1,
@@ -23865,15 +16466,15 @@
     "subFor": null
    },
    {
-    "wk": 3,
+    "wk": 10,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Tim Phelan",
+    "with": "Jenna Posner",
     "vs": [
-     "Jessica Pao",
-     "Andrew Neave"
+     "Vicki Main",
+     "Harvey Mitchell"
     ],
-    "f": 11,
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -23881,93 +16482,13 @@
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
+    "wk": 10,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Jeff Jensen",
+    "with": "Linda Zhu",
     "vs": [
-     "Debra Schlosser",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jeff Jensen",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Marykristin Haskell",
-     "Jenna Posner"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matt Enz",
-    "vs": [
-     "Debra Schlosser",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Jenna Posner",
-     "Debra Schlosser"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Linda Zhu",
-     "Jenna Posner"
+     "Allison Hartman",
+     "Harrison Bohrer"
     ],
     "f": 18,
     "a": 21,
@@ -23977,31 +16498,31 @@
     "subFor": null
    },
    {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Sal Bwint",
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Debra Schlosser",
-     "Ed Gieske"
+     "Jared Quereau",
+     "Harvey Mitchell"
     ],
-    "f": 21,
-    "a": 16,
+    "f": 23,
+    "a": 21,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Mary Callaghan",
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Linda Zhu",
     "vs": [
-     "Erika Richards",
-     "Jenna Posner"
+     "Allison Hartman",
+     "Harvey Mitchell"
     ],
-    "f": 12,
+    "f": 10,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -24009,13 +16530,29 @@
     "subFor": null
    },
    {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vanessa Zommi Kungne",
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Fratinardo",
     "vs": [
-     "Erika Richards",
-     "Jenna Posner"
+     "Jared Quereau",
+     "Harvey Mitchell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
     ],
     "f": 21,
     "a": 19,
@@ -24023,135 +16560,784 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 48,
+    "rank": 17,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.3
    },
    {
-    "wk": 8,
+    "week": 3,
+    "rating": 0.5,
+    "confidence": 64,
+    "rank": 27,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 4,
+    "rating": 0.9,
+    "confidence": 73,
+    "rank": 27,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "rating": 0.9,
+    "confidence": 78,
+    "rank": 27,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 6,
+    "rating": 0.6,
+    "confidence": 82,
+    "rank": 32,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 7,
+    "rating": 0.2,
+    "confidence": 82,
+    "rank": 35,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 8,
+    "rating": 0.8,
+    "confidence": 85,
+    "rank": 32,
+    "ratingGames": 37,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 9,
+    "rating": 1.1,
+    "confidence": 87,
+    "rank": 26,
+    "ratingGames": 43,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": 0.8,
+    "confidence": 88,
+    "rank": 32,
+    "ratingGames": 49,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
+    "name": "Ed Gieske",
+    "n": 4,
+    "synergy": 1.8
+   },
+   {
+    "pid": "99779531-e32b-47d5-b580-171a74844d91",
+    "name": "Chris Fratinardo",
+    "n": 12,
+    "synergy": -0.2
+   },
+   {
+    "pid": "fd596225-797e-4125-876b-633dae2efc65",
+    "name": "Linda Zhu",
+    "n": 10,
+    "synergy": -0.5
+   },
+   {
+    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
+    "name": "Kathy BernéT",
+    "n": 4,
+    "synergy": -1.4
+   }
+  ]
+ },
+ "980c2469-2017-4943-bc0d-5c49f0526f85": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 99,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "week": 4,
     "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 105,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
     "t": "mixed",
-    "with": "Sal Bwint",
+    "with": "Barb Flynn",
     "vs": [
-     "Debra Schlosser",
-     "Matt Hancock"
+     "Jenn Smith",
+     "Andrew Cho"
     ],
     "f": 21,
-    "a": 9,
-    "w": 1,
+    "a": 23,
+    "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "The Young Guns"
    },
    {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Nancy Blank",
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Barb Flynn",
     "vs": [
-     "Linda Zhu",
-     "Debra Schlosser"
+     "Mary Callaghan",
+     "Tim Phelan"
     ],
     "f": 21,
-    "a": 11,
+    "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "The Young Guns"
    },
    {
-    "wk": 8,
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Andrew Cho",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Mary Callaghan",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Michael Taylor",
+     "Andrew Cho"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Scott Kacelowicz",
+     "Tim Phelan"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
     "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Tim Phelan",
+    "with": "Barb Flynn",
     "vs": [
      "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Frank Fang",
      "Matt Hancock"
     ],
     "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Matt Hancock",
+     "Ed Gieske"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Barb Flynn",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jeff Zamorski",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Peilei Cao",
+     "Frank Fang"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
    }
   ],
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -0.7,
-    "confidence": 52,
-    "rank": 49,
+    "rating": 1.5,
+    "confidence": 50,
+    "rank": 16,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.7
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -1.4
    },
    {
     "week": 4,
-    "rating": -1,
-    "confidence": 53,
-    "rank": 57,
-    "ratingGames": 6,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.9
+    "rating": 1,
+    "confidence": 66,
+    "rank": 24,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 5,
-    "rating": -1.7,
+    "rating": 1.1,
     "confidence": 67,
-    "rank": 68,
+    "rank": 23,
     "ratingGames": 12,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.1
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": -0.7
    },
    {
     "week": 6,
-    "rating": -1.8,
+    "rating": 0.9,
     "confidence": 68,
-    "rank": 69,
+    "rank": 29,
     "ratingGames": 12,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1.2
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": -0.9
    },
    {
     "week": 7,
-    "rating": -1.8,
+    "rating": 1,
     "confidence": 68,
-    "rank": 72,
+    "rank": 28,
     "ratingGames": 12,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 8,
-    "rating": -1.6,
-    "confidence": 75,
-    "rank": 67,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1.3
+    "rating": 0.9,
+    "confidence": 69,
+    "rank": 31,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 9,
-    "rating": -1.5,
-    "confidence": 75,
-    "rank": 66,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.3
+    "rating": 0.8,
+    "confidence": 69,
+    "rank": 32,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 10,
+    "rating": 0.5,
+    "confidence": 70,
+    "rank": 35,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": [
    {
-    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
-    "name": "Mary Callaghan",
+    "pid": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
+    "name": "Barb Flynn",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 1.3
    },
    {
-    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
-    "name": "Vanessa Zommi Kungne",
-    "n": 3,
-    "synergy": -2.3
+    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
+    "name": "Andrew Neave",
+    "n": 4,
+    "synergy": -1.6
    }
   ]
+ },
+ "ecde54a3-2395-4a5b-8ccd-ffad7b992b07": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 118,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     4,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "week": 4,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Kathy BernéT",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Saul Barsh",
+    "vs": [
+     "Frank Fang",
+     "Kevin Basch"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Saul Barsh",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Tejas Goculdas",
+    "vs": [
+     "Jeff Zamorski",
+     "Matt Hancock"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 3,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Andrew Cho",
+    "vs": [
+     "James Price",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Christy Beale",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Andrew Cho",
+    "vs": [
+     "Matthew Shusterman",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Kathy Cripps",
+     "Robert Block"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Carolina Reese",
+     "Matthew Shusterman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Matthew Shusterman",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "rating": 0.3,
+    "confidence": 49,
+    "rank": 30,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 4,
+    "rating": 0.4,
+    "confidence": 66,
+    "rank": 36,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "rating": 0.3,
+    "confidence": 68,
+    "rank": 38,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 6,
+    "rating": 0.2,
+    "confidence": 68,
+    "rank": 36,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 7,
+    "rating": -0.3,
+    "confidence": 69,
+    "rank": 46,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 8,
+    "rating": 0,
+    "confidence": 70,
+    "rank": 42,
+    "ratingGames": 12,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 9,
+    "rating": 0.1,
+    "confidence": 70,
+    "rank": 41,
+    "ratingGames": 12,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 10,
+    "rating": 0.2,
+    "confidence": 71,
+    "rank": 39,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
  },
  "c5fa38d0-add2-462c-b3de-5b62dd4d1386": {
   "log": [
@@ -24341,6 +17527,33 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 95,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -25129,6 +18342,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Jenna Posner",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jared Quereau",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jared Quereau",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Erika Richards",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -25212,6 +18521,15 @@
     "ratingGames": 49,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 10,
+    "rating": 2.6,
+    "confidence": 89,
+    "rank": 6,
+    "ratingGames": 55,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
@@ -25219,43 +18537,3247 @@
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 4,
-    "synergy": 1.7
+    "synergy": 1.6
    },
    {
     "pid": "50d796da-0ac2-4f94-af29-212d7865f473",
     "name": "Andre Cristobal",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0.3
    },
    {
     "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
     "name": "Emily Ocasio",
     "n": 9,
-    "synergy": 0.2
+    "synergy": 0
    },
    {
     "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
     "name": "Priya Narahari",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
     "name": "Mara Boast",
     "n": 5,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
     "name": "Vicki Main",
-    "n": 5,
-    "synergy": -0.6
+    "n": 7,
+    "synergy": -0.7
    },
    {
     "pid": "b1814193-753a-460b-8911-8722c57efb86",
     "name": "Jared Quereau",
-    "n": 8,
-    "synergy": -1.2
+    "n": 10,
+    "synergy": -1
+   }
+  ]
+ },
+ "d5aa92c7-71df-47c7-84fb-6710e1ed81e2": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 125,
+    "pa": 129,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 139,
+    "pa": 132,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 119,
+    "pa": 136,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 129,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 134,
+    "pa": 124,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 156,
+    "pa": 106,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Erika Richards",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jonathan Goldner",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Linda Zhu",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Linda Zhu",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Carolina Reese",
+    "vs": [
+     "Taina Wesner",
+     "Jodi Evans"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Carolina Reese",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jodi Evans"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Marykristin Haskell",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Marykristin Haskell",
+     "Frank Fang"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Priya Narahari",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Emily Ocasio",
+     "Jared Quereau"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Priya Narahari"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Vicki Main",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Priya Narahari"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Nam Barsh",
+     "Sandra Thompson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Christine Dugan",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Nam Barsh",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nam Barsh",
+     "Christine Dugan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nam Barsh",
+     "Christine Dugan"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Jenn Smith",
+     "Sal Bwint"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Taina Wesner",
+     "Nancy Blank"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Jenn Smith",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Nancy Blank",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Nancy Blank",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Nancy Blank",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 51,
+    "rank": 31,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 3,
+    "rating": 0.1,
+    "confidence": 54,
+    "rank": 33,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 4,
+    "rating": 1.8,
+    "confidence": 71,
+    "rank": 14,
+    "ratingGames": 14,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 5,
+    "rating": 1.7,
+    "confidence": 72,
+    "rank": 15,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 6,
+    "rating": 1,
+    "confidence": 78,
+    "rank": 27,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 7,
+    "rating": 1.3,
+    "confidence": 83,
+    "rank": 24,
+    "ratingGames": 28,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 8,
+    "rating": 1.6,
+    "confidence": 85,
+    "rank": 22,
+    "ratingGames": 35,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 9,
+    "rating": 1.7,
+    "confidence": 86,
+    "rank": 18,
+    "ratingGames": 35,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 10,
+    "rating": 2.3,
+    "confidence": 88,
+    "rank": 12,
+    "ratingGames": 43,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
+    "name": "Kim Bohrer",
+    "n": 3,
+    "synergy": 1.6
+   },
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 4,
+    "synergy": 1.6
+   },
+   {
+    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+    "name": "Katherine Maruyama",
+    "n": 6,
+    "synergy": 1.5
+   },
+   {
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "37a0fa2c-df0b-4d92-900b-a9f20f441ad8",
+    "name": "Keith Goldberg",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
+    "name": "Dan Ladislaw",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 5,
+    "synergy": -1.5
+   },
+   {
+    "pid": "c7a0b075-272d-4427-98c0-02955690731f",
+    "name": "James Price",
+    "n": 3,
+    "synergy": -2.4
+   }
+  ]
+ },
+ "f8687730-86a2-4769-a38b-7c0269ee88f5": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 132,
+    "pa": 126,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 138,
+    "pa": 125,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 134,
+    "pa": 128,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 132,
+    "pa": 119,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 89,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 139,
+    "pa": 113,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 120,
+    "pa": 141,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 135,
+    "pa": 112,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathy Cripps",
+     "Jonathan Goldner"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jonathan Goldner",
+     "Keith Goldberg"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Tera Baccile",
+     "Jonathan Goldner"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathy Cripps",
+     "Keith Goldberg"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Keith Goldberg",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Tera Baccile",
+     "Keith Goldberg"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jonathan Goldner",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Claudya Elefante",
+     "David Marchese"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "David Marchese",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Nam Barsh",
+     "David Marchese"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Claudya Elefante",
+     "Tejas Goculdas"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Tejas Goculdas",
+     "Alex Fad"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Tracey Carney",
+     "Tejas Goculdas"
+    ],
+    "f": 31,
+    "a": 29,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "David Marchese",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Julia Plein",
+     "Jared Quereau"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jacinth Chikkala",
+    "vs": [
+     "Jared Quereau",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Peilei Cao",
+    "vs": [
+     "Vicki Main",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Julia Plein",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Harvey Mitchell",
+     "Jon Wheel"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Priya Narahari",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jacinth Chikkala",
+    "vs": [
+     "Jared Quereau",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Michael Taylor",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Christy Beale",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "James Price",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Tera Baccile",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Christy Beale",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Chris Norton",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Katherine Maruyama",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "James Price",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Mary Callaghan",
+     "Evan Oneill"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jingwei Wu",
+     "Evan Oneill"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Taina Wesner",
+     "Evan Oneill"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Jingwei Wu",
+     "Andrew Cho"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Jingwei Wu",
+     "Andrew Cho"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jingwei Wu",
+     "Evan Oneill"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Tejas Goculdas",
+     "Keith Goldberg"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Claudya Elefante",
+     "Tejas Goculdas"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Nam Barsh",
+     "Keith Goldberg"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Keith Goldberg",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Claudya Elefante",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Tejas Goculdas",
+     "Keith Goldberg"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathleen Dougherty",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jared Quereau",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Emily Ocasio",
+     "Jared Quereau"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathleen Dougherty",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Graham Heavenrich",
+     "Lincoln Jensen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Emily Ocasio",
+     "Graham Heavenrich"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Jared Quereau",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 46,
+    "rank": 40,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 3,
+    "rating": 0.6,
+    "confidence": 67,
+    "rank": 26,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 4,
+    "rating": 0.9,
+    "confidence": 76,
+    "rank": 26,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "rating": 1.8,
+    "confidence": 80,
+    "rank": 13,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 6,
+    "rating": 2.3,
+    "confidence": 84,
+    "rank": 9,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 7,
+    "rating": 2.5,
+    "confidence": 84,
+    "rank": 9,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 8,
+    "rating": 2.9,
+    "confidence": 86,
+    "rank": 3,
+    "ratingGames": 42,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 9,
+    "rating": 2.7,
+    "confidence": 87,
+    "rank": 4,
+    "ratingGames": 49,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "rating": 2.8,
+    "confidence": 89,
+    "rank": 4,
+    "ratingGames": 56,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
+    "name": "Kevin Basch",
+    "n": 5,
+    "synergy": 0.8
+   },
+   {
+    "pid": "99779531-e32b-47d5-b580-171a74844d91",
+    "name": "Chris Fratinardo",
+    "n": 12,
+    "synergy": 0.4
+   },
+   {
+    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+    "name": "Matt Hancock",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
+    "name": "Megan Harvey",
+    "n": 15,
+    "synergy": 0.1
+   },
+   {
+    "pid": "fd596225-797e-4125-876b-633dae2efc65",
+    "name": "Linda Zhu",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
+    "name": "Erika Richards",
+    "n": 10,
+    "synergy": -1.1
+   }
+  ]
+ },
+ "12584e84-045d-4de1-8edc-7ccbcb1ee27a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 143,
+    "pa": 106,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 126,
+    "pa": 133,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 129,
+    "pa": 131,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 135,
+    "pa": 114,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 127,
+    "pa": 127,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 136,
+    "pa": 133,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Kim Bohrer",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Katherine Maruyama",
+     "Kim Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Christy Beale",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Katherine Maruyama",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Katherine Maruyama",
+     "Christy Beale"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Katherine Maruyama",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Katherine Maruyama",
+     "Christy Beale"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Tracey Carney",
+     "Andre Cristobal"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Nam Barsh",
+     "Jamila Sefiane"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Tracey Carney",
+     "Tejas Goculdas"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Nam Barsh",
+     "Andre Cristobal"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Nam Barsh",
+     "Tracey Carney"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Nam Barsh",
+     "Tracey Carney"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Claudya Elefante",
+     "Tejas Goculdas"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Nam Barsh",
+     "Jean Rosenbaum"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jacinth Chikkala",
+    "vs": [
+     "Claudya Elefante",
+     "Sandro Stefanelli"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Christine Dugan",
+     "Jean Rosenbaum"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Claudya Elefante",
+     "Nam Barsh"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Claudya Elefante",
+     "Nam Barsh"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Tera Baccile",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Tera Baccile",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Katherine Maruyama",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Jessica Pao",
+    "vs": [
+     "Mary Callaghan",
+     "Jodi Evans"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Mary Callaghan",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Mara Boast",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Linda Zhu",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Linda Zhu",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.6,
+    "confidence": 48,
+    "rank": 6,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 67,
+    "rank": 22,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 3,
+    "rating": 1.5,
+    "confidence": 68,
+    "rank": 13,
+    "ratingGames": 14,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 4,
+    "rating": 2,
+    "confidence": 70,
+    "rank": 11,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 5,
+    "rating": 2.1,
+    "confidence": 70,
+    "rank": 10,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 6,
+    "rating": 1.8,
+    "confidence": 78,
+    "rank": 16,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 7,
+    "rating": 2.3,
+    "confidence": 82,
+    "rank": 10,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 8,
+    "rating": 2.4,
+    "confidence": 82,
+    "rank": 8,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 9,
+    "rating": 2.5,
+    "confidence": 85,
+    "rank": 5,
+    "ratingGames": 35,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 10,
+    "rating": 2.7,
+    "confidence": 87,
+    "rank": 5,
+    "ratingGames": 42,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
+    "name": "Vicki Main",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "b1814193-753a-460b-8911-8722c57efb86",
+    "name": "Jared Quereau",
+    "n": 6,
+    "synergy": 0.7
+   },
+   {
+    "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
+    "name": "Mara Boast",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
+    "name": "Harvey Mitchell",
+    "n": 9,
+    "synergy": 0
+   },
+   {
+    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
+    "name": "Priya Narahari",
+    "n": 4,
+    "synergy": -0.5
+   },
+   {
+    "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
+    "name": "Allison Hartman",
+    "n": 4,
+    "synergy": -2.3
    }
   ]
  },
@@ -25420,6 +21942,33 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 121,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -26096,6 +22645,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Kathleen Dougherty",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Kathleen Dougherty",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathleen Dougherty",
+     "Emily Ocasio"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathleen Dougherty",
+     "Emily Ocasio"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -26170,171 +22831,111 @@
     "ratingGames": 42,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "rating": 1.9,
+    "confidence": 89,
+    "rank": 19,
+    "ratingGames": 49,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
    {
     "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
     "name": "Kathy BernéT",
-    "n": 6,
+    "n": 7,
+    "synergy": 1.3
+   },
+   {
+    "pid": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
+    "name": "Jenna Posner",
+    "n": 3,
     "synergy": 1.2
    },
    {
     "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
     "name": "Megan Harvey",
-    "n": 12,
-    "synergy": 1.2
+    "n": 14,
+    "synergy": 0.9
+   },
+   {
+    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
+    "name": "Kevin Basch",
+    "n": 3,
+    "synergy": 0.8
    },
    {
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
-    "n": 9,
-    "synergy": -1.5
+    "n": 10,
+    "synergy": -1.1
    },
    {
     "pid": "99779531-e32b-47d5-b580-171a74844d91",
     "name": "Chris Fratinardo",
-    "n": 4,
-    "synergy": -1.6
+    "n": 5,
+    "synergy": -1.9
    }
   ]
  },
- "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0": {
+ "5142be9e-adb4-4f40-8632-1f6daa6d824b": {
   "log": [
    {
     "week": 2,
     "opp": "Drop it Like it's Hot",
     "homeAway": "A",
-    "w": 2,
-    "l": 5,
+    "w": 3,
+    "l": 4,
     "gp": 7,
-    "pf": 119,
-    "pa": 133,
+    "pf": 129,
+    "pa": 135,
     "mx": [
-     1,
-     3
+     2,
+     1
     ],
     "gn": [
      1,
-     2
+     3
     ],
     "cl": [
-     0,
-     3
+     2,
+     2
     ],
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
-    "week": 4,
-    "opp": "Baby Got Backhands",
+    "week": 5,
+    "opp": "Shrinky Dinks",
     "homeAway": "A",
-    "w": 4,
+    "w": 5,
     "l": 2,
-    "gp": 6,
-    "pf": 120,
-    "pa": 110,
+    "gp": 7,
+    "pf": 142,
+    "pa": 125,
     "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
      2,
      1
     ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     1
-    ],
     "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 80,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 123,
-    "pa": 136,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 139,
-    "pa": 114,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
    }
   ],
   "games": [
@@ -26342,7 +22943,7 @@
     "wk": 2,
     "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Jonathan Goldner",
+    "with": "Kathy Cripps",
     "vs": [
      "Erika Richards",
      "Jeff Zamorski"
@@ -26351,1111 +22952,317 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
     "wk": 2,
     "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Jane Meng",
-    "vs": [
-     "Megan Harvey",
-     "Linda Zhu"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
+    "t": "male",
     "with": "Keith Goldberg",
     "vs": [
-     "Erika Richards",
-     "Chris Fratinardo"
+     "Chris Fratinardo",
+     "Jeff Zamorski"
     ],
-    "f": 23,
-    "a": 25,
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
     "wk": 2,
     "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Keith Goldberg",
+    "with": "Tera Baccile",
     "vs": [
      "Megan Harvey",
      "Jeff Zamorski"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jonathan Goldner",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Megan Harvey",
-     "Erika Richards"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Nancy Blank",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Sarah Ross",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Taina Wesner",
-     "Nancy Blank"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Nancy Blank",
-     "Alex Fad"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Nancy Blank",
-     "Jodi Evans"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Taina Wesner",
-     "Andrew Cho"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Ange Bradley",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Ange Bradley",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Marykristin Haskell",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Kathy BernéT",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Allison Hartman",
-     "Graham Heavenrich"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Vicki Main"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Priya Narahari",
-     "Allison Hartman"
     ],
     "f": 21,
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Chris Norton",
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Robert Block",
     "vs": [
-     "Allison Hartman",
-     "Jordan Demcher"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
+     "Chris Fratinardo",
+     "Frank Fang"
     ],
     "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Robert Block",
     "vs": [
-     "Priya Narahari",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Carolina Reese",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Jane Meng",
-    "vs": [
-     "Christine Dugan",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Jane Meng",
-    "vs": [
-     "Sandra Thompson",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Nam Barsh",
-     "Christine Dugan"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Sandra Thompson",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Nam Barsh",
-     "Christine Dugan"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 0,
-    "confidence": 47,
-    "rank": 29,
-    "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 3,
-    "rating": 0.1,
-    "confidence": 52,
-    "rank": 34,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 4,
-    "rating": 0.7,
-    "confidence": 69,
-    "rank": 30,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 5,
-    "rating": 0.7,
-    "confidence": 70,
-    "rank": 31,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 6,
-    "rating": 2.2,
-    "confidence": 78,
-    "rank": 10,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 7,
-    "rating": 1.6,
-    "confidence": 83,
-    "rank": 20,
-    "ratingGames": 26,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 8,
-    "rating": 1.7,
-    "confidence": 85,
-    "rank": 20,
-    "ratingGames": 33,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 9,
-    "rating": 1.6,
-    "confidence": 86,
-    "rank": 22,
-    "ratingGames": 33,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
-    "name": "Robert Block",
-    "n": 3,
-    "synergy": 2.5
-   },
-   {
-    "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
-    "name": "Jane Meng",
-    "n": 3,
-    "synergy": 1.4
-   },
-   {
-    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
-    "name": "Katherine Maruyama",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 5,
-    "synergy": 0.7
-   },
-   {
-    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
-    "name": "Tera Baccile",
-    "n": 5,
-    "synergy": -1.6
-   },
-   {
-    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
-    "name": "Carolina Reese",
-    "n": 3,
-    "synergy": -1.9
-   }
-  ]
- },
- "8f93a05d-c51e-48c4-901c-4ddbe881b309": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 123,
-    "pa": 100,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 104,
-    "pa": 121,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 83,
-    "pa": 100,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Allison Hartman",
-     "Graham Heavenrich"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Barb Flynn",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Allison Hartman",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kim Mchugh",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Jessica Pao",
-     "Barb Flynn"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Taina Wesner",
-     "Jodi Evans"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Jodi Evans"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "James Price",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Jodi Evans",
-     "Alex Fad"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Nancy Blank"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Allison Hartman",
-     "Jordan Demcher"
+     "Chris Fratinardo",
+     "Frank Fang"
     ],
     "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
     "with": "Kathy Cripps",
     "vs": [
-     "Priya Narahari",
-     "Allison Hartman"
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
     ],
     "f": 21,
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Shrinky Dinks"
    },
    {
-    "wk": 7,
-    "opp": "The Young Guns",
+    "wk": 5,
+    "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "James Price",
+    "with": "Claudya Elefante",
     "vs": [
-     "Barb Flynn",
-     "Andrew Neave"
+     "Stephanie Woomer",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Tejas Goculdas",
+    "vs": [
+     "Jim Darcangelo",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Madeleine Shusterman",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Jim Darcangelo",
+     "Casey Jannetta"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Jim Darcangelo",
+     "Casey Jannetta"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Claudya Elefante",
+    "vs": [
+     "Madeleine Shusterman",
+     "Jim Darcangelo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
+   },
+   {
+    "wk": 5,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Tejas Goculdas",
+    "vs": [
+     "Jim Darcangelo",
+     "Matthew Shusterman"
     ],
     "f": 21,
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Kitchen Chaos"
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.6,
-    "confidence": 41,
-    "rank": 15,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.1
-   },
-   {
     "week": 2,
-    "rating": 0.6,
-    "confidence": 42,
-    "rank": 26,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.1
+    "rating": 1.4,
+    "confidence": 46,
+    "rank": 15,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.8
    },
    {
     "week": 3,
-    "rating": 0.2,
-    "confidence": 47,
-    "rank": 32,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.5
+    "rating": 2,
+    "confidence": 52,
+    "rank": 11,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.3
    },
    {
     "week": 4,
-    "rating": -1.3,
-    "confidence": 65,
-    "rank": 59,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.7
+    "rating": 2.1,
+    "confidence": 53,
+    "rank": 10,
+    "ratingGames": 7,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.6
    },
    {
     "week": 5,
-    "rating": -1.2,
-    "confidence": 66,
-    "rank": 62,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.7
+    "rating": 2.5,
+    "confidence": 69,
+    "rank": 7,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.3
    },
    {
     "week": 6,
-    "rating": -1.2,
-    "confidence": 67,
-    "rank": 63,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.9
+    "rating": 2.2,
+    "confidence": 70,
+    "rank": 11,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1.4
    },
    {
     "week": 7,
-    "rating": -2.4,
-    "confidence": 74,
-    "rank": 74,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -1
+    "rating": 2.2,
+    "confidence": 70,
+    "rank": 12,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1.4
    },
    {
     "week": 8,
-    "rating": -2.3,
-    "confidence": 74,
-    "rank": 76,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.8
+    "rating": 2.3,
+    "confidence": 71,
+    "rank": 10,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1.4
    },
    {
     "week": 9,
-    "rating": -2.1,
-    "confidence": 75,
-    "rank": 74,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.7
+    "rating": 1.9,
+    "confidence": 71,
+    "rank": 16,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 10,
+    "rating": 2,
+    "confidence": 71,
+    "rank": 18,
+    "ratingGames": 14,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.4
    }
   ],
-  "partners": [
-   {
-    "pid": "c7a0b075-272d-4427-98c0-02955690731f",
-    "name": "James Price",
-    "n": 4,
-    "synergy": 0.8
-   },
-   {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 3,
-    "synergy": -0.7
-   },
-   {
-    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-    "name": "Kathy Cripps",
-    "n": 3,
-    "synergy": -1.9
-   }
-  ]
+  "partners": []
  },
- "51ed4464-321f-4720-bd77-10936d1aed4f": {
+ "f3d99274-413c-4720-9c8d-1a71f9b2e717": {
   "log": [
    {
-    "week": 1,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 105,
-    "pa": 121,
+    "week": 4,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 131,
+    "pa": 120,
     "mx": [
-     0,
-     3
+     2,
+     2
     ],
     "gn": [
      2,
@@ -27463,7 +23270,429 @@
     ],
     "cl": [
      1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Megan Harvey",
+     "Peilei Cao"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Erika Richards",
+     "Jacinth Chikkala"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Megan Harvey",
+     "Jacinth Chikkala"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "rating": 2.5,
+    "confidence": 54,
+    "rank": 4,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 5,
+    "rating": 2.4,
+    "confidence": 55,
+    "rank": 8,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 6,
+    "rating": 2.7,
+    "confidence": 57,
+    "rank": 6,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 7,
+    "rating": 2.8,
+    "confidence": 57,
+    "rank": 5,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.9
+   },
+   {
+    "week": 8,
+    "rating": 2.5,
+    "confidence": 58,
+    "rank": 5,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 9,
+    "rating": 2.4,
+    "confidence": 58,
+    "rank": 8,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 10,
+    "rating": 2.5,
+    "confidence": 59,
+    "rank": 7,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
+ "52c4a07c-503b-4413-b169-0ea86004eb5f": {
+  "log": [
+   {
+    "week": 4,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 128,
+    "pa": 131,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
      2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Allison Hartman",
+     "Jr Burrs"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Julia Plein",
+     "Priya Narahari"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Vicki Main",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vicki Main",
+     "Allison Hartman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Allison Hartman",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Vicki Main",
+     "Jon Wheel"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Drop it Like it's Hot"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "rating": -0.3,
+    "confidence": 56,
+    "rank": 44,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "rating": -0.5,
+    "confidence": 57,
+    "rank": 49,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 6,
+    "rating": -0.6,
+    "confidence": 58,
+    "rank": 53,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 7,
+    "rating": -0.3,
+    "confidence": 58,
+    "rank": 47,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 8,
+    "rating": -0.3,
+    "confidence": 59,
+    "rank": 50,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 9,
+    "rating": -0.6,
+    "confidence": 59,
+    "rank": 55,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": -0.4,
+    "confidence": 59,
+    "rank": 50,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "23871699-a12b-4eb6-89cb-62fec790e3fb": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 142,
+    "pa": 102,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
     ],
     "teamRes": "W",
     "teamGW": 17,
@@ -27475,22 +23704,22 @@
     "week": 3,
     "opp": "The Young Guns",
     "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 98,
-    "pa": 100,
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 139,
+    "pa": 134,
     "mx": [
      2,
-     0
+     2
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
      1,
-     2
+     4
     ],
     "teamRes": "L",
     "teamGW": 14,
@@ -27503,21 +23732,21 @@
     "opp": "Shrinky Dinks",
     "homeAway": "H",
     "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 104,
-    "pa": 109,
+    "l": 3,
+    "gp": 7,
+    "pf": 140,
+    "pa": 126,
     "mx": [
-     2,
-     1
+     1,
+     3
     ],
     "gn": [
-     2,
-     1
+     3,
+     0
     ],
     "cl": [
      0,
-     0
+     2
     ],
     "teamRes": "W",
     "teamGW": 19,
@@ -27526,44 +23755,17 @@
     "subFor": null
    },
    {
-    "week": 8,
+    "week": 5,
     "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 111,
-    "pa": 111,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "The Young Guns",
     "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 115,
-    "pa": 109,
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 114,
+    "pa": 142,
     "mx": [
-     3,
-     0
+     2,
+     2
     ],
     "gn": [
      0,
@@ -27571,11 +23773,92 @@
     ],
     "cl": [
      1,
-     2
+     1
     ],
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 135,
+    "pa": 107,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 119,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 131,
+    "pa": 134,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -27585,26 +23868,10 @@
     "wk": 1,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Mary Callaghan",
+    "with": "Taina Wesner",
     "vs": [
-     "Jamila Sefiane",
-     "David Marchese"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Sal Bwint",
-    "vs": [
-     "Russell Cripps",
-     "Saul Barsh"
+     "Nam Barsh",
+     "Tejas Goculdas"
     ],
     "f": 21,
     "a": 18,
@@ -27620,42 +23887,10 @@
     "with": "Jingwei Wu",
     "vs": [
      "Tejas Goculdas",
-     "David Marchese"
+     "Sandro Stefanelli"
     ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Tracey Carney",
-     "David Marchese"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "David Marchese"
-    ],
-    "f": 9,
-    "a": 21,
+    "f": 21,
+    "a": 23,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -27665,58 +23900,42 @@
     "wk": 1,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Mary Callaghan",
+    "with": "Sarah Ross",
     "vs": [
      "Christine Dugan",
-     "Russell Cripps"
+     "Tejas Goculdas"
     ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Jenn Smith",
-    "vs": [
-     "Barb Flynn",
-     "Jon Wheel"
-    ],
-    "f": 23,
-    "a": 21,
+    "f": 21,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Tim Phelan",
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Sarah Ross",
     "vs": [
-     "Graham Heavenrich",
-     "Andrew Neave"
+     "Nam Barsh",
+     "Sandro Stefanelli"
     ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
+    "f": 21,
+    "a": 10,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "The Young Guns",
+    "wk": 1,
+    "opp": "Kitchen Chaos",
     "t": "male",
     "with": "Tim Phelan",
     "vs": [
-     "Andrew Neave",
-     "Jon Wheel"
+     "Sandro Stefanelli",
+     "Russell Cripps"
     ],
     "f": 18,
     "a": 21,
@@ -27726,13 +23945,93 @@
     "subFor": null
    },
    {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Tracey Carney",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 2,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
     "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Jenn Smith",
+    "with": "Taina Wesner",
     "vs": [
-     "Barb Flynn",
-     "Andrew Neave"
+     "Vicki Main",
+     "Andre Cristobal"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Priya Narahari",
+     "Andre Cristobal"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
     ],
     "f": 21,
     "a": 18,
@@ -27745,7 +24044,7 @@
     "wk": 3,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Michael Taylor",
+    "with": "Andrew Cho",
     "vs": [
      "Harvey Mitchell",
      "Jon Wheel"
@@ -27761,13 +24060,29 @@
     "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Taina Wesner",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
-     "Allison Hartman",
-     "Graham Heavenrich"
+     "Priya Narahari",
+     "Harvey Mitchell"
     ],
-    "f": 8,
-    "a": 12,
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -27777,10 +24092,26 @@
     "wk": 4,
     "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Jodi Evans",
+    "with": "Taina Wesner",
     "vs": [
-     "Christy Beale",
-     "Robert Block"
+     "Katherine Maruyama",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Keith Goldberg",
+     "Dan Ladislaw"
     ],
     "f": 21,
     "a": 17,
@@ -27792,31 +24123,15 @@
    {
     "wk": 4,
     "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Alex Fad",
+    "t": "mixed",
+    "with": "Sarah Ross",
     "vs": [
-     "James Price",
-     "Matthew Shusterman"
+     "Tera Baccile",
+     "Keith Goldberg"
     ],
-    "f": 12,
+    "f": 18,
     "a": 21,
     "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Alex Fad",
-    "vs": [
-     "Matthew Shusterman",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -27825,13 +24140,13 @@
     "wk": 4,
     "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Jodi Evans",
+    "with": "Sarah Ross",
     "vs": [
-     "Christy Beale",
-     "Matthew Shusterman"
+     "Katherine Maruyama",
+     "Dan Ladislaw"
     ],
-    "f": 8,
-    "a": 21,
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -27841,7 +24156,7 @@
     "wk": 4,
     "opp": "Shrinky Dinks",
     "t": "male",
-    "with": "Michael Taylor",
+    "with": "Andrew Cho",
     "vs": [
      "Dan Ladislaw",
      "Robert Block"
@@ -27857,92 +24172,44 @@
     "wk": 4,
     "opp": "Shrinky Dinks",
     "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Tera Baccile",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Keith Goldberg",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
     "with": "Taina Wesner",
     "vs": [
-     "Kathy Cripps",
-     "James Price"
+     "Megan Harvey",
+     "Chris Fratinardo"
     ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Linda Zhu",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Jenna Posner",
-     "Matt Hancock"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Jeff Zamorski",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Jenna Posner",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Jeff Zamorski",
-     "Kevin Basch"
-    ],
-    "f": 14,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -27950,13 +24217,45 @@
     "subFor": null
    },
    {
-    "wk": 8,
+    "wk": 5,
     "opp": "Drop it Like it's Hot",
     "t": "male",
-    "with": "Tim Phelan",
+    "with": "Jingwei Wu",
     "vs": [
-     "Matt Hancock",
-     "Ed Gieske"
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Marykristin Haskell",
+     "Chris Fratinardo"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
     ],
     "f": 13,
     "a": 21,
@@ -27966,17 +24265,161 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
     "t": "male",
-    "with": "Scott Kacelowicz",
+    "with": "Jeff Jensen",
     "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
+     "Jeff Zamorski",
+     "Matt Hancock"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Linda Zhu",
+     "Jeff Zamorski"
     ],
     "f": 21,
-    "a": 23,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 16,
+    "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Christine Dugan",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Nam Barsh",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Sal Bwint",
+    "vs": [
+     "Sandro Stefanelli",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -27985,13 +24428,61 @@
     "wk": 9,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
+    "with": "Taina Wesner",
     "vs": [
-     "Vicki Main",
-     "Graham Heavenrich"
+     "Mara Boast",
+     "Harvey Mitchell"
     ],
     "f": 21,
-    "a": 15,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Harvey Mitchell",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Mara Boast",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -28003,10 +24494,10 @@
     "t": "male",
     "with": "Jeff Jensen",
     "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
+     "Jared Quereau",
+     "Harrison Bohrer"
     ],
-    "f": 14,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -28017,26 +24508,10 @@
     "wk": 9,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Jodi Evans",
+    "with": "Taina Wesner",
     "vs": [
-     "Allison Hartman",
-     "Harrison Bohrer"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Allison Hartman",
-     "Lincoln Jensen"
+     "Vicki Main",
+     "Jared Quereau"
     ],
     "f": 21,
     "a": 12,
@@ -28049,13 +24524,125 @@
     "wk": 9,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Jeff Jensen",
+    "with": "Jingwei Wu",
     "vs": [
-     "Graham Heavenrich",
-     "Lincoln Jensen"
+     "Harvey Mitchell",
+     "Jared Quereau"
     ],
     "f": 20,
     "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Kathy Cripps",
+     "Dan Ladislaw"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Katherine Maruyama",
+     "Dan Ladislaw"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Dan Ladislaw",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Sal Bwint",
+    "vs": [
+     "Michael Finkelstein",
+     "Robert Block"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 18,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -28065,110 +24652,113 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.3,
-    "confidence": 45,
-    "rank": 34,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 2,
-    "rating": -1.8,
+    "rating": 2.6,
     "confidence": 46,
-    "rank": 51,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 3,
-    "rating": -1.8,
-    "confidence": 66,
-    "rank": 60,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 4,
-    "rating": -2.3,
-    "confidence": 75,
-    "rank": 64,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 5,
-    "rating": -2,
-    "confidence": 76,
-    "rank": 71,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 6,
-    "rating": -2.1,
-    "confidence": 77,
-    "rank": 72,
-    "ratingGames": 18,
-    "strengthOfPartners": 0,
+    "rank": 1,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
    },
    {
+    "week": 2,
+    "rating": 3.2,
+    "confidence": 52,
+    "rank": 1,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 3,
+    "rating": 2.8,
+    "confidence": 69,
+    "rank": 2,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 4,
+    "rating": 2.2,
+    "confidence": 76,
+    "rank": 6,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "rating": 1.3,
+    "confidence": 80,
+    "rank": 20,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 6,
+    "rating": 1.5,
+    "confidence": 81,
+    "rank": 21,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 1
+   },
+   {
     "week": 7,
-    "rating": -1.8,
-    "confidence": 77,
-    "rank": 69,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.4
+    "rating": 2.1,
+    "confidence": 84,
+    "rank": 14,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 1
    },
    {
     "week": 8,
-    "rating": -1.6,
-    "confidence": 81,
-    "rank": 66,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.5
+    "rating": 2,
+    "confidence": 84,
+    "rank": 13,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 9,
-    "rating": -1.4,
-    "confidence": 84,
-    "rank": 65,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.5
+    "rating": 2.3,
+    "confidence": 86,
+    "rank": 9,
+    "ratingGames": 42,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "rating": 2,
+    "confidence": 87,
+    "rank": 17,
+    "ratingGames": 49,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
    {
-    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
-    "name": "Vanessa Zommi Kungne",
-    "n": 4,
-    "synergy": 2
+    "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
+    "name": "Sarah Ross",
+    "n": 13,
+    "synergy": 1.3
    },
    {
-    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
-    "name": "Tim Phelan",
-    "n": 3,
+    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
+    "name": "Taina Wesner",
+    "n": 11,
     "synergy": 0.6
-   },
-   {
-    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
-    "name": "Jodi Evans",
-    "n": 3,
-    "synergy": 0.3
    },
    {
     "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
     "name": "Jingwei Wu",
-    "n": 4,
-    "synergy": -1.5
+    "n": 14,
+    "synergy": 0.1
    }
   ]
  },
@@ -28360,6 +24950,33 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 96,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -29084,6 +25701,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jenna Posner",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Megan Harvey",
+     "Linda Zhu"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Erika Richards",
+     "Jenna Posner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Jenna Posner",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Erika Richards",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -29167,6 +25880,15 @@
     "ratingGames": 45,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 10,
+    "rating": 1.6,
+    "confidence": 89,
+    "rank": 22,
+    "ratingGames": 51,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -29174,42 +25896,36 @@
     "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
     "name": "Allison Hartman",
     "n": 6,
-    "synergy": 1.8
+    "synergy": 1.6
    },
    {
     "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
     "name": "Emily Ocasio",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 0.9
    },
    {
     "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
     "name": "Matt Enz",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
+   },
+   {
+    "pid": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
+    "name": "Barb Flynn",
+    "n": 4,
+    "synergy": 0.4
    },
    {
     "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
     "name": "Priya Narahari",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "5e52dba4-992f-4352-b538-d2534d423c80",
     "name": "Jessica Pao",
     "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-    "name": "Harvey Mitchell",
-    "n": 5,
-    "synergy": -0.6
-   },
-   {
-    "pid": "50d796da-0ac2-4f94-af29-212d7865f473",
-    "name": "Andre Cristobal",
-    "n": 3,
     "synergy": -0.6
    },
    {
@@ -29219,10 +25935,3283 @@
     "synergy": -0.6
    },
    {
+    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
+    "name": "Harvey Mitchell",
+    "n": 7,
+    "synergy": -0.7
+   },
+   {
+    "pid": "50d796da-0ac2-4f94-af29-212d7865f473",
+    "name": "Andre Cristobal",
+    "n": 3,
+    "synergy": -0.8
+   },
+   {
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 4,
-    "synergy": -1.5
+    "synergy": -1.6
+   }
+  ]
+ },
+ "c979c513-454d-434c-8a65-3b5fea8a8d7d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 103,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 120,
+    "pa": 115,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 102,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 111,
+    "pa": 147,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 111,
+    "pa": 102,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 98,
+    "pa": 112,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 139,
+    "pa": 127,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 73,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Allison Hartman",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Jessica Pao",
+     "Harrison Bohrer"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Andre Cristobal",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Jessica Pao",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Andre Cristobal",
+     "Graham Heavenrich"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Harrison Bohrer",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Kevin Basch",
+     "Ed Gieske"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Kevin Basch",
+     "Ed Gieske"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Ange Bradley",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Ange Bradley",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Frank Fang",
+     "Ed Gieske"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Andrew Cho",
+     "Alex Fad"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Andrew Cho",
+     "Alex Fad"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Jodi Evans",
+     "Andrew Cho"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Jodi Evans",
+     "Alex Fad"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Scott Kacelowicz",
+     "Alex Fad"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Claudya Elefante",
+     "Jonathan Goldner"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Jonathan Goldner",
+     "Tejas Goculdas"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Madeleine Shusterman",
+    "vs": [
+     "Nam Barsh",
+     "Jonathan Goldner"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Madeleine Shusterman",
+    "vs": [
+     "Claudya Elefante",
+     "Tejas Goculdas"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Tejas Goculdas",
+     "Saul Barsh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Jonathan Goldner",
+     "Tejas Goculdas"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Frank Fang",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Ange Bradley",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Marykristin Haskell",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Allison Hartman",
+     "Graham Heavenrich"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Andrew Neave",
+     "Jordan Demcher"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Harvey Mitchell",
+     "Graham Heavenrich"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Vicki Main",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Harvey Mitchell",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Priya Narahari",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Christine Dugan",
+     "Tejas Goculdas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nam Barsh",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Sandro Stefanelli",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Scott Kacelowicz",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Jenn Smith",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Sal Bwint",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nancy Blank",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Nancy Blank",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Sal Bwint",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.6,
+    "confidence": 45,
+    "rank": 7,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 63,
+    "rank": 14,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 3,
+    "rating": 1.5,
+    "confidence": 65,
+    "rank": 15,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 4,
+    "rating": 1.9,
+    "confidence": 73,
+    "rank": 13,
+    "ratingGames": 18,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "rating": 1.2,
+    "confidence": 80,
+    "rank": 22,
+    "ratingGames": 25,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 6,
+    "rating": 0.7,
+    "confidence": 83,
+    "rank": 31,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 7,
+    "rating": 0.3,
+    "confidence": 85,
+    "rank": 34,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 8,
+    "rating": 0.7,
+    "confidence": 87,
+    "rank": 35,
+    "ratingGames": 44,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 9,
+    "rating": 0.7,
+    "confidence": 87,
+    "rank": 33,
+    "ratingGames": 44,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 10,
+    "rating": 1.1,
+    "confidence": 89,
+    "rank": 27,
+    "ratingGames": 50,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 4,
+    "synergy": 1.6
+   },
+   {
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 4,
+    "synergy": 1.5
+   },
+   {
+    "pid": "c7a0b075-272d-4427-98c0-02955690731f",
+    "name": "James Price",
+    "n": 6,
+    "synergy": 1.2
+   },
+   {
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
+    "name": "Kim Bohrer",
+    "n": 6,
+    "synergy": 0.6
+   },
+   {
+    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
+    "name": "Carolina Reese",
+    "n": 3,
+    "synergy": -0.9
+   },
+   {
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
+    "n": 7,
+    "synergy": -1.1
+   },
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 5,
+    "synergy": -2.2
+   }
+  ]
+ },
+ "27d8a10f-ee9b-467c-bf8c-4872ce63de90": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 117,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 90,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 92,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 107,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 119,
+    "pa": 137,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Carolina Reese",
+     "Matthew Shusterman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Chris Norton",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Dan Ladislaw",
+     "Matthew Shusterman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jessica Pao",
+    "vs": [
+     "Kim Bohrer",
+     "Matthew Shusterman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Dan Ladislaw",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Christy Beale",
+     "Chris Norton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Mary Callaghan",
+     "Scott Kacelowicz"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Andrew Cho",
+     "Tim Phelan"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jessica Pao",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Andre Cristobal",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Taina Wesner",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Allison Hartman",
+    "vs": [
+     "Kathy Cripps",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Christy Beale",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Michael Finkelstein",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Christy Beale",
+     "Matthew Shusterman"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Michael Finkelstein",
+     "Matthew Shusterman"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jordan Demcher",
+    "vs": [
+     "James Price",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jessica Pao",
+    "vs": [
+     "Mary Callaghan",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Andrew Cho",
+     "Jeff Jensen"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jared Quereau",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Erika Richards",
+     "Chris Fratinardo"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Jeff Zamorski",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Linda Zhu",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jared Quereau",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 45,
+    "rank": 19,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 49,
+    "rank": 32,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 3,
+    "rating": 0.5,
+    "confidence": 64,
+    "rank": 28,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 4,
+    "rating": 0.5,
+    "confidence": 66,
+    "rank": 33,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "rating": 0.4,
+    "confidence": 66,
+    "rank": 37,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 6,
+    "rating": 0.4,
+    "confidence": 67,
+    "rank": 33,
+    "ratingGames": 12,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 7,
+    "rating": 0.9,
+    "confidence": 75,
+    "rank": 30,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 8,
+    "rating": 1.1,
+    "confidence": 76,
+    "rank": 29,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 9,
+    "rating": 0.6,
+    "confidence": 80,
+    "rank": 35,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": 0.6,
+    "confidence": 84,
+    "rank": 34,
+    "ratingGames": 31,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
+    "name": "Harvey Mitchell",
+    "n": 4,
+    "synergy": 1.6
+   },
+   {
+    "pid": "5e52dba4-992f-4352-b538-d2534d423c80",
+    "name": "Jessica Pao",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "50d796da-0ac2-4f94-af29-212d7865f473",
+    "name": "Andre Cristobal",
+    "n": 4,
+    "synergy": 0.4
+   },
+   {
+    "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
+    "name": "Allison Hartman",
+    "n": 5,
+    "synergy": 0.2
+   },
+   {
+    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
+    "name": "Vicki Main",
+    "n": 4,
+    "synergy": -1.6
+   }
+  ]
+ },
+ "8f93a05d-c51e-48c4-901c-4ddbe881b309": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 100,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 104,
+    "pa": 121,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 83,
+    "pa": 100,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Allison Hartman",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Allison Hartman",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Jessica Pao",
+     "Barb Flynn"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Taina Wesner",
+     "Jodi Evans"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jodi Evans"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Jodi Evans",
+     "Alex Fad"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Nancy Blank"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Allison Hartman",
+     "Jordan Demcher"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Priya Narahari",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Vicki Main",
+     "Allison Hartman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 41,
+    "rank": 15,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 42,
+    "rank": 26,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 3,
+    "rating": 0.2,
+    "confidence": 47,
+    "rank": 32,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 4,
+    "rating": -1.3,
+    "confidence": 65,
+    "rank": 59,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "rating": -1.2,
+    "confidence": 66,
+    "rank": 62,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 6,
+    "rating": -1.2,
+    "confidence": 67,
+    "rank": 63,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 7,
+    "rating": -2.4,
+    "confidence": 74,
+    "rank": 74,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 8,
+    "rating": -2.3,
+    "confidence": 74,
+    "rank": 76,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 9,
+    "rating": -2.1,
+    "confidence": 75,
+    "rank": 74,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "rating": -2.1,
+    "confidence": 75,
+    "rank": 75,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c7a0b075-272d-4427-98c0-02955690731f",
+    "name": "James Price",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 3,
+    "synergy": -0.9
+   },
+   {
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 3,
+    "synergy": -1.7
+   }
+  ]
+ },
+ "8c307e80-6a67-476f-be7c-de3b1442b95a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 118,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 87,
+    "pa": 111,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 103,
+    "pa": 113,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 108,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Kim Mchugh",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Matthew Shusterman",
+     "Chris Norton"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Kim Mchugh",
+     "Matthew Shusterman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Keith Goldberg",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Jane Meng",
+     "Robert Block"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Alex Fad",
+     "Saul Barsh"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Tracey Carney",
+     "Sandro Stefanelli"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Alex Fad",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Sandra Thompson",
+     "Alex Fad"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Sandra Thompson",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Sandro Stefanelli",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Kathy Cripps",
+     "Robert Block"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Kathy Cripps",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Michael Finkelstein",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Nancy Blank",
+     "Andrew Cho"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Sal Bwint",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Andrew Cho"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Jingwei Wu",
+     "Andrew Cho"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Mary Callaghan",
+     "Sal Bwint"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Russell Cripps",
+     "Sandro Stefanelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Sandro Stefanelli",
+     "Saul Barsh"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Jennifer Land",
+     "Sandro Stefanelli"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Keith Goldberg",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Tracey Carney",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Barb Flynn",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Harvey Mitchell",
+     "Harrison Bohrer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matt Hancock",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Barb Flynn",
+     "Harrison Bohrer"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Graham Heavenrich",
+     "Lincoln Jensen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Erika Richards",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 49,
+    "rank": 23,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 3,
+    "rating": -0.7,
+    "confidence": 66,
+    "rank": 48,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 4,
+    "rating": -1,
+    "confidence": 66,
+    "rank": 56,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 5,
+    "rating": -1.2,
+    "confidence": 67,
+    "rank": 61,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 6,
+    "rating": -1.5,
+    "confidence": 75,
+    "rank": 67,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 7,
+    "rating": -2,
+    "confidence": 75,
+    "rank": 73,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 8,
+    "rating": -2,
+    "confidence": 81,
+    "rank": 71,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 9,
+    "rating": -2,
+    "confidence": 84,
+    "rank": 72,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 10,
+    "rating": -1.8,
+    "confidence": 86,
+    "rank": 68,
+    "ratingGames": 36,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+    "name": "Matt Hancock",
+    "n": 7,
+    "synergy": 1.2
+   },
+   {
+    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
+    "name": "Jeff Zamorski",
+    "n": 5,
+    "synergy": 0.8
+   },
+   {
+    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
+    "name": "Erika Richards",
+    "n": 3,
+    "synergy": 0.8
+   },
+   {
+    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
+    "name": "Kathy BernéT",
+    "n": 5,
+    "synergy": -0.3
+   },
+   {
+    "pid": "0ea06752-4e43-4708-8d85-b0499137f61e",
+    "name": "Ange Bradley",
+    "n": 5,
+    "synergy": -0.4
+   },
+   {
+    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
+    "name": "Ed Gieske",
+    "n": 4,
+    "synergy": -0.4
    }
   ]
  },
@@ -29414,6 +29403,33 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 138,
+    "pa": 120,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -30202,6 +30218,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Kathy Cripps",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Katherine Maruyama",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Dan Ladislaw",
+     "James Price"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sarah Ross",
+    "vs": [
+     "Kathy Cripps",
+     "Dan Ladislaw"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -30285,38 +30413,3636 @@
     "ratingGames": 49,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 10,
+    "rating": 2.3,
+    "confidence": 88,
+    "rank": 11,
+    "ratingGames": 56,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": [
    {
     "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
     "name": "Sarah Ross",
-    "n": 12,
-    "synergy": 1.8
+    "n": 14,
+    "synergy": 1.2
    },
    {
     "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
     "name": "Taina Wesner",
-    "n": 8,
-    "synergy": 0.9
+    "n": 9,
+    "synergy": 1.2
    },
    {
     "pid": "23871699-a12b-4eb6-89cb-62fec790e3fb",
     "name": "Michael Taylor",
-    "n": 12,
-    "synergy": -0.2
+    "n": 14,
+    "synergy": 0.1
    },
    {
     "pid": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
     "name": "Scott Kacelowicz",
-    "n": 8,
-    "synergy": -0.5
+    "n": 9,
+    "synergy": -0.7
    },
    {
     "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
     "name": "Andrew Cho",
     "n": 4,
     "synergy": -1.5
+   }
+  ]
+ },
+ "51ed4464-321f-4720-bd77-10936d1aed4f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 105,
+    "pa": 121,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 98,
+    "pa": 100,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 104,
+    "pa": 109,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 111,
+    "pa": 111,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 115,
+    "pa": 109,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jamila Sefiane",
+     "David Marchese"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Sal Bwint",
+    "vs": [
+     "Russell Cripps",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Tracey Carney",
+     "David Marchese"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Christine Dugan",
+     "Russell Cripps"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Barb Flynn",
+     "Jon Wheel"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Graham Heavenrich",
+     "Andrew Neave"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Andrew Neave",
+     "Jon Wheel"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Harvey Mitchell",
+     "Jon Wheel"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Allison Hartman",
+     "Graham Heavenrich"
+    ],
+    "f": 8,
+    "a": 12,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Christy Beale",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Alex Fad",
+    "vs": [
+     "James Price",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Alex Fad",
+    "vs": [
+     "Matthew Shusterman",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Christy Beale",
+     "Matthew Shusterman"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Dan Ladislaw",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Kathy Cripps",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Linda Zhu",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Jeff Zamorski",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Jenna Posner",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Jeff Zamorski",
+     "Kevin Basch"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Matt Hancock",
+     "Ed Gieske"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Vicki Main",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Allison Hartman",
+     "Harrison Bohrer"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Allison Hartman",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Graham Heavenrich",
+     "Lincoln Jensen"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 45,
+    "rank": 34,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 46,
+    "rank": 51,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 3,
+    "rating": -1.8,
+    "confidence": 66,
+    "rank": 60,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 4,
+    "rating": -2.3,
+    "confidence": 75,
+    "rank": 64,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "rating": -2,
+    "confidence": 76,
+    "rank": 71,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 6,
+    "rating": -2.1,
+    "confidence": 77,
+    "rank": 72,
+    "ratingGames": 18,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 7,
+    "rating": -1.8,
+    "confidence": 77,
+    "rank": 69,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 8,
+    "rating": -1.6,
+    "confidence": 81,
+    "rank": 66,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 9,
+    "rating": -1.4,
+    "confidence": 84,
+    "rank": 65,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 10,
+    "rating": -1.3,
+    "confidence": 84,
+    "rank": 64,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
+    "name": "Vanessa Zommi Kungne",
+    "n": 4,
+    "synergy": 1.7
+   },
+   {
+    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
+    "name": "Tim Phelan",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
+    "name": "Jodi Evans",
+    "n": 3,
+    "synergy": 0.2
+   },
+   {
+    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
+    "name": "Jingwei Wu",
+    "n": 4,
+    "synergy": -1.5
+   }
+  ]
+ },
+ "c7a0b075-272d-4427-98c0-02955690731f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 108,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 100,
+    "pa": 107,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 98,
+    "pa": 141,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 100,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 88,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 99,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Graham Heavenrich",
+     "Harrison Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Harrison Bohrer",
+     "Andrew Neave"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Allison Hartman",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Jessica Pao",
+     "Harrison Bohrer"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Harrison Bohrer",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nancy Blank",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Andrew Cho",
+     "Alex Fad"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Taina Wesner",
+     "Andrew Cho"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Andrew Neave",
+     "Jordan Demcher"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Vicki Main",
+     "Graham Heavenrich"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Andrew Neave",
+     "Jordan Demcher"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Carolina Reese",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Barb Flynn",
+     "Jordan Demcher"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Graham Heavenrich",
+     "Jordan Demcher"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Jennifer Land",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kim Mchugh",
+    "vs": [
+     "Jamila Sefiane",
+     "Saul Barsh"
+    ],
+    "f": 29,
+    "a": 27,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Russell Cripps",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Jamila Sefiane",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Sandro Stefanelli",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "David Marchese",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Jenn Smith",
+     "Sal Bwint"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Scott Kacelowicz",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Sal Bwint",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Jenn Smith",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Scott Kacelowicz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.4,
+    "confidence": 43,
+    "rank": 16,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 48,
+    "rank": 24,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 3,
+    "rating": 0.7,
+    "confidence": 49,
+    "rank": 24,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 4,
+    "rating": 0.1,
+    "confidence": 66,
+    "rank": 41,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "rating": 0,
+    "confidence": 66,
+    "rank": 43,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 6,
+    "rating": -0.8,
+    "confidence": 77,
+    "rank": 55,
+    "ratingGames": 19,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 7,
+    "rating": -0.8,
+    "confidence": 81,
+    "rank": 53,
+    "ratingGames": 25,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 8,
+    "rating": -0.4,
+    "confidence": 84,
+    "rank": 52,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 9,
+    "rating": -0.5,
+    "confidence": 84,
+    "rank": 51,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 10,
+    "rating": -0.5,
+    "confidence": 86,
+    "rank": 52,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 6,
+    "synergy": 1.2
+   },
+   {
+    "pid": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
+    "name": "Kim Mchugh",
+    "n": 3,
+    "synergy": 0.9
+   },
+   {
+    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
+    "name": "Carolina Reese",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
+    "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
+    "name": "Chris Norton",
+    "n": 8,
+    "synergy": 0.1
+   },
+   {
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 4,
+    "synergy": -2.2
+   },
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 3,
+    "synergy": -2.4
+   }
+  ]
+ },
+ "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 119,
+    "pa": 133,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 110,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 80,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 123,
+    "pa": 136,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 139,
+    "pa": 114,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 139,
+    "pa": 153,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jonathan Goldner",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Megan Harvey",
+     "Linda Zhu"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Erika Richards",
+     "Chris Fratinardo"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jonathan Goldner",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Nancy Blank",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Taina Wesner",
+     "Nancy Blank"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Nancy Blank",
+     "Alex Fad"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Nancy Blank",
+     "Jodi Evans"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "James Price",
+    "vs": [
+     "Taina Wesner",
+     "Andrew Cho"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Ange Bradley",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Ange Bradley",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Marykristin Haskell",
+     "Ange Bradley"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Allison Hartman",
+     "Graham Heavenrich"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Vicki Main"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Carolina Reese",
+    "vs": [
+     "Priya Narahari",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Allison Hartman",
+     "Jordan Demcher"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Carolina Reese",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Priya Narahari",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Carolina Reese",
+    "vs": [
+     "Vicki Main",
+     "Allison Hartman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Christine Dugan",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Nam Barsh",
+     "Sandro Stefanelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Sandra Thompson",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nam Barsh",
+     "Christine Dugan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nam Barsh",
+     "Christine Dugan"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Sarah Ross",
+     "Scott Kacelowicz"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Taina Wesner",
+     "Jenn Smith"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 47,
+    "rank": 29,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 3,
+    "rating": 0.1,
+    "confidence": 52,
+    "rank": 34,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 4,
+    "rating": 0.7,
+    "confidence": 69,
+    "rank": 30,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "rating": 0.7,
+    "confidence": 70,
+    "rank": 31,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 6,
+    "rating": 2.2,
+    "confidence": 78,
+    "rank": 10,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 7,
+    "rating": 1.6,
+    "confidence": 83,
+    "rank": 20,
+    "ratingGames": 26,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 8,
+    "rating": 1.7,
+    "confidence": 85,
+    "rank": 20,
+    "ratingGames": 33,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 9,
+    "rating": 1.6,
+    "confidence": 86,
+    "rank": 22,
+    "ratingGames": 33,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 10,
+    "rating": 1.4,
+    "confidence": 88,
+    "rank": 24,
+    "ratingGames": 41,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
+    "n": 3,
+    "synergy": 2.3
+   },
+   {
+    "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
+    "name": "Jane Meng",
+    "n": 3,
+    "synergy": 1.3
+   },
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+    "name": "Katherine Maruyama",
+    "n": 5,
+    "synergy": 0.2
+   },
+   {
+    "pid": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
+    "name": "Kim Bohrer",
+    "n": 3,
+    "synergy": 0.2
+   },
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 5,
+    "synergy": -1.5
+   },
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 3,
+    "synergy": -1.6
+   },
+   {
+    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
+    "name": "Carolina Reese",
+    "n": 3,
+    "synergy": -1.7
+   }
+  ]
+ },
+ "a6b783cc-7aeb-476e-adcc-da306772071c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 101,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 87,
+    "pa": 90,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 105,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 109,
+    "pa": 111,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 95,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 100,
+    "pa": 118,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 104,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Carolina Reese",
+     "Matthew Shusterman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Katherine Maruyama",
+     "Kim Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Christy Beale",
+     "Carolina Reese"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Carolina Reese",
+     "James Price"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Carolina Reese",
+     "Kim Mchugh"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Christy Beale",
+     "Chris Norton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Mary Callaghan",
+     "Scott Kacelowicz"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Taina Wesner",
+     "Mary Callaghan"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jon Wheel",
+    "vs": [
+     "Mary Callaghan",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Mary Callaghan",
+     "Jenn Smith"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Taina Wesner",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jr Burrs",
+    "vs": [
+     "Peilei Cao",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Peilei Cao",
+     "Jenna Posner"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Peilei Cao",
+     "Ed Gieske"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Peilei Cao",
+     "Jenna Posner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Kathy BernéT",
+     "Jenna Posner"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Jean Rosenbaum",
+     "Todd Law"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Jamila Sefiane",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Nam Barsh",
+     "Jamila Sefiane"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Jean Rosenbaum",
+     "Todd Law"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Jamila Sefiane",
+     "Jean Rosenbaum"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Christine Dugan",
+     "Jamila Sefiane"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Kathy Cripps",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jordan Demcher",
+    "vs": [
+     "Carolina Reese",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Kathy Cripps",
+     "Carolina Reese"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jordan Demcher",
+    "vs": [
+     "Kathy Cripps",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Kathy Cripps",
+     "Carolina Reese"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Kathy Cripps",
+     "Carolina Reese"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Jodi Evans",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Jodi Evans",
+     "Andrew Cho"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Jessica Pao",
+    "vs": [
+     "Mary Callaghan",
+     "Jodi Evans"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Linda Zhu",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Kathy BernéT",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Barb Flynn",
+    "vs": [
+     "Linda Zhu",
+     "Jenna Posner"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 47,
+    "rank": 37,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 48,
+    "rank": 55,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 3,
+    "rating": -1.1,
+    "confidence": 65,
+    "rank": 52,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 4,
+    "rating": -0.8,
+    "confidence": 73,
+    "rank": 50,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "rating": -0.5,
+    "confidence": 74,
+    "rank": 47,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 6,
+    "rating": -0.9,
+    "confidence": 79,
+    "rank": 57,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 7,
+    "rating": -0.3,
+    "confidence": 82,
+    "rank": 43,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 8,
+    "rating": -0.1,
+    "confidence": 82,
+    "rank": 43,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 9,
+    "rating": -0.5,
+    "confidence": 85,
+    "rank": 50,
+    "ratingGames": 36,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 10,
+    "rating": -0.5,
+    "confidence": 87,
+    "rank": 51,
+    "ratingGames": 42,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
+    "name": "Vicki Main",
+    "n": 6,
+    "synergy": 1.6
+   },
+   {
+    "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
+    "name": "Graham Heavenrich",
+    "n": 5,
+    "synergy": 0.2
+   },
+   {
+    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
+    "name": "Priya Narahari",
+    "n": 3,
+    "synergy": -0.1
+   },
+   {
+    "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
+    "name": "Harrison Bohrer",
+    "n": 5,
+    "synergy": -0.3
+   },
+   {
+    "pid": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
+    "name": "Barb Flynn",
+    "n": 7,
+    "synergy": -0.7
+   },
+   {
+    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
+    "name": "Andrew Neave",
+    "n": 5,
+    "synergy": -1.1
+   },
+   {
+    "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
+    "name": "Emily Ocasio",
+    "n": 4,
+    "synergy": -2.3
    }
   ]
  },
@@ -30508,6 +34234,33 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 141,
+    "pa": 124,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -31280,6 +35033,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Emily Ocasio",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Kathleen Dougherty",
+     "Vicki Main"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Emily Ocasio",
+     "Jared Quereau"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Kathleen Dougherty",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathleen Dougherty",
+     "Emily Ocasio"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Kathleen Dougherty",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Kathleen Dougherty",
+     "Emily Ocasio"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -31354,38 +35219,1648 @@
     "ratingGames": 48,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 10,
+    "rating": 2.2,
+    "confidence": 89,
+    "rank": 13,
+    "ratingGames": 55,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": [
    {
     "pid": "99779531-e32b-47d5-b580-171a74844d91",
     "name": "Chris Fratinardo",
-    "n": 10,
-    "synergy": 1.3
+    "n": 12,
+    "synergy": 1.4
    },
    {
     "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
     "name": "Erika Richards",
-    "n": 12,
-    "synergy": 1.2
+    "n": 14,
+    "synergy": 0.9
    },
    {
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
-    "n": 13,
+    "n": 15,
     "synergy": 0.1
+   },
+   {
+    "pid": "fd596225-797e-4125-876b-633dae2efc65",
+    "name": "Linda Zhu",
+    "n": 6,
+    "synergy": -1.3
    },
    {
     "pid": "ecb01f29-37c9-4caa-a023-dc5d2591f375",
     "name": "Marykristin Haskell",
     "n": 3,
     "synergy": -1.4
+   }
+  ]
+ },
+ "ce58f563-e12a-466e-b741-cafc1bbbd0ad": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 117,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
    },
    {
-    "pid": "fd596225-797e-4125-876b-633dae2efc65",
-    "name": "Linda Zhu",
+    "week": 4,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 88,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 112,
+    "pa": 111,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 105,
+    "pa": 111,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 101,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 101,
+    "pa": 124,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Sandra Thompson",
+     "Alex Fad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Alex Fad",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Tejas Goculdas",
+     "Alex Fad"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Sandro Stefanelli",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Jon Wheel",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Priya Narahari",
+     "Jr Burrs"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Jon Wheel",
+     "Andrew Neave"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Barb Flynn",
+     "Jon Wheel"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Jr Burrs",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Jenn Smith",
+     "Jeff Jensen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Sal Bwint",
+     "Matt Enz"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Matt Enz",
+     "Jeff Jensen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Jenn Smith",
+     "Matt Enz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Michael Taylor",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Mary Callaghan",
+     "Sal Bwint"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Kathy Cripps",
+     "Robert Block"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ange Bradley",
+    "vs": [
+     "Kim Bohrer",
+     "Matthew Shusterman"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Kim Bohrer",
+     "Matthew Shusterman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Chris Norton",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Michael Finkelstein",
+     "Matthew Shusterman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Sal Bwint",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Sal Bwint",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Jenn Smith",
+     "Sal Bwint"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Jenn Smith",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Ed Gieske",
+    "vs": [
+     "Andrew Cho",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Harvey Mitchell",
+     "Harrison Bohrer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Barb Flynn",
+     "Lincoln Jensen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Kevin Basch",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vicki Main",
+     "Lincoln Jensen"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Allison Hartman",
+     "Harrison Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Frank Fang",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "rating": 0,
+    "confidence": 50,
+    "rank": 38,
+    "ratingGames": 6,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "rating": 2.2,
+    "confidence": 67,
+    "rank": 7,
+    "ratingGames": 12,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "rating": 1.7,
+    "confidence": 75,
+    "rank": 14,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "rating": 1.3,
+    "confidence": 80,
+    "rank": 25,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 7,
+    "rating": 1,
+    "confidence": 80,
+    "rank": 27,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 8,
+    "rating": 0.7,
+    "confidence": 83,
+    "rank": 36,
+    "ratingGames": 30,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 9,
+    "rating": 0.7,
+    "confidence": 84,
+    "rank": 34,
+    "ratingGames": 30,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 10,
+    "rating": 0,
+    "confidence": 86,
+    "rank": 44,
+    "ratingGames": 36,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
+    "name": "Kevin Basch",
+    "n": 7,
+    "synergy": 1.2
+   },
+   {
+    "pid": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
+    "name": "Jenna Posner",
     "n": 5,
-    "synergy": -1.7
+    "synergy": 0.6
+   },
+   {
+    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
+    "name": "Jeff Zamorski",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
+    "name": "Ed Gieske",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
+    "name": "Kathy BernéT",
+    "n": 5,
+    "synergy": -0.4
+   },
+   {
+    "pid": "c06ede91-f79c-483b-ae5e-34baae517dad",
+    "name": "Debra Schlosser",
+    "n": 3,
+    "synergy": -2.2
+   }
+  ]
+ },
+ "8db75058-7f84-48bc-9a6c-e15a8fa1a71e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 108,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 118,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     4
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 105,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 107,
+    "pa": 99,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 83,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Andrew Cho",
+    "vs": [
+     "Russell Cripps",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Tracey Carney",
+     "David Marchese"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Russell Cripps",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Jennifer Land",
+     "Russell Cripps"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "David Marchese",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jenna Posner",
+     "Frank Fang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matt Enz",
+    "vs": [
+     "Matt Hancock",
+     "Ed Gieske"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Marykristin Haskell",
+     "Matt Hancock"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Russell Cripps",
+     "Todd Law"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Todd Law",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Jennifer Land",
+     "Todd Law"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Sandro Stefanelli",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Jamila Sefiane",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Debra Schlosser",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Matt Hancock",
+     "Ed Gieske"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Debra Schlosser",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Evan Oneill",
+    "vs": [
+     "Frank Fang",
+     "Ed Gieske"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Linda Zhu",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Tera Baccile",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Tera Baccile",
+     "Matthew Shusterman"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Jensen",
+    "vs": [
+     "James Price",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Tera Baccile",
+     "Matthew Shusterman"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Michael Finkelstein",
+     "Robert Block"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 44,
+    "rank": 5,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 48,
+    "rank": 21,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 3,
+    "rating": 0.8,
+    "confidence": 50,
+    "rank": 21,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 4,
+    "rating": 1,
+    "confidence": 51,
+    "rank": 25,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 5,
+    "rating": 0.7,
+    "confidence": 68,
+    "rank": 32,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "rating": 0.3,
+    "confidence": 69,
+    "rank": 34,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 7,
+    "rating": -0.2,
+    "confidence": 76,
+    "rank": 42,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 8,
+    "rating": 0.2,
+    "confidence": 81,
+    "rank": 37,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 9,
+    "rating": 0.2,
+    "confidence": 81,
+    "rank": 39,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 10,
+    "rating": -0.8,
+    "confidence": 84,
+    "rank": 56,
+    "ratingGames": 30,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
+    "name": "Jenn Smith",
+    "n": 4,
+    "synergy": 2.1
+   },
+   {
+    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
+    "name": "Mary Callaghan",
+    "n": 3,
+    "synergy": 1.5
+   },
+   {
+    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
+    "name": "Tim Phelan",
+    "n": 6,
+    "synergy": 0.9
+   },
+   {
+    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
+    "name": "Jodi Evans",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
+    "name": "Nancy Blank",
+    "n": 3,
+    "synergy": -0.7
    }
   ]
  },
@@ -31726,6 +37201,15 @@
     "ratingGames": 14,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "rating": 0.4,
+    "confidence": 73,
+    "rank": 37,
+    "ratingGames": 14,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -31912,9 +37396,769 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "rating": 0.2,
+    "confidence": 55,
+    "rank": 41,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
+ },
+ "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 112,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 116,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 121,
+    "pa": 101,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 110,
+    "pa": 97,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 64,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Christine Dugan",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Sal Bwint",
+    "vs": [
+     "Tracey Carney",
+     "David Marchese"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Tracey Carney",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Tracey Carney",
+     "David Marchese"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Sal Bwint",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Jodi Evans",
+    "vs": [
+     "Tracey Carney",
+     "Jamila Sefiane"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Kathy Cripps",
+     "James Price"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Alex Fad",
+    "vs": [
+     "Christy Beale",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Kathy Cripps",
+     "Christy Beale"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Alex Fad",
+    "vs": [
+     "Kathy Cripps",
+     "Robert Block"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jodi Evans",
+    "vs": [
+     "Kathy Cripps",
+     "Christy Beale"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Carolina Reese",
+     "Christy Beale"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Jamila Sefiane",
+     "Russell Cripps"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tim Phelan",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Jamila Sefiane",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tim Phelan",
+    "vs": [
+     "Jamila Sefiane",
+     "Saul Barsh"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Jodi Evans",
+    "vs": [
+     "Jamila Sefiane",
+     "Jennifer Land"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Sandra Thompson",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Andrew Cho",
+    "vs": [
+     "Linda Zhu",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Tim Phelan",
+    "vs": [
+     "Debra Schlosser",
+     "Ed Gieske"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Linda Zhu",
+     "Debra Schlosser"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Tim Phelan",
+    "vs": [
+     "Linda Zhu",
+     "Ed Gieske"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Linda Zhu",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Jenna Posner",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "Kim Bohrer",
+     "Robert Block"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Tera Baccile",
+     "Kim Bohrer"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sal Bwint",
+    "vs": [
+     "Tera Baccile",
+     "Matthew Shusterman"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Tera Baccile",
+     "Kim Bohrer"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Kim Bohrer",
+     "Matthew Shusterman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 44,
+    "rank": 26,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 47,
+    "rank": 36,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 3,
+    "rating": -0.3,
+    "confidence": 50,
+    "rank": 42,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 4,
+    "rating": -0.8,
+    "confidence": 66,
+    "rank": 51,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "rating": -0.6,
+    "confidence": 67,
+    "rank": 50,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 6,
+    "rating": -0.3,
+    "confidence": 68,
+    "rank": 45,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 7,
+    "rating": 0.4,
+    "confidence": 75,
+    "rank": 33,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 8,
+    "rating": -0.2,
+    "confidence": 80,
+    "rank": 46,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 9,
+    "rating": -0.5,
+    "confidence": 80,
+    "rank": 52,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 10,
+    "rating": -1.8,
+    "confidence": 84,
+    "rank": 69,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
+    "name": "Jodi Evans",
+    "n": 3,
+    "synergy": 0.6
+   },
+   {
+    "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
+    "name": "Taina Wesner",
+    "n": 5,
+    "synergy": 0
+   },
+   {
+    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
+    "name": "Tim Phelan",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
+    "name": "Jenn Smith",
+    "n": 3,
+    "synergy": -0.6
+   },
+   {
+    "pid": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
+    "name": "Sal Bwint",
+    "n": 3,
+    "synergy": -0.7
+   },
+   {
+    "pid": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
+    "name": "Scott Kacelowicz",
+    "n": 3,
+    "synergy": -1.6
+   }
+  ]
  },
  "9b0fe5d7-4586-4629-8408-928794ca1c3b": {
   "log": [
@@ -32335,6 +38579,15 @@
     "ratingGames": 18,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 10,
+    "rating": -1,
+    "confidence": 77,
+    "rank": 60,
+    "ratingGames": 18,
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": [
@@ -32342,7 +38595,7 @@
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
     "name": "Sandra Thompson",
     "n": 4,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
@@ -32358,20 +38611,20 @@
    }
   ]
  },
- "c7a0b075-272d-4427-98c0-02955690731f": {
+ "32a22b16-1052-4c22-bdf9-9b48a1d73c84": {
   "log": [
    {
-    "week": 1,
+    "week": 3,
     "opp": "The Young Guns",
     "homeAway": "H",
-    "w": 4,
-    "l": 2,
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 116,
-    "pa": 108,
+    "pf": 106,
+    "pa": 111,
     "mx": [
-     3,
-     0
+     2,
+     1
     ],
     "gn": [
      1,
@@ -32379,7 +38632,7 @@
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "L",
     "teamGW": 14,
@@ -32388,379 +38641,112 @@
     "subFor": null
    },
    {
-    "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 100,
-    "pa": 107,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
+    "week": 5,
     "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 98,
-    "pa": 141,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
     "homeAway": "A",
-    "w": 2,
-    "l": 4,
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 100,
-    "pa": 115,
+    "pf": 109,
+    "pa": 111,
     "mx": [
      2,
      1
     ],
     "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 88,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
+     1,
+     2
     ],
     "cl": [
      1,
      0
     ],
     "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 108,
+    "pa": 97,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 79,
+    "pa": 117,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Graham Heavenrich",
-     "Harrison Bohrer"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Carolina Reese",
+    "with": "Andrew Cho",
     "vs": [
      "Barb Flynn",
-     "Andrew Neave"
+     "Jon Wheel"
     ],
-    "f": 21,
-    "a": 12,
+    "f": 23,
+    "a": 21,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
+    "t": "female",
+    "with": "Taina Wesner",
     "vs": [
-     "Harrison Bohrer",
-     "Andrew Neave"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Carolina Reese",
-    "vs": [
-     "Allison Hartman",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kim Mchugh",
-    "vs": [
-     "Jessica Pao",
-     "Harrison Bohrer"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Harrison Bohrer",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nancy Blank",
-     "Scott Kacelowicz"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Andrew Cho",
-     "Alex Fad"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Carolina Reese",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Jingwei Wu",
-     "Scott Kacelowicz"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Taina Wesner",
-     "Andrew Cho"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Erika Richards",
-     "Jeff Zamorski"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Megan Harvey",
-     "Jeff Zamorski"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
+     "Priya Narahari",
+     "Jessica Pao"
     ],
     "f": 20,
     "a": 22,
@@ -32770,47 +38756,15 @@
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Megan Harvey",
-     "Chris Fratinardo"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Chris Fratinardo",
-     "Jeff Zamorski"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
+    "wk": 3,
     "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
-     "Andrew Neave",
-     "Jordan Demcher"
+     "Priya Narahari",
+     "Jessica Pao"
     ],
-    "f": 14,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -32818,42 +38772,10 @@
     "subFor": null
    },
    {
-    "wk": 7,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Vicki Main",
-     "Graham Heavenrich"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Andrew Neave",
-     "Jordan Demcher"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Carolina Reese",
+    "with": "Andrew Cho",
     "vs": [
      "Barb Flynn",
      "Andrew Neave"
@@ -32866,31 +38788,127 @@
     "subFor": null
    },
    {
-    "wk": 7,
+    "wk": 3,
     "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Christy Beale",
+    "t": "female",
+    "with": "Mary Callaghan",
     "vs": [
-     "Barb Flynn",
-     "Jordan Demcher"
+     "Allison Hartman",
+     "Barb Flynn"
     ],
     "f": 21,
-    "a": 13,
+    "a": 11,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 7,
+    "wk": 3,
     "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
+    "t": "mixed",
+    "with": "Tim Phelan",
     "vs": [
-     "Graham Heavenrich",
-     "Jordan Demcher"
+     "Jessica Pao",
+     "Andrew Neave"
     ],
-    "f": 19,
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Debra Schlosser",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Marykristin Haskell",
+     "Jenna Posner"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Matt Enz",
+    "vs": [
+     "Debra Schlosser",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jenna Posner",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Linda Zhu",
+     "Jenna Posner"
+    ],
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -32899,15 +38917,15 @@
    },
    {
     "wk": 8,
-    "opp": "Kitchen Chaos",
+    "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Kim Mchugh",
+    "with": "Sal Bwint",
     "vs": [
-     "Jennifer Land",
-     "Russell Cripps"
+     "Debra Schlosser",
+     "Ed Gieske"
     ],
     "f": 21,
-    "a": 14,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -32915,31 +38933,47 @@
    },
    {
     "wk": 8,
-    "opp": "Kitchen Chaos",
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Erika Richards",
+     "Jenna Posner"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Erika Richards",
+     "Jenna Posner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Kim Mchugh",
+    "with": "Sal Bwint",
     "vs": [
-     "Jamila Sefiane",
-     "Saul Barsh"
-    ],
-    "f": 29,
-    "a": 27,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Russell Cripps",
-     "Saul Barsh"
+     "Debra Schlosser",
+     "Matt Hancock"
     ],
     "f": 21,
-    "a": 10,
+    "a": 9,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -32947,47 +38981,127 @@
    },
    {
     "wk": 8,
-    "opp": "Kitchen Chaos",
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Linda Zhu",
+     "Debra Schlosser"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Stephanie Woomer",
+    "with": "Tim Phelan",
     "vs": [
-     "Jamila Sefiane",
-     "Saul Barsh"
+     "Jenna Posner",
+     "Matt Hancock"
     ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
+    "f": 12,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matthew Shusterman",
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sal Bwint",
     "vs": [
-     "Sandro Stefanelli",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "David Marchese",
-     "Saul Barsh"
+     "Tera Baccile",
+     "James Price"
     ],
     "f": 21,
     "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Sal Bwint",
+    "vs": [
+     "Tera Baccile",
+     "Matthew Shusterman"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Tera Baccile",
+     "Kim Bohrer"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jeff Jensen",
+    "vs": [
+     "Kim Bohrer",
+     "James Price"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Nancy Blank",
+    "vs": [
+     "Tera Baccile",
+     "Kim Bohrer"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Kathy Cripps",
+     "Kim Bohrer"
+    ],
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -32996,117 +39110,108 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.4,
-    "confidence": 43,
-    "rank": 16,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 2,
-    "rating": 0.9,
-    "confidence": 48,
-    "rank": 24,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.1
-   },
-   {
     "week": 3,
-    "rating": 0.7,
-    "confidence": 49,
-    "rank": 24,
+    "rating": -0.7,
+    "confidence": 52,
+    "rank": 49,
     "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.7
    },
    {
     "week": 4,
-    "rating": 0.1,
-    "confidence": 66,
-    "rank": 41,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.3
+    "rating": -1,
+    "confidence": 53,
+    "rank": 57,
+    "ratingGames": 6,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.9
    },
    {
     "week": 5,
-    "rating": 0,
-    "confidence": 66,
-    "rank": 43,
+    "rating": -1.7,
+    "confidence": 67,
+    "rank": 68,
     "ratingGames": 12,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 6,
-    "rating": -0.8,
-    "confidence": 77,
-    "rank": 55,
-    "ratingGames": 19,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.5
+    "rating": -1.8,
+    "confidence": 68,
+    "rank": 69,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1.2
    },
    {
     "week": 7,
-    "rating": -0.8,
-    "confidence": 81,
-    "rank": 53,
-    "ratingGames": 25,
+    "rating": -1.8,
+    "confidence": 68,
+    "rank": 72,
+    "ratingGames": 12,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": -1.3
    },
    {
     "week": 8,
-    "rating": -0.4,
-    "confidence": 84,
-    "rank": 52,
-    "ratingGames": 31,
+    "rating": -1.6,
+    "confidence": 75,
+    "rank": 67,
+    "ratingGames": 18,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -1.3
    },
    {
     "week": 9,
-    "rating": -0.5,
-    "confidence": 84,
-    "rank": 51,
-    "ratingGames": 31,
+    "rating": -1.5,
+    "confidence": 75,
+    "rank": 66,
+    "ratingGames": 18,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 10,
+    "rating": -1.8,
+    "confidence": 81,
+    "rank": 70,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": [
    {
-    "pid": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
-    "name": "Kim Mchugh",
+    "pid": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
+    "name": "Sal Bwint",
+    "n": 4,
+    "synergy": 2.1
+   },
+   {
+    "pid": "42f84841-e4ed-4503-ae05-c8fe6c351ca7",
+    "name": "Jeff Jensen",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.3
    },
    {
-    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
-    "name": "Carolina Reese",
+    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
+    "name": "Mary Callaghan",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0
    },
    {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 4,
-    "synergy": 0.6
+    "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
+    "name": "Nancy Blank",
+    "n": 3,
+    "synergy": -0.6
    },
    {
-    "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
-    "name": "Chris Norton",
-    "n": 8,
-    "synergy": 0.1
-   },
-   {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 4,
-    "synergy": -2.4
+    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
+    "name": "Vanessa Zommi Kungne",
+    "n": 3,
+    "synergy": -2.5
    }
   ]
  },
@@ -33704,6 +39809,15 @@
     "ratingGames": 25,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": -0.8,
+    "confidence": 83,
+    "rank": 57,
+    "ratingGames": 25,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -33711,7 +39825,7 @@
     "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
     "name": "Jennifer Land",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.6
    },
    {
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
@@ -33723,57 +39837,30 @@
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
     "name": "Nam Barsh",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.4
    },
    {
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
     "name": "Sandro Stefanelli",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.7
    }
   ]
  },
- "c979c513-454d-434c-8a65-3b5fea8a8d7d": {
+ "388605d8-e76a-43a2-bcd8-e48a6215d38b": {
   "log": [
    {
-    "week": 1,
+    "week": 3,
     "opp": "The Young Guns",
     "homeAway": "H",
-    "w": 5,
-    "l": 1,
+    "w": 2,
+    "l": 4,
     "gp": 6,
-    "pf": 121,
-    "pa": 103,
+    "pf": 111,
+    "pa": 121,
     "mx": [
-     3,
-     0
-    ],
-    "gn": [
      2,
      1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 120,
-    "pa": 115,
-    "mx": [
-     3,
-     0
     ],
     "gn": [
      0,
@@ -33781,220 +39868,193 @@
     ],
     "cl": [
      1,
-     3
+     1
     ],
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
     "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
     "gp": 6,
-    "pf": 111,
-    "pa": 102,
+    "pf": 114,
+    "pa": 94,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "week": 7,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 113,
+    "pa": 116,
     "mx": [
      1,
      2
     ],
     "gn": [
-     2,
-     1
+     1,
+     2
     ],
     "cl": [
      1,
-     1
+     2
     ],
     "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "week": 5,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 111,
-    "pa": 147,
+    "week": 9,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 106,
+    "pa": 113,
     "mx": [
-     0,
-     4
+     1,
+     2
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
-     0,
+     1,
      1
     ],
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 111,
-    "pa": 102,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
+    "week": 10,
+    "opp": "Shrinky Dinks",
     "homeAway": "A",
-    "w": 2,
-    "l": 4,
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 98,
-    "pa": 112,
+    "pf": 110,
+    "pa": 116,
     "mx": [
      2,
      1
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
      0,
      1
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 139,
-    "pa": 127,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    }
   ],
   "games": [
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Carolina Reese",
+    "with": "Mary Callaghan",
     "vs": [
      "Allison Hartman",
      "Graham Heavenrich"
     ],
-    "f": 22,
-    "a": 20,
+    "f": 24,
+    "a": 22,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Kim Bohrer",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
      "Jessica Pao",
-     "Harrison Bohrer"
+     "Andrew Neave"
     ],
     "f": 21,
-    "a": 13,
+    "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Dan Ladislaw",
+    "with": "Jingwei Wu",
     "vs": [
      "Andre Cristobal",
      "Graham Heavenrich"
     ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Kim Bohrer",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
      "Jessica Pao",
      "Graham Heavenrich"
     ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Dan Ladislaw",
+    "with": "Jingwei Wu",
     "vs": [
      "Andre Cristobal",
      "Graham Heavenrich"
@@ -34003,2069 +40063,508 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "James Price",
+    "with": "Tim Phelan",
     "vs": [
-     "Harrison Bohrer",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Kevin Basch",
-     "Ed Gieske"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Kevin Basch",
-     "Ed Gieske"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kim Mchugh",
-    "vs": [
-     "Ange Bradley",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Ange Bradley",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Frank Fang",
-     "Ed Gieske"
+     "Andrew Neave",
+     "Jon Wheel"
     ],
     "f": 20,
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
     "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "James Price",
-    "vs": [
-     "Andrew Cho",
-     "Alex Fad"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
+    "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Carolina Reese",
+    "with": "Nancy Blank",
     "vs": [
-     "Vanessa Zommi Kungne",
-     "Scott Kacelowicz"
+     "Kathy Cripps",
+     "James Price"
     ],
     "f": 11,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
     "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Andrew Cho",
-     "Alex Fad"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
+    "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Christy Beale",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
-     "Jodi Evans",
-     "Andrew Cho"
+     "Carolina Reese",
+     "Matthew Shusterman"
     ],
     "f": 21,
-    "a": 8,
+    "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
     "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Carolina Reese",
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
     "vs": [
-     "Jodi Evans",
-     "Alex Fad"
+     "Keith Goldberg",
+     "James Price"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Carolina Reese",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Keith Goldberg",
+     "James Price"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 4,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Alex Fad",
+    "vs": [
+     "Matthew Shusterman",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Scott Kacelowicz",
-     "Alex Fad"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
+    "wk": 7,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Stephanie Woomer",
+    "with": "Nancy Blank",
     "vs": [
-     "Claudya Elefante",
-     "Jonathan Goldner"
+     "Jamila Sefiane",
+     "Russell Cripps"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 5,
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Sandra Thompson",
+     "Todd Law"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 7,
     "opp": "Kitchen Chaos",
     "t": "male",
-    "with": "Jim Darcangelo",
+    "with": "Jingwei Wu",
     "vs": [
-     "Jonathan Goldner",
-     "Tejas Goculdas"
+     "Tejas Goculdas",
+     "Russell Cripps"
     ],
     "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 5,
+    "wk": 7,
     "opp": "Kitchen Chaos",
     "t": "mixed",
-    "with": "Madeleine Shusterman",
+    "with": "Mary Callaghan",
     "vs": [
-     "Nam Barsh",
-     "Jonathan Goldner"
+     "Sandra Thompson",
+     "Russell Cripps"
     ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
+    "f": 24,
+    "a": 22,
+    "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Madeleine Shusterman",
-    "vs": [
-     "Claudya Elefante",
-     "Tejas Goculdas"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
+    "wk": 7,
     "opp": "Kitchen Chaos",
     "t": "male",
-    "with": "Robert Block",
+    "with": "Jingwei Wu",
     "vs": [
      "Tejas Goculdas",
+     "Russell Cripps"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 7,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Todd Law",
      "Saul Barsh"
     ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jim Darcangelo",
-    "vs": [
-     "Jonathan Goldner",
-     "Tejas Goculdas"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Frank Fang",
-     "Kevin Basch"
-    ],
     "f": 21,
-    "a": 18,
+    "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Ange Bradley",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Marykristin Haskell",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Kathy BernéT",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Kathy Cripps",
+    "with": "Mary Callaghan",
     "vs": [
-     "Allison Hartman",
+     "Jessica Pao",
      "Graham Heavenrich"
     ],
-    "f": 14,
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "James Price",
+    "with": "Andrew Cho",
     "vs": [
-     "Andrew Neave",
-     "Jordan Demcher"
+     "Harrison Bohrer",
+     "Lincoln Jensen"
     ],
-    "f": 14,
-    "a": 21,
+    "f": 21,
+    "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Michael Finkelstein",
+    "with": "Jingwei Wu",
     "vs": [
      "Harvey Mitchell",
      "Graham Heavenrich"
     ],
-    "f": 9,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Christy Beale",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
      "Vicki Main",
      "Graham Heavenrich"
     ],
     "f": 21,
-    "a": 16,
+    "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "male",
-    "with": "Michael Finkelstein",
+    "with": "Jingwei Wu",
     "vs": [
      "Harvey Mitchell",
      "Graham Heavenrich"
     ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
+    "f": 23,
+    "a": 21,
+    "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 7,
+    "wk": 9,
     "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Kathy Cripps",
+    "with": "Mary Callaghan",
     "vs": [
-     "Priya Narahari",
-     "Andrew Neave"
+     "Emily Ocasio",
+     "Harrison Bohrer"
     ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 18,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
+    "wk": 10,
+    "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Tera Baccile",
+    "with": "Nancy Blank",
     "vs": [
-     "Christine Dugan",
-     "Tejas Goculdas"
+     "Kim Bohrer",
+     "Robert Block"
     ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "James Price",
-    "vs": [
-     "Sandro Stefanelli",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Sandra Thompson",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 18,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.6,
-    "confidence": 45,
-    "rank": 7,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.2
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "week": 2,
-    "rating": 1.4,
-    "confidence": 63,
-    "rank": 14,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 3,
-    "rating": 1.5,
-    "confidence": 65,
-    "rank": 15,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 4,
-    "rating": 1.9,
-    "confidence": 73,
-    "rank": 13,
-    "ratingGames": 18,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 5,
-    "rating": 1.2,
-    "confidence": 80,
-    "rank": 22,
-    "ratingGames": 25,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 6,
-    "rating": 0.7,
-    "confidence": 83,
-    "rank": 31,
-    "ratingGames": 31,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 7,
-    "rating": 0.3,
-    "confidence": 85,
-    "rank": 34,
-    "ratingGames": 37,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 8,
-    "rating": 0.7,
-    "confidence": 87,
-    "rank": 35,
-    "ratingGames": 44,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 9,
-    "rating": 0.7,
-    "confidence": 87,
-    "rank": 33,
-    "ratingGames": 44,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 4,
-    "synergy": 1.6
-   },
-   {
-    "pid": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
-    "name": "Kim Bohrer",
-    "n": 5,
-    "synergy": 1.4
-   },
-   {
-    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-    "name": "Kathy Cripps",
-    "n": 5,
-    "synergy": 0.7
-   },
-   {
-    "pid": "c7a0b075-272d-4427-98c0-02955690731f",
-    "name": "James Price",
-    "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
-    "name": "Carolina Reese",
-    "n": 3,
-    "synergy": -0.7
-   },
-   {
-    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
-    "name": "Robert Block",
-    "n": 6,
-    "synergy": -1.2
-   },
-   {
-    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
-    "name": "Michael Finkelstein",
-    "n": 5,
-    "synergy": -2
-   }
-  ]
- },
- "a6b783cc-7aeb-476e-adcc-da306772071c": {
-  "log": [
-   {
-    "week": 1,
+    "wk": 10,
     "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 101,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 87,
-    "pa": 90,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 118,
-    "pa": 105,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 109,
-    "pa": 111,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 95,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 100,
-    "pa": 118,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Graham Heavenrich",
+    "t": "male",
+    "with": "Jeff Jensen",
     "vs": [
-     "Carolina Reese",
+     "James Price",
      "Matthew Shusterman"
     ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Katherine Maruyama",
-     "Kim Bohrer"
-    ],
-    "f": 17,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 10,
     "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Barb Flynn",
+    "t": "male",
+    "with": "Michael Taylor",
     "vs": [
-     "Christy Beale",
-     "Carolina Reese"
+     "Dan Ladislaw",
+     "Robert Block"
     ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 18,
+    "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
+    "wk": 10,
     "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Andrew Neave",
+    "with": "Sarah Ross",
     "vs": [
-     "Carolina Reese",
+     "Kathy Cripps",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Dan Ladislaw",
      "James Price"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    },
    {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Barb Flynn",
-    "vs": [
-     "Carolina Reese",
-     "Kim Mchugh"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
+    "wk": 10,
     "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Graham Heavenrich",
+    "with": "Vanessa Zommi Kungne",
     "vs": [
-     "Christy Beale",
-     "Chris Norton"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Graham Heavenrich",
-    "vs": [
-     "Mary Callaghan",
-     "Scott Kacelowicz"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Sarah Ross",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Barb Flynn",
-    "vs": [
-     "Taina Wesner",
-     "Mary Callaghan"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jon Wheel",
-    "vs": [
-     "Mary Callaghan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Barb Flynn",
-    "vs": [
-     "Mary Callaghan",
-     "Jenn Smith"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Graham Heavenrich",
-    "vs": [
-     "Taina Wesner",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jr Burrs",
-    "vs": [
-     "Peilei Cao",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Peilei Cao",
-     "Jenna Posner"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Peilei Cao",
-     "Ed Gieske"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Barb Flynn",
-    "vs": [
-     "Peilei Cao",
-     "Jenna Posner"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Kathy BernéT",
-     "Jenna Posner"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Jean Rosenbaum",
-     "Todd Law"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Jamila Sefiane",
-     "Saul Barsh"
+     "Tera Baccile",
+     "James Price"
     ],
     "f": 21,
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Nam Barsh",
-     "Jamila Sefiane"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Jean Rosenbaum",
-     "Todd Law"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Jamila Sefiane",
-     "Jean Rosenbaum"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Christine Dugan",
-     "Jamila Sefiane"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Graham Heavenrich",
-    "vs": [
-     "Kathy Cripps",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jordan Demcher",
-    "vs": [
-     "Carolina Reese",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Kathy Cripps",
-     "Carolina Reese"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jordan Demcher",
-    "vs": [
-     "Kathy Cripps",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Barb Flynn",
-    "vs": [
-     "Kathy Cripps",
-     "Carolina Reese"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Kathy Cripps",
-     "Carolina Reese"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Jodi Evans",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Taina Wesner",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Taina Wesner",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Jodi Evans",
-     "Andrew Cho"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Jessica Pao",
-    "vs": [
-     "Mary Callaghan",
-     "Jodi Evans"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Lincoln Jensen",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Baby Got Backhands"
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -2.1,
-    "confidence": 47,
-    "rank": 37,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 2,
-    "rating": -2,
-    "confidence": 48,
-    "rank": 55,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.3
-   },
-   {
     "week": 3,
-    "rating": -1.1,
+    "rating": -0.1,
+    "confidence": 50,
+    "rank": 40,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 4,
+    "rating": 0.2,
     "confidence": 65,
-    "rank": 52,
+    "rank": 39,
     "ratingGames": 12,
-    "strengthOfPartners": -0.6,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
    },
    {
-    "week": 4,
-    "rating": -0.8,
-    "confidence": 73,
-    "rank": 50,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.6
-   },
-   {
     "week": 5,
-    "rating": -0.5,
-    "confidence": 74,
-    "rank": 47,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 6,
-    "rating": -0.9,
-    "confidence": 79,
-    "rank": 57,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 7,
-    "rating": -0.3,
-    "confidence": 82,
-    "rank": 43,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 8,
-    "rating": -0.1,
-    "confidence": 82,
-    "rank": 43,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 9,
-    "rating": -0.5,
-    "confidence": 85,
-    "rank": 50,
-    "ratingGames": 36,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
-    "name": "Vicki Main",
-    "n": 6,
-    "synergy": 1.8
-   },
-   {
-    "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
-    "name": "Graham Heavenrich",
-    "n": 5,
-    "synergy": 0.1
-   },
-   {
-    "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
-    "name": "Priya Narahari",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
-    "name": "Barb Flynn",
-    "n": 6,
-    "synergy": -0.8
-   },
-   {
-    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
-    "name": "Andrew Neave",
-    "n": 5,
-    "synergy": -1
-   },
-   {
-    "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
-    "name": "Harrison Bohrer",
-    "n": 3,
-    "synergy": -1.2
-   }
-  ]
- },
- "6be7fecc-58ce-4a10-b2f9-bf98567f3427": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 100,
-    "pa": 115,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 116,
-    "pa": 107,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 98,
-    "pa": 108,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Barb Flynn",
-     "Jon Wheel"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Allison Hartman",
-     "Andrew Neave"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Peilei Cao",
-    "vs": [
-     "Vicki Main",
-     "Allison Hartman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Barb Flynn",
-     "Jon Wheel"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Peilei Cao",
-    "vs": [
-     "Allison Hartman",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Priya Narahari",
-     "Allison Hartman"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Mary Callaghan",
-     "Sal Bwint"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Jenn Smith",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Marykristin Haskell",
-    "vs": [
-     "Mary Callaghan",
-     "Jenn Smith"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Mary Callaghan",
-     "Jeff Jensen"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Mary Callaghan",
-     "Jenn Smith"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Linda Zhu",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Jenn Smith"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Erika Richards",
-    "vs": [
-     "Mary Callaghan",
-     "Jenn Smith"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Erika Richards",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Jenn Smith"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kevin Basch",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Andrew Cho"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Jenn Smith",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Nancy Blank"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "rating": -2.6,
-    "confidence": 52,
-    "rank": 69,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 5,
-    "rating": -1.2,
-    "confidence": 65,
-    "rank": 63,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 6,
-    "rating": -1.4,
+    "rating": 0.2,
     "confidence": 66,
-    "rank": 65,
+    "rank": 41,
     "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 6,
+    "rating": 0,
+    "confidence": 67,
+    "rank": 39,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 7,
-    "rating": -1.4,
-    "confidence": 67,
-    "rank": 65,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -1.1
+    "rating": -0.6,
+    "confidence": 75,
+    "rank": 51,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 8,
-    "rating": -1.7,
-    "confidence": 74,
-    "rank": 69,
+    "rating": -0.4,
+    "confidence": 75,
+    "rank": 53,
     "ratingGames": 18,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 9,
-    "rating": -1.6,
-    "confidence": 75,
-    "rank": 69,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.8
+    "rating": -0.6,
+    "confidence": 80,
+    "rank": 54,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 10,
+    "rating": -0.7,
+    "confidence": 83,
+    "rank": 55,
+    "ratingGames": 30,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
    {
-    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
-    "name": "Matt Hancock",
-    "n": 3,
-    "synergy": 1.3
+    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
+    "name": "Vanessa Zommi Kungne",
+    "n": 6,
+    "synergy": 1.6
    },
    {
-    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
-    "name": "Ed Gieske",
-    "n": 4,
-    "synergy": -2.3
+    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
+    "name": "Mary Callaghan",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
+    "name": "Jingwei Wu",
+    "n": 9,
+    "synergy": -0.7
+   },
+   {
+    "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
+    "name": "Nancy Blank",
+    "n": 3,
+    "synergy": -1.6
    }
   ]
  },
@@ -36909,6 +41408,15 @@
     "ratingGames": 37,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 10,
+    "rating": -1.4,
+    "confidence": 87,
+    "rank": 65,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -36916,7 +41424,7 @@
     "pid": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
     "name": "Sal Bwint",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.5
    },
    {
     "pid": "583c5e68-0868-4a21-b1f0-0e68b9559476",
@@ -36928,13 +41436,13 @@
     "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
     "name": "Jenn Smith",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
     "name": "Jodi Evans",
     "n": 5,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
@@ -36946,13 +41454,13 @@
     "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
     "name": "Sarah Ross",
     "n": 4,
-    "synergy": -1.8
+    "synergy": -1.9
    },
    {
     "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
     "name": "Tim Phelan",
     "n": 3,
-    "synergy": -2
+    "synergy": -2.2
    }
   ]
  },
@@ -37117,6 +41625,15 @@
     "rank": 44,
     "ratingGames": 7,
     "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 10,
+    "rating": -0.1,
+    "confidence": 59,
+    "rank": 47,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.4,
     "strengthOfOpponents": 1.7
    }
   ],
@@ -37616,6 +42133,15 @@
     "ratingGames": 21,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 10,
+    "rating": 0.4,
+    "confidence": 79,
+    "rank": 36,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": [
@@ -37623,1913 +42149,7 @@
     "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
     "name": "Tera Baccile",
     "n": 3,
-    "synergy": 0.1
-   }
-  ]
- },
- "b1814193-753a-460b-8911-8722c57efb86": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 121,
-    "pa": 133,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 118,
-    "pa": 142,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 139,
-    "pa": 131,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     4,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 116,
-    "pa": 139,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Mara Boast",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Tejas Goculdas",
-     "Andre Cristobal"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Tracey Carney",
-     "Tejas Goculdas"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Nam Barsh",
-     "Andre Cristobal"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Andre Cristobal",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Tracey Carney",
-     "Andre Cristobal"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Tejas Goculdas",
-     "Andre Cristobal"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Julia Plein",
-    "vs": [
-     "Erika Richards",
-     "Jeff Zamorski"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jacinth Chikkala",
-     "Jeff Zamorski"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Peilei Cao",
-     "Jeff Zamorski"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jr Burrs",
-    "vs": [
-     "Jacinth Chikkala",
-     "Frank Fang"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jr Burrs",
-    "vs": [
-     "Jacinth Chikkala",
-     "Frank Fang"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Julia Plein",
-    "vs": [
-     "Megan Harvey",
-     "Jacinth Chikkala"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jacinth Chikkala",
-     "Jeff Zamorski"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Priya Narahari",
-    "vs": [
-     "Katherine Maruyama",
-     "Michael Finkelstein"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Michael Finkelstein",
-     "Dan Ladislaw"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Tera Baccile",
-     "Michael Finkelstein"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Katherine Maruyama",
-     "Dan Ladislaw"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Andrew Neave",
-    "vs": [
-     "Dan Ladislaw",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Tera Baccile",
-     "Dan Ladislaw"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Michael Finkelstein",
-     "Dan Ladislaw"
-    ],
-    "f": 30,
-    "a": 28,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Emily Ocasio",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Mara Boast",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Mara Boast",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Michael Taylor",
-     "Jeff Jensen"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Vicki Main",
-    "vs": [
-     "Taina Wesner",
-     "Michael Taylor"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Harvey Mitchell",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -0.5,
-    "confidence": 51,
-    "rank": 37,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 3,
-    "rating": -0.1,
-    "confidence": 54,
-    "rank": 39,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 4,
-    "rating": -1.5,
-    "confidence": 67,
-    "rank": 62,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 5,
-    "rating": -1.1,
-    "confidence": 68,
-    "rank": 58,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 6,
-    "rating": -1.1,
-    "confidence": 69,
-    "rank": 61,
-    "ratingGames": 14,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 7,
-    "rating": -0.9,
-    "confidence": 77,
-    "rank": 56,
-    "ratingGames": 21,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 8,
-    "rating": -0.8,
-    "confidence": 77,
-    "rank": 57,
-    "ratingGames": 21,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 9,
-    "rating": -0.7,
-    "confidence": 81,
-    "rank": 56,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
-    "name": "Mara Boast",
-    "n": 3,
-    "synergy": 0.3
-   },
-   {
-    "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
-    "name": "Emily Ocasio",
-    "n": 5,
-    "synergy": 0.1
-   },
-   {
-    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
-    "name": "Vicki Main",
-    "n": 4,
-    "synergy": -0.6
-   },
-   {
-    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-    "name": "Harvey Mitchell",
-    "n": 8,
-    "synergy": -1.2
-   }
-  ]
- },
- "388605d8-e76a-43a2-bcd8-e48a6215d38b": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 111,
-    "pa": 121,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "week": 4,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 114,
-    "pa": 94,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "week": 7,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 113,
-    "pa": 116,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "week": 9,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 106,
-    "pa": 113,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Allison Hartman",
-     "Graham Heavenrich"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Jessica Pao",
-     "Andrew Neave"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Andre Cristobal",
-     "Graham Heavenrich"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Jessica Pao",
-     "Graham Heavenrich"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Andre Cristobal",
-     "Graham Heavenrich"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 3,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Andrew Neave",
-     "Jon Wheel"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Kathy Cripps",
-     "James Price"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Carolina Reese",
-     "Matthew Shusterman"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Keith Goldberg",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Carolina Reese",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Keith Goldberg",
-     "James Price"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 4,
-    "opp": "Shrinky Dinks",
-    "t": "male",
-    "with": "Alex Fad",
-    "vs": [
-     "Matthew Shusterman",
-     "Robert Block"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Nancy Blank",
-    "vs": [
-     "Jamila Sefiane",
-     "Russell Cripps"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Sandra Thompson",
-     "Todd Law"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Sandra Thompson",
-     "Russell Cripps"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Tejas Goculdas",
-     "Russell Cripps"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 7,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Todd Law",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Jessica Pao",
-     "Graham Heavenrich"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Harvey Mitchell",
-     "Graham Heavenrich"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Vanessa Zommi Kungne",
-    "vs": [
-     "Vicki Main",
-     "Graham Heavenrich"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Jingwei Wu",
-    "vs": [
-     "Harvey Mitchell",
-     "Graham Heavenrich"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Emily Ocasio",
-     "Harrison Bohrer"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Baby Got Backhands"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "rating": -0.1,
-    "confidence": 50,
-    "rank": 40,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 4,
-    "rating": 0.2,
-    "confidence": 65,
-    "rank": 39,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 5,
-    "rating": 0.2,
-    "confidence": 66,
-    "rank": 41,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 6,
-    "rating": 0,
-    "confidence": 67,
-    "rank": 39,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 7,
-    "rating": -0.6,
-    "confidence": 75,
-    "rank": 51,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 8,
-    "rating": -0.4,
-    "confidence": 75,
-    "rank": 53,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 9,
-    "rating": -0.6,
-    "confidence": 80,
-    "rank": 54,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "c1c58200-c49c-4797-9c4a-cee408744794",
-    "name": "Vanessa Zommi Kungne",
-    "n": 5,
-    "synergy": 1.5
-   },
-   {
-    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
-    "name": "Mary Callaghan",
-    "n": 5,
-    "synergy": -0.5
-   },
-   {
-    "pid": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
-    "name": "Jingwei Wu",
-    "n": 8,
-    "synergy": -0.5
-   }
-  ]
- },
- "b83bd6a7-2706-4a28-af7b-2b5da3d7281a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 103,
-    "pa": 143,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 140,
-    "pa": 134,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     3,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 112,
-    "pa": 79,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 112,
-    "pa": 135,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Vicki Main",
-     "Harvey Mitchell"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Emily Ocasio",
-     "Allison Hartman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Vicki Main",
-     "Andre Cristobal"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Emily Ocasio",
-     "Vicki Main"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Emily Ocasio",
-     "Andre Cristobal"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Emily Ocasio",
-     "Vicki Main"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Taina Wesner",
-     "Michael Taylor"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Sarah Ross",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Sarah Ross",
-     "Taina Wesner"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Christy Beale",
-    "vs": [
-     "Megan Harvey",
-     "Marykristin Haskell"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Kathy BernéT",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Kathy BernéT",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Erika Richards",
-     "Jeff Zamorski"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Kathy BernéT",
-     "Ange Bradley"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Priya Narahari",
-     "Jared Quereau"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Emily Ocasio",
-     "Vicki Main"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Priya Narahari",
-     "Harvey Mitchell"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Emily Ocasio",
-     "Jared Quereau"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Emily Ocasio",
-     "Priya Narahari"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Emily Ocasio",
-     "Priya Narahari"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.2,
-    "confidence": 47,
-    "rank": 32,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.6
-   },
-   {
-    "week": 2,
-    "rating": -1.5,
-    "confidence": 52,
-    "rank": 48,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 3,
-    "rating": -1.6,
-    "confidence": 53,
-    "rank": 59,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 4,
-    "rating": 0.6,
-    "confidence": 69,
-    "rank": 31,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 5,
-    "rating": 0.7,
-    "confidence": 70,
-    "rank": 30,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.5
-   },
-   {
-    "week": 6,
-    "rating": 1.4,
-    "confidence": 78,
-    "rank": 23,
-    "ratingGames": 20,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 7,
-    "rating": 1,
-    "confidence": 81,
-    "rank": 26,
-    "ratingGames": 27,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 8,
-    "rating": 1.1,
-    "confidence": 82,
-    "rank": 28,
-    "ratingGames": 27,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 9,
-    "rating": 1.1,
-    "confidence": 82,
-    "rank": 28,
-    "ratingGames": 27,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
-    "name": "Tera Baccile",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-    "name": "Kathy Cripps",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
-    "name": "Dan Ladislaw",
-    "n": 6,
-    "synergy": 0.2
-   },
-   {
-    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
-    "name": "Michael Finkelstein",
-    "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 3,
-    "synergy": -0.6
+    "synergy": -0.2
    }
   ]
  },
@@ -40373,6 +42993,15 @@
     "ratingGames": 37,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "rating": -2.5,
+    "confidence": 86,
+    "rank": 77,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": [
@@ -40380,7 +43009,7 @@
     "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
     "name": "Robert Block",
     "n": 5,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
@@ -40389,22 +43018,2740 @@
     "synergy": 0.7
    },
    {
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 5,
+    "synergy": 0.2
+   },
+   {
     "pid": "c7a0b075-272d-4427-98c0-02955690731f",
     "name": "James Price",
     "n": 8,
     "synergy": 0.1
    },
    {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 5,
-    "synergy": 0.1
-   },
-   {
     "pid": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
     "name": "Kim Mchugh",
     "n": 7,
+    "synergy": -0.6
+   }
+  ]
+ },
+ "b1814193-753a-460b-8911-8722c57efb86": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 121,
+    "pa": 133,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 118,
+    "pa": 142,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 139,
+    "pa": 131,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     4,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 116,
+    "pa": 139,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 114,
+    "pa": 143,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Mara Boast",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Tejas Goculdas",
+     "Andre Cristobal"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Tracey Carney",
+     "Tejas Goculdas"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Nam Barsh",
+     "Andre Cristobal"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Andre Cristobal",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Tracey Carney",
+     "Andre Cristobal"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Tejas Goculdas",
+     "Andre Cristobal"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Julia Plein",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jacinth Chikkala",
+     "Jeff Zamorski"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Peilei Cao",
+     "Jeff Zamorski"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jr Burrs",
+    "vs": [
+     "Jacinth Chikkala",
+     "Frank Fang"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jr Burrs",
+    "vs": [
+     "Jacinth Chikkala",
+     "Frank Fang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Julia Plein",
+    "vs": [
+     "Megan Harvey",
+     "Jacinth Chikkala"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jacinth Chikkala",
+     "Jeff Zamorski"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Priya Narahari",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Tera Baccile",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Katherine Maruyama",
+     "Dan Ladislaw"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Andrew Neave",
+    "vs": [
+     "Dan Ladislaw",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Tera Baccile",
+     "Dan Ladislaw"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Michael Finkelstein",
+     "Dan Ladislaw"
+    ],
+    "f": 30,
+    "a": 28,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Mara Boast",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Mara Boast",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Michael Taylor",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathleen Dougherty",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Chris Fratinardo",
+     "Jeff Zamorski"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 51,
+    "rank": 37,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 3,
+    "rating": -0.1,
+    "confidence": 54,
+    "rank": 39,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 4,
+    "rating": -1.5,
+    "confidence": 67,
+    "rank": 62,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 5,
+    "rating": -1.1,
+    "confidence": 68,
+    "rank": 58,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 6,
+    "rating": -1.1,
+    "confidence": 69,
+    "rank": 61,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 7,
+    "rating": -0.9,
+    "confidence": 77,
+    "rank": 56,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 8,
+    "rating": -0.8,
+    "confidence": 77,
+    "rank": 57,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 9,
+    "rating": -0.7,
+    "confidence": 81,
+    "rank": 56,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 10,
+    "rating": -0.6,
+    "confidence": 84,
+    "rank": 53,
+    "ratingGames": 35,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 1.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
+    "name": "Emily Ocasio",
+    "n": 6,
+    "synergy": 0.7
+   },
+   {
+    "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
+    "name": "Mara Boast",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
+    "name": "Vicki Main",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
+    "name": "Harvey Mitchell",
+    "n": 10,
+    "synergy": -1
+   }
+  ]
+ },
+ "23d1d322-f31d-46b3-bf95-d86faab58b06": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 86,
+    "pa": 147,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 106,
+    "pa": 121,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 107,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 103,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 101,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 118,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 109,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Emily Ocasio",
+     "Andre Cristobal"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Vicki Main",
+     "Andre Cristobal"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Harvey Mitchell",
+     "Andrew Neave"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Kathy BernéT",
+     "Frank Fang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Kevin Basch",
+     "Ed Gieske"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jonathan Goldner",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Linda Zhu",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Jonathan Goldner",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Erika Richards",
+     "Kevin Basch"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Jodi Evans",
+     "Andrew Cho"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Nancy Blank",
+     "Alex Fad"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Andrew Cho",
+     "Alex Fad"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nancy Blank",
+     "Alex Fad"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Michael Taylor",
+     "Andrew Cho"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Scott Kacelowicz",
+     "Alex Fad"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Jean Rosenbaum",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Sandro Stefanelli",
+     "Todd Law"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Todd Law",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Jean Rosenbaum",
+     "Todd Law"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Tejas Goculdas",
+     "Saul Barsh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Ange Bradley",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Frank Fang",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Ange Bradley",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Jeff Zamorski",
+     "Matt Hancock"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Marykristin Haskell",
+     "Frank Fang"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Jamila Sefiane",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Russell Cripps",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Sandra Thompson",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Christine Dugan",
+     "Russell Cripps"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Nancy Blank",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jeff Jensen"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Michael Taylor",
+     "Scott Kacelowicz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jingwei Wu"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Michael Taylor",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Sal Bwint",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.9,
+    "confidence": 45,
+    "rank": 39,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 2,
+    "rating": -3.1,
+    "confidence": 64,
+    "rank": 60,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 3,
+    "rating": -3.6,
+    "confidence": 67,
+    "rank": 68,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 4,
+    "rating": -4,
+    "confidence": 75,
+    "rank": 73,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "rating": -3.1,
+    "confidence": 80,
+    "rank": 77,
+    "ratingGames": 25,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 6,
+    "rating": -2.5,
+    "confidence": 83,
+    "rank": 76,
+    "ratingGames": 31,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 7,
+    "rating": -2.6,
+    "confidence": 83,
+    "rank": 77,
+    "ratingGames": 31,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 8,
+    "rating": -2.5,
+    "confidence": 86,
+    "rank": 78,
+    "ratingGames": 37,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 9,
+    "rating": -2.3,
+    "confidence": 86,
+    "rank": 76,
+    "ratingGames": 37,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 10,
+    "rating": -2.2,
+    "confidence": 88,
+    "rank": 76,
+    "ratingGames": 43,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 3,
+    "synergy": 2.3
+   },
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 3,
+    "synergy": 1.7
+   },
+   {
+    "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
+    "name": "Chris Norton",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 5,
+    "synergy": 0.4
+   },
+   {
+    "pid": "e05f57f5-c898-404e-b86f-c2460cc23b06",
+    "name": "Stephanie Woomer",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
+    "name": "Jane Meng",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
+    "name": "Kim Bohrer",
+    "n": 4,
     "synergy": -0.7
+   },
+   {
+    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
+    "name": "Dan Ladislaw",
+    "n": 4,
+    "synergy": -0.9
+   },
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 7,
+    "synergy": -1.1
+   },
+   {
+    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+    "name": "Katherine Maruyama",
+    "n": 3,
+    "synergy": -1.5
+   }
+  ]
+ },
+ "220a5a2a-322c-4799-85a9-1f21b37b6cd4": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 113,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 105,
+    "pa": 122,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 104,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 76,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 121,
+    "pa": 106,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 111,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Jane Meng",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Kim Mchugh",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Jane Meng",
+     "Kim Mchugh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Jane Meng",
+     "Chris Norton"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Ange Bradley",
+    "vs": [
+     "Jane Meng",
+     "Kim Mchugh"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Christy Beale",
+     "Kim Mchugh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Sandra Thompson",
+     "Alex Fad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Nam Barsh",
+     "Jennifer Land"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Sandra Thompson",
+     "Alex Fad"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jennifer Land",
+     "Sandra Thompson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Tracey Carney",
+     "Jennifer Land"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Priya Narahari",
+     "Jr Burrs"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Priya Narahari",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Priya Narahari",
+     "Jr Burrs"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Barb Flynn",
+     "Andrew Neave"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Priya Narahari",
+     "Allison Hartman"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Tera Baccile",
+     "Kathy Cripps"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Katherine Maruyama",
+     "Kathy Cripps"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Kathy Cripps",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Ange Bradley",
+    "vs": [
+     "Katherine Maruyama",
+     "Kim Bohrer"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Tracey Carney",
+     "Russell Cripps"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Tracey Carney",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Tracey Carney",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Ange Bradley",
+    "vs": [
+     "Tracey Carney",
+     "Jennifer Land"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jamila Sefiane",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Barb Flynn",
+     "Lincoln Jensen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Barb Flynn",
+     "Harrison Bohrer"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Allison Hartman",
+     "Harrison Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 44,
+    "rank": 30,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 3,
+    "rating": -1.4,
+    "confidence": 64,
+    "rank": 57,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 4,
+    "rating": -1.4,
+    "confidence": 73,
+    "rank": 60,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "rating": -1.3,
+    "confidence": 74,
+    "rank": 64,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 6,
+    "rating": -2.1,
+    "confidence": 80,
+    "rank": 70,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 7,
+    "rating": -2.5,
+    "confidence": 80,
+    "rank": 75,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 8,
+    "rating": -2.4,
+    "confidence": 80,
+    "rank": 77,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 9,
+    "rating": -2.4,
+    "confidence": 83,
+    "rank": 78,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "rating": -1.9,
+    "confidence": 85,
+    "rank": 72,
+    "ratingGames": 36,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fd596225-797e-4125-876b-633dae2efc65",
+    "name": "Linda Zhu",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
+    "name": "Erika Richards",
+    "n": 7,
+    "synergy": 1.3
+   },
+   {
+    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
+    "name": "Kevin Basch",
+    "n": 5,
+    "synergy": -0.3
+   },
+   {
+    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+    "name": "Matt Hancock",
+    "n": 5,
+    "synergy": -0.4
+   },
+   {
+    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
+    "name": "Ed Gieske",
+    "n": 4,
+    "synergy": -0.7
+   },
+   {
+    "pid": "0ea06752-4e43-4708-8d85-b0499137f61e",
+    "name": "Ange Bradley",
+    "n": 3,
+    "synergy": -0.7
+   },
+   {
+    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
+    "name": "Frank Fang",
+    "n": 4,
+    "synergy": -1.4
    }
   ]
  },
@@ -41232,6 +46579,15 @@
     "ratingGames": 36,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 10,
+    "rating": -0.9,
+    "confidence": 86,
+    "rank": 58,
+    "ratingGames": 36,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -41239,7 +46595,7 @@
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
     "name": "Nam Barsh",
     "n": 3,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
@@ -41251,13 +46607,13 @@
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
     "name": "Sandro Stefanelli",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1
    },
    {
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
     "name": "Russell Cripps",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.5
    },
    {
     "pid": "0a78359b-1de2-4ba8-adb8-d2006d923908",
@@ -41269,13 +46625,13 @@
     "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
     "name": "Jennifer Land",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.8
    },
    {
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
     "name": "Christine Dugan",
     "n": 3,
-    "synergy": -2.6
+    "synergy": -2.7
    }
   ]
  },
@@ -41773,6 +47129,15 @@
     "ratingGames": 21,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 10,
+    "rating": 1.1,
+    "confidence": 80,
+    "rank": 28,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": [
@@ -41786,165 +47151,84 @@
     "pid": "b1814193-753a-460b-8911-8722c57efb86",
     "name": "Jared Quereau",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
     "name": "Harvey Mitchell",
     "n": 5,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
- "23d1d322-f31d-46b3-bf95-d86faab58b06": {
+ "6be7fecc-58ce-4a10-b2f9-bf98567f3427": {
   "log": [
    {
-    "week": 1,
+    "week": 4,
     "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 86,
-    "pa": 147,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Drop it Like it's Hot",
     "homeAway": "A",
-    "w": 1,
-    "l": 5,
+    "w": 2,
+    "l": 4,
     "gp": 6,
-    "pf": 106,
-    "pa": 121,
+    "pf": 100,
+    "pa": 115,
     "mx": [
      1,
      2
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
      0,
-     3
+     1
     ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 4,
+    "week": 5,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
     "opp": "Baby Got Backhands",
     "homeAway": "A",
     "w": 2,
     "l": 4,
     "gp": 6,
-    "pf": 107,
-    "pa": 122,
+    "pf": 98,
+    "pa": 108,
     "mx": [
      1,
      2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 120,
-    "pa": 103,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 101,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 118,
-    "pa": 115,
-    "mx": [
-     2,
-     1
     ],
     "gn": [
      1,
@@ -41955,771 +47239,19 @@
      2
     ],
     "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
-   }
-  ],
-  "games": [
+   },
    {
-    "wk": 1,
+    "week": 10,
     "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Emily Ocasio",
-     "Andre Cristobal"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Vicki Main",
-     "Andre Cristobal"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Harvey Mitchell",
-     "Andrew Neave"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Vicki Main",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jane Meng",
-    "vs": [
-     "Kathy BernéT",
-     "Frank Fang"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Kevin Basch",
-     "Ed Gieske"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jonathan Goldner",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Linda Zhu",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Jonathan Goldner",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jane Meng",
-    "vs": [
-     "Erika Richards",
-     "Kevin Basch"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Jodi Evans",
-     "Andrew Cho"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Nancy Blank",
-     "Alex Fad"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Andrew Cho",
-     "Alex Fad"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nancy Blank",
-     "Alex Fad"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Michael Taylor",
-     "Andrew Cho"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Scott Kacelowicz",
-     "Alex Fad"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Jean Rosenbaum",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Sandro Stefanelli",
-     "Todd Law"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Todd Law",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Jean Rosenbaum",
-     "Todd Law"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Tejas Goculdas",
-     "Saul Barsh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Ange Bradley",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Frank Fang",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Ange Bradley",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Jeff Zamorski",
-     "Matt Hancock"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Marykristin Haskell",
-     "Frank Fang"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Jamila Sefiane",
-     "David Marchese"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Russell Cripps",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Tejas Goculdas",
-     "David Marchese"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jane Meng",
-    "vs": [
-     "Sandra Thompson",
-     "David Marchese"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Tejas Goculdas",
-     "David Marchese"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Christine Dugan",
-     "Russell Cripps"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.9,
-    "confidence": 45,
-    "rank": 39,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 2,
-    "rating": -3.1,
-    "confidence": 64,
-    "rank": 60,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 3,
-    "rating": -3.6,
-    "confidence": 67,
-    "rank": 68,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 4,
-    "rating": -4,
-    "confidence": 75,
-    "rank": 73,
-    "ratingGames": 19,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 5,
-    "rating": -3.1,
-    "confidence": 80,
-    "rank": 77,
-    "ratingGames": 25,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 6,
-    "rating": -2.5,
-    "confidence": 83,
-    "rank": 76,
-    "ratingGames": 31,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 7,
-    "rating": -2.6,
-    "confidence": 83,
-    "rank": 77,
-    "ratingGames": 31,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 8,
-    "rating": -2.5,
-    "confidence": 86,
-    "rank": 78,
-    "ratingGames": 37,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 9,
-    "rating": -2.3,
-    "confidence": 86,
-    "rank": 76,
-    "ratingGames": 37,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-    "name": "Kathy Cripps",
-    "n": 3,
-    "synergy": 2.5
-   },
-   {
-    "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
-    "name": "Chris Norton",
-    "n": 5,
-    "synergy": 0.8
-   },
-   {
-    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-    "name": "Christy Beale",
-    "n": 5,
-    "synergy": 0.6
-   },
-   {
-    "pid": "e05f57f5-c898-404e-b86f-c2460cc23b06",
-    "name": "Stephanie Woomer",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
-    "name": "Jane Meng",
-    "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
-    "name": "Dan Ladislaw",
-    "n": 3,
-    "synergy": -0.8
-   },
-   {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 6,
-    "synergy": -1.2
-   }
-  ]
- },
- "220a5a2a-322c-4799-85a9-1f21b37b6cd4": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Shrinky Dinks",
     "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 112,
-    "pa": 113,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
     "w": 1,
     "l": 5,
     "gp": 6,
-    "pf": 105,
+    "pf": 98,
     "pa": 122,
     "mx": [
      0,
@@ -42731,155 +47263,26 @@
     ],
     "cl": [
      0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 111,
-    "pa": 104,
-    "mx": [
-     1,
      2
     ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 76,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
     "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 121,
-    "pa": 106,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Jane Meng",
-     "Robert Block"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
+    "wk": 4,
+    "opp": "The Young Guns",
     "t": "mixed",
     "with": "Ed Gieske",
     "vs": [
-     "Kim Mchugh",
-     "Chris Norton"
+     "Barb Flynn",
+     "Jon Wheel"
     ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Erika Richards",
-    "vs": [
-     "Jane Meng",
-     "Kim Mchugh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Jane Meng",
-     "Chris Norton"
-    ],
-    "f": 13,
+    "f": 10,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -42887,127 +47290,15 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Ange Bradley",
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Ed Gieske",
     "vs": [
-     "Jane Meng",
-     "Kim Mchugh"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Linda Zhu",
-    "vs": [
-     "Christy Beale",
-     "Kim Mchugh"
+     "Allison Hartman",
+     "Andrew Neave"
     ],
     "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Sandra Thompson",
-     "Alex Fad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Linda Zhu",
-    "vs": [
-     "Nam Barsh",
-     "Jennifer Land"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kevin Basch",
-    "vs": [
-     "Sandra Thompson",
-     "Alex Fad"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Linda Zhu",
-    "vs": [
-     "Jennifer Land",
-     "Sandra Thompson"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Tracey Carney",
-     "Jennifer Land"
-    ],
-    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -43018,58 +47309,10 @@
     "wk": 4,
     "opp": "The Young Guns",
     "t": "female",
-    "with": "Erika Richards",
+    "with": "Peilei Cao",
     "vs": [
      "Vicki Main",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Priya Narahari",
-     "Jr Burrs"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "female",
-    "with": "Erika Richards",
-    "vs": [
-     "Priya Narahari",
-     "Barb Flynn"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Priya Narahari",
-     "Jr Burrs"
+     "Allison Hartman"
     ],
     "f": 12,
     "a": 21,
@@ -43085,10 +47328,10 @@
     "with": "Matt Hancock",
     "vs": [
      "Barb Flynn",
-     "Andrew Neave"
+     "Jon Wheel"
     ],
     "f": 21,
-    "a": 7,
+    "a": 14,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -43098,7 +47341,23 @@
     "wk": 4,
     "opp": "The Young Guns",
     "t": "female",
-    "with": "Jenna Posner",
+    "with": "Peilei Cao",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy BernéT",
     "vs": [
      "Priya Narahari",
      "Allison Hartman"
@@ -43111,13 +47370,285 @@
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Mary Callaghan",
+     "Sal Bwint"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Jenn Smith",
+     "Jeff Jensen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Marykristin Haskell",
+    "vs": [
+     "Mary Callaghan",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Mary Callaghan",
+     "Jeff Jensen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Mary Callaghan",
+     "Jenn Smith"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
     "t": "female",
     "with": "Erika Richards",
     "vs": [
-     "Tera Baccile",
-     "Kathy Cripps"
+     "Mary Callaghan",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jenn Smith"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Andrew Cho"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Jenn Smith",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Nancy Blank"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Barb Flynn",
+     "Lincoln Jensen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Erika Richards",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Vicki Main",
+     "Lincoln Jensen"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Vicki Main",
+     "Barb Flynn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
     ],
     "f": 21,
     "a": 23,
@@ -43125,15 +47656,529 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "rating": -2.6,
+    "confidence": 52,
+    "rank": 69,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 5,
+    "rating": -1.2,
+    "confidence": 65,
+    "rank": 63,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 6,
+    "rating": -1.4,
+    "confidence": 66,
+    "rank": 65,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 7,
+    "rating": -1.4,
+    "confidence": 67,
+    "rank": 65,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 8,
+    "rating": -1.7,
+    "confidence": 74,
+    "rank": 69,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 9,
+    "rating": -1.6,
+    "confidence": 75,
+    "rank": 69,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 10,
+    "rating": -2.5,
+    "confidence": 80,
+    "rank": 78,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
+    "name": "Erika Richards",
+    "n": 3,
+    "synergy": 1.2
+   },
+   {
+    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+    "name": "Matt Hancock",
+    "n": 5,
+    "synergy": 0.6
+   },
+   {
+    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
+    "name": "Ed Gieske",
+    "n": 4,
+    "synergy": -2
+   }
+  ]
+ },
+ "b83bd6a7-2706-4a28-af7b-2b5da3d7281a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 103,
+    "pa": 143,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 140,
+    "pa": 134,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 112,
+    "pa": 79,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 112,
+    "pa": 135,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 138,
+    "pa": 154,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Vicki Main",
+     "Andre Cristobal"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Emily Ocasio",
+     "Vicki Main"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Emily Ocasio",
+     "Andre Cristobal"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Christy Beale",
+    "vs": [
+     "Emily Ocasio",
+     "Vicki Main"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Kevin Basch",
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Christy Beale",
     "vs": [
-     "Katherine Maruyama",
-     "Michael Finkelstein"
+     "Megan Harvey",
+     "Marykristin Haskell"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Kathy BernéT",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
     ],
     "f": 7,
     "a": 21,
@@ -43144,30 +48189,30 @@
    },
    {
     "wk": 6,
-    "opp": "Shrinky Dinks",
+    "opp": "Drop it Like it's Hot",
     "t": "female",
-    "with": "Erika Richards",
+    "with": "Kim Bohrer",
     "vs": [
-     "Katherine Maruyama",
-     "Kathy Cripps"
+     "Kathy BernéT",
+     "Ange Bradley"
     ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 8,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Frank Fang",
+    "with": "Michael Finkelstein",
     "vs": [
-     "Katherine Maruyama",
-     "Michael Finkelstein"
+     "Priya Narahari",
+     "Jared Quereau"
     ],
-    "f": 16,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -43175,45 +48220,29 @@
     "subFor": null
    },
    {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Kevin Basch",
-    "vs": [
-     "Kathy Cripps",
-     "Matthew Shusterman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Shrinky Dinks",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "female",
-    "with": "Ange Bradley",
+    "with": "Kathy Cripps",
     "vs": [
-     "Katherine Maruyama",
-     "Kim Bohrer"
+     "Emily Ocasio",
+     "Vicki Main"
     ],
-    "f": 8,
-    "a": 21,
+    "f": 22,
+    "a": 24,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Frank Fang",
+    "with": "Dan Ladislaw",
     "vs": [
-     "Tracey Carney",
-     "Russell Cripps"
+     "Priya Narahari",
+     "Harvey Mitchell"
     ],
     "f": 20,
     "a": 22,
@@ -43223,61 +48252,77 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Ed Gieske",
+    "with": "Dan Ladislaw",
     "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
+     "Emily Ocasio",
+     "Jared Quereau"
     ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
+    "f": 19,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "female",
-    "with": "Erika Richards",
+    "with": "Tera Baccile",
     "vs": [
-     "Tracey Carney",
-     "Jennifer Land"
+     "Emily Ocasio",
+     "Priya Narahari"
     ],
     "f": 21,
-    "a": 17,
+    "a": 9,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "mixed",
-    "with": "Ed Gieske",
+    "with": "Michael Finkelstein",
     "vs": [
-     "Tracey Carney",
-     "Saul Barsh"
+     "Emily Ocasio",
+     "Harvey Mitchell"
     ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
+    "f": 10,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 7,
+    "opp": "The Young Guns",
     "t": "female",
-    "with": "Ange Bradley",
+    "with": "Tera Baccile",
     "vs": [
-     "Tracey Carney",
-     "Jennifer Land"
+     "Emily Ocasio",
+     "Priya Narahari"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
     ],
     "f": 18,
     "a": 21,
@@ -43287,17 +48332,113 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
+    "wk": 10,
+    "opp": "Baby Got Backhands",
     "t": "female",
-    "with": "Linda Zhu",
+    "with": "Tera Baccile",
     "vs": [
-     "Jamila Sefiane",
-     "Jennifer Land"
+     "Taina Wesner",
+     "Nancy Blank"
     ],
     "f": 21,
-    "a": 15,
+    "a": 9,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jingwei Wu"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sarah Ross",
+     "Taina Wesner"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Sarah Ross",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -43305,118 +48446,130 @@
   ],
   "ratingHistory": [
    {
-    "week": 2,
-    "rating": 0,
-    "confidence": 44,
-    "rank": 30,
-    "ratingGames": 6,
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 47,
+    "rank": 32,
+    "ratingGames": 7,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 52,
+    "rank": 48,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.4
    },
    {
     "week": 3,
-    "rating": -1.4,
-    "confidence": 64,
-    "rank": 57,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.7
+    "rating": -1.6,
+    "confidence": 53,
+    "rank": 59,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.3
    },
    {
     "week": 4,
-    "rating": -1.4,
-    "confidence": 73,
-    "rank": 60,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.7
+    "rating": 0.6,
+    "confidence": 69,
+    "rank": 31,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1.4
    },
    {
     "week": 5,
-    "rating": -1.3,
-    "confidence": 74,
-    "rank": 64,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.7
+    "rating": 0.7,
+    "confidence": 70,
+    "rank": 30,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.5
    },
    {
     "week": 6,
-    "rating": -2.1,
-    "confidence": 80,
-    "rank": 70,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.2
+    "rating": 1.4,
+    "confidence": 78,
+    "rank": 23,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1
    },
    {
     "week": 7,
-    "rating": -2.5,
-    "confidence": 80,
-    "rank": 75,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.5
+    "rating": 1,
+    "confidence": 81,
+    "rank": 26,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.1
    },
    {
     "week": 8,
-    "rating": -2.4,
-    "confidence": 80,
-    "rank": 77,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.4
+    "rating": 1.1,
+    "confidence": 82,
+    "rank": 28,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 9,
-    "rating": -2.4,
-    "confidence": 83,
-    "rank": 78,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.7
+    "rating": 1.1,
+    "confidence": 82,
+    "rank": 28,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 10,
+    "rating": 1.2,
+    "confidence": 85,
+    "rank": 26,
+    "ratingGames": 35,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": [
    {
-    "pid": "065e606f-3722-4434-8848-28e4d10ccabd",
-    "name": "Erika Richards",
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
     "n": 6,
-    "synergy": 1.2
+    "synergy": 1.5
    },
    {
-    "pid": "fd596225-797e-4125-876b-633dae2efc65",
-    "name": "Linda Zhu",
-    "n": 4,
-    "synergy": 1.1
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 5,
+    "synergy": 0.2
    },
    {
-    "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
-    "name": "Matt Hancock",
-    "n": 4,
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 6,
+    "synergy": 0.1
+   },
+   {
+    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
+    "name": "Dan Ladislaw",
+    "n": 7,
     "synergy": -0.1
    },
    {
-    "pid": "314486b1-6723-4b33-9dba-fa5756065707",
-    "name": "Ed Gieske",
-    "n": 4,
+    "pid": "d034daeb-3fd8-4273-80f5-3a272ceab674",
+    "name": "Christy Beale",
+    "n": 3,
     "synergy": -0.4
    },
    {
-    "pid": "0ea06752-4e43-4708-8d85-b0499137f61e",
-    "name": "Ange Bradley",
-    "n": 3,
-    "synergy": -0.5
-   },
-   {
-    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
-    "name": "Frank Fang",
-    "n": 4,
-    "synergy": -1.3
-   },
-   {
-    "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
-    "name": "Kevin Basch",
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
     "n": 3,
     "synergy": -1.5
    }
@@ -44000,38 +49153,678 @@
     "ratingGames": 24,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 10,
+    "rating": -1.7,
+    "confidence": 81,
+    "rank": 67,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": [
    {
-    "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
-    "name": "Andrew Cho",
-    "n": 3,
-    "synergy": 0.3
-   },
-   {
     "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
     "name": "Nancy Blank",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.6
    },
    {
-    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
-    "name": "Mary Callaghan",
-    "n": 5,
-    "synergy": 0
-   },
-   {
-    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
-    "name": "Tim Phelan",
+    "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
+    "name": "Andrew Cho",
     "n": 3,
-    "synergy": -0.2
+    "synergy": 0.2
    },
    {
     "pid": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
     "name": "Sal Bwint",
     "n": 3,
-    "synergy": -0.2
+    "synergy": 0
+   },
+   {
+    "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
+    "name": "Mary Callaghan",
+    "n": 5,
+    "synergy": -0.1
+   },
+   {
+    "pid": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
+    "name": "Tim Phelan",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
+ },
+ "861c3f68-2c96-4a96-a75e-645020f73a5c": {
+  "log": [
+   {
+    "week": 6,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 98,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 110,
+    "pa": 143,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 120,
+    "pa": 134,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 124,
+    "pa": 136,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Kim Bohrer",
+    "vs": [
+     "Marykristin Haskell",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Kathy BernéT",
+     "Frank Fang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Chris Fratinardo",
+     "Frank Fang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 6,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Kevin Basch",
+     "Matt Hancock"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Priya Narahari",
+     "Jared Quereau"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Harvey Mitchell",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Emily Ocasio",
+     "Jared Quereau"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Harvey Mitchell",
+     "Graham Heavenrich"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Harvey Mitchell",
+     "Graham Heavenrich"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Harvey Mitchell",
+     "Jared Quereau"
+    ],
+    "f": 28,
+    "a": 30,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Nam Barsh",
+     "Sandro Stefanelli"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Tejas Goculdas",
+     "David Marchese"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Nam Barsh",
+     "Tejas Goculdas"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Kitchen Chaos",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Tejas Goculdas",
+     "Sandro Stefanelli"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sarah Ross",
+     "Scott Kacelowicz"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Michael Taylor",
+     "Sal Bwint"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Dan Ladislaw",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 6,
+    "rating": 2,
+    "confidence": 53,
+    "rank": 14,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 7,
+    "rating": -0.4,
+    "confidence": 71,
+    "rank": 50,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 8,
+    "rating": -0.3,
+    "confidence": 78,
+    "rank": 48,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 9,
+    "rating": -0.2,
+    "confidence": 79,
+    "rank": 46,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 10,
+    "rating": 0.1,
+    "confidence": 83,
+    "rank": 43,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
+    "n": 3,
+    "synergy": 1.7
+   },
+   {
+    "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
+    "name": "Dan Ladislaw",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
+    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+    "name": "Katherine Maruyama",
+    "n": 6,
+    "synergy": 0.1
+   },
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
+    "name": "Kathy Cripps",
+    "n": 3,
+    "synergy": -1.6
+   },
+   {
+    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
+    "name": "Matthew Shusterman",
+    "n": 5,
+    "synergy": -2.2
    }
   ]
  },
@@ -44859,6 +50652,15 @@
     "ratingGames": 36,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 10,
+    "rating": -2.1,
+    "confidence": 86,
+    "rank": 73,
+    "ratingGames": 36,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -44866,7 +50668,7 @@
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
     "name": "Christine Dugan",
     "n": 4,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
@@ -44878,25 +50680,25 @@
     "pid": "c0851114-0611-4b02-9589-fd249179eabc",
     "name": "Jamila Sefiane",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.5
    },
    {
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
     "name": "Tejas Goculdas",
     "n": 6,
-    "synergy": -0.2
+    "synergy": -0.3
+   },
+   {
+    "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
+    "name": "Jennifer Land",
+    "n": 4,
+    "synergy": -0.9
    },
    {
     "pid": "0a78359b-1de2-4ba8-adb8-d2006d923908",
     "name": "Saul Barsh",
     "n": 7,
     "synergy": -0.9
-   },
-   {
-    "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
-    "name": "Jennifer Land",
-    "n": 4,
-    "synergy": -1
    },
    {
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
@@ -46040,6 +51842,15 @@
     "ratingGames": 52,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 10,
+    "rating": -1.5,
+    "confidence": 89,
+    "rank": 66,
+    "ratingGames": 52,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -46047,7 +51858,7 @@
     "pid": "c0851114-0611-4b02-9589-fd249179eabc",
     "name": "Jamila Sefiane",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1
    },
    {
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
@@ -46065,19 +51876,19 @@
     "pid": "0a78359b-1de2-4ba8-adb8-d2006d923908",
     "name": "Saul Barsh",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.2
    },
    {
     "pid": "2b02f2fe-f8f7-42a7-bb36-d3f2322cec7c",
     "name": "Tracey Carney",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.7
    },
    {
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
     "name": "Sandra Thompson",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
@@ -46564,6 +52375,15 @@
     "ratingGames": 19,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 10,
+    "rating": -1.8,
+    "confidence": 78,
+    "rank": 71,
+    "ratingGames": 19,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -46571,1199 +52391,7 @@
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
     "name": "Tejas Goculdas",
     "n": 6,
-    "synergy": -0.8
-   }
-  ]
- },
- "861c3f68-2c96-4a96-a75e-645020f73a5c": {
-  "log": [
-   {
-    "week": 6,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 120,
-    "pa": 98,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 110,
-    "pa": 143,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 120,
-    "pa": 134,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Kim Bohrer",
-    "vs": [
-     "Marykristin Haskell",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Kathy BernéT",
-     "Kevin Basch"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "James Price",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Kathy BernéT",
-     "Frank Fang"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "James Price",
-    "vs": [
-     "Chris Fratinardo",
-     "Frank Fang"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 6,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Kevin Basch",
-     "Matt Hancock"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Priya Narahari",
-     "Jared Quereau"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Emily Ocasio",
-     "Jared Quereau"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Harvey Mitchell",
-     "Graham Heavenrich"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Harvey Mitchell",
-     "Graham Heavenrich"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Dan Ladislaw",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 28,
-    "a": 30,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Kathy Cripps",
-    "vs": [
-     "Nam Barsh",
-     "Sandro Stefanelli"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Tejas Goculdas",
-     "David Marchese"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Tejas Goculdas",
-     "David Marchese"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Nam Barsh",
-     "Tejas Goculdas"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Kitchen Chaos",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Tejas Goculdas",
-     "Sandro Stefanelli"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 6,
-    "rating": 2,
-    "confidence": 53,
-    "rank": 14,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 7,
-    "rating": -0.4,
-    "confidence": 71,
-    "rank": 50,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 8,
-    "rating": -0.3,
-    "confidence": 78,
-    "rank": 48,
-    "ratingGames": 20,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 9,
-    "rating": -0.2,
-    "confidence": 79,
-    "rank": 46,
-    "ratingGames": 20,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": [
-   {
-    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
-    "name": "Tera Baccile",
-    "n": 3,
-    "synergy": 0.4
-   },
-   {
-    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
-    "name": "Katherine Maruyama",
-    "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-    "name": "Matthew Shusterman",
-    "n": 5,
-    "synergy": -2
-   }
-  ]
- },
- "fd596225-797e-4125-876b-633dae2efc65": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 95,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Kitchen Chaos",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 114,
-    "pa": 117,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Baby Got Backhands",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 97,
-    "pa": 123,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 90,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Kitchen Chaos",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 119,
-    "pa": 111,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Kathy Cripps",
-     "Jane Meng"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Christy Beale",
-     "Matthew Shusterman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Ange Bradley",
-    "vs": [
-     "Tera Baccile",
-     "Christy Beale"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Christy Beale",
-     "Robert Block"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Tera Baccile",
-     "Keith Goldberg"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Christy Beale",
-     "Kim Mchugh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Jennifer Land",
-     "Sandro Stefanelli"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Claudya Elefante",
-     "Tracey Carney"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Nam Barsh",
-     "Jennifer Land"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Matt Hancock",
-    "vs": [
-     "Jennifer Land",
-     "Saul Barsh"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Jennifer Land",
-     "Sandra Thompson"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Nam Barsh",
-     "Alex Fad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Sarah Ross",
-     "Mary Callaghan"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Matt Enz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Taina Wesner",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Sal Bwint"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Taina Wesner",
-     "Michael Taylor"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Jenna Posner",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Jenn Smith"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kevin Basch",
-    "vs": [
-     "Nancy Blank",
-     "Andrew Cho"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Taina Wesner",
-     "Vanessa Zommi Kungne"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Mary Callaghan",
-     "Nancy Blank"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Ed Gieske",
-    "vs": [
-     "Nancy Blank",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Debra Schlosser",
-    "vs": [
-     "Nancy Blank",
-     "Jenn Smith"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 8,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Kevin Basch",
-    "vs": [
-     "Mary Callaghan",
-     "Sal Bwint"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Megan Harvey",
-    "vs": [
-     "Nam Barsh",
-     "Tracey Carney"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Jamila Sefiane",
-     "Sandro Stefanelli"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Ange Bradley",
-    "vs": [
-     "Claudya Elefante",
-     "Jamila Sefiane"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Frank Fang",
-    "vs": [
-     "Jamila Sefiane",
-     "Russell Cripps"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "mixed",
-    "with": "Jeff Zamorski",
-    "vs": [
-     "Claudya Elefante",
-     "Keith Goldberg"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "Kitchen Chaos",
-    "t": "female",
-    "with": "Kathy BernéT",
-    "vs": [
-     "Jamila Sefiane",
-     "Jennifer Land"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -3.1,
-    "confidence": 50,
-    "rank": 61,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 3,
-    "rating": -2,
-    "confidence": 66,
-    "rank": 62,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "rating": -2.4,
-    "confidence": 67,
-    "rank": 65,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 5,
-    "rating": -2.7,
-    "confidence": 75,
-    "rank": 75,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 6,
-    "rating": -2.5,
-    "confidence": 76,
-    "rank": 77,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 7,
-    "rating": -2.6,
-    "confidence": 76,
-    "rank": 78,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 8,
-    "rating": -2.9,
-    "confidence": 81,
-    "rank": 79,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 9,
-    "rating": -2,
-    "confidence": 84,
-    "rank": 73,
-    "ratingGames": 30,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
-    "name": "Kathy BernéT",
-    "n": 4,
-    "synergy": 1.1
-   },
-   {
-    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
-    "name": "Jeff Zamorski",
-    "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
-    "name": "Frank Fang",
-    "n": 8,
-    "synergy": -0.3
-   },
-   {
-    "pid": "c06ede91-f79c-483b-ae5e-34baae517dad",
-    "name": "Debra Schlosser",
-    "n": 3,
-    "synergy": -0.3
-   },
-   {
-    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
-    "name": "Megan Harvey",
-    "n": 5,
-    "synergy": -1.7
+    "synergy": -0.6
    }
   ]
  },
@@ -48459,6 +53087,15 @@
     "ratingGames": 30,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 10,
+    "rating": -2.1,
+    "confidence": 84,
+    "rank": 74,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -48466,7 +53103,7 @@
     "pid": "9b0fe5d7-4586-4629-8408-928794ca1c3b",
     "name": "Todd Law",
     "n": 4,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
@@ -48484,7 +53121,7 @@
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
     "name": "Sandro Stefanelli",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
@@ -48496,7 +53133,7 @@
     "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
     "name": "Jennifer Land",
     "n": 3,
-    "synergy": -2
+    "synergy": -2.2
    }
   ]
  },
@@ -48689,6 +53326,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 2.1
+   },
+   {
+    "week": 10,
+    "rating": -0.3,
+    "confidence": 54,
+    "rank": 49,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []
@@ -48882,9 +53528,855 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 2.4
+   },
+   {
+    "week": 10,
+    "rating": 0,
+    "confidence": 57,
+    "rank": 45,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 2.6
    }
   ],
   "partners": []
+ },
+ "c929f42d-6fd4-4034-888e-ad456cda3063": {
+  "log": [
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 113,
+    "pa": 143,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   }
+  ],
+  "games": [
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Erika Richards",
+     "Jeff Zamorski"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Megan Harvey",
+     "Linda Zhu"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Erika Richards",
+     "Chris Fratinardo"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Graham Heavenrich",
+    "vs": [
+     "Megan Harvey",
+     "Jeff Zamorski"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jared Quereau",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Megan Harvey",
+     "Erika Richards"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Young Guns"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 10,
+    "rating": -1,
+    "confidence": 59,
+    "rank": 61,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.8
+   }
+  ],
+  "partners": []
+ },
+ "31b78615-afb3-4856-8cb1-de2b8d43a115": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 112,
+    "pa": 139,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 121,
+    "pa": 145,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 133,
+    "pa": 139,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     4
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 134,
+    "pa": 133,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Vicki Main",
+     "Harvey Mitchell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Christy Beale",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Andre Cristobal",
+     "Graham Heavenrich"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Matthew Shusterman",
+    "vs": [
+     "Andre Cristobal",
+     "Graham Heavenrich"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Andre Cristobal"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Andre Cristobal",
+     "Harvey Mitchell"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Taina Wesner",
+     "Jingwei Wu"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Michael Taylor",
+     "Andrew Cho"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Harvey Mitchell",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Priya Narahari",
+     "Harvey Mitchell"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Emily Ocasio",
+     "Jared Quereau"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Jared Quereau",
+     "Andrew Neave"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Vicki Main",
+     "Jared Quereau"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Harvey Mitchell",
+     "Jared Quereau"
+    ],
+    "f": 28,
+    "a": 30,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Sarah Ross",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Michael Taylor",
+     "Scott Kacelowicz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "James Price",
+    "vs": [
+     "Jingwei Wu",
+     "Scott Kacelowicz"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kathy Cripps",
+    "vs": [
+     "Sarah Ross",
+     "Jingwei Wu"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Baby Got Backhands",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 45,
+    "rank": 24,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 48,
+    "rank": 39,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 3,
+    "rating": -0.6,
+    "confidence": 52,
+    "rank": 46,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 4,
+    "rating": -0.5,
+    "confidence": 68,
+    "rank": 45,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 5,
+    "rating": -0.7,
+    "confidence": 69,
+    "rank": 52,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 6,
+    "rating": -0.6,
+    "confidence": 70,
+    "rank": 52,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 7,
+    "rating": 0,
+    "confidence": 77,
+    "rank": 37,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 8,
+    "rating": -0.2,
+    "confidence": 77,
+    "rank": 47,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 9,
+    "rating": -0.1,
+    "confidence": 77,
+    "rank": 43,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 10,
+    "rating": 0.8,
+    "confidence": 81,
+    "rank": 33,
+    "ratingGames": 28,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
+    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+    "name": "Katherine Maruyama",
+    "n": 7,
+    "synergy": -0.1
+   },
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
+    "name": "Robert Block",
+    "n": 4,
+    "synergy": -0.9
+   }
+  ]
  },
  "0ea06752-4e43-4708-8d85-b0499137f61e": {
   "log": [
@@ -49332,6 +54824,15 @@
     "ratingGames": 18,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "rating": -2.5,
+    "confidence": 78,
+    "rank": 79,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -49339,13 +54840,13 @@
     "pid": "8c307e80-6a67-476f-be7c-de3b1442b95a",
     "name": "Kevin Basch",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.4
    },
    {
     "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
     "name": "Kathy BernéT",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.7
    }
   ]
  },
@@ -50098,6 +55599,15 @@
     "ratingGames": 33,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 10,
+    "rating": -1.2,
+    "confidence": 85,
+    "rank": 63,
+    "ratingGames": 33,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -50105,13 +55615,13 @@
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
     "name": "Russell Cripps",
     "n": 4,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
     "name": "Nam Barsh",
     "n": 6,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
@@ -50123,7 +55633,7 @@
     "pid": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
     "name": "Jean Rosenbaum",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
    },
    {
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
@@ -50135,7 +55645,7 @@
     "pid": "c0851114-0611-4b02-9589-fd249179eabc",
     "name": "Jamila Sefiane",
     "n": 3,
-    "synergy": -2.6
+    "synergy": -2.7
    }
   ]
  },
@@ -50840,55 +56350,64 @@
     "ratingGames": 30,
     "strengthOfPartners": -2,
     "strengthOfOpponents": -1
+   },
+   {
+    "week": 10,
+    "rating": -2.8,
+    "confidence": 83,
+    "rank": 81,
+    "ratingGames": 30,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": [
    {
-    "pid": "0a78359b-1de2-4ba8-adb8-d2006d923908",
-    "name": "Saul Barsh",
-    "n": 8,
-    "synergy": 0.7
-   },
-   {
     "pid": "2b02f2fe-f8f7-42a7-bb36-d3f2322cec7c",
     "name": "Tracey Carney",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.6
+   },
+   {
+    "pid": "0a78359b-1de2-4ba8-adb8-d2006d923908",
+    "name": "Saul Barsh",
+    "n": 8,
+    "synergy": 0.6
    },
    {
     "pid": "c0851114-0611-4b02-9589-fd249179eabc",
     "name": "Jamila Sefiane",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.8
    },
    {
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
     "name": "Russell Cripps",
     "n": 4,
-    "synergy": -1
+    "synergy": -0.9
    },
    {
     "pid": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
     "name": "Sandra Thompson",
     "n": 3,
-    "synergy": -2
+    "synergy": -2.2
    }
   ]
  },
- "42f84841-e4ed-4503-ae05-c8fe6c351ca7": {
+ "3bb1ba9d-c06d-4eea-9baa-37aad39428f3": {
   "log": [
    {
-    "week": 5,
-    "opp": "Drop it Like it's Hot",
+    "week": 1,
+    "opp": "Shrinky Dinks",
     "homeAway": "A",
-    "w": 3,
-    "l": 3,
+    "w": 2,
+    "l": 4,
     "gp": 6,
-    "pf": 102,
-    "pa": 113,
+    "pf": 100,
+    "pa": 120,
     "mx": [
-     2,
-     1
+     1,
+     2
     ],
     "gn": [
      1,
@@ -50896,26 +56415,26 @@
     ],
     "cl": [
      0,
-     0
+     1
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 9,
-    "opp": "The Young Guns",
+    "week": 3,
+    "opp": "Baby Got Backhands",
     "homeAway": "A",
-    "w": 0,
-    "l": 6,
+    "w": 1,
+    "l": 5,
     "gp": 6,
-    "pf": 99,
-    "pa": 126,
+    "pf": 95,
+    "pa": 119,
     "mx": [
-     0,
-     3
+     1,
+     2
     ],
     "gn": [
      0,
@@ -50926,69 +56445,102 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 93,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 95,
+    "pa": 121,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
+    "wk": 1,
+    "opp": "Shrinky Dinks",
     "t": "mixed",
-    "with": "Jenn Smith",
+    "with": "Andrew Neave",
     "vs": [
-     "Debra Schlosser",
-     "Matt Hancock"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jenn Smith",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matt Enz",
-    "vs": [
-     "Matt Hancock",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Mary Callaghan",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
+     "Kim Mchugh",
+     "Chris Norton"
     ],
     "f": 21,
     "a": 18,
@@ -50998,15 +56550,15 @@
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Michael Taylor",
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andrew Neave",
     "vs": [
-     "Jeff Zamorski",
-     "Matt Hancock"
+     "Carolina Reese",
+     "James Price"
     ],
-    "f": 8,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -51014,13 +56566,29 @@
     "subFor": null
    },
    {
-    "wk": 5,
-    "opp": "Drop it Like it's Hot",
-    "t": "male",
-    "with": "Matt Enz",
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Allison Hartman",
     "vs": [
-     "Frank Fang",
-     "Ed Gieske"
+     "Christy Beale",
+     "Carolina Reese"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Kim Mchugh",
+     "Chris Norton"
     ],
     "f": 17,
     "a": 21,
@@ -51030,13 +56598,77 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Jodi Evans",
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Allison Hartman",
     "vs": [
-     "Allison Hartman",
-     "Harrison Bohrer"
+     "Carolina Reese",
+     "Kim Mchugh"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Jessica Pao",
+    "vs": [
+     "Kim Bohrer",
+     "Carolina Reese"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jon Wheel",
+    "vs": [
+     "Jenn Smith",
+     "Andrew Cho"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jon Wheel",
+    "vs": [
+     "Mary Callaghan",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Taina Wesner",
+     "Mary Callaghan"
     ],
     "f": 15,
     "a": 21,
@@ -51046,15 +56678,15 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
+    "wk": 3,
+    "opp": "Baby Got Backhands",
     "t": "mixed",
-    "with": "Jodi Evans",
+    "with": "Andrew Neave",
     "vs": [
-     "Jessica Pao",
-     "Lincoln Jensen"
+     "Jenn Smith",
+     "Andrew Cho"
     ],
-    "f": 17,
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -51062,13 +56694,93 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Andrew Cho",
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Allison Hartman",
     "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
+     "Mary Callaghan",
+     "Jenn Smith"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Jessica Pao",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Mary Callaghan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jon Wheel",
+    "vs": [
+     "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Erika Richards",
+     "Kathy BernéT"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jon Wheel",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
     ],
     "f": 14,
     "a": 21,
@@ -51078,15 +56790,31 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Peilei Cao",
+     "Jenna Posner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Drop it Like it's Hot",
     "t": "mixed",
-    "with": "Mary Callaghan",
+    "with": "Andrew Neave",
     "vs": [
-     "Jessica Pao",
-     "Lincoln Jensen"
+     "Kathy BernéT",
+     "Matt Hancock"
     ],
-    "f": 17,
+    "f": 7,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -51094,29 +56822,13 @@
     "subFor": null
    },
    {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Michael Taylor",
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andrew Neave",
     "vs": [
-     "Jared Quereau",
-     "Harrison Bohrer"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 9,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Andrew Cho",
-    "vs": [
-     "Graham Heavenrich",
-     "Lincoln Jensen"
+     "Christy Beale",
+     "Chris Norton"
     ],
     "f": 20,
     "a": 22,
@@ -51124,56 +56836,302 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Priya Narahari",
+    "vs": [
+     "Tera Baccile",
+     "Christy Beale"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Tera Baccile",
+     "Christy Beale"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Andrew Neave",
+    "vs": [
+     "Carolina Reese",
+     "James Price"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Kathy Cripps",
+     "Carolina Reese"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 7,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jordan Demcher",
+    "vs": [
+     "Christy Beale",
+     "James Price"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Lincoln Jensen",
+    "vs": [
+     "Jenna Posner",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Erika Richards",
+     "Jenna Posner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Harrison Bohrer",
+    "vs": [
+     "Kathy BernéT",
+     "Kevin Basch"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Jenna Posner",
+     "Kathy BernéT"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Drop it Like it's Hot",
+    "t": "female",
+    "with": "Allison Hartman",
+    "vs": [
+     "Linda Zhu",
+     "Jenna Posner"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 5,
-    "rating": -1.3,
-    "confidence": 52,
-    "rank": 65,
+    "week": 1,
+    "rating": -1.6,
+    "confidence": 45,
+    "rank": 35,
     "ratingGames": 6,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 47,
+    "rank": 56,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 3,
+    "rating": -3.7,
+    "confidence": 65,
+    "rank": 69,
+    "ratingGames": 12,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 4,
+    "rating": -4.5,
+    "confidence": 74,
+    "rank": 74,
+    "ratingGames": 18,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "rating": -4.3,
+    "confidence": 75,
+    "rank": 81,
+    "ratingGames": 18,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 6,
-    "rating": -1.4,
-    "confidence": 53,
-    "rank": 66,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0
+    "rating": -4.4,
+    "confidence": 75,
+    "rank": 82,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -1
    },
    {
     "week": 7,
-    "rating": -1.5,
-    "confidence": 53,
-    "rank": 67,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
+    "rating": -4.8,
+    "confidence": 80,
+    "rank": 83,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 8,
-    "rating": -1.2,
-    "confidence": 54,
-    "rank": 62,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.1
+    "rating": -4.6,
+    "confidence": 80,
+    "rank": 83,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.7
    },
    {
     "week": 9,
-    "rating": -2.5,
-    "confidence": 68,
-    "rank": 79,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.2
+    "rating": -4.4,
+    "confidence": 81,
+    "rank": 83,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "rating": -4.3,
+    "confidence": 83,
+    "rank": 84,
+    "ratingGames": 30,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "980c2469-2017-4943-bc0d-5c49f0526f85",
+    "name": "Jon Wheel",
+    "n": 4,
+    "synergy": 1.3
+   },
+   {
+    "pid": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
+    "name": "Vicki Main",
+    "n": 4,
+    "synergy": 0.4
+   },
+   {
+    "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
+    "name": "Allison Hartman",
+    "n": 7,
+    "synergy": -0.7
+   },
+   {
+    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
+    "name": "Andrew Neave",
+    "n": 6,
+    "synergy": -1
+   }
+  ]
  },
  "f5e62236-e4e5-4b34-865e-c92bf027d21c": {
   "log": [
@@ -51753,6 +57711,15 @@
     "ratingGames": 24,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 10,
+    "rating": -4.3,
+    "confidence": 80,
+    "rank": 85,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": [
@@ -51760,31 +57727,890 @@
     "pid": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
     "name": "Sal Bwint",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.9
    },
    {
     "pid": "51ed4464-321f-4720-bd77-10936d1aed4f",
     "name": "Andrew Cho",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.4
    },
    {
     "pid": "0470dc02-2e17-4eeb-b282-4767b17e733e",
     "name": "Jodi Evans",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.4
    },
    {
     "pid": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
     "name": "Nancy Blank",
     "n": 4,
-    "synergy": -1
+    "synergy": -0.6
    },
    {
     "pid": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
     "name": "Mary Callaghan",
     "n": 3,
-    "synergy": -2
+    "synergy": -2.2
+   }
+  ]
+ },
+ "fd596225-797e-4125-876b-633dae2efc65": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Shrinky Dinks",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 95,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Kitchen Chaos",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 117,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Baby Got Backhands",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 97,
+    "pa": 123,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Baby Got Backhands",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 90,
+    "pa": 120,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Kitchen Chaos",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 111,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "The Young Guns",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 98,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathy Cripps",
+     "Jane Meng"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Christy Beale",
+     "Matthew Shusterman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Ange Bradley",
+    "vs": [
+     "Tera Baccile",
+     "Christy Beale"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Christy Beale",
+     "Robert Block"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Tera Baccile",
+     "Keith Goldberg"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Shrinky Dinks",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Christy Beale",
+     "Kim Mchugh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Jennifer Land",
+     "Sandro Stefanelli"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Claudya Elefante",
+     "Tracey Carney"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Nam Barsh",
+     "Jennifer Land"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Matt Hancock",
+    "vs": [
+     "Jennifer Land",
+     "Saul Barsh"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Jennifer Land",
+     "Sandra Thompson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Nam Barsh",
+     "Alex Fad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Sarah Ross",
+     "Mary Callaghan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Matt Enz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Sal Bwint"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jenn Smith"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Nancy Blank",
+     "Andrew Cho"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Taina Wesner",
+     "Vanessa Zommi Kungne"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Mary Callaghan",
+     "Nancy Blank"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Ed Gieske",
+    "vs": [
+     "Nancy Blank",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "female",
+    "with": "Debra Schlosser",
+    "vs": [
+     "Nancy Blank",
+     "Jenn Smith"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 8,
+    "opp": "Baby Got Backhands",
+    "t": "mixed",
+    "with": "Kevin Basch",
+    "vs": [
+     "Mary Callaghan",
+     "Sal Bwint"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Nam Barsh",
+     "Tracey Carney"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Jamila Sefiane",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Ange Bradley",
+    "vs": [
+     "Claudya Elefante",
+     "Jamila Sefiane"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Jamila Sefiane",
+     "Russell Cripps"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Claudya Elefante",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "Kitchen Chaos",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Jamila Sefiane",
+     "Jennifer Land"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Kathleen Dougherty",
+     "Vicki Main"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Allison Hartman",
+     "Harrison Bohrer"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Kathy BernéT",
+    "vs": [
+     "Emily Ocasio",
+     "Allison Hartman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Frank Fang",
+    "vs": [
+     "Allison Hartman",
+     "Harvey Mitchell"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jeff Zamorski",
+    "vs": [
+     "Emily Ocasio",
+     "Graham Heavenrich"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "The Young Guns",
+    "t": "female",
+    "with": "Jenna Posner",
+    "vs": [
+     "Allison Hartman",
+     "Barb Flynn"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -3.1,
+    "confidence": 50,
+    "rank": 61,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 3,
+    "rating": -2,
+    "confidence": 66,
+    "rank": 62,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "rating": -2.4,
+    "confidence": 67,
+    "rank": 65,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "rating": -2.7,
+    "confidence": 75,
+    "rank": 75,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 6,
+    "rating": -2.5,
+    "confidence": 76,
+    "rank": 77,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 7,
+    "rating": -2.6,
+    "confidence": 76,
+    "rank": 78,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 8,
+    "rating": -2.9,
+    "confidence": 81,
+    "rank": 79,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 9,
+    "rating": -2,
+    "confidence": 84,
+    "rank": 73,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 10,
+    "rating": -2.6,
+    "confidence": 86,
+    "rank": 80,
+    "ratingGames": 36,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
+    "name": "Kathy BernéT",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "c06ede91-f79c-483b-ae5e-34baae517dad",
+    "name": "Debra Schlosser",
+    "n": 3,
+    "synergy": -0.4
+   },
+   {
+    "pid": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
+    "name": "Frank Fang",
+    "n": 10,
+    "synergy": -0.5
+   },
+   {
+    "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
+    "name": "Jeff Zamorski",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
+    "name": "Megan Harvey",
+    "n": 6,
+    "synergy": -1.3
    }
   ]
  },
@@ -52100,6 +58926,15 @@
     "ratingGames": 13,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 10,
+    "rating": 0.2,
+    "confidence": 73,
+    "rank": 38,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": [
@@ -52557,6 +59392,15 @@
     "ratingGames": 18,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "rating": -0.2,
+    "confidence": 77,
+    "rank": 48,
+    "ratingGames": 18,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -52582,7 +59426,446 @@
     "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
     "name": "Christine Dugan",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
+   }
+  ]
+ },
+ "42f84841-e4ed-4503-ae05-c8fe6c351ca7": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Drop it Like it's Hot",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 102,
+    "pa": 113,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "The Young Guns",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 99,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Shrinky Dinks",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 88,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Debra Schlosser",
+     "Matt Hancock"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matt Enz",
+    "vs": [
+     "Matt Hancock",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jenna Posner",
+     "Ed Gieske"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Jeff Zamorski",
+     "Matt Hancock"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Drop it Like it's Hot",
+    "t": "male",
+    "with": "Matt Enz",
+    "vs": [
+     "Frank Fang",
+     "Ed Gieske"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Allison Hartman",
+     "Harrison Bohrer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Jodi Evans",
+    "vs": [
+     "Jessica Pao",
+     "Lincoln Jensen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Andrew Cho",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Jessica Pao",
+     "Lincoln Jensen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Jared Quereau",
+     "Harrison Bohrer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 9,
+    "opp": "The Young Guns",
+    "t": "male",
+    "with": "Andrew Cho",
+    "vs": [
+     "Graham Heavenrich",
+     "Lincoln Jensen"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Scott Kacelowicz",
+    "vs": [
+     "James Price",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Kim Bohrer",
+     "Robert Block"
+    ],
+    "f": 32,
+    "a": 30,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Sal Bwint",
+    "vs": [
+     "James Price",
+     "Matthew Shusterman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Kim Bohrer",
+     "James Price"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "mixed",
+    "with": "Nancy Blank",
+    "vs": [
+     "Kim Bohrer",
+     "Matthew Shusterman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 10,
+    "opp": "Shrinky Dinks",
+    "t": "male",
+    "with": "Sal Bwint",
+    "vs": [
+     "Robert Block",
+     "Matthew Shusterman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "rating": -1.3,
+    "confidence": 52,
+    "rank": 65,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 6,
+    "rating": -1.4,
+    "confidence": 53,
+    "rank": 66,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 7,
+    "rating": -1.5,
+    "confidence": 53,
+    "rank": 67,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 8,
+    "rating": -1.2,
+    "confidence": 54,
+    "rank": 62,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 9,
+    "rating": -2.5,
+    "confidence": 68,
+    "rank": 79,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 10,
+    "rating": -3.1,
+    "confidence": 77,
+    "rank": 82,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
+    "name": "Jenn Smith",
+    "n": 3,
+    "synergy": 0.3
    }
   ]
  },
@@ -53023,6 +60306,15 @@
     "ratingGames": 18,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 10,
+    "rating": -4,
+    "confidence": 77,
+    "rank": 83,
+    "ratingGames": 18,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -53030,1146 +60322,19 @@
     "pid": "314486b1-6723-4b33-9dba-fa5756065707",
     "name": "Ed Gieske",
     "n": 3,
-    "synergy": 1.7
+    "synergy": 1.5
    },
    {
     "pid": "fd596225-797e-4125-876b-633dae2efc65",
     "name": "Linda Zhu",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.4
    },
    {
     "pid": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
     "name": "Matt Hancock",
     "n": 3,
     "synergy": -2.2
-   }
-  ]
- },
- "3bb1ba9d-c06d-4eea-9baa-37aad39428f3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Shrinky Dinks",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 100,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 95,
-    "pa": 119,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Drop it Like it's Hot",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 93,
-    "pa": 115,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Shrinky Dinks",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 95,
-    "pa": 121,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Kim Mchugh",
-     "Chris Norton"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Carolina Reese",
-     "James Price"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Christy Beale",
-     "Carolina Reese"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Harrison Bohrer",
-    "vs": [
-     "Kim Mchugh",
-     "Chris Norton"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Carolina Reese",
-     "Kim Mchugh"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Jessica Pao",
-    "vs": [
-     "Kim Bohrer",
-     "Carolina Reese"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jon Wheel",
-    "vs": [
-     "Jenn Smith",
-     "Andrew Cho"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Jon Wheel",
-    "vs": [
-     "Mary Callaghan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Taina Wesner",
-     "Mary Callaghan"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Jenn Smith",
-     "Andrew Cho"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Mary Callaghan",
-     "Jenn Smith"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Baby Got Backhands",
-    "t": "female",
-    "with": "Jessica Pao",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Mary Callaghan"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jon Wheel",
-    "vs": [
-     "Jenna Posner",
-     "Ed Gieske"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Erika Richards",
-     "Kathy BernéT"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Jon Wheel",
-    "vs": [
-     "Jenna Posner",
-     "Matt Hancock"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Peilei Cao",
-     "Jenna Posner"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Drop it Like it's Hot",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Kathy BernéT",
-     "Matt Hancock"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Christy Beale",
-     "Chris Norton"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Priya Narahari",
-    "vs": [
-     "Tera Baccile",
-     "Christy Beale"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Vicki Main",
-    "vs": [
-     "Tera Baccile",
-     "Christy Beale"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Andrew Neave",
-    "vs": [
-     "Carolina Reese",
-     "James Price"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "female",
-    "with": "Allison Hartman",
-    "vs": [
-     "Kathy Cripps",
-     "Carolina Reese"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "Shrinky Dinks",
-    "t": "mixed",
-    "with": "Jordan Demcher",
-    "vs": [
-     "Christy Beale",
-     "James Price"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.6,
-    "confidence": 45,
-    "rank": 35,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 2,
-    "rating": -2,
-    "confidence": 47,
-    "rank": 56,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 3,
-    "rating": -3.7,
-    "confidence": 65,
-    "rank": 69,
-    "ratingGames": 12,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 4,
-    "rating": -4.5,
-    "confidence": 74,
-    "rank": 74,
-    "ratingGames": 18,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 5,
-    "rating": -4.3,
-    "confidence": 75,
-    "rank": 81,
-    "ratingGames": 18,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 6,
-    "rating": -4.4,
-    "confidence": 75,
-    "rank": 82,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 7,
-    "rating": -4.8,
-    "confidence": 80,
-    "rank": 83,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 8,
-    "rating": -4.6,
-    "confidence": 80,
-    "rank": 83,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 9,
-    "rating": -4.4,
-    "confidence": 81,
-    "rank": 83,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": [
-   {
-    "pid": "980c2469-2017-4943-bc0d-5c49f0526f85",
-    "name": "Jon Wheel",
-    "n": 4,
-    "synergy": 1.5
-   },
-   {
-    "pid": "a6b783cc-7aeb-476e-adcc-da306772071c",
-    "name": "Allison Hartman",
-    "n": 6,
-    "synergy": -0.8
-   },
-   {
-    "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
-    "name": "Andrew Neave",
-    "n": 6,
-    "synergy": -1
-   }
-  ]
- },
- "31b78615-afb3-4856-8cb1-de2b8d43a115": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "The Young Guns",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 112,
-    "pa": 139,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Baby Got Backhands",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 121,
-    "pa": 145,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "The Young Guns",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 133,
-    "pa": 139,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     4
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Vicki Main",
-     "Harvey Mitchell"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Christy Beale",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Andre Cristobal",
-     "Graham Heavenrich"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Matthew Shusterman",
-    "vs": [
-     "Andre Cristobal",
-     "Graham Heavenrich"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Andre Cristobal"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Andre Cristobal",
-     "Harvey Mitchell"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Sarah Ross",
-     "Jingwei Wu"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Taina Wesner",
-     "Jingwei Wu"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Sarah Ross",
-     "Michael Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Michael Taylor",
-     "Andrew Cho"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Vanessa Zommi Kungne",
-     "Michael Taylor"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Baby Got Backhands",
-    "t": "male",
-    "with": "Keith Goldberg",
-    "vs": [
-     "Jingwei Wu",
-     "Michael Taylor"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Emily Ocasio",
-     "Harvey Mitchell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Priya Narahari",
-     "Harvey Mitchell"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Katherine Maruyama",
-    "vs": [
-     "Emily Ocasio",
-     "Jared Quereau"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Jared Quereau",
-     "Andrew Neave"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Vicki Main",
-     "Jared Quereau"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 7,
-    "opp": "The Young Guns",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Harvey Mitchell",
-     "Jared Quereau"
-    ],
-    "f": 28,
-    "a": 30,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 45,
-    "rank": 24,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 2,
-    "rating": -0.6,
-    "confidence": 48,
-    "rank": 39,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 3,
-    "rating": -0.6,
-    "confidence": 52,
-    "rank": 46,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 4,
-    "rating": -0.5,
-    "confidence": 68,
-    "rank": 45,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 5,
-    "rating": -0.7,
-    "confidence": 69,
-    "rank": 52,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 6,
-    "rating": -0.6,
-    "confidence": 70,
-    "rank": 52,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.5
-   },
-   {
-    "week": 7,
-    "rating": 0,
-    "confidence": 77,
-    "rank": 37,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 8,
-    "rating": -0.2,
-    "confidence": 77,
-    "rank": 47,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 9,
-    "rating": -0.1,
-    "confidence": 77,
-    "rank": 43,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
-    "name": "Katherine Maruyama",
-    "n": 6,
-    "synergy": 0.2
-   },
-   {
-    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
-    "name": "Tera Baccile",
-    "n": 4,
-    "synergy": 0
-   },
-   {
-    "pid": "23d1d322-f31d-46b3-bf95-d86faab58b06",
-    "name": "Robert Block",
-    "n": 3,
-    "synergy": -0.8
    }
   ]
  },
@@ -55243,6 +61408,15 @@
     "ratingGames": 48,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -1
+   },
+   {
+    "week": 10,
+    "rating": -4.7,
+    "confidence": 87,
+    "rank": 86,
+    "ratingGames": 48,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": [
@@ -55250,13 +61424,13 @@
     "pid": "f5d084ba-6230-41b2-99f9-f014c072276a",
     "name": "Jennifer Land",
     "n": 8,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
     "name": "Sandro Stefanelli",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.2
    },
    {
     "pid": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
