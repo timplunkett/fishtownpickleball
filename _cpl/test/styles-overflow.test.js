@@ -106,10 +106,8 @@ test('only a wrapper that fits gives its header a sticky offset', () => {
     const offset = /top:\s*([^;]+);/.exec(body);
     const where = selector.replace(/\s+/g, ' ');
     assert.ok(offset, `${where} sets no top`);
-    // Both bars, in one calc: the strip is above every section, the heading
-    // above this one.
+    // The strip is the only sticky bar above it now.
     assert.match(offset[1], /--toc-height/, `${where} must clear the contents strip`);
-    assert.match(offset[1], /--section-head-height/, `${where} must clear the section heading`);
   });
 
   // A still-scrolling wrapper's header stays in flow. Nothing may give it a top:
@@ -209,13 +207,60 @@ test('the grid paints its column header band above its row header band', () => {
 
 // The stylesheet can only offset a sticky header correctly if it knows how tall
 // the bars above it are, and both numbers come from app.js at runtime.
-test('the sticky offsets are driven by the measured custom properties', () => {
-  ['--toc-height', '--section-head-height'].forEach((prop) => {
-    assert.match(css, new RegExp(`${prop}:\\s*0px`), `${prop} has no :root fallback`);
-    assert.ok(css.includes(`var(${prop})`), `${prop} is defined but never used`);
-  });
+test('the sticky offset is driven by the measured custom property', () => {
+  assert.match(css, /--toc-height:\s*0px/, '--toc-height has no :root fallback');
+  assert.ok(css.includes('var(--toc-height)'), '--toc-height is defined but never used');
   const app = fs.readFileSync(path.join(__dirname, '../../cpl/app.js'), 'utf8');
-  ['--toc-height', '--section-head-height'].forEach((prop) => {
-    assert.ok(app.includes(`'${prop}'`), `${prop} is never set by app.js`);
+  assert.ok(app.includes("'--toc-height'"), '--toc-height is never set by app.js');
+  // The heading is not a sticky bar any more, so nothing should be measuring it.
+  assert.ok(!css.includes('--section-head-height'), 'the stylesheet still allows for a sticky heading');
+  assert.ok(!app.includes('--section-head-height'), 'app.js still measures a sticky heading');
+});
+
+// The strip took three wrapped rows on a phone before any content did.
+test('the strip is one scrollable row on a narrow screen', () => {
+  const [narrow] = rules().filter(([selector, body]) => (
+    selector.trim() === '.section-toc' && /flex-wrap:\s*nowrap/.test(body)
+  ));
+  assert.ok(narrow, 'the strip still wraps on a phone');
+  assert.match(narrow[1], /overflow-x:\s*auto/, 'a single row has to scroll to stay reachable');
+});
+
+// Every rule on a contents-strip chip is one class on the same element, so they
+// all tie on specificity and source order alone decides. A state rule written
+// below hover wins the properties the two share and leaves the ones they don't:
+// the current chip once took hover's accent fill while keeping its own accent
+// text, which is accent on accent. Only visible with a pointer, so worth pinning.
+test('the contents strip resolves hover after its state rules', () => {
+  const at = (selector) => {
+    const index = code.indexOf(selector);
+    assert.notEqual(index, -1, `${selector} went missing`);
+    return index;
+  };
+  const hover = at('.section-toc a:hover');
+  assert.ok(hover > at('.section-toc a.toc-current'), 'hover loses to .toc-current on source order');
+  assert.ok(hover > at('.section-toc a.toc-collapsed'), 'hover loses to .toc-collapsed on source order');
+
+  // And hover has to set the pair together: a colour without a background, or
+  // the reverse, is how the two ended up fighting in the first place.
+  const [hoverRule] = rules().filter(([selector]) => selector.includes('.section-toc a:hover'));
+  assert.ok(hoverRule, 'no hover rule for the chips');
+  assert.match(hoverRule[1], /color:\s*var\(--bg\)/);
+  assert.match(hoverRule[1], /background:\s*var\(--accent\)/);
+});
+
+// The heading is ordinary content again; only the strip may stick.
+test('nothing sticks to the viewport but the contents strip', () => {
+  const stuck = rules().filter(([selector, body]) => {
+    if (!/position:\s*sticky/.test(body)) return false;
+    const trimmed = selector.trim();
+    return trimmed !== '.section-toc'
+      && !/thead th/.test(trimmed)
+      && !/th\.row/.test(trimmed);
   });
+  assert.deepEqual(
+    stuck.map(([selector]) => selector.replace(/\s+/g, ' ')),
+    [],
+    'something other than the strip and the table headers is sticking',
+  );
 });

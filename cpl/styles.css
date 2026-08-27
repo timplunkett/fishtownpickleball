@@ -21,11 +21,6 @@
      scrolls to, has to clear it — and it wraps to two rows on a narrow screen,
      so the number can't be a constant here. 0 until the strip exists. */
   --toc-height: 0px;
-  /* Height of one section's sticky heading, set per section by app.js so the
-     column headers inside it stack below rather than behind it. Headings wrap
-     at different widths and hold different numbers of tags, so every section
-     gets its own value. */
-  --section-head-height: 0px;
 }
 
 * {
@@ -130,10 +125,11 @@ h2 {
   border-radius: 999px;
 }
 
-.section-toc a:hover,
-.section-toc a:focus-visible {
-  color: var(--bg);
-  background: var(--accent);
+/* The section you are currently reading. An accent outline rather than the
+   filled hover state, so the two stay distinguishable. This is what the sticky
+   heading used to say, said in a bar that costs one row instead of four. */
+.section-toc a.toc-current {
+  color: var(--accent);
   border-color: var(--accent);
 }
 
@@ -142,6 +138,22 @@ h2 {
   color: var(--mut);
   background: none;
   border-style: dashed;
+}
+
+/* Hover and focus come last, after the two state rules, and this order is the
+   whole point: every one of these is a single class on the same element, so they
+   tie on specificity and source order decides. With hover written first, a state
+   rule below it won the properties they share and left the ones they didn't —
+   the current chip took an accent fill from hover and kept its accent text,
+   which is accent on accent, and a collapsed chip cancelled hover's fill and
+   barely responded at all. Interaction last means hovering anything looks like
+   hovering. A collapsed chip keeps its dashed border through it, which no rule
+   here contradicts. */
+.section-toc a:hover,
+.section-toc a:focus-visible {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .section-toc .toc-bulk,
@@ -178,6 +190,30 @@ h2 {
   outline-offset: 2px;
 }
 
+/* On a phone the strip wrapped to three rows and took a fifth of the screen
+   before any content did. One row that scrolls sideways instead, with app.js
+   keeping the current section's chip in view. */
+@media (max-width: 560px) {
+  .section-toc {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .section-toc::-webkit-scrollbar {
+    display: none;
+  }
+
+  .section-toc > * {
+    flex: none;
+  }
+
+  /* Nothing to push it against in a scrolling row; it rides at the end. */
+  .section-toc .toc-bulk {
+    margin-left: 0;
+  }
+}
+
 /* Clear of the sticky contents strip when a fragment link scrolls one into view. */
 .msec {
   scroll-margin-top: calc(var(--toc-height) + 10px);
@@ -190,22 +226,6 @@ h2 {
 /* A team page has no contents strip, so its blocks only need breathing room. */
 #teamview .wk-block {
   scroll-margin-top: 16px;
-}
-
-/* Each section's heading sticks below the contents strip, so the section you are
-   reading names itself the whole way down. Its sticky range is its own section,
-   so it hands over to the next heading rather than piling up. The bottom margin
-   becomes padding: a margin on a stuck element leaves a gap for content to show
-   through underneath it. */
-.msec > h2 {
-  position: sticky;
-  top: var(--toc-height);
-  /* Over the column headers below it (1–4), under the contents strip (10). */
-  z-index: 6;
-  margin-bottom: 0;
-  padding: 3px 0 11px;
-  background: rgb(14 17 22 / 90%);
-  backdrop-filter: blur(8px);
 }
 
 /* The heading text itself is the collapse control, so it has to keep looking
@@ -245,9 +265,9 @@ h2 {
   border-radius: 4px;
 }
 
-/* Nothing below it to leave room for. */
+/* A collapsed section is only its heading, so it sits closer to its neighbours. */
 .msec.collapsed > h2 {
-  padding-bottom: 3px;
+  margin-bottom: 0;
 }
 
 /* Says which of a dozen identical match blocks a deep link landed on. */
@@ -380,7 +400,7 @@ footer {
 .scroll.scroll-fits thead th,
 .grid-wrap.scroll-fits thead th {
   position: sticky;
-  top: calc(var(--toc-height) + var(--section-head-height));
+  top: var(--toc-height);
 }
 
 /* A wrapper still scrolling keeps its header in flow — sticky inside a box that

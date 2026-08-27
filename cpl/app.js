@@ -631,6 +631,7 @@ function renderSectionToc() {
     `${links}` +
     `<button type="button" class="toc-bulk" data-bulk="${bulkAction}">${bulkLabel}</button>`;
   elements.sectionToc.hidden = false;
+  updateCurrentSection();
 }
 
 // Back to the header, and to a URL with no fragment left in it — otherwise a
@@ -660,33 +661,55 @@ function syncStickyOffset() {
     : 0;
   stickyOffsets.toc = height;
   document.documentElement.style.setProperty('--toc-height', `${height}px`);
-
-  // Each section's own heading height, so the column headers inside it stack
-  // below it rather than behind it. Set on the section, which is where the
-  // custom property has to live to be inherited by the table.
-  getSections().forEach((section) => {
-    const heading = section.querySelector('h2');
-    const headHeight = heading && !section.hidden && !isSectionCollapsed(section)
-      ? Math.round(heading.getBoundingClientRect().height)
-      : 0;
-    section.style.setProperty('--section-head-height', `${headHeight}px`);
-  });
 }
 
-// How far down the viewport the sticky bars reach above a given element: the
-// contents strip everywhere, plus the heading of the section it is in.
-//
-// Read off the heading's own rendered bottom rather than added up from the two
-// measured heights. It is exact, so there is no pair of rounded numbers to leave
-// a hairline of scrolling content showing between the heading and whatever sits
-// under it; and it stays right at the end of a section, where the heading
-// unsticks and rides up out of the way — anything anchored to it follows,
-// instead of hanging where the heading used to be.
-function stickyCeilingFor(element) {
-  const section = element.closest('section.msec');
-  const heading = section ? section.querySelector('h2') : null;
-  if (!heading) return stickyOffsets.toc;
-  return Math.max(stickyOffsets.toc, Math.round(heading.getBoundingClientRect().bottom));
+// How far down the viewport the sticky layer reaches. The contents strip is all
+// of it: section headings used to stick below it too, and on a phone that cost
+// four wrapped lines of heading before any content — a fifth of the screen, to
+// say something the strip can say by highlighting one chip.
+function stickyCeiling() {
+  return stickyOffsets.toc;
+}
+
+// Which section the reader is in: the last one whose top has passed under the
+// strip. Marked in the contents strip, which is now the only thing that says so.
+function updateCurrentSection() {
+  const sections = getSections().filter((section) => !section.hidden);
+  if (!sections.length) return;
+  const ceiling = stickyCeiling() + 8;
+  let current = sections[0];
+  sections.forEach((section) => {
+    if (section.getBoundingClientRect().top <= ceiling) current = section;
+  });
+
+  let currentLink = null;
+  elements.sectionToc.querySelectorAll('a[href^="#"]').forEach((link) => {
+    const on = link.getAttribute('href') === `#${current.id}`;
+    link.classList.toggle('toc-current', on);
+    if (on) {
+      link.setAttribute('aria-current', 'true');
+      currentLink = link;
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+  keepChipInView(currentLink);
+}
+
+// On a phone the strip is one row that scrolls sideways, so the chip it is
+// marking can be off the end of it. Nudged into view by scrolling the strip
+// itself — never scrollIntoView, which would drag the page as well.
+function keepChipInView(link) {
+  if (!link) return;
+  const strip = elements.sectionToc;
+  if (strip.scrollWidth <= strip.clientWidth + 1) return;
+  const stripBox = strip.getBoundingClientRect();
+  const linkBox = link.getBoundingClientRect();
+  if (linkBox.left < stripBox.left + 8) {
+    strip.scrollLeft -= (stripBox.left + 8) - linkBox.left;
+  } else if (linkBox.right > stripBox.right - 8) {
+    strip.scrollLeft += linkBox.right - (stripBox.right - 8);
+  }
 }
 
 // A table only needs a horizontal scroll container when it is actually wider
@@ -734,7 +757,7 @@ function syncScrollWrappers() {
 // too wide to fit keeps its header in flow, as it always did.
 const mirroredHeaders = [];
 let mirrorHost = null;
-let mirrorFrame = 0;
+let scrollFrame = 0;
 
 function getMirrorHost() {
   if (!mirrorHost) {
@@ -747,7 +770,7 @@ function getMirrorHost() {
 
 function clearMirroredHeaders() {
   mirroredHeaders.forEach((mirror) => {
-    mirror.wrapper.removeEventListener('scroll', scheduleMirrorPlacement);
+    mirror.wrapper.removeEventListener('scroll', onScrollFrame);
     mirror.box.remove();
   });
   mirroredHeaders.length = 0;
@@ -819,7 +842,7 @@ function buildMirroredHeader({ wrapper, table }) {
 
   const mirror = { wrapper, table, sourceRow, box, mirrorTable, row, syncing: false };
   box.addEventListener('click', (event) => forwardMirrorClick(mirror, event));
-  wrapper.addEventListener('scroll', scheduleMirrorPlacement, { passive: true });
+  wrapper.addEventListener('scroll', onScrollFrame, { passive: true });
   // The mirror scrolls the table, not just the other way round. Without this the
   // only handle on a table's horizontal scroll is the scrollbar at the very
   // bottom of it — a thousand pixels below the columns you are trying to reach —
@@ -916,7 +939,7 @@ function placeMirroredHeaders() {
   mirroredHeaders.forEach((mirror) => {
     const { wrapper, table, box } = mirror;
     const rect = table.getBoundingClientRect();
-    const ceiling = stickyCeilingFor(wrapper);
+    const ceiling = stickyCeiling();
     const headHeight = mirror.headHeight || 0;
     const show = rect.top < ceiling && rect.bottom > ceiling + headHeight;
     box.hidden = !show;
@@ -928,10 +951,14 @@ function placeMirroredHeaders() {
   });
 }
 
-function scheduleMirrorPlacement() {
-  if (!mirroredHeaders.length || mirrorFrame) return;
-  mirrorFrame = window.requestAnimationFrame(() => {
-    mirrorFrame = 0;
+// Everything that has to answer to a scroll, in one frame: which section the
+// strip should be marking, and where the mirrored headers sit. Coalesced,
+// because a scroll fires far faster than a frame.
+function onScrollFrame() {
+  if (scrollFrame) return;
+  scrollFrame = window.requestAnimationFrame(() => {
+    scrollFrame = 0;
+    updateCurrentSection();
     placeMirroredHeaders();
   });
 }
@@ -3463,7 +3490,7 @@ function initialize() {
   // this listener is not a ResizeObserver fallback — it is needed either way.
   window.addEventListener('resize', refreshStickyLayout);
   // A mirrored header is fixed, so nothing moves it but this.
-  window.addEventListener('scroll', scheduleMirrorPlacement, { passive: true });
+  window.addEventListener('scroll', onScrollFrame, { passive: true });
 
   // The Team filter and search box also drive the Top Duos table; gender and
   // min-games apply to the player table only (they don't affect pairs).

@@ -174,6 +174,9 @@ function makeToggle(id, attribute, views) {
 // and the body div app.js reads back off it.
 function makeSection(id) {
   const section = makeElement(id, 'SECTION');
+  // Where the section sits in the viewport; a test moves it to scroll the page.
+  section.rect = { width: 900, height: 600, top: 1000, left: 0, right: 900, bottom: 1600 };
+  section.getBoundingClientRect = () => section.rect;
   const toggle = makeElement(`${id}-toggle`, 'BUTTON');
   const name = makeElement(`${id}-name`, 'SPAN');
   name.textContent = id.replace(/-/g, ' ');
@@ -320,6 +323,25 @@ function runApp({
   };
   elements.set('division-select', divisionSelect);
 
+  const sectionToc = makeElement('section-toc', 'NAV');
+  // The chips app.js writes into the strip. Rebuilt from its innerHTML, because
+  // that is what renderSectionToc actually produces.
+  sectionToc.querySelectorAll = (selector) => {
+    if (selector !== 'a[href^="#"]') return [];
+    return [...sectionToc.innerHTML.matchAll(/href="#([^"]+)"/g)].map(([, id]) => {
+      if (!sectionToc.chips) sectionToc.chips = new Map();
+      if (!sectionToc.chips.has(id)) {
+        const chip = makeElement(`chip-${id}`, 'A');
+        // setAttribute so the default getAttribute answers for href and for
+        // anything else app.js sets on it, such as aria-current.
+        chip.setAttribute('href', `#${id}`);
+        sectionToc.chips.set(id, chip);
+      }
+      return sectionToc.chips.get(id);
+    });
+  };
+  elements.set('section-toc', sectionToc);
+
   const document = {
     getElementById(id) {
       if (toggles[id]) return toggles[id];
@@ -402,6 +424,7 @@ function runApp({
     inject: (id, element) => elements.set(id, element),
     navigated,
     scrolled,
+    chip: (id) => (sectionToc.chips ? sectionToc.chips.get(id) : undefined),
     // The mirrored headers app.js has appended to its host, in document order.
     mirrors: () => {
       const host = document.body.children.find((child) => child.className === 'float-heads');
@@ -739,27 +762,15 @@ test('a wrapper is re-measured when its content changes width', () => {
   assert.equal(fits.classList.contains('scroll-fits'), true, 'a wrapper kept scrolling after it stopped needing to');
 });
 
-test('the strip and each section heading publish their heights', () => {
+test('the strip publishes its height, and it is the whole sticky layer', () => {
   const app = runApp();
   assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '300px');
+  // Section headings do not stick any more, so nothing measures them: on a phone
+  // a wrapped heading cost four lines to say what one highlighted chip says.
   app.sections.forEach((section) => {
-    assert.equal(
-      section.style.getPropertyValue('--section-head-height'),
-      '44px',
-      `${section.id} did not publish its heading height`,
-    );
+    assert.equal(section.style.getPropertyValue('--section-head-height'), '');
   });
-});
-
-test('a collapsed or hidden section publishes no heading height', () => {
-  const app = runApp({ prefs: { collapsed: ['top-duos'] } });
-  const duos = app.sections.find((section) => section.id === 'top-duos');
-  // Nothing below a collapsed heading, so nothing has to stack under it.
-  assert.equal(duos.style.getPropertyValue('--section-head-height'), '0px');
-
-  app.sections[1].hidden = true;
-  app.context.refreshStickyLayout();
-  assert.equal(app.sections[1].style.getPropertyValue('--section-head-height'), '0px');
+  assert.equal(app.context.stickyCeiling(), 300);
 });
 
 test('a team page publishes no strip height', () => {
@@ -930,18 +941,12 @@ test('the mirror takes no height of its own', () => {
   assert.equal(box.style.height, undefined, 'the box was given a fixed height again');
 });
 
-test('the mirror hangs off the section heading, not off a sum of heights', () => {
+test('the mirror hangs off the strip, which is the only bar above it', () => {
   const app = runApp();
   const wrapper = app.wrappers.find((w) => w.id === 'wrap-overflows');
-  const [section] = app.sections;
-  wrapper.closest = (selector) => (selector === 'section.msec' ? section : null);
-  // Where the sticky heading actually ends. Adding the strip height to the
-  // heading height instead leaves two rounded numbers to disagree with it, and a
-  // hairline of scrolling content shows through the join.
-  section.heading.rect = { ...section.heading.rect, bottom: 344.6 };
   wrapper.table.rect = { ...wrapper.table.rect, top: 100, bottom: 900 };
   app.context.placeMirroredHeaders();
-  assert.equal(app.mirrors()[0].style.top, '345px');
+  assert.equal(app.mirrors()[0].style.top, '300px');
 });
 
 test('the mirror tracks the wrapper sideways', () => {
@@ -987,6 +992,75 @@ test('a wrapper that stops overflowing loses its mirror', () => {
   // The grid's two survive; the table that now fits goes back to a real sticky
   // header.
   assert.equal(app.mirrors().length, 2, 'a table that now fits kept a floating header');
+});
+
+// --- Which section you are in ----------------------------------------------
+//
+// The strip says it now, because the section headings no longer stick. On a
+// phone a wrapped heading cost four lines to say what one marked chip says.
+
+test('the strip marks the section whose top has passed under it', () => {
+  const app = runApp();
+  const [standings, h2h, duos] = app.sections;
+  const marked = () => app.sections
+    .map((section) => section.id)
+    .filter((id) => app.chip(id) && app.chip(id).classList.contains('toc-current'));
+
+  // At the top of the page: everything below the strip, so the first section.
+  standings.rect = { ...standings.rect, top: 400, bottom: 1000 };
+  h2h.rect = { ...h2h.rect, top: 1000, bottom: 1600 };
+  duos.rect = { ...duos.rect, top: 1600, bottom: 2200 };
+  app.context.updateCurrentSection();
+  assert.deepEqual(marked(), ['team-standings']);
+
+  // Scrolled until Head-to-Head is under the strip but Top Duos is not.
+  standings.rect = { ...standings.rect, top: -600, bottom: 0 };
+  h2h.rect = { ...h2h.rect, top: 100, bottom: 700 };
+  duos.rect = { ...duos.rect, top: 700, bottom: 1300 };
+  app.context.updateCurrentSection();
+  assert.deepEqual(marked(), ['head-to-head'], 'exactly one section is current');
+});
+
+test('the current chip is flagged for assistive tech too', () => {
+  const app = runApp();
+  app.sections[0].rect = { ...app.sections[0].rect, top: 100, bottom: 700 };
+  app.context.updateCurrentSection();
+  assert.equal(app.chip('team-standings').getAttribute('aria-current'), 'true');
+  assert.equal(app.chip('top-duos').getAttribute('aria-current'), null);
+});
+
+test('a hidden section is never the one you are in', () => {
+  const app = runApp();
+  const [standings, h2h] = app.sections;
+  h2h.hidden = true; // as renderPlayoffs leaves a division with no bracket
+  standings.rect = { ...standings.rect, top: -600, bottom: 0 };
+  h2h.rect = { ...h2h.rect, top: 100, bottom: 700 };
+  app.context.updateCurrentSection();
+  assert.equal(app.chip('head-to-head').classList.contains('toc-current'), false);
+});
+
+test('a chip off the end of a scrolling strip is brought into view', () => {
+  const app = runApp();
+  const strip = app.el('section-toc');
+  // A phone's strip: one row, wider than the screen.
+  Object.defineProperty(strip, 'clientWidth', { get: () => 360, configurable: true });
+  Object.defineProperty(strip, 'scrollWidth', { get: () => 900, configurable: true });
+  strip.getBoundingClientRect = () => ({ left: 0, right: 360, top: 0, bottom: 40, width: 360, height: 40 });
+
+  const chip = app.chip('top-duos') || (app.context.updateCurrentSection(), app.chip('top-duos'));
+  chip.getBoundingClientRect = () => ({ left: 500, right: 620, top: 0, bottom: 30, width: 120, height: 30 });
+  app.sections[2].rect = { ...app.sections[2].rect, top: 100, bottom: 700 };
+  app.sections[0].rect = { ...app.sections[0].rect, top: -900, bottom: -600 };
+  app.sections[1].rect = { ...app.sections[1].rect, top: -600, bottom: 0 };
+
+  strip.scrollLeft = 0;
+  // initialize() already scrolled the page once, so count from here.
+  const pageScrolls = app.scrolled.length;
+  app.context.updateCurrentSection();
+  // Scrolled far enough to bring its right edge inside, and no further — never
+  // scrollIntoView, which would drag the page with it.
+  assert.equal(strip.scrollLeft, 620 - (360 - 8));
+  assert.equal(app.scrolled.length, pageScrolls, 'the page itself must not move');
 });
 
 // --- Back to top -----------------------------------------------------------
