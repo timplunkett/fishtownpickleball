@@ -525,7 +525,9 @@ select:focus {
   display: block;
 }
 
-/* Cards / Table switch, parked at the end of the "Team Standings" heading. */
+/* Table / Cards switch, parked at the end of the "Team Standings" heading. The
+   default sits on the left in both switches here, so the one that is on when you
+   arrive is the one you read first. */
 .viewtoggle {
   display: flex;
   flex: none;

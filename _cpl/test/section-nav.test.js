@@ -528,28 +528,28 @@ test('a cell standing for two meetings carries no fragment', () => {
 
 // --- Remembered preferences ------------------------------------------------
 
-test('with no stored preference the page opens on cards and the by-week grid', () => {
+test('with no stored preference the page opens on the table and the by-week grid', () => {
   const app = runApp();
-  assert.ok(app.el('teams').innerHTML.includes('class="tcard"'), 'not the card view');
+  assert.ok(app.el('teams').innerHTML.includes('class="trow"'), 'not the table view');
   assert.ok(app.el('grid-host').innerHTML.includes('class="gweeks"'), 'not the by-week grid');
 });
 
 test('a stored view preference is applied on load', () => {
-  const app = runApp({ prefs: { standingsView: 'table', gridView: 'matrix' } });
-  assert.ok(app.el('teams').innerHTML.includes('class="trow"'), 'standings table not restored');
+  const app = runApp({ prefs: { standingsView: 'cards', gridView: 'matrix' } });
+  assert.ok(app.el('teams').innerHTML.includes('class="tcard"'), 'standings cards not restored');
   assert.ok(app.el('grid-host').innerHTML.includes('class="gmatrix"'), 'matrix not restored');
 });
 
 test('choosing a view stores it', () => {
   const app = runApp();
-  app.setStandingsView('table');
+  app.setStandingsView('cards');
   app.setGridView('matrix');
-  assert.deepEqual(app.storedPrefs(), { standingsView: 'table', gridView: 'matrix' });
+  assert.deepEqual(app.storedPrefs(), { standingsView: 'cards', gridView: 'matrix' });
 });
 
 test('a junk stored value falls back to the defaults rather than throwing', () => {
   const app = runApp({ prefs: { standingsView: 'sideways', gridView: 42, collapsed: 'nope' } });
-  assert.ok(app.el('teams').innerHTML.includes('class="tcard"'));
+  assert.ok(app.el('teams').innerHTML.includes('class="trow"'));
   assert.ok(app.el('grid-host').innerHTML.includes('class="gweeks"'));
   assert.equal(app.sections.every((section) => section.body.hidden === false), true);
 });
@@ -559,9 +559,9 @@ test('a page with no usable localStorage still renders', () => {
   // Object.keys rather than deepEqual: the object comes from the vm realm, so it
   // is structurally empty but not the same {} this file would build.
   assert.equal(Object.keys(app.context.readPrefs()).length, 0);
-  app.context.writePrefs({ standingsView: 'table' }); // must not throw
+  app.context.writePrefs({ standingsView: 'cards' }); // must not throw
   // And the page itself came up on the defaults rather than blank.
-  assert.ok(app.el('teams').innerHTML.includes('class="tcard"'));
+  assert.ok(app.el('teams').innerHTML.includes('class="trow"'));
   assert.ok(app.el('grid-host').innerHTML.includes('class="gweeks"'));
   assert.ok(app.el('section-toc').innerHTML.includes('href="#top-duos"'));
 });

@@ -316,11 +316,13 @@ let sortDirection = DEFAULT_SORT.direction;
 let rosterSortKey = 'rating';
 let rosterSortDirection = -1;
 let routeSetByApp = false;
-// 'cards' (pod-grouped) or 'table' (one division-wide ranking). Cards are the
-// league's own framing and stay the default, but the choice is remembered: a
-// reader who prefers the flat ranking prefers it on the next division too, and
+// 'table' (one division-wide ranking) or 'cards' (pod-grouped). The table is the
+// default: it answers "where does everyone stand" in one glance and one screen,
+// where the cards make you scroll past a pod to compare across pods. Cards are
+// still the league's own framing and stay a click away. Either way the choice is
+// remembered: a reader who prefers one prefers it on the next division too, and
 // re-picking it on every page was the friction that outweighed the clean start.
-let standingsView = prefs.standingsView === 'table' ? 'table' : 'cards';
+let standingsView = prefs.standingsView === 'cards' ? 'cards' : 'table';
 
 function getRequiredElement(id) {
   const element = document.getElementById(id);
