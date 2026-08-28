@@ -1021,6 +1021,25 @@ test('the strip marks the section whose top has passed under it', () => {
   assert.deepEqual(marked(), ['head-to-head'], 'exactly one section is current');
 });
 
+// Clicking a chip parks its section at scroll-margin-top below the strip, i.e.
+// --toc-height + --section-scroll-gap. If the spy's ceiling stops at the strip,
+// the section you just jumped to is a few pixels short of "reached" and the chip
+// you clicked stays unmarked until you nudge the page down.
+test('a section parked where its chip put it is the one you are in', () => {
+  const app = runApp();
+  const [standings, h2h, duos] = app.sections;
+  const toc = Number(app.rootStyle().getPropertyValue('--toc-height').replace('px', ''));
+  const gap = Number(app.rootStyle().getPropertyValue('--section-scroll-gap').replace('px', ''));
+  assert.ok(gap > 0, 'the scroll gap was never published to the stylesheet');
+
+  standings.rect = { ...standings.rect, top: -600, bottom: toc + gap };
+  h2h.rect = { ...h2h.rect, top: toc + gap, bottom: toc + gap + 600 };
+  duos.rect = { ...duos.rect, top: toc + gap + 600, bottom: toc + gap + 1200 };
+  app.context.updateCurrentSection();
+  assert.equal(app.chip('head-to-head').classList.contains('toc-current'), true);
+  assert.equal(app.chip('team-standings').classList.contains('toc-current'), false);
+});
+
 test('the current chip is flagged for assistive tech too', () => {
   const app = runApp();
   app.sections[0].rect = { ...app.sections[0].rect, top: 100, bottom: 700 };

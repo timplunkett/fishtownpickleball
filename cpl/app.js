@@ -656,6 +656,13 @@ function scrollToPageTop() {
 // property instead, because it is the stylesheet that needs that one.
 const stickyOffsets = { toc: 0 };
 
+// The gap a fragment link leaves between the strip and the section it lands on.
+// Published to the stylesheet, which spends it as scroll-margin, so that this
+// one number is also the one the scroll spy allows for below — see
+// updateCurrentSection. The stylesheet repeats it as a fallback for the moment
+// before this runs.
+const SECTION_SCROLL_GAP = 10;
+
 function syncStickyOffset() {
   const visible = !elements.sectionToc.hidden && !elements.mainView.hidden;
   const height = visible
@@ -663,6 +670,7 @@ function syncStickyOffset() {
     : 0;
   stickyOffsets.toc = height;
   document.documentElement.style.setProperty('--toc-height', `${height}px`);
+  document.documentElement.style.setProperty('--section-scroll-gap', `${SECTION_SCROLL_GAP}px`);
 }
 
 // How far down the viewport the sticky layer reaches. The contents strip is all
@@ -675,10 +683,18 @@ function stickyCeiling() {
 
 // Which section the reader is in: the last one whose top has passed under the
 // strip. Marked in the contents strip, which is now the only thing that says so.
+//
+// The ceiling has to reach past the scroll gap, not just the strip. Clicking a
+// chip parks that section's top SECTION_SCROLL_GAP below the strip — that is what
+// the scroll-margin is for — so a ceiling measured at the strip alone left the
+// section you had just jumped to sitting ten pixels short of being "reached", and
+// the chip stayed unmarked until the reader nudged the page down. The extra 2px
+// covers subpixel rounding between the measured strip height and where the
+// browser actually settles the scroll.
 function updateCurrentSection() {
   const sections = getSections().filter((section) => !section.hidden);
   if (!sections.length) return;
-  const ceiling = stickyCeiling() + 8;
+  const ceiling = stickyCeiling() + SECTION_SCROLL_GAP + 2;
   let current = sections[0];
   sections.forEach((section) => {
     if (section.getBoundingClientRect().top <= ceiling) current = section;

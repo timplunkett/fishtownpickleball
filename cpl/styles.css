@@ -214,13 +214,16 @@ h2 {
   }
 }
 
-/* Clear of the sticky contents strip when a fragment link scrolls one into view. */
+/* Clear of the sticky contents strip when a fragment link scrolls one into view.
+   The gap is app.js's SECTION_SCROLL_GAP, published as --section-scroll-gap so
+   that the scroll spy allows for exactly what is spent here; the literal is the
+   fallback for the moment before the script has measured anything. */
 .msec {
-  scroll-margin-top: calc(var(--toc-height) + 10px);
+  scroll-margin-top: calc(var(--toc-height) + var(--section-scroll-gap, 10px));
 }
 
 .msec .wk-block {
-  scroll-margin-top: calc(var(--toc-height) + 12px);
+  scroll-margin-top: calc(var(--toc-height) + var(--section-scroll-gap, 10px) + 2px);
 }
 
 /* A team page has no contents strip, so its blocks only need breathing room. */
