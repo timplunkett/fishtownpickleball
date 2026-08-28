@@ -193,11 +193,15 @@ DIVISIONS.forEach(({ label, file }) => {
     const weeks = app.gridHost.innerHTML;
     assert.ok(weeks.includes('class="gweeks"'), `${label}: no by-week table`);
     assert.ok(weeks.includes('grid-key'), `${label}: no abbreviation key`);
+    // One table for the division: the by-week columns are the weeks, which every
+    // pod shares, so there is nothing for the pod split to make narrower and a
+    // week can be read down the whole division.
     assert.equal(
       (weeks.match(/<table class="gweeks">/g) || []).length,
-      sizes.length,
-      `${label}: one by-week table per section`,
+      1,
+      `${label}: by week is one table for the division`,
     );
+    assert.ok(!weeks.includes('grid-pod-section'), `${label}: by week is still split by pod`);
 
     assertKeyOutsideScroller(weeks, `${label}: by-week`);
 
@@ -205,6 +209,13 @@ DIVISIONS.forEach(({ label, file }) => {
     const matrix = app.gridHost.innerHTML;
     assert.ok(matrix.includes('class="gmatrix"'), `${label}: no matrix table`);
     assert.ok(matrix.includes('grid-key'), `${label}: matrix needs the key too`);
+    // The matrix keeps the split — its columns are the opponents, and
+    // division-wide most of those cells are pairs who never meet.
+    assert.equal(
+      (matrix.match(/<table class="gmatrix">/g) || []).length,
+      sizes.length,
+      `${label}: one matrix per pod`,
+    );
     assertKeyOutsideScroller(matrix, `${label}: matrix`);
 
     // No row header spells a team out: that is what set the first column's width.

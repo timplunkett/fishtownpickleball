@@ -2984,6 +2984,12 @@ function handlePartnerChipClick(event) {
 
 // Every grid rendered on this page, in the order the sections appear. One entry
 // per pod, or a single entry for the whole division when it has no pods.
+//
+// Only the matrix needs this. Its columns are the opponents, so a division-wide
+// matrix would be mostly hatching for pairs that never meet — splitting it per
+// pod is what keeps it readable. The by-week grid's columns are the weeks, the
+// same set for every pod, so splitting it only repeats one header row and stops
+// the reader comparing a week across the division; see renderResultsGrid.
 function gridSections() {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
   if (podCount <= 1) {
@@ -3260,11 +3266,18 @@ function renderResultsGrid() {
 
   const matrixCap = `<div class="grid-cap">Read across a row: how that team fared against each opponent — <b>week</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost; each entry is colored individually when teams split their two meetings. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks that team's next scheduled matchup. Blank = not yet played; hatched = not scheduled to meet. Cells stack both meetings once teams play home and away.</div>`;
 
-  const weeksCap = `<div class="grid-cap">Read across a row: that team's season week by week — <b>opponent</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks a scheduled matchup. Blank = no match that week. Opponents are shown by the code in the key below each grid; a cell holds two entries where a pod plays twice in one week. Read down a column to see how the whole pod fared that week. Click a cell for that opponent's page, or a team name for its own.</div>`;
+  const weeksCap = `<div class="grid-cap">Read across a row: that team's season week by week — <b>opponent</b>, <b>game wins–losses</b>, and <b>net point differential</b>. Green = won the match, red = lost. Matches are decided by games won, so a team can win the match yet be negative on points. A grey <b>NEXT</b> box marks a scheduled matchup. Blank = no match that week. Opponents are shown by the code in the key below the grid; a cell holds two entries where a pod plays twice in one week. Rows are in standings order, and reading down a column shows how the whole division fared that week. Click a cell for that opponent's page, or a team name for its own.</div>`;
 
   const renderForTeams = gridView === 'weeks' ? renderWeeksForTeams : renderMatrixForTeams;
   const cap = gridView === 'weeks' ? weeksCap : matrixCap;
-  const sections = gridSections();
+  // By week is one table for the division: its columns are the weeks, which every
+  // pod shares, so reading down a column across the whole division is something
+  // the pod split took away for nothing. The matrix keeps the split — its columns
+  // are the opponents, and division-wide that is mostly cells for pairs who never
+  // meet. Row order is the standings order either way.
+  const sections = gridView === 'weeks'
+    ? [{ heading: '', teams: allTeams }]
+    : gridSections();
 
   if (sections.length === 1 && !sections[0].heading) {
     elements.gridHost.innerHTML = `${renderForTeams(sections[0].teams)}${cap}`;
