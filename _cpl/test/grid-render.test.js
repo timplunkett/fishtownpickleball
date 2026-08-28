@@ -281,13 +281,13 @@ test('the 21-team section is far narrower by week than as a matrix', () => {
   );
 });
 
-test('by-week cells link to the opponent and row headers to the team', () => {
+test('by-week cells link to the row team at that match, not the opponent', () => {
   const app = runApp(WIDEST.file);
   app.setView('weeks');
   const html = app.gridHost.innerHTML;
 
   // Montville Rocks beat Montville Dragons in week 1: the row is Rocks, and that
-  // cell should route to Dragons.
+  // cell should route to Rocks' own page, at that match's block.
   const rocksRow = rowsOf(html).find((row) => row.includes('title="Montville Rocks"'));
   assert.ok(rocksRow, 'expected a Montville Rocks row');
   assert.ok(
@@ -296,7 +296,9 @@ test('by-week cells link to the opponent and row headers to the team', () => {
   );
   assert.match(rocksRow, /<span class="abbr">M·Rocks<\/span>/);
   const firstCell = rocksRow.slice(rocksRow.indexOf('<td'));
-  assert.match(firstCell, /data-team="montville-dragons"/);
+  assert.match(firstCell, /data-team="montville-rocks"/);
+  assert.ok(!firstCell.includes('data-team="montville-dragons"'), 'should not open the opponent');
+  assert.match(firstCell, /data-fragment="match-w\d+-[a-z0-9-]*montville-(rocks|dragons)[a-z0-9-]*"/);
   assert.match(firstCell, /class="wk opp" title="Montville Dragons">DRAG</);
   assert.match(firstCell, /<div class="res">W<\/div>/);
 
@@ -366,8 +368,8 @@ test('an opponent with no row of its own is still abbreviated', () => {
   assert.ok(code.length <= 8 && code !== stray, `expected a short code, got "${code}"`);
   assert.match(html, new RegExp(`class="wk opp" title="${stray}">${code}<`));
 
-  // No row, and no link either: there is no team page to open, so the cell must
-  // not carry `played` and look clickable.
+  // No row and no link to it: there is no team page for the stray to open. The
+  // cells naming it still open the row's own team, which does have one.
   assert.ok(!html.includes('data-team="pickleball-kingdom-hillsborough"'), 'should not link');
   assert.ok(
     !rowsOf(html).some((row) => row.includes(`title="${stray}"><span class="gdot"`)),
@@ -375,9 +377,11 @@ test('an opponent with no row of its own is still abbreviated', () => {
   );
   const cells = html.split('</td>').filter((cell) => cell.includes(`title="${stray}"`));
   assert.ok(cells.length > 0, 'expected cells naming it as an opponent');
-  cells.forEach((cell) => {
+  const single = cells.filter((cell) => !cell.includes('-multi'));
+  assert.ok(single.length > 0, 'expected a week where it is the only fixture');
+  single.forEach((cell) => {
     const open = cell.slice(cell.indexOf('<td'));
-    assert.ok(!open.startsWith('<td class="played'), `unclickable cell marked played: ${open.slice(0, 60)}`);
+    assert.match(open, /data-team="[a-z0-9-]+"/, `cell against the stray lost its link: ${open.slice(0, 60)}`);
   });
 });
 
@@ -389,6 +393,6 @@ test('a week holding two matches is not a link', () => {
   assert.ok(row, 'expected a Picklr Newtown row');
   const doubled = row.match(/<td class="[^"]*upcoming-multi[^"]*"[^>]*>/g) || [];
   assert.equal(doubled.length, 1, 'expected exactly one doubled week');
-  assert.ok(!doubled[0].includes('data-team='), 'a doubled cell has no single opponent to point at');
+  assert.ok(!doubled[0].includes('data-team='), 'a doubled cell has no single match to point at');
   assert.ok(!doubled[0].includes('played'), 'a doubled cell is not clickable');
 });

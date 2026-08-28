@@ -3195,13 +3195,13 @@ function renderResultsGrid() {
             }
             if (entries.length > 1) className += '-multi';
 
-            // The row already names this team, so the cell points at the
-            // opponent — one destination per cell rather than a whole row of
-            // links to the same page. Two matches in a week share a cell and
-            // have no one opponent to point at; an opponent dropped from the
-            // division has no page. Either way `played` comes off with the
-            // link, since it is what makes a cell look clickable.
-            const link = entries.length === 1 ? teamLink(entries[0].opponent, entries[0].matchId) : '';
+            // The cell opens this row's own team at this match, not the
+            // opponent: the reader is following one team across the season, and
+            // wants that team's side of the fixture. The matrix does the same
+            // with its row. Two matches in a week share a cell and have no one
+            // block to point at, and `played` comes off with the link, since it
+            // is what makes a cell look clickable.
+            const link = entries.length === 1 ? teamLink(team, entries[0].matchId) : '';
             const cellClass = link ? `played ${className}` : className;
             const inner = entries.map((entry) => weekEntryHtml(entry, team)).join('');
             return `<td class="${cellClass}" ${link}>${inner}</td>`;
