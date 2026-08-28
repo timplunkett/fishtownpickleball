@@ -29651,15 +29651,19 @@
     "firstName": "Picky",
     "lastName": "Vorabouth",
     "dupr": "JZM5YO",
-    "duprRating": null,
-    "lastSeen": "2026-08-28"
+    "duprRating": "4.178",
+    "lastSeen": "2026-08-28",
+    "duprNumericId": 5893093562,
+    "duprProvisional": false
   },
   {
     "playerId": "e97c7621-b35b-43f9-ad74-30ef1c365a59",
     "firstName": "Sharon",
     "lastName": "Mathison",
     "dupr": "16OPE0",
-    "duprRating": null,
-    "lastSeen": "2026-08-28"
+    "duprRating": "4.111",
+    "lastSeen": "2026-08-28",
+    "duprNumericId": 7433754595,
+    "duprProvisional": false
   }
 ]
