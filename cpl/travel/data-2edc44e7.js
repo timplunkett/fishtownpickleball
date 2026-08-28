@@ -2110,7 +2110,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2197,7 +2197,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2806,7 +2806,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3009,7 +3009,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3067,7 +3067,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3647,7 +3647,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3792,7 +3792,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3879,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7127,7 +7127,284 @@
    "home": "Flemington Blue",
    "away": "Stelton Sports",
    "time": "2026-08-29T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Carol Mastroianni",
+      "Tom Maley"
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roseann Catania",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sue Johnson",
+      "Art Muth"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Zijian Zeng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Susan Ackley",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Mei Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amy Johnson",
+      "Sue Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Friedman",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Lei Dong",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roseann Catania",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Mei Li",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sue Johnson",
+      "Art Muth"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Ping Yang",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Susan Ackley",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Rui Zhang",
+      "June Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Roseann Catania",
+      "Sue Johnson"
+     ],
+     "a": [
+      "Mei Li",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Art Muth",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Susan Ackley",
+      "Tom Maley"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sue Johnson",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Susan Ackley",
+      "Amy Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Jennifer Qian"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Roseann Catania",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Ann Betterton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Maley",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Zijian Zeng",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Art Muth",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Jim Peng",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Johnson",
+      "Tom Maley"
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sue Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Ping Yang",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roseann Catania",
+      "Art Muth"
+     ],
+     "a": [
+      "June Lee",
+      "Zijian Zeng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Susan Ackley",
+      "Amy Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Roseann Catania",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Rui Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Art Muth",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -7135,7 +7412,361 @@
    "home": "Pickle Place",
    "away": "Bounce Malvern Boom",
    "time": "2026-08-29T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Jamila Sefiane",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Abbott",
+      "Guy Judkowski"
+     ],
+     "a": [
+      "Christine Dugan",
+      "David Marchese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alicia Maguire",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janine Forrest",
+      "Robert Block"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Jiang Jin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Alicia Maguire",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Jamila Sefiane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jane Meng",
+      "Janet Garrity"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Linda Zhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Thomas Ross",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "David Marchese",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Robert Block"
+     ],
+     "a": [
+      "Sandro Stefanelli",
+      "Jiang Jin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Guy Judkowski"
+     ],
+     "a": [
+      "Jamila Sefiane",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janine Forrest",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Christine Dugan",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Jiang Jin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Abbott",
+      "Robert Block"
+     ],
+     "a": [
+      "Linda Zhu",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jane Meng",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Linda Zhu",
+      "Jamila Sefiane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Alicia Maguire",
+      "Emily Abbott"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Christine Dugan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Guy Judkowski",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Jiang Jin",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Chris Norton",
+      "David Marchese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Robert Block"
+     ],
+     "a": [
+      "Christine Dugan",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janine Forrest",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Linda Zhu",
+      "Jiang Jin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alicia Maguire",
+      "Guy Judkowski"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "David Marchese"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Alicia Maguire",
+      "Janet Garrity"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Jamila Sefiane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Emily Abbott",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Christine Dugan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Chris Norton",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Guy Judkowski",
+      "Robert Block"
+     ],
+     "a": [
+      "Sandro Stefanelli",
+      "David Marchese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Jamila Sefiane",
+      "Jiang Jin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alicia Maguire",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Christine Dugan",
+      "David Marchese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Abbott",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Linda Zhu",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Robert Block"
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Emily Abbott",
+      "Janet Garrity"
+     ],
+     "a": [
+      "Lindsay Duphily",
+      "Jamila Sefiane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Alicia Maguire",
+      "Jane Meng"
+     ],
+     "a": [
+      "Christine Dugan",
+      "Linda Zhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Guy Judkowski",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Jiang Jin",
+      "Hal Golden"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Thomas Ross",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Sandro Stefanelli",
+      "Chris Norton"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -7651,6 +8282,7 @@
   "Marc Pellicane": "1c13f01f-aeb7-45db-9faf-a6567d22bb81",
   "Dan Loreti": "2ce4808a-9400-42cb-a756-fa8ecdf2a1eb",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
+  "Picky Vorabouth": "38336cb3-6ff4-4187-abe5-3f0a819d0a0d",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",
   "Roseann Catania": "67b0e676-9779-4bcb-8c38-86f2c84e1d73",
   "Kristina Rhodes": "77ecd1c3-b1df-469a-83ba-d12bd56f2c6a",
@@ -7734,7 +8366,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-27";
+  DATA.meta.asOf = "2026-08-28";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
