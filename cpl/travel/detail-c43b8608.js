@@ -871,7 +871,7 @@
     "with": "Jennifer Jones",
     "vs": [
      "Nancy Culley",
-     "Gail Mackenzie"
+     "Gail Humphreys-Mackenzie"
     ],
     "f": 21,
     "a": 15,
@@ -5398,7 +5398,7 @@
     "t": "mixed",
     "with": "Andrew Pohlmann",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Julian Stamper"
     ],
     "f": 21,
@@ -5430,7 +5430,7 @@
     "t": "female",
     "with": "Jennifer Jones",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Enid Lum"
     ],
     "f": 17,
@@ -10082,8 +10082,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -10100,8 +10100,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -10116,8 +10116,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -10132,8 +10132,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -10148,8 +10148,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -10164,8 +10164,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -10878,7 +10878,7 @@
     "t": "mixed",
     "with": "Rayleen Romeo",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Julian Stamper"
     ],
     "f": 19,
@@ -10894,7 +10894,7 @@
     "t": "mixed",
     "with": "Julie Chiappa",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Julian Stamper"
     ],
     "f": 21,
@@ -11427,7 +11427,7 @@
     "with": "Rayleen Romeo",
     "vs": [
      "Nancy Culley",
-     "Gail Mackenzie"
+     "Gail Humphreys-Mackenzie"
     ],
     "f": 14,
     "a": 21,
@@ -11475,7 +11475,7 @@
     "with": "Kristie Capitanelli",
     "vs": [
      "Nancy Culley",
-     "Gail Mackenzie"
+     "Gail Humphreys-Mackenzie"
     ],
     "f": 21,
     "a": 15,
@@ -11490,7 +11490,7 @@
     "t": "female",
     "with": "Julie Chiappa",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Enid Lum"
     ],
     "f": 17,
@@ -15135,7 +15135,7 @@
     "wk": 1,
     "opp": "Dill Dinkers Lansdale",
     "t": "female",
-    "with": "Gail Mackenzie",
+    "with": "Gail Humphreys-Mackenzie",
     "vs": [
      "Jennifer Jones",
      "Rayleen Romeo"
@@ -15183,7 +15183,7 @@
     "wk": 1,
     "opp": "Dill Dinkers Lansdale",
     "t": "female",
-    "with": "Gail Mackenzie",
+    "with": "Gail Humphreys-Mackenzie",
     "vs": [
      "Jennifer Jones",
      "Kristie Capitanelli"
@@ -16279,7 +16279,7 @@
     "wk": 1,
     "opp": "Dill Dinkers Lansdale",
     "t": "female",
-    "with": "Gail Mackenzie",
+    "with": "Gail Humphreys-Mackenzie",
     "vs": [
      "Jennifer Jones",
      "Julie Chiappa"
@@ -17862,7 +17862,7 @@
     "with": "Jennifer Jones",
     "vs": [
      "Nancy Culley",
-     "Gail Mackenzie"
+     "Gail Humphreys-Mackenzie"
     ],
     "f": 14,
     "a": 21,
@@ -17877,7 +17877,7 @@
     "t": "mixed",
     "with": "Andrew Pohlmann",
     "vs": [
-     "Gail Mackenzie",
+     "Gail Humphreys-Mackenzie",
      "Julian Stamper"
     ],
     "f": 19,
@@ -19000,7 +19000,7 @@
     "wk": 1,
     "opp": "Dill Dinkers Lansdale",
     "t": "mixed",
-    "with": "Gail Mackenzie",
+    "with": "Gail Humphreys-Mackenzie",
     "vs": [
      "Rayleen Romeo",
      "Andrew Pohlmann"
@@ -19016,7 +19016,7 @@
     "wk": 1,
     "opp": "Dill Dinkers Lansdale",
     "t": "mixed",
-    "with": "Gail Mackenzie",
+    "with": "Gail Humphreys-Mackenzie",
     "vs": [
      "Julie Chiappa",
      "Andrew Pohlmann"

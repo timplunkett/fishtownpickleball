@@ -14376,7 +14376,372 @@
    ]
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "The Young Guns",
+   "away": "Drop it Like it's Hot",
+   "time": "2026-08-28T18:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Ocasio",
+      "Andre Cristobal"
+     ],
+     "a": [
+      "Erika Richards",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Pao",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Chris Fratinardo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allison Hartman",
+      "Harvey Mitchell"
+     ],
+     "a": [
+      "Kathy BernéT",
+      "Frank Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Barb Flynn",
+      "Lincoln Jensen"
+     ],
+     "a": [
+      "Ange Bradley",
+      "Matt Hancock"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Emily Ocasio",
+      "Vicki Main"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Kathy BernéT"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Pao",
+      "Barb Flynn"
+     ],
+     "a": [
+      "Erika Richards",
+      "Jenna Posner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andre Cristobal",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Chris Fratinardo",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lincoln Jensen",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Frank Fang",
+      "Kevin Basch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Pao",
+      "Andre Cristobal"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Ocasio",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Erika Richards",
+      "Chris Fratinardo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Vicki Main",
+      "Harvey Mitchell"
+     ],
+     "a": [
+      "Jenna Posner",
+      "Kevin Basch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allison Hartman",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Ange Bradley",
+      "Matt Hancock"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Pao",
+      "Allison Hartman"
+     ],
+     "a": [
+      "Kathy BernéT",
+      "Ange Bradley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vicki Main",
+      "Barb Flynn"
+     ],
+     "a": [
+      "Erika Richards",
+      "Jenna Posner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andre Cristobal",
+      "Harvey Mitchell"
+     ],
+     "a": [
+      "Chris Fratinardo",
+      "Frank Fang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lincoln Jensen",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Kevin Basch",
+      "Matt Hancock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Vicki Main",
+      "Harvey Mitchell"
+     ],
+     "a": [
+      "Jenna Posner",
+      "Frank Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Ocasio",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allison Hartman",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Kathy BernéT",
+      "Matt Hancock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Barb Flynn",
+      "Lincoln Jensen"
+     ],
+     "a": [
+      "Ange Bradley",
+      "Kevin Basch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Emily Ocasio",
+      "Jessica Pao"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Erika Richards"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Allison Hartman",
+      "Barb Flynn"
+     ],
+     "a": [
+      "Kathy BernéT",
+      "Ange Bradley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andre Cristobal",
+      "Harvey Mitchell"
+     ],
+     "a": [
+      "Chris Fratinardo",
+      "Frank Fang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Graham Heavenrich",
+      "Lincoln Jensen"
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Matt Hancock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Emily Ocasio",
+      "Andre Cristobal"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Chris Fratinardo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Pao",
+      "Lincoln Jensen"
+     ],
+     "a": [
+      "Kathy BernéT",
+      "Frank Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Vicki Main",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Erika Richards",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Barb Flynn",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Jenna Posner",
+      "Kevin Basch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Emily Ocasio",
+      "Jessica Pao"
+     ],
+     "a": [
+      "Megan Harvey",
+      "Erika Richards"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Vicki Main",
+      "Allison Hartman"
+     ],
+     "a": [
+      "Jenna Posner",
+      "Ange Bradley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andre Cristobal",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Chris Fratinardo",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Harvey Mitchell",
+      "Harrison Bohrer"
+     ],
+     "a": [
+      "Kevin Basch",
+      "Matt Hancock"
+     ]
+    }
+   ]
+  }
+ ],
  "extraPlayerIds": {
   "Brittney Lew": "57fabc8d-1a33-4757-b7f4-e3a161b65008",
   "Ryan Rosen": "97f2b250-2030-4296-be61-63cffb17043b",
@@ -14399,7 +14764,7 @@
    10
   ],
   "divisionSlug": "b07de80e",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Wednesdays",
   "detailFile": "detail-b07de80e.js",
   "clubName": "Bounce - Malvern",
@@ -14411,7 +14776,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-27";
+  DATA.meta.asOf = "2026-08-28";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b07de80e"] = DATA;

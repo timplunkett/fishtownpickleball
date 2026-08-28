@@ -1,3 +1,19 @@
 {
-  "$values": []
+  "$values": [
+    {
+      "matchupId": "20c69786-db90-40e3-addf-7a370e65c342",
+      "weekNumber": 1,
+      "homeTeamId": "9d5193a8-5eb1-496e-ae29-9923925ab293",
+      "awayTeamId": "6c7976a0-8653-4f23-ad0b-31a4f86f194a",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-28T18:00:00",
+      "homeName": "The Young Guns",
+      "awayName": "Drop it Like it's Hot",
+      "playoffGame": null,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    }
+  ]
 }

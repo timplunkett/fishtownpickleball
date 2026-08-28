@@ -145,18 +145,6 @@
       "awayName": "Flemington Blue"
     },
     {
-      "matchupId": "d2f01bba-9440-4c6e-a17f-8f5f7f578ab1",
-      "weekNumber": 2,
-      "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-      "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-29T11:00:00",
-      "homeName": "Premiere Dinkers",
-      "awayName": "One Love"
-    },
-    {
       "matchupId": "1118ac37-f12b-484a-b546-0c566a342f0f",
       "weekNumber": 2,
       "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
@@ -179,6 +167,18 @@
       "scheduledTime": "2026-08-29T13:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Pickleball Palace Blue"
+    },
+    {
+      "matchupId": "d2f01bba-9440-4c6e-a17f-8f5f7f578ab1",
+      "weekNumber": 2,
+      "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
+      "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-29T13:00:00",
+      "homeName": "Premiere Dinkers",
+      "awayName": "One Love"
     },
     {
       "matchupId": "1cbc0a07-15f9-4cf4-83d8-b5e95cc99c2b",

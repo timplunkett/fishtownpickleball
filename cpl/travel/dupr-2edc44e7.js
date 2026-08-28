@@ -1,5 +1,6 @@
 window.DUPR_RATINGS = {
  "034ca84d-576b-41d0-ba1c-103104b1be1f": {"rating":4.627,"numericId":6514245439,"provisional":false},
+ "03c7bdf6-926c-4d90-9416-117cd3478b50": {"rating":4.641,"numericId":8114014016,"provisional":false},
  "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7": {"rating":3.69,"numericId":4407219364,"provisional":false},
  "04aefa29-20e3-41b7-a680-19d13f9d4289": {"rating":4.019,"numericId":6522145312,"provisional":false},
  "04f98aa6-f69e-462c-9a13-4060a3072922": {"rating":4.265,"numericId":6040428169,"provisional":false},
@@ -40,6 +41,7 @@ window.DUPR_RATINGS = {
  "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b": {"rating":4.357,"numericId":5975286461,"provisional":false},
  "395868e3-8573-41ad-9b13-84b6a7bf7f35": {"rating":3.904,"numericId":7111768079,"provisional":false},
  "3a9ee2e5-e88b-4b96-932d-dc09dbfa001d": {"rating":4.24,"numericId":7788624763,"provisional":false},
+ "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040": {"rating":4.15,"numericId":5776874907,"provisional":false},
  "3b22e073-2c4b-4245-a142-29441ec509a3": {"rating":4.261,"numericId":8059800725,"provisional":false},
  "3bfdf88b-aaa3-4f8d-a673-6a15001fb45a": {"rating":3.913,"numericId":5929842632,"provisional":false},
  "3d1b28fd-25f4-4145-bccd-6b25ab627ffe": {"rating":4.465,"numericId":4510791028,"provisional":false},
@@ -112,6 +114,7 @@ window.DUPR_RATINGS = {
  "9b0fe5d7-4586-4629-8408-928794ca1c3b": {"rating":3.851,"numericId":8569030588,"provisional":false},
  "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc": {"rating":4.148,"numericId":5400744144,"provisional":false},
  "9c29c52b-9d2a-4a5f-b967-7bafd018446b": {"rating":4.363,"numericId":6887212055,"provisional":false},
+ "9d7f6585-d5f4-44fa-a4f9-24737a072f72": {"rating":3.905,"numericId":4805815261,"provisional":false},
  "9e88e95a-d634-4484-8a3e-76e54b82a5fd": {"rating":3.745,"numericId":5023794918,"provisional":false},
  "9f205d60-6056-482a-bcca-3dfdbacf1e8d": {"rating":4.404,"numericId":7942558218,"provisional":false},
  "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31": {"rating":3.69,"numericId":6175568302,"provisional":false},

@@ -7296,6 +7296,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Gail Humphreys-Mackenzie",
+   "playerId": "493d1f95-ca55-4e30-b627-1f3f8d787449",
+   "team": "Picklr Newark",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Gail Welkes",
    "playerId": "ef42e106-1059-4976-98c3-daccda942f56",
    "team": "Summer of Slam",
@@ -9106,6 +9113,13 @@ window.DUPR_AUDIT = {
    "playerId": "a3dbb909-29a5-4aa0-a40f-42bed311f9cd",
    "team": "Flemington",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Jay Lizardo",
+   "playerId": "6537e984-a225-48cf-a812-1c71c3ecfbee",
+   "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -11433,6 +11447,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kajal Sinkar",
+   "playerId": "9d7f6585-d5f4-44fa-a4f9-24737a072f72",
+   "team": "Allstar Pickler",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Kaleigh Hadley",
    "playerId": "ccc68505-7ec7-474a-a96f-891b618d657e",
    "team": "Jersey Devil",
@@ -12343,6 +12364,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kim Biddle",
+   "playerId": "f37c6f74-78f5-431a-be59-e1dae5fcf37c",
+   "team": "Bounce Malvern",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Kim Bohrer",
    "playerId": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
    "team": "Shrinky Dinks",
@@ -12511,7 +12539,7 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kristin D'Uva",
+   "name": "Kristin Duva",
    "playerId": "33bedbfd-6715-4614-8662-650a8bc4c678",
    "team": "Pickleball Palace Black",
    "slug": "1e12eb3f",
@@ -16648,6 +16676,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Papa Aggrey",
+   "playerId": "b113d589-6857-4555-95d4-935d5f62e50c",
+   "team": "Pickleball Kingdom Hamilton",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Parth Patel",
    "playerId": "1ea6675e-89bb-4917-bcb4-0c02a3be8416",
    "team": "Monroe",
@@ -20267,6 +20302,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Tammy Horner",
+   "playerId": "0f37fd76-3f54-4ae4-b46a-1fa6033c55dc",
+   "team": "One Love",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Tanya Patterson",
    "playerId": "011a3e6a-c2a3-4dcf-b1f4-9e32a4440789",
    "team": "Ballers Philly",
@@ -20635,6 +20677,13 @@ window.DUPR_AUDIT = {
    "playerId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7",
    "team": "Picklr Newark",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Thomas Moran",
+   "playerId": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
+   "team": "Pickleball HQ",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
