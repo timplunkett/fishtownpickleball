@@ -7216,7 +7216,7 @@
      ],
      "a": [
       "Michael Swell",
-      "Todd Gasparre"
+      "Michael Dombrowiecki"
      ]
     },
     {
@@ -7271,7 +7271,7 @@
      ],
      "a": [
       "Amy Chrebet",
-      "Todd Gasparre"
+      "Michael Dombrowiecki"
      ]
     },
     {
@@ -7314,7 +7314,7 @@
       "Erik Lombardo"
      ],
      "a": [
-      "Todd Gasparre",
+      "Michael Dombrowiecki",
       "Darren Saks"
      ]
     },
@@ -7359,7 +7359,7 @@
      ],
      "a": [
       "Amy Chrebet",
-      "Todd Gasparre"
+      "Michael Dombrowiecki"
      ]
     },
     {
@@ -7392,7 +7392,7 @@
      ],
      "a": [
       "Michael Swell",
-      "Todd Gasparre"
+      "Michael Dombrowiecki"
      ]
     },
     {
@@ -7491,7 +7491,7 @@
      ],
      "a": [
       "Darren Saks",
-      "Todd Gasparre"
+      "Michael Dombrowiecki"
      ]
     }
    ]
@@ -7502,7 +7502,361 @@
    "home": "Pickleball Palace",
    "away": "Allstar Pickler",
    "time": "2026-08-29T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Lederman",
+      "Alex Lee"
+     ],
+     "a": [
+      "Evelyn Du",
+      "Ron Skotarczak"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karan Pescatore",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carly Pfeffer",
+      "Bud Heller"
+     ],
+     "a": [
+      "Wendy Zukerberg",
+      "Jieping Wang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shauna Muller",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Liangjie Zhu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Hanson Word",
+      "Shauna Muller"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Wendy Zukerberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rebecca Lederman",
+      "Carly Pfeffer"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Evelyn Du"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bud Heller",
+      "Brian Gonzalez"
+     ],
+     "a": [
+      "Jieping Wang",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Chernin",
+      "Alex Lee"
+     ],
+     "a": [
+      "Liangjie Zhu",
+      "Ron Skotarczak"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carly Pfeffer",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "Evelyn Du",
+      "Ron Skotarczak"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Lederman",
+      "Brian Gonzalez"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Hanson Word",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Wendy Zukerberg",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karan Pescatore",
+      "Alex Lee"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Liangjie Zhu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Hanson Word",
+      "Rebecca Lederman"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Wendy Zukerberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shauna Muller",
+      "Karan Pescatore"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Evelyn Du"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Chernin",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Ron Skotarczak",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bud Heller",
+      "Brian Gonzalez"
+     ],
+     "a": [
+      "Liangjie Zhu",
+      "Jieping Wang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Hanson Word",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "Wendy Zukerberg",
+      "Ron Skotarczak"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shauna Muller",
+      "Alex Lee"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Liangjie Zhu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Lederman",
+      "Bud Heller"
+     ],
+     "a": [
+      "Evelyn Du",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carly Pfeffer",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shauna Muller",
+      "Rebecca Lederman"
+     ],
+     "a": [
+      "Wendy Zukerberg",
+      "Evelyn Du"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Hanson Word",
+      "Karan Pescatore"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Picky Vorabouth"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Alex Lee",
+      "Bud Heller"
+     ],
+     "a": [
+      "Ron Skotarczak",
+      "Liangjie Zhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian Gonzalez",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Jieping Wang",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Hanson Word",
+      "Alex Lee"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Ron Skotarczak"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shauna Muller",
+      "Bud Heller"
+     ],
+     "a": [
+      "Wendy Zukerberg",
+      "Liangjie Zhu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karan Pescatore",
+      "Brian Gonzalez"
+     ],
+     "a": [
+      "Evelyn Du",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carly Pfeffer",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Karan Pescatore",
+      "Kelly Hanson Word"
+     ],
+     "a": [
+      "Picky Vorabouth",
+      "Evelyn Du"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Carly Pfeffer",
+      "Rebecca Lederman"
+     ],
+     "a": [
+      "Ronnie Yin",
+      "Wendy Zukerberg"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Chernin",
+      "Alex Lee"
+     ],
+     "a": [
+      "Ron Skotarczak",
+      "Anthony Wands"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian Gonzalez",
+      "Emil Pescatore"
+     ],
+     "a": [
+      "Liangjie Zhu",
+      "Brandon Fulford"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -7512,6 +7866,17 @@
    "time": "2026-08-29T12:00:00",
    "complete": false,
    "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Susan Ackley",
+      "Simon Perry"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
     {
      "t": "mixed",
      "h": [
@@ -7570,12 +7935,34 @@
     {
      "t": "male",
      "h": [
+      "Simon Perry",
+      "Tom Maley"
+     ],
+     "a": [
+      "Zijian Zeng",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
       "Marc Friedman",
       "Jorge Diaz"
      ],
      "a": [
       "Lei Dong",
       "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Susan Ackley",
+      "Simon Perry"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
      ]
     },
     {
@@ -7636,6 +8023,17 @@
     {
      "t": "male",
      "h": [
+      "Simon Perry",
+      "Tom Maley"
+     ],
+     "a": [
+      "Zijian Zeng",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
       "Art Muth",
       "Marc Friedman"
      ],
@@ -7653,6 +8051,17 @@
      "a": [
       "Jennifer Qian",
       "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carol Mastroianni",
+      "Simon Perry"
+     ],
+     "a": [
+      "Mei Li",
+      "Zijian Zeng"
      ]
     },
     {
@@ -7724,6 +8133,17 @@
     {
      "t": "mixed",
      "h": [
+      "Carol Mastroianni",
+      "Simon Perry"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Amy Johnson",
       "Tom Maley"
      ],
@@ -7774,6 +8194,17 @@
      "a": [
       "Jennifer Qian",
       "Rui Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Perry",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Jim Peng",
+      "Mengchu Zhou"
      ]
     },
     {
@@ -8157,7 +8588,361 @@
    "home": "ACE Moorestown",
    "away": "APC Garden State",
    "time": "2026-08-29T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Patricia Boyle",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Laura Sweet",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Siedell",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Pam Boyd",
+      "Robert Finley"
+     ],
+     "a": [
+      "Kerry Gray-Style",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Alkins",
+      "Marc Harden"
+     ],
+     "a": [
+      "Amy Maussner",
+      "Stepan Nevshehirlian"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kate Siedell",
+      "Patricia Boyle"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Kerry Gray-Style"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Boyd",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Amy Maussner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Boyle",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "John Darrah",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Harden",
+      "Robert Finley"
+     ],
+     "a": [
+      "Steve Hong",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Siedell",
+      "Marc Harden"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Patricia Boyle",
+      "Robert Finley"
+     ],
+     "a": [
+      "Kerry Gray-Style",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Pam Boyd",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Stepan Nevshehirlian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Alkins",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kate Siedell",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Kelly Dalsey"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Patricia Boyle",
+      "Pam Boyd"
+     ],
+     "a": [
+      "Amy Maussner",
+      "Kerry Gray-Style"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Harden",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Tim Bruno",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Finley",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Andrew Fleischer",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Patricia Boyle",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Alkins",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Pam Boyd",
+      "Robert Finley"
+     ],
+     "a": [
+      "Amy Maussner",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Siedell",
+      "Marc Harden"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Stepan Nevshehirlian"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kate Siedell",
+      "Patricia Boyle"
+     ],
+     "a": [
+      "Kerry Gray-Style",
+      "Kelly Dalsey"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Boyd",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Amy Maussner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Boyle",
+      "Robert Finley"
+     ],
+     "a": [
+      "John Darrah",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Pellicane",
+      "Marc Harden"
+     ],
+     "a": [
+      "Stepan Nevshehirlian",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Siedell",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Pam Boyd",
+      "Marc Harden"
+     ],
+     "a": [
+      "Kerry Gray-Style",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Patricia Boyle",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Amy Maussner",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Alkins",
+      "Robert Finley"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kate Siedell",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Lisa Loeber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Boyd",
+      "Patricia Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Kerry Gray-Style"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Harden",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Stepan Nevshehirlian",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Finley",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Derek Livingston",
+      "Steve Hong"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -9105,7 +9890,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-28";
+  DATA.meta.asOf = "2026-08-29";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
