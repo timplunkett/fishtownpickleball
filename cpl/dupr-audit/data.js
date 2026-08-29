@@ -7359,6 +7359,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Gary Leon",
+   "playerId": "a7163fb2-63f3-46c4-9d0d-b333eea0b503",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Gary Raubenheimer",
    "playerId": "ff4c0faf-d8a4-4af9-bb5d-217b88570d64",
    "team": "Big Dink Energy",
