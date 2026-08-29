@@ -2053,6 +2053,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Ashlee Novelli",
+   "playerId": "b5613775-f07c-408f-8130-b53d7f58438f",
+   "team": "APC Garden State",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Ashlee Stritzinger",
    "playerId": "ad7d44fa-1da8-4342-87d1-979702c39811",
    "team": "Picklr Newark",

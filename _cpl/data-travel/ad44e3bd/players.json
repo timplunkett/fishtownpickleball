@@ -205,7 +205,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 49
+      "ranking": 48
     },
     {
       "playerId": "0b60e384-c0c5-4859-883c-1183e79437e3",
@@ -688,7 +688,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 76
+      "ranking": 75
     },
     {
       "playerId": "2ff1b895-1513-4eba-bfb9-3fc61a2d106a",
@@ -931,17 +931,17 @@
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
       "wins": 0,
-      "losses": 7,
-      "gamesPlayed": 7,
-      "pointsWon": 112,
-      "totalPointsAgainst": 147,
+      "losses": 6,
+      "gamesPlayed": 6,
+      "pointsWon": 93,
+      "totalPointsAgainst": 126,
       "clutchWins": 0,
-      "clutchLosses": 3,
+      "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 0,
-      "genderLosses": 7,
-      "ranking": 75
+      "genderLosses": 6,
+      "ranking": 76
     },
     {
       "playerId": "481c21f0-8481-47e8-9eba-9ab21c167cf4",
@@ -1690,17 +1690,17 @@
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
       "wins": 3,
-      "losses": 4,
-      "gamesPlayed": 7,
-      "pointsWon": 123,
-      "totalPointsAgainst": 122,
+      "losses": 5,
+      "gamesPlayed": 8,
+      "pointsWon": 142,
+      "totalPointsAgainst": 143,
       "clutchWins": 0,
-      "clutchLosses": 1,
+      "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 3,
-      "genderLosses": 4,
-      "ranking": 48
+      "genderLosses": 5,
+      "ranking": 49
     },
     {
       "playerId": "9d83f1a4-547c-43e9-85b3-cb5fa8391bff",
