@@ -16123,7 +16123,361 @@
    "home": "Ballers Philly",
    "away": "Pickle House",
    "time": "2026-08-31T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Alexandra Smith",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Joyce Yu",
+      "Nicholas Vanderveer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Feng",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Lizz Dunn",
+      "Gage Cvijic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Hyman",
+      "Se Jun Kim"
+     ],
+     "a": [
+      "Angelique Gallucci",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Hyman",
+      "Alexandra Smith"
+     ],
+     "a": [
+      "Angelique Gallucci",
+      "Julie Randall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Kelly Feng"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Joyce Yu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Mintz",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Gage Cvijic",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Se Jun Kim",
+      "Arjun Kumble"
+     ],
+     "a": [
+      "Nicholas Vanderveer",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexandra Smith",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Joyce Yu",
+      "Gage Cvijic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophy Siv",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Lizz Dunn",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Hyman",
+      "Arjun Kumble"
+     ],
+     "a": [
+      "Julie Randall",
+      "Christopher Venuto"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Feng",
+      "Jessica Hyman"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Julie Randall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Sophy Siv"
+     ],
+     "a": [
+      "Angelique Gallucci",
+      "Lizz Dunn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Se Jun Kim",
+      "Arjun Kumble"
+     ],
+     "a": [
+      "Christopher Venuto",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Mintz",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Nicholas Vanderveer",
+      "Gage Cvijic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Joyce Yu",
+      "Nicholas Vanderveer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexandra Smith",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Gage Cvijic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophy Siv",
+      "Arjun Kumble"
+     ],
+     "a": [
+      "Angelique Gallucci",
+      "Christopher Venuto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Feng",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Julie Randall",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Hyman",
+      "Alexandra Smith"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Julie Randall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Feng",
+      "Sophy Siv"
+     ],
+     "a": [
+      "Lizz Dunn",
+      "Joyce Yu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Arjun Kumble",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Gage Cvijic",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Se Jun Kim",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Christopher Venuto",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophy Siv",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Joyce Yu",
+      "Gage Cvijic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Jake Cohen"
+     ],
+     "a": [
+      "Angelique Gallucci",
+      "Nicholas Vanderveer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kelly Feng",
+      "Se Jun Kim"
+     ],
+     "a": [
+      "Lizz Dunn",
+      "Rohan Sabharwal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jessica Hyman",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Julie Randall",
+      "Christopher Venuto"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lindsey Allumbaugh",
+      "Sophy Siv"
+     ],
+     "a": [
+      "Caitlin Hall",
+      "Joyce Yu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Feng",
+      "Alexandra Smith"
+     ],
+     "a": [
+      "Julie Randall",
+      "Lizz Dunn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Se Jun Kim",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Christopher Venuto",
+      "Nick Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Arjun Kumble",
+      "Samuel Lee"
+     ],
+     "a": [
+      "Rohan Sabharwal",
+      "Nicholas Vanderveer"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -17373,7 +17727,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-29";
+  DATA.meta.asOf = "2026-08-30";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
