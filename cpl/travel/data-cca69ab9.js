@@ -3183,7 +3183,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 152,
+   "leagueRank": 156,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3212,7 +3212,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 144,
+   "leagueRank": 147,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3241,7 +3241,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 136,
+   "leagueRank": 137,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3270,7 +3270,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 131,
+   "leagueRank": 132,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3328,7 +3328,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 141,
+   "leagueRank": 144,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3386,7 +3386,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 138,
+   "leagueRank": 139,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3415,7 +3415,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 158,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3473,7 +3473,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 133,
+   "leagueRank": 134,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3531,7 +3531,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 153,
+   "leagueRank": 157,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3560,7 +3560,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 155,
+   "leagueRank": 159,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3589,7 +3589,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 150,
+   "leagueRank": 153,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3734,7 +3734,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 154,
+   "leagueRank": 158,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3763,7 +3763,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 149,
+   "leagueRank": 152,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3821,7 +3821,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 143,
+   "leagueRank": 146,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3850,7 +3850,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 137,
+   "leagueRank": 138,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 159,
+   "leagueRank": 163,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 164,
+   "leagueRank": 168,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3995,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 130,
+   "leagueRank": 131,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4053,7 +4053,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 157,
+   "leagueRank": 161,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4111,7 +4111,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 145,
+   "leagueRank": 148,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4169,7 +4169,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 140,
+   "leagueRank": 141,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4198,7 +4198,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 147,
+   "leagueRank": 150,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 132,
+   "leagueRank": 133,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4256,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 146,
+   "leagueRank": 149,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 162,
+   "leagueRank": 166,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 163,
+   "leagueRank": 167,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4372,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 148,
+   "leagueRank": 151,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7590,7 +7590,361 @@
    "home": "Dill Dinkers Freehold",
    "away": "Jersey Pickleball Club",
    "time": "2026-08-31T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Caesar Gene",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chenfei Gao",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Matt Schall",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Laiso",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Caesar Gene",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eugene Zaslavsky",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Samuel Levinson",
+      "Chenfei Gao"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lagrua",
+      "Yoon Choi"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Adam Weinstock",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Laiso",
+      "Caesar Gene"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eugene Zaslavsky",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lagrua",
+      "Chenfei Gao"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Harrison Mui",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Samuel Levinson",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chenfei Gao",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Caesar Gene",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Samuel Levinson",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Matt Schall",
+      "Kevin Lin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Laiso",
+      "Caesar Gene"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chenfei Gao",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Caesar Gene",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Matt Schall",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chenfei Gao",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lagrua",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yoon Choi",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Laiso",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Matt Schall",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Caesar Gene",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Kevin Lin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chenfei Gao",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -8150,6 +8504,8 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Joseph Lynskey": "0e8c08b7-0e58-434b-8830-f37779f821dc",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
+  "Shreyas Pani": "3cebd01c-ff32-4544-b6a6-2a68152b2ee5",
+  "Kevin Lin": "44bbc794-d40d-4fbf-a59e-ddb785496f21",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Nicholas Yandoli": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
@@ -8157,6 +8513,8 @@
   "Nicholas Como": "a286a593-65d0-4119-a211-3cd57bba652a",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "David Brandolph": "be10853a-1f2c-4b56-8fd7-902ddc686401",
+  "Zachary Lisojo": "e2086778-379f-4d43-8ce7-6447129d8812",
+  "Fabricio Gaona": "ee88d140-1a78-4776-85e0-3f982891576d",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
   "Salman Saad": "f7c4d103-d246-456d-8fd5-6418c6a0e002",
   "Jeffrey Lena": "f8183a0c-23a1-4b0f-99aa-fc50e5f58744"
@@ -8233,7 +8591,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-28";
+  DATA.meta.asOf = "2026-08-30";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

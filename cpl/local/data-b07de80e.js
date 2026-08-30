@@ -14378,17 +14378,25 @@
  ],
  "playoffs": [
   {
-   "result": null,
+   "result": "away",
    "round": 1,
    "home": "The Young Guns",
    "away": "Drop it Like it's Hot",
    "time": "2026-08-28T18:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 2,
+   "provisional": true,
+   "homePoints": 603,
+   "awayPoints": 609,
+   "homeGW": 14,
+   "awayGW": 18,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Emily Ocasio",
       "Andre Cristobal"
@@ -14400,6 +14408,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Jessica Pao",
       "Graham Heavenrich"
@@ -14411,6 +14422,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Allison Hartman",
       "Harvey Mitchell"
@@ -14422,6 +14436,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Barb Flynn",
       "Lincoln Jensen"
@@ -14433,6 +14450,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Emily Ocasio",
       "Vicki Main"
@@ -14444,6 +14464,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Jessica Pao",
       "Barb Flynn"
@@ -14455,6 +14478,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 27,
      "h": [
       "Andre Cristobal",
       "Graham Heavenrich"
@@ -14466,6 +14492,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Lincoln Jensen",
       "Harrison Bohrer"
@@ -14477,6 +14506,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Jessica Pao",
       "Andre Cristobal"
@@ -14488,6 +14520,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Emily Ocasio",
       "Graham Heavenrich"
@@ -14499,6 +14534,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Vicki Main",
       "Harvey Mitchell"
@@ -14510,6 +14548,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Allison Hartman",
       "Harrison Bohrer"
@@ -14521,6 +14562,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Jessica Pao",
       "Allison Hartman"
@@ -14532,6 +14576,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Vicki Main",
       "Barb Flynn"
@@ -14543,6 +14590,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Andre Cristobal",
       "Harvey Mitchell"
@@ -14554,6 +14604,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Lincoln Jensen",
       "Harrison Bohrer"
@@ -14565,6 +14618,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Vicki Main",
       "Harvey Mitchell"
@@ -14576,6 +14632,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Emily Ocasio",
       "Graham Heavenrich"
@@ -14587,6 +14646,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Allison Hartman",
       "Harrison Bohrer"
@@ -14598,6 +14660,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Barb Flynn",
       "Lincoln Jensen"
@@ -14609,6 +14674,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Emily Ocasio",
       "Jessica Pao"
@@ -14620,6 +14688,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 26,
      "h": [
       "Allison Hartman",
       "Barb Flynn"
@@ -14631,6 +14702,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Andre Cristobal",
       "Harvey Mitchell"
@@ -14642,6 +14716,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Graham Heavenrich",
       "Lincoln Jensen"
@@ -14653,6 +14730,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Emily Ocasio",
       "Andre Cristobal"
@@ -14664,6 +14744,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Jessica Pao",
       "Lincoln Jensen"
@@ -14675,6 +14758,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Vicki Main",
       "Graham Heavenrich"
@@ -14686,6 +14772,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Barb Flynn",
       "Harrison Bohrer"
@@ -14697,6 +14786,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Emily Ocasio",
       "Jessica Pao"
@@ -14708,6 +14800,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Vicki Main",
       "Allison Hartman"
@@ -14719,6 +14814,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Andre Cristobal",
       "Graham Heavenrich"
@@ -14730,6 +14828,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Harvey Mitchell",
       "Harrison Bohrer"
@@ -14776,7 +14877,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-28";
+  DATA.meta.asOf = "2026-08-30";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b07de80e"] = DATA;

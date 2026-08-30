@@ -32071,8 +32071,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Ballers Philly"
    }
   ],
   "games": [
@@ -32089,8 +32089,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Ballers Philly"
    },
    {
     "wk": 1,
@@ -32105,8 +32105,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Ballers Philly"
    },
    {
     "wk": 1,
@@ -32121,8 +32121,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Ballers Philly"
    },
    {
     "wk": 1,
@@ -32137,8 +32137,8 @@
     "a": 22,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Ballers Philly"
    }
   ],
   "ratingHistory": [

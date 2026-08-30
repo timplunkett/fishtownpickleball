@@ -2,7 +2,7 @@
   const DATA = {
  "players": [
   {
-   "name": "Joe Gronczewski",
+   "name": "Joseph Gronczewski",
    "gender": "Male",
    "team": "Picholas Cage",
    "matches": 4,
@@ -2567,7 +2567,7 @@
   },
   {
    "a": "Lisa Dinh",
-   "b": "Joe Gronczewski",
+   "b": "Joseph Gronczewski",
    "team": "Picholas Cage",
    "n": 6,
    "w": 5,
@@ -2996,7 +2996,7 @@
   },
   {
    "a": "Jonathan Macqueen",
-   "b": "Joe Gronczewski",
+   "b": "Joseph Gronczewski",
    "team": "Picholas Cage",
    "n": 5,
    "w": 5,
@@ -3620,7 +3620,7 @@
   },
   {
    "a": "Joseph Luka",
-   "b": "Joe Gronczewski",
+   "b": "Joseph Gronczewski",
    "team": "Picholas Cage",
    "n": 5,
    "w": 5,
@@ -3854,7 +3854,7 @@
   },
   {
    "a": "Deborah Chapman",
-   "b": "Joe Gronczewski",
+   "b": "Joseph Gronczewski",
    "team": "Picholas Cage",
    "n": 4,
    "w": 4,
@@ -4452,7 +4452,7 @@
      "as": 6,
      "h": [
       "Conor Malloy",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Nikhil Sachdeva",
@@ -4494,7 +4494,7 @@
      "as": 11,
      "h": [
       "Minjel Shah",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Laura Amato",
@@ -4564,7 +4564,7 @@
      "as": 15,
      "h": [
       "Jonathan Macqueen",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Nikhil Sachdeva",
@@ -4620,7 +4620,7 @@
      "as": 21,
      "h": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Laura Amato",
@@ -4732,7 +4732,7 @@
      "as": 14,
      "h": [
       "Deborah Chapman",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Laura Amato",
@@ -4788,7 +4788,7 @@
      "as": 17,
      "h": [
       "Jonathan Macqueen",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Ryo Inkyo",
@@ -8164,7 +8164,7 @@
      "as": 12,
      "h": [
       "Jonathan Macqueen",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Ted Asavamongkolkul",
@@ -8220,7 +8220,7 @@
      "as": 17,
      "h": [
       "Deborah Chapman",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Quynh Nguyen",
@@ -8276,7 +8276,7 @@
      "as": 16,
      "h": [
       "Jonathan Macqueen",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Nick Boyes",
@@ -8318,7 +8318,7 @@
      "as": 17,
      "h": [
       "Deborah Chapman",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Victoria Young",
@@ -8444,7 +8444,7 @@
      "as": 14,
      "h": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Meghan Plunkett",
@@ -8500,7 +8500,7 @@
      "as": 13,
      "h": [
       "Joseph Luka",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Nick Boyes",
@@ -9503,7 +9503,7 @@
      ],
      "a": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -9615,7 +9615,7 @@
      ],
      "a": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -9671,7 +9671,7 @@
      ],
      "a": [
       "Joseph Luka",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -9713,7 +9713,7 @@
      ],
      "a": [
       "Christina Vuong",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -9783,7 +9783,7 @@
      ],
      "a": [
       "Jonathan Macqueen",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -9895,7 +9895,7 @@
      ],
      "a": [
       "Joseph Luka",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     }
    ],
@@ -12344,7 +12344,7 @@
      "as": 18,
      "h": [
       "Joseph Luka",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Tim Plunkett",
@@ -12400,7 +12400,7 @@
      "as": 12,
      "h": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Elizabeth Krebs",
@@ -12456,7 +12456,7 @@
      "as": 13,
      "h": [
       "Joseph Luka",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Brenton Pham",
@@ -12498,7 +12498,7 @@
      "as": 16,
      "h": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Mira Sigal-Feldman",
@@ -12624,7 +12624,7 @@
      "as": 20,
      "h": [
       "Deborah Chapman",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Claire Nguyen",
@@ -12680,7 +12680,7 @@
      "as": 17,
      "h": [
       "Conor Malloy",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ],
      "a": [
       "Brenton Pham",
@@ -12818,7 +12818,7 @@
      ],
      "a": [
       "Conor Malloy",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -12860,7 +12860,7 @@
      ],
      "a": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -12929,7 +12929,7 @@
       "Derek Lombardi"
      ],
      "a": [
-      "Joe Gronczewski",
+      "Joseph Gronczewski",
       "Joseph Luka"
      ]
     },
@@ -12986,7 +12986,7 @@
      ],
      "a": [
       "Deborah Chapman",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -13098,7 +13098,7 @@
      ],
      "a": [
       "Lisa Dinh",
-      "Joe Gronczewski"
+      "Joseph Gronczewski"
      ]
     },
     {
@@ -13153,7 +13153,7 @@
       "Derek Lombardi"
      ],
      "a": [
-      "Joe Gronczewski",
+      "Joseph Gronczewski",
       "Joseph Luka"
      ]
     }
@@ -13654,7 +13654,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-28";
+  DATA.meta.asOf = "2026-08-30";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["3e9b6a58"] = DATA;

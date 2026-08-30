@@ -145,6 +145,18 @@
       "awayName": "Picklr Newark"
     },
     {
+      "matchupId": "212d895e-cc3e-4323-9911-a80f84fd6e20",
+      "weekNumber": 2,
+      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "awayTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-08-30T13:00:00",
+      "homeName": "Picklr Fair Lawn",
+      "awayName": "Montville Dragons"
+    },
+    {
       "matchupId": "b6157fb2-519e-4797-bc6b-bba4ef689217",
       "weekNumber": 2,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -191,18 +203,6 @@
       "scheduledTime": "2026-08-30T14:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Dill Dinkers Lansdale"
-    },
-    {
-      "matchupId": "212d895e-cc3e-4323-9911-a80f84fd6e20",
-      "weekNumber": 2,
-      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "awayTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-30T14:00:00",
-      "homeName": "Picklr Fair Lawn",
-      "awayName": "Montville Dragons"
     },
     {
       "matchupId": "3fc6bab2-c67c-40df-8a20-bd3fd1fdccab",

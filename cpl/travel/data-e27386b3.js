@@ -8528,7 +8528,7 @@
    "playerId": "f3d6a801-faed-44cb-a7fa-fd0b3bdff981"
   },
   {
-   "name": "Joe Gronczewski",
+   "name": "Joseph Gronczewski",
    "gender": "Male",
    "team": "Bounce Philly",
    "matches": 0,
@@ -14666,7 +14666,361 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickleball HQ",
    "time": "2026-08-31T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Sagurton",
+      "Brandon Helicher"
+     ],
+     "a": [
+      "Jaymie Vincelli",
+      "Darren Zheng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Mayra Tuba",
+      "Alex Glushek"
+     ],
+     "a": [
+      "Barbara Fontanella",
+      "James Gillick"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michelle Cobos",
+      "David Burke"
+     ],
+     "a": [
+      "Diana Tabia",
+      "Kenneth Ocasio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jade Chin",
+      "Lukas Chrebet"
+     ],
+     "a": [
+      "Agnieszka Procner",
+      "Jonathan Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachael Osetkowski",
+      "Jade Chin"
+     ],
+     "a": [
+      "Agnieszka Procner",
+      "Diana Tabia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michelle Cobos",
+      "Mayra Tuba"
+     ],
+     "a": [
+      "Jaymie Vincelli",
+      "Barbara Fontanella"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Alex Glushek",
+      "David Burke"
+     ],
+     "a": [
+      "Jonathan Wong",
+      "Tomas Ruiz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricardo Fontanilla",
+      "Brandon Helicher"
+     ],
+     "a": [
+      "Matthew Ferrante",
+      "Kenneth Ocasio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Sagurton",
+      "Ricardo Fontanilla"
+     ],
+     "a": [
+      "Diana Tabia",
+      "Kenneth Ocasio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jade Chin",
+      "Alex Glushek"
+     ],
+     "a": [
+      "Taylor Leuck",
+      "Matthew Ferrante"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rachael Osetkowski",
+      "David Burke"
+     ],
+     "a": [
+      "Jaymie Vincelli",
+      "Darren Zheng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michelle Cobos",
+      "Lukas Chrebet"
+     ],
+     "a": [
+      "Agnieszka Procner",
+      "Tomas Ruiz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mayra Tuba",
+      "Rachael Osetkowski"
+     ],
+     "a": [
+      "Diana Tabia",
+      "Julianna Rodrigues"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michelle Cobos",
+      "Michele Sagurton"
+     ],
+     "a": [
+      "Jaymie Vincelli",
+      "Barbara Fontanella"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Burke",
+      "Ricardo Fontanilla"
+     ],
+     "a": [
+      "Jonathan Wong",
+      "Tomas Ruiz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lukas Chrebet",
+      "Brandon Helicher"
+     ],
+     "a": [
+      "Darren Zheng",
+      "James Gillick"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Sagurton",
+      "Brandon Helicher"
+     ],
+     "a": [
+      "Julianna Rodrigues",
+      "Kenneth Ocasio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rachael Osetkowski",
+      "Lukas Chrebet"
+     ],
+     "a": [
+      "Agnieszka Procner",
+      "Darren Zheng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Mayra Tuba",
+      "Alex Glushek"
+     ],
+     "a": [
+      "Taylor Leuck",
+      "Jonathan Wong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jade Chin",
+      "Ricardo Fontanilla"
+     ],
+     "a": [
+      "Jaymie Vincelli",
+      "Matthew Ferrante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachael Osetkowski",
+      "Michele Sagurton"
+     ],
+     "a": [
+      "Taylor Leuck",
+      "Barbara Fontanella"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michelle Cobos",
+      "Jade Chin"
+     ],
+     "a": [
+      "Diana Tabia",
+      "Julianna Rodrigues"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lukas Chrebet",
+      "Ricardo Fontanilla"
+     ],
+     "a": [
+      "Kenneth Ocasio",
+      "James Gillick"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Alex Glushek",
+      "David Burke"
+     ],
+     "a": [
+      "Tomas Ruiz",
+      "Darren Zheng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Mayra Tuba",
+      "David Burke"
+     ],
+     "a": [
+      "Julianna Rodrigues",
+      "Kenneth Ocasio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jade Chin",
+      "Lukas Chrebet"
+     ],
+     "a": [
+      "Barbara Fontanella",
+      "James Gillick"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michelle Cobos",
+      "Brandon Helicher"
+     ],
+     "a": [
+      "Agnieszka Procner",
+      "Matthew Ferrante"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rachael Osetkowski",
+      "Alex Glushek"
+     ],
+     "a": [
+      "Taylor Leuck",
+      "Tomas Ruiz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michelle Cobos",
+      "Jade Chin"
+     ],
+     "a": [
+      "Julianna Rodrigues",
+      "Taylor Leuck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mayra Tuba",
+      "Michele Sagurton"
+     ],
+     "a": [
+      "Diana Tabia",
+      "Agnieszka Procner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Burke",
+      "Lukas Chrebet"
+     ],
+     "a": [
+      "Matthew Ferrante",
+      "Jonathan Wong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Helicher",
+      "Ricardo Fontanilla"
+     ],
+     "a": [
+      "James Gillick",
+      "Kenneth Ocasio"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -14714,7 +15068,361 @@
    "home": "Picklr Newark",
    "away": "APC Garden State",
    "time": "2026-08-31T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Ashley Altman",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Gerry Bissinger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kris Miller",
+      "Mike Fede"
+     ],
+     "a": [
+      "Megan Torres",
+      "Joseph Mckenna"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lauren Gabat",
+      "Bill Dower"
+     ],
+     "a": [
+      "Abby Sprinkel",
+      "Craig Batzar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Duarte",
+      "Matthew Cohen"
+     ],
+     "a": [
+      "Brandi Horowitz",
+      "Jonathan Jamison"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ashley Altman",
+      "Lauren Gabat"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Brandi Horowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Tiffany Weinert",
+      "Isha Rahalkar"
+     ],
+     "a": [
+      "Viviane Tran",
+      "Illyce Katz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Cohen",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Joseph Mckenna",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Kellner",
+      "Simon Burns"
+     ],
+     "a": [
+      "Jonathan Jamison",
+      "Craig Batzar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Duarte",
+      "Matthew Cohen"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kris Miller",
+      "Mike Fede"
+     ],
+     "a": [
+      "Megan Torres",
+      "Joseph Mckenna"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ashley Altman",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Abby Sprinkel",
+      "Jonathan Jamison"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tiffany Weinert",
+      "Tyler Kellner"
+     ],
+     "a": [
+      "Illyce Katz",
+      "Gerry Bissinger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ashley Altman",
+      "Lauren Gabat"
+     ],
+     "a": [
+      "Megan Torres",
+      "Abby Sprinkel"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Isha Rahalkar",
+      "Kris Miller"
+     ],
+     "a": [
+      "Brandi Horowitz",
+      "Viviane Tran"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Cohen",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Joseph Mckenna",
+      "Craig Batzar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bill Dower",
+      "Simon Burns"
+     ],
+     "a": [
+      "Gerry Bissinger",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ashley Altman",
+      "Simon Burns"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Jonathan Jamison"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lauren Gabat",
+      "Mike Fede"
+     ],
+     "a": [
+      "Brandi Horowitz",
+      "Joseph Mckenna"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Isha Rahalkar",
+      "Bill Dower"
+     ],
+     "a": [
+      "Viviane Tran",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tiffany Weinert",
+      "Tyler Kellner"
+     ],
+     "a": [
+      "Illyce Katz",
+      "Gerry Bissinger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kris Miller",
+      "Sandy Duarte"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Abby Sprinkel"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lauren Gabat",
+      "Isha Rahalkar"
+     ],
+     "a": [
+      "Megan Torres",
+      "Viviane Tran"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bill Dower",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Gerry Bissinger",
+      "Craig Batzar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Cohen",
+      "Mike Fede"
+     ],
+     "a": [
+      "Jonathan Jamison",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sandy Duarte",
+      "Tyler Kellner"
+     ],
+     "a": [
+      "Andrea Galanti",
+      "Craig Batzar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lauren Gabat",
+      "Bill Dower"
+     ],
+     "a": [
+      "Brandi Horowitz",
+      "Gerry Bissinger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kris Miller",
+      "Simon Burns"
+     ],
+     "a": [
+      "Viviane Tran",
+      "Jonathan Jamison"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tiffany Weinert",
+      "Mike Fede"
+     ],
+     "a": [
+      "Illyce Katz",
+      "Joseph Mckenna"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kris Miller",
+      "Sandy Duarte"
+     ],
+     "a": [
+      "Megan Torres",
+      "Viviane Tran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ashley Altman",
+      "Isha Rahalkar"
+     ],
+     "a": [
+      "Brandi Horowitz",
+      "Abby Sprinkel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Burns",
+      "Matthew Cohen"
+     ],
+     "a": [
+      "Gerry Bissinger",
+      "Jamie West"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bill Dower",
+      "Thomas Lum"
+     ],
+     "a": [
+      "Craig Batzar",
+      "Joseph Mckenna"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -14722,7 +15430,361 @@
    "home": "Pickle Juice Blackwood",
    "away": "Bounce Tempest",
    "time": "2026-08-31T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Katherine Mott",
+      "Kordell Alexander"
+     ],
+     "a": [
+      "Quynh Nguyen",
+      "Jason Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karen Marshall",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Thuy Nguyen",
+      "Thang Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella",
+      "Michael Van Horn"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Timothy Lowry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella Sr.",
+      "John Dechristopher"
+     ],
+     "a": [
+      "Mai Chan",
+      "Peter Lien"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Katherine Mott",
+      "Karen Marshall"
+     ],
+     "a": [
+      "Helen Goh",
+      "Thuy Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michele Iannella",
+      "Lisa Murphy"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Claire Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Grote",
+      "Rick Khounlavouth"
+     ],
+     "a": [
+      "Timothy Lowry",
+      "Thomas Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Van Horn",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Thang Nguyen",
+      "Tuan Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Trisha Marion",
+      "Rick Khounlavouth"
+     ],
+     "a": [
+      "Helen Goh",
+      "Peter Lien"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karen Marshall",
+      "Michael Van Horn"
+     ],
+     "a": [
+      "Thuy Nguyen",
+      "Jason Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Thomas Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Murphy",
+      "Jason Grote"
+     ],
+     "a": [
+      "Quynh Nguyen",
+      "Thang Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Trisha Marion",
+      "Katherine Mott"
+     ],
+     "a": [
+      "Helen Goh",
+      "Claire Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michele Iannella Sr.",
+      "Lisa Murphy"
+     ],
+     "a": [
+      "Mai Chan",
+      "Quynh Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Van Horn",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Tuan Nguyen",
+      "Thomas Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kordell Alexander",
+      "Jason Grote"
+     ],
+     "a": [
+      "Peter Lien",
+      "Jason Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karen Marshall",
+      "Jason Grote"
+     ],
+     "a": [
+      "Claire Nguyen",
+      "Jason Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Timothy Lowry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Katherine Mott",
+      "Kordell Alexander"
+     ],
+     "a": [
+      "Mai Chan",
+      "Tuan Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella Sr.",
+      "John Dechristopher"
+     ],
+     "a": [
+      "Quynh Nguyen",
+      "Thomas Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michele Iannella",
+      "Karen Marshall"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Thuy Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Trisha Marion",
+      "Katherine Mott"
+     ],
+     "a": [
+      "Helen Goh",
+      "Claire Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Rick Khounlavouth",
+      "John Dechristopher"
+     ],
+     "a": [
+      "Peter Lien",
+      "Timothy Lowry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Van Horn",
+      "Kordell Alexander"
+     ],
+     "a": [
+      "Thang Nguyen",
+      "Thomas Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Trisha Marion",
+      "John Dechristopher"
+     ],
+     "a": [
+      "Claire Nguyen",
+      "Peter Lien"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Iannella Sr.",
+      "Kordell Alexander"
+     ],
+     "a": [
+      "Quynh Nguyen",
+      "Jason Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Murphy",
+      "Michael Van Horn"
+     ],
+     "a": [
+      "Mai Chan",
+      "Thang Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karen Marshall",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Thuy Nguyen",
+      "Tuan Nguyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michele Iannella",
+      "Trisha Marion"
+     ],
+     "a": [
+      "Megan Quigley",
+      "Helen Goh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lisa Murphy",
+      "Katherine Mott"
+     ],
+     "a": [
+      "Thuy Nguyen",
+      "Mai Chan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Grote",
+      "Lawrence Dipietro"
+     ],
+     "a": [
+      "Jason Nguyen",
+      "Tuan Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Van Horn",
+      "Rick Khounlavouth"
+     ],
+     "a": [
+      "Timothy Lowry",
+      "Thomas Nguyen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -15859,7 +16921,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-28";
+  DATA.meta.asOf = "2026-08-30";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

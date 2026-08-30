@@ -2671,7 +2671,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Nick Boyes",
      "Robert Courchain"
@@ -2719,7 +2719,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Ryo Inkyo",
      "Grady Craig"
@@ -2767,7 +2767,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Nikhil Sachdeva",
      "Grady Craig"
@@ -2895,7 +2895,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Tim Plunkett",
      "Brenton Pham"
@@ -2911,7 +2911,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Brenton Pham",
      "Anil Rajpal"
@@ -3058,7 +3058,7 @@
    },
    {
     "pid": "f6eef486-8999-4247-a7d8-20251377021c",
-    "name": "Joe Gronczewski",
+    "name": "Joseph Gronczewski",
     "n": 5,
     "synergy": -0.3
    },
@@ -3245,7 +3245,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Nikhil Sachdeva",
      "Joe Arancio"
@@ -3293,7 +3293,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Ryo Inkyo",
      "Joe Arancio"
@@ -3421,7 +3421,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Ted Asavamongkolkul",
      "Nick Boyes"
@@ -3437,7 +3437,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Nick Boyes",
      "Robert Courchain"
@@ -3565,7 +3565,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Andrew Martin",
      "Ryo Inkyo"
@@ -3808,7 +3808,7 @@
   "partners": [
    {
     "pid": "f6eef486-8999-4247-a7d8-20251377021c",
-    "name": "Joe Gronczewski",
+    "name": "Joseph Gronczewski",
     "n": 5,
     "synergy": 0.2
    },
@@ -5066,7 +5066,7 @@
     "with": "Ryo Inkyo",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 20,
     "a": 22,
@@ -5606,7 +5606,7 @@
     "with": "Joe Arancio",
     "vs": [
      "Conor Malloy",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 6,
     "a": 21,
@@ -5622,7 +5622,7 @@
     "with": "Joe Arancio",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 15,
     "a": 21,
@@ -5638,7 +5638,7 @@
     "with": "Laura Amato",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 19,
@@ -5958,7 +5958,7 @@
     "with": "Grady Craig",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -11309,7 +11309,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Laura Amato",
      "Joe Arancio"
@@ -11533,7 +11533,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Quynh Nguyen",
      "Robert Courchain"
@@ -11565,7 +11565,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Victoria Young",
      "Robert Courchain"
@@ -11789,7 +11789,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Claire Nguyen",
      "Brenton Pham"
@@ -11900,7 +11900,7 @@
    },
    {
     "pid": "f6eef486-8999-4247-a7d8-20251377021c",
-    "name": "Joe Gronczewski",
+    "name": "Joseph Gronczewski",
     "n": 4,
     "synergy": -0.7
    },
@@ -20944,7 +20944,7 @@
     "with": "Anil Rajpal",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -21279,7 +21279,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Nikhil Sachdeva",
      "Joe Arancio"
@@ -21743,7 +21743,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "male",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Brenton Pham",
      "Anil Rajpal"
@@ -22209,7 +22209,7 @@
     "with": "Nick Boyes",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 12,
     "a": 21,
@@ -24699,7 +24699,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Laura Amato",
      "Ryo Inkyo"
@@ -26425,7 +26425,7 @@
     "wk": 1,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Laura Amato",
      "Nikhil Sachdeva"
@@ -26649,7 +26649,7 @@
     "wk": 5,
     "opp": "Kitchen Nightmares",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Meghan Plunkett",
      "Nick Boyes"
@@ -26665,7 +26665,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Taylor Johns",
      "Ryo Inkyo"
@@ -26681,7 +26681,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Julie Randall",
      "Grady Craig"
@@ -26873,7 +26873,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Elizabeth Krebs",
      "Anil Rajpal"
@@ -26905,7 +26905,7 @@
     "wk": 9,
     "opp": "Baggers",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Mira Sigal-Feldman",
      "Anil Rajpal"
@@ -27036,7 +27036,7 @@
   "partners": [
    {
     "pid": "f6eef486-8999-4247-a7d8-20251377021c",
-    "name": "Joe Gronczewski",
+    "name": "Joseph Gronczewski",
     "n": 6,
     "synergy": 0.7
    },
@@ -41088,7 +41088,7 @@
     "with": "Robert Courchain",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -41524,7 +41524,7 @@
     "wk": 6,
     "opp": "License to Dill",
     "t": "mixed",
-    "with": "Joe Gronczewski",
+    "with": "Joseph Gronczewski",
     "vs": [
      "Julie Randall",
      "Grady Craig"
@@ -41822,7 +41822,7 @@
     "with": "Anil Rajpal",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 12,
     "a": 21,
@@ -42143,7 +42143,7 @@
     "with": "Laura Amato",
     "vs": [
      "Minjel Shah",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 11,
     "a": 21,
@@ -42207,7 +42207,7 @@
     "with": "Joe Arancio",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -42415,7 +42415,7 @@
     "with": "Taylor Johns",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -42447,7 +42447,7 @@
     "with": "Grady Craig",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -42479,7 +42479,7 @@
     "with": "Andrew Martin",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 20,
     "a": 22,
@@ -43380,7 +43380,7 @@
     "with": "Brenton Pham",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 18,
     "a": 21,
@@ -44549,7 +44549,7 @@
     "with": "Nikhil Sachdeva",
     "vs": [
      "Conor Malloy",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 6,
     "a": 21,
@@ -44581,7 +44581,7 @@
     "with": "Nikhil Sachdeva",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 15,
     "a": 21,
@@ -44613,7 +44613,7 @@
     "with": "Laura Amato",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 14,
     "a": 21,
@@ -44629,7 +44629,7 @@
     "with": "Ryo Inkyo",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -46106,7 +46106,7 @@
     "with": "Grady Craig",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 23,
@@ -46138,7 +46138,7 @@
     "with": "Grady Craig",
     "vs": [
      "Christina Vuong",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 17,
@@ -47243,7 +47243,7 @@
     "with": "Brenton Pham",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 20,
     "a": 22,
@@ -47569,7 +47569,7 @@
     "with": "Ryo Inkyo",
     "vs": [
      "Minjel Shah",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 11,
     "a": 21,
@@ -47601,7 +47601,7 @@
     "with": "Nikhil Sachdeva",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 19,
@@ -47633,7 +47633,7 @@
     "with": "Joe Arancio",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 14,
     "a": 21,
@@ -48818,7 +48818,7 @@
     "with": "Tim Plunkett",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 18,
     "a": 21,
@@ -48850,7 +48850,7 @@
     "with": "Anil Rajpal",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 13,
     "a": 21,
@@ -48882,7 +48882,7 @@
     "with": "Claire Nguyen",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 20,
     "a": 22,
@@ -48898,7 +48898,7 @@
     "with": "Anil Rajpal",
     "vs": [
      "Conor Malloy",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -49721,7 +49721,7 @@
     "with": "Julie Randall",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 23,
@@ -49737,7 +49737,7 @@
     "with": "Ryo Inkyo",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -49753,7 +49753,7 @@
     "with": "Julie Randall",
     "vs": [
      "Christina Vuong",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 21,
     "a": 17,
@@ -49785,7 +49785,7 @@
     "with": "Nikhil Sachdeva",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -50514,7 +50514,7 @@
     "with": "Elizabeth Krebs",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 12,
     "a": 21,
@@ -50530,7 +50530,7 @@
     "with": "Brenton Pham",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 13,
     "a": 21,
@@ -50546,7 +50546,7 @@
     "with": "Mira Sigal-Feldman",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -50578,7 +50578,7 @@
     "with": "Brenton Pham",
     "vs": [
      "Conor Malloy",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -51036,7 +51036,7 @@
     "with": "Ted Asavamongkolkul",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 12,
     "a": 21,
@@ -51068,7 +51068,7 @@
     "with": "Robert Courchain",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -51100,7 +51100,7 @@
     "with": "Meghan Plunkett",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 14,
     "a": 21,
@@ -51116,7 +51116,7 @@
     "with": "Robert Courchain",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 13,
     "a": 21,
@@ -52078,7 +52078,7 @@
     "with": "Ryo Inkyo",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -52535,7 +52535,7 @@
     "with": "Quynh Nguyen",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -52551,7 +52551,7 @@
     "with": "Nick Boyes",
     "vs": [
      "Jonathan Macqueen",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 16,
     "a": 21,
@@ -52567,7 +52567,7 @@
     "with": "Victoria Young",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -52599,7 +52599,7 @@
     "with": "Nick Boyes",
     "vs": [
      "Joseph Luka",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 13,
     "a": 21,
@@ -52935,7 +52935,7 @@
     "with": "Robert Courchain",
     "vs": [
      "Deborah Chapman",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 17,
     "a": 21,
@@ -53865,7 +53865,7 @@
     "with": "Nick Boyes",
     "vs": [
      "Lisa Dinh",
-     "Joe Gronczewski"
+     "Joseph Gronczewski"
     ],
     "f": 14,
     "a": 21,
