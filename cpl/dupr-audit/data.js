@@ -9158,6 +9158,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jay Zeng",
+   "playerId": "abc4de4c-a9af-4b75-8e57-5b7374af96c2",
+   "team": "Stelton Sports",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
    "name": "Jayadeep Reddy Kamireddy",
    "playerId": "93805af5-9ac7-4fa5-8761-b7dab7f9dd9b",
    "team": "Picklr Newark",
@@ -10666,6 +10673,13 @@ window.DUPR_AUDIT = {
    "name": "Jonah Fliegelman",
    "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
    "team": "Dill Dinkers Hatboro The Factory",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Jonah Karczmer",
+   "playerId": "c33e6ff8-38a1-45ca-9abb-d05a7ae27079",
+   "team": "Bounce Malvern",
    "slug": "6619816f",
    "gender": "Male"
   },
@@ -19175,6 +19189,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Shannon Gaffney",
+   "playerId": "7e23d9c2-bced-4fb0-bda3-98864cc751d6",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Shannon Vinciguerra",
    "playerId": "d9f25bd7-6620-4a61-9092-af7d24b68b3e",
    "team": "Picklr Exton",
@@ -22189,13 +22210,6 @@ window.DUPR_AUDIT = {
    "playerId": "318197d4-7171-47d3-b14a-a5c9b4276f77",
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Zijian Zeng",
-   "playerId": "abc4de4c-a9af-4b75-8e57-5b7374af96c2",
-   "team": "Stelton Sports",
-   "slug": "2edc44e7",
    "gender": "Male"
   },
   {

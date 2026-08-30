@@ -2580,7 +2580,7 @@
     "t": "male",
     "with": "Tom Maley",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Jim Peng"
     ],
     "f": 22,
@@ -2612,7 +2612,7 @@
     "t": "male",
     "with": "Tom Maley",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Jim Peng"
     ],
     "f": 21,
@@ -2629,7 +2629,7 @@
     "with": "Carol Mastroianni",
     "vs": [
      "Mei Li",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 21,
     "a": 13,
@@ -4801,7 +4801,7 @@
     "with": "Simon Perry",
     "vs": [
      "Mei Li",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 21,
     "a": 13,
@@ -9118,7 +9118,7 @@
     "with": "Art Muth",
     "vs": [
      "June Lee",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 21,
     "a": 15,
@@ -10068,7 +10068,7 @@
     "t": "male",
     "with": "Simon Perry",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Jim Peng"
     ],
     "f": 22,
@@ -10084,7 +10084,7 @@
     "t": "male",
     "with": "Simon Perry",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Jim Peng"
     ],
     "f": 21,
@@ -10116,7 +10116,7 @@
     "t": "male",
     "with": "Marc Friedman",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Mengchu Zhou"
     ],
     "f": 21,
@@ -10537,7 +10537,7 @@
     "with": "Art Muth",
     "vs": [
      "Ann Betterton",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 19,
     "a": 21,
@@ -11232,7 +11232,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "mixed",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Carol Mastroianni",
      "Simon Perry"
@@ -12435,7 +12435,7 @@
     "t": "male",
     "with": "Tom Maley",
     "vs": [
-     "Zijian Zeng",
+     "Jay Zeng",
      "Mengchu Zhou"
     ],
     "f": 21,
@@ -12978,7 +12978,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "mixed",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Sue Johnson",
      "Art Muth"
@@ -14750,7 +14750,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "male",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Simon Perry",
      "Tom Maley"
@@ -14782,7 +14782,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "male",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Simon Perry",
      "Tom Maley"
@@ -15089,7 +15089,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "male",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Tom Maley",
      "Marc Friedman"
@@ -16047,7 +16047,7 @@
     "with": "Sue Johnson",
     "vs": [
      "Ann Betterton",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 19,
     "a": 21,
@@ -16111,7 +16111,7 @@
     "with": "Roseann Catania",
     "vs": [
      "June Lee",
-     "Zijian Zeng"
+     "Jay Zeng"
     ],
     "f": 21,
     "a": 15,
@@ -17011,7 +17011,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "mixed",
-    "with": "Zijian Zeng",
+    "with": "Jay Zeng",
     "vs": [
      "Roseann Catania",
      "Art Muth"
@@ -18025,7 +18025,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 122,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -21726,7 +21726,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 121,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.1
