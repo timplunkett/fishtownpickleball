@@ -6,6 +6,7 @@ const {
   getTravelDivisionSortKey,
   isGenderApiBase,
   travelDivisionGender,
+  displayPodGroups,
 } = require('./shared');
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
@@ -663,13 +664,15 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // label for it; podCount === 1 means the division isn't split.
   {
     const podMeta = assignPods(teamArr, matchups, podNameByTeam);
-    if (podMeta.podCount > 1) {
-      // Recompute powerRank within each pod so team pages show pod-relative rank.
-      for (let p = 1; p <= podMeta.podCount; p++) {
-        [...teamArr].filter(t => t.pod === p && t.power != null)
-          .sort((a, b) => b.power - a.power)
-          .forEach((t, i) => { t.powerRank = i + 1; });
-      }
+    // Recompute powerRank within the group the team page shows the team in — the
+    // league's own pod where it publishes one, the schedule section otherwise. The
+    // page prints this as "#3 of 6", and the 6 is that group's size, so a rank
+    // scoped to anything else would contradict its own denominator.
+    for (const group of displayPodGroups(teamArr, podMeta)) {
+      if (!group.label) continue; // undivided: the division-wide ranking already stands
+      group.teams.filter(t => t.power != null)
+        .sort((a, b) => b.power - a.power)
+        .forEach((t, i) => { t.powerRank = i + 1; });
     }
     // Expose pod metadata so the UI can render separate standings sections.
     divisionMeta = { ...(divisionMeta || {}), ...podMeta };

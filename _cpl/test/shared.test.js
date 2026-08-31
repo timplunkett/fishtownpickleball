@@ -2,6 +2,76 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const shared = require('../modules/shared');
 
+// --- displayPodGroups ------------------------------------------------------
+//
+// The one grouping the pipeline and the page both rank by, so a card's seed, a
+// team page's rank and the power rank behind it cannot disagree.
+
+const FUSED = {
+  // 4.0 travel: cross-pod play fuses three of the four pods into one schedule
+  // section, so the section label names three pods and groups by none of them.
+  teams: [
+    { name: 'NW One', pod: 1, reportedPod: 'Northwest' },
+    { name: 'NE One', pod: 2, reportedPod: 'Northeast' },
+    { name: 'SE One', pod: 2, reportedPod: 'Southeast' },
+    { name: 'SW One', pod: 2, reportedPod: 'Southwest' },
+    { name: 'NE Two', pod: 2, reportedPod: 'Northeast' },
+  ],
+  meta: {
+    podCount: 2,
+    podNames: ['Northwest', 'Northeast / Southeast / Southwest'],
+    reportedPods: ['Northeast', 'Northwest', 'Southeast', 'Southwest'],
+  },
+};
+
+test('displayPodGroups splits by the league\'s pods, not the fused section', () => {
+  const groups = shared.displayPodGroups(FUSED.teams, FUSED.meta);
+  assert.deepEqual(groups.map((group) => group.label),
+    ['Northeast', 'Northwest', 'Southeast', 'Southwest']);
+  assert.deepEqual(groups[0].teams.map((team) => team.name), ['NE One', 'NE Two']);
+  // A joint label belongs to the head-to-head grids and nowhere else.
+  groups.forEach(({ label }) => assert.ok(!label.includes(' / ')));
+});
+
+test('displayPodGroups falls back to the sections where no pods are published', () => {
+  const teams = FUSED.teams.map((team) => ({ ...team, reportedPod: null }));
+  const groups = shared.displayPodGroups(teams, { ...FUSED.meta, reportedPods: null });
+  assert.deepEqual(groups.map((group) => group.label),
+    ['Northwest', 'Northeast / Southeast / Southwest']);
+});
+
+test('displayPodGroups keeps the sections when one team is missing its pod', () => {
+  // A partial grouping would leave that team out of every group and out of the
+  // standings, so all or nothing.
+  const teams = FUSED.teams.map((team, index) => (
+    index === 2 ? { ...team, reportedPod: null } : team
+  ));
+  const groups = shared.displayPodGroups(teams, FUSED.meta);
+  assert.deepEqual(groups.map((group) => group.label),
+    ['Northwest', 'Northeast / Southeast / Southwest']);
+  assert.equal(groups.reduce((total, group) => total + group.teams.length, 0), teams.length);
+});
+
+test('an undivided division is one unlabelled group', () => {
+  const teams = [{ name: 'Solo', pod: 1, reportedPod: null }];
+  assert.deepEqual(shared.displayPodGroups(teams, { podCount: 1 }), [{ label: null, teams }]);
+  // A single published pod names nothing the heading doesn't already say.
+  assert.deepEqual(
+    shared.displayPodGroups([{ name: 'Solo', pod: 1, reportedPod: 'North' }], {
+      podCount: 1, reportedPods: ['North'],
+    }).map((group) => group.label),
+    [null],
+  );
+});
+
+test('displayPodGroups numbers unnamed sections and drops empty ones', () => {
+  const teams = [{ name: 'A', pod: 1 }, { name: 'B', pod: 3 }];
+  assert.deepEqual(
+    shared.displayPodGroups(teams, { podCount: 3 }).map((group) => group.label),
+    ['Pod 1', 'Pod 3'],
+  );
+});
+
 test('escapeHtml escapes the five specials', () => {
   assert.equal(shared.escapeHtml(`<a href="x">Tom & Jerry's</a>`),
     '&lt;a href=&quot;x&quot;&gt;Tom &amp; Jerry&#39;s&lt;/a&gt;');

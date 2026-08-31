@@ -500,9 +500,38 @@
     }]));
   }
 
+  // The groups the dashboard presents a division in: the league's own pods when it
+  // publishes one for every team, otherwise the schedule sections. A section is
+  // whatever the schedule connects, so a handful of cross-pod matchups fuse several
+  // pods into one section labelled "Northeast / Southeast / Southwest" — a heading
+  // that names three groups and groups by none of them. The head-to-head matrix is
+  // the one view that has to keep the sections, because a matrix has to contain
+  // every matchup it displays and only the sections guarantee that.
+  //
+  // Everything that ranks a team among its neighbours reads this, in the pipeline
+  // and on the page alike, so the seed on a card, the rank on a team page and the
+  // power rank behind it can't drift apart. `label` is null only for an undivided
+  // division, which has nothing to head. Teams keep the order they arrive in.
+  function displayPodGroups(teams, meta) {
+    const reported = (meta && meta.reportedPods) || null;
+    if (reported && reported.length > 1 && teams.every((team) => team.reportedPod)) {
+      return reported
+        .map((label) => ({ label, teams: teams.filter((team) => team.reportedPod === label) }))
+        .filter((group) => group.teams.length);
+    }
+    const podCount = meta && meta.podCount > 1 ? meta.podCount : 1;
+    if (podCount <= 1) return [{ label: null, teams: teams.slice() }];
+    const names = (meta && meta.podNames) || null;
+    return Array.from({ length: podCount }, (_, index) => ({
+      label: (names && names[index]) || `Pod ${index + 1}`,
+      teams: teams.filter((team) => team.pod === index + 1),
+    })).filter((group) => group.teams.length);
+  }
+
   return {
     escapeHtml,
     decodeHtmlEntities,
+    displayPodGroups,
     slugify,
     normalizeName,
     teamNameWords,

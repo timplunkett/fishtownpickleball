@@ -76,6 +76,7 @@ const RESULT_CLASS = Object.freeze({
 // Shared client utilities (cpl/shared.js loads before this file).
 const {
   escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex, buildTeamAbbreviations,
+  displayPodGroups,
 } = window.CPLShared;
 
 // Remembered view preferences: which sections you left collapsed, and which of
@@ -1285,28 +1286,20 @@ function teamCard(team, rank, groupLabel) {
       `;
 }
 
-// The groups the cards are split into: the league's own pods when it publishes
-// them, rather than the schedule sections. A section is whatever the schedule
-// connects, so a handful of cross-pod matchups fuse three pods into one section
-// labelled "Northeast / Southeast / Southwest" — a heading that names three
-// groups and groups by none of them, under a grid of eighteen cards. The
-// head-to-head matrix keeps the sections, because a matrix has to contain every
-// matchup it displays; a card only has to sit under the right heading.
-// Falls back to the sections where the league reports no usable pods.
+// The groups the cards are split into, and the groups a team is ranked within
+// wherever the page states a rank. The rule lives in shared.js, because the
+// pipeline ranks by it too — see displayPodGroups there for why the cards go by
+// the league's pods while the head-to-head grids keep the schedule sections.
 function cardPodGroups() {
-  const meta = DATA.meta || {};
-  const reported = meta.reportedPods || null;
-  if (reported && reported.length > 1 && DATA.teams.every((team) => team.reportedPod)) {
-    return reported
-      .map((label) => ({ label, teams: DATA.teams.filter((team) => team.reportedPod === label) }))
-      .filter((group) => group.teams.length);
-  }
-  const podCount = meta.podCount > 1 ? meta.podCount : 1;
-  if (podCount <= 1) return [{ label: null, teams: DATA.teams }];
-  return Array.from({ length: podCount }, (_, index) => ({
-    label: podLabel(index + 1),
-    teams: DATA.teams.filter((team) => team.pod === index + 1),
-  }));
+  return displayPodGroups(DATA.teams, DATA.meta || {});
+}
+
+// The group a single team's card sits in, for the pages that state its rank
+// within it. Falls back to the whole division for a team the grouping missed.
+function podGroupOf(team) {
+  const groups = cardPodGroups();
+  return groups.find((group) => group.teams.some((candidate) => candidate.name === team.name))
+    || { label: null, teams: DATA.teams };
 }
 
 function renderTeamCards() {
@@ -2888,10 +2881,18 @@ function renderPlayoffs() {
 
 function renderTeamPage(team, { scroll = true } = {}) {
   const color = getTeamColor(team.name);
-  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
-  const rankTeams = podCount > 1 ? DATA.teams.filter((t) => t.pod === team.pod) : DATA.teams;
+  // The card you clicked to get here is seeded within its pod, so this page says
+  // the same number: a rank that changed on the way through would read as a bug.
+  const group = podGroupOf(team);
+  const rankTeams = group.teams;
   const rank = rankTeams.findIndex((candidate) => candidate.name === team.name) + 1;
-  const rankLabel = podCount > 1 ? `#${rank} in ${escapeHtml(podLabel(team.pod))}` : `#${rank} in standings`;
+  const rankLabel = group.label
+    ? `#${rank} in ${escapeHtml(group.label)}`
+    : `#${rank} in standings`;
+  // powerRank is compiled within this same group, over the teams that have a power
+  // rating at all — a team with no rated games isn't in the ranking, so counting it
+  // in the denominator would make the last-placed team "#5 of 6".
+  const powerRanked = rankTeams.filter((candidate) => !isMissing(candidate.power)).length;
   const roster = DATA.players
     .filter((player) => player.team === team.name);
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
@@ -2988,7 +2989,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
-        <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${rankTeams.length})</span></span>
+        <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${powerRanked})</span></span>
       </div>
     </div>
     <div class="team-section">

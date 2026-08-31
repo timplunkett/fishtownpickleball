@@ -294,6 +294,30 @@ DIVISIONS.forEach(({ label, file }) => {
       );
     }
   });
+
+  // The team page prints the compiled powerRank as "#3 of 6" against the size of
+  // the group it shows the team in, so the pipeline has to have ranked within that
+  // same group. Compiled by _cpl, read by cpl/app.js — nothing but this checks
+  // that the two ends still agree.
+  test(`${label}: power is ranked within the group the team page shows`, () => {
+    const { DATA, podGroupOf } = runApp(file).context;
+    DATA.teams.forEach((team) => {
+      const group = podGroupOf(team);
+      const ranked = group.teams.filter((candidate) => candidate.power != null);
+      if (team.power == null) return;
+      assert.ok(
+        team.powerRank >= 1 && team.powerRank <= ranked.length,
+        `${label}: ${team.name} is power #${team.powerRank} of ${ranked.length} in "${group.label}"`,
+      );
+      // And the ranks in a group are exactly 1..n, so none is scoped elsewhere.
+      const ranks = [...ranked.map((candidate) => candidate.powerRank)].sort((a, b) => a - b);
+      assert.deepEqual(
+        ranks,
+        [...ranked.map((_, index) => index + 1)],
+        `${label}: "${group.label}" power ranks are not 1..${ranked.length}`,
+      );
+    });
+  });
 });
 
 // The division whose single 21-team pod is what made the matrix unusable.
