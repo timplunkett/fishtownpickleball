@@ -720,22 +720,25 @@ test('a team with no published pod falls back to the section label', () => {
 
 // --- Cards group by the league's pods, grids by the schedule ---------------
 
-// A division where 18 of 150 matchups cross a pod boundary has three of its four
-// pods fused into one schedule section. The section is the right unit for the
-// matrix — it has to hold every matchup it shows — but a heading reading
-// "Northeast / Southeast / Southwest" over eighteen cards groups by nothing, so
-// the cards go by the league's own pods instead.
+// A division where cross-pod play fuses three of the four pods into one schedule
+// section. The section is the right unit for the matrix — it has to hold every
+// matchup it shows — but a heading reading "Northeast / Southeast / Southwest"
+// over eighteen cards groups by nothing, so the cards go by the league's pods.
+// displayPodGroups itself is unit-tested in shared.test.js; these are about what
+// the page does with it.
 function podFixture() {
   const app = runApp();
-  const teams = [
-    { name: 'NW One', pod: 1, reportedPod: 'Northwest' },
-    { name: 'NE One', pod: 2, reportedPod: 'Northeast' },
-    { name: 'SE One', pod: 2, reportedPod: 'Southeast' },
-    { name: 'SW One', pod: 2, reportedPod: 'Southwest' },
-    { name: 'NE Two', pod: 2, reportedPod: 'Northeast' },
-  ];
+  const team = (name, pod, reportedPod) => ({
+    name, pod, reportedPod, w: 1, l: 0, gw: 3, gl: 2, pf: 44, pa: 40, diff: 4, power: 1,
+  });
   app.context.DATA = {
-    teams,
+    teams: [
+      team('NW One', 1, 'Northwest'),
+      team('NE One', 2, 'Northeast'),
+      team('SE One', 2, 'Southeast'),
+      team('SW One', 2, 'Southwest'),
+      team('NE Two', 2, 'Northeast'),
+    ],
     meta: {
       podCount: 2,
       podNames: ['Northwest', 'Northeast / Southeast / Southwest'],
@@ -745,19 +748,18 @@ function podFixture() {
   return app;
 }
 
-test('the cards group by the league\'s pods, not the fused schedule section', () => {
-  const { cardPodGroups } = podFixture().context;
-  assert.deepEqual(
-    [...cardPodGroups().map((group) => [group.label, [...group.teams.map((team) => team.name)]])],
-    [
-      ['Northeast', ['NE One', 'NE Two']],
-      ['Northwest', ['NW One']],
-      ['Southeast', ['SE One']],
-      ['Southwest', ['SW One']],
-    ],
-  );
-  // Specifically no joint heading, which is what the section label would give.
-  assert.ok(!cardPodGroups().some((group) => group.label.includes(' / ')));
+const headingsOf = (html) => [...html.matchAll(/<h3 class="pod-heading">([^<]*)<\/h3>/g)].map((m) => m[1]);
+
+test('the cards are headed by the league\'s pods, not the fused section', () => {
+  const app = podFixture();
+  app.context.renderTeamCards();
+  const html = app.el('teams').innerHTML;
+
+  assert.deepEqual(headingsOf(html), ['Northeast', 'Northwest', 'Southeast', 'Southwest']);
+  // Seeded within the pod, not across the fused section.
+  assert.equal((html.match(/<div class="seed">#1<\/div>/g) || []).length, 4);
+  // And the pod is not repeated as a tag on a card already under its heading.
+  assert.ok(!html.includes('class="tag pod-tag"'));
 });
 
 test('the head-to-head grids keep the joint section, cross-pod matchups and all', () => {
@@ -768,26 +770,23 @@ test('the head-to-head grids keep the joint section, cross-pod matchups and all'
   ]);
 });
 
-test('cards fall back to the schedule sections where the league reports no pods', () => {
+// What the team page ranks within, so the number on the card and the number on
+// the page it links to are the same number.
+test('a team is ranked within the pod group its card sits in', () => {
+  const { podGroupOf, DATA } = podFixture().context;
+  const group = podGroupOf(DATA.teams.find((team) => team.name === 'NE Two'));
+  assert.equal(group.label, 'Northeast');
+  assert.deepEqual([...group.teams.map((team) => team.name)], ['NE One', 'NE Two']);
+});
+
+test('a team outside any pod group still ranks against the division', () => {
   const app = podFixture();
-  app.context.DATA.meta.reportedPods = null;
-  app.context.DATA.teams.forEach((team) => { team.reportedPod = null; });
-  assert.deepEqual([...app.context.cardPodGroups().map((group) => group.label)], [
-    'Northwest',
-    'Northeast / Southeast / Southwest',
-  ]);
+  const group = app.context.podGroupOf({ name: 'Nobody', pod: 9, reportedPod: 'Nowhere' });
+  assert.equal(group.label, null);
+  assert.equal(group.teams.length, app.context.DATA.teams.length);
 });
 
-test('an undivided division gets one unheaded grid of cards', () => {
-  const app = runApp();
-  app.context.DATA = { teams: [{ name: 'Solo', pod: 1, reportedPod: null }], meta: { podCount: 1 } };
-  const groups = app.context.cardPodGroups();
-  assert.equal(groups.length, 1);
-  assert.equal(groups[0].label, null);
-  assert.deepEqual([...groups[0].teams.map((team) => team.name)], ['Solo']);
-});
-
-test('a card sitting under its own pod heading does not repeat it as a tag', () => {
+test('a card that is not under its own pod heading still shows the pod as a tag', () => {
   const { reportedPodTag } = runApp().context;
   const team = { pod: 2, reportedPod: 'Southeast' };
   assert.equal(reportedPodTag(team, 'Southeast'), '');
