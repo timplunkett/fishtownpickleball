@@ -149,13 +149,325 @@
     "week": 2,
     "rating": 3.2,
     "confidence": 50,
-    "rank": 3,
+    "rank": 4,
     "ratingGames": 7,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -2.3
    }
   ],
   "partners": []
+ },
+ "f5831f41-366b-4666-b780-448fc7971ad7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 103,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 114,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Gina Pultorak",
+    "vs": [
+     "Cynthia Covie",
+     "Derek Livingston"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Tim Bruno",
+     "Stepan Nevshehirlian"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Guy Judkowski",
+    "vs": [
+     "John Darrah",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Janine Forrest",
+    "vs": [
+     "Jiyun Yuh",
+     "Tim Bruno"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Tim Bruno",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Laura Sweet",
+     "Derek Livingston"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Stepan Nevshehirlian",
+     "John Darrah"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Lindsay Duphily",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Sandro Stefanelli",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Chris Norton",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Lindsay Duphily",
+     "Hal Golden"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Chris Norton",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Emily Abbott",
+    "vs": [
+     "Linda Zhu",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Jiang Jin",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 54,
+    "rank": 5,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 2.6,
+    "confidence": 70,
+    "rank": 7,
+    "ratingGames": 14,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
+    "name": "Tom Zentmeyer",
+    "n": 4,
+    "synergy": 0.4
+   }
+  ]
  },
  "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc": {
   "log": [
@@ -306,7 +618,7 @@
     "week": 2,
     "rating": 3.6,
     "confidence": 52,
-    "rank": 2,
+    "rank": 3,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.5
@@ -463,7 +775,7 @@
     "week": 2,
     "rating": 3.6,
     "confidence": 53,
-    "rank": 1,
+    "rank": 2,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.3
@@ -636,10 +948,10 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 53,
-    "rank": 9,
+    "rank": 10,
     "ratingGames": 8,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.7
+    "strengthOfOpponents": -1.8
    }
   ],
   "partners": []
@@ -793,7 +1105,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 47,
-    "rank": 8,
+    "rank": 9,
     "ratingGames": 7,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.4
@@ -1130,12 +1442,12 @@
    },
    {
     "week": 2,
-    "rating": 3.2,
-    "confidence": 47,
-    "rank": 4,
+    "rating": 3.8,
+    "confidence": 52,
+    "rank": 1,
     "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -1.4
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -1297,177 +1609,11 @@
    {
     "week": 2,
     "rating": 1.8,
-    "confidence": 49,
+    "confidence": 50,
     "rank": 21,
     "ratingGames": 7,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -2.1
-   }
-  ],
-  "partners": []
- },
- "c365e1dd-21cf-4f38-a802-1aaaf6d0914b": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 96,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Guy Judkowski",
-    "vs": [
-     "Laura Sweet",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Gina Pultorak",
-    "vs": [
-     "Cynthia Covie",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Thomas Ross",
-    "vs": [
-     "Jiyun Yuh",
-     "Tim Bruno"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Cynthia Covie",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Janine Forrest",
-    "vs": [
-     "Laura Sweet",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Jay Rohatgi",
-    "vs": [
-     "Laura Sweet",
-     "Derek Livingston"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Janet Garrity",
-    "vs": [
-     "Cynthia Covie",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.5,
-    "confidence": 50,
-    "rank": 3,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 2,
-    "rating": 2.4,
-    "confidence": 51,
-    "rank": 12,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.5
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -2.2
    }
   ],
   "partners": []
@@ -1757,8 +1903,8 @@
     "confidence": 56,
     "rank": 29,
     "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.8
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -2
    }
   ],
   "partners": []
@@ -1945,172 +2091,6 @@
   ],
   "partners": []
  },
- "f5831f41-366b-4666-b780-448fc7971ad7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 103,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Gina Pultorak",
-    "vs": [
-     "Cynthia Covie",
-     "Derek Livingston"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Tom Zentmeyer",
-    "vs": [
-     "Tim Bruno",
-     "Stepan Nevshehirlian"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Guy Judkowski",
-    "vs": [
-     "John Darrah",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Janine Forrest",
-    "vs": [
-     "Jiyun Yuh",
-     "Tim Bruno"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Robert Block",
-    "vs": [
-     "Tim Bruno",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Jane Meng",
-    "vs": [
-     "Laura Sweet",
-     "Derek Livingston"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Tom Zentmeyer",
-    "vs": [
-     "Stepan Nevshehirlian",
-     "John Darrah"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.1,
-    "confidence": 54,
-    "rank": 5,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 2,
-    "rating": 1.8,
-    "confidence": 56,
-    "rank": 20,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.3
-   }
-  ],
-  "partners": []
- },
  "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040": {
   "log": [
    {
@@ -2260,7 +2240,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 51,
-    "rank": 45,
+    "rank": 49,
     "ratingGames": 7,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.5
@@ -2401,7 +2381,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 48,
-    "rank": 7,
+    "rank": 8,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -2558,144 +2538,10 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 35,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.3
-   }
-  ],
-  "partners": []
- },
- "dd30bbd2-24c2-431a-8b21-2de326c75ab3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 71,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Karen Moliver",
-    "vs": [
-     "Kelly Dalsey",
-     "Laura Sweet"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Kelly Dalsey",
-     "Derek Livingston"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Karen Moliver",
-    "vs": [
-     "Cynthia Covie",
-     "Laura Sweet"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Jay Rohatgi",
-    "vs": [
-     "Jiyun Yuh",
-     "Tim Bruno"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Jane Meng",
-    "vs": [
-     "Laura Sweet",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.9,
-    "confidence": 45,
-    "rank": 21,
-    "ratingGames": 5,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -1.7
-   },
-   {
-    "week": 2,
-    "rating": 0.7,
-    "confidence": 46,
-    "rank": 49,
-    "ratingGames": 5,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": -2
    }
   ],
   "partners": []
@@ -2833,7 +2679,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 69,
+    "rank": 72,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -2
@@ -2990,7 +2836,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 51,
-    "rank": 19,
+    "rank": 18,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -3325,7 +3171,7 @@
    },
    {
     "week": 2,
-    "rating": 2.9,
+    "rating": 2.8,
     "confidence": 68,
     "rank": 6,
     "ratingGames": 16,
@@ -3513,7 +3359,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 53,
-    "rank": 11,
+    "rank": 12,
     "ratingGames": 8,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.5
@@ -3686,7 +3532,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 50,
-    "rank": 43,
+    "rank": 46,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.5
@@ -3857,12 +3703,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.7,
-    "confidence": 51,
-    "rank": 23,
+    "rating": 1.8,
+    "confidence": 52,
+    "rank": 20,
     "ratingGames": 8,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.1
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -4032,7 +3878,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 54,
-    "rank": 42,
+    "rank": 45,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
@@ -4214,7 +4060,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 34,
+    "rank": 36,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.1
@@ -4535,7 +4381,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 66,
-    "rank": 32,
+    "rank": 31,
     "ratingGames": 15,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -4555,172 +4401,6 @@
     "synergy": -0.9
    }
   ]
- },
- "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 99,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Karen Moliver",
-    "vs": [
-     "Kelly Dalsey",
-     "Tim Bruno"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jay Rohatgi",
-    "vs": [
-     "Tim Bruno",
-     "Stepan Nevshehirlian"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Gina Pultorak",
-    "vs": [
-     "Laura Sweet",
-     "John Darrah"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Ross",
-    "vs": [
-     "Derek Livingston",
-     "Stepan Nevshehirlian"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Guy Judkowski",
-    "vs": [
-     "Derek Livingston",
-     "Stepan Nevshehirlian"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Karen Moliver",
-    "vs": [
-     "Cynthia Covie",
-     "Tim Bruno"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jay Rohatgi",
-    "vs": [
-     "Stepan Nevshehirlian",
-     "John Darrah"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.1,
-    "confidence": 50,
-    "rank": 6,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 2,
-    "rating": 1.5,
-    "confidence": 53,
-    "rank": 26,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.5
-   }
-  ],
-  "partners": []
  },
  "9fc26554-f672-4501-9d2e-a8553fd79eaf": {
   "log": [
@@ -5035,12 +4715,12 @@
    },
    {
     "week": 2,
-    "rating": 1.9,
-    "confidence": 53,
-    "rank": 18,
+    "rating": 1.8,
+    "confidence": 56,
+    "rank": 19,
     "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -5194,10 +4874,167 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 36,
+    "rank": 39,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": []
+ },
+ "36927aca-827a-4408-ab82-9dc0d06e2c8d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 125,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Lindsay Duphily",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janine Forrest",
+    "vs": [
+     "Lindsay Duphily",
+     "Jamila Sefiane"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Emily Abbott",
+    "vs": [
+     "Sandra Thompson",
+     "Christine Dugan"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Sandra Thompson",
+     "David Marchese"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janet Garrity",
+    "vs": [
+     "Sandra Thompson",
+     "Jamila Sefiane"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Thomas Ross",
+    "vs": [
+     "Christine Dugan",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Christine Dugan",
+     "Linda Zhu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 55,
+    "rank": 26,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -5351,7 +5188,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.1
@@ -5385,6 +5222,33 @@
     "teamRes": "W",
     "teamGW": 29,
     "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 101,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    }
@@ -5485,6 +5349,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "David Marchese",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Lindsay Duphily",
+     "Jiang Jin"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Jiang Jin",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janine Forrest",
+    "vs": [
+     "Linda Zhu",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Christine Dugan",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Sandro Stefanelli",
+     "Chris Norton"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -5499,15 +5459,22 @@
    },
    {
     "week": 2,
-    "rating": 0.6,
-    "confidence": 53,
-    "rank": 51,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.4
+    "rating": 1.1,
+    "confidence": 69,
+    "rank": 40,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
+    "name": "Tom Zentmeyer",
+    "n": 3,
+    "synergy": 1.1
+   }
+  ]
  },
  "45efdf62-1562-4402-afee-8f0e1e3e81c1": {
   "log": [
@@ -5642,7 +5609,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 53,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
@@ -5783,310 +5750,10 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 49,
-    "rank": 46,
+    "rank": 50,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
-   }
-  ],
-  "partners": []
- },
- "e687e44a-22a6-4f8e-a3ac-b328fae537c3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 121,
-    "pa": 102,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Robert Block",
-    "vs": [
-     "Jiyun Yuh",
-     "John Darrah"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Guy Judkowski",
-    "vs": [
-     "Cynthia Covie",
-     "Stepan Nevshehirlian"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Gina Pultorak",
-    "vs": [
-     "Kelly Dalsey",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Karen Moliver",
-    "vs": [
-     "Cynthia Covie",
-     "Kelly Dalsey"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Thomas Ross",
-    "vs": [
-     "Jiyun Yuh",
-     "John Darrah"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Jane Meng",
-    "vs": [
-     "Cynthia Covie",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.1,
-    "confidence": 46,
-    "rank": 37,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 2,
-    "rating": -0.2,
-    "confidence": 47,
-    "rank": 75,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.4
-   }
-  ],
-  "partners": []
- },
- "23d1d322-f31d-46b3-bf95-d86faab58b06": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 121,
-    "pa": 104,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Janet Garrity",
-    "vs": [
-     "Jiyun Yuh",
-     "John Darrah"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Ross",
-    "vs": [
-     "John Darrah",
-     "Tom Kresky"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Janine Forrest",
-    "vs": [
-     "Kelly Dalsey",
-     "Derek Livingston"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Jane Meng",
-    "vs": [
-     "Cynthia Covie",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jay Rohatgi",
-    "vs": [
-     "Tim Bruno",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Gina Pultorak",
-    "vs": [
-     "Kelly Dalsey",
-     "Tom Kresky"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.5,
-    "confidence": 47,
-    "rank": 47,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 2,
-    "rating": -0.6,
-    "confidence": 48,
-    "rank": 87,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -6224,7 +5891,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 76,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -6378,6 +6045,263 @@
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "dd30bbd2-24c2-431a-8b21-2de326c75ab3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 71,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 117,
+    "pa": 111,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Kelly Dalsey",
+     "Laura Sweet"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Kelly Dalsey",
+     "Derek Livingston"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Cynthia Covie",
+     "Laura Sweet"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Jiyun Yuh",
+     "Tim Bruno"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Laura Sweet",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Sandra Thompson",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Lindsay Duphily",
+     "Jamila Sefiane"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Christine Dugan",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Linda Zhu",
+     "Jamila Sefiane"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Thomas Ross",
+    "vs": [
+     "Linda Zhu",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Emily Abbott",
+    "vs": [
+     "Lindsay Duphily",
+     "Christine Dugan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.9,
+    "confidence": 45,
+    "rank": 21,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.7
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 66,
+    "rank": 47,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -6709,9 +6633,9 @@
    },
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 69,
-    "rank": 31,
+    "rank": 34,
     "ratingGames": 16,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.6
@@ -6725,6 +6649,311 @@
     "synergy": -1.2
    }
   ]
+ },
+ "c365e1dd-21cf-4f38-a802-1aaaf6d0914b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 96,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 141,
+    "pa": 139,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     4,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Laura Sweet",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Gina Pultorak",
+    "vs": [
+     "Cynthia Covie",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Thomas Ross",
+    "vs": [
+     "Jiyun Yuh",
+     "Tim Bruno"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Cynthia Covie",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Janine Forrest",
+    "vs": [
+     "Laura Sweet",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Laura Sweet",
+     "Derek Livingston"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Janet Garrity",
+    "vs": [
+     "Cynthia Covie",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Jamila Sefiane",
+     "Chris Norton"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janet Garrity",
+    "vs": [
+     "Sandra Thompson",
+     "Linda Zhu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Thomas Ross",
+    "vs": [
+     "Lindsay Duphily",
+     "Jiang Jin"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janine Forrest",
+    "vs": [
+     "Linda Zhu",
+     "Jamila Sefiane"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Lindsay Duphily",
+     "Hal Golden"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 28,
+    "a": 26,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Christine Dugan",
+     "Linda Zhu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.5,
+    "confidence": 50,
+    "rank": 3,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 70,
+    "rank": 33,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
  },
  "0d70122a-9002-461f-8600-a9afed2e8c3f": {
   "log": [
@@ -7399,7 +7628,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 70,
-    "rank": 74,
+    "rank": 76,
     "ratingGames": 16,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -0.8
@@ -7416,7 +7645,7 @@
     "pid": "8decf039-f1e5-4182-b3cf-6756789ae87a",
     "name": "Kate Siedell",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -7583,12 +7812,285 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.2,
-    "confidence": 55,
-    "rank": 62,
+    "rating": 0.1,
+    "confidence": 56,
+    "rank": 69,
     "ratingGames": 8,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.6
+   }
+  ],
+  "partners": []
+ },
+ "23d1d322-f31d-46b3-bf95-d86faab58b06": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 104,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 113,
+    "pa": 116,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Janet Garrity",
+    "vs": [
+     "Jiyun Yuh",
+     "John Darrah"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Ross",
+    "vs": [
+     "John Darrah",
+     "Tom Kresky"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Janine Forrest",
+    "vs": [
+     "Kelly Dalsey",
+     "Derek Livingston"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Cynthia Covie",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Tim Bruno",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Gina Pultorak",
+    "vs": [
+     "Kelly Dalsey",
+     "Tom Kresky"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janine Forrest",
+    "vs": [
+     "Sandra Thompson",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Sandro Stefanelli",
+     "Jiang Jin"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Emily Abbott",
+    "vs": [
+     "Linda Zhu",
+     "Chris Norton"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janet Garrity",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Sandro Stefanelli",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 28,
+    "a": 26,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 47,
+    "rank": 47,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 66,
+    "rank": 89,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -7906,7 +8408,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 71,
-    "rank": 24,
+    "rank": 23,
     "ratingGames": 15,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -7917,7 +8419,325 @@
     "pid": "0530512b-466d-4ff7-9e89-7961b4a63110",
     "name": "Jim Darcangelo",
     "n": 3,
-    "synergy": 1.8
+    "synergy": 1.7
+   }
+  ]
+ },
+ "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 99,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 135,
+    "pa": 117,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Karen Moliver",
+    "vs": [
+     "Kelly Dalsey",
+     "Tim Bruno"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Tim Bruno",
+     "Stepan Nevshehirlian"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Gina Pultorak",
+    "vs": [
+     "Laura Sweet",
+     "John Darrah"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Ross",
+    "vs": [
+     "Derek Livingston",
+     "Stepan Nevshehirlian"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Derek Livingston",
+     "Stepan Nevshehirlian"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Karen Moliver",
+    "vs": [
+     "Cynthia Covie",
+     "Tim Bruno"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Stepan Nevshehirlian",
+     "John Darrah"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jane Meng",
+    "vs": [
+     "Jamila Sefiane",
+     "Chris Norton"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Thomas Ross",
+    "vs": [
+     "David Marchese",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janine Forrest",
+    "vs": [
+     "Christine Dugan",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Chris Norton",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Chris Norton",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janet Garrity",
+    "vs": [
+     "Jamila Sefiane",
+     "Jiang Jin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Thomas Ross",
+    "vs": [
+     "Sandro Stefanelli",
+     "Chris Norton"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 50,
+    "rank": 6,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 69,
+    "rank": 58,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "eab86a29-43ef-4b31-ba94-928f57f56c9c",
+    "name": "Thomas Ross",
+    "n": 3,
+    "synergy": 1.1
+   },
+   {
+    "pid": "f5831f41-366b-4666-b780-448fc7971ad7",
+    "name": "Jay Rohatgi",
+    "n": 4,
+    "synergy": 0.4
    }
   ]
  },
@@ -8217,8 +9037,8 @@
    {
     "week": 2,
     "rating": 2.4,
-    "confidence": 67,
-    "rank": 10,
+    "confidence": 68,
+    "rank": 11,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -8547,172 +9367,6 @@
   ],
   "partners": []
  },
- "de318a9b-7e48-41ed-ba22-e06fe8e1f894": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 138,
-    "pa": 123,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Katrina Mcintyre",
-     "David Mcintyre"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Christine Dugan",
-    "vs": [
-     "Christine Papa",
-     "Kristen Soucie"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Brett Kleger",
-    "vs": [
-     "Christine Papa",
-     "Craig Batten"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jamila Sefiane",
-    "vs": [
-     "Christine Papa",
-     "Denise Richmond"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Cindy Hu",
-    "vs": [
-     "Denise Richmond",
-     "Kristen Soucie"
-    ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Jiang Jin",
-    "vs": [
-     "Katrina Mcintyre",
-     "Craig Batten"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Cindy Hu",
-    "vs": [
-     "Christine Papa",
-     "Kristen Soucie"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.5,
-    "confidence": 50,
-    "rank": 12,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 2,
-    "rating": 1.2,
-    "confidence": 51,
-    "rank": 37,
-    "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
  "aeff8297-a479-4b3b-9a49-72c410ac8e26": {
   "log": [
    {
@@ -8871,7 +9525,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 48,
-    "rank": 39,
+    "rank": 42,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 1.1
@@ -9225,7 +9879,7 @@
     "pid": "9c29c52b-9d2a-4a5f-b967-7bafd018446b",
     "name": "Sandy Alkins",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -9503,9 +10157,9 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 50,
-    "rank": 68,
+    "rank": 71,
     "ratingGames": 6,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -9537,6 +10191,33 @@
     "teamRes": "W",
     "teamGW": 29,
     "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 114,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    }
@@ -9637,6 +10318,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Emily Abbott",
+    "vs": [
+     "Christine Dugan",
+     "David Marchese"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Janet Garrity",
+    "vs": [
+     "Jamila Sefiane",
+     "Sandro Stefanelli"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Thomas Ross",
+    "vs": [
+     "Jiang Jin",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Sandra Thompson",
+     "David Marchese"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Robert Block",
+    "vs": [
+     "Sandro Stefanelli",
+     "David Marchese"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Jiang Jin",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -9651,12 +10428,12 @@
    },
    {
     "week": 2,
-    "rating": -1.1,
-    "confidence": 52,
-    "rank": 99,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.3
+    "rating": -0.9,
+    "confidence": 68,
+    "rank": 96,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -9801,12 +10578,12 @@
    },
    {
     "week": 2,
-    "rating": 0.1,
-    "confidence": 49,
-    "rank": 70,
+    "rating": 0.2,
+    "confidence": 52,
+    "rank": 62,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -9951,11 +10728,11 @@
    },
    {
     "week": 2,
-    "rating": 0.6,
+    "rating": 0.7,
     "confidence": 47,
     "rank": 52,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -10094,7 +10871,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 50,
-    "rank": 88,
+    "rank": 92,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -10235,7 +11012,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 56,
+    "rank": 57,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.4
@@ -10540,7 +11317,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 68,
-    "rank": 38,
+    "rank": 41,
     "ratingGames": 14,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -10713,7 +11490,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 53,
-    "rank": 44,
+    "rank": 48,
     "ratingGames": 8,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.1
@@ -11075,12 +11852,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
-    "confidence": 56,
-    "rank": 47,
+    "rating": 1.2,
+    "confidence": 59,
+    "rank": 35,
     "ratingGames": 8,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -11259,7 +12036,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 53,
-    "rank": 67,
+    "rank": 70,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0
@@ -11548,7 +12325,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 67,
-    "rank": 77,
+    "rank": 80,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -11866,7 +12643,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 70,
-    "rank": 41,
+    "rank": 44,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -11877,7 +12654,7 @@
     "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
     "name": "Tera Baccile",
     "n": 3,
-    "synergy": 1.8
+    "synergy": 1.7
    }
   ]
  },
@@ -12344,7 +13121,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 54,
-    "rank": 72,
+    "rank": 74,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.8
@@ -12649,7 +13426,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 62,
-    "rank": 85,
+    "rank": 90,
     "ratingGames": 11,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -12667,6 +13444,604 @@
     "name": "Susan Ackley",
     "n": 3,
     "synergy": -0.9
+   }
+  ]
+ },
+ "de318a9b-7e48-41ed-ba22-e06fe8e1f894": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 138,
+    "pa": 123,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 115,
+    "pa": 110,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Katrina Mcintyre",
+     "David Mcintyre"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Christine Papa",
+     "Kristen Soucie"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Brett Kleger",
+    "vs": [
+     "Christine Papa",
+     "Craig Batten"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Christine Papa",
+     "Denise Richmond"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Cindy Hu",
+    "vs": [
+     "Denise Richmond",
+     "Kristen Soucie"
+    ],
+    "f": 27,
+    "a": 29,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jiang Jin",
+    "vs": [
+     "Katrina Mcintyre",
+     "Craig Batten"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Cindy Hu",
+    "vs": [
+     "Christine Papa",
+     "Kristen Soucie"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Hal Golden",
+    "vs": [
+     "Alicia Maguire",
+     "Jay Rohatgi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Alicia Maguire",
+     "Janine Forrest"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jiang Jin",
+    "vs": [
+     "Jane Meng",
+     "Thomas Ross"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Hal Golden",
+    "vs": [
+     "Jane Meng",
+     "Jay Rohatgi"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Emily Abbott",
+     "Janine Forrest"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Emily Abbott",
+     "Janet Garrity"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.5,
+    "confidence": 50,
+    "rank": 12,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 68,
+    "rank": 24,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c0851114-0611-4b02-9589-fd249179eabc",
+    "name": "Jamila Sefiane",
+    "n": 3,
+    "synergy": 0.5
+   }
+  ]
+ },
+ "c0851114-0611-4b02-9589-fd249179eabc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 97,
+    "pa": 119,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 139,
+    "pa": 127,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Katrina Mcintyre",
+     "Denise Richmond"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Kristen Soucie",
+     "David Osborne"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Christine Papa",
+     "Denise Richmond"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Katrina Mcintyre",
+     "Eric Luque"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Christine Papa",
+     "David Osborne"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Katrina Mcintyre",
+     "Denise Richmond"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Jane Meng",
+     "Tom Zentmeyer"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Alicia Maguire",
+     "Janine Forrest"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Janet Garrity",
+     "Guy Judkowski"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jane Meng",
+     "Janine Forrest"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Alicia Maguire",
+     "Janet Garrity"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jiang Jin",
+    "vs": [
+     "Janet Garrity",
+     "Tom Zentmeyer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Emily Abbott",
+     "Janet Garrity"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 48,
+    "rank": 43,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 68,
+    "rank": 73,
+    "ratingGames": 13,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "de318a9b-7e48-41ed-ba22-e06fe8e1f894",
+    "name": "Lindsay Duphily",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
+    "name": "Chris Norton",
+    "n": 3,
+    "synergy": 0.3
    }
   ]
  },
@@ -12811,32 +14186,59 @@
   ],
   "partners": []
  },
- "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31": {
+ "e687e44a-22a6-4f8e-a3ac-b328fae537c3": {
   "log": [
    {
     "week": 1,
-    "opp": "Flemington Green",
+    "opp": "APC Garden State",
     "homeAway": "H",
-    "w": 3,
-    "l": 3,
+    "w": 5,
+    "l": 1,
     "gp": 6,
-    "pf": 113,
-    "pa": 109,
+    "pf": 121,
+    "pa": 102,
     "mx": [
      2,
      1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 106,
+    "pa": 120,
+    "mx": [
+     0,
+     3
     ],
     "gn": [
      1,
      2
     ],
     "cl": [
-     1,
-     1
+     0,
+     3
     ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    }
@@ -12844,28 +14246,28 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Flemington Green",
+    "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Jiang Jin",
+    "with": "Robert Block",
     "vs": [
-     "Christine Papa",
-     "Eric Luque"
+     "Jiyun Yuh",
+     "John Darrah"
     ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
+    "f": 22,
+    "a": 20,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
     "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jamila Sefiane",
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Guy Judkowski",
     "vs": [
-     "Katrina Mcintyre",
-     "Denise Richmond"
+     "Cynthia Covie",
+     "Stepan Nevshehirlian"
     ],
     "f": 16,
     "a": 21,
@@ -12876,31 +14278,15 @@
    },
    {
     "wk": 1,
-    "opp": "Flemington Green",
+    "opp": "APC Garden State",
     "t": "female",
-    "with": "Cindy Hu",
+    "with": "Gina Pultorak",
     "vs": [
-     "Katrina Mcintyre",
-     "Kristen Soucie"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Brett Kleger",
-    "vs": [
-     "Kristen Soucie",
-     "Craig Batten"
+     "Kelly Dalsey",
+     "Jiyun Yuh"
     ],
     "f": 21,
-    "a": 12,
+    "a": 11,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -12908,14 +14294,62 @@
    },
    {
     "wk": 1,
-    "opp": "Flemington Green",
+    "opp": "APC Garden State",
     "t": "female",
-    "with": "Christine Dugan",
+    "with": "Karen Moliver",
     "vs": [
-     "Katrina Mcintyre",
-     "Christine Papa"
+     "Cynthia Covie",
+     "Kelly Dalsey"
     ],
-    "f": 15,
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Thomas Ross",
+    "vs": [
+     "Jiyun Yuh",
+     "John Darrah"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Cynthia Covie",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Jane Meng",
+    "vs": [
+     "Sandra Thompson",
+     "Linda Zhu"
+    ],
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -12923,17 +14357,81 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Flemington Green",
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
     "t": "mixed",
-    "with": "Sandro Stefanelli",
+    "with": "Guy Judkowski",
     "vs": [
-     "Denise Richmond",
-     "David Mcintyre"
+     "Jamila Sefiane",
+     "Sandro Stefanelli"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Sandra Thompson",
+     "Jamila Sefiane"
     ],
     "f": 21,
     "a": 15,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Tom Zentmeyer",
+    "vs": [
+     "Jamila Sefiane",
+     "Jiang Jin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Emily Abbott",
+    "vs": [
+     "Lindsay Duphily",
+     "Jamila Sefiane"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -12942,21 +14440,162 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.7,
-    "confidence": 51,
-    "rank": 23,
+    "rating": -0.1,
+    "confidence": 46,
+    "rank": 37,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.2
    },
    {
     "week": 2,
-    "rating": 0.4,
-    "confidence": 51,
-    "rank": 55,
+    "rating": -0.9,
+    "confidence": 66,
+    "rank": 97,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": []
+ },
+ "fd596225-797e-4125-876b-633dae2efc65": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 111,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Jane Meng",
+     "Janet Garrity"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Emily Abbott",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Jane Meng",
+     "Janine Forrest"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jiang Jin",
+    "vs": [
+     "Janine Forrest",
+     "Thomas Ross"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Norton",
+    "vs": [
+     "Emily Abbott",
+     "Jay Rohatgi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Alicia Maguire",
+     "Jane Meng"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 52,
+    "rank": 38,
     "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -13094,7 +14733,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 54,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -13235,10 +14874,595 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 40,
+    "rank": 43,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "213bd4a2-a13d-4540-b93e-69e1e9116ff8": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 101,
+    "pa": 119,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 135,
+    "pa": 130,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Hal Golden",
+    "vs": [
+     "Kristen Soucie",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Christine Papa",
+     "Kristen Soucie"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Denise Richmond",
+     "Eric Luque"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Hal Golden",
+    "vs": [
+     "Denise Richmond",
+     "David Mcintyre"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Katrina Mcintyre",
+     "Christine Papa"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Katrina Mcintyre",
+     "Denise Richmond"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "David Marchese",
+    "vs": [
+     "Emily Abbott",
+     "Guy Judkowski"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Hal Golden",
+    "vs": [
+     "Janine Forrest",
+     "Tom Zentmeyer"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Alicia Maguire",
+     "Emily Abbott"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Janet Garrity",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Emily Abbott",
+     "Janine Forrest"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "David Marchese",
+    "vs": [
+     "Alicia Maguire",
+     "Thomas Ross"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Alicia Maguire",
+     "Jane Meng"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.5,
+    "confidence": 50,
+    "rank": 62,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 68,
+    "rank": 93,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "476c99a2-15e5-4e99-8471-7c2b6394faa3",
+    "name": "Hal Golden",
+    "n": 3,
+    "synergy": 0.1
+   }
+  ]
+ },
+ "1872d8d8-f958-4747-af3a-443d5f88a1c3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 120,
+    "pa": 136,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 117,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Cindy Hu",
+    "vs": [
+     "Denise Richmond",
+     "David Osborne"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Brett Kleger",
+    "vs": [
+     "Craig Batten",
+     "Richard Demeuse"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Denise Richmond",
+     "Eric Luque"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Craig Batten",
+     "David Osborne"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Katrina Mcintyre",
+     "Eric Luque"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Denise Richmond",
+     "David Mcintyre"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Eric Luque",
+     "David Osborne"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Jiang Jin",
+    "vs": [
+     "Jay Rohatgi",
+     "Robert Block"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Janet Garrity",
+     "Guy Judkowski"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Janet Garrity",
+     "Robert Block"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "David Marchese",
+    "vs": [
+     "Guy Judkowski",
+     "Robert Block"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Jane Meng",
+     "Robert Block"
+    ],
+    "f": 26,
+    "a": 28,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Thomas Ross",
+     "Tom Zentmeyer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 52,
+    "rank": 25,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 68,
+    "rank": 54,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -13556,12 +15780,12 @@
    },
    {
     "week": 2,
-    "rating": -0.8,
-    "confidence": 53,
-    "rank": 90,
+    "rating": -0.4,
+    "confidence": 54,
+    "rank": 84,
     "ratingGames": 7,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -13863,7 +16087,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 68,
-    "rank": 106,
+    "rank": 107,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -13878,20 +16102,20 @@
    }
   ]
  },
- "1872d8d8-f958-4747-af3a-443d5f88a1c3": {
+ "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31": {
   "log": [
    {
     "week": 1,
     "opp": "Flemington Green",
     "homeAway": "H",
     "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 120,
-    "pa": 136,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 109,
     "mx": [
      2,
-     2
+     1
     ],
     "gn": [
      1,
@@ -13906,6 +16130,33 @@
     "teamGL": 19,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 113,
+    "pa": 122,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -13913,13 +16164,13 @@
     "wk": 1,
     "opp": "Flemington Green",
     "t": "mixed",
-    "with": "Cindy Hu",
+    "with": "Jiang Jin",
     "vs": [
-     "Denise Richmond",
-     "David Osborne"
+     "Christine Papa",
+     "Eric Luque"
     ],
-    "f": 21,
-    "a": 23,
+    "f": 19,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -13928,27 +16179,11 @@
    {
     "wk": 1,
     "opp": "Flemington Green",
-    "t": "male",
-    "with": "Brett Kleger",
+    "t": "female",
+    "with": "Jamila Sefiane",
     "vs": [
-     "Craig Batten",
-     "Richard Demeuse"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Christine Dugan",
-    "vs": [
-     "Denise Richmond",
-     "Eric Luque"
+     "Katrina Mcintyre",
+     "Denise Richmond"
     ],
     "f": 16,
     "a": 21,
@@ -13960,13 +16195,45 @@
    {
     "wk": 1,
     "opp": "Flemington Green",
-    "t": "male",
-    "with": "Hal Golden",
+    "t": "female",
+    "with": "Cindy Hu",
     "vs": [
-     "Craig Batten",
-     "David Osborne"
+     "Katrina Mcintyre",
+     "Kristen Soucie"
     ],
-    "f": 13,
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Brett Kleger",
+    "vs": [
+     "Kristen Soucie",
+     "Craig Batten"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Katrina Mcintyre",
+     "Christine Papa"
+    ],
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -13977,23 +16244,7 @@
     "wk": 1,
     "opp": "Flemington Green",
     "t": "mixed",
-    "with": "Jamila Sefiane",
-    "vs": [
-     "Katrina Mcintyre",
-     "Eric Luque"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Sandra Thompson",
+    "with": "Sandro Stefanelli",
     "vs": [
      "Denise Richmond",
      "David Mcintyre"
@@ -14006,16 +16257,96 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Chris Norton",
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jiang Jin",
     "vs": [
-     "Eric Luque",
-     "David Osborne"
+     "Janine Forrest",
+     "Robert Block"
     ],
-    "f": 9,
+    "f": 18,
     "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Linda Zhu",
+    "vs": [
+     "Jane Meng",
+     "Janet Garrity"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Christine Dugan",
+    "vs": [
+     "Alicia Maguire",
+     "Emily Abbott"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "David Marchese",
+    "vs": [
+     "Alicia Maguire",
+     "Guy Judkowski"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Alicia Maguire",
+     "Janet Garrity"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Jane Meng",
+     "Robert Block"
+    ],
+    "f": 26,
+    "a": 28,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -14025,21 +16356,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.6,
-    "confidence": 52,
-    "rank": 25,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1.2
+    "rating": 0.7,
+    "confidence": 51,
+    "rank": 23,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 2,
-    "rating": 0.3,
-    "confidence": 53,
-    "rank": 58,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.8
+    "rating": -0.2,
+    "confidence": 68,
+    "rank": 77,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -14309,7 +16640,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 61,
-    "rank": 57,
+    "rank": 59,
     "ratingGames": 10,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0
@@ -14447,7 +16778,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 47,
-    "rank": 83,
+    "rank": 87,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -14734,12 +17065,12 @@
    },
    {
     "week": 2,
-    "rating": 0,
-    "confidence": 67,
-    "rank": 71,
+    "rating": 0.1,
+    "confidence": 68,
+    "rank": 67,
     "ratingGames": 13,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -14916,12 +17247,12 @@
    },
    {
     "week": 2,
-    "rating": -0.3,
-    "confidence": 56,
-    "rank": 79,
+    "rating": 0.1,
+    "confidence": 59,
+    "rank": 68,
     "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -15091,7 +17422,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 53,
-    "rank": 33,
+    "rank": 32,
     "ratingGames": 8,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.7
@@ -15271,12 +17602,12 @@
    },
    {
     "week": 2,
-    "rating": -1.7,
-    "confidence": 55,
-    "rank": 118,
+    "rating": -1.3,
+    "confidence": 56,
+    "rank": 108,
     "ratingGames": 8,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -15792,7 +18123,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 70,
-    "rank": 50,
+    "rank": 53,
     "ratingGames": 16,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
@@ -16134,12 +18465,12 @@
    },
    {
     "week": 2,
-    "rating": -0.8,
-    "confidence": 67,
-    "rank": 89,
+    "rating": -0.5,
+    "confidence": 69,
+    "rank": 85,
     "ratingGames": 16,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -16238,160 +18569,10 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 33,
-    "rank": 93,
+    "rank": 95,
     "ratingGames": 3,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "579cead3-d960-4c14-8905-8c17c70ca003": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 108,
-    "pa": 115,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Sandra Thompson",
-    "vs": [
-     "Christine Papa",
-     "Eric Luque"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Hal Golden",
-    "vs": [
-     "Eric Luque",
-     "David Osborne"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "Richard Demeuse",
-     "David Mcintyre"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Cindy Hu",
-    "vs": [
-     "Christine Papa",
-     "Richard Demeuse"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Brett Kleger",
-    "vs": [
-     "Craig Batten",
-     "Eric Luque"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Lindsay Duphily",
-    "vs": [
-     "Katrina Mcintyre",
-     "Craig Batten"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.3,
-    "confidence": 49,
-    "rank": 31,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 2,
-    "rating": 0.3,
-    "confidence": 50,
-    "rank": 59,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -16670,7 +18851,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 120,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -16818,162 +18999,12 @@
    },
    {
     "week": 2,
-    "rating": -1.3,
-    "confidence": 45,
-    "rank": 107,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
- "213bd4a2-a13d-4540-b93e-69e1e9116ff8": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 101,
-    "pa": 119,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Hal Golden",
-    "vs": [
-     "Kristen Soucie",
-     "Richard Demeuse"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Lindsay Duphily",
-    "vs": [
-     "Christine Papa",
-     "Kristen Soucie"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Denise Richmond",
-     "Eric Luque"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Hal Golden",
-    "vs": [
-     "Denise Richmond",
-     "David Mcintyre"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Sandra Thompson",
-    "vs": [
-     "Katrina Mcintyre",
-     "Christine Papa"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jamila Sefiane",
-    "vs": [
-     "Katrina Mcintyre",
-     "Denise Richmond"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
     "rating": -1.5,
-    "confidence": 50,
-    "rank": 62,
+    "confidence": 47,
+    "rank": 112,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 2,
-    "rating": -1.9,
-    "confidence": 51,
-    "rank": 124,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -17259,160 +19290,10 @@
     "week": 2,
     "rating": -1,
     "confidence": 64,
-    "rank": 94,
+    "rank": 98,
     "ratingGames": 12,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "c0851114-0611-4b02-9589-fd249179eabc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 97,
-    "pa": 119,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Sandra Thompson",
-    "vs": [
-     "Katrina Mcintyre",
-     "Denise Richmond"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Kristen Soucie",
-     "David Osborne"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Lindsay Duphily",
-    "vs": [
-     "Christine Papa",
-     "Denise Richmond"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Katrina Mcintyre",
-     "Eric Luque"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Chris Norton",
-    "vs": [
-     "Christine Papa",
-     "David Osborne"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Christine Dugan",
-    "vs": [
-     "Katrina Mcintyre",
-     "Denise Richmond"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 48,
-    "rank": 43,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 2,
-    "rating": -0.8,
-    "confidence": 49,
-    "rank": 92,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -17682,7 +19563,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 59,
-    "rank": 132,
+    "rank": 136,
     "ratingGames": 10,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -17994,7 +19875,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 68,
-    "rank": 103,
+    "rank": 106,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -18008,172 +19889,6 @@
     "synergy": -0.5
    }
   ]
- },
- "476c99a2-15e5-4e99-8471-7c2b6394faa3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 114,
-    "pa": 143,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Christine Dugan",
-    "vs": [
-     "Kristen Soucie",
-     "Richard Demeuse"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Jiang Jin",
-    "vs": [
-     "Eric Luque",
-     "David Osborne"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Cindy Hu",
-    "vs": [
-     "Katrina Mcintyre",
-     "David Mcintyre"
-    ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Craig Batten",
-     "David Osborne"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Christine Dugan",
-    "vs": [
-     "Denise Richmond",
-     "David Mcintyre"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Chris Norton",
-    "vs": [
-     "David Osborne",
-     "Richard Demeuse"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Brett Kleger",
-    "vs": [
-     "Richard Demeuse",
-     "David Mcintyre"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.2,
-    "confidence": 52,
-    "rank": 56,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 2,
-    "rating": -1.2,
-    "confidence": 52,
-    "rank": 105,
-    "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.6
-   }
-  ],
-  "partners": []
  },
  "7bb24154-bd52-4081-a3e6-0b8afcde62d5": {
   "log": [
@@ -18324,7 +20039,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 52,
-    "rank": 122,
+    "rank": 125,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.6
@@ -18580,10 +20295,10 @@
    {
     "week": 2,
     "rating": -1.1,
-    "confidence": 66,
-    "rank": 98,
+    "confidence": 67,
+    "rank": 103,
     "ratingGames": 11,
-    "strengthOfPartners": -1.8,
+    "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.2
    }
   ],
@@ -18747,7 +20462,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 38,
-    "rank": 84,
+    "rank": 88,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.2
@@ -18920,7 +20635,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 73,
+    "rank": 75,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
@@ -19093,13 +20808,589 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 57,
-    "rank": 78,
+    "rank": 81,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.6
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": []
+ },
+ "395868e3-8573-41ad-9b13-84b6a7bf7f35": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 74,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 107,
+    "pa": 108,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Katrina Mcintyre",
+     "David Mcintyre"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Kristen Soucie",
+     "David Osborne"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jiang Jin",
+    "vs": [
+     "Richard Demeuse",
+     "David Mcintyre"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "David Osborne",
+     "Richard Demeuse"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Christine Papa",
+     "David Osborne"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Eric Luque",
+     "David Osborne"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Jane Meng",
+     "Tom Zentmeyer"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Emily Abbott",
+     "Robert Block"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "David Marchese",
+    "vs": [
+     "Jay Rohatgi",
+     "Tom Zentmeyer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Jay Rohatgi",
+     "Tom Zentmeyer"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Emily Abbott",
+     "Jay Rohatgi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Thomas Ross",
+     "Tom Zentmeyer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3.9,
+    "confidence": 46,
+    "rank": 72,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 65,
+    "rank": 129,
+    "ratingGames": 12,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c0851114-0611-4b02-9589-fd249179eabc",
+    "name": "Jamila Sefiane",
+    "n": 3,
+    "synergy": 0.3
+   }
+  ]
+ },
+ "579cead3-d960-4c14-8905-8c17c70ca003": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 108,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 126,
+    "pa": 142,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Christine Papa",
+     "Eric Luque"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Eric Luque",
+     "David Osborne"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Richard Demeuse",
+     "David Mcintyre"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Cindy Hu",
+    "vs": [
+     "Christine Papa",
+     "Richard Demeuse"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Brett Kleger",
+    "vs": [
+     "Craig Batten",
+     "Eric Luque"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Katrina Mcintyre",
+     "Craig Batten"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Janine Forrest",
+     "Robert Block"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Jay Rohatgi",
+     "Robert Block"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Jane Meng",
+     "Thomas Ross"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Guy Judkowski",
+     "Thomas Ross"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Linda Zhu",
+    "vs": [
+     "Janine Forrest",
+     "Thomas Ross"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Jamila Sefiane",
+    "vs": [
+     "Janet Garrity",
+     "Tom Zentmeyer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Guy Judkowski",
+     "Jay Rohatgi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 49,
+    "rank": 31,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 69,
+    "rank": 79,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "476c99a2-15e5-4e99-8471-7c2b6394faa3",
+    "name": "Hal Golden",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
  },
  "c5098f72-b304-4552-b25b-8f4dec2709e0": {
   "log": [
@@ -19218,7 +21509,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 45,
-    "rank": 81,
+    "rank": 83,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.1
@@ -19343,7 +21634,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 101,
+    "rank": 105,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.8
@@ -19468,7 +21759,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 111,
+    "rank": 113,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -19723,12 +22014,153 @@
    },
    {
     "week": 2,
-    "rating": -1.6,
-    "confidence": 64,
-    "rank": 112,
+    "rating": -1.8,
+    "confidence": 66,
+    "rank": 122,
     "ratingGames": 11,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "aa802904-9a39-4b0e-ad2b-d1a1ea2fcc5b": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 99,
+    "pa": 120,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Emily Abbott",
+     "Guy Judkowski"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Hal Golden",
+    "vs": [
+     "Thomas Ross",
+     "Tom Zentmeyer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Jay Rohatgi",
+     "Tom Zentmeyer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Sandra Thompson",
+    "vs": [
+     "Alicia Maguire",
+     "Guy Judkowski"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Guy Judkowski",
+     "Robert Block"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Alicia Maguire",
+     "Thomas Ross"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 52,
+    "rank": 110,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -19907,7 +22339,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 47,
-    "rank": 100,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -20055,11 +22487,11 @@
    },
    {
     "week": 2,
-    "rating": -1.1,
-    "confidence": 45,
+    "rating": -1,
+    "confidence": 49,
     "rank": 102,
     "ratingGames": 6,
-    "strengthOfPartners": -1.4,
+    "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -20198,7 +22630,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 133,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -20339,7 +22771,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 53,
-    "rank": 91,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.9
@@ -20480,7 +22912,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 53,
-    "rank": 96,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.1
@@ -20621,7 +23053,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 80,
+    "rank": 82,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -20771,10 +23203,151 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 51,
-    "rank": 125,
+    "rank": 128,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 1.5
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "d0a77087-5f1c-4d8c-841d-af39ac48dca3": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 91,
+    "pa": 123,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Guy Judkowski",
+    "vs": [
+     "Christine Dugan",
+     "David Marchese"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Robert Block",
+    "vs": [
+     "Linda Zhu",
+     "Chris Norton"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Alicia Maguire",
+    "vs": [
+     "Sandra Thompson",
+     "Christine Dugan"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janine Forrest",
+    "vs": [
+     "Lindsay Duphily",
+     "Christine Dugan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Jay Rohatgi",
+    "vs": [
+     "Linda Zhu",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Janet Garrity",
+    "vs": [
+     "Lindsay Duphily",
+     "Jamila Sefiane"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -3.7,
+    "confidence": 52,
+    "rank": 143,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -20912,7 +23485,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 49,
-    "rank": 119,
+    "rank": 120,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -21053,7 +23626,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 50,
-    "rank": 130,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.6
@@ -21194,7 +23767,7 @@
     "week": 2,
     "rating": -3.2,
     "confidence": 48,
-    "rank": 137,
+    "rank": 141,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 2.2
@@ -21482,10 +24055,10 @@
    {
     "week": 2,
     "rating": 0.2,
-    "confidence": 66,
+    "confidence": 68,
     "rank": 61,
     "ratingGames": 13,
-    "strengthOfPartners": -1.7,
+    "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -21494,7 +24067,7 @@
     "pid": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
     "name": "Laura Sweet",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -21647,13 +24220,331 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 82,
+    "rank": 86,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
+ },
+ "476c99a2-15e5-4e99-8471-7c2b6394faa3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 114,
+    "pa": 143,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Place",
+    "homeAway": "A",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 111,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Kristen Soucie",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jiang Jin",
+    "vs": [
+     "Eric Luque",
+     "David Osborne"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Cindy Hu",
+    "vs": [
+     "Katrina Mcintyre",
+     "David Mcintyre"
+    ],
+    "f": 27,
+    "a": 29,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Sandro Stefanelli",
+    "vs": [
+     "Craig Batten",
+     "David Osborne"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Denise Richmond",
+     "David Mcintyre"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "David Osborne",
+     "Richard Demeuse"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Brett Kleger",
+    "vs": [
+     "Richard Demeuse",
+     "David Mcintyre"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Alicia Maguire",
+     "Jay Rohatgi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "David Marchese",
+    "vs": [
+     "Thomas Ross",
+     "Tom Zentmeyer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Christine Dugan",
+    "vs": [
+     "Janine Forrest",
+     "Tom Zentmeyer"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Jiang Jin",
+    "vs": [
+     "Guy Judkowski",
+     "Thomas Ross"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Lindsay Duphily",
+    "vs": [
+     "Jane Meng",
+     "Jay Rohatgi"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Norton",
+    "vs": [
+     "Jay Rohatgi",
+     "Tom Zentmeyer"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Jiang Jin",
+    "vs": [
+     "Guy Judkowski",
+     "Jay Rohatgi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 52,
+    "rank": 56,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -1.9,
+    "confidence": 70,
+    "rank": 126,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
+    "name": "Christine Dugan",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "579cead3-d960-4c14-8905-8c17c70ca003",
+    "name": "Jiang Jin",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
  },
  "f34665bd-6866-415f-a498-21d7f69fb895": {
   "log": [
@@ -21820,7 +24711,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 53,
-    "rank": 121,
+    "rank": 124,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -21993,9 +24884,9 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 58,
-    "rank": 113,
+    "rank": 115,
     "ratingGames": 8,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.2
    }
   ],
@@ -22173,12 +25064,12 @@
    },
    {
     "week": 2,
-    "rating": -1.2,
-    "confidence": 57,
-    "rank": 104,
+    "rating": -1.6,
+    "confidence": 58,
+    "rank": 114,
     "ratingGames": 8,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -22348,7 +25239,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 57,
-    "rank": 95,
+    "rank": 99,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.8
@@ -22685,7 +25576,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 69,
-    "rank": 117,
+    "rank": 119,
     "ratingGames": 15,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -23029,7 +25920,7 @@
     "week": 2,
     "rating": -3.3,
     "confidence": 69,
-    "rank": 138,
+    "rank": 142,
     "ratingGames": 15,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -23167,7 +26058,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 116,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.1
@@ -23276,7 +26167,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 37,
-    "rank": 127,
+    "rank": 131,
     "ratingGames": 4,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -23458,7 +26349,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 55,
-    "rank": 114,
+    "rank": 116,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.5
@@ -23599,7 +26490,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 49,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.6
@@ -23779,12 +26670,12 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
-    "confidence": 50,
-    "rank": 108,
+    "rating": -1.8,
+    "confidence": 54,
+    "rank": 123,
     "ratingGames": 8,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -23906,7 +26797,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 43,
-    "rank": 115,
+    "rank": 117,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 2.4
@@ -24063,7 +26954,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 54,
-    "rank": 86,
+    "rank": 91,
     "ratingGames": 7,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.9
@@ -24204,7 +27095,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 50,
-    "rank": 131,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.3
@@ -24502,7 +27393,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 49,
-    "rank": 97,
+    "rank": 101,
     "ratingGames": 7,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.9
@@ -24643,160 +27534,10 @@
     "week": 2,
     "rating": -2,
     "confidence": 47,
-    "rank": 126,
+    "rank": 130,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 2.1
-   }
-  ],
-  "partners": []
- },
- "395868e3-8573-41ad-9b13-84b6a7bf7f35": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 74,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Lindsay Duphily",
-    "vs": [
-     "Katrina Mcintyre",
-     "David Mcintyre"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Jamila Sefiane",
-    "vs": [
-     "Kristen Soucie",
-     "David Osborne"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Jiang Jin",
-    "vs": [
-     "Richard Demeuse",
-     "David Mcintyre"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Hal Golden",
-    "vs": [
-     "David Osborne",
-     "Richard Demeuse"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Jamila Sefiane",
-    "vs": [
-     "Christine Papa",
-     "David Osborne"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Green",
-    "t": "male",
-    "with": "Sandro Stefanelli",
-    "vs": [
-     "Eric Luque",
-     "David Osborne"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -3.9,
-    "confidence": 46,
-    "rank": 72,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 2,
-    "rating": -3.7,
-    "confidence": 46,
-    "rank": 139,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []
@@ -24950,7 +27691,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 54,
-    "rank": 123,
+    "rank": 127,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.7
@@ -25091,7 +27832,7 @@
     "week": 2,
     "rating": -3,
     "confidence": 51,
-    "rank": 136,
+    "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.7
@@ -25248,7 +27989,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 54,
-    "rank": 134,
+    "rank": 138,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 2
@@ -25536,10 +28277,10 @@
    {
     "week": 2,
     "rating": -2.2,
-    "confidence": 68,
-    "rank": 128,
+    "confidence": 69,
+    "rank": 132,
     "ratingGames": 13,
-    "strengthOfPartners": -1.6,
+    "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -25856,12 +28597,12 @@
    },
    {
     "week": 2,
-    "rating": -2.3,
-    "confidence": 69,
-    "rank": 129,
+    "rating": -2.4,
+    "confidence": 70,
+    "rank": 134,
     "ratingGames": 15,
     "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1.3
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
@@ -25869,13 +28610,13 @@
     "pid": "4329b94b-0d60-43f1-92ff-3757bc0a03d6",
     "name": "Kelly Dalsey",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
     "name": "John Darrah",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -26176,10 +28917,10 @@
     "week": 2,
     "rating": -3,
     "confidence": 68,
-    "rank": 135,
+    "rank": 139,
     "ratingGames": 14,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": [
@@ -26187,7 +28928,7 @@
     "pid": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
     "name": "Laura Sweet",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    }
   ]
  }

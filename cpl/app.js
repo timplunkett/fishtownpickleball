@@ -1214,12 +1214,24 @@ function renderSummary() {
   const currentSlug = DATA.meta.divisionSlug || getCurrentDivision()?.slug || '';
   const isTravel = DATA.meta.leagueType === 'travel';
   const leagueLabel = isTravel ? 'Cross Club League API' : 'Local League API';
+  // Provisional results count toward everything on the page; the note says how
+  // many of the totals rest on results the league hasn't confirmed yet.
+  const provisionalCount = DATA.meta.provisionalMatches || 0;
+  const provisionalNote = provisionalCount
+    ? ` (${provisionalCount} provisional)`
+    : '';
   elements.subhead.textContent =
-    `${DATA.meta.matchesPlayed} matches played (Weeks ${DATA.meta.weeks}) • ` +
+    `${DATA.meta.matchesPlayed} matches played${provisionalNote} (Weeks ${DATA.meta.weeks}) • ` +
     `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
   elements.footer.textContent =
     `Live from the ${leagueLabel} • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
-    `${DATA.meta.matchesPlayed} completed matches. "PF/PA" are the league's recorded ` +
+    `${DATA.meta.matchesPlayed} completed matches${provisionalNote}. ` +
+    (provisionalCount
+      ? `Provisional matches are ones the league has not officially closed out, ` +
+        `scored from posted lineups; they count toward standings, records and ` +
+        `ratings, and are labelled wherever they appear. `
+      : '') +
+    `"PF/PA" are the league's recorded ` +
     `points for/against; +/- is their difference. Win% = game wins ÷ games played. ` +
     `Rating is a ridge-regularized adjusted plus-minus: each player's net points per ` +
     `game above an average player, controlling for partner and opponent strength. The ` +

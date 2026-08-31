@@ -9374,6 +9374,7 @@
  },
  "meta": {
   "matchesPlayed": 12,
+  "provisionalMatches": 0,
   "weeks": "1-6",
   "totalPlayers": 66,
   "ratingHistoryWeeks": [

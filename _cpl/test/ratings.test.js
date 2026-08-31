@@ -6,6 +6,11 @@ const {
   computePairSynergy,
   deriveProvisionalOutcome,
   isForfeit,
+  isClutch,
+  inferGameTarget,
+  clampGameScores,
+  synthesizeMatchupPlayerStats,
+  applyProvisionalOutcomes,
 } = require('../modules/ratings');
 
 function game(h1, h2, a1, a2, hs, as, matchType = 'mixed') {
@@ -101,6 +106,158 @@ test('deriveProvisionalOutcome needs fully slotted, fully scored, non-tied lineu
   assert.equal(outcome.awayGW, 1);
   assert.equal(outcome.homePoints, 25);
   assert.equal(outcome.awayPoints, 23);
+});
+
+test('isClutch flags two-point games but not forfeits', () => {
+  assert.equal(isClutch({ homeScore: 21, awayScore: 19 }), true);
+  assert.equal(isClutch({ homeScore: 25, awayScore: 23 }), true);
+  assert.equal(isClutch({ homeScore: 19, awayScore: 21 }), true);
+  assert.equal(isClutch({ homeScore: 21, awayScore: 18 }), false);
+  assert.equal(isClutch({ homeScore: 1, awayScore: 0 }), false, 'forfeits are not clutch');
+});
+
+test('inferGameTarget picks the most common winning score', () => {
+  const details = new Map([
+    ['m1', detailWithGames([
+      game('a', 'b', 'c', 'd', 21, 19),
+      game('a', 'b', 'c', 'd', 25, 23),
+      game('a', 'b', 'c', 'd', 18, 21),
+    ])],
+  ]);
+  assert.equal(inferGameTarget(details), 21);
+  assert.equal(inferGameTarget(new Map()), 21, 'falls back to the current format');
+});
+
+test('clampGameScores takes the overage off both sides, preserving margin', () => {
+  assert.deepEqual(clampGameScores({ homeScore: 25, awayScore: 23 }, 21), { home: 21, away: 19 });
+  assert.deepEqual(clampGameScores({ homeScore: 19, awayScore: 22 }, 21), { home: 18, away: 21 });
+  assert.deepEqual(clampGameScores({ homeScore: 21, awayScore: 12 }, 21), { home: 21, away: 12 });
+  assert.deepEqual(clampGameScores({ homeScore: 1, awayScore: 0 }, 21), { home: 1, away: 0 });
+});
+
+test('synthesizeMatchupPlayerStats rebuilds the stat rows the league omits', () => {
+  const matchup = { matchupId: 'm1', homeTeamId: 'H', awayTeamId: 'A' };
+  const provisional = deriveProvisionalOutcome(detailWithGames([
+    game('a', 'b', 'c', 'd', 25, 23, 'mixed'),
+    game('a', 'b', 'c', 'd', 21, 12, 'male'),
+    game('a', 'b', 'c', 'd', 15, 21, 'female'),
+  ]));
+  const rows = synthesizeMatchupPlayerStats(provisional, matchup, {
+    gameTarget: 21,
+    isSubForTeam: (playerId) => playerId === 'd',
+  });
+
+  assert.deepEqual(rows.map(r => r.playerId), ['a', 'b', 'c', 'd']);
+  const a = rows.find(r => r.playerId === 'a');
+  assert.equal(a.teamId, 'H');
+  assert.equal(a.isSub, false);
+  assert.equal(a.gamesPlayed, 3);
+  assert.equal(a.wins, 2);
+  assert.equal(a.losses, 1);
+  // Points are clamped: the 25-23 counts as 21-19, so 21+21+15 / 19+12+21.
+  assert.equal(a.pointsWon, 57);
+  assert.equal(a.totalPointsAgainst, 52);
+  assert.equal(a.clutchWins, 1, 'the 25-23 was a two-point game');
+  assert.equal(a.clutchLosses, 0);
+  assert.deepEqual([a.mixedWins, a.mixedLosses], [1, 0]);
+  assert.deepEqual([a.genderWins, a.genderLosses], [1, 1], "men's and women's both count as gender games");
+
+  const c = rows.find(r => r.playerId === 'c');
+  assert.equal(c.teamId, 'A');
+  assert.equal(c.pointsWon, 52, 'mirrors the home side');
+  assert.equal(c.wins, 1);
+  assert.equal(c.clutchLosses, 1);
+  assert.equal(rows.find(r => r.playerId === 'd').isSub, true);
+});
+
+test('synthesizeMatchupPlayerStats leaves out games that never reached the target', () => {
+  const matchup = { matchupId: 'm1', homeTeamId: 'H', awayTeamId: 'A' };
+  const provisional = deriveProvisionalOutcome(detailWithGames([
+    game('a', 'b', 'c', 'd', 21, 12),
+    game('a', 'b', 'c', 'd', 1, 0),   // walkover
+    game('a', 'b', 'c', 'd', 8, 12),  // abandoned part-way
+  ]));
+  const rows = synthesizeMatchupPlayerStats(provisional, matchup, {
+    gameTarget: 21,
+    isSubForTeam: () => false,
+  });
+
+  const a = rows.find(r => r.playerId === 'a');
+  assert.equal(a.gamesPlayed, 1, 'only the completed game counts');
+  assert.deepEqual([a.wins, a.losses], [1, 0]);
+  assert.equal(a.pointsWon, 21);
+  assert.equal(a.totalPointsAgainst, 12);
+  assert.equal(a.clutchLosses, 0, 'a 1-0 walkover is not a clutch loss');
+
+  // The team totals in the outcome still carry every point scored, walkovers and
+  // abandoned games included — that's how the league reports them.
+  assert.equal(provisional.homePoints, 30);
+  assert.equal(provisional.awayPoints, 24);
+});
+
+test('applyProvisionalOutcomes resolves a scored-but-unconfirmed matchup into a result', () => {
+  const scored = { matchupId: 'prov', weekNumber: 2, homeTeamId: 'H', awayTeamId: 'A', endResult: null, homePoints: 0, awayPoints: 0 };
+  const confirmed = { matchupId: 'done', weekNumber: 1, homeTeamId: 'H', awayTeamId: 'A', endResult: 'away', homePoints: 30, awayPoints: 40 };
+  const upcoming = { matchupId: 'next', weekNumber: 3, homeTeamId: 'H', awayTeamId: 'A', endResult: null };
+  const details = new Map([
+    ['done', detailWithGames([game('a', 'b', 'c', 'd', 15, 21)])],
+    ['prov', detailWithGames([
+      game('a', 'b', 'c', 'd', 21, 19),
+      game('a', 'b', 'c', 'd', 21, 12),
+    ])],
+    // Lineups posted but not yet played: stays unresolved.
+    ['next', detailWithGames([
+      { homePlayerId1: 'a', homePlayerId2: 'b', awayPlayerId1: 'c', awayPlayerId2: 'd', homeScore: null, awayScore: null, matchType: 'mixed' },
+    ])],
+  ]);
+
+  const resolved = applyProvisionalOutcomes([confirmed, scored, upcoming], details, {
+    isSubForTeam: () => false,
+  });
+
+  assert.equal(resolved.provisionalCount, 1);
+  assert.equal(resolved.gameTarget, 21);
+  const [done, prov, next] = resolved.matchups;
+
+  assert.equal(done.endResult, 'away', 'a confirmed matchup passes through untouched');
+  assert.equal(done.provisional, undefined);
+  assert.equal(next.endResult, null, 'an unplayed matchup stays unresolved');
+
+  assert.equal(prov.endResult, 'home');
+  assert.equal(prov.provisional, true);
+  assert.equal(prov.homePoints, 42);
+  assert.equal(prov.awayPoints, 31);
+
+  // The details gain the synthesized stat rows, so the stat loop treats it like
+  // any other result; the confirmed matchup's details are untouched.
+  const provRows = resolved.detailById.get('prov').matchupPlayerStats.$values;
+  assert.equal(provRows.length, 4);
+  assert.equal(provRows.find(r => r.playerId === 'a').wins, 2);
+  assert.equal(resolved.detailById.get('done'), details.get('done'));
+  assert.equal(resolved.detailById.get('next'), details.get('next'));
+
+  // Inputs are not mutated.
+  assert.equal(scored.endResult, null);
+  assert.equal(scored.homePoints, 0);
+  assert.equal(details.get('prov').matchupPlayerStats, undefined);
+});
+
+test('applyProvisionalOutcomes feeds provisional games into the ratings', () => {
+  const scored = { matchupId: 'prov', weekNumber: 1, homeTeamId: 'H', awayTeamId: 'A', endResult: null };
+  const details = new Map([
+    ['prov', detailWithGames([
+      game('a', 'b', 'c', 'd', 21, 5),
+      game('a', 'b', 'c', 'd', 21, 7),
+    ])],
+  ]);
+  const resolved = applyProvisionalOutcomes([scored], details, { isSubForTeam: () => false });
+  const completed = resolved.matchups.filter(m => m.endResult);
+
+  assert.equal(completed.length, 1);
+  const ratings = computeRatings(completed, resolved.detailById);
+  assert.ok(ratings.a.rating > 0, 'the provisional winners are rated');
+  assert.ok(ratings.c.rating < 0);
+  assert.equal(ratings.a.ratingGames, 2);
 });
 
 test('computePairSynergy surfaces pairs only at 3+ shared games', () => {

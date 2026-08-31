@@ -81,11 +81,11 @@
    "diff": 77,
    "ppg": 21,
    "leagueRank": 8,
-   "rating": 4.1,
+   "rating": 4.2,
    "ratingGames": 8,
    "confidence": 55,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": -1.2,
+   "strengthOfOpponents": -1.1,
    "playerId": "07881006-c083-4729-8424-410aeee08940"
   },
   {
@@ -176,6 +176,35 @@
    "strengthOfOpponents": -0.9
   },
   {
+   "name": "John Cusano",
+   "gender": "Male",
+   "team": "Pickleball Palace Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 5,
+   "wins": 5,
+   "losses": 0,
+   "pointsWon": 105,
+   "totalPointsAgainst": 53,
+   "mixedWins": 4,
+   "mixedLosses": 0,
+   "genderWins": 1,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "playerId": "809fbee0-ae20-4726-9468-9e0e23f6696a",
+   "winPct": 100,
+   "diff": 52,
+   "ppg": 21,
+   "leagueRank": 10,
+   "rating": 2.8,
+   "ratingGames": 5,
+   "confidence": 46,
+   "strengthOfPartners": 1,
+   "strengthOfOpponents": -2.2
+  },
+  {
    "name": "Jake Denooyer",
    "gender": "Male",
    "team": "Pickleball Palace Black",
@@ -197,12 +226,41 @@
    "diff": 47,
    "ppg": 21,
    "leagueRank": 16,
-   "rating": 2.5,
+   "rating": 2.4,
    "ratingGames": 7,
    "confidence": 49,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": -1.1,
+   "strengthOfOpponents": -1.2,
    "playerId": "a314079a-16b7-42f5-be34-41e1672f7377"
+  },
+  {
+   "name": "Noelie Hillebrecht",
+   "gender": "Female",
+   "team": "Pickleball Palace Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 6,
+   "losses": 0,
+   "pointsWon": 126,
+   "totalPointsAgainst": 79,
+   "mixedWins": 2,
+   "mixedLosses": 0,
+   "genderWins": 4,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "playerId": "97419da1-c259-41a5-8503-2decd14e8a9a",
+   "winPct": 100,
+   "diff": 47,
+   "ppg": 21,
+   "leagueRank": 19,
+   "rating": 2,
+   "ratingGames": 6,
+   "confidence": 45,
+   "strengthOfPartners": 0.6,
+   "strengthOfOpponents": -1.9
   },
   {
    "name": "John Gardler",
@@ -284,11 +342,11 @@
    "diff": 41,
    "ppg": 21,
    "leagueRank": 18,
-   "rating": 2.1,
+   "rating": 1.8,
    "ratingGames": 6,
-   "confidence": 52,
-   "strengthOfPartners": 0.8,
-   "strengthOfOpponents": -1.2,
+   "confidence": 53,
+   "strengthOfPartners": 0.9,
+   "strengthOfOpponents": -1.5,
    "playerId": "f0bbb8a7-1a68-4c7f-9450-3eae9249535b"
   },
   {
@@ -466,6 +524,35 @@
    "playerId": "9b286e84-ad6b-4d88-8306-75906ac6dd8c"
   },
   {
+   "name": "Kristin Duva",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 6,
+   "losses": 0,
+   "pointsWon": 126,
+   "totalPointsAgainst": 94,
+   "mixedWins": 3,
+   "mixedLosses": 0,
+   "genderWins": 3,
+   "genderLosses": 0,
+   "clutchWins": 1,
+   "clutchLosses": 0,
+   "winPct": 100,
+   "diff": 32,
+   "ppg": 21,
+   "leagueRank": 394,
+   "rating": 0.8,
+   "ratingGames": 6,
+   "confidence": 48,
+   "strengthOfPartners": 0.7,
+   "strengthOfOpponents": -1.7,
+   "playerId": "33bedbfd-6715-4614-8662-650a8bc4c678"
+  },
+  {
    "name": "Yayuan Lien",
    "gender": "Female",
    "team": "Pickleball Kingdom Hamilton Prime Time",
@@ -493,6 +580,35 @@
    "strengthOfPartners": -0.5,
    "strengthOfOpponents": 0.8,
    "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84"
+  },
+  {
+   "name": "Geoffrey Baird",
+   "gender": "Male",
+   "team": "Pickleball Palace Blue",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 4,
+   "wins": 4,
+   "losses": 0,
+   "pointsWon": 84,
+   "totalPointsAgainst": 59,
+   "mixedWins": 3,
+   "mixedLosses": 0,
+   "genderWins": 1,
+   "genderLosses": 0,
+   "clutchWins": 1,
+   "clutchLosses": 0,
+   "winPct": 100,
+   "diff": 25,
+   "ppg": 21,
+   "leagueRank": 24,
+   "rating": 0.5,
+   "ratingGames": 4,
+   "confidence": 43,
+   "strengthOfPartners": 1.2,
+   "strengthOfOpponents": -2,
+   "playerId": "98d6ec7e-e3ac-47ce-a2a2-a000399c9e4f"
   },
   {
    "name": "Rosa Tenan",
@@ -632,11 +748,11 @@
    "diff": 103,
    "ppg": 20.9,
    "leagueRank": 17,
-   "rating": 4.2,
+   "rating": 4.4,
    "ratingGames": 14,
    "confidence": 68,
-   "strengthOfPartners": 0.6,
-   "strengthOfOpponents": -0.6,
+   "strengthOfPartners": 0.8,
+   "strengthOfOpponents": -0.4,
    "playerId": "f2e5778f-44c1-46ed-b27d-f3728fa84378"
   },
   {
@@ -808,7 +924,7 @@
    "leagueRank": 43,
    "rating": 1.1,
    "ratingGames": 8,
-   "confidence": 55,
+   "confidence": 56,
    "strengthOfPartners": 1.4,
    "strengthOfOpponents": -1.1,
    "playerId": "5a35b4ac-7b94-48d4-bd8f-d9c327751821"
@@ -951,11 +1067,11 @@
    "diff": 43,
    "ppg": 20.7,
    "leagueRank": 44,
-   "rating": 1.2,
+   "rating": 1,
    "ratingGames": 7,
-   "confidence": 53,
-   "strengthOfPartners": 1.6,
-   "strengthOfOpponents": -1.3,
+   "confidence": 54,
+   "strengthOfPartners": 1.7,
+   "strengthOfOpponents": -1.4,
    "playerId": "c22c2b8e-2758-4b56-b8e4-6758dc47a61d"
   },
   {
@@ -1041,7 +1157,7 @@
    "rating": 2.8,
    "ratingGames": 7,
    "confidence": 54,
-   "strengthOfPartners": 1.1,
+   "strengthOfPartners": 1.2,
    "strengthOfOpponents": 0.5,
    "playerId": "df366b7b-3468-492e-ae2f-b7ad65d5439e"
   },
@@ -1067,11 +1183,11 @@
    "diff": 28,
    "ppg": 20.7,
    "leagueRank": 34,
-   "rating": 1.9,
+   "rating": 2.4,
    "ratingGames": 7,
-   "confidence": 51,
-   "strengthOfPartners": 1,
-   "strengthOfOpponents": 0,
+   "confidence": 52,
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": 0.6,
    "playerId": "8aa9db46-30ca-4985-93b5-33ad3d7d1963"
   },
   {
@@ -1096,11 +1212,11 @@
    "diff": 27,
    "ppg": 20.4,
    "leagueRank": 45,
-   "rating": 0.7,
+   "rating": 1.4,
    "ratingGames": 7,
-   "confidence": 51,
-   "strengthOfPartners": 1.3,
-   "strengthOfOpponents": -0.7,
+   "confidence": 52,
+   "strengthOfPartners": 1.5,
+   "strengthOfOpponents": 0,
    "playerId": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921"
   },
   {
@@ -1189,6 +1305,35 @@
    "strengthOfPartners": 1.1,
    "strengthOfOpponents": -0.8,
    "playerId": "9b6e4166-d6a4-4e8c-812b-65e4d35477f3"
+  },
+  {
+   "name": "Christine Ostapiak",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 13,
+   "wins": 11,
+   "losses": 2,
+   "pointsWon": 266,
+   "totalPointsAgainst": 218,
+   "mixedWins": 5,
+   "mixedLosses": 1,
+   "genderWins": 6,
+   "genderLosses": 1,
+   "clutchWins": 3,
+   "clutchLosses": 0,
+   "playerId": "e5d63f22-5a18-4b5d-b916-61d59e17fc0d",
+   "winPct": 84.6,
+   "diff": 48,
+   "ppg": 20.5,
+   "leagueRank": 25,
+   "rating": -0.2,
+   "ratingGames": 13,
+   "confidence": 65,
+   "strengthOfPartners": 1.2,
+   "strengthOfOpponents": -1.3
   },
   {
    "name": "Eric Brezina",
@@ -1386,11 +1531,11 @@
    "diff": 30,
    "ppg": 20.3,
    "leagueRank": 37,
-   "rating": 2.2,
+   "rating": 2.6,
    "ratingGames": 6,
-   "confidence": 46,
-   "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.5,
+   "confidence": 49,
+   "strengthOfPartners": 0.6,
+   "strengthOfOpponents": 0,
    "playerId": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
   },
   {
@@ -1419,8 +1564,8 @@
    "rating": 2,
    "ratingGames": 6,
    "confidence": 48,
-   "strengthOfPartners": 1.1,
-   "strengthOfOpponents": -0.1
+   "strengthOfPartners": 1.2,
+   "strengthOfOpponents": 0
   },
   {
    "name": "Anthony Leone",
@@ -1474,7 +1619,7 @@
    "diff": 21,
    "ppg": 19.5,
    "leagueRank": 52,
-   "rating": 1.9,
+   "rating": 2,
    "ratingGames": 6,
    "confidence": 51,
    "strengthOfPartners": 0.3,
@@ -1589,10 +1734,10 @@
    "diff": 47,
    "ppg": 19.8,
    "leagueRank": 53,
-   "rating": 2.6,
+   "rating": 2.7,
    "ratingGames": 11,
    "confidence": 62,
-   "strengthOfPartners": 0.2,
+   "strengthOfPartners": 0.3,
    "strengthOfOpponents": -0.2,
    "playerId": "713e7456-5ec1-4fa6-ac0f-bb04c2a56c18"
   },
@@ -1734,11 +1879,11 @@
    "diff": 10,
    "ppg": 19,
    "leagueRank": 74,
-   "rating": 1.5,
+   "rating": 1.6,
    "ratingGames": 5,
    "confidence": 46,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 0.3,
+   "strengthOfOpponents": 0.4,
    "playerId": "3804b024-a017-4fa2-90d3-5d726e764f44"
   },
   {
@@ -1763,12 +1908,41 @@
    "diff": 9,
    "ppg": 20.2,
    "leagueRank": 60,
-   "rating": 1.4,
+   "rating": 1.6,
    "ratingGames": 5,
-   "confidence": 44,
-   "strengthOfPartners": -0.6,
-   "strengthOfOpponents": 0.1,
+   "confidence": 45,
+   "strengthOfPartners": 0,
+   "strengthOfOpponents": 0.5,
    "playerId": "12282462-33ce-4ae9-81ae-5bb224883f78"
+  },
+  {
+   "name": "Cheryl Minerowicz",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 5,
+   "wins": 4,
+   "losses": 1,
+   "pointsWon": 95,
+   "totalPointsAgainst": 86,
+   "mixedWins": 2,
+   "mixedLosses": 1,
+   "genderWins": 2,
+   "genderLosses": 0,
+   "clutchWins": 1,
+   "clutchLosses": 0,
+   "winPct": 80,
+   "diff": 9,
+   "ppg": 19,
+   "leagueRank": 420,
+   "rating": -1.7,
+   "ratingGames": 5,
+   "confidence": 48,
+   "strengthOfPartners": 1.4,
+   "strengthOfOpponents": -1.7,
+   "playerId": "98cf9a34-6d8e-4aed-81d1-1a6f2fe864f2"
   },
   {
    "name": "Artemio Tuquero",
@@ -1998,38 +2172,9 @@
    "rating": 1.4,
    "ratingGames": 12,
    "confidence": 67,
-   "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0.2,
+   "strengthOfPartners": 0.4,
+   "strengthOfOpponents": 0.3,
    "playerId": "e2b4f0ef-182b-4f3c-8b8e-144aee0e8eb4"
-  },
-  {
-   "name": "Christine Ostapiak",
-   "gender": "Female",
-   "team": "Pickleball Palace Black",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 8,
-   "wins": 6,
-   "losses": 2,
-   "pointsWon": 161,
-   "totalPointsAgainst": 141,
-   "mixedWins": 3,
-   "mixedLosses": 1,
-   "genderWins": 3,
-   "genderLosses": 1,
-   "clutchWins": 2,
-   "clutchLosses": 0,
-   "playerId": "e5d63f22-5a18-4b5d-b916-61d59e17fc0d",
-   "winPct": 75,
-   "diff": 20,
-   "ppg": 20.1,
-   "leagueRank": 25,
-   "rating": -0.7,
-   "ratingGames": 8,
-   "confidence": 53,
-   "strengthOfPartners": 1.2,
-   "strengthOfOpponents": -1
   },
   {
    "name": "David Katz",
@@ -2430,11 +2575,11 @@
    "diff": 21,
    "ppg": 20.4,
    "leagueRank": 96,
-   "rating": -0.4,
+   "rating": -0.6,
    "ratingGames": 7,
-   "confidence": 48,
-   "strengthOfPartners": 1,
-   "strengthOfOpponents": -1.3,
+   "confidence": 49,
+   "strengthOfPartners": 0.9,
+   "strengthOfOpponents": -1.5,
    "playerId": "12febf17-8650-40dd-92ca-a0bda06caf0f"
   },
   {
@@ -2517,11 +2662,11 @@
    "diff": 13,
    "ppg": 19.4,
    "leagueRank": 109,
-   "rating": 0,
+   "rating": 0.1,
    "ratingGames": 10,
    "confidence": 59,
    "strengthOfPartners": 1.1,
-   "strengthOfOpponents": -0.1,
+   "strengthOfOpponents": 0,
    "playerId": "7c14ace8-2c5f-416f-8619-efa19901a78c"
   },
   {
@@ -2552,6 +2697,35 @@
    "strengthOfPartners": 0.8,
    "strengthOfOpponents": 0.5,
    "playerId": "b8fabebb-fd0f-49a8-929a-defbac098e43"
+  },
+  {
+   "name": "Lynn Quinn",
+   "gender": "Female",
+   "team": "Pickleball Palace Blue",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 13,
+   "wins": 9,
+   "losses": 4,
+   "pointsWon": 258,
+   "totalPointsAgainst": 212,
+   "mixedWins": 5,
+   "mixedLosses": 2,
+   "genderWins": 4,
+   "genderLosses": 2,
+   "clutchWins": 2,
+   "clutchLosses": 2,
+   "winPct": 69.2,
+   "diff": 46,
+   "ppg": 19.8,
+   "leagueRank": 86,
+   "rating": 2.4,
+   "ratingGames": 13,
+   "confidence": 64,
+   "strengthOfPartners": 0.1,
+   "strengthOfOpponents": -0.1,
+   "playerId": "d6c99730-dfc7-4a86-aa1e-163058c5b8c2"
   },
   {
    "name": "John Rogers",
@@ -2749,11 +2923,11 @@
    "diff": 21,
    "ppg": 19.7,
    "leagueRank": 82,
-   "rating": 1.2,
+   "rating": 2.1,
    "ratingGames": 6,
-   "confidence": 46,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.8,
+   "confidence": 48,
+   "strengthOfPartners": 0.1,
+   "strengthOfOpponents": 0,
    "playerId": "ce893b2d-f5ea-40aa-98c0-d67402405b64"
   },
   {
@@ -2926,7 +3100,7 @@
    "rating": -0.2,
    "ratingGames": 6,
    "confidence": 43,
-   "strengthOfPartners": 0.5,
+   "strengthOfPartners": 0.6,
    "strengthOfOpponents": -0.9,
    "playerId": "e6f1ad88-f91d-41ca-9771-833b1f38eff3"
   },
@@ -3388,7 +3562,7 @@
    "diff": 39,
    "ppg": 18.5,
    "leagueRank": 117,
-   "rating": 1.6,
+   "rating": 1.7,
    "ratingGames": 11,
    "confidence": 64,
    "strengthOfPartners": -0.1,
@@ -3449,8 +3623,8 @@
    "rating": 1.1,
    "ratingGames": 11,
    "confidence": 65,
-   "strengthOfPartners": 1.1,
-   "strengthOfOpponents": 0
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": 0.1
   },
   {
    "name": "Phillip Perry",
@@ -3533,9 +3707,9 @@
    "diff": 23,
    "ppg": 20.1,
    "leagueRank": 127,
-   "rating": -0.3,
+   "rating": -0.2,
    "ratingGames": 8,
-   "confidence": 52,
+   "confidence": 53,
    "strengthOfPartners": 0.8,
    "strengthOfOpponents": -1.1
   },
@@ -3793,11 +3967,11 @@
    "diff": 10,
    "ppg": 19,
    "leagueRank": 120,
-   "rating": 1.7,
+   "rating": 1.9,
    "ratingGames": 5,
    "confidence": 46,
-   "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -0.2,
+   "strengthOfPartners": -1.5,
+   "strengthOfOpponents": -0.1,
    "playerId": "f54b54e0-be28-4155-a198-e63fc2ed0912"
   },
   {
@@ -3825,8 +3999,8 @@
    "rating": -0.8,
    "ratingGames": 10,
    "confidence": 60,
-   "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -0.6,
+   "strengthOfPartners": 1,
+   "strengthOfOpponents": -0.5,
    "playerId": "826ca41a-b56b-4688-9a30-330a67e541f3"
   },
   {
@@ -4144,7 +4318,7 @@
    "rating": 0.8,
    "ratingGames": 12,
    "confidence": 66,
-   "strengthOfPartners": 0.4,
+   "strengthOfPartners": 0.5,
    "strengthOfOpponents": -0.5,
    "playerId": "a2e21de9-b9d3-4727-a66f-101c62e00a5d"
   },
@@ -4228,11 +4402,11 @@
    "diff": 27,
    "ppg": 19.4,
    "leagueRank": 137,
-   "rating": 0.3,
+   "rating": 0.6,
    "ratingGames": 14,
    "confidence": 68,
-   "strengthOfPartners": 1.6,
-   "strengthOfOpponents": 0,
+   "strengthOfPartners": 1.8,
+   "strengthOfOpponents": 0.3,
    "playerId": "94c45058-cae5-4085-ad9e-684309568903"
   },
   {
@@ -4260,8 +4434,8 @@
    "rating": 0.1,
    "ratingGames": 7,
    "confidence": 48,
-   "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -0.9,
+   "strengthOfPartners": 1.1,
+   "strengthOfOpponents": -0.7,
    "playerId": "304fa353-a564-41f6-ba23-ed9c19ace5b9"
   },
   {
@@ -4493,7 +4667,7 @@
    "ratingGames": 14,
    "confidence": 65,
    "strengthOfPartners": 0.4,
-   "strengthOfOpponents": 0.8,
+   "strengthOfOpponents": 0.9,
    "playerId": "51197be0-3fa1-4888-b0be-df5af704e8a4"
   },
   {
@@ -4521,7 +4695,7 @@
    "rating": 0.8,
    "ratingGames": 9,
    "confidence": 59,
-   "strengthOfPartners": 0.8,
+   "strengthOfPartners": 0.9,
    "strengthOfOpponents": 0.4,
    "playerId": "ddd5dc5f-551a-4cc1-b809-7d215e0f1eef"
   },
@@ -4555,6 +4729,35 @@
    "playerId": "66469f12-c5eb-4a44-97b6-c40c3fbbf89c"
   },
   {
+   "name": "Stanley Okpor",
+   "gender": "Male",
+   "team": "Pickleball Palace Blue",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 11,
+   "wins": 6,
+   "losses": 5,
+   "pointsWon": 202,
+   "totalPointsAgainst": 178,
+   "mixedWins": 2,
+   "mixedLosses": 1,
+   "genderWins": 4,
+   "genderLosses": 4,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "winPct": 54.5,
+   "diff": 24,
+   "ppg": 18.4,
+   "leagueRank": 123,
+   "rating": 1.5,
+   "ratingGames": 11,
+   "confidence": 65,
+   "strengthOfPartners": 0.1,
+   "strengthOfOpponents": 0,
+   "playerId": "dba57d37-2d91-4c25-96ae-cbc287043db4"
+  },
+  {
    "name": "Bonny Mayerberg",
    "gender": "Female",
    "team": "Dill Dinkers Hatboro",
@@ -4582,6 +4785,35 @@
    "strengthOfPartners": 0.1,
    "strengthOfOpponents": -0.3,
    "playerId": "0e543890-4c91-45d2-bd5d-819dc476b245"
+  },
+  {
+   "name": "Mark Garner",
+   "gender": "Male",
+   "team": "Pickleball Palace Blue",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 11,
+   "wins": 6,
+   "losses": 5,
+   "pointsWon": 202,
+   "totalPointsAgainst": 203,
+   "mixedWins": 3,
+   "mixedLosses": 4,
+   "genderWins": 3,
+   "genderLosses": 1,
+   "clutchWins": 2,
+   "clutchLosses": 1,
+   "winPct": 54.5,
+   "diff": -1,
+   "ppg": 18.4,
+   "leagueRank": 170,
+   "rating": -0.6,
+   "ratingGames": 11,
+   "confidence": 64,
+   "strengthOfPartners": 0.5,
+   "strengthOfOpponents": -0.2,
+   "playerId": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3"
   },
   {
    "name": "Kimberly Kusumoto",
@@ -4724,8 +4956,8 @@
    "rating": -0.5,
    "ratingGames": 13,
    "confidence": 70,
-   "strengthOfPartners": 0.8,
-   "strengthOfOpponents": 0,
+   "strengthOfPartners": 0.9,
+   "strengthOfOpponents": 0.1,
    "playerId": "2563bcb0-eff4-4311-8e03-9a21b61691a0"
   },
   {
@@ -4899,7 +5131,7 @@
    "rating": 0.9,
    "ratingGames": 4,
    "confidence": 43,
-   "strengthOfPartners": 0.8,
+   "strengthOfPartners": 0.9,
    "strengthOfOpponents": 0.8
   },
   {
@@ -5073,7 +5305,7 @@
    "ratingGames": 6,
    "confidence": 48,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": -0.4,
+   "strengthOfOpponents": -0.3,
    "playerId": "ab221032-e648-4f2f-bc66-a05cee00c25c"
   },
   {
@@ -5159,7 +5391,7 @@
    "rating": -0.8,
    "ratingGames": 6,
    "confidence": 50,
-   "strengthOfPartners": 0.4,
+   "strengthOfPartners": 0.5,
    "strengthOfOpponents": 0.1,
    "playerId": "19f146a7-cb7b-40cf-aed9-98bf25a18aec"
   },
@@ -5359,11 +5591,11 @@
    "diff": -13,
    "ppg": 16.8,
    "leagueRank": 211,
-   "rating": -0.6,
+   "rating": -0.7,
    "ratingGames": 6,
    "confidence": 49,
-   "strengthOfPartners": 0,
-   "strengthOfOpponents": 0.5,
+   "strengthOfPartners": 0.4,
+   "strengthOfOpponents": 0.7,
    "playerId": "bc3af4c8-b7d2-4f23-a2c2-c7d04191ac89"
   },
   {
@@ -5914,7 +6146,7 @@
    "ratingGames": 12,
    "confidence": 67,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": 0.1,
    "playerId": "3911a60f-cab7-4b28-9ba0-244c000980ba"
   },
   {
@@ -6055,11 +6287,11 @@
    "diff": 10,
    "ppg": 19,
    "leagueRank": 199,
-   "rating": -0.4,
+   "rating": -0.8,
    "ratingGames": 5,
-   "confidence": 43,
-   "strengthOfPartners": 0.7,
-   "strengthOfOpponents": -1,
+   "confidence": 44,
+   "strengthOfPartners": 0.8,
+   "strengthOfOpponents": -1.3,
    "playerId": "aaedba87-275e-40f9-8683-a1db0d570cd7"
   },
   {
@@ -6469,33 +6701,33 @@
    "playerId": "8db2af6c-d2cf-4613-a2c3-f512de991c85"
   },
   {
-   "name": "Jerry Ridder",
+   "name": "Tracy Waffenfeld",
    "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "team": "Pickleball Palace Blue",
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 3,
    "losses": 5,
-   "pointsWon": 131,
-   "totalPointsAgainst": 159,
-   "mixedWins": 2,
+   "pointsWon": 128,
+   "totalPointsAgainst": 149,
+   "mixedWins": 1,
    "mixedLosses": 2,
-   "genderWins": 1,
+   "genderWins": 2,
    "genderLosses": 3,
-   "clutchWins": 2,
-   "clutchLosses": 0,
-   "playerId": "17d83f5c-38ad-4048-afbb-7302f3aff397",
+   "clutchWins": 1,
+   "clutchLosses": 1,
    "winPct": 37.5,
-   "diff": -28,
-   "ppg": 16.4,
-   "leagueRank": 290,
-   "rating": -1,
+   "diff": -21,
+   "ppg": 16,
+   "leagueRank": 193,
+   "rating": -2,
    "ratingGames": 8,
-   "confidence": 53,
-   "strengthOfPartners": -1,
-   "strengthOfOpponents": 0.5
+   "confidence": 57,
+   "strengthOfPartners": -0.5,
+   "strengthOfOpponents": -0.4,
+   "playerId": "2bc6c3c4-805a-4584-bbb9-6185448a3298"
   },
   {
    "name": "Sherry Silinger",
@@ -6520,7 +6752,7 @@
    "diff": -30,
    "ppg": 16,
    "leagueRank": 246,
-   "rating": -0.2,
+   "rating": -0.1,
    "ratingGames": 8,
    "confidence": 52,
    "strengthOfPartners": -1.3,
@@ -6670,35 +6902,6 @@
    "confidence": 47,
    "strengthOfPartners": 0,
    "strengthOfOpponents": 0.4
-  },
-  {
-   "name": "Lynn Quinn",
-   "gender": "Female",
-   "team": "Pickleball Palace Blue",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 2,
-   "losses": 4,
-   "pointsWon": 111,
-   "totalPointsAgainst": 118,
-   "mixedWins": 2,
-   "mixedLosses": 2,
-   "genderWins": 0,
-   "genderLosses": 2,
-   "clutchWins": 0,
-   "clutchLosses": 2,
-   "winPct": 33.3,
-   "diff": -7,
-   "ppg": 18.5,
-   "leagueRank": 86,
-   "rating": 1.1,
-   "ratingGames": 6,
-   "confidence": 44,
-   "strengthOfPartners": -0.8,
-   "strengthOfOpponents": 1,
-   "playerId": "d6c99730-dfc7-4a86-aa1e-163058c5b8c2"
   },
   {
    "name": "Michelle Lehman",
@@ -6897,7 +7100,7 @@
    "diff": -14,
    "ppg": 18,
    "leagueRank": 239,
-   "rating": -0.8,
+   "rating": -0.7,
    "ratingGames": 6,
    "confidence": 50,
    "strengthOfPartners": -0.1,
@@ -7158,11 +7361,11 @@
    "diff": -11,
    "ppg": 18.3,
    "leagueRank": 243,
-   "rating": -1.2,
+   "rating": -1.1,
    "ratingGames": 7,
    "confidence": 51,
-   "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -0.2
+   "strengthOfPartners": 0,
+   "strengthOfOpponents": -0.1
   },
   {
    "name": "Paul King",
@@ -7216,7 +7419,7 @@
    "diff": -16,
    "ppg": 17.9,
    "leagueRank": 254,
-   "rating": -1.4,
+   "rating": -1.3,
    "ratingGames": 7,
    "confidence": 51,
    "strengthOfPartners": 0.8,
@@ -7244,11 +7447,11 @@
    "diff": -18,
    "ppg": 17.1,
    "leagueRank": 258,
-   "rating": -0.9,
+   "rating": -0.8,
    "ratingGames": 7,
    "confidence": 52,
-   "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.9,
+   "strengthOfPartners": 0.7,
+   "strengthOfOpponents": 1,
    "playerId": "888253bb-161e-4029-9170-1f7002abdbee"
   },
   {
@@ -7418,7 +7621,7 @@
    "diff": -43,
    "ppg": 14.3,
    "leagueRank": 297,
-   "rating": -1.6,
+   "rating": -1.5,
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": -1.3,
@@ -7658,35 +7861,6 @@
    "playerId": "5691a68e-0367-4af2-b318-4e927e00d4d6"
   },
   {
-   "name": "Karin Schneider",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 8,
-   "wins": 2,
-   "losses": 6,
-   "pointsWon": 127,
-   "totalPointsAgainst": 164,
-   "mixedWins": 1,
-   "mixedLosses": 3,
-   "genderWins": 1,
-   "genderLosses": 3,
-   "clutchWins": 1,
-   "clutchLosses": 0,
-   "playerId": "6b3df055-e504-46b4-8072-5ebded92a310",
-   "winPct": 25,
-   "diff": -37,
-   "ppg": 15.9,
-   "leagueRank": 292,
-   "rating": -1.3,
-   "ratingGames": 8,
-   "confidence": 54,
-   "strengthOfPartners": -1,
-   "strengthOfOpponents": 0.7
-  },
-  {
    "name": "Michael Salerno",
    "gender": "Male",
    "team": "Colts Neck Racquet Club",
@@ -7796,11 +7970,11 @@
    "diff": -45,
    "ppg": 14.8,
    "leagueRank": 291,
-   "rating": -1.4,
+   "rating": -1.6,
    "ratingGames": 8,
-   "confidence": 54,
-   "strengthOfPartners": -1.1,
-   "strengthOfOpponents": 1.2
+   "confidence": 55,
+   "strengthOfPartners": -1.2,
+   "strengthOfOpponents": 1
   },
   {
    "name": "Franchesa Mclean",
@@ -7888,6 +8062,35 @@
    "strengthOfPartners": -0.7,
    "strengthOfOpponents": 1.2,
    "playerId": "8c0ea31a-a5e4-49f4-b97c-703e6edfe6d2"
+  },
+  {
+   "name": "Jerry Ridder",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 14,
+   "wins": 3,
+   "losses": 11,
+   "pointsWon": 219,
+   "totalPointsAgainst": 285,
+   "mixedWins": 2,
+   "mixedLosses": 6,
+   "genderWins": 1,
+   "genderLosses": 5,
+   "clutchWins": 2,
+   "clutchLosses": 1,
+   "playerId": "17d83f5c-38ad-4048-afbb-7302f3aff397",
+   "winPct": 21.4,
+   "diff": -66,
+   "ppg": 15.6,
+   "leagueRank": 290,
+   "rating": -1.9,
+   "ratingGames": 14,
+   "confidence": 70,
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": 0.5
   },
   {
    "name": "Gregory Mcquibben",
@@ -8064,35 +8267,6 @@
    "playerId": "c32a3777-ab2f-457c-9232-39bee809dfc9"
   },
   {
-   "name": "Mark Garner",
-   "gender": "Male",
-   "team": "Pickleball Palace Blue",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 5,
-   "wins": 1,
-   "losses": 4,
-   "pointsWon": 86,
-   "totalPointsAgainst": 103,
-   "mixedWins": 0,
-   "mixedLosses": 3,
-   "genderWins": 1,
-   "genderLosses": 1,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "winPct": 20,
-   "diff": -17,
-   "ppg": 17.2,
-   "leagueRank": 170,
-   "rating": -0.6,
-   "ratingGames": 5,
-   "confidence": 46,
-   "strengthOfPartners": 0.4,
-   "strengthOfOpponents": 1.4,
-   "playerId": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3"
-  },
-  {
    "name": "Michele Anthony",
    "gender": "Female",
    "team": "Monroe",
@@ -8143,11 +8317,11 @@
    "diff": -22,
    "ppg": 16,
    "leagueRank": 302,
-   "rating": -2.4,
+   "rating": -2.6,
    "ratingGames": 5,
-   "confidence": 45,
-   "strengthOfPartners": 0.9,
-   "strengthOfOpponents": 0.5,
+   "confidence": 46,
+   "strengthOfPartners": 1.6,
+   "strengthOfOpponents": 0.7,
    "playerId": "d04e4e93-c62c-4352-ac19-a5c7ce293763"
   },
   {
@@ -8172,11 +8346,11 @@
    "diff": -24,
    "ppg": 13.8,
    "leagueRank": 310,
-   "rating": -0.5,
+   "rating": -0.4,
    "ratingGames": 5,
    "confidence": 46,
-   "strengthOfPartners": -1.7,
-   "strengthOfOpponents": 1.1,
+   "strengthOfPartners": -1.4,
+   "strengthOfOpponents": 1.4,
    "playerId": "d1662b32-b01f-4f6a-95a0-ff4fe00d4d32"
   },
   {
@@ -8230,11 +8404,11 @@
    "diff": -29,
    "ppg": 14.8,
    "leagueRank": 307,
-   "rating": -1.2,
+   "rating": -0.9,
    "ratingGames": 5,
    "confidence": 45,
    "strengthOfPartners": -1.1,
-   "strengthOfOpponents": 1.2,
+   "strengthOfOpponents": 1.5,
    "playerId": "f60538ea-d405-4f9b-a8ac-8545414538c0"
   },
   {
@@ -8259,11 +8433,11 @@
    "diff": -33,
    "ppg": 17.2,
    "leagueRank": 286,
-   "rating": -2.6,
+   "rating": -2.4,
    "ratingGames": 10,
    "confidence": 64,
-   "strengthOfPartners": -0.4,
-   "strengthOfOpponents": -0.4,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": -0.1,
    "playerId": "2edb3f79-df7a-4e92-a4d5-e78774a90e92"
   },
   {
@@ -8346,11 +8520,11 @@
    "diff": -43,
    "ppg": 12,
    "leagueRank": 341,
-   "rating": -3.1,
+   "rating": -3.2,
    "ratingGames": 5,
-   "confidence": 44,
-   "strengthOfPartners": -1.3,
-   "strengthOfOpponents": 0.9,
+   "confidence": 45,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": 1.1,
    "playerId": "abb97d79-dd49-46e2-ada3-d97b74daefac"
   },
   {
@@ -8383,6 +8557,35 @@
    "playerId": "17772fc9-b0bb-456e-82a9-9b25ff7fbf09"
   },
   {
+   "name": "Karin Schneider",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 16,
+   "wins": 3,
+   "losses": 13,
+   "pointsWon": 246,
+   "totalPointsAgainst": 322,
+   "mixedWins": 2,
+   "mixedLosses": 6,
+   "genderWins": 1,
+   "genderLosses": 7,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "playerId": "6b3df055-e504-46b4-8072-5ebded92a310",
+   "winPct": 18.8,
+   "diff": -76,
+   "ppg": 15.4,
+   "leagueRank": 292,
+   "rating": -1.2,
+   "ratingGames": 16,
+   "confidence": 68,
+   "strengthOfPartners": -1.6,
+   "strengthOfOpponents": 0.8
+  },
+  {
    "name": "Marita Dow",
    "gender": "Female",
    "team": "PickleRage Union County",
@@ -8407,8 +8610,8 @@
    "rating": -1.8,
    "ratingGames": 11,
    "confidence": 64,
-   "strengthOfPartners": -0.4,
-   "strengthOfOpponents": -0.2,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": -0.1,
    "playerId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de"
   },
   {
@@ -8494,7 +8697,7 @@
    "rating": 0.8,
    "ratingGames": 6,
    "confidence": 50,
-   "strengthOfPartners": -2.7,
+   "strengthOfPartners": -2.6,
    "strengthOfOpponents": 0.8,
    "playerId": "470a69e9-14e8-46ea-8442-328398904e1f"
   },
@@ -8702,35 +8905,6 @@
    "playerId": "b613137c-a590-4ca1-9835-aff71d263018"
   },
   {
-   "name": "Stanley Okpor",
-   "gender": "Male",
-   "team": "Pickleball Palace Blue",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 1,
-   "losses": 5,
-   "pointsWon": 97,
-   "totalPointsAgainst": 122,
-   "mixedWins": 1,
-   "mixedLosses": 1,
-   "genderWins": 0,
-   "genderLosses": 4,
-   "clutchWins": 0,
-   "clutchLosses": 1,
-   "winPct": 16.7,
-   "diff": -25,
-   "ppg": 16.2,
-   "leagueRank": 123,
-   "rating": -0.6,
-   "ratingGames": 6,
-   "confidence": 50,
-   "strengthOfPartners": -0.4,
-   "strengthOfOpponents": 1.4,
-   "playerId": "dba57d37-2d91-4c25-96ae-cbc287043db4"
-  },
-  {
    "name": "Joshua Holloway",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
@@ -8758,6 +8932,35 @@
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": 0.8,
    "playerId": "b8919b61-f5ef-4322-a5fd-51364c3e0fbc"
+  },
+  {
+   "name": "Brian Borer",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 1,
+   "losses": 5,
+   "pointsWon": 87,
+   "totalPointsAgainst": 116,
+   "mixedWins": 1,
+   "mixedLosses": 2,
+   "genderWins": 0,
+   "genderLosses": 3,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "playerId": "47124d07-437f-49ee-b6ba-fc48943aee42",
+   "winPct": 16.7,
+   "diff": -29,
+   "ppg": 14.5,
+   "leagueRank": 305,
+   "rating": -1.3,
+   "ratingGames": 6,
+   "confidence": 49,
+   "strengthOfPartners": -2.1,
+   "strengthOfOpponents": 0.3
   },
   {
    "name": "Gina Lavignera",
@@ -9016,7 +9219,7 @@
    "rating": -0.4,
    "ratingGames": 7,
    "confidence": 54,
-   "strengthOfPartners": 0.1,
+   "strengthOfPartners": 0.2,
    "strengthOfOpponents": 0.6,
    "playerId": "d6387c1c-d4a1-437d-86c1-da6c66811b1d"
   },
@@ -9188,11 +9391,11 @@
    "diff": -35,
    "ppg": 16.4,
    "leagueRank": 294,
-   "rating": -0.2,
+   "rating": 0.1,
    "ratingGames": 8,
-   "confidence": 53,
-   "strengthOfPartners": -1.5,
-   "strengthOfOpponents": 1.3
+   "confidence": 54,
+   "strengthOfPartners": -1.6,
+   "strengthOfOpponents": 1.4
   },
   {
    "name": "Alan Carr",
@@ -9217,11 +9420,11 @@
    "diff": -41,
    "ppg": 15.6,
    "leagueRank": 304,
-   "rating": -1.1,
+   "rating": -1.2,
    "ratingGames": 8,
    "confidence": 53,
-   "strengthOfPartners": -1.1,
-   "strengthOfOpponents": 1.1
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": 1
   },
   {
    "name": "Leah Greenstein",
@@ -9599,35 +9802,6 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "32df945d-84b6-409d-b2ab-109d6dc1e3de"
-  },
-  {
-   "name": "Kristin Duva",
-   "gender": "Female",
-   "team": "Pickleball Palace Black",
-   "matches": 0,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 394,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "33bedbfd-6715-4614-8662-650a8bc4c678"
   },
   {
    "name": "Pete Certo",
@@ -10268,64 +10442,6 @@
    "playerId": "902886e7-a7e2-4ed6-a560-edbc523012fd"
   },
   {
-   "name": "Cheryl Minerowicz",
-   "gender": "Female",
-   "team": "Pickleball Palace Black",
-   "matches": 0,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 420,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "98cf9a34-6d8e-4aed-81d1-1a6f2fe864f2"
-  },
-  {
-   "name": "Geoffrey Baird",
-   "gender": "Male",
-   "team": "Pickleball Palace Blue",
-   "matches": 0,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 24,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "98d6ec7e-e3ac-47ce-a2a2-a000399c9e4f"
-  },
-  {
    "name": "Frank Marchiano",
    "gender": "Male",
    "team": "Premiere Aces",
@@ -10382,35 +10498,6 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a3f83304-9f0d-4613-b871-ecaa6bf9c7d0"
-  },
-  {
-   "name": "Gary Leon",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 359,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "a7163fb2-63f3-46c4-9d0d-b333eea0b503"
   },
   {
    "name": "Denise Stassi",
@@ -11275,11 +11362,11 @@
    "diff": -27,
    "ppg": 16.5,
    "leagueRank": 326,
-   "rating": -0.4,
+   "rating": -0.5,
    "ratingGames": 6,
    "confidence": 48,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 1.6,
+   "strengthOfPartners": 0.3,
+   "strengthOfOpponents": 2,
    "playerId": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603"
   },
   {
@@ -11457,6 +11544,35 @@
    "playerId": "dbfefc28-df9b-4ffb-a76b-8a53f7303a25"
   },
   {
+   "name": "Robin Aiello",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 0,
+   "losses": 6,
+   "pointsWon": 93,
+   "totalPointsAgainst": 126,
+   "mixedWins": 0,
+   "mixedLosses": 2,
+   "genderWins": 0,
+   "genderLosses": 4,
+   "clutchWins": 0,
+   "clutchLosses": 2,
+   "playerId": "45790302-b906-4a8b-8a2d-08fbfaf6cbad",
+   "winPct": 0,
+   "diff": -33,
+   "ppg": 15.5,
+   "leagueRank": 328,
+   "rating": -1.3,
+   "ratingGames": 6,
+   "confidence": 46,
+   "strengthOfPartners": -1.8,
+   "strengthOfOpponents": 0.8
+  },
+  {
    "name": "Deb Gray",
    "gender": "Female",
    "team": "Bounce Philly",
@@ -11602,35 +11718,6 @@
    "strengthOfOpponents": 1
   },
   {
-   "name": "Tracy Waffenfeld",
-   "gender": "Male",
-   "team": "Pickleball Palace Blue",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 5,
-   "wins": 0,
-   "losses": 5,
-   "pointsWon": 65,
-   "totalPointsAgainst": 105,
-   "mixedWins": 0,
-   "mixedLosses": 2,
-   "genderWins": 0,
-   "genderLosses": 3,
-   "clutchWins": 0,
-   "clutchLosses": 1,
-   "winPct": 0,
-   "diff": -40,
-   "ppg": 13,
-   "leagueRank": 193,
-   "rating": -3.3,
-   "ratingGames": 5,
-   "confidence": 43,
-   "strengthOfPartners": -1.5,
-   "strengthOfOpponents": 0.2,
-   "playerId": "2bc6c3c4-805a-4584-bbb9-6185448a3298"
-  },
-  {
    "name": "Gina Blahut",
    "gender": "Female",
    "team": "ACE Moorestown",
@@ -11686,7 +11773,7 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.4
   },
   {
    "name": "Sheila Dolan",
@@ -11718,6 +11805,64 @@
    "strengthOfOpponents": 1.3
   },
   {
+   "name": "Tim Lockburner",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 0,
+   "losses": 6,
+   "pointsWon": 81,
+   "totalPointsAgainst": 126,
+   "mixedWins": 0,
+   "mixedLosses": 3,
+   "genderWins": 0,
+   "genderLosses": 3,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "playerId": "3c881311-2724-4972-bc8e-f3ffcbd51cd0",
+   "winPct": 0,
+   "diff": -45,
+   "ppg": 13.5,
+   "leagueRank": 348,
+   "rating": -3.1,
+   "ratingGames": 6,
+   "confidence": 50,
+   "strengthOfPartners": -1.5,
+   "strengthOfOpponents": 0.4
+  },
+  {
+   "name": "Christine Levesque",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 8,
+   "wins": 0,
+   "losses": 8,
+   "pointsWon": 122,
+   "totalPointsAgainst": 168,
+   "mixedWins": 0,
+   "mixedLosses": 4,
+   "genderWins": 0,
+   "genderLosses": 4,
+   "clutchWins": 0,
+   "clutchLosses": 2,
+   "playerId": "e34d4b70-a0fc-4087-8386-98fb172aee4c",
+   "winPct": 0,
+   "diff": -46,
+   "ppg": 15.3,
+   "leagueRank": 330,
+   "rating": -1.2,
+   "ratingGames": 8,
+   "confidence": 55,
+   "strengthOfPartners": -2,
+   "strengthOfOpponents": 1
+  },
+  {
    "name": "James Carter",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
@@ -11739,12 +11884,41 @@
    "diff": -48,
    "ppg": 15,
    "leagueRank": 333,
-   "rating": -1.4,
+   "rating": -1.5,
    "ratingGames": 8,
    "confidence": 56,
-   "strengthOfPartners": -1.3,
-   "strengthOfOpponents": 1.3,
+   "strengthOfPartners": -1.4,
+   "strengthOfOpponents": 1.2,
    "playerId": "812eedea-eef8-4f59-a41b-8c2f02f45fc1"
+  },
+  {
+   "name": "Gary Leon",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 5,
+   "wins": 0,
+   "losses": 5,
+   "pointsWon": 56,
+   "totalPointsAgainst": 105,
+   "mixedWins": 0,
+   "mixedLosses": 3,
+   "genderWins": 0,
+   "genderLosses": 2,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": -49,
+   "ppg": 11.2,
+   "leagueRank": 359,
+   "rating": -3.1,
+   "ratingGames": 5,
+   "confidence": 48,
+   "strengthOfPartners": -2,
+   "strengthOfOpponents": 1.1,
+   "playerId": "a7163fb2-63f3-46c4-9d0d-b333eea0b503"
   },
   {
    "name": "Michelle Corbett",
@@ -11803,6 +11977,35 @@
    "strengthOfPartners": -1.3,
    "strengthOfOpponents": 1.7,
    "playerId": "83ef92aa-1e74-4ef1-8a56-ce4458a80528"
+  },
+  {
+   "name": "Corinne Demeuse",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 7,
+   "wins": 0,
+   "losses": 7,
+   "pointsWon": 96,
+   "totalPointsAgainst": 147,
+   "mixedWins": 0,
+   "mixedLosses": 3,
+   "genderWins": 0,
+   "genderLosses": 4,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "playerId": "2a820b56-af8a-4856-8db8-fb8e7c133e08",
+   "winPct": 0,
+   "diff": -51,
+   "ppg": 13.7,
+   "leagueRank": 347,
+   "rating": -2.4,
+   "ratingGames": 7,
+   "confidence": 49,
+   "strengthOfPartners": -1.6,
+   "strengthOfOpponents": 0.9
   },
   {
    "name": "Donna Fama",
@@ -11917,7 +12120,7 @@
    "ratingGames": 7,
    "confidence": 53,
    "strengthOfPartners": -1,
-   "strengthOfOpponents": 1.6,
+   "strengthOfOpponents": 1.7,
    "playerId": "02318afc-9bde-4df3-a7b3-7f1d1da3186c"
   },
   {
@@ -12003,8 +12206,8 @@
    "leagueRank": 350,
    "rating": -2.6,
    "ratingGames": 8,
-   "confidence": 55,
-   "strengthOfPartners": -0.9,
+   "confidence": 56,
+   "strengthOfPartners": -0.8,
    "strengthOfOpponents": 1.4
   },
   {
@@ -12061,7 +12264,7 @@
    "rating": -3.7,
    "ratingGames": 11,
    "confidence": 66,
-   "strengthOfPartners": -0.2,
+   "strengthOfPartners": -0.1,
    "strengthOfOpponents": 0.6,
    "playerId": "26593c53-dc79-4970-9b87-82c6fa9b3bb3"
   },
@@ -12106,7 +12309,7 @@
    "gl": 6,
    "diff": 160,
    "gameDiff": 20,
-   "power": 1.1,
+   "power": 0.8,
    "powerRank": 1,
    "pod": 1,
    "reportedPod": "Northwest",
@@ -12287,7 +12490,7 @@
    "diff": 68,
    "gameDiff": 16,
    "power": 0.6,
-   "powerRank": 3,
+   "powerRank": 4,
    "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
@@ -12367,6 +12570,36 @@
    }
   },
   {
+   "name": "Pickleball Palace Blue",
+   "w": 1,
+   "l": 1,
+   "pf": 1070,
+   "pa": 1019,
+   "gw": 40,
+   "gl": 24,
+   "diff": 51,
+   "gameDiff": 16,
+   "power": 0.3,
+   "powerRank": 5,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     20,
+     12
+    ],
+    "male": [
+     9,
+     7
+    ],
+    "female": [
+     11,
+     5
+    ]
+   }
+  },
+  {
    "name": "Allstar Pickler",
    "w": 1,
    "l": 1,
@@ -12436,8 +12669,8 @@
    "gl": 29,
    "diff": 99,
    "gameDiff": 6,
-   "power": 0.5,
-   "powerRank": 4,
+   "power": 0.7,
+   "powerRank": 3,
    "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
@@ -12667,36 +12900,6 @@
    }
   },
   {
-   "name": "Pickleball Palace Blue",
-   "w": 0,
-   "l": 1,
-   "pf": 533,
-   "pa": 647,
-   "gw": 9,
-   "gl": 23,
-   "diff": -114,
-   "gameDiff": -14,
-   "power": -0.7,
-   "powerRank": 5,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     5,
-     11
-    ],
-    "male": [
-     1,
-     7
-    ],
-    "female": [
-     3,
-     5
-    ]
-   }
-  },
-  {
    "name": "Bounce Philly",
    "w": 0,
    "l": 2,
@@ -12787,36 +12990,6 @@
    }
   },
   {
-   "name": "Pickleball Kingdom Hillsborough",
-   "w": 0,
-   "l": 1,
-   "pf": 504,
-   "pa": 664,
-   "gw": 6,
-   "gl": 26,
-   "diff": -160,
-   "gameDiff": -20,
-   "power": -1.1,
-   "powerRank": 6,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     4,
-     12
-    ],
-    "male": [
-     1,
-     7
-    ],
-    "female": [
-     1,
-     7
-    ]
-   }
-  },
-  {
    "name": "Premiere Aces",
    "w": 0,
    "l": 1,
@@ -12827,7 +13000,7 @@
    "diff": -194,
    "gameDiff": -22,
    "power": -1.5,
-   "powerRank": 7,
+   "powerRank": 6,
    "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
@@ -12873,6 +13046,36 @@
     "female": [
      1,
      7
+    ]
+   }
+  },
+  {
+   "name": "Pickleball Kingdom Hillsborough",
+   "w": 0,
+   "l": 2,
+   "pf": 876,
+   "pa": 1201,
+   "gw": 7,
+   "gl": 57,
+   "diff": -325,
+   "gameDiff": -50,
+   "power": -1.5,
+   "powerRank": 7,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     5,
+     27
+    ],
+    "male": [
+     1,
+     15
+    ],
+    "female": [
+     1,
+     15
     ]
    }
   }
@@ -12939,7 +13142,7 @@
    "l": 0,
    "synergy": 1.9,
    "avgActual": 6.3,
-   "avgExpected": 1.8,
+   "avgExpected": 1.9,
    "aId": "713e7456-5ec1-4fa6-ac0f-bb04c2a56c18",
    "bId": "826ca41a-b56b-4688-9a30-330a67e541f3"
   },
@@ -12989,9 +13192,9 @@
    "n": 3,
    "w": 3,
    "l": 0,
-   "synergy": 1.5,
+   "synergy": 1.4,
    "avgActual": 8.3,
-   "avgExpected": 4.7,
+   "avgExpected": 5.1,
    "aId": "94c45058-cae5-4085-ad9e-684309568903",
    "bId": "f2e5778f-44c1-46ed-b27d-f3728fa84378"
   },
@@ -13069,7 +13272,7 @@
    "l": 0,
    "synergy": 1,
    "avgActual": 6.3,
-   "avgExpected": 4.1,
+   "avgExpected": 4,
    "aId": "7fe3ca78-6219-4723-a8ad-49bce55b0238",
    "bId": "93c5b40e-d4ff-4fc5-b7fa-de1e6a82110b"
   },
@@ -13178,19 +13381,6 @@
    "bId": "9b6e4166-d6a4-4e8c-812b-65e4d35477f3"
   },
   {
-   "a": "Linda Bozzo",
-   "b": "Teresa Carr",
-   "team": "PickleRage Union County",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.7,
-   "avgActual": 3.3,
-   "avgExpected": 1.8,
-   "aId": "94c45058-cae5-4085-ad9e-684309568903",
-   "bId": "b84f31ed-afcf-4045-b351-8ece85cdeb26"
-  },
-  {
    "a": "Warren Howard",
    "b": "Judy Williamson",
    "team": "Pickleball Kingdom Hamilton Prime Time",
@@ -13202,6 +13392,19 @@
    "avgExpected": -1.8,
    "aId": "b5b20410-43ee-4dc8-bb2b-dadb159ca3f1",
    "bId": "e646e3ee-5e39-48c7-933f-e567af0de814"
+  },
+  {
+   "a": "Linda Bozzo",
+   "b": "Teresa Carr",
+   "team": "PickleRage Union County",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.6,
+   "avgActual": 3.3,
+   "avgExpected": 2,
+   "aId": "94c45058-cae5-4085-ad9e-684309568903",
+   "bId": "b84f31ed-afcf-4045-b351-8ece85cdeb26"
   },
   {
    "a": "George Nouaime",
@@ -13282,19 +13485,6 @@
    "bId": "acc4012f-320c-4b43-8ec7-f60ca7419e03"
   },
   {
-   "a": "Mark Baker",
-   "b": "Marita Dow",
-   "team": "PickleRage Union County",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": 0.4,
-   "avgActual": -3,
-   "avgExpected": -3.9,
-   "aId": "2edb3f79-df7a-4e92-a4d5-e78774a90e92",
-   "bId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de"
-  },
-  {
    "a": "Scott Gardo",
    "b": "Bill Venella",
    "team": "Forward",
@@ -13371,6 +13561,19 @@
    "avgExpected": 2.6,
    "aId": "45bc6397-1703-4a4b-bde7-fda65905fe3a",
    "bId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5"
+  },
+  {
+   "a": "Mark Baker",
+   "b": "Marita Dow",
+   "team": "PickleRage Union County",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": 0.3,
+   "avgActual": -3,
+   "avgExpected": -3.7,
+   "aId": "2edb3f79-df7a-4e92-a4d5-e78774a90e92",
+   "bId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de"
   },
   {
    "a": "Mary Foster",
@@ -13537,7 +13740,7 @@
    "l": 1,
    "synergy": -0.3,
    "avgActual": 3,
-   "avgExpected": 3.6,
+   "avgExpected": 3.7,
    "aId": "1b93f56f-c9be-4d20-b0a4-e155b558a11c",
    "bId": "e623609f-5136-415f-a018-74427cfa13ff"
   },
@@ -19796,7 +19999,7 @@
    "homePoints": 372,
    "awayPoints": 537,
    "homeGW": 1,
-   "awayGW": 25,
+   "awayGW": 31,
    "games": [
     {
      "t": "mixed",
@@ -19841,6 +20044,20 @@
      ]
     },
     {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Robin Aiello",
+      ""
+     ],
+     "a": [
+      "Christine Ostapiak",
+      "Tracy Waffenfeld"
+     ]
+    },
+    {
      "t": "female",
      "ff": 0,
      "hs": 19,
@@ -19866,6 +20083,20 @@
      "a": [
       "Christine Ostapiak",
       "Noelie Hillebrecht"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "",
+      "Gary Leon"
+     ],
+     "a": [
+      "John Cusano",
+      "Tracy Waffenfeld"
      ]
     },
     {
@@ -19922,6 +20153,20 @@
      "a": [
       "Noelie Hillebrecht",
       "Mark Garner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Corinne Demeuse",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Stanley Okpor"
      ]
     },
     {
@@ -20023,6 +20268,20 @@
      ]
     },
     {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "Robin Aiello",
+      ""
+     ],
+     "a": [
+      "Kristin Duva",
+      "Stanley Okpor"
+     ]
+    },
+    {
      "t": "female",
      "ff": 0,
      "hs": 20,
@@ -20048,6 +20307,20 @@
      "a": [
       "Noelie Hillebrecht",
       "Lynn Quinn"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "",
+      "Jerry Ridder"
+     ],
+     "a": [
+      "Mark Garner",
+      "Geoffrey Baird"
      ]
     },
     {
@@ -20151,6 +20424,20 @@
     {
      "t": "male",
      "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Tim Lockburner",
+      ""
+     ],
+     "a": [
+      "Tracy Waffenfeld",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
      "hs": 9,
      "as": 21,
      "h": [
@@ -20163,7 +20450,20 @@
      ]
     }
    ],
-   "subs": []
+   "subs": [
+    "Karin Schneider",
+    "Tim Lockburner",
+    "Cheryl Minerowicz",
+    "John Cusano",
+    "Christine Levesque",
+    "Jerry Ridder",
+    "Corinne Demeuse",
+    "Brian Borer",
+    "Kristin Duva",
+    "Robin Aiello",
+    "Christine Ostapiak",
+    "Noelie Hillebrecht"
+   ]
   },
   {
    "result": "away",
@@ -25895,13 +26195,9 @@
   "Jenn Allen": "1741b412-8d86-480b-a9f3-88447159088a",
   "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
   "Cynthia Wojtkowski": "26b8531a-1f4c-4ffd-86ac-3ffb92eeee55",
-  "Corinne Demeuse": "2a820b56-af8a-4856-8db8-fb8e7c133e08",
   "Dan Sweetman": "2f212831-0629-494e-90b0-d16fc59fc666",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
-  "Tim Lockburner": "3c881311-2724-4972-bc8e-f3ffcbd51cd0",
-  "Robin Aiello": "45790302-b906-4a8b-8a2d-08fbfaf6cbad",
-  "Brian Borer": "47124d07-437f-49ee-b6ba-fc48943aee42",
   "Qiao Yang": "4be24db4-ce32-40fa-bd9d-1900b731a602",
   "Ron Dodson": "4f3b5d69-09ea-4e93-b797-c772df1dd2f8",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
@@ -25913,9 +26209,7 @@
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
   "Neal Shipon": "7d298d79-0931-4682-8a6f-305e27d992b7",
   "Wenge Li": "7d534d9a-c409-42fa-bce1-c04428d6c5e3",
-  "John Cusano": "809fbee0-ae20-4726-9468-9e0e23f6696a",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
-  "Noelie Hillebrecht": "97419da1-c259-41a5-8503-2decd14e8a9a",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Bill Starnes": "ab2aa3a5-6292-4d5c-af60-a42f2210e286",
@@ -25926,7 +26220,6 @@
   "Nipam Patel": "dadd5cb5-8165-44be-8553-8774bc0949e2",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Norm Jones": "e25b79a2-a054-4642-a926-1499e0768832",
-  "Christine Levesque": "e34d4b70-a0fc-4087-8386-98fb172aee4c",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
   "Jenny Winters": "ea0e9b2c-cdde-48d1-8585-fd47053329b6",
   "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea",
@@ -25934,9 +26227,10 @@
   "Mike Yang": "fde88c4a-e006-4396-bc8a-92bf97916537"
  },
  "meta": {
-  "matchesPlayed": 23,
+  "matchesPlayed": 24,
+  "provisionalMatches": 1,
   "weeks": "1-2",
-  "totalPlayers": 417,
+  "totalPlayers": 424,
   "ratingHistoryWeeks": [
    1,
    2

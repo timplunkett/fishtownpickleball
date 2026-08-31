@@ -13,7 +13,7 @@ const { writeDuprShards } = require('./dupr-outputs');
 const { expandJson } = require('./json-utils');
 const {
   isForfeit,
-  deriveProvisionalOutcome,
+  applyProvisionalOutcomes,
   computeRatings,
   computeWeeklyRatingHistory,
   computePairSynergy,
@@ -274,8 +274,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     : [];
 
   const matchups = (feed.$values || firstValues(feed) || []);
-  const completed = matchups.filter(m => m.endResult);
-  console.log(`Processing stats for ${completed.length} completed matches.`);
 
   // Teams that appear in at least one scheduled or completed matchup — used to
   // filter out placeholder entries (e.g. "Open Play") that exist in the player
@@ -347,6 +345,34 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   }
   for (const name of ambiguousNames) delete playerIdsByName[name];
 
+  // A matchup whose lineups are filled and fully scored has a knowable result even
+  // before the league closes it out. Resolve those into the feed here, once, so
+  // every computation below — standings, player records, ratings, weekly rating
+  // history, pair chemistry, format splits — counts them like any other result.
+  // They stay flagged `provisional` so the UI can say the league hasn't confirmed
+  // them yet. Everything from this point on reads the resolved pair; the raw
+  // `matchups` / `detailById` only describe fixtures (schedule, pods, typical day),
+  // where a result makes no difference.
+  const teamNameById = {};
+  for (const mu of [...matchups, ...((playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [])]) {
+    if (mu.homeTeamId) teamNameById[mu.homeTeamId] = mu.homeName;
+    if (mu.awayTeamId) teamNameById[mu.awayTeamId] = mu.awayName;
+  }
+  const {
+    matchups: resolvedMatchups,
+    detailById: resolvedDetailById,
+    provisionalCount,
+  } = applyProvisionalOutcomes(matchups, detailById, {
+    // The lineups name who played but not on whose behalf: a player who turned
+    // out for a team other than the one they're rostered on is a sub, and one the
+    // division doesn't roster at all is an outside sub. Matches the league's own
+    // isSub on 6065 of 6075 reported player-matchup rows.
+    isSubForTeam: (playerId, teamId) => homeTeamByPid[playerId] !== teamNameById[teamId],
+  });
+  const completed = resolvedMatchups.filter(m => m.endResult);
+  const provisionalNote = provisionalCount ? ` (${provisionalCount} provisional)` : '';
+  console.log(`Processing stats for ${completed.length} completed matches${provisionalNote}.`);
+
   // A rostered player who hasn't logged a game yet: real identity, zeroed
   // stats, no rating. Used pre-season and for teams whose first match hasn't
   // been played while the rest of the division is under way.
@@ -414,7 +440,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         time: m.scheduledTime || null,
         complete: false,
       };
-      const pendingGames = buildPendingGames(detailById.get(m.matchupId), nameById);
+      const pendingGames = buildPendingGames(resolvedDetailById.get(m.matchupId), nameById);
       if (pendingGames.length) rec.games = pendingGames;
       return rec;
     });
@@ -425,7 +451,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
       meta: {
-        matchesPlayed: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
+        matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
         typicalDay: computeTypicalDay(matchups),
@@ -449,7 +475,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   seedRosterPlayers();
 
   for (const mu of completed) {
-    const d = detailById.get(mu.matchupId) || null;
+    const d = resolvedDetailById.get(mu.matchupId) || null;
 
     const homeId = mu.homeTeamId, awayId = mu.awayTeamId;
     TEAMNAME[homeId] = mu.homeName; TEAMNAME[awayId] = mu.awayName;
@@ -581,10 +607,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   }
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
-  const ratings = computeRatings(completed, detailById);
-  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, detailById, players);
+  const ratings = computeRatings(completed, resolvedDetailById);
+  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, resolvedDetailById, players);
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, detailById, ratings, homeTeamByPid, playerInfoById);
+  const { duos, partnersByPid } = computePairSynergy(completed, resolvedDetailById, ratings, homeTeamByPid, playerInfoById);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -652,25 +678,28 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // Full match list (completed + scheduled) and per-team format splits, for the
   // team pages: match history by week, upcoming schedule, mixed/men's/women's.
   // Build sub-player lookup for completed matchups (names shown next to match results).
+  // Reads the resolved details so a provisional result names its subs too — the
+  // league hasn't published stat rows for it, but the synthesized ones carry isSub.
   const subNamesByMatchupId = {};
-  for (const e of matchupDetailsJson) {
+  for (const [matchupId, details] of resolvedDetailById) {
     const subs = [];
-    const players = (e.details && e.details.matchupPlayerStats && e.details.matchupPlayerStats.$values) || [];
+    const players = (details && details.matchupPlayerStats && details.matchupPlayerStats.$values) || [];
     // Collect the set of player IDs that appear as regular (non-sub) roster members in this matchup.
     const rosterPids = new Set(players.filter(p => !p.isSub).map(p => p.playerId));
     for (const p of players) {
       // Only mark as sub if not also listed as a regular roster member in the same matchup.
       if (p.isSub && !rosterPids.has(p.playerId)) subs.push(nameById[p.playerId] || p.playerId);
     }
-    if (subs.length) subNamesByMatchupId[e.matchupId] = subs;
+    if (subs.length) subNamesByMatchupId[matchupId] = subs;
   }
   const fmt = {};
   const ensureFmt = n => fmt[n] || (fmt[n] = { mixed: [0, 0], male: [0, 0], female: [0, 0] });
   const matches = [];
-  for (const m of matchups) {
-    const d = detailById.get(m.matchupId);
+  for (const m of resolvedMatchups) {
+    const d = resolvedDetailById.get(m.matchupId);
     const complete = !!m.endResult;
     const rec = { result: m.endResult, week: m.weekNumber, home: m.homeName, away: m.awayName, time: m.scheduledTime || null, complete };
+    if (m.provisional) rec.provisional = true;
     if (complete && d) {
       let hgw = 0, agw = 0;
       const glist = [];
@@ -694,27 +723,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       console.warn(`⚠️ Completed match ${m.matchupId} (${m.homeName} vs ${m.awayName}, week ${m.weekNumber}) has no detail data — game record will show 0–0. Re-run the fetcher to pick up missing scores.`);
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
-      const provisional = deriveProvisionalOutcome(d);
-      if (provisional) {
-        const glist = provisional.games.map((g) => ({
-          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
-          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-        }));
-        Object.assign(rec, {
-          complete: true,
-          provisional: true,
-          result: provisional.result,
-          homePoints: provisional.homePoints,
-          awayPoints: provisional.awayPoints,
-          homeGW: provisional.homeGW,
-          awayGW: provisional.awayGW,
-          games: glist,
-          subs: subNamesByMatchupId[m.matchupId] || [],
-        });
-        matches.push(rec);
-        continue;
-      }
       const pendingGames = buildPendingGames(d, nameById);
       if (pendingGames.length) {
         Object.assign(rec, { games: pendingGames });
@@ -729,9 +737,18 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
   const typicalDay = computeTypicalDay(matchups);
 
-  // Build the playoffs list from playoff matchups if available.
-  const playoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
-  const playoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
+  // Build the playoffs list from playoff matchups if available. Playoff results
+  // are display-only — the regular season alone drives standings and ratings — but
+  // they get the same provisional resolution so a scored-but-unconfirmed bracket
+  // game shows its result, flagged, like a regular-season one.
+  const rawPlayoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
+  const rawPlayoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
+  const {
+    matchups: playoffMatchups,
+    detailById: playoffDetailById,
+  } = applyProvisionalOutcomes(rawPlayoffMatchups, rawPlayoffDetailById, {
+    isSubForTeam: (playerId, teamId) => homeTeamByPid[playerId] !== teamNameById[teamId],
+  });
   const playoffs = [];
   for (const m of playoffMatchups) {
     const d = playoffDetailById.get(m.matchupId);
@@ -741,6 +758,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       time: m.scheduledTime || null, complete,
       homeSeed: m.homePodRanking ?? null, awaySeed: m.awayPodRanking ?? null,
     };
+    if (m.provisional) rec.provisional = true;
     if (complete && d) {
       let hgw = 0, agw = 0;
       const glist = [];
@@ -755,26 +773,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
     } else if (d) {
-      const provisional = deriveProvisionalOutcome(d);
-      if (provisional) {
-        const glist = provisional.games.map((g) => ({
-          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
-          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-        }));
-        Object.assign(rec, {
-          complete: true,
-          provisional: true,
-          result: provisional.result,
-          homePoints: provisional.homePoints,
-          awayPoints: provisional.awayPoints,
-          homeGW: provisional.homeGW,
-          awayGW: provisional.awayGW,
-          games: glist,
-        });
-        playoffs.push(rec);
-        continue;
-      }
       const pendingGames = buildPendingGames(d, nameById);
       if (pendingGames.length) Object.assign(rec, { games: pendingGames });
     }
@@ -787,7 +785,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     players: playerArr, teams: teamArr, duos, matches, playoffs,
     extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
     meta: {
-      matchesPlayed: completed.length, weeks: weekLabel,
+      matchesPlayed: completed.length, provisionalMatches: provisionalCount, weeks: weekLabel,
       asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
       ratingHistoryWeeks, divisionSlug: slug,
       hasPlayoffs: playoffs.length > 0,

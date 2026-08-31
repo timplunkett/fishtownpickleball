@@ -572,7 +572,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 29,
+    "rank": 33,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.2
@@ -729,7 +729,7 @@
     "week": 1,
     "rating": 2.2,
     "confidence": 50,
-    "rank": 13,
+    "rank": 14,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.8
@@ -995,7 +995,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 42,
-    "rank": 20,
+    "rank": 23,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.7
@@ -1152,7 +1152,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 74,
+    "rank": 83,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -1277,7 +1277,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 45,
-    "rank": 18,
+    "rank": 20,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.2
@@ -1434,7 +1434,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 47,
+    "rank": 52,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -1716,7 +1716,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 46,
-    "rank": 67,
+    "rank": 75,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -1825,7 +1825,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 34,
-    "rank": 55,
+    "rank": 61,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -1.3
@@ -2171,10 +2171,356 @@
     "week": 1,
     "rating": 2,
     "confidence": 52,
-    "rank": 16,
+    "rank": 18,
     "ratingGames": 8,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "fa43af77-3cd1-4e61-a8dc-bd714b65d517": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 161,
+    "pa": 116,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Elisia Clark",
+     "Timothy Vorhauer"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Mary Callaghan",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Karen Moliver",
+     "Elisia Clark"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Karen Moliver",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Karen Moliver"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 53,
+    "rank": 16,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "4d576bb5-e9e5-4ad1-a18f-022508c6a161": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 123,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Matthew Kraft",
+    "vs": [
+     "Hada Solorzano",
+     "Joshua Mindlin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Nam Barsh",
+    "vs": [
+     "Hada Solorzano",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Hada Solorzano",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Nam Barsh",
+    "vs": [
+     "Karen Moliver",
+     "Elisia Clark"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Hada Solorzano",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Hada Solorzano",
+     "Karen Moliver"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Hada Solorzano",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Hada Solorzano",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.7,
+    "confidence": 43,
+    "rank": 22,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -2344,7 +2690,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 64,
+    "rank": 72,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.7
@@ -2658,10 +3004,167 @@
     "week": 1,
     "rating": 2,
     "confidence": 52,
-    "rank": 17,
+    "rank": 19,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
+ "99779531-e32b-47d5-b580-171a74844d91": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 121,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Elisia Clark",
+     "Timothy Vorhauer"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Joshua Mindlin",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Joshua Mindlin",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Mary Callaghan",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Karen Moliver",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Evan Rubin",
+     "Jake Anderson"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 53,
+    "rank": 101,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -2815,7 +3318,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 53,
-    "rank": 39,
+    "rank": 43,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -3097,7 +3600,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 47,
-    "rank": 38,
+    "rank": 42,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.6
@@ -3379,7 +3882,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 56,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.4
@@ -3520,7 +4023,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 25,
+    "rank": 29,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.9
@@ -3661,7 +4164,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 47,
-    "rank": 32,
+    "rank": 36,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -3802,7 +4305,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 70,
+    "rank": 79,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.3
@@ -3943,7 +4446,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 109,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
@@ -4084,7 +4587,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 113,
+    "rank": 125,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -4225,7 +4728,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 44,
-    "rank": 42,
+    "rank": 47,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -4374,6 +4877,147 @@
   ],
   "partners": []
  },
+ "c5fa38d0-add2-462c-b3de-5b62dd4d1386": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 107,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Matthew Kraft",
+    "vs": [
+     "Timothy Vorhauer",
+     "Kyle Kerr"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Elisia Clark",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Joshua Mindlin",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Matthew Kraft",
+    "vs": [
+     "Evan Rubin",
+     "Kyle Kerr"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Elisia Clark",
+     "Timothy Vorhauer"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 50,
+    "rank": 76,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": []
+ },
  "115f3958-d110-41f0-a04c-aa2f8e17a54f": {
   "log": [
    {
@@ -4507,7 +5151,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 48,
-    "rank": 24,
+    "rank": 28,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -4632,7 +5276,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 61,
+    "rank": 68,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.4
@@ -4757,7 +5401,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 43,
-    "rank": 43,
+    "rank": 48,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -4882,7 +5526,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 87,
+    "rank": 97,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -5007,7 +5651,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 52,
+    "rank": 58,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -5132,7 +5776,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 26,
+    "rank": 30,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -5257,7 +5901,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 44,
-    "rank": 89,
+    "rank": 99,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
@@ -5382,7 +6026,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 44,
-    "rank": 33,
+    "rank": 37,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -5507,7 +6151,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 44,
-    "rank": 40,
+    "rank": 44,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -5632,7 +6276,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 27,
+    "rank": 31,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -5757,7 +6401,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 149,
+    "rank": 164,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -5882,10 +6526,183 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 93,
+    "rank": 104,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "12584e84-045d-4de1-8edc-7ccbcb1ee27a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 161,
+    "pa": 130,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jake Anderson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Karen Moliver"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "Karen Moliver",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Matthew Kraft",
+    "vs": [
+     "Elisia Clark",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Karen Moliver"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Elisia Clark",
+     "Timothy Vorhauer"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1,
+    "confidence": 55,
+    "rank": 45,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -5991,7 +6808,7 @@
     "week": 1,
     "rating": 2.2,
     "confidence": 40,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
@@ -6164,10 +6981,167 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 111,
+    "rank": 123,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "2c32e081-24bc-4910-93a2-fd247ded68fd": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 105,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jake Anderson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Joshua Mindlin",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Karen Moliver",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "William Ye"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "William Ye",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Evan Rubin",
+     "Jake Anderson"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.3,
+    "confidence": 50,
+    "rank": 12,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -6321,7 +7295,7 @@
     "week": 1,
     "rating": 2.2,
     "confidence": 51,
-    "rank": 12,
+    "rank": 13,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -6478,7 +7452,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 46,
-    "rank": 46,
+    "rank": 51,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -6635,7 +7609,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 92,
+    "rank": 103,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.6
@@ -6792,7 +7766,7 @@
     "week": 1,
     "rating": 2.1,
     "confidence": 47,
-    "rank": 15,
+    "rank": 17,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -6949,7 +7923,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 105,
+    "rank": 116,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -7106,7 +8080,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 63,
+    "rank": 70,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -7263,7 +8237,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 106,
+    "rank": 118,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -7404,7 +8378,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 31,
+    "rank": 35,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -7686,7 +8660,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 37,
+    "rank": 41,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.1
@@ -7827,7 +8801,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 50,
-    "rank": 34,
+    "rank": 38,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -7968,7 +8942,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 65,
+    "rank": 73,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.9
@@ -8109,7 +9083,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 45,
-    "rank": 41,
+    "rank": 46,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
@@ -8250,7 +9224,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 69,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.7
@@ -8391,7 +9365,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 50,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -8532,10 +9506,151 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 110,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
+ "23871699-a12b-4eb6-89cb-62fec790e3fb": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 99,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Karen Moliver",
+     "William Ye"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Nam Barsh",
+    "vs": [
+     "Mary Callaghan",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Matthew Kraft",
+    "vs": [
+     "Timothy Vorhauer",
+     "Kyle Kerr"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Andrew Mavraganis",
+    "vs": [
+     "William Ye",
+     "Joshua Mindlin"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Taina Wesner",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Matthew Kraft",
+    "vs": [
+     "William Ye",
+     "Kyle Kerr"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.8,
+    "confidence": 49,
+    "rank": 54,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -8673,7 +9788,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 90,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
@@ -8814,7 +9929,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 79,
+    "rank": 88,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -8955,7 +10070,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 66,
+    "rank": 74,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -9096,7 +10211,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 46,
-    "rank": 142,
+    "rank": 157,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -9269,10 +10384,183 @@
     "week": 1,
     "rating": 0,
     "confidence": 40,
-    "rank": 103,
+    "rank": 114,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "583c5e68-0868-4a21-b1f0-0e68b9559476": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 154,
+    "pa": 142,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Karen Moliver",
+     "William Ye"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Karen Moliver"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Elisia Clark",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Chris Fratinardo",
+    "vs": [
+     "Mary Callaghan",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Nam Barsh",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Mary Callaghan"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Michael Taylor",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Jake Anderson"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "female",
+    "with": "Nam Barsh",
+    "vs": [
+     "Vanessa Zommi Kungne",
+     "Karen Moliver"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 49,
+    "rank": 117,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -9394,7 +10682,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 72,
+    "rank": 81,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -9519,7 +10807,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 81,
+    "rank": 91,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -9644,7 +10932,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 43,
-    "rank": 53,
+    "rank": 59,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -9769,7 +11057,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 46,
-    "rank": 19,
+    "rank": 21,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -9894,7 +11182,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 45,
-    "rank": 71,
+    "rank": 80,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -10019,7 +11307,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 60,
+    "rank": 67,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -10144,7 +11432,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 59,
+    "rank": 66,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -10269,7 +11557,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 94,
+    "rank": 105,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -10394,7 +11682,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 43,
-    "rank": 23,
+    "rank": 26,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -10519,7 +11807,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 115,
+    "rank": 127,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -10644,7 +11932,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 62,
+    "rank": 69,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -10769,7 +12057,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 51,
+    "rank": 57,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -10894,7 +12182,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 45,
-    "rank": 88,
+    "rank": 98,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -11019,7 +12307,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 41,
-    "rank": 128,
+    "rank": 142,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -11144,7 +12432,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 134,
+    "rank": 149,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -11269,7 +12557,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 114,
+    "rank": 126,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.5
@@ -11426,7 +12714,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 30,
+    "rank": 34,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -11583,7 +12871,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 43,
-    "rank": 95,
+    "rank": 106,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -11740,7 +13028,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 49,
-    "rank": 35,
+    "rank": 39,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -11897,7 +13185,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 22,
+    "rank": 25,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -12054,7 +13342,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 122,
+    "rank": 135,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -12211,7 +13499,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 83,
+    "rank": 93,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -12368,7 +13656,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 36,
+    "rank": 40,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.9
@@ -12477,10 +13765,119 @@
     "week": 1,
     "rating": 1,
     "confidence": 37,
-    "rank": 44,
+    "rank": 49,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "180f0f07-fb1c-4736-bc2a-b73df793ea05": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 80,
+    "pa": 69,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Timothy Vorhauer",
+    "vs": [
+     "Harvey Mitchell",
+     "Matthew Kraft"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Timothy Vorhauer",
+    "vs": [
+     "Matthew Kraft",
+     "Michael Taylor"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Evan Rubin",
+    "vs": [
+     "Matthew Kraft",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "William Ye",
+    "vs": [
+     "Matthew Kraft",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.6,
+    "confidence": 31,
+    "rank": 27,
+    "ratingGames": 4,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -12618,7 +14015,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 141,
+    "rank": 156,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -12759,7 +14156,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 77,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -12900,7 +14297,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 75,
+    "rank": 84,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -13041,7 +14438,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 40,
-    "rank": 54,
+    "rank": 60,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -13182,7 +14579,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 45,
-    "rank": 143,
+    "rank": 158,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -13323,7 +14720,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 86,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
@@ -13464,7 +14861,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 80,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -13605,7 +15002,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 91,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -13746,7 +15143,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 130,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -13887,7 +15284,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 48,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -14028,7 +15425,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 117,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -14169,7 +15566,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 58,
+    "rank": 65,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -14310,7 +15707,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 47,
-    "rank": 100,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -14451,7 +15848,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 47,
-    "rank": 126,
+    "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -14592,7 +15989,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 47,
-    "rank": 119,
+    "rank": 131,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
@@ -14733,7 +16130,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 85,
+    "rank": 95,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -14874,7 +16271,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 78,
+    "rank": 87,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -15015,10 +16412,151 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 169,
+    "rank": 187,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "f2cb8ea7-ed55-42cc-be8e-9f8352a330e8": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Place",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 109,
+    "pa": 113,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Megan Harvey",
+    "vs": [
+     "Hada Solorzano",
+     "Joshua Mindlin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Timothy Vorhauer",
+     "Kyle Kerr"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "Timothy Vorhauer",
+     "Kyle Kerr"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "mixed",
+    "with": "Emily Ocasio",
+    "vs": [
+     "Elisia Clark",
+     "Evan Rubin"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Harvey Mitchell",
+    "vs": [
+     "Evan Rubin",
+     "Kyle Kerr"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Place",
+    "t": "male",
+    "with": "Michael Taylor",
+    "vs": [
+     "William Ye",
+     "Kyle Kerr"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 45,
+    "rank": 169,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -15156,7 +16694,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 48,
-    "rank": 138,
+    "rank": 153,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -15329,7 +16867,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 21,
+    "rank": 24,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -15438,7 +16976,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 150,
+    "rank": 165,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -15547,7 +17085,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 38,
-    "rank": 179,
+    "rank": 197,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -15720,7 +17258,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 50,
-    "rank": 98,
+    "rank": 109,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -15877,7 +17415,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 121,
+    "rank": 133,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -16034,7 +17572,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 73,
+    "rank": 82,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -16191,7 +17729,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 39,
-    "rank": 28,
+    "rank": 32,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -16348,10 +17886,167 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 68,
+    "rank": 77,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "c1c58200-c49c-4797-9c4a-cee408744794": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 123,
+    "pa": 133,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jake Anderson",
+    "vs": [
+     "Emily Ocasio",
+     "Andrew Mavraganis"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Emily Ocasio",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Emily Ocasio",
+     "Taina Wesner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "William Ye",
+    "vs": [
+     "Nam Barsh",
+     "Andrew Mavraganis"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Nam Barsh",
+     "Taina Wesner"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jake Anderson",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Nam Barsh",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 47,
+    "rank": 62,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -16505,10 +18200,167 @@
     "week": 1,
     "rating": 0,
     "confidence": 45,
-    "rank": 101,
+    "rank": 112,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "6412a5fc-5f1f-4dcf-a1b9-c1838eeabec9": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 119,
+    "pa": 133,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "William Ye",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Emily Ocasio",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Emily Ocasio",
+     "Andrew Mavraganis"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Elisia Clark",
+    "vs": [
+     "Megan Harvey",
+     "Nam Barsh"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Emily Ocasio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "William Ye",
+    "vs": [
+     "Nam Barsh",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Nam Barsh",
+     "Taina Wesner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Place"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 52,
+    "rank": 71,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -16662,7 +18514,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 51,
-    "rank": 97,
+    "rank": 108,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -16819,7 +18671,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 147,
+    "rank": 162,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -16944,7 +18796,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 41,
-    "rank": 96,
+    "rank": 107,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -17069,7 +18921,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 44,
-    "rank": 102,
+    "rank": 113,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -17194,10 +19046,135 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 42,
-    "rank": 120,
+    "rank": 132,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "41e02aef-d06c-4fda-87a1-61d609cec74f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 101,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Emily Ocasio",
+     "Andrew Mavraganis"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Elisia Clark",
+    "vs": [
+     "Taina Wesner",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Taina Wesner",
+     "Chris Fratinardo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Evan Rubin",
+    "vs": [
+     "Andrew Mavraganis",
+     "Chris Fratinardo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 44,
+    "rank": 90,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -17319,7 +19296,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 108,
+    "rank": 120,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
@@ -17444,7 +19421,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 36,
-    "rank": 152,
+    "rank": 167,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -17569,7 +19546,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 167,
+    "rank": 183,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
@@ -17694,7 +19671,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 127,
+    "rank": 141,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -17867,7 +19844,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 104,
+    "rank": 115,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.1
@@ -18008,7 +19985,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 47,
-    "rank": 99,
+    "rank": 110,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -18149,7 +20126,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 163,
+    "rank": 179,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -18290,7 +20267,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 49,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
@@ -18431,7 +20408,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 48,
-    "rank": 146,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -18572,7 +20549,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 125,
+    "rank": 139,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -18713,7 +20690,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 157,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -18854,7 +20831,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 107,
+    "rank": 119,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -18995,7 +20972,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 118,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.4
@@ -19136,7 +21113,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 57,
+    "rank": 64,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
@@ -19277,7 +21254,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 173,
+    "rank": 191,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.4
@@ -19418,7 +21395,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 76,
+    "rank": 85,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.5
@@ -19559,10 +21536,151 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 123,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": []
+ },
+ "566cf2a3-fa1a-4cbb-a4ee-598d50b075a7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 99,
+    "pa": 121,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Chris Fratinardo",
+     "Andrew Mavraganis"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Nam Barsh",
+     "Michael Taylor"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Elisia Clark",
+    "vs": [
+     "Emily Ocasio",
+     "Matthew Kraft"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Kyle Kerr",
+    "vs": [
+     "Matthew Kraft",
+     "Harvey Mitchell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Andrew Mavraganis"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jake Anderson",
+    "vs": [
+     "Andrew Mavraganis",
+     "Chris Fratinardo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 50,
+    "rank": 136,
+    "ratingGames": 6,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -19700,7 +21818,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 50,
-    "rank": 160,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -19857,7 +21975,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 45,
+    "rank": 50,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -20014,7 +22132,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 116,
+    "rank": 128,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -20171,10 +22289,167 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 50,
-    "rank": 137,
+    "rank": 152,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "fc1635e6-5a59-4980-ab24-745263f1dab4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 115,
+    "pa": 133,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Karen Moliver",
+    "vs": [
+     "Taina Wesner",
+     "Michael Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Chris Fratinardo",
+     "Harvey Mitchell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Nam Barsh",
+     "Andrew Mavraganis"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Andrew Mavraganis",
+     "Michael Taylor"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Karen Moliver",
+    "vs": [
+     "Nam Barsh",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Kyle Kerr",
+    "vs": [
+     "Matthew Kraft",
+     "Michael Taylor"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 52,
+    "rank": 134,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -20328,7 +22603,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 112,
+    "rank": 124,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.4
@@ -20485,7 +22760,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 47,
-    "rank": 164,
+    "rank": 180,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -20642,7 +22917,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 124,
+    "rank": 138,
     "ratingGames": 7,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.6
@@ -20799,7 +23074,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 51,
-    "rank": 132,
+    "rank": 147,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
@@ -20956,7 +23231,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 52,
-    "rank": 136,
+    "rank": 151,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.7
@@ -21129,7 +23404,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 84,
+    "rank": 94,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.8
@@ -21238,7 +23513,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 35,
-    "rank": 174,
+    "rank": 192,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
@@ -21363,7 +23638,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 39,
-    "rank": 140,
+    "rank": 155,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -21488,7 +23763,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 154,
+    "rank": 170,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -21613,7 +23888,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 42,
-    "rank": 176,
+    "rank": 194,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -21738,7 +24013,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 44,
-    "rank": 175,
+    "rank": 193,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1
@@ -21863,7 +24138,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 171,
+    "rank": 189,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -21988,7 +24263,7 @@
     "week": 1,
     "rating": -3,
     "confidence": 44,
-    "rank": 188,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -22129,7 +24404,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 133,
+    "rank": 148,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.2
@@ -22270,7 +24545,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 40,
-    "rank": 131,
+    "rank": 146,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -22411,7 +24686,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 172,
+    "rank": 190,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -22552,7 +24827,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 129,
+    "rank": 144,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.9
@@ -22693,7 +24968,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 48,
-    "rank": 153,
+    "rank": 168,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
@@ -22834,7 +25109,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 51,
-    "rank": 183,
+    "rank": 201,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -22975,7 +25250,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 144,
+    "rank": 159,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -23116,10 +25391,151 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 170,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "439d9ebf-9409-4214-ad91-7c18a0153c71": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 93,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Matthew Kraft"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Evan Rubin",
+    "vs": [
+     "Chris Fratinardo",
+     "Andrew Mavraganis"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Karen Moliver",
+    "vs": [
+     "Emily Ocasio",
+     "Andrew Mavraganis"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "William Ye",
+    "vs": [
+     "Chris Fratinardo",
+     "Harvey Mitchell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "William Ye",
+    "vs": [
+     "Andrew Mavraganis",
+     "Michael Taylor"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.7,
+    "confidence": 50,
+    "rank": 186,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -23257,7 +25673,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 162,
+    "rank": 178,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -23398,7 +25814,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 148,
+    "rank": 163,
     "ratingGames": 6,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 1.5
@@ -23539,10 +25955,167 @@
     "week": 1,
     "rating": -3,
     "confidence": 50,
-    "rank": 187,
+    "rank": 206,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "18f5ee39-59cc-458d-8080-a296d6c15364": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 113,
+    "pa": 145,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Megan Harvey",
+     "Matthew Kraft"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Megan Harvey",
+     "Nam Barsh"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "William Ye",
+    "vs": [
+     "Megan Harvey",
+     "Chris Fratinardo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Megan Harvey",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Megan Harvey",
+     "Emily Ocasio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Evan Rubin",
+    "vs": [
+     "Megan Harvey",
+     "Andrew Mavraganis"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Mary Callaghan",
+    "vs": [
+     "Megan Harvey",
+     "Emily Ocasio"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 39,
+    "rank": 143,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -23696,7 +26269,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 168,
+    "rank": 185,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -23853,7 +26426,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 50,
-    "rank": 184,
+    "rank": 203,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -24010,7 +26583,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 49,
-    "rank": 181,
+    "rank": 199,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.3
@@ -24183,7 +26756,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 55,
-    "rank": 82,
+    "rank": 92,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.1
@@ -24356,7 +26929,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 53,
-    "rank": 156,
+    "rank": 172,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -24529,7 +27102,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 47,
-    "rank": 190,
+    "rank": 210,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -24702,10 +27275,119 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 161,
+    "rank": 177,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": []
+ },
+ "52f57694-f12c-40e2-b176-cfa9c9f77607": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 66,
+    "pa": 84,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Elisia Clark",
+    "vs": [
+     "Nam Barsh",
+     "Chris Fratinardo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Kyle Kerr",
+    "vs": [
+     "Harvey Mitchell",
+     "Matthew Kraft"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Kyle Kerr",
+    "vs": [
+     "Matthew Kraft",
+     "Michael Taylor"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Elisia Clark",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.6,
+    "confidence": 38,
+    "rank": 184,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -24827,7 +27509,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 158,
+    "rank": 174,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -24952,7 +27634,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 139,
+    "rank": 154,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.2
@@ -25061,7 +27743,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 38,
-    "rank": 151,
+    "rank": 166,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.5
@@ -25186,7 +27868,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 44,
-    "rank": 165,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -25327,7 +28009,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 145,
+    "rank": 160,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
@@ -25452,7 +28134,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 166,
+    "rank": 182,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
@@ -25577,7 +28259,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 42,
-    "rank": 182,
+    "rank": 200,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -25702,7 +28384,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 43,
-    "rank": 185,
+    "rank": 204,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.1
@@ -25827,7 +28509,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 43,
-    "rank": 155,
+    "rank": 171,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -25952,7 +28634,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 45,
-    "rank": 178,
+    "rank": 196,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -26093,7 +28775,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 180,
+    "rank": 198,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -26266,9 +28948,150 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 54,
-    "rank": 135,
+    "rank": 150,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
+ "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 89,
+    "pa": 126,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Nam Barsh"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Evan Rubin",
+    "vs": [
+     "Nam Barsh",
+     "Michael Taylor"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Emily Ocasio",
+     "Taina Wesner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jake Anderson",
+    "vs": [
+     "Taina Wesner",
+     "Chris Fratinardo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Vanessa Zommi Kungne",
+    "vs": [
+     "Nam Barsh",
+     "Taina Wesner"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Hada Solorzano",
+    "vs": [
+     "Megan Harvey",
+     "Emily Ocasio"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 48,
+    "rank": 202,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 1
    }
   ],
@@ -26439,9 +29262,134 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 53,
-    "rank": 159,
+    "rank": 175,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "0fc17b3e-17c5-43af-be22-89b0fd25490e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 67,
+    "pa": 105,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Timothy Vorhauer",
+    "vs": [
+     "Nam Barsh",
+     "Chris Fratinardo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jake Anderson",
+    "vs": [
+     "Taina Wesner",
+     "Harvey Mitchell"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Karen Moliver",
+    "vs": [
+     "Megan Harvey",
+     "Nam Barsh"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Evan Rubin",
+    "vs": [
+     "Emily Ocasio",
+     "Matthew Kraft"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Timothy Vorhauer",
+    "vs": [
+     "Emily Ocasio",
+     "Harvey Mitchell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3.1,
+    "confidence": 45,
+    "rank": 208,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -26580,7 +29528,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 47,
-    "rank": 177,
+    "rank": 195,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.7
@@ -26737,7 +29685,7 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 51,
-    "rank": 186,
+    "rank": 205,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -26878,7 +29826,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 48,
-    "rank": 189,
+    "rank": 209,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -27019,7 +29967,7 @@
     "week": 1,
     "rating": -4,
     "confidence": 44,
-    "rank": 191,
+    "rank": 211,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8

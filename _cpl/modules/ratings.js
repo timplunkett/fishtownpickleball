@@ -40,6 +40,148 @@ function deriveProvisionalOutcome(details) {
   return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: slottedLineups };
 }
 
+// Games are played to a fixed target with win-by-two, so the overwhelmingly most
+// common winning score in a division IS that target. Inferring it beats hardcoding
+// one: the league has run both 11- and 21-point formats, and a division that
+// switches would otherwise silently mis-scale every synthesized point total.
+// Falls back to 21, the current format, when there is nothing to count.
+const GAME_TARGET_FALLBACK = 21;
+
+function inferGameTarget(detailByMatchupId) {
+  const winningScoreCounts = new Map();
+  for (const details of detailByMatchupId.values()) {
+    for (const g of ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || [])) {
+      if (!Number.isFinite(g.homeScore) || !Number.isFinite(g.awayScore)) continue;
+      const winningScore = Math.max(g.homeScore, g.awayScore);
+      winningScoreCounts.set(winningScore, (winningScoreCounts.get(winningScore) || 0) + 1);
+    }
+  }
+  let target = null, best = 0;
+  for (const [score, count] of winningScoreCounts) {
+    if (count > best) { best = count; target = score; }
+  }
+  return target ?? GAME_TARGET_FALLBACK;
+}
+
+// A game the league counts toward a player's record: one that actually reached the
+// target. That excludes walkovers, recorded as a token 1-0, and games abandoned
+// part-way, which show up as things like 8-12 in a 21-point division. Neither
+// touches games played, record or points for anyone who was on court; the team's
+// point totals still include them. Same principle as the rating's forfeit
+// exclusion, and a superset of it — isForfeit's fixed 11 predates the 21-point
+// format and is left alone because the compiled `ff` flag and the rating both
+// depend on its exact current meaning.
+const countsTowardPlayerStats = (g, gameTarget) => Math.max(g.homeScore, g.awayScore) >= gameTarget;
+
+// A game the league counts as clutch: decided by two points or fewer, which under
+// win-by-two means it went to at least one deuce. The 1-0 of a forfeit is a
+// one-point margin but nobody's clutch performance, hence the guard — though in
+// practice countsTowardPlayerStats has already dropped those.
+const isClutch = g => !isForfeit(g) && Math.abs(g.homeScore - g.awayScore) <= 2;
+
+// The league reports a player's points won/against with the winner clamped to the
+// game target and the same overage taken off the loser, so a 25-23 deuce marathon
+// is recorded as 21-19. Margin survives, inflation doesn't. (Its *team* totals are
+// the raw scores instead — inconsistent, but reproduced faithfully in both places
+// so provisional rows sit on the same scale as reported ones.)
+function clampGameScores(g, gameTarget) {
+  const overage = Math.max(0, Math.max(g.homeScore, g.awayScore) - gameTarget);
+  return { home: g.homeScore - overage, away: g.awayScore - overage };
+}
+
+// Rebuild the per-player stat rows the league omits from a matchup it hasn't
+// closed out. Every field is recoverable from the lineups plus the roster, and
+// every derivation here was reverse-engineered from the rows the league does
+// publish: across 5663 reported player-matchup rows in the cached feeds, games
+// played, wins, losses and the mixed/gender splits reproduce exactly, and points
+// (99.6%), clutch (99.96%) and sub status (99.8%) all but exactly — the residue
+// being rows whose reported totals disagree with their own game scores.
+// provisional-fidelity.test.js re-runs that comparison on every build.
+//
+// `isSubForTeam(playerId, teamId)` supplies the one thing the lineups can't: a
+// player who turned out for a team they aren't rostered on is a sub.
+function synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubForTeam }) {
+  const rows = new Map();
+  const rowFor = (playerId, teamId) => {
+    let row = rows.get(playerId);
+    if (!row) {
+      row = {
+        playerId, teamId, isSub: !!isSubForTeam(playerId, teamId),
+        gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
+        clutchWins: 0, clutchLosses: 0, mixedWins: 0, mixedLosses: 0,
+        genderWins: 0, genderLosses: 0, ranking: null,
+      };
+      rows.set(playerId, row);
+    }
+    return row;
+  };
+
+  for (const g of provisional.games) {
+    if (!countsTowardPlayerStats(g, gameTarget)) continue;
+    const clamped = clampGameScores(g, gameTarget);
+    const sides = [
+      { ids: [g.homePlayerId1, g.homePlayerId2], teamId: matchup.homeTeamId, mine: clamped.home, theirs: clamped.away },
+      { ids: [g.awayPlayerId1, g.awayPlayerId2], teamId: matchup.awayTeamId, mine: clamped.away, theirs: clamped.home },
+    ];
+    for (const side of sides) {
+      const won = side.mine > side.theirs;
+      for (const playerId of side.ids) {
+        const row = rowFor(playerId, side.teamId);
+        row.gamesPlayed++;
+        row.pointsWon += side.mine;
+        row.totalPointsAgainst += side.theirs;
+        if (won) row.wins++; else row.losses++;
+        if (isClutch(g)) { if (won) row.clutchWins++; else row.clutchLosses++; }
+        if (g.matchType === 'mixed') { if (won) row.mixedWins++; else row.mixedLosses++; }
+        if (g.matchType === 'male' || g.matchType === 'female') { if (won) row.genderWins++; else row.genderLosses++; }
+      }
+    }
+  }
+  return [...rows.values()];
+}
+
+// Fold provisional outcomes into a matchup feed so everything downstream sees them
+// as results. A matchup the league hasn't closed out but whose lineups are filled
+// and fully scored gets the derived `endResult` and point totals written onto it,
+// plus `provisional: true` for the UI to label, and its details gain the
+// per-player stat rows the league hasn't published yet. `completed` filters and
+// stat accumulation then need no special case: a provisional result counts toward
+// standings, records and ratings exactly as a confirmed one does, and the only
+// thing that distinguishes it is the flag.
+//
+// Returns fresh objects throughout; neither input is mutated.
+function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam }) {
+  const gameTarget = inferGameTarget(detailByMatchupId);
+  const resolvedMatchups = [];
+  const resolvedDetailById = new Map(detailByMatchupId);
+  let provisionalCount = 0;
+
+  for (const matchup of matchups) {
+    const details = detailByMatchupId.get(matchup.matchupId);
+    const provisional = (matchup.endResult || !details) ? null : deriveProvisionalOutcome(details);
+    if (!provisional) {
+      resolvedMatchups.push(matchup);
+      continue;
+    }
+    resolvedMatchups.push({
+      ...matchup,
+      endResult: provisional.result,
+      homePoints: provisional.homePoints,
+      awayPoints: provisional.awayPoints,
+      provisional: true,
+    });
+    resolvedDetailById.set(matchup.matchupId, {
+      ...details,
+      matchupPlayerStats: {
+        $values: synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubForTeam }),
+      },
+    });
+    provisionalCount++;
+  }
+
+  return { matchups: resolvedMatchups, detailById: resolvedDetailById, provisionalCount, gameTarget };
+}
+
 // Invert an n x n matrix via Gauss-Jordan elimination with partial pivoting.
 // Used here on (XᵀX + λI), which ridge keeps well-conditioned. We need the full
 // inverse (not just a single solve) so we can read its diagonal for the
@@ -252,7 +394,13 @@ module.exports = {
   PAIR_K,
   PAIR_MIN,
   isForfeit,
+  isClutch,
+  countsTowardPlayerStats,
   deriveProvisionalOutcome,
+  inferGameTarget,
+  clampGameScores,
+  synthesizeMatchupPlayerStats,
+  applyProvisionalOutcomes,
   invertMatrix,
   computeRatings,
   computeWeeklyRatingHistory,

@@ -802,12 +802,12 @@
    },
    {
     "week": 2,
-    "rating": 4.1,
+    "rating": 4.2,
     "confidence": 55,
     "rank": 6,
     "ratingGames": 8,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -1252,10 +1252,151 @@
     "week": 2,
     "rating": 4.4,
     "confidence": 53,
-    "rank": 3,
+    "rank": 4,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": []
+ },
+ "809fbee0-ae20-4726-9468-9e0e23f6696a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 53,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Karin Schneider",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Kristin Duva",
+    "vs": [
+     "Karin Schneider",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Gary Leon",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Karin Schneider",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Corinne Demeuse",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2.8,
+    "confidence": 46,
+    "rank": 16,
+    "ratingGames": 5,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -2.2
    }
   ],
   "partners": []
@@ -1416,12 +1557,153 @@
    },
    {
     "week": 2,
-    "rating": 2.5,
+    "rating": 2.4,
     "confidence": 49,
-    "rank": 25,
+    "rank": 33,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.1
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "97419da1-c259-41a5-8503-2decd14e8a9a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 79,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Corinne Demeuse",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Christine Levesque",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Corinne Demeuse",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Christine Levesque",
+     "Corinne Demeuse"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "John Cusano",
+    "vs": [
+     "Corinne Demeuse",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Kristin Duva",
+    "vs": [
+     "Corinne Demeuse",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2,
+    "confidence": 45,
+    "rank": 48,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -1.9
    }
   ],
   "partners": []
@@ -1559,7 +1841,7 @@
     "week": 2,
     "rating": 2,
     "confidence": 46,
-    "rank": 43,
+    "rank": 47,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.8
@@ -1709,7 +1991,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 52,
-    "rank": 70,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -2.1
@@ -1857,12 +2139,12 @@
    },
    {
     "week": 2,
-    "rating": 2.1,
-    "confidence": 52,
-    "rank": 40,
+    "rating": 1.8,
+    "confidence": 53,
+    "rank": 58,
     "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.2
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -2016,7 +2298,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 55,
-    "rank": 65,
+    "rank": 69,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.8
@@ -2157,7 +2439,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 46,
-    "rank": 55,
+    "rank": 60,
     "ratingGames": 6,
     "strengthOfPartners": 2.4,
     "strengthOfOpponents": -0.4
@@ -2432,7 +2714,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 46,
-    "rank": 61,
+    "rank": 66,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.4
@@ -2573,7 +2855,7 @@
     "week": 2,
     "rating": 2.3,
     "confidence": 51,
-    "rank": 33,
+    "rank": 37,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -2739,10 +3021,167 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 48,
-    "rank": 66,
+    "rank": 70,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "33bedbfd-6715-4614-8662-650a8bc4c678": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 94,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Corinne Demeuse",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "John Cusano",
+    "vs": [
+     "Karin Schneider",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Christine Levesque",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Robin Aiello",
+     ""
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Karin Schneider",
+     "Robin Aiello"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Robin Aiello",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Corinne Demeuse",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 48,
+    "rank": 126,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -2897,6 +3336,147 @@
   ],
   "partners": []
  },
+ "98d6ec7e-e3ac-47ce-a2a2-a000399c9e4f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 4,
+    "l": 0,
+    "gp": 4,
+    "pf": 84,
+    "pa": 59,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Christine Levesque",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Brian Borer",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Robin Aiello",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Corinne Demeuse",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Mark Garner",
+    "vs": [
+     "",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Tim Lockburner",
+     ""
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 43,
+    "rank": 153,
+    "ratingGames": 4,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -2
+   }
+  ],
+  "partners": []
+ },
  "f22a22d7-f20d-459b-a7b4-3612b4ff9291": {
   "log": [
    {
@@ -3014,7 +3594,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 44,
-    "rank": 171,
+    "rank": 176,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.3
@@ -3132,7 +3712,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 41,
-    "rank": 74,
+    "rank": 80,
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
@@ -3273,7 +3853,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 50,
-    "rank": 57,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -3407,7 +3987,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 46,
-    "rank": 60,
+    "rank": 65,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -3710,12 +4290,12 @@
    },
    {
     "week": 2,
-    "rating": 4.2,
+    "rating": 4.4,
     "confidence": 68,
-    "rank": 5,
+    "rank": 3,
     "ratingGames": 14,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -3723,7 +4303,7 @@
     "pid": "94c45058-cae5-4085-ad9e-684309568903",
     "name": "Linda Bozzo",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.4
    }
   ]
  },
@@ -4024,7 +4604,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 69,
-    "rank": 27,
+    "rank": 28,
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
@@ -4329,7 +4909,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 68,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 14,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.1
@@ -4615,7 +5195,7 @@
     "week": 2,
     "rating": 2.3,
     "confidence": 66,
-    "rank": 31,
+    "rank": 35,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.2
@@ -4795,7 +5375,7 @@
     "week": 2,
     "rating": 2.3,
     "confidence": 58,
-    "rank": 32,
+    "rank": 36,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.8
@@ -5004,7 +5584,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 56,
-    "rank": 117,
+    "rank": 121,
     "ratingGames": 8,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -1.2
@@ -5192,8 +5772,8 @@
    {
     "week": 2,
     "rating": 1.1,
-    "confidence": 55,
-    "rank": 96,
+    "confidence": 56,
+    "rank": 100,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -5810,7 +6390,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 70,
-    "rank": 75,
+    "rank": 81,
     "ratingGames": 14,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": -0.7
@@ -6134,7 +6714,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 68,
-    "rank": 77,
+    "rank": 83,
     "ratingGames": 14,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.9
@@ -6468,12 +7048,12 @@
    },
    {
     "week": 2,
-    "rating": 1.2,
-    "confidence": 53,
-    "rank": 91,
+    "rating": 1,
+    "confidence": 54,
+    "rank": 109,
     "ratingGames": 7,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -6636,7 +7216,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 52,
-    "rank": 81,
+    "rank": 87,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.1
@@ -6793,7 +7373,7 @@
     "week": 2,
     "rating": 4.4,
     "confidence": 52,
-    "rank": 4,
+    "rank": 5,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -6961,7 +7541,7 @@
     "confidence": 54,
     "rank": 14,
     "ratingGames": 7,
-    "strengthOfPartners": 1.1,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -7123,12 +7703,12 @@
    },
    {
     "week": 2,
-    "rating": 1.9,
-    "confidence": 51,
-    "rank": 50,
+    "rating": 2.4,
+    "confidence": 52,
+    "rank": 31,
     "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -7289,12 +7869,12 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
-    "confidence": 51,
-    "rank": 129,
+    "rating": 1.4,
+    "confidence": 52,
+    "rank": 88,
     "ratingGames": 7,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.7
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -7457,7 +8037,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 52,
-    "rank": 24,
+    "rank": 26,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
@@ -7623,7 +8203,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 52,
-    "rank": 49,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -7933,6 +8513,311 @@
    }
   ]
  },
+ "e5d63f22-5a18-4b5d-b916-61d59e17fc0d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 161,
+    "pa": 141,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 77,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "James Azarowicz",
+    "vs": [
+     "Lucy Sha",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Donna Shabinaw",
+    "vs": [
+     "Karin Schneider",
+     "Sherry Silinger"
+    ],
+    "f": 18,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Jake Denooyer",
+    "vs": [
+     "Lucy Sha",
+     "James Carter"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Theresa Corderi",
+    "vs": [
+     "Irene Guile",
+     "Lucy Sha"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Noach Shapiro",
+    "vs": [
+     "Sherry Silinger",
+     "Jerry Ridder"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Anne Buckley",
+    "vs": [
+     "Karin Schneider",
+     "Lucy Sha"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Ward Greer",
+    "vs": [
+     "Karin Schneider",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Donna Shabinaw",
+    "vs": [
+     "Karin Schneider",
+     "Irene Guile"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Black"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Robin Aiello",
+     ""
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Corinne Demeuse",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Christine Levesque",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Kristin Duva",
+    "vs": [
+     "Karin Schneider",
+     "Robin Aiello"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Christine Levesque",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Christine Levesque",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 53,
+    "rank": 165,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 65,
+    "rank": 194,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.3
+   }
+  ],
+  "partners": []
+ },
  "717be0e6-148f-4bab-a433-22e4f97d5c47": {
   "log": [
    {
@@ -8214,7 +9099,7 @@
     "week": 2,
     "rating": 2.2,
     "confidence": 62,
-    "rank": 35,
+    "rank": 39,
     "ratingGames": 13,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -8494,7 +9379,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 66,
-    "rank": 45,
+    "rank": 50,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.8
@@ -8767,7 +9652,7 @@
     "week": 2,
     "rating": 2.7,
     "confidence": 67,
-    "rank": 16,
+    "rank": 17,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0
@@ -9047,7 +9932,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 66,
-    "rank": 127,
+    "rank": 132,
     "ratingGames": 12,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1
@@ -9195,7 +10080,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 46,
-    "rank": 107,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.7
@@ -9336,7 +10221,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 52,
-    "rank": 98,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
@@ -9484,12 +10369,12 @@
    },
    {
     "week": 2,
-    "rating": 2.2,
-    "confidence": 46,
-    "rank": 36,
+    "rating": 2.6,
+    "confidence": 49,
+    "rank": 22,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -9643,10 +10528,10 @@
     "week": 2,
     "rating": 2,
     "confidence": 48,
-    "rank": 42,
+    "rank": 46,
     "ratingGames": 6,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -9793,7 +10678,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 37,
-    "rank": 124,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.8
@@ -9941,9 +10826,9 @@
    },
    {
     "week": 2,
-    "rating": 1.9,
+    "rating": 2,
     "confidence": 51,
-    "rank": 51,
+    "rank": 45,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -10093,7 +10978,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 145,
+    "rank": 150,
     "ratingGames": 6,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.2
@@ -10243,7 +11128,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 47,
-    "rank": 236,
+    "rank": 240,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.3
@@ -10500,7 +11385,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 65,
-    "rank": 53,
+    "rank": 57,
     "ratingGames": 11,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -10755,11 +11640,11 @@
    },
    {
     "week": 2,
-    "rating": 2.6,
+    "rating": 2.7,
     "confidence": 62,
-    "rank": 20,
+    "rank": 18,
     "ratingGames": 11,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -10889,7 +11774,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 39,
-    "rank": 26,
+    "rank": 27,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.4
@@ -11023,7 +11908,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 168,
+    "rank": 173,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.1
@@ -11148,7 +12033,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 122,
+    "rank": 127,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -11273,7 +12158,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 44,
-    "rank": 154,
+    "rank": 160,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": -2
@@ -11396,12 +12281,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.5,
+    "rating": 1.6,
     "confidence": 46,
     "rank": 72,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -11530,12 +12415,153 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
-    "confidence": 44,
-    "rank": 83,
+    "rating": 1.6,
+    "confidence": 45,
+    "rank": 73,
     "ratingGames": 5,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "98cf9a34-6d8e-4aed-81d1-1a6f2fe864f2": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 95,
+    "pa": 86,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "John Cusano",
+    "vs": [
+     "Karin Schneider",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Christine Levesque",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Corinne Demeuse",
+     ""
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Corinne Demeuse",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Geoffrey Baird",
+    "vs": [
+     "Corinne Demeuse",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Karin Schneider",
+     "Brian Borer"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 48,
+    "rank": 303,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -11666,7 +12692,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 46,
-    "rank": 256,
+    "rank": 260,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.5
@@ -11955,7 +12981,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 68,
-    "rank": 85,
+    "rank": 91,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.1
@@ -12228,7 +13254,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 68,
-    "rank": 93,
+    "rank": 97,
     "ratingGames": 12,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.5
@@ -12501,7 +13527,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 66,
-    "rank": 23,
+    "rank": 25,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
@@ -12774,7 +13800,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 67,
-    "rank": 113,
+    "rank": 117,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.6
@@ -13054,7 +14080,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 64,
-    "rank": 162,
+    "rank": 167,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.6
@@ -13249,7 +14275,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 57,
-    "rank": 64,
+    "rank": 68,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -13522,10 +14548,10 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 67,
-    "rank": 78,
+    "rank": 84,
     "ratingGames": 12,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -13536,188 +14562,6 @@
     "synergy": 0.2
    }
   ]
- },
- "e5d63f22-5a18-4b5d-b916-61d59e17fc0d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 161,
-    "pa": 141,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "mixed",
-    "with": "James Azarowicz",
-    "vs": [
-     "Lucy Sha",
-     "Jerry Ridder"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Donna Shabinaw",
-    "vs": [
-     "Karin Schneider",
-     "Sherry Silinger"
-    ],
-    "f": 18,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "mixed",
-    "with": "Jake Denooyer",
-    "vs": [
-     "Lucy Sha",
-     "James Carter"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Theresa Corderi",
-    "vs": [
-     "Irene Guile",
-     "Lucy Sha"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "mixed",
-    "with": "Noach Shapiro",
-    "vs": [
-     "Sherry Silinger",
-     "Jerry Ridder"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Anne Buckley",
-    "vs": [
-     "Karin Schneider",
-     "Lucy Sha"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "mixed",
-    "with": "Ward Greer",
-    "vs": [
-     "Karin Schneider",
-     "Jerry Ridder"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Donna Shabinaw",
-    "vs": [
-     "Karin Schneider",
-     "Irene Guile"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.7,
-    "confidence": 53,
-    "rank": 165,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 2,
-    "rating": -0.7,
-    "confidence": 53,
-    "rank": 233,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -1
-   }
-  ],
-  "partners": []
  },
  "d55d3206-5478-4a12-b49a-095d301a098b": {
   "log": [
@@ -13820,7 +14664,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 41,
-    "rank": 52,
+    "rank": 56,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.3
@@ -13938,7 +14782,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 43,
-    "rank": 73,
+    "rank": 79,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0
@@ -14259,7 +15103,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 67,
-    "rank": 22,
+    "rank": 24,
     "ratingGames": 15,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -14523,7 +15367,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 67,
-    "rank": 18,
+    "rank": 20,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -14780,7 +15624,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 65,
-    "rank": 79,
+    "rank": 85,
     "ratingGames": 11,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.7
@@ -15037,7 +15881,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 66,
-    "rank": 38,
+    "rank": 41,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -15301,7 +16145,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 64,
-    "rank": 69,
+    "rank": 76,
     "ratingGames": 11,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.4
@@ -15565,7 +16409,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 65,
-    "rank": 111,
+    "rank": 115,
     "ratingGames": 11,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.1
@@ -15829,7 +16673,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 64,
-    "rank": 150,
+    "rank": 156,
     "ratingGames": 11,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.1
@@ -16147,7 +16991,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 66,
-    "rank": 19,
+    "rank": 21,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0
@@ -16465,7 +17309,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 68,
-    "rank": 21,
+    "rank": 23,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -16777,7 +17621,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 66,
-    "rank": 86,
+    "rank": 92,
     "ratingGames": 14,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -16956,7 +17800,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 52,
-    "rank": 48,
+    "rank": 53,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.3
@@ -17120,12 +17964,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
-    "confidence": 48,
-    "rank": 207,
+    "rating": -0.6,
+    "confidence": 49,
+    "rank": 233,
     "ratingGames": 7,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -17279,7 +18123,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 182,
+    "rank": 189,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -17520,7 +18364,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 61,
-    "rank": 164,
+    "rank": 169,
     "ratingGames": 10,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -17759,12 +18603,12 @@
    },
    {
     "week": 2,
-    "rating": 0,
+    "rating": 0.1,
     "confidence": 59,
     "rank": 178,
     "ratingGames": 10,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.1
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -18077,6 +18921,295 @@
     "synergy": -1.5
    }
   ]
+ },
+ "d6c99730-dfc7-4a86-aa1e-163058c5b8c2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PickleRage Union County",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 118,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 94,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Andrew Craig",
+    "vs": [
+     "Jennifer Applebee",
+     "Ed Amato"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "female",
+    "with": "Lisa Munjack",
+    "vs": [
+     "Jennifer Applebee",
+     "Linda Bozzo"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Linda Bozzo",
+     "Louis Sapirman"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "female",
+    "with": "Lisa Munjack",
+    "vs": [
+     "Marita Dow",
+     "Jennifer Applebee"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Jennifer Applebee",
+     "Michael Barry"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Linda Bozzo",
+     "Louis Sapirman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Geoffrey Baird",
+    "vs": [
+     "Christine Levesque",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Christine Levesque",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Geoffrey Baird",
+    "vs": [
+     "Robin Aiello",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Kristin Duva",
+    "vs": [
+     "Christine Levesque",
+     "Robin Aiello"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "John Cusano",
+    "vs": [
+     "Karin Schneider",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Christine Levesque",
+     "Corinne Demeuse"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Christine Levesque",
+     "Karin Schneider"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 43,
+    "rank": 68,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 64,
+    "rank": 29,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
  },
  "45bc6397-1703-4a4b-bde7-fda65905fe3a": {
   "log": [
@@ -18407,7 +19540,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 70,
-    "rank": 109,
+    "rank": 113,
     "ratingGames": 16,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.3
@@ -18576,7 +19709,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 45,
-    "rank": 30,
+    "rank": 34,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.8
@@ -18849,7 +19982,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 64,
-    "rank": 46,
+    "rank": 51,
     "ratingGames": 12,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -19129,7 +20262,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 64,
-    "rank": 62,
+    "rank": 67,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -19279,7 +20412,7 @@
     "week": 2,
     "rating": 2.3,
     "confidence": 49,
-    "rank": 34,
+    "rank": 38,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.5
@@ -19552,7 +20685,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 61,
-    "rank": 88,
+    "rank": 94,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
@@ -19707,12 +20840,12 @@
    },
    {
     "week": 2,
-    "rating": 1.2,
-    "confidence": 46,
-    "rank": 92,
+    "rating": 2.1,
+    "confidence": 48,
+    "rank": 44,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -19850,7 +20983,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 169,
+    "rank": 174,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.9
@@ -19991,7 +21124,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 131,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -1.5
@@ -20141,7 +21274,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 50,
-    "rank": 130,
+    "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -20282,7 +21415,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 48,
-    "rank": 271,
+    "rank": 277,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
@@ -20423,7 +21556,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 119,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0
@@ -20564,9 +21697,9 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 43,
-    "rank": 191,
+    "rank": 198,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -20673,7 +21806,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 190,
+    "rank": 197,
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.9
@@ -20823,7 +21956,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 100,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -20973,7 +22106,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 50,
-    "rank": 58,
+    "rank": 64,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.8
@@ -21123,7 +22256,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 52,
-    "rank": 118,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.2
@@ -21273,7 +22406,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 51,
-    "rank": 174,
+    "rank": 181,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -21414,7 +22547,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 48,
-    "rank": 310,
+    "rank": 319,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.8
@@ -21564,7 +22697,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 47,
-    "rank": 230,
+    "rank": 234,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.1
@@ -21705,7 +22838,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 50,
-    "rank": 71,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1
@@ -22010,7 +23143,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 69,
-    "rank": 68,
+    "rank": 74,
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -22328,7 +23461,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 68,
-    "rank": 76,
+    "rank": 82,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -22640,7 +23773,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 69,
-    "rank": 44,
+    "rank": 49,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.2
@@ -22958,7 +24091,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 68,
-    "rank": 126,
+    "rank": 131,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -23270,7 +24403,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 67,
-    "rank": 232,
+    "rank": 235,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -23540,7 +24673,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 65,
-    "rank": 104,
+    "rank": 107,
     "ratingGames": 11,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.7
@@ -23804,7 +24937,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 61,
-    "rank": 80,
+    "rank": 86,
     "ratingGames": 11,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -24066,9 +25199,9 @@
    },
    {
     "week": 2,
-    "rating": 1.6,
+    "rating": 1.7,
     "confidence": 64,
-    "rank": 63,
+    "rank": 61,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.7
@@ -24332,7 +25465,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 65,
-    "rank": 134,
+    "rank": 139,
     "ratingGames": 11,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.4
@@ -24589,10 +25722,10 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 65,
-    "rank": 94,
+    "rank": 98,
     "ratingGames": 11,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -24600,7 +25733,7 @@
     "pid": "94c45058-cae5-4085-ad9e-684309568903",
     "name": "Linda Bozzo",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    }
   ]
  },
@@ -24853,7 +25986,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 64,
-    "rank": 39,
+    "rank": 42,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -25117,7 +26250,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 65,
-    "rank": 259,
+    "rank": 263,
     "ratingGames": 11,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.4
@@ -25304,9 +26437,9 @@
    },
    {
     "week": 2,
-    "rating": -0.3,
-    "confidence": 52,
-    "rank": 198,
+    "rating": -0.2,
+    "confidence": 53,
+    "rank": 195,
     "ratingGames": 8,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
@@ -25479,7 +26612,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 52,
-    "rank": 54,
+    "rank": 59,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.4
@@ -25768,7 +26901,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 68,
-    "rank": 110,
+    "rank": 114,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.5
@@ -25912,7 +27045,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 47,
-    "rank": 67,
+    "rank": 71,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.2
@@ -26037,7 +27170,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 181,
+    "rank": 187,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.5
@@ -26358,7 +27491,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 71,
-    "rank": 140,
+    "rank": 145,
     "ratingGames": 15,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -26496,7 +27629,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 147,
+    "rank": 152,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1
@@ -26630,7 +27763,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 45,
-    "rank": 237,
+    "rank": 241,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.8
@@ -26951,7 +28084,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 71,
-    "rank": 148,
+    "rank": 154,
     "ratingGames": 15,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.4
@@ -27102,12 +28235,12 @@
    },
    {
     "week": 2,
-    "rating": 1.7,
+    "rating": 1.9,
     "confidence": 46,
-    "rank": 59,
+    "rank": 55,
     "ratingGames": 5,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -27345,10 +28478,10 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 60,
-    "rank": 240,
+    "rank": 244,
     "ratingGames": 10,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -27477,7 +28610,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 47,
-    "rank": 209,
+    "rank": 213,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.5
@@ -27611,7 +28744,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 47,
-    "rank": 106,
+    "rank": 110,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
@@ -27736,7 +28869,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 49,
-    "rank": 244,
+    "rank": 248,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -1.5
@@ -27870,7 +29003,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 101,
+    "rank": 105,
     "ratingGames": 5,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": -0.4
@@ -28004,7 +29137,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 180,
+    "rank": 186,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -28129,7 +29262,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 153,
+    "rank": 159,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.1
@@ -28254,7 +29387,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 45,
-    "rank": 223,
+    "rank": 227,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -28388,7 +29521,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 189,
+    "rank": 196,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.7
@@ -28513,7 +29646,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 280,
+    "rank": 286,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.1
@@ -28786,7 +29919,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 65,
-    "rank": 128,
+    "rank": 133,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.8
@@ -29059,9 +30192,9 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 66,
-    "rank": 114,
+    "rank": 118,
     "ratingGames": 12,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
    }
   ],
@@ -29339,7 +30472,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 65,
-    "rank": 195,
+    "rank": 202,
     "ratingGames": 12,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -29619,7 +30752,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 61,
-    "rank": 95,
+    "rank": 99,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
@@ -29922,12 +31055,12 @@
    },
    {
     "week": 2,
-    "rating": 0.3,
+    "rating": 0.6,
     "confidence": 68,
-    "rank": 155,
+    "rank": 136,
     "ratingGames": 14,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -29935,13 +31068,13 @@
     "pid": "f2e5778f-44c1-46ed-b27d-f3728fa84378",
     "name": "John Danks",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.4
    },
    {
     "pid": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
     "name": "Teresa Carr",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    }
   ]
  },
@@ -30103,10 +31236,10 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 175,
+    "rank": 182,
     "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -30408,7 +31541,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 68,
-    "rank": 141,
+    "rank": 146,
     "ratingGames": 14,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.4
@@ -30587,7 +31720,7 @@
     "week": 2,
     "rating": 2.7,
     "confidence": 54,
-    "rank": 17,
+    "rank": 19,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.5
@@ -30744,7 +31877,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 54,
-    "rank": 56,
+    "rank": 62,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.7
@@ -30901,7 +32034,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 56,
-    "rank": 28,
+    "rank": 30,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.6
@@ -31206,7 +32339,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 67,
-    "rank": 142,
+    "rank": 147,
     "ratingGames": 14,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.6
@@ -31382,7 +32515,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 53,
-    "rank": 47,
+    "rank": 52,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.1
@@ -31548,7 +32681,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 50,
-    "rank": 29,
+    "rank": 32,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.5
@@ -31853,10 +32986,10 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 65,
-    "rank": 149,
+    "rank": 155,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -32094,9 +33227,9 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 59,
-    "rank": 116,
+    "rank": 120,
     "ratingGames": 9,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -32319,7 +33452,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 60,
-    "rank": 151,
+    "rank": 157,
     "ratingGames": 9,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -32333,6 +33466,295 @@
     "synergy": 0.9
    }
   ]
+ },
+ "dba57d37-2d91-4c25-96ae-cbc287043db4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PickleRage Union County",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 97,
+    "pa": 122,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 56,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Tracy Narag",
+    "vs": [
+     "Teresa Carr",
+     "Michael Barry"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Bill Lam",
+    "vs": [
+     "John Danks",
+     "Louis Sapirman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Mark Baker",
+     "Ed Amato"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Andrew Craig",
+    "vs": [
+     "Ed Amato",
+     "Michael Barry"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Linda Bozzo",
+     "Louis Sapirman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Bill Lam",
+    "vs": [
+     "Michael Barry",
+     "John Danks"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Geoffrey Baird",
+    "vs": [
+     "Brian Borer",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Corinne Demeuse",
+     ""
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "John Cusano",
+    "vs": [
+     "Gary Leon",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Kristin Duva",
+    "vs": [
+     "Robin Aiello",
+     ""
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Gary Leon",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Christine Levesque",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Mark Garner",
+    "vs": [
+     "Jerry Ridder",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 50,
+    "rank": 173,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 65,
+    "rank": 75,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
  },
  "0e543890-4c91-45d2-bd5d-819dc476b245": {
   "log": [
@@ -32583,10 +34005,283 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 63,
-    "rank": 172,
+    "rank": 177,
     "ratingGames": 11,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PickleRage Union County",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 86,
+    "pa": 103,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 116,
+    "pa": 100,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Lorraine Roeller",
+    "vs": [
+     "Linda Bozzo",
+     "John Danks"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Andrew Craig",
+    "vs": [
+     "Mark Baker",
+     "Michael Barry"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Linda Bozzo",
+     "Louis Sapirman"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Bill Lam",
+    "vs": [
+     "John Danks",
+     "Louis Sapirman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Lynn Quinn",
+    "vs": [
+     "Jennifer Applebee",
+     "Michael Barry"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Kristin Duva",
+    "vs": [
+     "Corinne Demeuse",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Noelie Hillebrecht",
+    "vs": [
+     "Christine Levesque",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Tracy Waffenfeld",
+    "vs": [
+     "Brian Borer",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Christine Levesque",
+     "Gary Leon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Geoffrey Baird",
+    "vs": [
+     "",
+     "Jerry Ridder"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Cheryl Minerowicz",
+    "vs": [
+     "Karin Schneider",
+     "Brian Borer"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Jerry Ridder",
+     "Brian Borer"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 44,
+    "rank": 178,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 64,
+    "rank": 230,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -32840,7 +34535,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 63,
-    "rank": 330,
+    "rank": 340,
     "ratingGames": 11,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -33129,7 +34824,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 67,
-    "rank": 143,
+    "rank": 148,
     "ratingGames": 13,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -33437,7 +35132,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 68,
-    "rank": 202,
+    "rank": 208,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -33733,7 +35428,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 68,
-    "rank": 192,
+    "rank": 199,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
@@ -34022,10 +35717,10 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 70,
-    "rank": 214,
+    "rank": 218,
     "ratingGames": 13,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -34311,7 +36006,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 68,
-    "rank": 156,
+    "rank": 161,
     "ratingGames": 13,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -34468,7 +36163,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 47,
-    "rank": 123,
+    "rank": 128,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.1
@@ -34609,7 +36304,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 46,
-    "rank": 210,
+    "rank": 214,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
@@ -34759,7 +36454,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 49,
-    "rank": 235,
+    "rank": 238,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -34909,7 +36604,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 137,
+    "rank": 142,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -35027,9 +36722,9 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 43,
-    "rank": 112,
+    "rank": 116,
     "ratingGames": 4,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -35177,7 +36872,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 135,
+    "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.9
@@ -35450,7 +37145,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 63,
-    "rank": 196,
+    "rank": 203,
     "ratingGames": 12,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -35619,7 +37314,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 165,
+    "rank": 170,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.7
@@ -35760,7 +37455,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 49,
-    "rank": 255,
+    "rank": 259,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -35910,7 +37605,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 49,
-    "rank": 301,
+    "rank": 308,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.6
@@ -36051,10 +37746,10 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 48,
-    "rank": 245,
+    "rank": 249,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -36192,7 +37887,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 50,
-    "rank": 241,
+    "rank": 246,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.5
@@ -36433,7 +38128,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 64,
-    "rank": 87,
+    "rank": 93,
     "ratingGames": 10,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -36574,9 +38269,9 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 50,
-    "rank": 243,
+    "rank": 247,
     "ratingGames": 6,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -36724,7 +38419,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 46,
-    "rank": 281,
+    "rank": 287,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -1.3
@@ -36842,7 +38537,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 43,
-    "rank": 297,
+    "rank": 304,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.6
@@ -37024,7 +38719,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 56,
-    "rank": 249,
+    "rank": 254,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.1
@@ -37265,7 +38960,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 63,
-    "rank": 159,
+    "rank": 164,
     "ratingGames": 10,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -37390,7 +39085,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 41,
-    "rank": 213,
+    "rank": 217,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -37695,7 +39390,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 68,
-    "rank": 161,
+    "rank": 166,
     "ratingGames": 14,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.2
@@ -37856,12 +39551,12 @@
    },
    {
     "week": 2,
-    "rating": -0.6,
+    "rating": -0.7,
     "confidence": 49,
-    "rank": 229,
+    "rank": 239,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -38163,7 +39858,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 67,
-    "rank": 267,
+    "rank": 272,
     "ratingGames": 14,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.3
@@ -38311,7 +40006,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 52,
-    "rank": 251,
+    "rank": 255,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.2
@@ -38616,7 +40311,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 70,
-    "rank": 125,
+    "rank": 130,
     "ratingGames": 14,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.4
@@ -38912,7 +40607,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 65,
-    "rank": 204,
+    "rank": 210,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -39176,7 +40871,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 65,
-    "rank": 115,
+    "rank": 119,
     "ratingGames": 11,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.1
@@ -39440,7 +41135,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 64,
-    "rank": 163,
+    "rank": 168,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.6
@@ -39704,7 +41399,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 65,
-    "rank": 157,
+    "rank": 162,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.7
@@ -40016,7 +41711,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 70,
-    "rank": 103,
+    "rank": 106,
     "ratingGames": 14,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.1
@@ -40189,7 +41884,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 50,
-    "rank": 166,
+    "rank": 171,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -40494,7 +42189,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 70,
-    "rank": 176,
+    "rank": 183,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -40664,7 +42359,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 53,
-    "rank": 97,
+    "rank": 101,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
@@ -40830,7 +42525,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 173,
+    "rank": 180,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
@@ -40996,7 +42691,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 53,
-    "rank": 220,
+    "rank": 224,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.5
@@ -41162,7 +42857,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 221,
+    "rank": 225,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -41319,7 +43014,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 55,
-    "rank": 105,
+    "rank": 108,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.9
@@ -41624,7 +43319,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 70,
-    "rank": 253,
+    "rank": 258,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
@@ -41929,7 +43624,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 70,
-    "rank": 225,
+    "rank": 229,
     "ratingGames": 14,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -42202,7 +43897,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 65,
-    "rank": 194,
+    "rank": 201,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -42498,10 +44193,10 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 67,
-    "rank": 193,
+    "rank": 200,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -42771,7 +44466,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 67,
-    "rank": 268,
+    "rank": 273,
     "ratingGames": 12,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0
@@ -43057,7 +44752,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 67,
-    "rank": 261,
+    "rank": 266,
     "ratingGames": 12,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -43330,7 +45025,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 67,
-    "rank": 258,
+    "rank": 262,
     "ratingGames": 12,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
@@ -43610,7 +45305,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 67,
-    "rank": 203,
+    "rank": 209,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1.5
@@ -43742,12 +45437,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
-    "confidence": 43,
-    "rank": 211,
+    "rating": -0.8,
+    "confidence": 44,
+    "rank": 252,
     "ratingGames": 5,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -43869,7 +45564,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 46,
-    "rank": 82,
+    "rank": 89,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.1
@@ -43994,7 +45689,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 46,
-    "rank": 108,
+    "rank": 112,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -44128,7 +45823,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 47,
-    "rank": 272,
+    "rank": 278,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -44253,7 +45948,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 170,
+    "rank": 175,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.2
@@ -44494,7 +46189,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 62,
-    "rank": 205,
+    "rank": 211,
     "ratingGames": 10,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -44632,7 +46327,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 46,
-    "rank": 247,
+    "rank": 251,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -44766,7 +46461,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 44,
-    "rank": 282,
+    "rank": 288,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -44900,7 +46595,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 42,
-    "rank": 212,
+    "rank": 216,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -45189,7 +46884,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 68,
-    "rank": 132,
+    "rank": 137,
     "ratingGames": 13,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -45485,7 +47180,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 69,
-    "rank": 316,
+    "rank": 325,
     "ratingGames": 13,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.2
@@ -45781,7 +47476,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 68,
-    "rank": 133,
+    "rank": 138,
     "ratingGames": 13,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.3
@@ -45963,7 +47658,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 57,
-    "rank": 262,
+    "rank": 267,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.4
@@ -46145,7 +47840,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 54,
-    "rank": 90,
+    "rank": 96,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.4
@@ -46318,7 +48013,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 56,
-    "rank": 217,
+    "rank": 221,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -46326,184 +48021,259 @@
   ],
   "partners": []
  },
- "17d83f5c-38ad-4048-afbb-7302f3aff397": {
+ "2bc6c3c4-805a-4584-bbb9-6185448a3298": {
   "log": [
    {
     "week": 1,
-    "opp": "Pickleball Palace Black",
+    "opp": "PickleRage Union County",
     "homeAway": "H",
-    "w": 3,
+    "w": 0,
     "l": 5,
-    "gp": 8,
-    "pf": 131,
-    "pa": 159,
+    "gp": 5,
+    "pf": 65,
+    "pa": 105,
     "mx": [
-     2,
+     0,
      2
     ],
     "gn": [
-     1,
+     0,
      3
     ],
     "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 3,
+    "l": 0,
+    "gp": 3,
+    "pf": 63,
+    "pa": 44,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
      2,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
     "wk": 1,
-    "opp": "Pickleball Palace Black",
+    "opp": "PickleRage Union County",
     "t": "mixed",
-    "with": "Lucy Sha",
+    "with": "Cindy Barban",
     "vs": [
-     "Christine Ostapiak",
-     "James Azarowicz"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "male",
-    "with": "Alan Carr",
-    "vs": [
-     "Noach Shapiro",
-     "Alan Weissman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Karin Schneider",
-    "vs": [
-     "Theresa Corderi",
-     "Alan Weissman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "male",
-    "with": "Alan Carr",
-    "vs": [
-     "Ward Greer",
-     "Alan Weissman"
+     "Marita Dow",
+     "Ed Amato"
     ],
     "f": 10,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Sherry Silinger",
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Stanley Okpor",
     "vs": [
-     "Christine Ostapiak",
-     "Noach Shapiro"
+     "Mark Baker",
+     "Ed Amato"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "mixed",
+    "with": "Cindy Barban",
+    "vs": [
+     "Kathi Savage",
+     "John Danks"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Bill Lam",
+    "vs": [
+     "Mark Baker",
+     "Louis Sapirman"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PickleRage Union County",
+    "t": "male",
+    "with": "Al Chen",
+    "vs": [
+     "Louis Sapirman",
+     "Ed Amato"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "mixed",
+    "with": "Christine Ostapiak",
+    "vs": [
+     "Robin Aiello",
+     ""
     ],
     "f": 21,
-    "a": 16,
+    "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "male",
-    "with": "John Zampini",
+    "with": "John Cusano",
     "vs": [
-     "Jake Denooyer",
-     "Noach Shapiro"
+     "",
+     "Gary Leon"
     ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 8,
+    "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Mark Garner",
+    "vs": [
+     "Brian Borer",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "male",
+    "with": "Stanley Okpor",
+    "vs": [
+     "Gary Leon",
+     "Tim Lockburner"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "mixed",
-    "with": "Karin Schneider",
+    "with": "Kristin Duva",
     "vs": [
-     "Christine Ostapiak",
-     "Ward Greer"
+     "Robin Aiello",
+     "Jerry Ridder"
     ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 15,
+    "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "male",
-    "with": "James Carter",
+    "with": "Geoffrey Baird",
     "vs": [
-     "Ward Greer",
-     "James Azarowicz"
+     "Tim Lockburner",
+     ""
     ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 17,
+    "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1,
-    "confidence": 53,
-    "rank": 187,
-    "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.5
+    "rating": -3.2,
+    "confidence": 42,
+    "rank": 246,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.3
    },
    {
     "week": 2,
-    "rating": -1,
-    "confidence": 53,
-    "rank": 254,
+    "rating": -2,
+    "confidence": 57,
+    "rank": 318,
     "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -46680,7 +48450,7 @@
    },
    {
     "week": 2,
-    "rating": -0.2,
+    "rating": -0.1,
     "confidence": 52,
     "rank": 188,
     "ratingGames": 8,
@@ -46939,7 +48709,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 63,
-    "rank": 216,
+    "rank": 220,
     "ratingGames": 11,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": -0.5
@@ -47263,7 +49033,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 71,
-    "rank": 238,
+    "rank": 242,
     "ratingGames": 14,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -47581,7 +49351,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 70,
-    "rank": 177,
+    "rank": 184,
     "ratingGames": 14,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.5
@@ -47731,7 +49501,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 139,
+    "rank": 144,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -47872,160 +49642,10 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 185,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
- "d6c99730-dfc7-4a86-aa1e-163058c5b8c2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 111,
-    "pa": 118,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Andrew Craig",
-    "vs": [
-     "Jennifer Applebee",
-     "Ed Amato"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "female",
-    "with": "Lisa Munjack",
-    "vs": [
-     "Jennifer Applebee",
-     "Linda Bozzo"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Mark Garner",
-    "vs": [
-     "Linda Bozzo",
-     "Louis Sapirman"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "female",
-    "with": "Lisa Munjack",
-    "vs": [
-     "Marita Dow",
-     "Jennifer Applebee"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Mark Garner",
-    "vs": [
-     "Jennifer Applebee",
-     "Michael Barry"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Stanley Okpor",
-    "vs": [
-     "Linda Bozzo",
-     "Louis Sapirman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.1,
-    "confidence": 43,
-    "rank": 68,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 2,
-    "rating": 1.1,
-    "confidence": 44,
-    "rank": 102,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -48115,7 +49735,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 35,
-    "rank": 252,
+    "rank": 257,
     "ratingGames": 3,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 1.2
@@ -48256,7 +49876,7 @@
     "week": 2,
     "rating": -3.4,
     "confidence": 48,
-    "rank": 340,
+    "rank": 351,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.9
@@ -48397,7 +50017,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 49,
-    "rank": 199,
+    "rank": 205,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 1.1
@@ -48547,7 +50167,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 285,
+    "rank": 291,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -48697,7 +50317,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 46,
-    "rank": 201,
+    "rank": 207,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.3
@@ -48847,7 +50467,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 50,
-    "rank": 184,
+    "rank": 191,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -48995,9 +50615,9 @@
    },
    {
     "week": 2,
-    "rating": -0.8,
+    "rating": -0.7,
     "confidence": 50,
-    "rank": 242,
+    "rank": 236,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -49147,7 +50767,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 136,
+    "rank": 141,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.2
@@ -49288,7 +50908,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 179,
+    "rank": 185,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.4
@@ -49438,7 +51058,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 51,
-    "rank": 270,
+    "rank": 275,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -49588,7 +51208,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 160,
+    "rank": 165,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.9
@@ -49738,7 +51358,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 293,
+    "rank": 299,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -49879,7 +51499,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 49,
-    "rank": 279,
+    "rank": 285,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -50168,7 +51788,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 68,
-    "rank": 283,
+    "rank": 289,
     "ratingGames": 13,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -50416,7 +52036,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 61,
-    "rank": 305,
+    "rank": 313,
     "ratingGames": 10,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -50571,12 +52191,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -1.1,
     "confidence": 51,
-    "rank": 263,
+    "rank": 264,
     "ratingGames": 7,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -50730,7 +52350,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 138,
+    "rank": 143,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.1
@@ -50894,9 +52514,9 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -1.3,
     "confidence": 51,
-    "rank": 277,
+    "rank": 274,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.5
@@ -51051,12 +52671,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.9,
+    "rating": -0.8,
     "confidence": 52,
-    "rank": 250,
+    "rank": 245,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -51210,7 +52830,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 167,
+    "rank": 172,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -51376,7 +52996,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 121,
+    "rank": 125,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.2
@@ -51533,7 +53153,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 53,
-    "rank": 219,
+    "rank": 223,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -51690,7 +53310,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 144,
+    "rank": 149,
     "ratingGames": 7,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 1.8
@@ -51995,7 +53615,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 71,
-    "rank": 186,
+    "rank": 193,
     "ratingGames": 14,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.9
@@ -52157,9 +53777,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.6,
+    "rating": -1.5,
     "confidence": 55,
-    "rank": 284,
+    "rank": 283,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.2
@@ -52480,7 +54100,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 72,
-    "rank": 224,
+    "rank": 228,
     "ratingGames": 15,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.3
@@ -52737,7 +54357,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 65,
-    "rank": 274,
+    "rank": 281,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -52994,7 +54614,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 65,
-    "rank": 158,
+    "rank": 163,
     "ratingGames": 11,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -53258,7 +54878,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 66,
-    "rank": 304,
+    "rank": 312,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -53376,7 +54996,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 42,
-    "rank": 298,
+    "rank": 305,
     "ratingGames": 4,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -53494,7 +55114,7 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 40,
-    "rank": 334,
+    "rank": 344,
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -53612,7 +55232,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 39,
-    "rank": 307,
+    "rank": 315,
     "ratingGames": 4,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.2
@@ -53885,192 +55505,10 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 67,
-    "rank": 248,
+    "rank": 253,
     "ratingGames": 12,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "6b3df055-e504-46b4-8072-5ebded92a310": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Palace Black",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 127,
-    "pa": 164,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "John Zampini",
-    "vs": [
-     "Theresa Corderi",
-     "Ward Greer"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Sherry Silinger",
-    "vs": [
-     "Christine Ostapiak",
-     "Donna Shabinaw"
-    ],
-    "f": 22,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Jerry Ridder",
-    "vs": [
-     "Theresa Corderi",
-     "Alan Weissman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Sherry Silinger",
-    "vs": [
-     "Anne Buckley",
-     "Donna Shabinaw"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Alan Carr",
-    "vs": [
-     "Theresa Corderi",
-     "Alan Weissman"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Lucy Sha",
-    "vs": [
-     "Anne Buckley",
-     "Christine Ostapiak"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Jerry Ridder",
-    "vs": [
-     "Christine Ostapiak",
-     "Ward Greer"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Christine Ostapiak",
-     "Donna Shabinaw"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.3,
-    "confidence": 54,
-    "rank": 195,
-    "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 2,
-    "rating": -1.3,
-    "confidence": 54,
-    "rank": 269,
-    "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -54340,7 +55778,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 67,
-    "rank": 291,
+    "rank": 297,
     "ratingGames": 12,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.1
@@ -54613,7 +56051,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 68,
-    "rank": 239,
+    "rank": 243,
     "ratingGames": 12,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1
@@ -54886,7 +56324,7 @@
     "week": 2,
     "rating": -3.3,
     "confidence": 67,
-    "rank": 337,
+    "rank": 349,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -55066,12 +56504,12 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
-    "confidence": 54,
-    "rank": 276,
+    "rating": -1.6,
+    "confidence": 55,
+    "rank": 290,
     "ratingGames": 8,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -55357,7 +56795,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 67,
-    "rank": 290,
+    "rank": 296,
     "ratingGames": 13,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -55646,7 +57084,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 61,
-    "rank": 322,
+    "rank": 332,
     "ratingGames": 13,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": -0.2
@@ -55964,7 +57402,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 71,
-    "rank": 84,
+    "rank": 90,
     "ratingGames": 14,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.2
@@ -55978,6 +57416,327 @@
     "synergy": -1.2
    }
   ]
+ },
+ "17d83f5c-38ad-4048-afbb-7302f3aff397": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Palace Black",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 131,
+    "pa": 159,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 88,
+    "pa": 126,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Lucy Sha",
+    "vs": [
+     "Christine Ostapiak",
+     "James Azarowicz"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "male",
+    "with": "Alan Carr",
+    "vs": [
+     "Noach Shapiro",
+     "Alan Weissman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Theresa Corderi",
+     "Alan Weissman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "male",
+    "with": "Alan Carr",
+    "vs": [
+     "Ward Greer",
+     "Alan Weissman"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Sherry Silinger",
+    "vs": [
+     "Christine Ostapiak",
+     "Noach Shapiro"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "male",
+    "with": "John Zampini",
+    "vs": [
+     "Jake Denooyer",
+     "Noach Shapiro"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Christine Ostapiak",
+     "Ward Greer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "male",
+    "with": "James Carter",
+    "vs": [
+     "Ward Greer",
+     "James Azarowicz"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Christine Levesque",
+    "vs": [
+     "Lynn Quinn",
+     "Geoffrey Baird"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Christine Levesque",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Mark Garner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Gary Leon",
+    "vs": [
+     "Stanley Okpor",
+     "John Cusano"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Geoffrey Baird"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "",
+    "vs": [
+     "Mark Garner",
+     "Geoffrey Baird"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Robin Aiello",
+    "vs": [
+     "Kristin Duva",
+     "Tracy Waffenfeld"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Brian Borer",
+    "vs": [
+     "Mark Garner",
+     "Stanley Okpor"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1,
+    "confidence": 53,
+    "rank": 187,
+    "ratingGames": 8,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -1.9,
+    "confidence": 70,
+    "rank": 311,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
  },
  "10110730-45a5-496c-94db-748fbe7f5bdf": {
   "log": [
@@ -56276,7 +58035,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 68,
-    "rank": 328,
+    "rank": 338,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -56414,7 +58173,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 48,
-    "rank": 89,
+    "rank": 95,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.3
@@ -56539,7 +58298,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 47,
-    "rank": 302,
+    "rank": 309,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.7
@@ -56673,7 +58432,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 47,
-    "rank": 146,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
@@ -56814,7 +58573,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 51,
-    "rank": 41,
+    "rank": 43,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 2
@@ -56948,144 +58707,10 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 46,
-    "rank": 313,
+    "rank": 322,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": []
- },
- "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 86,
-    "pa": 103,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Lorraine Roeller",
-    "vs": [
-     "Linda Bozzo",
-     "John Danks"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Andrew Craig",
-    "vs": [
-     "Mark Baker",
-     "Michael Barry"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Lynn Quinn",
-    "vs": [
-     "Linda Bozzo",
-     "Louis Sapirman"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Bill Lam",
-    "vs": [
-     "John Danks",
-     "Louis Sapirman"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Lynn Quinn",
-    "vs": [
-     "Jennifer Applebee",
-     "Michael Barry"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.8,
-    "confidence": 44,
-    "rank": 178,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 2,
-    "rating": -0.6,
-    "confidence": 46,
-    "rank": 231,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -57216,7 +58841,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 47,
-    "rank": 246,
+    "rank": 250,
     "ratingGames": 5,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": -0.1
@@ -57348,12 +58973,12 @@
    },
    {
     "week": 2,
-    "rating": -2.4,
-    "confidence": 45,
-    "rank": 321,
+    "rating": -2.6,
+    "confidence": 46,
+    "rank": 337,
     "ratingGames": 5,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -57482,12 +59107,12 @@
    },
    {
     "week": 2,
-    "rating": -0.5,
+    "rating": -0.4,
     "confidence": 46,
-    "rank": 222,
+    "rank": 215,
     "ratingGames": 5,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -57618,7 +59243,7 @@
     "week": 2,
     "rating": -3.5,
     "confidence": 48,
-    "rank": 343,
+    "rank": 354,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -57750,12 +59375,12 @@
    },
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -0.9,
     "confidence": 45,
-    "rank": 265,
+    "rank": 256,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.2
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -57991,12 +59616,12 @@
    },
    {
     "week": 2,
-    "rating": -2.6,
+    "rating": -2.4,
     "confidence": 64,
-    "rank": 326,
+    "rank": 328,
     "ratingGames": 10,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -58004,7 +59629,7 @@
     "pid": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de",
     "name": "Marita Dow",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.3
    }
   ]
  },
@@ -58125,7 +59750,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 46,
-    "rank": 273,
+    "rank": 280,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.9
@@ -58366,7 +59991,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 62,
-    "rank": 309,
+    "rank": 317,
     "ratingGames": 10,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -58505,12 +60130,12 @@
    },
    {
     "week": 2,
-    "rating": -3.1,
-    "confidence": 44,
-    "rank": 336,
+    "rating": -3.2,
+    "confidence": 45,
+    "rank": 348,
     "ratingGames": 5,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -58748,7 +60373,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 63,
-    "rank": 311,
+    "rank": 320,
     "ratingGames": 10,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -58762,6 +60387,343 @@
     "synergy": 1
    }
   ]
+ },
+ "6b3df055-e504-46b4-8072-5ebded92a310": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Palace Black",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 127,
+    "pa": 164,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 119,
+    "pa": 158,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "John Zampini",
+    "vs": [
+     "Theresa Corderi",
+     "Ward Greer"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Sherry Silinger",
+    "vs": [
+     "Christine Ostapiak",
+     "Donna Shabinaw"
+    ],
+    "f": 22,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Theresa Corderi",
+     "Alan Weissman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Sherry Silinger",
+    "vs": [
+     "Anne Buckley",
+     "Donna Shabinaw"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Alan Carr",
+    "vs": [
+     "Theresa Corderi",
+     "Alan Weissman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Lucy Sha",
+    "vs": [
+     "Anne Buckley",
+     "Christine Ostapiak"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Christine Ostapiak",
+     "Ward Greer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Christine Ostapiak",
+     "Donna Shabinaw"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Cheryl Minerowicz",
+     "John Cusano"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Christine Ostapiak",
+     "Noelie Hillebrecht"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Kristin Duva",
+     "John Cusano"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Noelie Hillebrecht"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Brian Borer",
+    "vs": [
+     "Lynn Quinn",
+     "John Cusano"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Christine Ostapiak",
+     "Kristin Duva"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Brian Borer",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Mark Garner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Christine Levesque",
+    "vs": [
+     "Christine Ostapiak",
+     "Lynn Quinn"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 54,
+    "rank": 195,
+    "ratingGames": 8,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 68,
+    "rank": 265,
+    "ratingGames": 16,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
  },
  "9de9a96a-2ff8-49eb-b59f-1e898a7c07de": {
   "log": [
@@ -59028,10 +60990,10 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 64,
-    "rank": 300,
+    "rank": 307,
     "ratingGames": 11,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -59039,7 +61001,7 @@
     "pid": "2edb3f79-df7a-4e92-a4d5-e78774a90e92",
     "name": "Mark Baker",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.3
    }
   ]
  },
@@ -59176,7 +61138,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 49,
-    "rank": 200,
+    "rank": 206,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.1
@@ -59317,7 +61279,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 48,
-    "rank": 99,
+    "rank": 103,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 2
@@ -59458,9 +61420,9 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 120,
+    "rank": 124,
     "ratingGames": 6,
-    "strengthOfPartners": -2.7,
+    "strengthOfPartners": -2.6,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -59608,7 +61570,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 50,
-    "rank": 227,
+    "rank": 232,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
@@ -59758,7 +61720,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 52,
-    "rank": 278,
+    "rank": 284,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0
@@ -59899,7 +61861,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 152,
+    "rank": 158,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.2
@@ -60049,7 +62011,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 50,
-    "rank": 234,
+    "rank": 237,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.6
@@ -60190,7 +62152,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 50,
-    "rank": 183,
+    "rank": 190,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.9
@@ -60331,7 +62293,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 53,
-    "rank": 197,
+    "rank": 204,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.5
@@ -60481,160 +62443,10 @@
     "week": 2,
     "rating": -3.6,
     "confidence": 50,
-    "rank": 345,
+    "rank": 356,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": []
- },
- "dba57d37-2d91-4c25-96ae-cbc287043db4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 97,
-    "pa": 122,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Tracy Narag",
-    "vs": [
-     "Teresa Carr",
-     "Michael Barry"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Bill Lam",
-    "vs": [
-     "John Danks",
-     "Louis Sapirman"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Tracy Waffenfeld",
-    "vs": [
-     "Mark Baker",
-     "Ed Amato"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Andrew Craig",
-    "vs": [
-     "Ed Amato",
-     "Michael Barry"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Lynn Quinn",
-    "vs": [
-     "Linda Bozzo",
-     "Louis Sapirman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Bill Lam",
-    "vs": [
-     "Michael Barry",
-     "John Danks"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.8,
-    "confidence": 50,
-    "rank": 173,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 2,
-    "rating": -0.6,
-    "confidence": 50,
-    "rank": 228,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -60772,10 +62584,151 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 286,
+    "rank": 292,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "47124d07-437f-49ee-b6ba-fc48943aee42": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 87,
+    "pa": 116,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Kristin Duva",
+     "Mark Garner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Stanley Okpor",
+     "Geoffrey Baird"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Mark Garner",
+     "Tracy Waffenfeld"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Lynn Quinn",
+     "John Cusano"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Mark Garner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Mark Garner",
+     "Stanley Okpor"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 49,
+    "rank": 276,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -60922,7 +62875,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 51,
-    "rank": 323,
+    "rank": 333,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -61072,7 +63025,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 296,
+    "rank": 302,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -61213,7 +63166,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 295,
+    "rank": 301,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.3
@@ -61354,7 +63307,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 51,
-    "rank": 331,
+    "rank": 341,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.6
@@ -61627,7 +63580,7 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 66,
-    "rank": 333,
+    "rank": 343,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -61768,7 +63721,7 @@
     "week": 2,
     "rating": -3.7,
     "confidence": 50,
-    "rank": 347,
+    "rank": 358,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.6
@@ -62057,7 +64010,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 70,
-    "rank": 215,
+    "rank": 219,
     "ratingGames": 13,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.6
@@ -62346,7 +64299,7 @@
     "week": 2,
     "rating": -3.8,
     "confidence": 69,
-    "rank": 348,
+    "rank": 359,
     "ratingGames": 13,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0
@@ -62510,9 +64463,9 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 54,
-    "rank": 206,
+    "rank": 212,
     "ratingGames": 7,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -62676,7 +64629,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 54,
-    "rank": 218,
+    "rank": 222,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 1.8
@@ -62842,7 +64795,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 43,
-    "rank": 306,
+    "rank": 314,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -62999,7 +64952,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 54,
-    "rank": 320,
+    "rank": 330,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.6
@@ -63165,7 +65118,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 54,
-    "rank": 319,
+    "rank": 329,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.2
@@ -63470,7 +65423,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 68,
-    "rank": 329,
+    "rank": 339,
     "ratingGames": 14,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
@@ -63657,12 +65610,12 @@
    },
    {
     "week": 2,
-    "rating": -0.2,
-    "confidence": 53,
-    "rank": 187,
+    "rating": 0.1,
+    "confidence": 54,
+    "rank": 179,
     "ratingGames": 8,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -63839,12 +65792,12 @@
    },
    {
     "week": 2,
-    "rating": -1.1,
+    "rating": -1.2,
     "confidence": 53,
-    "rank": 260,
+    "rank": 269,
     "ratingGames": 8,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -64066,7 +66019,7 @@
     "week": 2,
     "rating": -3.4,
     "confidence": 63,
-    "rank": 339,
+    "rank": 350,
     "ratingGames": 9,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -64339,7 +66292,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 65,
-    "rank": 332,
+    "rank": 342,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.6
@@ -64635,7 +66588,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 66,
-    "rank": 317,
+    "rank": 326,
     "ratingGames": 13,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -64953,7 +66906,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 67,
-    "rank": 266,
+    "rank": 271,
     "ratingGames": 14,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.9
@@ -65081,7 +67034,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 43,
-    "rank": 257,
+    "rank": 261,
     "ratingGames": 4,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.8
@@ -65206,7 +67159,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 45,
-    "rank": 303,
+    "rank": 310,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -65354,12 +67307,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
+    "rating": -0.5,
     "confidence": 48,
-    "rank": 208,
+    "rank": 226,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
@@ -65465,7 +67418,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 40,
-    "rank": 299,
+    "rank": 306,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.3
@@ -65606,7 +67559,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 50,
-    "rank": 226,
+    "rank": 231,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.6
@@ -65747,7 +67700,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 294,
+    "rank": 300,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.4
@@ -65904,7 +67857,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 49,
-    "rank": 264,
+    "rank": 270,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
@@ -66029,7 +67982,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 45,
-    "rank": 315,
+    "rank": 324,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -66163,10 +68116,183 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 324,
+    "rank": 334,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
+ "45790302-b906-4a8b-8a2d-08fbfaf6cbad": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 93,
+    "pa": 126,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "",
+    "vs": [
+     "Christine Ostapiak",
+     "Tracy Waffenfeld"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Christine Levesque",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Lynn Quinn"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Gary Leon",
+    "vs": [
+     "Lynn Quinn",
+     "Geoffrey Baird"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Christine Levesque",
+    "vs": [
+     "Kristin Duva",
+     "Lynn Quinn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "",
+    "vs": [
+     "Kristin Duva",
+     "Stanley Okpor"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Christine Ostapiak",
+     "Kristin Duva"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Kristin Duva",
+     "Tracy Waffenfeld"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Kristin Duva",
+     "Noelie Hillebrecht"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 46,
+    "rank": 279,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -66313,7 +68439,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 48,
-    "rank": 287,
+    "rank": 293,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.6
@@ -66438,7 +68564,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 48,
-    "rank": 288,
+    "rank": 294,
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.5
@@ -66563,7 +68689,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 45,
-    "rank": 289,
+    "rank": 295,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.3
@@ -66688,7 +68814,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 45,
-    "rank": 314,
+    "rank": 323,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.5
@@ -66838,144 +68964,10 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 43,
-    "rank": 325,
+    "rank": 335,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1
-   }
-  ],
-  "partners": []
- },
- "2bc6c3c4-805a-4584-bbb9-6185448a3298": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PickleRage Union County",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 65,
-    "pa": 105,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Cindy Barban",
-    "vs": [
-     "Marita Dow",
-     "Ed Amato"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Stanley Okpor",
-    "vs": [
-     "Mark Baker",
-     "Ed Amato"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "mixed",
-    "with": "Cindy Barban",
-    "vs": [
-     "Kathi Savage",
-     "John Danks"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Bill Lam",
-    "vs": [
-     "Mark Baker",
-     "Louis Sapirman"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PickleRage Union County",
-    "t": "male",
-    "with": "Al Chen",
-    "vs": [
-     "Louis Sapirman",
-     "Ed Amato"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -3.2,
-    "confidence": 42,
-    "rank": 246,
-    "ratingGames": 5,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 2,
-    "rating": -3.3,
-    "confidence": 43,
-    "rank": 338,
-    "ratingGames": 5,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -67097,7 +69089,7 @@
     "week": 2,
     "rating": -3.4,
     "confidence": 43,
-    "rank": 342,
+    "rank": 353,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.5
@@ -67263,10 +69255,10 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 55,
-    "rank": 318,
+    "rank": 327,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 1.3
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -67388,10 +69380,340 @@
     "week": 2,
     "rating": -3.5,
     "confidence": 46,
-    "rank": 344,
+    "rank": 355,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
+ "3c881311-2724-4972-bc8e-f3ffcbd51cd0": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 81,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Cheryl Minerowicz",
+     "John Cusano"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Brian Borer",
+    "vs": [
+     "Stanley Okpor",
+     "Geoffrey Baird"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Karin Schneider",
+    "vs": [
+     "Kristin Duva",
+     "John Cusano"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Brian Borer",
+    "vs": [
+     "Mark Garner",
+     "Tracy Waffenfeld"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Gary Leon",
+    "vs": [
+     "Tracy Waffenfeld",
+     "Stanley Okpor"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Christine Levesque",
+    "vs": [
+     "Christine Ostapiak",
+     "Stanley Okpor"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "",
+    "vs": [
+     "Tracy Waffenfeld",
+     "Geoffrey Baird"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -3.1,
+    "confidence": 50,
+    "rank": 346,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "e34d4b70-a0fc-4087-8386-98fb172aee4c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 122,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Lynn Quinn",
+     "Geoffrey Baird"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Lynn Quinn"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Mark Garner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Kristin Duva",
+     "Lynn Quinn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Gary Leon",
+    "vs": [
+     "Christine Ostapiak",
+     "Mark Garner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Lynn Quinn"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Christine Ostapiak",
+     "Stanley Okpor"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Christine Ostapiak",
+     "Lynn Quinn"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 55,
+    "rank": 268,
+    "ratingGames": 8,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -67568,12 +69890,153 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -1.5,
     "confidence": 56,
-    "rank": 275,
+    "rank": 282,
     "ratingGames": 8,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "a7163fb2-63f3-46c4-9d0d-b333eea0b503": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 56,
+    "pa": 105,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "",
+    "vs": [
+     "John Cusano",
+     "Tracy Waffenfeld"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Robin Aiello",
+    "vs": [
+     "Lynn Quinn",
+     "Geoffrey Baird"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Stanley Okpor",
+     "John Cusano"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Christine Levesque",
+    "vs": [
+     "Christine Ostapiak",
+     "Mark Garner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "male",
+    "with": "Tim Lockburner",
+    "vs": [
+     "Tracy Waffenfeld",
+     "Stanley Okpor"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Noelie Hillebrecht",
+     "John Cusano"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -3.1,
+    "confidence": 48,
+    "rank": 347,
+    "ratingGames": 5,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -67779,7 +70242,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 58,
-    "rank": 292,
+    "rank": 298,
     "ratingGames": 8,
     "strengthOfPartners": -2.7,
     "strengthOfOpponents": 0.5
@@ -67897,10 +70360,183 @@
     "week": 2,
     "rating": -3.9,
     "confidence": 42,
-    "rank": 350,
+    "rank": 361,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
+ "2a820b56-af8a-4856-8db8-fb8e7c133e08": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 96,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Brian Borer",
+    "vs": [
+     "Kristin Duva",
+     "Mark Garner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Christine Ostapiak",
+     "Noelie Hillebrecht"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Stanley Okpor"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Noelie Hillebrecht"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Geoffrey Baird"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Christine Levesque",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Lynn Quinn"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Gary Leon",
+    "vs": [
+     "Noelie Hillebrecht",
+     "John Cusano"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Kristin Duva",
+     "Noelie Hillebrecht"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -2.4,
+    "confidence": 49,
+    "rank": 331,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -68022,7 +70658,7 @@
     "week": 2,
     "rating": -3.4,
     "confidence": 47,
-    "rank": 341,
+    "rank": 352,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.6
@@ -68147,7 +70783,7 @@
     "week": 2,
     "rating": -3.8,
     "confidence": 46,
-    "rank": 349,
+    "rank": 360,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.4
@@ -68272,7 +70908,7 @@
     "week": 2,
     "rating": -4.3,
     "confidence": 48,
-    "rank": 352,
+    "rank": 363,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.9
@@ -68429,10 +71065,10 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 53,
-    "rank": 312,
+    "rank": 321,
     "ratingGames": 7,
     "strengthOfPartners": -1,
-    "strengthOfOpponents": 1.6
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": []
@@ -68570,7 +71206,7 @@
     "week": 2,
     "rating": -4.3,
     "confidence": 50,
-    "rank": 351,
+    "rank": 362,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.5
@@ -68695,7 +71331,7 @@
     "week": 2,
     "rating": -4.4,
     "confidence": 47,
-    "rank": 353,
+    "rank": 364,
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1
@@ -68876,10 +71512,10 @@
    {
     "week": 2,
     "rating": -2.6,
-    "confidence": 55,
-    "rank": 327,
+    "confidence": 56,
+    "rank": 336,
     "ratingGames": 8,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.4
    }
   ],
@@ -69134,7 +71770,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 66,
-    "rank": 308,
+    "rank": 316,
     "ratingGames": 11,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -69391,9 +72027,9 @@
     "week": 2,
     "rating": -3.7,
     "confidence": 66,
-    "rank": 346,
+    "rank": 357,
     "ratingGames": 11,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -69648,7 +72284,7 @@
     "week": 2,
     "rating": -3.1,
     "confidence": 63,
-    "rank": 335,
+    "rank": 345,
     "ratingGames": 11,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8
