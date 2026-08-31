@@ -793,6 +793,47 @@ test('a card that is not under its own pod heading still shows the pod as a tag'
   assert.ok(reportedPodTag(team, null).includes('Southeast'));
 });
 
+// A pod rank alone leaves the division leader unstated — three teams are all
+// "#1 in <pod>" — so the hero states both, division-wide first.
+test('a team page in a division with pods states the overall rank too', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage, podGroupOf } = app.context;
+  const groups = app.context.cardPodGroups();
+  if (groups.length <= 1) return; // undivided: the one rank is already overall
+
+  DATA.teams.forEach((team, index) => {
+    renderTeamPage(team, { scroll: false });
+    const page = app.el('teamview').innerHTML;
+    const group = podGroupOf(team);
+    const inGroup = group.teams.findIndex((candidate) => candidate.name === team.name) + 1;
+
+    // The overall rank is the team's place in the division-wide ranking, which is
+    // the order DATA.teams already arrives in — the same order the table renders.
+    assert.ok(page.includes(`<b>#${index + 1} overall</b>`), `${team.name}: no overall rank`);
+    assert.ok(page.includes(`<b>#${inGroup} in ${group.label}</b>`), `${team.name}: no pod rank`);
+    assert.ok(
+      page.indexOf(' overall</b>') < page.indexOf(`#${inGroup} in ${group.label}`),
+      `${team.name}: the pod rank comes before the overall one`,
+    );
+  });
+
+  // A pod winner mid-table overall is the case that makes both worth stating.
+  const podWinners = groups.map((group) => group.teams[0].name);
+  assert.ok(podWinners.length > 1, 'expected a pod winner per pod');
+});
+
+test('an undivided division states one rank, not the same rank twice', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+  DATA.meta.reportedPods = null;
+  DATA.meta.podCount = 1;
+  renderTeamPage(DATA.teams[0], { scroll: false });
+  const page = app.el('teamview').innerHTML;
+
+  assert.ok(page.includes('<b>#1 in standings</b>'));
+  assert.ok(!page.includes('overall</b>'), 'the overall rank is what "in standings" already says');
+});
+
 // The hero used to carry the pod twice — "#2 in Southwest" and then a separate
 // "Pod Southwest" — once the rank started naming the league's pod.
 test('a team page names its pod exactly once', () => {

@@ -2889,6 +2889,13 @@ function renderTeamPage(team, { scroll = true } = {}) {
   const rankLabel = group.label
     ? `#${rank} in ${escapeHtml(group.label)}`
     : `#${rank} in standings`;
+  // A pod rank alone leaves the division leader unstated: three teams can all be
+  // "#1 in <pod>", and a team can top its pod while sitting mid-table overall. So
+  // where there is a pod at all, the division-wide rank leads and the pod rank
+  // follows. An undivided division's rank is already the overall one.
+  const overallLabel = group.label
+    ? `#${DATA.teams.findIndex((candidate) => candidate.name === team.name) + 1} overall`
+    : '';
   // powerRank is compiled within this same group, over the teams that have a power
   // rating at all — a team with no rated games isn't in the ranking, so counting it
   // in the denominator would make the last-placed team "#5 of 6".
@@ -2991,6 +2998,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
       <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
       <div class="team-meta">
+        ${overallLabel ? `<span><b>${overallLabel}</b></span>` : ''}
         <span><b>${rankLabel}</b></span>
         ${podMeta}
         <span>Record <b>${team.w}–${team.l}</b></span>
