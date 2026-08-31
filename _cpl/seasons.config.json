@@ -1,0 +1,25 @@
+{
+  "$comment": [
+    "Manual overrides on the automatic current/archived split. The automatic rule",
+    "is: the newest season the API's /seasons endpoint returns is the current one,",
+    "and every older season is archived — frozen, never fetched again, served from",
+    "whatever was cached the day it froze.",
+    "",
+    "pin:     a season slug held current even after a newer season appears upstream.",
+    "         Use it when next season's shell is created before this season's",
+    "         playoffs have finished, which would otherwise freeze results early.",
+    "         Remember to clear it, or the league stops updating.",
+    "archive: season slugs frozen early, before a successor exists.",
+    "",
+    "Slugs are <year>-<season name>, e.g. 2026-fall. An unknown slug in either",
+    "field is warned about and ignored rather than being fatal."
+  ],
+  "travel": {
+    "pin": null,
+    "archive": []
+  },
+  "local": {
+    "pin": null,
+    "archive": []
+  }
+}
