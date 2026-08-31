@@ -110,3 +110,96 @@ test('assertArrayShape rejects a renamed envelope instead of silently yielding [
   assert.throws(() => assertArrayShape(null, 'Players'), /got null/);
   assert.throws(() => assertArrayShape('nope', 'Teams'), /got string/);
 });
+
+// ---------------------------------------------------------------------------
+// Season guards
+//
+// The chain above is about an upstream rename emptying a division. These are
+// about an upstream change silently filing one season's data under another
+// season's name, which is worse: nothing is empty, nothing throws, and the
+// archive quietly becomes a second copy of the current season.
+// ---------------------------------------------------------------------------
+
+const {
+  assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch,
+} = require('../modules/fetcher');
+
+const FALL_2026 = { seasonNumber: 3, seasonYear: 2026 };
+const SPRING_2026 = { seasonNumber: 1, seasonYear: 2026 };
+
+test('divisions from the season that was asked for pass', () => {
+  assert.doesNotThrow(() => assertSeasonMatches(
+    [{ divisionName: '3.5', seasonNumber: 1, seasonYear: 2026 }],
+    SPRING_2026,
+    '/regions',
+  ));
+  // Nothing to check is not a failure: a season with no divisions is caught by
+  // the empty-manifest guard instead, which reports it far more usefully.
+  assert.doesNotThrow(() => assertSeasonMatches([], SPRING_2026, '/regions'));
+});
+
+// This is the one that matters. If the API stops honouring seasonNumber and
+// seasonYear it answers for the current season, and a backfill would write live
+// Fall divisions into 2026-spring/ — publishing this season's standings under
+// last season's name, with every label on the page internally consistent.
+test('a division from another season is refused rather than filed under this one', () => {
+  assert.throws(
+    () => assertSeasonMatches(
+      [{ divisionName: '3.5', seasonNumber: 3, seasonYear: 2026 }],
+      SPRING_2026,
+      '/regions',
+    ),
+    /not being honoured/,
+  );
+});
+
+test('the season manifest only ever grows', () => {
+  // A season upstream stops listing is a season whose archive would otherwise
+  // become unreachable: the cached manifest is the only index of it.
+  const merged = mergeSeasonRecords([SPRING_2026, { seasonNumber: 3, seasonYear: 2025 }], [FALL_2026]);
+  assert.deepEqual(
+    merged.map((s) => `${s.seasonYear}/${s.seasonNumber}`),
+    ['2026/3', '2026/1', '2025/3'],
+    'newest first, and nothing dropped',
+  );
+});
+
+test('the season manifest deduplicates the two travel API legs', () => {
+  // The mixed and gendered legs both report Fall 2026 under different seasonIds.
+  const merged = mergeSeasonRecords([], [FALL_2026, { ...FALL_2026 }]);
+  assert.equal(merged.length, 1);
+});
+
+test('malformed season records are dropped rather than written through', () => {
+  const merged = mergeSeasonRecords([{ seasonNumber: 'three', seasonYear: 2026 }, null], [FALL_2026]);
+  assert.deepEqual(merged, [FALL_2026]);
+});
+
+// The crons pass no --season, so this is what makes "archived seasons are never
+// fetched again" true rather than merely intended.
+const RESOLVED = [
+  { slug: '2026-fall', status: 'current' },
+  { slug: '2026-spring', status: 'archived' },
+  { slug: '2025-fall', status: 'archived' },
+];
+
+test('with no --season only the current season is fetched', () => {
+  assert.deepEqual(selectSeasonsToFetch('travel', RESOLVED, null).map((s) => s.slug), ['2026-fall']);
+  assert.deepEqual(selectSeasonsToFetch('travel', RESOLVED, []).map((s) => s.slug), ['2026-fall']);
+});
+
+test('--season is the one way to reach an archived season', () => {
+  assert.deepEqual(
+    selectSeasonsToFetch('travel', RESOLVED, ['2026-spring']).map((s) => s.slug),
+    ['2026-spring'],
+  );
+});
+
+test('a --season slug that names no season matches nothing, for the caller to report', () => {
+  assert.deepEqual(selectSeasonsToFetch('travel', RESOLVED, ['2026-sprnig']), []);
+});
+
+test('a league with nothing current fetches nothing rather than the newest archive', () => {
+  const allArchived = RESOLVED.map((season) => ({ ...season, status: 'archived' }));
+  assert.deepEqual(selectSeasonsToFetch('travel', allArchived, null), []);
+});
