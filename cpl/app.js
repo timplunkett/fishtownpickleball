@@ -2893,6 +2893,13 @@ function renderTeamPage(team, { scroll = true } = {}) {
   // rating at all — a team with no rated games isn't in the ranking, so counting it
   // in the denominator would make the last-placed team "#5 of 6".
   const powerRanked = rankTeams.filter((candidate) => !isMissing(candidate.power)).length;
+  // The rank label names the group, which is the league's pod wherever it publishes
+  // one — so a separate "Pod Southwest" beside "#2 in Southwest" says it twice. It
+  // still earns its place where the group is something else: a schedule section
+  // spanning several pods, or an undivided division with no group at all.
+  const podMeta = team.reportedPod && team.reportedPod !== group.label
+    ? `<span>Pod <b>${escapeHtml(team.reportedPod)}</b></span>`
+    : '';
   const roster = DATA.players
     .filter((player) => player.team === team.name);
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
@@ -2985,7 +2992,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
       <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
       <div class="team-meta">
         <span><b>${rankLabel}</b></span>
-        ${team.reportedPod ? `<span>Pod <b>${escapeHtml(team.reportedPod)}</b></span>` : ''}
+        ${podMeta}
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>

@@ -793,6 +793,41 @@ test('a card that is not under its own pod heading still shows the pod as a tag'
   assert.ok(reportedPodTag(team, null).includes('Southeast'));
 });
 
+// The hero used to carry the pod twice — "#2 in Southwest" and then a separate
+// "Pod Southwest" — once the rank started naming the league's pod.
+test('a team page names its pod exactly once', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+
+  DATA.teams.forEach((team) => {
+    if (!team.reportedPod) return;
+    renderTeamPage(team, { scroll: false });
+    const page = app.el('teamview').innerHTML;
+    const asRank = page.includes(`in ${team.reportedPod}</b>`);
+    const asTag = page.includes(`Pod <b>${team.reportedPod}</b>`);
+    assert.ok(!(asRank && asTag), `${team.name}: "${team.reportedPod}" is both the rank and a tag`);
+    assert.ok(asRank || asTag, `${team.name}: pod "${team.reportedPod}" appears nowhere`);
+  });
+});
+
+// Where the rank names something other than the pod, the pod is still a fact the
+// hero has to state — so the tag is suppressed by redundancy, not deleted.
+test('a team page keeps the pod tag where the rank names no pod', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+  const team = DATA.teams.find((candidate) => candidate.reportedPod);
+  assert.ok(team, 'this division publishes no pods, so there is nothing to state twice');
+
+  // One unlabelled group, so the rank reads "#4 in standings" and names no pod.
+  DATA.meta.reportedPods = null;
+  DATA.meta.podCount = 1;
+  renderTeamPage(team, { scroll: false });
+  const page = app.el('teamview').innerHTML;
+
+  assert.ok(page.includes('in standings</b>'), 'rank should name no group at all');
+  assert.ok(page.includes(`Pod <b>${team.reportedPod}</b>`), 'the pod itself went unstated');
+});
+
 // --- Sticky layers ---------------------------------------------------------
 
 test('only a wrapper whose table overflows gets a horizontal scroller', () => {
