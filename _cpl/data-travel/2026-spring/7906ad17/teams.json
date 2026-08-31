@@ -1,0 +1,64 @@
+{
+  "$values": [
+    {
+      "teamId": "eccc16e4-f46b-4cd9-8e82-9cc7aa92e32c",
+      "teamName": "ACE",
+      "pod": "South"
+    },
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "South"
+    },
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "South"
+    },
+    {
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "pod": "South"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "North"
+    },
+    {
+      "teamId": "3ff4cd4a-e157-4316-b0c9-f0df5f705930",
+      "teamName": "Four Seasons",
+      "pod": "South"
+    },
+    {
+      "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "teamName": "Jersey Devil",
+      "pod": "South"
+    },
+    {
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "pod": "North"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "North"
+    },
+    {
+      "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "teamName": "Pickleball Kingdom Watchung",
+      "pod": "North"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "North"
+    },
+    {
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "pod": "North"
+    }
+  ]
+}

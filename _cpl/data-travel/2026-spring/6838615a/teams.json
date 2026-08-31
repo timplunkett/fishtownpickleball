@@ -1,0 +1,94 @@
+{
+  "$values": [
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "teamName": "Delco Turf & Pickle",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
+      "teamName": "Dill Dinkers Lansdale",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
+      "teamName": "Montville Dragons",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
+      "teamName": "Montville Rocks",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "teamName": "Pickleball Kingdom Hamilton",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "teamName": "PickleRage Union County",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "teamName": "Players Courtyard",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "teamName": "Stelton Sports",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "0f80f117-9dac-471f-9c0f-26445dc9048c",
+      "teamName": "The Atlantic Club",
+      "pod": "Northeast"
+    }
+  ]
+}

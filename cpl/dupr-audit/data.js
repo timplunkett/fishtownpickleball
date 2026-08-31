@@ -2368,17 +2368,17 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Bennett Matthew",
+   "name": "Bennett Matthew’S",
    "playerId": "460d93c8-9936-43b5-b3ba-7328e174fb2b",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
+   "team": "Picklr Exton",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
    "name": "Bennett Matthew’S",
    "playerId": "460d93c8-9936-43b5-b3ba-7328e174fb2b",
-   "team": "Picklr Exton",
-   "slug": "b7ca04e4",
+   "team": "The Bouncers",
+   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -6087,6 +6087,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Ed Villaverde",
    "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Ed Villaverde",
+   "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514",
    "team": "Summer of Slam",
    "slug": "edb788e6",
    "gender": "Male"
@@ -7503,6 +7510,13 @@ window.DUPR_AUDIT = {
    "playerId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "George Vega Jr",
+   "playerId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

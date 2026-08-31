@@ -1,0 +1,149 @@
+{
+  "$values": [
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "a769b5dc-9748-4418-8195-bb3163299b54",
+      "teamName": "Bounce Philly Lightning",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "0f52066f-3c85-4fc6-baad-69ff032d9780",
+      "teamName": "Bounce Philly Thunder",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
+      "teamName": "Dill Dinkers Newport",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "teamName": "Forward",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "3ff4cd4a-e157-4316-b0c9-f0df5f705930",
+      "teamName": "Four Seasons",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "9998d601-16b1-4156-b976-12a64d545c84",
+      "teamName": "Jersey Devil Green",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "fc5381d3-0001-4cf0-a058-186d3b8bc9f3",
+      "teamName": "Jersey Devil Navy",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "969591a6-d033-4f64-9883-3abec610b808",
+      "teamName": "One Love Lightning",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "6c652f53-f6ff-4ad9-8d41-4e764a736092",
+      "teamName": "One Love Thunder",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "teamName": "Pickleball HQ",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "teamName": "Pickleball Kingdom Lehigh Valley",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "teamName": "Pickleball Kingdom Watchung",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "teamName": "Pickleball Lehigh Valley",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
+      "teamName": "Picklr Manahawkin",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "teamName": "Picklr Newark",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "223c6a91-f2b7-43f5-8369-1651ccdf086f",
+      "teamName": "Sportime Wayne",
+      "pod": "Northwest"
+    }
+  ]
+}

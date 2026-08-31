@@ -1,0 +1,119 @@
+{
+  "$values": [
+    {
+      "teamId": "eccc16e4-f46b-4cd9-8e82-9cc7aa92e32c",
+      "teamName": "ACE",
+      "pod": "South"
+    },
+    {
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "pod": "South"
+    },
+    {
+      "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "teamName": "Ballers Philly",
+      "pod": "South"
+    },
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "South"
+    },
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "South"
+    },
+    {
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "pod": "South"
+    },
+    {
+      "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
+      "teamName": "Dill Dinkers Lansdale",
+      "pod": "South"
+    },
+    {
+      "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "teamName": "Flemington Blue",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "teamName": "Flemington Green",
+      "pod": "Northcentral"
+    },
+    {
+      "teamId": "3ff4cd4a-e157-4316-b0c9-f0df5f705930",
+      "teamName": "Four Seasons",
+      "pod": "South"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "teamName": "Jersey Devil",
+      "pod": "South"
+    },
+    {
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "3b95611d-f435-45e8-acfa-e9592bbc22ac",
+      "teamName": "Monroe Flash",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "fe7b71ad-dda9-4492-a9e8-0fbbad142c02",
+      "teamName": "Monroe Rally",
+      "pod": "South"
+    },
+    {
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "South"
+    },
+    {
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "55b9895e-d914-4f34-8eb5-ba9a30e401bd",
+      "teamName": "Pickleball Kingdom Watchung Crusaders",
+      "pod": "Northcentral"
+    },
+    {
+      "teamId": "fcdd629a-f21a-492f-9305-484c4ae26bdf",
+      "teamName": "Pickleball Kingdom Watchung Jokers",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "Northcentral"
+    },
+    {
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "teamName": "Picklr Newark",
+      "pod": "South"
+    }
+  ]
+}

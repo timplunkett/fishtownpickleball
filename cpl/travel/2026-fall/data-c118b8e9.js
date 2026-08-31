@@ -4372,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4401,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 222,
+   "leagueRank": 223,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4430,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 245,
+   "leagueRank": 246,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 248,
+   "leagueRank": 251,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4604,7 +4604,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 240,
+   "leagueRank": 241,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4700,6 +4700,35 @@
    "playerId": "3ea74039-550d-4a76-a514-e024aea9fd85"
   },
   {
+   "name": "Ed Villaverde",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 248,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514"
+  },
+  {
    "name": "Larry Minsky",
    "gender": "Male",
    "team": "Picklr Newtown",
@@ -4720,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4923,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 247,
+   "leagueRank": 250,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 246,
+   "leagueRank": 249,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5358,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 250,
+   "leagueRank": 253,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5367,6 +5396,35 @@
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
   {
+   "name": "George Vega Jr",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 247,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "be19bf10-b8a5-4626-8c10-f13ac708231d"
+  },
+  {
    "name": "Sandeep Malhotra",
    "gender": "Male",
    "team": "Montville",
@@ -5387,7 +5445,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 239,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 239,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5735,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 242,
+   "leagueRank": 243,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 220,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5996,7 +6054,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6025,7 +6083,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6112,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11411,7 +11469,7 @@
      ],
      "a": [
       "Brandon Fulford",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11455,7 +11513,7 @@
      ],
      "a": [
       "Brandon Fulford",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11510,14 +11568,14 @@
      ],
      "a": [
       "Franklin Yiu",
-      ""
+      "John Sallo"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Samuel Kashefska",
-      "Rohit Mankotia"
+      "Rohit Mankotia",
+      "Kevin Tran"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11538,7 +11596,7 @@
     {
      "t": "male",
      "h": [
-      "Kevin Tran",
+      "Samuel Kashefska",
       "Cullen Curley"
      ],
      "a": [
@@ -11554,7 +11612,7 @@
      ],
      "a": [
       "Franklin Yiu",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11587,7 +11645,7 @@
      ],
      "a": [
       "Buyi Zhang",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11609,7 +11667,7 @@
      ],
      "a": [
       "Saad Talat Siddiqui",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11653,7 +11711,7 @@
      ],
      "a": [
       "Saad Talat Siddiqui",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11692,8 +11750,8 @@
     {
      "t": "male",
      "h": [
-      "Michael Barndt",
-      "Cullen Curley"
+      "Eric Ruiz",
+      "Michael Barndt"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11704,11 +11762,11 @@
      "t": "male",
      "h": [
       "Rohit Mankotia",
-      "Ali Abbas"
+      "Carlos Rincon"
      ],
      "a": [
       "Buyi Zhang",
-      ""
+      "John Sallo"
      ]
     },
     {
@@ -11726,7 +11784,7 @@
      "t": "male",
      "h": [
       "Kevin Tran",
-      "Carlos Rincon"
+      "Cullen Curley"
      ],
      "a": [
       "Brandon Fulford",
@@ -13918,8 +13976,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Jitendra Arora"
      ],
      "a": [
       "Erik Reilly",
@@ -13929,8 +13987,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Bennett Pereira"
      ],
      "a": [
       "Hua Lin",
@@ -13940,7 +13998,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Sushil Rijhwani",
       ""
      ],
      "a": [
@@ -13951,8 +14009,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Avneesh Agarwal"
      ],
      "a": [
       "Big G",
@@ -13962,8 +14020,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Erik Reilly",
@@ -13973,8 +14031,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Hua Lin",
@@ -13984,8 +14042,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Bennett Pereira"
      ],
      "a": [
       "Michael Vollmer",
@@ -13995,7 +14053,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Avneesh Agarwal",
       ""
      ],
      "a": [
@@ -14006,8 +14064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Erik Reilly",
@@ -14017,7 +14075,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Varun Gurram",
       ""
      ],
      "a": [
@@ -14028,8 +14086,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Bennett Pereira"
      ],
      "a": [
       "Ian Kohn",
@@ -14039,8 +14097,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Avneesh Agarwal"
      ],
      "a": [
       "Siva Indupuru",
@@ -14050,8 +14108,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Erik Reilly",
@@ -14061,8 +14119,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Kevin Lew",
@@ -14105,8 +14163,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Hua Lin",
@@ -14149,8 +14207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Kevin Lew",
@@ -14182,8 +14240,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Michael Vollmer",
@@ -14226,8 +14284,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Jitendra Arora"
      ],
      "a": [
       "Kevin Lew",
@@ -15413,6 +15471,7 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Dion Brown": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
+  "Prashanth Koshy": "5b619b72-b78a-49ba-872d-c64db6084a67",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "David Brond": "790dc637-f23d-4942-af8a-bfd20b474282",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
@@ -15429,7 +15488,7 @@
   "matchesPlayed": 9,
   "provisionalMatches": 0,
   "weeks": "1",
-  "totalPlayers": 228,
+  "totalPlayers": 230,
   "ratingHistoryWeeks": [
    1
   ],
@@ -15513,7 +15572,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T18:38:11.958Z";
+  DATA.meta.asOf = "2026-08-31T20:18:01.040Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
