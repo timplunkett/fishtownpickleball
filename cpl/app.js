@@ -2011,6 +2011,78 @@ function describeProjectedOutcome(expectation) {
   return describe('loss', RESULT_CLASS.slightLoss, 'Slight L');
 }
 
+// A lineup slot the league hasn't filled in yet. In the days before a match one
+// team routinely submits before the other, and a single slot can sit open
+// inside an otherwise-set pair, so the slot is rendered rather than the whole
+// game hidden — the pairs that are settled are the useful part.
+const TBD_SLOT = '<span class="tbd-slot" title="Not posted yet">TBD</span>';
+
+function renderPendingPair(names) {
+  return (names || []).map((name) => (name ? escapeHtml(name) : TBD_SLOT)).join(' / ');
+}
+
+function isPairPosted(names) {
+  return (names || []).length > 0 && names.every(Boolean);
+}
+
+// A game with an open slot can't be projected, but that is a different thing
+// from four named players who have no rating between them. It gets its own
+// outcome so summarizeProjections can say "waiting on a lineup" rather than
+// "missing ratings", which would blame the model for the league's paperwork.
+const INCOMPLETE_PROJECTION = Object.freeze({
+  outcome: 'incomplete',
+  resultClass: RESULT_CLASS.neutral,
+  estimated: false,
+  estimateTag: '',
+  marginLabel: EMPTY_VALUE,
+  resultLabel: EMPTY_VALUE,
+  displayLabel: EMPTY_VALUE,
+});
+
+function projectPendingGame(ourPlayers, theirPlayers) {
+  if (!isPairPosted(ourPlayers) || !isPairPosted(theirPlayers)) return INCOMPLETE_PROJECTION;
+  return describeProjectedOutcome(
+    computeExpectedOutcome(ourPlayers[0], ourPlayers[1], theirPlayers[0], theirPlayers[1]),
+  );
+}
+
+// How far along each side's submission is, across a scheduled match's whole
+// lineup. `usLabel`/`themLabel` are the team names, so the note reads the same
+// from either team's page. Only the side that is behind gets named: saying a
+// team has posted 32 of 32 spends a clause on the absence of news, and what a
+// reader wants off this line is who they are waiting on. The count is the
+// shortfall for the same reason — "17/32 posted" and "15 still to come" are one
+// fact, and stating both is what made this line hard to scan.
+function summarizeLineupPosting(entries, usLabel, themLabel) {
+  const total = entries.length;
+  let usPosted = 0, themPosted = 0;
+  for (const { usPlayers, themPlayers } of entries) {
+    if (isPairPosted(usPlayers)) usPosted++;
+    if (isPairPosted(themPlayers)) themPosted++;
+  }
+  const complete = total > 0 && usPosted === total && themPosted === total;
+  const behind = [[usLabel, total - usPosted], [themLabel, total - themPosted]]
+    .filter(([, missing]) => missing > 0);
+  const describe = ([label, missing]) => (
+    `<b>${escapeHtml(label)}</b> ${missing === total ? 'for the whole lineup' : `for ${missing} of ${total}`}`
+  );
+  return {
+    total,
+    complete,
+    note: complete ? '' : `Waiting on ${behind.map(describe).join(' and ')}`,
+  };
+}
+
+// The second line under a pending match's headline: who the lineup is still
+// waiting on, then whatever qualifies the projection. Set smaller and dimmer so
+// the eye takes the projection first and reads the conditions on it only if it
+// wants them — inline they compete with the number they are qualifying.
+function renderPendingSubline(posting, tally) {
+  const parts = [posting.note, ...tally.caveats].filter(Boolean);
+  if (!parts.length) return '';
+  return `<div class="match-subline">${parts.join(' • ')}</div>`;
+}
+
 // Returns an inline HTML fragment summarising expected and upset outcomes for
 // rated games, e.g. "• exp W 2  exp L 1  ups W 1  ups L 1". Returns '' when
 // there are no rated games to report.
@@ -2039,25 +2111,48 @@ function renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses
 // table doesn't; the pill is reserved for the mixed case, where it marks which
 // rows in particular are standing on an outside number.
 function summarizeProjections(projections) {
-  let wins = 0, losses = 0, ties = 0, unrated = 0, estimated = 0;
+  let wins = 0, losses = 0, ties = 0, unrated = 0, incomplete = 0, estimated = 0;
   for (const projection of projections) {
     if (projection.outcome === 'win') wins++;
     if (projection.outcome === 'loss') losses++;
     if (projection.outcome === 'tie') ties++;
     if (projection.outcome === 'unrated') unrated++;
+    if (projection.outcome === 'incomplete') incomplete++;
     if (projection.estimated) estimated++;
   }
-  const projected = projections.length - unrated;
+  const projected = projections.length - unrated - incomplete;
   const allEstimated = projected > 0 && estimated === projected;
-  const parts = [`Projected games <b>${wins}–${losses}${ties ? `–${ties}` : ''}</b>`];
+  // Everything qualifying the headline number comes back separately, for the
+  // caller to set below it rather than in the same chain of bullets. Strung
+  // inline they read as equals of the projection, and half a dozen equals in a
+  // row is a line nobody finishes.
+  const caveats = [];
   if (allEstimated) {
-    parts.push('<span class="mut" title="No player in this match has a rating from league play yet, so every projection is converted from DUPR">projected from DUPR</span>');
+    caveats.push('<span title="No player in this match has a rating from league play yet, so every projection is converted from DUPR">projected from DUPR</span>');
   } else if (estimated) {
-    parts.push(`<span class="mut">${estimated} ${pluralize(estimated, 'game', 'games')} projected from DUPR</span>`);
+    caveats.push(`${estimated} ${pluralize(estimated, 'game', 'games')} projected from DUPR`);
   }
-  if (unrated) parts.push(`${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings`);
+  if (unrated) caveats.push(`${unrated} ${pluralize(unrated, 'lineup', 'lineups')} missing ratings`);
+  // With no side fully posted there is nothing to project, and "Projected games
+  // 0–0" would read as a forecast rather than as an absence of one. The count of
+  // games waiting is the posting note's job, so the headline just steps aside.
+  if (!projected) {
+    return {
+      summary: '<span class="mut">No games can be projected yet</span>',
+      caveats,
+      rowTag: () => '',
+    };
+  }
+  // Whenever the record covers only part of the match — lineups still open,
+  // ratings missing, or both — it says so, so a 3–7–3 that omits nineteen games
+  // can't be read as the whole night. The three numbers on these two lines add
+  // up to the game count, which is what makes them checkable against each other.
+  const scope = projected < projections.length
+    ? ` <span class="mut">from ${projected} of ${projections.length} games</span>`
+    : '';
   return {
-    summary: parts.join(' • '),
+    summary: `Projected games <b>${wins}–${losses}${ties ? `–${ties}` : ''}</b>${scope}`,
+    caveats,
     rowTag: (projection) => (allEstimated ? '' : projection.estimateTag),
   };
 }
@@ -2079,7 +2174,7 @@ function getProjectedPlayerGames(player) {
         t: game.t,
         with: partner || '',
         vs: [themPlayers[0] || '', themPlayers[1] || ''],
-        expectation: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+        projection: projectPendingGame(usPlayers, themPlayers),
       });
     }
   }
@@ -2101,7 +2196,7 @@ function getProjectedPlayerGames(player) {
         t: game.t,
         with: partner || '',
         vs: [themPlayers[0] || '', themPlayers[1] || ''],
-        expectation: computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
+        projection: projectPendingGame(usPlayers, themPlayers),
         isPlayoff: true,
       });
     }
@@ -2162,12 +2257,12 @@ function renderGameLogRows(player, projectedGames = []) {
       `;
     }
 
-    const projection = describeProjectedOutcome(game.expectation);
+    const { projection } = game;
     gameLog += `
-      <tr>
+      <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
         ${renderGameTypeCell(game.t)}
-        <td class="l">${escapeHtml(game.with)}</td>
-        <td class="l">${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}</td>
+        <td class="l">${game.with ? escapeHtml(game.with) : TBD_SLOT}</td>
+        <td class="l">${renderPendingPair(game.vs)}</td>
         <td class="mut">${EMPTY_VALUE}</td>
         <td class="mut">Pending</td>
         <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
@@ -2273,7 +2368,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted. ${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
+    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted — a <b>TBD</b> slot is a lineup spot the team has not submitted yet, and a game with one still open cannot be projected.${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
@@ -2586,20 +2681,21 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
       game,
       usPlayers,
       themPlayers,
-      projection: describeProjectedOutcome(
-        computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]),
-      ),
+      projection: projectPendingGame(usPlayers, themPlayers),
     };
   });
   const tally = summarizeProjections(projections.map((entry) => entry.projection));
+  const posting = summarizeLineupPosting(projections, teamName, opponent);
 
   const gameRows = projections.map(({ game, usPlayers, themPlayers, projection }) => {
-    const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+    const resultClass = projection.outcome === 'win' || projection.outcome === 'loss' || projection.outcome === 'tie'
+      ? projection.resultClass
+      : '';
     return `
-      <tr>
+      <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
         ${renderGameTypeCell(game.t)}
-        <td class="l">${escapeHtml(usPlayers.join(' / '))}</td>
-        <td class="l">${escapeHtml(themPlayers.join(' / '))}</td>
+        <td class="l">${renderPendingPair(usPlayers)}</td>
+        <td class="l">${renderPendingPair(themPlayers)}</td>
         <td class="${resultClass}">${projection.marginLabel}</td>
         <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
       </tr>
@@ -2613,8 +2709,9 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
         <span class="mut">${scheduledTime || 'TBD'}</span>
       </div>
       <div class="match-summary">${tally.summary}</div>
+      ${renderPendingSubline(posting, tally)}
       <details>
-        <summary>Projected game-by-game (${gameCount})</summary>
+        <summary>${posting.complete ? 'Projected game-by-game' : 'Lineup so far'} (${gameCount})</summary>
         <table class="mlog glog">
           <thead><tr>${GAME_TYPE_HEADER}<th class="l">Our pair</th><th class="l">Opponents</th><th>Exp margin</th><th>Projection</th></tr></thead>
           <tbody>${gameRows}</tbody>
@@ -2664,18 +2761,21 @@ function renderPlayoffs() {
       }
       const projections = (m.games || []).map((game) => ({
         game,
-        projection: describeProjectedOutcome(
-          computeExpectedOutcome(game.h[0], game.h[1], game.a[0], game.a[1]),
-        ),
+        usPlayers: game.h,
+        themPlayers: game.a,
+        projection: projectPendingGame(game.h, game.a),
       }));
       const tally = summarizeProjections(projections.map((entry) => entry.projection));
+      const posting = summarizeLineupPosting(projections, m.home, m.away);
       const gameRows = projections.map(({ game, projection }) => {
-        const resultClass = projection.outcome === 'unrated' ? '' : projection.resultClass;
+        const resultClass = projection.outcome === 'win' || projection.outcome === 'loss' || projection.outcome === 'tie'
+          ? projection.resultClass
+          : '';
         return `
-          <tr>
+          <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
             ${renderGameTypeCell(game.t)}
-            <td class="l">${escapeHtml(game.h.join(' / '))}</td>
-            <td class="l">${escapeHtml(game.a.join(' / '))}</td>
+            <td class="l">${renderPendingPair(game.h)}</td>
+            <td class="l">${renderPendingPair(game.a)}</td>
             <td class="${resultClass}">${projection.marginLabel}</td>
             <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
           </tr>`;
@@ -2687,8 +2787,9 @@ function renderPlayoffs() {
             <span class="mut">${scheduledTime || 'TBD'}</span>
           </div>
           <div class="match-summary">${tally.summary}</div>
+          ${renderPendingSubline(posting, tally)}
           <details>
-            <summary>Projected game-by-game (${gameCount})</summary>
+            <summary>${posting.complete ? 'Projected game-by-game' : 'Lineup so far'} (${gameCount})</summary>
             <table class="mlog glog">
               <thead><tr>${GAME_TYPE_HEADER}<th class="l">${escapeHtml(m.home)}</th><th class="l">${escapeHtml(m.away)}</th><th>Exp margin</th><th>Projection</th></tr></thead>
               <tbody>${gameRows}</tbody>

@@ -14703,12 +14703,45 @@
     {
      "t": "mixed",
      "h": [
+      "",
+      "Christopher Sachs"
+     ],
+     "a": [
+      "Kellie Roshak",
+      "Carlos Echenique"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Barbara Mccarron",
       "Ryan Peixoto"
      ],
      "a": [
       "Kerry Eskay",
       "Freddy Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      "Reuben Zilber"
+     ],
+     "a": [
+      "Connie Tom",
+      "Jimmy Tom"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eva Rodriguez",
+      "Kellie Roshak"
      ]
     },
     {
@@ -14747,6 +14780,17 @@
     {
      "t": "mixed",
      "h": [
+      "",
+      "Reuben Zilber"
+     ],
+     "a": [
+      "Kellie Roshak",
+      "Freddy Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Suki Wong",
       "Ryan Peixoto"
      ],
@@ -14758,12 +14802,45 @@
     {
      "t": "mixed",
      "h": [
+      "",
+      "Matthew Marciani"
+     ],
+     "a": [
+      "Kerry Eskay",
+      "Jayson Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Barbara Mccarron",
       "Rob Stever"
      ],
      "a": [
       "Cassie Lou",
       "Jimmy Tom"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      "Barbara Mccarron"
+     ],
+     "a": [
+      "Eva Rodriguez",
+      "Kerry Eskay"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suki Wong",
+      ""
+     ],
+     "a": [
+      "Connie Tom",
+      "Cassie Lou"
      ]
     },
     {
@@ -14802,12 +14879,56 @@
     {
      "t": "mixed",
      "h": [
+      "",
+      "Matthew Marciani"
+     ],
+     "a": [
+      "Eva Rodriguez",
+      "Jimmy Tom"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      "Reuben Zilber"
+     ],
+     "a": [
+      "Huifang Yao",
+      "Jayson Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
       "Barbara Mccarron",
       "Christopher Sachs"
      ],
      "a": [
       "Cassie Lou",
       "Brandon Agudelo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suki Wong",
+      ""
+     ],
+     "a": [
+      "Kellie Roshak",
+      "Connie Tom"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Barbara Mccarron",
+      ""
+     ],
+     "a": [
+      "Cassie Lou",
+      "Huifang Yao"
      ]
     },
     {
@@ -14852,6 +14973,50 @@
      "a": [
       "Kellie Roshak",
       "Jayson Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Huifang Yao",
+      "Brandon Agudelo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      "Christopher Sachs"
+     ],
+     "a": [
+      "Cassie Lou",
+      "Carlos Echenique"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Suki Wong",
+      ""
+     ],
+     "a": [
+      "Eva Rodriguez",
+      "Kellie Roshak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      "Barbara Mccarron"
+     ],
+     "a": [
+      "Kerry Eskay",
+      "Huifang Yao"
      ]
     },
     {

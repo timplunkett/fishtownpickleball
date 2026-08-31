@@ -9422,6 +9422,17 @@
     {
      "t": "male",
      "h": [
+      "Ryan Furman",
+      "Vince Abate"
+     ],
+     "a": [
+      "Hiep Pham",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
       "Zach Bowe",
       "Kushal Thapa"
      ],
@@ -9488,6 +9499,17 @@
     {
      "t": "male",
      "h": [
+      "Vaughn Mcclelland",
+      "Damien Stahl"
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
       "Braden Keith",
       "Vince Abate"
      ],
@@ -9516,6 +9538,17 @@
      "a": [
       "Ashwin Korde",
       "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ryan Furman",
+      "Kushal Thapa"
+     ],
+     "a": [
+      "Josh Knupp",
+      ""
      ]
     },
     {
@@ -9582,6 +9615,17 @@
      "a": [
       "Zachary Lessner",
       "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ],
+     "a": [
+      "Zyril Carilo",
+      ""
      ]
     },
     {
@@ -9670,6 +9714,17 @@
      "a": [
       "Zyril Carilo",
       "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Arsenault",
+      "Zach Bowe"
+     ],
+     "a": [
+      "Justin Bautista",
+      ""
      ]
     },
     {

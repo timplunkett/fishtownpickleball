@@ -66,6 +66,8 @@ function writeDivision(dir, opts = {}) {
       lineups: { lineups: { $values: [
         { homePlayerId1: 'c1', homePlayerId2: 'c2', awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
         { homePlayerId1: 'c1', homePlayerId2: null, awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
+        { homePlayerId1: null, homePlayerId2: null, awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'female', matchupId: 'm2' },
+        { homePlayerId1: null, homePlayerId2: null, awayPlayerId1: null, awayPlayerId2: null, homeScore: null, awayScore: null, matchType: 'mixed', matchupId: 'm2' },
       ] } },
     },
   };
@@ -230,16 +232,19 @@ test('detail entries exist for players with history and are omitted otherwise', 
 // Posted lineups for an unplayed matchup drive the projections on a team's
 // upcoming schedule. Without them the UI can only say "Lineups have not been
 // posted yet", so they have to survive compilation whether or not the division
-// has any completed matches yet.
+// has any completed matches yet. In the days before a match one team routinely
+// submits before the other, and a slot can sit open inside an otherwise-set
+// pair, so a half-filled row survives too with "" for what isn't posted — the
+// dashboard shows those slots as TBD. Only a row with nothing in it is dropped.
 const assertPostedLineups = (data) => {
   const upcoming = data.matches.find((m) => m.week === 2);
   assert.equal(upcoming.complete, false);
-  assert.equal(upcoming.games.length, 1, 'the lineup missing a partner is dropped');
-  assert.deepEqual(upcoming.games[0], {
-    t: 'male',
-    h: ['Cal Charlie', 'Cat Cortez'],
-    a: ['Dan Delta', 'Sam Sub'],
-  });
+  assert.equal(upcoming.games.length, 3, 'the wholly empty lineup is dropped, the partial ones are kept');
+  assert.deepEqual(upcoming.games, [
+    { t: 'male', h: ['Cal Charlie', 'Cat Cortez'], a: ['Dan Delta', 'Sam Sub'] },
+    { t: 'male', h: ['Cal Charlie', ''], a: ['Dan Delta', 'Sam Sub'] },
+    { t: 'female', h: ['', ''], a: ['Dan Delta', 'Sam Sub'] },
+  ]);
 };
 
 test('posted lineups reach an upcoming match mid-season', (t) => {

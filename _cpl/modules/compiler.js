@@ -41,18 +41,22 @@ function firstValues(obj) {
 }
 
 // Posted-but-unplayed lineups for a scheduled matchup, as the UI's `games`
-// shape. Games missing any of the four slots are dropped: a half-filled lineup
-// cannot be projected. Shared by the pre-season and in-season match builders so
-// upcoming schedules show lineups in both.
+// shape. In the days before a match one team often submits before the other,
+// and a slot can sit empty inside an otherwise-filled pair, so any row with at
+// least one named player is carried through with "" standing in for the slots
+// still to come — the dashboard renders those as TBD and skips the projection.
+// Only rows with nothing at all in them are dropped. Shared by the pre-season
+// and in-season match builders so upcoming schedules show lineups in both.
 function buildPendingGames(detail, nameById) {
   const lineups = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
+  const name = (playerId) => (playerId && nameById[playerId]) || "";
   return lineups
-    .filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2)
     .map((g) => ({
       t: g.matchType,
-      h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-      a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-    }));
+      h: [name(g.homePlayerId1), name(g.homePlayerId2)],
+      a: [name(g.awayPlayerId1), name(g.awayPlayerId2)],
+    }))
+    .filter((g) => [...g.h, ...g.a].some(Boolean));
 }
 
 // Every rostered player already ships a name and a playerId inside

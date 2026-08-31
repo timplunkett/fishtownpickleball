@@ -6371,7 +6371,20 @@
    "home": "Premiere",
    "away": "Pickleball Palace",
    "time": "2026-08-22T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Lily Liu",
+      "Nancy Lin"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    }
+   ]
   },
   {
    "result": "away",
