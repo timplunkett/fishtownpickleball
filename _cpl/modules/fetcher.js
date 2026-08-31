@@ -488,6 +488,17 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
         }
       }
 
+      // When upstream was actually read, recorded only once every write above
+      // succeeded. This is what the dashboard reports as "as of", so it has to
+      // be the fetch time and not the compile time: recompiling Tuesday's cache
+      // on Thursday does not make the standings current as of Thursday. It also
+      // has to live in a committed file rather than a file mtime, because a CI
+      // clone stamps every mtime with the checkout time.
+      fs.writeFileSync(
+        path.join(divDataDir, 'fetchedAt.json'),
+        jsonStringify({ fetchedAt: new Date().toISOString() }),
+      );
+
       console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);

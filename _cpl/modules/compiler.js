@@ -87,6 +87,32 @@ function readCompiledAsOf(cplDir, slug) {
   return match ? JSON.parse(match[1]) : '';
 }
 
+// When this division's cache was last fetched from upstream, which is what the
+// dashboard means by "as of". Deliberately not the compile time: `npm run
+// compile` re-emits from cached JSON, and stamping that moment would both
+// overstate the freshness and make compilation non-idempotent, so CI's
+// drift check would fail on every run for no reason.
+//
+// Falls back to the previously compiled stamp, then to the cache's own date, so
+// a division fetched before fetchedAt.json existed keeps a truthful (if coarse)
+// value instead of jumping to today.
+function readFetchedAt(divDataDir, cplDir, slug) {
+  const stampPath = path.join(divDataDir, 'fetchedAt.json');
+  if (fs.existsSync(stampPath)) {
+    try {
+      const { fetchedAt } = JSON.parse(fs.readFileSync(stampPath, 'utf8'));
+      if (fetchedAt) return fetchedAt;
+    } catch {
+      // A corrupt stamp is not worth failing a build over; fall through.
+    }
+  }
+  const previous = readCompiledAsOf(cplDir, slug);
+  if (previous) return previous;
+  const matchupsPath = path.join(divDataDir, 'matchups.json');
+  if (fs.existsSync(matchupsPath)) return fs.statSync(matchupsPath).mtime.toISOString();
+  return new Date().toISOString();
+}
+
 function writeDataScript(outPath, data) {
   const asOf = data && data.meta ? data.meta.asOf : undefined;
   const divisionSlug = data && data.meta ? data.meta.divisionSlug : undefined;
@@ -242,6 +268,7 @@ function computeTypicalDay(matchups) {
 }
 
 function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta) {
+  const asOf = readFetchedAt(divDataDir, path.dirname(outPath), slug);
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
@@ -464,7 +491,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
       meta: {
-        matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf: new Date().toISOString(),
+        matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf,
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
         typicalDay: computeTypicalDay(matchups),
@@ -804,7 +831,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       // A full timestamp, not a date. The bot refreshes every six hours, so a
       // date-only stamp described four different datasets and gave a reader no
       // way to tell whether the refresh they were waiting on had landed.
-      asOf: new Date().toISOString(), totalPlayers: playerArr.length,
+      asOf, totalPlayers: playerArr.length,
       ratingHistoryWeeks, divisionSlug: slug,
       hasPlayoffs: playoffs.length > 0,
       typicalDay,
