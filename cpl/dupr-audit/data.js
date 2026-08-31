@@ -63,7 +63,7 @@ window.DUPR_AUDIT = {
   "b9b8230d": {
    "division": "Flemington • 3.25 & Under",
    "league": "local",
-   "min": 0,
+   "min": 2,
    "max": 3.25
   },
   "c118b8e9": {
@@ -87,7 +87,7 @@ window.DUPR_AUDIT = {
   "c9a2c0fe": {
    "division": "Ace - Moorestown / Voorhees • 3.75 & Under",
    "league": "local",
-   "min": 0,
+   "min": 2,
    "max": 3.75
   },
   "cca69ab9": {
