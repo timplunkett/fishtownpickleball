@@ -1133,7 +1133,7 @@
    "playerId": "4f9985c1-7c99-4816-9ddf-c45dc6dd9d7c"
   },
   {
-   "name": "Nicole Nigro",
+   "name": "Nikki Nigro",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 0,
@@ -4687,7 +4687,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Nicole Nigro",
+      "Nikki Nigro",
       "Tanyalak Sawangpak"
      ],
      "a": [
@@ -4744,7 +4744,7 @@
      "as": 12,
      "h": [
       "Lay Wassana",
-      "Nicole Nigro"
+      "Nikki Nigro"
      ],
      "a": [
       "Darlene Fusco",
@@ -4757,7 +4757,7 @@
      "hs": 24,
      "as": 22,
      "h": [
-      "Nicole Nigro",
+      "Nikki Nigro",
       "Sushma Rayapudi"
      ],
      "a": [
@@ -4883,7 +4883,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Nicole Nigro",
+      "Nikki Nigro",
       "Jenny Lin"
      ],
      "a": [
@@ -4939,7 +4939,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Nicole Nigro",
+      "Nikki Nigro",
       "Rani Borusu"
      ],
      "a": [
@@ -5010,7 +5010,7 @@
      "as": 21,
      "h": [
       "Tanyalak Sawangpak",
-      "Nicole Nigro"
+      "Nikki Nigro"
      ],
      "a": [
       "Christine Steigerwalt",
@@ -5038,7 +5038,7 @@
      "as": 21,
      "h": [
       "Lynne Silber",
-      "Nicole Nigro"
+      "Nikki Nigro"
      ],
      "a": [
       "Maureen Murphy",
@@ -5092,7 +5092,7 @@
     "Sushma Rayapudi",
     "Rani Borusu",
     "Lay Wassana",
-    "Nicole Nigro",
+    "Nikki Nigro",
     "Tanyalak Sawangpak",
     "Jenny Lin",
     "Lynne Silber",
@@ -6599,7 +6599,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:59.258Z";
+  DATA.meta.asOf = "2026-08-31T18:37:59.118Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

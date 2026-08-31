@@ -11384,8 +11384,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Ali Abbas"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11395,8 +11395,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Eric Ruiz"
      ],
      "a": [
       "Peter Chen",
@@ -11406,8 +11406,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Rohit Mankotia"
      ],
      "a": [
       "Brandon Fulford",
@@ -11417,8 +11417,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Kevin Tran"
      ],
      "a": [
       "Franklin Yiu",
@@ -11428,8 +11428,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Michael Barndt"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11439,8 +11439,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Samuel Kashefska"
      ],
      "a": [
       "Peter Chen",
@@ -11450,8 +11450,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Eric Ruiz"
      ],
      "a": [
       "Brandon Fulford",
@@ -11461,8 +11461,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Kevin Tran"
      ],
      "a": [
       "Franklin Yiu",
@@ -11472,8 +11472,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rohit Mankotia"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11483,8 +11483,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Eric Ruiz"
      ],
      "a": [
       "Peter Chen",
@@ -11494,8 +11494,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Ali Abbas"
      ],
      "a": [
       "Brandon Fulford",
@@ -11505,8 +11505,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Kevin Tran"
      ],
      "a": [
       "Franklin Yiu",
@@ -11516,8 +11516,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rohit Mankotia"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11527,8 +11527,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Ali Abbas"
      ],
      "a": [
       "Peter Chen",
@@ -11538,8 +11538,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Tran",
+      "Cullen Curley"
      ],
      "a": [
       "Brandon Fulford",
@@ -11549,8 +11549,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Eric Ruiz"
      ],
      "a": [
       "Franklin Yiu",
@@ -11560,8 +11560,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Cullen Curley"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11571,8 +11571,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Eric Ruiz"
      ],
      "a": [
       "Gianni Roman",
@@ -11582,8 +11582,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Ali Abbas"
      ],
      "a": [
       "Buyi Zhang",
@@ -11593,8 +11593,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rohit Mankotia"
      ],
      "a": [
       "Franklin Yiu",
@@ -11604,8 +11604,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Tran",
+      "Ali Abbas"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11615,8 +11615,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Michael Barndt"
      ],
      "a": [
       "Peter Chen",
@@ -11626,8 +11626,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Eric Ruiz"
      ],
      "a": [
       "Chris Cheng",
@@ -11637,8 +11637,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rohit Mankotia"
      ],
      "a": [
       "Franklin Yiu",
@@ -11648,8 +11648,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Tran",
+      "Samuel Kashefska"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11659,8 +11659,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Ali Abbas"
      ],
      "a": [
       "Gianni Roman",
@@ -11670,8 +11670,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Eric Ruiz"
      ],
      "a": [
       "Franklin Yiu",
@@ -11681,8 +11681,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Cullen Curley"
      ],
      "a": [
       "Brandon Fulford",
@@ -11692,8 +11692,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Cullen Curley"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -11703,8 +11703,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Ali Abbas"
      ],
      "a": [
       "Buyi Zhang",
@@ -11714,8 +11714,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Samuel Kashefska"
      ],
      "a": [
       "Franklin Yiu",
@@ -11725,8 +11725,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Tran",
+      "Carlos Rincon"
      ],
      "a": [
       "Brandon Fulford",
@@ -12470,8 +12470,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Fallone",
+      "Josh Fink"
      ],
      "a": [
       "John Manuzza",
@@ -12481,8 +12481,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "Eric Berlinger"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12492,8 +12492,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "Craig Butler"
      ],
      "a": [
       "Cesar Santamaria",
@@ -12503,8 +12503,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Franklin Lupianez"
      ],
      "a": [
       "Brandon Tsang",
@@ -12514,8 +12514,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Franklin Lupianez"
      ],
      "a": [
       "John Manuzza",
@@ -12525,8 +12525,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Fink",
+      "Josh Rito"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12536,8 +12536,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "Craig Butler"
      ],
      "a": [
       "Umang Pathak",
@@ -12547,8 +12547,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Bill Brandt"
      ],
      "a": [
       "Ramam Durba",
@@ -12558,8 +12558,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "David Shapiro"
      ],
      "a": [
       "Umang Pathak",
@@ -12569,8 +12569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Franklin Lupianez"
      ],
      "a": [
       "Shalin Rawal",
@@ -12580,8 +12580,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "Josh Rito"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12591,8 +12591,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Fink",
+      "John Fallone"
      ],
      "a": [
       "Brandon Tsang",
@@ -12602,8 +12602,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "David Shapiro"
      ],
      "a": [
       "Jeff Laniado",
@@ -12613,8 +12613,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Lupianez",
+      "Josh Fink"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12624,8 +12624,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "Josh Rito"
      ],
      "a": [
       "Cesar Santamaria",
@@ -12635,8 +12635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Fallone",
+      "David Tabacco"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -12646,8 +12646,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Josh Fink"
      ],
      "a": [
       "John Manuzza",
@@ -12657,8 +12657,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "Craig Butler"
      ],
      "a": [
       "Cesar Santamaria",
@@ -12668,8 +12668,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Rito",
+      "John Fallone"
      ],
      "a": [
       "Brandon Tsang",
@@ -12679,8 +12679,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "David Shapiro"
      ],
      "a": [
       "Shalin Rawal",
@@ -12690,8 +12690,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Franklin Lupianez"
      ],
      "a": [
       "John Manuzza",
@@ -12701,8 +12701,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "Bill Brandt"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12712,8 +12712,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Josh Fink"
      ],
      "a": [
       "Umang Pathak",
@@ -12723,8 +12723,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Fallone",
+      "Josh Rito"
      ],
      "a": [
       "Cesar Santamaria",
@@ -12734,8 +12734,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Josh Fink"
      ],
      "a": [
       "John Manuzza",
@@ -12745,8 +12745,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "David Tabacco"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12756,8 +12756,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Lupianez",
+      "John Fallone"
      ],
      "a": [
       "Umang Pathak",
@@ -12767,8 +12767,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "Josh Rito"
      ],
      "a": [
       "Jeff Laniado",
@@ -12778,8 +12778,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "Franklin Lupianez"
      ],
      "a": [
       "John Manuzza",
@@ -12789,8 +12789,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "John Fallone"
      ],
      "a": [
       "Umang Pathak",
@@ -12800,8 +12800,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "David Tabacco"
      ],
      "a": [
       "Jesse Mynahan",
@@ -12811,8 +12811,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Rito",
+      "David Shapiro"
      ],
      "a": [
       "Brandon Tsang",
@@ -13868,7 +13868,7 @@
       ""
      ],
      "a": [
-      "Daniel Antonelli",
+      "Brian “Bubba” Falco",
       "Matthew Schwartz"
      ]
     },
@@ -13879,8 +13879,8 @@
       ""
      ],
      "a": [
-      "Brian “Bubba” Falco",
-      "Joseph Lynskey"
+      "Daniel Antonelli",
+      "Christopher Giasi"
      ]
     },
     {
@@ -13902,7 +13902,7 @@
      ],
      "a": [
       "Jason Feldman",
-      "Christopher Giasi"
+      "Joseph Lynskey"
      ]
     }
    ]
@@ -13944,7 +13944,7 @@
       ""
      ],
      "a": [
-      "Michael Vollmer",
+      "Uday Acham",
       "Siva Indupuru"
      ]
     },
@@ -13989,7 +13989,7 @@
      ],
      "a": [
       "Michael Vollmer",
-      "Siva Indupuru"
+      "Ben Cortes"
      ]
     },
     {
@@ -14022,7 +14022,7 @@
      ],
      "a": [
       "Michael Vollmer",
-      "Wensheng Yue"
+      "Big G"
      ]
     },
     {
@@ -14032,8 +14032,8 @@
       ""
      ],
      "a": [
-      "Kevin Lew",
-      "Hua Lin"
+      "Ian Kohn",
+      "Pedro Delgado"
      ]
     },
     {
@@ -14065,7 +14065,7 @@
       ""
      ],
      "a": [
-      "Michael Vollmer",
+      "Kevin Lew",
       "Wensheng Yue"
      ]
     },
@@ -14076,7 +14076,7 @@
       ""
      ],
      "a": [
-      "Kevin Lew",
+      "Michael Vollmer",
       "Hua Lin"
      ]
     },
@@ -14120,7 +14120,7 @@
       ""
      ],
      "a": [
-      "Ian Kohn",
+      "Kevin Lew",
       "Uday Acham"
      ]
     },
@@ -14132,7 +14132,7 @@
      ],
      "a": [
       "Michael Vollmer",
-      "Pedro Delgado"
+      "Siva Indupuru"
      ]
     },
     {
@@ -14143,7 +14143,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Hua Lin"
+      "Wensheng Yue"
      ]
     },
     {
@@ -14154,7 +14154,7 @@
      ],
      "a": [
       "Kevin Lew",
-      "Wensheng Yue"
+      "Hua Lin"
      ]
     },
     {
@@ -14175,7 +14175,7 @@
       ""
      ],
      "a": [
-      "Big G",
+      "Michael Vollmer",
       "Siva Indupuru"
      ]
     },
@@ -14186,8 +14186,8 @@
       ""
      ],
      "a": [
-      "Uday Acham",
-      ""
+      "Michael Vollmer",
+      "Hua Lin"
      ]
     },
     {
@@ -14197,7 +14197,7 @@
       ""
      ],
      "a": [
-      "Kevin Lew",
+      "Uday Acham",
       "Ben Cortes"
      ]
     },
@@ -14230,8 +14230,19 @@
       ""
      ],
      "a": [
+      "Kevin Lew",
+      "Wensheng Yue"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Pedro Delgado",
-      "Big G"
+      "Ben Cortes"
      ]
     },
     {
@@ -14242,7 +14253,7 @@
      ],
      "a": [
       "Uday Acham",
-      "Ian Kohn"
+      "Big G"
      ]
     },
     {
@@ -14252,7 +14263,7 @@
       ""
      ],
      "a": [
-      "Ben Cortes",
+      "Ian Kohn",
       "Siva Indupuru"
      ]
     }
@@ -15499,7 +15510,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:59.280Z";
+  DATA.meta.asOf = "2026-08-31T18:38:11.958Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -1376,7 +1376,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 53,
-    "rank": 36,
+    "rank": 35,
     "ratingGames": 8,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.8
@@ -1815,7 +1815,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 43,
-    "rank": 20,
+    "rank": 19,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.3
@@ -1940,7 +1940,7 @@
     "week": 1,
     "rating": 2.5,
     "confidence": 41,
-    "rank": 21,
+    "rank": 20,
     "ratingGames": 5,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.9
@@ -2629,7 +2629,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 48,
-    "rank": 66,
+    "rank": 67,
     "ratingGames": 6,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.1
@@ -3629,7 +3629,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 43,
-    "rank": 23,
+    "rank": 22,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -1.1
@@ -3927,7 +3927,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 53,
-    "rank": 64,
+    "rank": 65,
     "ratingGames": 8,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -1.2
@@ -4100,7 +4100,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 53,
-    "rank": 136,
+    "rank": 138,
     "ratingGames": 8,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.4
@@ -4273,7 +4273,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 135,
+    "rank": 137,
     "ratingGames": 8,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": -0.8
@@ -4619,7 +4619,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 102,
+    "rank": 104,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -4792,7 +4792,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 52,
-    "rank": 24,
+    "rank": 23,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -4949,7 +4949,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 52,
-    "rank": 25,
+    "rank": 24,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.4
@@ -5263,7 +5263,7 @@
     "week": 1,
     "rating": 2,
     "confidence": 51,
-    "rank": 37,
+    "rank": 36,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
@@ -5734,7 +5734,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 54,
-    "rank": 38,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -5891,7 +5891,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 48,
-    "rank": 40,
+    "rank": 39,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -6048,7 +6048,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 75,
+    "rank": 76,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -6346,7 +6346,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 48,
-    "rank": 41,
+    "rank": 40,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.2
@@ -6910,7 +6910,7 @@
     "week": 1,
     "rating": 2.6,
     "confidence": 50,
-    "rank": 19,
+    "rank": 18,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -7051,7 +7051,7 @@
     "week": 1,
     "rating": 2.3,
     "confidence": 51,
-    "rank": 26,
+    "rank": 25,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.3
@@ -7190,11 +7190,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 2.6,
+    "rating": 2.3,
     "confidence": 51,
-    "rank": 18,
+    "rank": 26,
     "ratingGames": 6,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -7474,7 +7474,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 153,
+    "rank": 155,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
@@ -7849,7 +7849,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 44,
-    "rank": 43,
+    "rank": 42,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.9
@@ -7974,7 +7974,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 44,
-    "rank": 117,
+    "rank": 119,
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.2
@@ -8099,7 +8099,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 38,
-    "rank": 44,
+    "rank": 43,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0
@@ -8224,7 +8224,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 42,
-    "rank": 150,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -8349,10 +8349,135 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 141,
+    "rank": 143,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "e65bcc7b-3862-4331-868f-6abe34bfbfe6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Nicole Mandry",
+     "Brad Mandry"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Nicole Mandry",
+     "Matt Demarco"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 47,
+    "rank": 75,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -8474,7 +8599,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 109,
+    "rank": 111,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -8599,7 +8724,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 108,
+    "rank": 110,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -8724,135 +8849,10 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 42,
-    "rank": 128,
+    "rank": 129,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickle Juice Blackwood",
-    "homeAway": "H",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 100,
-    "pa": 96,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Scott Strong",
-    "vs": [
-     "Brian Cook",
-     "Gabriel Ferraro"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Scott Strong",
-    "vs": [
-     "Holden Lenoff",
-     "Simon Darlington"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Deirdre Zohlman",
-    "vs": [
-     "Magnolia Lau",
-     "Holden Lenoff"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Brad Mandry",
-    "vs": [
-     "Jon Palabay",
-     "Skylar Bobadilla"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Aaron Chan",
-    "vs": [
-     "Skylar Bobadilla",
-     "Gabriel Ferraro"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.1,
-    "confidence": 45,
-    "rank": 140,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -9022,7 +9022,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 101,
+    "rank": 102,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -9195,7 +9195,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 49,
-    "rank": 170,
+    "rank": 169,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
@@ -9429,8 +9429,8 @@
     "t": "female",
     "with": "Nicole Mandry",
     "vs": [
-     "Eileen Potter",
-     "Rebecca Durda"
+     "Jennifer Kinkel",
+     "Magnolia Lau"
     ],
     "f": 21,
     "a": 11,
@@ -9539,12 +9539,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 2,
-    "confidence": 54,
-    "rank": 35,
+    "rating": 1.7,
+    "confidence": 52,
+    "rank": 44,
     "ratingGames": 8,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -9767,6 +9767,179 @@
   ],
   "partners": []
  },
+ "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 158,
+    "pa": 142,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Mary Fair",
+    "vs": [
+     "Rebecca Durda",
+     "Brian Cook"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Spencer Day",
+    "vs": [
+     "Brian Cook",
+     "Gabriel Ferraro"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Mary Fair",
+    "vs": [
+     "Magnolia Lau",
+     "Simon Darlington"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Spencer Day",
+    "vs": [
+     "Holden Lenoff",
+     "Simon Darlington"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Nicole Mandry",
+    "vs": [
+     "Christina Juliano",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Brad Mandry",
+    "vs": [
+     "Jon Palabay",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Deirdre Zohlman",
+    "vs": [
+     "Tiffany Weis",
+     "Gabriel Ferraro"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Matt Demarco",
+    "vs": [
+     "Jon Palabay",
+     "Simon Darlington"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.3,
+    "confidence": 55,
+    "rank": 64,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
  "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b": {
   "log": [
    {
@@ -9932,7 +10105,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 54,
-    "rank": 120,
+    "rank": 122,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -10041,7 +10214,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 36,
-    "rank": 86,
+    "rank": 87,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -10150,7 +10323,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 34,
-    "rank": 119,
+    "rank": 121,
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -10629,6 +10802,163 @@
   ],
   "partners": []
  },
+ "16a5ef9a-49fe-4341-9626-8f566552010e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 125,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Nicole Mandry",
+    "vs": [
+     "Tiffany Weis",
+     "Skylar Bobadilla"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Matt Demarco",
+    "vs": [
+     "Skylar Bobadilla",
+     "Holden Lenoff"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Nicole Mandry",
+    "vs": [
+     "Rebecca Durda",
+     "Skylar Bobadilla"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Ricki Cohen",
+    "vs": [
+     "Jennifer Kinkel",
+     "Brian Cook"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Scott Strong",
+    "vs": [
+     "Jon Palabay",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Ricki Cohen",
+    "vs": [
+     "Magnolia Lau",
+     "Jon Palabay"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Aaron Chan",
+    "vs": [
+     "Skylar Bobadilla",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.2,
+    "confidence": 48,
+    "rank": 70,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
  "b07b7480-a964-459c-b47e-5c0f4a8774e9": {
   "log": [
    {
@@ -10778,167 +11108,10 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 103,
+    "rank": 105,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickle Juice Blackwood",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 137,
-    "pa": 124,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Mary Fair",
-    "vs": [
-     "Rebecca Durda",
-     "Brian Cook"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Spencer Day",
-    "vs": [
-     "Brian Cook",
-     "Gabriel Ferraro"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Mary Fair",
-    "vs": [
-     "Magnolia Lau",
-     "Simon Darlington"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Spencer Day",
-    "vs": [
-     "Holden Lenoff",
-     "Simon Darlington"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Nicole Mandry",
-    "vs": [
-     "Christina Juliano",
-     "Skylar Bobadilla"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Deirdre Zohlman",
-    "vs": [
-     "Tiffany Weis",
-     "Gabriel Ferraro"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Matt Demarco",
-    "vs": [
-     "Jon Palabay",
-     "Simon Darlington"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.2,
-    "confidence": 52,
-    "rank": 70,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -11092,7 +11265,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 156,
+    "rank": 158,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -11563,7 +11736,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 213,
+    "rank": 212,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.2
@@ -11704,7 +11877,7 @@
     "week": 1,
     "rating": 2.4,
     "confidence": 51,
-    "rank": 22,
+    "rank": 21,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -11845,7 +12018,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 176,
+    "rank": 175,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.6
@@ -11986,7 +12159,7 @@
     "week": 1,
     "rating": 1.8,
     "confidence": 44,
-    "rank": 42,
+    "rank": 41,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -12268,7 +12441,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 122,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -12413,147 +12586,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
- "16a5ef9a-49fe-4341-9626-8f566552010e": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickle Juice Blackwood",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 106,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Nicole Mandry",
-    "vs": [
-     "Tiffany Weis",
-     "Skylar Bobadilla"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Matt Demarco",
-    "vs": [
-     "Skylar Bobadilla",
-     "Holden Lenoff"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Nicole Mandry",
-    "vs": [
-     "Rebecca Durda",
-     "Skylar Bobadilla"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Ricki Cohen",
-    "vs": [
-     "Jennifer Kinkel",
-     "Brian Cook"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "male",
-    "with": "Spencer Day",
-    "vs": [
-     "Jon Palabay",
-     "Skylar Bobadilla"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Ricki Cohen",
-    "vs": [
-     "Magnolia Lau",
-     "Jon Palabay"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.3,
-    "confidence": 45,
-    "rank": 67,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -12832,7 +12864,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 46,
-    "rank": 115,
+    "rank": 117,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.9
@@ -13114,7 +13146,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 123,
+    "rank": 124,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.2
@@ -13255,7 +13287,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 48,
-    "rank": 65,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -13678,7 +13710,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 105,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -13823,6 +13855,99 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 2,
+    "l": 1,
+    "gp": 3,
+    "pf": 58,
+    "pa": 59,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Scott Strong",
+    "vs": [
+     "Brian Cook",
+     "Gabriel Ferraro"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Scott Strong",
+    "vs": [
+     "Holden Lenoff",
+     "Simon Darlington"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Deirdre Zohlman",
+    "vs": [
+     "Magnolia Lau",
+     "Holden Lenoff"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.5,
+    "confidence": 33,
+    "rank": 183,
+    "ratingGames": 3,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -14338,7 +14463,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 53,
-    "rank": 146,
+    "rank": 148,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -14886,7 +15011,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 110,
+    "rank": 112,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.1
@@ -15136,7 +15261,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 44,
-    "rank": 39,
+    "rank": 38,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
@@ -15511,7 +15636,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 124,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
@@ -15636,7 +15761,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 126,
+    "rank": 127,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -15761,7 +15886,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 143,
+    "rank": 145,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -16011,7 +16136,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 127,
+    "rank": 128,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
@@ -16261,7 +16386,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 100,
+    "rank": 101,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -16384,11 +16509,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1.1,
+    "rating": 0.9,
     "confidence": 46,
-    "rank": 76,
+    "rank": 85,
     "ratingGames": 5,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
    }
   ],
@@ -16511,7 +16636,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 42,
-    "rank": 112,
+    "rank": 114,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -16636,7 +16761,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 43,
-    "rank": 168,
+    "rank": 167,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.6
@@ -16761,7 +16886,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 134,
+    "rank": 136,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.6
@@ -16886,7 +17011,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 38,
-    "rank": 229,
+    "rank": 227,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -17011,7 +17136,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 142,
+    "rank": 144,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -17136,7 +17261,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 44,
-    "rank": 221,
+    "rank": 219,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -17261,7 +17386,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 44,
-    "rank": 149,
+    "rank": 150,
     "ratingGames": 5,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.6
@@ -17386,135 +17511,10 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 38,
-    "rank": 113,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "e65bcc7b-3862-4331-868f-6abe34bfbfe6": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 93,
-    "pa": 97,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Eileen Potter",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Skylar Bobadilla",
-    "vs": [
-     "Nicole Mandry",
-     "Brad Mandry"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Nicole Mandry",
-     "Matt Demarco"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 44,
-    "rank": 166,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -17825,7 +17825,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 89,
+    "rank": 90,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -18139,7 +18139,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 99,
+    "rank": 100,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.4
@@ -18294,12 +18294,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.2,
+    "rating": 0.1,
     "confidence": 52,
-    "rank": 157,
+    "rank": 139,
     "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -18453,7 +18453,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 130,
+    "rank": 131,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.6
@@ -18767,7 +18767,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 192,
+    "rank": 191,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -18906,7 +18906,7 @@
     "wk": 1,
     "opp": "Pickle Juice Blackwood",
     "t": "male",
-    "with": "Spencer Day",
+    "with": "Brad Mandry",
     "vs": [
      "Skylar Bobadilla",
      "Gabriel Ferraro"
@@ -18924,10 +18924,10 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 188,
+    "rank": 187,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -19081,7 +19081,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 49,
-    "rank": 236,
+    "rank": 235,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -19222,7 +19222,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 88,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.6
@@ -19367,6 +19367,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "9c942e88-f77a-4b16-bf03-5d83455ed7c6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 106,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Ricki Cohen",
+     "Matt Demarco"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Deirdre Zohlman",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Nicole Mandry",
+     "Deirdre Zohlman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Mary Fair",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Nicole Mandry",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.2,
+    "confidence": 49,
+    "rank": 134,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -19565,8 +19706,8 @@
     "t": "female",
     "with": "Ricki Cohen",
     "vs": [
-     "Eileen Potter",
-     "Rebecca Durda"
+     "Jennifer Kinkel",
+     "Magnolia Lau"
     ],
     "f": 21,
     "a": 11,
@@ -19675,12 +19816,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.3,
-    "confidence": 49,
-    "rank": 121,
+    "rating": 0.6,
+    "confidence": 53,
+    "rank": 103,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -19816,11 +19957,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.8,
+    "rating": 0.7,
     "confidence": 48,
-    "rank": 90,
+    "rank": 97,
     "ratingGames": 6,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
    }
   ],
@@ -20100,7 +20241,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 42,
-    "rank": 118,
+    "rank": 120,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -20241,7 +20382,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 152,
+    "rank": 154,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.3
@@ -20382,7 +20523,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 45,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -20523,7 +20664,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 47,
-    "rank": 104,
+    "rank": 106,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -20664,7 +20805,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 48,
-    "rank": 97,
+    "rank": 98,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -20837,7 +20978,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 114,
+    "rank": 116,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
@@ -21087,7 +21228,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 98,
+    "rank": 99,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -21228,7 +21369,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 45,
-    "rank": 224,
+    "rank": 222,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -21401,7 +21542,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 183,
+    "rank": 182,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -21542,7 +21683,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 159,
+    "rank": 160,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -21683,7 +21824,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 133,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -21824,7 +21965,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 154,
+    "rank": 156,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -21965,7 +22106,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 47,
-    "rank": 222,
+    "rank": 220,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.6
@@ -22106,7 +22247,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 47,
-    "rank": 106,
+    "rank": 108,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.2
@@ -22247,7 +22388,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 125,
+    "rank": 126,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -22308,8 +22449,8 @@
     "t": "female",
     "with": "Mary Fair",
     "vs": [
-     "Magnolia Lau",
-     "Jennifer Kinkel"
+     "Eileen Potter",
+     "Rebecca Durda"
     ],
     "f": 15,
     "a": 21,
@@ -22419,8 +22560,8 @@
    {
     "week": 1,
     "rating": -1,
-    "confidence": 52,
-    "rank": 210,
+    "confidence": 53,
+    "rank": 209,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
@@ -22561,7 +22702,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 49,
-    "rank": 272,
+    "rank": 273,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -22718,7 +22859,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 87,
+    "rank": 88,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
@@ -22875,7 +23016,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 132,
+    "rank": 133,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -23189,7 +23330,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 46,
-    "rank": 223,
+    "rank": 221,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.1
@@ -23346,7 +23487,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 52,
-    "rank": 211,
+    "rank": 210,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -23503,7 +23644,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 52,
-    "rank": 169,
+    "rank": 168,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -23660,7 +23801,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 174,
+    "rank": 173,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -23974,7 +24115,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 49,
-    "rank": 237,
+    "rank": 236,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.4
@@ -24538,7 +24679,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 45,
-    "rank": 163,
+    "rank": 164,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
@@ -24663,259 +24804,9 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 43,
-    "rank": 144,
+    "rank": 146,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "0dace2fb-e133-4556-9d90-288c0f41805a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 93,
-    "pa": 94,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Simon Darlington",
-    "vs": [
-     "Deirdre Zohlman",
-     "Aaron Chan"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Magnolia Lau",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Christina Juliano",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Christina Juliano",
-    "vs": [
-     "Ricki Cohen",
-     "Mary Fair"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 42,
-    "rank": 173,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "0c8768d9-03b0-42ca-9a88-b2c8538fa54d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 92,
-    "pa": 94,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Simon Darlington",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Deirdre Zohlman",
-     "Spencer Day"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Eileen Potter",
-    "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Jon Palabay",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0,
-    "confidence": 46,
-    "rank": 147,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -25038,7 +24929,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 41,
-    "rank": 182,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -25288,7 +25179,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 45,
-    "rank": 179,
+    "rank": 178,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -25413,7 +25304,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 234,
+    "rank": 233,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -25663,7 +25554,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 116,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.8
@@ -25788,7 +25679,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 43,
-    "rank": 167,
+    "rank": 166,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.1
@@ -26038,7 +25929,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 42,
-    "rank": 145,
+    "rank": 147,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -26163,7 +26054,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 41,
-    "rank": 151,
+    "rank": 152,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.1
@@ -26288,7 +26179,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 111,
+    "rank": 113,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -26413,7 +26304,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 43,
-    "rank": 181,
+    "rank": 180,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -26538,7 +26429,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 43,
-    "rank": 180,
+    "rank": 179,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1
@@ -26663,7 +26554,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 43,
-    "rank": 274,
+    "rank": 275,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.1
@@ -27099,8 +26990,8 @@
     "t": "female",
     "with": "Deirdre Zohlman",
     "vs": [
-     "Magnolia Lau",
-     "Jennifer Kinkel"
+     "Eileen Potter",
+     "Rebecca Durda"
     ],
     "f": 15,
     "a": 21,
@@ -27209,12 +27100,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.9,
+    "rating": -1.8,
     "confidence": 53,
-    "rank": 262,
+    "rank": 259,
     "ratingGames": 8,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -27360,147 +27251,6 @@
   ],
   "partners": []
  },
- "9c942e88-f77a-4b16-bf03-5d83455ed7c6": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 107,
-    "pa": 112,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Gabriel Ferraro",
-    "vs": [
-     "Ricki Cohen",
-     "Matt Demarco"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Rebecca Durda",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Deirdre Zohlman",
-     "Aaron Chan"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Magnolia Lau",
-    "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
-    "vs": [
-     "Mary Fair",
-     "Aaron Chan"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1,
-    "confidence": 49,
-    "rank": 214,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
  "fc0abf38-c240-44e7-b6e1-67d0a2618d2e": {
   "log": [
    {
@@ -27634,7 +27384,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 129,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
@@ -27744,7 +27494,7 @@
     "with": "Jon Palabay",
     "vs": [
      "Brad Mandry",
-     "Spencer Day"
+     "Scott Strong"
     ],
     "f": 18,
     "a": 21,
@@ -27760,7 +27510,7 @@
     "with": "Gabriel Ferraro",
     "vs": [
      "Aaron Chan",
-     "Spencer Day"
+     "Brad Mandry"
     ],
     "f": 19,
     "a": 21,
@@ -27773,12 +27523,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.2,
-    "confidence": 44,
-    "rank": 164,
+    "rating": 0,
+    "confidence": 40,
+    "rank": 153,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -27916,7 +27666,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 139,
+    "rank": 142,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.9
@@ -28057,7 +27807,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 43,
-    "rank": 227,
+    "rank": 225,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.1
@@ -28198,7 +27948,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 45,
-    "rank": 225,
+    "rank": 223,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.4
@@ -28339,7 +28089,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 138,
+    "rank": 141,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -28621,7 +28371,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 46,
-    "rank": 215,
+    "rank": 213,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
@@ -28762,7 +28512,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 41,
-    "rank": 85,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1
@@ -28903,7 +28653,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 45,
-    "rank": 148,
+    "rank": 149,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -29044,7 +28794,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 107,
+    "rank": 109,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.2
@@ -29185,7 +28935,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 50,
-    "rank": 212,
+    "rank": 211,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -29467,7 +29217,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 238,
+    "rank": 237,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -29749,7 +29499,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 49,
-    "rank": 190,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.6
@@ -30031,7 +29781,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 178,
+    "rank": 177,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.4
@@ -30172,7 +29922,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 261,
+    "rank": 262,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -30611,7 +30361,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 45,
-    "rank": 161,
+    "rank": 162,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -30768,7 +30518,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 131,
+    "rank": 132,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.4
@@ -30925,7 +30675,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 52,
-    "rank": 230,
+    "rank": 228,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -31396,7 +31146,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 171,
+    "rank": 170,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -31710,7 +31460,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 239,
+    "rank": 238,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.8
@@ -31928,7 +31678,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 38,
-    "rank": 218,
+    "rank": 216,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -32037,7 +31787,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 38,
-    "rank": 209,
+    "rank": 208,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.1
@@ -32255,7 +32005,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 40,
-    "rank": 217,
+    "rank": 215,
     "ratingGames": 4,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -32428,7 +32178,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 49,
-    "rank": 276,
+    "rank": 277,
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -32538,7 +32288,7 @@
     "with": "Skylar Bobadilla",
     "vs": [
      "Aaron Chan",
-     "Spencer Day"
+     "Brad Mandry"
     ],
     "f": 19,
     "a": 21,
@@ -32552,11 +32302,11 @@
    {
     "week": 1,
     "rating": -0.2,
-    "confidence": 44,
+    "confidence": 45,
     "rank": 165,
     "ratingGames": 5,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -32801,11 +32551,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.6,
+    "rating": -0.3,
     "confidence": 42,
-    "rank": 187,
+    "rank": 172,
     "ratingGames": 5,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -32928,7 +32678,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 38,
-    "rank": 155,
+    "rank": 157,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.9
@@ -33178,7 +32928,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 42,
-    "rank": 208,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -33428,7 +33178,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 42,
-    "rank": 235,
+    "rank": 234,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.1
@@ -33551,12 +33301,137 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2.3,
+    "rating": -2,
     "confidence": 44,
-    "rank": 278,
+    "rank": 268,
     "ratingGames": 5,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "0dace2fb-e133-4556-9d90-288c0f41805a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 83,
+    "pa": 100,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Deirdre Zohlman",
+     "Aaron Chan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Ricki Cohen",
+     "Mary Fair"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 44,
+    "rank": 239,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -33631,7 +33506,7 @@
     "with": "Skylar Bobadilla",
     "vs": [
      "Brad Mandry",
-     "Spencer Day"
+     "Scott Strong"
     ],
     "f": 18,
     "a": 21,
@@ -33676,12 +33551,137 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.9,
-    "confidence": 44,
-    "rank": 205,
+    "rating": -0.7,
+    "confidence": 43,
+    "rank": 192,
     "ratingGames": 5,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "0c8768d9-03b0-42ca-9a88-b2c8538fa54d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 82,
+    "pa": 100,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Deirdre Zohlman",
+     "Spencer Day"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Nicole Mandry",
+     "Deirdre Zohlman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Jon Palabay",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 47,
+    "rank": 231,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -33803,7 +33803,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 43,
-    "rank": 268,
+    "rank": 269,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.2
@@ -34053,7 +34053,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 207,
+    "rank": 206,
     "ratingGames": 5,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0
@@ -34178,7 +34178,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 47,
-    "rank": 277,
+    "rank": 278,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -34428,7 +34428,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 45,
-    "rank": 273,
+    "rank": 274,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
@@ -34803,7 +34803,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 41,
-    "rank": 228,
+    "rank": 226,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.4
@@ -34928,7 +34928,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 38,
-    "rank": 271,
+    "rank": 272,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.3
@@ -35210,7 +35210,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 46,
-    "rank": 233,
+    "rank": 232,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0
@@ -35351,7 +35351,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 46,
-    "rank": 172,
+    "rank": 171,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1
@@ -35633,7 +35633,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 160,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.2
@@ -35774,7 +35774,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 137,
+    "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.5
@@ -36056,7 +36056,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 49,
-    "rank": 191,
+    "rank": 190,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -36197,7 +36197,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 220,
+    "rank": 218,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.4
@@ -36479,7 +36479,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 49,
-    "rank": 232,
+    "rank": 230,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.5
@@ -36636,7 +36636,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 219,
+    "rank": 217,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
@@ -36793,7 +36793,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 177,
+    "rank": 176,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
@@ -36950,7 +36950,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 260,
+    "rank": 261,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
@@ -37264,7 +37264,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 51,
-    "rank": 158,
+    "rank": 159,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
@@ -37421,7 +37421,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 175,
+    "rank": 174,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
@@ -37735,7 +37735,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 52,
-    "rank": 189,
+    "rank": 188,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.5
@@ -38049,7 +38049,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 47,
-    "rank": 259,
+    "rank": 260,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.4
@@ -38751,7 +38751,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 206,
+    "rank": 205,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.3
@@ -39158,7 +39158,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 40,
-    "rank": 269,
+    "rank": 270,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -39283,7 +39283,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 216,
+    "rank": 214,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -39533,7 +39533,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 40,
-    "rank": 270,
+    "rank": 271,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -40690,7 +40690,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 44,
-    "rank": 226,
+    "rank": 224,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 2.4
@@ -41395,7 +41395,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 49,
-    "rank": 231,
+    "rank": 229,
     "ratingGames": 7,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 2.1
@@ -42164,7 +42164,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 51,
-    "rank": 275,
+    "rank": 276,
     "ratingGames": 7,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 2.5

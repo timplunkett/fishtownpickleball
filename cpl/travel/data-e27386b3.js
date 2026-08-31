@@ -228,7 +228,7 @@
    "leagueRank": 4,
    "rating": 2.3,
    "ratingGames": 6,
-   "confidence": 49,
+   "confidence": 48,
    "strengthOfPartners": 1.1,
    "strengthOfOpponents": -0.7,
    "playerId": "3b7c9eab-a6e2-4e8d-b0f6-bb9a6b6dc0eb"
@@ -1212,11 +1212,11 @@
    "diff": 18,
    "ppg": 20.3,
    "leagueRank": 39,
-   "rating": 1.2,
+   "rating": 1.1,
    "ratingGames": 6,
-   "confidence": 46,
-   "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -0.1,
+   "confidence": 45,
+   "strengthOfPartners": 1.1,
+   "strengthOfOpponents": 0,
    "playerId": "899c49f1-1839-4eb3-b87e-26a2dba51764"
   },
   {
@@ -1357,10 +1357,10 @@
    "diff": 30,
    "ppg": 20.4,
    "leagueRank": 27,
-   "rating": 2.9,
+   "rating": 2.8,
    "ratingGames": 5,
-   "confidence": 44,
-   "strengthOfPartners": 0.4,
+   "confidence": 43,
+   "strengthOfPartners": 0.5,
    "strengthOfOpponents": -0.2,
    "playerId": "a2c6fd48-c70a-4dc1-a1e0-4c177c4b0f58"
   },
@@ -1592,8 +1592,8 @@
    "rating": 1.8,
    "ratingGames": 4,
    "confidence": 36,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -1,
+   "strengthOfPartners": -0.6,
+   "strengthOfOpponents": -0.9,
    "playerId": "145a759d-3547-4ba8-a466-85f7c857a392"
   },
   {
@@ -1850,7 +1850,7 @@
    "diff": 19,
    "ppg": 19.8,
    "leagueRank": 57,
-   "rating": 1.9,
+   "rating": 2,
    "ratingGames": 6,
    "confidence": 47,
    "strengthOfPartners": 0.1,
@@ -2085,7 +2085,7 @@
    "rating": 1.2,
    "ratingGames": 6,
    "confidence": 47,
-   "strengthOfPartners": -0.3,
+   "strengthOfPartners": -0.2,
    "strengthOfOpponents": 0.2,
    "playerId": "8dc8f169-bf38-463a-b8a0-6c238e275325"
   },
@@ -2372,10 +2372,10 @@
    "diff": 8,
    "ppg": 18.6,
    "leagueRank": 85,
-   "rating": 0.5,
+   "rating": 0.4,
    "ratingGames": 5,
    "confidence": 44,
-   "strengthOfPartners": 0,
+   "strengthOfPartners": 0.3,
    "strengthOfOpponents": -0.3,
    "playerId": "4e873e4f-16c8-4504-a702-941e045a7d3b"
   },
@@ -2429,7 +2429,7 @@
    "winPct": 60,
    "diff": 6,
    "ppg": 17,
-   "leagueRank": 99,
+   "leagueRank": 100,
    "rating": -0.5,
    "ratingGames": 5,
    "confidence": 43,
@@ -2458,7 +2458,7 @@
    "winPct": 60,
    "diff": 5,
    "ppg": 17.8,
-   "leagueRank": 96,
+   "leagueRank": 98,
    "rating": -0.1,
    "ratingGames": 5,
    "confidence": 45,
@@ -2489,11 +2489,11 @@
    "diff": 2,
    "ppg": 19,
    "leagueRank": 92,
-   "rating": -0.1,
+   "rating": 0,
    "ratingGames": 5,
    "confidence": 39,
-   "strengthOfPartners": 0.8,
-   "strengthOfOpponents": 0.1
+   "strengthOfPartners": 0.5,
+   "strengthOfOpponents": 0
   },
   {
    "name": "Ismael Hernandez",
@@ -2545,7 +2545,7 @@
    "winPct": 60,
    "diff": -5,
    "ppg": 18.6,
-   "leagueRank": 104,
+   "leagueRank": 105,
    "rating": -0.5,
    "ratingGames": 5,
    "confidence": 43,
@@ -2604,10 +2604,10 @@
    "diff": -11,
    "ppg": 16.4,
    "leagueRank": 121,
-   "rating": 0.3,
+   "rating": 0.2,
    "ratingGames": 5,
    "confidence": 43,
-   "strengthOfPartners": -1.1,
+   "strengthOfPartners": -1,
    "strengthOfOpponents": 0.8,
    "playerId": "d6a6177b-1ee7-410c-bafc-bf1a91628876"
   },
@@ -2699,6 +2699,35 @@
    "playerId": "f1342844-3771-46a6-bada-39bd0aa96692"
   },
   {
+   "name": "Kellie Roshak",
+   "gender": "Female",
+   "team": "PickleRage Union County Net Ninjas",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 7,
+   "wins": 4,
+   "losses": 3,
+   "pointsWon": 132,
+   "totalPointsAgainst": 126,
+   "mixedWins": 3,
+   "mixedLosses": 1,
+   "genderWins": 1,
+   "genderLosses": 2,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "winPct": 57.1,
+   "diff": 6,
+   "ppg": 18.9,
+   "leagueRank": 95,
+   "rating": 0.6,
+   "ratingGames": 7,
+   "confidence": 49,
+   "strengthOfPartners": -0.1,
+   "strengthOfOpponents": -0.1,
+   "playerId": "fd9c829a-50de-40a1-8342-7a6afe0fc7b4"
+  },
+  {
    "name": "Paul Matzko",
    "gender": "Male",
    "team": "Flemington",
@@ -2719,7 +2748,7 @@
    "winPct": 57.1,
    "diff": 2,
    "ppg": 19.9,
-   "leagueRank": 95,
+   "leagueRank": 96,
    "rating": -0.4,
    "ratingGames": 7,
    "confidence": 43,
@@ -2750,11 +2779,11 @@
    "diff": 1,
    "ppg": 18.9,
    "leagueRank": 97,
-   "rating": -0.6,
+   "rating": -0.5,
    "ratingGames": 7,
    "confidence": 51,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.4
   },
   {
    "name": "Maggie Wang",
@@ -2951,7 +2980,7 @@
    "winPct": 50,
    "diff": 5,
    "ppg": 20,
-   "leagueRank": 114,
+   "leagueRank": 115,
    "rating": -0.1,
    "ratingGames": 2,
    "confidence": 24,
@@ -2980,7 +3009,7 @@
    "winPct": 50,
    "diff": 5,
    "ppg": 18.7,
-   "leagueRank": 98,
+   "leagueRank": 99,
    "rating": 0.7,
    "ratingGames": 6,
    "confidence": 48,
@@ -3009,7 +3038,7 @@
    "winPct": 50,
    "diff": 4,
    "ppg": 18.5,
-   "leagueRank": 100,
+   "leagueRank": 101,
    "rating": 0.7,
    "ratingGames": 6,
    "confidence": 48,
@@ -3038,11 +3067,11 @@
    "winPct": 50,
    "diff": 3,
    "ppg": 19.3,
-   "leagueRank": 106,
-   "rating": -0.5,
+   "leagueRank": 107,
+   "rating": -0.3,
    "ratingGames": 6,
    "confidence": 50,
-   "strengthOfPartners": 0.5,
+   "strengthOfPartners": 0.3,
    "strengthOfOpponents": -0.4,
    "playerId": "74530d59-ff19-42a4-87d4-0e3b9e516c66"
   },
@@ -3068,7 +3097,7 @@
    "winPct": 50,
    "diff": 3,
    "ppg": 18.2,
-   "leagueRank": 109,
+   "leagueRank": 110,
    "rating": 0.5,
    "ratingGames": 6,
    "confidence": 50,
@@ -3125,7 +3154,7 @@
    "winPct": 50,
    "diff": 2,
    "ppg": 19.2,
-   "leagueRank": 112,
+   "leagueRank": 113,
    "rating": -0.8,
    "ratingGames": 6,
    "confidence": 48,
@@ -3154,7 +3183,7 @@
    "winPct": 50,
    "diff": 2,
    "ppg": 20,
-   "leagueRank": 102,
+   "leagueRank": 103,
    "rating": -0.3,
    "ratingGames": 6,
    "confidence": 43,
@@ -3183,7 +3212,7 @@
    "winPct": 50,
    "diff": 2,
    "ppg": 17.8,
-   "leagueRank": 105,
+   "leagueRank": 106,
    "rating": 0.6,
    "ratingGames": 4,
    "confidence": 42,
@@ -3212,42 +3241,13 @@
    "winPct": 50,
    "diff": 0,
    "ppg": 19.7,
-   "leagueRank": 101,
+   "leagueRank": 102,
    "rating": 0.5,
    "ratingGames": 6,
    "confidence": 45,
    "strengthOfPartners": -0.7,
    "strengthOfOpponents": 0,
    "playerId": "9b7fad1a-a312-4d60-94e8-a1e138bb38fb"
-  },
-  {
-   "name": "Kellie Roshak",
-   "gender": "Female",
-   "team": "PickleRage Union County Net Ninjas",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 3,
-   "losses": 3,
-   "pointsWon": 111,
-   "totalPointsAgainst": 111,
-   "mixedWins": 2,
-   "mixedLosses": 1,
-   "genderWins": 1,
-   "genderLosses": 2,
-   "clutchWins": 0,
-   "clutchLosses": 1,
-   "winPct": 50,
-   "diff": 0,
-   "ppg": 18.5,
-   "leagueRank": 115,
-   "rating": 0.1,
-   "ratingGames": 6,
-   "confidence": 46,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0,
-   "playerId": "fd9c829a-50de-40a1-8342-7a6afe0fc7b4"
   },
   {
    "name": "Robert Janukowicz",
@@ -3270,7 +3270,7 @@
    "winPct": 50,
    "diff": 0,
    "ppg": 18.7,
-   "leagueRank": 108,
+   "leagueRank": 109,
    "rating": 0.1,
    "ratingGames": 6,
    "confidence": 47,
@@ -3299,7 +3299,7 @@
    "winPct": 50,
    "diff": -2,
    "ppg": 18.5,
-   "leagueRank": 107,
+   "leagueRank": 108,
    "rating": 0.6,
    "ratingGames": 6,
    "confidence": 49,
@@ -3357,7 +3357,7 @@
    "winPct": 50,
    "diff": -7,
    "ppg": 17.3,
-   "leagueRank": 127,
+   "leagueRank": 128,
    "rating": -0.7,
    "ratingGames": 6,
    "confidence": 46,
@@ -3560,7 +3560,7 @@
    "winPct": 42.9,
    "diff": 9,
    "ppg": 19.9,
-   "leagueRank": 103,
+   "leagueRank": 104,
    "rating": 0.7,
    "ratingGames": 7,
    "confidence": 49,
@@ -3618,7 +3618,7 @@
    "winPct": 42.9,
    "diff": 3,
    "ppg": 19.9,
-   "leagueRank": 111,
+   "leagueRank": 112,
    "rating": -0.3,
    "ratingGames": 7,
    "confidence": 50,
@@ -3647,7 +3647,7 @@
    "winPct": 42.9,
    "diff": -3,
    "ppg": 19.6,
-   "leagueRank": 110,
+   "leagueRank": 111,
    "rating": 0.7,
    "ratingGames": 7,
    "confidence": 45,
@@ -3676,12 +3676,12 @@
    "winPct": 42.9,
    "diff": -5,
    "ppg": 18.1,
-   "leagueRank": 128,
-   "rating": 0.4,
+   "leagueRank": 127,
+   "rating": 0.6,
    "ratingGames": 7,
    "confidence": 50,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.6,
+   "strengthOfOpponents": 0.7,
    "playerId": "0b4ee4e6-7740-49a4-abca-c6602b3f72bf"
   },
   {
@@ -3734,7 +3734,7 @@
    "winPct": 40,
    "diff": 7,
    "ppg": 19.8,
-   "leagueRank": 113,
+   "leagueRank": 114,
    "rating": 0,
    "ratingGames": 5,
    "confidence": 42,
@@ -3764,11 +3764,11 @@
    "diff": -1,
    "ppg": 18.6,
    "leagueRank": 129,
-   "rating": 0.4,
+   "rating": 0.3,
    "ratingGames": 5,
    "confidence": 38,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.4,
+   "strengthOfOpponents": 0.3,
    "playerId": "362cbda8-a78b-43bb-b653-1daef081ce2f"
   },
   {
@@ -4140,12 +4140,12 @@
    "winPct": 40,
    "diff": -13,
    "ppg": 17,
-   "leagueRank": 156,
-   "rating": -1.1,
+   "leagueRank": 154,
+   "rating": -0.9,
    "ratingGames": 5,
-   "confidence": 43,
+   "confidence": 44,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": 0.1,
    "playerId": "bb6c579d-1627-4971-ad0f-4be65598d579"
   },
   {
@@ -4288,9 +4288,9 @@
    "leagueRank": 146,
    "rating": -1.7,
    "ratingGames": 6,
-   "confidence": 47,
-   "strengthOfPartners": 0.7,
-   "strengthOfOpponents": -0.8,
+   "confidence": 48,
+   "strengthOfPartners": 0.9,
+   "strengthOfOpponents": -0.7,
    "playerId": "455cc819-6519-4c36-9dd7-2dbb33845102"
   },
   {
@@ -4373,11 +4373,11 @@
    "diff": -4,
    "ppg": 18.3,
    "leagueRank": 142,
-   "rating": 0.3,
+   "rating": 0.2,
    "ratingGames": 6,
-   "confidence": 49,
-   "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 0.7,
+   "confidence": 48,
+   "strengthOfPartners": 0.2,
+   "strengthOfOpponents": 0.6,
    "playerId": "d17ff3de-7455-4efb-b1be-4c61b5acbdf2"
   },
   {
@@ -4546,7 +4546,7 @@
    "winPct": 33.3,
    "diff": -15,
    "ppg": 17.3,
-   "leagueRank": 155,
+   "leagueRank": 156,
    "rating": 0.1,
    "ratingGames": 6,
    "confidence": 47,
@@ -4721,11 +4721,11 @@
    "winPct": 28.6,
    "diff": -11,
    "ppg": 18.4,
-   "leagueRank": 154,
-   "rating": -0.3,
+   "leagueRank": 155,
+   "rating": -0.5,
    "ratingGames": 7,
-   "confidence": 53,
-   "strengthOfPartners": -1.2,
+   "confidence": 52,
+   "strengthOfPartners": -1.1,
    "strengthOfOpponents": -0.1
   },
   {
@@ -4854,23 +4854,23 @@
    "gamesPlayed": 4,
    "wins": 1,
    "losses": 3,
-   "pointsWon": 69,
+   "pointsWon": 70,
    "totalPointsAgainst": 82,
    "mixedWins": 1,
-   "mixedLosses": 2,
+   "mixedLosses": 1,
    "genderWins": 0,
-   "genderLosses": 1,
+   "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
    "winPct": 25,
-   "diff": -13,
-   "ppg": 17.3,
+   "diff": -12,
+   "ppg": 17.5,
    "leagueRank": 170,
-   "rating": -2.1,
+   "rating": -1.8,
    "ratingGames": 4,
    "confidence": 40,
-   "strengthOfPartners": 0.9,
-   "strengthOfOpponents": 0,
+   "strengthOfPartners": 0.7,
+   "strengthOfOpponents": 0.1,
    "playerId": "27f83d5a-2e86-4e5b-af70-9394a8765ac6"
   },
   {
@@ -4952,7 +4952,7 @@
    "winPct": 25,
    "diff": -19,
    "ppg": 15.3,
-   "leagueRank": 193,
+   "leagueRank": 192,
    "rating": -2.6,
    "ratingGames": 4,
    "confidence": 41,
@@ -4981,7 +4981,7 @@
    "winPct": 25,
    "diff": -19,
    "ppg": 14.3,
-   "leagueRank": 192,
+   "leagueRank": 191,
    "rating": -1.7,
    "ratingGames": 4,
    "confidence": 34,
@@ -5010,7 +5010,7 @@
    "winPct": 25,
    "diff": -23,
    "ppg": 13.3,
-   "leagueRank": 194,
+   "leagueRank": 193,
    "rating": -1.4,
    "ratingGames": 4,
    "confidence": 39,
@@ -5135,35 +5135,6 @@
    "playerId": "cfe27f22-d878-4a3c-a680-7c04f44f5b0d"
   },
   {
-   "name": "Connie Tom",
-   "gender": "Female",
-   "team": "PickleRage Union County Net Ninjas",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 5,
-   "wins": 1,
-   "losses": 4,
-   "pointsWon": 81,
-   "totalPointsAgainst": 99,
-   "mixedWins": 1,
-   "mixedLosses": 1,
-   "genderWins": 0,
-   "genderLosses": 3,
-   "clutchWins": 0,
-   "clutchLosses": 1,
-   "winPct": 20,
-   "diff": -18,
-   "ppg": 16.2,
-   "leagueRank": 180,
-   "rating": -2,
-   "ratingGames": 5,
-   "confidence": 44,
-   "strengthOfPartners": -0.4,
-   "strengthOfOpponents": -0.2,
-   "playerId": "493b9730-cc53-4634-9561-49c6f1ddcb08"
-  },
-  {
    "name": "Helen Goh",
    "gender": "Female",
    "team": "Bounce Tempest",
@@ -5213,7 +5184,7 @@
    "winPct": 20,
    "diff": -23,
    "ppg": 16,
-   "leagueRank": 181,
+   "leagueRank": 180,
    "rating": -1.6,
    "ratingGames": 5,
    "confidence": 35,
@@ -5242,7 +5213,7 @@
    "winPct": 20,
    "diff": -23,
    "ppg": 15.2,
-   "leagueRank": 187,
+   "leagueRank": 186,
    "rating": -1.9,
    "ratingGames": 5,
    "confidence": 44,
@@ -5271,12 +5242,12 @@
    "winPct": 20,
    "diff": -24,
    "ppg": 15.8,
-   "leagueRank": 186,
-   "rating": -2.3,
+   "leagueRank": 185,
+   "rating": -2.2,
    "ratingGames": 5,
    "confidence": 44,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.2,
+   "strengthOfOpponents": 0.3,
    "playerId": "838de378-832d-4d6e-8e6a-44e1edb42719"
   },
   {
@@ -5300,7 +5271,7 @@
    "winPct": 20,
    "diff": -24,
    "ppg": 14.8,
-   "leagueRank": 188,
+   "leagueRank": 187,
    "rating": -1.4,
    "ratingGames": 5,
    "confidence": 41,
@@ -5329,7 +5300,7 @@
    "winPct": 20,
    "diff": -25,
    "ppg": 15.2,
-   "leagueRank": 190,
+   "leagueRank": 189,
    "rating": -1.8,
    "ratingGames": 5,
    "confidence": 41,
@@ -5358,7 +5329,7 @@
    "winPct": 20,
    "diff": -28,
    "ppg": 14.6,
-   "leagueRank": 195,
+   "leagueRank": 194,
    "rating": -2.8,
    "ratingGames": 5,
    "confidence": 46,
@@ -5387,7 +5358,7 @@
    "winPct": 20,
    "diff": -31,
    "ppg": 14.4,
-   "leagueRank": 198,
+   "leagueRank": 197,
    "rating": -2.1,
    "ratingGames": 5,
    "confidence": 39,
@@ -5417,7 +5388,7 @@
    "winPct": 20,
    "diff": -41,
    "ppg": 12.4,
-   "leagueRank": 204,
+   "leagueRank": 203,
    "rating": -3.1,
    "ratingGames": 5,
    "confidence": 42,
@@ -5474,7 +5445,7 @@
    "winPct": 16.7,
    "diff": -24,
    "ppg": 16.3,
-   "leagueRank": 191,
+   "leagueRank": 190,
    "rating": -2.1,
    "ratingGames": 6,
    "confidence": 48,
@@ -5532,7 +5503,7 @@
    "winPct": 16.7,
    "diff": -26,
    "ppg": 15.5,
-   "leagueRank": 189,
+   "leagueRank": 188,
    "rating": -1.7,
    "ratingGames": 6,
    "confidence": 49,
@@ -5561,7 +5532,7 @@
    "winPct": 16.7,
    "diff": -26,
    "ppg": 15.5,
-   "leagueRank": 185,
+   "leagueRank": 184,
    "rating": -1.4,
    "ratingGames": 6,
    "confidence": 49,
@@ -5619,7 +5590,7 @@
    "winPct": 16.7,
    "diff": -40,
    "ppg": 14,
-   "leagueRank": 196,
+   "leagueRank": 195,
    "rating": -2.4,
    "ratingGames": 6,
    "confidence": 43,
@@ -5648,7 +5619,7 @@
    "winPct": 14.3,
    "diff": -31,
    "ppg": 15.6,
-   "leagueRank": 182,
+   "leagueRank": 181,
    "rating": -0.9,
    "ratingGames": 7,
    "confidence": 45,
@@ -5677,7 +5648,7 @@
    "winPct": 14.3,
    "diff": -31,
    "ppg": 15.1,
-   "leagueRank": 183,
+   "leagueRank": 182,
    "rating": 0.3,
    "ratingGames": 7,
    "confidence": 45,
@@ -5706,7 +5677,7 @@
    "winPct": 14.3,
    "diff": -33,
    "ppg": 15.6,
-   "leagueRank": 184,
+   "leagueRank": 183,
    "rating": -1.3,
    "ratingGames": 7,
    "confidence": 51,
@@ -5735,7 +5706,7 @@
    "winPct": 14.3,
    "diff": -60,
    "ppg": 12.1,
-   "leagueRank": 205,
+   "leagueRank": 204,
    "rating": -2.6,
    "ratingGames": 7,
    "confidence": 52,
@@ -5996,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 326,
+   "leagueRank": 327,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6054,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 358,
+   "leagueRank": 360,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6257,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 357,
+   "leagueRank": 359,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6605,7 +6576,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 344,
+   "leagueRank": 345,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6837,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 339,
+   "leagueRank": 340,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6895,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 330,
+   "leagueRank": 331,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6982,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 364,
+   "leagueRank": 366,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7127,7 +7098,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 353,
+   "leagueRank": 354,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7156,7 +7127,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 346,
+   "leagueRank": 347,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7301,7 +7272,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 362,
+   "leagueRank": 364,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7359,7 +7330,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 345,
+   "leagueRank": 346,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7446,7 +7417,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 360,
+   "leagueRank": 362,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7475,7 +7446,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 342,
+   "leagueRank": 343,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7591,7 +7562,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 336,
+   "leagueRank": 337,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7678,7 +7649,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 354,
+   "leagueRank": 355,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7736,7 +7707,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 359,
+   "leagueRank": 361,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7852,7 +7823,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 333,
+   "leagueRank": 334,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7997,7 +7968,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 331,
+   "leagueRank": 332,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8026,7 +7997,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 343,
+   "leagueRank": 344,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8084,7 +8055,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 361,
+   "leagueRank": 363,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8374,7 +8345,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 348,
+   "leagueRank": 349,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8519,7 +8490,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 338,
+   "leagueRank": 339,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8548,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 355,
+   "leagueRank": 356,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8635,7 +8606,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 363,
+   "leagueRank": 365,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,13 +8693,42 @@
    "winPct": 0,
    "diff": -25,
    "ppg": 16,
-   "leagueRank": 203,
+   "leagueRank": 202,
    "rating": -2.1,
    "ratingGames": 5,
    "confidence": 44,
    "strengthOfPartners": -0.5,
    "strengthOfOpponents": 0.4,
    "playerId": "45973650-1f33-43dc-a0f1-1fce356962e0"
+  },
+  {
+   "name": "Connie Tom",
+   "gender": "Female",
+   "team": "PickleRage Union County Net Ninjas",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 4,
+   "wins": 0,
+   "losses": 4,
+   "pointsWon": 59,
+   "totalPointsAgainst": 84,
+   "mixedWins": 0,
+   "mixedLosses": 2,
+   "genderWins": 0,
+   "genderLosses": 2,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "winPct": 0,
+   "diff": -25,
+   "ppg": 14.8,
+   "leagueRank": 215,
+   "rating": -3,
+   "ratingGames": 4,
+   "confidence": 41,
+   "strengthOfPartners": -0.4,
+   "strengthOfOpponents": 0,
+   "playerId": "493b9730-cc53-4634-9561-49c6f1ddcb08"
   },
   {
    "name": "David Abiog",
@@ -8751,7 +8751,7 @@
    "winPct": 0,
    "diff": -25,
    "ppg": 16.8,
-   "leagueRank": 199,
+   "leagueRank": 198,
    "rating": -1.9,
    "ratingGames": 6,
    "confidence": 47,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": -27,
    "ppg": 16.5,
-   "leagueRank": 197,
+   "leagueRank": 196,
    "rating": -0.9,
    "ratingGames": 6,
    "confidence": 47,
@@ -8809,7 +8809,7 @@
    "winPct": 0,
    "diff": -30,
    "ppg": 13.5,
-   "leagueRank": 210,
+   "leagueRank": 209,
    "rating": -1.1,
    "ratingGames": 4,
    "confidence": 38,
@@ -8838,12 +8838,12 @@
    "winPct": 0,
    "diff": -32,
    "ppg": 14.6,
-   "leagueRank": 212,
+   "leagueRank": 210,
    "rating": -2.4,
    "ratingGames": 5,
    "confidence": 43,
-   "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 1,
+   "strengthOfPartners": 0,
+   "strengthOfOpponents": 1.1,
    "playerId": "1d2109cd-c3a4-44e8-b21a-5e0909045be1"
   },
   {
@@ -8867,7 +8867,7 @@
    "winPct": 0,
    "diff": -32,
    "ppg": 14.6,
-   "leagueRank": 208,
+   "leagueRank": 207,
    "rating": -2.1,
    "ratingGames": 5,
    "confidence": 44,
@@ -8896,7 +8896,7 @@
    "winPct": 0,
    "diff": -35,
    "ppg": 14,
-   "leagueRank": 214,
+   "leagueRank": 213,
    "rating": -2.2,
    "ratingGames": 5,
    "confidence": 44,
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": -36,
    "ppg": 13.8,
-   "leagueRank": 215,
+   "leagueRank": 214,
    "rating": -2.3,
    "ratingGames": 5,
    "confidence": 42,
@@ -9012,7 +9012,7 @@
    "winPct": 0,
    "diff": -38,
    "ppg": 13.4,
-   "leagueRank": 213,
+   "leagueRank": 212,
    "rating": -2.2,
    "ratingGames": 5,
    "confidence": 44,
@@ -9041,7 +9041,7 @@
    "winPct": 0,
    "diff": -39,
    "ppg": 15.4,
-   "leagueRank": 200,
+   "leagueRank": 199,
    "rating": -1,
    "ratingGames": 7,
    "confidence": 53,
@@ -9070,7 +9070,7 @@
    "winPct": 0,
    "diff": -41,
    "ppg": 14.2,
-   "leagueRank": 207,
+   "leagueRank": 206,
    "rating": -1.9,
    "ratingGames": 6,
    "confidence": 48,
@@ -9128,7 +9128,7 @@
    "winPct": 0,
    "diff": -41,
    "ppg": 15.1,
-   "leagueRank": 202,
+   "leagueRank": 201,
    "rating": -2.2,
    "ratingGames": 7,
    "confidence": 48,
@@ -9157,7 +9157,7 @@
    "winPct": 0,
    "diff": -41,
    "ppg": 15.1,
-   "leagueRank": 201,
+   "leagueRank": 200,
    "rating": -1.4,
    "ratingGames": 7,
    "confidence": 48,
@@ -9186,7 +9186,7 @@
    "winPct": 0,
    "diff": -42,
    "ppg": 14,
-   "leagueRank": 209,
+   "leagueRank": 208,
    "rating": -2.5,
    "ratingGames": 6,
    "confidence": 49,
@@ -9273,7 +9273,7 @@
    "winPct": 0,
    "diff": -46,
    "ppg": 14.4,
-   "leagueRank": 206,
+   "leagueRank": 205,
    "rating": -1.8,
    "ratingGames": 7,
    "confidence": 48,
@@ -9560,7 +9560,7 @@
    "gl": 13,
    "diff": 46,
    "gameDiff": 6,
-   "power": 0.3,
+   "power": 0.4,
    "powerRank": 1,
    "pod": 1,
    "reportedPod": "Northwest B",
@@ -9681,7 +9681,7 @@
    "diff": -57,
    "gameDiff": -2,
    "power": -0.3,
-   "powerRank": 2,
+   "powerRank": 3,
    "pod": 1,
    "reportedPod": "Northwest A",
    "podName": "Northeast / Northwest",
@@ -9770,8 +9770,8 @@
    "gl": 19,
    "diff": -46,
    "gameDiff": -6,
-   "power": -0.3,
-   "powerRank": 3,
+   "power": -0.2,
+   "powerRank": 2,
    "pod": 1,
    "reportedPod": "Northwest A",
    "podName": "Northeast / Northwest",
@@ -11487,7 +11487,7 @@
       "Robert Paniti"
      ],
      "a": [
-      "Cassie Lou",
+      "Connie Tom",
       "Jimmy Tom"
      ]
     },
@@ -11697,7 +11697,7 @@
       "Andy Pineda"
      ],
      "a": [
-      "Connie Tom",
+      "Kellie Roshak",
       "Jimmy Tom"
      ]
     },
@@ -11726,7 +11726,7 @@
      ],
      "a": [
       "Kellie Roshak",
-      "Connie Tom"
+      "Cassie Lou"
      ]
     },
     {
@@ -14703,7 +14703,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sherry Tomaino",
       "Christopher Sachs"
      ],
      "a": [
@@ -14725,7 +14725,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Nikki Nigro",
       "Reuben Zilber"
      ],
      "a": [
@@ -14736,8 +14736,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Tomaino",
+      "Nikki Nigro"
      ],
      "a": [
       "Eva Rodriguez",
@@ -14780,7 +14780,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sherry Tomaino",
       "Reuben Zilber"
      ],
      "a": [
@@ -14802,7 +14802,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Nikki Nigro",
       "Matthew Marciani"
      ],
      "a": [
@@ -14824,7 +14824,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Nikki Nigro",
       "Barbara Mccarron"
      ],
      "a": [
@@ -14836,7 +14836,7 @@
      "t": "female",
      "h": [
       "Suki Wong",
-      ""
+      "Sherry Tomaino"
      ],
      "a": [
       "Connie Tom",
@@ -14879,7 +14879,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sherry Tomaino",
       "Matthew Marciani"
      ],
      "a": [
@@ -14890,7 +14890,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Nikki Nigro",
       "Reuben Zilber"
      ],
      "a": [
@@ -14913,7 +14913,7 @@
      "t": "female",
      "h": [
       "Suki Wong",
-      ""
+      "Sherry Tomaino"
      ],
      "a": [
       "Kellie Roshak",
@@ -14924,7 +14924,7 @@
      "t": "female",
      "h": [
       "Barbara Mccarron",
-      ""
+      "Nikki Nigro"
      ],
      "a": [
       "Cassie Lou",
@@ -14978,8 +14978,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Matthew Marciani"
      ],
      "a": [
       "Huifang Yao",
@@ -14989,7 +14989,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sherry Tomaino",
       "Christopher Sachs"
      ],
      "a": [
@@ -15001,7 +15001,7 @@
      "t": "female",
      "h": [
       "Suki Wong",
-      ""
+      "Nikki Nigro"
      ],
      "a": [
       "Eva Rodriguez",
@@ -15011,7 +15011,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Sherry Tomaino",
       "Barbara Mccarron"
      ],
      "a": [
@@ -16869,7 +16869,7 @@
      ],
      "a": [
       "Adele Hackney",
-      "Jason Rosenberg"
+      "Andrew Frey"
      ]
     },
     {
@@ -16979,7 +16979,7 @@
      ],
      "a": [
       "Elizabeth Dailey",
-      "Jason Rosenberg"
+      "Andrew Frey"
      ]
     },
     {
@@ -17034,7 +17034,7 @@
      ],
      "a": [
       "Devin Kenny",
-      "Jason Rosenberg"
+      "Andrew Frey"
      ]
     },
     {
@@ -17111,7 +17111,7 @@
      ],
      "a": [
       "Steven Fernandez",
-      "Jason Rosenberg"
+      "Andrew Frey"
      ]
     },
     {
@@ -17133,7 +17133,7 @@
      ],
      "a": [
       "Adele Hackney",
-      "Jason Rosenberg"
+      "Andrew Frey"
      ]
     },
     {
@@ -19288,6 +19288,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Nikki Nigro": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
   "Thuy Pham": "03a5e799-1e53-41c8-b62c-99b338ab0b35",
   "Huifang Yao": "0678b5e4-cf92-49cb-8689-2d90cc356950",
   "Kathi Sheehan": "074e66af-6079-4c8e-aa69-e01f488ba5b0",
@@ -19311,6 +19312,7 @@
   "Claire Nguyen": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
   "Agnieszka Procner": "87f99a20-26ed-4aa8-88de-2842f5a4e389",
   "Deb Morisie": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
+  "Sherry Tomaino": "981ae183-14b1-4b7f-880e-8f03e94ca703",
   "John Dick": "a16c6053-9417-4888-ab5d-7c08b327c117",
   "Rodney Godwin": "ac299e7b-727b-439c-9f99-1bb4b1a5a6a9",
   "Nancy Pace": "b051e0af-ace0-4fa2-a58d-e4898c03fa95",
@@ -19430,7 +19432,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.836Z";
+  DATA.meta.asOf = "2026-08-31T18:36:13.360Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

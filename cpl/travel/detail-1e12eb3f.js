@@ -618,7 +618,7 @@
     "rank": 2,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -626,7 +626,7 @@
     "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
     "name": "Donna Facconerusin",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    }
   ]
  },
@@ -960,7 +960,7 @@
    {
     "week": 2,
     "rating": 5.1,
-    "confidence": 56,
+    "confidence": 55,
     "rank": 1,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
@@ -1393,7 +1393,7 @@
     "week": 2,
     "rating": 2.8,
     "confidence": 46,
-    "rank": 16,
+    "rank": 17,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -2.2
@@ -1991,7 +1991,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 52,
-    "rank": 77,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -2.1
@@ -2439,7 +2439,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 46,
-    "rank": 60,
+    "rank": 59,
     "ratingGames": 6,
     "strengthOfPartners": 2.4,
     "strengthOfOpponents": -0.4
@@ -3469,7 +3469,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 153,
+    "rank": 152,
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -2
@@ -3594,7 +3594,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 44,
-    "rank": 176,
+    "rank": 177,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.3
@@ -3710,12 +3710,12 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
-    "confidence": 41,
-    "rank": 80,
+    "rating": 1.6,
+    "confidence": 42,
+    "rank": 74,
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -5773,7 +5773,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 56,
-    "rank": 100,
+    "rank": 101,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -6714,7 +6714,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 68,
-    "rank": 83,
+    "rank": 82,
     "ratingGames": 14,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.9
@@ -6884,7 +6884,7 @@
     "week": 2,
     "rating": 2.8,
     "confidence": 49,
-    "rank": 15,
+    "rank": 16,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.8
@@ -7216,7 +7216,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 52,
-    "rank": 87,
+    "rank": 86,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.1
@@ -7539,7 +7539,7 @@
     "week": 2,
     "rating": 2.8,
     "confidence": 54,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.5
@@ -7871,7 +7871,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 52,
-    "rank": 88,
+    "rank": 87,
     "ratingGames": 7,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0
@@ -9650,9 +9650,9 @@
    },
    {
     "week": 2,
-    "rating": 2.7,
+    "rating": 2.8,
     "confidence": 67,
-    "rank": 17,
+    "rank": 14,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0
@@ -10221,7 +10221,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 52,
-    "rank": 102,
+    "rank": 103,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
@@ -10371,7 +10371,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 49,
-    "rank": 22,
+    "rank": 23,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -10978,7 +10978,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 150,
+    "rank": 149,
     "ratingGames": 6,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.2
@@ -11908,7 +11908,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 173,
+    "rank": 174,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.1
@@ -12558,7 +12558,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 303,
+    "rank": 302,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.7
@@ -13254,7 +13254,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 68,
-    "rank": 97,
+    "rank": 98,
     "ratingGames": 12,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.5
@@ -14080,7 +14080,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 64,
-    "rank": 167,
+    "rank": 168,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.6
@@ -14548,7 +14548,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 67,
-    "rank": 84,
+    "rank": 83,
     "ratingGames": 12,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -14667,7 +14667,7 @@
     "rank": 56,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -14782,9 +14782,9 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 43,
-    "rank": 79,
+    "rank": 80,
     "ratingGames": 4,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
    }
   ],
@@ -15101,11 +15101,11 @@
    },
    {
     "week": 2,
-    "rating": 2.5,
+    "rating": 2.6,
     "confidence": 67,
-    "rank": 24,
+    "rank": 20,
     "ratingGames": 15,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -15114,7 +15114,7 @@
     "pid": "17fc1097-95ae-4095-a83d-ca9124bef274",
     "name": "Karen Rosenberg",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    }
   ]
  },
@@ -15367,7 +15367,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 67,
-    "rank": 20,
+    "rank": 21,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -15624,7 +15624,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 65,
-    "rank": 85,
+    "rank": 84,
     "ratingGames": 11,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.7
@@ -16145,7 +16145,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 64,
-    "rank": 76,
+    "rank": 77,
     "ratingGames": 11,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.4
@@ -16991,7 +16991,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 66,
-    "rank": 21,
+    "rank": 22,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0
@@ -17309,7 +17309,7 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 68,
-    "rank": 23,
+    "rank": 24,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -18123,7 +18123,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 189,
+    "rank": 190,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -18364,7 +18364,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 61,
-    "rank": 169,
+    "rank": 170,
     "ratingGames": 10,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -18605,7 +18605,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 59,
-    "rank": 178,
+    "rank": 179,
     "ratingGames": 10,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0
@@ -19711,8 +19711,8 @@
     "confidence": 45,
     "rank": 34,
     "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -20688,7 +20688,7 @@
     "rank": 94,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -20983,7 +20983,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 174,
+    "rank": 175,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.9
@@ -21124,7 +21124,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 135,
+    "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -1.5
@@ -21274,7 +21274,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 50,
-    "rank": 134,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -21808,7 +21808,7 @@
     "confidence": 44,
     "rank": 197,
     "ratingGames": 4,
-    "strengthOfPartners": 1.2,
+    "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -21956,7 +21956,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 104,
+    "rank": 105,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -22406,7 +22406,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 51,
-    "rank": 181,
+    "rank": 182,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -22500,7 +22500,7 @@
     "with": "Blair Lane",
     "vs": [
      "Michael Salerno",
-     "Erick Matthijs"
+     "Frank Iacono"
     ],
     "f": 14,
     "a": 21,
@@ -22545,12 +22545,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.1,
+    "rating": -2,
     "confidence": 48,
     "rank": 319,
     "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.8
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -22838,7 +22838,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 50,
-    "rank": 78,
+    "rank": 79,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1
@@ -23143,7 +23143,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 69,
-    "rank": 74,
+    "rank": 75,
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -23459,9 +23459,9 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.3,
     "confidence": 68,
-    "rank": 82,
+    "rank": 90,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -23472,7 +23472,7 @@
     "pid": "4e4deaa6-3de9-450b-bfb2-1d86752d92ab",
     "name": "Mark Zamkoff",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1.2
    }
   ]
  },
@@ -24673,7 +24673,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 65,
-    "rank": 107,
+    "rank": 108,
     "ratingGames": 11,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.7
@@ -24937,7 +24937,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 61,
-    "rank": 86,
+    "rank": 85,
     "ratingGames": 11,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -25201,7 +25201,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 64,
-    "rank": 61,
+    "rank": 60,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.7
@@ -25722,7 +25722,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 65,
-    "rank": 98,
+    "rank": 99,
     "ratingGames": 11,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.1
@@ -26253,7 +26253,7 @@
     "rank": 263,
     "ratingGames": 11,
     "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -26261,7 +26261,7 @@
     "pid": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
     "name": "Nicole Tarallo",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    }
   ]
  },
@@ -26610,9 +26610,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.8,
+    "rating": 1.7,
     "confidence": 52,
-    "rank": 59,
+    "rank": 62,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.4
@@ -27170,7 +27170,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 187,
+    "rank": 188,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.5
@@ -27629,7 +27629,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 152,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1
@@ -28084,7 +28084,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 71,
-    "rank": 154,
+    "rank": 153,
     "ratingGames": 15,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.4
@@ -29003,7 +29003,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 105,
+    "rank": 106,
     "ratingGames": 5,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": -0.4
@@ -29137,7 +29137,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 186,
+    "rank": 187,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -29264,7 +29264,7 @@
     "confidence": 48,
     "rank": 159,
     "ratingGames": 5,
-    "strengthOfPartners": -0.4,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -29917,9 +29917,9 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.6,
     "confidence": 65,
-    "rank": 133,
+    "rank": 138,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.8
@@ -30752,7 +30752,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 61,
-    "rank": 99,
+    "rank": 100,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
@@ -31057,7 +31057,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 68,
-    "rank": 136,
+    "rank": 135,
     "ratingGames": 14,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 0.3
@@ -31236,7 +31236,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 182,
+    "rank": 183,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.7
@@ -31722,7 +31722,7 @@
     "confidence": 54,
     "rank": 19,
     "ratingGames": 7,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -31877,7 +31877,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 54,
-    "rank": 62,
+    "rank": 61,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.7
@@ -32518,7 +32518,7 @@
     "rank": 52,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 1.1
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -33748,7 +33748,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 65,
-    "rank": 75,
+    "rank": 76,
     "ratingGames": 11,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -34005,7 +34005,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 63,
-    "rank": 177,
+    "rank": 178,
     "ratingGames": 11,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -34784,7 +34784,7 @@
     "with": "Blair Lane",
     "vs": [
      "Cindy Rossine",
-     "Erick Matthijs"
+     "Frank Messina"
     ],
     "f": 21,
     "a": 16,
@@ -34822,9 +34822,9 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
-    "confidence": 67,
-    "rank": 148,
+    "rating": 0.4,
+    "confidence": 68,
+    "rank": 154,
     "ratingGames": 13,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -34841,7 +34841,7 @@
     "pid": "9ff56e0a-03ab-4488-b27d-24150e777b03",
     "name": "Blair Lane",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0
    },
    {
     "pid": "4e4deaa6-3de9-450b-bfb2-1d86752d92ab",
@@ -36875,7 +36875,7 @@
     "rank": 140,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -37147,7 +37147,7 @@
     "confidence": 63,
     "rank": 203,
     "ratingGames": 12,
-    "strengthOfPartners": 1.1,
+    "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -37314,7 +37314,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 170,
+    "rank": 171,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.7
@@ -38537,7 +38537,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 43,
-    "rank": 304,
+    "rank": 303,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.6
@@ -39088,7 +39088,7 @@
     "rank": 217,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -39390,7 +39390,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 68,
-    "rank": 166,
+    "rank": 167,
     "ratingGames": 14,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.2
@@ -39858,7 +39858,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 67,
-    "rank": 272,
+    "rank": 273,
     "ratingGames": 14,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.3
@@ -39879,17 +39879,17 @@
     "week": 2,
     "opp": "Life Time Red Bank",
     "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 98,
-    "pa": 115,
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 61,
+    "pa": 80,
     "mx": [
      1,
-     3
+     2
     ],
     "gn": [
-     2,
+     1,
      0
     ],
     "cl": [
@@ -39967,49 +39967,17 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Michael Salerno",
-    "vs": [
-     "David Mccarthy",
-     "Blair Lane"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Cindy Rossine",
-    "vs": [
-     "Erica Ruggieri",
-     "Blair Lane"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "ratingHistory": [
    {
     "week": 2,
     "rating": -0.9,
-    "confidence": 52,
-    "rank": 255,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.2
+    "confidence": 44,
+    "rank": 256,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -41135,7 +41103,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 64,
-    "rank": 168,
+    "rank": 169,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.6
@@ -41711,7 +41679,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 70,
-    "rank": 106,
+    "rank": 107,
     "ratingGames": 14,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.1
@@ -41884,7 +41852,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 50,
-    "rank": 171,
+    "rank": 172,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -42189,7 +42157,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 70,
-    "rank": 183,
+    "rank": 184,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -42359,7 +42327,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 53,
-    "rank": 101,
+    "rank": 102,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
@@ -42525,7 +42493,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 180,
+    "rank": 181,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
@@ -42980,7 +42948,7 @@
     "wk": 2,
     "opp": "Life Time Red Bank",
     "t": "mixed",
-    "with": "Erick Matthijs",
+    "with": "Frank Messina",
     "vs": [
      "Erica Ruggieri",
      "Blair Lane"
@@ -43012,11 +42980,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1,
+    "rating": 1.2,
     "confidence": 55,
-    "rank": 108,
+    "rank": 96,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -44464,11 +44432,11 @@
    },
    {
     "week": 2,
-    "rating": -1.3,
+    "rating": -1.2,
     "confidence": 67,
-    "rank": 273,
+    "rank": 266,
     "ratingGames": 12,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
    }
   ],
@@ -44477,7 +44445,7 @@
     "pid": "d3981774-293f-436c-96ce-b08158d31860",
     "name": "Daniel Ryan",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1.2
    },
    {
     "pid": "c9070b8b-ce6e-46e7-a724-bd168579c596",
@@ -44752,7 +44720,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 67,
-    "rank": 266,
+    "rank": 267,
     "ratingGames": 12,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -45564,7 +45532,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 46,
-    "rank": 89,
+    "rank": 88,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.1
@@ -45948,7 +45916,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 175,
+    "rank": 176,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.2
@@ -46191,7 +46159,7 @@
     "confidence": 62,
     "rank": 211,
     "ratingGames": 10,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -46884,7 +46852,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 68,
-    "rank": 137,
+    "rank": 136,
     "ratingGames": 13,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -47191,7 +47159,7 @@
     "pid": "67fe047d-4c6f-4a2b-9946-afdd938d18c8",
     "name": "Jennifer Makfinsky",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    }
   ]
  },
@@ -47476,7 +47444,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 68,
-    "rank": 138,
+    "rank": 137,
     "ratingGames": 13,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.3
@@ -47658,7 +47626,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 57,
-    "rank": 267,
+    "rank": 268,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.4
@@ -47840,7 +47808,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 54,
-    "rank": 96,
+    "rank": 97,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.4
@@ -48452,7 +48420,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 188,
+    "rank": 189,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1
@@ -49351,7 +49319,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 70,
-    "rank": 184,
+    "rank": 185,
     "ratingGames": 14,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.5
@@ -49642,7 +49610,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 192,
+    "rank": 193,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -50167,7 +50135,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 291,
+    "rank": 290,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -50467,7 +50435,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 50,
-    "rank": 191,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -50908,7 +50876,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 185,
+    "rank": 186,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.4
@@ -51358,7 +51326,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 299,
+    "rank": 298,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -51506,6 +51474,340 @@
    }
   ],
   "partners": []
+ },
+ "2cccc005-6a1a-4566-98be-15805e750e49": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 119,
+    "pa": 129,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 124,
+    "pa": 145,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Shari Gagliardo",
+    "vs": [
+     "Antoinette Mccormick",
+     "Richard Madonna"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "Michael Salerno",
+    "vs": [
+     "Richard Madonna",
+     "Bart Van Der Gaag"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Melissa Freedman",
+    "vs": [
+     "Jennifer Makfinsky",
+     "Richard Madonna"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Christina Zumbo-Zerega",
+    "vs": [
+     "Petra Jones",
+     "Victorino Ramos"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "Jonathan Gross",
+    "vs": [
+     "Freddy Alicea",
+     "Victorino Ramos"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Shari Gagliardo",
+    "vs": [
+     "Karen Rosenberg",
+     "Bart Van Der Gaag"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "Frank Leccese",
+    "vs": [
+     "Dmitry Strashnov",
+     "Elliot Fishman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Michele Iacono",
+    "vs": [
+     "Nicole Tarallo",
+     "Leo Decker"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Michael Salerno",
+    "vs": [
+     "Leo Decker",
+     "Daniel Ryan"
+    ],
+    "f": 4,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Sharon Rarig",
+    "vs": [
+     "Caroline Kinlin",
+     "Blair Lane"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Frank Leccese",
+    "vs": [
+     "Mark Zamkoff",
+     "Daniel Ryan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Shari Gagliardo",
+    "vs": [
+     "Donna Facconerusin",
+     "Daniel Ryan"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Michael Salerno",
+    "vs": [
+     "David Mccarthy",
+     "Blair Lane"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Michele Iacono",
+    "vs": [
+     "Nicole Tarallo",
+     "Mark Zamkoff"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Frank Messina",
+    "vs": [
+     "Leo Decker",
+     "David Mccarthy"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 53,
+    "rank": 143,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 72,
+    "rank": 166,
+    "ratingGames": 15,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "17772fc9-b0bb-456e-82a9-9b25ff7fbf09",
+    "name": "Shari Gagliardo",
+    "n": 3,
+    "synergy": 0.8
+   },
+   {
+    "pid": "d580012d-5954-4900-94db-82fa10dc97b0",
+    "name": "Michael Salerno",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
  },
  "9ff56e0a-03ab-4488-b27d-24150e777b03": {
   "log": [
@@ -51748,7 +52050,7 @@
     "with": "David Mccarthy",
     "vs": [
      "Michael Salerno",
-     "Erick Matthijs"
+     "Frank Iacono"
     ],
     "f": 14,
     "a": 21,
@@ -51764,7 +52066,7 @@
     "with": "Erica Ruggieri",
     "vs": [
      "Cindy Rossine",
-     "Erick Matthijs"
+     "Frank Messina"
     ],
     "f": 21,
     "a": 16,
@@ -51786,12 +52088,12 @@
    },
    {
     "week": 2,
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 68,
-    "rank": 289,
+    "rank": 295,
     "ratingGames": 13,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -51799,7 +52101,7 @@
     "pid": "c9070b8b-ce6e-46e7-a724-bd168579c596",
     "name": "Erica Ruggieri",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0
    }
   ]
  },
@@ -52036,7 +52338,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 61,
-    "rank": 313,
+    "rank": 314,
     "ratingGames": 10,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -52830,7 +53132,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 172,
+    "rank": 173,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -53310,325 +53612,13 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 149,
+    "rank": 148,
     "ratingGames": 7,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
- },
- "2cccc005-6a1a-4566-98be-15805e750e49": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 119,
-    "pa": 129,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Life Time Red Bank",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 103,
-    "pa": 131,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Shari Gagliardo",
-    "vs": [
-     "Antoinette Mccormick",
-     "Richard Madonna"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "Michael Salerno",
-    "vs": [
-     "Richard Madonna",
-     "Bart Van Der Gaag"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Melissa Freedman",
-    "vs": [
-     "Jennifer Makfinsky",
-     "Richard Madonna"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Christina Zumbo-Zerega",
-    "vs": [
-     "Petra Jones",
-     "Victorino Ramos"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "Jonathan Gross",
-    "vs": [
-     "Freddy Alicea",
-     "Victorino Ramos"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Shari Gagliardo",
-    "vs": [
-     "Karen Rosenberg",
-     "Bart Van Der Gaag"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "Frank Leccese",
-    "vs": [
-     "Dmitry Strashnov",
-     "Elliot Fishman"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Michele Iacono",
-    "vs": [
-     "Nicole Tarallo",
-     "Leo Decker"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Michael Salerno",
-    "vs": [
-     "Leo Decker",
-     "Daniel Ryan"
-    ],
-    "f": 4,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Sharon Rarig",
-    "vs": [
-     "Caroline Kinlin",
-     "Blair Lane"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Frank Leccese",
-    "vs": [
-     "Mark Zamkoff",
-     "Daniel Ryan"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Shari Gagliardo",
-    "vs": [
-     "Donna Facconerusin",
-     "Daniel Ryan"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Michele Iacono",
-    "vs": [
-     "Nicole Tarallo",
-     "Mark Zamkoff"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Frank Messina",
-    "vs": [
-     "Leo Decker",
-     "David Mccarthy"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.4,
-    "confidence": 53,
-    "rank": 143,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 2,
-    "rating": -0.2,
-    "confidence": 71,
-    "rank": 193,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.9
-   }
-  ],
-  "partners": [
-   {
-    "pid": "17772fc9-b0bb-456e-82a9-9b25ff7fbf09",
-    "name": "Shari Gagliardo",
-    "n": 3,
-    "synergy": 1
-   }
-  ]
  },
  "89740069-e9bc-4808-9d13-e7365f65169d": {
   "log": [
@@ -54878,7 +54868,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 66,
-    "rank": 312,
+    "rank": 313,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -54996,7 +54986,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 42,
-    "rank": 305,
+    "rank": 304,
     "ratingGames": 4,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -55114,7 +55104,7 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 40,
-    "rank": 344,
+    "rank": 343,
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -55230,12 +55220,12 @@
    },
    {
     "week": 2,
-    "rating": -1.9,
+    "rating": -1.8,
     "confidence": 39,
-    "rank": 315,
+    "rank": 311,
     "ratingGames": 4,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -55719,7 +55709,7 @@
     "wk": 2,
     "opp": "Life Time Red Bank",
     "t": "male",
-    "with": "Erick Matthijs",
+    "with": "Frank Iacono",
     "vs": [
      "David Mccarthy",
      "Blair Lane"
@@ -55776,15 +55766,22 @@
    },
    {
     "week": 2,
-    "rating": -1.7,
+    "rating": -1.8,
     "confidence": 67,
-    "rank": 297,
+    "rank": 306,
     "ratingGames": 12,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.1
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "2cccc005-6a1a-4566-98be-15805e750e49",
+    "name": "Frank Iacono",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
  },
  "15778391-96b7-4888-9d08-d63b96e104ca": {
   "log": [
@@ -56506,7 +56503,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 55,
-    "rank": 290,
+    "rank": 289,
     "ratingGames": 8,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -57402,7 +57399,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 71,
-    "rank": 90,
+    "rank": 89,
     "ratingGames": 14,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.2
@@ -57730,7 +57727,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 70,
-    "rank": 311,
+    "rank": 312,
     "ratingGames": 14,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -58432,7 +58429,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 47,
-    "rank": 151,
+    "rank": 150,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
@@ -58575,7 +58572,7 @@
     "confidence": 51,
     "rank": 43,
     "ratingGames": 6,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 2
    }
   ],
@@ -59243,7 +59240,7 @@
     "week": 2,
     "rating": -3.5,
     "confidence": 48,
-    "rank": 354,
+    "rank": 355,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -59377,7 +59374,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 256,
+    "rank": 255,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.5
@@ -59618,7 +59615,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 64,
-    "rank": 328,
+    "rank": 329,
     "ratingGames": 10,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.1
@@ -60375,8 +60372,8 @@
     "confidence": 63,
     "rank": 320,
     "ratingGames": 10,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -60384,7 +60381,7 @@
     "pid": "2cccc005-6a1a-4566-98be-15805e750e49",
     "name": "Frank Iacono",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.8
    }
   ]
  },
@@ -61279,7 +61276,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 48,
-    "rank": 103,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 2
@@ -62152,7 +62149,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 50,
-    "rank": 190,
+    "rank": 191,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.9
@@ -62441,9 +62438,9 @@
    },
    {
     "week": 2,
-    "rating": -3.6,
+    "rating": -3.5,
     "confidence": 50,
-    "rank": 356,
+    "rank": 354,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
@@ -62584,7 +62581,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 292,
+    "rank": 291,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -63025,7 +63022,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 302,
+    "rank": 301,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -63166,151 +63163,10 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 301,
+    "rank": 300,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": []
- },
- "555bc2a7-4111-4cde-bc1d-30dbec8fbd9f": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Life Time Red Bank",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 82,
-    "pa": 124,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Shari Gagliardo",
-    "vs": [
-     "Marie Walsh Mccarty",
-     "Daniel Ryan"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Erick Matthijs",
-    "vs": [
-     "Blair Lane",
-     "Mark Zamkoff"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Michael Salerno",
-    "vs": [
-     "Blair Lane",
-     "David Mccarthy"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "mixed",
-    "with": "Lucille Licciardello",
-    "vs": [
-     "Nicole Tarallo",
-     "Blair Lane"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Frank Leccese",
-    "vs": [
-     "Leo Decker",
-     "Daniel Ryan"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "male",
-    "with": "Frank Iacono",
-    "vs": [
-     "Leo Decker",
-     "David Mccarthy"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -2.7,
-    "confidence": 51,
-    "rank": 341,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -63580,7 +63436,7 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 66,
-    "rank": 343,
+    "rank": 342,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -64795,7 +64651,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 43,
-    "rank": 314,
+    "rank": 315,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -64950,12 +64806,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.4,
-    "confidence": 54,
-    "rank": 330,
+    "rating": -2.3,
+    "confidence": 53,
+    "rank": 328,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -65118,10 +64974,167 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 54,
-    "rank": 329,
+    "rank": 330,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "555bc2a7-4111-4cde-bc1d-30dbec8fbd9f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 98,
+    "pa": 145,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Shari Gagliardo",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Daniel Ryan"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Erick Matthijs",
+    "vs": [
+     "Blair Lane",
+     "Mark Zamkoff"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Michael Salerno",
+    "vs": [
+     "Blair Lane",
+     "David Mccarthy"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Lucille Licciardello",
+    "vs": [
+     "Nicole Tarallo",
+     "Blair Lane"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Frank Leccese",
+    "vs": [
+     "Leo Decker",
+     "Daniel Ryan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "mixed",
+    "with": "Cindy Rossine",
+    "vs": [
+     "Erica Ruggieri",
+     "Blair Lane"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "male",
+    "with": "Frank Iacono",
+    "vs": [
+     "Leo Decker",
+     "David Mccarthy"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -3.2,
+    "confidence": 54,
+    "rank": 347,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -65612,7 +65625,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 54,
-    "rank": 179,
+    "rank": 180,
     "ratingGames": 8,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -65794,7 +65807,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 53,
-    "rank": 269,
+    "rank": 270,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1
@@ -66292,7 +66305,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 65,
-    "rank": 342,
+    "rank": 341,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.6
@@ -66906,7 +66919,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 67,
-    "rank": 271,
+    "rank": 272,
     "ratingGames": 14,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.9
@@ -67418,7 +67431,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 40,
-    "rank": 306,
+    "rank": 305,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.3
@@ -67700,7 +67713,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 51,
-    "rank": 300,
+    "rank": 299,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.4
@@ -67857,7 +67870,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 49,
-    "rank": 270,
+    "rank": 271,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
@@ -68439,7 +68452,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 48,
-    "rank": 293,
+    "rank": 292,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.6
@@ -68564,7 +68577,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 48,
-    "rank": 294,
+    "rank": 293,
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.5
@@ -68689,7 +68702,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 45,
-    "rank": 295,
+    "rank": 294,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.3
@@ -69380,7 +69393,7 @@
     "week": 2,
     "rating": -3.5,
     "confidence": 46,
-    "rank": 355,
+    "rank": 356,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.3
@@ -69537,7 +69550,7 @@
     "week": 2,
     "rating": -3.1,
     "confidence": 50,
-    "rank": 346,
+    "rank": 345,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.4
@@ -69710,7 +69723,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 55,
-    "rank": 268,
+    "rank": 269,
     "ratingGames": 8,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 1
@@ -70033,7 +70046,7 @@
     "week": 2,
     "rating": -3.1,
     "confidence": 48,
-    "rank": 347,
+    "rank": 346,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 1.1
@@ -70242,7 +70255,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 58,
-    "rank": 298,
+    "rank": 297,
     "ratingGames": 8,
     "strengthOfPartners": -2.7,
     "strengthOfOpponents": 0.5
@@ -72284,7 +72297,7 @@
     "week": 2,
     "rating": -3.1,
     "confidence": 63,
-    "rank": 345,
+    "rank": 344,
     "ratingGames": 11,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8

@@ -101,9 +101,9 @@
       "weekNumber": 2,
       "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
       "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 639,
+      "awayPoints": 612,
+      "endResult": "home",
       "scheduledTime": "2026-08-29T14:00:00",
       "homeName": "Pickle Place",
       "awayName": "Bounce Malvern Boom"

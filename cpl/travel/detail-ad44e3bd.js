@@ -932,7 +932,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Denise Stevens",
      "Kathleen Rex"
@@ -1890,7 +1890,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Kathleen Rex",
      "Lynn Hauth"
@@ -2174,7 +2174,7 @@
     "t": "female",
     "with": "Trena Hahn",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Jenny Lin"
     ],
     "f": 21,
@@ -2191,7 +2191,7 @@
     "with": "Darlene Fusco",
     "vs": [
      "Tanyalak Sawangpak",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 21,
     "a": 19,
@@ -2581,7 +2581,7 @@
     "t": "female",
     "with": "Christine Steigerwalt",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Jenny Lin"
     ],
     "f": 21,
@@ -3063,7 +3063,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Darlene Fusco",
      "Charlie Trapasso"
@@ -4492,7 +4492,7 @@
     "with": "Maureen Murphy",
     "vs": [
      "Lynne Silber",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 21,
     "a": 12,
@@ -4617,7 +4617,7 @@
     "with": "Susan Hughes",
     "vs": [
      "Lynne Silber",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 21,
     "a": 12,
@@ -5427,7 +5427,7 @@
     "t": "female",
     "with": "Jean Dalstad",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Tanyalak Sawangpak"
     ],
     "f": 13,
@@ -6322,7 +6322,7 @@
     "with": "Charlie Trapasso",
     "vs": [
      "Lay Wassana",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 12,
     "a": 21,
@@ -6370,7 +6370,7 @@
     "with": "Christine Steigerwalt",
     "vs": [
      "Tanyalak Sawangpak",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 21,
     "a": 19,
@@ -6463,7 +6463,7 @@
     "with": "Darlene Fusco",
     "vs": [
      "Lay Wassana",
-     "Nicole Nigro"
+     "Nikki Nigro"
     ],
     "f": 12,
     "a": 21,
@@ -7026,7 +7026,7 @@
     "t": "female",
     "with": "Denise Stevens",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Sushma Rayapudi"
     ],
     "f": 22,
@@ -7058,7 +7058,7 @@
     "t": "female",
     "with": "Lynn Hauth",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Rani Borusu"
     ],
     "f": 14,
@@ -7135,7 +7135,7 @@
     "t": "female",
     "with": "Mary Marger",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Tanyalak Sawangpak"
     ],
     "f": 13,
@@ -7258,7 +7258,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Jean Dalstad",
      "Mary Marger"
@@ -7354,7 +7354,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Christine Steigerwalt",
      "Darlene Fusco"
@@ -7965,7 +7965,7 @@
     "t": "female",
     "with": "Kathleen Rex",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Sushma Rayapudi"
     ],
     "f": 22,
@@ -8293,7 +8293,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Trena Hahn",
      "Christine Steigerwalt"
@@ -8498,7 +8498,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nicole Nigro",
+    "with": "Nikki Nigro",
     "vs": [
      "Maureen Murphy",
      "Susan Hughes"
@@ -9628,7 +9628,7 @@
     "t": "female",
     "with": "Kathleen Rex",
     "vs": [
-     "Nicole Nigro",
+     "Nikki Nigro",
      "Rani Borusu"
     ],
     "f": 14,

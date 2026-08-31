@@ -9268,7 +9268,6 @@
    "away": "Bounce Malvern Boom",
    "time": "2026-08-29T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 639,
    "awayPoints": 612,
    "homeGW": 20,
@@ -11169,7 +11168,7 @@
  },
  "meta": {
   "matchesPlayed": 10,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-2",
   "totalPlayers": 184,
   "ratingHistoryWeeks": [
@@ -11232,7 +11231,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.799Z";
+  DATA.meta.asOf = "2026-08-31T18:35:56.468Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

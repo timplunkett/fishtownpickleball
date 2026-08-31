@@ -274,7 +274,7 @@
     "week": 1,
     "rating": 2.8,
     "confidence": 44,
-    "rank": 7,
+    "rank": 6,
     "ratingGames": 5,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.8
@@ -1103,7 +1103,7 @@
    {
     "week": 1,
     "rating": 2.3,
-    "confidence": 49,
+    "confidence": 48,
     "rank": 17,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
@@ -2027,7 +2027,7 @@
     "week": 1,
     "rating": 2.8,
     "confidence": 46,
-    "rank": 6,
+    "rank": 5,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.1
@@ -2620,7 +2620,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 26,
-    "rank": 108,
+    "rank": 109,
     "ratingGames": 2,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -5286,7 +5286,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 102,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
@@ -5568,7 +5568,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 49,
-    "rank": 86,
+    "rank": 88,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -5709,7 +5709,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 46,
-    "rank": 145,
+    "rank": 146,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.6
@@ -5848,12 +5848,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1.2,
-    "confidence": 46,
-    "rank": 55,
+    "rating": 1.1,
+    "confidence": 45,
+    "rank": 58,
     "ratingGames": 6,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -6132,7 +6132,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 44,
-    "rank": 79,
+    "rank": 81,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -6521,11 +6521,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 2.9,
-    "confidence": 44,
-    "rank": 5,
+    "rating": 2.8,
+    "confidence": 43,
+    "rank": 7,
     "ratingGames": 5,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -7605,8 +7605,8 @@
     "confidence": 36,
     "rank": 29,
     "ratingGames": 4,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -7869,7 +7869,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 51,
-    "rank": 109,
+    "rank": 110,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.7
@@ -8026,7 +8026,7 @@
     "week": 1,
     "rating": 1.9,
     "confidence": 50,
-    "rank": 22,
+    "rank": 23,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
@@ -8747,7 +8747,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 50,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1
@@ -8792,7 +8792,7 @@
     "t": "mixed",
     "with": "Robert Paniti",
     "vs": [
-     "Cassie Lou",
+     "Connie Tom",
      "Jimmy Tom"
     ],
     "f": 21,
@@ -8841,7 +8841,7 @@
     "with": "Alyssa Beattie",
     "vs": [
      "Kellie Roshak",
-     "Connie Tom"
+     "Cassie Lou"
     ],
     "f": 21,
     "a": 12,
@@ -8886,9 +8886,9 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1.9,
+    "rating": 2,
     "confidence": 47,
-    "rank": 23,
+    "rank": 22,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -9593,7 +9593,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 43,
-    "rank": 80,
+    "rank": 82,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -9875,7 +9875,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 144,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.7
@@ -10018,7 +10018,7 @@
     "confidence": 47,
     "rank": 54,
     "ratingGames": 6,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -10298,7 +10298,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 45,
-    "rank": 56,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
@@ -10439,7 +10439,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 46,
-    "rank": 58,
+    "rank": 57,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.9
@@ -10705,7 +10705,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 42,
-    "rank": 89,
+    "rank": 90,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
@@ -11205,7 +11205,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 41,
-    "rank": 82,
+    "rank": 84,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -11248,7 +11248,7 @@
     "wk": 1,
     "opp": "Home Court",
     "t": "mixed",
-    "with": "Cassie Lou",
+    "with": "Connie Tom",
     "vs": [
      "Rosellen Perlowitz",
      "Robert Paniti"
@@ -11280,7 +11280,7 @@
     "wk": 1,
     "opp": "Home Court",
     "t": "mixed",
-    "with": "Connie Tom",
+    "with": "Kellie Roshak",
     "vs": [
      "Emiliya Mizrahi",
      "Andy Pineda"
@@ -11328,11 +11328,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 44,
-    "rank": 88,
+    "rank": 96,
     "ratingGames": 5,
-    "strengthOfPartners": 0,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -11580,7 +11580,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 149,
+    "rank": 150,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.8
@@ -11705,7 +11705,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 45,
-    "rank": 124,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
@@ -11828,12 +11828,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.1,
+    "rating": 0,
     "confidence": 39,
-    "rank": 126,
+    "rank": 121,
     "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -12080,7 +12080,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 148,
+    "rank": 149,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -12328,11 +12328,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.3,
+    "rating": 0.2,
     "confidence": 43,
-    "rank": 104,
+    "rank": 108,
     "ratingGames": 5,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -12801,10 +12801,167 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 50,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "fd9c829a-50de-40a1-8342-7a6afe0fc7b4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 132,
+    "pa": 126,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Freddy Li",
+    "vs": [
+     "Patricia Majowicz",
+     "Brian Perlowitz"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Eva Rodriguez",
+    "vs": [
+     "Alyssa Beattie",
+     "Rosellen Perlowitz"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jayson Lee",
+    "vs": [
+     "Alyssa Beattie",
+     "Marvin Lao"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jimmy Tom",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Andy Pineda"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Cassie Lou",
+    "vs": [
+     "Alyssa Beattie",
+     "Rosellen Perlowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Freddy Li",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Andy Pineda"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Eva Rodriguez",
+    "vs": [
+     "Rosellen Perlowitz",
+     "Emiliya Mizrahi"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 49,
+    "rank": 78,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -13051,7 +13208,7 @@
     "t": "mixed",
     "with": "Andy Pineda",
     "vs": [
-     "Connie Tom",
+     "Kellie Roshak",
      "Jimmy Tom"
     ],
     "f": 15,
@@ -13113,12 +13270,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.6,
+    "rating": -0.5,
     "confidence": 51,
-    "rank": 150,
+    "rank": 143,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -13256,7 +13413,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 101,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -13647,7 +13804,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 78,
+    "rank": 80,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
@@ -14427,11 +14584,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.5,
+    "rating": -0.3,
     "confidence": 50,
-    "rank": 142,
+    "rank": 134,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -14570,7 +14727,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 85,
+    "rank": 87,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
@@ -15102,7 +15259,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 42,
-    "rank": 81,
+    "rank": 83,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -15243,150 +15400,9 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 45,
-    "rank": 87,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "fd9c829a-50de-40a1-8342-7a6afe0fc7b4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 111,
-    "pa": 111,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Freddy Li",
-    "vs": [
-     "Patricia Majowicz",
-     "Brian Perlowitz"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Eva Rodriguez",
-    "vs": [
-     "Alyssa Beattie",
-     "Rosellen Perlowitz"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jayson Lee",
-    "vs": [
-     "Alyssa Beattie",
-     "Marvin Lao"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Connie Tom",
-    "vs": [
-     "Alyssa Beattie",
-     "Rosellen Perlowitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Freddy Li",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Andy Pineda"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Eva Rodriguez",
-    "vs": [
-     "Rosellen Perlowitz",
-     "Emiliya Mizrahi"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.1,
-    "confidence": 46,
-    "rank": 113,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
    }
   ],
@@ -15525,7 +15541,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 112,
+    "rank": 113,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -15666,7 +15682,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 77,
+    "rank": 79,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
@@ -15807,7 +15823,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 160,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -16089,7 +16105,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 50,
-    "rank": 122,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.1
@@ -16403,7 +16419,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 51,
-    "rank": 121,
+    "rank": 122,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.8
@@ -17156,7 +17172,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 51,
-    "rank": 90,
+    "rank": 91,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -17313,7 +17329,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 134,
+    "rank": 133,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.2
@@ -17596,7 +17612,7 @@
     "with": "Rosellen Perlowitz",
     "vs": [
      "Kellie Roshak",
-     "Connie Tom"
+     "Cassie Lou"
     ],
     "f": 21,
     "a": 12,
@@ -17625,12 +17641,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.4,
+    "rating": 0.6,
     "confidence": 50,
-    "rank": 91,
+    "rank": 77,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -17784,7 +17800,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 143,
+    "rank": 144,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
@@ -18032,12 +18048,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.4,
+    "rating": 0.3,
     "confidence": 38,
-    "rank": 97,
+    "rank": 103,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -18159,7 +18175,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 44,
-    "rank": 147,
+    "rank": 148,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
@@ -18284,7 +18300,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 39,
-    "rank": 83,
+    "rank": 85,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.7
@@ -19284,7 +19300,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 46,
-    "rank": 146,
+    "rank": 147,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -19409,7 +19425,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 43,
-    "rank": 96,
+    "rank": 97,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.4
@@ -19534,7 +19550,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 47,
-    "rank": 163,
+    "rank": 164,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -19611,7 +19627,7 @@
     "t": "mixed",
     "with": "Emiliya Mizrahi",
     "vs": [
-     "Connie Tom",
+     "Kellie Roshak",
      "Jimmy Tom"
     ],
     "f": 15,
@@ -19657,12 +19673,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.1,
-    "confidence": 43,
-    "rank": 164,
+    "rating": -0.9,
+    "confidence": 44,
+    "rank": 158,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -20411,11 +20427,11 @@
    {
     "week": 1,
     "rating": -1.7,
-    "confidence": 47,
+    "confidence": 48,
     "rank": 185,
     "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -20553,7 +20569,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 48,
-    "rank": 123,
+    "rank": 124,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -20739,7 +20755,7 @@
     "t": "mixed",
     "with": "Rosellen Perlowitz",
     "vs": [
-     "Cassie Lou",
+     "Connie Tom",
      "Jimmy Tom"
     ],
     "f": 21,
@@ -20833,12 +20849,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.3,
-    "confidence": 49,
-    "rank": 100,
+    "rating": 0.2,
+    "confidence": 48,
+    "rank": 105,
     "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -21117,7 +21133,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 48,
-    "rank": 105,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1
@@ -21540,7 +21556,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 46,
-    "rank": 197,
+    "rank": 198,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.2
@@ -21681,7 +21697,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 111,
+    "rank": 112,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1
@@ -21822,7 +21838,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 48,
-    "rank": 196,
+    "rank": 197,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -22541,11 +22557,11 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.3,
-    "confidence": 53,
-    "rank": 133,
+    "rating": -0.5,
+    "confidence": 52,
+    "rank": 142,
     "ratingGames": 7,
-    "strengthOfPartners": -1.2,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -23139,7 +23155,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 53,
-    "rank": 84,
+    "rank": 86,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -23156,15 +23172,15 @@
     "w": 1,
     "l": 3,
     "gp": 4,
-    "pf": 69,
+    "pf": 70,
     "pa": 82,
     "mx": [
      1,
-     2
+     1
     ],
     "gn": [
      0,
-     1
+     2
     ],
     "cl": [
      1,
@@ -23178,22 +23194,6 @@
    }
   ],
   "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jimmy Tom",
-    "vs": [
-     "Rosellen Perlowitz",
-     "Robert Paniti"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
    {
     "wk": 1,
     "opp": "Home Court",
@@ -23241,17 +23241,33 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Kellie Roshak",
+    "vs": [
+     "Alyssa Beattie",
+     "Rosellen Perlowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2.1,
+    "rating": -1.8,
     "confidence": 40,
-    "rank": 203,
+    "rank": 190,
     "ratingGames": 4,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -23421,7 +23437,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 56,
-    "rank": 57,
+    "rank": 56,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
@@ -23530,7 +23546,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 161,
+    "rank": 162,
     "ratingGames": 4,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -23639,7 +23655,7 @@
     "week": 1,
     "rating": -2.6,
     "confidence": 41,
-    "rank": 215,
+    "rank": 214,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.3
@@ -24107,7 +24123,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 43,
-    "rank": 125,
+    "rank": 126,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.2
@@ -24232,7 +24248,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 158,
+    "rank": 159,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -24365,131 +24381,6 @@
   ],
   "partners": []
  },
- "493b9730-cc53-4634-9561-49c6f1ddcb08": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 81,
-    "pa": 99,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Cassie Lou",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Patricia Majowicz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Carlos Echenique",
-    "vs": [
-     "Patricia Majowicz",
-     "Andy Pineda"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Holly Siu",
-    "vs": [
-     "Danica Bramschreiber",
-     "Emiliya Mizrahi"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jimmy Tom",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Andy Pineda"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Kellie Roshak",
-    "vs": [
-     "Alyssa Beattie",
-     "Rosellen Perlowitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2,
-    "confidence": 44,
-    "rank": 198,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
  "45230dff-64e7-49b9-b211-595fad5c3e40": {
   "log": [
    {
@@ -24607,7 +24498,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 46,
-    "rank": 192,
+    "rank": 193,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -24857,7 +24748,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 44,
-    "rank": 195,
+    "rank": 196,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
@@ -24980,12 +24871,12 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2.3,
+    "rating": -2.2,
     "confidence": 44,
-    "rank": 209,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -25357,7 +25248,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 46,
-    "rank": 216,
+    "rank": 215,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.3
@@ -25482,7 +25373,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 39,
-    "rank": 204,
+    "rank": 203,
     "ratingGames": 5,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": 0.1
@@ -26030,7 +25921,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 45,
-    "rank": 193,
+    "rank": 194,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -26594,7 +26485,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 43,
-    "rank": 211,
+    "rank": 210,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -26908,7 +26799,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 103,
+    "rank": 102,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.7
@@ -27222,7 +27113,7 @@
     "week": 1,
     "rating": -2.6,
     "confidence": 52,
-    "rank": 214,
+    "rank": 213,
     "ratingGames": 7,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -27589,6 +27480,115 @@
   ],
   "partners": []
  },
+ "493b9730-cc53-4634-9561-49c6f1ddcb08": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "A",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 59,
+    "pa": 84,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jimmy Tom",
+    "vs": [
+     "Rosellen Perlowitz",
+     "Robert Paniti"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Cassie Lou",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Patricia Majowicz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Carlos Echenique",
+    "vs": [
+     "Patricia Majowicz",
+     "Andy Pineda"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Holly Siu",
+    "vs": [
+     "Danica Bramschreiber",
+     "Emiliya Mizrahi"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3,
+    "confidence": 41,
+    "rank": 218,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
  "d2679852-b0e5-4853-abdf-3253a22fdea4": {
   "log": [
    {
@@ -27722,7 +27722,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 47,
-    "rank": 191,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -28097,10 +28097,10 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 43,
-    "rank": 212,
+    "rank": 211,
     "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -28347,7 +28347,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 44,
-    "rank": 207,
+    "rank": 206,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.7
@@ -28472,7 +28472,7 @@
     "week": 1,
     "rating": -2.3,
     "confidence": 42,
-    "rank": 210,
+    "rank": 209,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.3
@@ -28597,7 +28597,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 44,
-    "rank": 194,
+    "rank": 195,
     "ratingGames": 5,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.2
@@ -28847,7 +28847,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 44,
-    "rank": 206,
+    "rank": 205,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.1
@@ -29004,7 +29004,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 53,
-    "rank": 159,
+    "rank": 160,
     "ratingGames": 7,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.3
@@ -29145,7 +29145,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 190,
+    "rank": 191,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1
@@ -29270,7 +29270,7 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 42,
-    "rank": 218,
+    "rank": 217,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.2
@@ -29427,7 +29427,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 48,
-    "rank": 205,
+    "rank": 204,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -29725,7 +29725,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 213,
+    "rank": 212,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.1
@@ -30382,7 +30382,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 46,
-    "rank": 217,
+    "rank": 216,
     "ratingGames": 5,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
