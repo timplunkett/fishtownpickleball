@@ -149,7 +149,7 @@
     "week": 2,
     "rating": 3.2,
     "confidence": 50,
-    "rank": 2,
+    "rank": 3,
     "ratingGames": 7,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -2.3
@@ -306,10 +306,167 @@
     "week": 2,
     "rating": 3.6,
     "confidence": 52,
-    "rank": 1,
+    "rank": 2,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.5
+   }
+  ],
+  "partners": []
+ },
+ "58e052c4-6ab5-46a7-8e6c-6c7a465262e5": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 80,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Aimee Castellano",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Bob Castellano",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Denise Richmond",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Bob Castellano",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Bob Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Stacy Garretson",
+     "Bob Castellano"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Gary Garretson",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 3.6,
+    "confidence": 53,
+    "rank": 1,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -479,10 +636,167 @@
     "week": 2,
     "rating": 2.5,
     "confidence": 53,
-    "rank": 7,
+    "rank": 9,
     "ratingGames": 8,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -1.9
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.7
+   }
+  ],
+  "partners": []
+ },
+ "37a0fa2c-df0b-4d92-900b-a9f20f441ad8": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 85,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Stacy Garretson",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Bob Castellano",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Gary Garretson",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Stacy Garretson",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Steven Gregov",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Aimee Castellano",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Gary Garretson",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2.6,
+    "confidence": 47,
+    "rank": 8,
+    "ratingGames": 7,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -650,11 +964,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 2.4,
+    "rating": 2.3,
     "confidence": 58,
-    "rank": 8,
+    "rank": 13,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
+    "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.5
    }
   ],
@@ -818,10 +1132,10 @@
     "week": 2,
     "rating": 3.2,
     "confidence": 47,
-    "rank": 3,
+    "rank": 4,
     "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -982,12 +1296,12 @@
    },
    {
     "week": 2,
-    "rating": 1.7,
+    "rating": 1.8,
     "confidence": 49,
-    "rank": 18,
+    "rank": 21,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -2.2
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -2.1
    }
   ],
   "partners": []
@@ -1150,10 +1464,10 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 51,
-    "rank": 10,
+    "rank": 12,
     "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -1.6
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -1275,7 +1589,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 47,
-    "rank": 13,
+    "rank": 17,
     "ratingGames": 5,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -2
@@ -1439,12 +1753,12 @@
    },
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.4,
     "confidence": 56,
-    "rank": 27,
+    "rank": 29,
     "ratingGames": 7,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.9
+    "strengthOfOpponents": -1.8
    }
   ],
   "partners": []
@@ -1623,7 +1937,7 @@
     "week": 2,
     "rating": 3.2,
     "confidence": 46,
-    "rank": 4,
+    "rank": 5,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.2
@@ -1787,12 +2101,12 @@
    },
    {
     "week": 2,
-    "rating": 1.7,
+    "rating": 1.8,
     "confidence": 56,
-    "rank": 17,
+    "rank": 20,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.4
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -1946,7 +2260,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 51,
-    "rank": 41,
+    "rank": 45,
     "ratingGames": 7,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.5
@@ -2087,7 +2401,7 @@
     "week": 2,
     "rating": 2.6,
     "confidence": 48,
-    "rank": 6,
+    "rank": 7,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -2244,7 +2558,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 53,
-    "rank": 30,
+    "rank": 35,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.3
@@ -2378,10 +2692,10 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 46,
+    "rank": 49,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
-    "strengthOfOpponents": -2.1
+    "strengthOfOpponents": -2
    }
   ],
   "partners": []
@@ -2519,7 +2833,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 66,
+    "rank": 69,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -2
@@ -2676,7 +2990,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 51,
-    "rank": 16,
+    "rank": 19,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -3012,8 +3326,8 @@
    {
     "week": 2,
     "rating": 2.9,
-    "confidence": 67,
-    "rank": 5,
+    "confidence": 68,
+    "rank": 6,
     "ratingGames": 16,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.1
@@ -3199,7 +3513,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 53,
-    "rank": 9,
+    "rank": 11,
     "ratingGames": 8,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.5
@@ -3372,10 +3686,183 @@
     "week": 2,
     "rating": 1,
     "confidence": 50,
-    "rank": 38,
+    "rank": 43,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.5
+   }
+  ],
+  "partners": []
+ },
+ "89bdcff6-2fba-4bde-b831-872bf9ce7843": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 120,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tara Kramer",
+     "Bob Castellano"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Denise Richmond",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Denise Richmond",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Denise Richmond",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Denise Richmond",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Aimee Castellano",
+     "Denise Richmond"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Denise Richmond",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Stacy Garretson",
+     "Denise Richmond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 51,
+    "rank": 23,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -3545,7 +4032,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 54,
-    "rank": 35,
+    "rank": 42,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
@@ -3725,12 +4212,12 @@
    },
    {
     "week": 2,
-    "rating": 1,
-    "confidence": 52,
-    "rank": 37,
+    "rating": 1.2,
+    "confidence": 53,
+    "rank": 34,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -4048,7 +4535,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 66,
-    "rank": 26,
+    "rank": 32,
     "ratingGames": 15,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
@@ -4227,10 +4714,10 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 53,
-    "rank": 19,
+    "rank": 26,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.6
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -4384,7 +4871,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 50,
-    "rank": 20,
+    "rank": 27,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -4550,10 +5037,10 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 53,
-    "rank": 15,
+    "rank": 18,
     "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -4707,7 +5194,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 31,
+    "rank": 36,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.7
@@ -4864,7 +5351,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 44,
+    "rank": 48,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.1
@@ -5014,7 +5501,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.4
@@ -5155,7 +5642,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 51,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.9
@@ -5296,7 +5783,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 49,
-    "rank": 42,
+    "rank": 46,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -5446,9 +5933,9 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 72,
+    "rank": 75,
     "ratingGames": 6,
-    "strengthOfPartners": 0.7,
+    "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.4
    }
   ],
@@ -5596,7 +6083,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 48,
-    "rank": 85,
+    "rank": 87,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.3
@@ -5737,7 +6224,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 73,
+    "rank": 76,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -5887,7 +6374,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 46,
-    "rank": 25,
+    "rank": 30,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -6222,12 +6709,12 @@
    },
    {
     "week": 2,
-    "rating": 1,
-    "confidence": 68,
-    "rank": 34,
+    "rating": 1.3,
+    "confidence": 69,
+    "rank": 31,
     "ratingGames": 16,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -6566,12 +7053,12 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
-    "confidence": 70,
-    "rank": 24,
+    "rating": 1.5,
+    "confidence": 71,
+    "rank": 25,
     "ratingGames": 16,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.7
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -6910,12 +7397,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
-    "confidence": 69,
-    "rank": 78,
+    "rating": -0.1,
+    "confidence": 70,
+    "rank": 74,
     "ratingGames": 16,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": [
@@ -6929,7 +7416,7 @@
     "pid": "8decf039-f1e5-4182-b3cf-6756789ae87a",
     "name": "Kate Siedell",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -7098,40 +7585,67 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 55,
-    "rank": 59,
+    "rank": 62,
     "ratingGames": 8,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -1.7
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": []
  },
- "422cd941-43db-4123-a07e-3316583f51ee": {
+ "d5aa92c7-71df-47c7-84fb-6710e1ed81e2": {
   "log": [
    {
     "week": 1,
-    "opp": "Bounce Malvern Boom",
+    "opp": "ACE Moorestown",
     "homeAway": "A",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 158,
-    "pa": 140,
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 125,
+    "pa": 132,
     "mx": [
+     1,
+     3
+    ],
+    "gn": [
      3,
+     0
+    ],
+    "cl": [
+     1,
      1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 115,
+    "mx": [
+     4,
+     0
     ],
     "gn": [
      3,
      1
     ],
     "cl": [
-     2,
+     1,
      0
     ],
     "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
+    "teamGW": 27,
+    "teamGL": 5,
     "sub": 0,
     "subFor": null
    }
@@ -7139,31 +7653,79 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "opp": "ACE Moorestown",
     "t": "mixed",
-    "with": "David Osborne",
+    "with": "Derek Le",
     "vs": [
-     "Cindy Hu",
-     "Sandro Stefanelli"
+     "Sandy Alkins",
+     "Marc Harden"
     ],
-    "f": 23,
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Harriet Levin",
+    "vs": [
+     "Kate Siedell",
+     "Sandy Alkins"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Patricia Boyle",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Patricia Boyle",
+     "Brian Rowan"
+    ],
+    "f": 12,
     "a": 21,
-    "w": 1,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
     "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "opp": "ACE Moorestown",
     "t": "female",
-    "with": "Katrina Mcintyre",
+    "with": "Harriet Levin",
     "vs": [
-     "Sandra Thompson",
-     "Jamila Sefiane"
+     "Stacey Frank",
+     "Kate Siedell"
     ],
     "f": 21,
-    "a": 16,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7171,12 +7733,28 @@
    },
    {
     "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "opp": "ACE Moorestown",
     "t": "mixed",
-    "with": "Eric Luque",
+    "with": "Derek Le",
     "vs": [
-     "Christine Dugan",
-     "Sandro Stefanelli"
+     "Stacey Frank",
+     "Robert Finley"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Patricia Boyle",
+     "Sandy Alkins"
     ],
     "f": 21,
     "a": 16,
@@ -7186,13 +7764,29 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "female",
-    "with": "Christine Papa",
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jingwei Wu",
     "vs": [
-     "Lindsay Duphily",
-     "Jamila Sefiane"
+     "Aimee Castellano",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Aimee Castellano",
+     "Stacy Garretson"
     ],
     "f": 17,
     "a": 21,
@@ -7202,45 +7796,197 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "wk": 2,
+    "opp": "Flemington Green",
     "t": "mixed",
-    "with": "David Mcintyre",
+    "with": "Jim Darcangelo",
     "vs": [
-     "Christine Dugan",
-     "Hal Golden"
+     "Aimee Castellano",
+     "Bob Castellano"
     ],
     "f": 21,
-    "a": 17,
+    "a": 12,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "wk": 2,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Kristen Soucie",
+    "with": "Vicki Main",
     "vs": [
-     "Lindsay Duphily",
-     "Cindy Hu"
+     "Denise Richmond",
+     "Tara Kramer"
     ],
-    "f": 29,
-    "a": 27,
+    "f": 21,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
+    "wk": 2,
+    "opp": "Flemington Green",
     "t": "mixed",
-    "with": "David Mcintyre",
+    "with": "Jim Darcangelo",
     "vs": [
-     "Sandra Thompson",
-     "Sandro Stefanelli"
+     "Tara Kramer",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Stacy Garretson",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Tara Kramer",
+     "Richard Demeuse"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Stacy Garretson",
+     "Denise Richmond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 53,
+    "rank": 32,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 71,
+    "rank": 24,
+    "ratingGames": 15,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "0530512b-466d-4ff7-9e89-7961b4a63110",
+    "name": "Jim Darcangelo",
+    "n": 3,
+    "synergy": 1.8
+   }
+  ]
+ },
+ "e05f57f5-c898-404e-b86f-c2460cc23b06": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Moorestown",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 115,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Jill Scully",
+    "vs": [
+     "Patricia Boyle",
+     "Stacey Frank"
     ],
     "f": 15,
     "a": 21,
@@ -7251,15 +7997,207 @@
    },
    {
     "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "female",
-    "with": "Katrina Mcintyre",
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
     "vs": [
-     "Christine Dugan",
-     "Jamila Sefiane"
+     "Kate Siedell",
+     "Marc Harden"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Jill Scully",
+    "vs": [
+     "Patricia Boyle",
+     "Stacey Frank"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Stacey Frank",
+     "Robert Finley"
     ],
     "f": 21,
-    "a": 11,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Patricia Boyle",
+     "Jonathan Brand"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Patricia Boyle",
+     "Sandy Alkins"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Stacy Garretson",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Denise Richmond",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Stacy Garretson",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Aimee Castellano",
+     "Stacy Garretson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Aimee Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Stacy Garretson",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Aimee Castellano",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Aimee Castellano",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 13,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7269,24 +8207,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1,
-    "confidence": 54,
-    "rank": 17,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.1
+    "rating": 1.1,
+    "confidence": 48,
+    "rank": 16,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 2,
-    "rating": 1,
-    "confidence": 54,
-    "rank": 36,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.1
+    "rating": 2.4,
+    "confidence": 67,
+    "rank": 10,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "861c3f68-2c96-4a96-a75e-645020f73a5c",
+    "name": "Michael Finkelstein",
+    "n": 3,
+    "synergy": -0.5
+   }
+  ]
  },
  "22e2201d-16d7-4474-847b-5f4f0cef44e6": {
   "log": [
@@ -7437,7 +8382,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 49,
-    "rank": 12,
+    "rank": 16,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.1
@@ -7594,7 +8539,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 58,
+    "rank": 60,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -7758,12 +8703,12 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
-    "confidence": 50,
-    "rank": 21,
+    "rating": 1.2,
+    "confidence": 51,
+    "rank": 37,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -7924,12 +8869,12 @@
    },
    {
     "week": 2,
-    "rating": 1.2,
+    "rating": 1.1,
     "confidence": 48,
-    "rank": 32,
+    "rank": 39,
     "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -8261,12 +9206,12 @@
    },
    {
     "week": 2,
-    "rating": 1.9,
+    "rating": 2.1,
     "confidence": 70,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 16,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -8280,7 +9225,7 @@
     "pid": "9c29c52b-9d2a-4a5f-b967-7bafd018446b",
     "name": "Sandy Alkins",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -8417,10 +9362,151 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 63,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
+ "4259501c-f1e3-4859-acd0-c25f342a1b92": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 102,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Richard Demeuse",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Stacy Garretson",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Gary Garretson",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Denise Richmond",
+     "Gary Garretson"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Tara Kramer",
+     "Richard Demeuse"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Bob Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 50,
+    "rank": 68,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -8567,7 +9653,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 52,
-    "rank": 92,
+    "rank": 99,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.3
@@ -8715,12 +9801,12 @@
    },
    {
     "week": 2,
-    "rating": -0.2,
+    "rating": 0.1,
     "confidence": 49,
-    "rank": 71,
+    "rank": 70,
     "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -8865,11 +9951,11 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
-    "confidence": 46,
-    "rank": 53,
+    "rating": 0.6,
+    "confidence": 47,
+    "rank": 52,
     "ratingGames": 6,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -9008,7 +10094,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 50,
-    "rank": 87,
+    "rank": 88,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -9149,10 +10235,315 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 55,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "b83bd6a7-2706-4a28-af7b-2b5da3d7281a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Moorestown",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 120,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 121,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "John Morabito",
+    "vs": [
+     "Stacey Frank",
+     "Jonathan Brand"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Derek Le",
+    "vs": [
+     "Sandy Alkins",
+     "Jonathan Brand"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Harriet Levin",
+    "vs": [
+     "Sandy Alkins",
+     "Kate Siedell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "John Morabito",
+    "vs": [
+     "Kate Siedell",
+     "Jonathan Brand"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Jill Scully",
+    "vs": [
+     "Patricia Boyle",
+     "Sandy Alkins"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "female",
+    "with": "Harriet Levin",
+    "vs": [
+     "Stacey Frank",
+     "Kate Siedell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Denise Richmond",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tera Baccile",
+    "vs": [
+     "Aimee Castellano",
+     "Stacy Garretson"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Tara Kramer",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Aimee Castellano",
+     "Stacy Garretson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Stacy Garretson",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Vicki Main",
+    "vs": [
+     "Aimee Castellano",
+     "Denise Richmond"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Stacy Garretson",
+     "Bob Castellano"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Aimee Castellano",
+     "Tara Kramer"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 47,
+    "rank": 39,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 68,
+    "rank": 38,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -9322,7 +10713,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 53,
-    "rank": 40,
+    "rank": 44,
     "ratingGames": 8,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.1
@@ -9502,12 +10893,12 @@
    },
    {
     "week": 2,
-    "rating": 1.2,
-    "confidence": 56,
-    "rank": 29,
+    "rating": 1.7,
+    "confidence": 58,
+    "rank": 22,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -9684,12 +11075,12 @@
    },
    {
     "week": 2,
-    "rating": 0.9,
+    "rating": 0.8,
     "confidence": 56,
-    "rank": 39,
+    "rank": 47,
     "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -9866,12 +11257,12 @@
    },
    {
     "week": 2,
-    "rating": 0.4,
-    "confidence": 50,
-    "rank": 54,
+    "rating": 0.1,
+    "confidence": 53,
+    "rank": 67,
     "ratingGames": 8,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -10157,7 +11548,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 67,
-    "rank": 74,
+    "rank": 77,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -10175,6 +11566,318 @@
     "name": "Marc Friedman",
     "n": 3,
     "synergy": -0.6
+   }
+  ]
+ },
+ "0530512b-466d-4ff7-9e89-7961b4a63110": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Moorestown",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 139,
+    "pa": 158,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 92,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Harriet Levin",
+    "vs": [
+     "Kate Siedell",
+     "Brian Rowan"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Derek Le",
+    "vs": [
+     "Marc Harden",
+     "Robert Finley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Patricia Boyle",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "John Morabito",
+    "vs": [
+     "Jonathan Brand",
+     "Robert Finley"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Stacey Frank",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Derek Le",
+    "vs": [
+     "Jonathan Brand",
+     "Marc Harden"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Jill Scully",
+    "vs": [
+     "Kate Siedell",
+     "Marc Harden"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Michael Finkelstein",
+    "vs": [
+     "Brian Rowan",
+     "Marc Harden"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Denise Richmond",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Aimee Castellano",
+     "Bob Castellano"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Bob Castellano",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Tara Kramer",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Keith Goldberg",
+    "vs": [
+     "Steven Gregov",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Bob Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 55,
+    "rank": 36,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 70,
+    "rank": 41,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
+    "name": "Tera Baccile",
+    "n": 3,
+    "synergy": 1.8
    }
   ]
  },
@@ -10336,7 +12039,7 @@
     "week": 2,
     "rating": 2.2,
     "confidence": 52,
-    "rank": 11,
+    "rank": 14,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.4
@@ -10641,176 +12344,10 @@
     "week": 2,
     "rating": 0,
     "confidence": 54,
-    "rank": 67,
+    "rank": 72,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": []
- },
- "d5aa92c7-71df-47c7-84fb-6710e1ed81e2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 125,
-    "pa": 132,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Derek Le",
-    "vs": [
-     "Sandy Alkins",
-     "Marc Harden"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Harriet Levin",
-    "vs": [
-     "Kate Siedell",
-     "Sandy Alkins"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Jim Darcangelo",
-    "vs": [
-     "Patricia Boyle",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Patricia Boyle",
-     "Brian Rowan"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Harriet Levin",
-    "vs": [
-     "Stacey Frank",
-     "Kate Siedell"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Derek Le",
-    "vs": [
-     "Stacey Frank",
-     "Robert Finley"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Patricia Boyle",
-     "Sandy Alkins"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0,
-    "confidence": 53,
-    "rank": 32,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 2,
-    "rating": 0.5,
-    "confidence": 55,
-    "rank": 50,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -11112,7 +12649,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 62,
-    "rank": 83,
+    "rank": 85,
     "ratingGames": 11,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -11266,7 +12803,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 49,
-    "rank": 22,
+    "rank": 28,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.3
@@ -11414,12 +12951,12 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.4,
     "confidence": 51,
-    "rank": 45,
+    "rank": 55,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -11557,160 +13094,10 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 52,
+    "rank": 54,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "e05f57f5-c898-404e-b86f-c2460cc23b06": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 113,
-    "pa": 116,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Jill Scully",
-    "vs": [
-     "Patricia Boyle",
-     "Stacey Frank"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Kate Siedell",
-     "Marc Harden"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Jill Scully",
-    "vs": [
-     "Patricia Boyle",
-     "Stacey Frank"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Jim Darcangelo",
-    "vs": [
-     "Stacey Frank",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Patricia Boyle",
-     "Jonathan Brand"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Tera Baccile",
-    "vs": [
-     "Patricia Boyle",
-     "Sandy Alkins"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.1,
-    "confidence": 48,
-    "rank": 16,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 2,
-    "rating": 1.5,
-    "confidence": 49,
-    "rank": 23,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -11848,7 +13235,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 33,
+    "rank": 40,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -12005,7 +13392,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 50,
-    "rank": 61,
+    "rank": 65,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.2
@@ -12169,12 +13556,12 @@
    },
    {
     "week": 2,
-    "rating": -0.5,
-    "confidence": 52,
-    "rank": 79,
+    "rating": -0.8,
+    "confidence": 53,
+    "rank": 90,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -12476,7 +13863,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 68,
-    "rank": 99,
+    "rank": 106,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.4
@@ -12647,12 +14034,12 @@
    },
    {
     "week": 2,
-    "rating": 0.6,
-    "confidence": 52,
-    "rank": 49,
+    "rating": 0.3,
+    "confidence": 53,
+    "rank": 58,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -12922,7 +14309,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 61,
-    "rank": 56,
+    "rank": 57,
     "ratingGames": 10,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0
@@ -13060,10 +14447,299 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 47,
-    "rank": 81,
+    "rank": 83,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "d88f1d1e-be4e-449e-b9b2-c468753e1dd3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern Boom",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 118,
+    "pa": 107,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     4
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 122,
+    "pa": 139,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Kristen Soucie",
+    "vs": [
+     "Christine Dugan",
+     "Hal Golden"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "Craig Batten",
+    "vs": [
+     "Sandro Stefanelli",
+     "Brett Kleger"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "David Mcintyre",
+    "vs": [
+     "Jiang Jin",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "Christine Papa",
+    "vs": [
+     "Cindy Hu",
+     "Jiang Jin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "David Osborne",
+    "vs": [
+     "Hal Golden",
+     "Chris Norton"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "male",
+    "with": "David Mcintyre",
+    "vs": [
+     "Hal Golden",
+     "Brett Kleger"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Katherine Maruyama",
+     "Jim Darcangelo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Steven Gregov",
+    "vs": [
+     "Michael Dieterle",
+     "Michael Finkelstein"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Michael Dieterle"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Stephanie Woomer",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Bob Castellano",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Finkelstein"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Tara Kramer",
+    "vs": [
+     "Tera Baccile",
+     "Michael Dieterle"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Bob Castellano",
+    "vs": [
+     "Jim Darcangelo",
+     "Michael Dieterle"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 49,
+    "rank": 34,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 67,
+    "rank": 71,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -13240,12 +14916,12 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": -0.3,
     "confidence": 56,
-    "rank": 70,
+    "rank": 79,
     "ratingGames": 8,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -13415,7 +15091,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 53,
-    "rank": 28,
+    "rank": 33,
     "ratingGames": 8,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.7
@@ -13595,12 +15271,12 @@
    },
    {
     "week": 2,
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 55,
-    "rank": 105,
+    "rank": 118,
     "ratingGames": 8,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -13777,194 +15453,12 @@
    },
    {
     "week": 2,
-    "rating": 0.1,
+    "rating": 0.2,
     "confidence": 51,
-    "rank": 65,
+    "rank": 63,
     "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.9
-   }
-  ],
-  "partners": []
- },
- "0530512b-466d-4ff7-9e89-7961b4a63110": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 139,
-    "pa": 158,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Harriet Levin",
-    "vs": [
-     "Kate Siedell",
-     "Brian Rowan"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Derek Le",
-    "vs": [
-     "Marc Harden",
-     "Robert Finley"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Patricia Boyle",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "John Morabito",
-    "vs": [
-     "Jonathan Brand",
-     "Robert Finley"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Stacey Frank",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Derek Le",
-    "vs": [
-     "Jonathan Brand",
-     "Marc Harden"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Jill Scully",
-    "vs": [
-     "Kate Siedell",
-     "Marc Harden"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Michael Finkelstein",
-    "vs": [
-     "Brian Rowan",
-     "Marc Harden"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.1,
-    "confidence": 55,
-    "rank": 36,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 2,
-    "rating": 0.8,
-    "confidence": 58,
-    "rank": 43,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -14298,7 +15792,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 70,
-    "rank": 47,
+    "rank": 50,
     "ratingGames": 16,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
@@ -14313,32 +15807,59 @@
    }
   ]
  },
- "d88f1d1e-be4e-449e-b9b2-c468753e1dd3": {
+ "422cd941-43db-4123-a07e-3316583f51ee": {
   "log": [
    {
     "week": 1,
     "opp": "Bounce Malvern Boom",
     "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 118,
-    "pa": 107,
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 158,
+    "pa": 140,
     "mx": [
-     0,
-     2
+     3,
+     1
     ],
     "gn": [
-     2,
-     2
+     3,
+     1
     ],
     "cl": [
-     0,
-     4
+     2,
+     0
     ],
     "teamRes": "W",
     "teamGW": 19,
     "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 114,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
     "sub": 0,
     "subFor": null
    }
@@ -14348,14 +15869,14 @@
     "wk": 1,
     "opp": "Bounce Malvern Boom",
     "t": "mixed",
-    "with": "Kristen Soucie",
+    "with": "David Osborne",
     "vs": [
-     "Christine Dugan",
-     "Hal Golden"
+     "Cindy Hu",
+     "Sandro Stefanelli"
     ],
-    "f": 19,
+    "f": 23,
     "a": 21,
-    "w": 0,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -14363,30 +15884,14 @@
    {
     "wk": 1,
     "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "Craig Batten",
+    "t": "female",
+    "with": "Katrina Mcintyre",
     "vs": [
-     "Sandro Stefanelli",
-     "Brett Kleger"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "David Mcintyre",
-    "vs": [
-     "Jiang Jin",
-     "Chris Norton"
+     "Sandra Thompson",
+     "Jamila Sefiane"
     ],
     "f": 21,
-    "a": 14,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -14396,10 +15901,186 @@
     "wk": 1,
     "opp": "Bounce Malvern Boom",
     "t": "mixed",
+    "with": "Eric Luque",
+    "vs": [
+     "Christine Dugan",
+     "Sandro Stefanelli"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
     "with": "Christine Papa",
     "vs": [
-     "Cindy Hu",
-     "Jiang Jin"
+     "Lindsay Duphily",
+     "Jamila Sefiane"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "David Mcintyre",
+    "vs": [
+     "Christine Dugan",
+     "Hal Golden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Kristen Soucie",
+    "vs": [
+     "Lindsay Duphily",
+     "Cindy Hu"
+    ],
+    "f": 29,
+    "a": 27,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "mixed",
+    "with": "David Mcintyre",
+    "vs": [
+     "Sandra Thompson",
+     "Sandro Stefanelli"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern Boom",
+    "t": "female",
+    "with": "Katrina Mcintyre",
+    "vs": [
+     "Christine Dugan",
+     "Jamila Sefiane"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Katherine Maruyama",
+     "Jim Darcangelo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Tara Kramer",
+    "vs": [
+     "Stephanie Woomer",
+     "Vicki Main"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Gary Garretson",
+    "vs": [
+     "Vicki Main",
+     "Jingwei Wu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Tara Kramer",
+    "vs": [
+     "Tera Baccile",
+     "Vicki Main"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Gary Garretson",
+    "vs": [
+     "Vicki Main",
+     "Michael Dieterle"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Katherine Maruyama",
+     "Vicki Main"
     ],
     "f": 20,
     "a": 22,
@@ -14409,32 +16090,32 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "David Osborne",
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Steven Gregov",
     "vs": [
-     "Hal Golden",
-     "Chris Norton"
+     "Vicki Main",
+     "Michael Finkelstein"
     ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern Boom",
-    "t": "male",
-    "with": "David Mcintyre",
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Stacy Garretson",
     "vs": [
-     "Hal Golden",
-     "Brett Kleger"
+     "Tera Baccile",
+     "Vicki Main"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 14,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -14444,21 +16125,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0,
-    "confidence": 49,
-    "rank": 34,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.9
+    "rating": 1,
+    "confidence": 54,
+    "rank": 17,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 2,
-    "rating": 0,
-    "confidence": 49,
-    "rank": 68,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.9
+    "rating": -0.8,
+    "confidence": 67,
+    "rank": 89,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -14557,7 +16238,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 33,
-    "rank": 89,
+    "rank": 93,
     "ratingGames": 3,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
@@ -14706,10 +16387,10 @@
    {
     "week": 2,
     "rating": 0.3,
-    "confidence": 49,
-    "rank": 57,
+    "confidence": 50,
+    "rank": 59,
     "ratingGames": 6,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -14848,160 +16529,10 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 60,
+    "rank": 64,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "b83bd6a7-2706-4a28-af7b-2b5da3d7281a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "John Morabito",
-    "vs": [
-     "Stacey Frank",
-     "Jonathan Brand"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Derek Le",
-    "vs": [
-     "Sandy Alkins",
-     "Jonathan Brand"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Harriet Levin",
-    "vs": [
-     "Sandy Alkins",
-     "Kate Siedell"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "John Morabito",
-    "vs": [
-     "Kate Siedell",
-     "Jonathan Brand"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Jill Scully",
-    "vs": [
-     "Patricia Boyle",
-     "Sandy Alkins"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "female",
-    "with": "Harriet Levin",
-    "vs": [
-     "Stacey Frank",
-     "Kate Siedell"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 47,
-    "rank": 39,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 2,
-    "rating": 0.2,
-    "confidence": 49,
-    "rank": 62,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -15139,7 +16670,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 112,
+    "rank": 120,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -15287,12 +16818,12 @@
    },
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -1.3,
     "confidence": 45,
-    "rank": 98,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -15437,12 +16968,12 @@
    },
    {
     "week": 2,
-    "rating": -1.5,
-    "confidence": 50,
-    "rank": 103,
+    "rating": -1.9,
+    "confidence": 51,
+    "rank": 124,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -15728,7 +17259,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 64,
-    "rank": 90,
+    "rank": 94,
     "ratingGames": 12,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.2
@@ -15876,12 +17407,12 @@
    },
    {
     "week": 2,
-    "rating": -0.3,
-    "confidence": 48,
-    "rank": 75,
+    "rating": -0.8,
+    "confidence": 49,
+    "rank": 92,
     "ratingGames": 6,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -16151,7 +17682,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 59,
-    "rank": 120,
+    "rank": 132,
     "ratingGames": 10,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -16163,6 +17694,318 @@
     "name": "Jorge Diaz",
     "n": 3,
     "synergy": -1
+   }
+  ]
+ },
+ "861c3f68-2c96-4a96-a75e-645020f73a5c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Moorestown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 139,
+    "pa": 166,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 118,
+    "pa": 108,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Jill Scully",
+    "vs": [
+     "Patricia Boyle",
+     "Robert Finley"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "John Morabito",
+    "vs": [
+     "Brian Rowan",
+     "Jonathan Brand"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Kate Siedell",
+     "Marc Harden"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Derek Le",
+    "vs": [
+     "Marc Harden",
+     "Brian Rowan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Tera Baccile",
+    "vs": [
+     "Patricia Boyle",
+     "Brian Rowan"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "John Morabito",
+    "vs": [
+     "Robert Finley",
+     "Brian Rowan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Patricia Boyle",
+     "Jonathan Brand"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Jim Darcangelo",
+    "vs": [
+     "Brian Rowan",
+     "Marc Harden"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Tara Kramer",
+     "Bob Castellano"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Michael Dieterle",
+    "vs": [
+     "Richard Demeuse",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Katherine Maruyama",
+    "vs": [
+     "Tara Kramer",
+     "Dan Loreti"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Stephanie Woomer",
+    "vs": [
+     "Aimee Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "male",
+    "with": "Jingwei Wu",
+    "vs": [
+     "Bob Castellano",
+     "Richard Demeuse"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Vicki Main",
+    "vs": [
+     "Denise Richmond",
+     "Steven Gregov"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 51,
+    "rank": 59,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 68,
+    "rank": 103,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e05f57f5-c898-404e-b86f-c2460cc23b06",
+    "name": "Stephanie Woomer",
+    "n": 3,
+    "synergy": -0.5
    }
   ]
  },
@@ -16324,10 +18167,167 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 52,
-    "rank": 96,
+    "rank": 105,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "7bb24154-bd52-4081-a3e6-0b8afcde62d5": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 96,
+    "pa": 143,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Tara Kramer",
+    "vs": [
+     "Vicki Main",
+     "Michael Finkelstein"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Dan Loreti",
+    "vs": [
+     "Keith Goldberg",
+     "Jingwei Wu"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Tera Baccile",
+     "Jim Darcangelo"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Dan Loreti",
+    "vs": [
+     "Jim Darcangelo",
+     "Jingwei Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Jingwei Wu",
+     "Michael Finkelstein"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Katherine Maruyama",
+     "Jingwei Wu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Jim Darcangelo",
+     "Michael Dieterle"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 52,
+    "rank": 122,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -16581,9 +18581,9 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 66,
-    "rank": 91,
+    "rank": 98,
     "ratingGames": 11,
-    "strengthOfPartners": -1.9,
+    "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.2
    }
   ],
@@ -16747,7 +18747,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 38,
-    "rank": 82,
+    "rank": 84,
     "ratingGames": 4,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.2
@@ -16920,10 +18920,183 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 69,
+    "rank": 73,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "e76985fb-efd1-4180-a340-e4f36abbc8b4": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 121,
+    "pa": 160,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Steven Gregov",
+    "vs": [
+     "Tera Baccile",
+     "Jingwei Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Bob Castellano",
+    "vs": [
+     "Tera Baccile",
+     "Jim Darcangelo"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Katherine Maruyama"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Stephanie Woomer",
+     "Michael Finkelstein"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Denise Richmond",
+    "vs": [
+     "Katherine Maruyama",
+     "Vicki Main"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Gary Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Keith Goldberg"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Tara Kramer",
+    "vs": [
+     "Katherine Maruyama",
+     "Stephanie Woomer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 57,
+    "rank": 78,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -17045,7 +19218,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 45,
-    "rank": 77,
+    "rank": 81,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.1
@@ -17170,7 +19343,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 94,
+    "rank": 101,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.8
@@ -17293,12 +19466,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.6,
+    "rating": -1.5,
     "confidence": 47,
-    "rank": 106,
+    "rank": 111,
     "ratingGames": 5,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -17552,9 +19725,9 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 64,
-    "rank": 104,
+    "rank": 112,
     "ratingGames": 11,
-    "strengthOfPartners": -1.8,
+    "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -17734,7 +19907,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 47,
-    "rank": 93,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -17884,9 +20057,9 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 95,
+    "rank": 102,
     "ratingGames": 6,
-    "strengthOfPartners": -1.5,
+    "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -18025,7 +20198,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 49,
-    "rank": 121,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -18166,10 +20339,151 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 53,
-    "rank": 88,
+    "rank": 91,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "3efad314-83fb-4441-a7bf-510228cea1f8": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 95,
+    "pa": 124,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Tera Baccile",
+     "Jingwei Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Michael Dieterle",
+     "Michael Finkelstein"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Michael Dieterle",
+     "Keith Goldberg"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Tara Kramer",
+    "vs": [
+     "Tera Baccile",
+     "Jim Darcangelo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Dan Loreti",
+    "vs": [
+     "Jim Darcangelo",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Vicki Main",
+     "Michael Finkelstein"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 53,
+    "rank": 96,
+    "ratingGames": 6,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -18307,7 +20621,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 76,
+    "rank": 80,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -18457,10 +20771,10 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 51,
-    "rank": 115,
+    "rank": 125,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -18598,7 +20912,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 49,
-    "rank": 111,
+    "rank": 119,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -18739,7 +21053,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 50,
-    "rank": 118,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.6
@@ -18880,7 +21194,7 @@
     "week": 2,
     "rating": -3.2,
     "confidence": 48,
-    "rank": 126,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 2.2
@@ -19167,9 +21481,9 @@
    },
    {
     "week": 2,
-    "rating": 0.1,
+    "rating": 0.2,
     "confidence": 66,
-    "rank": 64,
+    "rank": 61,
     "ratingGames": 13,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.8
@@ -19333,192 +21647,10 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 80,
+    "rank": 82,
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
-   }
-  ],
-  "partners": []
- },
- "861c3f68-2c96-4a96-a75e-645020f73a5c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 139,
-    "pa": 166,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Jill Scully",
-    "vs": [
-     "Patricia Boyle",
-     "Robert Finley"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "John Morabito",
-    "vs": [
-     "Brian Rowan",
-     "Jonathan Brand"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Kate Siedell",
-     "Marc Harden"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Derek Le",
-    "vs": [
-     "Marc Harden",
-     "Brian Rowan"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Tera Baccile",
-    "vs": [
-     "Patricia Boyle",
-     "Brian Rowan"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "John Morabito",
-    "vs": [
-     "Robert Finley",
-     "Brian Rowan"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "mixed",
-    "with": "Stephanie Woomer",
-    "vs": [
-     "Patricia Boyle",
-     "Jonathan Brand"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Jim Darcangelo",
-    "vs": [
-     "Brian Rowan",
-     "Marc Harden"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.3,
-    "confidence": 51,
-    "rank": 59,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 2,
-    "rating": -0.7,
-    "confidence": 53,
-    "rank": 86,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -19688,10 +21820,183 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 53,
-    "rank": 113,
+    "rank": 121,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "dae62b8e-5f8e-4721-8f41-3218518d1e30": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 121,
+    "pa": 166,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Bob Castellano",
+    "vs": [
+     "Vicki Main",
+     "Michael Finkelstein"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Denise Richmond",
+    "vs": [
+     "Stephanie Woomer",
+     "Vicki Main"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Dan Loreti",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Denise Richmond",
+    "vs": [
+     "Tera Baccile",
+     "Vicki Main"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Steven Gregov",
+    "vs": [
+     "Tera Baccile",
+     "Jim Darcangelo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Tera Baccile"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Tera Baccile",
+     "Michael Dieterle"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Katherine Maruyama",
+     "Stephanie Woomer"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 58,
+    "rank": 113,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -19868,12 +22173,185 @@
    },
    {
     "week": 2,
-    "rating": -1.3,
-    "confidence": 56,
-    "rank": 100,
+    "rating": -1.2,
+    "confidence": 57,
+    "rank": 104,
     "ratingGames": 8,
     "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": []
+ },
+ "85dd9a28-a510-493a-bfe4-9cc7d3550ff2": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 115,
+    "pa": 164,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Gary Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Keith Goldberg"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Katherine Maruyama",
+     "Tera Baccile"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Stephanie Woomer",
+     "Michael Dieterle"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Stephanie Woomer",
+     "Katherine Maruyama"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Dan Loreti",
+    "vs": [
+     "Katherine Maruyama",
+     "Keith Goldberg"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Tara Kramer",
+    "vs": [
+     "Stephanie Woomer",
+     "Tera Baccile"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Bob Castellano",
+    "vs": [
+     "Katherine Maruyama",
+     "Jingwei Wu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "female",
+    "with": "Denise Richmond",
+    "vs": [
+     "Tera Baccile",
+     "Vicki Main"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 57,
+    "rank": 95,
+    "ratingGames": 8,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -20207,7 +22685,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 69,
-    "rank": 109,
+    "rank": 117,
     "ratingGames": 15,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -20551,7 +23029,7 @@
     "week": 2,
     "rating": -3.3,
     "confidence": 69,
-    "rank": 127,
+    "rank": 138,
     "ratingGames": 15,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -20689,7 +23167,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 108,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.1
@@ -20798,7 +23276,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 37,
-    "rank": 116,
+    "rank": 127,
     "ratingGames": 4,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -20978,12 +23456,12 @@
    },
    {
     "week": 2,
-    "rating": -1.5,
+    "rating": -1.6,
     "confidence": 55,
-    "rank": 102,
+    "rank": 114,
     "ratingGames": 8,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -21119,12 +23597,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.7,
+    "rating": -1.5,
     "confidence": 49,
     "rank": 110,
     "ratingGames": 6,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -21303,7 +23781,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 50,
-    "rank": 101,
+    "rank": 108,
     "ratingGames": 8,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1
@@ -21428,7 +23906,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 43,
-    "rank": 107,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 2.4
@@ -21585,7 +24063,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 54,
-    "rank": 84,
+    "rank": 86,
     "ratingGames": 7,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.9
@@ -21724,12 +24202,153 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.5,
-    "confidence": 49,
-    "rank": 122,
+    "rating": -2.4,
+    "confidence": 50,
+    "rank": 131,
     "ratingGames": 6,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
+ "2ce4808a-9400-42cb-a756-fa8ecdf2a1eb": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 79,
+    "pa": 126,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Bob Castellano",
+    "vs": [
+     "Keith Goldberg",
+     "Jingwei Wu"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Tara Kramer",
+    "vs": [
+     "Katherine Maruyama",
+     "Michael Finkelstein"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Bob Castellano",
+    "vs": [
+     "Jim Darcangelo",
+     "Jingwei Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Katherine Maruyama",
+     "Keith Goldberg"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Steven Gregov",
+    "vs": [
+     "Jim Darcangelo",
+     "Keith Goldberg"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Gary Garretson",
+    "vs": [
+     "Keith Goldberg",
+     "Jingwei Wu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 46,
+    "rank": 109,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
@@ -21881,12 +24500,153 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -1,
     "confidence": 49,
     "rank": 97,
     "ratingGames": 7,
-    "strengthOfPartners": -2,
-    "strengthOfOpponents": 1.7
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 1.9
+   }
+  ],
+  "partners": []
+ },
+ "d4126276-6b83-42be-b943-9957df46992c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 75,
+    "pa": 126,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Stacy Garretson",
+    "vs": [
+     "Stephanie Woomer",
+     "Keith Goldberg"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Vicki Main",
+     "Jingwei Wu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Steven Gregov",
+    "vs": [
+     "Michael Dieterle",
+     "Keith Goldberg"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Denise Richmond",
+    "vs": [
+     "Vicki Main",
+     "Michael Dieterle"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "mixed",
+    "with": "Aimee Castellano",
+    "vs": [
+     "Stephanie Woomer",
+     "Keith Goldberg"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern Black",
+    "t": "male",
+    "with": "Dan Loreti",
+    "vs": [
+     "Keith Goldberg",
+     "Jingwei Wu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 47,
+    "rank": 126,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 2.1
    }
   ],
   "partners": []
@@ -22031,12 +24791,12 @@
    },
    {
     "week": 2,
-    "rating": -3.9,
+    "rating": -3.7,
     "confidence": 46,
-    "rank": 128,
+    "rank": 139,
     "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -22190,7 +24950,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 54,
-    "rank": 114,
+    "rank": 123,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.7
@@ -22331,7 +25091,7 @@
     "week": 2,
     "rating": -3,
     "confidence": 51,
-    "rank": 124,
+    "rank": 136,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.7
@@ -22488,7 +25248,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 54,
-    "rank": 123,
+    "rank": 134,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 2
@@ -22777,7 +25537,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 68,
-    "rank": 117,
+    "rank": 128,
     "ratingGames": 13,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.3
@@ -23096,12 +25856,12 @@
    },
    {
     "week": 2,
-    "rating": -2.4,
+    "rating": -2.3,
     "confidence": 69,
-    "rank": 119,
+    "rank": 129,
     "ratingGames": 15,
     "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1.2
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": [
@@ -23414,12 +26174,12 @@
    },
    {
     "week": 2,
-    "rating": -3.1,
-    "confidence": 67,
-    "rank": 125,
+    "rating": -3,
+    "confidence": 68,
+    "rank": 135,
     "ratingGames": 14,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
