@@ -33,6 +33,13 @@ a {
 
 html {
   background: var(--bg);
+  /* One overflowing element used to be able to give the whole page a sideways
+     scrollbar — a 980px table, an unbroken team name, a grid wider than a phone
+     — and a page that slides horizontally is far worse than a box that does.
+     `clip` rather than `hidden`: hidden would make the viewport's overflow a
+     scroll container and take the contents strip and the table headers that
+     stick against it with it. */
+  overflow-x: clip;
 }
 
 body {
@@ -268,8 +275,28 @@ h2 {
   border-radius: 4px;
 }
 
+/* The row a section heading shares with its view toggle. The toggle used to be a
+   <div> inside the <h2>, which only takes phrasing content — and the practical
+   cost was an accessible name for the heading that ran on through the whole
+   description and both button labels. This box owns the row instead, and the
+   spacing the <h2> used to carry. */
+.sec-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 34px 0 12px;
+}
+
+.sec-head h2 {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+}
+
 /* A collapsed section is only its heading, so it sits closer to its neighbours. */
-.msec.collapsed > h2 {
+.msec.collapsed > h2,
+.msec.collapsed > .sec-head {
   margin-bottom: 0;
 }
 
@@ -875,23 +902,13 @@ tbody td {
 }
 
 .sos,
-.pname,
-.x {
+.pname {
   color: var(--txt);
 }
 
 .sos {
   cursor: help;
   font-variant-numeric: tabular-nums;
-}
-
-.me {
-  background: rgb(232 198 107 / 12%) !important;
-  box-shadow: inset 3px 0 0 var(--gold);
-}
-
-.me td:first-child {
-  font-weight: 800;
 }
 
 .teamdot {
@@ -922,12 +939,8 @@ thead th:focus-visible,
   outline-offset: 2px;
 }
 
-.pname:hover,
-.x:hover {
-  color: var(--accent);
-}
-
 .pname:hover {
+  color: var(--accent);
   border-bottom-color: var(--accent);
 }
 
@@ -957,15 +970,23 @@ thead th:focus-visible,
   box-shadow: 0 24px 60px rgb(0 0 0 / 50%);
 }
 
+/* The modal's close control. Everything about it is here: it used to take its
+   colour from a grouped rule eighty lines up and its box from this one, which is
+   how the two drifted. */
 .x {
   position: absolute;
   top: 14px;
   right: 16px;
+  color: var(--txt);
   font-size: 26px;
   line-height: 1;
   cursor: pointer;
   background: none;
   border: none;
+}
+
+.x:hover {
+  color: var(--accent);
 }
 
 .mh-name {
@@ -2055,4 +2076,192 @@ thead th:focus-visible,
   margin-right: 2px;
   vertical-align: middle;
   line-height: 1.6;
+}
+
+/* ─── Error and loading states ─────────────────────────────────────── */
+/* Built by CPLShared.loadErrorHtml, and used by the bootstrap loader, app.js and
+   the <noscript> blocks. Deliberately calm — panel-coloured, no red, no icon.
+   The page has already failed the reader; making it look like an alarm only adds
+   the suggestion that they broke it. */
+.load-error {
+  max-width: 46em;
+  margin: 28px auto;
+  padding: 18px 20px;
+  color: var(--txt);
+  font-size: 14px;
+  line-height: 1.55;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius-lg);
+}
+
+.load-error p {
+  margin: 0;
+}
+
+.load-error-action {
+  margin-top: 10px;
+}
+
+.load-error-action a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.load-error-action a:hover {
+  text-decoration: underline;
+}
+
+/* How stale the data is. The absolute timestamp is in the title attribute, so
+   the dotted underline is there to say the tooltip exists. */
+.asof {
+  border-bottom: 1px dotted var(--line);
+  cursor: help;
+}
+
+/* The unofficial/attribution line. Static markup on every page, so it stands
+   whether or not the script that writes the footer above it ever ran. */
+.attrib {
+  max-width: 60em;
+  margin: 14px auto 0;
+  color: var(--mut);
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Player-modal placeholder, shown while the detail shard is in flight. Sized to
+   roughly what replaces it so the modal settles instead of jumping. */
+.mskel-line,
+.mskel-block {
+  background: var(--panel2);
+  border-radius: var(--radius-sm);
+}
+
+.mskel-line {
+  height: 13px;
+  margin: 10px 0;
+}
+
+.mskel-block {
+  height: 120px;
+  margin: 16px 0;
+}
+
+.mskel-note {
+  color: var(--mut);
+  font-size: 12px;
+}
+
+/* A pulse rather than a sweep: cheaper, and it reads as "working" at any width. */
+@media (prefers-reduced-motion: no-preference) {
+  .mskel {
+    animation: mskel-pulse 1.4s ease-in-out infinite;
+  }
+}
+
+@keyframes mskel-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.55;
+  }
+}
+
+/* ─── DUPR bracket audit page ──────────────────────────────────────── */
+/* These lived in an inline <style> on cpl/dupr-audit/index.html, after this
+   stylesheet — where they re-declared `.scroll { overflow: auto }` and so won
+   on source order, which styles-overflow.test.js could not see because it only
+   reads this file. The result was a dead sticky header on the widest table on
+   the site.
+   .audit-scroll is a separate class from .scroll on purpose. The dashboard's
+   wrappers must stay uncapped, because a box scrolling two ways inside a page
+   scrolling one way is the thing that got rejected there; this page has no
+   app.js to measure anything, its tables are hundreds of rows long, and the cap
+   below is exactly what its header sticks against. */
+.audit-scroll {
+  overflow: auto;
+  max-height: min(70vh, 620px);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.audit-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: collapse;
+}
+
+/* Sticks against .audit-scroll, not the viewport — that container is the
+   scrollport, which is what the max-height above buys. */
+.audit-scroll thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #131a24;
+}
+
+/* ─── Touch targets ────────────────────────────────────────────────── */
+/* Nothing here had a minimum before: the two view switches drew at about 24px
+   with 2px between them, the contents-strip chips at 26px, a clickable grid
+   header cell on a phone at 19px, and the modal's close control was a bare glyph
+   with no padding at all. The floor is on the hit area rather than the drawn box
+   wherever padding can carry it, so the layout keeps its proportions. Scoped to
+   coarse pointers, because a mouse is precise and the compact version reads
+   better with one. */
+@media (pointer: coarse) {
+  .viewtoggle {
+    gap: 6px;
+  }
+
+  .viewtoggle button {
+    min-height: 44px;
+    padding: 4px 18px;
+  }
+
+  .section-toc a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 4px 14px;
+  }
+
+  .sec-toggle {
+    min-height: 44px;
+  }
+
+  .x {
+    top: 6px;
+    right: 8px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* `height` on a table cell is a minimum, which `min-height` is not — cells are
+     the one place that distinction matters. */
+  .grid-wrap th.row[data-team],
+  .grid-wrap td.played,
+  .stable tbody td,
+  #tbl thead th,
+  #tbl tbody td,
+  #duotbl tbody td {
+    height: 44px;
+  }
+
+  .back-link,
+  .section-toc,
+  .other-league-entry {
+    min-height: 44px;
+  }
+
+  .other-league-entry,
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+  }
 }

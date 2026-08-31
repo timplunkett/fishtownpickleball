@@ -3,15 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>League Standings — Bounce Pickleball</title>
+<!-- One file serves all twelve local divisions, so a club name here is right for
+     one of them and wrong for the other eleven — it read "Bounce Pickleball" on
+     Flemington, Robbinsville, Ace Moorestown and Dill Dinkers Chantilly alike.
+     Anything club- or division-specific is set by renderHeader once the dataset
+     names it; what is static has to stay true of every division. -->
+<title>Local League Standings — Fishtown Pickleball</title>
+<!-- These pages publish the names and ratings of some three thousand real
+     people. Anyone with the link is welcome to them; a search engine is not.
+     The Open Graph tags below are unaffected by this and are meant to be: robots
+     rules govern crawlers, unfurlers read OG, so the link still previews
+     properly when it is pasted into a group chat. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Standings, head-to-head results and adjusted player ratings for a local club pickleball league division.">
+<meta name="theme-color" content="#0e1116">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="Local League Standings">
+<meta property="og:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/local/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Local League Standings">
+<meta name="twitter:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<noscript>
+  <p class="load-error" role="alert">This dashboard is built in the browser from a data file, so it
+  needs JavaScript switched on. Nothing on this page renders without it.</p>
+</noscript>
 <div class="wrap">
   <header>
     <a class="back-link" href="../">← CPL</a>
     <div class="header-top">
-      <div class="kicker" id="kicker">Bounce Pickleball League • Philadelphia</div>
+      <!-- Neutral on purpose. renderHeader replaces this with the real club as soon
+           as the dataset loads; until then a hard-coded club name flashes the
+           wrong one on eleven of the twelve local divisions. -->
+      <div class="kicker" id="kicker">Local League</div>
       <div class="division-selector-wrap">
         <label for="division-select" class="division-label">Division</label>
         <select id="division-select"></select>
@@ -25,14 +57,22 @@
   <nav class="section-toc" id="section-toc" aria-label="Jump to a section"></nav>
 
   <section class="msec" id="team-standings">
-  <h2>
-    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="team-standings-body"><span class="sec-name">Team Standings</span></button>
-    <span class="tag">by match record, then game record, then point differential • click a team for its page</span>
+  <!-- The toggle is a sibling of the <h2>, not a child of it. <h2> only permits
+       phrasing content, so a <div> in there was invalid — and the practical cost
+       was that the heading's accessible name swallowed the whole description and
+       both button labels, so browsing by heading announced "Team Standings by
+       match record, then game record, then point differential, click a team for
+       its page, Table Cards". .sec-head is what keeps them on one row. -->
+  <div class="sec-head">
+    <h2>
+      <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="team-standings-body"><span class="sec-name">Team Standings</span></button>
+      <span class="tag">by match record, then game record, then point differential • click a team for its page</span>
+    </h2>
     <div class="viewtoggle" id="standings-view" role="group" aria-label="Team standings view">
       <button type="button" data-view="table" aria-pressed="true">Table</button>
       <button type="button" data-view="cards" aria-pressed="false">Cards</button>
     </div>
-  </h2>
+  </div>
   <div class="msec-body" id="team-standings-body">
     <div class="teams" id="teams"></div>
   </div>
@@ -47,14 +87,16 @@
   </section>
 
   <section class="msec" id="head-to-head">
-  <h2>
-    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="head-to-head-body"><span class="sec-name">Head-to-Head</span></button>
-    <span class="tag">game record &amp; net point differential • click a cell for that matchup</span>
+  <div class="sec-head">
+    <h2>
+      <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="head-to-head-body"><span class="sec-name">Head-to-Head</span></button>
+      <span class="tag">game record &amp; net point differential • click a cell for that matchup</span>
+    </h2>
     <div class="viewtoggle" id="grid-view" role="group" aria-label="Head-to-head view">
       <button type="button" data-gridview="weeks" aria-pressed="true">By week</button>
       <button type="button" data-gridview="matrix" aria-pressed="false">Matrix</button>
     </div>
-  </h2>
+  </div>
   <div class="msec-body" id="head-to-head-body">
     <div class="grid-host" id="grid-host"></div>
   </div>
@@ -91,20 +133,26 @@
       read a <span class="pos-diff">+3.0 at 68%</span> as far more settled than the same rating at 45%.</p>
     </div>
   </details>
+  <!-- Every control here is labelled. A placeholder is not an accessible name in
+       any reliable way, and the five selects had none at all: a screen reader
+       read out five unnamed combo boxes whose only clue was whichever option
+       happened to be selected. #division-select up in the header already had a
+       visible <label>; these are filtered lists sitting in a row where a visible
+       label each would double the height of the strip, so they take aria-label. -->
   <div class="controls">
-    <input id="search" placeholder="Search player…" autocomplete="off">
-    <select id="team"></select>
-    <select id="pod" hidden></select>
-    <select id="gender">
+    <input id="search" placeholder="Search player…" autocomplete="off" aria-label="Search players by name">
+    <select id="team" aria-label="Filter by team"></select>
+    <select id="pod" aria-label="Filter by pod" hidden></select>
+    <select id="gender" aria-label="Filter by gender">
       <option value="">All genders</option>
       <option value="Male">Men</option>
       <option value="Female">Women</option>
     </select>
-    <select id="captain">
+    <select id="captain" aria-label="Filter by captain">
       <option value="">All players</option>
       <option value="1">Captains only</option>
     </select>
-    <select id="minq">
+    <select id="minq" aria-label="Filter by matches played">
       <option value="0" selected>All matches</option>
       <option value="1">Only 1 match</option>
       <option value="2">Multiple matches</option>
@@ -148,6 +196,10 @@
   <div id="teamview" hidden></div>
 
   <footer id="foot"></footer>
+  <!-- Static, not part of the footer app.js writes: it has to be true whether or
+       not the dashboard managed to render. -->
+  <p class="attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  with, endorsed by, or operated by DUPR or the Cross Club League.</p>
 </div>
 
 <div id="overlay" class="overlay" hidden>

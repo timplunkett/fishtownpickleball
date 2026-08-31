@@ -3,7 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>DUPR Bracket Audit — CPL</title>
+<title>DUPR Bracket Audit</title>
+<!-- This page names real people. Anyone with the link is welcome to it; a search
+     engine is not. The Open Graph tags are unaffected by that and are meant to
+     be: robots rules govern crawlers, unfurlers read OG. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Rostered players whose DUPR rating sits outside their division's expected bracket, across the Cross Club League and local club leagues.">
+<meta name="theme-color" content="#0e1116">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="DUPR Bracket Audit">
+<meta property="og:description" content="Rostered players whose DUPR rating sits outside their division's expected bracket. A flag is not an accusation — see the note on the page.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/dupr-audit/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DUPR Bracket Audit">
+<meta name="twitter:description" content="Rostered players whose DUPR rating sits outside their division's expected bracket. A flag is not an accusation — see the note on the page.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
 <link rel="stylesheet" href="../styles.css">
 <style>
   .audit-wrap { max-width: 1200px; margin: 0 auto; padding: 20px 16px 40px; }
@@ -18,10 +36,14 @@
   .controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin: 8px 0 16px; }
   .controls label { display: block; font-size: 12px; color: var(--mut); margin: 0 0 4px; }
   .controls select { width: 100%; }
-  .scroll { overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
-  .audit-table { width: 100%; border-collapse: collapse; min-width: 980px; }
+  /* .audit-scroll, .audit-table and the sticky header live in ../styles.css now.
+     They were here, in a <style> that loads after it, so `.scroll { overflow: auto }`
+     re-declared the wrapper overflow and won on source order — behind the back of
+     styles-overflow.test.js, which only reads styles.css. The header on the widest
+     table on the site never stuck as a result. What is left here is styling with
+     no layout invariant attached to it. */
   .audit-table th, .audit-table td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; font-size: 14px; }
-  .audit-table th { color: var(--mut); font-weight: 600; position: sticky; top: 0; background: #131a24; white-space: nowrap; }
+  .audit-table th { color: var(--mut); font-weight: 600; white-space: nowrap; }
   .audit-table th.sortable { cursor: pointer; user-select: none; }
   .audit-table th.sorted { color: var(--txt); }
   .audit-table tr:last-child td { border-bottom: 0; }
@@ -34,9 +56,19 @@
   .muted { color: var(--mut); }
   .empty { padding: 14px; color: var(--mut); }
   .legend { font-size: 12px; color: var(--mut); margin-bottom: 8px; }
+  /* Directly under the heading, ahead of the numbers, and at body size rather
+     than fine print: a reader who sees a name in red bold needs this before they
+     draw a conclusion from it, not after. */
+  .caveat { max-width: 62em; margin: 0 0 18px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 12px; font-size: 13px; line-height: 1.6; }
+  .caveat p { margin: 0 0 8px; }
+  .caveat p:last-child { margin-bottom: 0; }
 </style>
 </head>
 <body>
+<noscript>
+  <p class="load-error" role="alert">This page is built in the browser from a data file, so it needs
+  JavaScript switched on. The tables below stay empty without it.</p>
+</noscript>
 <div class="audit-wrap">
   <a class="back-link" href="../">← CPL</a>
   <header class="audit-head">
@@ -44,6 +76,16 @@
     <h1>DUPR Bracket Audit</h1>
     <p class="audit-sub">Players whose DUPR is outside the expected division bracket across travel and local leagues.</p>
   </header>
+
+  <div class="caveat">
+    <p><b>A flag here is not an accusation.</b> Provisional ratings, ratings that moved after the
+    roster locked, and DUPR changes mid-season all put a player outside their bracket without anyone
+    having done anything wrong — and the bracket boundaries are the league's, applied here as
+    published. A delta under 0.050 is within the noise of the rating itself and shown unemphasised
+    for that reason.</p>
+    <p>Compiled from the Cross Club League API and DUPR. This site is unofficial and is not
+    affiliated with, endorsed by, or operated by DUPR or the Cross Club League.</p>
+  </div>
 
   <div class="cards" id="cards"></div>
 
@@ -69,18 +111,18 @@
   <section>
     <h2>Above bracket</h2>
     <div class="legend" id="legend-above"></div>
-    <div class="scroll"><table class="audit-table" id="above-table"></table></div>
+    <div class="audit-scroll"><table class="audit-table" id="above-table"></table></div>
   </section>
 
   <section style="margin-top:20px;">
     <h2>Below bracket</h2>
     <div class="legend" id="legend-below"></div>
-    <div class="scroll"><table class="audit-table" id="below-table"></table></div>
+    <div class="audit-scroll"><table class="audit-table" id="below-table"></table></div>
   </section>
 
   <section style="margin-top:20px;">
     <h2>Missing DUPR rating</h2>
-    <div class="scroll"><table class="audit-table" id="missing-table"></table></div>
+    <div class="audit-scroll"><table class="audit-table" id="missing-table"></table></div>
   </section>
 </div>
 
@@ -424,6 +466,19 @@
   // Deferred scripts (shared.js, dupr-ratings.js, data.js) execute before
   // DOMContentLoaded, so everything this needs is present by then.
   function main() {
+    // shared.js has its own cache entry and can be the one file that fails. Read
+    // unguarded, that throws here and leaves three empty tables and no reason.
+    if (!window.CPLShared || !window.CPLShared.escapeHtml) {
+      var head = document.querySelector('.audit-head');
+      if (head) {
+        var warning = document.createElement('p');
+        warning.className = 'load-error';
+        warning.setAttribute('role', 'alert');
+        warning.textContent = "Couldn't load this page's scripts. Reload to try again.";
+        head.parentNode.insertBefore(warning, head.nextSibling);
+      }
+      return;
+    }
     escapeHtml = window.CPLShared.escapeHtml;
     slugify = window.CPLShared.slugify;
     var split = splitRows(buildRows());

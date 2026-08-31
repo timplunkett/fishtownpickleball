@@ -264,3 +264,81 @@ test('nothing sticks to the viewport but the contents strip', () => {
     'something other than the strip and the table headers is sticking',
   );
 });
+
+// Touch targets. Nothing pinned a minimum before, and the primary controls drew
+// at 19–26px: the two view switches, the contents-strip chips, a clickable grid
+// header cell on a phone, and a modal close control that was a bare glyph with no
+// padding. All of it is invisible on a desktop browser, where a mouse hits every
+// one of them first time — which is exactly why it needs a test rather than a
+// look.
+const TOUCH_TARGETS = [
+  '.viewtoggle button',
+  '.section-toc a',
+  '.x',
+  '.grid-wrap th.row[data-team]',
+];
+
+test('the primary controls have a 44px floor for a coarse pointer', () => {
+  assert.match(code, /@media\s*\(pointer:\s*coarse\)/, 'nothing in here distinguishes a touch screen');
+  TOUCH_TARGETS.forEach((target) => {
+    // A cell honours `height` as a minimum where `min-height` does not apply, so
+    // either counts.
+    const sized = rules().filter(([selector, body]) => (
+      selector.split(',').some((one) => one.trim() === target)
+        && /(?:min-height|height):\s*\d+px/.test(body)
+    ));
+    assert.ok(sized.length, `${target} has no minimum height anywhere`);
+    sized.forEach(([, body]) => {
+      const px = Number(/(?:min-height|height):\s*(\d+)px/.exec(body)[1]);
+      assert.ok(px >= 44, `${target} is pinned at ${px}px, under the 44px minimum`);
+    });
+  });
+});
+
+// A page that slides sideways because one table is wider than the phone is much
+// worse than a table that does, and there was no guard against it at all.
+test('no single element can give the whole page a horizontal scrollbar', () => {
+  const [root] = rules().filter(([selector]) => selector.trim() === 'html');
+  assert.ok(root, 'no rule on html at all');
+  assert.match(root[1], /overflow-x:\s*clip/, 'nothing stops the page itself scrolling sideways');
+  // `hidden` would make the viewport's overflow a scroll container and take the
+  // contents strip and every sticky table header with it. `clip` does not.
+  assert.ok(
+    !/overflow(-x)?:\s*hidden/.test(root[1]),
+    'overflow-x: hidden on the root breaks every position: sticky on the page',
+  );
+});
+
+// The DUPR audit page set `.audit-table { min-width: 980px }` and re-declared
+// `.scroll { overflow: auto }` in a page-local <style> that loads after
+// styles.css — so it won on source order, out of sight of this file, and the
+// sticky header on the widest table on the site never stuck. Both rules live here
+// now, and .audit-scroll is a class of its own because unlike the dashboard's
+// wrappers it is capped on purpose: that cap is the scrollport its header sticks
+// against.
+test('the audit page declares its scroll container here, capped, with a header that sticks', () => {
+  const [wrap] = rules().filter(([selector]) => selector.trim() === '.audit-scroll');
+  assert.ok(wrap, '.audit-scroll is not in this stylesheet, so nothing here can check it');
+  assert.match(wrap[1], /overflow:\s*auto/);
+  assert.match(wrap[1], /max-height/, 'uncapped, it never scrolls vertically and its header cannot stick');
+
+  const [header] = rules().filter(([selector]) => selector.trim() === '.audit-scroll thead th');
+  assert.ok(header, 'nothing sticks the audit table header');
+  assert.match(header[1], /position:\s*sticky/);
+  assert.match(header[1], /top:\s*0/);
+
+  const [table] = rules().filter(([selector]) => selector.trim() === '.audit-table');
+  assert.ok(table, '.audit-table is not in this stylesheet');
+  assert.match(table[1], /min-width/, 'the width that makes the container scroll at all is missing');
+
+  // And the page must not take any of it back in a later <style>.
+  const page = fs.readFileSync(path.join(__dirname, '../../cpl/dupr-audit/index.html'), 'utf8');
+  const inline = /<style>([\s\S]*?)<\/style>/.exec(page);
+  assert.ok(inline, 'no page-local styles left — this test no longer has anything to guard');
+  const inlineCode = inline[1].replace(/\/\*[\s\S]*?\*\//g, '');
+  assert.ok(!/overflow\s*:/.test(inlineCode), 'the page re-declares an overflow after styles.css');
+  assert.ok(
+    !/position:\s*sticky/.test(inlineCode),
+    'the page re-declares a sticky position after styles.css',
+  );
+});

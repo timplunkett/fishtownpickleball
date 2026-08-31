@@ -76,7 +76,7 @@ const RESULT_CLASS = Object.freeze({
 // Shared client utilities (cpl/shared.js loads before this file).
 const {
   escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex, buildTeamAbbreviations,
-  displayPodGroups,
+  displayPodGroups, loadErrorHtml, formatDataAge,
 } = window.CPLShared;
 
 // Remembered view preferences: which sections you left collapsed, and which of
@@ -493,16 +493,25 @@ function loadScriptOnce(src) {
   });
 }
 
-// The cross-league finder index is the largest asset on the site and the only
-// thing on a dashboard page that reads it is the "Also plays in" row inside a
-// player modal — so it rides along with the detail file rather than blocking
-// first paint. renderOtherLeaguesSummary already returns nothing when the index
-// is absent, so a modal opened before it arrives simply omits that row.
+// The cross-league finder index is the largest asset on the site (114 KB
+// gzipped) and the only thing on a dashboard page that reads it is the "Also
+// plays in" row inside a player modal. renderOtherLeaguesSummary already returns
+// nothing when the index is absent, so a modal opened before it arrives simply
+// omits that row — which is exactly what the comment here used to claim while
+// the code sat inside ensurePlayerDetails' Promise.all and made every first
+// modal open wait for it anyway. It is fired off on the side now, and the row is
+// filled in on whatever modal is open by the time it lands.
+let playerIndexPromise = null;
+
 function loadPlayerIndexScript() {
-  if (window.PLAYER_INDEX_TABLES || window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX) {
-    return Promise.resolve();
+  if (!playerIndexPromise) {
+    playerIndexPromise = (
+      window.PLAYER_INDEX_TABLES || window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX
+        ? Promise.resolve()
+        : loadScriptOnce('../player-index.js')
+    ).then(refreshOtherLeaguesRow);
   }
-  return loadScriptOnce('../player-index.js');
+  return playerIndexPromise;
 }
 
 function mergePlayerDetails() {
@@ -522,10 +531,7 @@ function mergePlayerDetails() {
 
 function ensurePlayerDetails() {
   if (!playerDetailsPromise) {
-    playerDetailsPromise = Promise.all([
-      loadScriptOnce(DATA.meta.detailFile).then(mergePlayerDetails),
-      loadPlayerIndexScript(),
-    ]);
+    playerDetailsPromise = loadScriptOnce(DATA.meta.detailFile).then(mergePlayerDetails);
   }
   return playerDetailsPromise;
 }
@@ -1209,6 +1215,16 @@ function renderHeader() {
     elements.kicker.textContent = typicalDay ? `${clubName} • ${typicalDay}` : clubName;
   }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
+
+  // One HTML file serves every division in its league, so the <title> in it can
+  // only ever be right for one of them — it read "Bounce Pickleball" on
+  // Flemington, Robbinsville and Chantilly alike, in the tab and in every share
+  // preview. The division is only known once its dataset has loaded, so this is
+  // the earliest the real name can be set.
+  const titleSubject = isTravel
+    ? ['Cross Club League', divisionName].filter(Boolean).join(' ')
+    : [clubName, divisionName].filter(Boolean).join(' ');
+  document.title = titleSubject ? `${titleSubject} Standings` : 'League Standings';
 }
 
 function renderSummary() {
@@ -1221,11 +1237,18 @@ function renderSummary() {
   const provisionalNote = provisionalCount
     ? ` (${provisionalCount} provisional)`
     : '';
-  elements.subhead.textContent =
-    `${DATA.meta.matchesPlayed} matches played${provisionalNote} (Weeks ${DATA.meta.weeks}) • ` +
-    `${DATA.meta.totalPlayers} players • as of ${DATA.meta.asOf}`;
+  // No fallback here printed the literal "as of undefined" to readers whenever a
+  // shard predated meta.asOf. formatDataAge owns every degenerate case, including
+  // the date-only stamps older shards carry.
+  const age = formatDataAge(DATA.meta.asOf);
+  elements.subhead.innerHTML =
+    escapeHtml(`${DATA.meta.matchesPlayed} matches played${provisionalNote} (Weeks ${DATA.meta.weeks}) • ` +
+      `${DATA.meta.totalPlayers} players • `) +
+    `<span class="asof"${age.title ? ` title="${escapeHtml(age.title)}"` : ''}>${escapeHtml(age.text)}</span>`;
   elements.footer.textContent =
-    `Live from the ${leagueLabel} • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
+    // "Live from" invited the reading that this page reflects the league right
+    // now. It is a static snapshot the bot recompiles every six hours.
+    `Compiled from the ${leagueLabel} • division ${currentSlug} • Weeks ${DATA.meta.weeks}, ` +
     `${DATA.meta.matchesPlayed} completed matches${provisionalNote}. ` +
     (provisionalCount
       ? `Provisional matches are ones the league has not officially closed out, ` +
@@ -1239,6 +1262,15 @@ function renderSummary() {
     `"Conf" column shows how much of each rating is backed by real game evidence ` +
     `(0–100%) — early-season ratings are low-confidence and will shift as more ` +
     `games are played.`;
+
+  // The bootstrap sets this when neither the division's DUPR shard nor the
+  // league-wide table loaded. Without a note, an entire division reads as though
+  // nobody in it has a DUPR rating — a wrong claim about real people, made by an
+  // empty column.
+  if (window.CPL_DUPR_UNAVAILABLE) {
+    elements.footer.textContent += ' The DUPR table did not load on this visit, ' +
+      'so the DUPR column is blank for everyone — reload to try again.';
+  }
 }
 
 // The label for a schedule section — the set of teams that actually play each
@@ -2337,6 +2369,31 @@ function renderOtherLeaguesSummary(player) {
   return `<div class="other-leagues"><span class="other-leagues-label">Also plays in</span>${rows}</div>`;
 }
 
+// The player whose modal is on screen. Two things read it: the late-arriving
+// finder index, which fills in one row without rebuilding the modal, and the
+// detail shard, which must not paint into a modal the reader has since replaced
+// by tapping a second name.
+let openModalPlayer = null;
+
+function refreshOtherLeaguesRow() {
+  if (!openModalPlayer || elements.overlay.hidden) return;
+  const host = elements.modalBody.querySelector('.other-leagues-host');
+  if (host) host.innerHTML = renderOtherLeaguesSummary(openModalPlayer);
+}
+
+// Shown for the second or three a phone spends fetching the detail shard. The
+// shapes match what replaces them, so the modal settles rather than jumps.
+const MODAL_SKELETON = `
+  <div class="mskel" aria-hidden="true">
+    <div class="mskel-line" style="width:38%"></div>
+    <div class="mskel-block"></div>
+    <div class="mskel-line" style="width:60%"></div>
+    <div class="mskel-line" style="width:52%"></div>
+    <div class="mskel-line" style="width:56%"></div>
+  </div>
+  <p class="mskel-note">Loading match history…</p>
+`;
+
 function renderModalBody(player) {
   const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
@@ -2364,7 +2421,7 @@ function renderModalBody(player) {
   const otherLeaguesSummary = renderOtherLeaguesSummary(player);
 
   return `
-    ${otherLeaguesSummary}
+    <div class="other-leagues-host">${otherLeaguesSummary}</div>
     ${ratingHistorySection}
     <table class="mlog">
       <thead>
@@ -2411,6 +2468,7 @@ function hideModal() {
     return;
   }
   elements.overlay.hidden = true;
+  openModalPlayer = null;
   if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
     lastFocusedElement.focus();
   }
@@ -2444,10 +2502,22 @@ function showPlayerModal(player) {
     return;
   }
 
+  // Opens now rather than when the data lands. The detail shard is 55–101 KB
+  // gzipped: on a phone that is one to three seconds in which a tapped name did
+  // nothing visible at all, which reads as a dead link and gets tapped again.
+  // The header is drawn from the summary the page already has — everything in it
+  // but the chemistry line is in DATA.players — so only the body is a skeleton.
+  openModalPlayer = player;
+  elements.modalHead.innerHTML = renderModalHeader(player);
+  elements.modalBody.innerHTML = MODAL_SKELETON;
+  showModal();
+
+  loadPlayerIndexScript();
   ensurePlayerDetails().then(() => {
+    // A second name tapped while this was in flight owns the modal now.
+    if (openModalPlayer !== player) return;
     elements.modalHead.innerHTML = renderModalHeader(player);
     elements.modalBody.innerHTML = renderModalBody(player);
-    showModal();
   });
 }
 
@@ -3695,4 +3765,41 @@ function initialize() {
   handleRoute();
 }
 
-initialize();
+// Nothing here used to have an error state at all: a throw anywhere in
+// initialize left whichever sections had already rendered and stopped, and a
+// throw in an async path after it left the page looking finished and quietly
+// stale. Either way the reader saw half a dashboard and no reason for it.
+//
+// One banner covers both. It replaces #mainview rather than sitting above it,
+// because the sections behind it are the half-built state that caused the
+// confusion, and it offers the two things that actually help: reload, or go
+// back to a division that works.
+let loadErrorShown = false;
+
+function showFatalError(error) {
+  window.console.error('CPL dashboard failed:', error);
+  // First one wins. A failed render usually throws again on the next event, and
+  // redrawing the banner under a reader who is mid-click is its own bug.
+  if (loadErrorShown) return;
+  loadErrorShown = true;
+  const host = document.getElementById('mainview');
+  if (!host) return;
+  host.innerHTML = loadErrorHtml(
+    "Couldn't load these standings. Reload the page, or go back to all divisions.",
+    'Go back to all divisions',
+    '../',
+  );
+  const teamView = document.getElementById('teamview');
+  if (teamView) teamView.hidden = true;
+}
+
+// A rejected promise never reaches the try/catch below, and neither does a throw
+// inside a listener registered by it — so both are caught where they surface.
+window.addEventListener('error', (event) => showFatalError(event.error || event.message));
+window.addEventListener('unhandledrejection', (event) => showFatalError(event.reason));
+
+try {
+  initialize();
+} catch (error) {
+  showFatalError(error);
+}

@@ -75,6 +75,18 @@ function selectExtraPlayerIds(playerArr, playerIdsByName) {
   return extra;
 }
 
+// The compile stamp for a division this run did not recompile, recovered from
+// its data file so the bootstrap can report a per-division freshness even after
+// a single-division build. writeDataScript emits the value as a literal
+// assignment on its own line, so a regex reads it back — parsing a multi-megabyte
+// data file to recover one string would not be worth it.
+function readCompiledAsOf(cplDir, slug) {
+  const dataPath = path.join(cplDir, `data-${slug}.js`);
+  if (!fs.existsSync(dataPath)) return '';
+  const match = /^\s*DATA\.meta\.asOf = ("(?:[^"\\]|\\.)*");/m.exec(fs.readFileSync(dataPath, 'utf8'));
+  return match ? JSON.parse(match[1]) : '';
+}
+
 function writeDataScript(outPath, data) {
   const asOf = data && data.meta ? data.meta.asOf : undefined;
   const divisionSlug = data && data.meta ? data.meta.divisionSlug : undefined;
@@ -452,7 +464,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
       meta: {
-        matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf: new Date().toISOString().slice(0, 10),
+        matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf: new Date().toISOString(),
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
         typicalDay: computeTypicalDay(matchups),
@@ -463,7 +475,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     writeDataScript(outPath, DATA);
     writeDetailScript(detailOutPath, slug, detailByPid);
     console.log(`  ✓ ${path.basename(outPath)} written (pre-season roster only)`);
-    return;
+    return DATA.meta.asOf;
   }
 
   // Seed teams from all matchups (completed + scheduled) so teams that haven't
@@ -789,7 +801,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
     meta: {
       matchesPlayed: completed.length, provisionalMatches: provisionalCount, weeks: weekLabel,
-      asOf: new Date().toISOString().slice(0, 10), totalPlayers: playerArr.length,
+      // A full timestamp, not a date. The bot refreshes every six hours, so a
+      // date-only stamp described four different datasets and gave a reader no
+      // way to tell whether the refresh they were waiting on had landed.
+      asOf: new Date().toISOString(), totalPlayers: playerArr.length,
       ratingHistoryWeeks, divisionSlug: slug,
       hasPlayoffs: playoffs.length > 0,
       typicalDay,
@@ -801,6 +816,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   writeDataScript(outPath, DATA);
   writeDetailScript(detailOutPath, slug, detailByPid);
   console.log(`  ✓ ${path.basename(outPath)} written (+ ${path.basename(detailOutPath)})`);
+  return DATA.meta.asOf;
 }
 
 async function compileDashboardHtml(league = 'local', { divisionSlugs = null } = {}) {
@@ -819,7 +835,6 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
     fs.mkdirSync(cplDir, { recursive: true });
   }
 
-  // Write bootstrap.js with the current division list baked in.
   // Sort divisions deterministically:
   // - local by clubName then divisionName
   // - travel by numeric bracket, then regular before gendered, then name
@@ -837,27 +852,19 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
     return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
   });
   const landingSlug = getLandingSlug(league, sortedDivisions);
-  const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions);
   const divisionsGlobal = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
-  const bootstrapSrc = buildBootstrapSource({
-    dashboardPath: `/cpl/${league}`,
-    landingSlug,
-    divisionsLiteral,
-    divisionsGlobal,
-  });
-  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), bootstrapSrc);
   const runtimePath = path.join(__dirname, '../../cpl/bootstrap-runtime.js');
   fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
   // The shared utils are UMD: the same file serves the pipeline via require()
   // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
   fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(__dirname, '../../cpl/shared.js'));
-  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, landing: ${landingSlug}, window.${divisionsGlobal} exposed).`);
 
   const divisionsToCompile = filterDivisions(allDivisions, { divisionSlugs });
   console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
   const matchedSlugs = divisionsToCompile.map((div) => div.slug);
 
   const failedDivisions = [];
+  const asOfBySlug = new Map();
   for (const div of divisionsToCompile) {
     const label = formatDivisionLabel(div);
     const divDataDir = path.join(dataDir, div.slug);
@@ -875,13 +882,14 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
       const singleGender = isGenderApiBase(div.apiBase)
         ? travelDivisionGender(div.divisionName)
         : null;
-      compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
+      const asOf = compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,
         ...(league === 'travel' && div.regionName ? { regionName: div.regionName } : {}),
         ...(singleGender ? { singleGender } : {}),
       });
+      if (asOf) asOfBySlug.set(div.slug, asOf);
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
       failedDivisions.push({
@@ -892,6 +900,22 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
       });
     }
   }
+
+  // bootstrap.js is written last, not first, because each division entry now
+  // carries the compile stamp of its data file — and the stamps only exist once
+  // the loop above has written them. A single-division build recovers the rest
+  // from disk, so the list stays complete either way.
+  const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions.map((div) => ({
+    ...div,
+    asOf: asOfBySlug.get(div.slug) || readCompiledAsOf(cplDir, div.slug),
+  })));
+  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), buildBootstrapSource({
+    dashboardPath: `/cpl/${league}`,
+    landingSlug,
+    divisionsLiteral,
+    divisionsGlobal,
+  }));
+  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, landing: ${landingSlug}, window.${divisionsGlobal} exposed).`);
 
   if (failedDivisions.length) {
     console.error(`\n⚠️ Phase 2 finished with ${failedDivisions.length} failed division(s).`);

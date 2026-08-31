@@ -4,13 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CPL Standings — Fishtown Pickleball</title>
+<!-- These pages publish the names and ratings of some three thousand real
+     people. Anyone with the link is welcome to them; a search engine is not.
+     The Open Graph tags below are unaffected by this and are meant to be: robots
+     rules govern crawlers, unfurlers read OG, so the link still previews
+     properly when it is pasted into a group chat. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Standings, player ratings and a cross-league player finder for the Cross Club League and local club leagues around Philadelphia.">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="CPL League Standings">
+<meta property="og:description" content="Pick a division, or search any player by name to see every league and team they are on.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CPL League Standings">
+<meta name="twitter:description" content="Pick a division, or search any player by name to see every league and team they are on.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="home.css">
 </head>
 <body>
+  <noscript>
+    <p class="load-error" role="alert">This page builds its division lists and player search in the
+    browser, so it needs JavaScript switched on. Nothing here works without it.</p>
+  </noscript>
+
   <div class="hero">
     <div class="kicker">Fishtown Pickleball Club</div>
     <h1>CPL League Standings</h1>
+    <!-- Filled in by home.js from the newest asOf across every division in the
+         two bootstraps. Empty until then, so a slow load shows no claim at all
+         rather than a stale one. -->
+    <p class="freshness" id="data-freshness"></p>
   </div>
 
   <div class="panels">
@@ -53,9 +82,15 @@
       </svg>
       <input type="search" id="player-search" placeholder="Type a player name…" autocomplete="off" spellcheck="false" aria-label="Search for a player">
     </div>
-    <div id="player-results" role="list"></div>
+    <!-- No role="list" here: home.js renders each result as a card wrapping its
+         links, so the anchors were never this element's children and the list
+         reported zero items. They are links; the role added nothing. -->
+    <div id="player-results"></div>
     <p class="finder-hint" id="finder-hint" aria-live="polite">Start typing to search across all leagues and divisions</p>
   </div>
+
+  <p class="attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  with, endorsed by, or operated by DUPR or the Cross Club League.</p>
 
 <script src="shared.js" defer></script>
 <script src="bootstrap-runtime.js" defer></script>

@@ -4,7 +4,11 @@
   --panel: #161b22;
   --line: #30363d;
   --txt: #e6edf3;
-  --mut: #7d8590;
+  /* No --mut override here. This file used to darken it to #7d8590, and the most
+     read text on the page — the team name on a result card, and the DUPR line
+     above it at 11.5px — landed at 4.19:1 on the #1c2430 card background, which
+     fails WCAG AA. styles.css's own #8b97a6 measures 5.26:1 there and 5.83:1 on
+     the panel behind it, so both pass at any size. */
   --accent: #1db2dc;
   --radius: 14px;
   --font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -246,5 +250,37 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
   .player-result-entry .team-name {
     width: 100%;
+  }
+}
+
+/* How fresh the data is, filled in by home.js. This is the URL that actually
+   gets shared, and it said nothing about that at all. */
+.freshness {
+  margin: .4rem 0 0;
+  font-size: .72rem;
+  color: var(--mut);
+}
+
+.freshness[title] {
+  cursor: help;
+}
+
+/* Touch targets on the landing page. The selects and the search box clear 44px
+   on their own padding; the result rows and the dashboard link did not. */
+@media (pointer: coarse) {
+  .player-result-entry {
+    min-height: 44px;
+  }
+
+  #dashboard-panel a,
+  .finder-hint a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  select,
+  #player-search {
+    min-height: 44px;
   }
 }

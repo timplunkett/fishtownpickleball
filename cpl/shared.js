@@ -107,8 +107,11 @@
       ? `${label}<sup title="Provisional rating">*</sup>`
       : label;
 
+    // rel replaces the browser default rather than adding to it, so `nofollow`
+    // on its own hands the opened tab a window.opener onto this page. The other
+    // two have to be spelled out alongside it.
     return duprData.numericId
-      ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(duprData.numericId)}" target="_blank" rel="nofollow">${display}</a>`
+      ? `<a href="https://dashboard.dupr.com/dashboard/player/${encodeURIComponent(duprData.numericId)}" target="_blank" rel="nofollow noopener noreferrer">${display}</a>`
       : display;
   }
 
@@ -528,10 +531,56 @@
     })).filter((group) => group.teams.length);
   }
 
+  // The one thing every page here needs and none of them had: something to show
+  // a reader when a load fails. Returned as a string so each caller can put it
+  // in the container it owns — #mainview on a dashboard, a panel on the landing
+  // page. Calm on purpose: the page is already broken, and a red alarm on top of
+  // that only makes a reader think they did something wrong.
+  function loadErrorHtml(message, linkText, linkHref) {
+    const action = linkHref
+      ? `<p class="load-error-action"><a href="${escapeHtml(linkHref)}">${escapeHtml(linkText)}</a></p>`
+      : '';
+    return `<div class="load-error" role="alert"><p class="load-error-msg">${escapeHtml(message)}</p>${action}</div>`;
+  }
+
+  // How stale the data on screen is, as { text, title }: a relative phrase to
+  // read and an absolute timestamp for the tooltip.
+  //
+  // The bot refreshes every six hours, so a date-only asOf described four
+  // different datasets and gave a reader no way to tell whether the refresh they
+  // were waiting for had landed. meta.asOf is a full ISO timestamp now — but
+  // shards compiled before that change still carry a bare date, and a bare date
+  // has no time of day to be relative to. Reading one as midnight would report a
+  // morning refresh as "16h ago", so those stay absolute rather than become
+  // confidently wrong. Anything unparseable is echoed as-is; the one output this
+  // must never produce is "undefined" or "NaN".
+  function formatDataAge(asOf, now) {
+    const raw = String(asOf == null ? '' : asOf).trim();
+    if (!raw) return { text: 'update time unknown', title: '' };
+
+    const parsed = new Date(raw);
+    if (Number.isNaN(parsed.getTime())) return { text: `as of ${raw}`, title: '' };
+    if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return { text: `as of ${raw}`, title: raw };
+
+    const title = parsed.toLocaleString();
+    const elapsed = (now == null ? Date.now() : now) - parsed.getTime();
+    const minutes = Math.floor(elapsed / 60000);
+    // A negative elapsed means the clock on this device is behind the builder's,
+    // not that the data is from the future.
+    if (minutes < 2) return { text: 'updated just now', title };
+    if (minutes < 60) return { text: `updated ${minutes}m ago`, title };
+    const hours = Math.floor(minutes / 60);
+    if (hours < 36) return { text: `updated ${hours}h ago`, title };
+    const days = Math.floor(hours / 24);
+    return { text: `updated ${days}d ago`, title };
+  }
+
   return {
     escapeHtml,
     decodeHtmlEntities,
     displayPodGroups,
+    loadErrorHtml,
+    formatDataAge,
     slugify,
     normalizeName,
     teamNameWords,

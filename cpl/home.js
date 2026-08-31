@@ -2,11 +2,27 @@
 (function () {
   'use strict';
 
-  var escapeHtml = window.CPLShared.escapeHtml;
-  var divisionSortKey = window.CPLShared.divisionSortKey;
-  var isGenderedTravelDivision = window.CPLShared.isGenderedTravelDivisionName;
-  var formatTravelDivisionLabel = window.CPLShared.formatTravelDivisionLabel;
-  var slugify = window.CPLShared.slugify;
+  // shared.js is a separate file with its own cache entry, so it can be the one
+  // thing that fails to load. Reading these off it unguarded threw on the first
+  // line, before either picker was built — and a throw in an IIFE is invisible,
+  // so the page sat there with two panel headings and nothing under them,
+  // looking like a division list that happened to be empty.
+  var shared = window.CPLShared;
+  if (!shared || !shared.escapeHtml) {
+    ['travel-select-host', 'local-select-host', 'player-results'].forEach(function (id) {
+      var host = document.getElementById(id);
+      if (!host) return;
+      host.innerHTML = '<p class="panel-empty load-error-msg"></p>';
+      host.firstChild.textContent = "Couldn't load this page's scripts. Reload to try again.";
+    });
+    return;
+  }
+
+  var escapeHtml = shared.escapeHtml;
+  var divisionSortKey = shared.divisionSortKey;
+  var isGenderedTravelDivision = shared.isGenderedTravelDivisionName;
+  var formatTravelDivisionLabel = shared.formatTravelDivisionLabel;
+  var slugify = shared.slugify;
 
   function buildLocalSelect(divisions) {
     var host = document.getElementById('local-select-host');
@@ -62,8 +78,29 @@
     host.appendChild(wrap);
   }
 
+  // How fresh the data is, on the one page whose URL actually gets shared — it
+  // said nothing at all before. The newest stamp across every division, read off
+  // the two bootstraps this page already loads: the alternative is a data shard,
+  // and those run hundreds of kilobytes each with twenty-two to choose from.
+  // ISO timestamps sort lexicographically, so the last one is the newest, and a
+  // date-only stamp from an older shard still sorts into the right place.
+  function renderFreshness() {
+    var host = document.getElementById('data-freshness');
+    if (!host) return;
+    var newest = (window.LOCAL_DIVISIONS || []).concat(window.TRAVEL_DIVISIONS || [])
+      .map(function (div) { return div.asOf || ''; })
+      .filter(Boolean)
+      .sort()
+      .pop();
+    if (!newest) return;
+    var age = shared.formatDataAge(newest);
+    host.textContent = age.text;
+    if (age.title) host.title = age.title;
+  }
+
   buildLocalSelect(window.LOCAL_DIVISIONS || []);
   buildTravelSelect(window.TRAVEL_DIVISIONS || []);
+  renderFreshness();
 
   // ── Player Finder ──────────────────────────────────────────────────────────
   // The index (~250 KB of scripts) is only needed once someone actually
@@ -73,24 +110,33 @@
   var resultsEl = document.getElementById('player-results');
   var hintEl = document.getElementById('finder-hint');
   var finderDataPromise = null;
+  // Set when the index itself never arrived, which is a different fact from a
+  // name that matched nothing. Reporting both as "No players found" told someone
+  // on a flaky connection that a player they know is in the league does not
+  // exist — the one answer this box must never give wrongly.
+  var finderIndexFailed = false;
 
   function loadScript(src) {
     return new Promise(function (resolve) {
       var script = document.createElement('script');
       script.src = src;
       script.async = false;
-      script.onload = resolve;
-      script.onerror = resolve; // degrade: finder shows "no players found"
+      script.onload = function () { resolve(true); };
+      script.onerror = function () { resolve(false); };
       document.body.appendChild(script);
     });
   }
 
   function ensureFinderData() {
     if (!finderDataPromise) {
+      // The DUPR table only decorates a result with a rating, so its failure is
+      // survivable and unremarked; the index is the search itself.
       finderDataPromise = Promise.all([
         loadScript('player-index.js'),
         loadScript('dupr-ratings.js'),
-      ]);
+      ]).then(function (loaded) {
+        finderIndexFailed = !loaded[0];
+      });
     }
     return finderDataPromise;
   }
@@ -112,7 +158,14 @@
 
   function renderResults(query) {
     var q = normalize(query);
-    var playerIndex = window.CPLShared.getPlayerIndex();
+    if (finderIndexFailed) {
+      resultsEl.innerHTML = '<p class="panel-empty load-error-msg"></p>';
+      resultsEl.firstChild.textContent = "Couldn't load the player list — check your connection.";
+      hintEl.style.display = '';
+      hintEl.textContent = 'Player list unavailable';
+      return;
+    }
+    var playerIndex = shared.getPlayerIndex();
     if (!q) {
       resultsEl.innerHTML = '';
       hintEl.style.display = '';
@@ -155,7 +208,13 @@
         if (e.club) locationParts.push(escapeHtml(e.club));
         locationParts.push(escapeHtml(e.division));
         var locationText = locationParts.join(' — ');
-        return '<a class="player-result-entry" href="' + escapeHtml(divisionUrl(e, name)) + '" role="listitem">' +
+        // No role="listitem" here. #player-results carried role="list", but
+        // these anchors are its grandchildren (inside .player-result /
+        // .player-result-entries), so the list contained no items at all and a
+        // screen reader announced an empty list over every result. They are
+        // links, and the roles bought nothing even when they lined up — so both
+        // are gone rather than the DOM flattened around them.
+        return '<a class="player-result-entry" href="' + escapeHtml(divisionUrl(e, name)) + '">' +
           '<span class="league-badge ' + badgeClass + '">' + badgeLabel + '</span>' +
           '<span class="division-name">' + locationText + '</span>' +
           '<span class="team-name">· ' + escapeHtml(e.team || '') + '</span>' +
@@ -170,7 +229,7 @@
       if (duprEntry) {
         var duprData = duprRatings[duprEntry.playerId];
         duprHtml = '<span class="player-result-dupr">DUPR ' +
-          window.CPLShared.formatDuprRating(duprData) +
+          shared.formatDuprRating(duprData) +
           '</span>';
       }
       return '<div class="player-result">' +

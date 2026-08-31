@@ -4,12 +4,18 @@
 
 // Division entries are emitted with JSON.stringify so any characters the API
 // sends (quotes, backslashes, even newlines) serialize into valid JS.
+//
+// `asOf` rides along so the landing page can say how fresh the data is without
+// pulling a data shard: /cpl/ already loads both bootstraps, and the shards it
+// would otherwise need are hundreds of kilobytes each. Absent for a division
+// with nothing compiled yet.
 function buildBootstrapDivisionsLiteral(divisions) {
   return divisions.map((division) => {
     const entry = {
       slug: division.slug,
       ...(division.clubName ? { clubName: division.clubName } : {}),
       divisionName: division.divisionName,
+      ...(division.asOf ? { asOf: division.asOf } : {}),
     };
     return `    ${JSON.stringify(entry)}`;
   }).join(',\n');
@@ -73,9 +79,31 @@ function buildBootstrapRuntimeSource() {
     });
   }
 
-  // Every division's data lives at data-<slug>.js. If the requested one 404s
-  // (listed in bootstrap.js but not yet compiled) fall back to the landing
-  // division so the dashboard renders something rather than staying blank.
+  // The only thing this file can say to a reader, since app.js is what renders
+  // everything else and the failures below are exactly the ones where it never
+  // runs. Without it the page stayed at its empty scaffolding with a clean
+  // console — indistinguishable, from the outside, from a page still loading.
+  function showLoadError(message) {
+    const host = document.getElementById('mainview');
+    if (!host) return;
+    const shared = window.CPLShared;
+    host.innerHTML = shared && shared.loadErrorHtml
+      ? shared.loadErrorHtml(message, 'Go back to all divisions', '../')
+      : '<div class="load-error" role="alert"><p class="load-error-msg"></p>' +
+        '<p class="load-error-action"><a href="../">Go back to all divisions</a></p></div>';
+    if (!(shared && shared.loadErrorHtml)) {
+      // shared.js is a separate cached file and may be the thing that failed;
+      // textContent keeps the message out of the markup either way.
+      host.querySelector('.load-error-msg').textContent = message;
+    }
+  }
+
+  // Every division's data lives at data-<slug>.js.
+  //
+  // A 404 here used to fall back to the landing division's file, which rendered
+  // another division's standings under a URL naming this one — confidently wrong
+  // data, and worse than saying nothing. A division listed in bootstrap.js but
+  // not yet compiled now says so.
   function dataFileFor(slug) {
     return slug ? \`data-\${slug}.js\` : '';
   }
@@ -83,7 +111,8 @@ function buildBootstrapRuntimeSource() {
   // Each division also ships its own slice of the DUPR table, a fraction the
   // size of the league-wide file. The global file stands in when a division was
   // compiled before its shard existed: it holds every player, so the page is
-  // correct either way, just heavier.
+  // correct either way, just heavier. Unlike the dataset that is a real
+  // fallback — same players, same ratings — so it stays.
   function duprFileFor(slug) {
     return slug ? \`dupr-\${slug}.js\` : '';
   }
@@ -92,16 +121,25 @@ function buildBootstrapRuntimeSource() {
   // goes last. The two it depends on don't depend on each other, so they load
   // together rather than one after the other.
   //
-  // No dataset means no dashboard: app.js is not loaded at all, leaving the
-  // page empty rather than letting it throw partway through rendering. A
-  // missing DUPR table is survivable — those columns just read as unrated — so
-  // it does not hold the app back.
-  function loadDashboard(slug, fallbackSlug) {
+  // No dataset means no dashboard: app.js is not loaded at all, because it
+  // reads DATA on the way up and would throw partway through rendering. A
+  // missing DUPR table is survivable — those columns read as unrated — so it
+  // does not hold the app back, but it is flagged rather than swallowed so the
+  // page can admit the ratings are missing instead of implying nobody has one.
+  function loadDashboard(slug) {
     Promise.all([
-      loadWithFallback(dataFileFor(slug), dataFileFor(fallbackSlug)),
+      loadScript(dataFileFor(slug)),
       loadWithFallback(duprFileFor(slug), '../dupr-ratings.js'),
     ]).then((loaded) => {
-      if (loaded[0]) loadScript('../app.js');
+      if (!loaded[1]) {
+        window.CPL_DUPR_UNAVAILABLE = true;
+        window.console.warn('CPL: no DUPR table loaded — rating columns will read as unrated.');
+      }
+      if (loaded[0]) {
+        loadScript('../app.js');
+        return;
+      }
+      showLoadError("This division isn't available yet.");
     });
   }
 
@@ -142,8 +180,14 @@ function buildBootstrapRuntimeSource() {
     window.DIVISIONS = divisions;
 
     const slug = resolveDivisionSlug(divisions, config);
-    if (!slug) return;
-    loadDashboard(slug, landingSlug(divisions, config));
+    // No divisions at all, and no landing slug to fall through to: there is
+    // nothing to load and nothing app.js could render. Returning quietly left a
+    // permanently blank page behind a clean console.
+    if (!slug) {
+      showLoadError('No divisions are available yet.');
+      return;
+    }
+    loadDashboard(slug);
   };
 })();
 `;
