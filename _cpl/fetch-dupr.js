@@ -11,11 +11,88 @@ const DUPR_RATINGS_FILE = path.join(__dirname, '..', 'cpl', 'dupr-ratings.js');
 const REQUEST_DELAY_MS = 800; // Delay between DUPR API calls
 const MAX_CONSECUTIVE_429 = 3;
 
+// A dead token, a renamed response field, or a change to the search endpoint all
+// present identically: every lookup comes back with no match, each existing
+// rating is correctly left alone, the output files end up byte-identical, and the
+// workflow reports success. Nothing downstream can tell that apart from "no
+// ratings changed this week", so a miss rate above this is treated as a broken
+// run rather than as a few unclaimed profiles.
+const MAX_MISS_RATE = 0.2;
+// Below this many real lookups the rate is noise — one genuinely unlisted player
+// out of two is 50%, and must not turn a two-player incremental run red.
+const MIN_MISS_RATE_SAMPLE = 10;
+// The token is a ~30-day JWT, so a week is enough notice to rotate it before a
+// run silently stops updating anything.
+const TOKEN_EXPIRY_WARN_DAYS = 7;
+const MS_PER_DAY = 86400000;
+
 const ACCESS_TOKEN = process.env.DUPR_ACCESS_TOKEN;
 
-if (!ACCESS_TOKEN) {
-  console.error('[ERROR] DUPR_ACCESS_TOKEN environment variable is not set.');
-  process.exit(1);
+const TOKEN_FIX_HINT = 'Fix: sign in to DUPR, copy a fresh bearer token, and update the DUPR_ACCESS_TOKEN repository secret (and your local .env).';
+
+// Raised instead of being folded into a per-player miss, so it can abort the run
+// at the first rejected request rather than after ~3,000 doomed ones.
+class DuprAuthError extends Error {
+  constructor(status) {
+    super(`DUPR API rejected the access token (HTTP ${status}). DUPR_ACCESS_TOKEN is a JWT with a ~30-day lifetime and has most likely expired. ${TOKEN_FIX_HINT}`);
+    this.name = 'DuprAuthError';
+    this.status = status;
+  }
+}
+
+/**
+ * Reads `exp` out of a JWT payload with no dependencies. Returns null for
+ * anything it cannot parse: the check is advisory, so a token shape this does
+ * not understand must not stop a run whose token may well be valid.
+ */
+function decodeJwtExpiry(token) {
+  try {
+    const payload = String(token).split('.')[1];
+    if (!payload) return null;
+    const json = Buffer.from(payload.replaceAll('-', '+').replaceAll('_', '/'), 'base64').toString('utf-8');
+    const { exp } = JSON.parse(json);
+    return typeof exp === 'number' && Number.isFinite(exp) ? exp : null;
+  } catch {
+    return null;
+  }
+}
+
+function describeTokenExpiry(token, nowMs = Date.now()) {
+  const exp = decodeJwtExpiry(token);
+  if (exp == null) return { level: 'unknown', daysLeft: null, message: null };
+  const daysLeft = (exp * 1000 - nowMs) / MS_PER_DAY;
+  const expiresAt = new Date(exp * 1000).toISOString();
+  if (daysLeft <= 0) {
+    return {
+      level: 'expired',
+      daysLeft,
+      message: `::error::DUPR_ACCESS_TOKEN expired ${Math.floor(-daysLeft)} day(s) ago (exp ${expiresAt}). ${TOKEN_FIX_HINT}`,
+    };
+  }
+  if (daysLeft <= TOKEN_EXPIRY_WARN_DAYS) {
+    return {
+      level: 'warn',
+      daysLeft,
+      message: `::warning::DUPR_ACCESS_TOKEN expires in ${Math.floor(daysLeft)} day(s) (exp ${expiresAt}). ${TOKEN_FIX_HINT}`,
+    };
+  }
+  return { level: 'ok', daysLeft, message: null };
+}
+
+/**
+ * `attempted` counts only lookups that actually reached the API — cached and
+ * skipped players are excluded, or a run that skips everything would divide by
+ * a denominator that says nothing about whether the API still works.
+ */
+function exceedsMissRateFloor(attempted, missed) {
+  if (!attempted || attempted < MIN_MISS_RATE_SAMPLE) return false;
+  return missed / attempted > MAX_MISS_RATE;
+}
+
+function formatMissRateError(attempted, missed) {
+  const pct = ((missed / attempted) * 100).toFixed(1);
+  return `::error::${missed} of ${attempted} DUPR lookups (${pct}%) found no match, above the ${MAX_MISS_RATE * 100}% ceiling. `
+    + 'Existing ratings were preserved, so the output files may look unchanged. Check that DUPR_ACCESS_TOKEN is valid and that the search/profile responses still carry the expected fields.';
 }
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -38,25 +115,33 @@ function getPlayerMatch(data) {
 }
 
 async function duprRequest(url, options = {}) {
+  let response;
   try {
-    const response = await fetch(url, {
+    response = await fetch(url, {
       ...options,
       headers: {
         'Authorization': 'Bearer ' + ACCESS_TOKEN,
         'Content-Type': 'application/json',
       },
     });
-
-    const data = await response.json().catch(() => ({}));
-
-    if (response.status === 429) return { data: null, rateLimited: true };
-    if (!response.ok || data.status !== 'SUCCESS') {
-      return { data: null, rateLimited: false, error: data.message || data.status || response.statusText };
-    }
-    return { data, rateLimited: false };
   } catch (err) {
+    // Transport-level failure only: a single flaky request stays a per-player miss.
     return { data: null, rateLimited: false, error: err.message };
   }
+
+  const data = await response.json().catch(() => ({}));
+
+  // A rejected token is not this player's problem — it is every remaining
+  // player's problem. Returning a generic miss here is what let an expired token
+  // freeze the ratings indefinitely behind a green workflow, so this throws.
+  if (response.status === 401 || response.status === 403) {
+    throw new DuprAuthError(response.status);
+  }
+  if (response.status === 429) return { data: null, rateLimited: true };
+  if (!response.ok || data.status !== 'SUCCESS') {
+    return { data: null, rateLimited: false, error: data.message || data.status || response.statusText };
+  }
+  return { data, rateLimited: false };
 }
 
 /**
@@ -267,6 +352,8 @@ async function run() {
   const summary = [];
   let consecutive429s = 0;
   let shouldStop = false;
+  let attemptedLookups = 0;
+  let missedLookups = 0;
 
   const persistAndExit = (signal) => {
     warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
@@ -303,6 +390,10 @@ async function run() {
     }
 
     const { rating, provisional, numericId, rateLimited, found } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
+    // Counted here, past the cache `continue` above, so the denominator holds
+    // only lookups that actually reached the API.
+    attemptedLookups += 1;
+    if (!found) missedLookups += 1;
 
     if (rateLimited) {
       consecutive429s += 1;
@@ -359,9 +450,49 @@ async function run() {
   console.log('\nProcess complete!\n');
   console.table(summary);
   printWarningReport();
+
+  if (attemptedLookups) {
+    console.log(`\n${missedLookups} of ${attemptedLookups} API lookups found no match.`);
+  }
+  if (exceedsMissRateFloor(attemptedLookups, missedLookups)) {
+    console.error(formatMissRateError(attemptedLookups, missedLookups));
+    process.exitCode = 1;
+  }
 }
 
-run().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (require.main === module) {
+  if (!ACCESS_TOKEN) {
+    console.error('[ERROR] DUPR_ACCESS_TOKEN environment variable is not set.');
+    process.exit(1);
+  }
+
+  const expiry = describeTokenExpiry(ACCESS_TOKEN);
+  if (expiry.message) {
+    if (expiry.level === 'expired') {
+      console.error(expiry.message);
+      // No point spending ~40 minutes of paced requests to learn this.
+      process.exit(1);
+    }
+    console.warn(expiry.message);
+  }
+
+  run().catch((err) => {
+    if (err instanceof DuprAuthError) {
+      console.error(`::error::${err.message}`);
+    } else {
+      console.error(err);
+    }
+    process.exit(1);
+  });
+}
+
+// Exported for tests; requiring this file must not start a run, hence the guard above.
+module.exports = {
+  MAX_MISS_RATE,
+  MIN_MISS_RATE_SAMPLE,
+  TOKEN_EXPIRY_WARN_DAYS,
+  decodeJwtExpiry,
+  describeTokenExpiry,
+  exceedsMissRateFloor,
+  formatMissRateError,
+};

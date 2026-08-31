@@ -180,6 +180,61 @@ function normalizeVolatileLineupIds(detailData) {
   return detailData;
 }
 
+// Every shape guard in this file ultimately funnels through extractValues(),
+// which returns [] for any payload it does not recognize. So an upstream rename
+// (`$values` → something else, `active` → something else, `/clubs` returning [])
+// arrives here as "this division has no matchups" rather than as an error: the
+// slim files get written empty, nothing throws, the run exits 0, and the bot
+// commits a manifest that renders every dashboard blank with a clean console.
+// The floor below is what makes that loud: an empty value may never replace a
+// file that currently holds something. A genuine first run — no file on disk —
+// is still allowed through.
+function isEmptyValue(value) {
+  if (Array.isArray(value)) return value.length === 0;
+  if (value && typeof value === 'object') {
+    // The API's array wrapper: {"$values": [...]}. An empty wrapper is empty.
+    if (Array.isArray(value.$values)) return value.$values.length === 0;
+    return Object.keys(value).length === 0;
+  }
+  return value == null;
+}
+
+// Unparseable cached JSON is treated as nothing worth protecting — replacing it
+// is a repair, not a regression.
+function fileHoldsContent(filePath) {
+  if (!fs.existsSync(filePath)) return false;
+  try {
+    return !isEmptyValue(JSON.parse(fs.readFileSync(filePath, 'utf-8')));
+  } catch {
+    return false;
+  }
+}
+
+function writeGuarded(filePath, value, label) {
+  if (isEmptyValue(value) && fileHoldsContent(filePath)) {
+    throw new Error(
+      `Refusing to replace non-empty ${label} (${filePath}) with empty data. `
+      + 'The upstream response is empty or its shape changed; the cached file has been left as-is.',
+    );
+  }
+  fs.writeFileSync(filePath, jsonStringify(value));
+}
+
+// extractValues() accepts exactly these shapes and flattens everything else to
+// [], so a check on its *output* can never fire. Assert against the raw payload
+// instead — that is the only point at which an upstream rename is still visible.
+function assertArrayShape(raw, label) {
+  const recognized = Array.isArray(raw)
+    || (raw && typeof raw === 'object'
+      && (Array.isArray(raw.$values) || Array.isArray(raw.matchups?.$values) || Array.isArray(raw.matchups)));
+  if (!recognized) {
+    let got = typeof raw;
+    if (raw === null) got = 'null';
+    else if (got === 'object') got = `object with keys [${Object.keys(raw).join(', ')}]`;
+    throw new Error(`${label} payload is not a recognized array shape (got ${got}) — upstream may have renamed the response envelope.`);
+  }
+}
+
 async function checkResponse(res, label) {
   if (!res.ok) {
     const body = await res.text().catch(() => '');
@@ -255,11 +310,15 @@ async function fetchDivisionData(apiBase, divisionId, detailFailures) {
     fetchJsonWithRetry(`${divBase}/teams`),
   ]);
 
-  const matchupsArray = extractValues(matchupsRaw);
-  if (!Array.isArray(matchupsArray)) {
-    throw new Error(`Matchups data invalid for division ${divisionId}.`);
-  }
+  // Checked before extractValues() flattens anything, and only for the three
+  // payloads whose slim files are load-bearing. Playoff matchups are left out
+  // on purpose: that endpoint legitimately has nothing to return until a
+  // bracket is drawn, so asserting on it would fail most of the season.
+  assertArrayShape(matchupsRaw, `Matchups for division ${divisionId}`);
+  assertArrayShape(players, `Players for division ${divisionId}`);
+  assertArrayShape(teamsRaw, `Teams for division ${divisionId}`);
 
+  const matchupsArray = extractValues(matchupsRaw);
   const individualDetails = await fetchMatchupDetails(divBase, matchupsArray, 'matchup', detailFailures);
   const playoffMatchupsArray = extractValues(playoffMatchupsRaw);
   const playoffIndividualDetails = await fetchMatchupDetails(divBase, playoffMatchupsArray, 'playoff matchup', detailFailures);
@@ -356,7 +415,19 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  fs.writeFileSync(path.join(dataDir, divisionsFile), jsonStringify(allDivisions));
+  // A league with zero active divisions is never legitimate here, so this is
+  // fatal rather than merely guarded: an empty manifest leaves divisionsToFetch
+  // empty, which means the fetch loop below never runs and never records a
+  // failure. Without this the run would exit 0 having replaced the manifest
+  // that every dashboard page reads.
+  if (!allDivisions.length) {
+    throw new Error(
+      `${divisionsFile}: upstream returned 0 active divisions for the ${league} league. `
+      + 'Either the API is down or it renamed the clubs/divisions/active fields; refusing to publish an empty manifest.',
+    );
+  }
+
+  writeGuarded(path.join(dataDir, divisionsFile), allDivisions, `${league} division manifest`);
   console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
@@ -383,16 +454,18 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
       const divDataDir = path.join(dataDir, div.slug);
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
-      fs.writeFileSync(path.join(divDataDir, 'matchups.json'), jsonStringify(slimMatchups(matchupsRaw)));
+      writeGuarded(path.join(divDataDir, 'matchups.json'), slimMatchups(matchupsRaw), `${div.slug} matchups`);
+      // Not guarded: an empty playoff bracket is the normal state for most of
+      // the season, and a bracket can legitimately be withdrawn and redrawn.
       fs.writeFileSync(path.join(divDataDir, 'playoffMatchups.json'), jsonStringify(slimPlayoffMatchups(playoffMatchupsRaw)));
 
       const slimTeamList = slimTeams(teamsRaw);
-      fs.writeFileSync(path.join(divDataDir, 'teams.json'), jsonStringify(slimTeamList));
+      writeGuarded(path.join(divDataDir, 'teams.json'), slimTeamList, `${div.slug} teams`);
       const podNames = [...new Set((slimTeamList.$values || []).map(t => t.pod).filter(Boolean))];
       console.log(`  Found ${(slimTeamList.$values || []).length} teams (pods: ${podNames.join(', ') || 'none reported'}).`);
 
       const slimmed = slimPlayers(players);
-      fs.writeFileSync(path.join(divDataDir, 'players.json'), jsonStringify(slimmed));
+      writeGuarded(path.join(divDataDir, 'players.json'), slimmed, `${div.slug} players`);
       const detailsPath = path.join(divDataDir, 'matchupDetails.json');
       const playoffDetailsPath = path.join(divDataDir, 'playoffMatchupDetails.json');
       fs.writeFileSync(detailsPath, jsonStringify(mergeDetailsWithCache(slimMatchupDetails(matchupDetails), detailsPath)));
@@ -475,4 +548,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
   return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
 }
 
-module.exports = { downloadLatestApiData, slugForDivision, slimPlayers, comparePlayers };
+module.exports = {
+  downloadLatestApiData, slugForDivision, slimPlayers, comparePlayers,
+  assertArrayShape, isEmptyValue, writeGuarded,
+};

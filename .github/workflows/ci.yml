@@ -29,3 +29,14 @@ jobs:
 
       - name: Compile from cached data (smoke test)
         run: npm run compile
+
+      # Recompiling and discarding the result only proved the compiler doesn't
+      # crash. cpl/ is committed and served directly, so if it differs from what
+      # _cpl/ data compiles to, the live site is showing output nobody generated
+      # from the current inputs.
+      - name: Check committed output matches a fresh compile
+        run: |
+          if ! git diff --exit-code -- cpl/; then
+            echo "::error::Committed cpl/ output has drifted from what _cpl/ data compiles to (diff above). Run 'npm run compile' and commit the result."
+            exit 1
+          fi

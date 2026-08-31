@@ -1,4 +1,7 @@
-name: Weekly Data Update
+# Named for what it does, not for one of its two schedules: this runs every 6
+# hours in `due` mode plus a weekly `full` refresh. The old "Weekly" name was an
+# actively misleading clue when paging back through ~375 runs a year.
+name: CPL Data Refresh
 
 on:
   schedule:
@@ -52,6 +55,9 @@ jobs:
             REFRESH_MODE="due"
           fi
           echo "Running pipeline with refresh mode: ${REFRESH_MODE}"
+          # Recorded before the pipeline runs, so the commit step can name the
+          # mode even when the pipeline exits non-zero.
+          echo "refresh_mode=${REFRESH_MODE}" >> "$GITHUB_OUTPUT"
           if [ "${REFRESH_MODE}" = "due" ]; then
             node _cpl/run-pipeline.js --refresh-mode
           else
@@ -59,6 +65,8 @@ jobs:
           fi
 
       - name: Commit and Push changes
+        env:
+          REFRESH_MODE: ${{ steps.pipeline.outputs.refresh_mode }}
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
@@ -67,10 +75,18 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "bot(CPL): Automated weekly dashboard compile"
+          # The mode decides which divisions were even looked at, so it is the
+          # first thing worth knowing when bisecting for the run that broke the
+          # site. "weekly" was wrong for 6 of every 7 runs.
+          git commit -m "bot(CPL): Automated data refresh (${REFRESH_MODE:-unknown})"
           # Another run may have pushed while this one was fetching; rebase and
           # retry rather than failing the push.
           for attempt in 1 2 3; do
+            # A rebase that stopped on a conflict leaves .git/rebase-merge behind,
+            # which makes every later `git pull --rebase` fail instantly with "a
+            # rebase is already in progress" — so attempts 2 and 3 were free
+            # no-ops. Clear it first so a retry is a real retry.
+            git rebase --abort 2>/dev/null || true
             git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0
             echo "Push attempt ${attempt} failed; retrying..."
             sleep 5
@@ -82,3 +98,24 @@ jobs:
         run: |
           echo "::error::The CPL pipeline reported failed divisions — see the pipeline step log."
           exit 1
+
+      # Dead man's switch. An `if: failure()` notification can only fire when a
+      # run fails, which misses every way this workflow goes quiet:
+      #   - green-but-wrong runs that publish empty or stale data,
+      #   - runs cancelled or skipped by the cpl-repo-writes concurrency group,
+      #   - GitHub disabling the cron entirely after 60 days of repo inactivity.
+      # A ping that only ever arrives from a fully successful run turns all three
+      # into the same alert: the ping stopped coming.
+      # Configure the Healthchecks.io check with period 7h and grace 1h — one
+      # tick longer than the 6-hour cron, so a single slow or queued run does not
+      # page, but two consecutive misses do.
+      - name: Ping healthcheck (dead man's switch)
+        if: success()
+        env:
+          URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          if [ -n "$URL" ]; then
+            curl -fsS -m 10 --retry 3 "$URL" || true
+          else
+            echo "HEALTHCHECK_URL secret not set; skipping ping."
+          fi
