@@ -71,6 +71,17 @@ cpl/<league>/                            a redirect stub, not a dashboard
 cpl/catalog.js                           every league → season → division
 ```
 
+`/cpl/` is organized by **status, not by league**: a "Now playing" tier holding
+one panel per league that actually has a season in progress, and a link to
+`/cpl/archive/` for the ones that have finished. The leagues run on their own
+calendars — Cross Club plays spring and fall, the local league ran a summer
+season — so at any moment one of them may have nothing live at all. A league
+between seasons drops out of the Now tier rather than showing a heading over an
+empty picker; when every league is between seasons, the page says so.
+
+Both `/cpl/` and `/cpl/archive/` are built entirely from `cpl/catalog.js`, so
+neither has a league or season baked into it.
+
 A season slug is `<year>-<name>`: `2026-fall`, `2026-spring`, `2026-summer`.
 The API numbers seasons 1–4 within a year (1 = Spring, 2 = Summer, 3 = Fall);
 the mapping lives in `_cpl/modules/seasons.js`.
@@ -173,6 +184,10 @@ next run, which overwrites your change without a word:
 The dashboard markup is **not** generated: `_cpl/templates/local.html` and
 `_cpl/templates/travel.html` are the two hand-written shells, copied verbatim
 into every season directory on compile. Edit those, never the copies.
+
+Neither are the three standalone pages — `cpl/index.html` + `cpl/home.js`,
+`cpl/archive/` and `cpl/dupr-audit/index.html`. They read the generated data
+files at runtime rather than being generated themselves.
 
 ## Automation
 

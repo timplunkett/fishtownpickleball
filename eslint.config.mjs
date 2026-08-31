@@ -40,6 +40,17 @@ export default [
     },
   },
   {
+    files: ['cpl/archive/archive.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'script',
+      globals: { ...globals.browser, CPLShared: 'readonly' },
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+    },
+  },
+  {
     // Generated: the per-season bootstrap and the per-league redirect stub.
     files: [
       'cpl/local/*/bootstrap.js', 'cpl/travel/*/bootstrap.js',

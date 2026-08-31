@@ -97,10 +97,11 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .panel-empty { font-size: .8rem; color: var(--mut); font-style: italic; }
 
-/* Which season a picker is for. With an archive on the page, "Cross Club League"
-   above a division list no longer says which season those divisions are from. */
+/* Which season a picker is for. With an archive in the world, "Cross Club
+   League" above a division list no longer says which season those divisions are
+   from. Doubles as the count line inside an archive panel. */
 .panel-season {
-  margin: 0 0 .4rem;
+  margin: .1rem 0 0;
   color: var(--mut);
   font-size: .7rem;
   font-weight: 700;
@@ -108,17 +109,75 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   text-transform: uppercase;
 }
 
-/* Finished seasons. Full width under the two current-season panels, and hidden
-   by home.js when nothing is archived yet. */
-.archive-panel {
+/* The top-level tier headings — "Now playing" on the landing page, and one per
+   season on the archive page. These name what the panels beneath them have in
+   common, which is the whole point of the Now/Archive split: the first question
+   is what is being played, not which league you want. */
+.tier-head {
+  width: 100%;
+  max-width: 980px;
+  margin: 1.6rem auto .1rem;
+  padding: 0 1rem;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+.tier-head[hidden] { display: none; }
+
+.tier-sub {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto .6rem;
+  padding: 0 1rem;
+  font-size: .78rem;
+  color: var(--mut);
+}
+
+/* Both leagues between seasons at once, or an archive with nothing in it yet.
+   Rare, and it should read as a lull rather than as a fault. */
+.tier-empty {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+.tier-empty[hidden] { display: none; }
+
+/* A panel that is a signpost rather than a picker: the archive and the DUPR
+   audit. Full width under the season panels. */
+.link-panel {
   width: 100%;
   max-width: 720px;
   flex: none;
 }
 
-.archive-panel[hidden] { display: none; }
+.link-panel[hidden] { display: none; }
 
-.archive-season + .archive-season { margin-top: 1rem; }
+.panel-link {
+  font-size: .875rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.panel-link:hover { text-decoration: underline; }
+
+/* One season on the archive page: a heading, a count, then a panel per league
+   that played it. */
+.archive-season { width: 100%; }
+.archive-season + .archive-season { margin-top: 1.4rem; }
+.archive-season h3 { font-size: 1.05rem; font-weight: 700; margin: 0; }
+
+/* The way back to /cpl/, sitting in the hero kicker. */
+.hero .back-link {
+  color: var(--mut);
+  text-decoration: none;
+}
+
+.hero .back-link:hover { color: var(--accent); }
 
 /* The season name on an archived finder row. Quieter than .sub-tag beside it:
    it is context for the row, not a warning about it. */

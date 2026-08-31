@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Season Archive — Fishtown Pickleball</title>
+<!-- These pages publish the names and ratings of some three thousand real
+     people. Anyone with the link is welcome to them; a search engine is not.
+     The Open Graph tags below are unaffected by this and are meant to be: robots
+     rules govern crawlers, unfurlers read OG, so the link still previews
+     properly when it is pasted into a group chat. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Finished seasons of the Cross Club League and the local club leagues, kept exactly as they ended.">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="CPL Season Archive">
+<meta property="og:description" content="Finished seasons, kept exactly as they ended. Standings, results and ratings for every division that has played.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/archive/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CPL Season Archive">
+<meta name="twitter:description" content="Finished seasons, kept exactly as they ended.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../home.css">
+</head>
+<body>
+  <noscript>
+    <p class="load-error" role="alert">This page builds its season lists in the browser, so it needs
+    JavaScript switched on. Nothing here works without it.</p>
+  </noscript>
+
+  <div class="hero">
+    <div class="kicker"><a class="back-link" href="../">← CPL</a></div>
+    <h1>Season Archive</h1>
+    <!-- Said plainly, because a reader who lands on a frozen dashboard from here
+         needs to know why its numbers stopped moving. -->
+    <p class="freshness">Finished seasons, kept exactly as they ended. Nothing here updates any more.</p>
+  </div>
+
+  <div id="archive-host"></div>
+
+  <!-- Shown in place of the list when no season has finished yet, which is what
+       both leagues look like in their first season. -->
+  <p class="panel-empty tier-empty" id="archive-empty" hidden>
+    No season has finished yet. When one does, it lands here.
+  </p>
+
+  <p class="attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  with, endorsed by, or operated by DUPR or the Cross Club League.</p>
+
+<script src="../shared.js" defer></script>
+<script src="../catalog.js" defer></script>
+<script src="archive.js" defer></script>
+</body>
+</html>

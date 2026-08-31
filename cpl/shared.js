@@ -637,6 +637,36 @@
   // season-less /cpl/<league>/?d=<slug>, which the league's redirect stub
   // resolves to the right season. So the season being missing costs one extra
   // hop, not a broken link.
+  // How a division reads in a picker. Travel divisions are a bare bracket
+  // ("3.5", "4.5 Mens") and get the league's own formatting; a local division is
+  // meaningless without its club, since five clubs run a "3.25 - 3.99".
+  function divisionOptionLabel(leagueKey, division) {
+    return leagueKey === 'travel'
+      ? formatTravelDivisionLabel(division.divisionName)
+      : `${division.clubName || ''} — ${division.divisionName}`;
+  }
+
+  // The <option> markup for one season's divisions, value-carrying the path to
+  // go to. Building the path into the value is what lets one picker hold
+  // divisions from more than one season without its change handler having to
+  // work out which season each option came from — which is exactly what the
+  // archive page needs.
+  //
+  // Divisions are used in catalog order (see sortDivisionsForLeague) and not
+  // re-sorted here. The landing page used to sort them again with a subtly
+  // different comparator, so it and the dashboards disagreed about which
+  // division came first.
+  //
+  // `base` is the path from the calling page to /cpl/: '' from the landing page,
+  // '../' from a page one directory in.
+  function divisionOptionsHtml(leagueKey, season, { base = '', placeholder = 'Select a division…' } = {}) {
+    const options = season.divisions.map((division) => {
+      const href = `${base}${leagueKey}/${season.slug}/?d=${encodeURIComponent(division.slug)}`;
+      return `<option value="${escapeHtml(href)}">${escapeHtml(divisionOptionLabel(leagueKey, division))}</option>`;
+    }).join('');
+    return `<option value="" disabled selected>${escapeHtml(placeholder)}</option>${options}`;
+  }
+
   function divisionPath(entry, params) {
     const search = new URLSearchParams(params || {});
     search.set('d', entry.slug);
@@ -651,6 +681,8 @@
     catalogLeagues,
     catalogSeason,
     catalogSeasons,
+    divisionOptionLabel,
+    divisionOptionsHtml,
     divisionPath,
     getCatalog,
     decodeHtmlEntities,

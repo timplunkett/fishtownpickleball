@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "npm run lint:eslint",
-    "lint:eslint": "eslint --no-warn-ignored cpl/app.js cpl/home.js \"cpl/local/*/bootstrap.js\" \"cpl/travel/*/bootstrap.js\" cpl/local/redirect.js cpl/travel/redirect.js _cpl/**/*.js",
+    "lint:eslint": "eslint --no-warn-ignored cpl/app.js cpl/home.js cpl/archive/archive.js \"cpl/local/*/bootstrap.js\" \"cpl/travel/*/bootstrap.js\" cpl/local/redirect.js cpl/travel/redirect.js _cpl/**/*.js",
     "lint:fix": "npm run lint:eslint -- --fix",
     "test": "node --test _cpl/test/*.test.js",
     "build": "node _cpl/run-pipeline.js",

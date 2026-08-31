@@ -9,7 +9,7 @@
   // looking like a division list that happened to be empty.
   var shared = window.CPLShared;
   if (!shared || !shared.escapeHtml) {
-    ['travel-select-host', 'local-select-host', 'archive-host', 'player-results'].forEach(function (id) {
+    ['now-panels', 'player-results'].forEach(function (id) {
       var host = document.getElementById(id);
       if (!host) return;
       host.innerHTML = '<p class="panel-empty load-error-msg"></p>';
@@ -19,35 +19,17 @@
   }
 
   var escapeHtml = shared.escapeHtml;
-  var formatTravelDivisionLabel = shared.formatTravelDivisionLabel;
   var slugify = shared.slugify;
 
-  // The division list in the catalog is already in the order the compiler chose
-  // (see sortDivisionsForLeague), which is the same order the dashboards'
-  // Division selector uses. This page used to re-sort it with a second, subtly
-  // different comparator, so the landing page and the dashboard disagreed about
-  // which division came first.
-  function divisionOptionLabel(league, division) {
-    return league === 'travel'
-      ? formatTravelDivisionLabel(division.divisionName)
-      : (division.clubName || '') + ' — ' + division.divisionName;
-  }
-
-  // One <select> per (league, season). The value is the path to go to, so a
-  // panel can hold divisions from more than one season without the handler
-  // having to work out which season each option came from.
+  // One <select> per (league, season). Its option values are the paths to go to
+  // — see divisionOptionsHtml — so the handler is the same three lines wherever
+  // it is used, and the archive page reuses both.
   function buildSeasonSelect(host, league, season, ariaLabel) {
-    var opts = '<option value="" disabled selected>Select a division…</option>' +
-      season.divisions.map(function (div) {
-        var href = league + '/' + season.slug + '/?d=' + encodeURIComponent(div.slug);
-        return '<option value="' + escapeHtml(href) + '">' +
-          escapeHtml(divisionOptionLabel(league, div)) + '</option>';
-      }).join('');
     var wrap = document.createElement('div');
     wrap.className = 'select-wrap';
     var sel = document.createElement('select');
     sel.setAttribute('aria-label', ariaLabel);
-    sel.innerHTML = opts;
+    sel.innerHTML = shared.divisionOptionsHtml(league, season);
     sel.addEventListener('change', function () {
       if (sel.value) window.location.href = sel.value;
     });
@@ -55,52 +37,95 @@
     host.appendChild(wrap);
   }
 
-  // The two panels at the top show the season being played right now. Its label
-  // is stated above the picker rather than left implicit: with an archive on the
-  // page, "Cross Club League" alone no longer says which season the picker is
-  // for.
-  function buildCurrentPanel(hostId, league, emptyMessage) {
-    var host = document.getElementById(hostId);
+  // The "Now playing" tier: one panel per league that actually has a season in
+  // progress, built from the catalog rather than hard-coded.
+  //
+  // This used to be two fixed panels, one per league, which asserted that both
+  // leagues are always in season. They are not: Cross Club plays spring and
+  // fall, the local league ran a summer season, and between the two there are
+  // stretches where one league has nothing live. A league with nothing current
+  // is left out of this tier entirely and pointed at the archive below, rather
+  // than shown as a heading over an empty picker.
+  //
+  // The season is named in the panel head, not left implicit — with more than
+  // one season in the world, "Cross Club League" alone does not say which season
+  // the picker is for.
+  function buildNowPanels() {
+    var host = document.getElementById('now-panels');
+    var empty = document.getElementById('now-empty');
+    var head = document.getElementById('now-head');
     if (!host) return;
-    var season = shared.catalogCurrentSeason(league);
-    if (!season || !season.divisions.length) {
-      host.innerHTML = '<p class="panel-empty">' + emptyMessage + '</p>';
+
+    var live = shared.catalogLeagues().map(function (league) {
+      var season = league.seasons.filter(function (entry) {
+        return entry.status === 'current' && entry.divisions.length;
+      })[0];
+      return season ? { league: league, season: season } : null;
+    }).filter(Boolean);
+
+    // Both branches set both flags rather than relying on the markup's starting
+    // state. The HTML ships with the empty line hidden, so the empty case only
+    // ever needed to unhide it — but that makes the page's correctness depend on
+    // an attribute in a file nothing checks, and the two would drift.
+    var nothingLive = !live.length;
+    if (head) head.hidden = nothingLive;
+    if (empty) empty.hidden = !nothingLive;
+    if (nothingLive) {
+      // Every league between seasons at once. Rare, but it is what the site
+      // looks like in the gap, and it should read as a lull rather than a fault.
       return;
     }
-    var heading = document.createElement('p');
-    heading.className = 'panel-season';
-    heading.textContent = season.label;
-    host.appendChild(heading);
-    buildSeasonSelect(host, league, season, 'Select a division in ' + season.label);
+
+    live.forEach(function (entry) {
+      var panel = document.createElement('div');
+      panel.className = 'panel';
+
+      var panelHead = document.createElement('div');
+      panelHead.className = 'panel-head';
+      var h2 = document.createElement('h2');
+      h2.textContent = entry.league.label;
+      var sub = document.createElement('p');
+      sub.className = 'panel-season';
+      sub.textContent = entry.season.label;
+      panelHead.appendChild(h2);
+      panelHead.appendChild(sub);
+      panel.appendChild(panelHead);
+
+      buildSeasonSelect(
+        panel,
+        entry.league.key,
+        entry.season,
+        'Select a division in ' + entry.league.label + ', ' + entry.season.label,
+      );
+      host.appendChild(panel);
+    });
   }
 
-  // Every archived season of both leagues, newest first within each league.
-  //
-  // The whole panel is hidden when there is nothing archived, which is what a
-  // league looks like in its first season. An empty "Archive" heading invites
-  // someone to wonder what is missing.
-  function buildArchivePanel() {
+  // The card linking to /cpl/archive/, summarised so the link says what is
+  // behind it. Hidden outright when nothing is archived, which is what both
+  // leagues look like in their first season — an "Archive" heading over nothing
+  // invites someone to wonder what is missing.
+  function buildArchiveCard() {
     var panel = document.getElementById('archive-panel');
-    var host = document.getElementById('archive-host');
-    if (!panel || !host) return;
+    var summary = document.getElementById('archive-summary');
+    if (!panel) return;
 
-    var rendered = 0;
+    var seasons = [];
     shared.catalogLeagues().forEach(function (league) {
       league.seasons.forEach(function (season) {
-        if (season.status === 'current' || !season.divisions.length) return;
-        var group = document.createElement('div');
-        group.className = 'archive-season';
-        var heading = document.createElement('p');
-        heading.className = 'panel-season';
-        heading.textContent = season.label + ' · ' + league.label;
-        group.appendChild(heading);
-        buildSeasonSelect(group, league.key, season, 'Select a division in ' + season.label + ', ' + league.label);
-        host.appendChild(group);
-        rendered++;
+        if (season.status !== 'current' && season.divisions.length) seasons.push(season);
       });
     });
+    // Set either way, for the same reason as the Now tier above.
+    panel.hidden = !seasons.length;
+    if (!seasons.length) return;
 
-    if (!rendered) panel.hidden = true;
+    if (summary) {
+      var newest = seasons.map(function (season) { return season.label; })[0];
+      summary.textContent = seasons.length === 1
+        ? 'One finished season — ' + newest + ' — frozen as it ended'
+        : seasons.length + ' finished seasons, frozen as they ended';
+    }
   }
 
   // How fresh the data is, on the one page whose URL actually gets shared — it
@@ -133,9 +158,8 @@
     if (age.title) host.title = age.title;
   }
 
-  buildCurrentPanel('travel-select-host', 'travel', 'No divisions available yet.');
-  buildCurrentPanel('local-select-host', 'local', 'No divisions available.');
-  buildArchivePanel();
+  buildNowPanels();
+  buildArchiveCard();
   renderFreshness();
 
   // ── Player Finder ──────────────────────────────────────────────────────────

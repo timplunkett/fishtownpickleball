@@ -42,43 +42,39 @@
     <p class="freshness" id="data-freshness"></p>
   </div>
 
-  <div class="panels">
-    <div class="panel" id="travel-panel">
-      <div class="panel-head">
-        <h2>Cross Club League</h2>
-        <p>Divisions across all clubs</p>
-      </div>
-      <div id="travel-select-host"></div>
-    </div>
+  <!-- What is being played right now.
+       The panels are built by home.js from whichever leagues actually have a
+       current season, rather than being two fixed panels for the two leagues.
+       The leagues run on their own calendars — Cross Club plays spring and fall,
+       the local league ran a summer season — so at any given moment one of them
+       may have nothing live at all. Two hard-coded panels asserted that both
+       leagues are always in season, and the first time that stopped being true
+       it left a heading over an empty picker. -->
+  <h2 class="tier-head" id="now-head">Now playing</h2>
+  <div class="panels" id="now-panels"></div>
+  <p class="panel-empty tier-empty" id="now-empty" hidden>No season is in progress right now.</p>
 
-    <div class="panel" id="local-panel">
-      <div class="panel-head">
-        <h2>Local Leagues</h2>
-        <p>Divisions within clubs</p>
-      </div>
-      <div id="local-select-host"></div>
-    </div>
-  </div>
-
-  <!-- Finished seasons. home.js hides this whole panel when nothing is archived
-       yet, so a league in its first season shows no empty Archive heading.
-       Archived seasons are never refetched: what is here is what was true when
-       the season ended, and it stays reachable and searchable by name. -->
-  <div class="panel archive-panel" id="archive-panel">
+  <!-- Finished seasons live on their own page: with two leagues and a few
+       seasons a year this list outgrows a landing page quickly, and nobody
+       arriving here is usually looking for last season. home.js hides the whole
+       card when nothing is archived yet. -->
+  <div class="panel link-panel" id="archive-panel" hidden>
     <div class="panel-head">
       <h2>Archive</h2>
-      <p>Finished seasons, frozen as they ended</p>
+      <p id="archive-summary">Finished seasons, frozen as they ended</p>
     </div>
-    <div id="archive-host"></div>
+    <p style="margin:0">
+      <a href="archive/" class="panel-link">Browse the archive →</a>
+    </p>
   </div>
 
-  <div class="panel" id="dashboard-panel" style="width:100%;max-width:720px;flex:none;">
+  <div class="panel link-panel" id="dashboard-panel">
     <div class="panel-head">
       <h2>DUPR Bracket Audit Dashboard</h2>
       <p>Players whose DUPR is outside the expected division bracket across travel and local leagues</p>
     </div>
     <p style="margin:0">
-      <a href="dupr-audit/" style="font-size:.875rem;color:var(--accent);text-decoration:none">Open dashboard →</a>
+      <a href="dupr-audit/" class="panel-link">Open dashboard →</a>
     </p>
   </div>
 
