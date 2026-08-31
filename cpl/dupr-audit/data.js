@@ -16021,6 +16021,13 @@ window.DUPR_AUDIT = {
    "name": "Nachiket Vaidya",
    "playerId": "0e35b16c-8027-4994-b04f-fd146d6d1709",
    "team": "ACE Moorestown",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Nachiket Vaidya",
+   "playerId": "0e35b16c-8027-4994-b04f-fd146d6d1709",
+   "team": "ACE Moorestown",
    "slug": "cca69ab9",
    "gender": "Male"
   },
