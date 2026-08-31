@@ -460,7 +460,11 @@ function formatRecordWithPct(wins, losses) {
 }
 
 function formatDiffSpan(value) {
-  const className = value >= 0 ? 'pos-diff' : 'neg-diff';
+  // Zero isn't a win, so it doesn't get the green a real positive diff gets —
+  // most commonly a team or player who hasn't played yet, which "+0" reads as
+  // a favorable result rather than "no data".
+  if (value === 0) return `<span class="mut">${EMPTY_VALUE}</span>`;
+  const className = value > 0 ? 'pos-diff' : 'neg-diff';
   return `<span class="${className}">${formatSignedValue(value)}</span>`;
 }
 
@@ -3073,7 +3077,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
         ${podMeta}
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
-        <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · <b class="${team.diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(team.diff)}</b></span>
+        <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · ${formatDiffSpan(team.diff)}</span>
         <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${powerRanked})</span></span>
       </div>
     </div>
