@@ -10830,13 +10830,16 @@
   "clubName": "Flemington",
   "divisionName": "4.0 & Over",
   "leagueType": "local",
+  "seasonSlug": "2026-summer",
+  "seasonLabel": "Summer 2026",
+  "seasonStatus": "current",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.631Z";
+  DATA.meta.asOf = "2026-08-28T16:18:24.416Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["eaa4c1dc"] = DATA;

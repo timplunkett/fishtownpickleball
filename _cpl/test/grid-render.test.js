@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const CPL = path.join(__dirname, '../../cpl');
+const { CPL, compiledDivision, compiledDivisions } = require('./helpers/compiled');
 
 // Element ids app.js requires but this test never inspects.
 function makeElement(id) {
@@ -149,16 +149,6 @@ function assertKeyOutsideScroller(html, label) {
   });
 }
 
-function divisionFiles() {
-  return ['travel', 'local'].flatMap((leg) => {
-    const dir = path.join(CPL, leg);
-    if (!fs.existsSync(dir)) return [];
-    return fs.readdirSync(dir)
-      .filter((file) => /^data-[0-9a-f]+\.js$/.test(file))
-      .map((file) => ({ label: `${leg}/${file}`, file: path.join(dir, file) }));
-  });
-}
-
 const countTags = (html, tag) => (html.match(new RegExp(`<${tag}[\\s>]`, 'g')) || []).length;
 const rowsOf = (html) => html.split('<tr>').slice(1);
 
@@ -168,7 +158,7 @@ const bodyRowCount = (html) => html
   .split('<tbody>').slice(1)
   .reduce((total, chunk) => total + countTags(chunk.split('</tbody>')[0], 'tr'), 0);
 
-const DIVISIONS = divisionFiles();
+const DIVISIONS = compiledDivisions();
 
 test('there are compiled divisions to render', () => {
   assert.ok(DIVISIONS.length > 0);
@@ -321,7 +311,7 @@ DIVISIONS.forEach(({ label, file }) => {
 });
 
 // The division whose single 21-team pod is what made the matrix unusable.
-const WIDEST = DIVISIONS.find(({ file }) => file.endsWith('data-c43b8608.js'));
+const WIDEST = compiledDivision('c43b8608');
 
 test('the 21-team section is far narrower by week than as a matrix', () => {
   assert.ok(WIDEST, 'expected the 3.5 (50+) division to be compiled');
@@ -413,7 +403,7 @@ test('NEXT marks one fixture per team, not every future one', () => {
 // cell, and an opponent the abbreviator never saw arrived as its full
 // 31-character name and took the column with it.
 test('an opponent with no row of its own is still abbreviated', () => {
-  const division = DIVISIONS.find(({ file }) => file.endsWith('data-ad44e3bd.js'));
+  const division = compiledDivision('ad44e3bd');
   assert.ok(division, 'expected the 3.25 Womens division to be compiled');
   const stray = 'Pickleball Kingdom Hillsborough';
 

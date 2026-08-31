@@ -1,47 +1,29 @@
-// Generators for the client bootstrap files: cpl/<league>/bootstrap.js (the
-// division list baked in at compile time) and cpl/bootstrap-runtime.js (the
-// shared loader they both call into).
-
-// Division entries are emitted with JSON.stringify so any characters the API
-// sends (quotes, backslashes, even newlines) serialize into valid JS.
+// Generators for the client bootstrap files:
 //
-// `asOf` rides along so the landing page can say how fresh the data is without
-// pulling a data shard: /cpl/ already loads both bootstraps, and the shards it
-// would otherwise need are hundreds of kilobytes each. Absent for a division
-// with nothing compiled yet.
-function buildBootstrapDivisionsLiteral(divisions) {
-  return divisions.map((division) => {
-    const entry = {
-      slug: division.slug,
-      ...(division.clubName ? { clubName: division.clubName } : {}),
-      divisionName: division.divisionName,
-      ...(division.asOf ? { asOf: division.asOf } : {}),
-    };
-    return `    ${JSON.stringify(entry)}`;
-  }).join(',\n');
-}
+//   cpl/<league>/<season>/bootstrap.js — names which league and season a page is
+//   cpl/bootstrap-runtime.js           — the shared loader they all call into
+//   cpl/<league>/index.html            — the redirect stub in front of a league
+//
+// The division list used to be baked into a per-league bootstrap.js. It now
+// lives in cpl/catalog.js (see modules/catalog.js), because with seasons in play
+// a page needs three lists — its own season, the other league's same season,
+// and its own league's other seasons — and discovering which files hold them is
+// itself a round trip. bootstrap.js is what is left once the lists move out:
+// three strings.
 
-function buildBootstrapSource({
-  divisionsLiteral,
-  dashboardPath,
-  landingSlug,
-  divisionsGlobal,
-}) {
+function buildBootstrapSource({ league, season, landingSlug }) {
   return `'use strict';
 
 (() => {
-  const DIVISIONS = Object.freeze([
-${divisionsLiteral}
-  ]);
-  const CONFIG = Object.freeze({
-    dashboardPath: ${JSON.stringify(dashboardPath)},
+  const PAGE = Object.freeze({
+    league: ${JSON.stringify(league)},
+    season: ${JSON.stringify(season)},
     landingSlug: ${JSON.stringify(landingSlug)},
-    divisionsGlobal: ${JSON.stringify(divisionsGlobal)},
   });
   if (typeof window.initCplBootstrap !== 'function') {
     throw new Error('bootstrap-runtime.js must load before bootstrap.js');
   }
-  window.initCplBootstrap({ divisions: DIVISIONS, config: CONFIG });
+  window.initCplBootstrap(PAGE);
 })();
 `;
 }
@@ -88,9 +70,9 @@ function buildBootstrapRuntimeSource() {
     if (!host) return;
     const shared = window.CPLShared;
     host.innerHTML = shared && shared.loadErrorHtml
-      ? shared.loadErrorHtml(message, 'Go back to all divisions', '../')
+      ? shared.loadErrorHtml(message, 'Go back to all divisions', '../../')
       : '<div class="load-error" role="alert"><p class="load-error-msg"></p>' +
-        '<p class="load-error-action"><a href="../">Go back to all divisions</a></p></div>';
+        '<p class="load-error-action"><a href="../../">Go back to all divisions</a></p></div>';
     if (!(shared && shared.loadErrorHtml)) {
       // shared.js is a separate cached file and may be the thing that failed;
       // textContent keeps the message out of the markup either way.
@@ -98,11 +80,12 @@ function buildBootstrapRuntimeSource() {
     }
   }
 
-  // Every division's data lives at data-<slug>.js.
+  // Every division's data lives at data-<slug>.js, inside its own season's
+  // directory.
   //
   // A 404 here used to fall back to the landing division's file, which rendered
   // another division's standings under a URL naming this one — confidently wrong
-  // data, and worse than saying nothing. A division listed in bootstrap.js but
+  // data, and worse than saying nothing. A division listed in the catalog but
   // not yet compiled now says so.
   function dataFileFor(slug) {
     return slug ? \`data-\${slug}.js\` : '';
@@ -129,57 +112,59 @@ function buildBootstrapRuntimeSource() {
   function loadDashboard(slug) {
     Promise.all([
       loadScript(dataFileFor(slug)),
-      loadWithFallback(duprFileFor(slug), '../dupr-ratings.js'),
+      loadWithFallback(duprFileFor(slug), '../../dupr-ratings.js'),
     ]).then((loaded) => {
       if (!loaded[1]) {
         window.CPL_DUPR_UNAVAILABLE = true;
         window.console.warn('CPL: no DUPR table loaded — rating columns will read as unrated.');
       }
       if (loaded[0]) {
-        loadScript('../app.js');
+        loadScript('../../app.js');
         return;
       }
       showLoadError("This division isn't available yet.");
     });
   }
 
-  // No ?d= (or an unknown one) lands on config.landingSlug. That slug is baked
-  // into bootstrap.js, which is cached separately from this file — so if a
-  // browser pairs a stale bootstrap.js with this runtime and landingSlug is
-  // missing, fall through to the first division rather than rendering nothing.
-  function landingSlug(divisions, config) {
-    return config.landingSlug || (divisions[0] ? divisions[0].slug : '');
+  // The catalog is a separate cached file, so a browser can pair a fresh
+  // bootstrap.js with a stale or missing catalog.js. Everything below treats an
+  // absent catalog as "this page still knows its own league, season and landing
+  // division" — enough to render the division that was asked for, without the
+  // selectors that need the other seasons.
+  function catalogSeason(page) {
+    const catalog = window.CPL_CATALOG;
+    const leagues = (catalog && Array.isArray(catalog.leagues)) ? catalog.leagues : [];
+    const league = leagues.find((entry) => entry.key === page.league);
+    if (!league) return null;
+    return (league.seasons || []).find((season) => season.slug === page.season) || null;
   }
 
-  function resolveDivisionSlug(divisions, config) {
-    const requestedDivision = getQueryParam('d');
-    const knownSlugs = new Set(divisions.map((division) => division.slug));
-    return knownSlugs.has(requestedDivision) ? requestedDivision : landingSlug(divisions, config);
+  function landingSlug(page, season) {
+    return page.landingSlug
+      || (season && season.landingSlug)
+      || (season && season.divisions[0] ? season.divisions[0].slug : '');
   }
 
-  window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
-    window[config.divisionsGlobal] = divisions;
+  // ?d= is honoured only when it names a division of *this* season. A slug from
+  // another season is not an error the dashboard can render — its data file is
+  // in a different directory — so it falls through to the landing division here,
+  // and the redirect stub in front of the league is what sends such a link to
+  // the right season in the first place.
+  function resolveDivisionSlug(page, season) {
+    const requested = getQueryParam('d');
+    if (!requested) return landingSlug(page, season);
+    const known = season ? season.divisions.some((div) => div.slug === requested) : true;
+    return known ? requested : landingSlug(page, season);
+  }
 
-    // Every league that has loaded, in script order. Both dashboards load both
-    // bootstraps so the Division selector can list Cross Club and Local
-    // divisions together — this is how app.js finds the league it is not on,
-    // and the path to reach it. Registered before the dashboardPath check,
-    // because the whole point is the league that does not match.
-    window.CPL_LEAGUES = window.CPL_LEAGUES || [];
-    if (!window.CPL_LEAGUES.some((entry) => entry.key === config.divisionsGlobal)) {
-      window.CPL_LEAGUES.push({
-        key: config.divisionsGlobal,
-        dashboardPath: config.dashboardPath,
-        divisions,
-      });
-    }
+  window.initCplBootstrap = function initCplBootstrap(page) {
+    // What app.js reads to build its two selectors and to know where it is.
+    window.CPL_PAGE = page;
 
-    // This bootstrap also runs on /cpl/, where data/app relative paths are different.
-    if (!window.location.pathname.includes(config.dashboardPath)) return;
+    const season = catalogSeason(page);
+    window.DIVISIONS = season ? season.divisions : [];
 
-    window.DIVISIONS = divisions;
-
-    const slug = resolveDivisionSlug(divisions, config);
+    const slug = resolveDivisionSlug(page, season);
     // No divisions at all, and no landing slug to fall through to: there is
     // nothing to load and nothing app.js could render. Returning quietly left a
     // permanently blank page behind a clean console.
@@ -193,8 +178,98 @@ function buildBootstrapRuntimeSource() {
 `;
 }
 
+// The stub at /cpl/<league>/, which is no longer a dashboard but the door to
+// every season of one.
+//
+// GitHub Pages serves static files and cannot redirect, so this is done in the
+// browser. It matters that it is done at all: /cpl/travel/?d=<slug> is the URL
+// shape every link shared before seasons existed, and every link the player
+// finder used to emit. Those slugs are the first eight characters of a division
+// UUID and so are unique across all seasons — which is what makes it possible to
+// send an old link to the right season rather than guessing.
+//
+// location.replace, not assign: the stub should not sit in the back button
+// between the page you came from and the dashboard you asked for.
+function buildLeagueRedirectSource({ league }) {
+  return `'use strict';
+
+(() => {
+  const LEAGUE = ${JSON.stringify(league)};
+
+  function seasonsOf() {
+    const catalog = window.CPL_CATALOG;
+    const leagues = (catalog && Array.isArray(catalog.leagues)) ? catalog.leagues : [];
+    const entry = leagues.find((league) => league.key === LEAGUE);
+    return entry ? entry : null;
+  }
+
+  function target() {
+    const league = seasonsOf();
+    if (!league || !league.seasons.length) return '';
+    const search = window.location.search;
+    const requested = new URLSearchParams(search).get('d') || '';
+
+    // A ?d= naming a division of any season goes to that season, archived or
+    // not. This is the whole point of the stub.
+    if (requested) {
+      const owner = league.seasons.find(
+        (season) => season.divisions.some((division) => division.slug === requested),
+      );
+      if (owner) return owner.slug + '/' + search;
+    }
+
+    // Otherwise the current season, falling back to the newest one when the
+    // league has wound down and nothing is current. Seasons are newest first.
+    const current = league.seasons.find((season) => season.status === 'current')
+      || league.seasons[0];
+    return current.slug + '/' + search;
+  }
+
+  const to = target();
+  if (to) {
+    window.location.replace(to);
+    return;
+  }
+
+  // Nothing to redirect to. Say so rather than leaving a blank page: this is
+  // what a league whose catalog failed to load looks like from the outside.
+  const host = document.getElementById('redirect-message');
+  if (host) {
+    host.textContent = "Couldn't work out which season to open. Go back to all leagues.";
+  }
+})();
+`;
+}
+
+function buildLeagueRedirectHtml({ label }) {
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${label} — Fishtown Pickleball</title>
+<!-- Same reasoning as every other page under /cpl/: it publishes real people's
+     names and is deliberately not indexable. A redirect stub has nothing to
+     index either way, and noindex here keeps a crawler from following it in. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+  <p class="load-error" id="redirect-message" role="status">Opening the current season…</p>
+  <p><a href="../">← All leagues and seasons</a></p>
+</div>
+<script src="../catalog.js" defer></script>
+<script src="redirect.js" defer></script>
+</body>
+</html>
+`;
+}
+
 module.exports = {
-  buildBootstrapDivisionsLiteral,
   buildBootstrapSource,
   buildBootstrapRuntimeSource,
+  buildLeagueRedirectHtml,
+  buildLeagueRedirectSource,
 };

@@ -39,9 +39,9 @@
     if (!host) return;
     const shared = window.CPLShared;
     host.innerHTML = shared && shared.loadErrorHtml
-      ? shared.loadErrorHtml(message, 'Go back to all divisions', '../')
+      ? shared.loadErrorHtml(message, 'Go back to all divisions', '../../')
       : '<div class="load-error" role="alert"><p class="load-error-msg"></p>' +
-        '<p class="load-error-action"><a href="../">Go back to all divisions</a></p></div>';
+        '<p class="load-error-action"><a href="../../">Go back to all divisions</a></p></div>';
     if (!(shared && shared.loadErrorHtml)) {
       // shared.js is a separate cached file and may be the thing that failed;
       // textContent keeps the message out of the markup either way.
@@ -49,11 +49,12 @@
     }
   }
 
-  // Every division's data lives at data-<slug>.js.
+  // Every division's data lives at data-<slug>.js, inside its own season's
+  // directory.
   //
   // A 404 here used to fall back to the landing division's file, which rendered
   // another division's standings under a URL naming this one — confidently wrong
-  // data, and worse than saying nothing. A division listed in bootstrap.js but
+  // data, and worse than saying nothing. A division listed in the catalog but
   // not yet compiled now says so.
   function dataFileFor(slug) {
     return slug ? `data-${slug}.js` : '';
@@ -80,57 +81,59 @@
   function loadDashboard(slug) {
     Promise.all([
       loadScript(dataFileFor(slug)),
-      loadWithFallback(duprFileFor(slug), '../dupr-ratings.js'),
+      loadWithFallback(duprFileFor(slug), '../../dupr-ratings.js'),
     ]).then((loaded) => {
       if (!loaded[1]) {
         window.CPL_DUPR_UNAVAILABLE = true;
         window.console.warn('CPL: no DUPR table loaded — rating columns will read as unrated.');
       }
       if (loaded[0]) {
-        loadScript('../app.js');
+        loadScript('../../app.js');
         return;
       }
       showLoadError("This division isn't available yet.");
     });
   }
 
-  // No ?d= (or an unknown one) lands on config.landingSlug. That slug is baked
-  // into bootstrap.js, which is cached separately from this file — so if a
-  // browser pairs a stale bootstrap.js with this runtime and landingSlug is
-  // missing, fall through to the first division rather than rendering nothing.
-  function landingSlug(divisions, config) {
-    return config.landingSlug || (divisions[0] ? divisions[0].slug : '');
+  // The catalog is a separate cached file, so a browser can pair a fresh
+  // bootstrap.js with a stale or missing catalog.js. Everything below treats an
+  // absent catalog as "this page still knows its own league, season and landing
+  // division" — enough to render the division that was asked for, without the
+  // selectors that need the other seasons.
+  function catalogSeason(page) {
+    const catalog = window.CPL_CATALOG;
+    const leagues = (catalog && Array.isArray(catalog.leagues)) ? catalog.leagues : [];
+    const league = leagues.find((entry) => entry.key === page.league);
+    if (!league) return null;
+    return (league.seasons || []).find((season) => season.slug === page.season) || null;
   }
 
-  function resolveDivisionSlug(divisions, config) {
-    const requestedDivision = getQueryParam('d');
-    const knownSlugs = new Set(divisions.map((division) => division.slug));
-    return knownSlugs.has(requestedDivision) ? requestedDivision : landingSlug(divisions, config);
+  function landingSlug(page, season) {
+    return page.landingSlug
+      || (season && season.landingSlug)
+      || (season && season.divisions[0] ? season.divisions[0].slug : '');
   }
 
-  window.initCplBootstrap = function initCplBootstrap({ divisions, config }) {
-    window[config.divisionsGlobal] = divisions;
+  // ?d= is honoured only when it names a division of *this* season. A slug from
+  // another season is not an error the dashboard can render — its data file is
+  // in a different directory — so it falls through to the landing division here,
+  // and the redirect stub in front of the league is what sends such a link to
+  // the right season in the first place.
+  function resolveDivisionSlug(page, season) {
+    const requested = getQueryParam('d');
+    if (!requested) return landingSlug(page, season);
+    const known = season ? season.divisions.some((div) => div.slug === requested) : true;
+    return known ? requested : landingSlug(page, season);
+  }
 
-    // Every league that has loaded, in script order. Both dashboards load both
-    // bootstraps so the Division selector can list Cross Club and Local
-    // divisions together — this is how app.js finds the league it is not on,
-    // and the path to reach it. Registered before the dashboardPath check,
-    // because the whole point is the league that does not match.
-    window.CPL_LEAGUES = window.CPL_LEAGUES || [];
-    if (!window.CPL_LEAGUES.some((entry) => entry.key === config.divisionsGlobal)) {
-      window.CPL_LEAGUES.push({
-        key: config.divisionsGlobal,
-        dashboardPath: config.dashboardPath,
-        divisions,
-      });
-    }
+  window.initCplBootstrap = function initCplBootstrap(page) {
+    // What app.js reads to build its two selectors and to know where it is.
+    window.CPL_PAGE = page;
 
-    // This bootstrap also runs on /cpl/, where data/app relative paths are different.
-    if (!window.location.pathname.includes(config.dashboardPath)) return;
+    const season = catalogSeason(page);
+    window.DIVISIONS = season ? season.divisions : [];
 
-    window.DIVISIONS = divisions;
-
-    const slug = resolveDivisionSlug(divisions, config);
+    const slug = resolveDivisionSlug(page, season);
     // No divisions at all, and no landing slug to fall through to: there is
     // nothing to load and nothing app.js could render. Returning quietly left a
     // permanently blank page behind a clean console.

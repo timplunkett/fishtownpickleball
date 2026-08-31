@@ -10196,6 +10196,9 @@
   "clubName": "",
   "divisionName": "4.5",
   "leagueType": "travel",
+  "seasonSlug": "2026-fall",
+  "seasonLabel": "Fall 2026",
+  "seasonStatus": "current",
   "podCount": 1,
   "podNames": [
    "North / South"

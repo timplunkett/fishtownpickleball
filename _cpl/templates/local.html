@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- One file serves all twelve local divisions, so a club name here is right for
+     one of them and wrong for the other eleven — it read "Bounce Pickleball" on
+     Flemington, Robbinsville, Ace Moorestown and Dill Dinkers Chantilly alike.
+     Anything club- or division-specific is set by renderHeader once the dataset
+     names it; what is static has to stay true of every division. -->
+<title>Local League Standings — Fishtown Pickleball</title>
+<!-- These pages publish the names and ratings of some three thousand real
+     people. Anyone with the link is welcome to them; a search engine is not.
+     The Open Graph tags below are unaffected by this and are meant to be: robots
+     rules govern crawlers, unfurlers read OG, so the link still previews
+     properly when it is pasted into a group chat. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Standings, head-to-head results and adjusted player ratings for a local club pickleball league division.">
+<meta name="theme-color" content="#0e1116">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="Local League Standings">
+<meta property="og:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/local/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Local League Standings">
+<meta name="twitter:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<noscript>
+  <p class="load-error" role="alert">This dashboard is built in the browser from a data file, so it
+  needs JavaScript switched on. Nothing on this page renders without it.</p>
+</noscript>
+<div class="wrap">
+  <header>
+    <a class="back-link" href="../../">← CPL</a>
+    <div class="header-top">
+      <!-- Neutral on purpose. renderHeader replaces this with the real club as soon
+           as the dataset loads; until then a hard-coded club name flashes the
+           wrong one on eleven of the twelve local divisions. -->
+      <div class="kicker" id="kicker">Local League</div>
+      <div class="division-selector-wrap">
+        <!-- Hidden by renderSeasonSelector when the league has only ever had one
+             season, so a league with nothing to switch between shows no switch. -->
+        <span class="season-selector-wrap" id="season-selector-wrap" hidden>
+          <label for="season-select" class="division-label">Season</label>
+          <select id="season-select"></select>
+        </span>
+        <label for="division-select" class="division-label">Division</label>
+        <select id="division-select"></select>
+      </div>
+    </div>
+    <h1 id="title">Division Standings &amp; Player Stats</h1>
+    <p class="sub" id="sub"></p>
+  </header>
+
+  <div id="mainview">
+  <nav class="section-toc" id="section-toc" aria-label="Jump to a section"></nav>
+
+  <section class="msec" id="team-standings">
+  <!-- The toggle is a sibling of the <h2>, not a child of it. <h2> only permits
+       phrasing content, so a <div> in there was invalid — and the practical cost
+       was that the heading's accessible name swallowed the whole description and
+       both button labels, so browsing by heading announced "Team Standings by
+       match record, then game record, then point differential, click a team for
+       its page, Table Cards". .sec-head is what keeps them on one row. -->
+  <div class="sec-head">
+    <h2>
+      <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="team-standings-body"><span class="sec-name">Team Standings</span></button>
+      <span class="tag">by match record, then game record, then point differential • click a team for its page</span>
+    </h2>
+    <div class="viewtoggle" id="standings-view" role="group" aria-label="Team standings view">
+      <button type="button" data-view="table" aria-pressed="true">Table</button>
+      <button type="button" data-view="cards" aria-pressed="false">Cards</button>
+    </div>
+  </div>
+  <div class="msec-body" id="team-standings-body">
+    <div class="teams" id="teams"></div>
+  </div>
+  </section>
+
+  <section class="msec" id="playoffs" hidden>
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="playoffs-host"><span class="sec-name">Playoffs</span></button>
+    <span class="tag">knockout bracket</span>
+  </h2>
+  <div class="msec-body" id="playoffs-host"></div>
+  </section>
+
+  <section class="msec" id="head-to-head">
+  <div class="sec-head">
+    <h2>
+      <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="head-to-head-body"><span class="sec-name">Head-to-Head</span></button>
+      <span class="tag">game record &amp; net point differential • click a cell for that matchup</span>
+    </h2>
+    <div class="viewtoggle" id="grid-view" role="group" aria-label="Head-to-head view">
+      <button type="button" data-gridview="weeks" aria-pressed="true">By week</button>
+      <button type="button" data-gridview="matrix" aria-pressed="false">Matrix</button>
+    </div>
+  </div>
+  <div class="msec-body" id="head-to-head-body">
+    <div class="grid-host" id="grid-host"></div>
+  </div>
+  </section>
+
+  <section class="msec" id="player-leaderboard">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="player-leaderboard-body"><span class="sec-name">Player Leaderboard</span></button>
+    <span class="tag">Rating = partner/opponent-adjusted net points per game</span> <span class="tag" id="plabel"></span>
+  </h2>
+  <div class="msec-body" id="player-leaderboard-body">
+  <details class="explainer" id="rating-explainer">
+    <summary>How the Rating works</summary>
+    <div class="body">
+      <p><b>Rating</b> estimates the net points per game you add versus a league-average player, after adjusting
+      for <b>who you played with and against</b>. Think of it as a swap test: keep your partner and opponents fixed,
+      replace you with a generic average player, and the rating is how much the scoreline changes.
+      <b>0</b> is average, <span class="pos-diff">+</span> is above average, <span class="neg-diff">−</span> is below.
+      Since games go to 11/15/21, a swing of ±3 per game is large.</p>
+      <p>It isn't raw point differential. Pile up a big margin alongside a strong partner against weak opponents and the
+      model <b>credits the partner and discounts the weak opposition</b> — so your number lands lower than the scoreline.
+      Win a tight one with a weak partner against strong opponents and it can rate <b>higher</b> than the score suggests.</p>
+      <p><b>Opp Str</b> and <b>Partner Str</b> make that context visible: each is the average rating of the opponents you
+      faced / partners you played with, on the same points/game scale (above 0 = stronger than league average). They explain
+      <i>why</i> a rating can diverge from a win-loss record — e.g. an undefeated player with high Partner Str and low Opp Str
+      had favorable conditions. Click any player for a plain-English summary.</p>
+      <p>The whole league is solved at once, and <b>recomputed from scratch every update</b>. Everyone's rating depends on
+      everyone else's, so results are <b>retroactive</b>: lose to an unknown who later turns out strong, and that loss is
+      automatically re-credited as "a loss to a strong player" — no new game required. Beat someone who later proves weak,
+      and the win quietly loses value.</p>
+      <p>The <b>Conf</b> column is how much of each rating is driven by real game evidence rather than the
+      average-player starting assumption (technically, the share of variance the data has resolved). It rises as a player
+      logs more games against well-connected opponents. Early-season numbers sit in the middle and <b>move a lot</b> —
+      read a <span class="pos-diff">+3.0 at 68%</span> as far more settled than the same rating at 45%.</p>
+    </div>
+  </details>
+  <!-- Every control here is labelled. A placeholder is not an accessible name in
+       any reliable way, and the five selects had none at all: a screen reader
+       read out five unnamed combo boxes whose only clue was whichever option
+       happened to be selected. #division-select up in the header already had a
+       visible <label>; these are filtered lists sitting in a row where a visible
+       label each would double the height of the strip, so they take aria-label. -->
+  <div class="controls">
+    <input id="search" placeholder="Search player…" autocomplete="off" aria-label="Search players by name">
+    <select id="team" aria-label="Filter by team"></select>
+    <select id="pod" aria-label="Filter by pod" hidden></select>
+    <select id="gender" aria-label="Filter by gender">
+      <option value="">All genders</option>
+      <option value="Male">Men</option>
+      <option value="Female">Women</option>
+    </select>
+    <select id="captain" aria-label="Filter by captain">
+      <option value="">All players</option>
+      <option value="1">Captains only</option>
+    </select>
+    <select id="minq" aria-label="Filter by matches played">
+      <option value="0" selected>All matches</option>
+      <option value="1">Only 1 match</option>
+      <option value="2">Multiple matches</option>
+    </select>
+    <span class="hint">Click a name for match history • click a column to sort</span>
+  </div>
+  <div class="panel scroll">
+    <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
+  </div>
+  </div>
+  </section>
+
+  <section class="msec" id="rating-distribution">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="rating-distribution-body"><span class="sec-name">Rating Distribution</span></button>
+    <span class="tag">every rated player • hover a dot • click to open • dot opacity = confidence</span> <a class="tag" href="#rating-explainer">how the Rating works ↑</a>
+  </h2>
+  <div class="msec-body" id="rating-distribution-body">
+    <div class="panel swarm-panel">
+      <div class="swarm-host" id="swarm-host"></div>
+    </div>
+  </div>
+  </section>
+
+  <section class="msec" id="top-duos">
+  <h2>
+    <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="top-duos-body"><span class="sec-name">Top Duos</span></button>
+    <span class="tag">chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span>
+  </h2>
+  <div class="msec-body" id="top-duos-body">
+    <div class="panel scroll">
+      <table id="duotbl"><thead><tr>
+        <th class="l">#</th><th class="l">Pair</th><th class="l">Team</th><th>Together</th><th>W–L</th>
+        <th>Synergy</th><th>Actual/g</th><th>Expected/g</th>
+      </tr></thead><tbody id="duobody"></tbody></table>
+    </div>
+  </div>
+  </section>
+  </div><!-- /mainview -->
+
+  <div id="teamview" hidden></div>
+
+  <footer id="foot"></footer>
+  <!-- Static, not part of the footer app.js writes: it has to be true whether or
+       not the dashboard managed to render. -->
+  <p class="attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  with, endorsed by, or operated by DUPR or the Cross Club League.</p>
+</div>
+
+<div id="overlay" class="overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-label="Player details">
+    <button class="x" id="mx" aria-label="Close">&times;</button>
+    <div id="mhead"></div>
+    <div id="mbody"></div>
+  </div>
+</div>
+
+<script src="../../shared.js" defer></script>
+<!-- One catalog for the whole site: every league, every season, and each
+     season's division list. It is what lets this page offer the other league's
+     divisions and the other seasons of its own in the two selectors above,
+     without loading a second league's bootstrap the way this page used to. -->
+<script src="../../catalog.js" defer></script>
+<script src="../../bootstrap-runtime.js" defer></script>
+<!-- Generated per season directory. Names which league and season this page is,
+     and which division a bare URL lands on; everything else comes from the
+     catalog. -->
+<script src="bootstrap.js" defer></script>
+</body>
+</html>

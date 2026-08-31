@@ -1117,46 +1117,93 @@ function applyLocationFragment({ smooth = false } = {}) {
   navigateToFragment(id, { updateHash: false, smooth });
 }
 
-// Both leagues' division lists are loaded on both dashboards (see the script
-// tags in index.html), keyed by the global each bootstrap exposes.
-const LEAGUE_GROUP_LABELS = Object.freeze({
-  TRAVEL_DIVISIONS: 'Cross Club League',
-  LOCAL_DIVISIONS: 'Local Leagues',
-});
-
-function currentLeagueDir() {
-  return DATA.meta.leagueType === 'travel' ? 'travel' : 'local';
+// Where this page is: which league, which season. bootstrap.js sets it, and the
+// catalog (cpl/catalog.js) is what everything else about the other leagues and
+// seasons is read from.
+//
+// The dataset carries its own season too (DATA.meta.seasonSlug), and it is the
+// fallback here: a data file that has been saved or linked from elsewhere still
+// knows which season it is even if bootstrap.js never ran.
+function currentPage() {
+  const page = window.CPL_PAGE || {};
+  return {
+    league: page.league || (DATA.meta.leagueType === 'travel' ? 'travel' : 'local'),
+    season: page.season || DATA.meta.seasonSlug || '',
+  };
 }
 
-function leagueDirOf(dashboardPath) {
-  return String(dashboardPath || '').split('/').filter(Boolean).pop() || '';
-}
-
-// One group per league, in the order the bootstraps registered. Falls back to
-// this league alone if the other bootstrap didn't load — a browser holding a
-// stale bootstrap-runtime.js that predates the registry still gets a working
-// selector, just without the cross-league half.
+// The Division selector stays inside one season and spans both leagues, which is
+// the switch people actually make — Cross Club 3.5 to their club's division, in
+// the season they are playing. Crossing seasons is the Season selector's job,
+// beside it. Putting both in one menu was tried on paper and abandoned: a
+// four-season league would list every division four times.
 function divisionSelectorGroups() {
-  const registered = Array.isArray(window.CPL_LEAGUES) ? window.CPL_LEAGUES : [];
-  const groups = registered
-    .filter((league) => Array.isArray(league.divisions) && league.divisions.length)
-    .map((league) => ({
-      label: LEAGUE_GROUP_LABELS[league.key] || league.key,
-      leagueDir: leagueDirOf(league.dashboardPath),
-      divisions: league.divisions,
-    }))
-    .filter((group) => group.leagueDir);
-  if (groups.some((group) => group.leagueDir === currentLeagueDir())) return groups;
+  const { league: currentDir, season } = currentPage();
+  const groups = CPLShared.catalogLeagues()
+    .map((league) => {
+      // The same season slug in the other league, when it has one. Leagues run
+      // on their own calendars — travel plays spring and fall, the local league
+      // ran a summer season — so the other league very often has no season by
+      // this name, and its current season is the honest thing to offer instead.
+      const match = CPLShared.catalogSeason(league.key, season)
+        || CPLShared.catalogCurrentSeason(league.key);
+      if (!match || !match.divisions.length) return null;
+      const sameSeason = match.slug === season;
+      return {
+        label: sameSeason ? league.label : `${league.label} · ${match.label}`,
+        leagueDir: league.key,
+        season: match.slug,
+        divisions: match.divisions,
+      };
+    })
+    .filter(Boolean);
+
+  if (groups.some((group) => group.leagueDir === currentDir)) return groups;
+
+  // The catalog failed to load, or holds no season by this name for this league.
+  // DIVISIONS is set by bootstrap-runtime.js from the same catalog, so it is
+  // usually empty in exactly this case — but when it is not, this league's own
+  // divisions are worth more than an empty selector.
   return [{
-    label: LEAGUE_GROUP_LABELS[`${currentLeagueDir().toUpperCase()}_DIVISIONS`] || 'Divisions',
-    leagueDir: currentLeagueDir(),
+    label: 'Divisions',
+    leagueDir: currentDir,
+    season,
     divisions: DIVISIONS,
   }];
 }
 
+// Rewrite this page's own URL rather than resolving a relative one: the scheme,
+// host and file name all have to survive, so that this works from a file://
+// preview of index.html as well as from the served directory.
+//
+// A dashboard lives at <root>/<league>/<season>/, so crossing leagues or seasons
+// swaps one or both of the last two segments. The regex is anchored on those two
+// segments together so a league switch cannot land on a season the other league
+// does not have — the caller has already resolved which season it is going to.
+function dashboardUrl(leagueDir, seasonSlug, slug) {
+  const url = new URL(window.location.href);
+  const fileName = (/[^/]+\.html?$/i.exec(url.pathname) || [''])[0];
+  let dir = fileName ? url.pathname.slice(0, -fileName.length) : url.pathname;
+  if (!dir.endsWith('/')) dir += '/';
+  if (seasonSlug) {
+    dir = dir.replace(/[^/]+\/[^/]+\/$/, `${leagueDir}/${seasonSlug}/`);
+  }
+  url.pathname = `${dir}${fileName}`;
+  // A division switch is a switch to that division, not to whichever team of it
+  // happens to share a name with the team you were looking at, so ?team= and
+  // ?player= go. Carrying them opened a same-named team in the new division — a
+  // duplicate of the tab you were already on — or, with no match, left a dead
+  // ?team= trailing the URL. ?d= is the only parameter that survives, and it is
+  // the one being changed.
+  url.search = '';
+  url.searchParams.set('d', slug);
+  url.hash = '';
+  return url.toString();
+}
+
 function renderDivisionSelector() {
   const currentSlug = getCurrentDivision()?.slug || '';
-  const currentDir = currentLeagueDir();
+  const { league: currentDir, season: currentSeason } = currentPage();
   const groups = divisionSelectorGroups();
 
   // A single group needs no heading — grouping two divisions of one league under
@@ -1164,8 +1211,10 @@ function renderDivisionSelector() {
   // what makes a Travel → Local switch possible without going back to /cpl.
   const renderOptions = (group) => group.divisions.map((div) => {
     const label = !div.clubName ? div.divisionName : `${div.clubName} — ${div.divisionName}`;
-    const selected = group.leagueDir === currentDir && div.slug === currentSlug ? ' selected' : '';
-    return `<option value="${group.leagueDir}:${div.slug}"${selected}>${escapeHtml(label)}</option>`;
+    const isCurrent = group.leagueDir === currentDir
+      && group.season === currentSeason
+      && div.slug === currentSlug;
+    return `<option value="${escapeHtml(`${group.leagueDir}:${group.season}:${div.slug}`)}"${isCurrent ? ' selected' : ''}>${escapeHtml(label)}</option>`;
   }).join('');
 
   elements.divisionSelect.innerHTML = groups.length > 1
@@ -1175,28 +1224,51 @@ function renderDivisionSelector() {
     : renderOptions(groups[0]);
 
   elements.divisionSelect.addEventListener('change', () => {
-    const [leagueDir, slug] = elements.divisionSelect.value.split(':');
+    const [leagueDir, seasonSlug, slug] = elements.divisionSelect.value.split(':');
     if (!slug) return;
-    // Rewrite the pathname in place rather than resolving a relative URL: the
-    // scheme, host and file name all have to survive, so that this works from a
-    // file:// preview of index.html as well as from the served directory.
-    const url = new URL(window.location.href);
-    const fileName = (/[^/]+\.html?$/i.exec(url.pathname) || [''])[0];
-    let dir = fileName ? url.pathname.slice(0, -fileName.length) : url.pathname;
-    if (!dir.endsWith('/')) dir += '/';
-    // The two dashboards are siblings, so crossing leagues swaps one segment.
-    if (leagueDir !== currentDir) dir = dir.replace(/[^/]+\/$/, `${leagueDir}/`);
-    url.pathname = `${dir}${fileName}`;
-    // A division switch is a switch to that division, not to whichever team of
-    // it happens to share a name with the team you were looking at, so ?team=
-    // and ?player= go. Carrying them opened a same-named team in the new
-    // division — a duplicate of the tab you were already on — or, with no match,
-    // left a dead ?team= trailing the URL. ?d= is the only parameter that
-    // survives, and it is the one being changed.
-    url.search = '';
-    url.searchParams.set('d', slug);
-    url.hash = '';
-    window.location.href = url.toString();
+    window.location.href = dashboardUrl(leagueDir, seasonSlug, slug);
+  });
+}
+
+// The Season selector, beside the Division one.
+//
+// Hidden outright when this league has only ever had one season: a select with a
+// single option is a control that does nothing, and every league starts there.
+// Switching season keeps the division you are looking at when that division ran
+// in the target season too — 3.5 to 3.5 — and falls back to the target season's
+// landing division when it did not, since a bracket can be added or dropped
+// between seasons.
+function renderSeasonSelector() {
+  const wrap = document.getElementById('season-selector-wrap');
+  const select = document.getElementById('season-select');
+  if (!wrap || !select) return;
+
+  const { league, season: currentSeason } = currentPage();
+  const seasons = CPLShared.catalogSeasons(league).filter((entry) => entry.divisions.length);
+  if (seasons.length < 2) {
+    wrap.hidden = true;
+    return;
+  }
+  wrap.hidden = false;
+
+  const currentDivisionName = getCurrentDivision()?.divisionName || '';
+  const currentClubName = getCurrentDivision()?.clubName || '';
+
+  select.innerHTML = seasons.map((entry) => {
+    // Archived seasons are marked in the option text, so the reason a dashboard
+    // stopped updating is legible from the control that got you there.
+    const label = entry.status === 'current' ? entry.label : `${entry.label} (archived)`;
+    return `<option value="${escapeHtml(entry.slug)}"${entry.slug === currentSeason ? ' selected' : ''}>${escapeHtml(label)}</option>`;
+  }).join('');
+
+  select.addEventListener('change', () => {
+    const target = seasons.find((entry) => entry.slug === select.value);
+    if (!target) return;
+    const sameDivision = target.divisions.find((div) => (
+      div.divisionName === currentDivisionName && (div.clubName || '') === currentClubName
+    ));
+    const slug = (sameDivision || target.divisions[0]).slug;
+    window.location.href = dashboardUrl(league, target.slug, slug);
   });
 }
 
@@ -1244,11 +1316,24 @@ function renderSummary() {
   // No fallback here printed the literal "as of undefined" to readers whenever a
   // shard predated meta.asOf. formatDataAge owns every degenerate case, including
   // the date-only stamps older shards carry.
+  //
+  // An archived season says so instead of reporting an age. "updated 47d ago" is
+  // true of a frozen season and still misleads: it reads as a page that has
+  // fallen behind and will catch up, when in fact these are the final numbers
+  // and nothing will ever move them again.
+  const isArchived = DATA.meta.seasonStatus === 'archived';
   const age = formatDataAge(DATA.meta.asOf);
+  const freshness = isArchived
+    ? {
+      text: `final${DATA.meta.seasonLabel ? ` • ${DATA.meta.seasonLabel}` : ''}`,
+      title: age.title || '',
+      className: 'asof archived',
+    }
+    : { text: age.text, title: age.title, className: 'asof' };
   elements.subhead.innerHTML =
     escapeHtml(`${DATA.meta.matchesPlayed} matches played${provisionalNote} (Weeks ${DATA.meta.weeks}) • ` +
       `${DATA.meta.totalPlayers} players • `) +
-    `<span class="asof"${age.title ? ` title="${escapeHtml(age.title)}"` : ''}>${escapeHtml(age.text)}</span>`;
+    `<span class="${freshness.className}"${freshness.title ? ` title="${escapeHtml(freshness.title)}"` : ''}>${escapeHtml(freshness.text)}</span>`;
   elements.footer.textContent =
     // "Live from" invited the reading that this page reflects the league right
     // now. It is a static snapshot the bot recompiles every six hours.
@@ -3678,6 +3763,7 @@ function handleSwarmOut(event) {
 function initialize() {
   migrateLegacyHashRoute();
   renderHeader();
+  renderSeasonSelector();
   renderDivisionSelector();
   renderSummary();
   renderStandingsViewToggle();

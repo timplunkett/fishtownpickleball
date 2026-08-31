@@ -157,16 +157,29 @@
   // (names, teams, divisions, ids) plus integer entries pointing into them; see
   // packPlayerIndex — into the plain entry objects the finder and dashboards
   // consume. Unpacked once, then served from the cached array.
+  //
+  // The division row grew three columns when seasons arrived (season slug,
+  // season label, archived flag) and kept its name and its first four columns,
+  // which is the one kind of change to this file that does not need a new global
+  // (see the note on readsAs below). A shared.js cached from before seasons
+  // reads columns 0–3, ignores 4–6, and builds an entry with no season on it —
+  // whose finder link is /cpl/<league>/?d=<slug>, the season-less URL that the
+  // redirect stub in front of every league exists to resolve. The old reader
+  // therefore degrades to a working link rather than a broken one, which is the
+  // only reason this was safe to do in place.
   function unpackTableIndex(packed) {
     const pick = (list, index) => (index === -1 ? '' : list[index]);
     return packed.e.map((entry) => {
-      const division = packed.d[entry[2]] || ['', '', 0, ''];
+      const division = packed.d[entry[2]] || ['', '', 0, '', '', '', 0];
       const decoded = {
         name: pick(packed.n, entry[0]),
         team: pick(packed.t, entry[1]),
         division: division[1],
         slug: division[0],
         league: division[2] === 1 ? 'travel' : 'local',
+        season: division[4] || '',
+        seasonLabel: division[5] || '',
+        archived: division[6] === 1,
         playerId: entry[3] === -1 ? null : packed.i[entry[3]],
       };
       if (division[3]) decoded.club = division[3];
@@ -575,8 +588,71 @@
     return { text: `updated ${days}d ago`, title };
   }
 
+  // ---------------------------------------------------------------------------
+  // The site catalog (cpl/catalog.js): leagues → seasons → divisions.
+  //
+  // Read through these rather than off window.CPL_CATALOG directly. catalog.js
+  // is a separate file with its own cache entry and nothing busts it, so every
+  // page that reads it has to survive it being absent or a shape older than the
+  // code reading it — the same skew the two player-index globals guard against.
+  // Every accessor below answers with an empty value in that case, which costs a
+  // selector rather than a page.
+  // ---------------------------------------------------------------------------
+
+  function getCatalog() {
+    const catalog = globalThis.CPL_CATALOG;
+    return catalog && Array.isArray(catalog.leagues) ? catalog : { leagues: [] };
+  }
+
+  function catalogLeagues() {
+    return getCatalog().leagues.filter((league) => league && Array.isArray(league.seasons));
+  }
+
+  function catalogLeague(key) {
+    return catalogLeagues().find((league) => league.key === key) || null;
+  }
+
+  function catalogSeasons(leagueKey) {
+    const league = catalogLeague(leagueKey);
+    return league ? league.seasons.filter((season) => season && Array.isArray(season.divisions)) : [];
+  }
+
+  function catalogSeason(leagueKey, seasonSlug) {
+    return catalogSeasons(leagueKey).find((season) => season.slug === seasonSlug) || null;
+  }
+
+  // The season a league is playing now, falling back to its newest season when
+  // every season is archived — a league that has wound down still has to be
+  // reachable, and the archive is all there is to reach.
+  function catalogCurrentSeason(leagueKey) {
+    const seasons = catalogSeasons(leagueKey);
+    return seasons.find((season) => season.status === 'current') || seasons[0] || null;
+  }
+
+  // Path from /cpl/ to one division's dashboard. Used by the finder and the
+  // landing page, both of which sit at /cpl/.
+  //
+  // An entry with no season on it — decoded from a player-index.js written
+  // before seasons, or by a shared.js cached from before them — yields the
+  // season-less /cpl/<league>/?d=<slug>, which the league's redirect stub
+  // resolves to the right season. So the season being missing costs one extra
+  // hop, not a broken link.
+  function divisionPath(entry, params) {
+    const search = new URLSearchParams(params || {});
+    search.set('d', entry.slug);
+    const seasonSegment = entry.season ? `${entry.season}/` : '';
+    return `${entry.league}/${seasonSegment}?${search.toString()}`;
+  }
+
   return {
     escapeHtml,
+    catalogCurrentSeason,
+    catalogLeague,
+    catalogLeagues,
+    catalogSeason,
+    catalogSeasons,
+    divisionPath,
+    getCatalog,
     decodeHtmlEntities,
     displayPodGroups,
     loadErrorHtml,

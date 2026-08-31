@@ -26257,6 +26257,9 @@
   "clubName": "",
   "divisionName": "3.0 (50+)",
   "leagueType": "travel",
+  "seasonSlug": "2026-fall",
+  "seasonLabel": "Fall 2026",
+  "seasonStatus": "current",
   "podCount": 3,
   "podNames": [
    "Northwest",

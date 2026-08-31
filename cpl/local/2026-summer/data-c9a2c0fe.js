@@ -14451,13 +14451,16 @@
   "clubName": "Ace - Moorestown / Voorhees",
   "divisionName": "3.75 & Under",
   "leagueType": "local",
+  "seasonSlug": "2026-summer",
+  "seasonLabel": "Summer 2026",
+  "seasonStatus": "current",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.297Z";
+  DATA.meta.asOf = "2026-08-28T16:17:44.216Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c9a2c0fe"] = DATA;

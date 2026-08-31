@@ -9392,13 +9392,16 @@
   "clubName": "Dill Dinkers - Chantilly",
   "divisionName": "3.25 - 3.99",
   "leagueType": "local",
+  "seasonSlug": "2026-summer",
+  "seasonLabel": "Summer 2026",
+  "seasonStatus": "current",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.539Z";
+  DATA.meta.asOf = "2026-08-28T16:18:10.566Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e6a9b403"] = DATA;

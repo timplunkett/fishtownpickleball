@@ -12,6 +12,14 @@ const ROOT = path.join(__dirname, '../..');
 
 // The files a person edits. The compiled data-*.js and the vendored copies are
 // generated, and dupr-ratings.js is large enough that scanning it earns nothing.
+// Only files, not the directories beside them: _cpl/test/ now holds a helpers/
+// subdirectory, and readFileSync on a directory throws EISDIR.
+function filesIn(relative, filter = () => true) {
+  return fs.readdirSync(path.join(ROOT, relative), { withFileTypes: true })
+    .filter((entry) => entry.isFile() && filter(entry.name))
+    .map((entry) => `${relative}/${entry.name}`);
+}
+
 const SOURCES = [
   'cpl/app.js',
   'cpl/home.js',
@@ -20,15 +28,14 @@ const SOURCES = [
   'cpl/styles.css',
   'cpl/home.css',
   'cpl/index.html',
-  'cpl/local/index.html',
-  'cpl/travel/index.html',
-  ...fs.readdirSync(path.join(ROOT, '_cpl'))
-    .filter((name) => name.endsWith('.js'))
-    .map((name) => `_cpl/${name}`),
-  ...fs.readdirSync(path.join(ROOT, '_cpl/modules'))
-    .map((name) => `_cpl/modules/${name}`),
-  ...fs.readdirSync(path.join(ROOT, '_cpl/test'))
-    .map((name) => `_cpl/test/${name}`),
+  // The dashboard shells are hand-written here and copied into every season
+  // directory by the compiler, so these are the only two copies a person edits.
+  '_cpl/templates/local.html',
+  '_cpl/templates/travel.html',
+  ...filesIn('_cpl', (name) => name.endsWith('.js')),
+  ...filesIn('_cpl/modules'),
+  ...filesIn('_cpl/test'),
+  ...filesIn('_cpl/test/helpers'),
 ];
 
 // Tab, newline and carriage return are the only control characters a source file
@@ -56,7 +63,7 @@ test('no source file holds a stray control character', () => {
 test('the source list covers the files this repo actually hand-writes', () => {
   // A guard on the guard: if cpl/app.js ever moves, the test above would quietly
   // stop checking anything.
-  ['cpl/app.js', 'cpl/styles.css', 'cpl/local/index.html'].forEach((relative) => {
+  ['cpl/app.js', 'cpl/styles.css', '_cpl/templates/local.html'].forEach((relative) => {
     assert.ok(SOURCES.includes(relative), `${relative} is not being scanned`);
     assert.ok(fs.existsSync(path.join(ROOT, relative)), `${relative} does not exist`);
   });

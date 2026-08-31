@@ -17870,6 +17870,9 @@
   "clubName": "",
   "divisionName": "4.0",
   "leagueType": "travel",
+  "seasonSlug": "2026-fall",
+  "seasonLabel": "Fall 2026",
+  "seasonStatus": "current",
   "podCount": 2,
   "podNames": [
    "Northwest",

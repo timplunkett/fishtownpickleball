@@ -3,31 +3,40 @@ const { compileDashboardHtml, buildPlayerIndex } = require('./modules/compiler')
 const { unmatchedDivisionSlugs } = require('./modules/division-utils');
 
 // --division=<slug> (repeatable) compiles just those divisions from the cached
-// JSON; omit it to compile every division in the manifest.
-function parseDivisionSlugs(argv) {
-  const slugs = argv
-    .filter((arg) => arg.startsWith('--division='))
-    .map((arg) => arg.slice('--division='.length))
+// JSON; omit it to compile every division in the manifest. --season=<slug>
+// (repeatable) narrows the same way by season; omit it to compile every season,
+// archived ones included.
+function parsePrefixed(argv, prefix) {
+  const values = argv
+    .filter((arg) => arg.startsWith(prefix))
+    .map((arg) => arg.slice(prefix.length))
     .filter(Boolean);
-  return slugs.length ? slugs : null;
+  return values.length ? values : null;
 }
 
 async function main() {
   const argv = process.argv.slice(2);
   const leagueArg = argv.find((arg) => arg === 'local' || arg === 'travel');
   const leagues = leagueArg ? [leagueArg] : ['local', 'travel'];
-  const divisionSlugs = parseDivisionSlugs(argv);
+  const divisionSlugs = parsePrefixed(argv, '--division=');
+  const seasonSlugs = parsePrefixed(argv, '--season=');
   const failedDivisions = [];
   const matchedSlugs = [];
+  const asOfBySlug = new Map();
 
   for (const league of leagues) {
-    const { failedDivisions: failed = [], matchedSlugs: matched = [] } = await compileDashboardHtml(league, { divisionSlugs }) || {};
+    const {
+      failedDivisions: failed = [],
+      matchedSlugs: matched = [],
+      asOfBySlug: asOf = new Map(),
+    } = await compileDashboardHtml(league, { divisionSlugs, seasonSlugs }) || {};
     failedDivisions.push(...failed);
     matchedSlugs.push(...matched);
+    for (const [key, value] of asOf) asOfBySlug.set(key, value);
     if (!failed.length) console.log(`\n✅ Compile (${league}) completed successfully!`);
   }
 
-  buildPlayerIndex();
+  buildPlayerIndex({ asOfBySlug });
 
   const unmatched = unmatchedDivisionSlugs(divisionSlugs, matchedSlugs);
   if (unmatched.length) {

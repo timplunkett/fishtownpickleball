@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { getLeagueDataConfig } = require('./division-utils');
 const { expandJson } = require('./json-utils');
 
 // Per-division slices of the league-wide DUPR table.
@@ -53,20 +52,25 @@ function readRoster(playersPath) {
 // Walks every division's raw roster (players.json, straight from the league
 // API) rather than the compiled output, so this stays runnable from the DUPR
 // refresh without a compile having happened first.
+// Archived seasons get shards too. DUPR is a live, current-day rating rather
+// than a snapshot of what someone was rated during that season, so an archived
+// dashboard shows today's numbers beside a finished season's results — the same
+// thing it showed on the day it froze, since the shard is rewritten by every
+// DUPR refresh. That is a known imprecision, not an oversight: the alternative
+// is either freezing ratings the API gives us no historical values for, or
+// leaving the rating columns of every archived dashboard blank.
 function writeDuprShards(rootDir, ratings) {
-  const dataRoot = path.join(rootDir, '_cpl');
+  // Required here rather than at the top: catalog.js pulls in the season and
+  // division helpers, and this module is loaded by the DUPR refresh script too.
+  const { eachLeagueSeason, seasonCacheDir, seasonOutDir } = require('./catalog');
   let written = 0;
 
-  for (const league of ['local', 'travel']) {
-    const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
-    const dataDir = path.join(dataRoot, dataSubdir);
-    const divisionsPath = path.join(dataDir, divisionsFile);
-    if (!fs.existsSync(divisionsPath)) continue;
-
-    const outDir = path.join(rootDir, 'cpl', league);
+  for (const { league, season, divisions } of eachLeagueSeason()) {
+    const dataDir = seasonCacheDir(league, season.slug);
+    const outDir = seasonOutDir(rootDir, league, season.slug);
     if (!fs.existsSync(outDir)) continue;
 
-    for (const division of JSON.parse(fs.readFileSync(divisionsPath, 'utf8'))) {
+    for (const division of divisions) {
       const playersPath = path.join(dataDir, division.slug, 'players.json');
       if (!fs.existsSync(playersPath)) continue;
       const shard = buildDuprShard(readRoster(playersPath), ratings);

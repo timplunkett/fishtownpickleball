@@ -97,6 +97,49 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .panel-empty { font-size: .8rem; color: var(--mut); font-style: italic; }
 
+/* Which season a picker is for. With an archive on the page, "Cross Club League"
+   above a division list no longer says which season those divisions are from. */
+.panel-season {
+  margin: 0 0 .4rem;
+  color: var(--mut);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* Finished seasons. Full width under the two current-season panels, and hidden
+   by home.js when nothing is archived yet. */
+.archive-panel {
+  width: 100%;
+  max-width: 720px;
+  flex: none;
+}
+
+.archive-panel[hidden] { display: none; }
+
+.archive-season + .archive-season { margin-top: 1rem; }
+
+/* The season name on an archived finder row. Quieter than .sub-tag beside it:
+   it is context for the row, not a warning about it. */
+.season-tag {
+  margin-left: 6px;
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--mut);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  cursor: help;
+}
+
+/* Archived rows sit below the current ones in every result and are dimmed to
+   match — legible, but clearly not where the player is playing now. */
+.player-result-entry.archived { opacity: .72; }
+.player-result-entry.archived:hover { opacity: 1; }
+
 /* Player Finder */
 .finder-panel {
   width: 100%;

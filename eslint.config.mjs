@@ -4,8 +4,9 @@ import globals from 'globals';
 export default [
   {
     ignores: [
-      'cpl/local/data.js', 'cpl/local/data-*.js', 'cpl/local/detail.js', 'cpl/local/detail-*.js',
-      'cpl/travel/data.js', 'cpl/travel/data-*.js', 'cpl/travel/detail.js', 'cpl/travel/detail-*.js',
+      // Compiled per-division shards, now one directory deeper: cpl/<league>/<season>/.
+      'cpl/local/*/data-*.js', 'cpl/local/*/detail-*.js', 'cpl/local/*/dupr-*.js',
+      'cpl/travel/*/data-*.js', 'cpl/travel/*/detail-*.js', 'cpl/travel/*/dupr-*.js',
       'cpl/shared.js', // generated copy of _cpl/modules/shared.js
       'node_modules/**', '_site/**', 'vendor/**',
     ],
@@ -39,7 +40,11 @@ export default [
     },
   },
   {
-    files: ['cpl/local/bootstrap.js', 'cpl/travel/bootstrap.js'],
+    // Generated: the per-season bootstrap and the per-league redirect stub.
+    files: [
+      'cpl/local/*/bootstrap.js', 'cpl/travel/*/bootstrap.js',
+      'cpl/local/redirect.js', 'cpl/travel/redirect.js',
+    ],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'script',

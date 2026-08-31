@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { extractValues, getLeagueDataConfig } = require('./division-utils');
+const { currentSeason, resolveLeagueSeasons } = require('./seasons');
 
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const DEFAULT_TIMEZONE = 'America/New_York';
@@ -124,9 +125,22 @@ function summarizeDivisionSchedule(matchups, nowUtc, options) {
   };
 }
 
+// Due-mode only ever considers the current season. An archived season has no
+// matches left to come in, and is not fetchable in any case — evaluating its
+// schedule would only ever print a page of SKIPs, and every match in it is by
+// definition "stale incomplete" the moment the season ends, which would have
+// selected the whole archive on every six-hourly run.
 function selectDueDivisionSlugs(league, options) {
-  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
-  const dataDir = path.join(__dirname, '..', dataSubdir);
+  const { dataSubdir, divisionsFile, seasonsFile } = getLeagueDataConfig(league);
+  const leagueDir = path.join(__dirname, '..', dataSubdir);
+  const seasons = readJson(path.join(leagueDir, seasonsFile));
+  const season = Array.isArray(seasons) ? currentSeason(resolveLeagueSeasons(league, seasons)) : null;
+  if (!season) {
+    console.log(`\n${league.toUpperCase()} schedule selection: no current season cached; falling back to full refresh.`);
+    return null;
+  }
+
+  const dataDir = path.join(leagueDir, season.slug);
   const divisionsPath = path.join(dataDir, divisionsFile);
   const nowUtc = new Date();
   const divisions = readJson(divisionsPath);

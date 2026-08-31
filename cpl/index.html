@@ -60,6 +60,18 @@
     </div>
   </div>
 
+  <!-- Finished seasons. home.js hides this whole panel when nothing is archived
+       yet, so a league in its first season shows no empty Archive heading.
+       Archived seasons are never refetched: what is here is what was true when
+       the season ended, and it stays reachable and searchable by name. -->
+  <div class="panel archive-panel" id="archive-panel">
+    <div class="panel-head">
+      <h2>Archive</h2>
+      <p>Finished seasons, frozen as they ended</p>
+    </div>
+    <div id="archive-host"></div>
+  </div>
+
   <div class="panel" id="dashboard-panel" style="width:100%;max-width:720px;flex:none;">
     <div class="panel-head">
       <h2>DUPR Bracket Audit Dashboard</h2>
@@ -93,9 +105,12 @@
   with, endorsed by, or operated by DUPR or the Cross Club League.</p>
 
 <script src="shared.js" defer></script>
-<script src="bootstrap-runtime.js" defer></script>
-<script src="local/bootstrap.js" defer></script>
-<script src="travel/bootstrap.js" defer></script>
+<!-- Every league, every season of it, and every division of each season. This
+     page used to load the two leagues' bootstrap.js files for their division
+     lists; with seasons in play there is one list per (league, season), so the
+     catalog holds all of them in one file instead. bootstrap-runtime.js is not
+     needed here: nothing on this page loads a dataset. -->
+<script src="catalog.js" defer></script>
 <script src="home.js" defer></script>
 </body>
 </html>

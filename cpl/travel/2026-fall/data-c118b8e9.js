@@ -15440,6 +15440,9 @@
   "clubName": "",
   "divisionName": "3.75 Mens",
   "leagueType": "travel",
+  "seasonSlug": "2026-fall",
+  "seasonLabel": "Fall 2026",
+  "seasonStatus": "current",
   "singleGender": "Male",
   "podCount": 2,
   "podNames": [

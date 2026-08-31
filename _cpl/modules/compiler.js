@@ -1,9 +1,19 @@
 const fs = require('fs');
 const path = require('path');
-const { filterDivisions, formatDivisionLabel, getLandingSlug, getLeagueDataConfig } = require('./division-utils');
+const {
+  filterDivisions, formatDivisionLabel, getLandingSlug, getLeagueDataConfig, sortDivisionsForLeague,
+} = require('./division-utils');
+const {
+  LEAGUE_LABELS,
+  eachLeagueSeason,
+  readCompiledAsOf,
+  readLeagueSeasons,
+  seasonCacheDir,
+  seasonOutDir,
+  writeCatalog,
+} = require('./catalog');
 const {
   normalizeName: norm,
-  getTravelDivisionSortKey,
   isGenderApiBase,
   travelDivisionGender,
   displayPodGroups,
@@ -20,9 +30,10 @@ const {
   computePairSynergy,
 } = require('./ratings');
 const {
-  buildBootstrapDivisionsLiteral,
   buildBootstrapSource,
   buildBootstrapRuntimeSource,
+  buildLeagueRedirectHtml,
+  buildLeagueRedirectSource,
 } = require('./bootstrap-gen');
 
 const round1 = n => Math.round(n * 10) / 10;
@@ -73,18 +84,6 @@ function selectExtraPlayerIds(playerArr, playerIdsByName) {
     if (!named.has(name)) extra[name] = playerId;
   }
   return extra;
-}
-
-// The compile stamp for a division this run did not recompile, recovered from
-// its data file so the bootstrap can report a per-division freshness even after
-// a single-division build. writeDataScript emits the value as a literal
-// assignment on its own line, so a regex reads it back — parsing a multi-megabyte
-// data file to recover one string would not be worth it.
-function readCompiledAsOf(cplDir, slug) {
-  const dataPath = path.join(cplDir, `data-${slug}.js`);
-  if (!fs.existsSync(dataPath)) return '';
-  const match = /^\s*DATA\.meta\.asOf = ("(?:[^"\\]|\\.)*");/m.exec(fs.readFileSync(dataPath, 'utf8'));
-  return match ? JSON.parse(match[1]) : '';
 }
 
 // When this division's cache was last fetched from upstream, which is what the
@@ -846,49 +845,25 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   return DATA.meta.asOf;
 }
 
-async function compileDashboardHtml(league = 'local', { divisionSlugs = null } = {}) {
-  console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
-  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
-  const dataDir = path.join(__dirname, '..', dataSubdir);
-  const cplDir = path.join(__dirname, '../../cpl', league);
+// One season of one league, into cpl/<league>/<season>/.
+function compileSeason(league, season, { divisionSlugs = null } = {}) {
+  const { divisionsFile } = getLeagueDataConfig(league);
+  const dataDir = seasonCacheDir(league, season.slug);
+  const cplDir = seasonOutDir(path.join(__dirname, '../..'), league, season.slug);
 
   const divisionsPath = path.join(dataDir, divisionsFile);
   if (!fs.existsSync(divisionsPath)) {
-    throw new Error(`${divisionsFile} not found — run the fetcher first.`);
+    throw new Error(`${season.slug}/${divisionsFile} not found — run the fetcher first.`);
   }
   const allDivisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
+  const sortedDivisions = sortDivisionsForLeague(league, allDivisions);
 
   if (!fs.existsSync(cplDir)) {
     fs.mkdirSync(cplDir, { recursive: true });
   }
 
-  // Sort divisions deterministically:
-  // - local by clubName then divisionName
-  // - travel by numeric bracket, then regular before gendered, then name
-  const sortedDivisions = [...allDivisions].sort((a, b) => {
-    if (league === 'local') {
-      const clubCmp = (a.clubName || '').localeCompare(b.clubName || '');
-      if (clubCmp !== 0) return clubCmp;
-    } else if (league === 'travel') {
-      const aKey = getTravelDivisionSortKey(a.divisionName);
-      const bKey = getTravelDivisionSortKey(b.divisionName);
-      if (aKey.genderedRank !== bKey.genderedRank) return aKey.genderedRank - bKey.genderedRank;
-      if (aKey.rating !== bKey.rating) return aKey.rating - bKey.rating;
-      return aKey.text.localeCompare(bKey.text, undefined, { numeric: true });
-    }
-    return (a.divisionName || '').localeCompare(b.divisionName || '', undefined, { numeric: true });
-  });
-  const landingSlug = getLandingSlug(league, sortedDivisions);
-  const divisionsGlobal = league === 'travel' ? 'TRAVEL_DIVISIONS' : 'LOCAL_DIVISIONS';
-  const runtimePath = path.join(__dirname, '../../cpl/bootstrap-runtime.js');
-  fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
-  // The shared utils are UMD: the same file serves the pipeline via require()
-  // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
-  fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(__dirname, '../../cpl/shared.js'));
-
   const divisionsToCompile = filterDivisions(allDivisions, { divisionSlugs });
-  console.log(`Compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
-  const matchedSlugs = divisionsToCompile.map((div) => div.slug);
+  console.log(`\n${league} ${season.slug} (${season.status}): compiling ${divisionsToCompile.length} / ${allDivisions.length} divisions.`);
 
   const failedDivisions = [];
   const asOfBySlug = new Map();
@@ -913,50 +888,133 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null } =
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,
+        // The season a dataset belongs to travels with the dataset, not only
+        // with the URL that served it. app.js needs it to label an archived
+        // dashboard as archived, and a data file that has been saved, moved or
+        // linked from somewhere else still has to be able to say which season
+        // it is.
+        seasonSlug: season.slug,
+        seasonLabel: season.label,
+        seasonStatus: season.status,
         ...(league === 'travel' && div.regionName ? { regionName: div.regionName } : {}),
         ...(singleGender ? { singleGender } : {}),
       });
-      if (asOf) asOfBySlug.set(div.slug, asOf);
+      if (asOf) asOfBySlug.set(`${league}/${season.slug}/${div.slug}`, asOf);
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
       failedDivisions.push({
         league,
         slug: div.slug,
-        name: `${label}${div.divisionName}`,
+        name: `${season.slug} ${label}${div.divisionName}`,
         error: err.message,
       });
     }
   }
 
-  // bootstrap.js is written last, not first, because each division entry now
-  // carries the compile stamp of its data file — and the stamps only exist once
-  // the loop above has written them. A single-division build recovers the rest
-  // from disk, so the list stays complete either way.
-  const divisionsLiteral = buildBootstrapDivisionsLiteral(sortedDivisions.map((div) => ({
-    ...div,
-    asOf: asOfBySlug.get(div.slug) || readCompiledAsOf(cplDir, div.slug),
-  })));
+  // The page shell and the three-string bootstrap. Both are generated per season
+  // directory from one hand-written template per league (_cpl/templates/), so a
+  // change to the dashboard markup reaches every season including the archived
+  // ones — which is the point: they are served by the same app.js.
+  fs.writeFileSync(path.join(cplDir, 'index.html'), readDashboardTemplate(league));
   fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), buildBootstrapSource({
-    dashboardPath: `/cpl/${league}`,
-    landingSlug,
-    divisionsLiteral,
-    divisionsGlobal,
+    league,
+    season: season.slug,
+    landingSlug: getLandingSlug(league, sortedDivisions),
   }));
-  console.log(`✓ bootstrap.js written for ${league} (${allDivisions.length} divisions, landing: ${landingSlug}, window.${divisionsGlobal} exposed).`);
+
+  return {
+    failedDivisions,
+    matchedSlugs: divisionsToCompile.map((div) => div.slug),
+    asOfBySlug,
+  };
+}
+
+function divisionsFileFor(league) {
+  return getLeagueDataConfig(league).divisionsFile;
+}
+
+// The hand-written dashboard shell for a league. There is exactly one per
+// league and it is copied into every season directory verbatim — all of its
+// relative paths are already two levels up, which is true of every season
+// directory and of none of the old flat one.
+function readDashboardTemplate(league) {
+  return fs.readFileSync(path.join(__dirname, '..', 'templates', `${league}.html`), 'utf8');
+}
+
+async function compileDashboardHtml(league = 'local', { divisionSlugs = null, seasonSlugs = null } = {}) {
+  console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
+  const rootDir = path.join(__dirname, '../..');
+
+  const runtimePath = path.join(rootDir, 'cpl', 'bootstrap-runtime.js');
+  fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
+  // The shared utils are UMD: the same file serves the pipeline via require()
+  // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
+  fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(rootDir, 'cpl', 'shared.js'));
+
+  const seasons = readLeagueSeasons(league);
+  if (!seasons.length) {
+    throw new Error(`No seasons cached for the ${league} league — run the fetcher first.`);
+  }
+  const requested = Array.isArray(seasonSlugs) ? new Set(seasonSlugs) : null;
+  const seasonsToCompile = requested
+    ? seasons.filter((season) => requested.has(season.slug))
+    : seasons;
+
+  const failedDivisions = [];
+  const matchedSlugs = [];
+  const asOfBySlug = new Map();
+
+  for (const season of seasonsToCompile) {
+    // A season upstream lists but nothing has ever fetched. That is the normal
+    // resting state for any season older than the archive we chose to backfill:
+    // seasons.json is a faithful record of what the API offers, and offering a
+    // season is not the same as this site holding it. Only a season named
+    // explicitly by --season is worth failing over, because there the caller
+    // asked for it by name.
+    if (!requested && !fs.existsSync(path.join(seasonCacheDir(league, season.slug), divisionsFileFor(league)))) {
+      console.log(`  · ${league} ${season.slug}: no cached data, skipping (never fetched).`);
+      continue;
+    }
+    try {
+      const result = compileSeason(league, season, { divisionSlugs });
+      failedDivisions.push(...result.failedDivisions);
+      matchedSlugs.push(...result.matchedSlugs);
+      for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
+    } catch (err) {
+      console.warn(`  ⚠️ Skipped season ${season.slug}: ${err.message}`);
+      failedDivisions.push({
+        league,
+        slug: `(${season.slug})`,
+        name: `${league} ${season.slug}`,
+        error: err.message,
+      });
+    }
+  }
+
+  // The stub at /cpl/<league>/, which every pre-seasons link and every stale
+  // bookmark still points at.
+  const leagueDir = path.join(rootDir, 'cpl', league);
+  fs.mkdirSync(leagueDir, { recursive: true });
+  fs.writeFileSync(path.join(leagueDir, 'index.html'), buildLeagueRedirectHtml({
+    label: LEAGUE_LABELS[league] || league,
+  }));
+  fs.writeFileSync(path.join(leagueDir, 'redirect.js'), buildLeagueRedirectSource({ league }));
 
   if (failedDivisions.length) {
     console.error(`\n⚠️ Phase 2 finished with ${failedDivisions.length} failed division(s).`);
   } else {
     console.log('\n✓ Phase 2 complete.');
   }
-  return { failedDivisions, matchedSlugs };
+  return { failedDivisions, matchedSlugs, asOfBySlug };
 }
 
 // Pack the player index with a string table: names, teams, divisions and even
 // playerIds repeat across divisions, so interning them cuts the file to a
 // fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
-// Entry layout: [name, team, division, slug, league(0=local,1=travel),
-//                playerId|-1, club|-1, flags(1=captain, 2=sub)] — all string-table indexes.
+// Entry layout: [name, team, divisionRow, playerId|-1, flags(1=captain, 2=sub)],
+// where divisionRow points into a table of
+// [slug, divisionName, league(0=local,1=travel), club, season, seasonLabel,
+//  archived(0|1)].
 // Packs the finder index, which is one row per (player, division) across every
 // league — the largest asset the site ships.
 //
@@ -992,15 +1050,26 @@ function packPlayerIndex(entries) {
   const names = table();
   const teams = table();
   const ids = table();
-  // Keyed by slug: a division's other facts never vary within one.
+  // Keyed by slug: a division's other facts never vary within one. A division
+  // slug is the first eight characters of its UUID and so is unique across
+  // seasons too, but the key carries the season anyway — a duplicate slug across
+  // two seasons would otherwise silently merge two rosters into one row.
   const divisionKeys = [];
   const divisionAt = new Map();
   const divisionRow = (entry) => {
-    const key = `${entry.league}/${entry.slug}`;
+    const key = `${entry.league}/${entry.season}/${entry.slug}`;
     let at = divisionAt.get(key);
     if (at === undefined) {
       at = divisionKeys.length;
-      divisionKeys.push([entry.slug, entry.division, entry.league === 'travel' ? 1 : 0, entry.club || '']);
+      divisionKeys.push([
+        entry.slug,
+        entry.division,
+        entry.league === 'travel' ? 1 : 0,
+        entry.club || '',
+        entry.season,
+        entry.seasonLabel,
+        entry.archived ? 1 : 0,
+      ]);
       divisionAt.set(key, at);
     }
     return at;
@@ -1022,13 +1091,14 @@ function packPlayerIndex(entries) {
 // (precomputed audit rows, so the audit page no longer downloads every
 // division dataset), plus the DUPR tables each page shape needs. DUPR values
 // stay in their own files, which the DUPR workflow updates without recompiling.
-function buildPlayerIndex() {
+function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
-  const leagueConfigs = [
-    { league: 'local', ...getLeagueDataConfig('local') },
-    { league: 'travel', ...getLeagueDataConfig('travel') },
-  ];
+
+  // The catalog is built from the cache rather than from what this run compiled,
+  // so it stays complete after a single-league or single-division build — same
+  // reasoning as the player index below it.
+  writeCatalog(rootDir, { asOfBySlug });
 
   // Build a playerId → { dupr, rating } lookup from global_players.json for canonical player deduplication.
   const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
@@ -1051,12 +1121,12 @@ function buildPlayerIndex() {
   // instead of being repeated on all ~3k audit rows.
   const auditDivisions = {};
 
-  for (const { league, dataSubdir, divisionsFile } of leagueConfigs) {
-    const dataDir = path.join(__dirname, '..', dataSubdir);
-    const divisionsPath = path.join(dataDir, divisionsFile);
-    if (!fs.existsSync(divisionsPath)) continue;
-
-    const divisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
+  // Every season of every league, archived ones included. This is the promise
+  // the archive makes: a season stops being fetched and stops being listed as
+  // somewhere to go next, but the people who played in it stay findable by name
+  // forever. It is also the only place an archived season's roster is read.
+  for (const { league, season, divisions } of eachLeagueSeason()) {
+    const dataDir = seasonCacheDir(league, season.slug);
     for (const div of divisions) {
       const playersPath = path.join(dataDir, div.slug, 'players.json');
       if (!fs.existsSync(playersPath)) continue;
@@ -1077,6 +1147,9 @@ function buildPlayerIndex() {
           division: div.divisionName,
           slug: div.slug,
           league,
+          season: season.slug,
+          seasonLabel: season.label,
+          archived: season.status !== 'current',
           playerId: p.playerId || null,
         };
         if (div.clubName) entry.club = div.clubName;
@@ -1087,7 +1160,15 @@ function buildPlayerIndex() {
         // Audit rows exist only for divisions whose name encodes a bracket.
         // Subs are excluded here — the audit only ever reports rostered
         // players. max: null encodes "no upper bound" (Infinity isn't JSON).
-        if (bracket && !p.isSub) {
+        //
+        // Archived seasons are excluded too, and unlike the finder above that is
+        // not a size decision. The audit asks whether a player's DUPR sits
+        // inside the bracket of the division they are rostered in — a question
+        // about a roster somebody can still act on. Run against a finished
+        // season it compares last season's roster to today's ratings, which
+        // reports drift that happened after the season ended as if it were a
+        // misplacement during it.
+        if (bracket && !p.isSub && season.status === 'current') {
           if (!auditDivisions[div.slug]) {
             auditDivisions[div.slug] = {
               division: div.clubName ? `${div.clubName} • ${div.divisionName}` : div.divisionName,

@@ -9,6 +9,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const { compiledDivisions } = require('./helpers/compiled');
 
 const CPL = path.join(__dirname, '../../cpl');
 
@@ -210,18 +211,13 @@ function makeLocalStorage(seed) {
 }
 
 const DATA_FILE = (() => {
-  for (const leg of ['travel', 'local']) {
-    const dir = path.join(CPL, leg);
-    if (!fs.existsSync(dir)) continue;
-    const file = fs.readdirSync(dir).find((name) => /^data-[0-9a-f]+\.js$/.test(name));
-    if (file) return { leg, file: path.join(dir, file) };
-  }
-  return null;
+  const division = compiledDivisions()[0];
+  return division ? { leg: division.league, season: division.season, file: division.file } : null;
 })();
 
 function runApp({
   prefs = null,
-  leagues = null,
+  catalog = null,
   search = '',
   hash = '',
   storage = true,
@@ -323,6 +319,16 @@ function runApp({
   };
   elements.set('division-select', divisionSelect);
 
+  // The Season selector and the wrapper renderSeasonSelector shows or hides.
+  const seasonSelect = makeElement('season-select', 'SELECT');
+  const seasonListeners = [];
+  seasonSelect.addEventListener = (type, fn) => {
+    if (type === 'change') seasonListeners.push(fn);
+  };
+  elements.set('season-select', seasonSelect);
+  const seasonWrap = makeElement('season-selector-wrap', 'SPAN');
+  elements.set('season-selector-wrap', seasonWrap);
+
   const sectionToc = makeElement('section-toc', 'NAV');
   // The chips app.js writes into the strip. Rebuilt from its innerHTML, because
   // that is what renderSectionToc actually produces.
@@ -366,7 +372,7 @@ function runApp({
   const navigated = [];
   const scrolled = [];
   // Not `path` — that is node:path at module scope.
-  const locationPath = pathname || `/cpl/${DATA_FILE.leg}/`;
+  const locationPath = pathname || `/cpl/${DATA_FILE.leg}/${DATA_FILE.season}/`;
   // href is an accessor, because app.js navigates by assigning it — a test reads
   // the destination out of `navigated` instead of following it.
   const location = {
@@ -403,7 +409,9 @@ function runApp({
   context.window = context;
   context.globalThis = context;
   context.window.addEventListener = () => {};
-  if (leagues) context.CPL_LEAGUES = leagues;
+  if (catalog) context.CPL_CATALOG = catalog;
+  context.CPL_PAGE = { league: DATA_FILE.leg, season: DATA_FILE.season, landingSlug: '' };
+  context.window.CPL_PAGE = context.CPL_PAGE;
 
   const load = (file) => vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
   load(path.join(CPL, 'shared.js'));
@@ -433,6 +441,7 @@ function runApp({
     wrappers,
     rootStyle: () => document.documentElement.style,
     changeDivision: () => divisionListeners.forEach((fn) => fn()),
+    changeSeason: () => seasonListeners.forEach((fn) => fn()),
     clickTocTop() {
       context.handleTocClick({
         target: { closest: (selector) => (selector === '.toc-top' ? makeElement('top', 'BUTTON') : null) },
@@ -1272,26 +1281,78 @@ test('a team href keeps the division and can carry a match fragment', () => {
   assert.ok(href.endsWith('#match-w3-a-vs-b'));
 });
 
-// --- The division selector ------------------------------------------------
+// --- The season and division selectors ------------------------------------
 
-test('both leagues appear as groups when both bootstraps have registered', () => {
-  const app = runApp({
-    leagues: [
-      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
-      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0' }] },
-    ],
+// A catalog holding both leagues, each with the season this test's dataset came
+// from plus an archived one. `season` is DATA_FILE.season so the page under test
+// is inside it.
+function twoLeagueCatalog(season, archived = '2000-spring') {
+  const seasonOf = (slug, status, divisions) => ({
+    slug, label: slug, status, landingSlug: divisions[0].slug, divisions,
   });
+  return {
+    leagues: [
+      {
+        key: 'travel',
+        label: 'Cross Club League',
+        current: season,
+        seasons: [
+          seasonOf(season, 'current', [{ slug: 't1', divisionName: '3.5' }]),
+          seasonOf(archived, 'archived', [{ slug: 't0', divisionName: '3.5' }]),
+        ],
+      },
+      {
+        key: 'local',
+        label: 'Local Leagues',
+        current: season,
+        seasons: [
+          seasonOf(season, 'current', [{ slug: 'l1', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0' }]),
+          seasonOf(archived, 'archived', [{ slug: 'l0', clubName: 'Bounce - Philly', divisionName: '3.5 - 4.0' }]),
+        ],
+      },
+    ],
+  };
+}
+
+test('both leagues appear as groups when the catalog holds both', () => {
+  const app = runApp({ catalog: twoLeagueCatalog(DATA_FILE.season) });
   const html = app.el('division-select').innerHTML;
   assert.equal((html.match(/<optgroup/g) || []).length, 2);
   assert.ok(html.includes('label="Cross Club League"'));
   assert.ok(html.includes('label="Local Leagues"'));
   // Travel heads the menu, matching the order of the panels on /cpl/.
   assert.ok(html.indexOf('Cross Club League') < html.indexOf('Local Leagues'));
-  // The value carries the league, so the handler knows whether to change directory.
-  assert.ok(html.includes('value="travel:t1"'));
-  assert.ok(html.includes('value="local:l1"'));
+  // The value carries the league and the season, so the handler knows which two
+  // path segments to rewrite.
+  assert.ok(html.includes(`value="travel:${DATA_FILE.season}:t1"`));
+  assert.ok(html.includes(`value="local:${DATA_FILE.season}:l1"`));
   // A local option still names its club.
   assert.ok(html.includes('Bounce - Philly — 3.5 - 4.0'));
+});
+
+// The Division selector stays inside one season. Crossing seasons is the Season
+// selector's job, and listing every division of every season in one menu is what
+// this split exists to avoid.
+test('the division selector offers only this season', () => {
+  const app = runApp({ catalog: twoLeagueCatalog(DATA_FILE.season) });
+  const html = app.el('division-select').innerHTML;
+  assert.ok(!html.includes(':t0"'), 'an archived season\'s division leaked into the division menu');
+  assert.ok(!html.includes(':l0"'), 'an archived season\'s division leaked into the division menu');
+});
+
+// Leagues run on their own calendars — travel plays spring and fall, the local
+// league ran a summer season — so the other league very often has no season by
+// this name. Offering its current season instead, labelled, beats offering
+// nothing.
+test('a league with no season by this name contributes its current one, named', () => {
+  const catalog = twoLeagueCatalog(DATA_FILE.season);
+  const other = catalog.leagues.find((league) => league.key !== DATA_FILE.leg);
+  other.seasons = other.seasons.filter((season) => season.slug !== DATA_FILE.season);
+  other.current = '2000-spring';
+  other.seasons[0].status = 'current';
+  const app = runApp({ catalog });
+  const html = app.el('division-select').innerHTML;
+  assert.ok(html.includes(`${other.label} · 2000-spring`), `the borrowed season is unlabelled: ${html}`);
 });
 
 function switchDivision(app, value) {
@@ -1300,35 +1361,36 @@ function switchDivision(app, value) {
   return app.navigated[app.navigated.length - 1];
 }
 
-test('switching division within the league keeps the path and drops the team', () => {
+test('switching division within the league and season keeps the path and drops the team', () => {
   const app = runApp({
     search: '?d=old&team=some-team&player=42',
-    leagues: [
-      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
-      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
-    ],
+    catalog: twoLeagueCatalog(DATA_FILE.season),
   });
-  const url = switchDivision(app, `${DATA_FILE.leg}:same-league-slug`);
-  assert.ok(url.includes(`/cpl/${DATA_FILE.leg}/`), `stayed off its own path: ${url}`);
+  const url = switchDivision(app, `${DATA_FILE.leg}:${DATA_FILE.season}:same-league-slug`);
+  assert.ok(url.includes(`/cpl/${DATA_FILE.leg}/${DATA_FILE.season}/`), `stayed off its own path: ${url}`);
   assert.ok(url.includes('d=same-league-slug'));
   assert.ok(!url.includes('team='), 'carried ?team= into the new division');
   assert.ok(!url.includes('player='), 'carried ?player= into the new division');
 });
 
-test('switching to the other league swaps one path segment', () => {
+test('switching to the other league swaps the league segment and keeps the season', () => {
   const other = DATA_FILE.leg === 'travel' ? 'local' : 'travel';
-  const app = runApp({
-    search: '?d=old&team=some-team',
-    leagues: [
-      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
-      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
-    ],
-  });
-  const url = switchDivision(app, `${other}:x9`);
-  assert.ok(url.includes(`/cpl/${other}/`), `did not reach the other league: ${url}`);
+  const app = runApp({ search: '?d=old&team=some-team', catalog: twoLeagueCatalog(DATA_FILE.season) });
+  const url = switchDivision(app, `${other}:${DATA_FILE.season}:x9`);
+  assert.ok(url.includes(`/cpl/${other}/${DATA_FILE.season}/`), `did not reach the other league: ${url}`);
   assert.ok(!url.includes(`/cpl/${DATA_FILE.leg}/`), `left the old league in the path: ${url}`);
   assert.ok(url.includes('d=x9'));
   assert.ok(!url.includes('team='));
+});
+
+// Both segments move at once, so a league switch cannot land on a season the
+// other league does not have — the option's value has already resolved which
+// season it is going to.
+test('switching to a league on a different season swaps both segments', () => {
+  const other = DATA_FILE.leg === 'travel' ? 'local' : 'travel';
+  const app = runApp({ catalog: twoLeagueCatalog(DATA_FILE.season) });
+  const url = switchDivision(app, `${other}:2000-spring:x9`);
+  assert.ok(url.includes(`/cpl/${other}/2000-spring/`), url);
 });
 
 // A file:// preview has no directory index, so the file name has to survive both
@@ -1336,20 +1398,74 @@ test('switching to the other league swaps one path segment', () => {
 test('a file:// preview keeps index.html when switching', () => {
   const other = DATA_FILE.leg === 'travel' ? 'local' : 'travel';
   const app = runApp({
-    pathname: `/Users/t/www/fishtownpickleball/cpl/${DATA_FILE.leg}/index.html`,
+    pathname: `/Users/t/www/fishtownpickleball/cpl/${DATA_FILE.leg}/${DATA_FILE.season}/index.html`,
     origin: 'file://',
-    leagues: [
-      { key: 'TRAVEL_DIVISIONS', dashboardPath: '/cpl/travel', divisions: [{ slug: 't1', divisionName: '3.5' }] },
-      { key: 'LOCAL_DIVISIONS', dashboardPath: '/cpl/local', divisions: [{ slug: 'l1', divisionName: '3.5 - 4.0' }] },
-    ],
+    catalog: twoLeagueCatalog(DATA_FILE.season),
   });
-  const same = switchDivision(app, `${DATA_FILE.leg}:s1`);
-  assert.ok(same.endsWith(`cpl/${DATA_FILE.leg}/index.html?d=s1`), same);
-  const across = switchDivision(app, `${other}:s2`);
-  assert.ok(across.endsWith(`cpl/${other}/index.html?d=s2`), across);
+  const same = switchDivision(app, `${DATA_FILE.leg}:${DATA_FILE.season}:s1`);
+  assert.ok(same.endsWith(`cpl/${DATA_FILE.leg}/${DATA_FILE.season}/index.html?d=s1`), same);
+  const across = switchDivision(app, `${other}:${DATA_FILE.season}:s2`);
+  assert.ok(across.endsWith(`cpl/${other}/${DATA_FILE.season}/index.html?d=s2`), across);
 });
 
-test('with only this league registered the selector is a flat list', () => {
+// --- The season selector ---------------------------------------------------
+
+function switchSeason(app, value) {
+  app.el('season-select').value = value;
+  app.changeSeason();
+  return app.navigated[app.navigated.length - 1];
+}
+
+test('a league with one season hides the season selector entirely', () => {
+  // A select with a single option is a control that does nothing, and every
+  // league starts there.
+  const catalog = twoLeagueCatalog(DATA_FILE.season);
+  const mine = catalog.leagues.find((league) => league.key === DATA_FILE.leg);
+  mine.seasons = mine.seasons.filter((season) => season.slug === DATA_FILE.season);
+  const app = runApp({ catalog });
+  assert.equal(app.el('season-selector-wrap').hidden, true);
+});
+
+test('a league with two seasons shows them, marking the archived one', () => {
+  const app = runApp({ catalog: twoLeagueCatalog(DATA_FILE.season) });
+  assert.equal(app.el('season-selector-wrap').hidden, false);
+  const html = app.el('season-select').innerHTML;
+  assert.ok(html.includes('2000-spring (archived)'), `the archived season is unmarked: ${html}`);
+  assert.ok(!html.includes(`${DATA_FILE.season} (archived)`), 'the current season was marked archived');
+});
+
+test('switching season keeps the division when the target season has it', () => {
+  // getCurrentDivision() reads DIVISIONS, which runApp seeds from the compiled
+  // dataset rather than from the catalog — so the name to match on is the real
+  // division's, read off a throwaway run.
+  const currentName = runApp().context.DATA.meta.divisionName;
+
+  const catalog = twoLeagueCatalog(DATA_FILE.season);
+  const mine = catalog.leagues.find((league) => league.key === DATA_FILE.leg);
+  // The archived season carries a division of the same name under a new slug,
+  // which is what a bracket that ran in both seasons looks like.
+  mine.seasons[1].divisions = [
+    { slug: 'other-bracket', divisionName: 'nothing like it' },
+    { slug: 'same-bracket', divisionName: currentName },
+  ];
+  const app = runApp({ catalog });
+  const url = switchSeason(app, '2000-spring');
+  assert.ok(url.includes(`/cpl/${DATA_FILE.leg}/2000-spring/`), url);
+  assert.ok(url.includes('d=same-bracket'), `did not carry the division across: ${url}`);
+});
+
+test('switching to a season without this division lands on that season\'s first', () => {
+  // A bracket can be added or dropped between seasons, so there is not always
+  // an equivalent to land on.
+  const catalog = twoLeagueCatalog(DATA_FILE.season);
+  const mine = catalog.leagues.find((league) => league.key === DATA_FILE.leg);
+  mine.seasons[1].divisions = [{ slug: 'only-one', divisionName: 'nothing like it' }];
+  const app = runApp({ catalog });
+  const url = switchSeason(app, '2000-spring');
+  assert.ok(url.includes('d=only-one'), url);
+});
+
+test('with no catalog the selector falls back to this league alone', () => {
   const app = runApp();
   const html = app.el('division-select').innerHTML;
   assert.ok(!html.includes('<optgroup'), 'grouped a single league under one heading');

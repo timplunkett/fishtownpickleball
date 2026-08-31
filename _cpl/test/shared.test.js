@@ -138,7 +138,10 @@ test('getPlayerIndex unpacks the per-column table format and caches it', () => {
   globalThis.PLAYER_INDEX_TABLES = {
     n: ['Al One', 'Bo Two'],
     t: ['Team X', 'Team Z'],
-    d: [['abcd1234', '3.5 - 4.0', 0, 'Club Y'], ['ef567890', '4.0', 1, '']],
+    d: [
+      ['abcd1234', '3.5 - 4.0', 0, 'Club Y', '2026-summer', 'Summer 2026', 0],
+      ['ef567890', '4.0', 1, '', '2026-spring', 'Spring 2026', 1],
+    ],
     i: ['pid-1'],
     e: [
       [0, 0, 0, 0, 3], // captain + sub, local division with a club
@@ -150,11 +153,13 @@ test('getPlayerIndex unpacks the per-column table format and caches it', () => {
   assert.equal(index.length, 3);
   assert.deepEqual(index[0], {
     name: 'Al One', team: 'Team X', division: '3.5 - 4.0', slug: 'abcd1234',
-    league: 'local', playerId: 'pid-1', club: 'Club Y', isCaptain: true, isSub: true,
+    league: 'local', season: '2026-summer', seasonLabel: 'Summer 2026', archived: false,
+    playerId: 'pid-1', club: 'Club Y', isCaptain: true, isSub: true,
   });
   assert.deepEqual(index[1], {
     name: 'Al One', team: 'Team Z', division: '4.0', slug: 'ef567890',
-    league: 'travel', playerId: 'pid-1',
+    league: 'travel', season: '2026-spring', seasonLabel: 'Spring 2026', archived: true,
+    playerId: 'pid-1',
   });
   assert.equal(index[2].playerId, null, 'a missing id decodes as null, not as an empty string');
   assert.equal(shared.getPlayerIndex(), index, 'cached on second call');
@@ -174,6 +179,9 @@ test('getPlayerIndex still unpacks the shared string-table format', () => {
   };
   const index = shared.getPlayerIndex();
   assert.equal(index.length, 2);
+  // No season columns in this shape, and none invented for it: an entry with no
+  // season yields the season-less /cpl/<league>/?d=<slug>, which the league's
+  // redirect stub resolves.
   assert.deepEqual(index[0], {
     name: 'Al One', team: 'Team X', division: '3.5 - 4.0', slug: 'abcd1234',
     league: 'local', playerId: 'pid-1', club: 'Club Y', isCaptain: true, isSub: true,
@@ -249,7 +257,8 @@ test('buildDuprRatingIndex tolerates an empty or missing DUPR table', () => {
 test('an index is invisible to a decoder that predates its shape', () => {
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_TABLES = {
-    n: ['Al One'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '']], i: [], e: [[0, 0, 0, -1, 0]],
+    n: ['Al One'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '', '2026-fall', 'Fall 2026', 0]],
+    i: [], e: [[0, 0, 0, -1, 0]],
   };
   // Exactly what the shipped older shared.js does before it touches any field.
   const seenByOldDecoder = globalThis.PLAYER_INDEX_PACKED;
@@ -264,7 +273,8 @@ test('the per-column tables win when a stale index left the old global behind', 
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_PACKED = { s: ['Stale', 'T', 'D', 'slug'], e: [[0, 1, 2, 3, 0, -1, -1, 0]] };
   globalThis.PLAYER_INDEX_TABLES = {
-    n: ['Fresh'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '']], i: [], e: [[0, 0, 0, -1, 0]],
+    n: ['Fresh'], t: ['Team X'], d: [['abcd1234', '3.5', 0, '', '2026-fall', 'Fall 2026', 0]],
+    i: [], e: [[0, 0, 0, -1, 0]],
   };
   assert.equal(shared.getPlayerIndex()[0].name, 'Fresh');
   delete globalThis.PLAYER_INDEX;

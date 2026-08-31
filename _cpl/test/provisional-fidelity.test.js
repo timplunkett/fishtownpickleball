@@ -17,6 +17,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
+const { cachedDivisions } = require('./helpers/compiled');
 
 const {
   inferGameTarget,
@@ -24,7 +25,6 @@ const {
   deriveProvisionalOutcome,
 } = require('../modules/ratings');
 
-const CPL = path.join(__dirname, '..');
 const EXACT_FIELDS = ['gamesPlayed', 'wins', 'losses', 'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses'];
 const APPROXIMATE_FIELDS = ['pointsWon', 'totalPointsAgainst', 'clutchWins', 'clutchLosses', 'isSub'];
 const MIN_APPROXIMATE_AGREEMENT = 0.98;
@@ -44,11 +44,9 @@ function readJson(file) {
 // Every cached division across both leagues, as { matchups, details, roster }.
 function loadDivisions() {
   const divisions = [];
-  for (const dataDir of fs.readdirSync(CPL).filter(d => d.startsWith('data-'))) {
-    const root = path.join(CPL, dataDir);
-    if (!fs.statSync(root).isDirectory()) continue;
-    for (const slug of fs.readdirSync(root)) {
-      const dir = path.join(root, slug);
+  for (const { league, season, slug, dir } of cachedDivisions()) {
+    {
+      const dataDir = `data-${league}/${season}`;
       const matchupsPath = path.join(dir, 'matchups.json');
       const detailsPath = path.join(dir, 'matchupDetails.json');
       const playersPath = path.join(dir, 'players.json');

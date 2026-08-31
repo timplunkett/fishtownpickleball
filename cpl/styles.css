@@ -2120,6 +2120,31 @@ thead th:focus-visible,
   cursor: help;
 }
 
+/* An archived season reads "final" here rather than an age. Uppercased and
+   spaced so it does not look like the relative time it replaces — the point is
+   that these numbers are settled, not that they are old. */
+.asof.archived {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* The Season selector, which sits inside .division-selector-wrap beside the
+   Division one and is hidden entirely for a league with only one season. */
+.season-selector-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.season-selector-wrap[hidden] {
+  display: none;
+}
+
+#season-select {
+  max-width: 190px;
+}
+
 /* The unofficial/attribution line. Static markup on every page, so it stands
    whether or not the script that writes the footer above it ever ran. */
 .attrib {

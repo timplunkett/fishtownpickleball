@@ -6553,6 +6553,9 @@
   "clubName": "",
   "divisionName": "3.25 Womens",
   "leagueType": "travel",
+  "seasonSlug": "2026-fall",
+  "seasonLabel": "Fall 2026",
+  "seasonStatus": "current",
   "singleGender": "Female",
   "podCount": 1,
   "podNames": [

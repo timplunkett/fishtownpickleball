@@ -1,9 +1,9 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const path = require('node:path');
 const vm = require('node:vm');
 const shared = require('../modules/shared');
+const { compiledDivisions } = require('./helpers/compiled');
 
 const { buildTeamAbbreviations, condenseWords } = shared;
 
@@ -191,21 +191,13 @@ test('degenerate input does not throw', () => {
 // --- Every compiled division, so a data refresh that adds a team surfaces here.
 
 function loadDivisions() {
-  const roots = ['travel', 'local'].map((leg) => path.join(__dirname, '../../cpl', leg));
   const datasets = [];
-  roots.forEach((root) => {
-    if (!fs.existsSync(root)) return;
-    fs.readdirSync(root)
-      .filter((file) => /^data-[0-9a-f]+\.js$/.test(file))
-      .forEach((file) => {
-        const context = { window: { CPL_DATASETS: {} } };
-        context.globalThis = context;
-        vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), context);
-        const data = context.window.DATA;
-        if (data && Array.isArray(data.teams)) {
-          datasets.push({ file: `${path.basename(root)}/${file}`, data });
-        }
-      });
+  compiledDivisions().forEach(({ label, file }) => {
+    const context = { window: { CPL_DATASETS: {} } };
+    context.globalThis = context;
+    vm.runInNewContext(fs.readFileSync(file, 'utf8'), context);
+    const data = context.window.DATA;
+    if (data && Array.isArray(data.teams)) datasets.push({ file: label, data });
   });
   return datasets;
 }

@@ -2,6 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { extractValues, filterDivisions, formatDivisionLabel, getLeagueDataConfig } = require('./division-utils');
 const { jsonStringify } = require('./json-utils');
+const {
+  compareSeasons, currentSeason, isFetchable, resolveLeagueSeasons, seasonSlug,
+} = require('./seasons');
 const { decodeHtmlEntities } = require('./shared');
 
 const LOCAL_API_BASE = 'https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/local/v0/api';
@@ -341,94 +344,185 @@ function mergeDetailsWithCache(freshDetails, cachedPath) {
   }
 }
 
-async function downloadLatestApiData(league = 'local', { divisionSlugs = null } = {}) {
-  console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
+function getLeagueApiBases(league) {
+  return league === 'travel'
+    ? [TRAVEL_API_BASE, TRAVEL_GENDER_API_BASE]
+    : [LOCAL_API_BASE];
+}
 
-  const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
-  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
-
-  // Fetch all clubs/divisions to build the division manifest.
-  console.log('Fetching clubs/divisions manifest...');
-
-  const allDivisions = [];
-
-  if (league === 'travel') {
-    // Travel league: discover divisions via the /regions endpoint from both travel APIs.
-    const travelApiBases = [TRAVEL_API_BASE, TRAVEL_GENDER_API_BASE];
-    const divisionsById = new Map();
-
-    for (const sourceApiBase of travelApiBases) {
-      const regionsUrl = `${sourceApiBase}/regions`;
-      const regionsRes = await fetch(regionsUrl);
-      await checkResponse(regionsRes, regionsUrl);
-      const regionsRaw = await regionsRes.json();
-      const regions = regionsRaw.$values || regionsRaw;
-      const region = regions.find(r => r.regionId === TRAVEL_REGION_ID);
-      if (!region) {
-        throw new Error(`Region ${TRAVEL_REGION_ID} not found in /regions response.`);
-      }
-      const divs = (region.divisions && region.divisions.$values) || region.divisions || [];
-      for (const div of divs) {
-        if (!div.active) continue;
-        const existing = divisionsById.get(div.divisionId);
-        const next = {
-          slug: slugForDivision(div.divisionId),
-          divisionId: div.divisionId,
-          divisionName: decodeHtmlEntities(div.divisionName),
-          regionName: region.regionName || region.name || '',
-          apiBase: sourceApiBase,
-        };
-        if (existing) {
-          if (!existing.regionName && next.regionName) existing.regionName = next.regionName;
-        } else {
-          divisionsById.set(div.divisionId, next);
-        }
-      }
+// Every (seasonYear, seasonNumber) any of a league's API legs knows about.
+// The travel league is served by two legs — the mixed one and the gendered one
+// — and they do not list the same seasons: /gender only goes back to Fall 2026,
+// when gendered divisions were introduced. A season either leg reports is a
+// season of this league.
+async function fetchSeasonRecords(apiBases) {
+  const byKey = new Map();
+  for (const apiBase of apiBases) {
+    const raw = await fetchJsonWithRetry(`${apiBase}/seasons`);
+    assertArrayShape(raw, `Seasons from ${apiBase}`);
+    for (const season of extractValues(raw)) {
+      const seasonNumber = Number(season.seasonNumber);
+      const seasonYear = Number(season.seasonYear);
+      if (!Number.isFinite(seasonNumber) || !Number.isFinite(seasonYear)) continue;
+      byKey.set(`${seasonYear}/${seasonNumber}`, { seasonNumber, seasonYear });
     }
+  }
+  return [...byKey.values()];
+}
 
-    allDivisions.push(...divisionsById.values());
-  } else {
-    // Local league: discover divisions via /clubs.
-    const clubsUrl = `${apiBase}/clubs`;
-    const clubsRes = await fetch(clubsUrl);
-    await checkResponse(clubsRes, clubsUrl);
-    const clubsRaw = await clubsRes.json();
-    const clubs = clubsRaw.$values || clubsRaw;
-    for (const club of clubs) {
-      const divs = (club.divisions && club.divisions.$values) || club.divisions || [];
-      for (const div of divs) {
-        if (!div.active) continue;
-        allDivisions.push({
-          slug: slugForDivision(div.divisionId),
-          divisionId: div.divisionId,
-          divisionName: decodeHtmlEntities(div.divisionName),
-          clubName: normalizeClubName(club.name),
-          clubId: club.clubId,
-        });
+// Additive on purpose. The cached seasons.json is the index of the archive, and
+// an archived season's directory is only reachable through it — so a season
+// upstream stops listing (a retention window, a renumbering, a bad deploy) must
+// not drop out of the site. Seasons are only ever added here; removing one is a
+// deliberate edit to the committed file.
+function mergeSeasonRecords(cached, fresh) {
+  const byKey = new Map();
+  for (const season of [...(cached || []), ...fresh]) {
+    if (!Number.isFinite(season?.seasonNumber) || !Number.isFinite(season?.seasonYear)) continue;
+    byKey.set(`${season.seasonYear}/${season.seasonNumber}`, {
+      seasonNumber: season.seasonNumber,
+      seasonYear: season.seasonYear,
+    });
+  }
+  return [...byKey.values()].sort(compareSeasons).reverse();
+}
+
+function readCachedSeasons(league) {
+  const { dataSubdir, seasonsFile } = getLeagueDataConfig(league);
+  const seasonsPath = path.join(__dirname, '..', dataSubdir, seasonsFile);
+  if (!fs.existsSync(seasonsPath)) return [];
+  try {
+    const parsed = JSON.parse(fs.readFileSync(seasonsPath, 'utf8'));
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+// The season query the discovery endpoints take. Both /regions and /clubs
+// accept it; without it they answer for the current season only, which is how
+// this pipeline behaved before seasons existed.
+function seasonQuery(season) {
+  return `seasonNumber=${season.seasonNumber}&seasonYear=${season.seasonYear}`;
+}
+
+// Divisions carry the season they belong to, so the response can be checked
+// against what was asked for. This is the guard that matters most in the whole
+// season change: if the API ever stops honouring the query parameters and
+// answers for the current season instead, every backfill would write live
+// divisions into an archived season's directory and publish this season's
+// standings under last season's name. Cheap to check, silent to get wrong.
+function assertSeasonMatches(divisions, season, label) {
+  const mismatched = divisions.filter((div) => (
+    Number(div.seasonNumber) !== season.seasonNumber || Number(div.seasonYear) !== season.seasonYear
+  ));
+  if (mismatched.length) {
+    throw new Error(
+      `${label} returned ${mismatched.length} division(s) from a season other than ${seasonSlug(season)} `
+      + `(e.g. ${mismatched[0].divisionName} is ${mismatched[0].seasonYear}/${mismatched[0].seasonNumber}). `
+      + 'The season query parameters are not being honoured; refusing to file another season\'s divisions under this one.',
+    );
+  }
+}
+
+async function discoverTravelDivisions(season) {
+  const divisionsById = new Map();
+  let regionSeen = false;
+
+  for (const sourceApiBase of getLeagueApiBases('travel')) {
+    const regionsUrl = `${sourceApiBase}/regions?${seasonQuery(season)}`;
+    const regionsRes = await fetch(regionsUrl);
+    await checkResponse(regionsRes, regionsUrl);
+    const regionsRaw = await regionsRes.json();
+    const regions = regionsRaw.$values || regionsRaw;
+    const region = regions.find(r => r.regionId === TRAVEL_REGION_ID);
+    // A leg with nothing for this season answers with an empty region list —
+    // /gender does exactly that for every season before Fall 2026. That is not
+    // the same as the region having gone missing, so it is only fatal if no leg
+    // reports the region at all.
+    if (!region) continue;
+    regionSeen = true;
+    const divs = (region.divisions && region.divisions.$values) || region.divisions || [];
+    assertSeasonMatches(divs, season, `${sourceApiBase}/regions`);
+    for (const div of divs) {
+      if (!div.active) continue;
+      const existing = divisionsById.get(div.divisionId);
+      const next = {
+        slug: slugForDivision(div.divisionId),
+        divisionId: div.divisionId,
+        divisionName: decodeHtmlEntities(div.divisionName),
+        regionName: region.regionName || region.name || '',
+        apiBase: sourceApiBase,
+      };
+      if (existing) {
+        if (!existing.regionName && next.regionName) existing.regionName = next.regionName;
+      } else {
+        divisionsById.set(div.divisionId, next);
       }
     }
   }
 
+  if (!regionSeen) {
+    throw new Error(`Region ${TRAVEL_REGION_ID} not found in any /regions response for ${seasonSlug(season)}.`);
+  }
+  return [...divisionsById.values()];
+}
+
+async function discoverLocalDivisions(season) {
+  const clubsUrl = `${LOCAL_API_BASE}/clubs?${seasonQuery(season)}`;
+  const clubsRes = await fetch(clubsUrl);
+  await checkResponse(clubsRes, clubsUrl);
+  const clubsRaw = await clubsRes.json();
+  const clubs = clubsRaw.$values || clubsRaw;
+  const allDivisions = [];
+  for (const club of clubs) {
+    const divs = (club.divisions && club.divisions.$values) || club.divisions || [];
+    assertSeasonMatches(divs, season, `${LOCAL_API_BASE}/clubs`);
+    for (const div of divs) {
+      if (!div.active) continue;
+      allDivisions.push({
+        slug: slugForDivision(div.divisionId),
+        divisionId: div.divisionId,
+        divisionName: decodeHtmlEntities(div.divisionName),
+        clubName: normalizeClubName(club.name),
+        clubId: club.clubId,
+      });
+    }
+  }
+  return allDivisions;
+}
+
+// Fetch one season of one league into _cpl/data-<league>/<season>/.
+async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
+  const apiBase = league === 'travel' ? TRAVEL_API_BASE : LOCAL_API_BASE;
+  const { dataSubdir, divisionsFile } = getLeagueDataConfig(league);
+  const slug = season.slug;
+
+  console.log(`\nFetching clubs/divisions manifest for ${league} ${slug}...`);
+  const allDivisions = league === 'travel'
+    ? await discoverTravelDivisions(season)
+    : await discoverLocalDivisions(season);
+
   // Path resolution up to root directory from _cpl/modules/
-  const dataDir = path.join(__dirname, '..', dataSubdir);
+  const dataDir = path.join(__dirname, '..', dataSubdir, slug);
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
 
-  // A league with zero active divisions is never legitimate here, so this is
+  // A season with zero active divisions is never legitimate here, so this is
   // fatal rather than merely guarded: an empty manifest leaves divisionsToFetch
   // empty, which means the fetch loop below never runs and never records a
   // failure. Without this the run would exit 0 having replaced the manifest
   // that every dashboard page reads.
   if (!allDivisions.length) {
     throw new Error(
-      `${divisionsFile}: upstream returned 0 active divisions for the ${league} league. `
+      `${slug}/${divisionsFile}: upstream returned 0 active divisions for the ${league} league. `
       + 'Either the API is down or it renamed the clubs/divisions/active fields; refusing to publish an empty manifest.',
     );
   }
 
-  writeGuarded(path.join(dataDir, divisionsFile), allDivisions, `${league} division manifest`);
-  console.log(`✓ ${divisionsFile} written (${allDivisions.length} active divisions).`);
+  writeGuarded(path.join(dataDir, divisionsFile), allDivisions, `${league} ${slug} division manifest`);
+  console.log(`✓ ${slug}/${divisionsFile} written (${allDivisions.length} active divisions).`);
 
   // Fetch data for each division.
   const divisionsToFetch = filterDivisions(allDivisions, { divisionSlugs });
@@ -499,7 +593,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
         jsonStringify({ fetchedAt: new Date().toISOString() }),
       );
 
-      console.log(`  ✓ Cached to ${dataSubdir}/${div.slug}/`);
+      console.log(`  ✓ Cached to ${dataSubdir}/${slug}/${div.slug}/`);
     } catch (err) {
       console.error(`  ⚠️ Failed for ${div.slug}:`, err.message);
       failedDivisions.push({
@@ -551,15 +645,85 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null } 
     console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
+  return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
+}
+
+// Which seasons this run is allowed to touch.
+//
+// Nothing but the current season is fetched unless --season names others by
+// hand. That is the whole of "archived seasons are never fetched again": the
+// crons pass no --season, so no scheduled run can reach an archive, and a
+// season's results stop moving the moment it is classified archived. A person
+// typing --season=2026-spring has said what they mean, so it is allowed — with
+// a warning, because refetching an archive rewrites results that were settled.
+function selectSeasonsToFetch(league, resolvedSeasons, seasonSlugs) {
+  if (!seasonSlugs || !seasonSlugs.length) {
+    const current = currentSeason(resolvedSeasons);
+    if (!current) {
+      console.warn(`⚠️ ${league}: no current season (every season is archived); nothing to fetch.`);
+      return [];
+    }
+    return [current];
+  }
+
+  const requested = new Set(seasonSlugs);
+  const matched = resolvedSeasons.filter((season) => requested.has(season.slug));
+  for (const season of matched.filter((s) => !isFetchable(s))) {
+    console.warn(
+      `⚠️ ${league} ${season.slug} is archived and is being refetched because --season named it. `
+      + 'Settled results may change.',
+    );
+  }
+  return matched;
+}
+
+async function downloadLatestApiData(league = 'local', { divisionSlugs = null, seasonSlugs = null } = {}) {
+  console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
+
+  const { dataSubdir, seasonsFile } = getLeagueDataConfig(league);
+  const seasons = mergeSeasonRecords(
+    readCachedSeasons(league),
+    await fetchSeasonRecords(getLeagueApiBases(league)),
+  );
+  const seasonsPath = path.join(__dirname, '..', dataSubdir, seasonsFile);
+  fs.mkdirSync(path.dirname(seasonsPath), { recursive: true });
+  writeGuarded(seasonsPath, seasons, `${league} seasons manifest`);
+
+  const resolved = resolveLeagueSeasons(league, seasons);
+  console.log(`✓ ${seasonsFile}: ${resolved.map((s) => `${s.slug} (${s.status})`).join(', ')}`);
+
+  const seasonsToFetch = selectSeasonsToFetch(league, resolved, seasonSlugs);
+  const failedDivisions = [];
+  const matchedSlugs = [];
+  const matchedSeasonSlugs = [];
+
+  for (const season of seasonsToFetch) {
+    matchedSeasonSlugs.push(season.slug);
+    try {
+      const result = await downloadSeason(league, season, { divisionSlugs });
+      failedDivisions.push(...result.failedDivisions);
+      matchedSlugs.push(...result.matchedSlugs);
+    } catch (err) {
+      console.error(`  ⚠️ Failed for season ${season.slug}:`, err.message);
+      failedDivisions.push({
+        league,
+        slug: `(${season.slug})`,
+        name: `${league} ${season.slug}`,
+        error: err.message,
+      });
+    }
+  }
+
   if (failedDivisions.length) {
     console.error(`\n⚠️ Phase 1 finished with ${failedDivisions.length} failed division(s).`);
   } else {
     console.log('\n✓ Phase 1 complete.');
   }
-  return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
+  return { failedDivisions, matchedSlugs, matchedSeasonSlugs, seasons: resolved };
 }
 
 module.exports = {
-  downloadLatestApiData, slugForDivision, slimPlayers, comparePlayers,
+  downloadLatestApiData, downloadSeason, slugForDivision, slimPlayers, comparePlayers,
   assertArrayShape, isEmptyValue, writeGuarded,
+  fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
 };

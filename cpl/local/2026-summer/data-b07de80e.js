@@ -14872,13 +14872,16 @@
   "clubName": "Bounce - Malvern",
   "divisionName": "4.0 - 4.5",
   "leagueType": "local",
+  "seasonSlug": "2026-summer",
+  "seasonLabel": "Summer 2026",
+  "seasonStatus": "current",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-08-31T17:53:58.443Z";
+  DATA.meta.asOf = "2026-08-28T16:18:01.106Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b07de80e"] = DATA;
