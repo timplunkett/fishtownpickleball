@@ -718,6 +718,157 @@ test('a team with no published pod falls back to the section label', () => {
   assert.equal(teamPodCell(team, 1), '');
 });
 
+// --- Cards group by the league's pods, grids by the schedule ---------------
+
+// A division where cross-pod play fuses three of the four pods into one schedule
+// section. The section is the right unit for the matrix — it has to hold every
+// matchup it shows — but a heading reading "Northeast / Southeast / Southwest"
+// over eighteen cards groups by nothing, so the cards go by the league's pods.
+// displayPodGroups itself is unit-tested in shared.test.js; these are about what
+// the page does with it.
+function podFixture() {
+  const app = runApp();
+  const team = (name, pod, reportedPod) => ({
+    name, pod, reportedPod, w: 1, l: 0, gw: 3, gl: 2, pf: 44, pa: 40, diff: 4, power: 1,
+  });
+  app.context.DATA = {
+    teams: [
+      team('NW One', 1, 'Northwest'),
+      team('NE One', 2, 'Northeast'),
+      team('SE One', 2, 'Southeast'),
+      team('SW One', 2, 'Southwest'),
+      team('NE Two', 2, 'Northeast'),
+    ],
+    meta: {
+      podCount: 2,
+      podNames: ['Northwest', 'Northeast / Southeast / Southwest'],
+      reportedPods: ['Northeast', 'Northwest', 'Southeast', 'Southwest'],
+    },
+  };
+  return app;
+}
+
+const headingsOf = (html) => [...html.matchAll(/<h3 class="pod-heading">([^<]*)<\/h3>/g)].map((m) => m[1]);
+
+test('the cards are headed by the league\'s pods, not the fused section', () => {
+  const app = podFixture();
+  app.context.renderTeamCards();
+  const html = app.el('teams').innerHTML;
+
+  assert.deepEqual(headingsOf(html), ['Northeast', 'Northwest', 'Southeast', 'Southwest']);
+  // Seeded within the pod, not across the fused section.
+  assert.equal((html.match(/<div class="seed">#1<\/div>/g) || []).length, 4);
+  // And the pod is not repeated as a tag on a card already under its heading.
+  assert.ok(!html.includes('class="tag pod-tag"'));
+});
+
+test('the head-to-head grids keep the joint section, cross-pod matchups and all', () => {
+  const { gridSections } = podFixture().context;
+  assert.deepEqual([...gridSections().map((section) => section.heading)], [
+    'Northwest',
+    'Northeast / Southeast / Southwest',
+  ]);
+});
+
+// What the team page ranks within, so the number on the card and the number on
+// the page it links to are the same number.
+test('a team is ranked within the pod group its card sits in', () => {
+  const { podGroupOf, DATA } = podFixture().context;
+  const group = podGroupOf(DATA.teams.find((team) => team.name === 'NE Two'));
+  assert.equal(group.label, 'Northeast');
+  assert.deepEqual([...group.teams.map((team) => team.name)], ['NE One', 'NE Two']);
+});
+
+test('a team outside any pod group still ranks against the division', () => {
+  const app = podFixture();
+  const group = app.context.podGroupOf({ name: 'Nobody', pod: 9, reportedPod: 'Nowhere' });
+  assert.equal(group.label, null);
+  assert.equal(group.teams.length, app.context.DATA.teams.length);
+});
+
+test('a card that is not under its own pod heading still shows the pod as a tag', () => {
+  const { reportedPodTag } = runApp().context;
+  const team = { pod: 2, reportedPod: 'Southeast' };
+  assert.equal(reportedPodTag(team, 'Southeast'), '');
+  assert.ok(reportedPodTag(team, null).includes('Southeast'));
+});
+
+// A pod rank alone leaves the division leader unstated — three teams are all
+// "#1 in <pod>" — so the hero states both, division-wide first.
+test('a team page in a division with pods states the overall rank too', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage, podGroupOf } = app.context;
+  const groups = app.context.cardPodGroups();
+  if (groups.length <= 1) return; // undivided: the one rank is already overall
+
+  DATA.teams.forEach((team, index) => {
+    renderTeamPage(team, { scroll: false });
+    const page = app.el('teamview').innerHTML;
+    const group = podGroupOf(team);
+    const inGroup = group.teams.findIndex((candidate) => candidate.name === team.name) + 1;
+
+    // The overall rank is the team's place in the division-wide ranking, which is
+    // the order DATA.teams already arrives in — the same order the table renders.
+    assert.ok(page.includes(`<b>#${index + 1} overall</b>`), `${team.name}: no overall rank`);
+    assert.ok(page.includes(`<b>#${inGroup} in ${group.label}</b>`), `${team.name}: no pod rank`);
+    assert.ok(
+      page.indexOf(' overall</b>') < page.indexOf(`#${inGroup} in ${group.label}`),
+      `${team.name}: the pod rank comes before the overall one`,
+    );
+  });
+
+  // A pod winner mid-table overall is the case that makes both worth stating.
+  const podWinners = groups.map((group) => group.teams[0].name);
+  assert.ok(podWinners.length > 1, 'expected a pod winner per pod');
+});
+
+test('an undivided division states one rank, not the same rank twice', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+  DATA.meta.reportedPods = null;
+  DATA.meta.podCount = 1;
+  renderTeamPage(DATA.teams[0], { scroll: false });
+  const page = app.el('teamview').innerHTML;
+
+  assert.ok(page.includes('<b>#1 in standings</b>'));
+  assert.ok(!page.includes('overall</b>'), 'the overall rank is what "in standings" already says');
+});
+
+// The hero used to carry the pod twice — "#2 in Southwest" and then a separate
+// "Pod Southwest" — once the rank started naming the league's pod.
+test('a team page names its pod exactly once', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+
+  DATA.teams.forEach((team) => {
+    if (!team.reportedPod) return;
+    renderTeamPage(team, { scroll: false });
+    const page = app.el('teamview').innerHTML;
+    const asRank = page.includes(`in ${team.reportedPod}</b>`);
+    const asTag = page.includes(`Pod <b>${team.reportedPod}</b>`);
+    assert.ok(!(asRank && asTag), `${team.name}: "${team.reportedPod}" is both the rank and a tag`);
+    assert.ok(asRank || asTag, `${team.name}: pod "${team.reportedPod}" appears nowhere`);
+  });
+});
+
+// Where the rank names something other than the pod, the pod is still a fact the
+// hero has to state — so the tag is suppressed by redundancy, not deleted.
+test('a team page keeps the pod tag where the rank names no pod', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+  const team = DATA.teams.find((candidate) => candidate.reportedPod);
+  assert.ok(team, 'this division publishes no pods, so there is nothing to state twice');
+
+  // One unlabelled group, so the rank reads "#4 in standings" and names no pod.
+  DATA.meta.reportedPods = null;
+  DATA.meta.podCount = 1;
+  renderTeamPage(team, { scroll: false });
+  const page = app.el('teamview').innerHTML;
+
+  assert.ok(page.includes('in standings</b>'), 'rank should name no group at all');
+  assert.ok(page.includes(`Pod <b>${team.reportedPod}</b>`), 'the pod itself went unstated');
+});
+
 // --- Sticky layers ---------------------------------------------------------
 
 test('only a wrapper whose table overflows gets a horizontal scroller', () => {
