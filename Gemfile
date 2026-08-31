@@ -1,19 +1,21 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-#gem "jekyll", "~> 4.3.2"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
+
+# The site is built and served by GitHub Pages, so the github-pages gem pins the
+# whole toolchain (Jekyll, Kramdown, Sass, and the supported plugins) to exactly
+# what GitHub runs. Do not add a bare `gem "jekyll"` -- it will fight that pin
+# and let local builds diverge from production. Always build with `bundle exec`.
 gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
+
+gem "minima", "~> 2.5"
+
+# NOTE: GitHub Pages ignores this Gemfile entirely -- it reads the `plugins:`
+# list in _config.yml. The site's actual plugins (jekyll-seo-tag,
+# jekyll-sitemap) are declared there and arrive here transitively via
+# github-pages, so they are not repeated below; adding them would require
+# re-running `bundle install` to refresh Gemfile.lock for no build-time gain.
+#
+# jekyll-feed is no longer enabled in _config.yml (there is no blog). It is left
+# installed here only so Gemfile.lock stays valid without a re-resolve.
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end

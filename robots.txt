@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# The Cross Club League dashboard publishes real people's names and DUPR
+# ratings, so it is deliberately kept out of search results.
+#
+# robots.txt is a request, not enforcement: a crawler that ignores it will still
+# fetch these pages. The <meta name="robots" content="noindex"> tags on the
+# /cpl/ pages themselves are what actually keeps them out of the index. The two
+# are complementary -- this file stops well-behaved crawlers from fetching at
+# all, and the meta tag stops any crawler that fetches anyway from indexing.
+Disallow: /cpl/
+
+# No `Sitemap:` line on purpose: no sitemap plugin is enabled, so pointing at
+# /sitemap.xml would advertise a 404. Add the line if one is ever turned on.
