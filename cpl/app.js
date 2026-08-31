@@ -1240,9 +1240,10 @@ function renderSummary() {
     `games are played.`;
 }
 
-// Standings sections follow the schedule — teams that actually play each other.
-// They borrow the league's pod name only when a pod contains a whole section;
-// otherwise they stay numbered, because a team's opponents would sit outside it.
+// The label for a schedule section — the set of teams that actually play each
+// other, which is what the head-to-head grids are split by. A section borrows the
+// league's pod names, joined when it spans more than one, and stays numbered when
+// the league published none.
 function podLabel(pod) {
   const names = DATA.meta && DATA.meta.podNames;
   const name = names && names[pod - 1];
@@ -1250,10 +1251,11 @@ function podLabel(pod) {
 }
 
 // The league's own pod for a team ("Southeast"), shown as a tag. Suppressed when
-// the section is already named after it, so the label isn't rendered twice.
-function reportedPodTag(team) {
+// the heading the card sits under already names it, so the label isn't rendered
+// twice.
+function reportedPodTag(team, groupLabel) {
   const reported = team && team.reportedPod;
-  if (!reported || reported === podLabel(team.pod)) return '';
+  if (!reported || reported === groupLabel) return '';
   return `<span class="tag pod-tag">${escapeHtml(reported)}</span>`;
 }
 
@@ -1270,11 +1272,11 @@ function crossPodTag(teamName, opponentName) {
   return ` • <span class="tag cross-pod-tag">Pod: ${escapeHtml(theirPod)}</span>`;
 }
 
-function teamCard(team, rank) {
+function teamCard(team, rank, groupLabel) {
   return `
         <a class="tcard" href="${escapeHtml(teamHref(team.name))}" data-team="${slugify(team.name)}" style="border-top:3px solid ${getTeamColor(team.name)}">
           <div class="seed">#${rank}</div>
-          <h3>${escapeHtml(team.name)}${reportedPodTag(team)}</h3>
+          <h3>${escapeHtml(team.name)}${reportedPodTag(team, groupLabel)}</h3>
           <div class="rec">${team.w}–${team.l} <small>match${pluralize(team.w + team.l, '', 'es')}</small></div>
           <div class="pts">Games <b class="txt-strong">${formatRecordWithPct(team.gw, team.gl)}</b></div>
           <div class="pts">PF ${team.pf} • PA ${team.pa} • <span class="d">${formatDiffSpan(team.diff)}</span></div>
@@ -1283,39 +1285,58 @@ function teamCard(team, rank) {
       `;
 }
 
+// The groups the cards are split into: the league's own pods when it publishes
+// them, rather than the schedule sections. A section is whatever the schedule
+// connects, so a handful of cross-pod matchups fuse three pods into one section
+// labelled "Northeast / Southeast / Southwest" — a heading that names three
+// groups and groups by none of them, under a grid of eighteen cards. The
+// head-to-head matrix keeps the sections, because a matrix has to contain every
+// matchup it displays; a card only has to sit under the right heading.
+// Falls back to the sections where the league reports no usable pods.
+function cardPodGroups() {
+  const meta = DATA.meta || {};
+  const reported = meta.reportedPods || null;
+  if (reported && reported.length > 1 && DATA.teams.every((team) => team.reportedPod)) {
+    return reported
+      .map((label) => ({ label, teams: DATA.teams.filter((team) => team.reportedPod === label) }))
+      .filter((group) => group.teams.length);
+  }
+  const podCount = meta.podCount > 1 ? meta.podCount : 1;
+  if (podCount <= 1) return [{ label: null, teams: DATA.teams }];
+  return Array.from({ length: podCount }, (_, index) => ({
+    label: podLabel(index + 1),
+    teams: DATA.teams.filter((team) => team.pod === index + 1),
+  }));
+}
+
 function renderTeamCards() {
-  const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
-  if (podCount <= 1) {
-    elements.teams.innerHTML = DATA.teams
-      .map((team, index) => teamCard(team, index + 1))
+  const groups = cardPodGroups();
+  // An undivided division has nothing to head, so the cards go in one grid and
+  // are seeded across the whole division. Otherwise each group gets a heading
+  // and is seeded within itself — DATA.teams already arrives in ranked order,
+  // so filtering preserves it.
+  if (groups.length === 1 && !groups[0].label) {
+    elements.teams.innerHTML = groups[0].teams
+      .map((team, index) => teamCard(team, index + 1, null))
       .join('');
     return;
   }
-  // Multiple pods: group teams by pod, show a pod header before each group,
-  // and seed within the pod rather than across the whole division.
-  const sections = [];
-  for (let p = 1; p <= podCount; p++) {
-    const cards = DATA.teams
-      .filter((t) => t.pod === p)
-      .map((team, index) => teamCard(team, index + 1))
-      .join('');
-    sections.push(`<div class="pod-section"><h3 class="pod-heading">${escapeHtml(podLabel(p))}</h3><div class="tgrid">${cards}</div></div>`);
-  }
-  elements.teams.innerHTML = sections.join('');
+  elements.teams.innerHTML = groups
+    .map(({ label, teams }) => {
+      const cards = teams.map((team, index) => teamCard(team, index + 1, label)).join('');
+      return `<div class="pod-section"><h3 class="pod-heading">${escapeHtml(label)}</h3><div class="tgrid">${cards}</div></div>`;
+    })
+    .join('');
 }
 
-// The pod column says the same thing the cards do: the schedule section the card
-// view groups by, plus the league's own regional label where the two differ. An
-// undivided division has a single section that names nothing, so there the
-// reported pod is the whole answer.
-// The Pod cell in the standings table. The cards are grouped into scheduling
-// sections and carry the section name as their own heading, so there the
-// league's pod is a tag next to the team. The table is one flat division-wide
-// ranking with no sections in it, so a section label describes nothing on
-// screen — and where a section spans several pods it reads as a combination
-// like "Northeast / Southeast / Southwest", which is the least useful string
-// available for a sortable column. The league's own pod is the fact worth a
-// column here; the section label only stands in where the league reported none.
+// The Pod cell in the standings table. The cards group by the league's own pods
+// and carry the pod name as their heading; this view is one flat division-wide
+// ranking with no groups in it, so the same fact has to travel in a column. A
+// schedule-section label describes nothing on screen here — and where a section
+// spans several pods it reads as a combination like "Northeast / Southeast /
+// Southwest", the least useful string available for a sortable column. So the
+// league's own pod is the answer in both views; the section label only stands in
+// where the league reported none.
 function teamPodCell(team, podCount) {
   if (team.reportedPod) return escapeHtml(team.reportedPod);
   return podCount > 1 ? escapeHtml(podLabel(team.pod)) : '';
@@ -3112,12 +3133,20 @@ function handlePartnerChipClick(event) {
 }
 
 // Every grid rendered on this page, in the order the sections appear. One entry
-// per pod, or a single entry for the whole division when it has no pods.
+// per schedule section, or a single entry for the whole division when it has no
+// sections.
+//
+// These are the schedule sections, not the league's pods the cards group by (see
+// cardPodGroups). A matrix has to contain every matchup it displays, and only the
+// sections guarantee that: teams play across the league's pods, so a per-pod
+// matrix would drop the cross-pod results with nowhere to put them. A section
+// spanning several pods is headed by all of them — "Northeast / Southeast /
+// Southwest" — which is honest about what the table covers.
 //
 // Only the matrix needs this. Its columns are the opponents, so a division-wide
 // matrix would be mostly hatching for pairs that never meet — splitting it per
-// pod is what keeps it readable. The by-week grid's columns are the weeks, the
-// same set for every pod, so splitting it only repeats one header row and stops
+// section is what keeps it readable. The by-week grid's columns are the weeks, the
+// same set for every section, so splitting it only repeats one header row and stops
 // the reader comparing a week across the division; see renderResultsGrid.
 function gridSections() {
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;

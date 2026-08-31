@@ -248,6 +248,54 @@ DIVISIONS.forEach(({ label, file }) => {
   });
 });
 
+// The two groupings, checked against every compiled division: the cards go by the
+// league's own pods, the matrix by the schedule sections. They differ exactly where
+// cross-pod play has fused several pods into one section, and that is the case
+// worth pinning — the section keeps its joint "Northeast / Southeast / Southwest"
+// heading over the matrix, because the matrix has to hold the cross-pod matchups,
+// while the cards split into the four pods a reader can actually place a team in.
+DIVISIONS.forEach(({ label, file }) => {
+  test(`${label}: cards group by the league's pods, grids by the schedule`, () => {
+    const { DATA, cardPodGroups, gridSections } = runApp(file).context;
+    const reported = (DATA.meta && DATA.meta.reportedPods) || null;
+    const cards = [...cardPodGroups()];
+    const sections = [...gridSections().map((section) => section.heading)];
+
+    // Whatever the grouping, every team is in exactly one group of cards.
+    assert.equal(
+      cards.reduce((total, group) => total + group.teams.length, 0),
+      DATA.teams.length,
+      `${label}: cards lost or duplicated a team`,
+    );
+
+    if (!reported || reported.length <= 1 || !DATA.teams.every((team) => team.reportedPod)) {
+      return; // no usable pods published; the cards fall back to the sections
+    }
+
+    assert.deepEqual(
+      [...cards.map((group) => group.label)].sort(),
+      [...new Set(DATA.teams.map((team) => team.reportedPod))].sort(),
+      `${label}: cards are not grouped by the league's pods`,
+    );
+    cards.forEach(({ label: heading, teams }) => {
+      teams.forEach((team) => {
+        assert.equal(team.reportedPod, heading, `${label}: ${team.name} is under "${heading}"`);
+      });
+    });
+
+    // A joint label belongs to the grids and nowhere else.
+    cards.forEach(({ label: heading }) => {
+      assert.ok(!heading.includes(' / '), `${label}: a card group is headed "${heading}"`);
+    });
+    if (sections.some((heading) => heading.includes(' / '))) {
+      assert.ok(
+        cards.length > sections.length,
+        `${label}: a section spans several pods, so the cards should split finer`,
+      );
+    }
+  });
+});
+
 // The division whose single 21-team pod is what made the matrix unusable.
 const WIDEST = DIVISIONS.find(({ file }) => file.endsWith('data-c43b8608.js'));
 
