@@ -18142,8 +18142,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -18160,8 +18160,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18176,8 +18176,8 @@
     "a": 25,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18192,8 +18192,8 @@
     "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18208,8 +18208,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18224,8 +18224,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18240,8 +18240,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -18256,8 +18256,8 @@
     "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

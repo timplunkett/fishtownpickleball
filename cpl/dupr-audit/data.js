@@ -863,6 +863,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Allan Orchard",
+   "playerId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
+   "team": "Allstar Pickler",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Allie Harwood",
    "playerId": "491f1066-05b8-482a-9ffd-3a381a25a7bc",
    "team": "Pickleball Palace",
@@ -2368,6 +2375,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Bennett Matthew’S",
+   "playerId": "460d93c8-9936-43b5-b3ba-7328e174fb2b",
+   "team": "Picklr Exton",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Bennett Pereira",
    "playerId": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
    "team": "Pickle House",
@@ -3177,6 +3191,13 @@ window.DUPR_AUDIT = {
    "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0",
    "team": "Flemington Green",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Calvin Fernandez",
+   "playerId": "399f6bd1-f7b4-45d7-8707-197dd6b93d87",
+   "team": "Montville",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
@@ -11384,6 +11405,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jun Zhi Tan",
+   "playerId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "June Lee",
    "playerId": "c5098f72-b304-4552-b25b-8f4dec2709e0",
    "team": "Stelton Sports",
@@ -13738,6 +13766,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Luis Guzman",
    "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
+   "team": "Pickle House",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Luis Guzman",
+   "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
    "team": "Hot Ballers!",
    "slug": "c1b3f9c1",
    "gender": "Male"
@@ -14825,6 +14860,13 @@ window.DUPR_AUDIT = {
    "playerId": "ec3a5b94-4b3c-4467-a3fa-f23141cb8f69",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Matthew Marciani",
+   "playerId": "ec0da4c0-f52a-4ab9-a579-6ca3d815f19c",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
    "gender": "Male"
   },
   {
@@ -17864,6 +17906,13 @@ window.DUPR_AUDIT = {
    "team": "Allstar Pickler",
    "slug": "c43b8608",
    "gender": "Female"
+  },
+  {
+   "name": "Ritesh Patel",
+   "playerId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
   },
   {
    "name": "Riyan Barlow",

@@ -217,6 +217,18 @@
       "awayName": "Bounce Malvern"
     },
     {
+      "matchupId": "5a9887bc-97cf-47d8-b057-182468105e69",
+      "weekNumber": 3,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-08T19:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "APC Garden State"
+    },
+    {
       "matchupId": "6c473e69-a7b1-45e4-80fb-69768c5ec3cb",
       "weekNumber": 3,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -239,18 +251,6 @@
       "scheduledTime": "2026-09-08T19:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Flemington"
-    },
-    {
-      "matchupId": "5a9887bc-97cf-47d8-b057-182468105e69",
-      "weekNumber": 3,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-08T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "APC Garden State"
     },
     {
       "matchupId": "59e5b8fe-d72d-421d-85b6-639263633cfb",
@@ -589,6 +589,18 @@
       "awayName": "Pickle House"
     },
     {
+      "matchupId": "eea84197-3022-4a8d-867f-c04e47f51bcf",
+      "weekNumber": 6,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-29T19:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Picklr Newtown"
+    },
+    {
       "matchupId": "07439d7f-d4ae-4d31-b039-1b04174d5869",
       "weekNumber": 6,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -647,18 +659,6 @@
       "scheduledTime": "2026-09-29T19:30:00",
       "homeName": "Montville",
       "awayName": "Flemington"
-    },
-    {
-      "matchupId": "eea84197-3022-4a8d-867f-c04e47f51bcf",
-      "weekNumber": 6,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-29T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Picklr Newtown"
     },
     {
       "matchupId": "9bfbc0d7-8073-4530-9da6-c0b4d9bc4ea9",
@@ -817,6 +817,18 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
+      "matchupId": "13f9cec1-fe6f-4cec-8d5b-dfc6aecc2e2f",
+      "weekNumber": 8,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-13T19:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Premiere"
+    },
+    {
       "matchupId": "8eb104df-ef03-4db3-be53-061b7007bb20",
       "weekNumber": 8,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -865,18 +877,6 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "13f9cec1-fe6f-4cec-8d5b-dfc6aecc2e2f",
-      "weekNumber": 8,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-13T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Premiere"
-    },
-    {
       "matchupId": "b8c8457d-9b90-45a7-90e0-e71156cbc1c3",
       "weekNumber": 8,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
@@ -887,6 +887,18 @@
       "scheduledTime": "2026-10-13T19:30:00",
       "homeName": "Allstar Pickler",
       "awayName": "Montville"
+    },
+    {
+      "matchupId": "6f28b399-990e-4db2-b357-78ce1af681ec",
+      "weekNumber": 9,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-20T19:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Jersey Devil"
     },
     {
       "matchupId": "2e24ae31-dabe-4e3a-ae30-c543c5e69627",
@@ -935,18 +947,6 @@
       "scheduledTime": "2026-10-20T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Picklr Newtown"
-    },
-    {
-      "matchupId": "6f28b399-990e-4db2-b357-78ce1af681ec",
-      "weekNumber": 9,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-20T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Jersey Devil"
     },
     {
       "matchupId": "425b0cbd-1be5-4a1e-b663-cabaa5e4ba3e",
@@ -1261,6 +1261,18 @@
       "awayName": "Jersey Devil"
     },
     {
+      "matchupId": "6ddfc980-ec6d-46e1-a1f6-03e354d22344",
+      "weekNumber": 12,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-10T19:00:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Dill Dinkers Newport"
+    },
+    {
       "matchupId": "41da60f3-4368-4e18-b55d-4476379bdab9",
       "weekNumber": 12,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -1283,18 +1295,6 @@
       "scheduledTime": "2026-11-10T19:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Pickleball Kingdom Hillsborough"
-    },
-    {
-      "matchupId": "6ddfc980-ec6d-46e1-a1f6-03e354d22344",
-      "weekNumber": 12,
-      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "awayTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-10T19:30:00",
-      "homeName": "Bounce Malvern",
-      "awayName": "Dill Dinkers Newport"
     },
     {
       "matchupId": "d634d1fc-7583-4d54-af0e-2fb61c2b5888",

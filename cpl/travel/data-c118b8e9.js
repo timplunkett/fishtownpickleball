@@ -3369,8 +3369,8 @@
    "name": "Allan Orchard",
    "gender": "Male",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 2,
@@ -3383,7 +3383,6 @@
    "genderLosses": 5,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
    "winPct": 28.6,
    "diff": -19,
    "ppg": 17.4,
@@ -3392,7 +3391,8 @@
    "ratingGames": 7,
    "confidence": 48,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": 0.8
+   "strengthOfOpponents": 0.8,
+   "playerId": "4f34c672-f457-467f-98d8-7d5d6c8add16"
   },
   {
    "name": "Dhruv Dobariya",
@@ -4372,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 224,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4401,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4430,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4459,7 +4459,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 248,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4604,7 +4604,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4691,7 +4691,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4749,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 178,
+   "leagueRank": 179,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 223,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4923,7 +4923,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4952,7 +4952,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 243,
+   "leagueRank": 247,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 242,
+   "leagueRank": 246,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 246,
+   "leagueRank": 250,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5387,7 +5387,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5445,7 +5445,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 229,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,13 +5503,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
+  },
+  {
+   "name": "Jun Zhi Tan",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 239,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
   {
    "name": "Rob Telles",
@@ -5532,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 241,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5619,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,7 +5735,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,13 +5822,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 240,
+   "leagueRank": 244,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "e1f6c6fa-db86-4fed-9faa-dbc2fe29f373"
+  },
+  {
+   "name": "Ritesh Patel",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 219,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
   },
   {
    "name": "Charles Evans",
@@ -5822,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5996,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5996,7 +6054,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6025,7 +6083,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 179,
+   "leagueRank": 180,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6054,7 +6112,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 228,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6083,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7591,11 +7649,11 @@
     }
    ],
    "subs": [
-    "Gary White",
-    "Nacio Marshall",
-    "Jim Boy Baring",
     "Matthew Schwartz",
-    "Michael Mazzola"
+    "Gary White",
+    "Michael Mazzola",
+    "Jim Boy Baring",
+    "Nacio Marshall"
    ]
   },
   {
@@ -8061,8 +8119,8 @@
    ],
    "subs": [
     "Mark Bernstein",
-    "Francis Thai",
-    "Roberto Marcillo"
+    "Roberto Marcillo",
+    "Francis Thai"
    ]
   },
   {
@@ -8527,10 +8585,9 @@
     }
    ],
    "subs": [
-    "Xilin Zhao",
-    "Elias Eid",
     "Wen Jin",
-    "Allan Orchard"
+    "Elias Eid",
+    "Xilin Zhao"
    ]
   },
   {
@@ -11312,8 +11369,8 @@
     }
    ],
    "subs": [
-    "Dan Ruble",
-    "Jarred Goeckeler"
+    "Jarred Goeckeler",
+    "Dan Ruble"
    ]
   },
   {
@@ -11354,7 +11411,361 @@
    "home": "Dill Dinkers Newport",
    "away": "Bounce Tempest",
    "time": "2026-09-01T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Paul Chantler"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Rick Olafsson"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Ian Diamond"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Steppan Konoplev"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Steppan Konoplev"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Ian Diamond"
+     ],
+     "a": [
+      "David Brandolph",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Paul Chantler"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Rick Olafsson"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Nitin Chawke"
+     ],
+     "a": [
+      "David Brandolph",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Xan Hong"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Cosme Tapia"
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Malay Kaity"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Steppan Konoplev"
+     ],
+     "a": [
+      "David Brandolph",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Rick Olafsson"
+     ],
+     "a": [
+      "Yong Kim",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Ian Diamond"
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Paul Chantler"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Xan Hong"
+     ],
+     "a": [
+      "David Brandolph",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Cosme Tapia"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Nitin Chawke"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Malay Kaity"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "David Fiscella"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Keith Richard"
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steppan Konoplev",
+      "Rick Olafsson"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ian Diamond",
+      "Paul Chantler"
+     ],
+     "a": [
+      "Ken Weinstein",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Richard",
+      "Xan Hong"
+     ],
+     "a": [
+      "David Brandolph",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Fiscella",
+      "Nitin Chawke"
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brond",
+      "Cosme Tapia"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jesse Pettit",
+      "Malay Kaity"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Paul Chantler",
+      "Nitin Chawke"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Rick Olafsson",
+      "Xan Hong"
+     ],
+     "a": [
+      "David Brandolph",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ian Diamond",
+      "Cosme Tapia"
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steppan Konoplev",
+      "Malay Kaity"
+     ],
+     "a": [
+      "Ethan Fu",
+      "Jimmy Lee"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11362,7 +11773,361 @@
    "home": "Monroe",
    "away": "Pickleball HQ",
    "time": "2026-09-01T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Jimmy Ramja"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Uttam Purohit",
+      "Salman Saad"
+     ],
+     "a": [
+      "Thomas Moran",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Gold",
+      "Jason Mcmanmon"
+     ],
+     "a": [
+      "Carlos Idrovo",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Gold",
+      "David Bogatyrev"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Salman Saad",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Jimmy Ramja"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Thomas Moran",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Anthony Simonetti",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kurt Skalamera",
+      "Salman Saad"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Gold",
+      "David Bogatyrev"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Anthony Simonetti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lugo",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Carlos Idrovo",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Dombrowiecki",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Jimmy Ramja",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Anthony Simonetti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Carlos Idrovo",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Dombrowiecki",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Jimmy Ramja",
+      "Thomas Moran"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Jacob Rosengarten"
+     ],
+     "a": [
+      "Noah Ludwigsen",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lugo",
+      "Shawn Gold"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Christopher Hendrickson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Jimmy Ramja",
+      "Carlos Idrovo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kurt Skalamera",
+      "Salman Saad"
+     ],
+     "a": [
+      "Thomas Moran",
+      "Anthony Simonetti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Gold",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "David Wheeler",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Christopher Hendrickson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Salman Saad",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Jimmy Ramja",
+      "Carlos Idrovo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kurt Skalamera",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Thomas Moran",
+      "Anthony Simonetti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lugo",
+      "Salman Saad"
+     ],
+     "a": [
+      "Carlos Idrovo",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Dombrowiecki",
+      "Jacob Rosengarten"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Anthony Simonetti",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Shawn Gold"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "Jimmy Ramja"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Anthony Simonetti",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Christopher Hendrickson",
+      "Jose Campos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Luca Hendrickson",
+      "David Wheeler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Gold",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "Thomas Moran",
+      "Carlos Idrovo"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11386,6 +12151,368 @@
    "home": "Jersey Devil",
    "away": "Bounce Malvern",
    "time": "2026-09-01T19:30:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Brandon Dejesus"
+     ],
+     "a": [
+      "Graham Heavenrich",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Derek Livingston",
+      "Frederick Cox"
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Carter",
+      "Mario Contreras"
+     ],
+     "a": [
+      "Harvey Mitchell",
+      "Vincent Demarco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Hadley",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Sal Bwint",
+      "Lincoln Jensen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Hadley",
+      "Frederick Cox"
+     ],
+     "a": [
+      "Sal Bwint",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dan Ruble",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Charles Evans",
+      "Lincoln Jensen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Dejesus",
+      "Jonathan Carter"
+     ],
+     "a": [
+      "Andrew Neave",
+      "Harrison Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Steve Hong"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Dejesus",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Lincoln Jensen",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Dan Ruble"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Vincent Demarco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Hadley",
+      "Jonathan Carter"
+     ],
+     "a": [
+      "Harvey Mitchell",
+      "Sal Bwint"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steve Hong",
+      "Derek Livingston"
+     ],
+     "a": [
+      "Graham Heavenrich",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Dejesus",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dan Ruble",
+      "Tim Bruno"
+     ],
+     "a": [
+      "Sal Bwint",
+      "Vincent Demarco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Derek Livingston",
+      "Frederick Cox"
+     ],
+     "a": [
+      "Graham Heavenrich",
+      "Lincoln Jensen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mario Contreras",
+      "Jonathan Carter"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Hadley",
+      "Frederick Cox"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Uston",
+      "Dan Ruble"
+     ],
+     "a": [
+      "Harvey Mitchell",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mario Contreras",
+      "Derek Livingston"
+     ],
+     "a": [
+      "Graham Heavenrich",
+      "Harrison Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Steve Hong"
+     ],
+     "a": [
+      "Russell Cripps",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Hadley",
+      "Jonathan Carter"
+     ],
+     "a": [
+      "Russell Cripps",
+      "Harvey Mitchell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mario Contreras",
+      "Derek Livingston"
+     ],
+     "a": [
+      "Sal Bwint",
+      "Vincent Demarco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dan Ruble",
+      "Steve Hong"
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Lincoln Jensen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Brandon Dejesus"
+     ],
+     "a": [
+      "Andrew Neave",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Frederick Cox",
+      "Dan Ruble"
+     ],
+     "a": [
+      "Harvey Mitchell",
+      "Graham Heavenrich"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Bruno",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Dejesus",
+      "Steve Hong"
+     ],
+     "a": [
+      "Andrew Neave",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mario Contreras",
+      "Daniel Hadley"
+     ],
+     "a": [
+      "Vincent Demarco",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Dejesus",
+      "Jonathan Carter"
+     ],
+     "a": [
+      "Sal Bwint",
+      "Graham Heavenrich"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Frederick Cox",
+      "Christopher Uston"
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Lincoln Jensen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steve Hong",
+      "Derek Livingston"
+     ],
+     "a": [
+      "Harvey Mitchell",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dan Ruble",
+      "Mario Contreras"
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Vincent Demarco"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "week": 3,
+   "home": "Bounce Malvern",
+   "away": "APC Garden State",
+   "time": "2026-09-08T19:00:00",
    "complete": false
   },
   {
@@ -11402,14 +12529,6 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Flemington",
    "time": "2026-09-08T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 3,
-   "home": "Bounce Malvern",
-   "away": "APC Garden State",
-   "time": "2026-09-08T19:30:00",
    "complete": false
   },
   {
@@ -11639,6 +12758,14 @@
   {
    "result": null,
    "week": 6,
+   "home": "Bounce Malvern",
+   "away": "Picklr Newtown",
+   "time": "2026-09-29T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 6,
    "home": "APC Garden State",
    "away": "Dill Dinkers Newport",
    "time": "2026-09-29T19:30:00",
@@ -11673,14 +12800,6 @@
    "week": 6,
    "home": "Montville",
    "away": "Flemington",
-   "time": "2026-09-29T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
-   "home": "Bounce Malvern",
-   "away": "Picklr Newtown",
    "time": "2026-09-29T19:30:00",
    "complete": false
   },
@@ -11791,6 +12910,14 @@
   {
    "result": null,
    "week": 8,
+   "home": "Bounce Malvern",
+   "away": "Premiere",
+   "time": "2026-10-13T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
    "home": "APC Garden State",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-13T19:30:00",
@@ -11823,17 +12950,17 @@
   {
    "result": null,
    "week": 8,
-   "home": "Bounce Malvern",
-   "away": "Premiere",
+   "home": "Allstar Pickler",
+   "away": "Montville",
    "time": "2026-10-13T19:30:00",
    "complete": false
   },
   {
    "result": null,
-   "week": 8,
-   "home": "Allstar Pickler",
-   "away": "Montville",
-   "time": "2026-10-13T19:30:00",
+   "week": 9,
+   "home": "Bounce Malvern",
+   "away": "Jersey Devil",
+   "time": "2026-10-20T19:00:00",
    "complete": false
   },
   {
@@ -11865,14 +12992,6 @@
    "week": 9,
    "home": "APC Garden State",
    "away": "Picklr Newtown",
-   "time": "2026-10-20T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
-   "home": "Bounce Malvern",
-   "away": "Jersey Devil",
    "time": "2026-10-20T19:30:00",
    "complete": false
   },
@@ -12087,6 +13206,14 @@
   {
    "result": null,
    "week": 12,
+   "home": "Bounce Malvern",
+   "away": "Dill Dinkers Newport",
+   "time": "2026-11-10T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 12,
    "home": "Premiere",
    "away": "Dill Dinkers Freehold",
    "time": "2026-11-10T19:00:00",
@@ -12098,14 +13225,6 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-10T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 12,
-   "home": "Bounce Malvern",
-   "away": "Dill Dinkers Newport",
-   "time": "2026-11-10T19:30:00",
    "complete": false
   },
   {
@@ -12162,6 +13281,7 @@
   "Luke Simon": "0069c456-f712-435e-abd7-461018159661",
   "Matthew Rafaniello": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
   "Alexander King": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
+  "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Sujoy Gayen": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Steve Roth": "183983b9-993f-471e-ac3d-224dcee6d80f",
@@ -12174,6 +13294,7 @@
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Edward Fu": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
+  "John Sallo": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Nitin Chawke": "e1859a0e-b6a3-451b-a14e-f4d978fc520d",
@@ -12183,7 +13304,7 @@
  "meta": {
   "matchesPlayed": 9,
   "weeks": "1",
-  "totalPlayers": 226,
+  "totalPlayers": 228,
   "ratingHistoryWeeks": [
    1
   ],
@@ -12264,7 +13385,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-30";
+  DATA.meta.asOf = "2026-08-31";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
