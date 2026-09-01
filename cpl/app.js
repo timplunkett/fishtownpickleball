@@ -1176,143 +1176,97 @@ function currentPage() {
   };
 }
 
-// The Division selector stays inside one season and spans both leagues, which is
-// the switch people actually make — Cross Club 3.5 to their club's division, in
-// the season they are playing. Crossing seasons is the Season selector's job,
-// beside it. Putting both in one menu was tried on paper and abandoned: a
-// four-season league would list every division four times.
-function divisionSelectorGroups() {
-  const { league: currentDir, season } = currentPage();
-  const groups = CPLShared.catalogLeagues()
-    .map((league) => {
-      // The same season slug in the other league, when it has one. Leagues run
-      // on their own calendars — travel plays spring and fall, the local league
-      // ran a summer season — so the other league very often has no season by
-      // this name, and its current season is the honest thing to offer instead.
-      const match = CPLShared.catalogSeason(league.key, season)
-        || CPLShared.catalogCurrentSeason(league.key);
-      if (!match || !match.divisions.length) return null;
-      const sameSeason = match.slug === season;
-      return {
-        label: sameSeason ? league.label : `${league.label} · ${match.label}`,
-        leagueDir: league.key,
-        season: match.slug,
-        divisions: match.divisions,
-      };
-    })
-    .filter(Boolean);
-
-  if (groups.some((group) => group.leagueDir === currentDir)) return groups;
-
-  // The catalog failed to load, or holds no season by this name for this league.
-  // DIVISIONS is set by bootstrap-runtime.js from the same catalog, so it is
-  // usually empty in exactly this case — but when it is not, this league's own
-  // divisions are worth more than an empty selector.
-  return [{
-    label: 'Divisions',
-    leagueDir: currentDir,
-    season,
-    divisions: DIVISIONS,
-  }];
-}
-
-// Rewrite this page's own URL rather than resolving a relative one: the scheme,
-// host and file name all have to survive, so that this works from a file://
-// preview of index.html as well as from the served directory.
+// Every division the reader might jump to from here, grouped by season across
+// both leagues — CPLShared.seasonsInPlay, the same grouping /cpl/'s own picker
+// uses. This used to be two controls: a Division selector that spanned leagues
+// but stayed inside one season, and a separate Season selector beside it for
+// switching within the current league alone. The two disagreed about what
+// "season" meant — picking the other league in Division could silently land
+// on a season Season still claimed you were on, because Division borrowed that
+// league's *current* season under the covers rather than answering to the
+// Season control next to it. One control removes the disagreement, and reads
+// the same way the picker on /cpl/ already does.
 //
-// A dashboard lives at <root>/<league>/<season>/, so crossing leagues or seasons
-// swaps one or both of the last two segments. The regex is anchored on those two
-// segments together so a league switch cannot land on a season the other league
-// does not have — the caller has already resolved which season it is going to.
-function dashboardUrl(leagueDir, seasonSlug, slug) {
-  const url = new URL(window.location.href);
-  const fileName = (/[^/]+\.html?$/i.exec(url.pathname) || [''])[0];
-  let dir = fileName ? url.pathname.slice(0, -fileName.length) : url.pathname;
-  if (!dir.endsWith('/')) dir += '/';
-  if (seasonSlug) {
-    dir = dir.replace(/[^/]+\/[^/]+\/$/, `${leagueDir}/${seasonSlug}/`);
+// Current seasons only, matching /cpl/'s picker — archived browsing is what
+// /cpl/archive/ is for. The one exception is the page you are actually on: if
+// it is itself an archived season, that season is added back as its own group
+// so the control still shows where you are and still lets you switch divisions
+// within it, rather than offering nothing that matches the page you're on.
+function divisionSelectorGroups() {
+  const { league: currentLeague, season: currentSeasonSlug } = currentPage();
+  const groups = CPLShared.seasonsInPlay('current');
+
+  const alreadyListed = groups.some((group) => (
+    group.slug === currentSeasonSlug && group.entries.some((entry) => entry.key === currentLeague)
+  ));
+  if (!alreadyListed) {
+    const season = CPLShared.catalogSeason(currentLeague, currentSeasonSlug);
+    if (season && season.divisions.length) {
+      const league = CPLShared.catalogLeague(currentLeague);
+      groups.push({
+        slug: season.slug,
+        // Marked the same way the old Season selector marked one, so the
+        // reason this dashboard stopped updating is legible from the control
+        // that got you here.
+        label: `${season.label} (archived)`,
+        entries: [{ key: currentLeague, label: league ? league.label : currentLeague, season }],
+      });
+    }
   }
-  url.pathname = `${dir}${fileName}`;
-  // A division switch is a switch to that division, not to whichever team of it
-  // happens to share a name with the team you were looking at, so ?team= and
-  // ?player= go. Carrying them opened a same-named team in the new division — a
-  // duplicate of the tab you were already on — or, with no match, left a dead
-  // ?team= trailing the URL. ?d= is the only parameter that survives, and it is
-  // the one being changed.
-  url.search = '';
-  url.searchParams.set('d', slug);
-  url.hash = '';
-  return url.toString();
+
+  if (groups.length) return groups;
+
+  // The catalog failed to load, or holds nothing at all. DIVISIONS is set by
+  // bootstrap-runtime.js from the same catalog, so it is usually empty in
+  // exactly this case too — but when it is not, this league's own divisions
+  // are worth more than an empty selector.
+  return DIVISIONS.length
+    ? [{
+      slug: currentSeasonSlug,
+      label: 'Divisions',
+      entries: [{
+        key: currentLeague, label: '', season: { slug: currentSeasonSlug, divisions: DIVISIONS },
+      }],
+    }]
+    : [];
 }
 
 function renderDivisionSelector() {
   const currentSlug = getCurrentDivision()?.slug || '';
-  const { league: currentDir, season: currentSeason } = currentPage();
+  const { league: currentLeague, season: currentSeasonSlug } = currentPage();
   const groups = divisionSelectorGroups();
+  if (!groups.length) return;
 
-  // A single group needs no heading — grouping two divisions of one league under
-  // one label is noise. Two leagues is the case the grouping exists for: it's
-  // what makes a Travel → Local switch possible without going back to /cpl.
-  const renderOptions = (group) => group.divisions.map((div) => {
-    const label = !div.clubName ? div.divisionName : `${div.clubName} — ${div.divisionName}`;
-    const isCurrent = group.leagueDir === currentDir
-      && group.season === currentSeason
-      && div.slug === currentSlug;
-    return `<option value="${escapeHtml(`${group.leagueDir}:${group.season}:${div.slug}`)}"${isCurrent ? ' selected' : ''}>${escapeHtml(label)}</option>`;
-  }).join('');
+  // A single group needs no heading — grouping one season's divisions under its
+  // own label repeats what the whole menu already says. More than one is the
+  // case the grouping exists for: it's what turns a Fall 2026 (Cross Club) →
+  // Summer 2026 (Local) switch, or a trip back to an archived season, into one
+  // click instead of a detour through /cpl/.
+  const optionsFor = (group) => group.entries.map((entry) => (
+    entry.season.divisions.map((division) => {
+      const isCurrent = entry.key === currentLeague
+        && entry.season.slug === currentSeasonSlug
+        && division.slug === currentSlug;
+      const href = CPLShared.divisionHref(entry.key, entry.season.slug, division.slug, '../../');
+      const label = CPLShared.divisionOptionLabel(entry.key, division);
+      return `<option value="${escapeHtml(href)}"${isCurrent ? ' selected' : ''}>${escapeHtml(label)}</option>`;
+    }).join('')
+  )).join('');
 
   elements.divisionSelect.innerHTML = groups.length > 1
     ? groups.map((group) => (
-        `<optgroup label="${escapeHtml(group.label)}">${renderOptions(group)}</optgroup>`
+        `<optgroup label="${escapeHtml(group.label)}">${optionsFor(group)}</optgroup>`
       )).join('')
-    : renderOptions(groups[0]);
+    : optionsFor(groups[0]);
 
+  // The option value is the full path to the target dashboard (see
+  // CPLShared.divisionHref) — the same thing /cpl/'s own picker and the archive
+  // page's division links already navigate with — so there is no ?team=/
+  // ?player= to strip and no path-rewriting of this page's own URL to get
+  // right: it is a fresh relative link, resolved by the browser the same way
+  // any other relative link on the page would be, file:// preview included.
   elements.divisionSelect.addEventListener('change', () => {
-    const [leagueDir, seasonSlug, slug] = elements.divisionSelect.value.split(':');
-    if (!slug) return;
-    window.location.href = dashboardUrl(leagueDir, seasonSlug, slug);
-  });
-}
-
-// The Season selector, beside the Division one.
-//
-// Hidden outright when this league has only ever had one season: a select with a
-// single option is a control that does nothing, and every league starts there.
-// Switching season keeps the division you are looking at when that division ran
-// in the target season too — 3.5 to 3.5 — and falls back to the target season's
-// landing division when it did not, since a bracket can be added or dropped
-// between seasons.
-function renderSeasonSelector() {
-  const wrap = document.getElementById('season-selector-wrap');
-  const select = document.getElementById('season-select');
-  if (!wrap || !select) return;
-
-  const { league, season: currentSeason } = currentPage();
-  const seasons = CPLShared.catalogSeasons(league).filter((entry) => entry.divisions.length);
-  if (seasons.length < 2) {
-    wrap.hidden = true;
-    return;
-  }
-  wrap.hidden = false;
-
-  const currentDivisionName = getCurrentDivision()?.divisionName || '';
-  const currentClubName = getCurrentDivision()?.clubName || '';
-
-  select.innerHTML = seasons.map((entry) => {
-    // Archived seasons are marked in the option text, so the reason a dashboard
-    // stopped updating is legible from the control that got you there.
-    const label = entry.status === 'current' ? entry.label : `${entry.label} (archived)`;
-    return `<option value="${escapeHtml(entry.slug)}"${entry.slug === currentSeason ? ' selected' : ''}>${escapeHtml(label)}</option>`;
-  }).join('');
-
-  select.addEventListener('change', () => {
-    const target = seasons.find((entry) => entry.slug === select.value);
-    if (!target) return;
-    const sameDivision = target.divisions.find((div) => (
-      div.divisionName === currentDivisionName && (div.clubName || '') === currentClubName
-    ));
-    const slug = (sameDivision || target.divisions[0]).slug;
-    window.location.href = dashboardUrl(league, target.slug, slug);
+    if (elements.divisionSelect.value) window.location.href = elements.divisionSelect.value;
   });
 }
 
@@ -3847,7 +3801,6 @@ function handleSwarmOut(event) {
 function initialize() {
   migrateLegacyHashRoute();
   renderHeader();
-  renderSeasonSelector();
   renderDivisionSelector();
   renderSummary();
   renderStandingsViewToggle();

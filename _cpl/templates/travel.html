@@ -42,12 +42,9 @@
            names them. Neutral until then rather than guessing either. -->
       <div class="kicker" id="kicker">Cross Club League</div>
       <div class="division-selector-wrap">
-        <!-- Hidden by renderSeasonSelector when the league has only ever had one
-             season, so a league with nothing to switch between shows no switch. -->
-        <span class="season-selector-wrap" id="season-selector-wrap" hidden>
-          <label for="season-select" class="division-label">Season</label>
-          <select id="season-select"></select>
-        </span>
+        <!-- Grouped by season across both leagues by renderDivisionSelector,
+             the same grouping the picker on /cpl/ uses — one control for both
+             "switch division" and "switch season", not two that disagreed. -->
         <label for="division-select" class="division-label">Division</label>
         <select id="division-select"></select>
       </div>
