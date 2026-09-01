@@ -469,8 +469,8 @@
     "confidence": 55,
     "rank": 2,
     "ratingGames": 7,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -640,7 +640,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 56,
-    "rank": 14,
+    "rank": 13,
     "ratingGames": 8,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.9
@@ -813,7 +813,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 55,
-    "rank": 26,
+    "rank": 25,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.4
@@ -2228,7 +2228,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 54,
-    "rank": 56,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -2499,7 +2499,7 @@
    },
    {
     "week": 2,
-    "rating": 2.4,
+    "rating": 2.3,
     "confidence": 69,
     "rank": 9,
     "ratingGames": 12,
@@ -3247,12 +3247,12 @@
    },
    {
     "week": 2,
-    "rating": 2.1,
+    "rating": 2.2,
     "confidence": 69,
     "rank": 10,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -3527,9 +3527,9 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
+    "rating": 1.6,
     "confidence": 68,
-    "rank": 21,
+    "rank": 17,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -3882,7 +3882,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 58,
-    "rank": 25,
+    "rank": 24,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -4055,7 +4055,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 58,
-    "rank": 55,
+    "rank": 53,
     "ratingGames": 8,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -4524,7 +4524,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 55,
-    "rank": 50,
+    "rank": 49,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.1
@@ -4841,7 +4841,7 @@
     "rank": 61,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -5004,7 +5004,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 57,
-    "rank": 72,
+    "rank": 73,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -1.2
@@ -5464,12 +5464,12 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.8,
     "confidence": 71,
-    "rank": 40,
+    "rank": 38,
     "ratingGames": 14,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -5477,7 +5477,7 @@
     "pid": "b4efc48a-f302-4d27-8c35-0dac1e68eec8",
     "name": "Zyril Carilo",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
@@ -5651,7 +5651,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 55,
-    "rank": 73,
+    "rank": 74,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.7
@@ -5696,7 +5696,7 @@
     "l": 3,
     "gp": 8,
     "pf": 158,
-    "pa": 147,
+    "pa": 156,
     "mx": [
      0,
      0
@@ -5706,7 +5706,7 @@
      3
     ],
     "cl": [
-     3,
+     4,
      1
     ],
     "teamRes": "L",
@@ -5919,7 +5919,7 @@
      "Austin Gow"
     ],
     "f": 21,
-    "a": 10,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -5986,32 +5986,32 @@
    },
    {
     "week": 2,
-    "rating": 1.9,
+    "rating": 1.4,
     "confidence": 74,
-    "rank": 12,
+    "rank": 23,
     "ratingGames": 16,
-    "strengthOfPartners": 0,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
    {
-    "pid": "9e264c96-36cf-45a9-90ad-1e125a82c851",
-    "name": "William Lee",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
     "pid": "2caf34a7-c53c-410c-a7b4-47dd61398830",
     "name": "Ron Branca",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.4
    },
    {
     "pid": "3533f5a2-d7ed-4fd3-b969-5117c0474452",
     "name": "Alex Pecora",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0.2
+   },
+   {
+    "pid": "9e264c96-36cf-45a9-90ad-1e125a82c851",
+    "name": "William Lee",
+    "n": 3,
+    "synergy": -0.2
    }
   ]
  },
@@ -6344,7 +6344,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 72,
-    "rank": 19,
+    "rank": 20,
     "ratingGames": 16,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.2
@@ -6681,7 +6681,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 73,
-    "rank": 13,
+    "rank": 12,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -7301,7 +7301,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 69,
-    "rank": 112,
+    "rank": 113,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.1
@@ -7774,9 +7774,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 54,
-    "rank": 51,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -7915,12 +7915,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.4,
     "confidence": 53,
-    "rank": 28,
+    "rank": 26,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -8761,7 +8761,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 58,
-    "rank": 16,
+    "rank": 15,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.1
@@ -9098,7 +9098,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 70,
-    "rank": 29,
+    "rank": 28,
     "ratingGames": 16,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.1
@@ -9778,7 +9778,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 69,
-    "rank": 30,
+    "rank": 29,
     "ratingGames": 15,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
@@ -9922,353 +9922,13 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 48,
-    "rank": 15,
+    "rank": 14,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
- },
- "9e264c96-36cf-45a9-90ad-1e125a82c851": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Moorestown",
-    "homeAway": "A",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 140,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     3,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 116,
-    "pa": 131,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Joshua Mindlin",
-    "vs": [
-     "Daniel Ehala",
-     "Bryan Nardone"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Ron Branca",
-    "vs": [
-     "Matthew Mintz",
-     "Bryan Nardone"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Timoty Cahalin",
-    "vs": [
-     "Josh Sherlock",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Greg Mitchell",
-    "vs": [
-     "Shayne Clowar",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Christian Lupica",
-    "vs": [
-     "Riguo Zheng",
-     "Nachiket Vaidya"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Derek Callihan",
-    "vs": [
-     "Daniel Ehala",
-     "Matthew Mintz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Christian Lupica",
-    "vs": [
-     "Daniel Ehala",
-     "Robert Finley"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Moorestown",
-    "t": "male",
-    "with": "Joshua Mindlin",
-    "vs": [
-     "Matthew Mintz",
-     "Josh Sherlock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Christian Lupica",
-    "vs": [
-     "Shawn Ganow",
-     "Austin Gow"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jaco De Waal",
-    "vs": [
-     "Andre Cristobal",
-     "Lou Frignito"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Christian Lupica",
-    "vs": [
-     "Vaughn Lawrence",
-     "Lou Frignito"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Timoty Cahalin",
-    "vs": [
-     "Andre Cristobal",
-     "Anushk Gupta"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Joshua Mindlin",
-    "vs": [
-     "Scott Bohrer",
-     "Austin Gow"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Timoty Cahalin",
-    "vs": [
-     "Vaughn Lawrence",
-     "Anushk Gupta"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Derek Callihan",
-    "vs": [
-     "Vaughn Lawrence",
-     "Lou Frignito"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.4,
-    "confidence": 56,
-    "rank": 13,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "rating": 0.8,
-    "confidence": 72,
-    "rank": 36,
-    "ratingGames": 15,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
-    "name": "Timoty Cahalin",
-    "n": 3,
-    "synergy": 0.8
-   },
-   {
-    "pid": "439d9ebf-9409-4214-ad91-7c18a0153c71",
-    "name": "Joshua Mindlin",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
-    "pid": "ac97d2bc-5ee7-4285-8eb3-e5650a0f6f6e",
-    "name": "Christian Lupica",
-    "n": 4,
-    "synergy": -0.9
-   }
-  ]
  },
  "9fa77cf9-39da-4bfe-8ada-d01143ca498c": {
   "log": [
@@ -10501,12 +10161,12 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": 0,
     "confidence": 64,
-    "rank": 78,
+    "rank": 71,
     "ratingGames": 10,
     "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -10520,7 +10180,347 @@
     "pid": "515009fd-ac6a-4124-a871-dff85a118781",
     "name": "Hiep Pham",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
+   }
+  ]
+ },
+ "9e264c96-36cf-45a9-90ad-1e125a82c851": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Moorestown",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 140,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 116,
+    "pa": 140,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Daniel Ehala",
+     "Bryan Nardone"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Ron Branca",
+    "vs": [
+     "Matthew Mintz",
+     "Bryan Nardone"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Timoty Cahalin",
+    "vs": [
+     "Josh Sherlock",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Greg Mitchell",
+    "vs": [
+     "Shayne Clowar",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Christian Lupica",
+    "vs": [
+     "Riguo Zheng",
+     "Nachiket Vaidya"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Derek Callihan",
+    "vs": [
+     "Daniel Ehala",
+     "Matthew Mintz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Christian Lupica",
+    "vs": [
+     "Daniel Ehala",
+     "Robert Finley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Moorestown",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Matthew Mintz",
+     "Josh Sherlock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Christian Lupica",
+    "vs": [
+     "Shawn Ganow",
+     "Austin Gow"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jaco De Waal",
+    "vs": [
+     "Andre Cristobal",
+     "Lou Frignito"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Christian Lupica",
+    "vs": [
+     "Vaughn Lawrence",
+     "Lou Frignito"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Timoty Cahalin",
+    "vs": [
+     "Andre Cristobal",
+     "Anushk Gupta"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joshua Mindlin",
+    "vs": [
+     "Scott Bohrer",
+     "Austin Gow"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Timoty Cahalin",
+    "vs": [
+     "Vaughn Lawrence",
+     "Anushk Gupta"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Derek Callihan",
+    "vs": [
+     "Vaughn Lawrence",
+     "Lou Frignito"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 56,
+    "rank": 13,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 72,
+    "rank": 57,
+    "ratingGames": 15,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
+    "name": "Timoty Cahalin",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "439d9ebf-9409-4214-ad91-7c18a0153c71",
+    "name": "Joshua Mindlin",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "ac97d2bc-5ee7-4285-8eb3-e5650a0f6f6e",
+    "name": "Christian Lupica",
+    "n": 4,
+    "synergy": -0.8
    }
   ]
  },
@@ -10641,7 +10641,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 51,
-    "rank": 57,
+    "rank": 56,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1.1
@@ -10914,9 +10914,9 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 69,
-    "rank": 31,
+    "rank": 30,
     "ratingGames": 12,
-    "strengthOfPartners": -0.4,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -10925,7 +10925,7 @@
     "pid": "19cb95ac-bec2-41bb-a6ce-767d51e00f24",
     "name": "Matthew Eldridge",
     "n": 3,
-    "synergy": 1.7
+    "synergy": 1.6
    },
    {
     "pid": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f",
@@ -11198,12 +11198,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
+    "rating": 0.9,
     "confidence": 69,
     "rank": 37,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -11787,8 +11787,8 @@
     "confidence": 69,
     "rank": 48,
     "ratingGames": 14,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -11796,13 +11796,13 @@
     "pid": "439d9ebf-9409-4214-ad91-7c18a0153c71",
     "name": "Joshua Mindlin",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.4
    },
    {
     "pid": "3533f5a2-d7ed-4fd3-b969-5117c0474452",
     "name": "Alex Pecora",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    }
   ]
  },
@@ -12101,11 +12101,11 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.3,
     "confidence": 71,
-    "rank": 23,
+    "rank": 27,
     "ratingGames": 14,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -12579,11 +12579,11 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
+    "rating": 1.6,
     "confidence": 55,
-    "rank": 22,
+    "rank": 19,
     "ratingGames": 7,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -12747,7 +12747,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 74,
+    "rank": 76,
     "ratingGames": 7,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.2
@@ -12911,11 +12911,11 @@
    },
    {
     "week": 2,
-    "rating": 0.1,
+    "rating": 0,
     "confidence": 54,
-    "rank": 64,
+    "rank": 75,
     "ratingGames": 7,
-    "strengthOfPartners": 0.7,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -13216,11 +13216,11 @@
    },
    {
     "week": 2,
-    "rating": -0.3,
+    "rating": -0.1,
     "confidence": 70,
-    "rank": 83,
+    "rank": 78,
     "ratingGames": 14,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -13229,7 +13229,7 @@
     "pid": "9e264c96-36cf-45a9-90ad-1e125a82c851",
     "name": "William Lee",
     "n": 4,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -13728,7 +13728,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 74,
-    "rank": 39,
+    "rank": 40,
     "ratingGames": 16,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.5
@@ -14720,7 +14720,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 71,
-    "rank": 20,
+    "rank": 21,
     "ratingGames": 15,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.5
@@ -15060,7 +15060,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 72,
-    "rank": 35,
+    "rank": 34,
     "ratingGames": 15,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -15261,7 +15261,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 57,
-    "rank": 17,
+    "rank": 16,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -15596,9 +15596,9 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": 0,
     "confidence": 74,
-    "rank": 76,
+    "rank": 65,
     "ratingGames": 16,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -15609,13 +15609,13 @@
     "pid": "439d9ebf-9409-4214-ad91-7c18a0153c71",
     "name": "Joshua Mindlin",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "2caf34a7-c53c-410c-a7b4-47dd61398830",
     "name": "Ron Branca",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    }
   ]
  },
@@ -15784,7 +15784,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 59,
-    "rank": 85,
+    "rank": 84,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -15955,12 +15955,285 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.5,
     "confidence": 58,
-    "rank": 24,
+    "rank": 22,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "0e577096-0b13-441d-b087-cc49cb55cfe2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 119,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 104,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Dustin Rabinowitz",
+    "vs": [
+     "Adriene Khon",
+     "Justin Bautista"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jonah Karczmer",
+    "vs": [
+     "Zachary Lessner",
+     "Brandyn Schuchart"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Scott Bohrer",
+    "vs": [
+     "Adriene Khon",
+     "Justin Chin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Mark Kilimnik",
+    "vs": [
+     "Josh Knupp",
+     "Justin Chin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ryan Rosen",
+    "vs": [
+     "Zyril Carilo",
+     "Hiep Pham"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ryan Rosen",
+    "vs": [
+     "Alex Mihalca",
+     "Josh Knupp"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Shawn Ganow",
+    "vs": [
+     "William Lee",
+     "Christian Lupica"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Vaughn Lawrence",
+    "vs": [
+     "Christian Lupica",
+     "Timoty Cahalin"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Dustin Rabinowitz",
+    "vs": [
+     "Thomas Fenton",
+     "Alex Pecora"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Scott Bohrer",
+    "vs": [
+     "William Lee",
+     "Joshua Mindlin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Mark Kilimnik",
+    "vs": [
+     "Derek Callihan",
+     "Jaco De Waal"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Anushk Gupta",
+    "vs": [
+     "Christian Lupica",
+     "Alex Pecora"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 71,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 69,
+    "rank": 36,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -16228,9 +16501,9 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 68,
-    "rank": 49,
+    "rank": 52,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
@@ -16919,283 +17192,10 @@
     "week": 2,
     "rating": 1,
     "confidence": 47,
-    "rank": 34,
+    "rank": 33,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "0e577096-0b13-441d-b087-cc49cb55cfe2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 119,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 113,
-    "pa": 104,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Dustin Rabinowitz",
-    "vs": [
-     "Adriene Khon",
-     "Justin Bautista"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Jonah Karczmer",
-    "vs": [
-     "Zachary Lessner",
-     "Brandyn Schuchart"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Scott Bohrer",
-    "vs": [
-     "Adriene Khon",
-     "Justin Chin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Mark Kilimnik",
-    "vs": [
-     "Josh Knupp",
-     "Justin Chin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ryan Rosen",
-    "vs": [
-     "Zyril Carilo",
-     "Hiep Pham"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ryan Rosen",
-    "vs": [
-     "Alex Mihalca",
-     "Josh Knupp"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Shawn Ganow",
-    "vs": [
-     "William Lee",
-     "Christian Lupica"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Vaughn Lawrence",
-    "vs": [
-     "Christian Lupica",
-     "Timoty Cahalin"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Dustin Rabinowitz",
-    "vs": [
-     "Thomas Fenton",
-     "Alex Pecora"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Scott Bohrer",
-    "vs": [
-     "William Lee",
-     "Joshua Mindlin"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Mark Kilimnik",
-    "vs": [
-     "Derek Callihan",
-     "Jaco De Waal"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Anushk Gupta",
-    "vs": [
-     "Christian Lupica",
-     "Alex Pecora"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.6,
-    "confidence": 51,
-    "rank": 71,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 2,
-    "rating": 0.4,
-    "confidence": 69,
-    "rank": 54,
-    "ratingGames": 12,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -17349,7 +17349,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 65,
+    "rank": 64,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -17531,7 +17531,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 55,
-    "rank": 38,
+    "rank": 39,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.3
@@ -17812,15 +17812,15 @@
   ],
   "partners": [
    {
-    "pid": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
-    "name": "Justin Chin",
-    "n": 3,
-    "synergy": -0.1
-   },
-   {
     "pid": "b4efc48a-f302-4d27-8c35-0dac1e68eec8",
     "name": "Zyril Carilo",
     "n": 4,
+    "synergy": -0.1
+   },
+   {
+    "pid": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
+    "name": "Justin Chin",
+    "n": 3,
     "synergy": -0.2
    },
    {
@@ -18126,12 +18126,12 @@
    },
    {
     "week": 2,
-    "rating": 1,
+    "rating": 0.9,
     "confidence": 71,
-    "rank": 33,
+    "rank": 35,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -18139,7 +18139,7 @@
     "pid": "a479d794-d9d0-4620-b322-b7f249f2ae5f",
     "name": "Bryan Nardone",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "329df703-2af3-46cd-a7ae-372a1956536e",
@@ -18151,7 +18151,7 @@
     "pid": "30b75fd5-95cf-4a1a-b296-10e7e381166e",
     "name": "Shayne Clowar",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -18297,9 +18297,9 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 55,
-    "rank": 103,
+    "rank": 102,
     "ratingGames": 6,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -18479,7 +18479,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 58,
-    "rank": 101,
+    "rank": 100,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.6
@@ -18661,7 +18661,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 54,
-    "rank": 87,
+    "rank": 86,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 1.1
@@ -18968,7 +18968,7 @@
     "confidence": 71,
     "rank": 95,
     "ratingGames": 14,
-    "strengthOfPartners": 0.7,
+    "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -19310,9 +19310,9 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 74,
-    "rank": 98,
+    "rank": 97,
     "ratingGames": 16,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
    }
   ],
@@ -19622,7 +19622,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 71,
-    "rank": 53,
+    "rank": 51,
     "ratingGames": 14,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -19950,7 +19950,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 73,
-    "rank": 52,
+    "rank": 50,
     "ratingGames": 15,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -20290,9 +20290,9 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 73,
-    "rank": 107,
+    "rank": 108,
     "ratingGames": 15,
-    "strengthOfPartners": -0.4,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -20301,7 +20301,7 @@
     "pid": "9e264c96-36cf-45a9-90ad-1e125a82c851",
     "name": "William Lee",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 1
    },
    {
     "pid": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
@@ -20592,7 +20592,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 68,
-    "rank": 123,
+    "rank": 124,
     "ratingGames": 13,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
@@ -20830,7 +20830,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 63,
-    "rank": 88,
+    "rank": 89,
     "ratingGames": 9,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
@@ -21524,7 +21524,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 74,
-    "rank": 99,
+    "rank": 98,
     "ratingGames": 16,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -22184,11 +22184,11 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": -0.2,
     "confidence": 69,
-    "rank": 77,
+    "rank": 80,
     "ratingGames": 14,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -22352,7 +22352,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 56,
-    "rank": 86,
+    "rank": 85,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.5
@@ -22673,11 +22673,11 @@
    },
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -1.3,
     "confidence": 57,
-    "rank": 111,
+    "rank": 114,
     "ratingGames": 7,
-    "strengthOfPartners": -1.3,
+    "strengthOfPartners": -1.4,
     "strengthOfOpponents": -0.5
    }
   ],
@@ -23112,11 +23112,11 @@
    },
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.1,
     "confidence": 69,
-    "rank": 27,
+    "rank": 31,
     "ratingGames": 12,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
    }
   ],
@@ -23394,7 +23394,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 69,
-    "rank": 133,
+    "rank": 132,
     "ratingGames": 12,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.7
@@ -23405,7 +23405,7 @@
     "pid": "51352d99-02ac-4299-abac-a688bfade22f",
     "name": "Al Mancini",
     "n": 3,
-    "synergy": 1.7
+    "synergy": 1.6
    },
    {
     "pid": "ce590106-6f19-43b7-8a91-4dc31d28eb31",
@@ -24034,11 +24034,11 @@
    },
    {
     "week": 2,
-    "rating": -0.3,
+    "rating": -0.4,
     "confidence": 68,
-    "rank": 84,
+    "rank": 88,
     "ratingGames": 13,
-    "strengthOfPartners": 0.7,
+    "strengthOfPartners": 0.8,
     "strengthOfOpponents": 1
    }
   ],
@@ -24047,13 +24047,13 @@
     "pid": "27660961-6245-4b09-aafe-359ca3205797",
     "name": "Justin Bautista",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "515009fd-ac6a-4124-a871-dff85a118781",
     "name": "Hiep Pham",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -24231,7 +24231,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 55,
-    "rank": 94,
+    "rank": 93,
     "ratingGames": 8,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -24413,7 +24413,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 56,
-    "rank": 93,
+    "rank": 92,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.1
@@ -24597,7 +24597,7 @@
     "confidence": 59,
     "rank": 127,
     "ratingGames": 8,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.1,
     "strengthOfOpponents": -1
    }
   ],
@@ -25118,7 +25118,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 57,
-    "rank": 89,
+    "rank": 90,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.6
@@ -25455,7 +25455,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 70,
-    "rank": 100,
+    "rank": 99,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -25777,12 +25777,12 @@
    },
    {
     "week": 2,
-    "rating": -0.2,
+    "rating": -0.3,
     "confidence": 72,
-    "rank": 80,
+    "rank": 83,
     "ratingGames": 14,
     "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -25790,7 +25790,7 @@
     "pid": "2ee28d63-2f38-468f-b824-9b17aa938413",
     "name": "Daniel Ehala",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 0.5
    }
   ]
  },
@@ -26249,12 +26249,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.6,
+    "rating": -0.7,
     "confidence": 53,
-    "rank": 96,
+    "rank": 103,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -26399,11 +26399,11 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
+    "rating": -0.5,
     "confidence": 52,
-    "rank": 90,
+    "rank": 94,
     "ratingGames": 6,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
    }
   ],
@@ -26549,12 +26549,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
+    "rating": -0.3,
     "confidence": 52,
-    "rank": 91,
+    "rank": 87,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -26849,12 +26849,12 @@
    },
    {
     "week": 2,
-    "rating": -0.9,
+    "rating": -0.8,
     "confidence": 51,
-    "rank": 108,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -27001,7 +27001,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 50,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
@@ -27276,7 +27276,7 @@
     "confidence": 68,
     "rank": 116,
     "ratingGames": 12,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -27932,7 +27932,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 71,
-    "rank": 118,
+    "rank": 117,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -28244,7 +28244,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 64,
-    "rank": 136,
+    "rank": 135,
     "ratingGames": 13,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0
@@ -28417,7 +28417,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 49,
-    "rank": 97,
+    "rank": 96,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.2
@@ -28574,7 +28574,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 75,
+    "rank": 77,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -28731,7 +28731,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 52,
-    "rank": 122,
+    "rank": 123,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -28888,7 +28888,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 58,
-    "rank": 71,
+    "rank": 72,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 1.2
@@ -29054,7 +29054,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 58,
-    "rank": 109,
+    "rank": 110,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.1
@@ -29220,7 +29220,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 58,
-    "rank": 134,
+    "rank": 133,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.2
@@ -29870,7 +29870,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 53,
-    "rank": 113,
+    "rank": 115,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.3
@@ -31003,7 +31003,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 56,
-    "rank": 102,
+    "rank": 101,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -31047,7 +31047,7 @@
     "w": 1,
     "l": 5,
     "gp": 6,
-    "pf": 96,
+    "pf": 105,
     "pa": 116,
     "mx": [
      0,
@@ -31059,7 +31059,7 @@
     ],
     "cl": [
      0,
-     2
+     3
     ],
     "teamRes": "W",
     "teamGW": 19,
@@ -31222,7 +31222,7 @@
      "William Lee",
      "Joshua Mindlin"
     ],
-    "f": 10,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -31274,12 +31274,12 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -0.9,
     "confidence": 69,
-    "rank": 115,
+    "rank": 109,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -31627,9 +31627,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.8,
+    "rating": -1.7,
     "confidence": 58,
-    "rank": 124,
+    "rank": 122,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -31966,7 +31966,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 72,
-    "rank": 132,
+    "rank": 131,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
@@ -32274,10 +32274,10 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 70,
-    "rank": 92,
+    "rank": 91,
     "ratingGames": 13,
     "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -32568,11 +32568,11 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -1.3,
     "confidence": 70,
-    "rank": 114,
+    "rank": 112,
     "ratingGames": 13,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -32894,9 +32894,9 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 69,
-    "rank": 119,
+    "rank": 118,
     "ratingGames": 14,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -32911,7 +32911,7 @@
     "pid": "2ee28d63-2f38-468f-b824-9b17aa938413",
     "name": "Daniel Ehala",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -33226,11 +33226,11 @@
    },
    {
     "week": 2,
-    "rating": -1.5,
+    "rating": -1.6,
     "confidence": 73,
-    "rank": 117,
+    "rank": 120,
     "ratingGames": 15,
-    "strengthOfPartners": -1.4,
+    "strengthOfPartners": -1.5,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -33389,12 +33389,12 @@
    },
    {
     "week": 2,
-    "rating": -2.2,
+    "rating": -2.5,
     "confidence": 52,
-    "rank": 131,
+    "rank": 136,
     "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -34164,7 +34164,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 67,
-    "rank": 135,
+    "rank": 134,
     "ratingGames": 14,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
@@ -34538,7 +34538,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 58,
-    "rank": 120,
+    "rank": 119,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1.5

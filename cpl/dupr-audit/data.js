@@ -2484,6 +2484,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Caitlin Hall",
+   "playerId": "6774a445-ef5d-478f-a7ca-d77c9217d1aa",
+   "team": "Pickle House",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Caitlyn Suchanic",
    "playerId": "97a33ff9-4337-4782-8906-226561b07c72",
    "team": "Picklr Newark",

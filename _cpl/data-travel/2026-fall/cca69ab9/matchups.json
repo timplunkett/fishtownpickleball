@@ -113,9 +113,9 @@
       "weekNumber": 2,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 661,
+      "awayPoints": 591,
+      "endResult": "home",
       "scheduledTime": "2026-08-31T19:30:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "Premiere"
