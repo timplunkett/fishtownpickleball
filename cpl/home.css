@@ -146,8 +146,8 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 /* The signpost links out of the landing page's boxes. Only the size is local,
    and it is scoped to the boxes: the archive table's division links are also
-   .app-link, and they take their size from the table rather than from here.
-   The colour and hover underline come from .app-link in styles.css. */
+   .app-link and take their size from the table. Colour and underline come from
+   the Links block in styles.css. */
 .panel .app-link { font-size: .875rem; }
 
 #archive-panel[hidden] { display: none; }
@@ -359,14 +359,8 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   color: var(--mut);
 }
 
-/* Same role as .app-link; the markup comes from shared.js's formatDuprRating,
-   which emits a bare anchor. */
-.player-result-dupr a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.player-result-dupr a:hover { text-decoration: underline; }
+/* A bare anchor from shared.js's formatDuprRating; the Links block in styles.css
+   is what styles it. Nothing local left to say about it. */
 .player-result-entries { display: flex; flex-direction: column; }
 
 .player-result-entry {

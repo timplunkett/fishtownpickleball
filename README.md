@@ -138,7 +138,11 @@ produces no diff.
 
 Archived seasons keep their full dashboards, stay in the player finder forever,
 and are dropped from the DUPR bracket audit (auditing a finished roster against
-today's ratings reports post-season drift as in-season misplacement).
+today's ratings reports post-season drift as in-season misplacement). The audit
+groups and filters by **season** rather than by league — every division on it is
+from a season still being played, and with the two leagues on different
+calendars, which season says more than which league. `dupr-audit-scope.test.js`
+asserts nothing archived reaches it.
 
 `--season=<slug>` is the only way to fetch a season that is not current. The
 crons never pass it, so no scheduled run can reach an archive; a run that does
@@ -219,13 +223,11 @@ The dashboard markup is **not** generated: `_cpl/templates/local.html` and
 into every season directory on compile. Edit those, never the copies.
 
 **Link styling** is defined once, in `cpl/styles.css`, which all three page
-types load. Two roles cover every link in the app: `.app-link` for navigation
-the reader should notice (accent, underline on hover) and `.data-link` — with
-its older aliases `.pname` and `.audit-link` — for links that are the content of
-a dense table (surrounding colour, dotted underline, accent on hover). `.back-link`
-is the way up a level. A test checks that every link class the pages emit
-resolves to a rule with a hover state; the archive's division links once had
-neither, and read as plain text.
+types load: a link is accent and underlined, and `a`, `.app-link`, `.pname` and
+`.audit-link` all share the one rule. Two things opt out because neither is a
+text link — `.back-link` is chrome labelling the way up a level, and
+`.player-result-entry` is a whole-row anchor whose affordance is its hover
+background. A test asserts the shared rule still covers all four selectors.
 
 Neither are the three standalone pages — `cpl/index.html` + `cpl/home.js`,
 `cpl/archive/` and `cpl/dupr-audit/index.html`. They read the generated data

@@ -8,7 +8,7 @@
      engine is not. The Open Graph tags are unaffected by that and are meant to
      be: robots rules govern crawlers, unfurlers read OG. -->
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="Rostered players whose DUPR rating sits outside their division's expected bracket, across the Cross Club League and local club leagues.">
+<meta name="description" content="Rostered players whose DUPR rating sits outside their division's expected bracket, across the seasons currently being played.">
 <meta name="theme-color" content="#0e1116">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/assets/logo.png">
@@ -74,7 +74,9 @@
   <header class="audit-head">
     <div class="kicker">CPL • Philadelphia</div>
     <h1>DUPR Bracket Audit</h1>
-    <p class="audit-sub">Players whose DUPR is outside the expected division bracket across travel and local leagues.</p>
+    <p class="audit-sub">Players whose DUPR is outside the expected division bracket. Seasons still being
+    played only — a finished season is compared against ratings that have moved on since, which reports
+    post-season drift as an in-season misplacement.</p>
   </header>
 
   <div class="caveat">
@@ -91,8 +93,8 @@
 
   <div class="controls">
     <div>
-      <label for="league-filter">League</label>
-      <select id="league-filter"><option value="all">All leagues</option></select>
+      <label for="season-filter">Season</label>
+      <select id="season-filter"><option value="all">All seasons</option></select>
     </div>
     <div>
       <label for="division-filter">Division</label>
@@ -161,7 +163,8 @@
   }
 
   function divisionUrl(row) {
-    return '../' + encodeURIComponent(row.leaguePath) + '/?d=' + encodeURIComponent(row.slug);
+    return '../' + encodeURIComponent(row.leaguePath) + '/' + encodeURIComponent(row.seasonSlug) +
+      '/?d=' + encodeURIComponent(row.slug);
   }
 
   function teamUrl(row) {
@@ -180,7 +183,7 @@
   // Rows are precomputed by the pipeline (data.js next to this page); only the
   // DUPR values are joined here from dupr-ratings.js, which the DUPR workflow
   // refreshes without recompiling divisions. An 'NR' rating counts as missing.
-  // Division label, league and bracket are stored once per division in
+  // Division label, season, league and bracket are stored once per division in
   // DUPR_AUDIT.divisions (keyed by slug) and flattened onto each row here.
   function buildRows() {
     var data = window.DUPR_AUDIT || {};
@@ -195,7 +198,12 @@
         name: row.name,
         playerId: row.playerId || null,
         team: row.team || '',
-        league: division.league === 'travel' ? 'Travel' : 'Local',
+        // The league is still needed to build a dashboard URL, but it is no
+        // longer a column: every division here is from a current season, and
+        // which season that is says more than which league, since the two run
+        // on different calendars.
+        season: division.seasonLabel || '',
+        seasonSlug: division.season || '',
         leaguePath: division.league,
         division: division.division || '',
         slug: row.slug,
@@ -243,7 +251,7 @@
   }
 
   function getSortValue(row, key) {
-    if (key === 'name' || key === 'team' || key === 'league' || key === 'division' || key === 'statusLabel' || key === 'gender') {
+    if (key === 'name' || key === 'team' || key === 'season' || key === 'division' || key === 'statusLabel' || key === 'gender') {
       return String(row[key] || '').toLowerCase();
     }
     if (key === 'expected') {
@@ -276,13 +284,13 @@
   }
 
   function getFilteredOutliers() {
-    var league = selectedValue('league-filter');
+    var season = selectedValue('season-filter');
     var division = selectedValue('division-filter');
     var gender = selectedValue('gender-filter');
     var team = selectedValue('team-filter');
 
     return outliers.filter(function (row) {
-      return (league === 'all' || row.league === league) &&
+      return (season === 'all' || row.season === season) &&
         (division === 'all' || row.slug === division) &&
         (gender === 'all' || row.gender === gender) &&
         (team === 'all' || row.team === team);
@@ -331,7 +339,7 @@
       return '<tr>' +
         '<td>' + linkCell(row.name, playerUrl(row)) + '</td>' +
         '<td>' + linkCell(row.team || '—', teamUrl(row)) + '</td>' +
-        '<td>' + escapeHtml(row.league) + '</td>' +
+        '<td>' + escapeHtml(row.season) + '</td>' +
         '<td>' + linkCell(row.division, divisionUrl(row)) + '</td>' +
         '<td>' + escapeHtml(row.gender) + '</td>' +
         '<td>' + expectedBracketText(row) + '</td>' +
@@ -343,7 +351,7 @@
     table.innerHTML = '<thead><tr>' +
       header('Player', 'name', true) +
       header('Team', 'team', true) +
-      header('League', 'league', true) +
+      header('Season', 'season', true) +
       header('Division', 'division', true) +
       header('Gender', 'gender', true) +
       header('Expected DUPR', 'expected', true) +
@@ -369,7 +377,7 @@
       return '<tr>' +
         '<td>' + linkCell(row.name, playerUrl(row)) + '</td>' +
         '<td>' + linkCell(row.team || '—', teamUrl(row)) + '</td>' +
-        '<td>' + escapeHtml(row.league) + '</td>' +
+        '<td>' + escapeHtml(row.season) + '</td>' +
         '<td>' + linkCell(row.division, divisionUrl(row)) + '</td>' +
         '<td>' + escapeHtml(row.gender) + '</td>' +
         '<td>' + expectedBracketText(row) + '</td>' +
@@ -379,7 +387,7 @@
     table.innerHTML = '<thead><tr>' +
       '<th>Player</th>' +
       '<th>Team</th>' +
-      '<th>League</th>' +
+      '<th>Season</th>' +
       '<th>Division</th>' +
       '<th>Gender</th>' +
       '<th>Expected DUPR</th>' +
@@ -387,19 +395,20 @@
   }
 
   function populateFilters() {
-    var leagueSelect = document.getElementById('league-filter');
+    var seasonSelect = document.getElementById('season-filter');
     var divisionSelect = document.getElementById('division-filter');
     var genderSelect = document.getElementById('gender-filter');
     var teamSelect = document.getElementById('team-filter');
-    if (!leagueSelect || !divisionSelect || !genderSelect || !teamSelect) return;
+    if (!seasonSelect || !divisionSelect || !genderSelect || !teamSelect) return;
 
-    var leagues = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.league; }))).sort();
-    leagueSelect.innerHTML = '<option value="all">All leagues</option>' + leagues.map(function (league) {
-      return '<option value="' + escapeHtml(league) + '">' + escapeHtml(league) + '</option>';
+    var seasons = Array.from(new Set(outliers.concat(missing).map(function (row) { return row.season; })))
+      .filter(Boolean).sort();
+    seasonSelect.innerHTML = '<option value="all">All seasons</option>' + seasons.map(function (season) {
+      return '<option value="' + escapeHtml(season) + '">' + escapeHtml(season) + '</option>';
     }).join('');
     var divisionLabelsBySlug = {};
     outliers.concat(missing).forEach(function (row) {
-      divisionLabelsBySlug[row.slug] = row.league + ' • ' + row.division;
+      divisionLabelsBySlug[row.slug] = row.season + ' • ' + row.division;
     });
     var slugs = Object.keys(divisionLabelsBySlug).sort(function (a, b) {
       return divisionLabelsBySlug[a].localeCompare(divisionLabelsBySlug[b]);
@@ -434,7 +443,7 @@
   }
 
   function attachEvents() {
-    ['division-filter', 'league-filter', 'gender-filter', 'team-filter'].forEach(function (id) {
+    ['division-filter', 'season-filter', 'gender-filter', 'team-filter'].forEach(function (id) {
       var element = document.getElementById(id);
       if (element) {
         element.addEventListener('change', renderAll);
@@ -454,7 +463,7 @@
           sortState.direction *= -1;
         } else {
           sortState.key = key;
-          sortState.direction = key === 'name' || key === 'team' || key === 'league' || key === 'division' || key === 'gender' ? 1 : -1;
+          sortState.direction = key === 'name' || key === 'team' || key === 'season' || key === 'division' || key === 'gender' ? 1 : -1;
         }
         renderAll();
       };

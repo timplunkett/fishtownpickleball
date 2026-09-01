@@ -3,60 +3,80 @@ window.DUPR_AUDIT = {
   "1e12eb3f": {
    "division": "3.0 (50+)",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3,
    "max": 3.5
   },
   "2edc44e7": {
    "division": "4.0 (50+)",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 4,
    "max": null
   },
   "6619816f": {
    "division": "4.5",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 4.5,
    "max": null
   },
   "a1413f3d": {
    "division": "4.0",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 4,
    "max": 4.5
   },
   "ad44e3bd": {
    "division": "3.25 Womens",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3.25,
    "max": 3.75
   },
   "b7ca04e4": {
    "division": "3.5",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3.5,
    "max": 4
   },
   "c118b8e9": {
    "division": "3.75 Mens",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3.75,
    "max": 4.25
   },
   "c43b8608": {
    "division": "3.5 (50+)",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3.5,
    "max": 4
   },
   "cca69ab9": {
    "division": "4.5 Mens",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 4.5,
    "max": null
   },
   "e27386b3": {
    "division": "3.0",
    "league": "travel",
+   "season": "2026-fall",
+   "seasonLabel": "Fall 2026",
    "min": 3,
    "max": 3.5
   }

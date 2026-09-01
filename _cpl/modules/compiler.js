@@ -1174,6 +1174,13 @@ function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
             auditDivisions[div.slug] = {
               division: div.clubName ? `${div.clubName} • ${div.divisionName}` : div.divisionName,
               league,
+              // The audit only ever holds current seasons (see the guard on the
+              // condition above), but which current season a division belongs to
+              // is not obvious from its name — the two leagues are on different
+              // calendars, so a page showing both is showing two season names at
+              // once. The page groups and filters on this rather than on league.
+              season: season.slug,
+              seasonLabel: season.label,
               min: bracket.min,
               max: Number.isFinite(bracket.max) ? bracket.max : null,
             };

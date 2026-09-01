@@ -495,17 +495,29 @@ test('every link class the pages emit is defined in a stylesheet', () => {
   assert.deepEqual(undefinedClasses, [], 'link classes with no rule behind them');
 });
 
-test('each link role carries a colour and a hover state', () => {
+test('every link class shares one rule, and that rule underlines', () => {
   const css = fs.readFileSync(path.join(CPL, 'styles.css'), 'utf8');
-  // A role with no hover state is the bug this is guarding: it looks like text
-  // and stays looking like text under the cursor.
-  ['app-link', 'data-link', 'back-link'].forEach((role) => {
-    assert.ok(css.includes(`.${role} {`) || css.includes(`.${role},`), `${role} has no rule`);
-    assert.ok(css.includes(`.${role}:hover`), `${role} has no hover state`);
+  // One rule covering all of them is the point: the drift this replaced came
+  // from each page deciding for itself what a link looked like.
+  const block = /\n((?:[.a-z-]+,\n)*[.a-z-]+) \{\n([^}]*text-decoration: underline;[^}]*)\}/.exec(css);
+  assert.ok(block, 'no rule sets a link underline');
+  const selectors = block[1].split(',\n').map((line) => line.trim());
+  ['a', '.app-link', '.pname', '.audit-link'].forEach((selector) => {
+    assert.ok(selectors.includes(selector), `${selector} is not in the shared link rule`);
   });
+  assert.match(block[2], /color: var\(--accent\)/, 'links are underlined but not accented');
 });
 
-test('the archive division links claim the noticeable role, not the dense-table one', () => {
+// The two things that opt out are not text links: chrome, and a whole-row
+// anchor whose affordance is its hover background.
+test('the opt-outs are the two documented ones and they carry their own affordance', () => {
+  const css = fs.readFileSync(path.join(CPL, 'styles.css'), 'utf8')
+    + fs.readFileSync(path.join(CPL, 'home.css'), 'utf8');
+  assert.match(css, /\.back-link:hover/, 'back-link has no hover state');
+  assert.match(css, /\.player-result-entry:hover/, 'the finder rows have no hover state');
+});
+
+test('the archive division links carry a styled link class', () => {
   const app = runArchive(ARCHIVE_ROWS);
   const html = htmlOf(app.el('archive-host'));
   assert.ok(html.includes('<a class="app-link"'), 'division links lost their link styling');
