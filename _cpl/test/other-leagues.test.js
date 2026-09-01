@@ -84,7 +84,14 @@ function findCrossDivisionPlayer() {
     const distinctDivisions = new Set(entries.map((e) => `${e.league}/${e.slug}`));
     if (distinctDivisions.size < 2) continue;
     const home = entries.map((e) => byKey.get(`${e.league}/${e.slug}`)).find(Boolean);
-    if (home) return { playerId, division: home };
+    if (!home) continue;
+    // At least one of the *other* divisions should carry a Rating, so the test
+    // can assert the row actually shows one rather than special-casing "if any
+    // entry happens to have a rating".
+    const hasRatedOther = entries.some((e) => (
+      `${e.league}/${e.slug}` !== `${home.league}/${home.slug}` && e.rating != null
+    ));
+    if (hasRatedOther) return { playerId, division: home };
   }
   return null;
 }
@@ -254,5 +261,17 @@ test('a player who plays in more than one division sees the others in their moda
     modalBody,
     /href="\.\.\/\.\.\/(local|travel)\/\?d=/,
     'the row rendered with no working link into the other division',
+  );
+  // Styled like the home page's Player Finder — same row shape, same classes —
+  // rather than the bespoke .other-league-entry markup this replaced.
+  assert.ok(modalBody.includes('class="player-result-entries"'), 'not using the Player Finder row list markup');
+  assert.ok(modalBody.includes('class="player-result-entry'), 'not using the Player Finder entry markup');
+  assert.ok(!modalBody.includes('other-league-entry'), 'the old bespoke entry markup is still being emitted');
+  // findCrossDivisionPlayer only returns a player with a rated *other* division,
+  // so the row for it must show a Rating, not just the division/team text.
+  assert.match(
+    modalBody,
+    /class="player-result-rating (pos|neg)-diff">[+-]\d/,
+    'no Rating shown on the entry for the other, rated division',
   );
 });

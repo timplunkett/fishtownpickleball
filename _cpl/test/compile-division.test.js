@@ -109,7 +109,7 @@ function compileToObjects(t, opts = {}) {
   writeDivision(dataDir, opts);
   const outPath = path.join(tmp, 'data-testslug.js');
   const detailPath = path.join(tmp, 'detail-testslug.js');
-  compileDivision('testslug', dataDir, outPath, detailPath, {
+  const result = compileDivision('testslug', dataDir, outPath, detailPath, {
     clubName: 'Test Club', divisionName: '3.5 - 4.0', leagueType: 'local',
   });
 
@@ -121,6 +121,7 @@ function compileToObjects(t, opts = {}) {
   return {
     data: JSON.parse(JSON.stringify(sandbox.window.DATA)),
     details: JSON.parse(JSON.stringify(sandbox.window.CPL_DETAILS.testslug)),
+    ratingByPid: result.ratingByPid,
   };
 }
 
@@ -150,6 +151,28 @@ test('unplayed rostered players are zeroed and unrated', (t) => {
   assert.equal(cal.playerId, 'c1');
   // Captaincy still comes from the roster for unplayed teams.
   assert.equal(data.players.find((p) => p.name === 'Cat Cortez').isCaptain, true);
+});
+
+// buildPlayerIndex reads this back to put a Rating on the cross-league finder
+// entry for this division — see the note on it in modules/compiler.js. It has
+// to agree with what actually got written to data-testslug.js, not with a
+// second computation of its own.
+test('the returned ratingByPid matches what was written to the data file, unrated players excluded', (t) => {
+  const { data, ratingByPid } = compileToObjects(t);
+  const rated = data.players.filter((p) => p.rating != null);
+  assert.ok(rated.length > 0, 'expected at least one rated player in this fixture');
+  rated.forEach((p) => {
+    assert.equal(ratingByPid.get(p.playerId), p.rating, `${p.name}'s rating disagrees with data.players`);
+  });
+
+  // Cal Charlie's team hasn't played (see the previous test): rating: null in
+  // the data file, and no entry at all here — a finder row for him should show
+  // no Rating rather than a false 0.0.
+  const unrated = data.players.filter((p) => p.rating == null);
+  assert.ok(unrated.length > 0, 'expected at least one unrated player in this fixture');
+  unrated.forEach((p) => {
+    assert.equal(ratingByPid.has(p.playerId), false, `${p.name} has no rating but got a map entry anyway`);
+  });
 });
 
 test('seeding does not disturb the stats of players who played', (t) => {

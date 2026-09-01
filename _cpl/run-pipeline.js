@@ -86,6 +86,7 @@ async function runPipeline(league, options) {
   return {
     failedDivisions,
     asOfBySlug: compileResult?.asOfBySlug || new Map(),
+    ratingsBySlug: compileResult?.ratingsBySlug || new Map(),
     matchedSlugs: [
       ...(fetchResult?.matchedSlugs || []),
       ...(compileResult?.matchedSlugs || []),
@@ -101,6 +102,7 @@ async function main() {
   const matchedSlugs = [];
   const matchedSeasonSlugs = [];
   const asOfBySlug = new Map();
+  const ratingsBySlug = new Map();
 
   for (const league of leagues) {
     try {
@@ -109,13 +111,14 @@ async function main() {
       matchedSlugs.push(...result.matchedSlugs);
       matchedSeasonSlugs.push(...result.matchedSeasonSlugs);
       for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
+      for (const [key, value] of result.ratingsBySlug) ratingsBySlug.set(key, value);
     } catch (err) {
       console.error(`\n❌ Pipeline execution failed (${league}):`, err.message);
       failedDivisions.push({ league, slug: '(pipeline)', name: `${league} pipeline`, error: err.message });
     }
   }
 
-  buildPlayerIndex({ asOfBySlug });
+  buildPlayerIndex({ asOfBySlug, ratingsBySlug });
 
   // A typo'd --division slug would otherwise fetch and compile nothing while
   // still exiting 0, which reads as "the data is up to date".

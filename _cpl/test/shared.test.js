@@ -133,6 +133,14 @@ test('formatDuprRating covers absent, plain, provisional and linked ratings', ()
   assert.match(linked, /4\.001/);
 });
 
+test('formatSignedValue always shows a sign, at the requested precision', () => {
+  assert.equal(shared.formatSignedValue(2.4, 1), '+2.4');
+  assert.equal(shared.formatSignedValue(-0.6, 1), '-0.6');
+  assert.equal(shared.formatSignedValue(0, 1), '+0.0');
+  // No digits argument: the value's own String() form, sign forced on.
+  assert.equal(shared.formatSignedValue(3), '+3');
+});
+
 test('getPlayerIndex unpacks the per-column table format and caches it', () => {
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_TABLES = {
@@ -163,6 +171,34 @@ test('getPlayerIndex unpacks the per-column table format and caches it', () => {
   });
   assert.equal(index[2].playerId, null, 'a missing id decodes as null, not as an empty string');
   assert.equal(shared.getPlayerIndex(), index, 'cached on second call');
+  delete globalThis.PLAYER_INDEX;
+  delete globalThis.PLAYER_INDEX_TABLES;
+});
+
+// Rating is a sixth entry column, added after the five above — the in-place
+// growth the file's own comments describe for the division row. A cached
+// player-index.js from before Rating existed hands unpackTableIndex five-
+// element entries; entry[5] reads as `undefined` there, not as a missing sixth
+// table, so this is the one test above that has to see both shapes.
+test('getPlayerIndex decodes a Rating column when present, and omits it when absent', () => {
+  delete globalThis.PLAYER_INDEX;
+  globalThis.PLAYER_INDEX_TABLES = {
+    n: ['Al One'],
+    t: ['Team X'],
+    d: [['abcd1234', '3.5 - 4.0', 0, '', '2026-summer', 'Summer 2026', 0]],
+    i: [],
+    e: [
+      [0, 0, 0, -1, 0, 2.4], // rated
+      [0, 0, 0, -1, 0, -0.6], // a negative rating is not mistaken for "absent"
+      [0, 0, 0, -1, 0, null], // explicitly unrated
+      [0, 0, 0, -1, 0], // a pre-Rating cached file: no sixth element at all
+    ],
+  };
+  const index = shared.getPlayerIndex();
+  assert.equal(index[0].rating, 2.4);
+  assert.equal(index[1].rating, -0.6);
+  assert.equal('rating' in index[2], false, 'an explicit null rating should not appear as a key');
+  assert.equal('rating' in index[3], false, 'a missing sixth column must not decode as a rating of undefined');
   delete globalThis.PLAYER_INDEX;
   delete globalThis.PLAYER_INDEX_TABLES;
 });

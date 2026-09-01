@@ -75,8 +75,8 @@ const RESULT_CLASS = Object.freeze({
 });
 // Shared client utilities (cpl/shared.js loads before this file).
 const {
-  escapeHtml, slugify, formatDuprRating, getPlayerIndex, buildDuprRatingIndex, buildTeamAbbreviations,
-  displayPodGroups, loadErrorHtml, formatDataAge,
+  escapeHtml, slugify, formatDuprRating, formatSignedValue, getPlayerIndex, buildDuprRatingIndex,
+  buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge,
 } = window.CPLShared;
 
 // Remembered view preferences: which sections you left collapsed, and which of
@@ -443,11 +443,6 @@ function migrateLegacyHashRoute() {
   }
   url.hash = '';
   history.replaceState(null, '', url.toString());
-}
-
-function formatSignedValue(value, digits) {
-  const number = digits === undefined ? String(value) : value.toFixed(digits);
-  return `${value >= 0 ? '+' : ''}${number}`;
 }
 
 function formatWinPct(wins, losses) {
@@ -2488,10 +2483,19 @@ function renderOtherLeaguesSummary(player) {
 
   if (!others.length) return '';
 
+  // Current seasons first, then archived ones newest-first — the same order
+  // the home page's Player Finder uses (cpl/home.js), for the same reason: a
+  // row for someone who has played four seasons is mostly history, and the one
+  // that matters is the team they are on now.
+  const sorted = others.slice().sort((a, b) => {
+    if (!!a.archived !== !!b.archived) return a.archived ? 1 : -1;
+    return String(b.season || '').localeCompare(String(a.season || ''));
+  });
+
   // Two levels up to cpl/, then into the other league's redirect stub — see the
   // matching note on loadPlayerIndexScript's '../../player-index.js'.
   const rootPath = '../../';
-  const rows = others.map((entry) => {
+  const rows = sorted.map((entry) => {
     const badgeClass = entry.league === 'travel' ? 'travel' : 'local';
     const badgeLabel = entry.league === 'travel' ? 'CPL' : 'Local';
     const locationParts = [];
@@ -2499,14 +2503,32 @@ function renderOtherLeaguesSummary(player) {
     locationParts.push(escapeHtml(entry.division));
     const locationText = locationParts.join(' — ');
     const href = `${rootPath}${entry.league}/?d=${encodeURIComponent(entry.slug)}&team=${encodeURIComponent(slugify(entry.team))}&player=${encodeURIComponent(entry.playerId || slugify(player.name))}`;
-    return `<a class="other-league-entry" href="${escapeHtml(href)}">` +
+    // Rating is per (player, division) — this entry's own division, not the
+    // one open in this modal — so a player who is a 2.4 here and a -0.6 in a
+    // tougher division both show their real number, not one borrowed from the
+    // page they were found on.
+    const ratingHtml = entry.rating == null
+      ? ''
+      : ` <span class="player-result-rating ${entry.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(entry.rating, 1)}</span>`;
+    // Named only on an archived row: on a current one it would repeat the same
+    // label down every result for no information, the same reasoning the
+    // Player Finder applies to this tag.
+    const seasonHtml = entry.archived && entry.seasonLabel
+      ? ` <span class="season-tag" title="Archived season">${escapeHtml(entry.seasonLabel)}</span>`
+      : '';
+    return `<a class="player-result-entry${entry.archived ? ' archived' : ''}" href="${escapeHtml(href)}">` +
       `<span class="league-badge ${badgeClass}">${badgeLabel}</span>` +
-      `<span class="other-league-location">${locationText}</span>` +
-      `<span class="other-league-team">\u00b7 ${escapeHtml(entry.team)}</span>` +
+      `<span class="division-name">${locationText}</span>` +
+      `<span class="team-name">· ${escapeHtml(entry.team)}</span>` +
+      (entry.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '') +
+      (entry.isSub ? ' <span class="sub-tag" title="Sub — not a rostered team member">sub</span>' : '') +
+      ratingHtml +
+      seasonHtml +
       `</a>`;
   }).join('');
 
-  return `<div class="other-leagues"><span class="other-leagues-label">Also plays in</span>${rows}</div>`;
+  return `<div class="other-leagues"><span class="other-leagues-label">Also plays in</span>` +
+    `<div class="player-result-entries">${rows}</div></div>`;
 }
 
 // The player whose modal is on screen. Two things read it: the late-arriving

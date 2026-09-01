@@ -20,6 +20,7 @@
 
   var escapeHtml = shared.escapeHtml;
   var slugify = shared.slugify;
+  var formatSignedValue = shared.formatSignedValue;
 
   // The one picker in the Now playing box, grouped by season.
   //
@@ -278,6 +279,13 @@
         var seasonHtml = e.archived && e.seasonLabel
           ? ' <span class="season-tag" title="Archived season">' + escapeHtml(e.seasonLabel) + '</span>'
           : '';
+        // This division's Rating for this player, not DUPR — DUPR is a person-
+        // level fact shown once beside their name below; Rating is earned per
+        // division, so a result naming four divisions can show four different
+        // numbers for the same person.
+        var ratingHtml = e.rating == null ? '' :
+          ' <span class="player-result-rating ' + (e.rating >= 0 ? 'pos-diff' : 'neg-diff') + '">' +
+          formatSignedValue(e.rating, 1) + '</span>';
         // No role="listitem" here. #player-results carried role="list", but
         // these anchors are its grandchildren (inside .player-result /
         // .player-result-entries), so the list contained no items at all and a
@@ -291,6 +299,7 @@
           '<span class="team-name">· ' + escapeHtml(e.team || '') + '</span>' +
           (e.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '') +
           (e.isSub ? ' <span class="sub-tag" title="Sub — not a rostered team member">sub</span>' : '') +
+          ratingHtml +
           seasonHtml +
           '</a>';
       }).join('');

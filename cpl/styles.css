@@ -47,7 +47,7 @@
    — and the DUPR anchor is emitted by shared.js, which is generated.
 
    What opts out is anchors that are not text links: a card or a whole row you
-   click (.tcard, .other-league-entry, .player-result-entry), a chip in the
+   click (.tcard, .player-result-entry), a chip in the
    contents strip, and the chrome that labels the way up a level (.back-link,
    .backlink — two names for one job, worth merging some day). Each carries its
    own affordance, usually a hover background, and each sets text-decoration:
@@ -1234,12 +1234,15 @@ thead th:focus-visible,
   line-height: 1.5;
 }
 
+/* The "Also plays in" row in a player modal. The label sits above the list the
+   way .player-result-name sits above .player-result-entries on the home page's
+   Player Finder (cpl/home.js/home.css) — same list markup, different header,
+   because the modal already names the player in .mh-name above it. Top margin
+   matters here specifically: .mh-partners (the Chemistry line, the last thing
+   in #mhead) carries only a top margin of its own, so with none here the row
+   sat flush against it with no visible gap at all. */
 .other-leagues {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  margin: 0 0 14px;
+  margin: 16px 0 14px;
   padding: 10px 12px;
   background: var(--panel2, #1e2633);
   border: 1px solid var(--line);
@@ -1247,42 +1250,82 @@ thead th:focus-visible,
 }
 
 .other-leagues-label {
+  display: block;
+  margin-bottom: 6px;
   font-size: 10.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: var(--mut);
-  flex-shrink: 0;
-  margin-right: 2px;
 }
 
-.other-league-entry {
-  display: inline-flex;
+/* Shared with the home page's Player Finder (cpl/home.js) — one row shape for
+   "here is a player, and where else they show up". This file loads on every
+   page; home.css (Player Finder-only chrome: the search box, result cards,
+   DUPR line) loads on cpl/index.html alone. */
+.player-result-entries {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-result-entry {
+  display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 12px;
+  gap: 0.5rem;
+  font-size: 0.8rem;
   color: var(--txt);
+  flex-wrap: wrap;
   text-decoration: none;
-  padding: 3px 8px;
+  padding: 0.6rem 0.5rem;
+  border-radius: 6px;
+  transition: background 0.12s;
+  margin: 0 -0.5rem;
+}
+
+.player-result-entry:hover,
+.player-result-entry:focus-visible { background: rgb(255 255 255 / 5%); text-decoration: none; }
+.player-result-entry:active { background: rgb(255 255 255 / 9%); }
+
+/* Archived rows sit below the current ones in every result and are dimmed to
+   match — legible, but clearly not where the player is playing now. */
+.player-result-entry.archived { opacity: 0.72; }
+.player-result-entry.archived:hover { opacity: 1; }
+
+.league-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 0.1em 0.45em;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.league-badge.local { background: rgb(29 178 220 / 15%); color: var(--accent); }
+.league-badge.travel { background: rgb(25 211 154 / 15%); color: #19d39a; }
+.player-result-entry .division-name { font-weight: 600; }
+.player-result-entry .team-name { color: var(--mut); }
+
+/* Each entry's Rating in the division it names — colour comes from the
+   pos-diff/neg-diff class riding alongside this one. */
+.player-result-rating {
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+/* The season name on an archived row. Quieter than .sub-tag beside it: it is
+   context for the row, not a warning about it. */
+.season-tag {
+  margin-left: 6px;
+  padding: 1px 6px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: transparent;
-  transition: border-color 0.12s, background 0.12s;
-}
-
-.other-league-entry:hover {
-  border-color: var(--accent);
-  background: rgb(29 178 220 / 8%);
-  text-decoration: none;
-}
-
-.other-league-location {
-  font-weight: 600;
-}
-
-.other-league-team {
   color: var(--mut);
-  font-size: 11px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  cursor: help;
 }
 
 .pill {
@@ -2329,11 +2372,10 @@ thead th:focus-visible,
 
   .back-link,
   .section-toc,
-  .other-league-entry {
+  .player-result-entry {
     min-height: 44px;
   }
 
-  .other-league-entry,
   .back-link {
     display: inline-flex;
     align-items: center;

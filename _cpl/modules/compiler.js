@@ -843,7 +843,18 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   writeDataScript(outPath, DATA);
   writeDetailScript(detailOutPath, slug, detailByPid);
   console.log(`  ✓ ${path.basename(outPath)} written (+ ${path.basename(detailOutPath)})`);
-  return DATA.meta.asOf;
+
+  // Handed back so buildPlayerIndex can put each player's Rating on their
+  // cross-league finder entry for this division, without re-deriving it from
+  // matchups.json a second time or reading the data-*.js this just wrote back
+  // off disk. Unrated players (no completed games yet) are left off rather
+  // than carrying a 0 that would misread as an average rating actually earned.
+  const ratingByPid = new Map(
+    playerArr
+      .filter((p) => p.playerId && Number.isFinite(p.rating))
+      .map((p) => [p.playerId, p.rating]),
+  );
+  return { asOf: DATA.meta.asOf, ratingByPid };
 }
 
 // One season of one league, into cpl/<league>/<season>/.
@@ -868,6 +879,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
 
   const failedDivisions = [];
   const asOfBySlug = new Map();
+  const ratingsBySlug = new Map();
   for (const div of divisionsToCompile) {
     const label = formatDivisionLabel(div);
     const divDataDir = path.join(dataDir, div.slug);
@@ -885,7 +897,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
       const singleGender = isGenderApiBase(div.apiBase)
         ? travelDivisionGender(div.divisionName)
         : null;
-      const asOf = compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
+      const { asOf, ratingByPid } = compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,
@@ -901,6 +913,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
         ...(singleGender ? { singleGender } : {}),
       });
       if (asOf) asOfBySlug.set(`${league}/${season.slug}/${div.slug}`, asOf);
+      ratingsBySlug.set(`${league}/${season.slug}/${div.slug}`, ratingByPid);
     } catch (err) {
       console.warn(`  ⚠️ Skipped ${div.slug}: ${err.message}`);
       failedDivisions.push({
@@ -927,6 +940,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
     failedDivisions,
     matchedSlugs: divisionsToCompile.map((div) => div.slug),
     asOfBySlug,
+    ratingsBySlug,
   };
 }
 
@@ -964,6 +978,7 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
   const failedDivisions = [];
   const matchedSlugs = [];
   const asOfBySlug = new Map();
+  const ratingsBySlug = new Map();
 
   for (const season of seasonsToCompile) {
     // A season upstream lists but nothing has ever fetched. That is the normal
@@ -981,6 +996,7 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
       failedDivisions.push(...result.failedDivisions);
       matchedSlugs.push(...result.matchedSlugs);
       for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
+      for (const [key, value] of result.ratingsBySlug) ratingsBySlug.set(key, value);
     } catch (err) {
       console.warn(`  ⚠️ Skipped season ${season.slug}: ${err.message}`);
       failedDivisions.push({
@@ -1006,18 +1022,30 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
   } else {
     console.log('\n✓ Phase 2 complete.');
   }
-  return { failedDivisions, matchedSlugs, asOfBySlug };
+  return {
+    failedDivisions, matchedSlugs, asOfBySlug, ratingsBySlug,
+  };
 }
 
 // Pack the player index with a string table: names, teams, divisions and even
 // playerIds repeat across divisions, so interning them cuts the file to a
 // fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
-// Entry layout: [name, team, divisionRow, playerId|-1, flags(1=captain, 2=sub)],
-// where divisionRow points into a table of
+// Entry layout: [name, team, divisionRow, playerId|-1, flags(1=captain, 2=sub),
+// rating|null], where divisionRow points into a table of
 // [slug, divisionName, league(0=local,1=travel), club, season, seasonLabel,
 //  archived(0|1)].
 // Packs the finder index, which is one row per (player, division) across every
 // league — the largest asset the site ships.
+//
+// rating is a trailing sixth column, added after captain/sub — the same kind
+// of in-place growth the division row's own three seasons columns were (see
+// the note on unpackTableIndex in modules/shared.js): an old shared.js reads
+// only entries[0..4] and never notices the sixth, and a new one reading an old
+// five-element entry gets `undefined` at [5], which decodes as "no rating"
+// rather than throwing. Not interned — unlike name/team/division/id it does
+// not repeat across entries, so a table would cost a pointer for no sharing.
+// null (not 0) marks a player with no rating yet, so an unrated player's row
+// omits the number instead of claiming a 0.0 nobody earned.
 //
 // A division's label, league and club are properties of the division, not of
 // the player, so they live in a table of ~22 rows that each entry points at
@@ -1082,6 +1110,7 @@ function packPlayerIndex(entries) {
     divisionRow(entry),
     ids.intern(entry.playerId),
     (entry.isCaptain ? 1 : 0) | (entry.isSub ? 2 : 0),
+    Number.isFinite(entry.rating) ? Math.round(entry.rating * 10) / 10 : null,
   ]);
 
   return { n: names.list, t: teams.list, d: divisionKeys, i: ids.list, e: packed };
@@ -1092,7 +1121,7 @@ function packPlayerIndex(entries) {
 // (precomputed audit rows, so the audit page no longer downloads every
 // division dataset), plus the DUPR tables each page shape needs. DUPR values
 // stay in their own files, which the DUPR workflow updates without recompiling.
-function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
+function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } = {}) {
   console.log('\n--- Building player index ---');
   const rootDir = path.join(__dirname, '../..');
 
@@ -1132,6 +1161,12 @@ function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
       const playersPath = path.join(dataDir, div.slug, 'players.json');
       if (!fs.existsSync(playersPath)) continue;
 
+      // Built by compileDivision from the same roster, keyed by playerId. Not
+      // every division that reaches here was compiled this run — a single
+      // --division backfill still walks every division for the finder — so
+      // this is often empty, and that is fine: div.clubName above tolerates
+      // the same gap the same way.
+      const ratingByPid = ratingsBySlug.get(`${league}/${season.slug}/${div.slug}`) || new Map();
       const bracket = getDivisionBracket({ divisionName: div.divisionName, leagueType: league });
       const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
       const players = selectCanonicalRosterPlayers(
@@ -1156,6 +1191,7 @@ function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
         if (div.clubName) entry.club = div.clubName;
         if (p.isCaptain) entry.isCaptain = true;
         if (p.isSub) entry.isSub = true;
+        if (p.playerId && ratingByPid.has(p.playerId)) entry.rating = ratingByPid.get(p.playerId);
         entries.push(entry);
 
         // Audit rows exist only for divisions whose name encodes a bracket.

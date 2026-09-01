@@ -23,20 +23,23 @@ async function main() {
   const failedDivisions = [];
   const matchedSlugs = [];
   const asOfBySlug = new Map();
+  const ratingsBySlug = new Map();
 
   for (const league of leagues) {
     const {
       failedDivisions: failed = [],
       matchedSlugs: matched = [],
       asOfBySlug: asOf = new Map(),
+      ratingsBySlug: ratings = new Map(),
     } = await compileDashboardHtml(league, { divisionSlugs, seasonSlugs }) || {};
     failedDivisions.push(...failed);
     matchedSlugs.push(...matched);
     for (const [key, value] of asOf) asOfBySlug.set(key, value);
+    for (const [key, value] of ratings) ratingsBySlug.set(key, value);
     if (!failed.length) console.log(`\n✅ Compile (${league}) completed successfully!`);
   }
 
-  buildPlayerIndex({ asOfBySlug });
+  buildPlayerIndex({ asOfBySlug, ratingsBySlug });
 
   const unmatched = unmatchedDivisionSlugs(divisionSlugs, matchedSlugs);
   if (unmatched.length) {

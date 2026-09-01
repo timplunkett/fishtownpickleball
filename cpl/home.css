@@ -292,26 +292,6 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   scroll-margin-top: calc(var(--toc-height, 0px) + 10px);
 }
 
-/* The season name on an archived finder row. Quieter than .sub-tag beside it:
-   it is context for the row, not a warning about it. */
-.season-tag {
-  margin-left: 6px;
-  padding: 1px 6px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--mut);
-  font-size: 9.5px;
-  font-weight: 700;
-  letter-spacing: .03em;
-  text-transform: uppercase;
-  cursor: help;
-}
-
-/* Archived rows sit below the current ones in every result and are dimmed to
-   match — legible, but clearly not where the player is playing now. */
-.player-result-entry.archived { opacity: .72; }
-.player-result-entry.archived:hover { opacity: 1; }
-
 /* Player Finder */
 .finder-panel {
   width: 100%;
@@ -383,41 +363,11 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 }
 
 /* A bare anchor from shared.js's formatDuprRating; the Links block in styles.css
-   is what styles it. Nothing local left to say about it. */
-.player-result-entries { display: flex; flex-direction: column; }
-
-.player-result-entry {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  font-size: .8rem;
-  color: var(--txt);
-  flex-wrap: wrap;
-  text-decoration: none;
-  padding: .6rem .5rem;
-  border-radius: 6px;
-  transition: background .12s;
-  margin: 0 -.5rem;
-}
-
-.player-result-entry:hover,
-.player-result-entry:focus-visible { background: rgb(255 255 255 / 5%); text-decoration: none; }
-.player-result-entry:active { background: rgb(255 255 255 / 9%); }
-
-.league-badge {
-  font-size: .65rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .07em;
-  padding: .1em .45em;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
-
-.league-badge.local { background: rgb(29 178 220 / 15%); color: var(--accent); }
-.league-badge.travel { background: rgb(25 211 154 / 15%); color: #19d39a; }
-.player-result-entry .division-name { font-weight: 600; }
-.player-result-entry .team-name { color: var(--mut); }
+   is what styles it. Nothing local left to say about it.
+   .player-result-entries, .player-result-entry, .league-badge, .season-tag and
+   the rating badge are shared with the player modal's "Also plays in" row
+   (cpl/app.js) and live in styles.css, which every page loads — this file only
+   loads on cpl/index.html. */
 
 .finder-hint { font-size: .78rem; color: var(--mut); font-style: italic; text-align: center; }
 

@@ -115,6 +115,15 @@
       : display;
   }
 
+  // A rating-scale number with its sign always shown ("+2.4", "-0.5", "0.0") —
+  // the dashboard's own Rating, not DUPR. Shared so a Rating printed on the
+  // home page's Player Finder (cpl/home.js) reads identically to one in a
+  // division dashboard (cpl/app.js), which had this as an unexported local.
+  function formatSignedValue(value, digits) {
+    const number = digits === undefined ? String(value) : value.toFixed(digits);
+    return `${value >= 0 ? '+' : ''}${number}`;
+  }
+
   // Points/game of expected scoring margin per point of DUPR. Fitted by
   // regressing the dashboard's APM rating on DUPR across every division with
   // completed play, restricted to players with enough games that ridge
@@ -167,6 +176,13 @@
   // redirect stub in front of every league exists to resolve. The old reader
   // therefore degrades to a working link rather than a broken one, which is the
   // only reason this was safe to do in place.
+  //
+  // The entry row grew the same way when Rating arrived: a sixth element,
+  // trailing the existing five. A shared.js from before it reads entry[0..4]
+  // and never looks at entry[5]; a shared.js from after it reads entry[5] as
+  // `undefined` on a five-element cached entry, and the `!= null` guard below
+  // treats that the same as the explicit `null` a rating-less player gets —
+  // no rating shown, not a thrown error.
   function unpackTableIndex(packed) {
     const pick = (list, index) => (index === -1 ? '' : list[index]);
     return packed.e.map((entry) => {
@@ -185,6 +201,7 @@
       if (division[3]) decoded.club = division[3];
       if (entry[4] & 1) decoded.isCaptain = true;
       if (entry[4] & 2) decoded.isSub = true;
+      if (entry[5] != null) decoded.rating = entry[5];
       return decoded;
     });
   }
@@ -782,6 +799,7 @@
     divisionSortKey,
     getTravelDivisionSortKey,
     formatDuprRating,
+    formatSignedValue,
     DUPR_POINTS_PER_RATING,
     buildDuprRatingIndex,
     getPlayerIndex,
