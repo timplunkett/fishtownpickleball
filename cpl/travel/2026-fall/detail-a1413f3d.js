@@ -1197,12 +1197,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 3,
+    "rating": 3.1,
     "confidence": 48,
-    "rank": 7,
+    "rank": 6,
     "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -1365,7 +1365,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 91,
+    "rank": 92,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -1665,7 +1665,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 58,
+    "rank": 60,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -4857,7 +4857,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 134,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
@@ -5007,7 +5007,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 138,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -5157,7 +5157,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 44,
-    "rank": 52,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -5298,7 +5298,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 48,
-    "rank": 130,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.8
@@ -5448,7 +5448,7 @@
     "week": 2,
     "rating": 3.1,
     "confidence": 46,
-    "rank": 6,
+    "rank": 7,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.6
@@ -6016,7 +6016,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 43,
-    "rank": 53,
+    "rank": 54,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -7088,7 +7088,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 178,
+    "rank": 177,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -7704,7 +7704,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 136,
+    "rank": 135,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -8202,7 +8202,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 46,
-    "rank": 57,
+    "rank": 59,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -8857,7 +8857,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 128,
+    "rank": 127,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -9346,7 +9346,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 131,
+    "rank": 130,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -9940,148 +9940,7 @@
     "rank": 27,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
- "85ee3181-a3ea-4022-8475-6d1c6b80211f": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickle House",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 100,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "mixed",
-    "with": "Se Jun Kim",
-    "vs": [
-     "Angelique Gallucci",
-     "Rohan Sabharwal"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "female",
-    "with": "Alexandra Smith",
-    "vs": [
-     "Angelique Gallucci",
-     "Julie Randall"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "mixed",
-    "with": "Arjun Kumble",
-    "vs": [
-     "Julie Randall",
-     "Christopher Venuto"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "female",
-    "with": "Kelly Feng",
-    "vs": [
-     "Caitlin Hall",
-     "Julie Randall"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "female",
-    "with": "Alexandra Smith",
-    "vs": [
-     "Caitlin Hall",
-     "Julie Randall"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickle House",
-    "t": "mixed",
-    "with": "Samuel Lee",
-    "vs": [
-     "Julie Randall",
-     "Christopher Venuto"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 0.1,
-    "confidence": 44,
-    "rank": 116,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.4
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -10232,6 +10091,147 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "85ee3181-a3ea-4022-8475-6d1c6b80211f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickle House",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 100,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "mixed",
+    "with": "Se Jun Kim",
+    "vs": [
+     "Angelique Gallucci",
+     "Rohan Sabharwal"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "female",
+    "with": "Alexandra Smith",
+    "vs": [
+     "Angelique Gallucci",
+     "Julie Randall"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "mixed",
+    "with": "Arjun Kumble",
+    "vs": [
+     "Julie Randall",
+     "Christopher Venuto"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "female",
+    "with": "Kelly Feng",
+    "vs": [
+     "Caitlin Hall",
+     "Julie Randall"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "female",
+    "with": "Alexandra Smith",
+    "vs": [
+     "Caitlin Hall",
+     "Julie Randall"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle House",
+    "t": "mixed",
+    "with": "Samuel Lee",
+    "vs": [
+     "Julie Randall",
+     "Christopher Venuto"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 44,
+    "rank": 138,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -10528,7 +10528,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 45,
-    "rank": 51,
+    "rank": 52,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
@@ -10817,9 +10817,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.8,
+    "rating": 0.9,
     "confidence": 48,
-    "rank": 62,
+    "rank": 58,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.5
@@ -11119,7 +11119,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 135,
+    "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1.4
@@ -11269,7 +11269,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 60,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -11886,7 +11886,7 @@
     "w": 4,
     "l": 2,
     "gp": 6,
-    "pf": 117,
+    "pf": 114,
     "pa": 115,
     "mx": [
      1,
@@ -11898,7 +11898,7 @@
     ],
     "cl": [
      3,
-     1
+     0
     ],
     "teamRes": "W",
     "teamGW": 21,
@@ -11917,7 +11917,7 @@
      "Angelique Gallucci",
      "Rohan Sabharwal"
     ],
-    "f": 19,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -12008,12 +12008,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1,
+    "rating": -1.2,
     "confidence": 41,
-    "rank": 173,
+    "rank": 182,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -12192,7 +12192,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 40,
-    "rank": 126,
+    "rank": 125,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.5
@@ -12374,7 +12374,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 49,
-    "rank": 129,
+    "rank": 128,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -13446,7 +13446,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 117,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -14850,7 +14850,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 43,
-    "rank": 118,
+    "rank": 117,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -15828,7 +15828,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 50,
-    "rank": 55,
+    "rank": 56,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.3
@@ -16112,7 +16112,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 37,
-    "rank": 54,
+    "rank": 55,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -16530,7 +16530,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 96,
+    "rank": 95,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -17730,7 +17730,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 59,
+    "rank": 61,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -18169,11 +18169,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.4,
+    "rating": 0.3,
     "confidence": 47,
-    "rank": 92,
+    "rank": 97,
     "ratingGames": 6,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -18321,7 +18321,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 123,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -18921,7 +18921,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 97,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -19221,7 +19221,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 184,
+    "rank": 183,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -19671,7 +19671,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 179,
+    "rank": 178,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -19789,7 +19789,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 38,
-    "rank": 215,
+    "rank": 216,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -19971,7 +19971,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 50,
-    "rank": 121,
+    "rank": 120,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -20130,8 +20130,8 @@
     "confidence": 47,
     "rank": 114,
     "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -20460,7 +20460,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 90,
+    "rank": 91,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -20947,12 +20947,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.3,
+    "rating": 0.4,
     "confidence": 50,
-    "rank": 94,
+    "rank": 90,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -21281,7 +21281,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 124,
+    "rank": 123,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -21613,7 +21613,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 120,
+    "rank": 119,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -21779,7 +21779,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 176,
+    "rank": 175,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -21913,7 +21913,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 41,
-    "rank": 119,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -22047,7 +22047,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 44,
-    "rank": 125,
+    "rank": 124,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -22449,7 +22449,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 133,
+    "rank": 132,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
@@ -22583,7 +22583,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 36,
-    "rank": 181,
+    "rank": 180,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -23033,7 +23033,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 127,
+    "rank": 126,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.1
@@ -23183,7 +23183,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 122,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -23483,7 +23483,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 61,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
@@ -23633,7 +23633,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 48,
-    "rank": 175,
+    "rank": 174,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -23933,7 +23933,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 190,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -24083,7 +24083,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 132,
+    "rank": 131,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -24683,7 +24683,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 95,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.5
@@ -25151,7 +25151,7 @@
     "l": 4,
     "gp": 6,
     "pf": 87,
-    "pa": 122,
+    "pa": 119,
     "mx": [
      2,
      1
@@ -25161,7 +25161,7 @@
      3
     ],
     "cl": [
-     2,
+     1,
      0
     ],
     "teamRes": "L",
@@ -25182,7 +25182,7 @@
      "Se Jun Kim"
     ],
     "f": 21,
-    "a": 19,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -25272,11 +25272,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.2,
+    "rating": -1.9,
     "confidence": 50,
-    "rank": 217,
+    "rank": 211,
     "ratingGames": 6,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -25292,7 +25292,7 @@
     "l": 5,
     "gp": 7,
     "pf": 135,
-    "pa": 138,
+    "pa": 135,
     "mx": [
      1,
      2
@@ -25302,7 +25302,7 @@
      3
     ],
     "cl": [
-     1,
+     0,
      3
     ],
     "teamRes": "L",
@@ -25323,7 +25323,7 @@
      "Se Jun Kim"
     ],
     "f": 21,
-    "a": 19,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -25429,12 +25429,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.8,
+    "rating": 1,
     "confidence": 45,
-    "rank": 63,
+    "rank": 51,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -25597,7 +25597,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 56,
+    "rank": 57,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -25920,7 +25920,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 52,
-    "rank": 189,
+    "rank": 187,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -26418,7 +26418,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 137,
+    "rank": 136,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.4
@@ -27639,11 +27639,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.3,
+    "rating": -1.4,
     "confidence": 41,
-    "rank": 187,
+    "rank": 191,
     "ratingGames": 5,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
    }
   ],
@@ -27775,7 +27775,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 185,
+    "rank": 184,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -27909,7 +27909,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 42,
-    "rank": 212,
+    "rank": 213,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -29061,7 +29061,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 48,
-    "rank": 183,
+    "rank": 181,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
@@ -29202,7 +29202,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 211,
+    "rank": 212,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -29641,12 +29641,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.2,
+    "rating": -1.4,
     "confidence": 48,
-    "rank": 182,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -30243,7 +30243,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 177,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 1.5
@@ -31046,12 +31046,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.5,
+    "rating": -2.6,
     "confidence": 42,
     "rank": 222,
     "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -31578,7 +31578,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 53,
-    "rank": 188,
+    "rank": 186,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -32194,7 +32194,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 191,
+    "rank": 190,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -32446,7 +32446,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 38,
-    "rank": 180,
+    "rank": 179,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.5
@@ -32730,7 +32730,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 174,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
@@ -33266,7 +33266,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 43,
-    "rank": 186,
+    "rank": 185,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -33400,7 +33400,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 45,
-    "rank": 214,
+    "rank": 215,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -33550,7 +33550,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 216,
+    "rank": 217,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -34348,7 +34348,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 47,
-    "rank": 213,
+    "rank": 214,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.7

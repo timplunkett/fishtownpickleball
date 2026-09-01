@@ -1777,7 +1777,7 @@
       "lastName": "Wakefield",
       "gender": "Male",
       "dupr": "0YPJYQ",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",

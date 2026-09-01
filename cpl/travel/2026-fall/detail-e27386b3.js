@@ -651,8 +651,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -831,12 +831,12 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
+    "rating": 1.3,
     "confidence": 64,
-    "rank": 54,
+    "rank": 60,
     "ratingGames": 10,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -990,7 +990,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 50,
-    "rank": 38,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.5
@@ -1588,8 +1588,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -1988,7 +1988,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 50,
-    "rank": 57,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -2120,9 +2120,9 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
+    "rating": 0.9,
     "confidence": 45,
-    "rank": 97,
+    "rank": 87,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
@@ -2633,7 +2633,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 39,
-    "rank": 117,
+    "rank": 118,
     "ratingGames": 4,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.1
@@ -4155,8 +4155,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -4367,9 +4367,9 @@
    },
    {
     "week": 2,
-    "rating": 2.2,
+    "rating": 2.1,
     "confidence": 66,
-    "rank": 26,
+    "rank": 25,
     "ratingGames": 12,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.6
@@ -4428,8 +4428,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -4624,7 +4624,7 @@
    },
    {
     "week": 2,
-    "rating": 2.7,
+    "rating": 2.6,
     "confidence": 66,
     "rank": 14,
     "ratingGames": 11,
@@ -5297,7 +5297,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 54,
-    "rank": 55,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.2
@@ -5454,7 +5454,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 52,
-    "rank": 113,
+    "rank": 114,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.4
@@ -6040,7 +6040,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 51,
-    "rank": 29,
+    "rank": 28,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -2.1
@@ -6472,7 +6472,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 51,
-    "rank": 149,
+    "rank": 150,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.7
@@ -6774,7 +6774,7 @@
     "confidence": 44,
     "rank": 75,
     "ratingGames": 6,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -6922,7 +6922,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 50,
-    "rank": 30,
+    "rank": 29,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
@@ -7654,7 +7654,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 49,
-    "rank": 80,
+    "rank": 81,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.1
@@ -7804,7 +7804,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 46,
-    "rank": 128,
+    "rank": 129,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.5
@@ -7981,7 +7981,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 95,
+    "rank": 97,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.2
@@ -8534,6 +8534,263 @@
     "synergy": -1.3
    }
   ]
+ },
+ "b4ac779e-91e0-46f1-a4c7-92e1068db57a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 121,
+    "pa": 109,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 101,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Andrea Galanti",
+    "vs": [
+     "Michele Iannella",
+     "Trisha Marion"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Taylor Runyen",
+    "vs": [
+     "Karen Marshall",
+     "Michael Van Horn"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Megan Torres",
+    "vs": [
+     "Cathy Mclaughlin",
+     "Trisha Marion"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jonathan Jamison",
+    "vs": [
+     "Karen Marshall",
+     "Lawrence Dipietro"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Abby Sprinkel",
+    "vs": [
+     "Michele Iannella",
+     "Trisha Marion"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Brandi Horowitz",
+    "vs": [
+     "Michele Iannella",
+     "Karen Marshall"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Viviane Tran",
+    "vs": [
+     "Tiffany Weinert",
+     "Isha Rahalkar"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Gerry Bissinger",
+    "vs": [
+     "Sandy Duarte",
+     "Matthew Cohen"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Gerry Bissinger",
+    "vs": [
+     "Lauren Gabat",
+     "Tyler Kellner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Joseph Mckenna",
+    "vs": [
+     "Kris Miller",
+     "Bill Dower"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Megan Torres",
+    "vs": [
+     "Ashley Altman",
+     "Isha Rahalkar"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 47,
+    "rank": 131,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 64,
+    "rank": 123,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
  },
  "bbf13d1a-5393-4549-9d15-c5d2975f3e55": {
   "log": [
@@ -9126,7 +9383,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 43,
-    "rank": 58,
+    "rank": 57,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.3
@@ -9383,11 +9640,11 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.8,
     "confidence": 42,
-    "rank": 102,
+    "rank": 99,
     "ratingGames": 5,
-    "strengthOfPartners": 1.5,
+    "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.5
    }
   ],
@@ -9644,7 +9901,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 180,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1.5
@@ -10155,8 +10412,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -10383,11 +10640,11 @@
    },
    {
     "week": 2,
-    "rating": 2.2,
+    "rating": 2,
     "confidence": 63,
-    "rank": 27,
+    "rank": 31,
     "ratingGames": 13,
-    "strengthOfPartners": 0.9,
+    "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -11574,7 +11831,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 67,
-    "rank": 104,
+    "rank": 105,
     "ratingGames": 12,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1
@@ -12226,8 +12483,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -12427,7 +12684,7 @@
     "rank": 65,
     "ratingGames": 11,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -12681,7 +12938,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 65,
-    "rank": 92,
+    "rank": 93,
     "ratingGames": 11,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.1
@@ -12753,8 +13010,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -12951,267 +13208,10 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 65,
-    "rank": 120,
+    "rank": 121,
     "ratingGames": 11,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "b4ac779e-91e0-46f1-a4c7-92e1068db57a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickle Juice Blackwood",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 121,
-    "pa": 109,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Picklr Newark",
-    "homeAway": "A",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 98,
-    "pa": 94,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Andrea Galanti",
-    "vs": [
-     "Michele Iannella",
-     "Trisha Marion"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Taylor Runyen",
-    "vs": [
-     "Karen Marshall",
-     "Michael Van Horn"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Megan Torres",
-    "vs": [
-     "Cathy Mclaughlin",
-     "Trisha Marion"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Jonathan Jamison",
-    "vs": [
-     "Karen Marshall",
-     "Lawrence Dipietro"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Abby Sprinkel",
-    "vs": [
-     "Michele Iannella",
-     "Trisha Marion"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Brandi Horowitz",
-    "vs": [
-     "Michele Iannella",
-     "Karen Marshall"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Viviane Tran",
-    "vs": [
-     "Tiffany Weinert",
-     "Isha Rahalkar"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Gerry Bissinger",
-    "vs": [
-     "Sandy Duarte",
-     "Matthew Cohen"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Gerry Bissinger",
-    "vs": [
-     "Lauren Gabat",
-     "Tyler Kellner"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Joseph Mckenna",
-    "vs": [
-     "Kris Miller",
-     "Bill Dower"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Megan Torres",
-    "vs": [
-     "Ashley Altman",
-     "Isha Rahalkar"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 47,
-    "rank": 131,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 2,
-    "rating": 0,
-    "confidence": 64,
-    "rank": 153,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -13374,7 +13374,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 56,
-    "rank": 100,
+    "rank": 102,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.5
@@ -13622,6 +13622,254 @@
    }
   ],
   "partners": []
+ },
+ "45590591-9a85-4098-8ba9-36fc0fa18f4c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 73,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 98,
+    "pa": 95,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Abby Sprinkel",
+    "vs": [
+     "Karen Marshall",
+     "Michele Iannella Sr."
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Oanh Quach",
+    "vs": [
+     "Cathy Mclaughlin",
+     "Trisha Marion"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Joseph Mckenna",
+    "vs": [
+     "Michele Iannella",
+     "Jason Grote"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Joseph Mckenna",
+    "vs": [
+     "Michele Iannella",
+     "Kordell Alexander"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Michele Costigan",
+    "vs": [
+     "Trisha Marion",
+     "Michele Iannella Sr."
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Joseph Mckenna",
+    "vs": [
+     "Lauren Gabat",
+     "Matthew Cohen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Joseph Mckenna",
+    "vs": [
+     "Tiffany Weinert",
+     "Thomas Lum"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Abby Sprinkel",
+    "vs": [
+     "Isha Rahalkar",
+     "Lauren Gabat"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Viviane Tran",
+    "vs": [
+     "Kris Miller",
+     "Sandy Duarte"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Oanh Quach",
+    "vs": [
+     "Ashley Altman",
+     "Isha Rahalkar"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 46,
+    "rank": 47,
+    "ratingGames": 5,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 62,
+    "rank": 94,
+    "ratingGames": 10,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "551c6f9d-b1e1-4b5b-a8cb-bea20a14d9ff",
+    "name": "Joseph Mckenna",
+    "n": 4,
+    "synergy": -0.5
+   }
+  ]
  },
  "ea0e9b2c-cdde-48d1-8585-fd47053329b6": {
   "log": [
@@ -14663,7 +14911,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 68,
-    "rank": 151,
+    "rank": 152,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.3
@@ -14936,7 +15184,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 66,
-    "rank": 119,
+    "rank": 120,
     "ratingGames": 12,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.3
@@ -15266,8 +15514,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -15373,11 +15621,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.8,
+    "rating": 1.9,
     "confidence": 50,
-    "rank": 43,
+    "rank": 38,
     "ratingGames": 6,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
    }
   ],
@@ -15648,7 +15896,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 65,
-    "rank": 91,
+    "rank": 92,
     "ratingGames": 12,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.2
@@ -15811,7 +16059,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 49,
-    "rank": 31,
+    "rank": 30,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -15952,7 +16200,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 93,
+    "rank": 95,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.9
@@ -16102,10 +16350,10 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 51,
-    "rank": 114,
+    "rank": 115,
     "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -16252,7 +16500,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 94,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -16425,8 +16673,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -16536,149 +16784,8 @@
     "confidence": 51,
     "rank": 8,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": []
- },
- "57cb28c4-947f-4ea0-a6eb-5e21a777552a": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 116,
-    "pa": 103,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Thomas Lum",
-    "vs": [
-     "Andrea Galanti",
-     "Gerry Bissinger"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Lauren Gabat",
-    "vs": [
-     "Andrea Galanti",
-     "Brandi Horowitz"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Tyler Kellner",
-    "vs": [
-     "Abby Sprinkel",
-     "Jonathan Jamison"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Kris Miller",
-    "vs": [
-     "Brandi Horowitz",
-     "Viviane Tran"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Bill Dower",
-    "vs": [
-     "Viviane Tran",
-     "Jamie West"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Isha Rahalkar",
-    "vs": [
-     "Megan Torres",
-     "Oanh Quach"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 2.3,
-    "confidence": 52,
-    "rank": 24,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -16825,7 +16932,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 179,
+    "rank": 180,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.7
@@ -16966,7 +17073,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 187,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -17107,7 +17214,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 106,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
@@ -17257,7 +17364,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 50,
-    "rank": 44,
+    "rank": 43,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.9
@@ -17407,7 +17514,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 101,
+    "rank": 103,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.2
@@ -17712,7 +17819,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 69,
-    "rank": 118,
+    "rank": 119,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0
@@ -18036,7 +18143,7 @@
     "week": 2,
     "rating": 2.2,
     "confidence": 66,
-    "rank": 25,
+    "rank": 24,
     "ratingGames": 14,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
@@ -18846,7 +18953,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 64,
-    "rank": 98,
+    "rank": 100,
     "ratingGames": 13,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -19154,7 +19261,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 67,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -19172,254 +19279,6 @@
     "name": "Luan Vo",
     "n": 3,
     "synergy": -1
-   }
-  ]
- },
- "45590591-9a85-4098-8ba9-36fc0fa18f4c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickle Juice Blackwood",
-    "homeAway": "H",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 73,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Picklr Newark",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 95,
-    "pa": 98,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Abby Sprinkel",
-    "vs": [
-     "Karen Marshall",
-     "Michele Iannella Sr."
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Oanh Quach",
-    "vs": [
-     "Cathy Mclaughlin",
-     "Trisha Marion"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Joseph Mckenna",
-    "vs": [
-     "Michele Iannella",
-     "Jason Grote"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "mixed",
-    "with": "Joseph Mckenna",
-    "vs": [
-     "Michele Iannella",
-     "Kordell Alexander"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickle Juice Blackwood",
-    "t": "female",
-    "with": "Michele Costigan",
-    "vs": [
-     "Trisha Marion",
-     "Michele Iannella Sr."
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Joseph Mckenna",
-    "vs": [
-     "Lauren Gabat",
-     "Matthew Cohen"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "mixed",
-    "with": "Joseph Mckenna",
-    "vs": [
-     "Tiffany Weinert",
-     "Thomas Lum"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Abby Sprinkel",
-    "vs": [
-     "Isha Rahalkar",
-     "Lauren Gabat"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Viviane Tran",
-    "vs": [
-     "Kris Miller",
-     "Sandy Duarte"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newark",
-    "t": "female",
-    "with": "Oanh Quach",
-    "vs": [
-     "Ashley Altman",
-     "Isha Rahalkar"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.4,
-    "confidence": 46,
-    "rank": 47,
-    "ratingGames": 5,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 2,
-    "rating": 0.4,
-    "confidence": 62,
-    "rank": 123,
-    "ratingGames": 10,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": [
-   {
-    "pid": "551c6f9d-b1e1-4b5b-a8cb-bea20a14d9ff",
-    "name": "Joseph Mckenna",
-    "n": 4,
-    "synergy": -0.5
    }
   ]
  },
@@ -19549,7 +19408,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 115,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1
@@ -19674,7 +19533,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 144,
+    "rank": 145,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -20056,7 +19915,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 41,
-    "rank": 109,
+    "rank": 110,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -20190,7 +20049,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 47,
-    "rank": 96,
+    "rank": 98,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.2
@@ -20315,7 +20174,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 38,
-    "rank": 81,
+    "rank": 82,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -20583,7 +20442,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 135,
+    "rank": 136,
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.6
@@ -20717,7 +20576,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 44,
-    "rank": 228,
+    "rank": 227,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.9
@@ -21124,7 +20983,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 64,
-    "rank": 139,
+    "rank": 140,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
@@ -21410,7 +21269,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 63,
-    "rank": 132,
+    "rank": 133,
     "ratingGames": 12,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.4
@@ -21702,7 +21561,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 66,
-    "rank": 181,
+    "rank": 183,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -21881,7 +21740,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 53,
-    "rank": 140,
+    "rank": 141,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.7
@@ -22379,7 +22238,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 53,
-    "rank": 112,
+    "rank": 113,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0
@@ -22536,7 +22395,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 54,
-    "rank": 79,
+    "rank": 80,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -23369,7 +23228,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 63,
-    "rank": 111,
+    "rank": 112,
     "ratingGames": 11,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.3
@@ -23903,7 +23762,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 63,
-    "rank": 133,
+    "rank": 134,
     "ratingGames": 11,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.1
@@ -24424,7 +24283,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 64,
-    "rank": 122,
+    "rank": 124,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
@@ -25931,7 +25790,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 70,
-    "rank": 145,
+    "rank": 146,
     "ratingGames": 14,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -26217,7 +26076,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 67,
-    "rank": 90,
+    "rank": 91,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.3
@@ -26342,7 +26201,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 40,
-    "rank": 87,
+    "rank": 88,
     "ratingGames": 4,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -26615,7 +26474,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 65,
-    "rank": 152,
+    "rank": 153,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -26763,10 +26622,151 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 50,
-    "rank": 235,
+    "rank": 234,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.9
+   }
+  ],
+  "partners": []
+ },
+ "57cb28c4-947f-4ea0-a6eb-5e21a777552a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 106,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Thomas Lum",
+    "vs": [
+     "Andrea Galanti",
+     "Gerry Bissinger"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Lauren Gabat",
+    "vs": [
+     "Andrea Galanti",
+     "Brandi Horowitz"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Tyler Kellner",
+    "vs": [
+     "Abby Sprinkel",
+     "Jonathan Jamison"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Kris Miller",
+    "vs": [
+     "Brandi Horowitz",
+     "Viviane Tran"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Bill Dower",
+    "vs": [
+     "Viviane Tran",
+     "Jamie West"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Isha Rahalkar",
+    "vs": [
+     "Megan Torres",
+     "Oanh Quach"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 52,
+    "rank": 44,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -27004,7 +27004,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 62,
-    "rank": 147,
+    "rank": 148,
     "ratingGames": 10,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -27193,7 +27193,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 57,
-    "rank": 28,
+    "rank": 26,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.3
@@ -27429,7 +27429,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 52,
-    "rank": 134,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
@@ -27579,7 +27579,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 53,
-    "rank": 125,
+    "rank": 126,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
@@ -27697,7 +27697,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 42,
-    "rank": 108,
+    "rank": 109,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -27729,8 +27729,8 @@
      2
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -27836,11 +27836,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.9,
+    "rating": 2.1,
     "confidence": 52,
-    "rank": 37,
+    "rank": 27,
     "ratingGames": 6,
-    "strengthOfPartners": -0.6,
+    "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.1
    }
   ],
@@ -27988,7 +27988,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 141,
+    "rank": 142,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -29166,7 +29166,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 62,
-    "rank": 148,
+    "rank": 149,
     "ratingGames": 10,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
@@ -29928,7 +29928,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 65,
-    "rank": 60,
+    "rank": 59,
     "ratingGames": 12,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.9
@@ -30078,7 +30078,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 44,
-    "rank": 225,
+    "rank": 224,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -30110,8 +30110,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -30221,7 +30221,7 @@
     "confidence": 50,
     "rank": 197,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -30804,7 +30804,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 67,
-    "rank": 103,
+    "rank": 104,
     "ratingGames": 13,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.4
@@ -31100,7 +31100,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 66,
-    "rank": 82,
+    "rank": 83,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -31402,7 +31402,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 70,
-    "rank": 136,
+    "rank": 137,
     "ratingGames": 13,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -32521,7 +32521,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 64,
-    "rank": 121,
+    "rank": 122,
     "ratingGames": 11,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.5
@@ -32694,7 +32694,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 51,
-    "rank": 56,
+    "rank": 55,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.7
@@ -32860,7 +32860,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 52,
-    "rank": 204,
+    "rank": 206,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
@@ -33017,7 +33017,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 51,
-    "rank": 223,
+    "rank": 222,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -33850,7 +33850,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 67,
-    "rank": 229,
+    "rank": 228,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -34512,7 +34512,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 60,
-    "rank": 124,
+    "rank": 125,
     "ratingGames": 10,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -34653,7 +34653,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 43,
-    "rank": 116,
+    "rank": 117,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.6
@@ -34787,7 +34787,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 127,
+    "rank": 128,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -35055,7 +35055,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 143,
+    "rank": 144,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -35087,8 +35087,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -35180,10 +35180,10 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 48,
-    "rank": 126,
+    "rank": 127,
     "ratingGames": 5,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -35421,7 +35421,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 63,
-    "rank": 99,
+    "rank": 101,
     "ratingGames": 10,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.5
@@ -35562,7 +35562,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 43,
-    "rank": 129,
+    "rank": 130,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.4
@@ -35803,7 +35803,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 64,
-    "rank": 183,
+    "rank": 185,
     "ratingGames": 10,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
@@ -35937,7 +35937,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 47,
-    "rank": 206,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -36071,7 +36071,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 46,
-    "rank": 244,
+    "rank": 243,
     "ratingGames": 5,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": -0.3
@@ -36360,7 +36360,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 68,
-    "rank": 88,
+    "rank": 89,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -36649,7 +36649,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 68,
-    "rank": 89,
+    "rank": 90,
     "ratingGames": 13,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.9
@@ -36945,7 +36945,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 68,
-    "rank": 59,
+    "rank": 58,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.1
@@ -37914,7 +37914,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 56,
-    "rank": 203,
+    "rank": 205,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -38435,7 +38435,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 65,
-    "rank": 182,
+    "rank": 184,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -39011,7 +39011,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 68,
-    "rank": 137,
+    "rank": 138,
     "ratingGames": 14,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -39168,7 +39168,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 50,
-    "rank": 224,
+    "rank": 223,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -39318,7 +39318,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 142,
+    "rank": 143,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.7
@@ -39468,7 +39468,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 44,
-    "rank": 226,
+    "rank": 225,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -39618,7 +39618,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 51,
-    "rank": 105,
+    "rank": 106,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.9
@@ -39918,7 +39918,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 46,
-    "rank": 251,
+    "rank": 250,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.2
@@ -39950,8 +39950,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -40061,8 +40061,8 @@
     "confidence": 50,
     "rank": 171,
     "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -40284,7 +40284,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 59,
-    "rank": 222,
+    "rank": 221,
     "ratingGames": 9,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -41337,10 +41337,10 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 107,
+    "rank": 108,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -42279,7 +42279,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 65,
-    "rank": 146,
+    "rank": 147,
     "ratingGames": 11,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1
@@ -42543,7 +42543,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 61,
-    "rank": 249,
+    "rank": 248,
     "ratingGames": 11,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -0.4
@@ -42783,7 +42783,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 36,
-    "rank": 130,
+    "rank": 131,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1.2
@@ -43010,7 +43010,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 42,
-    "rank": 247,
+    "rank": 246,
     "ratingGames": 4,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.2
@@ -43190,12 +43190,12 @@
    },
    {
     "week": 2,
-    "rating": 0.9,
+    "rating": 1,
     "confidence": 58,
-    "rank": 83,
+    "rank": 79,
     "ratingGames": 8,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -43301,7 +43301,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 41,
-    "rank": 252,
+    "rank": 251,
     "ratingGames": 4,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -43419,7 +43419,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 41,
-    "rank": 201,
+    "rank": 203,
     "ratingGames": 4,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -43537,7 +43537,7 @@
     "week": 2,
     "rating": -3,
     "confidence": 43,
-    "rank": 274,
+    "rank": 275,
     "ratingGames": 4,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.8
@@ -43687,8 +43687,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -43762,11 +43762,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.5,
     "confidence": 42,
-    "rank": 191,
+    "rank": 182,
     "ratingGames": 4,
-    "strengthOfPartners": -2.4,
+    "strengthOfPartners": -2.5,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -44328,7 +44328,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 68,
-    "rank": 131,
+    "rank": 132,
     "ratingGames": 12,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -45170,131 +45170,6 @@
   ],
   "partners": []
  },
- "9e3df962-0702-4e31-b6bb-6ade42de72f4": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 86,
-    "pa": 102,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Tiffany Weinert",
-    "vs": [
-     "Viviane Tran",
-     "Oanh Quach"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Lauren Gabat",
-    "vs": [
-     "Megan Torres",
-     "Abby Sprinkel"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Mike Fede",
-    "vs": [
-     "Brandi Horowitz",
-     "Joseph Mckenna"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Lauren Gabat",
-    "vs": [
-     "Andrea Galanti",
-     "Abby Sprinkel"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Ashley Altman",
-    "vs": [
-     "Megan Torres",
-     "Oanh Quach"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -1.3,
-    "confidence": 47,
-    "rank": 219,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
  "b419f11c-70a5-4f4b-86cf-27626609f808": {
   "log": [
    {
@@ -45412,7 +45287,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 45,
-    "rank": 150,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": 0.5
@@ -45444,8 +45319,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    }
@@ -45535,12 +45410,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.9,
+    "rating": -2.1,
     "confidence": 48,
-    "rank": 242,
+    "rank": 252,
     "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -45662,7 +45537,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 44,
-    "rank": 190,
+    "rank": 191,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.2
@@ -45796,7 +45671,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 46,
-    "rank": 243,
+    "rank": 242,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -45930,7 +45805,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 41,
-    "rank": 220,
+    "rank": 219,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.1
@@ -46189,7 +46064,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 189,
+    "rank": 190,
     "ratingGames": 5,
     "strengthOfPartners": -2.4,
     "strengthOfOpponents": 0.7
@@ -46221,8 +46096,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -46316,7 +46191,7 @@
     "confidence": 48,
     "rank": 256,
     "ratingGames": 5,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -47037,7 +46912,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 62,
-    "rank": 248,
+    "rank": 247,
     "ratingGames": 10,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.1
@@ -48099,7 +47974,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 45,
-    "rank": 245,
+    "rank": 244,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -48381,7 +48256,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 48,
-    "rank": 185,
+    "rank": 186,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.9
@@ -48531,7 +48406,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 50,
-    "rank": 188,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 2
@@ -48563,8 +48438,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -48670,11 +48545,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.1,
+    "rating": -1,
     "confidence": 50,
-    "rank": 205,
+    "rank": 201,
     "ratingGames": 6,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.6
    }
   ],
@@ -49086,7 +48961,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 65,
-    "rank": 230,
+    "rank": 229,
     "ratingGames": 12,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.6
@@ -49554,7 +49429,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 46,
-    "rank": 186,
+    "rank": 187,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.3
@@ -49859,7 +49734,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 68,
-    "rank": 138,
+    "rank": 139,
     "ratingGames": 14,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.2
@@ -50052,12 +49927,12 @@
    },
    {
     "week": 2,
-    "rating": -0.6,
+    "rating": -0.5,
     "confidence": 55,
-    "rank": 184,
+    "rank": 179,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -50745,7 +50620,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 65,
-    "rank": 231,
+    "rank": 230,
     "ratingGames": 10,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1
@@ -51803,7 +51678,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 70,
-    "rank": 202,
+    "rank": 204,
     "ratingGames": 13,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -52494,7 +52369,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 17,
-    "rank": 221,
+    "rank": 220,
     "ratingGames": 1,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0.8
@@ -52526,8 +52401,8 @@
      3
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -52601,12 +52476,137 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.1,
+    "rating": -1,
     "confidence": 43,
-    "rank": 207,
+    "rank": 202,
     "ratingGames": 4,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1.5
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.6
+   }
+  ],
+  "partners": []
+ },
+ "9e3df962-0702-4e31-b6bb-6ade42de72f4": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 83,
+    "pa": 105,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Tiffany Weinert",
+    "vs": [
+     "Viviane Tran",
+     "Oanh Quach"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Lauren Gabat",
+    "vs": [
+     "Megan Torres",
+     "Abby Sprinkel"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Mike Fede",
+    "vs": [
+     "Brandi Horowitz",
+     "Joseph Mckenna"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Lauren Gabat",
+    "vs": [
+     "Andrea Galanti",
+     "Abby Sprinkel"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Ashley Altman",
+    "vs": [
+     "Megan Torres",
+     "Oanh Quach"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 47,
+    "rank": 236,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -52989,7 +52989,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 41,
-    "rank": 227,
+    "rank": 226,
     "ratingGames": 4,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.4
@@ -53516,7 +53516,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 45,
-    "rank": 246,
+    "rank": 245,
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.4
@@ -53830,12 +53830,12 @@
    },
    {
     "week": 2,
-    "rating": -1.8,
+    "rating": -1.7,
     "confidence": 51,
-    "rank": 234,
+    "rank": 231,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -54123,7 +54123,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 49,
-    "rank": 236,
+    "rank": 235,
     "ratingGames": 6,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": 0.9
@@ -54255,12 +54255,12 @@
    },
    {
     "week": 2,
-    "rating": -3.1,
+    "rating": -3,
     "confidence": 45,
-    "rank": 275,
+    "rank": 274,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.3
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -54548,10 +54548,10 @@
     "week": 2,
     "rating": -2,
     "confidence": 51,
-    "rank": 250,
+    "rank": 249,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.5
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -54980,8 +54980,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
+    "teamGW": 10,
+    "teamGL": 22,
     "sub": 0,
     "subFor": null
    }
@@ -55075,7 +55075,7 @@
     "confidence": 45,
     "rank": 280,
     "ratingGames": 5,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8
    }
   ],

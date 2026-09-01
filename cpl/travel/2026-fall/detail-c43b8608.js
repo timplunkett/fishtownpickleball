@@ -1,5 +1,613 @@
 (function () {
   const DETAILS = {
+ "33692212-f6ed-47f3-bac2-e19da564c0c6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 79,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 70,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Margaret Bayse",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Lydia Fiore",
+    "vs": [
+     "Margaret Bayse",
+     "Shobana Ravishankar"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mark Lederman",
+    "vs": [
+     "Ting Chen",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Ting Chen",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Cindy Walters",
+    "vs": [
+     "Lisa Braumann",
+     "Nan Feng"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Ting Chen",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Cindy Walters",
+    "vs": [
+     "Lisa Braumann",
+     "Shobana Ravishankar"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mike Matchett",
+    "vs": [
+     "Yayuan Lien",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Cindy Walters",
+    "vs": [
+     "Denise Aronson",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Yayuan Lien",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Cindy Walters",
+    "vs": [
+     "Yayuan Lien",
+     "Denise Aronson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Yayuan Lien",
+     "Denise Aronson"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Allison Harmony",
+    "vs": [
+     "Denise Aronson",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 4.4,
+    "confidence": 51,
+    "rank": 1,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 3.9,
+    "confidence": 66,
+    "rank": 3,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e1957c7a-4e30-47e1-bf43-fae97adcf183",
+    "name": "Cindy Walters",
+    "n": 4,
+    "synergy": 0.9
+   }
+  ]
+ },
+ "4516a66f-67b3-4981-a16d-036deb8db9bc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 97,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 90,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ana Bautista",
+    "vs": [
+     "Margaret Bayse",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Gary Grzankowski",
+     "Herald Barber"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Izabel Illipronti",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Pedro Oliveira",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Gary Grzankowski",
+     "Todd Baron"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Shobana Ravishankar",
+     "Herald Barber"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Todd Baron",
+     "Pedro Oliveira"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Denise Aronson",
+     "Brandon Fulford"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Ronald Wong",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Ana Bautista",
+    "vs": [
+     "Yayuan Lien",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Yayuan Lien",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Mark Vanarendonk",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Rita Hung",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Virasack Vorabouth",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.7,
+    "confidence": 53,
+    "rank": 8,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": 3.3,
+    "confidence": 70,
+    "rank": 8,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "1181bed8-38bd-4496-8be0-323f36d5d7c4",
+    "name": "Mark Lederman",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
+ },
  "ecf2cd14-2d76-4e21-9e99-e86aff72c356": {
   "log": [
    {
@@ -295,12 +903,12 @@
    },
    {
     "week": 2,
-    "rating": 3.1,
+    "rating": 3,
     "confidence": 70,
-    "rank": 8,
+    "rank": 9,
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -461,178 +1069,12 @@
    },
    {
     "week": 2,
-    "rating": 4.3,
-    "confidence": 49,
-    "rank": 2,
+    "rating": 3.7,
+    "confidence": 52,
+    "rank": 4,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.2
-   }
-  ],
-  "partners": []
- },
- "33692212-f6ed-47f3-bac2-e19da564c0c6": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 79,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Margaret Bayse",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Lydia Fiore",
-    "vs": [
-     "Margaret Bayse",
-     "Shobana Ravishankar"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Mark Lederman",
-    "vs": [
-     "Ting Chen",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ashish Malhotra",
-    "vs": [
-     "Ting Chen",
-     "Stephen Stasiulewicz"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Cindy Walters",
-    "vs": [
-     "Lisa Braumann",
-     "Nan Feng"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Robert Goldenberg",
-    "vs": [
-     "Ting Chen",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Cindy Walters",
-    "vs": [
-     "Lisa Braumann",
-     "Shobana Ravishankar"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 4.4,
-    "confidence": 51,
-    "rank": 1,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 2,
-    "rating": 4.4,
-    "confidence": 51,
-    "rank": 1,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": []
@@ -920,176 +1362,10 @@
     "week": 2,
     "rating": 4,
     "confidence": 49,
-    "rank": 4,
+    "rank": 2,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": []
- },
- "4516a66f-67b3-4981-a16d-036deb8db9bc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 97,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ana Bautista",
-    "vs": [
-     "Margaret Bayse",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Goldenberg",
-    "vs": [
-     "Gary Grzankowski",
-     "Herald Barber"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Cindy Walters",
-    "vs": [
-     "Izabel Illipronti",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Mark Lederman",
-    "vs": [
-     "Pedro Oliveira",
-     "Stephen Stasiulewicz"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Mark Lederman",
-    "vs": [
-     "Gary Grzankowski",
-     "Todd Baron"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Cindy Walters",
-    "vs": [
-     "Shobana Ravishankar",
-     "Herald Barber"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Ashish Malhotra",
-    "vs": [
-     "Todd Baron",
-     "Pedro Oliveira"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.7,
-    "confidence": 53,
-    "rank": 8,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 2,
-    "rating": 2.7,
-    "confidence": 53,
-    "rank": 13,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -1236,9 +1512,9 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 50,
-    "rank": 36,
+    "rank": 38,
     "ratingGames": 6,
-    "strengthOfPartners": 2.1,
+    "strengthOfPartners": 2,
     "strengthOfOpponents": -1.6
    }
   ],
@@ -1526,6 +1802,163 @@
   ],
   "partners": []
  },
+ "5fe0b62e-e4be-4dc3-9f9c-46123a17f754": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 100,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Denise Aronson",
+     "Brandon Fulford"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mike Matchett",
+    "vs": [
+     "Denise Aronson",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Rita Hung",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Jinghua Shi",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Allison Harmony",
+    "vs": [
+     "Vera Wong",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Rita Hung",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Cindy Walters",
+    "vs": [
+     "Rita Hung",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 51,
+    "rank": 37,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
  "dbe6ecd1-6aad-4f8f-bc44-702ef0be5667": {
   "log": [
    {
@@ -1676,6 +2109,147 @@
   ],
   "partners": []
  },
+ "1260ba09-fd19-4cad-95d4-325744e32327": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 82,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mark Lederman",
+    "vs": [
+     "Vera Wong",
+     "Jim Hu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Allison Harmony",
+    "vs": [
+     "Yayuan Lien",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Rita Hung",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Yayuan Lien",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Yayuan Lien",
+     "Denise Aronson"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Vera Wong",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 47,
+    "rank": 48,
+    "ratingGames": 6,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
  "23bf4ad6-5b88-4d00-93c8-3134ec378f34": {
   "log": [
    {
@@ -1818,7 +2392,7 @@
     "week": 2,
     "rating": 2.2,
     "confidence": 46,
-    "rank": 28,
+    "rank": 27,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.3
@@ -1966,12 +2540,12 @@
    },
    {
     "week": 2,
-    "rating": 2.3,
-    "confidence": 47,
-    "rank": 27,
+    "rating": 2.1,
+    "confidence": 48,
+    "rank": 30,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -2250,7 +2824,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 143,
+    "rank": 147,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -2.5
@@ -2375,7 +2949,7 @@
     "week": 2,
     "rating": 2.8,
     "confidence": 46,
-    "rank": 11,
+    "rank": 12,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
@@ -2516,7 +3090,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 47,
-    "rank": 46,
+    "rank": 49,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.7
@@ -2641,7 +3215,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 5,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.5
@@ -2750,7 +3324,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 40,
-    "rank": 42,
+    "rank": 44,
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
@@ -2884,7 +3458,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 49,
+    "rank": 52,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -1
@@ -3204,7 +3778,7 @@
    {
     "week": 2,
     "rating": 2.6,
-    "confidence": 71,
+    "confidence": 72,
     "rank": 15,
     "ratingGames": 15,
     "strengthOfPartners": 1.7,
@@ -3524,9 +4098,9 @@
    },
    {
     "week": 2,
-    "rating": 2.3,
+    "rating": 2.4,
     "confidence": 70,
-    "rank": 23,
+    "rank": 20,
     "ratingGames": 15,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.4
@@ -3537,7 +4111,7 @@
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
     "name": "Jhon Cifuentes",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    }
   ]
  },
@@ -3838,7 +4412,7 @@
     "week": 2,
     "rating": 2.9,
     "confidence": 69,
-    "rank": 9,
+    "rank": 10,
     "ratingGames": 14,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.6
@@ -3854,6 +4428,308 @@
    {
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
     "name": "Shuming Zhu",
+    "n": 3,
+    "synergy": 0.4
+   }
+  ]
+ },
+ "e1957c7a-4e30-47e1-bf43-fae97adcf183": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 143,
+    "pa": 109,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 84,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Nan Feng",
+     "Herald Barber"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Izabel Illipronti",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Kate Clow",
+    "vs": [
+     "Ting Chen",
+     "Shobana Ravishankar"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mark Lederman",
+    "vs": [
+     "Izabel Illipronti",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Lisa Braumann",
+     "Nan Feng"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Shobana Ravishankar",
+     "Herald Barber"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Lisa Braumann",
+     "Shobana Ravishankar"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Denise Aronson",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mark Lederman",
+    "vs": [
+     "Vera Wong",
+     "Jim Hu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Yayuan Lien",
+     "Denise Aronson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Denise Aronson",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mark Lederman",
+    "vs": [
+     "Denise Aronson",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Rita Hung",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1,
+    "confidence": 50,
+    "rank": 43,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 66,
+    "rank": 58,
+    "ratingGames": 13,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "33692212-f6ed-47f3-bac2-e19da564c0c6",
+    "name": "Ana Bautista",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "1181bed8-38bd-4496-8be0-323f36d5d7c4",
+    "name": "Mark Lederman",
     "n": 3,
     "synergy": 0.5
    }
@@ -4140,13 +5016,315 @@
     "week": 2,
     "rating": 4.1,
     "confidence": 68,
-    "rank": 3,
+    "rank": 1,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
+ },
+ "1181bed8-38bd-4496-8be0-323f36d5d7c4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 106,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 98,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Mroz",
+    "vs": [
+     "Todd Baron",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ana Bautista",
+    "vs": [
+     "Ting Chen",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Pedro Oliveira",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Izabel Illipronti",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Gary Grzankowski",
+     "Todd Baron"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lydia Fiore",
+    "vs": [
+     "Margaret Bayse",
+     "Pedro Oliveira"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Stephen Stasiulewicz",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Vera Wong",
+     "Jim Hu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Jim Hu",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Vera Wong",
+     "Jim Hu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Virasack Vorabouth",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Mark Vanarendonk",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Denise Aronson",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1,
+    "confidence": 48,
+    "rank": 44,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 64,
+    "rank": 59,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e1957c7a-4e30-47e1-bf43-fae97adcf183",
+    "name": "Cindy Walters",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
+    "name": "Roberto Marcillo",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
  },
  "cb02b0c7-7df6-481e-aeb2-5f945a9522bc": {
   "log": [
@@ -4429,7 +5607,7 @@
     "week": 2,
     "rating": 2.3,
     "confidence": 65,
-    "rank": 24,
+    "rank": 25,
     "ratingGames": 13,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -4713,9 +5891,9 @@
    },
    {
     "week": 2,
-    "rating": 2.4,
+    "rating": 2.3,
     "confidence": 69,
-    "rank": 20,
+    "rank": 24,
     "ratingGames": 12,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": -0.6
@@ -4988,7 +6166,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 67,
-    "rank": 92,
+    "rank": 99,
     "ratingGames": 12,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -0.7
@@ -5236,7 +6414,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 61,
-    "rank": 40,
+    "rank": 42,
     "ratingGames": 10,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.7
@@ -5554,7 +6732,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 69,
-    "rank": 29,
+    "rank": 28,
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.2
@@ -5718,342 +6896,10 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 53,
-    "rank": 107,
+    "rank": 114,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -2.1
-   }
-  ],
-  "partners": []
- },
- "1181bed8-38bd-4496-8be0-323f36d5d7c4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 106,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Mroz",
-    "vs": [
-     "Todd Baron",
-     "Stephen Stasiulewicz"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ana Bautista",
-    "vs": [
-     "Ting Chen",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Pedro Oliveira",
-     "Stephen Stasiulewicz"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Cindy Walters",
-    "vs": [
-     "Izabel Illipronti",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Gary Grzankowski",
-     "Todd Baron"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Lydia Fiore",
-    "vs": [
-     "Margaret Bayse",
-     "Pedro Oliveira"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Goldenberg",
-    "vs": [
-     "Stephen Stasiulewicz",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1,
-    "confidence": 48,
-    "rank": 44,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 2,
-    "rating": 1,
-    "confidence": 48,
-    "rank": 65,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -1.2
-   }
-  ],
-  "partners": []
- },
- "e1957c7a-4e30-47e1-bf43-fae97adcf183": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 143,
-    "pa": 109,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ashish Malhotra",
-    "vs": [
-     "Nan Feng",
-     "Herald Barber"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Izabel Illipronti",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Kate Clow",
-    "vs": [
-     "Ting Chen",
-     "Shobana Ravishankar"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Mark Lederman",
-    "vs": [
-     "Izabel Illipronti",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Ana Bautista",
-    "vs": [
-     "Lisa Braumann",
-     "Nan Feng"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Shobana Ravishankar",
-     "Herald Barber"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Ana Bautista",
-    "vs": [
-     "Lisa Braumann",
-     "Shobana Ravishankar"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1,
-    "confidence": 50,
-    "rank": 43,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.4,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 2,
-    "rating": 1,
-    "confidence": 50,
-    "rank": 64,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.4,
-    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -6215,11 +7061,11 @@
    {
     "week": 2,
     "rating": 0.8,
-    "confidence": 51,
-    "rank": 75,
+    "confidence": 52,
+    "rank": 80,
     "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.7
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -6505,7 +7351,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 68,
-    "rank": 30,
+    "rank": 29,
     "ratingGames": 13,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -6801,7 +7647,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 69,
-    "rank": 47,
+    "rank": 50,
     "ratingGames": 13,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.7
@@ -7215,7 +8061,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 49,
-    "rank": 83,
+    "rank": 88,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -2.7
@@ -7488,7 +8334,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 66,
-    "rank": 21,
+    "rank": 22,
     "ratingGames": 12,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.2
@@ -7774,7 +8620,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 66,
-    "rank": 43,
+    "rank": 45,
     "ratingGames": 12,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.2
@@ -8054,7 +8900,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 69,
-    "rank": 117,
+    "rank": 122,
     "ratingGames": 12,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -0.6
@@ -8468,7 +9314,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 60,
-    "rank": 54,
+    "rank": 60,
     "ratingGames": 12,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.1
@@ -8622,7 +9468,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 49,
-    "rank": 45,
+    "rank": 47,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.8
@@ -8770,12 +9616,12 @@
    },
    {
     "week": 2,
-    "rating": 0.2,
-    "confidence": 50,
-    "rank": 113,
+    "rating": 0.1,
+    "confidence": 51,
+    "rank": 124,
     "ratingGames": 6,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -8921,10 +9767,10 @@
    {
     "week": 2,
     "rating": 0.9,
-    "confidence": 45,
-    "rank": 71,
+    "confidence": 46,
+    "rank": 76,
     "ratingGames": 6,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
    }
   ],
@@ -9347,7 +10193,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 45,
-    "rank": 63,
+    "rank": 70,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -2.4
@@ -9472,7 +10318,7 @@
     "week": 2,
     "rating": 1.8,
     "confidence": 44,
-    "rank": 37,
+    "rank": 39,
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.1
@@ -9851,7 +10697,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 48,
-    "rank": 61,
+    "rank": 68,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.9
@@ -9976,7 +10822,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 84,
+    "rank": 90,
     "ratingGames": 5,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.8
@@ -10110,7 +10956,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 76,
+    "rank": 81,
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0
@@ -10235,7 +11081,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 44,
-    "rank": 149,
+    "rank": 152,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -10369,9 +11215,9 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 45,
-    "rank": 148,
+    "rank": 151,
     "ratingGames": 5,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.2
    }
   ],
@@ -10494,7 +11340,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 41,
-    "rank": 80,
+    "rank": 85,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.5
@@ -10799,7 +11645,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 69,
-    "rank": 38,
+    "rank": 40,
     "ratingGames": 14,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
@@ -11085,7 +11931,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 68,
-    "rank": 58,
+    "rank": 64,
     "ratingGames": 12,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.7
@@ -11918,7 +12764,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 64,
-    "rank": 52,
+    "rank": 56,
     "ratingGames": 12,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.9
@@ -12043,7 +12889,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 112,
+    "rank": 119,
     "ratingGames": 4,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -2
@@ -12161,7 +13007,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 42,
-    "rank": 122,
+    "rank": 128,
     "ratingGames": 4,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.5
@@ -12279,7 +13125,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 41,
-    "rank": 81,
+    "rank": 86,
     "ratingGames": 4,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -12552,7 +13398,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 64,
-    "rank": 186,
+    "rank": 190,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -12822,7 +13668,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 61,
-    "rank": 181,
+    "rank": 185,
     "ratingGames": 11,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.9
@@ -13092,7 +13938,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 64,
-    "rank": 100,
+    "rank": 106,
     "ratingGames": 11,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.1
@@ -13356,7 +14202,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 63,
-    "rank": 162,
+    "rank": 166,
     "ratingGames": 11,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -13370,6 +14216,163 @@
     "synergy": 0
    }
   ]
+ },
+ "5b98410e-1f1f-4143-ab72-c7d8a53e5309": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 142,
+    "pa": 96,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Rita Hung",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Yayuan Lien",
+     "Vera Wong"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Rita Hung",
+     "Ronald Wong"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Mike Matchett",
+    "vs": [
+     "Rita Hung",
+     "Jim Hu"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Vera Wong",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Jinghua Shi",
+     "Jim Hu"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Ana Bautista",
+    "vs": [
+     "Denise Aronson",
+     "Jinghua Shi"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 55,
+    "rank": 36,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
  },
  "b9846bcc-bfe3-494e-aa14-c25e864463b6": {
   "log": [
@@ -13520,7 +14523,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 46,
-    "rank": 70,
+    "rank": 75,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.2
@@ -13677,7 +14680,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 86,
+    "rank": 94,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -13918,7 +14921,7 @@
     "week": 2,
     "rating": 2.7,
     "confidence": 63,
-    "rank": 12,
+    "rank": 13,
     "ratingGames": 10,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.9
@@ -14159,7 +15162,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 58,
-    "rank": 41,
+    "rank": 43,
     "ratingGames": 10,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -14407,7 +15410,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 63,
-    "rank": 74,
+    "rank": 79,
     "ratingGames": 10,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.2
@@ -14709,7 +15712,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 68,
-    "rank": 57,
+    "rank": 63,
     "ratingGames": 13,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -14729,6 +15732,279 @@
     "synergy": 0.2
    }
   ]
+ },
+ "c7c10631-26d1-46cf-9c21-84eed5659847": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 105,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 121,
+    "pa": 85,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Nan Feng",
+     "Herald Barber"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lydia Fiore",
+    "vs": [
+     "Nan Feng",
+     "Pedro Oliveira"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Herald Barber",
+     "Todd Baron"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ana Bautista",
+    "vs": [
+     "Ting Chen",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Barbara Thall",
+    "vs": [
+     "Nan Feng",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Todd Baron",
+     "Pedro Oliveira"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Ronald Wong",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Allison Harmony",
+    "vs": [
+     "Rita Hung",
+     "Ronald Wong"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Virasack Vorabouth",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Amanda Gardiner",
+    "vs": [
+     "Jinghua Shi",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Debbie Tovitz",
+    "vs": [
+     "Vera Wong",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mike Matchett",
+    "vs": [
+     "Jim Hu",
+     "Mark Vanarendonk"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 47,
+    "rank": 70,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 66,
+    "rank": 53,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
  },
  "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d": {
   "log": [
@@ -14995,7 +16271,7 @@
     "week": 2,
     "rating": 2.4,
     "confidence": 65,
-    "rank": 22,
+    "rank": 23,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -15565,11 +16841,11 @@
    },
    {
     "week": 2,
-    "rating": 2.3,
-    "confidence": 65,
-    "rank": 25,
+    "rating": 2.4,
+    "confidence": 66,
+    "rank": 21,
     "ratingGames": 12,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -15578,7 +16854,7 @@
     "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
     "name": "Alam Mohammad",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.2
    }
   ]
  },
@@ -15847,7 +17123,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 67,
-    "rank": 98,
+    "rank": 104,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.6
@@ -15988,7 +17264,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 96,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.2
@@ -15996,125 +17272,93 @@
   ],
   "partners": []
  },
- "c7c10631-26d1-46cf-9c21-84eed5659847": {
+ "352c1c52-e08e-4cb8-826d-21c700529419": {
   "log": [
    {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
+    "week": 2,
+    "opp": "Allstar Pickler",
     "homeAway": "A",
     "w": 4,
     "l": 2,
     "gp": 6,
-    "pf": 120,
-    "pa": 105,
+    "pf": 122,
+    "pa": 106,
     "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
+     3,
      0
     ],
+    "gn": [
+     1,
+     2
+    ],
     "cl": [
-     2,
-     1
+     1,
+     2
     ],
     "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Cindy Walters",
-    "vs": [
-     "Nan Feng",
-     "Herald Barber"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Lydia Fiore",
-    "vs": [
-     "Nan Feng",
-     "Pedro Oliveira"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Goldenberg",
-    "vs": [
-     "Herald Barber",
-     "Todd Baron"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
+    "wk": 2,
+    "opp": "Allstar Pickler",
     "t": "mixed",
     "with": "Ana Bautista",
     "vs": [
-     "Ting Chen",
-     "Stephen Stasiulewicz"
+     "Yayuan Lien",
+     "Virasack Vorabouth"
     ],
     "f": 21,
-    "a": 11,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
+    "wk": 2,
+    "opp": "Allstar Pickler",
     "t": "mixed",
-    "with": "Barbara Thall",
+    "with": "Amanda Gardiner",
     "vs": [
-     "Nan Feng",
-     "Stephen Stasiulewicz"
+     "Denise Aronson",
+     "Mark Vanarendonk"
     ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
+    "f": 21,
+    "a": 15,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
+    "wk": 2,
+    "opp": "Allstar Pickler",
     "t": "male",
-    "with": "Roberto Marcillo",
+    "with": "Robert Goldenberg",
     "vs": [
-     "Todd Baron",
-     "Pedro Oliveira"
+     "Jim Hu",
+     "Ronald Wong"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Allison Harmony",
+    "vs": [
+     "Rita Hung",
+     "Jim Hu"
     ],
     "f": 21,
     "a": 14,
@@ -16122,26 +17366,49 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Robert Goldenberg",
+    "vs": [
+     "Jim Hu",
+     "Ronald Wong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Jim Hu",
+     "Mark Vanarendonk"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.3,
-    "confidence": 47,
-    "rank": 70,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.3
-   },
-   {
     "week": 2,
-    "rating": 0.3,
-    "confidence": 47,
-    "rank": 109,
+    "rating": -0.4,
+    "confidence": 49,
+    "rank": 159,
     "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -16279,7 +17546,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 44,
+    "rank": 46,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.6
@@ -16420,10 +17687,10 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 53,
-    "rank": 147,
+    "rank": 150,
     "ratingGames": 6,
     "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 0
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -16570,7 +17837,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 46,
-    "rank": 78,
+    "rank": 82,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.3
@@ -16711,7 +17978,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 45,
-    "rank": 72,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.1
@@ -16852,10 +18119,315 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 52,
-    "rank": 223,
+    "rank": 229,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "52940bf9-2379-45c0-94db-829704ea0ecc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 135,
+    "pa": 120,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 109,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lydia Fiore",
+    "vs": [
+     "Shobana Ravishankar",
+     "Stephen Stasiulewicz"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Gary Grzankowski",
+     "Herald Barber"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Ashish Malhotra",
+    "vs": [
+     "Herald Barber",
+     "Todd Baron"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lydia Fiore",
+    "vs": [
+     "Shobana Ravishankar",
+     "Pedro Oliveira"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Mroz",
+    "vs": [
+     "Herald Barber",
+     "Stephen Levitt"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ana Bautista",
+    "vs": [
+     "Ting Chen",
+     "Stephen Levitt"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Stephen Stasiulewicz",
+     "Gary Grzankowski"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Allison Harmony",
+    "vs": [
+     "Rita Hung",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mark Lederman",
+    "vs": [
+     "Jim Hu",
+     "Mark Vanarendonk"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mike Matchett",
+    "vs": [
+     "Jim Hu",
+     "Ronald Wong"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Cindy Walters",
+    "vs": [
+     "Denise Aronson",
+     "Virasack Vorabouth"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Mike Matchett",
+    "vs": [
+     "Jim Hu",
+     "Ronald Wong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Allison Harmony",
+    "vs": [
+     "Jinghua Shi",
+     "Jim Hu"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Roberto Marcillo",
+    "vs": [
+     "Virasack Vorabouth",
+     "Ronald Wong"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 51,
+    "rank": 94,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 69,
+    "rank": 78,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -17109,7 +18681,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 60,
-    "rank": 60,
+    "rank": 66,
     "ratingGames": 11,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -1
@@ -17375,7 +18947,7 @@
     "confidence": 61,
     "rank": 26,
     "ratingGames": 11,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": -0.7
    }
   ],
@@ -17643,7 +19215,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 60,
-    "rank": 55,
+    "rank": 61,
     "ratingGames": 11,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.6
@@ -17907,7 +19479,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 64,
-    "rank": 85,
+    "rank": 93,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -18171,7 +19743,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 61,
-    "rank": 124,
+    "rank": 130,
     "ratingGames": 11,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -18465,12 +20037,12 @@
    },
    {
     "week": 2,
-    "rating": 2.9,
+    "rating": 2.8,
     "confidence": 67,
-    "rank": 10,
+    "rank": 11,
     "ratingGames": 13,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -18769,7 +20341,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 69,
-    "rank": 189,
+    "rank": 194,
     "ratingGames": 13,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1
@@ -19058,7 +20630,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 67,
-    "rank": 39,
+    "rank": 41,
     "ratingGames": 13,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0
@@ -19312,7 +20884,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 63,
-    "rank": 59,
+    "rank": 65,
     "ratingGames": 10,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.2
@@ -19444,7 +21016,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 121,
+    "rank": 127,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.1
@@ -19576,12 +21148,12 @@
    },
    {
     "week": 2,
-    "rating": 0.2,
+    "rating": 0.3,
     "confidence": 44,
-    "rank": 115,
+    "rank": 117,
     "ratingGames": 5,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -19703,7 +21275,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 38,
-    "rank": 82,
+    "rank": 87,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.5
@@ -19828,7 +21400,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 44,
-    "rank": 160,
+    "rank": 163,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.7
@@ -19962,7 +21534,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 79,
+    "rank": 84,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -20203,7 +21775,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 61,
-    "rank": 101,
+    "rank": 107,
     "ratingGames": 10,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -20350,7 +21922,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 43,
-    "rank": 66,
+    "rank": 71,
     "ratingGames": 5,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 0.1
@@ -20623,7 +22195,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 64,
-    "rank": 93,
+    "rank": 100,
     "ratingGames": 12,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.2
@@ -20903,7 +22475,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 63,
-    "rank": 67,
+    "rank": 72,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -21176,7 +22748,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 66,
-    "rank": 118,
+    "rank": 123,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -21454,12 +23026,12 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
-    "confidence": 63,
-    "rank": 151,
+    "rating": -0.7,
+    "confidence": 65,
+    "rank": 184,
     "ratingGames": 12,
     "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -21467,7 +23039,7 @@
     "pid": "e81b7980-75d9-4dab-b9e2-626065c3ee51",
     "name": "May Syso",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "e5eb8990-4b8d-4a10-bff8-29740ce57276",
@@ -21742,7 +23314,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 68,
-    "rank": 190,
+    "rank": 195,
     "ratingGames": 12,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -21915,7 +23487,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 46,
-    "rank": 51,
+    "rank": 55,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -22079,178 +23651,12 @@
    },
    {
     "week": 2,
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 45,
-    "rank": 128,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": []
- },
- "52940bf9-2379-45c0-94db-829704ea0ecc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 135,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Lydia Fiore",
-    "vs": [
-     "Shobana Ravishankar",
-     "Stephen Stasiulewicz"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Roberto Marcillo",
-    "vs": [
-     "Gary Grzankowski",
-     "Herald Barber"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Ashish Malhotra",
-    "vs": [
-     "Herald Barber",
-     "Todd Baron"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Lydia Fiore",
-    "vs": [
-     "Shobana Ravishankar",
-     "Pedro Oliveira"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Mroz",
-    "vs": [
-     "Herald Barber",
-     "Stephen Levitt"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ana Bautista",
-    "vs": [
-     "Ting Chen",
-     "Stephen Levitt"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Mark Lederman",
-    "vs": [
-     "Stephen Stasiulewicz",
-     "Gary Grzankowski"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.1,
-    "confidence": 51,
-    "rank": 94,
+    "rank": 138,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 2,
-    "rating": -0.1,
-    "confidence": 51,
-    "rank": 132,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -22404,7 +23810,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 53,
+    "rank": 57,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
@@ -22570,7 +23976,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 53,
-    "rank": 108,
+    "rank": 115,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.9
@@ -22727,7 +24133,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 50,
-    "rank": 155,
+    "rank": 157,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
@@ -23016,7 +24422,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 70,
-    "rank": 212,
+    "rank": 220,
     "ratingGames": 13,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.1
@@ -23173,7 +24579,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 120,
+    "rank": 126,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.6
@@ -23444,12 +24850,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
-    "confidence": 65,
-    "rank": 73,
+    "rating": 0.6,
+    "confidence": 66,
+    "rank": 92,
     "ratingGames": 12,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -23587,7 +24993,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 50,
-    "rank": 145,
+    "rank": 148,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
@@ -23728,7 +25134,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 44,
-    "rank": 158,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.6
@@ -24033,7 +25439,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 70,
-    "rank": 165,
+    "rank": 169,
     "ratingGames": 14,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -24293,7 +25699,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 62,
-    "rank": 123,
+    "rank": 129,
     "ratingGames": 10,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -24443,7 +25849,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 50,
-    "rank": 126,
+    "rank": 132,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.5
@@ -24552,7 +25958,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 37,
-    "rank": 138,
+    "rank": 142,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -24702,7 +26108,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 47,
-    "rank": 62,
+    "rank": 69,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.9
@@ -24843,7 +26249,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 49,
-    "rank": 156,
+    "rank": 158,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0
@@ -25084,7 +26490,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 62,
-    "rank": 243,
+    "rank": 251,
     "ratingGames": 10,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.6
@@ -25232,7 +26638,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 129,
+    "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -25380,12 +26786,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
-    "confidence": 49,
-    "rank": 77,
+    "rating": 1.1,
+    "confidence": 51,
+    "rank": 67,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -25523,7 +26929,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 45,
-    "rank": 157,
+    "rank": 160,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -25673,7 +27079,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 49,
-    "rank": 95,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.9
@@ -25823,7 +27229,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 135,
+    "rank": 139,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -25964,7 +27370,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 207,
+    "rank": 214,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -26105,7 +27511,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 56,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.9
@@ -26246,7 +27652,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 164,
+    "rank": 168,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -26471,7 +27877,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 62,
-    "rank": 187,
+    "rank": 191,
     "ratingGames": 9,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.4
@@ -26696,7 +28102,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 62,
-    "rank": 239,
+    "rank": 245,
     "ratingGames": 9,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.6
@@ -26869,7 +28275,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 50,
-    "rank": 153,
+    "rank": 155,
     "ratingGames": 7,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -27035,7 +28441,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 56,
-    "rank": 50,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.1
@@ -27339,10 +28745,10 @@
    {
     "week": 2,
     "rating": -0.6,
-    "confidence": 67,
-    "rank": 167,
+    "confidence": 68,
+    "rank": 170,
     "ratingGames": 14,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -27504,7 +28910,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 48,
-    "rank": 114,
+    "rank": 120,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -27661,7 +29067,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 50,
-    "rank": 119,
+    "rank": 125,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.4
@@ -27818,7 +29224,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 50,
-    "rank": 154,
+    "rank": 156,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -27975,7 +29381,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 47,
-    "rank": 171,
+    "rank": 176,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
@@ -28100,7 +29506,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 44,
-    "rank": 159,
+    "rank": 162,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.1
@@ -28225,7 +29631,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 44,
-    "rank": 175,
+    "rank": 179,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
@@ -28359,7 +29765,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 103,
+    "rank": 110,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.1
@@ -28493,7 +29899,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 44,
-    "rank": 104,
+    "rank": 111,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": -0.5
@@ -28627,7 +30033,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 110,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -28761,7 +30167,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 42,
-    "rank": 137,
+    "rank": 141,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": -0.4
@@ -28895,7 +30301,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 90,
+    "rank": 98,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -29020,7 +30426,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 43,
-    "rank": 105,
+    "rank": 112,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -29145,7 +30551,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 102,
+    "rank": 109,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -29270,7 +30676,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 48,
-    "rank": 224,
+    "rank": 230,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": -1.3
@@ -29395,7 +30801,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 46,
-    "rank": 227,
+    "rank": 233,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.2
@@ -29529,7 +30935,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 195,
+    "rank": 201,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.5
@@ -29661,12 +31067,12 @@
    },
    {
     "week": 2,
-    "rating": 0.2,
-    "confidence": 43,
-    "rank": 116,
+    "rating": 0.8,
+    "confidence": 46,
+    "rank": 83,
     "ratingGames": 5,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -29788,7 +31194,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 47,
-    "rank": 69,
+    "rank": 74,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.4
@@ -29913,7 +31319,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 43,
-    "rank": 203,
+    "rank": 208,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -30154,7 +31560,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 64,
-    "rank": 131,
+    "rank": 135,
     "ratingGames": 10,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -30286,12 +31692,12 @@
    },
    {
     "week": 2,
-    "rating": 0,
-    "confidence": 42,
-    "rank": 130,
+    "rating": 0.2,
+    "confidence": 44,
+    "rank": 121,
     "ratingGames": 5,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -30413,7 +31819,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 43,
-    "rank": 194,
+    "rank": 200,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -30538,7 +31944,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 136,
+    "rank": 140,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.2
@@ -30672,7 +32078,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 47,
-    "rank": 211,
+    "rank": 218,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -30806,7 +32212,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 40,
-    "rank": 177,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -30940,7 +32346,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 43,
-    "rank": 176,
+    "rank": 180,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.4
@@ -31197,7 +32603,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 62,
-    "rank": 249,
+    "rank": 256,
     "ratingGames": 11,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.2
@@ -31345,7 +32751,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 97,
+    "rank": 103,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.1
@@ -31495,7 +32901,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 134,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.1
@@ -31588,7 +32994,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 26,
-    "rank": 146,
+    "rank": 149,
     "ratingGames": 3,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.1
@@ -31729,7 +33135,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 49,
-    "rank": 133,
+    "rank": 136,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.6
@@ -31877,11 +33283,11 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 52,
-    "rank": 94,
+    "rank": 108,
     "ratingGames": 6,
-    "strengthOfPartners": -1.5,
+    "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -32020,7 +33426,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 51,
-    "rank": 87,
+    "rank": 95,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.5
@@ -32170,7 +33576,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 182,
+    "rank": 186,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
@@ -32311,7 +33717,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 49,
-    "rank": 68,
+    "rank": 73,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.6
@@ -32459,12 +33865,12 @@
    },
    {
     "week": 2,
-    "rating": 0.6,
-    "confidence": 47,
-    "rank": 91,
+    "rating": 0.7,
+    "confidence": 49,
+    "rank": 89,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -32609,12 +34015,12 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
-    "confidence": 51,
-    "rank": 219,
+    "rating": -1.1,
+    "confidence": 53,
+    "rank": 211,
     "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -32884,7 +34290,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 64,
-    "rank": 99,
+    "rank": 105,
     "ratingGames": 12,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.5
@@ -33170,7 +34576,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 67,
-    "rank": 179,
+    "rank": 183,
     "ratingGames": 12,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -33450,7 +34856,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 65,
-    "rank": 150,
+    "rank": 153,
     "ratingGames": 12,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -33750,12 +35156,12 @@
    },
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.5,
     "confidence": 65,
-    "rank": 180,
+    "rank": 165,
     "ratingGames": 13,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -34041,7 +35447,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 68,
-    "rank": 242,
+    "rank": 250,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.2
@@ -34295,7 +35701,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 63,
-    "rank": 168,
+    "rank": 172,
     "ratingGames": 10,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
@@ -34536,7 +35942,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 63,
-    "rank": 142,
+    "rank": 145,
     "ratingGames": 10,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -34777,7 +36183,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 60,
-    "rank": 170,
+    "rank": 174,
     "ratingGames": 10,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
@@ -35016,12 +36422,12 @@
    },
    {
     "week": 2,
-    "rating": -0.9,
+    "rating": -1,
     "confidence": 64,
-    "rank": 191,
+    "rank": 203,
     "ratingGames": 10,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -35029,7 +36435,7 @@
     "pid": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa",
     "name": "Stella Ott",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.9
    }
   ]
  },
@@ -35266,10 +36672,10 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 62,
-    "rank": 238,
+    "rank": 244,
     "ratingGames": 10,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -35277,7 +36683,7 @@
     "pid": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa",
     "name": "Stella Ott",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -35530,7 +36936,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 62,
-    "rank": 169,
+    "rank": 173,
     "ratingGames": 11,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.8
@@ -35794,7 +37200,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 63,
-    "rank": 152,
+    "rank": 154,
     "ratingGames": 11,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1
@@ -35916,7 +37322,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 38,
-    "rank": 204,
+    "rank": 209,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0
@@ -36025,7 +37431,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 38,
-    "rank": 246,
+    "rank": 253,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.4
@@ -36298,7 +37704,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 65,
-    "rank": 140,
+    "rank": 143,
     "ratingGames": 12,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.2
@@ -36578,7 +37984,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 64,
-    "rank": 209,
+    "rank": 215,
     "ratingGames": 12,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
@@ -36707,12 +38113,631 @@
    },
    {
     "week": 2,
-    "rating": -1.1,
+    "rating": -1.2,
     "confidence": 43,
-    "rank": 208,
+    "rank": 219,
     "ratingGames": 4,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "2ec82ce9-5de9-4bee-9f84-b28c2f6c0f2c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 138,
+    "pa": 164,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Vera Wong",
+    "vs": [
+     "Debbie Tovitz",
+     "Mark Lederman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Robert Goldenberg",
+     "Mark Lederman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Vera Wong",
+    "vs": [
+     "Cindy Walters",
+     "Mark Lederman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Ronald Wong",
+    "vs": [
+     "Mike Matchett",
+     "Robert Goldenberg"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Allison Harmony",
+     "Mike Matchett"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Ronald Wong",
+    "vs": [
+     "Robert Goldenberg",
+     "Mike Matchett"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Allison Harmony",
+     "Robert Goldenberg"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Mike Matchett",
+     "Ashish Malhotra"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 53,
+    "rank": 167,
+    "ratingGames": 8,
     "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "42cd2ea9-67c6-4d62-ad7f-8005e5c03606": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PCKLRAMA",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 104,
+    "pa": 124,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 108,
+    "pa": 121,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Brandon Fulford",
+    "vs": [
+     "Claudia Calle",
+     "Steve Roth"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Savita Nandal",
+    "vs": [
+     "Kristen Silvestri",
+     "May Syso"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Xilin Zhao",
+    "vs": [
+     "Claudia Calle",
+     "Steve Roth"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Brandon Fulford",
+    "vs": [
+     "Susan Colicchio",
+     "Joe Monello"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Ronald Wong",
+    "vs": [
+     "May Syso",
+     "Elias Eid"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Savita Nandal",
+    "vs": [
+     "Kristen Silvestri",
+     "Gladys Garzone"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Allison Harmony",
+     "Robert Goldenberg"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Ronald Wong",
+    "vs": [
+     "Allison Harmony",
+     "Ashish Malhotra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Vera Wong",
+    "vs": [
+     "Amanda Gardiner",
+     "Debbie Tovitz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jim Hu",
+    "vs": [
+     "Allison Harmony",
+     "Mike Matchett"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Amanda Gardiner",
+     "Roberto Marcillo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Vera Wong",
+    "vs": [
+     "Amanda Gardiner",
+     "Cindy Walters"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 49,
+    "rank": 107,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 67,
+    "rank": 91,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
+ "7d118eb0-a3f3-4932-a637-1e9fcb986ff9": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 131,
+    "pa": 164,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Allison Harmony",
+     "Robert Goldenberg"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Jim Hu",
+    "vs": [
+     "Robert Goldenberg",
+     "Mark Lederman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Denise Aronson",
+    "vs": [
+     "Amanda Gardiner",
+     "Mike Matchett"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Mark Lederman",
+     "Ashish Malhotra"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Amanda Gardiner",
+     "Ashish Malhotra"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Mark Lederman",
+     "Roberto Marcillo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Amanda Gardiner",
+     "Roberto Marcillo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Jim Hu",
+    "vs": [
+     "Mike Matchett",
+     "Ashish Malhotra"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 56,
+    "rank": 146,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -36890,11 +38915,11 @@
    {
     "week": 2,
     "rating": -0.8,
-    "confidence": 57,
-    "rank": 188,
+    "confidence": 58,
+    "rank": 192,
     "ratingGames": 8,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -37164,7 +39189,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 64,
-    "rank": 141,
+    "rank": 144,
     "ratingGames": 12,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
@@ -37175,13 +39200,13 @@
     "pid": "3b4a5b66-69e2-44be-96c8-b48d93e9ae6f",
     "name": "Lance Arlaus",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "7c31fae2-4ca2-47e5-a531-cdcbdb069c80",
     "name": "Cesar Fojas",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -37482,7 +39507,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 70,
-    "rank": 161,
+    "rank": 164,
     "ratingGames": 14,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.7
@@ -37620,7 +39645,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 41,
-    "rank": 106,
+    "rank": 113,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.5
@@ -37754,7 +39779,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 43,
-    "rank": 111,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 0.3
@@ -37888,7 +39913,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 221,
+    "rank": 226,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
@@ -38022,7 +40047,7 @@
     "week": 2,
     "rating": -3.4,
     "confidence": 49,
-    "rank": 265,
+    "rank": 272,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.4
@@ -38156,7 +40181,7 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 44,
-    "rank": 258,
+    "rank": 265,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.9
@@ -38290,7 +40315,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 47,
-    "rank": 215,
+    "rank": 223,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.3
@@ -38424,7 +40449,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 44,
-    "rank": 248,
+    "rank": 255,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -38558,7 +40583,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 226,
+    "rank": 232,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -38692,7 +40717,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 46,
-    "rank": 127,
+    "rank": 133,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 2.1
@@ -38817,7 +40842,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 192,
+    "rank": 198,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.3
@@ -38942,7 +40967,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 183,
+    "rank": 187,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.4
@@ -39067,7 +41092,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 234,
+    "rank": 240,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.7
@@ -39192,7 +41217,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 43,
-    "rank": 202,
+    "rank": 207,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.8
@@ -39317,7 +41342,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 48,
-    "rank": 220,
+    "rank": 225,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.1
@@ -39449,12 +41474,12 @@
    },
    {
     "week": 2,
-    "rating": -1,
-    "confidence": 44,
-    "rank": 201,
+    "rating": -0.8,
+    "confidence": 47,
+    "rank": 193,
     "ratingGames": 5,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1.9
    }
   ],
   "partners": []
@@ -39576,7 +41601,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 45,
-    "rank": 241,
+    "rank": 247,
     "ratingGames": 5,
     "strengthOfPartners": -3.3,
     "strengthOfOpponents": 0.5
@@ -39815,9 +41840,9 @@
    },
    {
     "week": 2,
-    "rating": -3.4,
+    "rating": -3.5,
     "confidence": 63,
-    "rank": 264,
+    "rank": 273,
     "ratingGames": 10,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
@@ -39949,12 +41974,253 @@
    },
    {
     "week": 2,
-    "rating": -2.9,
-    "confidence": 41,
-    "rank": 263,
+    "rating": -3.1,
+    "confidence": 43,
+    "rank": 270,
     "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "6518a1dd-c30a-464a-a378-d8080c480742": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PCKLRAMA",
+    "homeAway": "A",
+    "w": 0,
+    "l": 3,
+    "gp": 3,
+    "pf": 51,
+    "pa": 63,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 103,
+    "pa": 142,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Brandon Fulford",
+    "vs": [
+     "Elias Eid",
+     "Steve Roth"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Savita Nandal",
+    "vs": [
+     "May Syso",
+     "Alam Mohammad"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "May Syso",
+     "Elias Eid"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Roberto Marcillo",
+     "Ashish Malhotra"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Allison Harmony",
+     "Ashish Malhotra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Jim Hu",
+    "vs": [
+     "Mike Matchett",
+     "Robert Goldenberg"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Debbie Tovitz",
+     "Roberto Marcillo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Jim Hu",
+    "vs": [
+     "Robert Goldenberg",
+     "Mike Matchett"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Vera Wong",
+    "vs": [
+     "Debbie Tovitz",
+     "Ashish Malhotra"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Roberto Marcillo",
+     "Robert Goldenberg"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 33,
+    "rank": 110,
+    "ratingGames": 3,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 62,
+    "rank": 204,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -40208,7 +42474,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 65,
-    "rank": 185,
+    "rank": 189,
     "ratingGames": 11,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1
@@ -40358,7 +42624,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 52,
-    "rank": 205,
+    "rank": 212,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
@@ -40499,7 +42765,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 50,
-    "rank": 88,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.7
@@ -40640,7 +42906,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 50,
-    "rank": 206,
+    "rank": 213,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0
@@ -40781,160 +43047,10 @@
     "week": 2,
     "rating": -1,
     "confidence": 47,
-    "rank": 200,
+    "rank": 206,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "42cd2ea9-67c6-4d62-ad7f-8005e5c03606": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PCKLRAMA",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 104,
-    "pa": 124,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Brandon Fulford",
-    "vs": [
-     "Claudia Calle",
-     "Steve Roth"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Savita Nandal",
-    "vs": [
-     "Kristen Silvestri",
-     "May Syso"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Xilin Zhao",
-    "vs": [
-     "Claudia Calle",
-     "Steve Roth"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Brandon Fulford",
-    "vs": [
-     "Susan Colicchio",
-     "Joe Monello"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Ronald Wong",
-    "vs": [
-     "May Syso",
-     "Elias Eid"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Savita Nandal",
-    "vs": [
-     "Kristen Silvestri",
-     "Gladys Garzone"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 49,
-    "rank": 107,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 2,
-    "rating": -0.2,
-    "confidence": 51,
-    "rank": 144,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -41081,7 +43197,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 50,
-    "rank": 210,
+    "rank": 216,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -41222,7 +43338,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 45,
-    "rank": 235,
+    "rank": 241,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -41363,7 +43479,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 50,
-    "rank": 125,
+    "rank": 131,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.6
@@ -41504,7 +43620,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 45,
-    "rank": 174,
+    "rank": 178,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
@@ -41654,7 +43770,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 50,
-    "rank": 231,
+    "rank": 236,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -41803,11 +43919,11 @@
    {
     "week": 2,
     "rating": -0.6,
-    "confidence": 47,
-    "rank": 172,
+    "confidence": 49,
+    "rank": 175,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.5
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -41945,7 +44061,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 47,
-    "rank": 214,
+    "rank": 222,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -42218,7 +44334,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 68,
-    "rank": 166,
+    "rank": 171,
     "ratingGames": 12,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.2
@@ -42504,7 +44620,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 68,
-    "rank": 197,
+    "rank": 202,
     "ratingGames": 12,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.8
@@ -42521,7 +44637,7 @@
     "pid": "f0acebf7-62fd-455a-9fa4-c5ca589fc1b5",
     "name": "Jemma Bucks",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    }
   ]
  },
@@ -42790,7 +44906,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 67,
-    "rank": 178,
+    "rank": 182,
     "ratingGames": 12,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.3
@@ -43063,7 +45179,7 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 67,
-    "rank": 256,
+    "rank": 262,
     "ratingGames": 12,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
@@ -43343,7 +45459,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 64,
-    "rank": 233,
+    "rank": 237,
     "ratingGames": 12,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
@@ -43516,7 +45632,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 51,
-    "rank": 213,
+    "rank": 221,
     "ratingGames": 7,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 1.4
@@ -43673,7 +45789,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 55,
-    "rank": 199,
+    "rank": 205,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
@@ -43837,194 +45953,12 @@
    },
    {
     "week": 2,
-    "rating": -1,
+    "rating": -0.9,
     "confidence": 55,
-    "rank": 198,
+    "rank": 196,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 2.1
-   }
-  ],
-  "partners": []
- },
- "906383cd-e781-48bc-9004-0fc5427c7e62": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PCKLRAMA",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 139,
-    "pa": 164,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Rita Hung",
-    "vs": [
-     "Claudia Calle",
-     "Steve Roth"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Virasack Vorabouth",
-    "vs": [
-     "Scott Kindzierski",
-     "Alam Mohammad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Savita Nandal",
-    "vs": [
-     "Susan Colicchio",
-     "Scott Kindzierski"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Ronald Wong",
-    "vs": [
-     "Elias Eid",
-     "Steve Roth"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Rita Hung",
-    "vs": [
-     "Susan Colicchio",
-     "Joe Monello"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Peter Chen",
-    "vs": [
-     "Alam Mohammad",
-     "Joe Monello"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Yayuan Lien",
-    "vs": [
-     "Susan Colicchio",
-     "Joe Monello"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Buyi Zhang",
-    "vs": [
-     "Alam Mohammad",
-     "Steve Roth"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.7,
-    "confidence": 51,
-    "rank": 117,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 2,
-    "rating": -0.5,
-    "confidence": 55,
-    "rank": 163,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -44201,12 +46135,237 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -1.7,
     "confidence": 54,
-    "rank": 218,
+    "rank": 238,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.6
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
+ "906383cd-e781-48bc-9004-0fc5427c7e62": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PCKLRAMA",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 139,
+    "pa": 164,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 1,
+    "gp": 1,
+    "pf": 8,
+    "pa": 21,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     0,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Claudia Calle",
+     "Steve Roth"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Scott Kindzierski",
+     "Alam Mohammad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Savita Nandal",
+    "vs": [
+     "Susan Colicchio",
+     "Scott Kindzierski"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Ronald Wong",
+    "vs": [
+     "Elias Eid",
+     "Steve Roth"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Rita Hung",
+    "vs": [
+     "Susan Colicchio",
+     "Joe Monello"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Peter Chen",
+    "vs": [
+     "Alam Mohammad",
+     "Joe Monello"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Susan Colicchio",
+     "Joe Monello"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Buyi Zhang",
+    "vs": [
+     "Alam Mohammad",
+     "Steve Roth"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Denise Aronson",
+    "vs": [
+     "Amanda Gardiner",
+     "Roberto Marcillo"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 51,
+    "rank": 117,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": -1.1,
+    "confidence": 59,
+    "rank": 210,
+    "ratingGames": 9,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -44444,7 +46603,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 59,
-    "rank": 250,
+    "rank": 257,
     "ratingGames": 10,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -44692,7 +46851,7 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 63,
-    "rank": 257,
+    "rank": 263,
     "ratingGames": 10,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.8
@@ -44940,7 +47099,7 @@
     "week": 2,
     "rating": -4.2,
     "confidence": 63,
-    "rank": 267,
+    "rank": 275,
     "ratingGames": 10,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.3
@@ -45188,7 +47347,7 @@
     "week": 2,
     "rating": -4.6,
     "confidence": 57,
-    "rank": 268,
+    "rank": 276,
     "ratingGames": 10,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -45445,7 +47604,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 64,
-    "rank": 237,
+    "rank": 243,
     "ratingGames": 11,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.8
@@ -45709,7 +47868,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 62,
-    "rank": 260,
+    "rank": 267,
     "ratingGames": 11,
     "strengthOfPartners": -2.4,
     "strengthOfOpponents": 1
@@ -46005,7 +48164,7 @@
     "week": 2,
     "rating": -3.9,
     "confidence": 68,
-    "rank": 266,
+    "rank": 274,
     "ratingGames": 13,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -46022,111 +48181,9 @@
     "pid": "916dafeb-720f-471b-9609-7f338b793ed3",
     "name": "Jonathan Basa",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    }
   ]
- },
- "6518a1dd-c30a-464a-a378-d8080c480742": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PCKLRAMA",
-    "homeAway": "A",
-    "w": 0,
-    "l": 3,
-    "gp": 3,
-    "pf": 51,
-    "pa": 63,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Brandon Fulford",
-    "vs": [
-     "Elias Eid",
-     "Steve Roth"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Savita Nandal",
-    "vs": [
-     "May Syso",
-     "Alam Mohammad"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Rita Hung",
-    "vs": [
-     "May Syso",
-     "Elias Eid"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 33,
-    "rank": 110,
-    "ratingGames": 3,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 2,
-    "rating": -0.1,
-    "confidence": 34,
-    "rank": 139,
-    "ratingGames": 3,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
  },
  "e1da49d1-14cf-4a20-9f10-39c7ba6c38c4": {
   "log": [
@@ -46261,7 +48318,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 89,
+    "rank": 97,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.4
@@ -46386,7 +48443,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 46,
-    "rank": 173,
+    "rank": 177,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.1
@@ -46511,7 +48568,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 45,
-    "rank": 184,
+    "rank": 188,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1.2
@@ -46645,10 +48702,10 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 193,
+    "rank": 199,
     "ratingGames": 5,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -46763,7 +48820,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 40,
-    "rank": 229,
+    "rank": 234,
     "ratingGames": 4,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 1.7
@@ -46895,130 +48952,12 @@
    },
    {
     "week": 2,
-    "rating": -1.3,
-    "confidence": 45,
-    "rank": 216,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PCKLRAMA",
-    "homeAway": "A",
-    "w": 0,
-    "l": 4,
-    "gp": 4,
-    "pf": 59,
-    "pa": 84,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Yayuan Lien",
-    "vs": [
-     "May Syso",
-     "Alam Mohammad"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Brandon Fulford",
-    "vs": [
-     "Scott Kindzierski",
-     "Alam Mohammad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Jinghua Shi",
-    "vs": [
-     "Gladys Garzone",
-     "Joe Monello"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "male",
-    "with": "Xilin Zhao",
-    "vs": [
-     "Alam Mohammad",
-     "Joe Monello"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1,
-    "confidence": 39,
-    "rank": 129,
-    "ratingGames": 4,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 2,
     "rating": -0.9,
-    "confidence": 42,
-    "rank": 196,
-    "ratingGames": 4,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 1.5
+    "confidence": 47,
+    "rank": 197,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -47140,7 +49079,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 44,
-    "rank": 236,
+    "rank": 242,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.4
@@ -47272,11 +49211,11 @@
    },
    {
     "week": 2,
-    "rating": -1.3,
-    "confidence": 43,
-    "rank": 217,
+    "rating": -1.4,
+    "confidence": 45,
+    "rank": 228,
     "ratingGames": 5,
-    "strengthOfPartners": -0.7,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.2
    }
   ],
@@ -47399,10 +49338,10 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 222,
+    "rank": 227,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.2
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -47524,10 +49463,10 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 47,
-    "rank": 225,
+    "rank": 231,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -47633,7 +49572,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 41,
-    "rank": 255,
+    "rank": 261,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.4
@@ -47758,7 +49697,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 46,
-    "rank": 240,
+    "rank": 246,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1.5
@@ -47890,12 +49829,12 @@
    },
    {
     "week": 2,
-    "rating": -1.9,
+    "rating": -1.8,
     "confidence": 44,
-    "rank": 244,
+    "rank": 248,
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -48026,7 +49965,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 42,
-    "rank": 245,
+    "rank": 252,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.2
@@ -48158,12 +50097,12 @@
    },
    {
     "week": 2,
-    "rating": -1.5,
-    "confidence": 41,
-    "rank": 228,
+    "rating": -1.3,
+    "confidence": 45,
+    "rank": 224,
     "ratingGames": 5,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 1.5
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -48294,7 +50233,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 41,
-    "rank": 259,
+    "rank": 266,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1
@@ -48403,9 +50342,9 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 43,
-    "rank": 253,
+    "rank": 259,
     "ratingGames": 4,
-    "strengthOfPartners": -0.7,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8
    }
   ],
@@ -48528,128 +50467,10 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 44,
-    "rank": 254,
+    "rank": 260,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
-   }
-  ],
-  "partners": []
- },
- "83effba4-f2b6-4576-93ef-1ba487b02f0c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PCKLRAMA",
-    "homeAway": "A",
-    "w": 0,
-    "l": 4,
-    "gp": 4,
-    "pf": 46,
-    "pa": 84,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Yayuan Lien",
-    "vs": [
-     "Gladys Garzone",
-     "Susan Colicchio"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Virasack Vorabouth",
-    "vs": [
-     "Gladys Garzone",
-     "Joe Monello"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Yayuan Lien",
-    "vs": [
-     "Gladys Garzone",
-     "Claudia Calle"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Savita Nandal",
-    "vs": [
-     "Claudia Calle",
-     "Gladys Garzone"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.5,
-    "confidence": 34,
-    "rank": 152,
-    "ratingGames": 4,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 2.4
-   },
-   {
-    "week": 2,
-    "rating": -1.5,
-    "confidence": 34,
-    "rank": 230,
-    "ratingGames": 4,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 2.5
    }
   ],
   "partners": []
@@ -48771,7 +50592,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 247,
+    "rank": 254,
     "ratingGames": 5,
     "strengthOfPartners": -2.8,
     "strengthOfOpponents": 0.6
@@ -48896,10 +50717,167 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 45,
-    "rank": 262,
+    "rank": 269,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "09ff18df-a4f9-4af7-808b-d8ceca5d1c57": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 107,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jim Hu",
+    "vs": [
+     "Debbie Tovitz",
+     "Mark Lederman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Allison Harmony",
+     "Debbie Tovitz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jim Hu",
+    "vs": [
+     "Cindy Walters",
+     "Mark Lederman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Rita Hung",
+    "vs": [
+     "Amanda Gardiner",
+     "Debbie Tovitz"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Allison Harmony",
+     "Amanda Gardiner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Ronald Wong",
+    "vs": [
+     "Debbie Tovitz",
+     "Ashish Malhotra"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Rita Hung",
+    "vs": [
+     "Amanda Gardiner",
+     "Cindy Walters"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 48,
+    "rank": 217,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -49037,7 +51015,7 @@
     "week": 2,
     "rating": -2.3,
     "confidence": 48,
-    "rank": 252,
+    "rank": 258,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.3
@@ -49160,11 +51138,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 48,
-    "rank": 232,
+    "rank": 239,
     "ratingGames": 5,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 2.2
    }
   ],
@@ -49303,10 +51281,688 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 48,
-    "rank": 261,
+    "rank": 268,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
+ "848cb4f7-05ae-44e2-b0b0-589d5223ae36": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 90,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Brandon Fulford",
+    "vs": [
+     "Amanda Gardiner",
+     "Roberto Marcillo"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Ana Bautista",
+     "Cindy Walters"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Amanda Gardiner",
+     "Mike Matchett"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Ana Bautista",
+     "Cindy Walters"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Cindy Walters",
+     "Robert Goldenberg"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Ana Bautista",
+     "Debbie Tovitz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Cindy Walters",
+     "Mark Lederman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Ana Bautista",
+     "Allison Harmony"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -2.6,
+    "confidence": 56,
+    "rank": 264,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 2
+   }
+  ],
+  "partners": []
+ },
+ "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PCKLRAMA",
+    "homeAway": "A",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 59,
+    "pa": 84,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 108,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Yayuan Lien",
+    "vs": [
+     "May Syso",
+     "Alam Mohammad"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Brandon Fulford",
+    "vs": [
+     "Scott Kindzierski",
+     "Alam Mohammad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Gladys Garzone",
+     "Joe Monello"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "male",
+    "with": "Xilin Zhao",
+    "vs": [
+     "Alam Mohammad",
+     "Joe Monello"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Ana Bautista",
+     "Mike Matchett"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Ronald Wong",
+    "vs": [
+     "Roberto Marcillo",
+     "Ashish Malhotra"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Ana Bautista",
+     "Roberto Marcillo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Mark Lederman",
+     "Ashish Malhotra"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Denise Aronson",
+    "vs": [
+     "Cindy Walters",
+     "Robert Goldenberg"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Mark Lederman",
+     "Roberto Marcillo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Denise Aronson",
+    "vs": [
+     "Cindy Walters",
+     "Mark Lederman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Ronald Wong",
+    "vs": [
+     "Roberto Marcillo",
+     "Robert Goldenberg"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1,
+    "confidence": 39,
+    "rank": 129,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 67,
+    "rank": 235,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f4725f25-ce53-4104-8f94-d558d8c39e84",
+    "name": "Yayuan Lien",
+    "n": 3,
+    "synergy": 0.3
+   }
+  ]
+ },
+ "83effba4-f2b6-4576-93ef-1ba487b02f0c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PCKLRAMA",
+    "homeAway": "A",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 46,
+    "pa": 84,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 51,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Gladys Garzone",
+     "Susan Colicchio"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Gladys Garzone",
+     "Joe Monello"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Yayuan Lien",
+    "vs": [
+     "Gladys Garzone",
+     "Claudia Calle"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Savita Nandal",
+    "vs": [
+     "Claudia Calle",
+     "Gladys Garzone"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Denise Aronson",
+    "vs": [
+     "Ana Bautista",
+     "Cindy Walters"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Mark Vanarendonk",
+    "vs": [
+     "Amanda Gardiner",
+     "Ashish Malhotra"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Vera Wong",
+    "vs": [
+     "Allison Harmony",
+     "Amanda Gardiner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Jim Hu",
+    "vs": [
+     "Allison Harmony",
+     "Robert Goldenberg"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Denise Aronson",
+    "vs": [
+     "Ana Bautista",
+     "Allison Harmony"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.5,
+    "confidence": 34,
+    "rank": 152,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 2.4
+   },
+   {
+    "week": 2,
+    "rating": -3.2,
+    "confidence": 57,
+    "rank": 271,
+    "ratingGames": 9,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 2.1
    }
   ],
   "partners": []
@@ -49333,6 +51989,33 @@
     "cl": [
      0,
      2
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 76,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
     ],
     "teamRes": "L",
     "teamGW": 4,
@@ -49469,6 +52152,102 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Ana Bautista",
+     "Mike Matchett"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Vera Wong",
+    "vs": [
+     "Allison Harmony",
+     "Debbie Tovitz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Virasack Vorabouth",
+    "vs": [
+     "Ana Bautista",
+     "Roberto Marcillo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Denise Aronson",
+    "vs": [
+     "Ana Bautista",
+     "Cindy Walters"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Ronald Wong",
+    "vs": [
+     "Debbie Tovitz",
+     "Roberto Marcillo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Denise Aronson",
+    "vs": [
+     "Ana Bautista",
+     "Debbie Tovitz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
    }
   ],
   "ratingHistory": [
@@ -49483,15 +52262,22 @@
    },
    {
     "week": 2,
-    "rating": -2.3,
-    "confidence": 56,
-    "rank": 251,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.1
+    "rating": -1.9,
+    "confidence": 69,
+    "rank": 249,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 1.6
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc",
+    "name": "Virasack Vorabouth",
+    "n": 3,
+    "synergy": 0.3
+   }
+  ]
  }
 };
   window.CPL_DETAILS = window.CPL_DETAILS || {};

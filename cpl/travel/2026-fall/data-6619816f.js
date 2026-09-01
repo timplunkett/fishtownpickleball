@@ -355,7 +355,7 @@
    "team": "Dill Dinkers Hatboro The Factory",
    "matches": 1,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 6,
    "wins": 5,
    "losses": 1,
@@ -9278,7 +9278,7 @@
    "week": 2,
    "home": "Jersey Devil",
    "away": "Dill Dinkers Hatboro The Factory",
-   "time": "2026-09-02T19:30:00",
+   "time": "2026-10-29T19:30:00",
    "complete": false,
    "games": [
     {
@@ -10249,7 +10249,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-01T13:52:07.900Z";
+  DATA.meta.asOf = "2026-09-01T15:48:17.480Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

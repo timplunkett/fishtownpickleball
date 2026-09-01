@@ -185,9 +185,9 @@
       "weekNumber": 2,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 470,
+      "awayPoints": 673,
+      "endResult": "away",
       "scheduledTime": "2026-08-30T14:00:00",
       "homeName": "Allstar Pickler",
       "awayName": "Pickleball Palace"
