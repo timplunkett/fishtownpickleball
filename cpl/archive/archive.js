@@ -48,7 +48,7 @@
   // club names.
   function divisionCell(row) {
     var href = shared.divisionHref(row.league, row.season, row.slug, '../');
-    return '<a class="arch-link" href="' + escapeHtml(href) + '">' + escapeHtml(row.division) + '</a>';
+    return '<a class="app-link" href="' + escapeHtml(href) + '">' + escapeHtml(row.division) + '</a>';
   }
 
   // A podium place.

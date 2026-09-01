@@ -218,6 +218,15 @@ The dashboard markup is **not** generated: `_cpl/templates/local.html` and
 `_cpl/templates/travel.html` are the two hand-written shells, copied verbatim
 into every season directory on compile. Edit those, never the copies.
 
+**Link styling** is defined once, in `cpl/styles.css`, which all three page
+types load. Two roles cover every link in the app: `.app-link` for navigation
+the reader should notice (accent, underline on hover) and `.data-link` — with
+its older aliases `.pname` and `.audit-link` — for links that are the content of
+a dense table (surrounding colour, dotted underline, accent on hover). `.back-link`
+is the way up a level. A test checks that every link class the pages emit
+resolves to a rule with a hover state; the archive's division links once had
+neither, and read as plain text.
+
 Neither are the three standalone pages — `cpl/index.html` + `cpl/home.js`,
 `cpl/archive/` and `cpl/dupr-audit/index.html`. They read the generated data
 files at runtime rather than being generated themselves.

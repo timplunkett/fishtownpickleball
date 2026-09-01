@@ -463,3 +463,51 @@ test('a missing archive dataset leaves the page saying so, not empty', () => {
   const app = runArchive(undefined);
   assert.equal(app.el('archive-empty').hidden, false);
 });
+
+// --- Link styling ----------------------------------------------------------
+//
+// The archive's division links once carried a class that set body colour, no
+// underline and no hover state, so a whole column of them read as plain text.
+// The roles are defined in cpl/styles.css; these check that every link the site
+// emits actually claims one of them, and that the claim resolves to a rule.
+
+test('every link class the pages emit is defined in a stylesheet', () => {
+  const css = ['styles.css', 'home.css']
+    .map((file) => fs.readFileSync(path.join(CPL, file), 'utf8'))
+    .join('\n');
+
+  const sources = [
+    'index.html', 'home.js', 'archive/index.html', 'archive/archive.js',
+    'dupr-audit/index.html',
+  ].map((file) => fs.readFileSync(path.join(CPL, file), 'utf8')).join('\n');
+
+  // Anchors carry their class either as markup or as a generated string.
+  const classes = new Set();
+  for (const [, value] of sources.matchAll(/<a class="([a-z- ]+)"/g)) {
+    value.split(/\s+/).filter(Boolean).forEach((name) => classes.add(name));
+  }
+  for (const [, value] of sources.matchAll(/'<a class="([a-z- ]+)"/g)) {
+    value.split(/\s+/).filter(Boolean).forEach((name) => classes.add(name));
+  }
+
+  assert.ok(classes.size >= 3, `only found ${[...classes]} — the scan stopped matching`);
+  const undefinedClasses = [...classes].filter((name) => !css.includes(`.${name}`));
+  assert.deepEqual(undefinedClasses, [], 'link classes with no rule behind them');
+});
+
+test('each link role carries a colour and a hover state', () => {
+  const css = fs.readFileSync(path.join(CPL, 'styles.css'), 'utf8');
+  // A role with no hover state is the bug this is guarding: it looks like text
+  // and stays looking like text under the cursor.
+  ['app-link', 'data-link', 'back-link'].forEach((role) => {
+    assert.ok(css.includes(`.${role} {`) || css.includes(`.${role},`), `${role} has no rule`);
+    assert.ok(css.includes(`.${role}:hover`), `${role} has no hover state`);
+  });
+});
+
+test('the archive division links claim the noticeable role, not the dense-table one', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const html = htmlOf(app.el('archive-host'));
+  assert.ok(html.includes('<a class="app-link"'), 'division links lost their link styling');
+  assert.ok(!html.includes('arch-link'), 'the old unstyled class is back');
+});

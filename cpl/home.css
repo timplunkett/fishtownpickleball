@@ -144,13 +144,11 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .link-panel[hidden] { display: none; }
 
-.panel-link {
-  font-size: .875rem;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.panel-link:hover { text-decoration: underline; }
+/* The signpost links out of the landing page's boxes. Only the size is local,
+   and it is scoped to the boxes: the archive table's division links are also
+   .app-link, and they take their size from the table rather than from here.
+   The colour and hover underline come from .app-link in styles.css. */
+.panel .app-link { font-size: .875rem; }
 
 #archive-panel[hidden] { display: none; }
 
@@ -218,9 +216,6 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 .arch-table tbody th { font-weight: 600; }
 .arch-table tbody tr:hover { background: rgb(255 255 255 / 3%); }
 
-.arch-link { color: var(--txt); text-decoration: none; }
-.arch-link:hover { color: var(--accent); text-decoration: underline; }
-
 /* A place nobody won: a bracket with no third-place match, or a division too
    small to fill the podium. Empty rather than dashed — there is no result to
    report, and a dash reads as one that is missing. */
@@ -273,14 +268,6 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   padding-right: 1rem;
   text-align: left;
 }
-
-/* The way back to /cpl/, sitting in the hero kicker. */
-.hero .back-link {
-  color: var(--mut);
-  text-decoration: none;
-}
-
-.hero .back-link:hover { color: var(--accent); }
 
 /* The season name on an archived finder row. Quieter than .sub-tag beside it:
    it is context for the row, not a warning about it. */
@@ -372,6 +359,8 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   color: var(--mut);
 }
 
+/* Same role as .app-link; the markup comes from shared.js's formatDuprRating,
+   which emits a bare anchor. */
 .player-result-dupr a {
   color: var(--accent);
   text-decoration: none;

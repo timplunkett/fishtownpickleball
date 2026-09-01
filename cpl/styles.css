@@ -27,8 +27,60 @@
   box-sizing: border-box;
 }
 
+/* --- Links ---------------------------------------------------------------
+   Every link on the site is one of four roles. They are defined here, in the
+   stylesheet all three page types load, because they used to be defined per
+   page: the archive's division links inherited body colour with no underline
+   and no hover affordance, so a column of them read as plain text.
+
+   a          prose links — accent, underlined, the browser default
+   .app-link  navigation the reader is meant to notice: the archive's division
+              column, the signpost links out of the landing page's boxes.
+              Accent, with the underline held back until hover.
+   .data-link a link that IS the content of a dense table — the DUPR audit
+              links three of its eight columns, and the dashboard's player
+              names open a modal. Accent on all of them at once would swamp the
+              data, so these keep the surrounding text colour and carry a dotted
+              underline instead, going accent on hover.
+   .back-link the way up a level — muted and uppercase, accent on hover.
+
+   The choice between the first two is whether the link is the point of its row
+   or merely part of it. Anything clickable that is none of these carries its own
+   affordance: the finder's results are whole-row anchors with a hover
+   background, the contents strip is a row of chips.
+*/
 a {
   color: var(--accent);
+}
+
+.app-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.app-link:hover,
+.app-link:focus-visible {
+  text-decoration: underline;
+}
+
+/* .pname and .audit-link are the two existing names for this role, kept because
+   app.js and the audit page emit them in generated markup. */
+.data-link,
+.pname,
+.audit-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--mut);
+}
+
+.data-link:hover,
+.pname:hover,
+.audit-link:hover,
+.data-link:focus-visible,
+.audit-link:focus-visible {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 html {
@@ -901,8 +953,12 @@ tbody td {
   font-variant-numeric: tabular-nums;
 }
 
-.sos,
-.pname {
+/* .pname used to be in here too, which quietly re-specified the colour the
+   Links block at the top of this file sets — and being further down, it won. It
+   resolved to the same value in a table cell, so nothing looked wrong, but it
+   would have overridden the inherit-the-surrounding-colour behaviour the
+   .data-link role exists for. */
+.sos {
   color: var(--txt);
 }
 
@@ -920,13 +976,6 @@ tbody td {
   border-radius: 2px;
 }
 
-.pname {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
-  border-bottom: 1px dotted var(--mut);
-}
-
 /* Visible focus for the keyboard-operable controls. */
 .tcard:focus-visible,
 .pname:focus-visible,
@@ -937,11 +986,6 @@ thead th:focus-visible,
 .swarm-dot:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}
-
-.pname:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
 }
 
 .overlay {
@@ -2104,6 +2148,8 @@ thead th:focus-visible,
   margin-top: 10px;
 }
 
+/* Same role as .app-link; kept as its own selector because the markup is
+   generated in bootstrap-gen.js and shared.js without a class. */
 .load-error-action a {
   font-weight: 600;
   text-decoration: none;
