@@ -27,19 +27,25 @@
     return data && Array.isArray(data.rows) ? data.rows : [];
   }
 
-  // Rows arrive newest season first (the compiler emits them in catalog order),
-  // so grouping in encounter order preserves it without a second sort.
+  // Newest season first, using the same comparator as the Archive box on the
+  // landing page — the rows arrive grouped league by league, so their own order
+  // put a local season after every travel one however recently it was played.
   function groupBySeason(list) {
     var groups = [];
     var bySlug = {};
     list.forEach(function (row) {
       if (!bySlug[row.season]) {
-        bySlug[row.season] = { slug: row.season, label: row.seasonLabel, rows: [] };
+        bySlug[row.season] = {
+          slug: row.season,
+          label: row.seasonLabel,
+          order: row.order || 0,
+          rows: [],
+        };
         groups.push(bySlug[row.season]);
       }
       bySlug[row.season].rows.push(row);
     });
-    return groups;
+    return groups.sort(shared.compareSeasonsNewestFirst);
   }
 
   // The Division cell holds only the bracket. A local division's club is not

@@ -637,6 +637,30 @@
   // season-less /cpl/<league>/?d=<slug>, which the league's redirect stub
   // resolves to the right season. So the season being missing costs one extra
   // hop, not a broken link.
+  // Newest season first, for anything that lists seasons: the Archive box on the
+  // landing page and the season sections on /cpl/archive/.
+  //
+  // Both used to sort for themselves and disagreed — the archive page took the
+  // order the compiler happened to emit, which walks league by league, so a
+  // local season landed after every travel one regardless of when it was played.
+  // One comparator, used by both, is the fix; it is exported so the archive page
+  // can reach it too.
+  //
+  // `order` is the numeric stamp the compiler puts on each season (year and
+  // season number). Nothing here can derive one from the slug: slugs read
+  // <year>-<name>, so sorting them as strings puts Summer 2026 above Fall 2026.
+  // The slug is the last-resort tiebreak, right across years and only wrong
+  // between two seasons of the same one — which the order stamp already settles.
+  function compareSeasonsNewestFirst(a, b) {
+    const orderA = Number(a && a.order) || 0;
+    const orderB = Number(b && b.order) || 0;
+    if (orderA !== orderB) return orderB - orderA;
+    const rankA = Number(a && a.rank);
+    const rankB = Number(b && b.rank);
+    if (Number.isFinite(rankA) && Number.isFinite(rankB) && rankA !== rankB) return rankA - rankB;
+    return String((b && b.slug) || '').localeCompare(String((a && a.slug) || ''));
+  }
+
   // The catalog, regrouped by season instead of by league: one entry per season
   // slug, each listing the leagues that played it.
   //
@@ -678,11 +702,7 @@
         rank += 1;
       });
     });
-    return [...groups.values()].sort((a, b) => {
-      if (a.order !== b.order) return b.order - a.order;
-      if (a.rank !== b.rank) return a.rank - b.rank;
-      return b.slug.localeCompare(a.slug);
-    });
+    return [...groups.values()].sort(compareSeasonsNewestFirst);
   }
 
   // How a division reads in a picker. Travel divisions are a bare bracket
@@ -738,6 +758,7 @@
     catalogLeagues,
     catalogSeason,
     catalogSeasons,
+    compareSeasonsNewestFirst,
     divisionHref,
     divisionOptionHtml,
     divisionOptionLabel,

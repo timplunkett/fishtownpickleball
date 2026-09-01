@@ -155,6 +155,12 @@ function buildArchiveRows(rootDir, { eachLeagueSeason, seasonOutDir, sortDivisio
       rows.push({
         season: season.slug,
         seasonLabel: season.label,
+        // The same numeric stamp the catalog carries (year and season number),
+        // so the archive page can order seasons the way the landing page's
+        // Archive box does. Without it the page fell back to the order these
+        // rows happen to be emitted in — league by league — which put a local
+        // season after every travel one however recently it was played.
+        order: season.seasonYear * 10 + season.seasonNumber,
         league,
         slug: division.slug,
         division: division.divisionName,

@@ -277,6 +277,7 @@ const ARCHIVE_ROWS = {
     {
       season: '2026-spring',
       seasonLabel: 'Spring 2026',
+      order: 20261,
       league: 'travel',
       slug: 'dddd4444',
       division: '4.5',
@@ -289,6 +290,7 @@ const ARCHIVE_ROWS = {
     {
       season: '2026-spring',
       seasonLabel: 'Spring 2026',
+      order: 20261,
       league: 'travel',
       slug: 'eeee5555',
       division: '3.5',
@@ -301,6 +303,7 @@ const ARCHIVE_ROWS = {
     {
       season: '2025-fall',
       seasonLabel: 'Fall 2025',
+      order: 20253,
       league: 'local',
       slug: 'ffff6666',
       division: '3.0',
@@ -321,6 +324,7 @@ const CLUBBED_ROWS = {
     {
       season: '2026-summer',
       seasonLabel: 'Summer 2026',
+      order: 20262,
       league: 'local',
       slug: 'aaaa0001',
       division: '3.0',
@@ -334,6 +338,7 @@ const CLUBBED_ROWS = {
     {
       season: '2026-summer',
       seasonLabel: 'Summer 2026',
+      order: 20262,
       league: 'local',
       slug: 'aaaa0002',
       division: '4.0',
@@ -347,6 +352,7 @@ const CLUBBED_ROWS = {
     {
       season: '2026-summer',
       seasonLabel: 'Summer 2026',
+      order: 20262,
       league: 'local',
       slug: 'aaaa0003',
       division: '3.5',
@@ -554,4 +560,101 @@ test('the archive division links carry a styled link class', () => {
   const html = htmlOf(app.el('archive-host'));
   assert.ok(html.includes('<a class="app-link"'), 'division links lost their link styling');
   assert.ok(!html.includes('arch-link'), 'the old unstyled class is back');
+});
+
+// The archive page sets each section's innerHTML in one go, so its heading is
+// markup rather than a child element — collect() cannot see it.
+const seasonHeadings = (app) => app.el('archive-host').children
+  .map((section) => (/tier-head">([^<]*)</.exec(section.innerHTML) || [])[1])
+  .filter(Boolean);
+
+// --- Season ordering -------------------------------------------------------
+//
+// The Archive box on the landing page and the sections on /cpl/archive/ list
+// the same seasons, and they used to sort them differently: the page took the
+// order the compiler emits, which walks league by league, so a local season
+// landed after every travel one however recently it was played. They share one
+// comparator now, and these hold them to it.
+
+test('the archive page orders seasons newest first, not league by league', () => {
+  // Rows arrive travel-first, which is the order the compiler emits them in.
+  // Summer 2026 is local and the most recent, so it has to climb to the top.
+  const app = runArchive({
+    rows: [
+      { ...ARCHIVE_ROWS.rows[0] },
+      { season: '2025-fall', seasonLabel: 'Fall 2025', order: 20253, league: 'travel', slug: 'a1', division: '3.5', basis: 'standings', thirdFromStandings: true, places: ['A'] },
+      { season: '2026-summer', seasonLabel: 'Summer 2026', order: 20262, league: 'local', slug: 'b1', division: '3.0', clubName: 'Flemington', basis: 'standings', thirdFromStandings: true, places: ['B'] },
+    ],
+  });
+  assert.deepEqual(
+    seasonHeadings(app),
+    ['Summer 2026', 'Spring 2026', 'Fall 2025'],
+  );
+});
+
+test('the two pages order the same seasons the same way', () => {
+  const seasons = [
+    { slug: '2025-fall', label: 'Fall 2025', order: 20253 },
+    { slug: '2026-summer', label: 'Summer 2026', order: 20262 },
+    { slug: '2026-spring', label: 'Spring 2026', order: 20261 },
+  ];
+
+  // The landing page's Archive box, via the catalog.
+  const catalog = {
+    leagues: [
+      {
+        key: 'travel',
+        label: 'Cross Club League',
+        current: null,
+        seasons: [
+          season('2026-spring', 'Spring 2026', 'archived', [{ slug: 'x1', divisionName: '3.5' }]),
+          season('2025-fall', 'Fall 2025', 'archived', [{ slug: 'x2', divisionName: '3.5' }]),
+        ],
+      },
+      {
+        key: 'local',
+        label: 'Local Leagues',
+        current: null,
+        seasons: [season('2026-summer', 'Summer 2026', 'archived', [{ slug: 'x3', divisionName: '3.0', clubName: 'Flemington' }])],
+      },
+    ],
+  };
+  const box = runHome(catalog);
+  const boxOrder = textsIn(box.el('archive-list'), 'archive-list-season');
+
+  // The archive page, via its own rows — deliberately shuffled, since the point
+  // is that neither page depends on the order it is handed.
+  const page = runArchive({
+    rows: seasons.map((entry, i) => ({
+      season: entry.slug,
+      seasonLabel: entry.label,
+      order: entry.order,
+      league: 'travel',
+      slug: `s${i}`,
+      division: '3.5',
+      basis: 'standings',
+      thirdFromStandings: true,
+      places: ['A'],
+    })),
+  });
+  const pageOrder = seasonHeadings(page);
+
+  assert.deepEqual(pageOrder, boxOrder, 'the archive page and the Archive box disagree');
+  assert.deepEqual(pageOrder, ['Summer 2026', 'Spring 2026', 'Fall 2025']);
+});
+
+// Slugs read <year>-<name>, so sorting them as strings puts Summer above Fall
+// within a year. The numeric stamp is what prevents that, and it is the trap
+// both pages fell into independently.
+test('seasons of one year order chronologically, not alphabetically', () => {
+  const rows = [
+    { season: '2026-fall', seasonLabel: 'Fall 2026', order: 20263, league: 'travel', slug: 'f1', division: '3.5', basis: 'standings', thirdFromStandings: true, places: ['A'] },
+    { season: '2026-summer', seasonLabel: 'Summer 2026', order: 20262, league: 'travel', slug: 's1', division: '3.5', basis: 'standings', thirdFromStandings: true, places: ['A'] },
+    { season: '2026-spring', seasonLabel: 'Spring 2026', order: 20261, league: 'travel', slug: 'p1', division: '3.5', basis: 'standings', thirdFromStandings: true, places: ['A'] },
+  ];
+  const app = runArchive({ rows: rows.slice().reverse() });
+  assert.deepEqual(
+    seasonHeadings(app),
+    ['Fall 2026', 'Summer 2026', 'Spring 2026'],
+  );
 });
