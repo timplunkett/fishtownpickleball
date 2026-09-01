@@ -2632,7 +2632,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 171,
+   "leagueRank": 173,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2661,7 +2661,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 161,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2719,7 +2719,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 163,
+   "leagueRank": 165,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2806,7 +2806,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 169,
+   "leagueRank": 171,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3018,6 +3018,35 @@
    "playerId": "24325b7a-50bd-42dc-84c2-e3ac54360f9c"
   },
   {
+   "name": "Zoe Ousouljoglou",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 154,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "269fe355-d2eb-41b8-9e92-a1438aec65e3"
+  },
+  {
    "name": "Adrienne Butrymowicz",
    "gender": "Female",
    "team": "Jersey Pickleball Club",
@@ -3154,7 +3183,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 161,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3183,7 +3212,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 170,
+   "leagueRank": 172,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3328,7 +3357,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 167,
+   "leagueRank": 169,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3589,7 +3618,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 177,
+   "leagueRank": 180,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3734,7 +3763,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 172,
+   "leagueRank": 174,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3821,7 +3850,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 165,
+   "leagueRank": 167,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3850,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 162,
+   "leagueRank": 164,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3879,7 +3908,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 155,
+   "leagueRank": 156,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3908,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 159,
+   "leagueRank": 160,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 157,
+   "leagueRank": 158,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 175,
+   "leagueRank": 178,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4024,7 +4053,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 178,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4111,7 +4140,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 179,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4198,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 168,
+   "leagueRank": 170,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4314,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 158,
+   "leagueRank": 159,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4372,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 173,
+   "leagueRank": 175,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4517,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 156,
+   "leagueRank": 157,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 174,
+   "leagueRank": 176,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7836,8 +7865,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Shashank Kamdar"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -7847,8 +7876,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Jonah Karczmer"
      ],
      "a": [
       "Anita Buggins",
@@ -7858,8 +7887,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -7869,8 +7898,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Nick Meale"
      ],
      "a": [
       "Brittany Hall",
@@ -7880,8 +7909,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Sarah Kline"
      ],
      "a": [
       "Anita Buggins",
@@ -7891,8 +7920,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Teresa Wang"
      ],
      "a": [
       "Brittany Hall",
@@ -7902,8 +7931,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Jonah Karczmer"
      ],
      "a": [
       "Nathan Law",
@@ -7913,8 +7942,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Nick Meale"
      ],
      "a": [
       "Marc Harden",
@@ -7924,8 +7953,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Nick Meale"
      ],
      "a": [
       "Brittany Hall",
@@ -7935,8 +7964,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Jonah Karczmer"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -7946,8 +7975,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Shashank Kamdar"
      ],
      "a": [
       "Anita Buggins",
@@ -7957,8 +7986,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -7968,8 +7997,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Nam Barsh"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -7979,8 +8008,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Harriet Levin"
      ],
      "a": [
       "Anita Buggins",
@@ -7990,8 +8019,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Nick Meale"
      ],
      "a": [
       "Damien Stahl",
@@ -8001,8 +8030,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Jonah Karczmer"
      ],
      "a": [
       "Nathan Law",
@@ -8012,8 +8041,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Jonah Karczmer"
      ],
      "a": [
       "Anita Buggins",
@@ -8023,8 +8052,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Shashank Kamdar"
      ],
      "a": [
       "Brittany Hall",
@@ -8034,8 +8063,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Lou Frignito"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -8045,8 +8074,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -8056,8 +8085,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Sarah Kline"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -8067,8 +8096,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Harriet Levin"
      ],
      "a": [
       "Anita Buggins",
@@ -8078,8 +8107,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Jonah Karczmer"
      ],
      "a": [
       "Nathan Law",
@@ -8089,8 +8118,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Shashank Kamdar"
      ],
      "a": [
       "Damien Stahl",
@@ -8100,8 +8129,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Lou Frignito"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -8111,8 +8140,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Shashank Kamdar"
      ],
      "a": [
       "Anita Buggins",
@@ -8122,8 +8151,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Jonah Karczmer"
      ],
      "a": [
       "Brittany Hall",
@@ -8133,8 +8162,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -8144,8 +8173,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Nam Barsh"
      ],
      "a": [
       "Anita Buggins",
@@ -8155,8 +8184,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Sarah Kline"
      ],
      "a": [
       "Brittany Hall",
@@ -8166,8 +8195,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Nathan Law",
@@ -8177,8 +8206,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Jonah Karczmer"
      ],
      "a": [
       "Marc Harden",
@@ -10178,6 +10207,7 @@
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+  "Christine Sandella": "bd30e236-1c20-4fa1-b9ad-f56c8613d22b",
   "Vaughn Mcclelland": "c33f3ff1-2c81-4630-8980-64fa03a7b102",
   "Christine Ferraez": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
   "Joshua Ahn": "fff3fe71-d4a6-4103-9290-0ef57035471c"
@@ -10186,7 +10216,7 @@
   "matchesPlayed": 5,
   "provisionalMatches": 0,
   "weeks": "1",
-  "totalPlayers": 164,
+  "totalPlayers": 165,
   "ratingHistoryWeeks": [
    1
   ],
@@ -10249,7 +10279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-01T15:48:17.480Z";
+  DATA.meta.asOf = "2026-09-01T20:20:56.802Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

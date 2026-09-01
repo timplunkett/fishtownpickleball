@@ -125,9 +125,9 @@
       "weekNumber": 2,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 510,
+      "awayPoints": 670,
+      "endResult": "away",
       "scheduledTime": "2026-08-31T19:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "PickleRage Union County Net Ninjas"

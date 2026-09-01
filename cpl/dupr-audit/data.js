@@ -16785,6 +16785,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Tom Hadler",
+   "playerId": "c5d07eb6-d276-4503-a077-c092e89c2ae8",
+   "team": "Flemington Blue",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Tom Kresky",
    "playerId": "81875a5e-2b65-4152-bace-b4c96517579d",
    "team": "Jersey Devil",
@@ -17742,6 +17749,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Hamilton",
    "slug": "c118b8e9",
    "gender": "Male"
+  },
+  {
+   "name": "Zoe Ousouljoglou",
+   "playerId": "269fe355-d2eb-41b8-9e92-a1438aec65e3",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Female"
   },
   {
    "name": "Zoe Zapf",
