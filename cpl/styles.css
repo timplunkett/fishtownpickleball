@@ -289,10 +289,9 @@ h2 {
   scroll-margin-top: calc(var(--toc-height) + var(--section-scroll-gap, 10px) + 2px);
 }
 
-/* A team page has no contents strip, so its blocks only need breathing room. */
-#teamview .wk-block {
-  scroll-margin-top: 16px;
-}
+/* A team page's blocks sit inside .msec sections of their own, so `.msec
+   .wk-block` above already clears that page's strip — there is nothing left for
+   a #teamview rule to override. */
 
 /* The heading text itself is the collapse control, so it has to keep looking
    like the heading: the h2's own size and weight, with a marker in front. */
@@ -350,8 +349,11 @@ h2 {
   margin: 0;
 }
 
-/* A collapsed section is only its heading, so it sits closer to its neighbours. */
+/* A collapsed section is only its heading, so it sits closer to its neighbours.
+   The h3 is a team page's heading level — its sections sit one rung down from
+   the page's own <h2>, which is the team name. */
 .msec.collapsed > h2,
+.msec.collapsed > h3,
 .msec.collapsed > .sec-head {
   margin-bottom: 0;
 }
@@ -1530,6 +1532,10 @@ thead th:focus-visible,
   margin-top: 26px;
 }
 
+/* The h3 is the collapse control here, the way the h2 is on the dashboard. It
+   keeps the flex row so the tag sits beside the heading rather than under it,
+   and `align-items: baseline` is what lines the tag up with the heading text
+   through the toggle's own inline-flex box. */
 .team-section h3 {
   display: flex;
   gap: 10px;
@@ -1537,6 +1543,7 @@ thead th:focus-visible,
   margin: 0 0 12px;
   font-size: 16px;
 }
+
 
 .team-section h3 .tag {
   font-weight: 500;

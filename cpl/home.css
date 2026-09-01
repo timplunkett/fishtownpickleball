@@ -269,6 +269,29 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   text-align: left;
 }
 
+/* The season strip. .section-toc and its pills are defined once, in styles.css,
+   and shared with the division dashboards; what is left to say here is where the
+   strip sits on this page — the same 980px column as the tables under it, rather
+   than shrink-wrapped to its own content by the body's centring.
+
+   The body is a flex column with a 1.5rem gap, so the strip's own top margin
+   would stack on top of that gap and leave it hanging below the header; the
+   padding is the strip's, and the horizontal rem matches the column's. */
+.archive-page .section-toc {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 8px 1rem;
+}
+
+/* Clear of the strip when a pill scrolls a season into view. The literal is
+   archive.js's SCROLL_GAP; --toc-height is the strip's measured height, which it
+   publishes, and 0 is the right fallback for the moment before it has — and for
+   a page whose single season shows no strip at all. */
+.archive-page .archive-season {
+  scroll-margin-top: calc(var(--toc-height, 0px) + 10px);
+}
+
 /* The season name on an archived finder row. Quieter than .sub-tag beside it:
    it is context for the row, not a warning about it. */
 .season-tag {

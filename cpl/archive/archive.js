@@ -128,14 +128,164 @@
       '<tbody>' + bodyFor(group.rows) + '</tbody></table></div>';
   }
 
+  // Prefixed, because a season slug is a season slug and an element id is shared
+  // with everything else on the page.
+  function sectionId(group) {
+    return 'season-' + group.slug;
+  }
+
   function sectionFor(group) {
     var section = document.createElement('section');
     section.className = 'archive-season';
+    section.id = sectionId(group);
     var count = group.rows.length;
     section.innerHTML = '<h2 class="tier-head">' + escapeHtml(group.label) + '</h2>' +
       '<p class="tier-sub">' + count + (count === 1 ? ' division' : ' divisions') + '</p>' +
       tableFor(group);
     return section;
+  }
+
+  // --- The season strip ------------------------------------------------------
+  //
+  // The same sticky strip of pills the division dashboards carry, for the same
+  // reason: this page is one table per season stacked down a single column, and
+  // by the fourth or fifth season the ones at the bottom are only reachable by
+  // scrolling past every division above them.
+  //
+  // Written out here rather than shared with cpl/app.js. The strip is thirty
+  // lines of DOM and this page loads none of app.js — pulling a 4,000-line
+  // dashboard onto a static table to borrow its scroll spy would cost the reader
+  // far more than it saves. The stylesheet is what the two actually share:
+  // .section-toc and its chips are defined once, in styles.css.
+
+  var toc = document.getElementById('archive-toc');
+  // The gap a pill leaves between the strip and the season it lands on — the same
+  // number app.js publishes for the dashboards, spent the same way.
+  var SCROLL_GAP = 10;
+
+  function tocHeight() {
+    if (!toc || toc.hidden) return 0;
+    return Math.round(toc.getBoundingClientRect().height);
+  }
+
+  // Published for the stylesheet, which spends it as scroll-margin so a pill
+  // lands its season below the strip rather than behind it.
+  function syncTocHeight() {
+    document.documentElement.style.setProperty('--toc-height', tocHeight() + 'px');
+  }
+
+  // On a phone the strip is one row that scrolls sideways, so the pill it is
+  // marking can be off the end of it. Nudged into view by scrolling the strip
+  // itself, never scrollIntoView — that would drag the page along with it.
+  function keepChipInView(link) {
+    if (!link || toc.scrollWidth <= toc.clientWidth + 1) return;
+    var stripBox = toc.getBoundingClientRect();
+    var linkBox = link.getBoundingClientRect();
+    if (linkBox.left < stripBox.left + 8) {
+      toc.scrollLeft -= (stripBox.left + 8) - linkBox.left;
+    } else if (linkBox.right > stripBox.right - 8) {
+      toc.scrollLeft += linkBox.right - (stripBox.right - 8);
+    }
+  }
+
+  // Which season the reader is in: the last one whose top has passed under the
+  // strip. The ceiling reaches past the scroll gap as well, or a season parked
+  // exactly where its own pill put it would sit ten pixels short of counting as
+  // reached and the pill just clicked would stay unmarked.
+  function markCurrent(sections) {
+    if (!toc || toc.hidden || !sections.length) return;
+    var ceiling = tocHeight() + SCROLL_GAP + 2;
+    var current = sections[0];
+    sections.forEach(function (section) {
+      if (section.getBoundingClientRect().top <= ceiling) current = section;
+    });
+    var marked = null;
+    Array.prototype.forEach.call(toc.querySelectorAll('a[href^="#"]'), function (link) {
+      var on = link.getAttribute('href') === '#' + current.id;
+      if (on) {
+        link.className = 'toc-current';
+        link.setAttribute('aria-current', 'true');
+        marked = link;
+      } else {
+        link.className = '';
+        link.removeAttribute('aria-current');
+      }
+    });
+    keepChipInView(marked);
+  }
+
+  function scrollToSection(id, updateHash) {
+    var target = document.getElementById(id);
+    if (!target) return false;
+    if (updateHash && window.history && window.history.replaceState) {
+      window.history.replaceState(null, '', '#' + id);
+    }
+    target.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    return true;
+  }
+
+  function renderToc(groups) {
+    if (!toc) return;
+    // One season is not a list to jump around: the whole page is already on
+    // screen, and a bar offering to take you to the only thing on it is noise.
+    // Hidden here as well as in the markup, so the page's correctness does not
+    // rest on an attribute in a file nothing checks.
+    if (groups.length < 2) {
+      toc.hidden = true;
+      return;
+    }
+    toc.innerHTML =
+      '<button type="button" class="toc-top" title="Back to the top of the page">↑ Top</button>' +
+      groups.map(function (group) {
+        return '<a href="#' + sectionId(group) + '">' + escapeHtml(group.label) + '</a>';
+      }).join('');
+    toc.hidden = false;
+
+    var sections = groups.map(function (group) {
+      return document.getElementById(sectionId(group));
+    }).filter(Boolean);
+
+    toc.addEventListener('click', function (event) {
+      if (event.defaultPrevented || event.button || event.metaKey || event.ctrlKey
+        || event.shiftKey || event.altKey) return;
+      if (event.target.closest('.toc-top')) {
+        // Back to the heading, and to a URL with no fragment left in it —
+        // otherwise a reload would drop straight back to the season just left.
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, '', window.location.pathname);
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      var link = event.target.closest('a[href^="#"]');
+      if (link && scrollToSection(link.getAttribute('href').slice(1), true)) {
+        event.preventDefault();
+      }
+    });
+
+    // Coalesced to a frame: a scroll fires far faster than the page repaints.
+    var frame = 0;
+    window.addEventListener('scroll', function () {
+      if (frame) return;
+      frame = window.requestAnimationFrame(function () {
+        frame = 0;
+        markCurrent(sections);
+      });
+    }, { passive: true });
+    // The strip wraps to a second row at some widths, so its height — and every
+    // scroll-margin spending it — is a function of the viewport.
+    window.addEventListener('resize', function () {
+      syncTocHeight();
+      markCurrent(sections);
+    });
+
+    syncTocHeight();
+    markCurrent(sections);
+    // A #season-… the page was opened with. The browser cannot do this itself:
+    // nothing on this page is in the document when it parses the URL.
+    if (window.location.hash.length > 1) {
+      scrollToSection(window.location.hash.slice(1), false);
+    }
   }
 
   var groups = groupBySeason(rows());
@@ -147,4 +297,5 @@
   groups.forEach(function (group) {
     host.appendChild(sectionFor(group));
   });
+  renderToc(groups);
 }());

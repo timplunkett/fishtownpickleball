@@ -45,6 +45,12 @@
     <p class="freshness">Finished seasons, kept exactly as they ended. Nothing here updates any more.</p>
   </div>
 
+  <!-- One pill per season, filled in by archive.js once it knows how many there
+       are. Ships hidden: a page with a single archived season has nothing to
+       jump between, and a page with no script at all must not show an empty
+       bar where a list of seasons should be. -->
+  <nav class="section-toc" id="archive-toc" aria-label="Jump to a season" hidden></nav>
+
   <div id="archive-host"></div>
 
   <!-- Shown in place of the list when no season has finished yet, which is what

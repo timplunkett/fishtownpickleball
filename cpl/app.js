@@ -579,8 +579,24 @@ function getLatestRatingSnapshot(player) {
 // <section class="msec"> with an id and a `.sec-name` heading gets a contents
 // entry and a collapse toggle by existing.
 
+// Both views have sections and a strip of their own now, so everything below
+// works against whichever one is on screen rather than against the dashboard.
+// A hidden view keeps its markup, and a section in it measures zero and has no
+// place on the page — reading it would put the wrong chip in the wrong strip.
+function activeView() {
+  return elements.mainView.hidden ? elements.teamView : elements.mainView;
+}
+
+// The dashboard's strip is in the page's markup and cached at boot; the team
+// page's is rebuilt with the rest of #teamview on every render, so it has to be
+// looked up each time. Null while a team page has yet to render one.
+function activeToc() {
+  if (elements.mainView.hidden) return elements.teamView.querySelector('.section-toc');
+  return elements.sectionToc;
+}
+
 function getSections() {
-  return [...elements.mainView.querySelectorAll('section.msec')];
+  return [...activeView().querySelectorAll('section.msec')];
 }
 
 function sectionLabel(section) {
@@ -621,10 +637,12 @@ function setSectionCollapsed(section, collapsed) {
 // because a link that silently opens what it points at is friendlier than one
 // that vanishes when you put the section away.
 function renderSectionToc() {
+  const toc = activeToc();
+  if (!toc) return;
   const sections = getSections().filter((section) => !section.hidden);
   if (!sections.length) {
-    elements.sectionToc.hidden = true;
-    elements.sectionToc.innerHTML = '';
+    toc.hidden = true;
+    toc.innerHTML = '';
     return;
   }
   const links = sections.map((section) => {
@@ -639,11 +657,11 @@ function renderSectionToc() {
   // The strip is sticky, so it is also the way back up — the header, the
   // division selector and the summary all live above the first section and have
   // no entry of their own.
-  elements.sectionToc.innerHTML =
+  toc.innerHTML =
     '<button type="button" class="toc-top" data-toc-top="1" title="Back to the top of the page">↑ Top</button>' +
     `${links}` +
     `<button type="button" class="toc-bulk" data-bulk="${bulkAction}">${bulkLabel}</button>`;
-  elements.sectionToc.hidden = false;
+  toc.hidden = false;
   updateCurrentSection();
 }
 
@@ -661,7 +679,8 @@ function scrollToPageTop() {
 // --toc-height carries the strip's measured height to the stylesheet, which uses
 // it for scroll-margin and for anything else sticky at the top of the viewport.
 // Measured rather than assumed: the strip wraps to two rows on a narrow screen,
-// and it isn't on the page at all while a team page is showing.
+// and the two views' strips are different heights — a team page's has fewer
+// entries, so it wraps at a narrower width than the dashboard's.
 // The contents strip's height, kept so the scroll handler has it without
 // re-measuring. Each section's heading height goes onto the section as a custom
 // property instead, because it is the stylesheet that needs that one.
@@ -675,9 +694,9 @@ const stickyOffsets = { toc: 0 };
 const SECTION_SCROLL_GAP = 10;
 
 function syncStickyOffset() {
-  const visible = !elements.sectionToc.hidden && !elements.mainView.hidden;
-  const height = visible
-    ? Math.round(elements.sectionToc.getBoundingClientRect().height)
+  const toc = activeToc();
+  const height = toc && !toc.hidden
+    ? Math.round(toc.getBoundingClientRect().height)
     : 0;
   stickyOffsets.toc = height;
   document.documentElement.style.setProperty('--toc-height', `${height}px`);
@@ -703,6 +722,8 @@ function stickyCeiling() {
 // covers subpixel rounding between the measured strip height and where the
 // browser actually settles the scroll.
 function updateCurrentSection() {
+  const toc = activeToc();
+  if (!toc) return;
   const sections = getSections().filter((section) => !section.hidden);
   if (!sections.length) return;
   const ceiling = stickyCeiling() + SECTION_SCROLL_GAP + 2;
@@ -712,7 +733,7 @@ function updateCurrentSection() {
   });
 
   let currentLink = null;
-  elements.sectionToc.querySelectorAll('a[href^="#"]').forEach((link) => {
+  toc.querySelectorAll('a[href^="#"]').forEach((link) => {
     const on = link.getAttribute('href') === `#${current.id}`;
     link.classList.toggle('toc-current', on);
     if (on) {
@@ -730,8 +751,8 @@ function updateCurrentSection() {
 // itself — never scrollIntoView, which would drag the page as well.
 function keepChipInView(link) {
   if (!link) return;
-  const strip = elements.sectionToc;
-  if (strip.scrollWidth <= strip.clientWidth + 1) return;
+  const strip = activeToc();
+  if (!strip || strip.scrollWidth <= strip.clientWidth + 1) return;
   const stripBox = strip.getBoundingClientRect();
   const linkBox = link.getBoundingClientRect();
   if (linkBox.left < stripBox.left + 8) {
@@ -1001,6 +1022,22 @@ function refreshStickyLayout() {
   rebuildMirroredHeaders();
 }
 
+// Watches whichever strip is on screen for a change in height, which is how a
+// strip that rewraps to a second row gets --toc-height updated without a resize
+// event to prompt it. One observer, re-pointed: a team page builds a new strip
+// on every render, and observing each of them would leave a growing pile of
+// subscriptions to elements that no longer exist.
+let tocObserver = null;
+
+function observeToc() {
+  if (typeof window.ResizeObserver !== 'function') return;
+  const toc = activeToc();
+  if (!toc) return;
+  if (!tocObserver) tocObserver = new window.ResizeObserver(refreshStickyLayout);
+  tocObserver.disconnect();
+  tocObserver.observe(toc);
+}
+
 function applyAllSectionStates() {
   getSections().forEach(applySectionState);
   renderSectionToc();
@@ -1023,8 +1060,14 @@ function handleTocClick(event) {
   const button = event.target.closest('.toc-bulk');
   if (!button) return;
   const collapse = button.dataset.bulk === 'collapse';
-  const ids = collapse ? getSections().filter((s) => !s.hidden).map((s) => s.id) : [];
-  writePrefs({ collapsed: ids });
+  // Only the sections in the view this strip belongs to. The stored list spans
+  // both views, so replacing it wholesale would let "Collapse all" on a team
+  // page silently discard the reader's choices on the dashboard, and vice versa.
+  const ids = new Set(collapsedSectionIds());
+  getSections()
+    .filter((section) => !section.hidden)
+    .forEach((section) => (collapse ? ids.add(section.id) : ids.delete(section.id)));
+  writePrefs({ collapsed: [...ids] });
   applyAllSectionStates();
 }
 
@@ -1044,12 +1087,14 @@ function revealFragmentTarget(id) {
   if (owningView && owningView.hidden) return null;
   const section = target.closest('section.msec');
   if (section) {
-    // Sections only exist on the main view, so a #section fragment that arrives
-    // on a team-page URL points at something not on screen. Refusing it matters
-    // more than it looks: expanding a section is a write to the stored
-    // preferences, and a stale fragment must not quietly undo the reader's
-    // collapse choice for a section they can't even see.
-    if (section.hidden || elements.mainView.hidden) return null;
+    // Both views have sections, so the question is which view this one is in:
+    // a #team-roster arriving on a dashboard URL, or a #top-duos arriving on a
+    // team-page one, points at something not on screen. Refusing it matters more
+    // than it looks — expanding a section is a write to the stored preferences,
+    // and a stale fragment must not quietly undo the reader's collapse choice
+    // for a section they can't even see.
+    const sectionView = section.closest('#mainview, #teamview') || elements.mainView;
+    if (section.hidden || sectionView.hidden) return null;
     if (isSectionCollapsed(section)) setSectionCollapsed(section, false);
   }
   let details = target.tagName === 'DETAILS' ? target : target.closest('details');
@@ -3038,6 +3083,28 @@ function renderPlayoffs() {
   elements.playoffsSection.hidden = false;
 }
 
+// One section of a team page, in the shape the section machinery reads: a
+// `section.msec` with an id, a `.sec-name` inside a `.sec-toggle`, and a
+// `.msec-body`. Being that shape is the whole qualification — it is what earns
+// the section a chip in the strip and a collapse toggle on its heading, exactly
+// as the dashboard's sections do from the page's own markup.
+//
+// The ids name the kind of section, not the team, so the reader's collapse
+// choices survive walking from one team page to the next: put Match history away
+// once and it stays away. They are prefixed `team-` because the stored list of
+// collapsed sections spans both views and #playoffs already means the
+// division's bracket.
+function teamSection(id, name, tag, body) {
+  return `
+    <section class="msec team-section" id="${id}">
+      <h3>
+        <button type="button" class="sec-toggle" aria-expanded="true" aria-controls="${id}-body"><span class="sec-name">${escapeHtml(name)}</span></button>
+        <span class="tag">${escapeHtml(tag)}</span>
+      </h3>
+      <div class="msec-body" id="${id}-body">${body}</div>
+    </section>`;
+}
+
 function renderTeamPage(team, { scroll = true } = {}) {
   const color = getTeamColor(team.name);
   // The card you clicked to get here is seeded within its pod, so this page says
@@ -3166,46 +3233,31 @@ function renderTeamPage(team, { scroll = true } = {}) {
         <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${powerRanked})</span></span>
       </div>
     </div>
-    <div class="team-section">
-      <h3>Game-type splits <span class="tag">team game record by format</span></h3>
+    <nav class="section-toc" id="team-section-toc" aria-label="Jump to a section"></nav>
+    ${teamSection('team-splits', 'Game-type splits', 'team game record by format', `
       <div class="fmt-cards">${
         SINGLE_GENDER === 'Male' ? formatCard("Men's", team.fmt.male)
         : SINGLE_GENDER === 'Female' ? formatCard("Women's", team.fmt.female)
         : `${formatCard('Mixed', team.fmt.mixed)}${formatCard("Men's", team.fmt.male)}${formatCard("Women's", team.fmt.female)}`
-      }</div>
-    </div>
-    <div class="team-section">
-      <h3>Roster <span class="tag">${roster.length ? `${roster.length} players • click a name for detail` : 'not published'}</span></h3>
-      ${roster.length
-        ? `<div class="panel scroll"><table id="roster-table"><thead><tr>
+      }</div>`)}
+    ${teamSection('team-roster', 'Roster', roster.length ? `${roster.length} players • click a name for detail` : 'not published', roster.length
+      ? `<div class="panel scroll"><table id="roster-table"><thead><tr>
         ${rosterHeaderCells}
       </tr></thead><tbody>${rosterRows}</tbody></table></div>`
-        : '<div class="mut" style="font-size:13px">The league has not published a roster for this team.</div>'}
-    </div>
-    <div class="team-section">
-      <h3>Best duos <span class="tag">chemistry on this roster (3+ games)</span></h3>
-      ${duosMarkup}
-    </div>
-    <div class="team-section">
-      <h3>Match history <span class="tag">by week</span></h3>
-      ${historyMarkup}
-    </div>
-    <div class="team-section">
-      <h3>Pending matchups <span class="tag">scheduled + projected game lines when available</span></h3>
-      ${upcomingMarkup}
-    </div>
-    ${playoffMarkup ? `
-    <div class="team-section">
-      <h3>Playoffs <span class="tag">knockout bracket</span></h3>
-      ${playoffMarkup}
-    </div>` : ''}
+      : '<div class="mut" style="font-size:13px">The league has not published a roster for this team.</div>')}
+    ${teamSection('team-duos', 'Best duos', 'chemistry on this roster (3+ games)', duosMarkup)}
+    ${teamSection('team-history', 'Match history', 'by week', historyMarkup)}
+    ${teamSection('team-pending', 'Pending matchups', 'scheduled + projected game lines when available', upcomingMarkup)}
+    ${playoffMarkup ? teamSection('team-playoffs', 'Playoffs', 'knockout bracket', playoffMarkup) : ''}
   `;
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
   elements.subhead.textContent = `${team.name} — team page`;
-  // No contents strip on a team page, so nothing has to clear one — but the
-  // roster table still needs measuring for overflow now that it is visible.
-  refreshStickyLayout();
+  // The strip is rebuilt with the rest of the page, so its collapse state has to
+  // be re-applied before anything measures it — and the roster table needs
+  // measuring for overflow now that it is visible.
+  applyAllSectionStates();
+  observeToc();
 
   const rosterHead = document.getElementById('roster-table')?.querySelector('thead');
   const handleRosterSort = (event) => {
@@ -3238,6 +3290,10 @@ function showMainView() {
   elements.teamView.hidden = true;
   elements.mainView.hidden = false;
   renderSummary();
+  // Back to the dashboard's own strip: its chips have to be re-marked against
+  // where the page now sits, and the observer re-pointed off the team page's.
+  renderSectionToc();
+  observeToc();
   refreshStickyLayout();
   window.scrollTo(0, 0);
   // Back to the top by default, but not over a fragment: closing a player modal
@@ -3785,6 +3841,11 @@ function initialize() {
   elements.head.addEventListener('click', handleColumnSort);
   elements.mainView.addEventListener('click', handleSectionToggleClick);
   elements.sectionToc.addEventListener('click', handleTocClick);
+  // The team page's sections and strip are rebuilt on every render, so their
+  // handlers are delegated from the view itself rather than attached to markup
+  // that is replaced the next time the reader sorts the roster.
+  elements.teamView.addEventListener('click', handleSectionToggleClick);
+  elements.teamView.addEventListener('click', handleTocClick);
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
@@ -3832,9 +3893,7 @@ function initialize() {
 
   // The strip wraps at narrow widths, so its height is a function of the
   // viewport. ResizeObserver where it exists; the resize event is the fallback.
-  if (typeof window.ResizeObserver === 'function') {
-    new window.ResizeObserver(refreshStickyLayout).observe(elements.sectionToc);
-  }
+  observeToc();
   // A resize changes which tables overflow whether or not the strip rewraps, so
   // this listener is not a ResizeObserver fallback — it is needed either way.
   window.addEventListener('resize', refreshStickyLayout);

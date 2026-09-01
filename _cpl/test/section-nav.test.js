@@ -696,6 +696,109 @@ test('landing on a section heading does not flash it', () => {
   assert.equal(standings.classList.contains('fragment-flash'), false);
 });
 
+// --- The team page's own sections and strip --------------------------------
+//
+// A team page is six panels stacked down one column, with Match history in the
+// middle of it running to a block per week — so Pending matchups and Playoffs
+// sat below a screen or two of scrolling with nothing to say they were there.
+// The dashboard's answer applies unchanged: sections that collapse, and a strip
+// that lists them.
+
+const TEAM_SECTIONS = [
+  ['team-splits', 'Game-type splits'],
+  ['team-roster', 'Roster'],
+  ['team-duos', 'Best duos'],
+  ['team-history', 'Match history'],
+  ['team-pending', 'Pending matchups'],
+];
+
+function renderFirstTeam(app) {
+  app.context.renderTeamPage(app.context.DATA.teams[0], { scroll: false });
+  return app.el('teamview').innerHTML;
+}
+
+test('a team page builds its panels as sections the strip can read', () => {
+  const page = renderFirstTeam(runApp());
+  TEAM_SECTIONS.forEach(([id, name]) => {
+    assert.ok(
+      page.includes(`<section class="msec team-section" id="${id}">`),
+      `${id} is not a section the contents strip would find`,
+    );
+    // What renderSectionToc reads for the chip's label, and what
+    // applySectionState hides when the section is collapsed.
+    assert.ok(page.includes(`<span class="sec-name">${name}</span>`), `${id} has no name to list`);
+    assert.ok(page.includes(`class="msec-body" id="${id}-body"`), `${id} has no collapsible body`);
+    assert.ok(
+      page.includes(`class="sec-toggle" aria-expanded="true" aria-controls="${id}-body"`),
+      `${id}'s heading does not collapse it`,
+    );
+  });
+});
+
+test('the strip sits under the team name and above the first section', () => {
+  const page = renderFirstTeam(runApp());
+  const strip = page.indexOf('<nav class="section-toc" id="team-section-toc"');
+  assert.ok(strip > -1, 'a team page has no contents strip');
+  // Below the hero, which is the page's own header and has no entry of its own —
+  // the same shape as the dashboard, where the strip follows the <header>.
+  assert.ok(page.indexOf('class="team-hero"') < strip, 'the strip is above the team name');
+  assert.ok(strip < page.indexOf('id="team-splits"'), 'the strip is below the first section');
+});
+
+// A section id that named the team would give every team page its own set, and
+// the collapse state is stored by id — so putting Match history away would last
+// exactly as long as the reader stayed on one team.
+test('the section ids name the kind of panel, not the team', () => {
+  const app = runApp();
+  const { DATA, renderTeamPage } = app.context;
+  if (DATA.teams.length < 2) return;
+
+  const pages = DATA.teams.slice(0, 2).map((team) => {
+    renderTeamPage(team, { scroll: false });
+    return app.el('teamview').innerHTML;
+  });
+  TEAM_SECTIONS.forEach(([id]) => {
+    pages.forEach((page) => assert.ok(page.includes(`id="${id}"`), `${id} is not on every team page`));
+  });
+});
+
+// #playoffs is the division's bracket, on the dashboard. Two sections sharing an
+// id would have a chip on one page opening a section on the other.
+test('no team-page section id collides with a dashboard one', () => {
+  const app = runApp();
+  const page = renderFirstTeam(app);
+  const onTeamPage = [...page.matchAll(/<section class="msec[^"]*" id="([^"]+)"/g)].map(([, id]) => id);
+  assert.ok(onTeamPage.length >= TEAM_SECTIONS.length);
+  onTeamPage.forEach((id) => {
+    assert.ok(id.startsWith('team-'), `${id} does not say which view it belongs to`);
+    assert.ok(
+      !app.sections.some((section) => section.id === id),
+      `${id} is also a section on the dashboard`,
+    );
+  });
+});
+
+// The stored list of collapsed sections spans both views, and "Collapse all"
+// used to replace it wholesale — so collapsing everything on a team page would
+// have thrown away the reader's choices on the dashboard, and vice versa.
+test('collapse all acts on the view it was clicked in and no further', () => {
+  const app = runApp({ prefs: { collapsed: ['team-roster', 'team-history'] } });
+  const bulk = (action) => app.context.handleTocClick({
+    target: {
+      closest: (selector) => (selector === '.toc-bulk' ? { dataset: { bulk: action } } : null),
+    },
+  });
+
+  bulk('collapse');
+  const collapsed = app.storedPrefs().collapsed;
+  app.sections.forEach((section) => assert.ok(collapsed.includes(section.id)));
+  assert.ok(collapsed.includes('team-roster'), 'a team page\'s choice was discarded');
+  assert.ok(collapsed.includes('team-history'), 'a team page\'s choice was discarded');
+
+  bulk('expand');
+  assert.deepEqual(app.storedPrefs().collapsed.sort(), ['team-history', 'team-roster']);
+});
+
 // --- The standings table's Pod column --------------------------------------
 
 test('the standings table names the league\'s own pod, not the scheduling section', () => {
@@ -933,9 +1036,38 @@ test('the strip publishes its height, and it is the whole sticky layer', () => {
   assert.equal(app.context.stickyCeiling(), 300);
 });
 
-test('a team page publishes no strip height', () => {
+// Both views have a strip now, and they are not the same height: a team page's
+// has five entries where the dashboard's has six or seven, so it rewraps at a
+// different width. Whichever is on screen is the one every scroll-margin and
+// sticky offset on the page is measured from.
+test('the height published is the strip belonging to the view on screen', () => {
   const app = runApp();
+  assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '300px');
+
+  const teamToc = makeElement('team-section-toc', 'NAV');
+  teamToc.getBoundingClientRect = () => ({
+    width: 900, height: 44, top: 0, left: 0, right: 900, bottom: 44,
+  });
+  const teamView = app.el('teamview');
+  teamView.querySelector = (selector) => (selector === '.section-toc' ? teamToc : null);
   app.el('mainview').hidden = true;
+  app.context.refreshStickyLayout();
+
+  assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '44px');
+  assert.equal(app.context.stickyCeiling(), 44);
+});
+
+test('a view with no strip on it publishes no height', () => {
+  const app = runApp();
+  // A team page between renders, and the moment before the first one.
+  app.el('mainview').hidden = true;
+  app.context.refreshStickyLayout();
+  assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '0px');
+
+  // And a strip that is on the page but hidden, which is what a view with no
+  // sections in it leaves behind.
+  app.el('mainview').hidden = false;
+  app.el('section-toc').hidden = true;
   app.context.refreshStickyLayout();
   assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '0px');
 });

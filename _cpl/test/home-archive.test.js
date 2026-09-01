@@ -34,10 +34,45 @@ function makeElement(tag) {
     },
     setAttribute(name, value) { element.attributes[name] = value; },
     getAttribute(name) { return element.attributes[name]; },
+    removeAttribute(name) { delete element.attributes[name]; },
     addEventListener(type, fn) {
       (element.listeners[type] = element.listeners[type] || []).push(fn);
     },
+    // Lets a test drive a listener the page attached, e.g. a click on the strip.
+    fire(type, event = {}) {
+      (element.listeners[type] || []).slice().forEach((fn) => fn(event));
+    },
     get firstChild() { return element.children[0] || null; },
+    // Enough of a box for the archive's season strip to measure itself and
+    // decide whether its pills have scrolled off the end of it. Settable, so a
+    // test can put a season above or below the sticky ceiling.
+    rect: { width: 900, height: 40, top: 500, left: 0, right: 900, bottom: 540 },
+    getBoundingClientRect() { return element.rect; },
+    scrollLeft: 0,
+    scrollWidth: 900,
+    clientWidth: 900,
+    scrollIntoView() { element.scrolledIntoView = true; },
+    // The strip rebuilds its own chips from innerHTML, which is the only query
+    // either page runs; anything else legitimately finds nothing here.
+    querySelectorAll(selector) {
+      if (selector !== 'a[href^="#"]') return [];
+      element.chips = element.chips || new Map();
+      return [...element.innerHTML.matchAll(/href="#([^"]+)"/g)].map(([, id]) => {
+        if (!element.chips.has(id)) {
+          const chip = makeElement('a');
+          chip.setAttribute('href', `#${id}`);
+          element.chips.set(id, chip);
+        }
+        return element.chips.get(id);
+      });
+    },
+    querySelector: () => null,
+    closest: () => null,
+    style: {
+      props: new Map(),
+      setProperty(name, value) { this.props.set(name, String(value)); },
+      getPropertyValue(name) { return this.props.get(name) || ''; },
+    },
   };
   return element;
 }
@@ -53,25 +88,57 @@ function makeDocument(ids) {
       if (!elements.has(id)) elements.set(id, makeElement('div'));
       return elements.get(id);
     },
-    createElement: (tag) => makeElement(tag),
+    // An element that is given an id becomes findable by it, the way appending
+    // it to the document would in a browser. The archive's season strip is built
+    // by looking its sections back up by id, so a createElement that dropped
+    // them on the floor would have the strip pointing at conjured empties.
+    createElement(tag) {
+      const element = makeElement(tag);
+      let id = '';
+      Object.defineProperty(element, 'id', {
+        get: () => id,
+        set: (value) => { id = String(value); elements.set(id, element); },
+      });
+      return element;
+    },
     addEventListener() {},
     body: makeElement('body'),
+    // The archive publishes its strip's measured height here, for the
+    // scroll-margin the stylesheet spends on each season.
+    documentElement: makeElement('html'),
   };
 }
 
-function runPage(file, { catalog, ids, archive }) {
+function runPage(file, { catalog, ids, archive, hash = '' } = {}) {
   const document = makeDocument(ids);
   const navigated = [];
+  const replaced = [];
+  const scrolled = [];
+  const frames = [];
   const context = {
     document,
     URLSearchParams,
     setTimeout,
     clearTimeout,
     console: { warn() {}, error() {} },
+    // The archive's season strip coalesces scrolls to a frame. Queued rather
+    // than run on the spot, because the page holds the handle this returns as
+    // its "a frame is already pending" flag — running the callback before the
+    // assignment lands would leave that flag set for good and swallow every
+    // scroll after the first. `fire` drains the queue.
+    requestAnimationFrame: (fn) => frames.push(fn),
+    history: { replaceState(_state, _title, url) { replaced.push(url); } },
+    scrollTo: (options) => scrolled.push(options),
   };
   context.window = context;
   context.globalThis = context;
+  context.window.addEventListener = (type, fn) => {
+    (context.pageListeners[type] = context.pageListeners[type] || []).push(fn);
+  };
+  context.pageListeners = {};
   context.location = {
+    hash,
+    pathname: '/cpl/archive/',
     get href() { return 'http://x/cpl/'; },
     set href(value) { navigated.push(value); },
   };
@@ -81,7 +148,20 @@ function runPage(file, { catalog, ids, archive }) {
 
   vm.runInNewContext(fs.readFileSync(path.join(CPL, 'shared.js'), 'utf8'), context);
   vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
-  return { document, navigated, el: (id) => document.getElementById(id) };
+  return {
+    document,
+    navigated,
+    replaced,
+    scrolled,
+    el: (id) => document.getElementById(id),
+    rootStyle: () => document.documentElement.style,
+    // Fires what the page attached to window, e.g. the scroll that re-marks the
+    // strip's current season, then runs whatever frame that scheduled.
+    fire(type, event = {}) {
+      (context.pageListeners[type] || []).forEach((fn) => fn(event));
+      while (frames.length) frames.shift()();
+    },
+  };
 }
 
 // Descend the element tree collecting whatever `pick` returns for each node.
@@ -270,7 +350,7 @@ test('a season both leagues played is listed once, naming both', () => {
 
 // --- The archive page ------------------------------------------------------
 
-const ARCHIVE_IDS = ['archive-host', 'archive-empty'];
+const ARCHIVE_IDS = ['archive-host', 'archive-empty', 'archive-toc'];
 
 const ARCHIVE_ROWS = {
   rows: [
@@ -468,6 +548,121 @@ test('an archive with nothing in it says so', () => {
 test('a missing archive dataset leaves the page saying so, not empty', () => {
   const app = runArchive(undefined);
   assert.equal(app.el('archive-empty').hidden, false);
+});
+
+// --- The season strip ------------------------------------------------------
+//
+// The same sticky strip of pills the division dashboards carry. This page stacks
+// a table per season down one column, so by the fourth or fifth season the ones
+// at the bottom are only reachable by scrolling past every division above them.
+
+const chip = (app, id) => (app.el('archive-toc').chips || new Map()).get(id);
+// Reading the strip's chips is what builds them, so ask for them before looking
+// one up.
+const readChips = (app) => app.el('archive-toc').querySelectorAll('a[href^="#"]');
+
+test('every season gets an id and a pill that points at it', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const strip = app.el('archive-toc');
+  assert.equal(strip.hidden, false);
+  assert.deepEqual(
+    app.el('archive-host').children.map((section) => section.id),
+    ['season-2026-spring', 'season-2025-fall'],
+  );
+  assert.match(strip.innerHTML, /href="#season-2026-spring">Spring 2026</);
+  assert.match(strip.innerHTML, /href="#season-2025-fall">Fall 2025</);
+  // Newest first, the same order as the sections themselves.
+  assert.ok(
+    strip.innerHTML.indexOf('season-2026-spring') < strip.innerHTML.indexOf('season-2025-fall'),
+  );
+  // The way back up, which the sections themselves cannot offer.
+  assert.match(strip.innerHTML, /class="toc-top"/);
+  // Nothing collapses on this page, so there is nothing to collapse all of.
+  assert.ok(!strip.innerHTML.includes('toc-bulk'), 'a bulk control with nothing to act on');
+});
+
+test('a single archived season gets no strip', () => {
+  const oneSeason = { rows: ARCHIVE_ROWS.rows.filter((row) => row.season === '2025-fall') };
+  const app = runArchive(oneSeason);
+  // The whole page is already on screen; a bar offering to take you to the only
+  // thing on it is noise.
+  assert.equal(app.el('archive-toc').hidden, true);
+  assert.equal(app.el('archive-toc').innerHTML, '');
+});
+
+test('an empty archive builds no strip at all', () => {
+  const app = runArchive({ rows: [] });
+  assert.equal(app.el('archive-toc').innerHTML, '');
+});
+
+test('the strip marks the season whose top has passed under it', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const [spring, fall] = app.el('archive-host').children;
+  readChips(app);
+  const marked = () => ['season-2026-spring', 'season-2025-fall']
+    .filter((id) => chip(app, id) && chip(app, id).className === 'toc-current');
+
+  // At the top of the page: both seasons below the strip, so the first one.
+  spring.rect = { ...spring.rect, top: 400, bottom: 1000 };
+  fall.rect = { ...fall.rect, top: 1000, bottom: 1600 };
+  app.fire('scroll');
+  assert.deepEqual(marked(), ['season-2026-spring']);
+  assert.equal(chip(app, 'season-2026-spring').getAttribute('aria-current'), 'true');
+
+  // Scrolled on until Fall 2025 is under the strip.
+  spring.rect = { ...spring.rect, top: -600, bottom: 0 };
+  fall.rect = { ...fall.rect, top: 20, bottom: 700 };
+  app.fire('scroll');
+  assert.deepEqual(marked(), ['season-2025-fall'], 'exactly one season is current');
+  assert.equal(chip(app, 'season-2026-spring').getAttribute('aria-current'), undefined);
+});
+
+test('the strip publishes its height for the scroll margin to spend', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  // The stub's boxes are 40px tall. What matters is that it is published at all:
+  // the stylesheet spends it as each season's scroll-margin, so a pill lands its
+  // season below the strip rather than behind it.
+  assert.equal(app.rootStyle().getPropertyValue('--toc-height'), '40px');
+});
+
+test('a pill scrolls to its season and puts it in the URL', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  let prevented = false;
+  app.el('archive-toc').fire('click', {
+    target: { closest: (selector) => (selector === '.toc-top' ? null : { getAttribute: () => '#season-2025-fall' }) },
+    preventDefault() { prevented = true; },
+  });
+  assert.equal(app.el('archive-host').children[1].scrolledIntoView, true);
+  assert.deepEqual(app.replaced, ['#season-2025-fall']);
+  // The browser's own jump would land the season behind the sticky strip.
+  assert.equal(prevented, true, 'the default jump was left to happen as well');
+});
+
+test('Top goes back to the heading and takes the fragment out of the URL', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  app.el('archive-toc').fire('click', {
+    target: { closest: (selector) => (selector === '.toc-top' ? { tagName: 'BUTTON' } : null) },
+  });
+  // Read field by field: the object comes from the vm realm, so it is
+  // structurally equal to this one but not the same kind of object.
+  assert.equal(app.scrolled.length, 1);
+  assert.equal(app.scrolled[0].top, 0);
+  assert.equal(app.scrolled[0].behavior, 'smooth');
+  // Otherwise a reload would drop straight back to the season just left.
+  assert.deepEqual(app.replaced, ['/cpl/archive/']);
+});
+
+test('a season fragment the page was opened with is applied once it has content', () => {
+  // The browser cannot do this itself: nothing on this page is in the document
+  // when it parses the URL.
+  const app = runPage(path.join(CPL, 'archive', 'archive.js'), {
+    ids: ARCHIVE_IDS,
+    archive: ARCHIVE_ROWS,
+    hash: '#season-2025-fall',
+  });
+  assert.equal(app.el('archive-host').children[1].scrolledIntoView, true);
+  // Applied, not re-stated: the fragment is already in the URL.
+  assert.deepEqual(app.replaced, []);
 });
 
 // --- Link styling ----------------------------------------------------------
