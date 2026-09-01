@@ -505,7 +505,31 @@ test('every link class shares one rule, and that rule underlines', () => {
   ['a', '.app-link', '.pname', '.audit-link'].forEach((selector) => {
     assert.ok(selectors.includes(selector), `${selector} is not in the shared link rule`);
   });
-  assert.match(block[2], /color: var\(--accent\)/, 'links are underlined but not accented');
+  // Underline says "link"; colour is left to say where it goes. An accent here
+  // would put both signals on every link and turn the dashboard's team and
+  // player columns into walls of blue.
+  assert.match(block[2], /color: inherit/, 'the base link rule colours links');
+  assert.ok(!/var\(--accent\)/.test(block[2]), 'the base link rule is accenting every link');
+});
+
+// Blue is reserved for links that leave the site, so it means something. The
+// rule is an attribute selector because internal hrefs here are all relative —
+// it cannot be forgotten on a new link, and the one external anchor is emitted
+// by shared.js, which is generated.
+test('only links that leave the site are accented', () => {
+  const css = fs.readFileSync(path.join(CPL, 'styles.css'), 'utf8');
+  const external = /a\[href\^="http"\] \{([^}]*)\}/.exec(css);
+  assert.ok(external, 'nothing distinguishes an external link');
+  assert.match(external[1], /color: var\(--accent\)/);
+
+  // And the site's own links are still relative, or the rule above catches them
+  // by mistake.
+  const pages = ['index.html', 'archive/index.html', 'archive/archive.js', 'home.js']
+    .map((file) => fs.readFileSync(path.join(CPL, file), 'utf8')).join('\n');
+  assert.ok(
+    !/<a[^>]*href="https:\/\/fishtownpickleball/.test(pages),
+    'an internal link is written as an absolute URL and will read as external',
+  );
 });
 
 // The two things that opt out are not text links: chrome, and a whole-row

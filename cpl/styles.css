@@ -28,38 +28,47 @@
 }
 
 /* --- Links ---------------------------------------------------------------
-   One style for every link in the app: accent, underlined. Defined here, in the
-   stylesheet all three page types load.
+   Underline marks a link; colour says where it goes.
 
-   This started as four per-page variants and was then narrowed to two roles —
-   one accented, one that kept the surrounding colour and marked itself with a
-   dotted underline, on the theory that a dense table with three linked columns
-   would drown in blue. That theory cost more than it bought. The archive's
-   division links had ended up with no affordance at all, and the audit page's
-   looked like nothing else on the site, and neither was obvious from either
-   rule: the distinction was a judgement call being made per page, which is how
-   the drift started in the first place.
+   A link inside this site keeps the colour of the text around it and carries an
+   underline. A link that leaves it is accent-coloured as well — so the blue
+   means something rather than just meaning "link", and the only ones wearing it
+   are the DUPR player pages.
 
-   So: a link is accent and underlined, and there is nothing to decide. Colour
-   alone is a weak signal anyway — it is the one an underline is there to back
-   up, and the only cue a reader who cannot separate the hues has.
+   This replaced a spell where every link was accent AND underlined, which was
+   two signals for one fact and turned the dashboard's team and player columns
+   into walls of blue. Before that, link styling was defined per page, four
+   different ways, which is how the archive's division links ended up with no
+   affordance at all.
 
-   Two things opt out, and neither is a text link. .back-link is chrome
-   labelling the way up a level — a muted uppercase label that goes accent on
-   hover. .player-result-entry is a whole-row anchor in the finder, where the
-   affordance is the row's hover background; underlining every word in it would
-   be noise, not a signal.
+   The external rule is an attribute selector rather than a class because
+   internal hrefs here are all relative, so it cannot be forgotten on a new link
+   — and the DUPR anchor is emitted by shared.js, which is generated.
+
+   What opts out is anchors that are not text links: a card or a whole row you
+   click (.tcard, .other-league-entry, .player-result-entry), a chip in the
+   contents strip, and the chrome that labels the way up a level (.back-link,
+   .backlink — two names for one job, worth merging some day). Each carries its
+   own affordance, usually a hover background, and each sets text-decoration:
+   none for itself. Underlining every word inside a card would be noise, not a
+   signal.
 */
 a,
 .app-link,
 .pname,
 .audit-link {
-  color: var(--accent);
+  color: inherit;
   text-decoration: underline;
   /* Clear of descenders; the default sits on top of them in this face. */
   text-underline-offset: 0.15em;
 }
 
+/* Leaves the site. */
+a[href^="http"] {
+  color: var(--accent);
+}
+
+/* Colour is spoken for, so the hover state is weight. */
 a:hover,
 .app-link:hover,
 .pname:hover,
@@ -2134,15 +2143,10 @@ thead th:focus-visible,
   margin-top: 10px;
 }
 
-/* Same role as .app-link; kept as its own selector because the markup is
-   generated in bootstrap-gen.js and shared.js without a class. */
+/* Generated in bootstrap-gen.js without a class, so it takes the base link
+   styling; only the weight is set here. */
 .load-error-action a {
   font-weight: 600;
-  text-decoration: none;
-}
-
-.load-error-action a:hover {
-  text-decoration: underline;
 }
 
 /* How stale the data is. The absolute timestamp is in the title attribute, so
