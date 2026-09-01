@@ -512,15 +512,26 @@ test('every head-to-head deep link resolves to a block on the team page it opens
   });
 });
 
-test('a cell standing for two meetings carries no fragment', () => {
+test('a cell standing for two meetings links each entry to its own match', () => {
   const app = runApp();
   app.setGridView('weeks');
   const grid = app.el('grid-host').innerHTML;
-  // A week cell holding two entries is a `-multi` class; none of those may claim
-  // a single match.
+  // A week cell holding two entries is a `-multi` class. The <td> itself
+  // stands for both matches, so it may not claim a single one — but each
+  // entry inside it is its own match and should carry its own link.
   const multiCells = grid.split('<td').filter((cell) => /class="[^"]*-multi/.test(cell));
+  assert.ok(multiCells.length > 0, 'expected at least one -multi cell to check');
   multiCells.forEach((cell) => {
-    assert.ok(!cell.includes('data-fragment'), `a -multi cell claimed one match: ${cell.slice(0, 120)}`);
+    const openTag = cell.slice(0, cell.indexOf('>') + 1);
+    assert.ok(!openTag.includes('data-fragment'), `the <td> itself claimed one match: ${openTag}`);
+
+    const fragments = [...cell.matchAll(/data-fragment="([^"]+)"/g)].map((m) => m[1]);
+    assert.ok(fragments.length >= 2, `expected each entry in a doubled cell to carry its own fragment: ${cell.slice(0, 200)}`);
+    assert.equal(
+      fragments.length,
+      new Set(fragments).size,
+      `entries in a doubled cell should point at different matches: ${fragments}`,
+    );
   });
 });
 

@@ -983,6 +983,7 @@ tbody td {
 .tcard:focus-visible,
 .pname:focus-visible,
 td.played:focus-visible,
+.grid-wrap .entry[data-team]:focus-visible,
 .duorow:focus-visible,
 .pchip:focus-visible,
 thead th:focus-visible,
@@ -1825,6 +1826,13 @@ thead th:focus-visible,
 .grid-wrap td.played {
   cursor: pointer;
   padding: 0;
+}
+
+/* A doubled week's two cards are each their own link, not just the shared
+   cell — matters for the split/win/loss-multi cells, whose two cards go to
+   two different matches. */
+.grid-wrap .entry[data-team] {
+  cursor: pointer;
 }
 
 .grid-wrap td.played.win-multi,

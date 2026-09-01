@@ -447,14 +447,28 @@ test('an opponent with no row of its own is still abbreviated', () => {
   });
 });
 
-test('a week holding two matches is not a link', () => {
-  // Picklr Newtown plays twice in week 10 of 3.5 (50+).
+test('a week holding two matches links each card to its own match', () => {
+  // Picklr Newtown plays twice in week 10 of 3.5 (50+): once against
+  // Pickleball Kingdom Tinton Falls, once against Dill Dinkers Lansdale.
   const app = runApp(WIDEST.file);
   app.setView('weeks');
   const row = rowsOf(app.gridHost.innerHTML).find((r) => r.includes('title="Picklr Newtown"'));
   assert.ok(row, 'expected a Picklr Newtown row');
-  const doubled = row.match(/<td class="[^"]*upcoming-multi[^"]*"[^>]*>/g) || [];
-  assert.equal(doubled.length, 1, 'expected exactly one doubled week');
-  assert.ok(!doubled[0].includes('data-team='), 'a doubled cell has no single match to point at');
-  assert.ok(!doubled[0].includes('played'), 'a doubled cell is not clickable');
+
+  const cells = row.split('</td>').filter((cell) => /<td class="[^"]*upcoming-multi[^"]*"/.test(cell));
+  assert.equal(cells.length, 1, 'expected exactly one doubled week');
+  const cell = cells[0];
+
+  const openTag = cell.match(/<td[^>]*upcoming-multi[^>]*>/)[0];
+  assert.match(openTag, /\bplayed\b/, 'a doubled cell should still be clickable, same as a single-match one');
+
+  const entries = cell.match(/<div class="entry[^"]*"[^>]*>/g) || [];
+  assert.equal(entries.length, 2, 'expected two match cards in the doubled cell');
+  entries.forEach((entry) => {
+    assert.match(entry, /data-team="picklr-newtown"/, `each card should open Picklr Newtown's page: ${entry}`);
+  });
+
+  const fragments = entries.map((entry) => entry.match(/data-fragment="([^"]+)"/)?.[1]);
+  assert.ok(fragments.every(Boolean), 'each card should carry its own match id, not fall back to none');
+  assert.equal(new Set(fragments).size, 2, 'the two cards should point at two different matches, not the same one twice');
 });

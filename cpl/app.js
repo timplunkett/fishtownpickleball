@@ -3453,10 +3453,10 @@ function renderResultsGrid() {
     });
   });
 
-  // Only rostered teams have a page to open. A cell that stands for exactly one
-  // fixture also carries that match's block id, so the click lands on the
-  // matchup itself — inside Match history or Pending matchups — rather than at
-  // the top of a team page the reader then has to scan for it.
+  // Only rostered teams have a page to open. Passing a match's block id has
+  // the click land on the matchup itself — inside Match history or Pending
+  // matchups — rather than at the top of a team page the reader then has to
+  // scan for it.
   const teamLink = (name, fragment = '') => (ROSTERED_TEAMS.has(name)
     ? `data-team="${slugify(name)}"${fragment ? ` data-fragment="${escapeHtml(fragment)}"` : ''}`
       + ` tabindex="0" role="link" aria-label="Open ${escapeHtml(name)} team page${fragment ? ' at this matchup' : ''}"`
@@ -3493,21 +3493,26 @@ function renderResultsGrid() {
     if (pending.length) nextUnplayed[team] = pending[0];
   });
 
+  // Each entry carries its own link now: a week can hold two matches for the
+  // same team, and each still points at its own match block. The <td> used to
+  // hold the one link a single-match week needed, but that left a doubled
+  // week with two cards and nowhere for either link to go.
   const weekEntryHtml = (entry, team) => {
     const opponent = escapeHtml(entry.opponent);
     const code = escapeHtml(teamCode(entry.opponent));
     const provisional = entry.provisional ? ' · P' : '';
+    const link = teamLink(team, entry.matchId);
     if (!entry.played) {
       const imminent = nextUnplayed[team] === entry;
       return `
-        <div class="entry next">
+        <div class="entry next" ${link}>
           <div class="wk opp" title="${opponent}">${code}</div>
           ${imminent ? '<div class="res">NEXT</div>' : ''}
           <div class="sc">${escapeHtml(formatShortDate(entry.time))}</div>
         </div>`;
     }
     return `
-      <div class="entry ${entry.win ? 'win' : 'loss'}">
+      <div class="entry ${entry.win ? 'win' : 'loss'}" ${link}>
         <div class="wk opp" title="${opponent}${entry.provisional ? ' · provisional result' : ''}">${code}${provisional}</div>
         <div class="res">${entry.win ? 'W' : 'L'}</div>
         <div class="sc">${entry.gf}–${entry.ga}<span class="gword"> games</span></div>
@@ -3550,16 +3555,15 @@ function renderResultsGrid() {
             }
             if (entries.length > 1) className += '-multi';
 
-            // The cell opens this row's own team at this match, not the
+            // Each card opens this row's own team at its own match, not the
             // opponent: the reader is following one team across the season, and
             // wants that team's side of the fixture. The matrix does the same
-            // with its row. Two matches in a week share a cell and have no one
-            // block to point at, and `played` comes off with the link, since it
-            // is what makes a cell look clickable.
-            const link = entries.length === 1 ? teamLink(team, entries[0].matchId) : '';
-            const cellClass = link ? `played ${className}` : className;
+            // with its row. A doubled week holds two cards and two links now —
+            // `played` still marks the cell as clickable so long as the team has
+            // a page to open at all, whether it holds one card or two.
+            const cellClass = ROSTERED_TEAMS.has(team) ? `played ${className}` : className;
             const inner = entries.map((entry) => weekEntryHtml(entry, team)).join('');
-            return `<td class="${cellClass}" ${link}>${inner}</td>`;
+            return `<td class="${cellClass}">${inner}</td>`;
           })
           .join('');
         return `<tr>${rowHeader(team)}${cells}</tr>`;
@@ -3753,7 +3757,9 @@ function renderBeeswarm() {
 function handleGridClick(event) {
   // Body cells in both views, plus the by-week row headers, which are the only
   // way to reach the team a row is about once its cells point at its opponents.
-  const cell = event.target.closest('td.played, th.row[data-team]');
+  // A by-week cell can hold two entries when a team plays twice in the same
+  // week, so the link lives on the entry itself rather than the shared <td>.
+  const cell = event.target.closest('.entry[data-team], td.played[data-team], th.row[data-team]');
   if (cell?.dataset.team) {
     routeSetByApp = true;
     setRouteInUrl({ team: cell.dataset.team, player: '', hash: cell.dataset.fragment || '' });
