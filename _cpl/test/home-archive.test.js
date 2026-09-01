@@ -314,6 +314,52 @@ const ARCHIVE_ROWS = {
   ],
 };
 
+// Two divisions of one club, then one of another — what a local season looks
+// like once its rows are sorted by club.
+const CLUBBED_ROWS = {
+  rows: [
+    {
+      season: '2026-summer',
+      seasonLabel: 'Summer 2026',
+      league: 'local',
+      slug: 'aaaa0001',
+      division: '3.0',
+      clubName: 'Flemington',
+      teams: 6,
+      matches: 30,
+      basis: 'standings',
+      thirdFromStandings: true,
+      places: ['India', 'Juliett', 'Kilo'],
+    },
+    {
+      season: '2026-summer',
+      seasonLabel: 'Summer 2026',
+      league: 'local',
+      slug: 'aaaa0002',
+      division: '4.0',
+      clubName: 'Flemington',
+      teams: 6,
+      matches: 30,
+      basis: 'standings',
+      thirdFromStandings: true,
+      places: ['Lima', 'Mike', 'November'],
+    },
+    {
+      season: '2026-summer',
+      seasonLabel: 'Summer 2026',
+      league: 'local',
+      slug: 'aaaa0003',
+      division: '3.5',
+      clubName: 'Bounce - Philly',
+      teams: 6,
+      matches: 30,
+      basis: 'playoffs',
+      thirdFromStandings: false,
+      places: ['Oscar', 'Papa', 'Quebec'],
+    },
+  ],
+};
+
 function runArchive(archive) {
   const app = runPage(path.join(CPL, 'archive', 'archive.js'), { ids: ARCHIVE_IDS, archive });
   return app;
@@ -329,11 +375,21 @@ test('the archive groups rows into a table per season, newest first', () => {
   assert.match(blocks[1].innerHTML, /1 division/);
 });
 
-test('every podium place gets its medal', () => {
+// The medals belong to the column headers. Repeating one on every row of a
+// nineteen-row table is decoration rather than information.
+test('medals head the columns and appear nowhere in the rows', () => {
   const app = runArchive(ARCHIVE_ROWS);
-  const html = app.el('archive-host').children[0].innerHTML;
-  ['🥇', '🥈', '🥉'].forEach((medal) => assert.ok(html.includes(medal), 'missing ' + medal));
-  assert.ok(html.includes('Alpha') && html.includes('Bravo') && html.includes('Charlie'));
+  // One section at a time: the page holds a table per season, so slicing across
+  // all of them would read the second season's header as part of the first
+  // season's body.
+  const html = htmlOf(app.el('archive-host').children[0]);
+  const head = html.slice(html.indexOf('<thead>'), html.indexOf('</thead>'));
+  const body = html.slice(html.indexOf('<tbody>'));
+  ['🥇', '🥈', '🥉'].forEach((medal) => {
+    assert.ok(head.includes(medal), 'the header lost ' + medal);
+    assert.ok(!body.includes(medal), medal + ' is still being repeated on the rows');
+  });
+  assert.ok(body.includes('Alpha') && body.includes('Bravo') && body.includes('Charlie'));
 });
 
 // Both kinds of row sit in this table at once, and "first place" means two
@@ -345,20 +401,42 @@ test('a row states whether playoffs or the regular season decided it', () => {
   assert.ok(html.includes('>Regular season<'), 'no regular-season tag');
 });
 
-// Third place with no match behind it is a tiebreak, not a result.
-test('a third place nobody played for is marked, and one that was is not', () => {
+// Third place with no match behind it is left empty. These brackets have two
+// beaten semi-finalists and no third-place match, so naming either one puts a
+// team under a bronze medal it did not win.
+test('a bronze nobody played for is left blank, and one that was is shown', () => {
   const app = runArchive(ARCHIVE_ROWS);
-  const rowsHtml = app.el('archive-host').children[0].innerHTML.split('<tr>');
-  const played = rowsHtml.find((chunk) => chunk.includes('Charlie'));
-  const tiebroken = rowsHtml.find((chunk) => chunk.includes('Foxtrot'));
-  assert.ok(!played.includes('by standings'), 'a bronze that was played for was marked as a tiebreak');
-  assert.ok(tiebroken.includes('by standings'), 'an unplayed bronze was presented as a result');
+  const rowsHtml = htmlOf(app.el('archive-host')).split('<tr>');
+  const played = rowsHtml.find((chunk) => chunk.includes('Alpha'));
+  const unearned = rowsHtml.find((chunk) => chunk.includes('Delta'));
+  assert.ok(played.includes('Charlie'), 'a bronze that was won on court went missing');
+  assert.ok(!unearned.includes('Foxtrot'), 'a team was shown under a bronze it did not win');
+  assert.match(unearned, /arch-none/);
 });
 
-// A bracket that stopped early, or a division too small to have three teams.
-test('a place nobody filled is a dash rather than an empty cell', () => {
+// A division too small to fill the podium, or a bracket that stopped early.
+test('a place nobody filled is an empty cell', () => {
   const app = runArchive(ARCHIVE_ROWS);
-  assert.match(app.el('archive-host').children[1].innerHTML, /arch-none/);
+  assert.match(htmlOf(app.el('archive-host').children[1]), /arch-none/);
+});
+
+// Four Summer 2026 clubs run more than one division, and repeating the club on
+// every row was most of the table's width.
+test('a club heads a run of its divisions instead of repeating on each row', () => {
+  const app = runArchive(CLUBBED_ROWS);
+  const html = htmlOf(app.el('archive-host'));
+  assert.equal((html.match(/Flemington/g) || []).length, 1, 'the club is repeated per row');
+  assert.ok(
+    html.includes('<tr class="arch-group"><th scope="colgroup" colspan="5">Flemington</th></tr>'),
+    'no club group row spanning the table',
+  );
+  // And the division cells hold only their bracket.
+  assert.ok(html.includes('>3.0</a>') && html.includes('>4.0</a>'));
+});
+
+test('a travel division, having no club, gets no group row', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  assert.ok(!htmlOf(app.el('archive-host').children[0]).includes('arch-group'));
 });
 
 test('a division links to its own frozen dashboard, two directories up', () => {

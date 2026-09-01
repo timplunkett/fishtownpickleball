@@ -105,9 +105,15 @@ semi-final, so the shape of the last round is what identifies it:
   the row falls back to the final regular-season table and labels itself
   `Regular season` rather than crowning the top seed.
 
-Where no bronze match was played, third place is the better-placed of the two
-beaten semi-finalists — a tiebreak rather than a result, and marked as one. See
-`_cpl/modules/archive-outputs.js` and its tests.
+Where no bronze match was played, third place is left **blank**. These brackets
+have two beaten semi-finalists and nothing between them, so naming either one
+puts a team under a medal it did not win. (`archive-outputs.js` still records
+the better-placed of the two and flags it `thirdFromStandings`; the page simply
+does not show it.) See `_cpl/modules/archive-outputs.js` and its tests.
+
+Local divisions are grouped under a club heading spanning the table rather than
+repeating the club on every row — four Summer 2026 clubs run more than one
+division, and the repetition was most of the table's width.
 
 A season slug is `<year>-<name>`: `2026-fall`, `2026-spring`, `2026-summer`.
 The API numbers seasons 1–4 within a year (1 = Spring, 2 = Summer, 3 = Fall);

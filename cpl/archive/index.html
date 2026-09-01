@@ -27,12 +27,16 @@
 <link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="../home.css">
 </head>
-<body>
+<body class="archive-page">
   <noscript>
     <p class="load-error" role="alert">This page builds its season lists in the browser, so it needs
     JavaScript switched on. Nothing here works without it.</p>
   </noscript>
 
+  <!-- Left-aligned, and constrained to the same column as the tables below it.
+       The landing page is a centred layout of narrow panels; this page is a wide
+       left-aligned table, and a centred header over it left the back link
+       floating in the middle of the page with nothing under it. -->
   <div class="hero">
     <div class="kicker"><a class="back-link" href="../">← CPL</a></div>
     <h1>Season Archive</h1>
@@ -49,7 +53,7 @@
     No season has finished yet. When one does, it lands here.
   </p>
 
-  <p class="attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  <p class="attrib archive-attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
   with, endorsed by, or operated by DUPR or the Cross Club League.</p>
 
 <script src="../shared.js" defer></script>

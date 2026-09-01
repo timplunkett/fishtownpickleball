@@ -221,27 +221,25 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 .arch-link { color: var(--txt); text-decoration: none; }
 .arch-link:hover { color: var(--accent); text-decoration: underline; }
 
-/* The club is the identifying half of a local division name, so the bracket
-   that follows it is set quieter rather than competing with it. */
-.arch-div { color: var(--mut); }
-
-.arch-place { }
-.arch-medal { margin-right: .4rem; }
-.arch-team { }
+/* A place nobody won: a bracket with no third-place match, or a division too
+   small to fill the podium. Empty rather than dashed — there is no result to
+   report, and a dash reads as one that is missing. */
 .arch-none { color: var(--mut); }
 
-/* Third place where no match decided it. Small, and titled with the reason. */
-.arch-note {
-  margin-left: .4rem;
-  padding: 1px 5px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
+/* A club heading a run of its own divisions, spanning the table. Four Summer
+   2026 clubs run more than one division, and repeating the club on every row
+   was most of the table's width. */
+.arch-group th {
+  padding-top: .8rem;
   color: var(--mut);
-  font-size: 9.5px;
-  letter-spacing: .03em;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
   text-transform: uppercase;
-  cursor: help;
+  background: rgb(255 255 255 / 2%);
 }
+
+.arch-table tbody tr.arch-group:hover { background: rgb(255 255 255 / 2%); }
 
 /* Whether the playoff bracket or the regular-season table decided the podium.
    Both kinds sit in this page at once, and "first place" means two different
@@ -258,6 +256,23 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .arch-tag.is-playoffs { color: var(--accent); border: 1px solid var(--accent); }
 .arch-tag.is-standings { color: var(--mut); border: 1px solid var(--line); }
+
+/* The archive page is a wide left-aligned table, not the landing page's centred
+   column of narrow panels. Its header follows the table rather than the body's
+   centring, so the back link sits above the first column instead of floating in
+   the middle of the page. */
+.archive-page { justify-content: flex-start; gap: 1.5rem; }
+
+.archive-page .hero,
+.archive-page .archive-attrib {
+  width: 100%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+}
 
 /* The way back to /cpl/, sitting in the hero kicker. */
 .hero .back-link {

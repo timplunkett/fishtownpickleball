@@ -42,30 +42,30 @@
     return groups;
   }
 
+  // The Division cell holds only the bracket. A local division's club is not
+  // repeated on every row of the table — it heads a group of them instead, which
+  // is what stops the Summer 2026 table from being four columns of the same four
+  // club names.
   function divisionCell(row) {
-    var label = row.clubName
-      ? escapeHtml(row.clubName) + ' <span class="arch-div">' + escapeHtml(row.division) + '</span>'
-      : escapeHtml(row.division);
     var href = shared.divisionHref(row.league, row.season, row.slug, '../');
-    return '<a class="arch-link" href="' + escapeHtml(href) + '">' + label + '</a>';
+    return '<a class="arch-link" href="' + escapeHtml(href) + '">' + escapeHtml(row.division) + '</a>';
   }
 
-  // A place a division never filled — a bracket that stopped early, or a
-  // division too small to have a third team. Left as a dash rather than blank,
-  // so an empty cell reads as "nobody finished here" instead of as a bug.
+  // A podium place.
+  //
+  // No medal glyph here: the column headers carry them once, and repeating a
+  // medal on every row of a nineteen-row table is decoration rather than
+  // information.
+  //
+  // Third place is left empty wherever no match decided it — these brackets have
+  // two beaten semi-finalists and no third-place match, so there is no result to
+  // report. It used to show the better-placed of the two, marked as a tiebreak,
+  // which put a team's name under a bronze medal it had not won.
   function placeCell(row, index) {
     var name = row.places[index];
-    if (!name) return '<td class="arch-place arch-none">—</td>';
-    // Third place is a tiebreak rather than a result wherever no match decided
-    // it: these brackets have two beaten semi-finalists and no third-place
-    // match, so the better regular-season finisher is used. Marked, because the
-    // other two places on the same row were actually played for.
-    var provisional = index === 2 && row.thirdFromStandings && row.basis === 'playoffs';
-    return '<td class="arch-place">' +
-      '<span class="arch-medal" aria-hidden="true">' + MEDALS[index] + '</span>' +
-      '<span class="arch-team">' + escapeHtml(name) + '</span>' +
-      (provisional ? '<span class="arch-note" title="No third-place match was played; this is the better regular-season finish of the two beaten semi-finalists.">by standings</span>' : '') +
-      '</td>';
+    var unearned = index === 2 && row.thirdFromStandings && row.basis === 'playoffs';
+    if (!name || unearned) return '<td class="arch-place arch-none"></td>';
+    return '<td class="arch-place"><span class="arch-team">' + escapeHtml(name) + '</span></td>';
   }
 
   // What decided the podium. Worth stating on every row rather than in a
@@ -81,6 +81,35 @@
       '">' + (playoffs ? 'Playoffs' : 'Regular season') + '</span></td>';
   }
 
+  var COLUMNS = 5;
+
+  // Consecutive rows sharing a club, in the order the compiler emitted them —
+  // which already sorts local divisions by club, so a club's divisions arrive
+  // together. Travel divisions have no club and each stand alone.
+  function clubRuns(list) {
+    var runs = [];
+    list.forEach(function (row) {
+      var last = runs[runs.length - 1];
+      if (last && last.club === (row.clubName || '') && last.club) last.rows.push(row);
+      else runs.push({ club: row.clubName || '', rows: [row] });
+    });
+    return runs;
+  }
+
+  function bodyFor(list) {
+    return clubRuns(list).map(function (run) {
+      var header = run.club
+        ? '<tr class="arch-group"><th scope="colgroup" colspan="' + COLUMNS + '">' +
+          escapeHtml(run.club) + '</th></tr>'
+        : '';
+      return header + run.rows.map(function (row) {
+        return '<tr><th scope="row">' + divisionCell(row) + '</th>' +
+          placeCell(row, 0) + placeCell(row, 1) + placeCell(row, 2) +
+          basisCell(row) + '</tr>';
+      }).join('');
+    }).join('');
+  }
+
   function tableFor(group) {
     var head = '<thead><tr>' +
       '<th scope="col">Division</th>' +
@@ -89,13 +118,8 @@
       }).join('') +
       '<th scope="col">Decided by</th>' +
       '</tr></thead>';
-    var body = group.rows.map(function (row) {
-      return '<tr><th scope="row">' + divisionCell(row) + '</th>' +
-        placeCell(row, 0) + placeCell(row, 1) + placeCell(row, 2) +
-        basisCell(row) + '</tr>';
-    }).join('');
     return '<div class="arch-scroll"><table class="arch-table">' + head +
-      '<tbody>' + body + '</tbody></table></div>';
+      '<tbody>' + bodyFor(group.rows) + '</tbody></table></div>';
   }
 
   function sectionFor(group) {
