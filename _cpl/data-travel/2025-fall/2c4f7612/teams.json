@@ -1,0 +1,99 @@
+{
+  "$values": [
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "e44d8acd-1d12-4731-bffe-f76e0faf5a51",
+      "teamName": "Garden State",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "teamName": "Jersey Devil",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "fd59fdc3-7dec-405f-8f08-b2782d412559",
+      "teamName": "Lehigh Valley",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "7a9592ea-2738-41d1-9366-11fe7f2fe6bd",
+      "teamName": "Montville Aces",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4b1d713f-9083-4641-ac34-065ceab15d3f",
+      "teamName": "Montville Brawlers",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "99888641-6274-407e-b37e-a34e79af5fb0",
+      "teamName": "Pickle Jar",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4112ef74-ce6a-4a4e-99d3-13ae77f49554",
+      "teamName": "Pickle Juice",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "teamName": "Pickleball HQ",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "teamName": "Pickleball Palace",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
+      "teamName": "Picklr Manahawkin",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "teamName": "Players Courtyard",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "teamName": "Stelton Sports",
+      "pod": "Northeast"
+    }
+  ]
+}

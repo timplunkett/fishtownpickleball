@@ -39,6 +39,21 @@ window.CPL_CATALOG = {
       {"slug":"ea8587fb","divisionName":"4.0 (50+)","asOf":"2026-08-31T20:20:07.171Z"},
       {"slug":"7906ad17","divisionName":"4.5","asOf":"2026-08-31T20:20:21.407Z"}
      ]
+    },
+    {
+     "slug": "2025-fall",
+     "label": "Fall 2025",
+     "status": "archived",
+     "order": 20253,
+     "landingSlug": "b844c0f9",
+     "divisions": [
+      {"slug":"b844c0f9","divisionName":"3.0","asOf":"2026-09-01T00:51:12.938Z"},
+      {"slug":"2c4f7612","divisionName":"3.5","asOf":"2026-09-01T00:52:36.727Z"},
+      {"slug":"f8ce3ed0","divisionName":"3.5 (50+)","asOf":"2026-09-01T00:52:58.373Z"},
+      {"slug":"e8d04726","divisionName":"4.0","asOf":"2026-09-01T00:52:01.438Z"},
+      {"slug":"cb1126a8","divisionName":"4.0 (50+)","asOf":"2026-09-01T00:52:13.632Z"},
+      {"slug":"f82ff14f","divisionName":"4.5","asOf":"2026-09-01T00:51:28.650Z"}
+     ]
     }
    ]
   },

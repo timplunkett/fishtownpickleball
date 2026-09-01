@@ -1,0 +1,99 @@
+{
+  "$values": [
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "teamName": "Flemington Blue",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "teamName": "Flemington Green",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "teamName": "Jersey Devil",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "7f7094c1-c0b9-48aa-a56c-e561e2ab9848",
+      "teamName": "Lehigh Valley Plex",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "8d662b11-710b-40b0-bbdc-96c5bf106eb5",
+      "teamName": "Lehigh Valley Spartans",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
+      "teamName": "Mercer Bucks",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "3b95611d-f435-45e8-acfa-e9592bbc22ac",
+      "teamName": "Monroe Flash",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "fe7b71ad-dda9-4492-a9e8-0fbbad142c02",
+      "teamName": "Monroe Rally",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "99888641-6274-407e-b37e-a34e79af5fb0",
+      "teamName": "Pickle Jar",
+      "pod": "Northwest"
+    },
+    {
+      "teamId": "4112ef74-ce6a-4a4e-99d3-13ae77f49554",
+      "teamName": "Pickle Juice",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "teamName": "Pickleball HQ",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "Southwest"
+    },
+    {
+      "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "teamName": "Players Courtyard",
+      "pod": "Southeast"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "0df328b0-ef50-4776-b047-1ace4e5c14a2",
+      "teamName": "Stelton Strikers",
+      "pod": "Northeast"
+    },
+    {
+      "teamId": "995f1327-f29d-4f61-9955-7d721734200b",
+      "teamName": "Stelton Warriors",
+      "pod": "Northwest"
+    }
+  ]
+}

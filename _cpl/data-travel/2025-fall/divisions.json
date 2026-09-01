@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "b844c0f9",
+    "divisionId": "b844c0f9-ea64-45e1-8953-16c0adad35f3",
+    "divisionName": "3.0",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  },
+  {
+    "slug": "f82ff14f",
+    "divisionId": "f82ff14f-51ae-4158-8596-83e33df1b3e0",
+    "divisionName": "4.5",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  },
+  {
+    "slug": "e8d04726",
+    "divisionId": "e8d04726-4c07-447c-a609-9914d1378e8d",
+    "divisionName": "4.0",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  },
+  {
+    "slug": "cb1126a8",
+    "divisionId": "cb1126a8-d237-4ed1-a782-99f4d9b90c19",
+    "divisionName": "4.0 (50+)",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  },
+  {
+    "slug": "2c4f7612",
+    "divisionId": "2c4f7612-910e-43fa-8b3c-b79180def0d9",
+    "divisionName": "3.5",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  },
+  {
+    "slug": "f8ce3ed0",
+    "divisionId": "f8ce3ed0-9442-4ad6-a510-f51d4fb9e529",
+    "divisionName": "3.5 (50+)",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/v0/api"
+  }
+]

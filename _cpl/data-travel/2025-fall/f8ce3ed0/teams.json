@@ -1,0 +1,84 @@
+{
+  "$values": [
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "South"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "North"
+    },
+    {
+      "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "teamName": "Forward",
+      "pod": "South"
+    },
+    {
+      "teamId": "e44d8acd-1d12-4731-bffe-f76e0faf5a51",
+      "teamName": "Garden State",
+      "pod": "South"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "North"
+    },
+    {
+      "teamId": "fd59fdc3-7dec-405f-8f08-b2782d412559",
+      "teamName": "Lehigh Valley",
+      "pod": "North"
+    },
+    {
+      "teamId": "3b95611d-f435-45e8-acfa-e9592bbc22ac",
+      "teamName": "Monroe Flash",
+      "pod": "North"
+    },
+    {
+      "teamId": "fe7b71ad-dda9-4492-a9e8-0fbbad142c02",
+      "teamName": "Monroe Rally",
+      "pod": "North"
+    },
+    {
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "pod": "North"
+    },
+    {
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "pod": "South"
+    },
+    {
+      "teamId": "99888641-6274-407e-b37e-a34e79af5fb0",
+      "teamName": "Pickle Jar",
+      "pod": "North"
+    },
+    {
+      "teamId": "fd937522-f5b0-4671-8a66-0ec5a9acc290",
+      "teamName": "Pickleball Kingdom",
+      "pod": "South"
+    },
+    {
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "pod": "South"
+    },
+    {
+      "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "teamName": "Players Courtyard",
+      "pod": "South"
+    },
+    {
+      "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "teamName": "Stelton Sports",
+      "pod": "North"
+    },
+    {
+      "teamId": "0f80f117-9dac-471f-9c0f-26445dc9048c",
+      "teamName": "The Atlantic Club",
+      "pod": "South"
+    }
+  ]
+}
