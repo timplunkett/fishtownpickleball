@@ -512,7 +512,11 @@ function loadPlayerIndexScript() {
     playerIndexPromise = (
       window.PLAYER_INDEX_TABLES || window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX
         ? Promise.resolve()
-        : loadScriptOnce('../player-index.js')
+        // Two levels up: a dashboard lives at cpl/<league>/<season>/, and
+        // player-index.js sits at cpl/. A single '../' here 404s silently
+        // (loadScriptOnce degrades to a missing row rather than an error) —
+        // it was right before seasons added the <season> directory.
+        : loadScriptOnce('../../player-index.js')
     ).then(refreshOtherLeaguesRow);
   }
   return playerIndexPromise;
@@ -2484,7 +2488,9 @@ function renderOtherLeaguesSummary(player) {
 
   if (!others.length) return '';
 
-  const rootPath = '../';
+  // Two levels up to cpl/, then into the other league's redirect stub — see the
+  // matching note on loadPlayerIndexScript's '../../player-index.js'.
+  const rootPath = '../../';
   const rows = others.map((entry) => {
     const badgeClass = entry.league === 'travel' ? 'travel' : 'local';
     const badgeLabel = entry.league === 'travel' ? 'CPL' : 'Local';
