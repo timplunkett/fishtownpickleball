@@ -465,7 +465,7 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 4.4,
+    "rating": 4.3,
     "confidence": 55,
     "rank": 2,
     "ratingGames": 7,
@@ -1914,7 +1914,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 50,
-    "rank": 42,
+    "rank": 43,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.7
@@ -2658,7 +2658,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 52,
-    "rank": 60,
+    "rank": 61,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -3540,7 +3540,7 @@
     "pid": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
     "name": "Justin Chin",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.6
    }
   ]
  },
@@ -4699,7 +4699,7 @@
     "l": 2,
     "gp": 7,
     "pf": 142,
-    "pa": 127,
+    "pa": 126,
     "mx": [
      0,
      0
@@ -4762,7 +4762,7 @@
      "Jaco De Waal"
     ],
     "f": 21,
-    "a": 15,
+    "a": 14,
     "w": 1,
     "ff": 0,
     "sub": 1,
@@ -4836,9 +4836,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.2,
+    "rating": 0.3,
     "confidence": 54,
-    "rank": 61,
+    "rank": 60,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.3
@@ -5161,7 +5161,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 56,
-    "rank": 44,
+    "rank": 45,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -7778,7 +7778,7 @@
     "confidence": 54,
     "rank": 55,
     "ratingGames": 6,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -10174,7 +10174,7 @@
     "pid": "02ac193a-6e5d-4859-80bf-c8c25a89c1c8",
     "name": "Adriene Khon",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "515009fd-ac6a-4124-a871-dff85a118781",
@@ -10916,7 +10916,7 @@
     "confidence": 69,
     "rank": 30,
     "ratingGames": 12,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -15060,7 +15060,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 72,
-    "rank": 34,
+    "rank": 35,
     "ratingGames": 15,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -15265,6 +15265,279 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "0e577096-0b13-441d-b087-cc49cb55cfe2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 119,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Dustin Rabinowitz",
+    "vs": [
+     "Adriene Khon",
+     "Justin Bautista"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jonah Karczmer",
+    "vs": [
+     "Zachary Lessner",
+     "Brandyn Schuchart"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Scott Bohrer",
+    "vs": [
+     "Adriene Khon",
+     "Justin Chin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Mark Kilimnik",
+    "vs": [
+     "Josh Knupp",
+     "Justin Chin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ryan Rosen",
+    "vs": [
+     "Zyril Carilo",
+     "Hiep Pham"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ryan Rosen",
+    "vs": [
+     "Alex Mihalca",
+     "Josh Knupp"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Shawn Ganow",
+    "vs": [
+     "William Lee",
+     "Christian Lupica"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Vaughn Lawrence",
+    "vs": [
+     "Christian Lupica",
+     "Timoty Cahalin"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Dustin Rabinowitz",
+    "vs": [
+     "Thomas Fenton",
+     "Alex Pecora"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Scott Bohrer",
+    "vs": [
+     "William Lee",
+     "Joshua Mindlin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Mark Kilimnik",
+    "vs": [
+     "Derek Callihan",
+     "Jaco De Waal"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Anushk Gupta",
+    "vs": [
+     "Christian Lupica",
+     "Alex Pecora"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 71,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 69,
+    "rank": 33,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -15784,7 +16057,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 59,
-    "rank": 84,
+    "rank": 85,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -15959,281 +16232,8 @@
     "confidence": 58,
     "rank": 22,
     "ratingGames": 8,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": []
- },
- "0e577096-0b13-441d-b087-cc49cb55cfe2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 110,
-    "pa": 119,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 104,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Dustin Rabinowitz",
-    "vs": [
-     "Adriene Khon",
-     "Justin Bautista"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Jonah Karczmer",
-    "vs": [
-     "Zachary Lessner",
-     "Brandyn Schuchart"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Scott Bohrer",
-    "vs": [
-     "Adriene Khon",
-     "Justin Chin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Mark Kilimnik",
-    "vs": [
-     "Josh Knupp",
-     "Justin Chin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ryan Rosen",
-    "vs": [
-     "Zyril Carilo",
-     "Hiep Pham"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ryan Rosen",
-    "vs": [
-     "Alex Mihalca",
-     "Josh Knupp"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Shawn Ganow",
-    "vs": [
-     "William Lee",
-     "Christian Lupica"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Vaughn Lawrence",
-    "vs": [
-     "Christian Lupica",
-     "Timoty Cahalin"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Dustin Rabinowitz",
-    "vs": [
-     "Thomas Fenton",
-     "Alex Pecora"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Scott Bohrer",
-    "vs": [
-     "William Lee",
-     "Joshua Mindlin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Mark Kilimnik",
-    "vs": [
-     "Derek Callihan",
-     "Jaco De Waal"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Anushk Gupta",
-    "vs": [
-     "Christian Lupica",
-     "Alex Pecora"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.6,
-    "confidence": 51,
-    "rank": 71,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 2,
-    "rating": 0.9,
-    "confidence": 69,
-    "rank": 36,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -17022,7 +17022,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 71,
-    "rank": 43,
+    "rank": 44,
     "ratingGames": 16,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -17192,7 +17192,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 47,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": -0.1
@@ -17815,7 +17815,7 @@
     "pid": "b4efc48a-f302-4d27-8c35-0dac1e68eec8",
     "name": "Zyril Carilo",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
@@ -18128,7 +18128,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 71,
-    "rank": 35,
+    "rank": 36,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
@@ -18661,7 +18661,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 54,
-    "rank": 86,
+    "rank": 87,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 1.1
@@ -19017,7 +19017,7 @@
     "w": 2,
     "l": 6,
     "gp": 8,
-    "pf": 122,
+    "pf": 121,
     "pa": 164,
     "mx": [
      0,
@@ -19256,7 +19256,7 @@
      "Mark Kilimnik",
      "Austin Gow"
     ],
-    "f": 14,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -19308,9 +19308,9 @@
    },
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.8,
     "confidence": 74,
-    "rank": 97,
+    "rank": 103,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -20013,7 +20013,7 @@
     "w": 3,
     "l": 4,
     "gp": 7,
-    "pf": 113,
+    "pf": 112,
     "pa": 140,
     "mx": [
      0,
@@ -20204,7 +20204,7 @@
      "Andre Cristobal",
      "Anushk Gupta"
     ],
-    "f": 15,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20592,7 +20592,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 68,
-    "rank": 124,
+    "rank": 123,
     "ratingGames": 13,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
@@ -21926,7 +21926,7 @@
     "l": 3,
     "gp": 7,
     "pf": 139,
-    "pa": 128,
+    "pa": 127,
     "mx": [
      0,
      0
@@ -22133,7 +22133,7 @@
      "Jaco De Waal"
     ],
     "f": 21,
-    "a": 14,
+    "a": 13,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -22352,7 +22352,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 56,
-    "rank": 85,
+    "rank": 86,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.5
@@ -22507,11 +22507,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.6,
+    "rating": 0.7,
     "confidence": 55,
-    "rank": 45,
+    "rank": 42,
     "ratingGames": 7,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -24034,9 +24034,9 @@
    },
    {
     "week": 2,
-    "rating": -0.4,
+    "rating": -0.3,
     "confidence": 68,
-    "rank": 88,
+    "rank": 84,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 1
@@ -24053,7 +24053,7 @@
     "pid": "515009fd-ac6a-4124-a871-dff85a118781",
     "name": "Hiep Pham",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -24595,7 +24595,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 59,
-    "rank": 127,
+    "rank": 126,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -1
@@ -26128,7 +26128,7 @@
     "l": 4,
     "gp": 6,
     "pf": 117,
-    "pa": 114,
+    "pa": 113,
     "mx": [
      0,
      0
@@ -26175,7 +26175,7 @@
      "Jaco De Waal"
     ],
     "f": 21,
-    "a": 15,
+    "a": 14,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -26249,9 +26249,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.6,
     "confidence": 53,
-    "rank": 103,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.6
@@ -26551,7 +26551,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 52,
-    "rank": 87,
+    "rank": 88,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -27276,7 +27276,7 @@
     "confidence": 68,
     "rank": 116,
     "ratingGames": 12,
-    "strengthOfPartners": -1.2,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -28417,7 +28417,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 49,
-    "rank": 96,
+    "rank": 97,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.2
@@ -28731,7 +28731,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 52,
-    "rank": 123,
+    "rank": 122,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -29691,7 +29691,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 69,
-    "rank": 126,
+    "rank": 125,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -30175,7 +30175,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 71,
-    "rank": 125,
+    "rank": 124,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -31473,7 +31473,7 @@
     "w": 2,
     "l": 6,
     "gp": 8,
-    "pf": 133,
+    "pf": 131,
     "pa": 164,
     "mx": [
      0,
@@ -31536,7 +31536,7 @@
      "Andre Cristobal",
      "Anushk Gupta"
     ],
-    "f": 15,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -31584,7 +31584,7 @@
      "Mark Kilimnik",
      "Austin Gow"
     ],
-    "f": 14,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -31627,9 +31627,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.7,
+    "rating": -1.9,
     "confidence": 58,
-    "rank": 122,
+    "rank": 127,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -32573,7 +32573,7 @@
     "rank": 112,
     "ratingGames": 13,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [

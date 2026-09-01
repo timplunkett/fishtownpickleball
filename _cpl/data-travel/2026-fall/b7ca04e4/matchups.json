@@ -541,6 +541,18 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
+      "matchupId": "2ca9f88e-83f3-4ab2-8ca3-88bd2517d240",
+      "weekNumber": 4,
+      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-16T19:00:00",
+      "homeName": "Dill Dinkers Freehold",
+      "awayName": "Premiere"
+    },
+    {
       "matchupId": "faf908b1-fdce-4f5c-b991-bfc3ec60e13f",
       "weekNumber": 4,
       "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
@@ -611,18 +623,6 @@
       "scheduledTime": "2026-09-16T19:30:00",
       "homeName": "Bounce Philly",
       "awayName": "Ballers Philly"
-    },
-    {
-      "matchupId": "2ca9f88e-83f3-4ab2-8ca3-88bd2517d240",
-      "weekNumber": 4,
-      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-16T19:30:00",
-      "homeName": "Dill Dinkers Freehold",
-      "awayName": "Premiere"
     },
     {
       "matchupId": "2cd60ff7-261c-4f2d-b819-8ae8fbdb3fc9",
@@ -1009,6 +1009,18 @@
       "awayName": "Pickle House"
     },
     {
+      "matchupId": "ebfb6518-6418-458a-a054-15bf22f3bff3",
+      "weekNumber": 6,
+      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-30T19:00:00",
+      "homeName": "Dill Dinkers Freehold",
+      "awayName": "Pickle House"
+    },
+    {
       "matchupId": "6deccc9d-0a45-47d9-ba04-37b1556dfd0f",
       "weekNumber": 6,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -1091,18 +1103,6 @@
       "scheduledTime": "2026-09-30T19:30:00",
       "homeName": "Players Courtyard",
       "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "ebfb6518-6418-458a-a054-15bf22f3bff3",
-      "weekNumber": 6,
-      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Dill Dinkers Freehold",
-      "awayName": "Pickle House"
     },
     {
       "matchupId": "e0dd780b-6bd3-4223-9779-289ab4aca72b",
@@ -1849,6 +1849,18 @@
       "awayName": "Dill Dinkers Freehold"
     },
     {
+      "matchupId": "d88c7f2e-a8f2-4963-8d09-2e838c570e59",
+      "weekNumber": 10,
+      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-28T19:00:00",
+      "homeName": "Dill Dinkers Freehold",
+      "awayName": "Pickleball Kingdom Tinton Falls"
+    },
+    {
       "matchupId": "d6f4e05e-e123-40ef-9e81-4ff196f00594",
       "weekNumber": 10,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -1919,18 +1931,6 @@
       "scheduledTime": "2026-10-28T19:30:00",
       "homeName": "Delco Turf & Pickle",
       "awayName": "Dill Dinkers Hatboro"
-    },
-    {
-      "matchupId": "d88c7f2e-a8f2-4963-8d09-2e838c570e59",
-      "weekNumber": 10,
-      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-28T19:30:00",
-      "homeName": "Dill Dinkers Freehold",
-      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "9895def6-6ded-498e-a187-2f3fe77dddf0",
@@ -2221,6 +2221,18 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
+      "matchupId": "52c5d59a-6b4c-4753-9329-730d1ab51f66",
+      "weekNumber": 12,
+      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-11T19:00:00",
+      "homeName": "Dill Dinkers Freehold",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
       "matchupId": "08a6a64c-3dd8-4885-b4ca-b21ab15373d0",
       "weekNumber": 12,
       "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
@@ -2303,18 +2315,6 @@
       "scheduledTime": "2026-11-11T19:30:00",
       "homeName": "Dill Dinkers Hatboro",
       "awayName": "ACE Downingtown"
-    },
-    {
-      "matchupId": "52c5d59a-6b4c-4753-9329-730d1ab51f66",
-      "weekNumber": 12,
-      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-11T19:30:00",
-      "homeName": "Dill Dinkers Freehold",
-      "awayName": "Jersey Pickleball Club"
     },
     {
       "matchupId": "d45ac34d-0d1d-426b-b64a-ab4936342492",

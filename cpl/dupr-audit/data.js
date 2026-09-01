@@ -608,7 +608,7 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ali Abbas",
+   "name": "Ali Bhimji",
    "playerId": "3651f648-493a-4517-8085-a8b9cb086c07",
    "team": "Pickleball Kingdom Lehigh Valley",
    "slug": "c118b8e9",
@@ -12900,6 +12900,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Neil Dedhia",
+   "playerId": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
+   "team": "Pickle House",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Neil Ottrando",
    "playerId": "4de9fd52-8910-4c2f-9aad-e2e55a0e33a1",
    "team": "Premiere",
@@ -13653,6 +13660,13 @@ window.DUPR_AUDIT = {
    "playerId": "acc4012f-320c-4b43-8ec7-f60ca7419e03",
    "team": "One Love",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Piero Accinelli",
+   "playerId": "2b68baa8-32a7-45b1-8d44-3211a61edd7f",
+   "team": "Picklr Fair Lawn",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
