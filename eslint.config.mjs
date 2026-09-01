@@ -8,6 +8,8 @@ export default [
       'cpl/local/*/data-*.js', 'cpl/local/*/detail-*.js', 'cpl/local/*/dupr-*.js',
       'cpl/travel/*/data-*.js', 'cpl/travel/*/detail-*.js', 'cpl/travel/*/dupr-*.js',
       'cpl/shared.js', // generated copy of _cpl/modules/shared.js
+      'cpl/catalog.js', 'cpl/player-index.js', 'cpl/dupr-ratings.js',
+      'cpl/archive/data.js', 'cpl/dupr-audit/data.js',
       'node_modules/**', '_site/**', 'vendor/**',
     ],
   },

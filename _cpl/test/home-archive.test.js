@@ -1,10 +1,11 @@
-// The two catalog-driven pages: the landing page's "Now playing" tier
-// (cpl/home.js) and the season archive (cpl/archive/archive.js).
+// The landing page's two boxes (cpl/home.js) and the season archive
+// (cpl/archive/archive.js).
 //
-// Both are built entirely from cpl/catalog.js, so the cases worth pinning are
-// the ones where the catalog says something the old two-fixed-panels layout
-// could not express: a league between seasons, both leagues between seasons, and
-// a season two leagues both played.
+// The landing page is built from cpl/catalog.js, so the cases worth pinning are
+// the ones the old league-per-panel layout could not express: a league between
+// seasons, both leagues between seasons, and a season two leagues both played.
+// The archive page is built from its own cpl/archive/data.js instead — those
+// rows are read here and nowhere else, and they grow with every finished season.
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -58,7 +59,7 @@ function makeDocument(ids) {
   };
 }
 
-function runPage(file, { catalog, ids }) {
+function runPage(file, { catalog, ids, archive }) {
   const document = makeDocument(ids);
   const navigated = [];
   const context = {
@@ -76,6 +77,7 @@ function runPage(file, { catalog, ids }) {
   };
   context.window.location = context.location;
   if (catalog) context.CPL_CATALOG = catalog;
+  if (archive) context.CPL_ARCHIVE = archive;
 
   vm.runInNewContext(fs.readFileSync(path.join(CPL, 'shared.js'), 'utf8'), context);
   vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
@@ -95,14 +97,30 @@ function collect(root, pick) {
 }
 
 const selectsIn = (root) => collect(root, (node) => (node.tagName === 'SELECT' ? node : undefined));
+// Every real option's value, skipping the disabled placeholder.
+// The stub does not synthesize a parent's innerHTML from appended children, so
+// asserting across a whole section means joining what its children hold.
+const htmlOf = (root) => (root.innerHTML || '') + (root.children || []).map(htmlOf).join('');
+const optionValues = (select) => [...select.innerHTML.matchAll(/<option value="([^"]+)"/g)].map((m) => m[1]);
 const textsIn = (root, className) => collect(
   root,
   (node) => (node.className === className ? node.textContent : undefined),
 );
 
-const season = (slug, label, status, divisions) => ({
-  slug, label, status, landingSlug: divisions[0] ? divisions[0].slug : '', divisions,
-});
+// The numeric order the compiler stamps on each season. Derived here from the
+// slug so the fixtures stay readable; the real one comes from the season number.
+const SEASON_NUMBER = { spring: 1, summer: 2, fall: 3, winter: 4 };
+const season = (slug, label, status, divisions) => {
+  const [year, name] = slug.split('-');
+  return {
+    slug,
+    label,
+    status,
+    order: Number(year) * 10 + (SEASON_NUMBER[name] || 0),
+    landingSlug: divisions[0] ? divisions[0].slug : '',
+    divisions,
+  };
+};
 
 const TRAVEL_DIVS = [{ slug: 'aaaa1111', divisionName: '3.5' }, { slug: 'bbbb2222', divisionName: '4.5 Mens' }];
 const LOCAL_DIVS = [{ slug: 'cccc3333', divisionName: '3.5 - 4.0', clubName: 'Bounce - Philly' }];
@@ -130,41 +148,58 @@ const BOTH_LIVE = {
 };
 
 const HOME_IDS = [
-  'now-panels', 'now-empty', 'now-head', 'archive-panel', 'archive-summary',
-  'data-freshness', 'player-search', 'player-results', 'finder-hint',
+  'now-select-host', 'now-empty', 'now-season', 'archive-panel', 'archive-summary',
+  'archive-list', 'data-freshness', 'player-search', 'player-results', 'finder-hint',
 ];
 
 function runHome(catalog) {
   return runPage(path.join(CPL, 'home.js'), { catalog, ids: HOME_IDS });
 }
 
-// --- The landing page's "Now playing" tier ---------------------------------
+// --- The landing page's Now playing box ------------------------------------
 
-test('a panel is built for every league with a season in progress', () => {
+test('one picker holds every live division, across both leagues', () => {
   const app = runHome(BOTH_LIVE);
-  const panels = app.el('now-panels').children;
-  assert.equal(panels.length, 2);
-  assert.deepEqual(collect(panels[0], (n) => (n.tagName === 'H2' ? n.textContent : undefined)), ['Cross Club League']);
-  // The season is named in the panel, not left implicit: with more than one
-  // season in the world, the league name alone does not say which one this is.
-  assert.deepEqual(textsIn(panels[0], 'panel-season'), ['Fall 2026']);
-  assert.deepEqual(textsIn(panels[1], 'panel-season'), ['Summer 2026']);
+  const select = selectsIn(app.el('now-select-host'))[0];
+  assert.ok(select, 'no picker was built');
+  const values = optionValues(select);
+  assert.deepEqual(values, [
+    'travel/2026-fall/?d=aaaa1111',
+    'travel/2026-fall/?d=bbbb2222',
+    'local/2026-summer/?d=cccc3333',
+  ]);
 });
 
-// The case the old layout could not express. Two hard-coded league panels
-// asserted both leagues are always in season; the first time that stopped being
-// true it left a heading over an empty picker.
-test('a league between seasons is left out of Now rather than shown empty', () => {
+// Season is the grouping, not league. Two leagues live on differently-named
+// seasons is the normal state, and it is the case that needs the optgroups.
+test('optgroups appear per season when more than one is live', () => {
+  const app = runHome(BOTH_LIVE);
+  const html = selectsIn(app.el('now-select-host'))[0].innerHTML;
+  assert.equal((html.match(/<optgroup/g) || []).length, 2);
+  assert.ok(html.includes('label="Fall 2026"'));
+  assert.ok(html.includes('label="Summer 2026"'));
+});
+
+// A single group heading repeats what the panel head already says — the same
+// rule the Division selector on every dashboard follows.
+test('a lone live season needs no optgroup', () => {
   const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
   const local = catalog.leagues.find((league) => league.key === 'local');
   local.current = null;
   local.seasons[0].status = 'archived';
 
   const app = runHome(catalog);
-  const panels = app.el('now-panels').children;
-  assert.equal(panels.length, 1);
-  assert.deepEqual(collect(panels[0], (n) => (n.tagName === 'H2' ? n.textContent : undefined)), ['Cross Club League']);
-  assert.equal(app.el('now-empty').hidden, true, 'a tier with one live league is not empty');
+  const select = selectsIn(app.el('now-select-host'))[0];
+  assert.ok(!select.innerHTML.includes('<optgroup'), 'grouped a single season under a heading');
+  assert.equal(app.el('now-season').textContent, 'Fall 2026 · 2 divisions');
+  // And the league that is between seasons contributes nothing rather than
+  // appearing as a heading over an empty picker.
+  assert.deepEqual(optionValues(select), ['travel/2026-fall/?d=aaaa1111', 'travel/2026-fall/?d=bbbb2222']);
+});
+
+test('the panel head counts seasons and divisions when several are live', () => {
+  const app = runHome(BOTH_LIVE);
+  assert.equal(app.el('now-season').textContent, '2 seasons · 3 divisions');
 });
 
 test('both leagues between seasons reads as a lull, not a fault', () => {
@@ -175,32 +210,29 @@ test('both leagues between seasons reads as a lull, not a fault', () => {
   });
 
   const app = runHome(catalog);
-  assert.equal(app.el('now-panels').children.length, 0);
+  assert.equal(selectsIn(app.el('now-select-host')).length, 0);
   assert.equal(app.el('now-empty').hidden, false);
-  assert.equal(app.el('now-head').hidden, true, 'a "Now playing" heading over nothing');
+  assert.equal(app.el('now-season').textContent, '');
 });
 
-test('the division options carry the path to go to, season included', () => {
+test('a travel option is a bare bracket and a local one names its club', () => {
   const app = runHome(BOTH_LIVE);
-  const select = selectsIn(app.el('now-panels'))[0];
-  assert.match(select.innerHTML, /value="travel\/2026-fall\/\?d=aaaa1111"/);
-  // Travel divisions get the league's own bracket formatting; a local division
-  // is meaningless without its club, since several clubs run a "3.5 - 4.0".
-  const localSelect = selectsIn(app.el('now-panels'))[1];
-  assert.match(localSelect.innerHTML, /Bounce - Philly — 3\.5 - 4\.0/);
+  const html = selectsIn(app.el('now-select-host'))[0].innerHTML;
+  assert.match(html, />Mens 4\.5</);
+  assert.match(html, /Bounce - Philly — 3\.5 - 4\.0/);
 });
 
 test('choosing a division navigates to it', () => {
   const app = runHome(BOTH_LIVE);
-  const select = selectsIn(app.el('now-panels'))[0];
+  const select = selectsIn(app.el('now-select-host'))[0];
   select.value = 'travel/2026-fall/?d=bbbb2222';
   select.listeners.change.forEach((fn) => fn());
   assert.deepEqual(app.navigated, ['travel/2026-fall/?d=bbbb2222']);
 });
 
-// --- The archive card on the landing page ----------------------------------
+// --- The archive box on the landing page -----------------------------------
 
-test('the archive card is hidden until a season has finished', () => {
+test('the archive box is hidden until a season has finished', () => {
   const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
   catalog.leagues[0].seasons = catalog.leagues[0].seasons.filter((entry) => entry.status === 'current');
   const app = runHome(catalog);
@@ -208,83 +240,148 @@ test('the archive card is hidden until a season has finished', () => {
   assert.equal(app.el('archive-panel').hidden, true);
 });
 
-test('the archive card says what is behind the link', () => {
+test('the archive box counts what is behind the link and names the seasons', () => {
   const app = runHome(BOTH_LIVE);
   assert.equal(app.el('archive-panel').hidden, false);
-  assert.match(app.el('archive-summary').textContent, /One finished season — Spring 2026/);
+  assert.equal(app.el('archive-summary').textContent, '1 finished season · 1 division');
+  assert.deepEqual(
+    textsIn(app.el('archive-list'), 'archive-list-season'),
+    ['Spring 2026'],
+  );
+  assert.deepEqual(
+    textsIn(app.el('archive-list'), 'archive-list-meta'),
+    ['Cross Club League'],
+  );
 });
 
-test('more than one archived season is counted rather than listed', () => {
+test('a season both leagues played is listed once, naming both', () => {
   const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
-  catalog.leagues[0].seasons.push(
-    season('2025-fall', 'Fall 2025', 'archived', [{ slug: 'eeee5555', divisionName: '3.5' }]),
+  catalog.leagues[1].seasons.push(
+    season('2026-spring', 'Spring 2026', 'archived', [{ slug: 'ffff6666', divisionName: '3.0', clubName: 'Flemington' }]),
   );
   const app = runHome(catalog);
-  assert.match(app.el('archive-summary').textContent, /^2 finished seasons/);
+  assert.deepEqual(textsIn(app.el('archive-list'), 'archive-list-season'), ['Spring 2026']);
+  assert.deepEqual(
+    textsIn(app.el('archive-list'), 'archive-list-meta'),
+    ['Cross Club League, Local Leagues'],
+  );
+  assert.equal(app.el('archive-summary').textContent, '1 finished season · 2 divisions');
 });
 
 // --- The archive page ------------------------------------------------------
 
 const ARCHIVE_IDS = ['archive-host', 'archive-empty'];
 
-function runArchive(catalog) {
-  return runPage(path.join(CPL, 'archive', 'archive.js'), { catalog, ids: ARCHIVE_IDS });
+const ARCHIVE_ROWS = {
+  rows: [
+    {
+      season: '2026-spring',
+      seasonLabel: 'Spring 2026',
+      league: 'travel',
+      slug: 'dddd4444',
+      division: '4.5',
+      teams: 12,
+      matches: 65,
+      basis: 'playoffs',
+      thirdFromStandings: false,
+      places: ['Alpha', 'Bravo', 'Charlie'],
+    },
+    {
+      season: '2026-spring',
+      seasonLabel: 'Spring 2026',
+      league: 'travel',
+      slug: 'eeee5555',
+      division: '3.5',
+      teams: 10,
+      matches: 55,
+      basis: 'playoffs',
+      thirdFromStandings: true,
+      places: ['Delta', 'Echo', 'Foxtrot'],
+    },
+    {
+      season: '2025-fall',
+      seasonLabel: 'Fall 2025',
+      league: 'local',
+      slug: 'ffff6666',
+      division: '3.0',
+      clubName: 'Flemington',
+      teams: 6,
+      matches: 30,
+      basis: 'standings',
+      thirdFromStandings: true,
+      places: ['Golf', 'Hotel'],
+    },
+  ],
+};
+
+function runArchive(archive) {
+  const app = runPage(path.join(CPL, 'archive', 'archive.js'), { ids: ARCHIVE_IDS, archive });
+  return app;
 }
 
-test('the archive lists finished seasons and nothing current', () => {
-  const app = runArchive(BOTH_LIVE);
+test('the archive groups rows into a table per season, newest first', () => {
+  const app = runArchive(ARCHIVE_ROWS);
   const blocks = app.el('archive-host').children;
-  assert.equal(blocks.length, 1);
-  assert.deepEqual(textsIn(blocks[0], 'tier-head'), ['Spring 2026']);
+  assert.equal(blocks.length, 2);
+  assert.match(blocks[0].innerHTML, /Spring 2026/);
+  assert.match(blocks[0].innerHTML, /2 divisions/);
+  assert.match(blocks[1].innerHTML, /Fall 2025/);
+  assert.match(blocks[1].innerHTML, /1 division/);
 });
 
-// Grouping by season rather than by league is what makes this page read as a
-// history: a season is one thing that happened, even when two leagues played it.
-test('a season both leagues played is one block with a panel each', () => {
-  const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
-  catalog.leagues[1].seasons.push(
-    season('2026-spring', 'Spring 2026', 'archived', [{ slug: 'ffff6666', divisionName: '3.0', clubName: 'Flemington' }]),
-  );
-  const app = runArchive(catalog);
-  const blocks = app.el('archive-host').children;
-  assert.equal(blocks.length, 1, 'one season split into two blocks');
-  assert.equal(selectsIn(blocks[0]).length, 2, 'one picker per league that played it');
-  assert.deepEqual(textsIn(blocks[0], 'tier-sub'), ['2 divisions']);
+test('every podium place gets its medal', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const html = app.el('archive-host').children[0].innerHTML;
+  ['🥇', '🥈', '🥉'].forEach((medal) => assert.ok(html.includes(medal), 'missing ' + medal));
+  assert.ok(html.includes('Alpha') && html.includes('Bravo') && html.includes('Charlie'));
 });
 
-test('seasons run newest first', () => {
-  const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
-  catalog.leagues[0].seasons.push(
-    season('2025-fall', 'Fall 2025', 'archived', [{ slug: 'eeee5555', divisionName: '3.5' }]),
-  );
-  const app = runArchive(catalog);
-  assert.deepEqual(
-    app.el('archive-host').children.flatMap((block) => textsIn(block, 'tier-head')),
-    ['Spring 2026', 'Fall 2025'],
-  );
+// Both kinds of row sit in this table at once, and "first place" means two
+// different things between them, so each row says which it is.
+test('a row states whether playoffs or the regular season decided it', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const html = htmlOf(app.el('archive-host'));
+  assert.ok(html.includes('>Playoffs<'), 'no playoff tag');
+  assert.ok(html.includes('>Regular season<'), 'no regular-season tag');
 });
 
-// The page sits one directory inside /cpl/, and the option values are paths
-// relative to /cpl/ itself — so they need a ../ that the landing page does not.
-test('archive links climb out of /cpl/archive/ before naming a league', () => {
-  const app = runArchive(BOTH_LIVE);
-  const select = selectsIn(app.el('archive-host'))[0];
-  assert.match(select.innerHTML, /value="\.\.\/travel\/2026-spring\/\?d=dddd4444"/);
+// Third place with no match behind it is a tiebreak, not a result.
+test('a third place nobody played for is marked, and one that was is not', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const rowsHtml = app.el('archive-host').children[0].innerHTML.split('<tr>');
+  const played = rowsHtml.find((chunk) => chunk.includes('Charlie'));
+  const tiebroken = rowsHtml.find((chunk) => chunk.includes('Foxtrot'));
+  assert.ok(!played.includes('by standings'), 'a bronze that was played for was marked as a tiebreak');
+  assert.ok(tiebroken.includes('by standings'), 'an unplayed bronze was presented as a result');
+});
+
+// A bracket that stopped early, or a division too small to have three teams.
+test('a place nobody filled is a dash rather than an empty cell', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  assert.match(app.el('archive-host').children[1].innerHTML, /arch-none/);
+});
+
+test('a division links to its own frozen dashboard, two directories up', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  const html = htmlOf(app.el('archive-host'));
+  assert.match(html, /href="\.\.\/travel\/2026-spring\/\?d=dddd4444"/);
+  assert.match(html, /href="\.\.\/local\/2025-fall\/\?d=ffff6666"/);
+});
+
+test('a local division names its club beside the bracket', () => {
+  const app = runArchive(ARCHIVE_ROWS);
+  assert.match(app.el('archive-host').children[1].innerHTML, /Flemington/);
 });
 
 test('an archive with nothing in it says so', () => {
-  const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
-  catalog.leagues.forEach((league) => {
-    league.seasons = league.seasons.filter((entry) => entry.status === 'current');
-  });
-  const app = runArchive(catalog);
+  const app = runArchive({ rows: [] });
   assert.equal(app.el('archive-host').children.length, 0);
   assert.equal(app.el('archive-empty').hidden, false);
 });
 
-// catalog.js is a separate file with its own cache entry, so it can be the one
-// thing that fails to load. Both pages have to say so rather than sit blank.
-test('a missing catalog leaves the archive page saying so, not empty', () => {
-  const app = runArchive(null);
+// data.js is a separate file with its own cache entry, so it can be the one
+// thing that fails to load. The page has to say so rather than sit blank.
+test('a missing archive dataset leaves the page saying so, not empty', () => {
+  const app = runArchive(undefined);
   assert.equal(app.el('archive-empty').hidden, false);
 });

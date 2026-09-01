@@ -9,6 +9,7 @@ window.CPL_CATALOG = {
      "slug": "2026-fall",
      "label": "Fall 2026",
      "status": "current",
+     "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [
       {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-08-31T20:16:02.785Z"},
@@ -27,6 +28,7 @@ window.CPL_CATALOG = {
      "slug": "2026-spring",
      "label": "Spring 2026",
      "status": "archived",
+     "order": 20261,
      "landingSlug": "e439985f",
      "divisions": [
       {"slug":"e439985f","divisionName":"3.0","asOf":"2026-08-31T20:21:14.452Z"},
@@ -43,12 +45,13 @@ window.CPL_CATALOG = {
   {
    "key": "local",
    "label": "Local Leagues",
-   "current": "2026-summer",
+   "current": null,
    "seasons": [
     {
      "slug": "2026-summer",
      "label": "Summer 2026",
-     "status": "current",
+     "status": "archived",
+     "order": 20262,
      "landingSlug": "3e9b6a58",
      "divisions": [
       {"slug":"d4ef2f74","divisionName":"3.75 & Over","clubName":"Ace - Moorestown / Voorhees","asOf":"2026-08-31T20:15:06.944Z"},

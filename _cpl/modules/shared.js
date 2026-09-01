@@ -637,6 +637,54 @@
   // season-less /cpl/<league>/?d=<slug>, which the league's redirect stub
   // resolves to the right season. So the season being missing costs one extra
   // hop, not a broken link.
+  // The catalog, regrouped by season instead of by league: one entry per season
+  // slug, each listing the leagues that played it.
+  //
+  // Season is the axis both /cpl/ and /cpl/archive/ organize by now. League is
+  // not: the two leagues run their own calendars, so "which league" answers a
+  // question nobody asks first, while "what is being played" and "what has
+  // finished" are the two things a reader arrives wanting.
+  //
+  // Ordering is newest first, by the numeric `order` the compiler stamps on each
+  // season. That stamp exists because nothing here can derive one: slugs read
+  // <year>-<name>, so sorting them as strings puts Summer 2026 above Fall 2026.
+  // A catalog cached from before the stamp falls back to the slug, which is
+  // right across years and only wrong between seasons of the same one.
+  function seasonsInPlay(status) {
+    const groups = new Map();
+    catalogLeagues().forEach((league) => {
+      let rank = 0;
+      league.seasons.forEach((season) => {
+        if (!Array.isArray(season.divisions) || !season.divisions.length) return;
+        const matches = status === 'current'
+          ? season.status === 'current'
+          : season.status !== 'current';
+        if (!matches) {
+          rank += 1;
+          return;
+        }
+        if (!groups.has(season.slug)) {
+          groups.set(season.slug, {
+            slug: season.slug,
+            label: season.label,
+            order: Number(season.order) || 0,
+            rank,
+            entries: [],
+          });
+        }
+        const group = groups.get(season.slug);
+        group.rank = Math.min(group.rank, rank);
+        group.entries.push({ key: league.key, label: league.label, season });
+        rank += 1;
+      });
+    });
+    return [...groups.values()].sort((a, b) => {
+      if (a.order !== b.order) return b.order - a.order;
+      if (a.rank !== b.rank) return a.rank - b.rank;
+      return b.slug.localeCompare(a.slug);
+    });
+  }
+
   // How a division reads in a picker. Travel divisions are a bare bracket
   // ("3.5", "4.5 Mens") and get the league's own formatting; a local division is
   // meaningless without its club, since five clubs run a "3.25 - 3.99".
@@ -646,24 +694,33 @@
       : `${division.clubName || ''} — ${division.divisionName}`;
   }
 
-  // The <option> markup for one season's divisions, value-carrying the path to
-  // go to. Building the path into the value is what lets one picker hold
-  // divisions from more than one season without its change handler having to
-  // work out which season each option came from — which is exactly what the
-  // archive page needs.
+  // The path from /cpl/ to one division's dashboard. `base` is the path from the
+  // calling page back to /cpl/: '' from the landing page, '../' from a page one
+  // directory in.
+  function divisionHref(leagueKey, seasonSlug, divisionSlug, base = '') {
+    return `${base}${leagueKey}/${seasonSlug}/?d=${encodeURIComponent(divisionSlug)}`;
+  }
+
+  // One <option>, value-carrying the path to go to. Building the path into the
+  // value is what lets a single picker hold divisions from more than one season
+  // *and* more than one league without its change handler having to work out
+  // which of either an option came from — which is what the landing page's one
+  // picker needs, now that it groups by season across both leagues.
+  function divisionOptionHtml(leagueKey, seasonSlug, division, base = '') {
+    const href = divisionHref(leagueKey, seasonSlug, division.slug, base);
+    return `<option value="${escapeHtml(href)}">${escapeHtml(divisionOptionLabel(leagueKey, division))}</option>`;
+  }
+
+  // The <option> markup for one season's divisions.
   //
   // Divisions are used in catalog order (see sortDivisionsForLeague) and not
   // re-sorted here. The landing page used to sort them again with a subtly
   // different comparator, so it and the dashboards disagreed about which
   // division came first.
-  //
-  // `base` is the path from the calling page to /cpl/: '' from the landing page,
-  // '../' from a page one directory in.
   function divisionOptionsHtml(leagueKey, season, { base = '', placeholder = 'Select a division…' } = {}) {
-    const options = season.divisions.map((division) => {
-      const href = `${base}${leagueKey}/${season.slug}/?d=${encodeURIComponent(division.slug)}`;
-      return `<option value="${escapeHtml(href)}">${escapeHtml(divisionOptionLabel(leagueKey, division))}</option>`;
-    }).join('');
+    const options = season.divisions
+      .map((division) => divisionOptionHtml(leagueKey, season.slug, division, base))
+      .join('');
     return `<option value="" disabled selected>${escapeHtml(placeholder)}</option>${options}`;
   }
 
@@ -681,9 +738,12 @@
     catalogLeagues,
     catalogSeason,
     catalogSeasons,
+    divisionHref,
+    divisionOptionHtml,
     divisionOptionLabel,
     divisionOptionsHtml,
     divisionPath,
+    seasonsInPlay,
     getCatalog,
     decodeHtmlEntities,
     displayPodGroups,

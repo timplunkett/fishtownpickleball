@@ -12,12 +12,6 @@ window.DUPR_AUDIT = {
    "min": 4,
    "max": null
   },
-  "3e9b6a58": {
-   "division": "Bounce - Philly • 3.5 - 4.0",
-   "league": "local",
-   "min": 3.5,
-   "max": 4
-  },
   "6619816f": {
    "division": "4.5",
    "league": "travel",
@@ -30,29 +24,11 @@ window.DUPR_AUDIT = {
    "min": 4,
    "max": 4.5
   },
-  "a40bd7e8": {
-   "division": "Bounce - Malvern • 3.5 - 4.0",
-   "league": "local",
-   "min": 3.5,
-   "max": 4
-  },
-  "a85172dd": {
-   "division": "Robbinsville Pickle House • 4.0 - 4.99",
-   "league": "local",
-   "min": 4,
-   "max": 4.99
-  },
   "ad44e3bd": {
    "division": "3.25 Womens",
    "league": "travel",
    "min": 3.25,
    "max": 3.75
-  },
-  "b07de80e": {
-   "division": "Bounce - Malvern • 4.0 - 4.5",
-   "league": "local",
-   "min": 4,
-   "max": 4.5
   },
   "b7ca04e4": {
    "division": "3.5",
@@ -60,23 +36,11 @@ window.DUPR_AUDIT = {
    "min": 3.5,
    "max": 4
   },
-  "b9b8230d": {
-   "division": "Flemington • 3.25 & Under",
-   "league": "local",
-   "min": 2,
-   "max": 3.25
-  },
   "c118b8e9": {
    "division": "3.75 Mens",
    "league": "travel",
    "min": 3.75,
    "max": 4.25
-  },
-  "c1b3f9c1": {
-   "division": "Robbinsville Pickle House • 3.25 - 3.99",
-   "league": "local",
-   "min": 3.25,
-   "max": 3.99
   },
   "c43b8608": {
    "division": "3.5 (50+)",
@@ -84,22 +48,10 @@ window.DUPR_AUDIT = {
    "min": 3.5,
    "max": 4
   },
-  "c9a2c0fe": {
-   "division": "Ace - Moorestown / Voorhees • 3.75 & Under",
-   "league": "local",
-   "min": 2,
-   "max": 3.75
-  },
   "cca69ab9": {
    "division": "4.5 Mens",
    "league": "travel",
    "min": 4.5,
-   "max": null
-  },
-  "d4ef2f74": {
-   "division": "Ace - Moorestown / Voorhees • 3.75 & Over",
-   "league": "local",
-   "min": 3.75,
    "max": null
   },
   "e27386b3": {
@@ -107,30 +59,6 @@ window.DUPR_AUDIT = {
    "league": "travel",
    "min": 3,
    "max": 3.5
-  },
-  "e6a9b403": {
-   "division": "Dill Dinkers - Chantilly • 3.25 - 3.99",
-   "league": "local",
-   "min": 3.25,
-   "max": 3.99
-  },
-  "eaa4c1dc": {
-   "division": "Flemington • 4.0 & Over",
-   "league": "local",
-   "min": 4,
-   "max": null
-  },
-  "edb788e6": {
-   "division": "Flemington • 3.25 - 3.99",
-   "league": "local",
-   "min": 3.25,
-   "max": 3.99
-  },
-  "fb4a73a2": {
-   "division": "Dill Dinkers - Hatboro • 3.25 - 3.75",
-   "league": "local",
-   "min": 3.25,
-   "max": 3.75
   }
  },
  "rows": [
@@ -153,13 +81,6 @@ window.DUPR_AUDIT = {
    "playerId": "57666861-23d0-4809-9556-b646579f2fd6",
    "team": "Pickleball Kingdom Hamilton",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Aaron Chan",
-   "playerId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -219,13 +140,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Abhishekh Mehra",
-   "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Abigail Barger",
    "playerId": "203ec7c4-064b-4530-b2ee-2ff9decdf406",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -275,20 +189,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Adam Lowther",
-   "playerId": "fc25c569-51b2-46a9-9dde-88cf56493e62",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
-   "name": "Adam Shaw",
-   "playerId": "3d20f9f4-9428-430e-bb21-0c710b896c03",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Adam Weinstock",
    "playerId": "8ced9183-490f-465f-8683-62071a6d706d",
    "team": "Dill Dinkers Freehold",
@@ -310,13 +210,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Addison Stewart",
-   "playerId": "bde51a59-4c56-4d7a-a0e3-a9041baf8583",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Adele Hackney",
    "playerId": "c1e41980-e98d-4208-aa10-dc04e407cf8f",
    "team": "Dill Dinkers Hatboro",
@@ -328,13 +221,6 @@ window.DUPR_AUDIT = {
    "playerId": "c1e41980-e98d-4208-aa10-dc04e407cf8f",
    "team": "Dill Dinkers Hatboro",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Adele Hackney",
-   "playerId": "c1e41980-e98d-4208-aa10-dc04e407cf8f",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -394,13 +280,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Aiden Murphy",
-   "playerId": "4d1c7d39-8ef1-47b7-b13a-5464c509380e",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Aimee Castellano",
    "playerId": "e76985fb-efd1-4180-a340-e4f36abbc8b4",
    "team": "Flemington Green",
@@ -420,20 +299,6 @@ window.DUPR_AUDIT = {
    "team": "Flemington",
    "slug": "6619816f",
    "gender": "Female"
-  },
-  {
-   "name": "Aimee Castellano",
-   "playerId": "e76985fb-efd1-4180-a340-e4f36abbc8b4",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
-   "name": "Aj Donnelly",
-   "playerId": "f7291419-bff5-4195-9c1e-78bad893b11d",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
   },
   {
    "name": "Al Chen",
@@ -457,13 +322,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Al Mancini",
-   "playerId": "51352d99-02ac-4299-abac-a688bfade22f",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Alain Hwang",
    "playerId": "74202229-7c29-44eb-9574-de687495a1a6",
    "team": "Picklr Newark",
@@ -482,13 +340,6 @@ window.DUPR_AUDIT = {
    "playerId": "16fc789d-f84a-487b-98f0-ed9db5478bb7",
    "team": "Pickle House",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Alan Liang",
-   "playerId": "16fc789d-f84a-487b-98f0-ed9db5478bb7",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -539,13 +390,6 @@ window.DUPR_AUDIT = {
    "team": "Monroe",
    "slug": "cca69ab9",
    "gender": "Male"
-  },
-  {
-   "name": "Alessandra Cheretis",
-   "playerId": "5877a228-677f-4fb6-a0e5-6818054da219",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Female"
   },
   {
    "name": "Alessio Muscara",
@@ -604,13 +448,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Alex Kustas",
-   "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Alex Lawrason",
    "playerId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
    "team": "Flemington",
@@ -651,13 +488,6 @@ window.DUPR_AUDIT = {
    "team": "Picklr Newtown",
    "slug": "cca69ab9",
    "gender": "Male"
-  },
-  {
-   "name": "Alex Pond",
-   "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Female"
   },
   {
    "name": "Alex Sanchez",
@@ -730,20 +560,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Alexandria Mlkvy",
-   "playerId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
-   "name": "Alexey Kudymov",
-   "playerId": "25db4299-16c8-47b6-84d5-bcf3bafba874",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Alexis Kerven",
    "playerId": "a2b836f4-8bfa-4baf-b01a-e342f5947c04",
    "team": "Pickleball Palace",
@@ -769,13 +585,6 @@ window.DUPR_AUDIT = {
    "playerId": "ca6af12a-17d5-44b7-a137-49789e9eac2c",
    "team": "Premiere",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Alfredo Arcila",
-   "playerId": "d1b04ef0-0baa-4055-b2d2-24211daa4ce6",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -828,13 +637,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Alicia Campbell",
-   "playerId": "4052933b-54a7-407d-97df-697a796cf798",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Alicia Maguire",
    "playerId": "36927aca-827a-4408-ab82-9dc0d06e2c8d",
    "team": "Pickle Place",
@@ -884,13 +686,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Allison Cavicchio",
-   "playerId": "79f8f03e-72ee-4c5e-a4d4-cd1c381fb302",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Allison Harmony",
    "playerId": "5b98410e-1f1f-4143-ab72-c7d8a53e5309",
    "team": "Pickleball Palace",
@@ -902,13 +697,6 @@ window.DUPR_AUDIT = {
    "playerId": "a6b783cc-7aeb-476e-adcc-da306772071c",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Allison Hartman",
-   "playerId": "a6b783cc-7aeb-476e-adcc-da306772071c",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -1024,13 +812,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Amanda Mcalister",
-   "playerId": "9aa220fa-3161-4faa-ac70-8dfaf3ac3192",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Amanda Nguyen",
    "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
    "team": "Pickleball HQ",
@@ -1080,13 +861,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Amy Brown",
-   "playerId": "f837b726-d8f1-4a80-a687-b170c415b752",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Amy Chrebet",
    "playerId": "6f511e98-567a-4b33-8831-ed123f01f952",
    "team": "Jersey Pickleball Club",
@@ -1108,13 +882,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Amy Johnson",
-   "playerId": "74e493de-dca7-4bf2-b9ac-630484282502",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Amy Ly",
    "playerId": "4713d707-405c-4342-be20-dc4e2b47b544",
    "team": "Bounce Tempest",
@@ -1129,13 +896,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Amy Maussner",
-   "playerId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Amy Moore",
    "playerId": "c037ad35-3550-447f-af7f-f62674d0c1ac",
    "team": "Jersey Devil",
@@ -1147,13 +907,6 @@ window.DUPR_AUDIT = {
    "playerId": "5691a68e-0367-4af2-b318-4e927e00d4d6",
    "team": "ACE Moorestown",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Amy Neckes",
-   "playerId": "5691a68e-0367-4af2-b318-4e927e00d4d6",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -1213,13 +966,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Andrea Galanti",
-   "playerId": "cd5e243a-d109-4637-8372-9330696a943d",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Andrea Popovich",
    "playerId": "bb972ecf-d484-48e5-a77c-1a7389abe438",
    "team": "Home Court",
@@ -1231,13 +977,6 @@ window.DUPR_AUDIT = {
    "playerId": "605d7726-f903-4606-ad3d-14964b9e2e1b",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Andrea Schwab",
-   "playerId": "605d7726-f903-4606-ad3d-14964b9e2e1b",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -1283,24 +1022,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Andrew Bush",
-   "playerId": "e8598b52-28b9-41b0-9485-42efee80b3f3",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Andrew Chester",
    "playerId": "83237821-4e2a-4f60-8fea-4be6655d52da",
    "team": "Picklr Fair Lawn",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Andrew Cho",
-   "playerId": "51ed4464-321f-4720-bd77-10936d1aed4f",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -1346,24 +1071,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Andrew Klein",
-   "playerId": "0deaa94b-f2e7-4a54-8ce6-69ed32b6d280",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Andrew Martin",
    "playerId": "e8b51e9c-3814-42e1-8413-2c1734514ea1",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Andrew Martin",
-   "playerId": "e8b51e9c-3814-42e1-8413-2c1734514ea1",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -1395,24 +1106,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Andrew Neave",
-   "playerId": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Andrew Pohlmann",
    "playerId": "b676efe0-5294-4ebe-ae21-989f42b33ebc",
    "team": "Dill Dinkers Lansdale",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Andrew Ravitz",
-   "playerId": "496b210d-4480-41e9-993e-06fad50d6ebf",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -1465,13 +1162,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Andy Lubel",
-   "playerId": "87951d6a-8a06-4b33-ad48-de907424033d",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Andy Pineda",
    "playerId": "bb6c579d-1627-4971-ad0f-4be65598d579",
    "team": "Home Court",
@@ -1493,13 +1183,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Andy Ro",
-   "playerId": "f3f6addc-ea42-4e7b-ac54-67bf69cffeeb",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Andy Wang",
    "playerId": "fffb21b3-56be-473d-91d7-8f750b599343",
    "team": "LBF Pickleball",
@@ -1511,13 +1194,6 @@ window.DUPR_AUDIT = {
    "playerId": "156cabc5-a5d7-4235-8aa2-a5503557e479",
    "team": "Dill Dinkers Newport",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Ange Bradley",
-   "playerId": "0ea06752-4e43-4708-8d85-b0499137f61e",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -1549,13 +1225,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Angela Luo",
-   "playerId": "0cb538a5-0d5d-47a7-b854-38394ac9652f",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Angela Salemmo",
    "playerId": "1c4c9ff1-1050-48c3-b278-3a5afbf51a7c",
    "team": "Premiere Dinkers",
@@ -1570,24 +1239,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Angelina Mogielnicki",
-   "playerId": "7ea83077-4e5c-4394-a1e1-d28c0607b925",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Angelique Gallucci",
    "playerId": "bdf67f01-a772-481e-976a-0c44364c6f34",
    "team": "Pickle House",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Angelique Gallucci",
-   "playerId": "bdf67f01-a772-481e-976a-0c44364c6f34",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -1626,13 +1281,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Anil Rajpal",
-   "playerId": "37323b1c-a567-46f2-9a10-8941d923697e",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Anita Buggins",
    "playerId": "2ea90a18-1ef3-4ade-a855-2a3fd178abd7",
    "team": "ACE Moorestown",
@@ -1654,13 +1302,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Anna Arcaro",
-   "playerId": "c0c21535-f157-4c5c-9c5d-d3a66ed4b10b",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Anne Buckley",
    "playerId": "07881006-c083-4729-8424-410aeee08940",
    "team": "Pickleball Palace",
@@ -1672,13 +1313,6 @@ window.DUPR_AUDIT = {
    "playerId": "07881006-c083-4729-8424-410aeee08940",
    "team": "Pickleball Palace Black",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Anne Nagy",
-   "playerId": "1409e96b-d1b0-4f35-9460-c86706b36706",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -1710,13 +1344,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Anshika Dubey",
-   "playerId": "d47013f4-fd4d-4294-8366-e6a432a13856",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Anshul Sahu",
    "playerId": "d656c46a-7cee-458b-9bc7-0ae1c4becc20",
    "team": "Pickleball Kingdom Watchung",
@@ -1738,13 +1365,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Anthony Deangelis",
-   "playerId": "4b9f7f7b-5027-482c-93aa-66ca594436db",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Anthony Fallet",
    "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
    "team": "Flemington Green",
@@ -1756,20 +1376,6 @@ window.DUPR_AUDIT = {
    "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
    "team": "Flemington",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Anthony Fallet",
-   "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
-   "name": "Anthony Fallet",
-   "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -1808,13 +1414,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Anthony Prusich",
-   "playerId": "41cd934f-66b0-4f22-b2e1-74955db922ce",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Anthony Simonetti",
    "playerId": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
    "team": "Jersey Pickleball Club",
@@ -1833,20 +1432,6 @@ window.DUPR_AUDIT = {
    "playerId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
    "team": "Jersey Devil Green",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Anthony Solares",
-   "playerId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Anthony Strazzeri",
-   "playerId": "2e9710c7-96c5-4bf8-a304-7d7b1968eb90",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -1920,25 +1505,11 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Apparao Avancha",
-   "playerId": "d84632f4-bec0-4399-8b04-64c6ea340362",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Aradhna Saxena",
    "playerId": "68e4e990-d8cf-4d28-8491-54d7ce2c4e87",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
    "gender": "Female"
-  },
-  {
-   "name": "Aran Moultrop",
-   "playerId": "510ab3e1-ed6c-4ea3-b0d3-5e8027854fed",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
   },
   {
    "name": "Ariana Rizvani",
@@ -1969,13 +1540,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Armando Lugo",
-   "playerId": "b19e749a-26c5-4240-9f43-35559a12683f",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Arnaldo Pacheco",
    "playerId": "7546dac7-6513-4003-8a89-a7d3e10f804b",
    "team": "Pickleball Palace",
@@ -2001,13 +1565,6 @@ window.DUPR_AUDIT = {
    "playerId": "6bfc3a49-53cb-4c03-b8cb-94552158ccbe",
    "team": "Flemington Blue",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Art Muth",
-   "playerId": "6bfc3a49-53cb-4c03-b8cb-94552158ccbe",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -2109,13 +1666,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ashwin Suresh",
-   "playerId": "18d28c3d-a2d1-41fb-ae59-099684d673db",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Audrey Brisson",
    "playerId": "1bec31ec-6396-4b0a-826c-831ae5df347e",
    "team": "Jersey Devil",
@@ -2128,20 +1678,6 @@ window.DUPR_AUDIT = {
    "team": "Monroe",
    "slug": "1e12eb3f",
    "gender": "Female"
-  },
-  {
-   "name": "Auguste Turnier",
-   "playerId": "65b75e72-ecf8-42ee-8071-c6b58ad2738f",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
-   "name": "Aurelio Roca",
-   "playerId": "fc31d397-f6f9-4d0f-b374-9787bee299d1",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Male"
   },
   {
    "name": "Aurora Lewis",
@@ -2221,24 +1757,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Barb Flynn",
-   "playerId": "3bb1ba9d-c06d-4eea-9baa-37aad39428f3",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Barb Mulckhuyse",
    "playerId": "b4b69268-6029-4071-84b1-45535a570f3a",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Barb Mulckhuyse",
-   "playerId": "b4b69268-6029-4071-84b1-45535a570f3a",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -2256,24 +1778,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Barbara Hess",
-   "playerId": "21baa2cb-e882-442e-a5e0-a6d88126c9c3",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Barbara Markoglu",
    "playerId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5",
    "team": "Premiere Dinkers",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Barbara Taylor",
-   "playerId": "d9f9ce7b-1e95-4564-bc45-e395c44c8409",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -2319,27 +1827,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ben Cortes",
-   "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Ben Philip",
-   "playerId": "7b2a15bb-889c-4566-a201-1287ae3cad55",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
-   "name": "Ben Turchin",
-   "playerId": "aed3d38c-77cb-48fa-ac41-3ff4b3664978",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Ben Van Handel",
    "playerId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0",
    "team": "Ballers Philly",
@@ -2361,13 +1848,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Benji Berry",
-   "playerId": "ba2074e2-3e52-477b-a44e-54ce33392484",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Bennett Matthew’S",
    "playerId": "460d93c8-9936-43b5-b3ba-7328e174fb2b",
    "team": "Picklr Exton",
@@ -2375,24 +1855,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Bennett Matthew’S",
-   "playerId": "460d93c8-9936-43b5-b3ba-7328e174fb2b",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Bennett Pereira",
    "playerId": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
    "team": "Pickle House",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Bennett Pereira",
-   "playerId": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -2431,20 +1897,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Bianca Previdi",
-   "playerId": "815db0d4-3674-4cf2-bbf1-c3e7dcc938a2",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
-   "name": "Bianca Previdi",
-   "playerId": "815db0d4-3674-4cf2-bbf1-c3e7dcc938a2",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Big G",
    "playerId": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
    "team": "Dill Dinkers Freehold",
@@ -2452,24 +1904,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Biju Samuel",
-   "playerId": "4ac1d282-9162-4012-8e5f-14e9c9236f15",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Bill Brandt",
    "playerId": "dc530014-0e3b-4485-b265-8555bafe6e19",
    "team": "Flemington",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Bill Brandt",
-   "playerId": "dc530014-0e3b-4485-b265-8555bafe6e19",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -2498,13 +1936,6 @@ window.DUPR_AUDIT = {
    "playerId": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
    "team": "Pickleball Palace Blue",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Bill Mcgrory",
-   "playerId": "d1958142-fabc-4f26-8afc-2b9947c27f1b",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -2543,13 +1974,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Bin Lu",
-   "playerId": "74b0ebe9-a153-4396-be45-1bdd288cdadd",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Bing Leng",
    "playerId": "9334d28c-6aab-4669-9297-799876b8ca16",
    "team": "Montville Rocks",
@@ -2582,13 +2006,6 @@ window.DUPR_AUDIT = {
    "playerId": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Bob Castellano",
-   "playerId": "7bb24154-bd52-4081-a3e6-0b8afcde62d5",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -2627,13 +2044,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Bonny Mayerberg",
-   "playerId": "0e543890-4c91-45d2-bd5d-819dc476b245",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Brad Daddis",
    "playerId": "3b22e073-2c4b-4245-a142-29441ec509a3",
    "team": "ACE Moorestown",
@@ -2645,20 +2055,6 @@ window.DUPR_AUDIT = {
    "playerId": "0dcffbac-6931-400d-b652-41c2720e6311",
    "team": "Bounce Philly",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Brad De Jesus",
-   "playerId": "0dcffbac-6931-400d-b652-41c2720e6311",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
-   "name": "Brad Feldman",
-   "playerId": "e083314c-48dc-440e-8d42-ecf474296e38",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -2708,13 +2104,6 @@ window.DUPR_AUDIT = {
    "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a",
    "team": "Pickle House",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Brandon Calmo",
-   "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -2816,13 +2205,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Brenton Pham",
-   "playerId": "8302852a-f3d0-449f-a45f-efa2757b56e0",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Brett Kleger",
    "playerId": "5b11ac59-091a-46d3-beb5-2d65d5d77135",
    "team": "Bounce Malvern Boom",
@@ -2848,13 +2230,6 @@ window.DUPR_AUDIT = {
    "playerId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
    "team": "Pickle Juice Blackwood",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Brian Cook",
-   "playerId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -2914,13 +2289,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Brian Schreiber",
-   "playerId": "b49e35c9-e930-406b-8a82-1f68c3eb7272",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Brian Seligson",
    "playerId": "66cca19b-c691-4ee2-addb-f8344943103e",
    "team": "Pickleball Palace",
@@ -2939,13 +2307,6 @@ window.DUPR_AUDIT = {
    "playerId": "8fd0c63a-29f9-463e-baf6-fd48281231dc",
    "team": "PKLD",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Brianna Zenna",
-   "playerId": "9d4be34a-de39-4590-991b-65f92f947482",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -2977,20 +2338,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Brittany Jacobs",
-   "playerId": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
-   "name": "Brittany Jacobs",
-   "playerId": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Brittany Messing",
    "playerId": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
    "team": "Life Time Red Bank",
@@ -3019,13 +2366,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Brogan O'Connell",
-   "playerId": "b592a65c-858e-4bdd-9ea1-c23404ada7ff",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Brooke Obrien",
    "playerId": "06b66cca-2292-4bbe-962e-1217c4418e18",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -3047,13 +2387,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Bruce Nguyen",
-   "playerId": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Bruno Casino",
    "playerId": "d195dff9-7f38-402c-8164-44640f89c3fa",
    "team": "Bounce Philly",
@@ -3065,13 +2398,6 @@ window.DUPR_AUDIT = {
    "playerId": "116a8ef1-357a-4eda-a100-84896842bdb9",
    "team": "Pickleball Kingdom Watchung",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Bryan Askins",
-   "playerId": "462b6d53-75d1-4ff9-a438-58d6eaa4b17a",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -3096,24 +2422,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Butch Beri",
-   "playerId": "9b2bf118-0649-4328-816a-efaf11eef00b",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Butch Kreilick",
    "playerId": "f302c81f-4189-4e74-882c-6d8809e73152",
    "team": "Flemington",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Butch Kreilick",
-   "playerId": "f302c81f-4189-4e74-882c-6d8809e73152",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -3152,13 +2464,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Cait Kearney",
-   "playerId": "b104bb38-14f6-40b1-8666-faf327d5f415",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Caitlyn Suchanic",
    "playerId": "97a33ff9-4337-4782-8906-226561b07c72",
    "team": "Picklr Newark",
@@ -3170,13 +2475,6 @@ window.DUPR_AUDIT = {
    "playerId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Caity Rietzen",
-   "playerId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -3264,13 +2562,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Carlos Lichty",
-   "playerId": "5c5c0d00-e20c-456e-b53e-890845310916",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Carlos Rincon",
    "playerId": "9886815c-3bf4-42b1-b650-1ec17ff2c167",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -3327,24 +2618,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Carol Mastroianni",
-   "playerId": "7f851011-9322-43f9-aff2-754565a615c7",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Carolina Reese",
    "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Carolina Reese",
-   "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -3369,20 +2646,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Caroline Miller",
-   "playerId": "742d055d-10cf-4e3a-8cba-373b169bad38",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Caroline Mitchell",
-   "playerId": "9d510d8c-d719-4546-acb3-d5d42ce6457b",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Carolyn Antuna",
    "playerId": "5a372fd3-5bab-4d8a-b578-8c07491bf13e",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -3401,20 +2664,6 @@ window.DUPR_AUDIT = {
    "playerId": "a22b2393-4aae-4ee0-8e9c-7e3b386f9f0e",
    "team": "Dill Dinkers Hatboro",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Carolyn King",
-   "playerId": "a22b2393-4aae-4ee0-8e9c-7e3b386f9f0e",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
-   "name": "Carolyn Laroque",
-   "playerId": "1b62307b-ca04-485d-8788-bc54f446a638",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -3481,13 +2730,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Cathy Matko",
-   "playerId": "d4b1538b-bc04-4208-b52e-5a2bd5a452a4",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Cathy Mclaughlin",
    "playerId": "8f4f1a96-9e08-462d-8186-ce4d8389e894",
    "team": "Pickle Juice Blackwood",
@@ -3530,13 +2772,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Chanda Mccoy",
-   "playerId": "30cb78cb-f962-40f9-bd02-78d336920431",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Chanthorn Heng",
    "playerId": "58179b91-ed00-40f9-abf5-427ccfdcf4f3",
    "team": "Delco Turf & Pickle",
@@ -3569,13 +2804,6 @@ window.DUPR_AUDIT = {
    "playerId": "0b80a91d-626d-40b7-9cd9-e9ea96ec7e59",
    "team": "Flemington Blue",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Chaoxia Cheng",
-   "playerId": "0b80a91d-626d-40b7-9cd9-e9ea96ec7e59",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -3754,13 +2982,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Chris Damato",
-   "playerId": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Chris Fantin",
    "playerId": "715b131c-87a5-4887-9505-7fb780511902",
    "team": "Home Court",
@@ -3779,13 +3000,6 @@ window.DUPR_AUDIT = {
    "playerId": "99779531-e32b-47d5-b580-171a74844d91",
    "team": "Bounce Malvern",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Chris Fratinardo",
-   "playerId": "99779531-e32b-47d5-b580-171a74844d91",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -3821,13 +3035,6 @@ window.DUPR_AUDIT = {
    "playerId": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
    "team": "Bounce Malvern Boom",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Chris Norton",
-   "playerId": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -3873,13 +3080,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Christian Osborne",
-   "playerId": "74c7d469-a382-4768-aca9-2ea376436dcd",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Christina Grosso",
    "playerId": "58f5778e-4b34-41c6-9a8f-60f7f8a49769",
    "team": "Jersey Pickleball Club",
@@ -3908,13 +3108,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Christina Rothman-Iliff",
-   "playerId": "52221bc6-418a-45b2-9e92-5600b5a3040d",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Christina Samtmann",
    "playerId": "1c3b8ddb-6596-4a83-ac12-05bfbf4610ce",
    "team": "Forward",
@@ -3933,13 +3126,6 @@ window.DUPR_AUDIT = {
    "playerId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Christina Sheehan",
-   "playerId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -3971,13 +3157,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Christine Cardinal",
-   "playerId": "025d7701-550f-4828-9e24-d9718f998f22",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Christine Clark",
    "playerId": "e05ce193-53c0-4251-8a44-734c522f7a75",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -3992,24 +3171,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Christine Dugan",
-   "playerId": "213bd4a2-a13d-4540-b93e-69e1e9116ff8",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Christine Ferraez",
    "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
    "team": "Flemington Green",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Christine Ferraez",
-   "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -4027,24 +3192,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Christine Levesque",
-   "playerId": "e34d4b70-a0fc-4087-8386-98fb172aee4c",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Christine Papa",
    "playerId": "d156a552-7fa9-488e-9bfa-745feb859950",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Christine Papa",
-   "playerId": "d156a552-7fa9-488e-9bfa-745feb859950",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -4090,13 +3241,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Christine Ziegler",
-   "playerId": "63946930-2dca-489e-8158-028722c045f5",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Christopher Aiello",
    "playerId": "c9ff8d7f-0d8c-4b52-8b15-ae89d132542f",
    "team": "Stelton Sports",
@@ -4122,13 +3266,6 @@ window.DUPR_AUDIT = {
    "playerId": "95b52495-c8be-4ae8-9342-46890410ac7d",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Christopher Moscony",
-   "playerId": "f64241ba-e625-4065-b72f-777f5a8fb2bd",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -4174,13 +3311,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Christopher Venuto",
-   "playerId": "19d10737-b8cb-4106-9b6d-1c9aced87b19",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Christopher Yang",
    "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
    "team": "ACE Moorestown",
@@ -4188,24 +3318,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Christopher Yang",
-   "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Christy Beale",
    "playerId": "d034daeb-3fd8-4273-80f5-3a272ceab674",
    "team": "Bounce Malvern Boom",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Christy Beale",
-   "playerId": "d034daeb-3fd8-4273-80f5-3a272ceab674",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -4293,13 +3409,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Claire Nguyen",
-   "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Clare Cruz",
    "playerId": "f54b54e0-be28-4155-a198-e63fc2ed0912",
    "team": "Pickleball Palace Blue",
@@ -4311,13 +3420,6 @@ window.DUPR_AUDIT = {
    "playerId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9",
    "team": "Picklr Manahawkin",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Clarisse Espiritu",
-   "playerId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -4349,13 +3451,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Claudya Elefante",
-   "playerId": "c6a7f237-8e09-45e4-b34e-d179e46b61b1",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Clayton Schmucker",
    "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -4384,39 +3479,11 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Colette Mcgarrity",
-   "playerId": "8778e4e6-6736-4f1c-add3-123b68513cc6",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
-   "name": "Colin Hamilton",
-   "playerId": "c77aff78-c746-4adc-84eb-eb589d5a90cd",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Colin Mackey",
    "playerId": "6e5d2bb6-bf2e-4f06-a2f8-24af7eca9cf8",
    "team": "Players Courtyard",
    "slug": "e27386b3",
    "gender": "Male"
-  },
-  {
-   "name": "Colin Mahoney",
-   "playerId": "0eb7fa64-4567-48c0-82e6-43beb1a2dfe3",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "Colleen Babore",
-   "playerId": "d98a87e6-75ed-4aa6-b535-23f3c73f2817",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
   },
   {
    "name": "Colleen Derose",
@@ -4454,13 +3521,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Conor Malloy",
-   "playerId": "79791efb-c2d0-449d-8572-a99a1f2a5200",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Corey Abrams",
    "playerId": "1a37dcd5-8896-4e3e-8219-898b6a418e86",
    "team": "Bounce Philly",
@@ -4479,13 +3539,6 @@ window.DUPR_AUDIT = {
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Corey Neel",
-   "playerId": "7dbbd17e-9bc8-440d-a09c-dcbe4da688bd",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -4559,24 +3612,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Craig Butler",
-   "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Craig Frame",
    "playerId": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
    "team": "Pickle House",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Craig Frame",
-   "playerId": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -4615,13 +3654,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Crista Renauro",
-   "playerId": "21785bf3-2af4-4120-a15c-d7824a55b711",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Cristi Landrigan",
    "playerId": "1be028eb-1b92-4961-b508-fa0879c78017",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -4640,13 +3672,6 @@ window.DUPR_AUDIT = {
    "playerId": "c7347486-6c6f-4143-b74b-f3572653d54f",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Crystal Mark",
-   "playerId": "c7347486-6c6f-4143-b74b-f3572653d54f",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -4706,24 +3731,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Damon Cerrone",
-   "playerId": "9d917e85-4861-459e-91f1-9906b08d8159",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Dan Amabile",
    "playerId": "3d3123f8-a4db-460f-8df3-70e6271cacfa",
    "team": "Flemington Green",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Dan Amabile",
-   "playerId": "3d3123f8-a4db-460f-8df3-70e6271cacfa",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -4769,31 +3780,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Dan Ladislaw",
-   "playerId": "31b78615-afb3-4856-8cb1-de2b8d43a115",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
-   "name": "Dan Matthews",
-   "playerId": "db35c570-ffa9-423e-9a3b-8e218fb3f2ec",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Dan Stanton",
    "playerId": "08f765a3-1ebf-4b7f-afe1-e815112ee581",
    "team": "Flemington",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Dan Stanton",
-   "playerId": "08f765a3-1ebf-4b7f-afe1-e815112ee581",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -4822,13 +3812,6 @@ window.DUPR_AUDIT = {
    "playerId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
    "team": "Jersey Devil Navy",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Dana Sheply",
-   "playerId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -4874,20 +3857,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Daniel Borgia",
-   "playerId": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
-   "name": "Daniel Borgia",
-   "playerId": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Daniel Bradley",
    "playerId": "77cbf169-63d7-4ce8-a5b7-9e930e1a9846",
    "team": "Premiere",
@@ -4920,13 +3889,6 @@ window.DUPR_AUDIT = {
    "playerId": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
    "team": "APC Garden State",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Daniel Dechristopher",
-   "playerId": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -4972,13 +3934,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Daniel Hadley",
-   "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Daniel Phillips",
    "playerId": "1ddcd805-f965-4357-9567-35920e191f8c",
    "team": "Jersey Pickleball Club",
@@ -5004,13 +3959,6 @@ window.DUPR_AUDIT = {
    "playerId": "40303bf3-7bee-465b-834a-51847fab81f6",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Daniel Seng",
-   "playerId": "40303bf3-7bee-465b-834a-51847fab81f6",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -5042,24 +3990,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Danielle Kane",
-   "playerId": "2e70afa6-2efb-4f99-aa57-388b45aa31cb",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Danielle Kuti",
    "playerId": "c3902bc0-35a6-490d-9909-6f19b1224b99",
    "team": "Pickle House",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Danielle Kuti",
-   "playerId": "c3902bc0-35a6-490d-9909-6f19b1224b99",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -5070,24 +4004,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Danielle Simpson",
-   "playerId": "3373e556-3a34-411c-abb7-7f39c2f29e13",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Danielle Stein",
    "playerId": "5caeeba5-ffc7-4042-ad05-eb4c910a3baa",
    "team": "Pickleball Palace",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Danika Johnston",
-   "playerId": "ce17c7e9-b59a-4927-910f-61838f00a559",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -5102,13 +4022,6 @@ window.DUPR_AUDIT = {
    "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
    "team": "Pickle House",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Danny Ruiz",
-   "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -5154,13 +4067,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Darren Ward",
-   "playerId": "4a102871-ed81-4b77-b2fc-5397317959bb",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Darren Zheng",
    "playerId": "fcedde03-815a-4405-9065-c0a473654b8c",
    "team": "Pickleball HQ",
@@ -5182,13 +4088,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Dave Digrius",
-   "playerId": "0ff57cbc-6f0e-4940-bc65-3b671dcbfabf",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Dave Hartzell",
    "playerId": "844b1121-409f-4c34-8030-cbbcaee54cc3",
    "team": "APC Garden State",
@@ -5200,13 +4099,6 @@ window.DUPR_AUDIT = {
    "playerId": "d2679852-b0e5-4853-abdf-3253a22fdea4",
    "team": "Pickleball HQ",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "David Armento",
-   "playerId": "4c4e430e-8a0f-462b-a5da-daa1b89ca96f",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -5308,13 +4200,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "David Marchese",
-   "playerId": "aa802904-9a39-4b0e-ad2b-d1a1ea2fcc5b",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "David Mccarthy",
    "playerId": "90af44f2-013b-4fa5-bf79-fc11c13ae897",
    "team": "Life Time Red Bank",
@@ -5326,13 +4211,6 @@ window.DUPR_AUDIT = {
    "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "David Osborne",
-   "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -5392,13 +4270,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "David Tabacco",
-   "playerId": "717d97f0-4f08-476f-9c53-7595605bc0b0",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "David Tisony",
    "playerId": "cc825d8d-1218-413e-93c0-576dfe643a79",
    "team": "One Love",
@@ -5420,13 +4291,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "David Wisch",
-   "playerId": "9e3072fb-dce5-48d8-b320-0fe5cb411d0f",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Dawn Dalessio",
    "playerId": "aecabaca-f05b-489f-87d6-afacfd32295c",
    "team": "Premiere",
@@ -5441,32 +4305,11 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Dawn Gordon",
-   "playerId": "756e256e-ea2f-4e25-9c6a-e780860d048f",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
-   "name": "Dawn Kempton",
-   "playerId": "ab3e99ac-cdcb-4ade-821c-f8e422c09170",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Dean Lim",
    "playerId": "9d8ac19c-2a48-423f-a8ac-56d66cb6ccff",
    "team": "Pickleball Kingdom Hamilton Strikers",
    "slug": "1e12eb3f",
    "gender": "Male"
-  },
-  {
-   "name": "Deanna Romeo",
-   "playerId": "eee5fbd1-b320-4c9b-933e-58d380add794",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Female"
   },
   {
    "name": "Deb Morisie",
@@ -5504,31 +4347,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Deborah Chapman",
-   "playerId": "6c27f09f-99d8-46e0-bd7f-d50809759eff",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Deborah Muschio",
    "playerId": "cc2a9e08-b163-4553-856f-c20895cb9930",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Deborah Sawin",
-   "playerId": "96775a9e-d923-45e3-a5e4-1754ae3832bd",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Debra Schlosser",
-   "playerId": "c06ede91-f79c-483b-ae5e-34baae517dad",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -5543,13 +4365,6 @@ window.DUPR_AUDIT = {
    "playerId": "ce590106-6f19-43b7-8a91-4dc31d28eb31",
    "team": "Pickle House",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Deepak Sunku",
-   "playerId": "ce590106-6f19-43b7-8a91-4dc31d28eb31",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -5616,13 +4431,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Denise Richmond",
-   "playerId": "422cd941-43db-4123-a07e-3316583f51ee",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Denise Stassi",
    "playerId": "a7a3b4ab-c0af-49d3-ae64-b784fc58d238",
    "team": "Premiere Dinkers",
@@ -5672,13 +4480,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Derek Halili",
-   "playerId": "41124e68-c4a1-4aa5-b76f-f14acd23999d",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Derek Le",
    "playerId": "8cf7b40c-ed2c-4c8b-83bd-b9f2d486c690",
    "team": "Bounce Malvern Black",
@@ -5707,13 +4508,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Derek Lombardi",
-   "playerId": "eee52ed7-e9da-4d89-93fa-52a6dfc07e72",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Derek Manwaring",
    "playerId": "ec511d19-2f10-425b-828f-708e5365bfcf",
    "team": "Picklr Fair Lawn",
@@ -5735,24 +4529,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Dhara Metla",
-   "playerId": "02451298-7305-4d83-9dd7-6314946b71ab",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Dhruv Dobariya",
    "playerId": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
    "team": "Pickleball Kingdom Hamilton",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Dhruva Poluru",
-   "playerId": "27f5db23-bb28-40ef-8a90-6fa5342c1f30",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -5802,13 +4582,6 @@ window.DUPR_AUDIT = {
    "playerId": "c7dd526f-b8fe-4172-977d-912044350954",
    "team": "Flemington Green",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Diane Bracco",
-   "playerId": "c7dd526f-b8fe-4172-977d-912044350954",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -5882,20 +4655,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Dipen Bhatt",
-   "playerId": "fe8af1d3-ff62-430d-90af-32794cc7b912",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Divakar Tailor",
-   "playerId": "e30df523-fa08-47da-a3e0-679dfda48915",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Dmitry Strashnov",
    "playerId": "b613137c-a590-4ca1-9835-aff71d263018",
    "team": "PKLD",
@@ -5945,13 +4704,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Donny Wong",
-   "playerId": "ea83bd99-bf9c-4d3a-8fc4-80d939f4c466",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Doreen Arleth",
    "playerId": "869705bd-7c6f-4515-a1a4-d214c92fabb4",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -5966,31 +4718,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Doug Brown",
-   "playerId": "81a3934b-14bc-45ea-a4f9-03e548c16dcd",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Doug Dougherty",
-   "playerId": "346a0f21-c662-4ff3-b830-5961a1a49072",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Doug Horton",
    "playerId": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Doug Johnson",
-   "playerId": "e86cee45-ab6b-4ea6-99c6-10e16bc1a05d",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -6064,13 +4795,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ed Gieske",
-   "playerId": "314486b1-6723-4b33-9dba-fa5756065707",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Ed Mendoza",
    "playerId": "cb4a8451-13f9-4c27-8dc6-847fea7be9b4",
    "team": "Pickleball Kingdom Hamilton Prime Time",
@@ -6078,24 +4802,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ed Ruliff",
-   "playerId": "b711163e-e5de-4c9c-83cb-3a46a9c47356",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Ed Villaverde",
    "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Ed Villaverde",
-   "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -6148,13 +4858,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Edwin Garcia",
-   "playerId": "a4310f70-ee30-4e55-b189-2efd837b7189",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Eileen Clark",
    "playerId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
    "team": "Premiere",
@@ -6183,13 +4886,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Eileen Zhang",
-   "playerId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Elaine Aquilone",
    "playerId": "07b5c571-951d-446b-86d8-63c1c406bf3c",
    "team": "Life Time Red Bank",
@@ -6202,13 +4898,6 @@ window.DUPR_AUDIT = {
    "team": "Picklr Fair Lawn",
    "slug": "1e12eb3f",
    "gender": "Male"
-  },
-  {
-   "name": "Eleanor Dunlevy",
-   "playerId": "38e448dc-5f79-4607-a176-66fe32dd5fb7",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
   },
   {
    "name": "Eleni Leone",
@@ -6246,13 +4935,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Elizabeth Biehl",
-   "playerId": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Elizabeth Dailey",
    "playerId": "8cbd2f67-4bd0-4641-a88a-e35ccccc711b",
    "team": "Dill Dinkers Hatboro",
@@ -6260,24 +4942,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Elizabeth Dailey",
-   "playerId": "8cbd2f67-4bd0-4641-a88a-e35ccccc711b",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Elizabeth Damico",
    "playerId": "0b2f3e61-0d02-418c-8f96-b5238748091e",
    "team": "Premiere",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Elizabeth Krebs",
-   "playerId": "d9e6d209-acce-4fc1-ad2b-1b944fd3e45c",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -6306,13 +4974,6 @@ window.DUPR_AUDIT = {
    "playerId": "9b6e4166-d6a4-4e8c-812b-65e4d35477f3",
    "team": "Forward",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Ellen Venezia",
-   "playerId": "88f8dead-91f2-4d4e-b49f-8faed88b346b",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -6358,20 +5019,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Elliott Bauer",
-   "playerId": "eea6a616-e242-4a3c-9a46-098432e0ab91",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Elliott Knupp",
-   "playerId": "c6c73c33-7fea-49da-acca-cf2022fe122d",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Elliott Tseng",
    "playerId": "ab21ce02-ca88-4b75-ac8f-b1438e117bb3",
    "team": "Delco Turf & Pickle",
@@ -6384,13 +5031,6 @@ window.DUPR_AUDIT = {
    "team": "Dill Dinkers Hatboro",
    "slug": "e27386b3",
    "gender": "Male"
-  },
-  {
-   "name": "Elsie Garcia",
-   "playerId": "5e086f9d-8026-4ba1-8a9a-f67aa0ce78dd",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
   },
   {
    "name": "Elsie Koo",
@@ -6449,24 +5089,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Emily Babinsky",
-   "playerId": "d0e2c1ea-529d-4364-b521-cb205ecdded3",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Emily Ocasio",
    "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
    "team": "Bounce Malvern",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Emily Ocasio",
-   "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -6526,20 +5152,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Eric Berlinger",
-   "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Eric Berlinger",
-   "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Eric Brezina",
    "playerId": "717be0e6-148f-4bab-a433-22e4f97d5c47",
    "team": "Flemington",
@@ -6554,24 +5166,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Eric Brezina",
-   "playerId": "717be0e6-148f-4bab-a433-22e4f97d5c47",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Eric Brody",
    "playerId": "bbb95dae-c7a1-4e34-b74f-29ff5fc70f29",
    "team": "One Love",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Eric Danver",
-   "playerId": "5b998c77-fc28-48ca-9044-1443679b288e",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -6600,13 +5198,6 @@ window.DUPR_AUDIT = {
    "playerId": "b3c28078-ab31-4002-9e09-5fa3f627d8c1",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Eric Luque",
-   "playerId": "b3c28078-ab31-4002-9e09-5fa3f627d8c1",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -6645,13 +5236,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Eric Pollock",
-   "playerId": "347f3214-5905-4d1b-8666-9290abe9b727",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Eric Ruiz",
    "playerId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -6670,13 +5254,6 @@ window.DUPR_AUDIT = {
    "playerId": "3120fa05-d5d9-4b71-a339-4ed92f3e5b06",
    "team": "Jersey Devil",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Eric Tran",
-   "playerId": "8b4fc403-adea-47a4-adad-a22a786313e9",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -6722,13 +5299,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Erickson Clarke",
-   "playerId": "bdc98c78-ac6d-4d39-a7dc-9853dbb613b1",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Erik Harrison",
    "playerId": "f988ea5f-06b9-477c-88ee-1563d1c8ecfa",
    "team": "One Love",
@@ -6764,13 +5334,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Erika Richards",
-   "playerId": "065e606f-3722-4434-8848-28e4d10ccabd",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Erika Simone",
    "playerId": "04f98aa6-f69e-462c-9a13-4060a3072922",
    "team": "Bounce Malvern Black",
@@ -6782,13 +5345,6 @@ window.DUPR_AUDIT = {
    "playerId": "e3265662-58db-492d-a542-f44dd689cd34",
    "team": "Pickleball Kingdom Watchung",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Erin Hanson",
-   "playerId": "76b1a759-e777-46d6-873a-a36d4df796b2",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -6810,13 +5366,6 @@ window.DUPR_AUDIT = {
    "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
    "team": "Forward",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Esha Gajjar",
-   "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -6862,20 +5411,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ethan Garcia",
-   "playerId": "54e1e042-3810-4949-90cf-3b134f207f80",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Ethan Macedo",
-   "playerId": "b111ee21-3b4d-45f3-ab01-cff1cb57b5a5",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Ethan Rosen",
    "playerId": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -6918,13 +5453,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Eva Danieli",
-   "playerId": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Eva Rodriguez",
    "playerId": "899c49f1-1839-4eb3-b87e-26a2dba51764",
    "team": "PickleRage Union County Net Ninjas",
@@ -6960,13 +5488,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Evan Woerner",
-   "playerId": "4e12c5c9-dcc8-48c8-96da-c0070a03583b",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Evelyn Du",
    "playerId": "08547f36-c938-4f82-a783-9c89ab07500c",
    "team": "Allstar Pickler",
@@ -6985,13 +5506,6 @@ window.DUPR_AUDIT = {
    "playerId": "798a21bd-83e7-42e9-bd86-c74448c7dada",
    "team": "Bounce Philly",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Evelyn Geating",
-   "playerId": "798a21bd-83e7-42e9-bd86-c74448c7dada",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -7072,24 +5586,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Fran Mccrory",
-   "playerId": "709c44fc-b254-4998-b6be-bd7461aee908",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Frances Smith",
    "playerId": "dede68c9-f6a4-40b6-8a2c-2eca456d4151",
    "team": "Pickleball Palace Blue",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Francesca Bogiatzis",
-   "playerId": "142db61b-1736-473e-8e71-61baf2b2bae2",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -7128,13 +5628,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Frank Fang",
-   "playerId": "77381bfa-76d6-45ca-ba7d-9dc142cacd32",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Frank Iacono",
    "playerId": "2cccc005-6a1a-4566-98be-15805e750e49",
    "team": "Colts Neck Racquet Club",
@@ -7163,13 +5656,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Frank Rivera",
-   "playerId": "6d312fa7-1d6f-4a54-ae34-111b57904756",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Franklin Lupianez",
    "playerId": "17caef8b-84d4-4052-9695-7c74190925a1",
    "team": "Flemington",
@@ -7188,13 +5674,6 @@ window.DUPR_AUDIT = {
    "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
    "team": "Allstar Pickler",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Franky Coriano",
-   "playerId": "d0a23b1a-e947-4f18-ae88-bcfd503495be",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -7254,20 +5733,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Gabby Gonzalez",
-   "playerId": "957ef2de-1e80-4ec9-b5cd-96d11bef6383",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
-   "name": "Gabe Lantos",
-   "playerId": "87637937-3a92-4bbd-bc21-627094ef39c5",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Gabe Nacion",
    "playerId": "b18fc532-a96e-400d-a321-73d52554df87",
    "team": "Pickle House",
@@ -7303,13 +5768,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Gage Cvijic",
-   "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Gail Hannagan",
    "playerId": "3d17e05b-9fe9-4d04-a0c7-4e03c1e6530e",
    "team": "Flemington",
@@ -7324,24 +5782,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Gail Hannagan",
-   "playerId": "3d17e05b-9fe9-4d04-a0c7-4e03c1e6530e",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Gail Humphreys-Mackenzie",
    "playerId": "493d1f95-ca55-4e30-b627-1f3f8d787449",
    "team": "Picklr Newark",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Gail Welkes",
-   "playerId": "ef42e106-1059-4976-98c3-daccda942f56",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -7352,24 +5796,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Gang Jia",
-   "playerId": "c6fdd8f8-783e-465b-8d50-31b7969a7fc6",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Garry Wright",
    "playerId": "6c10bca6-6034-42ca-8adc-1532e7e3c629",
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Gary Dorin",
-   "playerId": "445a429f-5a53-4ad8-94a2-929a77b27c37",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -7394,13 +5824,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Gary Raubenheimer",
-   "playerId": "ff4c0faf-d8a4-4af9-bb5d-217b88570d64",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Gary Sidhu",
    "playerId": "fa28fec9-9eff-4831-912d-4180f8760eeb",
    "team": "Jersey Pickleball Club",
@@ -7412,13 +5835,6 @@ window.DUPR_AUDIT = {
    "playerId": "fa28fec9-9eff-4831-912d-4180f8760eeb",
    "team": "Jersey Pickleball Club",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Gary Steffer",
-   "playerId": "2b2f652f-11e0-4bb0-9d5d-fc8e8cb4919e",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -7440,13 +5856,6 @@ window.DUPR_AUDIT = {
    "playerId": "3da7de8e-f75c-4e90-b63e-f340cc8788a0",
    "team": "Pickleball Kingdom Watchung",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Gavin Jordan",
-   "playerId": "04f601ae-9ac0-4f6a-8665-aa54e2a34fe9",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -7569,13 +5978,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Gianna Medeiros",
-   "playerId": "b63ec8b5-b659-4404-92b0-8e577c87534a",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Gianni Roman",
    "playerId": "22294f41-611f-4e8f-962e-377e43209945",
    "team": "Allstar Pickler",
@@ -7587,13 +5989,6 @@ window.DUPR_AUDIT = {
    "playerId": "8fb69116-2ad4-417c-ad3a-912a9b13782b",
    "team": "ACE Moorestown",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Gina Blahut",
-   "playerId": "8fb69116-2ad4-417c-ad3a-912a9b13782b",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -7622,13 +6017,6 @@ window.DUPR_AUDIT = {
    "playerId": "f9ea65b5-8f59-4c04-89b0-69ca9429c325",
    "team": "ACE Moorestown",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Ginger Evans",
-   "playerId": "f9ea65b5-8f59-4c04-89b0-69ca9429c325",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -7681,31 +6069,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Grace Brennan",
-   "playerId": "15778391-96b7-4888-9d08-d63b96e104ca",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
-   "name": "Grace Edelson",
-   "playerId": "5b378b2c-5bc7-4e9b-a97c-8248e101e4f2",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Grady Craig",
    "playerId": "d97c3295-9f2a-479e-be7f-d55442287ea7",
    "team": "Bounce Philly",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Grady Craig",
-   "playerId": "d97c3295-9f2a-479e-be7f-d55442287ea7",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -7716,24 +6083,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Graham Heavenrich",
-   "playerId": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Gray Ferrante",
    "playerId": "1e83a359-47bb-49ae-bb0b-116dbd04ef74",
    "team": "Pickle House",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Greg August",
-   "playerId": "ad2273bf-d15d-4687-b222-7db8cd6f3abd",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -7751,13 +6104,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Greg Taylor",
-   "playerId": "701f7029-4353-4548-b8db-b7ac7ed3d847",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Gregg Downs",
    "playerId": "0956f219-4f96-47e1-958e-662675120005",
    "team": "Mercer Bucks",
@@ -7772,24 +6118,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Gretchen Schneider",
-   "playerId": "ad671476-9113-4cc0-a49f-e7fea7d81f10",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Guadalupe Reyes",
    "playerId": "88069b92-8946-4a56-a1be-c0bb2bc00221",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Guadalupe Reyes",
-   "playerId": "88069b92-8946-4a56-a1be-c0bb2bc00221",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -7842,13 +6174,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Hae Youn Reichenberg",
-   "playerId": "73373b91-d52c-4630-9fc7-736410c0a4b3",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Hafeez Saheed",
    "playerId": "a0d294b1-27ed-4751-ae6c-eadf62746d20",
    "team": "Flemington Green",
@@ -7856,24 +6181,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Hafeez Saheed",
-   "playerId": "a0d294b1-27ed-4751-ae6c-eadf62746d20",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Haidee Midgley",
    "playerId": "c5bab0da-de53-4551-bfbe-620d61235c2d",
    "team": "Dill Dinkers Hatboro",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Haidee Midgley",
-   "playerId": "c5bab0da-de53-4551-bfbe-620d61235c2d",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -7961,13 +6272,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Harrison Bohrer",
-   "playerId": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Harrison Mui",
    "playerId": "fa1d3cb9-cd76-4f49-8024-c6224aa5b7c1",
    "team": "Dill Dinkers Freehold",
@@ -7993,13 +6297,6 @@ window.DUPR_AUDIT = {
    "playerId": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
    "team": "Bounce Malvern",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Harvey Mitchell",
-   "playerId": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -8035,13 +6332,6 @@ window.DUPR_AUDIT = {
    "playerId": "7c120762-4a31-4bdd-9fce-8b43bd90a07e",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Heather Triozzi",
-   "playerId": "7c120762-4a31-4bdd-9fce-8b43bd90a07e",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -8171,13 +6461,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Holly Ferguson",
-   "playerId": "a1b6d08e-816a-4e07-84f2-616a7050b00b",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Hongjie Liu",
    "playerId": "32208805-a6c4-402d-bdf6-b44c29c35ba6",
    "team": "Montville Rocks",
@@ -8192,13 +6475,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Hossam Hablas",
-   "playerId": "9c3be52c-f139-4b47-bbd6-4a8b3da0aaca",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Howard Cetel",
    "playerId": "bff308e5-13f7-4eec-9c98-9095255f062f",
    "team": "ACE Moorestown",
@@ -8206,24 +6482,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Howard Cetel",
-   "playerId": "bff308e5-13f7-4eec-9c98-9095255f062f",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Howard Eng",
    "playerId": "7727f912-4c91-468e-bc39-42aa85e084ab",
    "team": "Mercer Bucks",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Howard Shotel",
-   "playerId": "673fb019-c35d-42bb-95b4-df592becf1f7",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -8245,13 +6507,6 @@ window.DUPR_AUDIT = {
    "playerId": "db17f42a-bdb5-4e65-ae18-487c8d6f4915",
    "team": "APC Garden State",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Ian Bolden",
-   "playerId": "07793bf1-e97e-41b6-a659-5e8a6979704e",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -8304,13 +6559,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Illyce Katz",
-   "playerId": "de04d961-7500-4b47-9e75-f882615afb19",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Ilya Shats",
    "playerId": "7349c25b-46d0-4bad-b94d-1e400622a150",
    "team": "Dill Dinkers Freehold",
@@ -8332,24 +6580,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Iqra Hasan-Calmo",
-   "playerId": "29c4170e-eb9f-400b-bc22-92f83e056e22",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Ira Krassan",
    "playerId": "03de01b1-2236-46cf-a94d-6f98cb142ddd",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Ira Krassan",
-   "playerId": "03de01b1-2236-46cf-a94d-6f98cb142ddd",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -8406,13 +6640,6 @@ window.DUPR_AUDIT = {
    "playerId": "ba54259c-c50f-446b-9385-f12e5c6fdf23",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Issac Gao",
-   "playerId": "ba54259c-c50f-446b-9385-f12e5c6fdf23",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -8507,13 +6734,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jackie Fuchs",
-   "playerId": "9018196a-ba52-4fca-a1d2-3b2b8a6cbedc",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Jaco De Waal",
    "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
    "team": "Picklr Newtown",
@@ -8525,13 +6745,6 @@ window.DUPR_AUDIT = {
    "playerId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
    "team": "Jersey Devil Navy",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Jacob Alpert",
-   "playerId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -8605,31 +6818,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jacqueline Ho",
-   "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
-   "name": "Jacques Beaudry-Losique",
-   "playerId": "ace0cd0c-c1fb-42ec-90ae-509f0c64a6f8",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Jacquie Verish",
    "playerId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
    "team": "Jersey Devil Navy",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Jacquie Verish",
-   "playerId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
    "gender": "Female"
   },
   {
@@ -8710,13 +6902,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "James Conroy",
-   "playerId": "e784764f-725c-4b08-a982-a35771b64254",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "James Cooper",
    "playerId": "37355d05-aa6b-42d5-a4a2-874c8774bb5d",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -8735,13 +6920,6 @@ window.DUPR_AUDIT = {
    "playerId": "6b3f649d-2418-4136-b045-4795d55e643d",
    "team": "Premiere",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "James Price",
-   "playerId": "c7a0b075-272d-4427-98c0-02955690731f",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -8766,13 +6944,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jamie Damirgian",
-   "playerId": "67e72d20-d17c-4480-8159-9e4be9e18459",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Jamie Hahn",
    "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
    "team": "Flemington",
@@ -8787,31 +6958,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jamie Hahn",
-   "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
-   "name": "Jamie Hahn",
-   "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Jamie Levin",
    "playerId": "ff2e2bfb-12b9-4b51-abbd-8b868ce0f78e",
    "team": "Flemington Green",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Jamie Levin",
-   "playerId": "ff2e2bfb-12b9-4b51-abbd-8b868ce0f78e",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -8829,24 +6979,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jamie West",
-   "playerId": "715c1386-54e9-4169-bacb-e206a518f4c5",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Jamila Sefiane",
    "playerId": "c0851114-0611-4b02-9589-fd249179eabc",
    "team": "Bounce Malvern Boom",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Jamila Sefiane",
-   "playerId": "c0851114-0611-4b02-9589-fd249179eabc",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -8934,13 +7070,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Janice Aliberti",
-   "playerId": "078bc1a3-2897-4dc0-ae17-26b349108047",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Janine Forrest",
    "playerId": "dd30bbd2-24c2-431a-8b21-2de326c75ab3",
    "team": "Pickle Place",
@@ -8976,24 +7105,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jared Quereau",
-   "playerId": "b1814193-753a-460b-8911-8722c57efb86",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Jared Rapoport",
    "playerId": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
    "team": "Bounce Tempest",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Jarid Chan",
-   "playerId": "c3e8bfca-0071-4ddd-8366-0b4391b151d5",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -9078,13 +7193,6 @@ window.DUPR_AUDIT = {
    "playerId": "00810f93-8951-43da-8134-bf956b7afb73",
    "team": "Pickleball Kingdom Watchung",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Jason Mahoney",
-   "playerId": "2c0bc3dd-201d-4ec0-b317-45fc2f1f4a14",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -9186,13 +7294,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jay Shah",
-   "playerId": "cc1a90cf-8cc0-4cc5-b41f-27f7cab42b1e",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Jay Zeng",
    "playerId": "abc4de4c-a9af-4b75-8e57-5b7374af96c2",
    "team": "Stelton Sports",
@@ -9235,13 +7336,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jean Rosenbaum",
-   "playerId": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Jeanmarie Farkouh",
    "playerId": "24c2ba9d-4af9-41c8-9a2c-ad9631349481",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -9263,20 +7357,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jeannine Calhoun",
-   "playerId": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Jeannine Kreilick",
-   "playerId": "6e8c421e-71c9-4331-8b77-54fef8181744",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Jebril Guevarra",
    "playerId": "08175577-0ebd-4e9d-99f8-27910ed5f02f",
    "team": "PickleRage Union County Pandas",
@@ -9291,24 +7371,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jeff Barna",
-   "playerId": "ec541044-1910-40ee-86e0-5763640772b0",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Jeff Burke",
    "playerId": "75ab4072-b50f-4593-8f1c-817d572394f7",
    "team": "PKLD",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Jeff Jensen",
-   "playerId": "42f84841-e4ed-4503-ae05-c8fe6c351ca7",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -9337,13 +7403,6 @@ window.DUPR_AUDIT = {
    "playerId": "75789bbc-0dde-460e-b905-7bd1189c6a90",
    "team": "ACE Moorestown",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Jeff Merten",
-   "playerId": "545fe5ef-8c22-454d-b251-1c26ef5b4151",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -9379,13 +7438,6 @@ window.DUPR_AUDIT = {
    "playerId": "f8687730-86a2-4769-a38b-7c0269ee88f5",
    "team": "Bounce Malvern",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Jeff Zamorski",
-   "playerId": "f8687730-86a2-4769-a38b-7c0269ee88f5",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -9445,13 +7497,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jen Huang",
-   "playerId": "382d0871-3d11-4406-8214-0be9c7256390",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Jen Ogorzat",
    "playerId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5",
    "team": "Pickle House",
@@ -9480,24 +7525,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jenn Allen",
-   "playerId": "1741b412-8d86-480b-a9f3-88447159088a",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Jenn Smith",
    "playerId": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Jenn Smith",
-   "playerId": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -9522,13 +7553,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jenna Posner",
-   "playerId": "6be7fecc-58ce-4a10-b2f9-bf98567f3427",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Jennie Diamond",
    "playerId": "14cdc9a7-221c-4933-bec3-854de864ccea",
    "team": "Picklr Fair Lawn",
@@ -9543,13 +7567,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jennifer Czech",
-   "playerId": "24c88ced-2e38-4ea6-b2ec-d76c42a6112c",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Jennifer Genna",
    "playerId": "3bbb4212-6e2d-4a32-b704-ee264ca9ebad",
    "team": "Dill Dinkers Newport",
@@ -9561,13 +7578,6 @@ window.DUPR_AUDIT = {
    "playerId": "584e770c-86b1-4561-ba01-4ef1aad6ff9b",
    "team": "Dill Dinkers Hatboro",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Jennifer Hurley",
-   "playerId": "347f856f-cd7e-411b-bed9-3d4670a88221",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
    "gender": "Female"
   },
   {
@@ -9599,13 +7609,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jennifer Land",
-   "playerId": "f5d084ba-6230-41b2-99f9-f014c072276a",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Jennifer Laroque",
    "playerId": "e870b473-4955-4ccf-82ce-88f72bf2d917",
    "team": "Forward",
@@ -9631,13 +7634,6 @@ window.DUPR_AUDIT = {
    "playerId": "e379e47b-dcde-4adb-8cc6-76e5660c457e",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Jennifer Minehan",
-   "playerId": "e379e47b-dcde-4adb-8cc6-76e5660c457e",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -9694,13 +7690,6 @@ window.DUPR_AUDIT = {
    "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Jeremy Herrin",
-   "playerId": "73bc4c66-fbd6-4647-935e-589dac38ab78",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -9767,13 +7756,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jesse Martinez",
-   "playerId": "9d3d247f-e4a6-4cdb-89f8-ddfdc2264aa8",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Jesse Mynahan",
    "playerId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb",
    "team": "Montville",
@@ -9816,27 +7798,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jessica Neglia",
-   "playerId": "7c876269-7c67-41a9-9857-2dae62608a57",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
-   "name": "Jessica Pao",
-   "playerId": "5e52dba4-992f-4352-b538-d2534d423c80",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
-   "name": "Jessica Pimentel",
-   "playerId": "819b0153-3d5f-4c13-895e-0707d8d4f5bf",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Jessica Ren",
    "playerId": "5fc95fcb-4ed3-47b9-be7e-0ce9498dc977",
    "team": "Allstar Pickler",
@@ -9855,20 +7816,6 @@ window.DUPR_AUDIT = {
    "playerId": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Jessica Wormeck",
-   "playerId": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Jessica Zepeda",
-   "playerId": "62e347bc-9018-4b2f-908b-1914d71f4809",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -9963,25 +7910,11 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jillian Hart",
-   "playerId": "c085cda7-0089-48e8-be2a-29f839ae0a88",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Jillian Sorrentino",
    "playerId": "e08d5c89-c2a7-494f-bc55-2a33e22917fd",
    "team": "Pickleball HQ",
    "slug": "e27386b3",
    "gender": "Female"
-  },
-  {
-   "name": "Jim August",
-   "playerId": "b60a9885-3603-43d6-8c68-0fad529269b4",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Male"
   },
   {
    "name": "Jim Darcangelo",
@@ -9991,24 +7924,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jim Kochanski",
-   "playerId": "7ac5141f-b982-457a-a893-6f18c0e8e375",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Jim Nelson",
    "playerId": "57b87cca-b8c5-4868-a8c2-8848f441497b",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Jim Pagano",
-   "playerId": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -10089,13 +8008,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jimmy Shapiro",
-   "playerId": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Jimmy Tom",
    "playerId": "4e873e4f-16c8-4504-a702-941e045a7d3b",
    "team": "PickleRage Union County Net Ninjas",
@@ -10124,24 +8036,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jingwei Wu",
-   "playerId": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Jitendra Arora",
    "playerId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
    "team": "Pickle House",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Jitendra Arora",
-   "playerId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -10166,24 +8064,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Jiyun Yuh",
-   "playerId": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Jj Pospiech",
    "playerId": "6658ab78-4eee-48fb-aa13-0b6f14398a76",
    "team": "Ballers Philly",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Jj Pospiech",
-   "playerId": "6658ab78-4eee-48fb-aa13-0b6f14398a76",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -10215,13 +8099,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Joan Rudderow",
-   "playerId": "dca2ce61-749b-421c-9205-0a16fc656a36",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Joanne Rim",
    "playerId": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
    "team": "Montville",
@@ -10236,31 +8113,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Joaquin Cruz",
-   "playerId": "86b8ddd8-79bf-414d-ae7e-5c958d4f2899",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Jocelyn Carney",
    "playerId": "99f7821f-79d3-4e9e-9a9f-01043edcebee",
    "team": "Monroe",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Jodi Evans",
-   "playerId": "0470dc02-2e17-4eeb-b282-4767b17e733e",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
-   "name": "Jodie Bennett",
-   "playerId": "44a54409-964b-44ae-a670-c69f7edf9600",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -10269,13 +8125,6 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "c43b8608",
    "gender": "Female"
-  },
-  {
-   "name": "Joe Arancio",
-   "playerId": "75c46f4d-9fcc-4e7f-bd3a-581f167e64ad",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
   },
   {
    "name": "Joe Carrano",
@@ -10355,20 +8204,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Joey Angelson",
-   "playerId": "6035850e-af27-40db-bb81-f5787f344871",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
-   "name": "Joey Penvari",
-   "playerId": "4f61d748-5c1b-4dc0-96ec-afa84133deba",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Johanna Kreilick",
    "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
    "team": "Flemington Blue",
@@ -10387,13 +8222,6 @@ window.DUPR_AUDIT = {
    "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
    "team": "Flemington Blue",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Johanna Kreilick",
-   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -10481,13 +8309,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "John Fallone",
-   "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "John Ficarra",
    "playerId": "b1a0876c-0702-497d-95a4-5a8a894ff2d5",
    "team": "Premiere",
@@ -10513,13 +8334,6 @@ window.DUPR_AUDIT = {
    "playerId": "fd9a2aa3-24e6-4ac9-a460-316261a5e70d",
    "team": "Pickleball Kingdom Watchung",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "John Koons",
-   "playerId": "d40eb15e-7e56-4e12-b653-68f44fe773cd",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -10558,20 +8372,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "John Lottier",
-   "playerId": "d1541ad0-e7fc-4783-949a-8f3f1ce9722d",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "John Lottier",
-   "playerId": "d1541ad0-e7fc-4783-949a-8f3f1ce9722d",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "John Manuzza",
    "playerId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
    "team": "Montville",
@@ -10600,13 +8400,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "John Pineda",
-   "playerId": "099e3831-88c1-4907-9869-f193db58b64b",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "John Price",
    "playerId": "26bb625f-1de2-4b78-95d6-de6e7b81fe6a",
    "team": "Bounce Philly",
@@ -10625,20 +8418,6 @@ window.DUPR_AUDIT = {
    "playerId": "813470f2-6efd-44e2-87b0-c373c5ecacfd",
    "team": "Dill Dinkers Lansdale",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "John Sarinick",
-   "playerId": "ed26c838-1086-4f82-93a0-07e49ca65df9",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "John Sehi",
-   "playerId": "c5ea40be-2d6c-47ce-a2d1-dce40a3756a5",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -10761,13 +8540,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jonathan Carter",
-   "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Jonathan Dong",
    "playerId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d",
    "team": "PickleRage Union County",
@@ -10824,20 +8596,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jonathan Macqueen",
-   "playerId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
-   "name": "Jonathan Miller",
-   "playerId": "4bdfe049-9d58-4b3e-bdf1-72d3ac296b22",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Jonathan Pang",
    "playerId": "7c7117d7-1b77-4c7d-b520-74b3fd9d7be7",
    "team": "Mercer Bucks",
@@ -10863,13 +8621,6 @@ window.DUPR_AUDIT = {
    "playerId": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Jordan Clever",
-   "playerId": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -10943,13 +8694,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jorge Valencia King",
-   "playerId": "41bb8b59-b2a3-4b27-9f26-66d45a2cddc8",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Jose Campos",
    "playerId": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
    "team": "Pickleball HQ",
@@ -10992,20 +8736,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Joseph Gronczewski",
-   "playerId": "f6eef486-8999-4247-a7d8-20251377021c",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
-   "name": "Joseph Jaworski",
-   "playerId": "0d249b57-f116-43a0-b03f-c7229bc65112",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Joseph Koerner",
    "playerId": "b49f166d-9cd4-4b86-961d-380dd8189a87",
    "team": "Players Courtyard",
@@ -11017,13 +8747,6 @@ window.DUPR_AUDIT = {
    "playerId": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
    "team": "Bounce Tempest",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Joseph Luka",
-   "playerId": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -11059,13 +8782,6 @@ window.DUPR_AUDIT = {
    "playerId": "3673e8d2-fc3b-4ec2-b9f2-e890b052b93a",
    "team": "Picklr Fair Lawn",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Joseph Villani",
-   "playerId": "3d35be48-4648-4320-aec5-3eb571502945",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -11125,13 +8841,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Josh Rito",
-   "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Josh Ruble",
    "playerId": "c44c6a71-87d4-4003-8fcb-bb812a3307a3",
    "team": "Players Courtyard",
@@ -11167,13 +8876,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Joshua Kim",
-   "playerId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Joshua Mindlin",
    "playerId": "439d9ebf-9409-4214-ad91-7c18a0153c71",
    "team": "Pickle Place",
@@ -11192,13 +8894,6 @@ window.DUPR_AUDIT = {
    "playerId": "37c7c06b-1600-450e-9f14-61d397872bc6",
    "team": "Pickleball Kingdom Watchung",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Joshua Weinstein",
-   "playerId": "d70e2b4f-1076-4491-b0f2-5b96a328303b",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -11244,38 +8939,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Juan Uribe",
-   "playerId": "7cf43262-2d33-4f82-afba-bf0294000c56",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Judith Macarthur",
    "playerId": "ea5676f2-c36c-4c54-b9df-c6fb5926b61e",
    "team": "Flemington Green",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Judy Dorazio",
-   "playerId": "67a7d5b3-d92d-45bb-b497-dc1ad9eb5891",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
-   "name": "Judy Livermore",
-   "playerId": "2031316a-f325-44c0-80e5-098323882939",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
-   "name": "Judy Macarthur",
-   "playerId": "5033e2ab-5a4b-4f98-b5b1-ed9b53bc57a2",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
    "gender": "Female"
   },
   {
@@ -11307,13 +8974,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Julia Manetta",
-   "playerId": "4977544e-0c7f-4151-815c-51f68473862f",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Julia Plein",
    "playerId": "f3d99274-413c-4720-9c8d-1a71f9b2e717",
    "team": "Dill Dinkers Hatboro Aces",
@@ -11339,13 +8999,6 @@ window.DUPR_AUDIT = {
    "playerId": "8f9fe430-75af-43c9-9eb3-371d0a9d70d7",
    "team": "Bounce Tempest",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Juliana Drinane",
-   "playerId": "c11092d7-b6a2-4099-8e9c-e90d17ed543c",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -11381,20 +9034,6 @@ window.DUPR_AUDIT = {
    "playerId": "871e077e-f25b-4c8d-8a7b-871d22ebc3b5",
    "team": "Pickle House",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Julie Randall",
-   "playerId": "871e077e-f25b-4c8d-8a7b-871d22ebc3b5",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
-   "name": "Julie Randall",
-   "playerId": "871e077e-f25b-4c8d-8a7b-871d22ebc3b5",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -11454,20 +9093,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Justin Chung",
-   "playerId": "775b540e-c0e6-4810-9547-fcdfe94548c7",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
-   "name": "Justin Green",
-   "playerId": "315ccc2c-86b9-429c-9d60-aae57ea0fff6",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Justin Grimes",
    "playerId": "e96ed92e-d495-4a0f-9e0b-a5dd6165b905",
    "team": "Jersey Pickleball Club",
@@ -11482,13 +9107,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Justin Villa",
-   "playerId": "d66b0fa0-2b50-45d7-a218-2c12d8525ef6",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Justine Inton",
    "playerId": "fda50f9c-6e7b-42de-a8fd-f7140995bd49",
    "team": "ACE Moorestown",
@@ -11496,24 +9114,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Justine Inton",
-   "playerId": "fda50f9c-6e7b-42de-a8fd-f7140995bd49",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Justyna Wojdyla",
    "playerId": "12db9b49-da72-4367-8e2c-b9718a9bc2fb",
    "team": "Forward",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Justyna Wojdyla",
-   "playerId": "12db9b49-da72-4367-8e2c-b9718a9bc2fb",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -11528,13 +9132,6 @@ window.DUPR_AUDIT = {
    "playerId": "ccc68505-7ec7-474a-a96f-891b618d657e",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Kaleigh Hadley",
-   "playerId": "ccc68505-7ec7-474a-a96f-891b618d657e",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
    "gender": "Female"
   },
   {
@@ -11608,13 +9205,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Karen Heier",
-   "playerId": "67403e2f-c5d7-4ac8-b07c-8c5ce7742c47",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Karen Kelly",
    "playerId": "07767191-9167-4314-973d-3798ae6265a9",
    "team": "One Love",
@@ -11671,24 +9261,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Karen Veninger",
-   "playerId": "9057a78b-0136-4bb6-92e9-508f621b51e1",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Karen Waldon",
    "playerId": "c9f10502-3413-4189-87c9-d05ec7accae3",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Karen Waldon",
-   "playerId": "c9f10502-3413-4189-87c9-d05ec7accae3",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -11734,13 +9310,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kate Siedell",
-   "playerId": "8decf039-f1e5-4182-b3cf-6756789ae87a",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Katelyn Carretas",
    "playerId": "9564f996-6460-4bbd-b589-270545a1d4ef",
    "team": "ACE Downingtown",
@@ -11752,13 +9321,6 @@ window.DUPR_AUDIT = {
    "playerId": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
    "team": "Bounce Malvern Black",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Katherine Maruyama",
-   "playerId": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -11797,13 +9359,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kathleen Kane",
-   "playerId": "48fe3e34-058f-4976-99ae-2dadf6b6c3c1",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Kathleen Nitti",
    "playerId": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
    "team": "Life Time Red Bank",
@@ -11815,13 +9370,6 @@ window.DUPR_AUDIT = {
    "playerId": "fce6db61-c25e-4d8c-a774-6d32b85c92d8",
    "team": "Pickleball Lehigh Valley",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Kathleen Rimdzius",
-   "playerId": "4a71824b-a493-4861-8036-3633883f6eab",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -11846,20 +9394,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kathy BernéT",
-   "playerId": "220a5a2a-322c-4799-85a9-1f21b37b6cd4",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
-   "name": "Kathy Cripps",
-   "playerId": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Katie Li",
    "playerId": "b9087267-ae35-4c4d-baf5-90a51346fb9b",
    "team": "Open Play",
@@ -11871,20 +9405,6 @@ window.DUPR_AUDIT = {
    "playerId": "99913860-615f-4516-8868-f83a2c029221",
    "team": "Pickle House",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Katie O'Mara",
-   "playerId": "99913860-615f-4516-8868-f83a2c029221",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
-   "name": "Katrina Koons",
-   "playerId": "50e814d5-b84d-46ec-9448-0095b62af829",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -11965,13 +9485,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Keith Glock",
-   "playerId": "36031ffa-4c01-40b0-9fa1-2e164ca313f8",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Keith Goldberg",
    "playerId": "37a0fa2c-df0b-4d92-900b-a9f20f441ad8",
    "team": "Bounce Malvern Black",
@@ -12014,13 +9527,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kelley Batejan",
-   "playerId": "5d124581-6317-4648-8c11-2fa9235da2c3",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Kellie Roshak",
    "playerId": "fd9c829a-50de-40a1-8342-7a6afe0fc7b4",
    "team": "PickleRage Union County Net Ninjas",
@@ -12042,13 +9548,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kelly Arvidson",
-   "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Kelly Aylward",
    "playerId": "6068d706-4a9a-4475-8d31-d5a900172f27",
    "team": "Monroe",
@@ -12067,13 +9566,6 @@ window.DUPR_AUDIT = {
    "playerId": "25c2cf33-ede0-4610-85d6-e08cddc05484",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Kelly Bowers",
-   "playerId": "25c2cf33-ede0-4610-85d6-e08cddc05484",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -12119,13 +9611,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kelsey Miller",
-   "playerId": "218e6e5d-e016-4509-9642-c40f2304d76b",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Ken Bienkowski",
    "playerId": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
    "team": "Pickleball Palace Black",
@@ -12137,13 +9622,6 @@ window.DUPR_AUDIT = {
    "playerId": "b93dc821-ad17-49b2-8561-0c9da7614364",
    "team": "Flemington",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Ken Carlson",
-   "playerId": "b93dc821-ad17-49b2-8561-0c9da7614364",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -12238,13 +9716,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kerrin Maurer",
-   "playerId": "1d63ce3d-20c2-40ae-94ca-e8e6e458004e",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Kerry Eskay",
    "playerId": "8dc8f169-bf38-463a-b8a0-6c238e275325",
    "team": "PickleRage Union County Net Ninjas",
@@ -12259,13 +9730,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kerry Jiang",
-   "playerId": "21660a36-599f-4fde-8e76-cb23ff1313b7",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Kevin Algarme",
    "playerId": "af1295ea-6786-47fd-8c51-dae10f13070a",
    "team": "ACE Downingtown",
@@ -12277,34 +9741,6 @@ window.DUPR_AUDIT = {
    "playerId": "9b8a71a7-9173-4757-8937-8364922234ef",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Kevin Basch",
-   "playerId": "8c307e80-6a67-476f-be7c-de3b1442b95a",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
-   "name": "Kevin Chang",
-   "playerId": "8d18b5f7-dfba-4159-b614-0ae432db99c5",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
-   "name": "Kevin Emig",
-   "playerId": "dec0f121-8df3-42f4-ac65-2e8d2b676a0e",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Kevin Ewing",
-   "playerId": "f330ab05-8344-4a75-bf22-e9420a70e42e",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -12441,13 +9877,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Kim Bohrer",
-   "playerId": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Kim Kronberger",
    "playerId": "54f3fa64-a224-4f3d-86a4-4353ea31f5a8",
    "team": "Players Courtyard",
@@ -12459,13 +9888,6 @@ window.DUPR_AUDIT = {
    "playerId": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Kim Mchugh",
-   "playerId": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -12560,20 +9982,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Krista Divenere",
-   "playerId": "dfcd91f7-044a-48fe-8ef3-b5dc85f1675a",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
-   "name": "Kristen Buenconsejo",
-   "playerId": "11acfc83-ff3d-4e5f-b234-95827745ade8",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Kristen Silvestri",
    "playerId": "035a8041-2b2d-4050-a71d-9a8e7fb1b5e6",
    "team": "PCKLRAMA",
@@ -12655,13 +10063,6 @@ window.DUPR_AUDIT = {
    "playerId": "74a2b723-b60c-4ffb-b60e-0913baf60b3c",
    "team": "Home Court",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Kristy Detore",
-   "playerId": "74a2b723-b60c-4ffb-b60e-0913baf60b3c",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -12749,13 +10150,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Kyle Woerner",
-   "playerId": "49766802-f2c8-46aa-8ca1-e917160a60f0",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Kylie Lupica",
    "playerId": "9b4b88bf-1f87-46cd-829a-84b82a424b82",
    "team": "Jersey Devil",
@@ -12791,13 +10185,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Lakshmikanth Chaluvadi",
-   "playerId": "377302a4-12da-4449-bbfc-a28248436679",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Lana Engler Carss",
    "playerId": "e832c271-3f52-48b6-8a3f-bdf699531a03",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -12826,24 +10213,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Lance Brown",
-   "playerId": "5d13288d-69fe-4d0b-bf69-51c1d24e3409",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Lanz Santos",
    "playerId": "bd10ce5c-8ee4-4df1-a2f5-20b49a1a8b37",
    "team": "ACE Downingtown",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Lanz Santos",
-   "playerId": "bd10ce5c-8ee4-4df1-a2f5-20b49a1a8b37",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -12861,31 +10234,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Laura Amato",
-   "playerId": "34ec3f29-ddb8-41e4-91a0-3ab69dbea771",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Laura Amato",
-   "playerId": "34ec3f29-ddb8-41e4-91a0-3ab69dbea771",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Laura Capuano",
    "playerId": "39822637-baa2-4c8b-98ce-bff28b9fbb4b",
    "team": "PCKLRAMA",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Laura Clarke",
-   "playerId": "e17e166e-a76f-4334-a2d8-87ed2b172028",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -12903,31 +10255,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Laura Govan",
-   "playerId": "110b981a-77ae-42b0-8200-4e30e9ce157a",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Laura Kwasnoski",
    "playerId": "e0e0f273-d022-414b-bc6a-e32641effa86",
    "team": "Picklr Newark",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Laura Lobb",
-   "playerId": "3d43c16d-0fb6-460c-8002-c3593b7d45e0",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
-   "name": "Laura Masi",
-   "playerId": "d65d24a6-1775-4233-bfe6-5ec7aa23f88f",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -12952,24 +10283,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Laura Sweet",
-   "playerId": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Laura Van Dyke",
    "playerId": "80f9d87d-c824-4680-8d52-6c565388972e",
    "team": "Pickleball Palace Blue",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Lauren Brimhall",
-   "playerId": "8caefff0-01e3-4d6a-ae7b-6c96015634c8",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -12987,20 +10304,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lauren Lowther",
-   "playerId": "80a5f205-ca4b-4335-86d4-41c897a2fda5",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
-   "name": "Lauren Mammano",
-   "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Lauren Mercado",
    "playerId": "0aa554f3-0eca-4f2d-b3d9-b277406a7435",
    "team": "Jersey Devil",
@@ -13015,13 +10318,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lauren Ricks",
-   "playerId": "07e276d3-773e-4a62-865e-4248969ec4d3",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Lawrence Dipietro",
    "playerId": "c521a44b-2c1e-43f3-bd58-eccadd1d0433",
    "team": "Pickle Juice Blackwood",
@@ -13033,13 +10329,6 @@ window.DUPR_AUDIT = {
    "playerId": "cff9ebd3-d67b-4a59-966f-a31b6208a155",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Lawrence Padersky",
-   "playerId": "cff9ebd3-d67b-4a59-966f-a31b6208a155",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -13082,13 +10371,6 @@ window.DUPR_AUDIT = {
    "playerId": "3adaa5eb-232f-4c80-af5b-81644f486e58",
    "team": "Picklr Fair Lawn",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Lee Ann Houston",
-   "playerId": "6e3339fa-42eb-4a09-938c-0e57589f1f1c",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -13176,13 +10458,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Leslie Laganella",
-   "playerId": "79b88b19-d7ab-49ab-881c-888ff437ae90",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Lewis Torres",
    "playerId": "ccf24d18-560f-4ae8-ad75-8fc330f7c24f",
    "team": "ACE Downingtown",
@@ -13246,13 +10521,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Liezel Thompson",
-   "playerId": "7cc58742-bc83-4108-8a47-dffffc5cfced",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Lili Zebluim",
    "playerId": "01687986-8454-48f2-ab99-dabc5bb343b7",
    "team": "Forward",
@@ -13288,20 +10556,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Lincoln Jensen",
-   "playerId": "98842749-0d7d-4b20-b78a-50c79d087699",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
-   "name": "Linda Beaulieu",
-   "playerId": "e5749fbf-5074-4227-b7f7-a57ec077be2a",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Linda Bozzo",
    "playerId": "94c45058-cae5-4085-ad9e-684309568903",
    "team": "PickleRage Union County",
@@ -13327,20 +10581,6 @@ window.DUPR_AUDIT = {
    "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Linda Goss",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
-   "name": "Linda Goss",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -13397,13 +10637,6 @@ window.DUPR_AUDIT = {
    "playerId": "fd596225-797e-4125-876b-633dae2efc65",
    "team": "Bounce Malvern Boom",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Linda Zhu",
-   "playerId": "fd596225-797e-4125-876b-633dae2efc65",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -13491,24 +10724,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lisa Dinh",
-   "playerId": "aaf27c02-6d20-4a96-835c-3084d799ac0f",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Lisa Howdyshell",
    "playerId": "90e0fbef-1218-4eb3-887f-b9cc31e73163",
    "team": "Bounce Malvern",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Lisa Howdyshell",
-   "playerId": "90e0fbef-1218-4eb3-887f-b9cc31e73163",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -13554,27 +10773,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lisa Pinder",
-   "playerId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
-   "name": "Lisa Pinder",
-   "playerId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
-   "name": "Lisa Viola",
-   "playerId": "643d57f1-e4de-431d-b486-01fcc266501f",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Lisa Weinthal",
    "playerId": "d651c20b-7160-48e8-9c7f-c1dd03831553",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -13593,13 +10791,6 @@ window.DUPR_AUDIT = {
    "playerId": "9ec39678-a120-45de-b8a5-897b8cf900cd",
    "team": "Pickle House",
    "slug": "6619816f",
-   "gender": "Female"
-  },
-  {
-   "name": "Lissa Eagles",
-   "playerId": "9ec39678-a120-45de-b8a5-897b8cf900cd",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -13624,13 +10815,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lizz Dunn",
-   "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Lizzie Brofft",
    "playerId": "d566e39d-ad62-41aa-be9c-a535f141a8ee",
    "team": "APC Garden State",
@@ -13645,31 +10829,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lolita Hagen",
-   "playerId": "c4ac93eb-8c41-45e6-9ff3-026934b618b5",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
-   "name": "Lorelei Mcglade",
-   "playerId": "c76ff0cb-72a1-4e1f-978e-a7706ea5e406",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Lori Frank",
    "playerId": "8e51fde0-5ddd-4e6e-b2f6-49cf79cb8030",
    "team": "Jersey Devil",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Lori Frank",
-   "playerId": "8e51fde0-5ddd-4e6e-b2f6-49cf79cb8030",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -13691,13 +10854,6 @@ window.DUPR_AUDIT = {
    "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa",
    "team": "Picklr Newtown",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Lori Wild",
-   "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -13764,13 +10920,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Lucia Capone",
-   "playerId": "df798628-8a59-49a0-959b-4885dd5dc7c9",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Lucille Licciardello",
    "playerId": "96dc9c19-55d6-432d-a17a-b3ae274f63a7",
    "team": "Colts Neck Racquet Club",
@@ -13785,24 +10934,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Luis Guzman",
-   "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Luis Perez",
    "playerId": "fe7754f9-404d-4b6d-8499-552ee9f237fa",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Luis Rodriguez",
-   "playerId": "185883fe-e77a-4588-a51c-f72e9a378ddc",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -13841,13 +10976,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Lynda Levan",
-   "playerId": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Lynda Tomaru",
    "playerId": "2b001a36-d13c-42fa-ae50-c9cc2f1aeb4e",
    "team": "Home Court",
@@ -13880,13 +11008,6 @@ window.DUPR_AUDIT = {
    "playerId": "1973cf93-7507-478a-b457-4fa7ec0951af",
    "team": "Bounce Malvern",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Lynn Snyder",
-   "playerId": "1973cf93-7507-478a-b457-4fa7ec0951af",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -13932,31 +11053,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Maeve Mcgowan",
-   "playerId": "24325b7a-50bd-42dc-84c2-e3ac54360f9c",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Maggie Malloy",
    "playerId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Maggie Malloy",
-   "playerId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
-   "name": "Maggie Tucker",
-   "playerId": "2632c266-629c-4ff2-bb86-31a243b57257",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -13972,13 +11072,6 @@ window.DUPR_AUDIT = {
    "team": "Pickle Juice Blackwood",
    "slug": "b7ca04e4",
    "gender": "Female"
-  },
-  {
-   "name": "Mahesh Jonnalagdda",
-   "playerId": "b644a972-573e-4953-9b2f-6f6a8ba22813",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Male"
   },
   {
    "name": "Mai Chan",
@@ -14023,24 +11116,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Manuela Caiati",
-   "playerId": "055f3bbb-3d19-4709-b29e-0e4ad54ba0cb",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Mara Boast",
    "playerId": "75a01ddc-a43e-4853-bff8-5f88628c2204",
    "team": "Bounce Malvern",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Mara Boast",
-   "playerId": "75a01ddc-a43e-4853-bff8-5f88628c2204",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -14055,13 +11134,6 @@ window.DUPR_AUDIT = {
    "playerId": "d7bdde76-1007-4b20-a804-4efcd08c3598",
    "team": "Flemington Blue",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Marc Friedman",
-   "playerId": "d7bdde76-1007-4b20-a804-4efcd08c3598",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -14097,20 +11169,6 @@ window.DUPR_AUDIT = {
    "playerId": "7891b1eb-476e-4105-b7d3-36853c9e3b28",
    "team": "Home Court",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Marc Pellicane",
-   "playerId": "1c13f01f-aeb7-45db-9faf-a6567d22bb81",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Marc Witte",
-   "playerId": "846b9f43-2055-4f81-a134-bb64b8d636d0",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -14156,13 +11214,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Margaret Robb",
-   "playerId": "9bd69558-b2d9-4f5a-9cc1-177713707ab7",
-   "team": "The Robbinsvilians",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Margaret Weidlich",
    "playerId": "7021e97f-1e5e-4adb-ac80-1a9c919caba6",
    "team": "Allstar Pickler",
@@ -14184,24 +11235,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Margo Langer",
-   "playerId": "0ac4f132-2c5c-4a1b-92a6-350f1952aa75",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Marguerite Greener",
    "playerId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d",
    "team": "Picklr Newtown",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Marguerite Greener",
-   "playerId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -14338,31 +11375,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mario Contreras",
-   "playerId": "323d96c3-4160-410b-96a5-87263e825f62",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
-   "name": "Mariola Biekisz",
-   "playerId": "188e1231-451b-48a6-84b8-9a9b11524618",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Marita Dow",
    "playerId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Marjean Stokes",
-   "playerId": "b25b5bf6-a97b-48b9-8b72-5979e2c854ba",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -14422,13 +11438,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mark Thomas",
-   "playerId": "fec4bba5-3f44-4c2a-8c39-22d9b02207c2",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Mark Vanarendonk",
    "playerId": "7d118eb0-a3f3-4932-a637-1e9fcb986ff9",
    "team": "Allstar Pickler",
@@ -14478,25 +11487,11 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Martyn Babitz",
-   "playerId": "cf328b8f-9626-4bdf-8069-da6d0f8b17e9",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Martyna Dudek",
    "playerId": "670bca7b-680e-426c-835d-5677a6a46605",
    "team": "Pickleball Palace",
    "slug": "a1413f3d",
    "gender": "Female"
-  },
-  {
-   "name": "Marvell Whitley",
-   "playerId": "af790542-53d7-4390-a074-40c743a9be0c",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
   },
   {
    "name": "Marvin Gordon",
@@ -14527,13 +11522,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mary Beth Devaul",
-   "playerId": "1006ef09-eacb-4614-9b54-529256f87497",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Mary Brashier",
    "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
    "team": "Flemington",
@@ -14548,31 +11536,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Mary Brashier",
-   "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Mary Brashier",
-   "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Mary Callaghan",
    "playerId": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
    "team": "Pickle Place",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Mary Callaghan",
-   "playerId": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -14611,45 +11578,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Mary Mcnichol",
-   "playerId": "7c21a869-ee85-4708-8b8f-e4d3e39e7d2c",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Mary Pat Chiswick",
-   "playerId": "9e69c47b-3aa5-45bf-b385-c688cadbfc3a",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Mary Shaila Mendoza",
    "playerId": "f64b8044-4d67-413e-8d34-c1b9de570fcb",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Mary Shaila Mendoza",
-   "playerId": "f64b8044-4d67-413e-8d34-c1b9de570fcb",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
-   "name": "Mary Wu",
-   "playerId": "90223335-e0fd-43ac-b08f-089499e91e87",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Maryann Tapp",
-   "playerId": "fba82708-f25f-4a0a-a8b0-9d509a126e1d",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
    "gender": "Female"
   },
   {
@@ -14672,20 +11604,6 @@ window.DUPR_AUDIT = {
    "team": "Pickle Place",
    "slug": "2edc44e7",
    "gender": "Female"
-  },
-  {
-   "name": "Marykristin Haskell",
-   "playerId": "ecb01f29-37c9-4caa-a023-dc5d2591f375",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
-   "name": "Mason Jordan",
-   "playerId": "0aaad47b-2fee-4602-9689-1a866cb31119",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
   },
   {
    "name": "Matheus Korndoerfer",
@@ -14723,31 +11641,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Matt Enz",
-   "playerId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "Matt Hancock",
-   "playerId": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Matt Jump",
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Matt King",
-   "playerId": "875e4351-64ca-4d5a-a719-332b28d40bea",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -14856,13 +11753,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Matthew Inzerillo",
-   "playerId": "51ceabf9-8258-4835-9835-c7d915220185",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Matthew Kraft",
    "playerId": "f2cb8ea7-ed55-42cc-be8e-9f8352a330e8",
    "team": "Bounce Malvern",
@@ -14919,13 +11809,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Matthew Mintz",
-   "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Matthew Peletier",
    "playerId": "7ca5a039-420c-4a5b-8721-c87b378b9a5f",
    "team": "Pickle House",
@@ -14954,24 +11837,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Matthew Shusterman",
-   "playerId": "c979c513-454d-434c-8a65-3b5fea8a8d7d",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Matthew Stephenson",
    "playerId": "469c2465-d07c-4449-9adb-046595aeba8a",
    "team": "Home Court",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Matthew Tarshis",
-   "playerId": "6ba8d9f3-5fd9-41f3-b64c-d9c141c005e0",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -15073,13 +11942,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Megan Harvey",
-   "playerId": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
-   "team": "Drop it Like it's Hot",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Megan Quigley",
    "playerId": "37d69abc-9610-4c03-a618-f905bd0e2fb1",
    "team": "Bounce Tempest",
@@ -15115,20 +11977,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Meghan Klein",
-   "playerId": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Meghan Plunkett",
-   "playerId": "5a6e7604-4d88-490b-b4da-b1cd33a17c27",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Mei Li",
    "playerId": "28330003-3125-4050-be9a-ddd726dccfe2",
    "team": "Stelton Sports",
@@ -15143,13 +11991,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Melinda Wood",
-   "playerId": "ac3510a8-165d-4ea2-b1d1-4aaec154db4b",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Melissa Dardani",
    "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530",
    "team": "Flemington",
@@ -15161,13 +12002,6 @@ window.DUPR_AUDIT = {
    "playerId": "2ed4e87b-b9f6-4df8-b733-8aaf89ddc285",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Melissa Dipierro",
-   "playerId": "2ed4e87b-b9f6-4df8-b733-8aaf89ddc285",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -15220,32 +12054,11 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Merwynn Pagdanganan",
-   "playerId": "5c0163f9-1118-4e0d-8b13-7d37a88a4e53",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Meryl Nadler",
    "playerId": "90987b97-d181-4c15-9c7c-e0bebff4e9b0",
    "team": "Jersey Pickleball Club",
    "slug": "2edc44e7",
    "gender": "Female"
-  },
-  {
-   "name": "Mica Gray",
-   "playerId": "e11c8ee0-41d6-4ea6-8b34-562d319856c2",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
-   "name": "Micah Weaver",
-   "playerId": "cef2997a-d41d-42b0-8a70-373738e0fe60",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Male"
   },
   {
    "name": "Michael Alfaro",
@@ -15315,13 +12128,6 @@ window.DUPR_AUDIT = {
    "playerId": "861c3f68-2c96-4a96-a75e-645020f73a5c",
    "team": "Bounce Malvern Black",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Michael Finkelstein",
-   "playerId": "861c3f68-2c96-4a96-a75e-645020f73a5c",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -15507,13 +12313,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Michael Smith",
-   "playerId": "b3d9070b-8036-402f-b0a1-23ae600f3410",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Michael Stout",
    "playerId": "c6ea0e1b-0c39-4824-a7f8-68bcf38be1a9",
    "team": "One Love",
@@ -15532,13 +12331,6 @@ window.DUPR_AUDIT = {
    "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb",
    "team": "Bounce Malvern",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Michael Taylor",
-   "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -15574,20 +12366,6 @@ window.DUPR_AUDIT = {
    "playerId": "148387a8-f20a-44df-981d-0d9d2e7bf443",
    "team": "Dill Dinkers Freehold",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Michael Vollmer",
-   "playerId": "148387a8-f20a-44df-981d-0d9d2e7bf443",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Michael Weber",
-   "playerId": "0ab0986a-43d6-477f-842a-49c989fb0b3e",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -15773,13 +12551,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mike Dochney",
-   "playerId": "aa63d50a-88e6-4de7-9592-1546f21d8648",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Mike Esfahani",
    "playerId": "5309d94e-5f39-4cca-a25d-cba3773abe73",
    "team": "Bounce Tempest",
@@ -15791,20 +12562,6 @@ window.DUPR_AUDIT = {
    "playerId": "7663a676-aec1-4dea-9f73-4127a2c88dbb",
    "team": "Picklr Newark",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Mike Fu",
-   "playerId": "6374c589-eb0b-40c1-bafc-bc812a4a0758",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
-   "name": "Mike Fuchs",
-   "playerId": "310ae077-8a59-4cb5-a97d-d1c41cfbc846",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -15850,13 +12607,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mike Leach",
-   "playerId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Mike Matchett",
    "playerId": "352c1c52-e08e-4cb8-826d-21c700529419",
    "team": "Pickleball Palace",
@@ -15864,31 +12614,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Mike Piccirillo",
-   "playerId": "f7bf2605-eaf3-46a4-9a1e-fa3f3cd4bb4b",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Mike Scioli Jr",
    "playerId": "6ae15153-88e8-48c0-93b6-8be97adbadce",
    "team": "Forward",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Mike Scioli Jr",
-   "playerId": "6ae15153-88e8-48c0-93b6-8be97adbadce",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "Mikhail Grandel",
-   "playerId": "fdf89c7e-792c-46bd-85b1-4159a12d586e",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -15913,39 +12642,11 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Minjel Shah",
-   "playerId": "e9933537-c449-42e8-b742-0fd7e4ea8619",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
    "name": "Mira Sigal-Feldman",
    "playerId": "26ad6baa-c97e-4fb8-974a-d8c1c6e664cc",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
    "gender": "Female"
-  },
-  {
-   "name": "Mira Sigal-Feldman",
-   "playerId": "26ad6baa-c97e-4fb8-974a-d8c1c6e664cc",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
-   "name": "Mira Sigal-Feldman",
-   "playerId": "26ad6baa-c97e-4fb8-974a-d8c1c6e664cc",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
-   "name": "Mitchell Keingarsky",
-   "playerId": "1e064b34-797f-4945-9a56-0b1a22e47450",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
   },
   {
    "name": "Moe Phanhnong",
@@ -15966,13 +12667,6 @@ window.DUPR_AUDIT = {
    "playerId": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
    "team": "Flemington",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Monika Torbus",
-   "playerId": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -16001,20 +12695,6 @@ window.DUPR_AUDIT = {
    "playerId": "ac049c23-359d-4508-8bc1-274a7276239c",
    "team": "Pickle House",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Morgan Valencia King",
-   "playerId": "ac049c23-359d-4508-8bc1-274a7276239c",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Mustafa Kodwavi",
-   "playerId": "69c553be-566b-41f5-9398-2c0b4007b2b2",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -16074,13 +12754,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Nam Barsh",
-   "playerId": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Nami Huang",
    "playerId": "481c21f0-8481-47e8-9eba-9ab21c167cf4",
    "team": "Pickleball Lehigh Valley",
@@ -16099,13 +12772,6 @@ window.DUPR_AUDIT = {
    "playerId": "4ef265ed-35c0-4d1d-a51e-a258891a9261",
    "team": "Monroe",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Nancy Blank",
-   "playerId": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -16130,24 +12796,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Nancy Cook",
-   "playerId": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Nancy Culley",
    "playerId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f",
    "team": "Picklr Newark",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Nancy Dippolito",
-   "playerId": "1b7bdbc4-f45a-4db7-8994-103ae87c13d3",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
    "gender": "Female"
   },
   {
@@ -16165,24 +12817,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Natalia Fischer",
-   "playerId": "79578efc-55c2-49fb-9f69-2f776055ff70",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
    "name": "Natalia Koontz",
    "playerId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
    "team": "Dill Dinkers Hatboro",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Natalia Maciejewicz",
-   "playerId": "ffd29340-40ba-4a85-a922-f93075d9b0df",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -16207,13 +12845,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Nate Y",
-   "playerId": "9d619008-c628-408e-8301-855b82ee4c6e",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Nathan Law",
    "playerId": "3c81d27f-9e68-439b-a476-f5ac1a54f45a",
    "team": "ACE Moorestown",
@@ -16235,31 +12866,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Naveen Elangovan",
-   "playerId": "887b93c9-f19a-4451-8ac6-28610a218ea8",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Neale Smith",
    "playerId": "bd958367-8cce-4f24-ba5a-208bac9b42b0",
    "team": "APC Garden State",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Neale Smith",
-   "playerId": "bd958367-8cce-4f24-ba5a-208bac9b42b0",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
-   "name": "Neil Dedhia",
-   "playerId": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -16333,13 +12943,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Nicholas Jackson",
-   "playerId": "bb72e9bd-3d29-4f40-911c-2c5f07c73da6",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
    "name": "Nicholas Lagrua",
    "playerId": "6f1df3a0-bfc7-4d3b-a5f5-0ee9f40da488",
    "team": "Dill Dinkers Freehold",
@@ -16365,20 +12968,6 @@ window.DUPR_AUDIT = {
    "playerId": "9790dabb-8be3-48df-9fc4-eecb920ec98c",
    "team": "Pickle House",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Nick Babinsky",
-   "playerId": "9790dabb-8be3-48df-9fc4-eecb920ec98c",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Nick Boyes",
-   "playerId": "eb0839fd-375d-4291-95f0-145106f0555f",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -16431,13 +13020,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Nicole Demaise",
-   "playerId": "e2b97306-b8dc-4eb0-b89d-ae227d1e86e4",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Nicole Mandry",
    "playerId": "11112eb4-26f3-458d-954e-5718dd3b9332",
    "team": "Players Courtyard",
@@ -16480,31 +13062,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Nikhil Khasnis",
-   "playerId": "6cabc42a-ee6e-4ac3-8e69-5c4792687888",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
-   "name": "Nikhil Sachdeva",
-   "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Nikki Koons",
    "playerId": "51eba5fc-d8dc-417a-a4de-051515751377",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Nikki Koons",
-   "playerId": "51eba5fc-d8dc-417a-a4de-051515751377",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Female"
   },
   {
@@ -16513,13 +13074,6 @@ window.DUPR_AUDIT = {
    "team": "Pickleball HQ",
    "slug": "c118b8e9",
    "gender": "Male"
-  },
-  {
-   "name": "Nina Donnelly",
-   "playerId": "fd9de335-6ef4-48c0-82ac-c1e618f5f062",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
   },
   {
    "name": "Nirav Solanki",
@@ -16561,20 +13115,6 @@ window.DUPR_AUDIT = {
    "playerId": "1898b8fb-ea1d-4bb8-bcc5-17b1fba29700",
    "team": "Flemington Green",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Noelle Villa",
-   "playerId": "1898b8fb-ea1d-4bb8-bcc5-17b1fba29700",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Noelle Villa",
-   "playerId": "1898b8fb-ea1d-4bb8-bcc5-17b1fba29700",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -16655,13 +13195,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Olivia Lee",
-   "playerId": "af2bdee6-7d41-4730-869b-2c6530e7378d",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Olivia Schaller",
    "playerId": "84c96e34-809c-4b34-9005-8ea76ca6a233",
    "team": "Jersey Devil Green",
@@ -16711,13 +13244,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Pallavi Deshpande",
-   "playerId": "92f3c12c-3291-4176-acd2-2bbd5b83136c",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Pam Boyd",
    "playerId": "04aefa29-20e3-41b7-a680-19d13f9d4289",
    "team": "ACE Moorestown",
@@ -16743,20 +13269,6 @@ window.DUPR_AUDIT = {
    "playerId": "6b6274a7-77d0-420a-8883-5cac081fdf4d",
    "team": "Picklr Newark",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Pam Politis",
-   "playerId": "6b6274a7-77d0-420a-8883-5cac081fdf4d",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
-   "name": "Pamela Toy",
-   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -16795,13 +13307,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Patricia Costantini",
-   "playerId": "a125eb84-bceb-4262-a45a-29df0234e738",
-   "team": "The Bouncers",
-   "slug": "a40bd7e8",
-   "gender": "Female"
-  },
-  {
    "name": "Patricia Kavanaugh",
    "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
    "team": "Flemington",
@@ -16813,20 +13318,6 @@ window.DUPR_AUDIT = {
    "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
    "team": "Flemington Blue",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Patricia Kavanaugh",
-   "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Patricia Kavanaugh",
-   "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
    "gender": "Female"
   },
   {
@@ -16842,20 +13333,6 @@ window.DUPR_AUDIT = {
    "team": "PickleRage Union County Pandas",
    "slug": "e27386b3",
    "gender": "Female"
-  },
-  {
-   "name": "Patrick Caponegro",
-   "playerId": "eeb074a7-66de-4302-8ffb-e0ad267026d7",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
-   "name": "Patrick Mirasol",
-   "playerId": "f9660bdf-0e09-4e47-9af4-7fd9255f64e2",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
   },
   {
    "name": "Patrick Ryan",
@@ -16876,13 +13353,6 @@ window.DUPR_AUDIT = {
    "playerId": "1f25ceda-8df3-4d7c-87ab-efca36d548f2",
    "team": "APC Garden State",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Patty Andrzejewski",
-   "playerId": "1f25ceda-8df3-4d7c-87ab-efca36d548f2",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
    "gender": "Female"
   },
   {
@@ -16928,13 +13398,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Paul Matzko",
-   "playerId": "faab88e7-d3ba-4516-bdd0-e37c622ce5de",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Paul Mcalary",
    "playerId": "4b2fda63-a536-4730-9140-4a372b1726e9",
    "team": "Bounce Philly",
@@ -16963,13 +13426,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Paul Phillips",
-   "playerId": "9ef3e1b1-2818-46f0-ab0b-2ee190d176b3",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Paul Rappoport",
    "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
    "team": "Allstar Pickler",
@@ -16981,13 +13437,6 @@ window.DUPR_AUDIT = {
    "playerId": "ac412cd9-bd0a-4f98-8253-9c8c12911465",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Paula Cuerquis",
-   "playerId": "ac412cd9-bd0a-4f98-8253-9c8c12911465",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -17054,24 +13503,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Peggy Matzen",
-   "playerId": "d64631c2-5086-4d28-b93e-26c8661af87b",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Perri Goldstein",
    "playerId": "c314fe29-19de-4c08-956b-ae10493edcc8",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Perri Goldstein",
-   "playerId": "c314fe29-19de-4c08-956b-ae10493edcc8",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -17082,24 +13517,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Pete Certo",
-   "playerId": "3572118b-4e01-4e64-96a4-a7cc80869425",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Pete Dunn",
    "playerId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Pete Dunn",
-   "playerId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -17128,13 +13549,6 @@ window.DUPR_AUDIT = {
    "playerId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
    "team": "Jersey Devil Green",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Peter David",
-   "playerId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -17271,13 +13685,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Priya Narahari",
-   "playerId": "ca490492-2de9-4f43-a01d-e340d9f34788",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Qiuwei Feng",
    "playerId": "5afdbd12-d79e-45ec-ae26-63ea91a262f2",
    "team": "Picklr Newtown",
@@ -17306,13 +13713,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Quincy Zhang",
-   "playerId": "30c66392-1494-4e99-a538-b3f06dda6681",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Quynh Nguyen",
    "playerId": "4b57327b-cf8c-41d3-8b29-6884a8d927f1",
    "team": "Bounce Tempest",
@@ -17324,13 +13724,6 @@ window.DUPR_AUDIT = {
    "playerId": "2535fec2-d712-4d5d-8294-ee76232b2ca9",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Quynh Nguyen",
-   "playerId": "4b57327b-cf8c-41d3-8b29-6884a8d927f1",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -17474,13 +13867,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Rajeeth Nadig",
-   "playerId": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Rakesh Roy",
    "playerId": "f54de088-2ac8-4b88-9b01-571fe28da246",
    "team": "Pickle House",
@@ -17488,24 +13874,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Rakesh Roy",
-   "playerId": "f54de088-2ac8-4b88-9b01-571fe28da246",
-   "team": "Hot Ballers!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
    "name": "Rakshit Maddur Gopinath",
    "playerId": "1448a485-6172-48af-96e0-f4876e9c5268",
    "team": "Pickle House",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Rakshit Maddur Gopinath",
-   "playerId": "1448a485-6172-48af-96e0-f4876e9c5268",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -17614,13 +13986,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Rebecca Mcginnis",
-   "playerId": "e292105e-2554-4a80-accc-6b28514a8ec1",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Rebecca Ramos",
    "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c",
    "team": "Pickle House",
@@ -17663,20 +14028,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ren Mortara",
-   "playerId": "91b2bf26-24f1-437f-82d4-f8ad382c0479",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
-   "name": "Renee Celentano",
-   "playerId": "435b8a19-2bd0-4a7b-a3d5-e1ff0c6222ad",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Female"
-  },
-  {
    "name": "Renee Froeberg",
    "playerId": "3804b024-a017-4fa2-90d3-5d726e764f44",
    "team": "Picklr Fair Lawn",
@@ -17702,13 +14053,6 @@ window.DUPR_AUDIT = {
    "playerId": "7db295d5-04dd-42cb-bbed-e4ec7856e654",
    "team": "Jersey Pickleball Club",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Rich Aronow",
-   "playerId": "0ca5c008-b5e9-428e-968c-216e1882c348",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -17754,24 +14098,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Richard Demeuse",
-   "playerId": "d88f1d1e-be4e-449e-b9b2-c468753e1dd3",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Richard Fox",
    "playerId": "ef0bc1ce-6709-4172-97a6-8ea5a462bea4",
    "team": "Jersey Devil",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Richard Gold",
-   "playerId": "27b2b26d-c3f5-49cb-9dcb-32f9a2cf79ad",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -17789,13 +14119,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Richard Renza",
-   "playerId": "57c13577-73cb-43f9-b0ac-cc939e10a749",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Richard Ricciardi",
    "playerId": "705bad48-cc2d-40fe-b96f-409996010d0d",
    "team": "Monroe",
@@ -17807,13 +14130,6 @@ window.DUPR_AUDIT = {
    "playerId": "9d1192c8-e17a-4251-a23b-59d122f4bada",
    "team": "APC Garden State",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Richard Ross",
-   "playerId": "9d1192c8-e17a-4251-a23b-59d122f4bada",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -17852,13 +14168,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Rick Weiser",
-   "playerId": "0748d687-13e0-403d-95de-28c640adaf43",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Rick Wickenheisser",
    "playerId": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
    "team": "Flemington",
@@ -17870,20 +14179,6 @@ window.DUPR_AUDIT = {
    "playerId": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
    "team": "Flemington",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Rick Wickenheisser",
-   "playerId": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
-   "team": "Summer of Slam",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Rick Wickenheisser",
-   "playerId": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -17943,31 +14238,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Rob Byrnes",
-   "playerId": "65d3d6a5-c8ab-4841-bedd-321372bbb624",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
-   "name": "Rob Hammer",
-   "playerId": "8be9c038-7619-4b46-af98-fc5be2811cd0",
-   "team": "Honeydrippers",
-   "slug": "b9b8230d",
-   "gender": "Male"
-  },
-  {
    "name": "Rob Oddy",
    "playerId": "89ba31d0-20be-4443-b93e-aab0866ad62d",
    "team": "Flemington Blue",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Rob Oddy",
-   "playerId": "89ba31d0-20be-4443-b93e-aab0866ad62d",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -18013,13 +14287,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Robbie Oddy",
-   "playerId": "cc1d39e6-1550-41b8-bb47-4118be5f9ba6",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Robert Alexander",
    "playerId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
    "team": "Dill Dinkers Lansdale",
@@ -18041,24 +14308,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Robert Block",
-   "playerId": "23d1d322-f31d-46b3-bf95-d86faab58b06",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Robert Courchain",
    "playerId": "371bb742-9ea6-464a-8c27-df8469b90a62",
    "team": "Players Courtyard",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Robert Courchain",
-   "playerId": "371bb742-9ea6-464a-8c27-df8469b90a62",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -18087,13 +14340,6 @@ window.DUPR_AUDIT = {
    "playerId": "52940bf9-2379-45c0-94db-829704ea0ecc",
    "team": "Pickleball Palace",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Robert Hansen",
-   "playerId": "afd103a8-84a1-43c5-99b9-a3f3c280b6b2",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -18171,13 +14417,6 @@ window.DUPR_AUDIT = {
    "playerId": "b85c2074-a149-4382-8563-e1ff5b5d70bc",
    "team": "Dill Dinkers Hatboro Aces",
    "slug": "6619816f",
-   "gender": "Male"
-  },
-  {
-   "name": "Robert Stoffers",
-   "playerId": "1934918c-d931-408e-a1e0-3ed291371f1b",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -18272,13 +14511,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Rommel Santos",
-   "playerId": "8ce91d1e-e5eb-439f-b181-48332a03f660",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Ron Branca",
    "playerId": "2caf34a7-c53c-410c-a7b4-47dd61398830",
    "team": "Picklr Newtown",
@@ -18349,38 +14581,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ross Bienstock",
-   "playerId": "4464f477-6545-4e8f-8893-af53a8eeefb5",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Ross Cogan",
-   "playerId": "1b682816-9513-4797-b836-6279e1ffda38",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Ross Switkes",
    "playerId": "eb9d0f6d-f22b-4928-9f8e-1641ed6a946b",
    "team": "Flemington",
    "slug": "6619816f",
-   "gender": "Male"
-  },
-  {
-   "name": "Ross Switkes",
-   "playerId": "eb9d0f6d-f22b-4928-9f8e-1641ed6a946b",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
-   "name": "Roy Dragon",
-   "playerId": "b11eb919-2ee8-4767-8adf-aee1acd0a11a",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -18409,13 +14613,6 @@ window.DUPR_AUDIT = {
    "playerId": "43d2bf2c-e732-4ce8-adae-035d989fa792",
    "team": "Bounce Malvern",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Russell Cripps",
-   "playerId": "43d2bf2c-e732-4ce8-adae-035d989fa792",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -18451,13 +14648,6 @@ window.DUPR_AUDIT = {
    "playerId": "de47e045-80e3-4209-a32e-d1c8a6de083b",
    "team": "Forward",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Ryan Gerstel",
-   "playerId": "de47e045-80e3-4209-a32e-d1c8a6de083b",
-   "team": "The Dilluminati",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -18510,13 +14700,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ryo Inkyo",
-   "playerId": "e0fdd367-8a48-44ae-a889-ca5cdffdd623",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Saad Talat Siddiqui",
    "playerId": "ebfeb773-e8cd-4b6a-aafd-ee2772540168",
    "team": "Allstar Pickler",
@@ -18552,13 +14735,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Sal Bwint",
-   "playerId": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Sal Frangipane",
    "playerId": "3bfdf88b-aaa3-4f8d-a673-6a15001fb45a",
    "team": "Premiere",
@@ -18587,13 +14763,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Salvatore Caminito",
-   "playerId": "b7af774b-4c46-4429-8177-2b5455d8744f",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Sam Doctor",
    "playerId": "3070f4fd-b54d-4aac-81e9-72ffc24c2845",
    "team": "Flemington Green",
@@ -18605,13 +14774,6 @@ window.DUPR_AUDIT = {
    "playerId": "02ee33bb-1cb7-4890-8af1-1ef99a62ddcd",
    "team": "PKLD",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Sam Tuzza",
-   "playerId": "e3a6df47-7687-4ab8-b001-7d63a8e5372a",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -18727,24 +14889,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Sandra Thompson",
-   "playerId": "9fc1b2e8-f3a2-4d1d-991f-1551bf05fb31",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Sandro Stefanelli",
    "playerId": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
    "team": "Bounce Malvern Boom",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Sandro Stefanelli",
-   "playerId": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
    "gender": "Male"
   },
   {
@@ -18780,13 +14928,6 @@ window.DUPR_AUDIT = {
    "playerId": "e80ce493-2de2-40d5-a94c-ea0d42634f82",
    "team": "Picklr Newark",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Sapna Chordia",
-   "playerId": "65b5b8bb-f72f-4477-b842-83e58e565ce4",
-   "team": "Kitchen Ninjas",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -18874,13 +15015,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Sarah Ross",
-   "playerId": "261d14c5-288e-4349-a3ed-50bad4b620c1",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Sarah Silva",
    "playerId": "341e5936-88d4-4231-8cc3-1285a0c2f3e1",
    "team": "PickleRage Union County Pandas",
@@ -18902,38 +15036,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Sarah Stangota",
-   "playerId": "80fbbb8f-8f4d-4a6f-bc08-925f29df32ea",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Sarah Tantum",
-   "playerId": "cf2132fb-7e7d-4ead-82b0-2a444451413c",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
-   "name": "Sarika Nadig",
-   "playerId": "f237825e-81d3-4c1a-a13a-e235413b1215",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Sarina Manetta",
    "playerId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Sarina Manetta",
-   "playerId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -18942,20 +15048,6 @@ window.DUPR_AUDIT = {
    "team": "Stelton Sports",
    "slug": "c43b8608",
    "gender": "Female"
-  },
-  {
-   "name": "Saul Barsh",
-   "playerId": "0a78359b-1de2-4ba8-adb8-d2006d923908",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
-   "name": "Saurabh Kohli",
-   "playerId": "51136b7e-0f8d-4375-9b05-df435def9e96",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
-   "gender": "Male"
   },
   {
    "name": "Savan Patel",
@@ -19007,13 +15099,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Scott Fujiwara",
-   "playerId": "36700a8a-e532-4781-afb5-3bed8373bd7b",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Male"
-  },
-  {
    "name": "Scott Gardo",
    "playerId": "2580158f-1c0c-4a5a-8a0c-b48d2c1f0067",
    "team": "Forward",
@@ -19021,24 +15106,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Scott Gardo",
-   "playerId": "2580158f-1c0c-4a5a-8a0c-b48d2c1f0067",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Scott Heist",
    "playerId": "43296dc0-9f07-4173-a3c4-6df92c7bbb37",
    "team": "Flemington Green",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Scott Heist",
-   "playerId": "3949f105-cb2f-459e-8396-d0d76a350480",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -19070,13 +15141,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Scott Rubin",
-   "playerId": "c12175df-b959-4efe-95e7-e5298b783da8",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Scott Strong",
    "playerId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d",
    "team": "Players Courtyard",
@@ -19102,20 +15166,6 @@ window.DUPR_AUDIT = {
    "playerId": "12f33b3a-b4ea-4b31-affa-dc7917dce94b",
    "team": "Monroe",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "Sean Kennedy",
-   "playerId": "b8c63d85-8b6b-4b7f-948e-82f7e4df0bb8",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
-   "name": "Sean Mahoney",
-   "playerId": "4c6f1793-942d-4ef7-b2d6-b707f18a4002",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
    "gender": "Male"
   },
   {
@@ -19151,20 +15201,6 @@ window.DUPR_AUDIT = {
    "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968",
    "team": "Flemington",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Sean O'Connell",
-   "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
-   "name": "Sean Yu",
-   "playerId": "231403df-6e0f-4ff9-aa8b-99b6116858b0",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
    "gender": "Male"
   },
   {
@@ -19224,13 +15260,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Shan Jiang",
-   "playerId": "e5a25064-6ff4-4e66-b4c3-cc2dad0d4fb4",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Shania Bui",
    "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
    "team": "Bounce Tempest",
@@ -19242,20 +15271,6 @@ window.DUPR_AUDIT = {
    "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Shania Bui",
-   "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
-   "team": "Picholas Cage",
-   "slug": "3e9b6a58",
-   "gender": "Female"
-  },
-  {
-   "name": "Shannon Dominczyk",
-   "playerId": "d2c9d478-0edf-4328-b736-e63fa11ba882",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
    "gender": "Female"
   },
   {
@@ -19298,20 +15313,6 @@ window.DUPR_AUDIT = {
    "playerId": "697e9a10-3950-4376-96f8-8b1f083875f1",
    "team": "Flemington Blue",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Sharon Oddy",
-   "playerId": "697e9a10-3950-4376-96f8-8b1f083875f1",
-   "team": "Pickleball Addicts",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
-   "name": "Sharon Oddy",
-   "playerId": "697e9a10-3950-4376-96f8-8b1f083875f1",
-   "team": "Pickle Bunch",
-   "slug": "b9b8230d",
    "gender": "Female"
   },
   {
@@ -19399,13 +15400,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Shayne Clowar",
-   "playerId": "30b75fd5-95cf-4a1a-b296-10e7e381166e",
-   "team": "Kitchen Nightmare",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Sheel Motiwala",
    "playerId": "e3f3e90d-b026-49f2-8194-45e9252b61f8",
    "team": "Jersey Devil",
@@ -19434,31 +15428,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Shekhar Bansal",
-   "playerId": "f44c50e6-af45-41d5-9439-1e1cbf9b67f1",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Sheree Bracco",
-   "playerId": "52850fc6-2799-42f1-9ef5-39fb08c787e5",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Sherri Falsetti",
    "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
    "team": "Picklr Newtown",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Sheryl Axelrod",
-   "playerId": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
-   "team": "Kitchen Commanders",
-   "slug": "c9a2c0fe",
    "gender": "Female"
   },
   {
@@ -19490,13 +15463,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Sibi Thomas",
-   "playerId": "3127a3b2-11c9-4a02-b26d-05030387d80a",
-   "team": "Court Jesters",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Simon Burns",
    "playerId": "3a1cc58f-1661-41c2-b2cb-4e39a1b60bac",
    "team": "Picklr Newark",
@@ -19515,13 +15481,6 @@ window.DUPR_AUDIT = {
    "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50",
    "team": "Flemington",
    "slug": "cca69ab9",
-   "gender": "Male"
-  },
-  {
-   "name": "Simon Perry",
-   "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50",
-   "team": "Draft Day Disasters",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -19564,13 +15523,6 @@ window.DUPR_AUDIT = {
    "playerId": "c9703548-4d44-4960-8212-22be2c048a66",
    "team": "Jersey Pickleball Club",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Sonia Tuhin",
-   "playerId": "5acfafaf-212f-4824-a11d-c0b948585d75",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -19623,13 +15575,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Sree Harsha Konduru",
-   "playerId": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Srilahari Kunchapu",
    "playerId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
    "team": "Jersey Devil Green",
@@ -19662,13 +15607,6 @@ window.DUPR_AUDIT = {
    "playerId": "768c88bd-683d-4204-8124-a589c8028b6e",
    "team": "ACE Moorestown",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Stacey Frank",
-   "playerId": "768c88bd-683d-4204-8124-a589c8028b6e",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
    "gender": "Female"
   },
   {
@@ -19707,13 +15645,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Stanley Bonczek",
-   "playerId": "f4cd45db-8d83-423a-8936-c7d7a3b0ffad",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Male"
-  },
-  {
    "name": "Stanley Okpor",
    "playerId": "dba57d37-2d91-4c25-96ae-cbc287043db4",
    "team": "Pickleball Palace Blue",
@@ -19742,13 +15673,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Steph Wachino",
-   "playerId": "63870355-c8af-48c8-8472-f6cc82db5508",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Female"
-  },
-  {
    "name": "Stephane Sabathiet",
    "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
    "team": "Picklr Newtown",
@@ -19767,13 +15691,6 @@ window.DUPR_AUDIT = {
    "playerId": "815aa4ab-dc28-4202-bd71-c0209705cf1a",
    "team": "PKLD",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Stephanie Ho",
-   "playerId": "815aa4ab-dc28-4202-bd71-c0209705cf1a",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -19816,13 +15733,6 @@ window.DUPR_AUDIT = {
    "playerId": "06ae7962-cab5-454b-8788-76ccc249930f",
    "team": "Pickle House",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Stephany Venuto",
-   "playerId": "06ae7962-cab5-454b-8788-76ccc249930f",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -19910,13 +15820,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Steve Ciocco",
-   "playerId": "c5578bac-f973-49f9-8bfe-ff866cc4f275",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Male"
-  },
-  {
    "name": "Steve Gerwer",
    "playerId": "a5a6470f-9dee-468c-85fe-4286ee0b4ecd",
    "team": "Premiere",
@@ -19935,13 +15838,6 @@ window.DUPR_AUDIT = {
    "playerId": "a861a127-253c-4cb2-a1d6-93a37558b93a",
    "team": "APC Garden State",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Steve Hong",
-   "playerId": "a861a127-253c-4cb2-a1d6-93a37558b93a",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -19966,20 +15862,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Steve Tosi",
-   "playerId": "682dd503-f067-4547-b5c0-c9ce1cc6609b",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Steve Traum",
-   "playerId": "8880a77b-f445-45f7-9b21-c1e237f1079f",
-   "team": "ACE ACE Baby",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Steven Fernandez",
    "playerId": "cfe27f22-d878-4a3c-a680-7c04f44f5b0d",
    "team": "Dill Dinkers Hatboro",
@@ -19994,13 +15876,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Steven Garfinkel",
-   "playerId": "78c3e57f-d029-472e-a0d8-5d25ff0975c5",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Steven Gregov",
    "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
    "team": "Flemington Green",
@@ -20012,13 +15887,6 @@ window.DUPR_AUDIT = {
    "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
    "team": "Flemington Blue",
    "slug": "2edc44e7",
-   "gender": "Male"
-  },
-  {
-   "name": "Steven Gregov",
-   "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
-   "team": "Color Coordinated Chaos",
-   "slug": "eaa4c1dc",
    "gender": "Male"
   },
   {
@@ -20050,27 +15918,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Steven Levin",
-   "playerId": "da15ed15-38dd-423e-8d4e-963a596450fe",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
-   "name": "Steven Mark",
-   "playerId": "a068f4d0-360e-4abf-a7e5-94ae16f56b03",
-   "team": "Big Dink Energy",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "Steven Pinto",
-   "playerId": "33cec39e-fe6c-4913-b41d-b2adc7916445",
-   "team": "Pickleball Bandits",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Steven Truzzolino",
    "playerId": "91c0c6ae-3f05-46c0-b1aa-6f328a4bf820",
    "team": "PKLD",
@@ -20082,13 +15929,6 @@ window.DUPR_AUDIT = {
    "playerId": "083316b5-595a-4b81-90e7-d72ee570e021",
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Stuart Hagenlock",
-   "playerId": "474ea101-ee51-4e45-bbe1-46c03887fe57",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
    "gender": "Male"
   },
   {
@@ -20113,20 +15953,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Sue Caputo",
-   "playerId": "39c42fdb-bb35-458b-9460-b60d8fa5fcdb",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
-   "name": "Sue Cerrone",
-   "playerId": "c788553c-18fd-4fcc-a43c-e521362e2a39",
-   "team": "Deadly Dinks",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Sue Johnson",
    "playerId": "c6046610-1dba-4bad-bc89-57e5baa0983f",
    "team": "Flemington Blue",
@@ -20145,13 +15971,6 @@ window.DUPR_AUDIT = {
    "playerId": "cec94ca2-1b4a-4787-803a-b08ccdae1d18",
    "team": "Pickle House",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Supriya Kothakonda",
-   "playerId": "cec94ca2-1b4a-4787-803a-b08ccdae1d18",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -20176,24 +15995,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Susan Ackley",
-   "playerId": "07a0e948-6308-4920-a6a8-1d5945552ecb",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Susan Belanger",
    "playerId": "864e4dd6-eb0d-46bf-9f15-5a9848251509",
    "team": "One Love",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Susan Bluni",
-   "playerId": "0a1213eb-97d7-475b-a8d3-bc1828c31027",
-   "team": "The Three-Fives",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {
@@ -20218,13 +16023,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Susan Goeckeler",
-   "playerId": "201e264e-23da-435d-a4b5-0fea908d1098",
-   "team": "Ackley's Aces",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Susan Hughes",
    "playerId": "e204f8ea-5c0b-4182-8af0-f372a67c2132",
    "team": "Pickleball Lehigh Valley",
@@ -20236,13 +16034,6 @@ window.DUPR_AUDIT = {
    "playerId": "151dccc8-ebe2-4f25-a27c-11a6ba2bf363",
    "team": "Dill Dinkers Hatboro",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Susan Li",
-   "playerId": "151dccc8-ebe2-4f25-a27c-11a6ba2bf363",
-   "team": "Baby Got Backhand",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -20260,24 +16051,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Susan St. Pierre",
-   "playerId": "001c2d38-829b-4fd0-b249-472f78337387",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Susana Palumbo",
    "playerId": "fa88f51d-14cc-4f01-ace6-505565019abb",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
-   "gender": "Female"
-  },
-  {
-   "name": "Susanne Katz",
-   "playerId": "040bdf16-e0f8-4b15-aa43-989ece44e097",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -20323,13 +16100,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Suzy Gay",
-   "playerId": "a6bb5bf6-2c0d-44b2-a1f7-85b6ba25bc8a",
-   "team": "Bash and Crash",
-   "slug": "e6a9b403",
-   "gender": "Female"
-  },
-  {
    "name": "Sydney Kuo",
    "playerId": "b84a9d3a-0868-49f6-9762-9d5a9429b798",
    "team": "Pickleball Kingdom Watchung",
@@ -20351,13 +16121,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Taina Wesner",
-   "playerId": "583c5e68-0868-4a21-b1f0-0e68b9559476",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Talen Singer",
    "playerId": "d4cdb8c8-9220-4aa7-b48a-41f9f30dff51",
    "team": "Bounce Malvern Boom",
@@ -20372,13 +16135,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Tammie Destefano",
-   "playerId": "4d9ce370-c177-4fea-87a0-089117702814",
-   "team": "The Mighty Dinks",
-   "slug": "edb788e6",
-   "gender": "Female"
-  },
-  {
    "name": "Tammy Dragon",
    "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
    "team": "Flemington Green",
@@ -20390,13 +16146,6 @@ window.DUPR_AUDIT = {
    "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
    "team": "Flemington",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Tammy Dragon",
-   "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Female"
   },
   {
@@ -20435,13 +16184,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Tara Kramer",
-   "playerId": "dae62b8e-5f8e-4721-8f41-3218518d1e30",
-   "team": "The Dill Inquents",
-   "slug": "eaa4c1dc",
-   "gender": "Female"
-  },
-  {
    "name": "Tara Lombardo",
    "playerId": "77d20dd0-823c-474e-b470-12f69db5a588",
    "team": "Premiere",
@@ -20477,31 +16219,10 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Taryn Seidner",
-   "playerId": "2dd97210-f5b8-4645-b400-a2611539cca8",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
-   "name": "Tatiana Gaban",
-   "playerId": "bfbefe4a-fa83-4446-9693-067b414321a5",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
-   "gender": "Female"
-  },
-  {
    "name": "Taylor Hartman",
    "playerId": "3bf2f55b-b253-4d2a-b1b9-d5953ef1b8ec",
    "team": "Pickle House",
    "slug": "6619816f",
-   "gender": "Female"
-  },
-  {
-   "name": "Taylor Hartman",
-   "playerId": "3bf2f55b-b253-4d2a-b1b9-d5953ef1b8ec",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -20582,13 +16303,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ted Asavamongkolkul",
-   "playerId": "ee07033c-b5a8-4d28-8920-7873dc8ffac0",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Tejas Goculdas",
    "playerId": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
    "team": "Dill Dinkers Hatboro Aces",
@@ -20596,24 +16310,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Tejas Goculdas",
-   "playerId": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Tera Baccile",
    "playerId": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
    "team": "Bounce Malvern Black",
    "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
-   "name": "Tera Baccile",
-   "playerId": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
-   "team": "Shrinky Dinks",
-   "slug": "b07de80e",
    "gender": "Female"
   },
   {
@@ -20645,13 +16345,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Terri Pflueger",
-   "playerId": "25ba9d21-49c3-4449-a120-1ba4a9621fb7",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Tesa Pribitkin",
    "playerId": "af8325ab-680e-414c-8522-2335ec1e7f50",
    "team": "Ballers Philly",
@@ -20670,13 +16363,6 @@ window.DUPR_AUDIT = {
    "playerId": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc",
    "team": "Bounce Philly",
    "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Tessa Arendt",
-   "playerId": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
    "gender": "Female"
   },
   {
@@ -20792,13 +16478,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Thomas Ridolfi",
-   "playerId": "6ae44f81-744f-42af-9df7-7ff1f0a759e7",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Thomas Roeller",
    "playerId": "e77590e0-255e-4437-b56f-d6aaf80dc2af",
    "team": "Pickleball Palace Blue",
@@ -20824,13 +16503,6 @@ window.DUPR_AUDIT = {
    "playerId": "f89874de-ee0c-486f-af7d-32e4aed59df8",
    "team": "Bounce Philly",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Thuy Le",
-   "playerId": "f89874de-ee0c-486f-af7d-32e4aed59df8",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -20890,45 +16562,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Tim Haresign",
-   "playerId": "ca80ecb3-183e-4c23-aa3d-1f680335268d",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
-   "name": "Tim Jordan",
-   "playerId": "51bdcef1-a7ae-49f0-a18a-be681d55cd52",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
-   "gender": "Male"
-  },
-  {
-   "name": "Tim Manzi",
-   "playerId": "79832eb5-9a38-482c-a71e-7903fcb4c205",
-   "team": "License to Dill",
-   "slug": "3e9b6a58",
-   "gender": "Male"
-  },
-  {
    "name": "Tim Phelan",
    "playerId": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Tim Phelan",
-   "playerId": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
-   "name": "Tim Plunkett",
-   "playerId": "f2f802bc-e8dc-4229-ab6f-3e5372fb7761",
-   "team": "Baggers",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -21016,13 +16653,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Tinglan Zhao",
-   "playerId": "5f2e3f29-7b61-4d23-ba5a-23bfe5eac362",
-   "team": "Ace & Eights",
-   "slug": "c9a2c0fe",
-   "gender": "Female"
-  },
-  {
    "name": "Tingting Huang",
    "playerId": "6813b1bf-f225-424f-bd66-12bbcb303abe",
    "team": "LBF Pickleball",
@@ -21034,13 +16664,6 @@ window.DUPR_AUDIT = {
    "playerId": "65e91297-9d8e-4aad-a836-8458adc59a75",
    "team": "Flemington",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Toby Athron",
-   "playerId": "65e91297-9d8e-4aad-a836-8458adc59a75",
-   "team": "Dinking Around",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -21072,13 +16695,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Todd Law",
-   "playerId": "9b0fe5d7-4586-4629-8408-928794ca1c3b",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Male"
-  },
-  {
    "name": "Todd Mitchell",
    "playerId": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
    "team": "Pickleball Palace",
@@ -21104,13 +16720,6 @@ window.DUPR_AUDIT = {
    "playerId": "9beb7596-d6b9-41aa-ab94-66d16839c1f5",
    "team": "Flemington Blue",
    "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
-   "name": "Tom Dominczyk",
-   "playerId": "9beb7596-d6b9-41aa-ab94-66d16839c1f5",
-   "team": "Ladies & Lords of Dinkingham",
-   "slug": "b9b8230d",
    "gender": "Male"
   },
   {
@@ -21163,13 +16772,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Tom Laiso",
-   "playerId": "13918154-3673-4dae-946a-2c2d4ac8863f",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Tom Maley",
    "playerId": "e05f8bd0-e64b-42dd-b6a0-42249573b3f4",
    "team": "Flemington Blue",
@@ -21181,13 +16783,6 @@ window.DUPR_AUDIT = {
    "playerId": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
    "team": "Flemington",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Tom Matko",
-   "playerId": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -21219,13 +16814,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Tony Scharko",
-   "playerId": "a67d258e-70c9-4c03-974a-7cd0620b15ff",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Tony Sethi",
    "playerId": "d75fb048-848d-41de-ae51-df5a0454b327",
    "team": "Pickleball Kingdom Hamilton Strikers",
@@ -21247,31 +16835,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Tracey Carney",
-   "playerId": "2b02f2fe-f8f7-42a7-bb36-d3f2322cec7c",
-   "team": "Kitchen Chaos",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Tracey Collins",
    "playerId": "f01a9ccb-b72e-4980-bdc0-73ed5a72f92c",
    "team": "PKLD",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Tracey Garcia",
-   "playerId": "74eac1f8-7aa0-4c21-ace3-55d26eca09c8",
-   "team": "Spin Doctors",
-   "slug": "b9b8230d",
-   "gender": "Female"
-  },
-  {
-   "name": "Tracey Lawson",
-   "playerId": "9daed7c5-8f54-4d25-9fd2-05b66b27c589",
-   "team": "The Big Dill",
-   "slug": "e6a9b403",
    "gender": "Female"
   },
   {
@@ -21324,25 +16891,11 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Trevor Foraker",
-   "playerId": "76ac11d3-ccdc-4009-b836-99023d2722ca",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
-   "gender": "Male"
-  },
-  {
    "name": "Trevor Oakley",
    "playerId": "ba6182a3-0d5e-4800-9306-db8757170c80",
    "team": "Bounce Malvern",
    "slug": "b7ca04e4",
    "gender": "Male"
-  },
-  {
-   "name": "Tricia Burdo",
-   "playerId": "c1af6941-a826-4930-9aac-4c13837754a8",
-   "team": "Kiss My Ace",
-   "slug": "fb4a73a2",
-   "gender": "Female"
   },
   {
    "name": "Trisha Marion",
@@ -21356,13 +16909,6 @@ window.DUPR_AUDIT = {
    "playerId": "a44398f7-39fd-4373-8499-d4cfd364055c",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Troy Sackawitch",
-   "playerId": "3b95d119-6f9a-4013-b07f-74e03823c1d1",
-   "team": "Ace Bandits",
-   "slug": "c9a2c0fe",
    "gender": "Male"
   },
   {
@@ -21384,13 +16930,6 @@ window.DUPR_AUDIT = {
    "playerId": "642b7fc5-f304-459a-889e-e726dc9edeab",
    "team": "APC Garden State",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Tyler Brandt",
-   "playerId": "3bbbfe7f-9cc8-482f-83e4-9160a9234a28",
-   "team": "Power Picklers",
-   "slug": "edb788e6",
    "gender": "Male"
   },
   {
@@ -21492,13 +17031,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Vanessa Zommi Kungne",
-   "playerId": "c1c58200-c49c-4797-9c4a-cee408744794",
-   "team": "Baby Got Backhands",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Varun Gurram",
    "playerId": "44864b51-f901-4470-a6bd-891495ffd132",
    "team": "Pickle House",
@@ -21510,13 +17042,6 @@ window.DUPR_AUDIT = {
    "playerId": "44864b51-f901-4470-a6bd-891495ffd132",
    "team": "Jersey Pickleball Club",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Varun Gurram",
-   "playerId": "44864b51-f901-4470-a6bd-891495ffd132",
-   "team": "Baggers, Sand",
-   "slug": "a85172dd",
    "gender": "Male"
   },
   {
@@ -21576,13 +17101,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Veronica Rosas",
-   "playerId": "abab39fe-af60-4956-9f97-460189ab90dc",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
-   "gender": "Female"
-  },
-  {
    "name": "Vi Quach",
    "playerId": "bab14d37-9fbb-46a2-a3a0-cf3d9820fe94",
    "team": "Ballers Philly",
@@ -21604,13 +17122,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Vicki Main",
-   "playerId": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
-   "team": "The Young Guns",
-   "slug": "b07de80e",
-   "gender": "Female"
-  },
-  {
    "name": "Victor Salicetti",
    "playerId": "08cb8582-4347-4694-9f58-7e479aa3b7a5",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -21629,13 +17140,6 @@ window.DUPR_AUDIT = {
    "playerId": "184907fa-5d07-4ab9-a1c5-f0007af00d59",
    "team": "Pickle Juice Blackwood",
    "slug": "b7ca04e4",
-   "gender": "Female"
-  },
-  {
-   "name": "Victoria Young",
-   "playerId": "184907fa-5d07-4ab9-a1c5-f0007af00d59",
-   "team": "Kitchen Nightmares",
-   "slug": "3e9b6a58",
    "gender": "Female"
   },
   {
@@ -21772,13 +17276,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "W Michael Kappeler",
-   "playerId": "67b7c17e-8fce-437a-9230-cb46f0f8a76f",
-   "team": "Ace Rebels",
-   "slug": "c9a2c0fe",
-   "gender": "Male"
-  },
-  {
    "name": "Wallace Lee",
    "playerId": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
    "team": "Montville Rocks",
@@ -21863,31 +17360,10 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Will Lockard",
-   "playerId": "7fadc717-5f7a-4df1-b0c5-6d4efa84e8c0",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "William Askin",
    "playerId": "a07a95ba-4732-4c20-a3eb-0e74b419aee3",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "William Brown",
-   "playerId": "629db24f-bcf7-4466-80be-53b29218cd69",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "William Covino",
-   "playerId": "efc60243-f47d-44bd-aaeb-9c80d2186762",
-   "team": "Smash-holes!",
-   "slug": "c1b3f9c1",
    "gender": "Male"
   },
   {
@@ -21961,13 +17437,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Xavier Yandoli",
-   "playerId": "51dd0df2-d833-4037-a26d-5da2eb3d570e",
-   "team": "Eagles Erne Empire ",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Xhulio Kola",
    "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
    "team": "Montville",
@@ -21996,13 +17465,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Xin Liu",
-   "playerId": "463e1402-cc46-4152-9012-c4308a6dd9b4",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Xinxin Huang",
    "playerId": "d45fab4f-9820-4e79-b3c5-b889c924af20",
    "team": "Flemington Blue",
@@ -22015,20 +17477,6 @@ window.DUPR_AUDIT = {
    "team": "Montville Rocks",
    "slug": "c43b8608",
    "gender": "Male"
-  },
-  {
-   "name": "Yan Wang",
-   "playerId": "e707a619-46ce-4420-b820-66534b1567d6",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Male"
-  },
-  {
-   "name": "Yang Pek",
-   "playerId": "8b003e56-0468-4f85-8384-aa9d0c76900b",
-   "team": "Kitchen Renegades",
-   "slug": "a40bd7e8",
-   "gender": "Female"
   },
   {
    "name": "Yash Mehta",
@@ -22049,13 +17497,6 @@ window.DUPR_AUDIT = {
    "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84",
    "team": "Pickleball Kingdom Hamilton Prime Time",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Yelena Grandel",
-   "playerId": "50f9c167-7ce1-42c3-953c-c0c1de8ce779",
-   "team": "Dink Responsibly",
-   "slug": "fb4a73a2",
    "gender": "Female"
   },
   {
@@ -22101,13 +17542,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Yongzhe Tian",
-   "playerId": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
-   "team": "Summer Heat",
-   "slug": "d4ef2f74",
-   "gender": "Male"
-  },
-  {
    "name": "Yoon Choi",
    "playerId": "f3f6a49d-fd44-4f24-bb92-b3d04b50a3d9",
    "team": "Dill Dinkers Freehold",
@@ -22147,13 +17581,6 @@ window.DUPR_AUDIT = {
    "playerId": "812b9580-5a00-44a9-a5ed-5d1046755718",
    "team": "APC Garden State",
    "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
-   "name": "Yuri Paritsky",
-   "playerId": "812b9580-5a00-44a9-a5ed-5d1046755718",
-   "team": "Summer Smasher",
-   "slug": "d4ef2f74",
    "gender": "Male"
   },
   {
@@ -22206,13 +17633,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Zach Hollmann",
-   "playerId": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f",
-   "team": "Paddle Taps",
-   "slug": "a85172dd",
-   "gender": "Male"
-  },
-  {
    "name": "Zach Mcgowan",
    "playerId": "e71a8785-5959-4607-9af3-e3ac9e3c6d86",
    "team": "Picklr Newtown",
@@ -22224,13 +17644,6 @@ window.DUPR_AUDIT = {
    "playerId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Zach Strickland",
-   "playerId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2",
-   "team": "Balls of Fury",
-   "slug": "3e9b6a58",
    "gender": "Male"
   },
   {
@@ -22294,13 +17707,6 @@ window.DUPR_AUDIT = {
    "playerId": "d0f30788-f690-40db-8709-f1e485efc940",
    "team": "Pickle House",
    "slug": "e27386b3",
-   "gender": "Female"
-  },
-  {
-   "name": "Zoe Zapf",
-   "playerId": "d0f30788-f690-40db-8709-f1e485efc940",
-   "team": "Nets Gambit",
-   "slug": "c1b3f9c1",
    "gender": "Female"
   },
   {

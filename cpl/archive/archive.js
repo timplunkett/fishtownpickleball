@@ -1,8 +1,8 @@
-/* Season archive (cpl/archive/index.html): every finished season, newest first. */
+/* Season archive (cpl/archive/index.html): every finished division and its podium. */
 (function () {
   'use strict';
 
-  // shared.js and catalog.js are separate files with their own cache entries, so
+  // shared.js and data.js are separate files with their own cache entries, so
   // either can be the one thing that fails to load. Reading off shared unguarded
   // threw on the first line, before anything was built — and a throw inside an
   // IIFE is invisible, so the page sat there with a heading and nothing under it,
@@ -18,110 +18,103 @@
     return;
   }
 
-  // Seasons grouped by slug, newest first, each carrying the leagues that played
-  // it. Grouping by season rather than by league is what makes this page read as
-  // a history: Spring 2026 is one thing that happened, even when two leagues
-  // were part of it.
-  //
-  // Ordering across leagues is by season slug, descending. Slugs start with the
-  // year, so that sorts chronologically by year — and within a year it sorts
-  // spring/summer/fall alphabetically rather than chronologically, which is
-  // wrong. The catalog already holds each league's seasons in true newest-first
-  // order, so the position within its own league is what actually orders this:
-  // slug is only the tiebreak between two leagues' seasons.
-  function archivedSeasons() {
-    var groups = {};
-    var order = [];
-    shared.catalogLeagues().forEach(function (league) {
-      var rank = 0;
-      league.seasons.forEach(function (season) {
-        if (season.status === 'current' || !season.divisions.length) return;
-        if (!groups[season.slug]) {
-          groups[season.slug] = { slug: season.slug, label: season.label, rank: rank, entries: [] };
-          order.push(season.slug);
-        }
-        // The best (lowest) position this season holds in any league it was
-        // played in. A season two leagues both ran should sort by how recent it
-        // is, not by which league happened to register it first.
-        groups[season.slug].rank = Math.min(groups[season.slug].rank, rank);
-        groups[season.slug].entries.push({ league: league, season: season });
-        rank += 1;
-      });
-    });
-    return order.map(function (slug) { return groups[slug]; }).sort(function (a, b) {
-      if (a.rank !== b.rank) return a.rank - b.rank;
-      return b.slug.localeCompare(a.slug);
-    });
+  var escapeHtml = shared.escapeHtml;
+  var MEDALS = ['🥇', '🥈', '🥉'];
+  var PLACE_NAMES = ['First place', 'Second place', 'Third place'];
+
+  function rows() {
+    var data = window.CPL_ARCHIVE;
+    return data && Array.isArray(data.rows) ? data.rows : [];
   }
 
-  function divisionCount(entries) {
-    return entries.reduce(function (total, entry) { return total + entry.season.divisions.length; }, 0);
-  }
-
-  function buildSelect(panel, entry) {
-    var wrap = document.createElement('div');
-    wrap.className = 'select-wrap';
-    var select = document.createElement('select');
-    select.setAttribute(
-      'aria-label',
-      'Select a division in ' + entry.league.label + ', ' + entry.season.label,
-    );
-    // base: '../' because this page sits one directory inside /cpl/, and the
-    // option values are paths relative to /cpl/ itself.
-    select.innerHTML = shared.divisionOptionsHtml(entry.league.key, entry.season, { base: '../' });
-    select.addEventListener('change', function () {
-      if (select.value) window.location.href = select.value;
+  // Rows arrive newest season first (the compiler emits them in catalog order),
+  // so grouping in encounter order preserves it without a second sort.
+  function groupBySeason(list) {
+    var groups = [];
+    var bySlug = {};
+    list.forEach(function (row) {
+      if (!bySlug[row.season]) {
+        bySlug[row.season] = { slug: row.season, label: row.seasonLabel, rows: [] };
+        groups.push(bySlug[row.season]);
+      }
+      bySlug[row.season].rows.push(row);
     });
-    wrap.appendChild(select);
-    panel.appendChild(wrap);
+    return groups;
   }
 
-  function buildSeasonBlock(group) {
+  function divisionCell(row) {
+    var label = row.clubName
+      ? escapeHtml(row.clubName) + ' <span class="arch-div">' + escapeHtml(row.division) + '</span>'
+      : escapeHtml(row.division);
+    var href = shared.divisionHref(row.league, row.season, row.slug, '../');
+    return '<a class="arch-link" href="' + escapeHtml(href) + '">' + label + '</a>';
+  }
+
+  // A place a division never filled — a bracket that stopped early, or a
+  // division too small to have a third team. Left as a dash rather than blank,
+  // so an empty cell reads as "nobody finished here" instead of as a bug.
+  function placeCell(row, index) {
+    var name = row.places[index];
+    if (!name) return '<td class="arch-place arch-none">—</td>';
+    // Third place is a tiebreak rather than a result wherever no match decided
+    // it: these brackets have two beaten semi-finalists and no third-place
+    // match, so the better regular-season finisher is used. Marked, because the
+    // other two places on the same row were actually played for.
+    var provisional = index === 2 && row.thirdFromStandings && row.basis === 'playoffs';
+    return '<td class="arch-place">' +
+      '<span class="arch-medal" aria-hidden="true">' + MEDALS[index] + '</span>' +
+      '<span class="arch-team">' + escapeHtml(name) + '</span>' +
+      (provisional ? '<span class="arch-note" title="No third-place match was played; this is the better regular-season finish of the two beaten semi-finalists.">by standings</span>' : '') +
+      '</td>';
+  }
+
+  // What decided the podium. Worth stating on every row rather than in a
+  // footnote: both kinds are in this table at once, and "first place" means two
+  // different things between them.
+  function basisCell(row) {
+    var playoffs = row.basis === 'playoffs';
+    return '<td class="arch-basis">' +
+      '<span class="arch-tag ' + (playoffs ? 'is-playoffs' : 'is-standings') + '" title="' +
+      (playoffs
+        ? 'Decided by the playoff bracket.'
+        : 'No playoff final was played, so this is the final regular-season table.') +
+      '">' + (playoffs ? 'Playoffs' : 'Regular season') + '</span></td>';
+  }
+
+  function tableFor(group) {
+    var head = '<thead><tr>' +
+      '<th scope="col">Division</th>' +
+      PLACE_NAMES.map(function (name, i) {
+        return '<th scope="col"><span aria-hidden="true">' + MEDALS[i] + '</span> ' + name + '</th>';
+      }).join('') +
+      '<th scope="col">Decided by</th>' +
+      '</tr></thead>';
+    var body = group.rows.map(function (row) {
+      return '<tr><th scope="row">' + divisionCell(row) + '</th>' +
+        placeCell(row, 0) + placeCell(row, 1) + placeCell(row, 2) +
+        basisCell(row) + '</tr>';
+    }).join('');
+    return '<div class="arch-scroll"><table class="arch-table">' + head +
+      '<tbody>' + body + '</tbody></table></div>';
+  }
+
+  function sectionFor(group) {
     var section = document.createElement('section');
     section.className = 'archive-season';
-
-    var heading = document.createElement('h2');
-    heading.className = 'tier-head';
-    heading.textContent = group.label;
-    section.appendChild(heading);
-
-    var count = divisionCount(group.entries);
-    var sub = document.createElement('p');
-    sub.className = 'tier-sub';
-    sub.textContent = count === 1 ? '1 division' : count + ' divisions';
-    section.appendChild(sub);
-
-    var panels = document.createElement('div');
-    panels.className = 'panels';
-    group.entries.forEach(function (entry) {
-      var panel = document.createElement('div');
-      panel.className = 'panel';
-      var panelHead = document.createElement('div');
-      panelHead.className = 'panel-head';
-      var title = document.createElement('h3');
-      title.textContent = entry.league.label;
-      var meta = document.createElement('p');
-      meta.className = 'panel-season';
-      meta.textContent = entry.season.divisions.length === 1
-        ? '1 division'
-        : entry.season.divisions.length + ' divisions';
-      panelHead.appendChild(title);
-      panelHead.appendChild(meta);
-      panel.appendChild(panelHead);
-      buildSelect(panel, entry);
-      panels.appendChild(panel);
-    });
-    section.appendChild(panels);
+    var count = group.rows.length;
+    section.innerHTML = '<h2 class="tier-head">' + escapeHtml(group.label) + '</h2>' +
+      '<p class="tier-sub">' + count + (count === 1 ? ' division' : ' divisions') + '</p>' +
+      tableFor(group);
     return section;
   }
 
-  var groups = archivedSeasons();
+  var groups = groupBySeason(rows());
   // Set either way rather than only unhiding: the markup ships this hidden, and
   // leaving the page's correctness to an attribute in a file nothing checks is
   // how the two drift apart.
   if (empty) empty.hidden = groups.length > 0;
   if (!groups.length) return;
   groups.forEach(function (group) {
-    host.appendChild(buildSeasonBlock(group));
+    host.appendChild(sectionFor(group));
   });
 }());

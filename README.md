@@ -71,16 +71,43 @@ cpl/<league>/                            a redirect stub, not a dashboard
 cpl/catalog.js                           every league → season → division
 ```
 
-`/cpl/` is organized by **status, not by league**: a "Now playing" tier holding
-one panel per league that actually has a season in progress, and a link to
-`/cpl/archive/` for the ones that have finished. The leagues run on their own
-calendars — Cross Club plays spring and fall, the local league ran a summer
-season — so at any moment one of them may have nothing live at all. A league
-between seasons drops out of the Now tier rather than showing a heading over an
-empty picker; when every league is between seasons, the page says so.
+`/cpl/` is organized by **status, not by league**: two boxes, *Now playing* and
+*Archive*. League is not a top-level division of the site any more — the two run
+their own calendars, so at any moment one may have nothing live at all, and a
+panel per league asserted otherwise.
 
-Both `/cpl/` and `/cpl/archive/` are built entirely from `cpl/catalog.js`, so
-neither has a league or season baked into it.
+Now playing is a single picker holding every live division across both leagues,
+grouped by season with `<optgroup>` when more than one season is live (a lone
+season gets no group heading, matching the Division selector on every
+dashboard). Within a season the labels already separate the leagues: a travel
+division is a bare bracket, a local one is prefixed with its club. When nothing
+is live at all, the box says so.
+
+`/cpl/archive/` is a table per finished season — division, 🥇/🥈/🥉, and what
+decided it. It reads `cpl/archive/data.js`, which is generated alongside the
+catalog but kept out of it: those rows are read by one page and grow with every
+season that finishes, while `catalog.js` loads everywhere. Same split as
+`cpl/dupr-audit/data.js`.
+
+### Working out who won
+
+The API's playoff round numbering does not distinguish a final from a
+semi-final, so the shape of the last round is what identifies it:
+
+- **One match** — the final. Seeds are *within the round*, so a final between
+  the two halves of a bracket reads `1 v 1`; the count is what matters, not the
+  seeds.
+- **Two matches, seeds 1v2 and 3v4** — the medal round. The 1v2 plays for gold
+  and silver, the 3v4 for bronze. Read as a pair of semi-finals it looks like a
+  bracket waiting on a final that never comes, which is how every local division
+  that played one was once reported as undecided.
+- **Anything else, or a final nobody played** — the season is not decided, and
+  the row falls back to the final regular-season table and labels itself
+  `Regular season` rather than crowning the top seed.
+
+Where no bronze match was played, third place is the better-placed of the two
+beaten semi-finalists — a tiebreak rather than a result, and marked as one. See
+`_cpl/modules/archive-outputs.js` and its tests.
 
 A season slug is `<year>-<name>`: `2026-fall`, `2026-spring`, `2026-summer`.
 The API numbers seasons 1–4 within a year (1 = Spring, 2 = Summer, 3 = Fall);

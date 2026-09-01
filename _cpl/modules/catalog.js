@@ -101,6 +101,12 @@ function buildCatalog(rootDir, { asOfBySlug = new Map() } = {}) {
         slug: season.slug,
         label: season.label,
         status: season.status,
+        // A sortable stamp for the season itself. The client cannot derive one
+        // from the slug: those read <year>-<name>, so sorting them as strings
+        // orders fall before spring before summer inside a year. Emitted here,
+        // where the season's number is known, rather than duplicating the
+        // number-to-name mapping into shared.js.
+        order: season.seasonYear * 10 + season.seasonNumber,
         landingSlug: getLandingSlug(league, divisions),
         divisions: divisions.map((div) => ({
           slug: div.slug,

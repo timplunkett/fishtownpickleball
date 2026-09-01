@@ -53,7 +53,10 @@
   with, endorsed by, or operated by DUPR or the Cross Club League.</p>
 
 <script src="../shared.js" defer></script>
-<script src="../catalog.js" defer></script>
+<!-- One row per archived division and its podium. Kept out of catalog.js, which
+     loads on every page of the site: these rows are read here and nowhere else,
+     and they grow with every season that finishes. -->
+<script src="data.js" defer></script>
 <script src="archive.js" defer></script>
 </body>
 </html>

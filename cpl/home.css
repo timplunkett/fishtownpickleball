@@ -109,35 +109,23 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   text-transform: uppercase;
 }
 
-/* The top-level tier headings — "Now playing" on the landing page, and one per
-   season on the archive page. These name what the panels beneath them have in
-   common, which is the whole point of the Now/Archive split: the first question
-   is what is being played, not which league you want. */
+/* Section headings on the archive page: one per finished season. */
 .tier-head {
-  width: 100%;
-  max-width: 980px;
-  margin: 1.6rem auto .1rem;
-  padding: 0 1rem;
-  font-size: .78rem;
+  margin: 0 0 .1rem;
+  font-size: .95rem;
   font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--mut);
+  letter-spacing: -.01em;
+  color: var(--txt);
 }
-
-.tier-head[hidden] { display: none; }
 
 .tier-sub {
-  width: 100%;
-  max-width: 980px;
-  margin: 0 auto .6rem;
-  padding: 0 1rem;
-  font-size: .78rem;
+  margin: 0 0 .7rem;
+  font-size: .75rem;
   color: var(--mut);
 }
 
-/* Both leagues between seasons at once, or an archive with nothing in it yet.
-   Rare, and it should read as a lull rather than as a fault. */
+/* An archive with nothing in it yet — what both leagues look like in their
+   first season. Should read as a lull, not a fault. */
 .tier-empty {
   width: 100%;
   max-width: 980px;
@@ -147,8 +135,7 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .tier-empty[hidden] { display: none; }
 
-/* A panel that is a signpost rather than a picker: the archive and the DUPR
-   audit. Full width under the season panels. */
+/* A panel that is a signpost rather than a picker: the DUPR audit. */
 .link-panel {
   width: 100%;
   max-width: 720px;
@@ -165,11 +152,112 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .panel-link:hover { text-decoration: underline; }
 
-/* One season on the archive page: a heading, a count, then a panel per league
-   that played it. */
-.archive-season { width: 100%; }
-.archive-season + .archive-season { margin-top: 1.4rem; }
-.archive-season h3 { font-size: 1.05rem; font-weight: 700; margin: 0; }
+#archive-panel[hidden] { display: none; }
+
+/* The finished-season list inside the Archive box on the landing page. Names
+   the seasons so the link says what is behind it. */
+.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  flex: 1;
+}
+
+.archive-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .75rem;
+  font-size: .8rem;
+}
+
+.archive-list-season { color: var(--txt); font-weight: 600; }
+.archive-list-meta { color: var(--mut); font-size: .72rem; text-align: right; }
+
+/* --- The archive page's podium tables ------------------------------------ */
+
+.archive-season { width: 100%; max-width: 980px; margin: 0 auto 2rem; padding: 0 1rem; }
+
+/* A table of five columns with team names in three of them outgrows a phone.
+   It scrolls inside its own box rather than pushing the page sideways. */
+.arch-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.arch-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .82rem;
+}
+
+.arch-table th,
+.arch-table td {
+  text-align: left;
+  padding: .55rem .75rem;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.arch-table tbody tr:last-child th,
+.arch-table tbody tr:last-child td { border-bottom: 0; }
+
+.arch-table thead th {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+.arch-table tbody th { font-weight: 600; }
+.arch-table tbody tr:hover { background: rgb(255 255 255 / 3%); }
+
+.arch-link { color: var(--txt); text-decoration: none; }
+.arch-link:hover { color: var(--accent); text-decoration: underline; }
+
+/* The club is the identifying half of a local division name, so the bracket
+   that follows it is set quieter rather than competing with it. */
+.arch-div { color: var(--mut); }
+
+.arch-place { }
+.arch-medal { margin-right: .4rem; }
+.arch-team { }
+.arch-none { color: var(--mut); }
+
+/* Third place where no match decided it. Small, and titled with the reason. */
+.arch-note {
+  margin-left: .4rem;
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--mut);
+  font-size: 9.5px;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  cursor: help;
+}
+
+/* Whether the playoff bracket or the regular-season table decided the podium.
+   Both kinds sit in this page at once, and "first place" means two different
+   things between them. */
+.arch-tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  cursor: help;
+}
+
+.arch-tag.is-playoffs { color: var(--accent); border: 1px solid var(--accent); }
+.arch-tag.is-standings { color: var(--mut); border: 1px solid var(--line); }
 
 /* The way back to /cpl/, sitting in the hero kicker. */
 .hero .back-link {

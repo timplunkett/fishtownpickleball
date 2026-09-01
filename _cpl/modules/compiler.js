@@ -21,6 +21,7 @@ const {
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
 const { writeDuprShards } = require('./dupr-outputs');
+const { writeArchiveData } = require('./archive-outputs');
 const { expandJson } = require('./json-utils');
 const {
   isForfeit,
@@ -1214,6 +1215,11 @@ function buildPlayerIndex({ asOfBySlug = new Map() } = {}) {
     `window.DUPR_AUDIT = ${JSON.stringify({ divisions: sortedDivisions, rows: auditRows }, null, 1)};\n`,
   );
   console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
+
+  // The archive page's own rows: one per division of every archived season,
+  // with its podium. Read from the compiled shards just above, so this runs
+  // after them.
+  writeArchiveData(rootDir, { eachLeagueSeason, seasonOutDir, sortDivisionsForLeague });
 
   // Keep a DUPR shard beside every division dataset. The DUPR refresh rewrites
   // these too, so ratings still update without a recompile; doing it here as

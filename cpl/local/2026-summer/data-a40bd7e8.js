@@ -13615,7 +13615,7 @@
   "leagueType": "local",
   "seasonSlug": "2026-summer",
   "seasonLabel": "Summer 2026",
-  "seasonStatus": "current",
+  "seasonStatus": "archived",
   "podCount": 1,
   "podNames": null,
   "podSource": "schedule",

@@ -2,7 +2,7 @@
   "$comment": [
     "Manual overrides on the automatic current/archived split. The automatic rule",
     "is: the newest season the API's /seasons endpoint returns is the current one,",
-    "and every older season is archived — frozen, never fetched again, served from",
+    "and every older season is archived \u2014 frozen, never fetched again, served from",
     "whatever was cached the day it froze.",
     "",
     "pin:     a season slug held current even after a newer season appears upstream.",
@@ -20,6 +20,8 @@
   },
   "local": {
     "pin": null,
-    "archive": []
+    "archive": [
+      "2026-summer"
+    ]
   }
 }

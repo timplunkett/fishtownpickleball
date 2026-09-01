@@ -42,30 +42,37 @@
     <p class="freshness" id="data-freshness"></p>
   </div>
 
-  <!-- What is being played right now.
-       The panels are built by home.js from whichever leagues actually have a
-       current season, rather than being two fixed panels for the two leagues.
-       The leagues run on their own calendars — Cross Club plays spring and fall,
-       the local league ran a summer season — so at any given moment one of them
-       may have nothing live at all. Two hard-coded panels asserted that both
-       leagues are always in season, and the first time that stopped being true
-       it left a heading over an empty picker. -->
-  <h2 class="tier-head" id="now-head">Now playing</h2>
-  <div class="panels" id="now-panels"></div>
-  <p class="panel-empty tier-empty" id="now-empty" hidden>No season is in progress right now.</p>
-
-  <!-- Finished seasons live on their own page: with two leagues and a few
-       seasons a year this list outgrows a landing page quickly, and nobody
-       arriving here is usually looking for last season. home.js hides the whole
-       card when nothing is archived yet. -->
-  <div class="panel link-panel" id="archive-panel" hidden>
-    <div class="panel-head">
-      <h2>Archive</h2>
-      <p id="archive-summary">Finished seasons, frozen as they ended</p>
+  <!-- The two boxes are Now playing and Archive: what is being played, and what
+       has finished. League is no longer the top-level division of this page.
+       It was, and it did not survive seasons — the leagues run on their own
+       calendars, so a panel per league asserted that both are always in season,
+       and the first time that stopped being true it left a heading over an
+       empty picker. League is now an optgroup inside the Now playing picker,
+       which is also how the Division selector on every dashboard groups them. -->
+  <div class="panels">
+    <div class="panel" id="now-panel">
+      <div class="panel-head">
+        <h2>Now playing</h2>
+        <p class="panel-season" id="now-season"></p>
+      </div>
+      <div id="now-select-host"></div>
+      <p class="panel-empty" id="now-empty" hidden>No season is in progress right now.</p>
     </div>
-    <p style="margin:0">
-      <a href="archive/" class="panel-link">Browse the archive →</a>
-    </p>
+
+    <!-- Finished seasons live on their own page: with two leagues and a few
+         seasons a year this list outgrows a landing page quickly, and nobody
+         arriving here is usually looking for last season. home.js hides this
+         box when nothing is archived yet. -->
+    <div class="panel" id="archive-panel" hidden>
+      <div class="panel-head">
+        <h2>Archive</h2>
+        <p class="panel-season" id="archive-summary"></p>
+      </div>
+      <ul class="archive-list" id="archive-list"></ul>
+      <p style="margin:0">
+        <a href="archive/" class="panel-link">Browse the archive →</a>
+      </p>
+    </div>
   </div>
 
   <div class="panel link-panel" id="dashboard-panel">

@@ -9,7 +9,7 @@
   // looking like a division list that happened to be empty.
   var shared = window.CPLShared;
   if (!shared || !shared.escapeHtml) {
-    ['now-panels', 'player-results'].forEach(function (id) {
+    ['now-select-host', 'player-results'].forEach(function (id) {
       var host = document.getElementById(id);
       if (!host) return;
       host.innerHTML = '<p class="panel-empty load-error-msg"></p>';
@@ -21,110 +21,111 @@
   var escapeHtml = shared.escapeHtml;
   var slugify = shared.slugify;
 
-  // One <select> per (league, season). Its option values are the paths to go to
-  // — see divisionOptionsHtml — so the handler is the same three lines wherever
-  // it is used, and the archive page reuses both.
-  function buildSeasonSelect(host, league, season, ariaLabel) {
-    var wrap = document.createElement('div');
-    wrap.className = 'select-wrap';
-    var sel = document.createElement('select');
-    sel.setAttribute('aria-label', ariaLabel);
-    sel.innerHTML = shared.divisionOptionsHtml(league, season);
-    sel.addEventListener('change', function () {
-      if (sel.value) window.location.href = sel.value;
-    });
-    wrap.appendChild(sel);
-    host.appendChild(wrap);
-  }
-
-  // The "Now playing" tier: one panel per league that actually has a season in
-  // progress, built from the catalog rather than hard-coded.
+  // The one picker in the Now playing box, grouped by season.
   //
-  // This used to be two fixed panels, one per league, which asserted that both
-  // leagues are always in season. They are not: Cross Club plays spring and
-  // fall, the local league ran a summer season, and between the two there are
-  // stretches where one league has nothing live. A league with nothing current
-  // is left out of this tier entirely and pointed at the archive below, rather
-  // than shown as a heading over an empty picker.
+  // Season is the grouping, not league. The two leagues run their own calendars
+  // — Cross Club plays spring and fall, the local league ran a summer season —
+  // so "which league" answers a question nobody asks first. Within a season the
+  // option labels already separate them: a travel division is a bare bracket
+  // ("3.5"), a local one is prefixed with its club, because five clubs run a
+  // "3.25 - 3.99".
   //
-  // The season is named in the panel head, not left implicit — with more than
-  // one season in the world, "Cross Club League" alone does not say which season
-  // the picker is for.
-  function buildNowPanels() {
-    var host = document.getElementById('now-panels');
+  // Optgroups appear only when more than one season is live. A single group
+  // heading over the whole list repeats what the panel head already says, which
+  // is the same rule the Division selector on every dashboard follows.
+  function buildNowBox() {
+    var host = document.getElementById('now-select-host');
     var empty = document.getElementById('now-empty');
-    var head = document.getElementById('now-head');
+    var seasonLine = document.getElementById('now-season');
     if (!host) return;
 
-    var live = shared.catalogLeagues().map(function (league) {
-      var season = league.seasons.filter(function (entry) {
-        return entry.status === 'current' && entry.divisions.length;
-      })[0];
-      return season ? { league: league, season: season } : null;
-    }).filter(Boolean);
+    var groups = shared.seasonsInPlay('current');
+    var count = groups.reduce(function (total, group) {
+      return total + group.entries.reduce(function (n, e) { return n + e.season.divisions.length; }, 0);
+    }, 0);
 
-    // Both branches set both flags rather than relying on the markup's starting
-    // state. The HTML ships with the empty line hidden, so the empty case only
-    // ever needed to unhide it — but that makes the page's correctness depend on
-    // an attribute in a file nothing checks, and the two would drift.
-    var nothingLive = !live.length;
-    if (head) head.hidden = nothingLive;
-    if (empty) empty.hidden = !nothingLive;
-    if (nothingLive) {
+    // Both flags are set in both directions rather than relying on the markup's
+    // starting state. The HTML ships the empty line hidden, so the empty case
+    // only ever needed to unhide it — but that makes the page's correctness
+    // depend on an attribute in a file nothing checks, and the two would drift.
+    if (empty) empty.hidden = count > 0;
+    if (!count) {
       // Every league between seasons at once. Rare, but it is what the site
       // looks like in the gap, and it should read as a lull rather than a fault.
+      if (seasonLine) seasonLine.textContent = '';
       return;
     }
 
-    live.forEach(function (entry) {
-      var panel = document.createElement('div');
-      panel.className = 'panel';
+    if (seasonLine) {
+      seasonLine.textContent = groups.length === 1
+        ? groups[0].label + ' · ' + count + (count === 1 ? ' division' : ' divisions')
+        : groups.length + ' seasons · ' + count + ' divisions';
+    }
 
-      var panelHead = document.createElement('div');
-      panelHead.className = 'panel-head';
-      var h2 = document.createElement('h2');
-      h2.textContent = entry.league.label;
-      var sub = document.createElement('p');
-      sub.className = 'panel-season';
-      sub.textContent = entry.season.label;
-      panelHead.appendChild(h2);
-      panelHead.appendChild(sub);
-      panel.appendChild(panelHead);
+    var optionsFor = function (group) {
+      return group.entries.map(function (entry) {
+        return entry.season.divisions.map(function (division) {
+          return shared.divisionOptionHtml(entry.key, entry.season.slug, division);
+        }).join('');
+      }).join('');
+    };
 
-      buildSeasonSelect(
-        panel,
-        entry.league.key,
-        entry.season,
-        'Select a division in ' + entry.league.label + ', ' + entry.season.label,
-      );
-      host.appendChild(panel);
+    var body = groups.length === 1
+      ? optionsFor(groups[0])
+      : groups.map(function (group) {
+        return '<optgroup label="' + escapeHtml(group.label) + '">' + optionsFor(group) + '</optgroup>';
+      }).join('');
+
+    var wrap = document.createElement('div');
+    wrap.className = 'select-wrap';
+    var select = document.createElement('select');
+    select.setAttribute('aria-label', 'Select a division to open');
+    select.innerHTML = '<option value="" disabled selected>Select a division…</option>' + body;
+    select.addEventListener('change', function () {
+      if (select.value) window.location.href = select.value;
     });
+    wrap.appendChild(select);
+    host.appendChild(wrap);
   }
 
-  // The card linking to /cpl/archive/, summarised so the link says what is
-  // behind it. Hidden outright when nothing is archived, which is what both
-  // leagues look like in their first season — an "Archive" heading over nothing
-  // invites someone to wonder what is missing.
-  function buildArchiveCard() {
+  // The box linking to /cpl/archive/, listing the finished seasons by name so
+  // the link says what is behind it. Hidden outright when nothing is archived,
+  // which is what both leagues look like in their first season — an "Archive"
+  // heading over nothing invites someone to wonder what is missing.
+  function buildArchiveBox() {
     var panel = document.getElementById('archive-panel');
     var summary = document.getElementById('archive-summary');
+    var list = document.getElementById('archive-list');
     if (!panel) return;
 
-    var seasons = [];
-    shared.catalogLeagues().forEach(function (league) {
-      league.seasons.forEach(function (season) {
-        if (season.status !== 'current' && season.divisions.length) seasons.push(season);
-      });
-    });
-    // Set either way, for the same reason as the Now tier above.
-    panel.hidden = !seasons.length;
-    if (!seasons.length) return;
+    var groups = shared.seasonsInPlay('archived');
+    // Set either way, for the same reason as the Now box above.
+    panel.hidden = !groups.length;
+    if (!groups.length) return;
 
+    var divisions = groups.reduce(function (total, group) {
+      return total + group.entries.reduce(function (n, e) { return n + e.season.divisions.length; }, 0);
+    }, 0);
     if (summary) {
-      var newest = seasons.map(function (season) { return season.label; })[0];
-      summary.textContent = seasons.length === 1
-        ? 'One finished season — ' + newest + ' — frozen as it ended'
-        : seasons.length + ' finished seasons, frozen as they ended';
+      summary.textContent = groups.length
+        + (groups.length === 1 ? ' finished season · ' : ' finished seasons · ')
+        + divisions + (divisions === 1 ? ' division' : ' divisions');
+    }
+
+    if (list) {
+      list.innerHTML = '';
+      groups.forEach(function (group) {
+        var item = document.createElement('li');
+        var name = document.createElement('span');
+        name.className = 'archive-list-season';
+        name.textContent = group.label;
+        var leagues = document.createElement('span');
+        leagues.className = 'archive-list-meta';
+        leagues.textContent = group.entries.map(function (e) { return e.label; }).join(', ');
+        item.appendChild(name);
+        item.appendChild(leagues);
+        list.appendChild(item);
+      });
     }
   }
 
@@ -158,8 +159,8 @@
     if (age.title) host.title = age.title;
   }
 
-  buildNowPanels();
-  buildArchiveCard();
+  buildNowBox();
+  buildArchiveBox();
   renderFreshness();
 
   // ── Player Finder ──────────────────────────────────────────────────────────
