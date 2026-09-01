@@ -505,11 +505,19 @@ test('every link class shares one rule, and that rule underlines', () => {
   ['a', '.app-link', '.pname', '.audit-link'].forEach((selector) => {
     assert.ok(selectors.includes(selector), `${selector} is not in the shared link rule`);
   });
-  // Underline says "link"; colour is left to say where it goes. An accent here
-  // would put both signals on every link and turn the dashboard's team and
+  // Underline says "link"; colour is left to say where it goes. An accent at
+  // rest would put both signals on every link and turn the dashboard's team and
   // player columns into walls of blue.
   assert.match(block[2], /color: inherit/, 'the base link rule colours links');
   assert.ok(!/var\(--accent\)/.test(block[2]), 'the base link rule is accenting every link');
+
+  // Hover is where the accent belongs for an internal link.
+  const hover = /\n((?:[.a-z-]+:hover,\n)*[.a-z-]+:hover) \{\n([^}]*)\}/.exec(css);
+  assert.ok(hover, 'links have no hover state');
+  ['a:hover', '.app-link:hover', '.pname:hover', '.audit-link:hover'].forEach((selector) => {
+    assert.ok(hover[1].includes(selector), `${selector} has no hover state`);
+  });
+  assert.match(hover[2], /color: var\(--accent\)/, 'hovering a link does not turn it accent');
 });
 
 // Blue is reserved for links that leave the site, so it means something. The

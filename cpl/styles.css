@@ -31,9 +31,10 @@
    Underline marks a link; colour says where it goes.
 
    A link inside this site keeps the colour of the text around it and carries an
-   underline. A link that leaves it is accent-coloured as well — so the blue
-   means something rather than just meaning "link", and the only ones wearing it
-   are the DUPR player pages.
+   underline, going accent on hover. A link that leaves it wears the accent at
+   rest — so the blue at a glance means "this goes somewhere else", and the only
+   ones wearing it are the DUPR player pages. Hovering one of those thickens the
+   underline instead, since its colour is already spent.
 
    This replaced a spell where every link was accent AND underlined, which was
    two signals for one fact and turned the dashboard's team and player columns
@@ -68,11 +69,16 @@ a[href^="http"] {
   color: var(--accent);
 }
 
-/* Colour is spoken for, so the hover state is weight. */
+/* Hover goes accent. Rest state carries the underline; hover adds the colour. */
 a:hover,
 .app-link:hover,
 .pname:hover,
 .audit-link:hover {
+  color: var(--accent);
+}
+
+/* An external link is already accent, so it answers with weight instead. */
+a[href^="http"]:hover {
   text-decoration-thickness: 2px;
 }
 
