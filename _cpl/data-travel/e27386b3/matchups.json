@@ -445,18 +445,6 @@
       "awayName": "Bounce Philly"
     },
     {
-      "matchupId": "ae065f84-c976-40bf-9636-5fccad0c8a00",
-      "weekNumber": 5,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Monroe"
-    },
-    {
       "matchupId": "1019a733-ae34-4ad6-9b7d-79e45c57e2f8",
       "weekNumber": 5,
       "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
@@ -635,6 +623,18 @@
       "scheduledTime": "2026-09-27T15:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "ae065f84-c976-40bf-9636-5fccad0c8a00",
+      "weekNumber": 5,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-26T19:30:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Monroe"
     },
     {
       "matchupId": "6779cfe8-cdc3-4f37-8459-b100a2e252a1",

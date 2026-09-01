@@ -18440,14 +18440,6 @@
   {
    "result": null,
    "week": 5,
-   "home": "Pickleball Kingdom Tinton Falls",
-   "away": "Monroe",
-   "time": "2026-09-21T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
    "home": "PickleRage Union County Pandas",
    "away": "Open Play",
    "time": "2026-09-21T19:30:00",
@@ -18563,6 +18555,14 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Pickle House",
    "time": "2026-09-27T15:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 5,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Monroe",
+   "time": "2026-10-26T19:30:00",
    "complete": false
   },
   {
@@ -19432,7 +19432,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T18:36:13.360Z";
+  DATA.meta.asOf = "2026-09-01T02:44:00.981Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

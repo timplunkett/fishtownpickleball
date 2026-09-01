@@ -7863,7 +7863,7 @@
      ],
      "a": [
       "Jennifer Sanchez",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -7911,6 +7911,17 @@
      ]
     },
     {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      ""
+     ]
+    },
+    {
      "t": "mixed",
      "h": [
       "",
@@ -7918,7 +7929,7 @@
      ],
      "a": [
       "Brittany Hall",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -7995,7 +8006,7 @@
      ],
      "a": [
       "Nathan Law",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -8028,7 +8039,7 @@
      ],
      "a": [
       "Stacy Walkowitz",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -8072,7 +8083,7 @@
      ],
      "a": [
       "Nathan Law",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -8127,7 +8138,7 @@
      ],
      "a": [
       "Stacy Walkowitz",
-      ""
+      "Marc Harden"
      ]
     },
     {
@@ -8161,6 +8172,17 @@
      "a": [
       "Nathan Law",
       "Damien Stahl"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      ""
      ]
     }
    ]
@@ -10223,7 +10245,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-08-31T22:13:08.024Z";
+  DATA.meta.asOf = "2026-09-01T02:44:53.072Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
