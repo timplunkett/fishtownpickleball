@@ -20,9 +20,16 @@ const isForfeit = g => Math.max(g.homeScore, g.awayScore) < 11;
 const PAIR_K = 4;
 const PAIR_MIN = 3;
 
+// A side is slotted if at least one of its two players showed up — a team
+// short a player still plays the game 1-against-2 rather than forfeiting it,
+// and the league counts that game for everyone who was on court. Only a side
+// with neither slot filled (both players absent) means the game itself never
+// happened.
+const hasPlayer = (g) => (g.homePlayerId1 || g.homePlayerId2) && (g.awayPlayerId1 || g.awayPlayerId2);
+
 function deriveProvisionalOutcome(details) {
   const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
-  const slottedLineups = allLineups.filter((g) => g.homePlayerId1 && g.homePlayerId2 && g.awayPlayerId1 && g.awayPlayerId2);
+  const slottedLineups = allLineups.filter(hasPlayer);
   if (!slottedLineups.length) return null;
 
   const hasUnscoredSlottedGame = slottedLineups.some((g) => !Number.isFinite(g.homeScore) || !Number.isFinite(g.awayScore));
@@ -126,6 +133,7 @@ function synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubF
     for (const side of sides) {
       const won = side.mine > side.theirs;
       for (const playerId of side.ids) {
+        if (!playerId) continue; // short-handed side: the empty slot has no player to credit
         const row = rowFor(playerId, side.teamId);
         row.gamesPlayed++;
         row.pointsWon += side.mine;
