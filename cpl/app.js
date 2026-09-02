@@ -285,6 +285,20 @@ function standingsHref() {
   return `${url.pathname}${url.search}`;
 }
 
+// Opponent name inside a team page's Match history / Pending matchups block,
+// linked to that opponent's own team page. `fragment` is the match's own block
+// id (matchBlockId is built the same way from either side, see there) so the
+// opponent's page opens landed on this same matchup rather than at its top.
+// Not every named opponent has a page of its own (a bye, an unrostered
+// fill-in), so this falls back to plain text when the name isn't in
+// ROSTERED_TEAMS. Carries both a real href (new-tab / middle-click) and the
+// data-team/data-fragment pair handleTeamCardClick reads for SPA routing.
+function opponentLinkHtml(name, fragment = '') {
+  if (!ROSTERED_TEAMS.has(name)) return escapeHtml(name);
+  const fragmentAttr = fragment ? ` data-fragment="${escapeHtml(fragment)}"` : '';
+  return `<a class="pname" href="${escapeHtml(teamHref(name, fragment))}" data-team="${slugify(name)}"${fragmentAttr}>${escapeHtml(name)}</a>`;
+}
+
 function playerHref(player) {
   const url = new URL(window.location.href);
   url.searchParams.set('player', routeKeyForPlayer(player));
@@ -2848,11 +2862,12 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
     .join('');
 
   const upsetLine = renderUpsetSummary(expectedWins, expectedLosses, upsetWins, upsetLosses);
+  const blockId = matchBlockId(match, kind);
 
   return `
-    <div class="wk-block" id="${matchBlockId(match, kind)}">
+    <div class="wk-block" id="${blockId}">
       <div class="wk-head">
-        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
         <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}${provisionalLabel}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${match.provisional ? ' • <span class="mut">Unverified</span>' : ''}${upsetLine}</div>
@@ -2878,7 +2893,7 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
     return `
       <div class="wk-block pending-match" id="${blockId}">
         <div class="wk-head">
-          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}${crossPodTag(teamName, opponent)}</span>
+          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
           <span class="mut">${scheduledTime || 'TBD'}</span>
         </div>
         <div class="match-summary">Lineups have not been posted yet.</div>
@@ -2917,7 +2932,7 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   return `
     <div class="wk-block pending-match" id="${blockId}">
       <div class="wk-head">
-        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${escapeHtml(opponent)}</span>
+        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}</span>
         <span class="mut">${scheduledTime || 'TBD'}</span>
       </div>
       <div class="match-summary">${tally.summary}</div>
@@ -3318,14 +3333,17 @@ function handleRoute() {
 }
 
 function handleTeamCardClick(event) {
-  // Cards and table rows both carry the slug, so one handler routes either view.
+  // Cards, table rows, and a match block's opponent link all carry the slug, so
+  // one handler routes any of them. Only the opponent link also carries a
+  // fragment — it lands the opponent's page on this same matchup rather than
+  // at its top (see opponentLinkHtml / matchBlockId).
   if (!isPlainClick(event)) return;
   const card = event.target.closest('[data-team]');
 
   if (card?.dataset.team) {
     event.preventDefault(); // real href for new-tab clicks; SPA routing for plain ones
     routeSetByApp = true;
-    setRouteInUrl({ team: card.dataset.team, player: '' });
+    setRouteInUrl({ team: card.dataset.team, player: '', hash: card.dataset.fragment || '' });
   }
 }
 
@@ -3836,6 +3854,9 @@ function initialize() {
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
+  // Match history / Pending matchups opponent links live in the team view, not
+  // the teams list — same handler, different container.
+  elements.teamView.addEventListener('click', handleTeamCardClick);
   elements.standingsView.addEventListener('click', handleStandingsViewClick);
   elements.teamView.addEventListener('click', (event) => {
     if (!isPlainClick(event)) return;
