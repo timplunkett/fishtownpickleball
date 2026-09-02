@@ -8623,6 +8623,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jonathan Lugtu",
+   "playerId": "f46a315a-aae5-44b5-ab45-6949706396fd",
+   "team": "Allstar Pickler",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Jonathan Macqueen",
    "playerId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3",
    "team": "Bounce Philly",
@@ -13709,6 +13716,13 @@ window.DUPR_AUDIT = {
    "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Prashanth Koshy",
+   "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

@@ -727,9 +727,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.2,
+    "rating": 1.1,
     "confidence": 57,
-    "rank": 43,
+    "rank": 53,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.3
@@ -879,7 +879,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 51,
-    "rank": 34,
+    "rank": 37,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.8
@@ -1048,7 +1048,7 @@
     "rank": 29,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.7
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -1195,7 +1195,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 146,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -2.4
@@ -1313,7 +1313,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 40,
-    "rank": 142,
+    "rank": 140,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -2.6
@@ -1372,8 +1372,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -1958,7 +1958,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 66,
-    "rank": 36,
+    "rank": 38,
     "ratingGames": 13,
     "strengthOfPartners": 2.4,
     "strengthOfOpponents": 0.1
@@ -3590,9 +3590,9 @@
     "week": 2,
     "rating": 1,
     "confidence": 60,
-    "rank": 57,
+    "rank": 59,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
+    "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.4
    }
   ],
@@ -3774,8 +3774,8 @@
     "confidence": 58,
     "rank": 13,
     "ratingGames": 8,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -3952,9 +3952,9 @@
    },
    {
     "week": 2,
-    "rating": 1.1,
+    "rating": 1.2,
     "confidence": 57,
-    "rank": 53,
+    "rank": 45,
     "ratingGames": 8,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.5
@@ -4134,9 +4134,9 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.3,
     "confidence": 58,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.3
@@ -4316,9 +4316,9 @@
    },
    {
     "week": 2,
-    "rating": 1.2,
+    "rating": 1.3,
     "confidence": 56,
-    "rank": 44,
+    "rank": 41,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.4
@@ -5136,9 +5136,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1,
+    "rating": 0.9,
     "confidence": 55,
-    "rank": 58,
+    "rank": 65,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.4
@@ -5577,7 +5577,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 68,
-    "rank": 31,
+    "rank": 33,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -6082,7 +6082,7 @@
     "pid": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
     "name": "Matthew Schwartz",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -6417,7 +6417,7 @@
     "confidence": 73,
     "rank": 54,
     "ratingGames": 16,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -6426,13 +6426,13 @@
     "pid": "0e8c08b7-0e58-434b-8830-f37779f821dc",
     "name": "Joseph Lynskey",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "5636cdc5-7a65-4202-abbb-5999eee35ab3",
     "name": "Jason Feldman",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    }
   ]
  },
@@ -6765,7 +6765,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 72,
-    "rank": 41,
+    "rank": 43,
     "ratingGames": 16,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -7353,7 +7353,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 70,
-    "rank": 69,
+    "rank": 70,
     "ratingGames": 15,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.7
@@ -7485,7 +7485,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 48,
-    "rank": 124,
+    "rank": 121,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1
@@ -7806,7 +7806,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 71,
-    "rank": 42,
+    "rank": 44,
     "ratingGames": 14,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -8102,7 +8102,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 70,
-    "rank": 55,
+    "rank": 56,
     "ratingGames": 13,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -8401,7 +8401,7 @@
     "rank": 93,
     "ratingGames": 13,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -8457,8 +8457,8 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -8737,7 +8737,7 @@
     "confidence": 72,
     "rank": 28,
     "ratingGames": 16,
-    "strengthOfPartners": 1.4,
+    "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.5
    }
   ],
@@ -8752,7 +8752,7 @@
     "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
     "name": "Noah Ludwigsen",
     "n": 4,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -8807,8 +8807,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -9019,11 +9019,11 @@
    },
    {
     "week": 2,
-    "rating": 1.1,
+    "rating": 1,
     "confidence": 67,
-    "rank": 51,
+    "rank": 58,
     "ratingGames": 12,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
    }
   ],
@@ -9080,8 +9080,8 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -9381,7 +9381,7 @@
     "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
     "name": "Luca Hendrickson",
     "n": 4,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -10965,7 +10965,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 54,
-    "rank": 45,
+    "rank": 46,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.7
@@ -11147,7 +11147,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 57,
-    "rank": 144,
+    "rank": 143,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1
@@ -12756,7 +12756,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 71,
-    "rank": 117,
+    "rank": 116,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.1
@@ -12929,7 +12929,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 55,
-    "rank": 33,
+    "rank": 35,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -13086,7 +13086,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 52,
-    "rank": 65,
+    "rank": 66,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
@@ -13247,6 +13247,163 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 123,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Shawn Gold",
+     "David Bogatyrev"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "David Bogatyrev",
+     "Uttam Purohit"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Kurt Skalamera",
+     "Salman Saad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Kurt Skalamera",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "David Bogatyrev",
+     "Uttam Purohit"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "David Bogatyrev",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 53,
+    "rank": 36,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -13901,9 +14058,9 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.5,
     "confidence": 75,
-    "rank": 35,
+    "rank": 32,
     "ratingGames": 16,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
@@ -14238,9 +14395,9 @@
    },
    {
     "week": 2,
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 72,
-    "rank": 111,
+    "rank": 115,
     "ratingGames": 16,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -14251,7 +14408,7 @@
     "pid": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
     "name": "Matthew Schwartz",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    }
   ]
  },
@@ -14306,8 +14463,8 @@
      4
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -14566,11 +14723,11 @@
    },
    {
     "week": 2,
-    "rating": 0.6,
+    "rating": 0.5,
     "confidence": 73,
-    "rank": 81,
+    "rank": 84,
     "ratingGames": 15,
-    "strengthOfPartners": 1.2,
+    "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.8
    }
   ],
@@ -14640,8 +14797,8 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -14900,11 +15057,11 @@
    },
    {
     "week": 2,
-    "rating": 1.1,
+    "rating": 1,
     "confidence": 72,
-    "rank": 48,
+    "rank": 55,
     "ratingGames": 15,
-    "strengthOfPartners": 1.1,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -15236,7 +15393,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 72,
-    "rank": 67,
+    "rank": 68,
     "ratingGames": 15,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.7
@@ -15724,7 +15881,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 52,
-    "rank": 100,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.9
@@ -15865,7 +16022,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 47,
+    "rank": 48,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -16015,7 +16172,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 54,
-    "rank": 59,
+    "rank": 60,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.2
@@ -16454,11 +16611,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.9,
+    "rating": -1,
     "confidence": 49,
-    "rank": 166,
+    "rank": 170,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.4
    }
   ],
@@ -16606,7 +16763,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 52,
-    "rank": 90,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": 0.7
@@ -16638,8 +16795,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -16745,12 +16902,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.6,
     "confidence": 51,
-    "rank": 39,
+    "rank": 31,
     "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -17682,7 +17839,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 70,
-    "rank": 131,
+    "rank": 129,
     "ratingGames": 14,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0
@@ -17952,7 +18109,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 66,
-    "rank": 89,
+    "rank": 88,
     "ratingGames": 11,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -1.1
@@ -18209,7 +18366,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 67,
-    "rank": 132,
+    "rank": 130,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -18391,7 +18548,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 57,
-    "rank": 72,
+    "rank": 73,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.1
@@ -18728,7 +18885,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 73,
-    "rank": 40,
+    "rank": 42,
     "ratingGames": 16,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -19087,7 +19244,7 @@
     "rank": 26,
     "ratingGames": 16,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -19279,7 +19436,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 123,
+    "rank": 120,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.8
@@ -19452,9 +19609,9 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 58,
-    "rank": 133,
+    "rank": 131,
     "ratingGames": 8,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
    }
   ],
@@ -20226,9 +20383,9 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 71,
-    "rank": 130,
+    "rank": 128,
     "ratingGames": 13,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -20522,7 +20679,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 70,
-    "rank": 38,
+    "rank": 39,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.6
@@ -20856,7 +21013,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 69,
-    "rank": 77,
+    "rank": 76,
     "ratingGames": 15,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.1
@@ -20997,7 +21154,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 49,
-    "rank": 66,
+    "rank": 67,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -1.4
@@ -21452,7 +21609,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 71,
-    "rank": 128,
+    "rank": 126,
     "ratingGames": 15,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -21584,7 +21741,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 47,
-    "rank": 140,
+    "rank": 138,
     "ratingGames": 5,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.3
@@ -22027,167 +22184,10 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 51,
-    "rank": 46,
+    "rank": 47,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 141,
-    "pa": 130,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Jacob Rosengarten",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Shawn Gold",
-     "David Bogatyrev"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "David Bogatyrev",
-     "Uttam Purohit"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Kurt Skalamera",
-     "Salman Saad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Kurt Skalamera",
-     "Stephen Fredericksen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "David Bogatyrev",
-     "Uttam Purohit"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "David Bogatyrev",
-     "Kurt Skalamera"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": 0.8,
-    "confidence": 53,
-    "rank": 73,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -22216,8 +22216,8 @@
      2
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -22339,9 +22339,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.6,
     "confidence": 56,
-    "rank": 79,
+    "rank": 82,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.1
@@ -22646,7 +22646,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 68,
-    "rank": 135,
+    "rank": 133,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -22949,9 +22949,9 @@
    },
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.8,
     "confidence": 71,
-    "rank": 150,
+    "rank": 155,
     "ratingGames": 14,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.4
@@ -23256,7 +23256,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 72,
-    "rank": 125,
+    "rank": 122,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0
@@ -23574,7 +23574,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 70,
-    "rank": 98,
+    "rank": 99,
     "ratingGames": 14,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.8
@@ -23924,7 +23924,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 70,
-    "rank": 118,
+    "rank": 117,
     "ratingGames": 16,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -24188,7 +24188,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 66,
-    "rank": 172,
+    "rank": 173,
     "ratingGames": 11,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
@@ -24484,7 +24484,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 68,
-    "rank": 56,
+    "rank": 57,
     "ratingGames": 13,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -24786,7 +24786,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 71,
-    "rank": 68,
+    "rank": 69,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -25114,7 +25114,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 70,
-    "rank": 177,
+    "rank": 178,
     "ratingGames": 15,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.7
@@ -25432,7 +25432,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 71,
-    "rank": 97,
+    "rank": 98,
     "ratingGames": 14,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -26048,7 +26048,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 52,
-    "rank": 91,
+    "rank": 90,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.4
@@ -26189,7 +26189,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 48,
-    "rank": 116,
+    "rank": 114,
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0
@@ -26362,7 +26362,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 54,
-    "rank": 138,
+    "rank": 136,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.4
@@ -26535,7 +26535,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 59,
-    "rank": 71,
+    "rank": 72,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.5
@@ -26717,10 +26717,10 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 59,
-    "rank": 163,
+    "rank": 164,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -27170,9 +27170,9 @@
     "week": 2,
     "rating": 0,
     "confidence": 58,
-    "rank": 114,
+    "rank": 112,
     "ratingGames": 8,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -27279,7 +27279,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 43,
-    "rank": 154,
+    "rank": 152,
     "ratingGames": 4,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.9
@@ -27584,7 +27584,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 70,
-    "rank": 119,
+    "rank": 118,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
@@ -27773,7 +27773,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 139,
+    "rank": 137,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0
@@ -27914,7 +27914,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 51,
-    "rank": 175,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
@@ -28023,7 +28023,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 42,
-    "rank": 141,
+    "rank": 139,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.3
@@ -28799,7 +28799,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 74,
-    "rank": 147,
+    "rank": 146,
     "ratingGames": 15,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
@@ -29461,7 +29461,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 67,
-    "rank": 70,
+    "rank": 71,
     "ratingGames": 15,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.5
@@ -29822,7 +29822,7 @@
     "pid": "7573445f-7dbd-4c2f-867a-ae95ae7ed168",
     "name": "Dilip Patel",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
@@ -30129,7 +30129,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 72,
-    "rank": 82,
+    "rank": 80,
     "ratingGames": 14,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -30434,7 +30434,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 71,
-    "rank": 129,
+    "rank": 127,
     "ratingGames": 14,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.1
@@ -30591,7 +30591,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 55,
-    "rank": 80,
+    "rank": 79,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -30650,8 +30650,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -30894,11 +30894,11 @@
    },
    {
     "week": 2,
-    "rating": 0.7,
+    "rating": 0.6,
     "confidence": 70,
-    "rank": 76,
+    "rank": 81,
     "ratingGames": 14,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1
    }
   ],
@@ -30941,8 +30941,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -31064,11 +31064,11 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": -0.2,
     "confidence": 56,
-    "rank": 122,
+    "rank": 124,
     "ratingGames": 7,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.4
    }
   ],
@@ -31371,7 +31371,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 71,
-    "rank": 161,
+    "rank": 162,
     "ratingGames": 14,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -31814,7 +31814,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 68,
-    "rank": 99,
+    "rank": 100,
     "ratingGames": 12,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -31826,286 +31826,6 @@
     "name": "Alessio Muscara",
     "n": 3,
     "synergy": 1.2
-   }
-  ]
- },
- "04000200-8214-42ff-9a0d-2189ffaccd42": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 90,
-    "pa": 122,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     5
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Pickleball HQ",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 117,
-    "pa": 114,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Tayon Hart",
-    "vs": [
-     "Nacio Marshall",
-     "Joseph Lynskey"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Tayon Hart",
-    "vs": [
-     "Matthew Schwartz",
-     "Jason Feldman"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Cory Mintz",
-    "vs": [
-     "Jason Feldman",
-     "Gary White"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jacob Rosengarten",
-    "vs": [
-     "Matthew Schwartz",
-     "Daniel Antonelli"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Cory Mintz",
-    "vs": [
-     "Joseph Lynskey",
-     "Jason Feldman"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jason Mcmanmon",
-    "vs": [
-     "Matthew Schwartz",
-     "Gary White"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Jason Mcmanmon",
-    "vs": [
-     "Thomas Moran",
-     "Jose Campos"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Salman Saad",
-    "vs": [
-     "Christopher Hendrickson",
-     "Noah Ludwigsen"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Jason Mcmanmon",
-    "vs": [
-     "Carlos Idrovo",
-     "Jose Campos"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Salman Saad",
-    "vs": [
-     "Thomas Moran",
-     "Anthony Simonetti"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Stephen Fredericksen",
-    "vs": [
-     "Thomas Moran",
-     "Anthony Simonetti"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "David Bogatyrev",
-    "vs": [
-     "Anthony Simonetti",
-     "Noah Ludwigsen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.9,
-    "confidence": 50,
-    "rank": 122,
-    "ratingGames": 6,
-    "strengthOfPartners": -2.1,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 2,
-    "rating": -0.2,
-    "confidence": 66,
-    "rank": 126,
-    "ratingGames": 12,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": [
-   {
-    "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
-    "name": "Jason Mcmanmon",
-    "n": 3,
-    "synergy": 2.3
    }
   ]
  },
@@ -32422,7 +32142,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 68,
-    "rank": 87,
+    "rank": 86,
     "ratingGames": 15,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.4
@@ -32821,8 +32541,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -33051,9 +32771,9 @@
     "week": 2,
     "rating": 0,
     "confidence": 66,
-    "rank": 112,
+    "rank": 111,
     "ratingGames": 13,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 1.1
    }
   ],
@@ -33062,7 +32782,7 @@
     "pid": "04000200-8214-42ff-9a0d-2189ffaccd42",
     "name": "Kurt Skalamera",
     "n": 3,
-    "synergy": 2.3
+    "synergy": 2.5
    },
    {
     "pid": "e2d70cc7-b655-43d5-a059-063bfe722001",
@@ -33587,12 +33307,12 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 73,
-    "rank": 84,
+    "rank": 91,
     "ratingGames": 16,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -33769,7 +33489,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 56,
-    "rank": 145,
+    "rank": 144,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.5
@@ -33942,7 +33662,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 58,
-    "rank": 164,
+    "rank": 165,
     "ratingGames": 8,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.5
@@ -34124,7 +33844,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 59,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -34306,7 +34026,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 57,
-    "rank": 137,
+    "rank": 135,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.5
@@ -34488,277 +34208,13 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 60,
-    "rank": 136,
+    "rank": 134,
     "ratingGames": 8,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
- },
- "622cb64f-dd0c-4bff-8c19-81d287977c53": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 90,
-    "pa": 99,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Pickleball HQ",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 120,
-    "pa": 120,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     3
-    ],
-    "cl": [
-     3,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "John Coyle",
-    "vs": [
-     "Joseph Lynskey",
-     "Michael Mazzola"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jacob Rosengarten",
-    "vs": [
-     "Nacio Marshall",
-     "Michael Mazzola"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jason Mcmanmon",
-    "vs": [
-     "Matthew Schwartz",
-     "Michael Mazzola"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jacob Rosengarten",
-    "vs": [
-     "Jim Boy Baring",
-     "Joseph Lynskey"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "David Bogatyrev",
-    "vs": [
-     "Nacio Marshall",
-     "Michael Mazzola"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Jacob Rosengarten",
-    "vs": [
-     "Christopher Hendrickson",
-     "Jimmy Ramja"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Jacob Rosengarten",
-    "vs": [
-     "Anthony Simonetti",
-     "David Wheeler"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Michael Dombrowiecki",
-    "vs": [
-     "Jimmy Ramja",
-     "David Wheeler"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Michael Dombrowiecki",
-    "vs": [
-     "Jimmy Ramja",
-     "Thomas Moran"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Kurt Skalamera",
-    "vs": [
-     "Thomas Moran",
-     "Anthony Simonetti"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Shawn Gold",
-    "vs": [
-     "Thomas Moran",
-     "Carlos Idrovo"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 41,
-    "rank": 101,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 2,
-    "rating": 0,
-    "confidence": 63,
-    "rank": 113,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
-    "name": "Jacob Rosengarten",
-    "n": 4,
-    "synergy": 1
-   }
-  ]
  },
  "d07bda42-9d33-4c03-a7f3-a8a468083bdd": {
   "log": [
@@ -35123,8 +34579,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -35367,11 +34823,11 @@
    },
    {
     "week": 2,
-    "rating": 0.5,
+    "rating": 0.7,
     "confidence": 69,
-    "rank": 86,
+    "rank": 77,
     "ratingGames": 14,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -35380,7 +34836,7 @@
     "pid": "622cb64f-dd0c-4bff-8c19-81d287977c53",
     "name": "Stephen Fredericksen",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.2
    },
    {
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
@@ -35691,9 +35147,9 @@
    },
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.8,
     "confidence": 70,
-    "rank": 151,
+    "rank": 156,
     "ratingGames": 14,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -35710,9 +35166,150 @@
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    }
   ]
+ },
+ "9571d7b5-fc34-4c77-a51f-c99b286e4304": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 116,
+    "pa": 117,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Uttam Purohit",
+     "Salman Saad"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Stephen Fredericksen"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Kurt Skalamera",
+     "Salman Saad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Kurt Skalamera",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Shawn Gold",
+     "Stephen Fredericksen"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 50,
+    "rank": 161,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
  },
  "3196f425-e79a-4def-b7c3-bc3205976ba3": {
   "log": [
@@ -36136,9 +35733,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 0.3,
+    "rating": 0.4,
     "confidence": 50,
-    "rank": 101,
+    "rank": 96,
     "ratingGames": 6,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.1
@@ -36338,8 +35935,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -36555,7 +36152,7 @@
     "rank": 78,
     "ratingGames": 12,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
@@ -36856,7 +36453,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 49,
-    "rank": 127,
+    "rank": 125,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
@@ -36997,7 +36594,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 52,
-    "rank": 165,
+    "rank": 166,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -37147,7 +36744,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 54,
-    "rank": 134,
+    "rank": 132,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1.4
@@ -37206,8 +36803,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -37466,11 +37063,11 @@
    },
    {
     "week": 2,
-    "rating": 0.9,
+    "rating": 1.1,
     "confidence": 69,
-    "rank": 60,
+    "rank": 51,
     "ratingGames": 15,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
    }
   ],
@@ -37754,7 +37351,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 65,
-    "rank": 173,
+    "rank": 174,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
@@ -38088,7 +37685,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 68,
-    "rank": 143,
+    "rank": 141,
     "ratingGames": 15,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.8
@@ -38416,7 +38013,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 72,
-    "rank": 155,
+    "rank": 153,
     "ratingGames": 15,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
@@ -38424,15 +38021,15 @@
   ],
   "partners": [
    {
-    "pid": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
-    "name": "Venu Yengala",
-    "n": 4,
-    "synergy": 1.1
-   },
-   {
     "pid": "96042156-2ff1-44d0-9b96-8448964b4981",
     "name": "Jaiveer Narwal",
     "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
+    "name": "Venu Yengala",
+    "n": 4,
     "synergy": 1
    },
    {
@@ -38440,6 +38037,286 @@
     "name": "Harsh Upadhyaya",
     "n": 3,
     "synergy": -1
+   }
+  ]
+ },
+ "04000200-8214-42ff-9a0d-2189ffaccd42": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 90,
+    "pa": 122,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 116,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Tayon Hart",
+    "vs": [
+     "Matthew Schwartz",
+     "Jason Feldman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Jason Feldman",
+     "Gary White"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Matthew Schwartz",
+     "Daniel Antonelli"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Cory Mintz",
+    "vs": [
+     "Joseph Lynskey",
+     "Jason Feldman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Matthew Schwartz",
+     "Gary White"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Thomas Moran",
+     "Jose Campos"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Salman Saad",
+    "vs": [
+     "Christopher Hendrickson",
+     "Noah Ludwigsen"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Carlos Idrovo",
+     "Jose Campos"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Salman Saad",
+    "vs": [
+     "Thomas Moran",
+     "Anthony Simonetti"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Stephen Fredericksen",
+    "vs": [
+     "Thomas Moran",
+     "Anthony Simonetti"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Anthony Simonetti",
+     "Noah Ludwigsen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.9,
+    "confidence": 50,
+    "rank": 122,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 66,
+    "rank": 148,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
+    "name": "Jason Mcmanmon",
+    "n": 3,
+    "synergy": 2.5
    }
   ]
  },
@@ -38756,7 +38633,7 @@
     "week": 2,
     "rating": -0.6,
     "confidence": 68,
-    "rank": 148,
+    "rank": 147,
     "ratingGames": 15,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.5
@@ -39090,7 +38967,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 70,
-    "rank": 176,
+    "rank": 177,
     "ratingGames": 15,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
@@ -39446,7 +39323,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 73,
-    "rank": 96,
+    "rank": 97,
     "ratingGames": 16,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.6
@@ -40031,7 +39908,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 70,
-    "rank": 120,
+    "rank": 119,
     "ratingGames": 13,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -40650,7 +40527,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 56,
-    "rank": 115,
+    "rank": 113,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.2
@@ -41121,7 +40998,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 70,
-    "rank": 179,
+    "rank": 180,
     "ratingGames": 14,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.1
@@ -41457,13 +41334,277 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 57,
-    "rank": 190,
+    "rank": 191,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
+ },
+ "622cb64f-dd0c-4bff-8c19-81d287977c53": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 90,
+    "pa": 99,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 113,
+    "pa": 122,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     2,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "John Coyle",
+    "vs": [
+     "Joseph Lynskey",
+     "Michael Mazzola"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jason Mcmanmon",
+    "vs": [
+     "Matthew Schwartz",
+     "Michael Mazzola"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Jim Boy Baring",
+     "Joseph Lynskey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Bogatyrev",
+    "vs": [
+     "Nacio Marshall",
+     "Michael Mazzola"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Christopher Hendrickson",
+     "Jimmy Ramja"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jacob Rosengarten",
+    "vs": [
+     "Anthony Simonetti",
+     "David Wheeler"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jimmy Ramja",
+     "David Wheeler"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Michael Dombrowiecki",
+    "vs": [
+     "Jimmy Ramja",
+     "Thomas Moran"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Kurt Skalamera",
+    "vs": [
+     "Thomas Moran",
+     "Anthony Simonetti"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Shawn Gold",
+    "vs": [
+     "Thomas Moran",
+     "Carlos Idrovo"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 41,
+    "rank": 101,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 63,
+    "rank": 142,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
+    "name": "Jacob Rosengarten",
+    "n": 4,
+    "synergy": 1.2
+   }
+  ]
  },
  "06a3741d-10e5-462b-ba95-aa997d4eb8ea": {
   "log": [
@@ -41987,7 +42128,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 68,
-    "rank": 88,
+    "rank": 87,
     "ratingGames": 12,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 0.2
@@ -42176,7 +42317,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 55,
-    "rank": 209,
+    "rank": 210,
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -42975,7 +43116,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 69,
-    "rank": 170,
+    "rank": 171,
     "ratingGames": 16,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.9
@@ -43277,7 +43418,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 64,
-    "rank": 32,
+    "rank": 34,
     "ratingGames": 13,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 0.7
@@ -43288,19 +43429,19 @@
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
     "name": "Ben Cortes",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
     "name": "Kevin Lew",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    }
   ]
  },
@@ -43583,9 +43724,9 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": -0.2,
     "confidence": 67,
-    "rank": 121,
+    "rank": 123,
     "ratingGames": 13,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.1
@@ -43602,13 +43743,13 @@
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "148387a8-f20a-44df-981d-0d9d2e7bf443",
     "name": "Michael Vollmer",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -43909,7 +44050,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 71,
-    "rank": 156,
+    "rank": 154,
     "ratingGames": 14,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -43956,8 +44097,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -43974,8 +44115,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -43990,8 +44131,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -44006,8 +44147,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -44022,8 +44163,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -44038,8 +44179,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -44047,7 +44188,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 47,
-    "rank": 153,
+    "rank": 151,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
@@ -44079,8 +44220,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -44170,12 +44311,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -1.7,
+    "rating": -1.6,
     "confidence": 46,
-    "rank": 191,
+    "rank": 190,
     "ratingGames": 5,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -44493,10 +44634,10 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 71,
-    "rank": 178,
+    "rank": 179,
     "ratingGames": 15,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -45203,147 +45344,6 @@
     "synergy": -0.8
    }
   ]
- },
- "9571d7b5-fc34-4c77-a51f-c99b286e4304": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 114,
-    "pa": 124,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     5
-    ],
-    "cl": [
-     1,
-     4
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Uttam Purohit",
-     "Salman Saad"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Jason Mcmanmon",
-     "Kurt Skalamera"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Stephen Fredericksen"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Kurt Skalamera",
-     "Salman Saad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Kurt Skalamera",
-     "Stephen Fredericksen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Shawn Gold",
-     "Stephen Fredericksen"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "rating": -1.4,
-    "confidence": 50,
-    "rank": 180,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
  },
  "23adcd68-130d-4176-b367-d3cd31260d21": {
   "log": [
@@ -46349,7 +46349,7 @@
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1
    }
   ]
  },
@@ -47064,7 +47064,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 56,
-    "rank": 174,
+    "rank": 175,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.7
@@ -47710,7 +47710,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 55,
-    "rank": 152,
+    "rank": 150,
     "ratingGames": 7,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0.8
@@ -49690,8 +49690,8 @@
     "confidence": 67,
     "rank": 182,
     "ratingGames": 13,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -49705,7 +49705,7 @@
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -49992,7 +49992,7 @@
     "confidence": 69,
     "rank": 199,
     "ratingGames": 13,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -50001,13 +50001,13 @@
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    }
   ]
  },
@@ -50303,7 +50303,7 @@
     "pid": "3e2aac0c-7c01-4c71-a288-900b54059019",
     "name": "Pedro Delgado",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -50828,7 +50828,7 @@
     "week": 2,
     "rating": -2.7,
     "confidence": 42,
-    "rank": 208,
+    "rank": 209,
     "ratingGames": 4,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -50981,7 +50981,7 @@
     "rank": 198,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -51126,12 +51126,12 @@
    },
    {
     "week": 2,
-    "rating": -2.8,
+    "rating": -2.7,
     "confidence": 49,
-    "rank": 210,
+    "rank": 208,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -51296,8 +51296,8 @@
     "confidence": 54,
     "rank": 214,
     "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -51756,7 +51756,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 67,
-    "rank": 171,
+    "rank": 172,
     "ratingGames": 13,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.8
@@ -52226,7 +52226,7 @@
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
     "name": "Big G",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    }
   ]
  },

@@ -6779,7 +6779,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 360,
+   "leagueRank": 362,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 383,
+   "leagueRank": 385,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6837,7 +6837,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 354,
+   "leagueRank": 356,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 326,
+   "leagueRank": 328,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6895,7 +6895,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 366,
+   "leagueRank": 368,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6924,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 395,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6953,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 397,
+   "leagueRank": 399,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7011,7 +7011,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 393,
+   "leagueRank": 395,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7069,7 +7069,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 392,
+   "leagueRank": 394,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7098,7 +7098,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 342,
+   "leagueRank": 344,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7127,7 +7127,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 289,
+   "leagueRank": 291,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7156,7 +7156,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 301,
+   "leagueRank": 303,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7185,7 +7185,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 341,
+   "leagueRank": 343,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7214,7 +7214,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 302,
+   "leagueRank": 304,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7243,7 +7243,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 297,
+   "leagueRank": 299,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7272,7 +7272,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 309,
+   "leagueRank": 311,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7301,7 +7301,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 358,
+   "leagueRank": 360,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7330,7 +7330,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 404,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7359,7 +7359,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 324,
+   "leagueRank": 326,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7388,7 +7388,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 286,
+   "leagueRank": 287,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7417,7 +7417,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 351,
+   "leagueRank": 353,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7446,7 +7446,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 339,
+   "leagueRank": 341,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7475,7 +7475,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 399,
+   "leagueRank": 401,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7504,7 +7504,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 401,
+   "leagueRank": 403,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7533,7 +7533,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 344,
+   "leagueRank": 346,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7562,7 +7562,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 380,
+   "leagueRank": 382,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7591,7 +7591,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 292,
+   "leagueRank": 294,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7620,7 +7620,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 375,
+   "leagueRank": 377,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7649,7 +7649,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 361,
+   "leagueRank": 363,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7707,7 +7707,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 346,
+   "leagueRank": 348,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7765,7 +7765,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 394,
+   "leagueRank": 396,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7794,7 +7794,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 277,
+   "leagueRank": 278,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7823,7 +7823,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 312,
+   "leagueRank": 314,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 405,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 280,
+   "leagueRank": 281,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7910,7 +7910,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 304,
+   "leagueRank": 306,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7939,7 +7939,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 335,
+   "leagueRank": 337,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7968,7 +7968,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 282,
+   "leagueRank": 283,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7997,7 +7997,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 325,
+   "leagueRank": 327,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8026,7 +8026,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8055,7 +8055,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 384,
+   "leagueRank": 386,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8084,7 +8084,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 398,
+   "leagueRank": 400,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8113,7 +8113,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 363,
+   "leagueRank": 365,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8142,7 +8142,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 285,
+   "leagueRank": 286,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8171,7 +8171,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 316,
+   "leagueRank": 318,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8200,7 +8200,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 332,
+   "leagueRank": 334,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8229,7 +8229,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 373,
+   "leagueRank": 375,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8258,7 +8258,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 321,
+   "leagueRank": 323,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8316,7 +8316,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 287,
+   "leagueRank": 288,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8345,7 +8345,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 308,
+   "leagueRank": 310,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 356,
+   "leagueRank": 358,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8432,7 +8432,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 279,
+   "leagueRank": 280,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8461,7 +8461,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 298,
+   "leagueRank": 300,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8519,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 290,
+   "leagueRank": 292,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8548,7 +8548,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 367,
+   "leagueRank": 369,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8577,7 +8577,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 368,
+   "leagueRank": 370,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8606,7 +8606,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 313,
+   "leagueRank": 315,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8635,7 +8635,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 381,
+   "leagueRank": 383,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8664,7 +8664,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 281,
+   "leagueRank": 282,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 347,
+   "leagueRank": 349,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,7 +8722,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 278,
+   "leagueRank": 279,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8751,7 +8751,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 385,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8838,7 +8838,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 353,
+   "leagueRank": 355,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8867,7 +8867,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 317,
+   "leagueRank": 319,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8896,7 +8896,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 365,
+   "leagueRank": 367,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 338,
+   "leagueRank": 340,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8954,7 +8954,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 403,
+   "leagueRank": 405,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8983,7 +8983,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 343,
+   "leagueRank": 345,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9012,7 +9012,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 306,
+   "leagueRank": 308,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9041,7 +9041,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 293,
+   "leagueRank": 295,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9070,7 +9070,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 400,
+   "leagueRank": 402,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9128,7 +9128,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 299,
+   "leagueRank": 301,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9186,7 +9186,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 377,
+   "leagueRank": 379,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9215,7 +9215,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 348,
+   "leagueRank": 350,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9244,7 +9244,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 314,
+   "leagueRank": 316,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9273,7 +9273,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 371,
+   "leagueRank": 373,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9302,7 +9302,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 323,
+   "leagueRank": 325,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9331,7 +9331,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 300,
+   "leagueRank": 302,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9389,7 +9389,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 333,
+   "leagueRank": 335,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9418,7 +9418,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 349,
+   "leagueRank": 351,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9447,7 +9447,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 331,
+   "leagueRank": 333,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9476,7 +9476,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 370,
+   "leagueRank": 372,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9534,7 +9534,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 329,
+   "leagueRank": 331,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9563,7 +9563,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 389,
+   "leagueRank": 391,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9592,7 +9592,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 336,
+   "leagueRank": 338,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9621,7 +9621,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 296,
+   "leagueRank": 298,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9679,7 +9679,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 295,
+   "leagueRank": 297,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9708,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 337,
+   "leagueRank": 339,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9737,7 +9737,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 305,
+   "leagueRank": 307,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 350,
+   "leagueRank": 352,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9824,7 +9824,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 369,
+   "leagueRank": 371,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9853,7 +9853,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9882,7 +9882,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 398,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9911,7 +9911,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 352,
+   "leagueRank": 354,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9940,7 +9940,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 288,
+   "leagueRank": 290,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -18332,8 +18332,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Rinaldi",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18343,8 +18343,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Todd Mitchell"
      ],
      "a": [
       "Maritoni Agatep",
@@ -18354,8 +18354,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Kevin Lo"
      ],
      "a": [
       "Kristy Detore",
@@ -18365,8 +18365,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Alexander King"
      ],
      "a": [
       "Aurora Lewis",
@@ -18376,8 +18376,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Alyssa Latham"
      ],
      "a": [
       "Lian Odonnell",
@@ -18387,8 +18387,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Kristin Rinaldi"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18398,8 +18398,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "Dan Kaytes"
      ],
      "a": [
       "Jacob Yoo",
@@ -18409,8 +18409,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Kevin Lo"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -18420,8 +18420,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Alexander King"
      ],
      "a": [
       "Maritoni Agatep",
@@ -18431,8 +18431,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Lian Odonnell",
@@ -18442,8 +18442,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "Dan Kaytes"
      ],
      "a": [
       "Kristy Detore",
@@ -18453,8 +18453,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Todd Mitchell"
      ],
      "a": [
       "Nicole Niver",
@@ -18464,8 +18464,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Kristin Rinaldi"
      ],
      "a": [
       "Maritoni Agatep",
@@ -18475,8 +18475,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Alyssa Latham"
      ],
      "a": [
       "Lian Odonnell",
@@ -18486,8 +18486,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Kaytes",
+      "Todd Mitchell"
      ],
      "a": [
       "Phil Mania",
@@ -18497,8 +18497,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "Kevin Lo"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -18508,8 +18508,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Alexander King"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18519,8 +18519,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "Dan Kaytes"
      ],
      "a": [
       "Maritoni Agatep",
@@ -18530,8 +18530,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Todd Mitchell"
      ],
      "a": [
       "Nicole Niver",
@@ -18541,8 +18541,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Rinaldi",
+      "Kevin Lo"
      ],
      "a": [
       "Aurora Lewis",
@@ -18552,8 +18552,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Carly Pfeffer"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18563,8 +18563,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Kristin Rinaldi"
      ],
      "a": [
       "Maritoni Agatep",
@@ -18574,8 +18574,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Kevin Lo"
      ],
      "a": [
       "Marc Kunesch",
@@ -18585,8 +18585,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "Todd Mitchell"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -18596,8 +18596,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Dan Kaytes"
      ],
      "a": [
       "Lian Odonnell",
@@ -18607,8 +18607,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Todd Mitchell"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18618,8 +18618,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "Alexander King"
      ],
      "a": [
       "Kristy Detore",
@@ -18629,8 +18629,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Aurora Lewis",
@@ -18640,8 +18640,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allie Harwood",
+      "Alyssa Latham"
      ],
      "a": [
       "Kathy Behrmann",
@@ -18651,8 +18651,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Kristin Rinaldi"
      ],
      "a": [
       "Aurora Lewis",
@@ -18662,8 +18662,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Dan Kaytes"
      ],
      "a": [
       "Jacob Yoo",
@@ -18673,8 +18673,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "Kevin Lo"
      ],
      "a": [
       "Phil Mania",
@@ -18694,8 +18694,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janelle Donnian",
+      "Sammy Mcgee"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -18705,8 +18705,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Daniel Dechristopher"
      ],
      "a": [
       "Sophy Siv",
@@ -18716,8 +18716,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Lambe",
+      "Eric Padernilla"
      ],
      "a": [
       "Jessica Hyman",
@@ -18727,8 +18727,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Bianca Previdi",
+      "Nhan Duong"
      ],
      "a": [
       "Alexandra Smith",
@@ -18738,8 +18738,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Jiyun Yuh"
      ],
      "a": [
       "Sophy Siv",
@@ -18749,8 +18749,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashlee Novelli",
+      "Taylor Lambe"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -18760,8 +18760,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Dechristopher",
+      "Nhan Duong"
      ],
      "a": [
       "Matthew Mintz",
@@ -18771,8 +18771,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sammy Mcgee",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Arjun Kumble",
@@ -18782,8 +18782,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Sammy Mcgee"
      ],
      "a": [
       "Alexandra Smith",
@@ -18793,8 +18793,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jiyun Yuh",
+      "Daniel Dechristopher"
      ],
      "a": [
       "Jessica Hyman",
@@ -18804,8 +18804,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janelle Donnian",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Sophy Siv",
@@ -18815,8 +18815,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Bianca Previdi",
+      "Eric Padernilla"
      ],
      "a": [
       "Tanya Patterson",
@@ -18826,8 +18826,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janelle Donnian",
+      "Taylor Lambe"
      ],
      "a": [
       "Sophy Siv",
@@ -18837,8 +18837,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Bianca Previdi",
+      "Ashlee Novelli"
      ],
      "a": [
       "Jessica Hyman",
@@ -18848,8 +18848,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nhan Duong",
+      "Sammy Mcgee"
      ],
      "a": [
       "Matthew Mintz",
@@ -18859,8 +18859,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Padernilla",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Se Jun Kim",
@@ -18870,8 +18870,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Daniel Dechristopher"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -18881,8 +18881,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Bianca Previdi",
+      "Nhan Duong"
      ],
      "a": [
       "Jessica Hyman",
@@ -18892,8 +18892,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jiyun Yuh",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Alexandra Smith",
@@ -18903,8 +18903,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashlee Novelli",
+      "Eric Padernilla"
      ],
      "a": [
       "Tanya Patterson",
@@ -18914,8 +18914,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janelle Donnian",
+      "Taylor Lambe"
      ],
      "a": [
       "Sophy Siv",
@@ -18925,8 +18925,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Jiyun Yuh"
      ],
      "a": [
       "Alexandra Smith",
@@ -18936,8 +18936,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Dechristopher",
+      "Sammy Mcgee"
      ],
      "a": [
       "Matthew Mintz",
@@ -18947,8 +18947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Padernilla",
+      "Nhan Duong"
      ],
      "a": [
       "Arjun Kumble",
@@ -18958,8 +18958,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Bianca Previdi",
+      "Daniel Dechristopher"
      ],
      "a": [
       "Alexandra Smith",
@@ -18969,8 +18969,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashlee Novelli",
+      "Nhan Duong"
      ],
      "a": [
       "Sophy Siv",
@@ -18980,8 +18980,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jiyun Yuh",
+      "Sammy Mcgee"
      ],
      "a": [
       "Jessica Hyman",
@@ -18991,8 +18991,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Lambe",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -19002,8 +19002,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashlee Novelli",
+      "Taylor Lambe"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -19013,8 +19013,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Sweet",
+      "Janelle Donnian"
      ],
      "a": [
       "Sophy Siv",
@@ -19024,8 +19024,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sammy Mcgee",
+      "Eric Padernilla"
      ],
      "a": [
       "Arjun Kumble",
@@ -19035,8 +19035,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Dechristopher",
+      "Uzoma Nwankwo"
      ],
      "a": [
       "Se Jun Kim",
@@ -20208,8 +20208,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Martinez",
+      "Elliott Bauer"
      ],
      "a": [
       "Jerry Li",
@@ -20219,8 +20219,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eshan Kanetkar",
+      "Daniel Borgia"
      ],
      "a": [
       "Christopher Metsikas",
@@ -20230,8 +20230,8 @@
     {
      "t": "mixed",
      "h": [
-      "Lindsay Henzes",
-      "Anuj Mehta"
+      "Tessa Arendt",
+      "Jesse Martinez"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20241,8 +20241,8 @@
     {
      "t": "mixed",
      "h": [
-      "Tessa Arendt",
-      "Jesse Martinez"
+      "Lindsay Henzes",
+      "Anuj Mehta"
      ],
      "a": [
       "Nicole Votta",
@@ -20252,7 +20252,7 @@
     {
      "t": "mixed",
      "h": [
-      "Mickey Ma",
+      "Michelle Friedman",
       "Eshan Kanetkar"
      ],
      "a": [
@@ -20296,8 +20296,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Borgia",
+      "Anuj Mehta"
      ],
      "a": [
       "Memo Elgayar",
@@ -20307,8 +20307,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicolas Ha",
+      "Elliott Bauer"
      ],
      "a": [
       "Abram Lishansky",
@@ -20319,7 +20319,7 @@
      "t": "mixed",
      "h": [
       "Michelle Friedman",
-      "Jesse Martinez"
+      "Nicolas Ha"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20352,7 +20352,7 @@
      "t": "mixed",
      "h": [
       "Mickey Ma",
-      "Eshan Kanetkar"
+      "Anuj Mehta"
      ],
      "a": [
       "Quynh Nguyen",
@@ -20384,8 +20384,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Borgia",
+      "Eshan Kanetkar"
      ],
      "a": [
       "Jerry Li",
@@ -20395,8 +20395,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Martinez",
+      "Nicolas Ha"
      ],
      "a": [
       "Christopher Metsikas",
@@ -20472,8 +20472,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anuj Mehta",
+      "Jesse Martinez"
      ],
      "a": [
       "Memo Elgayar",
@@ -20483,8 +20483,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eshan Kanetkar",
+      "Elliott Bauer"
      ],
      "a": [
       "Jerry Li",
@@ -20504,8 +20504,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Taylor Regenwether",
@@ -20515,8 +20515,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Moniz",
+      "Lance Brown"
      ],
      "a": [
       "Olivia Iacono",
@@ -20526,8 +20526,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Francisco De Leon"
      ],
      "a": [
       "Gabrielle Padilla",
@@ -20537,8 +20537,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Nicholas Estephan"
      ],
      "a": [
       "Michelle Sciarillo",
@@ -20548,8 +20548,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Stephanie Moniz"
      ],
      "a": [
       "Taylor Regenwether",
@@ -20559,8 +20559,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Serena Martz"
      ],
      "a": [
       "Michelle Sciarillo",
@@ -20570,8 +20570,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Lance Brown"
      ],
      "a": [
       "Gary White",
@@ -20581,8 +20581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francisco De Leon",
+      "Craig Brown"
      ],
      "a": [
       "Matthew Friedman",
@@ -21878,6 +21878,7 @@
   "Laura Bruno": "3e9413ca-f37d-43e0-8380-957933a70055",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "John Tano": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
+  "Andre Cristobal": "50d796da-0ac2-4f94-af29-212d7865f473",
   "Kevin Lo": "55816295-00f5-4b9b-bec7-6192da7c66c2",
   "Nicholas Yandoli": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
   "Joey Angelson": "6035850e-af27-40db-bb81-f5787f344871",
@@ -21886,6 +21887,7 @@
   "Stephanie Li": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
   "Matthew Brigle": "6aa60ea2-e7b6-49d6-80b1-a933dd6c475c",
   "Bryan Mccourt": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
+  "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Neel Goyal": "8cfc8650-92ac-4ed4-9b57-2692526abd19",
   "Caitlyn Suchanic": "97a33ff9-4337-4782-8906-226561b07c72",
   "Justin Chin": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
@@ -22013,7 +22015,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-02T15:40:32.913Z";
+  DATA.meta.asOf = "2026-09-02T20:18:54.741Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
