@@ -599,7 +599,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 33,
+    "rank": 36,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.2
@@ -608,7 +608,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 35,
+    "rank": 38,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.2
@@ -1049,7 +1049,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 42,
-    "rank": 23,
+    "rank": 24,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.7
@@ -1058,7 +1058,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 42,
-    "rank": 24,
+    "rank": 25,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.7
@@ -1356,7 +1356,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 83,
+    "rank": 90,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -1365,7 +1365,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 92,
+    "rank": 99,
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -1656,7 +1656,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 52,
+    "rank": 55,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -1665,7 +1665,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 51,
-    "rank": 60,
+    "rank": 63,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -1956,7 +1956,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 46,
-    "rank": 75,
+    "rank": 81,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -1965,7 +1965,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 46,
-    "rank": 83,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -2074,7 +2074,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 34,
-    "rank": 61,
+    "rank": 64,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -1.3
@@ -2083,7 +2083,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 34,
-    "rank": 69,
+    "rank": 72,
     "ratingGames": 4,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -1.3
@@ -2802,7 +2802,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 43,
-    "rank": 22,
+    "rank": 23,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -2811,7 +2811,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 43,
-    "rank": 23,
+    "rank": 24,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -2984,7 +2984,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 72,
+    "rank": 77,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.7
@@ -2993,7 +2993,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 49,
-    "rank": 80,
+    "rank": 85,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.7
@@ -3482,7 +3482,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 53,
-    "rank": 101,
+    "rank": 110,
     "ratingGames": 7,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.9
@@ -3491,7 +3491,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 53,
-    "rank": 111,
+    "rank": 120,
     "ratingGames": 7,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.9
@@ -3648,7 +3648,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 53,
-    "rank": 43,
+    "rank": 46,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -3657,7 +3657,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 53,
-    "rank": 47,
+    "rank": 50,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -3948,7 +3948,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 47,
-    "rank": 42,
+    "rank": 45,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.6
@@ -3957,7 +3957,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 47,
-    "rank": 46,
+    "rank": 49,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.6
@@ -4248,7 +4248,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 63,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.4
@@ -4257,7 +4257,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 71,
+    "rank": 74,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.4
@@ -4398,7 +4398,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 29,
+    "rank": 30,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.9
@@ -4407,10 +4407,160 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 31,
+    "rank": 32,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.9
+   }
+  ],
+  "partners": []
+ },
+ "5fd7e152-10cf-4669-bcf2-09a067870bf0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 97,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Florence Doueck",
+     "Eugene Yudelson"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Florence Doueck",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Florence Doueck",
+     "Chelsea Convissar"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Serena Martz",
+    "vs": [
+     "Gabby Gonzalez",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Florence Doueck",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Chelsea Convissar",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.5,
+    "confidence": 44,
+    "rank": 33,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 44,
+    "rank": 35,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -4548,7 +4698,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 47,
-    "rank": 36,
+    "rank": 39,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -4557,7 +4707,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 47,
-    "rank": 39,
+    "rank": 42,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.5
@@ -4698,7 +4848,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 79,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.3
@@ -4707,7 +4857,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 46,
-    "rank": 87,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.3
@@ -4848,7 +4998,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 121,
+    "rank": 135,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
@@ -4857,10 +5007,160 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 46,
-    "rank": 133,
+    "rank": 147,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "d56483b8-a5b8-4c1f-8437-39fcf90a5030": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 102,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Francisco De Leon",
+    "vs": [
+     "Alexis Milak",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Florence Doueck",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Florence Doueck",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Florence Doueck",
+     "Chelsea Convissar"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Arpita Vaidya",
+    "vs": [
+     "Florence Doueck",
+     "Chelsea Convissar"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Eva Danieli",
+    "vs": [
+     "Gabby Gonzalez",
+     "Alexis Milak"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.9,
+    "confidence": 48,
+    "rank": 21,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 1.9,
+    "confidence": 48,
+    "rank": 22,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -4998,7 +5298,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 125,
+    "rank": 139,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -5007,7 +5307,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 46,
-    "rank": 137,
+    "rank": 151,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -5148,7 +5448,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 44,
-    "rank": 47,
+    "rank": 50,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -5157,7 +5457,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 44,
-    "rank": 53,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -5298,7 +5598,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 48,
-    "rank": 129,
+    "rank": 143,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.8
@@ -5589,7 +5889,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 76,
+    "rank": 83,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.9
@@ -5598,7 +5898,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 50,
-    "rank": 84,
+    "rank": 91,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.9
@@ -5739,7 +6039,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 48,
-    "rank": 28,
+    "rank": 29,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -5748,7 +6048,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 48,
-    "rank": 30,
+    "rank": 31,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -5873,7 +6173,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 68,
+    "rank": 72,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.4
@@ -5882,7 +6182,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 76,
+    "rank": 80,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.4
@@ -6007,7 +6307,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 43,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -6016,7 +6316,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 43,
-    "rank": 54,
+    "rank": 57,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
@@ -6141,7 +6441,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 97,
+    "rank": 106,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -6150,7 +6450,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 107,
+    "rank": 116,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.1
@@ -6275,7 +6575,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 58,
+    "rank": 61,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -6284,7 +6584,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 66,
+    "rank": 69,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.2
@@ -6409,7 +6709,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 30,
+    "rank": 31,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -6418,7 +6718,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 32,
+    "rank": 33,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.6
@@ -6543,7 +6843,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 44,
-    "rank": 99,
+    "rank": 108,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
@@ -6552,7 +6852,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 44,
-    "rank": 109,
+    "rank": 118,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
@@ -6677,7 +6977,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 44,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
@@ -6686,10 +6986,144 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 44,
-    "rank": 40,
+    "rank": 43,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "5807a1c8-ca44-48d1-9dec-ee621a2817c2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 98,
+    "pa": 93,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Gabby Gonzalez",
+     "Rodney Sanchez"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Ethan Rosen",
+     "Eugene Yudelson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Arpita Vaidya",
+    "vs": [
+     "Florence Doueck",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Eva Danieli",
+    "vs": [
+     "Gabby Gonzalez",
+     "Ethan Rosen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Jordan Brochin",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 45,
+    "rank": 68,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 45,
+    "rank": 76,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -6811,7 +7245,7 @@
     "week": 1,
     "rating": 1.1,
     "confidence": 44,
-    "rank": 44,
+    "rank": 47,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -6820,7 +7254,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 44,
-    "rank": 49,
+    "rank": 52,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -6945,7 +7379,7 @@
     "week": 1,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 31,
+    "rank": 32,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -6954,7 +7388,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 45,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -7079,7 +7513,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 164,
+    "rank": 183,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -7088,7 +7522,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 177,
+    "rank": 196,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -7213,7 +7647,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 104,
+    "rank": 114,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -7222,7 +7656,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 115,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -7395,7 +7829,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 55,
-    "rank": 45,
+    "rank": 48,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.7
@@ -7404,7 +7838,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 55,
-    "rank": 50,
+    "rank": 53,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.7
@@ -7695,7 +8129,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 123,
+    "rank": 137,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -7704,7 +8138,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 52,
-    "rank": 135,
+    "rank": 149,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -8193,7 +8627,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 46,
-    "rank": 51,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -8202,7 +8636,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 46,
-    "rank": 59,
+    "rank": 62,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -8359,7 +8793,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 103,
+    "rank": 113,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.6
@@ -8368,7 +8802,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 48,
-    "rank": 113,
+    "rank": 123,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.6
@@ -8525,7 +8959,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 52,
-    "rank": 41,
+    "rank": 44,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.7
@@ -8848,7 +9282,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 116,
+    "rank": 129,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -8857,7 +9291,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 52,
-    "rank": 127,
+    "rank": 140,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1
@@ -9014,7 +9448,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 70,
+    "rank": 75,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -9023,10 +9457,176 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 53,
-    "rank": 78,
+    "rank": 83,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "a82d98f2-cb23-4bd2-95fe-11731dfd2749": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 129,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Alice Napolitano",
+     "Francisco De Leon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Danielle Mironova",
+     "Serena Martz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Arpita Vaidya",
+     "Francisco De Leon"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Cj Pineda",
+    "vs": [
+     "Eva Danieli",
+     "Danielle Mironova"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Serena Martz",
+     "Francisco De Leon"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Serena Martz",
+     "Francisco De Leon"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Eva Danieli",
+     "Alice Napolitano"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 45,
+    "rank": 34,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 45,
+    "rank": 36,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -9180,10 +9780,176 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 49,
-    "rank": 48,
+    "rank": 51,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "dae9f061-a8d1-4c21-97b1-cf7cd9e60322": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 130,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Arpita Vaidya",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Lance Brown",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Alexis Milak",
+    "vs": [
+     "Arpita Vaidya",
+     "Francisco De Leon"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Ivan Rios"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Alexis Milak",
+    "vs": [
+     "Serena Martz",
+     "Francisco De Leon"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Eva Danieli",
+     "Ivan Rios"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Lance Brown",
+     "Sree Harsha Konduru"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.2,
+    "confidence": 49,
+    "rank": 103,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 49,
+    "rank": 113,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -9337,7 +10103,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 118,
+    "rank": 132,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -9346,7 +10112,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 130,
+    "rank": 144,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -9487,7 +10253,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 35,
+    "rank": 38,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -9496,7 +10262,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 38,
+    "rank": 41,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -9787,7 +10553,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 41,
+    "rank": 44,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.1
@@ -9796,7 +10562,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 45,
+    "rank": 48,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.1
@@ -9937,7 +10703,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 47,
-    "rank": 27,
+    "rank": 28,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.2
@@ -10078,7 +10844,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 50,
-    "rank": 38,
+    "rank": 41,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -10087,7 +10853,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 50,
-    "rank": 42,
+    "rank": 45,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -10228,7 +10994,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 44,
-    "rank": 138,
+    "rank": 152,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.4
@@ -10369,7 +11135,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 73,
+    "rank": 78,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.9
@@ -10378,7 +11144,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 81,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.9
@@ -10519,7 +11285,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 45,
-    "rank": 46,
+    "rank": 49,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
@@ -10528,7 +11294,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 45,
-    "rank": 52,
+    "rank": 55,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.5
@@ -10669,7 +11435,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 78,
+    "rank": 85,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.7
@@ -10678,7 +11444,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 86,
+    "rank": 93,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.7
@@ -10819,7 +11585,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 58,
+    "rank": 61,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.5
@@ -10960,7 +11726,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 56,
+    "rank": 59,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -10969,7 +11735,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 64,
+    "rank": 67,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -11110,7 +11876,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 122,
+    "rank": 136,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1.4
@@ -11119,7 +11885,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 44,
-    "rank": 134,
+    "rank": 148,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1.4
@@ -11260,7 +12026,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 54,
+    "rank": 57,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -11269,7 +12035,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 49,
-    "rank": 62,
+    "rank": 65,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -11410,7 +12176,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 100,
+    "rank": 109,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
@@ -11419,10 +12185,160 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 42,
-    "rank": 110,
+    "rank": 119,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "6aa4b196-23d0-4070-8825-2b1d4b80395d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 108,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Varun Gurram",
+     "Francisco De Leon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Danielle Mironova",
+     "Varun Gurram"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Eva Danieli",
+     "Varun Gurram"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Lance Brown",
+     "Abhishekh Mehra"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Arpita Vaidya",
+     "Lance Brown"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Lance Brown",
+     "Sree Harsha Konduru"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 47,
+    "rank": 80,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 47,
+    "rank": 88,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -11560,7 +12476,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 88,
+    "rank": 95,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -11569,7 +12485,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 98,
+    "rank": 105,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -11710,7 +12626,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 74,
+    "rank": 79,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -11719,10 +12635,160 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 48,
-    "rank": 82,
+    "rank": 87,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "6e92db16-8465-411e-bc3f-935badc74f47": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 109,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Florence Doueck",
+     "Eugene Yudelson"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Florence Doueck",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Chelsea Convissar",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Lance Brown",
+    "vs": [
+     "Joseph Mizrahi",
+     "Rodney Sanchez"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Florence Doueck",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Ivan Rios",
+    "vs": [
+     "Jordan Brochin",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 45,
+    "rank": 82,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 45,
+    "rank": 90,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -11860,7 +12926,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 46,
-    "rank": 157,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
@@ -11869,10 +12935,160 @@
     "week": 2,
     "rating": -1,
     "confidence": 46,
-    "rank": 170,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "baebeba7-cf9d-47cb-b73b-03849bc01a04": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Danielle Mironova",
+     "Ivan Rios"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Varun Gurram",
+     "Francisco De Leon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Eva Danieli",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Lance Brown",
+     "Varun Gurram"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Lance Brown",
+     "Abhishekh Mehra"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Alexis Milak",
+    "vs": [
+     "Serena Martz",
+     "Francisco De Leon"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 51,
+    "rank": 111,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 51,
+    "rank": 121,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -12010,7 +13226,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 41,
-    "rank": 182,
+    "rank": 202,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -12183,7 +13399,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 40,
-    "rank": 114,
+    "rank": 126,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.5
@@ -12192,7 +13408,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 40,
-    "rank": 125,
+    "rank": 137,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.5
@@ -12365,7 +13581,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 49,
-    "rank": 117,
+    "rank": 130,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -12374,7 +13590,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 49,
-    "rank": 128,
+    "rank": 141,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -12499,7 +13715,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 81,
+    "rank": 88,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -12508,7 +13724,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 44,
-    "rank": 89,
+    "rank": 96,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -12633,7 +13849,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 91,
+    "rank": 99,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -12642,7 +13858,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 101,
+    "rank": 109,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -12767,7 +13983,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 43,
-    "rank": 59,
+    "rank": 62,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -12776,7 +13992,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 43,
-    "rank": 67,
+    "rank": 70,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -12901,7 +14117,7 @@
     "week": 1,
     "rating": 1.7,
     "confidence": 46,
-    "rank": 21,
+    "rank": 22,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -12910,7 +14126,7 @@
     "week": 2,
     "rating": 1.7,
     "confidence": 46,
-    "rank": 22,
+    "rank": 23,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -13035,7 +14251,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 45,
-    "rank": 80,
+    "rank": 87,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -13044,7 +14260,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 45,
-    "rank": 88,
+    "rank": 95,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
@@ -13169,7 +14385,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 67,
+    "rank": 71,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -13178,7 +14394,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 43,
-    "rank": 75,
+    "rank": 79,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -13303,7 +14519,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 66,
+    "rank": 70,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -13312,7 +14528,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 74,
+    "rank": 78,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -13437,7 +14653,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 105,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -13446,7 +14662,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 44,
-    "rank": 116,
+    "rank": 126,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -13571,7 +14787,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 43,
-    "rank": 26,
+    "rank": 27,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -13580,7 +14796,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 43,
-    "rank": 28,
+    "rank": 29,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -13705,7 +14921,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 127,
+    "rank": 141,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -13714,7 +14930,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 140,
+    "rank": 154,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
@@ -13839,7 +15055,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 69,
+    "rank": 73,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -13848,7 +15064,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 42,
-    "rank": 77,
+    "rank": 81,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -13973,7 +15189,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 57,
+    "rank": 60,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -13982,7 +15198,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 44,
-    "rank": 65,
+    "rank": 68,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -14107,7 +15323,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 45,
-    "rank": 98,
+    "rank": 107,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -14116,7 +15332,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 45,
-    "rank": 108,
+    "rank": 117,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
@@ -14241,7 +15457,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 41,
-    "rank": 142,
+    "rank": 156,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -14250,7 +15466,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 41,
-    "rank": 155,
+    "rank": 169,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -14375,7 +15591,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 149,
+    "rank": 168,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -14384,7 +15600,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 162,
+    "rank": 181,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -14509,7 +15725,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 126,
+    "rank": 140,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.5
@@ -14518,7 +15734,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 41,
-    "rank": 139,
+    "rank": 153,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.5
@@ -14675,7 +15891,7 @@
     "week": 1,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 34,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -14684,7 +15900,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -14841,7 +16057,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 43,
-    "rank": 106,
+    "rank": 116,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -14850,7 +16066,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 43,
-    "rank": 117,
+    "rank": 127,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.3
@@ -15007,7 +16223,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 49,
-    "rank": 39,
+    "rank": 42,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -15016,7 +16232,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 49,
-    "rank": 43,
+    "rank": 46,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -15173,7 +16389,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 25,
+    "rank": 26,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -15182,7 +16398,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 26,
+    "rank": 27,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
@@ -15339,7 +16555,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 135,
+    "rank": 149,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -15348,7 +16564,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 148,
+    "rank": 162,
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -15505,7 +16721,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 93,
+    "rank": 101,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -15514,7 +16730,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 51,
-    "rank": 103,
+    "rank": 111,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -15671,7 +16887,7 @@
     "week": 2,
     "rating": 1.3,
     "confidence": 50,
-    "rank": 36,
+    "rank": 39,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
@@ -15828,10 +17044,176 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 50,
-    "rank": 56,
+    "rank": 59,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "981135da-5a2e-412e-8027-db5a4fdf09c0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 132,
+    "pa": 133,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Arpita Vaidya",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Eva Danieli",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Florence Doueck",
+    "vs": [
+     "Stephanie Moniz",
+     "Alice Napolitano"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Danielle Mironova",
+     "Abhishekh Mehra"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Florence Doueck",
+    "vs": [
+     "Alice Napolitano",
+     "Arpita Vaidya"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Arpita Vaidya",
+     "Lance Brown"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Cj Pineda",
+    "vs": [
+     "Danielle Mironova",
+     "Stephanie Moniz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 52,
+    "rank": 128,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 52,
+    "rank": 139,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -15985,7 +17367,7 @@
     "week": 1,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 40,
+    "rank": 43,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.9
@@ -15994,7 +17376,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 48,
-    "rank": 44,
+    "rank": 47,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.9
@@ -16103,7 +17485,7 @@
     "week": 1,
     "rating": 1,
     "confidence": 37,
-    "rank": 49,
+    "rank": 52,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -16112,7 +17494,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 37,
-    "rank": 55,
+    "rank": 58,
     "ratingGames": 4,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -16221,7 +17603,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 31,
-    "rank": 27,
+    "rank": 28,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -16230,7 +17612,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 31,
-    "rank": 29,
+    "rank": 30,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -16371,7 +17753,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 49,
-    "rank": 156,
+    "rank": 175,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -16380,7 +17762,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 49,
-    "rank": 169,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.1
@@ -16521,7 +17903,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 86,
+    "rank": 93,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -16530,7 +17912,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 48,
-    "rank": 95,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -16671,7 +18053,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 84,
+    "rank": 91,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -16680,7 +18062,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 45,
-    "rank": 93,
+    "rank": 100,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -16821,7 +18203,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 40,
-    "rank": 60,
+    "rank": 63,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -16830,7 +18212,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 40,
-    "rank": 68,
+    "rank": 71,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
@@ -16971,7 +18353,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 45,
-    "rank": 158,
+    "rank": 177,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -16980,7 +18362,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 45,
-    "rank": 171,
+    "rank": 190,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
@@ -17121,7 +18503,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 96,
+    "rank": 105,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
@@ -17130,7 +18512,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 46,
-    "rank": 106,
+    "rank": 115,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
@@ -17271,7 +18653,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 89,
+    "rank": 97,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -17280,7 +18662,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 45,
-    "rank": 99,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.2
@@ -17421,7 +18803,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 102,
+    "rank": 112,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -17430,7 +18812,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 49,
-    "rank": 112,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -17571,7 +18953,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 145,
+    "rank": 161,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -17580,7 +18962,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 158,
+    "rank": 174,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.3
@@ -17721,7 +19103,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 53,
+    "rank": 56,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -17730,7 +19112,7 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 50,
-    "rank": 61,
+    "rank": 64,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -17871,7 +19253,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 129,
+    "rank": 143,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -17880,7 +19262,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 47,
-    "rank": 142,
+    "rank": 156,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -18021,7 +19403,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 65,
+    "rank": 69,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -18030,7 +19412,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 44,
-    "rank": 73,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -18171,7 +19553,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 97,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
@@ -18312,7 +19694,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 47,
-    "rank": 111,
+    "rank": 122,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -18321,7 +19703,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 122,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -18462,7 +19844,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 47,
-    "rank": 140,
+    "rank": 154,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -18471,7 +19853,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 47,
-    "rank": 153,
+    "rank": 167,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -18612,7 +19994,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 47,
-    "rank": 131,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
@@ -18621,7 +20003,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 47,
-    "rank": 144,
+    "rank": 158,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
@@ -18762,7 +20144,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 95,
+    "rank": 104,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -18771,10 +20153,160 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 47,
-    "rank": 105,
+    "rank": 114,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "87358255-41e8-42ed-a7bd-97cf151f43c8": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 113,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Ivan Rios",
+    "vs": [
+     "Gabby Gonzalez",
+     "Rodney Sanchez"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Serena Martz",
+    "vs": [
+     "Gabby Gonzalez",
+     "Alexis Milak"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Varun Gurram",
+    "vs": [
+     "Gabby Gonzalez",
+     "Joseph Mizrahi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Eva Danieli",
+    "vs": [
+     "Cj Pineda",
+     "Alexis Milak"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Chelsea Convissar",
+     "Eugene Yudelson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Chelsea Convissar",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 49,
+    "rank": 131,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 49,
+    "rank": 142,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -18912,7 +20444,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 87,
+    "rank": 94,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -18921,7 +20453,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 47,
-    "rank": 96,
+    "rank": 103,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.2
@@ -19062,7 +20594,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 187,
+    "rank": 208,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -19071,7 +20603,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 48,
-    "rank": 204,
+    "rank": 225,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -19212,7 +20744,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 169,
+    "rank": 189,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -19221,7 +20753,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 183,
+    "rank": 203,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
@@ -19362,7 +20894,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 48,
-    "rank": 153,
+    "rank": 172,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -19371,7 +20903,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 48,
-    "rank": 166,
+    "rank": 185,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -19544,7 +21076,7 @@
     "week": 1,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 24,
+    "rank": 25,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -19553,7 +21085,7 @@
     "week": 2,
     "rating": 1.6,
     "confidence": 51,
-    "rank": 25,
+    "rank": 26,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -19662,7 +21194,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 165,
+    "rank": 184,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -19671,7 +21203,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 39,
-    "rank": 178,
+    "rank": 197,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -19780,7 +21312,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 38,
-    "rank": 197,
+    "rank": 219,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -19789,7 +21321,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 38,
-    "rank": 216,
+    "rank": 238,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -19962,7 +21494,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 50,
-    "rank": 109,
+    "rank": 119,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -19971,7 +21503,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 50,
-    "rank": 120,
+    "rank": 130,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -20128,9 +21660,175 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 47,
-    "rank": 114,
+    "rank": 124,
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "957ef2de-1e80-4ec9-b5cd-96d11bef6383": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 134,
+    "pa": 131,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Danielle Mironova",
+     "Ivan Rios"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Alexis Milak",
+    "vs": [
+     "Danielle Mironova",
+     "Serena Martz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Danielle Mironova",
+     "Varun Gurram"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Joseph Mizrahi",
+    "vs": [
+     "Eva Danieli",
+     "Varun Gurram"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Cj Pineda",
+    "vs": [
+     "Stephanie Moniz",
+     "Serena Martz"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Eva Danieli",
+     "Ivan Rios"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Alexis Milak",
+    "vs": [
+     "Eva Danieli",
+     "Alice Napolitano"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 49,
+    "rank": 120,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 49,
+    "rank": 131,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0
    }
   ],
@@ -20285,7 +21983,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 133,
+    "rank": 147,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -20294,7 +21992,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 146,
+    "rank": 160,
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.4
@@ -20451,7 +22149,7 @@
     "week": 1,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 82,
+    "rank": 89,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -20460,7 +22158,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 49,
-    "rank": 91,
+    "rank": 98,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -20617,7 +22315,7 @@
     "week": 1,
     "rating": 1.4,
     "confidence": 39,
-    "rank": 32,
+    "rank": 35,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -20626,7 +22324,7 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 39,
-    "rank": 34,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -20783,7 +22481,7 @@
     "week": 1,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 77,
+    "rank": 84,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -20792,7 +22490,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 48,
-    "rank": 85,
+    "rank": 92,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
@@ -20949,7 +22647,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 50,
-    "rank": 90,
+    "rank": 97,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -21106,7 +22804,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 47,
-    "rank": 62,
+    "rank": 65,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1
@@ -21115,7 +22813,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 47,
-    "rank": 70,
+    "rank": 73,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1
@@ -21272,7 +22970,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 45,
-    "rank": 112,
+    "rank": 124,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -21281,7 +22979,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 123,
+    "rank": 135,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -21438,7 +23136,7 @@
     "week": 1,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 71,
+    "rank": 76,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -21447,7 +23145,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 52,
-    "rank": 79,
+    "rank": 84,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.1
@@ -21604,7 +23302,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 51,
-    "rank": 108,
+    "rank": 118,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -21613,7 +23311,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 51,
-    "rank": 119,
+    "rank": 129,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -21770,7 +23468,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 162,
+    "rank": 181,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -21779,10 +23477,144 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 46,
-    "rank": 175,
+    "rank": 194,
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "63186871-d2ca-4525-b04a-2ba9c05349d3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 96,
+    "pa": 97,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Alexis Milak",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Varun Gurram",
+    "vs": [
+     "Joseph Mizrahi",
+     "Rodney Sanchez"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Arpita Vaidya",
+    "vs": [
+     "Alexis Milak",
+     "Ethan Rosen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Serena Martz",
+    "vs": [
+     "Alexis Milak",
+     "Ethan Rosen"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Serena Martz",
+    "vs": [
+     "Alexis Milak",
+     "Rodney Sanchez"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 38,
+    "rank": 74,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 38,
+    "rank": 82,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -21904,7 +23736,7 @@
     "week": 1,
     "rating": 0.1,
     "confidence": 41,
-    "rank": 107,
+    "rank": 117,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -21913,7 +23745,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 41,
-    "rank": 118,
+    "rank": 128,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -22038,7 +23870,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 44,
-    "rank": 113,
+    "rank": 125,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -22047,10 +23879,278 @@
     "week": 2,
     "rating": 0,
     "confidence": 44,
-    "rank": 124,
+    "rank": 136,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "44864b51-f901-4470-a6bd-891495ffd132": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 99,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Francisco De Leon",
+    "vs": [
+     "Joseph Mizrahi",
+     "Rodney Sanchez"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Gabby Gonzalez",
+     "Joseph Mizrahi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Lance Brown",
+    "vs": [
+     "Rodney Sanchez",
+     "Jordan Brochin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Eva Danieli",
+    "vs": [
+     "Gabby Gonzalez",
+     "Joseph Mizrahi"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Jordan Brochin",
+     "Eugene Yudelson"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 43,
+    "rank": 158,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 43,
+    "rank": 171,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 99,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Chelsea Convissar",
+     "Rodney Sanchez"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Cj Pineda",
+     "Alexis Milak"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Varun Gurram",
+    "vs": [
+     "Gabby Gonzalez",
+     "Joseph Mizrahi"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Ivan Rios",
+    "vs": [
+     "Gabby Gonzalez",
+     "Ethan Rosen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Gabby Gonzalez",
+     "Alexis Milak"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 46,
+    "rank": 162,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 46,
+    "rank": 175,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -22172,7 +24272,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 42,
-    "rank": 132,
+    "rank": 146,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
@@ -22181,7 +24281,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 42,
-    "rank": 145,
+    "rank": 159,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
@@ -22306,7 +24406,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 90,
+    "rank": 98,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -22315,7 +24415,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 44,
-    "rank": 100,
+    "rank": 108,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -22440,7 +24540,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 120,
+    "rank": 134,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
@@ -22449,7 +24549,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 132,
+    "rank": 146,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
@@ -22574,7 +24674,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 36,
-    "rank": 167,
+    "rank": 186,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -22583,7 +24683,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 36,
-    "rank": 180,
+    "rank": 199,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -22708,7 +24808,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 183,
+    "rank": 204,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
@@ -22717,7 +24817,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 200,
+    "rank": 221,
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
@@ -22842,7 +24942,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 141,
+    "rank": 155,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -22851,7 +24951,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 43,
-    "rank": 154,
+    "rank": 168,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -23024,7 +25124,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 115,
+    "rank": 127,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.1
@@ -23033,7 +25133,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 53,
-    "rank": 126,
+    "rank": 138,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.1
@@ -23174,7 +25274,7 @@
     "week": 1,
     "rating": 0,
     "confidence": 47,
-    "rank": 110,
+    "rank": 121,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -23183,7 +25283,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 47,
-    "rank": 121,
+    "rank": 132,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -23324,7 +25424,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 179,
+    "rank": 200,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -23333,7 +25433,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 196,
+    "rank": 217,
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.4
@@ -23474,7 +25574,7 @@
     "week": 1,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 55,
+    "rank": 58,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
@@ -23483,10 +25583,160 @@
     "week": 2,
     "rating": 0.8,
     "confidence": 48,
-    "rank": 63,
+    "rank": 66,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "f902ef24-02e2-46ed-a636-7b347d91e387": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Florence Doueck",
+    "vs": [
+     "Stephanie Moniz",
+     "Abhishekh Mehra"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Florence Doueck",
+    "vs": [
+     "Alice Napolitano",
+     "Abhishekh Mehra"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Ivan Rios"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Danielle Mironova",
+     "Abhishekh Mehra"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Varun Gurram",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Abhishekh Mehra",
+     "Ivan Rios"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 46,
+    "rank": 96,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 46,
+    "rank": 106,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -23624,7 +25874,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 48,
-    "rank": 161,
+    "rank": 180,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -23633,7 +25883,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 48,
-    "rank": 174,
+    "rank": 193,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
@@ -23774,7 +26024,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 139,
+    "rank": 153,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -23783,7 +26033,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 152,
+    "rank": 166,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -23924,7 +26174,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 173,
+    "rank": 193,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -23933,10 +26183,160 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 47,
-    "rank": 189,
+    "rank": 209,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
+ },
+ "439cf2c1-044c-450c-9dcc-4fdeafbb81cd": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 122,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Arpita Vaidya",
+    "vs": [
+     "Chelsea Convissar",
+     "Ethan Rosen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Lance Brown",
+    "vs": [
+     "Ethan Rosen",
+     "Jordan Brochin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Eva Danieli",
+    "vs": [
+     "Chelsea Convissar",
+     "Rodney Sanchez"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Ivan Rios",
+    "vs": [
+     "Ethan Rosen",
+     "Eugene Yudelson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Varun Gurram",
+    "vs": [
+     "Jordan Brochin",
+     "Eugene Yudelson"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Lance Brown",
+    "vs": [
+     "Ethan Rosen",
+     "Joseph Mizrahi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 46,
+    "rank": 166,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 46,
+    "rank": 179,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -24074,7 +26474,7 @@
     "week": 1,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 119,
+    "rank": 133,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -24083,7 +26483,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 47,
-    "rank": 131,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.7
@@ -24224,7 +26624,7 @@
     "week": 1,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 130,
+    "rank": 144,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.4
@@ -24233,7 +26633,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 48,
-    "rank": 143,
+    "rank": 157,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.4
@@ -24374,7 +26774,7 @@
     "week": 1,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 64,
+    "rank": 67,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
@@ -24383,7 +26783,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 46,
-    "rank": 72,
+    "rank": 75,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
@@ -24524,7 +26924,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 191,
+    "rank": 212,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.4
@@ -24533,7 +26933,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 208,
+    "rank": 229,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.4
@@ -24674,7 +27074,7 @@
     "week": 1,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 85,
+    "rank": 92,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.5
@@ -24683,7 +27083,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 49,
-    "rank": 94,
+    "rank": 101,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.5
@@ -24824,7 +27224,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 137,
+    "rank": 151,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -24833,7 +27233,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 49,
-    "rank": 150,
+    "rank": 164,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -24974,7 +27374,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 136,
+    "rank": 150,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.9
@@ -24983,7 +27383,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 50,
-    "rank": 149,
+    "rank": 163,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.9
@@ -25124,7 +27524,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 50,
-    "rank": 176,
+    "rank": 197,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -25133,7 +27533,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 50,
-    "rank": 193,
+    "rank": 214,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -25274,7 +27674,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 50,
-    "rank": 211,
+    "rank": 233,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -25431,7 +27831,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 45,
-    "rank": 51,
+    "rank": 54,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -25588,7 +27988,7 @@
     "week": 1,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 50,
+    "rank": 53,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -25597,7 +27997,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 48,
-    "rank": 57,
+    "rank": 60,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -25754,7 +28154,7 @@
     "week": 1,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 128,
+    "rank": 142,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -25763,7 +28163,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 50,
-    "rank": 141,
+    "rank": 155,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -25920,7 +28320,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 52,
-    "rank": 187,
+    "rank": 207,
     "ratingGames": 7,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -26077,7 +28477,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 50,
-    "rank": 152,
+    "rank": 171,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
@@ -26086,10 +28486,342 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 50,
-    "rank": 165,
+    "rank": 184,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "a4176c65-8252-4eee-b2cb-28b8b7f1f036": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 131,
+    "pa": 143,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Alexis Milak",
+    "vs": [
+     "Alice Napolitano",
+     "Francisco De Leon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Ethan Rosen",
+    "vs": [
+     "Lance Brown",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Rodney Sanchez",
+    "vs": [
+     "Lance Brown",
+     "Varun Gurram"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Florence Doueck",
+    "vs": [
+     "Arpita Vaidya",
+     "Ivan Rios"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Varun Gurram",
+     "Sree Harsha Konduru"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Florence Doueck",
+    "vs": [
+     "Stephanie Moniz",
+     "Abhishekh Mehra"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Abhishekh Mehra",
+     "Ivan Rios"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 54,
+    "rank": 187,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 54,
+    "rank": 200,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "4f18852d-92e3-4be7-8e3c-b65f093d9b33": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 123,
+    "pa": 140,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Stephanie Moniz",
+     "Abhishekh Mehra"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Cj Pineda",
+    "vs": [
+     "Stephanie Moniz",
+     "Alice Napolitano"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Eugene Yudelson",
+    "vs": [
+     "Alice Napolitano",
+     "Abhishekh Mehra"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Stephanie Moniz",
+     "Alice Napolitano"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Arpita Vaidya",
+     "Ivan Rios"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Alice Napolitano",
+     "Arpita Vaidya"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Jordan Brochin",
+    "vs": [
+     "Stephanie Moniz",
+     "Abhishekh Mehra"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 45,
+    "rank": 123,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 45,
+    "rank": 134,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -26243,7 +28975,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 134,
+    "rank": 148,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
@@ -26252,7 +28984,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 52,
-    "rank": 147,
+    "rank": 161,
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
@@ -26409,7 +29141,7 @@
     "week": 1,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 124,
+    "rank": 138,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.4
@@ -26418,7 +29150,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 136,
+    "rank": 150,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.4
@@ -26575,7 +29307,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 47,
-    "rank": 180,
+    "rank": 201,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -26584,7 +29316,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 47,
-    "rank": 197,
+    "rank": 218,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
@@ -26741,7 +29473,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 138,
+    "rank": 152,
     "ratingGames": 7,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.6
@@ -26750,7 +29482,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 48,
-    "rank": 151,
+    "rank": 165,
     "ratingGames": 7,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.6
@@ -26907,7 +29639,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 51,
-    "rank": 147,
+    "rank": 165,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
@@ -26916,7 +29648,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 51,
-    "rank": 160,
+    "rank": 178,
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.1
@@ -27073,7 +29805,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 52,
-    "rank": 151,
+    "rank": 170,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.7
@@ -27082,10 +29814,246 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 52,
-    "rank": 164,
+    "rank": 183,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "2db0eb6d-a738-4daa-9be3-8e7a535330ba": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 73,
+    "pa": 79,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Danielle Mironova",
+    "vs": [
+     "Gabby Gonzalez",
+     "Alexis Milak"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Francisco De Leon",
+    "vs": [
+     "Alexis Milak",
+     "Ethan Rosen"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stephanie Moniz",
+    "vs": [
+     "Gabby Gonzalez",
+     "Cj Pineda"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Francisco De Leon",
+    "vs": [
+     "Alexis Milak",
+     "Rodney Sanchez"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 38,
+    "rank": 164,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 38,
+    "rank": 177,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "ac5e76e4-8200-438e-b915-ee397f9af45c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 63,
+    "pa": 80,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Florence Doueck",
+    "vs": [
+     "Stephanie Moniz",
+     "Alice Napolitano"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Alexis Milak",
+    "vs": [
+     "Eva Danieli",
+     "Danielle Mironova"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Gabby Gonzalez",
+    "vs": [
+     "Stephanie Moniz",
+     "Serena Martz"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Chelsea Convissar",
+    "vs": [
+     "Danielle Mironova",
+     "Stephanie Moniz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.7,
+    "confidence": 39,
+    "rank": 213,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 39,
+    "rank": 230,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -27255,7 +30223,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 94,
+    "rank": 102,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.8
@@ -27264,7 +30232,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 49,
-    "rank": 104,
+    "rank": 112,
     "ratingGames": 8,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.8
@@ -27373,7 +30341,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 35,
-    "rank": 192,
+    "rank": 214,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
@@ -27382,10 +30350,144 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 35,
-    "rank": 209,
+    "rank": 231,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
+   }
+  ],
+  "partners": []
+ },
+ "5d13288d-69fe-4d0b-bf69-51c1d24e3409": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 94,
+    "pa": 103,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Ethan Rosen",
+     "Jordan Brochin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Varun Gurram",
+    "vs": [
+     "Rodney Sanchez",
+     "Jordan Brochin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Abhishekh Mehra",
+    "vs": [
+     "Joseph Mizrahi",
+     "Rodney Sanchez"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Arpita Vaidya",
+    "vs": [
+     "Chelsea Convissar",
+     "Joseph Mizrahi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Ethan Rosen",
+     "Joseph Mizrahi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 42,
+    "rank": 159,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 42,
+    "rank": 172,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -27507,7 +30609,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 39,
-    "rank": 155,
+    "rank": 174,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -27516,10 +30618,144 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 39,
-    "rank": 168,
+    "rank": 187,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "76e829fc-dfa9-4d0c-86ca-eaed7dc4a11a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 91,
+    "pa": 103,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "Chelsea Convissar",
+     "Ethan Rosen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Francisco De Leon",
+    "vs": [
+     "Alexis Milak",
+     "Ethan Rosen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Ivan Rios",
+    "vs": [
+     "Florence Doueck",
+     "Jordan Brochin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Alice Napolitano",
+    "vs": [
+     "Florence Doueck",
+     "Chelsea Convissar"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "mixed",
+    "with": "Lance Brown",
+    "vs": [
+     "Chelsea Convissar",
+     "Joseph Mizrahi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 44,
+    "rank": 195,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 44,
+    "rank": 211,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -27641,7 +30877,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 41,
-    "rank": 191,
+    "rank": 212,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.7
@@ -27766,7 +31002,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 170,
+    "rank": 190,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -27775,7 +31011,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 45,
-    "rank": 184,
+    "rank": 204,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
@@ -27900,7 +31136,7 @@
     "week": 1,
     "rating": -1.9,
     "confidence": 42,
-    "rank": 194,
+    "rank": 216,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -27909,7 +31145,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 42,
-    "rank": 213,
+    "rank": 235,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -28034,7 +31270,7 @@
     "week": 1,
     "rating": -1.8,
     "confidence": 44,
-    "rank": 193,
+    "rank": 215,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1
@@ -28043,7 +31279,7 @@
     "week": 2,
     "rating": -1.8,
     "confidence": 44,
-    "rank": 210,
+    "rank": 232,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1
@@ -28168,7 +31404,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 189,
+    "rank": 210,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -28177,7 +31413,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 206,
+    "rank": 227,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -28302,7 +31538,7 @@
     "week": 1,
     "rating": -3,
     "confidence": 44,
-    "rank": 207,
+    "rank": 229,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -28311,7 +31547,7 @@
     "week": 2,
     "rating": -3,
     "confidence": 44,
-    "rank": 227,
+    "rank": 249,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.8
@@ -28452,7 +31688,7 @@
     "week": 1,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 148,
+    "rank": 167,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.2
@@ -28461,7 +31697,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 43,
-    "rank": 161,
+    "rank": 180,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.2
@@ -28602,7 +31838,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 40,
-    "rank": 146,
+    "rank": 163,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -28611,7 +31847,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 40,
-    "rank": 159,
+    "rank": 176,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -28752,7 +31988,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 190,
+    "rank": 211,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -28761,7 +31997,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 46,
-    "rank": 207,
+    "rank": 228,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -28902,7 +32138,7 @@
     "week": 1,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 144,
+    "rank": 160,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.9
@@ -28911,7 +32147,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 51,
-    "rank": 157,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.9
@@ -29052,7 +32288,7 @@
     "week": 1,
     "rating": -1.2,
     "confidence": 48,
-    "rank": 168,
+    "rank": 188,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
@@ -29061,7 +32297,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 48,
-    "rank": 181,
+    "rank": 201,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
@@ -29202,7 +32438,7 @@
     "week": 2,
     "rating": -1.9,
     "confidence": 48,
-    "rank": 212,
+    "rank": 234,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.3
@@ -29343,7 +32579,7 @@
     "week": 1,
     "rating": -2.4,
     "confidence": 51,
-    "rank": 201,
+    "rank": 223,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -29352,7 +32588,7 @@
     "week": 2,
     "rating": -2.4,
     "confidence": 51,
-    "rank": 220,
+    "rank": 242,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
@@ -29493,7 +32729,7 @@
     "week": 1,
     "rating": -1,
     "confidence": 41,
-    "rank": 159,
+    "rank": 178,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -29502,7 +32738,7 @@
     "week": 2,
     "rating": -1,
     "confidence": 41,
-    "rank": 172,
+    "rank": 191,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -29643,7 +32879,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 48,
-    "rank": 188,
+    "rank": 208,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.5
@@ -29784,7 +33020,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 188,
+    "rank": 209,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -29793,7 +33029,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 47,
-    "rank": 205,
+    "rank": 226,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -29934,7 +33170,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 186,
+    "rank": 207,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -29943,7 +33179,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 203,
+    "rank": 224,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -30084,7 +33320,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 178,
+    "rank": 199,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -30093,7 +33329,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 195,
+    "rank": 216,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -30234,7 +33470,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 163,
+    "rank": 182,
     "ratingGames": 6,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 1.5
@@ -30243,7 +33479,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 45,
-    "rank": 176,
+    "rank": 195,
     "ratingGames": 6,
     "strengthOfPartners": -2.5,
     "strengthOfOpponents": 1.5
@@ -30384,7 +33620,7 @@
     "week": 1,
     "rating": -3,
     "confidence": 50,
-    "rank": 206,
+    "rank": 228,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -30393,7 +33629,7 @@
     "week": 2,
     "rating": -3,
     "confidence": 50,
-    "rank": 226,
+    "rank": 248,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -30550,7 +33786,7 @@
     "week": 1,
     "rating": -0.5,
     "confidence": 39,
-    "rank": 143,
+    "rank": 157,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.3
@@ -30559,7 +33795,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 39,
-    "rank": 156,
+    "rank": 170,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.3
@@ -30716,7 +33952,7 @@
     "week": 1,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 185,
+    "rank": 206,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -30725,7 +33961,7 @@
     "week": 2,
     "rating": -1.7,
     "confidence": 50,
-    "rank": 202,
+    "rank": 223,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -30882,7 +34118,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 50,
-    "rank": 203,
+    "rank": 225,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -30891,7 +34127,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 50,
-    "rank": 223,
+    "rank": 245,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -31048,7 +34284,7 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 42,
-    "rank": 222,
+    "rank": 244,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.6
@@ -31205,7 +34441,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 49,
-    "rank": 199,
+    "rank": 221,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.3
@@ -31214,7 +34450,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 49,
-    "rank": 218,
+    "rank": 240,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.3
@@ -31387,7 +34623,7 @@
     "week": 1,
     "rating": 0.2,
     "confidence": 55,
-    "rank": 92,
+    "rank": 100,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.1
@@ -31396,7 +34632,7 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 55,
-    "rank": 102,
+    "rank": 110,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.1
@@ -31569,7 +34805,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 53,
-    "rank": 172,
+    "rank": 192,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -31578,7 +34814,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 53,
-    "rank": 186,
+    "rank": 206,
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -31751,7 +34987,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 47,
-    "rank": 210,
+    "rank": 232,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -31760,7 +34996,7 @@
     "week": 2,
     "rating": -3.2,
     "confidence": 47,
-    "rank": 230,
+    "rank": 252,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -31933,7 +35169,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 177,
+    "rank": 198,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.1
@@ -31942,7 +35178,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 49,
-    "rank": 194,
+    "rank": 215,
     "ratingGames": 8,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.1
@@ -32051,7 +35287,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 38,
-    "rank": 184,
+    "rank": 205,
     "ratingGames": 4,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.3
@@ -32060,7 +35296,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 38,
-    "rank": 201,
+    "rank": 222,
     "ratingGames": 4,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.3
@@ -32185,7 +35421,7 @@
     "week": 1,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 174,
+    "rank": 194,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -32194,7 +35430,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 190,
+    "rank": 210,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.6
@@ -32319,7 +35555,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 154,
+    "rank": 173,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.2
@@ -32328,7 +35564,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 45,
-    "rank": 167,
+    "rank": 186,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.2
@@ -32437,7 +35673,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 38,
-    "rank": 166,
+    "rank": 185,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.5
@@ -32446,7 +35682,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 38,
-    "rank": 179,
+    "rank": 198,
     "ratingGames": 4,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.5
@@ -32571,7 +35807,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 44,
-    "rank": 181,
+    "rank": 202,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -32580,7 +35816,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 44,
-    "rank": 198,
+    "rank": 219,
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -32721,7 +35957,7 @@
     "week": 1,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 160,
+    "rank": 179,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
@@ -32730,7 +35966,7 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 49,
-    "rank": 173,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
@@ -32855,7 +36091,7 @@
     "week": 1,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 182,
+    "rank": 203,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
@@ -32864,7 +36100,7 @@
     "week": 2,
     "rating": -1.6,
     "confidence": 42,
-    "rank": 199,
+    "rank": 220,
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
@@ -32989,7 +36225,7 @@
     "week": 1,
     "rating": -2.2,
     "confidence": 42,
-    "rank": 200,
+    "rank": 222,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -32998,7 +36234,7 @@
     "week": 2,
     "rating": -2.2,
     "confidence": 42,
-    "rank": 219,
+    "rank": 241,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.8
@@ -33123,7 +36359,7 @@
     "week": 1,
     "rating": -2.8,
     "confidence": 43,
-    "rank": 204,
+    "rank": 226,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.1
@@ -33132,7 +36368,7 @@
     "week": 2,
     "rating": -2.8,
     "confidence": 43,
-    "rank": 224,
+    "rank": 246,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.1
@@ -33257,7 +36493,7 @@
     "week": 1,
     "rating": -1.3,
     "confidence": 43,
-    "rank": 171,
+    "rank": 191,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -33266,7 +36502,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 43,
-    "rank": 185,
+    "rank": 205,
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
@@ -33391,7 +36627,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 45,
-    "rank": 196,
+    "rank": 218,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -33400,7 +36636,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 45,
-    "rank": 215,
+    "rank": 237,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1
@@ -33541,7 +36777,7 @@
     "week": 1,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 198,
+    "rank": 220,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -33550,7 +36786,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 47,
-    "rank": 217,
+    "rank": 239,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.7
@@ -33723,7 +36959,7 @@
     "week": 1,
     "rating": -0.9,
     "confidence": 54,
-    "rank": 150,
+    "rank": 169,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1
@@ -33732,7 +36968,7 @@
     "week": 2,
     "rating": -0.9,
     "confidence": 54,
-    "rank": 163,
+    "rank": 182,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1
@@ -33873,7 +37109,7 @@
     "week": 1,
     "rating": -2.5,
     "confidence": 48,
-    "rank": 202,
+    "rank": 224,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1
@@ -33882,7 +37118,7 @@
     "week": 2,
     "rating": -2.5,
     "confidence": 48,
-    "rank": 221,
+    "rank": 243,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1
@@ -34055,7 +37291,7 @@
     "week": 1,
     "rating": -1.5,
     "confidence": 53,
-    "rank": 175,
+    "rank": 196,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -34064,7 +37300,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 53,
-    "rank": 192,
+    "rank": 213,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -34189,7 +37425,7 @@
     "week": 1,
     "rating": -3.1,
     "confidence": 45,
-    "rank": 208,
+    "rank": 230,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -34198,7 +37434,7 @@
     "week": 2,
     "rating": -3.1,
     "confidence": 45,
-    "rank": 228,
+    "rank": 250,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
@@ -34339,7 +37575,7 @@
     "week": 1,
     "rating": -2,
     "confidence": 47,
-    "rank": 195,
+    "rank": 217,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.7
@@ -34348,7 +37584,7 @@
     "week": 2,
     "rating": -2,
     "confidence": 47,
-    "rank": 214,
+    "rank": 236,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.7
@@ -34505,7 +37741,7 @@
     "week": 1,
     "rating": -2.9,
     "confidence": 51,
-    "rank": 205,
+    "rank": 227,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -34514,7 +37750,7 @@
     "week": 2,
     "rating": -2.9,
     "confidence": 51,
-    "rank": 225,
+    "rank": 247,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -34655,7 +37891,7 @@
     "week": 1,
     "rating": -3.2,
     "confidence": 48,
-    "rank": 209,
+    "rank": 231,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -34664,7 +37900,7 @@
     "week": 2,
     "rating": -3.2,
     "confidence": 48,
-    "rank": 229,
+    "rank": 251,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -34805,7 +38041,7 @@
     "week": 1,
     "rating": -4,
     "confidence": 44,
-    "rank": 211,
+    "rank": 233,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8
@@ -34814,7 +38050,7 @@
     "week": 2,
     "rating": -4,
     "confidence": 44,
-    "rank": 231,
+    "rank": 253,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8

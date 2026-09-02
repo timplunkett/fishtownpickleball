@@ -221,9 +221,9 @@
       "weekNumber": 2,
       "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
       "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 495,
+      "awayPoints": 653,
+      "endResult": "away",
       "scheduledTime": "2026-08-31T19:30:00",
       "homeName": "Pickle Juice Blackwood",
       "awayName": "Bounce Tempest"

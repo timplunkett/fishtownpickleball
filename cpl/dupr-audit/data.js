@@ -321,6 +321,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Akash Raju",
+   "playerId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Al Chen",
    "playerId": "d1662b32-b01f-4f6a-95a0-ff4fe00d4d32",
    "team": "Pickleball Palace Blue",

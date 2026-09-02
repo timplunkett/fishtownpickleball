@@ -624,27 +624,6 @@
     }
   },
   {
-    "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
-    "details": {
-      "lineups": {
-        "lineups": {
-          "$values": [
-            {
-              "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
-              "homePlayerId1": "91f78b3d-a1b7-44a8-a804-6035152bf1a2",
-              "homePlayerId2": "88bcb8e1-970f-4535-bec1-beb232f1f77a",
-              "awayPlayerId1": null,
-              "awayPlayerId2": null,
-              "homeScore": null,
-              "awayScore": null,
-              "matchType": "female"
-            }
-          ]
-        }
-      }
-    }
-  },
-  {
     "matchupId": "d46af40d-1fda-4106-80e4-a7d7f98f748c",
     "details": {
       "matchupPlayerStats": {
@@ -2578,6 +2557,27 @@
               "homeScore": 22,
               "awayScore": 20,
               "matchType": "male"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
+    "details": {
+      "lineups": {
+        "lineups": {
+          "$values": [
+            {
+              "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
+              "homePlayerId1": "91f78b3d-a1b7-44a8-a804-6035152bf1a2",
+              "homePlayerId2": "88bcb8e1-970f-4535-bec1-beb232f1f77a",
+              "awayPlayerId1": null,
+              "awayPlayerId2": null,
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "female"
             }
           ]
         }

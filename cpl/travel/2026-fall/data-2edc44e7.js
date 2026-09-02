@@ -6444,27 +6444,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 1,
-   "home": "Premiere",
-   "away": "Pickleball Palace",
-   "time": "2026-08-22T12:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "female",
-     "h": [
-      "Lily Liu",
-      "Nancy Lin"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    }
-   ]
-  },
-  {
    "result": "away",
    "week": 1,
    "home": "Bounce Malvern Boom",
@@ -7858,6 +7837,27 @@
    ],
    "subs": [
     "Brian Rowan"
+   ]
+  },
+  {
+   "result": null,
+   "week": 1,
+   "home": "Premiere",
+   "away": "Pickleball Palace",
+   "time": "2026-10-18T12:00:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Lily Liu",
+      "Nancy Lin"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    }
    ]
   },
   {
@@ -11234,7 +11234,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-01T20:19:48.832Z";
+  DATA.meta.asOf = "2026-09-02T02:04:26.079Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

@@ -13,18 +13,6 @@
       "awayName": "Allstar Pickler"
     },
     {
-      "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
-      "weekNumber": 1,
-      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-08-22T12:00:00",
-      "homeName": "Premiere",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "d46af40d-1fda-4106-80e4-a7d7f98f748c",
       "weekNumber": 1,
       "homeTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
@@ -59,6 +47,18 @@
       "scheduledTime": "2026-08-22T14:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Bounce Malvern Black"
+    },
+    {
+      "matchupId": "119acfef-df2f-4d67-9227-9d8e4433842b",
+      "weekNumber": 1,
+      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-18T12:00:00",
+      "homeName": "Premiere",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "cbd886fe-c242-404c-97b2-85a1127b2b45",
