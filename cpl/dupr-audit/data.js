@@ -17583,6 +17583,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Yong Jin",
+   "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
+   "team": "Premiere",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Yong Kim",
    "playerId": "ca670ae8-0768-49d4-9984-f708cd52786c",
    "team": "Bounce Tempest",

@@ -7503,8 +7503,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Taylor Hartman",
@@ -7514,8 +7514,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Camrin Cronheim"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7525,8 +7525,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Emily Babinsky",
@@ -7536,8 +7536,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Chris Long"
      ],
      "a": [
       "Yoyo Shen",
@@ -7547,8 +7547,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Taylor Hartman",
@@ -7558,8 +7558,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7569,8 +7569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Zach Hollmann",
@@ -7580,8 +7580,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Joshua Ahn"
      ],
      "a": [
       "Michael Li",
@@ -7591,8 +7591,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Chris Long"
      ],
      "a": [
       "Taylor Hartman",
@@ -7602,8 +7602,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Yoyo Shen",
@@ -7613,8 +7613,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Joshua Ahn"
      ],
      "a": [
       "Lissa Eagles",
@@ -7624,8 +7624,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Camrin Cronheim"
      ],
      "a": [
       "Emily Babinsky",
@@ -7635,8 +7635,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Anisha Malhotra"
      ],
      "a": [
       "Taylor Hartman",
@@ -7646,8 +7646,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7657,8 +7657,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Jason Makarevic"
      ],
      "a": [
       "Zach Hollmann",
@@ -7668,8 +7668,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Ahn",
+      "Sidd Pathare"
      ],
      "a": [
       "Mickey Cook",
@@ -7679,8 +7679,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Camrin Cronheim"
      ],
      "a": [
       "Yoyo Shen",
@@ -7690,8 +7690,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Chris Long"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7701,8 +7701,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Emily Babinsky",
@@ -7712,8 +7712,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Joshua Ahn"
      ],
      "a": [
       "Lissa Eagles",
@@ -7723,8 +7723,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Amy Yan"
      ],
      "a": [
       "Taylor Hartman",
@@ -7734,8 +7734,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7745,8 +7745,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Chris Damato",
@@ -7756,8 +7756,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Joshua Ahn"
      ],
      "a": [
       "Zach Hollmann",
@@ -7767,8 +7767,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Camrin Cronheim"
      ],
      "a": [
       "Taylor Hartman",
@@ -7778,8 +7778,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Chris Long"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7789,8 +7789,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Sidd Pathare"
      ],
      "a": [
       "Yoyo Shen",
@@ -7800,8 +7800,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Lissa Eagles",
@@ -7811,8 +7811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Amy Yan"
      ],
      "a": [
       "Yoyo Shen",
@@ -7822,8 +7822,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Kerrin Maurer",
@@ -7833,8 +7833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Chris Damato",
@@ -7844,8 +7844,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Ahn",
+      "Sidd Pathare"
      ],
      "a": [
       "Zach Hollmann",
@@ -10279,7 +10279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-02T10:14:21.764Z";
+  DATA.meta.asOf = "2026-09-02T15:40:42.621Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

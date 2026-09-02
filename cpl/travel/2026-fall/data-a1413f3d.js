@@ -20142,8 +20142,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Elliott Bauer"
      ],
      "a": [
       "Veronica Furmanets",
@@ -20153,8 +20153,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Jesse Martinez"
      ],
      "a": [
       "Helen Kim",
@@ -20164,8 +20164,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Eshan Kanetkar"
      ],
      "a": [
       "Jessica Fernandez",
@@ -20175,8 +20175,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Nicolas Ha"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20186,8 +20186,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Jingru Du"
      ],
      "a": [
       "Nicole Votta",
@@ -20197,8 +20197,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Mickey Ma"
      ],
      "a": [
       "Helen Kim",
@@ -20230,8 +20230,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Anuj Mehta"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20241,8 +20241,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jesse Martinez"
      ],
      "a": [
       "Nicole Votta",
@@ -20252,8 +20252,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Eshan Kanetkar"
      ],
      "a": [
       "Jessica Fernandez",
@@ -20263,8 +20263,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Elliott Bauer"
      ],
      "a": [
       "Veronica Furmanets",
@@ -20274,8 +20274,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Michelle Friedman"
      ],
      "a": [
       "Jessica Fernandez",
@@ -20285,8 +20285,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Mickey Ma"
      ],
      "a": [
       "Quynh Nguyen",
@@ -20318,8 +20318,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Jesse Martinez"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20329,8 +20329,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Daniel Borgia"
      ],
      "a": [
       "Jessica Fernandez",
@@ -20340,8 +20340,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Elliott Bauer"
      ],
      "a": [
       "Veronica Furmanets",
@@ -20351,8 +20351,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Eshan Kanetkar"
      ],
      "a": [
       "Quynh Nguyen",
@@ -20362,8 +20362,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Mickey Ma"
      ],
      "a": [
       "Quynh Nguyen",
@@ -20373,8 +20373,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jingru Du"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20406,8 +20406,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Nicolas Ha"
      ],
      "a": [
       "Nicole Votta",
@@ -20417,8 +20417,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Anuj Mehta"
      ],
      "a": [
       "Jessica Fernandez",
@@ -20428,8 +20428,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jesse Martinez"
      ],
      "a": [
       "Quynh Nguyen",
@@ -20439,8 +20439,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Daniel Borgia"
      ],
      "a": [
       "Veronica Furmanets",
@@ -20450,8 +20450,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Jingru Du"
      ],
      "a": [
       "Shannon Gaffney",
@@ -20461,8 +20461,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Michelle Friedman"
      ],
      "a": [
       "Nicole Votta",
@@ -22013,7 +22013,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-02T10:14:13.411Z";
+  DATA.meta.asOf = "2026-09-02T15:40:32.913Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
