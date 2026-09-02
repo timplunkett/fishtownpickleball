@@ -8589,8 +8589,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Rachel Alfano",
@@ -8600,8 +8600,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Anushk Gupta"
      ],
      "a": [
       "Charlotte Healey",
@@ -8611,8 +8611,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Andrew Wakefield"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8622,8 +8622,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "William Lee"
      ],
      "a": [
       "Elysia Price",
@@ -8633,8 +8633,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Erika Richards"
      ],
      "a": [
       "Alex Abad",
@@ -8644,8 +8644,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Julia Plein"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8655,8 +8655,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Anushk Gupta"
      ],
      "a": [
       "Ashwin Korde",
@@ -8666,8 +8666,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Schimony",
+      "William Lee"
      ],
      "a": [
       "Zachary Lessner",
@@ -8677,8 +8677,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Plein",
+      "Robert Schimony"
      ],
      "a": [
       "Rachel Alfano",
@@ -8689,7 +8689,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Andrew Wakefield"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8699,8 +8699,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Anushk Gupta"
      ],
      "a": [
       "Elysia Price",
@@ -8710,8 +8710,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Adam Beck"
      ],
      "a": [
       "Charlotte Healey",
@@ -8721,7 +8721,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Alyssa Tartaglia",
       ""
      ],
      "a": [
@@ -8732,8 +8732,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Claudya Elefante"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8743,8 +8743,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Robert Schimony"
      ],
      "a": [
       "Mark Kilimnik",
@@ -8754,8 +8754,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "William Lee"
      ],
      "a": [
       "Ashwin Korde",
@@ -8765,8 +8765,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "William Lee"
      ],
      "a": [
       "Rachel Alfano",
@@ -8777,7 +8777,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Andrew Wakefield"
      ],
      "a": [
       "Alex Abad",
@@ -8787,8 +8787,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Plein",
+      "Robert Schimony"
      ],
      "a": [
       "Charlotte Healey",
@@ -8798,8 +8798,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Adam Beck"
      ],
      "a": [
       "Elysia Price",
@@ -8809,8 +8809,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Julia Plein"
      ],
      "a": [
       "Alex Abad",
@@ -8820,8 +8820,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Erika Richards"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8831,8 +8831,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Andrew Wakefield"
      ],
      "a": [
       "Mark Kilimnik",
@@ -8842,8 +8842,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Schimony",
+      "Adam Beck"
      ],
      "a": [
       "Ashwin Korde",
@@ -8854,7 +8854,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Anushk Gupta"
      ],
      "a": [
       "Rachel Alfano",
@@ -8864,8 +8864,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Plein",
+      "Andrew Wakefield"
      ],
      "a": [
       "Alyssa Boyle",
@@ -8875,8 +8875,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Charlotte Healey",
@@ -8886,8 +8886,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "William Lee"
      ],
      "a": [
       "Alex Abad",
@@ -8897,8 +8897,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Julia Plein"
      ],
      "a": [
       "Elysia Price",
@@ -8908,7 +8908,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Alyssa Tartaglia",
       ""
      ],
      "a": [
@@ -8919,8 +8919,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Robert Schimony"
      ],
      "a": [
       "Alexander Tong",
@@ -8930,8 +8930,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "William Lee"
      ],
      "a": [
       "Ashwin Korde",
@@ -10279,7 +10279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-02T02:05:33.459Z";
+  DATA.meta.asOf = "2026-09-02T10:14:21.764Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

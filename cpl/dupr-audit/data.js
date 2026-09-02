@@ -16708,6 +16708,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Tiran Rishon",
+   "playerId": "94303649-fbc0-4a75-b863-c7385e5b62bb",
+   "team": "Monroe",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Toby Athron",
    "playerId": "65e91297-9d8e-4aad-a836-8458adc59a75",
    "team": "Flemington",
