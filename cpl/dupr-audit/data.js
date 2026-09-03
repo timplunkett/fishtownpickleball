@@ -2530,7 +2530,7 @@ window.DUPR_AUDIT = {
    "playerId": "399f6bd1-f7b4-45d7-8707-197dd6b93d87",
    "team": "Montville",
    "slug": "b7ca04e4",
-   "gender": "Female"
+   "gender": "Male"
   },
   {
    "name": "Calvin Zheng",
@@ -17600,6 +17600,13 @@ window.DUPR_AUDIT = {
    "name": "Yong Jin",
    "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
    "team": "Premiere",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Yong Jin",
+   "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
+   "team": "Premiere",
    "slug": "c43b8608",
    "gender": "Male"
   },
@@ -17670,6 +17677,13 @@ window.DUPR_AUDIT = {
    "name": "Yushan Mirza",
    "playerId": "e3605ba3-63c4-42da-b1b3-d067ef23548c",
    "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Yuyi Lin",
+   "playerId": "eca8a092-4206-4e2f-a241-36a137615f23",
+   "team": "Premiere",
    "slug": "b7ca04e4",
    "gender": "Female"
   },

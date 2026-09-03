@@ -185,9 +185,9 @@
       "weekNumber": 2,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 567,
+      "awayPoints": 634,
+      "endResult": "away",
       "scheduledTime": "2026-09-02T19:00:00",
       "homeName": "Flemington",
       "awayName": "Pickleball Kingdom Watchung"
@@ -257,9 +257,9 @@
       "weekNumber": 2,
       "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
       "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 639,
+      "awayPoints": 614,
+      "endResult": "home",
       "scheduledTime": "2026-09-02T19:30:00",
       "homeName": "Dill Dinkers Hatboro",
       "awayName": "Forward"
@@ -329,9 +329,9 @@
       "weekNumber": 2,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "awayTeamId": "66b2868d-5c48-432a-8cc2-9a55e07be5b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 664,
+      "awayPoints": 535,
+      "endResult": "home",
       "scheduledTime": "2026-09-02T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Picklr Exton"
@@ -359,18 +359,6 @@
       "scheduledTime": "2026-09-09T19:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Pickleball Kingdom Watchung"
-    },
-    {
-      "matchupId": "7e9021bd-3518-45ee-9afc-9168b0b25baf",
-      "weekNumber": 3,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-09T19:00:00",
-      "homeName": "Flemington",
-      "awayName": "Picklr Fair Lawn"
     },
     {
       "matchupId": "80b363e6-63a5-4b1f-8da5-9dd31b49e442",
@@ -479,6 +467,18 @@
       "scheduledTime": "2026-09-09T19:30:00",
       "homeName": "Bounce Malvern",
       "awayName": "Forward"
+    },
+    {
+      "matchupId": "7e9021bd-3518-45ee-9afc-9168b0b25baf",
+      "weekNumber": 3,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-09T19:30:00",
+      "homeName": "Flemington",
+      "awayName": "Picklr Fair Lawn"
     },
     {
       "matchupId": "a56641d0-e6ac-47b7-a4a3-c4f1f497f43b",

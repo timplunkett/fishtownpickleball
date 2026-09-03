@@ -101,9 +101,9 @@
       "weekNumber": 2,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 573,
+      "awayPoints": 622,
+      "endResult": "away",
       "scheduledTime": "2026-09-02T19:30:00",
       "homeName": "Home Court",
       "awayName": "Monroe"

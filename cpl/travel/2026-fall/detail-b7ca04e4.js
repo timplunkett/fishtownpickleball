@@ -169,6 +169,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -2
+   },
+   {
+    "week": 2,
+    "rating": 4,
+    "confidence": 52,
+    "rank": 4,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -2
    }
   ],
   "partners": []
@@ -342,6 +351,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 3.1,
+    "confidence": 56,
+    "rank": 13,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": []
@@ -515,6 +533,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 4.1,
+    "confidence": 57,
+    "rank": 2,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -682,6 +709,15 @@
   "ratingHistory": [
    {
     "week": 1,
+    "rating": 2.9,
+    "confidence": 51,
+    "rank": 16,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -1.9
+   },
+   {
+    "week": 2,
     "rating": 2.9,
     "confidence": 51,
     "rank": 16,
@@ -861,179 +897,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
-   }
-  ],
-  "partners": []
- },
- "de8e2a33-d691-4652-84ef-532b89f467bc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 92,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Diana Nguyen",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Winston Lian",
-    "vs": [
-     "Chris Fantin",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Diana Nguyen",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Winston Lian",
-    "vs": [
-     "Chris Fantin",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Dede Dolkar",
-    "vs": [
-     "Ellen Edson",
-     "Robert Huntley"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "John Kim",
-    "vs": [
-     "Michael Jones",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Dede Dolkar",
-    "vs": [
-     "Dina Perrella",
-     "Chris Fantin"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "John Kim",
-    "vs": [
-     "Michael Jones",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
+    "week": 2,
     "rating": 3.4,
-    "confidence": 52,
-    "rank": 9,
+    "confidence": 54,
+    "rank": 8,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -1.6
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -1204,6 +1076,15 @@
     "rating": 2.3,
     "confidence": 50,
     "rank": 27,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 2,
+    "rating": 2.3,
+    "confidence": 50,
+    "rank": 31,
     "ratingGames": 8,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -1.6
@@ -1380,6 +1261,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.8
+   },
+   {
+    "week": 2,
+    "rating": 2,
+    "confidence": 53,
+    "rank": 36,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.8
    }
   ],
   "partners": []
@@ -1537,6 +1427,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 2.7,
+    "confidence": 51,
+    "rank": 19,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
@@ -1675,6 +1574,15 @@
     "rating": 3,
     "confidence": 42,
     "rank": 14,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 3,
+    "confidence": 42,
+    "rank": 15,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.2
@@ -1819,6 +1727,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 2,
+    "rating": 2.9,
+    "confidence": 46,
+    "rank": 17,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -1944,6 +1861,156 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.9
+   },
+   {
+    "week": 2,
+    "rating": 2.5,
+    "confidence": 41,
+    "rank": 24,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -1.9
+   }
+  ],
+  "partners": []
+ },
+ "97a33ff9-4337-4782-8906-226561b07c72": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 82,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Joe Johnson",
+    "vs": [
+     "Ann Dunn",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Ann Dunn",
+     "Heather Triozzi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Joe Johnson",
+    "vs": [
+     "Crystal Mark",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Heather Triozzi",
+     "Crystal Mark"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Edrees Siddiqi",
+    "vs": [
+     "Crystal Mark",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Heather Triozzi",
+     "Jamie Damirgian"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 50,
+    "rank": 53,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -2.1
    }
   ],
   "partners": []
@@ -2085,6 +2152,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 2,
+    "rating": 3.5,
+    "confidence": 50,
+    "rank": 6,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -2242,6 +2318,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": 3.3,
+    "confidence": 52,
+    "rank": 10,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -2364,6 +2449,15 @@
     "rating": 1.5,
     "confidence": 42,
     "rank": 53,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -2
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 42,
+    "rank": 61,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -2
@@ -2492,23 +2586,32 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 40,
+    "rank": 54,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
  },
- "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4": {
+ "7210d098-aa54-482c-bda3-a660e2465760": {
   "log": [
    {
-    "week": 1,
-    "opp": "Home Court",
+    "week": 2,
+    "opp": "Picklr Exton",
     "homeAway": "H",
-    "w": 6,
+    "w": 5,
     "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 88,
+    "gp": 5,
+    "pf": 105,
+    "pa": 68,
     "mx": [
-     4,
+     3,
      0
     ],
     "gn": [
@@ -2516,214 +2619,25 @@
      0
     ],
     "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Winston Lian",
-    "vs": [
-     "Ellen Edson",
-     "Michael Jones"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Diana Nguyen",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Dina Perrella"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Winston Lian",
-    "vs": [
-     "Patricia Majowicz",
-     "Michael Jones"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Josiah Kim",
-    "vs": [
-     "Ellen Edson",
-     "Robert Huntley"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Khushi Shah",
-    "vs": [
-     "Ellen Edson",
-     "Laura Fantin"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Josiah Kim",
-    "vs": [
-     "Dina Perrella",
-     "Chris Fantin"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.3,
-    "confidence": 48,
-    "rank": 67,
-    "ratingGames": 6,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -1.1
-   }
-  ],
-  "partners": []
- },
- "77e71d86-1be3-4df7-8c52-d0802eed8e08": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 88,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
      0,
      0
     ],
     "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
+    "teamGW": 27,
+    "teamGL": 5,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Home Court",
+    "wk": 2,
+    "opp": "Picklr Exton",
     "t": "mixed",
-    "with": "Dede Dolkar",
+    "with": "Leah Oneill",
     "vs": [
-     "Ellen Edson",
-     "Michael Jones"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Josiah Kim",
-    "vs": [
-     "Chris Fantin",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Dede Dolkar",
-    "vs": [
-     "Patricia Majowicz",
-     "Michael Jones"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Josiah Kim",
-    "vs": [
-     "Chris Fantin",
-     "Matthew Stephenson"
+     "Shannon Vinciguerra",
+     "Issac Gao"
     ],
     "f": 21,
     "a": 14,
@@ -2733,32 +2647,64 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Home Court",
+    "wk": 2,
+    "opp": "Picklr Exton",
     "t": "male",
-    "with": "Jason Kwan",
+    "with": "Joe Johnson",
     "vs": [
-     "Robert Huntley",
-     "Matthew Stephenson"
+     "Arnaud Clairay",
+     "Issac Gao"
     ],
     "f": 21,
-    "a": 10,
+    "a": 12,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Home Court",
+    "wk": 2,
+    "opp": "Picklr Exton",
     "t": "mixed",
-    "with": "Khushi Shah",
+    "with": "Leah Oneill",
     "vs": [
-     "Ellen Edson",
-     "Richie Mizrahi"
+     "Heather Triozzi",
+     "Issac Gao"
     ],
     "f": 21,
-    "a": 15,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Crystal Mark",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Issac Gao",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 12,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -2767,13 +2713,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 1.4,
-    "confidence": 47,
-    "rank": 60,
-    "ratingGames": 6,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -1
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 42,
+    "rank": 111,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -2.3
    }
   ],
   "partners": []
@@ -2899,6 +2845,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 4.3,
+    "confidence": 46,
+    "rank": 1,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -3024,6 +2979,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 41,
+    "rank": 62,
+    "ratingGames": 5,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -3133,147 +3097,15 @@
     "ratingGames": 4,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.1
-   }
-  ],
-  "partners": []
- },
- "33e099cc-4164-43df-8b34-32fd7a5d9a46": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 93,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Olivia Schaller",
-    "vs": [
-     "Maggie Malloy",
-     "Julia Manetta"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Anthony Solares",
-    "vs": [
-     "Christina Sheehan",
-     "Anthony Prusich"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xin Liu",
-    "vs": [
-     "Julia Manetta",
-     "Anthony Prusich"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Olivia Schaller",
-    "vs": [
-     "Julia Manetta",
-     "Gianna Medeiros"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xin Liu",
-    "vs": [
-     "Julia Manetta",
-     "Kyle Kelly"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Linda Liu",
-    "vs": [
-     "Christina Sheehan",
-     "Gianna Medeiros"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 3.3,
-    "confidence": 44,
-    "rank": 11,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.4
+    "week": 2,
+    "rating": 3.1,
+    "confidence": 39,
+    "rank": 14,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -3399,6 +3231,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 44,
+    "rank": 80,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -3508,6 +3349,124 @@
     "ratingGames": 4,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -2
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 39,
+    "rank": 75,
+    "ratingGames": 4,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
+ "b8205aff-6aa6-4abc-886c-beb676c45c04": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 4,
+    "l": 0,
+    "gp": 4,
+    "pf": 84,
+    "pa": 55,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Isabel Laroque",
+     "Lili Zebluim"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Justyna Wojdyla",
+     "Lili Zebluim"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Jason Quach",
+    "vs": [
+     "Ariane Abadi",
+     "Cole Neimetz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "David Barth",
+    "vs": [
+     "Justyna Wojdyla",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 3.2,
+    "confidence": 40,
+    "rank": 12,
+    "ratingGames": 4,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -3630,6 +3589,15 @@
     "rating": 2.4,
     "confidence": 43,
     "rank": 22,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 45,
+    "rank": 29,
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -1.1
@@ -3758,9 +3726,461 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 2.3,
+    "confidence": 46,
+    "rank": 32,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
+ },
+ "7a065026-7a09-4cbc-a998-e65ae5542136": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 88,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Crystal Mark",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Pam Politis",
+    "vs": [
+     "Jamie Damirgian",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Jamie Damirgian",
+     "Michael Meraglia"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Crystal Mark",
+     "Jamie Damirgian"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Pam Politis",
+    "vs": [
+     "Ann Dunn",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 42,
+    "rank": 133,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "77e71d86-1be3-4df7-8c52-d0802eed8e08": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 88,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 164,
+    "pa": 132,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Ellen Edson",
+     "Michael Jones"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Josiah Kim",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Patricia Majowicz",
+     "Michael Jones"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Josiah Kim",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Jason Kwan",
+    "vs": [
+     "Robert Huntley",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Khushi Shah",
+    "vs": [
+     "Ellen Edson",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Johanna Kreilick",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Josh Rito",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Johanna Kreilick",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Josiah Kim",
+    "vs": [
+     "Addison Stewart",
+     "Dan Stanton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Laura Slane",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Josiah Kim",
+    "vs": [
+     "Addison Stewart",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Mary Brashier",
+     "Addison Stewart"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Man Kwok",
+    "vs": [
+     "David Tabacco",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 47,
+    "rank": 60,
+    "ratingGames": 6,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 67,
+    "rank": 25,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4",
+    "name": "Dede Dolkar",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "de8e2a33-d691-4652-84ef-532b89f467bc",
+    "name": "Josiah Kim",
+    "n": 4,
+    "synergy": -1.9
+   }
+  ]
  },
  "418f9f50-d9f9-4806-bef5-5bd9763b240f": {
   "log": [
@@ -3928,6 +4348,15 @@
     "rating": 1.3,
     "confidence": 53,
     "rank": 65,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 53,
+    "rank": 72,
     "ratingGames": 8,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -1.2
@@ -4104,6 +4533,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 53,
+    "rank": 164,
+    "ratingGames": 8,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -4277,6 +4715,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 55,
+    "rank": 183,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -4447,6 +4894,15 @@
     "rating": 1.5,
     "confidence": 54,
     "rank": 50,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 54,
+    "rank": 56,
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -4623,6 +5079,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 50,
+    "rank": 120,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -4796,9 +5261,342 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 2.3,
+    "confidence": 52,
+    "rank": 30,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
+ },
+ "de8e2a33-d691-4652-84ef-532b89f467bc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 92,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 93,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Ellen Edson",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "John Kim",
+    "vs": [
+     "Michael Jones",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Dina Perrella",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "John Kim",
+    "vs": [
+     "Michael Jones",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Mary Brashier",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Mary Brashier",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Addison Stewart",
+     "Dan Stanton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Mary Brashier",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Addison Stewart",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Johanna Kreilick",
+     "Dan Stanton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.4,
+    "confidence": 52,
+    "rank": 9,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 2,
+    "rating": 3.4,
+    "confidence": 69,
+    "rank": 7,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "26337037-9e6a-4007-93ee-e2b083f30a03",
+    "name": "Diana Nguyen",
+    "n": 4,
+    "synergy": 2.3
+   },
+   {
+    "pid": "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4",
+    "name": "Dede Dolkar",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "77e71d86-1be3-4df7-8c52-d0802eed8e08",
+    "name": "Winston Lian",
+    "n": 4,
+    "synergy": -1.9
+   }
+  ]
  },
  "9ef81f5d-1061-40b3-8d42-9ccc0c2c5c79": {
   "log": [
@@ -4953,163 +5751,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "fc139d5b-7881-4bdf-bf06-91354a4deab7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 143,
-    "pa": 108,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Carly Cebek",
-    "vs": [
-     "Jennifer Minehan",
-     "Michal Dziegielewski"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Reggie Tiglao",
-    "vs": [
-     "Matthew Landis",
-     "Joseph Walton"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Carly Cebek",
-    "vs": [
-     "Kim Mchugh",
-     "Michal Dziegielewski"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jayadeep Reddy Kamireddy",
-    "vs": [
-     "Michal Dziegielewski",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Leah Oneill",
-    "vs": [
-     "Carolina Reese",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jennifer Kasnadi",
-    "vs": [
-     "Kim Mchugh",
-     "Michal Dziegielewski"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Reggie Tiglao",
-    "vs": [
-     "Matthew Landis",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.4,
-    "confidence": 50,
-    "rank": 57,
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 52,
+    "rank": 28,
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -5267,163 +5917,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "cfde52cc-d4a3-4d57-bf17-121d9c5eb4ea": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 141,
-    "pa": 115,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Sydney Peterson",
-    "vs": [
-     "Alison Mento",
-     "Moe Phanhnong"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Savan Patel",
-    "vs": [
-     "Moe Phanhnong",
-     "Trevor Oakley"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Sydney Peterson",
-    "vs": [
-     "Carolina Reese",
-     "Joseph Walton"
-    ],
-    "f": 27,
-    "a": 25,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Reggie Tiglao",
-    "vs": [
-     "Moe Phanhnong",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Carly Cebek",
-    "vs": [
-     "Jennifer Minehan",
-     "Joseph Walton"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Savan Patel",
-    "vs": [
-     "Michal Dziegielewski",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jayadeep Reddy Kamireddy",
-    "vs": [
-     "Michal Dziegielewski",
-     "Joseph Walton"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.6,
-    "confidence": 48,
-    "rank": 48,
+    "week": 2,
+    "rating": 2,
+    "confidence": 51,
+    "rank": 37,
     "ratingGames": 7,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -5581,320 +6083,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": []
- },
- "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 144,
-    "pa": 120,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Dan Stanton",
-    "vs": [
-     "Deb Morisie",
-     "David Reyes"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Laura Govan",
-    "vs": [
-     "Virginia Alves",
-     "Lana Engler Carss"
-    ],
-    "f": 28,
-    "a": 26,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Laura Slane",
-    "vs": [
-     "Colleen Van Ee",
-     "Deb Morisie"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "David Tabacco",
-    "vs": [
-     "Arzu Alimjan",
-     "Jesse Frey"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Laura Govan",
-    "vs": [
-     "Arzu Alimjan",
-     "Virginia Alves"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Lakshmikanth Chaluvadi",
-    "vs": [
-     "Lana Engler Carss",
-     "Dion Brown"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Mary Brashier",
-    "vs": [
-     "Colleen Van Ee",
-     "Virginia Alves"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.9,
-    "confidence": 54,
-    "rank": 37,
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 51,
+    "rank": 104,
     "ratingGames": 7,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "8fb87112-3824-4d16-96d1-3f4abcb2ae45": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 139,
-    "pa": 120,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Addison Stewart",
-    "vs": [
-     "Colleen Van Ee",
-     "Dion Brown"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Patricia Kavanaugh",
-    "vs": [
-     "Arzu Alimjan",
-     "Colleen Van Ee"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Dan Stanton",
-    "vs": [
-     "Arzu Alimjan",
-     "David Reyes"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "John Lottier",
-    "vs": [
-     "Deb Morisie",
-     "Chris Hudak"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Patricia Kavanaugh",
-    "vs": [
-     "Colleen Van Ee",
-     "Lana Engler Carss"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "John Lottier",
-    "vs": [
-     "Colleen Van Ee",
-     "Chris Hudak"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Colleen Van Ee",
-     "Virginia Alves"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.8,
-    "confidence": 48,
-    "rank": 39,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -6049,6 +6246,15 @@
     "rating": 1.1,
     "confidence": 46,
     "rank": 76,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 46,
+    "rank": 88,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -6209,9 +6415,610 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 47,
+    "rank": 79,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
+ },
+ "fc139d5b-7881-4bdf-bf06-91354a4deab7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 143,
+    "pa": 108,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 119,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Carly Cebek",
+    "vs": [
+     "Jennifer Minehan",
+     "Michal Dziegielewski"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Matthew Landis",
+     "Joseph Walton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Carly Cebek",
+    "vs": [
+     "Kim Mchugh",
+     "Michal Dziegielewski"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jayadeep Reddy Kamireddy",
+    "vs": [
+     "Michal Dziegielewski",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Leah Oneill",
+    "vs": [
+     "Carolina Reese",
+     "Trevor Oakley"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Kim Mchugh",
+     "Michal Dziegielewski"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Matthew Landis",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Ann Dunn",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Nicholas Jackson",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Crystal Mark",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Edrees Siddiqi",
+    "vs": [
+     "Arnaud Clairay",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Shannon Vinciguerra",
+     "Michael Meraglia"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Keith Brittingham",
+    "vs": [
+     "Nicholas Jackson",
+     "Bennett Matthew’S"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 50,
+    "rank": 57,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 67,
+    "rank": 67,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "32dcadef-5ceb-4826-8e96-fc36508fba54",
+    "name": "Reggie Tiglao",
+    "n": 3,
+    "synergy": -0.3
+   }
+  ]
+ },
+ "33e099cc-4164-43df-8b34-32fd7a5d9a46": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 93,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 139,
+    "pa": 121,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Maggie Malloy",
+     "Julia Manetta"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Anthony Solares",
+    "vs": [
+     "Christina Sheehan",
+     "Anthony Prusich"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xin Liu",
+    "vs": [
+     "Julia Manetta",
+     "Anthony Prusich"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Julia Manetta",
+     "Gianna Medeiros"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xin Liu",
+    "vs": [
+     "Julia Manetta",
+     "Kyle Kelly"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Christina Sheehan",
+     "Gianna Medeiros"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Jaspher Cosico",
+    "vs": [
+     "Kierstin Gant",
+     "John Tano"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Vy Conghuyen",
+     "Stephanie Li"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Stephanie Li",
+     "Carlos Lichty"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Anthony Solares",
+    "vs": [
+     "Eileen Zhang",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Stephanie Li",
+     "Kierstin Gant"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Peter David",
+    "vs": [
+     "Shania Bui",
+     "Dylan Mich"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Kierstin Gant",
+     "Eileen Zhang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.3,
+    "confidence": 44,
+    "rank": 11,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": 3.2,
+    "confidence": 66,
+    "rank": 11,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "84c96e34-809c-4b34-9005-8ea76ca6a233",
+    "name": "Olivia Schaller",
+    "n": 4,
+    "synergy": 1.9
+   }
+  ]
  },
  "f01a9ccb-b72e-4980-bdc0-73ed5a72f92c": {
   "log": [
@@ -6350,147 +7157,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.2
-   }
-  ],
-  "partners": []
- },
- "26337037-9e6a-4007-93ee-e2b083f30a03": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 122,
-    "pa": 83,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Josiah Kim",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Dede Dolkar",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Dina Perrella"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Josiah Kim",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Richie Mizrahi"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Em Melo",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Dina Perrella"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Bruno Maguino",
-    "vs": [
-     "Laura Fantin",
-     "Michael Jones"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Em Melo",
-    "vs": [
-     "Ellen Edson",
-     "Laura Fantin"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.3,
-    "confidence": 43,
-    "rank": 69,
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 48,
+    "rank": 44,
     "ratingGames": 6,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.7
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": []
@@ -6632,9 +7307,304 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 2.5,
+    "confidence": 50,
+    "rank": 23,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
+ },
+ "dba4c9d8-6ffb-49ae-99d1-79c341a68de7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 115,
+    "pa": 106,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 97,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Isobel Harvey",
+     "Ben Van Handel"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Samuel Lee",
+     "Stephen Macpherson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Karen Rodriguez",
+     "Kevin Wilson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Peter Siv",
+     "Kevin Wilson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Kevin Wilson"
+    ],
+    "f": 26,
+    "a": 28,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Isobel Harvey",
+     "Stephen Macpherson"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Rebecca Durda",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Tiffany Weis",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Daniel Hadley",
+    "vs": [
+     "Jon Palabay",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Simon Darlington",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Eileen Potter",
+     "Jon Palabay"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Gabriel Ferraro",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.3,
+    "confidence": 48,
+    "rank": 66,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 65,
+    "rank": 26,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "08b7041c-a90b-47ba-802a-5f71e6b98999",
+    "name": "Alex Kustas",
+    "n": 4,
+    "synergy": 1.4
+   },
+   {
+    "pid": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
+    "name": "Taylor Johns",
+    "n": 4,
+    "synergy": 0.1
+   }
+  ]
  },
  "8fd0c63a-29f9-463e-baf6-fd48281231dc": {
   "log": [
@@ -6770,6 +7740,15 @@
     "rating": 0.8,
     "confidence": 43,
     "rank": 94,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 43,
+    "rank": 110,
     "ratingGames": 6,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1.5
@@ -6914,21 +7893,30 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 2.7,
+    "confidence": 52,
+    "rank": 18,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
  },
- "caecaf69-b1c0-4093-b374-64b76698e68f": {
+ "04e63587-956f-4c32-8ee3-4f255aad446c": {
   "log": [
    {
-    "week": 1,
-    "opp": "Delco Turf & Pickle",
+    "week": 2,
+    "opp": "Forward",
     "homeAway": "H",
     "w": 5,
     "l": 1,
     "gp": 6,
     "pf": 124,
-    "pa": 101,
+    "pa": 102,
     "mx": [
      2,
      1
@@ -6938,73 +7926,198 @@
      0
     ],
     "cl": [
-     1,
+     2,
      1
     ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "wk": 2,
+    "opp": "Forward",
     "t": "mixed",
-    "with": "Michael Martellacci",
+    "with": "Nick Lewis",
     "vs": [
-     "Marina Mounelasy",
-     "Jon Wheel"
+     "Isabel Laroque",
+     "Michael Martellacci"
     ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ava Pastore",
-    "vs": [
-     "Roe Avila",
-     "Jenny Shi"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Matthew Crawford",
-    "vs": [
-     "Kalina Ye",
-     "Nick Tang"
-    ],
-    "f": 20,
-    "a": 22,
+    "f": 19,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ryan Gerstel",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Thania Padova",
     "vs": [
-     "Irene Fitzgerald",
-     "Andrew Taylor"
+     "Isabel Laroque",
+     "Lili Zebluim"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Thania Padova",
+    "vs": [
+     "Justyna Wojdyla",
+     "Lili Zebluim"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "David Barth",
+    "vs": [
+     "Lili Zebluim",
+     "Luc Legaspi"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Andrew Son",
+    "vs": [
+     "Lili Zebluim",
+     "Michael Martellacci"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Ava Pastore",
+     "Isabel Laroque"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2,
+    "confidence": 46,
+    "rank": 39,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "d656c46a-7cee-458b-9bc7-0ae1c4becc20": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 102,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Khushi Shah",
+    "vs": [
+     "Laura Slane",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Josh Rito",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Khushi Shah",
+    "vs": [
+     "Jamie Hahn",
+     "Josh Rito"
     ],
     "f": 21,
     "a": 17,
@@ -7014,173 +8127,48 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Esha Gajjar",
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Jason Kwan",
     "vs": [
-     "Carla Fonseca",
-     "Irene Fitzgerald"
+     "Dan Stanton",
+     "Lakshmikanth Chaluvadi"
     ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Olivia Lee",
-    "vs": [
-     "Roe Avila",
-     "Marina Mounelasy"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.3,
-    "confidence": 51,
-    "rank": 25,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
- "bcf39825-fd7a-4949-9b85-9b77f5c1abc6": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 104,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Skylar Bobadilla",
-    "vs": [
-     "Nicole Mandry",
-     "Brad Mandry"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Rebecca Durda",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Simon Darlington",
-    "vs": [
-     "Mary Fair",
-     "Aaron Chan"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Christina Juliano",
-    "vs": [
-     "Ricki Cohen",
-     "Mary Fair"
-    ],
-    "f": 20,
-    "a": 22,
+    "f": 18,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
+    "wk": 2,
+    "opp": "Flemington",
     "t": "mixed",
-    "with": "Gabriel Ferraro",
+    "with": "Diana Nguyen",
     "vs": [
-     "Deirdre Zohlman",
-     "Scott Strong"
+     "Laura Slane",
+     "Lakshmikanth Chaluvadi"
     ],
     "f": 21,
-    "a": 13,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Eileen Potter",
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Jason Kwan",
     "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
+     "Dan Stanton",
+     "Josh Rito"
     ],
     "f": 21,
-    "a": 15,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7189,13 +8177,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 2.3,
-    "confidence": 51,
-    "rank": 26,
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 49,
+    "rank": 96,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -7337,6 +8325,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 48,
+    "rank": 115,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -7478,36 +8475,72 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 49,
+    "rank": 173,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
  },
- "b80d7617-6e67-4e13-b2ab-fb48922f4064": {
+ "cfd1cb28-21ad-43c7-bbac-fa013f72aba4": {
   "log": [
    {
     "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
     "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 102,
-    "pa": 63,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 105,
     "mx": [
      2,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 85,
+    "mx": [
+     3,
      0
     ],
     "gn": [
      2,
-     1
+     0
     ],
     "cl": [
-     0,
+     3,
      0
     ],
     "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 27,
+    "teamGL": 5,
     "sub": 0,
     "subFor": null
    }
@@ -7515,28 +8548,12 @@
   "games": [
    {
     "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Bounce Malvern",
     "t": "mixed",
-    "with": "Stephanie Li",
+    "with": "Jennifer Kasnadi",
     "vs": [
-     "Pallavi Deshpande",
-     "Michael Kresloff"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Aliquo",
-    "vs": [
-     "John Dechristopher",
-     "Ryan Lehrfeld"
+     "Carolina Reese",
+     "Trevor Oakley"
     ],
     "f": 21,
     "a": 13,
@@ -7547,15 +8564,15 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Bounce Malvern",
     "t": "male",
-    "with": "Carlos Lichty",
+    "with": "Dylan Tjio",
     "vs": [
-     "John Dechristopher",
-     "Taylor Runyen"
+     "Moe Phanhnong",
+     "Trevor Oakley"
     ],
-    "f": 21,
-    "a": 8,
+    "f": 22,
+    "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7563,14 +8580,30 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Aliquo",
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jennifer Kasnadi",
     "vs": [
-     "John Dechristopher",
-     "Ryan Lehrfeld"
+     "Jennifer Minehan",
+     "Tim Phelan"
     ],
-    "f": 18,
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Kristie Frazier",
+     "Moe Phanhnong"
+    ],
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -7579,15 +8612,111 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Eileen Zhang",
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Dylan Tjio",
     "vs": [
-     "Taylor Lambe",
-     "Michael Kresloff"
+     "Michal Dziegielewski",
+     "Trevor Oakley"
     ],
     "f": 21,
-    "a": 9,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Leah Oneill",
+    "vs": [
+     "Kristie Frazier",
+     "Moe Phanhnong"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Heather Triozzi",
+     "Nicholas Jackson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Bennett Matthew’S",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Jamie Damirgian",
+     "Arnaud Clairay"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Lady Alvarado",
+    "vs": [
+     "Jamie Damirgian",
+     "Michael Meraglia"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Bennett Matthew’S",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7597,15 +8726,37 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 3.2,
-    "confidence": 44,
-    "rank": 12,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.6
+    "rating": 0.4,
+    "confidence": 46,
+    "rank": 117,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 62,
+    "rank": 95,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.9
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "43e3e482-aa27-49c2-a18f-59a7abdbc7ba",
+    "name": "Jennifer Kasnadi",
+    "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "cfde52cc-d4a3-4d57-bf17-121d9c5eb4ea",
+    "name": "Dylan Tjio",
+    "n": 4,
+    "synergy": 0
+   }
+  ]
  },
  "51dd0df2-d833-4037-a26d-5da2eb3d570e": {
   "log": [
@@ -7728,23 +8879,59 @@
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -2.1
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 40,
+    "rank": 66,
+    "ratingGames": 5,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -2.1
    }
   ],
   "partners": []
  },
- "5c5c0d00-e20c-456e-b53e-890845310916": {
+ "ddfed357-6d2d-42ea-b48f-540cacd2409a": {
   "log": [
    {
     "week": 1,
-    "opp": "APC Garden State",
+    "opp": "Home Court",
     "homeAway": "H",
-    "w": 4,
+    "w": 3,
     "l": 1,
-    "gp": 5,
-    "pf": 97,
-    "pa": 70,
+    "gp": 4,
+    "pf": 82,
+    "pa": 71,
     "mx": [
+     2,
+     0
+    ],
+    "gn": [
      1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 106,
+    "mx": [
+     2,
      0
     ],
     "gn": [
@@ -7752,12 +8939,12 @@
      1
     ],
     "cl": [
-     1,
+     2,
      0
     ],
     "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
@@ -7765,44 +8952,12 @@
   "games": [
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Ethan Fu",
-    "vs": [
-     "Michael Kresloff",
-     "Eric Padernilla"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Dylan Mich",
-    "vs": [
-     "John Dechristopher",
-     "Taylor Runyen"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Home Court",
     "t": "mixed",
-    "with": "Ginny Truong",
+    "with": "Carlos Idrovo",
     "vs": [
-     "Jiyun Yuh",
-     "John Dechristopher"
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
     ],
     "f": 21,
     "a": 13,
@@ -7813,15 +8968,31 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Ethan Fu",
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Emily Su",
     "vs": [
-     "Taylor Runyen",
-     "Eric Padernilla"
+     "Dina Perrella",
+     "Patricia Majowicz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
     ],
     "f": 21,
-    "a": 9,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7829,16 +9000,112 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Aliquo",
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Emily Su",
     "vs": [
-     "Michael Kresloff",
-     "Ryan Lehrfeld"
+     "Dina Perrella",
+     "Patricia Majowicz"
     ],
-    "f": 13,
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Laura Slane",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Monika Torbus",
+     "Laura Slane"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Mary Brashier",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Khushi Shah",
+    "vs": [
+     "Laura Slane",
+     "Jamie Hahn"
+    ],
+    "f": 18,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Mary Brashier",
+     "Addison Stewart"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Mary Brashier",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -7847,15 +9114,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1.8,
-    "confidence": 44,
-    "rank": 42,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.9
+    "rating": 0.9,
+    "confidence": 36,
+    "rank": 87,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 60,
+    "rank": 102,
+    "ratingGames": 10,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.2
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "027988d5-1c42-4102-b21a-bfce0434d664",
+    "name": "Emily Su",
+    "n": 4,
+    "synergy": -0.1
+   }
+  ]
  },
  "3a71fcfb-81a0-45b4-b3fa-f52cc9cba49d": {
   "log": [
@@ -7978,6 +9261,388 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 44,
+    "rank": 141,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
+ "25df407c-f249-4c32-838c-09cd2b88e9e6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 98,
+    "pa": 91,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 100,
+    "pa": 83,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Jenny Shi",
+     "Elliott Tseng"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Irene Fitzgerald",
+     "Marina Mounelasy"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Roe Avila",
+     "Marina Mounelasy"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Marina Mounelasy",
+     "Evan Truitt"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Ava Pastore",
+    "vs": [
+     "Irene Fitzgerald",
+     "Jenny Shi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Justyna Wojdyla",
+    "vs": [
+     "Lauren Fernandez",
+     "Vanessa Rhoades"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Thania Padova",
+     "Jason Quach"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Ava Pastore",
+    "vs": [
+     "Gabby Frieder",
+     "Natalia Koontz"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Lauren Fernandez",
+     "Nick Lewis"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Gabby Frieder",
+     "Vanessa Rhoades"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 42,
+    "rank": 129,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 60,
+    "rank": 69,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "01687986-8454-48f2-ab99-dabc5bb343b7",
+    "name": "Lili Zebluim",
+    "n": 3,
+    "synergy": 1
+   }
+  ]
+ },
+ "67afa47c-0543-4eb0-a949-fd28b870d20c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 101,
+    "pa": 83,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Todd Green",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Sarah Law",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Laura Spilatro"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Chris Colucci",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Kamal D",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Susan M Fett"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 42,
+    "rank": 147,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -8103,27 +9768,36 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 41,
+    "rank": 82,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
  },
- "3ab0ff4a-df0d-41fa-8602-059d287882ef": {
+ "23adcd68-130d-4176-b367-d3cd31260d21": {
   "log": [
    {
-    "week": 1,
-    "opp": "Bounce Philly",
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
     "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
-    "pf": 94,
-    "pa": 78,
+    "pf": 101,
+    "pa": 87,
     "mx": [
-     0,
+     2,
      1
     ],
     "gn": [
-     4,
+     2,
      0
     ],
     "cl": [
@@ -8131,37 +9805,21 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
     "t": "mixed",
-    "with": "Anthony Solares",
+    "with": "Jacquie Verish",
     "vs": [
-     "Maggie Malloy",
-     "Kyle Kelly"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Ashley Held",
-    "vs": [
-     "Christina Sheehan",
-     "Mira Sigal-Feldman"
+     "Eileen Potter",
+     "Brian Cook"
     ],
     "f": 21,
     "a": 17,
@@ -8171,49 +9829,65 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Victoria Rolon",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Dana Sheply",
     "vs": [
-     "Caity Rietzen",
-     "Christina Sheehan"
+     "Jennifer Kinkel",
+     "Simon Darlington"
     ],
     "f": 21,
-    "a": 14,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Victoria Rolon",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Chris Machuzak",
     "vs": [
-     "Maggie Malloy",
-     "Mira Sigal-Feldman"
+     "Jon Palabay",
+     "Gabriel Ferraro"
     ],
     "f": 21,
-    "a": 7,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Srilahari Kunchapu",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Jacob Alpert",
     "vs": [
-     "Christina Sheehan",
-     "Gianna Medeiros"
+     "Vito Nucci",
+     "Jon Palabay"
     ],
-    "f": 22,
-    "a": 20,
+    "f": 24,
+    "a": 22,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Magnolia Lau",
+     "Gabriel Ferraro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -8221,13 +9895,263 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0,
-    "confidence": 42,
-    "rank": 151,
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 48,
+    "rank": 97,
     "ratingGames": 5,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": []
+ },
+ "536d9ae8-df38-4a00-9a1f-c79b8d83b97f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 89,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Vanessa Rhoades",
+    "vs": [
+     "Ava Pastore",
+     "Luc Legaspi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Nick Lewis",
+    "vs": [
+     "Mike Scioli Jr",
+     "Michael Martellacci"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Lili Zebluim",
+     "Luc Legaspi"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Thania Padova",
+    "vs": [
+     "Justyna Wojdyla",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Shawn Roseman",
+    "vs": [
+     "Matthew Crawford",
+     "Cole Neimetz"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 48,
+    "rank": 106,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "c7f445ec-7b49-499b-a617-fcd7431ce02d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 101,
+    "pa": 88,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 1,
+    "subFor": "Montville"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Jason Huang",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Chris Colucci",
+    "vs": [
+     "Matthew Stephenson",
+     "Richie Mizrahi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Christine Algozo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 45,
+    "rank": 181,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -8353,20 +10277,29 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 44,
+    "rank": 167,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
  },
- "e65bcc7b-3862-4331-868f-6abe34bfbfe6": {
+ "e7b2dec3-db28-4c84-9216-2176bfbbcb01": {
   "log": [
    {
-    "week": 1,
-    "opp": "Players Courtyard",
+    "week": 2,
+    "opp": "Bounce Tempest",
     "homeAway": "A",
     "w": 4,
     "l": 1,
     "gp": 5,
-    "pf": 103,
+    "pf": 102,
     "pa": 91,
     "mx": [
      2,
@@ -8377,184 +10310,43 @@
      0
     ],
     "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Eileen Potter",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Skylar Bobadilla",
-    "vs": [
-     "Nicole Mandry",
-     "Brad Mandry"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Nicole Mandry",
-     "Matt Demarco"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.1,
-    "confidence": 47,
-    "rank": 75,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "01687986-8454-48f2-ab99-dabc5bb343b7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Delco Turf & Pickle",
-    "homeAway": "H",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 100,
-    "pa": 89,
-    "mx": [
-     2,
+     0,
      0
     ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ariane Abadi",
-    "vs": [
-     "Irene Fitzgerald",
-     "Marina Mounelasy"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "wk": 2,
+    "opp": "Bounce Tempest",
     "t": "mixed",
-    "with": "Luc Legaspi",
+    "with": "Srilahari Kunchapu",
     "vs": [
-     "Roe Avila",
-     "Andrew Taylor"
+     "Kierstin Gant",
+     "John Tano"
     ],
-    "f": 22,
-    "a": 20,
+    "f": 21,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ava Pastore",
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Katrina Maranan",
     "vs": [
-     "Jenny Shi",
-     "Kalina Ye"
+     "Vy Conghuyen",
+     "Kong Vu"
     ],
-    "f": 16,
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -8562,32 +10354,48 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ariane Abadi",
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Brandon Dejesus",
     "vs": [
-     "Roe Avila",
-     "Marina Mounelasy"
+     "Kong Vu",
+     "Khanh Vu"
     ],
     "f": 21,
-    "a": 15,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Michael Martellacci",
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Brandon Dejesus",
     "vs": [
-     "Kalina Ye",
-     "Elliott Tseng"
+     "Khanh Vu",
+     "Carlos Lichty"
     ],
     "f": 21,
-    "a": 15,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Ashley Held",
+    "vs": [
+     "Eileen Zhang",
+     "John Tano"
+    ],
+    "f": 21,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -8596,13 +10404,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.5,
-    "confidence": 44,
-    "rank": 111,
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 46,
+    "rank": 74,
     "ratingGames": 5,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -8728,27 +10536,161 @@
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 48,
+    "rank": 155,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
  },
- "25df407c-f249-4c32-838c-09cd2b88e9e6": {
+ "dda8a8bf-bf59-48a4-a56e-15b96fd18fde": {
   "log": [
    {
-    "week": 1,
-    "opp": "Delco Turf & Pickle",
+    "week": 2,
+    "opp": "Forward",
     "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
-    "pf": 98,
-    "pa": 91,
+    "pf": 99,
+    "pa": 93,
     "mx": [
+     3,
+     0
+    ],
+    "gn": [
      1,
      1
     ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Gabby Frieder",
+    "vs": [
+     "Justyna Wojdyla",
+     "Ryan Gerstel"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Olivia Lee",
+     "Matthew Crawford"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Andrew Son",
+    "vs": [
+     "Cole Neimetz",
+     "Michael Martellacci"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Vanessa Rhoades",
+    "vs": [
+     "Olivia Lee",
+     "Ryan Gerstel"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Jason Quach",
+    "vs": [
+     "Michael Martellacci",
+     "Luc Legaspi"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 47,
+    "rank": 157,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 144,
+    "pa": 120,
+    "mx": [
+     2,
+     1
+    ],
     "gn": [
-     3,
+     4,
      0
     ],
     "cl": [
@@ -8756,8 +10698,35 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 140,
+    "pa": 129,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -8765,44 +10734,12 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Luc Legaspi",
+    "with": "Dan Stanton",
     "vs": [
-     "Jenny Shi",
-     "Elliott Tseng"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Lili Zebluim",
-    "vs": [
-     "Irene Fitzgerald",
-     "Marina Mounelasy"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Lili Zebluim",
-    "vs": [
-     "Roe Avila",
-     "Marina Mounelasy"
+     "Deb Morisie",
+     "David Reyes"
     ],
     "f": 21,
     "a": 15,
@@ -8813,12 +10750,1230 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ryan Gerstel",
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Laura Govan",
     "vs": [
-     "Marina Mounelasy",
-     "Evan Truitt"
+     "Virginia Alves",
+     "Lana Engler Carss"
+    ],
+    "f": 28,
+    "a": 26,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Laura Slane",
+    "vs": [
+     "Colleen Van Ee",
+     "Deb Morisie"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "David Tabacco",
+    "vs": [
+     "Arzu Alimjan",
+     "Jesse Frey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Laura Govan",
+    "vs": [
+     "Arzu Alimjan",
+     "Virginia Alves"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Lana Engler Carss",
+     "Dion Brown"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Mary Brashier",
+    "vs": [
+     "Colleen Van Ee",
+     "Virginia Alves"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Addison Stewart",
+    "vs": [
+     "Dede Dolkar",
+     "Winston Lian"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Mary Brashier",
+    "vs": [
+     "Dede Dolkar",
+     "Diana Nguyen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Addison Stewart",
+    "vs": [
+     "Dede Dolkar",
+     "Winston Lian"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Jamie Hahn",
+    "vs": [
+     "Dede Dolkar",
+     "Diana Nguyen"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Mary Brashier",
+    "vs": [
+     "Christy Zhang",
+     "Emily Su"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dan Stanton",
+    "vs": [
+     "Dede Dolkar",
+     "Josiah Kim"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Jamie Hahn",
+    "vs": [
+     "Emily Su",
+     "Khushi Shah"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.9,
+    "confidence": 54,
+    "rank": 37,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 2.5,
+    "confidence": 69,
+    "rank": 20,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+    "name": "Mary Brashier",
+    "n": 3,
+    "synergy": 0.1
+   }
+  ]
+ },
+ "cfde52cc-d4a3-4d57-bf17-121d9c5eb4ea": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 141,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 100,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Alison Mento",
+     "Moe Phanhnong"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Savan Patel",
+    "vs": [
+     "Moe Phanhnong",
+     "Trevor Oakley"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Carolina Reese",
+     "Joseph Walton"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Moe Phanhnong",
+     "Trevor Oakley"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Carly Cebek",
+    "vs": [
+     "Jennifer Minehan",
+     "Joseph Walton"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Savan Patel",
+    "vs": [
+     "Michal Dziegielewski",
+     "Trevor Oakley"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jayadeep Reddy Kamireddy",
+    "vs": [
+     "Michal Dziegielewski",
+     "Joseph Walton"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Jamie Damirgian",
+     "Bennett Matthew’S"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Savan Patel",
+    "vs": [
+     "Bennett Matthew’S",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Heather Triozzi",
+     "Nicholas Jackson"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Nicholas Jackson",
+     "Bennett Matthew’S"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Savan Patel",
+    "vs": [
+     "Bennett Matthew’S",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Edrees Siddiqi",
+    "vs": [
+     "Issac Gao",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.6,
+    "confidence": 48,
+    "rank": 48,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 1.9,
+    "confidence": 63,
+    "rank": 40,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "cfd1cb28-21ad-43c7-bbac-fa013f72aba4",
+    "name": "Savan Patel",
+    "n": 4,
+    "synergy": 0
+   },
+   {
+    "pid": "8f4ef30f-10b9-4ef4-b8d1-098be63d84fb",
+    "name": "Sydney Peterson",
+    "n": 4,
+    "synergy": -0.8
+   }
+  ]
+ },
+ "43e3e482-aa27-49c2-a18f-59a7abdbc7ba": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 135,
+    "pa": 123,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 119,
+    "pa": 108,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Carolina Reese",
+     "Trevor Oakley"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Carly Cebek",
+    "vs": [
+     "Kristie Frazier",
+     "Christine Vu"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Jennifer Minehan",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Carly Cebek",
+    "vs": [
+     "Kim Mchugh",
+     "Christine Vu"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Kristie Frazier",
+     "Alison Mento"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joe Johnson",
+    "vs": [
+     "Kim Mchugh",
+     "Michal Dziegielewski"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Kim Mchugh",
+     "Jennifer Minehan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Heather Triozzi",
+     "Nicholas Jackson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Ann Dunn",
+     "Heather Triozzi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Jamie Damirgian",
+     "Arnaud Clairay"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Heather Triozzi",
+     "Crystal Mark"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Ann Dunn",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Joe Johnson",
+    "vs": [
+     "Shannon Vinciguerra",
+     "Michael Meraglia"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 52,
+    "rank": 158,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 67,
+    "rank": 234,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "cfd1cb28-21ad-43c7-bbac-fa013f72aba4",
+    "name": "Savan Patel",
+    "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "f76a584d-94cf-4bb7-8c34-90e6c491ac10",
+    "name": "Leah Oneill",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
+ },
+ "26337037-9e6a-4007-93ee-e2b083f30a03": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 83,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 97,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Dina Perrella"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Em Melo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Dina Perrella"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Bruno Maguino",
+    "vs": [
+     "Laura Fantin",
+     "Michael Jones"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Em Melo",
+    "vs": [
+     "Ellen Edson",
+     "Laura Fantin"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Mary Brashier",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Mary Brashier",
+     "Johanna Kreilick"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Mary Brashier",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Johanna Kreilick",
+     "Jamie Hahn"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Laura Slane",
+     "Dan Stanton"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Laura Slane",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.3,
+    "confidence": 43,
+    "rank": 69,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1.7
+   },
+   {
+    "week": 2,
+    "rating": 2.5,
+    "confidence": 65,
+    "rank": 21,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "de8e2a33-d691-4652-84ef-532b89f467bc",
+    "name": "Josiah Kim",
+    "n": 4,
+    "synergy": 2.3
+   },
+   {
+    "pid": "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4",
+    "name": "Dede Dolkar",
+    "n": 3,
+    "synergy": -1.5
+   }
+  ]
+ },
+ "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 88,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 117,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Ellen Edson",
+     "Michael Jones"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Dina Perrella"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Patricia Majowicz",
+     "Michael Jones"
     ],
     "f": 21,
     "a": 17,
@@ -8829,12 +11984,140 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ava Pastore",
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Josiah Kim",
     "vs": [
-     "Irene Fitzgerald",
-     "Jenny Shi"
+     "Ellen Edson",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Khushi Shah",
+    "vs": [
+     "Ellen Edson",
+     "Laura Fantin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Dina Perrella",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Johanna Kreilick",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Mary Brashier",
+     "Johanna Kreilick"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Johanna Kreilick",
+     "Addison Stewart"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Johanna Kreilick",
+     "Jamie Hahn"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Josiah Kim",
+    "vs": [
+     "Johanna Kreilick",
+     "Dan Stanton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Mary Brashier",
+     "Monika Torbus"
     ],
     "f": 21,
     "a": 19,
@@ -8847,188 +12130,43 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.3,
-    "confidence": 42,
-    "rank": 129,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.6
+    "rating": 1.3,
+    "confidence": 48,
+    "rank": 67,
+    "ratingGames": 6,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 65,
+    "rank": 119,
+    "ratingGames": 12,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": 0.2
    }
   ],
-  "partners": []
- },
- "027988d5-1c42-4102-b21a-bfce0434d664": {
-  "log": [
+  "partners": [
    {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 133,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
+    "pid": "77e71d86-1be3-4df7-8c52-d0802eed8e08",
+    "name": "Winston Lian",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "de8e2a33-d691-4652-84ef-532b89f467bc",
+    "name": "Josiah Kim",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "26337037-9e6a-4007-93ee-e2b083f30a03",
+    "name": "Diana Nguyen",
+    "n": 3,
+    "synergy": -1.5
    }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "John Kim",
-    "vs": [
-     "Laura Fantin",
-     "Chris Fantin"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Khushi Shah",
-    "vs": [
-     "Laura Fantin",
-     "Patricia Majowicz"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "John Kim",
-    "vs": [
-     "Laura Fantin",
-     "Chris Fantin"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Khushi Shah",
-    "vs": [
-     "Laura Fantin",
-     "Patricia Majowicz"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jason Kwan",
-    "vs": [
-     "Dina Perrella",
-     "Chris Fantin"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Carissa Baptista",
-    "vs": [
-     "Dina Perrella",
-     "Patricia Majowicz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Jason Kwan",
-    "vs": [
-     "Patricia Majowicz",
-     "Michael Jones"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Carissa Baptista",
-    "vs": [
-     "Dina Perrella",
-     "Patricia Majowicz"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.7,
-    "confidence": 42,
-    "rank": 102,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": []
+  ]
  },
  "9ea48ad1-b5f4-4a2c-a687-400dae5fe86b": {
   "log": [
@@ -9196,6 +12334,15 @@
     "rating": -0.3,
     "confidence": 49,
     "rank": 169,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 49,
+    "rank": 193,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -1.4
@@ -9372,6 +12519,15 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 56,
+    "rank": 128,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -1.7
    }
   ],
   "partners": []
@@ -9545,36 +12701,72 @@
     "ratingGames": 8,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 56,
+    "rank": 48,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
  },
- "00810f93-8951-43da-8134-bf956b7afb73": {
+ "f76a584d-94cf-4bb7-8c34-90e6c491ac10": {
   "log": [
    {
     "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
     "w": 3,
-    "l": 1,
-    "gp": 4,
-    "pf": 78,
-    "pa": 59,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 113,
     "mx": [
      2,
      0
     ],
     "gn": [
      1,
+     3
+    ],
+    "cl": [
+     1,
      1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 99,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
     ],
     "cl": [
      1,
      0
     ],
     "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
+    "teamGW": 27,
+    "teamGL": 5,
     "sub": 0,
     "subFor": null
    }
@@ -9582,140 +12774,31 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Emily Su",
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Sydney Peterson",
     "vs": [
-     "Dina Perrella",
-     "Chris Fantin"
+     "Jennifer Minehan",
+     "Alison Mento"
     ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Winston Lian",
-    "vs": [
-     "Robert Huntley",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Emily Su",
-    "vs": [
-     "Patricia Majowicz",
-     "Michael Jones"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Robert Huntley",
-     "Matthew Stephenson"
-    ],
-    "f": 15,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.5,
-    "confidence": 40,
-    "rank": 55,
-    "ratingGames": 4,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": []
- },
- "98a6fa2e-b59e-4f40-bc5c-8899d299da49": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 3,
-    "l": 1,
-    "gp": 4,
-    "pf": 82,
-    "pa": 64,
-    "mx": [
-     1,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Emily Su",
-    "vs": [
-     "Laura Fantin",
-     "Patricia Majowicz"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
     "wk": 1,
-    "opp": "Home Court",
+    "opp": "Bounce Malvern",
     "t": "female",
-    "with": "Emily Su",
+    "with": "Sydney Peterson",
     "vs": [
-     "Laura Fantin",
-     "Patricia Majowicz"
+     "Kristie Frazier",
+     "Alison Mento"
     ],
-    "f": 21,
-    "a": 23,
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -9723,12 +12806,12 @@
    },
    {
     "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Dede Dolkar",
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joe Johnson",
     "vs": [
-     "Ellen Edson",
-     "Laura Fantin"
+     "Carolina Reese",
+     "Trevor Oakley"
     ],
     "f": 21,
     "a": 15,
@@ -9739,12 +12822,140 @@
    },
    {
     "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Winston Lian",
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Jennifer Kasnadi",
     "vs": [
-     "Ellen Edson",
-     "Richie Mizrahi"
+     "Kristie Frazier",
+     "Alison Mento"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Kristie Frazier",
+     "Moe Phanhnong"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Kim Mchugh",
+     "Jennifer Minehan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Edrees Siddiqi",
+    "vs": [
+     "Shannon Vinciguerra",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Lady Alvarado",
+    "vs": [
+     "Crystal Mark",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Edrees Siddiqi",
+    "vs": [
+     "Heather Triozzi",
+     "Issac Gao"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Jennifer Kasnadi",
+    "vs": [
+     "Ann Dunn",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Keith Brittingham",
+    "vs": [
+     "Heather Triozzi",
+     "Bennett Matthew’S"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Caitlyn Suchanic",
+    "vs": [
+     "Heather Triozzi",
+     "Jamie Damirgian"
     ],
     "f": 21,
     "a": 15,
@@ -9757,15 +12968,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1.1,
-    "confidence": 36,
-    "rank": 77,
-    "ratingGames": 4,
-    "strengthOfPartners": 1,
+    "rating": -0.2,
+    "confidence": 47,
+    "rank": 160,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 65,
+    "rank": 100,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "43e3e482-aa27-49c2-a18f-59a7abdbc7ba",
+    "name": "Jennifer Kasnadi",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
  },
  "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d": {
   "log": [
@@ -9936,6 +13163,15 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 57,
+    "rank": 78,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -10109,115 +13345,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
- "ddfed357-6d2d-42ea-b48f-540cacd2409a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 3,
-    "l": 1,
-    "gp": 4,
-    "pf": 82,
-    "pa": 71,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Emily Su",
-    "vs": [
-     "Dina Perrella",
-     "Patricia Majowicz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Emiliya Mizrahi",
-     "Matthew Stephenson"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Emily Su",
-    "vs": [
-     "Dina Perrella",
-     "Patricia Majowicz"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.9,
-    "confidence": 36,
-    "rank": 87,
-    "ratingGames": 4,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.6
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 57,
+    "rank": 127,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -10327,9 +13463,661 @@
     "ratingGames": 4,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 34,
+    "rank": 161,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
+ },
+ "e8a46252-99c1-405e-857c-d52d9550717a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 1,
+    "gp": 4,
+    "pf": 81,
+    "pa": 78,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Kim Batistoni",
+     "Laura Fantin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Chris Colucci",
+    "vs": [
+     "Kim Batistoni",
+     "Matthew Stephenson"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Sarah Law",
+    "vs": [
+     "Kim Batistoni",
+     "Susan M Fett"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Chris Colucci",
+    "vs": [
+     "Susan M Fett",
+     "Joe Carson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 38,
+    "rank": 188,
+    "ratingGames": 4,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": []
+ },
+ "6b6274a7-77d0-420a-8883-5cac081fdf4d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 115,
+    "pa": 95,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 97,
+    "pa": 76,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jayadeep Reddy Kamireddy",
+    "vs": [
+     "Kim Mchugh",
+     "Matthew Landis"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jayadeep Reddy Kamireddy",
+    "vs": [
+     "Christine Vu",
+     "Matthew Landis"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Alison Mento",
+     "Matthew Landis"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Jennifer Minehan",
+     "Christine Vu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Christine Vu",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Carly Cebek",
+    "vs": [
+     "Carolina Reese",
+     "Christine Vu"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Keith Brittingham",
+    "vs": [
+     "Ann Dunn",
+     "Bennett Matthew’S"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Lady Alvarado",
+    "vs": [
+     "Jamie Damirgian",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Ann Dunn",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Jamie Damirgian",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Lady Alvarado",
+    "vs": [
+     "Ann Dunn",
+     "Shannon Vinciguerra"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.8,
+    "confidence": 44,
+    "rank": 41,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 1.9,
+    "confidence": 60,
+    "rank": 41,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "32dcadef-5ceb-4826-8e96-fc36508fba54",
+    "name": "Reggie Tiglao",
+    "n": 4,
+    "synergy": 1.1
+   }
+  ]
+ },
+ "32dcadef-5ceb-4826-8e96-fc36508fba54": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 106,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 102,
+    "pa": 78,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joe Johnson",
+    "vs": [
+     "Matthew Landis",
+     "Joseph Walton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Moe Phanhnong",
+     "Trevor Oakley"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Pam Politis",
+    "vs": [
+     "Alison Mento",
+     "Matthew Landis"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jayadeep Reddy Kamireddy",
+    "vs": [
+     "Matthew Landis",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Pam Politis",
+    "vs": [
+     "Christine Vu",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Joe Johnson",
+    "vs": [
+     "Matthew Landis",
+     "Tim Phelan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Joe Johnson",
+    "vs": [
+     "Nicholas Jackson",
+     "Michael Meraglia"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Nicholas Jackson",
+     "Bennett Matthew’S"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Pam Politis",
+    "vs": [
+     "Ann Dunn",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Keith Brittingham",
+    "vs": [
+     "Nicholas Jackson",
+     "Michael Meraglia"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Pam Politis",
+    "vs": [
+     "Jamie Damirgian",
+     "Arnaud Clairay"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.3,
+    "confidence": 44,
+    "rank": 124,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 62,
+    "rank": 101,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "6b6274a7-77d0-420a-8883-5cac081fdf4d",
+    "name": "Pam Politis",
+    "n": 4,
+    "synergy": 1.1
+   },
+   {
+    "pid": "fc139d5b-7881-4bdf-bf06-91354a4deab7",
+    "name": "Joe Johnson",
+    "n": 3,
+    "synergy": -0.3
+   }
+  ]
  },
  "abab39fe-af60-4956-9f97-460189ab90dc": {
   "log": [
@@ -10481,6 +14269,15 @@
     "rating": 4.1,
     "confidence": 51,
     "rank": 2,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 4.1,
+    "confidence": 51,
+    "rank": 3,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.5
@@ -10641,6 +14438,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 2.1,
+    "confidence": 49,
+    "rank": 34,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -10798,6 +14604,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 3.4,
+    "confidence": 50,
+    "rank": 9,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -10955,6 +14770,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 53,
+    "rank": 103,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -11112,163 +14936,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "43e3e482-aa27-49c2-a18f-59a7abdbc7ba": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 135,
-    "pa": 123,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Savan Patel",
-    "vs": [
-     "Carolina Reese",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Carly Cebek",
-    "vs": [
-     "Kristie Frazier",
-     "Christine Vu"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Savan Patel",
-    "vs": [
-     "Jennifer Minehan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Carly Cebek",
-    "vs": [
-     "Kim Mchugh",
-     "Christine Vu"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Leah Oneill",
-    "vs": [
-     "Kristie Frazier",
-     "Alison Mento"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Joe Johnson",
-    "vs": [
-     "Kim Mchugh",
-     "Michal Dziegielewski"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Leah Oneill",
-    "vs": [
-     "Kim Mchugh",
-     "Jennifer Minehan"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 52,
-    "rank": 158,
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 51,
+    "rank": 87,
     "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -11423,6 +15099,15 @@
     "rating": 0.7,
     "confidence": 50,
     "rank": 96,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 50,
+    "rank": 114,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
@@ -11583,6 +15268,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 49,
+    "rank": 237,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -11740,9 +15434,857 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 49,
+    "rank": 250,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
+ },
+ "00810f93-8951-43da-8134-bf956b7afb73": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 1,
+    "gp": 4,
+    "pf": 78,
+    "pa": 59,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 110,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Emily Su",
+    "vs": [
+     "Dina Perrella",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Winston Lian",
+    "vs": [
+     "Robert Huntley",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Emily Su",
+    "vs": [
+     "Patricia Majowicz",
+     "Michael Jones"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Robert Huntley",
+     "Matthew Stephenson"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Man Kwok",
+    "vs": [
+     "David Tabacco",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Man Kwok",
+    "vs": [
+     "Josh Rito",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Christy Zhang",
+    "vs": [
+     "Jamie Hahn",
+     "David Tabacco"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Dan Stanton",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Christy Zhang",
+    "vs": [
+     "Monika Torbus",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Dan Stanton",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.5,
+    "confidence": 40,
+    "rank": 55,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 62,
+    "rank": 126,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": []
+ },
+ "027988d5-1c42-4102-b21a-bfce0434d664": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 133,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 99,
+    "pa": 90,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "John Kim",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Khushi Shah",
+    "vs": [
+     "Laura Fantin",
+     "Patricia Majowicz"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "John Kim",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Khushi Shah",
+    "vs": [
+     "Laura Fantin",
+     "Patricia Majowicz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jason Kwan",
+    "vs": [
+     "Dina Perrella",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Dina Perrella",
+     "Patricia Majowicz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jason Kwan",
+    "vs": [
+     "Patricia Majowicz",
+     "Michael Jones"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Dina Perrella",
+     "Patricia Majowicz"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Laura Slane",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Monika Torbus",
+     "Laura Slane"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Man Kwok",
+    "vs": [
+     "Monika Torbus",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Christy Zhang",
+    "vs": [
+     "Johanna Kreilick",
+     "Mary Brashier"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Khushi Shah",
+    "vs": [
+     "Johanna Kreilick",
+     "Jamie Hahn"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 42,
+    "rank": 102,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 62,
+    "rank": 55,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ddfed357-6d2d-42ea-b48f-540cacd2409a",
+    "name": "Carissa Baptista",
+    "n": 4,
+    "synergy": -0.1
+   },
+   {
+    "pid": "98a6fa2e-b59e-4f40-bc5c-8899d299da49",
+    "name": "Khushi Shah",
+    "n": 3,
+    "synergy": -0.2
+   }
+  ]
+ },
+ "b0666637-423b-42ed-b2a4-02a6d12164c2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 115,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 142,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Lara Gedeon",
+     "Andrew Chester"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Natalie Ruiz",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Binxin Cai"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Brandon Tsang",
+    "vs": [
+     "Lara Gedeon",
+     "Homer Abes"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Brandon Tsang",
+    "vs": [
+     "Lara Gedeon",
+     "Homer Abes"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Leanna Coello",
+     "Homer Abes"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Natalie Ruiz",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Lara Gedeon"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Chris Colucci",
+    "vs": [
+     "Susan M Fett",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Susan M Fett",
+     "Laura Spilatro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Susan M Fett",
+     "Robert Huntley"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Christine Algozo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Laura Spilatro"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Todd Green",
+    "vs": [
+     "Susan M Fett",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Jess Cox",
+    "vs": [
+     "Kim Batistoni",
+     "Susan M Fett"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Laura Fantin",
+     "Laura Spilatro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.1,
+    "confidence": 46,
+    "rank": 156,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 64,
+    "rank": 51,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c8f3b265-67a8-412c-84f5-aee92a913aac",
+    "name": "Abdullah Osman",
+    "n": 3,
+    "synergy": -1.7
+   }
+  ]
  },
  "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba": {
   "log": [
@@ -11881,9 +16423,298 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 53,
+    "rank": 27,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
+ },
+ "52db6510-81e5-4ca3-ae64-1f0bbe677f93": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 107,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 100,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Monique Panajon",
+     "Joseph Gozon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Homer Abes",
+     "Joseph Roque"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Andrew Chester"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Andrew Chester",
+     "Yosuke Kawai"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Corie Stone",
+    "vs": [
+     "Monique Panajon",
+     "Yosuke Kawai"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Sal Cocuzza",
+    "vs": [
+     "Joseph Gozon",
+     "Joseph Roque"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Christine Algozo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Kamal D",
+    "vs": [
+     "Chris Fantin",
+     "Matthew Stephenson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Keith Parker",
+    "vs": [
+     "Robert Huntley",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Sarah Law",
+    "vs": [
+     "Susan M Fett",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Chris Fantin",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Chris Fantin",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.6,
+    "confidence": 47,
+    "rank": 106,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 64,
+    "rank": 92,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c8f3b265-67a8-412c-84f5-aee92a913aac",
+    "name": "Abdullah Osman",
+    "n": 4,
+    "synergy": 1
+   }
+  ]
  },
  "75ab4072-b50f-4593-8f1c-817d572394f7": {
   "log": [
@@ -12022,288 +16853,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1.6
-   }
-  ],
-  "partners": []
- },
- "6b6274a7-77d0-420a-8883-5cac081fdf4d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 115,
-    "pa": 95,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jayadeep Reddy Kamireddy",
-    "vs": [
-     "Kim Mchugh",
-     "Matthew Landis"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jayadeep Reddy Kamireddy",
-    "vs": [
-     "Christine Vu",
-     "Matthew Landis"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Reggie Tiglao",
-    "vs": [
-     "Alison Mento",
-     "Matthew Landis"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Sydney Peterson",
-    "vs": [
-     "Jennifer Minehan",
-     "Christine Vu"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Reggie Tiglao",
-    "vs": [
-     "Christine Vu",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Carly Cebek",
-    "vs": [
-     "Carolina Reese",
-     "Christine Vu"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.8,
-    "confidence": 44,
-    "rank": 41,
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 49,
+    "rank": 200,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "08b7041c-a90b-47ba-802a-5f71e6b98999": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 121,
-    "pa": 103,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Taylor Johns",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Kevin Wilson"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Chris Machuzak",
-    "vs": [
-     "Samuel Lee",
-     "Stephen Macpherson"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Chris Machuzak",
-    "vs": [
-     "Peter Siv",
-     "Kevin Wilson"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Adam Lowther",
-    "vs": [
-     "Stephen Macpherson",
-     "Kevin Wilson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Taylor Johns",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Samuel Lee"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Adam Lowther",
-    "vs": [
-     "Stephen Macpherson",
-     "Samuel Lee"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.7,
-    "confidence": 45,
-    "rank": 45,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -1.6
    }
   ],
   "partners": []
@@ -12445,147 +17003,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": []
- },
- "17a78a69-329f-4133-8a0d-784c306a57c2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 118,
-    "pa": 101,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "David Tabacco",
-    "vs": [
-     "Virginia Alves",
-     "Cullen Curley"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Addison Stewart",
-    "vs": [
-     "Colleen Van Ee",
-     "Cullen Curley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Colleen Van Ee",
-     "Deb Morisie"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Addison Stewart",
-    "vs": [
-     "Lana Engler Carss",
-     "David Reyes"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "David Tabacco",
-    "vs": [
-     "Deb Morisie",
-     "Jesse Frey"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Laura Govan",
-    "vs": [
-     "Arzu Alimjan",
-     "Deb Morisie"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.1,
-    "confidence": 47,
-    "rank": 74,
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 50,
+    "rank": 144,
     "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -12727,147 +17153,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "cfd1cb28-21ad-43c7-bbac-fa013f72aba4": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 120,
-    "pa": 105,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jennifer Kasnadi",
-    "vs": [
-     "Carolina Reese",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Dylan Tjio",
-    "vs": [
-     "Moe Phanhnong",
-     "Trevor Oakley"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jennifer Kasnadi",
-    "vs": [
-     "Jennifer Minehan",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Sydney Peterson",
-    "vs": [
-     "Kristie Frazier",
-     "Moe Phanhnong"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Dylan Tjio",
-    "vs": [
-     "Michal Dziegielewski",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Leah Oneill",
-    "vs": [
-     "Kristie Frazier",
-     "Moe Phanhnong"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.4,
-    "confidence": 46,
-    "rank": 117,
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 45,
+    "rank": 58,
     "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -13009,49 +17303,74 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 47,
+    "rank": 45,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
  },
- "32dcadef-5ceb-4826-8e96-fc36508fba54": {
+ "17019012-f2ff-4e9a-958a-928369685b36": {
   "log": [
    {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
     "w": 4,
     "l": 2,
     "gp": 6,
     "pf": 120,
-    "pa": 106,
+    "pa": 108,
     "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     2,
+     1,
      2
     ],
+    "gn": [
+     3,
+     0
+    ],
     "cl": [
-     1,
+     0,
      1
     ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Joe Johnson",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lakshmikanth Chaluvadi",
     "vs": [
-     "Matthew Landis",
-     "Joseph Walton"
+     "Christy Zhang",
+     "Man Kwok"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Josh Rito",
+    "vs": [
+     "Khushi Shah",
+     "Anshul Sahu"
     ],
     "f": 17,
     "a": 21,
@@ -13061,61 +17380,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Dylan Tjio",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Johanna Kreilick",
     "vs": [
-     "Moe Phanhnong",
-     "Trevor Oakley"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Pam Politis",
-    "vs": [
-     "Alison Mento",
-     "Matthew Landis"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jayadeep Reddy Kamireddy",
-    "vs": [
-     "Matthew Landis",
-     "Tim Phelan"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Pam Politis",
-    "vs": [
-     "Christine Vu",
-     "Tim Phelan"
+     "Dede Dolkar",
+     "Diana Nguyen"
     ],
     "f": 21,
     "a": 15,
@@ -13125,13 +17396,29 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Joe Johnson",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "David Tabacco",
     "vs": [
-     "Matthew Landis",
-     "Tim Phelan"
+     "Christy Zhang",
+     "Jason Kwan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Laura Slane",
+    "vs": [
+     "Khushi Shah",
+     "Carissa Baptista"
     ],
     "f": 21,
     "a": 18,
@@ -13139,60 +17426,15 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
-   }
-  ],
-  "ratingHistory": [
+   },
    {
-    "week": 1,
-    "rating": 0.3,
-    "confidence": 44,
-    "rank": 124,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "dba4c9d8-6ffb-49ae-99d1-79c341a68de7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 115,
-    "pa": 106,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Rebecca Mcginnis",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Johanna Kreilick",
     "vs": [
-     "Isobel Harvey",
-     "Ben Van Handel"
+     "Emily Su",
+     "Khushi Shah"
     ],
     "f": 21,
     "a": 17,
@@ -13200,97 +17442,17 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Alex Kustas",
-    "vs": [
-     "Samuel Lee",
-     "Stephen Macpherson"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Taylor Johns",
-    "vs": [
-     "Karen Rodriguez",
-     "Kevin Wilson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Alex Kustas",
-    "vs": [
-     "Peter Siv",
-     "Kevin Wilson"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Taylor Johns",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Kevin Wilson"
-    ],
-    "f": 26,
-    "a": 28,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Rebecca Mcginnis",
-    "vs": [
-     "Isobel Harvey",
-     "Stephen Macpherson"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 1.3,
-    "confidence": 48,
-    "rank": 66,
+    "week": 2,
+    "rating": 2,
+    "confidence": 51,
+    "rank": 38,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -13432,6 +17594,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 52,
+    "rank": 49,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -13573,36 +17744,72 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": 1.9,
+    "confidence": 50,
+    "rank": 42,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
  },
- "1d44d478-17dd-41c5-95e2-7010889b33ba": {
+ "714331ee-d124-483d-a89e-11d1431a7fca": {
   "log": [
    {
     "week": 1,
     "opp": "APC Garden State",
     "homeAway": "H",
-    "w": 4,
-    "l": 2,
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 115,
-    "pa": 109,
+    "pf": 114,
+    "pa": 110,
     "mx": [
-     3,
-     1
+     0,
+     3
     ],
     "gn": [
-     1,
-     1
+     3,
+     0
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 112,
+    "pa": 111,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     4,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
     "sub": 0,
     "subFor": null
    }
@@ -13612,44 +17819,12 @@
     "wk": 1,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Eileen Zhang",
-    "vs": [
-     "Nada Abdelkarim",
-     "John Dechristopher"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Ginny Truong",
-    "vs": [
-     "Pallavi Deshpande",
-     "Taylor Runyen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
     "with": "Khanh Vu",
     "vs": [
-     "Michael Kresloff",
-     "Ryan Lehrfeld"
+     "Taylor Lambe",
+     "Eric Padernilla"
     ],
-    "f": 15,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -13659,11 +17834,11 @@
    {
     "wk": 1,
     "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Vy Conghuyen",
+    "t": "female",
+    "with": "Eileen Zhang",
     "vs": [
-     "Stacy Ip-Mo",
-     "Taylor Runyen"
+     "Pallavi Deshpande",
+     "Taylor Lambe"
     ],
     "f": 21,
     "a": 19,
@@ -13675,11 +17850,232 @@
    {
     "wk": 1,
     "opp": "APC Garden State",
+    "t": "female",
+    "with": "Stephanie Li",
+    "vs": [
+     "Taylor Lambe",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Ginny Truong",
+    "with": "Ethan Fu",
     "vs": [
      "Pallavi Deshpande",
-     "Ryan Lehrfeld"
+     "Eric Padernilla"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Khanh Vu",
+    "vs": [
+     "Nada Abdelkarim",
+     "Eric Padernilla"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Taylor Lambe",
+     "Stacy Ip-Mo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Olivia Schaller",
+     "Brandon Dejesus"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Linda Liu",
+     "Ashley Held"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Olivia Schaller",
+     "Katrina Maranan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "John Tano",
+    "vs": [
+     "Ashley Held",
+     "Peter David"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Dylan Mich",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Peter David"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Stephanie Li",
+    "vs": [
+     "Katrina Maranan",
+     "Linda Liu"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 45,
+    "rank": 163,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 65,
+    "rank": 189,
+    "ratingGames": 12,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "a97005b1-7cac-40b0-b0c0-c4e1a359418a",
+    "name": "Eileen Zhang",
+    "n": 4,
+    "synergy": 1
+   }
+  ]
+ },
+ "b3e8de81-d69a-4912-b366-f6b66ea6dd8e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 113,
+    "pa": 109,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Farhan Chowdhury",
+    "vs": [
+     "Justyna Wojdyla",
+     "Ryan Gerstel"
     ],
     "f": 21,
     "a": 18,
@@ -13689,17 +18085,81 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Khanh Vu",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Jason Quach",
     "vs": [
-     "John Dechristopher",
-     "Eric Padernilla"
+     "Lili Zebluim",
+     "Mike Scioli Jr"
     ],
     "f": 21,
-    "a": 16,
+    "a": 18,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Olivia Lee",
+     "Isabel Laroque"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Nick Lewis",
+    "vs": [
+     "Isabel Laroque",
+     "Matthew Crawford"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Ava Pastore",
+     "Ariane Abadi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Vanessa Rhoades",
+    "vs": [
+     "Ariane Abadi",
+     "Lili Zebluim"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -13707,13 +18167,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.5,
-    "confidence": 48,
-    "rank": 107,
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 52,
+    "rank": 151,
     "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -13855,6 +18315,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 48,
+    "rank": 121,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -13948,9 +18417,1384 @@
     "ratingGames": 3,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 34,
+    "rank": 212,
+    "ratingGames": 3,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
+ },
+ "c8f3b265-67a8-412c-84f5-aee92a913aac": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 123,
+    "pa": 141,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 142,
+    "pa": 116,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Sarah Law",
+    "vs": [
+     "Lara Gedeon",
+     "Andrew Chester"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Brandon Tsang",
+    "vs": [
+     "Homer Abes",
+     "Yosuke Kawai"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Leanna Coello",
+     "Yosuke Kawai"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Homer Abes",
+     "Joseph Roque"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Andrew Chester",
+     "Yosuke Kawai"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Sarah Law",
+    "vs": [
+     "Leanna Coello",
+     "Homer Abes"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Brandon Tsang",
+    "vs": [
+     "Andrew Chester",
+     "Homer Abes"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Kim Batistoni",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Jason Huang",
+    "vs": [
+     "Robert Huntley",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Sarah Law",
+    "vs": [
+     "Susan M Fett",
+     "Robert Huntley"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Laura Spilatro",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Chris Fantin",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Laura Spilatro",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Chris Fantin",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2,
+    "confidence": 48,
+    "rank": 265,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 67,
+    "rank": 233,
+    "ratingGames": 14,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "52db6510-81e5-4ca3-ae64-1f0bbe677f93",
+    "name": "Todd Green",
+    "n": 4,
+    "synergy": 1
+   },
+   {
+    "pid": "b0666637-423b-42ed-b2a4-02a6d12164c2",
+    "name": "Sarah Law",
+    "n": 3,
+    "synergy": -1.7
+   }
+  ]
+ },
+ "b80d7617-6e67-4e13-b2ab-fb48922f4064": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 102,
+    "pa": 63,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 115,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Stephanie Li",
+    "vs": [
+     "Pallavi Deshpande",
+     "Michael Kresloff"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Aliquo",
+    "vs": [
+     "John Dechristopher",
+     "Ryan Lehrfeld"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Carlos Lichty",
+    "vs": [
+     "John Dechristopher",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Aliquo",
+    "vs": [
+     "John Dechristopher",
+     "Ryan Lehrfeld"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Taylor Lambe",
+     "Michael Kresloff"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Ashley Held",
+     "Albert Lin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Olivia Schaller",
+     "Anthony Solares"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Peter David",
+     "Evan Sinclair"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Anthony Solares"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Shania Bui",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Peter David"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "Albert Lin",
+     "Anthony Solares"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 3.2,
+    "confidence": 44,
+    "rank": 12,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 2.5,
+    "confidence": 65,
+    "rank": 22,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "3ab0ff4a-df0d-41fa-8602-059d287882ef": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 94,
+    "pa": 78,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 120,
+    "pa": 107,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Anthony Solares",
+    "vs": [
+     "Maggie Malloy",
+     "Kyle Kelly"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Ashley Held",
+    "vs": [
+     "Christina Sheehan",
+     "Mira Sigal-Feldman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Victoria Rolon",
+    "vs": [
+     "Caity Rietzen",
+     "Christina Sheehan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Victoria Rolon",
+    "vs": [
+     "Maggie Malloy",
+     "Mira Sigal-Feldman"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Christina Sheehan",
+     "Gianna Medeiros"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Ashley Held",
+    "vs": [
+     "Eileen Zhang",
+     "Shania Bui"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Albert Lin",
+    "vs": [
+     "Kierstin Gant",
+     "John Tano"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Ashley Held",
+    "vs": [
+     "Stephanie Li",
+     "Kierstin Gant"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Albert Lin",
+    "vs": [
+     "Vy Conghuyen",
+     "Khanh Vu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Stephanie Li",
+     "Kierstin Gant"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Shania Bui",
+     "Stephanie Li"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 42,
+    "rank": 151,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 62,
+    "rank": 112,
+    "ratingGames": 11,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
+    "name": "Ashley Held",
+    "n": 3,
+    "synergy": -0.6
+   }
+  ]
+ },
+ "e65bcc7b-3862-4331-868f-6abe34bfbfe6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Nicole Mandry",
+     "Brad Mandry"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Nicole Mandry",
+     "Matt Demarco"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Taylor Johns",
+     "Chris Machuzak"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Taylor Johns",
+     "Jacquie Verish"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Jon Palabay",
+    "vs": [
+     "Taylor Johns",
+     "Adam Lowther"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Jacquie Verish",
+     "Rebecca Mcginnis"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Alex Kustas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Dana Sheply"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Juice Blackwood"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 47,
+    "rank": 75,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 66,
+    "rank": 68,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "1d44d478-17dd-41c5-95e2-7010889b33ba": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 115,
+    "pa": 109,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 93,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Nada Abdelkarim",
+     "John Dechristopher"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Pallavi Deshpande",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "Michael Kresloff",
+     "Ryan Lehrfeld"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Vy Conghuyen",
+    "vs": [
+     "Stacy Ip-Mo",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Pallavi Deshpande",
+     "Ryan Lehrfeld"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "John Dechristopher",
+     "Eric Padernilla"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Shania Bui",
+    "vs": [
+     "Olivia Schaller",
+     "Brandon Dejesus"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Vy Conghuyen",
+    "vs": [
+     "Katrina Maranan",
+     "Jaspher Cosico"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "Jaspher Cosico",
+     "Brandon Dejesus"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Anthony Solares",
+     "Albert Lin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Katrina Maranan",
+     "Brandon Dejesus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 48,
+    "rank": 107,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 64,
+    "rank": 94,
+    "ratingGames": 11,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "79cea24b-da29-4070-8d30-e820330b4c41",
+    "name": "Ginny Truong",
+    "n": 3,
+    "synergy": 0.7
+   },
+   {
+    "pid": "97897afe-f9e2-42be-926f-d6ebe7025591",
+    "name": "Khanh Vu",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
  },
  "4f34c672-f457-467f-98d8-7d5d6c8add16": {
   "log": [
@@ -14115,6 +19959,15 @@
   "ratingHistory": [
    {
     "week": 1,
+    "rating": 3.5,
+    "confidence": 57,
+    "rank": 5,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
     "rating": 3.5,
     "confidence": 57,
     "rank": 5,
@@ -14294,9 +20147,234 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 2.2,
+    "confidence": 52,
+    "rank": 33,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
+ },
+ "98a6fa2e-b59e-4f40-bc5c-8899d299da49": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 1,
+    "gp": 4,
+    "pf": 82,
+    "pa": 64,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 77,
+    "pa": 74,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Laura Fantin",
+     "Patricia Majowicz"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Laura Fantin",
+     "Patricia Majowicz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Dede Dolkar",
+    "vs": [
+     "Ellen Edson",
+     "Laura Fantin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Winston Lian",
+    "vs": [
+     "Ellen Edson",
+     "Richie Mizrahi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Laura Slane",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Jamie Hahn",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Carissa Baptista",
+    "vs": [
+     "Laura Slane",
+     "Jamie Hahn"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Johanna Kreilick",
+     "Jamie Hahn"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 36,
+    "rank": 77,
+    "ratingGames": 4,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 55,
+    "rank": 71,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "027988d5-1c42-4102-b21a-bfce0434d664",
+    "name": "Emily Su",
+    "n": 3,
+    "synergy": -0.2
+   }
+  ]
  },
  "48ed972d-ae17-408b-860e-6f122d0e4e9b": {
   "log": [
@@ -14464,6 +20542,15 @@
     "rating": 0,
     "confidence": 53,
     "rank": 148,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 53,
+    "rank": 171,
     "ratingGames": 8,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -14640,9 +20727,314 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 52,
+    "rank": 57,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
+ },
+ "84c96e34-809c-4b34-9005-8ea76ca6a233": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 107,
+    "pa": 109,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 108,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Julia Manetta",
+     "Anthony Prusich"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Maggie Malloy",
+     "Julia Manetta"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Julia Manetta",
+     "Jonathan Macqueen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Gianna Medeiros",
+     "Maggie Malloy"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Julia Manetta",
+     "Gianna Medeiros"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Ashley Held",
+    "vs": [
+     "Caity Rietzen",
+     "Mira Sigal-Feldman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Shania Bui",
+     "Kong Vu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Vy Conghuyen",
+     "Stephanie Li"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Anthony Solares",
+    "vs": [
+     "Ginny Truong",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Eileen Zhang",
+     "Shania Bui"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Ashley Held",
+    "vs": [
+     "Ginny Truong",
+     "Vy Conghuyen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Vy Conghuyen",
+     "Ethan Fu"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Kierstin Gant",
+     "Eileen Zhang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 45,
+    "rank": 222,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 67,
+    "rank": 83,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+    "name": "Srilahari Kunchapu",
+    "n": 4,
+    "synergy": 1.9
+   }
+  ]
  },
  "f8a42c6f-43b2-4769-b0ed-a1d648353e04": {
   "log": [
@@ -14762,6 +21154,15 @@
     "rating": 1.5,
     "confidence": 42,
     "rank": 52,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 42,
+    "rank": 60,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1
@@ -14890,9 +21291,639 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 2.1,
+    "confidence": 39,
+    "rank": 35,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
+ },
+ "e876b411-bfee-4ab8-ac66-8bbce87eaeb1": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 95,
+    "pa": 100,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 79,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Jon Palabay",
+    "vs": [
+     "Ricki Cohen",
+     "Matt Demarco"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Nicole Mandry",
+     "Scott Strong"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Ricki Cohen",
+     "Mary Fair"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Ricki Cohen",
+     "Mary Fair"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Lisa Pinder",
+     "Hanna Cutler"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Dana Sheply",
+     "Jacob Alpert"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Hanna Cutler",
+     "Dana Sheply"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Dana Sheply"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 42,
+    "rank": 172,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 63,
+    "rank": 84,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "0dace2fb-e133-4556-9d90-288c0f41805a",
+    "name": "Jennifer Kinkel",
+    "n": 3,
+    "synergy": 0
+   }
+  ]
+ },
+ "29143d36-b76c-4eb5-9aa4-605dbb30a37e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 101,
+    "pa": 82,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Brian Cook",
+    "vs": [
+     "Jonathan Carter",
+     "Jacob Alpert"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Hanna Cutler",
+     "Jacob Alpert"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Lisa Pinder",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Jon Palabay",
+    "vs": [
+     "Jacob Alpert",
+     "Daniel Hadley"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Simon Darlington",
+    "vs": [
+     "Jacob Alpert",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 41,
+    "rank": 63,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "fc25c569-51b2-46a9-9dde-88cf56493e62": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 97,
+    "pa": 89,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 101,
+    "pa": 90,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Karen Rodriguez",
+     "Peter Siv"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Tesa Pribitkin",
+     "Stephen Macpherson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Isobel Harvey",
+     "Samuel Lee"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Stephen Macpherson",
+     "Kevin Wilson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Stephen Macpherson",
+     "Samuel Lee"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Tiffany Weis",
+     "Jon Palabay"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Simon Darlington",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Alex Kustas",
+    "vs": [
+     "Brian Cook",
+     "Skylar Bobadilla"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Rebecca Durda",
+     "Jon Palabay"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Taylor Johns",
+    "vs": [
+     "Tiffany Weis",
+     "Brian Cook"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.4,
+    "confidence": 44,
+    "rank": 61,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.6,
+    "confidence": 62,
+    "rank": 52,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "08b7041c-a90b-47ba-802a-5f71e6b98999",
+    "name": "Alex Kustas",
+    "n": 4,
+    "synergy": 0.4
+   }
+  ]
  },
  "fc3dfbe0-497b-4dc7-baa3-d7cd3abf6f55": {
   "log": [
@@ -15012,6 +22043,15 @@
     "rating": 0.5,
     "confidence": 43,
     "rank": 112,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 43,
+    "rank": 132,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.1
@@ -15140,6 +22180,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 1.5,
+    "confidence": 45,
+    "rank": 59,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -15265,6 +22314,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 45,
+    "rank": 46,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -15390,6 +22448,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 47,
+    "rank": 65,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -15515,6 +22582,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 45,
+    "rank": 109,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -15640,6 +22716,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 46,
+    "rank": 130,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -15765,6 +22850,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 45,
+    "rank": 131,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -15890,131 +22984,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": []
- },
- "fc25c569-51b2-46a9-9dde-88cf56493e62": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 97,
-    "pa": 89,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Lisa Pinder",
-    "vs": [
-     "Karen Rodriguez",
-     "Peter Siv"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Rebecca Mcginnis",
-    "vs": [
-     "Tesa Pribitkin",
-     "Stephen Macpherson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Jacquie Verish",
-    "vs": [
-     "Isobel Harvey",
-     "Samuel Lee"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Alex Kustas",
-    "vs": [
-     "Stephen Macpherson",
-     "Kevin Wilson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Alex Kustas",
-    "vs": [
-     "Stephen Macpherson",
-     "Samuel Lee"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 1.4,
-    "confidence": 44,
-    "rank": 61,
+    "week": 2,
+    "rating": 0,
+    "confidence": 47,
+    "rank": 174,
     "ratingGames": 5,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -16140,6 +23118,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 44,
+    "rank": 159,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -16265,6 +23252,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 43,
+    "rank": 81,
+    "ratingGames": 5,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -16390,6 +23386,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 45,
+    "rank": 50,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -16515,6 +23520,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 46,
+    "rank": 116,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -16640,255 +23654,14 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "79cea24b-da29-4070-8d30-e820330b4c41": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 92,
-    "pa": 87,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Ethan Fu",
-    "vs": [
-     "Stacy Ip-Mo",
-     "Taylor Runyen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Kong Vu",
-    "vs": [
-     "Pallavi Deshpande",
-     "Taylor Runyen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Carlos Lichty",
-    "vs": [
-     "Jiyun Yuh",
-     "John Dechristopher"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Christina Vuong",
-    "vs": [
-     "Stacy Ip-Mo",
-     "Jiyun Yuh"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Kong Vu",
-    "vs": [
-     "Pallavi Deshpande",
-     "Ryan Lehrfeld"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 43,
-    "rank": 167,
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 44,
+    "rank": 194,
     "ratingGames": 5,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "60c53e43-dbe0-4f62-8023-a2c1c1303fc3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 98,
-    "pa": 94,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Linda Liu",
-    "vs": [
-     "Christina Sheehan",
-     "Mira Sigal-Feldman"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Benji Berry",
-    "vs": [
-     "Gianna Medeiros",
-     "Andrew Martin"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Anthony Solares",
-    "vs": [
-     "Caity Rietzen",
-     "Andrew Martin"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Evan Sinclair",
-    "vs": [
-     "Caity Rietzen",
-     "Jeremy Chen"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Olivia Schaller",
-    "vs": [
-     "Caity Rietzen",
-     "Mira Sigal-Feldman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.2,
-    "confidence": 42,
-    "rank": 136,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
    }
   ],
@@ -17015,6 +23788,140 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 43,
+    "rank": 231,
+    "ratingGames": 5,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "c9f0e72d-9f24-4740-ae4e-79fb3628e2f0": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 94,
+    "pa": 91,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Pam Politis",
+    "vs": [
+     "Ann Dunn",
+     "Bennett Matthew’S"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Sydney Peterson",
+    "vs": [
+     "Crystal Mark",
+     "Nicholas Jackson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Reggie Tiglao",
+    "vs": [
+     "Nicholas Jackson",
+     "Michael Meraglia"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Leah Oneill",
+    "vs": [
+     "Heather Triozzi",
+     "Bennett Matthew’S"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "male",
+    "with": "Joe Johnson",
+    "vs": [
+     "Nicholas Jackson",
+     "Bennett Matthew’S"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 45,
+    "rank": 238,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -17140,6 +24047,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 46,
+    "rank": 175,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -17265,6 +24181,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 46,
+    "rank": 252,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -17390,36 +24315,72 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 45,
+    "rank": 158,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
  },
- "28f35cb8-46a7-4338-9bdc-68f7bd6ca009": {
+ "08b7041c-a90b-47ba-802a-5f71e6b98999": {
   "log": [
    {
     "week": 1,
     "opp": "Ballers Philly",
     "homeAway": "A",
-    "w": 3,
+    "w": 4,
     "l": 2,
-    "gp": 5,
-    "pf": 85,
-    "pa": 84,
+    "gp": 6,
+    "pf": 121,
+    "pa": 103,
     "mx": [
-     1,
-     0
-    ],
-    "gn": [
-     2,
+     0,
      2
     ],
-    "cl": [
-     0,
+    "gn": [
+     4,
      0
+    ],
+    "cl": [
+     2,
+     1
     ],
     "teamRes": "L",
     "teamGW": 10,
     "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 120,
+    "pa": 101,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -17428,14 +24389,30 @@
    {
     "wk": 1,
     "opp": "Ballers Philly",
-    "t": "female",
+    "t": "mixed",
     "with": "Taylor Johns",
     "vs": [
-     "Pamela Toy",
-     "Tesa Pribitkin"
+     "Alexandria Mlkvy",
+     "Kevin Wilson"
     ],
-    "f": 21,
-    "a": 11,
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Samuel Lee",
+     "Stephen Macpherson"
+    ],
+    "f": 22,
+    "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -17444,11 +24421,27 @@
    {
     "wk": 1,
     "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Rebecca Mcginnis",
+    "t": "male",
+    "with": "Chris Machuzak",
     "vs": [
-     "Karen Rodriguez",
-     "Pamela Toy"
+     "Peter Siv",
+     "Kevin Wilson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Adam Lowther",
+    "vs": [
+     "Stephen Macpherson",
+     "Kevin Wilson"
     ],
     "f": 21,
     "a": 14,
@@ -17461,28 +24454,60 @@
     "wk": 1,
     "opp": "Ballers Philly",
     "t": "mixed",
-    "with": "Jacob Alpert",
+    "with": "Taylor Johns",
     "vs": [
-     "Pamela Toy",
-     "Ben Van Handel"
+     "Alexandria Mlkvy",
+     "Samuel Lee"
     ],
-    "f": 21,
-    "a": 17,
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Adam Lowther",
+    "vs": [
+     "Stephen Macpherson",
+     "Samuel Lee"
+    ],
+    "f": 23,
+    "a": 21,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Lisa Pinder",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Adam Lowther",
     "vs": [
-     "Alexandria Mlkvy",
-     "Tesa Pribitkin"
+     "Simon Darlington",
+     "Gabriel Ferraro"
     ],
-    "f": 16,
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Adam Lowther",
+    "vs": [
+     "Brian Cook",
+     "Skylar Bobadilla"
+    ],
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -17490,17 +24515,65 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Taylor Johns",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
     "vs": [
-     "Karen Rodriguez",
-     "Tesa Pribitkin"
+     "Magnolia Lau",
+     "Skylar Bobadilla"
     ],
-    "f": 6,
+    "f": 19,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Simon Darlington",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Rebecca Durda",
+     "Simon Darlington"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Gabriel Ferraro",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -17509,42 +24582,91 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.5,
-    "confidence": 38,
-    "rank": 115,
-    "ratingGames": 5,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.2
+    "rating": 1.7,
+    "confidence": 45,
+    "rank": 45,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 62,
+    "rank": 76,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.1
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
+    "name": "Chris Machuzak",
+    "n": 4,
+    "synergy": 1.4
+   },
+   {
+    "pid": "fc25c569-51b2-46a9-9dde-88cf56493e62",
+    "name": "Adam Lowther",
+    "n": 4,
+    "synergy": 0.4
+   }
+  ]
  },
- "fe5f5565-3a59-4eb6-9857-7dcb007f4900": {
+ "caecaf69-b1c0-4093-b374-64b76698e68f": {
   "log": [
    {
     "week": 1,
     "opp": "Delco Turf & Pickle",
     "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 141,
-    "pa": 119,
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 101,
     "mx": [
      2,
      1
     ],
     "gn": [
-     2,
-     2
+     3,
+     0
     ],
     "cl": [
-     0,
-     3
+     1,
+     1
     ],
     "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 98,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -17554,7 +24676,7 @@
     "wk": 1,
     "opp": "Delco Turf & Pickle",
     "t": "mixed",
-    "with": "Isabel Laroque",
+    "with": "Michael Martellacci",
     "vs": [
      "Marina Mounelasy",
      "Jon Wheel"
@@ -17569,11 +24691,43 @@
    {
     "wk": 1,
     "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Luc Legaspi",
+    "t": "female",
+    "with": "Ava Pastore",
     "vs": [
-     "Nick Tang",
-     "Elliott Tseng"
+     "Roe Avila",
+     "Jenny Shi"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Kalina Ye",
+     "Nick Tang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Irene Fitzgerald",
+     "Andrew Taylor"
     ],
     "f": 21,
     "a": 17,
@@ -17585,11 +24739,268 @@
    {
     "wk": 1,
     "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Luc Legaspi",
+    "t": "female",
+    "with": "Esha Gajjar",
     "vs": [
-     "Elliott Tseng",
-     "Jon Wheel"
+     "Carla Fonseca",
+     "Irene Fitzgerald"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Olivia Lee",
+    "vs": [
+     "Roe Avila",
+     "Marina Mounelasy"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Courtney Skolka",
+     "Nick Lewis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Thania Padova",
+     "Courtney Skolka"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Lauren Fernandez",
+     "Andrew Son"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Olivia Lee",
+    "vs": [
+     "Gabby Frieder",
+     "Natalia Koontz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Gabby Frieder",
+     "Nick Lewis"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Ava Pastore",
+    "vs": [
+     "Natalia Koontz",
+     "Courtney Skolka"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.3,
+    "confidence": 51,
+    "rank": 25,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 0.9,
+    "confidence": 66,
+    "rank": 93,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "7e92032d-7d47-485c-8641-ae8a7af4e3ac": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 104,
+    "pa": 114,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 113,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Alex Kustas",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Kevin Wilson"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Pamela Toy",
+     "Tesa Pribitkin"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Karen Rodriguez",
+     "Kevin Wilson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Kevin Wilson"
     ],
     "f": 26,
     "a": 28,
@@ -17600,12 +25011,60 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Ballers Philly",
     "t": "mixed",
-    "with": "Ava Pastore",
+    "with": "Alex Kustas",
     "vs": [
-     "Jenny Shi",
-     "Jon Wheel"
+     "Alexandria Mlkvy",
+     "Samuel Lee"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Karen Rodriguez",
+     "Tesa Pribitkin"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Rebecca Durda",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Eileen Potter",
+     "Rebecca Durda"
     ],
     "f": 22,
     "a": 24,
@@ -17615,13 +25074,293 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Matthew Crawford",
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Chris Machuzak",
     "vs": [
-     "Andrew Taylor",
-     "Evan Truitt"
+     "Tiffany Weis",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Eileen Potter",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Adam Lowther",
+    "vs": [
+     "Rebecca Durda",
+     "Jon Palabay"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Adam Lowther",
+    "vs": [
+     "Tiffany Weis",
+     "Brian Cook"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.2,
+    "confidence": 45,
+    "rank": 223,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 64,
+    "rank": 182,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
+    "name": "Chris Machuzak",
+    "n": 4,
+    "synergy": 0.1
+   }
+  ]
+ },
+ "7d8c7d39-daa6-486b-9439-c19d71815565": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 123,
+    "pa": 133,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 143,
+    "pa": 111,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Sal Cocuzza",
+    "vs": [
+     "Leanna Coello",
+     "Mychal Villanueva"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Jordan Flavell-Boney",
+    "vs": [
+     "Leanna Coello",
+     "Lara Gedeon"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Jason Huang",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Joseph Gozon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Jordan Flavell-Boney",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Binxin Cai"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Natalie Ruiz",
+    "vs": [
+     "Leanna Coello",
+     "Ulyana Kitcmanuk"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Brandon Tsang",
+    "vs": [
+     "Lara Gedeon",
+     "Joseph Roque"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Binxin Cai",
+     "Leanna Coello"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Keith Parker",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Sarah Law",
+    "vs": [
+     "Susan M Fett",
+     "Laura Spilatro"
     ],
     "f": 21,
     "a": 8,
@@ -17631,33 +25370,81 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "wk": 2,
+    "opp": "Home Court",
     "t": "mixed",
-    "with": "Lili Zebluim",
+    "with": "Keith Parker",
     "vs": [
-     "Kalina Ye",
-     "Elliott Tseng"
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Corie Stone",
+    "vs": [
+     "Kim Batistoni",
+     "Laura Fantin"
     ],
     "f": 21,
-    "a": 15,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Matthew Crawford",
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Abdullah Osman",
     "vs": [
-     "Nick Tang",
-     "Evan Truitt"
+     "Laura Spilatro",
+     "Robert Huntley"
     ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Laura Spilatro",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Sarah Law",
+    "vs": [
+     "Laura Fantin",
+     "Laura Spilatro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -17666,11 +25453,20 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 2.1,
-    "confidence": 51,
-    "rank": 31,
+    "rating": -0.4,
+    "confidence": 49,
+    "rank": 173,
     "ratingGames": 7,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 1.7,
+    "confidence": 68,
+    "rank": 47,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -17829,6 +25625,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 50,
+    "rank": 136,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -17986,6 +25791,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 46,
+    "rank": 73,
+    "ratingGames": 7,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -18140,6 +25954,15 @@
     "rating": 0.7,
     "confidence": 43,
     "rank": 100,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 43,
+    "rank": 117,
     "ratingGames": 7,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.4
@@ -18300,6 +26123,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 55,
+    "rank": 169,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -18454,6 +26286,15 @@
     "rating": 0.2,
     "confidence": 51,
     "rank": 131,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 51,
+    "rank": 152,
     "ratingGames": 7,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.6
@@ -18614,6 +26455,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 54,
+    "rank": 184,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -18771,9 +26621,336 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 51,
+    "rank": 241,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
+ },
+ "8fb87112-3824-4d16-96d1-3f4abcb2ae45": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 139,
+    "pa": 120,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 118,
+    "pa": 143,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Addison Stewart",
+    "vs": [
+     "Colleen Van Ee",
+     "Dion Brown"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Patricia Kavanaugh",
+    "vs": [
+     "Arzu Alimjan",
+     "Colleen Van Ee"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Dan Stanton",
+    "vs": [
+     "Arzu Alimjan",
+     "David Reyes"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "John Lottier",
+    "vs": [
+     "Deb Morisie",
+     "Chris Hudak"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Patricia Kavanaugh",
+    "vs": [
+     "Colleen Van Ee",
+     "Lana Engler Carss"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "John Lottier",
+    "vs": [
+     "Colleen Van Ee",
+     "Chris Hudak"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Colleen Van Ee",
+     "Virginia Alves"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dan Stanton",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Dede Dolkar",
+     "Diana Nguyen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dan Stanton",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Josh Rito",
+    "vs": [
+     "Carissa Baptista",
+     "Josiah Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Christy Zhang",
+     "Emily Su"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Addison Stewart",
+    "vs": [
+     "Carissa Baptista",
+     "Winston Lian"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Dede Dolkar",
+     "Carissa Baptista"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.8,
+    "confidence": 48,
+    "rank": 39,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 67,
+    "rank": 99,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+    "name": "Johanna Kreilick",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "08f765a3-1ebf-4b7f-afe1-e815112ee581",
+    "name": "Dan Stanton",
+    "n": 3,
+    "synergy": -1
+   }
+  ]
  },
  "57666861-23d0-4809-9556-b646579f2fd6": {
   "log": [
@@ -18928,6 +27105,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 54,
+    "rank": 260,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -19085,9 +27271,1652 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 53,
+    "rank": 240,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
+ },
+ "85520ff7-80c8-4a80-8af0-93889a7a61e6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 108,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 99,
+    "pa": 98,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Spencer Day",
+     "Scott Strong"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Jon Palabay",
+    "vs": [
+     "Aaron Chan",
+     "Matt Demarco"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Matt Demarco",
+     "Aaron Chan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Eileen Potter",
+    "vs": [
+     "Mary Fair",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Eileen Potter",
+    "vs": [
+     "Jacquie Verish",
+     "Daniel Hadley"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Vito Nucci",
+    "vs": [
+     "Jonathan Carter",
+     "Jacob Alpert"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Christina Juliano",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Alex Kustas",
+     "Adam Lowther"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Taylor Johns",
+     "Adam Lowther"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.7,
+    "confidence": 48,
+    "rank": 97,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 66,
+    "rank": 134,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
+ },
+ "c7d6417a-1519-48bd-831a-58e1714d70a9": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 108,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 92,
+    "pa": 93,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Todd Green",
+    "vs": [
+     "Monique Panajon",
+     "Joseph Gozon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Leanna Coello",
+     "Yosuke Kawai"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Corie Stone",
+    "vs": [
+     "Leanna Coello",
+     "Monique Panajon"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Todd Green",
+    "vs": [
+     "Ulyana Kitcmanuk",
+     "Andrew Chester"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Corie Stone",
+    "vs": [
+     "Binxin Cai",
+     "Lara Gedeon"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Binxin Cai",
+     "Leanna Coello"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Abdullah Osman",
+    "vs": [
+     "Kim Batistoni",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Jess Cox",
+    "vs": [
+     "Kim Batistoni",
+     "Laura Fantin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Kamal D",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Corie Stone",
+    "vs": [
+     "Laura Fantin",
+     "Laura Spilatro"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Christine Algozo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Susan M Fett"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.9,
+    "confidence": 48,
+    "rank": 84,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 65,
+    "rank": 163,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c8d0efa3-d55c-4c90-a7f1-181f045702d0",
+    "name": "Corie Stone",
+    "n": 3,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "60c53e43-dbe0-4f62-8023-a2c1c1303fc3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 94,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 115,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Christina Sheehan",
+     "Mira Sigal-Feldman"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Benji Berry",
+    "vs": [
+     "Gianna Medeiros",
+     "Andrew Martin"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Anthony Solares",
+    "vs": [
+     "Caity Rietzen",
+     "Andrew Martin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Caity Rietzen",
+     "Jeremy Chen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Caity Rietzen",
+     "Mira Sigal-Feldman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Albert Lin",
+    "vs": [
+     "Ginny Truong",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Eileen Zhang",
+     "Shania Bui"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Stephanie Li",
+     "Kierstin Gant"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Peter David",
+    "vs": [
+     "Shania Bui",
+     "John Tano"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Ginny Truong",
+     "Vy Conghuyen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Jaspher Cosico",
+    "vs": [
+     "Eileen Zhang",
+     "John Tano"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.2,
+    "confidence": 42,
+    "rank": 136,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 64,
+    "rank": 205,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
+    "name": "Linda Liu",
+    "n": 3,
+    "synergy": -0.6
+   }
+  ]
+ },
+ "2e82399e-1fad-4343-81cd-5202f2fd17bf": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 117,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 97,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Roe Avila",
+     "Jenny Shi"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Marina Mounelasy",
+     "Jon Wheel"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Jenny Shi",
+     "Kalina Ye"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Jenny Shi",
+     "Jon Wheel"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Jenny Shi",
+     "Leh Mounelasy"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Irene Fitzgerald",
+     "Jenny Shi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Vanessa Rhoades",
+     "David Barth"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Vanessa Rhoades",
+     "Shawn Roseman"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Natalia Koontz",
+     "Shawn Roseman"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Gabby Frieder",
+     "Natalia Koontz"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Natalia Koontz",
+     "Courtney Skolka"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.2,
+    "confidence": 42,
+    "rank": 135,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 60,
+    "rank": 177,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "fe5f5565-3a59-4eb6-9857-7dcb007f4900": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 141,
+    "pa": 119,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Marina Mounelasy",
+     "Jon Wheel"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Nick Tang",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Elliott Tseng",
+     "Jon Wheel"
+    ],
+    "f": 26,
+    "a": 28,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Jenny Shi",
+     "Jon Wheel"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Andrew Taylor",
+     "Evan Truitt"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Kalina Ye",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Nick Tang",
+     "Evan Truitt"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Courtney Skolka",
+     "Nick Lewis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Mike Scioli Jr",
+    "vs": [
+     "David Barth",
+     "Nick Lewis"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Natalia Koontz",
+     "Shawn Roseman"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Farhan Chowdhury",
+     "Andrew Son"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Courtney Skolka",
+     "Andrew Son"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Farhan Chowdhury",
+     "Jason Quach"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.1,
+    "confidence": 51,
+    "rank": 31,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 1.8,
+    "confidence": 68,
+    "rank": 43,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "4d20f87d-068f-4cce-806d-6941153e72be",
+    "name": "Luc Legaspi",
+    "n": 3,
+    "synergy": 0.7
+   }
+  ]
+ },
+ "4d20f87d-068f-4cce-806d-6941153e72be": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 121,
+    "pa": 138,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 111,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Jenny Shi",
+     "Elliott Tseng"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Nick Tang",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Roe Avila",
+     "Andrew Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Elliott Tseng",
+     "Jon Wheel"
+    ],
+    "f": 26,
+    "a": 28,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Olivia Lee",
+    "vs": [
+     "Roe Avila",
+     "Nick Tang"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Jon Wheel",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Jenny Shi",
+     "Leh Mounelasy"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Vanessa Rhoades",
+     "David Barth"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Jason Quach",
+     "Andrew Son"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Jason Quach",
+     "Andrew Son"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Lili Zebluim",
+    "vs": [
+     "Courtney Skolka",
+     "David Barth"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Lauren Fernandez",
+     "Nick Lewis"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Farhan Chowdhury",
+     "Jason Quach"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 49,
+    "rank": 236,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 66,
+    "rank": 197,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fe5f5565-3a59-4eb6-9857-7dcb007f4900",
+    "name": "Michael Martellacci",
+    "n": 3,
+    "synergy": 0.7
+   }
+  ]
  },
  "93805af5-9ac7-4fa5-8761-b7dab7f9dd9b": {
   "log": [
@@ -19226,9 +29055,514 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 50,
+    "rank": 105,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
+ },
+ "5c5c0d00-e20c-456e-b53e-890845310916": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 97,
+    "pa": 70,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 87,
+    "pa": 99,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Michael Kresloff",
+     "Eric Padernilla"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Dylan Mich",
+    "vs": [
+     "John Dechristopher",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Jiyun Yuh",
+     "John Dechristopher"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Taylor Runyen",
+     "Eric Padernilla"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Aliquo",
+    "vs": [
+     "Michael Kresloff",
+     "Ryan Lehrfeld"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Evan Sinclair",
+     "Albert Lin"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Stephanie Li",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Brandon Dejesus"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Ginny Truong",
+    "vs": [
+     "Katrina Maranan",
+     "Evan Sinclair"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "Brandon Dejesus",
+     "Jaspher Cosico"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Ethan Fu",
+    "vs": [
+     "Peter David",
+     "Evan Sinclair"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.8,
+    "confidence": 44,
+    "rank": 42,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 2,
+    "rating": 1.2,
+    "confidence": 62,
+    "rank": 77,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "a8585e9c-872e-466c-9583-9680e557f757",
+    "name": "Ethan Fu",
+    "n": 4,
+    "synergy": -0.2
+   }
+  ]
+ },
+ "44de3ff2-3b41-4c10-908c-8057a94e1d75": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 88,
+    "pa": 100,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 79,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Benji Berry",
+    "vs": [
+     "Joshua Kim",
+     "Jonathan Macqueen"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Julia Manetta",
+     "Jonathan Macqueen"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Peter David",
+    "vs": [
+     "Jonathan Macqueen",
+     "Joshua Kim"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Ashley Held",
+    "vs": [
+     "Caity Rietzen",
+     "Jeremy Chen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Peter David",
+    "vs": [
+     "Andrew Martin",
+     "Joshua Kim"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Albert Lin",
+    "vs": [
+     "Carlos Lichty",
+     "Ethan Fu"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Peter David",
+    "vs": [
+     "Dylan Mich",
+     "Ethan Fu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Ginny Truong",
+     "Carlos Lichty"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Vy Conghuyen",
+     "Ethan Fu"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Peter David",
+    "vs": [
+     "Ethan Fu",
+     "Carlos Lichty"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.9,
+    "confidence": 42,
+    "rank": 207,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.3,
+    "confidence": 59,
+    "rank": 70,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
+    "name": "Peter David",
+    "n": 4,
+    "synergy": -0.2
+   }
+  ]
  },
  "a97005b1-7cac-40b0-b0c0-c4e1a359418a": {
   "log": [
@@ -19256,6 +29590,33 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 118,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
     "sub": 0,
     "subFor": null
    }
@@ -19356,6 +29717,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Khanh Vu",
+    "vs": [
+     "Katrina Maranan",
+     "Peter David"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Shania Bui",
+    "vs": [
+     "Linda Liu",
+     "Ashley Held"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Shania Bui",
+    "vs": [
+     "Olivia Schaller",
+     "Katrina Maranan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Dylan Mich",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Anthony Solares"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "John Tano",
+    "vs": [
+     "Ashley Held",
+     "Jaspher Cosico"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Kierstin Gant",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Olivia Schaller"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -19367,36 +29824,79 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 67,
+    "rank": 90,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "714331ee-d124-483d-a89e-11d1431a7fca",
+    "name": "Shania Bui",
+    "n": 4,
+    "synergy": 1
+   }
+  ]
  },
- "9c942e88-f77a-4b16-bf03-5d83455ed7c6": {
+ "bcf39825-fd7a-4949-9b85-9b77f5c1abc6": {
   "log": [
    {
     "week": 1,
     "opp": "Players Courtyard",
     "homeAway": "A",
-    "w": 3,
-    "l": 3,
+    "w": 5,
+    "l": 1,
     "gp": 6,
-    "pf": 117,
-    "pa": 106,
+    "pf": 124,
+    "pa": 104,
     "mx": [
-     1,
-     2
+     3,
+     0
     ],
     "gn": [
      2,
      1
     ],
     "cl": [
-     0,
+     1,
      1
     ],
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 114,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     4
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -19406,14 +29906,14 @@
     "wk": 1,
     "opp": "Players Courtyard",
     "t": "mixed",
-    "with": "Gabriel Ferraro",
+    "with": "Skylar Bobadilla",
     "vs": [
-     "Ricki Cohen",
-     "Matt Demarco"
+     "Nicole Mandry",
+     "Brad Mandry"
     ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 19,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -19424,7 +29924,71 @@
     "t": "female",
     "with": "Rebecca Durda",
     "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
      "Mary Fair",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Ricki Cohen",
+     "Mary Fair"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Deirdre Zohlman",
+     "Scott Strong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Nicole Mandry",
      "Deirdre Zohlman"
     ],
     "f": 21,
@@ -19435,29 +29999,45 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
     "t": "mixed",
-    "with": "Holden Lenoff",
+    "with": "Jon Palabay",
     "vs": [
-     "Deirdre Zohlman",
-     "Aaron Chan"
+     "Rebecca Mcginnis",
+     "Adam Lowther"
     ],
-    "f": 21,
-    "a": 23,
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Dana Sheply",
+     "Lisa Pinder"
+    ],
+    "f": 19,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Magnolia Lau",
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
     "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
+     "Taylor Johns",
+     "Chris Machuzak"
     ],
     "f": 17,
     "a": 21,
@@ -19467,33 +30047,49 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Eileen Potter",
     "vs": [
-     "Mary Fair",
-     "Aaron Chan"
+     "Taylor Johns",
+     "Jacquie Verish"
     ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
+    "f": 19,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
     "t": "female",
-    "with": "Tiffany Weis",
+    "with": "Rebecca Durda",
     "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
+     "Jacquie Verish",
+     "Rebecca Mcginnis"
     ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Taylor Johns",
+     "Adam Lowther"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -19502,119 +30098,112 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.2,
-    "confidence": 49,
-    "rank": 134,
+    "rating": 2.3,
+    "confidence": 51,
+    "rank": 26,
     "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 68,
+    "rank": 98,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
  },
- "bde51a59-4c56-4d7a-a0e3-a9041baf8583": {
+ "ae015f4e-a359-406a-a394-b04d1ec288b7": {
   "log": [
    {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
+    "week": 2,
+    "opp": "Forward",
     "homeAway": "H",
     "w": 3,
     "l": 3,
     "gp": 6,
-    "pf": 120,
-    "pa": 109,
+    "pf": 118,
+    "pa": 111,
     "mx": [
-     3,
-     0
+     1,
+     2
     ],
     "gn": [
-     0,
-     3
+     2,
+     1
     ],
     "cl": [
      0,
-     3
+     2
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
+    "wk": 2,
+    "opp": "Forward",
     "t": "mixed",
-    "with": "Mary Brashier",
+    "with": "Shawn Roseman",
     "vs": [
-     "Colleen Van Ee",
-     "Dion Brown"
+     "Olivia Lee",
+     "Cole Neimetz"
     ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Laura Slane",
-    "vs": [
-     "Colleen Van Ee",
-     "Cullen Curley"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Lakshmikanth Chaluvadi",
-    "vs": [
-     "Dion Brown",
-     "Chris Hudak"
-    ],
-    "f": 25,
-    "a": 27,
+    "f": 24,
+    "a": 26,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
+    "wk": 2,
+    "opp": "Forward",
     "t": "mixed",
-    "with": "Laura Slane",
+    "with": "Farhan Chowdhury",
     "vs": [
-     "Lana Engler Carss",
-     "David Reyes"
+     "Olivia Lee",
+     "Matthew Crawford"
     ],
     "f": 21,
-    "a": 17,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Lakshmikanth Chaluvadi",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Gabby Frieder",
     "vs": [
-     "Cullen Curley",
-     "David Reyes"
+     "Olivia Lee",
+     "Isabel Laroque"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Shawn Roseman",
+    "vs": [
+     "Ava Pastore",
+     "Michael Martellacci"
     ],
     "f": 22,
     "a": 24,
@@ -19624,17 +30213,33 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "John Lottier",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Gabby Frieder",
     "vs": [
-     "Dion Brown",
-     "Cullen Curley"
+     "Ava Pastore",
+     "Ariane Abadi"
     ],
-    "f": 24,
-    "a": 26,
+    "f": 17,
+    "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Ava Pastore",
+     "Isabel Laroque"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -19642,13 +30247,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 1.5,
+    "week": 2,
+    "rating": 0.2,
     "confidence": 47,
-    "rank": 51,
+    "rank": 156,
     "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -19822,288 +30427,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
- "85520ff7-80c8-4a80-8af0-93889a7a61e6": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 114,
-    "pa": 108,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Rebecca Durda",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Gabriel Ferraro",
-    "vs": [
-     "Spencer Day",
-     "Scott Strong"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Jon Palabay",
-    "vs": [
-     "Aaron Chan",
-     "Matt Demarco"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Gabriel Ferraro",
-    "vs": [
-     "Matt Demarco",
-     "Aaron Chan"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Eileen Potter",
-    "vs": [
-     "Mary Fair",
-     "Aaron Chan"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.7,
-    "confidence": 48,
-    "rank": 97,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "c7d6417a-1519-48bd-831a-58e1714d70a9": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 114,
-    "pa": 108,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Todd Green",
-    "vs": [
-     "Monique Panajon",
-     "Joseph Gozon"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Abdullah Osman",
-    "vs": [
-     "Leanna Coello",
-     "Yosuke Kawai"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Corie Stone",
-    "vs": [
-     "Leanna Coello",
-     "Monique Panajon"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Todd Green",
-    "vs": [
-     "Ulyana Kitcmanuk",
-     "Andrew Chester"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Corie Stone",
-    "vs": [
-     "Binxin Cai",
-     "Lara Gedeon"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Alexandra Sierer",
-    "vs": [
-     "Binxin Cai",
-     "Leanna Coello"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.9,
-    "confidence": 48,
-    "rank": 84,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 57,
+    "rank": 135,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -20245,6 +30577,156 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 43,
+    "rank": 160,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "195690f4-4055-47d6-b298-cc5fa7b2142e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 118,
+    "pa": 113,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Isabel Laroque",
+     "Michael Martellacci"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "David Barth",
+    "vs": [
+     "Mike Scioli Jr",
+     "Michael Martellacci"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Shawn Roseman",
+    "vs": [
+     "Ryan Gerstel",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Gabby Frieder",
+    "vs": [
+     "Isabel Laroque",
+     "Matthew Crawford"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Jason Quach",
+    "vs": [
+     "Mike Scioli Jr",
+     "Matthew Crawford"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Lauren Fernandez",
+    "vs": [
+     "Ariane Abadi",
+     "Luc Legaspi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 49,
+    "rank": 137,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -20386,162 +30868,30 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 52,
+    "rank": 185,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
  },
- "714331ee-d124-483d-a89e-11d1431a7fca": {
+ "92eb607e-9215-4282-9c92-53bc4c761738": {
   "log": [
    {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
     "w": 3,
     "l": 3,
     "gp": 6,
     "pf": 114,
     "pa": 110,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Khanh Vu",
-    "vs": [
-     "Taylor Lambe",
-     "Eric Padernilla"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Eileen Zhang",
-    "vs": [
-     "Pallavi Deshpande",
-     "Taylor Lambe"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Stephanie Li",
-    "vs": [
-     "Taylor Lambe",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Ethan Fu",
-    "vs": [
-     "Pallavi Deshpande",
-     "Eric Padernilla"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Khanh Vu",
-    "vs": [
-     "Nada Abdelkarim",
-     "Eric Padernilla"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Eileen Zhang",
-    "vs": [
-     "Taylor Lambe",
-     "Stacy Ip-Mo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 45,
-    "rank": 163,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "52db6510-81e5-4ca3-ae64-1f0bbe677f93": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 110,
-    "pa": 107,
     "mx": [
      1,
      2
@@ -20551,25 +30901,89 @@
      1
     ],
     "cl": [
-     1,
-     1
+     0,
+     0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Flemington",
     "t": "mixed",
-    "with": "Carmina Lasam",
+    "with": "Christy Zhang",
     "vs": [
-     "Monique Panajon",
-     "Joseph Gozon"
+     "Jamie Hahn",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Jason Kwan",
+    "vs": [
+     "David Tabacco",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Christy Zhang",
+    "vs": [
+     "Monika Torbus",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Jason Kwan",
+    "vs": [
+     "Josh Rito",
+     "David Tabacco"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Emily Su",
+    "vs": [
+     "Monika Torbus",
+     "Lakshmikanth Chaluvadi"
     ],
     "f": 21,
     "a": 15,
@@ -20579,80 +30993,16 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Flemington",
     "t": "male",
-    "with": "Abdullah Osman",
+    "with": "Winston Lian",
     "vs": [
-     "Homer Abes",
-     "Joseph Roque"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Carmina Lasam",
-    "vs": [
-     "Ulyana Kitcmanuk",
-     "Andrew Chester"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Abdullah Osman",
-    "vs": [
-     "Andrew Chester",
-     "Yosuke Kawai"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Corie Stone",
-    "vs": [
-     "Monique Panajon",
-     "Yosuke Kawai"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Sal Cocuzza",
-    "vs": [
-     "Joseph Gozon",
-     "Joseph Roque"
+     "David Tabacco",
+     "Addison Stewart"
     ],
     "f": 21,
-    "a": 10,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -20661,13 +31011,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.6,
-    "confidence": 47,
-    "rank": 106,
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 48,
+    "rank": 229,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
@@ -20809,6 +31159,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.4,
+    "confidence": 51,
+    "rank": 64,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -20982,6 +31341,15 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 48,
+    "rank": 138,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -21091,36 +31459,72 @@
     "ratingGames": 4,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 39,
+    "rank": 293,
+    "ratingGames": 4,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
  },
- "c5e40aa9-efbf-4937-b44d-1b8f06693ba4": {
+ "005c1a4c-4d04-4923-baea-1a720a4082ea": {
   "log": [
    {
     "week": 1,
-    "opp": "Bounce Philly",
+    "opp": "Delco Turf & Pickle",
     "homeAway": "H",
-    "w": 3,
-    "l": 3,
+    "w": 2,
+    "l": 4,
     "gp": 6,
-    "pf": 114,
-    "pa": 115,
+    "pf": 116,
+    "pa": 119,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 118,
     "mx": [
      2,
      1
     ],
     "gn": [
-     1,
-     2
-    ],
-    "cl": [
      2,
      1
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "cl": [
+     4,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -21128,15 +31532,15 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Victoria Rolon",
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Matthew Crawford",
     "vs": [
-     "Gianna Medeiros",
-     "Andrew Martin"
+     "Andrew Taylor",
+     "Evan Truitt"
     ],
     "f": 21,
-    "a": 14,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -21144,12 +31548,124 @@
    },
    {
     "wk": 1,
-    "opp": "Bounce Philly",
+    "opp": "Delco Turf & Pickle",
     "t": "mixed",
-    "with": "Katrina Maranan",
+    "with": "Olivia Lee",
     "vs": [
-     "Mira Sigal-Feldman",
-     "Kyle Kelly"
+     "Irene Fitzgerald",
+     "Leh Mounelasy"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Esha Gajjar",
+    "vs": [
+     "Kalina Ye",
+     "Leh Mounelasy"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Jon Wheel",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Esha Gajjar",
+    "vs": [
+     "Carla Fonseca",
+     "Nick Tang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Leh Mounelasy",
+     "Andrew Taylor"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Olivia Lee",
+    "vs": [
+     "Natalia Koontz",
+     "Shawn Roseman"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Vanessa Rhoades",
+     "Shawn Roseman"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Jason Quach",
+     "Andrew Son"
     ],
     "f": 21,
     "a": 19,
@@ -21159,65 +31675,49 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Benji Berry",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ariane Abadi",
     "vs": [
-     "Jeremy Chen",
-     "Joshua Kim"
+     "Thania Padova",
+     "Jason Quach"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Farhan Chowdhury",
+     "Andrew Son"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "David Barth",
+     "Shawn Roseman"
     ],
     "f": 22,
     "a": 20,
     "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Katrina Maranan",
-    "vs": [
-     "Maggie Malloy",
-     "Joshua Kim"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Evan Sinclair",
-    "vs": [
-     "Jonathan Macqueen",
-     "Joshua Kim"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Evan Sinclair",
-    "vs": [
-     "Andrew Martin",
-     "Joshua Kim"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -21226,153 +31726,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.7,
-    "confidence": 46,
-    "rank": 99,
+    "rating": 1,
+    "confidence": 50,
+    "rank": 78,
     "ratingGames": 6,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "84c96e34-809c-4b34-9005-8ea76ca6a233": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 107,
-    "pa": 109,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Brandon Dejesus",
-    "vs": [
-     "Julia Manetta",
-     "Anthony Prusich"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Srilahari Kunchapu",
-    "vs": [
-     "Maggie Malloy",
-     "Julia Manetta"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Evan Sinclair",
-    "vs": [
-     "Julia Manetta",
-     "Jonathan Macqueen"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Katrina Maranan",
-    "vs": [
-     "Gianna Medeiros",
-     "Maggie Malloy"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Srilahari Kunchapu",
-    "vs": [
-     "Julia Manetta",
-     "Gianna Medeiros"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Ashley Held",
-    "vs": [
-     "Caity Rietzen",
-     "Mira Sigal-Feldman"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.2,
-    "confidence": 45,
-    "rank": 222,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.6
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 66,
+    "rank": 124,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -21546,15 +31914,24 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 52,
+    "rank": 208,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
  },
- "f76a584d-94cf-4bb7-8c34-90e6c491ac10": {
+ "562e74b8-dab7-46fa-a773-152747a03796": {
   "log": [
    {
-    "week": 1,
-    "opp": "Bounce Malvern",
+    "week": 2,
+    "opp": "Bounce Tempest",
     "homeAway": "A",
     "w": 3,
     "l": 3,
@@ -21563,15 +31940,156 @@
     "pa": 113,
     "mx": [
      2,
-     0
+     1
     ],
     "gn": [
      1,
-     3
+     2
     ],
     "cl": [
-     1,
+     2,
      1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Ashley Held",
+    "vs": [
+     "Ginny Truong",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Carlos Lichty",
+     "Ethan Fu"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Linda Liu",
+    "vs": [
+     "Kierstin Gant",
+     "John Tano"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Linda Liu",
+    "vs": [
+     "Vy Conghuyen",
+     "Khanh Vu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Anthony Solares",
+    "vs": [
+     "Kong Vu",
+     "Ethan Fu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Anthony Solares",
+    "vs": [
+     "Dylan Mich",
+     "Khanh Vu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 52,
+    "rank": 209,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "df1c0521-e5fb-4883-83a2-cee7120f8d97": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 107,
+    "pa": 112,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     2,
+     0
     ],
     "teamRes": "W",
     "teamGW": 21,
@@ -21582,13 +32100,61 @@
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Sydney Peterson",
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Sarah Law",
     "vs": [
-     "Jennifer Minehan",
-     "Alison Mento"
+     "Susan M Fett",
+     "Robert Huntley"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jess Cox",
+    "vs": [
+     "Kim Batistoni",
+     "Matthew Stephenson"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Christine Algozo",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Matthew Stephenson"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Kamal D",
+    "vs": [
+     "Matthew Stephenson",
+     "Richie Mizrahi"
     ],
     "f": 17,
     "a": 21,
@@ -21598,79 +32164,31 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Sydney Peterson",
-    "vs": [
-     "Kristie Frazier",
-     "Alison Mento"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
+    "wk": 2,
+    "opp": "Home Court",
     "t": "mixed",
-    "with": "Joe Johnson",
+    "with": "Jess Cox",
     "vs": [
-     "Carolina Reese",
-     "Trevor Oakley"
+     "Susan M Fett",
+     "Joe Carson"
     ],
-    "f": 21,
-    "a": 15,
+    "f": 22,
+    "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Jennifer Kasnadi",
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Keith Parker",
     "vs": [
-     "Kristie Frazier",
-     "Alison Mento"
+     "Robert Huntley",
+     "Richie Mizrahi"
     ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Savan Patel",
-    "vs": [
-     "Kristie Frazier",
-     "Moe Phanhnong"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Jennifer Kasnadi",
-    "vs": [
-     "Kim Mchugh",
-     "Jennifer Minehan"
-    ],
-    "f": 11,
+    "f": 9,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -21680,43 +32198,70 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -0.2,
-    "confidence": 47,
-    "rank": 160,
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 51,
+    "rank": 236,
     "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
  },
- "2e82399e-1fad-4343-81cd-5202f2fd17bf": {
+ "377302a4-12da-4449-bbfc-a28248436679": {
   "log": [
    {
     "week": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "homeAway": "H",
-    "w": 3,
-    "l": 3,
+    "w": 2,
+    "l": 4,
     "gp": 6,
-    "pf": 112,
-    "pa": 117,
+    "pf": 106,
+    "pa": 118,
     "mx": [
      1,
+     1
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 117,
+    "pa": 111,
+    "mx": [
+     2,
      2
     ],
     "gn": [
      2,
-     1
+     0
     ],
     "cl": [
-     2,
-     1
+     0,
+     0
     ],
     "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -21724,46 +32269,14 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Isabel Laroque",
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Dan Stanton",
     "vs": [
-     "Roe Avila",
-     "Jenny Shi"
+     "David Reyes",
+     "Chris Hudak"
     ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ryan Gerstel",
-    "vs": [
-     "Marina Mounelasy",
-     "Jon Wheel"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Lili Zebluim",
-    "vs": [
-     "Jenny Shi",
-     "Kalina Ye"
-    ],
-    "f": 16,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -21772,28 +32285,12 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Michael Martellacci",
+    "with": "Laura Govan",
     "vs": [
-     "Jenny Shi",
-     "Jon Wheel"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Luc Legaspi",
-    "vs": [
-     "Jenny Shi",
-     "Leh Mounelasy"
+     "Virginia Alves",
+     "Dion Brown"
     ],
     "f": 14,
     "a": 21,
@@ -21804,105 +32301,76 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Ariane Abadi",
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Addison Stewart",
     "vs": [
-     "Irene Fitzgerald",
-     "Jenny Shi"
+     "Dion Brown",
+     "Chris Hudak"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Addison Stewart",
+    "vs": [
+     "Cullen Curley",
+     "David Reyes"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Lana Engler Carss",
+     "Dion Brown"
     ],
     "f": 21,
-    "a": 19,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.2,
-    "confidence": 42,
-    "rank": 135,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "b0666637-423b-42ed-b2a4-02a6d12164c2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 110,
-    "pa": 115,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
+   },
    {
     "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Abdullah Osman",
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "David Tabacco",
     "vs": [
-     "Lara Gedeon",
-     "Andrew Chester"
+     "David Reyes",
+     "Chris Hudak"
     ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
+    "f": 24,
+    "a": 22,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Natalie Ruiz",
-    "vs": [
-     "Ulyana Kitcmanuk",
-     "Binxin Cai"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
     "t": "mixed",
-    "with": "Brandon Tsang",
+    "with": "Jamie Hahn",
     "vs": [
-     "Lara Gedeon",
-     "Homer Abes"
+     "Christy Zhang",
+     "Man Kwok"
     ],
     "f": 21,
     "a": 16,
@@ -21912,13 +32380,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Brandon Tsang",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "David Tabacco",
     "vs": [
-     "Lara Gedeon",
-     "Homer Abes"
+     "Man Kwok",
+     "Jason Kwan"
     ],
     "f": 21,
     "a": 17,
@@ -21928,32 +32396,64 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
     "t": "mixed",
-    "with": "Abdullah Osman",
+    "with": "Monika Torbus",
     "vs": [
-     "Leanna Coello",
-     "Homer Abes"
+     "Christy Zhang",
+     "Man Kwok"
     ],
-    "f": 26,
-    "a": 24,
+    "f": 21,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Natalie Ruiz",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Monika Torbus",
     "vs": [
-     "Ulyana Kitcmanuk",
-     "Lara Gedeon"
+     "Emily Su",
+     "Man Kwok"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Dan Stanton",
+    "vs": [
+     "Jason Kwan",
+     "Anshul Sahu"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Diana Nguyen",
+     "Anshul Sahu"
+    ],
+    "f": 18,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -21963,10 +32463,19 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.1,
+    "rating": -1,
     "confidence": 46,
-    "rank": 156,
+    "rank": 213,
     "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 63,
+    "rank": 149,
+    "ratingGames": 12,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
    }
@@ -22110,21 +32619,30 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 50,
+    "rank": 270,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
  },
- "e292105e-2554-4a80-accc-6b28514a8ec1": {
+ "2d00c1a4-78ae-4fe3-9192-2622842e354d": {
   "log": [
    {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
     "w": 3,
     "l": 3,
     "gp": 6,
-    "pf": 100,
-    "pa": 108,
+    "pf": 110,
+    "pa": 118,
     "mx": [
      2,
      1
@@ -22134,25 +32652,89 @@
      2
     ],
     "cl": [
-     0,
-     0
+     2,
+     1
     ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
+    "wk": 2,
+    "opp": "Forward",
     "t": "mixed",
-    "with": "Chris Machuzak",
+    "with": "David Barth",
     "vs": [
-     "Isobel Harvey",
-     "Ben Van Handel"
+     "Ava Pastore",
+     "Luc Legaspi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Lauren Fernandez",
+    "vs": [
+     "Ariane Abadi",
+     "Justyna Wojdyla"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Shawn Roseman",
+    "vs": [
+     "Ava Pastore",
+     "Cole Neimetz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Lauren Fernandez",
+    "vs": [
+     "Olivia Lee",
+     "Justyna Wojdyla"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Farhan Chowdhury",
+    "vs": [
+     "Olivia Lee",
+     "Ryan Gerstel"
     ],
     "f": 21,
     "a": 17,
@@ -22162,79 +32744,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Adam Lowther",
-    "vs": [
-     "Tesa Pribitkin",
-     "Stephen Macpherson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
+    "wk": 2,
+    "opp": "Forward",
     "t": "female",
-    "with": "Dana Sheply",
+    "with": "Gabby Frieder",
     "vs": [
-     "Karen Rodriguez",
-     "Pamela Toy"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Jacquie Verish",
-    "vs": [
-     "Karen Rodriguez",
-     "Kelly Feng"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Chris Machuzak",
-    "vs": [
-     "Isobel Harvey",
-     "Stephen Macpherson"
+     "Ariane Abadi",
+     "Lili Zebluim"
     ],
     "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Jacquie Verish",
-    "vs": [
-     "Isobel Harvey",
-     "Kelly Feng"
-    ],
-    "f": 11,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -22244,13 +32762,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 0.5,
-    "confidence": 47,
-    "rank": 108,
+    "week": 2,
+    "rating": -1,
+    "confidence": 50,
+    "rank": 249,
     "ratingGames": 6,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.2
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -22392,6 +32910,256 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 46,
+    "rank": 129,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "28f35cb8-46a7-4338-9bdc-68f7bd6ca009": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 85,
+    "pa": 84,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 84,
+    "pa": 97,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Taylor Johns",
+    "vs": [
+     "Pamela Toy",
+     "Tesa Pribitkin"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Karen Rodriguez",
+     "Pamela Toy"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Pamela Toy",
+     "Ben Van Handel"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Tesa Pribitkin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Taylor Johns",
+    "vs": [
+     "Karen Rodriguez",
+     "Tesa Pribitkin"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Magnolia Lau",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Daniel Hadley",
+    "vs": [
+     "Jennifer Kinkel",
+     "Simon Darlington"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Christina Juliano",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Christina Juliano",
+     "Magnolia Lau"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Christina Juliano",
+     "Rebecca Durda"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 38,
+    "rank": 115,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 60,
+    "rank": 198,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -22565,36 +33333,72 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 56,
+    "rank": 268,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
  },
- "de47e045-80e3-4209-a32e-d1c8a6de083b": {
+ "23b78ff1-3039-4b01-b033-839cdba54a19": {
   "log": [
    {
     "week": 1,
-    "opp": "Delco Turf & Pickle",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 89,
+    "pa": 138,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
     "gp": 6,
-    "pf": 94,
-    "pa": 116,
+    "pf": 124,
+    "pa": 92,
     "mx": [
      3,
      1
     ],
     "gn": [
-     0,
-     2
+     2,
+     0
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -22602,12 +33406,44 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Pickleball Kingdom Watchung",
     "t": "mixed",
-    "with": "Esha Gajjar",
+    "with": "Emiliya Mizrahi",
     "vs": [
-     "Carla Fonseca",
-     "Leh Mounelasy"
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Huntley",
+    "vs": [
+     "Carlos Idrovo",
+     "Bruno Maguino"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
     ],
     "f": 11,
     "a": 21,
@@ -22618,12 +33454,594 @@
    },
    {
     "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Huntley",
+    "vs": [
+     "Carlos Idrovo",
+     "Bruno Maguino"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Michael Jones",
+    "vs": [
+     "John Kim",
+     "Josiah Kim"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ellen Edson",
+    "vs": [
+     "Khushi Shah",
+     "Winston Lian"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Michael Jones",
+    "vs": [
+     "John Kim",
+     "Josiah Kim"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Christine Algozo",
+     "Todd Green"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Alexandra Sierer",
+     "Keith Parker"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Corie Stone",
+     "Keith Parker"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Chris Colucci",
+     "Kamal D"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Corie Stone",
+     "Jason Huang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Robert Huntley",
+    "vs": [
+     "Chris Colucci",
+     "Keith Parker"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.8,
+    "confidence": 47,
+    "rank": 260,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 66,
+    "rank": 123,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b5dec967-9e3a-49b4-b136-597711d099cc",
+    "name": "Robert Huntley",
+    "n": 3,
+    "synergy": 1.1
+   },
+   {
+    "pid": "f173be84-93c7-46b8-b828-d44ddc52d63c",
+    "name": "Emiliya Mizrahi",
+    "n": 4,
+    "synergy": -0.9
+   }
+  ]
+ },
+ "01687986-8454-48f2-ab99-dabc5bb343b7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 100,
+    "pa": 89,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 104,
+    "pa": 117,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Irene Fitzgerald",
+     "Marina Mounelasy"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
     "opp": "Delco Turf & Pickle",
     "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Roe Avila",
+     "Andrew Taylor"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
     "with": "Ava Pastore",
     "vs": [
-     "Marina Mounelasy",
-     "Jon Wheel"
+     "Jenny Shi",
+     "Kalina Ye"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Roe Avila",
+     "Marina Mounelasy"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Kalina Ye",
+     "Elliott Tseng"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Thania Padova",
+     "Courtney Skolka"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Mike Scioli Jr",
+    "vs": [
+     "Gabby Frieder",
+     "Jason Quach"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Justyna Wojdyla",
+    "vs": [
+     "Thania Padova",
+     "Courtney Skolka"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Courtney Skolka",
+     "David Barth"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Michael Martellacci",
+    "vs": [
+     "Courtney Skolka",
+     "Andrew Son"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Gabby Frieder",
+     "Vanessa Rhoades"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.5,
+    "confidence": 44,
+    "rank": 111,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 62,
+    "rank": 168,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "25df407c-f249-4c32-838c-09cd2b88e9e6",
+    "name": "Ariane Abadi",
+    "n": 3,
+    "synergy": 1
+   }
+  ]
+ },
+ "4031f243-e80c-492b-b30b-5bf058824762": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 86,
+    "pa": 101,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 108,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xin Liu",
+    "vs": [
+     "Caity Rietzen",
+     "Jeremy Chen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Peter David",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Kyle Kelly"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Gianna Medeiros",
+     "Maggie Malloy"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Peter David",
+    "vs": [
+     "Maggie Malloy",
+     "Joshua Kim"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Jonathan Macqueen"
     ],
     "f": 23,
     "a": 21,
@@ -22633,10 +34051,242 @@
     "subFor": null
    },
    {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Peter David",
+    "vs": [
+     "Eileen Zhang",
+     "Khanh Vu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Jaspher Cosico",
+    "vs": [
+     "Vy Conghuyen",
+     "Kong Vu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Eileen Zhang",
+     "Shania Bui"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Ginny Truong",
+     "Carlos Lichty"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Ginny Truong",
+     "Kong Vu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "female",
+    "with": "Linda Liu",
+    "vs": [
+     "Shania Bui",
+     "Stephanie Li"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.7,
+    "confidence": 45,
+    "rank": 257,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 66,
+    "rank": 214,
+    "ratingGames": 11,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
+    "name": "Peter David",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
+ },
+ "2ee974be-b965-4feb-b40e-3a677f40d542": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 99,
+    "pa": 109,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 98,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Olivia Lee",
+    "vs": [
+     "Kalina Ye",
+     "Evan Truitt"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
     "wk": 1,
     "opp": "Delco Turf & Pickle",
     "t": "male",
-    "with": "Matthew Crawford",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Andrew Taylor",
+     "Evan Truitt"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Kalina Ye",
+     "Nick Tang"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Ryan Gerstel",
     "vs": [
      "Leh Mounelasy",
      "Nick Tang"
@@ -22651,30 +34301,14 @@
    {
     "wk": 1,
     "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Isabel Laroque",
+    "t": "male",
+    "with": "Michael Martellacci",
     "vs": [
-     "Irene Fitzgerald",
-     "Andrew Taylor"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ariane Abadi",
-    "vs": [
-     "Marina Mounelasy",
+     "Andrew Taylor",
      "Evan Truitt"
     ],
     "f": 21,
-    "a": 17,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -22684,14 +34318,94 @@
     "wk": 1,
     "opp": "Delco Turf & Pickle",
     "t": "male",
-    "with": "Cole Neimetz",
+    "with": "Michael Martellacci",
     "vs": [
-     "Leh Mounelasy",
-     "Andrew Taylor"
+     "Nick Tang",
+     "Evan Truitt"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Jason Quach",
+     "Andrew Son"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Olivia Lee",
+    "vs": [
+     "Natalia Koontz",
+     "Farhan Chowdhury"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Gabby Frieder",
+     "Nick Lewis"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Mike Scioli Jr",
+    "vs": [
+     "Nick Lewis",
+     "Jason Quach"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Cole Neimetz",
+    "vs": [
+     "David Barth",
+     "Shawn Roseman"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -22700,12 +34414,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2.1,
-    "confidence": 49,
-    "rank": 273,
+    "rating": -1.2,
+    "confidence": 43,
+    "rank": 225,
     "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 63,
+    "rank": 190,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -22863,6 +34586,172 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 54,
+    "rank": 85,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "53019cc2-8e6a-4807-88d1-10d1fb0a480d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 133,
+    "pa": 128,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 1,
+    "subFor": "Home Court"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Carmina Lasam",
+     "Abdullah Osman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Fantin",
+    "vs": [
+     "Carmina Lasam",
+     "Jess Cox"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Jess Cox",
+     "Chris Colucci"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Fantin",
+    "vs": [
+     "Corie Stone",
+     "Alexandra Sierer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Corie Stone",
+     "Keith Parker"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan M Fett",
+    "vs": [
+     "Jess Cox",
+     "Sarah Law"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Corie Stone",
+     "Jason Huang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 51,
+    "rank": 192,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -23020,6 +34909,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.7,
+    "confidence": 54,
+    "rank": 113,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -23174,6 +35072,15 @@
     "rating": 1.1,
     "confidence": 52,
     "rank": 73,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 52,
+    "rank": 86,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
@@ -23334,6 +35241,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 46,
+    "rank": 263,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -23491,6 +35407,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 53,
+    "rank": 261,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -23648,163 +35573,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "7d8c7d39-daa6-486b-9439-c19d71815565": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 123,
-    "pa": 133,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Sal Cocuzza",
-    "vs": [
-     "Leanna Coello",
-     "Mychal Villanueva"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Jordan Flavell-Boney",
-    "vs": [
-     "Leanna Coello",
-     "Lara Gedeon"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Jason Huang",
-    "vs": [
-     "Ulyana Kitcmanuk",
-     "Joseph Gozon"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Jordan Flavell-Boney",
-    "vs": [
-     "Ulyana Kitcmanuk",
-     "Binxin Cai"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Natalie Ruiz",
-    "vs": [
-     "Leanna Coello",
-     "Ulyana Kitcmanuk"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Brandon Tsang",
-    "vs": [
-     "Lara Gedeon",
-     "Joseph Roque"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Carmina Lasam",
-    "vs": [
-     "Binxin Cai",
-     "Leanna Coello"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.4,
-    "confidence": 49,
-    "rank": 173,
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 55,
+    "rank": 216,
     "ratingGames": 7,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -23962,188 +35739,40 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1
-   }
-  ],
-  "partners": []
- },
- "4d20f87d-068f-4cce-806d-6941153e72be": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Delco Turf & Pickle",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 121,
-    "pa": 138,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ariane Abadi",
-    "vs": [
-     "Jenny Shi",
-     "Elliott Tseng"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Michael Martellacci",
-    "vs": [
-     "Nick Tang",
-     "Elliott Tseng"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Lili Zebluim",
-    "vs": [
-     "Roe Avila",
-     "Andrew Taylor"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Michael Martellacci",
-    "vs": [
-     "Elliott Tseng",
-     "Jon Wheel"
-    ],
-    "f": 26,
-    "a": 28,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Olivia Lee",
-    "vs": [
-     "Roe Avila",
-     "Nick Tang"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Cole Neimetz",
-    "vs": [
-     "Jon Wheel",
-     "Elliott Tseng"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Ava Pastore",
-    "vs": [
-     "Jenny Shi",
-     "Leh Mounelasy"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.4,
-    "confidence": 49,
-    "rank": 236,
+    "week": 2,
+    "rating": -2.6,
+    "confidence": 54,
+    "rank": 323,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
  },
- "c8f3b265-67a8-412c-84f5-aee92a913aac": {
+ "85c7fc54-57f2-4b1d-9601-a2265de3b295": {
   "log": [
    {
     "week": 1,
     "opp": "Picklr Fair Lawn",
     "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 123,
-    "pa": 141,
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 70,
+    "pa": 82,
     "mx": [
      1,
      2
     ],
     "gn": [
-     2,
-     2
+     0,
+     1
     ],
     "cl": [
-     3,
+     1,
      1
     ],
     "teamRes": "L",
@@ -24151,6 +35780,33 @@
     "teamGL": 17,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 2,
+    "l": 1,
+    "gp": 3,
+    "pf": 55,
+    "pa": 55,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -24158,10 +35814,42 @@
     "wk": 1,
     "opp": "Picklr Fair Lawn",
     "t": "mixed",
-    "with": "Sarah Law",
+    "with": "Alexandra Sierer",
     "vs": [
-     "Lara Gedeon",
-     "Andrew Chester"
+     "Ulyana Kitcmanuk",
+     "Joseph Gozon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Jordan Flavell-Boney",
+    "vs": [
+     "Binxin Cai",
+     "Joseph Gozon"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Keith Parker",
+    "vs": [
+     "Joseph Roque",
+     "Mychal Villanueva"
     ],
     "f": 13,
     "a": 21,
@@ -24173,59 +35861,11 @@
    {
     "wk": 1,
     "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Brandon Tsang",
-    "vs": [
-     "Homer Abes",
-     "Yosuke Kawai"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
     "t": "mixed",
-    "with": "Carmina Lasam",
+    "with": "Natalie Ruiz",
     "vs": [
-     "Leanna Coello",
-     "Yosuke Kawai"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Todd Green",
-    "vs": [
-     "Homer Abes",
-     "Joseph Roque"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Todd Green",
-    "vs": [
-     "Andrew Chester",
-     "Yosuke Kawai"
+     "Ulyana Kitcmanuk",
+     "Joseph Gozon"
     ],
     "f": 22,
     "a": 20,
@@ -24235,33 +35875,49 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Sarah Law",
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Abdullah Osman",
     "vs": [
-     "Leanna Coello",
-     "Homer Abes"
+     "Robert Huntley",
+     "Joe Carson"
     ],
-    "f": 26,
-    "a": 24,
+    "f": 21,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Home Court",
     "t": "male",
-    "with": "Brandon Tsang",
+    "with": "Kamal D",
     "vs": [
-     "Andrew Chester",
-     "Homer Abes"
+     "Chris Fantin",
+     "Matthew Stephenson"
     ],
     "f": 21,
-    "a": 19,
+    "a": 15,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Corie Stone",
+    "vs": [
+     "Kim Batistoni",
+     "Richie Mizrahi"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -24270,12 +35926,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2,
-    "confidence": 48,
-    "rank": 265,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.7,
+    "rating": -0.9,
+    "confidence": 38,
+    "rank": 208,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 55,
+    "rank": 225,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -24433,36 +36098,72 @@
     "ratingGames": 7,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 52,
+    "rank": 306,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
  },
- "a8585e9c-872e-466c-9583-9680e557f757": {
+ "17a78a69-329f-4133-8a0d-784c306a57c2": {
   "log": [
    {
     "week": 1,
-    "opp": "APC Garden State",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 95,
-    "pa": 91,
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 101,
     "mx": [
-     0,
-     3
+     2,
+     2
     ],
     "gn": [
      2,
      0
     ],
     "cl": [
-     1,
+     0,
      1
     ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 100,
+    "pa": 123,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -24470,44 +36171,12 @@
   "games": [
    {
     "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Ginny Truong",
+    "with": "David Tabacco",
     "vs": [
-     "Stacy Ip-Mo",
-     "Taylor Runyen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Carlos Lichty",
-    "vs": [
-     "Michael Kresloff",
-     "Eric Padernilla"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Stephanie Li",
-    "vs": [
-     "Taylor Lambe",
-     "Ryan Lehrfeld"
+     "Virginia Alves",
+     "Cullen Curley"
     ],
     "f": 20,
     "a": 22,
@@ -24518,12 +36187,108 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Shania Bui",
+    "with": "Addison Stewart",
     "vs": [
-     "Pallavi Deshpande",
-     "Eric Padernilla"
+     "Colleen Van Ee",
+     "Cullen Curley"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Colleen Van Ee",
+     "Deb Morisie"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Addison Stewart",
+    "vs": [
+     "Lana Engler Carss",
+     "David Reyes"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "David Tabacco",
+    "vs": [
+     "Deb Morisie",
+     "Jesse Frey"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Laura Govan",
+    "vs": [
+     "Arzu Alimjan",
+     "Deb Morisie"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "David Tabacco",
+    "vs": [
+     "Khushi Shah",
+     "Anshul Sahu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Emily Su",
+     "Carissa Baptista"
     ],
     "f": 17,
     "a": 21,
@@ -24533,16 +36298,344 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Carlos Lichty",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Monika Torbus",
     "vs": [
-     "Taylor Runyen",
-     "Eric Padernilla"
+     "Emily Su",
+     "Carissa Baptista"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dan Stanton",
+    "vs": [
+     "Diana Nguyen",
+     "Winston Lian"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Jamie Hahn",
+    "vs": [
+     "Khushi Shah",
+     "Carissa Baptista"
     ],
     "f": 21,
-    "a": 9,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Diana Nguyen",
+     "Anshul Sahu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 1.1,
+    "confidence": 47,
+    "rank": 74,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 0.5,
+    "confidence": 65,
+    "rank": 125,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "717d97f0-4f08-476f-9c53-7595605bc0b0",
+    "name": "David Tabacco",
+    "n": 3,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "c5e40aa9-efbf-4937-b44d-1b8f06693ba4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 120,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Victoria Rolon",
+    "vs": [
+     "Gianna Medeiros",
+     "Andrew Martin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Kyle Kelly"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Benji Berry",
+    "vs": [
+     "Jeremy Chen",
+     "Joshua Kim"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Maggie Malloy",
+     "Joshua Kim"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Jonathan Macqueen",
+     "Joshua Kim"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Andrew Martin",
+     "Joshua Kim"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Eileen Zhang",
+     "Khanh Vu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Anthony Solares",
+    "vs": [
+     "John Tano",
+     "Khanh Vu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Dylan Mich",
+     "Ethan Fu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Ashley Held",
+    "vs": [
+     "Shania Bui",
+     "John Tano"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Shania Bui",
+     "Dylan Mich"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Evan Sinclair",
+    "vs": [
+     "Ethan Fu",
+     "Carlos Lichty"
+    ],
+    "f": 21,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -24552,15 +36645,37 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.8,
-    "confidence": 44,
-    "rank": 200,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.8
+    "rating": 0.7,
+    "confidence": 46,
+    "rank": 99,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 64,
+    "rank": 224,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.4
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "44de3ff2-3b41-4c10-908c-8057a94e1d75",
+    "name": "Evan Sinclair",
+    "n": 4,
+    "synergy": -0.2
+   },
+   {
+    "pid": "4031f243-e80c-492b-b30b-5bf058824762",
+    "name": "Katrina Maranan",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
  },
  "83237821-4e2a-4f60-8fea-4be6655d52da": {
   "log": [
@@ -24683,131 +36798,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "6a68ba8e-9700-4e5a-b54e-07160dac5c68": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 92,
-    "pa": 91,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Dylan Mich",
-    "vs": [
-     "Pallavi Deshpande",
-     "Michael Kresloff"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Ethan Fu",
-    "vs": [
-     "Taylor Lambe",
-     "Ryan Lehrfeld"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Shania Bui",
-    "vs": [
-     "Taylor Lambe",
-     "Jiyun Yuh"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Khanh Vu",
-    "vs": [
-     "Taylor Lambe",
-     "Michael Kresloff"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Christina Vuong",
-    "vs": [
-     "Jiyun Yuh",
-     "Nada Abdelkarim"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
+    "week": 2,
     "rating": 0.1,
-    "confidence": 43,
-    "rank": 146,
+    "confidence": 47,
+    "rank": 166,
     "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -24933,6 +36932,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 42,
+    "rank": 196,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -25058,6 +37066,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 44,
+    "rank": 218,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -25183,6 +37200,381 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -1.1,
+    "confidence": 47,
+    "rank": 256,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
+ "0c8768d9-03b0-42ca-9a88-b2c8538fa54d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 82,
+    "pa": 100,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 101,
+    "pa": 87,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Deirdre Zohlman",
+     "Spencer Day"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Nicole Mandry",
+     "Deirdre Zohlman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Jon Palabay",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Dana Sheply",
+     "Lisa Pinder"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Vito Nucci",
+    "vs": [
+     "Hanna Cutler",
+     "Jacob Alpert"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Alex Kustas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Hanna Cutler",
+     "Dana Sheply"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Hanna Cutler",
+     "Daniel Hadley"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 47,
+    "rank": 231,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 65,
+    "rank": 223,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "589a4aec-d9fc-48b1-8914-58b7b6d4d7e5": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 95,
+    "pa": 99,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Man Kwok",
+    "vs": [
+     "Jamie Hahn",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Man Kwok",
+    "vs": [
+     "Monika Torbus",
+     "Lakshmikanth Chaluvadi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Jason Kwan",
+    "vs": [
+     "Jamie Hahn",
+     "David Tabacco"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "female",
+    "with": "Emily Su",
+    "vs": [
+     "Johanna Kreilick",
+     "Mary Brashier"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Jason Kwan",
+    "vs": [
+     "Monika Torbus",
+     "Josh Rito"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 47,
+    "rank": 210,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -25305,6 +37697,15 @@
     "rating": -1.3,
     "confidence": 45,
     "rank": 233,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 45,
+    "rank": 273,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.5
@@ -25433,6 +37834,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 43,
+    "rank": 195,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -25558,6 +37968,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 47,
+    "rank": 108,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -25683,6 +38102,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 45,
+    "rank": 140,
+    "ratingGames": 5,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -25805,6 +38233,15 @@
     "rating": -0.6,
     "confidence": 43,
     "rank": 186,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 43,
+    "rank": 219,
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.3
@@ -25933,6 +38370,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 45,
+    "rank": 180,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -26058,6 +38504,140 @@
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 44,
+    "rank": 146,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": []
+ },
+ "2c4d576f-1ae0-4aa7-a233-73cec5506d9c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 100,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Jason Quach",
+    "vs": [
+     "Matthew Crawford",
+     "Luc Legaspi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Lauren Fernandez",
+    "vs": [
+     "Isabel Laroque",
+     "Ryan Gerstel"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Jason Quach",
+    "vs": [
+     "Luc Legaspi",
+     "Cole Neimetz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Farhan Chowdhury",
+    "vs": [
+     "Cole Neimetz",
+     "Michael Martellacci"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Courtney Skolka",
+    "vs": [
+     "Lili Zebluim",
+     "Michael Martellacci"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 47,
+    "rank": 202,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -26183,11 +38763,20 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 45,
+    "rank": 122,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
  },
- "eada38ef-6a83-46be-bd30-0293173fe5ed": {
+ "a8585e9c-872e-466c-9583-9680e557f757": {
   "log": [
    {
     "week": 1,
@@ -26196,15 +38785,15 @@
     "w": 2,
     "l": 3,
     "gp": 5,
-    "pf": 85,
-    "pa": 96,
+    "pf": 95,
+    "pa": 91,
     "mx": [
-     2,
-     0
-    ],
-    "gn": [
      0,
      3
+    ],
+    "gn": [
+     2,
+     0
     ],
     "cl": [
      1,
@@ -26215,19 +38804,46 @@
     "teamGL": 16,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 81,
+    "pa": 96,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
     "wk": 1,
     "opp": "APC Garden State",
-    "t": "female",
-    "with": "Christina Vuong",
+    "t": "mixed",
+    "with": "Ginny Truong",
     "vs": [
-     "Nada Abdelkarim",
-     "Stacy Ip-Mo"
+     "Stacy Ip-Mo",
+     "Taylor Runyen"
     ],
-    "f": 14,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -26237,14 +38853,30 @@
    {
     "wk": 1,
     "opp": "APC Garden State",
-    "t": "female",
-    "with": "Christina Vuong",
+    "t": "male",
+    "with": "Carlos Lichty",
     "vs": [
-     "Stacy Ip-Mo",
-     "Nada Abdelkarim"
+     "Michael Kresloff",
+     "Eric Padernilla"
     ],
-    "f": 10,
-    "a": 21,
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Stephanie Li",
+    "vs": [
+     "Taylor Lambe",
+     "Ryan Lehrfeld"
+    ],
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -26254,10 +38886,58 @@
     "wk": 1,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Kong Vu",
+    "with": "Shania Bui",
     "vs": [
-     "Stacy Ip-Mo",
-     "Taylor Runyen"
+     "Pallavi Deshpande",
+     "Eric Padernilla"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Carlos Lichty",
+    "vs": [
+     "Taylor Runyen",
+     "Eric Padernilla"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Carlos Lichty",
+    "vs": [
+     "Evan Sinclair",
+     "Albert Lin"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Dylan Mich",
+    "vs": [
+     "Peter David",
+     "Evan Sinclair"
     ],
     "f": 21,
     "a": 19,
@@ -26267,33 +38947,49 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "female",
-    "with": "Eileen Zhang",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Kong Vu",
     "vs": [
-     "Pallavi Deshpande",
-     "Nada Abdelkarim"
+     "Anthony Solares",
+     "Albert Lin"
     ],
-    "f": 23,
-    "a": 25,
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Vy Conghuyen",
+    "vs": [
+     "Olivia Schaller",
+     "Evan Sinclair"
+    ],
+    "f": 10,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "David Aliquo",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Carlos Lichty",
     "vs": [
-     "Jiyun Yuh",
-     "Taylor Runyen"
+     "Peter David",
+     "Evan Sinclair"
     ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -26302,15 +38998,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.4,
-    "confidence": 43,
-    "rank": 180,
+    "rating": -0.8,
+    "confidence": 44,
+    "rank": 200,
     "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 60,
+    "rank": 289,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.5
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "5c5c0d00-e20c-456e-b53e-890845310916",
+    "name": "Carlos Lichty",
+    "n": 4,
+    "synergy": -0.2
+   }
+  ]
  },
  "fffb21b3-56be-473d-91d7-8f750b599343": {
   "log": [
@@ -26430,6 +39142,15 @@
     "rating": -0.4,
     "confidence": 43,
     "rank": 179,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 43,
+    "rank": 204,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1
@@ -26558,6 +39279,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 45,
+    "rank": 308,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -26683,131 +39413,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "4031f243-e80c-492b-b30b-5bf058824762": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 86,
-    "pa": 101,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xin Liu",
-    "vs": [
-     "Caity Rietzen",
-     "Jeremy Chen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Peter David",
-    "vs": [
-     "Mira Sigal-Feldman",
-     "Kyle Kelly"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Olivia Schaller",
-    "vs": [
-     "Gianna Medeiros",
-     "Maggie Malloy"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Peter David",
-    "vs": [
-     "Maggie Malloy",
-     "Joshua Kim"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Brandon Dejesus",
-    "vs": [
-     "Mira Sigal-Feldman",
-     "Jonathan Macqueen"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.7,
-    "confidence": 45,
-    "rank": 257,
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 43,
+    "rank": 277,
     "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -26933,9 +39547,1822 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 46,
+    "rank": 230,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
+ },
+ "6a68ba8e-9700-4e5a-b54e-07160dac5c68": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 91,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 75,
+    "pa": 97,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Dylan Mich",
+    "vs": [
+     "Pallavi Deshpande",
+     "Michael Kresloff"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Ethan Fu",
+    "vs": [
+     "Taylor Lambe",
+     "Ryan Lehrfeld"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Shania Bui",
+    "vs": [
+     "Taylor Lambe",
+     "Jiyun Yuh"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Khanh Vu",
+    "vs": [
+     "Taylor Lambe",
+     "Michael Kresloff"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Christina Vuong",
+    "vs": [
+     "Jiyun Yuh",
+     "Nada Abdelkarim"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Vy Conghuyen",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Olivia Schaller"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Carlos Lichty",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Brandon Dejesus"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Kierstin Gant",
+    "vs": [
+     "Linda Liu",
+     "Ashley Held"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Kierstin Gant",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Linda Liu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Shania Bui",
+    "vs": [
+     "Katrina Maranan",
+     "Linda Liu"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 43,
+    "rank": 146,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 61,
+    "rank": 247,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "0adc78f0-0318-418d-bae1-f92d3ca5443d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 84,
+    "pa": 103,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 91,
+    "pa": 96,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Linda Liu",
+    "vs": [
+     "Maggie Malloy",
+     "Kyle Kelly"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Jeremy Chen",
+     "Anthony Prusich"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Christina Sheehan",
+     "Anthony Prusich"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Ashley Held",
+    "vs": [
+     "Caity Rietzen",
+     "Andrew Martin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Brandon Dejesus",
+    "vs": [
+     "Anthony Prusich",
+     "Jeremy Chen"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Peter David",
+    "vs": [
+     "John Tano",
+     "Khanh Vu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Ginny Truong",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Eileen Zhang",
+     "Dylan Mich"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Albert Lin",
+    "vs": [
+     "Kong Vu",
+     "Ethan Fu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Albert Lin",
+    "vs": [
+     "Dylan Mich",
+     "Khanh Vu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2,
+    "confidence": 43,
+    "rank": 269,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 62,
+    "rank": 279,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "6f126e55-bb02-4c7d-a69d-db30473ad0b3": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 72,
+    "pa": 105,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 95,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Dave Brucker",
+    "vs": [
+     "Kelly Feng",
+     "Samuel Lee"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Dave Brucker",
+    "vs": [
+     "Kelly Feng",
+     "Samuel Lee"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Adam Lowther",
+    "vs": [
+     "Isobel Harvey",
+     "Samuel Lee"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Karen Rodriguez",
+     "Kelly Feng"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Isobel Harvey",
+     "Kelly Feng"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Daniel Hadley",
+    "vs": [
+     "Eileen Potter",
+     "Brian Cook"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Taylor Johns",
+    "vs": [
+     "Eileen Potter",
+     "Rebecca Durda"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Taylor Johns",
+    "vs": [
+     "Eileen Potter",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Rebecca Durda",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Jennifer Kinkel",
+     "Eileen Potter"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.6,
+    "confidence": 37,
+    "rank": 253,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.9
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 58,
+    "rank": 150,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e292105e-2554-4a80-accc-6b28514a8ec1",
+    "name": "Rebecca Mcginnis",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
+ },
+ "de47e045-80e3-4209-a32e-d1c8a6de083b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Delco Turf & Pickle",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 94,
+    "pa": 116,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 70,
+    "pa": 76,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Esha Gajjar",
+    "vs": [
+     "Carla Fonseca",
+     "Leh Mounelasy"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ava Pastore",
+    "vs": [
+     "Marina Mounelasy",
+     "Jon Wheel"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Leh Mounelasy",
+     "Nick Tang"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Irene Fitzgerald",
+     "Andrew Taylor"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Ariane Abadi",
+    "vs": [
+     "Marina Mounelasy",
+     "Evan Truitt"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "male",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Leh Mounelasy",
+     "Andrew Taylor"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Justyna Wojdyla",
+    "vs": [
+     "Gabby Frieder",
+     "Farhan Chowdhury"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Lauren Fernandez",
+     "Andrew Son"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Mike Scioli Jr",
+    "vs": [
+     "Nick Lewis",
+     "Shawn Roseman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Olivia Lee",
+    "vs": [
+     "Vanessa Rhoades",
+     "Farhan Chowdhury"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.1,
+    "confidence": 49,
+    "rank": 273,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 63,
+    "rank": 294,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
+ "eada38ef-6a83-46be-bd30-0293173fe5ed": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 85,
+    "pa": 96,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 76,
+    "pa": 100,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Christina Vuong",
+    "vs": [
+     "Nada Abdelkarim",
+     "Stacy Ip-Mo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Christina Vuong",
+    "vs": [
+     "Stacy Ip-Mo",
+     "Nada Abdelkarim"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Stacy Ip-Mo",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Pallavi Deshpande",
+     "Nada Abdelkarim"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "David Aliquo",
+    "vs": [
+     "Jiyun Yuh",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Stephanie Li",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Olivia Schaller"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Katrina Maranan",
+     "Jaspher Cosico"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Khanh Vu",
+    "vs": [
+     "Linda Liu",
+     "Albert Lin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Ginny Truong",
+    "vs": [
+     "Olivia Schaller",
+     "Ashley Held"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Ethan Fu",
+    "vs": [
+     "Olivia Schaller",
+     "Evan Sinclair"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.4,
+    "confidence": 43,
+    "rank": 180,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 63,
+    "rank": 267,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "b5dec967-9e3a-49b4-b136-597711d099cc": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 100,
+    "pa": 111,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 137,
+    "pa": 128,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Carlos Idrovo",
+     "Bruno Maguino"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ellen Edson",
+    "vs": [
+     "Em Melo",
+     "Bruno Maguino"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Carlos Idrovo",
+     "Bruno Maguino"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Ellen Edson",
+    "vs": [
+     "Dede Dolkar",
+     "Josiah Kim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Winston Lian",
+     "Jason Kwan"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Carlos Idrovo",
+     "Jason Kwan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Susan M Fett",
+    "vs": [
+     "Sarah Law",
+     "Chris Colucci"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Joe Carson",
+    "vs": [
+     "Abdullah Osman",
+     "Jason Huang"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Susan M Fett",
+    "vs": [
+     "Sarah Law",
+     "Abdullah Osman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Joe Carson",
+    "vs": [
+     "Todd Green",
+     "Keith Parker"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Alexandra Sierer",
+     "Abdullah Osman"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Alexandra Sierer",
+     "Abdullah Osman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Chris Colucci",
+     "Keith Parker"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.1,
+    "confidence": 45,
+    "rank": 141,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 66,
+    "rank": 118,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "23b78ff1-3039-4b01-b033-839cdba54a19",
+    "name": "Richie Mizrahi",
+    "n": 3,
+    "synergy": 1.1
+   }
+  ]
+ },
+ "08f765a3-1ebf-4b7f-afe1-e815112ee581": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 106,
+    "pa": 118,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 116,
+    "pa": 136,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Deb Morisie",
+     "David Reyes"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "David Reyes",
+     "Chris Hudak"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Mary Brashier",
+    "vs": [
+     "Arzu Alimjan",
+     "David Reyes"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Laura Govan",
+    "vs": [
+     "Virginia Alves",
+     "Dion Brown"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "David Tabacco",
+    "vs": [
+     "Jesse Frey",
+     "Dion Brown"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Patricia Kavanaugh",
+    "vs": [
+     "Virginia Alves",
+     "Cullen Curley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mary Brashier",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mary Brashier",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Addison Stewart",
+    "vs": [
+     "Josiah Kim",
+     "Winston Lian"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Diana Nguyen",
+     "Winston Lian"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Jason Kwan",
+     "Anshul Sahu"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Dede Dolkar",
+     "Josiah Kim"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Josh Rito",
+    "vs": [
+     "Jason Kwan",
+     "Anshul Sahu"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 185,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 69,
+    "rank": 162,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+    "name": "Mary Brashier",
+    "n": 3,
+    "synergy": -1
+   }
+  ]
  },
  "66acdf95-131a-4d7d-89d7-2fe93406d61b": {
   "log": [
@@ -27106,24 +41533,33 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 57,
+    "rank": 285,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
  },
- "005c1a4c-4d04-4923-baea-1a720a4082ea": {
+ "9c942e88-f77a-4b16-bf03-5d83455ed7c6": {
   "log": [
    {
     "week": 1,
-    "opp": "Delco Turf & Pickle",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 116,
-    "pa": 119,
+    "pf": 117,
+    "pa": 106,
     "mx": [
-     0,
-     3
+     1,
+     2
     ],
     "gn": [
      2,
@@ -27131,11 +41567,38 @@
     ],
     "cl": [
      0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 95,
+    "pa": 103,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
      3
     ],
     "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -27143,30 +41606,14 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Matthew Crawford",
-    "vs": [
-     "Andrew Taylor",
-     "Evan Truitt"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Players Courtyard",
     "t": "mixed",
-    "with": "Olivia Lee",
+    "with": "Gabriel Ferraro",
     "vs": [
-     "Irene Fitzgerald",
-     "Leh Mounelasy"
+     "Ricki Cohen",
+     "Matt Demarco"
     ],
-    "f": 19,
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -27175,31 +41622,15 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Esha Gajjar",
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Rebecca Durda",
     "vs": [
-     "Kalina Ye",
-     "Leh Mounelasy"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Luc Legaspi",
-    "vs": [
-     "Jon Wheel",
-     "Elliott Tseng"
+     "Mary Fair",
+     "Deirdre Zohlman"
     ],
     "f": 21,
-    "a": 18,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -27207,15 +41638,15 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "Players Courtyard",
     "t": "mixed",
-    "with": "Esha Gajjar",
+    "with": "Holden Lenoff",
     "vs": [
-     "Carla Fonseca",
-     "Nick Tang"
+     "Deirdre Zohlman",
+     "Aaron Chan"
     ],
-    "f": 19,
-    "a": 21,
+    "f": 21,
+    "a": 23,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -27223,15 +41654,127 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Ryan Gerstel",
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Magnolia Lau",
     "vs": [
-     "Leh Mounelasy",
-     "Andrew Taylor"
+     "Nicole Mandry",
+     "Deirdre Zohlman"
     ],
     "f": 17,
     "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Mary Fair",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Nicole Mandry",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Jacquie Verish",
+     "Daniel Hadley"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Taylor Johns",
+     "Jacquie Verish"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Taylor Johns",
+     "Jacquie Verish"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Jon Palabay",
+    "vs": [
+     "Lisa Pinder",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Jacquie Verish",
+     "Lisa Pinder"
+    ],
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -27241,12 +41784,419 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 1,
-    "confidence": 50,
-    "rank": 78,
+    "rating": 0.2,
+    "confidence": 49,
+    "rank": 134,
     "ratingGames": 6,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 63,
+    "rank": 206,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "d50feac2-f147-47d2-8930-99b21b2842ba": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 103,
+    "pa": 124,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 97,
+    "pa": 95,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Julia Manetta",
+     "Anthony Prusich"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Anthony Solares",
+    "vs": [
+     "Jeremy Chen",
+     "Anthony Prusich"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Xin Liu",
+    "vs": [
+     "Kyle Kelly",
+     "Andrew Martin"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Xin Liu",
+    "vs": [
+     "Kyle Kelly",
+     "Andrew Martin"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Mira Sigal-Feldman",
+     "Jonathan Macqueen"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Anthony Solares",
+    "vs": [
+     "Anthony Prusich",
+     "Jeremy Chen"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Olivia Schaller",
+    "vs": [
+     "Shania Bui",
+     "Kong Vu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Srilahari Kunchapu",
+    "vs": [
+     "Stephanie Li",
+     "Carlos Lichty"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jaspher Cosico",
+    "vs": [
+     "Kong Vu",
+     "Khanh Vu"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jaspher Cosico",
+    "vs": [
+     "Khanh Vu",
+     "Carlos Lichty"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "mixed",
+    "with": "Katrina Maranan",
+    "vs": [
+     "Ginny Truong",
+     "Kong Vu"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 46,
+    "rank": 232,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 63,
+    "rank": 274,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "d7a91739-044a-4d8a-8079-640206c67db0": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 113,
+    "pa": 118,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Andrew Son",
+    "vs": [
+     "Matthew Crawford",
+     "Luc Legaspi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Gabby Frieder",
+    "vs": [
+     "Lili Zebluim",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Andrew Son",
+    "vs": [
+     "Luc Legaspi",
+     "Cole Neimetz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Thania Padova",
+    "vs": [
+     "Ariane Abadi",
+     "Cole Neimetz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Nick Lewis",
+    "vs": [
+     "Mike Scioli Jr",
+     "Matthew Crawford"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Farhan Chowdhury",
+    "vs": [
+     "Michael Martellacci",
+     "Luc Legaspi"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 49,
+    "rank": 242,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -27388,147 +42338,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "295e2865-4328-4aac-b46c-3c1a41b26e08": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 115,
-    "pa": 122,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Nicole Mandry",
-     "Brad Mandry"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Matt Demarco",
-     "Brad Mandry"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Rebecca Durda",
-    "vs": [
-     "Nicole Mandry",
-     "Brad Mandry"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Christina Juliano",
-    "vs": [
-     "Nicole Mandry",
-     "Scott Strong"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Jon Palabay",
-    "vs": [
-     "Brad Mandry",
-     "Scott Strong"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Gabriel Ferraro",
-    "vs": [
-     "Aaron Chan",
-     "Brad Mandry"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0,
-    "confidence": 40,
-    "rank": 153,
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 41,
+    "rank": 148,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -27670,36 +42488,72 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 50,
+    "rank": 186,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
  },
- "2ee974be-b965-4feb-b40e-3a677f40d542": {
+ "97897afe-f9e2-42be-926f-d6ebe7025591": {
   "log": [
    {
     "week": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "APC Garden State",
     "homeAway": "H",
-    "w": 2,
-    "l": 4,
+    "w": 1,
+    "l": 5,
     "gp": 6,
-    "pf": 99,
-    "pa": 109,
+    "pf": 107,
+    "pa": 121,
     "mx": [
      0,
-     2
+     4
     ],
     "gn": [
-     2,
-     2
+     1,
+     1
     ],
     "cl": [
      0,
      2
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 113,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
     "sub": 0,
     "subFor": null
    }
@@ -27707,14 +42561,14 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Olivia Lee",
+    "with": "Shania Bui",
     "vs": [
-     "Kalina Ye",
-     "Evan Truitt"
+     "Taylor Lambe",
+     "Eric Padernilla"
     ],
-    "f": 16,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -27723,12 +42577,92 @@
    },
    {
     "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Cole Neimetz",
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Eileen Zhang",
     "vs": [
-     "Andrew Taylor",
-     "Evan Truitt"
+     "Nada Abdelkarim",
+     "Eric Padernilla"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kong Vu",
+    "vs": [
+     "Michael Kresloff",
+     "Ryan Lehrfeld"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Stephanie Li",
+    "vs": [
+     "Taylor Lambe",
+     "Michael Kresloff"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Shania Bui",
+    "vs": [
+     "Nada Abdelkarim",
+     "Eric Padernilla"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kong Vu",
+    "vs": [
+     "John Dechristopher",
+     "Eric Padernilla"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Katrina Maranan",
+     "Peter David"
     ],
     "f": 21,
     "a": 17,
@@ -27738,13 +42672,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Isabel Laroque",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "John Tano",
     "vs": [
-     "Kalina Ye",
-     "Nick Tang"
+     "Anthony Solares",
+     "Peter David"
     ],
     "f": 20,
     "a": 22,
@@ -27754,15 +42688,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
     "t": "male",
-    "with": "Ryan Gerstel",
+    "with": "Kong Vu",
     "vs": [
-     "Leh Mounelasy",
-     "Nick Tang"
+     "Jaspher Cosico",
+     "Brandon Dejesus"
     ],
-    "f": 3,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -27770,122 +42704,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Michael Martellacci",
-    "vs": [
-     "Andrew Taylor",
-     "Evan Truitt"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "male",
-    "with": "Michael Martellacci",
-    "vs": [
-     "Nick Tang",
-     "Evan Truitt"
-    ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.2,
-    "confidence": 43,
-    "rank": 225,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "7e92032d-7d47-485c-8641-ae8a7af4e3ac": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 104,
-    "pa": 114,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
     "t": "mixed",
-    "with": "Alex Kustas",
+    "with": "Vy Conghuyen",
     "vs": [
-     "Alexandria Mlkvy",
-     "Kevin Wilson"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Dana Sheply",
-    "vs": [
-     "Pamela Toy",
-     "Tesa Pribitkin"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Chris Machuzak",
-    "vs": [
-     "Karen Rodriguez",
-     "Kevin Wilson"
+     "Linda Liu",
+     "Albert Lin"
     ],
     "f": 21,
     "a": 19,
@@ -27895,29 +42720,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Chris Machuzak",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Carlos Lichty",
     "vs": [
-     "Alexandria Mlkvy",
-     "Kevin Wilson"
-    ],
-    "f": 26,
-    "a": 28,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Alex Kustas",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Samuel Lee"
+     "Brandon Dejesus",
+     "Jaspher Cosico"
     ],
     "f": 18,
     "a": 21,
@@ -27927,17 +42736,17 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Dana Sheply",
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Dylan Mich",
     "vs": [
-     "Karen Rodriguez",
-     "Tesa Pribitkin"
+     "Albert Lin",
+     "Anthony Solares"
     ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 14,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -27946,438 +42755,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.2,
+    "rating": -1.5,
     "confidence": 45,
-    "rank": 223,
+    "rank": 246,
     "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
- "b5dec967-9e3a-49b4-b136-597711d099cc": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 100,
-    "pa": 111,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Richie Mizrahi",
-    "vs": [
-     "Carlos Idrovo",
-     "Bruno Maguino"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.1
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ellen Edson",
-    "vs": [
-     "Em Melo",
-     "Bruno Maguino"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Richie Mizrahi",
-    "vs": [
-     "Carlos Idrovo",
-     "Bruno Maguino"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ellen Edson",
-    "vs": [
-     "Dede Dolkar",
-     "Josiah Kim"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Winston Lian",
-     "Jason Kwan"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Carlos Idrovo",
-     "Jason Kwan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0.1,
-    "confidence": 45,
-    "rank": 141,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.6
-   }
-  ],
-  "partners": []
- },
- "08f765a3-1ebf-4b7f-afe1-e815112ee581": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 106,
-    "pa": 118,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Deb Morisie",
-     "David Reyes"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Lakshmikanth Chaluvadi",
-    "vs": [
-     "David Reyes",
-     "Chris Hudak"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Mary Brashier",
-    "vs": [
-     "Arzu Alimjan",
-     "David Reyes"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Laura Govan",
-    "vs": [
-     "Virginia Alves",
-     "Dion Brown"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "David Tabacco",
-    "vs": [
-     "Jesse Frey",
-     "Dion Brown"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Patricia Kavanaugh",
-    "vs": [
-     "Virginia Alves",
-     "Cullen Curley"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.6,
-    "confidence": 51,
-    "rank": 185,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "377302a4-12da-4449-bbfc-a28248436679": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 106,
-    "pa": 118,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Dan Stanton",
-    "vs": [
-     "David Reyes",
-     "Chris Hudak"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Laura Govan",
-    "vs": [
-     "Virginia Alves",
-     "Dion Brown"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Addison Stewart",
-    "vs": [
-     "Dion Brown",
-     "Chris Hudak"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Addison Stewart",
-    "vs": [
-     "Cullen Curley",
-     "David Reyes"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Lana Engler Carss",
-     "Dion Brown"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "David Tabacco",
-    "vs": [
-     "David Reyes",
-     "Chris Hudak"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1,
-    "confidence": 46,
-    "rank": 213,
-    "ratingGames": 6,
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 66,
+    "rank": 278,
+    "ratingGames": 12,
     "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": -0.3
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "1d44d478-17dd-41c5-95e2-7010889b33ba",
+    "name": "Kong Vu",
+    "n": 3,
+    "synergy": -0.8
+   }
+  ]
  },
  "95bb08f8-b0f7-4849-852e-6bebeb9e3e53": {
   "log": [
@@ -28516,6 +42918,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": 1.1,
+    "confidence": 46,
+    "rank": 89,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -28656,6 +43067,15 @@
     "rank": 149,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 48,
+    "rank": 178,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1
    }
   ],
@@ -28798,6 +43218,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 46,
+    "rank": 145,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -28939,6 +43368,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 53,
+    "rank": 286,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -29077,6 +43515,15 @@
     "rating": 0.8,
     "confidence": 47,
     "rank": 92,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "rating": 0.8,
+    "confidence": 47,
+    "rank": 107,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.1
@@ -29221,6 +43668,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 48,
+    "rank": 275,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -29362,36 +43818,72 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 46,
+    "rank": 251,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
  },
- "fac1e928-060e-4b80-a0e4-bcd4aca0089b": {
+ "e292105e-2554-4a80-accc-6b28514a8ec1": {
   "log": [
    {
     "week": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Ballers Philly",
     "homeAway": "A",
-    "w": 2,
-    "l": 4,
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 97,
-    "pa": 119,
+    "pf": 100,
+    "pa": 108,
     "mx": [
      2,
-     2
+     1
     ],
     "gn": [
-     0,
-     2
-    ],
-    "cl": [
      1,
      2
     ],
+    "cl": [
+     0,
+     0
+    ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 110,
+    "pa": 124,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
@@ -29399,79 +43891,15 @@
   "games": [
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Ballers Philly",
     "t": "mixed",
-    "with": "Arnaud Clairay",
+    "with": "Chris Machuzak",
     "vs": [
-     "Karen Anthony",
-     "Thomas Kang"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Nicholas Jackson",
-    "vs": [
-     "Xiaowen Tang",
-     "Jay Lizardo"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Michael Meraglia",
-    "vs": [
-     "Kiddi Vu",
-     "Justin Lin"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Kiddi Vu",
-     "Nancy Wu"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Michael Meraglia",
-    "vs": [
-     "Xiaowen Tang",
-     "Thomas Kang"
+     "Isobel Harvey",
+     "Ben Van Handel"
     ],
     "f": 21,
-    "a": 16,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -29479,14 +43907,174 @@
    },
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Crystal Mark",
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Adam Lowther",
     "vs": [
-     "Xiaowen Tang",
-     "Nancy Wu"
+     "Tesa Pribitkin",
+     "Stephen Macpherson"
     ],
-    "f": 10,
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Karen Rodriguez",
+     "Pamela Toy"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Karen Rodriguez",
+     "Kelly Feng"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Isobel Harvey",
+     "Stephen Macpherson"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Isobel Harvey",
+     "Kelly Feng"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Adam Lowther",
+    "vs": [
+     "Tiffany Weis",
+     "Jon Palabay"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jonathan Carter",
+    "vs": [
+     "Christina Juliano",
+     "Brian Cook"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Alex Kustas",
+    "vs": [
+     "Magnolia Lau",
+     "Skylar Bobadilla"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Rebecca Durda",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Alex Kustas",
+    "vs": [
+     "Rebecca Durda",
+     "Simon Darlington"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Christina Juliano",
+     "Rebecca Durda"
+    ],
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -29497,11 +44085,300 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.7,
-    "confidence": 49,
-    "rank": 189,
+    "rating": 0.5,
+    "confidence": 47,
+    "rank": 108,
     "ratingGames": 6,
-    "strengthOfPartners": -1.3,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": -0.8,
+    "confidence": 65,
+    "rank": 235,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
+    "name": "Jacquie Verish",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
+ },
+ "295e2865-4328-4aac-b46c-3c1a41b26e08": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 115,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 103,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Nicole Mandry",
+     "Brad Mandry"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Matt Demarco",
+     "Brad Mandry"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Nicole Mandry",
+     "Brad Mandry"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Christina Juliano",
+    "vs": [
+     "Nicole Mandry",
+     "Scott Strong"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Jon Palabay",
+    "vs": [
+     "Brad Mandry",
+     "Scott Strong"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Aaron Chan",
+     "Brad Mandry"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Hanna Cutler",
+     "Jonathan Carter"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Taylor Johns",
+     "Chris Machuzak"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Brian Cook",
+    "vs": [
+     "Alex Kustas",
+     "Adam Lowther"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Alex Kustas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Simon Darlington",
+    "vs": [
+     "Alex Kustas",
+     "Chris Machuzak"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Alex Kustas",
+     "Chris Machuzak"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 40,
+    "rank": 153,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 63,
+    "rank": 215,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -29644,6 +44521,15 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 50,
+    "rank": 296,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -29782,6 +44668,15 @@
     "rating": -0.4,
     "confidence": 48,
     "rank": 177,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 48,
+    "rank": 201,
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.4
@@ -29926,6 +44821,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 46,
+    "rank": 299,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -30067,36 +44971,72 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 47,
+    "rank": 283,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
  },
- "1c8905b3-3118-4fae-aca2-f9ec43d07c30": {
+ "bde51a59-4c56-4d7a-a0e3-a9041baf8583": {
   "log": [
    {
     "week": 1,
-    "opp": "ACE Downingtown",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
     "gp": 6,
-    "pf": 81,
-    "pa": 116,
+    "pf": 120,
+    "pa": 109,
     "mx": [
-     2,
-     2
+     3,
+     0
     ],
     "gn": [
      0,
-     2
+     3
     ],
     "cl": [
-     1,
-     0
+     0,
+     3
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 119,
+    "pa": 143,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -30104,15 +45044,15 @@
   "games": [
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Ann Dunn",
+    "with": "Mary Brashier",
     "vs": [
-     "Karen Anthony",
-     "Thomas Kang"
+     "Colleen Van Ee",
+     "Dion Brown"
     ],
-    "f": 24,
-    "a": 22,
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -30120,60 +45060,12 @@
    },
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "mixed",
-    "with": "Jenn Smith",
+    "with": "Laura Slane",
     "vs": [
-     "Kiddi Vu",
-     "Vinoth Baburao Venkatakrishnan"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Crystal Mark",
-    "vs": [
-     "Xiaowen Tang",
-     "Thomas Kang"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Michael Meraglia",
-    "vs": [
-     "Justin Lin",
-     "Lewis Torres"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Nikki Koons",
-    "vs": [
-     "Karen Anthony",
-     "Jay Lizardo"
+     "Colleen Van Ee",
+     "Cullen Curley"
     ],
     "f": 21,
     "a": 13,
@@ -30184,14 +45076,174 @@
    },
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Pickleball Kingdom Lehigh Valley",
     "t": "male",
-    "with": "Nicholas Jackson",
+    "with": "Lakshmikanth Chaluvadi",
     "vs": [
-     "Lewis Torres",
-     "Justin Lin"
+     "Dion Brown",
+     "Chris Hudak"
     ],
-    "f": 6,
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Lana Engler Carss",
+     "David Reyes"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Cullen Curley",
+     "David Reyes"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "John Lottier",
+    "vs": [
+     "Dion Brown",
+     "Cullen Curley"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Dede Dolkar",
+     "Winston Lian"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Josh Rito",
+    "vs": [
+     "Winston Lian",
+     "Anshul Sahu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Dede Dolkar",
+     "Winston Lian"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Dan Stanton",
+    "vs": [
+     "Josiah Kim",
+     "Winston Lian"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "David Tabacco",
+    "vs": [
+     "Josiah Kim",
+     "Winston Lian"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mary Brashier",
+    "vs": [
+     "Carissa Baptista",
+     "Winston Lian"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "David Tabacco",
+    "vs": [
+     "Winston Lian",
+     "Man Kwok"
+    ],
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -30202,15 +45254,1794 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -2,
-    "confidence": 52,
-    "rank": 264,
+    "rating": 1.5,
+    "confidence": 47,
+    "rank": 51,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": 1,
+    "confidence": 65,
+    "rank": 91,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
+ },
+ "db15b234-d88d-4556-9c9d-982947bdaae7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 108,
+    "pa": 141,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 103,
+    "pa": 115,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Chris Fantin",
+    "vs": [
+     "Emily Su",
+     "John Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Patricia Majowicz",
+    "vs": [
+     "Emily Su",
+     "Khushi Shah"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Chris Fantin",
+    "vs": [
+     "Emily Su",
+     "John Kim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Patricia Majowicz",
+    "vs": [
+     "Emily Su",
+     "Khushi Shah"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Michael Jones",
+    "vs": [
+     "Diana Nguyen",
+     "Bruno Maguino"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Ellen Edson",
+    "vs": [
+     "Dede Dolkar",
+     "Khushi Shah"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Ellen Edson",
+    "vs": [
+     "Em Melo",
+     "Diana Nguyen"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Chris Fantin",
+    "vs": [
+     "Alexandra Sierer",
+     "Keith Parker"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Carmina Lasam",
+     "Jess Cox"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Chris Fantin",
+    "vs": [
+     "Carmina Lasam",
+     "Kamal D"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Corie Stone",
+     "Alexandra Sierer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Carmina Lasam",
+     "Corie Stone"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Alexandra Sierer",
+     "Sarah Law"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 46,
+    "rank": 238,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 65,
+    "rank": 221,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "715b131c-87a5-4887-9505-7fb780511902",
+    "name": "Chris Fantin",
+    "n": 4,
+    "synergy": 0.5
+   }
+  ]
+ },
+ "79cea24b-da29-4070-8d30-e820330b4c41": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 92,
+    "pa": 87,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 89,
+    "pa": 105,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Ethan Fu",
+    "vs": [
+     "Stacy Ip-Mo",
+     "Taylor Runyen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Pallavi Deshpande",
+     "Taylor Runyen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Carlos Lichty",
+    "vs": [
+     "Jiyun Yuh",
+     "John Dechristopher"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "female",
+    "with": "Christina Vuong",
+    "vs": [
+     "Stacy Ip-Mo",
+     "Jiyun Yuh"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "APC Garden State",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Pallavi Deshpande",
+     "Ryan Lehrfeld"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Dylan Mich",
+    "vs": [
+     "Ashley Held",
+     "Albert Lin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Dylan Mich",
+    "vs": [
+     "Olivia Schaller",
+     "Anthony Solares"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Carlos Lichty",
+    "vs": [
+     "Katrina Maranan",
+     "Evan Sinclair"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Vy Conghuyen",
+    "vs": [
+     "Olivia Schaller",
+     "Ashley Held"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Kong Vu",
+    "vs": [
+     "Katrina Maranan",
+     "Brandon Dejesus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 43,
+    "rank": 167,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 2,
+    "rating": -2.1,
+    "confidence": 63,
+    "rank": 310,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "1d44d478-17dd-41c5-95e2-7010889b33ba",
+    "name": "Kong Vu",
+    "n": 3,
+    "synergy": 0.7
+   }
+  ]
+ },
+ "0dace2fb-e133-4556-9d90-288c0f41805a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 83,
+    "pa": 100,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 93,
+    "pa": 89,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Deirdre Zohlman",
+     "Aaron Chan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Ricki Cohen",
+     "Nicole Mandry"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Mary Fair",
+     "Deirdre Zohlman"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Brian Cook",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Ricki Cohen",
+     "Mary Fair"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Hanna Cutler",
+     "Jonathan Carter"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Simon Darlington",
+    "vs": [
+     "Dana Sheply",
+     "Daniel Hadley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Christina Juliano",
+    "vs": [
+     "Lisa Pinder",
+     "Hanna Cutler"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Vito Nucci",
+    "vs": [
+     "Lisa Pinder",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "female",
+    "with": "Eileen Potter",
+    "vs": [
+     "Jacquie Verish",
+     "Lisa Pinder"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.4,
+    "confidence": 44,
+    "rank": 239,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 62,
+    "rank": 305,
+    "ratingGames": 10,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1",
+    "name": "Christina Juliano",
+    "n": 3,
+    "synergy": 0
+   }
+  ]
+ },
+ "8f4ef30f-10b9-4ef4-b8d1-098be63d84fb": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 101,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Exton",
+    "homeAway": "H",
+    "w": 2,
+    "l": 2,
+    "gp": 4,
+    "pf": 80,
+    "pa": 76,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Alison Mento",
+     "Moe Phanhnong"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Jennifer Minehan",
+     "Alison Mento"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Carolina Reese",
+     "Joseph Walton"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Leah Oneill",
+    "vs": [
+     "Kristie Frazier",
+     "Alison Mento"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Savan Patel",
+    "vs": [
+     "Kristie Frazier",
+     "Moe Phanhnong"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Pam Politis",
+    "vs": [
+     "Jennifer Minehan",
+     "Christine Vu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Jamie Damirgian",
+     "Bennett Matthew’S"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Dylan Tjio",
+    "vs": [
+     "Heather Triozzi",
+     "Nicholas Jackson"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "mixed",
+    "with": "Keith Brittingham",
+    "vs": [
+     "Crystal Mark",
+     "Nicholas Jackson"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Exton",
+    "t": "female",
+    "with": "Lady Alvarado",
+    "vs": [
+     "Crystal Mark",
+     "Jamie Damirgian"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.6,
+    "confidence": 48,
+    "rank": 288,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 61,
+    "rank": 326,
+    "ratingGames": 10,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "cfde52cc-d4a3-4d57-bf17-121d9c5eb4ea",
+    "name": "Dylan Tjio",
+    "n": 4,
+    "synergy": -0.8
+   }
+  ]
+ },
+ "1cd5949a-4196-4e3a-a611-7188d34f4708": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 85,
+    "pa": 101,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 94,
+    "pa": 101,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Kyle Woerner",
+    "vs": [
+     "Kevin Wilson",
+     "Peter Siv"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Ben Van Handel"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Dana Sheply",
+    "vs": [
+     "Pamela Toy",
+     "Ben Van Handel"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Dave Brucker",
+    "vs": [
+     "Peter Siv",
+     "Samuel Lee"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "male",
+    "with": "Kyle Woerner",
+    "vs": [
+     "Peter Siv",
+     "Ben Van Handel"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Jonathan Carter",
+    "vs": [
+     "Brian Cook",
+     "Vito Nucci"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Magnolia Lau",
+     "Vito Nucci"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Dana Sheply",
+    "vs": [
+     "Christina Juliano",
+     "Gabriel Ferraro"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Daniel Hadley",
+    "vs": [
+     "Vito Nucci",
+     "Jon Palabay"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Jonathan Carter",
+    "vs": [
+     "Simon Darlington",
+     "Vito Nucci"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.3,
+    "confidence": 42,
+    "rank": 234,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 58,
+    "rank": 207,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "9ae1e374-e878-450b-9552-e80472590d9e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 86,
+    "pa": 102,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 82,
+    "pa": 96,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Deirdre Zohlman",
+     "Aaron Chan"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Mary Fair",
+     "Scott Strong"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Holden Lenoff",
+    "vs": [
+     "Spencer Day",
+     "Scott Strong"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Mary Fair",
+     "Aaron Chan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Jon Palabay",
+    "vs": [
+     "Scott Strong",
+     "Matt Demarco"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Alex Kustas",
+     "Adam Lowther"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Jennifer Kinkel",
+    "vs": [
+     "Dana Sheply",
+     "Daniel Hadley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Alex Kustas",
+     "Chris Machuzak"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Alex Kustas"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Vito Nucci",
+    "vs": [
+     "Jacob Alpert",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2,
+    "confidence": 44,
+    "rank": 268,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 63,
+    "rank": 295,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
+ "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 63,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 89,
+    "pa": 99,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Adam Lowther",
+    "vs": [
+     "Karen Rodriguez",
+     "Peter Siv"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Karen Rodriguez",
+     "Isobel Harvey"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Isobel Harvey",
+     "Kelly Feng"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Tesa Pribitkin"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Dave Brucker",
+    "vs": [
+     "Kelly Feng",
+     "Ben Van Handel"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Magnolia Lau",
+     "Tiffany Weis"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Jennifer Kinkel",
+     "Christina Juliano"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jonathan Carter",
+    "vs": [
+     "Jennifer Kinkel",
+     "Vito Nucci"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Chris Machuzak",
+    "vs": [
+     "Eileen Potter",
+     "Jon Palabay"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Jacquie Verish",
+    "vs": [
+     "Jennifer Kinkel",
+     "Eileen Potter"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.3,
+    "confidence": 43,
+    "rank": 281,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 2,
+    "rating": -2.3,
+    "confidence": 62,
+    "rank": 314,
+    "ratingGames": 10,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "af5e2e89-3606-4d7e-8c5a-b397ff786303",
+    "name": "Hanna Cutler",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
  },
  "c59d5e7c-f361-4e53-a58f-66a0f59fa600": {
   "log": [
@@ -30365,6 +47196,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 47,
+    "rank": 139,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -30519,6 +47359,15 @@
     "rating": 0.2,
     "confidence": 51,
     "rank": 132,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 51,
+    "rank": 153,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.4
@@ -30679,49 +47528,122 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 52,
+    "rank": 269,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
  },
- "bb72e9bd-3d29-4f40-911c-2c5f07c73da6": {
+ "460d93c8-9936-43b5-b3ba-7328e174fb2b": {
   "log": [
    {
-    "week": 1,
-    "opp": "ACE Downingtown",
+    "week": 2,
+    "opp": "Picklr Newark",
     "homeAway": "A",
     "w": 2,
     "l": 5,
     "gp": 7,
-    "pf": 109,
-    "pa": 128,
+    "pf": 122,
+    "pa": 137,
     "mx": [
-     1,
-     2
+     2,
+     1
     ],
     "gn": [
-     1,
-     3
+     0,
+     4
     ],
     "cl": [
-     0,
-     2
+     1,
+     1
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 5,
+    "teamGL": 27,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Picklr Newark",
     "t": "mixed",
-    "with": "Heather Triozzi",
+    "with": "Jamie Damirgian",
     "vs": [
-     "Xiaowen Tang",
-     "Jay Lizardo"
+     "Sydney Peterson",
+     "Dylan Tjio"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Issac Gao",
+    "vs": [
+     "Dylan Tjio",
+     "Savan Patel"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Pam Politis",
+     "Keith Brittingham"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Dylan Tjio",
+     "Reggie Tiglao"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Issac Gao",
+    "vs": [
+     "Dylan Tjio",
+     "Savan Patel"
     ],
     "f": 16,
     "a": 21,
@@ -30731,31 +47653,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Issac Gao",
-    "vs": [
-     "Vinoth Baburao Venkatakrishnan",
-     "Justin Lin"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Picklr Newark",
     "t": "mixed",
-    "with": "Ann Dunn",
+    "with": "Heather Triozzi",
     "vs": [
-     "Xiaowen Tang",
-     "Jay Lizardo"
+     "Leah Oneill",
+     "Keith Brittingham"
     ],
-    "f": 19,
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -30763,64 +47669,16 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Picklr Newark",
     "t": "male",
-    "with": "Michael Meraglia",
+    "with": "Nicholas Jackson",
     "vs": [
-     "Thomas Kang",
-     "Lewis Torres"
+     "Joe Johnson",
+     "Keith Brittingham"
     ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Jenn Smith",
-    "vs": [
-     "Karen Anthony",
-     "Jay Lizardo"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Scott Bersak",
-    "vs": [
-     "Thomas Kang",
-     "Jay Lizardo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Arnaud Clairay",
-    "vs": [
-     "Lewis Torres",
-     "Justin Lin"
-    ],
-    "f": 6,
-    "a": 21,
+    "f": 20,
+    "a": 22,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -30829,13 +47687,170 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -0.6,
-    "confidence": 51,
-    "rank": 184,
+    "week": 2,
+    "rating": 0.3,
+    "confidence": 52,
+    "rank": 143,
     "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "91857142-d537-4b98-bbc2-481129371949": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 123,
+    "pa": 138,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Robert Huntley",
+    "vs": [
+     "Sarah Law",
+     "Chris Colucci"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Sarah Law",
+     "Alexandra Sierer"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Robert Huntley",
+    "vs": [
+     "Sarah Law",
+     "Abdullah Osman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Joe Carson",
+    "vs": [
+     "Sarah Law",
+     "Todd Green"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Jess Cox",
+     "Sarah Law"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Joe Carson",
+    "vs": [
+     "Jess Cox",
+     "Chris Colucci"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Carmina Lasam",
+     "Christine Algozo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 52,
+    "rank": 172,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -30993,163 +48008,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": []
- },
- "469c2465-d07c-4449-9adb-046595aeba8a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 114,
-    "pa": 139,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Dina Perrella",
-    "vs": [
-     "Em Melo",
-     "Bruno Maguino"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Chris Fantin",
-    "vs": [
-     "Winston Lian",
-     "Josiah Kim"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Chris Fantin",
-    "vs": [
-     "Winston Lian",
-     "Josiah Kim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Carissa Baptista",
-     "Carlos Idrovo"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Huntley",
-    "vs": [
-     "Winston Lian",
-     "Jason Kwan"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Carissa Baptista",
-     "Carlos Idrovo"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Huntley",
-    "vs": [
-     "Carlos Idrovo",
-     "Jason Kwan"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 47,
-    "rank": 170,
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 51,
+    "rank": 280,
     "ratingGames": 7,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -31307,11 +48174,338 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 53,
+    "rank": 226,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
  },
- "db15b234-d88d-4556-9c9d-982947bdaae7": {
+ "bb72e9bd-3d29-4f40-911c-2c5f07c73da6": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 109,
+    "pa": 128,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 128,
+    "pa": 142,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Xiaowen Tang",
+     "Jay Lizardo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Issac Gao",
+    "vs": [
+     "Vinoth Baburao Venkatakrishnan",
+     "Justin Lin"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Xiaowen Tang",
+     "Jay Lizardo"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Thomas Kang",
+     "Lewis Torres"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Karen Anthony",
+     "Jay Lizardo"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Scott Bersak",
+    "vs": [
+     "Thomas Kang",
+     "Jay Lizardo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Lewis Torres",
+     "Justin Lin"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Savan Patel"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Joe Johnson",
+     "Reggie Tiglao"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Sydney Peterson",
+     "Dylan Tjio"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Dylan Tjio",
+     "Reggie Tiglao"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Crystal Mark",
+    "vs": [
+     "Sydney Peterson",
+     "Keith Brittingham"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Keith Brittingham",
+     "Reggie Tiglao"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Joe Johnson",
+     "Keith Brittingham"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 184,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 68,
+    "rank": 220,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d9369178-ba48-4e5c-83c9-16fa27b56f5d",
+    "name": "Michael Meraglia",
+    "n": 3,
+    "synergy": 0.3
+   },
+   {
+    "pid": "7c120762-4a31-4bdd-9fce-8b43bd90a07e",
+    "name": "Heather Triozzi",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
+ },
+ "469c2465-d07c-4449-9adb-046595aeba8a": {
   "log": [
    {
     "week": 1,
@@ -31320,15 +48514,15 @@
     "w": 2,
     "l": 5,
     "gp": 7,
-    "pf": 108,
-    "pa": 141,
+    "pf": 114,
+    "pa": 139,
     "mx": [
-     0,
-     3
+     1,
+     2
     ],
     "gn": [
-     2,
-     2
+     1,
+     3
     ],
     "cl": [
      1,
@@ -31339,6 +48533,33 @@
     "teamGL": 26,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 118,
+    "pa": 140,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -31346,14 +48567,14 @@
     "wk": 1,
     "opp": "Pickleball Kingdom Watchung",
     "t": "mixed",
-    "with": "Chris Fantin",
+    "with": "Dina Perrella",
     "vs": [
-     "Emily Su",
-     "John Kim"
+     "Em Melo",
+     "Bruno Maguino"
     ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 19,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -31361,27 +48582,11 @@
    {
     "wk": 1,
     "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Patricia Majowicz",
-    "vs": [
-     "Emily Su",
-     "Khushi Shah"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
+    "t": "male",
     "with": "Chris Fantin",
     "vs": [
-     "Emily Su",
-     "John Kim"
+     "Winston Lian",
+     "Josiah Kim"
     ],
     "f": 17,
     "a": 21,
@@ -31393,11 +48598,425 @@
    {
     "wk": 1,
     "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Patricia Majowicz",
+    "t": "male",
+    "with": "Chris Fantin",
     "vs": [
-     "Emily Su",
-     "Khushi Shah"
+     "Winston Lian",
+     "Josiah Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Carissa Baptista",
+     "Carlos Idrovo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Huntley",
+    "vs": [
+     "Winston Lian",
+     "Jason Kwan"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Carissa Baptista",
+     "Carlos Idrovo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Robert Huntley",
+    "vs": [
+     "Carlos Idrovo",
+     "Jason Kwan"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Carmina Lasam",
+     "Abdullah Osman"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Chris Fantin",
+    "vs": [
+     "Kamal D",
+     "Todd Green"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Kim Batistoni",
+    "vs": [
+     "Jess Cox",
+     "Chris Colucci"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Chris Fantin",
+    "vs": [
+     "Jason Huang",
+     "Kamal D"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Christine Algozo",
+     "Chris Colucci"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Chris Colucci",
+     "Kamal D"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Christine Algozo",
+     "Kamal D"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.3,
+    "confidence": 47,
+    "rank": 170,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 66,
+    "rank": 239,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "715b131c-87a5-4887-9505-7fb780511902",
+    "name": "Chris Fantin",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "f173be84-93c7-46b8-b828-d44ddc52d63c",
+    "name": "Emiliya Mizrahi",
+    "n": 4,
+    "synergy": -1.8
+   }
+  ]
+ },
+ "2d392f03-9016-4fe2-92d7-db5d24d43a35": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Players Courtyard",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 96,
+    "pa": 97,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 100,
+    "pa": 120,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Eileen Potter",
+    "vs": [
+     "Ricki Cohen",
+     "Matt Demarco"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Brian Cook",
+    "vs": [
+     "Spencer Day",
+     "Scott Strong"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Brian Cook",
+    "vs": [
+     "Matt Demarco",
+     "Aaron Chan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Deirdre Zohlman",
+     "Scott Strong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Aaron Chan",
+     "Brad Mandry"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Taylor Johns",
+     "Chris Machuzak"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Simon Darlington",
+    "vs": [
+     "Alex Kustas",
+     "Adam Lowther"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Jon Palabay",
+    "vs": [
+     "Chris Machuzak",
+     "Daniel Hadley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Christina Juliano",
+    "vs": [
+     "Dana Sheply",
+     "Jacob Alpert"
     ],
     "f": 23,
     "a": 21,
@@ -31407,13 +49026,158 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
     "t": "mixed",
-    "with": "Michael Jones",
+    "with": "Magnolia Lau",
     "vs": [
-     "Diana Nguyen",
-     "Bruno Maguino"
+     "Hanna Cutler",
+     "Daniel Hadley"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Alex Kustas",
+     "Chris Machuzak"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.2,
+    "confidence": 45,
+    "rank": 165,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 67,
+    "rank": 213,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
+ "d9369178-ba48-4e5c-83c9-16fa27b56f5d": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 71,
+    "pa": 100,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 98,
+    "pa": 116,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Scott Bersak",
+    "vs": [
+     "Thomas Kang",
+     "Lewis Torres"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Thomas Kang",
+     "Lewis Torres"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Kiddi Vu",
+     "Justin Lin"
     ],
     "f": 7,
     "a": 21,
@@ -31424,12 +49188,44 @@
    },
    {
     "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Ellen Edson",
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Arnaud Clairay",
     "vs": [
-     "Dede Dolkar",
-     "Khushi Shah"
+     "Justin Lin",
+     "Lewis Torres"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Xiaowen Tang",
+     "Thomas Kang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Joe Johnson",
+     "Reggie Tiglao"
     ],
     "f": 15,
     "a": 21,
@@ -31439,17 +49235,81 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Ellen Edson",
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Crystal Mark",
     "vs": [
-     "Em Melo",
-     "Diana Nguyen"
+     "Caitlyn Suchanic",
+     "Joe Johnson"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Jamie Damirgian",
+    "vs": [
+     "Lady Alvarado",
+     "Savan Patel"
     ],
     "f": 21,
-    "a": 17,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Keith Brittingham",
+     "Reggie Tiglao"
+    ],
+    "f": 21,
+    "a": 18,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Joe Johnson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Issac Gao",
+    "vs": [
+     "Dylan Tjio",
+     "Edrees Siddiqi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -31458,15 +49318,31 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.4,
-    "confidence": 46,
-    "rank": 238,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.8
+    "rating": -1.2,
+    "confidence": 41,
+    "rank": 226,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 65,
+    "rank": 222,
+    "ratingGames": 11,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "bb72e9bd-3d29-4f40-911c-2c5f07c73da6",
+    "name": "Nicholas Jackson",
+    "n": 3,
+    "synergy": 0.3
+   }
+  ]
  },
  "4550c4d5-3329-421e-836c-7f5e6703cbc8": {
   "log": [
@@ -31573,160 +49449,60 @@
     "ratingGames": 4,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "c8d0efa3-d55c-4c90-a7f1-181f045702d0": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 1,
-    "l": 3,
-    "gp": 4,
-    "pf": 71,
-    "pa": 82,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Keith Parker",
-    "vs": [
-     "Monique Panajon",
-     "Mychal Villanueva"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Carmina Lasam",
-    "vs": [
-     "Leanna Coello",
-     "Monique Panajon"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Carmina Lasam",
-    "vs": [
-     "Binxin Cai",
-     "Lara Gedeon"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Todd Green",
-    "vs": [
-     "Monique Panajon",
-     "Yosuke Kawai"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1,
-    "confidence": 38,
-    "rank": 216,
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 40,
+    "rank": 284,
     "ratingGames": 4,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
  },
- "85c7fc54-57f2-4b1d-9601-a2265de3b295": {
+ "bffa979d-a911-4f4c-8800-3bfb3d237d87": {
   "log": [
    {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
+    "week": 2,
+    "opp": "Forward",
     "homeAway": "H",
     "w": 1,
     "l": 3,
     "gp": 4,
-    "pf": 70,
+    "pf": 67,
     "pa": 82,
     "mx": [
-     1,
+     0,
      2
     ],
     "gn": [
-     0,
+     1,
      1
     ],
     "cl": [
      1,
-     1
+     0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Alexandra Sierer",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Vanessa Rhoades",
     "vs": [
-     "Ulyana Kitcmanuk",
-     "Joseph Gozon"
+     "Ariane Abadi",
+     "Justyna Wojdyla"
     ],
-    "f": 17,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -31734,29 +49510,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
+    "wk": 2,
+    "opp": "Forward",
     "t": "mixed",
-    "with": "Jordan Flavell-Boney",
+    "with": "Andrew Son",
     "vs": [
-     "Binxin Cai",
-     "Joseph Gozon"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Keith Parker",
-    "vs": [
-     "Joseph Roque",
-     "Mychal Villanueva"
+     "Isabel Laroque",
+     "Ryan Gerstel"
     ],
     "f": 13,
     "a": 21,
@@ -31766,17 +49526,33 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Natalie Ruiz",
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Vanessa Rhoades",
     "vs": [
-     "Ulyana Kitcmanuk",
-     "Joseph Gozon"
+     "Olivia Lee",
+     "Justyna Wojdyla"
     ],
-    "f": 22,
-    "a": 20,
+    "f": 25,
+    "a": 23,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Nick Lewis",
+    "vs": [
+     "Ariane Abadi",
+     "Luc Legaspi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -31784,13 +49560,13 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -0.9,
-    "confidence": 38,
-    "rank": 208,
+    "week": 2,
+    "rating": -1.9,
+    "confidence": 39,
+    "rank": 303,
     "ratingGames": 4,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -31900,6 +49676,15 @@
     "ratingGames": 4,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": -3.5,
+    "confidence": 42,
+    "rank": 338,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -32006,6 +49791,15 @@
     "rating": -1,
     "confidence": 40,
     "rank": 215,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 40,
+    "rank": 254,
     "ratingGames": 4,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1
@@ -32182,36 +49976,72 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": -2.5,
+    "confidence": 49,
+    "rank": 321,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
  },
- "2d392f03-9016-4fe2-92d7-db5d24d43a35": {
+ "c8d0efa3-d55c-4c90-a7f1-181f045702d0": {
   "log": [
    {
     "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
     "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 96,
-    "pa": 97,
+    "l": 3,
+    "gp": 4,
+    "pf": 71,
+    "pa": 82,
     "mx": [
+     0,
+     2
+    ],
+    "gn": [
      1,
      1
     ],
-    "gn": [
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 59,
+    "pa": 80,
+    "mx": [
      0,
-     3
+     2
+    ],
+    "gn": [
+     1,
+     1
     ],
     "cl": [
      0,
-     3
+     0
     ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
@@ -32219,14 +50049,14 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Players Courtyard",
+    "opp": "Picklr Fair Lawn",
     "t": "mixed",
-    "with": "Eileen Potter",
+    "with": "Keith Parker",
     "vs": [
-     "Ricki Cohen",
-     "Matt Demarco"
+     "Monique Panajon",
+     "Mychal Villanueva"
     ],
-    "f": 18,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -32235,15 +50065,15 @@
    },
    {
     "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Brian Cook",
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Carmina Lasam",
     "vs": [
-     "Spencer Day",
-     "Scott Strong"
+     "Leanna Coello",
+     "Monique Panajon"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 19,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -32251,31 +50081,15 @@
    },
    {
     "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Brian Cook",
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Carmina Lasam",
     "vs": [
-     "Matt Demarco",
-     "Aaron Chan"
+     "Binxin Cai",
+     "Lara Gedeon"
     ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Deirdre Zohlman",
-     "Scott Strong"
-    ],
-    "f": 21,
-    "a": 13,
+    "f": 23,
+    "a": 21,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -32283,14 +50097,78 @@
    },
    {
     "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Skylar Bobadilla",
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Todd Green",
     "vs": [
-     "Aaron Chan",
-     "Brad Mandry"
+     "Monique Panajon",
+     "Yosuke Kawai"
     ],
-    "f": 19,
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Kim Batistoni",
+     "Laura Fantin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Keith Parker",
+    "vs": [
+     "Kim Batistoni",
+     "Richie Mizrahi"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Carmina Lasam",
+    "vs": [
+     "Laura Fantin",
+     "Laura Spilatro"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Jason Huang",
+    "vs": [
+     "Kim Batistoni",
+     "Richie Mizrahi"
+    ],
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -32301,12 +50179,558 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -0.2,
-    "confidence": 45,
-    "rank": 165,
+    "rating": -1,
+    "confidence": 38,
+    "rank": 216,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 2,
+    "rating": -2.3,
+    "confidence": 55,
+    "rank": 315,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c7d6417a-1519-48bd-831a-58e1714d70a9",
+    "name": "Carmina Lasam",
+    "n": 3,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "fac1e928-060e-4b80-a0e4-bcd4aca0089b": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 97,
+    "pa": 119,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 92,
+    "pa": 118,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Karen Anthony",
+     "Thomas Kang"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Xiaowen Tang",
+     "Jay Lizardo"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Kiddi Vu",
+     "Justin Lin"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Kiddi Vu",
+     "Nancy Wu"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Xiaowen Tang",
+     "Thomas Kang"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Crystal Mark",
+    "vs": [
+     "Xiaowen Tang",
+     "Nancy Wu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Joe Johnson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Jennifer Kasnadi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Pam Politis",
+     "Keith Brittingham"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Pam Politis",
+     "Reggie Tiglao"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Leah Oneill"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Lady Alvarado",
+     "Pam Politis"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 49,
+    "rank": 189,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 67,
+    "rank": 258,
+    "ratingGames": 12,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "1c8905b3-3118-4fae-aca2-f9ec43d07c30",
+    "name": "Arnaud Clairay",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
+ },
+ "888f163c-8f8d-4d13-a35a-f3db373db80c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 97,
+    "pa": 98,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     4
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Olivia Lee",
+     "Cole Neimetz"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Vanessa Rhoades",
+    "vs": [
+     "Ava Pastore",
+     "Cole Neimetz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Nick Lewis",
+    "vs": [
+     "Ryan Gerstel",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Natalia Koontz",
+    "vs": [
+     "Ava Pastore",
+     "Michael Martellacci"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "David Barth",
+    "vs": [
+     "Matthew Crawford",
+     "Cole Neimetz"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.5,
+    "confidence": 46,
+    "rank": 211,
     "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "4f829164-c19f-49a4-b5c5-8a7f390f1f05": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 95,
+    "pa": 98,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Kierstin Gant",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Jaspher Cosico"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "male",
+    "with": "Khanh Vu",
+    "vs": [
+     "Anthony Solares",
+     "Peter David"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Kierstin Gant",
+    "vs": [
+     "Linda Liu",
+     "Albert Lin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Shania Bui",
+    "vs": [
+     "Ashley Held",
+     "Peter David"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Ashley Held",
+     "Jaspher Cosico"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.1,
+    "confidence": 46,
+    "rank": 179,
+    "ratingGames": 5,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -32432,131 +50856,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "e876b411-bfee-4ab8-ac66-8bbce87eaeb1": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 95,
-    "pa": 100,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Jon Palabay",
-    "vs": [
-     "Ricki Cohen",
-     "Matt Demarco"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Skylar Bobadilla",
-    "vs": [
-     "Nicole Mandry",
-     "Scott Strong"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Ricki Cohen",
-     "Mary Fair"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Ricki Cohen",
-     "Mary Fair"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.3,
-    "confidence": 42,
-    "rank": 172,
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 46,
+    "rank": 244,
     "ratingGames": 5,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -32682,6 +50990,140 @@
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 39,
+    "rank": 176,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Jersey Devil Green",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 92,
+    "pa": 103,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "John Tano",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Jaspher Cosico"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "mixed",
+    "with": "John Tano",
+    "vs": [
+     "Linda Liu",
+     "Albert Lin"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Stephanie Li",
+    "vs": [
+     "Linda Liu",
+     "Ashley Held"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Stephanie Li",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Linda Liu"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Green",
+    "t": "female",
+    "with": "Eileen Zhang",
+    "vs": [
+     "Srilahari Kunchapu",
+     "Olivia Schaller"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 44,
+    "rank": 142,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -32807,65 +51249,58 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 48,
+    "rank": 281,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
  },
- "44de3ff2-3b41-4c10-908c-8057a94e1d75": {
+ "12db9b49-da72-4367-8e2c-b9718a9bc2fb": {
   "log": [
    {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
     "w": 1,
     "l": 4,
     "gp": 5,
     "pf": 88,
     "pa": 100,
     "mx": [
-     1,
-     1
+     0,
+     2
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
      0,
-     1
+     2
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Benji Berry",
-    "vs": [
-     "Joshua Kim",
-     "Jonathan Macqueen"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
     "t": "mixed",
-    "with": "Olivia Schaller",
+    "with": "Ryan Gerstel",
     "vs": [
-     "Julia Manetta",
-     "Jonathan Macqueen"
+     "Gabby Frieder",
+     "Farhan Chowdhury"
     ],
     "f": 18,
     "a": 21,
@@ -32875,29 +51310,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Peter David",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Ariane Abadi",
     "vs": [
-     "Jonathan Macqueen",
-     "Joshua Kim"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Ashley Held",
-    "vs": [
-     "Caity Rietzen",
-     "Jeremy Chen"
+     "Lauren Fernandez",
+     "Vanessa Rhoades"
     ],
     "f": 21,
     "a": 16,
@@ -32907,15 +51326,47 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Peter David",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Lili Zebluim",
     "vs": [
-     "Andrew Martin",
-     "Joshua Kim"
+     "Thania Padova",
+     "Courtney Skolka"
     ],
     "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Olivia Lee",
+    "vs": [
+     "Lauren Fernandez",
+     "Vanessa Rhoades"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Mike Scioli Jr",
+    "vs": [
+     "Thania Padova",
+     "David Barth"
+    ],
+    "f": 11,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -32925,12 +51376,12 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -0.9,
-    "confidence": 42,
-    "rank": 207,
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 46,
+    "rank": 203,
     "ratingGames": 5,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -33057,756 +51508,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "1cd5949a-4196-4e3a-a611-7188d34f4708": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 85,
-    "pa": 101,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Kyle Woerner",
-    "vs": [
-     "Kevin Wilson",
-     "Peter Siv"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Hanna Cutler",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Ben Van Handel"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Dana Sheply",
-    "vs": [
-     "Pamela Toy",
-     "Ben Van Handel"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Dave Brucker",
-    "vs": [
-     "Peter Siv",
-     "Samuel Lee"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "male",
-    "with": "Kyle Woerner",
-    "vs": [
-     "Peter Siv",
-     "Ben Van Handel"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.3,
-    "confidence": 42,
-    "rank": 234,
+    "week": 2,
+    "rating": -1.9,
+    "confidence": 49,
+    "rank": 302,
     "ratingGames": 5,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "9ae1e374-e878-450b-9552-e80472590d9e": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 86,
-    "pa": 102,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Deirdre Zohlman",
-     "Aaron Chan"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Magnolia Lau",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Spencer Day",
-     "Scott Strong"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Tiffany Weis",
-    "vs": [
-     "Mary Fair",
-     "Aaron Chan"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Jon Palabay",
-    "vs": [
-     "Scott Strong",
-     "Matt Demarco"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2,
-    "confidence": 44,
-    "rank": 268,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "0dace2fb-e133-4556-9d90-288c0f41805a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 83,
-    "pa": 100,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Simon Darlington",
-    "vs": [
-     "Deirdre Zohlman",
-     "Aaron Chan"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Magnolia Lau",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Christina Juliano",
-    "vs": [
-     "Mary Fair",
-     "Deirdre Zohlman"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Brian Cook",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Christina Juliano",
-    "vs": [
-     "Ricki Cohen",
-     "Mary Fair"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.4,
-    "confidence": 44,
-    "rank": 239,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "34f3ac90-3b92-469c-8ae9-b88fea16ffa1": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 80,
-    "pa": 97,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Christina Juliano",
-    "vs": [
-     "Ricki Cohen",
-     "Matt Demarco"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Brian Cook",
-    "vs": [
-     "Aaron Chan",
-     "Matt Demarco"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Skylar Bobadilla",
-    "vs": [
-     "Brad Mandry",
-     "Scott Strong"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Magnolia Lau",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Simon Darlington",
-    "vs": [
-     "Scott Strong",
-     "Matt Demarco"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.7,
-    "confidence": 43,
-    "rank": 192,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "0c8768d9-03b0-42ca-9a88-b2c8538fa54d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Players Courtyard",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 82,
-    "pa": 100,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Jennifer Kinkel",
-    "vs": [
-     "Ricki Cohen",
-     "Nicole Mandry"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Simon Darlington",
-    "vs": [
-     "Mary Fair",
-     "Scott Strong"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Holden Lenoff",
-    "vs": [
-     "Deirdre Zohlman",
-     "Spencer Day"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Eileen Potter",
-    "vs": [
-     "Nicole Mandry",
-     "Deirdre Zohlman"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Jon Palabay",
-    "vs": [
-     "Ricki Cohen",
-     "Brad Mandry"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.3,
-    "confidence": 47,
-    "rank": 231,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": []
- },
- "0adc78f0-0318-418d-bae1-f92d3ca5443d": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 84,
-    "pa": 103,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Linda Liu",
-    "vs": [
-     "Maggie Malloy",
-     "Kyle Kelly"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Brandon Dejesus",
-    "vs": [
-     "Jeremy Chen",
-     "Anthony Prusich"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Srilahari Kunchapu",
-    "vs": [
-     "Christina Sheehan",
-     "Anthony Prusich"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Ashley Held",
-    "vs": [
-     "Caity Rietzen",
-     "Andrew Martin"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Brandon Dejesus",
-    "vs": [
-     "Anthony Prusich",
-     "Jeremy Chen"
-    ],
-    "f": 24,
-    "a": 26,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2,
-    "confidence": 43,
-    "rank": 269,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -33931,6 +51641,15 @@
     "rank": 267,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 46,
+    "rank": 307,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -34057,16 +51776,25 @@
     "ratingGames": 5,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 43,
+    "rank": 246,
+    "ratingGames": 5,
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
  },
- "af2bdee6-7d41-4730-869b-2c6530e7378d": {
+ "6ae15153-88e8-48c0-93b6-8be97adbadce": {
   "log": [
    {
-    "week": 1,
-    "opp": "Delco Turf & Pickle",
-    "homeAway": "H",
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
     "w": 1,
     "l": 4,
     "gp": 5,
@@ -34074,48 +51802,32 @@
     "pa": 103,
     "mx": [
      0,
-     3
+     2
     ],
     "gn": [
      1,
-     1
+     2
     ],
     "cl": [
      1,
      1
     ],
     "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Matthew Crawford",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Michael Martellacci",
     "vs": [
-     "Kalina Ye",
-     "Evan Truitt"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Cole Neimetz",
-    "vs": [
-     "Irene Fitzgerald",
-     "Leh Mounelasy"
+     "David Barth",
+     "Nick Lewis"
     ],
     "f": 19,
     "a": 21,
@@ -34125,15 +51837,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Esha Gajjar",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Lili Zebluim",
     "vs": [
-     "Carla Fonseca",
-     "Marina Mounelasy"
+     "Gabby Frieder",
+     "Jason Quach"
     ],
-    "f": 16,
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -34141,13 +51853,45 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "mixed",
-    "with": "Luc Legaspi",
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Ryan Gerstel",
     "vs": [
-     "Roe Avila",
-     "Nick Tang"
+     "Nick Lewis",
+     "Shawn Roseman"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Nick Lewis",
+     "Jason Quach"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Justyna Wojdyla",
+    "vs": [
+     "Thania Padova",
+     "David Barth"
     ],
     "f": 11,
     "a": 21,
@@ -34155,33 +51899,17 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Delco Turf & Pickle",
-    "t": "female",
-    "with": "Isabel Laroque",
-    "vs": [
-     "Roe Avila",
-     "Marina Mounelasy"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -2.3,
-    "confidence": 47,
-    "rank": 278,
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 43,
+    "rank": 292,
     "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -34307,6 +52035,140 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 46,
+    "rank": 253,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "33fe293d-5913-41af-8f89-4a431ed92ab7": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 79,
+    "pa": 101,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Hanna Cutler",
+    "vs": [
+     "Jennifer Kinkel",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Brian Cook",
+     "Vito Nucci"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Rebecca Mcginnis",
+    "vs": [
+     "Christina Juliano",
+     "Brian Cook"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Jennifer Kinkel",
+     "Vito Nucci"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "male",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Simon Darlington",
+     "Vito Nucci"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 45,
+    "rank": 290,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -34432,6 +52294,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -2.3,
+    "confidence": 48,
+    "rank": 317,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -34554,6 +52425,15 @@
     "rating": -1.6,
     "confidence": 45,
     "rank": 251,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 45,
+    "rank": 288,
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.7
@@ -34682,36 +52562,72 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -1.4,
+    "confidence": 46,
+    "rank": 276,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
  },
- "d9369178-ba48-4e5c-83c9-16fa27b56f5d": {
+ "34f3ac90-3b92-469c-8ae9-b88fea16ffa1": {
   "log": [
    {
     "week": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Players Courtyard",
     "homeAway": "A",
     "w": 1,
     "l": 4,
     "gp": 5,
-    "pf": 71,
-    "pa": 100,
+    "pf": 80,
+    "pa": 97,
     "mx": [
-     1,
-     1
+     0,
+     2
     ],
     "gn": [
-     0,
-     3
+     1,
+     2
     ],
     "cl": [
      0,
      1
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Devil Navy",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 92,
+    "pa": 103,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -34719,28 +52635,12 @@
   "games": [
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Scott Bersak",
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Christina Juliano",
     "vs": [
-     "Thomas Kang",
-     "Lewis Torres"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Nicholas Jackson",
-    "vs": [
-     "Thomas Kang",
-     "Lewis Torres"
+     "Ricki Cohen",
+     "Matt Demarco"
     ],
     "f": 19,
     "a": 21,
@@ -34751,48 +52651,144 @@
    },
    {
     "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Ann Dunn",
-    "vs": [
-     "Kiddi Vu",
-     "Justin Lin"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "opp": "Players Courtyard",
     "t": "male",
-    "with": "Arnaud Clairay",
+    "with": "Brian Cook",
     "vs": [
-     "Justin Lin",
-     "Lewis Torres"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Ann Dunn",
-    "vs": [
-     "Xiaowen Tang",
-     "Thomas Kang"
+     "Aaron Chan",
+     "Matt Demarco"
     ],
     "f": 21,
-    "a": 16,
+    "a": 13,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Skylar Bobadilla",
+    "vs": [
+     "Brad Mandry",
+     "Scott Strong"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Magnolia Lau",
+    "vs": [
+     "Ricki Cohen",
+     "Brad Mandry"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Simon Darlington",
+    "vs": [
+     "Scott Strong",
+     "Matt Demarco"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Tiffany Weis",
+    "vs": [
+     "Rebecca Mcginnis",
+     "Adam Lowther"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Gabriel Ferraro",
+    "vs": [
+     "Chris Machuzak",
+     "Daniel Hadley"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Rebecca Durda",
+    "vs": [
+     "Taylor Johns",
+     "Adam Lowther"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "male",
+    "with": "Vito Nucci",
+    "vs": [
+     "Jacob Alpert",
+     "Daniel Hadley"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Devil Navy",
+    "t": "mixed",
+    "with": "Eileen Potter",
+    "vs": [
+     "Lisa Pinder",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -34801,12 +52797,21 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.2,
-    "confidence": 41,
-    "rank": 226,
+    "rating": -0.7,
+    "confidence": 43,
+    "rank": 192,
     "ratingGames": 5,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 63,
+    "rank": 259,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -34932,36 +52937,72 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 39,
+    "rank": 301,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
  },
- "97897afe-f9e2-42be-926f-d6ebe7025591": {
+ "af2bdee6-7d41-4730-869b-2c6530e7378d": {
   "log": [
    {
     "week": 1,
-    "opp": "APC Garden State",
+    "opp": "Delco Turf & Pickle",
     "homeAway": "H",
     "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 107,
-    "pa": 121,
+    "l": 4,
+    "gp": 5,
+    "pf": 83,
+    "pa": 103,
     "mx": [
      0,
-     4
+     3
     ],
     "gn": [
      1,
      1
     ],
     "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 89,
+    "pa": 103,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
      0,
      2
     ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -34969,12 +53010,28 @@
   "games": [
    {
     "wk": 1,
-    "opp": "APC Garden State",
+    "opp": "Delco Turf & Pickle",
     "t": "mixed",
-    "with": "Shania Bui",
+    "with": "Matthew Crawford",
     "vs": [
-     "Taylor Lambe",
-     "Eric Padernilla"
+     "Kalina Ye",
+     "Evan Truitt"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Irene Fitzgerald",
+     "Leh Mounelasy"
     ],
     "f": 19,
     "a": 21,
@@ -34985,12 +53042,581 @@
    },
    {
     "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Eileen Zhang",
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Esha Gajjar",
     "vs": [
-     "Nada Abdelkarim",
-     "Eric Padernilla"
+     "Carla Fonseca",
+     "Marina Mounelasy"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "mixed",
+    "with": "Luc Legaspi",
+    "vs": [
+     "Roe Avila",
+     "Nick Tang"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Delco Turf & Pickle",
+    "t": "female",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Roe Avila",
+     "Marina Mounelasy"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Cole Neimetz",
+    "vs": [
+     "Natalia Koontz",
+     "Shawn Roseman"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Matthew Crawford",
+    "vs": [
+     "Natalia Koontz",
+     "Farhan Chowdhury"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Isabel Laroque",
+    "vs": [
+     "Gabby Frieder",
+     "Natalia Koontz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "female",
+    "with": "Justyna Wojdyla",
+    "vs": [
+     "Lauren Fernandez",
+     "Vanessa Rhoades"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Ryan Gerstel",
+    "vs": [
+     "Vanessa Rhoades",
+     "Farhan Chowdhury"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.3,
+    "confidence": 47,
+    "rank": 278,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 62,
+    "rank": 325,
+    "ratingGames": 10,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "af5e2e89-3606-4d7e-8c5a-b397ff786303": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Ballers Philly",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 66,
+    "pa": 105,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickle Juice Blackwood",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 87,
+    "pa": 99,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Karen Rodriguez",
+     "Isobel Harvey"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Alexandria Mlkvy",
+     "Ben Van Handel"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Isobel Harvey",
+     "Kelly Feng"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Kyle Woerner",
+    "vs": [
+     "Tesa Pribitkin",
+     "Peter Siv"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Ballers Philly",
+    "t": "mixed",
+    "with": "Kyle Woerner",
+    "vs": [
+     "Pamela Toy",
+     "Kevin Wilson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jonathan Carter",
+    "vs": [
+     "Jennifer Kinkel",
+     "Skylar Bobadilla"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Jacob Alpert",
+    "vs": [
+     "Magnolia Lau",
+     "Vito Nucci"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Lisa Pinder",
+    "vs": [
+     "Jennifer Kinkel",
+     "Christina Juliano"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "female",
+    "with": "Dana Sheply",
+    "vs": [
+     "Christina Juliano",
+     "Magnolia Lau"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickle Juice Blackwood",
+    "t": "mixed",
+    "with": "Daniel Hadley",
+    "vs": [
+     "Magnolia Lau",
+     "Gabriel Ferraro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 46,
+    "rank": 285,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -2.4,
+    "confidence": 63,
+    "rank": 319,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
+    "name": "Lisa Pinder",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
+ },
+ "1c8905b3-3118-4fae-aca2-f9ec43d07c30": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 81,
+    "pa": 116,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 69,
+    "pa": 105,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Karen Anthony",
+     "Thomas Kang"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Jenn Smith",
+    "vs": [
+     "Kiddi Vu",
+     "Vinoth Baburao Venkatakrishnan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Crystal Mark",
+    "vs": [
+     "Xiaowen Tang",
+     "Thomas Kang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Justin Lin",
+     "Lewis Torres"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Nikki Koons",
+    "vs": [
+     "Karen Anthony",
+     "Jay Lizardo"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Lewis Torres",
+     "Justin Lin"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Ann Dunn",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Joe Johnson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Jamie Damirgian",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Savan Patel"
     ],
     "f": 20,
     "a": 22,
@@ -35000,154 +53626,13 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "APC Garden State",
+    "wk": 2,
+    "opp": "Picklr Newark",
     "t": "male",
-    "with": "Kong Vu",
+    "with": "Issac Gao",
     "vs": [
-     "Michael Kresloff",
-     "Ryan Lehrfeld"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Stephanie Li",
-    "vs": [
-     "Taylor Lambe",
-     "Michael Kresloff"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "mixed",
-    "with": "Shania Bui",
-    "vs": [
-     "Nada Abdelkarim",
-     "Eric Padernilla"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kong Vu",
-    "vs": [
-     "John Dechristopher",
-     "Eric Padernilla"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.5,
-    "confidence": 45,
-    "rank": 246,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "d50feac2-f147-47d2-8930-99b21b2842ba": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 103,
-    "pa": 124,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Olivia Schaller",
-    "vs": [
-     "Julia Manetta",
-     "Anthony Prusich"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Anthony Solares",
-    "vs": [
-     "Jeremy Chen",
-     "Anthony Prusich"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Xin Liu",
-    "vs": [
-     "Kyle Kelly",
-     "Andrew Martin"
+     "Joe Johnson",
+     "Edrees Siddiqi"
     ],
     "f": 12,
     "a": 21,
@@ -35157,15 +53642,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Xin Liu",
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Ann Dunn",
     "vs": [
-     "Kyle Kelly",
-     "Andrew Martin"
+     "Pam Politis",
+     "Reggie Tiglao"
     ],
-    "f": 18,
+    "f": 7,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -35173,32 +53658,16 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Bounce Philly",
+    "wk": 2,
+    "opp": "Picklr Newark",
     "t": "mixed",
-    "with": "Katrina Maranan",
+    "with": "Jamie Damirgian",
     "vs": [
-     "Mira Sigal-Feldman",
-     "Jonathan Macqueen"
+     "Pam Politis",
+     "Reggie Tiglao"
     ],
-    "f": 23,
+    "f": 17,
     "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Anthony Solares",
-    "vs": [
-     "Anthony Prusich",
-     "Jeremy Chen"
-    ],
-    "f": 24,
-    "a": 26,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -35208,12 +53677,310 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": -1.3,
-    "confidence": 46,
-    "rank": 232,
+    "rating": -2,
+    "confidence": 52,
+    "rank": 264,
     "ratingGames": 6,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -2.8,
+    "confidence": 66,
+    "rank": 329,
+    "ratingGames": 11,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fac1e928-060e-4b80-a0e4-bcd4aca0089b",
+    "name": "Ann Dunn",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
+ },
+ "d9f25bd7-6620-4a61-9092-af7d24b68b3e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 103,
+    "pa": 119,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Issac Gao",
+    "vs": [
+     "Leah Oneill",
+     "Edrees Siddiqi"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Crystal Mark",
+    "vs": [
+     "Lady Alvarado",
+     "Leah Oneill"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Jamie Damirgian",
+    "vs": [
+     "Lady Alvarado",
+     "Pam Politis"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Ann Dunn",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Leah Oneill"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Joe Johnson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Ann Dunn",
+    "vs": [
+     "Lady Alvarado",
+     "Pam Politis"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 48,
+    "rank": 154,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "8f56fb31-09f6-4c12-aa46-6b2f56433f3d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 105,
+    "pa": 123,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Laura Slane",
+    "vs": [
+     "Emily Su",
+     "Carissa Baptista"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Christy Zhang",
+     "Man Kwok"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Laura Slane",
+    "vs": [
+     "Emily Su",
+     "Carissa Baptista"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Emily Su",
+     "Man Kwok"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Josh Rito",
+    "vs": [
+     "Christy Zhang",
+     "Jason Kwan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Mary Brashier",
+    "vs": [
+     "Dede Dolkar",
+     "Carissa Baptista"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 48,
+    "rank": 262,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -35355,147 +54122,156 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 50,
+    "rank": 217,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
  },
- "8f4ef30f-10b9-4ef4-b8d1-098be63d84fb": {
+ "447b08ee-f4b1-4b43-b2ff-bdc780b908b5": {
   "log": [
    {
-    "week": 1,
-    "opp": "Bounce Malvern",
+    "week": 2,
+    "opp": "Montville",
     "homeAway": "A",
     "w": 1,
     "l": 5,
     "gp": 6,
-    "pf": 101,
+    "pf": 100,
     "pa": 124,
     "mx": [
-     1,
+     0,
      2
     ],
     "gn": [
-     0,
+     1,
      3
     ],
     "cl": [
      1,
-     1
+     2
     ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 1,
+    "subFor": "Home Court"
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Dylan Tjio",
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Robert Huntley",
     "vs": [
-     "Alison Mento",
-     "Moe Phanhnong"
+     "Abdullah Osman",
+     "Jason Huang"
     ],
-    "f": 15,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Leah Oneill",
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Robert Huntley",
     "vs": [
-     "Jennifer Minehan",
-     "Alison Mento"
+     "Todd Green",
+     "Keith Parker"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Susan M Fett",
+    "vs": [
+     "Sarah Law",
+     "Todd Green"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Chris Fantin",
+    "vs": [
+     "Abdullah Osman",
+     "Todd Green"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
+    "wk": 2,
+    "opp": "Montville",
     "t": "mixed",
-    "with": "Dylan Tjio",
+    "with": "Susan M Fett",
     "vs": [
-     "Carolina Reese",
-     "Joseph Walton"
-    ],
-    "f": 27,
-    "a": 25,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Leah Oneill",
-    "vs": [
-     "Kristie Frazier",
-     "Alison Mento"
+     "Jess Cox",
+     "Chris Colucci"
     ],
     "f": 20,
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Savan Patel",
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Chris Fantin",
     "vs": [
-     "Kristie Frazier",
-     "Moe Phanhnong"
+     "Todd Green",
+     "Abdullah Osman"
     ],
-    "f": 17,
+    "f": 8,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Pam Politis",
-    "vs": [
-     "Jennifer Minehan",
-     "Christine Vu"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -2.6,
+    "week": 2,
+    "rating": -2.2,
     "confidence": 48,
-    "rank": 288,
+    "rank": 313,
     "ratingGames": 6,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -35634,6 +54410,15 @@
     "rating": -0.2,
     "confidence": 46,
     "rank": 161,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 2,
+    "rating": -0.2,
+    "confidence": 46,
+    "rank": 187,
     "ratingGames": 6,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.2
@@ -35778,147 +54563,156 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 2,
+    "rating": 0.1,
+    "confidence": 47,
+    "rank": 165,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
  },
- "7c120762-4a31-4bdd-9fce-8b43bd90a07e": {
+ "459df1a4-6663-4d9e-9b05-bf33f5e9d8ea": {
   "log": [
    {
-    "week": 1,
-    "opp": "ACE Downingtown",
+    "week": 2,
+    "opp": "Montville",
     "homeAway": "A",
     "w": 1,
     "l": 5,
     "gp": 6,
-    "pf": 87,
-    "pa": 118,
+    "pf": 89,
+    "pa": 117,
     "mx": [
      0,
-     3
+     2
     ],
     "gn": [
      1,
-     2
+     3
     ],
     "cl": [
      0,
-     0
+     1
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 1,
+    "subFor": "Home Court"
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Nicholas Jackson",
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan M Fett",
     "vs": [
-     "Xiaowen Tang",
-     "Jay Lizardo"
+     "Sarah Law",
+     "Alexandra Sierer"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Home Court"
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Emiliya Mizrahi",
+    "vs": [
+     "Sarah Law",
+     "Christine Algozo"
     ],
     "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Crystal Mark",
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Robert Huntley",
     "vs": [
-     "Xiaowen Tang",
-     "Kiddi Vu"
+     "Alexandra Sierer",
+     "Abdullah Osman"
     ],
-    "f": 11,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Montville",
     "t": "female",
-    "with": "Nikki Koons",
+    "with": "Laura Fantin",
     "vs": [
-     "Karen Anthony",
-     "Xiaowen Tang"
+     "Carmina Lasam",
+     "Corie Stone"
     ],
     "f": 21,
-    "a": 13,
+    "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Montville",
     "t": "mixed",
-    "with": "Issac Gao",
+    "with": "Robert Huntley",
     "vs": [
-     "Nancy Wu",
-     "Vinoth Baburao Venkatakrishnan"
+     "Alexandra Sierer",
+     "Abdullah Osman"
     ],
-    "f": 18,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Issac Gao",
-    "vs": [
-     "Kiddi Vu",
-     "Justin Lin"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
+    "wk": 2,
+    "opp": "Montville",
     "t": "female",
-    "with": "Nikki Koons",
+    "with": "Laura Fantin",
     "vs": [
-     "Karen Anthony",
-     "Kiddi Vu"
+     "Alexandra Sierer",
+     "Sarah Law"
     ],
-    "f": 12,
+    "f": 8,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Home Court"
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": -0.8,
+    "week": 2,
+    "rating": -1.8,
     "confidence": 49,
-    "rank": 198,
+    "rank": 297,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -36057,6 +54851,15 @@
     "rating": -0.7,
     "confidence": 49,
     "rank": 190,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 49,
+    "rank": 228,
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.4
@@ -36201,6 +55004,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -1.1,
+    "confidence": 46,
+    "rank": 257,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -36342,6 +55154,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "rating": -3.6,
+    "confidence": 51,
+    "rank": 339,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -36483,9 +55304,902 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 49,
+    "rank": 272,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
+ },
+ "f173be84-93c7-46b8-b828-d44ddc52d63c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 86,
+    "pa": 126,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 104,
+    "pa": 120,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Dina Perrella",
+    "vs": [
+     "Dede Dolkar",
+     "Diana Nguyen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Diana Nguyen",
+     "Josiah Kim"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "female",
+    "with": "Dina Perrella",
+    "vs": [
+     "Em Melo",
+     "Diana Nguyen"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Carissa Baptista",
+     "Carlos Idrovo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Carissa Baptista",
+     "Carlos Idrovo"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Christine Algozo",
+     "Todd Green"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Richie Mizrahi",
+    "vs": [
+     "Alexandra Sierer",
+     "Keith Parker"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Laura Spilatro",
+    "vs": [
+     "Sarah Law",
+     "Christine Algozo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Christine Algozo",
+     "Chris Colucci"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Christine Algozo",
+     "Kamal D"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan M Fett",
+    "vs": [
+     "Carmina Lasam",
+     "Christine Algozo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.3,
+    "confidence": 43,
+    "rank": 279,
+    "ratingGames": 6,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -2.1,
+    "confidence": 60,
+    "rank": 311,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "23b78ff1-3039-4b01-b033-839cdba54a19",
+    "name": "Richie Mizrahi",
+    "n": 4,
+    "synergy": -0.9
+   },
+   {
+    "pid": "469c2465-d07c-4449-9adb-046595aeba8a",
+    "name": "Matthew Stephenson",
+    "n": 4,
+    "synergy": -1.8
+   }
+  ]
+ },
+ "717d97f0-4f08-476f-9c53-7595605bc0b0": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 113,
+    "pa": 145,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 100,
+    "pa": 122,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Virginia Alves",
+     "Cullen Curley"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "John Lottier",
+    "vs": [
+     "Dion Brown",
+     "Cullen Curley"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "John Lottier",
+    "vs": [
+     "Cullen Curley",
+     "David Reyes"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Arzu Alimjan",
+     "Jesse Frey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Dan Stanton",
+    "vs": [
+     "Jesse Frey",
+     "Dion Brown"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Deb Morisie",
+     "Jesse Frey"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "male",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "David Reyes",
+     "Chris Hudak"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Laura Slane",
+    "vs": [
+     "Khushi Shah",
+     "Anshul Sahu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Lakshmikanth Chaluvadi",
+    "vs": [
+     "Man Kwok",
+     "Jason Kwan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Josh Rito",
+    "vs": [
+     "Man Kwok",
+     "Jason Kwan"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Jamie Hahn",
+    "vs": [
+     "Christy Zhang",
+     "Jason Kwan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Addison Stewart",
+    "vs": [
+     "Josiah Kim",
+     "Winston Lian"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Addison Stewart",
+    "vs": [
+     "Winston Lian",
+     "Man Kwok"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.6,
+    "confidence": 51,
+    "rank": 249,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 68,
+    "rank": 304,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "17a78a69-329f-4133-8a0d-784c306a57c2",
+    "name": "Laura Slane",
+    "n": 3,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "7c120762-4a31-4bdd-9fce-8b43bd90a07e": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 87,
+    "pa": 118,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 119,
+    "pa": 145,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Xiaowen Tang",
+     "Jay Lizardo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Crystal Mark",
+    "vs": [
+     "Xiaowen Tang",
+     "Kiddi Vu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Nikki Koons",
+    "vs": [
+     "Karen Anthony",
+     "Xiaowen Tang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Issac Gao",
+    "vs": [
+     "Nancy Wu",
+     "Vinoth Baburao Venkatakrishnan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Issac Gao",
+    "vs": [
+     "Kiddi Vu",
+     "Justin Lin"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Nikki Koons",
+    "vs": [
+     "Karen Anthony",
+     "Kiddi Vu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Savan Patel"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Ann Dunn",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Jennifer Kasnadi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Sydney Peterson",
+     "Dylan Tjio"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Crystal Mark",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Jennifer Kasnadi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Issac Gao",
+    "vs": [
+     "Leah Oneill",
+     "Edrees Siddiqi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Leah Oneill",
+     "Keith Brittingham"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Jamie Damirgian",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Leah Oneill"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.8,
+    "confidence": 49,
+    "rank": 198,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 68,
+    "rank": 266,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ba54259c-c50f-446b-9385-f12e5c6fdf23",
+    "name": "Issac Gao",
+    "n": 3,
+    "synergy": 0.8
+   },
+   {
+    "pid": "bb72e9bd-3d29-4f40-911c-2c5f07c73da6",
+    "name": "Nicholas Jackson",
+    "n": 3,
+    "synergy": -0.1
+   }
+  ]
  },
  "8a8e0b35-1b88-44c9-914d-643787dc3ccd": {
   "log": [
@@ -36640,6 +56354,172 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": -1.1,
+    "confidence": 52,
+    "rank": 255,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
+ },
+ "67e72d20-d17c-4480-8159-9e4be9e18459": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 128,
+    "pa": 145,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Sydney Peterson",
+     "Dylan Tjio"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Jennifer Kasnadi",
+     "Savan Patel"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Lady Alvarado",
+     "Pam Politis"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Lady Alvarado",
+     "Savan Patel"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Crystal Mark",
+    "vs": [
+     "Lady Alvarado",
+     "Sydney Peterson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Pam Politis",
+     "Reggie Tiglao"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Leah Oneill"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0,
+    "confidence": 54,
+    "rank": 170,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -36797,6 +56677,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -1,
+    "confidence": 52,
+    "rank": 248,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -36954,163 +56843,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.2
-   }
-  ],
-  "partners": []
- },
- "717d97f0-4f08-476f-9c53-7595605bc0b0": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 113,
-    "pa": 145,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Laura Slane",
-    "vs": [
-     "Virginia Alves",
-     "Cullen Curley"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "John Lottier",
-    "vs": [
-     "Dion Brown",
-     "Cullen Curley"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "John Lottier",
-    "vs": [
-     "Cullen Curley",
-     "David Reyes"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Arzu Alimjan",
-     "Jesse Frey"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Dan Stanton",
-    "vs": [
-     "Jesse Frey",
-     "Dion Brown"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Laura Slane",
-    "vs": [
-     "Deb Morisie",
-     "Jesse Frey"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "male",
-    "with": "Lakshmikanth Chaluvadi",
-    "vs": [
-     "David Reyes",
-     "Chris Hudak"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.6,
-    "confidence": 51,
-    "rank": 249,
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 46,
+    "rank": 298,
     "ratingGames": 7,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -37268,6 +57009,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 52,
+    "rank": 191,
+    "ratingGames": 7,
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -37422,6 +57172,15 @@
     "rating": -0.4,
     "confidence": 49,
     "rank": 174,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -0.4,
+    "confidence": 49,
+    "rank": 199,
     "ratingGames": 7,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
@@ -37582,6 +57341,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 53,
+    "rank": 327,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -37739,320 +57507,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.5
-   }
-  ],
-  "partners": []
- },
- "ba54259c-c50f-446b-9385-f12e5c6fdf23": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Downingtown",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 94,
-    "pa": 141,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Nikki Koons",
-    "vs": [
-     "Nancy Wu",
-     "Justin Lin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Nicholas Jackson",
-    "vs": [
-     "Vinoth Baburao Venkatakrishnan",
-     "Justin Lin"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Nikki Koons",
-    "vs": [
-     "Karen Anthony",
-     "Thomas Kang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Scott Bersak",
-    "vs": [
-     "Justin Lin",
-     "Vinoth Baburao Venkatakrishnan"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Heather Triozzi",
-    "vs": [
-     "Nancy Wu",
-     "Vinoth Baburao Venkatakrishnan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Heather Triozzi",
-    "vs": [
-     "Kiddi Vu",
-     "Justin Lin"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "male",
-    "with": "Scott Bersak",
-    "vs": [
-     "Vinoth Baburao Venkatakrishnan",
-     "Jay Lizardo"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2,
-    "confidence": 48,
-    "rank": 266,
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 52,
+    "rank": 227,
     "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1.8
-   }
-  ],
-  "partners": []
- },
- "23b78ff1-3039-4b01-b033-839cdba54a19": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 89,
-    "pa": 138,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Diana Nguyen",
-     "Josiah Kim"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Huntley",
-    "vs": [
-     "Carlos Idrovo",
-     "Bruno Maguino"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Emiliya Mizrahi",
-    "vs": [
-     "Diana Nguyen",
-     "Josiah Kim"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Robert Huntley",
-    "vs": [
-     "Carlos Idrovo",
-     "Bruno Maguino"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Michael Jones",
-    "vs": [
-     "John Kim",
-     "Josiah Kim"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Ellen Edson",
-    "vs": [
-     "Khushi Shah",
-     "Winston Lian"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Michael Jones",
-    "vs": [
-     "John Kim",
-     "Josiah Kim"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.8,
-    "confidence": 47,
-    "rank": 260,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -38210,9 +57673,616 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 2
+   },
+   {
+    "week": 2,
+    "rating": -2.4,
+    "confidence": 50,
+    "rank": 320,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
+ },
+ "715b131c-87a5-4887-9505-7fb780511902": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 76,
+    "pa": 126,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 97,
+    "pa": 124,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Laura Fantin",
+    "vs": [
+     "Emily Su",
+     "John Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Winston Lian",
+     "Josiah Kim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Laura Fantin",
+    "vs": [
+     "Emily Su",
+     "John Kim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Winston Lian",
+     "Josiah Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dina Perrella",
+    "vs": [
+     "Emily Su",
+     "Jason Kwan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Dina Perrella",
+    "vs": [
+     "Dede Dolkar",
+     "Josiah Kim"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Laura Fantin",
+    "vs": [
+     "Alexandra Sierer",
+     "Keith Parker"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Kamal D",
+     "Todd Green"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Laura Fantin",
+    "vs": [
+     "Carmina Lasam",
+     "Kamal D"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Matthew Stephenson",
+    "vs": [
+     "Jason Huang",
+     "Kamal D"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Joe Carson",
+    "vs": [
+     "Abdullah Osman",
+     "Todd Green"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Joe Carson",
+    "vs": [
+     "Todd Green",
+     "Abdullah Osman"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.5,
+    "confidence": 44,
+    "rank": 287,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 63,
+    "rank": 324,
+    "ratingGames": 12,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "469c2465-d07c-4449-9adb-046595aeba8a",
+    "name": "Matthew Stephenson",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "db15b234-d88d-4556-9c9d-982947bdaae7",
+    "name": "Laura Fantin",
+    "n": 4,
+    "synergy": 0.5
+   }
+  ]
+ },
+ "ba54259c-c50f-446b-9385-f12e5c6fdf23": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 94,
+    "pa": 141,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 96,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Nikki Koons",
+    "vs": [
+     "Nancy Wu",
+     "Justin Lin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Vinoth Baburao Venkatakrishnan",
+     "Justin Lin"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Nikki Koons",
+    "vs": [
+     "Karen Anthony",
+     "Thomas Kang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Scott Bersak",
+    "vs": [
+     "Justin Lin",
+     "Vinoth Baburao Venkatakrishnan"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Nancy Wu",
+     "Vinoth Baburao Venkatakrishnan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Kiddi Vu",
+     "Justin Lin"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "male",
+    "with": "Scott Bersak",
+    "vs": [
+     "Vinoth Baburao Venkatakrishnan",
+     "Jay Lizardo"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Leah Oneill",
+     "Edrees Siddiqi"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Dylan Tjio",
+     "Savan Patel"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Joe Johnson",
+     "Edrees Siddiqi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Leah Oneill",
+     "Edrees Siddiqi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Bennett Matthew’S",
+    "vs": [
+     "Dylan Tjio",
+     "Savan Patel"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Crystal Mark",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Edrees Siddiqi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "male",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Dylan Tjio",
+     "Edrees Siddiqi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2,
+    "confidence": 48,
+    "rank": 266,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.8
+   },
+   {
+    "week": 2,
+    "rating": -2.9,
+    "confidence": 64,
+    "rank": 331,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "7c120762-4a31-4bdd-9fce-8b43bd90a07e",
+    "name": "Heather Triozzi",
+    "n": 3,
+    "synergy": 0.8
+   }
+  ]
  },
  "b9f7d35c-f183-41ea-99dd-52c790480ff1": {
   "log": [
@@ -38316,6 +58386,15 @@
     "rating": -0.7,
     "confidence": 37,
     "rank": 196,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 2,
+    "rating": -0.7,
+    "confidence": 37,
+    "rank": 232,
     "ratingGames": 4,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.2
@@ -38444,99 +58523,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": []
- },
- "bf40e187-35ca-4cd5-8269-7bf90f93b09a": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "H",
-    "w": 0,
-    "l": 3,
-    "gp": 3,
-    "pf": 46,
-    "pa": 63,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Sal Cocuzza",
-    "vs": [
-     "Mychal Villanueva",
-     "Joseph Roque"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Corie Stone",
-    "vs": [
-     "Monique Panajon",
-     "Mychal Villanueva"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Fair Lawn",
-    "t": "male",
-    "with": "Jason Huang",
-    "vs": [
-     "Joseph Roque",
-     "Mychal Villanueva"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.6,
-    "confidence": 29,
-    "rank": 254,
-    "ratingGames": 3,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1
+    "week": 2,
+    "rating": -1.7,
+    "confidence": 43,
+    "rank": 291,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -38630,6 +58625,15 @@
     "ratingGames": 3,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -3,
+    "confidence": 35,
+    "rank": 335,
+    "ratingGames": 3,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -38755,6 +58759,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 45,
+    "rank": 245,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -38880,6 +58893,15 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -2.8,
+    "confidence": 48,
+    "rank": 330,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -39037,6 +59059,15 @@
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 47,
+    "rank": 282,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -39159,6 +59190,15 @@
     "rating": -2,
     "confidence": 40,
     "rank": 270,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 2,
+    "rating": -2,
+    "confidence": 40,
+    "rank": 309,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -39287,6 +59327,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 42,
+    "rank": 265,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -39412,6 +59461,156 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 2,
+    "rating": -3,
+    "confidence": 41,
+    "rank": 334,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
+ "a4c54a14-35b4-4b90-aabd-3d81ad719f4d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 95,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Addison Stewart",
+    "vs": [
+     "Winston Lian",
+     "Anshul Sahu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Jamie Hahn",
+    "vs": [
+     "Khushi Shah",
+     "Anshul Sahu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "David Tabacco",
+    "vs": [
+     "Man Kwok",
+     "Jason Kwan"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Mary Brashier",
+    "vs": [
+     "Carissa Baptista",
+     "Josiah Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "mixed",
+    "with": "Monika Torbus",
+    "vs": [
+     "Christy Zhang",
+     "Jason Kwan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Watchung",
+    "t": "male",
+    "with": "Dan Stanton",
+    "vs": [
+     "Jason Kwan",
+     "Anshul Sahu"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -2.1,
+    "confidence": 51,
+    "rank": 312,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -39537,131 +59736,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "6f126e55-bb02-4c7d-a69d-db30473ad0b3": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 72,
-    "pa": 105,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Dave Brucker",
-    "vs": [
-     "Kelly Feng",
-     "Samuel Lee"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Dave Brucker",
-    "vs": [
-     "Kelly Feng",
-     "Samuel Lee"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Adam Lowther",
-    "vs": [
-     "Isobel Harvey",
-     "Samuel Lee"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Rebecca Mcginnis",
-    "vs": [
-     "Karen Rodriguez",
-     "Kelly Feng"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Rebecca Mcginnis",
-    "vs": [
-     "Isobel Harvey",
-     "Kelly Feng"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -1.6,
-    "confidence": 37,
-    "rank": 253,
+    "week": 2,
+    "rating": -1.8,
+    "confidence": 43,
+    "rank": 300,
     "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.9
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -39768,6 +59851,15 @@
     "rating": -2.9,
     "confidence": 40,
     "rank": 291,
+    "ratingGames": 4,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "rating": -2.9,
+    "confidence": 40,
+    "rank": 332,
     "ratingGames": 4,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.1
@@ -39912,397 +60004,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 2
-   }
-  ],
-  "partners": []
- },
- "af5e2e89-3606-4d7e-8c5a-b397ff786303": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 66,
-    "pa": 105,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Lisa Pinder",
-    "vs": [
-     "Karen Rodriguez",
-     "Isobel Harvey"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Jacob Alpert",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Ben Van Handel"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Lisa Pinder",
-    "vs": [
-     "Isobel Harvey",
-     "Kelly Feng"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Kyle Woerner",
-    "vs": [
-     "Tesa Pribitkin",
-     "Peter Siv"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Kyle Woerner",
-    "vs": [
-     "Pamela Toy",
-     "Kevin Wilson"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.5,
-    "confidence": 46,
-    "rank": 285,
-    "ratingGames": 5,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "f173be84-93c7-46b8-b828-d44ddc52d63c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 86,
-    "pa": 126,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Richie Mizrahi",
-    "vs": [
-     "Diana Nguyen",
-     "Josiah Kim"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Dina Perrella",
-    "vs": [
-     "Dede Dolkar",
-     "Diana Nguyen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Richie Mizrahi",
-    "vs": [
-     "Diana Nguyen",
-     "Josiah Kim"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "female",
-    "with": "Dina Perrella",
-    "vs": [
-     "Em Melo",
-     "Diana Nguyen"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Carissa Baptista",
-     "Carlos Idrovo"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Carissa Baptista",
-     "Carlos Idrovo"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.3,
-    "confidence": 43,
-    "rank": 279,
+    "week": 2,
+    "rating": -0.9,
+    "confidence": 47,
+    "rank": 243,
     "ratingGames": 6,
     "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.9
-   }
-  ],
-  "partners": []
- },
- "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Ballers Philly",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 63,
-    "pa": 105,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Adam Lowther",
-    "vs": [
-     "Karen Rodriguez",
-     "Peter Siv"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Hanna Cutler",
-    "vs": [
-     "Karen Rodriguez",
-     "Isobel Harvey"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Hanna Cutler",
-    "vs": [
-     "Isobel Harvey",
-     "Kelly Feng"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "female",
-    "with": "Dana Sheply",
-    "vs": [
-     "Alexandria Mlkvy",
-     "Tesa Pribitkin"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Ballers Philly",
-    "t": "mixed",
-    "with": "Dave Brucker",
-    "vs": [
-     "Kelly Feng",
-     "Ben Van Handel"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.3,
-    "confidence": 43,
-    "rank": 281,
-    "ratingGames": 5,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.7
+    "strengthOfOpponents": 2
    }
   ],
   "partners": []
@@ -40444,6 +60154,224 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 2,
+    "rating": -2.5,
+    "confidence": 48,
+    "rank": 322,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
+ "bf40e187-35ca-4cd5-8269-7bf90f93b09a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "H",
+    "w": 0,
+    "l": 3,
+    "gp": 3,
+    "pf": 46,
+    "pa": 63,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 79,
+    "pa": 105,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Sal Cocuzza",
+    "vs": [
+     "Mychal Villanueva",
+     "Joseph Roque"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Corie Stone",
+    "vs": [
+     "Monique Panajon",
+     "Mychal Villanueva"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Fair Lawn",
+    "t": "male",
+    "with": "Jason Huang",
+    "vs": [
+     "Joseph Roque",
+     "Mychal Villanueva"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Laura Fantin",
+     "Chris Fantin"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Alexandra Sierer",
+    "vs": [
+     "Emiliya Mizrahi",
+     "Richie Mizrahi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Todd Green",
+    "vs": [
+     "Robert Huntley",
+     "Joe Carson"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Corie Stone",
+    "vs": [
+     "Kim Batistoni",
+     "Richie Mizrahi"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Chris Colucci",
+    "vs": [
+     "Robert Huntley",
+     "Richie Mizrahi"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -1.6,
+    "confidence": 29,
+    "rank": 254,
+    "ratingGames": 3,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "rating": -3.7,
+    "confidence": 57,
+    "rank": 340,
+    "ratingGames": 8,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -40569,6 +60497,15 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 1.8
+   },
+   {
+    "week": 2,
+    "rating": -2.3,
+    "confidence": 43,
+    "rank": 318,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -40691,6 +60628,15 @@
     "rating": -1.2,
     "confidence": 44,
     "rank": 224,
+    "ratingGames": 5,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 2.4
+   },
+   {
+    "week": 2,
+    "rating": -1.2,
+    "confidence": 44,
+    "rank": 264,
     "ratingGames": 5,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 2.4
@@ -40835,6 +60781,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 51,
+    "rank": 328,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -40976,147 +60931,15 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.8
-   }
-  ],
-  "partners": []
- },
- "715b131c-87a5-4887-9505-7fb780511902": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 76,
-    "pa": 126,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Laura Fantin",
-    "vs": [
-     "Emily Su",
-     "John Kim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Winston Lian",
-     "Josiah Kim"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Laura Fantin",
-    "vs": [
-     "Emily Su",
-     "John Kim"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "male",
-    "with": "Matthew Stephenson",
-    "vs": [
-     "Winston Lian",
-     "Josiah Kim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Dina Perrella",
-    "vs": [
-     "Emily Su",
-     "Jason Kwan"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Watchung",
-    "t": "mixed",
-    "with": "Dina Perrella",
-    "vs": [
-     "Dede Dolkar",
-     "Josiah Kim"
-    ],
-    "f": 5,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.5,
-    "confidence": 44,
+    "week": 2,
+    "rating": -1.6,
+    "confidence": 45,
     "rank": 287,
     "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -41239,6 +61062,15 @@
     "rating": -3.3,
     "confidence": 43,
     "rank": 298,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 2,
+    "rating": -3.3,
+    "confidence": 43,
+    "rank": 336,
     "ratingGames": 5,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1.7
@@ -41399,163 +61231,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 2.1
-   }
-  ],
-  "partners": []
- },
- "c7347486-6c6f-4143-b74b-f3572653d54f": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "ACE Downingtown",
-    "homeAway": "A",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 89,
-    "pa": 147,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Scott Bersak",
-    "vs": [
-     "Kiddi Vu",
-     "Vinoth Baburao Venkatakrishnan"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Heather Triozzi",
-    "vs": [
-     "Xiaowen Tang",
-     "Kiddi Vu"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Scott Bersak",
-    "vs": [
-     "Nancy Wu",
-     "Justin Lin"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Jenn Smith",
-    "vs": [
-     "Kiddi Vu",
-     "Nancy Wu"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "mixed",
-    "with": "Arnaud Clairay",
-    "vs": [
-     "Xiaowen Tang",
-     "Thomas Kang"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Nikki Koons",
-    "vs": [
-     "Xiaowen Tang",
-     "Karen Anthony"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "ACE Downingtown",
-    "t": "female",
-    "with": "Ann Dunn",
-    "vs": [
-     "Xiaowen Tang",
-     "Nancy Wu"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -3.3,
-    "confidence": 51,
-    "rank": 297,
+    "week": 2,
+    "rating": -1.3,
+    "confidence": 49,
+    "rank": 271,
     "ratingGames": 7,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 2.1
    }
   ],
   "partners": []
@@ -41713,6 +61397,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "rating": -3.8,
+    "confidence": 47,
+    "rank": 341,
+    "ratingGames": 7,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -41851,6 +61544,15 @@
     "rating": -3.5,
     "confidence": 49,
     "rank": 299,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 2.2
+   },
+   {
+    "week": 2,
+    "rating": -3.5,
+    "confidence": 49,
+    "rank": 337,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 2.2
@@ -42011,6 +61713,15 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.9
+   },
+   {
+    "week": 2,
+    "rating": -3,
+    "confidence": 53,
+    "rank": 333,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.9
    }
   ],
   "partners": []
@@ -42168,6 +61879,304 @@
     "ratingGames": 7,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 2.5
+   },
+   {
+    "week": 2,
+    "rating": -2.3,
+    "confidence": 51,
+    "rank": 316,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 2.5
+   }
+  ],
+  "partners": []
+ },
+ "c7347486-6c6f-4143-b74b-f3572653d54f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "ACE Downingtown",
+    "homeAway": "A",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 89,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newark",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 87,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Scott Bersak",
+    "vs": [
+     "Kiddi Vu",
+     "Vinoth Baburao Venkatakrishnan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Xiaowen Tang",
+     "Kiddi Vu"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Scott Bersak",
+    "vs": [
+     "Nancy Wu",
+     "Justin Lin"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Jenn Smith",
+    "vs": [
+     "Kiddi Vu",
+     "Nancy Wu"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "mixed",
+    "with": "Arnaud Clairay",
+    "vs": [
+     "Xiaowen Tang",
+     "Thomas Kang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Nikki Koons",
+    "vs": [
+     "Xiaowen Tang",
+     "Karen Anthony"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "ACE Downingtown",
+    "t": "female",
+    "with": "Ann Dunn",
+    "vs": [
+     "Xiaowen Tang",
+     "Nancy Wu"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Shannon Vinciguerra",
+    "vs": [
+     "Lady Alvarado",
+     "Leah Oneill"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Michael Meraglia",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Joe Johnson"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Heather Triozzi",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Jennifer Kasnadi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Nicholas Jackson",
+    "vs": [
+     "Sydney Peterson",
+     "Keith Brittingham"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "female",
+    "with": "Jamie Damirgian",
+    "vs": [
+     "Lady Alvarado",
+     "Sydney Peterson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newark",
+    "t": "mixed",
+    "with": "Issac Gao",
+    "vs": [
+     "Caitlyn Suchanic",
+     "Edrees Siddiqi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -3.3,
+    "confidence": 51,
+    "rank": 297,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 2,
+    "rating": -4.2,
+    "confidence": 67,
+    "rank": 342,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
