@@ -2,6 +2,7 @@
   "name": "fishtownpickleball",
   "private": true,
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint --no-warn-ignored cpl/app.js cpl/home.js cpl/archive/archive.js \"cpl/local/*/bootstrap.js\" \"cpl/travel/*/bootstrap.js\" cpl/local/redirect.js cpl/travel/redirect.js _cpl/**/*.js",
     "lint:fix": "npm run lint:eslint -- --fix",

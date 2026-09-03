@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+# Catches committed cpl/ output that has drifted from what _cpl/ data
+# compiles to — the same check CI runs in .github/workflows/ci.yml, just
+# before it leaves your machine instead of after a push.
+#
+# Enabled via `git config core.hooksPath .githooks` (done automatically by
+# the "prepare" npm script on `npm install`). See README.md "Verifying a
+# change".
+
+set -e
+
+changed=$(git diff --cached --name-only --diff-filter=ACMR -- _cpl/ cpl/)
+if [ -z "$changed" ]; then
+  exit 0
+fi
+
+echo "pre-commit: _cpl/ or cpl/ staged — recompiling to check for drift..."
+
+if ! npm run --silent compile; then
+  echo "" >&2
+  echo "pre-commit: 'npm run compile' failed — fix the error above before committing." >&2
+  exit 1
+fi
+
+if ! git diff --exit-code -- cpl/; then
+  echo "" >&2
+  echo "pre-commit: committed cpl/ output has drifted from a fresh compile (diff above)." >&2
+  echo "Run 'npm run compile', then 'git add cpl/', and commit again." >&2
+  exit 1
+fi
+
+exit 0
