@@ -667,7 +667,7 @@
     "t": "mixed",
     "with": "Jake Denooyer",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Alan Carr"
     ],
     "f": 21,
@@ -716,7 +716,7 @@
     "with": "Donna Shabinaw",
     "vs": [
      "Karin Schneider",
-     "Sherry Silinger"
+     "Sherry Sili"
     ],
     "f": 21,
     "a": 8,
@@ -779,7 +779,7 @@
     "t": "female",
     "with": "Theresa Corderi",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Lucy Sha"
     ],
     "f": 21,
@@ -1579,7 +1579,7 @@
     "t": "mixed",
     "with": "Anne Buckley",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Alan Carr"
     ],
     "f": 21,
@@ -2209,7 +2209,7 @@
     "t": "mixed",
     "with": "Donna Shabinaw",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Alan Carr"
     ],
     "f": 24,
@@ -5716,7 +5716,7 @@
     "t": "female",
     "with": "Donna Shabinaw",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Irene Guile"
     ],
     "f": 21,
@@ -5748,7 +5748,7 @@
     "t": "female",
     "with": "Anne Buckley",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Lucy Sha"
     ],
     "f": 21,
@@ -6973,7 +6973,7 @@
     "with": "Donna Shabinaw",
     "vs": [
      "Karin Schneider",
-     "Sherry Silinger"
+     "Sherry Sili"
     ],
     "f": 18,
     "a": 22,
@@ -7020,7 +7020,7 @@
     "t": "mixed",
     "with": "Noach Shapiro",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Jerry Ridder"
     ],
     "f": 16,
@@ -26319,7 +26319,7 @@
     "with": "Christine Ostapiak",
     "vs": [
      "Karin Schneider",
-     "Sherry Silinger"
+     "Sherry Sili"
     ],
     "f": 18,
     "a": 22,
@@ -26334,7 +26334,7 @@
     "t": "mixed",
     "with": "Ward Greer",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Alan Carr"
     ],
     "f": 24,
@@ -26351,7 +26351,7 @@
     "with": "Anne Buckley",
     "vs": [
      "Karin Schneider",
-     "Sherry Silinger"
+     "Sherry Sili"
     ],
     "f": 21,
     "a": 8,
@@ -26382,7 +26382,7 @@
     "t": "female",
     "with": "Theresa Corderi",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Irene Guile"
     ],
     "f": 21,
@@ -26398,7 +26398,7 @@
     "t": "mixed",
     "with": "Noach Shapiro",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "John Zampini"
     ],
     "f": 18,
@@ -45607,7 +45607,7 @@
     "t": "mixed",
     "with": "Christine Ostapiak",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "Jerry Ridder"
     ],
     "f": 16,
@@ -45639,7 +45639,7 @@
     "t": "mixed",
     "with": "Donna Shabinaw",
     "vs": [
-     "Sherry Silinger",
+     "Sherry Sili",
      "John Zampini"
     ],
     "f": 18,
@@ -56460,7 +56460,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "mixed",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Donna Shabinaw",
      "Noach Shapiro"
@@ -60190,7 +60190,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "mixed",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Christine Ostapiak",
      "Noach Shapiro"
@@ -60463,7 +60463,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "female",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Christine Ostapiak",
      "Donna Shabinaw"
@@ -60495,7 +60495,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "female",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Anne Buckley",
      "Donna Shabinaw"
@@ -65598,7 +65598,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "female",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Theresa Corderi",
      "Anne Buckley"
@@ -65668,7 +65668,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "mixed",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Anne Buckley",
      "Jake Denooyer"
@@ -65700,7 +65700,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "mixed",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Donna Shabinaw",
      "Ward Greer"
@@ -71326,7 +71326,7 @@
     "wk": 1,
     "opp": "Pickleball Palace Black",
     "t": "female",
-    "with": "Sherry Silinger",
+    "with": "Sherry Sili",
     "vs": [
      "Theresa Corderi",
      "Donna Shabinaw"

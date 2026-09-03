@@ -6730,7 +6730,7 @@
    "playerId": "8db2af6c-d2cf-4613-a2c3-f512de991c85"
   },
   {
-   "name": "Sherry Silinger",
+   "name": "Sherry Sili",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 0,
@@ -15481,7 +15481,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "Alan Carr"
      ],
      "a": [
@@ -15510,7 +15510,7 @@
      "as": 18,
      "h": [
       "Karin Schneider",
-      "Sherry Silinger"
+      "Sherry Sili"
      ],
      "a": [
       "Christine Ostapiak",
@@ -15593,7 +15593,7 @@
      "hs": 22,
      "as": 24,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "Alan Carr"
      ],
      "a": [
@@ -15608,7 +15608,7 @@
      "as": 21,
      "h": [
       "Karin Schneider",
-      "Sherry Silinger"
+      "Sherry Sili"
      ],
      "a": [
       "Anne Buckley",
@@ -15663,7 +15663,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "Jerry Ridder"
      ],
      "a": [
@@ -15719,7 +15719,7 @@
      "hs": 11,
      "as": 21,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "Irene Guile"
      ],
      "a": [
@@ -15775,7 +15775,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "John Zampini"
      ],
      "a": [
@@ -15845,7 +15845,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Sherry Silinger",
+      "Sherry Sili",
       "Lucy Sha"
      ],
      "a": [
@@ -15885,7 +15885,7 @@
    "subs": [
     "Christine Ostapiak",
     "Donna Shabinaw",
-    "Sherry Silinger",
+    "Sherry Sili",
     "Jerry Ridder",
     "John Zampini",
     "Karin Schneider",
@@ -26437,7 +26437,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-03T04:08:31.348Z";
+  DATA.meta.asOf = "2026-09-03T16:23:03.912Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
