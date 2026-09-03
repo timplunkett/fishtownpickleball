@@ -77,9 +77,9 @@
       "weekNumber": 2,
       "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 646,
+      "awayPoints": 527,
+      "endResult": "home",
       "scheduledTime": "2026-09-03T11:00:00",
       "homeName": "Flemington Blue",
       "awayName": "PKLD"

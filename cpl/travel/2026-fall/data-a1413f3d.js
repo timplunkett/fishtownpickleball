@@ -17637,7 +17637,7 @@
     {
      "t": "mixed",
      "h": [
-      "Stephany Venuto",
+      "Lizz Dunn",
       "Christopher Venuto"
      ],
      "a": [
@@ -17682,7 +17682,7 @@
      "t": "female",
      "h": [
       "Angelique Gallucci",
-      "Stephany Venuto"
+      "Lizz Dunn"
      ],
      "a": [
       "Christine Horton",
@@ -17758,7 +17758,7 @@
     {
      "t": "mixed",
      "h": [
-      "Stephany Venuto",
+      "Lizz Dunn",
       "Christopher Venuto"
      ],
      "a": [
@@ -17857,7 +17857,7 @@
     {
      "t": "female",
      "h": [
-      "Stephany Venuto",
+      "Lizz Dunn",
       "Angelique Gallucci"
      ],
      "a": [
@@ -17934,7 +17934,7 @@
     {
      "t": "mixed",
      "h": [
-      "Stephany Venuto",
+      "Lizz Dunn",
       "Keith Glock"
      ],
      "a": [
@@ -17946,7 +17946,7 @@
      "t": "female",
      "h": [
       "Alicia Campbell",
-      "Stephany Venuto"
+      "Lizz Dunn"
      ],
      "a": [
       "Hien Do",
@@ -19842,7 +19842,7 @@
     {
      "t": "mixed",
      "h": [
-      "Morgan Fishman",
+      "Amalia Ditrapani",
       "Jacob Rosengarten"
      ],
      "a": [
@@ -19865,7 +19865,7 @@
      "t": "female",
      "h": [
       "Amanda Ksiezopolski",
-      "Morgan Fishman"
+      "Amalia Ditrapani"
      ],
      "a": [
       "Leah Stup",
@@ -19952,7 +19952,7 @@
     {
      "t": "female",
      "h": [
-      "Morgan Fishman",
+      "Amalia Ditrapani",
       "Richa Shah"
      ],
      "a": [
@@ -19985,7 +19985,7 @@
     {
      "t": "mixed",
      "h": [
-      "Morgan Fishman",
+      "Amalia Ditrapani",
       "Anthony Ursino"
      ],
      "a": [
@@ -20041,7 +20041,7 @@
      "t": "female",
      "h": [
       "Amanda Ksiezopolski",
-      "Morgan Fishman"
+      "Amalia Ditrapani"
      ],
      "a": [
       "Leah Stup",
@@ -20084,7 +20084,7 @@
     {
      "t": "mixed",
      "h": [
-      "Morgan Fishman",
+      "Amalia Ditrapani",
       "Samuel Levinson"
      ],
      "a": [
@@ -22044,7 +22044,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-03T15:30:35.300Z";
+  DATA.meta.asOf = "2026-09-03T20:18:49.122Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
