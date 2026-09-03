@@ -3154,6 +3154,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
     { key: 'sop', label: 'Partner Str' },
     { key: 'wl', label: 'W–L' },
     { key: 'winPct', label: 'Win%' },
+    { key: 'diff', label: '+/–' },
     { key: 'gamesPlayed', label: 'GP' },
   ];
 
@@ -3179,6 +3180,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
         <td>${renderCell(player, 'sop')}</td>
         <td>${renderCell(player, 'wl')}</td>
         <td>${player.winPct.toFixed(0)}%</td>
+        <td>${renderCell(player, 'diff')}</td>
         <td>${player.gamesPlayed}</td>
       </tr>
     `)
