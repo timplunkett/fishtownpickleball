@@ -197,9 +197,9 @@
       "weekNumber": 2,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 646,
+      "awayPoints": 554,
+      "endResult": "home",
       "scheduledTime": "2026-09-01T19:30:00",
       "homeName": "Pickle House",
       "awayName": "Dill Dinkers Freehold"

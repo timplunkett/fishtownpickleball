@@ -5389,6 +5389,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Erwin Wong",
+   "playerId": "a2806e74-6e0e-4848-a9d0-6b3bc6bf0060",
+   "team": "Allstar Pickler",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Esha Gajjar",
    "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
    "team": "Picklr Newtown",
@@ -9194,6 +9201,13 @@ window.DUPR_AUDIT = {
    "playerId": "37dd26f0-372e-4b75-8c8b-f16b72100f78",
    "team": "Delco Turf & Pickle",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Kara Chubrik",
+   "playerId": "6848f02a-1acc-47f8-8743-3525311031a9",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {
@@ -13159,6 +13173,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Noelie Hillebrecht",
+   "playerId": "97419da1-c259-41a5-8503-2decd14e8a9a",
+   "team": "Pickleball Palace Blue",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Noelle Villa",
    "playerId": "1898b8fb-ea1d-4bb8-bcc5-17b1fba29700",
    "team": "Flemington Green",
@@ -14130,6 +14151,13 @@ window.DUPR_AUDIT = {
    "team": "Home Court",
    "slug": "c43b8608",
    "gender": "Male"
+  },
+  {
+   "name": "Richa Shah",
+   "playerId": "6b80047c-ca16-4506-a2a4-ed894dc0c37f",
+   "team": "Monroe",
+   "slug": "a1413f3d",
+   "gender": "Female"
   },
   {
    "name": "Richa Shah",
@@ -15658,6 +15686,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Stacey Cohen",
+   "playerId": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+   "team": "Premiere",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Stacey Frank",
    "playerId": "768c88bd-683d-4204-8124-a589c8028b6e",
    "team": "ACE Moorestown",
@@ -16530,6 +16565,13 @@ window.DUPR_AUDIT = {
    "playerId": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
    "team": "Pickleball HQ",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Thomas Musso",
+   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+   "team": "Premiere Dinkers",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {
@@ -17601,13 +17643,6 @@ window.DUPR_AUDIT = {
    "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
    "team": "Premiere",
    "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
-   "name": "Yong Jin",
-   "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
-   "team": "Premiere",
-   "slug": "c43b8608",
    "gender": "Male"
   },
   {

@@ -2110,7 +2110,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 95,
+   "leagueRank": 97,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2139,7 +2139,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 129,
+   "leagueRank": 132,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2168,7 +2168,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 106,
+   "leagueRank": 109,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2226,7 +2226,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 104,
+   "leagueRank": 107,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2255,7 +2255,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 121,
+   "leagueRank": 124,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2284,7 +2284,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 138,
+   "leagueRank": 141,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2313,7 +2313,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 119,
+   "leagueRank": 122,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2342,7 +2342,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 92,
+   "leagueRank": 93,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2371,7 +2371,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 136,
+   "leagueRank": 139,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2400,7 +2400,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 110,
+   "leagueRank": 113,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2429,7 +2429,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 131,
+   "leagueRank": 134,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2458,7 +2458,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 98,
+   "leagueRank": 101,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2516,7 +2516,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 90,
+   "leagueRank": 91,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2545,7 +2545,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 114,
+   "leagueRank": 117,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2574,7 +2574,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 142,
+   "leagueRank": 145,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2603,7 +2603,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 118,
+   "leagueRank": 121,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2632,7 +2632,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 120,
+   "leagueRank": 123,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2661,7 +2661,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 133,
+   "leagueRank": 136,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2719,7 +2719,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 151,
+   "leagueRank": 154,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2748,13 +2748,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 116,
+   "leagueRank": 119,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "681fe702-3295-4dba-98a2-15e8aedc2873"
+  },
+  {
+   "name": "Kara Chubrik",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 96,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6848f02a-1acc-47f8-8743-3525311031a9"
   },
   {
    "name": "Jeannine Calhoun",
@@ -2777,7 +2806,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 94,
+   "leagueRank": 95,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2806,7 +2835,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 149,
+   "leagueRank": 152,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2835,7 +2864,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 108,
+   "leagueRank": 111,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2864,7 +2893,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 135,
+   "leagueRank": 138,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2893,7 +2922,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 89,
+   "leagueRank": 90,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2922,7 +2951,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 111,
+   "leagueRank": 114,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2951,7 +2980,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 117,
+   "leagueRank": 120,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -2980,7 +3009,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 93,
+   "leagueRank": 94,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3009,7 +3038,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 103,
+   "leagueRank": 106,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3038,7 +3067,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 102,
+   "leagueRank": 105,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3067,7 +3096,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 112,
+   "leagueRank": 115,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3096,7 +3125,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 115,
+   "leagueRank": 118,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3125,7 +3154,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 128,
+   "leagueRank": 131,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3154,7 +3183,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 146,
+   "leagueRank": 149,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3183,7 +3212,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 91,
+   "leagueRank": 92,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3212,7 +3241,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 126,
+   "leagueRank": 129,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3241,7 +3270,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 124,
+   "leagueRank": 127,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3270,7 +3299,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 99,
+   "leagueRank": 102,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3299,7 +3328,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 100,
+   "leagueRank": 103,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3328,13 +3357,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 122,
+   "leagueRank": 125,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6"
+  },
+  {
+   "name": "Stacey Cohen",
+   "gender": "Female",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 99,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "da4d615a-2d9f-4939-be52-1760fb37eb60"
   },
   {
    "name": "Kathleen Nitti",
@@ -3357,7 +3415,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 140,
+   "leagueRank": 143,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3386,7 +3444,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 109,
+   "leagueRank": 112,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3444,7 +3502,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 147,
+   "leagueRank": 150,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3473,7 +3531,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 107,
+   "leagueRank": 110,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3502,7 +3560,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 134,
+   "leagueRank": 137,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3531,7 +3589,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 127,
+   "leagueRank": 130,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6036,7 +6094,361 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Flemington Green",
    "time": "2026-09-03T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Rani Borusu",
+      "Sushma Rayapudi"
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Eileen Clark",
+      "Kara Chubrik"
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Susan Goeckeler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nikki Nigro",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Tanyalak Sawangpak",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Jeannine Calhoun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeannine Calhoun",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Susan Goeckeler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Jeannine Calhoun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Goeckeler",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeannine Calhoun",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Susan Goeckeler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeannine Calhoun",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Goeckeler",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Susan Goeckeler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Jeannine Calhoun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Marianne Rosato"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -6044,7 +6456,361 @@
    "home": "Pickleball Lehigh Valley",
    "away": "Montville",
    "time": "2026-09-03T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Christine Steigerwalt",
+      "Charlie Trapasso"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Joanne Rim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Denise Stevens"
+     ],
+     "a": [
+      "Jess Cox",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jean Dalstad",
+      "Mary Marger"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ghada Abraham",
+      "Lynn Hauth"
+     ],
+     "a": [
+      "Janine Thompson",
+      "Angie Ratkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Christine Steigerwalt"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Rachel Baluyot"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Denise Stevens",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Jess Cox",
+      "Joanne Rim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jenna Haas",
+      "Trena Hahn"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Angie Ratkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nami Huang",
+      "Ghada Abraham"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Jenna Haas"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Charlie Trapasso",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Jess Cox",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Trena Hahn",
+      "Mary Marger"
+     ],
+     "a": [
+      "Kumi Dalton",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lynn Hauth",
+      "Nami Huang"
+     ],
+     "a": [
+      "Angie Ratkowitz",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jenna Haas",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mary Marger",
+      "Denise Stevens"
+     ],
+     "a": [
+      "Jess Cox",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sandy Hess",
+      "Christine Steigerwalt"
+     ],
+     "a": [
+      "Rachel Baluyot",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ghada Abraham",
+      "Lynn Hauth"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Denise Stevens",
+      "Charlie Trapasso"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Angie Ratkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Trena Hahn"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nami Huang",
+      "Ghada Abraham"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lynn Hauth",
+      "Christine Steigerwalt"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mary Marger",
+      "Jenna Haas"
+     ],
+     "a": [
+      "Jess Cox",
+      "Rachel Baluyot"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lynn Hauth",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nami Huang",
+      "Trena Hahn"
+     ],
+     "a": [
+      "Angie Ratkowitz",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jenna Haas",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Charlie Trapasso",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Jess Cox",
+      "Theresa Corderi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Trena Hahn",
+      "Ghada Abraham"
+     ],
+     "a": [
+      "Hope Lo",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mary Marger",
+      "Nami Huang"
+     ],
+     "a": [
+      "Rachel Baluyot",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Maureen Murphy",
+      "Denise Stevens"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Mary Marger",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Hope Lo",
+      "Rachel Baluyot"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Christine Steigerwalt",
+      "Charlie Trapasso"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Trena Hahn",
+      "Jenna Haas"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Cheryl Brodsky"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -6052,7 +6818,361 @@
    "home": "Flemington Blue",
    "away": "PKLD",
    "time": "2026-09-03T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Johanna Kreilick",
+      "Peggy Matzen"
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Wormeck",
+      "Jo Marie Holzhammer"
+     ],
+     "a": [
+      "Marina Volpe",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Monika Torbus"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Bowers",
+      "Holly Ferguson"
+     ],
+     "a": [
+      "Linda Johns",
+      "Linda Seemann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Johanna Kreilick",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Kelly Bowers"
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Peggy Matzen"
+     ],
+     "a": [
+      "Linda Seemann",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jo Marie Holzhammer",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Olga Turova",
+      "Linda Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Johanna Kreilick",
+      "Holly Ferguson"
+     ],
+     "a": [
+      "Linda Johns",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jo Marie Holzhammer",
+      "Kelly Bowers"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Karen Waldon",
+      "Peggy Matzen"
+     ],
+     "a": [
+      "Linda Seemann",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Marina Berger",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Johanna Kreilick",
+      "Kelly Bowers"
+     ],
+     "a": [
+      "Linda Johns",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Holly Ferguson",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Olga Turova",
+      "Linda Seemann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Marina Berger",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Jo Marie Holzhammer"
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Paula Cushing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Peggy Matzen"
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Linda Seemann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jo Marie Holzhammer",
+      "Holly Ferguson"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Bowers",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Marina Volpe",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Linda Johns",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jo Marie Holzhammer",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Maureen Bruno",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Holly Ferguson"
+     ],
+     "a": [
+      "Linda Seemann",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Kelly Bowers"
+     ],
+     "a": [
+      "Linda Johns",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Peggy Matzen",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jo Marie Holzhammer",
+      "Peggy Matzen"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jessica Wormeck",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Olga Turova",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Monika Torbus",
+      "Kelly Bowers"
+     ],
+     "a": [
+      "Maureen Bruno",
+      "Linda Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Holly Ferguson"
+     ],
+     "a": [
+      "Linda Seemann",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Bowers",
+      "Jo Marie Holzhammer"
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Maureen Bruno"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Holly Ferguson",
+      "Karen Waldon"
+     ],
+     "a": [
+      "Marina Volpe",
+      "Linda Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meghan Klein",
+      "Monika Torbus"
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Peggy Matzen",
+      "Jessica Wormeck"
+     ],
+     "a": [
+      "Olga Turova",
+      "Linda Seemann"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -6065,8 +7185,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6076,8 +7196,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holli Lish",
+      "Suzi French"
      ],
      "a": [
       "Nancy Ciappina",
@@ -6087,8 +7207,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Sulyn Kulick"
      ],
      "a": [
       "Denise Bonagura",
@@ -6098,8 +7218,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Heather Waters"
      ],
      "a": [
       "Stacey Nusser",
@@ -6109,8 +7229,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Sulyn Kulick"
      ],
      "a": [
       "Diana Macri",
@@ -6120,8 +7240,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Nancy Ciappina",
@@ -6131,8 +7251,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Chiti Joshi"
      ],
      "a": [
       "Karen Pisano",
@@ -6142,8 +7262,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Holli Lish"
      ],
      "a": [
       "Stacey Nusser",
@@ -6153,8 +7273,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Jacqueline Ho"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6164,8 +7284,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Lori Wild"
      ],
      "a": [
       "Karen Pisano",
@@ -6175,8 +7295,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Heather Waters"
      ],
      "a": [
       "Paula De Nisc",
@@ -6186,8 +7306,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holli Lish",
+      "Sulyn Kulick"
      ],
      "a": [
       "Sally Sitro",
@@ -6197,8 +7317,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Jacqueline Ho"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6208,8 +7328,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Sulyn Kulick"
      ],
      "a": [
       "Diana Macri",
@@ -6219,8 +7339,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Lori Wild"
      ],
      "a": [
       "Karen Pisano",
@@ -6230,8 +7350,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holli Lish",
+      "Chiti Joshi"
      ],
      "a": [
       "Nancy Ciappina",
@@ -6241,8 +7361,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Lori Wild"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6252,8 +7372,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Heather Waters"
      ],
      "a": [
       "Christine Pisapia",
@@ -6263,8 +7383,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Jacqueline Ho"
      ],
      "a": [
       "Stacey Cohen",
@@ -6274,8 +7394,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Chiti Joshi"
      ],
      "a": [
       "Karen Pisano",
@@ -6285,8 +7405,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Jacqueline Ho"
      ],
      "a": [
       "Stacey Cohen",
@@ -6296,8 +7416,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holli Lish",
+      "Heather Waters"
      ],
      "a": [
       "Diana Macri",
@@ -6307,8 +7427,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Paula De Nisc",
@@ -6318,8 +7438,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Chiti Joshi"
      ],
      "a": [
       "Dawn Dalessio",
@@ -6329,8 +7449,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Chiti Joshi"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6340,8 +7460,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Christine Pisapia",
@@ -6351,8 +7471,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Lori Wild"
      ],
      "a": [
       "Stacey Nusser",
@@ -6362,8 +7482,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holli Lish",
+      "Heather Waters"
      ],
      "a": [
       "Paula De Nisc",
@@ -6373,8 +7493,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jacqueline Hillgrube",
+      "Jacqueline Ho"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -6384,8 +7504,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Chiti Joshi"
      ],
      "a": [
       "Diana Macri",
@@ -6395,8 +7515,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Lori Wild"
      ],
      "a": [
       "Stacey Nusser",
@@ -6406,8 +7526,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Heather Waters"
      ],
      "a": [
       "Denise Bonagura",
@@ -6422,7 +7542,361 @@
    "home": "Pickleball Kingdom Tinton Falls",
    "away": "Life Time Red Bank",
    "time": "2026-09-03T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Amy Wondrack",
+      "Jill Collins"
+     ],
+     "a": [
+      "Gina Faccone",
+      "Kathy Baker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Wendi Wolanske",
+      "Julie Biondi"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Karyn Jarmer",
+      "Melissa Mcconnell"
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kathleen Lynch",
+      "Corinne Palma"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginia Kenny",
+      "Corinne Palma"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shanasia Bagnol",
+      "Karyn Jarmer"
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Julie Biondi",
+      "Donna Finn"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Wendi Wolanske",
+      "Toni Demaio"
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Melissa Mcconnell",
+      "Karyn Jarmer"
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Corinne Palma",
+      "Julie Biondi"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amy Wondrack",
+      "Shanasia Bagnol"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginia Kenny",
+      "Jill Collins"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shanasia Bagnol",
+      "Melissa Mcconnell"
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Wendi Wolanske",
+      "Jill Collins"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Toni Demaio",
+      "Karyn Jarmer"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Wendi Wolanske",
+      "Toni Demaio"
+     ],
+     "a": [
+      "Gina Faccone",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jill Collins",
+      "Shanasia Bagnol"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kathleen Lynch",
+      "Donna Finn"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Karyn Jarmer",
+      "Julie Biondi"
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Wendi Wolanske",
+      "Melissa Mcconnell"
+     ],
+     "a": [
+      "Gina Faccone",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shanasia Bagnol",
+      "Jill Collins"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Finn",
+      "Amy Wondrack"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Kathy Baker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shanasia Bagnol",
+      "Corinne Palma"
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Toni Demaio",
+      "Donna Finn"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginia Kenny",
+      "Melissa Mcconnell"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amy Wondrack",
+      "Shanasia Bagnol"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Virginia Kenny",
+      "Jill Collins"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Brittany Messing"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Finn",
+      "Kathleen Lynch"
+     ],
+     "a": [
+      "Gina Faccone",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Toni Demaio",
+      "Julie Biondi"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Marie Walsh Mccarty"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -6876,6 +8350,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
+  "Marina Berger": "18052e12-bbc5-4535-b93b-0e11242c27d7",
   "Susan Goeckeler": "201e264e-23da-435d-a4b5-0fea908d1098",
   "Stacey Nusser": "24f324f0-f821-45ef-8278-4b65de08b7b5",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
@@ -6890,7 +8365,6 @@
   "Shanasia Bagnol": "d183236f-85a1-41a3-a26a-2f9bc04c3b07",
   "Roe Palermo": "d86280ad-5733-417d-af40-42a66c14b874",
   "Suzanne Leon": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
-  "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
   "Tracey Klemick": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
@@ -6898,7 +8372,7 @@
   "matchesPlayed": 4,
   "provisionalMatches": 0,
   "weeks": "1",
-  "totalPlayers": 133,
+  "totalPlayers": 135,
   "ratingHistoryWeeks": [
    1
   ],
@@ -6958,7 +8432,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-01T13:52:38.424Z";
+  DATA.meta.asOf = "2026-09-03T04:10:02.416Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

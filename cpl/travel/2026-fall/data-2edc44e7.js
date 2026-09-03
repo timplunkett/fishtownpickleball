@@ -7840,27 +7840,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 1,
-   "home": "Premiere",
-   "away": "Pickleball Palace",
-   "time": "2026-10-18T12:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "female",
-     "h": [
-      "Lily Liu",
-      "Nancy Lin"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    }
-   ]
-  },
-  {
    "result": "away",
    "week": 2,
    "home": "Premiere",
@@ -10957,6 +10936,14 @@
   },
   {
    "result": null,
+   "week": 9,
+   "home": "Premiere",
+   "away": "Pickleball Palace",
+   "time": "2026-10-18T12:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
    "week": 10,
    "home": "APC Garden State",
    "away": "Bounce Malvern Black",
@@ -11234,7 +11221,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-02T02:04:26.079Z";
+  DATA.meta.asOf = "2026-09-03T04:07:52.786Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
