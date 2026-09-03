@@ -19820,7 +19820,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Richa Shah",
       "Meet Patel"
      ],
      "a": [
@@ -19854,7 +19854,7 @@
      "t": "female",
      "h": [
       "Erica Rosenberg",
-      ""
+      "Richa Shah"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -19919,7 +19919,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Richa Shah",
       "Jacob Rosengarten"
      ],
      "a": [
@@ -19953,7 +19953,7 @@
      "t": "female",
      "h": [
       "Morgan Fishman",
-      ""
+      "Richa Shah"
      ],
      "a": [
       "Joreen Sun",
@@ -20007,7 +20007,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Richa Shah",
       "Jacob Rosengarten"
      ],
      "a": [
@@ -20106,7 +20106,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Richa Shah",
       "Anthony Ursino"
      ],
      "a": [
@@ -20117,7 +20117,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Richa Shah",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -22044,7 +22044,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-03T10:25:23.414Z";
+  DATA.meta.asOf = "2026-09-03T15:30:35.300Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

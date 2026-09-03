@@ -24445,7 +24445,6 @@
    "away": "Jersey Devil Green",
    "time": "2026-09-02T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 583,
    "awayPoints": 630,
    "homeGW": 13,
@@ -25837,7 +25836,6 @@
    "away": "Home Court",
    "time": "2026-09-02T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 625,
    "awayPoints": 576,
    "homeGW": 21,
@@ -26293,10 +26291,10 @@
     }
    ],
    "subs": [
-    "Kim Batistoni",
-    "Laura Spilatro",
     "Kamal D",
-    "Joe Carson"
+    "Kim Batistoni",
+    "Joe Carson",
+    "Laura Spilatro"
    ]
   },
   {
@@ -26772,7 +26770,6 @@
    "away": "Pickle Juice Blackwood",
    "time": "2026-09-02T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 629,
    "awayPoints": 622,
    "homeGW": 18,
@@ -29929,7 +29926,7 @@
  },
  "meta": {
   "matchesPlayed": 27,
-  "provisionalMatches": 3,
+  "provisionalMatches": 0,
   "weeks": "1-2",
   "totalPlayers": 454,
   "ratingHistoryWeeks": [
@@ -29962,7 +29959,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-03T10:25:48.010Z";
+  DATA.meta.asOf = "2026-09-03T15:31:03.149Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
