@@ -92,6 +92,36 @@ function readCompiledAsOf(outDir, slug) {
   return match ? JSON.parse(match[1]) : '';
 }
 
+// The playerId → rating lookup for a division this run did not recompile,
+// recovered the same way readCompiledAsOf recovers its timestamp: from the
+// data file already on disk rather than by re-deriving it from matchups.json.
+// Without this, buildPlayerIndex silently drops the `rating` field from every
+// finder entry outside the divisions a `--refresh-mode due` run touched, and
+// the next full compile (weekly cron or a manual `npm run compile`) adds it
+// back — pure churn in cpl/player-index.js with no underlying data change.
+// The data file is executed rather than JSON-parsed because it is a JS
+// statement, not JSON: `(function () { const DATA = {...}; window.DATA =
+// DATA; ... })();` — the same sandboxing writeDuprShards' caller already uses
+// on dupr-ratings.js in buildPlayerIndex.
+function readCompiledRatings(outDir, slug) {
+  const dataPath = path.join(outDir, `data-${slug}.js`);
+  if (!fs.existsSync(dataPath)) return new Map();
+  try {
+    const scope = {};
+    new Function('window', fs.readFileSync(dataPath, 'utf8'))(scope);
+    const players = (scope.DATA && scope.DATA.players) || [];
+    return new Map(
+      players
+        .filter((p) => p.playerId && Number.isFinite(p.rating))
+        .map((p) => [p.playerId, p.rating]),
+    );
+  } catch {
+    // A malformed or half-written data file just means no recovered ratings —
+    // same degrade-gracefully posture as readCompiledAsOf's missing-file case.
+    return new Map();
+  }
+}
+
 function buildCatalog(rootDir, { asOfBySlug = new Map() } = {}) {
   const leagues = LEAGUES.map((league) => {
     const seasons = readLeagueSeasons(league).map((season) => {
@@ -158,6 +188,7 @@ module.exports = {
   buildCatalog,
   eachLeagueSeason,
   readCompiledAsOf,
+  readCompiledRatings,
   readLeagueSeasons,
   readSeasonDivisions,
   seasonCacheDir,

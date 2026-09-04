@@ -7,6 +7,7 @@ const {
   LEAGUE_LABELS,
   eachLeagueSeason,
   readCompiledAsOf,
+  readCompiledRatings,
   readLeagueSeasons,
   seasonCacheDir,
   seasonOutDir,
@@ -1163,10 +1164,14 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
 
       // Built by compileDivision from the same roster, keyed by playerId. Not
       // every division that reaches here was compiled this run — a single
-      // --division backfill still walks every division for the finder — so
-      // this is often empty, and that is fine: div.clubName above tolerates
-      // the same gap the same way.
-      const ratingByPid = ratingsBySlug.get(`${league}/${season.slug}/${div.slug}`) || new Map();
+      // --division backfill, or a `--refresh-mode due` run, still walks every
+      // division for the finder — so this is recovered from the data file
+      // already on disk rather than left empty. Leaving it empty here is what
+      // used to make every due-mode run drop `rating` from every untouched
+      // division's finder entries, only for the next full compile to add it
+      // back — pure cpl/player-index.js churn with nothing actually changing.
+      const ratingByPid = ratingsBySlug.get(`${league}/${season.slug}/${div.slug}`)
+        || readCompiledRatings(seasonOutDir(rootDir, league, season.slug), div.slug);
       const bracket = getDivisionBracket({ divisionName: div.divisionName, leagueType: league });
       const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
       const players = selectCanonicalRosterPlayers(
