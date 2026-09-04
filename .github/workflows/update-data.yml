@@ -64,6 +64,25 @@ jobs:
             node _cpl/run-pipeline.js
           fi
 
+      # ci.yml has an equivalent check ("Check committed output matches a
+      # fresh compile"), but it never actually runs against these commits:
+      # GitHub does not fire push-triggered workflows for a push made with the
+      # default GITHUB_TOKEN (the credential actions/checkout wires up here),
+      # specifically to prevent workflows from recursively triggering each
+      # other. So ci.yml's drift check has only ever run against Tim's own
+      # pushes, never against a `due` run's. Recompiling every division from
+      # the cache this job just fetched — no network involved, so this is
+      # cheap even though `due` mode only refetched a few divisions — and
+      # diffing catches a due/full compile mismatch here, before it is ever
+      # committed, instead of relying on the next unrelated push to surface it.
+      - name: Recompile in full and verify no due/full drift
+        run: |
+          node _cpl/compile.js
+          if ! git diff --exit-code -- cpl/; then
+            echo "::error::This run's cpl/ output doesn't match a full recompile of the same cached data (diff above) — a due/full compile inconsistency, not stale data. Do not just re-run 'npm run compile' and commit; find and fix the compiler bug first."
+            exit 1
+          fi
+
       - name: Commit and Push changes
         env:
           REFRESH_MODE: ${{ steps.pipeline.outputs.refresh_mode }}
