@@ -317,9 +317,9 @@
       "weekNumber": 2,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 624,
+      "awayPoints": 574,
+      "endResult": "home",
       "scheduledTime": "2026-09-02T19:30:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Jersey Pickleball Club"
