@@ -9471,7 +9471,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-04T10:12:26.076Z";
+  DATA.meta.asOf = "2026-09-04T15:28:58.554Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
