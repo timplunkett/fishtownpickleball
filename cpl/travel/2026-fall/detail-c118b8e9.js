@@ -3806,8 +3806,8 @@
     "teamRes": "W",
     "teamGW": 26,
     "teamGL": 6,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -3824,8 +3824,8 @@
     "a": 28,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3840,8 +3840,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3856,8 +3856,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3872,8 +3872,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3888,8 +3888,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3904,8 +3904,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3920,8 +3920,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3936,8 +3936,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

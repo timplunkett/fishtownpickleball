@@ -5882,6 +5882,13 @@ window.DUPR_AUDIT = {
    "name": "Gary White",
    "playerId": "9a26eab9-96be-45e1-b380-2845a0e8e668",
    "team": "Premiere",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Gary White",
+   "playerId": "9a26eab9-96be-45e1-b380-2845a0e8e668",
+   "team": "Premiere",
    "slug": "a1413f3d",
    "gender": "Male"
   },

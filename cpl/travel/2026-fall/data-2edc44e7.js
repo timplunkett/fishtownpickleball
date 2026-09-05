@@ -11221,7 +11221,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-04T03:34:04.159Z";
+  DATA.meta.asOf = "2026-09-05T03:49:08.659Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

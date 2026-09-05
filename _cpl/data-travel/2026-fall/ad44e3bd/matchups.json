@@ -53,9 +53,9 @@
       "weekNumber": 2,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 509,
+      "awayPoints": 630,
+      "endResult": "away",
       "scheduledTime": "2026-09-03T11:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Flemington Green"

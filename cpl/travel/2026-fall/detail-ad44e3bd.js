@@ -173,177 +173,152 @@
    {
     "week": 2,
     "rating": 2.8,
-    "confidence": 58,
-    "rank": 6,
+    "confidence": 59,
+    "rank": 7,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -2.8
+    "strengthOfOpponents": -2.7
    }
   ],
   "partners": []
  },
- "ea658d89-a540-405d-9819-9c98a0484f60": {
+ "ab244dd7-ca2a-4e68-befd-b60c8fbad96f": {
   "log": [
    {
-    "week": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 7,
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
     "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 91,
+    "gp": 6,
+    "pf": 126,
+    "pa": 74,
     "mx": [
      0,
      0
     ],
     "gn": [
-     7,
+     6,
      0
     ],
     "cl": [
-     1,
+     0,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Rani Borusu",
+    "with": "Tammy Dragon",
     "vs": [
-     "Maureen Murphy",
-     "Susan Hughes"
+     "Rani Borusu",
+     "Sushma Rayapudi"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Kara Chubrik",
+     "Lynne Silber"
     ],
     "f": 21,
     "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Rani Borusu",
+    "with": "Susan Goeckeler",
     "vs": [
-     "Lynn Hauth",
-     "Kathleen Rex"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Denise Stevens",
-     "Kathleen Rex"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Tanyalak Sawangpak",
-    "vs": [
-     "Lynn Hauth",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Lynne Silber",
-    "vs": [
-     "Maureen Murphy",
-     "Jenna Haas"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Lynne Silber",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Lay Wassana",
-    "vs": [
-     "Christine Steigerwalt",
-     "Charlie Trapasso"
+     "Rani Borusu",
+     "Beth Pardilla"
     ],
     "f": 21,
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Eileen Clark",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Nikki Nigro",
+     "Rani Borusu"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 4.4,
-    "confidence": 55,
-    "rank": 1,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.3
-   },
-   {
     "week": 2,
-    "rating": 3.5,
-    "confidence": 56,
-    "rank": 3,
-    "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -1.2
+    "rating": 3.9,
+    "confidence": 52,
+    "rank": 1,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -463,12 +438,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 3,
+    "rating": 2.9,
     "confidence": 39,
-    "rank": 4,
+    "rank": 5,
     "ratingGames": 5,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.7
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.8
    }
   ],
   "partners": []
@@ -588,12 +563,153 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.2,
     "confidence": 45,
-    "rank": 34,
+    "rank": 40,
     "ratingGames": 5,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -1.6
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.8
+   }
+  ],
+  "partners": []
+ },
+ "85643f89-6cfc-4c76-8d09-0f0e4869a9dc": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 90,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Kara Chubrik",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Sushma Rayapudi",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Rani Borusu",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Lay Wassana",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Kara Chubrik",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 48,
+    "rank": 14,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -698,10 +814,10 @@
    {
     "week": 2,
     "rating": 2.5,
-    "confidence": 43,
-    "rank": 10,
+    "confidence": 44,
+    "rank": 11,
     "ratingGames": 4,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
    }
   ],
@@ -833,7 +949,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 50,
-    "rank": 17,
+    "rank": 20,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.6
@@ -1104,12 +1220,12 @@
    },
    {
     "week": 2,
-    "rating": 4,
+    "rating": 3.8,
     "confidence": 66,
-    "rank": 1,
+    "rank": 2,
     "ratingGames": 12,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -1390,12 +1506,12 @@
    },
    {
     "week": 2,
-    "rating": 2.6,
+    "rating": 2.5,
     "confidence": 69,
-    "rank": 7,
+    "rank": 10,
     "ratingGames": 12,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -1622,12 +1738,12 @@
    },
    {
     "week": 2,
-    "rating": 1.6,
+    "rating": 1.5,
     "confidence": 62,
-    "rank": 25,
+    "rank": 31,
     "ratingGames": 9,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -1635,21 +1751,21 @@
     "pid": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
     "name": "Ly Kim",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 0.5
    }
   ]
  },
- "6a8bbc75-9016-4f35-95f5-0e681d1e25e4": {
+ "078bc1a3-2897-4dc0-ae17-26b349108047": {
   "log": [
    {
-    "week": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
     "w": 6,
     "l": 1,
     "gp": 7,
-    "pf": 141,
-    "pa": 93,
+    "pf": 145,
+    "pa": 118,
     "mx": [
      0,
      0
@@ -1659,148 +1775,139 @@
      1
     ],
     "cl": [
-     0,
-     0
+     1,
+     1
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Sushma Rayapudi",
+    "with": "Grace Brennan",
     "vs": [
-     "Maureen Murphy",
-     "Susan Hughes"
+     "Nikki Nigro",
+     "Kim Allaga"
     ],
     "f": 21,
-    "a": 11,
+    "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Sushma Rayapudi",
+    "with": "Lynda Levan",
     "vs": [
-     "Lynn Hauth",
-     "Kathleen Rex"
+     "Nikki Nigro",
+     "Eileen Clark"
     ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Lynne Silber",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 15,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Lay Wassana",
+    "with": "Diane Bracco",
     "vs": [
-     "Denise Stevens",
-     "Susan Hughes"
+     "Sherry Sili",
+     "Lynne Silber"
     ],
     "f": 21,
-    "a": 9,
+    "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Nikki Nigro",
+    "with": "Susan Goeckeler",
     "vs": [
-     "Kathleen Rex",
-     "Lynn Hauth"
+     "Lynne Silber",
+     "Nikki Nigro"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Sushma Rayapudi",
+     "Beth Pardilla"
     ],
     "f": 21,
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Lay Wassana",
+    "with": "Jeannine Calhoun",
     "vs": [
-     "Jean Dalstad",
-     "Jenna Haas"
+     "Kara Chubrik",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Sherry Sili",
+     "Sushma Rayapudi"
     ],
     "f": 21,
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jenny Lin",
-    "vs": [
-     "Denise Stevens",
-     "Darlene Fusco"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "rating": 2.7,
-    "confidence": 53,
-    "rank": 3,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.5
-   },
-   {
     "week": 2,
-    "rating": 2.2,
+    "rating": 0.9,
     "confidence": 55,
-    "rank": 14,
+    "rank": 47,
     "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -1.2
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -2243,7 +2350,7 @@
     "week": 2,
     "rating": 3.5,
     "confidence": 67,
-    "rank": 2,
+    "rank": 3,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.8
@@ -2527,12 +2634,294 @@
    },
    {
     "week": 2,
-    "rating": 1.5,
+    "rating": 1.4,
     "confidence": 64,
-    "rank": 29,
+    "rank": 35,
     "ratingGames": 12,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "201e264e-23da-435d-a4b5-0fea908d1098": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 117,
+    "pa": 82,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Eileen Clark",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Lay Wassana",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Rani Borusu",
+     "Beth Pardilla"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Lynne Silber",
+     "Nikki Nigro"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Eileen Clark",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Rani Borusu",
+     "Sushma Rayapudi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 2.2,
+    "confidence": 53,
+    "rank": 16,
+    "ratingGames": 6,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
+ "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 118,
+    "pa": 87,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Kim Allaga",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Rani Borusu",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Sherry Sili",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Eileen Clark",
+     "Beth Pardilla"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 46,
+    "rank": 55,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -2670,7 +3059,7 @@
     "week": 2,
     "rating": 2.1,
     "confidence": 50,
-    "rank": 15,
+    "rank": 18,
     "ratingGames": 6,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.9
@@ -3050,12 +3439,12 @@
    },
    {
     "week": 2,
-    "rating": 1.7,
+    "rating": 1.6,
     "confidence": 62,
-    "rank": 21,
+    "rank": 25,
     "ratingGames": 10,
-    "strengthOfPartners": 2.3,
-    "strengthOfOpponents": -1
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -3293,10 +3682,10 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 61,
-    "rank": 30,
+    "rank": 32,
     "ratingGames": 10,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -3304,7 +3693,7 @@
     "pid": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
     "name": "Theresa Corderi",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 0.5
    }
   ]
  },
@@ -3539,12 +3928,12 @@
    },
    {
     "week": 2,
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 65,
-    "rank": 35,
+    "rank": 38,
     "ratingGames": 10,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -3664,12 +4053,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1,
+    "rating": 0.8,
     "confidence": 47,
-    "rank": 42,
+    "rank": 48,
     "ratingGames": 5,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -3791,10 +4180,10 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 47,
-    "rank": 53,
+    "rank": 60,
     "ratingGames": 5,
-    "strengthOfPartners": 2.3,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -4032,7 +4421,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 65,
-    "rank": 16,
+    "rank": 19,
     "ratingGames": 10,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -4300,7 +4689,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 48,
-    "rank": 19,
+    "rank": 22,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 1.3
@@ -4434,9 +4823,9 @@
     "week": 2,
     "rating": 0.2,
     "confidence": 48,
-    "rank": 57,
+    "rank": 66,
     "ratingGames": 5,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
    }
   ],
@@ -4557,9 +4946,9 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": 1.1,
+    "rating": 1,
     "confidence": 45,
-    "rank": 40,
+    "rank": 45,
     "ratingGames": 5,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -4784,7 +5173,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 58,
-    "rank": 38,
+    "rank": 42,
     "ratingGames": 9,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.7
@@ -5064,7 +5453,7 @@
     "week": 2,
     "rating": 2.2,
     "confidence": 67,
-    "rank": 12,
+    "rank": 15,
     "ratingGames": 12,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1.1
@@ -5078,188 +5467,6 @@
     "synergy": 0
    }
   ]
- },
- "875dfc40-0613-428f-8bb7-0e9f29e7ee78": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 126,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jenny Lin",
-    "vs": [
-     "Darlene Fusco",
-     "Denise Stevens"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Darlene Fusco",
-     "Charlie Trapasso"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Tanyalak Sawangpak",
-    "vs": [
-     "Charlie Trapasso",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Rani Borusu",
-    "vs": [
-     "Denise Stevens",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Robin Aiello",
-    "vs": [
-     "Jean Dalstad",
-     "Mary Marger"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Robin Aiello",
-    "vs": [
-     "Maureen Murphy",
-     "Charlie Trapasso"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Rani Borusu",
-    "vs": [
-     "Jean Dalstad",
-     "Jenna Haas"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Sushma Rayapudi",
-    "vs": [
-     "Christine Steigerwalt",
-     "Charlie Trapasso"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 2.6,
-    "confidence": 55,
-    "rank": 4,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 2,
-    "rating": 2.2,
-    "confidence": 58,
-    "rank": 13,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.9
-   }
-  ],
-  "partners": []
  },
  "fa858fcb-0eed-4ab9-94ea-efec4132e791": {
   "log": [
@@ -5540,6 +5747,638 @@
     "synergy": -0.1
    }
   ]
+ },
+ "ea658d89-a540-405d-9819-9c98a0484f60": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 91,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 122,
+    "pa": 133,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Lynn Hauth",
+     "Kathleen Rex"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Denise Stevens",
+     "Kathleen Rex"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Lynn Hauth",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Maureen Murphy",
+     "Jenna Haas"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Christine Steigerwalt",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Tammy Dragon",
+     "Julia Hollman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Elizabeth Biehl",
+     "Jeannine Calhoun"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Elizabeth Biehl",
+     "Tammy Dragon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Janice Aliberti",
+     "Elizabeth Biehl"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Grace Brennan",
+     "Susan Goeckeler"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Janice Aliberti",
+     "Tammy Dragon"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 4.4,
+    "confidence": 55,
+    "rank": 1,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 70,
+    "rank": 12,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "6a8bbc75-9016-4f35-95f5-0e681d1e25e4",
+    "name": "Rani Borusu",
+    "n": 4,
+    "synergy": 0.7
+   },
+   {
+    "pid": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
+    "name": "Lay Wassana",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
+ },
+ "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 139,
+    "pa": 95,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Rani Borusu",
+     "Sushma Rayapudi"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Lay Wassana",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Sushma Rayapudi",
+     "Lay Wassana"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Rani Borusu",
+     "Kim Allaga"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Sherry Sili",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Sherry Sili",
+     "Sushma Rayapudi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 3.5,
+    "confidence": 56,
+    "rank": 4,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "ca92ce54-a58c-4bf2-a49b-125be4b376ba": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 120,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Nikki Nigro",
+     "Eileen Clark"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Lay Wassana",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Beth Pardilla",
+     "Nikki Nigro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Nikki Nigro",
+     "Rani Borusu"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.6,
+    "confidence": 55,
+    "rank": 52,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
  },
  "e94c3831-b63f-4858-a2a1-94c0c10ee4e7": {
   "log": [
@@ -5868,9 +6707,9 @@
    },
    {
     "week": 2,
-    "rating": 1.4,
+    "rating": 1.3,
     "confidence": 73,
-    "rank": 32,
+    "rank": 36,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -1.2
@@ -5887,7 +6726,7 @@
     "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
     "name": "Linda Johns",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
@@ -6226,7 +7065,7 @@
     "week": 2,
     "rating": 0.7,
     "confidence": 72,
-    "rank": 46,
+    "rank": 50,
     "ratingGames": 16,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
@@ -6516,12 +7355,12 @@
    },
    {
     "week": 2,
-    "rating": 1.7,
+    "rating": 1.5,
     "confidence": 69,
-    "rank": 20,
+    "rank": 30,
     "ratingGames": 12,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -6798,7 +7637,7 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 65,
-    "rank": 36,
+    "rank": 37,
     "ratingGames": 12,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -1.4
@@ -7090,7 +7929,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 67,
-    "rank": 68,
+    "rank": 74,
     "ratingGames": 12,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.4
@@ -7249,8 +8088,8 @@
     "confidence": 49,
     "rank": 8,
     "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -7388,7 +8227,7 @@
     "week": 2,
     "rating": 1.9,
     "confidence": 49,
-    "rank": 18,
+    "rank": 21,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.8
@@ -7529,7 +8368,7 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 51,
-    "rank": 47,
+    "rank": 53,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.4
@@ -7866,10 +8705,10 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 70,
-    "rank": 50,
+    "rank": 57,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": [
@@ -7889,7 +8728,7 @@
     "pid": "cb063892-906f-4769-8815-2a87da5bf426",
     "name": "Marina Volpe",
     "n": 3,
-    "synergy": -1
+    "synergy": -1.1
    }
   ]
  },
@@ -8221,8 +9060,8 @@
    {
     "week": 2,
     "rating": -0.2,
-    "confidence": 71,
-    "rank": 67,
+    "confidence": 72,
+    "rank": 73,
     "ratingGames": 16,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.9
@@ -8251,7 +9090,7 @@
     "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
     "name": "Linda Seemann",
     "n": 3,
-    "synergy": -1
+    "synergy": -1.1
    }
   ]
  },
@@ -8422,11 +9261,307 @@
     "confidence": 55,
     "rank": 26,
     "ratingGames": 8,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
+ },
+ "6a8bbc75-9016-4f35-95f5-0e681d1e25e4": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 141,
+    "pa": 93,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 105,
+    "pa": 111,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Lynn Hauth",
+     "Kathleen Rex"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Denise Stevens",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Kathleen Rex",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Jean Dalstad",
+     "Jenna Haas"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jenny Lin",
+    "vs": [
+     "Denise Stevens",
+     "Darlene Fusco"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Tammy Dragon",
+     "Julia Hollman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Susan Goeckeler",
+     "Julia Hollman"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Jeannine Calhoun",
+     "Marianne Rosato"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Diane Bracco",
+     "Tammy Dragon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Grace Brennan",
+     "Susan Goeckeler"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Julia Hollman",
+     "Lynda Levan"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 2.7,
+    "confidence": 53,
+    "rank": 3,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 2,
+    "rating": 2.4,
+    "confidence": 69,
+    "rank": 13,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
+    "name": "Sushma Rayapudi",
+    "n": 4,
+    "synergy": 0.7
+   }
+  ]
  },
  "b1066a81-7537-4512-939d-5acbf11ef9aa": {
   "log": [
@@ -8709,7 +9844,7 @@
     "week": 2,
     "rating": -0.5,
     "confidence": 69,
-    "rank": 75,
+    "rank": 85,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1
@@ -8963,7 +10098,7 @@
     "week": 2,
     "rating": -0.3,
     "confidence": 63,
-    "rank": 73,
+    "rank": 81,
     "ratingGames": 10,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
@@ -9095,7 +10230,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 40,
-    "rank": 56,
+    "rank": 63,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
@@ -9227,12 +10362,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
-    "confidence": 46,
-    "rank": 45,
+    "rating": 0.7,
+    "confidence": 47,
+    "rank": 51,
     "ratingGames": 5,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -9363,7 +10498,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 45,
-    "rank": 63,
+    "rank": 71,
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.2
@@ -9495,12 +10630,12 @@
    },
    {
     "week": 2,
-    "rating": 0.4,
+    "rating": 0.3,
     "confidence": 48,
-    "rank": 52,
+    "rank": 61,
     "ratingGames": 5,
     "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 1.1
+    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -9631,7 +10766,7 @@
     "week": 2,
     "rating": 1.1,
     "confidence": 48,
-    "rank": 39,
+    "rank": 43,
     "ratingGames": 5,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.3
@@ -9934,9 +11069,9 @@
    },
    {
     "week": 2,
-    "rating": 2.2,
+    "rating": 2.1,
     "confidence": 72,
-    "rank": 11,
+    "rank": 17,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.7
@@ -10100,7 +11235,7 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 56,
-    "rank": 59,
+    "rank": 67,
     "ratingGames": 7,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.4
@@ -10108,32 +11243,59 @@
   ],
   "partners": []
  },
- "01c2e4d1-3738-4ee6-8878-4a2559ec006a": {
+ "875dfc40-0613-428f-8bb7-0e9f29e7ee78": {
   "log": [
    {
     "week": 1,
     "opp": "Pickleball Lehigh Valley",
     "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 132,
-    "pa": 121,
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 126,
     "mx": [
      0,
      0
     ],
     "gn": [
-     4,
-     3
+     6,
+     2
     ],
     "cl": [
-     1,
-     1
+     0,
+     2
     ],
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 94,
+    "pa": 116,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
    }
@@ -10143,13 +11305,13 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Tanyalak Sawangpak",
+    "with": "Jenny Lin",
     "vs": [
-     "Jean Dalstad",
-     "Mary Marger"
+     "Darlene Fusco",
+     "Denise Stevens"
     ],
     "f": 21,
-    "a": 13,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 1,
@@ -10159,7 +11321,7 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Lay Wassana",
+    "with": "Nikki Nigro",
     "vs": [
      "Darlene Fusco",
      "Charlie Trapasso"
@@ -10175,30 +11337,14 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Sushma Rayapudi",
+    "with": "Tanyalak Sawangpak",
     "vs": [
-     "Denise Stevens",
-     "Kathleen Rex"
+     "Charlie Trapasso",
+     "Trena Hahn"
     ],
-    "f": 24,
-    "a": 22,
+    "f": 21,
+    "a": 17,
     "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jenny Lin",
-    "vs": [
-     "Trena Hahn",
-     "Christine Steigerwalt"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
@@ -10209,11 +11355,11 @@
     "t": "female",
     "with": "Rani Borusu",
     "vs": [
-     "Kathleen Rex",
-     "Lynn Hauth"
+     "Denise Stevens",
+     "Susan Hughes"
     ],
     "f": 21,
-    "a": 14,
+    "a": 9,
     "w": 1,
     "ff": 0,
     "sub": 1,
@@ -10223,10 +11369,10 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Tanyalak Sawangpak",
+    "with": "Robin Aiello",
     "vs": [
-     "Christine Steigerwalt",
-     "Darlene Fusco"
+     "Jean Dalstad",
+     "Mary Marger"
     ],
     "f": 19,
     "a": 21,
@@ -10239,14 +11385,142 @@
     "wk": 1,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Lynne Silber",
+    "with": "Robin Aiello",
     "vs": [
      "Maureen Murphy",
-     "Susan Hughes"
+     "Charlie Trapasso"
     ],
-    "f": 12,
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Jean Dalstad",
+     "Jenna Haas"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Christine Steigerwalt",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Diane Bracco",
+     "Jeannine Calhoun"
+    ],
+    "f": 10,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Tammy Dragon",
+     "Susan Goeckeler"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Elizabeth Biehl",
+     "Jeannine Calhoun"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Elizabeth Biehl",
+     "Tammy Dragon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Jeannine Calhoun",
+     "Lynda Levan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Elizabeth Biehl",
+     "Diane Bracco"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
@@ -10255,24 +11529,37 @@
   "ratingHistory": [
    {
     "week": 1,
-    "rating": 0.4,
-    "confidence": 56,
-    "rank": 31,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0
+    "rating": 2.6,
+    "confidence": 55,
+    "rank": 4,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 2,
-    "rating": -0.1,
-    "confidence": 57,
-    "rank": 66,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.8
+    "rating": 1.1,
+    "confidence": 70,
+    "rank": 41,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
+    "name": "Sushma Rayapudi",
+    "n": 3,
+    "synergy": -0.4
+   },
+   {
+    "pid": "97f8761c-a825-4f89-9d92-0c8dea9d0065",
+    "name": "Tanyalak Sawangpak",
+    "n": 3,
+    "synergy": -1.6
+   }
+  ]
  },
  "c9f10502-3413-4189-87c9-d05ec7accae3": {
   "log": [
@@ -10571,9 +11858,9 @@
     "week": 2,
     "rating": 1.4,
     "confidence": 70,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 14,
-    "strengthOfPartners": 0,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -10919,12 +12206,12 @@
    },
    {
     "week": 2,
-    "rating": 2.9,
+    "rating": 2.8,
     "confidence": 71,
-    "rank": 5,
+    "rank": 6,
     "ratingGames": 16,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -10932,7 +12219,7 @@
     "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
     "name": "Kelly Bowers",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
@@ -11269,9 +12556,9 @@
    },
    {
     "week": 2,
-    "rating": -0.7,
+    "rating": -0.8,
     "confidence": 71,
-    "rank": 77,
+    "rank": 90,
     "ratingGames": 16,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.4
@@ -11282,7 +12569,7 @@
     "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
     "name": "Linda Johns",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
@@ -11625,12 +12912,12 @@
    },
    {
     "week": 2,
-    "rating": 1.6,
+    "rating": 1.5,
     "confidence": 74,
-    "rank": 22,
+    "rank": 29,
     "ratingGames": 16,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -11638,7 +12925,7 @@
     "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
     "name": "Jo Marie Holzhammer",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
@@ -11865,7 +13152,7 @@
     "week": 2,
     "rating": 1.5,
     "confidence": 60,
-    "rank": 31,
+    "rank": 33,
     "ratingGames": 9,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.8
@@ -12097,7 +13384,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 61,
-    "rank": 70,
+    "rank": 76,
     "ratingGames": 9,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.7
@@ -12361,7 +13648,7 @@
     "week": 2,
     "rating": 0.9,
     "confidence": 64,
-    "rank": 43,
+    "rank": 46,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -1.2
@@ -12631,7 +13918,7 @@
     "week": 2,
     "rating": -0.1,
     "confidence": 60,
-    "rank": 65,
+    "rank": 72,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.3
@@ -12901,7 +14188,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 64,
-    "rank": 92,
+    "rank": 101,
     "ratingGames": 11,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -1
@@ -13441,7 +14728,7 @@
     "week": 2,
     "rating": 1,
     "confidence": 62,
-    "rank": 41,
+    "rank": 44,
     "ratingGames": 11,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.8
@@ -13711,7 +14998,7 @@
     "week": 2,
     "rating": 0.5,
     "confidence": 62,
-    "rank": 49,
+    "rank": 56,
     "ratingGames": 11,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.8
@@ -14061,7 +15348,7 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 73,
-    "rank": 80,
+    "rank": 89,
     "ratingGames": 16,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1
@@ -14224,10 +15511,151 @@
     "week": 2,
     "rating": 1.2,
     "confidence": 52,
-    "rank": 37,
+    "rank": 39,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "c7dd526f-b8fe-4172-977d-912044350954": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 109,
+    "pa": 102,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Kim Allaga",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Sherry Sili",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Sushma Rayapudi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Rani Borusu",
+     "Kim Allaga"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Lay Wassana",
+     "Kim Allaga"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 86,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -14559,12 +15987,12 @@
    },
    {
     "week": 2,
-    "rating": 0.8,
+    "rating": 0.7,
     "confidence": 72,
-    "rank": 44,
+    "rank": 49,
     "ratingGames": 16,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
@@ -14734,12 +16162,153 @@
    },
    {
     "week": 2,
-    "rating": -1.2,
-    "confidence": 51,
-    "rank": 86,
+    "rating": -1.3,
+    "confidence": 52,
+    "rank": 98,
     "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": []
+ },
+ "4986f918-309d-4d39-abde-336bc27ae79d": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 102,
+    "pa": 109,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Janice Aliberti",
+     "Grace Brennan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Elizabeth Biehl",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Diane Bracco",
+     "Marianne Rosato"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Diane Bracco",
+     "Tammy Dragon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Elizabeth Biehl",
+     "Diane Bracco"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 49,
+    "rank": 83,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": []
@@ -15071,9 +16640,9 @@
    },
    {
     "week": 2,
-    "rating": -2.2,
+    "rating": -2.3,
     "confidence": 71,
-    "rank": 99,
+    "rank": 111,
     "ratingGames": 16,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -1.2
@@ -15084,6 +16653,12 @@
     "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
     "name": "Olga Turova",
     "n": 4,
+    "synergy": -0.1
+   },
+   {
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 3,
     "synergy": -0.2
    },
    {
@@ -15093,18 +16668,442 @@
     "synergy": -0.2
    },
    {
-    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
-    "name": "Maureen Bruno",
-    "n": 3,
-    "synergy": -0.3
-   },
-   {
     "pid": "cac68244-9c27-49bf-9354-1e9282427426",
     "name": "Kayla Gipson",
     "n": 4,
     "synergy": -0.4
    }
   ]
+ },
+ "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 102,
+    "pa": 111,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Elizabeth Biehl",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Susan Goeckeler",
+     "Julia Hollman"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Janice Aliberti",
+     "Elizabeth Biehl"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Elizabeth Biehl",
+     "Lynda Levan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Grace Brennan",
+     "Marianne Rosato"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -0.3,
+    "confidence": 51,
+    "rank": 82,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
+ "01c2e4d1-3738-4ee6-8878-4a2559ec006a": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 132,
+    "pa": 121,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 112,
+    "pa": 120,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Jean Dalstad",
+     "Mary Marger"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Darlene Fusco",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Denise Stevens",
+     "Kathleen Rex"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jenny Lin",
+    "vs": [
+     "Trena Hahn",
+     "Christine Steigerwalt"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Kathleen Rex",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Christine Steigerwalt",
+     "Darlene Fusco"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Janice Aliberti",
+     "Grace Brennan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Janice Aliberti",
+     "Lynda Levan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Grace Brennan",
+     "Lynda Levan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Janice Aliberti",
+     "Susan Goeckeler"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Elizabeth Biehl",
+     "Lynda Levan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Julia Hollman",
+     "Lynda Levan"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0.4,
+    "confidence": 56,
+    "rank": 31,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 2,
+    "rating": 0.2,
+    "confidence": 68,
+    "rank": 64,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
  },
  "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a": {
   "log": [
@@ -15353,12 +17352,12 @@
    },
    {
     "week": 2,
-    "rating": 0.3,
+    "rating": 0.2,
     "confidence": 65,
-    "rank": 54,
+    "rank": 65,
     "ratingGames": 11,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -15610,12 +17609,12 @@
    },
    {
     "week": 2,
-    "rating": -0.1,
+    "rating": -0.3,
     "confidence": 64,
-    "rank": 64,
+    "rank": 80,
     "ratingGames": 11,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -15623,9 +17622,166 @@
     "pid": "2a233243-51cc-4a54-aaab-1297a41ce67a",
     "name": "Charlie Trapasso",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    }
   ]
+ },
+ "a10029d9-c75f-4a33-98cd-6173faa99ddc": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 130,
+    "pa": 125,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Eileen Clark",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Sushma Rayapudi",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Sushma Rayapudi",
+     "Lay Wassana"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Sushma Rayapudi",
+     "Beth Pardilla"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Beth Pardilla",
+     "Nikki Nigro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Lay Wassana",
+     "Kim Allaga"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": 0.4,
+    "confidence": 54,
+    "rank": 59,
+    "ratingGames": 7,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
  },
  "d64631c2-5086-4d28-b93e-26c8661af87b": {
   "log": [
@@ -15922,12 +18078,12 @@
    },
    {
     "week": 2,
-    "rating": -1.8,
+    "rating": -1.9,
     "confidence": 70,
-    "rank": 95,
+    "rank": 105,
     "ratingGames": 14,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -16172,7 +18328,7 @@
     "week": 2,
     "rating": 0,
     "confidence": 64,
-    "rank": 62,
+    "rank": 69,
     "ratingGames": 10,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.3
@@ -16317,12 +18473,12 @@
    },
    {
     "week": 2,
-    "rating": 0.2,
-    "confidence": 46,
-    "rank": 58,
+    "rating": 0,
+    "confidence": 47,
+    "rank": 70,
     "ratingGames": 5,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -16444,7 +18600,7 @@
     "week": 2,
     "rating": -1.4,
     "confidence": 46,
-    "rank": 91,
+    "rank": 99,
     "ratingGames": 5,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -16685,192 +18841,10 @@
     "week": 2,
     "rating": -0.8,
     "confidence": 64,
-    "rank": 81,
+    "rank": 91,
     "ratingGames": 10,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": []
- },
- "97f8761c-a825-4f89-9d92-0c8dea9d0065": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 142,
-    "pa": 143,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Jean Dalstad",
-     "Mary Marger"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Robin Aiello",
-    "vs": [
-     "Jenna Haas",
-     "Christine Steigerwalt"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Lay Wassana",
-    "vs": [
-     "Charlie Trapasso",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Sushma Rayapudi",
-    "vs": [
-     "Lynn Hauth",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Charlie Trapasso",
-     "Denise Stevens"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jenny Lin",
-    "vs": [
-     "Jean Dalstad",
-     "Denise Stevens"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Christine Steigerwalt",
-     "Darlene Fusco"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Kathleen Rex",
-     "Jenna Haas"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": 0,
-    "confidence": 56,
-    "rank": 37,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "rating": -0.7,
-    "confidence": 59,
-    "rank": 78,
-    "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -17040,7 +19014,7 @@
     "week": 2,
     "rating": 0.4,
     "confidence": 54,
-    "rank": 51,
+    "rank": 58,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.4
@@ -17297,10 +19271,10 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 63,
-    "rank": 69,
+    "rank": 75,
     "ratingGames": 11,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -17308,7 +19282,7 @@
     "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
     "name": "Jean Dalstad",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.1
    }
   ]
  },
@@ -17445,7 +19419,7 @@
     "week": 2,
     "rating": 0.3,
     "confidence": 41,
-    "rank": 55,
+    "rank": 62,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1
@@ -17586,7 +19560,7 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 49,
-    "rank": 71,
+    "rank": 77,
     "ratingGames": 6,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.1
@@ -17727,10 +19701,151 @@
     "week": 2,
     "rating": 0.6,
     "confidence": 47,
-    "rank": 48,
+    "rank": 54,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": []
+ },
+ "15778391-96b7-4888-9d08-d63b96e104ca": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 103,
+    "pa": 119,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Nikki Nigro",
+     "Kim Allaga"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Sushma Rayapudi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Rani Borusu",
+     "Sushma Rayapudi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Eileen Clark",
+     "Beth Pardilla"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.9,
+    "confidence": 53,
+    "rank": 106,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -17868,13 +19983,309 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 50,
-    "rank": 93,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
+ },
+ "97f8761c-a825-4f89-9d92-0c8dea9d0065": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 142,
+    "pa": 143,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 65,
+    "pa": 102,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Jean Dalstad",
+     "Mary Marger"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Jenna Haas",
+     "Christine Steigerwalt"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Charlie Trapasso",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Lynn Hauth",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Charlie Trapasso",
+     "Denise Stevens"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jenny Lin",
+    "vs": [
+     "Jean Dalstad",
+     "Denise Stevens"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Christine Steigerwalt",
+     "Darlene Fusco"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Kathleen Rex",
+     "Jenna Haas"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Diane Bracco",
+     "Jeannine Calhoun"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Tammy Dragon",
+     "Susan Goeckeler"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Jeannine Calhoun",
+     "Marianne Rosato"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Tammy Dragon",
+     "Marianne Rosato"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": 0,
+    "confidence": 56,
+    "rank": 37,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -2.4,
+    "confidence": 69,
+    "rank": 112,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
+    "name": "Lay Wassana",
+    "n": 3,
+    "synergy": -1.6
+   }
+  ]
  },
  "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087": {
   "log": [
@@ -18107,12 +20518,12 @@
    },
    {
     "week": 2,
-    "rating": -1.4,
+    "rating": -2,
     "confidence": 63,
-    "rank": 90,
+    "rank": 107,
     "ratingGames": 10,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -18120,13 +20531,13 @@
     "pid": "4f9985c1-7c99-4816-9ddf-c45dc6dd9d7c",
     "name": "Mary Marger",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
     "name": "Jenna Haas",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.6
    }
   ]
  },
@@ -18288,10 +20699,10 @@
     "week": 2,
     "rating": 0.1,
     "confidence": 56,
-    "rank": 60,
+    "rank": 68,
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 1.7
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -18452,178 +20863,12 @@
    },
    {
     "week": 2,
-    "rating": -1.9,
+    "rating": -2,
     "confidence": 52,
-    "rank": 96,
+    "rank": 108,
     "ratingGames": 7,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": []
- },
- "58252bb7-5aa1-4dbd-85ba-e7ccbc56d64c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 110,
-    "pa": 131,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     5
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Robin Aiello",
-    "vs": [
-     "Christine Steigerwalt",
-     "Charlie Trapasso"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Rani Borusu",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Mary Marger",
-     "Kathleen Rex"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Sushma Rayapudi",
-    "vs": [
-     "Maureen Murphy",
-     "Jenna Haas"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Trena Hahn",
-     "Darlene Fusco"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Sushma Rayapudi",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Maureen Murphy",
-     "Susan Hughes"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -2.2,
-    "confidence": 53,
-    "rank": 76,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "rating": -2.7,
-    "confidence": 55,
-    "rank": 105,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -18786,9 +21031,9 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 52,
-    "rank": 89,
+    "rank": 97,
     "ratingGames": 7,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 1.7
    }
   ],
@@ -19041,12 +21286,12 @@
    },
    {
     "week": 2,
-    "rating": 0,
+    "rating": -0.3,
     "confidence": 66,
-    "rank": 61,
+    "rank": 79,
     "ratingGames": 11,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -19060,7 +21305,7 @@
     "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
     "name": "Jean Dalstad",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.6
    }
   ]
  },
@@ -19313,10 +21558,10 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 65,
-    "rank": 84,
+    "rank": 94,
     "ratingGames": 11,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -19575,12 +21820,12 @@
    },
    {
     "week": 2,
-    "rating": -0.9,
-    "confidence": 64,
-    "rank": 82,
+    "rating": -1.5,
+    "confidence": 65,
+    "rank": 100,
     "ratingGames": 11,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -19588,7 +21833,7 @@
     "pid": "33f1ae41-08db-4067-b5f5-f9324faf93f0",
     "name": "Christine Steigerwalt",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    }
   ]
  },
@@ -19716,12 +21961,12 @@
    },
    {
     "week": 2,
-    "rating": -0.5,
+    "rating": -0.6,
     "confidence": 50,
-    "rank": 76,
+    "rank": 87,
     "ratingGames": 5,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -19843,7 +22088,7 @@
     "week": 2,
     "rating": -1.2,
     "confidence": 45,
-    "rank": 87,
+    "rank": 95,
     "ratingGames": 5,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.5
@@ -19968,10 +22213,10 @@
     "week": 2,
     "rating": -0.2,
     "confidence": 47,
-    "rank": 72,
+    "rank": 78,
     "ratingGames": 5,
-    "strengthOfPartners": -2.3,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": -2.4,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -20093,7 +22338,7 @@
     "week": 2,
     "rating": -0.7,
     "confidence": 46,
-    "rank": 79,
+    "rank": 88,
     "ratingGames": 5,
     "strengthOfPartners": -3.4,
     "strengthOfOpponents": 1.1
@@ -20218,7 +22463,7 @@
     "week": 2,
     "rating": -1.5,
     "confidence": 49,
-    "rank": 94,
+    "rank": 103,
     "ratingGames": 5,
     "strengthOfPartners": -3.1,
     "strengthOfOpponents": 1.4
@@ -20473,12 +22718,12 @@
    },
    {
     "week": 2,
-    "rating": -2.2,
+    "rating": -2.6,
     "confidence": 65,
-    "rank": 100,
+    "rank": 115,
     "ratingGames": 11,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -20616,7 +22861,7 @@
     "week": 2,
     "rating": -2.1,
     "confidence": 51,
-    "rank": 98,
+    "rank": 110,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -20757,7 +23002,7 @@
     "week": 2,
     "rating": -0.4,
     "confidence": 51,
-    "rank": 74,
+    "rank": 84,
     "ratingGames": 6,
     "strengthOfPartners": -3.8,
     "strengthOfOpponents": 0.7
@@ -20898,9 +23143,282 @@
     "week": 2,
     "rating": -2,
     "confidence": 50,
-    "rank": 97,
+    "rank": 109,
     "ratingGames": 6,
     "strengthOfPartners": -2.7,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": []
+ },
+ "58252bb7-5aa1-4dbd-85ba-e7ccbc56d64c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 110,
+    "pa": 131,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 71,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Christine Steigerwalt",
+     "Charlie Trapasso"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Mary Marger",
+     "Kathleen Rex"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Maureen Murphy",
+     "Jenna Haas"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Trena Hahn",
+     "Darlene Fusco"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Jeannine Calhoun",
+     "Julia Hollman"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Janice Aliberti",
+     "Diane Bracco"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Janice Aliberti",
+     "Susan Goeckeler"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Susan Goeckeler",
+     "Julia Hollman"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Janice Aliberti",
+     "Jeannine Calhoun"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -2.2,
+    "confidence": 53,
+    "rank": 76,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "rating": -2.4,
+    "confidence": 67,
+    "rank": 113,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -21064,7 +23582,7 @@
     "week": 2,
     "rating": -1.3,
     "confidence": 55,
-    "rank": 88,
+    "rank": 96,
     "ratingGames": 7,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0.6
@@ -21228,12 +23746,317 @@
    },
    {
     "week": 2,
-    "rating": -2.6,
+    "rating": -2.7,
     "confidence": 54,
-    "rank": 103,
+    "rank": 118,
     "ratingGames": 7,
     "strengthOfPartners": -3.5,
     "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
+ "2abe95e2-0e73-49b6-aca8-689041f98b94": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 112,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 87,
+    "pa": 116,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Filomena Rega",
+     "Olga Turova"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Filomena Rega",
+     "Kayla Gipson"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Karen Pisano",
+    "vs": [
+     "Linda Johns",
+     "Linda Seemann"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Paula Cushing",
+     "Filomena Rega"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Marina Volpe",
+     "Filomena Rega"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Maureen Bruno",
+     "Marina Volpe"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Premiere"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Elizabeth Biehl",
+     "Susan Goeckeler"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Lynda Levan",
+     "Marianne Rosato"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Janice Aliberti",
+     "Lynda Levan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sherry Sili",
+    "vs": [
+     "Julia Hollman",
+     "Marianne Rosato"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Susan Goeckeler",
+     "Julia Hollman"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Beth Pardilla",
+    "vs": [
+     "Grace Brennan",
+     "Marianne Rosato"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "rating": -0.7,
+    "confidence": 53,
+    "rank": 54,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2.1
+   },
+   {
+    "week": 2,
+    "rating": -1.1,
+    "confidence": 69,
+    "rank": 92,
+    "ratingGames": 14,
+    "strengthOfPartners": -2.9,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -21469,12 +24292,12 @@
    },
    {
     "week": 2,
-    "rating": -3.6,
-    "confidence": 60,
-    "rank": 108,
+    "rating": -3.8,
+    "confidence": 62,
+    "rank": 124,
     "ratingGames": 10,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -21612,10 +24435,135 @@
     "week": 2,
     "rating": -1.1,
     "confidence": 43,
-    "rank": 83,
+    "rank": 93,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.5
+   }
+  ],
+  "partners": []
+ },
+ "6848f02a-1acc-47f8-8743-3525311031a9": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 73,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Elizabeth Biehl",
+     "Susan Goeckeler"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Jeannine Calhoun",
+     "Julia Hollman"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Grace Brennan",
+     "Lynda Levan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lay Wassana",
+    "vs": [
+     "Jeannine Calhoun",
+     "Lynda Levan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Janice Aliberti",
+     "Jeannine Calhoun"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -1.5,
+    "confidence": 46,
+    "rank": 104,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -21760,12 +24708,12 @@
    },
    {
     "week": 2,
-    "rating": -3.6,
+    "rating": -3.5,
     "confidence": 52,
-    "rank": 109,
+    "rank": 122,
     "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -21885,12 +24833,153 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -2.3,
+    "rating": -2.4,
     "confidence": 40,
-    "rank": 101,
+    "rank": 114,
     "ratingGames": 5,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 2
+    "strengthOfOpponents": 1.9
+   }
+  ],
+  "partners": []
+ },
+ "e3874889-50a3-472f-aada-20f41ce1bc3f": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 79,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Lynda Levan",
+     "Marianne Rosato"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kim Allaga",
+    "vs": [
+     "Diane Bracco",
+     "Marianne Rosato"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Lynne Silber",
+    "vs": [
+     "Janice Aliberti",
+     "Diane Bracco"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Julia Hollman",
+     "Marianne Rosato"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Tanyalak Sawangpak",
+    "vs": [
+     "Tammy Dragon",
+     "Marianne Rosato"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Janice Aliberti",
+     "Tammy Dragon"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "rating": -2.7,
+    "confidence": 46,
+    "rank": 119,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
@@ -22010,12 +25099,12 @@
   "ratingHistory": [
    {
     "week": 2,
-    "rating": -3,
+    "rating": -2.9,
     "confidence": 47,
-    "rank": 107,
+    "rank": 120,
     "ratingGames": 5,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -22178,10 +25267,10 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 55,
-    "rank": 102,
+    "rank": 116,
     "ratingGames": 7,
     "strengthOfPartners": -4,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -22342,12 +25431,12 @@
    },
    {
     "week": 2,
-    "rating": -3.8,
-    "confidence": 53,
-    "rank": 110,
+    "rating": -3.7,
+    "confidence": 54,
+    "rank": 123,
     "ratingGames": 7,
-    "strengthOfPartners": -2,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -2.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -22469,192 +25558,10 @@
     "week": 2,
     "rating": -3,
     "confidence": 47,
-    "rank": 106,
+    "rank": 121,
     "ratingGames": 5,
     "strengthOfPartners": -3.8,
     "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "2abe95e2-0e73-49b6-aca8-689041f98b94": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 112,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 1,
-    "teamGL": 31,
-    "sub": 1,
-    "subFor": "Premiere"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Filomena Rega",
-     "Olga Turova"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Filomena Rega",
-     "Kayla Gipson"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Karen Pisano",
-    "vs": [
-     "Linda Johns",
-     "Linda Seemann"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Christine Pisapia",
-    "vs": [
-     "Paula Cushing",
-     "Filomena Rega"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Marina Volpe",
-     "Filomena Rega"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Maureen Bruno",
-     "Marina Volpe"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "rating": -0.7,
-    "confidence": 53,
-    "rank": 54,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.1
-   },
-   {
-    "week": 2,
-    "rating": -1.2,
-    "confidence": 57,
-    "rank": 85,
-    "ratingGames": 8,
-    "strengthOfPartners": -3.9,
-    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -22808,7 +25715,7 @@
     "week": 2,
     "rating": -2.6,
     "confidence": 54,
-    "rank": 104,
+    "rank": 117,
     "ratingGames": 7,
     "strengthOfPartners": -3.5,
     "strengthOfOpponents": 1
@@ -23097,7 +26004,7 @@
     "week": 2,
     "rating": -4.8,
     "confidence": 67,
-    "rank": 114,
+    "rank": 128,
     "ratingGames": 13,
     "strengthOfPartners": -2.9,
     "strengthOfOpponents": -0.1
@@ -23386,7 +26293,7 @@
     "week": 2,
     "rating": -4.3,
     "confidence": 68,
-    "rank": 112,
+    "rank": 126,
     "ratingGames": 13,
     "strengthOfPartners": -2.8,
     "strengthOfOpponents": 0.3
@@ -23397,7 +26304,7 @@
     "pid": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
     "name": "Christine Pisapia",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -23682,7 +26589,7 @@
     "week": 2,
     "rating": -4.4,
     "confidence": 69,
-    "rank": 113,
+    "rank": 127,
     "ratingGames": 13,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0.3
@@ -23693,7 +26600,7 @@
     "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
     "name": "Denise Bonagura",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -23978,7 +26885,7 @@
     "week": 2,
     "rating": -3.9,
     "confidence": 70,
-    "rank": 111,
+    "rank": 125,
     "ratingGames": 13,
     "strengthOfPartners": -3.6,
     "strengthOfOpponents": 0.5
@@ -24267,7 +27174,7 @@
     "week": 2,
     "rating": -5.5,
     "confidence": 70,
-    "rank": 115,
+    "rank": 129,
     "ratingGames": 13,
     "strengthOfPartners": -2.4,
     "strengthOfOpponents": 0.6
