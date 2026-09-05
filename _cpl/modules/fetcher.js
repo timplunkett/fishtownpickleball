@@ -213,6 +213,21 @@ function fileHoldsContent(filePath) {
   }
 }
 
+// True if writing `serialized` to `filePath` would actually change its bytes.
+// Used to tell a real content change from a fetch that came back identical —
+// so fetchedAt.json (see below) only advances when there was something to
+// advance it for.
+function wouldChange(filePath, serialized) {
+  if (!fs.existsSync(filePath)) return true;
+  try {
+    return fs.readFileSync(filePath, 'utf8') !== serialized;
+  } catch {
+    return true;
+  }
+}
+
+// Returns whether the write actually changed the file's contents, so callers
+// can accumulate a division-level "did anything real change" flag.
 function writeGuarded(filePath, value, label) {
   if (isEmptyValue(value) && fileHoldsContent(filePath)) {
     throw new Error(
@@ -220,7 +235,19 @@ function writeGuarded(filePath, value, label) {
       + 'The upstream response is empty or its shape changed; the cached file has been left as-is.',
     );
   }
-  fs.writeFileSync(filePath, jsonStringify(value));
+  const serialized = jsonStringify(value);
+  const changed = wouldChange(filePath, serialized);
+  if (changed) fs.writeFileSync(filePath, serialized);
+  return changed;
+}
+
+// Same idea as writeGuarded but for the two files that are intentionally
+// unguarded (playoff brackets/details can legitimately go empty mid-season).
+function writeIfChanged(filePath, value) {
+  const serialized = jsonStringify(value);
+  const changed = wouldChange(filePath, serialized);
+  if (changed) fs.writeFileSync(filePath, serialized);
+  return changed;
 }
 
 // extractValues() accepts exactly these shapes and flattens everything else to
@@ -548,22 +575,27 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
       const divDataDir = path.join(dataDir, div.slug);
       if (!fs.existsSync(divDataDir)) fs.mkdirSync(divDataDir, { recursive: true });
 
-      writeGuarded(path.join(divDataDir, 'matchups.json'), slimMatchups(matchupsRaw), `${div.slug} matchups`);
+      // Whether *anything* this division actually publishes changed. Drives
+      // whether fetchedAt.json (below) advances — a fetch that came back
+      // byte-identical to the cache is not an event worth re-stamping.
+      let divisionChanged = false;
+
+      divisionChanged = writeGuarded(path.join(divDataDir, 'matchups.json'), slimMatchups(matchupsRaw), `${div.slug} matchups`) || divisionChanged;
       // Not guarded: an empty playoff bracket is the normal state for most of
       // the season, and a bracket can legitimately be withdrawn and redrawn.
-      fs.writeFileSync(path.join(divDataDir, 'playoffMatchups.json'), jsonStringify(slimPlayoffMatchups(playoffMatchupsRaw)));
+      divisionChanged = writeIfChanged(path.join(divDataDir, 'playoffMatchups.json'), slimPlayoffMatchups(playoffMatchupsRaw)) || divisionChanged;
 
       const slimTeamList = slimTeams(teamsRaw);
-      writeGuarded(path.join(divDataDir, 'teams.json'), slimTeamList, `${div.slug} teams`);
+      divisionChanged = writeGuarded(path.join(divDataDir, 'teams.json'), slimTeamList, `${div.slug} teams`) || divisionChanged;
       const podNames = [...new Set((slimTeamList.$values || []).map(t => t.pod).filter(Boolean))];
       console.log(`  Found ${(slimTeamList.$values || []).length} teams (pods: ${podNames.join(', ') || 'none reported'}).`);
 
       const slimmed = slimPlayers(players);
-      writeGuarded(path.join(divDataDir, 'players.json'), slimmed, `${div.slug} players`);
+      divisionChanged = writeGuarded(path.join(divDataDir, 'players.json'), slimmed, `${div.slug} players`) || divisionChanged;
       const detailsPath = path.join(divDataDir, 'matchupDetails.json');
       const playoffDetailsPath = path.join(divDataDir, 'playoffMatchupDetails.json');
-      fs.writeFileSync(detailsPath, jsonStringify(mergeDetailsWithCache(slimMatchupDetails(matchupDetails), detailsPath)));
-      fs.writeFileSync(playoffDetailsPath, jsonStringify(mergeDetailsWithCache(slimMatchupDetails(playoffMatchupDetails), playoffDetailsPath)));
+      divisionChanged = writeIfChanged(detailsPath, mergeDetailsWithCache(slimMatchupDetails(matchupDetails), detailsPath)) || divisionChanged;
+      divisionChanged = writeIfChanged(playoffDetailsPath, mergeDetailsWithCache(slimMatchupDetails(playoffMatchupDetails), playoffDetailsPath)) || divisionChanged;
 
       if (detailFailures.length) {
         failedDivisions.push({
@@ -582,16 +614,27 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
         }
       }
 
-      // When upstream was actually read, recorded only once every write above
-      // succeeded. This is what the dashboard reports as "as of", so it has to
-      // be the fetch time and not the compile time: recompiling Tuesday's cache
-      // on Thursday does not make the standings current as of Thursday. It also
-      // has to live in a committed file rather than a file mtime, because a CI
-      // clone stamps every mtime with the checkout time.
-      fs.writeFileSync(
-        path.join(divDataDir, 'fetchedAt.json'),
-        jsonStringify({ fetchedAt: new Date().toISOString() }),
-      );
+      // When this division's data last actually changed, recorded only once
+      // every write above succeeded. This is what the dashboard reports as "as
+      // of", so it has to be the fetch time and not the compile time:
+      // recompiling Tuesday's cache on Thursday does not make the standings
+      // current as of Thursday. It also has to live in a committed file rather
+      // than a file mtime, because a CI clone stamps every mtime with the
+      // checkout time.
+      //
+      // Only advanced when something above actually changed. A "due" run that
+      // re-fetches a division and gets back exactly what was already cached is
+      // not new information — stamping it anyway would turn every 6-hourly run
+      // into a commit (a timestamp bump with nothing else in the diff) and
+      // would overstate "as of" as "just re-verified" rather than what it's
+      // meant to mean, "current as of". First run for a division (no stamp
+      // file yet) always stamps, so a fresh division isn't left without one.
+      const fetchedAtPath = path.join(divDataDir, 'fetchedAt.json');
+      if (divisionChanged || !fs.existsSync(fetchedAtPath)) {
+        fs.writeFileSync(fetchedAtPath, jsonStringify({ fetchedAt: new Date().toISOString() }));
+      } else {
+        console.log(`  ↳ No change for ${div.slug}; fetchedAt left at previous value.`);
+      }
 
       console.log(`  ✓ Cached to ${dataSubdir}/${slug}/${div.slug}/`);
     } catch (err) {
@@ -724,6 +767,6 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
 
 module.exports = {
   downloadLatestApiData, downloadSeason, slugForDivision, slimPlayers, comparePlayers,
-  assertArrayShape, isEmptyValue, writeGuarded,
+  assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
 };

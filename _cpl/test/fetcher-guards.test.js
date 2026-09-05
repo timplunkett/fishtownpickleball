@@ -7,7 +7,9 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const { assertArrayShape, isEmptyValue, writeGuarded } = require('../modules/fetcher');
+const {
+  assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
+} = require('../modules/fetcher');
 
 function tempDir(t) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'cpl-fetcher-guards-'));
@@ -80,6 +82,29 @@ test('writeGuarded overwrites a corrupt or already-empty cached file', (t) => {
   fs.writeFileSync(alreadyEmpty, JSON.stringify(EMPTY_WRAPPER));
   writeGuarded(alreadyEmpty, EMPTY_WRAPPER, 'teams');
   assert.deepEqual(JSON.parse(fs.readFileSync(alreadyEmpty, 'utf-8')), EMPTY_WRAPPER);
+});
+
+// writeGuarded/writeIfChanged report whether the write was a no-op, which is
+// what lets fetchedAt.json skip re-stamping when a "due" fetch comes back
+// identical to what's already cached — see fetcher.js's fetchedAt comment.
+test('writeGuarded reports false when the fetch came back unchanged', (t) => {
+  const dir = tempDir(t);
+  const file = path.join(dir, 'players.json');
+
+  assert.equal(writeGuarded(file, NON_EMPTY, 'players'), true, 'first write is always a change');
+  assert.equal(writeGuarded(file, NON_EMPTY, 'players'), false, 'identical re-fetch is not a change');
+
+  const updated = { $values: [{ matchupId: 'm1' }, { matchupId: 'm2' }] };
+  assert.equal(writeGuarded(file, updated, 'players'), true, 'a real difference is a change');
+});
+
+test('writeIfChanged mirrors writeGuarded\'s change reporting for unguarded files', (t) => {
+  const dir = tempDir(t);
+  const file = path.join(dir, 'playoffMatchups.json');
+
+  assert.equal(writeIfChanged(file, EMPTY_WRAPPER), true, 'first write is always a change');
+  assert.equal(writeIfChanged(file, EMPTY_WRAPPER), false, 'identical re-fetch is not a change');
+  assert.equal(writeIfChanged(file, NON_EMPTY), true, 'a real difference is a change');
 });
 
 test('isEmptyValue recognizes both the bare and $values-wrapped shapes', () => {
