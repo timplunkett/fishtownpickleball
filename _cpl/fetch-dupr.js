@@ -3,6 +3,7 @@ const path = require('path');
 const { jsonStringify, expandJson } = require('./modules/json-utils');
 const { writeDuprShards } = require('./modules/dupr-outputs');
 const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules/dupr-warnings');
+const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -103,10 +104,6 @@ const { messages: warnings, warn } = createWarningLog();
 function printWarningReport() {
   const report = formatWarningReport(warnings);
   if (report) console.warn(`\n${report}`);
-}
-
-function isNrRating(value) {
-  return typeof value === 'string' && value.trim().toUpperCase() === 'NR';
 }
 
 function getPlayerMatch(data) {
@@ -284,11 +281,34 @@ function saveGlobalPlayers(players, reason = 'progress') {
   console.log(`Saved global players (${reason}).`);
 }
 
+/**
+ * Whether a player belongs in dupr-ratings.js at all. A manually-flagged
+ * 'missing' DUPR ID (see dupr-rating-values.js) has no real profile — DUPR
+ * has never confirmed anything about it. Writing it out as 'NR' would show it
+ * exactly like a real, findable account DUPR confirms just has no rating yet,
+ * which it is not, so it is excluded entirely here, the same as a still-null
+ * duprRating.
+ */
+function hasRatableDuprValue(player) {
+  return Boolean(player.playerId) && player.duprRating != null && !isMissingRating(player.duprRating);
+}
+
+/**
+ * Maps a stored duprRating to what dupr-ratings.js should show, for a player
+ * hasRatableDuprValue() has already let through. Defensive rather than load-
+ * bearing: 'missing' is filtered out before this runs, but it must never
+ * reach Number() (which would silently write NaN into the ratings table), so
+ * it collapses to 'NR' here too if it ever does.
+ */
+function resolveOutputRating(duprRating) {
+  return isUnratedDuprValue(duprRating) ? NR_RATING : Number(duprRating);
+}
+
 function writeDuprRatingsJs(players) {
   const byPlayerId = {};
   for (const p of players) {
-    if (p.playerId && p.duprRating != null) {
-      let rating = p.duprRating === 'NR' ? p.duprRating : Number(p.duprRating);
+    if (hasRatableDuprValue(p)) {
+      const rating = resolveOutputRating(p.duprRating);
       byPlayerId[p.playerId] = { rating: rating, numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
     }
   }
@@ -309,6 +329,24 @@ function writeDuprRatingsJs(players) {
   console.log(`Saved ${shards} per-division DUPR shards.`);
 }
 
+/**
+ * Decides whether a player needs an API lookup this run. Exported so the
+ * decision — including how the manual 'missing' marker is treated — can be
+ * tested without exercising the whole run() loop.
+ *
+ * 'missing' is parsed exactly like 'NR': skipped on a standard run, but still
+ * re-checked under --bypass-cache (every player) or --bypass-cache-nr
+ * (specifically the unrated ones), in case a flagged profile reappears.
+ */
+function shouldFetchPlayer(player, { bypassCache = false, bypassNrCache = false } = {}) {
+  if (bypassCache) return true;
+  if (player.duprRating == null) return true;
+  if (isUnratedDuprValue(player.duprRating)) return bypassNrCache;
+  if (player.duprNumericId) return false;
+  // Legacy: has a rating but no numeric ID yet — re-fetch to capture one.
+  return true;
+}
+
 async function run() {
   const bypassCache = process.argv.includes('--bypass-cache');
   const bypassNrCache = process.argv.includes('--bypass-cache-nr');
@@ -323,11 +361,11 @@ async function run() {
   if (bypassCache) {
     console.log('Cache bypass enabled — all players will be re-fetched from the DUPR API.');
   } else if (bypassNrCache) {
-    console.log('NR cache bypass enabled — players with current "NR" ratings will be re-fetched from the DUPR API.');
+    console.log('NR cache bypass enabled — players with current "NR" or "missing" ratings will be re-fetched from the DUPR API.');
   } else {
     for (const player of validPlayers) {
       if (player.duprRating != null) {
-        if (!player.duprNumericId && !isNrRating(player.duprRating)) {
+        if (!player.duprNumericId && !isUnratedDuprValue(player.duprRating)) {
           // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
         } else {
           duprCache.set(player.dupr, { rating: player.duprRating, numericId: player.duprNumericId ?? null, provisional: player.duprProvisional ?? false });
@@ -336,15 +374,7 @@ async function run() {
     }
   }
 
-  const playersToFetch = bypassCache
-    ? validPlayers
-    : validPlayers.filter((p) => {
-        if (p.duprRating == null) return true;
-        if (isNrRating(p.duprRating)) return bypassNrCache;
-        if (p.duprNumericId) return false;
-        // Legacy: has rating but no numeric ID yet — re-fetch to capture numeric ID
-        return true;
-      });
+  const playersToFetch = validPlayers.filter((p) => shouldFetchPlayer(p, { bypassCache, bypassNrCache }));
 
   console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
   console.log(`Processing ${playersToFetch.length} new/changed DUPR IDs with ${REQUEST_DELAY_MS}ms pacing...\n`);
@@ -495,4 +525,7 @@ module.exports = {
   describeTokenExpiry,
   exceedsMissRateFloor,
   formatMissRateError,
+  shouldFetchPlayer,
+  hasRatableDuprValue,
+  resolveOutputRating,
 };

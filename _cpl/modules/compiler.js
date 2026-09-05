@@ -13,6 +13,7 @@ const {
   seasonOutDir,
   writeCatalog,
 } = require('./catalog');
+const { isUnratedDuprValue } = require('./dupr-rating-values');
 const {
   normalizeName: norm,
   isGenderApiBase,
@@ -240,7 +241,7 @@ function loadDuprByPid() {
   const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
   const map = {};
   for (const p of globalPlayers) {
-    if (p.playerId && p.duprRating != null && p.duprRating != 'NR') {
+    if (p.playerId && p.duprRating != null && !isUnratedDuprValue(p.duprRating)) {
       map[p.playerId] = {
         dupr: p.dupr ?? null,
         rating: Number(p.duprRating),
@@ -1140,7 +1141,7 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
       if (gp.playerId && gp.dupr) {
         duprByPlayerId.set(gp.playerId, {
           dupr: gp.dupr,
-          rating: gp.duprRating != null && gp.duprRating !== 'NR' ? Number(gp.duprRating) : null,
+          rating: gp.duprRating != null && !isUnratedDuprValue(gp.duprRating) ? Number(gp.duprRating) : null,
         });
       }
     }
