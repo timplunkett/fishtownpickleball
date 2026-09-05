@@ -3,7 +3,7 @@ const path = require('path');
 const { jsonStringify, expandJson } = require('./modules/json-utils');
 const { writeDuprShards } = require('./modules/dupr-outputs');
 const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules/dupr-warnings');
-const { NR_RATING, isNrRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
+const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -282,10 +282,23 @@ function saveGlobalPlayers(players, reason = 'progress') {
 }
 
 /**
- * Maps a stored duprRating to what dupr-ratings.js should show. Both markers
- * for "no numeric rating" — the API's own 'NR' and the manual 'missing' —
- * collapse to 'NR' here; 'missing' must never reach Number(), which would
- * silently write NaN into the ratings table instead.
+ * Whether a player belongs in dupr-ratings.js at all. A manually-flagged
+ * 'missing' DUPR ID (see dupr-rating-values.js) has no real profile — DUPR
+ * has never confirmed anything about it. Writing it out as 'NR' would show it
+ * exactly like a real, findable account DUPR confirms just has no rating yet,
+ * which it is not, so it is excluded entirely here, the same as a still-null
+ * duprRating.
+ */
+function hasRatableDuprValue(player) {
+  return Boolean(player.playerId) && player.duprRating != null && !isMissingRating(player.duprRating);
+}
+
+/**
+ * Maps a stored duprRating to what dupr-ratings.js should show, for a player
+ * hasRatableDuprValue() has already let through. Defensive rather than load-
+ * bearing: 'missing' is filtered out before this runs, but it must never
+ * reach Number() (which would silently write NaN into the ratings table), so
+ * it collapses to 'NR' here too if it ever does.
  */
 function resolveOutputRating(duprRating) {
   return isUnratedDuprValue(duprRating) ? NR_RATING : Number(duprRating);
@@ -294,7 +307,7 @@ function resolveOutputRating(duprRating) {
 function writeDuprRatingsJs(players) {
   const byPlayerId = {};
   for (const p of players) {
-    if (p.playerId && p.duprRating != null) {
+    if (hasRatableDuprValue(p)) {
       const rating = resolveOutputRating(p.duprRating);
       byPlayerId[p.playerId] = { rating: rating, numericId: p.duprNumericId ?? null, provisional: p.duprProvisional ?? false };
     }
@@ -513,5 +526,6 @@ module.exports = {
   exceedsMissRateFloor,
   formatMissRateError,
   shouldFetchPlayer,
+  hasRatableDuprValue,
   resolveOutputRating,
 };
