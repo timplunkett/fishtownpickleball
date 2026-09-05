@@ -230,15 +230,24 @@
       return;
     }
 
-    // Group entries by player identity (name + playerId), filtering by query.
-    // Players sharing the same name but having different IDs are distinct people.
+    // Group entries by player identity, filtering by query. Grouping keys on
+    // DUPR id first, not playerId: the source system mints a new playerId on
+    // a re-registration or a corrected roster row, so the same real person can
+    // hold several playerIds across seasons (e.g. one listing as "Joshin
+    // Reddy" and another as "Joshin Darreddy") and would otherwise show up as
+    // separate cards. The DUPR id travels with the person instead, so it is
+    // the more reliable identity when present. playerId remains the fallback
+    // for entries with no DUPR id on file, and name is the last resort for the
+    // rare entry with neither.
     var byKey = Object.create(null);
     var keyOrder = [];
     for (var i = 0; i < playerIndex.length; i++) {
       var entry = playerIndex[i];
       var normalizedName = normalize(entry.name);
       if (normalizedName.indexOf(q) === -1) continue;
-      var playerKey = entry.name + (entry.playerId ? '|' + entry.playerId : '');
+      var playerKey = entry.dupr ? 'dupr:' + entry.dupr
+        : entry.playerId ? 'pid:' + entry.playerId
+        : 'name:' + entry.name;
       if (!byKey[playerKey]) {
         byKey[playerKey] = [];
         keyOrder.push(playerKey);
@@ -257,7 +266,6 @@
 
     var html = keyOrder.map(function (key) {
       var entries = byKey[key];
-      var name = entries[0].name;
       // Current seasons first, then archived ones newest-first. A finder result
       // for someone who has played four seasons is mostly history, and the row
       // that matters is the team they are on now.
@@ -265,6 +273,12 @@
         if (!!a.archived !== !!b.archived) return a.archived ? 1 : -1;
         return String(b.season || '').localeCompare(String(a.season || ''));
       });
+      // A group's entries can carry different names when they were pulled
+      // together by DUPR id rather than an exact name match (a re-registration,
+      // a corrected spelling). The most recent entry's name wins, same
+      // reasoning as the row order above it: it is what the person is called
+      // now, not what an old roster once had on file.
+      var name = sortedEntries[0].name;
       var entriesHtml = sortedEntries.map(function (e) {
         var badgeClass = e.league === 'travel' ? 'travel' : 'local';
         var badgeLabel = e.league === 'travel' ? 'CPL' : 'Local';
@@ -303,9 +317,11 @@
           seasonHtml +
           '</a>';
       }).join('');
-      // Use the first entry that has a playerId with DUPR data
+      // The most recent entry that has a playerId with DUPR data. Walking
+      // sortedEntries rather than entries means a group spanning more than one
+      // playerId prefers the current one's rating over a stale playerId's.
       var duprRatings = window.DUPR_RATINGS || {};
-      var duprEntry = entries.find(function (e) { return e.playerId && duprRatings[e.playerId] != null; });
+      var duprEntry = sortedEntries.find(function (e) { return e.playerId && duprRatings[e.playerId] != null; });
       var duprHtml = '';
       if (duprEntry) {
         var duprData = duprRatings[duprEntry.playerId];

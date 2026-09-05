@@ -149,6 +149,7 @@ function runPage(file, { catalog, ids, archive, hash = '' } = {}) {
   vm.runInNewContext(fs.readFileSync(path.join(CPL, 'shared.js'), 'utf8'), context);
   vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
   return {
+    context,
     document,
     navigated,
     replaced,
@@ -308,6 +309,129 @@ test('choosing a division navigates to it', () => {
   select.value = 'travel/2026-fall/?d=bbbb2222';
   select.listeners.change.forEach((fn) => fn());
   assert.deepEqual(app.navigated, ['travel/2026-fall/?d=bbbb2222']);
+});
+
+// --- The cross-league Player Finder -----------------------------------------
+//
+// The finder lazy-loads player-index.js and dupr-ratings.js on first focus or
+// keystroke (see cpl/home.js). This stub skips the network fetch those two
+// script tags stand for and drops the pre-decoded index straight onto
+// PLAYER_INDEX (the same plain-array shape CPLShared.getPlayerIndex() already
+// falls through to, per the "legacy plain-array index" case in
+// shared.test.js), so what is under test is home.js's own grouping — not the
+// pack/unpack round trip, which shared.test.js covers separately.
+function runFinder(entries, duprRatings) {
+  const app = runHome(BOTH_LIVE);
+  app.context.PLAYER_INDEX = entries;
+  app.context.DUPR_RATINGS = duprRatings || {};
+  // Both script tags "load" successfully with nothing further to do — the data
+  // they would have defined is already on the context above.
+  app.document.body.appendChild = (node) => {
+    if (node && node.onload) node.onload();
+    return node;
+  };
+  return app;
+}
+
+// setTimeout/clearTimeout come from Node's real timers (see the context built
+// in runPage), so the finder's 120ms debounce is real time to wait out, and
+// its continuations past that are still real promise microtasks — the same
+// two-step wait other-leagues.test.js's nextTick() uses.
+async function search(app, query) {
+  const input = app.el('player-search');
+  input.value = query;
+  (input.listeners.input || []).forEach((fn) => fn());
+  await new Promise((resolve) => { setTimeout(resolve, 150); });
+  await new Promise((resolve) => { setTimeout(resolve, 0); });
+  await new Promise((resolve) => { setTimeout(resolve, 0); });
+}
+
+const cardNames = (app) => [...app.el('player-results').innerHTML.matchAll(
+  /<div class="player-result-name">([^<]*)/g,
+)].map((m) => m[1]);
+
+// The bug this fixes: a re-registration or a corrected roster spelling mints a
+// new playerId, so the same real person's two roster rows used to group into
+// two separate cards. Both rows carry the same DUPR id here, the one thing
+// that survived the rename, so they now belong to one card.
+test('two playerIds sharing a DUPR id are one result, named for the more recent entry', async () => {
+  const entries = [
+    {
+      name: 'Joshin Reddy', team: 'Aces', division: '3.5', slug: 'aaaa1111', league: 'travel',
+      season: '2026-spring', seasonLabel: 'Spring 2026', archived: true, playerId: 'pid-old', dupr: 'DUPR1',
+    },
+    {
+      name: 'Joshin Darreddy', team: 'Bandits', division: '4.0', slug: 'bbbb2222', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-new', dupr: 'DUPR1',
+    },
+  ];
+  const app = runFinder(entries);
+  await search(app, 'Joshin');
+  assert.deepEqual(cardNames(app), ['Joshin Darreddy'], 'the current-season name should win, as one card');
+  const html = app.el('player-results').innerHTML;
+  assert.match(html, /Aces/, 'the archived row is still listed under the merged card');
+  assert.match(html, /Bandits/);
+});
+
+// Two different real people can share a display name (or one can be a name
+// substring match of the other's, as here) — nothing should merge them just
+// because a query happens to match both.
+test('the same name with two different DUPR ids stays two results', async () => {
+  const entries = [
+    {
+      name: 'Will Kayal', team: 'Aces', division: '3.5', slug: 'aaaa1111', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-1', dupr: 'DUPRA',
+    },
+    {
+      name: 'Will Kayal', team: 'Bandits', division: '4.0', slug: 'bbbb2222', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-2', dupr: 'DUPRB',
+    },
+  ];
+  const app = runFinder(entries);
+  await search(app, 'Kayal');
+  assert.equal(cardNames(app).length, 2, 'distinct DUPR ids are distinct people, not one merged card');
+});
+
+// An entry the DUPR refresh has never reached has no `dupr` field at all —
+// grouping has to fall back to playerId exactly as it did before this change,
+// not treat every DUPR-less entry as unidentified and merge them together.
+test('entries with no DUPR id on file still group by playerId', async () => {
+  const entries = [
+    {
+      name: 'Nora North', team: 'Aces', division: '3.5', slug: 'aaaa1111', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-nora',
+    },
+    {
+      name: 'Nora North', team: 'Crushers', division: '3.0', slug: 'cccc3333', league: 'local',
+      season: '2026-summer', seasonLabel: 'Summer 2026', archived: false, playerId: 'pid-nora',
+    },
+    {
+      name: 'Otto Osgood', team: 'Bandits', division: '4.0', slug: 'bbbb2222', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-otto',
+    },
+  ];
+  const app = runFinder(entries);
+  await search(app, 'N');
+  assert.deepEqual(cardNames(app), ['Nora North'], 'the two DUPR-less rows for the same playerId did not merge into one card');
+});
+
+test('a person-level DUPR rating shown on the card comes from the most recent entry', async () => {
+  const entries = [
+    {
+      name: 'Ivy Ives', team: 'Aces', division: '3.5', slug: 'aaaa1111', league: 'travel',
+      season: '2026-spring', seasonLabel: 'Spring 2026', archived: true, playerId: 'pid-old', dupr: 'DUPR9',
+    },
+    {
+      name: 'Ivy Ives', team: 'Bandits', division: '4.0', slug: 'bbbb2222', league: 'travel',
+      season: '2026-fall', seasonLabel: 'Fall 2026', archived: false, playerId: 'pid-new', dupr: 'DUPR9',
+    },
+  ];
+  const app = runFinder(entries, { 'pid-old': { rating: 3.1 }, 'pid-new': { rating: 3.7 } });
+  await search(app, 'Ivy');
+  const html = app.el('player-results').innerHTML;
+  // The literal separator here is a non-breaking space, not U+0020 — \s covers it.
+  assert.match(html, /DUPR\s+3\.700/, "the current playerId's rating should be shown");
+  assert.ok(!html.includes('3.100'), "the archived playerId's rating was shown instead of the current one's");
 });
 
 // --- The archive box on the landing page -----------------------------------
