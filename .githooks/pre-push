@@ -1,0 +1,59 @@
+#!/usr/bin/env sh
+# Same drift check CI runs in .github/workflows/ci.yml — cpl/ is committed
+# output, so if it differs from what _cpl/ data compiles to, the live site
+# is showing output nobody generated from the current inputs. This runs
+# once before a push leaves your machine, catching it before GitHub does.
+#
+# (Replaces an earlier version of this hook that ran on every commit
+# touching _cpl/ or cpl/ — too disruptive across a string of WIP commits.
+# A true post-receive hook isn't possible here: the remote is GitHub, which
+# doesn't allow server-side hooks, so this is the closest local equivalent
+# — checked once, right before the push leaves.)
+#
+# Enabled via `git config core.hooksPath .githooks` (done automatically by
+# the "prepare" npm script on `npm install`). See README.md "Verifying a
+# change".
+
+set -e
+
+remote_name="$1"
+z40=0000000000000000000000000000000000000000
+changed=""
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$local_sha" = "$z40" ] && continue # deleting a ref — nothing to check
+
+  if [ "$remote_sha" = "$z40" ]; then
+    # New branch/ref: no remote history to diff against. Compare from where
+    # it forked off this remote's main, falling back to the whole range if
+    # that fails (e.g. an unrelated root commit).
+    base=$(git merge-base "$local_sha" "$remote_name/main" 2>/dev/null) || base=""
+    range="${base:+$base..}$local_sha"
+  else
+    range="$remote_sha..$local_sha"
+  fi
+
+  files=$(git diff --name-only "$range" -- _cpl/ cpl/ 2>/dev/null) || files=""
+  [ -n "$files" ] && changed="yes"
+done
+
+if [ -z "$changed" ]; then
+  exit 0
+fi
+
+echo "pre-push: _cpl/ or cpl/ changed in this push — recompiling to check for drift..."
+
+if ! npm run --silent compile; then
+  echo "" >&2
+  echo "pre-push: 'npm run compile' failed — fix the error above before pushing." >&2
+  exit 1
+fi
+
+if ! git diff --exit-code -- cpl/; then
+  echo "" >&2
+  echo "pre-push: committed cpl/ output has drifted from a fresh compile (diff above)." >&2
+  echo "Run 'npm run compile', commit the result, and push again." >&2
+  exit 1
+fi
+
+exit 0

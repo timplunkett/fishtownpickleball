@@ -262,13 +262,15 @@ bundle exec jekyll build # the Jekyll site itself
 
 Run all four before pushing; CI runs the first three.
 
-A pre-commit hook (`.githooks/pre-commit`) also runs `npm run compile` and
-checks `cpl/` for drift automatically whenever a commit touches `_cpl/` or
-`cpl/` — the same check CI does, just before the push instead of after. It's
-enabled by the `prepare` npm script, so it activates on `npm install`; to
-turn it on without reinstalling, run `git config core.hooksPath .githooks`
-once. Leaves commits outside `_cpl/`/`cpl/` alone, so it doesn't slow down
-unrelated work.
+A pre-push hook (`.githooks/pre-push`) also runs `npm run compile` and
+checks `cpl/` for drift automatically whenever a push includes commits that
+touch `_cpl/` or `cpl/` — the same check CI does, just before the push
+instead of after. It runs once per push rather than once per commit, so a
+string of WIP commits touching `_cpl/`/`cpl/` isn't slowed down until you
+actually push. It's enabled by the `prepare` npm script, so it activates on
+`npm install`; to turn it on without reinstalling, run
+`git config core.hooksPath .githooks` once. Pushes with nothing under
+`_cpl/`/`cpl/` in their commit range are left alone.
 
 ## Runbook
 
