@@ -205,7 +205,11 @@ test('getPlayerIndex decodes a Rating column when present, and omits it when abs
 
 // DUPR id is a seventh entry column, added after Rating the same way Rating
 // was added after the original five — trailing growth a cached shared.js or
-// a cached player-index.js from before it can both survive.
+// a cached player-index.js from before it can both survive. Unlike
+// name/team/id it is a literal string on the entry, not an index into a
+// table of its own (see the note on packPlayerIndex in modules/compiler.js:
+// interning it made a one-account DUPR correction rewrite nearly every
+// entry's index), so there is no `u` table to go with it.
 test('getPlayerIndex decodes a DUPR id column when present, and omits it when absent', () => {
   delete globalThis.PLAYER_INDEX;
   globalThis.PLAYER_INDEX_TABLES = {
@@ -213,35 +217,16 @@ test('getPlayerIndex decodes a DUPR id column when present, and omits it when ab
     t: ['Team X'],
     d: [['abcd1234', '3.5 - 4.0', 0, '', '2026-summer', 'Summer 2026', 0]],
     i: [],
-    u: ['ABC123'],
     e: [
-      [0, 0, 0, -1, 0, null, 0], // has a DUPR id
-      [0, 0, 0, -1, 0, null, -1], // no DUPR id on file
+      [0, 0, 0, -1, 0, null, 'ABC123'], // has a DUPR id
+      [0, 0, 0, -1, 0, null, null], // no DUPR id on file
       [0, 0, 0, -1, 0, null], // a pre-DUPR-id cached file: no seventh element at all
     ],
   };
   const index = shared.getPlayerIndex();
   assert.equal(index[0].dupr, 'ABC123');
-  assert.equal('dupr' in index[1], false, 'an interned -1 must not decode as a DUPR id');
+  assert.equal('dupr' in index[1], false, 'an explicit null must not decode as a DUPR id');
   assert.equal('dupr' in index[2], false, 'a missing seventh column must not decode as a DUPR id');
-  delete globalThis.PLAYER_INDEX;
-  delete globalThis.PLAYER_INDEX_TABLES;
-});
-
-// A player-index.js from before the `u` table existed pairs with a newer
-// shared.js that knows to look for entry[6] — the table itself, not just the
-// column, has to be optional.
-test('getPlayerIndex tolerates a DUPR id column with no u table behind it', () => {
-  delete globalThis.PLAYER_INDEX;
-  globalThis.PLAYER_INDEX_TABLES = {
-    n: ['Al One'],
-    t: ['Team X'],
-    d: [['abcd1234', '3.5 - 4.0', 0, '', '2026-summer', 'Summer 2026', 0]],
-    i: [],
-    e: [[0, 0, 0, -1, 0, null, 0]],
-  };
-  assert.doesNotThrow(() => shared.getPlayerIndex());
-  assert.equal('dupr' in shared.getPlayerIndex()[0], false);
   delete globalThis.PLAYER_INDEX;
   delete globalThis.PLAYER_INDEX_TABLES;
 });

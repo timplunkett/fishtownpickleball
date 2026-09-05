@@ -1033,7 +1033,7 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
 // playerIds repeat across divisions, so interning them cuts the file to a
 // fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
 // Entry layout: [name, team, divisionRow, playerId|-1, flags(1=captain, 2=sub),
-// rating|null, duprId|-1], where divisionRow points into a table of
+// rating|null, duprId|null], where divisionRow points into a table of
 // [slug, divisionName, league(0=local,1=travel), club, season, seasonLabel,
 //  archived(0|1)].
 // Packs the finder index, which is one row per (player, division) across every
@@ -1052,23 +1052,21 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
 // duprId is a seventh column, grown onto the entry the same way and for the
 // same reason: an old shared.js stops at [5] and never notices it, a new one
 // reading an old six-element entry gets `undefined` at [6] and decodes as "no
-// DUPR id" rather than throwing. It is interned — unlike rating it does repeat
-// across every division-row a person's DUPR account shows up in — into its own
-// table rather than reusing `ids`, because the two are different keys (a
-// person's stable DUPR account vs. the source system's playerId, which is not
-// stable across re-registrations) and a shared.js that predates this table
-// must not mistake one for the other.
+// DUPR id" rather than throwing.
 //
-// A division's label, league and club are properties of the division, not of
-// the player, so they live in a table of ~22 rows that each entry points at
-// rather than being repeated thousands of times.
-//
-// playerId stays, even though the UUIDs are over half the compressed file.
-// Dropping them for a name slug was tried and reverted: the finder and the DUPR
-// audit both look ratings up by id, so removing the column forced a second,
-// name-keyed copy of every rating into the repo, and left the handful of
-// players who share a display name with no rating shown at all. One id-keyed
-// table that everything reads is worth more than the bytes.
+// Deliberately NOT interned, unlike name/team/id — tried it first (a `u`
+// table alongside `n`/`t`/`i`) and reverted. A DUPR id repeats only about
+// twice per unique value (one entry per division a person plays in a given
+// season, and most people play one or two), so a table barely pays for
+// itself: measured against the compiled index, the interned form (a table of
+// ~4.6k strings plus an index integer on every one of ~9k entries) actually
+// ran a couple KB larger than inlining the string directly. Worse than the
+// size, correcting one person's DUPR id — unifying a duplicate account, or
+// fixing a mistyped code — removes their old value from the table, which
+// shifts the interned index of every entry pointing past it. That is a
+// one-line data fix that rewrites nearly the entire packed `e` array on the
+// next compile. A literal string repeated on that person's own rows costs
+// a little more for them and nothing at all for anyone else's.
 function packPlayerIndex(entries) {
   const table = () => {
     const list = [];
@@ -1091,7 +1089,6 @@ function packPlayerIndex(entries) {
   const names = table();
   const teams = table();
   const ids = table();
-  const duprIds = table();
   // Keyed by slug: a division's other facts never vary within one. A division
   // slug is the first eight characters of its UUID and so is unique across
   // seasons too, but the key carries the season anyway — a duplicate slug across
@@ -1124,11 +1121,11 @@ function packPlayerIndex(entries) {
     ids.intern(entry.playerId),
     (entry.isCaptain ? 1 : 0) | (entry.isSub ? 2 : 0),
     Number.isFinite(entry.rating) ? Math.round(entry.rating * 10) / 10 : null,
-    duprIds.intern(entry.dupr),
+    entry.dupr || null,
   ]);
 
   return {
-    n: names.list, t: teams.list, d: divisionKeys, i: ids.list, u: duprIds.list, e: packed,
+    n: names.list, t: teams.list, d: divisionKeys, i: ids.list, e: packed,
   };
 }
 

@@ -185,10 +185,11 @@
   // no rating shown, not a thrown error.
   //
   // DUPR id grew the row again the same way: a seventh element, decoded only
-  // when both it and its table are present, so a five- or six-element cached
-  // entry (or a packed payload from before the `u` table existed) degrades to
-  // "no DUPR id" instead of throwing — the finder then falls back to grouping
-  // that entry by playerId, same as it always has.
+  // when present, so a five- or six-element cached entry degrades to "no DUPR
+  // id" instead of throwing — the finder then falls back to grouping that
+  // entry by playerId, same as it always has. Unlike name/team/id it is not
+  // interned into a table of its own — see the note on packPlayerIndex in
+  // modules/compiler.js for why — so decoding it is just reading the value.
   function unpackTableIndex(packed) {
     const pick = (list, index) => (index === -1 ? '' : list[index]);
     return packed.e.map((entry) => {
@@ -208,10 +209,7 @@
       if (entry[4] & 1) decoded.isCaptain = true;
       if (entry[4] & 2) decoded.isSub = true;
       if (entry[5] != null) decoded.rating = entry[5];
-      if (entry[6] !== undefined && packed.u) {
-        const duprId = pick(packed.u, entry[6]);
-        if (duprId) decoded.dupr = duprId;
-      }
+      if (entry[6] != null) decoded.dupr = entry[6];
       return decoded;
     });
   }
