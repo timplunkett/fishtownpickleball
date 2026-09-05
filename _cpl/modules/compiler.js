@@ -1033,7 +1033,7 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
 // playerIds repeat across divisions, so interning them cuts the file to a
 // fraction of the plain-JSON size. Decoded client-side by CPLShared.getPlayerIndex().
 // Entry layout: [name, team, divisionRow, playerId|-1, flags(1=captain, 2=sub),
-// rating|null], where divisionRow points into a table of
+// rating|null, duprId|-1], where divisionRow points into a table of
 // [slug, divisionName, league(0=local,1=travel), club, season, seasonLabel,
 //  archived(0|1)].
 // Packs the finder index, which is one row per (player, division) across every
@@ -1048,6 +1048,16 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
 // not repeat across entries, so a table would cost a pointer for no sharing.
 // null (not 0) marks a player with no rating yet, so an unrated player's row
 // omits the number instead of claiming a 0.0 nobody earned.
+//
+// duprId is a seventh column, grown onto the entry the same way and for the
+// same reason: an old shared.js stops at [5] and never notices it, a new one
+// reading an old six-element entry gets `undefined` at [6] and decodes as "no
+// DUPR id" rather than throwing. It is interned — unlike rating it does repeat
+// across every division-row a person's DUPR account shows up in — into its own
+// table rather than reusing `ids`, because the two are different keys (a
+// person's stable DUPR account vs. the source system's playerId, which is not
+// stable across re-registrations) and a shared.js that predates this table
+// must not mistake one for the other.
 //
 // A division's label, league and club are properties of the division, not of
 // the player, so they live in a table of ~22 rows that each entry points at
@@ -1081,6 +1091,7 @@ function packPlayerIndex(entries) {
   const names = table();
   const teams = table();
   const ids = table();
+  const duprIds = table();
   // Keyed by slug: a division's other facts never vary within one. A division
   // slug is the first eight characters of its UUID and so is unique across
   // seasons too, but the key carries the season anyway — a duplicate slug across
@@ -1113,9 +1124,12 @@ function packPlayerIndex(entries) {
     ids.intern(entry.playerId),
     (entry.isCaptain ? 1 : 0) | (entry.isSub ? 2 : 0),
     Number.isFinite(entry.rating) ? Math.round(entry.rating * 10) / 10 : null,
+    duprIds.intern(entry.dupr),
   ]);
 
-  return { n: names.list, t: teams.list, d: divisionKeys, i: ids.list, e: packed };
+  return {
+    n: names.list, t: teams.list, d: divisionKeys, i: ids.list, u: duprIds.list, e: packed,
+  };
 }
 
 // Builds the cross-league outputs derived from every division's roster:
@@ -1198,6 +1212,12 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
         if (p.isCaptain) entry.isCaptain = true;
         if (p.isSub) entry.isSub = true;
         if (p.playerId && ratingByPid.has(p.playerId)) entry.rating = ratingByPid.get(p.playerId);
+        // The DUPR ID a real person's account carries across every playerId
+        // they were ever rostered under — a re-registration, a corrected name
+        // spelling, or a merged roster row all mint a new playerId, but the
+        // DUPR ID follows the person. The finder groups on this instead of
+        // playerId so those show up as one card, not one per playerId.
+        if (p.playerId && duprByPlayerId.has(p.playerId)) entry.dupr = duprByPlayerId.get(p.playerId).dupr;
         entries.push(entry);
 
         // Audit rows exist only for divisions whose name encodes a bracket.

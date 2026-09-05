@@ -183,6 +183,12 @@
   // `undefined` on a five-element cached entry, and the `!= null` guard below
   // treats that the same as the explicit `null` a rating-less player gets —
   // no rating shown, not a thrown error.
+  //
+  // DUPR id grew the row again the same way: a seventh element, decoded only
+  // when both it and its table are present, so a five- or six-element cached
+  // entry (or a packed payload from before the `u` table existed) degrades to
+  // "no DUPR id" instead of throwing — the finder then falls back to grouping
+  // that entry by playerId, same as it always has.
   function unpackTableIndex(packed) {
     const pick = (list, index) => (index === -1 ? '' : list[index]);
     return packed.e.map((entry) => {
@@ -202,6 +208,10 @@
       if (entry[4] & 1) decoded.isCaptain = true;
       if (entry[4] & 2) decoded.isSub = true;
       if (entry[5] != null) decoded.rating = entry[5];
+      if (entry[6] !== undefined && packed.u) {
+        const duprId = pick(packed.u, entry[6]);
+        if (duprId) decoded.dupr = duprId;
+      }
       return decoded;
     });
   }
