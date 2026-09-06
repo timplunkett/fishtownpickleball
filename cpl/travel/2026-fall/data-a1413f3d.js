@@ -6559,8 +6559,8 @@
    "name": "Michael Vincent",
    "gender": "Male",
    "team": "PCKLRAMA",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 9,
    "wins": 3,
@@ -6573,7 +6573,6 @@
    "genderLosses": 3,
    "clutchWins": 3,
    "clutchLosses": 2,
-   "playerId": "7f44421c-476c-4857-99ed-3376b32289ca",
    "winPct": 33.3,
    "diff": -26,
    "ppg": 17.4,
@@ -6582,7 +6581,8 @@
    "ratingGames": 9,
    "confidence": 62,
    "strengthOfPartners": -1.3,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "7f44421c-476c-4857-99ed-3376b32289ca"
   },
   {
    "name": "Zach Dellabough",
@@ -13298,7 +13298,6 @@
    ],
    "subs": [
     "Malek Weiner",
-    "Michael Vincent",
     "Ricky Jutkiewicz"
    ]
   },
@@ -20281,9 +20280,7 @@
      ]
     }
    ],
-   "subs": [
-    "Michael Vincent"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -24689,7 +24686,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-05T14:16:31.025Z";
+  DATA.meta.asOf = "2026-09-06T19:47:39.073Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

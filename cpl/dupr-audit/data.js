@@ -12431,6 +12431,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Michael Vincent",
+   "playerId": "7f44421c-476c-4857-99ed-3376b32289ca",
+   "team": "PCKLRAMA",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Michael Vollmer",
    "playerId": "148387a8-f20a-44df-981d-0d9d2e7bf443",
    "team": "Dill Dinkers Freehold",

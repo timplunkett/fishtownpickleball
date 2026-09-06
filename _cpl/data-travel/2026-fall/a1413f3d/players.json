@@ -5090,7 +5090,7 @@
       "gender": "Male",
       "dupr": "EGV7VO",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
       "teamName": "PCKLRAMA",
       "wins": 3,
