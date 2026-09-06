@@ -319,12 +319,28 @@ function findPlayerByRouteParam(param) {
     DATA.players.find((candidate) => slugify(candidate.name) === param) ||
     null;
 }
-const ratingHistoryWeeks = Array.isArray(DATA.meta.ratingHistoryWeeks) && DATA.meta.ratingHistoryWeeks.length
-  ? DATA.meta.ratingHistoryWeeks
-  : (() => {
-      const match = String(DATA.meta.weeks || '').match(/(\d+)(?!.*\d)/);
-      return match ? [Number(match[1])] : [];
-    })();
+// Each entry is a "round": one calendar date's worth of matches within a
+// division week. Most weeks are a single round (round object's `label` is
+// just the week number, e.g. "3"); a week where some matches were made up on
+// a different date becomes two+ rounds in chronological order, labeled
+// "3a"/"3b"/... so the chart/table can tell them apart instead of stacking
+// two snapshots under one "Week 3". `seq` is the round's position in the
+// whole season's chronological round order — that's what's used for even
+// x-axis spacing, since round numbers aren't evenly spaced week numbers.
+const ratingHistoryWeeks = (() => {
+  const raw = Array.isArray(DATA.meta.ratingHistoryWeeks) && DATA.meta.ratingHistoryWeeks.length
+    ? DATA.meta.ratingHistoryWeeks
+    : (() => {
+        const match = String(DATA.meta.weeks || '').match(/(\d+)(?!.*\d)/);
+        return match ? [Number(match[1])] : [];
+      })();
+  // Back-compat with older compiled data where this was a plain array of week numbers.
+  return raw.map((entry, seq) => (
+    typeof entry === 'number'
+      ? { week: entry, label: String(entry), seq }
+      : entry
+  ));
+})();
 
 let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
@@ -558,13 +574,15 @@ function getPlayerRatingHistory(player) {
     return player.ratingHistory;
   }
 
-  const fallbackWeek = ratingHistoryWeeks[ratingHistoryWeeks.length - 1];
-  if (player.rating == null || fallbackWeek == null) {
+  const fallbackRound = ratingHistoryWeeks[ratingHistoryWeeks.length - 1];
+  if (player.rating == null || fallbackRound == null) {
     return [];
   }
 
   return [{
-    week: fallbackWeek,
+    week: fallbackRound.week,
+    label: fallbackRound.label,
+    seq: fallbackRound.seq,
     rating: player.rating,
     confidence: player.confidence,
     rank: currentRatingRankByPid.get(player.playerId) ?? null,
@@ -1903,7 +1921,9 @@ function renderModalHeader(player) {
 }
 
 function renderRatingTrendChart(player, history) {
-  const weeks = ratingHistoryWeeks.length ? ratingHistoryWeeks : history.map((snapshot) => snapshot.week);
+  const weeks = ratingHistoryWeeks.length
+    ? ratingHistoryWeeks
+    : history.map((snapshot, seq) => ({ week: snapshot.week, label: snapshot.label || String(snapshot.week), seq }));
   if (!weeks.length) {
     return '';
   }
@@ -1930,13 +1950,13 @@ function renderRatingTrendChart(player, history) {
   const right = 12;
   const top = 14;
   const bottom = 34;
-  const firstWeek = weeks[0];
-  const lastWeek = weeks[weeks.length - 1];
-  const xScale = (week) => {
-    if (firstWeek === lastWeek) {
+  const firstSeq = weeks[0].seq;
+  const lastSeq = weeks[weeks.length - 1].seq;
+  const xScale = (seq) => {
+    if (firstSeq === lastSeq) {
       return (left + (W - right)) / 2;
     }
-    return left + ((week - firstWeek) / (lastWeek - firstWeek)) * (W - left - right);
+    return left + ((seq - firstSeq) / (lastSeq - firstSeq)) * (W - left - right);
   };
   const yScale = (rating) => top + ((domainMax - rating) / (domainMax - domainMin)) * (H - top - bottom);
   const yTicks = Array.from({ length: 5 }, (_, index) => {
@@ -1945,12 +1965,12 @@ function renderRatingTrendChart(player, history) {
     }
     return domainMin + ((domainMax - domainMin) * index) / 4;
   });
-  const historyByWeek = new Map(history.map((snapshot) => [snapshot.week, snapshot]));
+  const historyBySeq = new Map(history.map((snapshot) => [snapshot.seq, snapshot]));
   const segments = [];
   let currentSegment = [];
 
-  for (const week of weeks) {
-    const snapshot = historyByWeek.get(week);
+  for (const round of weeks) {
+    const snapshot = historyBySeq.get(round.seq);
     if (!snapshot) {
       if (currentSegment.length) {
         segments.push(currentSegment.join(' '));
@@ -1958,7 +1978,7 @@ function renderRatingTrendChart(player, history) {
       }
       continue;
     }
-    currentSegment.push(`${xScale(week).toFixed(1)},${yScale(snapshot.rating).toFixed(1)}`);
+    currentSegment.push(`${xScale(round.seq).toFixed(1)},${yScale(snapshot.rating).toFixed(1)}`);
   }
   if (currentSegment.length) {
     segments.push(currentSegment.join(' '));
@@ -1969,23 +1989,23 @@ function renderRatingTrendChart(player, history) {
     .join('');
   const dotMarkup = history
     .map((snapshot, index) => {
-      const cx = xScale(snapshot.week).toFixed(1);
+      const cx = xScale(snapshot.seq).toFixed(1);
       const cy = yScale(snapshot.rating).toFixed(1);
       const radius = index === history.length - 1 ? 5 : 4;
       const rankLabel = snapshot.rank == null ? '' : ` • #${snapshot.rank}`;
       return `
         <circle cx="${cx}" cy="${cy}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 30%)" stroke-width="1.2">
-          <title>Week ${snapshot.week}: ${formatSignedValue(snapshot.rating, 1)}${rankLabel} • ${snapshot.confidence}% confidence</title>
+          <title>Week ${snapshot.label ?? snapshot.week}: ${formatSignedValue(snapshot.rating, 1)}${rankLabel} • ${snapshot.confidence}% confidence</title>
         </circle>
       `;
     })
     .join('');
   const tickMarkup = weeks
-    .map((week) => {
-      const x = xScale(week).toFixed(1);
+    .map((round) => {
+      const x = xScale(round.seq).toFixed(1);
       return `
         <line x1="${x}" y1="${top}" x2="${x}" y2="${H - bottom}" stroke="var(--line)" stroke-dasharray="2 4" opacity="0.45"/>
-        <text x="${x}" y="${H - 11}" text-anchor="middle" font-size="11" fill="var(--mut)">W${week}</text>
+        <text x="${x}" y="${H - 11}" text-anchor="middle" font-size="11" fill="var(--mut)">W${round.label}</text>
       `;
     })
     .join('');
@@ -2000,7 +2020,7 @@ function renderRatingTrendChart(player, history) {
     })
     .join('');
   const lastSnapshot = history[history.length - 1];
-  const lastX = xScale(lastSnapshot.week).toFixed(1);
+  const lastX = xScale(lastSnapshot.seq).toFixed(1);
   const lastY = yScale(lastSnapshot.rating).toFixed(1);
   const labelYOffset = Number(lastY) > ((H - bottom + top) / 2) ? -10 : 16;
   const currentLabel = `
@@ -2033,7 +2053,7 @@ function renderRatingHistorySection(player) {
   const changeClass = change >= 0 ? 'pos-diff' : 'neg-diff';
   const currentRank = latestSnapshot.rank == null ? EMPTY_VALUE : `#${latestSnapshot.rank}`;
   const trendSummary = history.length > 1
-    ? `Change since Wk ${firstSnapshot.week}`
+    ? `Change since Wk ${firstSnapshot.label ?? firstSnapshot.week}`
     : 'Current snapshot';
   const rows = history
     .map((snapshot, index) => {
@@ -2043,7 +2063,7 @@ function renderRatingHistorySection(player) {
       const rankCell = snapshot.rank == null ? EMPTY_VALUE : `#${snapshot.rank}`;
       return `
         <div class="rhist-row">
-          <div class="wk">Wk ${snapshot.week}</div>
+          <div class="wk">Wk ${snapshot.label ?? snapshot.week}</div>
           <div class="val ${snapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(snapshot.rating, 1)}</div>
           <div class="df ${roundedDiff == null || roundedDiff === 0 ? 'mut' : roundedDiff > 0 ? 'pos-diff' : 'neg-diff'}">${roundedDiff == null || roundedDiff === 0 ? EMPTY_VALUE : formatSignedValue(roundedDiff, 1)}</div>
           <div class="rk">${rankCell}</div>
@@ -2368,10 +2388,12 @@ function getProjectedPlayerGames(player) {
 function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
+  let lastOpp = null;
 
   for (const game of player.games || []) {
-    if (game.wk !== lastWeek) {
+    if (game.wk !== lastWeek || game.opp !== lastOpp) {
       lastWeek = game.wk;
+      lastOpp = game.opp;
       const subNote = game.sub && game.subFor
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
@@ -2405,8 +2427,9 @@ function renderGameLogRows(player, projectedGames = []) {
 
   let lastIsPlayoff = false;
   for (const game of projectedGames) {
-    if (game.wk !== lastWeek || (game.isPlayoff || false) !== lastIsPlayoff) {
+    if (game.wk !== lastWeek || game.opp !== lastOpp || (game.isPlayoff || false) !== lastIsPlayoff) {
       lastWeek = game.wk;
+      lastOpp = game.opp;
       lastIsPlayoff = game.isPlayoff || false;
       const weekLabel = game.isPlayoff ? `Playoffs` : `Week ${game.wk}`;
       gameLog += `

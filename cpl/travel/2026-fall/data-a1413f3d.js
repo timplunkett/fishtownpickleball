@@ -24589,8 +24589,21 @@
   "weeks": "1-2",
   "totalPlayers": 373,
   "ratingHistoryWeeks": [
-   1,
-   2
+   {
+    "week": 1,
+    "label": "1",
+    "seq": 0
+   },
+   {
+    "week": 2,
+    "label": "2a",
+    "seq": 1
+   },
+   {
+    "week": 2,
+    "label": "2b",
+    "seq": 2
+   }
   ],
   "divisionSlug": "a1413f3d",
   "hasPlayoffs": false,
