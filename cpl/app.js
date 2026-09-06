@@ -2368,10 +2368,12 @@ function getProjectedPlayerGames(player) {
 function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
+  let lastOpp = null;
 
   for (const game of player.games || []) {
-    if (game.wk !== lastWeek) {
+    if (game.wk !== lastWeek || game.opp !== lastOpp) {
       lastWeek = game.wk;
+      lastOpp = game.opp;
       const subNote = game.sub && game.subFor
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
@@ -2405,8 +2407,9 @@ function renderGameLogRows(player, projectedGames = []) {
 
   let lastIsPlayoff = false;
   for (const game of projectedGames) {
-    if (game.wk !== lastWeek || (game.isPlayoff || false) !== lastIsPlayoff) {
+    if (game.wk !== lastWeek || game.opp !== lastOpp || (game.isPlayoff || false) !== lastIsPlayoff) {
       lastWeek = game.wk;
+      lastOpp = game.opp;
       lastIsPlayoff = game.isPlayoff || false;
       const weekLabel = game.isPlayoff ? `Playoffs` : `Week ${game.wk}`;
       gameLog += `
