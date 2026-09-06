@@ -308,13 +308,104 @@ function computeRatings(completed, detailByMatchupId, lambda = RIDGE_LAMBDA) {
   return out;
 }
 
-function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
-  const weeks = [...new Set(completed.map((matchup) => matchup.weekNumber))].sort((a, b) => a - b);
-  const historyByPid = {};
+// A "round" is one calendar date's worth of completed matchups within a given
+// week. Almost every week is a single round; a week that includes a make-up
+// match played on a different date (a team playing twice in what the schedule
+// calls "Week N") becomes two (or more) rounds, ordered chronologically, so a
+// rating snapshot exists after each one instead of only once the whole week's
+// matches are in. Grouping by calendar date (rather than exact scheduledTime)
+// keeps same-night, different-court staggered start times — the common case —
+// collapsed into one round.
+function groupMatchupsIntoRounds(completed) {
+  const dateOnly = (t) => (t ? String(t).slice(0, 10) : '');
+  const roundKeyOf = (matchup) => `${matchup.weekNumber}::${dateOnly(matchup.scheduledTime)}`;
 
-  for (const week of weeks) {
+  const roundByKey = new Map();
+  for (const matchup of completed) {
+    const key = roundKeyOf(matchup);
+    if (!roundByKey.has(key)) {
+      roundByKey.set(key, { key, week: matchup.weekNumber, sortTime: matchup.scheduledTime || '' });
+    }
+  }
+
+  const rounds = [...roundByKey.values()]
+    .sort((a, b) => (a.week - b.week) || a.sortTime.localeCompare(b.sortTime));
+
+  const roundsPerWeek = new Map();
+  for (const round of rounds) roundsPerWeek.set(round.week, (roundsPerWeek.get(round.week) || 0) + 1);
+
+  const seenInWeek = new Map();
+  rounds.forEach((round, seq) => {
+    const ordinal = seenInWeek.get(round.week) || 0;
+    seenInWeek.set(round.week, ordinal + 1);
+    round.seq = seq;
+    round.round = ordinal + 1; // 1-based round number within the week
+    round.roundsInWeek = roundsPerWeek.get(round.week);
+    // "Week 3" when the week is a single round (the common case, unchanged
+    // from before); "3a" / "3b" / ... when the week has more than one.
+    round.label = round.roundsInWeek > 1
+      ? `${round.week}${String.fromCharCode(96 + round.round)}`
+      : String(round.week);
+  });
+
+  return { rounds, roundKeyOf };
+}
+
+// A division-wide round split (see groupMatchupsIntoRounds) tells us a make-up
+// match happened somewhere that week, but not whether THIS player is the one
+// who played twice — most players in a multi-round week just have a bye in
+// one of the rounds and show up in it anyway (once they've played their first
+// game, the cumulative rating recompute includes them in every later round,
+// changed or not). Collapse a player's raw per-round entries down to what
+// actually happened to THEM: keep a round only if their own ratingGames grew
+// during it (a real match), and if none did that week (an ordinary bye), keep
+// just the week's final round as the one carried-forward snapshot — exactly
+// what the old week-only computation always showed. Only when a player has
+// more than one real round in the same week do we keep them all, each with
+// its own label ("2a" / "2b" / ...).
+function collapsePlayerHistory(rawEntries, finalRoundByWeek) {
+  let prevRatingGames = null;
+  const marked = rawEntries.map((entry) => {
+    const isReal = prevRatingGames == null || entry.ratingGames !== prevRatingGames;
+    prevRatingGames = entry.ratingGames;
+    return { entry, isReal };
+  });
+
+  const kept = [];
+  let i = 0;
+  while (i < marked.length) {
+    let j = i;
+    while (j < marked.length && marked[j].entry.week === marked[i].entry.week) j++;
+    const group = marked.slice(i, j);
+    const realOnes = group.filter((m) => m.isReal).map((m) => m.entry);
+    const weekEntries = realOnes.length ? realOnes : [group[group.length - 1].entry];
+
+    if (weekEntries.length === 1) {
+      const canonical = finalRoundByWeek.get(weekEntries[0].week);
+      kept.push({ ...weekEntries[0], round: 1, roundsInWeek: 1, seq: canonical.seq, label: canonical.label });
+    } else {
+      weekEntries.forEach((entry, index) => {
+        kept.push({
+          ...entry,
+          round: index + 1,
+          roundsInWeek: weekEntries.length,
+          label: `${entry.week}${String.fromCharCode(97 + index)}`,
+        });
+      });
+    }
+    i = j;
+  }
+  return kept;
+}
+
+function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
+  const { rounds, roundKeyOf } = groupMatchupsIntoRounds(completed);
+  const seqByRoundKey = new Map(rounds.map((round) => [round.key, round.seq]));
+  const rawHistoryByPid = {};
+
+  rounds.forEach((round) => {
     const snapshotRatings = computeRatings(
-      completed.filter((matchup) => matchup.weekNumber <= week),
+      completed.filter((matchup) => seqByRoundKey.get(roundKeyOf(matchup)) <= round.seq),
       detailByMatchupId,
     );
     const ratedPlayers = Object.entries(snapshotRatings)
@@ -326,8 +417,9 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
       ));
 
     ratedPlayers.forEach(([pid, snapshot], index) => {
-      (historyByPid[pid] = historyByPid[pid] || []).push({
-        week,
+      (rawHistoryByPid[pid] = rawHistoryByPid[pid] || []).push({
+        week: round.week,
+        seq: round.seq,
         rating: snapshot.rating,
         confidence: snapshot.confidence,
         rank: index + 1,
@@ -336,7 +428,55 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
         strengthOfOpponents: snapshot.strengthOfOpponents,
       });
     });
+  });
+
+  // The last (chronologically latest) round of each week — where a player
+  // who didn't personally double up that week collapses down to, regardless
+  // of which of the week's rounds their one real match actually fell in.
+  const finalRoundByWeek = new Map();
+  for (const round of rounds) finalRoundByWeek.set(round.week, { seq: round.seq, label: String(round.week) });
+
+  // `round`/`roundsInWeek` only exist to drive the two decisions below (is
+  // this entry part of a genuine per-player doubleheader, and does the
+  // shared axis need split ticks for this week) — strip them from what
+  // actually ships, since nothing downstream reads them once that's decided.
+  const collapsedByPid = {};
+  for (const [pid, rawEntries] of Object.entries(rawHistoryByPid)) {
+    collapsedByPid[pid] = collapsePlayerHistory(rawEntries, finalRoundByWeek);
   }
+
+  const weeksNeedingSplit = new Set();
+  for (const entries of Object.values(collapsedByPid)) {
+    for (const entry of entries) {
+      if (entry.roundsInWeek > 1) weeksNeedingSplit.add(entry.week);
+    }
+  }
+
+  const historyByPid = {};
+  for (const [pid, entries] of Object.entries(collapsedByPid)) {
+    historyByPid[pid] = entries.map((entry) => ({
+      week: entry.week,
+      seq: entry.seq,
+      label: entry.label,
+      rating: entry.rating,
+      confidence: entry.confidence,
+      rank: entry.rank,
+      ratingGames: entry.ratingGames,
+      strengthOfPartners: entry.strengthOfPartners,
+      strengthOfOpponents: entry.strengthOfOpponents,
+    }));
+  }
+
+  const weeks = rounds
+    .filter((round) => round.roundsInWeek === 1 || weeksNeedingSplit.has(round.week) || round.round === round.roundsInWeek)
+    .map((round) => {
+      const splitting = round.roundsInWeek > 1 && weeksNeedingSplit.has(round.week);
+      return {
+        week: round.week,
+        label: splitting ? round.label : String(round.week),
+        seq: round.seq,
+      };
+    });
 
   return { historyByPid, weeks };
 }
