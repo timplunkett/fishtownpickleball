@@ -14434,15 +14434,56 @@
   "weeks": "1-10",
   "totalPlayers": 80,
   "ratingHistoryWeeks": [
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   8,
-   9,
-   10
+   {
+    "week": 1,
+    "label": "1",
+    "seq": 0
+   },
+   {
+    "week": 2,
+    "label": "2",
+    "seq": 1
+   },
+   {
+    "week": 3,
+    "label": "3",
+    "seq": 2
+   },
+   {
+    "week": 4,
+    "label": "4",
+    "seq": 3
+   },
+   {
+    "week": 5,
+    "label": "5",
+    "seq": 4
+   },
+   {
+    "week": 6,
+    "label": "6",
+    "seq": 5
+   },
+   {
+    "week": 8,
+    "label": "8a",
+    "seq": 6
+   },
+   {
+    "week": 8,
+    "label": "8b",
+    "seq": 7
+   },
+   {
+    "week": 9,
+    "label": "9",
+    "seq": 8
+   },
+   {
+    "week": 10,
+    "label": "10",
+    "seq": 9
+   }
   ],
   "divisionSlug": "c9a2c0fe",
   "hasPlayoffs": false,

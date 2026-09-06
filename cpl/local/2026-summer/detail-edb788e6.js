@@ -131,15 +131,19 @@
   "ratingHistory": [
    {
     "week": 6,
-    "rating": 0.2,
-    "confidence": 52,
-    "rank": 34,
+    "seq": 9,
+    "label": "6",
+    "rating": 0.3,
+    "confidence": 51,
+    "rank": 32,
     "ratingGames": 6,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -2.2
+    "strengthOfOpponents": -2.1
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0,
     "confidence": 53,
     "rank": 37,
@@ -149,6 +153,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.2,
     "confidence": 54,
     "rank": 39,
@@ -158,6 +164,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0,
     "confidence": 54,
     "rank": 40,
@@ -167,6 +175,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.1,
     "confidence": 54,
     "rank": 44,
@@ -308,15 +318,19 @@
   "ratingHistory": [
    {
     "week": 6,
-    "rating": -0.8,
+    "seq": 9,
+    "label": "6",
+    "rating": -0.7,
     "confidence": 52,
-    "rank": 48,
+    "rank": 46,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -2.2
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.9,
     "confidence": 53,
     "rank": 52,
@@ -326,6 +340,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1.2,
     "confidence": 54,
     "rank": 54,
@@ -335,6 +351,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.4,
     "confidence": 54,
     "rank": 54,
@@ -344,6 +362,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.4,
     "confidence": 55,
     "rank": 56,
@@ -1089,6 +1109,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.2,
     "confidence": 45,
     "rank": 2,
@@ -1098,15 +1120,19 @@
    },
    {
     "week": 3,
-    "rating": 4.5,
-    "confidence": 67,
-    "rank": 2,
+    "seq": 3,
+    "label": "3",
+    "rating": 4.2,
+    "confidence": 64,
+    "rank": 1,
     "ratingGames": 15,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.4
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 4.4,
     "confidence": 69,
     "rank": 2,
@@ -1116,6 +1142,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 4.4,
     "confidence": 77,
     "rank": 2,
@@ -1125,6 +1153,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 4.4,
     "confidence": 82,
     "rank": 1,
@@ -1134,15 +1164,19 @@
    },
    {
     "week": 7,
-    "rating": 3.8,
+    "seq": 11,
+    "label": "7",
+    "rating": 4.1,
     "confidence": 85,
-    "rank": 2,
+    "rank": 1,
     "ratingGames": 37,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 4.2,
     "confidence": 86,
     "rank": 3,
@@ -1152,6 +1186,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 4.3,
     "confidence": 86,
     "rank": 3,
@@ -1161,6 +1197,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 4.2,
     "confidence": 86,
     "rank": 2,
@@ -2360,6 +2398,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 3.4,
     "confidence": 46,
     "rank": 1,
@@ -2369,6 +2409,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.4,
     "confidence": 46,
     "rank": 1,
@@ -2378,6 +2420,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 4.9,
     "confidence": 65,
     "rank": 1,
@@ -2387,6 +2431,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 4.8,
     "confidence": 76,
     "rank": 1,
@@ -2396,6 +2442,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 4.8,
     "confidence": 78,
     "rank": 1,
@@ -2405,6 +2453,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 4.2,
     "confidence": 82,
     "rank": 3,
@@ -2414,6 +2464,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 3.7,
     "confidence": 85,
     "rank": 3,
@@ -2423,6 +2475,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 4.4,
     "confidence": 87,
     "rank": 1,
@@ -2432,6 +2486,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 4.3,
     "confidence": 88,
     "rank": 2,
@@ -2441,6 +2497,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 4.1,
     "confidence": 89,
     "rank": 3,
@@ -3235,15 +3293,19 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.2,
     "confidence": 43,
-    "rank": 28,
+    "rank": 24,
     "ratingGames": 7,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.5
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.2,
     "confidence": 48,
     "rank": 33,
@@ -3253,6 +3315,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.4,
     "confidence": 68,
     "rank": 13,
@@ -3262,6 +3326,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 2.4,
     "confidence": 78,
     "rank": 7,
@@ -3271,15 +3337,19 @@
    },
    {
     "week": 7,
-    "rating": 2.1,
+    "seq": 11,
+    "label": "7",
+    "rating": 2.2,
     "confidence": 82,
-    "rank": 9,
+    "rank": 8,
     "ratingGames": 30,
-    "strengthOfPartners": 1.6,
+    "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.1
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2.2,
     "confidence": 83,
     "rank": 9,
@@ -3289,6 +3359,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.2,
     "confidence": 85,
     "rank": 10,
@@ -3298,6 +3370,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.2,
     "confidence": 86,
     "rank": 10,
@@ -4064,6 +4138,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 45,
     "rank": 11,
@@ -4073,6 +4149,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 2.9,
     "confidence": 69,
     "rank": 3,
@@ -4082,6 +4160,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 3,
     "confidence": 71,
     "rank": 3,
@@ -4091,15 +4171,19 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 3.2,
-    "confidence": 78,
-    "rank": 4,
+    "confidence": 77,
+    "rank": 3,
     "ratingGames": 22,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 3.2,
     "confidence": 79,
     "rank": 4,
@@ -4109,6 +4193,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 3,
     "confidence": 82,
     "rank": 4,
@@ -4118,15 +4204,19 @@
    },
    {
     "week": 8,
-    "rating": 3.7,
+    "seq": 13,
+    "label": "8",
+    "rating": 3.5,
     "confidence": 85,
     "rank": 4,
     "ratingGames": 36,
     "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 3.8,
     "confidence": 85,
     "rank": 4,
@@ -4136,6 +4226,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 3.8,
     "confidence": 86,
     "rank": 4,
@@ -4662,6 +4754,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 49,
     "rank": 18,
@@ -4671,6 +4765,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 2.7,
     "confidence": 69,
     "rank": 4,
@@ -4680,6 +4776,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 2.8,
     "confidence": 70,
     "rank": 4,
@@ -4689,15 +4787,19 @@
    },
    {
     "week": 5,
-    "rating": 2.7,
-    "confidence": 78,
-    "rank": 6,
+    "seq": 7,
+    "label": "5",
+    "rating": 2.8,
+    "confidence": 77,
+    "rank": 5,
     "ratingGames": 24,
-    "strengthOfPartners": 1,
+    "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.2
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 2.9,
     "confidence": 79,
     "rank": 5,
@@ -4707,6 +4809,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 3,
     "confidence": 79,
     "rank": 5,
@@ -4716,6 +4820,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2.6,
     "confidence": 81,
     "rank": 5,
@@ -4725,6 +4831,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.6,
     "confidence": 81,
     "rank": 6,
@@ -4734,6 +4842,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.4,
     "confidence": 81,
     "rank": 7,
@@ -5508,6 +5618,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 49,
     "rank": 17,
@@ -5517,6 +5629,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.4,
     "confidence": 51,
     "rank": 9,
@@ -5526,24 +5640,30 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.4,
     "confidence": 68,
-    "rank": 13,
+    "rank": 11,
     "ratingGames": 16,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 5,
-    "rating": 0.9,
-    "confidence": 78,
-    "rank": 21,
+    "seq": 7,
+    "label": "5",
+    "rating": 1.4,
+    "confidence": 77,
+    "rank": 14,
     "ratingGames": 24,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -1.1
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.9,
     "confidence": 79,
     "rank": 24,
@@ -5553,15 +5673,19 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1,
     "confidence": 83,
-    "rank": 20,
+    "rank": 19,
     "ratingGames": 30,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.9,
     "confidence": 86,
     "rank": 21,
@@ -5571,6 +5695,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.9,
     "confidence": 86,
     "rank": 21,
@@ -5580,6 +5706,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1,
     "confidence": 86,
     "rank": 21,
@@ -6475,6 +6603,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 47,
     "rank": 4,
@@ -6484,6 +6614,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.4,
     "confidence": 47,
     "rank": 7,
@@ -6493,6 +6625,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.3,
     "confidence": 47,
     "rank": 10,
@@ -6502,6 +6636,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.9,
     "confidence": 68,
     "rank": 9,
@@ -6511,6 +6647,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.8,
     "confidence": 69,
     "rank": 10,
@@ -6520,6 +6658,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 2,
     "confidence": 70,
     "rank": 11,
@@ -6529,15 +6669,19 @@
    },
    {
     "week": 7,
-    "rating": 1.7,
-    "confidence": 78,
-    "rank": 15,
+    "seq": 11,
+    "label": "7",
+    "rating": 1.9,
+    "confidence": 77,
+    "rank": 13,
     "ratingGames": 21,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 1.7,
     "confidence": 82,
     "rank": 14,
@@ -6547,6 +6691,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.3,
     "confidence": 85,
     "rank": 9,
@@ -6556,6 +6702,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.3,
     "confidence": 87,
     "rank": 9,
@@ -7771,6 +7919,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.7,
     "confidence": 50,
     "rank": 5,
@@ -7780,15 +7930,19 @@
    },
    {
     "week": 3,
-    "rating": 2.7,
-    "confidence": 66,
-    "rank": 5,
+    "seq": 3,
+    "label": "3",
+    "rating": 2.4,
+    "confidence": 64,
+    "rank": 3,
     "ratingGames": 14,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 2.8,
     "confidence": 68,
     "rank": 5,
@@ -7798,6 +7952,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 3.6,
     "confidence": 76,
     "rank": 3,
@@ -7807,6 +7963,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 4.3,
     "confidence": 82,
     "rank": 2,
@@ -7816,6 +7974,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": 3.8,
+    "confidence": 85,
+    "rank": 2,
+    "ratingGames": 37,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": 4,
     "confidence": 87,
     "rank": 1,
@@ -7825,15 +7996,19 @@
    },
    {
     "week": 8,
-    "rating": 4.3,
+    "seq": 13,
+    "label": "8",
+    "rating": 4,
     "confidence": 88,
-    "rank": 2,
+    "rank": 1,
     "ratingGames": 52,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 4.3,
     "confidence": 89,
     "rank": 1,
@@ -7843,6 +8018,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 4.2,
     "confidence": 90,
     "rank": 1,
@@ -8327,15 +8504,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": 1.1,
-    "confidence": 50,
-    "rank": 14,
+    "seq": 3,
+    "label": "3",
+    "rating": 1,
+    "confidence": 49,
+    "rank": 16,
     "ratingGames": 7,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.8
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1,
     "confidence": 50,
     "rank": 19,
@@ -8345,6 +8526,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.7,
     "confidence": 54,
     "rank": 12,
@@ -8354,15 +8537,19 @@
    },
    {
     "week": 6,
-    "rating": 2.2,
-    "confidence": 71,
-    "rank": 10,
+    "seq": 9,
+    "label": "6",
+    "rating": 1.7,
+    "confidence": 70,
+    "rank": 12,
     "ratingGames": 14,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 2.3,
     "confidence": 72,
     "rank": 8,
@@ -8372,6 +8559,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2.4,
     "confidence": 72,
     "rank": 6,
@@ -8381,6 +8570,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.8,
     "confidence": 79,
     "rank": 5,
@@ -8390,6 +8581,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.9,
     "confidence": 80,
     "rank": 5,
@@ -9176,6 +9369,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 49,
     "rank": 14,
@@ -9185,6 +9380,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.8,
     "confidence": 51,
     "rank": 18,
@@ -9194,6 +9391,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.6,
     "confidence": 52,
     "rank": 26,
@@ -9203,6 +9402,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.2,
     "confidence": 56,
     "rank": 34,
@@ -9212,6 +9413,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0,
     "confidence": 58,
     "rank": 36,
@@ -9221,15 +9424,30 @@
    },
    {
     "week": 7,
-    "rating": 0.8,
-    "confidence": 72,
-    "rank": 23,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.6,
+    "confidence": 71,
+    "rank": 28,
     "ratingGames": 14,
     "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.8
+    "strengthOfOpponents": -0.9
    },
    {
     "week": 8,
+    "seq": 12,
+    "label": "8a",
+    "rating": 0.3,
+    "confidence": 79,
+    "rank": 32,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 8,
+    "seq": 13,
+    "label": "8b",
     "rating": 1.3,
     "confidence": 83,
     "rank": 17,
@@ -9239,6 +9457,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.2,
     "confidence": 84,
     "rank": 18,
@@ -9248,12 +9468,14 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.6,
     "confidence": 86,
-    "rank": 16,
+    "rank": 15,
     "ratingGames": 38,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -9724,6 +9946,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.9,
     "confidence": 46,
     "rank": 8,
@@ -9733,6 +9957,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 46,
     "rank": 13,
@@ -9742,6 +9968,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.9,
     "confidence": 47,
     "rank": 16,
@@ -9751,6 +9979,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.7,
     "confidence": 68,
     "rank": 23,
@@ -9760,6 +9990,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.7,
     "confidence": 70,
     "rank": 25,
@@ -9769,6 +10001,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1,
     "confidence": 71,
     "rank": 21,
@@ -9778,15 +10012,19 @@
    },
    {
     "week": 7,
-    "rating": 0.5,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.7,
     "confidence": 79,
-    "rank": 29,
+    "rank": 26,
     "ratingGames": 22,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.1
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.6,
     "confidence": 79,
     "rank": 27,
@@ -9796,6 +10034,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.4,
     "confidence": 80,
     "rank": 32,
@@ -9805,6 +10045,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.2,
     "confidence": 80,
     "rank": 35,
@@ -10505,6 +10747,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 49,
     "rank": 15,
@@ -10514,6 +10758,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.1,
     "confidence": 51,
     "rank": 13,
@@ -10523,6 +10769,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1,
     "confidence": 52,
     "rank": 18,
@@ -10532,6 +10780,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.1,
     "confidence": 68,
     "rank": 37,
@@ -10541,6 +10791,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.4,
     "confidence": 69,
     "rank": 44,
@@ -10550,6 +10802,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.5,
     "confidence": 70,
     "rank": 45,
@@ -10559,15 +10813,19 @@
    },
    {
     "week": 8,
-    "rating": 0.5,
-    "confidence": 79,
-    "rank": 32,
+    "seq": 13,
+    "label": "8",
+    "rating": 0.4,
+    "confidence": 78,
+    "rank": 29,
     "ratingGames": 20,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.4
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.8,
     "confidence": 83,
     "rank": 26,
@@ -10577,6 +10835,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1,
     "confidence": 85,
     "rank": 22,
@@ -10743,15 +11003,19 @@
   "ratingHistory": [
    {
     "week": 4,
-    "rating": -1.2,
-    "confidence": 52,
+    "seq": 5,
+    "label": "4",
+    "rating": -1.1,
+    "confidence": 51,
     "rank": 45,
     "ratingGames": 6,
-    "strengthOfPartners": 0.7,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -1.1,
     "confidence": 53,
     "rank": 49,
@@ -10761,6 +11025,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1,
     "confidence": 54,
     "rank": 52,
@@ -10770,6 +11036,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.8,
     "confidence": 55,
     "rank": 50,
@@ -10779,6 +11047,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.8,
     "confidence": 55,
     "rank": 49,
@@ -10788,6 +11058,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.9,
     "confidence": 55,
     "rank": 52,
@@ -10797,6 +11069,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1,
     "confidence": 56,
     "rank": 53,
@@ -11494,6 +11768,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.4,
     "confidence": 46,
     "rank": 35,
@@ -11503,15 +11779,19 @@
    },
    {
     "week": 3,
-    "rating": 0.3,
-    "confidence": 67,
-    "rank": 24,
+    "seq": 3,
+    "label": "3",
+    "rating": 0,
+    "confidence": 65,
+    "rank": 26,
     "ratingGames": 13,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.4,
     "confidence": 69,
     "rank": 29,
@@ -11521,6 +11801,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.3,
     "confidence": 76,
     "rank": 39,
@@ -11530,6 +11812,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.3,
     "confidence": 77,
     "rank": 43,
@@ -11539,6 +11823,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": 0.2,
+    "confidence": 82,
+    "rank": 32,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": 0.3,
     "confidence": 84,
     "rank": 31,
@@ -11548,6 +11845,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.3,
     "confidence": 85,
     "rank": 35,
@@ -11557,6 +11856,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.3,
     "confidence": 85,
     "rank": 35,
@@ -11566,6 +11867,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0,
     "confidence": 85,
     "rank": 39,
@@ -12183,24 +12486,30 @@
   "ratingHistory": [
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.2,
     "confidence": 50,
-    "rank": 32,
+    "rank": 29,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.6
    },
    {
     "week": 5,
-    "rating": 1.2,
+    "seq": 7,
+    "label": "5",
+    "rating": 1.1,
     "confidence": 69,
     "rank": 17,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.3,
     "confidence": 70,
     "rank": 17,
@@ -12210,24 +12519,30 @@
    },
    {
     "week": 7,
-    "rating": 1.2,
+    "seq": 11,
+    "label": "7",
+    "rating": 1.3,
     "confidence": 78,
     "rank": 17,
     "ratingGames": 21,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.8
    },
    {
     "week": 8,
-    "rating": 1.8,
-    "confidence": 83,
-    "rank": 13,
+    "seq": 13,
+    "label": "8",
+    "rating": 1.5,
+    "confidence": 82,
+    "rank": 15,
     "ratingGames": 28,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.8,
     "confidence": 83,
     "rank": 12,
@@ -12237,6 +12552,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.8,
     "confidence": 83,
     "rank": 13,
@@ -13328,6 +13645,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 43,
     "rank": 24,
@@ -13337,15 +13656,19 @@
    },
    {
     "week": 3,
-    "rating": -1.3,
+    "seq": 3,
+    "label": "3",
+    "rating": -1.1,
     "confidence": 64,
-    "rank": 44,
+    "rank": 38,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.5
+    "strengthOfOpponents": -0.4
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -1.3,
     "confidence": 66,
     "rank": 46,
@@ -13355,6 +13678,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -1.7,
     "confidence": 76,
     "rank": 50,
@@ -13364,6 +13689,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1.5,
     "confidence": 80,
     "rank": 54,
@@ -13373,6 +13700,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": -0.6,
+    "confidence": 84,
+    "rank": 46,
+    "ratingGames": 34,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": -0.5,
     "confidence": 85,
     "rank": 44,
@@ -13382,15 +13722,19 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.2,
     "confidence": 87,
-    "rank": 38,
+    "rank": 34,
     "ratingGames": 46,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.1
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -1
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.3,
     "confidence": 88,
     "rank": 33,
@@ -13400,6 +13744,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.3,
     "confidence": 89,
     "rank": 34,
@@ -13628,15 +13974,19 @@
   "ratingHistory": [
    {
     "week": 8,
-    "rating": 1.4,
+    "seq": 13,
+    "label": "8",
+    "rating": 1.3,
     "confidence": 60,
-    "rank": 16,
+    "rank": 17,
     "ratingGames": 8,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": -0.2
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.4,
     "confidence": 61,
     "rank": 16,
@@ -13646,6 +13996,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.4,
     "confidence": 61,
     "rank": 17,
@@ -14664,6 +15016,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 41,
     "rank": 16,
@@ -14673,6 +15027,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 41,
     "rank": 29,
@@ -14682,6 +15038,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.7,
     "confidence": 63,
     "rank": 19,
@@ -14691,6 +15049,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.6,
     "confidence": 73,
     "rank": 11,
@@ -14700,6 +15060,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1,
     "confidence": 75,
     "rank": 19,
@@ -14709,6 +15071,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.9,
     "confidence": 80,
     "rank": 23,
@@ -14718,24 +15082,41 @@
    },
    {
     "week": 7,
-    "rating": 0.8,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.9,
     "confidence": 83,
-    "rank": 21,
+    "rank": 22,
     "ratingGames": 30,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.4
    },
    {
     "week": 8,
-    "rating": 1.2,
-    "confidence": 86,
-    "rank": 19,
+    "seq": 13,
+    "label": "8",
+    "rating": 1.3,
+    "confidence": 85,
+    "rank": 16,
     "ratingGames": 36,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 9,
+    "seq": 14,
+    "label": "9a",
+    "rating": 1.1,
+    "confidence": 87,
+    "rank": 20,
+    "ratingGames": 42,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.4
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9b",
     "rating": 0.9,
     "confidence": 89,
     "rank": 20,
@@ -14745,6 +15126,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.8,
     "confidence": 89,
     "rank": 23,
@@ -15547,6 +15930,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.7,
     "confidence": 54,
     "rank": 20,
@@ -15556,24 +15941,30 @@
    },
    {
     "week": 4,
-    "rating": 2.2,
-    "confidence": 70,
-    "rank": 6,
+    "seq": 5,
+    "label": "4",
+    "rating": 1.9,
+    "confidence": 68,
+    "rank": 8,
     "ratingGames": 16,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.9
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 5,
-    "rating": 2.2,
-    "confidence": 79,
-    "rank": 7,
+    "seq": 7,
+    "label": "5",
+    "rating": 1.9,
+    "confidence": 78,
+    "rank": 10,
     "ratingGames": 24,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.9,
     "confidence": 79,
     "rank": 12,
@@ -15583,15 +15974,19 @@
    },
    {
     "week": 7,
-    "rating": 1.5,
+    "seq": 11,
+    "label": "7",
+    "rating": 1.7,
     "confidence": 83,
-    "rank": 16,
+    "rank": 14,
     "ratingGames": 31,
     "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 1.8,
     "confidence": 84,
     "rank": 12,
@@ -15601,6 +15996,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.7,
     "confidence": 84,
     "rank": 14,
@@ -15610,12 +16007,14 @@
    },
    {
     "week": 10,
-    "rating": 1.7,
+    "seq": 17,
+    "label": "10",
+    "rating": 1.8,
     "confidence": 86,
-    "rank": 15,
+    "rank": 12,
     "ratingGames": 39,
     "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -16878,6 +17277,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 50,
     "rank": 12,
@@ -16887,15 +17288,19 @@
    },
    {
     "week": 3,
-    "rating": 0.9,
-    "confidence": 70,
+    "seq": 3,
+    "label": "3",
+    "rating": 1,
+    "confidence": 69,
     "rank": 15,
     "ratingGames": 14,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1,
     "confidence": 71,
     "rank": 17,
@@ -16905,6 +17310,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 2.1,
     "confidence": 77,
     "rank": 8,
@@ -16914,6 +17321,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 2.2,
     "confidence": 81,
     "rank": 8,
@@ -16923,6 +17332,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": 1.9,
+    "confidence": 85,
+    "rank": 11,
+    "ratingGames": 34,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": 1.7,
     "confidence": 87,
     "rank": 14,
@@ -16932,15 +17354,30 @@
    },
    {
     "week": 8,
-    "rating": 1,
+    "seq": 13,
+    "label": "8",
+    "rating": 1.1,
     "confidence": 88,
-    "rank": 20,
+    "rank": 19,
     "ratingGames": 48,
-    "strengthOfPartners": 1.1,
+    "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
    },
    {
     "week": 9,
+    "seq": 14,
+    "label": "9a",
+    "rating": 1.2,
+    "confidence": 89,
+    "rank": 17,
+    "ratingGames": 55,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 9,
+    "seq": 15,
+    "label": "9b",
     "rating": 0.8,
     "confidence": 90,
     "rank": 23,
@@ -16950,6 +17387,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.7,
     "confidence": 90,
     "rank": 25,
@@ -17857,6 +18296,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.9,
     "confidence": 52,
     "rank": 41,
@@ -17866,6 +18307,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.7,
     "confidence": 70,
     "rank": 22,
@@ -17875,6 +18318,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.9,
     "confidence": 71,
     "rank": 22,
@@ -17884,6 +18329,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.9,
     "confidence": 71,
     "rank": 25,
@@ -17893,15 +18340,19 @@
    },
    {
     "week": 7,
-    "rating": 0.6,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.7,
     "confidence": 78,
     "rank": 27,
     "ratingGames": 21,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.8,
     "confidence": 83,
     "rank": 24,
@@ -17911,6 +18362,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.9,
     "confidence": 85,
     "rank": 22,
@@ -17920,6 +18373,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.1,
     "confidence": 87,
     "rank": 19,
@@ -18686,6 +19141,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 47,
     "rank": 14,
@@ -18695,6 +19152,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 47,
     "rank": 27,
@@ -18704,6 +19163,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.6,
     "confidence": 49,
     "rank": 36,
@@ -18713,15 +19174,19 @@
    },
    {
     "week": 4,
-    "rating": 1.6,
-    "confidence": 71,
-    "rank": 12,
+    "seq": 5,
+    "label": "4",
+    "rating": 1.8,
+    "confidence": 69,
+    "rank": 9,
     "ratingGames": 15,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.7,
     "confidence": 72,
     "rank": 11,
@@ -18731,24 +19196,30 @@
    },
    {
     "week": 6,
-    "rating": 2.2,
+    "seq": 9,
+    "label": "6",
+    "rating": 2.1,
     "confidence": 78,
-    "rank": 9,
+    "rank": 8,
     "ratingGames": 22,
     "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 7,
-    "rating": 2.3,
+    "seq": 11,
+    "label": "7",
+    "rating": 2.5,
     "confidence": 83,
     "rank": 7,
     "ratingGames": 29,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2.3,
     "confidence": 84,
     "rank": 7,
@@ -18758,15 +19229,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.3,
     "confidence": 86,
-    "rank": 8,
+    "rank": 7,
     "ratingGames": 36,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.1,
     "confidence": 86,
     "rank": 11,
@@ -19769,6 +20244,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 49,
     "rank": 3,
@@ -19778,6 +20255,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.8,
     "confidence": 51,
     "rank": 6,
@@ -19787,24 +20266,30 @@
    },
    {
     "week": 4,
-    "rating": 1.9,
+    "seq": 5,
+    "label": "4",
+    "rating": 2,
     "confidence": 69,
-    "rank": 8,
+    "rank": 7,
     "ratingGames": 13,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.4
    },
    {
     "week": 5,
-    "rating": 1.3,
+    "seq": 7,
+    "label": "5",
+    "rating": 1.2,
     "confidence": 77,
-    "rank": 14,
+    "rank": 15,
     "ratingGames": 19,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.1
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.4,
     "confidence": 78,
     "rank": 16,
@@ -19814,15 +20299,30 @@
    },
    {
     "week": 7,
-    "rating": 0.7,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.9,
     "confidence": 82,
-    "rank": 25,
+    "rank": 23,
     "ratingGames": 25,
     "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 8,
+    "seq": 12,
+    "label": "8a",
+    "rating": 0.7,
+    "confidence": 85,
+    "rank": 22,
+    "ratingGames": 31,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 8,
+    "seq": 13,
+    "label": "8b",
     "rating": 0.8,
     "confidence": 87,
     "rank": 22,
@@ -19832,6 +20332,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.8,
     "confidence": 87,
     "rank": 25,
@@ -19841,12 +20343,14 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.4,
     "confidence": 89,
-    "rank": 29,
+    "rank": 28,
     "ratingGames": 47,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -21032,6 +21536,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 44,
     "rank": 6,
@@ -21041,6 +21547,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 44,
     "rank": 9,
@@ -21050,6 +21558,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.9,
     "confidence": 47,
     "rank": 17,
@@ -21059,15 +21569,19 @@
    },
    {
     "week": 4,
-    "rating": 0.1,
-    "confidence": 68,
+    "seq": 5,
+    "label": "4",
+    "rating": -0.1,
+    "confidence": 67,
     "rank": 34,
     "ratingGames": 14,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.5,
     "confidence": 77,
     "rank": 29,
@@ -21077,24 +21591,30 @@
    },
    {
     "week": 6,
-    "rating": 0.4,
-    "confidence": 82,
-    "rank": 31,
+    "seq": 9,
+    "label": "6",
+    "rating": 0.3,
+    "confidence": 81,
+    "rank": 30,
     "ratingGames": 28,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
    },
    {
     "week": 7,
-    "rating": -0.1,
+    "seq": 11,
+    "label": "7",
+    "rating": 0,
     "confidence": 85,
-    "rank": 38,
+    "rank": 37,
     "ratingGames": 34,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.6,
     "confidence": 87,
     "rank": 26,
@@ -21104,7 +21624,9 @@
    },
    {
     "week": 9,
-    "rating": 0.6,
+    "seq": 15,
+    "label": "9",
+    "rating": 0.5,
     "confidence": 88,
     "rank": 28,
     "ratingGames": 48,
@@ -21113,12 +21635,14 @@
    },
    {
     "week": 10,
-    "rating": 0.3,
+    "seq": 17,
+    "label": "10",
+    "rating": 0.4,
     "confidence": 90,
-    "rank": 33,
+    "rank": 27,
     "ratingGames": 56,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -22117,6 +22641,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.2,
     "confidence": 52,
     "rank": 17,
@@ -22126,6 +22652,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 52,
     "rank": 30,
@@ -22135,6 +22663,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.6,
     "confidence": 69,
     "rank": 35,
@@ -22144,6 +22674,19 @@
    },
    {
     "week": 4,
+    "seq": 4,
+    "label": "4a",
+    "rating": -0.4,
+    "confidence": 77,
+    "rank": 37,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 4,
+    "seq": 5,
+    "label": "4b",
     "rating": -0.7,
     "confidence": 81,
     "rank": 41,
@@ -22153,6 +22696,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.9,
     "confidence": 82,
     "rank": 44,
@@ -22162,6 +22707,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.7,
     "confidence": 82,
     "rank": 46,
@@ -22171,15 +22718,19 @@
    },
    {
     "week": 7,
-    "rating": -0.2,
+    "seq": 11,
+    "label": "7",
+    "rating": -0.1,
     "confidence": 85,
-    "rank": 40,
+    "rank": 39,
     "ratingGames": 34,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.3,
     "confidence": 87,
     "rank": 43,
@@ -22189,6 +22740,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.4,
     "confidence": 87,
     "rank": 44,
@@ -22198,6 +22751,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.2,
     "confidence": 88,
     "rank": 46,
@@ -23312,6 +23867,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 51,
     "rank": 22,
@@ -23321,6 +23878,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.6,
     "confidence": 71,
     "rank": 22,
@@ -23330,24 +23889,30 @@
    },
    {
     "week": 4,
-    "rating": 0.2,
+    "seq": 5,
+    "label": "4",
+    "rating": -0.1,
     "confidence": 79,
-    "rank": 30,
+    "rank": 32,
     "ratingGames": 24,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.3
    },
    {
     "week": 5,
-    "rating": 0.4,
+    "seq": 7,
+    "label": "5",
+    "rating": 0.6,
     "confidence": 83,
-    "rank": 30,
+    "rank": 27,
     "ratingGames": 32,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.1
+    "strengthOfOpponents": 0
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.4,
     "confidence": 84,
     "rank": 30,
@@ -23357,15 +23922,19 @@
    },
    {
     "week": 7,
-    "rating": 0.6,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.5,
     "confidence": 86,
-    "rank": 26,
+    "rank": 29,
     "ratingGames": 38,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.7,
     "confidence": 88,
     "rank": 25,
@@ -23375,6 +23944,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.8,
     "confidence": 88,
     "rank": 24,
@@ -23384,12 +23955,14 @@
    },
    {
     "week": 10,
-    "rating": 0.1,
+    "seq": 17,
+    "label": "10",
+    "rating": 0.2,
     "confidence": 89,
-    "rank": 37,
+    "rank": 34,
     "ratingGames": 54,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -24371,6 +24944,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -1,
     "confidence": 55,
     "rank": 42,
@@ -24380,15 +24955,19 @@
    },
    {
     "week": 4,
-    "rating": 1.1,
-    "confidence": 71,
-    "rank": 16,
+    "seq": 5,
+    "label": "4",
+    "rating": 0.9,
+    "confidence": 70,
+    "rank": 18,
     "ratingGames": 16,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.3,
     "confidence": 72,
     "rank": 16,
@@ -24398,6 +24977,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.1,
     "confidence": 73,
     "rank": 18,
@@ -24407,15 +24988,30 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1.9,
     "confidence": 79,
-    "rank": 11,
+    "rank": 12,
     "ratingGames": 23,
-    "strengthOfPartners": 1.5,
+    "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.9
    },
    {
     "week": 8,
+    "seq": 12,
+    "label": "8a",
+    "rating": 1.5,
+    "confidence": 83,
+    "rank": 13,
+    "ratingGames": 31,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 8,
+    "seq": 13,
+    "label": "8b",
     "rating": 1.2,
     "confidence": 86,
     "rank": 18,
@@ -24425,6 +25021,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.2,
     "confidence": 86,
     "rank": 17,
@@ -24434,9 +25032,11 @@
    },
    {
     "week": 10,
-    "rating": 0.8,
+    "seq": 17,
+    "label": "10",
+    "rating": 0.9,
     "confidence": 88,
-    "rank": 24,
+    "rank": 21,
     "ratingGames": 47,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -25223,6 +25823,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.8,
     "confidence": 47,
     "rank": 13,
@@ -25232,6 +25834,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 47,
     "rank": 26,
@@ -25241,6 +25845,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.3,
     "confidence": 65,
     "rank": 32,
@@ -25250,6 +25856,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -0.1,
     "confidence": 74,
     "rank": 36,
@@ -25259,6 +25867,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.1,
     "confidence": 75,
     "rank": 36,
@@ -25268,6 +25878,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0,
     "confidence": 76,
     "rank": 35,
@@ -25277,6 +25889,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.2,
     "confidence": 77,
     "rank": 41,
@@ -25286,6 +25900,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.5,
     "confidence": 81,
     "rank": 31,
@@ -25295,6 +25911,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.7,
     "confidence": 84,
     "rank": 27,
@@ -25304,6 +25922,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.4,
     "confidence": 86,
     "rank": 31,
@@ -26177,6 +26797,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.6,
     "confidence": 45,
     "rank": 3,
@@ -26186,6 +26808,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 45,
     "rank": 6,
@@ -26195,6 +26819,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.8,
     "confidence": 49,
     "rank": 7,
@@ -26204,6 +26830,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 2.1,
     "confidence": 50,
     "rank": 7,
@@ -26213,6 +26841,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.2,
     "confidence": 69,
     "rank": 18,
@@ -26222,24 +26852,30 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.6,
     "confidence": 77,
-    "rank": 15,
+    "rank": 13,
     "ratingGames": 19,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.7
    },
    {
     "week": 7,
-    "rating": 1.9,
+    "seq": 11,
+    "label": "7",
+    "rating": 2,
     "confidence": 82,
-    "rank": 10,
+    "rank": 9,
     "ratingGames": 26,
     "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 1.9,
     "confidence": 85,
     "rank": 11,
@@ -26249,15 +26885,19 @@
    },
    {
     "week": 9,
-    "rating": 1.7,
+    "seq": 15,
+    "label": "9",
+    "rating": 1.8,
     "confidence": 87,
-    "rank": 13,
+    "rank": 11,
     "ratingGames": 41,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.7,
     "confidence": 87,
     "rank": 14,
@@ -26972,6 +27612,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 44,
     "rank": 19,
@@ -26981,6 +27623,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.7,
     "confidence": 45,
     "rank": 21,
@@ -26990,6 +27634,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.6,
     "confidence": 46,
     "rank": 28,
@@ -26999,6 +27645,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.3,
     "confidence": 66,
     "rank": 40,
@@ -27008,6 +27656,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.7,
     "confidence": 66,
     "rank": 47,
@@ -27017,6 +27667,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.9,
     "confidence": 76,
     "rank": 51,
@@ -27026,15 +27678,19 @@
    },
    {
     "week": 8,
-    "rating": -0.4,
-    "confidence": 82,
-    "rank": 45,
+    "seq": 13,
+    "label": "8",
+    "rating": -0.5,
+    "confidence": 81,
+    "rank": 46,
     "ratingGames": 26,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.8
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.7,
     "confidence": 85,
     "rank": 49,
@@ -27044,6 +27700,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.6,
     "confidence": 85,
     "rank": 48,
@@ -27613,6 +28271,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 47,
     "rank": 5,
@@ -27622,6 +28282,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 47,
     "rank": 8,
@@ -27631,6 +28293,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.6,
     "confidence": 50,
     "rank": 8,
@@ -27640,6 +28304,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.9,
     "confidence": 52,
     "rank": 10,
@@ -27649,6 +28315,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.1,
     "confidence": 63,
     "rank": 38,
@@ -27658,6 +28326,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.2,
     "confidence": 64,
     "rank": 41,
@@ -27667,6 +28337,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.1,
     "confidence": 65,
     "rank": 39,
@@ -27676,6 +28348,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.4,
     "confidence": 76,
     "rank": 46,
@@ -27685,6 +28359,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.4,
     "confidence": 77,
     "rank": 46,
@@ -27694,9 +28370,11 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0,
     "confidence": 82,
-    "rank": 40,
+    "rank": 41,
     "ratingGames": 25,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.6
@@ -28829,6 +29507,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.9,
     "confidence": 43,
     "rank": 2,
@@ -28838,6 +29518,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 43,
     "rank": 4,
@@ -28847,6 +29529,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.1,
     "confidence": 64,
     "rank": 29,
@@ -28856,6 +29540,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.2,
     "confidence": 74,
     "rank": 14,
@@ -28865,6 +29551,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1.3,
     "confidence": 76,
     "rank": 15,
@@ -28874,6 +29562,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.5,
     "confidence": 81,
     "rank": 29,
@@ -28883,15 +29573,19 @@
    },
    {
     "week": 7,
-    "rating": 0.2,
-    "confidence": 85,
-    "rank": 36,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.1,
+    "confidence": 84,
+    "rank": 35,
     "ratingGames": 34,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.5,
     "confidence": 86,
     "rank": 30,
@@ -28901,6 +29595,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.3,
     "confidence": 88,
     "rank": 34,
@@ -28910,6 +29606,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.4,
     "confidence": 89,
     "rank": 28,
@@ -29404,15 +30102,19 @@
   "ratingHistory": [
    {
     "week": 5,
-    "rating": 2.9,
+    "seq": 7,
+    "label": "5",
+    "rating": 2.8,
     "confidence": 56,
-    "rank": 5,
+    "rank": 6,
     "ratingGames": 7,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 2.1
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 2.7,
     "confidence": 57,
     "rank": 6,
@@ -29422,6 +30124,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 2.8,
     "confidence": 58,
     "rank": 6,
@@ -29431,6 +30135,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2.3,
     "confidence": 73,
     "rank": 8,
@@ -29440,6 +30146,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2.4,
     "confidence": 80,
     "rank": 7,
@@ -29449,6 +30157,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.4,
     "confidence": 80,
     "rank": 8,
@@ -30294,6 +31004,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 43,
     "rank": 33,
@@ -30303,6 +31015,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -1.6,
     "confidence": 46,
     "rank": 46,
@@ -30312,6 +31026,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -1.7,
     "confidence": 46,
     "rank": 49,
@@ -30321,15 +31037,19 @@
    },
    {
     "week": 5,
-    "rating": -1,
-    "confidence": 66,
-    "rank": 48,
+    "seq": 7,
+    "label": "5",
+    "rating": -1.2,
+    "confidence": 64,
+    "rank": 46,
     "ratingGames": 12,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -1.2
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1.3
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1,
     "confidence": 68,
     "rank": 51,
@@ -30339,15 +31059,30 @@
    },
    {
     "week": 7,
-    "rating": -1.6,
+    "seq": 11,
+    "label": "7",
+    "rating": -1.5,
     "confidence": 76,
-    "rank": 55,
+    "rank": 54,
     "ratingGames": 18,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 8,
+    "seq": 12,
+    "label": "8a",
+    "rating": -2.3,
+    "confidence": 80,
+    "rank": 63,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 8,
+    "seq": 13,
+    "label": "8b",
     "rating": -2.3,
     "confidence": 84,
     "rank": 63,
@@ -30357,6 +31092,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.4,
     "confidence": 84,
     "rank": 63,
@@ -30366,9 +31103,11 @@
    },
    {
     "week": 10,
-    "rating": -1.9,
+    "seq": 17,
+    "label": "10",
+    "rating": -1.8,
     "confidence": 86,
-    "rank": 62,
+    "rank": 61,
     "ratingGames": 40,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.2
@@ -30790,6 +31529,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.3,
     "confidence": 49,
     "rank": 33,
@@ -30799,6 +31540,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.6,
     "confidence": 51,
     "rank": 27,
@@ -30808,6 +31551,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.6,
     "confidence": 52,
     "rank": 28,
@@ -30817,6 +31562,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.6,
     "confidence": 69,
     "rank": 28,
@@ -30826,6 +31573,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.8,
     "confidence": 70,
     "rank": 24,
@@ -30835,6 +31584,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.3,
     "confidence": 70,
     "rank": 37,
@@ -30844,6 +31595,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.3,
     "confidence": 71,
     "rank": 36,
@@ -30853,6 +31606,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0,
     "confidence": 77,
     "rank": 41,
@@ -31253,6 +32008,8 @@
   "ratingHistory": [
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1,
     "confidence": 56,
     "rank": 53,
@@ -31262,15 +32019,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.2,
     "confidence": 71,
     "rank": 42,
     "ratingGames": 12,
-    "strengthOfPartners": -1.4,
+    "strengthOfPartners": -1.3,
     "strengthOfOpponents": -0.7
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.1,
     "confidence": 78,
     "rank": 43,
@@ -32098,6 +32859,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.9,
     "confidence": 44,
     "rank": 38,
@@ -32107,15 +32870,19 @@
    },
    {
     "week": 3,
-    "rating": -2.2,
+    "seq": 3,
+    "label": "3",
+    "rating": -2.1,
     "confidence": 61,
-    "rank": 52,
+    "rank": 46,
     "ratingGames": 12,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.2
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2.4,
     "confidence": 65,
     "rank": 57,
@@ -32125,6 +32892,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.8,
     "confidence": 66,
     "rank": 59,
@@ -32134,6 +32903,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -3.1,
     "confidence": 76,
     "rank": 65,
@@ -32143,6 +32914,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": -2.7,
+    "confidence": 82,
+    "rank": 62,
+    "ratingGames": 28,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": -2,
     "confidence": 84,
     "rank": 60,
@@ -32152,6 +32936,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2,
     "confidence": 85,
     "rank": 60,
@@ -32161,6 +32947,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.2,
     "confidence": 87,
     "rank": 62,
@@ -32170,6 +32958,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -2.2,
     "confidence": 87,
     "rank": 65,
@@ -32354,6 +33144,8 @@
   "ratingHistory": [
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1.2,
     "confidence": 55,
     "rank": 53,
@@ -32363,6 +33155,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1.3,
     "confidence": 56,
     "rank": 54,
@@ -32372,6 +33166,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1.5,
     "confidence": 56,
     "rank": 57,
@@ -32381,6 +33177,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.7,
     "confidence": 57,
     "rank": 59,
@@ -32390,6 +33188,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.7,
     "confidence": 57,
     "rank": 60,
@@ -33226,6 +34026,8 @@
   "ratingHistory": [
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 1,
     "confidence": 54,
     "rank": 20,
@@ -33235,24 +34037,30 @@
    },
    {
     "week": 6,
-    "rating": 0.2,
+    "seq": 9,
+    "label": "6",
+    "rating": 0,
     "confidence": 69,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 13,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.5
    },
    {
     "week": 7,
-    "rating": 0.3,
+    "seq": 11,
+    "label": "7",
+    "rating": 0.4,
     "confidence": 76,
-    "rank": 35,
+    "rank": 30,
     "ratingGames": 19,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.9,
     "confidence": 82,
     "rank": 50,
@@ -33262,6 +34070,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.8,
     "confidence": 85,
     "rank": 50,
@@ -33271,9 +34081,11 @@
    },
    {
     "week": 10,
-    "rating": -0.9,
+    "seq": 17,
+    "label": "10",
+    "rating": -0.8,
     "confidence": 87,
-    "rank": 51,
+    "rank": 49,
     "ratingGames": 41,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.7
@@ -34374,6 +35186,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 45,
     "rank": 15,
@@ -34383,6 +35197,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 45,
     "rank": 28,
@@ -34392,6 +35208,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -1.8,
     "confidence": 64,
     "rank": 49,
@@ -34401,6 +35219,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -1.8,
     "confidence": 75,
     "rank": 50,
@@ -34410,6 +35230,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2,
     "confidence": 76,
     "rank": 51,
@@ -34419,6 +35241,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.3,
     "confidence": 80,
     "rank": 59,
@@ -34428,15 +35252,19 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1.8,
     "confidence": 83,
-    "rank": 58,
+    "rank": 56,
     "ratingGames": 32,
-    "strengthOfPartners": 0,
+    "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.7
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2,
     "confidence": 86,
     "rank": 59,
@@ -34446,6 +35274,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.8,
     "confidence": 88,
     "rank": 60,
@@ -34455,6 +35285,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.9,
     "confidence": 89,
     "rank": 61,
@@ -35350,6 +36182,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.8,
     "confidence": 54,
     "rank": 38,
@@ -35359,24 +36193,30 @@
    },
    {
     "week": 4,
-    "rating": -1.7,
-    "confidence": 67,
-    "rank": 48,
+    "seq": 5,
+    "label": "4",
+    "rating": -1.9,
+    "confidence": 66,
+    "rank": 50,
     "ratingGames": 14,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.5
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.7
    },
    {
     "week": 5,
-    "rating": -2.8,
-    "confidence": 76,
-    "rank": 58,
+    "seq": 7,
+    "label": "5",
+    "rating": -2.4,
+    "confidence": 75,
+    "rank": 54,
     "ratingGames": 20,
     "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.1
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.7,
     "confidence": 77,
     "rank": 63,
@@ -35386,15 +36226,19 @@
    },
    {
     "week": 7,
-    "rating": -2.9,
+    "seq": 11,
+    "label": "7",
+    "rating": -2.7,
     "confidence": 80,
-    "rank": 66,
+    "rank": 63,
     "ratingGames": 26,
     "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2.7,
     "confidence": 84,
     "rank": 66,
@@ -35404,6 +36248,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.6,
     "confidence": 85,
     "rank": 64,
@@ -35413,9 +36259,11 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -2.4,
     "confidence": 87,
-    "rank": 67,
+    "rank": 65,
     "ratingGames": 42,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.1
@@ -36308,6 +37156,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 46,
     "rank": 20,
@@ -36317,6 +37167,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.8,
     "confidence": 68,
     "rank": 37,
@@ -36326,15 +37178,19 @@
    },
    {
     "week": 4,
-    "rating": -0.2,
+    "seq": 5,
+    "label": "4",
+    "rating": -0.3,
     "confidence": 75,
-    "rank": 38,
+    "rank": 36,
     "ratingGames": 20,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.6
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.7
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.1,
     "confidence": 76,
     "rank": 35,
@@ -36344,6 +37200,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.1,
     "confidence": 77,
     "rank": 38,
@@ -36353,6 +37211,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.3,
     "confidence": 78,
     "rank": 33,
@@ -36362,6 +37222,19 @@
    },
    {
     "week": 8,
+    "seq": 12,
+    "label": "8a",
+    "rating": 0,
+    "confidence": 82,
+    "rank": 39,
+    "ratingGames": 26,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 8,
+    "seq": 13,
+    "label": "8b",
     "rating": -0.7,
     "confidence": 85,
     "rank": 47,
@@ -36371,6 +37244,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.7,
     "confidence": 86,
     "rank": 48,
@@ -36380,11 +37255,13 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1,
     "confidence": 88,
-    "rank": 52,
+    "rank": 50,
     "ratingGames": 42,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -36826,6 +37703,8 @@
   "ratingHistory": [
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1.8,
     "confidence": 55,
     "rank": 13,
@@ -36835,15 +37714,19 @@
    },
    {
     "week": 8,
-    "rating": 0.6,
+    "seq": 13,
+    "label": "8",
+    "rating": 0.8,
     "confidence": 71,
-    "rank": 29,
+    "rank": 21,
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.7
+    "strengthOfOpponents": -0.6
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.2,
     "confidence": 79,
     "rank": 38,
@@ -36853,6 +37736,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.2,
     "confidence": 79,
     "rank": 36,
@@ -37440,15 +38325,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -3.6,
+    "seq": 3,
+    "label": "3",
+    "rating": -3.8,
     "confidence": 48,
-    "rank": 55,
+    "rank": 49,
     "ratingGames": 6,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.7
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -3.8,
     "confidence": 51,
     "rank": 60,
@@ -37458,6 +38347,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -4.3,
     "confidence": 53,
     "rank": 63,
@@ -37467,6 +38358,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.1,
     "confidence": 70,
     "rank": 57,
@@ -37476,6 +38369,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -2.3,
     "confidence": 78,
     "rank": 62,
@@ -37485,15 +38380,19 @@
    },
    {
     "week": 8,
-    "rating": -2.1,
+    "seq": 13,
+    "label": "8",
+    "rating": -2,
     "confidence": 82,
     "rank": 61,
     "ratingGames": 28,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2,
     "confidence": 83,
     "rank": 61,
@@ -37503,6 +38402,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -2.1,
     "confidence": 83,
     "rank": 64,
@@ -38547,6 +39448,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.7,
     "confidence": 51,
     "rank": 37,
@@ -38556,15 +39459,19 @@
    },
    {
     "week": 3,
-    "rating": -2.6,
-    "confidence": 71,
-    "rank": 53,
+    "seq": 3,
+    "label": "3",
+    "rating": -2.8,
+    "confidence": 69,
+    "rank": 48,
     "ratingGames": 15,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.3
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2.5,
     "confidence": 71,
     "rank": 58,
@@ -38574,6 +39481,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.5,
     "confidence": 79,
     "rank": 56,
@@ -38583,6 +39492,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.7,
     "confidence": 82,
     "rank": 62,
@@ -38592,6 +39503,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1.8,
     "confidence": 85,
     "rank": 57,
@@ -38601,15 +39514,19 @@
    },
    {
     "week": 8,
-    "rating": -1.5,
+    "seq": 13,
+    "label": "8",
+    "rating": -1.7,
     "confidence": 87,
-    "rank": 56,
+    "rank": 57,
     "ratingGames": 43,
     "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.5,
     "confidence": 89,
     "rank": 55,
@@ -38619,6 +39536,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.5,
     "confidence": 89,
     "rank": 57,
@@ -39659,6 +40578,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 50,
     "rank": 10,
@@ -39668,6 +40589,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 50,
     "rank": 21,
@@ -39677,6 +40600,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.2,
     "confidence": 52,
     "rank": 31,
@@ -39686,15 +40611,19 @@
    },
    {
     "week": 4,
-    "rating": -0.3,
-    "confidence": 71,
-    "rank": 40,
+    "seq": 5,
+    "label": "4",
+    "rating": -0.2,
+    "confidence": 70,
+    "rank": 35,
     "ratingGames": 15,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -1,
     "confidence": 79,
     "rank": 45,
@@ -39704,24 +40633,30 @@
    },
    {
     "week": 6,
-    "rating": -0.7,
+    "seq": 9,
+    "label": "6",
+    "rating": -0.8,
     "confidence": 83,
-    "rank": 45,
+    "rank": 47,
     "ratingGames": 29,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1,
     "confidence": 85,
-    "rank": 53,
+    "rank": 51,
     "ratingGames": 35,
-    "strengthOfPartners": -0.6,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.3
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1,
     "confidence": 86,
     "rank": 52,
@@ -39731,21 +40666,25 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.7,
     "confidence": 87,
-    "rank": 47,
+    "rank": 48,
     "ratingGames": 41,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.4
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.7,
     "confidence": 89,
-    "rank": 49,
+    "rank": 48,
     "ratingGames": 49,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.6
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -40577,6 +41516,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 43,
     "rank": 32,
@@ -40586,6 +41527,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -1.6,
     "confidence": 44,
     "rank": 47,
@@ -40595,6 +41538,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -1.3,
     "confidence": 46,
     "rank": 47,
@@ -40604,6 +41549,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.5,
     "confidence": 67,
     "rank": 42,
@@ -40613,6 +41560,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -0.1,
     "confidence": 74,
     "rank": 39,
@@ -40622,6 +41571,19 @@
    },
    {
     "week": 7,
+    "seq": 10,
+    "label": "7a",
+    "rating": -0.5,
+    "confidence": 80,
+    "rank": 44,
+    "ratingGames": 26,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 7,
+    "seq": 11,
+    "label": "7b",
     "rating": -0.6,
     "confidence": 83,
     "rank": 46,
@@ -40631,6 +41593,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1.3,
     "confidence": 84,
     "rank": 55,
@@ -40640,6 +41604,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.7,
     "confidence": 86,
     "rank": 57,
@@ -40649,6 +41615,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.7,
     "confidence": 86,
     "rank": 58,
@@ -40849,6 +41817,8 @@
   "ratingHistory": [
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1.9,
     "confidence": 58,
     "rank": 13,
@@ -40858,6 +41828,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1.9,
     "confidence": 58,
     "rank": 12,
@@ -40867,6 +41839,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 2,
     "confidence": 59,
     "rank": 10,
@@ -40876,6 +41850,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 2,
     "confidence": 59,
     "rank": 11,
@@ -40885,6 +41861,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2,
     "confidence": 59,
     "rank": 12,
@@ -41042,6 +42020,8 @@
   "ratingHistory": [
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 2.6,
     "confidence": 58,
     "rank": 6,
@@ -41878,15 +42858,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -1.4,
+    "seq": 3,
+    "label": "3",
+    "rating": -1.5,
     "confidence": 47,
-    "rank": 45,
+    "rank": 41,
     "ratingGames": 7,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -0.9,
     "confidence": 67,
     "rank": 43,
@@ -41896,6 +42880,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.4,
     "confidence": 69,
     "rank": 41,
@@ -41905,15 +42891,19 @@
    },
    {
     "week": 6,
-    "rating": -0.2,
+    "seq": 9,
+    "label": "6",
+    "rating": -0.3,
     "confidence": 76,
-    "rank": 40,
+    "rank": 41,
     "ratingGames": 20,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.6,
     "confidence": 81,
     "rank": 47,
@@ -41923,6 +42913,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.1,
     "confidence": 84,
     "rank": 40,
@@ -41932,6 +42924,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.5,
     "confidence": 87,
     "rank": 29,
@@ -41941,6 +42935,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.4,
     "confidence": 87,
     "rank": 30,
@@ -42302,6 +43298,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 50,
     "rank": 31,
@@ -42311,6 +43309,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.2,
     "confidence": 70,
     "rank": 30,
@@ -42320,6 +43320,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.2,
     "confidence": 71,
     "rank": 31,
@@ -42329,6 +43331,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.4,
     "confidence": 72,
     "rank": 31,
@@ -42338,6 +43342,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.4,
     "confidence": 73,
     "rank": 32,
@@ -42347,6 +43353,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.4,
     "confidence": 74,
     "rank": 30,
@@ -42356,6 +43364,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.6,
     "confidence": 74,
     "rank": 28,
@@ -42365,6 +43375,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.5,
     "confidence": 75,
     "rank": 31,
@@ -42374,6 +43386,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.6,
     "confidence": 75,
     "rank": 26,
@@ -43271,6 +44285,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.2,
     "confidence": 45,
     "rank": 7,
@@ -43280,6 +44296,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 45,
     "rank": 10,
@@ -43289,6 +44307,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 1.2,
     "confidence": 47,
     "rank": 11,
@@ -43298,15 +44318,19 @@
    },
    {
     "week": 4,
-    "rating": 0.8,
-    "confidence": 68,
-    "rank": 21,
+    "seq": 5,
+    "label": "4",
+    "rating": 0.5,
+    "confidence": 67,
+    "rank": 22,
     "ratingGames": 14,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.8,
     "confidence": 69,
     "rank": 24,
@@ -43316,24 +44340,30 @@
    },
    {
     "week": 6,
-    "rating": 0.8,
+    "seq": 9,
+    "label": "6",
+    "rating": 0.9,
     "confidence": 77,
-    "rank": 26,
+    "rank": 23,
     "ratingGames": 21,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.8,
     "confidence": 82,
-    "rank": 22,
+    "rank": 24,
     "ratingGames": 28,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.1
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.8,
     "confidence": 85,
     "rank": 23,
@@ -43343,6 +44373,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1,
     "confidence": 86,
     "rank": 19,
@@ -43352,11 +44384,13 @@
    },
    {
     "week": 10,
-    "rating": 1,
-    "confidence": 88,
-    "rank": 20,
+    "seq": 17,
+    "label": "10",
+    "rating": 1.1,
+    "confidence": 87,
+    "rank": 18,
     "ratingGames": 44,
-    "strengthOfPartners": -0.4,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -44211,15 +45245,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -1.1,
-    "confidence": 53,
-    "rank": 43,
+    "seq": 3,
+    "label": "3",
+    "rating": -1,
+    "confidence": 52,
+    "rank": 37,
     "ratingGames": 8,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.7
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -0.8,
     "confidence": 55,
     "rank": 42,
@@ -44229,24 +45267,30 @@
    },
    {
     "week": 5,
-    "rating": -1,
-    "confidence": 71,
-    "rank": 47,
+    "seq": 7,
+    "label": "5",
+    "rating": -1.1,
+    "confidence": 70,
+    "rank": 44,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.4
    },
    {
     "week": 6,
-    "rating": -0.1,
-    "confidence": 79,
-    "rank": 37,
+    "seq": 9,
+    "label": "6",
+    "rating": -0.2,
+    "confidence": 78,
+    "rank": 38,
     "ratingGames": 21,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.3,
     "confidence": 82,
     "rank": 43,
@@ -44256,6 +45300,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.3,
     "confidence": 85,
     "rank": 44,
@@ -44265,6 +45311,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.3,
     "confidence": 85,
     "rank": 43,
@@ -44274,6 +45322,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.2,
     "confidence": 87,
     "rank": 47,
@@ -45036,15 +46086,19 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -0.5,
-    "confidence": 56,
-    "rank": 34,
+    "confidence": 55,
+    "rank": 29,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.6
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -0.2,
     "confidence": 70,
     "rank": 39,
@@ -45054,15 +46108,19 @@
    },
    {
     "week": 5,
-    "rating": -1,
+    "seq": 7,
+    "label": "5",
+    "rating": -1.2,
     "confidence": 77,
-    "rank": 46,
+    "rank": 45,
     "ratingGames": 21,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1,
     "confidence": 78,
     "rank": 49,
@@ -45072,6 +46130,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.7,
     "confidence": 79,
     "rank": 49,
@@ -45081,6 +46141,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.3,
     "confidence": 83,
     "rank": 36,
@@ -45090,15 +46152,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.5,
     "confidence": 86,
-    "rank": 30,
+    "rank": 31,
     "ratingGames": 35,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.8
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.5,
     "confidence": 86,
     "rank": 27,
@@ -45972,6 +47038,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.6,
     "confidence": 44,
     "rank": 12,
@@ -45981,6 +47049,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 44,
     "rank": 25,
@@ -45990,6 +47060,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -1.7,
     "confidence": 48,
     "rank": 48,
@@ -45999,15 +47071,19 @@
    },
    {
     "week": 4,
-    "rating": -2.2,
-    "confidence": 68,
-    "rank": 54,
+    "seq": 5,
+    "label": "4",
+    "rating": -2.6,
+    "confidence": 67,
+    "rank": 56,
     "ratingGames": 14,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -0.7,
     "confidence": 76,
     "rank": 43,
@@ -46017,6 +47093,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1,
     "confidence": 77,
     "rank": 50,
@@ -46026,15 +47104,19 @@
    },
    {
     "week": 7,
-    "rating": -0.6,
+    "seq": 11,
+    "label": "7",
+    "rating": -0.7,
     "confidence": 81,
-    "rank": 48,
+    "rank": 47,
     "ratingGames": 26,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -0.7,
     "confidence": 84,
     "rank": 48,
@@ -46044,15 +47126,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.2,
     "confidence": 87,
     "rank": 53,
     "ratingGames": 41,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.4,
     "confidence": 87,
     "rank": 55,
@@ -46864,15 +47950,19 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -2,
     "confidence": 47,
-    "rank": 50,
+    "rank": 45,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1.8
+    "strengthOfOpponents": -1.9
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2.2,
     "confidence": 66,
     "rank": 55,
@@ -46882,15 +47972,19 @@
    },
    {
     "week": 5,
-    "rating": -2.6,
+    "seq": 7,
+    "label": "5",
+    "rating": -2.4,
     "confidence": 74,
-    "rank": 57,
+    "rank": 55,
     "ratingGames": 18,
     "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.7
+    "strengthOfOpponents": -0.6
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.6,
     "confidence": 75,
     "rank": 61,
@@ -46900,6 +47994,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -2.4,
     "confidence": 80,
     "rank": 63,
@@ -46909,6 +48005,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2.2,
     "confidence": 81,
     "rank": 62,
@@ -46918,15 +48016,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.7,
     "confidence": 84,
     "rank": 58,
     "ratingGames": 30,
-    "strengthOfPartners": -2.1,
+    "strengthOfPartners": -2,
     "strengthOfOpponents": -0.9
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.9,
     "confidence": 86,
     "rank": 63,
@@ -47266,6 +48368,8 @@
   "ratingHistory": [
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.3,
     "confidence": 48,
     "rank": 25,
@@ -47275,6 +48379,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.7,
     "confidence": 50,
     "rank": 25,
@@ -47284,6 +48390,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.9,
     "confidence": 52,
     "rank": 23,
@@ -47293,6 +48401,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 1,
     "confidence": 52,
     "rank": 22,
@@ -47302,6 +48412,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1.1,
     "confidence": 52,
     "rank": 18,
@@ -47311,15 +48423,19 @@
    },
    {
     "week": 8,
-    "rating": -0.9,
-    "confidence": 73,
-    "rank": 51,
+    "seq": 13,
+    "label": "8",
+    "rating": -0.7,
+    "confidence": 72,
+    "rank": 49,
     "ratingGames": 14,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.4
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -0.9,
     "confidence": 73,
     "rank": 51,
@@ -47329,6 +48445,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.1,
     "confidence": 73,
     "rank": 54,
@@ -48427,15 +49545,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": 0.2,
+    "seq": 3,
+    "label": "3",
+    "rating": 0.1,
     "confidence": 47,
-    "rank": 27,
+    "rank": 25,
     "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0.7,
     "confidence": 67,
     "rank": 24,
@@ -48445,24 +49567,30 @@
    },
    {
     "week": 5,
-    "rating": 0.3,
+    "seq": 7,
+    "label": "5",
+    "rating": 0.4,
     "confidence": 77,
     "rank": 32,
     "ratingGames": 20,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 6,
-    "rating": 1,
-    "confidence": 82,
-    "rank": 19,
-    "ratingGames": 27,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1
    },
    {
+    "week": 6,
+    "seq": 9,
+    "label": "6",
+    "rating": 0.9,
+    "confidence": 81,
+    "rank": 22,
+    "ratingGames": 27,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.9
+   },
+   {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.5,
     "confidence": 84,
     "rank": 28,
@@ -48472,6 +49600,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.3,
     "confidence": 87,
     "rank": 34,
@@ -48481,15 +49611,19 @@
    },
    {
     "week": 9,
-    "rating": 0.2,
+    "seq": 15,
+    "label": "9",
+    "rating": 0.1,
     "confidence": 88,
-    "rank": 37,
+    "rank": 38,
     "ratingGames": 47,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.8
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.2,
     "confidence": 89,
     "rank": 45,
@@ -49407,6 +50541,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 46,
     "rank": 9,
@@ -49416,6 +50552,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 46,
     "rank": 16,
@@ -49425,6 +50563,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.2,
     "confidence": 48,
     "rank": 26,
@@ -49434,15 +50574,19 @@
    },
    {
     "week": 4,
-    "rating": 0.8,
-    "confidence": 69,
-    "rank": 20,
+    "seq": 5,
+    "label": "4",
+    "rating": 0.4,
+    "confidence": 68,
+    "rank": 23,
     "ratingGames": 14,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.2,
     "confidence": 77,
     "rank": 33,
@@ -49452,17 +50596,21 @@
    },
    {
     "week": 6,
-    "rating": -0.3,
+    "seq": 9,
+    "label": "6",
+    "rating": -0.4,
     "confidence": 81,
     "rank": 42,
     "ratingGames": 28,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -0.3,
-    "confidence": 85,
+    "confidence": 84,
     "rank": 42,
     "ratingGames": 35,
     "strengthOfPartners": 0.4,
@@ -49470,6 +50618,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0,
     "confidence": 87,
     "rank": 42,
@@ -49479,6 +50629,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 0.1,
     "confidence": 87,
     "rank": 39,
@@ -49488,6 +50640,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.1,
     "confidence": 88,
     "rank": 42,
@@ -50544,15 +51698,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": 1.1,
-    "confidence": 55,
-    "rank": 12,
+    "seq": 3,
+    "label": "3",
+    "rating": 0.9,
+    "confidence": 54,
+    "rank": 17,
     "ratingGames": 8,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1.3
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.1
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 1.2,
     "confidence": 69,
     "rank": 15,
@@ -50562,24 +51720,30 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 2,
     "confidence": 77,
-    "rank": 9,
+    "rank": 8,
     "ratingGames": 22,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 6,
-    "rating": 1.7,
-    "confidence": 82,
-    "rank": 14,
-    "ratingGames": 29,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.6
    },
    {
+    "week": 6,
+    "seq": 9,
+    "label": "6",
+    "rating": 1.7,
+    "confidence": 81,
+    "rank": 11,
+    "ratingGames": 29,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.5
+   },
+   {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 1,
     "confidence": 85,
     "rank": 19,
@@ -50589,6 +51753,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 1.4,
     "confidence": 87,
     "rank": 15,
@@ -50598,6 +51764,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": 1.4,
     "confidence": 87,
     "rank": 15,
@@ -50607,6 +51775,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 1.1,
     "confidence": 88,
     "rank": 18,
@@ -51422,6 +52592,8 @@
   "ratingHistory": [
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -0.1,
     "confidence": 51,
     "rank": 37,
@@ -51431,24 +52603,30 @@
    },
    {
     "week": 5,
-    "rating": 0.6,
-    "confidence": 67,
-    "rank": 27,
+    "seq": 7,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 66,
+    "rank": 25,
     "ratingGames": 12,
-    "strengthOfPartners": -2.6,
+    "strengthOfPartners": -2.5,
     "strengthOfOpponents": 0.1
    },
    {
     "week": 6,
-    "rating": 1,
+    "seq": 9,
+    "label": "6",
+    "rating": 1.1,
     "confidence": 75,
-    "rank": 20,
+    "rank": 19,
     "ratingGames": 18,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.3,
     "confidence": 81,
     "rank": 32,
@@ -51458,6 +52636,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.1,
     "confidence": 82,
     "rank": 41,
@@ -51467,15 +52647,19 @@
    },
    {
     "week": 9,
-    "rating": -0.4,
+    "seq": 15,
+    "label": "9",
+    "rating": -0.3,
     "confidence": 84,
     "rank": 45,
     "ratingGames": 31,
     "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -0.7,
     "confidence": 86,
     "rank": 50,
@@ -52210,6 +53394,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 46,
     "rank": 11,
@@ -52219,6 +53405,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 46,
     "rank": 23,
@@ -52228,6 +53416,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": 0.4,
     "confidence": 49,
     "rank": 23,
@@ -52237,6 +53427,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": 0,
     "confidence": 53,
     "rank": 35,
@@ -52246,6 +53438,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": 0.7,
     "confidence": 68,
     "rank": 26,
@@ -52255,6 +53449,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": 0.7,
     "confidence": 69,
     "rank": 27,
@@ -52264,15 +53460,19 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": 0.3,
     "confidence": 77,
-    "rank": 34,
+    "rank": 31,
     "ratingGames": 19,
-    "strengthOfPartners": -0.6,
+    "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": 0.4,
     "confidence": 78,
     "rank": 33,
@@ -52282,21 +53482,25 @@
    },
    {
     "week": 9,
-    "rating": -0.1,
+    "seq": 15,
+    "label": "9",
+    "rating": 0,
     "confidence": 82,
-    "rank": 41,
+    "rank": 40,
     "ratingGames": 26,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0,
-    "confidence": 86,
-    "rank": 38,
+    "confidence": 85,
+    "rank": 40,
     "ratingGames": 34,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -53085,15 +54289,19 @@
   "ratingHistory": [
    {
     "week": 4,
-    "rating": -0.9,
+    "seq": 5,
+    "label": "4",
+    "rating": -1,
     "confidence": 55,
-    "rank": 44,
+    "rank": 42,
     "ratingGames": 8,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.1,
     "confidence": 71,
     "rank": 53,
@@ -53103,6 +54311,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1.7,
     "confidence": 72,
     "rank": 55,
@@ -53112,6 +54322,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1.6,
     "confidence": 73,
     "rank": 56,
@@ -53121,6 +54333,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2.6,
     "confidence": 81,
     "rank": 65,
@@ -53130,6 +54344,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.7,
     "confidence": 84,
     "rank": 66,
@@ -53139,12 +54355,14 @@
    },
    {
     "week": 10,
-    "rating": -2.3,
+    "seq": 17,
+    "label": "10",
+    "rating": -2.2,
     "confidence": 86,
-    "rank": 66,
+    "rank": 64,
     "ratingGames": 37,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -53339,6 +54557,8 @@
   "ratingHistory": [
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -1.9,
     "confidence": 57,
     "rank": 56,
@@ -53348,6 +54568,8 @@
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -1.8,
     "confidence": 57,
     "rank": 59,
@@ -53357,6 +54579,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -1.7,
     "confidence": 58,
     "rank": 58,
@@ -53366,6 +54590,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -1.6,
     "confidence": 58,
     "rank": 56,
@@ -53375,6 +54601,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -1.7,
     "confidence": 58,
     "rank": 59,
@@ -54254,6 +55482,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.7,
     "confidence": 48,
     "rank": 18,
@@ -54263,6 +55493,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.7,
     "confidence": 48,
     "rank": 34,
@@ -54272,6 +55504,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -3.5,
     "confidence": 64,
     "rank": 54,
@@ -54281,6 +55515,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -4,
     "confidence": 66,
     "rank": 61,
@@ -54290,6 +55526,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -4.3,
     "confidence": 67,
     "rank": 62,
@@ -54299,6 +55537,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -4.5,
     "confidence": 75,
     "rank": 68,
@@ -54308,15 +55548,19 @@
    },
    {
     "week": 7,
-    "rating": -3.6,
+    "seq": 11,
+    "label": "7",
+    "rating": -3.5,
     "confidence": 80,
-    "rank": 68,
+    "rank": 67,
     "ratingGames": 24,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.3
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -3.3,
     "confidence": 83,
     "rank": 69,
@@ -54326,6 +55570,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.9,
     "confidence": 85,
     "rank": 67,
@@ -54335,6 +55581,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -2.8,
     "confidence": 87,
     "rank": 69,
@@ -54882,6 +56130,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.4,
     "confidence": 45,
     "rank": 19,
@@ -54891,6 +56141,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.4,
     "confidence": 45,
     "rank": 36,
@@ -54900,6 +56152,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -2,
     "confidence": 46,
     "rank": 51,
@@ -54909,6 +56163,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2.2,
     "confidence": 50,
     "rank": 56,
@@ -54918,6 +56174,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.2,
     "confidence": 52,
     "rank": 54,
@@ -54927,6 +56185,8 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -2.7,
     "confidence": 68,
     "rank": 64,
@@ -54936,15 +56196,19 @@
    },
    {
     "week": 7,
-    "rating": -3.1,
+    "seq": 11,
+    "label": "7",
+    "rating": -3.3,
     "confidence": 76,
-    "rank": 67,
+    "rank": 65,
     "ratingGames": 18,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": -0.4
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -3.3,
     "confidence": 81,
     "rank": 70,
@@ -54954,6 +56218,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -3.5,
     "confidence": 81,
     "rank": 70,
@@ -54963,6 +56229,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -3.6,
     "confidence": 81,
     "rank": 72,
@@ -55792,15 +57060,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -0.9,
-    "confidence": 53,
-    "rank": 40,
+    "seq": 3,
+    "label": "3",
+    "rating": -1.1,
+    "confidence": 52,
+    "rank": 39,
     "ratingGames": 8,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2.1,
     "confidence": 70,
     "rank": 53,
@@ -55810,6 +57082,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.1,
     "confidence": 72,
     "rank": 52,
@@ -55819,15 +57093,19 @@
    },
    {
     "week": 6,
-    "rating": -2.2,
-    "confidence": 78,
+    "seq": 9,
+    "label": "6",
+    "rating": -2.5,
+    "confidence": 77,
     "rank": 58,
     "ratingGames": 21,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.9
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -2.3,
     "confidence": 82,
     "rank": 61,
@@ -55837,6 +57115,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -2.6,
     "confidence": 85,
     "rank": 64,
@@ -55846,15 +57126,19 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -2.7,
-    "confidence": 87,
-    "rank": 65,
+    "confidence": 86,
+    "rank": 64,
     "ratingGames": 39,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -2.5,
     "confidence": 87,
     "rank": 68,
@@ -56708,6 +57992,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -4.1,
     "confidence": 46,
     "rank": 20,
@@ -56717,6 +58003,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -4.1,
     "confidence": 46,
     "rank": 39,
@@ -56726,6 +58014,8 @@
    },
    {
     "week": 3,
+    "seq": 3,
+    "label": "3",
     "rating": -3.8,
     "confidence": 48,
     "rank": 56,
@@ -56735,6 +58025,8 @@
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -4,
     "confidence": 54,
     "rank": 62,
@@ -56744,6 +58036,8 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -4.5,
     "confidence": 69,
     "rank": 64,
@@ -56753,24 +58047,30 @@
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -5,
     "confidence": 76,
-    "rank": 69,
+    "rank": 66,
     "ratingGames": 19,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.5
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -5.3,
     "confidence": 81,
-    "rank": 70,
+    "rank": 69,
     "ratingGames": 25,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -4.8,
     "confidence": 81,
     "rank": 72,
@@ -56780,6 +58080,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -4.5,
     "confidence": 84,
     "rank": 72,
@@ -56789,9 +58091,11 @@
    },
    {
     "week": 10,
-    "rating": -4.8,
+    "seq": 17,
+    "label": "10",
+    "rating": -4.7,
     "confidence": 87,
-    "rank": 74,
+    "rank": 72,
     "ratingGames": 39,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0
@@ -57717,15 +59021,19 @@
   "ratingHistory": [
    {
     "week": 3,
-    "rating": -0.8,
+    "seq": 3,
+    "label": "3",
+    "rating": -0.9,
     "confidence": 49,
-    "rank": 39,
+    "rank": 33,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": -1.2
    },
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2,
     "confidence": 67,
     "rank": 51,
@@ -57735,24 +59043,30 @@
    },
    {
     "week": 5,
-    "rating": -2.4,
+    "seq": 7,
+    "label": "5",
+    "rating": -2.3,
     "confidence": 75,
-    "rank": 55,
+    "rank": 52,
     "ratingGames": 18,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": -0.1
    },
    {
     "week": 6,
-    "rating": -2.3,
+    "seq": 9,
+    "label": "6",
+    "rating": -2.2,
     "confidence": 80,
-    "rank": 60,
+    "rank": 55,
     "ratingGames": 24,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.3
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -2.9,
     "confidence": 83,
     "rank": 65,
@@ -57762,6 +59076,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -3,
     "confidence": 86,
     "rank": 67,
@@ -57771,6 +59087,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -3.5,
     "confidence": 87,
     "rank": 69,
@@ -57780,6 +59098,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -3.5,
     "confidence": 87,
     "rank": 71,
@@ -57980,6 +59300,8 @@
   "ratingHistory": [
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": 0.4,
     "confidence": 57,
     "rank": 32,
@@ -58736,6 +60058,8 @@
   "ratingHistory": [
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -3.6,
     "confidence": 51,
     "rank": 59,
@@ -58745,24 +60069,30 @@
    },
    {
     "week": 5,
-    "rating": -3.2,
+    "seq": 7,
+    "label": "5",
+    "rating": -3,
     "confidence": 67,
-    "rank": 61,
+    "rank": 60,
     "ratingGames": 12,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -0.3
    },
    {
     "week": 6,
+    "seq": 9,
+    "label": "6",
     "rating": -3.8,
     "confidence": 75,
-    "rank": 67,
+    "rank": 63,
     "ratingGames": 18,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": -0.3
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -4,
     "confidence": 81,
     "rank": 69,
@@ -58772,6 +60102,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -4.1,
     "confidence": 83,
     "rank": 71,
@@ -58781,6 +60113,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -4,
     "confidence": 83,
     "rank": 71,
@@ -58790,6 +60124,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -4.1,
     "confidence": 85,
     "rank": 73,
@@ -59583,6 +60919,8 @@
   "ratingHistory": [
    {
     "week": 4,
+    "seq": 5,
+    "label": "4",
     "rating": -2,
     "confidence": 50,
     "rank": 52,
@@ -59592,24 +60930,30 @@
    },
    {
     "week": 5,
+    "seq": 7,
+    "label": "5",
     "rating": -2.9,
     "confidence": 67,
-    "rank": 60,
+    "rank": 59,
     "ratingGames": 12,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.8
    },
    {
     "week": 6,
-    "rating": -3.2,
-    "confidence": 75,
-    "rank": 66,
+    "seq": 9,
+    "label": "6",
+    "rating": -2.8,
+    "confidence": 74,
+    "rank": 62,
     "ratingGames": 18,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.4
    },
    {
     "week": 7,
+    "seq": 11,
+    "label": "7",
     "rating": -2.8,
     "confidence": 80,
     "rank": 64,
@@ -59619,6 +60963,8 @@
    },
    {
     "week": 8,
+    "seq": 13,
+    "label": "8",
     "rating": -3.1,
     "confidence": 83,
     "rank": 68,
@@ -59628,6 +60974,8 @@
    },
    {
     "week": 9,
+    "seq": 15,
+    "label": "9",
     "rating": -3.3,
     "confidence": 83,
     "rank": 68,
@@ -59637,6 +60985,8 @@
    },
    {
     "week": 10,
+    "seq": 17,
+    "label": "10",
     "rating": -3.4,
     "confidence": 85,
     "rank": 70,

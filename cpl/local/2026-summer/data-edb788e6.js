@@ -14270,16 +14270,76 @@
   "weeks": "1-10",
   "totalPlayers": 74,
   "ratingHistoryWeeks": [
-   1,
-   2,
-   3,
-   4,
-   5,
-   6,
-   7,
-   8,
-   9,
-   10
+   {
+    "week": 1,
+    "label": "1",
+    "seq": 0
+   },
+   {
+    "week": 2,
+    "label": "2",
+    "seq": 1
+   },
+   {
+    "week": 3,
+    "label": "3",
+    "seq": 3
+   },
+   {
+    "week": 4,
+    "label": "4a",
+    "seq": 4
+   },
+   {
+    "week": 4,
+    "label": "4b",
+    "seq": 5
+   },
+   {
+    "week": 5,
+    "label": "5",
+    "seq": 7
+   },
+   {
+    "week": 6,
+    "label": "6",
+    "seq": 9
+   },
+   {
+    "week": 7,
+    "label": "7a",
+    "seq": 10
+   },
+   {
+    "week": 7,
+    "label": "7b",
+    "seq": 11
+   },
+   {
+    "week": 8,
+    "label": "8a",
+    "seq": 12
+   },
+   {
+    "week": 8,
+    "label": "8b",
+    "seq": 13
+   },
+   {
+    "week": 9,
+    "label": "9a",
+    "seq": 14
+   },
+   {
+    "week": 9,
+    "label": "9b",
+    "seq": 15
+   },
+   {
+    "week": 10,
+    "label": "10",
+    "seq": 17
+   }
   ],
   "divisionSlug": "edb788e6",
   "hasPlayoffs": false,

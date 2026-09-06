@@ -254,6 +254,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.3,
     "confidence": 48,
     "rank": 17,
@@ -263,6 +265,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.3,
     "confidence": 65,
     "rank": 8,
@@ -540,6 +544,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.7,
     "confidence": 42,
     "rank": 9,
@@ -549,6 +555,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.5,
     "confidence": 64,
     "rank": 5,
@@ -719,6 +727,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.9,
     "confidence": 53,
     "rank": 4,
@@ -876,6 +886,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.1,
     "confidence": 53,
     "rank": 9,
@@ -1001,6 +1013,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.6,
     "confidence": 44,
     "rank": 19,
@@ -1233,6 +1247,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 47,
     "rank": 106,
@@ -1242,6 +1258,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1,
     "confidence": 64,
     "rank": 84,
@@ -1399,6 +1417,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 50,
     "rank": 41,
@@ -1524,6 +1544,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 45,
     "rank": 56,
@@ -1681,6 +1703,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.9,
     "confidence": 50,
     "rank": 62,
@@ -1690,6 +1714,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 54,
     "rank": 90,
@@ -1815,6 +1841,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 43,
     "rank": 69,
@@ -1956,6 +1984,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.8,
     "confidence": 50,
     "rank": 46,
@@ -2097,6 +2127,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.4,
     "confidence": 50,
     "rank": 23,
@@ -2238,6 +2270,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.7,
     "confidence": 47,
     "rank": 33,
@@ -2247,6 +2281,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 50,
     "rank": 63,
@@ -2372,6 +2408,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 45,
     "rank": 65,
@@ -2381,6 +2419,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 47,
     "rank": 73,
@@ -2506,6 +2546,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.8,
     "confidence": 46,
     "rank": 5,
@@ -2515,6 +2557,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.5,
     "confidence": 49,
     "rank": 20,
@@ -2640,6 +2684,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.8,
     "confidence": 42,
     "rank": 8,
@@ -2649,6 +2695,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.8,
     "confidence": 44,
     "rank": 14,
@@ -2774,6 +2822,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.9,
     "confidence": 42,
     "rank": 25,
@@ -2783,6 +2833,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.3,
     "confidence": 45,
     "rank": 27,
@@ -2892,6 +2944,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.5,
     "confidence": 39,
     "rank": 121,
@@ -3033,6 +3087,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.3,
     "confidence": 51,
     "rank": 25,
@@ -3361,6 +3417,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 53,
     "rank": 49,
@@ -3370,6 +3428,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.7,
     "confidence": 70,
     "rank": 15,
@@ -3691,6 +3751,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 3.2,
     "confidence": 50,
     "rank": 3,
@@ -3700,6 +3762,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 4,
     "confidence": 69,
     "rank": 3,
@@ -4015,6 +4079,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 49,
     "rank": 46,
@@ -4024,6 +4090,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 70,
     "rank": 58,
@@ -4333,6 +4401,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 45,
     "rank": 95,
@@ -4342,6 +4412,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1,
     "confidence": 68,
     "rank": 83,
@@ -4619,6 +4691,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.5,
     "confidence": 44,
     "rank": 42,
@@ -4628,6 +4702,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2,
     "confidence": 67,
     "rank": 36,
@@ -4876,6 +4952,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.6,
     "confidence": 46,
     "rank": 38,
@@ -4885,6 +4963,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.4,
     "confidence": 67,
     "rank": 21,
@@ -5042,6 +5122,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 53,
     "rank": 50,
@@ -5051,6 +5133,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.8,
     "confidence": 55,
     "rank": 44,
@@ -5208,6 +5292,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 52,
     "rank": 91,
@@ -5365,6 +5451,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.5,
     "confidence": 52,
     "rank": 119,
@@ -5629,6 +5717,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.8,
     "confidence": 43,
     "rank": 28,
@@ -5638,6 +5728,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.9,
     "confidence": 65,
     "rank": 11,
@@ -5792,6 +5884,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.6,
     "confidence": 49,
     "rank": 11,
@@ -5801,6 +5895,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.4,
     "confidence": 51,
     "rank": 22,
@@ -6065,6 +6161,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.1,
     "confidence": 45,
     "rank": 58,
@@ -6074,6 +6172,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 64,
     "rank": 54,
@@ -6228,6 +6328,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.7,
     "confidence": 49,
     "rank": 30,
@@ -6237,6 +6339,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.1,
     "confidence": 51,
     "rank": 34,
@@ -6378,6 +6482,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 51,
     "rank": 80,
@@ -6519,6 +6625,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.7,
     "confidence": 47,
     "rank": 31,
@@ -6528,6 +6636,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 49,
     "rank": 55,
@@ -6669,6 +6779,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 51,
     "rank": 150,
@@ -6810,6 +6922,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 49,
     "rank": 51,
@@ -6819,6 +6933,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.7,
     "confidence": 51,
     "rank": 50,
@@ -6960,6 +7076,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.1,
     "confidence": 43,
     "rank": 60,
@@ -6969,6 +7087,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2,
     "confidence": 48,
     "rank": 38,
@@ -7110,6 +7230,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.3,
     "confidence": 47,
     "rank": 101,
@@ -7119,6 +7241,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 49,
     "rank": 159,
@@ -7260,6 +7384,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 51,
     "rank": 72,
@@ -7401,6 +7527,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 46,
     "rank": 146,
@@ -7410,6 +7538,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.4,
     "confidence": 50,
     "rank": 181,
@@ -7551,6 +7681,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.7,
     "confidence": 48,
     "rank": 51,
@@ -7692,6 +7824,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 44,
     "rank": 81,
@@ -7701,6 +7835,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 46,
     "rank": 128,
@@ -7869,6 +8005,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 26,
     "rank": 109,
@@ -7878,6 +8016,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 48,
     "rank": 102,
@@ -8139,6 +8279,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 3.5,
     "confidence": 37,
     "rank": 1,
@@ -8148,6 +8290,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.5,
     "confidence": 63,
     "rank": 6,
@@ -8396,6 +8540,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.8,
     "confidence": 43,
     "rank": 7,
@@ -8405,6 +8551,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3,
     "confidence": 65,
     "rank": 10,
@@ -8660,6 +8808,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.5,
     "confidence": 42,
     "rank": 12,
@@ -8669,6 +8819,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.9,
     "confidence": 60,
     "rank": 12,
@@ -8936,6 +9088,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 47,
     "rank": 131,
@@ -8945,6 +9099,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 66,
     "rank": 145,
@@ -9257,6 +9413,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 51,
     "rank": 110,
@@ -9266,6 +9424,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 70,
     "rank": 39,
@@ -9410,6 +9570,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 43,
     "rank": 57,
@@ -9535,6 +9697,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 47,
     "rank": 82,
@@ -9660,6 +9824,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 46,
     "rank": 42,
@@ -9785,6 +9951,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1,
     "confidence": 47,
     "rank": 86,
@@ -9910,6 +10078,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 41,
     "rank": 66,
@@ -9919,6 +10089,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 46,
     "rank": 160,
@@ -10044,6 +10216,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.1,
     "confidence": 45,
     "rank": 20,
@@ -10053,6 +10227,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.3,
     "confidence": 47,
     "rank": 26,
@@ -10178,6 +10354,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.5,
     "confidence": 48,
     "rank": 183,
@@ -10303,6 +10481,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.1,
     "confidence": 45,
     "rank": 59,
@@ -10312,6 +10492,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 46,
     "rank": 74,
@@ -10608,6 +10790,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 3.4,
     "confidence": 49,
     "rank": 2,
@@ -10617,6 +10801,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 4.5,
     "confidence": 67,
     "rank": 1,
@@ -10846,6 +11032,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.8,
     "confidence": 36,
     "rank": 29,
@@ -10855,6 +11043,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.3,
     "confidence": 60,
     "rank": 24,
@@ -11071,6 +11261,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 42,
     "rank": 83,
@@ -11080,6 +11272,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 60,
     "rank": 60,
@@ -11360,6 +11554,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.5,
     "confidence": 40,
     "rank": 13,
@@ -11369,6 +11565,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 65,
     "rank": 71,
@@ -11656,6 +11854,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.4,
     "confidence": 48,
     "rank": 15,
@@ -11665,6 +11865,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 4.4,
     "confidence": 64,
     "rank": 2,
@@ -11942,6 +12144,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 44,
     "rank": 73,
@@ -11951,6 +12155,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.6,
     "confidence": 64,
     "rank": 18,
@@ -12292,6 +12498,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.6,
     "confidence": 52,
     "rank": 35,
@@ -12301,6 +12509,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.8,
     "confidence": 71,
     "rank": 43,
@@ -12578,6 +12788,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.5,
     "confidence": 49,
     "rank": 88,
@@ -12587,6 +12799,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 66,
     "rank": 168,
@@ -12851,6 +13065,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.3,
     "confidence": 48,
     "rank": 100,
@@ -12860,6 +13076,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 67,
     "rank": 111,
@@ -13131,6 +13349,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2,
     "confidence": 47,
     "rank": 22,
@@ -13140,6 +13360,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 65,
     "rank": 53,
@@ -13326,6 +13548,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.6,
     "confidence": 56,
     "rank": 10,
@@ -13335,6 +13559,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 3.5,
     "confidence": 58,
     "rank": 7,
@@ -13647,6 +13873,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.4,
     "confidence": 52,
     "rank": 14,
@@ -13656,6 +13884,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.2,
     "confidence": 70,
     "rank": 28,
@@ -13917,6 +14147,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.9,
     "confidence": 44,
     "rank": 4,
@@ -13926,6 +14158,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 65,
     "rank": 98,
@@ -14174,6 +14408,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.3,
     "confidence": 50,
     "rank": 134,
@@ -14183,6 +14419,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 66,
     "rank": 88,
@@ -14431,6 +14669,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.8,
     "confidence": 48,
     "rank": 154,
@@ -14440,6 +14680,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 65,
     "rank": 99,
@@ -14701,6 +14943,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 42,
     "rank": 132,
@@ -14710,6 +14954,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 66,
     "rank": 170,
@@ -14867,6 +15113,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 53,
     "rank": 128,
@@ -14876,6 +15124,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 56,
     "rank": 107,
@@ -15108,6 +15358,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.3,
     "confidence": 38,
     "rank": 103,
@@ -15117,6 +15369,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 61,
     "rank": 67,
@@ -15349,6 +15603,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 46,
     "rank": 47,
@@ -15358,6 +15614,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 63,
     "rank": 127,
@@ -15597,6 +15855,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 44,
     "rank": 96,
@@ -15606,6 +15866,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2,
     "confidence": 65,
     "rank": 37,
@@ -15838,6 +16100,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 43,
     "rank": 97,
@@ -15847,6 +16111,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 61,
     "rank": 68,
@@ -16086,6 +16352,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 43,
     "rank": 150,
@@ -16095,6 +16363,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 63,
     "rank": 161,
@@ -16327,6 +16597,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 43,
     "rank": 149,
@@ -16336,6 +16608,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 62,
     "rank": 162,
@@ -16623,6 +16897,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 49,
     "rank": 78,
@@ -16632,6 +16908,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 67,
     "rank": 78,
@@ -16909,6 +17187,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 48,
     "rank": 105,
@@ -16918,6 +17198,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.7,
     "confidence": 65,
     "rank": 49,
@@ -17195,6 +17477,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.5,
     "confidence": 49,
     "rank": 40,
@@ -17204,6 +17488,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 68,
     "rank": 152,
@@ -17468,6 +17754,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.7,
     "confidence": 47,
     "rank": 32,
@@ -17477,6 +17765,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 66,
     "rank": 124,
@@ -17625,6 +17915,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.7,
     "confidence": 41,
     "rank": 34,
@@ -17634,6 +17926,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.1,
     "confidence": 46,
     "rank": 35,
@@ -17775,6 +18069,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 50,
     "rank": 81,
@@ -17916,6 +18212,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.8,
     "confidence": 50,
     "rank": 47,
@@ -18180,6 +18478,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 49,
     "rank": 80,
@@ -18189,6 +18489,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 65,
     "rank": 97,
@@ -18343,6 +18645,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.1,
     "confidence": 49,
     "rank": 19,
@@ -18352,6 +18656,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.7,
     "confidence": 51,
     "rank": 17,
@@ -18568,6 +18874,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.8,
     "confidence": 40,
     "rank": 190,
@@ -18577,6 +18885,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 62,
     "rank": 112,
@@ -18718,6 +19028,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 50,
     "rank": 100,
@@ -18859,6 +19171,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 50,
     "rank": 111,
@@ -18868,6 +19182,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 53,
     "rank": 172,
@@ -19009,6 +19325,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 45,
     "rank": 64,
@@ -19018,6 +19336,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 49,
     "rank": 101,
@@ -19159,6 +19479,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 52,
     "rank": 164,
@@ -19300,6 +19622,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.9,
     "confidence": 52,
     "rank": 13,
@@ -19441,6 +19765,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 49,
     "rank": 145,
@@ -19450,6 +19776,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 51,
     "rank": 173,
@@ -19591,6 +19919,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 51,
     "rank": 193,
@@ -19732,6 +20062,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 50,
     "rank": 114,
@@ -19873,6 +20205,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 47,
     "rank": 63,
@@ -19882,6 +20216,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 49,
     "rank": 108,
@@ -20178,6 +20514,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 49,
     "rank": 68,
@@ -20187,6 +20525,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 69,
     "rank": 122,
@@ -20502,6 +20842,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.1,
     "confidence": 43,
     "rank": 21,
@@ -20511,6 +20853,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.2,
     "confidence": 66,
     "rank": 29,
@@ -20766,6 +21110,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.5,
     "confidence": 39,
     "rank": 43,
@@ -20775,6 +21121,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 60,
     "rank": 79,
@@ -21023,6 +21371,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 47,
     "rank": 112,
@@ -21032,6 +21382,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 66,
     "rank": 59,
@@ -21280,6 +21632,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.1,
     "confidence": 47,
     "rank": 164,
@@ -21289,6 +21643,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 65,
     "rank": 156,
@@ -21569,6 +21925,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 43,
     "rank": 52,
@@ -21578,6 +21936,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 66,
     "rank": 123,
@@ -21877,6 +22237,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.8,
     "confidence": 45,
     "rank": 27,
@@ -21886,6 +22248,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 67,
     "rank": 104,
@@ -22024,6 +22388,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.5,
     "confidence": 42,
     "rank": 90,
@@ -22033,6 +22399,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 46,
     "rank": 115,
@@ -22265,6 +22633,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 48,
     "rank": 93,
@@ -22274,6 +22644,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 63,
     "rank": 89,
@@ -22406,6 +22778,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 46,
     "rank": 142,
@@ -22638,6 +23012,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 43,
     "rank": 108,
@@ -22647,6 +23023,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.1,
     "confidence": 63,
     "rank": 32,
@@ -22779,6 +23157,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 41,
     "rank": 84,
@@ -22788,6 +23168,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 45,
     "rank": 116,
@@ -22913,6 +23295,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1,
     "confidence": 38,
     "rank": 87,
@@ -23038,6 +23422,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 45,
     "rank": 125,
@@ -23047,6 +23433,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.3,
     "confidence": 47,
     "rank": 177,
@@ -23172,6 +23560,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 39,
     "rank": 121,
@@ -23181,6 +23571,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 44,
     "rank": 143,
@@ -23306,6 +23698,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 42,
     "rank": 178,
@@ -23315,6 +23709,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.5,
     "confidence": 44,
     "rank": 237,
@@ -23440,6 +23836,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.2,
     "confidence": 44,
     "rank": 168,
@@ -23449,6 +23847,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 46,
     "rank": 203,
@@ -23713,6 +24113,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.2,
     "confidence": 47,
     "rank": 54,
@@ -23722,6 +24124,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.7,
     "confidence": 66,
     "rank": 16,
@@ -23993,6 +24397,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.3,
     "confidence": 42,
     "rank": 137,
@@ -24002,6 +24408,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 65,
     "rank": 154,
@@ -24279,6 +24687,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 44,
     "rank": 114,
@@ -24288,6 +24698,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 63,
     "rank": 131,
@@ -24571,6 +24983,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 49,
     "rank": 130,
@@ -24580,6 +24994,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.4,
     "confidence": 67,
     "rank": 179,
@@ -24857,6 +25273,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.1,
     "confidence": 41,
     "rank": 165,
@@ -24866,6 +25284,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 63,
     "rank": 192,
@@ -25030,6 +25450,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.3,
     "confidence": 51,
     "rank": 99,
@@ -25039,6 +25461,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 53,
     "rank": 134,
@@ -25196,6 +25620,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.1,
     "confidence": 50,
     "rank": 163,
@@ -25205,6 +25631,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1,
     "confidence": 53,
     "rank": 212,
@@ -25362,6 +25790,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1,
     "confidence": 54,
     "rank": 85,
@@ -25658,6 +26088,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.2,
     "confidence": 48,
     "rank": 18,
@@ -25667,6 +26099,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 71,
     "rank": 109,
@@ -25970,6 +26404,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.4,
     "confidence": 43,
     "rank": 139,
@@ -25979,6 +26415,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 69,
     "rank": 76,
@@ -26234,6 +26672,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 42,
     "rank": 48,
@@ -26243,6 +26683,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.2,
     "confidence": 64,
     "rank": 30,
@@ -26498,6 +26940,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.3,
     "confidence": 43,
     "rank": 136,
@@ -26507,6 +26951,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.5,
     "confidence": 63,
     "rank": 117,
@@ -26768,6 +27214,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 51,
     "rank": 143,
@@ -26777,6 +27225,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 66,
     "rank": 185,
@@ -27032,6 +27482,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.3,
     "confidence": 48,
     "rank": 135,
@@ -27041,6 +27493,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 65,
     "rank": 147,
@@ -27289,6 +27743,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 48,
     "rank": 124,
@@ -27298,6 +27754,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 63,
     "rank": 132,
@@ -27546,6 +28004,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 41,
     "rank": 120,
@@ -27555,6 +28015,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 62,
     "rank": 202,
@@ -27810,6 +28272,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 49,
     "rank": 79,
@@ -27819,6 +28283,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 64,
     "rank": 126,
@@ -28099,6 +28565,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.8,
     "confidence": 44,
     "rank": 6,
@@ -28108,6 +28576,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.9,
     "confidence": 69,
     "rank": 40,
@@ -28401,6 +28871,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 48,
     "rank": 71,
@@ -28410,6 +28882,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 68,
     "rank": 103,
@@ -28703,6 +29177,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.9,
     "confidence": 50,
     "rank": 23,
@@ -28712,6 +29188,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 70,
     "rank": 75,
@@ -28999,6 +29477,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.1,
     "confidence": 46,
     "rank": 57,
@@ -29008,6 +29488,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.1,
     "confidence": 69,
     "rank": 77,
@@ -29333,6 +29815,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 51,
     "rank": 45,
@@ -29342,6 +29826,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 71,
     "rank": 167,
@@ -29645,6 +30131,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 49,
     "rank": 144,
@@ -29654,6 +30142,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 70,
     "rank": 144,
@@ -29931,6 +30421,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.2,
     "confidence": 52,
     "rank": 129,
@@ -29940,6 +30432,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 67,
     "rank": 96,
@@ -30056,6 +30550,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.8,
     "confidence": 39,
     "rank": 67,
@@ -30065,6 +30561,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 40,
     "rank": 93,
@@ -30329,6 +30827,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.9,
     "confidence": 44,
     "rank": 24,
@@ -30338,6 +30838,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 65,
     "rank": 155,
@@ -30486,6 +30988,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.8,
     "confidence": 50,
     "rank": 247,
@@ -30627,6 +31131,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 52,
     "rank": 61,
@@ -30859,6 +31365,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 43,
     "rank": 159,
@@ -30868,6 +31376,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 62,
     "rank": 148,
@@ -31048,6 +31558,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.4,
     "confidence": 53,
     "rank": 44,
@@ -31057,6 +31569,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.1,
     "confidence": 57,
     "rank": 33,
@@ -31134,6 +31648,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 24,
     "rank": 127,
@@ -31143,6 +31659,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 26,
     "rank": 166,
@@ -31284,6 +31802,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.5,
     "confidence": 50,
     "rank": 87,
@@ -31293,6 +31813,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 54,
     "rank": 133,
@@ -31434,6 +31956,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.8,
     "confidence": 52,
     "rank": 45,
@@ -31575,6 +32099,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.5,
     "confidence": 45,
     "rank": 89,
@@ -31584,6 +32110,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 49,
     "rank": 139,
@@ -31784,6 +32312,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 38,
     "rank": 76,
@@ -31793,6 +32323,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 58,
     "rank": 206,
@@ -31941,6 +32473,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 47,
     "rank": 113,
@@ -31950,6 +32484,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.3,
     "confidence": 50,
     "rank": 176,
@@ -32091,6 +32627,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.3,
     "confidence": 53,
     "rank": 175,
@@ -32232,6 +32770,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1,
     "confidence": 49,
     "rank": 161,
@@ -32241,6 +32781,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 52,
     "rank": 217,
@@ -32505,6 +33047,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 43,
     "rank": 82,
@@ -32514,6 +33058,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.4,
     "confidence": 66,
     "rank": 180,
@@ -32753,6 +33299,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 45,
     "rank": 117,
@@ -32762,6 +33310,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 62,
     "rank": 149,
@@ -32910,6 +33460,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 50,
     "rank": 123,
@@ -32919,6 +33471,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 51,
     "rank": 165,
@@ -33151,6 +33705,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 46,
     "rank": 193,
@@ -33160,6 +33716,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.7,
     "confidence": 62,
     "rank": 244,
@@ -33431,6 +33989,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 2.4,
     "confidence": 44,
     "rank": 16,
@@ -33440,6 +34000,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 65,
     "rank": 66,
@@ -33581,6 +34143,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 44,
     "rank": 176,
@@ -33590,6 +34154,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 45,
     "rank": 224,
@@ -33731,6 +34297,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 50,
     "rank": 218,
@@ -34011,6 +34579,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.5,
     "confidence": 53,
     "rank": 86,
@@ -34020,6 +34590,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.2,
     "confidence": 69,
     "rank": 70,
@@ -34307,6 +34879,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 51,
     "rank": 91,
@@ -34316,6 +34890,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 67,
     "rank": 110,
@@ -34603,6 +35179,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 50,
     "rank": 77,
@@ -34612,6 +35190,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 68,
     "rank": 64,
@@ -34905,6 +35485,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.5,
     "confidence": 51,
     "rank": 39,
@@ -34914,6 +35496,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 70,
     "rank": 136,
@@ -35201,6 +35785,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.2,
     "confidence": 45,
     "rank": 55,
@@ -35210,6 +35796,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.6,
     "confidence": 68,
     "rank": 52,
@@ -35503,6 +36091,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.7,
     "confidence": 46,
     "rank": 153,
@@ -35512,6 +36102,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 67,
     "rank": 200,
@@ -35767,6 +36359,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 45,
     "rank": 107,
@@ -35776,6 +36370,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 65,
     "rank": 171,
@@ -36024,6 +36620,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 44,
     "rank": 148,
@@ -36033,6 +36631,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 65,
     "rank": 125,
@@ -36197,6 +36797,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.6,
     "confidence": 49,
     "rank": 36,
@@ -36206,6 +36808,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.5,
     "confidence": 51,
     "rank": 62,
@@ -36363,6 +36967,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.3,
     "confidence": 50,
     "rank": 133,
@@ -36372,6 +36978,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 52,
     "rank": 216,
@@ -36529,6 +37137,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.4,
     "confidence": 51,
     "rank": 234,
@@ -36825,6 +37435,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 45,
     "rank": 156,
@@ -36834,6 +37446,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 2.1,
     "confidence": 68,
     "rank": 31,
@@ -37105,6 +37719,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 52,
     "rank": 142,
@@ -37114,6 +37730,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.7,
     "confidence": 67,
     "rank": 48,
@@ -37385,6 +38003,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.5,
     "confidence": 48,
     "rank": 41,
@@ -37394,6 +38014,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 66,
     "rank": 169,
@@ -37665,6 +38287,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 49,
     "rank": 173,
@@ -37674,6 +38298,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 67,
     "rank": 238,
@@ -37945,6 +38571,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 45,
     "rank": 157,
@@ -37954,6 +38582,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 67,
     "rank": 153,
@@ -38086,6 +38716,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 42,
     "rank": 119,
@@ -38095,6 +38727,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 45,
     "rank": 135,
@@ -38327,6 +38961,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 44,
     "rank": 158,
@@ -38336,6 +38972,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 61,
     "rank": 106,
@@ -38468,6 +39106,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.6,
     "confidence": 39,
     "rank": 85,
@@ -38477,6 +39117,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.5,
     "confidence": 43,
     "rank": 120,
@@ -38709,6 +39351,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 43,
     "rank": 126,
@@ -38718,6 +39362,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 62,
     "rank": 157,
@@ -38850,6 +39496,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.6,
     "confidence": 43,
     "rank": 151,
@@ -38859,6 +39507,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 46,
     "rank": 204,
@@ -38984,6 +39634,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.1,
     "confidence": 40,
     "rank": 115,
@@ -38993,6 +39645,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 46,
     "rank": 141,
@@ -39118,6 +39772,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 48,
     "rank": 140,
@@ -39350,6 +40006,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.3,
     "confidence": 40,
     "rank": 53,
@@ -39359,6 +40017,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.7,
     "confidence": 63,
     "rank": 105,
@@ -39598,6 +40258,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.1,
     "confidence": 44,
     "rank": 202,
@@ -39607,6 +40269,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 64,
     "rank": 186,
@@ -39732,6 +40396,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.2,
     "confidence": 43,
     "rank": 208,
@@ -39741,6 +40407,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2,
     "confidence": 46,
     "rank": 255,
@@ -40021,6 +40689,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 42,
     "rank": 75,
@@ -40030,6 +40700,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 68,
     "rank": 94,
@@ -40310,6 +40982,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.8,
     "confidence": 47,
     "rank": 26,
@@ -40319,6 +40993,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.8,
     "confidence": 68,
     "rank": 95,
@@ -40606,6 +41282,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 45,
     "rank": 72,
@@ -40615,6 +41293,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 1.3,
     "confidence": 68,
     "rank": 65,
@@ -40902,6 +41582,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 49,
     "rank": 69,
@@ -40911,6 +41593,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.4,
     "confidence": 71,
     "rank": 178,
@@ -41198,6 +41882,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 48,
     "rank": 70,
@@ -41207,6 +41893,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 66,
     "rank": 184,
@@ -41468,6 +42156,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.7,
     "confidence": 48,
     "rank": 185,
@@ -41477,6 +42167,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.5,
     "confidence": 66,
     "rank": 236,
@@ -41738,6 +42430,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 45,
     "rank": 116,
@@ -41747,6 +42441,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 64,
     "rank": 221,
@@ -42002,6 +42698,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.5,
     "confidence": 46,
     "rank": 147,
@@ -42011,6 +42709,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 65,
     "rank": 190,
@@ -42266,6 +42966,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2,
     "confidence": 48,
     "rank": 197,
@@ -42275,6 +42977,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.7,
     "confidence": 66,
     "rank": 273,
@@ -42578,6 +43282,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1,
     "confidence": 46,
     "rank": 61,
@@ -42587,6 +43293,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 68,
     "rank": 137,
@@ -42735,6 +43443,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 46,
     "rank": 94,
@@ -42744,6 +43454,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.2,
     "confidence": 51,
     "rank": 174,
@@ -42885,6 +43597,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 44,
     "rank": 177,
@@ -42894,6 +43608,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 46,
     "rank": 208,
@@ -43035,6 +43751,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.2,
     "confidence": 48,
     "rank": 104,
@@ -43044,6 +43762,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.6,
     "confidence": 51,
     "rank": 113,
@@ -43308,6 +44028,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 45,
     "rank": 194,
@@ -43317,6 +44039,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 66,
     "rank": 227,
@@ -43465,6 +44189,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.6,
     "confidence": 46,
     "rank": 37,
@@ -43474,6 +44200,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.9,
     "confidence": 51,
     "rank": 92,
@@ -43615,6 +44343,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2,
     "confidence": 46,
     "rank": 198,
@@ -43624,6 +44354,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1,
     "confidence": 49,
     "rank": 213,
@@ -43765,6 +44497,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.5,
     "confidence": 50,
     "rank": 182,
@@ -43981,6 +44715,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.4,
     "confidence": 42,
     "rank": 141,
@@ -43990,6 +44726,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.4,
     "confidence": 59,
     "rank": 233,
@@ -44302,6 +45040,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.1,
     "confidence": 51,
     "rank": 122,
@@ -44311,6 +45051,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1,
     "confidence": 70,
     "rank": 210,
@@ -44562,6 +45304,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.4,
     "confidence": 43,
     "rank": 140,
@@ -44571,6 +45315,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1,
     "confidence": 60,
     "rank": 211,
@@ -44810,6 +45556,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.4,
     "confidence": 43,
     "rank": 211,
@@ -44819,6 +45567,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.4,
     "confidence": 64,
     "rank": 269,
@@ -45051,6 +45801,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -3.1,
     "confidence": 42,
     "rank": 220,
@@ -45060,6 +45812,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 62,
     "rank": 215,
@@ -45224,6 +45978,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0,
     "confidence": 55,
     "rank": 158,
@@ -45520,6 +46276,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 48,
     "rank": 92,
@@ -45529,6 +46287,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 67,
     "rank": 189,
@@ -45850,6 +46610,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.1,
     "confidence": 55,
     "rank": 199,
@@ -45859,6 +46621,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2,
     "confidence": 72,
     "rank": 253,
@@ -46114,6 +46878,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0,
     "confidence": 44,
     "rank": 118,
@@ -46123,6 +46889,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 65,
     "rank": 191,
@@ -46378,6 +47146,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 44,
     "rank": 196,
@@ -46387,6 +47157,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 62,
     "rank": 228,
@@ -46642,6 +47414,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.4,
     "confidence": 48,
     "rank": 138,
@@ -46651,6 +47425,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 65,
     "rank": 146,
@@ -46906,6 +47682,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.8,
     "confidence": 41,
     "rank": 189,
@@ -46915,6 +47693,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2,
     "confidence": 62,
     "rank": 254,
@@ -47037,6 +47817,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 41,
     "rank": 219,
@@ -47146,6 +47928,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.4,
     "confidence": 35,
     "rank": 98,
@@ -47155,6 +47939,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.4,
     "confidence": 36,
     "rank": 129,
@@ -47264,6 +48050,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 42,
     "rank": 230,
@@ -47373,6 +48161,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 39,
     "rank": 197,
@@ -47482,6 +48272,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2,
     "confidence": 41,
     "rank": 256,
@@ -47591,6 +48383,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1,
     "confidence": 41,
     "rank": 162,
@@ -47600,6 +48394,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 42,
     "rank": 196,
@@ -47800,6 +48596,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -3,
     "confidence": 41,
     "rank": 218,
@@ -47809,6 +48607,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.2,
     "confidence": 59,
     "rank": 262,
@@ -47918,6 +48718,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.6,
     "confidence": 41,
     "rank": 214,
@@ -47927,6 +48729,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3,
     "confidence": 43,
     "rank": 281,
@@ -48036,6 +48840,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.7,
     "confidence": 34,
     "rank": 186,
@@ -48045,6 +48851,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.7,
     "confidence": 37,
     "rank": 245,
@@ -48154,6 +48962,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 43,
     "rank": 205,
@@ -48327,6 +49137,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.1,
     "confidence": 58,
     "rank": 163,
@@ -48436,6 +49248,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 39,
     "rank": 180,
@@ -48445,6 +49259,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 42,
     "rank": 226,
@@ -48709,6 +49525,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.9,
     "confidence": 47,
     "rank": 155,
@@ -48718,6 +49536,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.3,
     "confidence": 68,
     "rank": 130,
@@ -48891,6 +49711,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.5,
     "confidence": 57,
     "rank": 118,
@@ -49000,6 +49822,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 41,
     "rank": 243,
@@ -49264,6 +50088,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.6,
     "confidence": 46,
     "rank": 181,
@@ -49273,6 +50099,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.6,
     "confidence": 65,
     "rank": 271,
@@ -49569,6 +50397,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.3,
     "confidence": 51,
     "rank": 170,
@@ -49578,6 +50408,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 68,
     "rank": 220,
@@ -49887,6 +50719,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.6,
     "confidence": 52,
     "rank": 213,
@@ -49896,6 +50730,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.8,
     "confidence": 71,
     "rank": 246,
@@ -50034,6 +50870,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.1,
     "confidence": 45,
     "rank": 151,
@@ -50159,6 +50997,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.1,
     "confidence": 48,
     "rank": 257,
@@ -50284,6 +51124,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 44,
     "rank": 195,
@@ -50409,6 +51251,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.6,
     "confidence": 35,
     "rank": 183,
@@ -50418,6 +51262,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.4,
     "confidence": 42,
     "rank": 235,
@@ -50543,6 +51389,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.2,
     "confidence": 44,
     "rank": 207,
@@ -50552,6 +51400,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.9,
     "confidence": 48,
     "rank": 252,
@@ -50677,6 +51527,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 47,
     "rank": 188,
@@ -50802,6 +51654,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.3,
     "confidence": 48,
     "rank": 267,
@@ -51034,6 +51888,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 46,
     "rank": 175,
@@ -51043,6 +51899,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 64,
     "rank": 222,
@@ -51275,6 +52133,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 41,
     "rank": 179,
@@ -51284,6 +52144,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.9,
     "confidence": 62,
     "rank": 249,
@@ -51516,6 +52378,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.7,
     "confidence": 44,
     "rank": 74,
@@ -51525,6 +52389,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.9,
     "confidence": 62,
     "rank": 250,
@@ -51757,6 +52623,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.1,
     "confidence": 39,
     "rank": 203,
@@ -51766,6 +52634,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.5,
     "confidence": 62,
     "rank": 284,
@@ -52021,6 +52891,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.8,
     "confidence": 46,
     "rank": 216,
@@ -52030,6 +52902,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.3,
     "confidence": 66,
     "rank": 265,
@@ -52278,6 +53152,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.8,
     "confidence": 45,
     "rank": 188,
@@ -52287,6 +53163,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3,
     "confidence": 64,
     "rank": 279,
@@ -52428,6 +53306,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 49,
     "rank": 207,
@@ -52569,6 +53449,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.1,
     "confidence": 48,
     "rank": 200,
@@ -52578,6 +53460,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.2,
     "confidence": 50,
     "rank": 263,
@@ -52719,6 +53603,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.6,
     "confidence": 50,
     "rank": 272,
@@ -52860,6 +53746,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.6,
     "confidence": 48,
     "rank": 187,
@@ -53001,6 +53889,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.3,
     "confidence": 46,
     "rank": 172,
@@ -53010,6 +53900,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.7,
     "confidence": 50,
     "rank": 194,
@@ -53151,6 +54043,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 50,
     "rank": 229,
@@ -53292,6 +54186,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.9,
     "confidence": 50,
     "rank": 251,
@@ -53556,6 +54452,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.7,
     "confidence": 49,
     "rank": 184,
@@ -53565,6 +54463,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 65,
     "rank": 239,
@@ -53845,6 +54745,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.4,
     "confidence": 48,
     "rank": 174,
@@ -53854,6 +54756,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 66,
     "rank": 201,
@@ -54163,6 +55067,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -0.7,
     "confidence": 51,
     "rank": 152,
@@ -54172,6 +55078,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 68,
     "rank": 198,
@@ -54481,6 +55389,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 0.3,
     "confidence": 45,
     "rank": 102,
@@ -54490,6 +55400,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": 0.2,
     "confidence": 68,
     "rank": 138,
@@ -54799,6 +55711,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": 1.1,
     "confidence": 56,
     "rank": 56,
@@ -54808,6 +55722,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.8,
     "confidence": 68,
     "rank": 199,
@@ -55000,6 +55916,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.8,
     "confidence": 58,
     "rank": 291,
@@ -55216,6 +56134,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.1,
     "confidence": 44,
     "rank": 201,
@@ -55225,6 +56145,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.2,
     "confidence": 61,
     "rank": 261,
@@ -55441,6 +56363,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -3.5,
     "confidence": 42,
     "rank": 222,
@@ -55450,6 +56374,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.5,
     "confidence": 60,
     "rank": 285,
@@ -55682,6 +56608,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.2,
     "confidence": 44,
     "rank": 206,
@@ -55691,6 +56619,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 65,
     "rank": 240,
@@ -55923,6 +56853,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.2,
     "confidence": 45,
     "rank": 167,
@@ -55932,6 +56864,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.4,
     "confidence": 62,
     "rank": 270,
@@ -56187,6 +57121,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.8,
     "confidence": 46,
     "rank": 215,
@@ -56196,6 +57132,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3,
     "confidence": 64,
     "rank": 278,
@@ -56451,6 +57389,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 48,
     "rank": 191,
@@ -56460,6 +57400,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.3,
     "confidence": 65,
     "rank": 266,
@@ -56715,6 +57657,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.6,
     "confidence": 45,
     "rank": 182,
@@ -56724,6 +57668,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.2,
     "confidence": 66,
     "rank": 260,
@@ -56988,6 +57934,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.2,
     "confidence": 48,
     "rank": 204,
@@ -56997,6 +57945,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.4,
     "confidence": 63,
     "rank": 232,
@@ -57284,6 +58234,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1,
     "confidence": 53,
     "rank": 160,
@@ -57293,6 +58245,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.1,
     "confidence": 70,
     "rank": 214,
@@ -57580,6 +58534,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.4,
     "confidence": 43,
     "rank": 210,
@@ -57589,6 +58545,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.7,
     "confidence": 68,
     "rank": 288,
@@ -57898,6 +58856,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.3,
     "confidence": 51,
     "rank": 171,
@@ -57907,6 +58867,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.9,
     "confidence": 69,
     "rank": 276,
@@ -57975,6 +58937,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.2,
     "confidence": 16,
     "rank": 169,
@@ -57984,6 +58948,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.3,
     "confidence": 17,
     "rank": 231,
@@ -58093,6 +59059,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 44,
     "rank": 225,
@@ -58218,6 +59186,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.1,
     "confidence": 47,
     "rank": 258,
@@ -58359,6 +59329,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 47,
     "rank": 192,
@@ -58368,6 +59340,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.2,
     "confidence": 51,
     "rank": 223,
@@ -58477,6 +59451,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -0.9,
     "confidence": 40,
     "rank": 209,
@@ -58586,6 +59562,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.1,
     "confidence": 38,
     "rank": 166,
@@ -58595,6 +59573,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 41,
     "rank": 242,
@@ -58720,6 +59700,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.8,
     "confidence": 46,
     "rank": 275,
@@ -58845,6 +59827,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.3,
     "confidence": 42,
     "rank": 209,
@@ -58854,6 +59838,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.9,
     "confidence": 45,
     "rank": 277,
@@ -58979,6 +59965,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.9,
     "confidence": 44,
     "rank": 195,
@@ -58988,6 +59976,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.3,
     "confidence": 46,
     "rank": 268,
@@ -59113,6 +60103,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.2,
     "confidence": 44,
     "rank": 205,
@@ -59122,6 +60114,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.1,
     "confidence": 45,
     "rank": 259,
@@ -59263,6 +60257,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.5,
     "confidence": 49,
     "rank": 212,
@@ -59272,6 +60268,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.7,
     "confidence": 52,
     "rank": 274,
@@ -59413,6 +60411,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.8,
     "confidence": 49,
     "rank": 248,
@@ -59554,6 +60554,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -1.6,
     "confidence": 52,
     "rank": 241,
@@ -59679,6 +60681,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.7,
     "confidence": 49,
     "rank": 289,
@@ -59820,6 +60824,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3,
     "confidence": 51,
     "rank": 280,
@@ -59945,6 +60951,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -3.3,
     "confidence": 44,
     "rank": 221,
@@ -59954,6 +60962,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.6,
     "confidence": 47,
     "rank": 287,
@@ -60079,6 +61089,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -2.2,
     "confidence": 46,
     "rank": 264,
@@ -60204,6 +61216,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.1,
     "confidence": 44,
     "rank": 282,
@@ -60329,6 +61343,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.9,
     "confidence": 45,
     "rank": 292,
@@ -60454,6 +61470,8 @@
   "ratingHistory": [
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.7,
     "confidence": 45,
     "rank": 290,
@@ -60579,6 +61597,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -4.1,
     "confidence": 44,
     "rank": 223,
@@ -60588,6 +61608,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -4.2,
     "confidence": 45,
     "rank": 293,
@@ -60820,6 +61842,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -2.9,
     "confidence": 42,
     "rank": 217,
@@ -60829,6 +61853,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.2,
     "confidence": 64,
     "rank": 283,
@@ -61045,6 +62071,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -3.1,
     "confidence": 43,
     "rank": 219,
@@ -61054,6 +62082,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -4.8,
     "confidence": 60,
     "rank": 294,
@@ -61318,6 +62348,8 @@
   "ratingHistory": [
    {
     "week": 1,
+    "seq": 0,
+    "label": "1",
     "rating": -1.8,
     "confidence": 48,
     "rank": 187,
@@ -61327,6 +62359,8 @@
    },
    {
     "week": 2,
+    "seq": 1,
+    "label": "2",
     "rating": -3.6,
     "confidence": 66,
     "rank": 286,

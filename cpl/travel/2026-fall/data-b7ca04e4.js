@@ -30166,8 +30166,16 @@
   "weeks": "1-2",
   "totalPlayers": 455,
   "ratingHistoryWeeks": [
-   1,
-   2
+   {
+    "week": 1,
+    "label": "1",
+    "seq": 0
+   },
+   {
+    "week": 2,
+    "label": "2",
+    "seq": 1
+   }
   ],
   "divisionSlug": "b7ca04e4",
   "hasPlayoffs": false,
