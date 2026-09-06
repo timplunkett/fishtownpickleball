@@ -661,7 +661,16 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
     }
     // Stamp every player seen in this run so stale entries (players who left
     // the league seasons ago) can eventually be pruned by lastSeen date.
-    const seenStamp = new Date().toISOString().slice(0, 10);
+    //
+    // Precision is year-month, not year-month-day: every "due" run re-pulls
+    // the full roster of each active division, so day precision stamped
+    // nearly every currently-active player's lastSeen every single day —
+    // e.g. commit 325d66c, a ~550-line diff that was purely the calendar
+    // advancing, with no real information in it (pruning only needs "seen
+    // recently" vs. "seen a long time ago", never which exact day). Month
+    // precision keeps that signal while cutting the diff to once a month per
+    // player instead of once a day.
+    const seenStamp = new Date().toISOString().slice(0, 7);
     for (const p of allPlayersFlat) {
       if (!p.playerId) continue;
       if (existingMap[p.playerId]) {
