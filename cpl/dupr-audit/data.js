@@ -5979,6 +5979,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Gerard Scipione",
    "playerId": "cc559f7c-6bee-455a-a2e9-bb6f994ddb85",
+   "team": "Pickleball Palace Black",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Gerard Scipione",
+   "playerId": "cc559f7c-6bee-455a-a2e9-bb6f994ddb85",
    "team": "Pickleball Palace",
    "slug": "c43b8608",
    "gender": "Male"
