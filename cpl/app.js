@@ -1965,20 +1965,27 @@ function renderRatingTrendChart(player, history) {
     }
     return domainMin + ((domainMax - domainMin) * index) / 4;
   });
-  const historyBySeq = new Map(history.map((snapshot) => [snapshot.seq, snapshot]));
+  // Draw the line through the player's own history entries directly (sorted
+  // by seq), not by walking the shared axis ticks. The axis can include
+  // extra round ticks for weeks where some OTHER player in the division had
+  // a same-week doubleheader; a player who didn't personally split still
+  // carries forward a single collapsed entry for that week (see
+  // collapsePlayerHistory in _cpl/modules/ratings.js), which lands on only
+  // one of those ticks. Matching against every axis tick treated that
+  // as a missing snapshot and broke the polyline into disconnected dots.
+  const sortedHistory = [...history].sort((a, b) => a.seq - b.seq);
   const segments = [];
   let currentSegment = [];
 
-  for (const round of weeks) {
-    const snapshot = historyBySeq.get(round.seq);
-    if (!snapshot) {
+  for (const snapshot of sortedHistory) {
+    if (snapshot.rating == null) {
       if (currentSegment.length) {
         segments.push(currentSegment.join(' '));
         currentSegment = [];
       }
       continue;
     }
-    currentSegment.push(`${xScale(round.seq).toFixed(1)},${yScale(snapshot.rating).toFixed(1)}`);
+    currentSegment.push(`${xScale(snapshot.seq).toFixed(1)},${yScale(snapshot.rating).toFixed(1)}`);
   }
   if (currentSegment.length) {
     segments.push(currentSegment.join(' '));
