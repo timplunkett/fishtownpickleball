@@ -41631,8 +41631,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -41658,8 +41658,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -41676,8 +41676,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41692,8 +41692,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41708,8 +41708,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41724,8 +41724,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41740,8 +41740,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41756,8 +41756,8 @@
     "a": 26,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -41772,8 +41772,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41788,8 +41788,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41804,8 +41804,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41820,8 +41820,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41836,8 +41836,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41852,8 +41852,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

@@ -293,6 +293,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Aidan Fredericks",
+   "playerId": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
+   "team": "Pickle House",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Aidan Jackson",
    "playerId": "c821be96-b764-46ad-85a2-8927711684c5",
    "team": "Home Court",
@@ -4311,6 +4318,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "David Tran",
+   "playerId": "ef0a27b4-d6b4-4141-a8f1-448c710934ac",
+   "team": "Bounce Tempest",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "David Wheeler",
    "playerId": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
    "team": "Pickleball HQ",
@@ -6514,6 +6528,13 @@ window.DUPR_AUDIT = {
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
    "gender": "Female"
+  },
+  {
+   "name": "Homer Abes",
+   "playerId": "c59d5e7c-f361-4e53-a58f-66a0f59fa600",
+   "team": "Picklr Fair Lawn",
+   "slug": "b7ca04e4",
+   "gender": "Male"
   },
   {
    "name": "Hongjie Liu",
