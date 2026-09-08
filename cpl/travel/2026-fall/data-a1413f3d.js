@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 405,
+   "leagueRank": 406,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9128,7 +9128,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9157,7 +9157,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9244,7 +9244,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9708,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9737,7 +9737,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10085,7 +10085,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -23626,7 +23626,361 @@
    "home": "Bounce Philly",
    "away": "Pickle Place",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Vic Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisia Clark",
+      "Kyle Kerr"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Zommi Kungne",
+      "Jake Anderson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Callaghan",
+      "Madeleine Shusterman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Vanessa Zommi Kungne"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Anderson",
+      "William Ye"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Brigle",
+      "Kyle Kerr"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisia Clark",
+      "Vic Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madeleine Shusterman",
+      "Jake Anderson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Kyle Kerr"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Callaghan",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Madeleine Shusterman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Zommi Kungne",
+      "Marykristin Haskell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Kyle Kerr"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Brigle",
+      "William Ye"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Callaghan",
+      "Vic Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "William Ye"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisia Clark",
+      "Matthew Brigle"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Zommi Kungne",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Vanessa Zommi Kungne"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Madeleine Shusterman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Ye",
+      "Jake Anderson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Brigle",
+      "Vic Nguyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madeleine Shusterman",
+      "William Ye"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Kyle Kerr"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Zommi Kungne",
+      "Jake Anderson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Callaghan",
+      "Elisia Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hada Solorzano",
+      "Vanessa Zommi Kungne"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kyle Kerr",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Anderson",
+      "Matthew Brigle"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23650,7 +24004,361 @@
    "home": "ACE Moorestown",
    "away": "Bounce Tempest",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Stephanie Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Eileen Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Eileen Zhang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yufan Chen",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Stephanie Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yufan Chen",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessica Zook",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hien Do",
+      "Eileen Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yufan Chen",
+      "David Brandolph"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -24683,6 +25391,7 @@
   "Matthew Brigle": "6aa60ea2-e7b6-49d6-80b1-a933dd6c475c",
   "Bryan Mccourt": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
+  "Monika Torbus": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
   "Justin Chin": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Eileen Zhang": "a97005b1-7cac-40b0-b0c0-c4e1a359418a",
@@ -24818,7 +25527,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-08T15:41:57.827Z";
+  DATA.meta.asOf = "2026-09-08T20:30:50.471Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

@@ -3879,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 177,
+   "leagueRank": 178,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4024,7 +4024,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 170,
+   "leagueRank": 171,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4062,6 +4062,35 @@
    "playerId": "279df046-e022-4adf-a5ea-4072a29d9622"
   },
   {
+   "name": "Krysti Maronski-Neufeldt",
+   "gender": "Female",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 168,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "29a7f562-a596-421f-a62d-33409169805d"
+  },
+  {
    "name": "Simon Rosenwasser",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
@@ -4082,7 +4111,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 175,
+   "leagueRank": 176,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 168,
+   "leagueRank": 169,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4459,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 179,
+   "leagueRank": 180,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4459,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 176,
+   "leagueRank": 177,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4517,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 172,
+   "leagueRank": 173,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4517,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 174,
+   "leagueRank": 175,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4604,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4633,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4691,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 169,
+   "leagueRank": 170,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4720,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 173,
+   "leagueRank": 174,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11206,7 +11235,361 @@
    "home": "Monroe",
    "away": "Pickle House",
    "time": "2026-09-09T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Nick Dehmer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angela Luo",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophia Kaufmann",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Angela Luo"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Richa Shah",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Emily Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shreyas Pani",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Nick Dehmer",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dilan Shah",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Nick Dehmer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophia Kaufmann",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Morgan Fishman",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Yoyo Shen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sophia Kaufmann",
+      "Angela Luo"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Nick Dehmer",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shreyas Pani",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Michael Li",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angela Luo",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophia Kaufmann",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Nick Dehmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Sophia Kaufmann"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Taylor Hartman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Richa Shah",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dilan Shah",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maanav Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Michael Li",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sophia Kaufmann",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angela Luo",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Nick Dehmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Yoyo Shen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sophia Kaufmann",
+      "Angela Luo"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dilan Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Nick Dehmer",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shreyas Pani",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Michael Li",
+      "Dipen Bhatt"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11892,7 +12275,7 @@
       ""
      ],
      "a": [
-      "",
+      "Krysti Maronski-Neufeldt",
       "Nathan Law"
      ]
     },
@@ -11903,7 +12286,7 @@
       ""
      ],
      "a": [
-      "",
+      "Krysti Maronski-Neufeldt",
       "Annemarie Mccartney"
      ]
     },
@@ -11980,7 +12363,7 @@
       ""
      ],
      "a": [
-      "",
+      "Krysti Maronski-Neufeldt",
       "Jack Blumberg"
      ]
     },
@@ -12003,7 +12386,7 @@
      ],
      "a": [
       "Jennifer Sanchez",
-      ""
+      "Krysti Maronski-Neufeldt"
      ]
     },
     {
@@ -12035,7 +12418,7 @@
       ""
      ],
      "a": [
-      "",
+      "Krysti Maronski-Neufeldt",
       "Damien Stahl"
      ]
     },
@@ -12156,7 +12539,7 @@
       ""
      ],
      "a": [
-      "",
+      "Krysti Maronski-Neufeldt",
       "Manny Lai"
      ]
     },
@@ -12179,7 +12562,7 @@
      ],
      "a": [
       "Anita Buggins",
-      ""
+      "Krysti Maronski-Neufeldt"
      ]
     },
     {
@@ -12350,7 +12733,7 @@
      "t": "female",
      "h": [
       "Alex Abad",
-      "Charlotte Healey"
+      "Elysia Price"
      ],
      "a": [
       "Teresa Wang",
@@ -12361,7 +12744,7 @@
      "t": "female",
      "h": [
       "Kathleen Dougherty",
-      "Elysia Price"
+      "Charlotte Healey"
      ],
      "a": [
       "Harriet Levin",
@@ -13066,7 +13449,7 @@
   "matchesPlayed": 10,
   "provisionalMatches": 0,
   "weeks": "1-2",
-  "totalPlayers": 172,
+  "totalPlayers": 173,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -13138,7 +13521,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-08T15:42:07.484Z";
+  DATA.meta.asOf = "2026-09-08T20:30:59.172Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

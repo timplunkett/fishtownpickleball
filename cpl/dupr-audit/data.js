@@ -10170,6 +10170,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Krysti Maronski-Neufeldt",
+   "playerId": "29a7f562-a596-421f-a62d-33409169805d",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Kumi Dalton",
    "playerId": "0b60e384-c0c5-4859-883c-1183e79437e3",
    "team": "Montville",

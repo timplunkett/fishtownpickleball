@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 182
+      "ranking": 183
     },
     {
       "playerId": "061121d0-5d0a-4c01-9d8e-dced99d6d82d",
@@ -251,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 177
+      "ranking": 178
     },
     {
       "playerId": "0cb538a5-0d5d-47a7-b854-38394ac9652f",
@@ -688,7 +688,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 170
+      "ranking": 171
     },
     {
       "playerId": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
@@ -873,6 +873,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 149
+    },
+    {
+      "playerId": "29a7f562-a596-421f-a62d-33409169805d",
+      "firstName": "Krysti",
+      "lastName": "Maronski-Neufeldt",
+      "gender": "Female",
+      "dupr": "30KMQ3",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 168
     },
     {
       "playerId": "2aa8b268-8c06-4453-9706-048009bf6af3",
@@ -1079,7 +1102,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 175
+      "ranking": 176
     },
     {
       "playerId": "37acfc18-a8d1-4ea0-8c21-0d830c9f4f90",
@@ -1907,7 +1930,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 180
+      "ranking": 181
     },
     {
       "playerId": "661f7bd0-74d3-432b-acc7-da0e3b3e36ea",
@@ -2160,7 +2183,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 168
+      "ranking": 169
     },
     {
       "playerId": "7d836ecc-e553-4966-9c12-2dc698a545d0",
@@ -2528,7 +2551,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 179
+      "ranking": 180
     },
     {
       "playerId": "8ee2191e-34c1-4f6b-b366-5a1bbc5bcb36",
@@ -2551,7 +2574,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 176
+      "ranking": 177
     },
     {
       "playerId": "8f292eb8-a014-4618-9c0e-114c26463233",
@@ -2574,7 +2597,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 172
+      "ranking": 173
     },
     {
       "playerId": "91d23f87-e0fc-4448-890e-c3abd96c70b4",
@@ -2643,7 +2666,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 184
+      "ranking": 185
     },
     {
       "playerId": "97f2b250-2030-4296-be61-63cffb17043b",
@@ -2712,7 +2735,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 174
+      "ranking": 175
     },
     {
       "playerId": "9c41a810-1be6-4e08-8a29-51558c29cb86",
@@ -2781,7 +2804,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 178
+      "ranking": 179
     },
     {
       "playerId": "9dae8c17-6878-473a-83e9-a43b434f876b",
@@ -2896,7 +2919,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 171
+      "ranking": 172
     },
     {
       "playerId": "a19b179a-6a16-43a7-b2af-8d6e8d1a1205",
@@ -3310,7 +3333,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 183
+      "ranking": 184
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
@@ -3563,7 +3586,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 181
+      "ranking": 182
     },
     {
       "playerId": "ce590106-6f19-43b7-8a91-4dc31d28eb31",
@@ -3632,7 +3655,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 169
+      "ranking": 170
     },
     {
       "playerId": "d0e2c1ea-529d-4364-b521-cb205ecdded3",
@@ -3701,7 +3724,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 173
+      "ranking": 174
     },
     {
       "playerId": "d6c15f91-4cc9-4612-8ec3-8f4ebd4e0cc1",
