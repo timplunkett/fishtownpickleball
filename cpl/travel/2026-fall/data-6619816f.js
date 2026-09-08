@@ -11214,7 +11214,361 @@
    "home": "Home Court",
    "away": "Flemington",
    "time": "2026-09-09T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Arvidson",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Susan Ackley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Arvidson",
+      "Elisangela Harrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Arvidson",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Susan Ackley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Kelly Arvidson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Ryan",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Arvidson",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Susan Ackley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Kelly Arvidson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Arvidson",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Kelly Arvidson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisangela Harrington",
+      "Susan Ackley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Ryan",
+      "Thomas Connolly"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11230,7 +11584,361 @@
    "home": "Jersey Devil",
    "away": "ACE Moorestown",
    "time": "2026-09-09T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Annemarie Mccartney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Jennifer Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manny Lai",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Blumberg",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Damien Stahl",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manny Lai",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Annemarie Mccartney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manny Lai",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Annemarie Mccartney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manny Lai",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Damien Stahl",
+      "Jack Blumberg"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11243,8 +11951,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Sternberg",
+      "Bruno Casino"
      ],
      "a": [
       "Yuki Kim",
@@ -11254,8 +11962,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alex Boory"
      ],
      "a": [
       "Harriet Levin",
@@ -11265,8 +11973,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Zachary Lessner"
      ],
      "a": [
       "Teresa Wang",
@@ -11276,8 +11984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Jordan Denish"
      ],
      "a": [
       "Tess Fisher",
@@ -11287,8 +11995,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Charlotte Healey"
      ],
      "a": [
       "Yuki Kim",
@@ -11298,8 +12006,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Elysia Price"
      ],
      "a": [
       "Harriet Levin",
@@ -11309,8 +12017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Jordan Denish"
      ],
      "a": [
       "Lou Frignito",
@@ -11320,8 +12028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Mark Kilimnik"
      ],
      "a": [
       "Nick Meale",
@@ -11331,8 +12039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Jordan Denish"
      ],
      "a": [
       "Yuki Kim",
@@ -11342,8 +12050,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Sternberg",
+      "Bruno Casino"
      ],
      "a": [
       "Teresa Wang",
@@ -11353,8 +12061,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Zachary Lessner"
      ],
      "a": [
       "Tess Fisher",
@@ -11364,8 +12072,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alex Boory"
      ],
      "a": [
       "Harriet Levin",
@@ -11375,8 +12083,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Charlotte Healey"
      ],
      "a": [
       "Teresa Wang",
@@ -11386,8 +12094,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Elysia Price"
      ],
      "a": [
       "Harriet Levin",
@@ -11397,8 +12105,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Kilimnik",
+      "Bruno Casino"
      ],
      "a": [
       "Lou Frignito",
@@ -11408,8 +12116,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Jordan Denish"
      ],
      "a": [
       "Nick Meale",
@@ -11419,8 +12127,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Teresa Wang",
@@ -11430,8 +12138,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Sternberg",
+      "Mark Kilimnik"
      ],
      "a": [
       "Megan Harvey",
@@ -11441,8 +12149,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Alex Boory"
      ],
      "a": [
       "Yuki Kim",
@@ -11452,8 +12160,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Zachary Lessner"
      ],
      "a": [
       "Tess Fisher",
@@ -11463,8 +12171,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Kathleen Dougherty"
      ],
      "a": [
       "Yuki Kim",
@@ -11474,8 +12182,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Julia Sternberg"
      ],
      "a": [
       "Tess Fisher",
@@ -11485,8 +12193,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Zachary Lessner"
      ],
      "a": [
       "Lou Frignito",
@@ -11496,8 +12204,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Denish",
+      "Mark Kilimnik"
      ],
      "a": [
       "Chris Tabeling",
@@ -11507,8 +12215,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Yuki Kim",
@@ -11518,8 +12226,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Jordan Denish"
      ],
      "a": [
       "Teresa Wang",
@@ -11529,8 +12237,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Julia Sternberg",
+      "Mark Kilimnik"
      ],
      "a": [
       "Harriet Levin",
@@ -11540,8 +12248,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Alex Boory"
      ],
      "a": [
       "Megan Harvey",
@@ -11551,8 +12259,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Kathleen Dougherty"
      ],
      "a": [
       "Yuki Kim",
@@ -11562,8 +12270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Julia Sternberg"
      ],
      "a": [
       "Megan Harvey",
@@ -11573,8 +12281,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Kilimnik",
+      "Jordan Denish"
      ],
      "a": [
       "Lou Frignito",
@@ -11584,8 +12292,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Alex Boory"
      ],
      "a": [
       "Chris Tabeling",
@@ -12164,7 +12872,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-07T20:56:12.516Z";
+  DATA.meta.asOf = "2026-09-08T02:11:12.219Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
