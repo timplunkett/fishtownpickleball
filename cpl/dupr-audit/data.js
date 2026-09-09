@@ -2512,6 +2512,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Caitlyn Suchanic",
+   "playerId": "97a33ff9-4337-4782-8906-226561b07c72",
+   "team": "Picklr Newark",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Caity Rietzen",
    "playerId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
    "team": "Bounce Philly",
@@ -2803,6 +2810,13 @@ window.DUPR_AUDIT = {
    "playerId": "7c31fae2-4ca2-47e5-a531-cdcbdb069c80",
    "team": "Montville Dragons",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Cesar Santamaria-Aranda",
+   "playerId": "fbde98cb-9eee-431b-b164-244249c26728",
+   "team": "Montville",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -3817,6 +3831,13 @@ window.DUPR_AUDIT = {
    "name": "Dan Ladislaw",
    "playerId": "31b78615-afb3-4856-8cb1-de2b8d43a115",
    "team": "Bounce Malvern",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Dan Ruble",
+   "playerId": "d411862a-491a-47dc-93a8-4a12f821afd7",
+   "team": "Jersey Devil",
    "slug": "c118b8e9",
    "gender": "Male"
   },
@@ -11685,6 +11706,13 @@ window.DUPR_AUDIT = {
    "name": "Mary Shaila Mendoza",
    "playerId": "f64b8044-4d67-413e-8d34-c1b9de570fcb",
    "team": "Jersey Devil",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Mary Smith",
+   "playerId": "1179ef3d-63b8-4754-8bf3-2cd6c5cc8725",
+   "team": "PCKLRAMA",
    "slug": "a1413f3d",
    "gender": "Female"
   },

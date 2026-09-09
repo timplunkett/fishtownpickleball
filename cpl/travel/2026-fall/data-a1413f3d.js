@@ -5225,8 +5225,8 @@
    "name": "Caitlyn Suchanic",
    "gender": "Female",
    "team": "Picklr Newark",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 3,
@@ -5239,7 +5239,6 @@
    "genderLosses": 1,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "97a33ff9-4337-4782-8906-226561b07c72",
    "winPct": 42.9,
    "diff": 6,
    "ppg": 18.1,
@@ -5248,7 +5247,8 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": -1.6,
-   "strengthOfOpponents": -1.2
+   "strengthOfOpponents": -1.2,
+   "playerId": "97a33ff9-4337-4782-8906-226561b07c72"
   },
   {
    "name": "Nachiket Vaidya",
@@ -8838,7 +8838,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 397,
+   "leagueRank": 400,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8867,7 +8867,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 379,
+   "leagueRank": 380,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8961,6 +8961,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "0b80a91d-626d-40b7-9cd9-e9ea96ec7e59"
+  },
+  {
+   "name": "Mary Smith",
+   "gender": "Female",
+   "team": "PCKLRAMA",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 399,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1179ef3d-63b8-4754-8bf3-2cd6c5cc8725"
   },
   {
    "name": "Samara Babilonia",
@@ -9070,7 +9099,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 381,
+   "leagueRank": 382,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9128,7 +9157,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9157,7 +9186,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9186,7 +9215,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 375,
+   "leagueRank": 376,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9215,7 +9244,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 392,
+   "leagueRank": 393,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9244,7 +9273,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9302,7 +9331,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 398,
+   "leagueRank": 401,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9331,7 +9360,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 384,
+   "leagueRank": 385,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9447,7 +9476,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 390,
+   "leagueRank": 391,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9563,7 +9592,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 377,
+   "leagueRank": 378,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9592,7 +9621,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 399,
+   "leagueRank": 402,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9650,7 +9679,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9737,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 411,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9737,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 412,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9766,7 +9795,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 378,
+   "leagueRank": 379,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9795,7 +9824,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 388,
+   "leagueRank": 389,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9882,7 +9911,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 405,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10027,7 +10056,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 387,
+   "leagueRank": 388,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10085,7 +10114,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -18915,7 +18944,6 @@
     }
    ],
    "subs": [
-    "Caitlyn Suchanic",
     "Alex Bey"
    ]
   },
@@ -23570,7 +23598,361 @@
    "home": "Flemington Green",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-09-10T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Kurt Henson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Kevin Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Christopher Natividad"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Emily Su"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Jane Lin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kurt Henson",
+      "Bhushan Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Dong",
+      "Christopher Natividad"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Kurt Henson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Bhushan Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Christopher Natividad"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Kelly Sacchetti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Erin Cheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kurt Henson",
+      "Bhushan Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Dong",
+      "Kevin Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Kurt Henson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Bhushan Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Christopher Natividad"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Kevin Ha"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Kelly Sacchetti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Emily Su"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Natividad",
+      "Bhushan Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Dong",
+      "Kevin Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Kurt Henson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Christopher Natividad"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Lin",
+      "Kevin Ha"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Sacchetti",
+      "Jane Lin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erin Cheng",
+      "Emily Su"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Ha",
+      "Kurt Henson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bhushan Gupta",
+      "Christopher Natividad"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23578,7 +23960,361 @@
    "home": "Premiere",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-09-10T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Eugene Yudelson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Chelsea Convissar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Perri Goldstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Rodney Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ethan Rosen",
+      "Eugene Yudelson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Rodney Sanchez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Eugene Yudelson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Alexis Milak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Perri Goldstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rodney Sanchez",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Eugene Yudelson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Chelsea Convissar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Perri Goldstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Rodney Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ethan Rosen",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Rodney Sanchez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Eugene Yudelson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Alexis Milak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Chelsea Convissar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Brochin",
+      "Eugene Yudelson"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23586,7 +24322,361 @@
    "home": "PCKLRAMA",
    "away": "Pickleball Palace",
    "time": "2026-09-10T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "James Scott"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melanie Shapsis",
+      "Todd Mitchell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Stein",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Melanie Shapsis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "Danielle Stein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lo",
+      "James Scott"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Todd Mitchell",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melanie Shapsis",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Kevin Lo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Stein",
+      "Todd Mitchell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Danielle Stein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "Melanie Shapsis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lo",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "James Scott",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Stein",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melanie Shapsis",
+      "Todd Mitchell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "James Scott"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Danielle Stein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melanie Shapsis",
+      "Martyna Dudek"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lo",
+      "James Scott"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Todd Mitchell",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melanie Shapsis",
+      "Oscar Montoya"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Stein",
+      "Kevin Lo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Todd Mitchell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Pfeffer",
+      "Melanie Shapsis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martyna Dudek",
+      "Danielle Stein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lo",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Todd Mitchell",
+      "James Scott"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23602,7 +24692,361 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Tristan Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Mathison",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Sharon Mathison"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Leah Stup"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Tristan Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Mathison",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Joreen Sun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Sharon Mathison"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tristan Lane",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Tristan Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Mathison",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Sharon Mathison"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Leah Stup"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tristan Lane",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Mathison",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joreen Sun",
+      "Joseph Albanese"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Tristan Lane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paige Rebeccah Smith",
+      "Sharon Mathison"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Stup",
+      "Joreen Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Noah Ludwigsen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Tristan Lane"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23610,7 +25054,361 @@
    "home": "Jersey Devil",
    "away": "Ballers Philly",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Matthew Mintz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Jj Pospiech"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Samuel Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Sophy Siv"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Tanya Patterson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Lee",
+      "Se Jun Kim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Matthew Mintz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Se Jun Kim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Jj Pospiech"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Lindsey Allumbaugh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Tanya Patterson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jj Pospiech",
+      "Samuel Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Matthew Mintz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Se Jun Kim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tanya Patterson",
+      "Samuel Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Kelly Feng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Tanya Patterson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Jj Pospiech"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Se Jun Kim",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Matthew Mintz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Jj Pospiech"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Smith",
+      "Se Jun Kim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Samuel Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsey Allumbaugh",
+      "Alexandra Smith"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophy Siv",
+      "Tanya Patterson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Lee",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jj Pospiech",
+      "Se Jun Kim"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23618,7 +25416,361 @@
    "home": "Dill Dinkers Hatboro Aces",
    "away": "Picklr Newark",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Alain Hwang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Andres Cardona"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Moulin",
+      "Wyatt Read"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Lawanakorn Powad"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Kylie Moulin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Sarah Landis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Rice",
+      "Wyatt Read"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Bey",
+      "Lawanakorn Powad"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Dylan Rice"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Alain Hwang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Andres Cardona"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Landis",
+      "Alex Bey"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Carly Cebek"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Landis",
+      "Kylie Moulin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wyatt Read",
+      "Andres Cardona"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alain Hwang",
+      "Dylan Rice"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Alex Bey"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Landis",
+      "Lawanakorn Powad"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Moulin",
+      "Alain Hwang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Andres Cardona"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Kylie Moulin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Sarah Landis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lawanakorn Powad",
+      "Andres Cardona"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Rice",
+      "Wyatt Read"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Alain Hwang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Dylan Rice"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Landis",
+      "Alex Bey"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Wyatt Read"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Sarah Landis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Kwasnoski",
+      "Kylie Moulin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Rice",
+      "Lawanakorn Powad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alain Hwang",
+      "Wyatt Read"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23635,7 +25787,7 @@
       ""
      ],
      "a": [
-      "Marykristin Haskell",
+      "Madeleine Shusterman",
       "Vic Nguyen"
      ]
     },
@@ -23756,7 +25908,7 @@
       ""
      ],
      "a": [
-      "Mary Callaghan",
+      "Vanessa Zommi Kungne",
       "Joshua Mindlin"
      ]
     },
@@ -23779,7 +25931,7 @@
      ],
      "a": [
       "Vanessa Zommi Kungne",
-      "Marykristin Haskell"
+      "Mary Callaghan"
      ]
     },
     {
@@ -23822,7 +25974,7 @@
       ""
      ],
      "a": [
-      "Marykristin Haskell",
+      "Hada Solorzano",
       "William Ye"
      ]
     },
@@ -23855,7 +26007,7 @@
       ""
      ],
      "a": [
-      "Marykristin Haskell",
+      "Madeleine Shusterman",
       "Vanessa Zommi Kungne"
      ]
     },
@@ -23867,7 +26019,7 @@
      ],
      "a": [
       "Hada Solorzano",
-      "Madeleine Shusterman"
+      "Elisia Clark"
      ]
     },
     {
@@ -23910,7 +26062,7 @@
       ""
      ],
      "a": [
-      "Marykristin Haskell",
+      "Mary Callaghan",
       "Kyle Kerr"
      ]
     },
@@ -23988,7 +26140,361 @@
    "home": "Monroe",
    "away": "Flemington Blue",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Barry Friedman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jillian Hart",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jo Marie Holzhammer",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Eric Berlinger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Jillian Hart"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jo Marie Holzhammer",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Hadler",
+      "Barry Friedman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Eric Berlinger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jillian Hart",
+      "Barry Friedman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jillian Hart",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barry Friedman",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jorge Diaz",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Eric Berlinger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jo Marie Holzhammer",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jillian Hart",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jillian Hart",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barry Friedman",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jo Marie Holzhammer",
+      "Barry Friedman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Eric Berlinger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Jo Marie Holzhammer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Jorge Diaz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Tom Hadler"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23996,7 +26502,361 @@
    "home": "Bounce Malvern",
    "away": "Dill Dinkers Hatboro The Factory",
    "time": "2026-09-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Votta",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Jerry Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aradhna Saxena",
+      "Abram Lishansky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Christopher Metsikas"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Votta",
+      "Veronica Furmanets"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samara Babilonia",
+      "Guadalupe Reyes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Li",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brady Schwartzberg",
+      "Christopher Metsikas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aradhna Saxena",
+      "Jerry Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Abram Lishansky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Votta",
+      "Brady Schwartzberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Aradhna Saxena"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samara Babilonia",
+      "Nicole Votta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Li",
+      "Abram Lishansky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Memo Elgayar",
+      "Brady Schwartzberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Jerry Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aradhna Saxena",
+      "Christopher Metsikas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Votta",
+      "Brady Schwartzberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Aradhna Saxena"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Samara Babilonia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Li",
+      "Abram Lishansky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Metsikas",
+      "Brady Schwartzberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guadalupe Reyes",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Votta",
+      "Abram Lishansky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Christopher Metsikas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samara Babilonia",
+      "Brady Schwartzberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Veronica Furmanets",
+      "Guadalupe Reyes"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aradhna Saxena",
+      "Nicole Votta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Abram Lishansky",
+      "Memo Elgayar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Li",
+      "Christopher Metsikas"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25376,6 +28236,7 @@
   "Lawanakorn Powad": "05cc6f6a-0431-452b-910c-0006feb23399",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Natalie Ruiz": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
+  "Laura Slane": "17a78a69-329f-4133-8a0d-784c306a57c2",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
   "James Scott": "27c5fb81-315a-4331-a117-8ca7e3a10813",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
@@ -25415,7 +28276,7 @@
   "matchesPlayed": 23,
   "provisionalMatches": 0,
   "weeks": "1-2",
-  "totalPlayers": 374,
+  "totalPlayers": 375,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -25527,7 +28388,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-08T20:30:50.471Z";
+  DATA.meta.asOf = "2026-09-09T02:14:54.295Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

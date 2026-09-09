@@ -27714,7 +27714,7 @@
   {
     "playerId": "fbde98cb-9eee-431b-b164-244249c26728",
     "firstName": "Cesar",
-    "lastName": "Santamaria",
+    "lastName": "Santamaria-Aranda",
     "dupr": "1QPE43",
     "duprRating": "4.150",
     "duprNumericId": 6675206065,
@@ -45720,6 +45720,22 @@
     "firstName": "Krysti",
     "lastName": "Maronski-Neufeldt",
     "dupr": "30KMQ3",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "1179ef3d-63b8-4754-8bf3-2cd6c5cc8725",
+    "firstName": "Mary",
+    "lastName": "Smith",
+    "dupr": "8D5G9X",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "7f4b7644-6117-4eee-b3d8-a4955507923e",
+    "firstName": "Bren",
+    "lastName": "Calpin",
+    "dupr": "WND55Y",
     "duprRating": null,
     "lastSeen": "2026-09"
   }
