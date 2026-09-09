@@ -24343,7 +24343,7 @@
      ],
      "a": [
       "Martyna Dudek",
-      "James Scott"
+      "Kevin Lo"
      ]
     },
     {
@@ -24398,7 +24398,7 @@
      ],
      "a": [
       "Kevin Lo",
-      "James Scott"
+      "Oscar Montoya"
      ]
     },
     {
@@ -24408,8 +24408,8 @@
       ""
      ],
      "a": [
-      "Todd Mitchell",
-      "Alexander King"
+      "Alexander King",
+      "Todd Mitchell"
      ]
     },
     {
@@ -24485,8 +24485,8 @@
       ""
      ],
      "a": [
-      "Kevin Lo",
-      "Alexander King"
+      "Alexander King",
+      "Kevin Lo"
      ]
     },
     {
@@ -24496,7 +24496,7 @@
       ""
      ],
      "a": [
-      "James Scott",
+      "Todd Mitchell",
       "Oscar Montoya"
      ]
     },
@@ -24529,7 +24529,7 @@
       ""
      ],
      "a": [
-      "Melanie Shapsis",
+      "Martyna Dudek",
       "Todd Mitchell"
      ]
     },
@@ -24540,8 +24540,8 @@
       ""
      ],
      "a": [
-      "Martyna Dudek",
-      "James Scott"
+      "Melanie Shapsis",
+      "Kevin Lo"
      ]
     },
     {
@@ -24574,7 +24574,7 @@
      ],
      "a": [
       "Kevin Lo",
-      "James Scott"
+      "Oscar Montoya"
      ]
     },
     {
@@ -24584,8 +24584,8 @@
       ""
      ],
      "a": [
-      "Todd Mitchell",
-      "Oscar Montoya"
+      "Alexander King",
+      "Todd Mitchell"
      ]
     },
     {
@@ -24650,8 +24650,8 @@
       ""
      ],
      "a": [
-      "Martyna Dudek",
-      "Danielle Stein"
+      "Danielle Stein",
+      "Martyna Dudek"
      ]
     },
     {
@@ -24661,8 +24661,8 @@
       ""
      ],
      "a": [
-      "Kevin Lo",
-      "Alexander King"
+      "Alexander King",
+      "Kevin Lo"
      ]
     },
     {
@@ -24673,7 +24673,7 @@
      ],
      "a": [
       "Todd Mitchell",
-      "James Scott"
+      "Oscar Montoya"
      ]
     }
    ]
@@ -25827,8 +25827,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Tessa Arendt"
      ],
      "a": [
       "Mary Callaghan",
@@ -25838,8 +25838,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jess Glassman",
+      "Lindsay Henzes"
      ],
      "a": [
       "Hada Solorzano",
@@ -25915,8 +25915,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Brittney Lew"
      ],
      "a": [
       "Hada Solorzano",
@@ -25926,8 +25926,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Jess Glassman"
      ],
      "a": [
       "Vanessa Zommi Kungne",
@@ -26003,8 +26003,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Lindsay Henzes"
      ],
      "a": [
       "Madeleine Shusterman",
@@ -26014,8 +26014,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jess Glassman",
+      "Brittney Lew"
      ],
      "a": [
       "Hada Solorzano",
@@ -26091,8 +26091,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittney Lew",
+      "Mickey Ma"
      ],
      "a": [
       "Mary Callaghan",
@@ -26102,8 +26102,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jingru Du"
      ],
      "a": [
       "Hada Solorzano",
@@ -28388,7 +28388,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-09T02:14:54.295Z";
+  DATA.meta.asOf = "2026-09-09T10:26:42.996Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
