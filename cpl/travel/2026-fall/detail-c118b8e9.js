@@ -330,7 +330,7 @@
     "rank": 58,
     "ratingGames": 7,
     "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -1913,7 +1913,7 @@
     "pid": "631b24ae-9bc2-4db3-964b-33f86933021e",
     "name": "Pritpal Singh",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7",
@@ -2989,11 +2989,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 3.3,
+    "rating": 3.2,
     "confidence": 75,
-    "rank": 7,
+    "rank": 8,
     "ratingGames": 16,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -3002,7 +3002,7 @@
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 4,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "44864b51-f901-4470-a6bd-891495ffd132",
@@ -3201,7 +3201,7 @@
     "label": "3",
     "rating": 3.3,
     "confidence": 56,
-    "rank": 8,
+    "rank": 7,
     "ratingGames": 8,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.8
@@ -4265,11 +4265,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.6,
+    "rating": 0.7,
     "confidence": 58,
-    "rank": 92,
+    "rank": 86,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.4
    }
   ],
@@ -4455,306 +4455,6 @@
    }
   ],
   "partners": []
- },
- "20f3e907-41d8-40bb-8cef-cb6fed84a2aa": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 112,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 117,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     0
-    ],
-    "cl": [
-     4,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Rakshit Maddur Gopinath",
-    "vs": [
-     "Big G",
-     "Ian Kohn"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Avneesh Agarwal",
-    "vs": [
-     "Ian Kohn",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Varun Gurram",
-    "vs": [
-     "Michael Vollmer",
-     "Big G"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Rajeeth Nadig",
-    "vs": [
-     "Michael Vollmer",
-     "Siva Indupuru"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jitendra Arora",
-    "vs": [
-     "Erik Reilly",
-     "Wensheng Yue"
-    ],
-    "f": 28,
-    "a": 30,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Rakshit Maddur Gopinath",
-    "vs": [
-     "Ian Kohn",
-     "Siva Indupuru"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anil Kumar Jakkaladki",
-    "vs": [
-     "Jacob Rosengarten",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Bennett Pereira",
-    "vs": [
-     "Shawn Gold",
-     "John Coyle"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Aidan Fredericks",
-    "vs": [
-     "Michael Dombrowiecki",
-     "John Coyle"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Bennett Pereira",
-    "vs": [
-     "Leon Li",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Aidan Fredericks",
-    "vs": [
-     "Leon Li",
-     "John Coyle"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jitendra Arora",
-    "vs": [
-     "Shawn Gold",
-     "Michael Dombrowiecki"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jitendra Arora",
-    "vs": [
-     "Nicholas Lugo",
-     "Leon Li"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1,
-    "confidence": 49,
-    "rank": 170,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.7,
-    "confidence": 70,
-    "rank": 86,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
-    "name": "Jitendra Arora",
-    "n": 3,
-    "synergy": 0
-   }
-  ]
  },
  "27d8a10f-ee9b-467c-bf8c-4872ce63de90": {
   "log": [
@@ -6212,7 +5912,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 67,
-    "rank": 134,
+    "rank": 135,
     "ratingGames": 12,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.6
@@ -6362,7 +6062,7 @@
     "label": "3",
     "rating": -0.8,
     "confidence": 53,
-    "rank": 169,
+    "rank": 170,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -2
@@ -6835,11 +6535,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.8,
+    "rating": 0.9,
     "confidence": 80,
-    "rank": 76,
+    "rank": 71,
     "ratingGames": 22,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.8
    }
   ],
@@ -6848,25 +6548,25 @@
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
     "name": "Jitendra Arora",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "44864b51-f901-4470-a6bd-891495ffd132",
     "name": "Varun Gurram",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -7576,7 +7276,7 @@
     "rank": 67,
     "ratingGames": 16,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.8
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -8991,7 +8691,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 48,
-    "rank": 138,
+    "rank": 139,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.8
@@ -9826,7 +9526,7 @@
     "label": "3",
     "rating": 1.3,
     "confidence": 70,
-    "rank": 52,
+    "rank": 53,
     "ratingGames": 14,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.4
@@ -10170,7 +9870,7 @@
     "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
     "name": "Luca Hendrickson",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
@@ -11609,11 +11309,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 63,
-    "rank": 53,
+    "rank": 56,
     "ratingGames": 9,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": -1.1
    }
   ],
@@ -12104,7 +11804,7 @@
     "confidence": 80,
     "rank": 46,
     "ratingGames": 22,
-    "strengthOfPartners": 1,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -12113,19 +11813,19 @@
     "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
     "name": "Sree Harsha Konduru",
     "n": 4,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "44864b51-f901-4470-a6bd-891495ffd132",
     "name": "Varun Gurram",
     "n": 6,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
@@ -12769,6 +12469,299 @@
    }
   ]
  },
+ "20f3e907-41d8-40bb-8cef-cb6fed84a2aa": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 112,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 141,
+    "pa": 119,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Rakshit Maddur Gopinath",
+    "vs": [
+     "Big G",
+     "Ian Kohn"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Avneesh Agarwal",
+    "vs": [
+     "Ian Kohn",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Varun Gurram",
+    "vs": [
+     "Michael Vollmer",
+     "Big G"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Rajeeth Nadig",
+    "vs": [
+     "Michael Vollmer",
+     "Siva Indupuru"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jitendra Arora",
+    "vs": [
+     "Erik Reilly",
+     "Wensheng Yue"
+    ],
+    "f": 28,
+    "a": 30,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Rakshit Maddur Gopinath",
+    "vs": [
+     "Ian Kohn",
+     "Siva Indupuru"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anil Kumar Jakkaladki",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Bennett Pereira",
+    "vs": [
+     "Shawn Gold",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Aidan Fredericks",
+    "vs": [
+     "Michael Dombrowiecki",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Bennett Pereira",
+    "vs": [
+     "Leon Li",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Aidan Fredericks",
+    "vs": [
+     "Leon Li",
+     "John Coyle"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anil Kumar Jakkaladki",
+    "vs": [
+     "Leon Li",
+     "John Coyle"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jitendra Arora",
+    "vs": [
+     "Nicholas Lugo",
+     "Leon Li"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1,
+    "confidence": 49,
+    "rank": 170,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -0.3,
+    "confidence": 69,
+    "rank": 142,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": []
+ },
  "f0ac7d85-0e7b-4f28-80fe-3282c3c875ed": {
   "log": [
    {
@@ -13065,9 +13058,9 @@
     "label": "3",
     "rating": 0.2,
     "confidence": 70,
-    "rank": 108,
+    "rank": 107,
     "ratingGames": 13,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
    }
   ],
@@ -13527,7 +13520,7 @@
     "rank": 55,
     "ratingGames": 21,
     "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.6
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": [
@@ -14486,7 +14479,7 @@
     "label": "3",
     "rating": 0.4,
     "confidence": 77,
-    "rank": 99,
+    "rank": 98,
     "ratingGames": 21,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.2
@@ -15023,7 +15016,7 @@
     "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
     "name": "Kyle Korman",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
@@ -17373,7 +17366,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 75,
-    "rank": 126,
+    "rank": 125,
     "ratingGames": 18,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": 0.1
@@ -19156,9 +19149,9 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 64,
-    "rank": 178,
+    "rank": 179,
     "ratingGames": 10,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.1
    }
   ],
@@ -21211,7 +21204,7 @@
     "label": "3",
     "rating": 0.4,
     "confidence": 75,
-    "rank": 100,
+    "rank": 99,
     "ratingGames": 19,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.1
@@ -22238,13 +22231,13 @@
     "pid": "5df02573-21d4-40ea-8b41-f81372a474b3",
     "name": "Ashish Kumar",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
     "name": "Venu Yengala",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "57666861-23d0-4809-9556-b646579f2fd6",
@@ -23135,7 +23128,7 @@
     "label": "3",
     "rating": 0.8,
     "confidence": 77,
-    "rank": 77,
+    "rank": 76,
     "ratingGames": 21,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.2
@@ -23438,7 +23431,7 @@
     "wk": 3,
     "opp": "Monroe",
     "t": "male",
-    "with": "Aidan Fredericks",
+    "with": "Neil Dedhia",
     "vs": [
      "Leon Li",
      "John Coyle"
@@ -23494,12 +23487,12 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.9,
+    "rating": 0.8,
     "confidence": 72,
-    "rank": 71,
+    "rank": 78,
     "ratingGames": 15,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -23508,12 +23501,6 @@
     "name": "Jitendra Arora",
     "n": 3,
     "synergy": 0.4
-   },
-   {
-    "pid": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
-    "name": "Aidan Fredericks",
-    "n": 3,
-    "synergy": -1.4
    }
   ]
  },
@@ -23797,7 +23784,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 68,
-    "rank": 182,
+    "rank": 183,
     "ratingGames": 12,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1
@@ -24118,7 +24105,7 @@
     "label": "3",
     "rating": -0.3,
     "confidence": 55,
-    "rank": 144,
+    "rank": 145,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.2
@@ -25376,7 +25363,7 @@
     "label": "3",
     "rating": 0.2,
     "confidence": 69,
-    "rank": 110,
+    "rank": 109,
     "ratingGames": 14,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.5
@@ -25800,7 +25787,7 @@
     "wk": 3,
     "opp": "Monroe",
     "t": "male",
-    "with": "Neil Dedhia",
+    "with": "Aidan Fredericks",
     "vs": [
      "Shawn Gold",
      "Michael Dombrowiecki"
@@ -25856,11 +25843,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -0.3,
+    "rating": -0.2,
     "confidence": 80,
-    "rank": 139,
+    "rank": 130,
     "ratingGames": 22,
-    "strengthOfPartners": 0.9,
+    "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -25869,19 +25856,13 @@
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "176df588-c3ff-4b50-a66a-4df99647254b",
     "name": "Anil Kumar Jakkaladki",
     "n": 3,
     "synergy": 0.4
-   },
-   {
-    "pid": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
-    "name": "Neil Dedhia",
-    "n": 3,
-    "synergy": 0
    },
    {
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
@@ -26155,7 +26136,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 68,
-    "rank": 114,
+    "rank": 113,
     "ratingGames": 11,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -27192,9 +27173,9 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.4,
+    "rating": 0.5,
     "confidence": 80,
-    "rank": 98,
+    "rank": 93,
     "ratingGames": 24,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
@@ -27205,7 +27186,7 @@
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
@@ -27217,7 +27198,7 @@
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 6,
-    "synergy": 0.2
+    "synergy": 0.1
    }
   ]
  },
@@ -28284,7 +28265,7 @@
     "confidence": 80,
     "rank": 49,
     "ratingGames": 24,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -28299,7 +28280,7 @@
     "pid": "631b24ae-9bc2-4db3-964b-33f86933021e",
     "name": "Pritpal Singh",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
@@ -28311,7 +28292,7 @@
     "pid": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7",
     "name": "Ziyu Huang",
     "n": 4,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -28659,7 +28640,7 @@
     "label": "3",
     "rating": 0.8,
     "confidence": 74,
-    "rank": 78,
+    "rank": 77,
     "ratingGames": 16,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -29476,7 +29457,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 72,
-    "rank": 154,
+    "rank": 155,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.9
@@ -29487,7 +29468,7 @@
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -29776,7 +29757,7 @@
     "label": "3",
     "rating": -0.8,
     "confidence": 69,
-    "rank": 168,
+    "rank": 169,
     "ratingGames": 13,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.2
@@ -30416,10 +30397,10 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 69,
-    "rank": 181,
+    "rank": 182,
     "ratingGames": 13,
     "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.1
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": [
@@ -30733,7 +30714,7 @@
     "label": "3",
     "rating": -0.8,
     "confidence": 71,
-    "rank": 167,
+    "rank": 168,
     "ratingGames": 13,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -31994,7 +31975,7 @@
     "label": "3",
     "rating": -0.3,
     "confidence": 49,
-    "rank": 146,
+    "rank": 147,
     "ratingGames": 5,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.5
@@ -32969,7 +32950,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 80,
-    "rank": 123,
+    "rank": 121,
     "ratingGames": 22,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.4
@@ -33583,7 +33564,7 @@
     "label": "3",
     "rating": 0.3,
     "confidence": 69,
-    "rank": 105,
+    "rank": 104,
     "ratingGames": 12,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 0.1
@@ -33884,7 +33865,7 @@
     "label": "3",
     "rating": -0.3,
     "confidence": 69,
-    "rank": 142,
+    "rank": 143,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
@@ -34350,7 +34331,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 79,
-    "rank": 111,
+    "rank": 110,
     "ratingGames": 21,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.5
@@ -34884,7 +34865,7 @@
     "label": "3",
     "rating": 0.4,
     "confidence": 58,
-    "rank": 101,
+    "rank": 100,
     "ratingGames": 7,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -35204,10 +35185,169 @@
     "label": "3",
     "rating": 0,
     "confidence": 70,
-    "rank": 120,
+    "rank": 118,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": []
+ },
+ "a6d48fe9-1e3d-470b-8a0c-6061231f34ce": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 140,
+    "pa": 134,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     3
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Ping Peng",
+    "vs": [
+     "Jacob Rosengarten",
+     "John Coyle"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anil Kumar Jakkaladki",
+    "vs": [
+     "Jason Mcmanmon",
+     "Nicholas Lugo"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Neil Dedhia",
+    "vs": [
+     "Michael Dombrowiecki",
+     "John Coyle"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anil Kumar Jakkaladki",
+    "vs": [
+     "Nicholas Lugo",
+     "Michael Dombrowiecki"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Neil Dedhia",
+    "vs": [
+     "Leon Li",
+     "John Coyle"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jitendra Arora",
+    "vs": [
+     "Shawn Gold",
+     "Michael Dombrowiecki"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Sree Harsha Konduru",
+    "vs": [
+     "David Bogatyrev",
+     "Stephen Fredericksen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -0.2,
+    "confidence": 58,
+    "rank": 136,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -35524,7 +35664,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 73,
-    "rank": 153,
+    "rank": 154,
     "ratingGames": 14,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.3
@@ -36787,7 +36927,7 @@
     "label": "3",
     "rating": -1,
     "confidence": 68,
-    "rank": 172,
+    "rank": 173,
     "ratingGames": 11,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -1.1
@@ -38151,7 +38291,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 70,
-    "rank": 132,
+    "rank": 133,
     "ratingGames": 13,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.7
@@ -38794,7 +38934,7 @@
     "label": "3",
     "rating": 0.3,
     "confidence": 73,
-    "rank": 103,
+    "rank": 102,
     "ratingGames": 15,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -39143,7 +39283,7 @@
     "label": "3",
     "rating": -1,
     "confidence": 71,
-    "rank": 171,
+    "rank": 172,
     "ratingGames": 15,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
@@ -39615,7 +39755,7 @@
     "label": "3",
     "rating": -0.4,
     "confidence": 79,
-    "rank": 147,
+    "rank": 148,
     "ratingGames": 21,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -40160,7 +40300,7 @@
     "pid": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
     "name": "Venu Yengala",
     "n": 4,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -41521,7 +41661,7 @@
     "label": "3",
     "rating": 0.6,
     "confidence": 53,
-    "rank": 93,
+    "rank": 92,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.1
@@ -41675,7 +41815,7 @@
     "label": "3",
     "rating": 0.3,
     "confidence": 51,
-    "rank": 106,
+    "rank": 105,
     "ratingGames": 6,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.4
@@ -41861,7 +42001,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 55,
-    "rank": 136,
+    "rank": 137,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.2
@@ -42567,7 +42707,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 73,
-    "rank": 127,
+    "rank": 126,
     "ratingGames": 16,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
@@ -42868,7 +43008,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 70,
-    "rank": 133,
+    "rank": 134,
     "ratingGames": 12,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.4
@@ -43286,7 +43426,7 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 75,
-    "rank": 176,
+    "rank": 177,
     "ratingGames": 18,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.4
@@ -43570,7 +43710,7 @@
     "label": "3",
     "rating": 0,
     "confidence": 45,
-    "rank": 121,
+    "rank": 119,
     "ratingGames": 4,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -43981,7 +44121,7 @@
     "label": "3",
     "rating": -0.5,
     "confidence": 75,
-    "rank": 150,
+    "rank": 151,
     "ratingGames": 18,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.1
@@ -44443,7 +44583,7 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 78,
-    "rank": 174,
+    "rank": 175,
     "ratingGames": 20,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.2
@@ -44937,7 +45077,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 79,
-    "rank": 125,
+    "rank": 123,
     "ratingGames": 22,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.4
@@ -45072,7 +45212,7 @@
     "label": "3",
     "rating": -0.4,
     "confidence": 44,
-    "rank": 148,
+    "rank": 149,
     "ratingGames": 4,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.3
@@ -45566,7 +45706,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 49,
-    "rank": 157,
+    "rank": 158,
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -45918,7 +46058,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 71,
-    "rank": 128,
+    "rank": 127,
     "ratingGames": 16,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.4
@@ -46268,7 +46408,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 73,
-    "rank": 152,
+    "rank": 153,
     "ratingGames": 15,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.2
@@ -46617,7 +46757,7 @@
     "label": "3",
     "rating": 1.3,
     "confidence": 72,
-    "rank": 51,
+    "rank": 52,
     "ratingGames": 15,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.6
@@ -46926,7 +47066,7 @@
     "rank": 96,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -47195,7 +47335,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 66,
-    "rank": 116,
+    "rank": 115,
     "ratingGames": 11,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 1
@@ -47469,7 +47609,7 @@
     "label": "3",
     "rating": -0.5,
     "confidence": 67,
-    "rank": 151,
+    "rank": 152,
     "ratingGames": 11,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.3
@@ -47912,7 +48052,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 77,
-    "rank": 112,
+    "rank": 111,
     "ratingGames": 20,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -48251,7 +48391,7 @@
     "label": "3",
     "rating": -1.4,
     "confidence": 72,
-    "rank": 194,
+    "rank": 195,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.4
@@ -48567,7 +48707,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 70,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.2
@@ -48579,172 +48719,6 @@
     "name": "Jun Zhi Tan",
     "n": 3,
     "synergy": 0.6
-   }
-  ]
- },
- "a6d48fe9-1e3d-470b-8a0c-6061231f34ce": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 134,
-    "pa": 136,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     4
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Ping Peng",
-    "vs": [
-     "Jacob Rosengarten",
-     "John Coyle"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anil Kumar Jakkaladki",
-    "vs": [
-     "Jason Mcmanmon",
-     "Nicholas Lugo"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Neil Dedhia",
-    "vs": [
-     "Michael Dombrowiecki",
-     "John Coyle"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anil Kumar Jakkaladki",
-    "vs": [
-     "Nicholas Lugo",
-     "Michael Dombrowiecki"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Neil Dedhia",
-    "vs": [
-     "Leon Li",
-     "John Coyle"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anil Kumar Jakkaladki",
-    "vs": [
-     "Leon Li",
-     "John Coyle"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Sree Harsha Konduru",
-    "vs": [
-     "David Bogatyrev",
-     "Stephen Fredericksen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.6,
-    "confidence": 55,
-    "rank": 200,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "176df588-c3ff-4b50-a66a-4df99647254b",
-    "name": "Anil Kumar Jakkaladki",
-    "n": 3,
-    "synergy": -1.4
    }
   ]
  },
@@ -49199,7 +49173,7 @@
     "label": "3",
     "rating": -0.5,
     "confidence": 79,
-    "rank": 149,
+    "rank": 150,
     "ratingGames": 21,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -49382,7 +49356,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 58,
-    "rank": 190,
+    "rank": 191,
     "ratingGames": 7,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -49841,7 +49815,7 @@
     "label": "3",
     "rating": -0.9,
     "confidence": 80,
-    "rank": 170,
+    "rank": 171,
     "ratingGames": 21,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -50287,7 +50261,7 @@
     "label": "3",
     "rating": 0.3,
     "confidence": 76,
-    "rank": 102,
+    "rank": 101,
     "ratingGames": 19,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 1
@@ -50310,7 +50284,7 @@
     "pid": "e2d70cc7-b655-43d5-a059-063bfe722001",
     "name": "Shawn Gold",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -50594,7 +50568,7 @@
     "label": "3",
     "rating": 0.2,
     "confidence": 70,
-    "rank": 109,
+    "rank": 108,
     "ratingGames": 12,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.7
@@ -50876,9 +50850,9 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -0.2,
+    "rating": -0.1,
     "confidence": 67,
-    "rank": 135,
+    "rank": 128,
     "ratingGames": 12,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0
@@ -51280,7 +51254,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 76,
-    "rank": 179,
+    "rank": 180,
     "ratingGames": 17,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": -0.8
@@ -51768,7 +51742,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 80,
-    "rank": 122,
+    "rank": 120,
     "ratingGames": 22,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -52129,7 +52103,7 @@
     "label": "3",
     "rating": -1.4,
     "confidence": 68,
-    "rank": 195,
+    "rank": 196,
     "ratingGames": 15,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
@@ -52639,7 +52613,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 81,
-    "rank": 158,
+    "rank": 159,
     "ratingGames": 23,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.1
@@ -53982,7 +53956,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 67,
-    "rank": 115,
+    "rank": 114,
     "ratingGames": 13,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.4
@@ -54294,7 +54268,7 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 71,
-    "rank": 177,
+    "rank": 178,
     "ratingGames": 13,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
@@ -54837,10 +54811,10 @@
     "label": "3",
     "rating": -0.3,
     "confidence": 61,
-    "rank": 143,
+    "rank": 144,
     "ratingGames": 8,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -55189,7 +55163,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 75,
-    "rank": 130,
+    "rank": 131,
     "ratingGames": 16,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.3
@@ -56366,7 +56340,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 51,
-    "rank": 191,
+    "rank": 192,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.3
@@ -56509,7 +56483,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 55,
-    "rank": 117,
+    "rank": 116,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.6
@@ -56663,7 +56637,7 @@
     "label": "3",
     "rating": -0.3,
     "confidence": 51,
-    "rank": 145,
+    "rank": 146,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
@@ -56806,7 +56780,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 52,
-    "rank": 165,
+    "rank": 166,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -56949,7 +56923,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 51,
-    "rank": 137,
+    "rank": 138,
     "ratingGames": 6,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.4
@@ -57777,7 +57751,7 @@
     "with": "Shawn Gold",
     "vs": [
      "Jitendra Arora",
-     "Neil Dedhia"
+     "Aidan Fredericks"
     ],
     "f": 20,
     "a": 22,
@@ -57831,11 +57805,11 @@
     "seq": 2,
     "label": "3",
     "rating": 0.2,
-    "confidence": 80,
-    "rank": 107,
+    "confidence": 79,
+    "rank": 106,
     "ratingGames": 21,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": [
@@ -58187,7 +58161,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 71,
-    "rank": 155,
+    "rank": 156,
     "ratingGames": 15,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.7
@@ -58656,7 +58630,7 @@
     "rank": 95,
     "ratingGames": 21,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.2
+    "strengthOfOpponents": 1.3
    }
   ],
   "partners": [
@@ -58664,7 +58638,7 @@
     "pid": "622cb64f-dd0c-4bff-8c19-81d287977c53",
     "name": "Stephen Fredericksen",
     "n": 6,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
@@ -59185,7 +59159,7 @@
     "label": "3",
     "rating": -0.1,
     "confidence": 79,
-    "rank": 124,
+    "rank": 122,
     "ratingGames": 24,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -59683,9 +59657,9 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1.2,
-    "confidence": 77,
-    "rank": 56,
+    "rating": 1.3,
+    "confidence": 78,
+    "rank": 51,
     "ratingGames": 22,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.2
@@ -60179,7 +60153,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 80,
-    "rank": 159,
+    "rank": 160,
     "ratingGames": 22,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -60948,7 +60922,7 @@
     "label": "3",
     "rating": 0.3,
     "confidence": 71,
-    "rank": 104,
+    "rank": 103,
     "ratingGames": 13,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.3
@@ -61343,7 +61317,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 74,
-    "rank": 186,
+    "rank": 187,
     "ratingGames": 17,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.6
@@ -61354,7 +61328,7 @@
     "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
     "name": "Jacob Rosengarten",
     "n": 6,
-    "synergy": 0.9
+    "synergy": 0.8
    }
   ]
  },
@@ -62155,7 +62129,7 @@
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
@@ -62568,7 +62542,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 75,
-    "rank": 160,
+    "rank": 161,
     "ratingGames": 18,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1
@@ -62859,7 +62833,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 67,
-    "rank": 183,
+    "rank": 184,
     "ratingGames": 11,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.3
@@ -63476,7 +63450,7 @@
     "label": "3",
     "rating": -0.2,
     "confidence": 72,
-    "rank": 131,
+    "rank": 132,
     "ratingGames": 15,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.6
@@ -63820,7 +63794,7 @@
     "label": "3",
     "rating": -1.4,
     "confidence": 73,
-    "rank": 193,
+    "rank": 194,
     "ratingGames": 15,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.8
@@ -64266,7 +64240,7 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 78,
-    "rank": 175,
+    "rank": 176,
     "ratingGames": 19,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -64635,7 +64609,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 53,
-    "rank": 185,
+    "rank": 186,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -65253,7 +65227,7 @@
     "label": "3",
     "rating": 0.1,
     "confidence": 77,
-    "rank": 113,
+    "rank": 112,
     "ratingGames": 20,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.8
@@ -65270,7 +65244,7 @@
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "148387a8-f20a-44df-981d-0d9d2e7bf443",
@@ -65779,7 +65753,7 @@
     "label": "3",
     "rating": -1.1,
     "confidence": 78,
-    "rank": 173,
+    "rank": 174,
     "ratingGames": 24,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.7
@@ -66729,7 +66703,7 @@
     "label": "3",
     "rating": -1.6,
     "confidence": 80,
-    "rank": 196,
+    "rank": 197,
     "ratingGames": 23,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.6
@@ -67245,7 +67219,7 @@
     "label": "3",
     "rating": -1.7,
     "confidence": 78,
-    "rank": 204,
+    "rank": 203,
     "ratingGames": 23,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1
@@ -67596,7 +67570,7 @@
     "label": "3",
     "rating": -0.6,
     "confidence": 71,
-    "rank": 156,
+    "rank": 157,
     "ratingGames": 14,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
@@ -67929,7 +67903,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 73,
-    "rank": 161,
+    "rank": 162,
     "ratingGames": 14,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -68314,7 +68288,7 @@
     "with": "Michael Dombrowiecki",
     "vs": [
      "Jitendra Arora",
-     "Neil Dedhia"
+     "Aidan Fredericks"
     ],
     "f": 20,
     "a": 22,
@@ -68367,11 +68341,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 77,
-    "rank": 118,
+    "rank": 124,
     "ratingGames": 19,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -68392,7 +68366,7 @@
     "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
     "name": "Jason Mcmanmon",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -68526,7 +68500,7 @@
     "label": "3",
     "rating": -0.7,
     "confidence": 48,
-    "rank": 166,
+    "rank": 167,
     "ratingGames": 5,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1
@@ -68662,11 +68636,11 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 48,
-    "rank": 202,
+    "rank": 205,
     "ratingGames": 5,
-    "strengthOfPartners": 1.2,
+    "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.9
    }
   ],
@@ -69344,7 +69318,7 @@
     "label": "3",
     "rating": -2.6,
     "confidence": 73,
-    "rank": 219,
+    "rank": 218,
     "ratingGames": 15,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
@@ -69693,7 +69667,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 71,
-    "rank": 187,
+    "rank": 188,
     "ratingGames": 15,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.6
@@ -70160,13 +70134,13 @@
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
@@ -71083,7 +71057,7 @@
     "label": "3",
     "rating": -1.7,
     "confidence": 79,
-    "rank": 203,
+    "rank": 202,
     "ratingGames": 21,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.1
@@ -71878,7 +71852,7 @@
     "confidence": 76,
     "rank": 234,
     "ratingGames": 17,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0
    }
   ],
@@ -72043,7 +72017,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 48,
-    "rank": 192,
+    "rank": 193,
     "ratingGames": 6,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.9
@@ -72362,7 +72336,7 @@
     "label": "3",
     "rating": -2.4,
     "confidence": 52,
-    "rank": 218,
+    "rank": 216,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.5
@@ -73084,10 +73058,10 @@
     "label": "3",
     "rating": 0,
     "confidence": 77,
-    "rank": 119,
+    "rank": 117,
     "ratingGames": 19,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -73095,7 +73069,7 @@
     "pid": "148387a8-f20a-44df-981d-0d9d2e7bf443",
     "name": "Michael Vollmer",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "29646b59-bcf0-4a90-a70d-2824eb639c4c",
@@ -73107,7 +73081,7 @@
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
     "name": "Big G",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -73989,7 +73963,7 @@
     "with": "John Coyle",
     "vs": [
      "Anil Kumar Jakkaladki",
-     "Aidan Fredericks"
+     "Neil Dedhia"
     ],
     "f": 21,
     "a": 15,
@@ -74021,8 +73995,8 @@
     "seq": 2,
     "label": "3",
     "rating": -0.7,
-    "confidence": 56,
-    "rank": 163,
+    "confidence": 55,
+    "rank": 165,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 0.3
@@ -74192,7 +74166,7 @@
     "label": "3",
     "rating": -1.6,
     "confidence": 58,
-    "rank": 199,
+    "rank": 200,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -75362,7 +75336,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 74,
-    "rank": 180,
+    "rank": 181,
     "ratingGames": 15,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.7
@@ -76053,7 +76027,7 @@
     "label": "3",
     "rating": -1.2,
     "confidence": 60,
-    "rank": 184,
+    "rank": 185,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.8
@@ -76436,7 +76410,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 60,
-    "rank": 188,
+    "rank": 189,
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -76972,7 +76946,7 @@
     "label": "3",
     "rating": -1.3,
     "confidence": 60,
-    "rank": 189,
+    "rank": 190,
     "ratingGames": 8,
     "strengthOfPartners": -2.4,
     "strengthOfOpponents": 0.8
@@ -77570,7 +77544,7 @@
     "with": "Leon Li",
     "vs": [
      "Anil Kumar Jakkaladki",
-     "Aidan Fredericks"
+     "Neil Dedhia"
     ],
     "f": 21,
     "a": 15,
@@ -77607,12 +77581,12 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -1.8,
-    "confidence": 66,
-    "rank": 205,
+    "rating": -1.6,
+    "confidence": 67,
+    "rank": 199,
     "ratingGames": 11,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -78322,12 +78296,12 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -2.4,
+    "rating": -2.5,
     "confidence": 76,
-    "rank": 216,
+    "rank": 217,
     "ratingGames": 18,
     "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -78335,19 +78309,19 @@
     "pid": "3e2aac0c-7c01-4c71-a288-900b54059019",
     "name": "Pedro Delgado",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
     "name": "Ian Kohn",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -78768,12 +78742,12 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 77,
-    "rank": 197,
+    "rank": 204,
     "ratingGames": 19,
     "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -78781,7 +78755,7 @@
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
@@ -79512,7 +79486,7 @@
     "confidence": 50,
     "rank": 226,
     "ratingGames": 6,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -79693,7 +79667,7 @@
     "confidence": 56,
     "rank": 229,
     "ratingGames": 7,
-    "strengthOfPartners": -1.1,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 0.7
    }
   ],
@@ -80306,12 +80280,12 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -2.4,
+    "rating": -2.6,
     "confidence": 65,
-    "rank": 217,
+    "rank": 219,
     "ratingGames": 10,
     "strengthOfPartners": -2.1,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -80319,7 +80293,7 @@
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
     "name": "Big G",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    }
   ]
  },
@@ -80601,7 +80575,7 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -4.6,
+    "rating": -4.5,
     "confidence": 68,
     "rank": 237,
     "ratingGames": 11,
@@ -80614,7 +80588,7 @@
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
     "name": "Big G",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 1
    }
   ]
  }

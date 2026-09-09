@@ -25930,6 +25930,14 @@
   {
    "result": null,
    "week": 10,
+   "home": "Mercer Bucks",
+   "away": "Flemington Blue",
+   "time": "2026-10-24T13:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 10,
    "home": "Dill Dinkers Newport",
    "away": "Dill Dinkers Hatboro",
    "time": "2026-10-24T13:00:00",
@@ -25948,14 +25956,6 @@
    "week": 10,
    "home": "Bounce Philly",
    "away": "Bounce Malvern",
-   "time": "2026-10-24T14:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 10,
-   "home": "Mercer Bucks",
-   "away": "Flemington Blue",
    "time": "2026-10-24T14:00:00",
    "complete": false
   },
@@ -26505,7 +26505,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-07T00:53:11.392Z";
+  DATA.meta.asOf = "2026-09-09T13:59:15.060Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

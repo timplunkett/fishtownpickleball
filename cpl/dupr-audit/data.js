@@ -6446,6 +6446,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Hee Kim",
+   "playerId": "03fa8bb2-957d-45f2-9e41-628a2c5ac9e0",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Heidi Lipton",
    "playerId": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
    "team": "One Love",
@@ -7871,6 +7878,13 @@ window.DUPR_AUDIT = {
    "playerId": "11467d78-b959-46ff-b325-68c9ad836652",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Jessica Hyman",
+   "playerId": "85ee3181-a3ea-4022-8475-6d1c6b80211f",
+   "team": "Ballers Philly",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
@@ -9474,6 +9488,13 @@ window.DUPR_AUDIT = {
    "playerId": "84092931-7836-43e8-a35c-790bd5555b1a",
    "team": "Flemington",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Kathleen Lynch",
+   "playerId": "892b68ae-7d54-456c-82f6-f2514e107d16",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {
@@ -11759,6 +11780,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Matt Demarco",
+   "playerId": "6c182803-54c7-439a-b269-17b063a0b3a7",
+   "team": "Players Courtyard",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Matt Enz",
    "playerId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
    "team": "Bounce Malvern",
@@ -12603,6 +12631,13 @@ window.DUPR_AUDIT = {
    "playerId": "caa5146b-9cc5-4a02-adf0-c70e822854fc",
    "team": "Jersey Pickleball Club",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Michelle Burke",
+   "playerId": "48ed972d-ae17-408b-860e-6f122d0e4e9b",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
@@ -15308,6 +15343,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Scott Richeal",
+   "playerId": "b6494c60-f3bc-4500-b908-d8e5b4ebcf89",
+   "team": "Allstar Pickler",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Scott Rubin",
    "playerId": "c12175df-b959-4efe-95e7-e5298b783da8",
    "team": "Flemington Blue",
@@ -16575,6 +16617,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Theresa Corderi",
+   "playerId": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
+   "team": "Montville",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Theresa Dumbrique",
    "playerId": "0e3e69b5-e482-4ff9-bebe-f4ddab5eab85",
    "team": "Pickleball Kingdom Hamilton Strikers",
@@ -17210,6 +17259,13 @@ window.DUPR_AUDIT = {
    "team": "APC Garden State",
    "slug": "a1413f3d",
    "gender": "Male"
+  },
+  {
+   "name": "Valerie Ablaza",
+   "playerId": "d48ef63c-f537-4c65-93b1-f1907d2c2c2a",
+   "team": "Allstar Pickler",
+   "slug": "c43b8608",
+   "gender": "Female"
   },
   {
    "name": "Vanessa Rhoades",

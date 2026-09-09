@@ -1575,8 +1575,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -1602,8 +1602,8 @@
     "teamRes": "W",
     "teamGW": 30,
     "teamGL": 2,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -1620,8 +1620,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -1636,8 +1636,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -1652,8 +1652,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -1668,8 +1668,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -1684,8 +1684,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -1700,8 +1700,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -1716,8 +1716,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -1732,8 +1732,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -1748,8 +1748,8 @@
     "a": 21,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -15001,8 +15001,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -15028,8 +15028,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -15046,8 +15046,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -15062,8 +15062,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -15078,8 +15078,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -15094,8 +15094,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -15110,8 +15110,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -15126,8 +15126,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -15142,8 +15142,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -15158,8 +15158,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -15174,8 +15174,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -15190,8 +15190,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -15206,8 +15206,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
