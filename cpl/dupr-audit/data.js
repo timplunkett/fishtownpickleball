@@ -17695,6 +17695,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Yashraj Kurani",
+   "playerId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Yayuan Lien",
    "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84",
    "team": "Pickleball Kingdom Hamilton Prime Time",

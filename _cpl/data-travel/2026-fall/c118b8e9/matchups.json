@@ -293,9 +293,9 @@
       "weekNumber": 3,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 601,
+      "awayPoints": 677,
+      "endResult": "away",
       "scheduledTime": "2026-09-08T19:30:00",
       "homeName": "Monroe",
       "awayName": "Pickle House"
