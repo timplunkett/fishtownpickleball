@@ -29,7 +29,7 @@ const MS_PER_DAY = 86400000;
 
 const ACCESS_TOKEN = process.env.DUPR_ACCESS_TOKEN;
 
-const TOKEN_FIX_HINT = 'Fix: sign in to DUPR, copy a fresh bearer token, and update the DUPR_ACCESS_TOKEN repository secret (and your local .env).';
+const TOKEN_FIX_HINT = 'Fix: sign in to DUPR (complete the emailed 2FA code if prompted), copy the __Host-dupr_at cookie value from DevTools, and update the DUPR_ACCESS_TOKEN repository secret (and your local .env).';
 
 // Raised instead of being folded into a per-player miss, so it can abort the run
 // at the first rejected request rather than after ~3,000 doomed ones.
@@ -117,7 +117,13 @@ async function duprRequest(url, options = {}) {
     response = await fetch(url, {
       ...options,
       headers: {
-        'Authorization': 'Bearer ' + ACCESS_TOKEN,
+        // DUPR retired Bearer-header auth in favor of a session cookie
+        // (discovered 2026-09-09 when logging in started requiring emailed
+        // 2FA): the JSON login/2fa-verify responses no longer carry an
+        // accessToken at all, and the __Host-dupr_at cookie DUPR sets in the
+        // browser is what actually authenticates — as a cookie, not a
+        // Bearer header. DUPR_ACCESS_TOKEN now holds that cookie's value.
+        'Cookie': `__Host-dupr_at=${ACCESS_TOKEN}`,
         'Content-Type': 'application/json',
       },
     });

@@ -194,8 +194,11 @@ GitHub Pages cannot redirect, so this happens in the browser.
 `--env-file`, so `.env` is required for those two scripts and is gitignored).
 
 **The token is a JWT with a roughly 30-day lifetime and must be refreshed.** To
-rotate it: sign in to DUPR, copy a fresh bearer token, then update both the
-`DUPR_ACCESS_TOKEN` repository secret and your local `.env`. The script decodes
+rotate it: sign in to DUPR (completing the emailed 2FA code if prompted), open
+DevTools → Application → Cookies, and copy the `__Host-dupr_at` cookie's value
+— DUPR authenticates via this session cookie, not a Bearer header, as of
+2026-09-09. Update both the `DUPR_ACCESS_TOKEN` repository secret and your
+local `.env` with that value. The script decodes
 the token's `exp` itself and warns a week out, then errors once it's expired —
 if a DUPR run reports no changes, check the token before assuming the ratings
 really are unchanged.
