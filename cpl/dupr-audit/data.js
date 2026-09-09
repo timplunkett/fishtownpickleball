@@ -6600,6 +6600,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Hruday Vemparala",
+   "playerId": "bc3db6dc-48f5-46f3-aec3-638d15ca7285",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Hua Lin",
    "playerId": "6b263caa-80f7-40d2-9248-559f91ffe71e",
    "team": "Dill Dinkers Freehold",
@@ -7647,6 +7654,13 @@ window.DUPR_AUDIT = {
    "playerId": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
    "team": "Pickleball Lehigh Valley",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Jenna Irwin",
+   "playerId": "85e52e3b-5238-4583-8d1a-cc57f8218ef6",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {
@@ -9649,6 +9663,13 @@ window.DUPR_AUDIT = {
    "playerId": "3beead1c-6ded-4df1-9c68-1687ff5c29e8",
    "team": "One Love",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Keith Shedlock",
+   "playerId": "f4b44cd7-fc9a-41a2-b569-cdaf08b0bf26",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -12134,6 +12155,13 @@ window.DUPR_AUDIT = {
    "playerId": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Meghan Mediratta",
+   "playerId": "abc80b43-6769-4254-ae9a-b4b63b06de1d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {
