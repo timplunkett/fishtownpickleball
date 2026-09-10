@@ -4007,8 +4007,8 @@
    "name": "Sarah Ross",
    "gender": "Female",
    "team": "Dill Dinkers Hatboro Aces",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 6,
@@ -4021,7 +4021,6 @@
    "genderLosses": 3,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "261d14c5-288e-4349-a3ed-50bad4b620c1",
    "winPct": 54.5,
    "diff": 18,
    "ppg": 19.4,
@@ -4030,7 +4029,8 @@
    "ratingGames": 11,
    "confidence": 60,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": 0.4
+   "strengthOfOpponents": 0.4,
+   "playerId": "261d14c5-288e-4349-a3ed-50bad4b620c1"
   },
   {
    "name": "Stephanie George",
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 411,
+   "leagueRank": 412,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9157,7 +9157,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9186,7 +9186,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 415,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9273,7 +9273,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9737,7 +9737,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 416,
+   "leagueRank": 417,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 414,
+   "leagueRank": 415,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9969,7 +9969,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10143,7 +10143,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14780,9 +14780,7 @@
      ]
     }
    ],
-   "subs": [
-    "Sarah Ross"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -19438,7 +19436,6 @@
     }
    ],
    "subs": [
-    "Sarah Ross",
     "Andre Cristobal"
    ]
   },
@@ -24393,7 +24390,7 @@
       "Austin Favale"
      ],
      "a": [
-      "Danielle Stein",
+      "Debbie Tovitz",
       "Oscar Montoya"
      ]
     },
@@ -24416,7 +24413,7 @@
      ],
      "a": [
       "Martyna Dudek",
-      "Danielle Stein"
+      "Debbie Tovitz"
      ]
     },
     {
@@ -24481,7 +24478,7 @@
       "Alexander Morales"
      ],
      "a": [
-      "Danielle Stein",
+      "Debbie Tovitz",
       "Todd Mitchell"
      ]
     },
@@ -24493,7 +24490,7 @@
      ],
      "a": [
       "Carly Pfeffer",
-      "Danielle Stein"
+      "Debbie Tovitz"
      ]
     },
     {
@@ -24547,7 +24544,7 @@
       "Eric Moore"
      ],
      "a": [
-      "Danielle Stein",
+      "Debbie Tovitz",
       "Oscar Montoya"
      ]
     },
@@ -24581,7 +24578,7 @@
      ],
      "a": [
       "Carly Pfeffer",
-      "Danielle Stein"
+      "Debbie Tovitz"
      ]
     },
     {
@@ -24635,7 +24632,7 @@
       "Kevin Smith"
      ],
      "a": [
-      "Danielle Stein",
+      "Debbie Tovitz",
       "Kevin Lo"
      ]
     },
@@ -24679,7 +24676,7 @@
       "Denise Chetaitis"
      ],
      "a": [
-      "Danielle Stein",
+      "Debbie Tovitz",
       "Martyna Dudek"
      ]
     },
@@ -24726,8 +24723,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arpita Vaidya",
+      "Francisco De Leon"
      ],
      "a": [
       "Joreen Sun",
@@ -24737,8 +24734,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Varun Gurram"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24748,8 +24745,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Ivan Rios"
      ],
      "a": [
       "Leah Stup",
@@ -24759,8 +24756,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Nicholas Estephan"
      ],
      "a": [
       "Maria Valencia",
@@ -24770,8 +24767,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Danielle Mironova",
+      "Arpita Vaidya"
      ],
      "a": [
       "Joreen Sun",
@@ -24781,8 +24778,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Eva Danieli"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24792,8 +24789,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Francisco De Leon"
      ],
      "a": [
       "Elliott Albanese",
@@ -24803,8 +24800,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Justin Grimes",
+      "Lance Brown"
      ],
      "a": [
       "Kevin Sun",
@@ -24814,8 +24811,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Varun Gurram"
      ],
      "a": [
       "Leah Stup",
@@ -24825,8 +24822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Ivan Rios"
      ],
      "a": [
       "Maria Valencia",
@@ -24836,8 +24833,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Mironova",
+      "Lance Brown"
      ],
      "a": [
       "Sharon Mathison",
@@ -24847,8 +24844,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Justin Grimes"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24858,8 +24855,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Danielle Mironova",
+      "Arpita Vaidya"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24869,8 +24866,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Natasha De Carvalho"
      ],
      "a": [
       "Maria Valencia",
@@ -24880,8 +24877,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Lance Brown"
      ],
      "a": [
       "Elliott Albanese",
@@ -24891,8 +24888,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Francisco De Leon"
      ],
      "a": [
       "Tristan Lane",
@@ -24902,8 +24899,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Mironova",
+      "Nicholas Estephan"
      ],
      "a": [
       "Maria Valencia",
@@ -24913,8 +24910,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Varun Gurram"
      ],
      "a": [
       "Joreen Sun",
@@ -24924,8 +24921,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arpita Vaidya",
+      "Francisco De Leon"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24935,8 +24932,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Ivan Rios"
      ],
      "a": [
       "Sharon Mathison",
@@ -24946,8 +24943,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Danielle Mironova"
      ],
      "a": [
       "Maria Valencia",
@@ -24957,8 +24954,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Arpita Vaidya"
      ],
      "a": [
       "Paige Rebeccah Smith",
@@ -24968,8 +24965,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Lance Brown"
      ],
      "a": [
       "Kevin Sun",
@@ -24979,8 +24976,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Estephan",
+      "Justin Grimes"
      ],
      "a": [
       "Tristan Lane",
@@ -24990,8 +24987,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Varun Gurram"
      ],
      "a": [
       "Sharon Mathison",
@@ -25001,8 +24998,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Ivan Rios"
      ],
      "a": [
       "Leah Stup",
@@ -25012,8 +25009,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Mironova",
+      "Justin Grimes"
      ],
      "a": [
       "Joreen Sun",
@@ -25023,8 +25020,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Nicholas Estephan"
      ],
      "a": [
       "Maria Valencia",
@@ -25034,8 +25031,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Arpita Vaidya"
      ],
      "a": [
       "Maria Valencia",
@@ -25045,8 +25042,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Eva Danieli"
      ],
      "a": [
       "Leah Stup",
@@ -25056,8 +25053,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francisco De Leon",
+      "Nicholas Estephan"
      ],
      "a": [
       "Kevin Sun",
@@ -25067,8 +25064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Justin Grimes",
+      "Lance Brown"
      ],
      "a": [
       "Elliott Albanese",
@@ -25495,7 +25492,7 @@
      "t": "female",
      "h": [
       "Claudya Elefante",
-      ""
+      "Sarah Ross"
      ],
      "a": [
       "Laura Kwasnoski",
@@ -25560,7 +25557,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sarah Ross",
       "Will Delaney"
      ],
      "a": [
@@ -25583,7 +25580,7 @@
      "t": "female",
      "h": [
       "Claudya Elefante",
-      ""
+      "Sarah Ross"
      ],
      "a": [
       "Laura Kwasnoski",
@@ -25659,7 +25656,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Sarah Ross",
       "Will Delaney"
      ],
      "a": [
@@ -25759,7 +25756,7 @@
      "t": "female",
      "h": [
       "Stephanie George",
-      ""
+      "Sarah Ross"
      ],
      "a": [
       "Caitlyn Suchanic",
@@ -28264,6 +28261,7 @@
  "extraPlayerIds": {
   "Lawanakorn Powad": "05cc6f6a-0431-452b-910c-0006feb23399",
   "Lindsey Loventhal": "06c2eeea-6213-4e27-b45c-e9c0f89420cd",
+  "Debbie Tovitz": "1260ba09-fd19-4cad-95d4-325744e32327",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Natalie Ruiz": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
   "Laura Slane": "17a78a69-329f-4133-8a0d-784c306a57c2",
@@ -28418,7 +28416,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-10T10:17:42.266Z";
+  DATA.meta.asOf = "2026-09-10T15:32:08.664Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

@@ -29978,8 +29978,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -30005,8 +30005,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -30023,8 +30023,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -30039,8 +30039,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -30055,8 +30055,8 @@
     "a": 7,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -30071,8 +30071,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -30087,8 +30087,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -30103,8 +30103,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -30119,8 +30119,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -30135,8 +30135,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -30151,8 +30151,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -30167,8 +30167,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -30183,8 +30183,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro Aces"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

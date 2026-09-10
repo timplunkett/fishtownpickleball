@@ -15269,6 +15269,13 @@ window.DUPR_AUDIT = {
    "name": "Sarah Ross",
    "playerId": "261d14c5-288e-4349-a3ed-50bad4b620c1",
    "team": "Dill Dinkers Hatboro Aces",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Sarah Ross",
+   "playerId": "261d14c5-288e-4349-a3ed-50bad4b620c1",
+   "team": "Dill Dinkers Hatboro Aces",
    "slug": "6619816f",
    "gender": "Female"
   },
