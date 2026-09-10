@@ -24763,7 +24763,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Joseph Albanese"
      ]
     },
@@ -24829,7 +24829,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Joseph Albanese"
      ]
     },
@@ -24873,7 +24873,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Leah Stup"
      ]
     },
@@ -24906,7 +24906,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Noah Ludwigsen"
      ]
     },
@@ -24950,7 +24950,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Sharon Mathison"
      ]
     },
@@ -25027,7 +25027,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Noah Ludwigsen"
      ]
     },
@@ -25038,7 +25038,7 @@
       ""
      ],
      "a": [
-      "",
+      "Maria Valencia",
       "Paige Rebeccah Smith"
      ]
     },
@@ -25736,8 +25736,8 @@
     {
      "t": "mixed",
      "h": [
-      "Paige Metzler",
-      "Tejas Goculdas"
+      "Melody Grohotolski",
+      "Anushk Gupta"
      ],
      "a": [
       "Sarah Landis",
@@ -25747,8 +25747,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      "Anushk Gupta"
+      "Paige Metzler",
+      "Tejas Goculdas"
      ],
      "a": [
       "Carly Cebek",
@@ -28418,7 +28418,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-10T02:13:23.396Z";
+  DATA.meta.asOf = "2026-09-10T10:17:42.266Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
