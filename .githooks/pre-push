@@ -20,6 +20,25 @@ remote_name="$1"
 z40=0000000000000000000000000000000000000000
 changed=""
 
+# cpl/ mixes compiled output with a handful of hand-written pages (app.js,
+# home.js, styles.css, home.css, and the three standalone index.html /
+# archive.js files). Every one of those hand-written pages lives outside any
+# compiled/ directory, so "changed something a fresh compile would touch" is:
+# _cpl/, anything under a compiled/ directory anywhere in cpl/ (the glob below
+# matches at any depth — cpl/compiled/, cpl/<league>/compiled/,
+# cpl/<league>/<season>/compiled/, cpl/archive/compiled/,
+# cpl/dupr-audit/compiled/ — without naming each one), or the two kinds of
+# index.html that ARE generated but stay outside compiled/ on purpose (moving
+# them would change their real, bookmarked URL): the league redirect stub and
+# the season dashboard. See README.md "Generated paths — never hand-edit".
+#
+# Built with `set --` rather than a plain variable: the glob has to reach git
+# as a literal pathspec for git itself to expand, not get expanded by this
+# shell against whatever happens to be on disk first.
+set -- _cpl/ 'cpl/*compiled/*' \
+  cpl/local/index.html cpl/travel/index.html \
+  'cpl/local/*/index.html' 'cpl/travel/*/index.html'
+
 while read -r local_ref local_sha remote_ref remote_sha; do
   [ "$local_sha" = "$z40" ] && continue # deleting a ref — nothing to check
 
@@ -33,7 +52,7 @@ while read -r local_ref local_sha remote_ref remote_sha; do
     range="$remote_sha..$local_sha"
   fi
 
-  files=$(git diff --name-only "$range" -- _cpl/ cpl/ 2>/dev/null) || files=""
+  files=$(git diff --name-only "$range" -- "$@" 2>/dev/null) || files=""
   [ -n "$files" ] && changed="yes"
 done
 
@@ -41,7 +60,7 @@ if [ -z "$changed" ]; then
   exit 0
 fi
 
-echo "pre-push: _cpl/ or cpl/ changed in this push — recompiling to check for drift..."
+echo "pre-push: _cpl/ or generated cpl/ output changed in this push — recompiling to check for drift..."
 
 if ! npm run --silent compile; then
   echo "" >&2

@@ -249,7 +249,10 @@ test('detail entries exist for players with history and are omitted otherwise', 
     assert.equal(player.log, undefined);
     assert.equal(player.games, undefined);
   }
-  assert.equal(data.meta.detailFile, 'detail-testslug.js');
+  // compileDivision always writes into a compiled/ subdirectory in
+  // production, so the meta field it stores always carries that prefix
+  // regardless of where this test's own tmp fixture happens to put the file.
+  assert.equal(data.meta.detailFile, 'compiled/detail-testslug.js');
 });
 
 // Posted lineups for an unplayed matchup drive the projections on a team's

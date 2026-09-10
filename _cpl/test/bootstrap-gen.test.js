@@ -103,19 +103,20 @@ async function runRuntime({
 }
 
 // Every dashboard load pulls the division's own DUPR shard alongside its data.
-// The shared assets are two levels up now that a dashboard lives inside a season
+// Both live in compiled/, a sibling of index.html one level down. The shared
+// assets are two levels up now that a dashboard lives inside a season
 // directory rather than directly under its league.
-const DUPR = (slug) => `dupr-${slug}.js`;
+const DUPR = (slug) => `compiled/dupr-${slug}.js`;
 const APP = '../../app.js';
 
 test('every division loads its slug-prefixed data file, landing division included', async () => {
   assert.deepEqual(
     await runRuntime({ search: '?d=ef56ab78', landingSlug: 'ab12cd34', divisions: DIVISIONS }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), APP],
   );
   assert.deepEqual(
     await runRuntime({ search: '?d=ab12cd34', landingSlug: 'ab12cd34', divisions: DIVISIONS }),
-    ['data-ab12cd34.js', DUPR('ab12cd34'), APP],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34'), APP],
   );
 });
 
@@ -129,14 +130,14 @@ test('the runtime publishes this page and its season\'s divisions for app.js', a
 test('no ?d= loads the landing division', async () => {
   assert.deepEqual(
     await runRuntime({ search: '', landingSlug: 'ef56ab78', divisions: DIVISIONS }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), APP],
   );
 });
 
 test('an unknown ?d= falls straight to the landing division', async () => {
   assert.deepEqual(
     await runRuntime({ search: '?d=nope', landingSlug: 'ab12cd34', divisions: DIVISIONS }),
-    ['data-ab12cd34.js', DUPR('ab12cd34'), APP],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34'), APP],
   );
 });
 
@@ -148,7 +149,7 @@ test('an unknown ?d= falls straight to the landing division', async () => {
 test('a ?d= from another season falls back rather than 404ing', async () => {
   assert.deepEqual(
     await runRuntime({ search: '?d=99999999', landingSlug: 'ab12cd34', divisions: DIVISIONS }),
-    ['data-ab12cd34.js', DUPR('ab12cd34'), APP],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34'), APP],
   );
 });
 
@@ -163,10 +164,10 @@ test('a known division with no compiled data file says so instead of serving ano
       search: '?d=ef56ab78',
       landingSlug: 'ab12cd34',
       divisions: DIVISIONS,
-      missing: ['data-ef56ab78.js'],
+      missing: ['compiled/data-ef56ab78.js'],
       view,
     }),
-    ['data-ef56ab78.js', DUPR('ef56ab78')],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78')],
   );
   assert.ok(!view.html.includes('data-ab12cd34'), 'another division was loaded');
   assert.match(view.html, /isn&#39;t available yet/);
@@ -182,10 +183,10 @@ test('a missing landing data file does not retry itself, and never starts the ap
       search: '',
       landingSlug: 'ab12cd34',
       divisions: DIVISIONS,
-      missing: ['data-ab12cd34.js'],
+      missing: ['compiled/data-ab12cd34.js'],
       view,
     }),
-    ['data-ab12cd34.js', DUPR('ab12cd34')],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34')],
   );
   assert.match(view.html, /load-error/);
 });
@@ -200,14 +201,14 @@ test('a bootstrap with no landing slug falls through to the catalog\'s', async (
       divisions: DIVISIONS,
       catalog: catalogOf(DIVISIONS, { landingSlug: 'ef56ab78' }),
     }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), APP],
   );
 });
 
 test('with neither landing slug the first division of the season loads', async () => {
   assert.deepEqual(
     await runRuntime({ search: '', landingSlug: undefined, divisions: DIVISIONS }),
-    ['data-ab12cd34.js', DUPR('ab12cd34'), APP],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34'), APP],
   );
 });
 
@@ -224,7 +225,7 @@ test('a missing catalog still renders the requested division', async () => {
       catalog: null,
       view,
     }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), APP],
   );
   assert.equal(view.divisions.length, 0);
 });
@@ -232,7 +233,7 @@ test('a missing catalog still renders the requested division', async () => {
 test('a missing catalog with no ?d= falls back to the bootstrap\'s landing division', async () => {
   assert.deepEqual(
     await runRuntime({ search: '', landingSlug: 'ab12cd34', divisions: DIVISIONS, catalog: null }),
-    ['data-ab12cd34.js', DUPR('ab12cd34'), APP],
+    ['compiled/data-ab12cd34.js', DUPR('ab12cd34'), APP],
   );
 });
 
@@ -257,7 +258,7 @@ test('a missing DUPR shard falls back to the league-wide table', async () => {
       divisions: DIVISIONS,
       missing: [DUPR('ef56ab78')],
     }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), '../../dupr-ratings.js', APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), '../../compiled/dupr-ratings.js', APP],
   );
 });
 
@@ -271,10 +272,10 @@ test('no DUPR table at all still renders the dashboard, but not silently', async
       search: '?d=ef56ab78',
       landingSlug: 'ab12cd34',
       divisions: DIVISIONS,
-      missing: [DUPR('ef56ab78'), '../../dupr-ratings.js'],
+      missing: [DUPR('ef56ab78'), '../../compiled/dupr-ratings.js'],
       view,
     }),
-    ['data-ef56ab78.js', DUPR('ef56ab78'), '../../dupr-ratings.js', APP],
+    ['compiled/data-ef56ab78.js', DUPR('ef56ab78'), '../../compiled/dupr-ratings.js', APP],
   );
   assert.equal(view.duprUnavailable, true);
   assert.equal(view.warnings.length, 1);

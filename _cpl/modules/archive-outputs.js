@@ -1,10 +1,10 @@
-// cpl/archive/data.js — one row per archived division, with who finished on the
-// podium.
+// cpl/archive/compiled/data.js — one row per archived division, with who
+// finished on the podium.
 //
-// Kept out of cpl/catalog.js on purpose. The catalog loads on every page of the
-// site and needs to stay small; podium rows are read by exactly one page and
-// grow with every season that finishes. Same split, and same reasoning, as
-// cpl/dupr-audit/data.js.
+// Kept out of cpl/compiled/catalog.js on purpose. The catalog loads on every
+// page of the site and needs to stay small; podium rows are read by exactly
+// one page and grow with every season that finishes. Same split, and same
+// reasoning, as cpl/dupr-audit/compiled/data.js.
 //
 // Built by reading the compiled data shards rather than the cached API JSON,
 // because standings are a computed thing: the shard is where the win/loss
@@ -143,13 +143,13 @@ function podiumOf(data) {
 
 // One row per division of every archived season, newest season first, in the
 // catalog's own division order within each.
-function buildArchiveRows(rootDir, { eachLeagueSeason, seasonOutDir, sortDivisionsForLeague }) {
+function buildArchiveRows(rootDir, { eachLeagueSeason, seasonCompiledDir, sortDivisionsForLeague }) {
   const rows = [];
   for (const { league, season, divisions } of eachLeagueSeason()) {
     if (season.status === 'current') continue;
-    const outDir = seasonOutDir(rootDir, league, season.slug);
+    const compiledDir = seasonCompiledDir(rootDir, league, season.slug);
     for (const division of sortDivisionsForLeague(league, divisions)) {
-      const data = readCompiledData(path.join(outDir, `data-${division.slug}.js`));
+      const data = readCompiledData(path.join(compiledDir, `data-${division.slug}.js`));
       if (!data) continue;
       const podium = podiumOf(data);
       rows.push({
@@ -178,7 +178,7 @@ function buildArchiveRows(rootDir, { eachLeagueSeason, seasonOutDir, sortDivisio
 
 function writeArchiveData(rootDir, helpers) {
   const rows = buildArchiveRows(rootDir, helpers);
-  const outDir = path.join(rootDir, 'cpl', 'archive');
+  const outDir = path.join(rootDir, 'cpl', 'archive', 'compiled');
   fs.mkdirSync(outDir, { recursive: true });
   // levels=2: one row per line, so a season being archived shows up as the
   // handful of added lines it actually is.

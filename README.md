@@ -66,9 +66,10 @@ Both leagues are scoped a season at a time, on disk and in the URL:
 ```
 _cpl/data-<league>/seasons.json          which seasons exist
 _cpl/data-<league>/<season>/             cached API JSON for one season
-cpl/<league>/<season>/                   its compiled dashboards
+cpl/<league>/<season>/                   index.html — the real, bookmarked URL
+cpl/<league>/<season>/compiled/          its data, detail and DUPR shards
 cpl/<league>/                            a redirect stub, not a dashboard
-cpl/catalog.js                           every league → season → division
+cpl/compiled/catalog.js                  every league → season → division
 ```
 
 `/cpl/` is organized by **status, not by league**: two boxes, *Now playing* and
@@ -84,10 +85,10 @@ division is a bare bracket, a local one is prefixed with its club. When nothing
 is live at all, the box says so.
 
 `/cpl/archive/` is a table per finished season — division, 🥇/🥈/🥉, and what
-decided it. It reads `cpl/archive/data.js`, which is generated alongside the
-catalog but kept out of it: those rows are read by one page and grow with every
-season that finishes, while `catalog.js` loads everywhere. Same split as
-`cpl/dupr-audit/data.js`.
+decided it. It reads `cpl/archive/compiled/data.js`, which is generated
+alongside the catalog but kept out of it: those rows are read by one page and
+grow with every season that finishes, while `catalog.js` loads everywhere.
+Same split as `cpl/dupr-audit/compiled/data.js`.
 
 ### Working out who won
 
@@ -205,25 +206,46 @@ really are unchanged.
 
 ## Generated paths — never hand-edit
 
-These are written by the pipeline. Editing them by hand works exactly until the
-next run, which overwrites your change without a word:
+A `compiled/` directory sits beside every page that reads generated output —
+`cpl/compiled/`, next to the homepage `cpl/index.html`; `cpl/<league>/compiled/`,
+next to that league's redirect stub; `cpl/<league>/<season>/compiled/`, next to
+that season's dashboard; `cpl/archive/compiled/` and `cpl/dupr-audit/compiled/`,
+next to those two pages. Anything inside one of those is written by the
+pipeline. Editing it by hand works exactly until the next run, which overwrites
+your change without a word:
 
-- `cpl/local/**` and `cpl/travel/**` — everything under them: the per-division
-  `data-*.js`, `detail-*.js`, `dupr-*.js` shards, each season's `bootstrap.js`
-  and `index.html`, and each league's `index.html` + `redirect.js` stub
-- `cpl/shared.js` — a **verbatim copy of `_cpl/modules/shared.js`**, made on
-  every compile. Edit the module in `_cpl/modules/`, never the copy. (ESLint is
-  configured to ignore it for this reason.)
-- `cpl/bootstrap-runtime.js` — generated from `_cpl/modules/bootstrap-gen.js`
-- `cpl/catalog.js` — the league/season/division index every page reads
-- `cpl/player-index.js` and `cpl/dupr-ratings.js`
-- `cpl/dupr-audit/data.js`
+- `cpl/<league>/<season>/compiled/` — the per-division `data-*.js`,
+  `detail-*.js` and `dupr-*.js` shards, and that season's `bootstrap.js`
+- `cpl/<league>/compiled/redirect.js` — the redirect stub's own script; the
+  `index.html` beside it is the real `/cpl/<league>/` URL and is generated too,
+  but stays directly in `cpl/<league>/`, not in `compiled/`, because moving it
+  would change that URL
+- `cpl/compiled/shared.js` — a **verbatim copy of `_cpl/modules/shared.js`**,
+  made on every compile. Edit the module in `_cpl/modules/`, never the copy.
+  (ESLint is configured to ignore it for this reason.)
+- `cpl/compiled/bootstrap-runtime.js` — generated from
+  `_cpl/modules/bootstrap-gen.js`
+- `cpl/compiled/catalog.js` — the league/season/division index every page reads
+- `cpl/compiled/player-index.js`
+- `cpl/archive/compiled/data.js` and `cpl/dupr-audit/compiled/data.js`
+- `cpl/compiled/dupr-ratings.js` — the one file in `compiled/` that
+  `npm run compile` doesn't write. `npm run dupr:fetch` does; compile only
+  *reads* it, to derive the per-division shards above. It lives in
+  `compiled/` anyway, alongside everything else `npm run compile` can't
+  reproduce on its own — the distinction that matters day to day is "don't
+  hand-edit this," not "which command happens to write it."
 - `_cpl/data/**`, `_cpl/data-local/**`, `_cpl/data-travel/**` — the cached raw
   API responses, including `_cpl/data/global_players.json`
 
+Each season's `index.html` is the one exception worth restating: it's real,
+generated output (rewritten on every compile) but lives directly in
+`cpl/<league>/<season>/`, a level above `compiled/` — it's the actual
+`/cpl/<league>/<season>/` URL, so unlike everything above, moving it would
+break real links.
+
 The dashboard markup is **not** generated: `_cpl/templates/local.html` and
 `_cpl/templates/travel.html` are the two hand-written shells, copied verbatim
-into every season directory on compile. Edit those, never the copies.
+into every season's `index.html` on compile. Edit those, never the copies.
 
 **Link styling** is defined once, in `cpl/styles.css`, which all three page
 types load: a link is accent and underlined, and `a`, `.app-link`, `.pname` and
@@ -233,8 +255,9 @@ text link — `.back-link` is chrome labelling the way up a level, and
 background. A test asserts the shared rule still covers all four selectors.
 
 Neither are the three standalone pages — `cpl/index.html` + `cpl/home.js`,
-`cpl/archive/` and `cpl/dupr-audit/index.html`. They read the generated data
-files at runtime rather than being generated themselves.
+`cpl/archive/index.html` + `cpl/archive/archive.js`, and
+`cpl/dupr-audit/index.html`. They read the generated data files at runtime
+(from their own `compiled/`) rather than being generated themselves.
 
 ## Automation
 
@@ -267,17 +290,24 @@ Run all four before pushing; CI runs the first three.
 
 A pre-push hook (`.githooks/pre-push`) also runs `npm run compile` and
 checks `cpl/` for drift automatically whenever a push includes commits that
-touch `_cpl/` or `cpl/` — the same check CI does, just before the push
-instead of after. It runs once per push rather than once per commit, so a
-string of WIP commits touching `_cpl/`/`cpl/` isn't slowed down until you
-actually push. It's enabled by the `prepare` npm script, so it activates on
-`npm install`; to turn it on without reinstalling, run
-`git config core.hooksPath .githooks` once. Pushes with nothing under
-`_cpl/`/`cpl/` in their commit range are left alone.
+touch `_cpl/` or the generated part of `cpl/` — the same check CI does, just
+before the push instead of after. It runs once per push rather than once per
+commit, so a string of WIP commits isn't slowed down until you actually push.
+It's enabled by the `prepare` npm script, so it activates on `npm install`; to
+turn it on without reinstalling, run `git config core.hooksPath .githooks`
+once.
+
+"The generated part of `cpl/`" means anything under a `compiled/` directory,
+plus the two league/season `index.html` files that are generated but stay
+outside `compiled/` (see "Generated paths" above) — not the hand-written
+pages (`cpl/app.js`, `cpl/home.js`, `cpl/styles.css`, `cpl/home.css`,
+`cpl/index.html`, `cpl/archive/index.html`, `cpl/archive/archive.js`,
+`cpl/dupr-audit/index.html`). A push that only touches those, or nothing
+under `_cpl/`/`cpl/` at all, is left alone.
 
 ## Runbook
 
-**Re-run a single division.** Get the slug from `cpl/catalog.js` or from
+**Re-run a single division.** Get the slug from `cpl/compiled/catalog.js` or from
 `_cpl/data-<league>/<season>/`, then:
 
 ```sh

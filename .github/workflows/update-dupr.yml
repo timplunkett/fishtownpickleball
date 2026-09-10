@@ -42,7 +42,7 @@ jobs:
           # The per-division shards are what dashboard pages actually load, so
           # leaving them out here would publish a ratings update that no
           # dashboard ever sees.
-          git add _cpl/data/global_players.json cpl/dupr-ratings.js 'cpl/*/dupr-*.js'
+          git add _cpl/data/global_players.json cpl/compiled/dupr-ratings.js 'cpl/*/compiled/dupr-*.js'
           if git diff-index --quiet HEAD; then
             echo "No changes to commit."
             exit 0

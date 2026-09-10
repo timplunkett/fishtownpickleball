@@ -62,20 +62,25 @@ function readRoster(playersPath) {
 function writeDuprShards(rootDir, ratings) {
   // Required here rather than at the top: catalog.js pulls in the season and
   // division helpers, and this module is loaded by the DUPR refresh script too.
-  const { eachLeagueSeason, seasonCacheDir, seasonOutDir } = require('./catalog');
+  const { eachLeagueSeason, seasonCacheDir, seasonOutDir, seasonCompiledDir } = require('./catalog');
   let written = 0;
 
   for (const { league, season, divisions } of eachLeagueSeason()) {
     const dataDir = seasonCacheDir(league, season.slug);
+    // Gate on the season directory itself (where index.html lives) — that's
+    // what "this season has been compiled at least once" means. The shard
+    // then goes one level deeper, beside the data files it rides along with.
     const outDir = seasonOutDir(rootDir, league, season.slug);
     if (!fs.existsSync(outDir)) continue;
+    const compiledDir = seasonCompiledDir(rootDir, league, season.slug);
+    fs.mkdirSync(compiledDir, { recursive: true });
 
     for (const division of divisions) {
       const playersPath = path.join(dataDir, division.slug, 'players.json');
       if (!fs.existsSync(playersPath)) continue;
       const shard = buildDuprShard(readRoster(playersPath), ratings);
       fs.writeFileSync(
-        path.join(outDir, shardFileName(division.slug)),
+        path.join(compiledDir, shardFileName(division.slug)),
         `window.DUPR_RATINGS = ${expandJson(shard)};\n`,
       );
       written++;

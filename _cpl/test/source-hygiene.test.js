@@ -23,8 +23,8 @@ function filesIn(relative, filter = () => true) {
 const SOURCES = [
   'cpl/app.js',
   'cpl/home.js',
-  'cpl/shared.js',
-  'cpl/bootstrap-runtime.js',
+  'cpl/compiled/shared.js',
+  'cpl/compiled/bootstrap-runtime.js',
   'cpl/styles.css',
   'cpl/home.css',
   'cpl/index.html',

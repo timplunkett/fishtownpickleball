@@ -17,7 +17,7 @@ const ROOT = path.join(__dirname, '../..');
 
 function readAudit() {
   const context = { window: {} };
-  vm.runInNewContext(fs.readFileSync(path.join(ROOT, 'cpl/dupr-audit/data.js'), 'utf8'), context);
+  vm.runInNewContext(fs.readFileSync(path.join(ROOT, 'cpl/dupr-audit/compiled/data.js'), 'utf8'), context);
   return context.window.DUPR_AUDIT;
 }
 
