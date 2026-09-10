@@ -1,5 +1,6 @@
 // The "Also plays in" row on a player modal — the one place a dashboard reads
-// the cross-league finder index (cpl/player-index.js) and the one place it
+// the cross-league finder index (cpl/compiled/player-index.js) and the one
+// place it
 // links across a league's own redirect stub. Both are reached through a
 // relative path hand-written in cpl/app.js, and both silently degrade to a
 // missing row rather than an error when the path is wrong: loadScriptOnce's
@@ -31,8 +32,12 @@ const ROOT_PATH = (APP_SOURCE.match(/const rootPath = '([^']+)';/) || [])[1];
 test('loadPlayerIndexScript points at a real player-index.js from every compiled division', () => {
   assert.ok(PLAYER_INDEX_PATH, 'could not find the player-index.js path in app.js — did loadPlayerIndexScript change?');
   compiledDivisions().forEach((division) => {
-    const divisionDir = path.dirname(division.file);
-    const resolved = path.resolve(divisionDir, PLAYER_INDEX_PATH);
+    // Resolved from the season's index.html, not from division.file's own
+    // directory — the data file moved a level deeper into compiled/ when that
+    // split happened, but the browser still resolves app.js's relative path
+    // against the page it's running on, not against the data file.
+    const pageDir = path.join(CPL, division.league, division.season);
+    const resolved = path.resolve(pageDir, PLAYER_INDEX_PATH);
     assert.ok(
       fs.existsSync(resolved),
       `${division.label}: '${PLAYER_INDEX_PATH}' resolves to ${resolved}, which does not exist — ` +
@@ -44,9 +49,11 @@ test('loadPlayerIndexScript points at a real player-index.js from every compiled
 test('renderOtherLeaguesSummary\'s rootPath reaches both leagues\' redirect stubs from every compiled division', () => {
   assert.ok(ROOT_PATH, 'could not find the rootPath constant in app.js — did renderOtherLeaguesSummary change?');
   compiledDivisions().forEach((division) => {
-    const divisionDir = path.dirname(division.file);
+    // Same reasoning as the test above: resolve from the page, not from
+    // wherever division.file itself happens to sit.
+    const pageDir = path.join(CPL, division.league, division.season);
     ['local', 'travel'].forEach((league) => {
-      const resolved = path.resolve(divisionDir, ROOT_PATH, league, 'index.html');
+      const resolved = path.resolve(pageDir, ROOT_PATH, league, 'index.html');
       assert.ok(
         fs.existsSync(resolved),
         `${division.label}: a finder link into ${league} resolves to ${resolved}, which has no redirect stub`,
@@ -66,8 +73,8 @@ function findCrossDivisionPlayer() {
   const context = { console };
   context.window = context;
   context.globalThis = context;
-  vm.runInNewContext(fs.readFileSync(path.join(CPL, 'shared.js'), 'utf8'), context);
-  const playerIndexFile = path.join(CPL, 'player-index.js');
+  vm.runInNewContext(fs.readFileSync(path.join(CPL, 'compiled', 'shared.js'), 'utf8'), context);
+  const playerIndexFile = path.join(CPL, 'compiled', 'player-index.js');
   if (!fs.existsSync(playerIndexFile)) return null;
   vm.runInNewContext(fs.readFileSync(playerIndexFile, 'utf8'), context);
   const index = context.CPLShared.getPlayerIndex();
@@ -145,7 +152,10 @@ function makeToggle(id, attribute, views) {
 // production 404s here too (the file just isn't found at the resolved
 // location), rather than being quietly handed the right file anyway.
 function runApp(division) {
-  const divisionDir = path.dirname(division.file);
+  // The page's own directory, not division.file's — the data file lives a
+  // level deeper now, in compiled/, but app.js's relative script tags still
+  // resolve against the page (index.html) they're running on.
+  const divisionDir = path.join(CPL, division.league, division.season);
   const elements = new Map();
   const toggles = {
     'standings-view': makeToggle('standings-view', 'view', ['cards', 'table']),
@@ -210,7 +220,7 @@ function runApp(division) {
   context.window.addEventListener = () => {};
 
   const load = (file) => vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
-  load(path.join(CPL, 'shared.js'));
+  load(path.join(CPL, 'compiled', 'shared.js'));
   load(division.file);
   context.DATA = context.window.DATA;
   const meta = context.DATA.meta || {};

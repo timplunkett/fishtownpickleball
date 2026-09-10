@@ -73,7 +73,7 @@ const RESULT_CLASS = Object.freeze({
   slightLoss: 'res-slight-L',
   neutral: 'mut',
 });
-// Shared client utilities (cpl/shared.js loads before this file).
+// Shared client utilities (cpl/compiled/shared.js loads before this file).
 const {
   escapeHtml, slugify, formatDuprRating, formatSignedValue, getPlayerIndex, buildDuprRatingIndex,
   buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge,
@@ -538,10 +538,10 @@ function loadPlayerIndexScript() {
       window.PLAYER_INDEX_TABLES || window.PLAYER_INDEX_PACKED || window.PLAYER_INDEX
         ? Promise.resolve()
         // Two levels up: a dashboard lives at cpl/<league>/<season>/, and
-        // player-index.js sits at cpl/. A single '../' here 404s silently
-        // (loadScriptOnce degrades to a missing row rather than an error) —
-        // it was right before seasons added the <season> directory.
-        : loadScriptOnce('../../player-index.js')
+        // player-index.js sits at cpl/compiled/. A single '../' here 404s
+        // silently (loadScriptOnce degrades to a missing row rather than an
+        // error) — it was right before seasons added the <season> directory.
+        : loadScriptOnce('../../compiled/player-index.js')
     ).then(refreshOtherLeaguesRow);
   }
   return playerIndexPromise;
@@ -1194,8 +1194,8 @@ function applyLocationFragment({ smooth = false } = {}) {
 }
 
 // Where this page is: which league, which season. bootstrap.js sets it, and the
-// catalog (cpl/catalog.js) is what everything else about the other leagues and
-// seasons is read from.
+// catalog (cpl/compiled/catalog.js) is what everything else about the other
+// leagues and seasons is read from.
 //
 // The dataset carries its own season too (DATA.meta.seasonSlug), and it is the
 // fallback here: a data file that has been saved or linked from elsewhere still
@@ -2507,7 +2507,7 @@ function renderOtherLeaguesSummary(player) {
   });
 
   // Two levels up to cpl/, then into the other league's redirect stub — see the
-  // matching note on loadPlayerIndexScript's '../../player-index.js'.
+  // matching note on loadPlayerIndexScript's '../../compiled/player-index.js'.
   const rootPath = '../../';
   const rows = sorted.map((entry) => {
     const badgeClass = entry.league === 'travel' ? 'travel' : 'local';

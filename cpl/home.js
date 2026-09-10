@@ -194,8 +194,8 @@
       // The DUPR table only decorates a result with a rating, so its failure is
       // survivable and unremarked; the index is the search itself.
       finderDataPromise = Promise.all([
-        loadScript('player-index.js'),
-        loadScript('dupr-ratings.js'),
+        loadScript('compiled/player-index.js'),
+        loadScript('compiled/dupr-ratings.js'),
       ]).then(function (loaded) {
         finderIndexFailed = !loaded[0];
       });

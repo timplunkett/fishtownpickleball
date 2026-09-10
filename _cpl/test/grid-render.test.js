@@ -98,7 +98,7 @@ function runApp(dataFile, mutate) {
 
   const load = (file) => vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
 
-  load(path.join(CPL, 'shared.js'));
+  load(path.join(CPL, 'compiled', 'shared.js'));
   load(dataFile);
   // Lets a test bend the data before app.js reads it, for shapes the compiler no
   // longer emits but a stale cached data-*.js still can.

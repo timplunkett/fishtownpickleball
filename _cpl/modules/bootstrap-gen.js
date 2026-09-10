@@ -1,11 +1,15 @@
 // Generators for the client bootstrap files:
 //
-//   cpl/<league>/<season>/bootstrap.js — names which league and season a page is
-//   cpl/bootstrap-runtime.js           — the shared loader they all call into
-//   cpl/<league>/index.html            — the redirect stub in front of a league
+//   cpl/<league>/<season>/compiled/bootstrap.js — names which league and season
+//                                                  a page is
+//   cpl/compiled/bootstrap-runtime.js           — the shared loader they all
+//                                                  call into
+//   cpl/<league>/index.html                     — the redirect stub in front
+//                                                  of a league
 //
 // The division list used to be baked into a per-league bootstrap.js. It now
-// lives in cpl/catalog.js (see modules/catalog.js), because with seasons in play
+// lives in cpl/compiled/catalog.js (see modules/catalog.js), because with
+// seasons in play
 // a page needs three lists — its own season, the other league's same season,
 // and its own league's other seasons — and discovering which files hold them is
 // itself a round trip. bootstrap.js is what is left once the lists move out:
@@ -80,15 +84,15 @@ function buildBootstrapRuntimeSource() {
     }
   }
 
-  // Every division's data lives at data-<slug>.js, inside its own season's
-  // directory.
+  // Every division's data lives at compiled/data-<slug>.js, inside its own
+  // season's directory — a sibling of index.html, one level down.
   //
   // A 404 here used to fall back to the landing division's file, which rendered
   // another division's standings under a URL naming this one — confidently wrong
   // data, and worse than saying nothing. A division listed in the catalog but
   // not yet compiled now says so.
   function dataFileFor(slug) {
-    return slug ? \`data-\${slug}.js\` : '';
+    return slug ? \`compiled/data-\${slug}.js\` : '';
   }
 
   // Each division also ships its own slice of the DUPR table, a fraction the
@@ -97,7 +101,7 @@ function buildBootstrapRuntimeSource() {
   // correct either way, just heavier. Unlike the dataset that is a real
   // fallback — same players, same ratings — so it stays.
   function duprFileFor(slug) {
-    return slug ? \`dupr-\${slug}.js\` : '';
+    return slug ? \`compiled/dupr-\${slug}.js\` : '';
   }
 
   // app.js reads both the dataset and the DUPR table as it initialises, so it
@@ -112,7 +116,7 @@ function buildBootstrapRuntimeSource() {
   function loadDashboard(slug) {
     Promise.all([
       loadScript(dataFileFor(slug)),
-      loadWithFallback(duprFileFor(slug), '../../dupr-ratings.js'),
+      loadWithFallback(duprFileFor(slug), '../../compiled/dupr-ratings.js'),
     ]).then((loaded) => {
       if (!loaded[1]) {
         window.CPL_DUPR_UNAVAILABLE = true;
@@ -260,8 +264,8 @@ function buildLeagueRedirectHtml({ label }) {
   <p class="load-error" id="redirect-message" role="status">Opening the current season…</p>
   <p><a href="../">← All leagues and seasons</a></p>
 </div>
-<script src="../catalog.js" defer></script>
-<script src="redirect.js" defer></script>
+<script src="../compiled/catalog.js" defer></script>
+<script src="compiled/redirect.js" defer></script>
 </body>
 </html>
 `;

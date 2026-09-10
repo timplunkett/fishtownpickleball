@@ -10,6 +10,7 @@ const {
   readCompiledRatings,
   readLeagueSeasons,
   seasonCacheDir,
+  seasonCompiledDir,
   seasonOutDir,
   writeCatalog,
 } = require('./catalog');
@@ -497,7 +498,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
         hasPlayoffs: false,
         typicalDay: computeTypicalDay(matchups),
-        detailFile: path.basename(detailOutPath),
+        // detailOutPath is inside compiledDir, a sibling of index.html — the
+        // page app.js runs on — so the value it needs is that relative
+        // fragment, not the bare filename basename() alone would give.
+        detailFile: `compiled/${path.basename(detailOutPath)}`,
         ...(divisionMeta || {}),
       },
     };
@@ -837,7 +841,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       ratingHistoryWeeks, divisionSlug: slug,
       hasPlayoffs: playoffs.length > 0,
       typicalDay,
-      detailFile: path.basename(detailOutPath),
+      // detailOutPath is inside compiledDir, a sibling of index.html — the
+      // page app.js runs on — so the value it needs is that relative
+      // fragment, not the bare filename basename() alone would give.
+      detailFile: `compiled/${path.basename(detailOutPath)}`,
       ...(divisionMeta || {}),
     },
   };
@@ -863,7 +870,9 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 function compileSeason(league, season, { divisionSlugs = null } = {}) {
   const { divisionsFile } = getLeagueDataConfig(league);
   const dataDir = seasonCacheDir(league, season.slug);
-  const cplDir = seasonOutDir(path.join(__dirname, '../..'), league, season.slug);
+  const rootDir = path.join(__dirname, '../..');
+  const cplDir = seasonOutDir(rootDir, league, season.slug);
+  const compiledDir = seasonCompiledDir(rootDir, league, season.slug);
 
   const divisionsPath = path.join(dataDir, divisionsFile);
   if (!fs.existsSync(divisionsPath)) {
@@ -872,8 +881,12 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
   const allDivisions = JSON.parse(fs.readFileSync(divisionsPath, 'utf8'));
   const sortedDivisions = sortDivisionsForLeague(league, allDivisions);
 
-  if (!fs.existsSync(cplDir)) {
-    fs.mkdirSync(cplDir, { recursive: true });
+  // index.html lives directly in cplDir — it's the real, bookmarked
+  // /cpl/<league>/<season>/ URL. Everything compile writes alongside it
+  // (bootstrap.js, data-<slug>.js, detail-<slug>.js, DUPR shards) goes one
+  // level deeper, in compiledDir, so the two are easy to tell apart on sight.
+  if (!fs.existsSync(compiledDir)) {
+    fs.mkdirSync(compiledDir, { recursive: true });
   }
 
   const divisionsToCompile = filterDivisions(allDivisions, { divisionSlugs });
@@ -899,7 +912,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
       const singleGender = isGenderApiBase(div.apiBase)
         ? travelDivisionGender(div.divisionName)
         : null;
-      const { asOf, ratingByPid } = compileDivision(div.slug, divDataDir, path.join(cplDir, outFile), path.join(cplDir, detailFile), {
+      const { asOf, ratingByPid } = compileDivision(div.slug, divDataDir, path.join(compiledDir, outFile), path.join(compiledDir, detailFile), {
         clubName: div.clubName || '',
         divisionName: div.divisionName,
         leagueType: league,
@@ -932,7 +945,7 @@ function compileSeason(league, season, { divisionSlugs = null } = {}) {
   // change to the dashboard markup reaches every season including the archived
   // ones — which is the point: they are served by the same app.js.
   fs.writeFileSync(path.join(cplDir, 'index.html'), readDashboardTemplate(league));
-  fs.writeFileSync(path.join(cplDir, 'bootstrap.js'), buildBootstrapSource({
+  fs.writeFileSync(path.join(compiledDir, 'bootstrap.js'), buildBootstrapSource({
     league,
     season: season.slug,
     landingSlug: getLandingSlug(league, sortedDivisions),
@@ -962,11 +975,13 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
   console.log(`\n--- Phase 2: Processing Stats & Building View (${league}) ---`);
   const rootDir = path.join(__dirname, '../..');
 
-  const runtimePath = path.join(rootDir, 'cpl', 'bootstrap-runtime.js');
+  const rootCompiledDir = path.join(rootDir, 'cpl', 'compiled');
+  fs.mkdirSync(rootCompiledDir, { recursive: true });
+  const runtimePath = path.join(rootCompiledDir, 'bootstrap-runtime.js');
   fs.writeFileSync(runtimePath, buildBootstrapRuntimeSource());
   // The shared utils are UMD: the same file serves the pipeline via require()
-  // and the dashboards as window.CPLShared. Copy it verbatim into cpl/.
-  fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(rootDir, 'cpl', 'shared.js'));
+  // and the dashboards as window.CPLShared. Copy it verbatim into cpl/compiled/.
+  fs.copyFileSync(path.join(__dirname, 'shared.js'), path.join(rootCompiledDir, 'shared.js'));
 
   const seasons = readLeagueSeasons(league);
   if (!seasons.length) {
@@ -1013,11 +1028,12 @@ async function compileDashboardHtml(league = 'local', { divisionSlugs = null, se
   // The stub at /cpl/<league>/, which every pre-seasons link and every stale
   // bookmark still points at.
   const leagueDir = path.join(rootDir, 'cpl', league);
-  fs.mkdirSync(leagueDir, { recursive: true });
+  const leagueCompiledDir = path.join(leagueDir, 'compiled');
+  fs.mkdirSync(leagueCompiledDir, { recursive: true });
   fs.writeFileSync(path.join(leagueDir, 'index.html'), buildLeagueRedirectHtml({
     label: LEAGUE_LABELS[league] || league,
   }));
-  fs.writeFileSync(path.join(leagueDir, 'redirect.js'), buildLeagueRedirectSource({ league }));
+  fs.writeFileSync(path.join(leagueCompiledDir, 'redirect.js'), buildLeagueRedirectSource({ league }));
 
   if (failedDivisions.length) {
     console.error(`\n⚠️ Phase 2 finished with ${failedDivisions.length} failed division(s).`);
@@ -1130,9 +1146,10 @@ function packPlayerIndex(entries) {
 }
 
 // Builds the cross-league outputs derived from every division's roster:
-// cpl/player-index.js (packed finder index) and cpl/dupr-audit/data.js
-// (precomputed audit rows, so the audit page no longer downloads every
-// division dataset), plus the DUPR tables each page shape needs. DUPR values
+// cpl/compiled/player-index.js (packed finder index) and
+// cpl/dupr-audit/compiled/data.js (precomputed audit rows, so the audit page
+// no longer downloads every division dataset), plus the DUPR tables each page
+// shape needs. DUPR values
 // stay in their own files, which the DUPR workflow updates without recompiling.
 function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } = {}) {
   console.log('\n--- Building player index ---');
@@ -1181,9 +1198,10 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
       // already on disk rather than left empty. Leaving it empty here is what
       // used to make every due-mode run drop `rating` from every untouched
       // division's finder entries, only for the next full compile to add it
-      // back — pure cpl/player-index.js churn with nothing actually changing.
+      // back — pure cpl/compiled/player-index.js churn with nothing actually
+      // changing.
       const ratingByPid = ratingsBySlug.get(`${league}/${season.slug}/${div.slug}`)
-        || readCompiledRatings(seasonOutDir(rootDir, league, season.slug), div.slug);
+        || readCompiledRatings(seasonCompiledDir(rootDir, league, season.slug), div.slug);
       const bracket = getDivisionBracket({ divisionName: div.divisionName, leagueType: league });
       const raw = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
       const players = selectCanonicalRosterPlayers(
@@ -1258,7 +1276,9 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
 
   entries.sort((a, b) => a.name.localeCompare(b.name));
 
-  const outPath = path.join(rootDir, 'cpl', 'player-index.js');
+  const rootCompiledDir = path.join(rootDir, 'cpl', 'compiled');
+  if (!fs.existsSync(rootCompiledDir)) fs.mkdirSync(rootCompiledDir, { recursive: true });
+  const outPath = path.join(rootCompiledDir, 'player-index.js');
   // levels=2: the five tables each start a line, and every row inside them gets
   // its own, so a roster change shows up as the handful of lines it actually is.
   // Named for its shape — a table per column — rather than reusing
@@ -1269,15 +1289,15 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
   fs.writeFileSync(outPath, `window.PLAYER_INDEX_TABLES = ${expandJson(packPlayerIndex(entries), 2)};\n`);
   console.log(`✓ player-index.js written (${entries.length} player-division entries, packed).`);
 
-  const auditDir = path.join(rootDir, 'cpl', 'dupr-audit');
-  if (!fs.existsSync(auditDir)) fs.mkdirSync(auditDir, { recursive: true });
+  const auditCompiledDir = path.join(rootDir, 'cpl', 'dupr-audit', 'compiled');
+  if (!fs.existsSync(auditCompiledDir)) fs.mkdirSync(auditCompiledDir, { recursive: true });
   const divisionLabel = (row) => (auditDivisions[row.slug] || {}).division || '';
   auditRows.sort((a, b) => a.name.localeCompare(b.name) || divisionLabel(a).localeCompare(divisionLabel(b)));
   const sortedDivisions = Object.fromEntries(
     Object.keys(auditDivisions).sort().map((slug) => [slug, auditDivisions[slug]]),
   );
   fs.writeFileSync(
-    path.join(auditDir, 'data.js'),
+    path.join(auditCompiledDir, 'data.js'),
     `window.DUPR_AUDIT = ${JSON.stringify({ divisions: sortedDivisions, rows: auditRows }, null, 1)};\n`,
   );
   console.log(`✓ dupr-audit/data.js written (${auditRows.length} roster rows).`);
@@ -1285,12 +1305,12 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
   // The archive page's own rows: one per division of every archived season,
   // with its podium. Read from the compiled shards just above, so this runs
   // after them.
-  writeArchiveData(rootDir, { eachLeagueSeason, seasonOutDir, sortDivisionsForLeague });
+  writeArchiveData(rootDir, { eachLeagueSeason, seasonCompiledDir, sortDivisionsForLeague });
 
   // Keep a DUPR shard beside every division dataset. The DUPR refresh rewrites
   // these too, so ratings still update without a recompile; doing it here as
   // well is what guarantees a newly compiled division has one at all.
-  const ratingsPath = path.join(rootDir, 'cpl', 'dupr-ratings.js');
+  const ratingsPath = path.join(rootDir, 'cpl', 'compiled', 'dupr-ratings.js');
   if (fs.existsSync(ratingsPath)) {
     const scope = {};
     new Function('window', fs.readFileSync(ratingsPath, 'utf8'))(scope);

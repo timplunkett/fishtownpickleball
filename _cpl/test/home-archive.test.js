@@ -1,11 +1,12 @@
 // The landing page's two boxes (cpl/home.js) and the season archive
 // (cpl/archive/archive.js).
 //
-// The landing page is built from cpl/catalog.js, so the cases worth pinning are
-// the ones the old league-per-panel layout could not express: a league between
-// seasons, both leagues between seasons, and a season two leagues both played.
-// The archive page is built from its own cpl/archive/data.js instead — those
-// rows are read here and nowhere else, and they grow with every finished season.
+// The landing page is built from cpl/compiled/catalog.js, so the cases worth
+// pinning are the ones the old league-per-panel layout could not express: a
+// league between seasons, both leagues between seasons, and a season two
+// leagues both played. The archive page is built from its own
+// cpl/archive/compiled/data.js instead — those rows are read here and nowhere
+// else, and they grow with every finished season.
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -146,7 +147,7 @@ function runPage(file, { catalog, ids, archive, hash = '' } = {}) {
   if (catalog) context.CPL_CATALOG = catalog;
   if (archive) context.CPL_ARCHIVE = archive;
 
-  vm.runInNewContext(fs.readFileSync(path.join(CPL, 'shared.js'), 'utf8'), context);
+  vm.runInNewContext(fs.readFileSync(path.join(CPL, 'compiled', 'shared.js'), 'utf8'), context);
   vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
   return {
     context,

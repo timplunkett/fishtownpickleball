@@ -8,7 +8,7 @@ const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
 const GLOBAL_PLAYERS_FILE = path.join(DATA_DIR, 'global_players.json');
-const DUPR_RATINGS_FILE = path.join(__dirname, '..', 'cpl', 'dupr-ratings.js');
+const DUPR_RATINGS_FILE = path.join(__dirname, '..', 'cpl', 'compiled', 'dupr-ratings.js');
 const REQUEST_DELAY_MS = 800; // Delay between DUPR API calls
 const MAX_CONSECUTIVE_429 = 3;
 

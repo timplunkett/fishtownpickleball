@@ -24,21 +24,28 @@ function directoriesIn(dir) {
 // Every compiled division dataset, as { label, file, league, season, slug }.
 // `label` is what a failing assertion prints, so it names the season too — a
 // division slug alone no longer says which dashboard it came from.
+//
+// `compiled/` sits beside every league directory too — the per-league
+// redirect.js, not a season — so it's filtered out here the same way a
+// season with no data files would be.
 function compiledDivisions() {
   return LEAGUES.flatMap((league) => (
-    directoriesIn(path.join(CPL, league)).flatMap((season) => {
-      const dir = path.join(CPL, league, season);
-      return fs.readdirSync(dir)
-        .filter((file) => /^data-[0-9a-f]+\.js$/.test(file))
-        .sort()
-        .map((file) => ({
-          label: `${league}/${season}/${file}`,
-          file: path.join(dir, file),
-          league,
-          season,
-          slug: /^data-([0-9a-f]+)\.js$/.exec(file)[1],
-        }));
-    })
+    directoriesIn(path.join(CPL, league))
+      .filter((season) => season !== 'compiled')
+      .flatMap((season) => {
+        const dir = path.join(CPL, league, season, 'compiled');
+        if (!fs.existsSync(dir)) return [];
+        return fs.readdirSync(dir)
+          .filter((file) => /^data-[0-9a-f]+\.js$/.test(file))
+          .sort()
+          .map((file) => ({
+            label: `${league}/${season}/${file}`,
+            file: path.join(dir, file),
+            league,
+            season,
+            slug: /^data-([0-9a-f]+)\.js$/.exec(file)[1],
+          }));
+      })
   ));
 }
 

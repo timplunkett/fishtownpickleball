@@ -404,7 +404,7 @@ function runApp({
   context.window.CPL_PAGE = context.CPL_PAGE;
 
   const load = (file) => vm.runInNewContext(fs.readFileSync(file, 'utf8'), context, { filename: file });
-  load(path.join(CPL, 'shared.js'));
+  load(path.join(CPL, 'compiled', 'shared.js'));
   load(DATA_FILE.file);
   context.DATA = context.window.DATA;
   const meta = context.DATA.meta || {};

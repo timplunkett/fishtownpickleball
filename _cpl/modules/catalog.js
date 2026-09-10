@@ -1,5 +1,5 @@
 // The site catalog: every league, every season of it, and every division of
-// each season, in one small generated file (cpl/catalog.js).
+// each season, in one small generated file (cpl/compiled/catalog.js).
 //
 // This replaces the pair of per-league bootstrap.js division lists that each
 // dashboard used to load. Those worked when a league was one flat list, but a
@@ -71,9 +71,18 @@ function eachLeagueSeason(leagues = LEAGUES) {
   return out;
 }
 
-// Where a division's compiled output lives, and where its cached input does.
+// Where a season's page (index.html) lives, and where its cached input does.
+// The page itself stays here — it's a real, bookmarked/shared URL
+// (/cpl/<league>/<season>/) — but everything npm run compile writes alongside
+// it (bootstrap.js, data-<slug>.js, detail-<slug>.js, the DUPR shards) goes one
+// level deeper, in seasonCompiledDir, so a person can tell at a glance which
+// files in a season directory are hand-written and which are output.
 function seasonOutDir(rootDir, league, seasonSlug) {
   return path.join(rootDir, 'cpl', league, seasonSlug);
+}
+
+function seasonCompiledDir(rootDir, league, seasonSlug) {
+  return path.join(seasonOutDir(rootDir, league, seasonSlug), 'compiled');
 }
 
 function seasonCacheDir(league, seasonSlug) {
@@ -98,7 +107,8 @@ function readCompiledAsOf(outDir, slug) {
 // Without this, buildPlayerIndex silently drops the `rating` field from every
 // finder entry outside the divisions a `--refresh-mode due` run touched, and
 // the next full compile (weekly cron or a manual `npm run compile`) adds it
-// back — pure churn in cpl/player-index.js with no underlying data change.
+// back — pure churn in cpl/compiled/player-index.js with no underlying data
+// change.
 // The data file is executed rather than JSON-parsed because it is a JS
 // statement, not JSON: `(function () { const DATA = {...}; window.DATA =
 // DATA; ... })();` — the same sandboxing writeDuprShards' caller already uses
@@ -126,7 +136,7 @@ function buildCatalog(rootDir, { asOfBySlug = new Map() } = {}) {
   const leagues = LEAGUES.map((league) => {
     const seasons = readLeagueSeasons(league).map((season) => {
       const divisions = sortDivisionsForLeague(league, readSeasonDivisions(league, season.slug));
-      const outDir = seasonOutDir(rootDir, league, season.slug);
+      const compiledDir = seasonCompiledDir(rootDir, league, season.slug);
       return {
         slug: season.slug,
         label: season.label,
@@ -144,7 +154,7 @@ function buildCatalog(rootDir, { asOfBySlug = new Map() } = {}) {
           ...(div.clubName ? { clubName: div.clubName } : {}),
           ...(() => {
             const asOf = asOfBySlug.get(`${league}/${season.slug}/${div.slug}`)
-              || readCompiledAsOf(outDir, div.slug);
+              || readCompiledAsOf(compiledDir, div.slug);
             return asOf ? { asOf } : {};
           })(),
         })),
@@ -167,7 +177,7 @@ function buildCatalog(rootDir, { asOfBySlug = new Map() } = {}) {
 
 function writeCatalog(rootDir, options) {
   const catalog = buildCatalog(rootDir, options);
-  const outPath = path.join(rootDir, 'cpl', 'catalog.js');
+  const outPath = path.join(rootDir, 'cpl', 'compiled', 'catalog.js');
   // levels=6 is what it takes to reach one division per line: catalog → leagues
   // → league → seasons → season → divisions → entry. A refresh changes one
   // division's asOf, and that should be one changed line rather than a
@@ -192,6 +202,7 @@ module.exports = {
   readLeagueSeasons,
   readSeasonDivisions,
   seasonCacheDir,
+  seasonCompiledDir,
   seasonOutDir,
   writeCatalog,
 };
