@@ -10513,6 +10513,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Lay Wassana",
+   "playerId": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Layla Darian",
    "playerId": "77234c18-83ca-4180-8a45-181f7d347542",
    "team": "Flemington Green",
@@ -13299,6 +13306,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Nikki Nigro",
+   "playerId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Niman Ahmeti",
    "playerId": "40681083-620d-4293-829f-91121323135c",
    "team": "Pickleball HQ",
@@ -14171,6 +14185,13 @@ window.DUPR_AUDIT = {
    "playerId": "8ee2191e-34c1-4f6b-b366-5a1bbc5bcb36",
    "team": "Home Court",
    "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
+   "name": "Rani Borusu",
+   "playerId": "6a8bbc75-9016-4f35-95f5-0e681d1e25e4",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {
@@ -16353,6 +16374,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Sushma Rayapudi",
    "playerId": "ea658d89-a540-405d-9819-9c98a0484f60",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Sushma Rayapudi",
+   "playerId": "ea658d89-a540-405d-9819-9c98a0484f60",
    "team": "Stelton Sports",
    "slug": "c43b8608",
    "gender": "Female"
@@ -16446,6 +16474,13 @@ window.DUPR_AUDIT = {
    "playerId": "011a3e6a-c2a3-4dcf-b1f4-9e32a4440789",
    "team": "Ballers Philly",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Tanyalak Sawangpak",
+   "playerId": "97f8761c-a825-4f89-9d92-0c8dea9d0065",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

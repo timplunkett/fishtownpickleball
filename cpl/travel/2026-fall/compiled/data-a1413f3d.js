@@ -25459,7 +25459,7 @@
      "t": "mixed",
      "h": [
       "Paige Metzler",
-      "Anushk Gupta"
+      "Will Delaney"
      ],
      "a": [
       "Caitlyn Suchanic",
@@ -25514,7 +25514,7 @@
      "t": "male",
      "h": [
       "Tejas Goculdas",
-      "Michael Velez"
+      "Will Delaney"
      ],
      "a": [
       "Dylan Rice",
@@ -25524,8 +25524,8 @@
     {
      "t": "male",
      "h": [
-      "Anushk Gupta",
-      "Will Delaney"
+      "Adam Beck",
+      "Michael Velez"
      ],
      "a": [
       "Alex Bey",
@@ -25547,7 +25547,7 @@
      "t": "mixed",
      "h": [
       "Paige Metzler",
-      "Anushk Gupta"
+      "Michael Velez"
      ],
      "a": [
       "Caitlyn Suchanic",
@@ -25612,7 +25612,7 @@
     {
      "t": "male",
      "h": [
-      "Anushk Gupta",
+      "Tejas Goculdas",
       "Michael Velez"
      ],
      "a": [
@@ -25689,7 +25689,7 @@
     {
      "t": "male",
      "h": [
-      "Anushk Gupta",
+      "Will Delaney",
       "Michael Velez"
      ],
      "a": [
@@ -25701,7 +25701,7 @@
      "t": "male",
      "h": [
       "Adam Beck",
-      "Will Delaney"
+      "Tejas Goculdas"
      ],
      "a": [
       "Dylan Rice",
@@ -25734,7 +25734,7 @@
      "t": "mixed",
      "h": [
       "Melody Grohotolski",
-      "Anushk Gupta"
+      "Will Delaney"
      ],
      "a": [
       "Sarah Landis",
@@ -25777,7 +25777,7 @@
     {
      "t": "male",
      "h": [
-      "Anushk Gupta",
+      "Adam Beck",
       "Will Delaney"
      ],
      "a": [
@@ -28416,7 +28416,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-10T15:32:08.664Z";
+  DATA.meta.asOf = "2026-09-10T20:15:13.705Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

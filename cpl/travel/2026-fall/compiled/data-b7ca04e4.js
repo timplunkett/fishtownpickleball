@@ -31198,7 +31198,6 @@
    "away": "Home Court",
    "time": "2026-09-09T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 585,
    "awayPoints": 639,
    "homeGW": 11,
@@ -31654,11 +31653,11 @@
     }
    ],
    "subs": [
-    "Andrea Smith",
     "Lucy Li",
+    "Jiangang Li",
+    "Andrea Smith",
     "Zhihong Ge",
-    "James Ouyang",
-    "Jiangang Li"
+    "James Ouyang"
    ]
   },
   {
@@ -36310,7 +36309,6 @@
    "away": "Picklr Fair Lawn",
    "time": "2026-09-09T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 529,
    "awayPoints": 657,
    "homeGW": 8,
@@ -37735,7 +37733,361 @@
    "home": "Dill Dinkers Freehold",
    "away": "Premiere",
    "time": "2026-09-16T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Edelstein",
+      "Joe Ying"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abeer Massoud",
+      "Brandon Pfeffer"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angie Habib",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allyson Fry",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rebecca Edelstein",
+      "Abeer Massoud"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angie Habib",
+      "Allyson Fry"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Joe Ying",
+      "Brandon Pfeffer"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kevin Wan",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Edelstein",
+      "Brandon Pfeffer"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abeer Massoud",
+      "Joe Ying"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angie Habib",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allyson Fry",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rebecca Edelstein",
+      "Angie Habib"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Abeer Massoud",
+      "Allyson Fry"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Joe Ying",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Pfeffer",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Edelstein",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abeer Massoud",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angie Habib",
+      "Brandon Pfeffer"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allyson Fry",
+      "Joe Ying"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rebecca Edelstein",
+      "Allyson Fry"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Abeer Massoud",
+      "Angie Habib"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Joe Ying",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Pfeffer",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Edelstein",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abeer Massoud",
+      "Joe Ying"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angie Habib",
+      "Brandon Pfeffer"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Allyson Fry",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rebecca Edelstein",
+      "Abeer Massoud"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angie Habib",
+      "Allyson Fry"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Joe Ying",
+      "Kevin Wan"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brandon Pfeffer",
+      "Ben Cortes"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -38995,7 +39347,7 @@
  },
  "meta": {
   "matchesPlayed": 42,
-  "provisionalMatches": 2,
+  "provisionalMatches": 0,
   "weeks": "1-3",
   "totalPlayers": 472,
   "ratingHistoryWeeks": [
@@ -39041,7 +39393,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-10T15:32:38.791Z";
+  DATA.meta.asOf = "2026-09-10T20:15:43.495Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
