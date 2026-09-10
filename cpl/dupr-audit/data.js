@@ -1315,6 +1315,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Anisha Malhotra",
+   "playerId": "2aa8b268-8c06-4453-9706-048009bf6af3",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Anita Buggins",
    "playerId": "2ea90a18-1ef3-4ade-a855-2a3fd178abd7",
    "team": "ACE Moorestown",
@@ -3069,6 +3076,13 @@ window.DUPR_AUDIT = {
    "playerId": "448b9c1e-2ff4-4487-b61f-2626655a5544",
    "team": "Pickleball Kingdom Lehigh Valley",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Chris Long",
+   "playerId": "f7f6ce2d-1cbb-45f9-ad8f-e42b89b99554",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -11423,6 +11437,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Maria Valencia",
+   "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Marian Kingston",
    "playerId": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
    "team": "Life Time Red Bank",
@@ -15707,6 +15728,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Sidd Pathare",
+   "playerId": "a73f249d-c1c9-4516-bc79-e9732581f098",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Simon Burns",
    "playerId": "3a1cc58f-1661-41c2-b2cb-4e39a1b60bac",
    "team": "Picklr Newark",
@@ -17776,6 +17804,13 @@ window.DUPR_AUDIT = {
    "playerId": "fbf8a0f9-a289-4d98-a5e3-478c8dce672a",
    "team": "Bounce Malvern",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Yashraj Kurani",
+   "playerId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
