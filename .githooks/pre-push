@@ -20,6 +20,22 @@ remote_name="$1"
 z40=0000000000000000000000000000000000000000
 changed=""
 
+# cpl/ holds both compiled output and a handful of hand-written static assets
+# that `npm run compile` never touches. Excluding those keeps a cosmetic tweak
+# to one of them (e.g. cpl/app.js) from triggering a pointless recompile. Kept
+# in sync with the SOURCES list in _cpl/test/source-hygiene.test.js, which
+# enumerates the same hand-written files for a different reason (scanning them
+# for stray control characters).
+cpl_pathspecs="cpl/ \
+  :!cpl/app.js \
+  :!cpl/home.js \
+  :!cpl/styles.css \
+  :!cpl/home.css \
+  :!cpl/index.html \
+  :!cpl/archive/index.html \
+  :!cpl/archive/archive.js \
+  :!cpl/dupr-audit/index.html"
+
 while read -r local_ref local_sha remote_ref remote_sha; do
   [ "$local_sha" = "$z40" ] && continue # deleting a ref — nothing to check
 
@@ -33,7 +49,7 @@ while read -r local_ref local_sha remote_ref remote_sha; do
     range="$remote_sha..$local_sha"
   fi
 
-  files=$(git diff --name-only "$range" -- _cpl/ cpl/ 2>/dev/null) || files=""
+  files=$(git diff --name-only "$range" -- _cpl/ $cpl_pathspecs 2>/dev/null) || files=""
   [ -n "$files" ] && changed="yes"
 done
 
@@ -41,7 +57,7 @@ if [ -z "$changed" ]; then
   exit 0
 fi
 
-echo "pre-push: _cpl/ or cpl/ changed in this push — recompiling to check for drift..."
+echo "pre-push: _cpl/ or generated cpl/ output changed in this push — recompiling to check for drift..."
 
 if ! npm run --silent compile; then
   echo "" >&2

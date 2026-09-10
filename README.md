@@ -267,13 +267,20 @@ Run all four before pushing; CI runs the first three.
 
 A pre-push hook (`.githooks/pre-push`) also runs `npm run compile` and
 checks `cpl/` for drift automatically whenever a push includes commits that
-touch `_cpl/` or `cpl/` — the same check CI does, just before the push
-instead of after. It runs once per push rather than once per commit, so a
-string of WIP commits touching `_cpl/`/`cpl/` isn't slowed down until you
-actually push. It's enabled by the `prepare` npm script, so it activates on
-`npm install`; to turn it on without reinstalling, run
-`git config core.hooksPath .githooks` once. Pushes with nothing under
-`_cpl/`/`cpl/` in their commit range are left alone.
+touch `_cpl/` or the generated part of `cpl/` — the same check CI does, just
+before the push instead of after. It runs once per push rather than once per
+commit, so a string of WIP commits touching `_cpl/`/`cpl/` isn't slowed down
+until you actually push. It's enabled by the `prepare` npm script, so it
+activates on `npm install`; to turn it on without reinstalling, run
+`git config core.hooksPath .githooks` once.
+
+`cpl/` mixes compiled output with a handful of hand-written static assets
+(`cpl/app.js`, `cpl/home.js`, `cpl/styles.css`, `cpl/home.css`,
+`cpl/index.html`, `cpl/archive/index.html`, `cpl/archive/archive.js`,
+`cpl/dupr-audit/index.html` — the same list `npm test` scans in
+`_cpl/test/source-hygiene.test.js`), which `npm run compile` never touches.
+The hook excludes those, so pushes that only edit them, or that touch
+nothing else under `_cpl/`/`cpl/`, are left alone.
 
 ## Runbook
 
