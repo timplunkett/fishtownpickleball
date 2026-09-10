@@ -1302,6 +1302,25 @@ function renderDivisionSelector() {
   });
 }
 
+// Shared by renderHeader (initial load) and showMainView (returning from a
+// team page) so the division-level <title> is computed the same way in both
+// places. The player modal deliberately never touches document.title — see
+// showPlayerModal/closeModal.
+function divisionTitleSubject() {
+  const currentDivision = getCurrentDivision();
+  const isTravel = DATA.meta.leagueType === 'travel';
+  const clubName = DATA.meta.clubName || currentDivision?.clubName || '';
+  const divisionName = DATA.meta.divisionName || currentDivision?.divisionName || '';
+  return isTravel
+    ? ['Cross Club League', divisionName].filter(Boolean).join(' ')
+    : [clubName, divisionName].filter(Boolean).join(' ');
+}
+
+function applyDivisionTitle() {
+  const titleSubject = divisionTitleSubject();
+  document.title = titleSubject ? `${titleSubject} Standings` : 'League Standings';
+}
+
 function renderHeader() {
   const currentDivision = getCurrentDivision();
   const isTravel = DATA.meta.leagueType === 'travel';
@@ -1327,10 +1346,7 @@ function renderHeader() {
   // Flemington, Robbinsville and Chantilly alike, in the tab and in every share
   // preview. The division is only known once its dataset has loaded, so this is
   // the earliest the real name can be set.
-  const titleSubject = isTravel
-    ? ['Cross Club League', divisionName].filter(Boolean).join(' ')
-    : [clubName, divisionName].filter(Boolean).join(' ');
-  document.title = titleSubject ? `${titleSubject} Standings` : 'League Standings';
+  applyDivisionTitle();
 }
 
 function renderSummary() {
@@ -3282,6 +3298,14 @@ function renderTeamPage(team, { scroll = true } = {}) {
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
   elements.subhead.textContent = `${team.name} — team page`;
+  // Same fix as renderHeader's division-level title: the tab should say which
+  // team's page is open, not just the division it belongs to. showMainView
+  // restores the division-level title on the way back; the player modal never
+  // touches document.title at all, so opening one over this page can't affect it.
+  {
+    const titleSubject = divisionTitleSubject();
+    document.title = titleSubject ? `${team.name} - ${titleSubject}` : team.name;
+  }
   // The strip is rebuilt with the rest of the page, so its collapse state has to
   // be re-applied before anything measures it — and the roster table needs
   // measuring for overflow now that it is visible.
@@ -3318,6 +3342,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
 function showMainView() {
   elements.teamView.hidden = true;
   elements.mainView.hidden = false;
+  // Undo renderTeamPage's team-specific <title>; a player modal opened from
+  // here never sets document.title, so there's nothing else to restore.
+  applyDivisionTitle();
   renderSummary();
   // Back to the dashboard's own strip: its chips have to be re-marked against
   // where the page now sits, and the observer re-pointed off the team page's.
