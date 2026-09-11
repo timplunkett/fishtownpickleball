@@ -16,7 +16,7 @@ window.CPL_CATALOG = {
       {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-09-11T03:04:26.493Z"},
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-09-11T03:05:15.427Z"},
       {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-09-11T03:05:43.022Z"},
-      {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-09-11T03:04:46.357Z"},
+      {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-09-11T05:20:40.636Z"},
       {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-09-11T03:03:46.035Z"},
       {"slug":"6619816f","divisionName":"4.5","asOf":"2026-09-11T02:09:42.998Z"},
       {"slug":"ad44e3bd","divisionName":"3.25 Womens","asOf":"2026-09-11T02:09:50.298Z"},
