@@ -12474,36 +12474,6 @@
  ],
  "teams": [
   {
-   "name": "Pickleball Palace Black",
-   "w": 1,
-   "l": 0,
-   "pf": 664,
-   "pa": 504,
-   "gw": 26,
-   "gl": 6,
-   "diff": 160,
-   "gameDiff": 20,
-   "power": 0.8,
-   "powerRank": 1,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     12,
-     4
-    ],
-    "male": [
-     7,
-     1
-    ],
-    "female": [
-     7,
-     1
-    ]
-   }
-  },
-  {
    "name": "Bounce Malvern",
    "w": 2,
    "l": 0,
@@ -12515,7 +12485,7 @@
    "gameDiff": 38,
    "power": 1.1,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -12545,7 +12515,7 @@
    "gameDiff": 32,
    "power": 1.2,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -12575,7 +12545,7 @@
    "gameDiff": 30,
    "power": 1,
    "powerRank": 1,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12605,7 +12575,7 @@
    "gameDiff": 28,
    "power": 0.7,
    "powerRank": 2,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12635,7 +12605,7 @@
    "gameDiff": 16,
    "power": 0.8,
    "powerRank": 1,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12665,7 +12635,7 @@
    "gameDiff": 16,
    "power": 0.6,
    "powerRank": 4,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -12684,36 +12654,6 @@
    }
   },
   {
-   "name": "Jersey Devil",
-   "w": 1,
-   "l": 0,
-   "pf": 626,
-   "pa": 590,
-   "gw": 20,
-   "gl": 12,
-   "diff": 36,
-   "gameDiff": 8,
-   "power": 0.6,
-   "powerRank": 3,
-   "pod": 2,
-   "reportedPod": "Southwest",
-   "podName": "Southwest",
-   "fmt": {
-    "mixed": [
-     10,
-     6
-    ],
-    "male": [
-     7,
-     1
-    ],
-    "female": [
-     3,
-     5
-    ]
-   }
-  },
-  {
    "name": "PKLD",
    "w": 2,
    "l": 0,
@@ -12725,7 +12665,7 @@
    "gameDiff": 10,
    "power": 0.4,
    "powerRank": 2,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12744,6 +12684,66 @@
    }
   },
   {
+   "name": "Pickleball Palace Black",
+   "w": 1,
+   "l": 0,
+   "pf": 664,
+   "pa": 504,
+   "gw": 26,
+   "gl": 6,
+   "diff": 160,
+   "gameDiff": 20,
+   "power": 0.8,
+   "powerRank": 1,
+   "pod": 3,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     12,
+     4
+    ],
+    "male": [
+     7,
+     1
+    ],
+    "female": [
+     7,
+     1
+    ]
+   }
+  },
+  {
+   "name": "Jersey Devil",
+   "w": 1,
+   "l": 0,
+   "pf": 626,
+   "pa": 590,
+   "gw": 20,
+   "gl": 12,
+   "diff": 36,
+   "gameDiff": 8,
+   "power": 0.6,
+   "powerRank": 3,
+   "pod": 1,
+   "reportedPod": "Southwest",
+   "podName": "Southwest",
+   "fmt": {
+    "mixed": [
+     10,
+     6
+    ],
+    "male": [
+     7,
+     1
+    ],
+    "female": [
+     3,
+     5
+    ]
+   }
+  },
+  {
    "name": "Pickleball Palace Blue",
    "w": 1,
    "l": 1,
@@ -12755,7 +12755,7 @@
    "gameDiff": 16,
    "power": 0.4,
    "powerRank": 5,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -12785,7 +12785,7 @@
    "gameDiff": 14,
    "power": 0.7,
    "powerRank": 2,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -12815,7 +12815,7 @@
    "gameDiff": 8,
    "power": 0.6,
    "powerRank": 4,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -12845,7 +12845,7 @@
    "gameDiff": 6,
    "power": 0.7,
    "powerRank": 3,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -12875,7 +12875,7 @@
    "gameDiff": 0,
    "power": 0.6,
    "powerRank": 3,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12905,7 +12905,7 @@
    "gameDiff": 0,
    "power": 0.1,
    "powerRank": 3,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12935,7 +12935,7 @@
    "gameDiff": -2,
    "power": 0,
    "powerRank": 4,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12965,7 +12965,7 @@
    "gameDiff": -4,
    "power": 0,
    "powerRank": 4,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -12995,7 +12995,7 @@
    "gameDiff": -4,
    "power": -0.1,
    "powerRank": 5,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -13025,7 +13025,7 @@
    "gameDiff": -20,
    "power": -0.6,
    "powerRank": 6,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -13055,7 +13055,7 @@
    "gameDiff": -22,
    "power": -1.2,
    "powerRank": 6,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -13085,7 +13085,7 @@
    "gameDiff": -28,
    "power": -0.6,
    "powerRank": 6,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -13115,7 +13115,7 @@
    "gameDiff": -32,
    "power": -0.9,
    "powerRank": 5,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Northeast / Southeast",
    "fmt": {
@@ -13145,7 +13145,7 @@
    "gameDiff": -34,
    "power": -0.5,
    "powerRank": 5,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -13175,7 +13175,7 @@
    "gameDiff": -22,
    "power": -1.5,
    "powerRank": 6,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -13205,7 +13205,7 @@
    "gameDiff": -24,
    "power": -1.1,
    "powerRank": 7,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -13235,7 +13235,7 @@
    "gameDiff": -50,
    "power": -1.6,
    "powerRank": 7,
-   "pod": 1,
+   "pod": 3,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -28222,9 +28222,9 @@
   "seasonStatus": "current",
   "podCount": 3,
   "podNames": [
-   "Northwest",
    "Southwest",
-   "Northeast / Southeast"
+   "Northeast / Southeast",
+   "Northwest"
   ],
   "podSource": "api",
   "reportedPods": [
@@ -28237,15 +28237,6 @@
    "crossPodMatchups": 12,
    "totalMatchups": 156,
    "reported": {
-    "Northwest": [
-     "Allstar Pickler",
-     "Pickleball Kingdom Hillsborough",
-     "Pickleball Palace Black",
-     "Pickleball Palace Blue",
-     "PickleRage Union County",
-     "Picklr Fair Lawn",
-     "Premiere Aces"
-    ],
     "Southwest": [
      "Bounce Malvern",
      "Bounce Philly",
@@ -28270,10 +28261,8 @@
      "One Love",
      "PKLD",
      "Premiere Dinkers"
-    ]
-   },
-   "schedule": {
-    "Pod 1": [
+    ],
+    "Northwest": [
      "Allstar Pickler",
      "Pickleball Kingdom Hillsborough",
      "Pickleball Palace Black",
@@ -28281,8 +28270,10 @@
      "PickleRage Union County",
      "Picklr Fair Lawn",
      "Premiere Aces"
-    ],
-    "Pod 2": [
+    ]
+   },
+   "schedule": {
+    "Pod 1": [
      "Bounce Malvern",
      "Bounce Philly",
      "Dill Dinkers Hatboro",
@@ -28291,7 +28282,7 @@
      "Jersey Devil",
      "Players Courtyard"
     ],
-    "Pod 3": [
+    "Pod 2": [
      "ACE Moorestown",
      "Colts Neck Racquet Club",
      "Flemington Blue",
@@ -28304,6 +28295,15 @@
      "Pickleball Kingdom Hamilton Strikers",
      "PKLD",
      "Premiere Dinkers"
+    ],
+    "Pod 3": [
+     "Allstar Pickler",
+     "Pickleball Kingdom Hillsborough",
+     "Pickleball Palace Black",
+     "Pickleball Palace Blue",
+     "PickleRage Union County",
+     "Picklr Fair Lawn",
+     "Premiere Aces"
     ]
    }
   }

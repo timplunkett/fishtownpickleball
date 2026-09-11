@@ -11258,36 +11258,6 @@
    }
   },
   {
-   "name": "Montville",
-   "w": 1,
-   "l": 0,
-   "pf": 667,
-   "pa": 507,
-   "gw": 25,
-   "gl": 7,
-   "diff": 160,
-   "gameDiff": 18,
-   "power": 1,
-   "powerRank": 2,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     12,
-     4
-    ],
-    "male": [
-     7,
-     1
-    ],
-    "female": [
-     6,
-     2
-    ]
-   }
-  },
-  {
    "name": "Bounce Malvern",
    "w": 3,
    "l": 0,
@@ -11314,36 +11284,6 @@
     "female": [
      20,
      4
-    ]
-   }
-  },
-  {
-   "name": "Pickleball Palace",
-   "w": 2,
-   "l": 0,
-   "pf": 1277,
-   "pa": 1136,
-   "gw": 43,
-   "gl": 21,
-   "diff": 141,
-   "gameDiff": 22,
-   "power": 0.1,
-   "powerRank": 3,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     18,
-     14
-    ],
-    "male": [
-     11,
-     5
-    ],
-    "female": [
-     14,
-     2
     ]
    }
   },
@@ -11404,6 +11344,66 @@
     "female": [
      19,
      5
+    ]
+   }
+  },
+  {
+   "name": "Pickleball Palace",
+   "w": 2,
+   "l": 0,
+   "pf": 1277,
+   "pa": 1136,
+   "gw": 43,
+   "gl": 21,
+   "diff": 141,
+   "gameDiff": 22,
+   "power": 0.1,
+   "powerRank": 3,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     18,
+     14
+    ],
+    "male": [
+     11,
+     5
+    ],
+    "female": [
+     14,
+     2
+    ]
+   }
+  },
+  {
+   "name": "Montville",
+   "w": 1,
+   "l": 0,
+   "pf": 667,
+   "pa": 507,
+   "gw": 25,
+   "gl": 7,
+   "diff": 160,
+   "gameDiff": 18,
+   "power": 1,
+   "powerRank": 2,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     12,
+     4
+    ],
+    "male": [
+     7,
+     1
+    ],
+    "female": [
+     6,
+     2
     ]
    }
   },

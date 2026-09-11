@@ -5340,66 +5340,6 @@
  ],
  "teams": [
   {
-   "name": "Jersey Pickleball Club",
-   "w": 1,
-   "l": 0,
-   "pf": 673,
-   "pa": 437,
-   "gw": 28,
-   "gl": 4,
-   "diff": 236,
-   "gameDiff": 24,
-   "power": 1.7,
-   "powerRank": 1,
-   "pod": 1,
-   "reportedPod": "North",
-   "podName": "North / South",
-   "fmt": {
-    "mixed": [
-     14,
-     2
-    ],
-    "male": [
-     8,
-     0
-    ],
-    "female": [
-     6,
-     2
-    ]
-   }
-  },
-  {
-   "name": "Pickleball Palace",
-   "w": 1,
-   "l": 0,
-   "pf": 654,
-   "pa": 523,
-   "gw": 27,
-   "gl": 5,
-   "diff": 131,
-   "gameDiff": 22,
-   "power": 0.9,
-   "powerRank": 2,
-   "pod": 1,
-   "reportedPod": "North",
-   "podName": "North / South",
-   "fmt": {
-    "mixed": [
-     12,
-     4
-    ],
-    "male": [
-     7,
-     1
-    ],
-    "female": [
-     8,
-     0
-    ]
-   }
-  },
-  {
    "name": "ACE Moorestown",
    "w": 2,
    "l": 0,
@@ -5486,6 +5426,66 @@
     "female": [
      15,
      1
+    ]
+   }
+  },
+  {
+   "name": "Jersey Pickleball Club",
+   "w": 1,
+   "l": 0,
+   "pf": 673,
+   "pa": 437,
+   "gw": 28,
+   "gl": 4,
+   "diff": 236,
+   "gameDiff": 24,
+   "power": 1.7,
+   "powerRank": 1,
+   "pod": 1,
+   "reportedPod": "North",
+   "podName": "North / South",
+   "fmt": {
+    "mixed": [
+     14,
+     2
+    ],
+    "male": [
+     8,
+     0
+    ],
+    "female": [
+     6,
+     2
+    ]
+   }
+  },
+  {
+   "name": "Pickleball Palace",
+   "w": 1,
+   "l": 0,
+   "pf": 654,
+   "pa": 523,
+   "gw": 27,
+   "gl": 5,
+   "diff": 131,
+   "gameDiff": 22,
+   "power": 0.9,
+   "powerRank": 2,
+   "pod": 1,
+   "reportedPod": "North",
+   "podName": "North / South",
+   "fmt": {
+    "mixed": [
+     12,
+     4
+    ],
+    "male": [
+     7,
+     1
+    ],
+    "female": [
+     8,
+     0
     ]
    }
   },
@@ -11548,14 +11548,6 @@
    "crossPodMatchups": 12,
    "totalMatchups": 72,
    "reported": {
-    "North": [
-     "Allstar Pickler",
-     "Flemington Blue",
-     "Jersey Pickleball Club",
-     "Pickleball Palace",
-     "Premiere",
-     "Stelton Sports"
-    ],
     "South": [
      "ACE Moorestown",
      "APC Garden State",
@@ -11563,6 +11555,14 @@
      "Bounce Malvern Boom",
      "Flemington Green",
      "Pickle Place"
+    ],
+    "North": [
+     "Allstar Pickler",
+     "Flemington Blue",
+     "Jersey Pickleball Club",
+     "Pickleball Palace",
+     "Premiere",
+     "Stelton Sports"
     ]
    },
    "schedule": {

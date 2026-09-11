@@ -10130,36 +10130,6 @@
    }
   },
   {
-   "name": "Home Court",
-   "w": 1,
-   "l": 0,
-   "pf": 645,
-   "pa": 549,
-   "gw": 21,
-   "gl": 11,
-   "diff": 96,
-   "gameDiff": 10,
-   "power": 0.6,
-   "powerRank": 2,
-   "pod": 1,
-   "reportedPod": "Northeast",
-   "podName": "Northeast / Northwest / Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     11,
-     5
-    ],
-    "male": [
-     5,
-     3
-    ],
-    "female": [
-     5,
-     3
-    ]
-   }
-  },
-  {
    "name": "Dill Dinkers Lansdale",
    "w": 2,
    "l": 0,
@@ -10186,6 +10156,36 @@
     "female": [
      10,
      6
+    ]
+   }
+  },
+  {
+   "name": "Home Court",
+   "w": 1,
+   "l": 0,
+   "pf": 645,
+   "pa": 549,
+   "gw": 21,
+   "gl": 11,
+   "diff": 96,
+   "gameDiff": 10,
+   "power": 0.6,
+   "powerRank": 2,
+   "pod": 1,
+   "reportedPod": "Northeast",
+   "podName": "Northeast / Northwest / Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     11,
+     5
+    ],
+    "male": [
+     5,
+     3
+    ],
+    "female": [
+     5,
+     3
     ]
    }
   },

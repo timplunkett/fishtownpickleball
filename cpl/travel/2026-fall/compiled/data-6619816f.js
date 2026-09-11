@@ -5224,36 +5224,6 @@
  ],
  "teams": [
   {
-   "name": "Dill Dinkers Hatboro The Factory",
-   "w": 2,
-   "l": 0,
-   "pf": 1329,
-   "pa": 1060,
-   "gw": 51,
-   "gl": 13,
-   "diff": 269,
-   "gameDiff": 38,
-   "power": 1.3,
-   "powerRank": 1,
-   "pod": 1,
-   "reportedPod": "South",
-   "podName": "North / South",
-   "fmt": {
-    "mixed": [
-     27,
-     5
-    ],
-    "male": [
-     13,
-     3
-    ],
-    "female": [
-     11,
-     5
-    ]
-   }
-  },
-  {
    "name": "Pickleball Kingdom Hillsborough",
    "w": 3,
    "l": 0,
@@ -5280,6 +5250,36 @@
     "female": [
      17,
      7
+    ]
+   }
+  },
+  {
+   "name": "Dill Dinkers Hatboro The Factory",
+   "w": 2,
+   "l": 0,
+   "pf": 1329,
+   "pa": 1060,
+   "gw": 51,
+   "gl": 13,
+   "diff": 269,
+   "gameDiff": 38,
+   "power": 1.3,
+   "powerRank": 1,
+   "pod": 1,
+   "reportedPod": "South",
+   "podName": "North / South",
+   "fmt": {
+    "mixed": [
+     27,
+     5
+    ],
+    "male": [
+     13,
+     3
+    ],
+    "female": [
+     11,
+     5
     ]
    }
   },
@@ -15248,14 +15248,6 @@
    "crossPodMatchups": 18,
    "totalMatchups": 78,
    "reported": {
-    "South": [
-     "ACE Moorestown",
-     "Bounce Malvern",
-     "Bounce Philly",
-     "Dill Dinkers Hatboro Aces",
-     "Dill Dinkers Hatboro The Factory",
-     "Jersey Devil"
-    ],
     "North": [
      "Flemington",
      "Home Court",
@@ -15263,6 +15255,14 @@
      "Monroe",
      "Pickle House",
      "Pickleball Kingdom Hillsborough"
+    ],
+    "South": [
+     "ACE Moorestown",
+     "Bounce Malvern",
+     "Bounce Philly",
+     "Dill Dinkers Hatboro Aces",
+     "Dill Dinkers Hatboro The Factory",
+     "Jersey Devil"
     ]
    },
    "schedule": {
