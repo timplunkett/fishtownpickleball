@@ -121,8 +121,8 @@
    "name": "Neel Goyal",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 13,
@@ -135,7 +135,6 @@
    "genderLosses": 2,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "8cfc8650-92ac-4ed4-9b57-2692526abd19",
    "winPct": 86.7,
    "diff": 77,
    "ppg": 20.5,
@@ -144,7 +143,8 @@
    "ratingGames": 15,
    "confidence": 72,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "8cfc8650-92ac-4ed4-9b57-2692526abd19"
   },
   {
    "name": "Robbie Oddy",
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 168,
+   "leagueRank": 169,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4256,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 163,
+   "leagueRank": 164,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 165,
+   "leagueRank": 166,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4372,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 164,
+   "leagueRank": 165,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4401,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 161,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4437,6 +4437,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Abhishekh Mehra",
+   "gender": "Male",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 160,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6e92db16-8465-411e-bc3f-935badc74f47"
   },
   {
    "name": "Alex Boory",
@@ -4517,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 167,
+   "leagueRank": 168,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 161,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4633,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 171,
+   "leagueRank": 172,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7335,7 +7364,6 @@
     }
    ],
    "subs": [
-    "Neel Goyal",
     "Camrin Cronheim",
     "Marc Padre"
    ]
@@ -9197,7 +9225,6 @@
    ],
    "subs": [
     "Shreyas Pani",
-    "Neel Goyal",
     "Camrin Cronheim",
     "Marc Padre",
     "Hany Ibrahim"
@@ -12081,7 +12108,7 @@
   "matchesPlayed": 12,
   "provisionalMatches": 0,
   "weeks": "1-2",
-  "totalPlayers": 162,
+  "totalPlayers": 163,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -12162,7 +12189,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-05T03:50:59.238Z";
+  DATA.meta.asOf = "2026-09-11T03:05:51.787Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

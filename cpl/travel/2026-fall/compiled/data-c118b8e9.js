@@ -6721,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 263,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6750,7 +6750,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 265,
+   "leagueRank": 268,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6779,7 +6779,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 252,
+   "leagueRank": 254,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 264,
+   "leagueRank": 267,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6837,7 +6837,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 249,
+   "leagueRank": 251,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 253,
+   "leagueRank": 255,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6895,7 +6895,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 246,
+   "leagueRank": 248,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6924,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 258,
+   "leagueRank": 261,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6953,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 246,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -23744,6 +23744,7 @@
  "extraPlayerIds": {
   "Luke Simon": "0069c456-f712-435e-abd7-461018159661",
   "Matthew Rafaniello": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
+  "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Alexander King": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Sujoy Gayen": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
@@ -23755,8 +23756,10 @@
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
+  "Jake Cohen": "a6be8670-4787-48dd-83ff-b2157062cb84",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
+  "Yufan Chen": "da53bfc3-c4c3-4746-b5b6-4f4af796cf0f",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
@@ -23863,7 +23866,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-09T17:38:08.615Z";
+  DATA.meta.asOf = "2026-09-11T03:06:13.001Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

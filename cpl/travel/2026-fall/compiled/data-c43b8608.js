@@ -7649,7 +7649,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 330,
+   "leagueRank": 331,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7678,7 +7678,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 318,
+   "leagueRank": 319,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7707,7 +7707,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 356,
+   "leagueRank": 357,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7765,7 +7765,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 320,
+   "leagueRank": 321,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7823,7 +7823,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 355,
+   "leagueRank": 356,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 329,
+   "leagueRank": 330,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7910,7 +7910,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 315,
+   "leagueRank": 316,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7939,7 +7939,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 335,
+   "leagueRank": 336,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7968,7 +7968,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 331,
+   "leagueRank": 332,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7997,7 +7997,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 322,
+   "leagueRank": 323,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8026,7 +8026,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 364,
+   "leagueRank": 365,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8055,7 +8055,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 341,
+   "leagueRank": 342,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8113,7 +8113,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 361,
+   "leagueRank": 362,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8142,7 +8142,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 346,
+   "leagueRank": 347,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8171,7 +8171,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 379,
+   "leagueRank": 380,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8258,7 +8258,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 325,
+   "leagueRank": 326,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8287,7 +8287,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 370,
+   "leagueRank": 371,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 345,
+   "leagueRank": 346,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8432,7 +8432,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 319,
+   "leagueRank": 320,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8461,7 +8461,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 352,
+   "leagueRank": 353,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8490,7 +8490,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 376,
+   "leagueRank": 377,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8519,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 332,
+   "leagueRank": 333,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8548,7 +8548,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 324,
+   "leagueRank": 325,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8577,7 +8577,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 359,
+   "leagueRank": 360,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8664,7 +8664,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 362,
+   "leagueRank": 363,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 334,
+   "leagueRank": 335,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,7 +8722,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 336,
+   "leagueRank": 337,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 365,
+   "leagueRank": 366,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8809,7 +8809,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 363,
+   "leagueRank": 364,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8838,7 +8838,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 372,
+   "leagueRank": 373,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8896,7 +8896,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 353,
+   "leagueRank": 354,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 351,
+   "leagueRank": 352,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8954,7 +8954,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 377,
+   "leagueRank": 378,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9041,7 +9041,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 333,
+   "leagueRank": 334,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9070,7 +9070,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 375,
+   "leagueRank": 376,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9099,7 +9099,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 321,
+   "leagueRank": 322,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9157,7 +9157,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 368,
+   "leagueRank": 369,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9186,7 +9186,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 357,
+   "leagueRank": 358,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9215,7 +9215,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 347,
+   "leagueRank": 348,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9244,7 +9244,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 327,
+   "leagueRank": 328,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -20091,7 +20091,361 @@
    "home": "PCKLRAMA",
    "away": "Picklr Fair Lawn",
    "time": "2026-09-13T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Klein",
+      "Robert Bernstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Derek Manwaring"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennie Diamond",
+      "Zhaohui Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Nelson",
+      "Garry Wright"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Maria Fanfa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennie Diamond",
+      "Nicole Nelson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Manwaring",
+      "Zhaohui Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Roni Douber",
+      "Robert Bernstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Nelson",
+      "Zhaohui Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Garry Wright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Klein",
+      "Roni Douber"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Renee Froeberg",
+      "Robert Bernstein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Fanfa",
+      "Renee Froeberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Nelson",
+      "Cheryl Klein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Garry Wright",
+      "Robert Bernstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Roni Douber",
+      "Stu Schwartz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Fanfa",
+      "Zhaohui Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Garry Wright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennie Diamond",
+      "Stu Schwartz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Renee Froeberg",
+      "Derek Manwaring"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Fanfa",
+      "Renee Froeberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennie Diamond",
+      "Cheryl Klein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Roni Douber",
+      "Garry Wright"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stu Schwartz",
+      "Robert Bernstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Fanfa",
+      "Derek Manwaring"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Nelson",
+      "Garry Wright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Klein",
+      "Stu Schwartz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Renee Froeberg",
+      "Roni Douber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Renee Froeberg",
+      "Jennie Diamond"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Cheryl Klein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Manwaring",
+      "Zhaohui Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Bernstein",
+      "Stu Schwartz"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -20937,6 +21291,7 @@
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
   "Yaoye Li": "eaa86091-5879-48bf-8bd1-b0689f887818",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
+  "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
  "meta": {
@@ -21039,7 +21394,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-09T14:00:43.305Z";
+  DATA.meta.asOf = "2026-09-11T03:05:43.022Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

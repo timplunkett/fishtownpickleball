@@ -160,6 +160,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Abhishekh Mehra",
+   "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
+   "team": "Monroe",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Abigail Barger",
    "playerId": "203ec7c4-064b-4530-b2ee-2ff9decdf406",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -8749,6 +8756,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jonathan Nieves",
+   "playerId": "bf68b168-b0fb-4c26-bcd0-a9c888363778",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Jonathan Pang",
    "playerId": "7c7117d7-1b77-4c7d-b520-74b3fd9d7be7",
    "team": "Mercer Bucks",
@@ -13103,6 +13117,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Neel Goyal",
+   "playerId": "8cfc8650-92ac-4ed4-9b57-2692526abd19",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Neil Dedhia",
    "playerId": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
    "team": "Pickle House",
@@ -14312,6 +14333,13 @@ window.DUPR_AUDIT = {
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
    "gender": "Female"
+  },
+  {
+   "name": "Reuben Zilber",
+   "playerId": "af3befcf-981a-433d-a065-c107cdfa42c4",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Male"
   },
   {
    "name": "Rhys Gardiner",
@@ -17807,6 +17835,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Xiaojun Yuan",
+   "playerId": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
+   "team": "Players Courtyard",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Xiaowen Tang",
    "playerId": "4139644b-5400-4b24-b9c8-25cb0b7d9039",
    "team": "ACE Downingtown",
@@ -17824,6 +17859,13 @@ window.DUPR_AUDIT = {
    "name": "Xinxin Huang",
    "playerId": "d45fab4f-9820-4e79-b3c5-b889c924af20",
    "team": "Flemington Blue",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Yabing Wang",
+   "playerId": "aece4768-4e30-4684-a619-88ade6c672cf",
+   "team": "Allstar Pickler",
    "slug": "1e12eb3f",
    "gender": "Female"
   },
