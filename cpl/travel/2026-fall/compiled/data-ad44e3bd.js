@@ -3772,6 +3772,35 @@
    "playerId": "3e72d2ad-b218-4f3e-b362-4286543ac449"
   },
   {
+   "name": "Sally Webb",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 160,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802"
+  },
+  {
    "name": "Sheila Curran",
    "gender": "Female",
    "team": "Flemington Green",
@@ -12490,7 +12519,7 @@
   "matchesPlayed": 13,
   "provisionalMatches": 0,
   "weeks": "1-3",
-  "totalPlayers": 147,
+  "totalPlayers": 148,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -12564,7 +12593,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-11T02:09:50.298Z";
+  DATA.meta.asOf = "2026-09-11T10:16:43.844Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
