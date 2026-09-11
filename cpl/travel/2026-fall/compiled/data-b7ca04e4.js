@@ -13722,36 +13722,6 @@
    }
   },
   {
-   "name": "Dill Dinkers Hatboro",
-   "w": 2,
-   "l": 0,
-   "pf": 1308,
-   "pa": 1114,
-   "gw": 46,
-   "gl": 18,
-   "diff": 194,
-   "gameDiff": 28,
-   "power": 1.1,
-   "powerRank": 2,
-   "pod": 2,
-   "reportedPod": "Southwest",
-   "podName": "Southwest",
-   "fmt": {
-    "mixed": [
-     23,
-     9
-    ],
-    "male": [
-     10,
-     6
-    ],
-    "female": [
-     13,
-     3
-    ]
-   }
-  },
-  {
    "name": "Pickleball Kingdom Watchung",
    "w": 3,
    "l": 0,
@@ -13763,7 +13733,7 @@
    "gameDiff": 36,
    "power": 1.2,
    "powerRank": 1,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -13793,7 +13763,7 @@
    "gameDiff": 26,
    "power": 1.1,
    "powerRank": 2,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -13823,7 +13793,7 @@
    "gameDiff": 22,
    "power": 1.2,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -13872,6 +13842,36 @@
    }
   },
   {
+   "name": "Dill Dinkers Hatboro",
+   "w": 2,
+   "l": 0,
+   "pf": 1308,
+   "pa": 1114,
+   "gw": 46,
+   "gl": 18,
+   "diff": 194,
+   "gameDiff": 28,
+   "power": 1.1,
+   "powerRank": 2,
+   "pod": 3,
+   "reportedPod": "Southwest",
+   "podName": "Southwest",
+   "fmt": {
+    "mixed": [
+     23,
+     9
+    ],
+    "male": [
+     10,
+     6
+    ],
+    "female": [
+     13,
+     3
+    ]
+   }
+  },
+  {
    "name": "Montville",
    "w": 2,
    "l": 1,
@@ -13883,7 +13883,7 @@
    "gameDiff": 30,
    "power": 1,
    "powerRank": 3,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -13943,7 +13943,7 @@
    "gameDiff": 18,
    "power": 0.2,
    "powerRank": 4,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -14003,7 +14003,7 @@
    "gameDiff": 10,
    "power": 0,
    "powerRank": 4,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -14063,7 +14063,7 @@
    "gameDiff": 8,
    "power": 0.1,
    "powerRank": 5,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -14153,7 +14153,7 @@
    "gameDiff": 14,
    "power": 1,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -14393,7 +14393,7 @@
    "gameDiff": -20,
    "power": -0.2,
    "powerRank": 5,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -14423,7 +14423,7 @@
    "gameDiff": -24,
    "power": -0.3,
    "powerRank": 7,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -14453,7 +14453,7 @@
    "gameDiff": -28,
    "power": -0.2,
    "powerRank": 6,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -14483,7 +14483,7 @@
    "gameDiff": -30,
    "power": -1,
    "powerRank": 8,
-   "pod": 3,
+   "pod": 2,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -14513,7 +14513,7 @@
    "gameDiff": -28,
    "power": -0.8,
    "powerRank": 6,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -14543,7 +14543,7 @@
    "gameDiff": -62,
    "power": -1.5,
    "powerRank": 7,
-   "pod": 2,
+   "pod": 3,
    "reportedPod": "Southwest",
    "podName": "Southwest",
    "fmt": {
@@ -39381,8 +39381,8 @@
   "podCount": 4,
   "podNames": [
    "Northeast",
-   "Southwest",
    "Northwest",
+   "Southwest",
    "Southeast"
   ],
   "podSource": "api",

@@ -97,7 +97,7 @@ function writeDivision(dir, opts = {}) {
   // the API handing us the same roster in a different (rank-driven) order.
   const rows = [...players, ...(opts.extraPlayers || [])];
   fs.writeFileSync(path.join(dir, 'players.json'), JSON.stringify({ $values: opts.orderPlayers ? opts.orderPlayers(rows) : rows }));
-  fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify(matchupDetails));
+  fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify([...matchupDetails, ...(opts.extraMatchupDetails || [])]));
   fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: [] }));
   fs.writeFileSync(path.join(dir, 'playoffMatchupDetails.json'), JSON.stringify([]));
 }
@@ -388,4 +388,84 @@ test('reversing the roster file changes no reported value', (t) => {
   assert.deepEqual(byId(forward), byId(reversed));
   const byTeam = (d) => Object.fromEntries(d.teams.map((x) => [x.name, x]));
   assert.deepEqual(byTeam(forward), byTeam(reversed));
+});
+
+// Regression for a standings bug reported 2026-09-11: two undefeated teams
+// with a different number of match wins (2-0 vs 1-0) both got ratio(w,l) === 1
+// (losses is 0 for both), so a tie on match record fell straight through to
+// the game-record tiebreaker — letting a team with fewer match wins but a
+// cleaner individual-game sweep outrank a team with strictly more match wins.
+test('a team with more match wins outranks one with fewer, even if its game record is worse', (t) => {
+  const aces2ndWin = {
+    matchupId: 'm4', weekNumber: 4, homeTeamId: TEAMS.A, awayTeamId: 'team-osprey',
+    homeName: 'Aces', awayName: 'Ospreys', homePoints: 20, awayPoints: 18,
+    endResult: 'home', scheduledTime: '2026-08-31T19:00:00',
+  };
+  const foxesWin = {
+    matchupId: 'm5', weekNumber: 4, homeTeamId: 'team-fox', awayTeamId: 'team-gull',
+    homeName: 'Foxes', awayName: 'Gulls', homePoints: 22, awayPoints: 10,
+    endResult: 'home', scheduledTime: '2026-08-31T19:00:00',
+  };
+  const aces2ndWinDetail = {
+    matchupId: 'm4',
+    details: {
+      matchup: { endResult: 'home' },
+      matchupPlayerStats: { $values: [
+        matchupPlayer('a1', TEAMS.A, { gamesPlayed: 2, wins: 1, losses: 1, pointsWon: 20, totalPointsAgainst: 18 }),
+        matchupPlayer('a2', TEAMS.A, { gamesPlayed: 2, wins: 1, losses: 1, pointsWon: 20, totalPointsAgainst: 18 }),
+        matchupPlayer('o1', 'team-osprey', { gamesPlayed: 2, wins: 1, losses: 1, pointsWon: 18, totalPointsAgainst: 20 }),
+        matchupPlayer('o2', 'team-osprey', { gamesPlayed: 2, wins: 1, losses: 1, pointsWon: 18, totalPointsAgainst: 20 }),
+      ] },
+      // Aces win the match (endResult: 'home') but split the individual games
+      // 1-1, dragging their game record down to 3-1 (0.75) across both matches.
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'o1', awayPlayerId2: 'o2', homeScore: 11, awayScore: 9, matchType: 'male', matchupId: 'm4' },
+        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'o1', awayPlayerId2: 'o2', homeScore: 9, awayScore: 11, matchType: 'male', matchupId: 'm4' },
+      ] } },
+    },
+  };
+  const foxesWinDetail = {
+    matchupId: 'm5',
+    details: {
+      matchup: { endResult: 'home' },
+      matchupPlayerStats: { $values: [
+        matchupPlayer('f1', 'team-fox', { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 10 }),
+        matchupPlayer('f2', 'team-fox', { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 10 }),
+        matchupPlayer('g1', 'team-gull', { gamesPlayed: 2, wins: 0, losses: 2, pointsWon: 10, totalPointsAgainst: 22 }),
+        matchupPlayer('g2', 'team-gull', { gamesPlayed: 2, wins: 0, losses: 2, pointsWon: 10, totalPointsAgainst: 22 }),
+      ] },
+      // Foxes sweep both individual games: a perfect 2-0 game record, but from
+      // a single match win — one fewer match win than Aces end up with.
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'f1', homePlayerId2: 'f2', awayPlayerId1: 'g1', awayPlayerId2: 'g2', homeScore: 11, awayScore: 5, matchType: 'male', matchupId: 'm5' },
+        { homePlayerId1: 'f1', homePlayerId2: 'f2', awayPlayerId1: 'g1', awayPlayerId2: 'g2', homeScore: 11, awayScore: 5, matchType: 'male', matchupId: 'm5' },
+      ] } },
+    },
+  };
+
+  const { data } = compileToObjects(t, {
+    extraMatchups: [aces2ndWin, foxesWin],
+    extraMatchupDetails: [aces2ndWinDetail, foxesWinDetail],
+    extraPlayers: [
+      rosterPlayer('o1', 'Ollie', 'Osprey', 'team-osprey', 'Ospreys'),
+      rosterPlayer('o2', 'Ona', 'Osprey', 'team-osprey', 'Ospreys'),
+      rosterPlayer('f1', 'Finn', 'Fox', 'team-fox', 'Foxes'),
+      rosterPlayer('f2', 'Fay', 'Fox', 'team-fox', 'Foxes'),
+      rosterPlayer('g1', 'Gus', 'Gull', 'team-gull', 'Gulls'),
+      rosterPlayer('g2', 'Gia', 'Gull', 'team-gull', 'Gulls'),
+    ],
+  });
+
+  const aces = data.teams.find((team) => team.name === 'Aces');
+  const foxes = data.teams.find((team) => team.name === 'Foxes');
+  assert.equal(aces.w, 2, 'Aces are 2-0 across both matches');
+  assert.equal(aces.l, 0);
+  assert.equal(foxes.w, 1, 'Foxes are only 1-0');
+  assert.equal(foxes.l, 0);
+  assert.ok(aces.gw / (aces.gw + aces.gl) < foxes.gw / (foxes.gw + foxes.gl),
+    'Aces have the worse game record of the two, by construction');
+
+  const rank = (name) => data.teams.findIndex((team) => team.name === name);
+  assert.ok(rank('Aces') < rank('Foxes'),
+    `Aces (2-0) should outrank Foxes (1-0) in standings order, got ranks ${rank('Aces')} and ${rank('Foxes')}`);
 });

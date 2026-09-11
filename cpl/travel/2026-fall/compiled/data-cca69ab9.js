@@ -4731,36 +4731,6 @@
  ],
  "teams": [
   {
-   "name": "Dill Dinkers Freehold",
-   "w": 1,
-   "l": 0,
-   "pf": 638,
-   "pa": 573,
-   "gw": 23,
-   "gl": 9,
-   "diff": 65,
-   "gameDiff": 14,
-   "power": 0.3,
-   "powerRank": 3,
-   "pod": 1,
-   "reportedPod": "North",
-   "podName": "North",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     23,
-     9
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
    "name": "Pickle House",
    "w": 2,
    "l": 0,
@@ -4772,7 +4742,7 @@
    "gameDiff": 22,
    "power": 0.3,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -4802,7 +4772,7 @@
    "gameDiff": 20,
    "power": 1.1,
    "powerRank": 1,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -4832,7 +4802,7 @@
    "gameDiff": 10,
    "power": 0.4,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -4843,6 +4813,36 @@
     "male": [
      37,
      27
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Dill Dinkers Freehold",
+   "w": 1,
+   "l": 0,
+   "pf": 638,
+   "pa": 573,
+   "gw": 23,
+   "gl": 9,
+   "diff": 65,
+   "gameDiff": 14,
+   "power": 0.3,
+   "powerRank": 3,
+   "pod": 2,
+   "reportedPod": "North",
+   "podName": "North",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     23,
+     9
     ],
     "female": [
      0,
@@ -4862,7 +4862,7 @@
    "gameDiff": 4,
    "power": 0.7,
    "powerRank": 2,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -4892,7 +4892,7 @@
    "gameDiff": 4,
    "power": -0.1,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -4922,7 +4922,7 @@
    "gameDiff": 0,
    "power": 0.6,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -4952,7 +4952,7 @@
    "gameDiff": -12,
    "power": -0.3,
    "powerRank": 5,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -4982,7 +4982,7 @@
    "gameDiff": -12,
    "power": -0.6,
    "powerRank": 6,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -5012,7 +5012,7 @@
    "gameDiff": -2,
    "power": -0.7,
    "powerRank": 7,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -5042,7 +5042,7 @@
    "gameDiff": -6,
    "power": 0.3,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -5072,7 +5072,7 @@
    "gameDiff": -12,
    "power": -0.2,
    "powerRank": 4,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -5102,7 +5102,7 @@
    "gameDiff": -30,
    "power": -1.2,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -12134,8 +12134,8 @@
   "singleGender": "Male",
   "podCount": 2,
   "podNames": [
-   "North",
-   "Southeast / Southwest"
+   "Southeast / Southwest",
+   "North"
   ],
   "podSource": "api",
   "reportedPods": [
@@ -12147,6 +12147,11 @@
    "crossPodMatchups": 18,
    "totalMatchups": 78,
    "reported": {
+    "Southeast": [
+     "ACE Moorestown",
+     "Jersey Devil",
+     "Pickle House"
+    ],
     "North": [
      "Dill Dinkers Freehold",
      "Flemington",
@@ -12156,11 +12161,6 @@
      "Pickleball Kingdom Watchung",
      "Premiere"
     ],
-    "Southeast": [
-     "ACE Moorestown",
-     "Jersey Devil",
-     "Pickle House"
-    ],
     "Southwest": [
      "Bounce Malvern",
      "Bounce Tempest",
@@ -12169,6 +12169,14 @@
    },
    "schedule": {
     "Pod 1": [
+     "ACE Moorestown",
+     "Bounce Malvern",
+     "Bounce Tempest",
+     "Jersey Devil",
+     "Pickle House",
+     "Picklr Newtown"
+    ],
+    "Pod 2": [
      "Dill Dinkers Freehold",
      "Flemington",
      "Jersey Pickleball Club",
@@ -12176,14 +12184,6 @@
      "Pickleball Kingdom Hillsborough",
      "Pickleball Kingdom Watchung",
      "Premiere"
-    ],
-    "Pod 2": [
-     "ACE Moorestown",
-     "Bounce Malvern",
-     "Bounce Tempest",
-     "Jersey Devil",
-     "Pickle House",
-     "Picklr Newtown"
     ]
    }
   }

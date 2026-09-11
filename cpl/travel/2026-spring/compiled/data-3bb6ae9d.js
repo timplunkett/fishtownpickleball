@@ -16940,36 +16940,6 @@
  ],
  "teams": [
   {
-   "name": "Bounce Philly Lightning",
-   "w": 12,
-   "l": 0,
-   "pf": 7950,
-   "pa": 5900,
-   "gw": 324,
-   "gl": 60,
-   "diff": 2050,
-   "gameDiff": 264,
-   "power": 2.4,
-   "powerRank": 1,
-   "pod": 1,
-   "reportedPod": "Southeast",
-   "podName": "Southeast",
-   "fmt": {
-    "mixed": [
-     167,
-     25
-    ],
-    "male": [
-     87,
-     9
-    ],
-    "female": [
-     70,
-     26
-    ]
-   }
-  },
-  {
    "name": "Montville",
    "w": 14,
    "l": 0,
@@ -16981,7 +16951,7 @@
    "gameDiff": 204,
    "power": 2,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -16996,6 +16966,36 @@
     "female": [
      74,
      38
+    ]
+   }
+  },
+  {
+   "name": "Bounce Philly Lightning",
+   "w": 12,
+   "l": 0,
+   "pf": 7950,
+   "pa": 5900,
+   "gw": 324,
+   "gl": 60,
+   "diff": 2050,
+   "gameDiff": 264,
+   "power": 2.4,
+   "powerRank": 1,
+   "pod": 2,
+   "reportedPod": "Southeast",
+   "podName": "Southeast",
+   "fmt": {
+    "mixed": [
+     167,
+     25
+    ],
+    "male": [
+     87,
+     9
+    ],
+    "female": [
+     70,
+     26
     ]
    }
   },
@@ -17101,7 +17101,7 @@
    "gameDiff": 126,
    "power": 1,
    "powerRank": 2,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17161,7 +17161,7 @@
    "gameDiff": 50,
    "power": 0.8,
    "powerRank": 3,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17281,7 +17281,7 @@
    "gameDiff": 72,
    "power": 0.8,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -17311,7 +17311,7 @@
    "gameDiff": 64,
    "power": 0.9,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -17341,7 +17341,7 @@
    "gameDiff": 26,
    "power": 0.8,
    "powerRank": 4,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -17352,6 +17352,66 @@
     "male": [
      58,
      54
+    ],
+    "female": [
+     59,
+     53
+    ]
+   }
+  },
+  {
+   "name": "Sportime Wayne",
+   "w": 7,
+   "l": 7,
+   "pf": 8500,
+   "pa": 8327,
+   "gw": 227,
+   "gl": 221,
+   "diff": 173,
+   "gameDiff": 6,
+   "power": 0.7,
+   "powerRank": 5,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     114,
+     110
+    ],
+    "male": [
+     55,
+     57
+    ],
+    "female": [
+     58,
+     54
+    ]
+   }
+  },
+  {
+   "name": "Flemington",
+   "w": 7,
+   "l": 7,
+   "pf": 8562,
+   "pa": 8323,
+   "gw": 226,
+   "gl": 222,
+   "diff": 239,
+   "gameDiff": 4,
+   "power": 0.7,
+   "powerRank": 6,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     118,
+     106
+    ],
+    "male": [
+     49,
+     63
     ],
     "female": [
      59,
@@ -17386,66 +17446,6 @@
     "female": [
      39,
      57
-    ]
-   }
-  },
-  {
-   "name": "Sportime Wayne",
-   "w": 7,
-   "l": 7,
-   "pf": 8500,
-   "pa": 8327,
-   "gw": 227,
-   "gl": 221,
-   "diff": 173,
-   "gameDiff": 6,
-   "power": 0.7,
-   "powerRank": 5,
-   "pod": 2,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     114,
-     110
-    ],
-    "male": [
-     55,
-     57
-    ],
-    "female": [
-     58,
-     54
-    ]
-   }
-  },
-  {
-   "name": "Flemington",
-   "w": 7,
-   "l": 7,
-   "pf": 8562,
-   "pa": 8323,
-   "gw": 226,
-   "gl": 222,
-   "diff": 239,
-   "gameDiff": 4,
-   "power": 0.7,
-   "powerRank": 6,
-   "pod": 2,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     118,
-     106
-    ],
-    "male": [
-     49,
-     63
-    ],
-    "female": [
-     59,
-     53
     ]
    }
   },
@@ -17491,7 +17491,7 @@
    "gameDiff": -66,
    "power": -0.1,
    "powerRank": 4,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17581,7 +17581,7 @@
    "gameDiff": -92,
    "power": -0.7,
    "powerRank": 6,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17611,7 +17611,7 @@
    "gameDiff": -96,
    "power": -0.5,
    "powerRank": 7,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -17641,7 +17641,7 @@
    "gameDiff": -86,
    "power": -0.5,
    "powerRank": 5,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17701,7 +17701,7 @@
    "gameDiff": -196,
    "power": -1.4,
    "powerRank": 7,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "Southeast",
    "podName": "Southeast",
    "fmt": {
@@ -17761,7 +17761,7 @@
    "gameDiff": -280,
    "power": -1.8,
    "powerRank": 8,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Northwest",
    "podName": "Northwest",
    "fmt": {
@@ -129701,8 +129701,8 @@
   "seasonStatus": "archived",
   "podCount": 4,
   "podNames": [
-   "Southeast",
    "Northwest",
+   "Southeast",
    "Northeast",
    "Southwest"
   ],

@@ -9808,36 +9808,6 @@
    }
   },
   {
-   "name": "Bounce Philly",
-   "w": 1,
-   "l": 0,
-   "pf": 681,
-   "pa": 574,
-   "gw": 25,
-   "gl": 7,
-   "diff": 107,
-   "gameDiff": 18,
-   "power": 0.8,
-   "powerRank": 1,
-   "pod": 2,
-   "reportedPod": "Southwest",
-   "podName": "Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     13,
-     3
-    ],
-    "male": [
-     5,
-     3
-    ],
-    "female": [
-     7,
-     1
-    ]
-   }
-  },
-  {
    "name": "Pickleball Kingdom Tinton Falls",
    "w": 2,
    "l": 0,
@@ -9898,36 +9868,6 @@
    }
   },
   {
-   "name": "Players Courtyard",
-   "w": 1,
-   "l": 0,
-   "pf": 632,
-   "pa": 563,
-   "gw": 20,
-   "gl": 12,
-   "diff": 69,
-   "gameDiff": 8,
-   "power": 1,
-   "powerRank": 1,
-   "pod": 2,
-   "reportedPod": "Southeast",
-   "podName": "Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     7,
-     9
-    ],
-    "male": [
-     7,
-     1
-    ],
-    "female": [
-     6,
-     2
-    ]
-   }
-  },
-  {
    "name": "Pickleball Kingdom Hamilton",
    "w": 2,
    "l": 0,
@@ -9958,36 +9898,6 @@
    }
   },
   {
-   "name": "ACE Downingtown",
-   "w": 1,
-   "l": 0,
-   "pf": 616,
-   "pa": 591,
-   "gw": 19,
-   "gl": 13,
-   "diff": 25,
-   "gameDiff": 6,
-   "power": 0.1,
-   "powerRank": 3,
-   "pod": 2,
-   "reportedPod": "Southwest",
-   "podName": "Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     10,
-     6
-    ],
-    "male": [
-     4,
-     4
-    ],
-    "female": [
-     5,
-     3
-    ]
-   }
-  },
-  {
    "name": "Pickleball Palace",
    "w": 2,
    "l": 0,
@@ -10014,6 +9924,96 @@
     "female": [
      12,
      4
+    ]
+   }
+  },
+  {
+   "name": "Bounce Philly",
+   "w": 1,
+   "l": 0,
+   "pf": 681,
+   "pa": 574,
+   "gw": 25,
+   "gl": 7,
+   "diff": 107,
+   "gameDiff": 18,
+   "power": 0.8,
+   "powerRank": 1,
+   "pod": 2,
+   "reportedPod": "Southwest",
+   "podName": "Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     13,
+     3
+    ],
+    "male": [
+     5,
+     3
+    ],
+    "female": [
+     7,
+     1
+    ]
+   }
+  },
+  {
+   "name": "Players Courtyard",
+   "w": 1,
+   "l": 0,
+   "pf": 632,
+   "pa": 563,
+   "gw": 20,
+   "gl": 12,
+   "diff": 69,
+   "gameDiff": 8,
+   "power": 1,
+   "powerRank": 1,
+   "pod": 2,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     7,
+     9
+    ],
+    "male": [
+     7,
+     1
+    ],
+    "female": [
+     6,
+     2
+    ]
+   }
+  },
+  {
+   "name": "ACE Downingtown",
+   "w": 1,
+   "l": 0,
+   "pf": 616,
+   "pa": 591,
+   "gw": 19,
+   "gl": 13,
+   "diff": 25,
+   "gameDiff": 6,
+   "power": 0.1,
+   "powerRank": 3,
+   "pod": 2,
+   "reportedPod": "Southwest",
+   "podName": "Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     10,
+     6
+    ],
+    "male": [
+     4,
+     4
+    ],
+    "female": [
+     5,
+     3
     ]
    }
   },
@@ -22232,13 +22232,6 @@
      "Picklr Newark",
      "Players Courtyard"
     ],
-    "Southwest": [
-     "ACE Downingtown",
-     "Bounce Philly",
-     "Dill Dinkers Hatboro",
-     "Pickleball Kingdom Hamilton",
-     "Pickleball Kingdom Lehigh Valley"
-    ],
     "Northeast A": [
      "Jersey Pickleball Club",
      "Pickleball HQ",
@@ -22248,6 +22241,13 @@
      "Pickleball Kingdom Hillsborough",
      "PickleRage Union County Net Ninjas",
      "PickleRage Union County Pandas"
+    ],
+    "Southwest": [
+     "ACE Downingtown",
+     "Bounce Philly",
+     "Dill Dinkers Hatboro",
+     "Pickleball Kingdom Hamilton",
+     "Pickleball Kingdom Lehigh Valley"
     ],
     "Northwest A": [
      "Home Court",

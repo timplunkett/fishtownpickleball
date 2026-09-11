@@ -685,6 +685,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   }
   teamArr.sort((a, b) => (
     ratio(b.w, b.l) - ratio(a.w, a.l) ||
+    (b.w - a.w) ||
     ratio(b.gw, b.gl) - ratio(a.gw, a.gl) ||
     (b.diff - a.diff) ||
     a.name.localeCompare(b.name)
