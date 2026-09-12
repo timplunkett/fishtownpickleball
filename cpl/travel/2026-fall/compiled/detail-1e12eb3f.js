@@ -61114,8 +61114,8 @@
     "teamRes": "L",
     "teamGW": 6,
     "teamGL": 26,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -61141,8 +61141,8 @@
     "teamRes": "L",
     "teamGW": 1,
     "teamGL": 31,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -61159,8 +61159,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61175,8 +61175,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61191,8 +61191,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61207,8 +61207,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61223,8 +61223,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61239,8 +61239,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61255,8 +61255,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -61271,8 +61271,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61287,8 +61287,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61303,8 +61303,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61319,8 +61319,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61335,8 +61335,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61351,8 +61351,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61367,8 +61367,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -61383,8 +61383,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

@@ -4290,6 +4290,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "David Mcdonough",
+   "playerId": "7fc31e7b-bf19-43f2-a876-728d72287383",
+   "team": "Players Courtyard",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "David Osborne",
    "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb",
    "team": "Flemington Green",
@@ -7842,6 +7849,13 @@ window.DUPR_AUDIT = {
    "name": "Jerry Margulies",
    "playerId": "e5bf1611-3d03-4600-9e72-301e91a9db18",
    "team": "Mercer Bucks",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Jerry Ridder",
+   "playerId": "17d83f5c-38ad-4048-afbb-7302f3aff397",
+   "team": "Pickleball Kingdom Hillsborough",
    "slug": "1e12eb3f",
    "gender": "Male"
   },
