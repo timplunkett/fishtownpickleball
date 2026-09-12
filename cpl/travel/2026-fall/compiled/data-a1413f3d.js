@@ -29930,6 +29930,50 @@
    "complete": false,
    "games": [
     {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tessa Arendt",
+      "Jesse Martinez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Glassman",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Moliver",
+      "Elliott Bauer"
+     ]
+    },
+    {
      "t": "female",
      "h": [
       "",
@@ -29948,7 +29992,51 @@
      ],
      "a": [
       "Mickey Ma",
+      "Karen Moliver"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
       ""
+     ],
+     "a": [
+      "Tessa Arendt",
+      "Jesse Martinez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Glassman",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Anuj Mehta"
      ]
     },
     {
@@ -29969,8 +30057,118 @@
       ""
      ],
      "a": [
-      "Mickey Ma",
+      "Jingru Du",
+      "Karen Moliver"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
       ""
+     ],
+     "a": [
+      "Jingru Du",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Glassman",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Moliver",
+      "Jesse Martinez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Moliver",
+      "Jess Glassman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tessa Arendt",
+      "Jingru Du"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Moliver",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jingru Du",
+      "Jesse Martinez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tessa Arendt",
+      "Anuj Mehta"
      ]
     },
     {
@@ -29992,29 +30190,7 @@
      ],
      "a": [
       "Tessa Arendt",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lindsay Henzes",
-      "Jess Glassman"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tessa Arendt",
-      ""
+      "Karen Moliver"
      ]
     }
    ]
@@ -31046,7 +31222,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-11T05:20:40.636Z";
+  DATA.meta.asOf = "2026-09-12T09:49:55.276Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
