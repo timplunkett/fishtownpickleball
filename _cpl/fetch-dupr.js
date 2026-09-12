@@ -4,6 +4,7 @@ const { jsonStringify, expandJson } = require('./modules/json-utils');
 const { writeDuprShards } = require('./modules/dupr-outputs');
 const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules/dupr-warnings');
 const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
+const { createProgressLine } = require('./modules/progress-line');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -98,8 +99,14 @@ function formatMissRateError(attempted, missed) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// Logged live, exactly as before, and replayed after the summary table.
-const { messages: warnings, warn } = createWarningLog();
+// A pinned "Processing X of Y" status line, with finished results and
+// warnings scrolling above it — see modules/progress-line.js.
+const progress = createProgressLine();
+
+// Logged live, exactly as before (routed through `progress` so a warning
+// scrolls above the pinned status instead of garbling it), and replayed
+// after the summary table.
+const { messages: warnings, warn } = createWarningLog(progress.wrapSink());
 
 function printWarningReport() {
   const report = formatWarningReport(warnings);
@@ -392,6 +399,7 @@ async function run() {
   let missedLookups = 0;
 
   const persistAndExit = (signal) => {
+    progress.done();
     warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
     saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
     writeDuprRatingsJs(globalPlayers);
@@ -405,7 +413,10 @@ async function run() {
   for (let i = 0; i < playersToFetch.length; i += 1) {
     const player = playersToFetch[i];
     const fullName = `${player.firstName} ${player.lastName}`.trim();
-    console.log(`Processing ${i + 1} of ${playersToFetch.length}: ${fullName} (${player.dupr})`);
+    const label = `${fullName} (${player.dupr})`;
+    // Pinned as the last line while this player's lookup is in flight;
+    // replaced by the next player's status once this one resolves below.
+    progress.set(`Processing ${i + 1} of ${playersToFetch.length}: ${label}`);
 
     if (duprCache.has(player.dupr)) {
       const cached = duprCache.get(player.dupr);
@@ -422,9 +433,12 @@ async function run() {
         'Numeric ID': cachedNumericId ?? '—',
         'Fetched Rating': cachedRating,
       });
+      // Reused from another player's lookup this run — nothing new to report.
+      progress.println(`🔁 ${label}`);
       continue;
     }
 
+    const previousRating = player.duprRating;
     const { rating, provisional, numericId, rateLimited, found } = await fetchDuprRating(player.dupr, player.duprNumericId ?? null);
     // Counted here, past the cache `continue` above, so the denominator holds
     // only lookups that actually reached the API.
@@ -439,6 +453,7 @@ async function run() {
         'Numeric ID': '—',
         'Fetched Rating': 'NR (429)',
       });
+      progress.println(`❌ ${label}`);
       if (consecutive429s >= MAX_CONSECUTIVE_429) {
         warn(`\n[WARN] Hit ${MAX_CONSECUTIVE_429} consecutive 429 responses; stopping early.`);
         shouldStop = true;
@@ -470,12 +485,19 @@ async function run() {
         'Numeric ID': numericId ?? '—',
         'Fetched Rating': resolvedRating != null ? resolvedRating : 'not found',
       });
+
+      // ❌ the lookup failed outright; ✅ it resolved to a different rating
+      // than the player already had on file; 🔁 it resolved but matched what
+      // was already on file.
+      const outcomeEmoji = !found ? '❌' : (resolvedRating !== previousRating ? '✅' : '🔁');
+      progress.println(`${outcomeEmoji} ${label}`);
     }
 
     if (i + 1 < playersToFetch.length) {
       await sleep(REQUEST_DELAY_MS);
     }
   }
+  progress.done();
 
   console.log(`\nSaving global players to: ${GLOBAL_PLAYERS_FILE}`);
   saveGlobalPlayers(globalPlayers, shouldStop ? 'early stop' : 'complete run');
