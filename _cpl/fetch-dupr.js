@@ -5,6 +5,7 @@ const { writeDuprShards } = require('./modules/dupr-outputs');
 const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules/dupr-warnings');
 const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
 const { createProgressLine } = require('./modules/progress-line');
+const { guardAgainstReentry } = require('./modules/reentry-guard');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -398,17 +399,44 @@ async function run() {
   let attemptedLookups = 0;
   let missedLookups = 0;
 
-  const persistAndExit = (signal) => {
-    progress.done();
-    warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
+  // Guarded against a second SIGINT/SIGTERM arriving while the first is
+  // still saving (e.g. an impatient double Ctrl-C, or a shell that resends
+  // it on hangup). Without this, `process.once` below has already removed
+  // its own listener by the time it runs, so that second signal falls
+  // through to Node's default handling — an immediate, unhandled exit — and
+  // can land mid-`fs.writeFileSync`, truncating global_players.json into
+  // invalid JSON rather than just failing to save. Confirmed by
+  // reproduction: two SIGINTs 10ms apart reliably killed the process
+  // mid-write; see modules/reentry-guard.js for the guard itself.
+  const persistAndExit = guardAgainstReentry((signal) => {
+    // Cosmetic only (clearing the pinned line, logging the interrupt) — must
+    // never be allowed to block the save below.
+    try {
+      progress.done();
+      warn(`\n[WARN] Received ${signal}; saving successful DUPR lookups before exit...`);
+    } catch (err) {
+      console.error('[WARN] Failed to log the interrupt (saving anyway):', err);
+    }
+
     saveGlobalPlayers(globalPlayers, `interrupted by ${signal}`);
     writeDuprRatingsJs(globalPlayers);
-    // An interrupted run has no summary table, so this is the only replay it gets.
-    printWarningReport();
+
+    // An interrupted run has no summary table, so this is the only replay it
+    // gets. Also guarded: a report that fails to format must not stop the
+    // process.exit() below, which is what actually matters once the two
+    // writes above have already landed.
+    try {
+      printWarningReport();
+    } catch (err) {
+      console.error('[WARN] Failed to print the warning report:', err);
+    }
     process.exit(130);
-  };
-  process.once('SIGINT', persistAndExit);
-  process.once('SIGTERM', persistAndExit);
+  });
+  // Not `.once`: a listener that already fired and removed itself would leave
+  // a fast second signal with no listener at all — the exact gap
+  // guardAgainstReentry() closes above.
+  process.on('SIGINT', persistAndExit);
+  process.on('SIGTERM', persistAndExit);
 
   for (let i = 0; i < playersToFetch.length; i += 1) {
     const player = playersToFetch[i];
