@@ -5718,6 +5718,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Frank Choi",
+   "playerId": "36634ff8-fb26-4b88-9978-85c3863c3436",
+   "team": "Players Courtyard",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Frank Clark",
    "playerId": "fb42e711-528f-4028-80c6-e32013e3f807",
    "team": "Flemington",
@@ -16845,13 +16852,6 @@ window.DUPR_AUDIT = {
    "playerId": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
    "team": "Pickleball HQ",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Thomas Musso",
-   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
-   "team": "Premiere Dinkers",
-   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {

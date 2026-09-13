@@ -125,9 +125,9 @@
       "weekNumber": 4,
       "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 646,
+      "awayPoints": 593,
+      "endResult": "home",
       "scheduledTime": "2026-09-12T14:00:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Stelton Sports"
@@ -265,18 +265,6 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
-      "weekNumber": 6,
-      "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T14:00:00",
-      "homeName": "Stelton Sports",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "d1f150bd-04bb-4afa-8ae8-062577a11f54",
       "weekNumber": 6,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -347,6 +335,18 @@
       "scheduledTime": "2026-09-27T18:00:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Bounce Malvern Black"
+    },
+    {
+      "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
+      "weekNumber": 6,
+      "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-04T14:00:00",
+      "homeName": "Stelton Sports",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "254cad7f-223e-4475-b081-88c86459b979",
