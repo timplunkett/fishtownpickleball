@@ -9608,8 +9608,8 @@
     "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -9626,8 +9626,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -9642,8 +9642,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -9658,8 +9658,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -9674,8 +9674,8 @@
     "a": 23,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -9690,8 +9690,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

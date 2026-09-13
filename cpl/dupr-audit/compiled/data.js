@@ -3786,6 +3786,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Cynthia Li",
+   "playerId": "8b88d91a-72e4-47ae-882d-4854110c1a5e",
+   "team": "LBF Pickleball",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Daisy Zhang",
    "playerId": "5c9816a6-756b-4d45-803c-e38339915b28",
    "team": "Dill Dinkers Hatboro Aces",
@@ -6654,6 +6661,13 @@ window.DUPR_AUDIT = {
    "team": "APC Garden State",
    "slug": "c43b8608",
    "gender": "Male"
+  },
+  {
+   "name": "Huifang Yao",
+   "playerId": "0678b5e4-cf92-49cb-8689-2d90cc356950",
+   "team": "PickleRage Union County Net Ninjas",
+   "slug": "e27386b3",
+   "gender": "Female"
   },
   {
    "name": "Ian Chin",
@@ -16855,6 +16869,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Thomas Musso",
+   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+   "team": "Premiere Dinkers",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Thomas Nguyen",
    "playerId": "9c6d4e1a-71eb-4c19-af5b-7efc2758939a",
    "team": "Bounce Tempest",
@@ -17321,6 +17342,13 @@ window.DUPR_AUDIT = {
    "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
    "team": "Jersey Devil",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Tyler Arsenault",
+   "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
+   "team": "Jersey Devil",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {

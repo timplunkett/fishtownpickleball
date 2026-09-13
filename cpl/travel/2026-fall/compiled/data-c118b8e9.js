@@ -6721,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 266,
+   "leagueRank": 272,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6750,7 +6750,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 268,
+   "leagueRank": 274,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6779,7 +6779,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 254,
+   "leagueRank": 256,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 267,
+   "leagueRank": 273,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6837,7 +6837,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 251,
+   "leagueRank": 252,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 255,
+   "leagueRank": 257,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6924,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 261,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -23057,7 +23057,361 @@
    "home": "Dill Dinkers Freehold",
    "away": "Jersey Devil",
    "time": "2026-09-15T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Hadley",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Hadley",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "Dan Carpenter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "Frederick Cox"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Carter",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Hadley",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frederick Cox",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Carter",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frederick Cox",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mario Contreras",
+      "Frederick Cox"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Hadley",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mario Contreras",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frederick Cox",
+      "Daniel Hadley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Carter",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mario Contreras",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Hadley",
+      "Frederick Cox"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23748,6 +24102,7 @@
   "Alexander King": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Sujoy Gayen": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
+  "Todd Mitchell": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
@@ -23759,8 +24114,13 @@
   "Jake Cohen": "a6be8670-4787-48dd-83ff-b2157062cb84",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
+  "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
+  "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
+  "Chaitanya Sharma": "d5e18b3e-0836-42c4-9774-810e048ef675",
+  "Steve Lerner": "d634d992-c9d8-4e31-acb7-45b1161eee19",
   "Yufan Chen": "da53bfc3-c4c3-4746-b5b6-4f4af796cf0f",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
+  "Kyle Kelly": "e0faca04-4875-4806-b0a3-4830f4dcd52e",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
  },
@@ -23866,7 +24226,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-11T03:06:13.001Z";
+  DATA.meta.asOf = "2026-09-13T13:44:40.286Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

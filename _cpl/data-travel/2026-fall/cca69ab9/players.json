@@ -113,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 158
+      "ranking": 159
     },
     {
       "playerId": "081fc233-7f01-432d-85f9-c623b0524f49",
@@ -343,7 +343,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 157
+      "ranking": 158
     },
     {
       "playerId": "1009522f-1f54-4cf1-a0a0-e24ad64f4a66",
@@ -412,7 +412,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 169
+      "ranking": 172
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -550,7 +550,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 164
+      "ranking": 166
     },
     {
       "playerId": "1ddcd805-f965-4357-9567-35920e191f8c",
@@ -964,7 +964,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 166
+      "ranking": 168
     },
     {
       "playerId": "37c7c06b-1600-450e-9f14-61d397872bc6",
@@ -1194,7 +1194,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 163
+      "ranking": 165
     },
     {
       "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
@@ -1286,7 +1286,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 165
+      "ranking": 167
+    },
+    {
+      "playerId": "4ce1c715-b187-47c5-b6dc-d079f802499d",
+      "firstName": "Eric",
+      "lastName": "Lin",
+      "gender": "Male",
+      "dupr": "EGXOZW",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "teamName": "Dill Dinkers Freehold",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 157
     },
     {
       "playerId": "4de9fd52-8910-4c2f-9aad-e2e55a0e33a1",
@@ -1562,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 162
+      "ranking": 164
     },
     {
       "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
@@ -1585,7 +1608,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 170
+      "ranking": 173
     },
     {
       "playerId": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
@@ -1884,7 +1907,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 160
+      "ranking": 162
     },
     {
       "playerId": "6f1df3a0-bfc7-4d3b-a5f5-0ee9f40da488",
@@ -2161,6 +2184,29 @@
       "genderWins": 4,
       "genderLosses": 10,
       "ranking": 121
+    },
+    {
+      "playerId": "831c9fae-38c6-4961-8664-634087f5f2f9",
+      "firstName": "Johny",
+      "lastName": "Mario",
+      "gender": "Male",
+      "dupr": "RYD2PQ",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "teamName": "Jersey Devil",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 160
     },
     {
       "playerId": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac",
@@ -2643,7 +2689,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 168
+      "ranking": 171
     },
     {
       "playerId": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
@@ -2690,6 +2736,29 @@
       "genderWins": 8,
       "genderLosses": 6,
       "ranking": 64
+    },
+    {
+      "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
+      "firstName": "Raaj",
+      "lastName": "Singh",
+      "gender": "Male",
+      "dupr": "RZZORM",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 170
     },
     {
       "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
@@ -3402,7 +3471,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 161
+      "ranking": 163
     },
     {
       "playerId": "e47d28f2-187f-4aa7-acb8-356787ff82e5",
@@ -3448,7 +3517,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 159
+      "ranking": 161
     },
     {
       "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
@@ -3457,7 +3526,7 @@
       "gender": "Male",
       "dupr": "9P27WK",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
       "wins": 8,
@@ -3494,7 +3563,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 172
+      "ranking": 175
     },
     {
       "playerId": "e8bb81fd-869a-459d-8108-b9ac6bc1b84d",
@@ -3586,7 +3655,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 171
+      "ranking": 174
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
@@ -3724,7 +3793,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 167
+      "ranking": 169
     },
     {
       "playerId": "f8183a0c-23a1-4b0f-99aa-fc50e5f58744",

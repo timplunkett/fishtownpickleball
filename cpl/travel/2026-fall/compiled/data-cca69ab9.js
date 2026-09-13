@@ -1687,8 +1687,8 @@
    "name": "Tyler Arsenault",
    "gender": "Male",
    "team": "Jersey Devil",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 8,
@@ -1701,7 +1701,6 @@
    "genderLosses": 7,
    "clutchWins": 1,
    "clutchLosses": 4,
-   "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
    "winPct": 53.3,
    "diff": 31,
    "ppg": 19.5,
@@ -1710,7 +1709,8 @@
    "ratingGames": 15,
    "confidence": 71,
    "strengthOfPartners": 1.1,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e"
   },
   {
    "name": "Marc Padre",
@@ -4082,7 +4082,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 158,
+   "leagueRank": 159,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4169,7 +4169,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 157,
+   "leagueRank": 158,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 169,
+   "leagueRank": 172,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4256,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 164,
+   "leagueRank": 166,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 166,
+   "leagueRank": 168,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4372,7 +4372,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 165,
+   "leagueRank": 167,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4401,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 162,
+   "leagueRank": 164,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4459,7 +4459,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 168,
+   "leagueRank": 171,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 161,
+   "leagueRank": 163,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4633,7 +4633,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 159,
+   "leagueRank": 161,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 172,
+   "leagueRank": 175,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6898,7 +6898,6 @@
    ],
    "subs": [
     "Zach Bowe",
-    "Tyler Arsenault",
     "Jack Blumberg"
    ]
   },
@@ -11557,7 +11556,6 @@
    ],
    "subs": [
     "Zach Bowe",
-    "Tyler Arsenault",
     "David Brandolph",
     "Damien Stahl",
     "Vincent Tran"
@@ -11577,7 +11575,361 @@
    "home": "Premiere",
    "away": "Monroe",
    "time": "2026-09-14T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Julius Degen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ivan Rios",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ivan Rios",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Julius Degen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brian O'Neill",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Jonathan Ksiezopolski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Jonathan Ksiezopolski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Brian O'Neill"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julius Degen",
+      "Salman Saad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aleksey Sergeev",
+      "Jacob Rosengarten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Purwah",
+      "Ivan Rios"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Ksiezopolski",
+      "Brian O'Neill"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11585,7 +11937,361 @@
    "home": "Picklr Newtown",
    "away": "Jersey Devil",
    "time": "2026-09-14T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vince Abate",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Vince Abate"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Ryan Furman"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11593,7 +12299,361 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-09-14T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Joshua Octaviano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Marr Flores"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Octaviano",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Marr Flores"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marr Flores",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Joshua Octaviano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Joshua Octaviano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marr Flores",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Joshua Octaviano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Marr Flores"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josiah Kim",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Joshua Octaviano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marr Flores",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Marr Flores"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Octaviano",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marr Flores",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Octaviano",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Kevin Sun"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11601,7 +12661,361 @@
    "home": "Bounce Malvern",
    "away": "ACE Moorestown",
    "time": "2026-09-14T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Bryan Nardone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vineeth Mathew",
+      "Nachiket Vaidya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Vineeth Mathew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Nardone",
+      "Nachiket Vaidya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Marc Harden"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nachiket Vaidya",
+      "Matthew Mintz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Nardone",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vineeth Mathew",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Bryan Nardone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vineeth Mathew",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Nachiket Vaidya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Daniel Ehala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Riguo Zheng",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vineeth Mathew",
+      "Nachiket Vaidya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Bryan Nardone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nachiket Vaidya",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Daniel Ehala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Riguo Zheng",
+      "Bryan Nardone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Vineeth Mathew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Nardone",
+      "Vineeth Mathew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Nachiket Vaidya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Harden",
+      "Raaj Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Ehala",
+      "Bryan Nardone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nachiket Vaidya",
+      "Riguo Zheng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Mintz",
+      "Vineeth Mathew"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11609,7 +13023,306 @@
    "home": "Bounce Tempest",
    "away": "Pickle House",
    "time": "2026-09-14T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rich Marcovecchio",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tarkan Akas",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tarkan Akas",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Rich Marcovecchio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tarkan Akas",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      ""
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -12097,9 +13810,12 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
+  "Eric Lin": "4ce1c715-b187-47c5-b6dc-d079f802499d",
   "Nicholas Yandoli": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Chen": "68e9ac74-5119-4dbb-8503-72bcdbade183",
+  "Johny Mario": "831c9fae-38c6-4961-8664-634087f5f2f9",
+  "Raaj Singh": "accc50ff-13a1-4349-9c6f-b725f2486931",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
   "Salman Saad": "f7c4d103-d246-456d-8fd5-6418c6a0e002"
@@ -12189,7 +13905,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-11T03:05:51.787Z";
+  DATA.meta.asOf = "2026-09-13T13:44:19.641Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

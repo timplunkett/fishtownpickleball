@@ -3177,7 +3177,7 @@
     "duprRating": "3.947",
     "duprNumericId": 5298398516,
     "duprProvisional": false,
-    "lastSeen": "2026-08-31"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "7dbbd17e-9bc8-440d-a09c-dcbe4da688bd",
@@ -3627,7 +3627,7 @@
     "duprRating": "3.238",
     "duprNumericId": 4627668526,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "371bb742-9ea6-464a-8c27-df8469b90a62",
@@ -18457,8 +18457,8 @@
   },
   {
     "playerId": "e0faca04-4875-4806-b0a3-4830f4dcd52e",
-    "firstName": "Kyle",
-    "lastName": "Kelly",
+    "firstName": "KYLE",
+    "lastName": "KELLY",
     "dupr": "V4QLV6",
     "duprRating": "3.739",
     "duprNumericId": 6830356457,
@@ -34655,7 +34655,7 @@
     "lastName": "Wenstrom",
     "dupr": "ME0ZXD",
     "duprRating": "3.298",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 6874172575,
     "duprProvisional": false
   },
@@ -35055,7 +35055,7 @@
     "lastName": "Martorell",
     "dupr": "PZ207G",
     "duprRating": "3.253",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6298377203,
     "duprProvisional": false
   },
@@ -37361,7 +37361,7 @@
     "lastName": "Huang",
     "dupr": "LZKD25",
     "duprRating": "3.643",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 5278939961,
     "duprProvisional": false
   },
@@ -37591,7 +37591,7 @@
     "lastName": "Fabito",
     "dupr": "N7L2K6",
     "duprRating": "3.623",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 4524322492,
     "duprProvisional": false
   },
@@ -39749,7 +39749,7 @@
     "lastName": "Desai",
     "dupr": "4PL6N2",
     "duprRating": "3.864",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 8467387606,
     "duprProvisional": false
   },
@@ -42311,7 +42311,7 @@
     "lastName": "Radomsky",
     "dupr": "2LZ9LY",
     "duprRating": "3.598",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 8144898624,
     "duprProvisional": false
   },
@@ -45827,7 +45827,7 @@
     "playerId": "e5c7646e-bb30-40b2-bb20-bd4c75e814ce",
     "firstName": "Niman",
     "lastName": "Ahmeti",
-    "dupr": "J5O724",
+    "dupr": "J50724",
     "duprRating": "3.401",
     "lastSeen": "2026-09",
     "duprNumericId": 8082688436,
@@ -45996,6 +45996,86 @@
     "firstName": "Vincent",
     "lastName": "Daversa",
     "dupr": "Q9O4XD",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "3da0e40e-3b18-4375-8426-0dbe4b3d8c17",
+    "firstName": "Wenbin",
+    "lastName": "Dang",
+    "dupr": "ELW26W",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "e51938cc-4b58-4738-b95a-1cc62a37f4a6",
+    "firstName": "Rob",
+    "lastName": "Mendez",
+    "dupr": "U5YE94",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "164f7429-f944-4ac8-955b-8b53aa175065",
+    "firstName": "Rob",
+    "lastName": "Mendez",
+    "dupr": "Q5YD94",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "4ff0fd64-934d-4c1d-a1be-c939e89da83c",
+    "firstName": "Maggie",
+    "lastName": "O'Kane",
+    "dupr": "KOLM96",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "8390eb1e-788b-473e-bb3c-aaa1594c76b2",
+    "firstName": "Anthony",
+    "lastName": "Wands",
+    "dupr": "ONQ597",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "d50d8512-f462-48e4-9025-0135117cabae",
+    "firstName": "Allison",
+    "lastName": "Xiao",
+    "dupr": "905MJV",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "29db615a-61dd-4d70-8095-93d65c2af89a",
+    "firstName": "Jean",
+    "lastName": "Xie",
+    "dupr": "R4PGEN",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "d634d992-c9d8-4e31-acb7-45b1161eee19",
+    "firstName": "Steve",
+    "lastName": "Lerner",
+    "dupr": "84XLLM",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "bf789141-926d-44b1-83c9-d5e5853589cb",
+    "firstName": "Zane",
+    "lastName": "Pagotto",
+    "dupr": "G5PL9V",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "d5e18b3e-0836-42c4-9774-810e048ef675",
+    "firstName": "Chaitanya",
+    "lastName": "Sharma",
+    "dupr": "N7EJGW",
     "duprRating": null,
     "lastSeen": "2026-09"
   }

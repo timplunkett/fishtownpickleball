@@ -127347,6 +127347,128 @@
   ],
   "partners": []
  },
+ "8b88d91a-72e4-47ae-882d-4854110c1a5e": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "homeAway": "H",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 53,
+    "pa": 84,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Ling Vance",
+    "vs": [
+     "Colleen Van Ee",
+     "Lana Engler Carss"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "female",
+    "with": "Ling Vance",
+    "vs": [
+     "Deb Morisie",
+     "Arzu Alimjan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Chao Ku",
+    "vs": [
+     "Arzu Alimjan",
+     "Ali Bhimji"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Lehigh Valley",
+    "t": "mixed",
+    "with": "Chao Ku",
+    "vs": [
+     "Arzu Alimjan",
+     "Cullen Curley"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -2.8,
+    "confidence": 39,
+    "rank": 372,
+    "ratingGames": 4,
+    "strengthOfPartners": -2.3,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -3.2,
+    "confidence": 41,
+    "rank": 427,
+    "ratingGames": 4,
+    "strengthOfPartners": -2.7,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": []
+ },
  "a4c54a14-35b4-4b90-aabd-3d81ad719f4d": {
   "log": [
    {
@@ -127646,128 +127768,6 @@
     "ratingGames": 5,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": []
- },
- "8b88d91a-72e4-47ae-882d-4854110c1a5e": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "homeAway": "H",
-    "w": 0,
-    "l": 4,
-    "gp": 4,
-    "pf": 53,
-    "pa": 84,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Ling Vance",
-    "vs": [
-     "Colleen Van Ee",
-     "Lana Engler Carss"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "female",
-    "with": "Ling Vance",
-    "vs": [
-     "Deb Morisie",
-     "Arzu Alimjan"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Chao Ku",
-    "vs": [
-     "Arzu Alimjan",
-     "Ali Bhimji"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Lehigh Valley",
-    "t": "mixed",
-    "with": "Chao Ku",
-    "vs": [
-     "Arzu Alimjan",
-     "Cullen Curley"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -2.8,
-    "confidence": 39,
-    "rank": 372,
-    "ratingGames": 4,
-    "strengthOfPartners": -2.3,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -3.2,
-    "confidence": 41,
-    "rank": 427,
-    "ratingGames": 4,
-    "strengthOfPartners": -2.7,
-    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
