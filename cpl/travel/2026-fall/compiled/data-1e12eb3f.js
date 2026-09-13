@@ -26680,7 +26680,6 @@
    "away": "Dill Dinkers Hatboro",
    "time": "2026-09-12T13:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 592,
    "awayPoints": 638,
    "homeGW": 12,
@@ -30075,7 +30074,7 @@
  },
  "meta": {
   "matchesPlayed": 29,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-4",
   "totalPlayers": 447,
   "ratingHistoryWeeks": [
@@ -30194,7 +30193,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-13T02:12:26.260Z";
+  DATA.meta.asOf = "2026-09-13T10:49:44.800Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

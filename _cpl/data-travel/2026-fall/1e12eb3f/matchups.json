@@ -305,9 +305,9 @@
       "weekNumber": 4,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 592,
+      "awayPoints": 638,
+      "endResult": "away",
       "scheduledTime": "2026-09-12T13:00:00",
       "homeName": "Jersey Devil",
       "awayName": "Dill Dinkers Hatboro"
