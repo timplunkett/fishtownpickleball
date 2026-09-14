@@ -16071,13 +16071,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Stephane Sabathiet",
-   "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
-   "team": "Picklr Newtown",
-   "slug": "c43b8608",
-   "gender": "Male"
-  },
-  {
    "name": "Stephanie George",
    "playerId": "cf0c0485-fa6d-4f0a-9ec1-cd5ed9da8e8e",
    "team": "Dill Dinkers Hatboro Aces",
