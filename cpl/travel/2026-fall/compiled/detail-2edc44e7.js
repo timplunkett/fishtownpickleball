@@ -31714,8 +31714,8 @@
     "teamRes": "L",
     "teamGW": 2,
     "teamGL": 30,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -31732,8 +31732,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -31748,8 +31748,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -31764,8 +31764,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -31780,8 +31780,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -31796,8 +31796,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -31812,8 +31812,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "APC Garden State"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

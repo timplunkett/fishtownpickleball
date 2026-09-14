@@ -553,35 +553,6 @@
    "playerId": "3651f648-493a-4517-8085-a8b9cb086c07"
   },
   {
-   "name": "Dan Carpenter",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 5,
-   "losses": 1,
-   "pointsWon": 122,
-   "totalPointsAgainst": 107,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 5,
-   "genderLosses": 1,
-   "clutchWins": 2,
-   "clutchLosses": 0,
-   "winPct": 83.3,
-   "diff": 15,
-   "ppg": 20.3,
-   "leagueRank": 58,
-   "rating": -0.8,
-   "ratingGames": 6,
-   "confidence": 53,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -2,
-   "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb"
-  },
-  {
    "name": "Bennett Pereira",
    "gender": "Male",
    "team": "Pickle House",
@@ -1742,35 +1713,6 @@
    "playerId": "06d52e99-941a-4ced-9968-f56e6075105a"
   },
   {
-   "name": "Brandon Dejesus",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 21,
-   "wins": 14,
-   "losses": 7,
-   "pointsWon": 417,
-   "totalPointsAgainst": 356,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 14,
-   "genderLosses": 7,
-   "clutchWins": 3,
-   "clutchLosses": 3,
-   "winPct": 66.7,
-   "diff": 61,
-   "ppg": 19.9,
-   "leagueRank": 53,
-   "rating": 2.3,
-   "ratingGames": 21,
-   "confidence": 78,
-   "strengthOfPartners": -0.3,
-   "strengthOfOpponents": -0.2,
-   "playerId": "d50feac2-f147-47d2-8930-99b21b2842ba"
-  },
-  {
    "name": "Pritpal Singh",
    "gender": "Male",
    "team": "Pickleball Kingdom Hamilton",
@@ -1829,35 +1771,6 @@
    "playerId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
   },
   {
-   "name": "Tim Bruno",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 21,
-   "wins": 14,
-   "losses": 7,
-   "pointsWon": 399,
-   "totalPointsAgainst": 359,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 14,
-   "genderLosses": 7,
-   "clutchWins": 3,
-   "clutchLosses": 2,
-   "winPct": 66.7,
-   "diff": 40,
-   "ppg": 19,
-   "leagueRank": 65,
-   "rating": 0.8,
-   "ratingGames": 21,
-   "confidence": 77,
-   "strengthOfPartners": 1.4,
-   "strengthOfOpponents": 0.2,
-   "playerId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f"
-  },
-  {
    "name": "Anil Kumar Jakkaladki",
    "gender": "Male",
    "team": "Pickle House",
@@ -1885,35 +1798,6 @@
    "strengthOfPartners": 0.5,
    "strengthOfOpponents": -0.2,
    "playerId": "176df588-c3ff-4b50-a66a-4df99647254b"
-  },
-  {
-   "name": "Tom Kresky",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": true,
-   "gamesPlayed": 12,
-   "wins": 8,
-   "losses": 4,
-   "pointsWon": 230,
-   "totalPointsAgainst": 211,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 8,
-   "genderLosses": 4,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "winPct": 66.7,
-   "diff": 19,
-   "ppg": 19.2,
-   "leagueRank": 74,
-   "rating": -1.2,
-   "ratingGames": 12,
-   "confidence": 68,
-   "strengthOfPartners": 1.3,
-   "strengthOfOpponents": -1,
-   "playerId": "81875a5e-2b65-4152-bace-b4c96517579d"
   },
   {
    "name": "Meet Thakkar",
@@ -3250,6 +3134,64 @@
    "playerId": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7"
   },
   {
+   "name": "Brandon Dejesus",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 28,
+   "wins": 14,
+   "losses": 7,
+   "pointsWon": 417,
+   "totalPointsAgainst": 356,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 14,
+   "genderLosses": 7,
+   "clutchWins": 3,
+   "clutchLosses": 3,
+   "winPct": 50,
+   "diff": 61,
+   "ppg": 14.9,
+   "leagueRank": 53,
+   "rating": 2.3,
+   "ratingGames": 21,
+   "confidence": 78,
+   "strengthOfPartners": -0.3,
+   "strengthOfOpponents": -0.2,
+   "playerId": "d50feac2-f147-47d2-8930-99b21b2842ba"
+  },
+  {
+   "name": "Tim Bruno",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 28,
+   "wins": 14,
+   "losses": 7,
+   "pointsWon": 399,
+   "totalPointsAgainst": 359,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 14,
+   "genderLosses": 7,
+   "clutchWins": 3,
+   "clutchLosses": 2,
+   "winPct": 50,
+   "diff": 40,
+   "ppg": 14.3,
+   "leagueRank": 65,
+   "rating": 0.8,
+   "ratingGames": 21,
+   "confidence": 77,
+   "strengthOfPartners": 1.4,
+   "strengthOfOpponents": 0.2,
+   "playerId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f"
+  },
+  {
    "name": "Cullen Curley",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -3277,35 +3219,6 @@
    "strengthOfPartners": 0.8,
    "strengthOfOpponents": -0.5,
    "playerId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
-  },
-  {
-   "name": "Derek Livingston",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 18,
-   "wins": 9,
-   "losses": 9,
-   "pointsWon": 330,
-   "totalPointsAgainst": 302,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 9,
-   "clutchWins": 1,
-   "clutchLosses": 2,
-   "winPct": 50,
-   "diff": 28,
-   "ppg": 18.3,
-   "leagueRank": 107,
-   "rating": 2.2,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": -1.3,
-   "strengthOfOpponents": -0.1,
-   "playerId": "593561e7-e873-4261-85ee-25b6ab524bfa"
   },
   {
    "name": "Ryan Hathaway",
@@ -3596,35 +3509,6 @@
    "confidence": 45,
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": -0.2
-  },
-  {
-   "name": "Jonathan Carter",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 18,
-   "wins": 9,
-   "losses": 9,
-   "pointsWon": 324,
-   "totalPointsAgainst": 328,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 9,
-   "clutchWins": 2,
-   "clutchLosses": 1,
-   "winPct": 50,
-   "diff": -4,
-   "ppg": 18,
-   "leagueRank": 128,
-   "rating": -0.5,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0.1,
-   "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7"
   },
   {
    "name": "Ken Weinstein",
@@ -4004,6 +3888,35 @@
    "playerId": "a8585e9c-872e-466c-9583-9680e557f757"
   },
   {
+   "name": "Tom Kresky",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 18,
+   "wins": 8,
+   "losses": 4,
+   "pointsWon": 230,
+   "totalPointsAgainst": 211,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 8,
+   "genderLosses": 4,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 44.4,
+   "diff": 19,
+   "ppg": 12.8,
+   "leagueRank": 74,
+   "rating": -1.2,
+   "ratingGames": 12,
+   "confidence": 68,
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": -1,
+   "playerId": "81875a5e-2b65-4152-bace-b4c96517579d"
+  },
+  {
    "name": "Nacio Marshall",
    "gender": "Male",
    "team": "Premiere",
@@ -4176,6 +4089,35 @@
    "strengthOfPartners": -0.1,
    "strengthOfOpponents": 1,
    "playerId": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce"
+  },
+  {
+   "name": "Dan Carpenter",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 12,
+   "wins": 5,
+   "losses": 1,
+   "pointsWon": 122,
+   "totalPointsAgainst": 107,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 5,
+   "genderLosses": 1,
+   "clutchWins": 2,
+   "clutchLosses": 0,
+   "winPct": 41.7,
+   "diff": 15,
+   "ppg": 10.2,
+   "leagueRank": 58,
+   "rating": -0.8,
+   "ratingGames": 6,
+   "confidence": 53,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": -2,
+   "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb"
   },
   {
    "name": "Gary Garretson",
@@ -4497,6 +4439,35 @@
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
   {
+   "name": "Jonathan Carter",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 24,
+   "wins": 9,
+   "losses": 9,
+   "pointsWon": 324,
+   "totalPointsAgainst": 328,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 9,
+   "genderLosses": 9,
+   "clutchWins": 2,
+   "clutchLosses": 1,
+   "winPct": 37.5,
+   "diff": -4,
+   "ppg": 13.5,
+   "leagueRank": 128,
+   "rating": -0.5,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": 0.5,
+   "strengthOfOpponents": 0.1,
+   "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7"
+  },
+  {
    "name": "Edward Fu",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -4611,6 +4582,35 @@
    "strengthOfPartners": 0,
    "strengthOfOpponents": 0.4,
    "playerId": "ac44fd3c-0c87-47aa-bf26-4333b632f524"
+  },
+  {
+   "name": "Derek Livingston",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 25,
+   "wins": 9,
+   "losses": 9,
+   "pointsWon": 330,
+   "totalPointsAgainst": 302,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 9,
+   "genderLosses": 9,
+   "clutchWins": 1,
+   "clutchLosses": 2,
+   "winPct": 36,
+   "diff": 28,
+   "ppg": 13.2,
+   "leagueRank": 107,
+   "rating": 2.2,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": -0.1,
+   "playerId": "593561e7-e873-4261-85ee-25b6ab524bfa"
   },
   {
    "name": "Craig Butler",
@@ -4787,35 +4787,6 @@
    "strengthOfOpponents": 1.4
   },
   {
-   "name": "Mario Contreras",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 18,
-   "wins": 6,
-   "losses": 12,
-   "pointsWon": 318,
-   "totalPointsAgainst": 347,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 12,
-   "clutchWins": 2,
-   "clutchLosses": 2,
-   "winPct": 33.3,
-   "diff": -29,
-   "ppg": 17.7,
-   "leagueRank": 169,
-   "rating": -1.6,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.2,
-   "playerId": "323d96c3-4160-410b-96a5-87263e825f62"
-  },
-  {
    "name": "Michael Dombrowiecki",
    "gender": "Male",
    "team": "Monroe",
@@ -4988,35 +4959,6 @@
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": 0.5,
    "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c"
-  },
-  {
-   "name": "Frederick Cox",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 19,
-   "wins": 6,
-   "losses": 13,
-   "pointsWon": 341,
-   "totalPointsAgainst": 365,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 13,
-   "clutchWins": 2,
-   "clutchLosses": 4,
-   "winPct": 31.6,
-   "diff": -24,
-   "ppg": 17.9,
-   "leagueRank": 165,
-   "rating": -3.3,
-   "ratingGames": 19,
-   "confidence": 77,
-   "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.5,
-   "playerId": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc"
   },
   {
    "name": "Rick Olafsson",
@@ -5396,6 +5338,35 @@
    "playerId": "f46a315a-aae5-44b5-ab45-6949706396fd"
   },
   {
+   "name": "Mario Contreras",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 24,
+   "wins": 6,
+   "losses": 12,
+   "pointsWon": 318,
+   "totalPointsAgainst": 347,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 6,
+   "genderLosses": 12,
+   "clutchWins": 2,
+   "clutchLosses": 2,
+   "winPct": 25,
+   "diff": -29,
+   "ppg": 13.3,
+   "leagueRank": 169,
+   "rating": -1.6,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": -0.2,
+   "playerId": "323d96c3-4160-410b-96a5-87263e825f62"
+  },
+  {
    "name": "Jonathan Dong",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -5481,6 +5452,35 @@
    "strengthOfPartners": -0.9,
    "strengthOfOpponents": 0.7,
    "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77"
+  },
+  {
+   "name": "Frederick Cox",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 25,
+   "wins": 6,
+   "losses": 13,
+   "pointsWon": 341,
+   "totalPointsAgainst": 365,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 6,
+   "genderLosses": 13,
+   "clutchWins": 2,
+   "clutchLosses": 4,
+   "winPct": 24,
+   "diff": -24,
+   "ppg": 13.6,
+   "leagueRank": 165,
+   "rating": -3.3,
+   "ratingGames": 19,
+   "confidence": 77,
+   "strengthOfPartners": 0.3,
+   "strengthOfOpponents": -0.5,
+   "playerId": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc"
   },
   {
    "name": "Ben Cortes",
@@ -5945,35 +5945,6 @@
    "strengthOfPartners": 0.4,
    "strengthOfOpponents": 0,
    "playerId": "57666861-23d0-4809-9556-b646579f2fd6"
-  },
-  {
-   "name": "Daniel Hadley",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 1,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 1,
-   "losses": 5,
-   "pointsWon": 92,
-   "totalPointsAgainst": 124,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 1,
-   "genderLosses": 5,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "winPct": 16.7,
-   "diff": -32,
-   "ppg": 15.3,
-   "leagueRank": 229,
-   "rating": -1.3,
-   "ratingGames": 6,
-   "confidence": 48,
-   "strengthOfPartners": -1.4,
-   "strengthOfOpponents": 0.9,
-   "playerId": "23adcd68-130d-4176-b367-d3cd31260d21"
   },
   {
    "name": "Michael Gilbert",
@@ -6585,6 +6556,35 @@
    "playerId": "54d78d2c-c0d7-42c0-aef4-567311f2e51e"
   },
   {
+   "name": "Daniel Hadley",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 12,
+   "wins": 1,
+   "losses": 5,
+   "pointsWon": 92,
+   "totalPointsAgainst": 124,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 1,
+   "genderLosses": 5,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 8.3,
+   "diff": -32,
+   "ppg": 7.7,
+   "leagueRank": 229,
+   "rating": -1.3,
+   "ratingGames": 6,
+   "confidence": 48,
+   "strengthOfPartners": -1.4,
+   "strengthOfOpponents": 0.9,
+   "playerId": "23adcd68-130d-4176-b367-d3cd31260d21"
+  },
+  {
    "name": "Paul Chantler",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
@@ -6721,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 272,
+   "leagueRank": 275,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6750,7 +6750,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 274,
+   "leagueRank": 277,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 273,
+   "leagueRank": 276,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 257,
+   "leagueRank": 258,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6924,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 266,
+   "leagueRank": 268,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6989,6 +6989,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
+  },
+  {
+   "name": "Alex Kustas",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 7,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 257,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null
   },
   {
    "name": "Nitin Chawke",
@@ -7466,6 +7495,36 @@
    }
   },
   {
+   "name": "Jersey Devil",
+   "w": 2,
+   "l": 2,
+   "pf": 1795,
+   "pa": 1744,
+   "gw": 83,
+   "gl": 45,
+   "diff": 51,
+   "gameDiff": 38,
+   "power": 0.1,
+   "powerRank": 3,
+   "pod": 2,
+   "reportedPod": "South",
+   "podName": "East / South",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     83,
+     45
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
    "name": "Home Court",
    "w": 1,
    "l": 1,
@@ -7518,36 +7577,6 @@
     "male": [
      25,
      39
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
-   "name": "Jersey Devil",
-   "w": 1,
-   "l": 2,
-   "pf": 1795,
-   "pa": 1744,
-   "gw": 51,
-   "gl": 45,
-   "diff": 51,
-   "gameDiff": 6,
-   "power": 0.1,
-   "powerRank": 3,
-   "pod": 2,
-   "reportedPod": "South",
-   "podName": "East / South",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     51,
-     45
     ],
     "female": [
      0,
@@ -7738,13 +7767,13 @@
   {
    "name": "Dill Dinkers Freehold",
    "w": 0,
-   "l": 3,
+   "l": 4,
    "pf": 1631,
    "pa": 1982,
    "gw": 18,
-   "gl": 78,
+   "gl": 110,
    "diff": -351,
-   "gameDiff": -60,
+   "gameDiff": -92,
    "power": -1.2,
    "powerRank": 6,
    "pod": 2,
@@ -7757,7 +7786,7 @@
     ],
     "male": [
      18,
-     78
+     110
     ],
     "female": [
      0,
@@ -23049,18 +23078,379 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Flemington",
    "time": "2026-09-15T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 4,
-   "home": "Dill Dinkers Freehold",
-   "away": "Jersey Devil",
-   "time": "2026-09-15T19:00:00",
    "complete": false,
    "games": [
     {
      "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Josh Fink"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "David Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Lupianez",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Fallone",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Josh Fink"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "David Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Rito",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Fallone",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "John Fallone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Lupianez",
+      "Josh Rito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Fink",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Shapiro",
+      "John Fallone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Lupianez",
+      "Josh Rito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Fink",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "David Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "John Fallone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Lupianez",
+      "Josh Fink"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Rito",
+      "Tom Hadler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "David Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "John Fallone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Fink",
+      "Franklin Lupianez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Rito",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Fallone",
+      "Franklin Lupianez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "Josh Rito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Josh Fink",
+      "David Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Fallone",
+      "Franklin Lupianez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Butler",
+      "Josh Rito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Shapiro",
+      "Josh Fink"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Berlinger",
+      "Rick Wickenheisser"
+     ]
+    }
+   ]
+  },
+  {
+   "result": "draw",
+   "week": 4,
+   "home": "Dill Dinkers Freehold",
+   "away": "Jersey Devil",
+   "time": "2026-09-15T19:00:00",
+   "complete": true,
+   "homePoints": 0,
+   "awayPoints": 0,
+   "homeGW": 0,
+   "awayGW": 32,
+   "games": [
+    {
+     "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23072,17 +23462,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Derek Livingston",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23094,6 +23490,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23105,6 +23504,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23116,6 +23518,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23127,6 +23532,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23138,17 +23546,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Derek Livingston",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23160,17 +23574,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Jonathan Carter",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23182,6 +23602,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23193,6 +23616,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23204,17 +23630,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Daniel Hadley",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23226,6 +23658,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23237,17 +23672,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Jonathan Carter",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23259,6 +23700,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23270,6 +23714,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23281,6 +23728,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23292,6 +23742,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23303,17 +23756,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Daniel Hadley",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23325,6 +23784,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23336,6 +23798,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23347,6 +23812,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23358,6 +23826,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23369,6 +23840,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23380,6 +23854,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23391,17 +23868,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
      ],
      "a": [
       "Mario Contreras",
-      ""
+      "Alex Kustas"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -23411,6 +23894,9 @@
       "Frederick Cox"
      ]
     }
+   ],
+   "subs": [
+    "Alex Kustas"
    ]
   },
   {
@@ -23419,7 +23905,361 @@
    "home": "Monroe",
    "away": "Bounce Tempest",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "David Bogatyrev"
+     ],
+     "a": [
+      "David Brandolph",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Kyle Kelly",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Salman Saad",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Kyle Martin",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Fredericksen",
+      "Jacob Rosengarten"
+     ],
+     "a": [
+      "David Brandolph",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Kyle Kelly",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Jake Cohen",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Yufan Chen",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Stephen Fredericksen"
+     ],
+     "a": [
+      "David Brandolph",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Yufan Chen",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Uttam Purohit",
+      "Salman Saad"
+     ],
+     "a": [
+      "Jake Cohen",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Yufan Chen",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Uttam Purohit",
+      "Salman Saad"
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Fredericksen",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Jake Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nicholas Lugo",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "David Brandolph",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Jacob Rosengarten"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Fredericksen",
+      "Salman Saad"
+     ],
+     "a": [
+      "Kyle Martin",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jason Mcmanmon",
+      "Kurt Skalamera"
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Jake Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Jason Mcmanmon"
+     ],
+     "a": [
+      "David Brandolph",
+      "Jake Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Jacob Rosengarten"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kurt Skalamera",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Chuang Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Fredericksen",
+      "Salman Saad"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Salman Saad",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "David Brandolph",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Yufan Chen",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Jason Mcmanmon"
+     ],
+     "a": [
+      "Kyle Martin",
+      "Jake Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Bogatyrev",
+      "Michael Dombrowiecki"
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Yufan Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Rosengarten",
+      "Jason Mcmanmon"
+     ],
+     "a": [
+      "David Brandolph",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Salman Saad",
+      "Nicholas Lugo"
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Jake Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Leon Li",
+      "Uttam Purohit"
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Chuang Li"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23427,7 +24267,361 @@
    "home": "Montville",
    "away": "Home Court",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Matthew Carrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Kunesch",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Carrington",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Ricky Jutkiewicz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Pat Wilson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Ricky Jutkiewicz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sheehan",
+      "Matthew Carrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Pat Wilson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Matthew Carrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pat Wilson",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Matthew Carrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Kunesch",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Kunesch",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Carrington",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pat Wilson",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Matthew Carrington"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Pat Wilson"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23435,7 +24629,361 @@
    "home": "Pickleball Kingdom Hamilton",
    "away": "Bounce Malvern",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jr Burrs",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Dan Ladislaw"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Harrison Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Neave",
+      "Dan Ladislaw"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Jordan Demcher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Russell Cripps",
+      "Jr Burrs"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ladislaw",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Jamison Rowles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jr Burrs",
+      "Dan Ladislaw"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harrison Bohrer",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Matheus Korndoerfer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jr Burrs",
+      "Jordan Demcher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Russell Cripps"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Russell Cripps",
+      "Dan Ladislaw"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Harrison Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Dan Ladislaw"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Jordan Demcher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jr Burrs",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Russell Cripps",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Harrison Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matheus Korndoerfer",
+      "Charles Evans"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Demcher",
+      "Andrew Neave"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamison Rowles",
+      "Jr Burrs"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23443,7 +24991,361 @@
    "home": "Pickle House",
    "away": "Picklr Newtown",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Johnson",
+      "Gary Garretson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Mclean",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Leach",
+      "Arnold Poblete"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alessio Muscara",
+      "J-P Lautenschlager"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Johnson",
+      "Larry Minsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Mclean",
+      "Gary Garretson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Leach",
+      "Andy Ro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alessio Muscara",
+      "J-P Lautenschlager"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Larry Minsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mathew Yang",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Alessio Muscara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Johnson",
+      "Andrew Mclean"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Larry Minsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mathew Yang",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Gary Garretson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Leach",
+      "J-P Lautenschlager"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Mathew Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "J-P Lautenschlager",
+      "Andrew Mclean"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Gary Garretson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ro",
+      "Michael Johnson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Mathew Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alessio Muscara",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ro",
+      "J-P Lautenschlager"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Alessio Muscara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mathew Yang",
+      "Andy Ro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Johnson",
+      "Andrew Mclean"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Garretson",
+      "Larry Minsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Alessio Muscara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mathew Yang",
+      "Arnold Poblete"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Angelo Disipio",
+      "Andy Ro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Leach",
+      "Larry Minsky"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23451,7 +25353,361 @@
    "home": "Allstar Pickler",
    "away": "PickleRage Union County",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Fu",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vinay Mutt",
+      "Shreyas Suresh Hassan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Barry",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Diamond",
+      "Edward Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Barry",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vinay Mutt",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Lerner",
+      "Ren Macalalag"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Diamond",
+      "Edward Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Barry",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vinay Mutt",
+      "Jack Barry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Fu",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Knight",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Steve Lerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vinay Mutt",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Knight",
+      "Ren Macalalag"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Fu",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Barry",
+      "Vinay Mutt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Fu",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Lerner",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Diamond",
+      "Vinay Mutt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Jack Barry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Jonathan Dong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Fu",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Dong",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Lerner",
+      "Vinay Mutt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Jack Barry"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23459,7 +25715,361 @@
    "home": "Pickleball HQ",
    "away": "APC Garden State",
    "time": "2026-09-15T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Shyler Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Inzerillo",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Matthew Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andress Mims",
+      "Shyler Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Matthew Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Machuzak",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Shyler Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Inzerillo",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Machuzak",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Inzerillo",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Inzerillo",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andress Mims",
+      "Matthew Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Chris Machuzak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andress Mims",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Matthew Inzerillo"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -24112,6 +26722,7 @@
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
   "Jake Cohen": "a6be8670-4787-48dd-83ff-b2157062cb84",
+  "Shyler Smith": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
@@ -24125,10 +26736,10 @@
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
  },
  "meta": {
-  "matchesPlayed": 27,
+  "matchesPlayed": 28,
   "provisionalMatches": 0,
-  "weeks": "1-3",
-  "totalPlayers": 248,
+  "weeks": "1-4",
+  "totalPlayers": 249,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -24144,6 +26755,11 @@
     "week": 3,
     "label": "3",
     "seq": 2
+   },
+   {
+    "week": 4,
+    "label": "4",
+    "seq": 3
    }
   ],
   "divisionSlug": "c118b8e9",
@@ -24226,7 +26842,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-13T13:44:40.286Z";
+  DATA.meta.asOf = "2026-09-14T16:11:53.738Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

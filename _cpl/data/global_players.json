@@ -30977,7 +30977,7 @@
     "lastName": "Curren",
     "dupr": "3X7254",
     "duprRating": "4.427",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5934434641,
     "duprProvisional": false
   },
@@ -37801,7 +37801,7 @@
     "lastName": "Kahl",
     "dupr": "GG4W5V",
     "duprRating": "3.906",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 4715136684,
     "duprProvisional": false
   },
@@ -41551,7 +41551,7 @@
     "lastName": "Kelly",
     "dupr": "1RXOWN",
     "duprRating": "4.232",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 6420181518,
     "duprProvisional": false
   },
@@ -41961,7 +41961,7 @@
     "lastName": "Smith",
     "dupr": "2QPP97",
     "duprRating": "3.968",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5375214160,
     "duprProvisional": false
   },
@@ -46027,9 +46027,11 @@
     "playerId": "e51938cc-4b58-4738-b95a-1cc62a37f4a6",
     "firstName": "Rob",
     "lastName": "Mendez",
-    "dupr": "U5YE94",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "dupr": "Q5YD94",
+    "duprRating": "3.630",
+    "lastSeen": "2026-09",
+    "duprNumericId": 8014798339,
+    "duprProvisional": false
   },
   {
     "playerId": "164f7429-f944-4ac8-955b-8b53aa175065",
@@ -46135,8 +46137,30 @@
     "playerId": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
     "firstName": "Zhu",
     "lastName": "Liu",
-    "dupr": "EDGLVJ",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "dupr": "EGDLVJ",
+    "duprRating": "3.224",
+    "lastSeen": "2026-09",
+    "duprNumericId": 5624297939,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "c590cb70-93c6-439d-8ae4-2ecff6b57c4e",
+    "firstName": "Ashok",
+    "lastName": "Rao",
+    "dupr": "0X4K0G",
+    "duprRating": "3.579",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7660851574,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "665b1aba-6370-4c2b-93b0-5f57f1a33e5a",
+    "firstName": "Ryan",
+    "lastName": "Soto",
+    "dupr": "M24GPP",
+    "duprRating": "3.604",
+    "lastSeen": "2026-09",
+    "duprNumericId": 4623186920,
+    "duprProvisional": false
   }
 ]

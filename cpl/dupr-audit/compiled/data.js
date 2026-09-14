@@ -9505,6 +9505,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kate Curren",
+   "playerId": "20e006d9-72f9-4f9e-bad5-750694224782",
+   "team": "Pickleball Palace",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Kate Siedell",
    "playerId": "8decf039-f1e5-4182-b3cf-6756789ae87a",
    "team": "ACE Moorestown",
@@ -10979,6 +10986,13 @@ window.DUPR_AUDIT = {
    "playerId": "9e88e95a-d634-4484-8a3e-76e54b82a5fd",
    "team": "APC Garden State",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Lisa Loeber",
+   "playerId": "9e88e95a-d634-4484-8a3e-76e54b82a5fd",
+   "team": "APC Garden State",
+   "slug": "2edc44e7",
    "gender": "Female"
   },
   {
@@ -15039,6 +15053,13 @@ window.DUPR_AUDIT = {
    "playerId": "6d8254ae-6e00-4704-8c1e-936733eb9b09",
    "team": "Pickleball Palace",
    "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Ryan Soto",
+   "playerId": "665b1aba-6370-4c2b-93b0-5f57f1a33e5a",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
