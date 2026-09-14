@@ -7,6 +7,12 @@ const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const DEFAULT_TIMEZONE = 'America/New_York';
 const DEFAULT_RESULTS_WINDOW_HOURS = 12;
 const DEFAULT_MATCH_DURATION_HOURS = 2;
+// League rule: the away team posts its lineup at 8pm two days before the
+// match, the home team at 8pm one day before. Both are league policy, not
+// something derived from the API, so they're constants rather than data.
+const DEFAULT_LINEUP_POST_HOUR = 20; // 8pm local
+const DEFAULT_AWAY_LINEUP_DAYS_BEFORE = 2;
+const DEFAULT_HOME_LINEUP_DAYS_BEFORE = 1; // documents the rule; not read by the window check below (see summarizeDivisionSchedule)
 
 function parseIsoLocalDateTime(iso) {
   if (typeof iso !== 'string') return null;
@@ -66,6 +72,26 @@ function parseScheduledTime(iso, timeZone) {
   return { weekday, utcDate };
 }
 
+// When a match's away (or home) lineup is due: `daysBefore` calendar days
+// ahead of the match's local date, at `postHour` local time — computed off
+// the match's calendar date rather than its clock time, so "N days before"
+// matches how captains actually think about the deadline regardless of what
+// time the match itself is scheduled for.
+function lineupDueUtc(scheduledIso, timeZone, daysBefore, postHour) {
+  const parts = parseIsoLocalDateTime(scheduledIso);
+  if (!parts) return null;
+  const matchDateUtcMidnight = Date.UTC(parts.year, parts.month - 1, parts.day);
+  const shifted = new Date(matchDateUtcMidnight - daysBefore * 24 * 60 * 60 * 1000);
+  return zonedDateTimeToUtc({
+    year: shifted.getUTCFullYear(),
+    month: shifted.getUTCMonth() + 1,
+    day: shifted.getUTCDate(),
+    hour: postHour,
+    minute: 0,
+    second: 0,
+  }, timeZone);
+}
+
 function readJson(filePath) {
   if (!fs.existsSync(filePath)) return null;
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -95,14 +121,27 @@ function summarizeDivisionSchedule(matchups, nowUtc, options) {
   });
   const primaryWeekday = weekdayEntries.length ? weekdayEntries[0][0] : 'unknown';
 
+  const awayLineupDaysBefore = options.awayLineupDaysBefore ?? DEFAULT_AWAY_LINEUP_DAYS_BEFORE;
+  const lineupPostHour = options.lineupPostHour ?? DEFAULT_LINEUP_POST_HOUR;
+
   const incomplete = parsed.filter(({ matchup }) => !matchup.endResult);
   let insideWindowCount = 0;
   let staleCount = 0;
+  let pendingLineupCount = 0;
   for (const m of incomplete) {
     const endUtc = new Date(m.utcDate.getTime() + matchDurationMs);
     const windowEndUtc = new Date(endUtc.getTime() + resultsWindowMs);
     if (nowUtc >= endUtc && nowUtc <= windowEndUtc) insideWindowCount += 1;
     else if (nowUtc > windowEndUtc) staleCount += 1;
+    else if (nowUtc < m.utcDate) {
+      // Not yet time to check for results, but the away (and possibly home)
+      // lineup may already be posted and unfetched. Only the away deadline —
+      // the earlier of the two — gates this: once it passes, the division
+      // stays selected all the way to game time, so whichever team's lineup
+      // landed since the last "due" run gets picked up.
+      const awayDueUtc = lineupDueUtc(m.matchup.scheduledTime, options.timezone, awayLineupDaysBefore, lineupPostHour);
+      if (awayDueUtc && nowUtc >= awayDueUtc) pendingLineupCount += 1;
+    }
   }
 
   let eligible = false;
@@ -113,6 +152,9 @@ function summarizeDivisionSchedule(matchups, nowUtc, options) {
   } else if (staleCount > 0) {
     eligible = true;
     reason = `stale incomplete matches (${staleCount})`;
+  } else if (pendingLineupCount > 0) {
+    eligible = true;
+    reason = `pending match lineup(s) due (${pendingLineupCount})`;
   } else if (!incomplete.length) {
     reason = 'no incomplete scheduled matches';
   }
@@ -186,6 +228,10 @@ module.exports = {
   DEFAULT_MATCH_DURATION_HOURS,
   DEFAULT_RESULTS_WINDOW_HOURS,
   DEFAULT_TIMEZONE,
+  DEFAULT_LINEUP_POST_HOUR,
+  DEFAULT_AWAY_LINEUP_DAYS_BEFORE,
+  DEFAULT_HOME_LINEUP_DAYS_BEFORE,
+  lineupDueUtc,
   parseScheduledTime,
   selectDueDivisionSlugs,
   summarizeDivisionSchedule,

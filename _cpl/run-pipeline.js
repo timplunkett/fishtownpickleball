@@ -5,6 +5,8 @@ const {
   DEFAULT_MATCH_DURATION_HOURS,
   DEFAULT_RESULTS_WINDOW_HOURS,
   DEFAULT_TIMEZONE,
+  DEFAULT_LINEUP_POST_HOUR,
+  DEFAULT_AWAY_LINEUP_DAYS_BEFORE,
   selectDueDivisionSlugs,
 } = require('./modules/refresh-selector');
 const { summarizeMatchedDivisionNames, unmatchedDivisionSlugs } = require('./modules/division-utils');
@@ -16,6 +18,8 @@ function parseArgs(argv) {
     timezone: DEFAULT_TIMEZONE,
     resultsWindowHours: DEFAULT_RESULTS_WINDOW_HOURS,
     matchDurationHours: DEFAULT_MATCH_DURATION_HOURS,
+    awayLineupDaysBefore: DEFAULT_AWAY_LINEUP_DAYS_BEFORE,
+    lineupPostHour: DEFAULT_LINEUP_POST_HOUR,
     divisionSlugs: null,
     seasonSlugs: null,
   };
@@ -33,6 +37,12 @@ function parseArgs(argv) {
     } else if (arg.startsWith('--match-duration-hours=')) {
       const value = Number(arg.split('=')[1]);
       if (Number.isFinite(value) && value > 0) out.matchDurationHours = value;
+    } else if (arg.startsWith('--away-lineup-days-before=')) {
+      const value = Number(arg.split('=')[1]);
+      if (Number.isFinite(value) && value > 0) out.awayLineupDaysBefore = value;
+    } else if (arg.startsWith('--lineup-post-hour=')) {
+      const value = Number(arg.split('=')[1]);
+      if (Number.isFinite(value) && value >= 0 && value <= 23) out.lineupPostHour = value;
     } else if (arg.startsWith('--division=')) {
       const slug = arg.slice('--division='.length);
       if (slug) out.divisionSlugs = [...(out.divisionSlugs || []), slug];
