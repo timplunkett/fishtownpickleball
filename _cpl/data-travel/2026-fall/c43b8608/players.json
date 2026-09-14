@@ -6033,7 +6033,7 @@
       "gender": "Female",
       "dupr": "YXDK04",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
       "teamName": "Stelton Sports",
       "wins": 6,

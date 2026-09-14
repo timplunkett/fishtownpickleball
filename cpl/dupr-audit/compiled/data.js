@@ -1339,6 +1339,13 @@ window.DUPR_AUDIT = {
    "name": "Ann Betterton",
    "playerId": "abe02688-e77f-414b-9747-25f3bdc149c7",
    "team": "Stelton Sports",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Ann Betterton",
+   "playerId": "abe02688-e77f-414b-9747-25f3bdc149c7",
+   "team": "Stelton Sports",
    "slug": "2edc44e7",
    "gender": "Female"
   },

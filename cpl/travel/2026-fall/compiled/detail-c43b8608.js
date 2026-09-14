@@ -2928,8 +2928,8 @@
     "teamRes": "W",
     "teamGW": 28,
     "teamGL": 4,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -2946,8 +2946,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2962,8 +2962,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2978,8 +2978,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2994,8 +2994,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -3010,8 +3010,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -3026,8 +3026,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Sports"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

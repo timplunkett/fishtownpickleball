@@ -295,8 +295,8 @@
    "name": "Ann Betterton",
    "gender": "Female",
    "team": "Stelton Sports",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 6,
@@ -309,7 +309,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "abe02688-e77f-414b-9747-25f3bdc149c7",
    "winPct": 100,
    "diff": 49,
    "ppg": 21,
@@ -318,7 +317,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": 1.7,
-   "strengthOfOpponents": -1
+   "strengthOfOpponents": -1,
+   "playerId": "abe02688-e77f-414b-9747-25f3bdc149c7"
   },
   {
    "name": "Robert Huntley",
@@ -21241,7 +21241,6 @@
     }
    ],
    "subs": [
-    "Ann Betterton",
     "Jackie Mclaughlin",
     "Janette Crowe"
    ]
@@ -21253,7 +21252,6 @@
    "away": "Home Court",
    "time": "2026-09-13T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 443,
    "awayPoints": 660,
    "homeGW": 3,
@@ -23121,7 +23119,6 @@
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-13T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 581,
    "awayPoints": 366,
    "homeGW": 30,
@@ -23577,14 +23574,14 @@
     }
    ],
    "subs": [
-    "Allison Xiao",
-    "Neil Kussick",
-    "Wenbin Dang",
-    "Kenneth Margolin",
     "Lucy Sha",
     "Vlad Radomsky",
     "Jean Xie",
-    "Charles Li"
+    "Kenneth Margolin",
+    "Wenbin Dang",
+    "Allison Xiao",
+    "Charles Li",
+    "Neil Kussick"
    ]
   },
   {
@@ -24057,7 +24054,6 @@
    "away": "Stelton Sports",
    "time": "2026-09-13T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 682,
    "awayPoints": 615,
    "homeGW": 22,
@@ -26270,7 +26266,7 @@
  },
  "meta": {
   "matchesPlayed": 28,
-  "provisionalMatches": 3,
+  "provisionalMatches": 0,
   "weeks": "1-4",
   "totalPlayers": 364,
   "ratingHistoryWeeks": [
@@ -26373,7 +26369,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-14T17:18:03.013Z";
+  DATA.meta.asOf = "2026-09-14T21:13:05.777Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
