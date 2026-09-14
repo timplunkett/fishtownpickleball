@@ -89,6 +89,29 @@ function sortDivisionsForLeague(league, divisions) {
   });
 }
 
+// Human-readable, deduped, sorted division names for the automated commit
+// message (see run-pipeline.js's main()): takes the `matchedDivisions` list
+// fetcher.js returns (`{ slug, name }`, name already club-prefixed for local
+// divisions — see downloadSeason) and reduces it to unique display strings.
+//
+// Deduped by name alone: a name colliding across leagues (both run "3.5",
+// say) collapses to one entry, which is fine for a commit-message summary.
+//
+// Sorted by the first rating number found in the name (falling back to
+// alphabetical for ties/no match) rather than `localeCompare(..., { numeric:
+// true })`: that option treats a decimal point as just another digit-run
+// boundary, so "3.25" sorts as the integers 3 and 25 — after "3.5" (3 and
+// 5), not before it.
+function ratingOf(name) {
+  const match = name.match(/(\d+(?:\.\d+)?)/);
+  return match ? Number(match[1]) : Number.POSITIVE_INFINITY;
+}
+
+function summarizeMatchedDivisionNames(matchedDivisions) {
+  return [...new Set(matchedDivisions.map((d) => d.name))]
+    .sort((a, b) => ratingOf(a) - ratingOf(b) || a.localeCompare(b));
+}
+
 function extractValues(raw) {
   if (Array.isArray(raw)) return raw;
   if (!raw || typeof raw !== 'object') return [];
@@ -106,5 +129,6 @@ module.exports = {
   getLeagueDataConfig,
   getSeasonDataDir,
   sortDivisionsForLeague,
+  summarizeMatchedDivisionNames,
   unmatchedDivisionSlugs,
 };

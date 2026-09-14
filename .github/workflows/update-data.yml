@@ -58,11 +58,28 @@ jobs:
           # Recorded before the pipeline runs, so the commit step can name the
           # mode even when the pipeline exits non-zero.
           echo "refresh_mode=${REFRESH_MODE}" >> "$GITHUB_OUTPUT"
+          # Disable errexit around the pipeline itself: it intentionally exits
+          # non-zero on a partial failure (see the comment above), and this
+          # step still has to run the lines below that one to surface
+          # DIVISIONS_BUILT_JSON — `set -e` would otherwise abort right on the
+          # failing line and skip them. ${PIPESTATUS[0]} (not `tee`'s own,
+          # always-zero exit code) is what the "Fail run if pipeline reported
+          # errors" step further down keys off of, via this step's own exit
+          # code restored at the bottom.
+          set +e
           if [ "${REFRESH_MODE}" = "due" ]; then
-            node _cpl/run-pipeline.js --refresh-mode
+            node _cpl/run-pipeline.js --refresh-mode | tee pipeline.log
           else
-            node _cpl/run-pipeline.js
+            node _cpl/run-pipeline.js | tee pipeline.log
           fi
+          PIPELINE_EXIT=${PIPESTATUS[0]}
+          set -e
+          # run-pipeline.js prints its own name list as one greppable line
+          # (see run-pipeline.js's main()) so this step doesn't have to
+          # re-derive it from the divisions.json manifests.
+          DIVISIONS_JSON=$(grep '^DIVISIONS_BUILT_JSON=' pipeline.log | tail -1 | sed 's/^DIVISIONS_BUILT_JSON=//' || true)
+          echo "divisions_json=${DIVISIONS_JSON:-[]}" >> "$GITHUB_OUTPUT"
+          exit "${PIPELINE_EXIT}"
 
       # ci.yml has an equivalent check ("Check committed output matches a
       # fresh compile"), but it never actually runs against these commits:
@@ -82,6 +99,7 @@ jobs:
       - name: Commit and Push changes
         env:
           REFRESH_MODE: ${{ steps.pipeline.outputs.refresh_mode }}
+          DIVISIONS_JSON: ${{ steps.pipeline.outputs.divisions_json }}
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
@@ -93,7 +111,17 @@ jobs:
           # The mode decides which divisions were even looked at, so it is the
           # first thing worth knowing when bisecting for the run that broke the
           # site. "weekly" was wrong for 6 of every 7 runs.
-          git commit -m "bot(CPL): Automated data refresh (${REFRESH_MODE:-unknown})"
+          COMMIT_MSG="bot(CPL): Automated data refresh (${REFRESH_MODE:-unknown})"
+          # Append the human-readable division names this run actually fetched
+          # (e.g. "[3.0, 3.5, 3.25 Womens]"), when there were any — a `due` run
+          # that found nothing due, or a step that failed before printing the
+          # marker line, leaves this empty/"[]" and the message falls back to
+          # what it always said.
+          if [ -n "${DIVISIONS_JSON}" ] && [ "${DIVISIONS_JSON}" != "[]" ]; then
+            DIVISIONS_LIST=$(node -e "console.log(JSON.parse(process.argv[1]).join(', '))" "${DIVISIONS_JSON}")
+            COMMIT_MSG="${COMMIT_MSG} [${DIVISIONS_LIST}]"
+          fi
+          git commit -m "${COMMIT_MSG}"
           # Another run may have pushed while this one was fetching; rebase and
           # retry rather than failing the push.
           for attempt in 1 2 3; do

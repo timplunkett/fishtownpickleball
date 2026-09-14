@@ -7,7 +7,7 @@ const {
   DEFAULT_TIMEZONE,
   selectDueDivisionSlugs,
 } = require('./modules/refresh-selector');
-const { unmatchedDivisionSlugs } = require('./modules/division-utils');
+const { summarizeMatchedDivisionNames, unmatchedDivisionSlugs } = require('./modules/division-utils');
 
 function parseArgs(argv) {
   const out = {
@@ -91,6 +91,12 @@ async function runPipeline(league, options) {
       ...(fetchResult?.matchedSlugs || []),
       ...(compileResult?.matchedSlugs || []),
     ],
+    // Named off the fetch phase only, not the compile phase: compiling always
+    // touches every cached season (including archives that were never
+    // refetched), so its matchedSlugs is a much wider set than "what this run
+    // actually pulled fresh data for" — which is what the commit message (see
+    // run-pipeline.js's main()) wants to report.
+    matchedDivisions: fetchResult?.matchedDivisions || [],
     matchedSeasonSlugs: fetchResult?.matchedSeasonSlugs || [],
   };
 }
@@ -100,6 +106,7 @@ async function main() {
   const leagues = options.league ? [options.league] : ['local', 'travel'];
   const failedDivisions = [];
   const matchedSlugs = [];
+  const matchedDivisions = [];
   const matchedSeasonSlugs = [];
   const asOfBySlug = new Map();
   const ratingsBySlug = new Map();
@@ -109,6 +116,7 @@ async function main() {
       const result = await runPipeline(league, options);
       failedDivisions.push(...result.failedDivisions);
       matchedSlugs.push(...result.matchedSlugs);
+      matchedDivisions.push(...result.matchedDivisions);
       matchedSeasonSlugs.push(...result.matchedSeasonSlugs);
       for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
       for (const [key, value] of result.ratingsBySlug) ratingsBySlug.set(key, value);
@@ -119,6 +127,16 @@ async function main() {
   }
 
   buildPlayerIndex({ asOfBySlug, ratingsBySlug });
+
+  // Human-readable division names this run actually fetched (across every
+  // league processed), printed as a single greppable line so the CI workflow
+  // can lift it straight into the automated commit message without having to
+  // re-derive it from the divisions.json manifests itself.
+  const divisionNames = summarizeMatchedDivisionNames(matchedDivisions);
+  if (divisionNames.length) {
+    console.log(`\nDivisions built: ${divisionNames.join(', ')}`);
+  }
+  console.log(`DIVISIONS_BUILT_JSON=${JSON.stringify(divisionNames)}`);
 
   // A typo'd --division slug would otherwise fetch and compile nothing while
   // still exiting 0, which reads as "the data is up to date".

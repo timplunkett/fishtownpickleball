@@ -697,7 +697,20 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
     console.log(`\n✓ global_players.json updated (${merged.length} total players).`);
   }
 
-  return { failedDivisions, matchedSlugs: divisionsToFetch.map((div) => div.slug) };
+  return {
+    failedDivisions,
+    matchedSlugs: divisionsToFetch.map((div) => div.slug),
+    // Human-readable names alongside the slugs above, for the automated
+    // commit message (see run-pipeline.js). Prefixed with the club label the
+    // same way the "Fetching division: ..." log line above is: local-league
+    // divisionNames repeat across clubs (e.g. "3.5 - 4.0" at both Bounce -
+    // Malvern and Bounce - Philly), so the bare name alone would silently
+    // collapse two different divisions into one entry once deduped.
+    matchedDivisions: divisionsToFetch.map((div) => ({
+      slug: div.slug,
+      name: `${formatDivisionLabel(div)}${div.divisionName || div.slug}`,
+    })),
+  };
 }
 
 // Which seasons this run is allowed to touch.
@@ -747,6 +760,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
   const seasonsToFetch = selectSeasonsToFetch(league, resolved, seasonSlugs);
   const failedDivisions = [];
   const matchedSlugs = [];
+  const matchedDivisions = [];
   const matchedSeasonSlugs = [];
 
   for (const season of seasonsToFetch) {
@@ -755,6 +769,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
       const result = await downloadSeason(league, season, { divisionSlugs });
       failedDivisions.push(...result.failedDivisions);
       matchedSlugs.push(...result.matchedSlugs);
+      matchedDivisions.push(...result.matchedDivisions);
     } catch (err) {
       console.error(`  ⚠️ Failed for season ${season.slug}:`, err.message);
       failedDivisions.push({
@@ -771,7 +786,9 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
   } else {
     console.log('\n✓ Phase 1 complete.');
   }
-  return { failedDivisions, matchedSlugs, matchedSeasonSlugs, seasons: resolved };
+  return {
+    failedDivisions, matchedSlugs, matchedDivisions, matchedSeasonSlugs, seasons: resolved,
+  };
 }
 
 module.exports = {
