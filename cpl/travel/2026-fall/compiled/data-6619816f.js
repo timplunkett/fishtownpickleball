@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4749,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 178,
+   "leagueRank": 180,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4952,7 +4952,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 175,
+   "leagueRank": 176,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4981,7 +4981,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 179,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15079,7 +15079,361 @@
    "home": "Bounce Philly",
    "away": "Dill Dinkers Hatboro The Factory",
    "time": "2026-09-16T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Hannah Nussbaum"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenoa Tio",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Hannah Nussbaum"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenoa Tio",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenoa Tio",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Steven Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Allison Tarnoff"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenoa Tio",
+      "Andrew Wakefield"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -15549,6 +15903,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Justin Bautista": "27660961-6245-4b09-aafe-359ca3205797",
+  "Natasha De Carvalho": "462f3a15-22ed-4fa3-b698-78678a5d6966",
   "Ethan Henigan": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
@@ -15556,6 +15911,8 @@
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+  "Sarah Nazario": "d457bcf7-383d-4b25-a7a9-a456e5803087",
+  "Alice Napolitano": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
   "Christine Ferraez": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e"
  },
  "meta": {
@@ -15639,7 +15996,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-14T21:12:49.789Z";
+  DATA.meta.asOf = "2026-09-15T02:35:13.218Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -2099,6 +2099,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Boris Tserlin",
+   "playerId": "6c71dd2d-6f76-4630-96d4-27f58e99e557",
+   "team": "Premiere",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Brad Daddis",
    "playerId": "3b22e073-2c4b-4245-a142-29441ec509a3",
    "team": "ACE Moorestown",
@@ -2299,6 +2306,13 @@ window.DUPR_AUDIT = {
    "playerId": "ecc02ab8-5e9c-4950-89b7-be3f397683c3",
    "team": "Pickleball Palace",
    "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Brian Gralnick",
+   "playerId": "78700a44-a5bd-4609-ac41-61b5c53a2c70",
+   "team": "Pickle Place",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {
@@ -13649,6 +13663,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Patricia Majowicz",
+   "playerId": "95bb08f8-b0f7-4849-852e-6bebeb9e3e53",
+   "team": "Home Court",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Patricia San Andres",
    "playerId": "42e86266-ff96-4961-8e27-adeac7084f59",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -16358,6 +16379,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Suki Wong",
+   "playerId": "b92a5442-fd20-4e2f-896b-26cc5cfa5ea5",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Sulyn Kulick",
    "playerId": "d5bb6605-5ea8-42e6-8c85-03402664956d",
    "team": "Picklr Newtown",
@@ -17398,6 +17426,13 @@ window.DUPR_AUDIT = {
    "playerId": "6d5137ae-c91c-4070-9012-aa20f6cb62a3",
    "team": "Picklr Newark",
    "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Tyler Marlin",
+   "playerId": "bf530f1a-96e0-484c-b377-f1243f05571b",
+   "team": "ACE Moorestown",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {

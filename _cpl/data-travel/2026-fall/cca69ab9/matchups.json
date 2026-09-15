@@ -173,9 +173,9 @@
       "weekNumber": 4,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 609,
+      "awayPoints": 607,
+      "endResult": "away",
       "scheduledTime": "2026-09-14T19:00:00",
       "homeName": "Picklr Newtown",
       "awayName": "Jersey Devil"
