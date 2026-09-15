@@ -6,10 +6,12 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
+const os = require('node:os');
 const path = require('node:path');
 const vm = require('node:vm');
 
 const { CPL, compiledDivision, compiledDivisions } = require('./helpers/compiled');
+const { compileDivision } = require('../modules/compiler');
 
 // Element ids app.js requires but this test never inspects.
 function makeElement(id) {
@@ -151,6 +153,12 @@ function assertKeyOutsideScroller(html, label) {
 
 const countTags = (html, tag) => (html.match(new RegExp(`<${tag}[\\s>]`, 'g')) || []).length;
 const rowsOf = (html) => html.split('<tr>').slice(1);
+
+// Finds a team's own row by its row-header title, not by a bare substring
+// search — a cell inside some other row can just as easily name this team as
+// the week's opponent, and `.includes()` would happily match that row first
+// if it sorts ahead of the team's own.
+const rowFor = (html, name) => rowsOf(html).find((row) => new RegExp(`^<th class="row"[^>]*title="${name}"`).test(row));
 
 // Header rows open with the same `<th class="row">` corner cell as body rows, so
 // counting rows means counting inside the tbodies.
@@ -310,14 +318,96 @@ DIVISIONS.forEach(({ label, file }) => {
   });
 });
 
-// The division whose single 21-team pod is what made the matrix unusable.
-const WIDEST = compiledDivision('c43b8608');
+// A frozen, hand-built division for the four tests below, compiled through the
+// real production compiler (compileDivision) exactly like compile-division.test.js
+// does, rather than read from a live compiled division. These four used to run
+// against c43b8608 ("3.5 (50+)"), whose data is fetched and recompiled on a
+// schedule — fine for markup checks that only care about shape, but two of them
+// asserted a specific match result ("Montville Rocks" beat "Montville Dragons"
+// in week 1) and a specific team's schedule (exactly one doubled week for
+// "Picklr Newtown"). A routine data refresh (2026-09-14) changed both, and both
+// assertions broke with no code change involved — see the
+// fishtownpickleball-known-failing-test memory. Building the division here
+// instead means the schedule these tests depend on never drifts, while the
+// markup they exercise still comes from the same app.js/compiler.js the real
+// dashboards run.
+function buildGridFixture() {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'cpl-grid-fixture-'));
+  const dataDir = path.join(tmp, 'division');
+  fs.mkdirSync(dataDir, { recursive: true });
 
-test('the 21-team section is far narrower by week than as a matrix', () => {
-  assert.ok(WIDEST, 'expected the 3.5 (50+) division to be compiled');
-  const app = runApp(WIDEST.file);
+  // Eight teams so the matrix (one column per team) is meaningfully wider than
+  // the by-week grid (one column per week actually scheduled) — the property
+  // the first test below checks. Rocks and Dragons meet in week 1 (a home win,
+  // for the "cells link to the row team" test); Newtown plays twice in week 3
+  // (for the "doubled week" test) and nowhere else does; every other team-week
+  // has exactly one match, so the grid stays dense (no byes) without needing a
+  // full round robin.
+  const TEAMS = ['Rocks', 'Dragons', 'Newtown', 'Filler A', 'Filler B', 'Filler C', 'Filler D', 'Filler E'];
+  const teamId = (name) => `team-${name.toLowerCase().replace(/\s+/g, '-')}`;
+
+  let matchupSeq = 0;
+  const week = (weekNumber, scheduledTime, pairs) => pairs.map(([home, away, result]) => {
+    matchupSeq += 1;
+    return {
+      matchupId: `m${matchupSeq}`,
+      weekNumber,
+      homeTeamId: teamId(home),
+      awayTeamId: teamId(away),
+      homeName: home,
+      awayName: away,
+      homePoints: (result && result.homePoints) || 0,
+      awayPoints: (result && result.awayPoints) || 0,
+      endResult: (result && result.endResult) || null,
+      scheduledTime,
+    };
+  });
+
+  const matchups = [
+    ...week(1, '2026-08-10T19:00:00', [
+      ['Rocks', 'Dragons', { endResult: 'home', homePoints: 22, awayPoints: 16 }],
+      ['Newtown', 'Filler E'],
+      ['Filler A', 'Filler D'],
+      ['Filler B', 'Filler C'],
+    ]),
+    ...week(2, '2026-08-17T19:00:00', [
+      ['Rocks', 'Filler E'], ['Dragons', 'Filler D'], ['Newtown', 'Filler C'], ['Filler A', 'Filler B'],
+    ]),
+    ...week(3, '2026-08-24T19:00:00', [
+      ['Rocks', 'Filler D'], ['Filler E', 'Filler C'], ['Dragons', 'Filler B'],
+      ['Newtown', 'Filler A'], ['Newtown', 'Filler B'], // Newtown's one doubled week.
+    ]),
+    ...week(4, '2026-08-31T19:00:00', [
+      ['Rocks', 'Filler C'], ['Filler D', 'Filler B'], ['Filler E', 'Filler A'], ['Dragons', 'Newtown'],
+    ]),
+    ...week(5, '2026-09-07T19:00:00', [
+      ['Rocks', 'Filler B'], ['Filler C', 'Filler A'], ['Filler D', 'Newtown'], ['Filler E', 'Dragons'],
+    ]),
+  ];
+
+  fs.writeFileSync(path.join(dataDir, 'matchups.json'), JSON.stringify({ $values: matchups }));
+  // No roster: the compiler guarantees every scheduled team a row regardless
+  // (see "a scheduled team with no confirmed roster is still in the division"
+  // in compile-division.test.js), and nothing below reads player-level data.
+  fs.writeFileSync(path.join(dataDir, 'players.json'), JSON.stringify({ $values: [] }));
+  fs.writeFileSync(path.join(dataDir, 'matchupDetails.json'), JSON.stringify([]));
+
+  const file = path.join(tmp, 'data-gridfix.js');
+  const detailFile = path.join(tmp, 'detail-gridfix.js');
+  compileDivision('gridfix', dataDir, file, detailFile, {
+    clubName: 'Test Club', divisionName: 'Grid Fixture', leagueType: 'local',
+  });
+
+  return { file, dir: tmp, teamCount: TEAMS.length };
+}
+
+const SYNTH = buildGridFixture();
+test.after(() => fs.rmSync(SYNTH.dir, { recursive: true, force: true }));
+
+test('a wide division is far narrower by week than as a matrix', () => {
+  const app = runApp(SYNTH.file);
   const teamCount = app.context.DATA.teams.length;
-  assert.equal(teamCount, 21);
+  assert.equal(teamCount, SYNTH.teamCount);
 
   app.setView('matrix');
   const matrixHead = rowsOf(app.gridHost.innerHTML)[0];
@@ -344,35 +434,36 @@ test('the 21-team section is far narrower by week than as a matrix', () => {
 });
 
 test('by-week cells link to the row team at that match, not the opponent', () => {
-  const app = runApp(WIDEST.file);
+  const app = runApp(SYNTH.file);
   app.setView('weeks');
   const html = app.gridHost.innerHTML;
 
-  // Montville Rocks beat Montville Dragons in week 1: the row is Rocks, and that
-  // cell should route to Rocks' own page, at that match's block.
-  const rocksRow = rowsOf(html).find((row) => row.includes('title="Montville Rocks"'));
-  assert.ok(rocksRow, 'expected a Montville Rocks row');
+  // Rocks beat Dragons in week 1: the row is Rocks, and that cell should route
+  // to Rocks' own page, at that match's block.
+  const rocksRow = rowFor(html, 'Rocks');
+  assert.ok(rocksRow, 'expected a Rocks row');
   assert.ok(
-    rocksRow.startsWith('<th class="row" data-team="montville-rocks"'),
+    rocksRow.startsWith('<th class="row" data-team="rocks"'),
     'row header should link to its own team',
   );
-  assert.match(rocksRow, /<span class="abbr">M·Rocks<\/span>/);
+  assert.match(rocksRow, new RegExp(`<span class="abbr">${app.context.teamLabel('Rocks')}</span>`));
   const firstCell = rocksRow.slice(rocksRow.indexOf('<td'));
-  assert.match(firstCell, /data-team="montville-rocks"/);
-  assert.ok(!firstCell.includes('data-team="montville-dragons"'), 'should not open the opponent');
-  assert.match(firstCell, /data-fragment="match-w\d+-[a-z0-9-]*montville-(rocks|dragons)[a-z0-9-]*"/);
-  assert.match(firstCell, /class="wk opp" title="Montville Dragons">DRAG</);
+  assert.match(firstCell, /data-team="rocks"/);
+  assert.ok(!firstCell.includes('data-team="dragons"'), 'should not open the opponent');
+  assert.match(firstCell, /data-fragment="match-w\d+-[a-z0-9-]*(rocks|dragons)[a-z0-9-]*"/);
+  const dragonsCode = app.context.teamCode('Dragons');
+  assert.match(firstCell, new RegExp(`class="wk opp" title="Dragons">${dragonsCode}<`));
   assert.match(firstCell, /<div class="res">W<\/div>/);
 
   // The key covers every team in the section, and the codes in it are the codes
   // used in the cells.
   const keyCodes = [...html.matchAll(/gkey-item"><b>([^<]+)<\/b> ([^<]+)</g)];
-  assert.equal(keyCodes.length, 21);
-  assert.ok(keyCodes.some(([, code, name]) => code === 'DRAG' && name === 'Montville Dragons'));
+  assert.equal(keyCodes.length, SYNTH.teamCount);
+  assert.ok(keyCodes.some(([, code, name]) => code === dragonsCode && name === 'Dragons'));
 });
 
 test('NEXT marks one fixture per team, not every future one', () => {
-  const app = runApp(WIDEST.file);
+  const app = runApp(SYNTH.file);
   app.setView('weeks');
   const html = app.gridHost.innerHTML;
 
@@ -384,8 +475,10 @@ test('NEXT marks one fixture per team, not every future one', () => {
     assert.equal(nexts, pending ? 1 : 0, `${team}: ${nexts} NEXT boxes across ${pending} fixtures`);
   });
 
-  // Later fixtures still carry the opponent and the date.
-  const rocks = rowsOf(html).find((row) => row.includes('title="Montville Rocks"'));
+  // Later fixtures still carry the opponent and the date. Rocks plays week 1
+  // (already decided) then weeks 2-5 unplayed: one of those four is NEXT, the
+  // other three are dated but unlabelled.
+  const rocks = rowFor(html, 'Rocks');
   const later = rocks.split('</td>').filter((cell) => cell.includes('entry next') && !cell.includes('NEXT'));
   assert.ok(later.length > 1, 'expected several unlabelled future fixtures');
   later.forEach((cell) => {
@@ -448,12 +541,12 @@ test('an opponent with no row of its own is still abbreviated', () => {
 });
 
 test('a week holding two matches links each card to its own match', () => {
-  // Picklr Newtown plays twice in week 10 of 3.5 (50+): once against
-  // Pickleball Kingdom Tinton Falls, once against Dill Dinkers Lansdale.
-  const app = runApp(WIDEST.file);
+  // Newtown plays twice in week 3 of the fixture: once against Filler A, once
+  // against Filler B.
+  const app = runApp(SYNTH.file);
   app.setView('weeks');
-  const row = rowsOf(app.gridHost.innerHTML).find((r) => r.includes('title="Picklr Newtown"'));
-  assert.ok(row, 'expected a Picklr Newtown row');
+  const row = rowFor(app.gridHost.innerHTML, 'Newtown');
+  assert.ok(row, 'expected a Newtown row');
 
   const cells = row.split('</td>').filter((cell) => /<td class="[^"]*upcoming-multi[^"]*"/.test(cell));
   assert.equal(cells.length, 1, 'expected exactly one doubled week');
@@ -465,7 +558,7 @@ test('a week holding two matches links each card to its own match', () => {
   const entries = cell.match(/<div class="entry[^"]*"[^>]*>/g) || [];
   assert.equal(entries.length, 2, 'expected two match cards in the doubled cell');
   entries.forEach((entry) => {
-    assert.match(entry, /data-team="picklr-newtown"/, `each card should open Picklr Newtown's page: ${entry}`);
+    assert.match(entry, /data-team="newtown"/, `each card should open Newtown's page: ${entry}`);
   });
 
   const fragments = entries.map((entry) => entry.match(/data-fragment="([^"]+)"/)?.[1]);
