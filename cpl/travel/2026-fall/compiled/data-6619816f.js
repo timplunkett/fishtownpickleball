@@ -15084,8 +15084,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Jordan Denish"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15095,8 +15095,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Alexander Tong"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15106,8 +15106,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alex Boory"
      ],
      "a": [
       "Rayna Baizman",
@@ -15117,8 +15117,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15128,8 +15128,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Rachel Alfano"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15139,8 +15139,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Charlotte Healey"
      ],
      "a": [
       "Rayna Baizman",
@@ -15150,8 +15150,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Denish",
+      "Alexander Tong"
      ],
      "a": [
       "Kenoa Tio",
@@ -15161,8 +15161,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Hayes",
+      "Zachary Lessner"
      ],
      "a": [
       "Varun Prakash",
@@ -15172,8 +15172,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15183,8 +15183,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Jordan Denish"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15194,8 +15194,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alex Boory"
      ],
      "a": [
       "Rayna Baizman",
@@ -15205,8 +15205,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "William Hayes"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15216,8 +15216,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Rachel Alfano"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15227,8 +15227,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Charlotte Healey"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15238,8 +15238,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander Tong",
+      "Jordan Denish"
      ],
      "a": [
       "Varun Prakash",
@@ -15249,8 +15249,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Zachary Lessner"
      ],
      "a": [
       "Kenoa Tio",
@@ -15260,8 +15260,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Zachary Lessner"
      ],
      "a": [
       "Nahla Bernhardt",
@@ -15271,8 +15271,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Bruno Casino"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15282,8 +15282,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "William Hayes"
      ],
      "a": [
       "Rayna Baizman",
@@ -15293,8 +15293,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Alexander Tong"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15304,8 +15304,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Kathleen Dougherty"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15315,8 +15315,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Alex Abad"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15326,8 +15326,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Alex Boory"
      ],
      "a": [
       "Varun Prakash",
@@ -15337,8 +15337,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Hayes",
+      "Zachary Lessner"
      ],
      "a": [
       "Kenoa Tio",
@@ -15348,8 +15348,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "William Hayes"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15359,8 +15359,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Jordan Denish"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15370,8 +15370,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alexander Tong"
      ],
      "a": [
       "Nahla Bernhardt",
@@ -15381,8 +15381,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Zachary Lessner"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15392,8 +15392,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Alex Abad"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15403,8 +15403,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Dougherty",
+      "Elysia Price"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15414,8 +15414,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Hayes",
+      "Jordan Denish"
      ],
      "a": [
       "Varun Prakash",
@@ -15425,8 +15425,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Alex Boory"
      ],
      "a": [
       "Kenoa Tio",
@@ -15457,7 +15457,361 @@
    "home": "Bounce Malvern",
    "away": "Jersey Devil",
    "time": "2026-09-16T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Rachel Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Danielle Bernero"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Danielle Bernero"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Maeve Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Johny Mario"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Arianna Haresign"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johny Mario",
+      "Tyler Arsenault"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -15996,7 +16350,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T02:35:13.218Z";
+  DATA.meta.asOf = "2026-09-15T10:44:33.518Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
