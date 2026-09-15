@@ -553,6 +553,35 @@
    "playerId": "3651f648-493a-4517-8085-a8b9cb086c07"
   },
   {
+   "name": "Dan Carpenter",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 5,
+   "losses": 1,
+   "pointsWon": 122,
+   "totalPointsAgainst": 107,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 5,
+   "genderLosses": 1,
+   "clutchWins": 2,
+   "clutchLosses": 0,
+   "winPct": 83.3,
+   "diff": 15,
+   "ppg": 20.3,
+   "leagueRank": 58,
+   "rating": -0.8,
+   "ratingGames": 6,
+   "confidence": 53,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": -2,
+   "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb"
+  },
+  {
    "name": "Bennett Pereira",
    "gender": "Male",
    "team": "Pickle House",
@@ -1713,6 +1742,35 @@
    "playerId": "06d52e99-941a-4ced-9968-f56e6075105a"
   },
   {
+   "name": "Brandon Dejesus",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 21,
+   "wins": 14,
+   "losses": 7,
+   "pointsWon": 417,
+   "totalPointsAgainst": 356,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 14,
+   "genderLosses": 7,
+   "clutchWins": 3,
+   "clutchLosses": 3,
+   "winPct": 66.7,
+   "diff": 61,
+   "ppg": 19.9,
+   "leagueRank": 53,
+   "rating": 2.3,
+   "ratingGames": 21,
+   "confidence": 78,
+   "strengthOfPartners": -0.3,
+   "strengthOfOpponents": -0.2,
+   "playerId": "d50feac2-f147-47d2-8930-99b21b2842ba"
+  },
+  {
    "name": "Pritpal Singh",
    "gender": "Male",
    "team": "Pickleball Kingdom Hamilton",
@@ -1771,6 +1829,35 @@
    "playerId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
   },
   {
+   "name": "Tim Bruno",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 21,
+   "wins": 14,
+   "losses": 7,
+   "pointsWon": 399,
+   "totalPointsAgainst": 359,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 14,
+   "genderLosses": 7,
+   "clutchWins": 3,
+   "clutchLosses": 2,
+   "winPct": 66.7,
+   "diff": 40,
+   "ppg": 19,
+   "leagueRank": 65,
+   "rating": 0.8,
+   "ratingGames": 21,
+   "confidence": 77,
+   "strengthOfPartners": 1.4,
+   "strengthOfOpponents": 0.2,
+   "playerId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f"
+  },
+  {
    "name": "Anil Kumar Jakkaladki",
    "gender": "Male",
    "team": "Pickle House",
@@ -1798,6 +1885,35 @@
    "strengthOfPartners": 0.5,
    "strengthOfOpponents": -0.2,
    "playerId": "176df588-c3ff-4b50-a66a-4df99647254b"
+  },
+  {
+   "name": "Tom Kresky",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 12,
+   "wins": 8,
+   "losses": 4,
+   "pointsWon": 230,
+   "totalPointsAgainst": 211,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 8,
+   "genderLosses": 4,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 66.7,
+   "diff": 19,
+   "ppg": 19.2,
+   "leagueRank": 74,
+   "rating": -1.2,
+   "ratingGames": 12,
+   "confidence": 68,
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": -1,
+   "playerId": "81875a5e-2b65-4152-bace-b4c96517579d"
   },
   {
    "name": "Meet Thakkar",
@@ -3134,64 +3250,6 @@
    "playerId": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7"
   },
   {
-   "name": "Brandon Dejesus",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 28,
-   "wins": 14,
-   "losses": 7,
-   "pointsWon": 417,
-   "totalPointsAgainst": 356,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 14,
-   "genderLosses": 7,
-   "clutchWins": 3,
-   "clutchLosses": 3,
-   "winPct": 50,
-   "diff": 61,
-   "ppg": 14.9,
-   "leagueRank": 53,
-   "rating": 2.3,
-   "ratingGames": 21,
-   "confidence": 78,
-   "strengthOfPartners": -0.3,
-   "strengthOfOpponents": -0.2,
-   "playerId": "d50feac2-f147-47d2-8930-99b21b2842ba"
-  },
-  {
-   "name": "Tim Bruno",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 28,
-   "wins": 14,
-   "losses": 7,
-   "pointsWon": 399,
-   "totalPointsAgainst": 359,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 14,
-   "genderLosses": 7,
-   "clutchWins": 3,
-   "clutchLosses": 2,
-   "winPct": 50,
-   "diff": 40,
-   "ppg": 14.3,
-   "leagueRank": 65,
-   "rating": 0.8,
-   "ratingGames": 21,
-   "confidence": 77,
-   "strengthOfPartners": 1.4,
-   "strengthOfOpponents": 0.2,
-   "playerId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f"
-  },
-  {
    "name": "Cullen Curley",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -3219,6 +3277,35 @@
    "strengthOfPartners": 0.8,
    "strengthOfOpponents": -0.5,
    "playerId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
+  },
+  {
+   "name": "Derek Livingston",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 18,
+   "wins": 9,
+   "losses": 9,
+   "pointsWon": 330,
+   "totalPointsAgainst": 302,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 9,
+   "genderLosses": 9,
+   "clutchWins": 1,
+   "clutchLosses": 2,
+   "winPct": 50,
+   "diff": 28,
+   "ppg": 18.3,
+   "leagueRank": 107,
+   "rating": 2.2,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": -0.1,
+   "playerId": "593561e7-e873-4261-85ee-25b6ab524bfa"
   },
   {
    "name": "Ryan Hathaway",
@@ -3509,6 +3596,35 @@
    "confidence": 45,
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": -0.2
+  },
+  {
+   "name": "Jonathan Carter",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 18,
+   "wins": 9,
+   "losses": 9,
+   "pointsWon": 324,
+   "totalPointsAgainst": 328,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 9,
+   "genderLosses": 9,
+   "clutchWins": 2,
+   "clutchLosses": 1,
+   "winPct": 50,
+   "diff": -4,
+   "ppg": 18,
+   "leagueRank": 128,
+   "rating": -0.5,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": 0.5,
+   "strengthOfOpponents": 0.1,
+   "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7"
   },
   {
    "name": "Ken Weinstein",
@@ -3888,35 +4004,6 @@
    "playerId": "a8585e9c-872e-466c-9583-9680e557f757"
   },
   {
-   "name": "Tom Kresky",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": true,
-   "gamesPlayed": 18,
-   "wins": 8,
-   "losses": 4,
-   "pointsWon": 230,
-   "totalPointsAgainst": 211,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 8,
-   "genderLosses": 4,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "winPct": 44.4,
-   "diff": 19,
-   "ppg": 12.8,
-   "leagueRank": 74,
-   "rating": -1.2,
-   "ratingGames": 12,
-   "confidence": 68,
-   "strengthOfPartners": 1.3,
-   "strengthOfOpponents": -1,
-   "playerId": "81875a5e-2b65-4152-bace-b4c96517579d"
-  },
-  {
    "name": "Nacio Marshall",
    "gender": "Male",
    "team": "Premiere",
@@ -4089,35 +4176,6 @@
    "strengthOfPartners": -0.1,
    "strengthOfOpponents": 1,
    "playerId": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce"
-  },
-  {
-   "name": "Dan Carpenter",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 12,
-   "wins": 5,
-   "losses": 1,
-   "pointsWon": 122,
-   "totalPointsAgainst": 107,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 5,
-   "genderLosses": 1,
-   "clutchWins": 2,
-   "clutchLosses": 0,
-   "winPct": 41.7,
-   "diff": 15,
-   "ppg": 10.2,
-   "leagueRank": 58,
-   "rating": -0.8,
-   "ratingGames": 6,
-   "confidence": 53,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -2,
-   "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb"
   },
   {
    "name": "Gary Garretson",
@@ -4439,35 +4497,6 @@
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
   {
-   "name": "Jonathan Carter",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 24,
-   "wins": 9,
-   "losses": 9,
-   "pointsWon": 324,
-   "totalPointsAgainst": 328,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 9,
-   "clutchWins": 2,
-   "clutchLosses": 1,
-   "winPct": 37.5,
-   "diff": -4,
-   "ppg": 13.5,
-   "leagueRank": 128,
-   "rating": -0.5,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0.1,
-   "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7"
-  },
-  {
    "name": "Edward Fu",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -4582,35 +4611,6 @@
    "strengthOfPartners": 0,
    "strengthOfOpponents": 0.4,
    "playerId": "ac44fd3c-0c87-47aa-bf26-4333b632f524"
-  },
-  {
-   "name": "Derek Livingston",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 25,
-   "wins": 9,
-   "losses": 9,
-   "pointsWon": 330,
-   "totalPointsAgainst": 302,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 9,
-   "clutchWins": 1,
-   "clutchLosses": 2,
-   "winPct": 36,
-   "diff": 28,
-   "ppg": 13.2,
-   "leagueRank": 107,
-   "rating": 2.2,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": -1.3,
-   "strengthOfOpponents": -0.1,
-   "playerId": "593561e7-e873-4261-85ee-25b6ab524bfa"
   },
   {
    "name": "Craig Butler",
@@ -4787,6 +4787,35 @@
    "strengthOfOpponents": 1.4
   },
   {
+   "name": "Mario Contreras",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 18,
+   "wins": 6,
+   "losses": 12,
+   "pointsWon": 318,
+   "totalPointsAgainst": 347,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 6,
+   "genderLosses": 12,
+   "clutchWins": 2,
+   "clutchLosses": 2,
+   "winPct": 33.3,
+   "diff": -29,
+   "ppg": 17.7,
+   "leagueRank": 169,
+   "rating": -1.6,
+   "ratingGames": 18,
+   "confidence": 75,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": -0.2,
+   "playerId": "323d96c3-4160-410b-96a5-87263e825f62"
+  },
+  {
    "name": "Michael Dombrowiecki",
    "gender": "Male",
    "team": "Monroe",
@@ -4959,6 +4988,35 @@
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": 0.5,
    "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c"
+  },
+  {
+   "name": "Frederick Cox",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 19,
+   "wins": 6,
+   "losses": 13,
+   "pointsWon": 341,
+   "totalPointsAgainst": 365,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 6,
+   "genderLosses": 13,
+   "clutchWins": 2,
+   "clutchLosses": 4,
+   "winPct": 31.6,
+   "diff": -24,
+   "ppg": 17.9,
+   "leagueRank": 165,
+   "rating": -3.3,
+   "ratingGames": 19,
+   "confidence": 77,
+   "strengthOfPartners": 0.3,
+   "strengthOfOpponents": -0.5,
+   "playerId": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc"
   },
   {
    "name": "Rick Olafsson",
@@ -5338,35 +5396,6 @@
    "playerId": "f46a315a-aae5-44b5-ab45-6949706396fd"
   },
   {
-   "name": "Mario Contreras",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 24,
-   "wins": 6,
-   "losses": 12,
-   "pointsWon": 318,
-   "totalPointsAgainst": 347,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 12,
-   "clutchWins": 2,
-   "clutchLosses": 2,
-   "winPct": 25,
-   "diff": -29,
-   "ppg": 13.3,
-   "leagueRank": 169,
-   "rating": -1.6,
-   "ratingGames": 18,
-   "confidence": 75,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.2,
-   "playerId": "323d96c3-4160-410b-96a5-87263e825f62"
-  },
-  {
    "name": "Jonathan Dong",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -5452,35 +5481,6 @@
    "strengthOfPartners": -0.9,
    "strengthOfOpponents": 0.7,
    "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77"
-  },
-  {
-   "name": "Frederick Cox",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 25,
-   "wins": 6,
-   "losses": 13,
-   "pointsWon": 341,
-   "totalPointsAgainst": 365,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 13,
-   "clutchWins": 2,
-   "clutchLosses": 4,
-   "winPct": 24,
-   "diff": -24,
-   "ppg": 13.6,
-   "leagueRank": 165,
-   "rating": -3.3,
-   "ratingGames": 19,
-   "confidence": 77,
-   "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.5,
-   "playerId": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc"
   },
   {
    "name": "Ben Cortes",
@@ -5945,6 +5945,35 @@
    "strengthOfPartners": 0.4,
    "strengthOfOpponents": 0,
    "playerId": "57666861-23d0-4809-9556-b646579f2fd6"
+  },
+  {
+   "name": "Daniel Hadley",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 1,
+   "losses": 5,
+   "pointsWon": 92,
+   "totalPointsAgainst": 124,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 1,
+   "genderLosses": 5,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 16.7,
+   "diff": -32,
+   "ppg": 15.3,
+   "leagueRank": 229,
+   "rating": -1.3,
+   "ratingGames": 6,
+   "confidence": 48,
+   "strengthOfPartners": -1.4,
+   "strengthOfOpponents": 0.9,
+   "playerId": "23adcd68-130d-4176-b367-d3cd31260d21"
   },
   {
    "name": "Michael Gilbert",
@@ -6556,35 +6585,6 @@
    "playerId": "54d78d2c-c0d7-42c0-aef4-567311f2e51e"
   },
   {
-   "name": "Daniel Hadley",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 12,
-   "wins": 1,
-   "losses": 5,
-   "pointsWon": 92,
-   "totalPointsAgainst": 124,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 1,
-   "genderLosses": 5,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "winPct": 8.3,
-   "diff": -32,
-   "ppg": 7.7,
-   "leagueRank": 229,
-   "rating": -1.3,
-   "ratingGames": 6,
-   "confidence": 48,
-   "strengthOfPartners": -1.4,
-   "strengthOfOpponents": 0.9,
-   "playerId": "23adcd68-130d-4176-b367-d3cd31260d21"
-  },
-  {
    "name": "Paul Chantler",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
@@ -7018,35 +7018,6 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
-  },
-  {
-   "name": "Alex Kustas",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 7,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 257,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null
   },
   {
    "name": "Nitin Chawke",
@@ -7524,36 +7495,6 @@
    }
   },
   {
-   "name": "Jersey Devil",
-   "w": 2,
-   "l": 2,
-   "pf": 1795,
-   "pa": 1744,
-   "gw": 83,
-   "gl": 45,
-   "diff": 51,
-   "gameDiff": 38,
-   "power": 0.1,
-   "powerRank": 3,
-   "pod": 2,
-   "reportedPod": "South",
-   "podName": "East / South",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     83,
-     45
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
    "name": "Home Court",
    "w": 1,
    "l": 1,
@@ -7606,6 +7547,36 @@
     "male": [
      25,
      39
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Jersey Devil",
+   "w": 1,
+   "l": 2,
+   "pf": 1795,
+   "pa": 1744,
+   "gw": 51,
+   "gl": 45,
+   "diff": 51,
+   "gameDiff": 6,
+   "power": 0.1,
+   "powerRank": 3,
+   "pod": 2,
+   "reportedPod": "South",
+   "podName": "East / South",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     51,
+     45
     ],
     "female": [
      0,
@@ -7796,13 +7767,13 @@
   {
    "name": "Dill Dinkers Freehold",
    "w": 0,
-   "l": 4,
+   "l": 3,
    "pf": 1631,
    "pa": 1982,
    "gw": 18,
-   "gl": 110,
+   "gl": 78,
    "diff": -351,
-   "gameDiff": -92,
+   "gameDiff": -60,
    "power": -1.2,
    "powerRank": 6,
    "pod": 2,
@@ -7815,7 +7786,7 @@
     ],
     "male": [
      18,
-     110
+     78
     ],
     "female": [
      0,
@@ -23463,25 +23434,18 @@
    ]
   },
   {
-   "result": "draw",
+   "result": null,
    "week": 4,
    "home": "Dill Dinkers Freehold",
    "away": "Jersey Devil",
    "time": "2026-09-15T19:00:00",
-   "complete": true,
-   "homePoints": 0,
-   "awayPoints": 0,
-   "homeGW": 0,
-   "awayGW": 32,
+   "complete": false,
    "games": [
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Ian Kohn"
      ],
      "a": [
       "Tim Bruno",
@@ -23490,12 +23454,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Ben Cortes"
      ],
      "a": [
       "Derek Livingston",
@@ -23504,12 +23465,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Wensheng Yue",
+      "Big G"
      ],
      "a": [
       "Dan Carpenter",
@@ -23518,12 +23476,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Hua Lin"
      ],
      "a": [
       "Daniel Hadley",
@@ -23532,12 +23487,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Wensheng Yue"
      ],
      "a": [
       "Daniel Hadley",
@@ -23546,12 +23498,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Ian Kohn"
      ],
      "a": [
       "Tom Kresky",
@@ -23560,12 +23509,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Big G"
      ],
      "a": [
       "Tim Bruno",
@@ -23574,12 +23520,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Kevin Lew"
      ],
      "a": [
       "Derek Livingston",
@@ -23588,12 +23531,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Ben Cortes"
      ],
      "a": [
       "Derek Livingston",
@@ -23602,12 +23542,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Big G"
      ],
      "a": [
       "Jonathan Carter",
@@ -23616,12 +23553,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Wensheng Yue",
+      "Ian Kohn"
      ],
      "a": [
       "Tim Bruno",
@@ -23630,12 +23564,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Hua Lin"
      ],
      "a": [
       "Dan Carpenter",
@@ -23644,12 +23575,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Sujoy Gayen"
      ],
      "a": [
       "Tim Bruno",
@@ -23658,12 +23586,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Ian Kohn"
      ],
      "a": [
       "Daniel Hadley",
@@ -23672,12 +23597,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Big G"
      ],
      "a": [
       "Brandon Dejesus",
@@ -23686,12 +23608,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Wensheng Yue"
      ],
      "a": [
       "Frederick Cox",
@@ -23700,12 +23619,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Ben Cortes"
      ],
      "a": [
       "Jonathan Carter",
@@ -23714,12 +23630,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Hua Lin"
      ],
      "a": [
       "Dan Carpenter",
@@ -23728,12 +23641,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Wensheng Yue"
      ],
      "a": [
       "Tom Kresky",
@@ -23742,12 +23652,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Big G",
+      "Ian Kohn"
      ],
      "a": [
       "Frederick Cox",
@@ -23756,12 +23663,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Ben Cortes"
      ],
      "a": [
       "Mario Contreras",
@@ -23770,12 +23674,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Wensheng Yue",
+      "Ian Kohn"
      ],
      "a": [
       "Tom Kresky",
@@ -23784,12 +23685,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Big G"
      ],
      "a": [
       "Daniel Hadley",
@@ -23798,12 +23696,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Sujoy Gayen"
      ],
      "a": [
       "Derek Livingston",
@@ -23812,12 +23707,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Big G"
      ],
      "a": [
       "Dan Carpenter",
@@ -23826,12 +23718,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Hua Lin"
      ],
      "a": [
       "Mario Contreras",
@@ -23840,12 +23729,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Ian Kohn"
      ],
      "a": [
       "Frederick Cox",
@@ -23854,12 +23740,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Wensheng Yue"
      ],
      "a": [
       "Derek Livingston",
@@ -23868,12 +23751,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Big G",
+      "Ian Kohn"
      ],
      "a": [
       "Dan Carpenter",
@@ -23882,12 +23762,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Kevin Lew"
      ],
      "a": [
       "Jonathan Carter",
@@ -23896,12 +23773,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Ben Cortes"
      ],
      "a": [
       "Mario Contreras",
@@ -23910,21 +23784,15 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": null,
-     "as": null,
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Wensheng Yue"
      ],
      "a": [
       "Daniel Hadley",
       "Frederick Cox"
      ]
     }
-   ],
-   "subs": [
-    "Alex Kustas"
    ]
   },
   {
@@ -25387,7 +25255,7 @@
      "t": "male",
      "h": [
       "Sean Majury",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Edward Fu",
@@ -25431,7 +25299,7 @@
      "t": "male",
      "h": [
       "Sean Majury",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Sean Diamond",
@@ -25485,7 +25353,7 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Chaitanya Sharma",
       "Saad Talat Siddiqui"
      ],
      "a": [
@@ -25540,7 +25408,7 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Chaitanya Sharma",
       "Saad Talat Siddiqui"
      ],
      "a": [
@@ -25574,7 +25442,7 @@
      "t": "male",
      "h": [
       "Allan Orchard",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25607,7 +25475,7 @@
      "t": "male",
      "h": [
       "Alexander King",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Jack Barry",
@@ -25673,7 +25541,7 @@
      "t": "male",
      "h": [
       "Allan Orchard",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Ren Macalalag",
@@ -25717,7 +25585,7 @@
      "t": "male",
      "h": [
       "Brandon Fulford",
-      "Gianni Roman"
+      "Chaitanya Sharma"
      ],
      "a": [
       "Steve Lerner",
@@ -26737,6 +26605,7 @@
   "Luke Simon": "0069c456-f712-435e-abd7-461018159661",
   "Matthew Rafaniello": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
+  "Alex Kustas": "08b7041c-a90b-47ba-802a-5f71e6b98999",
   "Alexander King": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Sujoy Gayen": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
@@ -26766,10 +26635,10 @@
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
  },
  "meta": {
-  "matchesPlayed": 28,
+  "matchesPlayed": 27,
   "provisionalMatches": 0,
-  "weeks": "1-4",
-  "totalPlayers": 250,
+  "weeks": "1-3",
+  "totalPlayers": 249,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -26785,11 +26654,6 @@
     "week": 3,
     "label": "3",
     "seq": 2
-   },
-   {
-    "week": 4,
-    "label": "4",
-    "seq": 3
    }
   ],
   "divisionSlug": "c118b8e9",
@@ -26872,7 +26736,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T04:10:41.426Z";
+  DATA.meta.asOf = "2026-09-15T15:58:18.918Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

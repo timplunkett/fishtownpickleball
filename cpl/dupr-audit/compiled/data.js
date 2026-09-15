@@ -10096,6 +10096,13 @@ window.DUPR_AUDIT = {
    "name": "Kevin Wysoczynski",
    "playerId": "f64f0cc2-6c82-4fe4-9992-747512700971",
    "team": "Jersey Pickleball Club",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Kevin Wysoczynski",
+   "playerId": "f64f0cc2-6c82-4fe4-9992-747512700971",
+   "team": "Jersey Pickleball Club",
    "slug": "cca69ab9",
    "gender": "Male"
   },

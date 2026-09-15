@@ -3494,7 +3494,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 195
+      "ranking": 196
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
@@ -4026,6 +4026,29 @@
       "ranking": 109
     },
     {
+      "playerId": "e447eb0f-dc19-4616-a7f4-b53de776db3b",
+      "firstName": "Johanna",
+      "lastName": "wagner",
+      "gender": "Female",
+      "dupr": "GGJDOG",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 195
+    },
+    {
       "playerId": "e76985fb-efd1-4180-a340-e4f36abbc8b4",
       "firstName": "Aimee",
       "lastName": "Castellano",
@@ -4285,7 +4308,7 @@
       "gender": "Male",
       "dupr": "V7GKO7",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "teamName": "Jersey Pickleball Club",
       "wins": 5,
