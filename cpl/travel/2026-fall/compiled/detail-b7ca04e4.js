@@ -6960,8 +6960,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 3,
@@ -6987,8 +6987,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -7005,8 +7005,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -7021,8 +7021,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -7037,8 +7037,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -7053,8 +7053,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -7069,8 +7069,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7085,8 +7085,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7101,8 +7101,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7117,8 +7117,8 @@
     "a": 23,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7133,8 +7133,8 @@
     "a": 27,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7149,8 +7149,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 3,
@@ -7165,8 +7165,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -106649,6 +106649,333 @@
   ],
   "partners": []
  },
+ "545f9968-fc0a-420b-ba42-db16c6e1f884": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 104,
+    "pa": 145,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 131,
+    "pa": 122,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Carolyn Antuna",
+    "vs": [
+     "Tracey Collins",
+     "Jadiel Rodriguez"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Danielle Collins",
+    "vs": [
+     "Tracy Wong",
+     "Ahmed Aziz"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "John Kulesza",
+    "vs": [
+     "Jadiel Rodriguez",
+     "Jeff Burke"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Danielle Collins",
+    "vs": [
+     "Esther Yoon",
+     "Juan Millan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "Joseph Zorbo",
+    "vs": [
+     "Sam Forin",
+     "Xavier Yandoli"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "mixed",
+    "with": "Carolyn Antuna",
+    "vs": [
+     "Beth Osipowitz",
+     "Jadiel Rodriguez"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "male",
+    "with": "Shawn Mayer",
+    "vs": [
+     "Xavier Yandoli",
+     "Jeff Burke"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Brittani Rivera",
+     "Anthony Mcmahon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Shawn Mayer",
+    "vs": [
+     "Neil Policastro",
+     "Connor Hall"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rachael Nissim",
+    "vs": [
+     "Christina Grosso",
+     "Brandon Lam"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Christina Grosso",
+     "Anthony Simonetti"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Joseph Zorbo",
+    "vs": [
+     "Neil Policastro",
+     "Anthony Mcmahon"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Sally Webb",
+    "vs": [
+     "Christina Grosso",
+     "Anthony Simonetti"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Joseph Zorbo",
+    "vs": [
+     "Anthony Simonetti",
+     "Connor Hall"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.7,
+    "confidence": 52,
+    "rank": 188,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.3,
+    "confidence": 70,
+    "rank": 180,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.5,
+    "confidence": 72,
+    "rank": 181,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "5303d994-f381-481a-821b-37f0dff42073",
+    "name": "Joseph Zorbo",
+    "n": 3,
+    "synergy": 0.3
+   }
+  ]
+ },
  "cf86f914-08ca-4df6-9cdb-74a23afc2478": {
   "log": [
    {
@@ -106985,333 +107312,6 @@
     "name": "Brandon Calmo",
     "n": 4,
     "synergy": -1.6
-   }
-  ]
- },
- "545f9968-fc0a-420b-ba42-db16c6e1f884": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 104,
-    "pa": 145,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "week": 2,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 131,
-    "pa": 122,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Carolyn Antuna",
-    "vs": [
-     "Tracey Collins",
-     "Jadiel Rodriguez"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Danielle Collins",
-    "vs": [
-     "Tracy Wong",
-     "Ahmed Aziz"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "John Kulesza",
-    "vs": [
-     "Jadiel Rodriguez",
-     "Jeff Burke"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Danielle Collins",
-    "vs": [
-     "Esther Yoon",
-     "Juan Millan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "Joseph Zorbo",
-    "vs": [
-     "Sam Forin",
-     "Xavier Yandoli"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "mixed",
-    "with": "Carolyn Antuna",
-    "vs": [
-     "Beth Osipowitz",
-     "Jadiel Rodriguez"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "male",
-    "with": "Shawn Mayer",
-    "vs": [
-     "Xavier Yandoli",
-     "Jeff Burke"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Brittani Rivera",
-     "Anthony Mcmahon"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Shawn Mayer",
-    "vs": [
-     "Neil Policastro",
-     "Connor Hall"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Rachael Nissim",
-    "vs": [
-     "Christina Grosso",
-     "Brandon Lam"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Christina Grosso",
-     "Anthony Simonetti"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Joseph Zorbo",
-    "vs": [
-     "Neil Policastro",
-     "Anthony Mcmahon"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Sally Webb",
-    "vs": [
-     "Christina Grosso",
-     "Anthony Simonetti"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   },
-   {
-    "wk": 2,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Joseph Zorbo",
-    "vs": [
-     "Anthony Simonetti",
-     "Connor Hall"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.7,
-    "confidence": 52,
-    "rank": 188,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.5
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.3,
-    "confidence": 70,
-    "rank": 180,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.5,
-    "confidence": 72,
-    "rank": 181,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "5303d994-f381-481a-821b-37f0dff42073",
-    "name": "Joseph Zorbo",
-    "n": 3,
-    "synergy": 0.3
    }
   ]
  },

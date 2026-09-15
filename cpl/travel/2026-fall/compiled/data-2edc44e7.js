@@ -3879,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4314,7 +4314,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4430,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4691,7 +4691,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4845,7 +4845,7 @@
    "playerId": "f1248cc3-96c3-4671-9b08-533d22eb710f"
   },
   {
-   "name": "Paul Rappoport",
+   "name": "Paul Rappport",
    "gender": "Male",
    "team": "Allstar Pickler",
    "matches": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11321,7 +11321,7 @@
    "week": 5,
    "home": "Bounce Malvern Black",
    "away": "APC Garden State",
-   "time": "2026-09-19T14:00:00",
+   "time": "2026-09-19T13:00:00",
    "complete": false
   },
   {
@@ -11338,6 +11338,14 @@
    "home": "Pickle Place",
    "away": "Flemington Green",
    "time": "2026-09-19T14:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 6,
+   "home": "Bounce Malvern Boom",
+   "away": "Bounce Malvern Black",
+   "time": "2026-09-23T19:00:00",
    "complete": false
   },
   {
@@ -11362,14 +11370,6 @@
    "home": "APC Garden State",
    "away": "Flemington Green",
    "time": "2026-09-26T13:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
-   "home": "Bounce Malvern Boom",
-   "away": "Bounce Malvern Black",
-   "time": "2026-09-26T14:00:00",
    "complete": false
   },
   {
@@ -11788,6 +11788,7 @@
   "Lara Webb": "096a6a65-5d60-461f-91ed-d2eafbd7dd76",
   "Chanda Mccoy": "30cb78cb-f962-40f9-bd02-78d336920431",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
+  "Ed Saxman": "32244c70-6859-44af-a408-8294d65b592d",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",
   "Dottie Kelly": "57a09a98-991d-47a7-a13d-fb2afa6bd8ef",
   "Danny Mellul": "5dccd915-178e-4316-8e9b-e0a3db8edfa9",
@@ -11884,7 +11885,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-14T16:09:26.364Z";
+  DATA.meta.asOf = "2026-09-15T04:08:08.449Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

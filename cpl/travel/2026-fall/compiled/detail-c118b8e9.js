@@ -79348,8 +79348,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -79366,8 +79366,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79382,8 +79382,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79398,8 +79398,8 @@
     "a": 21,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79414,8 +79414,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79430,8 +79430,8 @@
     "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79446,8 +79446,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79462,8 +79462,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -79478,8 +79478,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

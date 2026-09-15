@@ -5732,6 +5732,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Francis Thai",
+   "playerId": "a78758b7-fe50-4865-b059-83a9d177e857",
+   "team": "PickleRage Union County",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Francisco De Leon",
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3",
    "team": "Jersey Pickleball Club",
@@ -9377,6 +9384,13 @@ window.DUPR_AUDIT = {
    "team": "Delco Turf & Pickle",
    "slug": "b7ca04e4",
    "gender": "Female"
+  },
+  {
+   "name": "Kamal D",
+   "playerId": "c7f445ec-7b49-499b-a617-fcd7431ce02d",
+   "team": "Montville",
+   "slug": "b7ca04e4",
+   "gender": "Male"
   },
   {
    "name": "Kara Chubrik",
@@ -13775,7 +13789,14 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Paul Rappoport",
+   "name": "Paul Rappport",
+   "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
+   "team": "Allstar Pickler",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Paul Rappport",
    "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
    "team": "Allstar Pickler",
    "slug": "2edc44e7",
@@ -14907,6 +14928,13 @@ window.DUPR_AUDIT = {
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
    "gender": "Male"
+  },
+  {
+   "name": "Ronnie Kostak",
+   "playerId": "1a34ae87-9a09-4766-bdeb-dc8638846f24",
+   "team": "Montville",
+   "slug": "ad44e3bd",
+   "gender": "Female"
   },
   {
    "name": "Ronnie Kostak",
@@ -16099,6 +16127,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Stephane Sabathier",
+   "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
+   "team": "Picklr Newtown",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Stephanie George",
    "playerId": "cf0c0485-fa6d-4f0a-9ec1-cd5ed9da8e8e",
    "team": "Dill Dinkers Hatboro Aces",
@@ -16725,6 +16760,13 @@ window.DUPR_AUDIT = {
    "name": "Taylor Runyen",
    "playerId": "cda5a763-48f3-4303-8579-42ff05230f45",
    "team": "APC Garden State",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Tayon Hart",
+   "playerId": "545f9968-fc0a-420b-ba42-db16c6e1f884",
+   "team": "Pickleball Kingdom Tinton Falls",
    "slug": "b7ca04e4",
    "gender": "Male"
   },

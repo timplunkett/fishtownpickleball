@@ -3734,13 +3734,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 153,
+   "leagueRank": 155,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "13baa9f0-6b36-49e8-b085-c8933cb044b2"
+  },
+  {
+   "name": "Ronnie Kostak",
+   "gender": "Female",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 150,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1a34ae87-9a09-4766-bdeb-dc8638846f24"
   },
   {
    "name": "Jeanmarie Farkouh",
@@ -3850,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 155,
+   "leagueRank": 157,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3879,7 +3908,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 149,
+   "leagueRank": 151,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12737,6 +12766,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Karen Kelly": "07767191-9167-4314-973d-3798ae6265a9",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
@@ -12753,7 +12783,7 @@
   "matchesPlayed": 14,
   "provisionalMatches": 0,
   "weeks": "1-3",
-  "totalPlayers": 148,
+  "totalPlayers": 149,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -12827,7 +12857,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-13T13:44:26.640Z";
+  DATA.meta.asOf = "2026-09-15T04:10:27.480Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

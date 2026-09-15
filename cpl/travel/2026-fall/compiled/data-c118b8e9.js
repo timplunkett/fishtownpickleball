@@ -6356,8 +6356,8 @@
    "name": "Francis Thai",
    "gender": "Male",
    "team": "PickleRage Union County",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 1,
@@ -6370,7 +6370,6 @@
    "genderLosses": 7,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "a78758b7-fe50-4865-b059-83a9d177e857",
    "winPct": 12.5,
    "diff": -31,
    "ppg": 16.9,
@@ -6379,7 +6378,8 @@
    "ratingGames": 8,
    "confidence": 56,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.3
+   "strengthOfOpponents": -0.3,
+   "playerId": "a78758b7-fe50-4865-b059-83a9d177e857"
   },
   {
    "name": "John Sallo",
@@ -6721,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 275,
+   "leagueRank": 278,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6750,7 +6750,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 277,
+   "leagueRank": 280,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,13 +6808,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 276,
+   "leagueRank": 279,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "9e348e82-13d0-4911-8efa-e5a2f7afded1"
+  },
+  {
+   "name": "Stephane Sabathier",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 271,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f"
   },
   {
    "name": "Tom Hadler",
@@ -6924,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 268,
+   "leagueRank": 270,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11459,8 +11488,7 @@
    ],
    "subs": [
     "Mark Bernstein",
-    "Roberto Marcillo",
-    "Francis Thai"
+    "Roberto Marcillo"
    ]
   },
   {
@@ -24272,8 +24300,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "John Manuzza"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24283,8 +24311,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Bill Olderman"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24294,8 +24322,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Tsang",
+      "Abdullah Osman"
      ],
      "a": [
       "Jacob Yoo",
@@ -24305,8 +24333,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Jesse Mynahan"
      ],
      "a": [
       "Marc Kunesch",
@@ -24316,8 +24344,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Matthew Carrington",
@@ -24327,8 +24355,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Tsang",
+      "Abdullah Osman"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24338,8 +24366,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Luke Simon"
      ],
      "a": [
       "Jacob Yoo",
@@ -24349,8 +24377,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "John Manuzza"
      ],
      "a": [
       "Robert Huntley",
@@ -24360,8 +24388,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Tsang",
+      "Jesse Mynahan"
      ],
      "a": [
       "Robert Huntley",
@@ -24371,8 +24399,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Bill Olderman"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24382,8 +24410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luke Simon",
+      "John Manuzza"
      ],
      "a": [
       "Kevin Sheehan",
@@ -24393,8 +24421,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Todd Mitchell"
      ],
      "a": [
       "Jacob Yoo",
@@ -24404,8 +24432,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Jesse Mynahan"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24415,8 +24443,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "John Manuzza"
      ],
      "a": [
       "Robert Huntley",
@@ -24426,8 +24454,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Brandon Tsang"
      ],
      "a": [
       "Pat Wilson",
@@ -24437,8 +24465,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Abdullah Osman"
      ],
      "a": [
       "Jacob Yoo",
@@ -24448,8 +24476,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Bill Olderman"
      ],
      "a": [
       "Jacob Yoo",
@@ -24459,8 +24487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Abdullah Osman"
      ],
      "a": [
       "Marc Kunesch",
@@ -24470,8 +24498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Luke Simon"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24481,8 +24509,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Todd Mitchell"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24492,8 +24520,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Tsang",
+      "Luke Simon"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24503,8 +24531,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Todd Mitchell"
      ],
      "a": [
       "Marc Kunesch",
@@ -24514,8 +24542,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Abdullah Osman"
      ],
      "a": [
       "Matthew Carrington",
@@ -24525,8 +24553,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24536,8 +24564,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24547,8 +24575,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abdullah Osman",
+      "John Manuzza"
      ],
      "a": [
       "Robert Huntley",
@@ -24558,8 +24586,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luke Simon",
+      "Meet Thakkar"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24569,8 +24597,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Brandon Tsang"
      ],
      "a": [
       "Pat Wilson",
@@ -24580,8 +24608,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Brandon Tsang"
      ],
      "a": [
       "Ricky Jutkiewicz",
@@ -24591,8 +24619,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Robert Huntley",
@@ -24602,8 +24630,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Luke Simon"
      ],
      "a": [
       "Jacob Yoo",
@@ -24613,8 +24641,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Todd Mitchell"
      ],
      "a": [
       "Bryan Mccourt",
@@ -24634,8 +24662,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Ziyu Huang"
      ],
      "a": [
       "Jr Burrs",
@@ -24645,8 +24673,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dilip Patel"
      ],
      "a": [
       "Jordan Demcher",
@@ -24656,8 +24684,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Roberto Marcillo",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24667,8 +24695,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Aaron Chan"
      ],
      "a": [
       "Matt Enz",
@@ -24678,8 +24706,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Aaron Chan"
      ],
      "a": [
       "Andrew Neave",
@@ -24689,8 +24717,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dhruv Dobariya",
+      "Roberto Marcillo"
      ],
      "a": [
       "Harrison Bohrer",
@@ -24700,8 +24728,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Yash Mehta"
      ],
      "a": [
       "Jamison Rowles",
@@ -24711,8 +24739,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Ziyu Huang"
      ],
      "a": [
       "Russell Cripps",
@@ -24722,8 +24750,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Roberto Marcillo"
      ],
      "a": [
       "Harrison Bohrer",
@@ -24733,8 +24761,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Yash Mehta"
      ],
      "a": [
       "Dan Ladislaw",
@@ -24744,8 +24772,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Matt Enz",
@@ -24755,8 +24783,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Chan",
+      "Venu Yengala"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24766,8 +24794,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jr Burrs",
@@ -24777,8 +24805,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Roberto Marcillo"
      ],
      "a": [
       "Jordan Demcher",
@@ -24788,8 +24816,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Venu Yengala"
      ],
      "a": [
       "Harrison Bohrer",
@@ -24799,8 +24827,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Aaron Chan"
      ],
      "a": [
       "Jamison Rowles",
@@ -24810,8 +24838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Venu Yengala"
      ],
      "a": [
       "Jr Burrs",
@@ -24821,8 +24849,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Pritpal Singh"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24832,8 +24860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jamison Rowles",
@@ -24843,8 +24871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Chan",
+      "Roberto Marcillo"
      ],
      "a": [
       "Matt Enz",
@@ -24854,8 +24882,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Venu Yengala"
      ],
      "a": [
       "Russell Cripps",
@@ -24865,8 +24893,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Roberto Marcillo"
      ],
      "a": [
       "Jamison Rowles",
@@ -24876,8 +24904,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Yash Mehta"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24887,8 +24915,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dhruv Dobariya",
+      "Aaron Chan"
      ],
      "a": [
       "Jordan Demcher",
@@ -24898,8 +24926,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Roberto Marcillo"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24909,8 +24937,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dilip Patel"
      ],
      "a": [
       "Jamison Rowles",
@@ -24920,8 +24948,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jr Burrs",
@@ -24931,8 +24959,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Aaron Chan"
      ],
      "a": [
       "Russell Cripps",
@@ -24942,8 +24970,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Aaron Chan"
      ],
      "a": [
       "Matt Enz",
@@ -24953,8 +24981,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Yash Mehta"
      ],
      "a": [
       "Matheus Korndoerfer",
@@ -24964,8 +24992,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Roberto Marcillo"
      ],
      "a": [
       "Jordan Demcher",
@@ -24975,8 +25003,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jamison Rowles",
@@ -24996,8 +25024,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Michael Johnson",
@@ -25007,8 +25035,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Varun Gurram"
      ],
      "a": [
       "Andrew Mclean",
@@ -25018,8 +25046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Jitendra Arora"
      ],
      "a": [
       "Mike Leach",
@@ -25029,8 +25057,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Alessio Muscara",
@@ -25040,8 +25068,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Jitendra Arora"
      ],
      "a": [
       "Michael Johnson",
@@ -25051,8 +25079,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Andrew Mclean",
@@ -25062,8 +25090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Aidan Fredericks"
      ],
      "a": [
       "Mike Leach",
@@ -25073,8 +25101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Neil Dedhia"
      ],
      "a": [
       "Alessio Muscara",
@@ -25084,8 +25112,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Steven Hummel",
@@ -25095,8 +25123,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Varun Gurram"
      ],
      "a": [
       "Mathew Yang",
@@ -25106,8 +25134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Aidan Fredericks"
      ],
      "a": [
       "Arnold Poblete",
@@ -25117,8 +25145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Neil Dedhia"
      ],
      "a": [
       "Michael Johnson",
@@ -25128,8 +25156,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Steven Hummel",
@@ -25139,8 +25167,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Mathew Yang",
@@ -25150,8 +25178,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Arnold Poblete",
@@ -25161,8 +25189,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Fredericks",
+      "Neil Dedhia"
      ],
      "a": [
       "Mike Leach",
@@ -25172,8 +25200,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Varun Gurram"
      ],
      "a": [
       "Steven Hummel",
@@ -25183,8 +25211,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Sree Harsha Konduru"
      ],
      "a": [
       "J-P Lautenschlager",
@@ -25194,8 +25222,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Ping Peng"
      ],
      "a": [
       "Arnold Poblete",
@@ -25205,8 +25233,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Dedhia",
+      "Jitendra Arora"
      ],
      "a": [
       "Andy Ro",
@@ -25216,8 +25244,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Ping Peng"
      ],
      "a": [
       "Steven Hummel",
@@ -25227,8 +25255,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Jitendra Arora"
      ],
      "a": [
       "Alessio Muscara",
@@ -25238,8 +25266,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Neil Dedhia"
      ],
      "a": [
       "Arnold Poblete",
@@ -25249,8 +25277,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Aidan Fredericks"
      ],
      "a": [
       "Andy Ro",
@@ -25260,8 +25288,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Steven Hummel",
@@ -25271,8 +25299,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Mathew Yang",
@@ -25282,8 +25310,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Jitendra Arora"
      ],
      "a": [
       "Michael Johnson",
@@ -25293,8 +25321,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Aidan Fredericks"
      ],
      "a": [
       "Gary Garretson",
@@ -25304,8 +25332,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Steven Hummel",
@@ -25315,8 +25343,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Mathew Yang",
@@ -25326,8 +25354,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Angelo Disipio",
@@ -25337,8 +25365,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Mike Leach",
@@ -25358,8 +25386,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Gianni Roman"
      ],
      "a": [
       "Edward Fu",
@@ -25369,8 +25397,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Franklin Yiu"
      ],
      "a": [
       "Vinay Mutt",
@@ -25380,8 +25408,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Peter Chen",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Jack Barry",
@@ -25391,8 +25419,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Alexander King"
      ],
      "a": [
       "Ren Macalalag",
@@ -25402,8 +25430,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Gianni Roman"
      ],
      "a": [
       "Sean Diamond",
@@ -25413,8 +25441,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Alexander King"
      ],
      "a": [
       "Jack Barry",
@@ -25424,8 +25452,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Franklin Yiu"
      ],
      "a": [
       "Vinay Mutt",
@@ -25435,8 +25463,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Peter Chen",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25446,8 +25474,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Franklin Yiu"
      ],
      "a": [
       "Steve Lerner",
@@ -25457,8 +25485,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25468,8 +25496,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Buyi Zhang"
      ],
      "a": [
       "Sean Diamond",
@@ -25479,8 +25507,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Allan Orchard"
      ],
      "a": [
       "Jack Barry",
@@ -25490,8 +25518,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Peter Chen"
      ],
      "a": [
       "Vinay Mutt",
@@ -25501,8 +25529,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Allan Orchard"
      ],
      "a": [
       "Edward Fu",
@@ -25512,8 +25540,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Andy Knight",
@@ -25523,8 +25551,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Franklin Yiu"
      ],
      "a": [
       "Ren Macalalag",
@@ -25534,8 +25562,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Peter Chen"
      ],
      "a": [
       "Vinay Mutt",
@@ -25545,8 +25573,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Gianni Roman"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25556,8 +25584,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Franklin Yiu"
      ],
      "a": [
       "Andy Knight",
@@ -25567,8 +25595,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Edward Fu",
@@ -25578,8 +25606,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Gianni Roman"
      ],
      "a": [
       "Jack Barry",
@@ -25589,8 +25617,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Buyi Zhang",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Edward Fu",
@@ -25600,8 +25628,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Franklin Yiu"
      ],
      "a": [
       "Steve Lerner",
@@ -25611,8 +25639,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Sean Majury"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25622,8 +25650,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Sean Majury"
      ],
      "a": [
       "Sean Diamond",
@@ -25633,8 +25661,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Buyi Zhang",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25644,8 +25672,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Gianni Roman"
      ],
      "a": [
       "Ren Macalalag",
@@ -25655,8 +25683,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Franklin Yiu"
      ],
      "a": [
       "Edward Fu",
@@ -25666,8 +25694,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Sean Majury"
      ],
      "a": [
       "Jonathan Dong",
@@ -25677,8 +25705,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Allan Orchard",
+      "Alexander King"
      ],
      "a": [
       "Ren Macalalag",
@@ -25688,8 +25716,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Gianni Roman"
      ],
      "a": [
       "Steve Lerner",
@@ -25699,8 +25727,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Peter Chen",
+      "Buyi Zhang"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -25720,8 +25748,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Anthony Simonetti"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25731,8 +25759,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "David Wheeler"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -25742,8 +25770,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Luca Hendrickson"
      ],
      "a": [
       "Bruce Nguyen",
@@ -25753,8 +25781,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jose Campos",
+      "Thomas Moran"
      ],
      "a": [
       "Matthew Inzerillo",
@@ -25764,8 +25792,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Anthony Simonetti"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25775,8 +25803,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jimmy Ramja"
      ],
      "a": [
       "Mark Waters",
@@ -25786,8 +25814,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jose Campos",
+      "Thomas Moran"
      ],
      "a": [
       "Andress Mims",
@@ -25797,8 +25825,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -25808,8 +25836,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25819,8 +25847,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Anthony Simonetti"
      ],
      "a": [
       "Shyler Smith",
@@ -25830,8 +25858,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "David Wheeler"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -25841,8 +25869,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Thomas Moran"
      ],
      "a": [
       "Chris Machuzak",
@@ -25852,8 +25880,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Luca Hendrickson"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25863,8 +25891,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "David Wheeler"
      ],
      "a": [
       "Matthew Inzerillo",
@@ -25874,8 +25902,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -25885,8 +25913,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jose Campos",
+      "Kyle Korman"
      ],
      "a": [
       "Chris Machuzak",
@@ -25896,8 +25924,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "David Wheeler"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25907,8 +25935,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Shyler Smith",
@@ -25918,8 +25946,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Thomas Moran"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -25929,8 +25957,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jimmy Ramja"
      ],
      "a": [
       "Matthew Inzerillo",
@@ -25940,8 +25968,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Luca Hendrickson"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25951,8 +25979,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "David Wheeler"
      ],
      "a": [
       "Shyler Smith",
@@ -25962,8 +25990,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Mark Waters",
@@ -25973,8 +26001,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jose Campos"
      ],
      "a": [
       "Matthew Inzerillo",
@@ -25984,8 +26012,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -25995,8 +26023,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Jose Campos"
      ],
      "a": [
       "Shyler Smith",
@@ -26006,8 +26034,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Kyle Korman"
      ],
      "a": [
       "Bruce Nguyen",
@@ -26017,8 +26045,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Thomas Moran"
      ],
      "a": [
       "Andress Mims",
@@ -26028,8 +26056,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Jose Campos"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -26039,8 +26067,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Shyler Smith",
@@ -26050,8 +26078,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Anthony Simonetti"
      ],
      "a": [
       "Andress Mims",
@@ -26061,8 +26089,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Moran",
+      "Kyle Korman"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26723,9 +26751,11 @@
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
   "Jake Cohen": "a6be8670-4787-48dd-83ff-b2157062cb84",
   "Shyler Smith": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
+  "Yash Mehta": "adc25ed0-4bc3-47da-9509-4caeb8f90185",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
+  "Abdullah Osman": "c8f3b265-67a8-412c-84f5-aee92a913aac",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
   "Chaitanya Sharma": "d5e18b3e-0836-42c4-9774-810e048ef675",
   "Steve Lerner": "d634d992-c9d8-4e31-acb7-45b1161eee19",
@@ -26739,7 +26769,7 @@
   "matchesPlayed": 28,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 249,
+  "totalPlayers": 250,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -26842,7 +26872,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-14T16:11:53.738Z";
+  DATA.meta.asOf = "2026-09-15T04:10:41.426Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

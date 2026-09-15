@@ -9070,7 +9070,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 387,
+   "leagueRank": 388,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9157,7 +9157,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 385,
+   "leagueRank": 386,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9215,7 +9215,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 392,
+   "leagueRank": 393,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9331,7 +9331,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 383,
+   "leagueRank": 384,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9418,7 +9418,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 388,
+   "leagueRank": 389,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9447,7 +9447,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9534,7 +9534,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 397,
+   "leagueRank": 398,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9621,7 +9621,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9657,6 +9657,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "e8434ae3-5d11-4d76-9e67-82f56d4f3db8"
+  },
+  {
+   "name": "Paul Rappport",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 383,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2"
   },
   {
    "name": "Becky Poon",
@@ -26268,7 +26297,7 @@
   "matchesPlayed": 28,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 364,
+  "totalPlayers": 365,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -26369,7 +26398,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-14T21:13:05.777Z";
+  DATA.meta.asOf = "2026-09-15T04:10:08.571Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
