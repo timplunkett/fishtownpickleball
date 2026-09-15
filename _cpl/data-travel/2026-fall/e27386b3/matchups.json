@@ -245,9 +245,9 @@
       "weekNumber": 4,
       "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 607,
+      "awayPoints": 602,
+      "endResult": "home",
       "scheduledTime": "2026-09-14T19:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Bounce Philly"

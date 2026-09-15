@@ -11633,6 +11633,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Marina Berger",
+   "playerId": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+   "team": "PKLD",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Marina Cozac",
    "playerId": "13c8aeab-aa52-4bc2-bf23-96a2cabe4181",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -15705,6 +15712,13 @@ window.DUPR_AUDIT = {
    "team": "Montville",
    "slug": "c118b8e9",
    "gender": "Male"
+  },
+  {
+   "name": "Shanasia Bagnol",
+   "playerId": "d183236f-85a1-41a3-a26a-2f9bc04c3b07",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "ad44e3bd",
+   "gender": "Female"
   },
   {
    "name": "Shania Bui",

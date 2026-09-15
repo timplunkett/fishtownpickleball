@@ -38823,18 +38823,18 @@
     {
      "t": "mixed",
      "h": [
-      "Rebecca Edelstein",
-      "Joe Ying"
+      "Nancy Luyando",
+      "Steven Koo"
      ],
      "a": [
       "Gwyneth Geressy",
-      "Jason Feldman"
+      "Austin Schaefer"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Abeer Massoud",
+      "Allyson Fry",
       "Brandon Pfeffer"
      ],
      "a": [
@@ -38845,7 +38845,7 @@
     {
      "t": "mixed",
      "h": [
-      "Angie Habib",
+      "Rebecca Edelstein",
       "Ben Cortes"
      ],
      "a": [
@@ -38856,8 +38856,8 @@
     {
      "t": "mixed",
      "h": [
-      "Allyson Fry",
-      "Kevin Wan"
+      "Abeer Massoud",
+      "Joe Ying"
      ],
      "a": [
       "Tiffany Kaleikini",
@@ -38867,8 +38867,8 @@
     {
      "t": "female",
      "h": [
-      "Rebecca Edelstein",
-      "Abeer Massoud"
+      "Angie Habib",
+      "Rebecca Edelstein"
      ],
      "a": [
       "Abby Zhang",
@@ -38878,8 +38878,8 @@
     {
      "t": "female",
      "h": [
-      "Angie Habib",
-      "Allyson Fry"
+      "Abeer Massoud",
+      "Nancy Luyando"
      ],
      "a": [
       "Gwyneth Geressy",
@@ -38889,8 +38889,8 @@
     {
      "t": "male",
      "h": [
-      "Joe Ying",
-      "Brandon Pfeffer"
+      "Brandon Pfeffer",
+      "Ben Cortes"
      ],
      "a": [
       "Tyler Kaleikini",
@@ -38900,19 +38900,19 @@
     {
      "t": "male",
      "h": [
-      "Kevin Wan",
-      "Ben Cortes"
+      "Steven Koo",
+      "Kevin Lew"
      ],
      "a": [
-      "Jason Feldman",
+      "Austin Schaefer",
       "Eden Ksendzovsky"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Rebecca Edelstein",
-      "Brandon Pfeffer"
+      "Angie Habib",
+      "Steven Koo"
      ],
      "a": [
       "Christina Schulz",
@@ -38923,18 +38923,18 @@
      "t": "mixed",
      "h": [
       "Abeer Massoud",
-      "Joe Ying"
+      "Ben Cortes"
      ],
      "a": [
       "Tiffany Kaleikini",
-      "Jason Feldman"
+      "Austin Schaefer"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Angie Habib",
-      "Kevin Wan"
+      "Allyson Fry",
+      "Joe Ying"
      ],
      "a": [
       "Gwyneth Geressy",
@@ -38944,8 +38944,8 @@
     {
      "t": "mixed",
      "h": [
-      "Allyson Fry",
-      "Ben Cortes"
+      "Nancy Luyando",
+      "Brandon Pfeffer"
      ],
      "a": [
       "Juliet Deguida",
@@ -38956,7 +38956,7 @@
      "t": "female",
      "h": [
       "Rebecca Edelstein",
-      "Angie Habib"
+      "Abeer Massoud"
      ],
      "a": [
       "Abby Zhang",
@@ -38966,8 +38966,8 @@
     {
      "t": "female",
      "h": [
-      "Abeer Massoud",
-      "Allyson Fry"
+      "Angie Habib",
+      "Nancy Luyando"
      ],
      "a": [
       "Tiffany Kaleikini",
@@ -38977,8 +38977,19 @@
     {
      "t": "male",
      "h": [
-      "Joe Ying",
-      "Kevin Wan"
+      "Ben Cortes",
+      "Joe Ying"
+     ],
+     "a": [
+      "Austin Schaefer",
+      "Jason Ilkowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kevin Lew",
+      "Brandon Pfeffer"
      ],
      "a": [
       "Paul Iacullo",
@@ -38986,21 +38997,10 @@
      ]
     },
     {
-     "t": "male",
-     "h": [
-      "Brandon Pfeffer",
-      "Ben Cortes"
-     ],
-     "a": [
-      "Jason Feldman",
-      "Jason Ilkowitz"
-     ]
-    },
-    {
      "t": "mixed",
      "h": [
-      "Rebecca Edelstein",
-      "Kevin Wan"
+      "Allyson Fry",
+      "Ben Cortes"
      ],
      "a": [
       "Abby Zhang",
@@ -39010,19 +39010,19 @@
     {
      "t": "mixed",
      "h": [
-      "Abeer Massoud",
-      "Ben Cortes"
+      "Angie Habib",
+      "Joe Ying"
      ],
      "a": [
       "Tiffany Kaleikini",
-      "Jason Feldman"
+      "Austin Schaefer"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Angie Habib",
-      "Brandon Pfeffer"
+      "Rebecca Edelstein",
+      "Steven Koo"
      ],
      "a": [
       "Juliet Deguida",
@@ -39032,8 +39032,8 @@
     {
      "t": "mixed",
      "h": [
-      "Allyson Fry",
-      "Joe Ying"
+      "Nancy Luyando",
+      "Kevin Lew"
      ],
      "a": [
       "Gwyneth Geressy",
@@ -39043,8 +39043,8 @@
     {
      "t": "female",
      "h": [
-      "Rebecca Edelstein",
-      "Allyson Fry"
+      "Angie Habib",
+      "Rebecca Edelstein"
      ],
      "a": [
       "Juliet Deguida",
@@ -39054,8 +39054,8 @@
     {
      "t": "female",
      "h": [
-      "Abeer Massoud",
-      "Angie Habib"
+      "Allyson Fry",
+      "Nancy Luyando"
      ],
      "a": [
       "Gwyneth Geressy",
@@ -39065,8 +39065,8 @@
     {
      "t": "male",
      "h": [
-      "Joe Ying",
-      "Kevin Wan"
+      "Brandon Pfeffer",
+      "Joe Ying"
      ],
      "a": [
       "Tyler Kaleikini",
@@ -39076,8 +39076,8 @@
     {
      "t": "male",
      "h": [
-      "Brandon Pfeffer",
-      "Ben Cortes"
+      "Steven Koo",
+      "Kevin Lew"
      ],
      "a": [
       "Eden Ksendzovsky",
@@ -39087,19 +39087,19 @@
     {
      "t": "mixed",
      "h": [
-      "Rebecca Edelstein",
-      "Ben Cortes"
+      "Allyson Fry",
+      "Brandon Pfeffer"
      ],
      "a": [
       "Gwyneth Geressy",
-      "Jason Feldman"
+      "Austin Schaefer"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Abeer Massoud",
-      "Joe Ying"
+      "Rebecca Edelstein",
+      "Ben Cortes"
      ],
      "a": [
       "Tiffany Kaleikini",
@@ -39109,8 +39109,8 @@
     {
      "t": "mixed",
      "h": [
-      "Angie Habib",
-      "Brandon Pfeffer"
+      "Abeer Massoud",
+      "Joe Ying"
      ],
      "a": [
       "Christina Schulz",
@@ -39120,8 +39120,8 @@
     {
      "t": "mixed",
      "h": [
-      "Allyson Fry",
-      "Kevin Wan"
+      "Angie Habib",
+      "Kevin Lew"
      ],
      "a": [
       "Juliet Deguida",
@@ -39131,7 +39131,7 @@
     {
      "t": "female",
      "h": [
-      "Rebecca Edelstein",
+      "Nancy Luyando",
       "Abeer Massoud"
      ],
      "a": [
@@ -39142,8 +39142,8 @@
     {
      "t": "female",
      "h": [
-      "Angie Habib",
-      "Allyson Fry"
+      "Allyson Fry",
+      "Angie Habib"
      ],
      "a": [
       "Gwyneth Geressy",
@@ -39153,23 +39153,23 @@
     {
      "t": "male",
      "h": [
-      "Joe Ying",
-      "Kevin Wan"
+      "Ben Cortes",
+      "Steven Koo"
      ],
      "a": [
-      "Eden Ksendzovsky",
-      "Tyler Kaleikini"
+      "Jason Ilkowitz",
+      "Eden Ksendzovsky"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Brandon Pfeffer",
-      "Ben Cortes"
+      "Kevin Lew",
+      "Joe Ying"
      ],
      "a": [
-      "Jason Feldman",
-      "Jason Ilkowitz"
+      "Paul Iacullo",
+      "Tyler Kaleikini"
      ]
     }
    ]
@@ -44028,7 +44028,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-15T15:57:43.667Z";
+  DATA.meta.asOf = "2026-09-15T19:22:22.645Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

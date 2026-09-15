@@ -46229,7 +46229,29 @@
     "firstName": "Nicholai",
     "lastName": "Ola",
     "dupr": "56MEJP",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "3.448",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7731056357,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "b91f209e-f309-4399-8e31-608259b086ed",
+    "firstName": "Dan",
+    "lastName": "Lorenz",
+    "dupr": "V697XP",
+    "duprRating": "3.136",
+    "lastSeen": "2026-09",
+    "duprNumericId": 8121879287,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "129227bd-dad6-4c63-9d24-d3c6a34e9621",
+    "firstName": "Suzanne",
+    "lastName": "BAUER",
+    "dupr": "2L02MR",
+    "duprRating": "3.462",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6073276209,
+    "duprProvisional": false
   }
 ]

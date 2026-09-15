@@ -14720,8 +14720,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Ali Husain"
      ],
      "a": [
       "Suzi Battison",
@@ -14731,8 +14731,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Melissa Dardani",
@@ -14742,8 +14742,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Shreyas Pani"
      ],
      "a": [
       "Christine Ferraez",
@@ -14753,8 +14753,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amalia Ditrapani",
+      "Maanav Shah"
      ],
      "a": [
       "Kelly Arvidson",
@@ -14764,8 +14764,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Sara Synn"
      ],
      "a": [
       "Melissa Dardani",
@@ -14775,8 +14775,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amalia Ditrapani",
+      "Richa Shah"
      ],
      "a": [
       "Kelly Arvidson",
@@ -14786,8 +14786,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Pani",
+      "Anthony Ursino"
      ],
      "a": [
       "Robbie Oddy",
@@ -14797,8 +14797,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Maanav Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Ross Switkes",
@@ -14808,8 +14808,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Suzi Battison",
@@ -14819,8 +14819,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Synn",
+      "Maanav Shah"
      ],
      "a": [
       "Melissa Dardani",
@@ -14830,8 +14830,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Anthony Ursino"
      ],
      "a": [
       "Kelly Arvidson",
@@ -14841,8 +14841,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Ali Husain"
      ],
      "a": [
       "Christine Ferraez",
@@ -14852,8 +14852,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Sara Synn"
      ],
      "a": [
       "Suzi Battison",
@@ -14863,8 +14863,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amalia Ditrapani",
+      "Amanda Ksiezopolski"
      ],
      "a": [
       "Christine Ferraez",
@@ -14874,8 +14874,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Maanav Shah"
      ],
      "a": [
       "Ross Switkes",
@@ -14885,8 +14885,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilan Shah",
+      "Anthony Ursino"
      ],
      "a": [
       "Patrick Ryan",
@@ -14896,8 +14896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Suzi Battison",
@@ -14907,8 +14907,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amalia Ditrapani",
+      "Ali Husain"
      ],
      "a": [
       "Melissa Dardani",
@@ -14918,8 +14918,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Kelly Arvidson",
@@ -14929,8 +14929,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Anthony Ursino"
      ],
      "a": [
       "Aimee Castellano",
@@ -14940,8 +14940,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Richa Shah"
      ],
      "a": [
       "Suzi Battison",
@@ -14951,8 +14951,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Sara Synn"
      ],
      "a": [
       "Melissa Dardani",
@@ -14962,8 +14962,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilan Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Patrick Ryan",
@@ -14973,8 +14973,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Maanav Shah",
+      "Ali Husain"
      ],
      "a": [
       "Ross Switkes",
@@ -14984,8 +14984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Suzi Battison",
@@ -14995,8 +14995,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Maanav Shah"
      ],
      "a": [
       "Melissa Dardani",
@@ -15006,8 +15006,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Synn",
+      "Ali Husain"
      ],
      "a": [
       "Kelly Arvidson",
@@ -15017,8 +15017,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amalia Ditrapani",
+      "Anthony Ursino"
      ],
      "a": [
       "Aimee Castellano",
@@ -15028,8 +15028,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Amalia Ditrapani"
      ],
      "a": [
       "Melissa Dardani",
@@ -15039,8 +15039,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Sara Synn"
      ],
      "a": [
       "Christine Ferraez",
@@ -15050,8 +15050,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Pani",
+      "Anthony Ursino"
      ],
      "a": [
       "Robbie Oddy",
@@ -15061,8 +15061,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Maanav Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Ross Switkes",
@@ -15093,8 +15093,8 @@
     {
      "t": "mixed",
      "h": [
-      "Elysia Price",
-      "Alexander Tong"
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15105,7 +15105,7 @@
      "t": "mixed",
      "h": [
       "Charlotte Healey",
-      "Alex Boory"
+      "Alexander Tong"
      ],
      "a": [
       "Rayna Baizman",
@@ -15115,8 +15115,8 @@
     {
      "t": "mixed",
      "h": [
-      "Kathleen Dougherty",
-      "Bruno Casino"
+      "Elysia Price",
+      "Alex Boory"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15149,7 +15149,7 @@
      "t": "male",
      "h": [
       "Jordan Denish",
-      "Alexander Tong"
+      "William Hayes"
      ],
      "a": [
       "Kenoa Tio",
@@ -15159,8 +15159,8 @@
     {
      "t": "male",
      "h": [
-      "William Hayes",
-      "Zachary Lessner"
+      "Zachary Lessner",
+      "Alexander Tong"
      ],
      "a": [
       "Varun Prakash",
@@ -15170,8 +15170,8 @@
     {
      "t": "mixed",
      "h": [
-      "Kathleen Dougherty",
-      "Bruno Casino"
+      "Alex Abad",
+      "Alexander Tong"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -15181,8 +15181,8 @@
     {
      "t": "mixed",
      "h": [
-      "Alex Abad",
-      "Jordan Denish"
+      "Kathleen Dougherty",
+      "Bruno Casino"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15269,7 +15269,7 @@
     {
      "t": "mixed",
      "h": [
-      "Rachel Alfano",
+      "Elysia Price",
       "Bruno Casino"
      ],
      "a": [
@@ -15291,8 +15291,8 @@
     {
      "t": "mixed",
      "h": [
-      "Elysia Price",
-      "Alexander Tong"
+      "Rachel Alfano",
+      "Alex Boory"
      ],
      "a": [
       "Allison Tarnoff",
@@ -15324,8 +15324,8 @@
     {
      "t": "male",
      "h": [
-      "Bruno Casino",
-      "Alex Boory"
+      "Jordan Denish",
+      "Alexander Tong"
      ],
      "a": [
       "Varun Prakash",
@@ -15357,8 +15357,8 @@
     {
      "t": "mixed",
      "h": [
-      "Alex Abad",
-      "Jordan Denish"
+      "Charlotte Healey",
+      "Bruno Casino"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -15368,8 +15368,8 @@
     {
      "t": "mixed",
      "h": [
-      "Charlotte Healey",
-      "Alexander Tong"
+      "Alex Abad",
+      "Alex Boory"
      ],
      "a": [
       "Rayna Baizman",
@@ -15523,7 +15523,7 @@
      ],
      "a": [
       "Matt Schall",
-      ""
+      "Kevin Wysoczynski"
      ]
     },
     {
@@ -15545,7 +15545,7 @@
      ],
      "a": [
       "Natasha De Carvalho",
-      ""
+      "Kevin Wysoczynski"
      ]
     },
     {
@@ -15622,7 +15622,7 @@
      ],
      "a": [
       "Tom Laiso",
-      ""
+      "Kevin Wysoczynski"
      ]
     },
     {
@@ -15655,7 +15655,7 @@
      ],
      "a": [
       "Natasha De Carvalho",
-      ""
+      "Kevin Wysoczynski"
      ]
     },
     {
@@ -15699,7 +15699,7 @@
      ],
      "a": [
       "Matt Schall",
-      ""
+      "Kevin Wysoczynski"
      ]
     },
     {
@@ -15797,7 +15797,7 @@
       ""
      ],
      "a": [
-      "",
+      "Kevin Wysoczynski",
       "Tom Laiso"
      ]
     }
@@ -17057,7 +17057,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T15:57:52.915Z";
+  DATA.meta.asOf = "2026-09-15T19:22:31.533Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
