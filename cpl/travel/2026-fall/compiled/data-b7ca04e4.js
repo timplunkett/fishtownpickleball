@@ -498,8 +498,8 @@
    "name": "Alexa Laniado",
    "gender": "Female",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 6,
@@ -512,7 +512,6 @@
    "genderLosses": 0,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce",
    "winPct": 85.7,
    "diff": 52,
    "ppg": 20.6,
@@ -521,7 +520,8 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": 1.6,
-   "strengthOfOpponents": -0.9
+   "strengthOfOpponents": -0.9,
+   "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce"
   },
   {
    "name": "Allyssa Perez",
@@ -2992,8 +2992,8 @@
    "name": "Natalie Ruiz",
    "gender": "Female",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 4,
@@ -3006,7 +3006,6 @@
    "genderLosses": 2,
    "clutchWins": 4,
    "clutchLosses": 1,
-   "playerId": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
    "winPct": 66.7,
    "diff": 0,
    "ppg": 19.7,
@@ -3015,7 +3014,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": 2,
-   "strengthOfOpponents": 1.8
+   "strengthOfOpponents": 1.8,
+   "playerId": "15beb650-644a-4445-ae84-86c0cdeaa1bc"
   },
   {
    "name": "Spencer Day",
@@ -21912,8 +21912,7 @@
    ],
    "subs": [
     "Sal Cocuzza",
-    "Brandon Tsang",
-    "Natalie Ruiz"
+    "Brandon Tsang"
    ]
   },
   {
@@ -37253,7 +37252,6 @@
     }
    ],
    "subs": [
-    "Alexa Laniado",
     "Addy Aquino",
     "Sal Cocuzza",
     "Jaclyn Kulich",
@@ -38466,7 +38464,7 @@
      ],
      "a": [
       "Rachel Levkov",
-      "Shawn Mayer"
+      "Tayon Hart"
      ]
     },
     {
@@ -38531,7 +38529,7 @@
       ""
      ],
      "a": [
-      "Shawn Mayer",
+      "Tayon Hart",
       "John Kulesza"
      ]
     },
@@ -38554,7 +38552,7 @@
      ],
      "a": [
       "Rachel Levkov",
-      "Shawn Mayer"
+      "Tayon Hart"
      ]
     },
     {
@@ -38619,7 +38617,7 @@
       ""
      ],
      "a": [
-      "Shawn Mayer",
+      "Tayon Hart",
       "Sammy Cohen"
      ]
     },
@@ -38642,7 +38640,7 @@
      ],
      "a": [
       "Danielle Collins",
-      "Shawn Mayer"
+      "Tayon Hart"
      ]
     },
     {
@@ -38708,7 +38706,7 @@
      ],
      "a": [
       "Leo Wong",
-      "Shawn Mayer"
+      "Tayon Hart"
      ]
     },
     {
@@ -38730,7 +38728,7 @@
      ],
      "a": [
       "Carolyn Antuna",
-      "Shawn Mayer"
+      "Tayon Hart"
      ]
     },
     {
@@ -40279,8 +40277,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "Nick Lewis"
      ],
      "a": [
       "Allison Hartman",
@@ -40290,8 +40288,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Frieder",
+      "Andrew Son"
      ],
      "a": [
       "Kristie Frazier",
@@ -40301,8 +40299,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thania Padova",
+      "Jason Quach"
      ],
      "a": [
       "Kristen Venditti",
@@ -40312,8 +40310,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Rhoades",
+      "David Barth"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40323,8 +40321,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "Thania Padova"
      ],
      "a": [
       "Allison Hartman",
@@ -40334,8 +40332,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Sheetz",
+      "Lauren Fernandez"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40345,8 +40343,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shawn Roseman",
+      "Nick Lewis"
      ],
      "a": [
       "Matt Enz",
@@ -40356,8 +40354,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Son",
+      "Adriel Menendez"
      ],
      "a": [
       "Matthew Landis",
@@ -40367,8 +40365,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lauren Fernandez",
+      "Jason Quach"
      ],
      "a": [
       "Kristen Venditti",
@@ -40378,8 +40376,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Rhoades",
+      "David Barth"
      ],
      "a": [
       "Allison Hartman",
@@ -40389,8 +40387,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sheetz",
+      "Adriel Menendez"
      ],
      "a": [
       "Rebecca Halton",
@@ -40400,8 +40398,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Frieder",
+      "Shawn Roseman"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40411,8 +40409,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "Thania Padova"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40422,8 +40420,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Rhoades",
+      "Gabby Frieder"
      ],
      "a": [
       "Kristen Venditti",
@@ -40433,8 +40431,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Barth",
+      "Nick Lewis"
      ],
      "a": [
       "Matthew Landis",
@@ -40444,8 +40442,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Son",
+      "Jason Quach"
      ],
      "a": [
       "Jonathan Fossum",
@@ -40455,8 +40453,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "David Barth"
      ],
      "a": [
       "Allison Hartman",
@@ -40466,8 +40464,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thania Padova",
+      "Adriel Menendez"
      ],
      "a": [
       "Rebecca Halton",
@@ -40477,8 +40475,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Frieder",
+      "Nick Lewis"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40488,8 +40486,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sheetz",
+      "Shawn Roseman"
      ],
      "a": [
       "Kristie Frazier",
@@ -40499,8 +40497,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gabby Frieder",
+      "Emily Sheetz"
      ],
      "a": [
       "Allison Hartman",
@@ -40510,8 +40508,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Rhoades",
+      "Lauren Fernandez"
      ],
      "a": [
       "Kristie Frazier",
@@ -40521,8 +40519,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shawn Roseman",
+      "Nick Lewis"
      ],
      "a": [
       "Matt Enz",
@@ -40532,8 +40530,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Son",
+      "Jason Quach"
      ],
      "a": [
       "Matthew Landis",
@@ -40543,8 +40541,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Rhoades",
+      "Nick Lewis"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40554,8 +40552,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "Andrew Son"
      ],
      "a": [
       "Allison Hartman",
@@ -40565,8 +40563,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lauren Fernandez",
+      "Jason Quach"
      ],
      "a": [
       "Kristie Frazier",
@@ -40576,8 +40574,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thania Padova",
+      "Adriel Menendez"
      ],
      "a": [
       "Kristen Venditti",
@@ -40587,8 +40585,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Courtney Skolka",
+      "Gabby Frieder"
      ],
      "a": [
       "Jennifer Minehan",
@@ -40598,8 +40596,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Sheetz",
+      "Lauren Fernandez"
      ],
      "a": [
       "Kristen Venditti",
@@ -40609,8 +40607,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Barth",
+      "Adriel Menendez"
      ],
      "a": [
       "Matt Enz",
@@ -40620,8 +40618,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shawn Roseman",
+      "Jason Quach"
      ],
      "a": [
       "Nick Sotera",
@@ -44028,7 +44026,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-15T19:22:22.645Z";
+  DATA.meta.asOf = "2026-09-15T20:41:39.050Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

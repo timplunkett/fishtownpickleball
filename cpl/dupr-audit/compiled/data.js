@@ -541,6 +541,13 @@ window.DUPR_AUDIT = {
    "name": "Alexa Laniado",
    "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce",
    "team": "Montville",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Alexa Laniado",
+   "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce",
+   "team": "Montville",
    "slug": "a1413f3d",
    "gender": "Female"
   },
@@ -13162,6 +13169,13 @@ window.DUPR_AUDIT = {
    "name": "Natalia Koontz",
    "playerId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
    "team": "Dill Dinkers Hatboro",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Natalie Ruiz",
+   "playerId": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
+   "team": "Montville",
    "slug": "b7ca04e4",
    "gender": "Female"
   },
