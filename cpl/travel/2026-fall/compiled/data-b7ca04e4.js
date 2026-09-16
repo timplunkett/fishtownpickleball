@@ -150,8 +150,8 @@
    "name": "Addy Aquino",
    "gender": "Female",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 5,
    "wins": 5,
@@ -164,7 +164,6 @@
    "genderLosses": 0,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "1f688eb7-dd8a-4b49-a2a5-98cac5782835",
    "winPct": 100,
    "diff": 23,
    "ppg": 21,
@@ -173,7 +172,8 @@
    "ratingGames": 5,
    "confidence": 44,
    "strengthOfPartners": 2.2,
-   "strengthOfOpponents": -0.7
+   "strengthOfOpponents": -0.7,
+   "playerId": "1f688eb7-dd8a-4b49-a2a5-98cac5782835"
   },
   {
    "name": "Calvin Fernandez",
@@ -12289,7 +12289,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 522,
+   "leagueRank": 523,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12318,7 +12318,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 524,
+   "leagueRank": 525,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 525,
+   "leagueRank": 526,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12463,7 +12463,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 529,
+   "leagueRank": 530,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12869,7 +12869,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 533,
+   "leagueRank": 534,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12956,7 +12956,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 528,
+   "leagueRank": 529,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12985,7 +12985,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 527,
+   "leagueRank": 528,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -37252,7 +37252,6 @@
     }
    ],
    "subs": [
-    "Addy Aquino",
     "Sal Cocuzza",
     "Jaclyn Kulich",
     "Suki Wong",
@@ -37735,8 +37734,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Jeff Burke"
      ],
      "a": [
       "Christina Grosso",
@@ -37746,8 +37745,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Xavier Yandoli"
      ],
      "a": [
       "Nicci Galioto",
@@ -37757,8 +37756,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Sam Forin"
      ],
      "a": [
       "Gerianne Mcmahon",
@@ -37768,8 +37767,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tracey Collins",
+      "Jadiel Rodriguez"
      ],
      "a": [
       "Brittani Rivera",
@@ -37779,8 +37778,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Olivia Jung-Moss"
      ],
      "a": [
       "Christina Grosso",
@@ -37790,8 +37789,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Stephanie Ho"
      ],
      "a": [
       "Nicci Galioto",
@@ -37801,8 +37800,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Xavier Yandoli"
      ],
      "a": [
       "Anthony Mcmahon",
@@ -37812,8 +37811,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jadiel Rodriguez",
+      "Jeff Burke"
      ],
      "a": [
       "Richard Medel",
@@ -37823,8 +37822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Jeff Burke"
      ],
      "a": [
       "Christina Grosso",
@@ -37834,8 +37833,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Kyle Korman"
      ],
      "a": [
       "Nicci Galioto",
@@ -37845,8 +37844,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Sam Forin"
      ],
      "a": [
       "Gerianne Mcmahon",
@@ -37856,8 +37855,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tracey Collins",
+      "Jadiel Rodriguez"
      ],
      "a": [
       "Kali Lerner",
@@ -37867,8 +37866,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tracey Collins",
+      "Stephanie Ho"
      ],
      "a": [
       "Christina Grosso",
@@ -37878,8 +37877,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Olivia Jung-Moss"
      ],
      "a": [
       "Marianna Telerman",
@@ -37889,8 +37888,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Kyle Korman"
      ],
      "a": [
       "Anthony Mcmahon",
@@ -37900,8 +37899,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xavier Yandoli",
+      "Jeff Burke"
      ],
      "a": [
       "Richard Medel",
@@ -37911,8 +37910,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Sam Forin"
      ],
      "a": [
       "Christina Grosso",
@@ -37922,8 +37921,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tracey Collins",
+      "Kyle Korman"
      ],
      "a": [
       "Brittani Rivera",
@@ -37933,8 +37932,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Xavier Yandoli"
      ],
      "a": [
       "Kali Lerner",
@@ -37944,8 +37943,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Jadiel Rodriguez"
      ],
      "a": [
       "Nicci Galioto",
@@ -37955,8 +37954,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Tracey Collins"
      ],
      "a": [
       "Nicci Galioto",
@@ -37966,8 +37965,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Paula Cushing"
      ],
      "a": [
       "Kali Lerner",
@@ -37977,8 +37976,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Jeff Burke"
      ],
      "a": [
       "Cade Chrebet",
@@ -37988,8 +37987,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xavier Yandoli",
+      "Jadiel Rodriguez"
      ],
      "a": [
       "Brandon Lam",
@@ -37999,8 +37998,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Sam Forin"
      ],
      "a": [
       "Christina Grosso",
@@ -38010,8 +38009,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Jeff Burke"
      ],
      "a": [
       "Gerianne Mcmahon",
@@ -38021,8 +38020,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Kyle Korman"
      ],
      "a": [
       "Marianna Telerman",
@@ -38032,8 +38031,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Xavier Yandoli"
      ],
      "a": [
       "Brittani Rivera",
@@ -38043,8 +38042,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Tracey Collins"
      ],
      "a": [
       "Nicci Galioto",
@@ -38054,8 +38053,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Stephanie Ho"
      ],
      "a": [
       "Marianna Telerman",
@@ -38065,8 +38064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Jeff Burke"
      ],
      "a": [
       "Alex Glushek",
@@ -38076,8 +38075,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jadiel Rodriguez"
      ],
      "a": [
       "Brandon Lam",
@@ -39178,7 +39177,361 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Montville",
    "time": "2026-09-16T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Arzu Alimjan",
+      "Donavin Van Ee"
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abigail Barger",
+      "Dion Brown"
+     ],
+     "a": [
+      "Sarah Law",
+      "Calvin Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lana Engler Carss",
+      "David Reyes"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Kamal D"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Colleen Van Ee",
+      "Cullen Curley"
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Colleen Van Ee",
+      "Deb Morisie"
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Sarah Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Abigail Barger",
+      "Arzu Alimjan"
+     ],
+     "a": [
+      "Corie Stone",
+      "Jordan Flavell-Boney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dion Brown",
+      "Cullen Curley"
+     ],
+     "a": [
+      "Abdullah Osman",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steven Doerner",
+      "David Reyes"
+     ],
+     "a": [
+      "Keith Parker",
+      "Kamal D"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abigail Barger",
+      "Cullen Curley"
+     ],
+     "a": [
+      "Sarah Law",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Colleen Van Ee",
+      "Dion Brown"
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Arzu Alimjan",
+      "David Reyes"
+     ],
+     "a": [
+      "Corie Stone",
+      "Calvin Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lana Engler Carss",
+      "Donavin Van Ee"
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Colleen Van Ee",
+      "Lana Engler Carss"
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Jordan Flavell-Boney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Arzu Alimjan",
+      "Deb Morisie"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Sarah Law"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Reyes",
+      "Dion Brown"
+     ],
+     "a": [
+      "Chris Colucci",
+      "Kamal D"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Cullen Curley",
+      "Steven Doerner"
+     ],
+     "a": [
+      "Calvin Fernandez",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Arzu Alimjan",
+      "Cullen Curley"
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abigail Barger",
+      "David Reyes"
+     ],
+     "a": [
+      "Sarah Law",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Deb Morisie",
+      "Dion Brown"
+     ],
+     "a": [
+      "Corie Stone",
+      "Calvin Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Colleen Van Ee",
+      "Donavin Van Ee"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lana Engler Carss",
+      "Deb Morisie"
+     ],
+     "a": [
+      "Corie Stone",
+      "Jordan Flavell-Boney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Colleen Van Ee",
+      "Abigail Barger"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Carmina Lasam"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dion Brown",
+      "Donavin Van Ee"
+     ],
+     "a": [
+      "Abdullah Osman",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Cullen Curley",
+      "David Reyes"
+     ],
+     "a": [
+      "Kamal D",
+      "Calvin Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Deb Morisie",
+      "David Reyes"
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Abigail Barger",
+      "Cullen Curley"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lana Engler Carss",
+      "Dion Brown"
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Calvin Fernandez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Arzu Alimjan",
+      "Steven Doerner"
+     ],
+     "a": [
+      "Jordan Flavell-Boney",
+      "Kamal D"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Colleen Van Ee",
+      "Arzu Alimjan"
+     ],
+     "a": [
+      "Sarah Law",
+      "Alexa Laniado"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Abigail Barger",
+      "Lana Engler Carss"
+     ],
+     "a": [
+      "Natalie Ruiz",
+      "Carmina Lasam"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Cullen Curley",
+      "Dion Brown"
+     ],
+     "a": [
+      "Abdullah Osman",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Reyes",
+      "Steven Doerner"
+     ],
+     "a": [
+      "Calvin Fernandez",
+      "Kamal D"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -43918,6 +44271,7 @@
   "Drew Lessa": "01b07803-1dfa-49a6-9ea6-9e0ce7c42fcd",
   "Kevin Lew": "03886b04-b474-4dda-b7f3-eb4f4954399c",
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
+  "Alex Sarin": "05b42ddf-68a1-4468-bbaf-44bd9ed27abc",
   "Brittany Jacobs": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
   "Ismael Hernandez": "262cf0be-4906-46fb-ab84-f4aa760bac58",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
@@ -44026,7 +44380,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-16T02:30:00.499Z";
+  DATA.meta.asOf = "2026-09-16T10:32:43.489Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

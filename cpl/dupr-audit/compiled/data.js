@@ -237,6 +237,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Addy Aquino",
+   "playerId": "1f688eb7-dd8a-4b49-a2a5-98cac5782835",
+   "team": "Montville",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Adele Hackney",
    "playerId": "c1e41980-e98d-4208-aa10-dc04e407cf8f",
    "team": "Dill Dinkers Hatboro",
@@ -1886,6 +1893,13 @@ window.DUPR_AUDIT = {
    "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
    "team": "Dill Dinkers Freehold",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Ben Mead",
+   "playerId": "7858dda8-168b-4a84-8d5d-7a6571e9313a",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -11559,6 +11573,13 @@ window.DUPR_AUDIT = {
    "name": "Maria Fanfa",
    "playerId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
    "team": "Picklr Fair Lawn",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Maria Fanfa",
+   "playerId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
+   "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
    "gender": "Female"
   },
@@ -12162,6 +12183,13 @@ window.DUPR_AUDIT = {
    "playerId": "a4158a62-4d71-4657-b206-81d4af239b16",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Matthew Russell",
+   "playerId": "a667ec5e-c910-4115-b4d2-93d2dcfacbe8",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -15917,10 +15945,24 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Shelah Wallace",
+   "playerId": "fa519fb1-87ca-4a7b-9265-4aba9807929f",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Sherri Falsetti",
    "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
    "team": "Picklr Newtown",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Sheung Tom",
+   "playerId": "2a7bc14d-1e84-4554-aeb4-00dd726c8f6a",
+   "team": "Allstar Pickler",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {

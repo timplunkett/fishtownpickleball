@@ -182,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 498
+      "ranking": 499
     },
     {
       "playerId": "0685c1ca-d8fb-4a1d-a039-8be856ce5c56",
@@ -274,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 491
+      "ranking": 492
     },
     {
       "playerId": "07881006-c083-4729-8424-410aeee08940",
@@ -1585,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 494
+      "ranking": 495
     },
     {
       "playerId": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
@@ -1609,6 +1609,29 @@
       "genderWins": 4,
       "genderLosses": 0,
       "ranking": 65
+    },
+    {
+      "playerId": "2a7bc14d-1e84-4554-aeb4-00dd726c8f6a",
+      "firstName": "Sheung",
+      "lastName": "Tom",
+      "gender": "Female",
+      "dupr": "90QJPV",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 483
     },
     {
       "playerId": "2a820b56-af8a-4856-8db8-fb8e7c133e08",
@@ -1746,7 +1769,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 485
+      "ranking": 486
     },
     {
       "playerId": "2e5dc033-4c92-4dbf-b52a-5e29efc8d009",
@@ -2804,7 +2827,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 486
+      "ranking": 487
     },
     {
       "playerId": "415eebaa-9058-4ccd-9b55-1641fe744bed",
@@ -3264,7 +3287,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 497
+      "ranking": 498
     },
     {
       "playerId": "4be457d0-c765-45af-b64d-da383c437a53",
@@ -4992,6 +5015,29 @@
       "ranking": 320
     },
     {
+      "playerId": "77e46249-c354-488b-9939-8a5c21dbf8ab",
+      "firstName": "Wai",
+      "lastName": "Yiu",
+      "gender": "Male",
+      "dupr": "G00YMD",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "teamName": "Picklr Fair Lawn",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 500
+    },
+    {
       "playerId": "797026a4-96ca-4435-bab9-3cbc13655e20",
       "firstName": "Brenda",
       "lastName": "Mee",
@@ -5403,7 +5449,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 484
+      "ranking": 485
     },
     {
       "playerId": "80fbbb8f-8f4d-4a6f-bc08-925f29df32ea",
@@ -6447,7 +6493,7 @@
       "gender": "Female",
       "dupr": "N7L2VZ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
       "teamName": "Picklr Fair Lawn",
       "wins": 8,
@@ -6921,7 +6967,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 495
+      "ranking": 496
     },
     {
       "playerId": "a2e21de9-b9d3-4727-a66f-101c62e00a5d",
@@ -7151,7 +7197,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 493
+      "ranking": 494
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
@@ -7358,7 +7404,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 489
+      "ranking": 490
     },
     {
       "playerId": "af8a6e4b-f588-45db-906e-5766f1307e50",
@@ -9980,7 +10026,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 488
+      "ranking": 489
     },
     {
       "playerId": "e5bf1611-3d03-4600-9e72-301e91a9db18",
@@ -10348,7 +10394,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 492
+      "ranking": 493
     },
     {
       "playerId": "ea5676f2-c36c-4c54-b9df-c6fb5926b61e",
@@ -10532,7 +10578,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 487
+      "ranking": 488
     },
     {
       "playerId": "ee2b1370-05ac-455a-8be6-d2adf00a4f98",
@@ -10854,7 +10900,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 483
+      "ranking": 484
     },
     {
       "playerId": "f6eef486-8999-4247-a7d8-20251377021c",
@@ -11245,7 +11291,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 490
+      "ranking": 491
     },
     {
       "playerId": "fbaf1cdd-118b-4d51-a42e-f06908cc3f3c",
@@ -11383,7 +11429,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 496
+      "ranking": 497
     },
     {
       "playerId": "fee0899c-870f-49f7-b07b-d34ed516a9f9",

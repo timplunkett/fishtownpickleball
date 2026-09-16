@@ -3195,8 +3195,8 @@
    "name": "Maria Fanfa",
    "gender": "Female",
    "team": "Picklr Fair Lawn",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 8,
@@ -3209,7 +3209,6 @@
    "genderLosses": 2,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
    "winPct": 66.7,
    "diff": 16,
    "ppg": 18.7,
@@ -3218,7 +3217,8 @@
    "ratingGames": 12,
    "confidence": 67,
    "strengthOfPartners": 0.2,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4"
   },
   {
    "name": "Marie Walsh Mccarty",
@@ -10462,7 +10462,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 491,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10558,6 +10558,35 @@
    "playerId": "1c3b8ddb-6596-4a83-ac12-05bfbf4610ce"
   },
   {
+   "name": "Sheung Tom",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 483,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2a7bc14d-1e84-4554-aeb4-00dd726c8f6a"
+  },
+  {
    "name": "Anthony Viola",
    "gender": "Male",
    "team": "ACE Moorestown",
@@ -10578,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 486,
+   "leagueRank": 487,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 496,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11332,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 489,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11796,7 +11825,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 483,
+   "leagueRank": 484,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11883,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 491,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -19388,7 +19417,6 @@
    ],
    "subs": [
     "George Zhou",
-    "Maria Fanfa",
     "Erik Abramson",
     "Feng Zhang",
     "Buyi Zhang",
@@ -29099,7 +29127,6 @@
    "subs": [
     "Pilot Sung",
     "Ying Lin",
-    "Maria Fanfa",
     "Patricia Cordts"
    ]
   },
@@ -30489,6 +30516,7 @@
   "Scott Rothschild": "6f4df2db-2114-4c90-b889-b969317403c7",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
+  "Wai Yiu": "77e46249-c354-488b-9939-8a5c21dbf8ab",
   "Lisa Pinder": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
   "Neal Shipon": "7d298d79-0931-4682-8a6f-305e27d992b7",
   "Wenge Li": "7d534d9a-c409-42fa-bce1-c04428d6c5e3",
@@ -30516,7 +30544,7 @@
   "matchesPlayed": 29,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 449,
+  "totalPlayers": 450,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -30633,7 +30661,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T02:29:07.168Z";
+  DATA.meta.asOf = "2026-09-16T10:31:53.694Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

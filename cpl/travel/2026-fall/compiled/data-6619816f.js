@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4932,6 +4932,35 @@
    "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183"
   },
   {
+   "name": "Ben Mead",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 185,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7858dda8-168b-4a84-8d5d-7a6571e9313a"
+  },
+  {
    "name": "Steven Fernandez",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -4981,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5010,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5048,6 +5077,35 @@
    "playerId": "a50a69d0-0a8c-4241-b768-846b1591d180"
   },
   {
+   "name": "Matthew Russell",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 192,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a667ec5e-c910-4115-b4d2-93d2dcfacbe8"
+  },
+  {
    "name": "Jacob Yandoli",
    "gender": "Male",
    "team": "Monroe",
@@ -5068,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,13 +5155,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "d23839c0-334b-4423-9305-0c6281523d5d"
+  },
+  {
+   "name": "Shelah Wallace",
+   "gender": "Female",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 200,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "fa519fb1-87ca-4a7b-9265-4aba9807929f"
   },
   {
    "name": "Noah Goding",
@@ -15448,7 +15535,7 @@
       ""
      ],
      "a": [
-      "",
+      "Gift Horn",
       "Hruday Vemparala"
      ]
     },
@@ -15493,7 +15580,7 @@
      ],
      "a": [
       "Johanna Wagner",
-      ""
+      "Gift Horn"
      ]
     },
     {
@@ -15536,7 +15623,7 @@
       ""
      ],
      "a": [
-      "",
+      "Gift Horn",
       "Hruday Vemparala"
      ]
     },
@@ -15581,7 +15668,7 @@
      ],
      "a": [
       "Johanna Wagner",
-      ""
+      "Gift Horn"
      ]
     },
     {
@@ -15635,7 +15722,7 @@
       ""
      ],
      "a": [
-      "",
+      "Gift Horn",
       "Keith Shedlock"
      ]
     },
@@ -15680,7 +15767,7 @@
      ],
      "a": [
       "Meghan Mediratta",
-      ""
+      "Gift Horn"
      ]
     },
     {
@@ -15723,7 +15810,7 @@
       ""
      ],
      "a": [
-      "",
+      "Gift Horn",
       "Chad Durkin"
      ]
     },
@@ -15757,7 +15844,7 @@
      ],
      "a": [
       "Jenna Irwin",
-      ""
+      "Gift Horn"
      ]
     },
     {
@@ -16600,7 +16687,7 @@
       ""
      ],
      "a": [
-      "Robert Schimony",
+      "Adam Beck",
       "Will Delaney"
      ]
     },
@@ -16688,8 +16775,8 @@
       ""
      ],
      "a": [
-      "Adam Beck",
-      "Robert Schimony"
+      "Anushk Gupta",
+      "William Lee"
      ]
     },
     {
@@ -16777,7 +16864,7 @@
      ],
      "a": [
       "Adam Beck",
-      "Robert Schimony"
+      "Will Delaney"
      ]
     },
     {
@@ -16787,7 +16874,7 @@
       ""
      ],
      "a": [
-      "Will Delaney",
+      "Ryan Rosen",
       "Anushk Gupta"
      ]
     },
@@ -16798,7 +16885,7 @@
       ""
      ],
      "a": [
-      "Julia Plein",
+      "Alyssa Tartaglia",
       "Anushk Gupta"
      ]
     },
@@ -16820,7 +16907,7 @@
       ""
      ],
      "a": [
-      "Alyssa Tartaglia",
+      "Julia Plein",
       "William Lee"
      ]
     },
@@ -16832,7 +16919,7 @@
      ],
      "a": [
       "Helen Liu",
-      "Robert Schimony"
+      "Will Delaney"
      ]
     },
     {
@@ -16864,7 +16951,7 @@
       ""
      ],
      "a": [
-      "Ryan Rosen",
+      "Adam Beck",
       "William Lee"
      ]
     },
@@ -16876,7 +16963,7 @@
      ],
      "a": [
       "Will Delaney",
-      "Robert Schimony"
+      "Ryan Rosen"
      ]
     }
    ]
@@ -17336,7 +17423,7 @@
   "matchesPlayed": 16,
   "provisionalMatches": 0,
   "weeks": "1-3",
-  "totalPlayers": 180,
+  "totalPlayers": 183,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -17413,7 +17500,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T02:30:11.126Z";
+  DATA.meta.asOf = "2026-09-16T10:32:53.021Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
