@@ -32598,7 +32598,7 @@
     "lastName": "Volz",
     "dupr": "8J6ZKJ",
     "duprRating": "4.681",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5752068159,
     "duprProvisional": false
   },
@@ -46313,5 +46313,13 @@
     "lastSeen": "2026-09",
     "duprNumericId": 6439474783,
     "duprProvisional": false
+  },
+  {
+    "playerId": "f64588f1-c347-41c7-b229-5c718f73574d",
+    "firstName": "Avinash",
+    "lastName": "Thumma",
+    "dupr": "K59VL7",
+    "duprRating": null,
+    "lastSeen": "2026-09"
   }
 ]

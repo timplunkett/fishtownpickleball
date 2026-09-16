@@ -30287,7 +30287,7 @@
       ""
      ],
      "a": [
-      "",
+      "Diana Nguyen",
       "An Nguyen"
      ]
     },
@@ -30332,7 +30332,7 @@
      ],
      "a": [
       "Emily Su",
-      ""
+      "Diana Nguyen"
      ]
     },
     {
@@ -30375,7 +30375,7 @@
       ""
      ],
      "a": [
-      "",
+      "Diana Nguyen",
       "An Nguyen"
      ]
     },
@@ -30420,7 +30420,7 @@
      ],
      "a": [
       "Emily Su",
-      ""
+      "Diana Nguyen"
      ]
     },
     {
@@ -31007,8 +31007,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Matthew Brigle"
      ],
      "a": [
       "Claudya Elefante",
@@ -31018,8 +31018,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "William Ye"
      ],
      "a": [
       "Aven Bernhardt",
@@ -31029,8 +31029,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Vic Nguyen"
      ],
      "a": [
       "Erika Richards",
@@ -31040,8 +31040,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Joshua Mindlin"
      ],
      "a": [
       "Daisy Zhang",
@@ -31051,8 +31051,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Mary Callaghan"
      ],
      "a": [
       "Erika Richards",
@@ -31062,8 +31062,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Claudya Elefante",
@@ -31073,8 +31073,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Evan Rubin"
      ],
      "a": [
       "Tejas Goculdas",
@@ -31084,8 +31084,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Ye",
+      "Brian Gralnick"
      ],
      "a": [
       "Michael Velez",
@@ -31095,8 +31095,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Brian Gralnick"
      ],
      "a": [
       "Sarah Ross",
@@ -31106,8 +31106,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Erika Richards",
@@ -31117,8 +31117,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "William Ye"
      ],
      "a": [
       "Claudya Elefante",
@@ -31128,8 +31128,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Evan Rubin"
      ],
      "a": [
       "Daisy Zhang",
@@ -31139,8 +31139,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Mary Callaghan"
      ],
      "a": [
       "Erika Richards",
@@ -31150,8 +31150,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Elisia Clark"
      ],
      "a": [
       "Claudya Elefante",
@@ -31161,8 +31161,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Ye",
+      "Evan Rubin"
      ],
      "a": [
       "Mike Ceron",
@@ -31172,8 +31172,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vic Nguyen",
+      "Matthew Brigle"
      ],
      "a": [
       "Adam Beck",
@@ -31183,8 +31183,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Brian Gralnick"
      ],
      "a": [
       "Aven Bernhardt",
@@ -31194,8 +31194,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Vic Nguyen"
      ],
      "a": [
       "Sarah Ross",
@@ -31205,8 +31205,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "William Ye"
      ],
      "a": [
       "Daisy Zhang",
@@ -31216,8 +31216,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Evan Rubin"
      ],
      "a": [
       "Claudya Elefante",
@@ -31227,8 +31227,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Vanessa Zommi Kungne"
      ],
      "a": [
       "Sarah Ross",
@@ -31238,8 +31238,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Mary Callaghan"
      ],
      "a": [
       "Claudya Elefante",
@@ -31249,8 +31249,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian Gralnick",
+      "Evan Rubin"
      ],
      "a": [
       "Adam Beck",
@@ -31260,8 +31260,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Matthew Brigle"
      ],
      "a": [
       "Tejas Goculdas",
@@ -31271,8 +31271,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Brian Gralnick"
      ],
      "a": [
       "Aven Bernhardt",
@@ -31282,8 +31282,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Vic Nguyen"
      ],
      "a": [
       "Daisy Zhang",
@@ -31293,8 +31293,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Matthew Brigle"
      ],
      "a": [
       "Erika Richards",
@@ -31304,8 +31304,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Joshua Mindlin"
      ],
      "a": [
       "Sarah Ross",
@@ -31315,8 +31315,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Hada Solorzano"
      ],
      "a": [
       "Sarah Ross",
@@ -31326,8 +31326,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Claudya Elefante",
@@ -31337,8 +31337,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Evan Rubin"
      ],
      "a": [
       "Mike Ceron",
@@ -31348,8 +31348,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Brigle",
+      "Vic Nguyen"
      ],
      "a": [
       "Adam Beck",
@@ -34886,7 +34886,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T10:32:13.453Z";
+  DATA.meta.asOf = "2026-09-16T15:51:08.342Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

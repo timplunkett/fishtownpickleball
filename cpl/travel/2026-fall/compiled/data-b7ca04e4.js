@@ -12463,7 +12463,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 530,
+   "leagueRank": 531,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12869,7 +12869,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 534,
+   "leagueRank": 535,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12956,13 +12956,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 529,
+   "leagueRank": 530,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "ef0a27b4-d6b4-4141-a8f1-448c710934ac"
+  },
+  {
+   "name": "Avinash Thumma",
+   "gender": "Male",
+   "team": "ACE Downingtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 529,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f64588f1-c347-41c7-b229-5c718f73574d"
   },
   {
    "name": "Leah Stup",
@@ -41151,7 +41180,7 @@
      ],
      "a": [
       "Ben Van Handel",
-      "Peter Siv"
+      "Christopher Munden"
      ]
     },
     {
@@ -41206,7 +41235,7 @@
      ],
      "a": [
       "Tesa Pribitkin",
-      "Peter Siv"
+      "Christopher Munden"
      ]
     },
     {
@@ -41238,7 +41267,7 @@
       "Jonathan Macqueen"
      ],
      "a": [
-      "Peter Siv",
+      "Christopher Munden",
       "Stephen Macpherson"
      ]
     },
@@ -41337,7 +41366,7 @@
       "Kyle Kelly"
      ],
      "a": [
-      "Peter Siv",
+      "Christopher Munden",
       "Sebastian Fas"
      ]
     }
@@ -44336,7 +44365,7 @@
   "matchesPlayed": 42,
   "provisionalMatches": 0,
   "weeks": "1-3",
-  "totalPlayers": 473,
+  "totalPlayers": 474,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -44380,7 +44409,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-16T10:32:43.489Z";
+  DATA.meta.asOf = "2026-09-16T15:52:19.717Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

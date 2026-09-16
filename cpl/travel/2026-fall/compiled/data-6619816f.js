@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15531,8 +15531,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raneeta Sawhney-Rigby",
+      "Daniel Gallegos"
      ],
      "a": [
       "Gift Horn",
@@ -15542,8 +15542,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Infante",
+      "Nathan Malhotra"
      ],
      "a": [
       "Meghan Mediratta",
@@ -15553,8 +15553,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Barros",
+      "Austin Williams"
      ],
      "a": [
       "Johanna Wagner",
@@ -15564,8 +15564,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Ken Velarde"
      ],
      "a": [
       "Jenna Irwin",
@@ -15575,8 +15575,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Kara Infante"
      ],
      "a": [
       "Johanna Wagner",
@@ -15586,8 +15586,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ariana Rizvani",
+      "Raneeta Sawhney-Rigby"
      ],
      "a": [
       "Jenna Irwin",
@@ -15597,8 +15597,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nathan Malhotra",
+      "Austin Williams"
      ],
      "a": [
       "Hruday Vemparala",
@@ -15608,8 +15608,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Velarde",
+      "Aidan Jackson"
      ],
      "a": [
       "Jason Makarevic",
@@ -15619,8 +15619,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raneeta Sawhney-Rigby",
+      "Daniel Gallegos"
      ],
      "a": [
       "Gift Horn",
@@ -15630,8 +15630,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Barros",
+      "Austin Williams"
      ],
      "a": [
       "Jenna Irwin",
@@ -15641,8 +15641,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Nathan Malhotra"
      ],
      "a": [
       "Johanna Wagner",
@@ -15652,8 +15652,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ariana Rizvani",
+      "Aidan Jackson"
      ],
      "a": [
       "Meghan Mediratta",
@@ -15663,8 +15663,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Ashley Barros"
      ],
      "a": [
       "Johanna Wagner",
@@ -15674,8 +15674,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kara Infante",
+      "Ariana Rizvani"
      ],
      "a": [
       "Jenna Irwin",
@@ -15685,8 +15685,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Nathan Malhotra"
      ],
      "a": [
       "Chad Durkin",
@@ -15696,8 +15696,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Velarde",
+      "Daniel Gallegos"
      ],
      "a": [
       "",
@@ -15707,8 +15707,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raneeta Sawhney-Rigby",
+      "Aidan Jackson"
      ],
      "a": [
       "Johanna Wagner",
@@ -15718,8 +15718,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ariana Rizvani",
+      "Daniel Gallegos"
      ],
      "a": [
       "Gift Horn",
@@ -15729,8 +15729,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Barros",
+      "Nathan Malhotra"
      ],
      "a": [
       "Jenna Irwin",
@@ -15740,8 +15740,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Infante",
+      "Ken Velarde"
      ],
      "a": [
       "Meghan Mediratta",
@@ -15751,8 +15751,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kara Infante",
+      "Ashley Barros"
      ],
      "a": [
       "Jenna Irwin",
@@ -15762,8 +15762,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Raneeta Sawhney-Rigby"
      ],
      "a": [
       "Meghan Mediratta",
@@ -15773,8 +15773,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Jackson",
+      "Daniel Gallegos"
      ],
      "a": [
       "Keith Shedlock",
@@ -15784,8 +15784,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Ken Velarde"
      ],
      "a": [
       "Hruday Vemparala",
@@ -15795,8 +15795,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ariana Rizvani",
+      "Aidan Jackson"
      ],
      "a": [
       "Johanna Wagner",
@@ -15806,8 +15806,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Infante",
+      "Austin Williams"
      ],
      "a": [
       "Gift Horn",
@@ -15817,8 +15817,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Ken Velarde"
      ],
      "a": [
       "Meghan Mediratta",
@@ -15828,8 +15828,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Barros",
+      "Nathan Malhotra"
      ],
      "a": [
       "Jenna Irwin",
@@ -15839,8 +15839,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ariana Rizvani",
+      "Raneeta Sawhney-Rigby"
      ],
      "a": [
       "Jenna Irwin",
@@ -15850,8 +15850,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aurora Lewis",
+      "Kara Infante"
      ],
      "a": [
       "Johanna Wagner",
@@ -15861,8 +15861,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Jackson",
+      "Daniel Gallegos"
      ],
      "a": [
       "Chad Durkin",
@@ -15872,8 +15872,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Ken Velarde"
      ],
      "a": [
       "Hruday Vemparala",
@@ -17410,6 +17410,7 @@
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Ashley Barros": "6656b9a3-3c47-4711-8609-e35c07c64771",
+  "Jase Volz": "66f782cc-bcee-4ebf-849a-649a37bf8a8d",
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Gift Horn": "9eba6702-22e5-4b53-b6f0-acc44ac2034d",
@@ -17500,7 +17501,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T10:32:53.021Z";
+  DATA.meta.asOf = "2026-09-16T15:52:41.085Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

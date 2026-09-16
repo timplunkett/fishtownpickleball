@@ -1798,6 +1798,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Avinash Thumma",
+   "playerId": "f64588f1-c347-41c7-b229-5c718f73574d",
+   "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Avneesh Agarwal",
    "playerId": "f0ac7d85-0e7b-4f28-80fe-3282c3c875ed",
    "team": "Pickle House",
