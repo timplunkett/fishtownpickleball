@@ -1339,8 +1339,8 @@
    "name": "Camrin Cronheim",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 9,
@@ -1353,7 +1353,6 @@
    "genderLosses": 6,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
    "winPct": 60,
    "diff": 25,
    "ppg": 19.1,
@@ -1362,7 +1361,8 @@
    "ratingGames": 15,
    "confidence": 72,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": -0.4
+   "strengthOfOpponents": -0.4,
+   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1"
   },
   {
    "name": "Hans Tang",
@@ -8057,7 +8057,6 @@
     }
    ],
    "subs": [
-    "Camrin Cronheim",
     "Marc Padre"
    ]
   },
@@ -9917,7 +9916,6 @@
    ],
    "subs": [
     "Shreyas Pani",
-    "Camrin Cronheim",
     "Marc Padre",
     "Hany Ibrahim"
    ]
@@ -15420,7 +15418,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T04:10:19.019Z";
+  DATA.meta.asOf = "2026-09-16T02:30:21.595Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

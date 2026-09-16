@@ -913,18 +913,6 @@
       "awayName": "Pickleball Kingdom Lehigh Valley"
     },
     {
-      "matchupId": "ab8562e3-089a-403b-aecc-bcddf500daaf",
-      "weekNumber": 5,
-      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T12:00:00",
-      "homeName": "Montville",
-      "awayName": "Flemington"
-    },
-    {
       "matchupId": "90947d41-0eae-4c5c-b686-db0089935abd",
       "weekNumber": 5,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
@@ -971,6 +959,18 @@
       "scheduledTime": "2026-09-26T15:00:00",
       "homeName": "Dill Dinkers Freehold",
       "awayName": "PKLD"
+    },
+    {
+      "matchupId": "ab8562e3-089a-403b-aecc-bcddf500daaf",
+      "weekNumber": 5,
+      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-26T15:00:00",
+      "homeName": "Montville",
+      "awayName": "Flemington"
     },
     {
       "matchupId": "67214c07-bb4e-49a0-9c3f-a8dd53015b69",
@@ -1729,6 +1729,18 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
+      "matchupId": "fd4d7761-74e0-4ea6-97c2-7ec9c82a1677",
+      "weekNumber": 9,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-24T12:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Picklr Fair Lawn"
+    },
+    {
       "matchupId": "3d7b80f9-46b2-4f47-9342-818e863f0bd4",
       "weekNumber": 9,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -1739,18 +1751,6 @@
       "scheduledTime": "2026-10-24T12:00:00",
       "homeName": "APC Garden State",
       "awayName": "Ballers Philly"
-    },
-    {
-      "matchupId": "369eb758-8216-458b-b9c7-e12c7fa323f6",
-      "weekNumber": 9,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T12:00:00",
-      "homeName": "Flemington",
-      "awayName": "Montville"
     },
     {
       "matchupId": "40b7bbe7-fd78-4f26-b335-56f0ca4295dd",
@@ -1789,18 +1789,6 @@
       "awayName": "ACE Downingtown"
     },
     {
-      "matchupId": "fd4d7761-74e0-4ea6-97c2-7ec9c82a1677",
-      "weekNumber": 9,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T15:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Picklr Fair Lawn"
-    },
-    {
       "matchupId": "daf177b6-4b13-4b64-a6c5-839d2b4c1aa2",
       "weekNumber": 9,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -1835,6 +1823,18 @@
       "scheduledTime": "2026-10-24T15:00:00",
       "homeName": "Jersey Devil Green",
       "awayName": "Pickle Juice Blackwood"
+    },
+    {
+      "matchupId": "369eb758-8216-458b-b9c7-e12c7fa323f6",
+      "weekNumber": 9,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-24T15:00:00",
+      "homeName": "Flemington",
+      "awayName": "Montville"
     },
     {
       "matchupId": "960fdc59-48ed-4f3d-9935-2b8f3ca21f28",

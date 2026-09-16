@@ -41238,6 +41238,360 @@
   ],
   "partners": []
  },
+ "01c2e4d1-3738-4ee6-8878-4a2559ec006a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 136,
+    "pa": 164,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     2,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 7,
+    "teamGL": 25,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 163,
+    "pa": 129,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Reuben Zilber",
+    "vs": [
+     "Connie Tom",
+     "Jimmy Tom"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Sherry Tomaino",
+    "vs": [
+     "Eva Rodriguez",
+     "Kellie Roshak"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Matthew Marciani",
+    "vs": [
+     "Kerry Eskay",
+     "Jayson Lee"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Eva Rodriguez",
+     "Kerry Eskay"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Reuben Zilber",
+    "vs": [
+     "Huifang Yao",
+     "Jayson Lee"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Cassie Lou",
+     "Huifang Yao"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "mixed",
+    "with": "Matthew Marciani",
+    "vs": [
+     "Huifang Yao",
+     "Brandon Agudelo"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PickleRage Union County Net Ninjas",
+    "t": "female",
+    "with": "Suki Wong",
+    "vs": [
+     "Eva Rodriguez",
+     "Kellie Roshak"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Ryan Peixoto",
+    "vs": [
+     "Anne Buckley",
+     "Andrew Kimmel"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Charlene De Lara",
+    "vs": [
+     "Alexis Kerven",
+     "Anne Buckley"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Reuben Zilber",
+    "vs": [
+     "Alexis Kerven",
+     "Jason Heiselman"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Hee Kim",
+    "vs": [
+     "Jenny Winters",
+     "Joan Harris"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Ryan Peixoto",
+    "vs": [
+     "Anne Buckley",
+     "Rhys Gardiner"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Hee Kim",
+    "vs": [
+     "Annica Jin-Hendel",
+     "Anne Buckley"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Matthew Marciani",
+    "vs": [
+     "Anne Buckley",
+     "Brian Seligson"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Suki Wong",
+    "vs": [
+     "Jenny Winters",
+     "Line Barlow"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.5,
+    "confidence": 57,
+    "rank": 118,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 2.3,
+    "confidence": 74,
+    "rank": 27,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "af3befcf-981a-433d-a065-c107cdfa42c4",
+    "name": "Reuben Zilber",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "ec0da4c0-f52a-4ab9-a579-6ca3d815f19c",
+    "name": "Matthew Marciani",
+    "n": 3,
+    "synergy": 0.2
+   }
+  ]
+ },
  "915d5222-71a9-4dae-9899-f200fcc8110e": {
   "log": [
    {
@@ -41621,360 +41975,6 @@
     "name": "Tuan Nguyen",
     "n": 3,
     "synergy": -1.9
-   }
-  ]
- },
- "01c2e4d1-3738-4ee6-8878-4a2559ec006a": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 136,
-    "pa": 164,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     2,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 7,
-    "teamGL": 25,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Palace",
-    "homeAway": "H",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 163,
-    "pa": 129,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Reuben Zilber",
-    "vs": [
-     "Connie Tom",
-     "Jimmy Tom"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Sherry Tomaino",
-    "vs": [
-     "Eva Rodriguez",
-     "Kellie Roshak"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Matthew Marciani",
-    "vs": [
-     "Kerry Eskay",
-     "Jayson Lee"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Barbara Mccarron",
-    "vs": [
-     "Eva Rodriguez",
-     "Kerry Eskay"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Reuben Zilber",
-    "vs": [
-     "Huifang Yao",
-     "Jayson Lee"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Barbara Mccarron",
-    "vs": [
-     "Cassie Lou",
-     "Huifang Yao"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "mixed",
-    "with": "Matthew Marciani",
-    "vs": [
-     "Huifang Yao",
-     "Brandon Agudelo"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 2,
-    "opp": "PickleRage Union County Net Ninjas",
-    "t": "female",
-    "with": "Suki Wong",
-    "vs": [
-     "Eva Rodriguez",
-     "Kellie Roshak"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Ryan Peixoto",
-    "vs": [
-     "Anne Buckley",
-     "Andrew Kimmel"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Charlene De Lara",
-    "vs": [
-     "Alexis Kerven",
-     "Anne Buckley"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Reuben Zilber",
-    "vs": [
-     "Alexis Kerven",
-     "Jason Heiselman"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Hee Kim",
-    "vs": [
-     "Jenny Winters",
-     "Joan Harris"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Ryan Peixoto",
-    "vs": [
-     "Anne Buckley",
-     "Rhys Gardiner"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Hee Kim",
-    "vs": [
-     "Annica Jin-Hendel",
-     "Anne Buckley"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Matthew Marciani",
-    "vs": [
-     "Anne Buckley",
-     "Brian Seligson"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Suki Wong",
-    "vs": [
-     "Jenny Winters",
-     "Line Barlow"
-    ],
-    "f": 27,
-    "a": 25,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.5,
-    "confidence": 57,
-    "rank": 118,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 1.5
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 2.3,
-    "confidence": 74,
-    "rank": 27,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "af3befcf-981a-433d-a065-c107cdfa42c4",
-    "name": "Reuben Zilber",
-    "n": 3,
-    "synergy": 1
-   },
-   {
-    "pid": "ec0da4c0-f52a-4ab9-a579-6ca3d815f19c",
-    "name": "Matthew Marciani",
-    "n": 3,
-    "synergy": 0.2
    }
   ]
  },

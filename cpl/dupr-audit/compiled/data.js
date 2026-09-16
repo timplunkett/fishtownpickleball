@@ -2596,6 +2596,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Camrin Cronheim",
+   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Carissa Baptista",
    "playerId": "ddfed357-6d2d-42ea-b48f-540cacd2409a",
    "team": "Pickleball Kingdom Watchung",
@@ -13436,6 +13443,13 @@ window.DUPR_AUDIT = {
    "playerId": "51eba5fc-d8dc-417a-a4de-051515751377",
    "team": "Picklr Exton",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Nikki Nigro",
+   "playerId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
    "gender": "Female"
   },
   {

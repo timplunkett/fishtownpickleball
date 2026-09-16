@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4749,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4981,7 +4981,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15087,7 +15087,7 @@
      ],
      "a": [
       "Kaylyn Swankoski",
-      "Jonah Fliegelman"
+      "Varun Prakash"
      ]
     },
     {
@@ -15098,7 +15098,7 @@
      ],
      "a": [
       "Hannah Nussbaum",
-      "Andrew Wakefield"
+      "Ethan Henigan"
      ]
     },
     {
@@ -15120,7 +15120,7 @@
      ],
      "a": [
       "Allison Tarnoff",
-      "Ethan Henigan"
+      "Jonah Fliegelman"
      ]
     },
     {
@@ -15362,7 +15362,7 @@
      ],
      "a": [
       "Hannah Nussbaum",
-      "Kenoa Tio"
+      "Ethan Henigan"
      ]
     },
     {
@@ -15373,7 +15373,7 @@
      ],
      "a": [
       "Rayna Baizman",
-      "Ethan Henigan"
+      "Varun Prakash"
      ]
     },
     {
@@ -17320,10 +17320,12 @@
   "Natasha De Carvalho": "462f3a15-22ed-4fa3-b698-78678a5d6966",
   "Ethan Henigan": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
+  "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Ashley Barros": "6656b9a3-3c47-4711-8609-e35c07c64771",
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
+  "Gift Horn": "9eba6702-22e5-4b53-b6f0-acc44ac2034d",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Sarah Nazario": "d457bcf7-383d-4b25-a7a9-a456e5803087",
   "Alice Napolitano": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
@@ -17411,7 +17413,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T20:41:48.103Z";
+  DATA.meta.asOf = "2026-09-16T02:30:11.126Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

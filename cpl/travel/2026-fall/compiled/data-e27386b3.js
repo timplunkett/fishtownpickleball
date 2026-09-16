@@ -3859,6 +3859,35 @@
    "strengthOfOpponents": 0.4
   },
   {
+   "name": "Nikki Nigro",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 16,
+   "wins": 9,
+   "losses": 7,
+   "pointsWon": 299,
+   "totalPointsAgainst": 293,
+   "mixedWins": 4,
+   "mixedLosses": 4,
+   "genderWins": 5,
+   "genderLosses": 3,
+   "clutchWins": 5,
+   "clutchLosses": 3,
+   "winPct": 56.3,
+   "diff": 6,
+   "ppg": 18.7,
+   "leagueRank": 130,
+   "rating": 2.3,
+   "ratingGames": 16,
+   "confidence": 74,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": 1.2,
+   "playerId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a"
+  },
+  {
    "name": "Thang Nguyen",
    "gender": "Male",
    "team": "Bounce Tempest",
@@ -3886,35 +3915,6 @@
    "strengthOfPartners": -0.1,
    "strengthOfOpponents": 0,
    "playerId": "915d5222-71a9-4dae-9899-f200fcc8110e"
-  },
-  {
-   "name": "Nikki Nigro",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 16,
-   "wins": 9,
-   "losses": 7,
-   "pointsWon": 299,
-   "totalPointsAgainst": 293,
-   "mixedWins": 4,
-   "mixedLosses": 4,
-   "genderWins": 5,
-   "genderLosses": 3,
-   "clutchWins": 5,
-   "clutchLosses": 3,
-   "playerId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
-   "winPct": 56.3,
-   "diff": 6,
-   "ppg": 18.7,
-   "leagueRank": 130,
-   "rating": 2.3,
-   "ratingGames": 16,
-   "confidence": 74,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 1.2
   },
   {
    "name": "David Schwartz",
@@ -18187,7 +18187,6 @@
     }
    ],
    "subs": [
-    "Nikki Nigro",
     "Barbara Mccarron",
     "Sherry Tomaino"
    ]
@@ -23305,8 +23304,7 @@
     }
    ],
    "subs": [
-    "Charlene De Lara",
-    "Nikki Nigro"
+    "Charlene De Lara"
    ]
   },
   {
@@ -28542,7 +28540,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T19:21:09.656Z";
+  DATA.meta.asOf = "2026-09-16T02:28:40.123Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
