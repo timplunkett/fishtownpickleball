@@ -108,16 +108,40 @@ function pickKeys(obj, keepSet) {
   return out;
 }
 
+// The API does not return matchups in a stable order: two matches scheduled
+// for the exact same weekNumber/scheduledTime can swap positions between two
+// fetches with nothing about either match having changed. Because matchup
+// details are fetched (fetchMatchupDetails) and written (slimMatchupDetails)
+// in whatever order the matchups array arrives in, that upstream shuffling
+// cascaded into matchupDetails.json too — reordering it wholesale and burying
+// the week's real changes, the same failure mode as the players.json rank
+// churn below, just triggered by fetch order instead of rank. Sort by
+// (weekNumber, scheduledTime, matchupId): the first two keep the file in the
+// chronological order a human expects; matchupId — stable and unique — is
+// the tiebreaker that keeps same-time matches from swapping.
+function compareMatchups(a, b) {
+  const aWeek = Number(a.weekNumber);
+  const bWeek = Number(b.weekNumber);
+  if (aWeek !== bWeek) return aWeek - bWeek;
+  const aTime = String(a.scheduledTime || '');
+  const bTime = String(b.scheduledTime || '');
+  if (aTime !== bTime) return aTime < bTime ? -1 : 1;
+  const aId = String(a.matchupId || '');
+  const bId = String(b.matchupId || '');
+  if (aId !== bId) return aId < bId ? -1 : 1;
+  return 0;
+}
+
 function slimMatchups(raw) {
   const arr = extractValues(raw);
   if (!Array.isArray(arr)) return raw;
-  return { $values: arr.map(m => pickKeys(m, MATCHUP_KEEP)) };
+  return { $values: arr.slice().sort(compareMatchups).map(m => pickKeys(m, MATCHUP_KEEP)) };
 }
 
 function slimPlayoffMatchups(raw) {
   const arr = extractValues(raw);
   if (!Array.isArray(arr)) return raw;
-  return { $values: arr.map(m => pickKeys(m, PLAYOFF_MATCHUP_KEEP)) };
+  return { $values: arr.slice().sort(compareMatchups).map(m => pickKeys(m, PLAYOFF_MATCHUP_KEEP)) };
 }
 
 // The API returns players in league-rank order, so one player's rank shift
@@ -358,9 +382,13 @@ async function fetchDivisionData(apiBase, divisionId, detailFailures) {
   assertArrayShape(players, `Players for division ${divisionId}`);
   assertArrayShape(teamsRaw, `Teams for division ${divisionId}`);
 
-  const matchupsArray = extractValues(matchupsRaw);
+  // Sorted the same way slimMatchups/slimPlayoffMatchups sort below, so
+  // matchupDetails.json (written in this fetch order) lines up with
+  // matchups.json (written in slimMatchups' own sort) instead of drifting
+  // into a different, and differently unstable, order.
+  const matchupsArray = extractValues(matchupsRaw).sort(compareMatchups);
   const individualDetails = await fetchMatchupDetails(divBase, matchupsArray, 'matchup', detailFailures);
-  const playoffMatchupsArray = extractValues(playoffMatchupsRaw);
+  const playoffMatchupsArray = extractValues(playoffMatchupsRaw).sort(compareMatchups);
   const playoffIndividualDetails = await fetchMatchupDetails(divBase, playoffMatchupsArray, 'playoff matchup', detailFailures);
 
   return { matchupsRaw, players, teamsRaw, matchupDetails: individualDetails, playoffMatchupsRaw, playoffMatchupDetails: playoffIndividualDetails };
@@ -803,6 +831,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
 
 module.exports = {
   downloadLatestApiData, downloadSeason, slugForDivision, slimPlayers, comparePlayers,
+  slimMatchups, slimPlayoffMatchups, compareMatchups,
   assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
 };
