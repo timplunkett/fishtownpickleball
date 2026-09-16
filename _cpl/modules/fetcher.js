@@ -40,11 +40,21 @@ const PLAYER_KEEP = new Set([
 // Per-matchup player stat entries: only matchup-specific stats + identity keys.
 // Static profile fields (firstName, lastName, gender) are omitted here because
 // they never change and are already stored in players.json.
+//
+// `ranking` is deliberately excluded, unlike PLAYER_KEEP above. The API reports
+// a player's *current* league-wide rank on every row, including rows for
+// matchups completed weeks ago — it is not "this player's rank as of that
+// match". Every matchup is refetched on every run (see fetchMatchupDetails),
+// so keeping it here meant nearly every completed matchup's stats churned on
+// nearly every automated refresh, purely because someone else's rank moved,
+// with no compiler ever reading it: compiler.js sources rank exclusively from
+// players.json's `ranking` field. Rank is not lost — it is just not duplicated
+// into a place that turns a single rank change into a diff across the whole
+// season's matchup history.
 const MATCHUP_PLAYER_STATS_KEEP = new Set([
   'playerId', 'isSub', 'teamId',
   'gamesPlayed', 'wins', 'losses', 'pointsWon', 'totalPointsAgainst',
   'clutchWins', 'clutchLosses', 'mixedWins', 'mixedLosses', 'genderWins', 'genderLosses',
-  'ranking',
 ]);
 
 const LINEUP_KEEP = new Set([
