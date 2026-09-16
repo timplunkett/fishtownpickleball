@@ -5440,19 +5440,6 @@
    "bId": "ce590106-6f19-43b7-8a91-4dc31d28eb31"
   },
   {
-   "a": "Scott Bohrer",
-   "b": "Vaughn Lawrence",
-   "team": "Bounce Malvern",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 1.3,
-   "avgActual": 2.8,
-   "avgExpected": 0.2,
-   "aId": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
-   "bId": "d4c1185c-6147-4164-90e1-06ecfa162596"
-  },
-  {
    "a": "Boris Tserlin",
    "b": "Gary White",
    "team": "Premiere",
@@ -5464,6 +5451,19 @@
    "avgExpected": 1.4,
    "aId": "6c71dd2d-6f76-4630-96d4-27f58e99e557",
    "bId": "9a26eab9-96be-45e1-b380-2845a0e8e668"
+  },
+  {
+   "a": "Scott Bohrer",
+   "b": "Vaughn Lawrence",
+   "team": "Bounce Malvern",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 1.3,
+   "avgActual": 2.8,
+   "avgExpected": 0.2,
+   "aId": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
+   "bId": "d4c1185c-6147-4164-90e1-06ecfa162596"
   },
   {
    "a": "Ian Chin",
@@ -5505,6 +5505,19 @@
    "bId": "e8bb81fd-869a-459d-8108-b9ac6bc1b84d"
   },
   {
+   "a": "Timoty Cahalin",
+   "b": "William Lee",
+   "team": "Picklr Newtown",
+   "n": 4,
+   "w": 4,
+   "l": 0,
+   "synergy": 1.1,
+   "avgActual": 2.3,
+   "avgExpected": 0.1,
+   "aId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
+   "bId": "9e264c96-36cf-45a9-90ad-1e125a82c851"
+  },
+  {
    "a": "Shashank Kamdar",
    "b": "Dustin Rabinowitz",
    "team": "Bounce Malvern",
@@ -5518,17 +5531,17 @@
    "bId": "d23839c0-334b-4423-9305-0c6281523d5d"
   },
   {
-   "a": "Timoty Cahalin",
-   "b": "William Lee",
-   "team": "Picklr Newtown",
+   "a": "Elliott Albanese",
+   "b": "Jason Makarevic",
+   "team": "Pickleball Kingdom Hillsborough",
    "n": 4,
    "w": 4,
    "l": 0,
-   "synergy": 1.1,
-   "avgActual": 2.3,
-   "avgExpected": 0.1,
-   "aId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
-   "bId": "9e264c96-36cf-45a9-90ad-1e125a82c851"
+   "synergy": 1,
+   "avgActual": 4,
+   "avgExpected": 2,
+   "aId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+   "bId": "f8835822-da21-4593-8b99-5665d2c2f3af"
   },
   {
    "a": "Chris Damato",
@@ -5568,19 +5581,6 @@
    "avgExpected": 3.3,
    "aId": "a89121dd-192b-486d-b39d-18ee8447d641",
    "bId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e"
-  },
-  {
-   "a": "Elliott Albanese",
-   "b": "Jason Makarevic",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 4,
-   "w": 4,
-   "l": 0,
-   "synergy": 1,
-   "avgActual": 4,
-   "avgExpected": 2,
-   "aId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
-   "bId": "f8835822-da21-4593-8b99-5665d2c2f3af"
   },
   {
    "a": "Zach Hizer",
@@ -5635,19 +5635,6 @@
    "bId": "d4c1185c-6147-4164-90e1-06ecfa162596"
   },
   {
-   "a": "Shashank Kamdar",
-   "b": "Ryan Rosen",
-   "team": "Bounce Malvern",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.8,
-   "avgActual": 5.3,
-   "avgExpected": 3.6,
-   "aId": "56db4b56-6166-437f-8ece-26576b7042e5",
-   "bId": "97f2b250-2030-4296-be61-63cffb17043b"
-  },
-  {
    "a": "Michael Rapaglia",
    "b": "Matthew Friedman",
    "team": "Premiere",
@@ -5661,17 +5648,17 @@
    "bId": "259fc7aa-7e69-4830-87d8-b9a758ec7fda"
   },
   {
-   "a": "Zachary Lessner",
-   "b": "Ashwin Korde",
-   "team": "Bounce Tempest",
-   "n": 5,
+   "a": "Shashank Kamdar",
+   "b": "Ryan Rosen",
+   "team": "Bounce Malvern",
+   "n": 3,
    "w": 2,
-   "l": 3,
-   "synergy": 0.7,
-   "avgActual": -2.6,
-   "avgExpected": -3.9,
-   "aId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
-   "bId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee"
+   "l": 1,
+   "synergy": 0.8,
+   "avgActual": 5.3,
+   "avgExpected": 3.6,
+   "aId": "56db4b56-6166-437f-8ece-26576b7042e5",
+   "bId": "97f2b250-2030-4296-be61-63cffb17043b"
   },
   {
    "a": "Daniel Phillips",
@@ -5698,6 +5685,19 @@
    "avgExpected": 2.9,
    "aId": "6c71dd2d-6f76-4630-96d4-27f58e99e557",
    "bId": "e8bb81fd-869a-459d-8108-b9ac6bc1b84d"
+  },
+  {
+   "a": "Zachary Lessner",
+   "b": "Ashwin Korde",
+   "team": "Bounce Tempest",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": 0.7,
+   "avgActual": -2.6,
+   "avgExpected": -3.9,
+   "aId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
+   "bId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee"
   },
   {
    "a": "Camrin Cronheim",
@@ -5752,19 +5752,6 @@
    "bId": "445e89c8-a23c-440c-bd3c-7eab366bdd85"
   },
   {
-   "a": "Justin Bautista",
-   "b": "Zyril Carilo",
-   "team": "Bounce Tempest",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.5,
-   "avgActual": 0.7,
-   "avgExpected": -0.6,
-   "aId": "27660961-6245-4b09-aafe-359ca3205797",
-   "bId": "b4efc48a-f302-4d27-8c35-0dac1e68eec8"
-  },
-  {
    "a": "Joshua Mindlin",
    "b": "Christian Lupica",
    "team": "Picklr Newtown",
@@ -5776,6 +5763,19 @@
    "avgExpected": 0.6,
    "aId": "439d9ebf-9409-4214-ad91-7c18a0153c71",
    "bId": "ac97d2bc-5ee7-4285-8eb3-e5650a0f6f6e"
+  },
+  {
+   "a": "Justin Bautista",
+   "b": "Zyril Carilo",
+   "team": "Bounce Tempest",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.5,
+   "avgActual": 0.7,
+   "avgExpected": -0.6,
+   "aId": "27660961-6245-4b09-aafe-359ca3205797",
+   "bId": "b4efc48a-f302-4d27-8c35-0dac1e68eec8"
   },
   {
    "a": "Vince Abate",
@@ -5804,19 +5804,6 @@
    "bId": "292c729f-c522-4f41-8208-e1caf7f94498"
   },
   {
-   "a": "Tyler Arsenault",
-   "b": "Zach Bowe",
-   "team": "Jersey Devil",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 0.3,
-   "avgActual": 4.3,
-   "avgExpected": 3.6,
-   "aId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
-   "bId": "eebadc3a-5763-4612-9232-d3a98ea188d6"
-  },
-  {
    "a": "Thomas Connolly",
    "b": "Jake Laifer",
    "team": "Pickleball Kingdom Hillsborough",
@@ -5828,6 +5815,19 @@
    "avgExpected": -2.3,
    "aId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3",
    "bId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643"
+  },
+  {
+   "a": "Tyler Arsenault",
+   "b": "Zach Bowe",
+   "team": "Jersey Devil",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 0.3,
+   "avgActual": 4.3,
+   "avgExpected": 3.6,
+   "aId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
+   "bId": "eebadc3a-5763-4612-9232-d3a98ea188d6"
   },
   {
    "a": "Hiep Pham",
@@ -5869,19 +5869,6 @@
    "bId": "439d9ebf-9409-4214-ad91-7c18a0153c71"
   },
   {
-   "a": "Al Mancini",
-   "b": "Zach Hollmann",
-   "team": "Pickle House",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": 0.2,
-   "avgActual": 0,
-   "avgExpected": -0.4,
-   "aId": "51352d99-02ac-4299-abac-a688bfade22f",
-   "bId": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f"
-  },
-  {
    "a": "Thomas Connolly",
    "b": "Neel Goyal",
    "team": "Pickleball Kingdom Hillsborough",
@@ -5893,6 +5880,19 @@
    "avgExpected": 1.7,
    "aId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3",
    "bId": "8cfc8650-92ac-4ed4-9b57-2692526abd19"
+  },
+  {
+   "a": "Al Mancini",
+   "b": "Zach Hollmann",
+   "team": "Pickle House",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": 0.2,
+   "avgActual": 0,
+   "avgExpected": -0.4,
+   "aId": "51352d99-02ac-4299-abac-a688bfade22f",
+   "bId": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f"
   },
   {
    "a": "Shayne Clowar",
@@ -5960,6 +5960,19 @@
    "bId": "fb42e711-528f-4028-80c6-e32013e3f807"
   },
   {
+   "a": "Derek Callihan",
+   "b": "Timoty Cahalin",
+   "team": "Picklr Newtown",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 0.1,
+   "avgActual": -2.2,
+   "avgExpected": -2.4,
+   "aId": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
+   "bId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a"
+  },
+  {
    "a": "Justin Bautista",
    "b": "Hiep Pham",
    "team": "Bounce Tempest",
@@ -5984,19 +5997,6 @@
    "avgExpected": -2.6,
    "aId": "292c729f-c522-4f41-8208-e1caf7f94498",
    "bId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee"
-  },
-  {
-   "a": "Derek Callihan",
-   "b": "Timoty Cahalin",
-   "team": "Picklr Newtown",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 0.1,
-   "avgActual": -2.2,
-   "avgExpected": -2.4,
-   "aId": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
-   "bId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a"
   },
   {
    "a": "Kushal Thapa",
@@ -6025,19 +6025,6 @@
    "bId": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f"
   },
   {
-   "a": "Dustin Rabinowitz",
-   "b": "Vaughn Lawrence",
-   "team": "Bounce Malvern",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0,
-   "avgActual": 3.7,
-   "avgExpected": 3.8,
-   "aId": "d23839c0-334b-4423-9305-0c6281523d5d",
-   "bId": "d4c1185c-6147-4164-90e1-06ecfa162596"
-  },
-  {
    "a": "Daniel Ehala",
    "b": "Bryan Nardone",
    "team": "ACE Moorestown",
@@ -6049,6 +6036,19 @@
    "avgExpected": -1.2,
    "aId": "2ee28d63-2f38-468f-b824-9b17aa938413",
    "bId": "a479d794-d9d0-4620-b322-b7f249f2ae5f"
+  },
+  {
+   "a": "Dustin Rabinowitz",
+   "b": "Vaughn Lawrence",
+   "team": "Bounce Malvern",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0,
+   "avgActual": 3.7,
+   "avgExpected": 3.8,
+   "aId": "d23839c0-334b-4423-9305-0c6281523d5d",
+   "bId": "d4c1185c-6147-4164-90e1-06ecfa162596"
   },
   {
    "a": "Elliott Albanese",
@@ -6090,19 +6090,6 @@
    "bId": "f4b44cd7-fc9a-41a2-b569-cdaf08b0bf26"
   },
   {
-   "a": "Zachary Lessner",
-   "b": "Brandyn Schuchart",
-   "team": "Bounce Tempest",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": -0.1,
-   "avgActual": 1.3,
-   "avgExpected": 1.6,
-   "aId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
-   "bId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
-  },
-  {
    "a": "Matt Schall",
    "b": "Zach Hizer",
    "team": "Jersey Pickleball Club",
@@ -6114,6 +6101,19 @@
    "avgExpected": 1.5,
    "aId": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
    "bId": "b5e576e1-d16d-4c9d-ab28-2e1b1e66487b"
+  },
+  {
+   "a": "Zachary Lessner",
+   "b": "Brandyn Schuchart",
+   "team": "Bounce Tempest",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": -0.1,
+   "avgActual": 1.3,
+   "avgExpected": 1.6,
+   "aId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
+   "bId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
   },
   {
    "a": "Hany Ibrahim",
@@ -6142,19 +6142,6 @@
    "bId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3"
   },
   {
-   "a": "Justin Bautista",
-   "b": "Zachary Lessner",
-   "team": "Bounce Tempest",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": -0.2,
-   "avgActual": -1.6,
-   "avgExpected": -1.3,
-   "aId": "27660961-6245-4b09-aafe-359ca3205797",
-   "bId": "2ce5ebef-8079-4871-8d2e-b34988abbaad"
-  },
-  {
    "a": "Daniel Ehala",
    "b": "Vineeth Mathew",
    "team": "ACE Moorestown",
@@ -6179,6 +6166,19 @@
    "avgExpected": -0.9,
    "aId": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
    "bId": "f64f0cc2-6c82-4fe4-9992-747512700971"
+  },
+  {
+   "a": "Justin Bautista",
+   "b": "Zachary Lessner",
+   "team": "Bounce Tempest",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": -0.2,
+   "avgActual": -1.6,
+   "avgExpected": -1.3,
+   "aId": "27660961-6245-4b09-aafe-359ca3205797",
+   "bId": "2ce5ebef-8079-4871-8d2e-b34988abbaad"
   },
   {
    "a": "Ian Chin",
@@ -6233,19 +6233,6 @@
    "bId": "b4694087-759d-4570-9394-3e7c99f19099"
   },
   {
-   "a": "Chris Damato",
-   "b": "Dipen Bhatt",
-   "team": "Pickle House",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": -0.4,
-   "avgActual": -0.3,
-   "avgExpected": 0.5,
-   "aId": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
-   "bId": "fe8af1d3-ff62-430d-90af-32794cc7b912"
-  },
-  {
    "a": "Elliott Albanese",
    "b": "Thomas Connolly",
    "team": "Pickleball Kingdom Hillsborough",
@@ -6259,17 +6246,17 @@
    "bId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3"
   },
   {
-   "a": "Adriene Khon",
-   "b": "Brandyn Schuchart",
-   "team": "Bounce Tempest",
+   "a": "Chris Damato",
+   "b": "Dipen Bhatt",
+   "team": "Pickle House",
    "n": 3,
    "w": 2,
    "l": 1,
    "synergy": -0.4,
-   "avgActual": 3,
-   "avgExpected": 4,
-   "aId": "02ac193a-6e5d-4859-80bf-c8c25a89c1c8",
-   "bId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
+   "avgActual": -0.3,
+   "avgExpected": 0.5,
+   "aId": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
+   "bId": "fe8af1d3-ff62-430d-90af-32794cc7b912"
   },
   {
    "a": "Daniel Ehala",
@@ -6324,17 +6311,17 @@
    "bId": "3533f5a2-d7ed-4fd3-b969-5117c0474452"
   },
   {
-   "a": "Alex Mihalca",
-   "b": "Ashwin Korde",
+   "a": "Adriene Khon",
+   "b": "Brandyn Schuchart",
    "team": "Bounce Tempest",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": -0.5,
-   "avgActual": -5.2,
-   "avgExpected": -4.2,
-   "aId": "47054f48-f7f3-4a11-8a3c-03160ea588b6",
-   "bId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee"
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.4,
+   "avgActual": 3,
+   "avgExpected": 4,
+   "aId": "02ac193a-6e5d-4859-80bf-c8c25a89c1c8",
+   "bId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
   },
   {
    "a": "Joshua Mindlin",
@@ -6348,6 +6335,19 @@
    "avgExpected": 2.1,
    "aId": "439d9ebf-9409-4214-ad91-7c18a0153c71",
    "bId": "9e264c96-36cf-45a9-90ad-1e125a82c851"
+  },
+  {
+   "a": "Alex Mihalca",
+   "b": "Ashwin Korde",
+   "team": "Bounce Tempest",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": -0.5,
+   "avgActual": -5.2,
+   "avgExpected": -4.2,
+   "aId": "47054f48-f7f3-4a11-8a3c-03160ea588b6",
+   "bId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee"
   },
   {
    "a": "Ian Chin",
@@ -6441,19 +6441,6 @@
    "bId": "55194d2f-f537-4e19-b901-86c559f25ef2"
   },
   {
-   "a": "Matthew Eldridge",
-   "b": "Deepak Sunku",
-   "team": "Pickle House",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": -0.8,
-   "avgActual": 0.3,
-   "avgExpected": 2.3,
-   "aId": "19cb95ac-bec2-41bb-a6ce-767d51e00f24",
-   "bId": "ce590106-6f19-43b7-8a91-4dc31d28eb31"
-  },
-  {
    "a": "Jake Laifer",
    "b": "Jason Makarevic",
    "team": "Pickleball Kingdom Hillsborough",
@@ -6465,6 +6452,19 @@
    "avgExpected": 0.3,
    "aId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
    "bId": "f8835822-da21-4593-8b99-5665d2c2f3af"
+  },
+  {
+   "a": "Matthew Eldridge",
+   "b": "Deepak Sunku",
+   "team": "Pickle House",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.8,
+   "avgActual": 0.3,
+   "avgExpected": 2.3,
+   "aId": "19cb95ac-bec2-41bb-a6ce-767d51e00f24",
+   "bId": "ce590106-6f19-43b7-8a91-4dc31d28eb31"
   },
   {
    "a": "Nachiket Vaidya",
@@ -7169,472 +7169,6 @@
    ]
   },
   {
-   "result": "away",
-   "week": 1,
-   "home": "Jersey Devil",
-   "away": "Pickle House",
-   "time": "2026-08-24T19:00:00",
-   "complete": true,
-   "homePoints": 595,
-   "awayPoints": 612,
-   "homeGW": 15,
-   "awayGW": 17,
-   "games": [
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Tyler Arsenault",
-      "Zach Bowe"
-     ],
-     "a": [
-      "Chris Damato",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Vince Abate",
-      "Ryan Furman"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Brian Barenbaum",
-      "Braden Keith"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Daniel Schwab",
-      "Kushal Thapa"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Tyler Arsenault",
-      "Braden Keith"
-     ],
-     "a": [
-      "Al Mancini",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 24,
-     "h": [
-      "Zach Bowe",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Chris Damato",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Vince Abate",
-      "Brian Barenbaum"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Craig Frame"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Ryan Furman",
-      "Daniel Schwab"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Tarkan Akas"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Brian Barenbaum",
-      "Kushal Thapa"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Craig Frame"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Zach Bowe",
-      "Braden Keith"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Daniel Schwab",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Chris Damato",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Tyler Arsenault",
-      "Stephen Conger"
-     ],
-     "a": [
-      "Deepak Sunku",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Vince Abate",
-      "Daniel Schwab"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Tarkan Akas"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Tyler Arsenault",
-      "Stephen Conger"
-     ],
-     "a": [
-      "Craig Frame",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Braden Keith",
-      "Ryan Furman"
-     ],
-     "a": [
-      "Chris Damato",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Kushal Thapa",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Vince Abate",
-      "Stephen Conger"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Zach Bowe",
-      "Ryan Furman"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 7,
-     "as": 21,
-     "h": [
-      "Kushal Thapa",
-      "Brian Barenbaum"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Braden Keith",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Tyler Arsenault",
-      "Ryan Furman"
-     ],
-     "a": [
-      "Chris Damato",
-      "Tarkan Akas"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 25,
-     "h": [
-      "Zach Bowe",
-      "Kushal Thapa"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Vince Abate",
-      "Brian Barenbaum"
-     ],
-     "a": [
-      "Craig Frame",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Stephen Conger",
-      "Daniel Schwab"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Stephen Conger",
-      "Daniel Schwab"
-     ],
-     "a": [
-      "Chris Damato",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Zach Bowe",
-      "Braden Keith"
-     ],
-     "a": [
-      "Craig Frame",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Tyler Arsenault",
-      "Vince Abate"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Kushal Thapa",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Deepak Sunku",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Tyler Arsenault",
-      "Zach Bowe"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 9,
-     "as": 21,
-     "h": [
-      "Vince Abate",
-      "Daniel Schwab"
-     ],
-     "a": [
-      "Chris Damato",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Kushal Thapa",
-      "Ryan Furman"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Brian Barenbaum",
-      "Jack Blumberg"
-     ],
-     "a": [
-      "Craig Frame",
-      "Tarkan Akas"
-     ]
-    }
-   ],
-   "subs": [
-    "Zach Bowe",
-    "Jack Blumberg"
-   ]
-  },
-  {
    "result": "home",
    "week": 1,
    "home": "Pickleball Kingdom Hillsborough",
@@ -8102,335 +7636,27 @@
   {
    "result": "away",
    "week": 1,
-   "home": "Bounce Malvern",
-   "away": "Bounce Tempest",
-   "time": "2026-08-24T19:30:00",
+   "home": "Jersey Devil",
+   "away": "Pickle House",
+   "time": "2026-08-24T19:00:00",
    "complete": true,
-   "homePoints": 643,
-   "awayPoints": 642,
-   "homeGW": 13,
-   "awayGW": 19,
+   "homePoints": 595,
+   "awayPoints": 612,
+   "homeGW": 15,
+   "awayGW": 17,
    "games": [
     {
      "t": "male",
      "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Ryan Rosen",
-      "Shawn Ganow"
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Alex Mihalca"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Jonah Karczmer",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Hiep Pham"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
      "hs": 15,
      "as": 21,
      "h": [
-      "Austin Gow",
-      "Dustin Rabinowitz"
+      "Tyler Arsenault",
+      "Zach Bowe"
      ],
      "a": [
-      "Adriene Khon",
-      "Justin Bautista"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Mark Kilimnik",
-      "Yash Shah"
-     ],
-     "a": [
-      "Brandyn Schuchart",
-      "Ashwin Korde"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Ryan Rosen",
-      "Yash Shah"
-     ],
-     "a": [
-      "Hiep Pham",
-      "Justin Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Mark Kilimnik",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Justin Bautista"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 24,
-     "h": [
-      "Jonah Karczmer",
-      "Austin Gow"
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Brandyn Schuchart"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 25,
-     "h": [
-      "Scott Bohrer",
-      "Dustin Rabinowitz"
-     ],
-     "a": [
-      "Alex Mihalca",
-      "Ashwin Korde"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Jonah Karczmer",
-      "Yash Shah"
-     ],
-     "a": [
-      "Brandyn Schuchart",
-      "Ashwin Korde"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Shashank Kamdar",
-      "Ryan Rosen"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Adriene Khon"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Shawn Ganow",
-      "Dustin Rabinowitz"
-     ],
-     "a": [
-      "Hiep Pham",
-      "Justin Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Scott Bohrer",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Josh Knupp",
-      "Justin Bautista"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Dustin Rabinowitz",
-      "Yash Shah"
-     ],
-     "a": [
-      "Josh Knupp",
-      "Alex Mihalca"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Ryan Rosen",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Brandyn Schuchart"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Scott Bohrer",
-      "Austin Gow"
-     ],
-     "a": [
-      "Adriene Khon",
-      "Justin Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Mark Kilimnik",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Justin Bautista"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 27,
-     "as": 29,
-     "h": [
-      "Ryan Rosen",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Brandyn Schuchart"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 9,
-     "h": [
-      "Vaughn Lawrence",
-      "Dustin Rabinowitz"
-     ],
-     "a": [
-      "Ashwin Korde",
-      "Alex Mihalca"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Austin Gow",
-      "Mark Kilimnik"
-     ],
-     "a": [
-      "Josh Knupp",
-      "Justin Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Shawn Ganow",
-      "Jonah Karczmer"
-     ],
-     "a": [
-      "Hiep Pham",
-      "Justin Bautista"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Mark Kilimnik",
-      "Yash Shah"
-     ],
-     "a": [
-      "Adriene Khon",
-      "Justin Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Jonah Karczmer",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Ashwin Korde",
-      "Josh Knupp"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Austin Gow",
-      "Ryan Rosen"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Hiep Pham"
+      "Chris Damato",
+      "Michael Li"
      ]
     },
     {
@@ -8439,82 +7665,96 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Shawn Ganow",
-      "Scott Bohrer"
+      "Vince Abate",
+      "Ryan Furman"
      ],
      "a": [
-      "Alex Mihalca",
-      "Zachary Lessner"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Mark Kilimnik",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Zyril Carilo",
-      "Brandyn Schuchart"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Jonah Karczmer",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Ashwin Korde"
+      "Zach Hollmann",
+      "Deepak Sunku"
      ]
     },
     {
      "t": "male",
      "ff": 0,
      "hs": 21,
-     "as": 18,
+     "as": 16,
      "h": [
-      "Scott Bohrer",
-      "Yash Shah"
+      "Brian Barenbaum",
+      "Braden Keith"
      ],
      "a": [
-      "Justin Bautista",
-      "Hiep Pham"
+      "Dipen Bhatt",
+      "Mickey Cook"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
+     "hs": 12,
+     "as": 21,
      "h": [
-      "Shawn Ganow",
-      "Dustin Rabinowitz"
+      "Daniel Schwab",
+      "Kushal Thapa"
      ],
      "a": [
-      "Adriene Khon",
-      "Josh Knupp"
+      "Matthew Eldridge",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Tyler Arsenault",
+      "Braden Keith"
+     ],
+     "a": [
+      "Al Mancini",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
+     "h": [
+      "Zach Bowe",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Chris Damato",
+      "Deepak Sunku"
      ]
     },
     {
      "t": "male",
      "ff": 0,
      "hs": 21,
-     "as": 13,
+     "as": 23,
      "h": [
-      "Dustin Rabinowitz",
-      "Shashank Kamdar"
+      "Vince Abate",
+      "Brian Barenbaum"
      ],
      "a": [
-      "Zachary Lessner",
-      "Ashwin Korde"
+      "Mickey Cook",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Ryan Furman",
+      "Daniel Schwab"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Tarkan Akas"
      ]
     },
     {
@@ -8523,12 +7763,68 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Austin Gow",
-      "Ryan Rosen"
+      "Brian Barenbaum",
+      "Kushal Thapa"
      ],
      "a": [
-      "Alex Mihalca",
-      "Josh Knupp"
+      "Dipen Bhatt",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Zach Bowe",
+      "Braden Keith"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Daniel Schwab",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Chris Damato",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ],
+     "a": [
+      "Deepak Sunku",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "Vince Abate",
+      "Daniel Schwab"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Tarkan Akas"
      ]
     },
     {
@@ -8537,12 +7833,152 @@
      "hs": 20,
      "as": 22,
      "h": [
-      "Shawn Ganow",
-      "Mark Kilimnik"
+      "Tyler Arsenault",
+      "Stephen Conger"
      ],
      "a": [
-      "Zyril Carilo",
-      "Justin Bautista"
+      "Craig Frame",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Braden Keith",
+      "Ryan Furman"
+     ],
+     "a": [
+      "Chris Damato",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Kushal Thapa",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Vince Abate",
+      "Stephen Conger"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Zach Bowe",
+      "Ryan Furman"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 7,
+     "as": 21,
+     "h": [
+      "Kushal Thapa",
+      "Brian Barenbaum"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Braden Keith",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Deepak Sunku"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Tyler Arsenault",
+      "Ryan Furman"
+     ],
+     "a": [
+      "Chris Damato",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
+     "h": [
+      "Zach Bowe",
+      "Kushal Thapa"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Vince Abate",
+      "Brian Barenbaum"
+     ],
+     "a": [
+      "Craig Frame",
+      "Deepak Sunku"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Stephen Conger",
+      "Daniel Schwab"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Michael Li"
      ]
     },
     {
@@ -8551,16 +7987,117 @@
      "hs": 20,
      "as": 22,
      "h": [
-      "Scott Bohrer",
-      "Vaughn Lawrence"
+      "Stephen Conger",
+      "Daniel Schwab"
      ],
      "a": [
-      "Adriene Khon",
-      "Brandyn Schuchart"
+      "Chris Damato",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Zach Bowe",
+      "Braden Keith"
+     ],
+     "a": [
+      "Craig Frame",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Tyler Arsenault",
+      "Vince Abate"
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Kushal Thapa",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Deepak Sunku",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Tyler Arsenault",
+      "Zach Bowe"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
+     "h": [
+      "Vince Abate",
+      "Daniel Schwab"
+     ],
+     "a": [
+      "Chris Damato",
+      "Deepak Sunku"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Kushal Thapa",
+      "Ryan Furman"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Brian Barenbaum",
+      "Jack Blumberg"
+     ],
+     "a": [
+      "Craig Frame",
+      "Tarkan Akas"
      ]
     }
    ],
-   "subs": []
+   "subs": [
+    "Zach Bowe",
+    "Jack Blumberg"
+   ]
   },
   {
    "result": "away",
@@ -9494,6 +9031,934 @@
   },
   {
    "result": "away",
+   "week": 1,
+   "home": "Bounce Malvern",
+   "away": "Bounce Tempest",
+   "time": "2026-08-24T19:30:00",
+   "complete": true,
+   "homePoints": 643,
+   "awayPoints": 642,
+   "homeGW": 13,
+   "awayGW": 19,
+   "games": [
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Ryan Rosen",
+      "Shawn Ganow"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Jonah Karczmer",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Hiep Pham"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Austin Gow",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Mark Kilimnik",
+      "Yash Shah"
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Ryan Rosen",
+      "Yash Shah"
+     ],
+     "a": [
+      "Hiep Pham",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Mark Kilimnik",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
+     "h": [
+      "Jonah Karczmer",
+      "Austin Gow"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
+     "h": [
+      "Scott Bohrer",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Jonah Karczmer",
+      "Yash Shah"
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Shashank Kamdar",
+      "Ryan Rosen"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Shawn Ganow",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Hiep Pham",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Scott Bohrer",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Josh Knupp",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Dustin Rabinowitz",
+      "Yash Shah"
+     ],
+     "a": [
+      "Josh Knupp",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Ryan Rosen",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Scott Bohrer",
+      "Austin Gow"
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Mark Kilimnik",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 29,
+     "h": [
+      "Ryan Rosen",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
+     "h": [
+      "Vaughn Lawrence",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Austin Gow",
+      "Mark Kilimnik"
+     ],
+     "a": [
+      "Josh Knupp",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Shawn Ganow",
+      "Jonah Karczmer"
+     ],
+     "a": [
+      "Hiep Pham",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Mark Kilimnik",
+      "Yash Shah"
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Jonah Karczmer",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Austin Gow",
+      "Ryan Rosen"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Hiep Pham"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Shawn Ganow",
+      "Scott Bohrer"
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Mark Kilimnik",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Jonah Karczmer",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Scott Bohrer",
+      "Yash Shah"
+     ],
+     "a": [
+      "Justin Bautista",
+      "Hiep Pham"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Shawn Ganow",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Adriene Khon",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Dustin Rabinowitz",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Austin Gow",
+      "Ryan Rosen"
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Shawn Ganow",
+      "Mark Kilimnik"
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Scott Bohrer",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Adriene Khon",
+      "Brandyn Schuchart"
+     ]
+    }
+   ],
+   "subs": []
+  },
+  {
+   "result": "away",
+   "week": 2,
+   "home": "Picklr Newtown",
+   "away": "Bounce Malvern",
+   "time": "2026-08-31T19:00:00",
+   "complete": true,
+   "homePoints": 575,
+   "awayPoints": 648,
+   "homeGW": 13,
+   "awayGW": 19,
+   "games": [
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "William Lee",
+      "Christian Lupica"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "Timoty Cahalin",
+      "Derek Callihan"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Joshua Mindlin",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Scott Bohrer",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Alex Pecora",
+      "Ron Branca"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
+     "h": [
+      "Christian Lupica",
+      "Timoty Cahalin"
+     ],
+     "a": [
+      "Austin Gow",
+      "Vaughn Lawrence"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Joshua Mindlin",
+      "Ron Branca"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "William Lee",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Alex Pecora",
+      "Derek Callihan"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Timoty Cahalin",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Thomas Fenton",
+      "Alex Pecora"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Derek Callihan",
+      "Joshua Mindlin"
+     ],
+     "a": [
+      "Scott Bohrer",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "William Lee",
+      "Christian Lupica"
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Timoty Cahalin",
+      "William Lee"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Ron Branca",
+      "Thomas Fenton"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Jaco De Waal",
+      "Derek Callihan"
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Joshua Mindlin",
+      "Alex Pecora"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "William Lee",
+      "Joshua Mindlin"
+     ],
+     "a": [
+      "Scott Bohrer",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
+     "h": [
+      "Jaco De Waal",
+      "Christian Lupica"
+     ],
+     "a": [
+      "Lou Frignito",
+      "Andre Cristobal"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Timoty Cahalin",
+      "Derek Callihan"
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Alex Pecora",
+      "Thomas Fenton"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Vaughn Lawrence"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "William Lee",
+      "Timoty Cahalin"
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Derek Callihan",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Joshua Mindlin",
+      "Alex Pecora"
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Thomas Fenton",
+      "Ron Branca"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Christian Lupica",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Joshua Mindlin",
+      "Thomas Fenton"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "William Lee",
+      "Derek Callihan"
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Alex Pecora",
+      "Ron Branca"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Timoty Cahalin",
+      "Jaco De Waal"
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Derek Callihan",
+      "Thomas Fenton"
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Christian Lupica",
+      "Alex Pecora"
+     ],
+     "a": [
+      "Austin Gow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Ron Branca",
+      "Joshua Mindlin"
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Mark Kilimnik"
+     ]
+    }
+   ],
+   "subs": [
+    "Andre Cristobal"
+   ]
+  },
+  {
+   "result": "away",
    "week": 2,
    "home": "Flemington",
    "away": "Pickleball Kingdom Hillsborough",
@@ -9962,223 +10427,55 @@
   {
    "result": "away",
    "week": 2,
-   "home": "Picklr Newtown",
-   "away": "Bounce Malvern",
-   "time": "2026-08-31T19:00:00",
+   "home": "ACE Moorestown",
+   "away": "Pickle House",
+   "time": "2026-08-31T19:30:00",
    "complete": true,
-   "homePoints": 575,
-   "awayPoints": 648,
-   "homeGW": 13,
-   "awayGW": 19,
+   "homePoints": 505,
+   "awayPoints": 626,
+   "homeGW": 6,
+   "awayGW": 26,
    "games": [
     {
      "t": "male",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "William Lee",
-      "Christian Lupica"
-     ],
-     "a": [
-      "Shawn Ganow",
-      "Austin Gow"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 8,
+     "hs": 11,
      "as": 21,
      "h": [
-      "Timoty Cahalin",
-      "Derek Callihan"
+      "Shayne Clowar",
+      "Jeffrey Lena"
      ],
      "a": [
-      "Dustin Rabinowitz",
-      "Lou Frignito"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Joshua Mindlin",
-      "Jaco De Waal"
-     ],
-     "a": [
-      "Scott Bohrer",
-      "Mark Kilimnik"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Alex Pecora",
-      "Ron Branca"
-     ],
-     "a": [
-      "Andre Cristobal",
-      "Jeff Zamorski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 27,
-     "as": 25,
-     "h": [
-      "Christian Lupica",
-      "Timoty Cahalin"
-     ],
-     "a": [
-      "Austin Gow",
-      "Vaughn Lawrence"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Joshua Mindlin",
-      "Ron Branca"
-     ],
-     "a": [
-      "Dustin Rabinowitz",
-      "Mark Kilimnik"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "William Lee",
-      "Jaco De Waal"
-     ],
-     "a": [
-      "Andre Cristobal",
-      "Lou Frignito"
+      "Michael Li",
+      "Deepak Sunku"
      ]
     },
     {
      "t": "male",
      "ff": 0,
      "hs": 21,
-     "as": 19,
+     "as": 15,
      "h": [
-      "Alex Pecora",
-      "Derek Callihan"
+      "Robert Finley",
+      "Marc Harden"
      ],
      "a": [
-      "Shawn Ganow",
-      "Anushk Gupta"
+      "Chris Damato",
+      "Zach Hollmann"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 14,
+     "hs": 17,
      "as": 21,
      "h": [
-      "Timoty Cahalin",
-      "Jaco De Waal"
+      "Bryan Nardone",
+      "Daniel Ehala"
      ],
      "a": [
-      "Andre Cristobal",
-      "Anushk Gupta"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Thomas Fenton",
-      "Alex Pecora"
-     ],
-     "a": [
-      "Dustin Rabinowitz",
-      "Austin Gow"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Derek Callihan",
-      "Joshua Mindlin"
-     ],
-     "a": [
-      "Scott Bohrer",
-      "Jeff Zamorski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "William Lee",
-      "Christian Lupica"
-     ],
-     "a": [
-      "Vaughn Lawrence",
-      "Lou Frignito"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Timoty Cahalin",
-      "William Lee"
-     ],
-     "a": [
-      "Andre Cristobal",
-      "Anushk Gupta"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Ron Branca",
-      "Thomas Fenton"
-     ],
-     "a": [
-      "Dustin Rabinowitz",
-      "Scott Bohrer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Jaco De Waal",
-      "Derek Callihan"
-     ],
-     "a": [
-      "Mark Kilimnik",
-      "Jeff Zamorski"
+      "Mickey Cook",
+      "Craig Frame"
      ]
     },
     {
@@ -10187,194 +10484,54 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Joshua Mindlin",
-      "Alex Pecora"
+      "Vineeth Mathew",
+      "Nachiket Vaidya"
      ],
      "a": [
-      "Shawn Ganow",
-      "Lou Frignito"
+      "Dipen Bhatt",
+      "Ali Husain"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 21,
-     "as": 19,
+     "hs": 20,
+     "as": 22,
      "h": [
-      "William Lee",
-      "Joshua Mindlin"
+      "Bryan Nardone",
+      "Robert Finley"
      ],
      "a": [
-      "Scott Bohrer",
-      "Austin Gow"
+      "Al Mancini",
+      "Dipen Bhatt"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 22,
-     "as": 24,
+     "hs": 20,
+     "as": 22,
      "h": [
-      "Jaco De Waal",
-      "Christian Lupica"
+      "Vineeth Mathew",
+      "Nachiket Vaidya"
      ],
      "a": [
-      "Lou Frignito",
-      "Andre Cristobal"
+      "Deepak Sunku",
+      "Matthew Eldridge"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 16,
+     "hs": 17,
      "as": 21,
      "h": [
-      "Timoty Cahalin",
-      "Derek Callihan"
+      "Daniel Ehala",
+      "Marc Harden"
      ],
      "a": [
-      "Mark Kilimnik",
-      "Jeff Zamorski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Alex Pecora",
-      "Thomas Fenton"
-     ],
-     "a": [
-      "Dustin Rabinowitz",
-      "Vaughn Lawrence"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "William Lee",
-      "Timoty Cahalin"
-     ],
-     "a": [
-      "Vaughn Lawrence",
-      "Anushk Gupta"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Derek Callihan",
-      "Jaco De Waal"
-     ],
-     "a": [
-      "Mark Kilimnik",
-      "Austin Gow"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Joshua Mindlin",
-      "Alex Pecora"
-     ],
-     "a": [
-      "Dustin Rabinowitz",
-      "Jeff Zamorski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Thomas Fenton",
-      "Ron Branca"
-     ],
-     "a": [
-      "Shawn Ganow",
-      "Scott Bohrer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Christian Lupica",
-      "Jaco De Waal"
-     ],
-     "a": [
-      "Jeff Zamorski",
-      "Anushk Gupta"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Joshua Mindlin",
-      "Thomas Fenton"
-     ],
-     "a": [
-      "Shawn Ganow",
-      "Mark Kilimnik"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "William Lee",
-      "Derek Callihan"
-     ],
-     "a": [
-      "Vaughn Lawrence",
-      "Lou Frignito"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Alex Pecora",
-      "Ron Branca"
-     ],
-     "a": [
-      "Andre Cristobal",
-      "Dustin Rabinowitz"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Timoty Cahalin",
-      "Jaco De Waal"
-     ],
-     "a": [
-      "Vaughn Lawrence",
-      "Scott Bohrer"
+      "Ali Husain",
+      "Zach Hollmann"
      ]
     },
     {
@@ -10383,12 +10540,68 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Derek Callihan",
-      "Thomas Fenton"
+      "Shayne Clowar",
+      "Riguo Zheng"
      ],
      "a": [
-      "Shawn Ganow",
-      "Lou Frignito"
+      "Michael Li",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Robert Finley",
+      "Shayne Clowar"
+     ],
+     "a": [
+      "Craig Frame",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Daniel Ehala",
+      "Vineeth Mathew"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Riguo Zheng",
+      "Marc Harden"
+     ],
+     "a": [
+      "Al Mancini",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Jeffrey Lena",
+      "Nachiket Vaidya"
+     ],
+     "a": [
+      "Chris Damato",
+      "Deepak Sunku"
      ]
     },
     {
@@ -10397,127 +10610,138 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Christian Lupica",
-      "Alex Pecora"
+      "Jeffrey Lena",
+      "Bryan Nardone"
      ],
      "a": [
-      "Austin Gow",
-      "Anushk Gupta"
+      "Chris Damato",
+      "Al Mancini"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Ron Branca",
-      "Joshua Mindlin"
-     ],
-     "a": [
-      "Andre Cristobal",
-      "Mark Kilimnik"
-     ]
-    }
-   ],
-   "subs": [
-    "Andre Cristobal"
-   ]
-  },
-  {
-   "result": "home",
-   "week": 2,
-   "home": "Dill Dinkers Freehold",
-   "away": "Jersey Pickleball Club",
-   "time": "2026-08-31T19:30:00",
-   "complete": true,
-   "homePoints": 638,
-   "awayPoints": 573,
-   "homeGW": 23,
-   "awayGW": 9,
-   "games": [
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Caesar Gene",
-      "Harrison Mui"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Wasib Malik"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Chenfei Gao",
-      "Adam Weinstock"
-     ],
-     "a": [
-      "Matt Schall",
-      "Andrew Bernard"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Eugene Zaslavsky",
-      "Samuel Levinson"
-     ],
-     "a": [
-      "Zach Hizer",
-      "Kevin Wysoczynski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Tom Laiso",
-      "Nicholas Lagrua"
-     ],
-     "a": [
-      "Kevin Lin",
-      "Zachary Puccia"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Yoon Choi",
-      "Adam Weinstock"
-     ],
-     "a": [
-      "Wasib Malik",
-      "Daniel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
+     "hs": 19,
      "as": 21,
      "h": [
-      "Caesar Gene",
-      "Nicholas Lagrua"
+      "Robert Finley",
+      "Marc Harden"
      ],
      "a": [
-      "Andrew Bernard",
-      "Matt Schall"
+      "Mickey Cook",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Daniel Ehala",
+      "Shayne Clowar"
+     ],
+     "a": [
+      "Ali Husain",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Nachiket Vaidya",
+      "Riguo Zheng"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "Jeffrey Lena",
+      "Robert Finley"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Deepak Sunku"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Marc Harden",
+      "Nachiket Vaidya"
+     ],
+     "a": [
+      "Ali Husain",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Bryan Nardone",
+      "Riguo Zheng"
+     ],
+     "a": [
+      "Al Mancini",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Shayne Clowar",
+      "Vineeth Mathew"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Shayne Clowar",
+      "Vineeth Mathew"
+     ],
+     "a": [
+      "Craig Frame",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Jeffrey Lena",
+      "Riguo Zheng"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Chris Damato"
      ]
     },
     {
@@ -10526,82 +10750,26 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Eugene Zaslavsky",
-      "Tom Laiso"
+      "Daniel Ehala",
+      "Nachiket Vaidya"
      ],
      "a": [
-      "Zach Hizer",
-      "Kevin Wysoczynski"
+      "Al Mancini",
+      "Matthew Eldridge"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Samuel Levinson",
-      "Chenfei Gao"
-     ],
-     "a": [
-      "Kevin Lin",
-      "Zachary Puccia"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Nicholas Lagrua",
-      "Yoon Choi"
-     ],
-     "a": [
-      "Wasib Malik",
-      "Daniel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
+     "hs": 13,
      "as": 21,
      "h": [
-      "Adam Weinstock",
-      "Harrison Mui"
+      "Marc Harden",
+      "Bryan Nardone"
      ],
      "a": [
-      "Kevin Wysoczynski",
-      "Matt Schall"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Eugene Zaslavsky",
-      "Samuel Levinson"
-     ],
-     "a": [
-      "Kevin Lin",
-      "Zach Hizer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Tom Laiso",
-      "Caesar Gene"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Andrew Bernard"
+      "Deepak Sunku",
+      "Zach Hollmann"
      ]
     },
     {
@@ -10610,54 +10778,12 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Yoon Choi",
-      "Samuel Levinson"
+      "Shayne Clowar",
+      "Bryan Nardone"
      ],
      "a": [
-      "Andrew Bernard",
-      "Daniel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Eugene Zaslavsky",
-      "Tom Laiso"
-     ],
-     "a": [
-      "Kevin Wysoczynski",
-      "Matt Schall"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Nicholas Lagrua",
-      "Chenfei Gao"
-     ],
-     "a": [
-      "Zachary Puccia",
-      "Zach Hizer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Harrison Mui",
-      "Adam Weinstock"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Wasib Malik"
+      "Matthew Eldridge",
+      "Michael Li"
      ]
     },
     {
@@ -10666,12 +10792,54 @@
      "hs": 21,
      "as": 10,
      "h": [
-      "Yoon Choi",
-      "Nicholas Lagrua"
+      "Nachiket Vaidya",
+      "Riguo Zheng"
      ],
      "a": [
-      "Wasib Malik",
-      "Andrew Bernard"
+      "Chris Damato",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "Jeffrey Lena",
+      "Robert Finley"
+     ],
+     "a": [
+      "Al Mancini",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Vineeth Mathew",
+      "Daniel Ehala"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Bryan Nardone",
+      "Daniel Ehala"
+     ],
+     "a": [
+      "Craig Frame",
+      "Dipen Bhatt"
      ]
     },
     {
@@ -10680,213 +10848,45 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Samuel Levinson",
-      "Harrison Mui"
+      "Nachiket Vaidya",
+      "Robert Finley"
      ],
      "a": [
-      "Kevin Lin",
-      "Matt Schall"
+      "Chris Damato",
+      "Ali Husain"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Chenfei Gao",
-      "Adam Weinstock"
-     ],
-     "a": [
-      "Zach Hizer",
-      "Zachary Puccia"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
+     "hs": 19,
      "as": 21,
      "h": [
-      "Caesar Gene",
-      "Eugene Zaslavsky"
+      "Jeffrey Lena",
+      "Vineeth Mathew"
      ],
      "a": [
-      "Anthony Bradford Bisignano",
-      "Kevin Wysoczynski"
+      "Deepak Sunku",
+      "Matthew Eldridge"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 17,
+     "hs": 10,
      "as": 21,
      "h": [
-      "Yoon Choi",
-      "Adam Weinstock"
+      "Shayne Clowar",
+      "Riguo Zheng"
      ],
      "a": [
-      "Zachary Puccia",
-      "Daniel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Samuel Levinson",
-      "Harrison Mui"
-     ],
-     "a": [
-      "Matt Schall",
-      "Kevin Lin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 24,
-     "h": [
-      "Tom Laiso",
-      "Caesar Gene"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Zach Hizer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Chenfei Gao",
-      "Eugene Zaslavsky"
-     ],
-     "a": [
-      "Kevin Wysoczynski",
-      "Wasib Malik"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Yoon Choi",
-      "Samuel Levinson"
-     ],
-     "a": [
-      "Kevin Wysoczynski",
-      "Zachary Puccia"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Caesar Gene",
-      "Harrison Mui"
-     ],
-     "a": [
-      "Matt Schall",
-      "Zach Hizer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Chenfei Gao",
-      "Tom Laiso"
-     ],
-     "a": [
-      "Kevin Lin",
-      "Andrew Bernard"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Nicholas Lagrua",
-      "Eugene Zaslavsky"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Daniel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Yoon Choi",
-      "Eugene Zaslavsky"
-     ],
-     "a": [
-      "Zachary Puccia",
-      "Kevin Wysoczynski"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 26,
-     "as": 24,
-     "h": [
-      "Tom Laiso",
-      "Adam Weinstock"
-     ],
-     "a": [
-      "Matt Schall",
-      "Zach Hizer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Caesar Gene",
-      "Nicholas Lagrua"
-     ],
-     "a": [
-      "Andrew Bernard",
-      "Kevin Lin"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 1,
-     "hs": 1,
-     "as": 0,
-     "h": [
-      "Chenfei Gao",
-      "Harrison Mui"
-     ],
-     "a": [
-      "Anthony Bradford Bisignano",
-      "Daniel Phillips"
+      "Michael Li",
+      "Mickey Cook"
      ]
     }
    ],
    "subs": [
-    "Kevin Lin"
+    "Jeffrey Lena"
    ]
   },
   {
@@ -11360,471 +11360,6 @@
   {
    "result": "away",
    "week": 2,
-   "home": "ACE Moorestown",
-   "away": "Pickle House",
-   "time": "2026-08-31T19:30:00",
-   "complete": true,
-   "homePoints": 505,
-   "awayPoints": 626,
-   "homeGW": 6,
-   "awayGW": 26,
-   "games": [
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Shayne Clowar",
-      "Jeffrey Lena"
-     ],
-     "a": [
-      "Michael Li",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Robert Finley",
-      "Marc Harden"
-     ],
-     "a": [
-      "Chris Damato",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Bryan Nardone",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Craig Frame"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Vineeth Mathew",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Ali Husain"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Bryan Nardone",
-      "Robert Finley"
-     ],
-     "a": [
-      "Al Mancini",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Vineeth Mathew",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Deepak Sunku",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Daniel Ehala",
-      "Marc Harden"
-     ],
-     "a": [
-      "Ali Husain",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Shayne Clowar",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Michael Li",
-      "Chris Damato"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Robert Finley",
-      "Shayne Clowar"
-     ],
-     "a": [
-      "Craig Frame",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Daniel Ehala",
-      "Vineeth Mathew"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Riguo Zheng",
-      "Marc Harden"
-     ],
-     "a": [
-      "Al Mancini",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Chris Damato",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Bryan Nardone"
-     ],
-     "a": [
-      "Chris Damato",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Robert Finley",
-      "Marc Harden"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Daniel Ehala",
-      "Shayne Clowar"
-     ],
-     "a": [
-      "Ali Husain",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Nachiket Vaidya",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Craig Frame"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Robert Finley"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Deepak Sunku"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Marc Harden",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Ali Husain",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Bryan Nardone",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Al Mancini",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Shayne Clowar",
-      "Vineeth Mathew"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Shayne Clowar",
-      "Vineeth Mathew"
-     ],
-     "a": [
-      "Craig Frame",
-      "Ali Husain"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Chris Damato"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Daniel Ehala",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Al Mancini",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Marc Harden",
-      "Bryan Nardone"
-     ],
-     "a": [
-      "Deepak Sunku",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Shayne Clowar",
-      "Bryan Nardone"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Michael Li"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Nachiket Vaidya",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Chris Damato",
-      "Craig Frame"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Robert Finley"
-     ],
-     "a": [
-      "Al Mancini",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Vineeth Mathew",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Ali Husain"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Bryan Nardone",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Craig Frame",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Nachiket Vaidya",
-      "Robert Finley"
-     ],
-     "a": [
-      "Chris Damato",
-      "Ali Husain"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Jeffrey Lena",
-      "Vineeth Mathew"
-     ],
-     "a": [
-      "Deepak Sunku",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Shayne Clowar",
-      "Riguo Zheng"
-     ],
-     "a": [
-      "Michael Li",
-      "Mickey Cook"
-     ]
-    }
-   ],
-   "subs": [
-    "Jeffrey Lena"
-   ]
-  },
-  {
-   "result": "away",
-   "week": 2,
    "home": "Jersey Devil",
    "away": "Bounce Tempest",
    "time": "2026-08-31T19:30:00",
@@ -12291,13 +11826,477 @@
    ]
   },
   {
+   "result": "home",
+   "week": 2,
+   "home": "Dill Dinkers Freehold",
+   "away": "Jersey Pickleball Club",
+   "time": "2026-08-31T19:30:00",
+   "complete": true,
+   "homePoints": 638,
+   "awayPoints": 573,
+   "homeGW": 23,
+   "awayGW": 9,
+   "games": [
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Caesar Gene",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Chenfei Gao",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Matt Schall",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Tom Laiso",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Caesar Gene",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Eugene Zaslavsky",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Samuel Levinson",
+      "Chenfei Gao"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Nicholas Lagrua",
+      "Yoon Choi"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Adam Weinstock",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Tom Laiso",
+      "Caesar Gene"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Yoon Choi",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Eugene Zaslavsky",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Nicholas Lagrua",
+      "Chenfei Gao"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Harrison Mui",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Yoon Choi",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Wasib Malik",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Samuel Levinson",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Matt Schall"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Chenfei Gao",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Zach Hizer",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Caesar Gene",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Samuel Levinson",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Matt Schall",
+      "Kevin Lin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
+     "h": [
+      "Tom Laiso",
+      "Caesar Gene"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Chenfei Gao",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Yoon Choi",
+      "Samuel Levinson"
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Caesar Gene",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Matt Schall",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Chenfei Gao",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kevin Lin",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Nicholas Lagrua",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Yoon Choi",
+      "Eugene Zaslavsky"
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
+     "h": [
+      "Tom Laiso",
+      "Adam Weinstock"
+     ],
+     "a": [
+      "Matt Schall",
+      "Zach Hizer"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Caesar Gene",
+      "Nicholas Lagrua"
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Kevin Lin"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
+     "h": [
+      "Chenfei Gao",
+      "Harrison Mui"
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    }
+   ],
+   "subs": [
+    "Kevin Lin"
+   ]
+  },
+  {
    "result": "away",
    "week": 4,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Dill Dinkers Freehold",
    "time": "2026-09-14T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 614,
    "awayPoints": 644,
    "homeGW": 12,
@@ -13586,6 +13585,469 @@
    ]
   },
   {
+   "result": "home",
+   "week": 4,
+   "home": "Bounce Tempest",
+   "away": "Pickle House",
+   "time": "2026-09-14T19:30:00",
+   "complete": true,
+   "homePoints": 605,
+   "awayPoints": 606,
+   "homeGW": 17,
+   "awayGW": 15,
+   "games": [
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Hiep Pham",
+      "Adriene Khon"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 29,
+     "h": [
+      "Zachary Lessner",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Ali Husain",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Ashwin Korde",
+      "Alex Boory"
+     ],
+     "a": [
+      "Rich Marcovecchio",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Brandyn Schuchart",
+      "Josh Knupp"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Josh Knupp",
+      "Alex Mihalca"
+     ],
+     "a": [
+      "Ali Husain",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Justin Bautista",
+      "Hiep Pham"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Alex Boory",
+      "Justin Chin"
+     ],
+     "a": [
+      "Rich Marcovecchio",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Adriene Khon",
+      "Josh Knupp"
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Zachary Lessner",
+      "Ashwin Korde"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Hiep Pham",
+      "Alex Mihalca"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Brandyn Schuchart",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Chris Damato",
+      "Rich Marcovecchio"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Brandyn Schuchart",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Hiep Pham",
+      "Adriene Khon"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Ashwin Korde",
+      "Alex Mihalca"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Alex Boory",
+      "Justin Chin"
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Josh Knupp",
+      "Zachary Lessner"
+     ],
+     "a": [
+      "Ali Husain",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Justin Chin",
+      "Hiep Pham"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Alex Mihalca",
+      "Ashwin Korde"
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Matthew Eldridge"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Adriene Khon",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Rich Marcovecchio",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Justin Chin",
+      "Hiep Pham"
+     ],
+     "a": [
+      "Ali Husain",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Alex Boory",
+      "Alex Mihalca"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Rich Marcovecchio"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Brandyn Schuchart",
+      "Zachary Lessner"
+     ],
+     "a": [
+      "Chris Damato",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Ashwin Korde",
+      "Josh Knupp"
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Zachary Lessner",
+      "Alex Boory"
+     ],
+     "a": [
+      "Chris Damato",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Josh Knupp",
+      "Adriene Khon"
+     ],
+     "a": [
+      "Tarkan Akas",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Justin Bautista",
+      "Justin Chin"
+     ],
+     "a": [
+      "Ali Husain",
+      "Rich Marcovecchio"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Brandyn Schuchart",
+      "Alex Mihalca"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Josh Knupp",
+      "Alex Boory"
+     ],
+     "a": [
+      "Matthew Eldridge",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Adriene Khon",
+      "Brandyn Schuchart"
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Ashwin Korde",
+      "Justin Chin"
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Zachary Lessner",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Ali Husain",
+      "Chris Damato"
+     ]
+    }
+   ],
+   "subs": []
+  },
+  {
    "result": null,
    "week": 4,
    "home": "Jersey Pickleball Club",
@@ -14413,469 +14875,6 @@
    ]
   },
   {
-   "result": "home",
-   "week": 4,
-   "home": "Bounce Tempest",
-   "away": "Pickle House",
-   "time": "2026-09-14T19:30:00",
-   "complete": true,
-   "homePoints": 605,
-   "awayPoints": 606,
-   "homeGW": 17,
-   "awayGW": 15,
-   "games": [
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Hiep Pham",
-      "Adriene Khon"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 27,
-     "as": 29,
-     "h": [
-      "Zachary Lessner",
-      "Justin Bautista"
-     ],
-     "a": [
-      "Ali Husain",
-      "Chris Damato"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Ashwin Korde",
-      "Alex Boory"
-     ],
-     "a": [
-      "Rich Marcovecchio",
-      "Gopi Narayanan"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Brandyn Schuchart",
-      "Josh Knupp"
-     ],
-     "a": [
-      "Mickey Cook",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Zachary Lessner",
-      "Brandyn Schuchart"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Chris Damato"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Josh Knupp",
-      "Alex Mihalca"
-     ],
-     "a": [
-      "Ali Husain",
-      "Gopi Narayanan"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Justin Bautista",
-      "Hiep Pham"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Alex Boory",
-      "Justin Chin"
-     ],
-     "a": [
-      "Rich Marcovecchio",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Adriene Khon",
-      "Josh Knupp"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Ali Husain"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Zachary Lessner",
-      "Ashwin Korde"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Hiep Pham",
-      "Alex Mihalca"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Brandyn Schuchart",
-      "Justin Bautista"
-     ],
-     "a": [
-      "Chris Damato",
-      "Rich Marcovecchio"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Brandyn Schuchart",
-      "Justin Bautista"
-     ],
-     "a": [
-      "Dipen Bhatt",
-      "Chris Damato"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Hiep Pham",
-      "Adriene Khon"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Gopi Narayanan"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Ashwin Korde",
-      "Alex Mihalca"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Alex Boory",
-      "Justin Chin"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Josh Knupp",
-      "Zachary Lessner"
-     ],
-     "a": [
-      "Ali Husain",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Justin Chin",
-      "Hiep Pham"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Zach Hollmann"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Alex Mihalca",
-      "Ashwin Korde"
-     ],
-     "a": [
-      "Gopi Narayanan",
-      "Matthew Eldridge"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Adriene Khon",
-      "Justin Bautista"
-     ],
-     "a": [
-      "Rich Marcovecchio",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Justin Chin",
-      "Hiep Pham"
-     ],
-     "a": [
-      "Ali Husain",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Alex Boory",
-      "Alex Mihalca"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Rich Marcovecchio"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Brandyn Schuchart",
-      "Zachary Lessner"
-     ],
-     "a": [
-      "Chris Damato",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Ashwin Korde",
-      "Josh Knupp"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Gopi Narayanan"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Zachary Lessner",
-      "Alex Boory"
-     ],
-     "a": [
-      "Chris Damato",
-      "Al Mancini"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Josh Knupp",
-      "Adriene Khon"
-     ],
-     "a": [
-      "Tarkan Akas",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Justin Bautista",
-      "Justin Chin"
-     ],
-     "a": [
-      "Ali Husain",
-      "Rich Marcovecchio"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Brandyn Schuchart",
-      "Alex Mihalca"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Gopi Narayanan"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 23,
-     "as": 21,
-     "h": [
-      "Josh Knupp",
-      "Alex Boory"
-     ],
-     "a": [
-      "Matthew Eldridge",
-      "Tarkan Akas"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Adriene Khon",
-      "Brandyn Schuchart"
-     ],
-     "a": [
-      "Zach Hollmann",
-      "Mickey Cook"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Ashwin Korde",
-      "Justin Chin"
-     ],
-     "a": [
-      "Gopi Narayanan",
-      "Dipen Bhatt"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Zachary Lessner",
-      "Justin Bautista"
-     ],
-     "a": [
-      "Ali Husain",
-      "Chris Damato"
-     ]
-    }
-   ],
-   "subs": []
-  },
-  {
    "result": null,
    "week": 5,
    "home": "Dill Dinkers Freehold",
@@ -14910,16 +14909,16 @@
   {
    "result": null,
    "week": 5,
-   "home": "Pickle House",
-   "away": "Picklr Newtown",
+   "home": "Jersey Devil",
+   "away": "Bounce Malvern",
    "time": "2026-09-21T19:30:00",
    "complete": false
   },
   {
    "result": null,
    "week": 5,
-   "home": "Jersey Devil",
-   "away": "Bounce Malvern",
+   "home": "Pickle House",
+   "away": "Picklr Newtown",
    "time": "2026-09-21T19:30:00",
    "complete": false
   },
@@ -14934,16 +14933,16 @@
   {
    "result": null,
    "week": 5,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Dill Dinkers Freehold",
+   "home": "Monroe",
+   "away": "Jersey Pickleball Club",
    "time": "2026-09-26T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 5,
-   "home": "Monroe",
-   "away": "Jersey Pickleball Club",
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Dill Dinkers Freehold",
    "time": "2026-09-26T12:00:00",
    "complete": false
   },
@@ -14998,16 +14997,16 @@
   {
    "result": null,
    "week": 6,
-   "home": "ACE Moorestown",
-   "away": "Jersey Devil",
+   "home": "Bounce Tempest",
+   "away": "Picklr Newtown",
    "time": "2026-09-28T19:30:00",
    "complete": false
   },
   {
    "result": null,
    "week": 6,
-   "home": "Bounce Tempest",
-   "away": "Picklr Newtown",
+   "home": "ACE Moorestown",
+   "away": "Jersey Devil",
    "time": "2026-09-28T19:30:00",
    "complete": false
   },
@@ -15030,16 +15029,16 @@
   {
    "result": null,
    "week": 7,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Pickleball Kingdom Hillsborough",
+   "home": "Monroe",
+   "away": "Flemington",
    "time": "2026-10-05T19:30:00",
    "complete": false
   },
   {
    "result": null,
    "week": 7,
-   "home": "Monroe",
-   "away": "Flemington",
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-05T19:30:00",
    "complete": false
   },
@@ -15062,22 +15061,6 @@
   {
    "result": null,
    "week": 8,
-   "home": "Pickleball Kingdom Hillsborough",
-   "away": "Monroe",
-   "time": "2026-10-12T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
-   "home": "Flemington",
-   "away": "Pickleball Kingdom Watchung",
-   "time": "2026-10-12T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
    "home": "Premiere",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-12T19:00:00",
@@ -15088,6 +15071,22 @@
    "week": 8,
    "home": "Picklr Newtown",
    "away": "Pickle House",
+   "time": "2026-10-12T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Monroe",
+   "time": "2026-10-12T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
+   "home": "Flemington",
+   "away": "Pickleball Kingdom Watchung",
    "time": "2026-10-12T19:00:00",
    "complete": false
   },
@@ -15110,14 +15109,6 @@
   {
    "result": null,
    "week": 9,
-   "home": "Flemington",
-   "away": "Dill Dinkers Freehold",
-   "time": "2026-10-19T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Jersey Pickleball Club",
    "time": "2026-10-19T19:00:00",
@@ -15126,8 +15117,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Monroe",
+   "home": "Flemington",
+   "away": "Dill Dinkers Freehold",
+   "time": "2026-10-19T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
+   "home": "Bounce Malvern",
+   "away": "Picklr Newtown",
    "time": "2026-10-19T19:30:00",
    "complete": false
   },
@@ -15142,16 +15141,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "Pickle House",
-   "away": "ACE Moorestown",
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Monroe",
    "time": "2026-10-19T19:30:00",
    "complete": false
   },
   {
    "result": null,
    "week": 9,
-   "home": "Bounce Malvern",
-   "away": "Picklr Newtown",
+   "home": "Pickle House",
+   "away": "ACE Moorestown",
    "time": "2026-10-19T19:30:00",
    "complete": false
   },
@@ -15214,16 +15213,8 @@
   {
    "result": null,
    "week": 10,
-   "home": "Jersey Pickleball Club",
-   "away": "Flemington",
-   "time": "2026-10-26T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 10,
-   "home": "Bounce Tempest",
-   "away": "Bounce Malvern",
+   "home": "Pickle House",
+   "away": "Jersey Devil",
    "time": "2026-10-26T19:30:00",
    "complete": false
   },
@@ -15238,8 +15229,16 @@
   {
    "result": null,
    "week": 10,
-   "home": "Pickle House",
-   "away": "Jersey Devil",
+   "home": "Jersey Pickleball Club",
+   "away": "Flemington",
+   "time": "2026-10-26T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 10,
+   "home": "Bounce Tempest",
+   "away": "Bounce Malvern",
    "time": "2026-10-26T19:30:00",
    "complete": false
   },
@@ -15262,16 +15261,16 @@
   {
    "result": null,
    "week": 11,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Jersey Pickleball Club",
+   "home": "Monroe",
+   "away": "Premiere",
    "time": "2026-11-02T19:30:00",
    "complete": false
   },
   {
    "result": null,
    "week": 11,
-   "home": "Monroe",
-   "away": "Premiere",
+   "home": "Jersey Devil",
+   "away": "ACE Moorestown",
    "time": "2026-11-02T19:30:00",
    "complete": false
   },
@@ -15286,8 +15285,8 @@
   {
    "result": null,
    "week": 11,
-   "home": "Jersey Devil",
-   "away": "ACE Moorestown",
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Jersey Pickleball Club",
    "time": "2026-11-02T19:30:00",
    "complete": false
   },
@@ -15318,6 +15317,14 @@
   {
    "result": null,
    "week": 13,
+   "home": "Flemington",
+   "away": "Jersey Pickleball Club",
+   "time": "2026-11-16T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 13,
    "home": "Dill Dinkers Freehold",
    "away": "Monroe",
    "time": "2026-11-16T19:00:00",
@@ -15328,14 +15335,6 @@
    "week": 13,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Premiere",
-   "time": "2026-11-16T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 13,
-   "home": "Flemington",
-   "away": "Jersey Pickleball Club",
    "time": "2026-11-16T19:00:00",
    "complete": false
   },
@@ -15369,7 +15368,7 @@
  },
  "meta": {
   "matchesPlayed": 16,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-4",
   "totalPlayers": 169,
   "ratingHistoryWeeks": [
@@ -15457,7 +15456,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T10:33:01.557Z";
+  DATA.meta.asOf = "2026-09-16T22:17:42.376Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

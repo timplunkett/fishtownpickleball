@@ -1,18 +1,6 @@
 {
   "$values": [
     {
-      "matchupId": "a9090ce6-3786-4107-bf33-2ffe3daf2fdc",
-      "weekNumber": 1,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "homePoints": 591,
-      "awayPoints": 616,
-      "endResult": "away",
-      "scheduledTime": "2026-08-24T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "ACE Downingtown"
-    },
-    {
       "matchupId": "59386167-7230-44ae-879c-84c982b1e926",
       "weekNumber": 1,
       "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
@@ -23,6 +11,18 @@
       "scheduledTime": "2026-08-24T19:00:00",
       "homeName": "Pickleball HQ",
       "awayName": "Pickleball Kingdom Tinton Falls"
+    },
+    {
+      "matchupId": "a9090ce6-3786-4107-bf33-2ffe3daf2fdc",
+      "weekNumber": 1,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "homePoints": 591,
+      "awayPoints": 616,
+      "endResult": "away",
+      "scheduledTime": "2026-08-24T19:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "ACE Downingtown"
     },
     {
       "matchupId": "12f5b6dd-c9dd-471d-8f62-054267114f06",
@@ -37,16 +37,16 @@
       "awayName": "Jersey Pickleball Club"
     },
     {
-      "matchupId": "d1a64519-db9a-40b0-9767-230ff673ec3f",
+      "matchupId": "4388e975-81ac-4af1-8c11-5b9ffec82b33",
       "weekNumber": 1,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "homePoints": 570,
-      "awayPoints": 616,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 513,
+      "awayPoints": 647,
       "endResult": "away",
       "scheduledTime": "2026-08-24T19:30:00",
-      "homeName": "Home Court",
-      "awayName": "PickleRage Union County Net Ninjas"
+      "homeName": "Pickle House",
+      "awayName": "Flemington"
     },
     {
       "matchupId": "468ab374-b45a-409e-a943-440a8ef3f636",
@@ -61,28 +61,16 @@
       "awayName": "Pickle Juice Blackwood"
     },
     {
-      "matchupId": "4388e975-81ac-4af1-8c11-5b9ffec82b33",
+      "matchupId": "8a39b349-8354-4ee8-b74c-b269cdd40d7e",
       "weekNumber": 1,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 513,
-      "awayPoints": 647,
+      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 559,
+      "awayPoints": 616,
       "endResult": "away",
       "scheduledTime": "2026-08-24T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Flemington"
-    },
-    {
-      "matchupId": "ada546b9-0c65-4d28-9dd0-642f51aeeef6",
-      "weekNumber": 1,
-      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 563,
-      "awayPoints": 632,
-      "endResult": "away",
-      "scheduledTime": "2026-08-24T19:30:00",
-      "homeName": "Bounce Tempest",
-      "awayName": "Players Courtyard"
+      "homeName": "Open Play",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "8be6fc34-9844-4fdf-b129-a5c54ca26ae3",
@@ -97,16 +85,16 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "8a39b349-8354-4ee8-b74c-b269cdd40d7e",
+      "matchupId": "ada546b9-0c65-4d28-9dd0-642f51aeeef6",
       "weekNumber": 1,
-      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 559,
-      "awayPoints": 616,
+      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "homePoints": 563,
+      "awayPoints": 632,
       "endResult": "away",
       "scheduledTime": "2026-08-24T19:30:00",
-      "homeName": "Open Play",
-      "awayName": "Pickleball Palace"
+      "homeName": "Bounce Tempest",
+      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "b348eb5f-c3fc-4056-8717-d4a2466bf7c7",
@@ -121,6 +109,18 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
+      "matchupId": "d1a64519-db9a-40b0-9767-230ff673ec3f",
+      "weekNumber": 1,
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "homePoints": 570,
+      "awayPoints": 616,
+      "endResult": "away",
+      "scheduledTime": "2026-08-24T19:30:00",
+      "homeName": "Home Court",
+      "awayName": "PickleRage Union County Net Ninjas"
+    },
+    {
       "matchupId": "662685ed-e9ee-4fd6-8b17-793866c5524a",
       "weekNumber": 2,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -133,42 +133,6 @@
       "awayName": "PickleRage Union County Net Ninjas"
     },
     {
-      "matchupId": "fd9c87b7-e382-40e3-b94b-4a8283a7a285",
-      "weekNumber": 2,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 514,
-      "awayPoints": 669,
-      "endResult": "away",
-      "scheduledTime": "2026-08-31T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Pickleball HQ"
-    },
-    {
-      "matchupId": "ecf84af4-2361-475f-9461-53fd986b3213",
-      "weekNumber": 2,
-      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 597,
-      "awayPoints": 620,
-      "endResult": "away",
-      "scheduledTime": "2026-08-31T19:30:00",
-      "homeName": "PickleRage Union County Pandas",
-      "awayName": "Pickleball Palace"
-    },
-    {
-      "matchupId": "fcad738d-00cb-4cd9-8376-7ea37750f79d",
-      "weekNumber": 2,
-      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
-      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "homePoints": 651,
-      "awayPoints": 611,
-      "endResult": "home",
-      "scheduledTime": "2026-08-31T19:30:00",
-      "homeName": "Pickleball Kingdom Hamilton",
-      "awayName": "Pickleball Kingdom Lehigh Valley"
-    },
-    {
       "matchupId": "02135e6c-3ac5-45c0-8d4c-8fd558fa2454",
       "weekNumber": 2,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -179,30 +143,6 @@
       "scheduledTime": "2026-08-31T19:30:00",
       "homeName": "Home Court",
       "awayName": "Open Play"
-    },
-    {
-      "matchupId": "b62c5b8d-290c-4ada-a912-90c07ad9297c",
-      "weekNumber": 2,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 642,
-      "awayPoints": 492,
-      "endResult": "home",
-      "scheduledTime": "2026-08-31T19:30:00",
-      "homeName": "Monroe",
-      "awayName": "Pickle House"
-    },
-    {
-      "matchupId": "aacd7056-168f-449f-9104-9be4201434da",
-      "weekNumber": 2,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 681,
-      "awayPoints": 574,
-      "endResult": "home",
-      "scheduledTime": "2026-08-31T19:30:00",
-      "homeName": "Bounce Philly",
-      "awayName": "Dill Dinkers Hatboro"
     },
     {
       "matchupId": "17b2a01e-44b6-4a71-9983-a43413eeb2f8",
@@ -229,6 +169,30 @@
       "awayName": "Bounce Tempest"
     },
     {
+      "matchupId": "aacd7056-168f-449f-9104-9be4201434da",
+      "weekNumber": 2,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "homePoints": 681,
+      "awayPoints": 574,
+      "endResult": "home",
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Bounce Philly",
+      "awayName": "Dill Dinkers Hatboro"
+    },
+    {
+      "matchupId": "b62c5b8d-290c-4ada-a912-90c07ad9297c",
+      "weekNumber": 2,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 642,
+      "awayPoints": 492,
+      "endResult": "home",
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Monroe",
+      "awayName": "Pickle House"
+    },
+    {
       "matchupId": "df98876d-6603-4c1b-8a4f-eaa7f9e42519",
       "weekNumber": 2,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
@@ -241,16 +205,40 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "42ffcf60-a149-4703-bd09-6b55b91711dc",
-      "weekNumber": 4,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 607,
-      "awayPoints": 602,
+      "matchupId": "ecf84af4-2361-475f-9461-53fd986b3213",
+      "weekNumber": 2,
+      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 597,
+      "awayPoints": 620,
+      "endResult": "away",
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "PickleRage Union County Pandas",
+      "awayName": "Pickleball Palace"
+    },
+    {
+      "matchupId": "fcad738d-00cb-4cd9-8376-7ea37750f79d",
+      "weekNumber": 2,
+      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "homePoints": 651,
+      "awayPoints": 611,
       "endResult": "home",
-      "scheduledTime": "2026-09-14T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Bounce Philly"
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Pickleball Kingdom Hamilton",
+      "awayName": "Pickleball Kingdom Lehigh Valley"
+    },
+    {
+      "matchupId": "fd9c87b7-e382-40e3-b94b-4a8283a7a285",
+      "weekNumber": 2,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "homePoints": 514,
+      "awayPoints": 669,
+      "endResult": "away",
+      "scheduledTime": "2026-08-31T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Pickleball HQ"
     },
     {
       "matchupId": "0646ab52-1710-4ebb-8e31-70b31ad98300",
@@ -265,76 +253,52 @@
       "awayName": "Pickleball Palace"
     },
     {
+      "matchupId": "42ffcf60-a149-4703-bd09-6b55b91711dc",
+      "weekNumber": 4,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 607,
+      "awayPoints": 602,
+      "endResult": "home",
+      "scheduledTime": "2026-09-14T19:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Bounce Philly"
+    },
+    {
       "matchupId": "7ca778ea-9fcf-40d8-9983-72ceb9cbaf19",
       "weekNumber": 4,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 659,
+      "awayPoints": 423,
+      "endResult": "home",
       "scheduledTime": "2026-09-14T19:00:00",
       "homeName": "Flemington",
       "awayName": "Jersey Pickleball Club"
-    },
-    {
-      "matchupId": "5cb23562-331e-4536-9d2d-3bf7e874c057",
-      "weekNumber": 4,
-      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
-      "homePoints": 671,
-      "awayPoints": 524,
-      "endResult": "home",
-      "scheduledTime": "2026-09-14T19:30:00",
-      "homeName": "PickleRage Union County Net Ninjas",
-      "awayName": "Open Play"
-    },
-    {
-      "matchupId": "9af6343d-9e29-4757-95ee-6d398c68d527",
-      "weekNumber": 4,
-      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "homePoints": 639,
-      "awayPoints": 568,
-      "endResult": "home",
-      "scheduledTime": "2026-09-14T19:30:00",
-      "homeName": "Players Courtyard",
-      "awayName": "Pickle Juice Blackwood"
     },
     {
       "matchupId": "16ebcc3b-32df-4de7-bc92-6e74c411db79",
       "weekNumber": 4,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 631,
+      "awayPoints": 590,
+      "endResult": "home",
       "scheduledTime": "2026-09-14T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Dill Dinkers Hatboro"
     },
     {
-      "matchupId": "69e041b7-dd4d-429a-9967-701eaf7aea86",
+      "matchupId": "3ede7ac2-fe53-4a60-bf0e-f7858e7fd305",
       "weekNumber": 4,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 618,
-      "awayPoints": 635,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 428,
+      "awayPoints": 650,
       "endResult": "away",
       "scheduledTime": "2026-09-14T19:30:00",
-      "homeName": "Monroe",
-      "awayName": "Pickleball HQ"
-    },
-    {
-      "matchupId": "b75592f0-28ea-4482-b1e3-92d442c3148d",
-      "weekNumber": 4,
-      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 644,
-      "awayPoints": 571,
-      "endResult": "home",
-      "scheduledTime": "2026-09-14T19:30:00",
-      "homeName": "Bounce Tempest",
-      "awayName": "Picklr Newark"
+      "homeName": "Pickle House",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "5211f206-c6d7-4025-bce7-b91af505d8d0",
@@ -349,6 +313,30 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
+      "matchupId": "5cb23562-331e-4536-9d2d-3bf7e874c057",
+      "weekNumber": 4,
+      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "awayTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "homePoints": 671,
+      "awayPoints": 524,
+      "endResult": "home",
+      "scheduledTime": "2026-09-14T19:30:00",
+      "homeName": "PickleRage Union County Net Ninjas",
+      "awayName": "Open Play"
+    },
+    {
+      "matchupId": "69e041b7-dd4d-429a-9967-701eaf7aea86",
+      "weekNumber": 4,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "homePoints": 618,
+      "awayPoints": 635,
+      "endResult": "away",
+      "scheduledTime": "2026-09-14T19:30:00",
+      "homeName": "Monroe",
+      "awayName": "Pickleball HQ"
+    },
+    {
       "matchupId": "841a9533-015f-409f-9f97-e73ed2e4b906",
       "weekNumber": 4,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -361,16 +349,28 @@
       "awayName": "PickleRage Union County Pandas"
     },
     {
-      "matchupId": "3ede7ac2-fe53-4a60-bf0e-f7858e7fd305",
+      "matchupId": "9af6343d-9e29-4757-95ee-6d398c68d527",
       "weekNumber": 4,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 428,
-      "awayPoints": 650,
-      "endResult": "away",
+      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "homePoints": 639,
+      "awayPoints": 568,
+      "endResult": "home",
       "scheduledTime": "2026-09-14T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Pickleball Kingdom Tinton Falls"
+      "homeName": "Players Courtyard",
+      "awayName": "Pickle Juice Blackwood"
+    },
+    {
+      "matchupId": "b75592f0-28ea-4482-b1e3-92d442c3148d",
+      "weekNumber": 4,
+      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "homePoints": 644,
+      "awayPoints": 571,
+      "endResult": "home",
+      "scheduledTime": "2026-09-14T19:30:00",
+      "homeName": "Bounce Tempest",
+      "awayName": "Picklr Newark"
     },
     {
       "matchupId": "a5db8b8b-8a8b-4bc2-a9d9-3141eea5b31a",
@@ -397,52 +397,16 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "39f60ab8-6343-4e87-bd92-08464d8e883f",
+      "matchupId": "0b0f7e11-f409-4cd3-97cb-a230952f550f",
       "weekNumber": 5,
-      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Pickle Juice Blackwood",
-      "awayName": "Picklr Newark"
-    },
-    {
-      "matchupId": "9bb8fd28-35b0-49e7-bde7-3d538287656f",
-      "weekNumber": 5,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "PickleRage Union County Net Ninjas"
-    },
-    {
-      "matchupId": "e9940712-6650-4660-b656-3e8f7a38ce00",
-      "weekNumber": 5,
-      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Bounce Tempest",
-      "awayName": "Pickleball Kingdom Lehigh Valley"
-    },
-    {
-      "matchupId": "44e46f2e-c2cb-4887-801a-518eaec14c59",
-      "weekNumber": 5,
-      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Pickleball Kingdom Hamilton",
-      "awayName": "Bounce Philly"
+      "homeName": "ACE Downingtown",
+      "awayName": "Dill Dinkers Hatboro"
     },
     {
       "matchupId": "1019a733-ae34-4ad6-9b7d-79e45c57e2f8",
@@ -457,28 +421,28 @@
       "awayName": "Open Play"
     },
     {
-      "matchupId": "e6b957d9-a1f2-4e59-b338-7eb71a673f94",
+      "matchupId": "39f60ab8-6343-4e87-bd92-08464d8e883f",
       "weekNumber": 5,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Jersey Pickleball Club"
+      "homeName": "Pickle Juice Blackwood",
+      "awayName": "Picklr Newark"
     },
     {
-      "matchupId": "0b0f7e11-f409-4cd3-97cb-a230952f550f",
+      "matchupId": "44e46f2e-c2cb-4887-801a-518eaec14c59",
       "weekNumber": 5,
-      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-21T19:30:00",
-      "homeName": "ACE Downingtown",
-      "awayName": "Dill Dinkers Hatboro"
+      "homeName": "Pickleball Kingdom Hamilton",
+      "awayName": "Bounce Philly"
     },
     {
       "matchupId": "6f4d6cb1-7ff6-4c39-8ea4-dea04c01c6cb",
@@ -491,6 +455,42 @@
       "scheduledTime": "2026-09-21T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Players Courtyard"
+    },
+    {
+      "matchupId": "9bb8fd28-35b0-49e7-bde7-3d538287656f",
+      "weekNumber": 5,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-21T19:30:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "PickleRage Union County Net Ninjas"
+    },
+    {
+      "matchupId": "e6b957d9-a1f2-4e59-b338-7eb71a673f94",
+      "weekNumber": 5,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-21T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "e9940712-6650-4660-b656-3e8f7a38ce00",
+      "weekNumber": 5,
+      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-21T19:30:00",
+      "homeName": "Bounce Tempest",
+      "awayName": "Pickleball Kingdom Lehigh Valley"
     },
     {
       "matchupId": "099d084b-0158-4063-9286-0b8a3dce411b",
@@ -517,18 +517,6 @@
       "awayName": "Pickleball HQ"
     },
     {
-      "matchupId": "d54a90e8-f0de-41d3-972f-65fe6eaf82b1",
-      "weekNumber": 5,
-      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T12:00:00",
-      "homeName": "APC Garden State",
-      "awayName": "ACE Downingtown"
-    },
-    {
       "matchupId": "2d0d2114-44da-440d-9f0a-6c17c3933ce3",
       "weekNumber": 5,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -541,18 +529,6 @@
       "awayName": "Dill Dinkers Hatboro"
     },
     {
-      "matchupId": "eaf26de4-eb4f-4e1f-bf98-c5db838bc933",
-      "weekNumber": 5,
-      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T12:00:00",
-      "homeName": "PickleRage Union County Pandas",
-      "awayName": "Monroe"
-    },
-    {
       "matchupId": "69a028d9-2cad-4edf-886e-d1b3c9bf0eeb",
       "weekNumber": 5,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
@@ -563,6 +539,30 @@
       "scheduledTime": "2026-09-27T12:00:00",
       "homeName": "Bounce Tempest",
       "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "d54a90e8-f0de-41d3-972f-65fe6eaf82b1",
+      "weekNumber": 5,
+      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T12:00:00",
+      "homeName": "APC Garden State",
+      "awayName": "ACE Downingtown"
+    },
+    {
+      "matchupId": "eaf26de4-eb4f-4e1f-bf98-c5db838bc933",
+      "weekNumber": 5,
+      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-27T12:00:00",
+      "homeName": "PickleRage Union County Pandas",
+      "awayName": "Monroe"
     },
     {
       "matchupId": "767db13c-f307-4165-8858-5ece9a3bd83d",
@@ -589,16 +589,16 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "b8b9a395-b1f0-47b2-8bb6-6a22093b2ce8",
+      "matchupId": "55de5131-86b0-46a9-a8e1-bcc3bdc29897",
       "weekNumber": 5,
-      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-27T15:00:00",
-      "homeName": "Open Play",
-      "awayName": "Pickleball Kingdom Tinton Falls"
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "Pickle House"
     },
     {
       "matchupId": "87c92476-2229-4a74-82d4-763bd57eab42",
@@ -613,16 +613,16 @@
       "awayName": "Jersey Pickleball Club"
     },
     {
-      "matchupId": "55de5131-86b0-46a9-a8e1-bcc3bdc29897",
+      "matchupId": "b8b9a395-b1f0-47b2-8bb6-6a22093b2ce8",
       "weekNumber": 5,
-      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-27T15:00:00",
-      "homeName": "Pickleball Kingdom Hillsborough",
-      "awayName": "Pickle House"
+      "homeName": "Open Play",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "ae065f84-c976-40bf-9636-5fccad0c8a00",
@@ -661,6 +661,30 @@
       "awayName": "Open Play"
     },
     {
+      "matchupId": "08bd425b-d22e-4f7d-ac13-c64e5b2f5079",
+      "weekNumber": 6,
+      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-28T19:30:00",
+      "homeName": "PickleRage Union County Net Ninjas",
+      "awayName": "PickleRage Union County Pandas"
+    },
+    {
+      "matchupId": "2b7d8109-9a82-4b7e-baab-4dadab370081",
+      "weekNumber": 6,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-28T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Pickleball HQ"
+    },
+    {
       "matchupId": "6d3bae19-8489-4f1e-b391-1c2020c12287",
       "weekNumber": 6,
       "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
@@ -683,30 +707,6 @@
       "scheduledTime": "2026-09-28T19:30:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Jersey Pickleball Club"
-    },
-    {
-      "matchupId": "2b7d8109-9a82-4b7e-baab-4dadab370081",
-      "weekNumber": 6,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-28T19:30:00",
-      "homeName": "Pickle House",
-      "awayName": "Pickleball HQ"
-    },
-    {
-      "matchupId": "fdb486ff-4d3a-4a76-9429-65773ff2fddc",
-      "weekNumber": 6,
-      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-28T19:30:00",
-      "homeName": "Players Courtyard",
-      "awayName": "Picklr Newark"
     },
     {
       "matchupId": "8f92145b-1c83-4a1e-afc2-8aa7bddb802e",
@@ -733,16 +733,16 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
-      "matchupId": "08bd425b-d22e-4f7d-ac13-c64e5b2f5079",
+      "matchupId": "ccbf64ec-ec6c-4348-8451-e954727cb75b",
       "weekNumber": 6,
-      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-28T19:30:00",
-      "homeName": "PickleRage Union County Net Ninjas",
-      "awayName": "PickleRage Union County Pandas"
+      "homeName": "Bounce Tempest",
+      "awayName": "APC Garden State"
     },
     {
       "matchupId": "d2bdd05f-cb1f-424e-bd7c-e37c135f0f77",
@@ -757,16 +757,16 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "ccbf64ec-ec6c-4348-8451-e954727cb75b",
+      "matchupId": "fdb486ff-4d3a-4a76-9429-65773ff2fddc",
       "weekNumber": 6,
-      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-09-28T19:30:00",
-      "homeName": "Bounce Tempest",
-      "awayName": "APC Garden State"
+      "homeName": "Players Courtyard",
+      "awayName": "Picklr Newark"
     },
     {
       "matchupId": "ae5823f2-2c45-4995-9178-27fb4f0f2d3d",
@@ -793,6 +793,54 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
+      "matchupId": "053d991a-260b-4572-96df-bcb3bd080334",
+      "weekNumber": 7,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "PickleRage Union County Pandas"
+    },
+    {
+      "matchupId": "075fe945-4607-4946-b1de-73cc2d2c7fd4",
+      "weekNumber": 7,
+      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "Players Courtyard",
+      "awayName": "Bounce Tempest"
+    },
+    {
+      "matchupId": "1146c5ed-ff7b-40b6-8e56-e1fbf5c60147",
+      "weekNumber": 7,
+      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "Pickleball Kingdom Hamilton",
+      "awayName": "Dill Dinkers Hatboro"
+    },
+    {
+      "matchupId": "4c14e576-3dfc-4b84-917a-54f51cad3057",
+      "weekNumber": 7,
+      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "PickleRage Union County Net Ninjas",
+      "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
       "matchupId": "4fa5bf49-1a3f-4ca0-8f03-014103d2f142",
       "weekNumber": 7,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -803,6 +851,30 @@
       "scheduledTime": "2026-10-05T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Bounce Philly"
+    },
+    {
+      "matchupId": "7a9e2df7-6f8c-4be4-a982-75af25988cfc",
+      "weekNumber": 7,
+      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "ACE Downingtown",
+      "awayName": "Pickleball Kingdom Lehigh Valley"
+    },
+    {
+      "matchupId": "8a878b26-d60a-459e-8fd1-5b0fd1c096c9",
+      "weekNumber": 7,
+      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-05T19:30:00",
+      "homeName": "Pickle Juice Blackwood",
+      "awayName": "APC Garden State"
     },
     {
       "matchupId": "c8e9e0c1-1a14-48a2-a43b-2386e0a601d2",
@@ -829,75 +901,15 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "4c14e576-3dfc-4b84-917a-54f51cad3057",
-      "weekNumber": 7,
-      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "PickleRage Union County Net Ninjas",
-      "awayName": "Pickleball Kingdom Hillsborough"
-    },
-    {
-      "matchupId": "8a878b26-d60a-459e-8fd1-5b0fd1c096c9",
-      "weekNumber": 7,
-      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "Pickle Juice Blackwood",
-      "awayName": "APC Garden State"
-    },
-    {
-      "matchupId": "075fe945-4607-4946-b1de-73cc2d2c7fd4",
-      "weekNumber": 7,
-      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "Players Courtyard",
-      "awayName": "Bounce Tempest"
-    },
-    {
-      "matchupId": "7a9e2df7-6f8c-4be4-a982-75af25988cfc",
-      "weekNumber": 7,
-      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "ACE Downingtown",
-      "awayName": "Pickleball Kingdom Lehigh Valley"
-    },
-    {
-      "matchupId": "053d991a-260b-4572-96df-bcb3bd080334",
-      "weekNumber": 7,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "PickleRage Union County Pandas"
-    },
-    {
-      "matchupId": "1146c5ed-ff7b-40b6-8e56-e1fbf5c60147",
-      "weekNumber": 7,
-      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "matchupId": "b754401f-ab26-4708-9476-94470d3c7910",
+      "weekNumber": 8,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-10-05T19:30:00",
-      "homeName": "Pickleball Kingdom Hamilton",
+      "scheduledTime": "2026-10-12T19:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Dill Dinkers Hatboro"
     },
     {
@@ -913,28 +925,28 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "b754401f-ab26-4708-9476-94470d3c7910",
+      "matchupId": "0af7d702-38ed-4a31-bb92-b627582583e3",
       "weekNumber": 8,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-12T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Dill Dinkers Hatboro"
-    },
-    {
-      "matchupId": "af016f9d-c082-44ec-8e94-068aeaa05f26",
-      "weekNumber": 8,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-12T19:30:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Pickle House"
+      "homeName": "APC Garden State",
+      "awayName": "Bounce Tempest"
+    },
+    {
+      "matchupId": "49594bfc-a002-4935-a898-dc17329f7269",
+      "weekNumber": 8,
+      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-12T19:30:00",
+      "homeName": "Picklr Newark",
+      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "55b4e418-0c97-4cb8-ae94-6ec7e0dd2e3e",
@@ -949,18 +961,6 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "78e60f58-47cf-4d3f-a636-9b3cd80f08fd",
-      "weekNumber": 8,
-      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
-      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-12T19:30:00",
-      "homeName": "Open Play",
-      "awayName": "PickleRage Union County Net Ninjas"
-    },
-    {
       "matchupId": "57ff34b8-e07d-4328-ab4b-add3b3cf1998",
       "weekNumber": 8,
       "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
@@ -973,16 +973,28 @@
       "awayName": "Bounce Philly"
     },
     {
-      "matchupId": "0af7d702-38ed-4a31-bb92-b627582583e3",
+      "matchupId": "78e60f58-47cf-4d3f-a636-9b3cd80f08fd",
       "weekNumber": 8,
-      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-12T19:30:00",
-      "homeName": "APC Garden State",
-      "awayName": "Bounce Tempest"
+      "homeName": "Open Play",
+      "awayName": "PickleRage Union County Net Ninjas"
+    },
+    {
+      "matchupId": "af016f9d-c082-44ec-8e94-068aeaa05f26",
+      "weekNumber": 8,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-12T19:30:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Pickle House"
     },
     {
       "matchupId": "da295c50-a57a-4a63-94a4-ba1d3c36980b",
@@ -995,18 +1007,6 @@
       "scheduledTime": "2026-10-12T19:30:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Flemington"
-    },
-    {
-      "matchupId": "49594bfc-a002-4935-a898-dc17329f7269",
-      "weekNumber": 8,
-      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-12T19:30:00",
-      "homeName": "Picklr Newark",
-      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "e796683c-9baf-40d9-a1e5-f215b23e3b0e",
@@ -1033,40 +1033,16 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "2715e5bf-6ea0-46af-98bc-2564abd7122e",
+      "matchupId": "06a4ca79-592a-4e01-ac2a-d80713e31b8f",
       "weekNumber": 9,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Bounce Philly",
-      "awayName": "Pickleball Kingdom Lehigh Valley"
-    },
-    {
-      "matchupId": "ca08af2e-7aa2-449e-a413-594f756d17d1",
-      "weekNumber": 9,
-      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "PickleRage Union County Net Ninjas",
-      "awayName": "Pickleball Palace"
-    },
-    {
-      "matchupId": "b2b87d90-9e18-4d0b-88b7-5f626225cf18",
-      "weekNumber": 9,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Monroe",
-      "awayName": "Pickleball Kingdom Tinton Falls"
+      "homeName": "Pickleball Kingdom Hamilton",
+      "awayName": "ACE Downingtown"
     },
     {
       "matchupId": "0a3a735b-bca8-42bb-bb44-976ce8ccc871",
@@ -1081,40 +1057,28 @@
       "awayName": "PickleRage Union County Pandas"
     },
     {
-      "matchupId": "d29d69c5-80f0-44b1-9bed-a3a4fa2445f7",
+      "matchupId": "1a173801-c761-4b34-904b-ed8e33914777",
       "weekNumber": 9,
-      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Picklr Newark",
-      "awayName": "Bounce Tempest"
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Pickle House"
     },
     {
-      "matchupId": "06a4ca79-592a-4e01-ac2a-d80713e31b8f",
+      "matchupId": "2715e5bf-6ea0-46af-98bc-2564abd7122e",
       "weekNumber": 9,
-      "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
-      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Pickleball Kingdom Hamilton",
-      "awayName": "ACE Downingtown"
-    },
-    {
-      "matchupId": "b18d430f-9f2e-4975-92ff-da5ee55ff4af",
-      "weekNumber": 9,
-      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Pickle Juice Blackwood",
-      "awayName": "Players Courtyard"
+      "homeName": "Bounce Philly",
+      "awayName": "Pickleball Kingdom Lehigh Valley"
     },
     {
       "matchupId": "30cbea56-a95e-4fc3-8600-ec34eeaba93e",
@@ -1129,16 +1093,52 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "1a173801-c761-4b34-904b-ed8e33914777",
+      "matchupId": "b18d430f-9f2e-4975-92ff-da5ee55ff4af",
       "weekNumber": 9,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-19T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Pickle House"
+      "homeName": "Pickle Juice Blackwood",
+      "awayName": "Players Courtyard"
+    },
+    {
+      "matchupId": "b2b87d90-9e18-4d0b-88b7-5f626225cf18",
+      "weekNumber": 9,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-19T19:30:00",
+      "homeName": "Monroe",
+      "awayName": "Pickleball Kingdom Tinton Falls"
+    },
+    {
+      "matchupId": "ca08af2e-7aa2-449e-a413-594f756d17d1",
+      "weekNumber": 9,
+      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-19T19:30:00",
+      "homeName": "PickleRage Union County Net Ninjas",
+      "awayName": "Pickleball Palace"
+    },
+    {
+      "matchupId": "d29d69c5-80f0-44b1-9bed-a3a4fa2445f7",
+      "weekNumber": 9,
+      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-19T19:30:00",
+      "homeName": "Picklr Newark",
+      "awayName": "Bounce Tempest"
     },
     {
       "matchupId": "90a766cd-0e22-4e10-b952-964d15a5b507",
@@ -1153,18 +1153,6 @@
       "awayName": "APC Garden State"
     },
     {
-      "matchupId": "91d36008-c11f-432e-b369-241cd74e857f",
-      "weekNumber": 9,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T09:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Picklr Newark"
-    },
-    {
       "matchupId": "7121303c-6885-4709-a564-b0783d712c6d",
       "weekNumber": 9,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
@@ -1175,6 +1163,18 @@
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "Pickle House",
       "awayName": "PickleRage Union County Pandas"
+    },
+    {
+      "matchupId": "91d36008-c11f-432e-b369-241cd74e857f",
+      "weekNumber": 9,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T09:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Picklr Newark"
     },
     {
       "matchupId": "7f1293e4-2281-4dd9-a686-79b3f7541ba8",
@@ -1201,30 +1201,6 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "cddcdbfe-99fd-4b08-bcc7-2f70d3bf3620",
-      "weekNumber": 9,
-      "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T15:00:00",
-      "homeName": "Dill Dinkers Hatboro",
-      "awayName": "Players Courtyard"
-    },
-    {
-      "matchupId": "bda94a5e-f056-4ff8-9817-3b75e3b16120",
-      "weekNumber": 9,
-      "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T15:00:00",
-      "homeName": "Pickleball HQ",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "1189891a-466e-4456-988c-73ec40b43768",
       "weekNumber": 9,
       "homeTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
@@ -1247,6 +1223,30 @@
       "scheduledTime": "2026-10-25T15:00:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Open Play"
+    },
+    {
+      "matchupId": "bda94a5e-f056-4ff8-9817-3b75e3b16120",
+      "weekNumber": 9,
+      "homeTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T15:00:00",
+      "homeName": "Pickleball HQ",
+      "awayName": "Pickleball Palace"
+    },
+    {
+      "matchupId": "cddcdbfe-99fd-4b08-bcc7-2f70d3bf3620",
+      "weekNumber": 9,
+      "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T15:00:00",
+      "homeName": "Dill Dinkers Hatboro",
+      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "9c110a39-11f2-4cf8-a57c-00f79605b6ec",
@@ -1273,18 +1273,6 @@
       "awayName": "PickleRage Union County Net Ninjas"
     },
     {
-      "matchupId": "72e29bd4-d260-418d-b2e1-16eb89e3be97",
-      "weekNumber": 10,
-      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-26T19:30:00",
-      "homeName": "Bounce Tempest",
-      "awayName": "ACE Downingtown"
-    },
-    {
       "matchupId": "09707fe3-d79b-49a6-9dc2-9d597d88d8a2",
       "weekNumber": 10,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -1295,6 +1283,18 @@
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Pickleball Kingdom Lehigh Valley"
+    },
+    {
+      "matchupId": "72e29bd4-d260-418d-b2e1-16eb89e3be97",
+      "weekNumber": 10,
+      "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-26T19:30:00",
+      "homeName": "Bounce Tempest",
+      "awayName": "ACE Downingtown"
     },
     {
       "matchupId": "7c7abc73-803d-4434-8980-a3e414ea122a",
@@ -1309,18 +1309,6 @@
       "awayName": "Bounce Philly"
     },
     {
-      "matchupId": "f97d7ade-538d-410f-af0b-e66ce3f1a27d",
-      "weekNumber": 10,
-      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-26T19:30:00",
-      "homeName": "Pickle Juice Blackwood",
-      "awayName": "Dill Dinkers Hatboro"
-    },
-    {
       "matchupId": "a95d10e5-0d82-4117-af53-ee10771a5411",
       "weekNumber": 10,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -1333,16 +1321,16 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
-      "matchupId": "f2a1f266-a49c-4479-a84a-7c308037aed7",
-      "weekNumber": 11,
-      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "matchupId": "f97d7ade-538d-410f-af0b-e66ce3f1a27d",
+      "weekNumber": 10,
+      "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-02T19:00:00",
-      "homeName": "Pickleball Kingdom Hillsborough",
-      "awayName": "PickleRage Union County Pandas"
+      "scheduledTime": "2026-10-26T19:30:00",
+      "homeName": "Pickle Juice Blackwood",
+      "awayName": "Dill Dinkers Hatboro"
     },
     {
       "matchupId": "52a1d221-54f8-41b6-9fe4-d00de324df16",
@@ -1357,28 +1345,16 @@
       "awayName": "Pickle House"
     },
     {
-      "matchupId": "2fa0c66f-a98f-4fb1-b9e0-14c2ad9fc796",
+      "matchupId": "f2a1f266-a49c-4479-a84a-7c308037aed7",
       "weekNumber": 11,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-02T19:30:00",
-      "homeName": "Bounce Philly",
-      "awayName": "Pickleball Kingdom Hamilton"
-    },
-    {
-      "matchupId": "8b895e73-f213-4f9a-b287-20f5e2be3765",
-      "weekNumber": 11,
-      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-02T19:30:00",
-      "homeName": "Players Courtyard",
-      "awayName": "APC Garden State"
+      "scheduledTime": "2026-11-02T19:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "PickleRage Union County Pandas"
     },
     {
       "matchupId": "201f2358-8169-42be-b2ea-4234549ebcb3",
@@ -1393,18 +1369,6 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "c18a826e-2b31-4644-ae19-497f9a897d3d",
-      "weekNumber": 11,
-      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-02T19:30:00",
-      "homeName": "Picklr Newark",
-      "awayName": "Pickle Juice Blackwood"
-    },
-    {
       "matchupId": "2b7f2cb7-6dc4-4695-9247-70fea4a0d148",
       "weekNumber": 11,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
@@ -1415,6 +1379,18 @@
       "scheduledTime": "2026-11-02T19:30:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Pickleball HQ"
+    },
+    {
+      "matchupId": "2fa0c66f-a98f-4fb1-b9e0-14c2ad9fc796",
+      "weekNumber": 11,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-02T19:30:00",
+      "homeName": "Bounce Philly",
+      "awayName": "Pickleball Kingdom Hamilton"
     },
     {
       "matchupId": "44053569-77af-496f-86c1-8c9952b4f096",
@@ -1429,18 +1405,6 @@
       "awayName": "ACE Downingtown"
     },
     {
-      "matchupId": "56524b1b-5cd4-4e82-a778-98a86468f198",
-      "weekNumber": 11,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-02T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Monroe"
-    },
-    {
       "matchupId": "46cc35f0-8b8a-41be-95c3-a07dbe19bb30",
       "weekNumber": 11,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
@@ -1453,16 +1417,40 @@
       "awayName": "Open Play"
     },
     {
-      "matchupId": "504f64b7-e994-4598-a153-be9c75fcf0e6",
-      "weekNumber": 12,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "matchupId": "56524b1b-5cd4-4e82-a778-98a86468f198",
+      "weekNumber": 11,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-09T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Players Courtyard"
+      "scheduledTime": "2026-11-02T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Monroe"
+    },
+    {
+      "matchupId": "8b895e73-f213-4f9a-b287-20f5e2be3765",
+      "weekNumber": 11,
+      "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-02T19:30:00",
+      "homeName": "Players Courtyard",
+      "awayName": "APC Garden State"
+    },
+    {
+      "matchupId": "c18a826e-2b31-4644-ae19-497f9a897d3d",
+      "weekNumber": 11,
+      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-02T19:30:00",
+      "homeName": "Picklr Newark",
+      "awayName": "Pickle Juice Blackwood"
     },
     {
       "matchupId": "18e1ef33-b1b0-4449-a5c9-d72202baff3c",
@@ -1475,6 +1463,18 @@
       "scheduledTime": "2026-11-09T19:00:00",
       "homeName": "Flemington",
       "awayName": "PickleRage Union County Pandas"
+    },
+    {
+      "matchupId": "504f64b7-e994-4598-a153-be9c75fcf0e6",
+      "weekNumber": 12,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-09T19:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "8e8cf5bc-33fd-4930-b299-dbf39d098930",
@@ -1501,18 +1501,6 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
-      "matchupId": "a7232186-a0b2-4f33-8338-2071b2ab2b87",
-      "weekNumber": 12,
-      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
-      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-09T19:30:00",
-      "homeName": "PickleRage Union County Net Ninjas",
-      "awayName": "Pickle House"
-    },
-    {
       "matchupId": "1773df08-d89d-4389-a285-371eb13598ea",
       "weekNumber": 12,
       "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
@@ -1523,18 +1511,6 @@
       "scheduledTime": "2026-11-09T19:30:00",
       "homeName": "Dill Dinkers Hatboro",
       "awayName": "Bounce Tempest"
-    },
-    {
-      "matchupId": "6162c27f-51dc-4067-9147-4f5ee8bdcf4a",
-      "weekNumber": 12,
-      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-09T19:30:00",
-      "homeName": "ACE Downingtown",
-      "awayName": "Picklr Newark"
     },
     {
       "matchupId": "492bfe3b-c38f-4d5f-9dca-64fad7727700",
@@ -1561,6 +1537,18 @@
       "awayName": "APC Garden State"
     },
     {
+      "matchupId": "6162c27f-51dc-4067-9147-4f5ee8bdcf4a",
+      "weekNumber": 12,
+      "homeTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-09T19:30:00",
+      "homeName": "ACE Downingtown",
+      "awayName": "Picklr Newark"
+    },
+    {
       "matchupId": "97205065-303c-486c-959b-b1e9a8b706a8",
       "weekNumber": 12,
       "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
@@ -1583,6 +1571,18 @@
       "scheduledTime": "2026-11-09T19:30:00",
       "homeName": "Home Court",
       "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "a7232186-a0b2-4f33-8338-2071b2ab2b87",
+      "weekNumber": 12,
+      "homeTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-09T19:30:00",
+      "homeName": "PickleRage Union County Net Ninjas",
+      "awayName": "Pickle House"
     },
     {
       "matchupId": "2db25894-c8fb-487b-aa76-29647777561f",
@@ -1609,28 +1609,16 @@
       "awayName": "Pickleball Kingdom Hamilton"
     },
     {
-      "matchupId": "dcf54681-37b4-4395-9861-0f6afebab85b",
+      "matchupId": "1f6d6111-6dd3-4fed-8108-e54c8d2d9113",
       "weekNumber": 13,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
-      "matchupId": "cfacd21c-a0b0-444e-9058-21ba18142228",
-      "weekNumber": 13,
-      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "APC Garden State",
-      "awayName": "Picklr Newark"
+      "homeName": "Home Court",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "569cae40-8bc3-4474-8f25-443dfdc0d22d",
@@ -1645,16 +1633,16 @@
       "awayName": "ACE Downingtown"
     },
     {
-      "matchupId": "ec71279a-11cb-473a-97d9-479332e27d90",
+      "matchupId": "6b481208-b391-4857-97a0-ae20dfddd038",
       "weekNumber": 13,
-      "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
+      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "Dill Dinkers Hatboro",
-      "awayName": "Bounce Philly"
+      "homeName": "PickleRage Union County Pandas",
+      "awayName": "PickleRage Union County Net Ninjas"
     },
     {
       "matchupId": "a3a15de1-e324-4b73-97f0-6f96da4d4803",
@@ -1669,6 +1657,42 @@
       "awayName": "Flemington"
     },
     {
+      "matchupId": "cb5688ac-a693-49a8-933c-e6ca924c6f1e",
+      "weekNumber": 13,
+      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
+      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-16T19:30:00",
+      "homeName": "Open Play",
+      "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
+      "matchupId": "cfacd21c-a0b0-444e-9058-21ba18142228",
+      "weekNumber": 13,
+      "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-16T19:30:00",
+      "homeName": "APC Garden State",
+      "awayName": "Picklr Newark"
+    },
+    {
+      "matchupId": "dcf54681-37b4-4395-9861-0f6afebab85b",
+      "weekNumber": 13,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-16T19:30:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Pickleball Kingdom Tinton Falls"
+    },
+    {
       "matchupId": "ddb3c8ef-f521-495e-8a05-adb0384ba46d",
       "weekNumber": 13,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
@@ -1681,40 +1705,16 @@
       "awayName": "Pickle Juice Blackwood"
     },
     {
-      "matchupId": "6b481208-b391-4857-97a0-ae20dfddd038",
+      "matchupId": "ec71279a-11cb-473a-97d9-479332e27d90",
       "weekNumber": 13,
-      "homeTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
-      "awayTeamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "PickleRage Union County Pandas",
-      "awayName": "PickleRage Union County Net Ninjas"
-    },
-    {
-      "matchupId": "1f6d6111-6dd3-4fed-8108-e54c8d2d9113",
-      "weekNumber": 13,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "Home Court",
-      "awayName": "Pickleball Palace"
-    },
-    {
-      "matchupId": "cb5688ac-a693-49a8-933c-e6ca924c6f1e",
-      "weekNumber": 13,
-      "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
-      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-16T19:30:00",
-      "homeName": "Open Play",
-      "awayName": "Pickleball Kingdom Hillsborough"
+      "homeName": "Dill Dinkers Hatboro",
+      "awayName": "Bounce Philly"
     }
   ]
 }

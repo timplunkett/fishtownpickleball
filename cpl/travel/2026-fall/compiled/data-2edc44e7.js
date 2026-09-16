@@ -3879,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4314,7 +4314,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4430,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4691,7 +4691,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4749,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5799,19 +5799,6 @@
    "bId": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b"
   },
   {
-   "a": "Tom Zentmeyer",
-   "b": "Thomas Ross",
-   "team": "Pickle Place",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 1.1,
-   "avgActual": 6.7,
-   "avgExpected": 4,
-   "aId": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
-   "bId": "eab86a29-43ef-4b31-ba94-928f57f56c9c"
-  },
-  {
    "a": "Marc Harden",
    "b": "Kate Siedell",
    "team": "ACE Moorestown",
@@ -5823,6 +5810,19 @@
    "avgExpected": 6.8,
    "aId": "55194d2f-f537-4e19-b901-86c559f25ef2",
    "bId": "8decf039-f1e5-4182-b3cf-6756789ae87a"
+  },
+  {
+   "a": "Tom Zentmeyer",
+   "b": "Thomas Ross",
+   "team": "Pickle Place",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 1.1,
+   "avgActual": 6.7,
+   "avgExpected": 4,
+   "aId": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
+   "bId": "eab86a29-43ef-4b31-ba94-928f57f56c9c"
   },
   {
    "a": "Jorge Diaz",
@@ -5890,19 +5890,6 @@
    "bId": "de318a9b-7e48-41ed-ba22-e06fe8e1f894"
   },
   {
-   "a": "Tom Zentmeyer",
-   "b": "Jay Rohatgi",
-   "team": "Pickle Place",
-   "n": 4,
-   "w": 4,
-   "l": 0,
-   "synergy": 0.4,
-   "avgActual": 7,
-   "avgExpected": 6.2,
-   "aId": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
-   "bId": "f5831f41-366b-4666-b780-448fc7971ad7"
-  },
-  {
    "a": "Marc Harden",
    "b": "Sandy Alkins",
    "team": "ACE Moorestown",
@@ -5914,6 +5901,19 @@
    "avgExpected": 5,
    "aId": "55194d2f-f537-4e19-b901-86c559f25ef2",
    "bId": "9c29c52b-9d2a-4a5f-b967-7bafd018446b"
+  },
+  {
+   "a": "Tom Zentmeyer",
+   "b": "Jay Rohatgi",
+   "team": "Pickle Place",
+   "n": 4,
+   "w": 4,
+   "l": 0,
+   "synergy": 0.4,
+   "avgActual": 7,
+   "avgExpected": 6.2,
+   "aId": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
+   "bId": "f5831f41-366b-4666-b780-448fc7971ad7"
   },
   {
    "a": "Amy Chrebet",
@@ -6033,19 +6033,6 @@
    "bId": "d56483b8-a5b8-4c1f-8437-39fcf90a5030"
   },
   {
-   "a": "John Darrah",
-   "b": "Laura Sweet",
-   "team": "APC Garden State",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -0.2,
-   "avgActual": -4,
-   "avgExpected": -3.5,
-   "aId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
-   "bId": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b"
-  },
-  {
    "a": "Kate Siedell",
    "b": "Sandy Alkins",
    "team": "ACE Moorestown",
@@ -6057,6 +6044,19 @@
    "avgExpected": 3.3,
    "aId": "8decf039-f1e5-4182-b3cf-6756789ae87a",
    "bId": "9c29c52b-9d2a-4a5f-b967-7bafd018446b"
+  },
+  {
+   "a": "John Darrah",
+   "b": "Laura Sweet",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -0.2,
+   "avgActual": -4,
+   "avgExpected": -3.5,
+   "aId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
+   "bId": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b"
   },
   {
    "a": "Marc Friedman",
@@ -6632,281 +6632,29 @@
    ]
   },
   {
-   "result": "away",
+   "result": "home",
    "week": 1,
-   "home": "Bounce Malvern Boom",
-   "away": "Flemington Green",
+   "home": "ACE Moorestown",
+   "away": "Bounce Malvern Black",
    "time": "2026-08-22T14:00:00",
    "complete": true,
-   "homePoints": 585,
-   "awayPoints": 644,
-   "homeGW": 13,
-   "awayGW": 19,
+   "homePoints": 656,
+   "awayPoints": 582,
+   "homeGW": 21,
+   "awayGW": 11,
    "games": [
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Lindsay Duphily",
-      "Chris Norton"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "David Mcintyre"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Cindy Hu",
-      "Sandro Stefanelli"
-     ],
-     "a": [
-      "Denise Richmond",
-      "David Osborne"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Sandra Thompson",
-      "Jiang Jin"
-     ],
-     "a": [
-      "Christine Papa",
-      "Eric Luque"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Christine Dugan",
-      "Hal Golden"
-     ],
-     "a": [
-      "Kristen Soucie",
-      "Richard Demeuse"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Sandra Thompson",
-      "Jamila Sefiane"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "Denise Richmond"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Lindsay Duphily",
-      "Christine Dugan"
-     ],
-     "a": [
-      "Christine Papa",
-      "Kristen Soucie"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Hal Golden",
-      "Jiang Jin"
-     ],
-     "a": [
-      "Eric Luque",
-      "David Osborne"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
      "hs": 22,
-     "as": 20,
+     "as": 24,
      "h": [
-      "Sandro Stefanelli",
-      "Brett Kleger"
+      "Kate Siedell",
+      "Brian Rowan"
      ],
      "a": [
-      "Craig Batten",
-      "Richard Demeuse"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 27,
-     "as": 29,
-     "h": [
-      "Cindy Hu",
-      "Hal Golden"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "David Mcintyre"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Lindsay Duphily",
-      "Brett Kleger"
-     ],
-     "a": [
-      "Christine Papa",
-      "Craig Batten"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Jamila Sefiane",
-      "Chris Norton"
-     ],
-     "a": [
-      "Kristen Soucie",
-      "David Osborne"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Christine Dugan",
-      "Sandro Stefanelli"
-     ],
-     "a": [
-      "Denise Richmond",
-      "Eric Luque"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Cindy Hu",
-      "Sandra Thompson"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "Kristen Soucie"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Lindsay Duphily",
-      "Jamila Sefiane"
-     ],
-     "a": [
-      "Christine Papa",
-      "Denise Richmond"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Hal Golden",
-      "Sandro Stefanelli"
-     ],
-     "a": [
-      "Craig Batten",
-      "David Osborne"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Jiang Jin",
-      "Chris Norton"
-     ],
-     "a": [
-      "Richard Demeuse",
-      "David Mcintyre"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Christine Dugan",
-      "Hal Golden"
-     ],
-     "a": [
-      "Denise Richmond",
-      "David Mcintyre"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Sandra Thompson",
-      "Brett Kleger"
-     ],
-     "a": [
-      "Kristen Soucie",
-      "Craig Batten"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Jamila Sefiane",
-      "Sandro Stefanelli"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "Eric Luque"
+      "Harriet Levin",
+      "Jim Darcangelo"
      ]
     },
     {
@@ -6915,68 +6663,12 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Cindy Hu",
-      "Jiang Jin"
+      "Sandy Alkins",
+      "Marc Harden"
      ],
      "a": [
-      "Christine Papa",
-      "Richard Demeuse"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Christine Dugan",
-      "Sandra Thompson"
-     ],
-     "a": [
-      "Katrina Mcintyre",
-      "Christine Papa"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 27,
-     "as": 29,
-     "h": [
-      "Lindsay Duphily",
-      "Cindy Hu"
-     ],
-     "a": [
-      "Denise Richmond",
-      "Kristen Soucie"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 9,
-     "as": 21,
-     "h": [
-      "Hal Golden",
-      "Chris Norton"
-     ],
-     "a": [
-      "David Osborne",
-      "Richard Demeuse"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Jiang Jin",
-      "Brett Kleger"
-     ],
-     "a": [
-      "Craig Batten",
-      "Eric Luque"
+      "Tera Baccile",
+      "Derek Le"
      ]
     },
     {
@@ -6985,54 +6677,138 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Sandra Thompson",
-      "Sandro Stefanelli"
+      "Stacey Frank",
+      "Jonathan Brand"
      ],
      "a": [
-      "Denise Richmond",
-      "David Mcintyre"
+      "Katherine Maruyama",
+      "John Morabito"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 12,
+     "as": 18,
      "h": [
-      "Lindsay Duphily",
-      "Jiang Jin"
+      "Patricia Boyle",
+      "Robert Finley"
      ],
      "a": [
-      "Katrina Mcintyre",
-      "Craig Batten"
+      "Jill Scully",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Kate Siedell",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Harriet Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Patricia Boyle",
+      "Stacey Frank"
+     ],
+     "a": [
+      "Stephanie Woomer",
+      "Jill Scully"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Marc Harden",
+      "Robert Finley"
+     ],
+     "a": [
+      "Jim Darcangelo",
+      "Derek Le"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Brian Rowan",
+      "Jonathan Brand"
+     ],
+     "a": [
+      "Michael Finkelstein",
+      "John Morabito"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 17,
+     "hs": 23,
      "as": 21,
      "h": [
-      "Cindy Hu",
-      "Brett Kleger"
+      "Sandy Alkins",
+      "Jonathan Brand"
      ],
      "a": [
-      "Kristen Soucie",
-      "Eric Luque"
+      "Katherine Maruyama",
+      "Derek Le"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 11,
-     "as": 21,
+     "hs": 22,
+     "as": 24,
      "h": [
-      "Jamila Sefiane",
-      "Chris Norton"
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
-      "Christine Papa",
-      "David Osborne"
+      "Stephanie Woomer",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Patricia Boyle",
+      "Robert Finley"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Jim Darcangelo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Stacey Frank",
+      "Brian Rowan"
+     ],
+     "a": [
+      "Harriet Levin",
+      "John Morabito"
      ]
     },
     {
@@ -7041,40 +6817,26 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Lindsay Duphily",
-      "Cindy Hu"
+      "Patricia Boyle",
+      "Stacey Frank"
      ],
      "a": [
-      "Christine Papa",
-      "Kristen Soucie"
+      "Jill Scully",
+      "Stephanie Woomer"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 11,
-     "as": 21,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "Christine Dugan",
-      "Jamila Sefiane"
+      "Sandy Alkins",
+      "Kate Siedell"
      ],
      "a": [
-      "Katrina Mcintyre",
-      "Denise Richmond"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 9,
-     "as": 21,
-     "h": [
-      "Chris Norton",
-      "Sandro Stefanelli"
-     ],
-     "a": [
-      "Eric Luque",
-      "David Osborne"
+      "Harriet Levin",
+      "Katherine Maruyama"
      ]
     },
     {
@@ -7083,17 +6845,255 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Hal Golden",
-      "Brett Kleger"
+      "Marc Harden",
+      "Brian Rowan"
      ],
      "a": [
-      "Richard Demeuse",
-      "David Mcintyre"
+      "Derek Le",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Jonathan Brand",
+      "Robert Finley"
+     ],
+     "a": [
+      "John Morabito",
+      "Jim Darcangelo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Patricia Boyle",
+      "Brian Rowan"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Kate Siedell",
+      "Jonathan Brand"
+     ],
+     "a": [
+      "Katherine Maruyama",
+      "John Morabito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Stacey Frank",
+      "Robert Finley"
+     ],
+     "a": [
+      "Stephanie Woomer",
+      "Jim Darcangelo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Sandy Alkins",
+      "Marc Harden"
+     ],
+     "a": [
+      "Jill Scully",
+      "Derek Le"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Stacey Frank",
+      "Kate Siedell"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Harriet Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Patricia Boyle",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Katherine Maruyama",
+      "Jill Scully"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Jonathan Brand",
+      "Marc Harden"
+     ],
+     "a": [
+      "Jim Darcangelo",
+      "Derek Le"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Robert Finley",
+      "Brian Rowan"
+     ],
+     "a": [
+      "John Morabito",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Sandy Alkins",
+      "Brian Rowan"
+     ],
+     "a": [
+      "Harriet Levin",
+      "John Morabito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Stacey Frank",
+      "Robert Finley"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Derek Le"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Patricia Boyle",
+      "Jonathan Brand"
+     ],
+     "a": [
+      "Stephanie Woomer",
+      "Michael Finkelstein"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 7,
+     "h": [
+      "Kate Siedell",
+      "Marc Harden"
+     ],
+     "a": [
+      "Jill Scully",
+      "Jim Darcangelo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Patricia Boyle",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Tera Baccile",
+      "Stephanie Woomer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Stacey Frank",
+      "Kate Siedell"
+     ],
+     "a": [
+      "Harriet Levin",
+      "Katherine Maruyama"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Brian Rowan",
+      "Marc Harden"
+     ],
+     "a": [
+      "Michael Finkelstein",
+      "Jim Darcangelo"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Jonathan Brand",
+      "Robert Finley"
+     ],
+     "a": [
+      "Derek Le",
+      "John Morabito"
      ]
     }
    ],
    "subs": [
-    "David Mcintyre"
+    "Brian Rowan"
    ]
   },
   {
@@ -7563,155 +7563,169 @@
    ]
   },
   {
-   "result": "home",
+   "result": "away",
    "week": 1,
-   "home": "ACE Moorestown",
-   "away": "Bounce Malvern Black",
+   "home": "Bounce Malvern Boom",
+   "away": "Flemington Green",
    "time": "2026-08-22T14:00:00",
    "complete": true,
-   "homePoints": 656,
-   "awayPoints": 582,
-   "homeGW": 21,
-   "awayGW": 11,
+   "homePoints": 585,
+   "awayPoints": 644,
+   "homeGW": 13,
+   "awayGW": 19,
    "games": [
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 22,
-     "as": 24,
+     "hs": 14,
+     "as": 21,
      "h": [
-      "Kate Siedell",
-      "Brian Rowan"
+      "Lindsay Duphily",
+      "Chris Norton"
      ],
      "a": [
-      "Harriet Levin",
-      "Jim Darcangelo"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Sandy Alkins",
-      "Marc Harden"
-     ],
-     "a": [
-      "Tera Baccile",
-      "Derek Le"
+      "Katrina Mcintyre",
+      "David Mcintyre"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 15,
+     "as": 23,
      "h": [
-      "Stacey Frank",
-      "Jonathan Brand"
+      "Cindy Hu",
+      "Sandro Stefanelli"
      ],
      "a": [
-      "Katherine Maruyama",
-      "John Morabito"
+      "Denise Richmond",
+      "David Osborne"
      ]
     },
     {
      "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Patricia Boyle",
-      "Robert Finley"
-     ],
-     "a": [
-      "Jill Scully",
-      "Michael Finkelstein"
-     ]
-    },
-    {
-     "t": "female",
      "ff": 0,
      "hs": 19,
      "as": 21,
      "h": [
-      "Kate Siedell",
-      "Sandy Alkins"
+      "Sandra Thompson",
+      "Jiang Jin"
      ],
      "a": [
-      "Tera Baccile",
-      "Harriet Levin"
+      "Christine Papa",
+      "Eric Luque"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Christine Dugan",
+      "Hal Golden"
+     ],
+     "a": [
+      "Kristen Soucie",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Sandra Thompson",
+      "Jamila Sefiane"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Denise Richmond"
      ]
     },
     {
      "t": "female",
      "ff": 0,
      "hs": 21,
-     "as": 15,
+     "as": 16,
      "h": [
-      "Patricia Boyle",
-      "Stacey Frank"
+      "Lindsay Duphily",
+      "Christine Dugan"
      ],
      "a": [
-      "Stephanie Woomer",
-      "Jill Scully"
+      "Christine Papa",
+      "Kristen Soucie"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 21,
-     "as": 15,
+     "hs": 14,
+     "as": 21,
      "h": [
-      "Marc Harden",
-      "Robert Finley"
+      "Hal Golden",
+      "Jiang Jin"
      ],
      "a": [
-      "Jim Darcangelo",
-      "Derek Le"
+      "Eric Luque",
+      "David Osborne"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Sandro Stefanelli",
+      "Brett Kleger"
+     ],
+     "a": [
+      "Craig Batten",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 27,
+     "as": 29,
+     "h": [
+      "Cindy Hu",
+      "Hal Golden"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "mixed",
      "ff": 0,
      "hs": 21,
      "as": 17,
      "h": [
-      "Brian Rowan",
-      "Jonathan Brand"
+      "Lindsay Duphily",
+      "Brett Kleger"
      ],
      "a": [
-      "Michael Finkelstein",
-      "John Morabito"
+      "Christine Papa",
+      "Craig Batten"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 23,
+     "hs": 17,
      "as": 21,
      "h": [
-      "Sandy Alkins",
-      "Jonathan Brand"
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
-      "Katherine Maruyama",
-      "Derek Le"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 22,
-     "as": 24,
-     "h": [
-      "Kate Siedell",
-      "Marc Harden"
-     ],
-     "a": [
-      "Stephanie Woomer",
-      "Michael Finkelstein"
+      "Kristen Soucie",
+      "David Osborne"
      ]
     },
     {
@@ -7720,82 +7734,82 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Patricia Boyle",
-      "Robert Finley"
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
-      "Tera Baccile",
-      "Jim Darcangelo"
+      "Denise Richmond",
+      "Eric Luque"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Cindy Hu",
+      "Sandra Thompson"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Kristen Soucie"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Lindsay Duphily",
+      "Jamila Sefiane"
+     ],
+     "a": [
+      "Christine Papa",
+      "Denise Richmond"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Hal Golden",
+      "Sandro Stefanelli"
+     ],
+     "a": [
+      "Craig Batten",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Jiang Jin",
+      "Chris Norton"
+     ],
+     "a": [
+      "Richard Demeuse",
+      "David Mcintyre"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
+     "hs": 17,
+     "as": 21,
      "h": [
-      "Stacey Frank",
-      "Brian Rowan"
+      "Christine Dugan",
+      "Hal Golden"
      ],
      "a": [
-      "Harriet Levin",
-      "John Morabito"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Patricia Boyle",
-      "Stacey Frank"
-     ],
-     "a": [
-      "Jill Scully",
-      "Stephanie Woomer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Sandy Alkins",
-      "Kate Siedell"
-     ],
-     "a": [
-      "Harriet Levin",
-      "Katherine Maruyama"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Marc Harden",
-      "Brian Rowan"
-     ],
-     "a": [
-      "Derek Le",
-      "Michael Finkelstein"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Jonathan Brand",
-      "Robert Finley"
-     ],
-     "a": [
-      "John Morabito",
-      "Jim Darcangelo"
+      "Denise Richmond",
+      "David Mcintyre"
      ]
     },
     {
@@ -7804,180 +7818,152 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Patricia Boyle",
-      "Brian Rowan"
+      "Sandra Thompson",
+      "Brett Kleger"
      ],
      "a": [
-      "Tera Baccile",
-      "Michael Finkelstein"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Kate Siedell",
-      "Jonathan Brand"
-     ],
-     "a": [
-      "Katherine Maruyama",
-      "John Morabito"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Stacey Frank",
-      "Robert Finley"
-     ],
-     "a": [
-      "Stephanie Woomer",
-      "Jim Darcangelo"
+      "Kristen Soucie",
+      "Craig Batten"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 10,
+     "as": 18,
      "h": [
-      "Sandy Alkins",
-      "Marc Harden"
+      "Jamila Sefiane",
+      "Sandro Stefanelli"
      ],
      "a": [
-      "Jill Scully",
-      "Derek Le"
+      "Katrina Mcintyre",
+      "Eric Luque"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Cindy Hu",
+      "Jiang Jin"
+     ],
+     "a": [
+      "Christine Papa",
+      "Richard Demeuse"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 18,
+     "hs": 15,
      "as": 21,
      "h": [
-      "Stacey Frank",
-      "Kate Siedell"
+      "Christine Dugan",
+      "Sandra Thompson"
      ],
      "a": [
-      "Tera Baccile",
-      "Harriet Levin"
+      "Katrina Mcintyre",
+      "Christine Papa"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 27,
+     "as": 29,
+     "h": [
+      "Lindsay Duphily",
+      "Cindy Hu"
+     ],
+     "a": [
+      "Denise Richmond",
+      "Kristen Soucie"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
+     "h": [
+      "Hal Golden",
+      "Chris Norton"
+     ],
+     "a": [
+      "David Osborne",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Jiang Jin",
+      "Brett Kleger"
+     ],
+     "a": [
+      "Craig Batten",
+      "Eric Luque"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Sandra Thompson",
+      "Sandro Stefanelli"
+     ],
+     "a": [
+      "Denise Richmond",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Lindsay Duphily",
+      "Jiang Jin"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
      "ff": 0,
      "hs": 17,
      "as": 21,
      "h": [
-      "Patricia Boyle",
-      "Sandy Alkins"
+      "Cindy Hu",
+      "Brett Kleger"
      ],
      "a": [
-      "Katherine Maruyama",
-      "Jill Scully"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Jonathan Brand",
-      "Marc Harden"
-     ],
-     "a": [
-      "Jim Darcangelo",
-      "Derek Le"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Robert Finley",
-      "Brian Rowan"
-     ],
-     "a": [
-      "John Morabito",
-      "Michael Finkelstein"
+      "Kristen Soucie",
+      "Eric Luque"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Sandy Alkins",
-      "Brian Rowan"
-     ],
-     "a": [
-      "Harriet Levin",
-      "John Morabito"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Stacey Frank",
-      "Robert Finley"
-     ],
-     "a": [
-      "Tera Baccile",
-      "Derek Le"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Patricia Boyle",
-      "Jonathan Brand"
-     ],
-     "a": [
-      "Stephanie Woomer",
-      "Michael Finkelstein"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 7,
-     "h": [
-      "Kate Siedell",
-      "Marc Harden"
-     ],
-     "a": [
-      "Jill Scully",
-      "Jim Darcangelo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
+     "hs": 11,
      "as": 21,
      "h": [
-      "Patricia Boyle",
-      "Sandy Alkins"
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
-      "Tera Baccile",
-      "Stephanie Woomer"
+      "Christine Papa",
+      "David Osborne"
      ]
     },
     {
@@ -7986,26 +7972,40 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Stacey Frank",
-      "Kate Siedell"
+      "Lindsay Duphily",
+      "Cindy Hu"
      ],
      "a": [
-      "Harriet Levin",
-      "Katherine Maruyama"
+      "Christine Papa",
+      "Kristen Soucie"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Christine Dugan",
+      "Jamila Sefiane"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Denise Richmond"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 23,
+     "hs": 9,
      "as": 21,
      "h": [
-      "Brian Rowan",
-      "Marc Harden"
+      "Chris Norton",
+      "Sandro Stefanelli"
      ],
      "a": [
-      "Michael Finkelstein",
-      "Jim Darcangelo"
+      "Eric Luque",
+      "David Osborne"
      ]
     },
     {
@@ -8014,17 +8014,17 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Jonathan Brand",
-      "Robert Finley"
+      "Hal Golden",
+      "Brett Kleger"
      ],
      "a": [
-      "Derek Le",
-      "John Morabito"
+      "Richard Demeuse",
+      "David Mcintyre"
      ]
     }
    ],
    "subs": [
-    "Brian Rowan"
+    "David Mcintyre"
    ]
   },
   {
@@ -8491,6 +8491,472 @@
    "subs": [
     "Michael Dombrowiecki",
     "Sarah Nazario"
+   ]
+  },
+  {
+   "result": "home",
+   "week": 2,
+   "home": "Flemington Blue",
+   "away": "Stelton Sports",
+   "time": "2026-08-29T12:00:00",
+   "complete": true,
+   "homePoints": 626,
+   "awayPoints": 595,
+   "homeGW": 20,
+   "awayGW": 12,
+   "games": [
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Susan Ackley",
+      "Simon Perry"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Carol Mastroianni",
+      "Tom Maley"
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Roseann Catania",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Sue Johnson",
+      "Art Muth"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Jay Zeng"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Susan Ackley",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Mei Li"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Amy Johnson",
+      "Sue Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Simon Perry",
+      "Tom Maley"
+     ],
+     "a": [
+      "Jay Zeng",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Marc Friedman",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Lei Dong",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Susan Ackley",
+      "Simon Perry"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Roseann Catania",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Mei Li",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Sue Johnson",
+      "Art Muth"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Amy Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Ping Yang",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Susan Ackley",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Rui Zhang",
+      "June Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Roseann Catania",
+      "Sue Johnson"
+     ],
+     "a": [
+      "Mei Li",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Simon Perry",
+      "Tom Maley"
+     ],
+     "a": [
+      "Jay Zeng",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "Art Muth",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Susan Ackley",
+      "Tom Maley"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Carol Mastroianni",
+      "Simon Perry"
+     ],
+     "a": [
+      "Mei Li",
+      "Jay Zeng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Amy Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Sue Johnson",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Susan Ackley",
+      "Amy Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Jennifer Qian"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Roseann Catania",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Rui Zhang",
+      "Ann Betterton"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Tom Maley",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Jay Zeng",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Art Muth",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Jim Peng",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
+     "h": [
+      "Carol Mastroianni",
+      "Simon Perry"
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Amy Johnson",
+      "Tom Maley"
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Sue Johnson",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Ping Yang",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Roseann Catania",
+      "Art Muth"
+     ],
+     "a": [
+      "June Lee",
+      "Jay Zeng"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Susan Ackley",
+      "Amy Johnson"
+     ],
+     "a": [
+      "June Lee",
+      "Ping Yang"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
+     "h": [
+      "Roseann Catania",
+      "Carol Mastroianni"
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Rui Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Simon Perry",
+      "Marc Friedman"
+     ],
+     "a": [
+      "Jim Peng",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Art Muth",
+      "Jorge Diaz"
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    }
+   ],
+   "subs": [
+    "Simon Perry",
+    "Roseann Catania"
    ]
   },
   {
@@ -8965,237 +9431,41 @@
   {
    "result": "home",
    "week": 2,
-   "home": "Flemington Blue",
-   "away": "Stelton Sports",
-   "time": "2026-08-29T12:00:00",
+   "home": "ACE Moorestown",
+   "away": "APC Garden State",
+   "time": "2026-08-29T14:00:00",
    "complete": true,
-   "homePoints": 626,
-   "awayPoints": 595,
-   "homeGW": 20,
-   "awayGW": 12,
+   "homePoints": 665,
+   "awayPoints": 431,
+   "homeGW": 30,
+   "awayGW": 2,
    "games": [
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 17,
-     "h": [
-      "Susan Ackley",
-      "Simon Perry"
-     ],
-     "a": [
-      "Jennifer Qian",
-      "Liangang Liu"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Carol Mastroianni",
-      "Tom Maley"
-     ],
-     "a": [
-      "Mei Li",
-      "Lei Dong"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Roseann Catania",
-      "Marc Friedman"
-     ],
-     "a": [
-      "Rui Zhang",
-      "Mengchu Zhou"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Sue Johnson",
-      "Art Muth"
-     ],
-     "a": [
-      "Ann Betterton",
-      "Jay Zeng"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Susan Ackley",
-      "Carol Mastroianni"
-     ],
-     "a": [
-      "Jennifer Qian",
-      "Mei Li"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Amy Johnson",
-      "Sue Johnson"
-     ],
-     "a": [
-      "June Lee",
-      "Ping Yang"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Simon Perry",
-      "Tom Maley"
-     ],
-     "a": [
-      "Jay Zeng",
-      "Jim Peng"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Marc Friedman",
-      "Jorge Diaz"
-     ],
-     "a": [
-      "Lei Dong",
-      "Mengchu Zhou"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Susan Ackley",
-      "Simon Perry"
-     ],
-     "a": [
-      "Ann Betterton",
-      "Liangang Liu"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Roseann Catania",
-      "Marc Friedman"
-     ],
-     "a": [
-      "Mei Li",
-      "Mengchu Zhou"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Sue Johnson",
-      "Art Muth"
-     ],
-     "a": [
-      "Rui Zhang",
-      "Lei Dong"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
      "as": 16,
      "h": [
-      "Amy Johnson",
-      "Jorge Diaz"
+      "Patricia Boyle",
+      "Christopher Boyle"
      ],
      "a": [
-      "Ping Yang",
-      "Jim Peng"
+      "Laura Sweet",
+      "John Darrah"
      ]
     },
     {
-     "t": "female",
+     "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 19,
+     "as": 8,
      "h": [
-      "Susan Ackley",
-      "Carol Mastroianni"
+      "Kate Siedell",
+      "Marc Pellicane"
      ],
      "a": [
-      "Rui Zhang",
-      "June Lee"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Roseann Catania",
-      "Sue Johnson"
-     ],
-     "a": [
-      "Mei Li",
-      "Ping Yang"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Simon Perry",
-      "Tom Maley"
-     ],
-     "a": [
-      "Jay Zeng",
-      "Jim Peng"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Art Muth",
-      "Marc Friedman"
-     ],
-     "a": [
-      "Lei Dong",
-      "Liangang Liu"
+      "Kelly Dalsey",
+      "Derek Livingston"
      ]
     },
     {
@@ -9204,12 +9474,222 @@
      "hs": 21,
      "as": 11,
      "h": [
-      "Susan Ackley",
-      "Tom Maley"
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
-      "Jennifer Qian",
-      "Liangang Liu"
+      "Kerry Gray-Style",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Sandy Alkins",
+      "Marc Harden"
+     ],
+     "a": [
+      "Amy Maussner",
+      "Stepan Nevshehirlian"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Kate Siedell",
+      "Patricia Boyle"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Kerry Gray-Style"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Pam Boyd",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Amy Maussner"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Christopher Boyle",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "John Darrah",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 6,
+     "h": [
+      "Marc Harden",
+      "Robert Finley"
+     ],
+     "a": [
+      "Steve Hong",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Kate Siedell",
+      "Marc Harden"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Patricia Boyle",
+      "Robert Finley"
+     ],
+     "a": [
+      "Kerry Gray-Style",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Pam Boyd",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Stepan Nevshehirlian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Sandy Alkins",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Andrew Fleischer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Kate Siedell",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Laura Sweet",
+      "Kelly Dalsey"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Patricia Boyle",
+      "Pam Boyd"
+     ],
+     "a": [
+      "Amy Maussner",
+      "Kerry Gray-Style"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Marc Harden",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Tim Bruno",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Robert Finley",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Andrew Fleischer",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Patricia Boyle",
+      "Christopher Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Sandy Alkins",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "John Darrah"
      ]
     },
     {
@@ -9218,138 +9698,96 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Carol Mastroianni",
-      "Simon Perry"
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
-      "Mei Li",
-      "Jay Zeng"
+      "Amy Maussner",
+      "Andrew Fleischer"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 17,
-     "as": 21,
+     "hs": 21,
+     "as": 7,
      "h": [
-      "Amy Johnson",
-      "Jorge Diaz"
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
-      "Rui Zhang",
-      "Lei Dong"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Sue Johnson",
-      "Marc Friedman"
-     ],
-     "a": [
-      "Ann Betterton",
-      "Jim Peng"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Susan Ackley",
-      "Amy Johnson"
-     ],
-     "a": [
-      "June Lee",
-      "Jennifer Qian"
+      "Laura Sweet",
+      "Stepan Nevshehirlian"
      ]
     },
     {
      "t": "female",
      "ff": 0,
      "hs": 21,
-     "as": 16,
+     "as": 12,
      "h": [
-      "Roseann Catania",
-      "Carol Mastroianni"
+      "Kate Siedell",
+      "Patricia Boyle"
      ],
      "a": [
-      "Rui Zhang",
-      "Ann Betterton"
+      "Kerry Gray-Style",
+      "Kelly Dalsey"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Pam Boyd",
+      "Sandy Alkins"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Amy Maussner"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Christopher Boyle",
+      "Robert Finley"
+     ],
+     "a": [
+      "John Darrah",
+      "Derek Livingston"
      ]
     },
     {
      "t": "male",
      "ff": 0,
      "hs": 21,
-     "as": 15,
+     "as": 14,
      "h": [
-      "Tom Maley",
-      "Marc Friedman"
+      "Marc Pellicane",
+      "Marc Harden"
      ],
      "a": [
-      "Jay Zeng",
-      "Mengchu Zhou"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Art Muth",
-      "Jorge Diaz"
-     ],
-     "a": [
-      "Jim Peng",
-      "Liangang Liu"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 26,
-     "as": 24,
-     "h": [
-      "Carol Mastroianni",
-      "Simon Perry"
-     ],
-     "a": [
-      "Ann Betterton",
-      "Liangang Liu"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Amy Johnson",
-      "Tom Maley"
-     ],
-     "a": [
-      "Mei Li",
-      "Lei Dong"
+      "Stepan Nevshehirlian",
+      "Steve Hong"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 16,
+     "as": 8,
      "h": [
-      "Sue Johnson",
-      "Jorge Diaz"
+      "Kate Siedell",
+      "Christopher Boyle"
      ],
      "a": [
-      "Ping Yang",
-      "Mengchu Zhou"
+      "Laura Sweet",
+      "Tim Bruno"
      ]
     },
     {
@@ -9358,74 +9796,103 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Roseann Catania",
-      "Art Muth"
+      "Pam Boyd",
+      "Marc Harden"
      ],
      "a": [
-      "June Lee",
-      "Jay Zeng"
+      "Kerry Gray-Style",
+      "Steve Hong"
      ]
     },
     {
-     "t": "female",
+     "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 19,
+     "as": 14,
      "h": [
-      "Susan Ackley",
-      "Amy Johnson"
+      "Patricia Boyle",
+      "Marc Pellicane"
      ],
      "a": [
-      "June Lee",
-      "Ping Yang"
+      "Amy Maussner",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
+     "h": [
+      "Sandy Alkins",
+      "Robert Finley"
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Andrew Fleischer"
      ]
     },
     {
      "t": "female",
-     "ff": 0,
-     "hs": 24,
-     "as": 22,
-     "h": [
-      "Roseann Catania",
-      "Carol Mastroianni"
-     ],
-     "a": [
-      "Jennifer Qian",
-      "Rui Zhang"
-     ]
-    },
-    {
-     "t": "male",
      "ff": 0,
      "hs": 21,
      "as": 16,
      "h": [
-      "Simon Perry",
-      "Marc Friedman"
+      "Kate Siedell",
+      "Sandy Alkins"
      ],
      "a": [
-      "Jim Peng",
-      "Mengchu Zhou"
+      "Laura Sweet",
+      "Lisa Loeber"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Pam Boyd",
+      "Patricia Boyle"
+     ],
+     "a": [
+      "Kelly Dalsey",
+      "Kerry Gray-Style"
      ]
     },
     {
      "t": "male",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "Art Muth",
-      "Jorge Diaz"
+      "Marc Harden",
+      "Christopher Boyle"
      ],
      "a": [
-      "Lei Dong",
-      "Liangang Liu"
+      "Stepan Nevshehirlian",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Robert Finley",
+      "Marc Pellicane"
+     ],
+     "a": [
+      "Derek Livingston",
+      "Steve Hong"
      ]
     }
    ],
    "subs": [
-    "Simon Perry",
-    "Roseann Catania"
+    "Marc Pellicane",
+    "Christopher Boyle",
+    "Amy Maussner"
    ]
   },
   {
@@ -9890,473 +10357,6 @@
     }
    ],
    "subs": []
-  },
-  {
-   "result": "home",
-   "week": 2,
-   "home": "ACE Moorestown",
-   "away": "APC Garden State",
-   "time": "2026-08-29T14:00:00",
-   "complete": true,
-   "homePoints": 665,
-   "awayPoints": 431,
-   "homeGW": 30,
-   "awayGW": 2,
-   "games": [
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Patricia Boyle",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Laura Sweet",
-      "John Darrah"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 8,
-     "h": [
-      "Kate Siedell",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Kelly Dalsey",
-      "Derek Livingston"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Pam Boyd",
-      "Robert Finley"
-     ],
-     "a": [
-      "Kerry Gray-Style",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Sandy Alkins",
-      "Marc Harden"
-     ],
-     "a": [
-      "Amy Maussner",
-      "Stepan Nevshehirlian"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Kate Siedell",
-      "Patricia Boyle"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Kerry Gray-Style"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Pam Boyd",
-      "Sandy Alkins"
-     ],
-     "a": [
-      "Lisa Loeber",
-      "Amy Maussner"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Christopher Boyle",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "John Darrah",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 6,
-     "h": [
-      "Marc Harden",
-      "Robert Finley"
-     ],
-     "a": [
-      "Steve Hong",
-      "Andrew Fleischer"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Kate Siedell",
-      "Marc Harden"
-     ],
-     "a": [
-      "Lisa Loeber",
-      "Derek Livingston"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Patricia Boyle",
-      "Robert Finley"
-     ],
-     "a": [
-      "Kerry Gray-Style",
-      "John Darrah"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Pam Boyd",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Kelly Dalsey",
-      "Stepan Nevshehirlian"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Sandy Alkins",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Andrew Fleischer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Kate Siedell",
-      "Sandy Alkins"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Kelly Dalsey"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Patricia Boyle",
-      "Pam Boyd"
-     ],
-     "a": [
-      "Amy Maussner",
-      "Kerry Gray-Style"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Marc Harden",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Tim Bruno",
-      "Steve Hong"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Robert Finley",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Andrew Fleischer",
-      "Derek Livingston"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Patricia Boyle",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Kelly Dalsey",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Sandy Alkins",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Lisa Loeber",
-      "John Darrah"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Pam Boyd",
-      "Robert Finley"
-     ],
-     "a": [
-      "Amy Maussner",
-      "Andrew Fleischer"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 7,
-     "h": [
-      "Kate Siedell",
-      "Marc Harden"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Stepan Nevshehirlian"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Kate Siedell",
-      "Patricia Boyle"
-     ],
-     "a": [
-      "Kerry Gray-Style",
-      "Kelly Dalsey"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Pam Boyd",
-      "Sandy Alkins"
-     ],
-     "a": [
-      "Lisa Loeber",
-      "Amy Maussner"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Christopher Boyle",
-      "Robert Finley"
-     ],
-     "a": [
-      "John Darrah",
-      "Derek Livingston"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Marc Pellicane",
-      "Marc Harden"
-     ],
-     "a": [
-      "Stepan Nevshehirlian",
-      "Steve Hong"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 8,
-     "h": [
-      "Kate Siedell",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Pam Boyd",
-      "Marc Harden"
-     ],
-     "a": [
-      "Kerry Gray-Style",
-      "Steve Hong"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Patricia Boyle",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Amy Maussner",
-      "John Darrah"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 9,
-     "h": [
-      "Sandy Alkins",
-      "Robert Finley"
-     ],
-     "a": [
-      "Lisa Loeber",
-      "Andrew Fleischer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Kate Siedell",
-      "Sandy Alkins"
-     ],
-     "a": [
-      "Laura Sweet",
-      "Lisa Loeber"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Pam Boyd",
-      "Patricia Boyle"
-     ],
-     "a": [
-      "Kelly Dalsey",
-      "Kerry Gray-Style"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Marc Harden",
-      "Christopher Boyle"
-     ],
-     "a": [
-      "Stepan Nevshehirlian",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 11,
-     "h": [
-      "Robert Finley",
-      "Marc Pellicane"
-     ],
-     "a": [
-      "Derek Livingston",
-      "Steve Hong"
-     ]
-    }
-   ],
-   "subs": [
-    "Marc Pellicane",
-    "Christopher Boyle",
-    "Amy Maussner"
-   ]
   },
   {
    "result": "home",
@@ -11303,16 +11303,16 @@
   {
    "result": null,
    "week": 5,
-   "home": "Flemington Blue",
-   "away": "Premiere",
+   "home": "Allstar Pickler",
+   "away": "Stelton Sports",
    "time": "2026-09-19T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 5,
-   "home": "Allstar Pickler",
-   "away": "Stelton Sports",
+   "home": "Flemington Blue",
+   "away": "Premiere",
    "time": "2026-09-19T12:00:00",
    "complete": false
   },
@@ -11327,16 +11327,16 @@
   {
    "result": null,
    "week": 5,
-   "home": "ACE Moorestown",
-   "away": "Bounce Malvern Boom",
+   "home": "Pickle Place",
+   "away": "Flemington Green",
    "time": "2026-09-19T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 5,
-   "home": "Pickle Place",
-   "away": "Flemington Green",
+   "home": "ACE Moorestown",
+   "away": "Bounce Malvern Boom",
    "time": "2026-09-19T14:00:00",
    "complete": false
   },
@@ -11383,16 +11383,16 @@
   {
    "result": null,
    "week": 6,
-   "home": "Premiere",
-   "away": "Pickle Place",
+   "home": "Stelton Sports",
+   "away": "Bounce Malvern Boom",
    "time": "2026-09-27T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 6,
-   "home": "Stelton Sports",
-   "away": "Bounce Malvern Boom",
+   "home": "Premiere",
+   "away": "Pickle Place",
    "time": "2026-09-27T12:00:00",
    "complete": false
   },
@@ -11415,16 +11415,16 @@
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Palace",
-   "away": "ACE Moorestown",
+   "home": "Jersey Pickleball Club",
+   "away": "Bounce Malvern Black",
    "time": "2026-09-27T18:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 6,
-   "home": "Jersey Pickleball Club",
-   "away": "Bounce Malvern Black",
+   "home": "Pickleball Palace",
+   "away": "ACE Moorestown",
    "time": "2026-09-27T18:00:00",
    "complete": false
   },
@@ -11447,16 +11447,16 @@
   {
    "result": null,
    "week": 7,
-   "home": "Pickleball Palace",
-   "away": "Flemington Blue",
+   "home": "Flemington Green",
+   "away": "ACE Moorestown",
    "time": "2026-10-03T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 7,
-   "home": "Flemington Green",
-   "away": "ACE Moorestown",
+   "home": "Pickleball Palace",
+   "away": "Flemington Blue",
    "time": "2026-10-03T12:00:00",
    "complete": false
   },
@@ -11487,14 +11487,6 @@
   {
    "result": null,
    "week": 8,
-   "home": "Premiere",
-   "away": "Stelton Sports",
-   "time": "2026-10-10T12:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
    "home": "Flemington Blue",
    "away": "Pickleball Palace",
    "time": "2026-10-10T12:00:00",
@@ -11503,8 +11495,16 @@
   {
    "result": null,
    "week": 8,
-   "home": "Jersey Pickleball Club",
-   "away": "Allstar Pickler",
+   "home": "Premiere",
+   "away": "Stelton Sports",
+   "time": "2026-10-10T12:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
+   "home": "Pickle Place",
+   "away": "Bounce Malvern Black",
    "time": "2026-10-10T14:00:00",
    "complete": false
   },
@@ -11519,17 +11519,25 @@
   {
    "result": null,
    "week": 8,
-   "home": "Pickle Place",
-   "away": "Bounce Malvern Black",
+   "home": "Bounce Malvern Boom",
+   "away": "APC Garden State",
    "time": "2026-10-10T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 8,
-   "home": "Bounce Malvern Boom",
-   "away": "APC Garden State",
+   "home": "Jersey Pickleball Club",
+   "away": "Allstar Pickler",
    "time": "2026-10-10T14:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
+   "home": "Pickleball Palace",
+   "away": "Premiere",
+   "time": "2026-10-17T12:00:00",
    "complete": false
   },
   {
@@ -11551,14 +11559,6 @@
   {
    "result": null,
    "week": 9,
-   "home": "Pickleball Palace",
-   "away": "Premiere",
-   "time": "2026-10-17T12:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
    "home": "APC Garden State",
    "away": "Pickle Place",
    "time": "2026-10-17T13:00:00",
@@ -11567,16 +11567,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "Stelton Sports",
-   "away": "Jersey Pickleball Club",
+   "home": "Bounce Malvern Black",
+   "away": "ACE Moorestown",
    "time": "2026-10-17T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 9,
-   "home": "Bounce Malvern Black",
-   "away": "ACE Moorestown",
+   "home": "Stelton Sports",
+   "away": "Jersey Pickleball Club",
    "time": "2026-10-17T14:00:00",
    "complete": false
   },
@@ -11591,16 +11591,16 @@
   {
    "result": null,
    "week": 10,
-   "home": "APC Garden State",
-   "away": "Bounce Malvern Black",
+   "home": "Premiere",
+   "away": "Flemington Blue",
    "time": "2026-10-24T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 10,
-   "home": "Premiere",
-   "away": "Flemington Blue",
+   "home": "APC Garden State",
+   "away": "Bounce Malvern Black",
    "time": "2026-10-24T12:00:00",
    "complete": false
   },
@@ -11623,16 +11623,16 @@
   {
    "result": null,
    "week": 10,
-   "home": "Jersey Pickleball Club",
-   "away": "Pickleball Palace",
+   "home": "Stelton Sports",
+   "away": "Allstar Pickler",
    "time": "2026-10-24T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 10,
-   "home": "Stelton Sports",
-   "away": "Allstar Pickler",
+   "home": "Jersey Pickleball Club",
+   "away": "Pickleball Palace",
    "time": "2026-10-24T14:00:00",
    "complete": false
   },
@@ -11647,8 +11647,8 @@
   {
    "result": null,
    "week": 10,
-   "home": "Bounce Malvern Boom",
-   "away": "Flemington Blue",
+   "home": "APC Garden State",
+   "away": "Stelton Sports",
    "time": "2026-10-25T12:00:00",
    "complete": false
   },
@@ -11663,8 +11663,8 @@
   {
    "result": null,
    "week": 10,
-   "home": "APC Garden State",
-   "away": "Stelton Sports",
+   "home": "Bounce Malvern Boom",
+   "away": "Flemington Blue",
    "time": "2026-10-25T12:00:00",
    "complete": false
   },
@@ -11687,8 +11687,8 @@
   {
    "result": null,
    "week": 11,
-   "home": "Allstar Pickler",
-   "away": "Premiere",
+   "home": "Flemington Green",
+   "away": "APC Garden State",
    "time": "2026-10-31T12:00:00",
    "complete": false
   },
@@ -11703,8 +11703,8 @@
   {
    "result": null,
    "week": 11,
-   "home": "Flemington Green",
-   "away": "APC Garden State",
+   "home": "Allstar Pickler",
+   "away": "Premiere",
    "time": "2026-10-31T12:00:00",
    "complete": false
   },
@@ -11719,16 +11719,16 @@
   {
    "result": null,
    "week": 11,
-   "home": "ACE Moorestown",
-   "away": "Pickle Place",
+   "home": "Bounce Malvern Black",
+   "away": "Bounce Malvern Boom",
    "time": "2026-10-31T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 11,
-   "home": "Bounce Malvern Black",
-   "away": "Bounce Malvern Boom",
+   "home": "ACE Moorestown",
+   "away": "Pickle Place",
    "time": "2026-10-31T14:00:00",
    "complete": false
   },
@@ -11759,8 +11759,8 @@
   {
    "result": null,
    "week": 12,
-   "home": "Bounce Malvern Boom",
-   "away": "Pickle Place",
+   "home": "Jersey Pickleball Club",
+   "away": "Premiere",
    "time": "2026-11-07T14:00:00",
    "complete": false
   },
@@ -11775,8 +11775,8 @@
   {
    "result": null,
    "week": 12,
-   "home": "Jersey Pickleball Club",
-   "away": "Premiere",
+   "home": "Bounce Malvern Boom",
+   "away": "Pickle Place",
    "time": "2026-11-07T14:00:00",
    "complete": false
   }
@@ -11790,6 +11790,7 @@
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Ed Saxman": "32244c70-6859-44af-a408-8294d65b592d",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",
+  "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "Dottie Kelly": "57a09a98-991d-47a7-a13d-fb2afa6bd8ef",
   "Danny Mellul": "5dccd915-178e-4316-8e9b-e0a3db8edfa9",
   "Kristina Rhodes": "77ecd1c3-b1df-469a-83ba-d12bd56f2c6a",
@@ -11885,7 +11886,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-15T04:08:08.449Z";
+  DATA.meta.asOf = "2026-09-16T22:12:53.518Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

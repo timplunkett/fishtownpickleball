@@ -42960,7 +42960,7 @@
     "lastName": "Qiu",
     "dupr": "175KJ5",
     "duprRating": "4.282",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5477828618,
     "duprProvisional": false
   },
@@ -46327,6 +46327,14 @@
     "firstName": "Christopher",
     "lastName": "Chierchia",
     "dupr": "0Q0MK4",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "4719124e-bbc1-4a42-aa0b-a8159f7778e2",
+    "firstName": "Christopher",
+    "lastName": "Brett",
+    "dupr": "2L9RK7",
     "duprRating": null,
     "lastSeen": "2026-09"
   }

@@ -25,18 +25,6 @@
       "awayName": "Pickleball Lehigh Valley"
     },
     {
-      "matchupId": "bc76e756-94a2-4e15-9d32-19623470ada9",
-      "weekNumber": 1,
-      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-      "homePoints": 421,
-      "awayPoints": 682,
-      "endResult": "away",
-      "scheduledTime": "2026-08-27T12:00:00",
-      "homeName": "Premiere",
-      "awayName": "PKLD"
-    },
-    {
       "matchupId": "77dc5ead-703b-45e2-a0a3-39342760d906",
       "weekNumber": 1,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
@@ -49,16 +37,16 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
-      "matchupId": "9eb50181-b601-4d2f-8b75-31a723145300",
-      "weekNumber": 2,
-      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "homePoints": 509,
-      "awayPoints": 630,
+      "matchupId": "bc76e756-94a2-4e15-9d32-19623470ada9",
+      "weekNumber": 1,
+      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "homePoints": 421,
+      "awayPoints": 682,
       "endResult": "away",
-      "scheduledTime": "2026-09-03T11:00:00",
-      "homeName": "Pickleball Kingdom Hillsborough",
-      "awayName": "Flemington Green"
+      "scheduledTime": "2026-08-27T12:00:00",
+      "homeName": "Premiere",
+      "awayName": "PKLD"
     },
     {
       "matchupId": "8538e94c-3167-4cfd-ab58-5d5b2dbef57b",
@@ -71,6 +59,18 @@
       "scheduledTime": "2026-09-03T11:00:00",
       "homeName": "Pickleball Lehigh Valley",
       "awayName": "Montville"
+    },
+    {
+      "matchupId": "9eb50181-b601-4d2f-8b75-31a723145300",
+      "weekNumber": 2,
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "homePoints": 509,
+      "awayPoints": 630,
+      "endResult": "away",
+      "scheduledTime": "2026-09-03T11:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "Flemington Green"
     },
     {
       "matchupId": "a9714933-b8d7-4fc5-b91f-e750ba7dfe50",
@@ -109,18 +109,6 @@
       "awayName": "Life Time Red Bank"
     },
     {
-      "matchupId": "9b04cc7d-b504-4c98-827b-98c663a54c10",
-      "weekNumber": 3,
-      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 728,
-      "awayPoints": 604,
-      "endResult": "away",
-      "scheduledTime": "2026-09-10T11:00:00",
-      "homeName": "Pickleball Kingdom Hillsborough",
-      "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
       "matchupId": "6771906a-058a-4043-978f-c0f91dd0d997",
       "weekNumber": 3,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
@@ -131,6 +119,18 @@
       "scheduledTime": "2026-09-10T11:00:00",
       "homeName": "Flemington Green",
       "awayName": "Montville"
+    },
+    {
+      "matchupId": "9b04cc7d-b504-4c98-827b-98c663a54c10",
+      "weekNumber": 3,
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 728,
+      "awayPoints": 604,
+      "endResult": "away",
+      "scheduledTime": "2026-09-10T11:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "3fad9557-8ce0-4fbe-a62e-a0ce603b4e3e",
@@ -169,18 +169,6 @@
       "awayName": "PKLD"
     },
     {
-      "matchupId": "6cbd7f78-b08f-459a-ac43-38313429ee3c",
-      "weekNumber": 4,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-17T11:00:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Pickleball Lehigh Valley"
-    },
-    {
       "matchupId": "57c7dd0f-de36-4a3f-a41f-6a9042695d03",
       "weekNumber": 4,
       "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
@@ -191,6 +179,18 @@
       "scheduledTime": "2026-09-17T11:00:00",
       "homeName": "PKLD",
       "awayName": "Flemington Green"
+    },
+    {
+      "matchupId": "6cbd7f78-b08f-459a-ac43-38313429ee3c",
+      "weekNumber": 4,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-17T11:00:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Pickleball Lehigh Valley"
     },
     {
       "matchupId": "0c7be997-0a35-482e-8667-68a5e1094cc3",
@@ -265,18 +265,6 @@
       "awayName": "PKLD"
     },
     {
-      "matchupId": "8f456e6f-54c9-475e-9ba9-6b794a56ec7b",
-      "weekNumber": 5,
-      "homeTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
-      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-24T12:00:00",
-      "homeName": "Pickleball Lehigh Valley",
-      "awayName": "Picklr Newtown"
-    },
-    {
       "matchupId": "801014ef-0e17-46b8-b64e-cd32e02b0b3f",
       "weekNumber": 5,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -287,6 +275,18 @@
       "scheduledTime": "2026-09-24T12:00:00",
       "homeName": "Premiere",
       "awayName": "Pickleball Kingdom Tinton Falls"
+    },
+    {
+      "matchupId": "8f456e6f-54c9-475e-9ba9-6b794a56ec7b",
+      "weekNumber": 5,
+      "homeTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-24T12:00:00",
+      "homeName": "Pickleball Lehigh Valley",
+      "awayName": "Picklr Newtown"
     },
     {
       "matchupId": "96fa82bc-7651-4152-92cc-54077bebb1fe",
@@ -457,16 +457,16 @@
       "awayName": "Life Time Red Bank"
     },
     {
-      "matchupId": "b8205dda-87bc-4bad-a449-5696c26c45f4",
+      "matchupId": "9d9c5ff6-84ed-4e36-9087-be7484ada5be",
       "weekNumber": 8,
-      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-15T11:00:00",
-      "homeName": "Flemington Green",
-      "awayName": "Premiere"
+      "homeName": "Life Time Red Bank",
+      "awayName": "Pickleball Lehigh Valley"
     },
     {
       "matchupId": "a84d8085-6f62-4013-9617-988508ee8c41",
@@ -481,16 +481,16 @@
       "awayName": "PKLD"
     },
     {
-      "matchupId": "9d9c5ff6-84ed-4e36-9087-be7484ada5be",
+      "matchupId": "b8205dda-87bc-4bad-a449-5696c26c45f4",
       "weekNumber": 8,
-      "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-15T11:00:00",
-      "homeName": "Life Time Red Bank",
-      "awayName": "Pickleball Lehigh Valley"
+      "homeName": "Flemington Green",
+      "awayName": "Premiere"
     },
     {
       "matchupId": "d3215d34-7464-4c1b-bfef-d80a7531f7e8",
@@ -517,18 +517,6 @@
       "awayName": "Flemington Blue"
     },
     {
-      "matchupId": "8f8d040d-86b8-469e-9fc8-4764f8e62cde",
-      "weekNumber": 9,
-      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-22T11:00:00",
-      "homeName": "Flemington Green",
-      "awayName": "Pickleball Kingdom Hillsborough"
-    },
-    {
       "matchupId": "0caccab1-1784-458d-a510-a69b78136c11",
       "weekNumber": 9,
       "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
@@ -539,6 +527,18 @@
       "scheduledTime": "2026-10-22T11:00:00",
       "homeName": "Montville",
       "awayName": "Pickleball Lehigh Valley"
+    },
+    {
+      "matchupId": "8f8d040d-86b8-469e-9fc8-4764f8e62cde",
+      "weekNumber": 9,
+      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-22T11:00:00",
+      "homeName": "Flemington Green",
+      "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
       "matchupId": "85dd92fa-979d-447f-b88b-2e3266ec040d",
@@ -565,18 +565,6 @@
       "awayName": "Picklr Newtown"
     },
     {
-      "matchupId": "5a6a65b4-91c9-48da-9bb5-586b195c77f3",
-      "weekNumber": 9,
-      "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T09:00:00",
-      "homeName": "PKLD",
-      "awayName": "Pickleball Lehigh Valley"
-    },
-    {
       "matchupId": "45356be3-342a-4797-ae95-884fc08886dc",
       "weekNumber": 9,
       "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
@@ -587,6 +575,18 @@
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "Life Time Red Bank",
       "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
+      "matchupId": "5a6a65b4-91c9-48da-9bb5-586b195c77f3",
+      "weekNumber": 9,
+      "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T09:00:00",
+      "homeName": "PKLD",
+      "awayName": "Pickleball Lehigh Valley"
     },
     {
       "matchupId": "87f54a04-4179-453d-8114-1acaecf76edf",
@@ -601,18 +601,6 @@
       "awayName": "Montville"
     },
     {
-      "matchupId": "ff2ee275-19d5-496b-82bd-1b4d9d9b6640",
-      "weekNumber": 9,
-      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T15:00:00",
-      "homeName": "Premiere",
-      "awayName": "Flemington Blue"
-    },
-    {
       "matchupId": "3e7064c2-f824-472a-86d5-e57ede7ed62d",
       "weekNumber": 9,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
@@ -623,6 +611,18 @@
       "scheduledTime": "2026-10-25T15:00:00",
       "homeName": "Picklr Newtown",
       "awayName": "Flemington Green"
+    },
+    {
+      "matchupId": "ff2ee275-19d5-496b-82bd-1b4d9d9b6640",
+      "weekNumber": 9,
+      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T15:00:00",
+      "homeName": "Premiere",
+      "awayName": "Flemington Blue"
     },
     {
       "matchupId": "5040ac93-487c-46ae-b143-ff71dc429d5e",
@@ -685,6 +685,18 @@
       "awayName": "Premiere"
     },
     {
+      "matchupId": "7342b8b0-e7ca-4aad-bfaf-aa89ed1185d7",
+      "weekNumber": 11,
+      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-05T11:00:00",
+      "homeName": "Flemington Green",
+      "awayName": "Pickleball Lehigh Valley"
+    },
+    {
       "matchupId": "7e19a18b-4cd9-4e65-a008-79970a1a19de",
       "weekNumber": 11,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -707,18 +719,6 @@
       "scheduledTime": "2026-11-05T11:00:00",
       "homeName": "PKLD",
       "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
-      "matchupId": "7342b8b0-e7ca-4aad-bfaf-aa89ed1185d7",
-      "weekNumber": 11,
-      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-05T11:00:00",
-      "homeName": "Flemington Green",
-      "awayName": "Pickleball Lehigh Valley"
     },
     {
       "matchupId": "fa9510c5-610f-4a97-a268-fbbc5cf3deb0",

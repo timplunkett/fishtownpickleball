@@ -5121,19 +5121,6 @@
    "bId": "b5c2a59a-34f6-4b86-ac00-0a2d46082870"
   },
   {
-   "a": "Olga Turova",
-   "b": "Linda Johns",
-   "team": "PKLD",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": 0.2,
-   "avgActual": 0,
-   "avgExpected": -0.3,
-   "aId": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-   "bId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73"
-  },
-  {
    "a": "Suzi French",
    "b": "Jacqueline Hillgrube",
    "team": "Picklr Newtown",
@@ -5145,6 +5132,19 @@
    "avgExpected": 1.2,
    "aId": "0f84aab6-2ae2-4a0b-ba2f-cd31c57fa7d7",
    "bId": "d74868c1-242c-4230-8117-fbbd3c41e250"
+  },
+  {
+   "a": "Olga Turova",
+   "b": "Linda Johns",
+   "team": "PKLD",
+   "n": 6,
+   "w": 3,
+   "l": 3,
+   "synergy": 0.2,
+   "avgActual": 0,
+   "avgExpected": -0.3,
+   "aId": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+   "bId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73"
   },
   {
    "a": "Meghan Klein",
@@ -5238,19 +5238,6 @@
    "bId": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087"
   },
   {
-   "a": "Linda Johns",
-   "b": "Maureen Bruno",
-   "team": "PKLD",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": -0.1,
-   "avgActual": 3.3,
-   "avgExpected": 3.4,
-   "aId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-   "bId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7"
-  },
-  {
    "a": "Melissa Mcconnell",
    "b": "Karyn Jarmer",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -5288,6 +5275,19 @@
    "avgExpected": 3.5,
    "aId": "301def1b-f1d0-410c-aba8-13c15d2e091e",
    "bId": "db4adc99-5a82-4911-90f5-3624fda60ee3"
+  },
+  {
+   "a": "Linda Johns",
+   "b": "Maureen Bruno",
+   "team": "PKLD",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": -0.1,
+   "avgActual": 3.3,
+   "avgExpected": 3.4,
+   "aId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+   "bId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7"
   },
   {
    "a": "Ly Kim",
@@ -5329,32 +5329,6 @@
    "bId": "33f1ae41-08db-4067-b5f5-f9324faf93f0"
   },
   {
-   "a": "Marina Volpe",
-   "b": "Maureen Bruno",
-   "team": "PKLD",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": 1.4,
-   "avgExpected": 1.7,
-   "aId": "cb063892-906f-4769-8815-2a87da5bf426",
-   "bId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7"
-  },
-  {
-   "a": "Linda Seemann",
-   "b": "Kayla Gipson",
-   "team": "PKLD",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": 1,
-   "avgExpected": 1.3,
-   "aId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-   "bId": "cac68244-9c27-49bf-9354-1e9282427426"
-  },
-  {
    "a": "Suzi French",
    "b": "Heather Waters",
    "team": "Picklr Newtown",
@@ -5379,6 +5353,32 @@
    "avgExpected": 1.9,
    "aId": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
    "bId": "cc2a9e08-b163-4553-856f-c20895cb9930"
+  },
+  {
+   "a": "Marina Volpe",
+   "b": "Maureen Bruno",
+   "team": "PKLD",
+   "n": 5,
+   "w": 3,
+   "l": 2,
+   "synergy": -0.2,
+   "avgActual": 1.4,
+   "avgExpected": 1.7,
+   "aId": "cb063892-906f-4769-8815-2a87da5bf426",
+   "bId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7"
+  },
+  {
+   "a": "Linda Seemann",
+   "b": "Kayla Gipson",
+   "team": "PKLD",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.2,
+   "avgActual": 1,
+   "avgExpected": 1.3,
+   "aId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+   "bId": "cac68244-9c27-49bf-9354-1e9282427426"
   },
   {
    "a": "Angie Ratkowitz",
@@ -5446,19 +5446,6 @@
    "bId": "892b68ae-7d54-456c-82f6-f2514e107d16"
   },
   {
-   "a": "Linda Johns",
-   "b": "Marina Volpe",
-   "team": "PKLD",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": -0.4,
-   "avgActual": -3.2,
-   "avgExpected": -2.4,
-   "aId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-   "bId": "cb063892-906f-4769-8815-2a87da5bf426"
-  },
-  {
    "a": "Esha Gajjar",
    "b": "Lori Wild",
    "team": "Picklr Newtown",
@@ -5470,6 +5457,19 @@
    "avgExpected": 2.9,
    "aId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
    "bId": "b1066a81-7537-4512-939d-5acbf11ef9aa"
+  },
+  {
+   "a": "Linda Johns",
+   "b": "Marina Volpe",
+   "team": "PKLD",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": -0.4,
+   "avgActual": -3.2,
+   "avgExpected": -2.4,
+   "aId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+   "bId": "cb063892-906f-4769-8815-2a87da5bf426"
   },
   {
    "a": "Hope Lo",
@@ -5511,19 +5511,6 @@
    "bId": "c9f10502-3413-4189-87c9-d05ec7accae3"
   },
   {
-   "a": "Karen Pisano",
-   "b": "Denise Bonagura",
-   "team": "Premiere",
-   "n": 4,
-   "w": 0,
-   "l": 4,
-   "synergy": -0.5,
-   "avgActual": -13,
-   "avgExpected": -12,
-   "aId": "3665068b-4c6d-49b2-9cd4-e3148c984ec7",
-   "bId": "a188ab11-2879-4292-95dd-6bdd7858b7b9"
-  },
-  {
    "a": "Jacqueline Ho",
    "b": "Lori Wild",
    "team": "Picklr Newtown",
@@ -5535,6 +5522,19 @@
    "avgExpected": -4.2,
    "aId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
    "bId": "b1066a81-7537-4512-939d-5acbf11ef9aa"
+  },
+  {
+   "a": "Karen Pisano",
+   "b": "Denise Bonagura",
+   "team": "Premiere",
+   "n": 4,
+   "w": 0,
+   "l": 4,
+   "synergy": -0.5,
+   "avgActual": -13,
+   "avgExpected": -12,
+   "aId": "3665068b-4c6d-49b2-9cd4-e3148c984ec7",
+   "bId": "a188ab11-2879-4292-95dd-6bdd7858b7b9"
   },
   {
    "a": "Melissa Mcconnell",
@@ -5602,19 +5602,6 @@
    "bId": "d74868c1-242c-4230-8117-fbbd3c41e250"
   },
   {
-   "a": "Eileen Clark",
-   "b": "Kara Chubrik",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -0.8,
-   "avgActual": -7.3,
-   "avgExpected": -5.5,
-   "aId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
-   "bId": "6848f02a-1acc-47f8-8743-3525311031a9"
-  },
-  {
    "a": "Jenna Haas",
    "b": "Trena Hahn",
    "team": "Pickleball Lehigh Valley",
@@ -5626,6 +5613,19 @@
    "avgExpected": -2.4,
    "aId": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
    "bId": "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a"
+  },
+  {
+   "a": "Eileen Clark",
+   "b": "Kara Chubrik",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -0.8,
+   "avgActual": -7.3,
+   "avgExpected": -5.5,
+   "aId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
+   "bId": "6848f02a-1acc-47f8-8743-3525311031a9"
   },
   {
    "a": "Caroline Kinlin",
@@ -5693,19 +5693,6 @@
    "bId": "fc2f208d-f6cc-4d5c-98d8-3f40e5856576"
   },
   {
-   "a": "Linda Seemann",
-   "b": "Marina Volpe",
-   "team": "PKLD",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": -1,
-   "avgActual": 2.3,
-   "avgExpected": 4.8,
-   "aId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-   "bId": "cb063892-906f-4769-8815-2a87da5bf426"
-  },
-  {
    "a": "Chiti Joshi",
    "b": "Rachel Mcgowan",
    "team": "Picklr Newtown",
@@ -5717,6 +5704,19 @@
    "avgExpected": 0,
    "aId": "86d3ef72-f614-40a4-994d-836a87d21e9e",
    "bId": "f1291bb6-abec-48c1-9730-68eaeead8426"
+  },
+  {
+   "a": "Linda Seemann",
+   "b": "Marina Volpe",
+   "team": "PKLD",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -1,
+   "avgActual": 2.3,
+   "avgExpected": 4.8,
+   "aId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+   "bId": "cb063892-906f-4769-8815-2a87da5bf426"
   },
   {
    "a": "Nancy Ciappina",
@@ -5784,19 +5784,6 @@
    "bId": "a188ab11-2879-4292-95dd-6bdd7858b7b9"
   },
   {
-   "a": "Nikki Nigro",
-   "b": "Kara Chubrik",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -1.4,
-   "avgActual": -7,
-   "avgExpected": -3.7,
-   "aId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
-   "bId": "6848f02a-1acc-47f8-8743-3525311031a9"
-  },
-  {
    "a": "Ghada Abraham",
    "b": "Nami Huang",
    "team": "Pickleball Lehigh Valley",
@@ -5808,6 +5795,19 @@
    "avgExpected": -4.8,
    "aId": "2ff1b895-1513-4eba-bfb9-3fc61a2d106a",
    "bId": "481c21f0-8481-47e8-9eba-9ab21c167cf4"
+  },
+  {
+   "a": "Nikki Nigro",
+   "b": "Kara Chubrik",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -1.4,
+   "avgActual": -7,
+   "avgExpected": -3.7,
+   "aId": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
+   "bId": "6848f02a-1acc-47f8-8743-3525311031a9"
   },
   {
    "a": "Gina Faccone",
@@ -6773,6 +6773,469 @@
   {
    "result": "away",
    "week": 1,
+   "home": "Picklr Newtown",
+   "away": "Pickleball Kingdom Tinton Falls",
+   "time": "2026-08-27T12:00:00",
+   "complete": true,
+   "homePoints": 608,
+   "awayPoints": 641,
+   "homeGW": 11,
+   "awayGW": 21,
+   "games": [
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Esha Gajjar",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Lori Wild",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Pam Mcdannell",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Suzi French",
+      "Heather Waters"
+     ],
+     "a": [
+      "Susana Palumbo",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
+     "h": [
+      "Esha Gajjar",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Lori Wild",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Virginie Boutin",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Tina Cros",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Chiti Joshi",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Virginie Boutin",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Jacqueline Ho",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
+     "h": [
+      "Suzi French",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Debbie Pall",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Holli Lish",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Chiti Joshi",
+      "Lori Wild"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Virginie Boutin",
+      "Esha Gajjar"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Deborah Muschio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Sulyn Kulick",
+      "Holli Lish"
+     ],
+     "a": [
+      "Tina Cros",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Pam Mcdannell",
+      "Heather Waters"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Virginie Boutin",
+      "Sulyn Kulick"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Esha Gajjar",
+      "Jacqueline Ho"
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Lori Wild",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Suzi French",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Esha Gajjar",
+      "Virginie Boutin"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Rachel Mcgowan",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Lori Wild",
+      "Suzi French"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Heather Waters",
+      "Jacqueline Hillgrube"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Jacqueline Ho",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Debbie Pall"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Esha Gajjar",
+      "Lori Wild"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Suzi French",
+      "Heather Waters"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Virginie Boutin",
+      "Rachel Mcgowan"
+     ],
+     "a": [
+      "Tina Cros",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Lori Wild",
+      "Pam Mcdannell"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Corinne Palma"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Rachel Mcgowan",
+      "Chiti Joshi"
+     ],
+     "a": [
+      "Kathleen Lynch",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Jacqueline Ho",
+      "Esha Gajjar"
+     ],
+     "a": [
+      "Wendi Wolanske",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Holli Lish",
+      "Heather Waters"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Debbie Pall"
+     ]
+    }
+   ],
+   "subs": []
+  },
+  {
+   "result": "away",
+   "week": 1,
    "home": "Premiere",
    "away": "PKLD",
    "time": "2026-08-27T12:00:00",
@@ -7237,112 +7700,42 @@
   },
   {
    "result": "away",
-   "week": 1,
-   "home": "Picklr Newtown",
-   "away": "Pickleball Kingdom Tinton Falls",
-   "time": "2026-08-27T12:00:00",
+   "week": 2,
+   "home": "Pickleball Lehigh Valley",
+   "away": "Montville",
+   "time": "2026-09-03T11:00:00",
    "complete": true,
-   "homePoints": 608,
-   "awayPoints": 641,
-   "homeGW": 11,
-   "awayGW": 21,
+   "homePoints": 436,
+   "awayPoints": 669,
+   "homeGW": 2,
+   "awayGW": 30,
    "games": [
     {
      "t": "female",
      "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Esha Gajjar",
-      "Rachel Mcgowan"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 11,
+     "hs": 13,
      "as": 21,
      "h": [
-      "Lori Wild",
-      "Jacqueline Ho"
+      "Christine Steigerwalt",
+      "Charlie Trapasso"
      ],
      "a": [
-      "Corinne Palma",
-      "Virginia Kenny"
+      "Vilayvanh Sysounthone",
+      "Joanne Rim"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Pam Mcdannell",
-      "Chiti Joshi"
-     ],
-     "a": [
-      "Melissa Mcconnell",
-      "Karyn Jarmer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 23,
+     "hs": 14,
      "as": 21,
      "h": [
-      "Suzi French",
-      "Heather Waters"
+      "Maureen Murphy",
+      "Denise Stevens"
      ],
      "a": [
-      "Susana Palumbo",
-      "Debbie Pall"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Esha Gajjar",
-      "Rachel Mcgowan"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Lori Wild",
-      "Jacqueline Ho"
-     ],
-     "a": [
-      "Virginia Kenny",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Virginie Boutin",
-      "Jacqueline Hillgrube"
-     ],
-     "a": [
-      "Tina Cros",
-      "Karyn Jarmer"
+      "Jess Cox",
+      "Hope Lo"
      ]
     },
     {
@@ -7351,68 +7744,54 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Chiti Joshi",
-      "Pam Mcdannell"
+      "Jean Dalstad",
+      "Mary Marger"
      ],
      "a": [
-      "Deborah Muschio",
-      "Toni Demaio"
+      "Theresa Corderi",
+      "Ly Kim"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Virginie Boutin",
-      "Sulyn Kulick"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Tina Cros"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 23,
+     "hs": 12,
      "as": 21,
      "h": [
-      "Jacqueline Ho",
-      "Pam Mcdannell"
+      "Ghada Abraham",
+      "Lynn Hauth"
      ],
      "a": [
-      "Wendi Wolanske",
-      "Susana Palumbo"
+      "Janine Thompson",
+      "Angie Ratkowitz"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 22,
-     "as": 24,
-     "h": [
-      "Suzi French",
-      "Jacqueline Hillgrube"
-     ],
-     "a": [
-      "Debbie Pall",
-      "Karyn Jarmer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
+     "hs": 15,
      "as": 21,
      "h": [
-      "Holli Lish",
-      "Rachel Mcgowan"
+      "Maureen Murphy",
+      "Christine Steigerwalt"
      ],
      "a": [
-      "Deborah Muschio",
-      "Toni Demaio"
+      "Vilayvanh Sysounthone",
+      "Rachel Baluyot"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 7,
+     "as": 21,
+     "h": [
+      "Denise Stevens",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Jess Cox",
+      "Joanne Rim"
      ]
     },
     {
@@ -7421,124 +7800,26 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Chiti Joshi",
-      "Lori Wild"
+      "Jenna Haas",
+      "Trena Hahn"
      ],
      "a": [
-      "Amy Wondrack",
-      "Debbie Pall"
+      "Theresa Corderi",
+      "Angie Ratkowitz"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Virginie Boutin",
-      "Esha Gajjar"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Deborah Muschio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
+     "hs": 12,
      "as": 21,
      "h": [
-      "Sulyn Kulick",
-      "Holli Lish"
+      "Nami Huang",
+      "Ghada Abraham"
      ],
      "a": [
-      "Tina Cros",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Pam Mcdannell",
-      "Heather Waters"
-     ],
-     "a": [
-      "Toni Demaio",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Virginie Boutin",
-      "Sulyn Kulick"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Esha Gajjar",
-      "Jacqueline Ho"
-     ],
-     "a": [
-      "Melissa Mcconnell",
-      "Virginia Kenny"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Lori Wild",
-      "Chiti Joshi"
-     ],
-     "a": [
-      "Wendi Wolanske",
-      "Karyn Jarmer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Suzi French",
-      "Jacqueline Hillgrube"
-     ],
-     "a": [
-      "Toni Demaio",
-      "Susana Palumbo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Esha Gajjar",
-      "Virginie Boutin"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Kathleen Lynch"
+      "Cheryl Brodsky",
+      "Debi Mcdonald"
      ]
     },
     {
@@ -7547,40 +7828,26 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Rachel Mcgowan",
-      "Chiti Joshi"
+      "Maureen Murphy",
+      "Jenna Haas"
      ],
      "a": [
-      "Wendi Wolanske",
-      "Virginia Kenny"
+      "Joanne Rim",
+      "Hope Lo"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 17,
+     "hs": 15,
      "as": 21,
      "h": [
-      "Lori Wild",
-      "Suzi French"
+      "Charlie Trapasso",
+      "Sandy Hess"
      ],
      "a": [
-      "Toni Demaio",
-      "Karyn Jarmer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Heather Waters",
-      "Jacqueline Hillgrube"
-     ],
-     "a": [
-      "Deborah Muschio",
-      "Susana Palumbo"
+      "Jess Cox",
+      "Janine Thompson"
      ]
     },
     {
@@ -7589,40 +7856,222 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Jacqueline Ho",
-      "Pam Mcdannell"
+      "Trena Hahn",
+      "Mary Marger"
      ],
      "a": [
-      "Amy Wondrack",
-      "Debbie Pall"
+      "Kumi Dalton",
+      "Ly Kim"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Esha Gajjar",
-      "Lori Wild"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Virginia Kenny"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
+     "hs": 8,
      "as": 21,
      "h": [
-      "Suzi French",
-      "Heather Waters"
+      "Lynn Hauth",
+      "Nami Huang"
      ],
      "a": [
-      "Wendi Wolanske",
-      "Susana Palumbo"
+      "Angie Ratkowitz",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 5,
+     "as": 21,
+     "h": [
+      "Jenna Haas",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Mary Marger",
+      "Denise Stevens"
+     ],
+     "a": [
+      "Jess Cox",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "Sandy Hess",
+      "Christine Steigerwalt"
+     ],
+     "a": [
+      "Rachel Baluyot",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Ghada Abraham",
+      "Lynn Hauth"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Denise Stevens",
+      "Charlie Trapasso"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Angie Ratkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Maureen Murphy",
+      "Trena Hahn"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Hope Lo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Nami Huang",
+      "Ghada Abraham"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Lynn Hauth",
+      "Christine Steigerwalt"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
+     "h": [
+      "Maureen Murphy",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Joanne Rim",
+      "Kumi Dalton"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Mary Marger",
+      "Jenna Haas"
+     ],
+     "a": [
+      "Jess Cox",
+      "Rachel Baluyot"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Lynn Hauth",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Cheryl Brodsky",
+      "Ly Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
+     "h": [
+      "Nami Huang",
+      "Trena Hahn"
+     ],
+     "a": [
+      "Angie Ratkowitz",
+      "Debi Mcdonald"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Jenna Haas",
+      "Jean Dalstad"
+     ],
+     "a": [
+      "Vilayvanh Sysounthone",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Charlie Trapasso",
+      "Sandy Hess"
+     ],
+     "a": [
+      "Jess Cox",
+      "Theresa Corderi"
      ]
     },
     {
@@ -7631,68 +8080,82 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Virginie Boutin",
-      "Rachel Mcgowan"
+      "Trena Hahn",
+      "Ghada Abraham"
      ],
      "a": [
-      "Tina Cros",
-      "Melissa Mcconnell"
+      "Hope Lo",
+      "Kumi Dalton"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 17,
+     "hs": 15,
      "as": 21,
      "h": [
-      "Lori Wild",
-      "Pam Mcdannell"
+      "Mary Marger",
+      "Nami Huang"
      ],
      "a": [
-      "Amy Wondrack",
-      "Corinne Palma"
+      "Rachel Baluyot",
+      "Debi Mcdonald"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 19,
+     "hs": 8,
      "as": 21,
      "h": [
-      "Rachel Mcgowan",
-      "Chiti Joshi"
+      "Maureen Murphy",
+      "Denise Stevens"
      ],
      "a": [
-      "Kathleen Lynch",
-      "Virginia Kenny"
+      "Vilayvanh Sysounthone",
+      "Kumi Dalton"
      ]
     },
     {
      "t": "female",
      "ff": 0,
      "hs": 21,
-     "as": 13,
+     "as": 19,
      "h": [
-      "Jacqueline Ho",
-      "Esha Gajjar"
+      "Mary Marger",
+      "Jean Dalstad"
      ],
      "a": [
-      "Wendi Wolanske",
-      "Tina Cros"
+      "Hope Lo",
+      "Rachel Baluyot"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 17,
+     "hs": 12,
      "as": 21,
      "h": [
-      "Holli Lish",
-      "Heather Waters"
+      "Christine Steigerwalt",
+      "Charlie Trapasso"
      ],
      "a": [
-      "Deborah Muschio",
-      "Debbie Pall"
+      "Joanne Rim",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Trena Hahn",
+      "Jenna Haas"
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Cheryl Brodsky"
      ]
     }
    ],
@@ -8167,469 +8630,6 @@
     "Lynne Silber",
     "Sherry Sili"
    ]
-  },
-  {
-   "result": "away",
-   "week": 2,
-   "home": "Pickleball Lehigh Valley",
-   "away": "Montville",
-   "time": "2026-09-03T11:00:00",
-   "complete": true,
-   "homePoints": 436,
-   "awayPoints": 669,
-   "homeGW": 2,
-   "awayGW": 30,
-   "games": [
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Christine Steigerwalt",
-      "Charlie Trapasso"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Joanne Rim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Denise Stevens"
-     ],
-     "a": [
-      "Jess Cox",
-      "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Jean Dalstad",
-      "Mary Marger"
-     ],
-     "a": [
-      "Theresa Corderi",
-      "Ly Kim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Ghada Abraham",
-      "Lynn Hauth"
-     ],
-     "a": [
-      "Janine Thompson",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Christine Steigerwalt"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Rachel Baluyot"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 7,
-     "as": 21,
-     "h": [
-      "Denise Stevens",
-      "Sandy Hess"
-     ],
-     "a": [
-      "Jess Cox",
-      "Joanne Rim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Jenna Haas",
-      "Trena Hahn"
-     ],
-     "a": [
-      "Theresa Corderi",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Nami Huang",
-      "Ghada Abraham"
-     ],
-     "a": [
-      "Cheryl Brodsky",
-      "Debi Mcdonald"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Jenna Haas"
-     ],
-     "a": [
-      "Joanne Rim",
-      "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Charlie Trapasso",
-      "Sandy Hess"
-     ],
-     "a": [
-      "Jess Cox",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Trena Hahn",
-      "Mary Marger"
-     ],
-     "a": [
-      "Kumi Dalton",
-      "Ly Kim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Lynn Hauth",
-      "Nami Huang"
-     ],
-     "a": [
-      "Angie Ratkowitz",
-      "Debi Mcdonald"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 5,
-     "as": 21,
-     "h": [
-      "Jenna Haas",
-      "Jean Dalstad"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Mary Marger",
-      "Denise Stevens"
-     ],
-     "a": [
-      "Jess Cox",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Sandy Hess",
-      "Christine Steigerwalt"
-     ],
-     "a": [
-      "Rachel Baluyot",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Ghada Abraham",
-      "Lynn Hauth"
-     ],
-     "a": [
-      "Cheryl Brodsky",
-      "Ly Kim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Denise Stevens",
-      "Charlie Trapasso"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Trena Hahn"
-     ],
-     "a": [
-      "Joanne Rim",
-      "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Nami Huang",
-      "Ghada Abraham"
-     ],
-     "a": [
-      "Theresa Corderi",
-      "Ly Kim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Lynn Hauth",
-      "Christine Steigerwalt"
-     ],
-     "a": [
-      "Cheryl Brodsky",
-      "Debi Mcdonald"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Jean Dalstad"
-     ],
-     "a": [
-      "Joanne Rim",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Mary Marger",
-      "Jenna Haas"
-     ],
-     "a": [
-      "Jess Cox",
-      "Rachel Baluyot"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Lynn Hauth",
-      "Sandy Hess"
-     ],
-     "a": [
-      "Cheryl Brodsky",
-      "Ly Kim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 9,
-     "as": 21,
-     "h": [
-      "Nami Huang",
-      "Trena Hahn"
-     ],
-     "a": [
-      "Angie Ratkowitz",
-      "Debi Mcdonald"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Jenna Haas",
-      "Jean Dalstad"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Charlie Trapasso",
-      "Sandy Hess"
-     ],
-     "a": [
-      "Jess Cox",
-      "Theresa Corderi"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 18,
-     "h": [
-      "Trena Hahn",
-      "Ghada Abraham"
-     ],
-     "a": [
-      "Hope Lo",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Mary Marger",
-      "Nami Huang"
-     ],
-     "a": [
-      "Rachel Baluyot",
-      "Debi Mcdonald"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Maureen Murphy",
-      "Denise Stevens"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Mary Marger",
-      "Jean Dalstad"
-     ],
-     "a": [
-      "Hope Lo",
-      "Rachel Baluyot"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Christine Steigerwalt",
-      "Charlie Trapasso"
-     ],
-     "a": [
-      "Joanne Rim",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Trena Hahn",
-      "Jenna Haas"
-     ],
-     "a": [
-      "Theresa Corderi",
-      "Cheryl Brodsky"
-     ]
-    }
-   ],
-   "subs": []
   },
   {
    "result": "home",
@@ -10025,472 +10025,6 @@
    ]
   },
   {
-   "result": "away",
-   "week": 3,
-   "home": "Pickleball Kingdom Hillsborough",
-   "away": "Pickleball Kingdom Tinton Falls",
-   "time": "2026-09-10T11:00:00",
-   "complete": true,
-   "homePoints": 728,
-   "awayPoints": 604,
-   "homeGW": 10,
-   "awayGW": 22,
-   "games": [
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Eileen Clark",
-      "Sherry Sili"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 7,
-     "as": 21,
-     "h": [
-      "Kara Chubrik",
-      "Nikki Nigro"
-     ],
-     "a": [
-      "Kimberley Levins",
-      "Tina Cros"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Rani Borusu",
-      "Sushma Rayapudi"
-     ],
-     "a": [
-      "Deborah Muschio",
-      "Randee Schneeberg-Pomerantz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Tanyalak Sawangpak",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Karyn Jarmer",
-      "Toni Demaio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Sushma Rayapudi",
-      "Rani Borusu"
-     ],
-     "a": [
-      "Tina Cros",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Kara Chubrik",
-      "Nikki Nigro"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Kimberley Levins"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Tanyalak Sawangpak",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Julie Biondi"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Eileen Clark",
-      "Sherry Sili"
-     ],
-     "a": [
-      "Virginia Kenny",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Rani Borusu",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Julie Biondi",
-      "Randee Schneeberg-Pomerantz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Tanyalak Sawangpak",
-      "Nikki Nigro"
-     ],
-     "a": [
-      "Toni Demaio",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Sushma Rayapudi",
-      "Eileen Clark"
-     ],
-     "a": [
-      "Virginia Kenny",
-      "Karyn Jarmer"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Sherry Sili",
-      "Kara Chubrik"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Deborah Muschio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 8,
-     "as": 21,
-     "h": [
-      "Sherry Sili",
-      "Kara Chubrik"
-     ],
-     "a": [
-      "Kimberley Levins",
-      "Tina Cros"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Eileen Clark",
-      "Sushma Rayapudi"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 10,
-     "h": [
-      "Tanyalak Sawangpak",
-      "Nikki Nigro"
-     ],
-     "a": [
-      "Randee Schneeberg-Pomerantz",
-      "Toni Demaio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Rani Borusu",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Deborah Muschio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Rani Borusu",
-      "Kara Chubrik"
-     ],
-     "a": [
-      "Kimberley Levins",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 20,
-     "as": 22,
-     "h": [
-      "Tanyalak Sawangpak",
-      "Sushma Rayapudi"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Corinne Palma"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Lay Wassana",
-      "Eileen Clark"
-     ],
-     "a": [
-      "Karyn Jarmer",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Nikki Nigro",
-      "Sherry Sili"
-     ],
-     "a": [
-      "Virginia Kenny",
-      "Julie Biondi"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Eileen Clark",
-      "Kara Chubrik"
-     ],
-     "a": [
-      "Amy Wondrack",
-      "Tina Cros"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Rani Borusu",
-      "Tanyalak Sawangpak"
-     ],
-     "a": [
-      "Kimberley Levins",
-      "Randee Schneeberg-Pomerantz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Sushma Rayapudi",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Julie Biondi",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Nikki Nigro",
-      "Sherry Sili"
-     ],
-     "a": [
-      "Deborah Muschio",
-      "Toni Demaio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Sushma Rayapudi",
-      "Sherry Sili"
-     ],
-     "a": [
-      "Randee Schneeberg-Pomerantz",
-      "Tina Cros"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Nikki Nigro",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Kimberley Levins",
-      "Amy Wondrack"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Kara Chubrik",
-      "Tanyalak Sawangpak"
-     ],
-     "a": [
-      "Karyn Jarmer",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Rani Borusu",
-      "Eileen Clark"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Virginia Kenny"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 6,
-     "as": 21,
-     "h": [
-      "Sushma Rayapudi",
-      "Tanyalak Sawangpak"
-     ],
-     "a": [
-      "Deborah Muschio",
-      "Toni Demaio"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Sherry Sili",
-      "Rani Borusu"
-     ],
-     "a": [
-      "Karyn Jarmer",
-      "Kathleen Lynch"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 16,
-     "h": [
-      "Nikki Nigro",
-      "Lay Wassana"
-     ],
-     "a": [
-      "Virginia Kenny",
-      "Melissa Mcconnell"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Kara Chubrik",
-      "Eileen Clark"
-     ],
-     "a": [
-      "Corinne Palma",
-      "Julie Biondi"
-     ]
-    }
-   ],
-   "subs": [
-    "Eileen Clark",
-    "Sherry Sili"
-   ]
-  },
-  {
    "result": "home",
    "week": 3,
    "home": "Flemington Green",
@@ -10954,6 +10488,472 @@
    "subs": [
     "Susan Goeckeler",
     "Amanda Gardiner"
+   ]
+  },
+  {
+   "result": "away",
+   "week": 3,
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Pickleball Kingdom Tinton Falls",
+   "time": "2026-09-10T11:00:00",
+   "complete": true,
+   "homePoints": 728,
+   "awayPoints": 604,
+   "homeGW": 10,
+   "awayGW": 22,
+   "games": [
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
+     "h": [
+      "Eileen Clark",
+      "Sherry Sili"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 7,
+     "as": 21,
+     "h": [
+      "Kara Chubrik",
+      "Nikki Nigro"
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Rani Borusu",
+      "Sushma Rayapudi"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Randee Schneeberg-Pomerantz"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Tanyalak Sawangpak",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Sushma Rayapudi",
+      "Rani Borusu"
+     ],
+     "a": [
+      "Tina Cros",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Kara Chubrik",
+      "Nikki Nigro"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Kimberley Levins"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Tanyalak Sawangpak",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Julie Biondi"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Eileen Clark",
+      "Sherry Sili"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Rani Borusu",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Julie Biondi",
+      "Randee Schneeberg-Pomerantz"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "Tanyalak Sawangpak",
+      "Nikki Nigro"
+     ],
+     "a": [
+      "Toni Demaio",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Sushma Rayapudi",
+      "Eileen Clark"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Sherry Sili",
+      "Kara Chubrik"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Deborah Muschio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
+     "h": [
+      "Sherry Sili",
+      "Kara Chubrik"
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Eileen Clark",
+      "Sushma Rayapudi"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Tanyalak Sawangpak",
+      "Nikki Nigro"
+     ],
+     "a": [
+      "Randee Schneeberg-Pomerantz",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Rani Borusu",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Deborah Muschio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Rani Borusu",
+      "Kara Chubrik"
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Tanyalak Sawangpak",
+      "Sushma Rayapudi"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Corinne Palma"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Lay Wassana",
+      "Eileen Clark"
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
+     "h": [
+      "Nikki Nigro",
+      "Sherry Sili"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Julie Biondi"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Eileen Clark",
+      "Kara Chubrik"
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Rani Borusu",
+      "Tanyalak Sawangpak"
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Randee Schneeberg-Pomerantz"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Sushma Rayapudi",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Julie Biondi",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Nikki Nigro",
+      "Sherry Sili"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Sushma Rayapudi",
+      "Sherry Sili"
+     ],
+     "a": [
+      "Randee Schneeberg-Pomerantz",
+      "Tina Cros"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Nikki Nigro",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Amy Wondrack"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Kara Chubrik",
+      "Tanyalak Sawangpak"
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Rani Borusu",
+      "Eileen Clark"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 6,
+     "as": 21,
+     "h": [
+      "Sushma Rayapudi",
+      "Tanyalak Sawangpak"
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Sherry Sili",
+      "Rani Borusu"
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Nikki Nigro",
+      "Lay Wassana"
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
+      "Kara Chubrik",
+      "Eileen Clark"
+     ],
+     "a": [
+      "Corinne Palma",
+      "Julie Biondi"
+     ]
+    }
+   ],
+   "subs": [
+    "Eileen Clark",
+    "Sherry Sili"
    ]
   },
   {
@@ -12353,6 +12353,368 @@
   {
    "result": null,
    "week": 4,
+   "home": "PKLD",
+   "away": "Flemington Green",
+   "time": "2026-09-17T11:00:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "Olga Turova",
+      "Linda Seemann"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Linda Johns"
+     ],
+     "a": [
+      "Julia Hollman",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Jasmine Ho"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Seemann",
+      "Olga Turova"
+     ],
+     "a": [
+      "Julia Hollman",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Marina Volpe"
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Johns",
+      "Jasmine Ho"
+     ],
+     "a": [
+      "Lynda Levan",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Linda Seemann"
+     ],
+     "a": [
+      "Lynda Levan",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Johns",
+      "Olga Turova"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jasmine Ho",
+      "Paula Cushing"
+     ],
+     "a": [
+      "Grace Brennan",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jasmine Ho",
+      "Olga Turova"
+     ],
+     "a": [
+      "Jamie Levin",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Seemann",
+      "Linda Johns"
+     ],
+     "a": [
+      "Lynda Levan",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Marina Volpe"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Johns",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Lynda Levan",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Olga Kim"
+     ],
+     "a": [
+      "Annette Marsh",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Olga Turova"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Seemann",
+      "Jasmine Ho"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Jasmine Ho"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kayla Gipson",
+      "Olga Turova"
+     ],
+     "a": [
+      "Julia Hollman",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Linda Seemann"
+     ],
+     "a": [
+      "Jamie Levin",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Linda Johns"
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Linda Johns"
+     ],
+     "a": [
+      "Julia Hollman",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Paula Cushing",
+      "Olga Kim"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Turova",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Grace Brennan",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Seemann",
+      "Jasmine Ho"
+     ],
+     "a": [
+      "Annette Marsh",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marina Volpe",
+      "Paula Cushing"
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Suzanne Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Olga Kim",
+      "Linda Seemann"
+     ],
+     "a": [
+      "Julia Hollman",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Linda Johns",
+      "Olga Turova"
+     ],
+     "a": [
+      "Lynda Levan",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jasmine Ho",
+      "Kayla Gipson"
+     ],
+     "a": [
+      "Diane Bracco",
+      "Jamie Levin"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "week": 4,
    "home": "Pickleball Kingdom Tinton Falls",
    "away": "Pickleball Lehigh Valley",
    "time": "2026-09-17T11:00:00",
@@ -12708,368 +13070,6 @@
      "a": [
       "Sandy Hess",
       "Trena Hahn"
-     ]
-    }
-   ]
-  },
-  {
-   "result": null,
-   "week": 4,
-   "home": "PKLD",
-   "away": "Flemington Green",
-   "time": "2026-09-17T11:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Annette Marsh"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Hollman",
-      "Grace Brennan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tammy Dragon",
-      "Jamie Levin"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Diane Bracco",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Hollman",
-      "Tammy Dragon"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Annette Marsh"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marianne Rosato",
-      "Jamie Levin"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynda Levan",
-      "Grace Brennan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynda Levan",
-      "Jamie Levin"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Diane Bracco",
-      "Julia Hollman"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marianne Rosato",
-      "Annette Marsh"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Grace Brennan",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jamie Levin",
-      "Julia Hollman"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynda Levan",
-      "Tammy Dragon"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Diane Bracco"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marianne Rosato",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynda Levan",
-      "Tammy Dragon"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Annette Marsh",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Marianne Rosato"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Diane Bracco",
-      "Grace Brennan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Lynda Levan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Hollman",
-      "Annette Marsh"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jamie Levin",
-      "Tammy Dragon"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marianne Rosato",
-      "Grace Brennan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Hollman",
-      "Lynda Levan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Diane Bracco",
-      "Tammy Dragon"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Grace Brennan",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Annette Marsh",
-      "Jamie Levin"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Janice Aliberti",
-      "Suzanne Bauer"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Hollman",
-      "Marianne Rosato"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynda Levan",
-      "Annette Marsh"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Diane Bracco",
-      "Jamie Levin"
      ]
     }
    ]
@@ -13833,16 +13833,16 @@
   {
    "result": null,
    "week": 5,
-   "home": "Pickleball Lehigh Valley",
-   "away": "Picklr Newtown",
+   "home": "Premiere",
+   "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-09-24T12:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 5,
-   "home": "Premiere",
-   "away": "Pickleball Kingdom Tinton Falls",
+   "home": "Pickleball Lehigh Valley",
+   "away": "Picklr Newtown",
    "time": "2026-09-24T12:00:00",
    "complete": false
   },
@@ -13961,8 +13961,8 @@
   {
    "result": null,
    "week": 8,
-   "home": "Flemington Green",
-   "away": "Premiere",
+   "home": "Life Time Red Bank",
+   "away": "Pickleball Lehigh Valley",
    "time": "2026-10-15T11:00:00",
    "complete": false
   },
@@ -13977,8 +13977,8 @@
   {
    "result": null,
    "week": 8,
-   "home": "Life Time Red Bank",
-   "away": "Pickleball Lehigh Valley",
+   "home": "Flemington Green",
+   "away": "Premiere",
    "time": "2026-10-15T11:00:00",
    "complete": false
   },
@@ -14001,16 +14001,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "Flemington Green",
-   "away": "Pickleball Kingdom Hillsborough",
+   "home": "Montville",
+   "away": "Pickleball Lehigh Valley",
    "time": "2026-10-22T11:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 9,
-   "home": "Montville",
-   "away": "Pickleball Lehigh Valley",
+   "home": "Flemington Green",
+   "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-22T11:00:00",
    "complete": false
   },
@@ -14033,16 +14033,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "PKLD",
-   "away": "Pickleball Lehigh Valley",
+   "home": "Life Time Red Bank",
+   "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-25T09:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 9,
-   "home": "Life Time Red Bank",
-   "away": "Pickleball Kingdom Hillsborough",
+   "home": "PKLD",
+   "away": "Pickleball Lehigh Valley",
    "time": "2026-10-25T09:00:00",
    "complete": false
   },
@@ -14057,16 +14057,16 @@
   {
    "result": null,
    "week": 9,
-   "home": "Premiere",
-   "away": "Flemington Blue",
+   "home": "Picklr Newtown",
+   "away": "Flemington Green",
    "time": "2026-10-25T15:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 9,
-   "home": "Picklr Newtown",
-   "away": "Flemington Green",
+   "home": "Premiere",
+   "away": "Flemington Blue",
    "time": "2026-10-25T15:00:00",
    "complete": false
   },
@@ -14113,6 +14113,14 @@
   {
    "result": null,
    "week": 11,
+   "home": "Flemington Green",
+   "away": "Pickleball Lehigh Valley",
+   "time": "2026-11-05T11:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Flemington Blue",
    "time": "2026-11-05T11:00:00",
@@ -14123,14 +14131,6 @@
    "week": 11,
    "home": "PKLD",
    "away": "Pickleball Kingdom Tinton Falls",
-   "time": "2026-11-05T11:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 11,
-   "home": "Flemington Green",
-   "away": "Pickleball Lehigh Valley",
    "time": "2026-11-05T11:00:00",
    "complete": false
   },
@@ -14268,7 +14268,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T20:44:13.030Z";
+  DATA.meta.asOf = "2026-09-16T22:18:02.382Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
