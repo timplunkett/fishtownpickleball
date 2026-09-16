@@ -8896,7 +8896,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 372,
+   "leagueRank": 373,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8925,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 380,
+   "leagueRank": 381,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9215,7 +9215,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 378,
+   "leagueRank": 379,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -28423,7 +28423,8 @@
   "Jimmy Nguyen": "eadaa940-5389-48aa-9891-61c20886d34b",
   "Melissa Mackey": "eb92331b-662d-4f91-bf8a-aa8b93c0c02b",
   "Vineet Agarwala": "f160fd0d-11cd-4dd5-865b-0c92d2583949",
-  "Brian Criscuolo": "f59307d0-0495-421c-8cee-28c2e2b56bcf"
+  "Brian Criscuolo": "f59307d0-0495-421c-8cee-28c2e2b56bcf",
+  "Laura Peng": "fee0899c-870f-49f7-b07b-d34ed516a9f9"
  },
  "meta": {
   "matchesPlayed": 31,
@@ -28541,7 +28542,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T15:49:12.319Z";
+  DATA.meta.asOf = "2026-09-16T20:40:47.008Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

@@ -133,18 +133,6 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "11d5a92a-bda6-4282-99ea-c4c4f2eef1cd",
-      "weekNumber": 2,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-29T19:30:00",
-      "homeName": "Jersey Devil",
-      "awayName": "Dill Dinkers Hatboro The Factory"
-    },
-    {
       "matchupId": "3a14c2c8-5110-45f3-8401-66d617303544",
       "weekNumber": 3,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -827,6 +815,18 @@
       "scheduledTime": "2026-10-28T19:30:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "11d5a92a-bda6-4282-99ea-c4c4f2eef1cd",
+      "weekNumber": 10,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-29T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Dill Dinkers Hatboro The Factory"
     },
     {
       "matchupId": "e20836e6-c07f-444d-b0ff-96ad88e467cd",

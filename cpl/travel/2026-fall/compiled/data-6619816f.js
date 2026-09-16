@@ -5,8 +5,8 @@
    "name": "Paula Ro",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 12,
@@ -19,7 +19,6 @@
    "genderLosses": 0,
    "clutchWins": 5,
    "clutchLosses": 0,
-   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
    "winPct": 100,
    "diff": 66,
    "ppg": 21,
@@ -28,7 +27,8 @@
    "ratingGames": 12,
    "confidence": 68,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -0.1
+   "strengthOfOpponents": -0.1,
+   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea"
   },
   {
    "name": "Joshua Ahn",
@@ -3833,9 +3833,9 @@
    "name": "Camrin Cronheim",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": true,
    "gamesPlayed": 15,
    "wins": 5,
    "losses": 10,
@@ -3847,7 +3847,6 @@
    "genderLosses": 5,
    "clutchWins": 3,
    "clutchLosses": 5,
-   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
    "winPct": 33.3,
    "diff": -18,
    "ppg": 18.5,
@@ -3856,7 +3855,8 @@
    "ratingGames": 15,
    "confidence": 71,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1"
   },
   {
    "name": "Kathleen Dougherty",
@@ -7901,9 +7901,7 @@
     }
    ],
    "subs": [
-    "Paula Ro",
-    "Gissel Escalante",
-    "Camrin Cronheim"
+    "Gissel Escalante"
    ]
   },
   {
@@ -9776,8 +9774,7 @@
    ],
    "subs": [
     "Joshua Ahn",
-    "Gissel Escalante",
-    "Camrin Cronheim"
+    "Gissel Escalante"
    ]
   },
   {
@@ -11646,368 +11643,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 2,
-   "home": "Jersey Devil",
-   "away": "Dill Dinkers Hatboro The Factory",
-   "time": "2026-10-29T19:30:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      "Andrew Wakefield"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jonah Fliegelman",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      "Andrew Wakefield"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jonah Fliegelman",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Varun Prakash",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      "Rayna Baizman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Varun Prakash",
-      "Joel Phillips"
-     ]
-    }
-   ]
-  },
-  {
    "result": "home",
    "week": 3,
    "home": "Pickleball Kingdom Hillsborough",
@@ -12469,7 +12104,6 @@
     }
    ],
    "subs": [
-    "Paula Ro",
     "Tin Wai Kwan"
    ]
   },
@@ -15569,7 +15203,7 @@
      ],
      "a": [
       "Jenna Irwin",
-      ""
+      "Camrin Cronheim"
      ]
     },
     {
@@ -15613,7 +15247,7 @@
      ],
      "a": [
       "Jason Makarevic",
-      ""
+      "Camrin Cronheim"
      ]
     },
     {
@@ -15657,7 +15291,7 @@
      ],
      "a": [
       "Meghan Mediratta",
-      ""
+      "Camrin Cronheim"
      ]
     },
     {
@@ -15700,7 +15334,7 @@
       "Daniel Gallegos"
      ],
      "a": [
-      "",
+      "Camrin Cronheim",
       "Keith Shedlock"
      ]
     },
@@ -15745,7 +15379,7 @@
      ],
      "a": [
       "Meghan Mediratta",
-      ""
+      "Camrin Cronheim"
      ]
     },
     {
@@ -15833,7 +15467,7 @@
      ],
      "a": [
       "Jenna Irwin",
-      ""
+      "Camrin Cronheim"
      ]
     },
     {
@@ -16617,8 +16251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krysti Maronski-Neufeldt",
+      "Ben Mead"
      ],
      "a": [
       "Claudya Elefante",
@@ -16628,8 +16262,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Nathan Law"
      ],
      "a": [
       "Helen Liu",
@@ -16639,8 +16273,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Jack Blumberg"
      ],
      "a": [
       "Sarah Ross",
@@ -16650,8 +16284,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Jase Volz"
      ],
      "a": [
       "Julia Plein",
@@ -16661,8 +16295,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Stacy Walkowitz"
      ],
      "a": [
       "Julia Plein",
@@ -16672,8 +16306,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Krysti Maronski-Neufeldt"
      ],
      "a": [
       "Claudya Elefante",
@@ -16683,8 +16317,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Mead",
+      "Jack Blumberg"
      ],
      "a": [
       "Adam Beck",
@@ -16694,8 +16328,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nathan Law",
+      "Manny Lai"
      ],
      "a": [
       "Anushk Gupta",
@@ -16705,8 +16339,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Manny Lai"
      ],
      "a": [
       "Helen Liu",
@@ -16716,8 +16350,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Jase Volz"
      ],
      "a": [
       "Sarah Ross",
@@ -16727,8 +16361,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Jack Blumberg"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -16738,8 +16372,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Nathan Law"
      ],
      "a": [
       "Julia Plein",
@@ -16749,8 +16383,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Annemarie Mccartney"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -16760,8 +16394,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krysti Maronski-Neufeldt",
+      "Stacy Walkowitz"
      ],
      "a": [
       "Claudya Elefante",
@@ -16771,8 +16405,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Mead",
+      "Nathan Law"
      ],
      "a": [
       "Anushk Gupta",
@@ -16782,8 +16416,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Manny Lai",
+      "Jase Volz"
      ],
      "a": [
       "Ryan Rosen",
@@ -16793,8 +16427,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Nathan Law"
      ],
      "a": [
       "Sarah Ross",
@@ -16804,8 +16438,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Manny Lai"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -16815,8 +16449,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Ben Mead"
      ],
      "a": [
       "Claudya Elefante",
@@ -16826,8 +16460,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krysti Maronski-Neufeldt",
+      "Jack Blumberg"
      ],
      "a": [
       "Julia Plein",
@@ -16837,8 +16471,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Brittany Hall"
      ],
      "a": [
       "Sarah Ross",
@@ -16848,8 +16482,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krysti Maronski-Neufeldt",
+      "Annemarie Mccartney"
      ],
      "a": [
       "Julia Plein",
@@ -16859,8 +16493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Manny Lai",
+      "Jack Blumberg"
      ],
      "a": [
       "Adam Beck",
@@ -16870,8 +16504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Mead",
+      "Jase Volz"
      ],
      "a": [
       "Ryan Rosen",
@@ -16881,8 +16515,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Manny Lai"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -16892,8 +16526,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krysti Maronski-Neufeldt",
+      "Nathan Law"
      ],
      "a": [
       "Claudya Elefante",
@@ -16903,8 +16537,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Jack Blumberg"
      ],
      "a": [
       "Julia Plein",
@@ -16914,8 +16548,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Jase Volz"
      ],
      "a": [
       "Helen Liu",
@@ -16925,8 +16559,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Sanchez",
+      "Krysti Maronski-Neufeldt"
      ],
      "a": [
       "Claudya Elefante",
@@ -16936,8 +16570,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Brittany Hall"
      ],
      "a": [
       "Sarah Ross",
@@ -16947,8 +16581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Blumberg",
+      "Nathan Law"
      ],
      "a": [
       "Adam Beck",
@@ -16958,8 +16592,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Manny Lai",
+      "Jase Volz"
      ],
      "a": [
       "Will Delaney",
@@ -17330,6 +16964,368 @@
   },
   {
    "result": null,
+   "week": 10,
+   "home": "Jersey Devil",
+   "away": "Dill Dinkers Hatboro The Factory",
+   "time": "2026-10-29T19:30:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Kaylyn Swankoski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonah Fliegelman",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Kaylyn Swankoski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonah Fliegelman",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Kaylyn Swankoski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Prakash",
+      "Joel Phillips"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
    "week": 11,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Flemington",
@@ -17501,7 +17497,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T15:52:41.085Z";
+  DATA.meta.asOf = "2026-09-16T20:43:40.157Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

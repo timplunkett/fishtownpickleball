@@ -2620,6 +2620,13 @@ window.DUPR_AUDIT = {
    "name": "Camrin Cronheim",
    "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
    "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Camrin Cronheim",
+   "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
+   "team": "Pickleball Kingdom Hillsborough",
    "slug": "cca69ab9",
    "gender": "Male"
   },
@@ -3398,6 +3405,13 @@ window.DUPR_AUDIT = {
    "playerId": "95b52495-c8be-4ae8-9342-46890410ac7d",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Christopher Monzon",
+   "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -13919,6 +13933,13 @@ window.DUPR_AUDIT = {
    "playerId": "8354a910-27fd-4e09-85bd-499f5cf84237",
    "team": "PCKLRAMA",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Paula Ro",
+   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {

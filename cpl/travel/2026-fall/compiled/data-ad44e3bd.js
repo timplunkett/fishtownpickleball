@@ -13455,8 +13455,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Virginie Boutin"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13466,8 +13466,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Chiti Joshi"
      ],
      "a": [
       "Meghan Klein",
@@ -13477,8 +13477,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Lori Wild"
      ],
      "a": [
       "Jessica Wormeck",
@@ -13488,8 +13488,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Peggy Matzen",
@@ -13499,8 +13499,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Esha Gajjar"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13510,8 +13510,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Lori Wild"
      ],
      "a": [
       "Jo Marie Holzhammer",
@@ -13521,8 +13521,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Heather Waters"
      ],
      "a": [
       "Holly Ferguson",
@@ -13532,8 +13532,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Chiti Joshi"
      ],
      "a": [
       "Meghan Klein",
@@ -13543,8 +13543,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Esha Gajjar"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13554,8 +13554,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Sulyn Kulick"
      ],
      "a": [
       "Jo Marie Holzhammer",
@@ -13565,8 +13565,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Nancy Cook",
@@ -13576,8 +13576,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Chiti Joshi"
      ],
      "a": [
       "Christine Ziegler",
@@ -13587,8 +13587,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Heather Waters"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13598,8 +13598,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Virginie Boutin"
      ],
      "a": [
       "Jessica Wormeck",
@@ -13609,8 +13609,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Chiti Joshi"
      ],
      "a": [
       "Christine Ziegler",
@@ -13620,8 +13620,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Suzi French"
      ],
      "a": [
       "Nancy Cook",
@@ -13631,8 +13631,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Virginie Boutin"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13642,8 +13642,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Chiti Joshi"
      ],
      "a": [
       "Christine Ziegler",
@@ -13653,8 +13653,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Nancy Cook",
@@ -13664,8 +13664,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Rachel Mcgowan"
      ],
      "a": [
       "Jo Marie Holzhammer",
@@ -13675,8 +13675,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Chiti Joshi"
      ],
      "a": [
       "Johanna Kreilick",
@@ -13686,8 +13686,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Holly Ferguson",
@@ -13697,8 +13697,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Esha Gajjar"
      ],
      "a": [
       "Jessica Wormeck",
@@ -13708,8 +13708,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Lori Wild"
      ],
      "a": [
       "Christine Ziegler",
@@ -13719,8 +13719,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Virginie Boutin"
      ],
      "a": [
       "Christine Ziegler",
@@ -13730,8 +13730,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Lori Wild"
      ],
      "a": [
       "Jo Marie Holzhammer",
@@ -13741,8 +13741,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Peggy Matzen",
@@ -13752,8 +13752,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Heather Waters"
      ],
      "a": [
       "Holly Ferguson",
@@ -13763,8 +13763,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Virginie Boutin"
      ],
      "a": [
       "Jessica Wormeck",
@@ -13774,8 +13774,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Chiti Joshi"
      ],
      "a": [
       "Meghan Klein",
@@ -13785,8 +13785,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Mcdannell",
+      "Lori Wild"
      ],
      "a": [
       "Christine Ziegler",
@@ -13796,8 +13796,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Maureen Dazzo",
@@ -14268,7 +14268,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T02:30:31.022Z";
+  DATA.meta.asOf = "2026-09-16T20:44:13.030Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
