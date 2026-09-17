@@ -2866,9 +2866,9 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
 
   let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
   const matchSubs = new Set(match.subs || []);
-  const formatSubAwarePlayers = (names) => names
-    .map((n) => n + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
-    .join(' &amp; ');
+  const formatSubAwarePlayers = (names, { sep = ' &amp; ', escape = false } = {}) => names
+    .map((n) => (escape ? escapeHtml(n) : n) + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
+    .join(sep);
   const gameRows = (match.games || [])
     .map((game) => {
       const usPlayers = homeSide ? game.h : game.a;
@@ -2898,7 +2898,7 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
         <tr${game.ff ? ' class="ffrow"' : ''}>
           ${renderGameTypeCell(game.t)}
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
-          <td class="l">${game.ff ? '' : escapeHtml(themPlayers.join(' / '))}</td>
+          <td class="l">${game.ff ? '' : formatSubAwarePlayers(themPlayers, { sep: ' / ', escape: true })}</td>
           <td class="${resultClass}">${usScore}–${themScore}</td>
           <td class="${resultClass} l">${win ? 'W' : 'L'}${game.ff ? ' <span class="ff-tag">F</span>' : ''}${expectTag}</td>
           <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
