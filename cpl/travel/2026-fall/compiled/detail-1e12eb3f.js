@@ -72,7 +72,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -88,7 +92,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -104,7 +112,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -120,7 +133,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -136,7 +153,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -152,7 +173,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -168,7 +193,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -184,7 +213,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -200,7 +233,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -216,7 +254,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -232,7 +274,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -248,7 +294,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -264,7 +314,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -280,7 +334,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -754,7 +812,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -802,7 +861,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -1092,7 +1152,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -1108,7 +1172,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1124,7 +1192,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1140,7 +1212,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1156,7 +1232,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1172,7 +1252,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -1534,7 +1618,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1550,7 +1639,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -1566,7 +1659,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1598,7 +1696,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -1614,7 +1716,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -1875,7 +1981,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -1891,7 +1998,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1907,7 +2018,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1923,7 +2038,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -2050,7 +2166,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -2066,7 +2183,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -2098,7 +2219,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -2114,7 +2239,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -2188,7 +2318,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -2252,7 +2383,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -2284,7 +2416,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -2347,7 +2480,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -2363,7 +2501,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -2379,7 +2521,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -2395,7 +2542,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -2411,7 +2562,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -2427,7 +2583,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -2853,7 +3014,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -2869,7 +3034,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -2885,7 +3055,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -2901,7 +3075,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -2917,7 +3095,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -3109,7 +3292,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -3855,7 +4039,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -3887,7 +4075,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -3903,7 +4095,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -3919,7 +4115,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -4031,7 +4231,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -4047,7 +4252,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4063,7 +4272,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4079,7 +4292,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4095,7 +4313,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -4111,7 +4333,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4143,7 +4369,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4175,7 +4405,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -4191,7 +4425,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4207,7 +4446,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4223,7 +4466,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4239,7 +4486,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -4375,7 +4626,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4391,7 +4646,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4407,7 +4666,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -4423,7 +4686,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4439,7 +4707,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4455,7 +4727,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4471,7 +4748,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -4487,7 +4768,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4503,7 +4788,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4519,7 +4808,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -4535,7 +4828,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4551,7 +4848,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -4567,7 +4868,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4583,7 +4888,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -4777,7 +5086,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -4793,7 +5103,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -5153,7 +5467,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -5185,7 +5500,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5201,7 +5521,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -5217,7 +5538,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5233,7 +5559,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -5345,7 +5672,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -5361,7 +5693,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -5377,7 +5713,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -5393,7 +5733,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -5409,7 +5753,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -5425,7 +5773,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -5441,7 +5793,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -5457,7 +5813,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -5473,7 +5833,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5489,7 +5853,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5505,7 +5874,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -5633,7 +6006,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -5959,7 +6336,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -6071,7 +6449,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -6087,7 +6466,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -6135,7 +6515,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -6528,7 +6909,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -6640,7 +7025,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -6688,7 +7074,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -6704,7 +7091,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -6720,7 +7112,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -6877,7 +7273,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -6893,7 +7293,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -6909,7 +7313,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -6925,7 +7333,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -6941,7 +7353,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -6957,7 +7373,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -7085,7 +7505,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7101,7 +7525,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -7149,7 +7577,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -7366,7 +7798,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -7398,7 +7834,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -7510,7 +7950,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7558,7 +8003,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7590,7 +8039,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -7693,7 +8146,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7709,7 +8166,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -7725,7 +8183,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7741,7 +8203,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -7757,7 +8223,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7773,7 +8243,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -7789,7 +8264,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -7805,7 +8284,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -7879,7 +8362,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -7943,7 +8427,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8172,7 +8661,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -8204,7 +8697,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -8323,7 +8820,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -8355,7 +8853,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8387,7 +8889,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8493,7 +9000,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8509,7 +9020,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8525,7 +9040,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8541,7 +9061,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8573,7 +9098,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8589,7 +9118,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8605,7 +9138,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -8733,7 +9267,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -8749,7 +9287,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -8781,7 +9323,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -8797,7 +9343,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -8973,7 +9523,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -8989,7 +9544,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9037,7 +9596,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -9053,7 +9613,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9205,7 +9769,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9221,7 +9789,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9237,7 +9809,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9253,7 +9829,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9269,7 +9850,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -9285,7 +9870,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9301,7 +9891,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9317,7 +9911,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9333,7 +9931,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9349,7 +9951,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -9365,7 +9971,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9381,7 +9991,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9397,7 +10011,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -9413,7 +10031,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -9549,7 +10171,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9899,7 +10525,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9931,7 +10561,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9995,7 +10630,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10355,7 +10994,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -10371,7 +11014,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -10387,7 +11034,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -10403,7 +11055,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -10451,7 +11108,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -10576,7 +11237,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10592,7 +11257,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10608,7 +11278,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10624,7 +11298,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10640,7 +11318,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10656,7 +11338,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10672,7 +11358,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10688,7 +11378,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10704,7 +11399,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10720,7 +11419,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10736,7 +11439,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -10752,7 +11459,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10768,7 +11480,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -10784,7 +11500,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -10896,7 +11616,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10912,7 +11636,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10928,7 +11657,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -11115,7 +11848,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -11131,7 +11868,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11147,7 +11888,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11163,7 +11908,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -11179,7 +11928,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -11523,7 +12276,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -11539,7 +12293,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -11555,7 +12310,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -11776,7 +12535,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11792,7 +12555,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -11808,7 +12575,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11824,7 +12595,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -11840,7 +12615,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11856,7 +12635,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -11872,7 +12655,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -11984,7 +12771,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -12016,7 +12808,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12032,7 +12828,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12048,7 +12849,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12064,7 +12869,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -12194,7 +13003,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -12210,7 +13023,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -12226,7 +13044,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -12242,7 +13064,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -12258,7 +13084,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -12274,7 +13105,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -12290,7 +13125,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12306,7 +13145,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12322,7 +13165,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12338,7 +13186,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12354,7 +13206,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -12370,7 +13226,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -12530,7 +13390,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -12788,7 +13649,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -12804,7 +13669,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -12820,7 +13686,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -12836,7 +13706,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -12852,7 +13726,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -12868,7 +13746,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -13067,7 +13949,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -13083,7 +13969,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -13099,7 +13989,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -13115,7 +14009,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -13131,7 +14030,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -13147,7 +14050,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -13386,7 +14293,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -13402,7 +14313,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -13418,7 +14333,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -13434,7 +14353,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -13450,7 +14374,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -13466,7 +14394,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -13567,7 +14499,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -14186,7 +15119,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -14234,7 +15172,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -14282,7 +15224,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -14298,7 +15244,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -14330,7 +15277,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -14394,7 +15346,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -14712,7 +15668,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -14728,7 +15688,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -14744,7 +15708,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -14760,7 +15728,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -14931,7 +15903,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -14963,7 +15939,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -14979,7 +15959,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -15011,7 +15992,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -15059,7 +16041,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -15310,7 +16293,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -15326,7 +16313,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -15342,7 +16330,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -15390,7 +16382,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -15936,7 +16933,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -15952,7 +16953,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -15968,7 +16973,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -15984,7 +16993,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -16000,7 +17013,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -16234,7 +17251,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -16266,7 +17287,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -16298,7 +17323,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -16725,7 +17754,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -16741,7 +17774,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -16773,7 +17810,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -16789,7 +17830,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -16853,7 +17898,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -17021,7 +18067,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -17037,7 +18087,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -17053,7 +18107,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -17069,7 +18127,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -17085,7 +18148,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -17117,7 +18184,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -17133,7 +18204,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -17149,7 +18221,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -17165,7 +18241,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -17181,7 +18261,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -17197,7 +18281,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -17213,7 +18301,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -17229,7 +18318,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -17443,7 +18536,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -17475,7 +18569,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -17491,7 +18586,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -17507,7 +18606,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -17523,7 +18626,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -17539,7 +18646,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -17555,7 +18666,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -17571,7 +18686,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -17792,7 +18908,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -17808,7 +18928,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -17840,7 +18964,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -17856,7 +18984,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -17888,7 +19020,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -17984,7 +19120,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -18000,7 +19140,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -18016,7 +19157,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -18779,7 +19924,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -18795,7 +19944,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -18811,7 +19964,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -18827,7 +19984,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -18843,7 +20004,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -18859,7 +20024,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -19154,7 +20323,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19170,7 +20343,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19202,7 +20379,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -19218,7 +20399,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19234,7 +20419,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19250,7 +20440,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -19626,7 +20820,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -19642,7 +20841,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -19674,7 +20877,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -19690,7 +20897,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19738,7 +20949,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19754,7 +20969,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -19889,7 +21108,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -20071,7 +21291,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -20119,7 +21340,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -20183,7 +21405,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -20199,7 +21425,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -20215,7 +21445,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -20231,7 +21465,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -20247,7 +21485,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -20311,7 +21554,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -20327,7 +21571,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -20977,7 +22222,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -21527,7 +22776,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -21543,7 +22796,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -21559,7 +22816,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -21785,7 +23046,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -21849,7 +23114,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22091,7 +23360,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22107,7 +23380,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22123,7 +23400,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22155,7 +23437,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -22291,7 +23577,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -22387,7 +23677,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22681,7 +23975,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22697,7 +23996,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -22713,7 +24016,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22729,7 +24036,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -22745,7 +24057,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -22761,7 +24077,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -22777,7 +24098,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22793,7 +24118,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22809,7 +24138,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22825,7 +24158,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22841,7 +24178,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22857,7 +24198,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22873,7 +24218,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -23087,7 +24436,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -23279,7 +24632,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -23295,7 +24652,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -23500,7 +24861,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -23564,7 +24926,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -23580,7 +24946,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -23628,7 +24995,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -23660,7 +25031,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -23692,7 +25067,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -23756,7 +25132,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -23924,7 +25301,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -23940,7 +25321,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -23956,7 +25342,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -23988,7 +25378,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -24004,7 +25398,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -24020,7 +25418,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -24084,7 +25483,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -24283,7 +25687,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -24299,7 +25704,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -24622,7 +26031,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -24654,7 +26067,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -24686,7 +26103,11 @@
     "w": 1,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -24718,7 +26139,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -24734,7 +26159,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -24750,7 +26179,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -24798,7 +26231,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -24966,7 +26403,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -25046,7 +26484,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -25110,7 +26549,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25126,7 +26569,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25158,7 +26605,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -25377,7 +26825,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -25425,7 +26874,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -25662,7 +27116,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -25806,7 +27261,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25822,7 +27282,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25838,7 +27302,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25854,7 +27322,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25870,7 +27342,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -25886,7 +27362,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25902,7 +27382,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -26281,7 +27765,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -26329,7 +27814,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -26361,7 +27847,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -26377,7 +27864,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -26425,7 +27913,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -26457,7 +27946,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -26489,7 +27983,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -26505,7 +28004,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -26537,7 +28040,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -26765,7 +28272,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -26797,7 +28308,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -26813,7 +28328,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -26829,7 +28348,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -26952,7 +28476,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -26968,7 +28496,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -26984,7 +28516,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -27000,7 +28536,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -27016,7 +28556,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -27096,7 +28640,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -27253,7 +28801,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -27285,7 +28834,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -27365,7 +28915,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -27413,7 +28967,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -27565,7 +29120,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -27757,7 +29313,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -27789,7 +29346,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -28086,7 +29644,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -28166,7 +29725,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -28198,7 +29758,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -28230,7 +29791,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -28246,7 +29811,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -28681,7 +30247,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -29332,7 +30902,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -29364,7 +30938,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -29380,7 +30958,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -29396,7 +30978,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -29412,7 +30998,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -29572,7 +31162,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -29588,7 +31182,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -29604,7 +31202,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -29636,7 +31238,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -29668,7 +31274,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -29700,7 +31310,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -29716,7 +31327,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -29748,7 +31363,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -29764,7 +31383,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -30098,7 +31721,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -30146,7 +31773,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -30162,7 +31793,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -30178,7 +31813,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -30194,7 +31830,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -30210,7 +31850,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -30226,7 +31867,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -30242,7 +31887,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -30409,7 +32058,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -30563,7 +32216,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -30595,7 +32252,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -30696,7 +32357,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -30760,7 +32425,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -30855,7 +32524,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -30887,7 +32557,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -31191,7 +32862,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -31207,7 +32882,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -31239,7 +32919,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -31255,7 +32939,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -31303,7 +32991,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -31319,7 +33011,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -31367,7 +33063,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -31641,7 +33341,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -31939,7 +33643,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -31971,7 +33676,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -32195,7 +33901,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -32604,7 +34311,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -32780,7 +34488,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -32844,7 +34553,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -33223,7 +34933,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -33460,7 +35174,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -33492,7 +35210,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -33540,7 +35262,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -33900,7 +35626,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -34244,7 +35971,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -34308,7 +36036,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -34726,7 +36455,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -35005,7 +36738,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35037,7 +36775,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35069,7 +36811,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35085,7 +36832,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35354,7 +37105,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -35434,7 +37186,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -35564,7 +37317,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -35596,7 +37353,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -35676,7 +37437,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -35772,7 +37537,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -35991,7 +37760,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36007,7 +37780,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36265,7 +38042,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36297,7 +38078,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36313,7 +38098,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36329,7 +38118,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -36345,7 +38138,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -36475,7 +38272,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -36491,7 +38289,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36507,7 +38310,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36523,7 +38330,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -36539,7 +38347,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -36555,7 +38364,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -36571,7 +38384,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -36877,7 +38695,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37144,7 +38966,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -37655,7 +39478,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -37751,7 +39578,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37767,7 +39598,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37783,7 +39619,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -37799,7 +39636,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37815,7 +39657,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37831,7 +39677,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37847,7 +39698,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -37895,7 +39750,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -38046,7 +39905,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -38062,7 +39925,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38078,7 +39946,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38094,7 +39966,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38110,7 +39986,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38126,7 +40006,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38142,7 +40026,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -38158,7 +40046,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "subFor": "Pickleball Palace Black",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -38313,7 +40206,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -38329,7 +40226,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -38485,7 +40383,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38501,7 +40403,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -38517,7 +40420,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38533,7 +40440,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -38549,7 +40457,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38581,7 +40493,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38741,7 +40657,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38757,7 +40677,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -38821,7 +40742,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -38837,7 +40759,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -38901,7 +40824,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -39029,7 +40953,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -39045,7 +40973,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -39109,7 +41041,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39125,7 +41061,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39141,7 +41081,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -39157,7 +41098,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39173,7 +41118,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39495,7 +41444,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -39642,7 +41592,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -39658,7 +41612,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39674,7 +41632,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39690,7 +41652,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -39706,7 +41672,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -40486,7 +42456,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -40603,7 +42577,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -41056,7 +43034,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41088,7 +43070,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41136,7 +43122,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -41305,7 +43295,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -41321,7 +43315,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -41353,7 +43351,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -41369,7 +43371,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41385,7 +43391,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -41401,7 +43411,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41465,7 +43479,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -41481,7 +43499,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -41497,7 +43519,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -41513,7 +43536,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -41529,7 +43556,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -41963,7 +43991,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern"
+    "subFor": "Bounce Malvern",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -42107,7 +44139,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -42123,7 +44156,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42139,7 +44176,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42155,7 +44196,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -42272,7 +44317,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42288,7 +44338,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -42320,7 +44374,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -42656,7 +44714,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -42688,7 +44747,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -42704,7 +44764,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -42720,7 +44784,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42752,7 +44820,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42800,7 +44872,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -42848,7 +44924,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -42912,7 +44989,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -43119,7 +45197,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -43135,7 +45217,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -43151,7 +45237,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -43183,7 +45273,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -43199,7 +45293,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -43231,7 +45329,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -43279,7 +45381,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -43810,7 +45916,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -43842,7 +45949,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -43890,7 +45998,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -43906,7 +46015,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -43954,7 +46064,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -44164,7 +46278,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -44180,7 +46298,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -44228,7 +46350,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -44244,7 +46370,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -44422,7 +46552,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -44454,7 +46588,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -44598,7 +46736,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -45070,7 +47212,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45118,7 +47261,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45166,7 +47310,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -45198,7 +47346,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45230,7 +47382,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45262,7 +47418,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -45294,7 +47455,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -45310,7 +47475,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -45326,7 +47492,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -45607,7 +47777,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -45623,7 +47794,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45639,7 +47814,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45655,7 +47834,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45671,7 +47854,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -45687,7 +47874,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -45703,7 +47894,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -45735,7 +47927,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -46069,7 +48262,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -46085,7 +48282,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46101,7 +48299,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -46133,7 +48336,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46790,7 +48994,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46806,7 +49011,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46822,7 +49028,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46838,7 +49045,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46854,7 +49062,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46870,7 +49079,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -46886,7 +49096,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -46998,7 +49209,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -47030,7 +49245,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -47046,7 +49265,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -47062,7 +49285,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -47094,7 +49321,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -47110,7 +49341,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -47142,7 +49377,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -47174,7 +49413,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -47206,7 +49449,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -47494,7 +49741,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47510,7 +49758,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47542,7 +49791,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47558,7 +49808,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47574,7 +49825,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47590,7 +49842,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -47718,7 +49971,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -47750,7 +50004,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -47766,7 +50021,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -47814,7 +50070,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -47830,7 +50090,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -47846,7 +50110,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -47862,7 +50131,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -47878,7 +50151,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -47894,7 +50171,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -47942,7 +50220,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -48088,7 +50367,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -48120,7 +50400,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -48152,7 +50433,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -48200,7 +50486,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -48216,7 +50506,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -48232,7 +50526,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -48248,7 +50546,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -48296,7 +50599,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -48312,7 +50620,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -48497,7 +50809,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -48529,7 +50845,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -48577,7 +50897,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -48593,7 +50917,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -48609,7 +50934,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -48673,7 +51002,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -48705,7 +51035,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -49248,7 +51579,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -49264,7 +51599,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -49280,7 +51620,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -49296,7 +51640,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -49312,7 +51661,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -49328,7 +51682,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -49344,7 +51702,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -49376,7 +51739,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -49624,7 +51988,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -49656,7 +52024,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -49704,7 +52076,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -49720,7 +52096,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -49736,7 +52117,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -49971,7 +52353,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -49987,7 +52373,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -50227,7 +52614,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -50243,7 +52635,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -50259,7 +52656,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -50275,7 +52676,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -50291,7 +52696,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -50307,7 +52717,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -50462,7 +52876,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -51047,7 +53462,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -51063,7 +53479,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -51191,7 +53608,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -51223,7 +53644,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -51239,7 +53664,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "PickleRage Union County"
+    "subFor": "PickleRage Union County",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -51367,7 +53793,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51383,7 +53813,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51693,7 +54127,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51709,7 +54147,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51725,7 +54167,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51741,7 +54188,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -51773,7 +54224,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -51789,7 +54244,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -51837,7 +54296,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -51853,7 +54316,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -51885,7 +54352,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -51901,7 +54372,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -51917,7 +54392,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -51965,7 +54444,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -51981,7 +54464,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -52236,7 +54723,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -52300,7 +54788,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -52348,7 +54841,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -52364,7 +54861,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -52536,7 +55034,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -52568,7 +55070,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -53020,7 +55526,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -53174,7 +55684,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -53190,7 +55701,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -53478,7 +55990,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -53494,7 +56007,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -53510,7 +56027,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -53526,7 +56047,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -53542,7 +56068,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -53558,7 +56088,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -53590,7 +56124,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -53664,7 +56203,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -53680,7 +56223,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -53696,7 +56243,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -53808,7 +56359,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -53872,7 +56427,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -53888,7 +56447,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -54329,7 +56892,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -54345,7 +56912,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -54361,7 +56932,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -54446,7 +57021,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -54494,7 +57073,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -54510,7 +57093,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -54526,7 +57113,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -54670,7 +57258,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -55048,7 +57640,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -55795,7 +58388,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -55843,7 +58440,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -55859,7 +58460,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -55891,7 +58496,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -55907,7 +58516,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -56043,7 +58656,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -56075,7 +58692,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -56706,7 +59327,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -56911,7 +59536,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -56975,7 +59601,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -56991,7 +59622,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57007,7 +59642,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57023,7 +59662,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57039,7 +59682,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57055,7 +59702,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -57167,7 +59818,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -57432,7 +60084,8 @@
     "w": 0,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -57528,7 +60181,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -57560,7 +60217,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -57576,7 +60237,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -57608,7 +60274,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -57825,7 +60492,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -57841,7 +60513,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -57857,7 +60530,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -57873,7 +60551,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57889,7 +60571,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -57905,7 +60592,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -57921,7 +60612,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -57937,7 +60632,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -57953,7 +60649,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -57969,7 +60669,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -57985,7 +60686,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -58001,7 +60706,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -58033,7 +60742,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -58202,7 +60915,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -58218,7 +60935,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -58234,7 +60955,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -58282,7 +61007,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58298,7 +61027,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58346,7 +61079,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -58394,7 +61131,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -58426,7 +61164,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -58884,7 +61623,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58900,7 +61643,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -58916,7 +61663,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58932,7 +61683,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58948,7 +61704,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -58964,7 +61724,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -59028,7 +61792,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -59060,7 +61825,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -59076,7 +61842,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -59291,7 +62061,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -59307,7 +62081,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -59323,7 +62101,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -59339,7 +62121,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -59355,7 +62141,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -59533,7 +62324,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -59549,7 +62344,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -59613,7 +62412,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -59645,7 +62449,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -59864,7 +62672,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -59896,7 +62708,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -60149,7 +62962,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -60165,7 +62982,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -60181,7 +63002,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -60197,7 +63019,11 @@
     "w": 1,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -60261,7 +63087,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -60277,7 +63107,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -60341,7 +63175,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -60578,7 +63417,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -60594,7 +63434,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -60610,7 +63451,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -60658,7 +63500,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -60674,7 +63521,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -60690,7 +63541,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -60706,7 +63558,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -60722,7 +63575,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -60754,7 +63611,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -60786,7 +63647,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -60802,7 +63664,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -60965,7 +63828,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -61013,7 +63880,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -61029,7 +63900,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -61061,7 +63936,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -61093,7 +63972,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -61109,7 +63992,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -61141,7 +64028,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -61157,7 +64048,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -61189,7 +64084,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -61237,7 +64136,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -61411,7 +64314,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -61443,7 +64350,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -61459,7 +64367,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -61475,7 +64387,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -61523,7 +64436,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61539,7 +64457,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61555,7 +64477,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61571,7 +64498,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61587,7 +64519,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61603,7 +64539,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -61755,7 +64696,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -61947,7 +64892,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62157,7 +65103,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -62173,7 +65123,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -62205,7 +65159,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62269,7 +65224,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62410,7 +65366,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62426,7 +65383,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62442,7 +65400,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62458,7 +65417,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -62490,7 +65450,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -62506,7 +65470,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -62623,7 +65588,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -62639,7 +65608,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -62991,7 +65964,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -63669,7 +66646,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -63981,7 +66959,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -64360,7 +67342,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -64392,7 +67378,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -64543,7 +67533,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -64559,7 +67553,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -64575,7 +67573,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -64591,7 +67594,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -64607,7 +67614,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -64703,7 +67715,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -64719,7 +67735,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -64735,7 +67755,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -64751,7 +67775,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -64767,7 +67796,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -64841,7 +67874,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -64857,7 +67891,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -64873,7 +67908,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -64905,7 +67945,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -64990,7 +68031,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -65006,7 +68048,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -65022,7 +68065,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -65038,7 +68086,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -65054,7 +68103,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -65299,7 +68349,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -65315,7 +68369,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -65331,7 +68386,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -65363,7 +68422,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -65586,7 +68646,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -65602,7 +68666,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -65618,7 +68686,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -65634,7 +68706,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -65783,7 +68859,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -66141,7 +69221,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -66301,7 +69385,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -66317,7 +69405,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -66333,7 +69425,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -66365,7 +69461,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -66381,7 +69481,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -66517,7 +69621,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -66549,7 +69657,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -66581,7 +69693,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -66613,7 +69729,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -66629,7 +69749,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -66709,7 +69833,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -66935,7 +70063,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -67015,7 +70147,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -67510,7 +70643,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -67526,7 +70663,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -67574,7 +70715,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -67590,7 +70735,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -67606,7 +70755,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -67638,7 +70791,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -67654,7 +70811,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -67848,7 +71009,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -67896,7 +71061,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -67912,7 +71078,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -67928,7 +71095,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -67960,7 +71131,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -67976,7 +71148,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -67992,7 +71165,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -68206,7 +71384,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -68238,7 +71417,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -68254,7 +71437,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -68286,7 +71473,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -68302,7 +71493,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -68350,7 +71545,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -68478,7 +71674,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68526,7 +71726,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68542,7 +71747,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68574,7 +71783,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68590,7 +71803,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -68680,7 +71898,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -68696,7 +71918,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68712,7 +71938,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68728,7 +71959,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -68744,7 +71979,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -68776,7 +72015,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -68877,7 +72121,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -68909,7 +72154,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -68941,7 +72187,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -68957,7 +72204,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -68973,7 +72224,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -68989,7 +72241,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -69005,7 +72261,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -69021,7 +72282,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -69037,7 +72302,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -69085,7 +72351,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -69117,7 +72387,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -69220,7 +72495,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -69236,7 +72512,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -69252,7 +72533,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -69268,7 +72554,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -69284,7 +72575,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -69300,7 +72595,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -69316,7 +72616,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -69332,7 +72637,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -69428,7 +72734,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -69444,7 +72751,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -69460,7 +72772,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -69492,7 +72809,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -69508,7 +72826,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -69524,7 +72846,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -69716,7 +73039,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -69732,7 +73059,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -69780,7 +73111,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -69796,7 +73131,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -69828,7 +73164,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -70636,7 +73973,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -70652,7 +73993,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -70684,7 +74029,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -70716,7 +74065,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -70732,7 +74085,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -70748,7 +74105,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -70764,7 +74125,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -70796,7 +74161,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -71011,7 +74380,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -71059,7 +74429,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -71107,7 +74481,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -71339,7 +74717,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -71355,7 +74737,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -71419,7 +74805,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -71629,7 +75019,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -71645,7 +75036,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -71789,7 +75181,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -71805,7 +75198,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -71917,7 +75311,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -71949,7 +75344,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -71981,7 +75377,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -72013,7 +75410,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -72045,7 +75443,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -72061,7 +75464,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -72077,7 +75481,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -72109,7 +75514,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -72125,7 +75531,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -72291,7 +75698,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -72307,7 +75718,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -72323,7 +75738,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -72339,7 +75758,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -72355,7 +75778,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -72419,7 +75846,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -72801,7 +76232,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -72849,7 +76281,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -73016,7 +76449,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -73128,7 +76565,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -73160,7 +76598,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -73176,7 +76618,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -73192,7 +76635,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -73591,7 +77039,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -73607,7 +77060,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -73623,7 +77080,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -73655,7 +77116,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -73761,7 +77226,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -73793,7 +77259,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -74081,7 +77551,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -74113,7 +77584,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -74129,7 +77605,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -74865,7 +78342,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -74988,7 +78469,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -75004,7 +78489,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -75036,7 +78525,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -75084,7 +78577,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -75808,7 +79305,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -75824,7 +79325,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -75840,7 +79342,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -75856,7 +79362,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -75872,7 +79383,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -75888,7 +79404,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -75920,7 +79441,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -75936,7 +79458,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -75952,7 +79475,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -75968,7 +79492,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -75984,7 +79509,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -76000,7 +79526,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -76016,7 +79543,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -76032,7 +79560,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -76187,7 +79716,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -76219,7 +79749,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -76251,7 +79782,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -76493,7 +80025,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -76525,7 +80058,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -76541,7 +80075,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -76557,7 +80092,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -76589,7 +80125,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -76781,7 +80321,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -76797,7 +80342,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -76829,7 +80378,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -76845,7 +80398,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -76909,7 +80466,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -77140,7 +80698,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -77465,7 +81024,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -77481,7 +81041,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -77561,7 +81125,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -77635,7 +81203,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -77651,7 +81220,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -77667,7 +81237,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -77699,7 +81273,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -77827,7 +81402,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -77843,7 +81422,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -77859,7 +81439,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -77875,7 +81459,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -77923,7 +81511,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -78205,7 +81798,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -78237,7 +81835,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -78253,7 +81855,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -78269,7 +81872,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -78285,7 +81892,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -79130,7 +82741,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -79146,7 +82758,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -79178,7 +82791,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -79333,7 +82947,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -79381,7 +82999,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -79397,7 +83019,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -79413,7 +83039,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -79445,7 +83075,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -79461,7 +83095,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -79666,7 +83304,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -79714,7 +83356,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -79906,7 +83552,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -80041,7 +83691,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward"
+    "subFor": "Forward",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -80185,7 +83839,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -80201,7 +83859,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -80484,7 +84146,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -80660,7 +84326,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -80886,7 +84553,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -80918,7 +84589,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -80950,7 +84622,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -80966,7 +84639,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -81555,7 +85233,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -81822,7 +85501,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -81838,7 +85521,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -81854,7 +85541,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -81870,7 +85558,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -81966,7 +85655,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -81998,7 +85688,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -82030,7 +85721,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -82062,7 +85758,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -82078,7 +85779,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -82313,7 +86015,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -82361,7 +86067,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -82393,7 +86103,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -82516,7 +86230,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -82532,7 +86247,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -82548,7 +86268,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -82580,7 +86301,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -82596,7 +86318,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -82612,7 +86339,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -82644,7 +86375,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -82708,7 +86440,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -83276,7 +87009,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -83292,7 +87029,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -83324,7 +87065,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -83468,7 +87214,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -83886,7 +87636,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -83950,7 +87704,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -84288,7 +88046,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -84320,7 +88082,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -84757,7 +88523,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -84773,7 +88543,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -85168,7 +88942,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -85200,7 +88978,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -85344,7 +89126,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -85360,7 +89146,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -85643,7 +89433,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -85970,7 +89761,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -85986,7 +89781,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -86050,7 +89849,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -86082,7 +89882,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -86646,7 +90450,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -86662,7 +90467,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -86694,7 +90504,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -86710,7 +90525,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -86726,7 +90542,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -86742,7 +90563,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -86758,7 +90583,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -86774,7 +90604,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -86790,7 +90625,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -86806,7 +90646,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -86822,7 +90667,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -86838,7 +90688,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -86854,7 +90709,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -86870,7 +90730,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -86886,7 +90751,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -87073,7 +90943,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -87105,7 +90976,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -87137,7 +91012,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -87153,7 +91032,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -87281,7 +91164,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -87313,7 +91197,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -87329,7 +91217,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -87345,7 +91234,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -87393,7 +91286,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -87425,7 +91322,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -87441,7 +91342,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -87526,7 +91431,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -87872,7 +91781,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -88112,7 +92025,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -88389,7 +92303,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -88405,7 +92320,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -88437,7 +92353,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -88581,7 +92498,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -88597,7 +92518,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -88613,7 +92538,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -89209,7 +93138,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -89225,7 +93155,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -89241,7 +93175,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -89273,7 +93212,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -89289,7 +93233,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -89528,7 +93477,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -89544,7 +93498,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -89560,7 +93515,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -89576,7 +93532,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -89592,7 +93553,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -89933,7 +93899,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -90045,7 +94012,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90061,7 +94029,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90077,7 +94046,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90093,7 +94063,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -90109,7 +94083,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90125,7 +94100,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -90247,7 +94226,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90263,7 +94243,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -90279,7 +94260,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -90353,7 +94335,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -90417,7 +94400,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -90795,7 +94783,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -90827,7 +94819,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -90843,7 +94840,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -90859,7 +94860,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -90875,7 +94880,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -91003,7 +95013,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -91035,7 +95046,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -91051,7 +95063,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -91115,7 +95131,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -91131,7 +95148,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -91163,7 +95184,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -91179,7 +95204,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -91362,7 +95391,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -91972,7 +96002,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -92004,7 +96038,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -92654,7 +96692,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -92670,7 +96712,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -92686,7 +96729,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -92718,7 +96765,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -92734,7 +96786,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -92867,7 +96920,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -92899,7 +96953,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -92915,7 +96970,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -92931,7 +96987,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -92947,7 +97004,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -92963,7 +97021,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -92979,7 +97041,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -92995,7 +97058,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -93011,7 +97078,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -93027,7 +97099,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -93043,7 +97119,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -93059,7 +97136,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -93525,7 +97606,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -93541,7 +97623,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -93557,7 +97643,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -93573,7 +97660,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -93605,7 +97693,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -93653,7 +97742,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -93701,7 +97794,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -93717,7 +97814,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -93869,7 +97967,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -93885,7 +97984,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -93901,7 +98005,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -93917,7 +98025,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -93933,7 +98045,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -93949,7 +98065,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94045,7 +98166,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94061,7 +98186,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -94077,7 +98206,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -94223,7 +98356,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -94239,7 +98377,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94255,7 +98394,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94271,7 +98411,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94287,7 +98428,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -94303,7 +98449,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94319,7 +98466,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -94351,7 +98503,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -94367,7 +98520,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -94383,7 +98537,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -94399,7 +98557,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -94415,7 +98578,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -94431,7 +98595,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -94447,7 +98616,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -94463,7 +98633,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -94495,7 +98666,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -94511,7 +98683,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -94527,7 +98704,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -94543,7 +98721,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -94559,7 +98738,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -94575,7 +98759,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -94671,7 +98856,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94703,7 +98889,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -94735,7 +98926,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94767,7 +98959,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -94783,7 +98976,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -94879,7 +99073,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94895,7 +99093,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94911,7 +99114,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94943,7 +99150,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94959,7 +99170,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94975,7 +99190,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -94991,7 +99210,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -95113,7 +99333,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -95129,7 +99350,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -95606,7 +99831,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -95654,7 +99880,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -95670,7 +99900,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -95782,7 +100013,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -95798,7 +100033,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -95814,7 +100053,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -95830,7 +100074,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -95846,7 +100094,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -95878,7 +100127,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -96227,7 +100480,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -96259,7 +100516,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -96275,7 +100533,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -96307,7 +100569,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -96587,7 +100853,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -96883,7 +101150,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -97168,7 +101436,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -97301,7 +101570,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -97317,7 +101587,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -97333,7 +101607,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -97349,7 +101627,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -97365,7 +101647,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -97514,7 +101800,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -97674,7 +101964,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -97924,7 +102215,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -97940,7 +102232,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -97972,7 +102268,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -98004,7 +102301,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -98020,7 +102322,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -98105,7 +102411,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -98137,7 +102444,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -98153,7 +102461,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "ACE Moorestown"
+    "subFor": "ACE Moorestown",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -98286,7 +102595,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -98414,7 +102727,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -98446,7 +102760,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -98494,7 +102809,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -99053,7 +103369,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
+    "subFor": "Dill Dinkers Hatboro",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -99261,7 +103578,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -99277,7 +103595,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -99394,7 +103713,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -99442,7 +103762,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler"
+    "subFor": "Allstar Pickler",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -99554,7 +103875,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99570,7 +103896,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99586,7 +103916,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99602,7 +103937,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99634,7 +103974,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -99719,7 +104060,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99735,7 +104080,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -99751,7 +104097,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99767,7 +104118,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -99868,7 +104220,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99884,7 +104241,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99916,7 +104278,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99932,7 +104299,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99948,7 +104320,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -99964,7 +104341,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -99980,7 +104361,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -100081,7 +104467,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -100113,7 +104504,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -100129,7 +104525,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -100145,7 +104545,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -100161,7 +104562,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -100177,7 +104583,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -100262,7 +104673,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -100294,7 +104706,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -100310,7 +104723,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -100400,7 +104814,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -100416,7 +104835,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -100432,7 +104852,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -100448,7 +104873,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -100480,7 +104906,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -100496,7 +104927,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -100720,7 +105152,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -100960,7 +105396,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -100992,7 +105432,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -101008,7 +105452,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -101040,7 +105489,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -101072,7 +105522,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -101433,7 +105887,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -101465,7 +105923,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101497,7 +105956,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -101529,7 +105992,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -101630,7 +106094,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101646,7 +106111,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101662,7 +106128,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -101678,7 +106149,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101694,7 +106166,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -101779,7 +106252,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101795,7 +106269,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101811,7 +106286,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101827,7 +106303,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101843,7 +106320,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly"
+    "subFor": "Bounce Philly",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -101928,7 +106410,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -101944,7 +106431,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -101960,7 +106448,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -101976,7 +106468,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -101992,7 +106489,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -102008,7 +106506,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -102093,7 +106596,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -102109,7 +106613,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102125,7 +106634,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102141,7 +106654,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -102157,7 +106671,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102173,7 +106691,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -102247,7 +106770,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -102263,7 +106787,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102279,7 +106808,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -102295,7 +106825,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102311,7 +106845,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -102343,7 +106882,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -102465,7 +107005,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -102481,7 +107026,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -102497,7 +107046,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -102513,7 +107067,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Players Courtyard"
+    "subFor": "Players Courtyard",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -102678,7 +107236,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -102694,7 +107256,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -102995,7 +107561,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -103027,7 +107598,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -103075,7 +107647,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -103107,7 +107683,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103123,7 +107703,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103139,7 +107723,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103171,7 +107759,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -103294,7 +107886,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -103310,7 +107907,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -103326,7 +107924,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -103342,7 +107945,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -103358,7 +107962,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -103374,7 +107979,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -103390,7 +107996,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -103422,7 +108029,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -103454,7 +108062,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -103470,7 +108079,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -103486,7 +108096,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -103502,7 +108113,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -103518,7 +108134,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -103534,7 +108151,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -103664,7 +108282,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -103680,7 +108303,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -103728,7 +108355,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -103760,7 +108388,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103792,7 +108424,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103808,7 +108444,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103840,7 +108480,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces"
+    "subFor": "Premiere Aces",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -103968,7 +108612,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -103984,7 +108632,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -104000,7 +108649,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -104016,7 +108666,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -104048,7 +108703,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -104064,7 +108724,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -104080,7 +108741,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -104112,7 +108778,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -104128,7 +108795,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -104144,7 +108812,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -104160,7 +108833,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -104176,7 +108850,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -104306,7 +108984,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -104322,7 +109005,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -104338,7 +109026,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -104354,7 +109047,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -104370,7 +109068,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -104386,7 +109088,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -104402,7 +109105,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -104418,7 +109125,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -104434,7 +109146,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -104450,7 +109163,12 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -104466,7 +109184,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -104514,7 +109233,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
