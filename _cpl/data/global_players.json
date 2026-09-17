@@ -46343,5 +46343,21 @@
     "lastSeen": "2026-09",
     "duprNumericId": 6162650611,
     "duprProvisional": false
+  },
+  {
+    "playerId": "cef5e952-96d9-473e-8059-ccb6705e31fe",
+    "firstName": "Carl",
+    "lastName": "Nath",
+    "dupr": "EWPROM",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "b0c386a2-b875-4432-b5ef-e248a87d85dc",
+    "firstName": "Joanna",
+    "lastName": "Zhang",
+    "dupr": "V2MMG7",
+    "duprRating": null,
+    "lastSeen": "2026-09"
   }
 ]

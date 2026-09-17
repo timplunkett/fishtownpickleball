@@ -209,9 +209,9 @@
       "weekNumber": 4,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 618,
+      "awayPoints": 597,
+      "endResult": "home",
       "scheduledTime": "2026-09-16T19:00:00",
       "homeName": "Monroe",
       "awayName": "Flemington"
