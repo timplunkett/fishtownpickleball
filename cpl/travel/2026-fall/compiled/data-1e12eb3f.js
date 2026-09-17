@@ -7214,7 +7214,7 @@
    "winPct": 37.5,
    "diff": -17,
    "ppg": 18.1,
-   "leagueRank": 481,
+   "leagueRank": 483,
    "rating": -0.5,
    "ratingGames": 8,
    "confidence": 56,
@@ -10433,7 +10433,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 428,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10462,7 +10462,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 498,
+   "leagueRank": 500,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10491,7 +10491,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 433,
+   "leagueRank": 434,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10520,7 +10520,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 477,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 478,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10578,7 +10578,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 489,
+   "leagueRank": 491,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 494,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10636,7 +10636,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 466,
+   "leagueRank": 468,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10723,7 +10723,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 440,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10752,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10781,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 493,
+   "leagueRank": 495,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 488,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 451,
+   "leagueRank": 453,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 483,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,7 +10926,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 447,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 429,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11013,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 470,
+   "leagueRank": 472,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11071,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 487,
+   "leagueRank": 489,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 491,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11187,7 +11187,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 464,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 472,
+   "leagueRank": 474,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 502,
+   "leagueRank": 504,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11274,7 +11274,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 456,
+   "leagueRank": 458,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 482,
+   "leagueRank": 484,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11332,7 +11332,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 496,
+   "leagueRank": 498,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 450,
+   "leagueRank": 452,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11448,7 +11448,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11477,7 +11477,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 442,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11506,7 +11506,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 445,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11535,7 +11535,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11564,7 +11564,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 457,
+   "leagueRank": 459,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 458,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 463,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11680,7 +11680,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 439,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 473,
+   "leagueRank": 475,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11825,7 +11825,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 460,
+   "leagueRank": 462,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11883,7 +11883,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 497,
+   "leagueRank": 499,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11912,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 470,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29136,7 +29136,361 @@
    "home": "One Love",
    "away": "Monroe",
    "time": "2026-09-19T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Cheryl Parker",
+      "Keith Seager"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bodner",
+      "David Katz"
+     ],
+     "a": [
+      "Olga Turova",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Santopietro",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Filomena Rega",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Collins",
+      "Henry Dornemann"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Cheryl Parker",
+      "Deirdre Monahan"
+     ],
+     "a": [
+      "Olga Turova",
+      "Filomena Rega"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Tracy Kaban",
+      "Michele Collins"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Bonnie Russo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Phillip Perry",
+      "David Katz"
+     ],
+     "a": [
+      "Anthony Manzo",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Henry Dornemann",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Bob Debarge",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Cheryl Parker",
+      "Keith Seager"
+     ],
+     "a": [
+      "Olga Turova",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bodner",
+      "David Katz"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Santopietro",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Collins",
+      "Henry Dornemann"
+     ],
+     "a": [
+      "Bonnie Russo",
+      "Bob Debarge"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Cheryl Parker",
+      "Deirdre Monahan"
+     ],
+     "a": [
+      "Olga Turova",
+      "Filomena Rega"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Michele Collins",
+      "Tracy Kaban"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Bonnie Russo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Katz",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Tiran Rishon",
+      "Bob Debarge"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Henry Dornemann",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Jeffrey Quinlan",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Deirdre Monahan",
+      "Keith Seager"
+     ],
+     "a": [
+      "Olga Turova",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Collins",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tracy Kaban",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Filomena Rega",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Santopietro",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Cheryl Parker",
+      "Amy Santopietro"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Filomena Rega"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Bodner",
+      "Deirdre Monahan"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Bonnie Russo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Erik Harrison",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Oleg Goldinberg",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Henry Dornemann",
+      "Keith Seager"
+     ],
+     "a": [
+      "Jeffrey Quinlan",
+      "Bob Debarge"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Deirdre Monahan",
+      "Keith Seager"
+     ],
+     "a": [
+      "Filomena Rega",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Michele Collins",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Tracy Kaban",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Olga Turova",
+      "Bob Debarge"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Amy Santopietro",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Bonnie Russo",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Tracy Kaban",
+      "Cheryl Parker"
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Deirdre Monahan",
+      "Janet Bodner"
+     ],
+     "a": [
+      "Amy Farrell",
+      "Filomena Rega"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Phillip Perry",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Tiran Rishon",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Keith Seager",
+      "Henry Dornemann"
+     ],
+     "a": [
+      "Jeffrey Quinlan",
+      "Bob Debarge"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -29555,8 +29909,8 @@
       ""
      ],
      "a": [
-      "Suzanne Garcia",
-      "David Mcdonough"
+      "Christine Fletcher",
+      "Tom Giunta"
      ]
     },
     {
@@ -29577,8 +29931,8 @@
       ""
      ],
      "a": [
-      "Danya George",
-      "Tom Giunta"
+      "Tracy Giunta",
+      "Edward Verish"
      ]
     },
     {
@@ -29588,7 +29942,7 @@
       ""
      ],
      "a": [
-      "Christine Fletcher",
+      "Suzanne Garcia",
       "Craig Mehnert"
      ]
     },
@@ -29599,7 +29953,7 @@
       ""
      ],
      "a": [
-      "Suzanne Garcia",
+      "Xiaojun Yuan",
       "Jill Nixon"
      ]
     },
@@ -29611,194 +29965,7 @@
      ],
      "a": [
       "Tracy Giunta",
-      "Xiaojun Yuan"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frank Choi",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Craig Mehnert",
-      "Edward Verish"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "David Mcdonough"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Danya George",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Christine Fletcher",
-      "Edward Verish"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Christine Fletcher",
-      "Xiaojun Yuan"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jill Nixon",
       "Danya George"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Craig Mehnert",
-      "Frank Choi"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "David Mcdonough",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jill Nixon",
-      "Edward Verish"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Danya George",
-      "Craig Mehnert"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Frank Choi"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jill Nixon",
-      "Christine Fletcher"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Danya George"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Edward Verish",
-      "David Mcdonough"
      ]
     },
     {
@@ -29813,6 +29980,28 @@
      ]
     },
     {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Mehnert",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "David Mcdonough"
+     ]
+    },
+    {
      "t": "mixed",
      "h": [
       "",
@@ -29820,7 +30009,7 @@
      ],
      "a": [
       "Danya George",
-      "Craig Mehnert"
+      "Joseph Koerner"
      ]
     },
     {
@@ -29831,6 +30020,171 @@
      ],
      "a": [
       "Christine Fletcher",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Xiaojun Yuan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "Tracy Giunta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Giunta",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "Suzanne Garcia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "Danya George"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Verish",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
       "Tom Giunta"
      ]
     },
@@ -29853,7 +30207,7 @@
      ],
      "a": [
       "Suzanne Garcia",
-      "David Mcdonough"
+      "Craig Mehnert"
      ]
     },
     {
@@ -29875,7 +30229,7 @@
      ],
      "a": [
       "Jill Nixon",
-      "Tracy Giunta"
+      "Christine Fletcher"
      ]
     },
     {
@@ -29885,7 +30239,7 @@
       ""
      ],
      "a": [
-      "Craig Mehnert",
+      "Tom Giunta",
       "David Mcdonough"
      ]
     },
@@ -29897,7 +30251,7 @@
      ],
      "a": [
       "Frank Choi",
-      "Joseph Koerner"
+      "Craig Mehnert"
      ]
     }
    ]
@@ -30858,6 +31212,7 @@
   "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
   "Cynthia Wojtkowski": "26b8531a-1f4c-4ffd-86ac-3ffb92eeee55",
   "Christopher Chierchia": "2a0a0727-3550-460f-a019-4cdfe310469a",
+  "Mandy Collins": "2a59237c-117d-426c-b266-1b968c1a56c0",
   "Dan Sweetman": "2f212831-0629-494e-90b0-d16fc59fc666",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
@@ -30889,6 +31244,7 @@
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Richard Tang": "c3467776-5ed3-43a0-bcbf-144c79f32561",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
+  "Kayla Gipson": "cac68244-9c27-49bf-9354-1e9282427426",
   "Sharon Pastore": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
   "Carl Nath": "cef5e952-96d9-473e-8059-ccb6705e31fe",
   "Nipam Patel": "dadd5cb5-8165-44be-8553-8774bc0949e2",
@@ -31021,7 +31377,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T15:55:44.641Z";
+  DATA.meta.asOf = "2026-09-17T20:47:12.303Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -4790,8 +4790,8 @@
    "name": "Joseph Albanese",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 6,
@@ -4804,7 +4804,6 @@
    "genderLosses": 3,
    "clutchWins": 2,
    "clutchLosses": 5,
-   "playerId": "ef0d1425-3573-439e-a197-69a837d1b27d",
    "winPct": 50,
    "diff": 19,
    "ppg": 19.7,
@@ -4813,7 +4812,8 @@
    "ratingGames": 12,
    "confidence": 68,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": -0.7
+   "strengthOfOpponents": -0.7,
+   "playerId": "ef0d1425-3573-439e-a197-69a837d1b27d"
   },
   {
    "name": "Jessica Zook",
@@ -15018,8 +15018,7 @@
    "subs": [
     "Sara Wiggert",
     "Marc Padre",
-    "Kerry Shannon",
-    "Joseph Albanese"
+    "Kerry Shannon"
    ]
   },
   {
@@ -29440,8 +29439,7 @@
     }
    ],
    "subs": [
-    "Arpita Vaidya",
-    "Joseph Albanese"
+    "Arpita Vaidya"
    ]
   },
   {
@@ -31810,7 +31808,7 @@
      ],
      "a": [
       "Elliott Albanese",
-      ""
+      "Joseph Albanese"
      ]
     },
     {
@@ -31832,7 +31830,7 @@
      ],
      "a": [
       "Maria Valencia",
-      ""
+      "Joseph Albanese"
      ]
     },
     {
@@ -31909,7 +31907,7 @@
      ],
      "a": [
       "Kevin Sun",
-      ""
+      "Joseph Albanese"
      ]
     },
     {
@@ -31953,7 +31951,7 @@
      ],
      "a": [
       "Maria Valencia",
-      ""
+      "Joseph Albanese"
      ]
     },
     {
@@ -31997,7 +31995,7 @@
      ],
      "a": [
       "Kevin Sun",
-      ""
+      "Joseph Albanese"
      ]
     },
     {
@@ -32085,7 +32083,7 @@
      ],
      "a": [
       "Tristan Lane",
-      ""
+      "Joseph Albanese"
      ]
     }
    ]
@@ -34886,7 +34884,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T15:56:23.292Z";
+  DATA.meta.asOf = "2026-09-17T20:47:53.730Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

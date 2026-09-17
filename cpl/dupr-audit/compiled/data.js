@@ -9008,6 +9008,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Joseph Albanese",
+   "playerId": "ef0d1425-3573-439e-a197-69a837d1b27d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Joseph Calcagno",
    "playerId": "8913a682-b086-4e45-98fa-4b8bd871f250",
    "team": "Premiere Aces",
@@ -16691,6 +16698,13 @@ window.DUPR_AUDIT = {
    "playerId": "f3172220-bb2d-4714-892c-5bb3d728239e",
    "team": "Players Courtyard",
    "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Suzanne Leon",
+   "playerId": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
+   "team": "Premiere",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {
