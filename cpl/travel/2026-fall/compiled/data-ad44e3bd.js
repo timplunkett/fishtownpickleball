@@ -3513,9 +3513,9 @@
   {
    "name": "Eileen Clark",
    "gender": "Female",
-   "team": "Premiere",
-   "matches": 0,
-   "outsideSub": true,
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 22,
    "wins": 3,
@@ -3528,7 +3528,6 @@
    "genderLosses": 19,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
    "winPct": 13.6,
    "diff": -111,
    "ppg": 15.3,
@@ -3537,7 +3536,8 @@
    "ratingGames": 22,
    "confidence": 80,
    "strengthOfPartners": -1.8,
-   "strengthOfOpponents": 1.2
+   "strengthOfOpponents": 1.2,
+   "playerId": "2abe95e2-0e73-49b6-aca8-689041f98b94"
   },
   {
    "name": "Denise Stevens",
@@ -4574,7 +4574,7 @@
    "gl": 62,
    "diff": 16,
    "gameDiff": -28,
-   "power": -0.3,
+   "power": -0.4,
    "powerRank": 4,
    "pod": 1,
    "reportedPod": "West",
@@ -4604,7 +4604,7 @@
    "gl": 89,
    "diff": -846,
    "gameDiff": -82,
-   "power": -3.3,
+   "power": -3.6,
    "powerRank": 5,
    "pod": 1,
    "reportedPod": "East",
@@ -8624,7 +8624,6 @@
    ],
    "subs": [
     "Susan Goeckeler",
-    "Eileen Clark",
     "Kim Allaga",
     "Lynne Silber",
     "Beth Pardilla",
@@ -10952,7 +10951,6 @@
     }
    ],
    "subs": [
-    "Eileen Clark",
     "Sherry Sili"
    ]
   },
@@ -14268,7 +14266,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T02:36:14.558Z";
+  DATA.meta.asOf = "2026-09-17T10:44:05.445Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

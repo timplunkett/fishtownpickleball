@@ -812,7 +812,7 @@
       "gender": "Female",
       "dupr": "8E7RZO",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
       "wins": 3,

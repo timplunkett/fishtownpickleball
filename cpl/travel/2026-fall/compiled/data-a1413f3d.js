@@ -33549,8 +33549,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hien Do",
+      "David Rigas"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -33560,8 +33560,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Ly",
+      "Hiep Pham"
      ],
      "a": [
       "Jessica Hyman",
@@ -33571,8 +33571,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "Adriene Khon"
      ],
      "a": [
       "Alexandra Smith",
@@ -33582,8 +33582,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "David Brandolph"
      ],
      "a": [
       "Kelly Feng",
@@ -33593,8 +33593,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cuerquis",
+      "Christine Horton"
      ],
      "a": [
       "Alexandra Smith",
@@ -33604,8 +33604,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "Amy Ly"
      ],
      "a": [
       "Jessica Hyman",
@@ -33615,8 +33615,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hiep Pham",
+      "Adriene Khon"
      ],
      "a": [
       "Se Jun Kim",
@@ -33626,8 +33626,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Clever",
+      "David Brandolph"
      ],
      "a": [
       "Jj Pospiech",
@@ -33637,8 +33637,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "Adriene Khon"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -33648,8 +33648,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Horton",
+      "Doug Horton"
      ],
      "a": [
       "Jessica Hyman",
@@ -33659,8 +33659,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cuerquis",
+      "Jordan Clever"
      ],
      "a": [
       "Sophy Siv",
@@ -33670,8 +33670,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "David Brandolph"
      ],
      "a": [
       "Alexandra Smith",
@@ -33681,8 +33681,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hien Do",
+      "Christine Horton"
      ],
      "a": [
       "Kelly Feng",
@@ -33692,8 +33692,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Amy Ly"
      ],
      "a": [
       "Alexandra Smith",
@@ -33703,8 +33703,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Clever",
+      "Hiep Pham"
      ],
      "a": [
       "Matthew Mintz",
@@ -33714,8 +33714,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Rigas",
+      "Doug Horton"
      ],
      "a": [
       "Se Jun Kim",
@@ -33725,8 +33725,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Horton",
+      "Adriene Khon"
      ],
      "a": [
       "Kelly Feng",
@@ -33736,8 +33736,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hien Do",
+      "Doug Horton"
      ],
      "a": [
       "Jessica Hyman",
@@ -33747,8 +33747,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Ly",
+      "Hiep Pham"
      ],
      "a": [
       "Sophy Siv",
@@ -33758,8 +33758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "David Brandolph"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -33769,8 +33769,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "Amy Ly"
      ],
      "a": [
       "Alexandra Smith",
@@ -33780,8 +33780,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cuerquis",
+      "Hien Do"
      ],
      "a": [
       "Sophy Siv",
@@ -33791,8 +33791,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Clever",
+      "Doug Horton"
      ],
      "a": [
       "Arjun Kumble",
@@ -33802,8 +33802,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "David Rigas"
      ],
      "a": [
       "Matthew Mintz",
@@ -33813,8 +33813,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Zook",
+      "Hiep Pham"
      ],
      "a": [
       "Alexandra Smith",
@@ -33824,8 +33824,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cuerquis",
+      "Jordan Clever"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -33835,8 +33835,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Adriene Khon"
      ],
      "a": [
       "Kelly Feng",
@@ -33846,8 +33846,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Horton",
+      "Doug Horton"
      ],
      "a": [
       "Sophy Siv",
@@ -33857,8 +33857,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cuerquis",
+      "Amy Ly"
      ],
      "a": [
       "Alexandra Smith",
@@ -33868,8 +33868,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hien Do",
+      "Shania Bui"
      ],
      "a": [
       "Lindsey Allumbaugh",
@@ -33879,8 +33879,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hiep Pham",
+      "Adriene Khon"
      ],
      "a": [
       "Jj Pospiech",
@@ -33890,8 +33890,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "David Rigas"
      ],
      "a": [
       "Samuel Lee",
@@ -34886,7 +34886,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T02:34:16.369Z";
+  DATA.meta.asOf = "2026-09-17T10:42:29.772Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
