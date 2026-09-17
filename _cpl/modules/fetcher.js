@@ -182,9 +182,18 @@ function slimMatchupDetails(details) {
     if (d.matchupPlayerStats && isCompleted) {
       // For completed matchups, keep only players who actually participated.
       // Players with gamesPlayed == 0 contributed nothing and are never used.
+      //
+      // The API doesn't hold this per-matchup list in a stable order either —
+      // the same completed matchup's stats have come back with players
+      // swapped pairwise between two fetches, nothing about any of them
+      // changed. Same failure family as the players.json rank-order churn and
+      // the matchups.json fetch-order churn above: sort by identity, not by
+      // whatever position the API happened to hand back. comparePlayers
+      // already does exactly this (playerId, then isSub/teamId to break ties)
+      // and carries no rank dependency, so it's reused as-is here.
       const arr = d.matchupPlayerStats.$values || d.matchupPlayerStats;
       const slimArr = Array.isArray(arr)
-        ? arr.map(p => pickKeys(p, MATCHUP_PLAYER_STATS_KEEP)).filter(p => p.gamesPlayed)
+        ? arr.map(p => pickKeys(p, MATCHUP_PLAYER_STATS_KEEP)).filter(p => p.gamesPlayed).sort(comparePlayers)
         : [];
       slimmed.matchupPlayerStats = { $values: slimArr };
     }
@@ -831,7 +840,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
 
 module.exports = {
   downloadLatestApiData, downloadSeason, slugForDivision, slimPlayers, comparePlayers,
-  slimMatchups, slimPlayoffMatchups, compareMatchups,
+  slimMatchups, slimPlayoffMatchups, compareMatchups, slimMatchupDetails,
   assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
 };
