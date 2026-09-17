@@ -730,8 +730,8 @@
    "name": "Matthew Schwartz",
    "gender": "Male",
    "team": "Premiere",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 13,
@@ -744,7 +744,6 @@
    "genderLosses": 3,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
    "winPct": 81.3,
    "diff": 60,
    "ppg": 20.1,
@@ -753,7 +752,8 @@
    "ratingGames": 16,
    "confidence": 74,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f"
   },
   {
    "name": "Rajeeth Nadig",
@@ -7214,7 +7214,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 281,
+   "leagueRank": 282,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7243,7 +7243,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 269,
+   "leagueRank": 270,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7272,7 +7272,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 282,
+   "leagueRank": 283,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7301,7 +7301,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 277,
+   "leagueRank": 278,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7330,7 +7330,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 270,
+   "leagueRank": 271,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7359,7 +7359,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 265,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7388,7 +7388,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 276,
+   "leagueRank": 277,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12431,7 +12431,6 @@
    "subs": [
     "Michael Mazzola",
     "Jim Boy Baring",
-    "Matthew Schwartz",
     "Nacio Marshall"
    ]
   },
@@ -19398,9 +19397,7 @@
      ]
     }
    ],
-   "subs": [
-    "Matthew Schwartz"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -24517,7 +24514,6 @@
    "away": "Flemington",
    "time": "2026-09-15T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 653,
    "awayPoints": 493,
    "homeGW": 26,
@@ -24973,9 +24969,9 @@
     }
    ],
    "subs": [
+    "Elliott Albanese",
     "Christopher Monzon",
-    "Lj Dequina",
-    "Elliott Albanese"
+    "Lj Dequina"
    ]
   },
   {
@@ -28256,7 +28252,273 @@
    "home": "Dill Dinkers Freehold",
    "away": "Premiere",
    "time": "2026-09-22T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eden Ksendzovsky",
+      "Jason Feldman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Giasi",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Antonelli",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Feldman",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Giasi",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Antonelli",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Jason Feldman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Antonelli",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Christopher Giasi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Jason Feldman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Christopher Giasi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eden Ksendzovsky",
+      "Daniel Antonelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Giasi",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Daniel Antonelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Jason Feldman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Schwartz",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Giasi",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Daniel Antonelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Feldman",
+      "Joseph Lynskey"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -28890,6 +29152,7 @@
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
+  "Peter David": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
@@ -28897,7 +29160,7 @@
  },
  "meta": {
   "matchesPlayed": 35,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-4",
   "totalPlayers": 265,
   "ratingHistoryWeeks": [
@@ -29002,7 +29265,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T03:31:55.398Z";
+  DATA.meta.asOf = "2026-09-17T15:59:08.852Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

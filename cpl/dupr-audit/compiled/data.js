@@ -7083,6 +7083,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jaime Luongo",
+   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Jaime Padilla",
    "playerId": "aa73e326-7295-4153-8f57-b4903877923d",
    "team": "Premiere",
@@ -12231,6 +12238,13 @@ window.DUPR_AUDIT = {
    "name": "Matthew Schwartz",
    "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
    "team": "Premiere",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Matthew Schwartz",
+   "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
+   "team": "Premiere",
    "slug": "a1413f3d",
    "gender": "Male"
   },
@@ -13947,13 +13961,6 @@ window.DUPR_AUDIT = {
    "playerId": "8354a910-27fd-4e09-85bd-499f5cf84237",
    "team": "PCKLRAMA",
    "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
-   "name": "Paula Ro",
-   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
-   "team": "Pickleball Kingdom Hillsborough",
-   "slug": "6619816f",
    "gender": "Female"
   },
   {
