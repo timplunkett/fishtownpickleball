@@ -32998,8 +32998,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -33025,8 +33025,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -33043,8 +33043,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -33059,8 +33059,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -33075,8 +33075,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -33091,8 +33091,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -33107,8 +33107,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33123,8 +33123,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33139,8 +33139,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33155,8 +33155,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33171,8 +33171,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33187,8 +33187,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -33203,8 +33203,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

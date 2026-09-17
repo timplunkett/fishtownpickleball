@@ -27786,7 +27786,6 @@
    "away": "Picklr Newtown",
    "time": "2026-09-15T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 636,
    "awayPoints": 554,
    "homeGW": 22,
@@ -28898,7 +28897,7 @@
  },
  "meta": {
   "matchesPlayed": 35,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-4",
   "totalPlayers": 265,
   "ratingHistoryWeeks": [
@@ -29003,7 +29002,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T02:36:46.746Z";
+  DATA.meta.asOf = "2026-09-17T03:31:55.398Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

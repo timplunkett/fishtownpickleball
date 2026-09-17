@@ -245,9 +245,9 @@
       "weekNumber": 4,
       "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 648,
+      "awayPoints": 563,
+      "endResult": "home",
       "scheduledTime": "2026-09-16T19:30:00",
       "homeName": "Bounce Malvern",
       "awayName": "Jersey Devil"

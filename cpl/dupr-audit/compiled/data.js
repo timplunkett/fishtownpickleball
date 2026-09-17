@@ -8350,6 +8350,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Joan Glass",
+   "playerId": "38739b70-06ec-41c1-bcfb-18a3c539951d",
+   "team": "Dill Dinkers Lansdale",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Joan Harris",
    "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
    "team": "Pickleball Palace",

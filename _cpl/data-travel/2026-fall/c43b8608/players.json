@@ -2008,7 +2008,7 @@
       "gender": "Female",
       "dupr": "0QQ504",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
       "teamName": "Dill Dinkers Lansdale",
       "wins": 7,

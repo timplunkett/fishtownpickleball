@@ -3369,8 +3369,8 @@
    "name": "Joan Glass",
    "gender": "Female",
    "team": "Dill Dinkers Lansdale",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 7,
@@ -3383,7 +3383,6 @@
    "genderLosses": 4,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "38739b70-06ec-41c1-bcfb-18a3c539951d",
    "winPct": 63.6,
    "diff": 17,
    "ppg": 19.4,
@@ -3392,7 +3391,8 @@
    "ratingGames": 11,
    "confidence": 64,
    "strengthOfPartners": -0.4,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "38739b70-06ec-41c1-bcfb-18a3c539951d"
   },
   {
    "name": "Rachel Shirley",
@@ -19870,7 +19870,6 @@
     }
    ],
    "subs": [
-    "Joan Glass",
     "Tinglan Zhao"
    ]
   },
@@ -24998,7 +24997,6 @@
    ],
    "subs": [
     "Bart Allgeier",
-    "Joan Glass",
     "Larry Minsky"
    ]
   },
@@ -25626,7 +25624,7 @@
      ],
      "a": [
       "Zhihong Ge",
-      "Herald Barber"
+      "Stephen Levitt"
      ]
     },
     {
@@ -25648,7 +25646,7 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Stephen Levitt"
+      "Herald Barber"
      ]
     },
     {
@@ -25680,7 +25678,7 @@
       ""
      ],
      "a": [
-      "Margaret Bayse",
+      "Zhihong Ge",
       "Ting Chen"
      ]
     },
@@ -25724,7 +25722,7 @@
       ""
      ],
      "a": [
-      "Zhihong Ge",
+      "Margaret Bayse",
       "Chris Shung"
      ]
     },
@@ -26753,7 +26751,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T22:17:15.558Z";
+  DATA.meta.asOf = "2026-09-17T03:30:19.095Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

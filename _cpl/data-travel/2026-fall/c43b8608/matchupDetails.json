@@ -9761,7 +9761,7 @@
           {
             "playerId": "38739b70-06ec-41c1-bcfb-18a3c539951d",
             "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 5,
             "wins": 4,
             "losses": 1,
@@ -17366,7 +17366,7 @@
           {
             "playerId": "38739b70-06ec-41c1-bcfb-18a3c539951d",
             "teamId": "e5114924-83e7-42ed-b624-63576fe24fb0",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 6,
             "wins": 3,
             "losses": 3,
@@ -18719,7 +18719,7 @@
               "homePlayerId1": null,
               "homePlayerId2": null,
               "awayPlayerId1": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7",
-              "awayPlayerId2": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
+              "awayPlayerId2": "d8be7fe2-86ab-439d-b245-fe02733b80d3",
               "homeScore": null,
               "awayScore": null,
               "matchType": "mixed"
@@ -18739,7 +18739,7 @@
               "homePlayerId1": null,
               "homePlayerId2": null,
               "awayPlayerId1": "941eff8b-b056-483d-b927-48cf751a04d9",
-              "awayPlayerId2": "d8be7fe2-86ab-439d-b245-fe02733b80d3",
+              "awayPlayerId2": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
               "homeScore": null,
               "awayScore": null,
               "matchType": "mixed"
@@ -18768,7 +18768,7 @@
               "matchupId": "377664a0-62a6-4678-91a6-ede98ec31e67",
               "homePlayerId1": null,
               "homePlayerId2": null,
-              "awayPlayerId1": "941eff8b-b056-483d-b927-48cf751a04d9",
+              "awayPlayerId1": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7",
               "awayPlayerId2": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75",
               "homeScore": null,
               "awayScore": null,
@@ -18808,7 +18808,7 @@
               "matchupId": "377664a0-62a6-4678-91a6-ede98ec31e67",
               "homePlayerId1": null,
               "homePlayerId2": null,
-              "awayPlayerId1": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7",
+              "awayPlayerId1": "941eff8b-b056-483d-b927-48cf751a04d9",
               "awayPlayerId2": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
               "homeScore": null,
               "awayScore": null,
