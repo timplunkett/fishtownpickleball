@@ -2219,6 +2219,13 @@ function describeProjectedOutcome(expectation) {
 // game hidden — the pairs that are settled are the useful part.
 const TBD_SLOT = '<span class="tbd-slot" title="Not posted yet">TBD</span>';
 
+// Escapes `name` and appends the sub-tag pill when `isSub` is truthy. The one
+// place all per-player sub badges should route through, so a name never
+// silently drops its tag depending on which side of a match is rendering it.
+function nameWithSubTag(name, isSub) {
+  return escapeHtml(name) + (isSub ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : '');
+}
+
 function renderPendingPair(names) {
   return (names || []).map((name) => (name ? escapeHtml(name) : TBD_SLOT)).join(' / ');
 }
@@ -2429,8 +2436,10 @@ function renderGameLogRows(player, projectedGames = []) {
     const forfeitTag = game.ff ? ' <span class="ff-tag">F</span>' : '';
     const partnerCell = game.ff
       ? '<span class="ff-tag" title="Forfeit / walkover — not counted in the rating">forfeit</span>'
-      : escapeHtml(game.with);
-    const opponentCell = game.ff ? '' : `${escapeHtml(game.vs[0])} / ${escapeHtml(game.vs[1])}`;
+      : nameWithSubTag(game.with, game.withSub);
+    const opponentCell = game.ff ? '' : [0, 1]
+      .map((i) => nameWithSubTag(game.vs[i], game.vsSub && game.vsSub[i]))
+      .join(' / ');
     const expectation = game.ff
       ? NO_EXPECTATION
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);

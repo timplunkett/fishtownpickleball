@@ -72,7 +72,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -88,7 +92,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -104,7 +112,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -120,7 +132,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -184,7 +200,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -200,7 +220,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -264,7 +288,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -280,7 +308,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -565,7 +597,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -581,7 +617,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -613,7 +650,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -629,7 +667,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -645,7 +687,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -661,7 +704,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -677,7 +725,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -693,7 +742,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -709,7 +762,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -725,7 +782,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -773,7 +834,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -789,7 +854,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -837,7 +906,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -853,7 +926,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -869,7 +943,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -885,7 +963,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -901,7 +983,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -917,7 +1003,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -933,7 +1023,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1013,7 +1107,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1093,7 +1191,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -1141,7 +1244,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -1157,7 +1261,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -1173,7 +1281,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -1189,7 +1301,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -1205,7 +1322,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -1221,7 +1343,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -1237,7 +1363,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -1253,7 +1383,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -1269,7 +1403,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -1285,7 +1424,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -1445,7 +1588,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -1461,7 +1608,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -1493,7 +1645,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -1509,7 +1665,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -1541,7 +1701,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -1814,7 +1978,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1846,7 +2015,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1862,7 +2035,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1894,7 +2072,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -1910,7 +2092,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -1974,7 +2157,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -2022,7 +2206,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -2054,7 +2239,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -2070,7 +2256,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -2086,7 +2273,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -2118,7 +2309,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -2150,7 +2345,12 @@
     "w": 0,
     "ff": 1,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -2166,7 +2366,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -2182,7 +2386,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -2198,7 +2403,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -2214,7 +2423,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -2230,7 +2443,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -2246,7 +2463,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -2262,7 +2480,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -2278,7 +2497,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -2294,7 +2517,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -2326,7 +2550,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -2358,7 +2587,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -2374,7 +2607,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -2705,7 +2943,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -2721,7 +2963,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -2769,7 +3015,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -2785,7 +3032,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -2801,7 +3049,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -2817,7 +3066,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -2849,7 +3099,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -2865,7 +3116,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -2881,7 +3136,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -2897,7 +3156,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -2913,7 +3176,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -2945,7 +3212,12 @@
     "w": 0,
     "ff": 1,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -2977,7 +3249,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -2993,7 +3266,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -3009,7 +3286,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -3041,7 +3322,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -3073,7 +3355,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -3377,7 +3663,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -3489,7 +3779,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -3601,7 +3895,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -3633,7 +3928,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -3665,7 +3961,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -3681,7 +3978,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -3713,7 +4014,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -3729,7 +4034,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -3745,7 +4055,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -4098,7 +4413,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -4130,7 +4446,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -4162,7 +4482,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -4194,7 +4515,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -4338,7 +4663,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -4354,7 +4680,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -4370,7 +4700,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -4386,7 +4717,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -4418,7 +4750,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -4434,7 +4767,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4450,7 +4787,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4466,7 +4808,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4482,7 +4829,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -4498,7 +4849,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -4514,7 +4870,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4530,7 +4891,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -4546,7 +4911,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -4562,7 +4928,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -4578,7 +4945,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -4626,7 +4994,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -4642,7 +5011,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -4674,7 +5044,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -4706,7 +5077,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -4722,7 +5098,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -4738,7 +5115,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -4754,7 +5132,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -4802,7 +5181,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -4818,7 +5201,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -4834,7 +5221,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -4850,7 +5242,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -4866,7 +5263,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -4882,7 +5284,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -4898,7 +5305,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -4914,7 +5325,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -5151,7 +5566,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -5183,7 +5602,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -5247,7 +5667,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -5279,7 +5703,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -5311,7 +5739,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -5327,7 +5759,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -5343,7 +5779,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -5359,7 +5799,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -5375,7 +5819,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -5391,7 +5836,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -5407,7 +5856,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -5439,7 +5892,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -5455,7 +5913,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -5471,7 +5933,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -5503,7 +5970,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -5689,7 +6160,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -5705,7 +6180,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -5721,7 +6200,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -5753,7 +6236,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -5769,7 +6256,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -5801,7 +6292,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5865,7 +6360,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5897,7 +6396,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -5929,7 +6432,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -5977,7 +6484,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -5993,7 +6504,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -6009,7 +6524,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -6025,7 +6544,11 @@
     "w": 1,
     "ff": 1,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -6340,7 +6863,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -6356,7 +6883,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -6372,7 +6900,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -6388,7 +6920,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -6404,7 +6937,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -6420,7 +6957,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -6452,7 +6990,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -6484,7 +7023,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -6516,7 +7059,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -6532,7 +7079,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -6548,7 +7099,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -6580,7 +7135,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -6596,7 +7155,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -6612,7 +7176,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -6628,7 +7196,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -6644,7 +7216,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -6660,7 +7236,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -6676,7 +7257,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -6708,7 +7293,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -6772,7 +7361,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -6820,7 +7413,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -6836,7 +7433,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -6852,7 +7453,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -6868,7 +7473,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -6884,7 +7493,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -6916,7 +7526,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -6932,7 +7546,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -6948,7 +7566,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -6964,7 +7586,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -6980,7 +7606,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -7012,7 +7639,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -7060,7 +7692,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -7108,7 +7744,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -7124,7 +7761,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -7140,7 +7781,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -7156,7 +7802,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -7188,7 +7838,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -7559,7 +8213,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -7575,7 +8233,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -7591,7 +8253,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -7607,7 +8273,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -7655,7 +8325,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -7671,7 +8345,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -7687,7 +8366,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -7703,7 +8386,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -7751,7 +8438,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -8047,7 +8738,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -8063,7 +8758,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -8095,7 +8795,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -8111,7 +8815,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -8127,7 +8835,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -8143,7 +8856,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -8159,7 +8873,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -8175,7 +8893,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -8223,7 +8945,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -8239,7 +8965,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -8271,7 +9001,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -8335,7 +9069,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8351,7 +9089,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -8367,7 +9106,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -8383,7 +9126,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -8415,7 +9159,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -8575,7 +9323,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -8591,7 +9340,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -8639,7 +9393,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -8655,7 +9413,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -8671,7 +9430,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -8687,7 +9450,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -8703,7 +9467,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -8719,7 +9487,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -8735,7 +9507,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -8767,7 +9544,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -8799,7 +9577,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -8863,7 +9642,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -8911,7 +9691,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -8927,7 +9711,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -8975,7 +9760,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -9007,7 +9793,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -9023,7 +9814,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -9389,7 +10185,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -9405,7 +10205,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -9421,7 +10222,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -9437,7 +10242,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -9453,7 +10263,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -9469,7 +10283,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -9501,7 +10316,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -9549,7 +10365,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -9565,7 +10385,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -9581,7 +10405,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -9629,7 +10457,11 @@
     "w": 1,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -9773,7 +10605,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -9917,7 +10750,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -9933,7 +10770,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -10029,7 +10870,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -10061,7 +10903,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -10093,7 +10936,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -10125,7 +10969,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -10157,7 +11006,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -10173,7 +11026,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -10237,7 +11094,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -10253,7 +11114,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -10285,7 +11150,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -10301,7 +11171,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -10317,7 +11191,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -10349,7 +11227,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -10365,7 +11248,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -10381,7 +11269,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -10639,7 +11531,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10655,7 +11551,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10671,7 +11571,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -10687,7 +11588,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10703,7 +11608,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -10719,7 +11625,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -10735,7 +11645,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -10751,7 +11666,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -10895,7 +11814,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -10911,7 +11834,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -10927,7 +11854,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -10959,7 +11890,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -10975,7 +11910,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -10991,7 +11927,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -11007,7 +11944,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -11039,7 +11980,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -11055,7 +12000,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -11071,7 +12020,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -11087,7 +12040,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -11881,7 +12838,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -11929,7 +12891,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -11993,7 +12956,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -12057,7 +13021,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -12121,7 +13086,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -12185,7 +13151,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -12201,7 +13172,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -12217,7 +13192,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -12233,7 +13212,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -12265,7 +13248,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -12313,7 +13300,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -12345,7 +13336,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -12361,7 +13356,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -12409,7 +13408,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -12457,7 +13461,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -12505,7 +13510,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -12833,7 +13843,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -12929,7 +13940,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -12977,7 +13992,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -12993,7 +14013,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -13009,7 +14033,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -13041,7 +14069,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -13073,7 +14106,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -13121,7 +14158,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -13137,7 +14175,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -13153,7 +14195,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -13169,7 +14215,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -13185,7 +14232,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -13201,7 +14252,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -13217,7 +14272,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -13233,7 +14289,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -13265,7 +14322,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -13281,7 +14339,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -13313,7 +14375,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -13329,7 +14396,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -13345,7 +14416,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -13361,7 +14436,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -13377,7 +14457,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -13393,7 +14474,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -13425,7 +14511,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13441,7 +14531,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13457,7 +14551,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13473,7 +14571,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -13489,7 +14592,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -13505,7 +14613,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13521,7 +14634,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13537,7 +14654,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -13553,7 +14674,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -13569,7 +14695,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -13585,7 +14716,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -13601,7 +14733,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -13649,7 +14782,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -13665,7 +14799,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -14036,7 +15171,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -14132,7 +15268,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -14164,7 +15305,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -14180,7 +15325,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -14196,7 +15342,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -14228,7 +15378,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -14292,7 +15443,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -14340,7 +15495,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -14356,7 +15512,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -14372,7 +15529,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -14404,7 +15562,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -14452,7 +15611,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -14468,7 +15631,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -14500,7 +15667,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -14532,7 +15704,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -14548,7 +15725,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -14564,7 +15746,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14580,7 +15766,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14596,7 +15787,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14612,7 +15807,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14628,7 +15827,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -14644,7 +15848,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -14660,7 +15868,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14676,7 +15888,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -14692,7 +15908,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -14724,7 +15945,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -14756,7 +15981,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -14772,7 +16002,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -14788,7 +16023,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -14977,7 +16216,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -14993,7 +16237,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -15025,7 +16273,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -15041,7 +16294,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -15073,7 +16330,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -15304,7 +16565,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -15320,7 +16585,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -15336,7 +16605,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -15368,7 +16641,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -15400,7 +16677,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -15464,7 +16745,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -15512,7 +16797,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -15608,7 +16894,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -15640,7 +16927,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -15656,7 +16944,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -15672,7 +16964,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -15688,7 +16984,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -15704,7 +17004,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -15720,7 +17024,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -15736,7 +17044,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -15752,7 +17061,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -15768,7 +17081,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -15800,7 +17118,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -15816,7 +17139,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -15832,7 +17156,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -15848,7 +17176,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -16209,7 +17538,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -16241,7 +17575,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -16273,7 +17611,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -16305,7 +17648,11 @@
     "w": 1,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -16385,7 +17732,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -16513,7 +17861,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -16577,7 +17926,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -16593,7 +17946,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -16609,7 +17966,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -16625,7 +17986,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -16641,7 +18006,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -16657,7 +18026,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -16673,7 +18046,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -16737,7 +18114,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -16769,7 +18147,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -16849,7 +18228,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -16881,7 +18264,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -16913,7 +18301,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -16945,7 +18337,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -16961,7 +18358,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -16977,7 +18378,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -16993,7 +18398,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -17009,7 +18419,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -17041,7 +18456,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -17057,7 +18476,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -17325,7 +18748,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -17357,7 +18785,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -17453,7 +18882,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -17485,7 +18915,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -17533,7 +18964,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -17549,7 +18981,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -17613,7 +19050,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -17629,7 +19071,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -17645,7 +19091,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -17661,7 +19108,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -17693,7 +19144,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -17725,7 +19181,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -17741,7 +19198,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -17773,7 +19231,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -18184,7 +19643,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -18200,7 +19663,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -18216,7 +19683,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -18232,7 +19703,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -18296,7 +19771,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -18312,7 +19791,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -18328,7 +19811,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -18376,7 +19863,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -18456,7 +19947,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -18781,7 +20276,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -18925,7 +20421,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -18973,7 +20470,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -18989,7 +20487,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -19133,7 +20632,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -19149,7 +20649,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -19165,7 +20669,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -19197,7 +20705,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -19213,7 +20726,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -19229,7 +20746,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -19245,7 +20767,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -19277,7 +20803,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -19293,7 +20823,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -19309,7 +20844,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -19325,7 +20864,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -19357,7 +20900,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -19373,7 +20920,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -19453,7 +21004,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -19517,7 +21072,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -19533,7 +21089,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -19565,7 +21125,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -19925,7 +21489,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -19941,7 +21509,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -19973,7 +21546,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -19989,7 +21563,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -20005,7 +21583,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -20021,7 +21604,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -20037,7 +21624,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -20053,7 +21645,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -20309,7 +21902,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -20325,7 +21922,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -20341,7 +21942,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -20357,7 +21962,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -20389,7 +21998,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -20421,7 +22034,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -20533,7 +22150,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -20613,7 +22231,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -20978,7 +22600,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -20994,7 +22620,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -21026,7 +22656,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -21058,7 +22689,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -21074,7 +22709,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -21090,7 +22729,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -21122,7 +22762,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -21154,7 +22798,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -21170,7 +22815,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -21202,7 +22852,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -21218,7 +22869,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -21282,7 +22934,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -21314,7 +22967,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -21346,7 +23003,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -21426,7 +23084,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -21522,7 +23181,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -21538,7 +23202,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -21554,7 +23219,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -21570,7 +23240,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -21586,7 +23260,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -21602,7 +23277,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -21618,7 +23297,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -21634,7 +23317,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -21650,7 +23338,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -21698,7 +23390,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -21730,7 +23426,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -22081,7 +23782,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -22145,7 +23850,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -22209,7 +23918,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22225,7 +23938,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22241,7 +23958,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -22273,7 +23994,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -22321,7 +24046,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -22337,7 +24066,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -22353,7 +24086,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -22417,7 +24154,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -22465,7 +24206,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -22497,7 +24239,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -22513,7 +24256,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -22545,7 +24293,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -22561,7 +24313,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -22593,7 +24346,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -22641,7 +24398,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -22657,7 +24418,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -22689,7 +24454,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -22721,7 +24491,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -22769,7 +24540,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -22785,7 +24561,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -22833,7 +24610,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -22849,7 +24630,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -22865,7 +24647,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -22881,7 +24664,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -22897,7 +24681,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -23149,7 +24934,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -23245,7 +25031,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -23261,7 +25048,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -23293,7 +25081,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -23309,7 +25101,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -23325,7 +25121,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -23341,7 +25138,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -23357,7 +25155,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -23373,7 +25175,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -23405,7 +25211,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -23421,7 +25231,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -23437,7 +25251,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -23453,7 +25271,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -23811,7 +25633,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -23875,7 +25698,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -23923,7 +25747,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -23987,7 +25812,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -24051,7 +25877,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -24115,7 +25942,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -24163,7 +25991,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -24243,7 +26075,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -24259,7 +26095,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -24275,7 +26115,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -24307,7 +26151,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -24339,7 +26187,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -24403,7 +26255,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -24419,7 +26275,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -24467,7 +26324,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -24483,7 +26344,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -24499,7 +26361,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -24531,7 +26397,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -24563,7 +26430,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -24837,7 +26705,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -24869,7 +26738,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -24901,7 +26774,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -24965,7 +26839,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25045,7 +26923,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25093,7 +26975,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -25125,7 +27008,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -25141,7 +27028,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -25493,7 +27381,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -25509,7 +27401,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25525,7 +27421,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -25541,7 +27442,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -25557,7 +27462,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -25573,7 +27479,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -25589,7 +27499,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -25605,7 +27520,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -25653,7 +27572,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -25717,7 +27640,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -25733,7 +27660,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25749,7 +27680,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -25781,7 +27716,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -25797,7 +27736,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -25829,7 +27772,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -25845,7 +27792,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -25861,7 +27812,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -25941,7 +27896,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -26005,7 +27964,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -26021,7 +27985,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -26053,7 +28018,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -26085,7 +28051,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -26117,7 +28084,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -26149,7 +28120,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -26165,7 +28141,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -26181,7 +28161,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -26197,7 +28181,12 @@
     "w": 1,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -26213,7 +28202,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -26229,7 +28219,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -26293,7 +28287,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -26309,7 +28307,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -26373,7 +28375,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -26405,7 +28411,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -26777,7 +28787,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -26793,7 +28804,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -26825,7 +28840,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -26841,7 +28860,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -26857,7 +28880,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -26889,7 +28916,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -26905,7 +28936,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -27289,7 +29325,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -27305,7 +29345,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -27321,7 +29365,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -27369,7 +29417,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -27385,7 +29437,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -27449,7 +29505,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -27481,7 +29542,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -27803,7 +29869,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -27867,7 +29937,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -27899,7 +29973,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -27915,7 +29993,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -27947,7 +30026,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -27963,7 +30047,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -28294,7 +30382,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -28310,7 +30402,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -28326,7 +30422,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -28342,7 +30443,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -28358,7 +30463,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -28374,7 +30480,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -28390,7 +30500,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -28406,7 +30520,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -28454,7 +30572,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -28486,7 +30608,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -28598,7 +30724,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -28662,7 +30789,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -28726,7 +30854,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -28790,7 +30919,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -28806,7 +30936,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -28822,7 +30956,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -28838,7 +30976,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -28854,7 +30996,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -28886,7 +31032,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -28902,7 +31052,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -28918,7 +31072,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -28950,7 +31108,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -28982,7 +31141,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -28998,7 +31158,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -29030,7 +31191,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -29046,7 +31212,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -29062,7 +31232,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -29078,7 +31252,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -29094,7 +31272,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -29110,7 +31293,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -29126,7 +31313,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -29142,7 +31334,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -29158,7 +31354,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -29497,7 +31697,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -29593,7 +31794,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -29625,7 +31830,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -29689,7 +31895,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -29817,7 +32024,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -29881,7 +32092,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -29913,7 +32129,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -29945,7 +32166,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -29961,7 +32183,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -29977,7 +32203,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -30009,7 +32239,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -30025,7 +32259,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -30041,7 +32279,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -30057,7 +32299,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -30073,7 +32319,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -30089,7 +32339,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -30105,7 +32359,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -30169,7 +32427,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -30201,7 +32460,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -30297,7 +32557,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -30313,7 +32578,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -30329,7 +32598,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -30345,7 +32619,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -30684,7 +32962,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -30716,7 +32998,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -30908,7 +33194,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -30972,7 +33262,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -30988,7 +33283,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -31004,7 +33303,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -31020,7 +33323,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -31068,7 +33375,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -31084,7 +33396,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -31116,7 +33432,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -31164,7 +33484,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -31196,7 +33517,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -31228,7 +33550,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -31260,7 +33586,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -31292,7 +33622,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -31324,7 +33658,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -31340,7 +33678,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -31356,7 +33698,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -31372,7 +33719,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -31388,7 +33740,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -31404,7 +33757,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -31420,7 +33777,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -31436,7 +33797,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -31468,7 +33834,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -31500,7 +33870,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -31516,7 +33887,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -31899,7 +34275,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -31931,7 +34308,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -31963,7 +34344,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -31979,7 +34361,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -31995,7 +34381,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -32011,7 +34401,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -32059,7 +34450,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -32123,7 +34515,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -32155,7 +34548,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -32171,7 +34568,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -32187,7 +34588,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -32219,7 +34624,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -32251,7 +34660,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -32283,7 +34696,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -32363,7 +34777,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -32379,7 +34797,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -32443,7 +34862,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -32459,7 +34882,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -32507,7 +34934,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -32523,7 +34954,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -32539,7 +34974,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -32571,7 +35007,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -32603,7 +35040,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -32635,7 +35076,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -32651,7 +35097,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -32667,7 +35114,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -32683,7 +35134,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -32699,7 +35155,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -32715,7 +35172,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -32731,7 +35192,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -33167,7 +35632,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -33199,7 +35669,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -33247,7 +35718,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -33311,7 +35783,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -33359,7 +35832,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -33391,7 +35868,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -33487,7 +35968,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -33503,7 +35988,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -33535,7 +36024,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -33567,7 +36060,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -33583,7 +36080,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -33599,7 +36097,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -33631,7 +36133,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -33663,7 +36169,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -33679,7 +36189,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -33695,7 +36209,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -33711,7 +36229,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -33727,7 +36249,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -33743,7 +36269,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -33775,7 +36305,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -33839,7 +36373,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -33871,7 +36410,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33887,7 +36431,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33903,7 +36451,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33919,7 +36472,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33935,7 +36493,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33951,7 +36513,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33967,7 +36533,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -33983,7 +36553,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -34015,7 +36590,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -34031,7 +36610,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -34095,7 +36675,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -34467,7 +37052,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -34515,7 +37104,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -34531,7 +37124,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -34563,7 +37160,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -34579,7 +37180,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -34643,7 +37248,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -34659,7 +37269,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -34691,7 +37305,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -34707,7 +37325,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -34723,7 +37345,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -34755,7 +37381,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -34787,7 +37417,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -34867,7 +37501,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -34883,7 +37518,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -34899,7 +37535,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -34931,7 +37568,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 7,
@@ -34963,7 +37601,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -35027,7 +37670,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -35043,7 +37690,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -35059,7 +37710,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -35091,7 +37746,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -35123,7 +37779,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -35610,7 +38267,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -35626,7 +38287,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -35674,7 +38339,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35690,7 +38359,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -35706,7 +38379,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -35722,7 +38396,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -35738,7 +38416,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -35770,7 +38453,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -35818,7 +38505,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -35850,7 +38538,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -35866,7 +38555,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -35978,7 +38668,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -36010,7 +38704,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -36349,7 +39047,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -36365,7 +39064,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36381,7 +39084,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36397,7 +39104,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36413,7 +39124,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36429,7 +39144,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36445,7 +39164,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -36461,7 +39185,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -36509,7 +39237,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -36541,7 +39270,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -36637,7 +39367,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -36653,7 +39387,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -36669,7 +39407,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -36717,7 +39459,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -36733,7 +39479,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -36749,7 +39499,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -36829,7 +39583,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -36861,7 +39616,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -36877,7 +39633,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -36957,7 +39717,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -36973,7 +39734,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -37177,7 +39942,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -37193,7 +39962,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -37257,7 +40030,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -37273,7 +40050,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -37305,7 +40086,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -37321,7 +40106,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -37337,7 +40123,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -37353,7 +40143,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -37369,7 +40163,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -37385,7 +40183,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -37417,7 +40216,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -37562,7 +40365,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -37578,7 +40385,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -37594,7 +40405,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -37610,7 +40422,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -37626,7 +40442,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -37658,7 +40479,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -37765,7 +40590,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -37781,7 +40610,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -37797,7 +40630,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -37813,7 +40650,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -37829,7 +40670,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -37845,7 +40690,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -37861,7 +40710,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -37877,7 +40730,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Spin Doctors"
+    "subFor": "Spin Doctors",
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -38090,7 +40947,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -38122,7 +40983,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -38138,7 +41003,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -38154,7 +41023,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -38170,7 +41043,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -38234,7 +41111,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -38298,7 +41176,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -38489,7 +41368,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -38553,7 +41436,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -38601,7 +41485,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -38617,7 +41505,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -38633,7 +41525,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -38681,7 +41577,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -38911,7 +41811,12 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -38943,7 +41848,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -38959,7 +41865,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -38991,7 +41901,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -39007,7 +41921,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 9,
@@ -39023,7 +41938,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -39234,7 +42153,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -39266,7 +42189,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -39298,7 +42225,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -39330,7 +42262,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -39410,7 +42343,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -39474,7 +42408,8 @@
     "w": 0,
     "ff": 1,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -39506,7 +42441,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -39522,7 +42461,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -39554,7 +42494,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -39570,7 +42511,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -39602,7 +42548,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -39682,7 +42629,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -39714,7 +42665,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -39730,7 +42685,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -40035,7 +42994,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -40051,7 +43014,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -40067,7 +43034,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -40083,7 +43054,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -40115,7 +43087,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -40147,7 +43123,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -40211,7 +43188,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -40259,7 +43240,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -40275,7 +43260,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -40291,7 +43280,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -40307,7 +43300,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -40323,7 +43320,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -40339,7 +43341,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -40355,7 +43361,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -40403,7 +43413,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -40419,7 +43433,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -40435,7 +43453,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -40451,7 +43473,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -40467,7 +43493,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -40499,7 +43529,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -40515,7 +43549,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -40531,7 +43570,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -40547,7 +43587,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -40563,7 +43608,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -40579,7 +43629,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -40595,7 +43650,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -40611,7 +43670,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -40960,7 +44020,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -40992,7 +44056,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -41024,7 +44092,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -41056,7 +44128,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -41136,7 +44212,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -41168,7 +44245,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -41200,7 +44278,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -41216,7 +44298,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -41280,7 +44366,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -41328,7 +44418,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -41344,7 +44438,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -41360,7 +44459,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -41392,7 +44495,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -41440,7 +44547,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -41504,7 +44616,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -41520,7 +44636,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -41536,7 +44653,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -41552,7 +44673,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -41568,7 +44693,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -41584,7 +44710,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -41600,7 +44731,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -41616,7 +44752,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -41632,7 +44769,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -41664,7 +44806,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -41696,7 +44842,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -41712,7 +44863,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -41728,7 +44883,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -41760,7 +44919,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -42051,7 +45211,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -42067,7 +45228,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -42083,7 +45248,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -42099,7 +45268,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -42115,7 +45289,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -42131,7 +45309,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -42163,7 +45345,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -42195,7 +45382,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -42243,7 +45434,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -42259,7 +45454,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -42291,7 +45490,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -42323,7 +45526,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -42339,7 +45543,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -42355,7 +45563,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -42371,7 +45583,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -42387,7 +45603,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -42419,7 +45639,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -42435,7 +45656,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -42467,7 +45692,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -42563,7 +45792,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -42579,7 +45812,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -42595,7 +45832,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -42627,7 +45869,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -42643,7 +45890,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -42814,7 +46065,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -42830,7 +46085,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -42894,7 +46153,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -42910,7 +46173,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Honeydrippers"
+    "subFor": "Honeydrippers",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -43179,7 +46446,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -43243,7 +46511,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -43307,7 +46576,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 6,
@@ -43355,7 +46629,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -43371,7 +46649,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -43387,7 +46669,12 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -43403,7 +46690,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -43419,7 +46710,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -43451,7 +46747,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -43467,7 +46767,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -43483,7 +46787,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 7,
@@ -43499,7 +46807,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -43515,7 +46827,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -43531,7 +46848,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -43547,7 +46868,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -43563,7 +46888,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -43579,7 +46905,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -43595,7 +46925,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -43611,7 +46942,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -43627,7 +46962,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -43643,7 +46983,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -43659,7 +47003,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -43675,7 +47023,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -43691,7 +47043,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -43707,7 +47063,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -43739,7 +47099,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -44013,7 +47377,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -44029,7 +47397,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -44061,7 +47433,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 3,
@@ -44093,7 +47469,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 3,
@@ -44237,7 +47617,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -44301,7 +47685,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -44317,7 +47702,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -44333,7 +47719,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -44365,7 +47752,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -44381,7 +47772,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -44413,7 +47808,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -44429,7 +47829,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -44445,7 +47846,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -44461,7 +47866,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -44477,7 +47883,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -44525,7 +47936,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -44541,7 +47956,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -44557,7 +47977,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -44573,7 +47998,12 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -44814,7 +48244,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -44894,7 +48328,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 7,
@@ -44910,7 +48348,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -44926,7 +48368,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -44942,7 +48388,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -45163,7 +48613,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45227,7 +48678,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -45513,7 +48968,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45529,7 +48985,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -45545,7 +49005,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45561,7 +49022,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 1,
@@ -45577,7 +49042,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "withSub": 1
    },
    {
     "wk": 1,
@@ -45593,7 +49059,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -45609,7 +49079,11 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
@@ -45625,7 +49099,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Bunch"
+    "subFor": "Pickle Bunch",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 4,
@@ -45925,7 +49403,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -46123,7 +49605,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 3,
@@ -46359,7 +49842,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -46391,7 +49875,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 8,
@@ -46407,7 +49895,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -46423,7 +49915,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 8,
@@ -46439,7 +49935,8 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "withSub": 1
    },
    {
     "wk": 8,
@@ -46455,7 +49952,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
@@ -46487,7 +49988,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -46519,7 +50024,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 9,
@@ -46567,7 +50076,11 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Ladies & Lords of Dinkingham"
+    "subFor": "Ladies & Lords of Dinkingham",
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 9,
