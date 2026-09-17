@@ -9196,9 +9196,9 @@
     }
    ],
    "subs": [
-    "Ryan Furman",
     "Lilie Sen",
-    "Vince Abate"
+    "Vince Abate",
+    "Ryan Furman"
    ]
   },
   {
@@ -9672,8 +9672,8 @@
    ],
    "subs": [
     "Tin Wai Kwan",
-    "Noelle Ramirez",
-    "Sheila Siu"
+    "Sheila Siu",
+    "Noelle Ramirez"
    ]
   },
   {
@@ -10603,8 +10603,8 @@
     }
    ],
    "subs": [
-    "Joshua Ahn",
-    "Gissel Escalante"
+    "Gissel Escalante",
+    "Joshua Ahn"
    ]
   },
   {
@@ -12001,8 +12001,8 @@
     }
    ],
    "subs": [
-    "Christine Sandella",
-    "Sheila Siu"
+    "Sheila Siu",
+    "Christine Sandella"
    ]
   },
   {
@@ -12467,9 +12467,9 @@
     }
    ],
    "subs": [
-    "Elisangela Harrington",
     "Katalina Wang",
-    "Chanda Mccoy"
+    "Chanda Mccoy",
+    "Elisangela Harrington"
    ]
   },
   {
@@ -14790,9 +14790,9 @@
     }
    ],
    "subs": [
-    "Nathan Malhotra",
     "Elisangela Harrington",
-    "Hany Ibrahim"
+    "Hany Ibrahim",
+    "Nathan Malhotra"
    ]
   },
   {

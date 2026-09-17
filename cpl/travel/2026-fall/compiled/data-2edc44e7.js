@@ -6626,9 +6626,9 @@
     }
    ],
    "subs": [
-    "Bill Brandt",
+    "Bart Allgeier",
     "Sachin Pathare",
-    "Bart Allgeier"
+    "Bill Brandt"
    ]
   },
   {
@@ -7558,8 +7558,8 @@
     }
    ],
    "subs": [
-    "Karen Moliver",
-    "Gina Pultorak"
+    "Gina Pultorak",
+    "Karen Moliver"
    ]
   },
   {
@@ -9421,11 +9421,11 @@
     }
    ],
    "subs": [
-    "Picky Vorabouth",
     "Ron Skotarczak",
     "Anthony Wands",
-    "Wendy Zukerberg",
-    "Jieping Wang"
+    "Picky Vorabouth",
+    "Jieping Wang",
+    "Wendy Zukerberg"
    ]
   },
   {
@@ -10820,8 +10820,8 @@
     }
    ],
    "subs": [
-    "Steven Gregov",
     "Dan Loreti",
+    "Steven Gregov",
     "Gary Garretson"
    ]
   },
@@ -11288,8 +11288,8 @@
    ],
    "subs": [
     "Michael Dombrowiecki",
-    "Sarah Nazario",
-    "Peter Shen"
+    "Peter Shen",
+    "Sarah Nazario"
    ]
   },
   {
