@@ -12022,8 +12022,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Bill Brandt"
      ],
      "a": [
       "Quen Koon Ng",
@@ -12033,8 +12033,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chanda Mccoy",
+      "Marc Friedman"
      ],
      "a": [
       "Lily Liu",
@@ -12044,8 +12044,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Steven Gregov"
      ],
      "a": [
       "Tara Lombardo",
@@ -12055,8 +12055,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ceil Gomez",
+      "Scott Rubin"
      ],
      "a": [
       "Nancy Lin",
@@ -12066,8 +12066,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Carol Mastroianni"
      ],
      "a": [
       "Lily Liu",
@@ -12077,8 +12077,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ceil Gomez",
+      "Chanda Mccoy"
      ],
      "a": [
       "Tara Lombardo",
@@ -12088,8 +12088,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "John Pineda"
      ],
      "a": [
       "Jeffrey Rubin",
@@ -12099,8 +12099,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Gregov",
+      "Marc Friedman"
      ],
      "a": [
       "Steve Gerwer",
@@ -12110,8 +12110,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chanda Mccoy",
+      "Bill Brandt"
      ],
      "a": [
       "Lily Liu",
@@ -12121,8 +12121,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Steven Gregov"
      ],
      "a": [
       "Nancy Lin",
@@ -12132,8 +12132,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ceil Gomez",
+      "John Pineda"
      ],
      "a": [
       "Coby Resnick",
@@ -12143,8 +12143,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Scott Rubin"
      ],
      "a": [
       "Tara Lombardo",
@@ -12154,8 +12154,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Chanda Mccoy",
+      "Ceil Gomez"
      ],
      "a": [
       "Coby Resnick",
@@ -12165,8 +12165,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Carol Mastroianni"
      ],
      "a": [
       "Nancy Lin",
@@ -12176,8 +12176,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Brandt",
+      "Marc Friedman"
      ],
      "a": [
       "Jeffrey Rubin",
@@ -12187,8 +12187,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Pineda",
+      "Scott Rubin"
      ],
      "a": [
       "Sal Frangipane",
@@ -12198,8 +12198,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Bill Brandt"
      ],
      "a": [
       "Nancy Lin",
@@ -12209,8 +12209,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Marc Friedman"
      ],
      "a": [
       "Tara Lombardo",
@@ -12220,8 +12220,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ceil Gomez",
+      "Steven Gregov"
      ],
      "a": [
       "Lily Liu",
@@ -12231,8 +12231,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chanda Mccoy",
+      "Scott Rubin"
      ],
      "a": [
       "Quen Koon Ng",
@@ -12242,8 +12242,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Chanda Mccoy"
      ],
      "a": [
       "Lily Liu",
@@ -12253,8 +12253,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Ceil Gomez"
      ],
      "a": [
       "Coby Resnick",
@@ -12264,8 +12264,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Gregov",
+      "Scott Rubin"
      ],
      "a": [
       "Steve Gerwer",
@@ -12275,8 +12275,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Friedman",
+      "John Pineda"
      ],
      "a": [
       "James Gross",
@@ -12286,8 +12286,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "John Pineda"
      ],
      "a": [
       "Tara Lombardo",
@@ -12297,8 +12297,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chanda Mccoy",
+      "Steven Gregov"
      ],
      "a": [
       "Lily Liu",
@@ -12308,8 +12308,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ceil Gomez",
+      "Marc Friedman"
      ],
      "a": [
       "Coby Resnick",
@@ -12319,8 +12319,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Bill Brandt"
      ],
      "a": [
       "Nancy Lin",
@@ -12330,8 +12330,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carol Mastroianni",
+      "Chanda Mccoy"
      ],
      "a": [
       "Coby Resnick",
@@ -12341,8 +12341,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Ceil Gomez"
      ],
      "a": [
       "Lily Liu",
@@ -12352,8 +12352,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Gregov",
+      "Bill Brandt"
      ],
      "a": [
       "Jeffrey Rubin",
@@ -12363,8 +12363,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Rubin",
+      "John Pineda"
      ],
      "a": [
       "Alfonse Calato",
@@ -14010,7 +14010,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T02:18:29.236Z";
+  DATA.meta.asOf = "2026-09-18T10:17:09.388Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

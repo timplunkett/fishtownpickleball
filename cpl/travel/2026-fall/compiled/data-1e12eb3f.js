@@ -29503,8 +29503,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Eric Smith"
      ],
      "a": [
       "Heather King",
@@ -29514,8 +29514,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lorraine Delcampo",
+      "Darin Gall"
      ],
      "a": [
       "Amy Condi",
@@ -29525,8 +29525,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Mark Skolnik"
      ],
      "a": [
       "Zalene Corey",
@@ -29536,8 +29536,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jenn Allen",
+      "Jack Decicco"
      ],
      "a": [
       "Eden Paredes",
@@ -29547,8 +29547,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lisa Pinder",
+      "Jenn Allen"
      ],
      "a": [
       "Zalene Corey",
@@ -29558,8 +29558,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Audrey Brisson"
      ],
      "a": [
       "Eden Paredes",
@@ -29569,8 +29569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Smith",
+      "Darin Gall"
      ],
      "a": [
       "Jeffrey Lindstrom",
@@ -29580,8 +29580,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joe Moore",
+      "Jack Decicco"
      ],
      "a": [
       "Harihar Chudamani",
@@ -29591,8 +29591,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lorraine Delcampo",
+      "Darin Gall"
      ],
      "a": [
       "Amy Condi",
@@ -29602,8 +29602,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Pinder",
+      "Mark Skolnik"
      ],
      "a": [
       "Heather King",
@@ -29613,8 +29613,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Eric Smith"
      ],
      "a": [
       "Zalene Corey",
@@ -29624,8 +29624,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Joe Moore"
      ],
      "a": [
       "Kimberly Kusumoto",
@@ -29635,8 +29635,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Lisa Pinder"
      ],
      "a": [
       "Heather King",
@@ -29646,8 +29646,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lorraine Delcampo",
+      "Jenn Allen"
      ],
      "a": [
       "Kimberly Kusumoto",
@@ -29657,8 +29657,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Smith",
+      "Joe Moore"
      ],
      "a": [
       "Anuraag Verma",
@@ -29668,8 +29668,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Decicco",
+      "Mark Skolnik"
      ],
      "a": [
       "Matthew Memmo",
@@ -29679,8 +29679,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lorraine Delcampo",
+      "Mark Skolnik"
      ],
      "a": [
       "Eden Paredes",
@@ -29690,8 +29690,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jenn Allen",
+      "Jack Decicco"
      ],
      "a": [
       "Zalene Corey",
@@ -29701,8 +29701,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Pinder",
+      "Darin Gall"
      ],
      "a": [
       "Heather King",
@@ -29712,8 +29712,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Eric Smith"
      ],
      "a": [
       "Amy Condi",
@@ -29723,8 +29723,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Jenn Allen"
      ],
      "a": [
       "Kimberly Kusumoto",
@@ -29734,8 +29734,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Lorraine Delcampo"
      ],
      "a": [
       "Zalene Corey",
@@ -29745,8 +29745,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Decicco",
+      "Joe Moore"
      ],
      "a": [
       "Jeffrey Lindstrom",
@@ -29756,8 +29756,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Smith",
+      "Darin Gall"
      ],
      "a": [
       "Harihar Chudamani",
@@ -29767,8 +29767,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lorraine Delcampo",
+      "Jack Decicco"
      ],
      "a": [
       "Heather King",
@@ -29778,8 +29778,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Mark Skolnik"
      ],
      "a": [
       "Eden Paredes",
@@ -29789,8 +29789,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Pinder",
+      "Eric Smith"
      ],
      "a": [
       "Zalene Corey",
@@ -29800,8 +29800,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Joe Moore"
      ],
      "a": [
       "Amy Condi",
@@ -29811,8 +29811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Audrey Brisson",
+      "Lisa Pinder"
      ],
      "a": [
       "Zalene Corey",
@@ -29822,8 +29822,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Moore",
+      "Jenn Allen"
      ],
      "a": [
       "Heather King",
@@ -29833,8 +29833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Darin Gall",
+      "Joe Moore"
      ],
      "a": [
       "Matthew Memmo",
@@ -29844,8 +29844,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Smith",
+      "Mark Skolnik"
      ],
      "a": [
       "Anuraag Verma",
@@ -31678,7 +31678,361 @@
    "home": "Mercer Bucks",
    "away": "Flemington Green",
    "time": "2026-09-19T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Sam Doctor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Apparao Avancha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Dan Amabile"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Greenstein",
+      "Bill Vit"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Greenstein",
+      "Manuela Caiati"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Scott Heist",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Apparao Avancha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Greenstein",
+      "Bill Vit"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Apparao Avancha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Manuela Caiati"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Leah Greenstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Amabile",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Bill Vit"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Dan Amabile"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Bill Vit"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Greenstein",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Sam Doctor"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Leah Greenstein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Manuela Caiati"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Apparao Avancha",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Amabile",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tao Zhu",
+      "Sam Doctor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Greenstein",
+      "Dan Amabile"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Tao Zhu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Leah Greenstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Amabile",
+      "Bill Vit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Apparao Avancha"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -33855,7 +34209,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T02:19:15.932Z";
+  DATA.meta.asOf = "2026-09-18T10:17:49.305Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
