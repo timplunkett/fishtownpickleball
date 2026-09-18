@@ -17131,6 +17131,13 @@ window.DUPR_AUDIT = {
    "name": "Thomas Musso",
    "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
    "team": "Premiere Dinkers",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Thomas Musso",
+   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+   "team": "Premiere Dinkers",
    "slug": "c43b8608",
    "gender": "Male"
   },

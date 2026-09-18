@@ -233,9 +233,9 @@
       "weekNumber": 4,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 577,
+      "awayPoints": 657,
+      "endResult": "away",
       "scheduledTime": "2026-09-16T19:30:00",
       "homeName": "Home Court",
       "awayName": "Pickleball Kingdom Hillsborough"

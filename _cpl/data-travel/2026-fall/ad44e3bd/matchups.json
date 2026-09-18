@@ -221,9 +221,9 @@
       "weekNumber": 4,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 564,
+      "awayPoints": 650,
+      "endResult": "away",
       "scheduledTime": "2026-09-17T13:00:00",
       "homeName": "Picklr Newtown",
       "awayName": "Flemington Blue"

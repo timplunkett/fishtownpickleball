@@ -16564,7 +16564,6 @@
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-16T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 577,
    "awayPoints": 657,
    "homeGW": 12,
@@ -17020,9 +17019,9 @@
     }
    ],
    "subs": [
-    "Gift Horn",
-    "Nathan Malhotra",
     "Ashley Barros",
+    "Nathan Malhotra",
+    "Gift Horn",
     "Johanna Wagner"
    ]
   },
@@ -19230,7 +19229,7 @@
  },
  "meta": {
   "matchesPlayed": 22,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-4",
   "totalPlayers": 192,
   "ratingHistoryWeeks": [
@@ -19314,7 +19313,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T15:57:50.926Z";
+  DATA.meta.asOf = "2026-09-18T15:31:56.483Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

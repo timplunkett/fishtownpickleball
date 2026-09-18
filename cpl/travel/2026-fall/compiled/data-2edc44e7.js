@@ -11298,8 +11298,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Lesnik",
+      "Daniel Chernin"
      ],
      "a": [
       "Sarah Nazario",
@@ -11309,8 +11309,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Ryan Sherry"
      ],
      "a": [
       "Alice Napolitano",
@@ -11320,8 +11320,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Alex Lee"
      ],
      "a": [
       "Eva Danieli",
@@ -11331,8 +11331,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Christopher Krecke"
      ],
      "a": [
       "Rosalyn Goldsmith",
@@ -11342,8 +11342,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Rebecca Lederman"
      ],
      "a": [
       "Alice Napolitano",
@@ -11353,8 +11353,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Jill Lesnik"
      ],
      "a": [
       "Sarah Nazario",
@@ -11364,8 +11364,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Alex Lee"
      ],
      "a": [
       "Michael Swell",
@@ -11375,8 +11375,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Sherry",
+      "Emil Pescatore"
      ],
      "a": [
       "Michael Dombrowiecki",
@@ -11386,8 +11386,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Emil Pescatore"
      ],
      "a": [
       "Sarah Nazario",
@@ -11397,8 +11397,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Daniel Chernin"
      ],
      "a": [
       "Eva Danieli",
@@ -11408,8 +11408,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Lesnik",
+      "Ryan Sherry"
      ],
      "a": [
       "Rosalyn Goldsmith",
@@ -11419,8 +11419,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Christopher Krecke"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -11430,8 +11430,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Karan Pescatore"
      ],
      "a": [
       "Eva Danieli",
@@ -11441,8 +11441,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Rebecca Lederman"
      ],
      "a": [
       "Alice Napolitano",
@@ -11452,8 +11452,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Sherry",
+      "Christopher Krecke"
      ],
      "a": [
       "Michael Swell",
@@ -11463,8 +11463,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lee",
+      "Emil Pescatore"
      ],
      "a": [
       "Michael Dombrowiecki",
@@ -11474,8 +11474,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Emil Pescatore"
      ],
      "a": [
       "Sarah Nazario",
@@ -11485,8 +11485,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Daniel Chernin"
      ],
      "a": [
       "Alice Napolitano",
@@ -11496,8 +11496,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Alex Lee"
      ],
      "a": [
       "Rosalyn Goldsmith",
@@ -11507,8 +11507,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Lesnik",
+      "Christopher Krecke"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -11518,8 +11518,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Alice Napolitano",
@@ -11529,8 +11529,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Jill Lesnik"
      ],
      "a": [
       "Sarah Nazario",
@@ -11540,8 +11540,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil Pescatore",
+      "Daniel Chernin"
      ],
      "a": [
       "Michael Dombrowiecki",
@@ -11551,8 +11551,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lee",
+      "Christopher Krecke"
      ],
      "a": [
       "Lance Brown",
@@ -11562,8 +11562,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Daniel Chernin"
      ],
      "a": [
       "Alice Napolitano",
@@ -11573,8 +11573,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shauna Muller",
+      "Christopher Krecke"
      ],
      "a": [
       "Eva Danieli",
@@ -11584,8 +11584,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Ryan Sherry"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -11595,8 +11595,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Alex Lee"
      ],
      "a": [
       "Rosalyn Goldsmith",
@@ -11606,8 +11606,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Sarah Nazario",
@@ -11617,8 +11617,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jill Lesnik",
+      "Shauna Muller"
      ],
      "a": [
       "Alice Napolitano",
@@ -11628,8 +11628,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Ryan Sherry"
      ],
      "a": [
       "Michael Swell",
@@ -11639,8 +11639,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lee",
+      "Emil Pescatore"
      ],
      "a": [
       "Yi Gu",
@@ -12023,7 +12023,7 @@
      "t": "mixed",
      "h": [
       "Susan Ackley",
-      "Bill Brandt"
+      "Steven Gregov"
      ],
      "a": [
       "Quen Koon Ng",
@@ -12045,7 +12045,7 @@
      "t": "mixed",
      "h": [
       "Carol Mastroianni",
-      "Steven Gregov"
+      "Bill Brandt"
      ],
      "a": [
       "Tara Lombardo",
@@ -12198,7 +12198,7 @@
     {
      "t": "mixed",
      "h": [
-      "Susan Ackley",
+      "Chanda Mccoy",
       "Bill Brandt"
      ],
      "a": [
@@ -12209,8 +12209,8 @@
     {
      "t": "mixed",
      "h": [
-      "Carol Mastroianni",
-      "Marc Friedman"
+      "Susan Ackley",
+      "Scott Rubin"
      ],
      "a": [
       "Tara Lombardo",
@@ -12231,8 +12231,8 @@
     {
      "t": "mixed",
      "h": [
-      "Chanda Mccoy",
-      "Scott Rubin"
+      "Carol Mastroianni",
+      "Marc Friedman"
      ],
      "a": [
       "Quen Koon Ng",
@@ -12867,7 +12867,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jane Meng",
+      "Marykristin Haskell",
       "Robert Block"
      ],
      "a": [
@@ -12922,7 +12922,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jane Meng",
+      "Nancy Blank",
       "Thomas Ross"
      ],
      "a": [
@@ -12977,7 +12977,7 @@
     {
      "t": "female",
      "h": [
-      "Jane Meng",
+      "Janet Garrity",
       "Nancy Blank"
      ],
      "a": [
@@ -13010,7 +13010,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jane Meng",
+      "Janine Forrest",
       "Jay Rohatgi"
      ],
      "a": [
@@ -13054,7 +13054,7 @@
     {
      "t": "female",
      "h": [
-      "Jane Meng",
+      "Dottie Kelly",
       "Janine Forrest"
      ],
      "a": [
@@ -14010,7 +14010,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T10:17:09.388Z";
+  DATA.meta.asOf = "2026-09-18T15:29:17.376Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

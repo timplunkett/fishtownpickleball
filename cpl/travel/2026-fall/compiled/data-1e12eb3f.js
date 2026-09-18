@@ -7214,7 +7214,7 @@
    "winPct": 37.5,
    "diff": -17,
    "ppg": 18.1,
-   "leagueRank": 483,
+   "leagueRank": 484,
    "rating": -0.5,
    "ratingGames": 8,
    "confidence": 56,
@@ -10462,13 +10462,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 500,
+   "leagueRank": 501,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "0748d687-13e0-403d-95de-28c640adaf43"
+  },
+  {
+   "name": "Thomas Musso",
+   "gender": "Male",
+   "team": "Premiere Dinkers",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 463,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734"
   },
   {
    "name": "Gregg Downs",
@@ -10520,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 479,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10578,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10578,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 491,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10636,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 494,
+   "leagueRank": 495,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10636,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 480,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10781,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 496,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 491,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11042,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 472,
+   "leagueRank": 473,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 489,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 493,
+   "leagueRank": 494,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11158,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 486,
+   "leagueRank": 487,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11187,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 464,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 475,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11274,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 504,
+   "leagueRank": 505,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11332,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 498,
+   "leagueRank": 499,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 477,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11825,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11883,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 499,
+   "leagueRank": 500,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11912,7 +11941,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 470,
+   "leagueRank": 471,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -31683,8 +31712,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Farzad Shadzik"
      ],
      "a": [
       "Tao Zhu",
@@ -31694,8 +31723,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Tarby",
+      "Jason Belmont"
      ],
      "a": [
       "Manuela Caiati",
@@ -31705,8 +31734,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tami Mohney",
+      "Howard Eng"
      ],
      "a": [
       "Grace Brennan",
@@ -31716,8 +31745,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Angelini",
+      "Gregg Downs"
      ],
      "a": [
       "Leah Greenstein",
@@ -31727,8 +31756,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Suter",
+      "Lisa Angelini"
      ],
      "a": [
       "Leah Greenstein",
@@ -31738,8 +31767,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Tami Mohney"
      ],
      "a": [
       "Tao Zhu",
@@ -31749,8 +31778,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Howard Eng",
+      "Jerry Margulies"
      ],
      "a": [
       "Scott Heist",
@@ -31760,8 +31789,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Farzad Shadzik",
+      "Jason Belmont"
      ],
      "a": [
       "Sam Doctor",
@@ -31771,8 +31800,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Tarby",
+      "Howard Eng"
      ],
      "a": [
       "Leah Greenstein",
@@ -31782,8 +31811,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Farzad Shadzik"
      ],
      "a": [
       "Grace Brennan",
@@ -31793,8 +31822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Angelini",
+      "Gregg Downs"
      ],
      "a": [
       "Tao Zhu",
@@ -31804,8 +31833,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Suter",
+      "Jerry Margulies"
      ],
      "a": [
       "Manuela Caiati",
@@ -31815,8 +31844,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tami Mohney",
+      "Lisa Angelini"
      ],
      "a": [
       "Tao Zhu",
@@ -31826,8 +31855,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Tarby",
+      "Cindy Suter"
      ],
      "a": [
       "Grace Brennan",
@@ -31837,8 +31866,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Belmont",
+      "Gregg Downs"
      ],
      "a": [
       "Dan Amabile",
@@ -31848,8 +31877,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Howard Eng",
+      "Farzad Shadzik"
      ],
      "a": [
       "Sam Doctor",
@@ -31859,8 +31888,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tami Mohney",
+      "Howard Eng"
      ],
      "a": [
       "Tao Zhu",
@@ -31870,8 +31899,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Tarby",
+      "Gregg Downs"
      ],
      "a": [
       "Grace Brennan",
@@ -31881,8 +31910,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Angelini",
+      "Jerry Margulies"
      ],
      "a": [
       "Leah Greenstein",
@@ -31892,8 +31921,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Jason Belmont"
      ],
      "a": [
       "Manuela Caiati",
@@ -31903,8 +31932,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Tami Mohney"
      ],
      "a": [
       "Tao Zhu",
@@ -31914,8 +31943,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Tarby",
+      "Cindy Suter"
      ],
      "a": [
       "Grace Brennan",
@@ -31925,8 +31954,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Belmont",
+      "Farzad Shadzik"
      ],
      "a": [
       "Apparao Avancha",
@@ -31936,8 +31965,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jerry Margulies",
+      "Gregg Downs"
      ],
      "a": [
       "Dan Amabile",
@@ -31947,8 +31976,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tami Mohney",
+      "Farzad Shadzik"
      ],
      "a": [
       "Grace Brennan",
@@ -31958,8 +31987,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Suter",
+      "Jerry Margulies"
      ],
      "a": [
       "Manuela Caiati",
@@ -31969,8 +31998,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Angelini",
+      "Howard Eng"
      ],
      "a": [
       "Tao Zhu",
@@ -31980,8 +32009,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Jason Belmont"
      ],
      "a": [
       "Leah Greenstein",
@@ -31991,8 +32020,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Harmon",
+      "Cheryl Tarby"
      ],
      "a": [
       "Grace Brennan",
@@ -32002,8 +32031,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lisa Angelini",
+      "Cindy Suter"
      ],
      "a": [
       "Manuela Caiati",
@@ -32013,8 +32042,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gregg Downs",
+      "Jason Belmont"
      ],
      "a": [
       "Dan Amabile",
@@ -32024,8 +32053,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Farzad Shadzik",
+      "Howard Eng"
      ],
      "a": [
       "Sam Doctor",
@@ -32769,8 +32798,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "John Hans"
      ],
      "a": [
       "Jennifer Applebee",
@@ -32780,8 +32809,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Frank Marchiano"
      ],
      "a": [
       "Marita Dow",
@@ -32791,8 +32820,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Digirolamo",
+      "Frank Fama"
      ],
      "a": [
       "Kathi Savage",
@@ -32802,8 +32831,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roe Palermo",
+      "Jim Ritchie"
      ],
      "a": [
       "Huifang Yao",
@@ -32813,8 +32842,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Roe Palermo"
      ],
      "a": [
       "Kathi Savage",
@@ -32824,8 +32853,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Gina Digirolamo"
      ],
      "a": [
       "Linda Bozzo",
@@ -32835,8 +32864,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Feldman",
+      "Frank Marchiano"
      ],
      "a": [
       "Ed Amato",
@@ -32846,8 +32875,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Ritchie",
+      "Felix Soto"
      ],
      "a": [
       "Louis Sapirman",
@@ -32857,8 +32886,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Frank Marchiano"
      ],
      "a": [
       "Linda Bozzo",
@@ -32868,8 +32897,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Digirolamo",
+      "Jim Ritchie"
      ],
      "a": [
       "Jennifer Applebee",
@@ -32879,8 +32908,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "John Hans"
      ],
      "a": [
       "Marita Dow",
@@ -32890,8 +32919,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roe Palermo",
+      "Vlad Feldman"
      ],
      "a": [
       "Kathi Savage",
@@ -32901,8 +32930,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Gina Digirolamo"
      ],
      "a": [
       "Kathi Savage",
@@ -32912,8 +32941,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Roe Palermo"
      ],
      "a": [
       "Marita Dow",
@@ -32923,8 +32952,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Fama",
+      "Frank Marchiano"
      ],
      "a": [
       "Louis Sapirman",
@@ -32934,8 +32963,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Felix Soto",
+      "John Hans"
      ],
      "a": [
       "Michael Schuller",
@@ -32945,8 +32974,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Frank Marchiano"
      ],
      "a": [
       "Linda Bozzo",
@@ -32956,8 +32985,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Vlad Feldman"
      ],
      "a": [
       "Marita Dow",
@@ -32967,8 +32996,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roe Palermo",
+      "John Hans"
      ],
      "a": [
       "Jennifer Applebee",
@@ -32978,8 +33007,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Digirolamo",
+      "Frank Fama"
      ],
      "a": [
       "Huifang Yao",
@@ -32989,8 +33018,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Gina Digirolamo"
      ],
      "a": [
       "Jennifer Applebee",
@@ -33000,8 +33029,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Roe Palermo"
      ],
      "a": [
       "Kathi Savage",
@@ -33011,8 +33040,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Felix Soto",
+      "Frank Marchiano"
      ],
      "a": [
       "Louis Sapirman",
@@ -33022,8 +33051,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Feldman",
+      "Frank Fama"
      ],
      "a": [
       "Ed Amato",
@@ -33033,8 +33062,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "John Hans"
      ],
      "a": [
       "Huifang Yao",
@@ -33044,8 +33073,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roe Palermo",
+      "Jim Ritchie"
      ],
      "a": [
       "Linda Bozzo",
@@ -33055,8 +33084,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Felix Soto"
      ],
      "a": [
       "Jennifer Applebee",
@@ -33066,8 +33095,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Digirolamo",
+      "Vlad Feldman"
      ],
      "a": [
       "Marita Dow",
@@ -33077,8 +33106,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ritchie",
+      "Roe Palermo"
      ],
      "a": [
       "Kathi Savage",
@@ -33088,8 +33117,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Fama",
+      "Gina Digirolamo"
      ],
      "a": [
       "Jennifer Applebee",
@@ -33099,8 +33128,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Hans",
+      "Jim Ritchie"
      ],
      "a": [
       "Steve Nuguid",
@@ -33110,8 +33139,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Fama",
+      "Felix Soto"
      ],
      "a": [
       "Ed Amato",
@@ -34092,7 +34121,7 @@
   "matchesPlayed": 29,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 450,
+  "totalPlayers": 451,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -34209,7 +34238,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T10:17:49.305Z";
+  DATA.meta.asOf = "2026-09-18T15:30:04.786Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
