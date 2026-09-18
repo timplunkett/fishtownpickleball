@@ -997,6 +997,18 @@
       "awayName": "Players Courtyard"
     },
     {
+      "matchupId": "799a8962-2681-46d7-9db9-d865bcb7d2b1",
+      "weekNumber": 8,
+      "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
+      "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-10T14:00:00",
+      "homeName": "Premiere Aces",
+      "awayName": "Pickleball Palace Black"
+    },
+    {
       "matchupId": "2213a407-01a2-479a-926d-d9b38d134fed",
       "weekNumber": 8,
       "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
@@ -1019,18 +1031,6 @@
       "scheduledTime": "2026-10-10T14:30:00",
       "homeName": "Allstar Pickler",
       "awayName": "PickleRage Union County"
-    },
-    {
-      "matchupId": "799a8962-2681-46d7-9db9-d865bcb7d2b1",
-      "weekNumber": 8,
-      "homeTeamId": "23e6e25f-91ce-4ea6-9f25-26dff96c068e",
-      "awayTeamId": "d0479b7a-d2b9-4755-be13-1a44857b72f5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-10T15:00:00",
-      "homeName": "Premiere Aces",
-      "awayName": "Pickleball Palace Black"
     },
     {
       "matchupId": "a201c69f-f3bd-45e9-a3e9-c464082a48c0",

@@ -12543,6 +12543,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Michael Dombrowiecki",
+   "playerId": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
+   "team": "Jersey Pickleball Club",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
    "name": "Michael Fidelino",
    "playerId": "8632a302-90a3-4332-b4d1-fccc0f692e8e",
    "team": "Picklr Manahawkin",
@@ -15550,6 +15557,13 @@ window.DUPR_AUDIT = {
    "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
    "team": "Montville",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Sarah Nazario",
+   "playerId": "d457bcf7-383d-4b25-a7a9-a456e5803087",
+   "team": "Jersey Pickleball Club",
+   "slug": "2edc44e7",
    "gender": "Female"
   },
   {

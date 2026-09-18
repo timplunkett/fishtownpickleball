@@ -498,8 +498,8 @@
    "name": "Michael Dombrowiecki",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 13,
@@ -512,7 +512,6 @@
    "genderLosses": 0,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
    "winPct": 92.9,
    "diff": 78,
    "ppg": 20.7,
@@ -521,7 +520,8 @@
    "ratingGames": 14,
    "confidence": 69,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": -0.8
+   "strengthOfOpponents": -0.8,
+   "playerId": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040"
   },
   {
    "name": "Vicki Main",
@@ -962,8 +962,8 @@
    "name": "Sarah Nazario",
    "gender": "Female",
    "team": "Jersey Pickleball Club",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 12,
@@ -976,7 +976,6 @@
    "genderLosses": 1,
    "clutchWins": 4,
    "clutchLosses": 2,
-   "playerId": "d457bcf7-383d-4b25-a7a9-a456e5803087",
    "winPct": 80,
    "diff": 58,
    "ppg": 20.5,
@@ -985,7 +984,8 @@
    "ratingGames": 15,
    "confidence": 68,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "d457bcf7-383d-4b25-a7a9-a456e5803087"
   },
   {
    "name": "Jane Meng",
@@ -3386,7 +3386,7 @@
    "winPct": 16.7,
    "diff": -29,
    "ppg": 15.8,
-   "leagueRank": 165,
+   "leagueRank": 166,
    "rating": -1,
    "ratingGames": 6,
    "confidence": 53,
@@ -3879,7 +3879,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3908,7 +3908,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 172,
+   "leagueRank": 175,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3995,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 178,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4082,7 +4082,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 170,
+   "leagueRank": 173,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4169,7 +4169,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 162,
+   "leagueRank": 163,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4198,7 +4198,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 171,
+   "leagueRank": 174,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 163,
+   "leagueRank": 164,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4256,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 174,
+   "leagueRank": 177,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4285,7 +4285,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4314,7 +4314,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4343,7 +4343,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4401,7 +4401,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 173,
+   "leagueRank": 176,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4430,7 +4430,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4459,7 +4459,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 169,
+   "leagueRank": 172,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4488,7 +4488,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4517,7 +4517,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4546,7 +4546,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4575,7 +4575,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4662,7 +4662,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4691,7 +4691,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 164,
+   "leagueRank": 165,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4749,7 +4749,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 167,
+   "leagueRank": 168,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8488,10 +8488,7 @@
      ]
     }
    ],
-   "subs": [
-    "Michael Dombrowiecki",
-    "Sarah Nazario"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -11287,9 +11284,7 @@
     }
    ],
    "subs": [
-    "Michael Dombrowiecki",
-    "Peter Shen",
-    "Sarah Nazario"
+    "Peter Shen"
    ]
   },
   {
@@ -11298,7 +11293,361 @@
    "home": "Pickleball Palace",
    "away": "Jersey Pickleball Club",
    "time": "2026-09-19T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Michael Swell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eva Danieli",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosalyn Goldsmith",
+      "Yi Gu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Eva Danieli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Natasha De Carvalho"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Swell",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Lance Brown"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eva Danieli",
+      "Michael Swell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosalyn Goldsmith",
+      "Lance Brown"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natasha De Carvalho",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eva Danieli",
+      "Sarah Nazario"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Rosalyn Goldsmith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Swell",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Yi Gu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Michael Swell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosalyn Goldsmith",
+      "Lance Brown"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natasha De Carvalho",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Eva Danieli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Natasha De Carvalho"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Michael Swell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lance Brown",
+      "Yi Gu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Lance Brown"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eva Danieli",
+      "Todd Gasparre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natasha De Carvalho",
+      "Michael Swell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosalyn Goldsmith",
+      "Yi Gu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Nazario",
+      "Eva Danieli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Natasha De Carvalho"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Swell",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yi Gu",
+      "Lance Brown"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11306,7 +11655,361 @@
    "home": "Allstar Pickler",
    "away": "Stelton Sports",
    "time": "2026-09-19T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shaoyi Sun",
+      "Sam Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rui Zhang",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Shaoyi Sun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mei Li",
+      "Rui Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jim Peng",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mei Li",
+      "Sam Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ellen Xu",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Mei Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shaoyi Sun",
+      "Ellen Xu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mengchu Zhou",
+      "Jim Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Zhou",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mei Li",
+      "Sam Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rui Zhang",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Ellen Xu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rui Zhang",
+      "Shaoyi Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jim Peng",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mengchu Zhou",
+      "Sam Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Liangang Liu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Mengchu Zhou"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mei Li",
+      "Lei Dong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ellen Xu",
+      "Leon Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Qian",
+      "Shaoyi Sun"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Betterton",
+      "Rui Zhang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jim Peng",
+      "Sam Zhou"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lei Dong",
+      "Liangang Liu"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11314,7 +12017,361 @@
    "home": "Flemington Blue",
    "away": "Premiere",
    "time": "2026-09-19T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Quen Koon Ng",
+      "Jeffrey Rubin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Steve Gerwer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tara Lombardo",
+      "Sal Frangipane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Lin",
+      "John Ficarra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Coby Resnick"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tara Lombardo",
+      "Quen Koon Ng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeffrey Rubin",
+      "James Gross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Gerwer",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Lin",
+      "Sal Frangipane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Coby Resnick",
+      "James Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tara Lombardo",
+      "John Ficarra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Coby Resnick",
+      "Tara Lombardo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Lin",
+      "Quen Koon Ng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeffrey Rubin",
+      "John Ficarra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sal Frangipane",
+      "Steve Gerwer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Lin",
+      "Jeffrey Rubin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tara Lombardo",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "James Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Quen Koon Ng",
+      "Steve Gerwer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Tara Lombardo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Coby Resnick",
+      "Quen Koon Ng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Gerwer",
+      "John Ficarra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "James Gross",
+      "Sal Frangipane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tara Lombardo",
+      "Jeffrey Rubin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Coby Resnick",
+      "Steve Gerwer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Lin",
+      "John Ficarra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Coby Resnick",
+      "Nancy Lin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lily Liu",
+      "Quen Koon Ng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeffrey Rubin",
+      "Sal Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alfonse Calato",
+      "James Gross"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11322,7 +12379,361 @@
    "home": "Bounce Malvern Black",
    "away": "APC Garden State",
    "time": "2026-09-19T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Jiyun Yuh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "Laura Sweet"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Darrah",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danny Mellul",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "Lara Webb"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "Lisa Loeber"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danny Mellul",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Hong",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Danny Mellul"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Laura Sweet"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "Jiyun Yuh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Darrah",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danny Mellul",
+      "Steve Hong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Webb",
+      "Danny Mellul"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Sweet",
+      "Lisa Loeber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jiyun Yuh",
+      "Lara Webb"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steve Hong",
+      "Jimmy Shapiro"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11330,7 +12741,361 @@
    "home": "Pickle Place",
    "away": "Flemington Green",
    "time": "2026-09-19T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Marykristin Haskell",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Christine Papa",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Dottie Kelly",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janine Forrest",
+      "Jonathan Goldner"
+     ],
+     "a": [
+      "Denise Richmond",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Garrity",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Christine Papa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Dottie Kelly",
+      "Marykristin Haskell"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Barbara Hess"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "David Osborne",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Block",
+      "Thomas Ross"
+     ],
+     "a": [
+      "David Mcintyre",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Dottie Kelly",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Denise Richmond",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nancy Blank",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Jonathan Goldner"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Robert Block"
+     ],
+     "a": [
+      "Barbara Hess",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janine Forrest",
+      "Marykristin Haskell"
+     ],
+     "a": [
+      "Christine Papa",
+      "Barbara Hess"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Garrity",
+      "Nancy Blank"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Denise Richmond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Goldner",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "David Mcintyre",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Robert Block"
+     ],
+     "a": [
+      "Richard Demeuse",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Barbara Hess",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Marykristin Haskell",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Christine Papa",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Dottie Kelly",
+      "Jonathan Goldner"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Garrity",
+      "Robert Block"
+     ],
+     "a": [
+      "Denise Richmond",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Dottie Kelly",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Katrina Mcintyre",
+      "Barbara Hess"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jane Meng",
+      "Nancy Blank"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Christine Papa"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Jonathan Goldner"
+     ],
+     "a": [
+      "David Osborne",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Thomas Ross",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Craig Batten",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jane Meng",
+      "Jay Rohatgi"
+     ],
+     "a": [
+      "Christine Papa",
+      "David Osborne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Marykristin Haskell",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Richard Demeuse"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nancy Blank",
+      "Robert Block"
+     ],
+     "a": [
+      "Denise Richmond",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Dottie Kelly",
+      "Thomas Ross"
+     ],
+     "a": [
+      "Barbara Hess",
+      "David Mcintyre"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jane Meng",
+      "Janine Forrest"
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Barbara Hess"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Marykristin Haskell",
+      "Nancy Blank"
+     ],
+     "a": [
+      "Denise Richmond",
+      "Katrina Mcintyre"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ],
+     "a": [
+      "David Osborne",
+      "Craig Batten"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Goldner",
+      "Robert Block"
+     ],
+     "a": [
+      "David Mcintyre",
+      "Richard Demeuse"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11338,7 +13103,361 @@
    "home": "ACE Moorestown",
    "away": "Bounce Malvern Boom",
    "time": "2026-09-19T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Brett Kleger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Dugan",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lucy Chow",
+      "Ed Gieske"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Sandra Thompson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Lucy Chow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Kleger",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Norton",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Ed Gieske"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Dugan",
+      "Brett Kleger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lucy Chow",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Christine Dugan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Sandra Thompson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Kleger",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Gieske",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Dugan",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lucy Chow",
+      "Brett Kleger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Dugan",
+      "Kristina Rhodes"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Lucy Chow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Kleger",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Gieske",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Talen Singer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Dugan",
+      "Ed Gieske"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zhu",
+      "Sandro Stefanelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristina Rhodes",
+      "Lucy Chow"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandra Thompson",
+      "Christine Dugan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Kleger",
+      "Chris Norton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandro Stefanelli",
+      "Ed Gieske"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -11786,14 +13905,18 @@
   "Nancy Blank": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
   "Lara Webb": "096a6a65-5d60-461f-91ed-d2eafbd7dd76",
+  "Barbara Hess": "21baa2cb-e882-442e-a5e0-a6d88126c9c3",
   "Chanda Mccoy": "30cb78cb-f962-40f9-bd02-78d336920431",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
+  "Ed Gieske": "314486b1-6723-4b33-9dba-fa5756065707",
   "Ed Saxman": "32244c70-6859-44af-a408-8294d65b592d",
+  "James Shaw": "439e30a7-6097-4e20-8a7b-25c57dd5b5d0",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "Dottie Kelly": "57a09a98-991d-47a7-a13d-fb2afa6bd8ef",
   "Danny Mellul": "5dccd915-178e-4316-8e9b-e0a3db8edfa9",
   "Kristina Rhodes": "77ecd1c3-b1df-469a-83ba-d12bd56f2c6a",
+  "Christopher Krecke": "788eac4e-f5a9-42f5-a1f2-69fc2f299678",
   "Cuc Dang": "817939be-36ae-4a5d-8c02-62138ab71d4c",
   "Andrea Dellechiaie": "84e4d40d-3b98-4822-b073-e9dc71c0d4d7",
   "Lucy Chow": "84f2d830-3dbf-4dfd-bd4b-f9eb3fb04091",
@@ -11801,6 +13924,7 @@
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Xilin Zhao": "bfecc55a-a909-44da-8292-6b59b37a6043",
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
+  "Liby Saigal": "dc2026ad-428a-4822-ae40-889727c35b10",
   "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
   "Rick Vazquez": "e532dafb-ff0f-43fc-82be-687d34ab8c14",
   "Yang Xu": "f607099c-35f9-448c-9077-1792b245f68e"
@@ -11886,7 +14010,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-16T22:12:53.518Z";
+  DATA.meta.asOf = "2026-09-18T02:18:29.236Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

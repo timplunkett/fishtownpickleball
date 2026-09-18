@@ -161,9 +161,9 @@
       "weekNumber": 4,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 673,
+      "awayPoints": 583,
+      "endResult": "home",
       "scheduledTime": "2026-09-14T19:00:00",
       "homeName": "Premiere",
       "awayName": "Monroe"
