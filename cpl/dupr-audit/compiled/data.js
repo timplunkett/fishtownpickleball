@@ -16087,6 +16087,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Simon Perry",
    "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50",
+   "team": "Flemington Blue",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Simon Perry",
+   "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50",
    "team": "Flemington",
    "slug": "cca69ab9",
    "gender": "Male"

@@ -10433,7 +10433,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 429,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -37593,6 +37593,7 @@
   "Melanie Shapsis": "b124018b-e1df-4535-b68f-6bcf67579a24",
   "Cynthia Covie": "b146d15b-2ed7-4087-a6a0-90d4538aea72",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
+  "Kyle Wilson": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
   "Kierstin Gant": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
   "Brian Landau": "e036945a-5009-4ae2-96a1-623387de7100",
@@ -37727,7 +37728,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T15:30:43.104Z";
+  DATA.meta.asOf = "2026-09-18T20:12:24.313Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

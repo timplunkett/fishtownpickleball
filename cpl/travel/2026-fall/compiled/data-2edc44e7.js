@@ -411,8 +411,8 @@
    "name": "Simon Perry",
    "gender": "Male",
    "team": "Flemington Blue",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 7,
@@ -425,7 +425,6 @@
    "genderLosses": 0,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50",
    "winPct": 100,
    "diff": 32,
    "ppg": 21,
@@ -434,7 +433,8 @@
    "ratingGames": 7,
    "confidence": 53,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.7
+   "strengthOfOpponents": -0.7,
+   "playerId": "03c7bdf6-926c-4d90-9416-117cd3478b50"
   },
   {
    "name": "Marc Harden",
@@ -8952,7 +8952,6 @@
     }
    ],
    "subs": [
-    "Simon Perry",
     "Roseann Catania"
    ]
   },
@@ -12384,8 +12383,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "Jim Darcangelo"
      ],
      "a": [
       "Lara Webb",
@@ -12395,8 +12394,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Woomer",
+      "Michael Finkelstein"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12406,8 +12405,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Michael Dieterle"
      ],
      "a": [
       "Laura Sweet",
@@ -12417,8 +12416,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Derek Le"
      ],
      "a": [
       "Lisa Loeber",
@@ -12428,8 +12427,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Stephanie Woomer"
      ],
      "a": [
       "Lisa Loeber",
@@ -12439,8 +12438,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Tera Baccile"
      ],
      "a": [
       "Lara Webb",
@@ -12450,8 +12449,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Dieterle",
+      "John Morabito"
      ],
      "a": [
       "John Darrah",
@@ -12461,8 +12460,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derek Le",
+      "Michael Finkelstein"
      ],
      "a": [
       "Danny Mellul",
@@ -12472,8 +12471,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "Michael Dieterle"
      ],
      "a": [
       "Lisa Loeber",
@@ -12483,8 +12482,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Woomer",
+      "Jim Darcangelo"
      ],
      "a": [
       "Lara Webb",
@@ -12494,8 +12493,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "John Morabito"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12505,8 +12504,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Michael Finkelstein"
      ],
      "a": [
       "Laura Sweet",
@@ -12516,8 +12515,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Vicki Main"
      ],
      "a": [
       "Laura Sweet",
@@ -12527,8 +12526,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "Stephanie Woomer"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12538,8 +12537,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Darcangelo",
+      "John Morabito"
      ],
      "a": [
       "Danny Mellul",
@@ -12549,8 +12548,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Dieterle",
+      "Derek Le"
      ],
      "a": [
       "Steve Hong",
@@ -12560,8 +12559,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Woomer",
+      "Michael Finkelstein"
      ],
      "a": [
       "Laura Sweet",
@@ -12571,8 +12570,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Jim Darcangelo"
      ],
      "a": [
       "Lisa Loeber",
@@ -12582,8 +12581,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "Derek Le"
      ],
      "a": [
       "Lara Webb",
@@ -12593,8 +12592,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "John Morabito"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12604,8 +12603,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Stephanie Woomer"
      ],
      "a": [
       "Lisa Loeber",
@@ -12615,8 +12614,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Tera Baccile"
      ],
      "a": [
       "Lara Webb",
@@ -12626,8 +12625,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Darcangelo",
+      "Derek Le"
      ],
      "a": [
       "John Darrah",
@@ -12637,8 +12636,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Finkelstein",
+      "Michael Dieterle"
      ],
      "a": [
       "Danny Mellul",
@@ -12648,8 +12647,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Simone",
+      "Jim Darcangelo"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12659,8 +12658,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Woomer",
+      "Michael Dieterle"
      ],
      "a": [
       "Laura Sweet",
@@ -12670,8 +12669,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Michael Finkelstein"
      ],
      "a": [
       "Lisa Loeber",
@@ -12681,8 +12680,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "John Morabito"
      ],
      "a": [
       "Lara Webb",
@@ -12692,8 +12691,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tera Baccile",
+      "Stephanie Woomer"
      ],
      "a": [
       "Laura Sweet",
@@ -12703,8 +12702,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vicki Main",
+      "Erika Simone"
      ],
      "a": [
       "Jiyun Yuh",
@@ -12714,8 +12713,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derek Le",
+      "John Morabito"
      ],
      "a": [
       "Tom Kresky",
@@ -12725,8 +12724,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Darcangelo",
+      "Michael Finkelstein"
      ],
      "a": [
       "Steve Hong",
@@ -13108,8 +13107,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Jonathan Brand"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13119,8 +13118,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "James Shaw"
      ],
      "a": [
       "Christine Dugan",
@@ -13130,8 +13129,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Lucy Chow",
@@ -13141,8 +13140,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Marc Harden"
      ],
      "a": [
       "Linda Zhu",
@@ -13152,8 +13151,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Stacey Frank"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13163,8 +13162,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Sandy Alkins"
      ],
      "a": [
       "Linda Zhu",
@@ -13174,8 +13173,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "James Shaw"
      ],
      "a": [
       "Brett Kleger",
@@ -13185,8 +13184,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Robert Finley"
      ],
      "a": [
       "Chris Norton",
@@ -13196,8 +13195,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Jonathan Brand"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13207,8 +13206,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Robert Finley"
      ],
      "a": [
       "Christine Dugan",
@@ -13218,8 +13217,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "James Shaw"
      ],
      "a": [
       "Lucy Chow",
@@ -13229,8 +13228,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
       "Sandra Thompson",
@@ -13240,8 +13239,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Kate Siedell"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13251,8 +13250,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Stacey Frank"
      ],
      "a": [
       "Linda Zhu",
@@ -13262,8 +13261,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Shaw",
+      "Robert Finley"
      ],
      "a": [
       "Brett Kleger",
@@ -13273,8 +13272,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Marc Harden"
      ],
      "a": [
       "Ed Gieske",
@@ -13284,8 +13283,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jonathan Brand"
      ],
      "a": [
       "Christine Dugan",
@@ -13295,8 +13294,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
       "Lucy Chow",
@@ -13306,8 +13305,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Sandra Thompson",
@@ -13317,8 +13316,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "James Shaw"
      ],
      "a": [
       "Linda Zhu",
@@ -13328,8 +13327,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Stacey Frank"
      ],
      "a": [
       "Christine Dugan",
@@ -13339,8 +13338,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Pam Boyd"
      ],
      "a": [
       "Linda Zhu",
@@ -13350,8 +13349,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "James Shaw"
      ],
      "a": [
       "Brett Kleger",
@@ -13361,8 +13360,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Robert Finley"
      ],
      "a": [
       "Ed Gieske",
@@ -13372,8 +13371,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "James Shaw"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13383,8 +13382,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Jonathan Brand"
      ],
      "a": [
       "Christine Dugan",
@@ -13394,8 +13393,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Robert Finley"
      ],
      "a": [
       "Sandra Thompson",
@@ -13405,8 +13404,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Marc Harden"
      ],
      "a": [
       "Linda Zhu",
@@ -13416,8 +13415,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Stacey Frank"
      ],
      "a": [
       "Kristina Rhodes",
@@ -13427,8 +13426,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Sandy Alkins"
      ],
      "a": [
       "Sandra Thompson",
@@ -13438,8 +13437,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Finley",
+      "James Shaw"
      ],
      "a": [
       "Brett Kleger",
@@ -13449,8 +13448,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Jonathan Brand"
      ],
      "a": [
       "Sandro Stefanelli",
@@ -14010,7 +14009,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T15:29:17.376Z";
+  DATA.meta.asOf = "2026-09-18T20:11:06.877Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

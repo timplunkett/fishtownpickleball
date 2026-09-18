@@ -7214,7 +7214,7 @@
    "winPct": 37.5,
    "diff": -17,
    "ppg": 18.1,
-   "leagueRank": 484,
+   "leagueRank": 486,
    "rating": -0.5,
    "ratingGames": 8,
    "confidence": 56,
@@ -10433,7 +10433,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 429,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10462,7 +10462,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 501,
+   "leagueRank": 503,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10491,7 +10491,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 463,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10520,7 +10520,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 480,
+   "leagueRank": 482,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10578,7 +10578,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 479,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 494,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10636,7 +10636,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 497,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 469,
+   "leagueRank": 471,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10752,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10781,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 481,
+   "leagueRank": 483,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 496,
+   "leagueRank": 498,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 491,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 486,
+   "leagueRank": 488,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 449,
+   "leagueRank": 450,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10984,7 +10984,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 430,
+   "leagueRank": 431,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11042,7 +11042,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 473,
+   "leagueRank": 475,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 494,
+   "leagueRank": 496,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11158,7 +11158,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 487,
+   "leagueRank": 489,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 467,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 477,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11274,7 +11274,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 505,
+   "leagueRank": 507,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 458,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11332,7 +11332,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 487,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 455,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 499,
+   "leagueRank": 501,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11419,7 +11419,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 452,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11477,7 +11477,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 432,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11506,7 +11506,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 444,
+   "leagueRank": 445,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11535,7 +11535,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 445,
+   "leagueRank": 446,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11564,7 +11564,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 439,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 459,
+   "leagueRank": 461,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 460,
+   "leagueRank": 462,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 466,
+   "leagueRank": 468,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 441,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 478,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 477,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 493,
+   "leagueRank": 495,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11883,7 +11883,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 464,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11912,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 500,
+   "leagueRank": 502,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11941,7 +11941,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 471,
+   "leagueRank": 473,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -30251,7 +30251,361 @@
    "home": "Colts Neck Racquet Club",
    "away": "Premiere Dinkers",
    "time": "2026-09-19T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Romagnolo",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Stassi",
+      "John Stassi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "Denise Caracciolo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Alexandra Romagnolo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Rogers",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Keane",
+      "John Stassi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "John Stassi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Romagnolo",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Caracciolo",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "Alexandra Romagnolo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Denise Stassi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Rogers",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Stassi",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Romagnolo",
+      "John Stassi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Stassi",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "Denise Caracciolo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Denise Stassi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Rogers",
+      "John Stassi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Cardinale",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Caracciolo",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Stassi",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Chin",
+      "Denise Stassi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Denise Caracciolo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Rogers",
+      "Michael Keane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Cardinale",
+      "Joseph Romagnolo"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -30973,6 +31327,368 @@
      "a": [
       "Bill Venella",
       "Scott Gardo"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "week": 5,
+   "home": "Premiere Aces",
+   "away": "PickleRage Union County",
+   "time": "2026-09-19T13:00:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Jen Ritchie",
+      "John Hans"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Louis Sapirman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Donna Fama",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Marita Dow",
+      "Ed Amato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Gina Digirolamo",
+      "Frank Fama"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Steve Nuguid"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roe Palermo",
+      "Jim Ritchie"
+     ],
+     "a": [
+      "Huifang Yao",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jen Ritchie",
+      "Roe Palermo"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Marita Dow"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Fama",
+      "Gina Digirolamo"
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Huifang Yao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vlad Feldman",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Ed Amato",
+      "Michael Schuller"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jim Ritchie",
+      "Felix Soto"
+     ],
+     "a": [
+      "Louis Sapirman",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jen Ritchie",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Louis Sapirman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Gina Digirolamo",
+      "Jim Ritchie"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Steve Nuguid"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Donna Fama",
+      "John Hans"
+     ],
+     "a": [
+      "Marita Dow",
+      "Michael Schuller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roe Palermo",
+      "Vlad Feldman"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jen Ritchie",
+      "Gina Digirolamo"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Jennifer Applebee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Fama",
+      "Roe Palermo"
+     ],
+     "a": [
+      "Marita Dow",
+      "Huifang Yao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Frank Fama",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Louis Sapirman",
+      "Ed Amato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Felix Soto",
+      "John Hans"
+     ],
+     "a": [
+      "Michael Schuller",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Donna Fama",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Steve Nuguid"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jen Ritchie",
+      "Vlad Feldman"
+     ],
+     "a": [
+      "Marita Dow",
+      "Ed Amato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roe Palermo",
+      "John Hans"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Michael Schuller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Gina Digirolamo",
+      "Frank Fama"
+     ],
+     "a": [
+      "Huifang Yao",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jen Ritchie",
+      "Gina Digirolamo"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Huifang Yao"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Fama",
+      "Roe Palermo"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Linda Bozzo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Felix Soto",
+      "Frank Marchiano"
+     ],
+     "a": [
+      "Louis Sapirman",
+      "Michael Schuller"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vlad Feldman",
+      "Frank Fama"
+     ],
+     "a": [
+      "Ed Amato",
+      "Steve Nuguid"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jen Ritchie",
+      "John Hans"
+     ],
+     "a": [
+      "Huifang Yao",
+      "Louis Sapirman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roe Palermo",
+      "Jim Ritchie"
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Ed Amato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Donna Fama",
+      "Felix Soto"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Steve Nuguid"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Gina Digirolamo",
+      "Vlad Feldman"
+     ],
+     "a": [
+      "Marita Dow",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jen Ritchie",
+      "Roe Palermo"
+     ],
+     "a": [
+      "Kathi Savage",
+      "Huifang Yao"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Donna Fama",
+      "Gina Digirolamo"
+     ],
+     "a": [
+      "Jennifer Applebee",
+      "Linda Bozzo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Hans",
+      "Jim Ritchie"
+     ],
+     "a": [
+      "Steve Nuguid",
+      "Wenge Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Frank Fama",
+      "Felix Soto"
+     ],
+     "a": [
+      "Ed Amato",
+      "Louis Sapirman"
      ]
     }
    ]
@@ -32789,368 +33505,6 @@
   },
   {
    "result": null,
-   "week": 5,
-   "home": "Premiere Aces",
-   "away": "PickleRage Union County",
-   "time": "2026-09-19T15:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "mixed",
-     "h": [
-      "Jen Ritchie",
-      "John Hans"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Louis Sapirman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Donna Fama",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Marita Dow",
-      "Ed Amato"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Gina Digirolamo",
-      "Frank Fama"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Steve Nuguid"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Roe Palermo",
-      "Jim Ritchie"
-     ],
-     "a": [
-      "Huifang Yao",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Jen Ritchie",
-      "Roe Palermo"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Marita Dow"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Donna Fama",
-      "Gina Digirolamo"
-     ],
-     "a": [
-      "Linda Bozzo",
-      "Huifang Yao"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Vlad Feldman",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Ed Amato",
-      "Michael Schuller"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Jim Ritchie",
-      "Felix Soto"
-     ],
-     "a": [
-      "Louis Sapirman",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Jen Ritchie",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Linda Bozzo",
-      "Louis Sapirman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Gina Digirolamo",
-      "Jim Ritchie"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Steve Nuguid"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Donna Fama",
-      "John Hans"
-     ],
-     "a": [
-      "Marita Dow",
-      "Michael Schuller"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Roe Palermo",
-      "Vlad Feldman"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Jen Ritchie",
-      "Gina Digirolamo"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Jennifer Applebee"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Donna Fama",
-      "Roe Palermo"
-     ],
-     "a": [
-      "Marita Dow",
-      "Huifang Yao"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Frank Fama",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Louis Sapirman",
-      "Ed Amato"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Felix Soto",
-      "John Hans"
-     ],
-     "a": [
-      "Michael Schuller",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Donna Fama",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Linda Bozzo",
-      "Steve Nuguid"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Jen Ritchie",
-      "Vlad Feldman"
-     ],
-     "a": [
-      "Marita Dow",
-      "Ed Amato"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Roe Palermo",
-      "John Hans"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Michael Schuller"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Gina Digirolamo",
-      "Frank Fama"
-     ],
-     "a": [
-      "Huifang Yao",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Jen Ritchie",
-      "Gina Digirolamo"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Huifang Yao"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Donna Fama",
-      "Roe Palermo"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Linda Bozzo"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Felix Soto",
-      "Frank Marchiano"
-     ],
-     "a": [
-      "Louis Sapirman",
-      "Michael Schuller"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Vlad Feldman",
-      "Frank Fama"
-     ],
-     "a": [
-      "Ed Amato",
-      "Steve Nuguid"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Jen Ritchie",
-      "John Hans"
-     ],
-     "a": [
-      "Huifang Yao",
-      "Louis Sapirman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Roe Palermo",
-      "Jim Ritchie"
-     ],
-     "a": [
-      "Linda Bozzo",
-      "Ed Amato"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Donna Fama",
-      "Felix Soto"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Steve Nuguid"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Gina Digirolamo",
-      "Vlad Feldman"
-     ],
-     "a": [
-      "Marita Dow",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Jen Ritchie",
-      "Roe Palermo"
-     ],
-     "a": [
-      "Kathi Savage",
-      "Huifang Yao"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Donna Fama",
-      "Gina Digirolamo"
-     ],
-     "a": [
-      "Jennifer Applebee",
-      "Linda Bozzo"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "John Hans",
-      "Jim Ritchie"
-     ],
-     "a": [
-      "Steve Nuguid",
-      "Wenge Li"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Frank Fama",
-      "Felix Soto"
-     ],
-     "a": [
-      "Ed Amato",
-      "Louis Sapirman"
-     ]
-    }
-   ]
-  },
-  {
-   "result": null,
    "week": 6,
    "home": "PickleRage Union County",
    "away": "Picklr Fair Lawn",
@@ -34083,6 +34437,7 @@
   "Christopher Brett": "4719124e-bbc1-4a42-aa0b-a8159f7778e2",
   "Qiao Yang": "4be24db4-ce32-40fa-bd9d-1900b731a602",
   "Ron Dodson": "4f3b5d69-09ea-4e93-b797-c772df1dd2f8",
+  "Debra Crawford": "5c28285b-7837-4f7b-8841-c23b92fe26af",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Wendy Seiferheld": "5feb4ca5-da15-41eb-abe3-59e229f732da",
   "Amy Condi": "626ddb03-dc2f-4bf5-ba36-0119e6e2b557",
@@ -34090,6 +34445,7 @@
   "Scott Rothschild": "6f4df2db-2114-4c90-b889-b969317403c7",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
+  "Michael Keane": "730e7308-823f-4571-a7da-52806054582c",
   "Wai Yiu": "77e46249-c354-488b-9939-8a5c21dbf8ab",
   "Lisa Pinder": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
   "Neal Shipon": "7d298d79-0931-4682-8a6f-305e27d992b7",
@@ -34238,7 +34594,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T15:30:04.786Z";
+  DATA.meta.asOf = "2026-09-18T20:11:46.300Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

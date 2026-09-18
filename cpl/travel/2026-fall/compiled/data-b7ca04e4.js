@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 526,
+   "leagueRank": 527,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13072,7 +13072,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 517,
+   "leagueRank": 518,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 515,
+   "leagueRank": 516,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13130,7 +13130,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 525,
+   "leagueRank": 526,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 534,
+   "leagueRank": 535,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13217,7 +13217,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 521,
+   "leagueRank": 522,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 528,
+   "leagueRank": 529,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13391,7 +13391,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 522,
+   "leagueRank": 523,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 536,
+   "leagueRank": 537,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -48284,6 +48284,7 @@
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Brittany Jacobs": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
+  "Michael Mazzola": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Frank Kong": "33baac8e-fe7f-4c97-8443-0687777b2ed2",
@@ -48383,7 +48384,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-17T20:48:56.462Z";
+  DATA.meta.asOf = "2026-09-18T20:13:19.622Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

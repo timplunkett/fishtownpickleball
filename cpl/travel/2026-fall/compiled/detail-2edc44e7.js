@@ -2591,8 +2591,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -2609,8 +2609,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2625,8 +2625,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2641,8 +2641,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2657,8 +2657,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2673,8 +2673,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2689,8 +2689,8 @@
     "a": 24,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -2705,8 +2705,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

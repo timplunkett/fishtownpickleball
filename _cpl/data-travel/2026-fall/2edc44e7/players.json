@@ -30,7 +30,7 @@
       "gender": "Male",
       "dupr": "1RGKXQ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
       "wins": 7,

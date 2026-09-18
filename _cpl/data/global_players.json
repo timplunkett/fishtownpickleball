@@ -34793,10 +34793,10 @@
   {
     "playerId": "5c28285b-7837-4f7b-8841-c23b92fe26af",
     "firstName": "Debra",
-    "lastName": "Crawford ",
+    "lastName": "Crawford",
     "dupr": "V77MV7",
     "duprRating": "3.044",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 7946423779,
     "duprProvisional": false
   },
@@ -46405,6 +46405,22 @@
     "firstName": "Heidi",
     "lastName": "Hinz",
     "dupr": "RYWQ2Z",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "730e7308-823f-4571-a7da-52806054582c",
+    "firstName": "Michael",
+    "lastName": "Keane",
+    "dupr": "2DO564",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
+    "firstName": "Kyle",
+    "lastName": "Wilson",
+    "dupr": "99DEPK",
     "duprRating": null,
     "lastSeen": "2026-09"
   }
