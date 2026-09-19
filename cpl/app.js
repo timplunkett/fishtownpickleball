@@ -118,6 +118,100 @@ function collapsedSectionIds() {
   return Array.isArray(prefs.collapsed) ? prefs.collapsed : [];
 }
 
+// ── Favorites ────────────────────────────────────────────────────────────
+// Storage and the GDPR reasoning live in CPLShared (cpl.favorites.v1) so the
+// landing page can read the same bookmarks without loading this file. What's
+// here is just: build the id/label/href for whatever the reader is looking
+// at, render one star button consistently, and one delegated click handler
+// that works for all three kinds, since a team page and a player modal both
+// build their star button from freshly-rendered HTML rather than a DOM node
+// this file already holds onto.
+function divisionFavoriteContext() {
+  const { league, season } = currentPage();
+  const slug = getCurrentDivision()?.slug || DATA.meta.divisionSlug || '';
+  return { league, season, slug };
+}
+
+function teamFavoriteId(teamName) {
+  const { league, season, slug } = divisionFavoriteContext();
+  return `team:${league}:${season}:${slug}:${slugify(teamName)}`;
+}
+
+function teamFavoriteHref(teamName) {
+  const { league, season, slug } = divisionFavoriteContext();
+  return CPLShared.divisionPath({ league, season, slug }, { team: slugify(teamName) });
+}
+
+// playerId when known — the same identity a route addresses a player by
+// (routeKeyForPlayer) — so a person favorited from one division shows their
+// star already lit on another division's roster too, rather than tracking a
+// favorite per (division, player) pair. Falls back to a slugified name only
+// for the rare player with no playerId on file, same as routeKeyForPlayer's
+// own fallback.
+function playerFavoriteId(player) {
+  return `player:${routeKeyForPlayer(player)}`;
+}
+
+function playerFavoriteHref(player) {
+  const { league, season, slug } = divisionFavoriteContext();
+  return CPLShared.divisionPath({ league, season, slug }, { player: routeKeyForPlayer(player) });
+}
+
+// One star button's markup: type/id/label/href travel as data attributes so
+// the single delegated handler below can read them straight off whichever
+// button was clicked, without this file tracking which button belongs to
+// which entity.
+function favoriteStarHtml(type, id, label, href, extraClass = '') {
+  const active = CPLShared.isFavorite(type, id);
+  const verb = active ? 'Remove' : 'Add';
+  const ariaLabel = `${verb} ${label} ${active ? 'from' : 'to'} favorites`;
+  return `<button type="button" class="fav-star${extraClass}${active ? ' active' : ''}" data-fav-type="${type}" data-fav-id="${escapeHtml(id)}" data-fav-label="${escapeHtml(label)}" data-fav-href="${escapeHtml(href)}" aria-pressed="${active}" aria-label="${escapeHtml(ariaLabel)}">${active ? '★' : '☆'}</button>`;
+}
+
+function applyFavoriteButtonState(button, active, label) {
+  const verb = active ? 'Remove' : 'Add';
+  button.classList.toggle('active', active);
+  button.setAttribute('aria-pressed', String(active));
+  button.setAttribute('aria-label', `${verb} ${label} ${active ? 'from' : 'to'} favorites`);
+  button.textContent = active ? '★' : '☆';
+}
+
+// The division header's star is a fixed element in the template (unlike the
+// team/player ones, which are redrawn as HTML each time), so it's addressed
+// directly rather than through the delegated handler's data attributes —
+// simpler than giving a single persistent element a synthetic re-render.
+function renderDivisionFavoriteButton() {
+  const button = elements.divisionFavorite;
+  const { league, season, slug } = divisionFavoriteContext();
+  if (!league || !slug) {
+    button.hidden = true;
+    return;
+  }
+  const id = `division:${league}:${season}:${slug}`;
+  const label = divisionTitleSubject() || 'this division';
+  const href = CPLShared.divisionPath({ league, season, slug }, {});
+  button.dataset.favType = 'division';
+  button.dataset.favId = id;
+  button.dataset.favLabel = label;
+  button.dataset.favHref = href;
+  button.hidden = false;
+  applyFavoriteButtonState(button, CPLShared.isFavorite('division', id), label);
+}
+
+// One handler, delegated from <body>, for every star on the page — the
+// division header's persistent button and any team-page or player-modal
+// button a render just created. Reading the entity back off the clicked
+// button's own data attributes means nothing here has to know which kind of
+// favorite it's handling.
+function handleFavoriteStarClick(event) {
+  const button = event.target.closest('.fav-star');
+  if (!button) return;
+  const { favType: type, favId: id, favLabel: label, favHref: href } = button.dataset;
+  if (!type || !id) return;
+  const active = CPLShared.toggleFavorite(type, { id, label, href });
+  applyFavoriteButtonState(button, active, label);
+}
+
 // Hand-written abbreviations, for the cases the algorithm gets right but reads
 // badly. `label` is the header form, `code` the cell chip; either may be given
 // alone. An override is applied before uniqueness is resolved, so the rest of
@@ -129,6 +223,7 @@ const TEAM_ABBR_OVERRIDES = Object.freeze({});
 const elements = {
   body: getRequiredElement('body'),
   captain: getRequiredElement('captain'),
+  divisionFavorite: getRequiredElement('division-favorite'),
   divisionSelect: getRequiredElement('division-select'),
   duoBody: getRequiredElement('duobody'),
   footer: getRequiredElement('foot'),
@@ -1340,6 +1435,7 @@ function renderHeader() {
     elements.kicker.textContent = typicalDay ? `${clubName} • ${typicalDay}` : clubName;
   }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
+  renderDivisionFavoriteButton();
 
   // One HTML file serves every division in its league, so the <title> in it can
   // only ever be right for one of them — it read "Bounce Pickleball" on
@@ -1912,7 +2008,7 @@ function renderModalHeader(player) {
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `
-    <div class="mh-name">${escapeHtml(player.name)}${captainTag}</div>
+    <div class="mh-name">${escapeHtml(player.name)}${captainTag} ${favoriteStarHtml('player', playerFavoriteId(player), player.name, playerFavoriteHref(player), ' mh-fav')}</div>
     <div class="mh-sub">
       <span class="teamdot" style="background:${getTeamColor(player.team)}"></span>
       ${escapeHtml(player.team)} • ${genderLabel} • season totals
@@ -3276,7 +3372,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
   elements.teamView.innerHTML = `
     <a class="backlink" href="${standingsHref()}">← All standings</a>
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
-      <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)}</h2>
+      <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)} ${favoriteStarHtml('team', teamFavoriteId(team.name), team.name, teamFavoriteHref(team.name))}</h2>
       <div class="team-meta">
         ${overallLabel ? `<span><b>${overallLabel}</b></span>` : ''}
         <span><b>${rankLabel}</b></span>
@@ -3921,6 +4017,10 @@ function initialize() {
   elements.teamView.addEventListener('click', handleTocClick);
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
+  // One handler for every star on the page — the division header's, and any
+  // team-page or player-modal one a render just created — see
+  // handleFavoriteStarClick.
+  document.addEventListener('click', handleFavoriteStarClick);
   elements.teams.addEventListener('click', handleTeamCardClick);
   // Match history / Pending matchups opponent links live in the team view, not
   // the teams list — same handler, different container.

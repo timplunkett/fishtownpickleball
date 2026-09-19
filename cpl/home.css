@@ -152,6 +152,88 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 #archive-panel[hidden] { display: none; }
 
+/* The Favorites box: up to 5 divisions/teams/players the reader starred on a
+   dashboard, newest first. Sized and hidden the same way the signpost panels
+   above are — full width rather than one of the flex boxes in `.panels`,
+   since a row here already carries a type label, a link and a remove button
+   and would crowd a 280px-wide box. */
+.favorites-panel {
+  width: 100%;
+  max-width: 720px;
+  flex: none;
+}
+
+.favorites-panel[hidden] { display: none; }
+
+.favorites-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.favorites-list li {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.favorites-list-link {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  gap: .55rem;
+  min-width: 0;
+  font-size: .85rem;
+}
+
+.favorites-list-link:hover .favorites-list-label { color: var(--accent); }
+
+.favorites-list-type {
+  flex: none;
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+  text-decoration: none;
+}
+
+.favorites-list-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--txt);
+}
+
+/* Not .app-link: a favorites row's own link already carries the site's
+   underline-on-text convention (see the Links block in styles.css); this is
+   the small "×" beside it, which reads as a control, not a second link. */
+.favorites-remove {
+  flex: none;
+  border: none;
+  background: none;
+  color: var(--mut);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: .15rem .35rem;
+  border-radius: 6px;
+}
+
+.favorites-remove:hover { color: var(--accent); }
+.favorites-remove:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.favorites-clear {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 /* The finished-season list inside the Archive box on the landing page. Names
    the seasons so the link says what is behind it. */
 .archive-list {

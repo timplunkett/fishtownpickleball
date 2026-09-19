@@ -160,8 +160,75 @@
     if (age.title) host.title = age.title;
   }
 
+  // The Favorites box: whatever the reader starred on a dashboard (division
+  // header, team page, or player modal — see the fav-star wiring in app.js),
+  // newest first. Storage and the GDPR reasoning live in CPLShared
+  // (cpl.favorites.v1); this box only reads it back and lets the reader
+  // remove a row without having to go find the star again.
+  var FAVORITE_TYPE_LABELS = { division: 'Division', team: 'Team', player: 'Player' };
+  var FAVORITES_SHOWN = 5;
+
+  function renderFavoritesBox() {
+    var panel = document.getElementById('favorites-panel');
+    var summary = document.getElementById('favorites-summary');
+    var list = document.getElementById('favorites-list');
+    if (!panel || !list) return;
+
+    var all = shared.listFavorites();
+    var shown = all.slice(0, FAVORITES_SHOWN);
+    panel.hidden = !shown.length;
+    if (!shown.length) return;
+
+    if (summary) {
+      summary.textContent = all.length > shown.length
+        ? 'Newest ' + shown.length + ' of ' + all.length
+        : shown.length + (shown.length === 1 ? ' saved' : ' saved');
+    }
+
+    list.innerHTML = shown.map(function (favorite) {
+      var typeLabel = FAVORITE_TYPE_LABELS[favorite.type] || favorite.type;
+      return '<li>' +
+        '<a class="favorites-list-link" href="' + escapeHtml(favorite.href || '#') + '">' +
+        '<span class="favorites-list-type">' + escapeHtml(typeLabel) + '</span>' +
+        '<span class="favorites-list-label">' + escapeHtml(favorite.label || '') + '</span>' +
+        '</a>' +
+        '<button type="button" class="favorites-remove" data-fav-type="' + escapeHtml(favorite.type) + '" data-fav-id="' + escapeHtml(favorite.id) + '" aria-label="Remove ' + escapeHtml(favorite.label || '') + ' from favorites">×</button>' +
+        '</li>';
+    }).join('');
+  }
+
+  function buildFavoritesBox() {
+    var panel = document.getElementById('favorites-panel');
+    var list = document.getElementById('favorites-list');
+    var clearButton = document.getElementById('favorites-clear');
+    if (!panel || !list) return;
+
+    // Delegated: the rows are rebuilt on every render, the list container isn't.
+    list.addEventListener('click', function (event) {
+      var button = event.target.closest('.favorites-remove');
+      if (!button) return;
+      shared.removeFavorite(button.dataset.favType, button.dataset.favId);
+      renderFavoritesBox();
+    });
+
+    if (clearButton) {
+      clearButton.addEventListener('click', function () {
+        // One at a time through the public API rather than writing an empty
+        // object straight into storage, so this stays the only place that
+        // knows the shape CPLShared keeps favorites in.
+        shared.listFavorites().forEach(function (favorite) {
+          shared.removeFavorite(favorite.type, favorite.id);
+        });
+        renderFavoritesBox();
+      });
+    }
+
+    renderFavoritesBox();
+  }
+
   buildNowBox();
   buildArchiveBox();
+  buildFavoritesBox();
   renderFreshness();
 
   // ── Player Finder ──────────────────────────────────────────────────────────
