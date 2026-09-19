@@ -160,12 +160,16 @@ function playerFavoriteHref(player) {
 // One star button's markup: type/id/label/href travel as data attributes so
 // the single delegated handler below can read them straight off whichever
 // button was clicked, without this file tracking which button belongs to
-// which entity.
-function favoriteStarHtml(type, id, label, href, extraClass = '') {
+// which entity. `context` is a division/league label carried along only so
+// the /cpl landing page's Favorites block can say which division a team or
+// player belongs to — team names repeat across leagues and divisions ("Bounce
+// Philly" plays in more than one bracket), and the block has no dataset
+// loaded to look that up itself the way this page's own DATA does.
+function favoriteStarHtml(type, id, label, href, context = '', extraClass = '') {
   const active = CPLShared.isFavorite(type, id);
   const verb = active ? 'Remove' : 'Add';
   const ariaLabel = `${verb} ${label} ${active ? 'from' : 'to'} favorites`;
-  return `<button type="button" class="fav-star${extraClass}${active ? ' active' : ''}" data-fav-type="${type}" data-fav-id="${escapeHtml(id)}" data-fav-label="${escapeHtml(label)}" data-fav-href="${escapeHtml(href)}" aria-pressed="${active}" aria-label="${escapeHtml(ariaLabel)}">${active ? '★' : '☆'}</button>`;
+  return `<button type="button" class="fav-star${extraClass}${active ? ' active' : ''}" data-fav-type="${type}" data-fav-id="${escapeHtml(id)}" data-fav-label="${escapeHtml(label)}" data-fav-href="${escapeHtml(href)}" data-fav-context="${escapeHtml(context)}" aria-pressed="${active}" aria-label="${escapeHtml(ariaLabel)}">${active ? '★' : '☆'}</button>`;
 }
 
 function applyFavoriteButtonState(button, active, label) {
@@ -206,9 +210,9 @@ function renderDivisionFavoriteButton() {
 function handleFavoriteStarClick(event) {
   const button = event.target.closest('.fav-star');
   if (!button) return;
-  const { favType: type, favId: id, favLabel: label, favHref: href } = button.dataset;
+  const { favType: type, favId: id, favLabel: label, favHref: href, favContext: context } = button.dataset;
   if (!type || !id) return;
-  const active = CPLShared.toggleFavorite(type, { id, label, href });
+  const active = CPLShared.toggleFavorite(type, { id, label, href, context: context || undefined });
   applyFavoriteButtonState(button, active, label);
 }
 
@@ -2008,7 +2012,7 @@ function renderModalHeader(player) {
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
 
   return `
-    <div class="mh-name">${escapeHtml(player.name)}${captainTag} ${favoriteStarHtml('player', playerFavoriteId(player), player.name, playerFavoriteHref(player), ' mh-fav')}</div>
+    <div class="mh-name">${escapeHtml(player.name)}${captainTag} ${favoriteStarHtml('player', playerFavoriteId(player), player.name, playerFavoriteHref(player), `${player.team} — ${divisionTitleSubject()}`, ' mh-fav')}</div>
     <div class="mh-sub">
       <span class="teamdot" style="background:${getTeamColor(player.team)}"></span>
       ${escapeHtml(player.team)} • ${genderLabel} • season totals
@@ -3372,7 +3376,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
   elements.teamView.innerHTML = `
     <a class="backlink" href="${standingsHref()}">← All standings</a>
     <div class="team-hero" style="border-top:3px solid ${color};padding-top:12px">
-      <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)} ${favoriteStarHtml('team', teamFavoriteId(team.name), team.name, teamFavoriteHref(team.name))}</h2>
+      <h2><span class="teamdot" style="background:${color};width:12px;height:12px"></span> ${escapeHtml(team.name)} ${favoriteStarHtml('team', teamFavoriteId(team.name), team.name, teamFavoriteHref(team.name), divisionTitleSubject())}</h2>
       <div class="team-meta">
         ${overallLabel ? `<span><b>${overallLabel}</b></span>` : ''}
         <span><b>${rankLabel}</b></span>
@@ -3402,6 +3406,11 @@ function renderTeamPage(team, { scroll = true } = {}) {
   `;
   elements.mainView.hidden = true;
   elements.teamView.hidden = false;
+  // The division header stays on screen behind the team page (only #mainview
+  // swaps out), so its star has to be hidden explicitly here — otherwise it
+  // reads as "favorite the team page you're looking at" and stars the
+  // division instead. showMainView un-hides it on the way back.
+  elements.divisionFavorite.hidden = true;
   elements.subhead.textContent = `${team.name} — team page`;
   // Same fix as renderHeader's division-level title: the tab should say which
   // team's page is open, not just the division it belongs to. showMainView
@@ -3450,6 +3459,10 @@ function showMainView() {
   // Undo renderTeamPage's team-specific <title>; a player modal opened from
   // here never sets document.title, so there's nothing else to restore.
   applyDivisionTitle();
+  // Undoes renderTeamPage hiding the division star — recomputed rather than
+  // just un-hiding, so it still reflects whatever favoriting happened while
+  // the team page (or a player modal opened from it) was on screen.
+  renderDivisionFavoriteButton();
   renderSummary();
   // Back to the dashboard's own strip: its chips have to be re-marked against
   // where the page now sits, and the observer re-pointed off the team page's.

@@ -171,41 +171,79 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: .15rem;
 }
 
 .favorites-list li {
   display: flex;
   align-items: center;
-  gap: .6rem;
+  gap: .5rem;
+  padding: .4rem .5rem;
+  border-radius: 10px;
+  transition: background-color .12s;
+}
+
+.favorites-list li:hover {
+  background: rgb(255 255 255 / 4%);
 }
 
 .favorites-list-link {
   flex: 1;
   display: flex;
-  align-items: baseline;
-  gap: .55rem;
+  align-items: center;
+  gap: .65rem;
   min-width: 0;
-  font-size: .85rem;
+  text-decoration: none;
 }
 
 .favorites-list-link:hover .favorites-list-label { color: var(--accent); }
 
+/* A pill rather than plain uppercase text: with a two-line label + context
+   beside it, a bare word in the same weight as everything else read as a
+   third line instead of a tag. Fixed width so the three kinds line up in a
+   column down the list. */
 .favorites-list-type {
   flex: none;
-  font-size: .65rem;
+  width: 4.4rem;
+  text-align: center;
+  padding: .2rem 0;
+  border-radius: 999px;
+  font-size: .62rem;
   font-weight: 700;
-  letter-spacing: .06em;
+  letter-spacing: .05em;
   text-transform: uppercase;
-  color: var(--mut);
-  text-decoration: none;
+}
+
+.favorites-list-type-division { color: var(--accent); background: rgb(29 178 220 / 14%); }
+.favorites-list-type-team { color: var(--win); background: rgb(25 211 154 / 14%); }
+.favorites-list-type-player { color: var(--gold); background: rgb(232 198 107 / 14%); }
+
+.favorites-list-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .favorites-list-label {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--txt);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: var(--txt);
+}
+
+/* Only present for a team or player — the division a team plays in or a
+   player's team + division, so "Bounce Philly" twice in the list still reads
+   as two different teams. A division's own label already names its league,
+   so it never gets one (see favorite.context in home.js). */
+.favorites-list-meta {
+  font-size: .72rem;
+  color: var(--mut);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Not .app-link: a favorites row's own link already carries the site's
@@ -225,14 +263,6 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 
 .favorites-remove:hover { color: var(--accent); }
 .favorites-remove:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
-
-.favorites-clear {
-  font: inherit;
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
 
 /* The finished-season list inside the Archive box on the landing page. Names
    the seasons so the link says what is behind it. */

@@ -173,6 +173,16 @@ h1 {
   transition: color 0.15s, transform 0.1s;
 }
 
+/* An author rule that sets `display` always wins over the UA stylesheet's
+   `[hidden] { display: none }`, no matter the specificity — so the plain
+   `.fav-star` rule above silently cancelled out `element.hidden = true` on
+   the division header's star. renderTeamPage sets that property to hide it
+   behind a team page, and without this it stayed visually shown (though
+   still `hidden` in the DOM) the whole time. */
+.fav-star[hidden] {
+  display: none;
+}
+
 .fav-star:hover {
   color: var(--gold);
 }
