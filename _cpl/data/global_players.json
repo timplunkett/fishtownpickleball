@@ -46349,103 +46349,129 @@
     "firstName": "Carl",
     "lastName": "Nath",
     "dupr": "EWPROM",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.834",
+    "lastSeen": "2026-09",
+    "duprNumericId": 4663461499,
+    "duprProvisional": false
   },
   {
     "playerId": "b0c386a2-b875-4432-b5ef-e248a87d85dc",
     "firstName": "Joanna",
     "lastName": "Zhang",
     "dupr": "V2MMG7",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "3.106",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7795912351,
+    "duprProvisional": false
   },
   {
     "playerId": "6013eba7-eb0e-493a-8c22-0f1127150a01",
     "firstName": "Lisamarie",
     "lastName": "Chinchilla",
     "dupr": "V622E5",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "3.548",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7732852853,
+    "duprProvisional": false
   },
   {
     "playerId": "1bdd162f-17d6-43a3-bbbc-f7ad3337908a",
     "firstName": "Josephine",
     "lastName": "Catanzaro",
     "dupr": "4LQY56",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.633",
+    "lastSeen": "2026-09",
+    "duprNumericId": 4810023806,
+    "duprProvisional": false
   },
   {
     "playerId": "3cf3093b-1667-4242-9ad5-1d72fc5d24f8",
     "firstName": "Megan",
     "lastName": "Curren",
     "dupr": "EXMMLJ",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.748",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6459592564,
+    "duprProvisional": false
   },
   {
     "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
     "firstName": "Maria",
     "lastName": "Borges",
     "dupr": "DNR7JX",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.952",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6545600090,
+    "duprProvisional": false
   },
   {
     "playerId": "788eac4e-f5a9-42f5-a1f2-69fc2f299678",
     "firstName": "Christopher",
     "lastName": "Krecke",
     "dupr": "16OPRD",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "4.461",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7743901432,
+    "duprProvisional": false
   },
   {
     "playerId": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
     "firstName": "Heidi",
     "lastName": "Hinz",
     "dupr": "RYWQ2Z",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.696",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7766839056,
+    "duprProvisional": false
   },
   {
     "playerId": "730e7308-823f-4571-a7da-52806054582c",
     "firstName": "Michael",
     "lastName": "Keane",
     "dupr": "2DO564",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "NR",
+    "lastSeen": "2026-09",
+    "duprNumericId": 4485983010,
+    "duprProvisional": false
   },
   {
     "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
     "firstName": "Kyle",
     "lastName": "Wilson",
     "dupr": "99DEPK",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "4.190",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7539995799,
+    "duprProvisional": false
   },
   {
     "playerId": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
     "firstName": "Patrick",
     "lastName": "Reece",
     "dupr": "9D4EMK",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.529",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6236818813,
+    "duprProvisional": false
   },
   {
     "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be",
     "firstName": "Steven",
     "lastName": "Giudice",
     "dupr": "X2W0N2",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "3.827",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7396197390,
+    "duprProvisional": false
   },
   {
     "playerId": "f68c44fd-96e9-40e2-9d01-09531895b29f",
     "firstName": "David",
     "lastName": "Biskowitz",
     "dupr": "4EZNEG",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "3.289",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7047001724,
+    "duprProvisional": false
   }
 ]
