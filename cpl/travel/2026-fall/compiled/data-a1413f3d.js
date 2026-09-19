@@ -37831,6 +37831,7 @@
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Natalie Ruiz": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
+  "Quincy Zhang": "30c66392-1494-4e99-a538-b3f06dda6681",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Laura Bruno": "3e9413ca-f37d-43e0-8380-957933a70055",
@@ -37986,7 +37987,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-19T15:04:59.756Z";
+  DATA.meta.asOf = "2026-09-19T19:48:42.938Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

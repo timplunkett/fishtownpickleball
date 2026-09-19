@@ -1994,6 +1994,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Bill Brandt",
+   "playerId": "dc530014-0e3b-4485-b265-8555bafe6e19",
+   "team": "Flemington Blue",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
    "name": "Bill Del Pizzo",
    "playerId": "510eec89-c8f8-4e7d-8d41-b8f7e9dc4959",
    "team": "Dill Dinkers Lansdale",
@@ -4273,6 +4280,13 @@ window.DUPR_AUDIT = {
    "playerId": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
    "team": "Dill Dinkers Hatboro",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "David Biskowitz",
+   "playerId": "f68c44fd-96e9-40e2-9d01-09531895b29f",
+   "team": "Montville Rocks",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {
