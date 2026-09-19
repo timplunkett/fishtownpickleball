@@ -533,9 +533,9 @@
       "weekNumber": 4,
       "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 546,
+      "awayPoints": 639,
+      "endResult": "away",
       "scheduledTime": "2026-09-17T19:30:00",
       "homeName": "Pickle Place",
       "awayName": "Dill Dinkers Hatboro Aces"
@@ -697,6 +697,18 @@
       "awayName": "ACE Moorestown"
     },
     {
+      "matchupId": "f3f2a65a-5aa8-438a-9fbc-75050c8fd737",
+      "weekNumber": 5,
+      "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-26T12:00:00",
+      "homeName": "Pickleball Kingdom Watchung",
+      "awayName": "Home Court"
+    },
+    {
       "matchupId": "95d2197f-707a-4f56-b57f-d5450d56f793",
       "weekNumber": 5,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
@@ -719,18 +731,6 @@
       "scheduledTime": "2026-09-26T15:00:00",
       "homeName": "Premiere",
       "awayName": "APC Garden State"
-    },
-    {
-      "matchupId": "f3f2a65a-5aa8-438a-9fbc-75050c8fd737",
-      "weekNumber": 5,
-      "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T15:00:00",
-      "homeName": "Pickleball Kingdom Watchung",
-      "awayName": "Home Court"
     },
     {
       "matchupId": "5da87212-1065-49c6-8ef9-43bc921fe846",

@@ -10737,7 +10737,7 @@
    "team": "Pickleball Palace Blue",
    "matches": 0,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 0,
    "wins": 0,
    "losses": 0,
@@ -34594,7 +34594,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-19T02:21:27.257Z";
+  DATA.meta.asOf = "2026-09-19T15:04:31.683Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

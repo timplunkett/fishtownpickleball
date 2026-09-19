@@ -35615,7 +35615,6 @@
    "away": "Dill Dinkers Hatboro Aces",
    "time": "2026-09-17T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 546,
    "awayPoints": 639,
    "homeGW": 11,
@@ -37093,6 +37092,14 @@
   {
    "result": null,
    "week": 5,
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Home Court",
+   "time": "2026-09-26T12:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 5,
    "home": "Pickleball Palace",
    "away": "Montville",
    "time": "2026-09-26T15:00:00",
@@ -37103,14 +37110,6 @@
    "week": 5,
    "home": "Premiere",
    "away": "APC Garden State",
-   "time": "2026-09-26T15:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Home Court",
    "time": "2026-09-26T15:00:00",
    "complete": false
   },
@@ -37863,7 +37862,7 @@
  },
  "meta": {
   "matchesPlayed": 44,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-4",
   "totalPlayers": 395,
   "ratingHistoryWeeks": [
@@ -37987,7 +37986,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-19T02:22:06.399Z";
+  DATA.meta.asOf = "2026-09-19T15:04:59.756Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

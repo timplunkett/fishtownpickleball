@@ -26215,8 +26215,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Greg Schipske"
      ],
      "a": [
       "Sherri Falsetti",
@@ -26226,8 +26226,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liz Mooney",
+      "Hugh Pinder"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26237,8 +26237,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Andrew Fang"
      ],
      "a": [
       "Marguerite Greener",
@@ -26248,8 +26248,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zarrilli",
+      "Dave Hartzell"
      ],
      "a": [
       "Krystal Johnson",
@@ -26259,8 +26259,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Amy Maussner"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26270,8 +26270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Stacy Ip-Mo"
      ],
      "a": [
       "Lisa Yuskevich",
@@ -26281,8 +26281,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rodney Pierson",
+      "John Dechristopher"
      ],
      "a": [
       "George Chen",
@@ -26292,8 +26292,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Fang",
+      "Greg Schipske"
      ],
      "a": [
       "Gennadiy Sterin",
@@ -26303,8 +26303,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liz Mooney",
+      "John Dechristopher"
      ],
      "a": [
       "Carolyn Coonan",
@@ -26314,8 +26314,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Dave Hartzell"
      ],
      "a": [
       "Krystal Johnson",
@@ -26325,8 +26325,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Andrew Fang"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26336,8 +26336,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zarrilli",
+      "Hugh Pinder"
      ],
      "a": [
       "Marguerite Greener",
@@ -26347,8 +26347,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Stacy Ip-Mo"
      ],
      "a": [
       "Sherri Falsetti",
@@ -26358,8 +26358,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Amy Maussner"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26369,8 +26369,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Dechristopher",
+      "Andrew Fang"
      ],
      "a": [
       "Michael Johnson",
@@ -26380,8 +26380,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Greg Schipske",
+      "Hugh Pinder"
      ],
      "a": [
       "George Chen",
@@ -26391,8 +26391,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Rodney Pierson"
      ],
      "a": [
       "Sherri Falsetti",
@@ -26402,8 +26402,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zarrilli",
+      "Dave Hartzell"
      ],
      "a": [
       "Marguerite Greener",
@@ -26413,8 +26413,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Greg Schipske"
      ],
      "a": [
       "Carolyn Coonan",
@@ -26424,8 +26424,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liz Mooney",
+      "John Dechristopher"
      ],
      "a": [
       "Lisa Yuskevich",
@@ -26435,8 +26435,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Liz Mooney",
+      "Linda Zarrilli"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26446,8 +26446,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacy Ip-Mo",
+      "Amy Maussner"
      ],
      "a": [
       "Sherri Falsetti",
@@ -26457,8 +26457,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Fang",
+      "John Dechristopher"
      ],
      "a": [
       "Gennadiy Sterin",
@@ -26468,8 +26468,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hugh Pinder",
+      "Greg Schipske"
      ],
      "a": [
       "George Chen",
@@ -26479,8 +26479,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Rodney Pierson"
      ],
      "a": [
       "Lisa Yuskevich",
@@ -26490,8 +26490,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Greg Schipske"
      ],
      "a": [
       "Qiuwei Feng",
@@ -26501,8 +26501,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Ip-Mo",
+      "Dave Hartzell"
      ],
      "a": [
       "Sherri Falsetti",
@@ -26512,8 +26512,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Andrew Fang"
      ],
      "a": [
       "Krystal Johnson",
@@ -26523,8 +26523,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Amy Maussner"
      ],
      "a": [
       "Lisa Yuskevich",
@@ -26534,8 +26534,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Linda Zarrilli"
      ],
      "a": [
       "Marguerite Greener",
@@ -26545,8 +26545,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dave Hartzell",
+      "Rodney Pierson"
      ],
      "a": [
       "George Chen",
@@ -26556,8 +26556,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Fang",
+      "Greg Schipske"
      ],
      "a": [
       "Andrew Mclean",
@@ -28411,14 +28411,6 @@
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Palace",
-   "away": "Montville Rocks",
-   "time": "2026-09-26T12:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
    "home": "Home Court",
    "away": "Flemington",
    "time": "2026-09-26T12:00:00",
@@ -28430,6 +28422,14 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Allstar Pickler",
    "time": "2026-09-26T12:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 6,
+   "home": "Pickleball Palace",
+   "away": "Montville Rocks",
+   "time": "2026-09-26T15:00:00",
    "complete": false
   },
   {
@@ -29233,7 +29233,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-19T02:23:54.518Z";
+  DATA.meta.asOf = "2026-09-19T15:06:13.623Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

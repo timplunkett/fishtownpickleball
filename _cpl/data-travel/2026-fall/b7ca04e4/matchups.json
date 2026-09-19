@@ -1117,18 +1117,6 @@
       "awayName": "Ballers Philly"
     },
     {
-      "matchupId": "bda6eb35-5c1c-4cfd-a15d-a4c71b913cd4",
-      "weekNumber": 6,
-      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "awayTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Picklr Newark",
-      "awayName": "Delco Turf & Pickle"
-    },
-    {
       "matchupId": "c3716b09-1c92-48df-9aca-0008d26886ad",
       "weekNumber": 6,
       "homeTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
@@ -1175,6 +1163,18 @@
       "scheduledTime": "2026-09-30T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "Jersey Devil Navy"
+    },
+    {
+      "matchupId": "bda6eb35-5c1c-4cfd-a15d-a4c71b913cd4",
+      "weekNumber": 6,
+      "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "awayTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-09T19:30:00",
+      "homeName": "Picklr Newark",
+      "awayName": "Delco Turf & Pickle"
     },
     {
       "matchupId": "7aad9dab-6265-4ab9-8873-5373e8e8f900",

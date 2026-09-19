@@ -2467,7 +2467,7 @@
       "lastName": "Gold",
       "gender": "Male",
       "dupr": "RYPV6M",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "51961290-5099-4ce7-b0e7-0619e69b23be",
       "teamName": "Pickleball Palace Blue",

@@ -493,18 +493,6 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
-      "weekNumber": 6,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T12:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "Montville Rocks"
-    },
-    {
       "matchupId": "a1814936-9d95-4349-8154-d0dd2e25d815",
       "weekNumber": 6,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -527,6 +515,18 @@
       "scheduledTime": "2026-09-26T12:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Allstar Pickler"
+    },
+    {
+      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
+      "weekNumber": 6,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-26T15:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "Montville Rocks"
     },
     {
       "matchupId": "6b0dbd70-b9ae-4f76-85de-1288a517180d",
