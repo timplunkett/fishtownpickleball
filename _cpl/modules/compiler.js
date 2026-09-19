@@ -605,11 +605,21 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       for (const [me, partner, oppTeam, o1, o2, my, their] of persp) {
         const P = players.get(me);
         if (!P) continue;
+        // Sub status of the *other* three players in this specific game — the
+        // profiled player (`me`) can be looking at a partner or an opponent who
+        // subbed in, independent of whether `me` themselves is a sub. Omitted
+        // (rather than always written as 0/[0,0]) when nobody on the other
+        // side subbed, since that's the overwhelming majority of games and
+        // this recompiles every game, in every division, every season.
+        const withSub = subPids.has(partner);
+        const vsSub = [subPids.has(o1), subPids.has(o2)];
         P.games.push({
           wk: mu.weekNumber, opp: oppTeam, t: g.matchType,
           with: id2name[partner] || "", vs: [id2name[o1] || "", id2name[o2] || ""],
           f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
           sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
+          ...(withSub ? { withSub: 1 } : {}),
+          ...(vsSub[0] || vsSub[1] ? { vsSub: [vsSub[0] ? 1 : 0, vsSub[1] ? 1 : 0] } : {}),
         });
       }
     }
