@@ -11297,7 +11297,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jill Lesnik",
+      "Carly Pfeffer",
       "Daniel Chernin"
      ],
      "a": [
@@ -11352,7 +11352,7 @@
     {
      "t": "female",
      "h": [
-      "Shauna Muller",
+      "Carly Pfeffer",
       "Jill Lesnik"
      ],
      "a": [
@@ -11396,7 +11396,7 @@
     {
      "t": "mixed",
      "h": [
-      "Shauna Muller",
+      "Carly Pfeffer",
       "Daniel Chernin"
      ],
      "a": [
@@ -11440,7 +11440,7 @@
     {
      "t": "female",
      "h": [
-      "Shauna Muller",
+      "Carly Pfeffer",
       "Rebecca Lederman"
      ],
      "a": [
@@ -11473,7 +11473,7 @@
     {
      "t": "mixed",
      "h": [
-      "Kelly Hanson Word",
+      "Carly Pfeffer",
       "Emil Pescatore"
      ],
      "a": [
@@ -11484,7 +11484,7 @@
     {
      "t": "mixed",
      "h": [
-      "Shauna Muller",
+      "Kelly Hanson Word",
       "Daniel Chernin"
      ],
      "a": [
@@ -11517,7 +11517,7 @@
     {
      "t": "female",
      "h": [
-      "Shauna Muller",
+      "Rebecca Lederman",
       "Kelly Hanson Word"
      ],
      "a": [
@@ -11539,7 +11539,7 @@
     {
      "t": "male",
      "h": [
-      "Emil Pescatore",
+      "Christopher Krecke",
       "Daniel Chernin"
      ],
      "a": [
@@ -11551,7 +11551,7 @@
      "t": "male",
      "h": [
       "Alex Lee",
-      "Christopher Krecke"
+      "Emil Pescatore"
      ],
      "a": [
       "Lance Brown",
@@ -11561,7 +11561,7 @@
     {
      "t": "mixed",
      "h": [
-      "Rebecca Lederman",
+      "Jill Lesnik",
       "Daniel Chernin"
      ],
      "a": [
@@ -11572,7 +11572,7 @@
     {
      "t": "mixed",
      "h": [
-      "Shauna Muller",
+      "Karan Pescatore",
       "Christopher Krecke"
      ],
      "a": [
@@ -11594,7 +11594,7 @@
     {
      "t": "mixed",
      "h": [
-      "Karan Pescatore",
+      "Rebecca Lederman",
       "Alex Lee"
      ],
      "a": [
@@ -11617,7 +11617,7 @@
      "t": "female",
      "h": [
       "Jill Lesnik",
-      "Shauna Muller"
+      "Karan Pescatore"
      ],
      "a": [
       "Alice Napolitano",
@@ -11659,8 +11659,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Liangjie Zhu"
      ],
      "a": [
       "Jennifer Qian",
@@ -11670,8 +11670,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kajal Sinkar",
+      "John Zhong"
      ],
      "a": [
       "Mei Li",
@@ -11681,8 +11681,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cuc Dang",
+      "Brandon Fulford"
      ],
      "a": [
       "Shaoyi Sun",
@@ -11692,8 +11692,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Abraham Telechanski"
      ],
      "a": [
       "Rui Zhang",
@@ -11703,8 +11703,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Cuc Dang"
      ],
      "a": [
       "Ann Betterton",
@@ -11714,8 +11714,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Kajal Sinkar"
      ],
      "a": [
       "Mei Li",
@@ -11725,8 +11725,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "John Zhong"
      ],
      "a": [
       "Jim Peng",
@@ -11736,8 +11736,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Brandon Fulford"
      ],
      "a": [
       "Lei Dong",
@@ -11747,8 +11747,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Savita Nandal",
+      "Paul Rappport"
      ],
      "a": [
       "Ann Betterton",
@@ -11758,8 +11758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Brandon Fulford"
      ],
      "a": [
       "Mei Li",
@@ -11769,8 +11769,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kajal Sinkar",
+      "Abraham Telechanski"
      ],
      "a": [
       "Rui Zhang",
@@ -11780,8 +11780,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Liangjie Zhu"
      ],
      "a": [
       "Ellen Xu",
@@ -11791,8 +11791,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Kajal Sinkar"
      ],
      "a": [
       "Jennifer Qian",
@@ -11802,8 +11802,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Cuc Dang"
      ],
      "a": [
       "Shaoyi Sun",
@@ -11813,8 +11813,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Paul Rappport"
      ],
      "a": [
       "Mengchu Zhou",
@@ -11824,8 +11824,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Zhong",
+      "Abraham Telechanski"
      ],
      "a": [
       "Sam Zhou",
@@ -11835,8 +11835,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Liangjie Zhu"
      ],
      "a": [
       "Jennifer Qian",
@@ -11846,8 +11846,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cuc Dang",
+      "Paul Rappport"
      ],
      "a": [
       "Mei Li",
@@ -11857,8 +11857,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kajal Sinkar",
+      "Brandon Fulford"
      ],
      "a": [
       "Rui Zhang",
@@ -11868,8 +11868,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Abraham Telechanski"
      ],
      "a": [
       "Ann Betterton",
@@ -11879,8 +11879,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cuc Dang",
+      "Savita Nandal"
      ],
      "a": [
       "Ann Betterton",
@@ -11890,8 +11890,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Ronnie Yin"
      ],
      "a": [
       "Rui Zhang",
@@ -11901,8 +11901,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Brandon Fulford"
      ],
      "a": [
       "Jim Peng",
@@ -11912,8 +11912,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Paul Rappport"
      ],
      "a": [
       "Mengchu Zhou",
@@ -11923,8 +11923,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cuc Dang",
+      "Paul Rappport"
      ],
      "a": [
       "Ann Betterton",
@@ -11934,8 +11934,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Savita Nandal",
+      "John Zhong"
      ],
      "a": [
       "Jennifer Qian",
@@ -11945,8 +11945,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Picky Vorabouth",
+      "Liangjie Zhu"
      ],
      "a": [
       "Mei Li",
@@ -11956,8 +11956,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Abraham Telechanski"
      ],
      "a": [
       "Ellen Xu",
@@ -11967,8 +11967,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Savita Nandal",
+      "Kajal Sinkar"
      ],
      "a": [
       "Jennifer Qian",
@@ -11978,8 +11978,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cuc Dang",
+      "Picky Vorabouth"
      ],
      "a": [
       "Ann Betterton",
@@ -11989,8 +11989,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "John Zhong"
      ],
      "a": [
       "Jim Peng",
@@ -12000,8 +12000,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Brandon Fulford"
      ],
      "a": [
       "Lei Dong",
@@ -13541,17 +13541,17 @@
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Palace",
-   "away": "ACE Moorestown",
-   "time": "2026-09-27T18:00:00",
+   "home": "Stelton Sports",
+   "away": "Pickleball Palace",
+   "time": "2026-10-04T14:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 6,
-   "home": "Stelton Sports",
-   "away": "Pickleball Palace",
-   "time": "2026-10-04T14:00:00",
+   "home": "Pickleball Palace",
+   "away": "ACE Moorestown",
+   "time": "2026-11-01T09:00:00",
    "complete": false
   },
   {
@@ -14009,7 +14009,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T20:11:06.877Z";
+  DATA.meta.asOf = "2026-09-19T02:20:44.471Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

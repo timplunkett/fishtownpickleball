@@ -325,18 +325,6 @@
       "awayName": "Bounce Malvern Black"
     },
     {
-      "matchupId": "e265cf28-b654-4c96-9f2a-4b191fb1ba5d",
-      "weekNumber": 6,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T18:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "ACE Moorestown"
-    },
-    {
       "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
       "weekNumber": 6,
       "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
@@ -347,6 +335,18 @@
       "scheduledTime": "2026-10-04T14:00:00",
       "homeName": "Stelton Sports",
       "awayName": "Pickleball Palace"
+    },
+    {
+      "matchupId": "e265cf28-b654-4c96-9f2a-4b191fb1ba5d",
+      "weekNumber": 6,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-01T09:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "ACE Moorestown"
     },
     {
       "matchupId": "254cad7f-223e-4475-b081-88c86459b979",

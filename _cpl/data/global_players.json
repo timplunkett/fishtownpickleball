@@ -31428,7 +31428,7 @@
     "lastName": "Heimerle",
     "dupr": "12Z6G4",
     "duprRating": "3.470",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5956341497,
     "duprProvisional": false
   },
@@ -42252,7 +42252,7 @@
     "lastName": "Guthner",
     "dupr": "KOZ90Y",
     "duprRating": "3.814",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 6171209603,
     "duprProvisional": false
   },
@@ -46421,6 +46421,22 @@
     "firstName": "Kyle",
     "lastName": "Wilson",
     "dupr": "99DEPK",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
+    "firstName": "Patrick",
+    "lastName": "Reece",
+    "dupr": "9D4EMK",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be",
+    "firstName": "Steven",
+    "lastName": "Giudice",
+    "dupr": "X2W0N2",
     "duprRating": null,
     "lastSeen": "2026-09"
   }

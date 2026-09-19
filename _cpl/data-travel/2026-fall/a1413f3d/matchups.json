@@ -485,9 +485,9 @@
       "weekNumber": 4,
       "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 585,
+      "awayPoints": 604,
+      "endResult": "away",
       "scheduledTime": "2026-09-17T19:30:00",
       "homeName": "Dill Dinkers Hatboro The Factory",
       "awayName": "Picklr Newark"

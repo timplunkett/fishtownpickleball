@@ -29894,8 +29894,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lori Pinelli",
+      "Ed Mendoza"
      ],
      "a": [
       "Amy Neckes",
@@ -29905,8 +29905,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yayuan Lien",
+      "Gregory Mcquibben"
      ],
      "a": [
       "Tinglan Zhao",
@@ -29916,8 +29916,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Warren Howard"
      ],
      "a": [
       "Angela Bartelt",
@@ -29927,8 +29927,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Franchesa Mclean",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Lolita Hagen",
@@ -29938,8 +29938,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Luz Bonner",
+      "Franchesa Mclean"
      ],
      "a": [
       "Ginger Evans",
@@ -29949,8 +29949,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Lori Pinelli"
      ],
      "a": [
       "Tinglan Zhao",
@@ -29960,8 +29960,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimbo Jimenez",
+      "Ed Mendoza"
      ],
      "a": [
       "Greg Taylor",
@@ -29971,8 +29971,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Fritz Jean-Brian",
+      "Warren Howard"
      ],
      "a": [
       "Rick Weiser",
@@ -29982,8 +29982,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Fritz Jean-Brian"
      ],
      "a": [
       "Ginger Evans",
@@ -29993,8 +29993,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yayuan Lien",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Angela Bartelt",
@@ -30004,8 +30004,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Luz Bonner",
+      "Ed Mendoza"
      ],
      "a": [
       "Tinglan Zhao",
@@ -30015,8 +30015,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Franchesa Mclean",
+      "Gregory Mcquibben"
      ],
      "a": [
       "Amy Neckes",
@@ -30026,8 +30026,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Pinelli",
+      "Franchesa Mclean"
      ],
      "a": [
       "Tinglan Zhao",
@@ -30037,8 +30037,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Luz Bonner",
+      "Yayuan Lien"
      ],
      "a": [
       "Lolita Hagen",
@@ -30048,8 +30048,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Fritz Jean-Brian",
+      "Gregory Mcquibben"
      ],
      "a": [
       "Anthony Viola",
@@ -30059,8 +30059,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ed Mendoza",
+      "Warren Howard"
      ],
      "a": [
       "Rick Weiser",
@@ -30070,8 +30070,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Warren Howard"
      ],
      "a": [
       "Angela Bartelt",
@@ -30081,8 +30081,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Luz Bonner",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Amy Neckes",
@@ -30092,8 +30092,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yayuan Lien",
+      "Ed Mendoza"
      ],
      "a": [
       "Ginger Evans",
@@ -30103,8 +30103,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Franchesa Mclean",
+      "Fritz Jean-Brian"
      ],
      "a": [
       "Tinglan Zhao",
@@ -30114,8 +30114,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Franchesa Mclean"
      ],
      "a": [
       "Lolita Hagen",
@@ -30125,8 +30125,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Pinelli",
+      "Yayuan Lien"
      ],
      "a": [
       "Angela Bartelt",
@@ -30136,8 +30136,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Fritz Jean-Brian",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Dennis Higman",
@@ -30147,8 +30147,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gregory Mcquibben",
+      "Warren Howard"
      ],
      "a": [
       "Rick Weiser",
@@ -30158,8 +30158,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Luz Bonner",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Ginger Evans",
@@ -30169,8 +30169,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lori Pinelli",
+      "Gregory Mcquibben"
      ],
      "a": [
       "Tinglan Zhao",
@@ -30180,8 +30180,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yayuan Lien",
+      "Ed Mendoza"
      ],
      "a": [
       "Angela Bartelt",
@@ -30191,8 +30191,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Fritz Jean-Brian"
      ],
      "a": [
       "Amy Neckes",
@@ -30202,8 +30202,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Foster",
+      "Luz Bonner"
      ],
      "a": [
       "Lolita Hagen",
@@ -30213,8 +30213,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Franchesa Mclean",
+      "Yayuan Lien"
      ],
      "a": [
       "Angela Bartelt",
@@ -30224,8 +30224,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Fritz Jean-Brian",
+      "Jimbo Jimenez"
      ],
      "a": [
       "Martyn Babitz",
@@ -30235,8 +30235,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gregory Mcquibben",
+      "Warren Howard"
      ],
      "a": [
       "Greg Taylor",
@@ -30256,8 +30256,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Frank Iacono"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30267,8 +30267,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Zumbo-Zerega",
+      "Frank Leccese"
      ],
      "a": [
       "Alexandra Romagnolo",
@@ -30278,8 +30278,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Rarig",
+      "Frank Messina"
      ],
      "a": [
       "Denise Stassi",
@@ -30289,8 +30289,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Jonathan Gross"
      ],
      "a": [
       "Karen Chin",
@@ -30300,8 +30300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Christina Zumbo-Zerega"
      ],
      "a": [
       "Karen Chin",
@@ -30311,8 +30311,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Rarig",
+      "Gina Lavignera"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30322,8 +30322,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Leccese",
+      "Jonathan Gross"
      ],
      "a": [
       "John Rogers",
@@ -30333,8 +30333,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Messina",
+      "Daniel Brennan"
      ],
      "a": [
       "Michael Keane",
@@ -30344,8 +30344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Rarig",
+      "Frank Iacono"
      ],
      "a": [
       "Karen Chin",
@@ -30355,8 +30355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Frank Leccese"
      ],
      "a": [
       "Alexandra Romagnolo",
@@ -30366,8 +30366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Lavignera",
+      "Daniel Brennan"
      ],
      "a": [
       "Denise Caracciolo",
@@ -30377,8 +30377,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Zumbo-Zerega",
+      "Jonathan Gross"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30388,8 +30388,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Gina Lavignera"
      ],
      "a": [
       "Karen Chin",
@@ -30399,8 +30399,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Sharon Rarig"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30410,8 +30410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Iacono",
+      "Daniel Brennan"
      ],
      "a": [
       "John Rogers",
@@ -30421,8 +30421,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Gross",
+      "Frank Messina"
      ],
      "a": [
       "John Stassi",
@@ -30432,8 +30432,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Frank Leccese"
      ],
      "a": [
       "Karen Chin",
@@ -30443,8 +30443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Frank Messina"
      ],
      "a": [
       "Alexandra Romagnolo",
@@ -30454,8 +30454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Zumbo-Zerega",
+      "Frank Iacono"
      ],
      "a": [
       "Denise Stassi",
@@ -30465,8 +30465,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Lavignera",
+      "Jonathan Gross"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30476,8 +30476,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Sharon Rarig"
      ],
      "a": [
       "Karen Chin",
@@ -30487,8 +30487,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christina Zumbo-Zerega",
+      "Melissa Freedman"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30498,8 +30498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Leccese",
+      "Frank Iacono"
      ],
      "a": [
       "John Rogers",
@@ -30509,8 +30509,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Gross",
+      "Daniel Brennan"
      ],
      "a": [
       "David Cardinale",
@@ -30520,8 +30520,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Lavignera",
+      "Daniel Brennan"
      ],
      "a": [
       "Karen Chin",
@@ -30531,8 +30531,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Zumbo-Zerega",
+      "Frank Messina"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30542,8 +30542,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Frank Leccese"
      ],
      "a": [
       "Denise Caracciolo",
@@ -30553,8 +30553,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Rarig",
+      "Frank Iacono"
      ],
      "a": [
       "Denise Stassi",
@@ -30564,8 +30564,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Freedman",
+      "Gina Lavignera"
      ],
      "a": [
       "Karen Chin",
@@ -30575,8 +30575,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Rossine",
+      "Christina Zumbo-Zerega"
      ],
      "a": [
       "Risa Korzekwinski",
@@ -30586,8 +30586,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Leccese",
+      "Daniel Brennan"
      ],
      "a": [
       "John Rogers",
@@ -30597,8 +30597,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frank Iacono",
+      "Frank Messina"
      ],
      "a": [
       "David Cardinale",
@@ -30618,8 +30618,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Petra Jones",
+      "Freddy Alicea"
      ],
      "a": [
       "Elaine Aquilone",
@@ -30629,8 +30629,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Rosenberg",
+      "Elliot Fishman"
      ],
      "a": [
       "Jackie Coneeny",
@@ -30640,8 +30640,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Latwis",
+      "Michael Rosenmertz"
      ],
      "a": [
       "Kathy Baker",
@@ -30651,8 +30651,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Steven Truzzolino"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30662,8 +30662,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Petra Jones"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30673,8 +30673,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Bobbi Rentko",
+      "Antoinette Mccormick"
      ],
      "a": [
       "Kathy Baker",
@@ -30684,8 +30684,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Truzzolino",
+      "Freddy Alicea"
      ],
      "a": [
       "Christopher Brett",
@@ -30695,8 +30695,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dmitry Strashnov",
+      "Michael Rosenmertz"
      ],
      "a": [
       "Leo Decker",
@@ -30706,8 +30706,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Bart Van Der Gaag"
      ],
      "a": [
       "Elaine Aquilone",
@@ -30717,8 +30717,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Rosenberg",
+      "Steven Truzzolino"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30728,8 +30728,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Petra Jones",
+      "Michael Rosenmertz"
      ],
      "a": [
       "Donna Facconerusin",
@@ -30739,8 +30739,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Bobbi Rentko",
+      "Freddy Alicea"
      ],
      "a": [
       "Kathy Baker",
@@ -30750,8 +30750,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Antoinette Mccormick"
      ],
      "a": [
       "Kathy Baker",
@@ -30761,8 +30761,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Petra Jones",
+      "Michele Latwis"
      ],
      "a": [
       "Marie Walsh Mccarty",
@@ -30772,8 +30772,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliot Fishman",
+      "Bart Van Der Gaag"
      ],
      "a": [
       "Daniel Ryan",
@@ -30783,8 +30783,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Truzzolino",
+      "Michael Rosenmertz"
      ],
      "a": [
       "Mark Zamkoff",
@@ -30794,8 +30794,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Rosenberg",
+      "Bart Van Der Gaag"
      ],
      "a": [
       "Jackie Coneeny",
@@ -30805,8 +30805,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Petra Jones",
+      "Dmitry Strashnov"
      ],
      "a": [
       "Donna Facconerusin",
@@ -30816,8 +30816,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Antoinette Mccormick",
+      "Steven Truzzolino"
      ],
      "a": [
       "Elaine Aquilone",
@@ -30827,8 +30827,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Latwis",
+      "Michael Rosenmertz"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30838,8 +30838,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Antoinette Mccormick",
+      "Karen Rosenberg"
      ],
      "a": [
       "Marie Walsh Mccarty",
@@ -30849,8 +30849,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Bobbi Rentko"
      ],
      "a": [
       "Kathy Baker",
@@ -30860,8 +30860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Freddy Alicea",
+      "Dmitry Strashnov"
      ],
      "a": [
       "Leo Decker",
@@ -30871,8 +30871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliot Fishman",
+      "Bart Van Der Gaag"
      ],
      "a": [
       "Daniel Ryan",
@@ -30882,8 +30882,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Rosenberg",
+      "Elliot Fishman"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30893,8 +30893,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Steven Truzzolino"
      ],
      "a": [
       "Jackie Coneeny",
@@ -30904,8 +30904,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Antoinette Mccormick",
+      "Freddy Alicea"
      ],
      "a": [
       "Marie Walsh Mccarty",
@@ -30915,8 +30915,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Latwis",
+      "Dmitry Strashnov"
      ],
      "a": [
       "Elaine Aquilone",
@@ -30926,8 +30926,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Makfinsky",
+      "Karen Rosenberg"
      ],
      "a": [
       "Nicole Tarallo",
@@ -30937,8 +30937,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Bobbi Rentko",
+      "Petra Jones"
      ],
      "a": [
       "Donna Facconerusin",
@@ -30948,8 +30948,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Freddy Alicea",
+      "Dmitry Strashnov"
      ],
      "a": [
       "Mark Zamkoff",
@@ -30959,8 +30959,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Truzzolino",
+      "Bart Van Der Gaag"
      ],
      "a": [
       "Daniel Ryan",
@@ -30980,8 +30980,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Irma Myersdonihoo",
+      "Chris Owens"
      ],
      "a": [
       "Mary Hain",
@@ -30991,8 +30991,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Austin",
+      "Edward Weinstein"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31002,8 +31002,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Mcbride",
+      "Albert Tiegs"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31013,8 +31013,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Josephine O'Neill",
+      "Joshua Holloway"
      ],
      "a": [
       "Jennifer Laroque",
@@ -31024,8 +31024,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dana Isom",
+      "Erica Stevens"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31035,8 +31035,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Austin",
+      "Josephine O'Neill"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31046,8 +31046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joe Mccutchon",
+      "Charles Rhodes"
      ],
      "a": [
       "Chris Allander",
@@ -31057,8 +31057,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Holloway",
+      "Albert Tiegs"
      ],
      "a": [
       "Dan Callaghan",
@@ -31068,8 +31068,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Mcbride",
+      "Joshua Holloway"
      ],
      "a": [
       "Lori Wild",
@@ -31079,8 +31079,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dana Isom",
+      "Edward Weinstein"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31090,8 +31090,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Stevens",
+      "Chris Owens"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31101,8 +31101,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Irma Myersdonihoo",
+      "Joe Mccutchon"
      ],
      "a": [
       "Mary Hain",
@@ -31112,8 +31112,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine O'Neill",
+      "Karen Mcbride"
      ],
      "a": [
       "Jennifer Laroque",
@@ -31123,8 +31123,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Austin",
+      "Irma Myersdonihoo"
      ],
      "a": [
       "Mary Hain",
@@ -31134,8 +31134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Owens",
+      "Albert Tiegs"
      ],
      "a": [
       "Chris Allander",
@@ -31145,8 +31145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charles Rhodes",
+      "Edward Weinstein"
      ],
      "a": [
       "Dan Callaghan",
@@ -31156,8 +31156,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Austin",
+      "Joshua Holloway"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31167,8 +31167,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dana Isom",
+      "Chris Owens"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31178,8 +31178,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Stevens",
+      "Edward Weinstein"
      ],
      "a": [
       "Jennifer Laroque",
@@ -31189,8 +31189,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Josephine O'Neill",
+      "Joe Mccutchon"
      ],
      "a": [
       "Mary Hain",
@@ -31200,8 +31200,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine O'Neill",
+      "Erica Stevens"
      ],
      "a": [
       "Jennifer Laroque",
@@ -31211,8 +31211,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Irma Myersdonihoo",
+      "Karen Mcbride"
      ],
      "a": [
       "Mary Hain",
@@ -31222,8 +31222,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Holloway",
+      "Joe Mccutchon"
      ],
      "a": [
       "Scott Gardo",
@@ -31233,8 +31233,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charles Rhodes",
+      "Albert Tiegs"
      ],
      "a": [
       "Chris Allander",
@@ -31244,8 +31244,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dana Isom",
+      "Charles Rhodes"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31255,8 +31255,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Austin",
+      "Joe Mccutchon"
      ],
      "a": [
       "Mary Hain",
@@ -31266,8 +31266,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Irma Myersdonihoo",
+      "Chris Owens"
      ],
      "a": [
       "Lori Wild",
@@ -31277,8 +31277,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Mcbride",
+      "Edward Weinstein"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31288,8 +31288,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Mcbride",
+      "Erica Stevens"
      ],
      "a": [
       "Carolyn Laverdiere",
@@ -31299,8 +31299,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine O'Neill",
+      "Irma Myersdonihoo"
      ],
      "a": [
       "Ellen Rubiato",
@@ -31310,8 +31310,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Holloway",
+      "Charles Rhodes"
      ],
      "a": [
       "Chris Allander",
@@ -31321,8 +31321,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Albert Tiegs",
+      "Edward Weinstein"
      ],
      "a": [
       "Bill Venella",
@@ -31704,8 +31704,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Chuck Silvester"
      ],
      "a": [
       "Noelie Hillebrecht",
@@ -31715,8 +31715,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Eldon Carandan"
      ],
      "a": [
       "Tracy Narag",
@@ -31726,8 +31726,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Cordts",
+      "Wallace Eng"
      ],
      "a": [
       "Frances Smith",
@@ -31737,8 +31737,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Qiuyan Kong",
+      "Dan Sweetman"
      ],
      "a": [
       "Mandy Collins",
@@ -31748,8 +31748,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Joanna Zhang"
      ],
      "a": [
       "Frances Smith",
@@ -31759,8 +31759,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Sedycias",
+      "Qiuyan Kong"
      ],
      "a": [
       "Jenny Winters",
@@ -31770,8 +31770,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Tenorio",
+      "Chuck Silvester"
      ],
      "a": [
       "Geoffrey Baird",
@@ -31781,8 +31781,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wai Yiu",
+      "Eldon Carandan"
      ],
      "a": [
       "Al Chen",
@@ -31792,8 +31792,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Chuck Silvester"
      ],
      "a": [
       "Tracy Narag",
@@ -31803,8 +31803,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Cordts",
+      "Wai Yiu"
      ],
      "a": [
       "Mandy Collins",
@@ -31814,8 +31814,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joanna Zhang",
+      "Dan Sweetman"
      ],
      "a": [
       "Frances Smith",
@@ -31825,8 +31825,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Dennis Tenorio"
      ],
      "a": [
       "Noelie Hillebrecht",
@@ -31836,8 +31836,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joanna Zhang",
+      "Patricia Cordts"
      ],
      "a": [
       "Tracy Narag",
@@ -31847,8 +31847,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Sedycias",
+      "Qiuyan Kong"
      ],
      "a": [
       "Mandy Collins",
@@ -31858,8 +31858,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eldon Carandan",
+      "Chuck Silvester"
      ],
      "a": [
       "Tracy Waffenfeld",
@@ -31869,8 +31869,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Sweetman",
+      "Wallace Eng"
      ],
      "a": [
       "Mark Garner",
@@ -31880,8 +31880,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Wallace Eng"
      ],
      "a": [
       "Tracy Narag",
@@ -31891,8 +31891,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Dennis Tenorio"
      ],
      "a": [
       "Clare Cruz",
@@ -31902,8 +31902,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Qiuyan Kong",
+      "Chuck Silvester"
      ],
      "a": [
       "Jenny Winters",
@@ -31913,8 +31913,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olga Sedycias",
+      "Dan Sweetman"
      ],
      "a": [
       "Mandy Collins",
@@ -31924,8 +31924,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joanna Zhang",
+      "Qiuyan Kong"
      ],
      "a": [
       "Jenny Winters",
@@ -31935,8 +31935,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Maria Fanfa"
      ],
      "a": [
       "Noelie Hillebrecht",
@@ -31946,8 +31946,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wallace Eng",
+      "Eldon Carandan"
      ],
      "a": [
       "Tracy Waffenfeld",
@@ -31957,8 +31957,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wai Yiu",
+      "Dennis Tenorio"
      ],
      "a": [
       "Mark Garner",
@@ -31968,8 +31968,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Eldon Carandan"
      ],
      "a": [
       "Clare Cruz",
@@ -31979,8 +31979,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joanna Zhang",
+      "Dan Sweetman"
      ],
      "a": [
       "Noelie Hillebrecht",
@@ -31990,8 +31990,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Cordts",
+      "Dennis Tenorio"
      ],
      "a": [
       "Frances Smith",
@@ -32001,8 +32001,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olga Sedycias",
+      "Wai Yiu"
      ],
      "a": [
       "Jenny Winters",
@@ -32012,8 +32012,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mylene Tenorio",
+      "Joanna Zhang"
      ],
      "a": [
       "Noelie Hillebrecht",
@@ -32023,8 +32023,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Sedycias",
+      "Patricia Cordts"
      ],
      "a": [
       "Tracy Narag",
@@ -32034,8 +32034,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chuck Silvester",
+      "Eldon Carandan"
      ],
      "a": [
       "Tracy Waffenfeld",
@@ -32045,8 +32045,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wallace Eng",
+      "Dan Sweetman"
      ],
      "a": [
       "Mark Garner",
@@ -32066,8 +32066,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Christine Fletcher",
@@ -32077,8 +32077,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Wen Chang"
      ],
      "a": [
       "Xiaojun Yuan",
@@ -32088,8 +32088,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Michael Burns"
      ],
      "a": [
       "Tracy Giunta",
@@ -32099,8 +32099,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Paul Mcalary"
      ],
      "a": [
       "Suzanne Garcia",
@@ -32110,8 +32110,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Wendy Seiferheld"
      ],
      "a": [
       "Xiaojun Yuan",
@@ -32121,8 +32121,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Andria Lochtenbergh"
      ],
      "a": [
       "Tracy Giunta",
@@ -32132,8 +32132,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Michael Burns"
      ],
      "a": [
       "Tom Giunta",
@@ -32143,8 +32143,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Mcalary",
+      "Wen Chang"
      ],
      "a": [
       "Craig Mehnert",
@@ -32154,8 +32154,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Wen Chang"
      ],
      "a": [
       "Suzanne Garcia",
@@ -32165,8 +32165,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Michael Burns"
      ],
      "a": [
       "Danya George",
@@ -32176,8 +32176,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Christine Fletcher",
@@ -32187,8 +32187,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Paul Mcalary"
      ],
      "a": [
       "Tracy Giunta",
@@ -32198,8 +32198,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Wendy Seiferheld"
      ],
      "a": [
       "Suzanne Garcia",
@@ -32209,8 +32209,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Andria Lochtenbergh"
      ],
      "a": [
       "Jill Nixon",
@@ -32220,8 +32220,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Burns",
+      "Wen Chang"
      ],
      "a": [
       "Tom Giunta",
@@ -32231,8 +32231,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
      ],
      "a": [
       "Frank Choi",
@@ -32242,8 +32242,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Michael Burns"
      ],
      "a": [
       "Tracy Giunta",
@@ -32253,8 +32253,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Xiaojun Yuan",
@@ -32264,8 +32264,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Wen Chang"
      ],
      "a": [
       "Danya George",
@@ -32275,8 +32275,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Paul Mcalary"
      ],
      "a": [
       "Christine Fletcher",
@@ -32286,8 +32286,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Barbara Hand"
      ],
      "a": [
       "Jill Nixon",
@@ -32297,8 +32297,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Andria Lochtenbergh"
      ],
      "a": [
       "Christine Fletcher",
@@ -32308,8 +32308,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Mcalary",
+      "Wen Chang"
      ],
      "a": [
       "Edward Verish",
@@ -32319,8 +32319,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Burns",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "David Mcdonough",
@@ -32330,8 +32330,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Michael Burns"
      ],
      "a": [
       "Danya George",
@@ -32341,8 +32341,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Tracy Giunta",
@@ -32352,8 +32352,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Paul Mcalary"
      ],
      "a": [
       "Xiaojun Yuan",
@@ -32363,8 +32363,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Wen Chang"
      ],
      "a": [
       "Suzanne Garcia",
@@ -32374,8 +32374,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendy Seiferheld",
+      "Andria Lochtenbergh"
      ],
      "a": [
       "Xiaojun Yuan",
@@ -32385,8 +32385,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sue Mah",
+      "Barbara Hand"
      ],
      "a": [
       "Jill Nixon",
@@ -32396,8 +32396,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Burns",
+      "Wen Chang"
      ],
      "a": [
       "Tom Giunta",
@@ -32407,8 +32407,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
      ],
      "a": [
       "Frank Choi",
@@ -32790,8 +32790,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Eric Brezina"
      ],
      "a": [
       "Donna Stone",
@@ -32801,8 +32801,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Anthony Leone"
      ],
      "a": [
       "Krishma Patel",
@@ -32812,8 +32812,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Jeffrey Hartford"
      ],
      "a": [
       "Maria Cecilia Holgado",
@@ -32823,8 +32823,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Paul Phillips"
      ],
      "a": [
       "Rosa Tenan",
@@ -32834,8 +32834,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Margo Langer"
      ],
      "a": [
       "Lynette Pil",
@@ -32845,8 +32845,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Sarah Stangota"
      ],
      "a": [
       "Krishma Patel",
@@ -32856,8 +32856,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Brezina",
+      "Anthony Leone"
      ],
      "a": [
       "Guillermo Wong",
@@ -32867,8 +32867,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Tom Dominczyk"
      ],
      "a": [
       "Dean Lim",
@@ -32878,8 +32878,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Eric Brezina"
      ],
      "a": [
       "Lynette Pil",
@@ -32889,8 +32889,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Anthony Leone"
      ],
      "a": [
       "Maria Cecilia Holgado",
@@ -32900,8 +32900,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Tom Dominczyk"
      ],
      "a": [
       "Rosa Tenan",
@@ -32911,8 +32911,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Paul Phillips"
      ],
      "a": [
       "Marleen Tuquero",
@@ -32922,8 +32922,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Gail Hannagan"
      ],
      "a": [
       "Krishma Patel",
@@ -32933,8 +32933,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Sharon Oddy"
      ],
      "a": [
       "Rosa Tenan",
@@ -32944,8 +32944,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Tom Dominczyk"
      ],
      "a": [
       "Guillermo Wong",
@@ -32955,8 +32955,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Paul Phillips"
      ],
      "a": [
       "John Gardler",
@@ -32966,8 +32966,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Eric Brezina"
      ],
      "a": [
       "Maria Cecilia Holgado",
@@ -32977,8 +32977,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Anthony Leone"
      ],
      "a": [
       "Donna Stone",
@@ -32988,8 +32988,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Paul Phillips"
      ],
      "a": [
       "Rosa Tenan",
@@ -32999,8 +32999,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Jeffrey Hartford"
      ],
      "a": [
       "Lynette Pil",
@@ -33010,8 +33010,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Sharon Oddy"
      ],
      "a": [
       "Maria Cecilia Holgado",
@@ -33021,8 +33021,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Margo Langer"
      ],
      "a": [
       "Krishma Patel",
@@ -33032,8 +33032,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Eric Brezina"
      ],
      "a": [
       "Tony Sethi",
@@ -33043,8 +33043,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Phillips",
+      "Tom Dominczyk"
      ],
      "a": [
       "Guillermo Wong",
@@ -33054,8 +33054,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Eric Brezina"
      ],
      "a": [
       "Rosa Tenan",
@@ -33065,8 +33065,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Anthony Leone"
      ],
      "a": [
       "Lynette Pil",
@@ -33076,8 +33076,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Tom Dominczyk"
      ],
      "a": [
       "Krishma Patel",
@@ -33087,8 +33087,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Paul Phillips"
      ],
      "a": [
       "Donna Stone",
@@ -33098,8 +33098,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Eleni Leone"
      ],
      "a": [
       "Lynette Pil",
@@ -33109,8 +33109,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Gail Hannagan"
      ],
      "a": [
       "Krishma Patel",
@@ -33120,8 +33120,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Tom Dominczyk"
      ],
      "a": [
       "Tony Sethi",
@@ -33131,8 +33131,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Eric Brezina"
      ],
      "a": [
       "Brian Kelly",
@@ -33152,8 +33152,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Ken Bienkowski"
      ],
      "a": [
       "Sheung Tom",
@@ -33163,8 +33163,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Alan Weissman"
      ],
      "a": [
       "Jessica Ren",
@@ -33174,8 +33174,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "James Azarowicz"
      ],
      "a": [
       "Ling Tsui",
@@ -33185,8 +33185,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Matt Mcnulty"
      ],
      "a": [
       "Lingshan Hsieh",
@@ -33196,8 +33196,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Theresa Corderi"
      ],
      "a": [
       "Angela Chen",
@@ -33207,8 +33207,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Kristin Duva"
      ],
      "a": [
       "Jessica Ren",
@@ -33218,8 +33218,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Noach Shapiro"
      ],
      "a": [
       "Alan Fang",
@@ -33229,8 +33229,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Bienkowski",
+      "Matt Mcnulty"
      ],
      "a": [
       "Dajie （David） Yang",
@@ -33240,8 +33240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Ken Bienkowski"
      ],
      "a": [
       "Jessica Ren",
@@ -33251,8 +33251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Matt Mcnulty"
      ],
      "a": [
       "Yabing Wang",
@@ -33262,8 +33262,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Alan Weissman"
      ],
      "a": [
       "Sheung Tom",
@@ -33273,8 +33273,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "James Azarowicz"
      ],
      "a": [
       "Angela Chen",
@@ -33284,8 +33284,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Charlene Fletcher"
      ],
      "a": [
       "Jessica Ren",
@@ -33295,8 +33295,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Theresa Corderi"
      ],
      "a": [
       "Angela Chen",
@@ -33306,8 +33306,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noach Shapiro",
+      "Matt Mcnulty"
      ],
      "a": [
       "Dajie （David） Yang",
@@ -33317,8 +33317,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Ken Bienkowski"
      ],
      "a": [
       "Bing Zhu",
@@ -33328,8 +33328,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Noach Shapiro"
      ],
      "a": [
       "Sheung Tom",
@@ -33339,8 +33339,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Rafael Moreano"
      ],
      "a": [
       "Lingshan Hsieh",
@@ -33350,8 +33350,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Alan Weissman"
      ],
      "a": [
       "Angela Chen",
@@ -33361,8 +33361,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "James Azarowicz"
      ],
      "a": [
       "Ling Tsui",
@@ -33372,8 +33372,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Anne Buckley"
      ],
      "a": [
       "Jessica Ren",
@@ -33383,8 +33383,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Charlene Fletcher"
      ],
      "a": [
       "Lingshan Hsieh",
@@ -33394,8 +33394,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Mcnulty",
+      "James Azarowicz"
      ],
      "a": [
       "Bing Zhu",
@@ -33405,8 +33405,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Bienkowski",
+      "Alan Weissman"
      ],
      "a": [
       "Dajie （David） Yang",
@@ -33416,8 +33416,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Alan Weissman"
      ],
      "a": [
       "Sheung Tom",
@@ -33427,8 +33427,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Matt Mcnulty"
      ],
      "a": [
       "Yabing Wang",
@@ -33438,8 +33438,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Rafael Moreano"
      ],
      "a": [
       "Jessica Ren",
@@ -33449,8 +33449,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Noach Shapiro"
      ],
      "a": [
       "Ling Tsui",
@@ -33460,8 +33460,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Theresa Corderi"
      ],
      "a": [
       "Ling Tsui",
@@ -33471,8 +33471,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Kristin Duva"
      ],
      "a": [
       "Lingshan Hsieh",
@@ -33482,8 +33482,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Mcnulty",
+      "Alan Weissman"
      ],
      "a": [
       "Richard Tang",
@@ -33493,8 +33493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Ken Bienkowski"
      ],
      "a": [
       "Bing Zhu",
@@ -34594,7 +34594,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T20:11:46.300Z";
+  DATA.meta.asOf = "2026-09-19T02:21:27.257Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 535,
+   "leagueRank": 536,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 538,
+   "leagueRank": 539,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -48285,6 +48285,7 @@
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Brittany Jacobs": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
   "Michael Mazzola": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
+  "Patrick Reece": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Frank Kong": "33baac8e-fe7f-4c97-8443-0687777b2ed2",
@@ -48384,7 +48385,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-18T20:13:19.622Z";
+  DATA.meta.asOf = "2026-09-19T02:23:02.098Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

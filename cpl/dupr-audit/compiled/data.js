@@ -14594,6 +14594,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Rich Pacailler",
+   "playerId": "0d66e1a1-34a2-49cb-90c2-2fc6345552e4",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Rich Traynor",
    "playerId": "85b74629-7dd6-48c5-bb23-d4216ec81261",
    "team": "Home Court",
