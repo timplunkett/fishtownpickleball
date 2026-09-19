@@ -370,3 +370,100 @@ test('a packed index missing one of its tables degrades instead of throwing', ()
   delete globalThis.PLAYER_INDEX_PACKED;
   delete globalThis.PLAYER_INDEX_TABLES;
 });
+
+// --- Favorites --------------------------------------------------------------
+//
+// Node has no localStorage of its own, so a tiny in-memory stand-in plays the
+// part — same shape (getItem/setItem), good enough for everything the module
+// touches. Installed and torn down around each test the same way the
+// PLAYER_INDEX globals above are, so one test's favorites never leak into the
+// next.
+
+class FakeStorage {
+  constructor() {
+    this.store = new Map();
+  }
+
+  getItem(key) {
+    return this.store.has(key) ? this.store.get(key) : null;
+  }
+
+  setItem(key, value) {
+    this.store.set(key, String(value));
+  }
+}
+
+test('a favorite round-trips through toggle, isFavorite and listFavorites', () => {
+  globalThis.localStorage = new FakeStorage();
+  const entry = { id: 'division:travel:2026-fall:3-5', label: '3.5', href: 'travel/2026-fall/?d=3-5' };
+  assert.equal(shared.isFavorite('division', entry.id), false);
+
+  assert.equal(shared.toggleFavorite('division', entry), true);
+  assert.equal(shared.isFavorite('division', entry.id), true);
+  assert.deepEqual(shared.listFavorites('division').map((f) => f.id), [entry.id]);
+  // addedAt is stamped by the module, not the caller.
+  assert.equal(typeof shared.listFavorites('division')[0].addedAt, 'number');
+
+  assert.equal(shared.toggleFavorite('division', entry), false);
+  assert.equal(shared.isFavorite('division', entry.id), false);
+  assert.deepEqual(shared.listFavorites('division'), []);
+  delete globalThis.localStorage;
+});
+
+test('the same player id is one bookmark no matter which division starred it', () => {
+  globalThis.localStorage = new FakeStorage();
+  const id = 'player:12345';
+  shared.toggleFavorite('player', { id, label: 'Alex Kim', href: 'travel/2026-fall/?d=3-5&player=12345' });
+  // Their star on a second division's roster reads as already lit, because
+  // isFavorite only looks at the id.
+  assert.equal(shared.isFavorite('player', id), true);
+  // Clicking that already-lit star removes the one bookmark rather than
+  // adding a second — same as clicking it again on the original page would.
+  assert.equal(shared.toggleFavorite('player', { id, label: 'Alex Kim', href: 'local/2026-summer/?d=bounce-3-25&player=12345' }), false);
+  assert.deepEqual(shared.listFavorites('player'), []);
+  delete globalThis.localStorage;
+});
+
+test('listFavorites with no type merges all three, newest first', () => {
+  globalThis.localStorage = new FakeStorage();
+  // Real Date.now() can tie across these three calls — they run well under a
+  // millisecond apart — which would make the sort's stability, not addedAt,
+  // decide the order. A fake clock keeps the test about what it's for.
+  const realNow = Date.now;
+  let tick = 0;
+  Date.now = () => (tick += 1);
+  shared.toggleFavorite('division', { id: 'd1', label: 'Div', href: '#' });
+  shared.toggleFavorite('team', { id: 't1', label: 'Team', href: '#' });
+  shared.toggleFavorite('player', { id: 'p1', label: 'Player', href: '#' });
+  Date.now = realNow;
+  const all = shared.listFavorites();
+  assert.deepEqual(all.map((f) => f.type), ['player', 'team', 'division']);
+  assert.deepEqual(all.map((f) => f.id), ['p1', 't1', 'd1']);
+  delete globalThis.localStorage;
+});
+
+test('removeFavorite drops one entry without touching the others', () => {
+  globalThis.localStorage = new FakeStorage();
+  shared.toggleFavorite('team', { id: 't1', label: 'Keep', href: '#' });
+  shared.toggleFavorite('team', { id: 't2', label: 'Drop', href: '#' });
+  shared.removeFavorite('team', 't2');
+  assert.deepEqual(shared.listFavorites('team').map((f) => f.id), ['t1']);
+  delete globalThis.localStorage;
+});
+
+test('favorites degrade to empty rather than throwing with no localStorage', () => {
+  delete globalThis.localStorage;
+  assert.equal(shared.isFavorite('division', 'anything'), false);
+  assert.deepEqual(shared.listFavorites(), []);
+  // The page's own star still flips for this view; it just won't survive a
+  // reload — same contract as PREFS_STORAGE_KEY in app.js.
+  assert.equal(shared.toggleFavorite('division', { id: 'x', label: 'X', href: '#' }), true);
+});
+
+test('favorites degrade to empty when the stored value is not valid JSON', () => {
+  globalThis.localStorage = new FakeStorage();
+  globalThis.localStorage.setItem('cpl.favorites.v1', '{not json');
+  assert.deepEqual(shared.listFavorites(), []);
+  assert.equal(shared.isFavorite('team', 'anything'), false);
+  delete globalThis.localStorage;
+});

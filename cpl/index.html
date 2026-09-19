@@ -49,6 +49,19 @@
        and the first time that stopped being true it left a heading over an
        empty picker. League is now an optgroup inside the Now playing picker,
        which is also how the Division selector on every dashboard groups them. -->
+  <!-- Hidden by home.js when nothing is starred yet — what every first-time
+       visitor sees, and what CPLShared's favorites storage looks like with
+       nothing in it. Shows the 5 most recently starred divisions/teams/players
+       across all three kinds; a per-type cap or a full "manage favorites" page
+       isn't worth it while a star lives on three pages total. -->
+  <div class="panel favorites-panel" id="favorites-panel" hidden>
+    <div class="panel-head">
+      <h2>Favorites</h2>
+      <p class="panel-season" id="favorites-summary"></p>
+    </div>
+    <ul class="favorites-list" id="favorites-list"></ul>
+  </div>
+
   <div class="panels">
     <div class="panel" id="now-panel">
       <div class="panel-head">

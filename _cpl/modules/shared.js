@@ -777,6 +777,101 @@
     return `${entry.league}/${seasonSegment}?${search.toString()}`;
   }
 
+  // ---------------------------------------------------------------------------
+  // Favorites: a reader can star a division, a team, or a player from any
+  // dashboard, and the /cpl landing page shows the most recently starred ones
+  // back to them. Stored in localStorage, one key per device — same reasoning
+  // as PREFS_STORAGE_KEY in app.js: a reader's own functional choice, nothing
+  // shared with any other origin and nothing sent anywhere, so it needs no
+  // consent banner under GDPR or the ePrivacy directive. "No portability" isn't
+  // a restriction bolted on top; it's just what falls out of using localStorage
+  // at all. And erasure is already whatever the browser's own "clear site data"
+  // does — there is no account, no server copy, nothing for a deletion request
+  // to reach.
+  //
+  // Each favorite is a self-contained bookmark: the id it dedupes on, a display
+  // label, and the relative path (from /cpl/) that opens it, all captured at
+  // the moment it was starred by the page that knows that context. Nothing here
+  // re-resolves a favorite against current data, so a division that gets
+  // relabeled, or a team that changes name next season, keeps showing what it
+  // was called when it was starred — the same way a browser bookmark would. The
+  // alternative is the landing page loading every division's dataset just to
+  // redraw a handful of labels it otherwise never touches.
+  const FAVORITES_STORAGE_KEY = 'cpl.favorites.v1';
+  const FAVORITE_TYPES = ['division', 'team', 'player'];
+
+  function readFavorites() {
+    try {
+      const parsed = JSON.parse(globalThis.localStorage.getItem(FAVORITES_STORAGE_KEY) || 'null');
+      const favorites = {};
+      FAVORITE_TYPES.forEach((type) => {
+        const list = parsed && typeof parsed === 'object' ? parsed[type] : null;
+        favorites[type] = Array.isArray(list) ? list.filter((entry) => entry && entry.id) : [];
+      });
+      return favorites;
+    } catch {
+      // Private browsing, storage disabled by policy, or a value an older
+      // version wrote that no longer parses. Every star just reads as unset
+      // rather than throwing the page it's on.
+      return { division: [], team: [], player: [] };
+    }
+  }
+
+  function writeFavorites(favorites) {
+    try {
+      globalThis.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(favorites));
+    } catch {
+      // Quota, or a store blocked outright. The toggle still applies to the
+      // page it was clicked on; it just won't survive a reload.
+    }
+  }
+
+  function isFavorite(type, id) {
+    if (!FAVORITE_TYPES.includes(type) || !id) return false;
+    return readFavorites()[type].some((entry) => entry.id === id);
+  }
+
+  // Adds `entry` if nothing with its id is favorited yet, or removes it if
+  // something is — the one control a star ever needs. `entry.id` names the
+  // thing, not the page it was starred from, so the same person favorited from
+  // two divisions they play in is one bookmark, not two: opening either page
+  // shows their star already lit, and clicking it there removes the one
+  // bookmark rather than adding a second. Returns the new state so the caller
+  // can update the button without a separate read.
+  function toggleFavorite(type, entry) {
+    if (!FAVORITE_TYPES.includes(type) || !entry || !entry.id) return false;
+    const favorites = readFavorites();
+    const list = favorites[type];
+    const index = list.findIndex((existing) => existing.id === entry.id);
+    if (index !== -1) {
+      list.splice(index, 1);
+      writeFavorites(favorites);
+      return false;
+    }
+    list.push({ ...entry, addedAt: Date.now() });
+    writeFavorites(favorites);
+    return true;
+  }
+
+  function removeFavorite(type, id) {
+    if (!FAVORITE_TYPES.includes(type) || !id) return;
+    const favorites = readFavorites();
+    favorites[type] = favorites[type].filter((entry) => entry.id !== id);
+    writeFavorites(favorites);
+  }
+
+  // Every favorite, newest-starred first — what the /cpl landing page's block
+  // shows (sliced to however many it has room for). `type` narrows to just one
+  // of the three kinds; omitted, it merges all three and tags each entry with
+  // which kind it is, since the block on /cpl/ shows them side by side.
+  function listFavorites(type) {
+    const favorites = readFavorites();
+    if (type) return FAVORITE_TYPES.includes(type) ? favorites[type].slice() : [];
+    return FAVORITE_TYPES
+      .flatMap((favType) => favorites[favType].map((entry) => ({ ...entry, type: favType })))
+      .sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0));
+  }
+
   return {
     escapeHtml,
     catalogCurrentSeason,
@@ -812,5 +907,9 @@
     DUPR_POINTS_PER_RATING,
     buildDuprRatingIndex,
     getPlayerIndex,
+    isFavorite,
+    toggleFavorite,
+    removeFavorite,
+    listFavorites,
   };
 }));

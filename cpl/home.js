@@ -160,8 +160,77 @@
     if (age.title) host.title = age.title;
   }
 
+  // The Favorites box: whatever the reader starred on a dashboard (division
+  // header, team page, or player modal — see the fav-star wiring in app.js),
+  // newest first. Storage and the GDPR reasoning live in CPLShared
+  // (cpl.favorites.v1); this box only reads it back and lets the reader
+  // remove a row without having to go find the star again.
+  var FAVORITE_TYPE_LABELS = { division: 'Division', team: 'Team', player: 'Player' };
+  var FAVORITES_SHOWN = 5;
+
+  function renderFavoritesBox() {
+    var panel = document.getElementById('favorites-panel');
+    var summary = document.getElementById('favorites-summary');
+    var list = document.getElementById('favorites-list');
+    if (!panel || !list) return;
+
+    var all = shared.listFavorites();
+    var shown = all.slice(0, FAVORITES_SHOWN);
+    panel.hidden = !shown.length;
+    if (!shown.length) return;
+
+    if (summary) {
+      summary.textContent = all.length > shown.length
+        ? 'Newest ' + shown.length + ' of ' + all.length
+        : shown.length + (shown.length === 1 ? ' saved' : ' saved');
+    }
+
+    list.innerHTML = shown.map(function (favorite) {
+      var typeLabel = FAVORITE_TYPE_LABELS[favorite.type] || favorite.type;
+      // A division's own label already names its league (see
+      // divisionTitleSubject in app.js), so it needs no second line. A team or
+      // player's label is just its own name — "Bounce Philly" plays in more
+      // than one division — so the context app.js captured at favorite-time
+      // is what disambiguates it here, where there's no dataset loaded to look
+      // it up fresh.
+      var metaHtml = favorite.context
+        ? '<span class="favorites-list-meta">' + escapeHtml(favorite.context) + '</span>'
+        : '';
+      return '<li>' +
+        '<a class="favorites-list-link" href="' + escapeHtml(favorite.href || '#') + '">' +
+        '<span class="favorites-list-type favorites-list-type-' + escapeHtml(favorite.type) + '">' + escapeHtml(typeLabel) + '</span>' +
+        '<span class="favorites-list-text">' +
+        '<span class="favorites-list-label">' + escapeHtml(favorite.label || '') + '</span>' +
+        metaHtml +
+        '</span>' +
+        '</a>' +
+        '<button type="button" class="favorites-remove" data-fav-type="' + escapeHtml(favorite.type) + '" data-fav-id="' + escapeHtml(favorite.id) + '" aria-label="Remove ' + escapeHtml(favorite.label || '') + ' from favorites" title="Remove from favorites">×</button>' +
+        '</li>';
+    }).join('');
+  }
+
+  function buildFavoritesBox() {
+    var panel = document.getElementById('favorites-panel');
+    var list = document.getElementById('favorites-list');
+    if (!panel || !list) return;
+
+    // Delegated: the rows are rebuilt on every render, the list container isn't.
+    // The per-row × is the only way to remove a favorite here — a "clear all"
+    // control read as one click away from an accidental wipe, for a list this
+    // short.
+    list.addEventListener('click', function (event) {
+      var button = event.target.closest('.favorites-remove');
+      if (!button) return;
+      shared.removeFavorite(button.dataset.favType, button.dataset.favId);
+      renderFavoritesBox();
+    });
+
+    renderFavoritesBox();
+  }
+
   buildNowBox();
   buildArchiveBox();
+  buildFavoritesBox();
   renderFreshness();
 
   // ── Player Finder ──────────────────────────────────────────────────────────

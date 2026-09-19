@@ -52,7 +52,13 @@
         <select id="division-select"></select>
       </div>
     </div>
-    <h1 id="title">Division Standings &amp; Player Stats</h1>
+    <div class="title-row">
+      <h1 id="title">Division Standings &amp; Player Stats</h1>
+      <!-- Wired up by renderHeader once the dataset names this division; a
+           division only has an identity — league, season, slug — once DATA has
+           loaded, same as the title text beside it. -->
+      <button type="button" id="division-favorite" class="fav-star" data-fav-type="division" aria-pressed="false" aria-label="Favorite this division" hidden>☆</button>
+    </div>
     <p class="sub" id="sub"></p>
   </header>
 

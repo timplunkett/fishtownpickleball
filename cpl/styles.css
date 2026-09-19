@@ -144,6 +144,72 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+.title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* --- Favorites -------------------------------------------------------------
+   One star, three places: the division header (.title-row), a team page
+   (.team-hero h2) and the player modal (.mh-name). All three share this class
+   and the same toggle/rendering in app.js — see CPLShared favorites in
+   shared.js for the storage itself, which never leaves this device. */
+.fav-star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: none;
+  color: var(--mut);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.15s, transform 0.1s;
+}
+
+/* An author rule that sets `display` always wins over the UA stylesheet's
+   `[hidden] { display: none }`, no matter the specificity — so the plain
+   `.fav-star` rule above silently cancelled out `element.hidden = true` on
+   the division header's star. renderTeamPage sets that property to hide it
+   behind a team page, and without this it stayed visually shown (though
+   still `hidden` in the DOM) the whole time. */
+.fav-star[hidden] {
+  display: none;
+}
+
+.fav-star:hover {
+  color: var(--gold);
+}
+
+.fav-star:active {
+  transform: scale(0.9);
+}
+
+.fav-star:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.fav-star.active {
+  color: var(--gold);
+}
+
+.team-hero h2 .fav-star {
+  font-size: 18px;
+  vertical-align: -2px;
+}
+
+.mh-fav {
+  font-size: 16px;
+  vertical-align: 1px;
+}
+
 h2 {
   display: flex;
   gap: 10px;
