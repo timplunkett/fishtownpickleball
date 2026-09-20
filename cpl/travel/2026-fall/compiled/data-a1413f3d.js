@@ -37060,6 +37060,14 @@
   {
    "result": null,
    "week": 5,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Pickle Place",
+   "time": "2026-09-26T09:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 5,
    "home": "Flemington Green",
    "away": "PCKLRAMA",
    "time": "2026-09-26T09:00:00",
@@ -37071,14 +37079,6 @@
    "home": "Flemington Blue",
    "away": "Picklr Newark",
    "time": "2026-09-26T09:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
-   "home": "Pickleball Kingdom Tinton Falls",
-   "away": "Pickle Place",
-   "time": "2026-09-26T12:00:00",
    "complete": false
   },
   {
@@ -37987,7 +37987,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-19T19:48:42.938Z";
+  DATA.meta.asOf = "2026-09-20T02:31:25.516Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

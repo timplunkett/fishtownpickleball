@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 540,
+   "leagueRank": 541,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 539,
+   "leagueRank": 540,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -48307,6 +48307,7 @@
   "Terri Briggs": "8dc50a96-2971-422c-aba4-b519ae2f2748",
   "Thuy Nguyen": "8ea3584b-11a3-4d0c-ace0-bce5bd3a00f1",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "Kaylee Ritchie": "97afd4ef-139b-43d3-bc43-1e8f4a50ef89",
   "Andrea Bramante": "9e585ba7-f38c-4948-89bc-2947c22df08b",
   "Solomon Kam": "9ea93639-7caf-4530-9b10-e89f11ff5050",
   "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
@@ -48386,7 +48387,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-19T15:05:32.263Z";
+  DATA.meta.asOf = "2026-09-20T02:32:06.546Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

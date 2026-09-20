@@ -2953,6 +2953,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Charlene De Lara",
+   "playerId": "16f9fddd-e9cd-4e65-9090-2764c44fc74a",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Charlene Fletcher",
    "playerId": "d05d7514-8679-4d34-ad12-654b496f2308",
    "team": "Pickleball Palace Black",
@@ -8826,6 +8833,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jonathan Briones",
+   "playerId": "774f6fd0-33aa-47c2-8b61-167976b46b8e",
+   "team": "Picklr Newark",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Jonathan Carter",
    "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7",
    "team": "Jersey Devil Navy",
@@ -11154,6 +11168,13 @@ window.DUPR_AUDIT = {
    "playerId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
    "team": "Jersey Devil Navy",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Lisa Sardo",
+   "playerId": "5679ab92-a579-42bc-bece-440d1f952f66",
+   "team": "Pickleball HQ",
+   "slug": "e27386b3",
    "gender": "Female"
   },
   {
@@ -16092,6 +16113,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Sidd Pathare",
+   "playerId": "a73f249d-c1c9-4516-bc79-e9732581f098",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Simon Burns",
    "playerId": "3a1cc58f-1661-41c2-b2cb-4e39a1b60bac",
    "team": "Picklr Newark",
@@ -16605,6 +16633,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Suki Wong",
    "playerId": "b92a5442-fd20-4e2f-896b-26cc5cfa5ea5",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Sultane Cosaj",
+   "playerId": "c80624a6-0c31-4792-bc8d-c9f1d2153dca",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "e27386b3",
    "gender": "Female"
