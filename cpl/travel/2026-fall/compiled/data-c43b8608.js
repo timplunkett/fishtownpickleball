@@ -4819,8 +4819,8 @@
    "name": "Lucy Sha",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 7,
@@ -4833,7 +4833,6 @@
    "genderLosses": 4,
    "clutchWins": 5,
    "clutchLosses": 1,
-   "playerId": "4807af08-76d9-4c85-9e4b-c16be77b4d78",
    "winPct": 50,
    "diff": -33,
    "ppg": 17.1,
@@ -4842,7 +4841,8 @@
    "ratingGames": 14,
    "confidence": 69,
    "strengthOfPartners": -0.8,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "4807af08-76d9-4c85-9e4b-c16be77b4d78"
   },
   {
    "name": "Nicole Nelson",
@@ -18497,7 +18497,6 @@
     "Uma Kamineni",
     "Ralph Croat",
     "Dawn Willemsen",
-    "Lucy Sha",
     "Kimberly Sorce",
     "Karin Schneider",
     "Guitta Barghash",
@@ -25495,7 +25494,6 @@
     "Kenneth Margolin",
     "Jean Xie",
     "Wenbin Dang",
-    "Lucy Sha",
     "Charles Li",
     "Allison Xiao",
     "Vlad Radomsky"
@@ -26606,8 +26604,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Robert Shea"
      ],
      "a": [
       "Becky Poon",
@@ -26617,8 +26615,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Uma Kamineni"
      ],
      "a": [
       "Mara Levy",
@@ -26628,8 +26626,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Kenneth Margolin"
      ],
      "a": [
       "Christine Anderson",
@@ -26639,8 +26637,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Alan Carr"
      ],
      "a": [
       "Raquel Murphy",
@@ -26650,8 +26648,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Claudia Van Loo"
      ],
      "a": [
       "Linda Bozzo",
@@ -26661,8 +26659,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Sherry Sili"
      ],
      "a": [
       "Christine Anderson",
@@ -26672,8 +26670,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Uma Kamineni",
+      "Kenneth Margolin"
      ],
      "a": [
       "Louis Sapirman",
@@ -26683,8 +26681,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Carr",
+      "Robert Shea"
      ],
      "a": [
       "Marty Tan",
@@ -26694,8 +26692,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Uma Kamineni"
      ],
      "a": [
       "Mara Levy",
@@ -26705,8 +26703,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Alan Carr"
      ],
      "a": [
       "Becky Poon",
@@ -26716,8 +26714,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Robert Shea"
      ],
      "a": [
       "Christine Anderson",
@@ -26727,8 +26725,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Kenneth Margolin"
      ],
      "a": [
       "Linda Bozzo",
@@ -26738,8 +26736,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Lucy Sha"
      ],
      "a": [
       "Linda Bozzo",
@@ -26749,8 +26747,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Karin Schneider"
      ],
      "a": [
       "Raquel Murphy",
@@ -26760,8 +26758,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Uma Kamineni",
+      "Kenneth Margolin"
      ],
      "a": [
       "Andy Knight",
@@ -26771,8 +26769,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Carr",
+      "Robert Shea"
      ],
      "a": [
       "Louis Sapirman",
@@ -26782,8 +26780,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Uma Kamineni"
      ],
      "a": [
       "Becky Poon",
@@ -26793,8 +26791,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Alan Carr"
      ],
      "a": [
       "Christine Anderson",
@@ -26804,8 +26802,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Robert Shea"
      ],
      "a": [
       "Linda Bozzo",
@@ -26815,8 +26813,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Kenneth Margolin"
      ],
      "a": [
       "Raquel Murphy",
@@ -26826,8 +26824,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Sherry Sili"
      ],
      "a": [
       "Christine Anderson",
@@ -26837,8 +26835,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Karin Schneider"
      ],
      "a": [
       "Linda Bozzo",
@@ -26848,8 +26846,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenneth Margolin",
+      "Alan Carr"
      ],
      "a": [
       "Louis Sapirman",
@@ -26859,8 +26857,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Shea",
+      "Uma Kamineni"
      ],
      "a": [
       "Michael Barry",
@@ -26870,8 +26868,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Alan Carr"
      ],
      "a": [
       "Becky Poon",
@@ -26881,8 +26879,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Uma Kamineni"
      ],
      "a": [
       "Raquel Murphy",
@@ -26892,8 +26890,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Kenneth Margolin"
      ],
      "a": [
       "Christine Anderson",
@@ -26903,8 +26901,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lucy Sha",
+      "Robert Shea"
      ],
      "a": [
       "Linda Bozzo",
@@ -26914,8 +26912,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudia Van Loo",
+      "Sherry Sili"
      ],
      "a": [
       "Christine Anderson",
@@ -26925,8 +26923,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Lucy Sha"
      ],
      "a": [
       "Linda Bozzo",
@@ -26936,8 +26934,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Carr",
+      "Uma Kamineni"
      ],
      "a": [
       "Marty Tan",
@@ -26947,8 +26945,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenneth Margolin",
+      "Robert Shea"
      ],
      "a": [
       "Michael Barry",
@@ -29266,7 +29264,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T02:32:53.918Z";
+  DATA.meta.asOf = "2026-09-20T10:22:20.323Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

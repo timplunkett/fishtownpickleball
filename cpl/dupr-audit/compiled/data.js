@@ -11332,6 +11332,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lucy Sha",
+   "playerId": "4807af08-76d9-4c85-9e4b-c16be77b4d78",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Luis Guzman",
    "playerId": "10eba8b1-6e12-4d4b-994c-8bc62f617909",
    "team": "Pickle House",
