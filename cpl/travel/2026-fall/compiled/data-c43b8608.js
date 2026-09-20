@@ -8905,6 +8905,35 @@
    "playerId": "0a43c509-a439-4ddd-8084-728b7818a416"
   },
   {
+   "name": "Ani Stone",
+   "gender": "Female",
+   "team": "Montville Rocks",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 400,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56"
+  },
+  {
    "name": "Bruce Bilow",
    "gender": "Male",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -9215,7 +9244,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 403,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9534,7 +9563,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9621,7 +9650,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29163,7 +29192,7 @@
   "matchesPlayed": 28,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 366,
+  "totalPlayers": 367,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -29264,7 +29293,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T10:22:20.323Z";
+  DATA.meta.asOf = "2026-09-20T15:11:20.644Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

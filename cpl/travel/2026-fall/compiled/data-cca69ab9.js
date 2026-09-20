@@ -15861,8 +15861,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Zach Hizer"
      ],
      "a": [
       "Thomas Connolly",
@@ -15872,8 +15872,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary Sidhu",
+      "Zachary Puccia"
      ],
      "a": [
       "Jason Makarevic",
@@ -15883,8 +15883,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Neel Goyal",
@@ -15894,8 +15894,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Andrew Bernard"
      ],
      "a": [
       "Elliott Albanese",
@@ -15905,8 +15905,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary Sidhu",
+      "Zachary Puccia"
      ],
      "a": [
       "Neel Goyal",
@@ -15916,8 +15916,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Zach Hizer"
      ],
      "a": [
       "Shreyas Pani",
@@ -15927,8 +15927,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Andrew Bernard"
      ],
      "a": [
       "Ian Chin",
@@ -15938,8 +15938,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Jason Makarevic",
@@ -15949,8 +15949,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Zachary Puccia"
      ],
      "a": [
       "Camrin Cronheim",
@@ -15960,8 +15960,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Andrew Bernard"
      ],
      "a": [
       "Elliott Albanese",
@@ -15971,8 +15971,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary Sidhu",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Jason Makarevic",
@@ -15982,8 +15982,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hizer",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Ian Chin",
@@ -15993,8 +15993,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Puccia",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Jason Makarevic",
@@ -16004,8 +16004,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary Sidhu",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Neel Goyal",
@@ -16015,8 +16015,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Andrew Bernard"
      ],
      "a": [
       "Elliott Albanese",
@@ -16026,8 +16026,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hizer",
+      "Anthony Bradford Bisignano"
      ],
      "a": [
       "Thomas Connolly",
@@ -16037,8 +16037,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Puccia",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Neel Goyal",
@@ -16048,8 +16048,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Bernard",
+      "Gary Sidhu"
      ],
      "a": [
       "Jason Makarevic",
@@ -16059,8 +16059,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hizer",
+      "Matt Schall"
      ],
      "a": [
       "Camrin Cronheim",
@@ -16070,8 +16070,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Thomas Connolly",
@@ -16081,8 +16081,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Anthony Bradford Bisignano"
      ],
      "a": [
       "Thomas Connolly",
@@ -16092,8 +16092,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Puccia",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Neel Goyal",
@@ -16103,8 +16103,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary Sidhu",
+      "Andrew Bernard"
      ],
      "a": [
       "Jason Makarevic",
@@ -16114,8 +16114,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Zach Hizer"
      ],
      "a": [
       "Camrin Cronheim",
@@ -16125,8 +16125,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hizer",
+      "Zachary Puccia"
      ],
      "a": [
       "Jason Makarevic",
@@ -16136,8 +16136,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Camrin Cronheim",
@@ -16147,8 +16147,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Gary Sidhu"
      ],
      "a": [
       "Elliott Albanese",
@@ -16158,8 +16158,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Wysoczynski",
+      "Andrew Bernard"
      ],
      "a": [
       "Thomas Connolly",
@@ -16169,8 +16169,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Wysoczynski",
+      "Andrew Bernard"
      ],
      "a": [
       "Thomas Connolly",
@@ -16180,8 +16180,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Schall",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Camrin Cronheim",
@@ -16191,8 +16191,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hizer",
+      "Zachary Puccia"
      ],
      "a": [
       "Neel Goyal",
@@ -16202,8 +16202,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bradford Bisignano",
+      "Gary Sidhu"
      ],
      "a": [
       "Vivek Kumar",
@@ -17841,7 +17841,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T13:32:36.811Z";
+  DATA.meta.asOf = "2026-09-20T15:11:36.942Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -1329,6 +1329,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Ani Stone",
+   "playerId": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56",
+   "team": "Montville Rocks",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Anil Kumar Jakkaladki",
    "playerId": "176df588-c3ff-4b50-a66a-4df99647254b",
    "team": "Pickle House",

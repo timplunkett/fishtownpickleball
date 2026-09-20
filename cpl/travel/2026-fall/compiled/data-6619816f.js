@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -18452,7 +18452,361 @@
    "home": "Bounce Malvern",
    "away": "Bounce Philly",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Darren Johnson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Sternberg",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Rachel Alfano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Darren Johnson",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Sternberg",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Darren Johnson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Rachel Alfano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Darren Johnson",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Sternberg",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Alex Abad"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Darren Johnson",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Sternberg",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Alyssa Boyle"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Darren Johnson",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Dustin Rabinowitz"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -19313,7 +19667,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T15:31:56.483Z";
+  DATA.meta.asOf = "2026-09-20T15:10:52.709Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

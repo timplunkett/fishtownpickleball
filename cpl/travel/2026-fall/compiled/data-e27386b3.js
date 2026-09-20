@@ -28302,8 +28302,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Kevin Algarme"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28313,8 +28313,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jasmine Nguyen",
+      "Holden Smith"
      ],
      "a": [
       "Adele Hackney",
@@ -28324,8 +28324,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Pascua",
+      "Ismael Hernandez"
      ],
      "a": [
       "Kristin Granath",
@@ -28335,8 +28335,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maridel Ablaza",
+      "Taylor Newell"
      ],
      "a": [
       "Susan Li",
@@ -28346,8 +28346,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Nguyen",
+      "Jane Pascua"
      ],
      "a": [
       "Adele Hackney",
@@ -28357,8 +28357,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lanz Santos",
+      "Katelyn Carretas"
      ],
      "a": [
       "Kristin Granath",
@@ -28368,8 +28368,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ismael Hernandez",
+      "John Defilippo"
      ],
      "a": [
       "Nathan Trimmer",
@@ -28379,8 +28379,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Holden Smith",
+      "Kevin Algarme"
      ],
      "a": [
       "Peter Hackney",
@@ -28390,8 +28390,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Kevin Algarme"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28401,8 +28401,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katelyn Carretas",
+      "Taylor Newell"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -28412,8 +28412,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lanz Santos",
+      "Rommel Santos"
      ],
      "a": [
       "Susan Li",
@@ -28423,8 +28423,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maridel Ablaza",
+      "John Defilippo"
      ],
      "a": [
       "Haidee Midgley",
@@ -28434,8 +28434,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Nguyen",
+      "Katelyn Carretas"
      ],
      "a": [
       "Adele Hackney",
@@ -28445,8 +28445,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jane Pascua",
+      "Lanz Santos"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28456,8 +28456,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Taylor Newell",
+      "Rommel Santos"
      ],
      "a": [
       "Peter Hackney",
@@ -28467,8 +28467,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Holden Smith",
+      "Ismael Hernandez"
      ],
      "a": [
       "Devin Kenny",
@@ -28478,8 +28478,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lanz Santos",
+      "Taylor Newell"
      ],
      "a": [
       "Kristin Granath",
@@ -28489,8 +28489,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jasmine Nguyen",
+      "Ismael Hernandez"
      ],
      "a": [
       "Adele Hackney",
@@ -28500,8 +28500,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Pascua",
+      "Kevin Algarme"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28511,8 +28511,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Holden Smith"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -28522,8 +28522,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jane Pascua",
+      "Lanz Santos"
      ],
      "a": [
       "Haidee Midgley",
@@ -28533,8 +28533,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Maridel Ablaza"
      ],
      "a": [
       "Susan Li",
@@ -28544,8 +28544,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Holden Smith",
+      "John Defilippo"
      ],
      "a": [
       "Devin Kenny",
@@ -28555,8 +28555,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Algarme",
+      "Rommel Santos"
      ],
      "a": [
       "Andrew Frey",
@@ -28566,8 +28566,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Holden Smith"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28577,8 +28577,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maridel Ablaza",
+      "Ismael Hernandez"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -28588,8 +28588,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jasmine Nguyen",
+      "Kevin Algarme"
      ],
      "a": [
       "Adele Hackney",
@@ -28599,8 +28599,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katelyn Carretas",
+      "Rommel Santos"
      ],
      "a": [
       "Susan Li",
@@ -28610,8 +28610,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esterlina Wiest",
+      "Jane Pascua"
      ],
      "a": [
       "Adele Hackney",
@@ -28621,8 +28621,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maridel Ablaza",
+      "Katelyn Carretas"
      ],
      "a": [
       "Jennifer Guldin",
@@ -28632,8 +28632,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Defilippo",
+      "Ismael Hernandez"
      ],
      "a": [
       "Steven Fernandez",
@@ -28643,8 +28643,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Algarme",
+      "Taylor Newell"
      ],
      "a": [
       "Devin Kenny",
@@ -32168,7 +32168,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T13:29:31.815Z";
+  DATA.meta.asOf = "2026-09-20T15:09:08.790Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
