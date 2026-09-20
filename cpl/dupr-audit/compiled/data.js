@@ -10527,6 +10527,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Kyle Wilson",
+   "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
+   "team": "Home Court",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Kyle Woerner",
    "playerId": "49766802-f2c8-46aa-8ca1-e917160a60f0",
    "team": "Jersey Devil Navy",
@@ -12088,6 +12095,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Matt Inzerillo",
+   "playerId": "51ceabf9-8258-4835-9835-c7d915220185",
+   "team": "APC Garden State",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Matt Jump",
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "team": "Jersey Devil",
@@ -12190,13 +12204,6 @@ window.DUPR_AUDIT = {
    "playerId": "768ab04d-45af-4d4e-9026-596464473477",
    "team": "Picklr Newark",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Matthew Inzerillo",
-   "playerId": "51ceabf9-8258-4835-9835-c7d915220185",
-   "team": "APC Garden State",
-   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

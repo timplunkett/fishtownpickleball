@@ -15499,8 +15499,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Tom Laiso"
      ],
      "a": [
       "Robbie Oddy",
@@ -15510,8 +15510,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Nicholas Lagrua"
      ],
      "a": [
       "Tim Dowd",
@@ -15521,8 +15521,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Chenfei Gao"
      ],
      "a": [
       "Steven Gregov",
@@ -15532,8 +15532,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harrison Mui",
+      "Samuel Levinson"
      ],
      "a": [
       "Hans Tang",
@@ -15543,8 +15543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Harrison Mui"
      ],
      "a": [
       "Robbie Oddy",
@@ -15554,8 +15554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Samuel Levinson"
      ],
      "a": [
       "Tim Dowd",
@@ -15565,8 +15565,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Nicholas Lagrua"
      ],
      "a": [
       "Jay Alquiros",
@@ -15576,8 +15576,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Chenfei Gao"
      ],
      "a": [
       "Hans Tang",
@@ -15587,8 +15587,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Lagrua",
+      "Harrison Mui"
      ],
      "a": [
       "Robbie Oddy",
@@ -15598,8 +15598,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Yoon Choi"
      ],
      "a": [
       "Tim Dowd",
@@ -15609,8 +15609,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Adam Weinstock"
      ],
      "a": [
       "Steven Gregov",
@@ -15620,8 +15620,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Levinson",
+      "Chenfei Gao"
      ],
      "a": [
       "Sean O'Connell",
@@ -15631,8 +15631,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Harrison Mui"
      ],
      "a": [
       "Robbie Oddy",
@@ -15642,8 +15642,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Tom Laiso"
      ],
      "a": [
       "Tim Dowd",
@@ -15653,8 +15653,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Lagrua",
+      "Chenfei Gao"
      ],
      "a": [
       "Jay Alquiros",
@@ -15664,8 +15664,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
      ],
      "a": [
       "Sean O'Connell",
@@ -15675,8 +15675,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Nicholas Lagrua"
      ],
      "a": [
       "Robbie Oddy",
@@ -15686,8 +15686,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Adam Weinstock"
      ],
      "a": [
       "Tim Dowd",
@@ -15697,8 +15697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Harrison Mui"
      ],
      "a": [
       "Obe Janvier",
@@ -15708,8 +15708,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chenfei Gao",
+      "Samuel Levinson"
      ],
      "a": [
       "Hans Tang",
@@ -15719,8 +15719,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Nicholas Lagrua"
      ],
      "a": [
       "Robbie Oddy",
@@ -15730,8 +15730,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Adam Weinstock"
      ],
      "a": [
       "Tim Dowd",
@@ -15741,8 +15741,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harrison Mui",
+      "Samuel Levinson"
      ],
      "a": [
       "Obe Janvier",
@@ -15752,8 +15752,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Chenfei Gao"
      ],
      "a": [
       "Hans Tang",
@@ -15763,8 +15763,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Harrison Mui"
      ],
      "a": [
       "Robbie Oddy",
@@ -15774,8 +15774,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Samuel Levinson"
      ],
      "a": [
       "Andy Ead",
@@ -15785,8 +15785,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Tom Laiso"
      ],
      "a": [
       "Tim Dowd",
@@ -15796,8 +15796,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Lagrua",
+      "Chenfei Gao"
      ],
      "a": [
       "Sean O'Connell",
@@ -15807,8 +15807,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chenfei Gao",
+      "Adam Weinstock"
      ],
      "a": [
       "Robbie Oddy",
@@ -15818,8 +15818,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Yoon Choi"
      ],
      "a": [
       "Obe Janvier",
@@ -15829,8 +15829,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
      ],
      "a": [
       "Hans Tang",
@@ -15840,8 +15840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harrison Mui",
+      "Nicholas Lagrua"
      ],
      "a": [
       "Frank Clark",
@@ -17841,7 +17841,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T02:33:09.271Z";
+  DATA.meta.asOf = "2026-09-20T13:32:36.811Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -5599,7 +5599,7 @@
    "playerId": "4f98756a-9726-48fe-a241-2579f96eee16"
   },
   {
-   "name": "Matthew Inzerillo",
+   "name": "Matt Inzerillo",
    "gender": "Male",
    "team": "APC Garden State",
    "matches": 4,
@@ -7281,6 +7281,35 @@
    "playerId": "9e348e82-13d0-4911-8efa-e5a2f7afded1"
   },
   {
+   "name": "Kyle Wilson",
+   "gender": "Male",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 284,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de"
+  },
+  {
    "name": "Stephane Sabathier",
    "gender": "Male",
    "team": "Picklr Newtown",
@@ -8417,7 +8446,7 @@
    "bId": "6d1beb10-bd5c-456f-95b5-1823752e8c62"
   },
   {
-   "a": "Matthew Inzerillo",
+   "a": "Matt Inzerillo",
    "b": "Neale Smith",
    "team": "APC Garden State",
    "n": 3,
@@ -8990,7 +9019,7 @@
   },
   {
    "a": "Mark Waters",
-   "b": "Matthew Inzerillo",
+   "b": "Matt Inzerillo",
    "team": "APC Garden State",
    "n": 6,
    "w": 3,
@@ -10562,7 +10591,7 @@
    "bId": "7b57c36d-a6eb-470e-b132-26d1f2a47b74"
   },
   {
-   "a": "Matthew Inzerillo",
+   "a": "Matt Inzerillo",
    "b": "Tyler Bayly",
    "team": "APC Garden State",
    "n": 3,
@@ -11147,7 +11176,7 @@
    "bId": "ebfeb773-e8cd-4b6a-aafd-ee2772540168"
   },
   {
-   "a": "Matthew Inzerillo",
+   "a": "Matt Inzerillo",
    "b": "Jimmy Shapiro",
    "team": "APC Garden State",
    "n": 3,
@@ -11732,7 +11761,7 @@
    "bId": "c39cd158-0c19-4819-8653-18084e6ce982"
   },
   {
-   "a": "Matthew Inzerillo",
+   "a": "Matt Inzerillo",
    "b": "Chris Machuzak",
    "team": "APC Garden State",
    "n": 3,
@@ -11745,7 +11774,7 @@
    "bId": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7"
   },
   {
-   "a": "Matthew Inzerillo",
+   "a": "Matt Inzerillo",
    "b": "Andress Mims",
    "team": "APC Garden State",
    "n": 4,
@@ -13414,7 +13443,7 @@
       "Brandon Dejesus"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Neale Smith"
      ]
     },
@@ -13540,7 +13569,7 @@
       "Tom Kresky"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Tyler Bayly"
      ]
     },
@@ -13582,7 +13611,7 @@
       "Brandon Dejesus"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Bruce Nguyen"
      ]
     },
@@ -13638,7 +13667,7 @@
       "Tom Kresky"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Neale Smith"
      ]
     },
@@ -13680,7 +13709,7 @@
       "Tom Kresky"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Mark Waters"
      ]
     },
@@ -13750,7 +13779,7 @@
       "Steve Hong"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Daniel Dechristopher"
      ]
     },
@@ -17594,7 +17623,7 @@
      ],
      "a": [
       "Jimmy Shapiro",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -17635,7 +17664,7 @@
       "Mike Leach"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Mark Waters"
      ]
     },
@@ -17761,7 +17790,7 @@
       "Jimmy Duong"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Neale Smith"
      ]
     },
@@ -17817,7 +17846,7 @@
       "Alessio Muscara"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Chris Machuzak"
      ]
     },
@@ -17873,7 +17902,7 @@
       "Gary Garretson"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Didier Jean-Baptiste"
      ]
     },
@@ -17944,7 +17973,7 @@
      ],
      "a": [
       "Andress Mims",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -17971,7 +18000,7 @@
       "Jimmy Duong"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Mark Waters"
      ]
     },
@@ -20363,7 +20392,7 @@
       "Andrew Neave"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Mark Waters"
      ]
     },
@@ -20419,7 +20448,7 @@
       "Matt Enz"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Tyler Bayly"
      ]
     },
@@ -20462,7 +20491,7 @@
      ],
      "a": [
       "Uzoma Nwankwo",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -20531,7 +20560,7 @@
       "Jr Burrs"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Yongzhe Tian"
      ]
     },
@@ -20588,7 +20617,7 @@
      ],
      "a": [
       "Andrew Ferraro",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -20672,7 +20701,7 @@
      ],
      "a": [
       "Tyler Bayly",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -20699,7 +20728,7 @@
       "Ryan Hathaway"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Bruce Nguyen"
      ]
     },
@@ -20755,7 +20784,7 @@
       "Leland Weinert"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Andress Mims"
      ]
     },
@@ -25504,7 +25533,7 @@
       "Thomas Moran"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Andress Mims"
      ]
     },
@@ -25533,7 +25562,7 @@
      ],
      "a": [
       "Mark Waters",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -25603,7 +25632,7 @@
      ],
      "a": [
       "Jimmy Shapiro",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -25644,7 +25673,7 @@
       "David Wheeler"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Mark Waters"
      ]
     },
@@ -25728,7 +25757,7 @@
       "Jimmy Ramja"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Chris Machuzak"
      ]
     },
@@ -25784,7 +25813,7 @@
       "Jose Campos"
      ],
      "a": [
-      "Matthew Inzerillo",
+      "Matt Inzerillo",
       "Chris Machuzak"
      ]
     },
@@ -25841,7 +25870,7 @@
      ],
      "a": [
       "Andress Mims",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     },
     {
@@ -25897,7 +25926,7 @@
      ],
      "a": [
       "Jimmy Shapiro",
-      "Matthew Inzerillo"
+      "Matt Inzerillo"
      ]
     }
    ],
@@ -28517,6 +28546,94 @@
       "Jason Feldman",
       "Joseph Lynskey"
      ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Matthew Schwartz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Feldman",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Antonelli",
+      "Christopher Giasi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Eden Ksendzovsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Feldman",
+      "Timothy Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Antonelli",
+      "Christopher Giasi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Matthew Schwartz"
+     ]
     }
    ]
   },
@@ -28542,7 +28659,361 @@
    "home": "APC Garden State",
    "away": "Bounce Tempest",
    "time": "2026-09-22T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Nicholas Brow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Luka",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Nicholas Brow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Luka",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Brow",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Brow",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jimmy Lee",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Nicholas Brow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Luka",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Brow",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Luka",
+      "Ethan Fu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Nicholas Brow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Ethan Fu"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -29162,7 +29633,7 @@
   "matchesPlayed": 35,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 265,
+  "totalPlayers": 266,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -29265,7 +29736,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-17T15:59:08.852Z";
+  DATA.meta.asOf = "2026-09-20T13:33:12.891Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

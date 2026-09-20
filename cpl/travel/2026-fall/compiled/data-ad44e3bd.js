@@ -3908,7 +3908,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 161,
+   "leagueRank": 164,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 157,
+   "leagueRank": 160,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 153,
+   "leagueRank": 154,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3995,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 149,
+   "leagueRank": 150,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4024,7 +4024,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 154,
+   "leagueRank": 156,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4053,7 +4053,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 167,
+   "leagueRank": 170,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4082,7 +4082,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 151,
+   "leagueRank": 152,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15621,7 +15621,7 @@
    "week": 5,
    "home": "Pickleball Lehigh Valley",
    "away": "Premiere",
-   "time": "2026-09-26T09:00:00",
+   "time": "2026-09-26T12:00:00",
    "complete": false
   },
   {
@@ -15947,13 +15947,16 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Karen Kelly": "07767191-9167-4314-973d-3798ae6265a9",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
+  "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Maria Borges": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
   "Vanessa Tortorice": "818811e5-0eb6-4611-8ac3-f65c10316305",
   "Kelly Lopinto": "8a1482a3-791c-4ec9-9fae-f9f4f9820296",
+  "Mary Brashier": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
@@ -16044,7 +16047,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-18T15:32:16.137Z";
+  DATA.meta.asOf = "2026-09-20T13:32:50.845Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

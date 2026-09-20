@@ -1934,7 +1934,7 @@
     },
     {
       "playerId": "51ceabf9-8258-4835-9835-c7d915220185",
-      "firstName": "Matthew",
+      "firstName": "Matt",
       "lastName": "Inzerillo",
       "gender": "Male",
       "dupr": "YGQM9P",
@@ -3218,7 +3218,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 284
+      "ranking": 285
     },
     {
       "playerId": "870112b1-afc3-4ff6-b784-7f872210bf37",
@@ -4392,6 +4392,29 @@
       "genderWins": 18,
       "genderLosses": 14,
       "ranking": 101
+    },
+    {
+      "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
+      "firstName": "Kyle",
+      "lastName": "Wilson",
+      "gender": "Male",
+      "dupr": "99DEPK",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 284
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",

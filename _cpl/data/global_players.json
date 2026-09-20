@@ -18334,7 +18334,7 @@
     "duprRating": "3.550",
     "duprNumericId": 4885904251,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "dd2384fe-4bb2-4085-a917-6e7989beb8a7",
@@ -37052,7 +37052,7 @@
     "lastName": "Ford",
     "dupr": "O6Q902",
     "duprRating": "3.144",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6378356704,
     "duprProvisional": false
   },
@@ -43060,7 +43060,7 @@
     "lastName": "Eisen",
     "dupr": "12YJMR",
     "duprRating": "3.739",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5165254739,
     "duprProvisional": false
   },
@@ -46511,6 +46511,14 @@
     "firstName": "Raul",
     "lastName": "Real",
     "dupr": "DWQ40M",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "b1d99b73-dd73-4998-a310-0c6f0ed36b4b",
+    "firstName": "BARBARA",
+    "lastName": "BROSSOK",
+    "dupr": "2Y5KY9",
     "duprRating": null,
     "lastSeen": "2026-09"
   }
