@@ -1366,7 +1366,7 @@
     "wk": 5,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Kelly Hanson Word",
+    "with": "Jill Lesnik",
     "vs": [
      "Sarah Nazario",
      "Eva Danieli"
@@ -1406,26 +1406,26 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 2.6,
+    "rating": 2.7,
     "confidence": 69,
-    "rank": 11,
+    "rank": 10,
     "ratingGames": 14,
-    "strengthOfPartners": 1.7,
+    "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
    {
+    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
+    "name": "Kelly Hanson Word",
+    "n": 3,
+    "synergy": 1
+   },
+   {
     "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
     "name": "Alex Lee",
     "n": 3,
-    "synergy": 0.8
-   },
-   {
-    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
-    "name": "Kelly Hanson Word",
-    "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b",
@@ -2232,7 +2232,7 @@
     "label": "5",
     "rating": 2.2,
     "confidence": 51,
-    "rank": 20,
+    "rank": 21,
     "ratingGames": 7,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.9
@@ -2643,7 +2643,7 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 3.9,
+    "rating": 4,
     "confidence": 48,
     "rank": 3,
     "ratingGames": 6,
@@ -2834,10 +2834,10 @@
     "label": "5",
     "rating": 3,
     "confidence": 49,
-    "rank": 6,
+    "rank": 7,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.6
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -3922,7 +3922,7 @@
     "label": "5",
     "rating": 0.8,
     "confidence": 72,
-    "rank": 56,
+    "rank": 55,
     "ratingGames": 15,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1.1
@@ -4255,7 +4255,7 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 4.6,
+    "rating": 4.7,
     "confidence": 70,
     "rank": 1,
     "ratingGames": 14,
@@ -4523,7 +4523,7 @@
     "wk": 5,
     "opp": "Jersey Pickleball Club",
     "t": "mixed",
-    "with": "Christopher Krecke",
+    "with": "Emil Pescatore",
     "vs": [
      "Eva Danieli",
      "Todd Gasparre"
@@ -4533,14 +4533,13 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Jill Lesnik",
+    "with": "Kelly Hanson Word",
     "vs": [
      "Alice Napolitano",
      "Natasha De Carvalho"
@@ -4580,20 +4579,26 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 2.9,
-    "confidence": 69,
-    "rank": 7,
+    "rating": 2.7,
+    "confidence": 68,
+    "rank": 11,
     "ratingGames": 13,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
    {
     "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
     "name": "Kelly Hanson Word",
+    "n": 4,
+    "synergy": 1.6
+   },
+   {
+    "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+    "name": "Emil Pescatore",
     "n": 3,
-    "synergy": 1
+    "synergy": -0.4
    }
   ]
  },
@@ -5270,7 +5275,7 @@
     "label": "5",
     "rating": 1.5,
     "confidence": 72,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 16,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.1
@@ -5865,7 +5870,7 @@
     "label": "5",
     "rating": 1.3,
     "confidence": 57,
-    "rank": 41,
+    "rank": 40,
     "ratingGames": 8,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.5
@@ -6227,7 +6232,7 @@
     "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
     "name": "Alex Lee",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.9
    }
   ]
  },
@@ -6415,7 +6420,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 57,
-    "rank": 24,
+    "rank": 25,
     "ratingGames": 7,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.5
@@ -6596,7 +6601,7 @@
     "label": "5",
     "rating": 1.4,
     "confidence": 57,
-    "rank": 36,
+    "rank": 37,
     "ratingGames": 7,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.5
@@ -6916,7 +6921,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 69,
-    "rank": 55,
+    "rank": 53,
     "ratingGames": 13,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1
@@ -7095,12 +7100,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 0.6,
+    "rating": 0.7,
     "confidence": 52,
-    "rank": 67,
+    "rank": 60,
     "ratingGames": 6,
-    "strengthOfPartners": 2.7,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 2.8,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -8298,7 +8303,7 @@
     "label": "5",
     "rating": 2.6,
     "confidence": 78,
-    "rank": 10,
+    "rank": 12,
     "ratingGames": 22,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
@@ -8686,7 +8691,7 @@
     "label": "5",
     "rating": 1.4,
     "confidence": 70,
-    "rank": 35,
+    "rank": 36,
     "ratingGames": 16,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.4
@@ -9865,7 +9870,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 79,
-    "rank": 45,
+    "rank": 46,
     "ratingGames": 24,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": -0.5
@@ -10387,6 +10392,367 @@
    }
   ]
  },
+ "ecfbb129-ba7d-4b52-92b9-869fa7487248": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 137,
+    "pa": 121,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 93,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Shauna Muller",
+    "vs": [
+     "Picky Vorabouth",
+     "Wendy Zukerberg"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Emil Pescatore",
+    "vs": [
+     "Wendy Zukerberg",
+     "Anthony Wands"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Rebecca Lederman",
+    "vs": [
+     "Picky Vorabouth",
+     "Wendy Zukerberg"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Daniel Chernin",
+    "vs": [
+     "Wendy Zukerberg",
+     "Ron Skotarczak"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Ronnie Yin",
+     "Picky Vorabouth"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Alex Lee",
+    "vs": [
+     "Picky Vorabouth",
+     "Ron Skotarczak"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "female",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Picky Vorabouth",
+     "Evelyn Du"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ryan Sherry",
+    "vs": [
+     "Alice Napolitano",
+     "Michael Swell"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Rebecca Lederman",
+    "vs": [
+     "Alice Napolitano",
+     "Eva Danieli"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Eva Danieli",
+     "Sarah Nazario"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Daniel Chernin",
+    "vs": [
+     "Alice Napolitano",
+     "Michael Swell"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Rebecca Lederman",
+    "vs": [
+     "Alice Napolitano",
+     "Eva Danieli"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Ryan Sherry",
+    "vs": [
+     "Natasha De Carvalho",
+     "Michael Swell"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Alice Napolitano",
+     "Natasha De Carvalho"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 2,
+    "label": "2",
+    "rating": 0.3,
+    "confidence": 47,
+    "rank": 59,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.3,
+    "confidence": 47,
+    "rank": 63,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.2,
+    "confidence": 67,
+    "rank": 6,
+    "ratingGames": 14,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+    "name": "Karan Pescatore",
+    "n": 4,
+    "synergy": 1.6
+   },
+   {
+    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
+    "name": "Rebecca Lederman",
+    "n": 3,
+    "synergy": 1
+   }
+  ]
+ },
  "22e2201d-16d7-4474-847b-5f4f0cef44e6": {
   "log": [
    {
@@ -10721,393 +11087,32 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 2.3,
+    "rating": 2.2,
     "confidence": 68,
-    "rank": 17,
+    "rank": 19,
     "ratingGames": 14,
-    "strengthOfPartners": 1.9,
+    "strengthOfPartners": 2,
     "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
    {
-    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
-    "name": "Rebecca Lederman",
-    "n": 3,
-    "synergy": 0.8
-   },
-   {
     "pid": "9fc26554-f672-4501-9d2e-a8553fd79eaf",
     "name": "Daniel Chernin",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.9
+   },
+   {
+    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
+    "name": "Rebecca Lederman",
+    "n": 3,
+    "synergy": 0.7
    },
    {
     "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
     "name": "Emil Pescatore",
     "n": 3,
     "synergy": 0.4
-   }
-  ]
- },
- "ecfbb129-ba7d-4b52-92b9-869fa7487248": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 137,
-    "pa": 121,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 27,
-    "teamGL": 5,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 145,
-    "pa": 101,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "female",
-    "with": "Shauna Muller",
-    "vs": [
-     "Picky Vorabouth",
-     "Wendy Zukerberg"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Emil Pescatore",
-    "vs": [
-     "Wendy Zukerberg",
-     "Anthony Wands"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "female",
-    "with": "Rebecca Lederman",
-    "vs": [
-     "Picky Vorabouth",
-     "Wendy Zukerberg"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Daniel Chernin",
-    "vs": [
-     "Wendy Zukerberg",
-     "Ron Skotarczak"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "female",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Ronnie Yin",
-     "Picky Vorabouth"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Alex Lee",
-    "vs": [
-     "Picky Vorabouth",
-     "Ron Skotarczak"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "female",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Picky Vorabouth",
-     "Evelyn Du"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Ryan Sherry",
-    "vs": [
-     "Alice Napolitano",
-     "Michael Swell"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Rebecca Lederman",
-    "vs": [
-     "Alice Napolitano",
-     "Eva Danieli"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Eva Danieli",
-     "Sarah Nazario"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Daniel Chernin",
-    "vs": [
-     "Alice Napolitano",
-     "Michael Swell"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Rebecca Lederman",
-    "vs": [
-     "Alice Napolitano",
-     "Eva Danieli"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Ryan Sherry",
-    "vs": [
-     "Natasha De Carvalho",
-     "Michael Swell"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Rebecca Lederman",
-    "vs": [
-     "Sarah Nazario",
-     "Eva Danieli"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 2,
-    "label": "2",
-    "rating": 0.3,
-    "confidence": 47,
-    "rank": 59,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.3,
-    "confidence": 47,
-    "rank": 63,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 2.6,
-    "confidence": 67,
-    "rank": 12,
-    "ratingGames": 14,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
-    "name": "Karan Pescatore",
-    "n": 3,
-    "synergy": 1
-   },
-   {
-    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
-    "name": "Rebecca Lederman",
-    "n": 4,
-    "synergy": 0.8
    }
   ]
  },
@@ -12002,6 +12007,339 @@
    }
   ]
  },
+ "1c9b7abf-dae6-4e0d-a31d-485e99a01fec": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 106,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 144,
+    "pa": 124,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Picky Vorabouth",
+     "Anthony Wands"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Kelly Hanson Word",
+    "vs": [
+     "Wendy Zukerberg",
+     "Anthony Wands"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Daniel Chernin",
+    "vs": [
+     "Ron Skotarczak",
+     "Brandon Fulford"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Carly Pfeffer",
+    "vs": [
+     "Ronnie Yin",
+     "Brandon Fulford"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Brian Gonzalez",
+    "vs": [
+     "Jieping Wang",
+     "Brandon Fulford"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Brian Gonzalez",
+    "vs": [
+     "Liangjie Zhu",
+     "Brandon Fulford"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Ryan Sherry",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Lance Brown"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Sarah Nazario",
+     "Todd Gasparre"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Alex Lee",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Yi Gu"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Carly Pfeffer",
+    "vs": [
+     "Sarah Nazario",
+     "Michael Dombrowiecki"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Alex Lee",
+    "vs": [
+     "Lance Brown",
+     "Yi Gu"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Eva Danieli",
+     "Todd Gasparre"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Alex Lee",
+    "vs": [
+     "Yi Gu",
+     "Lance Brown"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 2,
+    "label": "2",
+    "rating": -0.7,
+    "confidence": 50,
+    "rank": 90,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.8,
+    "confidence": 50,
+    "rank": 100,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 68,
+    "rank": 113,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
+    "name": "Alex Lee",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+    "name": "Karan Pescatore",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
+ },
  "23d1d322-f31d-46b3-bf95-d86faab58b06": {
   "log": [
    {
@@ -12409,7 +12747,7 @@
     "label": "5",
     "rating": -0.7,
     "confidence": 70,
-    "rank": 115,
+    "rank": 117,
     "ratingGames": 13,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.2
@@ -13352,7 +13690,7 @@
     "label": "5",
     "rating": 2.3,
     "confidence": 73,
-    "rank": 16,
+    "rank": 17,
     "ratingGames": 16,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.4
@@ -13563,7 +13901,7 @@
     "label": "5",
     "rating": 0.5,
     "confidence": 58,
-    "rank": 71,
+    "rank": 70,
     "ratingGames": 8,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -1.4
@@ -13750,324 +14088,13 @@
     "label": "5",
     "rating": 0.4,
     "confidence": 58,
-    "rank": 75,
+    "rank": 74,
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -1.5
    }
   ],
   "partners": []
- },
- "1c9b7abf-dae6-4e0d-a31d-485e99a01fec": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 106,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 27,
-    "teamGL": 5,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 123,
-    "pa": 107,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Picky Vorabouth",
-     "Anthony Wands"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Kelly Hanson Word",
-    "vs": [
-     "Wendy Zukerberg",
-     "Anthony Wands"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "male",
-    "with": "Daniel Chernin",
-    "vs": [
-     "Ron Skotarczak",
-     "Brandon Fulford"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Carly Pfeffer",
-    "vs": [
-     "Ronnie Yin",
-     "Brandon Fulford"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "male",
-    "with": "Brian Gonzalez",
-    "vs": [
-     "Jieping Wang",
-     "Brandon Fulford"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Allstar Pickler",
-    "t": "male",
-    "with": "Brian Gonzalez",
-    "vs": [
-     "Liangjie Zhu",
-     "Brandon Fulford"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Ryan Sherry",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Lance Brown"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Sarah Nazario",
-     "Todd Gasparre"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Alex Lee",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Yi Gu"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Carly Pfeffer",
-    "vs": [
-     "Sarah Nazario",
-     "Michael Dombrowiecki"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Alex Lee",
-    "vs": [
-     "Lance Brown",
-     "Yi Gu"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Alex Lee",
-    "vs": [
-     "Yi Gu",
-     "Lance Brown"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 2,
-    "label": "2",
-    "rating": -0.7,
-    "confidence": 50,
-    "rank": 90,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.8,
-    "confidence": 50,
-    "rank": 100,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -0.7,
-    "confidence": 67,
-    "rank": 117,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
-    "name": "Alex Lee",
-    "n": 3,
-    "synergy": 0.4
-   }
-  ]
  },
  "0530512b-466d-4ff7-9e89-7961b4a63110": {
   "log": [
@@ -14567,7 +14594,7 @@
     "label": "5",
     "rating": 1.3,
     "confidence": 79,
-    "rank": 38,
+    "rank": 39,
     "ratingGames": 21,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -14904,7 +14931,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 71,
-    "rank": 93,
+    "rank": 92,
     "ratingGames": 14,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.8
@@ -14927,7 +14954,7 @@
     "pid": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
     "name": "Alice Napolitano",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -15127,7 +15154,7 @@
     "label": "5",
     "rating": 1.4,
     "confidence": 52,
-    "rank": 37,
+    "rank": 38,
     "ratingGames": 7,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 1.6
@@ -16030,7 +16057,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 67,
-    "rank": 81,
+    "rank": 79,
     "ratingGames": 13,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.8
@@ -16452,7 +16479,7 @@
     "label": "5",
     "rating": 0.4,
     "confidence": 74,
-    "rank": 73,
+    "rank": 72,
     "ratingGames": 16,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.6
@@ -16883,7 +16910,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 72,
-    "rank": 53,
+    "rank": 51,
     "ratingGames": 19,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -17048,7 +17075,7 @@
     "confidence": 51,
     "rank": 23,
     "ratingGames": 6,
-    "strengthOfPartners": 1.4,
+    "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -17489,7 +17516,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 50,
-    "rank": 105,
+    "rank": 106,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1.4
@@ -17636,149 +17663,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": []
- },
- "788eac4e-f5a9-42f5-a1f2-69fc2f299678": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 110,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Rosalyn Goldsmith",
-     "Yi Gu"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Rebecca Lederman",
-    "vs": [
-     "Natasha De Carvalho",
-     "Michael Dombrowiecki"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Ryan Sherry",
-    "vs": [
-     "Michael Swell",
-     "Todd Gasparre"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Jill Lesnik",
-    "vs": [
-     "Natasha De Carvalho",
-     "Todd Gasparre"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Daniel Chernin",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Michael Swell"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 5,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Karan Pescatore",
-    "vs": [
-     "Eva Danieli",
-     "Todd Gasparre"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 0.4,
-    "confidence": 52,
-    "rank": 76,
-    "ratingGames": 6,
-    "strengthOfPartners": 2.3,
-    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -17940,9 +17824,9 @@
     "label": "5",
     "rating": 0.5,
     "confidence": 53,
-    "rank": 72,
+    "rank": 71,
     "ratingGames": 6,
-    "strengthOfPartners": -1.2,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.6
    }
   ],
@@ -18714,7 +18598,7 @@
     "t": "female",
     "with": "Natasha De Carvalho",
     "vs": [
-     "Jill Lesnik",
+     "Kelly Hanson Word",
      "Karan Pescatore"
     ],
     "f": 10,
@@ -18752,12 +18636,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 1.3,
+    "rating": 1.5,
     "confidence": 78,
-    "rank": 39,
+    "rank": 33,
     "ratingGames": 22,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -18771,13 +18655,13 @@
     "pid": "6f511e98-567a-4b33-8831-ed123f01f952",
     "name": "Amy Chrebet",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
     "name": "Eva Danieli",
     "n": 4,
-    "synergy": -1.3
+    "synergy": -1.2
    }
   ]
  },
@@ -19267,7 +19151,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 55,
-    "rank": 82,
+    "rank": 80,
     "ratingGames": 8,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": 0.4
@@ -19442,7 +19326,7 @@
     "label": "5",
     "rating": 0.5,
     "confidence": 58,
-    "rank": 70,
+    "rank": 69,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.8
@@ -19617,9 +19501,9 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -1.8,
+    "rating": -1.7,
     "confidence": 57,
-    "rank": 157,
+    "rank": 154,
     "ratingGames": 8,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.8
@@ -20111,7 +19995,7 @@
     "pid": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
     "name": "Michael Swell",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
@@ -20123,7 +20007,7 @@
     "pid": "d457bcf7-383d-4b25-a7a9-a456e5803087",
     "name": "Sarah Nazario",
     "n": 5,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -20454,9 +20338,9 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 68,
-    "rank": 101,
+    "rank": 100,
     "ratingGames": 13,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -20474,6 +20358,133 @@
     "synergy": 0
    }
   ]
+ },
+ "788eac4e-f5a9-42f5-a1f2-69fc2f299678": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 101,
+    "pa": 93,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Pescatore",
+    "vs": [
+     "Rosalyn Goldsmith",
+     "Yi Gu"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Rebecca Lederman",
+    "vs": [
+     "Natasha De Carvalho",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Ryan Sherry",
+    "vs": [
+     "Michael Swell",
+     "Todd Gasparre"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Jill Lesnik",
+    "vs": [
+     "Natasha De Carvalho",
+     "Todd Gasparre"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 5,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Daniel Chernin",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Michael Swell"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 49,
+    "rank": 81,
+    "ratingGames": 5,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
  },
  "ca6af12a-17d5-44b7-a137-49789e9eac2c": {
   "log": [
@@ -20602,7 +20613,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 48,
-    "rank": 83,
+    "rank": 82,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.2
@@ -21038,7 +21049,7 @@
     "with": "Eva Danieli",
     "vs": [
      "Rebecca Lederman",
-     "Kelly Hanson Word"
+     "Jill Lesnik"
     ],
     "f": 18,
     "a": 21,
@@ -21075,12 +21086,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 0.9,
+    "rating": 0.8,
     "confidence": 77,
-    "rank": 52,
+    "rank": 54,
     "ratingGames": 22,
     "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -21088,7 +21099,7 @@
     "pid": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
     "name": "Eva Danieli",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.7
    },
    {
     "pid": "6f511e98-567a-4b33-8831-ed123f01f952",
@@ -21100,13 +21111,13 @@
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 5,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "9f205d60-6056-482a-bcca-3dfdbacf1e8d",
     "name": "Todd Gasparre",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -21805,7 +21816,7 @@
     "label": "5",
     "rating": 1.2,
     "confidence": 71,
-    "rank": 42,
+    "rank": 41,
     "ratingGames": 14,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.2
@@ -22354,7 +22365,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 56,
-    "rank": 86,
+    "rank": 85,
     "ratingGames": 7,
     "strengthOfPartners": -1,
     "strengthOfOpponents": -0.9
@@ -22714,7 +22725,7 @@
     "label": "5",
     "rating": 0.6,
     "confidence": 51,
-    "rank": 68,
+    "rank": 67,
     "ratingGames": 7,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
@@ -23163,9 +23174,9 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 0.1,
+    "rating": 0,
     "confidence": 73,
-    "rank": 89,
+    "rank": 91,
     "ratingGames": 20,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.1
@@ -23182,13 +23193,13 @@
     "pid": "abe02688-e77f-414b-9747-25f3bdc149c7",
     "name": "Ann Betterton",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "902a9e2d-2ac4-4d19-9ae7-e945ece1da00",
     "name": "Jennifer Qian",
     "n": 6,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -23521,9 +23532,9 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -1.1,
+    "rating": -1,
     "confidence": 64,
-    "rank": 131,
+    "rank": 129,
     "ratingGames": 11,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
@@ -23534,7 +23545,7 @@
     "pid": "5384ac1d-574b-4fe8-9360-010e903e9ec0",
     "name": "Jorge Diaz",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "07a0e948-6308-4920-a6a8-1d5945552ecb",
@@ -23846,12 +23857,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 1.9,
+    "rating": 2,
     "confidence": 67,
-    "rank": 25,
+    "rank": 24,
     "ratingGames": 13,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -23865,7 +23876,7 @@
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.1
    }
   ]
  },
@@ -24180,7 +24191,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 69,
-    "rank": 46,
+    "rank": 47,
     "ratingGames": 13,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.3
@@ -24491,9 +24502,9 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 67,
-    "rank": 40,
+    "rank": 42,
     "ratingGames": 13,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.7
@@ -24504,7 +24515,7 @@
     "pid": "28330003-3125-4050-be9a-ddd726dccfe2",
     "name": "Mei Li",
     "n": 4,
-    "synergy": 1.4
+    "synergy": 1.5
    }
   ]
  },
@@ -24815,7 +24826,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 69,
-    "rank": 100,
+    "rank": 99,
     "ratingGames": 13,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0
@@ -25185,7 +25196,7 @@
     "label": "5",
     "rating": 2.2,
     "confidence": 68,
-    "rank": 19,
+    "rank": 20,
     "ratingGames": 14,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -25210,7 +25221,7 @@
     "l": 3,
     "gp": 6,
     "pf": 115,
-    "pa": 97,
+    "pa": 105,
     "mx": [
      1,
      2
@@ -25316,13 +25327,13 @@
     "wk": 5,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Karan Pescatore",
+    "with": "Rebecca Lederman",
     "vs": [
-     "Alice Napolitano",
-     "Natasha De Carvalho"
+     "Sarah Nazario",
+     "Eva Danieli"
     ],
     "f": 21,
-    "a": 10,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -25334,12 +25345,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 0.7,
-    "confidence": 50,
-    "rank": 60,
+    "rating": -0.3,
+    "confidence": 52,
+    "rank": 102,
     "ratingGames": 6,
     "strengthOfPartners": 2,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -25481,7 +25492,7 @@
     "label": "5",
     "rating": 1.5,
     "confidence": 53,
-    "rank": 34,
+    "rank": 35,
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.4
@@ -26146,7 +26157,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 52,
-    "rank": 87,
+    "rank": 86,
     "ratingGames": 6,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -26323,7 +26334,7 @@
     "label": "5",
     "rating": 0.1,
     "confidence": 52,
-    "rank": 91,
+    "rank": 90,
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.5
@@ -26678,12 +26689,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 2.1,
+    "rating": 2.3,
     "confidence": 73,
-    "rank": 21,
+    "rank": 16,
     "ratingGames": 16,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.1
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
@@ -26691,7 +26702,7 @@
     "pid": "972856ec-207d-4f89-9d97-6fda7c0e083b",
     "name": "Liangjie Zhu",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    }
   ]
  },
@@ -26863,7 +26874,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 56,
-    "rank": 85,
+    "rank": 84,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.2
@@ -27390,9 +27401,9 @@
     "label": "5",
     "rating": 0.5,
     "confidence": 78,
-    "rank": 69,
+    "rank": 68,
     "ratingGames": 24,
-    "strengthOfPartners": -0.8,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -27407,7 +27418,7 @@
     "pid": "38336cb3-6ff4-4187-abe5-3f0a819d0a0d",
     "name": "Picky Vorabouth",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "988636eb-4604-44d6-af70-2732b787ec2a",
@@ -27875,7 +27886,7 @@
     "pid": "dcc4f317-c0ad-4878-8540-d8aa3aa53d8a",
     "name": "Sam Zhou",
     "n": 4,
-    "synergy": 1.4
+    "synergy": 1.5
    },
    {
     "pid": "f9ac936e-7371-4ea9-8a97-7969635046fd",
@@ -27887,7 +27898,7 @@
     "pid": "902a9e2d-2ac4-4d19-9ae7-e945ece1da00",
     "name": "Jennifer Qian",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.2
    }
   ]
  },
@@ -28298,7 +28309,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 74,
-    "rank": 84,
+    "rank": 83,
     "ratingGames": 17,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.1
@@ -28309,7 +28320,7 @@
     "pid": "34618d40-6e62-4ab3-aa28-fc61c9ac1920",
     "name": "Liangang Liu",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "c218d668-b78a-4726-b2df-fe7730a50963",
@@ -28648,7 +28659,7 @@
     "label": "5",
     "rating": 0.4,
     "confidence": 69,
-    "rank": 74,
+    "rank": 73,
     "ratingGames": 13,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.5
@@ -29012,7 +29023,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 69,
-    "rank": 54,
+    "rank": 52,
     "ratingGames": 13,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.1
@@ -29784,7 +29795,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 78,
-    "rank": 78,
+    "rank": 76,
     "ratingGames": 20,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.5
@@ -30186,11 +30197,11 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.6,
+    "rating": -0.5,
     "confidence": 71,
-    "rank": 111,
+    "rank": 108,
     "ratingGames": 16,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -30205,13 +30216,13 @@
     "pid": "28330003-3125-4050-be9a-ddd726dccfe2",
     "name": "Mei Li",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "34618d40-6e62-4ab3-aa28-fc61c9ac1920",
     "name": "Liangang Liu",
     "n": 6,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -30543,7 +30554,7 @@
     "label": "5",
     "rating": 0.1,
     "confidence": 70,
-    "rank": 90,
+    "rank": 89,
     "ratingGames": 14,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -31011,18 +31022,14 @@
     "with": "Eva Danieli",
     "vs": [
      "Karan Pescatore",
-     "Christopher Krecke"
+     "Emil Pescatore"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -31041,12 +31048,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 1,
+    "rating": 0.8,
     "confidence": 68,
-    "rank": 51,
+    "rank": 56,
     "ratingGames": 12,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -31054,7 +31061,7 @@
     "pid": "d457bcf7-383d-4b25-a7a9-a456e5803087",
     "name": "Sarah Nazario",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -31310,7 +31317,7 @@
     "t": "female",
     "with": "Alice Napolitano",
     "vs": [
-     "Jill Lesnik",
+     "Kelly Hanson Word",
      "Karan Pescatore"
     ],
     "f": 10,
@@ -31338,8 +31345,8 @@
     "seq": 4,
     "label": "5",
     "rating": 0.3,
-    "confidence": 68,
-    "rank": 80,
+    "confidence": 69,
+    "rank": 78,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.9
@@ -31736,11 +31743,11 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 0,
+    "rating": 0.1,
     "confidence": 74,
-    "rank": 92,
+    "rank": 88,
     "ratingGames": 17,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0,
     "strengthOfOpponents": 0
    }
   ],
@@ -32171,7 +32178,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 74,
-    "rank": 170,
+    "rank": 169,
     "ratingGames": 17,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -1
@@ -32300,9 +32307,9 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 48,
-    "rank": 88,
+    "rank": 87,
     "ratingGames": 5,
-    "strengthOfPartners": -0.6,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0
    }
   ],
@@ -32447,7 +32454,7 @@
     "label": "5",
     "rating": -0.6,
     "confidence": 48,
-    "rank": 113,
+    "rank": 115,
     "ratingGames": 5,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.5
@@ -32769,7 +32776,7 @@
     "pid": "74e493de-dca7-4bf2-b9ac-630484282502",
     "name": "Amy Johnson",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "6bfc3a49-53cb-4c03-b8cb-94552158ccbe",
@@ -33549,7 +33556,7 @@
     "label": "5",
     "rating": -0.7,
     "confidence": 77,
-    "rank": 114,
+    "rank": 116,
     "ratingGames": 20,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.5
@@ -34669,12 +34676,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.3,
+    "rating": -0.2,
     "confidence": 70,
-    "rank": 99,
+    "rank": 95,
     "ratingGames": 13,
     "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -35570,12 +35577,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.5,
+    "rating": -0.4,
     "confidence": 76,
-    "rank": 107,
+    "rank": 104,
     "ratingGames": 19,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -36958,18 +36965,14 @@
     "with": "Todd Gasparre",
     "vs": [
      "Karan Pescatore",
-     "Christopher Krecke"
+     "Emil Pescatore"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -36978,7 +36981,7 @@
     "with": "Sarah Nazario",
     "vs": [
      "Rebecca Lederman",
-     "Kelly Hanson Word"
+     "Jill Lesnik"
     ],
     "f": 18,
     "a": 21,
@@ -37015,9 +37018,9 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.5,
+    "rating": -0.6,
     "confidence": 71,
-    "rank": 108,
+    "rank": 112,
     "ratingGames": 15,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.3
@@ -37028,13 +37031,13 @@
     "pid": "d457bcf7-383d-4b25-a7a9-a456e5803087",
     "name": "Sarah Nazario",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.7
    },
    {
     "pid": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
     "name": "Alice Napolitano",
     "n": 4,
-    "synergy": -1.3
+    "synergy": -1.2
    }
   ]
  },
@@ -37324,7 +37327,7 @@
     "label": "5",
     "rating": 0.4,
     "confidence": 50,
-    "rank": 77,
+    "rank": 75,
     "ratingGames": 6,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.1
@@ -37481,7 +37484,7 @@
     "rank": 134,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -37765,12 +37768,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -1.6,
+    "rating": -1.8,
     "confidence": 66,
-    "rank": 150,
+    "rank": 156,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.8
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -38225,7 +38228,7 @@
     "label": "5",
     "rating": -0.5,
     "confidence": 77,
-    "rank": 106,
+    "rank": 107,
     "ratingGames": 19,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.8
@@ -38550,7 +38553,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 63,
-    "rank": 171,
+    "rank": 170,
     "ratingGames": 10,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.7
@@ -40214,7 +40217,7 @@
     "label": "5",
     "rating": -1.6,
     "confidence": 42,
-    "rank": 152,
+    "rank": 151,
     "ratingGames": 4,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.1
@@ -40780,12 +40783,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": 1.1,
+    "rating": 1.2,
     "confidence": 54,
-    "rank": 47,
+    "rank": 45,
     "ratingGames": 8,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 2.3
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 2.4
    }
   ],
   "partners": []
@@ -41417,7 +41420,7 @@
     "label": "5",
     "rating": -0.6,
     "confidence": 68,
-    "rank": 112,
+    "rank": 114,
     "ratingGames": 12,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.9
@@ -41805,7 +41808,7 @@
     "label": "5",
     "rating": -1.1,
     "confidence": 73,
-    "rank": 130,
+    "rank": 131,
     "ratingGames": 16,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.4
@@ -42131,7 +42134,7 @@
     "label": "5",
     "rating": -0.2,
     "confidence": 70,
-    "rank": 95,
+    "rank": 94,
     "ratingGames": 13,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.4
@@ -42449,7 +42452,7 @@
     "rank": 173,
     "ratingGames": 13,
     "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -43312,7 +43315,7 @@
     "label": "5",
     "rating": -1.7,
     "confidence": 71,
-    "rank": 153,
+    "rank": 152,
     "ratingGames": 14,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.8
@@ -43956,7 +43959,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 46,
-    "rank": 102,
+    "rank": 103,
     "ratingGames": 5,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.1
@@ -44900,7 +44903,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 77,
-    "rank": 79,
+    "rank": 77,
     "ratingGames": 20,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.7
@@ -45194,7 +45197,7 @@
     "rank": 174,
     "ratingGames": 11,
     "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -45202,7 +45205,7 @@
     "pid": "88bcb8e1-970f-4535-bec1-beb232f1f77a",
     "name": "Nancy Lin",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1.2
    }
   ]
  },
@@ -45830,11 +45833,11 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -2.4,
+    "rating": -2.5,
     "confidence": 50,
     "rank": 168,
     "ratingGames": 6,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -45999,12 +46002,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.4,
-    "confidence": 54,
-    "rank": 103,
+    "rating": -0.3,
+    "confidence": 55,
+    "rank": 101,
     "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 1.7
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -46317,9 +46320,9 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 52,
-    "rank": 104,
+    "rank": 105,
     "ratingGames": 6,
-    "strengthOfPartners": -1.8,
+    "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -47097,11 +47100,11 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -2.2,
+    "rating": -2.3,
     "confidence": 69,
     "rank": 165,
     "ratingGames": 12,
-    "strengthOfPartners": -1.7,
+    "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -47110,7 +47113,7 @@
     "pid": "b1a0876c-0702-497d-95a4-5a8a894ff2d5",
     "name": "John Ficarra",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1.2
    }
   ]
  },
@@ -47605,7 +47608,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 56,
-    "rank": 94,
+    "rank": 93,
     "ratingGames": 7,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 2
@@ -48161,12 +48164,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.7,
-    "confidence": 57,
-    "rank": 119,
+    "rating": -0.5,
+    "confidence": 56,
+    "rank": 110,
     "ratingGames": 8,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1.9
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 2.1
    }
   ],
   "partners": []
@@ -48590,7 +48593,7 @@
     "label": "5",
     "rating": -1.8,
     "confidence": 59,
-    "rank": 156,
+    "rank": 157,
     "ratingGames": 8,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0.4
@@ -49075,7 +49078,7 @@
     "label": "5",
     "rating": -0.7,
     "confidence": 65,
-    "rank": 118,
+    "rank": 119,
     "ratingGames": 11,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.4
@@ -49363,7 +49366,7 @@
     "label": "5",
     "rating": -0.7,
     "confidence": 70,
-    "rank": 116,
+    "rank": 118,
     "ratingGames": 12,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 1.2
@@ -49653,7 +49656,7 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -3.5,
+    "rating": -3.4,
     "confidence": 69,
     "rank": 179,
     "ratingGames": 12,
@@ -50361,7 +50364,7 @@
     "rank": 127,
     "ratingGames": 15,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.6
+    "strengthOfOpponents": 1.7
    }
   ],
   "partners": [
@@ -51079,7 +51082,7 @@
     "label": "5",
     "rating": -1.6,
     "confidence": 43,
-    "rank": 151,
+    "rank": 150,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.1
@@ -51216,8 +51219,8 @@
     "confidence": 37,
     "rank": 163,
     "ratingGames": 4,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []
@@ -51491,7 +51494,7 @@
     "label": "5",
     "rating": -0.5,
     "confidence": 51,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 6,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 2
@@ -51649,7 +51652,7 @@
     "label": "5",
     "rating": -1,
     "confidence": 52,
-    "rank": 129,
+    "rank": 130,
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 2
@@ -52107,12 +52110,12 @@
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -2.5,
+    "rating": -2.6,
     "confidence": 47,
-    "rank": 169,
+    "rank": 172,
     "ratingGames": 5,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 2
+    "strengthOfOpponents": 1.9
    }
   ],
   "partners": []
@@ -52806,7 +52809,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 58,
-    "rank": 172,
+    "rank": 171,
     "ratingGames": 7,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.3
@@ -53149,7 +53152,7 @@
     "label": "5",
     "rating": -1.7,
     "confidence": 70,
-    "rank": 154,
+    "rank": 153,
     "ratingGames": 13,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.5

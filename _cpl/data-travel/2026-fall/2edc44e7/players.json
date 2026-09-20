@@ -136,7 +136,7 @@
       "mixedLosses": 1,
       "genderWins": 5,
       "genderLosses": 5,
-      "ranking": 46
+      "ranking": 47
     },
     {
       "playerId": "0640ecce-0b14-4eac-9cbd-be86592d6102",
@@ -274,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 2,
-      "ranking": 70
+      "ranking": 69
     },
     {
       "playerId": "0a36460a-ac00-4501-8a7f-9b217bfbddc7",
@@ -389,7 +389,7 @@
       "mixedLosses": 3,
       "genderWins": 4,
       "genderLosses": 0,
-      "ranking": 52
+      "ranking": 51
     },
     {
       "playerId": "14fc7872-1e6f-419e-adcb-d8e63826a37d",
@@ -504,7 +504,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 0,
-      "ranking": 2
+      "ranking": 3
     },
     {
       "playerId": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
@@ -516,18 +516,18 @@
       "isSub": false,
       "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "teamName": "Pickleball Palace",
-      "wins": 9,
+      "wins": 10,
       "losses": 3,
-      "gamesPlayed": 12,
-      "pointsWon": 235,
-      "totalPointsAgainst": 213,
+      "gamesPlayed": 13,
+      "pointsWon": 256,
+      "totalPointsAgainst": 230,
       "clutchWins": 4,
       "clutchLosses": 0,
-      "mixedWins": 4,
+      "mixedWins": 5,
       "mixedLosses": 1,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 47
+      "ranking": 43
     },
     {
       "playerId": "1e11f6a0-d704-4404-91c8-f8a6ac9b7383",
@@ -934,14 +934,14 @@
       "losses": 3,
       "gamesPlayed": 6,
       "pointsWon": 115,
-      "totalPointsAgainst": 97,
+      "totalPointsAgainst": 105,
       "clutchWins": 1,
       "clutchLosses": 2,
       "mixedWins": 1,
       "mixedLosses": 2,
       "genderWins": 2,
       "genderLosses": 1,
-      "ranking": 67
+      "ranking": 75
     },
     {
       "playerId": "34618d40-6e62-4ab3-aa28-fc61c9ac1920",
@@ -964,7 +964,7 @@
       "mixedLosses": 7,
       "genderWins": 7,
       "genderLosses": 2,
-      "ranking": 72
+      "ranking": 71
     },
     {
       "playerId": "36927aca-827a-4408-ab82-9dc0d06e2c8d",
@@ -1907,7 +1907,7 @@
       "mixedLosses": 2,
       "genderWins": 3,
       "genderLosses": 0,
-      "ranking": 75
+      "ranking": 74
     },
     {
       "playerId": "6b3f649d-2418-4136-b045-4795d55e643d",
@@ -2091,7 +2091,7 @@
       "mixedLosses": 2,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 44
+      "ranking": 45
     },
     {
       "playerId": "7021e97f-1e5e-4adb-ac80-1a9c919caba6",
@@ -2160,7 +2160,7 @@
       "mixedLosses": 4,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 71
+      "ranking": 70
     },
     {
       "playerId": "753dcbff-f1a6-4fb1-97bf-2f76e08df8b9",
@@ -2310,18 +2310,18 @@
       "isSub": true,
       "teamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "teamName": "Pickleball Palace",
-      "wins": 4,
+      "wins": 3,
       "losses": 2,
-      "gamesPlayed": 6,
-      "pointsWon": 122,
-      "totalPointsAgainst": 110,
+      "gamesPlayed": 5,
+      "pointsWon": 101,
+      "totalPointsAgainst": 93,
       "clutchWins": 1,
       "clutchLosses": 2,
-      "mixedWins": 3,
+      "mixedWins": 2,
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 1,
-      "ranking": 49
+      "ranking": 56
     },
     {
       "playerId": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
@@ -3517,7 +3517,7 @@
       "mixedLosses": 2,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 51
+      "ranking": 50
     },
     {
       "playerId": "b8ecc741-4ae9-4e26-b199-497d34dac2b9",
@@ -3609,7 +3609,7 @@
       "mixedLosses": 2,
       "genderWins": 3,
       "genderLosses": 0,
-      "ranking": 68
+      "ranking": 67
     },
     {
       "playerId": "c16d16f0-3cc1-4c9d-8bfb-98615ffeaacd",
@@ -3793,7 +3793,7 @@
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 1,
-      "ranking": 55
+      "ranking": 53
     },
     {
       "playerId": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 0,
-      "ranking": 3
+      "ranking": 2
     },
     {
       "playerId": "cb93ea73-1422-4b53-9665-41182caba8c8",
@@ -4069,7 +4069,7 @@
       "mixedLosses": 1,
       "genderWins": 5,
       "genderLosses": 7,
-      "ranking": 56
+      "ranking": 55
     },
     {
       "playerId": "d5aa92c7-71df-47c7-84fb-6710e1ed81e2",
@@ -4230,7 +4230,7 @@
       "mixedLosses": 2,
       "genderWins": 4,
       "genderLosses": 2,
-      "ranking": 50
+      "ranking": 49
     },
     {
       "playerId": "dcc4f317-c0ad-4878-8540-d8aa3aa53d8a",
@@ -4253,7 +4253,7 @@
       "mixedLosses": 3,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 74
+      "ranking": 73
     },
     {
       "playerId": "dd30bbd2-24c2-431a-8b21-2de326c75ab3",
@@ -4276,7 +4276,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 5,
-      "ranking": 53
+      "ranking": 52
     },
     {
       "playerId": "de318a9b-7e48-41ed-ba22-e06fe8e1f894",
@@ -4368,7 +4368,7 @@
       "mixedLosses": 2,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 69
+      "ranking": 68
     },
     {
       "playerId": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
@@ -4414,7 +4414,7 @@
       "mixedLosses": 3,
       "genderWins": 4,
       "genderLosses": 0,
-      "ranking": 73
+      "ranking": 72
     },
     {
       "playerId": "e3a89681-1dac-4f6e-8982-2245996406e6",
@@ -4591,7 +4591,7 @@
       "losses": 3,
       "gamesPlayed": 14,
       "pointsWon": 282,
-      "totalPointsAgainst": 222,
+      "totalPointsAgainst": 214,
       "clutchWins": 2,
       "clutchLosses": 2,
       "mixedWins": 3,
@@ -4828,7 +4828,7 @@
       "mixedLosses": 4,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 43
+      "ranking": 44
     },
     {
       "playerId": "fa28fec9-9eff-4831-912d-4180f8760eeb",
@@ -4874,7 +4874,7 @@
       "mixedLosses": 2,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 45
+      "ranking": 46
     },
     {
       "playerId": "fd596225-797e-4125-876b-633dae2efc65",

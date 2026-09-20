@@ -137,9 +137,9 @@
       "weekNumber": 5,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 665,
+      "awayPoints": 527,
+      "endResult": "home",
       "scheduledTime": "2026-09-19T12:00:00",
       "homeName": "Pickleball Palace",
       "awayName": "Jersey Pickleball Club"

@@ -1,4 +1,5 @@
 window.DUPR_RATINGS = {
+ "00092e4b-b019-43ae-bfef-503e1fc6f657": {"rating":5.083,"numericId":8093490470,"provisional":false},
  "02ac193a-6e5d-4859-80bf-c8c25a89c1c8": {"rating":4.216,"numericId":5902560070,"provisional":false},
  "03a4e22a-6242-459c-8120-58d0650413a9": {"rating":4.726,"numericId":6528420358,"provisional":false},
  "03c7bdf6-926c-4d90-9416-117cd3478b50": {"rating":4.632,"numericId":8114014016,"provisional":false},

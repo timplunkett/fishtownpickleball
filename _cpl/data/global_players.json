@@ -38712,7 +38712,7 @@
     "lastName": "McGee",
     "dupr": "4LEDJG",
     "duprRating": "3.956",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 4948894578,
     "duprProvisional": false
   },
@@ -46519,6 +46519,14 @@
     "firstName": "BARBARA",
     "lastName": "BROSSOK",
     "dupr": "2Y5KY9",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "39aae561-e09c-4f74-873b-2b5a36c15d05",
+    "firstName": "Lydia",
+    "lastName": "Madrilejos",
+    "dupr": "ZWO9GQ",
     "duprRating": null,
     "lastSeen": "2026-09"
   }
