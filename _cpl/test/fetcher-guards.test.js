@@ -146,7 +146,7 @@ test('assertArrayShape rejects a renamed envelope instead of silently yielding [
 // ---------------------------------------------------------------------------
 
 const {
-  assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch,
+  assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch, mergeGlobalPlayers,
 } = require('../modules/fetcher');
 
 const FALL_2026 = { seasonNumber: 3, seasonYear: 2026 };
@@ -227,4 +227,80 @@ test('a --season slug that names no season matches nothing, for the caller to re
 test('a league with nothing current fetches nothing rather than the newest archive', () => {
   const allArchived = RESOLVED.map((season) => ({ ...season, status: 'archived' }));
   assert.deepEqual(selectSeasonsToFetch('travel', allArchived, null), []);
+});
+
+// ---------------------------------------------------------------------------
+// global_players.json merge
+//
+// This is what decides whether the CPL Data Refresh workflow triggers a DUPR
+// fetch for a run that just added a new player (see update-data.yml's
+// "Fetch DUPR ratings for new players" step and run-pipeline.js's
+// NEW_PLAYER_COUNT line) — a wrong count here either skips rating a real new
+// player or fetches DUPR needlessly on every run.
+// ---------------------------------------------------------------------------
+
+const STAMP = '2026-09';
+
+test('mergeGlobalPlayers counts a player not already on file as new', () => {
+  const { merged, newPlayerCount } = mergeGlobalPlayers(
+    [],
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'abc123' }],
+    STAMP,
+  );
+  assert.equal(newPlayerCount, 1);
+  assert.deepEqual(merged, [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'abc123', duprRating: null, lastSeen: STAMP,
+  }]);
+});
+
+test('mergeGlobalPlayers does not count an existing player as new, and preserves duprRating', () => {
+  const existing = [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'abc123', duprRating: 4.1, lastSeen: '2026-01',
+  }];
+  const { merged, newPlayerCount } = mergeGlobalPlayers(
+    existing,
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'abc123' }],
+    STAMP,
+  );
+  assert.equal(newPlayerCount, 0, 'a player already on file is not new, even on a plain re-fetch');
+  assert.deepEqual(merged, [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'abc123', duprRating: 4.1, lastSeen: STAMP,
+  }]);
+});
+
+test('mergeGlobalPlayers counts only the players actually new, in a mixed batch', () => {
+  const existing = [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: null, duprRating: 4.1, lastSeen: '2026-01',
+  }];
+  const { merged, newPlayerCount } = mergeGlobalPlayers(
+    existing,
+    [
+      { playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: null },
+      { playerId: 'p2', firstName: 'Bo', lastName: 'Diaz', dupr: null },
+    ],
+    STAMP,
+  );
+  assert.equal(newPlayerCount, 1);
+  assert.equal(merged.length, 2);
+  const p2 = merged.find((p) => p.playerId === 'p2');
+  assert.equal(p2.duprRating, null, 'a brand-new player always starts unrated');
+});
+
+test('mergeGlobalPlayers preserves entries the current run never saw (other leagues, prior runs)', () => {
+  const existing = [
+    { playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: null, duprRating: 4.1, lastSeen: '2026-01' },
+  ];
+  const { merged, newPlayerCount } = mergeGlobalPlayers(existing, [], STAMP);
+  assert.equal(newPlayerCount, 0);
+  assert.deepEqual(merged, existing);
+});
+
+test('mergeGlobalPlayers skips rows with no playerId on either side', () => {
+  const { merged, newPlayerCount } = mergeGlobalPlayers(
+    [{ firstName: 'No', lastName: 'Id' }],
+    [{ firstName: 'Also', lastName: 'NoId' }],
+    STAMP,
+  );
+  assert.equal(newPlayerCount, 0);
+  assert.deepEqual(merged, []);
 });

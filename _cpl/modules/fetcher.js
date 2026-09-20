@@ -444,6 +444,43 @@ async function fetchSeasonRecords(apiBases) {
   return [...byKey.values()];
 }
 
+// Pure merge step for global_players.json, pulled out of
+// downloadLatestApiData so it can be unit-tested without touching the
+// filesystem or the network. Existing entries (from other leagues or prior
+// runs) and any already-fetched duprRating are preserved; a player not
+// already in `existing` is new and always starts with duprRating: null.
+// newPlayerCount is what run-pipeline.js uses to decide whether this run
+// needs to trigger a DUPR fetch afterward — otherwise a genuinely new player
+// would sit unrated until the next weekly update-dupr.yml cron.
+function mergeGlobalPlayers(existing, newPlayers, seenStamp) {
+  const existingMap = {};
+  for (const p of existing || []) {
+    if (p.playerId) existingMap[p.playerId] = p;
+  }
+  let newPlayerCount = 0;
+  for (const p of newPlayers || []) {
+    if (!p.playerId) continue;
+    if (existingMap[p.playerId]) {
+      // Update identity + dupr fields but preserve any fetched duprRating.
+      existingMap[p.playerId].firstName = p.firstName;
+      existingMap[p.playerId].lastName = p.lastName;
+      existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
+      existingMap[p.playerId].lastSeen = seenStamp;
+    } else {
+      existingMap[p.playerId] = {
+        playerId: p.playerId,
+        firstName: p.firstName,
+        lastName: p.lastName,
+        dupr: p.dupr || null,
+        duprRating: null,
+        lastSeen: seenStamp,
+      };
+      newPlayerCount++;
+    }
+  }
+  return { merged: Object.values(existingMap), newPlayerCount };
+}
+
 // Additive on purpose. The cached seasons.json is the index of the archive, and
 // an archived season's directory is only reachable through it — so a season
 // upstream stops listing (a retention window, a renumbering, a bad deploy) must
@@ -697,18 +734,12 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
 
   // Merge new players into global_players.json non-destructively.
   // Existing entries (from other leagues or prior runs) and duprRating values are preserved.
+  let newPlayerCount = 0;
   if (allPlayersFlat.length > 0) {
     const globalPlayersFile = path.join(__dirname, '..', 'data', 'global_players.json');
     const existing = fs.existsSync(globalPlayersFile)
       ? JSON.parse(fs.readFileSync(globalPlayersFile, 'utf-8'))
       : [];
-    const existingMap = {};
-    for (const p of existing) {
-      if (p.playerId) existingMap[p.playerId] = p;
-    }
-    // Stamp every player seen in this run so stale entries (players who left
-    // the league seasons ago) can eventually be pruned by lastSeen date.
-    //
     // Precision is year-month, not year-month-day: every "due" run re-pulls
     // the full roster of each active division, so day precision stamped
     // nearly every currently-active player's lastSeen every single day —
@@ -718,26 +749,8 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
     // precision keeps that signal while cutting the diff to once a month per
     // player instead of once a day.
     const seenStamp = new Date().toISOString().slice(0, 7);
-    for (const p of allPlayersFlat) {
-      if (!p.playerId) continue;
-      if (existingMap[p.playerId]) {
-        // Update identity + dupr fields but preserve any fetched duprRating.
-        existingMap[p.playerId].firstName = p.firstName;
-        existingMap[p.playerId].lastName = p.lastName;
-        existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
-        existingMap[p.playerId].lastSeen = seenStamp;
-      } else {
-        existingMap[p.playerId] = {
-          playerId: p.playerId,
-          firstName: p.firstName,
-          lastName: p.lastName,
-          dupr: p.dupr || null,
-          duprRating: null,
-          lastSeen: seenStamp,
-        };
-      }
-    }
-    const merged = Object.values(existingMap);
+    const { merged, newPlayerCount: mergedNewPlayerCount } = mergeGlobalPlayers(existing, allPlayersFlat, seenStamp);
+    newPlayerCount = mergedNewPlayerCount;
     const globalDataDir = path.join(__dirname, '..', 'data');
     if (!fs.existsSync(globalDataDir)) fs.mkdirSync(globalDataDir, { recursive: true });
     fs.writeFileSync(globalPlayersFile, jsonStringify(merged));
@@ -757,6 +770,7 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
       slug: div.slug,
       name: `${formatDivisionLabel(div)}${div.divisionName || div.slug}`,
     })),
+    newPlayerCount,
   };
 }
 
@@ -843,4 +857,5 @@ module.exports = {
   slimMatchups, slimPlayoffMatchups, compareMatchups, slimMatchupDetails,
   assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
+  mergeGlobalPlayers,
 };

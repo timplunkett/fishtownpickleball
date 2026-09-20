@@ -108,6 +108,7 @@ async function runPipeline(league, options) {
     // run-pipeline.js's main()) wants to report.
     matchedDivisions: fetchResult?.matchedDivisions || [],
     matchedSeasonSlugs: fetchResult?.matchedSeasonSlugs || [],
+    newPlayerCount: fetchResult?.newPlayerCount || 0,
   };
 }
 
@@ -120,6 +121,7 @@ async function main() {
   const matchedSeasonSlugs = [];
   const asOfBySlug = new Map();
   const ratingsBySlug = new Map();
+  let newPlayerCount = 0;
 
   for (const league of leagues) {
     try {
@@ -128,6 +130,7 @@ async function main() {
       matchedSlugs.push(...result.matchedSlugs);
       matchedDivisions.push(...result.matchedDivisions);
       matchedSeasonSlugs.push(...result.matchedSeasonSlugs);
+      newPlayerCount += result.newPlayerCount || 0;
       for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
       for (const [key, value] of result.ratingsBySlug) ratingsBySlug.set(key, value);
     } catch (err) {
@@ -147,6 +150,16 @@ async function main() {
     console.log(`\nDivisions built: ${divisionNames.join(', ')}`);
   }
   console.log(`DIVISIONS_BUILT_JSON=${JSON.stringify(divisionNames)}`);
+
+  // Same greppable-line pattern as DIVISIONS_BUILT_JSON above, so the workflow
+  // can decide whether to run a DUPR fetch afterward without re-reading
+  // global_players.json itself. A brand-new player always lands with
+  // duprRating: null (see fetcher.js), so left alone they'd sit unrated on the
+  // site until the next weekly update-dupr.yml cron.
+  if (newPlayerCount > 0) {
+    console.log(`\n${newPlayerCount} new player(s) added to global_players.json.`);
+  }
+  console.log(`NEW_PLAYER_COUNT=${newPlayerCount}`);
 
   // A typo'd --division slug would otherwise fetch and compile nothing while
   // still exiting 0, which reads as "the data is up to date".

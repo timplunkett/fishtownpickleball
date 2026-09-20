@@ -79,6 +79,12 @@ jobs:
           # re-derive it from the divisions.json manifests.
           DIVISIONS_JSON=$(grep '^DIVISIONS_BUILT_JSON=' pipeline.log | tail -1 | sed 's/^DIVISIONS_BUILT_JSON=//' || true)
           echo "divisions_json=${DIVISIONS_JSON:-[]}" >> "$GITHUB_OUTPUT"
+          # Same greppable-line pattern, used below to decide whether a new
+          # player needs a DUPR rating before this run's data is committed —
+          # otherwise they'd sit unrated until the next weekly update-dupr.yml
+          # cron (see run-pipeline.js's main()).
+          NEW_PLAYER_COUNT=$(grep '^NEW_PLAYER_COUNT=' pipeline.log | tail -1 | sed 's/^NEW_PLAYER_COUNT=//' || true)
+          echo "new_player_count=${NEW_PLAYER_COUNT:-0}" >> "$GITHUB_OUTPUT"
           exit "${PIPELINE_EXIT}"
 
       # ci.yml has an equivalent check ("Check committed output matches a
@@ -95,6 +101,29 @@ jobs:
       # pass/fail gate: whatever compile.js emits here is what gets committed.
       - name: Recompile in full
         run: node _cpl/compile.js
+
+      # A brand-new player always lands in global_players.json with
+      # duprRating: null (fetcher.js), so without this they'd show up unrated
+      # on the site until update-dupr.yml's own Monday cron caught up — days
+      # later for a Tuesday signup. No --bypass-cache (unlike update-dupr.yml):
+      # shouldFetchPlayer() already re-fetches anyone with duprRating == null,
+      # which is exactly (and only) the new players this run just added, so
+      # this step never re-hits the DUPR API for players who were already
+      # rated. Invoked directly rather than via `npm run dupr:fetch` because
+      # that script's `--env-file=.env` is for local runs only — CI has no
+      # .env file and passes the secret through the environment instead, the
+      # same way update-dupr.yml's own step does.
+      - name: Fetch DUPR ratings for new players
+        id: dupr_fetch
+        if: steps.pipeline.outputs.new_player_count != '0'
+        # Same reasoning as the pipeline step above: a DUPR-side hiccup (rate
+        # limit, expired token) must not block the division data this run
+        # already fetched from getting committed. Continue, then fail the run
+        # afterward.
+        continue-on-error: true
+        run: node _cpl/fetch-dupr.js
+        env:
+          DUPR_ACCESS_TOKEN: ${{ secrets.DUPR_ACCESS_TOKEN }}
 
       - name: Commit and Push changes
         env:
@@ -140,6 +169,12 @@ jobs:
         if: steps.pipeline.outcome == 'failure'
         run: |
           echo "::error::The CPL pipeline reported failed divisions — see the pipeline step log."
+          exit 1
+
+      - name: Fail run if DUPR fetch for new players failed
+        if: steps.dupr_fetch.outcome == 'failure'
+        run: |
+          echo "::error::Fetching DUPR ratings for new players failed — see the 'Fetch DUPR ratings for new players' step log. The data refresh itself was still committed."
           exit 1
 
       # Dead man's switch. An `if: failure()` notification can only fire when a
