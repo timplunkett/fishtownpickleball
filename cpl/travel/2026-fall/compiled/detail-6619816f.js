@@ -1,318 +1,5 @@
 (function () {
   const DETAILS = {
- "27908231-74bb-4956-adc4-5429e16e55ea": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 90,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 96,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "mixed",
-    "with": "Sidd Pathare",
-    "vs": [
-     "Sophia Kaufmann",
-     "Shreyas Pani"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "female",
-    "with": "Gissel Escalante",
-    "vs": [
-     "Richa Shah",
-     "Ruhi Shah"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "mixed",
-    "with": "Sidd Pathare",
-    "vs": [
-     "Richa Shah",
-     "Dilan Shah"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "female",
-    "with": "Gissel Escalante",
-    "vs": [
-     "Ruhi Shah",
-     "Morgan Fishman"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "female",
-    "with": "Ally Yan",
-    "vs": [
-     "Richa Shah",
-     "Angela Luo"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Monroe",
-    "t": "female",
-    "with": "Amy Yan",
-    "vs": [
-     "Morgan Fishman",
-     "Angela Luo"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Hruday Vemparala",
-    "vs": [
-     "Joey Angelson",
-     "Matt Schall"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Anisha Malhotra",
-    "vs": [
-     "Catherine Stewart",
-     "Adrienne Butrymowicz"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Jenna Irwin",
-    "vs": [
-     "Tin Wai Kwan",
-     "Adrienne Butrymowicz"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Hruday Vemparala",
-    "vs": [
-     "Adrienne Butrymowicz",
-     "Sebastian Ferrer"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Meghan Mediratta",
-    "vs": [
-     "Tin Wai Kwan",
-     "Catherine Stewart"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Pickleball Club",
-    "t": "female",
-    "with": "Anisha Malhotra",
-    "vs": [
-     "Tin Wai Kwan",
-     "Catherine Stewart"
-    ],
-    "f": 28,
-    "a": 26,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 2.5,
-    "confidence": 48,
-    "rank": 3,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 2.9,
-    "confidence": 51,
-    "rank": 3,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 3.2,
-    "confidence": 68,
-    "rank": 5,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 3.3,
-    "confidence": 69,
-    "rank": 4,
-    "ratingGames": 12,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
  "fff3fe71-d4a6-4103-9290-0ef57035471c": {
   "log": [
    {
@@ -4067,7 +3754,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Tin Wai Kwan",
      "Catherine Stewart"
@@ -5045,7 +4732,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "mixed",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Joey Angelson",
      "Matt Schall"
@@ -5109,7 +4796,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "mixed",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Adrienne Butrymowicz",
      "Sebastian Ferrer"
@@ -14188,7 +13875,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Tin Wai Kwan",
      "Adrienne Butrymowicz"
@@ -14978,7 +14665,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Richa Shah",
      "Ruhi Shah"
@@ -14994,7 +14681,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Ruhi Shah",
      "Morgan Fishman"
@@ -17250,7 +16937,7 @@
     "with": "Richa Shah",
     "vs": [
      "Gissel Escalante",
-     "Jaime Luongo"
+     ""
     ],
     "f": 7,
     "a": 21,
@@ -17286,7 +16973,7 @@
     "with": "Morgan Fishman",
     "vs": [
      "Gissel Escalante",
-     "Jaime Luongo"
+     ""
     ],
     "f": 16,
     "a": 21,
@@ -20523,7 +20210,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Richa Shah",
      "Angela Luo"
@@ -21546,7 +21233,7 @@
     "t": "female",
     "with": "Adrienne Butrymowicz",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Jenna Irwin"
     ],
     "f": 12,
@@ -21578,7 +21265,7 @@
     "t": "female",
     "with": "Catherine Stewart",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Meghan Mediratta"
     ],
     "f": 20,
@@ -21610,7 +21297,7 @@
     "t": "female",
     "with": "Catherine Stewart",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Anisha Malhotra"
     ],
     "f": 26,
@@ -21806,7 +21493,7 @@
     "t": "mixed",
     "with": "Sophia Kaufmann",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Sidd Pathare"
     ],
     "f": 13,
@@ -29376,7 +29063,7 @@
     "t": "mixed",
     "with": "Joey Angelson",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Hruday Vemparala"
     ],
     "f": 15,
@@ -33065,7 +32752,7 @@
     "with": "Ruhi Shah",
     "vs": [
      "Gissel Escalante",
-     "Jaime Luongo"
+     ""
     ],
     "f": 7,
     "a": 21,
@@ -33084,7 +32771,7 @@
     "t": "mixed",
     "with": "Dilan Shah",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Sidd Pathare"
     ],
     "f": 19,
@@ -33120,7 +32807,7 @@
     "t": "female",
     "with": "Angela Luo",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Ally Yan"
     ],
     "f": 19,
@@ -40675,7 +40362,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Catherine Stewart",
      "Adrienne Butrymowicz"
@@ -40759,7 +40446,7 @@
     "wk": 3,
     "opp": "Jersey Pickleball Club",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Tin Wai Kwan",
      "Catherine Stewart"
@@ -40926,7 +40613,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "mixed",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Sophia Kaufmann",
      "Shreyas Pani"
@@ -40958,7 +40645,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "mixed",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Richa Shah",
      "Dilan Shah"
@@ -44307,7 +43994,7 @@
     "t": "mixed",
     "with": "Matt Schall",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Hruday Vemparala"
     ],
     "f": 15,
@@ -47811,7 +47498,7 @@
     "t": "mixed",
     "with": "Richa Shah",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Sidd Pathare"
     ],
     "f": 19,
@@ -48893,7 +48580,7 @@
     "t": "female",
     "with": "Adrienne Butrymowicz",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Anisha Malhotra"
     ],
     "f": 19,
@@ -48957,7 +48644,7 @@
     "t": "female",
     "with": "Tin Wai Kwan",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Meghan Mediratta"
     ],
     "f": 20,
@@ -48990,7 +48677,7 @@
     "t": "female",
     "with": "Tin Wai Kwan",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Anisha Malhotra"
     ],
     "f": 26,
@@ -51148,7 +50835,7 @@
     "wk": 1,
     "opp": "Monroe",
     "t": "female",
-    "with": "Jaime Luongo",
+    "with": "",
     "vs": [
      "Morgan Fishman",
      "Angela Luo"
@@ -53533,7 +53220,7 @@
     "t": "female",
     "with": "Richa Shah",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Ally Yan"
     ],
     "f": 19,
@@ -53549,7 +53236,7 @@
     "t": "female",
     "with": "Morgan Fishman",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Amy Yan"
     ],
     "f": 16,
@@ -61127,7 +60814,7 @@
     "t": "mixed",
     "with": "Adrienne Butrymowicz",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Hruday Vemparala"
     ],
     "f": 12,
@@ -61730,7 +61417,7 @@
     "t": "mixed",
     "with": "Shreyas Pani",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Sidd Pathare"
     ],
     "f": 13,
@@ -65141,7 +64828,7 @@
     "with": "Ruhi Shah",
     "vs": [
      "Gissel Escalante",
-     "Jaime Luongo"
+     ""
     ],
     "f": 16,
     "a": 21,
@@ -65196,7 +64883,7 @@
     "t": "female",
     "with": "Angela Luo",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Amy Yan"
     ],
     "f": 16,
@@ -68457,7 +68144,7 @@
     "t": "female",
     "with": "Catherine Stewart",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Anisha Malhotra"
     ],
     "f": 19,
@@ -68489,7 +68176,7 @@
     "t": "female",
     "with": "Tin Wai Kwan",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Jenna Irwin"
     ],
     "f": 12,
@@ -68506,7 +68193,7 @@
     "t": "mixed",
     "with": "Sebastian Ferrer",
     "vs": [
-     "Jaime Luongo",
+     "",
      "Hruday Vemparala"
     ],
     "f": 12,

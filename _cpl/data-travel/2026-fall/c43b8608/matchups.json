@@ -337,18 +337,6 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
-      "matchupId": "23378d5f-51e4-4488-b9e5-d1bf54e9380a",
-      "weekNumber": 4,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-16T19:00:00",
-      "homeName": "Monroe",
-      "awayName": "Premiere"
-    },
-    {
       "matchupId": "ca6816fa-c91c-4ced-b377-33d756ef9689",
       "weekNumber": 5,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -875,6 +863,18 @@
       "scheduledTime": "2026-10-11T14:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Flemington"
+    },
+    {
+      "matchupId": "23378d5f-51e4-4488-b9e5-d1bf54e9380a",
+      "weekNumber": 9,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-16T19:00:00",
+      "homeName": "Monroe",
+      "awayName": "Premiere"
     },
     {
       "matchupId": "a7c1b041-c1c8-4b1e-838c-61b7c83996ed",

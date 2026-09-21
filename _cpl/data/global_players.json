@@ -33896,7 +33896,7 @@
     "lastName": "Villarama",
     "dupr": "Q5LKPD",
     "duprRating": "3.328",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 7822441741,
     "duprProvisional": false
   },
@@ -39790,7 +39790,7 @@
     "lastName": "Sokolson",
     "dupr": "59E5MR",
     "duprRating": "3.487",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5528223028,
     "duprProvisional": false
   },
@@ -46543,5 +46543,21 @@
     "lastSeen": "2026-09",
     "duprNumericId": 5704833488,
     "duprProvisional": false
+  },
+  {
+    "playerId": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
+    "firstName": "Carla",
+    "lastName": "Owens",
+    "dupr": "129X27",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "f8a98c47-54e1-4f90-a368-e9260d994a8b",
+    "firstName": "bin",
+    "lastName": "li",
+    "dupr": "RYX05D",
+    "duprRating": null,
+    "lastSeen": "2026-09"
   }
 ]

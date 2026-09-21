@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 405,
+   "leagueRank": 406,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9882,7 +9882,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 401,
+   "leagueRank": 402,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9969,7 +9969,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10056,7 +10056,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 403,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10114,7 +10114,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 395,
+   "leagueRank": 396,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10143,7 +10143,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10230,7 +10230,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 392,
+   "leagueRank": 393,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -26800,14 +26800,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 4,
-   "home": "Monroe",
-   "away": "Premiere",
-   "time": "2026-10-16T19:00:00",
-   "complete": false
-  },
-  {
    "result": "home",
    "week": 5,
    "home": "Premiere",
@@ -30565,7 +30557,7 @@
      "t": "mixed",
      "h": [
       "Nan Feng",
-      "Chris Shung"
+      "Bin Li"
      ],
      "a": [
       "",
@@ -30959,6 +30951,14 @@
    "home": "ACE Moorestown",
    "away": "Flemington",
    "time": "2026-10-11T14:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
+   "home": "Monroe",
+   "away": "Premiere",
+   "time": "2026-10-16T19:00:00",
    "complete": false
   },
   {
@@ -31415,6 +31415,7 @@
   "Yaoye Li": "eaa86091-5879-48bf-8bd1-b0689f887818",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
+  "Bin Li": "f8a98c47-54e1-4f90-a368-e9260d994a8b",
   "Chris Heimerle": "fc870151-9569-4e09-883d-c81e9cfaf6d8",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
@@ -31528,7 +31529,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T17:33:13.358Z";
+  DATA.meta.asOf = "2026-09-21T21:30:31.867Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

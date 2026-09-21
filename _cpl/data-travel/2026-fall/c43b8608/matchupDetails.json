@@ -18605,10 +18605,6 @@
     }
   },
   {
-    "matchupId": "23378d5f-51e4-4488-b9e5-d1bf54e9380a",
-    "details": {}
-  },
-  {
     "matchupId": "ca6816fa-c91c-4ced-b377-33d756ef9689",
     "details": {
       "matchupPlayerStats": {
@@ -24073,7 +24069,7 @@
             {
               "matchupId": "b8170f6f-877b-4415-a4ea-ed5f005b8708",
               "homePlayerId1": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
-              "homePlayerId2": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
+              "homePlayerId2": "f8a98c47-54e1-4f90-a368-e9260d994a8b",
               "awayPlayerId1": null,
               "awayPlayerId2": null,
               "homeScore": null,
@@ -24332,6 +24328,10 @@
   },
   {
     "matchupId": "fa9ad865-84a9-4cd0-9aa3-6dd83c20bd52",
+    "details": {}
+  },
+  {
+    "matchupId": "23378d5f-51e4-4488-b9e5-d1bf54e9380a",
     "details": {}
   },
   {

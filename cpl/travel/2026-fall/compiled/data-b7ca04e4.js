@@ -13043,13 +13043,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 529,
+   "leagueRank": 531,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "04fbcf0b-22bf-4df0-82be-9456554f4f59"
+  },
+  {
+   "name": "Rachel Villarama",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 546,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0b70d578-a00e-4d79-bbd3-a07ec89ef8b6"
   },
   {
    "name": "Bill Nguyen",
@@ -13072,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 520,
+   "leagueRank": 521,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13130,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 518,
+   "leagueRank": 519,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13130,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 528,
+   "leagueRank": 530,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13159,7 +13188,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 540,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13217,7 +13246,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 524,
+   "leagueRank": 525,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13275,7 +13304,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 508,
+   "leagueRank": 509,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13362,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 532,
+   "leagueRank": 534,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13391,7 +13420,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 525,
+   "leagueRank": 527,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 543,
+   "leagueRank": 545,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 542,
+   "leagueRank": 544,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -46832,7 +46861,361 @@
    "home": "Forward",
    "away": "Dill Dinkers Hatboro",
    "time": "2026-09-23T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Shawn Roseman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Nick Lewis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Frieder",
+      "Jason Quach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thania Padova",
+      "Andrew Son"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Natalia Koontz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Emily Sheetz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Farhan Chowdhury",
+      "Adriel Menendez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Lewis",
+      "Jason Quach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sheetz",
+      "Adriel Menendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thania Padova",
+      "Andrew Son"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Frieder",
+      "Farhan Chowdhury"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natalia Koontz",
+      "Shawn Roseman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Thania Padova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Gabby Frieder"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriel Menendez",
+      "Nick Lewis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Quach",
+      "Andrew Son"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Nick Lewis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sheetz",
+      "Jason Quach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Farhan Chowdhury"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natalia Koontz",
+      "Shawn Roseman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sheetz",
+      "Gabby Frieder"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Natalia Koontz",
+      "Thania Padova"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Roseman",
+      "Farhan Chowdhury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriel Menendez",
+      "Andrew Son"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Frieder",
+      "Farhan Chowdhury"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thania Padova",
+      "Adriel Menendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Jason Quach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Nick Lewis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Courtney Skolka",
+      "Natalia Koontz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vanessa Rhoades",
+      "Gabby Frieder"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Quach",
+      "Andrew Son"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Roseman",
+      "Nick Lewis"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -47210,7 +47593,53 @@
    "home": "Players Courtyard",
    "away": "Ballers Philly",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kelly Feng",
+      "Samuel Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandria Mlkvy",
+      "Ben Van Handel"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Risa Scott-Smith",
+      "Sebastian Fas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tesa Pribitkin",
+      "Ted Asavamongkolkul"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -48320,7 +48749,361 @@
    "home": "Bounce Philly",
    "away": "APC Garden State",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Michael Kresloff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pallavi Deshpande",
+      "Pratap Kotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "Pallavi Deshpande"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Michele Costigan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Kresloff",
+      "Taylor Runyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andress Mims",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Taylor Runyen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pallavi Deshpande",
+      "Pratap Kotra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Stacy Ip-Mo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Pallavi Deshpande"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Kresloff",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mario Contreras",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Michael Kresloff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pallavi Deshpande",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "Pratap Kotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Taylor Runyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "Pallavi Deshpande"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Michele Costigan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mario Contreras",
+      "Taylor Runyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pratap Kotra",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pallavi Deshpande",
+      "Michael Kresloff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Ip-Mo",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Taylor Runyen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Costigan",
+      "Stacy Ip-Mo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lianhong Li",
+      "Pallavi Deshpande"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pratap Kotra",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Kresloff",
+      "John Dechristopher"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -49708,6 +50491,7 @@
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
   "Lisamarie Chinchilla": "6013eba7-eb0e-493a-8c22-0f1127150a01",
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
+  "Noah Ludwigsen": "67f9503a-202f-4982-8e97-9b3383a35aee",
   "Claire Fabito": "722418a6-3c61-4a17-bf08-d84c1d12948c",
   "Davis Kahl": "76b19538-3ce3-4569-b273-34c14544ce30",
   "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
@@ -49734,6 +50518,7 @@
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
   "Todd Fagan": "bf370c20-c27a-4555-8410-5073dc29d1d0",
   "Jim Fett": "c14e8948-35aa-4a6f-b8ac-a5c41c75063f",
+  "Carla Owens": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
   "Thanh Dang": "cc4dfaac-afe0-4769-874a-e5209bad2e8a",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
@@ -49753,7 +50538,7 @@
   "matchesPlayed": 56,
   "provisionalMatches": 1,
   "weeks": "1-4",
-  "totalPlayers": 492,
+  "totalPlayers": 493,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -49802,7 +50587,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-21T17:31:56.520Z";
+  DATA.meta.asOf = "2026-09-21T21:29:06.918Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

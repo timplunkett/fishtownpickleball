@@ -7111,13 +7111,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Jaime Luongo",
-   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
-   "team": "Pickleball Kingdom Hillsborough",
-   "slug": "6619816f",
-   "gender": "Female"
-  },
-  {
    "name": "Jaime Padilla",
    "playerId": "aa73e326-7295-4153-8f57-b4903877923d",
    "team": "Premiere",
@@ -14395,6 +14388,13 @@ window.DUPR_AUDIT = {
    "playerId": "ff713931-208e-4b8f-9b1d-c7919e6af892",
    "team": "Dill Dinkers Lansdale",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Rachel Villarama",
+   "playerId": "0b70d578-a00e-4d79-bbd3-a07ec89ef8b6",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
