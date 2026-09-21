@@ -449,9 +449,9 @@
       "weekNumber": 5,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 566,
+      "awayPoints": 644,
+      "endResult": "away",
       "scheduledTime": "2026-09-20T14:00:00",
       "homeName": "Allstar Pickler",
       "awayName": "PCKLRAMA"

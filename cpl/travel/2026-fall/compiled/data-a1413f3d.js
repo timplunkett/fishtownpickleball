@@ -29082,14 +29082,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 3,
-   "home": "Allstar Pickler",
-   "away": "Montville",
-   "time": "2026-09-10T19:30:00",
-   "complete": false
-  },
-  {
    "result": "away",
    "week": 3,
    "home": "Jersey Devil",
@@ -32811,14 +32803,6 @@
     "Paul Ricciardi",
     "Maite Gonzalez"
    ]
-  },
-  {
-   "result": null,
-   "week": 4,
-   "home": "Allstar Pickler",
-   "away": "Flemington Green",
-   "time": "2026-09-17T19:30:00",
-   "complete": false
   },
   {
    "result": "home",
@@ -37004,14 +36988,6 @@
   {
    "result": null,
    "week": 5,
-   "home": "PCKLRAMA",
-   "away": "Allstar Pickler",
-   "time": "2026-09-24T19:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
    "home": "Ballers Philly",
    "away": "Dill Dinkers Hatboro Aces",
    "time": "2026-09-24T19:30:00",
@@ -37204,14 +37180,6 @@
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Allstar Pickler",
-   "time": "2026-10-01T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
    "home": "Home Court",
    "away": "PCKLRAMA",
    "time": "2026-10-01T19:30:00",
@@ -37340,14 +37308,6 @@
   {
    "result": null,
    "week": 8,
-   "home": "Pickleball Palace",
-   "away": "Allstar Pickler",
-   "time": "2026-10-15T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
    "home": "Bounce Tempest",
    "away": "Jersey Devil",
    "time": "2026-10-15T19:30:00",
@@ -37460,14 +37420,6 @@
   {
    "result": null,
    "week": 9,
-   "home": "Allstar Pickler",
-   "away": "Home Court",
-   "time": "2026-10-22T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
    "home": "Pickle Place",
    "away": "Flemington Blue",
    "time": "2026-10-24T09:00:00",
@@ -37479,14 +37431,6 @@
    "home": "APC Garden State",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-24T09:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
-   "home": "Allstar Pickler",
-   "away": "Pickleball Palace",
-   "time": "2026-10-24T12:00:00",
    "complete": false
   },
   {
@@ -37596,14 +37540,6 @@
   {
    "result": null,
    "week": 10,
-   "home": "Allstar Pickler",
-   "away": "PCKLRAMA",
-   "time": "2026-10-29T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 10,
    "home": "Dill Dinkers Hatboro Aces",
    "away": "Bounce Philly",
    "time": "2026-10-29T19:30:00",
@@ -37692,14 +37628,6 @@
   {
    "result": null,
    "week": 11,
-   "home": "Montville",
-   "away": "Allstar Pickler",
-   "time": "2026-11-05T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 11,
    "home": "Dill Dinkers Hatboro Aces",
    "away": "Pickle Place",
    "time": "2026-11-05T19:30:00",
@@ -37774,14 +37702,6 @@
    "week": 12,
    "home": "Pickle Place",
    "away": "Bounce Philly",
-   "time": "2026-11-12T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 12,
-   "home": "Home Court",
-   "away": "Allstar Pickler",
    "time": "2026-11-12T19:30:00",
    "complete": false
   },
@@ -37917,7 +37837,7 @@
   ],
   "podMismatch": {
    "crossPodMatchups": 18,
-   "totalMatchups": 150,
+   "totalMatchups": 140,
    "reported": {
     "Northwest": [
      "Allstar Pickler",
@@ -37987,7 +37907,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T02:31:25.516Z";
+  DATA.meta.asOf = "2026-09-21T11:30:52.152Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

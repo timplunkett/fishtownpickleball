@@ -337,18 +337,6 @@
       "awayName": "Picklr Newark"
     },
     {
-      "matchupId": "5e8445a8-26a8-421c-a4d9-1052cc211f79",
-      "weekNumber": 3,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-10T19:30:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Montville"
-    },
-    {
       "matchupId": "995a587f-290f-40ff-bc2f-2be25c004f55",
       "weekNumber": 3,
       "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
@@ -443,18 +431,6 @@
       "scheduledTime": "2026-09-17T19:00:00",
       "homeName": "Premiere",
       "awayName": "Flemington Blue"
-    },
-    {
-      "matchupId": "0f55cbc2-4618-45dc-967b-7a82c0e72838",
-      "weekNumber": 4,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-17T19:30:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Flemington Green"
     },
     {
       "matchupId": "1020068a-d73f-46be-9a48-f143975a8051",
@@ -563,18 +539,6 @@
       "scheduledTime": "2026-09-17T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "Ballers Philly"
-    },
-    {
-      "matchupId": "74877efa-bb8f-4127-affe-ffb54db2d8c9",
-      "weekNumber": 5,
-      "homeTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-24T19:00:00",
-      "homeName": "PCKLRAMA",
-      "awayName": "Allstar Pickler"
     },
     {
       "matchupId": "5215d159-6d34-4f20-8115-9913693f5cb1",
@@ -865,18 +829,6 @@
       "awayName": "Bounce Malvern"
     },
     {
-      "matchupId": "e9ce09a6-28a6-4e23-8c45-1e2b5abaa285",
-      "weekNumber": 6,
-      "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-01T19:30:00",
-      "homeName": "Pickleball Kingdom Watchung",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "f0881522-57df-4f71-80d8-bbb1c96aa75b",
       "weekNumber": 6,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -1069,18 +1021,6 @@
       "awayName": "Flemington Blue"
     },
     {
-      "matchupId": "25dec9df-4a69-419a-bca1-e9eef899ca26",
-      "weekNumber": 8,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-15T19:30:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "490fda47-3049-4fea-8a8c-ae037cd3b49e",
       "weekNumber": 8,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
@@ -1249,18 +1189,6 @@
       "awayName": "Jersey Devil"
     },
     {
-      "matchupId": "d65b898d-62e7-48d4-a233-307916b5097e",
-      "weekNumber": 9,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-22T19:30:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Home Court"
-    },
-    {
       "matchupId": "4d2dfda5-c9ea-4c51-b06d-aecfb7d8d2dc",
       "weekNumber": 9,
       "homeTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
@@ -1283,18 +1211,6 @@
       "scheduledTime": "2026-10-24T09:00:00",
       "homeName": "APC Garden State",
       "awayName": "Pickleball Kingdom Hillsborough"
-    },
-    {
-      "matchupId": "653fac5a-c59a-4bd7-b8b4-aa8f59a3292c",
-      "weekNumber": 9,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T12:00:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "6ce08798-8f83-487a-9bd4-3e4a948ce941",
@@ -1453,18 +1369,6 @@
       "awayName": "Ballers Philly"
     },
     {
-      "matchupId": "761b5a75-2e85-496f-96ee-51296c2d781e",
-      "weekNumber": 10,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-29T19:30:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "PCKLRAMA"
-    },
-    {
       "matchupId": "89adce66-22d1-4edd-9ccd-7762ef4c386f",
       "weekNumber": 10,
       "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
@@ -1597,18 +1501,6 @@
       "awayName": "ACE Moorestown"
     },
     {
-      "matchupId": "7f736be4-770c-4e88-b0c7-ff78f9bbad34",
-      "weekNumber": 11,
-      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-05T19:30:00",
-      "homeName": "Montville",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "a58b715e-d200-4a92-bcec-9cda4d99848e",
       "weekNumber": 11,
       "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
@@ -1727,18 +1619,6 @@
       "scheduledTime": "2026-11-12T19:30:00",
       "homeName": "Pickle Place",
       "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "6b8406ac-4f09-4984-a369-4377ad718996",
-      "weekNumber": 12,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-12T19:30:00",
-      "homeName": "Home Court",
-      "awayName": "Allstar Pickler"
     },
     {
       "matchupId": "7e942522-a5e7-420b-9d68-5da1318c9eae",

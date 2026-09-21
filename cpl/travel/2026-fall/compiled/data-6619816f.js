@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -18461,8 +18461,8 @@
       ""
      ],
      "a": [
-      "Alex Abad",
-      "Mark Kilimnik"
+      "Rachel Alfano",
+      "Justin Bautista"
      ]
     },
     {
@@ -18472,8 +18472,8 @@
       ""
      ],
      "a": [
-      "Rachel Alfano",
-      ""
+      "Elysia Price",
+      "Zachary Lessner"
      ]
     },
     {
@@ -18495,7 +18495,7 @@
      ],
      "a": [
       "Julia Sternberg",
-      "Zachary Lessner"
+      "Mark Kilimnik"
      ]
     },
     {
@@ -18505,8 +18505,8 @@
       ""
      ],
      "a": [
-      "Alex Abad",
-      "Rachel Alfano"
+      "Rachel Alfano",
+      "Alex Abad"
      ]
     },
     {
@@ -18518,17 +18518,6 @@
      "a": [
       "Alyssa Boyle",
       "Elysia Price"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Darren Johnson",
-      "Zachary Lessner"
      ]
     },
     {
@@ -18539,7 +18528,18 @@
      ],
      "a": [
       "Mark Kilimnik",
-      "Ashwin Korde"
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Darren Johnson"
      ]
     },
     {
@@ -18549,19 +18549,8 @@
       ""
      ],
      "a": [
-      "Julia Sternberg",
-      "Mark Kilimnik"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rachel Alfano",
-      "Dustin Rabinowitz"
+      "Alex Abad",
+      "Justin Bautista"
      ]
     },
     {
@@ -18582,6 +18571,17 @@
       ""
      ],
      "a": [
+      "Julia Sternberg",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Elysia Price",
       "Zachary Lessner"
      ]
@@ -18593,8 +18593,8 @@
       ""
      ],
      "a": [
-      "Alex Abad",
-      "Rachel Alfano"
+      "Rachel Alfano",
+      "Alex Abad"
      ]
     },
     {
@@ -18615,8 +18615,8 @@
       ""
      ],
      "a": [
-      "Darren Johnson",
-      "Mark Kilimnik"
+      "Zachary Lessner",
+      "Ashwin Korde"
      ]
     },
     {
@@ -18626,8 +18626,8 @@
       ""
      ],
      "a": [
-      "Zachary Lessner",
-      ""
+      "Darren Johnson",
+      "Mark Kilimnik"
      ]
     },
     {
@@ -18648,8 +18648,19 @@
       ""
      ],
      "a": [
-      "Elysia Price",
+      "Julia Sternberg",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
       ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Mark Kilimnik"
      ]
     },
     {
@@ -18661,28 +18672,6 @@
      "a": [
       "Rachel Alfano",
       "Zachary Lessner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Sternberg",
-      "Mark Kilimnik"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rachel Alfano",
-      "Elysia Price"
      ]
     },
     {
@@ -18697,14 +18686,14 @@
      ]
     },
     {
-     "t": "male",
+     "t": "female",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Darren Johnson",
-      "Ashwin Korde"
+      "Rachel Alfano",
+      "Julia Sternberg"
      ]
     },
     {
@@ -18714,8 +18703,19 @@
       ""
      ],
      "a": [
-      "Mark Kilimnik",
-      "Zachary Lessner"
+      "Zachary Lessner",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Darren Johnson"
      ]
     },
     {
@@ -18726,18 +18726,7 @@
      ],
      "a": [
       "Alyssa Boyle",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Julia Sternberg",
-      "Zachary Lessner"
+      "Ashwin Korde"
      ]
     },
     {
@@ -18748,6 +18737,17 @@
      ],
      "a": [
       "Rachel Alfano",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
       "Mark Kilimnik"
      ]
     },
@@ -18758,8 +18758,19 @@
       ""
      ],
      "a": [
-      "Alex Abad",
-      "Ashwin Korde"
+      "Julia Sternberg",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Alex Abad"
      ]
     },
     {
@@ -18774,14 +18785,14 @@
      ]
     },
     {
-     "t": "female",
+     "t": "male",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Alex Abad",
-      "Alyssa Boyle"
+      "Ashwin Korde",
+      "Justin Bautista"
      ]
     },
     {
@@ -18792,18 +18803,7 @@
      ],
      "a": [
       "Darren Johnson",
-      "Ashwin Korde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Zachary Lessner",
-      "Dustin Rabinowitz"
+      "Zachary Lessner"
      ]
     }
    ]
@@ -19574,6 +19574,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Justin Bautista": "27660961-6245-4b09-aafe-359ca3205797",
+  "Gage Cvijic": "4572bf15-1066-42b7-ae74-94d6175b1b96",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stephanie Moniz": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
@@ -19668,7 +19669,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T02:29:48.678Z";
+  DATA.meta.asOf = "2026-09-21T11:31:54.641Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
