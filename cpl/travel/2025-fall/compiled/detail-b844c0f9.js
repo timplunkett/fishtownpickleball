@@ -137201,6 +137201,220 @@
   ],
   "partners": []
  },
+ "361f0938-fa35-4a11-a623-f9df1bf360b7": {
+  "log": [
+   {
+    "week": 7,
+    "opp": "Lehigh Valley Plex",
+    "homeAway": "H",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 122,
+    "pa": 124,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   }
+  ],
+  "games": [
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "mixed",
+    "with": "Neeraj Shah",
+    "vs": [
+     "Lana Engler Carss",
+     "Farhan Chowdhury"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "female",
+    "with": "Maggie Jiang",
+    "vs": [
+     "Lana Engler Carss",
+     "Melissa Hummel"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "mixed",
+    "with": "Tara Nath",
+    "vs": [
+     "Lana Engler Carss",
+     "Farhan Chowdhury"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Amanda Zhou",
+     "Melissa Hummel"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "female",
+    "with": "Rani Borusu",
+    "vs": [
+     "Darlene Fusco",
+     "Lana Engler Carss"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "mixed",
+    "with": "Shah Faisal",
+    "vs": [
+     "Charlie Trapasso",
+     "Sean Wilson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   },
+   {
+    "wk": 7,
+    "opp": "Lehigh Valley Plex",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Lana Engler Carss",
+     "Melissa Hummel"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Stelton Strikers"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 7,
+    "seq": 7,
+    "label": "7",
+    "rating": 0.2,
+    "confidence": 59,
+    "rank": 169,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 8,
+    "seq": 8,
+    "label": "8",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 187,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 188,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 10,
+    "seq": 11,
+    "label": "10",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 198,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": -0.1,
+    "confidence": 61,
+    "rank": 209,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": -0.1,
+    "confidence": 61,
+    "rank": 211,
+    "ratingGames": 7,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
  "f8c31285-c61e-4eab-bb36-79db7b3fea5d": {
   "log": [
    {
@@ -137466,220 +137680,6 @@
     "ratingGames": 7,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
- },
- "361f0938-fa35-4a11-a623-f9df1bf360b7": {
-  "log": [
-   {
-    "week": 7,
-    "opp": "Lehigh Valley Plex",
-    "homeAway": "H",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 122,
-    "pa": 124,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   }
-  ],
-  "games": [
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "mixed",
-    "with": "Neeraj Shah",
-    "vs": [
-     "Lana Engler Carss",
-     "Farhan Chowdhury"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "female",
-    "with": "Maggie Jiang",
-    "vs": [
-     "Lana Engler Carss",
-     "Melissa Hummel"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "mixed",
-    "with": "Tara Nath",
-    "vs": [
-     "Lana Engler Carss",
-     "Farhan Chowdhury"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "female",
-    "with": "Sushma Rayapudi",
-    "vs": [
-     "Amanda Zhou",
-     "Melissa Hummel"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "female",
-    "with": "Rani Borusu",
-    "vs": [
-     "Darlene Fusco",
-     "Lana Engler Carss"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "mixed",
-    "with": "Shah Faisal",
-    "vs": [
-     "Charlie Trapasso",
-     "Sean Wilson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   },
-   {
-    "wk": 7,
-    "opp": "Lehigh Valley Plex",
-    "t": "female",
-    "with": "Diana Nguyen",
-    "vs": [
-     "Lana Engler Carss",
-     "Melissa Hummel"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Stelton Strikers"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 7,
-    "seq": 7,
-    "label": "7",
-    "rating": 0.2,
-    "confidence": 59,
-    "rank": 169,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 8,
-    "seq": 8,
-    "label": "8",
-    "rating": 0,
-    "confidence": 60,
-    "rank": 187,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": 0,
-    "confidence": 60,
-    "rank": 188,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 10,
-    "seq": 11,
-    "label": "10",
-    "rating": 0,
-    "confidence": 60,
-    "rank": 198,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": -0.1,
-    "confidence": 61,
-    "rank": 209,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.4,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": -0.1,
-    "confidence": 61,
-    "rank": 211,
-    "ratingGames": 7,
-    "strengthOfPartners": 2.4,
-    "strengthOfOpponents": 1.3
    }
   ],
   "partners": []
@@ -341479,6 +341479,272 @@
    }
   ]
  },
+ "47b78835-7297-404f-91e6-68252227b8dc": {
+  "log": [
+   {
+    "week": 11,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 72,
+    "pa": 103,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "week": 11,
+    "opp": "Stelton Warriors",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 80,
+    "pa": 100,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   }
+  ],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Sam Soto",
+    "vs": [
+     "Louis Sapirman",
+     "Ian Miguel De Los Reyes"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Hannah Peer",
+    "vs": [
+     "Roanne Mae Vega",
+     "Niman Ahmeti"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Sam Soto",
+    "vs": [
+     "Dexter De Perio",
+     "Kibwe Calzado"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Pickleball HQ",
+    "t": "mixed",
+    "with": "Hannah Peer",
+    "vs": [
+     "Debbie Carrano",
+     "Niman Ahmeti"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jeff Knecht",
+    "vs": [
+     "Dexter De Perio",
+     "Kibwe Calzado"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Stelton Warriors",
+    "t": "mixed",
+    "with": "Lynn Hauth",
+    "vs": [
+     "Pooja Patel",
+     "Fahad Ahmed"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 11,
+    "opp": "Stelton Warriors",
+    "t": "mixed",
+    "with": "Hannah Peer",
+    "vs": [
+     "Pooja Patel",
+     "Sudarsan Vaidyanathan"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Stelton Warriors",
+    "t": "male",
+    "with": "Paul Giamarino",
+    "vs": [
+     "Asher Faruqi",
+     "Fahad Ahmed"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 11,
+    "opp": "Stelton Warriors",
+    "t": "mixed",
+    "with": "Sandy Hess",
+    "vs": [
+     "Stacy Canete",
+     "Sudarsan Vaidyanathan"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   },
+   {
+    "wk": 11,
+    "opp": "Stelton Warriors",
+    "t": "male",
+    "with": "Sam Soto",
+    "vs": [
+     "Sudarsan Vaidyanathan",
+     "Asher Faruqi"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Lehigh Valley Spartans"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": -2.5,
+    "confidence": 68,
+    "rank": 343,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": -2.8,
+    "confidence": 69,
+    "rank": 365,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "baaebdbe-656b-4b45-9ce9-6a92292d3270",
+    "name": "Hannah Peer",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "73b0b187-dffb-4f45-b0a9-5a6bc872a2e8",
+    "name": "Sam Soto",
+    "n": 3,
+    "synergy": -1.6
+   }
+  ]
+ },
  "e2c939c0-3caa-4c92-a30b-5602c6565c17": {
   "log": [
    {
@@ -341790,272 +342056,6 @@
    }
   ],
   "partners": []
- },
- "47b78835-7297-404f-91e6-68252227b8dc": {
-  "log": [
-   {
-    "week": 11,
-    "opp": "Pickleball HQ",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 72,
-    "pa": 103,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "week": 11,
-    "opp": "Stelton Warriors",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 80,
-    "pa": 100,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   }
-  ],
-  "games": [
-   {
-    "wk": 11,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Sam Soto",
-    "vs": [
-     "Louis Sapirman",
-     "Ian Miguel De Los Reyes"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Hannah Peer",
-    "vs": [
-     "Roanne Mae Vega",
-     "Niman Ahmeti"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Sam Soto",
-    "vs": [
-     "Dexter De Perio",
-     "Kibwe Calzado"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Pickleball HQ",
-    "t": "mixed",
-    "with": "Hannah Peer",
-    "vs": [
-     "Debbie Carrano",
-     "Niman Ahmeti"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Pickleball HQ",
-    "t": "male",
-    "with": "Jeff Knecht",
-    "vs": [
-     "Dexter De Perio",
-     "Kibwe Calzado"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Stelton Warriors",
-    "t": "mixed",
-    "with": "Lynn Hauth",
-    "vs": [
-     "Pooja Patel",
-     "Fahad Ahmed"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 11,
-    "opp": "Stelton Warriors",
-    "t": "mixed",
-    "with": "Hannah Peer",
-    "vs": [
-     "Pooja Patel",
-     "Sudarsan Vaidyanathan"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Stelton Warriors",
-    "t": "male",
-    "with": "Paul Giamarino",
-    "vs": [
-     "Asher Faruqi",
-     "Fahad Ahmed"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 11,
-    "opp": "Stelton Warriors",
-    "t": "mixed",
-    "with": "Sandy Hess",
-    "vs": [
-     "Stacy Canete",
-     "Sudarsan Vaidyanathan"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   },
-   {
-    "wk": 11,
-    "opp": "Stelton Warriors",
-    "t": "male",
-    "with": "Sam Soto",
-    "vs": [
-     "Sudarsan Vaidyanathan",
-     "Asher Faruqi"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Lehigh Valley Spartans"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": -2.5,
-    "confidence": 68,
-    "rank": 343,
-    "ratingGames": 10,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": -2.8,
-    "confidence": 69,
-    "rank": 365,
-    "ratingGames": 10,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "baaebdbe-656b-4b45-9ce9-6a92292d3270",
-    "name": "Hannah Peer",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "73b0b187-dffb-4f45-b0a9-5a6bc872a2e8",
-    "name": "Sam Soto",
-    "n": 3,
-    "synergy": -1.6
-   }
-  ]
  },
  "73b0b187-dffb-4f45-b0a9-5a6bc872a2e8": {
   "log": [
@@ -369026,6 +369026,253 @@
    }
   ]
  },
+ "d5c81331-0c27-4a53-9483-97d56b7327e6": {
+  "log": [],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandeep Ramakrishna",
+    "vs": [
+     "Karen Veninger",
+     "Jeff Kesner"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Maggie Jiang",
+    "vs": [
+     "Karen Veninger",
+     "Cathy Matko"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Tara Nath",
+    "vs": [
+     "Karen Veninger",
+     "Hafeez Saheed"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Kelly Bowers",
+     "Cathy Matko"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Sandeep Ramakrishna",
+    "vs": [
+     "Karen Veninger",
+     "Jeff Kesner"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Olivia Chatain",
+     "Marianne Rosato"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Maggie Jiang",
+    "vs": [
+     "Cathy Matko",
+     "Marianne Rosato"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Sandeep Ramakrishna",
+    "vs": [
+     "Monika Torbus",
+     "Kyle Kaczmarek"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maggie Jiang",
+    "vs": [
+     "Monika Torbus",
+     "Sarah Stangota"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Raghuveer Madireddy",
+    "vs": [
+     "Sarah Stangota",
+     "Ren Mortara"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diana Nguyen",
+    "vs": [
+     "Margo Langer",
+     "Monika Torbus"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Ali Faruqi",
+    "vs": [
+     "Margo Langer",
+     "Anthony Leone"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Sushma Rayapudi",
+    "vs": [
+     "Sarah Stangota",
+     "Monika Torbus"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Ali Faruqi",
+    "vs": [
+     "Margo Langer",
+     "Anthony Leone"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maggie Jiang",
+    "vs": [
+     "Margo Langer",
+     "Monika Torbus"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [],
+  "partners": []
+ },
  "1adca4f2-fcdf-4060-ac8f-fc7adc8dfd7f": {
   "log": [
    {
@@ -370221,6 +370468,158 @@
   ],
   "partners": []
  },
+ "7f361651-a91e-4d88-abb1-1873df7d05f3": {
+  "log": [
+   {
+    "week": 10,
+    "opp": "Lehigh Valley Spartans",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 53,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 1,
+    "subFor": "Pickle Jar"
+   }
+  ],
+  "games": [
+   {
+    "wk": 10,
+    "opp": "Lehigh Valley Spartans",
+    "t": "male",
+    "with": "Shaihan Nadeem",
+    "vs": [
+     "Gary Kossin",
+     "Sam Soto"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Jar",
+    "withSub": 1
+   },
+   {
+    "wk": 10,
+    "opp": "Lehigh Valley Spartans",
+    "t": "male",
+    "with": "Gianni Mamani",
+    "vs": [
+     "Jeff Knecht",
+     "Gary Kossin"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Jar",
+    "withSub": 1
+   },
+   {
+    "wk": 10,
+    "opp": "Lehigh Valley Spartans",
+    "t": "mixed",
+    "with": "Corinne Demeuse",
+    "vs": [
+     "Hannah Peer",
+     "Jeff Knecht"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Jar"
+   },
+   {
+    "wk": 10,
+    "opp": "Lehigh Valley Spartans",
+    "t": "mixed",
+    "with": "Kara Chubrik",
+    "vs": [
+     "Dawn Wood",
+     "Aadil Mendez"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Jar"
+   },
+   {
+    "wk": 10,
+    "opp": "Lehigh Valley Spartans",
+    "t": "male",
+    "with": "Shaihan Nadeem",
+    "vs": [
+     "Jeff Knecht",
+     "Gary Kossin"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickle Jar",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 10,
+    "seq": 11,
+    "label": "10",
+    "rating": -5.2,
+    "confidence": 50,
+    "rank": 368,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.3,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": -5.4,
+    "confidence": 51,
+    "rank": 382,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.5,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": -5.4,
+    "confidence": 51,
+    "rank": 394,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.5,
+    "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
  "861a9337-cb40-4a24-9bc0-d64bf9f9dbe9": {
   "log": [
    {
@@ -370421,158 +370820,6 @@
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.5
-   }
-  ],
-  "partners": []
- },
- "7f361651-a91e-4d88-abb1-1873df7d05f3": {
-  "log": [
-   {
-    "week": 10,
-    "opp": "Lehigh Valley Spartans",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 53,
-    "pa": 105,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 1,
-    "subFor": "Pickle Jar"
-   }
-  ],
-  "games": [
-   {
-    "wk": 10,
-    "opp": "Lehigh Valley Spartans",
-    "t": "male",
-    "with": "Shaihan Nadeem",
-    "vs": [
-     "Gary Kossin",
-     "Sam Soto"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Jar",
-    "withSub": 1
-   },
-   {
-    "wk": 10,
-    "opp": "Lehigh Valley Spartans",
-    "t": "male",
-    "with": "Gianni Mamani",
-    "vs": [
-     "Jeff Knecht",
-     "Gary Kossin"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Jar",
-    "withSub": 1
-   },
-   {
-    "wk": 10,
-    "opp": "Lehigh Valley Spartans",
-    "t": "mixed",
-    "with": "Corinne Demeuse",
-    "vs": [
-     "Hannah Peer",
-     "Jeff Knecht"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Jar"
-   },
-   {
-    "wk": 10,
-    "opp": "Lehigh Valley Spartans",
-    "t": "mixed",
-    "with": "Kara Chubrik",
-    "vs": [
-     "Dawn Wood",
-     "Aadil Mendez"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Jar"
-   },
-   {
-    "wk": 10,
-    "opp": "Lehigh Valley Spartans",
-    "t": "male",
-    "with": "Shaihan Nadeem",
-    "vs": [
-     "Jeff Knecht",
-     "Gary Kossin"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickle Jar",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 10,
-    "seq": 11,
-    "label": "10",
-    "rating": -5.2,
-    "confidence": 50,
-    "rank": 368,
-    "ratingGames": 5,
-    "strengthOfPartners": -3.3,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": -5.4,
-    "confidence": 51,
-    "rank": 382,
-    "ratingGames": 5,
-    "strengthOfPartners": -3.5,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": -5.4,
-    "confidence": 51,
-    "rank": 394,
-    "ratingGames": 5,
-    "strengthOfPartners": -3.5,
-    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []

@@ -63,15 +63,34 @@ function firstValues(obj) {
 // still to come — the dashboard renders those as TBD and skips the projection.
 // Only rows with nothing at all in them are dropped. Shared by the pre-season
 // and in-season match builders so upcoming schedules show lineups in both.
-function buildPendingGames(detail, nameById) {
+//
+// homeName/awayName + homeTeamByPid let a lineup slot say whether the player
+// in it is subbing — the same test completed matchups use to flag `subPids`
+// (a rostered player's home team, per the roster, disagrees with the team
+// they're posted with here). Nothing else has a per-matchup isSub to read yet
+// (the league hasn't published matchupPlayerStats for an unscored match), so
+// this is the only signal available pre-score. hSub/aSub are omitted entirely
+// when nobody in that game is subbing, matching the sparse withSub/vsSub
+// convention below — the overwhelming majority of games have no sub in them,
+// and this recompiles every game, in every division, every season.
+function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid = {}) {
   const lineups = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
   const name = (playerId) => (playerId && nameById[playerId]) || "";
+  const isSub = (playerId, teamName) => !!playerId && homeTeamByPid[playerId] !== teamName;
   return lineups
-    .map((g) => ({
-      t: g.matchType,
-      h: [name(g.homePlayerId1), name(g.homePlayerId2)],
-      a: [name(g.awayPlayerId1), name(g.awayPlayerId2)],
-    }))
+    .map((g) => {
+      const hIds = [g.homePlayerId1, g.homePlayerId2];
+      const aIds = [g.awayPlayerId1, g.awayPlayerId2];
+      const hSub = hIds.map((pid) => (isSub(pid, homeName) ? 1 : 0));
+      const aSub = aIds.map((pid) => (isSub(pid, awayName) ? 1 : 0));
+      return {
+        t: g.matchType,
+        h: hIds.map(name),
+        a: aIds.map(name),
+        ...(hSub.some(Boolean) ? { hSub } : {}),
+        ...(aSub.some(Boolean) ? { aSub } : {}),
+      };
+    })
     .filter((g) => [...g.h, ...g.a].some(Boolean));
 }
 
@@ -416,6 +435,33 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const provisionalNote = provisionalCount ? ` (${provisionalCount} provisional)` : '';
   console.log(`Processing stats for ${completed.length} completed matches${provisionalNote}.`);
 
+  // Every playerId who is actually plugged into a matchup somewhere in this
+  // division — home or away, any game slot, in a completed matchup or one
+  // still pending/unscored — as opposed to merely being named on a team's
+  // roster as available to sub. Scanned straight off matchupDetailsJson (via
+  // detailById, before provisional resolution: lineups don't change there,
+  // only matchupPlayerStats does) rather than `completed`, precisely so an
+  // unscored matchup's posted lineup still counts. matchupPlayerStats is
+  // folded in too, belt-and-suspenders, for the rare completed row whose
+  // reported stats disagree with its own lineup slots (see
+  // applyProvisionalOutcomes' fidelity note in ratings.js). Used below to
+  // gate the sub-seeding pass: a rostered sub who has never once been named
+  // in a game slot — no completed game, no posted lineup either — gets no
+  // roster row at all.
+  const playerIdsInMatchups = new Set();
+  for (const detail of detailById.values()) {
+    const games = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
+    for (const g of games) {
+      for (const pid of [g.homePlayerId1, g.homePlayerId2, g.awayPlayerId1, g.awayPlayerId2]) {
+        if (pid) playerIdsInMatchups.add(pid);
+      }
+    }
+    const ps = (detail && detail.matchupPlayerStats && detail.matchupPlayerStats.$values) || [];
+    for (const p of ps) {
+      if (p && p.playerId) playerIdsInMatchups.add(p.playerId);
+    }
+  }
+
   // A rostered player who hasn't logged a game yet: real identity, zeroed
   // stats, no rating. Used pre-season and for teams whose first match hasn't
   // been played while the rest of the division is under way.
@@ -444,6 +490,46 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       if (homeTeamByPid[p.playerId] !== p.teamName) continue;
       ensureTeam(p.teamName);
       if (!players.has(p.playerId)) players.set(p.playerId, blankRosterPlayer(p));
+    }
+
+    // Rostered subs (isSub: true) never claim a homeTeamByPid entry — that map
+    // is built from non-sub rows only, on purpose, so a real roster member's
+    // team assignment can't be stolen by a team they merely subbed for. But
+    // that leaves a sub with zero games played (no completed matchup ever put
+    // them in matchupPlayerStats, the only other path onto this Map) with no
+    // row at all: invisible in the roster table even though the Player Finder
+    // already lists them correctly from players.json directly. Second pass, so
+    // a player who is a starter on one team and also rostered as a sub on
+    // another still lands under their starter team (claimed above) rather
+    // than whichever row this loop reaches first.
+    //
+    // Gated on playerIdsInMatchups: a sub who has actually been plugged into a
+    // matchup somewhere — a completed game, or just a posted lineup slot in a
+    // matchup that hasn't been scored yet — gets a row; one who is merely
+    // listed as available to sub, with zero appearances anywhere, does not.
+    // Without this a division's entire sub pool (often dozens of players who
+    // will never suit up) would flood every team's roster table.
+    //
+    // A player can hold more than one sub row (subbing for two teams); pick
+    // the one the roster dedupe would, via claimCanonicalRow, rather than
+    // whichever the API's rank-ordered file happens to list first — same
+    // row-order independence the rest of this function already guarantees.
+    const subRowByPid = {};
+    for (const p of rosterPlayers) {
+      if (!p.playerId || !p.isSub || !p.teamName || !teamNamesWithMatchups.has(p.teamName)) continue;
+      if (players.has(p.playerId)) continue;
+      if (!playerIdsInMatchups.has(p.playerId)) continue;
+      claimCanonicalRow(subRowByPid, p.playerId, p);
+    }
+    for (const p of Object.values(subRowByPid)) {
+      ensureTeam(p.teamName);
+      // outsideSub drives the roster table's "sub" badge (renderPlayerName in
+      // app.js) — the same field and the same test (no homeTeamByPid entry
+      // anywhere in the division) a sub gets once they've actually played, via
+      // the matchupPlayerStats branch below. Computing it identically here
+      // means the badge doesn't change the moment a zero-game sub logs their
+      // first game.
+      players.set(p.playerId, { ...blankRosterPlayer(p), team: p.teamName, outsideSub: !homeTeamByPid[p.playerId] });
     }
   };
 
@@ -483,7 +569,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         time: m.scheduledTime || null,
         complete: false,
       };
-      const pendingGames = buildPendingGames(resolvedDetailById.get(m.matchupId), nameById);
+      const pendingGames = buildPendingGames(resolvedDetailById.get(m.matchupId), nameById, m.homeName, m.awayName, homeTeamByPid);
       if (pendingGames.length) rec.games = pendingGames;
       return rec;
     });
@@ -782,7 +868,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       console.warn(`⚠️ Completed match ${m.matchupId} (${m.homeName} vs ${m.awayName}, week ${m.weekNumber}) has no detail data — game record will show 0–0. Re-run the fetcher to pick up missing scores.`);
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: 0, awayGW: 0, games: [], subs: [] });
     } else if (d) {
-      const pendingGames = buildPendingGames(d, nameById);
+      const pendingGames = buildPendingGames(d, nameById, m.homeName, m.awayName, homeTeamByPid);
       if (pendingGames.length) {
         Object.assign(rec, { games: pendingGames });
       }
@@ -832,7 +918,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       }
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
     } else if (d) {
-      const pendingGames = buildPendingGames(d, nameById);
+      const pendingGames = buildPendingGames(d, nameById, m.homeName, m.awayName, homeTeamByPid);
       if (pendingGames.length) Object.assign(rec, { games: pendingGames });
     }
     playoffs.push(rec);

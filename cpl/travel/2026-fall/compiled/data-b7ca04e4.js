@@ -19,7 +19,6 @@
    "genderLosses": 0,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "44dcab2c-2140-4a79-890a-9b289312c58e",
    "winPct": 100,
    "diff": 56,
    "ppg": 21,
@@ -28,7 +27,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": 1.7,
-   "strengthOfOpponents": -2.4
+   "strengthOfOpponents": -2.4,
+   "playerId": "44dcab2c-2140-4a79-890a-9b289312c58e"
   },
   {
    "name": "Paige Rebeccah Smith",
@@ -251,7 +251,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "262cf0be-4906-46fb-ab84-f4aa760bac58",
    "winPct": 100,
    "diff": 15,
    "ppg": 21,
@@ -260,7 +259,8 @@
    "ratingGames": 4,
    "confidence": 46,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "262cf0be-4906-46fb-ab84-f4aa760bac58"
   },
   {
    "name": "Allyssa Perez",
@@ -541,7 +541,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d",
    "winPct": 85.7,
    "diff": 25,
    "ppg": 20.7,
@@ -550,7 +549,8 @@
    "ratingGames": 6,
    "confidence": 50,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": 0.9
+   "strengthOfOpponents": 0.9,
+   "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
   {
    "name": "Brandon Tsang",
@@ -570,7 +570,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
    "winPct": 85.7,
    "diff": 12,
    "ppg": 19.4,
@@ -579,7 +578,8 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": 2,
-   "strengthOfOpponents": 1.6
+   "strengthOfOpponents": 1.6,
+   "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
   },
   {
    "name": "Srilahari Kunchapu",
@@ -773,7 +773,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "8deca1b3-e530-4424-b4e2-f220bb3beacd",
    "winPct": 83.3,
    "diff": 58,
    "ppg": 19.9,
@@ -782,7 +781,8 @@
    "ratingGames": 12,
    "confidence": 69,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "8deca1b3-e530-4424-b4e2-f220bb3beacd"
   },
   {
    "name": "Anshul Sahu",
@@ -947,7 +947,6 @@
    "genderLosses": 2,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "3e927bec-47db-4d03-ac1c-81b5e9559762",
    "winPct": 81.3,
    "diff": 52,
    "ppg": 19.9,
@@ -956,7 +955,8 @@
    "ratingGames": 16,
    "confidence": 73,
    "strengthOfPartners": 1.1,
-   "strengthOfOpponents": 1.1
+   "strengthOfOpponents": 1.1,
+   "playerId": "3e927bec-47db-4d03-ac1c-81b5e9559762"
   },
   {
    "name": "Nada Abdelkarim",
@@ -1034,7 +1034,6 @@
    "genderLosses": 0,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "4c59cbef-6461-4b0e-a656-d7b5833bf886",
    "winPct": 80,
    "diff": 19,
    "ppg": 20.6,
@@ -1043,7 +1042,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": -1
+   "strengthOfOpponents": -1,
+   "playerId": "4c59cbef-6461-4b0e-a656-d7b5833bf886"
   },
   {
    "name": "Jiangang Li",
@@ -1063,7 +1063,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "2af973bf-1b1f-486d-9193-28fbede57a6b",
    "winPct": 80,
    "diff": 18,
    "ppg": 20,
@@ -1072,7 +1071,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": -0.6,
-   "strengthOfOpponents": -0.7
+   "strengthOfOpponents": -0.7,
+   "playerId": "2af973bf-1b1f-486d-9193-28fbede57a6b"
   },
   {
    "name": "Farhan Chowdhury",
@@ -2455,7 +2455,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c",
    "winPct": 70,
    "diff": 28,
    "ppg": 20.3,
@@ -2464,7 +2463,8 @@
    "ratingGames": 10,
    "confidence": 65,
    "strengthOfPartners": -0.4,
-   "strengthOfOpponents": -0.8
+   "strengthOfOpponents": -0.8,
+   "playerId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c"
   },
   {
    "name": "Sal Cocuzza",
@@ -2484,7 +2484,6 @@
    "genderLosses": 2,
    "clutchWins": 4,
    "clutchLosses": 2,
-   "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a",
    "winPct": 70,
    "diff": 26,
    "ppg": 20.1,
@@ -2493,7 +2492,8 @@
    "ratingGames": 10,
    "confidence": 65,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": 0.7
+   "strengthOfOpponents": 0.7,
+   "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a"
   },
   {
    "name": "Adriel Menendez",
@@ -2542,7 +2542,6 @@
    "genderLosses": 2,
    "clutchWins": 5,
    "clutchLosses": 1,
-   "playerId": "d22f8b69-76a6-41e0-8b04-c5dae68d9f69",
    "winPct": 68.8,
    "diff": 25,
    "ppg": 19.7,
@@ -2551,7 +2550,8 @@
    "ratingGames": 16,
    "confidence": 71,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.1
+   "strengthOfOpponents": 0.1,
+   "playerId": "d22f8b69-76a6-41e0-8b04-c5dae68d9f69"
   },
   {
    "name": "Paul Iacullo",
@@ -2977,7 +2977,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "666618c5-e90e-4370-9b42-773ac384f7de",
    "winPct": 66.7,
    "diff": 29,
    "ppg": 19.1,
@@ -2986,7 +2985,8 @@
    "ratingGames": 12,
    "confidence": 69,
    "strengthOfPartners": 1.7,
-   "strengthOfOpponents": 1.4
+   "strengthOfOpponents": 1.4,
+   "playerId": "666618c5-e90e-4370-9b42-773ac384f7de"
   },
   {
    "name": "Christine Algozo",
@@ -3586,7 +3586,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 3,
-   "playerId": "e65bcc7b-3862-4331-868f-6abe34bfbfe6",
    "winPct": 63.6,
    "diff": 16,
    "ppg": 20.2,
@@ -3595,7 +3594,8 @@
    "ratingGames": 11,
    "confidence": 69,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "e65bcc7b-3862-4331-868f-6abe34bfbfe6"
   },
   {
    "name": "Michele Chai",
@@ -4514,7 +4514,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "ac3c96d1-826e-47ef-be99-6e97e16867b4",
    "winPct": 60,
    "diff": 8,
    "ppg": 18.8,
@@ -4523,7 +4522,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": 0.8,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "ac3c96d1-826e-47ef-be99-6e97e16867b4"
   },
   {
    "name": "Richie Mizrahi",
@@ -4978,7 +4978,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802",
    "winPct": 57.1,
    "diff": 28,
    "ppg": 19.6,
@@ -4987,7 +4986,8 @@
    "ratingGames": 7,
    "confidence": 57,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802"
   },
   {
    "name": "Jennifer Minehan",
@@ -5036,7 +5036,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "3651f648-493a-4517-8085-a8b9cb086c07",
    "winPct": 57.1,
    "diff": 14,
    "ppg": 20.1,
@@ -5045,7 +5044,8 @@
    "ratingGames": 7,
    "confidence": 58,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -1.8
+   "strengthOfOpponents": -1.8,
+   "playerId": "3651f648-493a-4517-8085-a8b9cb086c07"
   },
   {
    "name": "Carly Cebek",
@@ -5123,7 +5123,6 @@
    "genderLosses": 3,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
    "winPct": 57.1,
    "diff": 0,
    "ppg": 19.3,
@@ -5132,7 +5131,8 @@
    "ratingGames": 7,
    "confidence": 56,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "1318bc01-f23f-47da-94cb-ac71b8f3e694"
   },
   {
    "name": "Kong Vu",
@@ -6776,7 +6776,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3",
    "winPct": 50,
    "diff": -1,
    "ppg": 17.8,
@@ -6785,7 +6784,8 @@
    "ratingGames": 6,
    "confidence": 54,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3"
   },
   {
    "name": "Gianna Medeiros",
@@ -6834,7 +6834,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 3,
-   "playerId": "a06e906c-dd36-4585-b03a-48a49b915662",
    "winPct": 50,
    "diff": -2,
    "ppg": 19.1,
@@ -6843,7 +6842,8 @@
    "ratingGames": 8,
    "confidence": 59,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.8
+   "strengthOfOpponents": -0.8,
+   "playerId": "a06e906c-dd36-4585-b03a-48a49b915662"
   },
   {
    "name": "Emily Sheetz",
@@ -7646,7 +7646,6 @@
    "genderLosses": 6,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
    "winPct": 43.8,
    "diff": 11,
    "ppg": 18.2,
@@ -7655,7 +7654,8 @@
    "ratingGames": 16,
    "confidence": 74,
    "strengthOfPartners": -1,
-   "strengthOfOpponents": 0.7
+   "strengthOfOpponents": 0.7,
+   "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1"
   },
   {
    "name": "Zach Strickland",
@@ -7704,7 +7704,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "53019cc2-8e6a-4807-88d1-10d1fb0a480d",
    "winPct": 42.9,
    "diff": 5,
    "ppg": 19,
@@ -7713,7 +7712,8 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "53019cc2-8e6a-4807-88d1-10d1fb0a480d"
   },
   {
    "name": "Allison Hartman",
@@ -7762,7 +7762,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "aa3ff639-39f1-4ad1-8f0d-3c8aa4ca407d",
    "winPct": 42.9,
    "diff": 0,
    "ppg": 18.3,
@@ -7771,7 +7770,8 @@
    "ratingGames": 7,
    "confidence": 57,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": 1
+   "strengthOfOpponents": 1,
+   "playerId": "aa3ff639-39f1-4ad1-8f0d-3c8aa4ca407d"
   },
   {
    "name": "Bruno Maguino",
@@ -8139,7 +8139,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9",
    "winPct": 40,
    "diff": -1,
    "ppg": 18.2,
@@ -8148,7 +8147,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": 0.7,
-   "strengthOfOpponents": 1.1
+   "strengthOfOpponents": 1.1,
+   "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9"
   },
   {
    "name": "Nam Le",
@@ -8168,7 +8168,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "e33746ea-3a32-407f-a98c-c963888ed9f7",
    "winPct": 40,
    "diff": -2,
    "ppg": 19.2,
@@ -8177,7 +8176,8 @@
    "ratingGames": 5,
    "confidence": 50,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.4
+   "strengthOfOpponents": 0.4,
+   "playerId": "e33746ea-3a32-407f-a98c-c963888ed9f7"
   },
   {
    "name": "Jiyun Yuh",
@@ -8458,7 +8458,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "01b07803-1dfa-49a6-9ea6-9e0ce7c42fcd",
    "winPct": 40,
    "diff": -15,
    "ppg": 17,
@@ -8467,7 +8466,8 @@
    "ratingGames": 5,
    "confidence": 50,
    "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "01b07803-1dfa-49a6-9ea6-9e0ce7c42fcd"
   },
   {
    "name": "Pallavi Deshpande",
@@ -8980,7 +8980,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 4,
-   "playerId": "4a7ff0ee-289b-4ab2-833f-8af1a7f34353",
    "winPct": 37.5,
    "diff": 0,
    "ppg": 19.6,
@@ -8989,7 +8988,8 @@
    "ratingGames": 8,
    "confidence": 58,
    "strengthOfPartners": 1.9,
-   "strengthOfOpponents": 2.4
+   "strengthOfOpponents": 2.4,
+   "playerId": "4a7ff0ee-289b-4ab2-833f-8af1a7f34353"
   },
   {
    "name": "Sharon Lee",
@@ -9009,7 +9009,6 @@
    "genderLosses": 1,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "464aae5d-1063-4fb8-b624-9c80aa33989a",
    "winPct": 37.5,
    "diff": -6,
    "ppg": 17.5,
@@ -9018,7 +9017,8 @@
    "ratingGames": 8,
    "confidence": 58,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.9
+   "strengthOfOpponents": 0.9,
+   "playerId": "464aae5d-1063-4fb8-b624-9c80aa33989a"
   },
   {
    "name": "Donavin Van Ee",
@@ -9096,7 +9096,6 @@
    "genderLosses": 3,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
    "winPct": 37.5,
    "diff": -27,
    "ppg": 16.9,
@@ -9105,7 +9104,8 @@
    "ratingGames": 8,
    "confidence": 56,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": -0.9
+   "strengthOfOpponents": -0.9,
+   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003"
   },
   {
    "name": "Christy Zhang",
@@ -9589,7 +9589,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "ad15f00a-92d4-4825-8aea-bc2217f75876",
    "winPct": 33.3,
    "diff": -8,
    "ppg": 17.2,
@@ -9598,7 +9597,8 @@
    "ratingGames": 6,
    "confidence": 49,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.4
+   "strengthOfOpponents": 0.4,
+   "playerId": "ad15f00a-92d4-4825-8aea-bc2217f75876"
   },
   {
    "name": "David Martinez",
@@ -9618,7 +9618,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "c617d3cc-64e2-490e-a0f9-90eb87662965",
    "winPct": 33.3,
    "diff": -16,
    "ppg": 17.2,
@@ -9627,7 +9626,8 @@
    "ratingGames": 6,
    "confidence": 51,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "c617d3cc-64e2-490e-a0f9-90eb87662965"
   },
   {
    "name": "Rebecca Mcginnis",
@@ -10198,7 +10198,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7",
    "winPct": 30,
    "diff": -40,
    "ppg": 15.4,
@@ -10207,7 +10206,8 @@
    "ratingGames": 10,
    "confidence": 66,
    "strengthOfPartners": -1.6,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7"
   },
   {
    "name": "Matthew Landis",
@@ -10314,7 +10314,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 3,
-   "playerId": "689297e9-fd2b-4cb4-b21e-8f2576b58c6f",
    "winPct": 28.6,
    "diff": 7,
    "ppg": 19.1,
@@ -10323,7 +10322,8 @@
    "ratingGames": 7,
    "confidence": 58,
    "strengthOfPartners": -1.1,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "689297e9-fd2b-4cb4-b21e-8f2576b58c6f"
   },
   {
    "name": "Alex Glushek",
@@ -10401,7 +10401,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "c590cb70-93c6-439d-8ae4-2ecff6b57c4e",
    "winPct": 28.6,
    "diff": -26,
    "ppg": 16.4,
@@ -10410,7 +10409,8 @@
    "ratingGames": 7,
    "confidence": 55,
    "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "c590cb70-93c6-439d-8ae4-2ecff6b57c4e"
   },
   {
    "name": "Danny Ruiz",
@@ -10807,7 +10807,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "e63261d1-1ce7-4770-83a2-1b78a91aa853",
    "winPct": 25,
    "diff": -8,
    "ppg": 17,
@@ -10816,7 +10815,8 @@
    "ratingGames": 4,
    "confidence": 43,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "e63261d1-1ce7-4770-83a2-1b78a91aa853"
   },
   {
    "name": "Albert Fuimano",
@@ -10836,7 +10836,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "a0bb8173-1260-4bb2-aa72-ec83fb0925a4",
    "winPct": 25,
    "diff": -19,
    "ppg": 15.3,
@@ -10845,36 +10844,8 @@
    "ratingGames": 4,
    "confidence": 43,
    "strengthOfPartners": 0.2,
-   "strengthOfOpponents": -0.6
-  },
-  {
-   "name": "Lay Wassana",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 8,
-   "wins": 2,
-   "losses": 6,
-   "pointsWon": 139,
-   "totalPointsAgainst": 163,
-   "mixedWins": 2,
-   "mixedLosses": 2,
-   "genderWins": 0,
-   "genderLosses": 4,
-   "clutchWins": 1,
-   "clutchLosses": 0,
-   "playerId": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
-   "winPct": 25,
-   "diff": -24,
-   "ppg": 17.4,
-   "leagueRank": 377,
-   "rating": -0.3,
-   "ratingGames": 8,
-   "confidence": 60,
-   "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": -0.6,
+   "playerId": "a0bb8173-1260-4bb2-aa72-ec83fb0925a4"
   },
   {
    "name": "Jaclyn Kulich",
@@ -10894,7 +10865,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 3,
-   "playerId": "45c7a6e9-210c-4024-bb01-d903737218b5",
    "winPct": 25,
    "diff": -24,
    "ppg": 17.1,
@@ -10903,7 +10873,37 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": 1.7
+   "strengthOfOpponents": 1.7,
+   "playerId": "45c7a6e9-210c-4024-bb01-d903737218b5"
+  },
+  {
+   "name": "Lay Wassana",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 8,
+   "wins": 2,
+   "losses": 6,
+   "pointsWon": 139,
+   "totalPointsAgainst": 163,
+   "mixedWins": 2,
+   "mixedLosses": 2,
+   "genderWins": 0,
+   "genderLosses": 4,
+   "clutchWins": 1,
+   "clutchLosses": 0,
+   "winPct": 25,
+   "diff": -24,
+   "ppg": 17.4,
+   "leagueRank": 377,
+   "rating": -0.3,
+   "ratingGames": 8,
+   "confidence": 60,
+   "strengthOfPartners": 0.1,
+   "strengthOfOpponents": 1.3,
+   "playerId": "875dfc40-0613-428f-8bb7-0e9f29e7ee78"
   },
   {
    "name": "Laura Govan",
@@ -10981,7 +10981,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "b92a5442-fd20-4e2f-896b-26cc5cfa5ea5",
    "winPct": 25,
    "diff": -35,
    "ppg": 15,
@@ -10990,7 +10989,8 @@
    "ratingGames": 8,
    "confidence": 58,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": 1.2
+   "strengthOfOpponents": 1.2,
+   "playerId": "b92a5442-fd20-4e2f-896b-26cc5cfa5ea5"
   },
   {
    "name": "Kim Allaga",
@@ -11010,7 +11010,6 @@
    "genderLosses": 4,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "8b5758f2-97ae-47a9-a477-f51a8e7c8f78",
    "winPct": 25,
    "diff": -36,
    "ppg": 15.5,
@@ -11019,7 +11018,8 @@
    "ratingGames": 8,
    "confidence": 59,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 1.7
+   "strengthOfOpponents": 1.7,
+   "playerId": "8b5758f2-97ae-47a9-a477-f51a8e7c8f78"
   },
   {
    "name": "Monika Torbus",
@@ -11068,7 +11068,6 @@
    "genderLosses": 6,
    "clutchWins": 3,
    "clutchLosses": 3,
-   "playerId": "95bb08f8-b0f7-4849-852e-6bebeb9e3e53",
    "winPct": 25,
    "diff": -37,
    "ppg": 17.4,
@@ -11077,7 +11076,8 @@
    "ratingGames": 12,
    "confidence": 67,
    "strengthOfPartners": -0.8,
-   "strengthOfOpponents": 1.4
+   "strengthOfOpponents": 1.4,
+   "playerId": "95bb08f8-b0f7-4849-852e-6bebeb9e3e53"
   },
   {
    "name": "Nick Sotera",
@@ -11532,7 +11532,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "a414cff9-d942-47f8-848f-c50abc9c71eb",
    "winPct": 20,
    "diff": -9,
    "ppg": 18.8,
@@ -11541,7 +11540,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": -1.3,
-   "strengthOfOpponents": -0.1
+   "strengthOfOpponents": -0.1,
+   "playerId": "a414cff9-d942-47f8-848f-c50abc9c71eb"
   },
   {
    "name": "Justyna Wojdyla",
@@ -11677,7 +11677,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "977cdf55-4eb4-47c2-8bc5-4553479c5e13",
    "winPct": 20,
    "diff": -26,
    "ppg": 15.4,
@@ -11686,7 +11685,8 @@
    "ratingGames": 5,
    "confidence": 50,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 1
+   "strengthOfOpponents": 1,
+   "playerId": "977cdf55-4eb4-47c2-8bc5-4553479c5e13"
   },
   {
    "name": "Olivia Lee",
@@ -12025,7 +12025,6 @@
    "genderLosses": 5,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "86f2dec9-e26a-42ad-af36-d0bdc392196d",
    "winPct": 18.2,
    "diff": -78,
    "ppg": 13.2,
@@ -12034,7 +12033,8 @@
    "ratingGames": 11,
    "confidence": 67,
    "strengthOfPartners": -2.9,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "86f2dec9-e26a-42ad-af36-d0bdc392196d"
   },
   {
    "name": "Daniel Seng",
@@ -12141,7 +12141,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "447b08ee-f4b1-4b43-b2ff-bdc780b908b5",
    "winPct": 16.7,
    "diff": -24,
    "ppg": 16.7,
@@ -12150,7 +12149,8 @@
    "ratingGames": 6,
    "confidence": 52,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 1
+   "strengthOfOpponents": 1,
+   "playerId": "447b08ee-f4b1-4b43-b2ff-bdc780b908b5"
   },
   {
    "name": "Laura Spilatro",
@@ -12170,7 +12170,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "459df1a4-6663-4d9e-9b05-bf33f5e9d8ea",
    "winPct": 16.7,
    "diff": -28,
    "ppg": 14.8,
@@ -12179,7 +12178,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 1.6
+   "strengthOfOpponents": 1.6,
+   "playerId": "459df1a4-6663-4d9e-9b05-bf33f5e9d8ea"
   },
   {
    "name": "Abigail Barger",
@@ -12605,7 +12605,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
    "winPct": 14.3,
    "diff": -29,
    "ppg": 15.4,
@@ -12614,7 +12613,8 @@
    "ratingGames": 7,
    "confidence": 56,
    "strengthOfPartners": -2.8,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.3,
+   "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984"
   },
   {
    "name": "May Wang",
@@ -12663,7 +12663,6 @@
    "genderLosses": 6,
    "clutchWins": 2,
    "clutchLosses": 4,
-   "playerId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5",
    "winPct": 13.3,
    "diff": -72,
    "ppg": 15.9,
@@ -12672,7 +12671,8 @@
    "ratingGames": 15,
    "confidence": 72,
    "strengthOfPartners": -0.6,
-   "strengthOfOpponents": 1.4
+   "strengthOfOpponents": 1.4,
+   "playerId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5"
   },
   {
    "name": "Trevor Copeland",
@@ -13574,6 +13574,93 @@
    "playerId": "f64588f1-c347-41c7-b229-5c718f73574d"
   },
   {
+   "name": "Andrea Bramante",
+   "gender": "Female",
+   "team": "Pickle Juice Blackwood",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 480,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9e585ba7-f38c-4948-89bc-2947c22df08b"
+  },
+  {
+   "name": "Nikhil Sachdeva",
+   "gender": "Male",
+   "team": "Pickle Juice Blackwood",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 540,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a"
+  },
+  {
+   "name": "Tang Vu",
+   "gender": "Male",
+   "team": "Pickle Juice Blackwood",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 547,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b9cd3f6d-4513-4966-881c-72f6cf5b7746"
+  },
+  {
    "name": "Quaiser Imam",
    "gender": "Male",
    "team": "ACE Downingtown",
@@ -13620,7 +13707,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "e4c338f7-bc8e-4e1c-bcb7-cb4aad1dbfc0",
    "winPct": 0,
    "diff": -21,
    "ppg": 15.8,
@@ -13629,7 +13715,8 @@
    "ratingGames": 4,
    "confidence": 42,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.4
+   "strengthOfOpponents": 0.4,
+   "playerId": "e4c338f7-bc8e-4e1c-bcb7-cb4aad1dbfc0"
   },
   {
    "name": "Nico Torres",
@@ -13678,7 +13765,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 4,
-   "playerId": "81abfb04-0994-4144-9d27-5c37354151cf",
    "winPct": 0,
    "diff": -23,
    "ppg": 17.2,
@@ -13687,7 +13773,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": -2.1,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "81abfb04-0994-4144-9d27-5c37354151cf"
   },
   {
    "name": "Christopher Balan",
@@ -13707,7 +13794,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 3,
-   "playerId": "5fa834df-5bb9-4aac-9980-66962cb6f0a1",
    "winPct": 0,
    "diff": -25,
    "ppg": 16.8,
@@ -13716,7 +13802,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": 0.4,
-   "strengthOfOpponents": 1.8
+   "strengthOfOpponents": 1.8,
+   "playerId": "5fa834df-5bb9-4aac-9980-66962cb6f0a1"
   },
   {
    "name": "Iqra Hasan-Calmo",
@@ -13736,7 +13823,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "29c4170e-eb9f-400b-bc22-92f83e056e22",
    "winPct": 0,
    "diff": -28,
    "ppg": 15.4,
@@ -13745,7 +13831,8 @@
    "ratingGames": 5,
    "confidence": 48,
    "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -0.3
+   "strengthOfOpponents": -0.3,
+   "playerId": "29c4170e-eb9f-400b-bc22-92f83e056e22"
   },
   {
    "name": "Catherine Wang",
@@ -13765,7 +13852,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "bfdfbea0-92ee-43e3-a30f-bec197d4fa0a",
    "winPct": 0,
    "diff": -28,
    "ppg": 15.4,
@@ -13774,7 +13860,8 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0.3
+   "strengthOfOpponents": 0.3,
+   "playerId": "bfdfbea0-92ee-43e3-a30f-bec197d4fa0a"
   },
   {
    "name": "Cynthia Li",
@@ -13910,7 +13997,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c",
    "winPct": 0,
    "diff": -41,
    "ppg": 14.2,
@@ -13919,7 +14005,8 @@
    "ratingGames": 6,
    "confidence": 53,
    "strengthOfPartners": -2.9,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c"
   },
   {
    "name": "Mira Sigal-Feldman",
@@ -14055,7 +14142,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "b9f7d35c-f183-41ea-99dd-52c790480ff1",
    "winPct": 0,
    "diff": -52,
    "ppg": 14.5,
@@ -14064,7 +14150,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -1.7,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "b9f7d35c-f183-41ea-99dd-52c790480ff1"
   },
   {
    "name": "Shukling Parker",
@@ -14084,7 +14171,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "8b9a1a95-0599-42bc-b233-e24609d11e07",
    "winPct": 0,
    "diff": -56,
    "ppg": 14,
@@ -14093,7 +14179,8 @@
    "ratingGames": 8,
    "confidence": 59,
    "strengthOfPartners": -0.4,
-   "strengthOfOpponents": 2
+   "strengthOfOpponents": 2,
+   "playerId": "8b9a1a95-0599-42bc-b233-e24609d11e07"
   },
   {
    "name": "Cade Chrebet",
@@ -14142,7 +14229,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29",
    "winPct": 0,
    "diff": -63,
    "ppg": 12,
@@ -14151,7 +14237,8 @@
    "ratingGames": 7,
    "confidence": 56,
    "strengthOfPartners": -3.5,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.3,
+   "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29"
   },
   {
    "name": "Steven Koo",
@@ -14200,7 +14287,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "05b42ddf-68a1-4468-bbaf-44bd9ed27abc",
    "winPct": 0,
    "diff": -70,
    "ppg": 9.3,
@@ -14209,7 +14295,8 @@
    "ratingGames": 6,
    "confidence": 52,
    "strengthOfPartners": -2.1,
-   "strengthOfOpponents": 1.7
+   "strengthOfOpponents": 1.7,
+   "playerId": "05b42ddf-68a1-4468-bbaf-44bd9ed27abc"
   },
   {
    "name": "Amr Shaheed",
@@ -48028,6 +48115,10 @@
      "a": [
       "Victoria Young",
       "Nikhil Sachdeva"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48072,6 +48163,10 @@
      "a": [
       "Eileen Potter",
       "Andrea Bramante"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48105,6 +48200,10 @@
      "a": [
       "Jon Palabay",
       "Tang Vu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48116,6 +48215,10 @@
      "a": [
       "Tiffany Weis",
       "Nikhil Sachdeva"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48160,6 +48263,10 @@
      "a": [
       "Magnolia Lau",
       "Andrea Bramante"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48182,6 +48289,10 @@
      "a": [
       "Nikhil Sachdeva",
       "Jon Palabay"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -48193,6 +48304,10 @@
      "a": [
       "Simon Darlington",
       "Tang Vu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48226,6 +48341,10 @@
      "a": [
       "Tiffany Weis",
       "Tang Vu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48248,6 +48367,10 @@
      "a": [
       "Eileen Potter",
       "Andrea Bramante"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48270,6 +48393,10 @@
      "a": [
       "Jon Palabay",
       "Nikhil Sachdeva"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48281,6 +48408,10 @@
      "a": [
       "Simon Darlington",
       "Tang Vu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48292,6 +48423,10 @@
      "a": [
       "Victoria Young",
       "Nikhil Sachdeva"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -48325,6 +48460,10 @@
      "a": [
       "Andrea Bramante",
       "Brian Cook"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -48358,6 +48497,10 @@
      "a": [
       "Skylar Bobadilla",
       "Tang Vu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50506,15 +50649,12 @@
   "Thuy Nguyen": "8ea3584b-11a3-4d0c-ace0-bce5bd3a00f1",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "Kaylee Ritchie": "97afd4ef-139b-43d3-bc43-1e8f4a50ef89",
-  "Andrea Bramante": "9e585ba7-f38c-4948-89bc-2947c22df08b",
   "Solomon Kam": "9ea93639-7caf-4530-9b10-e89f11ff5050",
   "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
-  "Nikhil Sachdeva": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
   "Tyler Raboy": "aba00534-f2c3-4f27-a9ce-6d9b8a440258",
   "Lucy Shao": "adeb473c-c162-4d73-bbc1-96ffbd94f53f",
   "Andrew Spencer": "b1af592e-2dc0-4273-9b6e-13b8a6eff673",
   "Nate Mounelasy": "b58e4abc-d616-4b3d-b8f1-7ae0e222d8b8",
-  "Tang Vu": "b9cd3f6d-4513-4966-881c-72f6cf5b7746",
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
   "Todd Fagan": "bf370c20-c27a-4555-8410-5073dc29d1d0",
   "Jim Fett": "c14e8948-35aa-4a6f-b8ac-a5c41c75063f",
@@ -50538,7 +50678,7 @@
   "matchesPlayed": 56,
   "provisionalMatches": 1,
   "weeks": "1-4",
-  "totalPlayers": 493,
+  "totalPlayers": 496,
   "ratingHistoryWeeks": [
    {
     "week": 1,

@@ -150752,6 +150752,199 @@
   ],
   "partners": []
  },
+ "45c7a6e9-210c-4024-bb01-d903737218b5": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 137,
+    "pa": 161,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Yashraj Kurani",
+    "vs": [
+     "Alexandra Sierer",
+     "Todd Green"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Suki Wong",
+    "vs": [
+     "Christine Algozo",
+     "Jess Cox"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Prashanth Koshy",
+    "vs": [
+     "Christine Algozo",
+     "Kamal D"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Shukling Parker",
+    "vs": [
+     "Sarah Law",
+     "Addy Aquino"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Varun Kabaria",
+    "vs": [
+     "Addy Aquino",
+     "Sal Cocuzza"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Suki Wong",
+    "vs": [
+     "Jess Cox",
+     "Alexandra Sierer"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "George Vega Jr",
+    "vs": [
+     "Alexa Laniado",
+     "Abdullah Osman"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Michelle Burke",
+    "vs": [
+     "Alexa Laniado",
+     "Sarah Law"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.3,
+    "confidence": 60,
+    "rank": 204,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.6,
+    "confidence": 61,
+    "rank": 188,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
  "875dfc40-0613-428f-8bb7-0e9f29e7ee78": {
   "log": [
    {
@@ -150948,199 +151141,6 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": []
- },
- "45c7a6e9-210c-4024-bb01-d903737218b5": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Montville",
-    "homeAway": "A",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 137,
-    "pa": 161,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Yashraj Kurani",
-    "vs": [
-     "Alexandra Sierer",
-     "Todd Green"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Suki Wong",
-    "vs": [
-     "Christine Algozo",
-     "Jess Cox"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Prashanth Koshy",
-    "vs": [
-     "Christine Algozo",
-     "Kamal D"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Shukling Parker",
-    "vs": [
-     "Sarah Law",
-     "Addy Aquino"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Varun Kabaria",
-    "vs": [
-     "Addy Aquino",
-     "Sal Cocuzza"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Suki Wong",
-    "vs": [
-     "Jess Cox",
-     "Alexandra Sierer"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "George Vega Jr",
-    "vs": [
-     "Alexa Laniado",
-     "Abdullah Osman"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Michelle Burke",
-    "vs": [
-     "Alexa Laniado",
-     "Sarah Law"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.3,
-    "confidence": 60,
-    "rank": 204,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.6,
-    "confidence": 61,
-    "rank": 188,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 1.7
    }
   ],
   "partners": []

@@ -48,7 +48,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "3aa34138-1989-4d89-b656-3e0c44b23b6f",
    "winPct": 87.5,
    "diff": 31,
    "ppg": 20.8,
@@ -57,7 +56,8 @@
    "ratingGames": 8,
    "confidence": 60,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": -1
+   "strengthOfOpponents": -1,
+   "playerId": "3aa34138-1989-4d89-b656-3e0c44b23b6f"
   },
   {
    "name": "Tessa Arendt",
@@ -135,7 +135,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada",
    "winPct": 75,
    "diff": 20,
    "ppg": 19.3,
@@ -144,7 +143,8 @@
    "ratingGames": 8,
    "confidence": 63,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": 1.5
+   "strengthOfOpponents": 1.5,
+   "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada"
   },
   {
    "name": "Varun Gurram",
@@ -222,7 +222,6 @@
    "genderLosses": 0,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "6c8e2373-9549-4f25-9cbf-4264745eda64",
    "winPct": 71.4,
    "diff": 20,
    "ppg": 18.3,
@@ -231,7 +230,8 @@
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": -0.8,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "6c8e2373-9549-4f25-9cbf-4264745eda64"
   },
   {
    "name": "Rakshit Maddur Gopinath",
@@ -889,7 +889,6 @@
    "genderLosses": 1,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "95b1b428-2e56-4578-8cb3-574954ba8922",
    "winPct": 50,
    "diff": 7,
    "ppg": 17.6,
@@ -898,7 +897,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -1,
-   "strengthOfOpponents": -0.4
+   "strengthOfOpponents": -0.4,
+   "playerId": "95b1b428-2e56-4578-8cb3-574954ba8922"
   },
   {
    "name": "Perri Goldstein",
@@ -1005,7 +1005,6 @@
    "genderLosses": 4,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "bbaf3def-a87b-4537-8701-4f5ae0108b1f",
    "winPct": 46.7,
    "diff": 0,
    "ppg": 18.3,
@@ -1014,7 +1013,8 @@
    "ratingGames": 15,
    "confidence": 73,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": 0.7
+   "strengthOfOpponents": 0.7,
+   "playerId": "bbaf3def-a87b-4537-8701-4f5ae0108b1f"
   },
   {
    "name": "Tom Laiso",
@@ -1295,7 +1295,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "22123177-1eb2-4285-bc92-f75799e175dd",
    "winPct": 37.5,
    "diff": 6,
    "ppg": 17.5,
@@ -1304,7 +1303,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.3
+   "strengthOfOpponents": 0.3,
+   "playerId": "22123177-1eb2-4285-bc92-f75799e175dd"
   },
   {
    "name": "Nick Babinsky",
@@ -1817,7 +1817,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "5b600631-57fc-476c-9bbb-6951d5ffd294",
    "winPct": 0,
    "diff": -63,
    "ppg": 13.1,
@@ -1826,7 +1825,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": -1.1,
-   "strengthOfOpponents": 1.5
+   "strengthOfOpponents": 1.5,
+   "playerId": "5b600631-57fc-476c-9bbb-6951d5ffd294"
   }
  ],
  "teams": [

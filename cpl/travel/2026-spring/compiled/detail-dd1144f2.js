@@ -244095,6 +244095,201 @@
    }
   ]
  },
+ "842397fe-88e6-4e5b-b0c1-4a84c7d8006c": {
+  "log": [
+   {
+    "week": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 105,
+    "pa": 114,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   }
+  ],
+  "games": [
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "female",
+    "with": "Lara Gedeon",
+    "vs": [
+     "Asiya Khaki",
+     "Ceil Gomez"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "mixed",
+    "with": "Bo Blaine Gumalo",
+    "vs": [
+     "Asiya Khaki",
+     "Tristan Lane"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   },
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "mixed",
+    "with": "Adam Moro",
+    "vs": [
+     "Ceil Gomez",
+     "Drew Youssef"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "female",
+    "with": "Brooke Castillo",
+    "vs": [
+     "Asiya Khaki",
+     "Rachel Villarama"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   },
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "mixed",
+    "with": "Leon Trofimchuk",
+    "vs": [
+     "Ceil Gomez",
+     "James Harabedian Jr"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 9,
+    "opp": "Pickleball Kingdom Watchung Jokers",
+    "t": "female",
+    "with": "Lara Gedeon",
+    "vs": [
+     "Roxanne Entrada",
+     "Ceil Gomez"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 9,
+    "seq": 11,
+    "label": "9",
+    "rating": -1.9,
+    "confidence": 51,
+    "rank": 369,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": -1.8,
+    "confidence": 51,
+    "rank": 369,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -1.6,
+    "confidence": 54,
+    "rank": 366,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -1.7,
+    "confidence": 54,
+    "rank": 372,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
  "8ca35ad2-5720-477e-b2a2-21a4c9e34e2a": {
   "log": [
    {
@@ -244322,201 +244517,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": []
- },
- "842397fe-88e6-4e5b-b0c1-4a84c7d8006c": {
-  "log": [
-   {
-    "week": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 105,
-    "pa": 114,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   }
-  ],
-  "games": [
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "female",
-    "with": "Lara Gedeon",
-    "vs": [
-     "Asiya Khaki",
-     "Ceil Gomez"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "mixed",
-    "with": "Bo Blaine Gumalo",
-    "vs": [
-     "Asiya Khaki",
-     "Tristan Lane"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   },
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "mixed",
-    "with": "Adam Moro",
-    "vs": [
-     "Ceil Gomez",
-     "Drew Youssef"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "female",
-    "with": "Brooke Castillo",
-    "vs": [
-     "Asiya Khaki",
-     "Rachel Villarama"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   },
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "mixed",
-    "with": "Leon Trofimchuk",
-    "vs": [
-     "Ceil Gomez",
-     "James Harabedian Jr"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 9,
-    "opp": "Pickleball Kingdom Watchung Jokers",
-    "t": "female",
-    "with": "Lara Gedeon",
-    "vs": [
-     "Roxanne Entrada",
-     "Ceil Gomez"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 9,
-    "seq": 11,
-    "label": "9",
-    "rating": -1.9,
-    "confidence": 51,
-    "rank": 369,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": -1.8,
-    "confidence": 51,
-    "rank": 369,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -1.6,
-    "confidence": 54,
-    "rank": 366,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -1.7,
-    "confidence": 54,
-    "rank": 372,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1
    }
   ],
   "partners": []

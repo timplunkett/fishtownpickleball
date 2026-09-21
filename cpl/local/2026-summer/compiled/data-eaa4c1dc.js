@@ -19,7 +19,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3",
    "winPct": 87.5,
    "diff": 33,
    "ppg": 20.8,
@@ -28,7 +27,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3"
   },
   {
    "name": "Ross Switkes",
@@ -222,7 +222,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "a3dbb909-29a5-4aa0-a40f-42bed311f9cd",
    "winPct": 66.7,
    "diff": 3,
    "ppg": 19.8,
@@ -231,7 +230,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "a3dbb909-29a5-4aa0-a40f-42bed311f9cd"
   },
   {
    "name": "Susan Ackley",
@@ -280,7 +280,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
    "winPct": 62.5,
    "diff": -8,
    "ppg": 18.1,
@@ -289,7 +288,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28"
   },
   {
    "name": "Scott Rubin",
@@ -483,7 +483,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "8ebf2370-8a82-495e-97ea-5168dd2b14c4",
    "winPct": 58.3,
    "diff": 9,
    "ppg": 18.5,
@@ -492,7 +491,8 @@
    "ratingGames": 12,
    "confidence": 71,
    "strengthOfPartners": -0.6,
-   "strengthOfOpponents": -0.9
+   "strengthOfOpponents": -0.9,
+   "playerId": "8ebf2370-8a82-495e-97ea-5168dd2b14c4"
   },
   {
    "name": "Jamison Rowles",
@@ -512,7 +512,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "cae7c2db-b4d5-4927-9c44-ff92176b5507",
    "winPct": 57.1,
    "diff": 9,
    "ppg": 19.1,
@@ -521,7 +520,8 @@
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": 2,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "cae7c2db-b4d5-4927-9c44-ff92176b5507"
   },
   {
    "name": "Johanna Kreilick",
@@ -541,7 +541,6 @@
    "genderLosses": 4,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
    "winPct": 56.3,
    "diff": 12,
    "ppg": 18.6,
@@ -550,7 +549,8 @@
    "ratingGames": 16,
    "confidence": 76,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
   },
   {
    "name": "Bob Drinane",
@@ -570,7 +570,6 @@
    "genderLosses": 8,
    "clutchWins": 6,
    "clutchLosses": 5,
-   "playerId": "1611fcd8-0e53-4b13-b061-d588d0bde0fd",
    "winPct": 53.3,
    "diff": 43,
    "ppg": 19,
@@ -579,7 +578,8 @@
    "ratingGames": 30,
    "confidence": 84,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "1611fcd8-0e53-4b13-b061-d588d0bde0fd"
   },
   {
    "name": "Christine Ferraez",
@@ -860,7 +860,6 @@
    "genderLosses": 6,
    "clutchWins": 4,
    "clutchLosses": 1,
-   "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0",
    "winPct": 47.6,
    "diff": -36,
    "ppg": 17.1,
@@ -869,7 +868,8 @@
    "ratingGames": 21,
    "confidence": 80,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0"
   },
   {
    "name": "Steven Gregov",
@@ -947,7 +947,6 @@
    "genderLosses": 4,
    "clutchWins": 3,
    "clutchLosses": 4,
-   "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530",
    "winPct": 46.7,
    "diff": -3,
    "ppg": 18.7,
@@ -956,7 +955,8 @@
    "ratingGames": 15,
    "confidence": 73,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 0.8
+   "strengthOfOpponents": 0.8,
+   "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530"
   },
   {
    "name": "Noelle Villa",
@@ -1353,7 +1353,6 @@
    "genderLosses": 7,
    "clutchWins": 2,
    "clutchLosses": 4,
-   "playerId": "77234c18-83ca-4180-8a45-181f7d347542",
    "winPct": 36.4,
    "diff": -39,
    "ppg": 17.5,
@@ -1362,7 +1361,8 @@
    "ratingGames": 22,
    "confidence": 79,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 0.7
+   "strengthOfOpponents": 0.7,
+   "playerId": "77234c18-83ca-4180-8a45-181f7d347542"
   },
   {
    "name": "John Fallone",

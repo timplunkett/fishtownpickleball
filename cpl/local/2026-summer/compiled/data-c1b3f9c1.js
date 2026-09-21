@@ -47,7 +47,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
    "winPct": 85.7,
    "diff": 28,
    "ppg": 20.1,
@@ -56,7 +55,8 @@
    "ratingGames": 7,
    "confidence": 58,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.3,
+   "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc"
   },
   {
    "name": "Coleen Walter",
@@ -76,7 +76,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "7b31e2bc-0cd4-494a-adbb-efe082cfbec1",
    "winPct": 83.3,
    "diff": 17,
    "ppg": 20,
@@ -85,7 +84,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": 0.8,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "7b31e2bc-0cd4-494a-adbb-efe082cfbec1"
   },
   {
    "name": "Alan Liang",
@@ -163,7 +163,6 @@
    "genderLosses": 1,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "68381165-d24c-4955-aed2-b9cf38a402d6",
    "winPct": 75,
    "diff": 22,
    "ppg": 19.3,
@@ -172,7 +171,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": 1.4,
-   "strengthOfOpponents": 0.8
+   "strengthOfOpponents": 0.8,
+   "playerId": "68381165-d24c-4955-aed2-b9cf38a402d6"
   },
   {
    "name": "Sarika Nadig",
@@ -395,7 +395,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c",
    "winPct": 66.7,
    "diff": 20,
    "ppg": 20.2,
@@ -404,7 +403,8 @@
    "ratingGames": 6,
    "confidence": 51,
    "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -1.2
+   "strengthOfOpponents": -1.2,
+   "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c"
   },
   {
    "name": "Simon George",
@@ -424,7 +424,6 @@
    "genderLosses": 2,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028",
    "winPct": 66.7,
    "diff": 6,
    "ppg": 19.3,
@@ -433,7 +432,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": -1.3
+   "strengthOfOpponents": -1.3,
+   "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028"
   },
   {
    "name": "Rakesh Roy",
@@ -540,7 +540,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "072dd3e0-43bd-4c1a-ba08-3dec77ae24a2",
    "winPct": 62.5,
    "diff": 26,
    "ppg": 20.3,
@@ -549,7 +548,8 @@
    "ratingGames": 8,
    "confidence": 58,
    "strengthOfPartners": -0.9,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "072dd3e0-43bd-4c1a-ba08-3dec77ae24a2"
   },
   {
    "name": "Veronica Rosas",
@@ -598,7 +598,6 @@
    "genderLosses": 4,
    "clutchWins": 7,
    "clutchLosses": 0,
-   "playerId": "5e34ba87-6778-4079-8ca1-c4ee044314cc",
    "winPct": 61.9,
    "diff": 12,
    "ppg": 19.1,
@@ -607,7 +606,8 @@
    "ratingGames": 21,
    "confidence": 79,
    "strengthOfPartners": 0.2,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "5e34ba87-6778-4079-8ca1-c4ee044314cc"
   },
   {
    "name": "Brianna Zenna",
@@ -685,7 +685,6 @@
    "genderLosses": 2,
    "clutchWins": 3,
    "clutchLosses": 3,
-   "playerId": "0eda2ee3-2997-4519-ac1a-50c0da39145e",
    "winPct": 56.3,
    "diff": 34,
    "ppg": 19.3,
@@ -694,7 +693,8 @@
    "ratingGames": 16,
    "confidence": 76,
    "strengthOfPartners": 1.6,
-   "strengthOfOpponents": 0.3
+   "strengthOfOpponents": 0.3,
+   "playerId": "0eda2ee3-2997-4519-ac1a-50c0da39145e"
   },
   {
    "name": "Danny Ruiz",
@@ -743,7 +743,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "60adfa52-c615-4ad3-b165-26941f955a56",
    "winPct": 54.5,
    "diff": 15,
    "ppg": 18.6,
@@ -752,7 +751,8 @@
    "ratingGames": 22,
    "confidence": 81,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0.1
+   "strengthOfOpponents": 0.1,
+   "playerId": "60adfa52-c615-4ad3-b165-26941f955a56"
   },
   {
    "name": "Anthony Solares",
@@ -830,7 +830,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "b6d7b5a0-f05d-4ed5-ad11-a24c4a7e1ac4",
    "winPct": 53.3,
    "diff": 23,
    "ppg": 17.5,
@@ -839,7 +838,8 @@
    "ratingGames": 15,
    "confidence": 73,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "b6d7b5a0-f05d-4ed5-ad11-a24c4a7e1ac4"
   },
   {
    "name": "Neil Dedhia",
@@ -975,7 +975,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "0ab36799-35fe-4fca-9e5f-9d3f679b0b6e",
    "winPct": 50,
    "diff": 9,
    "ppg": 19.7,
@@ -984,7 +983,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -1
+   "strengthOfOpponents": -1,
+   "playerId": "0ab36799-35fe-4fca-9e5f-9d3f679b0b6e"
   },
   {
    "name": "Matthew Mcbride",
@@ -1004,7 +1004,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "229789a1-39a0-4693-9fd5-f9b1ad8f3f58",
    "winPct": 50,
    "diff": 7,
    "ppg": 19.6,
@@ -1013,7 +1012,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.3
+   "strengthOfOpponents": 0.3,
+   "playerId": "229789a1-39a0-4693-9fd5-f9b1ad8f3f58"
   },
   {
    "name": "Angelina Mogielnicki",
@@ -1323,7 +1323,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "c88d4242-d33b-43dc-9b08-cbbe8664129b",
    "winPct": 42.9,
    "diff": 4,
    "ppg": 18.9,
@@ -1332,7 +1331,8 @@
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.3
+   "strengthOfOpponents": 0.3,
+   "playerId": "c88d4242-d33b-43dc-9b08-cbbe8664129b"
   },
   {
    "name": "Rebecca Ramos",
@@ -1352,7 +1352,6 @@
    "genderLosses": 2,
    "clutchWins": 2,
    "clutchLosses": 3,
-   "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c",
    "winPct": 42.9,
    "diff": -17,
    "ppg": 17.6,
@@ -1361,7 +1360,8 @@
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.4
+   "strengthOfOpponents": -0.4,
+   "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c"
   },
   {
    "name": "Jodie Bennett",
@@ -1381,7 +1381,6 @@
    "genderLosses": 5,
    "clutchWins": 2,
    "clutchLosses": 4,
-   "playerId": "44a54409-964b-44ae-a670-c69f7edf9600",
    "winPct": 42.9,
    "diff": -21,
    "ppg": 18.1,
@@ -1390,7 +1389,8 @@
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.9
+   "strengthOfOpponents": 0.9,
+   "playerId": "44a54409-964b-44ae-a670-c69f7edf9600"
   },
   {
    "name": "Iqra Hasan-Calmo",
@@ -1497,7 +1497,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "89d7275a-1425-4d35-b75a-d2d5f93f99a6",
    "winPct": 37.5,
    "diff": -19,
    "ppg": 16.6,
@@ -1506,7 +1505,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 1.9
+   "strengthOfOpponents": 1.9,
+   "playerId": "89d7275a-1425-4d35-b75a-d2d5f93f99a6"
   },
   {
    "name": "Ellen Venezia",
@@ -1874,7 +1874,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "42d01dab-4aca-4c74-aa73-47be4fbff788",
    "winPct": 12.5,
    "diff": -63,
    "ppg": 12.8,
@@ -1883,7 +1882,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -2,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "42d01dab-4aca-4c74-aa73-47be4fbff788"
   },
   {
    "name": "Natalia Maciejewicz",
@@ -1990,7 +1990,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "b54eb3c6-a8b7-4a05-9f14-83d697a50dcc",
    "winPct": 0,
    "diff": -63,
    "ppg": 13.1,
@@ -1999,7 +1998,8 @@
    "ratingGames": 8,
    "confidence": 60,
    "strengthOfPartners": -3.5,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "b54eb3c6-a8b7-4a05-9f14-83d697a50dcc"
   },
   {
    "name": "Lauren Lowther",
@@ -11342,6 +11342,14 @@
      "a": [
       "Clarisse Espiritu",
       "Eric Goldman"
+     ],
+     "hSub": [
+      1,
+      1
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11353,6 +11361,10 @@
      "a": [
       "Natalia Maciejewicz",
       "Matthew Buffolino"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11375,6 +11387,10 @@
      "a": [
       "Brooke Mcbride",
       "Juan Uribe"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11386,6 +11402,14 @@
      "a": [
       "Clarisse Espiritu",
       "Brooke Mcbride"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11408,6 +11432,14 @@
      "a": [
       "Eric Goldman",
       "Matthew Buffolino"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -11430,6 +11462,14 @@
      "a": [
       "Natalia Maciejewicz",
       "Eric Goldman"
+     ],
+     "hSub": [
+      1,
+      1
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11441,6 +11481,10 @@
      "a": [
       "Clarisse Espiritu",
       "Matthew Buffolino"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11463,6 +11507,10 @@
      "a": [
       "Brooke Mcbride",
       "Aiden Murphy"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11485,6 +11533,10 @@
      "a": [
       "Brooke Mcbride",
       "Supriya Kothakonda"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11496,6 +11548,14 @@
      "a": [
       "Matthew Buffolino",
       "Aj Donnelly"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11518,6 +11578,10 @@
      "a": [
       "Clarisse Espiritu",
       "Aj Donnelly"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -11529,6 +11593,14 @@
      "a": [
       "Natalia Maciejewicz",
       "Eric Goldman"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11540,6 +11612,10 @@
      "a": [
       "Brooke Mcbride",
       "Aiden Murphy"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11562,6 +11638,14 @@
      "a": [
       "Clarisse Espiritu",
       "Brooke Mcbride"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11584,6 +11668,14 @@
      "a": [
       "Eric Goldman",
       "Matthew Buffolino"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -11606,6 +11698,14 @@
      "a": [
       "Natalia Maciejewicz",
       "Matthew Buffolino"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11617,6 +11717,10 @@
      "a": [
       "Supriya Kothakonda",
       "Eric Goldman"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11628,6 +11732,10 @@
      "a": [
       "Clarisse Espiritu",
       "Aj Donnelly"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -11639,6 +11747,10 @@
      "a": [
       "Brooke Mcbride",
       "Juan Uribe"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11650,6 +11762,10 @@
      "a": [
       "Clarisse Espiritu",
       "Natalia Maciejewicz"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -11661,6 +11777,10 @@
      "a": [
       "Brooke Mcbride",
       "Supriya Kothakonda"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11672,6 +11792,14 @@
      "a": [
       "Matthew Buffolino",
       "Aiden Murphy"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11683,6 +11811,10 @@
      "a": [
       "Eric Goldman",
       "Aj Donnelly"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     }
    ]
@@ -11717,6 +11849,10 @@
      "a": [
       "Danielle Kuti",
       "Ben Cortes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -11728,6 +11864,10 @@
      "a": [
       "Deborah Brown",
       "Kevin Emig"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11761,6 +11901,10 @@
      "a": [
       "Jen Ogorzat",
       "Deborah Brown"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -11783,6 +11927,14 @@
      "a": [
       "Kevin Lew",
       "Kevin Emig"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11794,6 +11946,10 @@
      "a": [
       "Brianna Zenna",
       "Ben Cortes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -11827,6 +11983,10 @@
      "a": [
       "Jen Ogorzat",
       "Kevin Lew"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -11838,6 +11998,10 @@
      "a": [
       "Brianna Zenna",
       "Jen Ogorzat"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11849,6 +12013,10 @@
      "a": [
       "Susan Bluni",
       "Deborah Brown"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11860,6 +12028,14 @@
      "a": [
       "Alan Liang",
       "Kevin Lew"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11893,6 +12069,14 @@
      "a": [
       "Jen Ogorzat",
       "Kevin Lew"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -11915,6 +12099,10 @@
      "a": [
       "Deborah Brown",
       "Gavin Jordan"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11937,6 +12125,10 @@
      "a": [
       "Susan Bluni",
       "Deborah Brown"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -11948,6 +12140,10 @@
      "a": [
       "Alan Liang",
       "Ben Cortes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -11970,6 +12166,10 @@
      "a": [
       "Jen Ogorzat",
       "Alan Liang"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -11992,6 +12192,10 @@
      "a": [
       "Danielle Kuti",
       "Kevin Emig"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -12003,6 +12207,10 @@
      "a": [
       "Deborah Brown",
       "Kevin Lew"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -12025,6 +12233,10 @@
      "a": [
       "Brianna Zenna",
       "Jen Ogorzat"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -12047,6 +12259,14 @@
      "a": [
       "Alan Liang",
       "Kevin Lew"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     }
    ]

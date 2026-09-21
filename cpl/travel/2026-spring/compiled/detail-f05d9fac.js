@@ -99217,6 +99217,149 @@
    }
   ]
  },
+ "5f6dfa01-c062-4b00-a230-4aa19e54d74a": {
+  "log": [
+   {
+    "week": 11,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 112,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Nancy Cook",
+    "vs": [
+     "Gail Hannagan",
+     "Jeffrey Hartford"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "male",
+    "with": "Sam Doctor",
+    "vs": [
+     "Eric Brezina",
+     "Jeffrey Hartford"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Gail Hannagan",
+     "Anthony Leone"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Holly Ferguson",
+     "Jeffrey Hartford"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "male",
+    "with": "Brett Wilson",
+    "vs": [
+     "Paul Phillips",
+     "Eric Brezina"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Nancy Cook",
+    "vs": [
+     "Natalia Fischer",
+     "Ren Mortara"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 12,
+    "label": "11",
+    "rating": 1.4,
+    "confidence": 57,
+    "rank": 57,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
  "6898f005-e940-4d33-83f9-0300a1b90a5a": {
   "log": [
    {
@@ -99548,149 +99691,6 @@
     "ratingGames": 10,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "5f6dfa01-c062-4b00-a230-4aa19e54d74a": {
-  "log": [
-   {
-    "week": 11,
-    "opp": "Flemington Blue",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 119,
-    "pa": 112,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   }
-  ],
-  "games": [
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Nancy Cook",
-    "vs": [
-     "Gail Hannagan",
-     "Jeffrey Hartford"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "male",
-    "with": "Sam Doctor",
-    "vs": [
-     "Eric Brezina",
-     "Jeffrey Hartford"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Gail Hannagan",
-     "Anthony Leone"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Holly Ferguson",
-     "Jeffrey Hartford"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "male",
-    "with": "Brett Wilson",
-    "vs": [
-     "Paul Phillips",
-     "Eric Brezina"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Nancy Cook",
-    "vs": [
-     "Natalia Fischer",
-     "Ren Mortara"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 11,
-    "seq": 12,
-    "label": "11",
-    "rating": 1.4,
-    "confidence": 57,
-    "rank": 57,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []

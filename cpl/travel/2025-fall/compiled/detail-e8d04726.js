@@ -443823,6 +443823,198 @@
   ],
   "partners": []
  },
+ "86a20036-85ed-4685-80f2-5d045e76c9de": {
+  "log": [
+   {
+    "week": 11,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 110,
+    "pa": 166,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   }
+  ],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Matthew Blaustein",
+    "vs": [
+     "Ashley Hyde",
+     "Steven Gregov"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Mary Jo Guthner",
+    "vs": [
+     "Christine Ferraez",
+     "Tara Kramer"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Thomas Newsome",
+    "vs": [
+     "Tara Kramer",
+     "Sean O'Connell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts",
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Justine Trstensky",
+    "vs": [
+     "Ashley Hyde",
+     "Cally Kerrigan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Matthew Blaustein",
+    "vs": [
+     "Cally Kerrigan",
+     "Steven Gregov"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Justine Trstensky",
+    "vs": [
+     "Ashley Hyde",
+     "Cally Kerrigan"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "mixed",
+    "with": "Thomas Newsome",
+    "vs": [
+     "Tara Kramer",
+     "Jay Alquiros"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 11,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Mary Jo Guthner",
+    "vs": [
+     "Susan Ackley",
+     "Christine Ferraez"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Supreme Courts"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -3.9,
+    "confidence": 64,
+    "rank": 426,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -3.9,
+    "confidence": 64,
+    "rank": 435,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
  "cde4c5e6-1d62-476d-a568-91b81aab727b": {
   "log": [
    {
@@ -444040,198 +444232,6 @@
     "ratingGames": 8,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "86a20036-85ed-4685-80f2-5d045e76c9de": {
-  "log": [
-   {
-    "week": 11,
-    "opp": "Flemington Green",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 110,
-    "pa": 166,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   }
-  ],
-  "games": [
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Matthew Blaustein",
-    "vs": [
-     "Ashley Hyde",
-     "Steven Gregov"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Mary Jo Guthner",
-    "vs": [
-     "Christine Ferraez",
-     "Tara Kramer"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Thomas Newsome",
-    "vs": [
-     "Tara Kramer",
-     "Sean O'Connell"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts",
-    "withSub": 1
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Justine Trstensky",
-    "vs": [
-     "Ashley Hyde",
-     "Cally Kerrigan"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Matthew Blaustein",
-    "vs": [
-     "Cally Kerrigan",
-     "Steven Gregov"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Justine Trstensky",
-    "vs": [
-     "Ashley Hyde",
-     "Cally Kerrigan"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "mixed",
-    "with": "Thomas Newsome",
-    "vs": [
-     "Tara Kramer",
-     "Jay Alquiros"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 11,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Mary Jo Guthner",
-    "vs": [
-     "Susan Ackley",
-     "Christine Ferraez"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Supreme Courts"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -3.9,
-    "confidence": 64,
-    "rank": 426,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -3.9,
-    "confidence": 64,
-    "rank": 435,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -453274,6 +453274,171 @@
   ],
   "partners": []
  },
+ "2e82399e-1fad-4343-81cd-5202f2fd17bf": {
+  "log": [
+   {
+    "week": 10,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 83,
+    "pa": 126,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Noelle Villa",
+    "vs": [
+     "Alyssa Boyle",
+     "Kathy Cripps"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   },
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Christopher Lardi",
+    "vs": [
+     "Alyssa Boyle",
+     "Andre Cristobal"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   },
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Noelle Villa",
+    "vs": [
+     "Madeleine Shusterman",
+     "Nam Barsh"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   },
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Christopher Lardi",
+    "vs": [
+     "Alyssa Boyle",
+     "Shashank Kamdar"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   },
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Kelly Arvidson",
+    "vs": [
+     "Alyssa Boyle",
+     "Quincy Zhang"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   },
+   {
+    "wk": 10,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Kristy Detore",
+    "vs": [
+     "Nam Barsh",
+     "Madeleine Shusterman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Blue"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": -0.3,
+    "confidence": 57,
+    "rank": 234,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 2.1
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -0.3,
+    "confidence": 57,
+    "rank": 249,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 2.1
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -0.2,
+    "confidence": 58,
+    "rank": 245,
+    "ratingGames": 6,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 2.2
+   }
+  ],
+  "partners": []
+ },
  "e69cd2bc-56aa-4a16-9041-e0090672af48": {
   "log": [
    {
@@ -453520,171 +453685,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
- "2e82399e-1fad-4343-81cd-5202f2fd17bf": {
-  "log": [
-   {
-    "week": 10,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 83,
-    "pa": 126,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 1,
-    "teamGL": 31,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   }
-  ],
-  "games": [
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Noelle Villa",
-    "vs": [
-     "Alyssa Boyle",
-     "Kathy Cripps"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   },
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Christopher Lardi",
-    "vs": [
-     "Alyssa Boyle",
-     "Andre Cristobal"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   },
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Noelle Villa",
-    "vs": [
-     "Madeleine Shusterman",
-     "Nam Barsh"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   },
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Christopher Lardi",
-    "vs": [
-     "Alyssa Boyle",
-     "Shashank Kamdar"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   },
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Kelly Arvidson",
-    "vs": [
-     "Alyssa Boyle",
-     "Quincy Zhang"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   },
-   {
-    "wk": 10,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Kristy Detore",
-    "vs": [
-     "Nam Barsh",
-     "Madeleine Shusterman"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Blue"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": -0.3,
-    "confidence": 57,
-    "rank": 234,
-    "ratingGames": 6,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 2.1
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -0.3,
-    "confidence": 57,
-    "rank": 249,
-    "ratingGames": 6,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 2.1
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -0.2,
-    "confidence": 58,
-    "rank": 245,
-    "ratingGames": 6,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []

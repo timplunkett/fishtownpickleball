@@ -51,7 +51,12 @@ function writeDivision(dir, opts = {}) {
     rosterPlayer('c1', 'Cal', 'Charlie', TEAMS.C, 'Crushers'),
     rosterPlayer('c2', 'Cat', 'Cortez', TEAMS.C, 'Crushers', { isCaptain: true }),
     rosterPlayer('d1', 'Dan', 'Delta', TEAMS.D, 'Dinkers'),
-    // Sub and placeholder-team entries must never become roster members.
+    // A rostered sub with no games yet but a posted lineup slot in the
+    // pending week-2 matchup below (pendingDetail): seeded blank like any
+    // other unplayed roster row, flagged as a sub. A sub with no matchup
+    // appearance anywhere — played or pending — gets no row at all (see the
+    // Echoes fixture further down). Placeholder-team entries never become
+    // roster members regardless.
     rosterPlayer('s1', 'Sam', 'Sub', TEAMS.D, 'Dinkers', { isSub: true }),
     rosterPlayer('p1', 'Pat', 'Placeholder', 'team-open', 'Open Play'),
   ];
@@ -134,7 +139,9 @@ test('teams whose first match has not been played still get a roster', (t) => {
     assert.ok(rosterOf(team).length > 0, `${team} has a roster`);
   }
   assert.deepEqual(rosterOf('Crushers').map((p) => p.name).sort(), ['Cal Charlie', 'Cat Cortez']);
-  assert.deepEqual(rosterOf('Dinkers').map((p) => p.name), ['Dan Delta']);
+  // Sam Sub is rostered as a sub on Dinkers with no games played yet, and now
+  // gets seeded alongside its starters rather than being left off entirely.
+  assert.deepEqual(rosterOf('Dinkers').map((p) => p.name).sort(), ['Dan Delta', 'Sam Sub']);
 });
 
 test('unplayed rostered players are zeroed and unrated', (t) => {
@@ -212,17 +219,38 @@ test('a scheduled team with no confirmed roster is still in the division', (t) =
     homeName: 'Aces', awayName: 'Echoes', homePoints: 0, awayPoints: 0,
     endResult: null, scheduledTime: '2026-08-24T19:00:00',
   };
+  // One captain has posted a partial lineup naming Eve; Eli has never been
+  // named anywhere — not this lineup, not any other matchup in the division.
+  const fixtureDetail = {
+    matchupId: 'm3',
+    details: {
+      matchup: { endResult: null },
+      matchupPlayerStats: { $values: [] },
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'e1', awayPlayerId2: null, homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm3' },
+      ] } },
+    },
+  };
 
   ['preSeason', 'inSeason'].forEach((phase) => {
     const { data } = compileToObjects(t, {
       preSeason: phase === 'preSeason',
       extraPlayers: allSubRoster,
       extraMatchups: [fixture],
+      extraMatchupDetails: [fixtureDetail],
     });
     const names = data.teams.map((team) => team.name);
     assert.ok(names.includes('Echoes'), `${phase}: Echoes is scheduled but missing from teams`);
-    // Its subs are still not roster members, so the team has no players.
-    assert.equal(data.players.filter((p) => p.team === 'Echoes').length, 0, `${phase}: subs became roster`);
+    // Every row on this roster is a sub (the league's own "unconfirmed
+    // roster" state). Eve was actually named in a posted lineup slot for the
+    // scheduled-but-unscored matchup, so she gets seeded with blank stats;
+    // Eli was never named in any matchup, played or pending, so he gets no
+    // roster row at all — a team that fields real matches should show the
+    // subs who've actually turned up, not its whole unconfirmed sub pool.
+    const echoesRoster = data.players.filter((p) => p.team === 'Echoes');
+    assert.deepEqual(echoesRoster.map((p) => p.name), ['Eve Echo'], `${phase}: only the sub named in a posted lineup became a roster row`);
+    assert.ok(echoesRoster.every((p) => p.outsideSub === true), `${phase}: unconfirmed subs should still carry the sub badge`);
+    assert.equal(data.players.some((p) => p.name === 'Eli Evans'), false, `${phase}: a sub with zero matchup appearances anywhere stays off the roster`);
     // And every team named in the schedule has a row.
     const scheduled = new Set(data.matches.flatMap((m) => [m.home, m.away]));
     scheduled.forEach((name) => {
@@ -231,10 +259,14 @@ test('a scheduled team with no confirmed roster is still in the division', (t) =
   });
 });
 
-test('subs and placeholder teams are excluded from rosters', (t) => {
+test('rostered subs appear on the roster; placeholder teams are still excluded', (t) => {
   const { data } = compileToObjects(t);
-  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false);
-  assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false);
+  const sam = data.players.find((p) => p.name === 'Sam Sub');
+  assert.ok(sam, 'a rostered sub with no games yet still gets a roster row');
+  assert.equal(sam.team, 'Dinkers');
+  assert.equal(sam.gamesPlayed, 0);
+  assert.equal(sam.outsideSub, true, 'flagged the same way a sub who has actually played would be');
+  assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false, 'a placeholder team is not a real roster');
   assert.equal(data.teams.some((team) => team.name === 'Open Play'), false);
 });
 
@@ -266,10 +298,14 @@ const assertPostedLineups = (data) => {
   const upcoming = data.matches.find((m) => m.week === 2);
   assert.equal(upcoming.complete, false);
   assert.equal(upcoming.games.length, 3, 'the wholly empty lineup is dropped, the partial ones are kept');
+  // Sam Sub is rostered as a sub on Dinkers (the away team here), so every
+  // game he's posted in carries an `aSub` flag alongside his name — the only
+  // signal available pre-score, since the league hasn't published
+  // matchupPlayerStats for this matchup yet.
   assert.deepEqual(upcoming.games, [
-    { t: 'male', h: ['Cal Charlie', 'Cat Cortez'], a: ['Dan Delta', 'Sam Sub'] },
-    { t: 'male', h: ['Cal Charlie', ''], a: ['Dan Delta', 'Sam Sub'] },
-    { t: 'female', h: ['', ''], a: ['Dan Delta', 'Sam Sub'] },
+    { t: 'male', h: ['Cal Charlie', 'Cat Cortez'], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
+    { t: 'male', h: ['Cal Charlie', ''], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
+    { t: 'female', h: ['', ''], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
   ]);
 };
 
@@ -287,12 +323,17 @@ test('posted lineups reach an upcoming match before the season starts', (t) => {
 
 // Lineups name players but don't identify them, so the dashboard joins them to
 // the client-side DUPR table by name. Rostered players carry their own id in
-// DATA.players; extraPlayerIds exists to cover the ones that don't — subs, who
-// appear in lineups but never get a player row.
+// DATA.players; extraPlayerIds exists to cover the ones that don't. Rostered
+// subs now get a player row like anyone else (see the roster-seeding tests
+// above), so the case this still covers is a roster row that never gets a
+// player row at all — a placeholder-team entry, like Pat Placeholder here.
 test('extraPlayerIds carries the roster names that have no player row', (t) => {
   const { data } = compileToObjects(t);
-  assert.equal(data.extraPlayerIds['Sam Sub'], 's1');
-  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false, 'and that is the only place the sub appears');
+  assert.equal(data.extraPlayerIds['Pat Placeholder'], 'p1');
+  assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false, 'and that is the only place he appears');
+  // Sam Sub, by contrast, now has his own player row (a rostered sub with no
+  // games yet), so he's no longer one of the "extra" names.
+  assert.equal('Sam Sub' in data.extraPlayerIds, false);
 });
 
 test('extraPlayerIds does not repeat players the roster already identifies', (t) => {
@@ -332,7 +373,9 @@ test('a player rostered on two teams is credited to the one they actually play f
     const cal = data.players.filter((p) => p.name === 'Cal Charlie');
     assert.equal(cal.length, 1, 'the player is not duplicated across both teams');
     assert.equal(cal[0].team, 'Crushers');
-    assert.deepEqual(data.players.filter((p) => p.team === 'Dinkers').map((p) => p.name), ['Dan Delta']);
+    // Dinkers' roster is its one starter plus Sam Sub, the rostered sub with
+    // no games yet — Cal's extra row on Dinkers never displaces either.
+    assert.deepEqual(data.players.filter((p) => p.team === 'Dinkers').map((p) => p.name).sort(), ['Dan Delta', 'Sam Sub']);
   }
 });
 

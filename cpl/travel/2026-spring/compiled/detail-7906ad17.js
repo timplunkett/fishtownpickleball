@@ -50417,6 +50417,270 @@
    }
   ]
  },
+ "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Pickleball Palace",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 159,
+    "pa": 144,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rayna Baizman",
+    "vs": [
+     "Ashley Georgevich",
+     "Daniel Kulik"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Clayton Schmucker",
+    "vs": [
+     "Rob Gruber",
+     "Keith Shedlock"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Rayna Baizman",
+    "vs": [
+     "Claire Malone",
+     "Alvaro Regalado"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Brandon Fooks",
+    "vs": [
+     "Keith Shedlock",
+     "Rob Gruber"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Kaylyn Swankoski",
+    "vs": [
+     "Beatriz Lopez Albarracin",
+     "Patrick Ceccacci"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Clayton Schmucker",
+    "vs": [
+     "Patrick Ceccacci",
+     "Keith Shedlock"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Nahla Bernhardt",
+    "vs": [
+     "Carly Pfeffer",
+     "Patrick Ceccacci"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace",
+    "t": "male",
+    "with": "Brandon Fooks",
+    "vs": [
+     "Alvaro Regalado",
+     "Rob Gruber"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Hatboro",
+    "vsSub": [
+     0,
+     1
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 6,
+    "label": "5",
+    "rating": 0.5,
+    "confidence": 60,
+    "rank": 92,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": 0.4,
+    "confidence": 60,
+    "rank": 102,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7",
+    "rating": 0.6,
+    "confidence": 60,
+    "rank": 95,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 8,
+    "seq": 9,
+    "label": "8",
+    "rating": 0.6,
+    "confidence": 61,
+    "rank": 99,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": 0.7,
+    "confidence": 61,
+    "rank": 93,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": 0.5,
+    "confidence": 61,
+    "rank": 101,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": 0.6,
+    "confidence": 61,
+    "rank": 99,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": 0.6,
+    "confidence": 61,
+    "rank": 100,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": []
+ },
  "b5414a37-87df-48a6-b5ea-4e029951e9d0": {
   "log": [
    {
@@ -50709,270 +50973,6 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Pickleball Palace",
-    "homeAway": "H",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 159,
-    "pa": 144,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Rayna Baizman",
-    "vs": [
-     "Ashley Georgevich",
-     "Daniel Kulik"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Clayton Schmucker",
-    "vs": [
-     "Rob Gruber",
-     "Keith Shedlock"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Rayna Baizman",
-    "vs": [
-     "Claire Malone",
-     "Alvaro Regalado"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Brandon Fooks",
-    "vs": [
-     "Keith Shedlock",
-     "Rob Gruber"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Kaylyn Swankoski",
-    "vs": [
-     "Beatriz Lopez Albarracin",
-     "Patrick Ceccacci"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Clayton Schmucker",
-    "vs": [
-     "Patrick Ceccacci",
-     "Keith Shedlock"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Nahla Bernhardt",
-    "vs": [
-     "Carly Pfeffer",
-     "Patrick Ceccacci"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace",
-    "t": "male",
-    "with": "Brandon Fooks",
-    "vs": [
-     "Alvaro Regalado",
-     "Rob Gruber"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro",
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 6,
-    "label": "5",
-    "rating": 0.5,
-    "confidence": 60,
-    "rank": 92,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": 0.4,
-    "confidence": 60,
-    "rank": 102,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7",
-    "rating": 0.6,
-    "confidence": 60,
-    "rank": 95,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 8,
-    "seq": 9,
-    "label": "8",
-    "rating": 0.6,
-    "confidence": 61,
-    "rank": 99,
-    "ratingGames": 8,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": 0.7,
-    "confidence": 61,
-    "rank": 93,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": 0.5,
-    "confidence": 61,
-    "rank": 101,
-    "ratingGames": 8,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": 0.6,
-    "confidence": 61,
-    "rank": 99,
-    "ratingGames": 8,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": 0.6,
-    "confidence": 61,
-    "rank": 100,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -108642,278 +108642,6 @@
    }
   ]
  },
- "959c8c5b-2b03-4809-b56c-40d9787e2554": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 152,
-    "pa": 158,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Fabricio Gaona",
-    "vs": [
-     "Katherine Maruyama",
-     "Nick Meale"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Taylor Peracchio",
-    "vs": [
-     "Katherine Maruyama",
-     "Taylor Dath"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Fabricio Gaona",
-    "vs": [
-     "Katherine Maruyama",
-     "Nick Meale"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Taylor Peracchio",
-    "vs": [
-     "Katherine Maruyama",
-     "Taylor Dath"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Daniel Gallegos",
-    "vs": [
-     "Katherine Maruyama",
-     "Grant Hanak"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Dina Perrella",
-    "vs": [
-     "Megan Harvey",
-     "Taylor Dath"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Daniel Gallegos",
-    "vs": [
-     "Katherine Maruyama",
-     "Grant Hanak"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Dina Perrella",
-    "vs": [
-     "Megan Harvey",
-     "Taylor Dath"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 6,
-    "label": "5",
-    "rating": -0.3,
-    "confidence": 56,
-    "rank": 123,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -0.4,
-    "confidence": 56,
-    "rank": 131,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7",
-    "rating": -0.4,
-    "confidence": 57,
-    "rank": 130,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 8,
-    "seq": 9,
-    "label": "8",
-    "rating": -0.5,
-    "confidence": 57,
-    "rank": 136,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": -0.5,
-    "confidence": 57,
-    "rank": 138,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": -0.2,
-    "confidence": 58,
-    "rank": 128,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": 0,
-    "confidence": 60,
-    "rank": 121,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": -0.1,
-    "confidence": 60,
-    "rank": 127,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
- },
  "4df44e08-a35c-4c4c-a311-861ef4d0897a": {
   "log": [
    {
@@ -109189,6 +108917,278 @@
     "rank": 114,
     "ratingGames": 8,
     "strengthOfPartners": -1.6,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": []
+ },
+ "959c8c5b-2b03-4809-b56c-40d9787e2554": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 152,
+    "pa": 158,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Fabricio Gaona",
+    "vs": [
+     "Katherine Maruyama",
+     "Nick Meale"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Taylor Peracchio",
+    "vs": [
+     "Katherine Maruyama",
+     "Taylor Dath"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Fabricio Gaona",
+    "vs": [
+     "Katherine Maruyama",
+     "Nick Meale"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Taylor Peracchio",
+    "vs": [
+     "Katherine Maruyama",
+     "Taylor Dath"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Daniel Gallegos",
+    "vs": [
+     "Katherine Maruyama",
+     "Grant Hanak"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Dina Perrella",
+    "vs": [
+     "Megan Harvey",
+     "Taylor Dath"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Daniel Gallegos",
+    "vs": [
+     "Katherine Maruyama",
+     "Grant Hanak"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Dina Perrella",
+    "vs": [
+     "Megan Harvey",
+     "Taylor Dath"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 6,
+    "label": "5",
+    "rating": -0.3,
+    "confidence": 56,
+    "rank": 123,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -0.4,
+    "confidence": 56,
+    "rank": 131,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7",
+    "rating": -0.4,
+    "confidence": 57,
+    "rank": 130,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 8,
+    "seq": 9,
+    "label": "8",
+    "rating": -0.5,
+    "confidence": 57,
+    "rank": 136,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": -0.5,
+    "confidence": 57,
+    "rank": 138,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": -0.2,
+    "confidence": 58,
+    "rank": 128,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 121,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": -0.1,
+    "confidence": 60,
+    "rank": 127,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.3
    }
   ],

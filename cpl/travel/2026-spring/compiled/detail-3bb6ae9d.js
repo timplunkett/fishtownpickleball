@@ -455830,6 +455830,226 @@
   ],
   "partners": []
  },
+ "6ad2695f-4273-4eb8-963e-9aa7a41012a4": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Flemington",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 95,
+    "pa": 122,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Mackenzi Furlong",
+    "vs": [
+     "Mary Brashier",
+     "Eric Berlinger"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Michael Qiao",
+    "vs": [
+     "Ehraaz Tarique",
+     "Roger Slane"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Jennifer Pavlik",
+    "vs": [
+     "Laura Slane",
+     "Ehraaz Tarique"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Joe Carson",
+    "vs": [
+     "Craig Butler",
+     "Eric Berlinger"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "mixed",
+    "with": "Jennifer Pavlik",
+    "vs": [
+     "Laura Slane",
+     "Craig Butler"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington",
+    "t": "male",
+    "with": "Jake Maske",
+    "vs": [
+     "Craig Butler",
+     "Roger Slane"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Sportime Wayne"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 8,
+    "label": "5",
+    "rating": -1.4,
+    "confidence": 56,
+    "rank": 412,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7",
+    "rating": -1.5,
+    "confidence": 57,
+    "rank": 424,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -1.5,
+    "confidence": 57,
+    "rank": 433,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": -1.4,
+    "confidence": 57,
+    "rank": 430,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -1.3,
+    "confidence": 57,
+    "rank": 426,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -1.2,
+    "confidence": 57,
+    "rank": 426,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -1.4,
+    "confidence": 57,
+    "rank": 442,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 13,
+    "seq": 16,
+    "label": "13",
+    "rating": -1.6,
+    "confidence": 58,
+    "rank": 464,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
  "eb82d793-e5b5-47fd-a586-2c764455cd53": {
   "log": [
    {
@@ -456057,226 +456277,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 2.5
-   }
-  ],
-  "partners": []
- },
- "6ad2695f-4273-4eb8-963e-9aa7a41012a4": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Flemington",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 95,
-    "pa": 122,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "mixed",
-    "with": "Mackenzi Furlong",
-    "vs": [
-     "Mary Brashier",
-     "Eric Berlinger"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "male",
-    "with": "Michael Qiao",
-    "vs": [
-     "Ehraaz Tarique",
-     "Roger Slane"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "mixed",
-    "with": "Jennifer Pavlik",
-    "vs": [
-     "Laura Slane",
-     "Ehraaz Tarique"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "male",
-    "with": "Joe Carson",
-    "vs": [
-     "Craig Butler",
-     "Eric Berlinger"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "mixed",
-    "with": "Jennifer Pavlik",
-    "vs": [
-     "Laura Slane",
-     "Craig Butler"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington",
-    "t": "male",
-    "with": "Jake Maske",
-    "vs": [
-     "Craig Butler",
-     "Roger Slane"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Sportime Wayne"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 8,
-    "label": "5",
-    "rating": -1.4,
-    "confidence": 56,
-    "rank": 412,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": -1.5,
-    "confidence": 57,
-    "rank": 424,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -1.5,
-    "confidence": 57,
-    "rank": 433,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": -1.4,
-    "confidence": 57,
-    "rank": 430,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -1.3,
-    "confidence": 57,
-    "rank": 426,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -1.2,
-    "confidence": 57,
-    "rank": 426,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -1.4,
-    "confidence": 57,
-    "rank": 442,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 13,
-    "seq": 16,
-    "label": "13",
-    "rating": -1.6,
-    "confidence": 58,
-    "rank": 464,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -517721,6 +517721,237 @@
    }
   ]
  },
+ "c45a1c4a-3aec-4920-ac7b-22142f13030f": {
+  "log": [
+   {
+    "week": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 109,
+    "pa": 120,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Eric Shipon",
+    "vs": [
+     "Adriel Menendez",
+     "Francesco Catalano"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   },
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Esha Gajjar",
+    "vs": [
+     "Shania Bui",
+     "Adriel Menendez"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   },
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Lisa Yuskevich",
+    "vs": [
+     "Vanessa Rhoades",
+     "Nick Lewis"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   },
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Robert Woodhouse",
+    "vs": [
+     "Adriel Menendez",
+     "Theodore Kolb"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   },
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Lisa Yuskevich",
+    "vs": [
+     "Eileen Zhang",
+     "David Barth"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   },
+   {
+    "wk": 4,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Robert Woodhouse",
+    "vs": [
+     "Nick Lewis",
+     "Francesco Catalano"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Newtown"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "seq": 5,
+    "label": "4",
+    "rating": -0.2,
+    "confidence": 55,
+    "rank": 283,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 8,
+    "label": "5",
+    "rating": -0.2,
+    "confidence": 56,
+    "rank": 289,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7",
+    "rating": -0.3,
+    "confidence": 56,
+    "rank": 316,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -0.3,
+    "confidence": 56,
+    "rank": 312,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 313,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 315,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 322,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -0.1,
+    "confidence": 57,
+    "rank": 310,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 13,
+    "seq": 16,
+    "label": "13",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 324,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
  "c52d90c3-f405-4312-8c1d-0a828ce19a18": {
   "log": [
    {
@@ -517963,237 +518194,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
- "c45a1c4a-3aec-4920-ac7b-22142f13030f": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 109,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Eric Shipon",
-    "vs": [
-     "Adriel Menendez",
-     "Francesco Catalano"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   },
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Esha Gajjar",
-    "vs": [
-     "Shania Bui",
-     "Adriel Menendez"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   },
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Lisa Yuskevich",
-    "vs": [
-     "Vanessa Rhoades",
-     "Nick Lewis"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   },
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Robert Woodhouse",
-    "vs": [
-     "Adriel Menendez",
-     "Theodore Kolb"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   },
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Lisa Yuskevich",
-    "vs": [
-     "Eileen Zhang",
-     "David Barth"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   },
-   {
-    "wk": 4,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Robert Woodhouse",
-    "vs": [
-     "Nick Lewis",
-     "Francesco Catalano"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "seq": 5,
-    "label": "4",
-    "rating": -0.2,
-    "confidence": 55,
-    "rank": 283,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 5,
-    "seq": 8,
-    "label": "5",
-    "rating": -0.2,
-    "confidence": 56,
-    "rank": 289,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": -0.3,
-    "confidence": 56,
-    "rank": 316,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -0.3,
-    "confidence": 56,
-    "rank": 312,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 313,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 315,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 322,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -0.1,
-    "confidence": 57,
-    "rank": 310,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 13,
-    "seq": 16,
-    "label": "13",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 324,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -572877,248 +572877,6 @@
   ],
   "partners": []
  },
- "f15f069a-e1f0-46d8-95a3-274616370fce": {
-  "log": [
-   {
-    "week": 7,
-    "opp": "Montville",
-    "homeAway": "A",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 81,
-    "pa": 168,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 0,
-    "teamGL": 32,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   }
-  ],
-  "games": [
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Thao Tran",
-    "vs": [
-     "Addy Aquino",
-     "Brandon Tsang"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "male",
-    "with": "Rob Stever",
-    "vs": [
-     "Jhon Cifuentes",
-     "Brandon Tsang"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Katie Yap",
-    "vs": [
-     "Julia Pliskin",
-     "Patrick Bury"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "male",
-    "with": "David Nguyen",
-    "vs": [
-     "Krupesh Ray",
-     "Jhon Cifuentes"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Katie Li",
-    "vs": [
-     "Alexa Laniado",
-     "Aadhar Rohila"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "withSub": 1
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "male",
-    "with": "Rob Stever",
-    "vs": [
-     "Patrick Bury",
-     "Jhon Cifuentes"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "mixed",
-    "with": "Katie Yap",
-    "vs": [
-     "Natalie Ruiz",
-     "Patrick Bury"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 7,
-    "opp": "Montville",
-    "t": "male",
-    "with": "Anshul Sahu",
-    "vs": [
-     "Krupesh Ray",
-     "Aadhar Rohila"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": -3.1,
-    "confidence": 63,
-    "rank": 502,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.9,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -3.1,
-    "confidence": 64,
-    "rank": 508,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.8,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": -3.2,
-    "confidence": 64,
-    "rank": 516,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 1.8
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -3.3,
-    "confidence": 64,
-    "rank": 529,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -3.3,
-    "confidence": 64,
-    "rank": 534,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.6,
-    "strengthOfOpponents": 1.6
-   },
-   {
-    "week": 12,
-    "seq": 15,
-    "label": "12",
-    "rating": -3.4,
-    "confidence": 64,
-    "rank": 543,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 1.6
-   },
-   {
-    "week": 13,
-    "seq": 16,
-    "label": "13",
-    "rating": -3.5,
-    "confidence": 65,
-    "rank": 552,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.5,
-    "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
- },
  "68d08c3a-9282-4fc9-9f3d-4b032889b3db": {
   "log": [
    {
@@ -573358,6 +573116,248 @@
     "ratingGames": 8,
     "strengthOfPartners": -3.2,
     "strengthOfOpponents": 1.9
+   }
+  ],
+  "partners": []
+ },
+ "f15f069a-e1f0-46d8-95a3-274616370fce": {
+  "log": [
+   {
+    "week": 7,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 81,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 0,
+    "teamGL": 32,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   }
+  ],
+  "games": [
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Thao Tran",
+    "vs": [
+     "Addy Aquino",
+     "Brandon Tsang"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Rob Stever",
+    "vs": [
+     "Jhon Cifuentes",
+     "Brandon Tsang"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Katie Yap",
+    "vs": [
+     "Julia Pliskin",
+     "Patrick Bury"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "male",
+    "with": "David Nguyen",
+    "vs": [
+     "Krupesh Ray",
+     "Jhon Cifuentes"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Katie Li",
+    "vs": [
+     "Alexa Laniado",
+     "Aadhar Rohila"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "withSub": 1
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Rob Stever",
+    "vs": [
+     "Patrick Bury",
+     "Jhon Cifuentes"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "mixed",
+    "with": "Katie Yap",
+    "vs": [
+     "Natalie Ruiz",
+     "Patrick Bury"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 7,
+    "opp": "Montville",
+    "t": "male",
+    "with": "Anshul Sahu",
+    "vs": [
+     "Krupesh Ray",
+     "Aadhar Rohila"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7",
+    "rating": -3.1,
+    "confidence": 63,
+    "rank": 502,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.9,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -3.1,
+    "confidence": 64,
+    "rank": 508,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.8,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": -3.2,
+    "confidence": 64,
+    "rank": 516,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 1.8
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -3.3,
+    "confidence": 64,
+    "rank": 529,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 1.7
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -3.3,
+    "confidence": 64,
+    "rank": 534,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.6,
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 12,
+    "seq": 15,
+    "label": "12",
+    "rating": -3.4,
+    "confidence": 64,
+    "rank": 543,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 13,
+    "seq": 16,
+    "label": "13",
+    "rating": -3.5,
+    "confidence": 65,
+    "rank": 552,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.5,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []

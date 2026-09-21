@@ -74589,6 +74589,159 @@
   ],
   "partners": []
  },
+ "b0c386a2-b875-4432-b5ef-e248a87d85dc": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 115,
+    "pa": 111,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Mylene Tenorio",
+    "vs": [
+     "Frances Smith",
+     "Tracy Narag"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Dan Sweetman",
+    "vs": [
+     "Frances Smith",
+     "John Cusano"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Patricia Cordts",
+    "vs": [
+     "Tracy Narag",
+     "Frances Smith"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Qiuyan Kong",
+    "vs": [
+     "Jenny Winters",
+     "Mandy Collins"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Dan Sweetman",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Al Chen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Mylene Tenorio",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Clare Cruz"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Picklr Fair Lawn"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -0.4,
+    "confidence": 51,
+    "rank": 270,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
+ },
  "ea77bb43-8f4b-49df-8931-43c6cc9729a2": {
   "log": [
    {
@@ -74741,159 +74894,6 @@
     "ratingGames": 4,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 1
-   }
-  ],
-  "partners": []
- },
- "b0c386a2-b875-4432-b5ef-e248a87d85dc": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Pickleball Palace Blue",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 115,
-    "pa": 111,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Mylene Tenorio",
-    "vs": [
-     "Frances Smith",
-     "Tracy Narag"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Dan Sweetman",
-    "vs": [
-     "Frances Smith",
-     "John Cusano"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Patricia Cordts",
-    "vs": [
-     "Tracy Narag",
-     "Frances Smith"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Qiuyan Kong",
-    "vs": [
-     "Jenny Winters",
-     "Mandy Collins"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Dan Sweetman",
-    "vs": [
-     "Noelie Hillebrecht",
-     "Al Chen"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Mylene Tenorio",
-    "vs": [
-     "Noelie Hillebrecht",
-     "Clare Cruz"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -0.4,
-    "confidence": 51,
-    "rank": 270,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -75204,6 +75204,167 @@
   ],
   "partners": []
  },
+ "2a59237c-117d-426c-b266-1b968c1a56c0": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 109,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Qiuyan Kong",
+     "Dan Sweetman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Jenny Winters",
+    "vs": [
+     "Olga Sedycias",
+     "Qiuyan Kong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Mark Garner",
+    "vs": [
+     "Patricia Cordts",
+     "Wai Yiu"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Clare Cruz",
+    "vs": [
+     "Olga Sedycias",
+     "Qiuyan Kong"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue"
+   },
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "mixed",
+    "with": "Al Chen",
+    "vs": [
+     "Olga Sedycias",
+     "Dan Sweetman"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Picklr Fair Lawn",
+    "t": "female",
+    "with": "Jenny Winters",
+    "vs": [
+     "Joanna Zhang",
+     "Qiuyan Kong"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace Blue",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 1.2,
+    "confidence": 51,
+    "rank": 137,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
  "cb1a0db3-dc7b-4516-9269-3ccb10e4febf": {
   "log": [
    {
@@ -75376,167 +75537,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "2a59237c-117d-426c-b266-1b968c1a56c0": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 110,
-    "pa": 109,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Mark Garner",
-    "vs": [
-     "Qiuyan Kong",
-     "Dan Sweetman"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Jenny Winters",
-    "vs": [
-     "Olga Sedycias",
-     "Qiuyan Kong"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Mark Garner",
-    "vs": [
-     "Patricia Cordts",
-     "Wai Yiu"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Clare Cruz",
-    "vs": [
-     "Olga Sedycias",
-     "Qiuyan Kong"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
-   },
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "mixed",
-    "with": "Al Chen",
-    "vs": [
-     "Olga Sedycias",
-     "Dan Sweetman"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Picklr Fair Lawn",
-    "t": "female",
-    "with": "Jenny Winters",
-    "vs": [
-     "Joanna Zhang",
-     "Qiuyan Kong"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 1.2,
-    "confidence": 51,
-    "rank": 137,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -137768,6 +137768,368 @@
   ],
   "partners": []
  },
+ "2a820b56-af8a-4856-8db8-fb8e7c133e08": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Palace Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 109,
+    "pa": 168,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Palace Black",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 58,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Brian Borer",
+    "vs": [
+     "Kristin Duva",
+     "Mark Garner"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Christine Ostapiak",
+     "Noelie Hillebrecht"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Robert Shea",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Stanley Okpor"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Karin Schneider",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Noelie Hillebrecht"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Geoffrey Baird"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Christine Levesque",
+    "vs": [
+     "Noelie Hillebrecht",
+     "Lynn Quinn"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "mixed",
+    "with": "Gary Leon",
+    "vs": [
+     "Noelie Hillebrecht",
+     "John Cusano"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Palace Blue",
+    "t": "female",
+    "with": "Robin Aiello",
+    "vs": [
+     "Kristin Duva",
+     "Noelie Hillebrecht"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Theresa Corderi"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Adam Chu",
+    "vs": [
+     "Kristin Duva",
+     "Mark Garner"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Irene Guile",
+    "vs": [
+     "Theresa Corderi",
+     "Debbie Spurr"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "Jerry Ridder",
+    "vs": [
+     "Cheryl Minerowicz",
+     "Gerard Scipione"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "mixed",
+    "with": "James Carter",
+    "vs": [
+     "Debbie Spurr",
+     "Matt Mcnulty"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace Black",
+    "t": "female",
+    "with": "Lucy Sha",
+    "vs": [
+     "Theresa Corderi",
+     "Anne Buckley"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -2.6,
+    "confidence": 52,
+    "rank": 337,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -4.1,
+    "confidence": 68,
+    "rank": 396,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -3.8,
+    "confidence": 70,
+    "rank": 431,
+    "ratingGames": 14,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": []
+ },
  "ee2b1370-05ac-455a-8be6-d2adf00a4f98": {
   "log": [
    {
@@ -138139,368 +138501,6 @@
     "synergy": 0.5
    }
   ]
- },
- "2a820b56-af8a-4856-8db8-fb8e7c133e08": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Palace Blue",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 109,
-    "pa": 168,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 1,
-    "teamGL": 31,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Palace Black",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 58,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Brian Borer",
-    "vs": [
-     "Kristin Duva",
-     "Mark Garner"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Karin Schneider",
-    "vs": [
-     "Christine Ostapiak",
-     "Noelie Hillebrecht"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Robert Shea",
-    "vs": [
-     "Cheryl Minerowicz",
-     "Stanley Okpor"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Karin Schneider",
-    "vs": [
-     "Cheryl Minerowicz",
-     "Noelie Hillebrecht"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Jerry Ridder",
-    "vs": [
-     "Cheryl Minerowicz",
-     "Geoffrey Baird"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Christine Levesque",
-    "vs": [
-     "Noelie Hillebrecht",
-     "Lynn Quinn"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "mixed",
-    "with": "Gary Leon",
-    "vs": [
-     "Noelie Hillebrecht",
-     "John Cusano"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Palace Blue",
-    "t": "female",
-    "with": "Robin Aiello",
-    "vs": [
-     "Kristin Duva",
-     "Noelie Hillebrecht"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Cheryl Minerowicz",
-     "Theresa Corderi"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Adam Chu",
-    "vs": [
-     "Kristin Duva",
-     "Mark Garner"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Irene Guile",
-    "vs": [
-     "Theresa Corderi",
-     "Debbie Spurr"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "Jerry Ridder",
-    "vs": [
-     "Cheryl Minerowicz",
-     "Gerard Scipione"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "mixed",
-    "with": "James Carter",
-    "vs": [
-     "Debbie Spurr",
-     "Matt Mcnulty"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace Black",
-    "t": "female",
-    "with": "Lucy Sha",
-    "vs": [
-     "Theresa Corderi",
-     "Anne Buckley"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -2.6,
-    "confidence": 52,
-    "rank": 337,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -4.1,
-    "confidence": 68,
-    "rank": 396,
-    "ratingGames": 14,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -3.8,
-    "confidence": 70,
-    "rank": 431,
-    "ratingGames": 14,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": []
  }
 };
   window.CPL_DETAILS = window.CPL_DETAILS || {};

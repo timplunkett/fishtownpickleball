@@ -19,7 +19,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "df823bbf-b2be-42e4-9f4d-b50aaabb78d7",
    "winPct": 87.5,
    "diff": 19,
    "ppg": 20,
@@ -28,7 +27,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": -0.6
+   "strengthOfOpponents": -0.6,
+   "playerId": "df823bbf-b2be-42e4-9f4d-b50aaabb78d7"
   },
   {
    "name": "Eric Le",
@@ -48,7 +48,6 @@
    "genderLosses": 2,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "04d19e47-d435-4eb7-916a-9b5188bd103c",
    "winPct": 85.7,
    "diff": 71,
    "ppg": 20.6,
@@ -57,7 +56,8 @@
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": -0.3
+   "strengthOfOpponents": -0.3,
+   "playerId": "04d19e47-d435-4eb7-916a-9b5188bd103c"
   },
   {
    "name": "Corey Sawin",
@@ -77,7 +77,6 @@
    "genderLosses": 0,
    "clutchWins": 1,
    "clutchLosses": 0,
-   "playerId": "890620b4-0178-497f-a752-a6f1eeae3a32",
    "winPct": 83.3,
    "diff": 19,
    "ppg": 20.5,
@@ -86,7 +85,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": 0.2,
-   "strengthOfOpponents": -1.8
+   "strengthOfOpponents": -1.8,
+   "playerId": "890620b4-0178-497f-a752-a6f1eeae3a32"
   },
   {
    "name": "Matt Enz",
@@ -147,35 +147,6 @@
    "playerId": "1006ef09-eacb-4614-9b54-529256f87497"
   },
   {
-   "name": "Johnny Deng",
-   "gender": "Male",
-   "team": "Big Dink Energy",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 12,
-   "wins": 9,
-   "losses": 3,
-   "pointsWon": 242,
-   "totalPointsAgainst": 195,
-   "mixedWins": 5,
-   "mixedLosses": 1,
-   "genderWins": 4,
-   "genderLosses": 2,
-   "clutchWins": 1,
-   "clutchLosses": 1,
-   "playerId": "e105f8f9-ac3d-4720-862b-477048d740cd",
-   "winPct": 75,
-   "diff": 47,
-   "ppg": 20.2,
-   "leagueRank": 21,
-   "rating": 2.1,
-   "ratingGames": 12,
-   "confidence": 70,
-   "strengthOfPartners": -0.3,
-   "strengthOfOpponents": -0.8
-  },
-  {
    "name": "Richard Wining",
    "gender": "Male",
    "team": "The Bouncers",
@@ -193,7 +164,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "aefe386c-3a84-4172-9b61-00defc787bf0",
    "winPct": 75,
    "diff": 47,
    "ppg": 20.2,
@@ -202,7 +172,37 @@
    "ratingGames": 12,
    "confidence": 71,
    "strengthOfPartners": 0.4,
-   "strengthOfOpponents": -1.2
+   "strengthOfOpponents": -1.2,
+   "playerId": "aefe386c-3a84-4172-9b61-00defc787bf0"
+  },
+  {
+   "name": "Johnny Deng",
+   "gender": "Male",
+   "team": "Big Dink Energy",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 12,
+   "wins": 9,
+   "losses": 3,
+   "pointsWon": 242,
+   "totalPointsAgainst": 195,
+   "mixedWins": 5,
+   "mixedLosses": 1,
+   "genderWins": 4,
+   "genderLosses": 2,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 75,
+   "diff": 47,
+   "ppg": 20.2,
+   "leagueRank": 21,
+   "rating": 2.1,
+   "ratingGames": 12,
+   "confidence": 70,
+   "strengthOfPartners": -0.3,
+   "strengthOfOpponents": -0.8,
+   "playerId": "e105f8f9-ac3d-4720-862b-477048d740cd"
   },
   {
    "name": "Carolyn Laroque",
@@ -425,7 +425,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "21785bf3-2af4-4120-a15c-d7824a55b711",
    "winPct": 66.7,
    "diff": 19,
    "ppg": 19.6,
@@ -434,7 +433,8 @@
    "ratingGames": 12,
    "confidence": 70,
    "strengthOfPartners": -0.3,
-   "strengthOfOpponents": -0.7
+   "strengthOfOpponents": -0.7,
+   "playerId": "21785bf3-2af4-4120-a15c-d7824a55b711"
   },
   {
    "name": "Ryan Gerstel",
@@ -947,7 +947,6 @@
    "genderLosses": 1,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "f0d706b3-1a14-4c99-b51e-c9ec5f866834",
    "winPct": 50,
    "diff": 7,
    "ppg": 18,
@@ -956,7 +955,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": 0.7,
-   "strengthOfOpponents": 0.5
+   "strengthOfOpponents": 0.5,
+   "playerId": "f0d706b3-1a14-4c99-b51e-c9ec5f866834"
   },
   {
    "name": "Ed Ruliff",
@@ -1295,7 +1295,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 3,
-   "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
    "winPct": 37.5,
    "diff": -10,
    "ppg": 17.8,
@@ -1304,7 +1303,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 1
+   "strengthOfOpponents": 1,
+   "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309"
   },
   {
    "name": "Michael Weber",
@@ -1759,7 +1759,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
    "winPct": 14.3,
    "diff": -30,
    "ppg": 15,
@@ -1768,7 +1767,8 @@
    "ratingGames": 7,
    "confidence": 60,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": 2.4
+   "strengthOfOpponents": 2.4,
+   "playerId": "f5e62236-e4e5-4b34-865e-c92bf027d21c"
   },
   {
    "name": "Steven Mark",
@@ -1817,7 +1817,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "03674fae-7df5-4402-9e4c-0f36aa38d96b",
    "winPct": 0,
    "diff": -43,
    "ppg": 13.8,
@@ -1826,7 +1825,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": -1.3,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "03674fae-7df5-4402-9e4c-0f36aa38d96b"
   }
  ],
  "teams": [

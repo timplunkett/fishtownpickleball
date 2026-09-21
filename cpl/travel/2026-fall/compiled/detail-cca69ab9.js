@@ -27255,204 +27255,6 @@
    }
   ]
  },
- "e2086778-379f-4d43-8ce7-6447129d8812": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Premiere",
-    "homeAway": "H",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 157,
-    "pa": 147,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Joshua Octaviano",
-    "vs": [
-     "Neil Ottrando",
-     "Joseph Lynskey"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Drew Youssef",
-    "vs": [
-     "Matthew Friedman",
-     "Michael Rapaglia"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Stanley Bonczek",
-    "vs": [
-     "Neil Ottrando",
-     "Matthew Friedman"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Stanley Bonczek",
-    "vs": [
-     "Michael Rapaglia",
-     "Joseph Lynskey"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Gautham Bondugula",
-    "vs": [
-     "Chris Frangipane",
-     "Matthew Friedman"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Drew Youssef",
-    "vs": [
-     "Boris Tserlin",
-     "Joseph Lynskey"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Ken Velarde",
-    "vs": [
-     "Gary White",
-     "Michael Rapaglia"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   },
-   {
-    "wk": 2,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Ken Velarde",
-    "vs": [
-     "Boris Tserlin",
-     "Chris Frangipane"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.3,
-    "confidence": 59,
-    "rank": 85,
-    "ratingGames": 8,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 0,
-    "confidence": 60,
-    "rank": 81,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": []
- },
  "45d2cd6f-4816-46b2-8e17-fab766cdb87e": {
   "log": [
    {
@@ -27652,6 +27454,204 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
+ "e2086778-379f-4d43-8ce7-6447129d8812": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 157,
+    "pa": 147,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Joshua Octaviano",
+    "vs": [
+     "Neil Ottrando",
+     "Joseph Lynskey"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Drew Youssef",
+    "vs": [
+     "Matthew Friedman",
+     "Michael Rapaglia"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stanley Bonczek",
+    "vs": [
+     "Neil Ottrando",
+     "Matthew Friedman"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Stanley Bonczek",
+    "vs": [
+     "Michael Rapaglia",
+     "Joseph Lynskey"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Gautham Bondugula",
+    "vs": [
+     "Chris Frangipane",
+     "Matthew Friedman"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Drew Youssef",
+    "vs": [
+     "Boris Tserlin",
+     "Joseph Lynskey"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Ken Velarde",
+    "vs": [
+     "Gary White",
+     "Michael Rapaglia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   },
+   {
+    "wk": 2,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Ken Velarde",
+    "vs": [
+     "Boris Tserlin",
+     "Chris Frangipane"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Watchung"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.3,
+    "confidence": 59,
+    "rank": 85,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 81,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []

@@ -2326,8 +2326,8 @@ function nameWithSubTag(name, isSub) {
   return escapeHtml(name) + (isSub ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : '');
 }
 
-function renderPendingPair(names) {
-  return (names || []).map((name) => (name ? escapeHtml(name) : TBD_SLOT)).join(' / ');
+function renderPendingPair(names, subs) {
+  return (names || []).map((name, i) => (name ? nameWithSubTag(name, subs && subs[i]) : TBD_SLOT)).join(' / ');
 }
 
 function isPairPosted(names) {
@@ -3073,11 +3073,13 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
     const resultClass = projection.outcome === 'win' || projection.outcome === 'loss' || projection.outcome === 'tie'
       ? projection.resultClass
       : '';
+    const usSub = homeSide ? game.hSub : game.aSub;
+    const themSub = homeSide ? game.aSub : game.hSub;
     return `
       <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
         ${renderGameTypeCell(game.t)}
-        <td class="l">${renderPendingPair(usPlayers)}</td>
-        <td class="l">${renderPendingPair(themPlayers)}</td>
+        <td class="l">${renderPendingPair(usPlayers, usSub)}</td>
+        <td class="l">${renderPendingPair(themPlayers, themSub)}</td>
         <td class="${resultClass}">${projection.marginLabel}</td>
         <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
       </tr>
@@ -3156,8 +3158,8 @@ function renderPlayoffs() {
         return `
           <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
             ${renderGameTypeCell(game.t)}
-            <td class="l">${renderPendingPair(game.h)}</td>
-            <td class="l">${renderPendingPair(game.a)}</td>
+            <td class="l">${renderPendingPair(game.h, game.hSub)}</td>
+            <td class="l">${renderPendingPair(game.a, game.aSub)}</td>
             <td class="${resultClass}">${projection.marginLabel}</td>
             <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
           </tr>`;
