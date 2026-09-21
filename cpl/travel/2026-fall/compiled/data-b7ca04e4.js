@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 539,
+   "leagueRank": 540,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 531,
+   "leagueRank": 532,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 542,
+   "leagueRank": 543,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 541,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -49041,7 +49041,8 @@
   "Sandra Girgis": "f232c3b8-78b0-479f-b288-93e11a8b6ccf",
   "Mike Lanza": "f43cc85e-b2cd-4258-95d6-73db263c51f2",
   "Jonathan Lugtu": "f46a315a-aae5-44b5-ab45-6949706396fd",
-  "Hannah Boles": "fa7927b0-c775-4e45-a682-ce91d51d7817"
+  "Hannah Boles": "fa7927b0-c775-4e45-a682-ce91d51d7817",
+  "Gary Raubenheimer": "ff4c0faf-d8a4-4af9-bb5d-217b88570d64"
  },
  "meta": {
   "matchesPlayed": 56,
@@ -49096,7 +49097,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-20T20:02:21.088Z";
+  DATA.meta.asOf = "2026-09-21T02:29:32.796Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

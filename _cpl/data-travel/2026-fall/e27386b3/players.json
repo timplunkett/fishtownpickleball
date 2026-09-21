@@ -688,7 +688,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 392
+      "ranking": 393
     },
     {
       "playerId": "125cee00-5416-44ef-81e6-00818e3c64f6",
@@ -941,7 +941,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 391
+      "ranking": 392
     },
     {
       "playerId": "1c908613-b93b-43b3-b084-b2da12b2faa2",
@@ -2324,6 +2324,29 @@
       "ranking": 251
     },
     {
+      "playerId": "4686f4c7-52b1-456e-8793-d3d1a4bd4878",
+      "firstName": "Gene",
+      "lastName": "Stahl",
+      "gender": "Male",
+      "dupr": "1NZ2L2",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 388
+    },
+    {
       "playerId": "46d96287-f2e2-4de7-8593-fcde564b9273",
       "firstName": "John",
       "lastName": "Waggoner",
@@ -3655,7 +3678,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 389
+      "ranking": 390
     },
     {
       "playerId": "6d4e3d3a-9162-4ee5-a04f-f82a10552bd5",
@@ -5012,7 +5035,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 390
+      "ranking": 391
     },
     {
       "playerId": "908a8539-b3a5-437a-957f-e900db3c01b9",
@@ -8623,7 +8646,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 388
+      "ranking": 389
     },
     {
       "playerId": "f54de088-2ac8-4b88-9b01-571fe28da246",
