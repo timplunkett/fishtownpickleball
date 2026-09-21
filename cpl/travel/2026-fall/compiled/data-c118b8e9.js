@@ -29200,8 +29200,8 @@
     {
      "t": "male",
      "h": [
-      "Rohit Mankotia",
-      "Michael Barndt"
+      "Ali Bhimji",
+      "Cullen Curley"
      ],
      "a": [
       "Shalin Rawal",
@@ -29211,8 +29211,8 @@
     {
      "t": "male",
      "h": [
-      "Cullen Curley",
-      "Ali Bhimji"
+      "Rohit Mankotia",
+      "Michael Barndt"
      ],
      "a": [
       "Jeff Laniado",
@@ -29748,7 +29748,7 @@
     {
      "t": "male",
      "h": [
-      "Andrew Ferraro",
+      "Jimmy Shapiro",
       "Mark Waters"
      ],
      "a": [
@@ -29826,7 +29826,7 @@
      "t": "male",
      "h": [
       "Bruce Nguyen",
-      "Andrew Ferraro"
+      "Mark Waters"
      ],
      "a": [
       "Daniel Borgia",
@@ -29891,7 +29891,7 @@
     {
      "t": "male",
      "h": [
-      "Andrew Ferraro",
+      "Daniel Dechristopher",
       "Chris Machuzak"
      ],
      "a": [
@@ -29914,7 +29914,7 @@
      "t": "male",
      "h": [
       "Matt Inzerillo",
-      "Andrew Ferraro"
+      "Mark Waters"
      ],
      "a": [
       "Daniel Borgia",
@@ -30023,8 +30023,8 @@
     {
      "t": "male",
      "h": [
-      "Mark Waters",
-      "Andrew Ferraro"
+      "Chris Machuzak",
+      "Andress Mims"
      ],
      "a": [
       "Joseph Luka",
@@ -30068,7 +30068,7 @@
      "t": "male",
      "h": [
       "Daniel Dechristopher",
-      "Andrew Ferraro"
+      "Matt Inzerillo"
      ],
      "a": [
       "Vincent Rigoglioso",
@@ -31174,8 +31174,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31185,8 +31185,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "David Fiscella"
      ],
      "a": [
       "Jordan Demcher",
@@ -31196,8 +31196,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Cosme Tapia"
      ],
      "a": [
       "Harrison Bohrer",
@@ -31207,8 +31207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xan Hong",
+      "Jesse Pettit"
      ],
      "a": [
       "Leland Weinert",
@@ -31218,8 +31218,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Harvey Mitchell",
@@ -31229,8 +31229,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "David Fiscella"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31240,8 +31240,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Cosme Tapia"
      ],
      "a": [
       "Leland Weinert",
@@ -31251,8 +31251,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Xan Hong"
      ],
      "a": [
       "Jr Burrs",
@@ -31262,8 +31262,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "David Fiscella"
      ],
      "a": [
       "Charles Evans",
@@ -31273,8 +31273,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Cosme Tapia"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31284,8 +31284,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Jesse Pettit"
      ],
      "a": [
       "Jr Burrs",
@@ -31295,8 +31295,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Violette",
+      "Xavier Vazquez"
      ],
      "a": [
       "Lincoln Jensen",
@@ -31306,8 +31306,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "David Fiscella"
      ],
      "a": [
       "Jordan Demcher",
@@ -31317,8 +31317,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Cosme Tapia"
      ],
      "a": [
       "Leland Weinert",
@@ -31328,8 +31328,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Jesse Pettit"
      ],
      "a": [
       "Charles Evans",
@@ -31339,8 +31339,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Violette",
+      "Xavier Vazquez"
      ],
      "a": [
       "Harvey Mitchell",
@@ -31350,8 +31350,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Fiscella",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31361,8 +31361,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cosme Tapia",
+      "Jesse Pettit"
      ],
      "a": [
       "Harvey Mitchell",
@@ -31372,8 +31372,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "Rick Olafsson"
      ],
      "a": [
       "Matt Enz",
@@ -31383,8 +31383,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Xan Hong"
      ],
      "a": [
       "Russell Cripps",
@@ -31394,8 +31394,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Fiscella",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Leland Weinert",
@@ -31405,8 +31405,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cosme Tapia",
+      "Jesse Pettit"
      ],
      "a": [
       "Harvey Mitchell",
@@ -31416,8 +31416,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "Rick Olafsson"
      ],
      "a": [
       "Harrison Bohrer",
@@ -31427,8 +31427,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Xan Hong"
      ],
      "a": [
       "Jr Burrs",
@@ -31438,8 +31438,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Fiscella",
+      "Cosme Tapia"
      ],
      "a": [
       "Jr Burrs",
@@ -31449,8 +31449,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Jordan Demcher",
@@ -31460,8 +31460,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Violette",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Harrison Bohrer",
@@ -31471,8 +31471,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xavier Vazquez",
+      "Jesse Pettit"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31482,8 +31482,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Fiscella",
+      "Cosme Tapia"
      ],
      "a": [
       "Graham Heavenrich",
@@ -31493,8 +31493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rick Olafsson",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Jordan Demcher",
@@ -31504,8 +31504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Violette",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Jr Burrs",
@@ -31515,8 +31515,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xavier Vazquez",
+      "Jesse Pettit"
      ],
      "a": [
       "Matt Enz",
@@ -31547,7 +31547,86 @@
    "home": "Home Court",
    "away": "Pickleball Kingdom Lehigh Valley",
    "time": "2026-09-27T16:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Michael Barndt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Dion Brown"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Samuel Kashefska"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Samuel Kashefska"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Dion Brown"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "Eric Ruiz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rohit Mankotia",
+      "David Reyes"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -32214,7 +32293,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T11:33:01.566Z";
+  DATA.meta.asOf = "2026-09-21T17:33:59.263Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

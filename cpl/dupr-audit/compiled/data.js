@@ -11416,6 +11416,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lynn Bresnahan",
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
+   "team": "Players Courtyard",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Lynn Hauth",
    "playerId": "fc6e0ba7-6a7d-4303-89a7-0d56a6905e11",
    "team": "Pickleball Lehigh Valley",

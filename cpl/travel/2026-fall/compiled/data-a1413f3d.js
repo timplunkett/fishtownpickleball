@@ -10317,7 +10317,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10491,7 +10491,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 424,
+   "leagueRank": 425,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 430,
+   "leagueRank": 431,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 419,
+   "leagueRank": 420,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10723,7 +10723,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 428,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10752,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 426,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 421,
+   "leagueRank": 422,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -37767,6 +37767,7 @@
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
+  "Shyler Smith": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
   "Ian Karr": "acf05b71-fa40-494b-adca-d3c411d484a6",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
   "Melanie Shapsis": "b124018b-e1df-4535-b68f-6bcf67579a24",
@@ -37907,7 +37908,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T11:30:52.152Z";
+  DATA.meta.asOf = "2026-09-21T17:30:21.267Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

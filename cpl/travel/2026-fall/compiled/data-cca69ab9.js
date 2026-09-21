@@ -17124,7 +17124,7 @@
      "t": "male",
      "h": [
       "Matthew Eldridge",
-      "Al Mancini"
+      "Mickey Cook"
      ],
      "a": [
       "Ron Branca",
@@ -17135,7 +17135,7 @@
      "t": "male",
      "h": [
       "Ali Husain",
-      "Mickey Cook"
+      "Al Mancini"
      ],
      "a": [
       "Thomas Fenton",
@@ -17178,8 +17178,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Eldridge",
+      "Craig Frame"
      ],
      "a": [
       "Timoty Cahalin",
@@ -17189,8 +17189,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gopi Narayanan",
+      "Al Mancini"
      ],
      "a": [
       "Jaco De Waal",
@@ -17200,8 +17200,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Ron Branca",
@@ -17211,8 +17211,8 @@
     {
      "t": "male",
      "h": [
-      "Chris Damato",
-      ""
+      "Craig Frame",
+      "Mickey Cook"
      ],
      "a": [
       "Joshua Mindlin",
@@ -17222,8 +17222,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Christian Lupica",
@@ -17245,7 +17245,7 @@
      "t": "male",
      "h": [
       "Ali Husain",
-      ""
+      "Al Mancini"
      ],
      "a": [
       "Ron Branca",
@@ -17255,8 +17255,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Ali Husain"
      ],
      "a": [
       "Alex Pecora",
@@ -17266,8 +17266,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Thomas Fenton",
@@ -17277,7 +17277,7 @@
     {
      "t": "male",
      "h": [
-      "Ali Husain",
+      "Michael Li",
       "Chris Damato"
      ],
      "a": [
@@ -17288,8 +17288,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gopi Narayanan",
+      "Matthew Eldridge"
      ],
      "a": [
       "Joseph Yi",
@@ -17842,7 +17842,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T02:30:36.619Z";
+  DATA.meta.asOf = "2026-09-21T17:33:30.283Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

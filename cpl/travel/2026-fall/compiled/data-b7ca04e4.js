@@ -11750,8 +11750,8 @@
    "name": "Lynn Bresnahan",
    "gender": "Female",
    "team": "Players Courtyard",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 10,
    "wins": 2,
@@ -11764,7 +11764,6 @@
    "genderLosses": 3,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
    "winPct": 20,
    "diff": -47,
    "ppg": 15.6,
@@ -11773,7 +11772,8 @@
    "ratingGames": 10,
    "confidence": 66,
    "strengthOfPartners": -1.8,
-   "strengthOfOpponents": -0.1
+   "strengthOfOpponents": -0.1,
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
   },
   {
    "name": "Caity Rietzen",
@@ -30057,9 +30057,7 @@
      ]
     }
    ],
-   "subs": [
-    "Lynn Bresnahan"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -46801,8 +46799,7 @@
     }
    ],
    "subs": [
-    "Amy Maussner",
-    "Lynn Bresnahan"
+    "Amy Maussner"
    ]
   },
   {
@@ -46851,7 +46848,361 @@
    "home": "Jersey Devil Green",
    "away": "Jersey Devil Navy",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Alex Kustas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Johns",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rebecca Mcginnis",
+      "Kyle Woerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Pinder",
+      "Jacob Alpert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Taylor Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sheply",
+      "Hanna Cutler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Kustas",
+      "Dave Brucker"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Carter",
+      "Kyle Woerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sheply",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Johns",
+      "Dave Brucker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rebecca Mcginnis",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Pinder",
+      "Jacob Alpert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Taylor Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hanna Cutler",
+      "Lisa Pinder"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Kustas",
+      "Jacob Alpert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Carter",
+      "Kyle Woerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sheply",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Johns",
+      "Dave Brucker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rebecca Mcginnis",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Pinder",
+      "Kyle Woerner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Hanna Cutler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sheply",
+      "Rebecca Mcginnis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Kustas",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Alpert",
+      "Dave Brucker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Alex Kustas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Johns",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hanna Cutler",
+      "Jonathan Carter"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Pinder",
+      "Kyle Woerner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Martina Tejeda",
+      "Hanna Cutler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sheply",
+      "Rebecca Mcginnis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Kustas",
+      "Adam Lowther"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Alpert",
+      "Dave Brucker"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -47607,7 +47958,361 @@
    "home": "Picklr Exton",
    "away": "Picklr Newark",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Joe Johnson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Savan Patel"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sydney Peterson",
+      "Dylan Tjio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Oneill",
+      "Edrees Siddiqi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Jennifer Kasnadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Oneill",
+      "Sydney Peterson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Tjio",
+      "Savan Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Johnson",
+      "Keith Brittingham"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Joe Johnson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Kasnadi",
+      "Reggie Tiglao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sydney Peterson",
+      "Dylan Tjio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Oneill",
+      "Edrees Siddiqi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Sydney Peterson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Jennifer Kasnadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Tjio",
+      "Savan Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edrees Siddiqi",
+      "Keith Brittingham"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Edrees Siddiqi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Joe Johnson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Kasnadi",
+      "Savan Patel"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Oneill",
+      "Reggie Tiglao"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Sydney Peterson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Jennifer Kasnadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Tjio",
+      "Reggie Tiglao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Johnson",
+      "Keith Brittingham"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Savan Patel"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sydney Peterson",
+      "Reggie Tiglao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Edrees Siddiqi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leah Oneill",
+      "Joe Johnson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caitlyn Suchanic",
+      "Leah Oneill"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carly Cebek",
+      "Jennifer Kasnadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Tjio",
+      "Reggie Tiglao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edrees Siddiqi",
+      "Keith Brittingham"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -49097,7 +49802,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-21T02:29:32.796Z";
+  DATA.meta.asOf = "2026-09-21T17:31:56.520Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
