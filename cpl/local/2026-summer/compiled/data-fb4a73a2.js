@@ -33,7 +33,7 @@
   {
    "name": "Thania Padova",
    "gender": "Female",
-   "team": "Kiss My Ace",
+   "team": "Dink Responsibly",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
@@ -48,7 +48,6 @@
    "genderLosses": 3,
    "clutchWins": 4,
    "clutchLosses": 1,
-   "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
    "winPct": 86.4,
    "diff": 132,
    "ppg": 20.5,
@@ -57,7 +56,8 @@
    "ratingGames": 22,
    "confidence": 80,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.9
+   "strengthOfOpponents": 0.9,
+   "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04"
   },
   {
    "name": "Shan Jiang",
@@ -193,7 +193,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
    "winPct": 73.7,
    "diff": 63,
    "ppg": 19.5,
@@ -202,7 +201,8 @@
    "ratingGames": 19,
    "confidence": 78,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b"
   },
   {
    "name": "Francesca Bogiatzis",
@@ -628,7 +628,6 @@
    "genderLosses": 6,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "02393ba1-f669-4704-87de-0d61a131ee75",
    "winPct": 55.6,
    "diff": 12,
    "ppg": 18.3,
@@ -637,7 +636,8 @@
    "ratingGames": 27,
    "confidence": 82,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "02393ba1-f669-4704-87de-0d61a131ee75"
   },
   {
    "name": "Jacqueline Ho",
@@ -831,7 +831,6 @@
    "genderLosses": 3,
    "clutchWins": 2,
    "clutchLosses": 1,
-   "playerId": "813470f2-6efd-44e2-87b0-c373c5ecacfd",
    "winPct": 50,
    "diff": 14,
    "ppg": 19.6,
@@ -840,7 +839,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -1.1,
-   "strengthOfOpponents": -0.3
+   "strengthOfOpponents": -0.3,
+   "playerId": "813470f2-6efd-44e2-87b0-c373c5ecacfd"
   },
   {
    "name": "Matt Becker",
@@ -860,7 +860,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "604007f9-8645-4f0f-9909-e3a9b2fa6dd7",
    "winPct": 50,
    "diff": 3,
    "ppg": 17.9,
@@ -869,7 +868,8 @@
    "ratingGames": 8,
    "confidence": 63,
    "strengthOfPartners": -2.6,
-   "strengthOfOpponents": -0.1
+   "strengthOfOpponents": -0.1,
+   "playerId": "604007f9-8645-4f0f-9909-e3a9b2fa6dd7"
   },
   {
    "name": "Haidee Midgley",
@@ -1237,7 +1237,6 @@
    "genderLosses": 5,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379",
    "winPct": 38.5,
    "diff": -11,
    "ppg": 18.3,
@@ -1246,7 +1245,8 @@
    "ratingGames": 13,
    "confidence": 71,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": 0.6
+   "strengthOfOpponents": 0.6,
+   "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379"
   },
   {
    "name": "Charles Buzad",
@@ -1266,7 +1266,6 @@
    "genderLosses": 2,
    "clutchWins": 2,
    "clutchLosses": 3,
-   "playerId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
    "winPct": 37.5,
    "diff": 0,
    "ppg": 19.1,
@@ -1275,7 +1274,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -1.7,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.3,
+   "playerId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147"
   },
   {
    "name": "Danika Johnston",
@@ -1469,7 +1469,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "7f71eb00-0597-4783-b624-22e76ec1ad0a",
    "winPct": 25,
    "diff": -24,
    "ppg": 16.5,
@@ -1478,7 +1477,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "7f71eb00-0597-4783-b624-22e76ec1ad0a"
   },
   {
    "name": "Dhara Metla",
@@ -1556,7 +1556,6 @@
    "genderLosses": 6,
    "clutchWins": 2,
    "clutchLosses": 3,
-   "playerId": "e3a5083d-9c55-4482-be06-647b8e86c504",
    "winPct": 14.3,
    "diff": -76,
    "ppg": 15.3,
@@ -1565,7 +1564,8 @@
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 2.1
+   "strengthOfOpponents": 2.1,
+   "playerId": "e3a5083d-9c55-4482-be06-647b8e86c504"
   },
   {
    "name": "Kim Harris",
@@ -1585,7 +1585,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 2,
-   "playerId": "3ed7cfb8-4271-48cf-a8a2-6ff983619d76",
    "winPct": 12.5,
    "diff": -34,
    "ppg": 16,
@@ -1594,7 +1593,8 @@
    "ratingGames": 8,
    "confidence": 60,
    "strengthOfPartners": 1.3,
-   "strengthOfOpponents": 0
+   "strengthOfOpponents": 0,
+   "playerId": "3ed7cfb8-4271-48cf-a8a2-6ff983619d76"
   },
   {
    "name": "Carolyn King",
@@ -1701,7 +1701,6 @@
    "genderLosses": 4,
    "clutchWins": 0,
    "clutchLosses": 0,
-   "playerId": "1b650a10-7130-4103-aa32-060f8d48e92a",
    "winPct": 0,
    "diff": -49,
    "ppg": 14.9,
@@ -1710,7 +1709,8 @@
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": -0.3,
-   "strengthOfOpponents": 1.5
+   "strengthOfOpponents": 1.5,
+   "playerId": "1b650a10-7130-4103-aa32-060f8d48e92a"
   },
   {
    "name": "Howard Shotel",
@@ -1812,7 +1812,7 @@
    "gl": 115,
    "diff": 239,
    "gameDiff": 26,
-   "power": 0.1,
+   "power": 0.3,
    "powerRank": 2,
    "pod": 1,
    "reportedPod": null,
@@ -1872,7 +1872,7 @@
    "gl": 176,
    "diff": -656,
    "gameDiff": -96,
-   "power": -0.7,
+   "power": -1,
    "powerRank": 4,
    "pod": 1,
    "reportedPod": null,

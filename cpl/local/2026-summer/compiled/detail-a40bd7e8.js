@@ -3125,6 +3125,313 @@
    }
   ]
  },
+ "aefe386c-3a84-4172-9b61-00defc787bf0": {
+  "log": [
+   {
+    "week": 6,
+    "opp": "Big Dink Energy",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 88,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "week": 7,
+    "opp": "The Dilluminati",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   }
+  ],
+  "games": [
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "mixed",
+    "with": "Carolyn Laroque",
+    "vs": [
+     "Linda Beaulieu",
+     "Sean Mahoney"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "male",
+    "with": "Brian Schreiber",
+    "vs": [
+     "Jason Mahoney",
+     "Colin Mahoney"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "male",
+    "with": "Brian Schreiber",
+    "vs": [
+     "Colin Mahoney",
+     "Sean Mahoney"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "mixed",
+    "with": "Carolyn Laroque",
+    "vs": [
+     "Linda Beaulieu",
+     "Colin Mahoney"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "male",
+    "with": "Matt King",
+    "vs": [
+     "Gary Raubenheimer",
+     "Sean Mahoney"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 6,
+    "opp": "Big Dink Energy",
+    "t": "mixed",
+    "with": "Grace Edelson",
+    "vs": [
+     "Pam Politis",
+     "Jason Mahoney"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "mixed",
+    "with": "Mary Beth Devaul",
+    "vs": [
+     "Linda Goss",
+     "Mike Scioli Jr"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "mixed",
+    "with": "Mary Beth Devaul",
+    "vs": [
+     "Jamie Damirgian",
+     "Andrew Klein"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "male",
+    "with": "Matt King",
+    "vs": [
+     "Colin Hamilton",
+     "Mike Scioli Jr"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "mixed",
+    "with": "Jennifer Minehan",
+    "vs": [
+     "Jamie Damirgian",
+     "Ryan Gerstel"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "male",
+    "with": "Tim Phelan",
+    "vs": [
+     "Colin Hamilton",
+     "Elliott Knupp"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers",
+    "withSub": 1
+   },
+   {
+    "wk": 7,
+    "opp": "The Dilluminati",
+    "t": "male",
+    "with": "Brian Schreiber",
+    "vs": [
+     "Elliott Knupp",
+     "Andrew Klein"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Bouncers"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 6,
+    "seq": 5,
+    "label": "6",
+    "rating": 0,
+    "confidence": 55,
+    "rank": 34,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -2.7
+   },
+   {
+    "week": 7,
+    "seq": 6,
+    "label": "7",
+    "rating": 0.6,
+    "confidence": 71,
+    "rank": 28,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 8,
+    "seq": 7,
+    "label": "8",
+    "rating": 0.7,
+    "confidence": 71,
+    "rank": 26,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 9,
+    "seq": 8,
+    "label": "9",
+    "rating": 0.8,
+    "confidence": 71,
+    "rank": 24,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b49e35c9-e930-406b-8a82-1f68c3eb7272",
+    "name": "Brian Schreiber",
+    "n": 3,
+    "synergy": -0.2
+   }
+  ]
+ },
  "e105f8f9-ac3d-4720-862b-477048d740cd": {
   "log": [
    {
@@ -3467,313 +3774,6 @@
    }
   ],
   "partners": []
- },
- "aefe386c-3a84-4172-9b61-00defc787bf0": {
-  "log": [
-   {
-    "week": 6,
-    "opp": "Big Dink Energy",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 123,
-    "pa": 88,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "week": 7,
-    "opp": "The Dilluminati",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 119,
-    "pa": 107,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   }
-  ],
-  "games": [
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "mixed",
-    "with": "Carolyn Laroque",
-    "vs": [
-     "Linda Beaulieu",
-     "Sean Mahoney"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "male",
-    "with": "Brian Schreiber",
-    "vs": [
-     "Jason Mahoney",
-     "Colin Mahoney"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "male",
-    "with": "Brian Schreiber",
-    "vs": [
-     "Colin Mahoney",
-     "Sean Mahoney"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "mixed",
-    "with": "Carolyn Laroque",
-    "vs": [
-     "Linda Beaulieu",
-     "Colin Mahoney"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "male",
-    "with": "Matt King",
-    "vs": [
-     "Gary Raubenheimer",
-     "Sean Mahoney"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 6,
-    "opp": "Big Dink Energy",
-    "t": "mixed",
-    "with": "Grace Edelson",
-    "vs": [
-     "Pam Politis",
-     "Jason Mahoney"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "mixed",
-    "with": "Mary Beth Devaul",
-    "vs": [
-     "Linda Goss",
-     "Mike Scioli Jr"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "mixed",
-    "with": "Mary Beth Devaul",
-    "vs": [
-     "Jamie Damirgian",
-     "Andrew Klein"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "male",
-    "with": "Matt King",
-    "vs": [
-     "Colin Hamilton",
-     "Mike Scioli Jr"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "mixed",
-    "with": "Jennifer Minehan",
-    "vs": [
-     "Jamie Damirgian",
-     "Ryan Gerstel"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "male",
-    "with": "Tim Phelan",
-    "vs": [
-     "Colin Hamilton",
-     "Elliott Knupp"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers",
-    "withSub": 1
-   },
-   {
-    "wk": 7,
-    "opp": "The Dilluminati",
-    "t": "male",
-    "with": "Brian Schreiber",
-    "vs": [
-     "Elliott Knupp",
-     "Andrew Klein"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Bouncers"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 6,
-    "seq": 5,
-    "label": "6",
-    "rating": 0,
-    "confidence": 55,
-    "rank": 34,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -2.7
-   },
-   {
-    "week": 7,
-    "seq": 6,
-    "label": "7",
-    "rating": 0.6,
-    "confidence": 71,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 8,
-    "seq": 7,
-    "label": "8",
-    "rating": 0.7,
-    "confidence": 71,
-    "rank": 26,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 9,
-    "seq": 8,
-    "label": "9",
-    "rating": 0.8,
-    "confidence": 71,
-    "rank": 24,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b49e35c9-e930-406b-8a82-1f68c3eb7272",
-    "name": "Brian Schreiber",
-    "n": 3,
-    "synergy": -0.2
-   }
-  ]
  },
  "1b62307b-ca04-485d-8788-bc54f446a638": {
   "log": [

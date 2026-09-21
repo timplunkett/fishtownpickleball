@@ -396,7 +396,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "winPct": 62.5,
    "diff": 9,
    "ppg": 19.9,
@@ -405,7 +404,8 @@
    "ratingGames": 8,
    "confidence": 60,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": 1.3
+   "strengthOfOpponents": 1.3,
+   "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8"
   },
   {
    "name": "Deborah Chapman",
@@ -1425,7 +1425,7 @@
   {
    "name": "Christina Vuong",
    "gender": "Female",
-   "team": "License to Dill",
+   "team": "Picholas Cage",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
@@ -1440,7 +1440,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
    "winPct": 41.7,
    "diff": -7,
    "ppg": 18.6,
@@ -1449,7 +1448,8 @@
    "ratingGames": 12,
    "confidence": 71,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028"
   },
   {
    "name": "Elizabeth Krebs",
@@ -1585,7 +1585,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e",
    "winPct": 33.3,
    "diff": -8,
    "ppg": 18.2,
@@ -1594,7 +1593,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.9
+   "strengthOfOpponents": 0.9,
+   "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e"
   },
   {
    "name": "Alex Ehrenman",
@@ -1614,7 +1614,6 @@
    "genderLosses": 3,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "fb562cfa-a6fa-40f3-9c7e-e67f9a7925d1",
    "winPct": 33.3,
    "diff": -19,
    "ppg": 16.7,
@@ -1623,7 +1622,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -0.5
+   "strengthOfOpponents": -0.5,
+   "playerId": "fb562cfa-a6fa-40f3-9c7e-e67f9a7925d1"
   },
   {
    "name": "Joe Arancio",
@@ -1817,7 +1817,6 @@
    "genderLosses": 6,
    "clutchWins": 6,
    "clutchLosses": 2,
-   "playerId": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
    "winPct": 30,
    "diff": -74,
    "ppg": 16.7,
@@ -1826,7 +1825,8 @@
    "ratingGames": 20,
    "confidence": 80,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 1.1
+   "strengthOfOpponents": 1.1,
+   "playerId": "6775ab12-38b5-4f41-a6c1-df35276b63c2"
   },
   {
    "name": "Grady Craig",
@@ -1962,7 +1962,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 3,
-   "playerId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
    "winPct": 16.7,
    "diff": -6,
    "ppg": 18.7,
@@ -1971,7 +1970,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": -0.8,
-   "strengthOfOpponents": 0.1
+   "strengthOfOpponents": 0.1,
+   "playerId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac"
   },
   {
    "name": "Robert Courchain",
@@ -2102,7 +2102,7 @@
    "gl": 97,
    "diff": 159,
    "gameDiff": 30,
-   "power": 0.6,
+   "power": 0.5,
    "powerRank": 2,
    "pod": 1,
    "reportedPod": null,
@@ -2132,8 +2132,8 @@
    "gl": 123,
    "diff": -151,
    "gameDiff": -22,
-   "power": 0,
-   "powerRank": 5,
+   "power": 0.1,
+   "powerRank": 4,
    "pod": 1,
    "reportedPod": null,
    "podName": null,
@@ -2193,7 +2193,7 @@
    "diff": -192,
    "gameDiff": -28,
    "power": 0.1,
-   "powerRank": 4,
+   "powerRank": 5,
    "pod": 1,
    "reportedPod": null,
    "podName": null,

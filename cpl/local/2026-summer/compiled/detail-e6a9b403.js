@@ -3530,6 +3530,205 @@
   ],
   "partners": []
  },
+ "8bd4a2ac-711a-412f-a8a7-89543cfadd79": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Kitchen Ninjas",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 148,
+    "pa": 135,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 1,
+    "subFor": "The Big Dill"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "mixed",
+    "with": "Leslie Bartnik",
+    "vs": [
+     "Laura Lobb",
+     "Mike Piccirillo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "male",
+    "with": "Seth Blackwell",
+    "vs": [
+     "Divakar Tailor",
+     "Ian Bolden"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "mixed",
+    "with": "Tracey Lawson",
+    "vs": [
+     "Ingrid Teasdale",
+     "Frank Rivera"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "male",
+    "with": "Joe Carpenter",
+    "vs": [
+     "Mike Piccirillo",
+     "Dhruva Poluru"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "mixed",
+    "with": "Tracey Lawson",
+    "vs": [
+     "Laura Lobb",
+     "Dhruva Poluru"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill"
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "male",
+    "with": "Joe Carpenter",
+    "vs": [
+     "Mike Piccirillo",
+     "Dhruva Poluru"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "mixed",
+    "with": "Anne Nagy",
+    "vs": [
+     "Ingrid Teasdale",
+     "Divakar Tailor"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Kitchen Ninjas",
+    "t": "male",
+    "with": "Seth Blackwell",
+    "vs": [
+     "Ian Bolden",
+     "Mike Piccirillo"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "The Big Dill",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 59,
+    "rank": 37,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 6,
+    "seq": 6,
+    "label": "6",
+    "rating": -0.7,
+    "confidence": 60,
+    "rank": 48,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": []
+ },
  "ee49b339-395a-48ef-8f30-64082513578f": {
   "log": [
    {
@@ -3747,205 +3946,6 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
- },
- "8bd4a2ac-711a-412f-a8a7-89543cfadd79": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Kitchen Ninjas",
-    "homeAway": "H",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 148,
-    "pa": 135,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 1,
-    "subFor": "The Big Dill"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "mixed",
-    "with": "Leslie Bartnik",
-    "vs": [
-     "Laura Lobb",
-     "Mike Piccirillo"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "male",
-    "with": "Seth Blackwell",
-    "vs": [
-     "Divakar Tailor",
-     "Ian Bolden"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "mixed",
-    "with": "Tracey Lawson",
-    "vs": [
-     "Ingrid Teasdale",
-     "Frank Rivera"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "male",
-    "with": "Joe Carpenter",
-    "vs": [
-     "Mike Piccirillo",
-     "Dhruva Poluru"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "mixed",
-    "with": "Tracey Lawson",
-    "vs": [
-     "Laura Lobb",
-     "Dhruva Poluru"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill"
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "male",
-    "with": "Joe Carpenter",
-    "vs": [
-     "Mike Piccirillo",
-     "Dhruva Poluru"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "mixed",
-    "with": "Anne Nagy",
-    "vs": [
-     "Ingrid Teasdale",
-     "Divakar Tailor"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Kitchen Ninjas",
-    "t": "male",
-    "with": "Seth Blackwell",
-    "vs": [
-     "Ian Bolden",
-     "Mike Piccirillo"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "The Big Dill",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 5,
-    "label": "5",
-    "rating": -0.6,
-    "confidence": 59,
-    "rank": 37,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 6,
-    "seq": 6,
-    "label": "6",
-    "rating": -0.7,
-    "confidence": 60,
-    "rank": 48,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -1
    }
   ],
   "partners": []

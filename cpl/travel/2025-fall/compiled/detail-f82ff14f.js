@@ -235249,6 +235249,226 @@
   ],
   "partners": []
  },
+ "155e8c41-ac8a-4004-8169-5cca4a66f8d2": {
+  "log": [
+   {
+    "week": 6,
+    "opp": "Bounce Philly",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 100,
+    "pa": 124,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   }
+  ],
+  "games": [
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Drew Von Bargen",
+    "vs": [
+     "Alex Abad",
+     "Jordan Denish"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   },
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Arianna Haresign",
+    "vs": [
+     "Alex Abad",
+     "Rachel Alfano"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   },
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Dominique Damerjian",
+    "vs": [
+     "Rachel Alfano",
+     "Charlotte Healey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   },
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Chaille Godinez",
+    "vs": [
+     "Rachel Alfano",
+     "Kathleen Dougherty"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   },
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Matthew Matro",
+    "vs": [
+     "Rachel Alfano",
+     "Jordan Denish"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   },
+   {
+    "wk": 6,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Arianna Haresign",
+    "vs": [
+     "Alex Abad",
+     "Charlotte Healey"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Devil"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 6,
+    "seq": 5,
+    "label": "6",
+    "rating": -1.7,
+    "confidence": 54,
+    "rank": 175,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 7,
+    "seq": 7,
+    "label": "7",
+    "rating": -2,
+    "confidence": 55,
+    "rank": 193,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 8,
+    "seq": 8,
+    "label": "8",
+    "rating": -1.8,
+    "confidence": 55,
+    "rank": 191,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 9,
+    "seq": 9,
+    "label": "9",
+    "rating": -1.8,
+    "confidence": 56,
+    "rank": 201,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 10,
+    "seq": 11,
+    "label": "10",
+    "rating": -2,
+    "confidence": 56,
+    "rank": 211,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": -1.8,
+    "confidence": 57,
+    "rank": 212,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 12,
+    "seq": 14,
+    "label": "12",
+    "rating": -1.9,
+    "confidence": 57,
+    "rank": 222,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 13,
+    "seq": 15,
+    "label": "13",
+    "rating": -1.9,
+    "confidence": 57,
+    "rank": 227,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": []
+ },
  "6c8e2373-9549-4f25-9cbf-4264745eda64": {
   "log": [
    {
@@ -235509,226 +235729,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": []
- },
- "155e8c41-ac8a-4004-8169-5cca4a66f8d2": {
-  "log": [
-   {
-    "week": 6,
-    "opp": "Bounce Philly",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 100,
-    "pa": 124,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   }
-  ],
-  "games": [
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Drew Von Bargen",
-    "vs": [
-     "Alex Abad",
-     "Jordan Denish"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   },
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Arianna Haresign",
-    "vs": [
-     "Alex Abad",
-     "Rachel Alfano"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   },
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Dominique Damerjian",
-    "vs": [
-     "Rachel Alfano",
-     "Charlotte Healey"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   },
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Chaille Godinez",
-    "vs": [
-     "Rachel Alfano",
-     "Kathleen Dougherty"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   },
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Matthew Matro",
-    "vs": [
-     "Rachel Alfano",
-     "Jordan Denish"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   },
-   {
-    "wk": 6,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Arianna Haresign",
-    "vs": [
-     "Alex Abad",
-     "Charlotte Healey"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 6,
-    "seq": 5,
-    "label": "6",
-    "rating": -1.7,
-    "confidence": 54,
-    "rank": 175,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 7,
-    "seq": 7,
-    "label": "7",
-    "rating": -2,
-    "confidence": 55,
-    "rank": 193,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 8,
-    "seq": 8,
-    "label": "8",
-    "rating": -1.8,
-    "confidence": 55,
-    "rank": 191,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 9,
-    "seq": 9,
-    "label": "9",
-    "rating": -1.8,
-    "confidence": 56,
-    "rank": 201,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 10,
-    "seq": 11,
-    "label": "10",
-    "rating": -2,
-    "confidence": 56,
-    "rank": 211,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": -1.8,
-    "confidence": 57,
-    "rank": 212,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 12,
-    "seq": 14,
-    "label": "12",
-    "rating": -1.9,
-    "confidence": 57,
-    "rank": 222,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 13,
-    "seq": 15,
-    "label": "13",
-    "rating": -1.9,
-    "confidence": 57,
-    "rank": 227,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []

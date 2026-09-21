@@ -156757,6 +156757,150 @@
   ],
   "partners": []
  },
+ "42cd2ea9-67c6-4d62-ad7f-8005e5c03606": {
+  "log": [
+   {
+    "week": 11,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 112,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Manuel Martorell",
+    "vs": [
+     "Alyssa Beattie",
+     "David Schwartz"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Joan Harris",
+    "vs": [
+     "Alyssa Beattie",
+     "Patricia Vytell"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Joan Harris",
+    "vs": [
+     "Charishma Serrano",
+     "Patricia Vytell"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Manuel Martorell",
+    "vs": [
+     "Alyssa Beattie",
+     "David Schwartz"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "female",
+    "with": "Debbie Finkelstein",
+    "vs": [
+     "Isabella Chernin",
+     "Alyssa Beattie"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace",
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Daniel Lee",
+    "vs": [
+     "Charishma Serrano",
+     "Paul Michael Serrano"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 13,
+    "label": "11",
+    "rating": -0.5,
+    "confidence": 56,
+    "rank": 200,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": []
+ },
  "ac95857d-6706-4db0-89ae-846030096972": {
   "log": [
    {
@@ -157005,150 +157149,6 @@
     "ratingGames": 8,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 2.1
-   }
-  ],
-  "partners": []
- },
- "42cd2ea9-67c6-4d62-ad7f-8005e5c03606": {
-  "log": [
-   {
-    "week": 11,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 112,
-    "pa": 115,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "games": [
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Manuel Martorell",
-    "vs": [
-     "Alyssa Beattie",
-     "David Schwartz"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Joan Harris",
-    "vs": [
-     "Alyssa Beattie",
-     "Patricia Vytell"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Joan Harris",
-    "vs": [
-     "Charishma Serrano",
-     "Patricia Vytell"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Manuel Martorell",
-    "vs": [
-     "Alyssa Beattie",
-     "David Schwartz"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "female",
-    "with": "Debbie Finkelstein",
-    "vs": [
-     "Isabella Chernin",
-     "Alyssa Beattie"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace",
-    "withSub": 1
-   },
-   {
-    "wk": 11,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Daniel Lee",
-    "vs": [
-     "Charishma Serrano",
-     "Paul Michael Serrano"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 11,
-    "seq": 13,
-    "label": "11",
-    "rating": -0.5,
-    "confidence": 56,
-    "rank": 200,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []

@@ -19,7 +19,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "5c1e16e3-303e-48ca-8ad7-77077727394d",
    "winPct": 83.3,
    "diff": 21,
    "ppg": 20.7,
@@ -28,7 +27,8 @@
    "ratingGames": 6,
    "confidence": 54,
    "strengthOfPartners": -1.7,
-   "strengthOfOpponents": -2.7
+   "strengthOfOpponents": -2.7,
+   "playerId": "5c1e16e3-303e-48ca-8ad7-77077727394d"
   },
   {
    "name": "Richard Livornese",
@@ -48,7 +48,6 @@
    "genderLosses": 1,
    "clutchWins": 3,
    "clutchLosses": 1,
-   "playerId": "65eebb53-e684-4819-bf57-99a241c04812",
    "winPct": 83.3,
    "diff": 19,
    "ppg": 20.7,
@@ -57,7 +56,8 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": -2.7
+   "strengthOfOpponents": -2.7,
+   "playerId": "65eebb53-e684-4819-bf57-99a241c04812"
   },
   {
    "name": "Johanna Kreilick",
@@ -425,7 +425,6 @@
    "genderLosses": 2,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
    "winPct": 66.7,
    "diff": -7,
    "ppg": 18,
@@ -434,7 +433,8 @@
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": 0.2
+   "strengthOfOpponents": 0.2,
+   "playerId": "57f76666-8731-4408-9e83-fbab3d007fae"
   },
   {
    "name": "Steve Tosi",
@@ -541,7 +541,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
    "winPct": 62.5,
    "diff": 19,
    "ppg": 19.5,
@@ -550,7 +549,8 @@
    "ratingGames": 8,
    "confidence": 61,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": -0.2
+   "strengthOfOpponents": -0.2,
+   "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8"
   },
   {
    "name": "Lynda Levan",
@@ -1092,7 +1092,6 @@
    "genderLosses": 4,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "a8715ef7-f760-4097-b642-eae44c0a5de7",
    "winPct": 50,
    "diff": -3,
    "ppg": 18,
@@ -1101,7 +1100,8 @@
    "ratingGames": 18,
    "confidence": 78,
    "strengthOfPartners": -0.9,
-   "strengthOfOpponents": -0.4
+   "strengthOfOpponents": -0.4,
+   "playerId": "a8715ef7-f760-4097-b642-eae44c0a5de7"
   },
   {
    "name": "Steven Levin",
@@ -1150,7 +1150,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 0,
-   "playerId": "2a31bf75-6b8c-4df5-8a70-daaf9a5a4265",
    "winPct": 50,
    "diff": -13,
    "ppg": 17.7,
@@ -1159,7 +1158,8 @@
    "ratingGames": 6,
    "confidence": 57,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": -0.3
+   "strengthOfOpponents": -0.3,
+   "playerId": "2a31bf75-6b8c-4df5-8a70-daaf9a5a4265"
   },
   {
    "name": "Margo Langer",
@@ -1440,7 +1440,6 @@
    "genderLosses": 1,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "001c2d38-829b-4fd0-b249-472f78337387",
    "winPct": 42.9,
    "diff": 3,
    "ppg": 19.1,
@@ -1449,7 +1448,8 @@
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 1.6
+   "strengthOfOpponents": 1.6,
+   "playerId": "001c2d38-829b-4fd0-b249-472f78337387"
   },
   {
    "name": "Alex Lawrason",
@@ -1469,7 +1469,6 @@
    "genderLosses": 2,
    "clutchWins": 0,
    "clutchLosses": 1,
-   "playerId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
    "winPct": 42.9,
    "diff": 1,
    "ppg": 18.4,
@@ -1478,7 +1477,8 @@
    "ratingGames": 7,
    "confidence": 58,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 2.1
+   "strengthOfOpponents": 2.1,
+   "playerId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb"
   },
   {
    "name": "Tom Matko",
@@ -1686,7 +1686,7 @@
   {
    "name": "Josh Rito",
    "gender": "Male",
-   "team": "Summer of Slam",
+   "team": "Pickleball Addicts",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
@@ -1701,7 +1701,6 @@
    "genderLosses": 5,
    "clutchWins": 1,
    "clutchLosses": 4,
-   "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d",
    "winPct": 35.7,
    "diff": -24,
    "ppg": 17.4,
@@ -1710,7 +1709,8 @@
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 0.1
+   "strengthOfOpponents": 0.1,
+   "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d"
   },
   {
    "name": "Eric Brezina",
@@ -1904,7 +1904,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 1,
-   "playerId": "9bcbd522-d5da-4f16-8179-cb6ad029563d",
    "winPct": 28.6,
    "diff": -32,
    "ppg": 15.4,
@@ -1913,7 +1912,8 @@
    "ratingGames": 7,
    "confidence": 58,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 1.5
+   "strengthOfOpponents": 1.5,
+   "playerId": "9bcbd522-d5da-4f16-8179-cb6ad029563d"
   },
   {
    "name": "Diane Bracco",
@@ -2078,7 +2078,6 @@
    "genderLosses": 2,
    "clutchWins": 1,
    "clutchLosses": 2,
-   "playerId": "201e264e-23da-435d-a4b5-0fea908d1098",
    "winPct": 16.7,
    "diff": -12,
    "ppg": 18.7,
@@ -2087,7 +2086,8 @@
    "ratingGames": 6,
    "confidence": 57,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 1
+   "strengthOfOpponents": 1,
+   "playerId": "201e264e-23da-435d-a4b5-0fea908d1098"
   },
   {
    "name": "Peggy Matzen",
@@ -2219,7 +2219,7 @@
    "gl": 115,
    "diff": 165,
    "gameDiff": 26,
-   "power": 0.2,
+   "power": 0.3,
    "powerRank": 3,
    "pod": 1,
    "reportedPod": null,

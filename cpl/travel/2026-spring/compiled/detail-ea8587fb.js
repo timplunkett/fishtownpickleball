@@ -55278,6 +55278,182 @@
    }
   ]
  },
+ "1009522f-1f54-4cf1-a0a0-e24ad64f4a66": {
+  "log": [
+   {
+    "week": 8,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 108,
+    "pa": 117,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "games": [
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Johnson Chang",
+    "vs": [
+     "Joe Palumbo",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Kelly Hanson Word",
+    "vs": [
+     "Alice Napolitano",
+     "Michael Dombrowiecki"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Johnson Chang",
+    "vs": [
+     "Andrew Hyman",
+     "Brad Oldham"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Rick Vazquez",
+    "vs": [
+     "Michael Swell",
+     "Michael Dombrowiecki"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Kate Curren",
+    "vs": [
+     "Natasha De Carvalho",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   },
+   {
+    "wk": 8,
+    "opp": "Jersey Pickleball Club",
+    "t": "male",
+    "with": "Rick Vazquez",
+    "vs": [
+     "Joe Palumbo",
+     "Brad Oldham"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Palace"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -0.7,
+    "confidence": 56,
+    "rank": 170,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 9,
+    "seq": 11,
+    "label": "9",
+    "rating": -0.7,
+    "confidence": 56,
+    "rank": 173,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -0.7,
+    "confidence": 57,
+    "rank": 177,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -0.8,
+    "confidence": 57,
+    "rank": 184,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
  "5d2f1c91-647e-4f06-bd5e-ad6550674ce4": {
   "log": [
    {
@@ -55491,182 +55667,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": []
- },
- "1009522f-1f54-4cf1-a0a0-e24ad64f4a66": {
-  "log": [
-   {
-    "week": 8,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 108,
-    "pa": 117,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "games": [
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Johnson Chang",
-    "vs": [
-     "Joe Palumbo",
-     "Michael Dombrowiecki"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Kelly Hanson Word",
-    "vs": [
-     "Alice Napolitano",
-     "Michael Dombrowiecki"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Johnson Chang",
-    "vs": [
-     "Andrew Hyman",
-     "Brad Oldham"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Rick Vazquez",
-    "vs": [
-     "Michael Swell",
-     "Michael Dombrowiecki"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "mixed",
-    "with": "Kate Curren",
-    "vs": [
-     "Natasha De Carvalho",
-     "Michael Dombrowiecki"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   },
-   {
-    "wk": 8,
-    "opp": "Jersey Pickleball Club",
-    "t": "male",
-    "with": "Rick Vazquez",
-    "vs": [
-     "Joe Palumbo",
-     "Brad Oldham"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -0.7,
-    "confidence": 56,
-    "rank": 170,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 9,
-    "seq": 11,
-    "label": "9",
-    "rating": -0.7,
-    "confidence": 56,
-    "rank": 173,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -0.7,
-    "confidence": 57,
-    "rank": 177,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -0.8,
-    "confidence": 57,
-    "rank": 184,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 1
    }
   ],
   "partners": []
@@ -103417,6 +103417,220 @@
   ],
   "partners": []
  },
+ "c4b5a5b1-ac09-4c8c-94fb-6b6ab853f3a4": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Stelton Sports",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 111,
+    "pa": 116,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "mixed",
+    "with": "Ivona Reszka",
+    "vs": [
+     "Jennifer Qian",
+     "Liangang Liu"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Brett Dellavolpe",
+    "vs": [
+     "Jiangang Li",
+     "Jim Peng"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "mixed",
+    "with": "Ayten Mayer",
+    "vs": [
+     "Jennifer Qian",
+     "Liangang Liu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Richard Abate",
+    "vs": [
+     "Lei Dong",
+     "Jim Peng"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "mixed",
+    "with": "Bobo Delaney",
+    "vs": [
+     "Suzanne \"Zan\" Davies",
+     "Liangang Liu"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Marc Padre",
+    "vs": [
+     "Liangang Liu",
+     "Dave Pellicane"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 6,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 57,
+    "rank": 165,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -0.9,
+    "confidence": 57,
+    "rank": 165,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7",
+    "rating": -0.8,
+    "confidence": 57,
+    "rank": 165,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -0.6,
+    "confidence": 57,
+    "rank": 158,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 9,
+    "seq": 11,
+    "label": "9",
+    "rating": -0.5,
+    "confidence": 57,
+    "rank": 156,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -0.6,
+    "confidence": 57,
+    "rank": 167,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -0.6,
+    "confidence": 57,
+    "rank": 173,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
  "c94b7f57-f476-43db-8fc3-e23331d97b63": {
   "log": [
    {
@@ -103644,220 +103858,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "c4b5a5b1-ac09-4c8c-94fb-6b6ab853f3a4": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Stelton Sports",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 111,
-    "pa": 116,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "mixed",
-    "with": "Ivona Reszka",
-    "vs": [
-     "Jennifer Qian",
-     "Liangang Liu"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Brett Dellavolpe",
-    "vs": [
-     "Jiangang Li",
-     "Jim Peng"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "mixed",
-    "with": "Ayten Mayer",
-    "vs": [
-     "Jennifer Qian",
-     "Liangang Liu"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Richard Abate",
-    "vs": [
-     "Lei Dong",
-     "Jim Peng"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "mixed",
-    "with": "Bobo Delaney",
-    "vs": [
-     "Suzanne \"Zan\" Davies",
-     "Liangang Liu"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Marc Padre",
-    "vs": [
-     "Liangang Liu",
-     "Dave Pellicane"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 6,
-    "label": "5",
-    "rating": -0.9,
-    "confidence": 57,
-    "rank": 165,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -0.9,
-    "confidence": 57,
-    "rank": 165,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": -0.8,
-    "confidence": 57,
-    "rank": 165,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -0.6,
-    "confidence": 57,
-    "rank": 158,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 9,
-    "seq": 11,
-    "label": "9",
-    "rating": -0.5,
-    "confidence": 57,
-    "rank": 156,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -0.6,
-    "confidence": 57,
-    "rank": 167,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -0.6,
-    "confidence": 57,
-    "rank": 173,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -199542,6 +199542,250 @@
    }
   ]
  },
+ "a117b66b-f319-4fc0-8ee2-feb3f17767d0": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "ACE",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 117,
+    "pa": 161,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 1,
+    "subFor": "Montville"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "mixed",
+    "with": "Liang Chao",
+    "vs": [
+     "Stacey Frank",
+     "Jeff Lorman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "male",
+    "with": "David King",
+    "vs": [
+     "Marc Harden",
+     "James Shaw"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "mixed",
+    "with": "Michele Dabal",
+    "vs": [
+     "Stacey Frank",
+     "James Shaw"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "male",
+    "with": "Andre Yang",
+    "vs": [
+     "James Shaw",
+     "Jeff Lorman"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "mixed",
+    "with": "Savita Nandal",
+    "vs": [
+     "Sandy Alkins",
+     "James Shaw"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "male",
+    "with": "Samir Fahmy",
+    "vs": [
+     "Marc Pellicane",
+     "Marc Harden"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "mixed",
+    "with": "Savita Nandal",
+    "vs": [
+     "Kate Siedell",
+     "Robert Finley"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville"
+   },
+   {
+    "wk": 5,
+    "opp": "ACE",
+    "t": "male",
+    "with": "David King",
+    "vs": [
+     "Marc Harden",
+     "Marc Pellicane"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Montville",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 6,
+    "label": "5",
+    "rating": 1.3,
+    "confidence": 62,
+    "rank": 58,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 3
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": 1.4,
+    "confidence": 62,
+    "rank": 54,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 3.1
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7",
+    "rating": 1.4,
+    "confidence": 63,
+    "rank": 55,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 3.1
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": 1.4,
+    "confidence": 63,
+    "rank": 56,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 3.1
+   },
+   {
+    "week": 9,
+    "seq": 11,
+    "label": "9",
+    "rating": 1.3,
+    "confidence": 63,
+    "rank": 64,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 3
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": 1.4,
+    "confidence": 63,
+    "rank": 62,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 3
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": 1.3,
+    "confidence": 63,
+    "rank": 68,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 3.1
+   }
+  ],
+  "partners": []
+ },
  "c5fa0e7c-eb97-45fa-8a86-850a918fff54": {
   "log": [
    {
@@ -199903,250 +200147,6 @@
     "ratingGames": 12,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
-   }
-  ],
-  "partners": []
- },
- "a117b66b-f319-4fc0-8ee2-feb3f17767d0": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "ACE",
-    "homeAway": "A",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 117,
-    "pa": 161,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 1,
-    "subFor": "Montville"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "mixed",
-    "with": "Liang Chao",
-    "vs": [
-     "Stacey Frank",
-     "Jeff Lorman"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "male",
-    "with": "David King",
-    "vs": [
-     "Marc Harden",
-     "James Shaw"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "mixed",
-    "with": "Michele Dabal",
-    "vs": [
-     "Stacey Frank",
-     "James Shaw"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "male",
-    "with": "Andre Yang",
-    "vs": [
-     "James Shaw",
-     "Jeff Lorman"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "mixed",
-    "with": "Savita Nandal",
-    "vs": [
-     "Sandy Alkins",
-     "James Shaw"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "male",
-    "with": "Samir Fahmy",
-    "vs": [
-     "Marc Pellicane",
-     "Marc Harden"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "mixed",
-    "with": "Savita Nandal",
-    "vs": [
-     "Kate Siedell",
-     "Robert Finley"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville"
-   },
-   {
-    "wk": 5,
-    "opp": "ACE",
-    "t": "male",
-    "with": "David King",
-    "vs": [
-     "Marc Harden",
-     "Marc Pellicane"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Montville",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 6,
-    "label": "5",
-    "rating": 1.3,
-    "confidence": 62,
-    "rank": 58,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 3
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": 1.4,
-    "confidence": 62,
-    "rank": 54,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 3.1
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": 1.4,
-    "confidence": 63,
-    "rank": 55,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 3.1
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": 1.4,
-    "confidence": 63,
-    "rank": 56,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 3.1
-   },
-   {
-    "week": 9,
-    "seq": 11,
-    "label": "9",
-    "rating": 1.3,
-    "confidence": 63,
-    "rank": 64,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 3
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": 1.4,
-    "confidence": 63,
-    "rank": 62,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 3
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": 1.3,
-    "confidence": 63,
-    "rank": 68,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 3.1
    }
   ],
   "partners": []
@@ -225030,6 +225030,601 @@
     "synergy": -1.9
    }
   ]
+ },
+ "2a302d21-a60a-4e90-b1e2-c2d1d9036eda": {
+  "log": [],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Vicki Main",
+     "Derek Le"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Harriet Levin",
+     "Vicki Main"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Marc Padre",
+    "vs": [
+     "Jennifer Wang",
+     "Keith Goldberg"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Stephanie Woomer",
+     "Jennifer Wang"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Abraham Telechanski",
+    "vs": [
+     "Jennifer Wang",
+     "Keith Goldberg"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Ali Fordyce",
+    "vs": [
+     "Harriet Levin",
+     "Jennifer Wang"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Richard Demeuse",
+    "vs": [
+     "Stephanie Woomer",
+     "Derek Le"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Dint Moore",
+    "vs": [
+     "Vicki Main",
+     "Jennifer Wang"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Bhagat",
+    "vs": [
+     "Natasha De Carvalho",
+     "Joe Palumbo"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "",
+     "Rosalyn Goldsmith"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "David Shapiro",
+    "vs": [
+     "Natasha De Carvalho",
+     "Joe Palumbo"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Rosalyn Goldsmith",
+     ""
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Bhagat",
+    "vs": [
+     "Natasha De Carvalho",
+     "Darren Saks"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Susan St. Pierre",
+    "vs": [
+     "",
+     "Eva Danieli"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "David Shapiro",
+    "vs": [
+     "Eva Danieli",
+     "Joe Palumbo"
+    ],
+    "f": 0,
+    "a": 13,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Susan St. Pierre",
+    "vs": [
+     "Alice Napolitano",
+     "Eva Danieli"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -2.2,
+    "confidence": 18,
+    "rank": 244,
+    "ratingGames": 1,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": []
+ },
+ "48ed972d-ae17-408b-860e-6f122d0e4e9b": {
+  "log": [],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Marc Padre",
+    "vs": [
+     "Jennifer Wang",
+     "Jim Darcangelo"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Harriet Levin",
+     "Vicki Main"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Bill Ly",
+    "vs": [
+     "Harriet Levin",
+     "Derek Le"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Stephanie Woomer",
+     "Jennifer Wang"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Richard Abate",
+    "vs": [
+     "Stephanie Woomer",
+     "Michael Finkelstein"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Dint Moore",
+    "vs": [
+     "Stephanie Woomer",
+     "Vicki Main"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Bill Ly",
+    "vs": [
+     "Vicki Main",
+     "Michael Finkelstein"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Ali Fordyce",
+    "vs": [
+     "Stephanie Woomer",
+     "Harriet Levin"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [],
+  "partners": []
+ },
+ "ac7903bb-e0cd-4cc8-ac43-302304114297": {
+  "log": [],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "David Shapiro",
+    "vs": [
+     "Rosalyn Goldsmith",
+     "Darren Saks"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "",
+     "Rosalyn Goldsmith"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Bhagat",
+    "vs": [
+     "",
+     "Darren Saks"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "",
+    "vs": [
+     "Rosalyn Goldsmith",
+     ""
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "David Shapiro",
+    "vs": [
+     "",
+     "Joe Palumbo"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Sara Wiggert",
+    "vs": [
+     "Rosalyn Goldsmith",
+     "Natasha De Carvalho"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "mixed",
+    "with": "Karan Bhagat",
+    "vs": [
+     "",
+     "Darren Saks"
+    ],
+    "f": 1,
+    "a": 19,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 11,
+    "opp": "Jersey Pickleball Club",
+    "t": "female",
+    "with": "Sara Wiggert",
+    "vs": [
+     "Rosalyn Goldsmith",
+     "Natasha De Carvalho"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -2.5,
+    "confidence": 18,
+    "rank": 251,
+    "ratingGames": 1,
+    "strengthOfPartners": -4.8,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": []
  },
  "8fea334f-ad12-4c45-b67d-a127ec551f4e": {
   "log": [

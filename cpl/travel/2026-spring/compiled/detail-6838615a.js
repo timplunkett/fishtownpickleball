@@ -289438,6 +289438,184 @@
    }
   ]
  },
+ "14488137-1d5d-47d3-9245-7b7b4415617a": {
+  "log": [
+   {
+    "week": 11,
+    "opp": "The Atlantic Club",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 132,
+    "pa": 152,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   }
+  ],
+  "games": [
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "mixed",
+    "with": "Lily Qian",
+    "vs": [
+     "Christine Clark",
+     "Robert Toledo"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "male",
+    "with": "Frank Iacono",
+    "vs": [
+     "Stephen Arleth",
+     "Gagliano Pat"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "mixed",
+    "with": "Lily Qian",
+    "vs": [
+     "Michele Heinle",
+     "Gagliano Pat"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "male",
+    "with": "Anurag Chadha",
+    "vs": [
+     "John Laspina",
+     "Gagliano Pat"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club",
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "mixed",
+    "with": "Diane Mckay",
+    "vs": [
+     "Jody Scarano",
+     "Robert Toledo"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "male",
+    "with": "Michael Gluck",
+    "vs": [
+     "Shawn Maloney",
+     "John Laspina"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club",
+    "withSub": 1
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "mixed",
+    "with": "Nancy Atkinson",
+    "vs": [
+     "Christine Clark",
+     "Robert Toledo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 11,
+    "opp": "The Atlantic Club",
+    "t": "male",
+    "with": "Anurag Chadha",
+    "vs": [
+     "Robert Toledo",
+     "Shawn Maloney"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": 1.1,
+    "confidence": 63,
+    "rank": 112,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": []
+ },
  "e48712ff-3621-4b2e-a1f5-755220aca97c": {
   "log": [
    {
@@ -289686,184 +289864,6 @@
     "ratingGames": 8,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "14488137-1d5d-47d3-9245-7b7b4415617a": {
-  "log": [
-   {
-    "week": 11,
-    "opp": "The Atlantic Club",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 132,
-    "pa": 152,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   }
-  ],
-  "games": [
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "mixed",
-    "with": "Lily Qian",
-    "vs": [
-     "Christine Clark",
-     "Robert Toledo"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "male",
-    "with": "Frank Iacono",
-    "vs": [
-     "Stephen Arleth",
-     "Gagliano Pat"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "mixed",
-    "with": "Lily Qian",
-    "vs": [
-     "Michele Heinle",
-     "Gagliano Pat"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "male",
-    "with": "Anurag Chadha",
-    "vs": [
-     "John Laspina",
-     "Gagliano Pat"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club",
-    "withSub": 1
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "mixed",
-    "with": "Diane Mckay",
-    "vs": [
-     "Jody Scarano",
-     "Robert Toledo"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "male",
-    "with": "Michael Gluck",
-    "vs": [
-     "Shawn Maloney",
-     "John Laspina"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club",
-    "withSub": 1
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "mixed",
-    "with": "Nancy Atkinson",
-    "vs": [
-     "Christine Clark",
-     "Robert Toledo"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 11,
-    "opp": "The Atlantic Club",
-    "t": "male",
-    "with": "Anurag Chadha",
-    "vs": [
-     "Robert Toledo",
-     "Shawn Maloney"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": 1.1,
-    "confidence": 63,
-    "rank": 112,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -308964,226 +308964,6 @@
   ],
   "partners": []
  },
- "60dda206-8284-415e-b83e-3836d61e6701": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "Stelton Sports",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 83,
-    "pa": 124,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Matthew Oneill",
-    "vs": [
-     "Gajendra Mehta",
-     "Zemin Zeng"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "mixed",
-    "with": "",
-    "vs": [
-     "Ann Betterton",
-     "Zemin Zeng"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Rich Gottuso",
-    "vs": [
-     "Antoine Rouhana",
-     "Gajendra Mehta"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "mixed",
-    "with": "Nancy Atkinson",
-    "vs": [
-     "Jessie Yan Han",
-     "Zemin Zeng"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Paul Sakson",
-    "vs": [
-     "Zemin Zeng",
-     "Craig Girvan"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   },
-   {
-    "wk": 4,
-    "opp": "Stelton Sports",
-    "t": "male",
-    "with": "Paul Sakson",
-    "vs": [
-     "Ben Xie",
-     "Zemin Zeng"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "seq": 4,
-    "label": "4",
-    "rating": -0.9,
-    "confidence": 52,
-    "rank": 217,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 2
-   },
-   {
-    "week": 5,
-    "seq": 5,
-    "label": "5",
-    "rating": -0.5,
-    "confidence": 55,
-    "rank": 206,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 2.2
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -0.2,
-    "confidence": 55,
-    "rank": 200,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 2.3
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7",
-    "rating": -0.1,
-    "confidence": 56,
-    "rank": 194,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.4
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -0.2,
-    "confidence": 56,
-    "rank": 203,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.3
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": -0.2,
-    "confidence": 56,
-    "rank": 207,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.3
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 202,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.3
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -0.2,
-    "confidence": 57,
-    "rank": 208,
-    "ratingGames": 6,
-    "strengthOfPartners": -2,
-    "strengthOfOpponents": 2.3
-   }
-  ],
-  "partners": []
- },
  "468c2a68-889e-46bd-a36d-5eb304dca348": {
   "log": [
    {
@@ -309400,6 +309180,226 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.7
+   }
+  ],
+  "partners": []
+ },
+ "60dda206-8284-415e-b83e-3836d61e6701": {
+  "log": [
+   {
+    "week": 4,
+    "opp": "Stelton Sports",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 83,
+    "pa": 124,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Matthew Oneill",
+    "vs": [
+     "Gajendra Mehta",
+     "Zemin Zeng"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "mixed",
+    "with": "",
+    "vs": [
+     "Ann Betterton",
+     "Zemin Zeng"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Rich Gottuso",
+    "vs": [
+     "Antoine Rouhana",
+     "Gajendra Mehta"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "mixed",
+    "with": "Nancy Atkinson",
+    "vs": [
+     "Jessie Yan Han",
+     "Zemin Zeng"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Paul Sakson",
+    "vs": [
+     "Zemin Zeng",
+     "Craig Girvan"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   },
+   {
+    "wk": 4,
+    "opp": "Stelton Sports",
+    "t": "male",
+    "with": "Paul Sakson",
+    "vs": [
+     "Ben Xie",
+     "Zemin Zeng"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Jersey Pickleball Club"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "seq": 4,
+    "label": "4",
+    "rating": -0.9,
+    "confidence": 52,
+    "rank": 217,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 2
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -0.5,
+    "confidence": 55,
+    "rank": 206,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 2.2
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -0.2,
+    "confidence": 55,
+    "rank": 200,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 2.3
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7",
+    "rating": -0.1,
+    "confidence": 56,
+    "rank": 194,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2.4
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -0.2,
+    "confidence": 56,
+    "rank": 203,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2.3
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": -0.2,
+    "confidence": 56,
+    "rank": 207,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2.3
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 202,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2.3
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -0.2,
+    "confidence": 57,
+    "rank": 208,
+    "ratingGames": 6,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 2.3
    }
   ],
   "partners": []
@@ -323646,6 +323646,231 @@
   ],
   "partners": []
  },
+ "40cac0f1-5ce3-4b52-b104-cb02c5bf066e": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Montville Dragons",
+    "homeAway": "H",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 105,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "mixed",
+    "with": "Peter Valli",
+    "vs": [
+     "Ronnie Kostak",
+     "Elias Eid"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Nancy Mattern",
+    "vs": [
+     "May Syso",
+     "Ronnie Kostak"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Jennifer Applebee",
+    "vs": [
+     "Claudia Calle",
+     "Susan Colicchio"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "mixed",
+    "with": "Ed Amato",
+    "vs": [
+     "Susan Colicchio",
+     "Scott Mckay"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Nancy Mattern",
+    "vs": [
+     "Angie Ratkowitz",
+     "Susan Colicchio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "mixed",
+    "with": "Ed Amato",
+    "vs": [
+     "Ronnie Kostak",
+     "Scott Carney"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   },
+   {
+    "wk": 5,
+    "opp": "Montville Dragons",
+    "t": "female",
+    "with": "Linda Bozzo",
+    "vs": [
+     "Ronnie Kostak",
+     "May Syso"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "PickleRage Union County"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -2.5,
+    "confidence": 58,
+    "rank": 298,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -2.7,
+    "confidence": 59,
+    "rank": 319,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7",
+    "rating": -2.7,
+    "confidence": 60,
+    "rank": 322,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": -2.4,
+    "confidence": 60,
+    "rank": 319,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": -2.4,
+    "confidence": 60,
+    "rank": 319,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10",
+    "rating": -2.3,
+    "confidence": 61,
+    "rank": 322,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": -2.3,
+    "confidence": 61,
+    "rank": 326,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 0.8
+   }
+  ],
+  "partners": []
+ },
  "c95c4833-a2e9-44ca-8451-b39430659a7e": {
   "log": [
    {
@@ -323897,231 +324122,6 @@
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 2
-   }
-  ],
-  "partners": []
- },
- "40cac0f1-5ce3-4b52-b104-cb02c5bf066e": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Montville Dragons",
-    "homeAway": "H",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 105,
-    "pa": 147,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Peter Valli",
-    "vs": [
-     "Ronnie Kostak",
-     "Elias Eid"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Nancy Mattern",
-    "vs": [
-     "May Syso",
-     "Ronnie Kostak"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Jennifer Applebee",
-    "vs": [
-     "Claudia Calle",
-     "Susan Colicchio"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Ed Amato",
-    "vs": [
-     "Susan Colicchio",
-     "Scott Mckay"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Nancy Mattern",
-    "vs": [
-     "Angie Ratkowitz",
-     "Susan Colicchio"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "mixed",
-    "with": "Ed Amato",
-    "vs": [
-     "Ronnie Kostak",
-     "Scott Carney"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   },
-   {
-    "wk": 5,
-    "opp": "Montville Dragons",
-    "t": "female",
-    "with": "Linda Bozzo",
-    "vs": [
-     "Ronnie Kostak",
-     "May Syso"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PickleRage Union County"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 5,
-    "label": "5",
-    "rating": -2.5,
-    "confidence": 58,
-    "rank": 298,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -2.7,
-    "confidence": 59,
-    "rank": 319,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7",
-    "rating": -2.7,
-    "confidence": 60,
-    "rank": 322,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": -2.4,
-    "confidence": 60,
-    "rank": 319,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": -2.4,
-    "confidence": 60,
-    "rank": 319,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10",
-    "rating": -2.3,
-    "confidence": 61,
-    "rank": 322,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": -2.3,
-    "confidence": 61,
-    "rank": 326,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 0.8
    }
   ],
   "partners": []

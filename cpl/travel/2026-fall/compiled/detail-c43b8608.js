@@ -92312,6 +92312,137 @@
   ],
   "partners": []
  },
+ "30568077-6244-48c9-b1cb-66d788ed8a4a": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "PCKLRAMA",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 88,
+    "pa": 101,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Rita Hung",
+    "vs": [
+     "Kristen Silvestri",
+     "Sarah Ramadas"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 5,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Jinghua Shi",
+    "vs": [
+     "Gladys Garzone",
+     "Kristen Silvestri"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 5,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Buyi Zhang",
+    "vs": [
+     "Paula Kolb",
+     "Steven Giudice"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "PCKLRAMA",
+    "t": "mixed",
+    "with": "Buyi Zhang",
+    "vs": [
+     "Paula Kolb",
+     "Alam Mohammad"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   },
+   {
+    "wk": 5,
+    "opp": "PCKLRAMA",
+    "t": "female",
+    "with": "Valerie Ablaza",
+    "vs": [
+     "Kristen Silvestri",
+     "Sarah Ramadas"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Allstar Pickler"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 47,
+    "rank": 232,
+    "ratingGames": 5,
+    "strengthOfPartners": -2.3,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
  "525db6fc-8fd4-42f1-97c6-51fb915cb21b": {
   "log": [
    {
@@ -92468,137 +92599,6 @@
     "ratingGames": 5,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
- },
- "30568077-6244-48c9-b1cb-66d788ed8a4a": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "PCKLRAMA",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 88,
-    "pa": 101,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Rita Hung",
-    "vs": [
-     "Kristen Silvestri",
-     "Sarah Ramadas"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   },
-   {
-    "wk": 5,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Jinghua Shi",
-    "vs": [
-     "Gladys Garzone",
-     "Kristen Silvestri"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   },
-   {
-    "wk": 5,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Buyi Zhang",
-    "vs": [
-     "Paula Kolb",
-     "Steven Giudice"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "PCKLRAMA",
-    "t": "mixed",
-    "with": "Buyi Zhang",
-    "vs": [
-     "Paula Kolb",
-     "Alam Mohammad"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   },
-   {
-    "wk": 5,
-    "opp": "PCKLRAMA",
-    "t": "female",
-    "with": "Valerie Ablaza",
-    "vs": [
-     "Kristen Silvestri",
-     "Sarah Ramadas"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -0.6,
-    "confidence": 47,
-    "rank": 232,
-    "ratingGames": 5,
-    "strengthOfPartners": -2.3,
-    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -112552,198 +112552,6 @@
   ],
   "partners": []
  },
- "d50d8512-f462-48e4-9025-0135117cabae": {
-  "log": [
-   {
-    "week": 4,
-    "opp": "Pickleball Palace",
-    "homeAway": "A",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 77,
-    "pa": 147,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 2,
-    "teamGL": 30,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Neil Kussick",
-    "vs": [
-     "Amanda Gardiner",
-     "Robert Lee"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Lucy Sha",
-    "vs": [
-     "Jane Chang",
-     "Ana Bautista"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Charles Li",
-    "vs": [
-     "Amanda Gardiner",
-     "Mark Lederman"
-    ],
-    "f": 5,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Lucy Sha",
-    "vs": [
-     "Ana Bautista",
-     "Debbie Tovitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Neil Kussick",
-    "vs": [
-     "Jane Chang",
-     "Matt Stone"
-    ],
-    "f": 0,
-    "a": 1,
-    "w": 0,
-    "ff": 1,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Jean Xie",
-    "vs": [
-     "Kate Clow",
-     "Debbie Tovitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "mixed",
-    "with": "Vlad Radomsky",
-    "vs": [
-     "Debbie Tovitz",
-     "Robert Lee"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Palace",
-    "t": "female",
-    "with": "Jean Xie",
-    "vs": [
-     "Kate Clow",
-     "Ana Bautista"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -2.6,
-    "confidence": 55,
-    "rank": 317,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.3,
-    "strengthOfOpponents": 2.3
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -2.4,
-    "confidence": 55,
-    "rank": 335,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 2.2
-   }
-  ],
-  "partners": []
- },
  "08e9f294-3f72-42c0-9e89-ca3be388b9e2": {
   "log": [
    {
@@ -112935,6 +112743,198 @@
     "ratingGames": 8,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
+ "d50d8512-f462-48e4-9025-0135117cabae": {
+  "log": [
+   {
+    "week": 4,
+    "opp": "Pickleball Palace",
+    "homeAway": "A",
+    "w": 0,
+    "l": 7,
+    "gp": 7,
+    "pf": 77,
+    "pa": 147,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Neil Kussick",
+    "vs": [
+     "Amanda Gardiner",
+     "Robert Lee"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Lucy Sha",
+    "vs": [
+     "Jane Chang",
+     "Ana Bautista"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Charles Li",
+    "vs": [
+     "Amanda Gardiner",
+     "Mark Lederman"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Lucy Sha",
+    "vs": [
+     "Ana Bautista",
+     "Debbie Tovitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough"
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Neil Kussick",
+    "vs": [
+     "Jane Chang",
+     "Matt Stone"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Jean Xie",
+    "vs": [
+     "Kate Clow",
+     "Debbie Tovitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "mixed",
+    "with": "Vlad Radomsky",
+    "vs": [
+     "Debbie Tovitz",
+     "Robert Lee"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Palace",
+    "t": "female",
+    "with": "Jean Xie",
+    "vs": [
+     "Kate Clow",
+     "Ana Bautista"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Hillsborough",
+    "withSub": 1
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -2.6,
+    "confidence": 55,
+    "rank": 317,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 2.3
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -2.4,
+    "confidence": 55,
+    "rank": 335,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []
