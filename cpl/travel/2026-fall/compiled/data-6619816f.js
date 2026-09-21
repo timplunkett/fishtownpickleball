@@ -1049,8 +1049,8 @@
    "name": "Gissel Escalante",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 10,
@@ -1063,7 +1063,6 @@
    "genderLosses": 1,
    "clutchWins": 2,
    "clutchLosses": 2,
-   "playerId": "63221cc8-e303-4675-8dde-4fc77e871627",
    "winPct": 66.7,
    "diff": 33,
    "ppg": 19.7,
@@ -1072,7 +1071,8 @@
    "ratingGames": 15,
    "confidence": 72,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 1.1
+   "strengthOfOpponents": 1.1,
+   "playerId": "63221cc8-e303-4675-8dde-4fc77e871627"
   },
   {
    "name": "Amalia Ditrapani",
@@ -5010,13 +5010,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3"
+  },
+  {
+   "name": "Paula Ro",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 197,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "3cf3093b-1667-4242-9ad5-1d72fc5d24f8"
   },
   {
    "name": "Samantha Adler",
@@ -5097,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8603,9 +8632,7 @@
      ]
     }
    ],
-   "subs": [
-    "Gissel Escalante"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -10941,7 +10968,6 @@
     }
    ],
    "subs": [
-    "Gissel Escalante",
     "Joshua Ahn"
    ]
   },
@@ -18406,7 +18432,361 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Chris Long"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anisha Malhotra",
+      "Camrin Cronheim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ally Yan",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Ally Yan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Anisha Malhotra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Long",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Chris Long"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ally Yan",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anisha Malhotra",
+      "Camrin Cronheim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Ally Yan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Anisha Malhotra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Long",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Chris Long"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ally Yan",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anisha Malhotra",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Camrin Cronheim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Anisha Malhotra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Ally Yan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Long",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gissel Escalante",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anisha Malhotra",
+      "Chris Long"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Jason Makarevic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ally Yan",
+      "Camrin Cronheim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anisha Malhotra",
+      "Gissel Escalante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zoe Ousouljoglou",
+      "Ally Yan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Makarevic",
+      "Chris Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Sidd Pathare"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -18784,7 +19164,361 @@
    "home": "Pickle House",
    "away": "Monroe",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Anthony Ursino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Ksiezopolski",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Amanda Ksiezopolski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Richa Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Anthony Ursino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Amanda Ksiezopolski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Sophia Kaufmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Ursino",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Anthony Ursino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Ksiezopolski",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Richa Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Amanda Ksiezopolski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Ursino",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Anthony Ursino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amalia Ditrapani",
+      "Sophia Kaufmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Amanda Ksiezopolski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilan Shah",
+      "Shreyas Pani"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -19557,7 +20291,7 @@
   "matchesPlayed": 22,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 191,
+  "totalPlayers": 192,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -19639,7 +20373,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T21:29:40.325Z";
+  DATA.meta.asOf = "2026-09-21T22:31:43.194Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

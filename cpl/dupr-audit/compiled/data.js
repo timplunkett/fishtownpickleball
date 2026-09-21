@@ -6278,6 +6278,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Gissel Escalante",
+   "playerId": "63221cc8-e303-4675-8dde-4fc77e871627",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Gladys Garzone",
    "playerId": "130961d9-c1d1-47b6-9bee-90183531473c",
    "team": "PCKLRAMA",
@@ -9568,13 +9575,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Karen Mcbride",
-   "playerId": "f86cfd40-dc38-4bc2-88b8-e0f4c4f5bc1a",
-   "team": "Dill Dinkers Newport",
-   "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
    "name": "Karen Pisano",
    "playerId": "3665068b-4c6d-49b2-9cd4-e3148c984ec7",
    "team": "Premiere",
@@ -11745,6 +11745,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Marie Chen",
+   "playerId": "66df26d7-8f8c-44ee-8294-7501f7ce0760",
+   "team": "Montville",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Marie Granberg",
    "playerId": "5dc61395-a860-4a13-a909-ac514c1055af",
    "team": "Premiere Dinkers",
@@ -13278,6 +13285,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Nancy Blank",
+   "playerId": "03fc28a7-e11b-49f8-84e3-0b2a7fd0a9a7",
+   "team": "Pickle Place",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Nancy Ciappina",
    "playerId": "02318afc-9bde-4df3-a7b3-7f1d1da3186c",
    "team": "Premiere Aces",
@@ -13852,6 +13866,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Patricia Cordts",
+   "playerId": "23a140de-aca7-44ce-9843-519f43a392e3",
+   "team": "Picklr Fair Lawn",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Patricia Kavanaugh",
    "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
    "team": "Flemington",
@@ -14031,6 +14052,13 @@ window.DUPR_AUDIT = {
    "playerId": "8354a910-27fd-4e09-85bd-499f5cf84237",
    "team": "PCKLRAMA",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Paula Ro",
+   "playerId": "3cf3093b-1667-4242-9ad5-1d72fc5d24f8",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {

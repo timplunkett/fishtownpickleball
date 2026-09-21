@@ -2473,7 +2473,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Roe Palermo",
      "Sabrina Trunzo Dinkle"
@@ -2494,7 +2494,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Suzanne Leon",
      "Linda Iacono"
@@ -6027,7 +6027,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Dawn Dalessio",
      "Sally Sitro"
@@ -6044,7 +6044,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Denise Bonagura",
      "Sabrina Trunzo Dinkle"
@@ -7375,7 +7375,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Suzanne Leon",
      "Denise Bonagura"
@@ -7392,7 +7392,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Suzanne Leon",
      "Sally Sitro"
@@ -8226,7 +8226,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Stacey Cohen",
      "Suzanne Leon"
@@ -8243,7 +8243,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Megan Curren",
+    "with": "Paula Ro",
     "vs": [
      "Stacey Cohen",
      "Roe Palermo"
@@ -46250,7 +46250,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Jaime Luongo",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 21,
     "a": 19,
@@ -46270,7 +46270,7 @@
     "with": "Roe Palermo",
     "vs": [
      "Jaime Luongo",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 21,
     "a": 10,
@@ -47865,7 +47865,7 @@
     "with": "Sabrina Trunzo Dinkle",
     "vs": [
      "Josephine Catanzaro",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 15,
     "a": 21,
@@ -47921,7 +47921,7 @@
     "with": "Stacey Cohen",
     "vs": [
      "Jaime Luongo",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 21,
     "a": 10,
@@ -50950,7 +50950,7 @@
     "with": "Linda Iacono",
     "vs": [
      "Josephine Catanzaro",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 10,
     "a": 21,
@@ -50970,7 +50970,7 @@
     "with": "Stacey Cohen",
     "vs": [
      "Jaime Luongo",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 21,
     "a": 19,
@@ -51043,7 +51043,7 @@
     "with": "Denise Bonagura",
     "vs": [
      "Sushma Rayapudi",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 9,
     "a": 21,
@@ -51063,7 +51063,7 @@
     "with": "Sally Sitro",
     "vs": [
      "Sushma Rayapudi",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 7,
     "a": 21,
@@ -54190,7 +54190,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Josephine Catanzaro",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 10,
     "a": 21,
@@ -55625,7 +55625,7 @@
     "with": "Roe Palermo",
     "vs": [
      "Josephine Catanzaro",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 15,
     "a": 21,
@@ -55723,7 +55723,7 @@
     "with": "Denise Bonagura",
     "vs": [
      "Kim Allaga",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 17,
     "a": 21,
@@ -57720,7 +57720,7 @@
     "with": "Dawn Dalessio",
     "vs": [
      "Kim Allaga",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 9,
     "a": 21,
@@ -57781,7 +57781,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Sushma Rayapudi",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 7,
     "a": 21,
@@ -58710,7 +58710,7 @@
     "with": "Sally Sitro",
     "vs": [
      "Kim Allaga",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 9,
     "a": 21,
@@ -59386,7 +59386,7 @@
     "with": "Sabrina Trunzo Dinkle",
     "vs": [
      "Kim Allaga",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 17,
     "a": 21,
@@ -59406,7 +59406,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Sushma Rayapudi",
-     "Megan Curren"
+     "Paula Ro"
     ],
     "f": 9,
     "a": 21,

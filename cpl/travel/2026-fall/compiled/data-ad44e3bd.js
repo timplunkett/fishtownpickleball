@@ -698,7 +698,7 @@
    "playerId": "ca92ce54-a58c-4bf2-a49b-125be4b376ba"
   },
   {
-   "name": "Megan Curren",
+   "name": "Paula Ro",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 0,
@@ -3908,7 +3908,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 164,
+   "leagueRank": 170,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3937,7 +3937,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 160,
+   "leagueRank": 162,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3966,7 +3966,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 154,
+   "leagueRank": 156,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -3995,7 +3995,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 150,
+   "leagueRank": 152,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4024,7 +4024,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 156,
+   "leagueRank": 158,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4053,13 +4053,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 170,
+   "leagueRank": 176,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802"
+  },
+  {
+   "name": "Marie Chen",
+   "gender": "Female",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 151,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "66df26d7-8f8c-44ee-8294-7501f7ce0760"
   },
   {
    "name": "Sheila Curran",
@@ -4082,7 +4111,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 152,
+   "leagueRank": 154,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14709,7 +14738,7 @@
      ],
      "a": [
       "Josephine Catanzaro",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -14751,7 +14780,7 @@
      ],
      "a": [
       "Josephine Catanzaro",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -14779,7 +14808,7 @@
      ],
      "a": [
       "Jaime Luongo",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -14849,7 +14878,7 @@
      ],
      "a": [
       "Jaime Luongo",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -14933,7 +14962,7 @@
      ],
      "a": [
       "Kim Allaga",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -14947,7 +14976,7 @@
      ],
      "a": [
       "Kim Allaga",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -15031,7 +15060,7 @@
      ],
      "a": [
       "Sushma Rayapudi",
-      "Megan Curren"
+      "Paula Ro"
      ]
     },
     {
@@ -15101,14 +15130,14 @@
      ],
      "a": [
       "Sushma Rayapudi",
-      "Megan Curren"
+      "Paula Ro"
      ]
     }
    ],
    "subs": [
     "Josephine Catanzaro",
     "Jaime Luongo",
-    "Megan Curren",
+    "Paula Ro",
     "Kim Allaga",
     "Roe Palermo"
    ]
@@ -15954,12 +15983,17 @@
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Maria Borges": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
+  "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Vanessa Tortorice": "818811e5-0eb6-4611-8ac3-f65c10316305",
   "Kelly Lopinto": "8a1482a3-791c-4ec9-9fae-f9f4f9820296",
   "Mary Brashier": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+  "Barbara Mccarron": "9179cc04-34f4-48f4-b30d-69ec894d05f4",
+  "Brogann Bowden": "996f277e-53e6-42b3-b2a1-0ad51949e64b",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
+  "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
+  "Jenny Miller": "d014337a-9f8c-4b82-832f-76a3b66856fa",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
   "Tracey Klemick": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
@@ -15968,7 +16002,7 @@
   "matchesPlayed": 19,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 152,
+  "totalPlayers": 153,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -16047,7 +16081,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-20T13:32:50.845Z";
+  DATA.meta.asOf = "2026-09-21T22:32:59.473Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

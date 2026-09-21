@@ -1838,157 +1838,6 @@
   ],
   "partners": []
  },
- "36634ff8-fb26-4b88-9978-85c3863c3436": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Bounce Philly",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 114,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     6,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Sue Mah",
-     "Michael Burns"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Christine Fletcher",
-    "vs": [
-     "Andria Lochtenbergh",
-     "Derik Lochtenbergh"
-    ],
-    "f": 29,
-    "a": 27,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Derik Lochtenbergh",
-     "Paul Mcalary"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "David Mcdonough",
-    "vs": [
-     "Michael Burns",
-     "Derik Lochtenbergh"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Sue Mah",
-     "Paul Mcalary"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Derik Lochtenbergh",
-     "Paul Mcalary"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 1.3,
-    "confidence": 52,
-    "rank": 123,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": []
- },
  "98cf9a34-6d8e-4aed-81d1-1a6f2fe864f2": {
   "log": [
    {
@@ -2711,7 +2560,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -2751,7 +2604,7 @@
     "rank": 4,
     "ratingGames": 12,
     "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -0.7
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -4051,7 +3904,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4147,7 +4004,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -4229,7 +4090,7 @@
     "pid": "ebc26b7d-1ba3-4cf6-a11f-ad6e79c2ff1b",
     "name": "Carolyn Laverdiere",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "357a050a-a8ad-4998-a511-814c7c69caad",
@@ -6232,9 +6093,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 2.8,
+    "rating": 2.9,
     "confidence": 80,
-    "rank": 28,
+    "rank": 25,
     "ratingGames": 24,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1
@@ -6251,7 +6112,7 @@
     "pid": "357a050a-a8ad-4998-a511-814c7c69caad",
     "name": "Bill Venella",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "9b6e4166-d6a4-4e8c-812b-65e4d35477f3",
@@ -6594,11 +6455,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Allstar Pickler",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -6863,10 +6720,10 @@
     "label": "5",
     "rating": 1.2,
     "confidence": 58,
-    "rank": 133,
+    "rank": 134,
     "ratingGames": 8,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.9
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": []
@@ -7075,7 +6932,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -7139,7 +7000,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -7209,13 +7074,13 @@
     "pid": "1973cf93-7507-478a-b457-4fa7ec0951af",
     "name": "Lynn Snyder",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "e0ffa27a-6b29-48f8-b162-154c995b3d97",
     "name": "Zalene Corey",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "c6b0c203-9659-494f-993b-dadd300ed3e8",
@@ -7962,7 +7827,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 69,
-    "rank": 232,
+    "rank": 231,
     "ratingGames": 14,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -1.2
@@ -8981,7 +8846,7 @@
     "label": "5",
     "rating": 2.1,
     "confidence": 77,
-    "rank": 59,
+    "rank": 58,
     "ratingGames": 20,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": -1.1
@@ -9312,7 +9177,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -9477,9 +9346,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 2.5,
+    "rating": 2.6,
     "confidence": 77,
-    "rank": 36,
+    "rank": 33,
     "ratingGames": 20,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.4
@@ -9490,7 +9359,7 @@
     "pid": "e0ffa27a-6b29-48f8-b162-154c995b3d97",
     "name": "Zalene Corey",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "379ba4b1-4102-4424-bdee-300e8e4fa35b",
@@ -9556,9 +9425,9 @@
      0,
      1
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -9844,7 +9713,7 @@
     "confidence": 69,
     "rank": 6,
     "ratingGames": 13,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -9853,7 +9722,7 @@
     "pid": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
     "name": "Xiaojun Yuan",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.3
    }
   ]
  },
@@ -10528,7 +10397,7 @@
     "label": "5",
     "rating": 2.6,
     "confidence": 67,
-    "rank": 34,
+    "rank": 35,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.3
@@ -11707,7 +11576,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -11787,7 +11660,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -11803,7 +11680,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -11844,9 +11725,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 77,
-    "rank": 114,
+    "rank": 126,
     "ratingGames": 19,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -1.2
@@ -11863,7 +11744,7 @@
     "pid": "e870b473-4955-4ccf-82ce-88f72bf2d917",
     "name": "Jennifer Laroque",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
@@ -11875,7 +11756,7 @@
     "pid": "d1e5126f-1ca9-4bc2-a745-1922b42893ae",
     "name": "Dan Callaghan",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    }
   ]
  },
@@ -12856,7 +12737,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -12964,7 +12849,7 @@
     "pid": "ebc26b7d-1ba3-4cf6-a11f-ad6e79c2ff1b",
     "name": "Carolyn Laverdiere",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "21785bf3-2af4-4120-a15c-d7824a55b711",
@@ -12982,7 +12867,7 @@
     "pid": "2580158f-1c0c-4a5a-8a0c-b48d2c1f0067",
     "name": "Scott Gardo",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -13816,7 +13701,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 52,
-    "rank": 69,
+    "rank": 68,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.1
@@ -14135,7 +14020,7 @@
     "label": "5",
     "rating": 0.7,
     "confidence": 53,
-    "rank": 174,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": 2,
     "strengthOfOpponents": -0.1
@@ -14282,6 +14167,157 @@
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": []
+ },
+ "36634ff8-fb26-4b88-9978-85c3863c3436": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Bounce Philly",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     5,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Sue Mah",
+     "Michael Burns"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Christine Fletcher",
+    "vs": [
+     "Andria Lochtenbergh",
+     "Derik Lochtenbergh"
+    ],
+    "f": 29,
+    "a": 27,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Derik Lochtenbergh",
+     "Paul Mcalary"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "David Mcdonough",
+    "vs": [
+     "Michael Burns",
+     "Derik Lochtenbergh"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Sue Mah",
+     "Paul Mcalary"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Joseph Koerner",
+    "vs": [
+     "Derik Lochtenbergh",
+     "Paul Mcalary"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 1.2,
+    "confidence": 52,
+    "rank": 136,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -14786,13 +14822,13 @@
     "pid": "7d76fb68-9895-40c5-b321-f5d5d64d2b02",
     "name": "Chris Allander",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "2580158f-1c0c-4a5a-8a0c-b48d2c1f0067",
     "name": "Scott Gardo",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "d1e5126f-1ca9-4bc2-a745-1922b42893ae",
@@ -15176,11 +15212,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -15594,7 +15626,7 @@
     "label": "5",
     "rating": 2.6,
     "confidence": 63,
-    "rank": 35,
+    "rank": 36,
     "ratingGames": 11,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -1.1
@@ -18312,7 +18344,7 @@
     "label": "5",
     "rating": 2.9,
     "confidence": 70,
-    "rank": 27,
+    "rank": 28,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.1
@@ -18895,7 +18927,7 @@
     "label": "5",
     "rating": 2.1,
     "confidence": 70,
-    "rank": 62,
+    "rank": 61,
     "ratingGames": 13,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
@@ -20097,7 +20129,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -20295,7 +20331,7 @@
     "pid": "6f3b12bf-032c-458d-bd38-5f9dbe04d374",
     "name": "Matthew Memmo",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "6feb852e-6d64-42d2-8135-3c625b7a0af3",
@@ -20304,16 +20340,16 @@
     "synergy": 0.5
    },
    {
-    "pid": "90e0fbef-1218-4eb3-887f-b9cc31e73163",
-    "name": "Lisa Howdyshell",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
     "pid": "4911178f-bf5a-41f2-b2a9-5a86b0adca69",
     "name": "Jeffrey Lindstrom",
     "n": 3,
     "synergy": 0.2
+   },
+   {
+    "pid": "90e0fbef-1218-4eb3-887f-b9cc31e73163",
+    "name": "Lisa Howdyshell",
+    "n": 3,
+    "synergy": 0.1
    },
    {
     "pid": "5345c73e-518d-4066-8a0a-3c6c5c80de56",
@@ -20534,7 +20570,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -20770,7 +20810,7 @@
     "label": "5",
     "rating": 2.6,
     "confidence": 76,
-    "rank": 33,
+    "rank": 34,
     "ratingGames": 20,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
@@ -21671,7 +21711,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -21687,7 +21731,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -21703,7 +21751,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -21735,7 +21787,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -21776,9 +21832,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 1.2,
+    "rating": 1.3,
     "confidence": 76,
-    "rank": 127,
+    "rank": 114,
     "ratingGames": 20,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.7
@@ -22435,8 +22491,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -22515,7 +22570,7 @@
     "label": "5",
     "rating": 2.9,
     "confidence": 74,
-    "rank": 26,
+    "rank": 27,
     "ratingGames": 16,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
@@ -23845,7 +23900,7 @@
     "label": "5",
     "rating": 2.1,
     "confidence": 75,
-    "rank": 60,
+    "rank": 59,
     "ratingGames": 20,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.8
@@ -25410,7 +25465,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -26614,7 +26673,7 @@
     "label": "5",
     "rating": 2.9,
     "confidence": 76,
-    "rank": 25,
+    "rank": 26,
     "ratingGames": 19,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.6
@@ -27441,7 +27500,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 67,
-    "rank": 66,
+    "rank": 65,
     "ratingGames": 11,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.6
@@ -27728,7 +27787,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 64,
-    "rank": 241,
+    "rank": 240,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.6
@@ -28026,7 +28085,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 65,
-    "rank": 141,
+    "rank": 143,
     "ratingGames": 11,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.1
@@ -29245,11 +29304,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Allstar Pickler",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -32957,7 +33012,7 @@
     "label": "5",
     "rating": 1,
     "confidence": 74,
-    "rank": 146,
+    "rank": 148,
     "ratingGames": 17,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.2
@@ -33471,484 +33526,6 @@
     "name": "Jennifer Applebee",
     "n": 3,
     "synergy": -0.1
-   }
-  ]
- },
- "371edee5-b6ce-436c-b3ef-b93807443dd8": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Forward",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 140,
-    "pa": 106,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 125,
-    "pa": 136,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Philly",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 122,
-    "pa": 99,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Jill Nixon",
-    "vs": [
-     "Carolyn Laverdiere",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 4,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Kim Slomeana",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Tom Giunta",
-    "vs": [
-     "Dan Callaghan",
-     "Chris Allander"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Kim Slomeana",
-     "Bill Venella"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Nghia Bui",
-    "vs": [
-     "Chris Allander",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Michelle Lehman",
-    "vs": [
-     "Jennifer Laroque",
-     "Scott Gardo"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Nghia Bui",
-    "vs": [
-     "Bill Venella",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Claudia Forte",
-    "vs": [
-     "Vicki Luckett",
-     "George Nouaime"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Tom Giunta",
-    "vs": [
-     "Jeffrey Lindstrom",
-     "George Nouaime"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Carolyn Laroque",
-     "Harihar Chudamani"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Nghia Bui",
-    "vs": [
-     "George Nouaime",
-     "Harihar Chudamani"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Tina White",
-    "vs": [
-     "Vicki Luckett",
-     "Brian Schartz"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Carolyn Laroque",
-     "Jeff Pillar"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Nghia Bui",
-    "vs": [
-     "Harihar Chudamani",
-     "Brian Schartz"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Andria Lochtenbergh",
-     "Derik Lochtenbergh"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "David Mcdonough",
-    "vs": [
-     "Paul Mcalary",
-     "Wen Chang"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Frank Choi",
-    "vs": [
-     "Derik Lochtenbergh",
-     "Paul Mcalary"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Barbara Hand",
-     "Derik Lochtenbergh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Wendy Seiferheld",
-     "Wen Chang"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Frank Choi",
-    "vs": [
-     "Derik Lochtenbergh",
-     "Paul Mcalary"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 4.4,
-    "confidence": 52,
-    "rank": 5,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 3.5,
-    "confidence": 69,
-    "rank": 11,
-    "ratingGames": 14,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 3.4,
-    "confidence": 77,
-    "rank": 10,
-    "ratingGames": 20,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "c8d634ab-9452-4ea2-8b66-20db1aca3a43",
-    "name": "Nghia Bui",
-    "n": 4,
-    "synergy": 1.2
-   },
-   {
-    "pid": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
-    "name": "Xiaojun Yuan",
-    "n": 5,
-    "synergy": 0.7
    }
   ]
  },
@@ -35161,7 +34738,7 @@
     "label": "5",
     "rating": 1,
     "confidence": 70,
-    "rank": 147,
+    "rank": 149,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -1
@@ -35511,7 +35088,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 69,
-    "rank": 239,
+    "rank": 238,
     "ratingGames": 13,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.4
@@ -36375,7 +35952,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 76,
-    "rank": 154,
+    "rank": 155,
     "ratingGames": 19,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.7
@@ -36393,6 +35970,468 @@
     "name": "Marita Dow",
     "n": 3,
     "synergy": -0.8
+   }
+  ]
+ },
+ "371edee5-b6ce-436c-b3ef-b93807443dd8": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 140,
+    "pa": 106,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 125,
+    "pa": 136,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Philly",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 101,
+    "pa": 80,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Jill Nixon",
+    "vs": [
+     "Carolyn Laverdiere",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 4,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Kim Slomeana",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Tom Giunta",
+    "vs": [
+     "Dan Callaghan",
+     "Chris Allander"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Kim Slomeana",
+     "Bill Venella"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Nghia Bui",
+    "vs": [
+     "Chris Allander",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Michelle Lehman",
+    "vs": [
+     "Jennifer Laroque",
+     "Scott Gardo"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Nghia Bui",
+    "vs": [
+     "Bill Venella",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Claudia Forte",
+    "vs": [
+     "Vicki Luckett",
+     "George Nouaime"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Tom Giunta",
+    "vs": [
+     "Jeffrey Lindstrom",
+     "George Nouaime"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Carolyn Laroque",
+     "Harihar Chudamani"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Nghia Bui",
+    "vs": [
+     "George Nouaime",
+     "Harihar Chudamani"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Tina White",
+    "vs": [
+     "Vicki Luckett",
+     "Brian Schartz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Carolyn Laroque",
+     "Jeff Pillar"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Nghia Bui",
+    "vs": [
+     "Harihar Chudamani",
+     "Brian Schartz"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Andria Lochtenbergh",
+     "Derik Lochtenbergh"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "David Mcdonough",
+    "vs": [
+     "Paul Mcalary",
+     "Wen Chang"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Frank Choi",
+    "vs": [
+     "Derik Lochtenbergh",
+     "Paul Mcalary"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Barbara Hand",
+     "Derik Lochtenbergh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Wendy Seiferheld",
+     "Wen Chang"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 4.4,
+    "confidence": 52,
+    "rank": 5,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 3.5,
+    "confidence": 69,
+    "rank": 11,
+    "ratingGames": 14,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 3.5,
+    "confidence": 76,
+    "rank": 10,
+    "ratingGames": 19,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": [
+   {
+    "pid": "c8d634ab-9452-4ea2-8b66-20db1aca3a43",
+    "name": "Nghia Bui",
+    "n": 4,
+    "synergy": 1.1
+   },
+   {
+    "pid": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
+    "name": "Xiaojun Yuan",
+    "n": 5,
+    "synergy": 0.7
    }
   ]
  },
@@ -36827,7 +36866,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 76,
-    "rank": 153,
+    "rank": 154,
     "ratingGames": 19,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0
@@ -37276,7 +37315,7 @@
     "label": "5",
     "rating": 0.7,
     "confidence": 75,
-    "rank": 171,
+    "rank": 170,
     "ratingGames": 18,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.4
@@ -38076,7 +38115,7 @@
     "label": "5",
     "rating": 1.2,
     "confidence": 76,
-    "rank": 126,
+    "rank": 127,
     "ratingGames": 21,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.5
@@ -38249,7 +38288,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 52,
-    "rank": 68,
+    "rank": 67,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.8
@@ -39191,7 +39230,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 64,
-    "rank": 142,
+    "rank": 144,
     "ratingGames": 12,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.2
@@ -39827,7 +39866,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 49,
-    "rank": 383,
+    "rank": 384,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -2
@@ -40158,7 +40197,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 51,
-    "rank": 236,
+    "rank": 235,
     "ratingGames": 6,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 1
@@ -41416,8 +41455,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -41592,7 +41630,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -41639,7 +41676,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 77,
-    "rank": 152,
+    "rank": 153,
     "ratingGames": 20,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.1
@@ -41851,7 +41888,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41899,7 +41940,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -41915,7 +41960,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -42007,7 +42056,7 @@
     "pid": "90e0fbef-1218-4eb3-887f-b9cc31e73163",
     "name": "Lisa Howdyshell",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    }
   ]
  },
@@ -43368,7 +43417,7 @@
     "pid": "9b286e84-ad6b-4d88-8306-75906ac6dd8c",
     "name": "Darin Gall",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -43865,7 +43914,7 @@
     "subFor": null,
     "withSub": 1,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -44011,7 +44060,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 80,
-    "rank": 213,
+    "rank": 214,
     "ratingGames": 25,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.6
@@ -44302,7 +44351,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 66,
-    "rank": 155,
+    "rank": 156,
     "ratingGames": 11,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.7
@@ -45301,7 +45350,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -45447,13 +45500,13 @@
     "pid": "357a050a-a8ad-4998-a511-814c7c69caad",
     "name": "Bill Venella",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "e870b473-4955-4ccf-82ce-88f72bf2d917",
     "name": "Jennifer Laroque",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -46214,7 +46267,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 77,
-    "rank": 64,
+    "rank": 63,
     "ratingGames": 19,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.2
@@ -47127,6 +47180,584 @@
   ],
   "partners": []
  },
+ "8142380a-a08e-4510-9c99-7bc928b665ed": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Forward",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 142,
+    "pa": 152,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 148,
+    "pa": 139,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Players Courtyard",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 155,
+    "pa": 136,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Lisa Miller",
+    "vs": [
+     "Lori Wild",
+     "Dan Callaghan"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Derik Lochtenbergh",
+    "vs": [
+     "Bill Venella",
+     "Ken Wager"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Pamela Toy",
+    "vs": [
+     "Ellen Rubiato",
+     "Tom Zamojcin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Derik Lochtenbergh",
+    "vs": [
+     "Bill Venella",
+     "Scott Gardo"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Pamela Toy",
+    "vs": [
+     "Lori Wild",
+     "Jonathan Capeci"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Wen Chang",
+    "vs": [
+     "Scott Gardo",
+     "Tom Zamojcin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Andria Lochtenbergh",
+    "vs": [
+     "Lori Wild",
+     "Scott Gardo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Paul Mcalary",
+    "vs": [
+     "Jonathan Capeci",
+     "Ken Wager"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Barbara Hand",
+    "vs": [
+     "Lori Wild",
+     "Dave Slomeana"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Paul Mcalary",
+    "vs": [
+     "Patrick Neary",
+     "Chris Allander"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Chantal Reme",
+    "vs": [
+     "Crista Renauro",
+     "Dave Slomeana"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Paul Mcalary",
+    "vs": [
+     "Dan Callaghan",
+     "Chris Allander"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Andria Lochtenbergh",
+    "vs": [
+     "Mary Hain",
+     "Dan Callaghan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Scott Walden",
+    "vs": [
+     "Dave Slomeana",
+     "Chris Allander"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Andria Lochtenbergh",
+    "vs": [
+     "Lori Wild",
+     "Dave Slomeana"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Derik Lochtenbergh",
+    "vs": [
+     "Chris Allander",
+     "Dan Callaghan"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Sue Mah",
+    "vs": [
+     "Xiaojun Yuan",
+     "Frank Choi"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Derik Lochtenbergh",
+    "vs": [
+     "Todd Gelfand",
+     "Joseph Koerner"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Wendy Seiferheld",
+    "vs": [
+     "Danya George",
+     "Joseph Koerner"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Wen Chang",
+    "vs": [
+     "Todd Gelfand",
+     "Edward Verish"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Andria Lochtenbergh",
+    "vs": [
+     "Jill Nixon",
+     "Todd Gelfand"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Derik Lochtenbergh",
+    "vs": [
+     "David Mcdonough",
+     "Frank Choi"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Andria Lochtenbergh",
+    "vs": [
+     "Danya George",
+     "Edward Verish"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "male",
+    "with": "Wen Chang",
+    "vs": [
+     "Todd Gelfand",
+     "David Mcdonough"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.6,
+    "confidence": 54,
+    "rank": 159,
+    "ratingGames": 8,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.9,
+    "confidence": 56,
+    "rank": 254,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 0.9,
+    "confidence": 71,
+    "rank": 118,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 1.2,
+    "confidence": 80,
+    "rank": 125,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "9a0d5103-b8d7-4b5b-a890-59a6ec5fb115",
+    "name": "Wen Chang",
+    "n": 3,
+    "synergy": 1.5
+   },
+   {
+    "pid": "4b2fda63-a536-4730-9140-4a372b1726e9",
+    "name": "Paul Mcalary",
+    "n": 3,
+    "synergy": 0.9
+   },
+   {
+    "pid": "b624b900-f2f1-48d4-9e19-c0ff0238d34d",
+    "name": "Andria Lochtenbergh",
+    "n": 5,
+    "synergy": 0
+   },
+   {
+    "pid": "cf71e3c3-dee4-401c-a276-afd72a53dc5a",
+    "name": "Derik Lochtenbergh",
+    "n": 5,
+    "synergy": -0.8
+   }
+  ]
+ },
  "d55d3206-5478-4a12-b49a-095d301a098b": {
   "log": [
    {
@@ -47599,6 +48230,183 @@
   ],
   "partners": []
  },
+ "408eed1b-b867-4f9a-b796-7dc23c6d2311": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Players Courtyard",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 145,
+    "pa": 137,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Michael Burns",
+    "vs": [
+     "Xiaojun Yuan",
+     "Frank Choi"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Wendy Seiferheld",
+    "vs": [
+     "Xiaojun Yuan",
+     "Jill Nixon"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Paul Mcalary",
+    "vs": [
+     "Tracy Giunta",
+     "Edward Verish"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Wendy Seiferheld",
+    "vs": [
+     "Suzanne Garcia",
+     "Xiaojun Yuan"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly",
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Wen Chang",
+    "vs": [
+     "Danya George",
+     "Joseph Koerner"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Barbara Hand",
+    "vs": [
+     "Jill Nixon",
+     "Suzanne Garcia"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "mixed",
+    "with": "Paul Mcalary",
+    "vs": [
+     "Xiaojun Yuan",
+     "Frank Choi"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   },
+   {
+    "wk": 5,
+    "opp": "Players Courtyard",
+    "t": "female",
+    "with": "Barbara Hand",
+    "vs": [
+     "Jill Nixon",
+     "Christine Fletcher"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Bounce Philly"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 1.2,
+    "confidence": 59,
+    "rank": 133,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": []
+ },
  "809fbee0-ae20-4726-9468-9e0e23f6696a": {
   "log": [
    {
@@ -47925,7 +48733,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 70,
-    "rank": 137,
+    "rank": 139,
     "ratingGames": 13,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.8
@@ -48028,7 +48836,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -48044,7 +48856,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -48248,7 +49064,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 69,
-    "rank": 138,
+    "rank": 140,
     "ratingGames": 13,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -48572,7 +49388,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 70,
-    "rank": 136,
+    "rank": 138,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.2
@@ -48887,7 +49703,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 69,
-    "rank": 65,
+    "rank": 64,
     "ratingGames": 13,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.9
@@ -49124,8 +49940,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -50758,7 +51573,7 @@
     "label": "5",
     "rating": 2.1,
     "confidence": 49,
-    "rank": 63,
+    "rank": 62,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.3
@@ -50907,7 +51722,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 47,
-    "rank": 273,
+    "rank": 274,
     "ratingGames": 5,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -1.8
@@ -51052,7 +51867,7 @@
     "rank": 161,
     "ratingGames": 5,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -1.2
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": []
@@ -51559,7 +52374,7 @@
     "pid": "3120fa05-d5d9-4b71-a339-4ed92f3e5b06",
     "name": "Eric Smith",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -51715,7 +52530,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 48,
-    "rank": 237,
+    "rank": 236,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.1
@@ -52074,7 +52889,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 72,
-    "rank": 206,
+    "rank": 207,
     "ratingGames": 15,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": -0.6
@@ -52424,8 +53239,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -52461,8 +53275,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -52645,7 +53458,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 48,
-    "rank": 272,
+    "rank": 273,
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -52698,8 +53511,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1
+    "subFor": "Picklr Fair Lawn"
    },
    {
     "wk": 5,
@@ -52779,7 +53591,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 49,
-    "rank": 261,
+    "rank": 260,
     "ratingGames": 5,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.1
@@ -53379,11 +54191,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Palace Blue",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Pickleball Palace Blue"
    }
   ],
   "ratingHistory": [
@@ -55116,584 +55924,6 @@
    }
   ]
  },
- "8142380a-a08e-4510-9c99-7bc928b665ed": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Forward",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 142,
-    "pa": 152,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Forward",
-    "homeAway": "H",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 148,
-    "pa": 139,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Players Courtyard",
-    "homeAway": "H",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 153,
-    "pa": 138,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Lisa Miller",
-    "vs": [
-     "Lori Wild",
-     "Dan Callaghan"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Derik Lochtenbergh",
-    "vs": [
-     "Bill Venella",
-     "Ken Wager"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Pamela Toy",
-    "vs": [
-     "Ellen Rubiato",
-     "Tom Zamojcin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Derik Lochtenbergh",
-    "vs": [
-     "Bill Venella",
-     "Scott Gardo"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Pamela Toy",
-    "vs": [
-     "Lori Wild",
-     "Jonathan Capeci"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Wen Chang",
-    "vs": [
-     "Scott Gardo",
-     "Tom Zamojcin"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Andria Lochtenbergh",
-    "vs": [
-     "Lori Wild",
-     "Scott Gardo"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Paul Mcalary",
-    "vs": [
-     "Jonathan Capeci",
-     "Ken Wager"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Barbara Hand",
-    "vs": [
-     "Lori Wild",
-     "Dave Slomeana"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Paul Mcalary",
-    "vs": [
-     "Patrick Neary",
-     "Chris Allander"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Chantal Reme",
-    "vs": [
-     "Crista Renauro",
-     "Dave Slomeana"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Paul Mcalary",
-    "vs": [
-     "Dan Callaghan",
-     "Chris Allander"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Andria Lochtenbergh",
-    "vs": [
-     "Mary Hain",
-     "Dan Callaghan"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Scott Walden",
-    "vs": [
-     "Dave Slomeana",
-     "Chris Allander"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Andria Lochtenbergh",
-    "vs": [
-     "Lori Wild",
-     "Dave Slomeana"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Derik Lochtenbergh",
-    "vs": [
-     "Chris Allander",
-     "Dan Callaghan"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Sue Mah",
-    "vs": [
-     "Xiaojun Yuan",
-     "Frank Choi"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Derik Lochtenbergh",
-    "vs": [
-     "Todd Gelfand",
-     "Joseph Koerner"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Wendy Seiferheld",
-    "vs": [
-     "Danya George",
-     "Joseph Koerner"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Wen Chang",
-    "vs": [
-     "Todd Gelfand",
-     "Edward Verish"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Andria Lochtenbergh",
-    "vs": [
-     "Tracy Giunta",
-     "Todd Gelfand"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Derik Lochtenbergh",
-    "vs": [
-     "David Mcdonough",
-     "Frank Choi"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Andria Lochtenbergh",
-    "vs": [
-     "Danya George",
-     "Edward Verish"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "male",
-    "with": "Wen Chang",
-    "vs": [
-     "Todd Gelfand",
-     "David Mcdonough"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.6,
-    "confidence": 54,
-    "rank": 159,
-    "ratingGames": 8,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.9,
-    "confidence": 56,
-    "rank": 254,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 0.9,
-    "confidence": 71,
-    "rank": 118,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.9,
-    "confidence": 80,
-    "rank": 151,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "9a0d5103-b8d7-4b5b-a890-59a6ec5fb115",
-    "name": "Wen Chang",
-    "n": 3,
-    "synergy": 1.7
-   },
-   {
-    "pid": "4b2fda63-a536-4730-9140-4a372b1726e9",
-    "name": "Paul Mcalary",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "b624b900-f2f1-48d4-9e19-c0ff0238d34d",
-    "name": "Andria Lochtenbergh",
-    "n": 5,
-    "synergy": -0.1
-   },
-   {
-    "pid": "cf71e3c3-dee4-401c-a276-afd72a53dc5a",
-    "name": "Derik Lochtenbergh",
-    "n": 5,
-    "synergy": -0.8
-   }
-  ]
- },
  "12282462-33ce-4ae9-81ae-5bb224883f78": {
   "log": [
    {
@@ -55985,7 +56215,7 @@
     "label": "5",
     "rating": 1,
     "confidence": 68,
-    "rank": 148,
+    "rank": 150,
     "ratingGames": 12,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.4
@@ -57798,7 +58028,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 78,
-    "rank": 238,
+    "rank": 237,
     "ratingGames": 21,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -57976,7 +58206,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 54,
-    "rank": 209,
+    "rank": 210,
     "ratingGames": 7,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.2
@@ -58340,7 +58570,7 @@
     "label": "5",
     "rating": 2,
     "confidence": 56,
-    "rank": 67,
+    "rank": 66,
     "ratingGames": 7,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.6
@@ -59185,7 +59415,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 78,
-    "rank": 255,
+    "rank": 254,
     "ratingGames": 23,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.6
@@ -59620,7 +59850,7 @@
     "label": "5",
     "rating": 0.7,
     "confidence": 72,
-    "rank": 173,
+    "rank": 172,
     "ratingGames": 16,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
@@ -59631,7 +59861,7 @@
     "pid": "39966b06-c83d-47ea-a62c-d6c22c429d19",
     "name": "Cheryl Raiken",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -60915,7 +61145,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 76,
-    "rank": 205,
+    "rank": 206,
     "ratingGames": 18,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.3
@@ -61722,7 +61952,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -61760,11 +61990,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -61807,7 +62033,7 @@
     "label": "5",
     "rating": 1,
     "confidence": 76,
-    "rank": 145,
+    "rank": 147,
     "ratingGames": 18,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.8
@@ -63263,7 +63489,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 65,
-    "rank": 140,
+    "rank": 142,
     "ratingGames": 11,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.8
@@ -63855,7 +64081,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 66,
-    "rank": 234,
+    "rank": 233,
     "ratingGames": 11,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.1
@@ -63920,9 +64146,9 @@
      1,
      0
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -64710,7 +64936,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 65,
-    "rank": 208,
+    "rank": 209,
     "ratingGames": 11,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.7
@@ -65363,7 +65589,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 69,
-    "rank": 264,
+    "rank": 265,
     "ratingGames": 13,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.3
@@ -66001,7 +66227,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 69,
-    "rank": 265,
+    "rank": 266,
     "ratingGames": 13,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.6
@@ -67067,7 +67293,7 @@
     "label": "5",
     "rating": 0.7,
     "confidence": 73,
-    "rank": 172,
+    "rank": 171,
     "ratingGames": 15,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.1
@@ -67760,7 +67986,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -67835,11 +68061,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -70334,7 +70556,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -70525,7 +70746,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 80,
-    "rank": 150,
+    "rank": 152,
     "ratingGames": 24,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
@@ -70949,7 +71170,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -71614,7 +71839,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 74,
-    "rank": 263,
+    "rank": 264,
     "ratingGames": 16,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.1
@@ -71744,7 +71969,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 44,
-    "rank": 143,
+    "rank": 145,
     "ratingGames": 4,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.4
@@ -71887,7 +72112,7 @@
     "label": "5",
     "rating": 1.3,
     "confidence": 51,
-    "rank": 124,
+    "rank": 123,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.6
@@ -72052,7 +72277,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 47,
-    "rank": 244,
+    "rank": 243,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.9
@@ -72603,11 +72828,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -72640,11 +72861,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -72981,7 +73198,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 54,
-    "rank": 235,
+    "rank": 234,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.7
@@ -74144,7 +74361,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 66,
-    "rank": 257,
+    "rank": 256,
     "ratingGames": 12,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -74610,8 +74827,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "withSub": 1
+    "subFor": "Picklr Fair Lawn"
    },
    {
     "wk": 5,
@@ -74674,187 +74890,10 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 51,
-    "rank": 269,
+    "rank": 270,
     "ratingGames": 6,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": []
- },
- "408eed1b-b867-4f9a-b796-7dc23c6d2311": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Players Courtyard",
-    "homeAway": "H",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 143,
-    "pa": 139,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Michael Burns",
-    "vs": [
-     "Xiaojun Yuan",
-     "Frank Choi"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Wendy Seiferheld",
-    "vs": [
-     "Xiaojun Yuan",
-     "Jill Nixon"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Paul Mcalary",
-    "vs": [
-     "Tracy Giunta",
-     "Edward Verish"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Wendy Seiferheld",
-    "vs": [
-     "Suzanne Garcia",
-     "Xiaojun Yuan"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Wen Chang",
-    "vs": [
-     "Danya George",
-     "Joseph Koerner"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Barbara Hand",
-    "vs": [
-     "Jill Nixon",
-     "Suzanne Garcia"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "mixed",
-    "with": "Paul Mcalary",
-    "vs": [
-     "Xiaojun Yuan",
-     "Frank Choi"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 5,
-    "opp": "Players Courtyard",
-    "t": "female",
-    "with": "Barbara Hand",
-    "vs": [
-     "Jill Nixon",
-     "Christine Fletcher"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.9,
-    "confidence": 59,
-    "rank": 157,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -75014,7 +75053,7 @@
     "label": "5",
     "rating": -1.4,
     "confidence": 49,
-    "rank": 346,
+    "rank": 344,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.9
@@ -75333,7 +75372,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 53,
-    "rank": 259,
+    "rank": 258,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -75425,7 +75464,7 @@
     "sub": 1,
     "subFor": "Pickleball Palace Blue",
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -75494,7 +75533,7 @@
     "label": "5",
     "rating": 1.2,
     "confidence": 51,
-    "rank": 135,
+    "rank": 137,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.9
@@ -75862,7 +75901,7 @@
     "confidence": 53,
     "rank": 330,
     "ratingGames": 6,
-    "strengthOfPartners": 2.1,
+    "strengthOfPartners": 2,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -76490,7 +76529,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 69,
-    "rank": 240,
+    "rank": 239,
     "ratingGames": 12,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.2
@@ -76646,621 +76685,13 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 52,
-    "rank": 212,
+    "rank": 213,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
- },
- "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 105,
-    "pa": 114,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Forward",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 89,
-    "pa": 115,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Bounce Malvern",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 108,
-    "pa": 118,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Philly",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 122,
-    "pa": 85,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Joseph Koerner",
-    "vs": [
-     "Lynn Snyder",
-     "Anuraag Verma"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Danya George",
-    "vs": [
-     "Lisa Howdyshell",
-     "Zalene Corey"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Kimberly Kusumoto",
-     "Stephanie A. Umbach"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Jill Nixon",
-    "vs": [
-     "Lisa Howdyshell",
-     "Lynn Snyder"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Joseph Koerner",
-    "vs": [
-     "Lynn Snyder",
-     "Matthew Memmo"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Lisa Howdyshell",
-     "Lynn Snyder"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Nghia Bui",
-    "vs": [
-     "Ellen Rubiato",
-     "Bill Venella"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "female",
-    "with": "Danya George",
-    "vs": [
-     "Ellen Rubiato",
-     "Carolyn Laverdiere"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Kim Slomeana",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "female",
-    "with": "Christine Fletcher",
-    "vs": [
-     "Kim Slomeana",
-     "Jennifer Laroque"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Kim Slomeana",
-     "Bill Venella"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "female",
-    "with": "Michelle Lehman",
-    "vs": [
-     "Crista Renauro",
-     "Jennifer Laroque"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Nghia Bui",
-    "vs": [
-     "Kim Biddle",
-     "Calvin Giles"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Tracy Giunta",
-    "vs": [
-     "Carolyn Laroque",
-     "Vicki Luckett"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Carolyn Laroque",
-     "Harihar Chudamani"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Nghia Bui",
-    "vs": [
-     "Heather King",
-     "Jeff Pillar"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Carolyn Laroque",
-     "Jeff Pillar"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Bounce Malvern",
-    "t": "female",
-    "with": "Tracy Giunta",
-    "vs": [
-     "Carolyn Laroque",
-     "Heather King"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Frank Choi",
-    "vs": [
-     "Sue Mah",
-     "Michael Burns"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Jill Nixon",
-    "vs": [
-     "Sue Mah",
-     "Wendy Seiferheld"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Sue Mah",
-     "Wendy Seiferheld"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Craig Mehnert",
-    "vs": [
-     "Barbara Hand",
-     "Derik Lochtenbergh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Frank Choi",
-    "vs": [
-     "Sue Mah",
-     "Paul Mcalary"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "female",
-    "with": "Suzanne Garcia",
-    "vs": [
-     "Wendy Seiferheld",
-     "Andria Lochtenbergh"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 0.1,
-    "confidence": 46,
-    "rank": 120,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.4,
-    "confidence": 67,
-    "rank": 209,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 1.5
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -0.4,
-    "confidence": 75,
-    "rank": 233,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 1.3
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0,
-    "confidence": 80,
-    "rank": 229,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": [
-   {
-    "pid": "f3172220-bb2d-4714-892c-5bb3d728239e",
-    "name": "Suzanne Garcia",
-    "n": 4,
-    "synergy": 1.2
-   },
-   {
-    "pid": "371edee5-b6ce-436c-b3ef-b93807443dd8",
-    "name": "Craig Mehnert",
-    "n": 5,
-    "synergy": 0.7
-   },
-   {
-    "pid": "c8d634ab-9452-4ea2-8b66-20db1aca3a43",
-    "name": "Nghia Bui",
-    "n": 3,
-    "synergy": -1
-   }
-  ]
  },
  "2a7bc14d-1e84-4554-aeb4-00dd726c8f6a": {
   "log": [
@@ -77778,7 +77209,7 @@
     "label": "5",
     "rating": -1.4,
     "confidence": 64,
-    "rank": 344,
+    "rank": 343,
     "ratingGames": 10,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.6
@@ -77855,7 +77286,6 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -78476,7 +77906,7 @@
     "label": "5",
     "rating": -1.3,
     "confidence": 45,
-    "rank": 341,
+    "rank": 340,
     "ratingGames": 4,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.2
@@ -78561,9 +77991,9 @@
      2,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -78958,7 +78388,7 @@
     "confidence": 79,
     "rank": 45,
     "ratingGames": 21,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.1
    }
   ],
@@ -80441,7 +79871,7 @@
     "label": "5",
     "rating": 0.6,
     "confidence": 78,
-    "rank": 175,
+    "rank": 174,
     "ratingGames": 21,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.2
@@ -82330,7 +81760,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 74,
-    "rank": 231,
+    "rank": 230,
     "ratingGames": 17,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.1
@@ -83142,11 +82572,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -83162,11 +82588,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -83198,11 +82620,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -83685,6 +83103,614 @@
    }
   ]
  },
+ "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 105,
+    "pa": 114,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 89,
+    "pa": 115,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Bounce Malvern",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 108,
+    "pa": 118,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Philly",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 87,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joseph Koerner",
+    "vs": [
+     "Lynn Snyder",
+     "Anuraag Verma"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Danya George",
+    "vs": [
+     "Lisa Howdyshell",
+     "Zalene Corey"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Kimberly Kusumoto",
+     "Stephanie A. Umbach"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Jill Nixon",
+    "vs": [
+     "Lisa Howdyshell",
+     "Lynn Snyder"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Joseph Koerner",
+    "vs": [
+     "Lynn Snyder",
+     "Matthew Memmo"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Lisa Howdyshell",
+     "Lynn Snyder"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Nghia Bui",
+    "vs": [
+     "Ellen Rubiato",
+     "Bill Venella"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Danya George",
+    "vs": [
+     "Ellen Rubiato",
+     "Carolyn Laverdiere"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Kim Slomeana",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Christine Fletcher",
+    "vs": [
+     "Kim Slomeana",
+     "Jennifer Laroque"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Kim Slomeana",
+     "Bill Venella"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "female",
+    "with": "Michelle Lehman",
+    "vs": [
+     "Crista Renauro",
+     "Jennifer Laroque"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Nghia Bui",
+    "vs": [
+     "Kim Biddle",
+     "Calvin Giles"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Tracy Giunta",
+    "vs": [
+     "Carolyn Laroque",
+     "Vicki Luckett"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Carolyn Laroque",
+     "Harihar Chudamani"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Nghia Bui",
+    "vs": [
+     "Heather King",
+     "Jeff Pillar"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Carolyn Laroque",
+     "Jeff Pillar"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Bounce Malvern",
+    "t": "female",
+    "with": "Tracy Giunta",
+    "vs": [
+     "Carolyn Laroque",
+     "Heather King"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Frank Choi",
+    "vs": [
+     "Sue Mah",
+     "Michael Burns"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Jill Nixon",
+    "vs": [
+     "Sue Mah",
+     "Wendy Seiferheld"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Sue Mah",
+     "Wendy Seiferheld"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Craig Mehnert",
+    "vs": [
+     "Barbara Hand",
+     "Derik Lochtenbergh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Frank Choi",
+    "vs": [
+     "Sue Mah",
+     "Paul Mcalary"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "female",
+    "with": "Suzanne Garcia",
+    "vs": [
+     "Wendy Seiferheld",
+     "Andria Lochtenbergh"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 0.1,
+    "confidence": 46,
+    "rank": 120,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.4,
+    "confidence": 67,
+    "rank": 209,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -0.4,
+    "confidence": 75,
+    "rank": 233,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -0.2,
+    "confidence": 80,
+    "rank": 244,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f3172220-bb2d-4714-892c-5bb3d728239e",
+    "name": "Suzanne Garcia",
+    "n": 4,
+    "synergy": 1.3
+   },
+   {
+    "pid": "371edee5-b6ce-436c-b3ef-b93807443dd8",
+    "name": "Craig Mehnert",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "c8d634ab-9452-4ea2-8b66-20db1aca3a43",
+    "name": "Nghia Bui",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
+ },
  "07e276d3-773e-4a62-865e-4248969ec4d3": {
   "log": [
    {
@@ -83981,7 +84007,7 @@
     "label": "5",
     "rating": 1.1,
     "confidence": 67,
-    "rank": 139,
+    "rank": 141,
     "ratingGames": 11,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.3
@@ -84022,8 +84048,8 @@
     "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -84049,8 +84075,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -84067,8 +84093,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -84083,8 +84109,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -84099,8 +84125,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -84115,8 +84141,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -84135,8 +84161,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -84151,8 +84177,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -84167,8 +84193,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -84184,8 +84210,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1,
     "vsSub": [
      1,
@@ -84205,8 +84231,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -84222,8 +84248,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -84238,8 +84264,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Picklr Fair Lawn",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -84549,7 +84575,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 66,
-    "rank": 266,
+    "rank": 267,
     "ratingGames": 11,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -84634,9 +84660,9 @@
      0,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -85050,9 +85076,9 @@
     "label": "5",
     "rating": 1,
     "confidence": 79,
-    "rank": 144,
+    "rank": 146,
     "ratingGames": 22,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -85061,13 +85087,13 @@
     "pid": "8142380a-a08e-4510-9c99-7bc928b665ed",
     "name": "Michael Burns",
     "n": 3,
-    "synergy": 1.7
+    "synergy": 1.5
    },
    {
     "pid": "4b2fda63-a536-4730-9140-4a372b1726e9",
     "name": "Paul Mcalary",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "a04312ab-d364-478d-8329-503d278a6824",
@@ -85510,7 +85536,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 75,
-    "rank": 230,
+    "rank": 229,
     "ratingGames": 18,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.6
@@ -86333,11 +86359,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -86873,7 +86895,7 @@
     "label": "5",
     "rating": -1.4,
     "confidence": 76,
-    "rank": 342,
+    "rank": 341,
     "ratingGames": 18,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.2
@@ -87163,11 +87185,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -87846,8 +87864,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -87890,7 +87907,7 @@
     "label": "5",
     "rating": -1.5,
     "confidence": 80,
-    "rank": 347,
+    "rank": 346,
     "ratingGames": 23,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.1
@@ -88105,7 +88122,7 @@
     "label": "5",
     "rating": 1.2,
     "confidence": 56,
-    "rank": 134,
+    "rank": 135,
     "ratingGames": 7,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 1.6
@@ -88930,7 +88947,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -88992,7 +89009,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -89009,11 +89026,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -89429,9 +89442,9 @@
      0,
      4
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -89850,7 +89863,7 @@
     "with": "Paul Mcalary",
     "vs": [
      "Frank Choi",
-     "Craig Mehnert"
+     "Joseph Koerner"
     ],
     "f": 23,
     "a": 25,
@@ -89898,12 +89911,12 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 2.1,
+    "rating": 1.9,
     "confidence": 78,
-    "rank": 58,
+    "rank": 69,
     "ratingGames": 24,
     "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.3
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": [
@@ -89911,7 +89924,7 @@
     "pid": "4b2fda63-a536-4730-9140-4a372b1726e9",
     "name": "Paul Mcalary",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.3
    },
    {
     "pid": "b624b900-f2f1-48d4-9e19-c0ff0238d34d",
@@ -90730,7 +90743,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 80,
-    "rank": 262,
+    "rank": 263,
     "ratingGames": 22,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
@@ -91235,7 +91248,7 @@
     "label": "5",
     "rating": 0.2,
     "confidence": 79,
-    "rank": 214,
+    "rank": 215,
     "ratingGames": 22,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.4
@@ -91419,7 +91432,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 49,
-    "rank": 271,
+    "rank": 272,
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
@@ -91734,7 +91747,7 @@
     "label": "5",
     "rating": 1.3,
     "confidence": 48,
-    "rank": 125,
+    "rank": 124,
     "ratingGames": 5,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.2
@@ -93936,13 +93949,13 @@
     "pid": "371edee5-b6ce-436c-b3ef-b93807443dd8",
     "name": "Craig Mehnert",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.1
    },
    {
     "pid": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
     "name": "Xiaojun Yuan",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -94255,7 +94268,7 @@
     "label": "5",
     "rating": 0,
     "confidence": 69,
-    "rank": 233,
+    "rank": 232,
     "ratingGames": 13,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.7
@@ -94611,7 +94624,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 69,
-    "rank": 207,
+    "rank": 208,
     "ratingGames": 13,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 1.4
@@ -95271,7 +95284,7 @@
     "confidence": 70,
     "rank": 196,
     "ratingGames": 13,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.6
    }
   ],
@@ -95883,9 +95896,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -1.8,
+    "rating": -1.9,
     "confidence": 58,
-    "rank": 366,
+    "rank": 369,
     "ratingGames": 8,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.2
@@ -96095,9 +96108,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -2.7,
+    "rating": -2.6,
     "confidence": 58,
-    "rank": 409,
+    "rank": 408,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.5
@@ -98246,7 +98259,7 @@
     "label": "5",
     "rating": 0.9,
     "confidence": 65,
-    "rank": 156,
+    "rank": 157,
     "ratingGames": 11,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.8
@@ -98311,9 +98324,9 @@
      1,
      0
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -98543,8 +98556,8 @@
     "confidence": 67,
     "rank": 279,
     "ratingGames": 11,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -98669,7 +98682,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -98733,7 +98747,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -100230,7 +100245,7 @@
     "label": "5",
     "rating": -1.9,
     "confidence": 72,
-    "rank": 369,
+    "rank": 368,
     "ratingGames": 17,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0
@@ -100686,7 +100701,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 54,
-    "rank": 258,
+    "rank": 257,
     "ratingGames": 6,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.2
@@ -101170,7 +101185,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 49,
-    "rank": 270,
+    "rank": 271,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.2
@@ -101285,11 +101300,11 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -0.4,
+    "rating": -0.3,
     "confidence": 38,
-    "rank": 274,
+    "rank": 261,
     "ratingGames": 3,
-    "strengthOfPartners": 1.4,
+    "strengthOfPartners": 1.3,
     "strengthOfOpponents": 1.6
    }
   ],
@@ -101811,7 +101826,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 53,
-    "rank": 211,
+    "rank": 212,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.1
@@ -102167,7 +102182,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 51,
-    "rank": 382,
+    "rank": 383,
     "ratingGames": 6,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.3
@@ -102945,7 +102960,7 @@
     "label": "5",
     "rating": -1.3,
     "confidence": 50,
-    "rank": 339,
+    "rank": 338,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -103176,9 +103191,9 @@
      0,
      3
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -103594,7 +103609,7 @@
     "with": "Derik Lochtenbergh",
     "vs": [
      "Frank Choi",
-     "Craig Mehnert"
+     "Joseph Koerner"
     ],
     "f": 23,
     "a": 25,
@@ -103642,9 +103657,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -0.3,
+    "rating": -0.4,
     "confidence": 80,
-    "rank": 254,
+    "rank": 262,
     "ratingGames": 24,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
@@ -103658,16 +103673,16 @@
     "synergy": 0.9
    },
    {
-    "pid": "cf71e3c3-dee4-401c-a276-afd72a53dc5a",
-    "name": "Derik Lochtenbergh",
+    "pid": "9a0d5103-b8d7-4b5b-a890-59a6ec5fb115",
+    "name": "Wen Chang",
     "n": 4,
     "synergy": -0.1
    },
    {
-    "pid": "9a0d5103-b8d7-4b5b-a890-59a6ec5fb115",
-    "name": "Wen Chang",
+    "pid": "cf71e3c3-dee4-401c-a276-afd72a53dc5a",
+    "name": "Derik Lochtenbergh",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.3
    }
   ]
  },
@@ -104042,7 +104057,7 @@
     "label": "5",
     "rating": 2.1,
     "confidence": 71,
-    "rank": 61,
+    "rank": 60,
     "ratingGames": 15,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.7
@@ -104774,7 +104789,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 69,
-    "rank": 378,
+    "rank": 379,
     "ratingGames": 13,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -1
@@ -105365,9 +105380,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -1.7,
+    "rating": -1.8,
     "confidence": 65,
-    "rank": 361,
+    "rank": 364,
     "ratingGames": 10,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.5
@@ -105378,7 +105393,7 @@
     "pid": "0e543890-4c91-45d2-bd5d-819dc476b245",
     "name": "Bonny Mayerberg",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -105906,7 +105921,7 @@
     "rank": 199,
     "ratingGames": 10,
     "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -106945,7 +106960,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 50,
-    "rank": 260,
+    "rank": 259,
     "ratingGames": 7,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.5
@@ -108083,7 +108098,7 @@
     "label": "5",
     "rating": -1.8,
     "confidence": 76,
-    "rank": 364,
+    "rank": 363,
     "ratingGames": 18,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.2
@@ -108384,7 +108399,7 @@
     "label": "5",
     "rating": 1,
     "confidence": 68,
-    "rank": 149,
+    "rank": 151,
     "ratingGames": 12,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -109660,9 +109675,9 @@
      2,
      1
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -109979,7 +109994,7 @@
     "t": "mixed",
     "with": "Michael Burns",
     "vs": [
-     "Tracy Giunta",
+     "Jill Nixon",
      "Todd Gelfand"
     ],
     "f": 23,
@@ -110078,9 +110093,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -2.7,
+    "rating": -2.6,
     "confidence": 78,
-    "rank": 408,
+    "rank": 405,
     "ratingGames": 22,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.9
@@ -110097,7 +110112,7 @@
     "pid": "8142380a-a08e-4510-9c99-7bc928b665ed",
     "name": "Michael Burns",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "cf71e3c3-dee4-401c-a276-afd72a53dc5a",
@@ -110549,7 +110564,7 @@
     "label": "5",
     "rating": -0.3,
     "confidence": 76,
-    "rank": 256,
+    "rank": 255,
     "ratingGames": 19,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.8
@@ -111000,7 +111015,7 @@
     "label": "5",
     "rating": -1.8,
     "confidence": 42,
-    "rank": 368,
+    "rank": 367,
     "ratingGames": 4,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -111675,9 +111690,9 @@
      0,
      1
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -111840,7 +111855,7 @@
     "wk": 5,
     "opp": "Bounce Philly",
     "t": "mixed",
-    "with": "Tracy Giunta",
+    "with": "Jill Nixon",
     "vs": [
      "Andria Lochtenbergh",
      "Michael Burns"
@@ -111923,22 +111938,15 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -1.3,
-    "confidence": 68,
-    "rank": 338,
+    "rating": -1.5,
+    "confidence": 69,
+    "rank": 348,
     "ratingGames": 12,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.5
    }
   ],
-  "partners": [
-   {
-    "pid": "0053115a-f6c0-43c0-ab0e-ec6abf16bc32",
-    "name": "Tracy Giunta",
-    "n": 3,
-    "synergy": -0.8
-   }
-  ]
+  "partners": []
  },
  "368129c9-202c-459c-bdfd-da8ca04597f7": {
   "log": [
@@ -112249,7 +112257,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -112377,7 +112386,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -113412,13 +113422,709 @@
     "label": "5",
     "rating": -3.9,
     "confidence": 69,
-    "rank": 434,
+    "rank": 433,
     "ratingGames": 13,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
+ },
+ "d5598dfe-2fd3-4178-9068-6baf887689b2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 73,
+    "pa": 100,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 57,
+    "pa": 81,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "t": "female",
+    "with": "Krishma Patel",
+    "vs": [
+     "Franchesa Mclean",
+     "Yayuan Lien"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "t": "mixed",
+    "with": "Srinatha Nanjundaiah",
+    "vs": [
+     "Luz Bonner",
+     "Dino Del Rosario"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "t": "mixed",
+    "with": "Artemio Tuquero",
+    "vs": [
+     "Franchesa Mclean",
+     "Fritz Jean-Brian"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "t": "female",
+    "with": "Jennifer Taddeo",
+    "vs": [
+     "Mary Foster",
+     "Judy Williamson"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Pickleball Kingdom Hamilton Prime Time",
+    "t": "mixed",
+    "with": "Artemio Tuquero",
+    "vs": [
+     "Judy Williamson",
+     "Ed Mendoza"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynette Pil",
+    "vs": [
+     "Sharon Oddy",
+     "Margo Langer"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Artemio Tuquero",
+    "vs": [
+     "Margo Langer",
+     "Paul Phillips"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Rosa Tenan",
+    "vs": [
+     "Eleni Leone",
+     "Sharon Oddy"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynette Pil",
+    "vs": [
+     "Sharon Oddy",
+     "Eleni Leone"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -3.3,
+    "confidence": 45,
+    "rank": 250,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -3.5,
+    "confidence": 48,
+    "rank": 356,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -3.5,
+    "confidence": 48,
+    "rank": 387,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -4,
+    "confidence": 61,
+    "rank": 437,
+    "ratingGames": 9,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "38af77d4-eaa3-4189-8eb9-b137ea3cbecd",
+    "name": "Artemio Tuquero",
+    "n": 3,
+    "synergy": -0.3
+   }
+  ]
+ },
+ "b49f166d-9cd4-4b86-961d-380dd8189a87": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 112,
+    "pa": 131,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Forward",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 79,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 6,
+    "teamGL": 26,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Philly",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 85,
+    "pa": 92,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Lynn Snyder",
+     "Anuraag Verma"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Michael Ross",
+    "vs": [
+     "Matthew Memmo",
+     "George Nouaime"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Jill Nixon",
+    "vs": [
+     "Kimberly Kusumoto",
+     "Brian Schartz"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Danya George",
+    "vs": [
+     "Zalene Corey",
+     "Matthew Memmo"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jim Nixon",
+    "vs": [
+     "George Nouaime",
+     "Jeff Pillar"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "mixed",
+    "with": "Xiaojun Yuan",
+    "vs": [
+     "Lynn Snyder",
+     "Matthew Memmo"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Todd Gelfand",
+    "vs": [
+     "Brian Schartz",
+     "Anuraag Verma"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Tracy Giunta",
+    "vs": [
+     "Crista Renauro",
+     "Chris Allander"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Tom Giunta",
+    "vs": [
+     "Bill Venella",
+     "Chris Allander"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Michael Ross",
+    "vs": [
+     "Bill Venella",
+     "Scott Gardo"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Danya George",
+    "vs": [
+     "Ellen Rubiato",
+     "Dan Callaghan"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "male",
+    "with": "Tom Giunta",
+    "vs": [
+     "Dan Callaghan",
+     "Bill Venella"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Forward",
+    "t": "mixed",
+    "with": "Jill Nixon",
+    "vs": [
+     "Ellen Rubiato",
+     "Bill Venella"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Todd Gelfand",
+    "vs": [
+     "Derik Lochtenbergh",
+     "Michael Burns"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Danya George",
+    "vs": [
+     "Wendy Seiferheld",
+     "Michael Burns"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Danya George",
+    "vs": [
+     "Sue Mah",
+     "Wen Chang"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Edward Verish",
+    "vs": [
+     "Paul Mcalary",
+     "Wen Chang"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
+    "t": "male",
+    "with": "Frank Choi",
+    "vs": [
+     "Derik Lochtenbergh",
+     "Paul Mcalary"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.4,
+    "confidence": 52,
+    "rank": 144,
+    "ratingGames": 7,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.5,
+    "confidence": 70,
+    "rank": 219,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -0.3,
+    "confidence": 70,
+    "rank": 229,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 1.8
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 77,
+    "rank": 205,
+    "ratingGames": 18,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fbaf1cdd-118b-4d51-a42e-f06908cc3f3c",
+    "name": "Danya George",
+    "n": 4,
+    "synergy": 0.2
+   }
+  ]
  },
  "8c0ea31a-a5e4-49f4-b97c-703e6edfe6d2": {
   "log": [
@@ -113481,13 +114187,13 @@
     "opp": "Bounce Philly",
     "homeAway": "A",
     "w": 1,
-    "l": 3,
-    "gp": 4,
-    "pf": 68,
-    "pa": 77,
+    "l": 4,
+    "gp": 5,
+    "pf": 87,
+    "pa": 98,
     "mx": [
      0,
-     0
+     1
     ],
     "gn": [
      1,
@@ -113495,11 +114201,11 @@
     ],
     "cl": [
      0,
-     2
+     3
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -113772,6 +114478,22 @@
    {
     "wk": 5,
     "opp": "Bounce Philly",
+    "t": "mixed",
+    "with": "Todd Gelfand",
+    "vs": [
+     "Andria Lochtenbergh",
+     "Michael Burns"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Philly",
     "t": "female",
     "with": "Suzanne Garcia",
     "vs": [
@@ -113848,12 +114570,12 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": 0.7,
-    "confidence": 76,
-    "rank": 170,
-    "ratingGames": 18,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 1.1
+    "rating": 0.6,
+    "confidence": 77,
+    "rank": 175,
+    "ratingGames": 19,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
@@ -113868,264 +114590,6 @@
     "name": "Michael Ross",
     "n": 3,
     "synergy": -1
-   }
-  ]
- },
- "d5598dfe-2fd3-4178-9068-6baf887689b2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 73,
-    "pa": 100,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 1,
-    "l": 3,
-    "gp": 4,
-    "pf": 57,
-    "pa": 81,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "t": "female",
-    "with": "Krishma Patel",
-    "vs": [
-     "Franchesa Mclean",
-     "Yayuan Lien"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "t": "mixed",
-    "with": "Srinatha Nanjundaiah",
-    "vs": [
-     "Luz Bonner",
-     "Dino Del Rosario"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "t": "mixed",
-    "with": "Artemio Tuquero",
-    "vs": [
-     "Franchesa Mclean",
-     "Fritz Jean-Brian"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "t": "female",
-    "with": "Jennifer Taddeo",
-    "vs": [
-     "Mary Foster",
-     "Judy Williamson"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Pickleball Kingdom Hamilton Prime Time",
-    "t": "mixed",
-    "with": "Artemio Tuquero",
-    "vs": [
-     "Judy Williamson",
-     "Ed Mendoza"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Lynette Pil",
-    "vs": [
-     "Sharon Oddy",
-     "Margo Langer"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Artemio Tuquero",
-    "vs": [
-     "Margo Langer",
-     "Paul Phillips"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Rosa Tenan",
-    "vs": [
-     "Eleni Leone",
-     "Sharon Oddy"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Lynette Pil",
-    "vs": [
-     "Sharon Oddy",
-     "Eleni Leone"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -3.3,
-    "confidence": 45,
-    "rank": 250,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -3.5,
-    "confidence": 48,
-    "rank": 356,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -3.5,
-    "confidence": 48,
-    "rank": 387,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -4,
-    "confidence": 61,
-    "rank": 437,
-    "ratingGames": 9,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "38af77d4-eaa3-4189-8eb9-b137ea3cbecd",
-    "name": "Artemio Tuquero",
-    "n": 3,
-    "synergy": -0.3
    }
   ]
  },
@@ -115810,11 +116274,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -115847,11 +116307,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -115988,7 +116444,7 @@
     "label": "5",
     "rating": -1.4,
     "confidence": 66,
-    "rank": 343,
+    "rank": 342,
     "ratingGames": 10,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.4
@@ -116702,7 +117158,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 65,
-    "rank": 380,
+    "rank": 381,
     "ratingGames": 10,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0.3
@@ -119106,428 +119562,6 @@
    }
   ]
  },
- "b49f166d-9cd4-4b86-961d-380dd8189a87": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 112,
-    "pa": 131,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Forward",
-    "homeAway": "H",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 79,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 6,
-    "teamGL": 26,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Philly",
-    "homeAway": "A",
-    "w": 1,
-    "l": 3,
-    "gp": 4,
-    "pf": 64,
-    "pa": 73,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Lynn Snyder",
-     "Anuraag Verma"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Michael Ross",
-    "vs": [
-     "Matthew Memmo",
-     "George Nouaime"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Jill Nixon",
-    "vs": [
-     "Kimberly Kusumoto",
-     "Brian Schartz"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Danya George",
-    "vs": [
-     "Zalene Corey",
-     "Matthew Memmo"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jim Nixon",
-    "vs": [
-     "George Nouaime",
-     "Jeff Pillar"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "mixed",
-    "with": "Xiaojun Yuan",
-    "vs": [
-     "Lynn Snyder",
-     "Matthew Memmo"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Todd Gelfand",
-    "vs": [
-     "Brian Schartz",
-     "Anuraag Verma"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Tracy Giunta",
-    "vs": [
-     "Crista Renauro",
-     "Chris Allander"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Tom Giunta",
-    "vs": [
-     "Bill Venella",
-     "Chris Allander"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Michael Ross",
-    "vs": [
-     "Bill Venella",
-     "Scott Gardo"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Danya George",
-    "vs": [
-     "Ellen Rubiato",
-     "Dan Callaghan"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "male",
-    "with": "Tom Giunta",
-    "vs": [
-     "Dan Callaghan",
-     "Bill Venella"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Forward",
-    "t": "mixed",
-    "with": "Jill Nixon",
-    "vs": [
-     "Ellen Rubiato",
-     "Bill Venella"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Todd Gelfand",
-    "vs": [
-     "Derik Lochtenbergh",
-     "Michael Burns"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Danya George",
-    "vs": [
-     "Wendy Seiferheld",
-     "Michael Burns"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Danya George",
-    "vs": [
-     "Sue Mah",
-     "Wen Chang"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "male",
-    "with": "Edward Verish",
-    "vs": [
-     "Paul Mcalary",
-     "Wen Chang"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.4,
-    "confidence": 52,
-    "rank": 144,
-    "ratingGames": 7,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.5,
-    "confidence": 70,
-    "rank": 219,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 1.6
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -0.3,
-    "confidence": 70,
-    "rank": 229,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.8
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.2,
-    "confidence": 76,
-    "rank": 215,
-    "ratingGames": 17,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 1.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "fbaf1cdd-118b-4d51-a42e-f06908cc3f3c",
-    "name": "Danya George",
-    "n": 4,
-    "synergy": 0.3
-   }
-  ]
- },
  "ca06b5ce-3001-408e-bdc6-9e183022b9f3": {
   "log": [
    {
@@ -120191,7 +120225,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -120287,7 +120322,7 @@
     "label": "5",
     "rating": 0.3,
     "confidence": 53,
-    "rank": 210,
+    "rank": 211,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
@@ -120467,9 +120502,9 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 53,
-    "rank": 243,
+    "rank": 242,
     "ratingGames": 6,
-    "strengthOfPartners": -0.5,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.2
    }
   ],
@@ -120988,7 +121023,7 @@
     "label": "5",
     "rating": -0.1,
     "confidence": 53,
-    "rank": 242,
+    "rank": 241,
     "ratingGames": 6,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.8
@@ -121162,7 +121197,7 @@
     "label": "5",
     "rating": -1.3,
     "confidence": 49,
-    "rank": 340,
+    "rank": 339,
     "ratingGames": 6,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0.1
@@ -121344,7 +121379,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 53,
-    "rank": 268,
+    "rank": 269,
     "ratingGames": 6,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 0.9
@@ -121519,12 +121554,12 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -1.4,
+    "rating": -1.5,
     "confidence": 54,
-    "rank": 345,
+    "rank": 349,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.4
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -121687,7 +121722,7 @@
     "label": "5",
     "rating": -1.7,
     "confidence": 50,
-    "rank": 363,
+    "rank": 362,
     "ratingGames": 6,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.8
@@ -121993,7 +122028,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 53,
-    "rank": 381,
+    "rank": 382,
     "ratingGames": 6,
     "strengthOfPartners": -2.9,
     "strengthOfOpponents": 0.7
@@ -122027,8 +122062,8 @@
     "teamRes": "L",
     "teamGW": 4,
     "teamGL": 28,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "week": 5,
@@ -122054,8 +122089,8 @@
     "teamRes": "L",
     "teamGW": 4,
     "teamGL": 28,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    }
   ],
   "games": [
@@ -122072,8 +122107,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 2,
@@ -122088,8 +122123,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 2,
@@ -122104,8 +122139,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 2,
@@ -122120,8 +122155,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 2,
@@ -122136,8 +122171,8 @@
     "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 2,
@@ -122152,8 +122187,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122168,8 +122203,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122184,8 +122219,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122200,8 +122235,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122216,8 +122251,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122232,8 +122267,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
     "wk": 5,
@@ -122248,8 +122283,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    }
   ],
   "ratingHistory": [
@@ -122847,7 +122882,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -122975,7 +123011,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -124647,7 +124684,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 55,
-    "rank": 407,
+    "rank": 409,
     "ratingGames": 7,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.2
@@ -126329,7 +126366,7 @@
     "label": "5",
     "rating": -0.4,
     "confidence": 57,
-    "rank": 267,
+    "rank": 268,
     "ratingGames": 8,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": 1.4
@@ -126615,9 +126652,9 @@
      0,
      0
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -126938,7 +126975,7 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -3.4,
+    "rating": -3.3,
     "confidence": 73,
     "rank": 420,
     "ratingGames": 16,
@@ -126951,7 +126988,7 @@
     "pid": "b49f166d-9cd4-4b86-961d-380dd8189a87",
     "name": "Joseph Koerner",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "5db691c2-51e1-4500-a9e7-60c0f303f6d0",
@@ -126963,7 +127000,7 @@
     "pid": "0053115a-f6c0-43c0-ab0e-ec6abf16bc32",
     "name": "Tracy Giunta",
     "n": 3,
-    "synergy": -1.6
+    "synergy": -1.7
    }
   ]
  },
@@ -127646,7 +127683,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 76,
-    "rank": 405,
+    "rank": 406,
     "ratingGames": 18,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.3
@@ -127657,7 +127694,7 @@
     "pid": "0053115a-f6c0-43c0-ab0e-ec6abf16bc32",
     "name": "Tracy Giunta",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "5db691c2-51e1-4500-a9e7-60c0f303f6d0",
@@ -127787,7 +127824,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -127930,312 +127968,6 @@
    }
   ]
  },
- "d84632f4-bec0-4399-8b04-64c6ea340362": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Flemington Blue",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 115,
-    "pa": 145,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 10,
-    "teamGL": 22,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Mercer Bucks",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 77,
-    "pa": 105,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Grace Brennan",
-    "vs": [
-     "Sarah Stangota",
-     "Anthony Leone"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "male",
-    "with": "Sam Doctor",
-    "vs": [
-     "Anthony Leone",
-     "Eric Brezina"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Eleni Leone",
-     "Anthony Leone"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Gail Hannagan",
-     "Anthony Leone"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "male",
-    "with": "Bill Vit",
-    "vs": [
-     "Tom Dominczyk",
-     "Ren Mortara"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "mixed",
-    "with": "Tao Zhu",
-    "vs": [
-     "Sarah Stangota",
-     "Anthony Leone"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Flemington Blue",
-    "t": "male",
-    "with": "Sam Doctor",
-    "vs": [
-     "Eric Brezina",
-     "Anthony Leone"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Mercer Bucks",
-    "t": "mixed",
-    "with": "Manuela Caiati",
-    "vs": [
-     "Cheryl Tarby",
-     "Jason Belmont"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Mercer Bucks",
-    "t": "male",
-    "with": "Sam Doctor",
-    "vs": [
-     "Farzad Shadzik",
-     "Jason Belmont"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Mercer Bucks",
-    "t": "mixed",
-    "with": "Tao Zhu",
-    "vs": [
-     "Lisa Angelini",
-     "Gregg Downs"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Mercer Bucks",
-    "t": "male",
-    "with": "Hafeez Saheed",
-    "vs": [
-     "Jason Belmont",
-     "Farzad Shadzik"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Mercer Bucks",
-    "t": "male",
-    "with": "Sam Doctor",
-    "vs": [
-     "Farzad Shadzik",
-     "Howard Eng"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -1.7,
-    "confidence": 42,
-    "rank": 218,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.9,
-    "confidence": 43,
-    "rank": 316,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -1.9,
-    "confidence": 43,
-    "rank": 342,
-    "ratingGames": 7,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -2.4,
-    "confidence": 66,
-    "rank": 395,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 1.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "3070f4fd-b54d-4aac-81e9-72ffc24c2845",
-    "name": "Sam Doctor",
-    "n": 4,
-    "synergy": -1
-   }
-  ]
- },
  "0053115a-f6c0-43c0-ab0e-ec6abf16bc32": {
   "log": [
    {
@@ -128324,13 +128056,13 @@
     "opp": "Bounce Philly",
     "homeAway": "A",
     "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 77,
-    "pa": 126,
+    "l": 5,
+    "gp": 5,
+    "pf": 58,
+    "pa": 105,
     "mx": [
      0,
-     4
+     3
     ],
     "gn": [
      0,
@@ -128338,11 +128070,11 @@
     ],
     "cl": [
      0,
-     2
+     1
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -128738,22 +128470,6 @@
     "t": "mixed",
     "with": "Todd Gelfand",
     "vs": [
-     "Andria Lochtenbergh",
-     "Michael Burns"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Philly",
-    "t": "mixed",
-    "with": "Todd Gelfand",
-    "vs": [
      "Barbara Hand",
      "Derik Lochtenbergh"
     ],
@@ -128803,12 +128519,12 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -2.2,
-    "confidence": 81,
-    "rank": 385,
-    "ratingGames": 24,
+    "rating": -2.1,
+    "confidence": 80,
+    "rank": 376,
+    "ratingGames": 23,
     "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -128816,7 +128532,7 @@
     "pid": "951454ae-d2ba-4339-99de-1a47c62bbaac",
     "name": "Tom Giunta",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "8c0ea31a-a5e4-49f4-b97c-703e6edfe6d2",
@@ -128825,16 +128541,316 @@
     "synergy": -0.2
    },
    {
-    "pid": "370d2bae-330f-4377-b277-2ad2b1b6937e",
-    "name": "Todd Gelfand",
-    "n": 3,
-    "synergy": -0.8
-   },
-   {
     "pid": "fbaf1cdd-118b-4d51-a42e-f06908cc3f3c",
     "name": "Danya George",
     "n": 3,
-    "synergy": -1.6
+    "synergy": -1.7
+   }
+  ]
+ },
+ "d84632f4-bec0-4399-8b04-64c6ea340362": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 115,
+    "pa": 145,
+    "mx": [
+     1,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 10,
+    "teamGL": 22,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Mercer Bucks",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 77,
+    "pa": 105,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Grace Brennan",
+    "vs": [
+     "Sarah Stangota",
+     "Anthony Leone"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "male",
+    "with": "Sam Doctor",
+    "vs": [
+     "Anthony Leone",
+     "Eric Brezina"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Eleni Leone",
+     "Anthony Leone"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Gail Hannagan",
+     "Anthony Leone"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "male",
+    "with": "Bill Vit",
+    "vs": [
+     "Tom Dominczyk",
+     "Ren Mortara"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "mixed",
+    "with": "Tao Zhu",
+    "vs": [
+     "Sarah Stangota",
+     "Anthony Leone"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Flemington Blue",
+    "t": "male",
+    "with": "Sam Doctor",
+    "vs": [
+     "Eric Brezina",
+     "Anthony Leone"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Mercer Bucks",
+    "t": "mixed",
+    "with": "Manuela Caiati",
+    "vs": [
+     "Cheryl Tarby",
+     "Jason Belmont"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Mercer Bucks",
+    "t": "male",
+    "with": "Sam Doctor",
+    "vs": [
+     "Farzad Shadzik",
+     "Jason Belmont"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Mercer Bucks",
+    "t": "mixed",
+    "with": "Tao Zhu",
+    "vs": [
+     "Lisa Angelini",
+     "Gregg Downs"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Mercer Bucks",
+    "t": "male",
+    "with": "Hafeez Saheed",
+    "vs": [
+     "Jason Belmont",
+     "Farzad Shadzik"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Mercer Bucks",
+    "t": "male",
+    "with": "Sam Doctor",
+    "vs": [
+     "Farzad Shadzik",
+     "Howard Eng"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -1.7,
+    "confidence": 42,
+    "rank": 218,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.9,
+    "confidence": 43,
+    "rank": 316,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -1.9,
+    "confidence": 43,
+    "rank": 342,
+    "ratingGames": 7,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -2.4,
+    "confidence": 66,
+    "rank": 395,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 1.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "3070f4fd-b54d-4aac-81e9-72ffc24c2845",
+    "name": "Sam Doctor",
+    "n": 4,
+    "synergy": -1
    }
   ]
  },
@@ -129146,7 +129162,7 @@
     "label": "5",
     "rating": -2.6,
     "confidence": 67,
-    "rank": 406,
+    "rank": 407,
     "ratingGames": 13,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -129491,7 +129507,7 @@
     "label": "5",
     "rating": -1.5,
     "confidence": 71,
-    "rank": 348,
+    "rank": 347,
     "ratingGames": 14,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 1.8
@@ -130361,7 +130377,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 46,
-    "rank": 384,
+    "rank": 385,
     "ratingGames": 5,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.6
@@ -130853,7 +130869,7 @@
     "label": "5",
     "rating": -1.8,
     "confidence": 50,
-    "rank": 367,
+    "rank": 366,
     "ratingGames": 5,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 1
@@ -132118,12 +132134,12 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -1.5,
+    "rating": -1.4,
     "confidence": 48,
-    "rank": 349,
+    "rank": 345,
     "ratingGames": 5,
     "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2.3
+    "strengthOfOpponents": 2.4
    }
   ],
   "partners": []
@@ -132173,7 +132189,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -132250,7 +132267,7 @@
     "rank": 399,
     "ratingGames": 5,
     "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 1.7
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": []
@@ -132829,7 +132846,7 @@
     "label": "5",
     "rating": -1.7,
     "confidence": 59,
-    "rank": 362,
+    "rank": 361,
     "ratingGames": 8,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0.3
@@ -133434,7 +133451,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -133607,9 +133625,9 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -3.8,
+    "rating": -3.9,
     "confidence": 49,
-    "rank": 432,
+    "rank": 434,
     "ratingGames": 5,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1
@@ -135055,7 +135073,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -135096,9 +135115,9 @@
      0,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 15,
-    "teamGL": 17,
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 1,
     "subFor": "Bounce Philly"
    }
@@ -135240,11 +135259,11 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -5.5,
+    "rating": -5.6,
     "confidence": 59,
     "rank": 447,
     "ratingGames": 8,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -135561,7 +135580,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 71,
-    "rank": 377,
+    "rank": 378,
     "ratingGames": 13,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 1.7
@@ -135673,7 +135692,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -135817,7 +135837,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 65,
-    "rank": 379,
+    "rank": 380,
     "ratingGames": 10,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": 2.2
@@ -136731,8 +136751,8 @@
     "confidence": 65,
     "rank": 428,
     "ratingGames": 10,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 2
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 2.1
    }
   ],
   "partners": []
@@ -136787,9 +136807,9 @@
      0,
      0
     ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
+    "teamRes": "L",
+    "teamGW": 16,
+    "teamGL": 16,
     "sub": 0,
     "subFor": null
    }
@@ -137012,7 +137032,7 @@
     "week": 5,
     "seq": 3,
     "label": "5",
-    "rating": -4.8,
+    "rating": -4.7,
     "confidence": 68,
     "rank": 445,
     "ratingGames": 11,
@@ -137403,7 +137423,7 @@
     "label": "5",
     "rating": -2.1,
     "confidence": 72,
-    "rank": 376,
+    "rank": 377,
     "ratingGames": 16,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.6
@@ -138105,7 +138125,7 @@
     "label": "5",
     "rating": -3.9,
     "confidence": 71,
-    "rank": 433,
+    "rank": 432,
     "ratingGames": 14,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.5

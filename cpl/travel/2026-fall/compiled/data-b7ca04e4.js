@@ -47220,6 +47220,14 @@
   {
    "result": null,
    "week": 5,
+   "home": "Delco Turf & Pickle",
+   "away": "ACE Downingtown",
+   "time": "2026-09-23T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 5,
    "home": "Pickleball Kingdom Watchung",
    "away": "Montville",
    "time": "2026-09-23T19:30:00",
@@ -48370,14 +48378,6 @@
    "week": 5,
    "home": "Home Court",
    "away": "Pickleball Kingdom Lehigh Valley",
-   "time": "2026-09-23T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
-   "home": "Delco Turf & Pickle",
-   "away": "ACE Downingtown",
    "time": "2026-09-23T19:30:00",
    "complete": false
   },
@@ -49822,6 +49822,14 @@
   {
    "result": null,
    "week": 8,
+   "home": "Delco Turf & Pickle",
+   "away": "Picklr Exton",
+   "time": "2026-10-14T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Pickleball Kingdom Lehigh Valley",
    "time": "2026-10-14T19:00:00",
@@ -49896,14 +49904,6 @@
    "week": 8,
    "home": "Home Court",
    "away": "Flemington",
-   "time": "2026-10-14T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
-   "home": "Delco Turf & Pickle",
-   "away": "Picklr Exton",
    "time": "2026-10-14T19:30:00",
    "complete": false
   },
@@ -50142,6 +50142,14 @@
   {
    "result": null,
    "week": 10,
+   "home": "Delco Turf & Pickle",
+   "away": "Dill Dinkers Hatboro",
+   "time": "2026-10-28T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 10,
    "home": "Picklr Fair Lawn",
    "away": "Flemington",
    "time": "2026-10-28T19:00:00",
@@ -50184,14 +50192,6 @@
    "week": 10,
    "home": "Bounce Tempest",
    "away": "Bounce Philly",
-   "time": "2026-10-28T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 10,
-   "home": "Delco Turf & Pickle",
-   "away": "Dill Dinkers Hatboro",
    "time": "2026-10-28T19:30:00",
    "complete": false
   },
@@ -50270,6 +50270,14 @@
   {
    "result": null,
    "week": 11,
+   "home": "Delco Turf & Pickle",
+   "away": "Forward",
+   "time": "2026-11-04T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
    "home": "Flemington",
    "away": "Home Court",
    "time": "2026-11-04T19:00:00",
@@ -50328,14 +50336,6 @@
    "week": 11,
    "home": "Pickle Juice Blackwood",
    "away": "Bounce Philly",
-   "time": "2026-11-04T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 11,
-   "home": "Delco Turf & Pickle",
-   "away": "Forward",
    "time": "2026-11-04T19:30:00",
    "complete": false
   },
@@ -50406,6 +50406,14 @@
   {
    "result": null,
    "week": 12,
+   "home": "Delco Turf & Pickle",
+   "away": "Bounce Malvern",
+   "time": "2026-11-11T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 12,
    "home": "Dill Dinkers Hatboro",
    "away": "ACE Downingtown",
    "time": "2026-11-11T19:30:00",
@@ -50456,14 +50464,6 @@
    "week": 12,
    "home": "Picklr Newark",
    "away": "Forward",
-   "time": "2026-11-11T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 12,
-   "home": "Delco Turf & Pickle",
-   "away": "Bounce Malvern",
    "time": "2026-11-11T19:30:00",
    "complete": false
   },
@@ -50587,7 +50587,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-21T21:29:06.918Z";
+  DATA.meta.asOf = "2026-09-21T22:31:24.689Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

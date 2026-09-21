@@ -721,6 +721,18 @@
       "awayName": "Dill Dinkers Hatboro"
     },
     {
+      "matchupId": "a230b5f6-ca0f-4361-a999-0d9e9f033887",
+      "weekNumber": 5,
+      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-23T19:00:00",
+      "homeName": "Delco Turf & Pickle",
+      "awayName": "ACE Downingtown"
+    },
+    {
       "matchupId": "0ae21296-4de5-42ce-a349-950f59a4051c",
       "weekNumber": 5,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
@@ -791,18 +803,6 @@
       "scheduledTime": "2026-09-23T19:30:00",
       "homeName": "Home Court",
       "awayName": "Pickleball Kingdom Lehigh Valley"
-    },
-    {
-      "matchupId": "a230b5f6-ca0f-4361-a999-0d9e9f033887",
-      "weekNumber": 5,
-      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "awayTeamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-23T19:30:00",
-      "homeName": "Delco Turf & Pickle",
-      "awayName": "ACE Downingtown"
     },
     {
       "matchupId": "a2b60bbd-9c81-4653-ab26-fc2ed55ada2e",
@@ -1369,6 +1369,18 @@
       "awayName": "Pickleball Kingdom Watchung"
     },
     {
+      "matchupId": "e8146dac-9944-46a5-80cb-60908357a66b",
+      "weekNumber": 8,
+      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "awayTeamId": "66b2868d-5c48-432a-8cc2-9a55e07be5b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-14T19:00:00",
+      "homeName": "Delco Turf & Pickle",
+      "awayName": "Picklr Exton"
+    },
+    {
       "matchupId": "fd3a5227-1ef7-4632-b7c7-23711e5858e0",
       "weekNumber": 8,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -1487,18 +1499,6 @@
       "scheduledTime": "2026-10-14T19:30:00",
       "homeName": "Home Court",
       "awayName": "Flemington"
-    },
-    {
-      "matchupId": "e8146dac-9944-46a5-80cb-60908357a66b",
-      "weekNumber": 8,
-      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "awayTeamId": "66b2868d-5c48-432a-8cc2-9a55e07be5b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-14T19:30:00",
-      "homeName": "Delco Turf & Pickle",
-      "awayName": "Picklr Exton"
     },
     {
       "matchupId": "eeb75165-46ba-4e37-9384-ffe635c97289",
@@ -1849,6 +1849,18 @@
       "awayName": "Dill Dinkers Freehold"
     },
     {
+      "matchupId": "5b1bff31-81b8-47a6-9adc-0a8ab00ff448",
+      "weekNumber": 10,
+      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-28T19:00:00",
+      "homeName": "Delco Turf & Pickle",
+      "awayName": "Dill Dinkers Hatboro"
+    },
+    {
       "matchupId": "8d0ce179-fdd4-4a8d-8f07-5895ef4aa9ff",
       "weekNumber": 10,
       "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
@@ -1919,18 +1931,6 @@
       "scheduledTime": "2026-10-28T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "5b1bff31-81b8-47a6-9adc-0a8ab00ff448",
-      "weekNumber": 10,
-      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-28T19:30:00",
-      "homeName": "Delco Turf & Pickle",
-      "awayName": "Dill Dinkers Hatboro"
     },
     {
       "matchupId": "761ff7e3-c243-4471-965f-7a33cf0fc1f1",
@@ -2041,6 +2041,18 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
+      "matchupId": "878b8dc2-5588-452a-9bb9-bbb2e3c78697",
+      "weekNumber": 11,
+      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-04T19:00:00",
+      "homeName": "Delco Turf & Pickle",
+      "awayName": "Forward"
+    },
+    {
       "matchupId": "8b8e0ff7-a0e0-4daa-b0d4-40860f09179e",
       "weekNumber": 11,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -2135,18 +2147,6 @@
       "scheduledTime": "2026-11-04T19:30:00",
       "homeName": "Pickle Juice Blackwood",
       "awayName": "Bounce Philly"
-    },
-    {
-      "matchupId": "878b8dc2-5588-452a-9bb9-bbb2e3c78697",
-      "weekNumber": 11,
-      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "awayTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-04T19:30:00",
-      "homeName": "Delco Turf & Pickle",
-      "awayName": "Forward"
     },
     {
       "matchupId": "913dcda5-58aa-46be-9fe4-eb7ecf5d83c3",
@@ -2245,6 +2245,18 @@
       "awayName": "LBF Pickleball"
     },
     {
+      "matchupId": "d6c500e5-dc6d-4642-81dd-556862da4099",
+      "weekNumber": 12,
+      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
+      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-11T19:00:00",
+      "homeName": "Delco Turf & Pickle",
+      "awayName": "Bounce Malvern"
+    },
+    {
       "matchupId": "13e31bfa-1d64-4dfc-b76b-676adfacdf3a",
       "weekNumber": 12,
       "homeTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
@@ -2327,18 +2339,6 @@
       "scheduledTime": "2026-11-11T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Forward"
-    },
-    {
-      "matchupId": "d6c500e5-dc6d-4642-81dd-556862da4099",
-      "weekNumber": 12,
-      "homeTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-11T19:30:00",
-      "homeName": "Delco Turf & Pickle",
-      "awayName": "Bounce Malvern"
     },
     {
       "matchupId": "ed6fdc63-85ec-4976-be92-b1b914153b38",
