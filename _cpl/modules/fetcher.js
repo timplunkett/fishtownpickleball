@@ -803,6 +803,41 @@ function selectSeasonsToFetch(league, resolvedSeasons, seasonSlugs) {
   return matched;
 }
 
+/**
+ * Combines each season's downloadSeason() result into one summary for the
+ * whole league. Exported (like mergeGlobalPlayers) so the reduction itself
+ * is under test: a per-season field that isn't explicitly summed here is
+ * silently dropped for any league with more than one season to fetch.
+ *
+ * That's exactly what happened to newPlayerCount from 2026-09-20 (ef332791)
+ * until this fix — downloadSeason() computed it correctly per season, but
+ * downloadLatestApiData()'s old inline loop only ever forwarded
+ * failedDivisions/matchedSlugs/matchedDivisions, so every caller up the
+ * chain (runPipeline(), then main()'s `NEW_PLAYER_COUNT=` line) always saw
+ * 0. update-data.yml's `steps.pipeline.outputs.new_player_count != '0'`
+ * therefore never triggered, so the "Fetch DUPR ratings for new players"
+ * step was skipped on every run — global_players.json kept gaining new,
+ * unrated players exactly as intended, but nothing ever re-fetched them
+ * until the next manual `npm run dupr:fetch` or the Monday
+ * update-dupr.yml cron. fetcher-guards.test.js only ever exercised
+ * mergeGlobalPlayers() directly, so nothing caught the drop one level up.
+ */
+function aggregateSeasonResults(results) {
+  const failedDivisions = [];
+  const matchedSlugs = [];
+  const matchedDivisions = [];
+  let newPlayerCount = 0;
+  for (const result of results || []) {
+    failedDivisions.push(...(result?.failedDivisions || []));
+    matchedSlugs.push(...(result?.matchedSlugs || []));
+    matchedDivisions.push(...(result?.matchedDivisions || []));
+    newPlayerCount += result?.newPlayerCount || 0;
+  }
+  return {
+    failedDivisions, matchedSlugs, matchedDivisions, newPlayerCount,
+  };
+}
+
 async function downloadLatestApiData(league = 'local', { divisionSlugs = null, seasonSlugs = null } = {}) {
   console.log(`--- Phase 1: Fetching Remote API Data (${league}) ---`);
 
@@ -819,28 +854,29 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
   console.log(`✓ ${seasonsFile}: ${resolved.map((s) => `${s.slug} (${s.status})`).join(', ')}`);
 
   const seasonsToFetch = selectSeasonsToFetch(league, resolved, seasonSlugs);
-  const failedDivisions = [];
-  const matchedSlugs = [];
-  const matchedDivisions = [];
   const matchedSeasonSlugs = [];
+  const seasonResults = [];
 
   for (const season of seasonsToFetch) {
     matchedSeasonSlugs.push(season.slug);
     try {
-      const result = await downloadSeason(league, season, { divisionSlugs });
-      failedDivisions.push(...result.failedDivisions);
-      matchedSlugs.push(...result.matchedSlugs);
-      matchedDivisions.push(...result.matchedDivisions);
+      seasonResults.push(await downloadSeason(league, season, { divisionSlugs }));
     } catch (err) {
       console.error(`  ⚠️ Failed for season ${season.slug}:`, err.message);
-      failedDivisions.push({
-        league,
-        slug: `(${season.slug})`,
-        name: `${league} ${season.slug}`,
-        error: err.message,
+      seasonResults.push({
+        failedDivisions: [{
+          league,
+          slug: `(${season.slug})`,
+          name: `${league} ${season.slug}`,
+          error: err.message,
+        }],
       });
     }
   }
+
+  const {
+    failedDivisions, matchedSlugs, matchedDivisions, newPlayerCount,
+  } = aggregateSeasonResults(seasonResults);
 
   if (failedDivisions.length) {
     console.error(`\n⚠️ Phase 1 finished with ${failedDivisions.length} failed division(s).`);
@@ -848,7 +884,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
     console.log('\n✓ Phase 1 complete.');
   }
   return {
-    failedDivisions, matchedSlugs, matchedDivisions, matchedSeasonSlugs, seasons: resolved,
+    failedDivisions, matchedSlugs, matchedDivisions, matchedSeasonSlugs, seasons: resolved, newPlayerCount,
   };
 }
 
@@ -857,5 +893,5 @@ module.exports = {
   slimMatchups, slimPlayoffMatchups, compareMatchups, slimMatchupDetails,
   assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
-  mergeGlobalPlayers,
+  mergeGlobalPlayers, aggregateSeasonResults,
 };

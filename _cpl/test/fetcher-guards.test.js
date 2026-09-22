@@ -147,6 +147,7 @@ test('assertArrayShape rejects a renamed envelope instead of silently yielding [
 
 const {
   assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch, mergeGlobalPlayers,
+  aggregateSeasonResults,
 } = require('../modules/fetcher');
 
 const FALL_2026 = { seasonNumber: 3, seasonYear: 2026 };
@@ -303,4 +304,61 @@ test('mergeGlobalPlayers skips rows with no playerId on either side', () => {
   );
   assert.equal(newPlayerCount, 0);
   assert.deepEqual(merged, []);
+});
+
+// ---------------------------------------------------------------------------
+// Season result aggregation
+//
+// downloadLatestApiData() fetches one season at a time and combines their
+// downloadSeason() results into what run-pipeline.js reports. A field that
+// isn't explicitly summed here is silently dropped for any league with more
+// than one season to fetch — exactly what happened to newPlayerCount from
+// 2026-09-20 (ef332791) until this fix: it was computed correctly per
+// season but never carried past this reduction, so NEW_PLAYER_COUNT was
+// always 0 and "Fetch DUPR ratings for new players" never ran.
+// ---------------------------------------------------------------------------
+
+test('aggregateSeasonResults sums newPlayerCount across seasons instead of dropping it', () => {
+  const result = aggregateSeasonResults([
+    { failedDivisions: [], matchedSlugs: ['a'], matchedDivisions: [{ slug: 'a', name: 'A' }], newPlayerCount: 3 },
+    { failedDivisions: [], matchedSlugs: ['b'], matchedDivisions: [{ slug: 'b', name: 'B' }], newPlayerCount: 4 },
+  ]);
+  assert.equal(result.newPlayerCount, 7, 'each season\'s new players must add up, not disappear');
+});
+
+test('aggregateSeasonResults concatenates failedDivisions and matched lists across seasons', () => {
+  const result = aggregateSeasonResults([
+    {
+      failedDivisions: [{ league: 'travel', slug: 'x', name: 'X', error: 'boom' }],
+      matchedSlugs: ['x'],
+      matchedDivisions: [{ slug: 'x', name: 'X' }],
+      newPlayerCount: 0,
+    },
+    {
+      failedDivisions: [],
+      matchedSlugs: ['y'],
+      matchedDivisions: [{ slug: 'y', name: 'Y' }],
+      newPlayerCount: 1,
+    },
+  ]);
+  assert.deepEqual(result.failedDivisions, [{ league: 'travel', slug: 'x', name: 'X', error: 'boom' }]);
+  assert.deepEqual(result.matchedSlugs, ['x', 'y']);
+  assert.equal(result.newPlayerCount, 1);
+});
+
+test('aggregateSeasonResults treats a season with no result fields as contributing nothing', () => {
+  // What a caught downloadSeason() failure pushes: just a failedDivisions
+  // entry, with no matchedSlugs/matchedDivisions/newPlayerCount at all.
+  const result = aggregateSeasonResults([
+    { failedDivisions: [{ league: 'local', slug: '(2026-fall)', name: 'local 2026-fall', error: 'network down' }] },
+  ]);
+  assert.equal(result.newPlayerCount, 0);
+  assert.deepEqual(result.matchedSlugs, []);
+  assert.deepEqual(result.matchedDivisions, []);
+});
+
+test('aggregateSeasonResults returns zero/empty for no seasons fetched', () => {
+  assert.deepEqual(aggregateSeasonResults([]), {
+    failedDivisions: [], matchedSlugs: [], matchedDivisions: [], newPlayerCount: 0,
+  });
 });
