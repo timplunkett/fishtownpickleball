@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -19250,7 +19250,7 @@
       ""
      ],
      "a": [
-      "Sophia Kaufmann",
+      "Ruhi Shah",
       "Anthony Ursino"
      ]
     },
@@ -19261,7 +19261,7 @@
       ""
      ],
      "a": [
-      "Richa Shah",
+      "Sophia Kaufmann",
       "Maanav Shah"
      ]
     },
@@ -19272,7 +19272,7 @@
       ""
      ],
      "a": [
-      "Ruhi Shah",
+      "Richa Shah",
       "Dilan Shah"
      ]
     },
@@ -19426,18 +19426,7 @@
       ""
      ],
      "a": [
-      "Ruhi Shah",
-      "Maanav Shah"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Richa Shah",
+      "Sophia Kaufmann",
       "Anthony Ursino"
      ]
     },
@@ -19448,7 +19437,7 @@
       ""
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Richa Shah",
       "Shreyas Pani"
      ]
     },
@@ -19459,7 +19448,18 @@
       ""
      ],
      "a": [
-      "Sophia Kaufmann",
+      "Amanda Ksiezopolski",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
       "Dilan Shah"
      ]
     },
@@ -19603,7 +19603,361 @@
    "home": "ACE Moorestown",
    "away": "Jersey Devil",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Matthew Matro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Arianna Haresign"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Danielle Bernero"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caleb Perry-Abner",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Matthew Matro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Arianna Haresign"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Maeve Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Matro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Matthew Matro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Quach",
+      "Maeve Mcgowan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Danielle Bernero"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Matro",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Matthew Matro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maeve Mcgowan",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Arianna Haresign"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Bernero",
+      "Michelle Quach"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caleb Perry-Abner",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -20360,6 +20714,7 @@
   "Stephanie Moniz": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+  "Lauren Mammano": "8d896637-2c2a-4541-9155-257bf5a37055",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705"
  },
@@ -20449,7 +20804,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T22:31:43.194Z";
+  DATA.meta.asOf = "2026-09-22T02:33:26.023Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

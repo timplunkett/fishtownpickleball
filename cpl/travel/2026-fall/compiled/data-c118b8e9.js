@@ -28786,8 +28786,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Siva Indupuru",
+      "Big G"
      ],
      "a": [
       "Matthew Schwartz",
@@ -28797,19 +28797,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Sujoy Gayen"
      ],
      "a": [
       "Eden Ksendzovsky",
       "Jason Feldman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Ian Kohn"
      ],
      "a": [
       "Christopher Giasi",
@@ -28819,8 +28823,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Ben Cortes"
      ],
      "a": [
       "Daniel Antonelli",
@@ -28830,19 +28834,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Sujoy Gayen"
      ],
      "a": [
       "Jason Feldman",
       "Eden Ksendzovsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Ian Kohn"
      ],
      "a": [
       "Christopher Giasi",
@@ -28852,8 +28860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Ben Cortes"
      ],
      "a": [
       "Daniel Antonelli",
@@ -28863,8 +28871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Siva Indupuru",
+      "Big G"
      ],
      "a": [
       "Matthew Schwartz",
@@ -28874,8 +28882,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Kohn",
+      "Big G"
      ],
      "a": [
       "Matthew Schwartz",
@@ -28885,19 +28893,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Sujoy Gayen"
      ],
      "a": [
       "Daniel Antonelli",
       "Eden Ksendzovsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Ben Cortes"
      ],
      "a": [
       "Gary White",
@@ -28907,8 +28919,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Siva Indupuru"
      ],
      "a": [
       "Joseph Lynskey",
@@ -28918,8 +28930,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Kohn",
+      "Big G"
      ],
      "a": [
       "Matthew Schwartz",
@@ -28929,8 +28941,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Siva Indupuru"
      ],
      "a": [
       "Joseph Lynskey",
@@ -28940,19 +28952,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Sujoy Gayen"
      ],
      "a": [
       "Eden Ksendzovsky",
       "Daniel Antonelli"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Ben Cortes"
      ],
      "a": [
       "Gary White",
@@ -28962,19 +28978,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Big G"
      ],
      "a": [
       "Christopher Giasi",
       "Eden Ksendzovsky"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Kevin Lew"
      ],
      "a": [
       "Gary White",
@@ -28984,8 +29004,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Siva Indupuru"
      ],
      "a": [
       "Matthew Schwartz",
@@ -28995,8 +29015,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Ian Kohn"
      ],
      "a": [
       "Joseph Lynskey",
@@ -29006,8 +29026,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hua Lin",
+      "Siva Indupuru"
      ],
      "a": [
       "Matthew Schwartz",
@@ -29017,19 +29037,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sujoy Gayen",
+      "Big G"
      ],
      "a": [
       "Christopher Giasi",
       "Eden Ksendzovsky"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Kevin Lew"
      ],
      "a": [
       "Gary White",
@@ -29039,8 +29063,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Ian Kohn"
      ],
      "a": [
       "Jason Feldman",
@@ -29050,8 +29074,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Hua Lin"
      ],
      "a": [
       "Gary White",
@@ -29061,8 +29085,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Big G"
      ],
      "a": [
       "Jason Feldman",
@@ -29072,8 +29096,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Kohn",
+      "Siva Indupuru"
      ],
      "a": [
       "Joseph Lynskey",
@@ -29083,19 +29107,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Sujoy Gayen"
      ],
      "a": [
       "Daniel Antonelli",
       "Christopher Giasi"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Siva Indupuru",
+      "Ian Kohn"
      ],
      "a": [
       "Joseph Lynskey",
@@ -29105,8 +29133,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Big G"
      ],
      "a": [
       "Jason Feldman",
@@ -29116,19 +29144,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Reilly",
+      "Sujoy Gayen"
      ],
      "a": [
       "Daniel Antonelli",
       "Christopher Giasi"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Lew",
+      "Hua Lin"
      ],
      "a": [
       "Gary White",
@@ -30254,8 +30286,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Fredericks",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30265,8 +30297,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Varun Gurram"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30276,8 +30308,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Neil Dedhia"
      ],
      "a": [
       "Jimmy Ramja",
@@ -30287,8 +30319,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Jose Campos",
@@ -30298,8 +30330,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30309,8 +30341,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30320,8 +30352,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Jimmy Ramja",
@@ -30331,8 +30363,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Ping Peng"
      ],
      "a": [
       "Nesip Cengiz",
@@ -30342,8 +30374,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Fredericks",
+      "Ping Peng"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30353,8 +30385,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Varun Gurram"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -30364,8 +30396,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Jimmy Ramja",
@@ -30375,8 +30407,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anil Kumar Jakkaladki",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Thomas Moran",
@@ -30386,8 +30418,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30397,8 +30429,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -30408,8 +30440,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Neil Dedhia"
      ],
      "a": [
       "Jimmy Ramja",
@@ -30419,8 +30451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Nesip Cengiz",
@@ -30430,8 +30462,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Sushil Rijhwani"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30441,8 +30473,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Fredericks",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30452,8 +30484,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rajeeth Nadig",
+      "Jitendra Arora"
      ],
      "a": [
       "Thomas Moran",
@@ -30463,8 +30495,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Neil Dedhia"
      ],
      "a": [
       "Kyle Korman",
@@ -30474,8 +30506,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30485,8 +30517,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Aidan Fredericks"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30496,8 +30528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Kyle Korman",
@@ -30507,8 +30539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Neil Dedhia"
      ],
      "a": [
       "Jose Campos",
@@ -30518,8 +30550,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30529,8 +30561,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jitendra Arora",
+      "Neil Dedhia"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30540,8 +30572,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakshit Maddur Gopinath",
+      "Anil Kumar Jakkaladki"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -30551,8 +30583,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Ping Peng"
      ],
      "a": [
       "Niman Ahmeti",
@@ -30562,8 +30594,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Gurram",
+      "Jitendra Arora"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -30573,8 +30605,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ping Peng",
+      "Rajeeth Nadig"
      ],
      "a": [
       "Luca Hendrickson",
@@ -30584,8 +30616,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Rakshit Maddur Gopinath"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -30595,8 +30627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sushil Rijhwani",
+      "Aidan Fredericks"
      ],
      "a": [
       "Nesip Cengiz",
@@ -30616,8 +30648,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harsh Upadhyaya",
+      "Jaiveer Narwal"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30627,8 +30659,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Ziyu Huang"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30638,8 +30670,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Chan",
+      "Pritpal Singh"
      ],
      "a": [
       "Stephen Fredericksen",
@@ -30649,8 +30681,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dhruv Dobariya",
+      "Dilip Patel"
      ],
      "a": [
       "Nicholas Lugo",
@@ -30660,8 +30692,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30671,8 +30703,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harsh Upadhyaya",
+      "Jaiveer Narwal"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30682,8 +30714,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashish Kumar",
+      "Samrat Sood"
      ],
      "a": [
       "Nicholas Lugo",
@@ -30693,8 +30725,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Dilip Patel"
      ],
      "a": [
       "Stephen Fredericksen",
@@ -30704,8 +30736,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Ashish Kumar"
      ],
      "a": [
       "Uttam Purohit",
@@ -30715,8 +30747,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Chan",
+      "Harsh Upadhyaya"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30726,8 +30758,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Jaiveer Narwal"
      ],
      "a": [
       "Shawn Gold",
@@ -30737,8 +30769,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30748,8 +30780,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Jaiveer Narwal"
      ],
      "a": [
       "John Coyle",
@@ -30759,8 +30791,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Dilip Patel"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30770,8 +30802,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samrat Sood",
+      "Ziyu Huang"
      ],
      "a": [
       "Shawn Gold",
@@ -30781,8 +30813,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashish Kumar",
+      "Harsh Upadhyaya"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30792,8 +30824,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harsh Upadhyaya",
+      "Dilip Patel"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30803,8 +30835,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Venu Yengala",
+      "Aaron Chan"
      ],
      "a": [
       "Stephen Fredericksen",
@@ -30814,8 +30846,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dhruv Dobariya",
+      "Jaiveer Narwal"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30825,8 +30857,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Samrat Sood"
      ],
      "a": [
       "Uttam Purohit",
@@ -30836,8 +30868,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harsh Upadhyaya",
+      "Venu Yengala"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -30847,8 +30879,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Jaiveer Narwal"
      ],
      "a": [
       "Stephen Fredericksen",
@@ -30858,8 +30890,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30869,8 +30901,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashish Kumar",
+      "Ziyu Huang"
      ],
      "a": [
       "Shawn Gold",
@@ -30880,8 +30912,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Dhruv Dobariya"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30891,8 +30923,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilip Patel",
+      "Samrat Sood"
      ],
      "a": [
       "John Coyle",
@@ -30902,8 +30934,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pritpal Singh",
+      "Harsh Upadhyaya"
      ],
      "a": [
       "Nicholas Lugo",
@@ -30913,8 +30945,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashish Kumar",
+      "Aaron Chan"
      ],
      "a": [
       "Shawn Gold",
@@ -30924,8 +30956,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ziyu Huang",
+      "Venu Yengala"
      ],
      "a": [
       "Jason Mcmanmon",
@@ -30935,8 +30967,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dhruv Dobariya",
+      "Samrat Sood"
      ],
      "a": [
       "John Coyle",
@@ -30946,8 +30978,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jaiveer Narwal",
+      "Aaron Chan"
      ],
      "a": [
       "Nicholas Lugo",
@@ -30957,8 +30989,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashish Kumar",
+      "Pritpal Singh"
      ],
      "a": [
       "Shawn Gold",
@@ -32679,7 +32711,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T21:31:26.358Z";
+  DATA.meta.asOf = "2026-09-22T02:34:42.973Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
