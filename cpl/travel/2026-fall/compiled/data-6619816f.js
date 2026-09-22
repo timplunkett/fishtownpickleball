@@ -3456,8 +3456,8 @@
    "name": "Sheila Siu",
    "gender": "Female",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 3,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,13 +5213,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a667ec5e-c910-4115-b4d2-93d2dcfacbe8"
+  },
+  {
+   "name": "Tim Dowd",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 190,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28"
   },
   {
    "name": "Jacob Yandoli",
@@ -5242,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5358,7 +5387,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10095,7 +10124,6 @@
    ],
    "subs": [
     "Tin Wai Kwan",
-    "Sheila Siu",
     "Noelle Ramirez"
    ]
   },
@@ -12423,7 +12451,6 @@
     }
    ],
    "subs": [
-    "Sheila Siu",
     "Christine Sandella"
    ]
   },
@@ -18897,8 +18924,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Lou Frignito"
      ],
      "a": [
       "Rachel Alfano",
@@ -18912,8 +18939,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Elysia Price",
@@ -18923,8 +18950,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Shashank Kamdar"
      ],
      "a": [
       "Alyssa Boyle",
@@ -18938,8 +18965,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Chris Tabeling"
      ],
      "a": [
       "Julia Sternberg",
@@ -18949,8 +18976,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Yuki Kim"
      ],
      "a": [
       "Rachel Alfano",
@@ -18960,8 +18987,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Harriet Levin"
      ],
      "a": [
       "Alyssa Boyle",
@@ -18971,8 +18998,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Mark Kilimnik",
@@ -18982,8 +19009,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Ashwin Korde",
@@ -18997,8 +19024,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Shashank Kamdar"
      ],
      "a": [
       "Alex Abad",
@@ -19012,8 +19039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Nick Meale"
      ],
      "a": [
       "Alyssa Boyle",
@@ -19027,8 +19054,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Julia Sternberg",
@@ -19038,8 +19065,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Chris Tabeling"
      ],
      "a": [
       "Elysia Price",
@@ -19049,8 +19076,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Teresa Wang"
      ],
      "a": [
       "Rachel Alfano",
@@ -19060,8 +19087,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Sarah Kline"
      ],
      "a": [
       "Alyssa Boyle",
@@ -19071,8 +19098,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Zachary Lessner",
@@ -19082,8 +19109,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Darren Johnson",
@@ -19097,8 +19124,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Alex Abad",
@@ -19108,8 +19135,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Shashank Kamdar"
      ],
      "a": [
       "Julia Sternberg",
@@ -19123,8 +19150,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Chris Tabeling"
      ],
      "a": [
       "Elysia Price",
@@ -19134,8 +19161,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Lou Frignito"
      ],
      "a": [
       "Rachel Alfano",
@@ -19145,8 +19172,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Megan Harvey"
      ],
      "a": [
       "Alyssa Boyle",
@@ -19156,8 +19183,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Sarah Kline"
      ],
      "a": [
       "Rachel Alfano",
@@ -19167,8 +19194,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Chris Tabeling"
      ],
      "a": [
       "Mark Kilimnik",
@@ -19182,8 +19209,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Nick Meale"
      ],
      "a": [
       "Ashwin Korde",
@@ -19197,8 +19224,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Alyssa Boyle",
@@ -19208,8 +19235,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Shashank Kamdar"
      ],
      "a": [
       "Rachel Alfano",
@@ -19219,8 +19246,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Nick Meale"
      ],
      "a": [
       "Elysia Price",
@@ -19230,8 +19257,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Chris Tabeling"
      ],
      "a": [
       "Julia Sternberg",
@@ -19245,8 +19272,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Sarah Kline"
      ],
      "a": [
       "Alyssa Boyle",
@@ -19256,8 +19283,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Harriet Levin"
      ],
      "a": [
       "Rachel Alfano",
@@ -19267,8 +19294,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Shashank Kamdar"
      ],
      "a": [
       "Ashwin Korde",
@@ -19282,8 +19309,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Nick Meale"
      ],
      "a": [
       "Darren Johnson",
@@ -20775,6 +20802,7 @@
   "Stephanie Moniz": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+  "Michael Velez": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
   "Lauren Mammano": "8d896637-2c2a-4541-9155-257bf5a37055",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705"
@@ -20783,7 +20811,7 @@
   "matchesPlayed": 22,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 194,
+  "totalPlayers": 195,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -20865,7 +20893,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T10:39:22.758Z";
+  DATA.meta.asOf = "2026-09-22T16:00:52.902Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

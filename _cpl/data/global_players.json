@@ -7352,12 +7352,12 @@
   {
     "playerId": "e2b97306-b8dc-4eb0-b89d-ae227d1e86e4",
     "firstName": "Nicole",
-    "lastName": "DeMaise ",
+    "lastName": "DeMaise",
     "dupr": "8DEW6Y",
     "duprRating": "3.164",
     "duprNumericId": 4523516736,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "42d01dab-4aca-4c74-aa73-47be4fbff788",
@@ -33038,7 +33038,7 @@
     "lastName": "Nguyen",
     "dupr": "2QJY29",
     "duprRating": "4.250",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 6200257466,
     "duprProvisional": false
   },
@@ -39906,7 +39906,7 @@
     "lastName": "Perkins",
     "dupr": "1NQ6OZ",
     "duprRating": "3.247",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 8233341931,
     "duprProvisional": false
   },
@@ -44584,7 +44584,7 @@
     "lastName": "Sears",
     "dupr": "35X4OV",
     "duprRating": "3.791",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5798121686,
     "duprProvisional": false
   },
@@ -46669,6 +46669,38 @@
     "firstName": "Emily",
     "lastName": "Huang",
     "dupr": "Y5VZ6K",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "188607ba-a609-4881-87bb-7c997a032cc2",
+    "firstName": "Stephen",
+    "lastName": "Locker",
+    "dupr": "EGXYQV",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "13ce16ae-3d1b-411e-90a1-ecf3aef79805",
+    "firstName": "Dana",
+    "lastName": "Carpenter",
+    "dupr": "RWMXPZ",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
+    "firstName": "Turney",
+    "lastName": "Hall",
+    "dupr": "30Z7EQ",
+    "duprRating": null,
+    "lastSeen": "2026-09"
+  },
+  {
+    "playerId": "5a604f85-b8f8-4084-8636-d403530fd480",
+    "firstName": "Eric",
+    "lastName": "Jiang",
+    "dupr": "KOP06Q",
     "duprRating": null,
     "lastSeen": "2026-09"
   }

@@ -9082,8 +9082,8 @@
    "name": "Pamela Toy",
    "gender": "Female",
    "team": "Ballers Philly",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 3,
@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 533,
+   "leagueRank": 536,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13072,7 +13072,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 548,
+   "leagueRank": 551,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 523,
+   "leagueRank": 525,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13130,7 +13130,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 521,
+   "leagueRank": 523,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 532,
+   "leagueRank": 535,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13188,7 +13188,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 544,
+   "leagueRank": 547,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13217,7 +13217,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13246,7 +13246,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 527,
+   "leagueRank": 529,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13304,7 +13304,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 511,
+   "leagueRank": 513,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 501,
+   "leagueRank": 503,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13362,7 +13362,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 536,
+   "leagueRank": 539,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13391,7 +13391,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13420,7 +13420,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 529,
+   "leagueRank": 531,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13449,7 +13449,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 505,
+   "leagueRank": 507,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13478,13 +13478,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 488,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "e105f8f9-ac3d-4720-862b-477048d740cd"
+  },
+  {
+   "name": "Nicole Demaise",
+   "gender": "Female",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 489,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "e2b97306-b8dc-4eb0-b89d-ae227d1e86e4"
   },
   {
    "name": "Yuyi Lin",
@@ -13507,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 508,
+   "leagueRank": 510,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 547,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13565,13 +13594,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 546,
+   "leagueRank": 549,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "f64588f1-c347-41c7-b229-5c718f73574d"
+  },
+  {
+   "name": "Dana Carpenter",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 483,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "13ce16ae-3d1b-411e-90a1-ecf3aef79805"
+  },
+  {
+   "name": "Joey Remshard",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 541,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "3d8b9697-0eea-46fa-8ddf-cd9bb6e87190"
   },
   {
    "name": "Marcus Burritt",
@@ -13652,7 +13739,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 542,
+   "leagueRank": 545,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13681,13 +13768,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 550,
+   "leagueRank": 553,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b9cd3f6d-4513-4966-881c-72f6cf5b7746"
+  },
+  {
+   "name": "Thanh Dang",
+   "gender": "Female",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 488,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "cc4dfaac-afe0-4769-874a-e5209bad2e8a"
   },
   {
    "name": "Quaiser Imam",
@@ -24160,9 +24276,7 @@
      ]
     }
    ],
-   "subs": [
-    "Pamela Toy"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -37172,9 +37286,7 @@
      ]
     }
    ],
-   "subs": [
-    "Pamela Toy"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -50244,8 +50356,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Kong Vu"
      ],
      "a": [
       "Victoria Young",
@@ -50259,19 +50371,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thanh Dang",
+      "Dylan Mich"
      ],
      "a": [
       "Tiffany Weis",
       "Skylar Bobadilla"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kierstin Gant",
+      "Khanh Vu"
      ],
      "a": [
       "Christina Juliano",
@@ -50281,8 +50397,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "John Tano"
      ],
      "a": [
       "Magnolia Lau",
@@ -50292,8 +50408,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vy Conghuyen",
+      "Christina Vuong"
      ],
      "a": [
       "Eileen Potter",
@@ -50307,8 +50423,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Kierstin Gant"
      ],
      "a": [
       "Victoria Young",
@@ -50318,8 +50434,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kong Vu",
+      "John Tano"
      ],
      "a": [
       "Skylar Bobadilla",
@@ -50329,12 +50445,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tran",
+      "Joey Remshard"
      ],
      "a": [
       "Jon Palabay",
       "Tang Vu"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -50344,8 +50464,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Vuong",
+      "Dylan Mich"
      ],
      "a": [
       "Tiffany Weis",
@@ -50359,19 +50479,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "Joey Remshard"
      ],
      "a": [
       "Victoria Young",
       "Skylar Bobadilla"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vy Conghuyen",
+      "David Tran"
      ],
      "a": [
       "Christina Juliano",
@@ -50381,23 +50505,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thanh Dang",
+      "Khanh Vu"
      ],
      "a": [
       "Eileen Potter",
       "Jon Palabay"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Thanh Dang"
      ],
      "a": [
       "Magnolia Lau",
       "Andrea Bramante"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -50407,8 +50539,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "Kierstin Gant"
      ],
      "a": [
       "Tiffany Weis",
@@ -50418,12 +50550,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joey Remshard",
+      "David Tran"
      ],
      "a": [
       "Nikhil Sachdeva",
       "Jon Palabay"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -50433,8 +50569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kong Vu",
+      "Khanh Vu"
      ],
      "a": [
       "Simon Darlington",
@@ -50448,8 +50584,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kierstin Gant",
+      "Kong Vu"
      ],
      "a": [
       "Christina Juliano",
@@ -50459,8 +50595,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "John Tano"
      ],
      "a": [
       "Victoria Young",
@@ -50470,12 +50606,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thanh Dang",
+      "Khanh Vu"
      ],
      "a": [
       "Tiffany Weis",
       "Tang Vu"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -50485,8 +50625,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "Dylan Mich"
      ],
      "a": [
       "Magnolia Lau",
@@ -50496,8 +50636,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "Vy Conghuyen"
      ],
      "a": [
       "Eileen Potter",
@@ -50511,8 +50651,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kierstin Gant",
+      "Christina Vuong"
      ],
      "a": [
       "Christina Juliano",
@@ -50522,8 +50662,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tran",
+      "John Tano"
      ],
      "a": [
       "Jon Palabay",
@@ -50537,12 +50677,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joey Remshard",
+      "Kong Vu"
      ],
      "a": [
       "Simon Darlington",
       "Tang Vu"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -50552,8 +50696,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Vuong",
+      "Dylan Mich"
      ],
      "a": [
       "Victoria Young",
@@ -50567,19 +50711,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vy Conghuyen",
+      "Joey Remshard"
      ],
      "a": [
       "Magnolia Lau",
       "Skylar Bobadilla"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "David Tran"
      ],
      "a": [
       "Christina Juliano",
@@ -50589,12 +50737,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thanh Dang",
+      "John Tano"
      ],
      "a": [
       "Andrea Bramante",
       "Brian Cook"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -50604,19 +50756,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shania Bui",
+      "Thanh Dang"
      ],
      "a": [
       "Eileen Potter",
       "Magnolia Lau"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Li",
+      "Kierstin Gant"
      ],
      "a": [
       "Victoria Young",
@@ -50626,8 +50782,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Mich",
+      "Khanh Vu"
      ],
      "a": [
       "Skylar Bobadilla",
@@ -50641,8 +50797,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Tano",
+      "Kong Vu"
      ],
      "a": [
       "Simon Darlington",
@@ -50662,8 +50818,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emiliya Mizrahi",
+      "Arvie Flores"
      ],
      "a": [
       "Virginia Alves",
@@ -50673,8 +50829,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Richie Mizrahi"
      ],
      "a": [
       "Lana Engler Carss",
@@ -50684,8 +50840,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Michael Jones"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50695,8 +50851,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Edson",
+      "Chris Fantin"
      ],
      "a": [
       "Deb Morisie",
@@ -50710,8 +50866,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Emiliya Mizrahi"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50721,8 +50877,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Laura Fantin"
      ],
      "a": [
       "Lana Engler Carss",
@@ -50732,8 +50888,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arvie Flores",
+      "Robert Huntley"
      ],
      "a": [
       "Donavin Van Ee",
@@ -50747,8 +50903,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Jones",
+      "Chris Fantin"
      ],
      "a": [
       "Dion Brown",
@@ -50758,8 +50914,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Michael Jones"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50769,19 +50925,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Richie Mizrahi"
      ],
      "a": [
-      "",
+      "Dana Carpenter",
       "Dion Brown"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Edson",
+      "Chris Fantin"
      ],
      "a": [
       "Lana Engler Carss",
@@ -50795,8 +50955,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Fantin",
+      "Robert Huntley"
      ],
      "a": [
       "Deb Morisie",
@@ -50806,8 +50966,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Ellen Edson"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50817,23 +50977,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Laura Fantin"
      ],
      "a": [
       "Dawn Moore",
-      ""
+      "Dana Carpenter"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Jones",
+      "Chris Fantin"
      ],
      "a": [
       "Dion Brown",
@@ -50843,8 +51003,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arvie Flores",
+      "Robert Huntley"
      ],
      "a": [
       "Marcus Burritt",
@@ -50858,8 +51018,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Fantin",
+      "Robert Huntley"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50869,8 +51029,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emiliya Mizrahi",
+      "Richie Mizrahi"
      ],
      "a": [
       "Virginia Alves",
@@ -50880,8 +51040,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Arvie Flores"
      ],
      "a": [
       "Lana Engler Carss",
@@ -50891,12 +51051,27 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Edson",
+      "Michael Jones"
      ],
      "a": [
-      "",
+      "Dana Carpenter",
       "Steven Doerner"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Susan M Fett",
+      "Emiliya Mizrahi"
+     ],
+     "a": [
+      "Deb Morisie",
+      "Dana Carpenter"
      ],
      "aSub": [
       0,
@@ -50906,19 +51081,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Deb Morisie",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
+      "Laura Fantin",
+      "Ellen Edson"
      ],
      "a": [
       "Lana Engler Carss",
@@ -50932,8 +51096,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Richie Mizrahi",
+      "Arvie Flores"
      ],
      "a": [
       "Dion Brown",
@@ -50947,8 +51111,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Chris Fantin"
      ],
      "a": [
       "Cullen Curley",
@@ -50962,8 +51126,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Edson",
+      "Michael Jones"
      ],
      "a": [
       "Deb Morisie",
@@ -50977,8 +51141,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emiliya Mizrahi",
+      "Richie Mizrahi"
      ],
      "a": [
       "Virginia Alves",
@@ -50988,8 +51152,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Robert Huntley"
      ],
      "a": [
       "Colleen Van Ee",
@@ -50999,8 +51163,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dina Perrella",
+      "Arvie Flores"
      ],
      "a": [
       "Lana Engler Carss",
@@ -51010,8 +51174,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan M Fett",
+      "Emiliya Mizrahi"
      ],
      "a": [
       "Colleen Van Ee",
@@ -51021,8 +51185,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Fantin",
+      "Ellen Edson"
      ],
      "a": [
       "Deb Morisie",
@@ -51036,8 +51200,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Richie Mizrahi",
+      "Arvie Flores"
      ],
      "a": [
       "Dion Brown",
@@ -51047,8 +51211,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Chris Fantin"
      ],
      "a": [
       "Cullen Curley",
@@ -53542,12 +53706,12 @@
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Brittany Jacobs": "15dcc305-70cf-4eb1-bde4-a50a30130f3a",
+  "Dan Perkins": "1684c22c-38ed-4f23-83bf-7dbd39607280",
   "Michael Mazzola": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
   "Patrick Reece": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Frank Kong": "33baac8e-fe7f-4c97-8443-0687777b2ed2",
-  "Joey Remshard": "3d8b9697-0eea-46fa-8ddf-cd9bb6e87190",
   "Matt Inzerillo": "51ceabf9-8258-4835-9835-c7d915220185",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -53580,7 +53744,6 @@
   "Jim Fett": "c14e8948-35aa-4a6f-b8ac-a5c41c75063f",
   "Carla Owens": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
   "Emily Huang": "ca2ae87d-db28-4c6b-883d-33afa07a2dd0",
-  "Thanh Dang": "cc4dfaac-afe0-4769-874a-e5209bad2e8a",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
   "Cherine Mikhail": "d5e7f8d4-68c6-42e7-bb88-e7b43740ecbe",
@@ -53599,7 +53762,7 @@
   "matchesPlayed": 56,
   "provisionalMatches": 1,
   "weeks": "1-4",
-  "totalPlayers": 497,
+  "totalPlayers": 501,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -53648,7 +53811,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-22T10:39:08.417Z";
+  DATA.meta.asOf = "2026-09-22T16:00:37.750Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

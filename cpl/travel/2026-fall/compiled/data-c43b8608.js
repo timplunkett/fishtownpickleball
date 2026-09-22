@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9969,7 +9969,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10143,7 +10143,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 411,
+   "leagueRank": 412,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -31464,6 +31464,7 @@
   "Andrea Smith": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
   "Marcos Medroso": "152f95d8-c8ac-457d-a469-d5270c47cc47",
   "Mutya Medroso": "164f58e8-9cc1-4246-97c1-dacef41e07ab",
+  "Lance Sears": "274d4694-2177-4143-9fb3-86f2253ed29c",
   "James Lo": "41ea6231-c154-403e-a0e5-7e6b6d4cbbd2",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
@@ -31597,7 +31598,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T21:30:31.867Z";
+  DATA.meta.asOf = "2026-09-22T16:01:22.224Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

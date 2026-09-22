@@ -1122,6 +1122,13 @@ window.DUPR_AUDIT = {
    "name": "Andrew Frey",
    "playerId": "beb70730-42da-4979-93b9-bd5c88a52d75",
    "team": "Dill Dinkers Hatboro",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Andrew Frey",
+   "playerId": "beb70730-42da-4979-93b9-bd5c88a52d75",
+   "team": "Dill Dinkers Hatboro",
    "slug": "1e12eb3f",
    "gender": "Male"
   },
@@ -9092,6 +9099,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Joseph Korom",
+   "playerId": "f014daaa-0b2e-4e20-b820-79741affdbcd",
+   "team": "Open Play",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Joseph Luka",
    "playerId": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
    "team": "Bounce Tempest",
@@ -13565,6 +13579,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Nicole Demaise",
+   "playerId": "e2b97306-b8dc-4eb0-b89d-ae227d1e86e4",
+   "team": "Pickle House",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Nicole Mandry",
    "playerId": "11112eb4-26f3-458d-954e-5718dd3b9332",
    "team": "Players Courtyard",
@@ -13834,6 +13855,13 @@ window.DUPR_AUDIT = {
    "name": "Pam Politis",
    "playerId": "6b6274a7-77d0-420a-8883-5cac081fdf4d",
    "team": "Picklr Newark",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Pamela Toy",
+   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
+   "team": "Ballers Philly",
    "slug": "b7ca04e4",
    "gender": "Female"
   },
@@ -16120,6 +16148,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Sheila Siu",
+   "playerId": "25879a0b-5df5-4c12-9066-4aaaf4e6cbc0",
+   "team": "Home Court",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Shelah Wallace",
    "playerId": "fa519fb1-87ca-4a7b-9265-4aba9807929f",
    "team": "ACE Moorestown",
@@ -17349,6 +17384,13 @@ window.DUPR_AUDIT = {
    "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
    "team": "Flemington Green",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Tim Dowd",
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
+   "team": "Flemington",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
