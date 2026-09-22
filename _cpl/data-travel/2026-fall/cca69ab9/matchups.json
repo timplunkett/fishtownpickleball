@@ -257,9 +257,9 @@
       "weekNumber": 5,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 643,
+      "awayPoints": 573,
+      "endResult": "home",
       "scheduledTime": "2026-09-21T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "ACE Moorestown"

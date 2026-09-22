@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5336,6 +5336,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "27660961-6245-4b09-aafe-359ca3205797"
+  },
+  {
+   "name": "Vivek Kumar",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 194,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021"
   },
   {
    "name": "Noah Goding",
@@ -18471,7 +18500,11 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Chris Long"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -18503,7 +18536,7 @@
       ""
      ],
      "a": [
-      "Ally Yan",
+      "Paula Ro",
       "Sidd Pathare"
      ]
     },
@@ -18515,7 +18548,7 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Ally Yan"
+      "Paula Ro"
      ]
     },
     {
@@ -18547,8 +18580,12 @@
       ""
      ],
      "a": [
-      "Chris Long",
+      "Vivek Kumar",
       "Sidd Pathare"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -18559,7 +18596,11 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Chris Long"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -18580,7 +18621,7 @@
       ""
      ],
      "a": [
-      "Ally Yan",
+      "Paula Ro",
       "Sidd Pathare"
      ]
     },
@@ -18603,7 +18644,7 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Ally Yan"
+      "Paula Ro"
      ]
     },
     {
@@ -18635,8 +18676,12 @@
       ""
      ],
      "a": [
-      "Chris Long",
+      "Vivek Kumar",
       "Sidd Pathare"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -18647,7 +18692,11 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Chris Long"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -18657,7 +18706,7 @@
       ""
      ],
      "a": [
-      "Ally Yan",
+      "Paula Ro",
       "Jason Makarevic"
      ]
     },
@@ -18702,7 +18751,7 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Ally Yan"
+      "Paula Ro"
      ]
     },
     {
@@ -18723,8 +18772,12 @@
       ""
      ],
      "a": [
-      "Chris Long",
+      "Vivek Kumar",
       "Jason Makarevic"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -18746,7 +18799,11 @@
      ],
      "a": [
       "Anisha Malhotra",
-      "Chris Long"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -18767,7 +18824,7 @@
       ""
      ],
      "a": [
-      "Ally Yan",
+      "Paula Ro",
       "Camrin Cronheim"
      ]
     },
@@ -18790,7 +18847,7 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Ally Yan"
+      "Paula Ro"
      ]
     },
     {
@@ -18801,7 +18858,11 @@
      ],
      "a": [
       "Jason Makarevic",
-      "Chris Long"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -20722,7 +20783,7 @@
   "matchesPlayed": 22,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 193,
+  "totalPlayers": 194,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -20804,7 +20865,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T02:33:26.023Z";
+  DATA.meta.asOf = "2026-09-22T10:39:22.758Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

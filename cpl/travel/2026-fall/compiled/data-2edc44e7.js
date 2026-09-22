@@ -15026,19 +15026,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Brett Kleger"
      ],
      "a": [
       "Katherine Maruyama",
       "Derek Le"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Chris Norton"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15048,8 +15052,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Vicki Main",
@@ -15059,8 +15063,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Talen Singer"
      ],
      "a": [
       "Tera Baccile",
@@ -15070,8 +15074,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Sandra Thompson"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15081,19 +15085,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Jamila Sefiane"
      ],
      "a": [
       "Katherine Maruyama",
       "Erika Simone"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Marchese",
+      "Brett Kleger"
      ],
      "a": [
       "Michael Finkelstein",
@@ -15103,8 +15111,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Talen Singer",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Jim Darcangelo",
@@ -15114,8 +15122,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Brett Kleger"
      ],
      "a": [
       "Katherine Maruyama",
@@ -15125,8 +15133,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Chris Norton"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15136,8 +15144,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "David Marchese"
      ],
      "a": [
       "Vicki Main",
@@ -15147,19 +15155,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Erika Simone",
       "Jim Darcangelo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Linda Zhu"
      ],
      "a": [
       "Vicki Main",
@@ -15169,19 +15181,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Erika Simone",
       "Tera Baccile"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Talen Singer"
      ],
      "a": [
       "Michael Finkelstein",
@@ -15191,8 +15207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Jingwei Wu",
@@ -15202,8 +15218,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15213,8 +15229,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "David Marchese"
      ],
      "a": [
       "Vicki Main",
@@ -15224,8 +15240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Brett Kleger"
      ],
      "a": [
       "Tera Baccile",
@@ -15235,8 +15251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Talen Singer"
      ],
      "a": [
       "Erika Simone",
@@ -15246,8 +15262,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Jamila Sefiane"
      ],
      "a": [
       "Katherine Maruyama",
@@ -15257,19 +15273,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Vicki Main",
       "Tera Baccile"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Chris Norton"
      ],
      "a": [
       "Michael Dieterle",
@@ -15279,8 +15299,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Talen Singer",
+      "David Marchese"
      ],
      "a": [
       "Jingwei Wu",
@@ -15290,8 +15310,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Talen Singer"
      ],
      "a": [
       "Katherine Maruyama",
@@ -15301,8 +15321,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "David Marchese"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15312,19 +15332,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Tera Baccile",
       "Michael Finkelstein"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Chris Norton"
      ],
      "a": [
       "Erika Simone",
@@ -15334,19 +15358,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Linda Zhu"
      ],
      "a": [
       "Katherine Maruyama",
       "Erika Simone"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Jamila Sefiane"
      ],
      "a": [
       "Stephanie Woomer",
@@ -15356,8 +15384,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Marchese",
+      "Brett Kleger"
      ],
      "a": [
       "Jingwei Wu",
@@ -15367,8 +15395,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "Chris Norton"
      ],
      "a": [
       "Michael Dieterle",
@@ -15916,7 +15944,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T22:28:36.759Z";
+  DATA.meta.asOf = "2026-09-22T10:37:22.568Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

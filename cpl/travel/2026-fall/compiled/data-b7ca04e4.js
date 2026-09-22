@@ -13574,6 +13574,35 @@
    "playerId": "f64588f1-c347-41c7-b229-5c718f73574d"
   },
   {
+   "name": "Marcus Burritt",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 482,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9605152c-b88b-40bd-b870-e2ea577e376a"
+  },
+  {
    "name": "Andrea Bramante",
    "gender": "Female",
    "team": "Pickle Juice Blackwood",
@@ -50756,7 +50785,11 @@
      ],
      "a": [
       "Lana Engler Carss",
-      ""
+      "Marcus Burritt"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50814,11 +50847,11 @@
       ""
      ],
      "a": [
-      "",
+      "Marcus Burritt",
       "Steven Doerner"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -50904,7 +50937,11 @@
      ],
      "a": [
       "Dion Brown",
-      ""
+      "Marcus Burritt"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50930,7 +50967,11 @@
      ],
      "a": [
       "Deb Morisie",
-      ""
+      "Marcus Burritt"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -51011,7 +51052,11 @@
      ],
      "a": [
       "Cullen Curley",
-      ""
+      "Marcus Burritt"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     }
    ]
@@ -51746,7 +51791,389 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-09-23T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Joseph Zorbo"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Lisa Weinthal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Danielle Collins"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Zorbo",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Joseph Zorbo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danielle Collins",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Sammy Cohen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Sally Webb"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Danielle Collins"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Joseph Zorbo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Lisa Weinthal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Danielle Collins"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Zorbo",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Mayer",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Joseph Zorbo"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Danielle Collins"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Sammy Cohen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -53141,7 +53568,6 @@
   "Terri Briggs": "8dc50a96-2971-422c-aba4-b519ae2f2748",
   "Thuy Nguyen": "8ea3584b-11a3-4d0c-ace0-bce5bd3a00f1",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
-  "Marcus Burritt": "9605152c-b88b-40bd-b870-e2ea577e376a",
   "Kaylee Ritchie": "97afd4ef-139b-43d3-bc43-1e8f4a50ef89",
   "Solomon Kam": "9ea93639-7caf-4530-9b10-e89f11ff5050",
   "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
@@ -53173,7 +53599,7 @@
   "matchesPlayed": 56,
   "provisionalMatches": 1,
   "weeks": "1-4",
-  "totalPlayers": 496,
+  "totalPlayers": 497,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -53222,7 +53648,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-22T02:33:09.154Z";
+  DATA.meta.asOf = "2026-09-22T10:39:08.417Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

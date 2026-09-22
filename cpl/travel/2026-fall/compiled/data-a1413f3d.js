@@ -5544,8 +5544,8 @@
    "name": "Alexander King",
    "gender": "Male",
    "team": "Pickleball Palace",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 23,
    "wins": 11,
@@ -24435,7 +24435,6 @@
     }
    ],
    "subs": [
-    "Alexander King",
     "Kevin Lo",
     "Ricky Jutkiewicz",
     "Maritoni Agatep"
@@ -28610,7 +28609,6 @@
    ],
    "subs": [
     "Lindsey Loventhal",
-    "Alexander King",
     "Debbie Tovitz",
     "Kevin Lo"
    ]
@@ -37908,7 +37906,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T17:30:21.267Z";
+  DATA.meta.asOf = "2026-09-22T10:38:22.560Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

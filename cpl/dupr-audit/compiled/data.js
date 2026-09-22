@@ -566,6 +566,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Alexander King",
+   "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
+   "team": "Pickleball Palace",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Alexander Masotti",
    "playerId": "5d975e37-5ced-4065-baf6-b2f949c6c78a",
    "team": "Jersey Pickleball Club",
