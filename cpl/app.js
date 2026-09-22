@@ -3882,6 +3882,11 @@ function handleGridViewClick(event) {
   renderResultsGrid();
 }
 
+// Team clicked in the swarm legend, or null when no team is singled out. Set
+// by handleSwarmLegendClick; renderBeeswarm reads it to dim every other
+// team's dots so the selected team's ratings stand out.
+let swarmHighlightTeam = null;
+
 function computeSwarmLayout(players, geometry) {
   const { xScale, cy, top, bottom, radius } = geometry;
   const minDist = 2 * radius + 1; // required center-to-center distance between dots
@@ -3935,12 +3940,22 @@ function renderBeeswarm() {
     .map((node) => {
       const { player } = node;
       const opacity = (0.5 + 0.5 * (player.confidence / 100)).toFixed(2);
-      return `<circle class="swarm-dot" data-player="${escapeHtml(routeKeyForPlayer(player))}" tabindex="0" role="button" aria-label="Open ${escapeHtml(player.name)}'s player detail" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
+      const dimmed = swarmHighlightTeam && player.team !== swarmHighlightTeam;
+      const highlighted = swarmHighlightTeam && player.team === swarmHighlightTeam;
+      const cls = `swarm-dot${dimmed ? ' swarm-dot--dim' : ''}${highlighted ? ' swarm-dot--highlight' : ''}`;
+      return `<circle class="${cls}" data-player="${escapeHtml(routeKeyForPlayer(player))}" data-team="${escapeHtml(player.team)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(player.name)}'s player detail" cx="${node.x.toFixed(1)}" cy="${node.y.toFixed(1)}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 25%)" stroke-width="0.5" opacity="${opacity}"/>`;
     })
     .join('');
 
   const legend = DATA.teams
-    .map((team) => `<span><i style="background:${getTeamColor(team.name)}"></i>${escapeHtml(team.name)}</span>`)
+    // DATA.teams is standings order (best team first) — fine for the standings
+    // table, but a reader hunting for one team in this legend wants A-to-Z.
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((team) => {
+      const active = swarmHighlightTeam === team.name;
+      return `<button type="button" class="swarm-legend-item${active ? ' on' : ''}" data-team="${escapeHtml(team.name)}" aria-pressed="${active ? 'true' : 'false'}"><i style="background:${getTeamColor(team.name)}"></i>${escapeHtml(team.name)}</button>`;
+    })
     .join('');
 
   elements.swarmHost.innerHTML = `
@@ -3990,6 +4005,14 @@ function handleSwarmOver(event) {
   tip.style.left = `${rect.left - host.left + rect.width / 2}px`;
   tip.style.top = `${rect.top - host.top - tip.offsetHeight - 8}px`;
   tip.style.opacity = '1';
+}
+
+function handleSwarmLegendClick(event) {
+  const button = event.target.closest('.swarm-legend-item');
+  if (!button?.dataset.team) return;
+  // Click again to clear it — this is a toggle, not a one-way filter.
+  swarmHighlightTeam = swarmHighlightTeam === button.dataset.team ? null : button.dataset.team;
+  renderBeeswarm();
 }
 
 function handleSwarmOut(event) {
@@ -4053,6 +4076,7 @@ function initialize() {
   elements.gridViewToggle.addEventListener('click', handleGridViewClick);
   elements.duoBody.addEventListener('click', handleDuoClick);
   elements.swarmHost.addEventListener('click', handleSwarmClick);
+  elements.swarmHost.addEventListener('click', handleSwarmLegendClick);
   elements.swarmHost.addEventListener('mouseover', handleSwarmOver);
   elements.swarmHost.addEventListener('mouseout', handleSwarmOut);
   elements.modalHead.addEventListener('click', handlePartnerChipClick);

@@ -1053,7 +1053,8 @@ td.played:focus-visible,
 .duorow:focus-visible,
 .pchip:focus-visible,
 thead th:focus-visible,
-.swarm-dot:focus-visible {
+.swarm-dot:focus-visible,
+.swarm-legend-item:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
@@ -2107,6 +2108,20 @@ thead th:focus-visible,
   cursor: pointer;
 }
 
+/* Every other team's dots, once one team is picked out of the legend. Opacity
+   is set here rather than left to the inline confidence-based opacity attribute
+   because a CSS rule on a presentation attribute always wins, so this dims the
+   dot regardless of how confident that particular rating was. */
+.swarm-dot--dim {
+  opacity: 0.14;
+  filter: saturate(0.4);
+}
+
+.swarm-dot--highlight {
+  stroke: var(--txt);
+  stroke-width: 1.4;
+}
+
 .swarm-legend {
   display: flex;
   flex-wrap: wrap;
@@ -2116,10 +2131,25 @@ thead th:focus-visible,
   font-size: 12px;
 }
 
-.swarm-legend span {
+.swarm-legend span,
+.swarm-legend-item {
   display: inline-flex;
   gap: 6px;
   align-items: center;
+}
+
+.swarm-legend-item {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--mut);
+  cursor: pointer;
+}
+
+.swarm-legend-item:hover,
+.swarm-legend-item.on {
+  color: var(--txt);
 }
 
 .swarm-legend i {
