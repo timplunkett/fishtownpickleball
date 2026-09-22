@@ -3948,6 +3948,10 @@ function renderBeeswarm() {
     .join('');
 
   const legend = DATA.teams
+    // DATA.teams is standings order (best team first) — fine for the standings
+    // table, but a reader hunting for one team in this legend wants A-to-Z.
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
     .map((team) => {
       const active = swarmHighlightTeam === team.name;
       return `<button type="button" class="swarm-legend-item${active ? ' on' : ''}" data-team="${escapeHtml(team.name)}" aria-pressed="${active ? 'true' : 'false'}"><i style="background:${getTeamColor(team.name)}"></i>${escapeHtml(team.name)}</button>`;
