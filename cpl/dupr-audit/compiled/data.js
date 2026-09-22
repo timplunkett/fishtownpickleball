@@ -13348,6 +13348,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Nancy Pace",
+   "playerId": "b051e0af-ace0-4fa2-a58d-e4898c03fa95",
+   "team": "Open Play",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Nancy Wu",
    "playerId": "c187c25d-5d0a-4e66-9ac5-b1a05b0c151f",
    "team": "ACE Downingtown",
@@ -15445,6 +15452,13 @@ window.DUPR_AUDIT = {
    "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Sally Webb",
+   "playerId": "3f572d6d-ebf9-407f-a3e0-999a7b995802",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

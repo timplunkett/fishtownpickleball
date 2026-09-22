@@ -425,9 +425,9 @@
       "weekNumber": 5,
       "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
       "awayTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 582,
+      "awayPoints": 646,
+      "endResult": "away",
       "scheduledTime": "2026-09-21T19:30:00",
       "homeName": "Pickle Juice Blackwood",
       "awayName": "Picklr Newark"

@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5367,7 +5367,36 @@
    "playerId": "27660961-6245-4b09-aafe-359ca3205797"
   },
   {
-   "name": "Vivek Kumar",
+   "name": "Gage Cvijic",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 189,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96"
+  },
+  {
+   "name": "Elliott Albanese",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 0,
@@ -5387,13 +5416,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021"
+   "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8"
+  },
+  {
+   "name": "Kevin Riordan",
+   "gender": "Male",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 200,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7c3dc06e-3448-4274-aab2-521cb3f13b75"
+  },
+  {
+   "name": "Lauren Mammano",
+   "gender": "Female",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 196,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8d896637-2c2a-4541-9155-257bf5a37055"
   },
   {
    "name": "Noah Goding",
@@ -18509,7 +18596,409 @@
    "home": "Flemington",
    "away": "Home Court",
    "time": "2026-09-23T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashley Barros",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Ashley Barros"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Lynda Tomaru"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Riordan",
+      "Noah Goding"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashley Barros",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Ashley Barros"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Lynda Tomaru"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashley Barros",
+      "Austin Williams"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Tomaru",
+      "Ashley Barros"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Aurora Lewis"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Noah Goding"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Tomaru",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Aurora Lewis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Tomaru",
+      "Sheila Siu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Noah Goding",
+      "Kevin Riordan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -18527,7 +19016,7 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ],
      "aSub": [
       0,
@@ -18607,7 +19096,7 @@
       ""
      ],
      "a": [
-      "Vivek Kumar",
+      "Elliott Albanese",
       "Sidd Pathare"
      ],
      "aSub": [
@@ -18623,7 +19112,7 @@
      ],
      "a": [
       "Zoe Ousouljoglou",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ],
      "aSub": [
       0,
@@ -18703,7 +19192,7 @@
       ""
      ],
      "a": [
-      "Vivek Kumar",
+      "Elliott Albanese",
       "Sidd Pathare"
      ],
      "aSub": [
@@ -18719,7 +19208,7 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ],
      "aSub": [
       0,
@@ -18799,7 +19288,7 @@
       ""
      ],
      "a": [
-      "Vivek Kumar",
+      "Elliott Albanese",
       "Jason Makarevic"
      ],
      "aSub": [
@@ -18826,7 +19315,7 @@
      ],
      "a": [
       "Anisha Malhotra",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ],
      "aSub": [
       0,
@@ -18885,7 +19374,7 @@
      ],
      "a": [
       "Jason Makarevic",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ],
      "aSub": [
       0,
@@ -19334,19 +19823,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Gage Cvijic"
      ],
      "a": [
       "Ruhi Shah",
       "Anthony Ursino"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Chris Damato"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -19356,8 +19849,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Zach Hollmann"
      ],
      "a": [
       "Richa Shah",
@@ -19367,8 +19860,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Michael Li"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -19378,8 +19871,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19389,30 +19882,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Lauren Mammano"
      ],
      "a": [
       "Ruhi Shah",
       "Richa Shah"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Gage Cvijic"
      ],
      "a": [
       "Shreyas Pani",
       "Ali Husain"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Mickey Cook"
      ],
      "a": [
       "Maanav Shah",
@@ -19422,8 +19923,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Zach Hollmann"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19433,19 +19934,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lauren Mammano",
+      "Gage Cvijic"
      ],
      "a": [
       "Ruhi Shah",
       "Shreyas Pani"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Mickey Cook"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -19455,8 +19960,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Chris Damato"
      ],
      "a": [
       "Richa Shah",
@@ -19466,8 +19971,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19477,8 +19982,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Emily Babinsky"
      ],
      "a": [
       "Ruhi Shah",
@@ -19488,8 +19993,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Zach Hollmann"
      ],
      "a": [
       "Anthony Ursino",
@@ -19499,19 +20004,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Mickey Cook"
      ],
      "a": [
       "Maanav Shah",
       "Dilan Shah"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Zach Hollmann"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -19521,8 +20030,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Michael Li"
      ],
      "a": [
       "Richa Shah",
@@ -19532,8 +20041,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Chris Damato"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -19543,19 +20052,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lauren Mammano",
+      "Mickey Cook"
      ],
      "a": [
       "Ruhi Shah",
       "Dilan Shah"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Emily Babinsky"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19565,30 +20078,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Lauren Mammano"
      ],
      "a": [
       "Ruhi Shah",
       "Amanda Ksiezopolski"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Zach Hollmann"
      ],
      "a": [
       "Anthony Ursino",
       "Ali Husain"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Chris Damato"
      ],
      "a": [
       "Shreyas Pani",
@@ -19598,30 +20119,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Gage Cvijic"
      ],
      "a": [
       "Sophia Kaufmann",
       "Shreyas Pani"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lauren Mammano",
+      "Mickey Cook"
      ],
      "a": [
       "Richa Shah",
       "Ali Husain"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Zach Hollmann"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19631,8 +20160,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Michael Li"
      ],
      "a": [
       "Ruhi Shah",
@@ -19642,8 +20171,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Yoyo Shen"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -19653,8 +20182,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Emily Babinsky"
      ],
      "a": [
       "Ruhi Shah",
@@ -19664,8 +20193,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Zach Hollmann"
      ],
      "a": [
       "Maanav Shah",
@@ -19675,8 +20204,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Chris Damato"
      ],
      "a": [
       "Dilan Shah",
@@ -20796,22 +21325,20 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Gage Cvijic": "4572bf15-1066-42b7-ae74-94d6175b1b96",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stephanie Moniz": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
-  "Elliott Albanese": "6af88387-5e2b-4ea7-b732-22885e4931a8",
   "Michael Velez": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
-  "Lauren Mammano": "8d896637-2c2a-4541-9155-257bf5a37055",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
-  "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705"
+  "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+  "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021"
  },
  "meta": {
   "matchesPlayed": 22,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 195,
+  "totalPlayers": 198,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -20893,7 +21420,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T16:00:52.902Z";
+  DATA.meta.asOf = "2026-09-22T20:42:58.857Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
