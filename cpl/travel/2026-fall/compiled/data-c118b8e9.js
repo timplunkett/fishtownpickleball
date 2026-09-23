@@ -7388,7 +7388,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 283,
+   "leagueRank": 284,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7417,7 +7417,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7446,7 +7446,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 274,
+   "leagueRank": 275,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -34863,6 +34863,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Matthew Rafaniello": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
+  "Nathan Labarba": "09a7d6c3-7bc5-4760-97a7-71f06a1197a1",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
@@ -34991,7 +34992,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T10:32:59.251Z";
+  DATA.meta.asOf = "2026-09-23T15:52:58.622Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

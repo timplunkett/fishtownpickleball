@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9824,7 +9824,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 377,
+   "leagueRank": 378,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9853,7 +9853,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 384,
+   "leagueRank": 385,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9882,7 +9882,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 403,
+   "leagueRank": 405,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9911,7 +9911,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 373,
+   "leagueRank": 374,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9940,7 +9940,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 381,
+   "leagueRank": 382,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9969,7 +9969,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9998,7 +9998,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 374,
+   "leagueRank": 375,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10056,7 +10056,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 404,
+   "leagueRank": 406,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10085,7 +10085,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 372,
+   "leagueRank": 373,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10114,7 +10114,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10143,7 +10143,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 415,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10172,7 +10172,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 379,
+   "leagueRank": 380,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10201,7 +10201,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 368,
+   "leagueRank": 369,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10230,7 +10230,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 393,
+   "leagueRank": 394,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10259,7 +10259,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 370,
+   "leagueRank": 371,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10288,7 +10288,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 399,
+   "leagueRank": 400,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10317,7 +10317,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -30643,6 +30643,87 @@
      "t": "mixed",
      "h": [
       "Nan Feng",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Margaret Bayse",
+      "Pedro Oliveira"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shobana Ravishankar",
+      "Herald Barber"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shobana Ravishankar",
+      "Judy Brougham"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ting Chen",
+      "Izabel Illipronti"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Levitt",
+      "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Pedro Oliveira",
       "Bin Li"
      ],
      "a": [
@@ -30657,8 +30738,23 @@
     {
      "t": "mixed",
      "h": [
-      "Ting Chen",
-      "Pedro Oliveira"
+      "Judy Brougham",
+      "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nan Feng",
+      "Herald Barber"
      ],
      "a": [
       "",
@@ -30668,8 +30764,67 @@
     {
      "t": "mixed",
      "h": [
+      "Margaret Bayse",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ting Chen",
+      "Bin Li"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Margaret Bayse",
+      "Nan Feng"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
       "Izabel Illipronti",
-      "Herald Barber"
+      "Shobana Ravishankar"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Herald Barber",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Levitt",
+      "Pedro Oliveira"
      ],
      "a": [
       "",
@@ -30681,6 +30836,54 @@
      "h": [
       "Shobana Ravishankar",
       "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Judy Brougham",
+      "Bin Li"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ting Chen",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Pedro Oliveira"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nan Feng",
+      "Ting Chen"
      ],
      "a": [
       "",
@@ -30705,12 +30908,123 @@
     {
      "t": "male",
      "h": [
-      "Stephen Levitt",
+      "Herald Barber",
       "Gary Grzankowski"
      ],
      "a": [
       "",
       ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Stasiulewicz",
+      "Bin Li"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nan Feng",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shobana Ravishankar",
+      "Pedro Oliveira"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Margaret Bayse",
+      "Herald Barber"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Izabel Illipronti",
+      "Judy Brougham"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ting Chen",
+      "Shobana Ravishankar"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Pedro Oliveira",
+      "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Levitt",
+      "Bin Li"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -30790,27 +31104,27 @@
     {
      "t": "mixed",
      "h": [
-      "Nan Feng",
+      "Zhihong Ge",
       "Chris Shung"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Ting Chen",
-      "Madan P"
      ],
      "a": [
       "",
       ""
      ],
      "hSub": [
-      0,
-      1
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ting Chen",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
      ]
     },
     {
@@ -30827,8 +31141,8 @@
     {
      "t": "mixed",
      "h": [
-      "Shobana Ravishankar",
-      "Stephen Stasiulewicz"
+      "Margaret Bayse",
+      "Gary Grzankowski"
      ],
      "a": [
       "",
@@ -30839,7 +31153,7 @@
      "t": "female",
      "h": [
       "Zhihong Ge",
-      "Margaret Bayse"
+      "Nan Feng"
      ],
      "a": [
       "",
@@ -30851,9 +31165,331 @@
      ]
     },
     {
+     "t": "female",
+     "h": [
+      "Izabel Illipronti",
+      "Shobana Ravishankar"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
      "t": "male",
      "h": [
-      "Stephen Levitt",
+      "Stephen Stasiulewicz",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Shung",
+      "Madan P"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shobana Ravishankar",
+      "Madan P"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nan Feng",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ting Chen",
+      "Herald Barber"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Margaret Bayse",
+      "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ting Chen",
+      "Margaret Bayse"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Izabel Illipronti",
+      "Zhihong Ge"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Herald Barber",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Shung",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nan Feng",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Madan P"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Zhihong Ge",
+      "Chris Shung"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Shobana Ravishankar",
+      "Stephen Stasiulewicz"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nan Feng",
+      "Ting Chen"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shobana Ravishankar",
+      "Margaret Bayse"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Herald Barber",
+      "Madan P"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Stasiulewicz",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Stephen Levitt"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Zhihong Ge",
+      "Herald Barber"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ting Chen",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Margaret Bayse",
+      "Chris Shung"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Shobana Ravishankar",
+      "Zhihong Ge"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nan Feng",
+      "Izabel Illipronti"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Shung",
+      "Madan P"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stephen Stasiulewicz",
       "Gary Grzankowski"
      ],
      "a": [
@@ -31492,6 +32128,7 @@
  "extraPlayerIds": {
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+  "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
   "Mary Jo Guthner": "0f2b8b36-422e-42b6-9a25-9e4feb4bb6fd",
   "Andrea Smith": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
   "Marcos Medroso": "152f95d8-c8ac-457d-a469-d5270c47cc47",
@@ -31508,6 +32145,7 @@
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "Lan Bin": "97ed17e1-9a68-45fe-adf5-f20d33ea7239",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Anita Maloney": "bcf83697-834f-4631-bfff-66f79a4bf841",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
@@ -31630,7 +32268,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T02:34:17.006Z";
+  DATA.meta.asOf = "2026-09-23T15:52:17.180Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

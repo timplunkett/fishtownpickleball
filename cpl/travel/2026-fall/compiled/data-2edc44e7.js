@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15858,6 +15858,7 @@
   "Liby Saigal": "dc2026ad-428a-4822-ae40-889727c35b10",
   "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
   "Rick Vazquez": "e532dafb-ff0f-43fc-82be-687d34ab8c14",
+  "John Rogers": "ea556dfe-e3ee-4ad0-ba0f-62e1e9f6bf89",
   "Yang Xu": "f607099c-35f9-448c-9077-1792b245f68e"
  },
  "meta": {
@@ -15946,7 +15947,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T02:31:27.037Z";
+  DATA.meta.asOf = "2026-09-23T15:49:06.768Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

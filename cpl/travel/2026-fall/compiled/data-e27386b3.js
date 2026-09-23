@@ -7429,8 +7429,8 @@
    "name": "Rashmi Patade",
    "gender": "Female",
    "team": "Open Play",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 10,
    "wins": 3,
@@ -9476,7 +9476,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9563,7 +9563,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 385,
+   "leagueRank": 386,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9592,7 +9592,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9708,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 378,
+   "leagueRank": 379,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17744,9 +17744,7 @@
      ]
     }
    ],
-   "subs": [
-    "Rashmi Patade"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -20538,7 +20536,6 @@
    ],
    "subs": [
     "Yawen Zhang",
-    "Rashmi Patade",
     "Emiliya Mizrahi"
    ]
   },
@@ -34843,6 +34840,7 @@
   "Ken Bienkowski": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
   "Crizle Ong": "611e6c5a-d294-40b0-bf75-afbca58b145a",
   "Carolyn Shipe": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
+  "Sharon Oddy": "697e9a10-3950-4376-96f8-8b1f083875f1",
   "Stephanie Li": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
   "Isabella Silva": "6b4c5230-95a7-4b24-b971-47c8eb53b251",
   "Andrew Tayag": "6c6f580c-14e7-4c43-a9e0-797f1c01b818",
@@ -34991,7 +34989,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T02:32:01.084Z";
+  DATA.meta.asOf = "2026-09-23T15:49:44.220Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

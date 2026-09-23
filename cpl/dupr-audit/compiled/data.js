@@ -14601,6 +14601,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Rashmi Patade",
+   "playerId": "c56ab685-5c55-4437-98a6-7a9b8c95895d",
+   "team": "Open Play",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Ray Hooley",
    "playerId": "c19c7479-4f7e-4727-9e1d-4e7aafc7a86e",
    "team": "ACE Moorestown",
